@@ -55,4 +55,3 @@ Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anforderung
 * **Change sent to author**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
 * **ready-to-merge**: Bereit zur Überprüfung durch unser Pull-Anforderung-Überprüfungsteam.
 
-
