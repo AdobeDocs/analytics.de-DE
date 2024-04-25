@@ -4,10 +4,10 @@ description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet we
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ Wenn dieses Feld leer gelassen wird, wird standardmäßig `[rsid].data.adobedc.n
 
 Die `s.trackingServer`-Variable ist eine Zeichenfolge, die den Ort enthält, an die Daten gesendet werden sollen.
 
-## Den Wert für `trackingServer`
+## Überlegungen zur Bestimmung des Werts für `trackingServer`
 
-Der Wert dieser Variablen hängt davon ab, ob Sie Erstanbieter-Cookies oder Drittanbieter-Cookies verwenden. Adobe empfiehlt dringend, Erstanbieter-Cookies in Ihrer Implementierung zu verwenden.
+Sie können die Verwendung von Adobe Tracking-Server-Domains (z. B. `adobedc.net`) oder Sie können einen speziellen Prozess durchlaufen, um einen Trackingserver einzurichten, der Ihrer Sites-Domäne entspricht (z. B. `data.mydomain.com`), auch als CNAME-Implementierung bezeichnet. Ein Trackingserver, der Ihrer Site-Domäne entspricht, kann abhängig von anderen Aspekten Ihrer Implementierung einige Vorteile bieten. Wenn der Tracking-Server nicht mit der Domäne der aktuellen Seite übereinstimmt, müssen von AppMeasurement festgelegte Cookies als Drittanbieter gesetzt werden. Wenn der Browser keine Drittanbieter-Cookies unterstützt, kann diese Diskrepanz bestimmte Analytics-Funktionen beeinträchtigen:
+
+- Festlegen von Identifikatoren: Wenn Sie den Experience Cloud Identity-Dienst verwenden, hat der Tracking-Server keine Auswirkungen auf das Setzen von Cookies. Wenn Sie jedoch ältere Analytics-IDs verwenden (auch `s_vi` -Cookie) und der Erfassungsserver nicht mit der aktuellen Domäne übereinstimmt, müssen Cookies als Drittanbieter gesetzt werden. Wenn Drittanbieter-Cookies vom Browser blockiert werden, setzt Analytics eine Erstanbieter-Ausweich-ID (`s_fid`) anstelle des Standards `s_vi` Cookie.
+- Das Linktracking funktioniert bei internen Links nicht.
+- Activity Map funktioniert nicht für interne Links.
+- Cookie-Prüfung.
 
 ### Erstanbieter-Cookies
 
@@ -73,7 +78,7 @@ Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert
 s.trackingServer = "data.example.com";
 ```
 
-### Drittanbieter-Cookies
+### Tracking-Server von Drittanbietern
 
 >[!TIP]
 >
