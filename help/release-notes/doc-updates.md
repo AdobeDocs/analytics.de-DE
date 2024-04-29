@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '5273'
-ht-degree: 99%
+source-wordcount: '5315'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **April 2024** | |
+| Die Dokumentation zu &quot;Inhaber&quot;in Classification-Sets wurde entfernt. | Der Filter und die Spalte &quot;Inhaber&quot;wurden aus dem [Classification Set Manager](/help/components/classifications/sets/manage/set-manager.md) und das Feld &quot;Inhaber&quot;wurde aus dem [Einstellungen für Klassifizierungssätze](/help/components/classifications/sets/manage/settings.md). <p>Die Dokumentation wurde aktualisiert, um diesen Filter, diese Spalte und dieses Feld zu entfernen.</p> |
 | Reduzierbare Abschnitte in der Dokumentation zum Konfigurieren von Cloud-Import- und -Exportspeicherorten wurden entfernt | Ausblendbare Abschnitte in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) für Informationen zu Cloud-Kontotypen. |
 | **März 2024** | |
 | AppMeasurement-Aktualisierung | [Versionshinweise](/help/implement/appmeasurement-updates.md) zur AppMeasurement-Aktualisierung v2.26.0.<br/>Enthält einen Verweis auf die und eine Aktualisierung der Dokumentation zu Konfigurationsvariablen [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
