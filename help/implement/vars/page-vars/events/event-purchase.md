@@ -4,10 +4,10 @@ description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestell
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '468'
+ht-degree: 70%
 
 ---
 
@@ -30,10 +30,34 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md) verwendet das Kaufereignis die folgenden XDM-Felder:
 
 * Bestellungen werden `xdm.commerce.purchases.value` zugeordnet.
-* Einheiten werden der Summe aller `xdm.productListItems[].quantity`-Felder zugeordnet.
+* Einheiten werden der Summe aller `xdm.productListItems[].quantity` -Felder. Siehe [`products`](../products.md) für weitere Informationen.
 * Der Umsatz wird der Summe aller `xdm.productListItems[].priceTotal`-Felder zugeordnet.
 
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
 Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md) verwendet das Kaufereignis `data.__adobe.analytics.events`, die der AppMeasurement-String-Syntax folgt.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## Festlegen des Kaufereignisses mit der Adobe Analytics-Erweiterung
 

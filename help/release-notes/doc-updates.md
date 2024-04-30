@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5315'
 ht-degree: 98%
@@ -150,7 +150,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Neues Thema zum Bedienfeld [!UICONTROL Seitenzusammenfassung] | [Bedienfeld „Seitenzusammenfassung“](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Neues Thema zum Bedienfeld [!UICONTROL Nächstes/Vorheriges Element] | [Bedienfeld „Nächstes/vorheriges Dimensionselement“](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **März 2022** | |
-| Neues Kapitel zu unterstützten HTTPS-Verschlüsselungsalgorithmen | [Unterstützung von HTTPS-Verschlüsselungsalgorithmen](/help/technotes/rdc/encryption-algos.md) für Kunden, bei denen die Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist. |
+| Neues Kapitel zu unterstützten HTTPS-Verschlüsselungsalgorithmen | Unterstützte HTTPS-Verschlüsselungsalgorithmen für Kunden mit Verschlüsselungssicherheitsniveau &quot;Hoch&quot;. |
 | Neue Dokumentation zu Anmerkungen in Analysis Workspace | [Anmerkungen in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) ermöglichen es Ihnen, kontextbezogene Informationen und Einblicke zu Daten effektiv an Ihr Unternehmen weiterzugeben. |
 | Aktualisierungen der Landingpage von Adobe Analytics | [Aktualisierungen](/help/analyze/landing.md) der gemeinsamen Landingpage für Analysis Workspace/Reports &amp; Analytics, wodurch die Benutzerfreundlichkeit verbessert und die Navigation vereinfacht werden. |
 | Analysis Workspace-Bedienfeld [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] | In diesem Bedienfeld können Sie Elemente untersuchen, die einem von Ihnen ausgewählten Dimensionselement folgen oder vorausgehen. |
@@ -296,7 +296,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 9. Mai 2019 | Eine neue Einstellung wurde zu den Fluss-Visualisierungseinstellungen hinzugefügt: Wiederholungsinstanzen einschließen. Siehe [Flusseinstellungen](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 11. April 2019 | Verbesserungen der Best Practices zur Arbeitsbereich-Optimierung: [Leistungsoptimierung](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11. April 2019 | Aktualisierung von [Optimize Arbeitsbereich Performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| 14. März 2019 | Umfassende Aktualisierung von [Regionale Datenerfassung](/help/technotes/rdc/regional-data-collection.md). |
+| 14. März 2019 | Umfassende Aktualisierung der regionalen Datenerfassung. |
 | 7. Februar 2019 | Geringfügige Aktualisierung der Einstellungen von „Replace the last octet of IP addresses with 0“ und den „IP Obfuscation“ in [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1. Februar 2019 | Umfangreiche Aktualisierung des Implementierungs-Plug-ins [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17. Januar 2019 | [Kohortenanalyse](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Umfangreiche Verbesserungen an der Kohortenanalyse ermöglichen Ihnen Folgendes:<ul><li>Anwendung einer Segmentaufnahme und separate Rückgabe von Metriken. </li><li>Anzeige von Abwanderung statt Treue.</li><li>Anzeige von Latenztabellen (verstrichene Zeit vor und nach einem Aufnahmeereignis).</li><li>Anpassung der Kohortendimension (Gruppierung von Besuchern basierend auf einem eVar, nicht nur auf der Zeit).</li><li>Führen Sie eine rollierende Kohortenberechnung durch: Berechnung von Bindung/Abwanderung basierend auf dem vorherigen Zeitraum, nicht auf der ursprünglichen Kohorte. </li><li>Hinzufügen mehrerer Metriken in Aufnahme- und Rückkehrfeldern sowie Anwendung von Segmenten. (Berechnete Metriken werden nicht unterstützt)</li></ul> |

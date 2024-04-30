@@ -4,10 +4,10 @@ description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer e
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '500'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 >[!NOTE]
 >
->Listenvariablen speichern die letzten 250 Werte pro Besucher. Wenn mehr als 250 eindeutige Werte für einen bestimmten Besucher vorhanden sind, werden die ältesten Werte nicht den Metriken zugeordnet.
+>Listenvariablen speichern die neuesten Werte pro Besucher basierend auf dessen [!UICONTROL Max. Werte] Einstellung in [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Es werden bis zu 250 Werte unterstützt. Wenn es mehr eindeutige Werte gibt als die [!UICONTROL Max. Werte] erlaubt, werden die ältesten Werte nicht den Metriken zugeordnet.
 
 ## Einrichten von Listenvariablen in den Report Suite-Einstellungen
 
@@ -77,7 +77,7 @@ In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable 
 
 ## s.list1 – s.list3 in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Sie haben keine maximale Byte-Anzahl; jeder einzelne Wert hat jedoch ein Maximum von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in den [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) festgelegt. Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
+Jede Listenvariable ist eine Zeichenfolge, die für Ihr Unternehmen spezifische benutzerdefinierte Werte enthält. Diese Variable hat keine maximale Byte-Anzahl. Jeder einzelne Wert hat jedoch eine Maximallänge von 255 Byte. Das Trennzeichen, das Sie verwenden, wird beim Einrichten der Variablen in den [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) festgelegt. Verwenden Sie keine Leerzeichen, wenn Sie mehrere Elemente trennen.
 
 ```js
 // A list variable configured with a comma as a delimiter

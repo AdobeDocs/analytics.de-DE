@@ -4,10 +4,10 @@ description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adob
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 97%
+source-wordcount: '1909'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ In diesem Dokument wird erläutert, wie sich die Tracking-Präventionsmaßnahmen
 ## Wie haben Browser die Verwendung von Cookies eingeschränkt?
 
 >[!NOTE]
->[Geräteübergreifende Analyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=de#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de#comparing-cja-to-traditional-adobe-analytics) kann mithilfe einer Personen-ID, z. B. einer Hash-Anmelde-ID, über Cookies hinweg zuordnen, sofern eine ID verfügbar ist.
+>Die [geräteübergreifende Analyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=de#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de#comparing-cja-to-traditional-adobe-analytics) können Cookies mithilfe einer Personen-ID (z. B. einer Hash-Anmelde-ID) zuordnen, sofern eine solche ID verfügbar ist.
 
 ### Einschränkungen bei Third-Party-Cookies
 
@@ -75,7 +75,7 @@ Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 Third-Party-Cookies werden nicht von den Websites erstellt, die Anwender besuchen.
 
-Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Drittanbieter-Cookies eines Kunden speichern Browser die Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) ID als Drittanbieter-Cookie, der Client führt jedoch nur -Aufrufe an Adobe und nicht zu unbekannte oder verdächtige Drittanbieterdomänen durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Drittanbieter-Cookies einer Kundin oder eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Drittanbieter-Cookie ab, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Drittanbieter-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
 
 In Analytics-Implementierungen werden Third-Party-Cookies für Domain-übergreifendes Tracking und für Werbeanwendungen wie Retargeting-Anzeigen verwendet. Mit Third-Party-Cookies können Sie Besucher identifizieren, die verschiedene Domains besuchen, deren Inhaber Sie sind, oder denen Anzeigen auf Sites präsentiert werden, deren Inhaber Sie nicht sind.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -105,7 +105,7 @@ Das Standardverhalten in diesen Browser-Versionen besteht darin, Cookies, die ke
 
 Für Kunden, die den Besucher-ID-Dienst verwenden, sind die Eigenschaften `SameSite=None` und `secure` standardmäßig festgelegt, sodass diese Cookies Third-Party-Anwendungen unterstützen können.
 
-Bei Kunden, die ältere Analytics-IDs (Cookies „s_vi“ und „s_fid“) verwenden, werden Cookies ebenfalls gesetzt, um Third-Party-Anwendungen mit Standarderfassungs-Domains zu ermöglichen: adobedc.net, 2o7.net und omtrdc.net. Für Kunden, die eine CNAME-Implementierung verwenden, setzt Analytics `SameSite=Lax`.
+Für Kunden, die ältere Analytics-Kennungen (`s_vi` und `s_fid` -Cookies), werden Cookies auch gesetzt, um Anwendungsfälle von Drittanbietern mit standardmäßigen Erfassungsdomänen zu aktivieren: `adobedc.net`, `2o7.net`, und `omtrdc.net`. Für Kunden, die eine CNAME-Implementierung verwenden, setzt Analytics `SameSite=Lax`.
 
 >[!NOTE]
 >

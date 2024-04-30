@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: f9d06b8222f557e40792e1fad4714ce97b9a02c9
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
@@ -52,10 +52,6 @@ ht-degree: 100%
 + [Verarbeitungsreihenfolge](processing-order.md)
 + [Progressive Web-Apps](pwa.md)
 + [Umleitungen und Aliase](redirects.md)
-+ Regionale Datenerfassung {#rdc}
-   + [Hilfe zur regionalen Datenerfassung](rdc/regional-data-collection.md)
-   + [SSL-Zertifizierungslizenzierung](rdc/ssl-cert-licensing.md)
-   + [Unterstützte HTTPS-Verschlüsselungsalgorithmen](rdc/encryption-algos.md)
 + [Sicherheitsressourcen](security.md)
 + [Verwendete Begriffe (Glossar)](terms.md)
 + [Zeitstempel optional](timestamps-optional.md)
