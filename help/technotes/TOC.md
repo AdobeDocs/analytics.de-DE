@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: f9d06b8222f557e40792e1fad4714ce97b9a02c9
+source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 100%
 
 ---
@@ -42,8 +42,9 @@ ht-degree: 100%
    + [Browsercookies](cookies/cookies.md)
    + [Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies](cookies/cookieless.md)
 + [Datenaufbewahrung](data-retention.md)
++ [Domänen](domains.md)
 + [Ausschließen von Daten](exclude-data.md)
-+ [Von Adobe Analytics verwendete IPs und Domains](ip-addresses.md)
++ [IP-Adressen](ip-addresses.md)
 + [Latenz](latency.md)
 + [Geringer Traffic-Wert](low-traffic.md)
 + [Migrieren von Verarbeitungsregeln für Mobile Services nach Adobe Analytics](migrate-mobile.md)
