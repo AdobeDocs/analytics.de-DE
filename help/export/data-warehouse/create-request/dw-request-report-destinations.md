@@ -4,9 +4,9 @@ title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2584'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfi
 >
 >* Es wird empfohlen, ein Cloud-Konto oder eine E-Mail-Adresse für Ihr Berichtsziel zu verwenden. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
 >
->* Alle Cloud-Konten, die Sie zuvor konfiguriert haben, stehen zum Data Warehouse zur Verfügung. Sie können Cloud-Konten auf eine der folgenden Arten konfigurieren:
+>* Alle von Ihnen zuvor konfigurierten Cloud-Konten stehen zur Data Warehouse-Verwendung zur Verfügung. Sie können Cloud-Konten wie folgt konfigurieren:
 >
->   * Bei der Konfiguration [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
+>   * beim Konfigurieren von [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
 >   
->   * Wann [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) (Konten können verwendet werden, aber alle Orte, die für diese Konten konfiguriert sind, können nicht verwendet werden.)
+>   * beim [Importieren von Adobe Analytics-Klassifizierungsdaten](/help/components/locations/locations-manager.md) (Konten verwendbar, alle für diese Konten konfigurierten Speicherorte allerdings nicht)
 >   
->   * Klicken Sie im Standort-Manager auf [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md).
+>   * über den Speicherort-Manager unter [Komponenten > Speicherorte](/help/components/locations/configure-import-accounts.md)
 >
 >* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzende können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
 >
->* Sie können alle Orte bearbeiten, die Sie über den Locations-Manager in [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md)
+>* Sie können alle über den Speicherort-Manager erstellten Speicherorte unter [Komponenten > Speicherorte](/help/components/locations/configure-import-accounts.md) bearbeiten.
 
 Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
@@ -44,27 +44,27 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
    ![Registerkarte „Berichtsziel“](assets/dw-report-destination.png)
 
-1. (Bedingt) Wenn in Adobe Analytics bereits ein Cloud-Konto (und ein Ziel auf diesem Konto) konfiguriert wurde, können Sie es als Berichtsziel verwenden:
+1. (Bedingt) Wenn ein Cloud-Konto (und ein Ziel in diesem Konto) bereits in Adobe Analytics konfiguriert wurde, können Sie es als Berichtsziel verwenden:
 
    >[!NOTE]
    >
    >Konten stehen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, zu der Sie gehören.
    >
-   >Wenn Sie Systemadministrator sind, wird die [!UICONTROL **Alle Ziele anzeigen**] verfügbar ist. Aktivieren Sie diese Option, um Zugriff auf alle Konten und Speicherorte zu erhalten, die von Benutzenden in der Organisation erstellt wurden.
+   >(Optional) Als Systemadmin steht Ihnen die Option [!UICONTROL **Alle Ziele anzeigen**] zur Verfügung. Aktivieren Sie diese Option, um Zugriff auf alle Konten und Speicherorte zu erhalten, die von Benutzenden in der Organisation erstellt wurden.
 
    1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
 
       Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
 
-      * Beim Importieren von Adobe Analytics-Classification-Daten, wie unter [Schema](/help/components/classifications/sets/manage/schema.md).
+      * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
 
         Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
 
-      * Beim Konfigurieren von Konten und Speicherorten im Bereich Standorte, wie beschrieben in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
+      * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
    1. Wählen Sie das mit dem Konto verknüpfte Ziel aus dem Dropdown-Menü [!UICONTROL **Ziel auswählen**] aus. <!-- Is this correct? -->
 
-1. (Bedingt) Wenn Sie keinen Zugriff auf ein Cloud-Konto haben, das bereits in Adobe Analytics konfiguriert ist, können Sie eines konfigurieren:
+1. (Bedingt) Wenn Sie keinen Zugriff auf ein Cloud-Konto haben, das bereits in Adobe Analytics konfiguriert ist, können Sie eines wie folgt konfigurieren:
 
    1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
@@ -80,7 +80,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       +++Amazon S3
 
-      Geben Sie die folgenden Informationen an, um ein Amazon S3 Role ARN-Konto zu konfigurieren:
+      Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
       | Feld | Funktion |
       |---------|----------|
@@ -111,7 +111,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
       |---------|----------|
       | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-URI im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.</li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault. Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.</li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
       | [!UICONTROL **Key Vault-Geheimnisname**] | Der Geheimnisname, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf den **Key Vault**-Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
@@ -158,7 +158,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Behälternamen müssen bestimmten Benennungsregeln entsprechen. Sie müssen beispielsweise zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der Dokumentation zu AWS .](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
       {style="table-layout:auto"}
@@ -185,7 +185,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
       | Feld | Funktion |
       |---------|----------|
       | [!UICONTROL **Container-Name**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
-      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-URI-Store, den Sie beim Konfigurieren des Azure SAS-Kontos im Feld Key Vault Secret Name angegeben haben, den `Write` -Berechtigung. Dadurch kann der SAS-URI Dateien in Ihrem Azure-Container erstellen. <p>Wenn der SAS-URI auch Dateien überschreiben soll, stellen Sie sicher, dass der SAS-URI-Store über die `Delete` -Berechtigung.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
+      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-URI-Speicher, den Sie bei der Konfiguration des Azure SAS-Kontos im Feld „Key Vault-Geheimnisname“ angegeben haben, über die `Write`-Berechtigung verfügt. Dadurch kann der SAS-URI Dateien in Ihrem Azure-Container erstellen. <p>Wenn Sie möchten, dass der SAS-URI auch Dateien überschreibt, stellen Sie sicher, dass der SAS-URI-Speicher die `Delete`-Berechtigung besitzt.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
 
       {style="table-layout:auto"}
 
