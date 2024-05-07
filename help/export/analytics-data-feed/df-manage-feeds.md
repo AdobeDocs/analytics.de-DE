@@ -3,10 +3,10 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 77%
+source-wordcount: '692'
+ht-degree: 68%
 
 ---
 
@@ -71,7 +71,7 @@ Jeder erstellte Feed zeigt mehrere Spalten mit Informationen an. Wählen Sie ein
    * Gelöscht: Der Feed wurde gelöscht.
    * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, angehalten und abgebrochen werden.
    * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-   * Inaktiv: Entspricht einem Status „angehalten“. Wenn der Feed reaktiviert wird, wird die Bereitstellung von Aufträgen an derselben Stelle fortgesetzt.
+   * Inaktiv: Entspricht einem Status „angehalten“. Wenn ein Aufstockungs-Feed (ein Feed, der nur historische Daten verarbeitet) reaktiviert wird, wird die Bereitstellung von Aufträgen ab dem Zeitpunkt des Stopps fortgesetzt. Wenn ein Live-Feed reaktiviert wird, wird die Bereitstellung von Aufträgen ab dem Zeitpunkt des Stopps fortgesetzt.
 * **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
 * **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
 * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.
@@ -84,4 +84,4 @@ Aktivieren Sie das Kontrollkästchen neben einem Daten-Feed, um verfügbare Akti
 * **Löschen**: Löscht den Daten-Feed und ändert dessen Status zu [!UICONTROL Gelöscht].
 * **Kopieren**: Ermöglicht die [Erstellung eines neuen Feeds](create-feed.md) mit allen Einstellungen des aktuellen Feeds. Ein Daten-Feed kann nicht kopiert werden, wenn mehrere Feeds ausgewählt sind.
 * **Anhalten**: Beendet die Verarbeitung für den Feed und setzt dessen Status auf [!UICONTROL Inaktiv].
-* **Aktivieren**: Nur für inaktive Feeds verfügbar. Ruft die Verarbeitungsdaten an der Stelle ab, an der aufgehört wurde, und füllt ggf. alle Daten rückwirkend auf.
+* **Aktivieren**: Nur für inaktive Feeds verfügbar. Aufstockungs-Feeds (Feeds, die nur historische Daten verarbeiten) nehmen die Verarbeitung der Daten an der Stelle wieder auf, an der sie angehalten wurden, und stocken bei Bedarf alle Daten auf. Live-Feeds setzen die Verarbeitung von Daten aus der aktuellen Zeit fort.
