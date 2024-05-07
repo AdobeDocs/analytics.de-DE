@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie mehr über häufig gestellte Fragen zu Report Builder.
-title: Häufig gestellte Fragen zu Report Buildern
+description: Erfahren Sie mehr zu häufig gestellte Fragen zu Report Builder.
+title: Häufig gestellte Fragen zu Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 91%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 Häufig gestellte Fragen rund um Report Builder.
 
-## Kann ich die Funktion `TODAY()` oder `DATERANGE()` in Arbeitsmappen verwenden?
+## Kann ich die Funktion `TODAY()` oder `DATERANGE()` in Arbeitsmappen verwenden? {#today}
 
 Die [`TODAY()`-Funktion](https://support.microsoft.com/de-de/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) in Excel gibt den aktuellen Tag zurück. Die [`DATEVALUE()`-Funktion](https://support.microsoft.com/de-de/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) wandelt eine Datumszeichenfolge in einen seriellen Wert um. Obwohl diese Funktionen für viele Funktionalitäten in Excel hilfreich sind, empfiehlt Adobe dringend, diese Funktionen nicht als Teil geplanter Report Builder-Anfragen zu verwenden. Die Adobe-Kundenunterstützung unterstützt keine Anfragen zur Fehlerbehebung mit einer dieser Funktionen.
 
@@ -23,12 +23,16 @@ Terminierte Berichte werden auf Servern verarbeitet, die wahrscheinlich nicht di
 
 Terminierte Berichte werden auch auf Servern verarbeitet, die wahrscheinlich keine Datumssyntax verwenden. Zum Beispiel kann `7/1/YYYY` je nach Land oder Region auf den 1. Juli oder den 7. Januar verweisen. Die Anwendung der Funktion `DATEVALUE()` auf dieses Datum würde zu unterschiedlichen seriellen Werten führen, je nachdem, welcher Computer die Funktion ausführt.
 
-Als Alternative zu diesen Excel-Funktionen empfiehlt Adobe dringend die Verwendung von Datumsbereichen innerhalb von Report Builder-Anfragen. Wählen Sie auf der ersten Seite des Anforderungs-Assistenten die Option **[!UICONTROL Vordefinierte Datumswerte]** Wählen Sie in der Dropdown-Liste und dann unter &quot;Häufig verwendete Datumswerte&quot;die Option **[!UICONTROL Heute]** oder einen anderen gewünschten Datumsbereich. Bei dieser Einstellung wird die Zeit der Report Suite zum Zeitpunkt der Ausführung berücksichtigt und nicht die Zeit, zu der der Server die Anforderung verarbeitet.
+Als Alternative zu diesen Excel-Funktionen empfiehlt Adobe dringend die Verwendung von Datumsbereichen innerhalb von Report Builder-Anfragen. Wählen Sie auf der ersten Seite des Anfrage-Assistenten in der Dropdown-Liste **[!UICONTROL Vordefinierte Datumswerte]** und dann unter „Häufig verwendete Datumswerte“ die Option **[!UICONTROL Heute]** oder einen anderen gewünschten Datumsbereich aus. Bei dieser Einstellung wird die Zeit der Report Suite zum Zeitpunkt der Ausführung berücksichtigt und nicht die Zeit, zu der der Server die Anforderung verarbeitet.
 
-## Wie groß und komplex kann ich meine Arbeitsmappen machen?
+## Wie groß und komplex kann ich meine Arbeitsmappen machen? {#complexity}
 
 Report Builder unterstützt Arbeitsmappen bis zu den folgenden Grenzen:
 
 * **1.000 Anfragen**: Eine einzelne Arbeitsmappe kann bis zu 1.000 Datenanfragen enthalten. Wenn Sie Berichte oder Projekte haben, für die mehr als 1000 Anforderungen erforderlich sind, empfiehlt Adobe, diese in mehrere Arbeitsmappen aufzuteilen.
 * **20.000 Anfragen pro Stunde und Firma**: Report Builder verwendet die Analytics-Reporting-API zum Abrufen von Daten. Jede einzelne Anfrage verwendet einen API-Aufruf, wenn sie erstellt oder aktualisiert wird. Wenn sich für Ihr Unternehmen mehr als 20.000 API-Aufrufe in einer bestimmten Stunde ansammeln, müssen Sie bis zur nächsten Stunde warten, um die Daten erneut abzurufen.
 * **Vierstündige Verarbeitungszeit**: Terminierte Berichte werden beendet, wenn deren Verarbeitung mehr als vier Stunden dauert. Wenn Ihre Arbeitsmappe viele komplexe Anfragen mit großen Datensätzen enthält, kann der terminierte Bericht fehlschlagen.
+
+## Woher weiß ich, ob ich Zugriff auf Report Builder habe? {#access}
+
+Ihr Adobe Analytics-Administrator muss Ihnen Zugriff auf Report Builder gewähren. Der Administrator richtet Produktprofile im [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Bitten Sie Ihren Administrator, Ihnen Zugriff zu gewähren.

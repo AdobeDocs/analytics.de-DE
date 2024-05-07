@@ -4,21 +4,29 @@ title: Starten von Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
-workflow-type: ht
-source-wordcount: '63'
-ht-degree: 100%
+source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 35%
 
 ---
 
 
 # Starten von Activity Map
 
-Unter der Voraussetzung, dass das richtige Browser-Plugin installiert ist, können Sie Activity Map direkt von Ihrer Webseite aus starten.
+Angenommen, der richtige Browser/die richtige Erweiterung lautet [installiert](/help/analyze/activity-map/activitymap-getting-started/activitymap-install.md)können Sie Activity Map direkt von Ihrer Webseite aus starten.
 
-1. Klicken Sie auf das Adobe Analytics-Symbol rechts neben der Adressleiste Ihres Browsers:\
-   <br/><img src="./assets/an_icon.png" width="150px"/><br/>
+## Launch in Chrome
 
-2. Melden Sie sich mit Ihrem Unternehmensnamen, Ihrem Benutzernamen und Ihrem Kennwort an.
+1. 
+   1. Klicken Sie oben rechts auf das Symbol Chrome-Erweiterungen .
+      ![Activity Map-Erweiterung](assets/chrome2.png)
+1. Klicken Sie auf Activity Map.
+   ![Activity Map starten](assets/chrome3.png)
+1. Melden Sie sich mit Ihrem Profil, Benutzernamen und Kennwort an.
+1. Die Anwendung sollte gestartet werden und die Symbolleiste sowie die Überlagerungen anzeigen.
 
-3. Die Anwendung sollte gestartet werden und die Symbolleiste sowie die Überlagerungen anzeigen.
+## Launch in Firefox
+
+
+
