@@ -4,80 +4,44 @@ description: Beschreibt, was eine Hash-Kollision ist und wie sie sich manifestie
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 06f61fa7b39faacea89149650e378c8b8863ac4f
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 6%
 
 ---
 
 # Hash-Kollisionen
 
-Adobe behandelt prop- und eVar-Werte als Zeichenfolgen, auch wenn der Wert eine Zahl ist. Manchmal sind diese Zeichenfolgen Hunderte von Zeichen lang, manchmal sind sie kurz. Um Platz zu sparen, die Performance zu verbessern und alles einheitlich zu gestalten, werden die Zeichenfolgen nicht direkt in der Verarbeitung verwendet. Stattdessen wird für jeden Wert ein 32-Bit- oder 64-Bit-Hash berechnet. Alle Berichte werden mit diesen Hash-Werten ausgeführt, wobei jeder Hash durch den Originaltext ersetzt wird. Hashes erhöhen die Performance von Analytics-Berichten drastisch.
+Dimensionen in Adobe Analytics erfassen Zeichenfolgenwerte. Manchmal sind diese Zeichenfolgen Hunderte von Zeichen lang, während sie manchmal kurz sind. Zur Leistungsverbesserung werden diese Zeichenfolgenwerte nicht direkt in der Verarbeitung verwendet. Stattdessen wird für jeden Wert ein Hash berechnet, um alle Werte zu einer einheitlichen Größe zu machen. Alle Berichte werden mit diesen Hash-Werten ausgeführt, wodurch ihre Leistung drastisch gesteigert wird.
 
-Bei den meisten Feldern wird die Zeichenfolge zuerst komplett in Kleinschreibung konvertiert (reduziert die Anzahl eindeutiger Werte). Hash-Werte werden auf Monatsbasis vergeben (bei der ersten Anzeige pro Monat). Von Monat zu Monat besteht eine geringe Wahrscheinlichkeit, dass zwei eindeutige Variablenwerte denselben Wert haben. Dieses Konzept wird als *Hash-Kollision* bezeichnet.
+Bei den meisten Feldern wird die Zeichenfolge zuerst in Kleinbuchstaben umgewandelt. Die niedrigere Konversionsrate reduziert die Anzahl eindeutiger Werte. Die Werte werden monatlich gehasht - der Fall für einen bestimmten Wert verwendet den ersten jeden Monat angezeigten Wert. Von Monat zu Monat besteht ein geringes Risiko, dass zwei eindeutige Variablenwerte auf denselben Wert Hash. Dieses Konzept wird als *Hash-Kollision* bezeichnet.
 
-Hash-Kollisionen können sich wie folgt im Bericht manifestieren:
+Hash-Kollisionen können in Berichten wie folgt auftreten:
 
-* Wenn Sie einen Trend für einen Wert erstellen und in einem Monat eine Spitze verzeichnen, haben vermutlich andere Werte für diese Variable denselben Hash-Wert erhalten wie der Wert, den Sie gerade prüfen.
-* Dasselbe passiert mit Segmenten für einen bestimmten Wert.
+* Wenn Sie einen Bericht im Zeitverlauf anzeigen und eine unerwartete Spitze feststellen, kann es sein, dass mehrere eindeutige Werte für diese Variable denselben Hash verwenden.
+* Wenn Sie ein Segment verwenden und einen unerwarteten Wert anzeigen, kann es sein, dass das unerwartete Dimensionselement denselben Hash als ein anderes Dimensionselement verwendet, das mit Ihrem Segment übereinstimmt.
 
-## Beispiel einer Hash-Kollision
+## Chancen einer Hash-Kollision
 
-Die Wahrscheinlichkeit von Hash-Kollisionen steigt mit der Anzahl der eindeutigen Werte in einer Dimension. Beispielsweise könnte einer der Werte, die gegen Ende des Monats eingehen, denselben Hash-Wert erhalten, der bereits einem anderen Wert in diesem Monat zugewiesen wurde. Die folgenden Beispiele veranschaulichen, wie sich dies auf Segmentergebnisse auswirken kann. Nehmen wir an, eVar62 wird am 18. Februar den Wert 100 zugewiesen. Analytics pflegt eine Tabelle, die wie folgt aussehen kann:
+Adobe Analytics verwendet für die meisten Dimensionen 32-Bit-Hashes, d. h. es gibt 2<sup>32</sup> mögliche Hash-Kombinationen (ca. 4,3 Mrd.). Jeden Monat wird eine neue Hash-Tabelle für jede Dimension erstellt. Die ungefähren Chancen auf eine Hash-Kollision basierend auf der Anzahl eindeutiger Werte sind wie folgt. Diese Chancen basieren auf einer einzelnen Dimension für einen einzelnen Monat.
 
-<table id="table_6A49D1D5932E485DB2083154897E5074"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> eVar62-Zeichenfolgenwert </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Wert 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Wert 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Wert 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Eindeutige Werte | Quoten |
+| --- | --- |
+| 1.000 | 0,01 % |
+| 10.000 | 1 % |
+| 50.000 | 26% |
+| 100.000 | 71 % |
 
-Wenn Sie ein Segment erstellen, das auf Besuche mit eVar62=&quot;value 500&quot; prüft, ermittelt Analytics, ob „value 500“ ein Hash enthält. Da „value 500“ nicht vorhanden ist, gibt Analytics null Besuche zurück. Am 23. Februar erhält eVar62 den Wert „value 500“, und der Hash dafür lautet ebenfalls 123. Die Tabelle sieht folgendermaßen aus:
+{style="table-layout:auto"}
 
-<table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> eVar62-Zeichenfolgenwert </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Wert 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Wert 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Wert 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Wert 500 </b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Ähnlich wie bei [Geburtstagsparadox](https://en.wikipedia.org/wiki/Birthday_problem)erhöht sich die Wahrscheinlichkeit von Hash-Kollisionen drastisch, da die Anzahl der eindeutigen Werte zunimmt. Bei 1 Million individuellen Werten ist es wahrscheinlich, dass für diese Dimension mindestens 100 Hash-Kollisionen vorliegen.
 
-Wenn das Segment erneut ausgeführt wird, prüft es den Hash von „value 500“, findet 123, und der Bericht gibt alle Besuche mit dem Hash 123 zurück. Auf diese Weise werden Besuche am 18. Februar in den Ergebnissen eingebunden.
+## Hash-Kollisionen verringern
 
-Diese Situation kann bei der Verwendung von Analytics Probleme verursachen. Adobe sucht weiter nach Wegen, die Wahrscheinlichkeit von Hash-Kollisionen in der Zukunft zu verringern. Um diese Situation zu vermeiden, müssen Wege gefunden werden, die eindeutigen Werte zwischen Variablen zu verteilen, nicht erforderliche Werte mit Verarbeitungsregeln zu entfernen oder die Anzahl an Werten pro Variable anderweitig zu verringern.
+Die meisten Hash-Kollisionen treten mit zwei ungewöhnlichen Werten auf, die keine aussagekräftigen Auswirkungen auf Berichte haben. Selbst wenn ein Hash mit einem gemeinsamen und ungewöhnlichen Wert kollidiert, ist das Ergebnis vernachlässigbar. In seltenen Fällen, in denen zwei beliebte Werte eine Hash-Kollision erleben, ist es jedoch möglich, ihre Wirkung deutlich zu erkennen. Adobe empfiehlt Folgendes, um die Wirkung in Berichten zu reduzieren:
+
+* **Datumsbereich ändern**: Hash-Tabellen ändern sich jeden Monat. Wenn Sie den Datumsbereich so ändern, dass er sich über einen weiteren Monat erstreckt, können bei jedem Wert unterschiedliche Hashes auftreten, die nicht kollidieren.
+* **Anzahl eindeutiger Werte reduzieren**: Sie können Ihre Implementierung anpassen oder [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) um die Anzahl der eindeutigen Werte zu reduzieren, die eine Dimension erfasst. Wenn Ihre Dimension beispielsweise eine URL erfasst, können Sie Abfragezeichenfolgen oder Protokolle entfernen.
+
+<!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
