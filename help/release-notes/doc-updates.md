@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '5315'
-ht-degree: 100%
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **Mai 2024** | |
+| Neue Dokumentation für die Aktualisierung von Adobe Analytics auf Customer Journey Analytics | Für Unternehmen, die von Adobe Analytics auf Customer Journey Analytics aktualisieren, gibt es mehrere Upgrade-Optionen und viele Überlegungen, die basierend auf der aktuellen Adobe Analytics-Implementierung und den langfristigen Zielen eines Unternehmens zu beachten sind.<p>Es stehen nun neue Dokumentationsressourcen zur Verfügung, die Ihnen helfen, Folgendes besser zu verstehen:</p><ul><li>Die verschiedenen vorhandenen Aktualisierungspfade</li><li>Welche Aktualisierungspfade sind basierend auf der aktuellen Adobe Analytics-Implementierung eines Unternehmens verfügbar?</li><li>Die Vor- und Nachteile jedes Aktualisierungspfads</li><li>Schrittweise Anleitung für jeden Aktualisierungspfad</li><li>Überlegungen zum Umgang mit historischen Daten</li><li>Und vieles mehr!</li></ul><p>[Erste Schritte mit dem Upgrade auf Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Aktualisierte Dokumentation zu benutzerdefinierten Datumsbereichen | Aktualisierte Screenshots und Verfahren zu [Erstellen benutzerdefinierter Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) , um die aktuellen Produktfunktionen und Designs abzugleichen. |
 | **April 2024** | |
 | Dokumentation zu „Inhaberin oder Inhaber“ in Klassifizierungssätzen entfernt | Der Filter und die Spalte „Inhaberin oder Inhaber“ wurden aus dem [Klassifizierungssatz-Manager](/help/components/classifications/sets/manage/set-manager.md) entfernt und das Feld „Inhaberin oder Inhaber“ wurde aus den [Klassifizierungssatzeinstellungen](/help/components/classifications/sets/manage/settings.md) entfernt. <p>Die Dokumentation wurde aktualisiert, dabei wurden dieser Filter, diese Spalte und dieses Feld entfernt.</p> |
 | Reduzierbare Abschnitte in der Dokumentation zum Konfigurieren von Cloud-Import- und -Exportspeicherorten entfernt | Es wurden die reduzierbaren Abschnitte unter [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) zur Information über Cloud-Kontotypen entfernt. |

@@ -4,10 +4,10 @@ title: Übersicht über Kalender und Datumsbereiche
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
-workflow-type: ht
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspa
 |--- |--- |
 | Ausgewählte Tage | Ausgewählte Tage/Wochen/Monate/Jahre |
 | Erstellen von Datumsbereichskomponenten relativ zum Bedienfeld-Kalender | Die auf dem Datumsbereich des Bedienfelds basierenden Datumsangaben bleiben gleich. |
-| Rollierende Daten verwenden | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel finden Sie unter [Benutzerdefinierte Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Standardmäßig ausgewählt. |
+| Rollierende Datumswerte verwenden | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel finden Sie unter [Benutzerdefinierte Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Standardmäßig ausgewählt. |
 | Datumsbereich | Hier können Sie einen voreingestellten Datumsbereich auswählen. Der Standardwert lautet „Letzte 30 Tage“. **[!UICONTROL Diese Woche/Monat/Quartal/Jahr (außer heute)]** ermöglicht Ihnen, aus Datumsbereichen auszuwählen, die keine Daten von heute enthalten. |
 | In alle Bedienfelder übernehmen | Hiermit können Sie den ausgewählten Datumsbereich nicht nur für das aktuelle Bedienfeld, sondern für alle Bedienfelder des Projekts ändern. |
 | Übernehmen | Hiermit wird der Datumsbereich nur in diesem Bedienfeld übernommen. |
@@ -69,7 +69,7 @@ Beachten Sie bei der Verwendung relativer Bedienfelddatumsbereiche die folgenden
 
 ### Formeln und relative Datumsbereiche {#formula-relative-dates}
 
-Wenn Sie relative Datumsangaben ausgewählt haben, verwenden alle Datumsformeln das Startdatum des Bedienfelds als Ausgangspunkt.
+Wenn Sie relative Daten ausgewählt haben, verwenden alle Datumsformeln das Startdatum des Bedienfelds als Ausgangspunkt.
 
 ### Benutzerdefinierte Kalender und relative Datumsbereiche {#custom-calendar-formulas}
 
