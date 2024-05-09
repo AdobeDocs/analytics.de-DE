@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **April 2024** | |
-| Die Dokumentation zu &quot;Inhaber&quot;in Classification-Sets wurde entfernt. | Der Filter und die Spalte &quot;Inhaber&quot;wurden aus dem [Classification Set Manager](/help/components/classifications/sets/manage/set-manager.md) und das Feld &quot;Inhaber&quot;wurde aus dem [Einstellungen für Klassifizierungssätze](/help/components/classifications/sets/manage/settings.md). <p>Die Dokumentation wurde aktualisiert, um diesen Filter, diese Spalte und dieses Feld zu entfernen.</p> |
+| Dokumentation zu „Inhaberin oder Inhaber“ in Klassifizierungssätzen entfernt | Der Filter und die Spalte „Inhaberin oder Inhaber“ wurden aus dem [Klassifizierungssatz-Manager](/help/components/classifications/sets/manage/set-manager.md) entfernt und das Feld „Inhaberin oder Inhaber“ wurde aus den [Klassifizierungssatzeinstellungen](/help/components/classifications/sets/manage/settings.md) entfernt. <p>Die Dokumentation wurde aktualisiert, dabei wurden dieser Filter, diese Spalte und dieses Feld entfernt.</p> |
 | Reduzierbare Abschnitte in der Dokumentation zum Konfigurieren von Cloud-Import- und -Exportspeicherorten entfernt | Es wurden die reduzierbaren Abschnitte unter [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) zur Information über Cloud-Kontotypen entfernt. |
 | **März 2024** | |
 | AppMeasurement-Aktualisierung | [Versionshinweise](/help/implement/appmeasurement-updates.md) zur AppMeasurement-Aktualisierung v2.26.0.<br/>Enthält einen Verweis auf die und eine Aktualisierung der Dokumentation zu Konfigurationsvariablen [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
@@ -150,7 +150,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Neues Thema zum Bedienfeld [!UICONTROL Seitenzusammenfassung] | [Bedienfeld „Seitenzusammenfassung“](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Neues Thema zum Bedienfeld [!UICONTROL Nächstes/Vorheriges Element] | [Bedienfeld „Nächstes/vorheriges Dimensionselement“](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **März 2022** | |
-| Neues Kapitel zu unterstützten HTTPS-Verschlüsselungsalgorithmen | Unterstützte HTTPS-Verschlüsselungsalgorithmen für Kunden mit Verschlüsselungssicherheitsniveau &quot;Hoch&quot;. |
+| Neues Kapitel zu unterstützten HTTPS-Verschlüsselungsalgorithmen | Unterstützung von HTTPS-Verschlüsselungsalgorithmen für Kundinnen und Kunden, bei denen die Chiffrier-Sicherheitsstufe auf „Hoch“ eingestellt ist. |
 | Neue Dokumentation zu Anmerkungen in Analysis Workspace | [Anmerkungen in Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) ermöglichen es Ihnen, kontextbezogene Informationen und Einblicke zu Daten effektiv an Ihr Unternehmen weiterzugeben. |
 | Aktualisierungen der Landingpage von Adobe Analytics | [Aktualisierungen](/help/analyze/landing.md) der gemeinsamen Landingpage für Analysis Workspace/Reports &amp; Analytics, wodurch die Benutzerfreundlichkeit verbessert und die Navigation vereinfacht werden. |
 | Analysis Workspace-Bedienfeld [!UICONTROL Nächstes Element] oder [!UICONTROL Vorheriges Element] | In diesem Bedienfeld können Sie Elemente untersuchen, die einem von Ihnen ausgewählten Dimensionselement folgen oder vorausgehen. |
