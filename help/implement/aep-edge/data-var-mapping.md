@@ -4,28 +4,28 @@ description: Zeigen Sie an, welche Datenobjektfelder Experience Platform Edge au
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # Zuordnung von Datenobjektvariablen zu Adobe Analytics
 
-Die folgende Tabelle zeigt die Datenobjektvariablen, die das Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese Datenobjektfeldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
+Die folgende Tabelle zeigt die Datenobjektvariablen, die das Adobe Experience Platform-Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese Datenobjektfeldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
 
-Die Verwendung dieser Felder wird empfohlen, wenn Sie in Zukunft Customer Journey Analytics verwenden möchten. Mit dieser Implementierungsmethode kann Ihr Unternehmen Daten mit dem Web SDK an Adobe senden, ohne ein XDM-Schema zu erfüllen. Wenn Ihr Unternehmen bereit ist, Daten an Adobe Experience Platform zu senden, können Sie [Datenspeicherzuordnung](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) , um Datenobjektfelder auf ihre jeweiligen XDM-Felder zu verweisen.
+Die Verwendung dieser Felder wird empfohlen, wenn Sie in Zukunft Customer Journey Analytics verwenden möchten. Mit dieser Implementierungsmethode kann Ihr Unternehmen Daten mit dem Web SDK an Adobe senden, ohne ein XDM-Schema zu erfüllen. Wenn Ihr Unternehmen bereit ist, Daten an Adobe Experience Platform zu senden, können Sie [Datenspeicherzuordnung](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) , um Datenobjektfelder auf ihre jeweiligen XDM-Felder zu verweisen.
 
 ## Wertprioritäten
 
-Die meisten Datenobjektfelder in dieser Tabelle entsprechen einem [Zugeordnetes XDM-Feld](xdm-var-mapping.md). Wenn Sie beide `data` -Objektfeld und dem entsprechenden XDM-Feld hat das Datenobjektfeld Priorität. Wenn Sie sowohl das XDM-Objektfeld als auch das Datenobjektfeld verwenden, empfiehlt Adobe, benutzerdefinierte Ereignisse mithilfe des Datenobjektfelds festzulegen. Wenn das Feld `data.__adobe.analytics.events` vorhanden ist, werden alle XDM-Objektfelder, die mit Commerce- und benutzerspezifischen Ereignissen verknüpft sind, überschrieben.
+Die meisten Datenobjektfelder in dieser Tabelle entsprechen einem [Zugeordnetes XDM-Feld](xdm-var-mapping.md). Wenn Sie sowohl ein bestimmtes Datenobjektfeld als auch das entsprechende XDM-Feld festlegen, hat das Datenobjektfeld Priorität. Wenn beispielsweise das Feld `data.__adobe.analytics.events` vorhanden ist, werden alle ereignisbezogenen XDM-Objektfelder überschrieben.
 
 Einige Datenobjektfelder unterstützen auch ihre jeweiligen [Abfrageparameterwert](../validate/query-parameters.md) als Kurzwerte. Sie können standardmäßige Datenobjektfelder und kurze Datenobjektfelder synonym verwenden, sofern sie jeweils für eindeutige Variablen gelten. Vermeiden Sie es, gleichzeitig ein standardmäßiges Datenobjektfeld und das entsprechende Kurzdatenobjektfeld festzulegen. Adobe kann nicht garantieren, welches Feld Priorität hat.
 
 ## Datenobjektfeldzuordnung
 
-Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md).
+Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commitverlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie bei AppMeasurement-Variablen wird bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
 
 | Datenobjektfeldpfad | Analytics-Variable und -Beschreibung |
 | --- | --- |
