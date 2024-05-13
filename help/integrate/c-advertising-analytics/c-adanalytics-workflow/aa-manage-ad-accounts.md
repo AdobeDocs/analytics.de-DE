@@ -3,10 +3,10 @@ description: Verwalten Sie Konten in Advertising Analytics.
 title: Werbekonten verwalten
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Sie können wie folgt auf die Verwaltungsoberfläche zugreifen: **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
 
-![](assets/manage_ad_accounts.png)
+![Werbekonten](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ Sie können wie folgt auf die Verwaltungsoberfläche zugreifen: **[!UICONTROL Ad
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Hinzufügen </p> </td> 
-   <td colname="col2"> <p>Hierdurch gelangen Sie zur Benutzeroberfläche <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Werbekonto einrichten</a>. </p> </td> 
+   <td colname="col2"> <p>Hierdurch gelangen Sie zur Benutzeroberfläche <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Werbekonto einrichten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Umbenennen </p> </td> 
@@ -42,7 +42,7 @@ Sie können wie folgt auf die Verwaltungsoberfläche zugreifen: **[!UICONTROL Ad
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anhalten </p> </td> 
-   <td colname="col2"> <p>Deaktiviert das Konto. Um es wieder zu aktivieren, klicken Sie auf <span class="uicontrol">Aktivieren</span>. </p> </td> 
+   <td colname="col2"> <p>Deaktiviert das Konto. Um es erneut zu aktivieren, wählen Sie <span class="uicontrol">Aktivieren</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Spaltenüberschriften</b> </p> </td> 
@@ -54,11 +54,11 @@ Sie können wie folgt auf die Verwaltungsoberfläche zugreifen: **[!UICONTROL Ad
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suites </p> </td> 
-   <td colname="col2"> <p>Die Report Suite(s), die Sie diesem Werbekonto zugeordnet haben. </p> </td> 
+   <td colname="col2"> <p>Die diesem Werbekonto zugeordneten Report Suites. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Typ </p> </td> 
-   <td colname="col2"> <p>Aktuell wird nur folgender Typ unterstützt: Suche. </p> </td> 
+   <td colname="col2"> <p>Nur ein Typ, den wir unterstützt haben: Suche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Konto </p> </td> 
