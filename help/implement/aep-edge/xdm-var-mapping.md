@@ -4,16 +4,16 @@ description: Erfahren Sie, welche XDM-Felder in Edge automatisch Analytics-Varia
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 68%
+source-wordcount: '1426'
+ht-degree: 71%
 
 ---
 
 # Zuordnung von XDM-Objektvariablen zu Adobe Analytics
 
-Die folgende Tabelle zeigt die XDM-Variablen, die das Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden. Diese Felder sind im **[!UICONTROL Adobe Analytics ExperienceEvent-Vorlage]** Feldergruppe. Die Verwendung dieser Felder wird empfohlen, wenn Sie Daten an Adobe Analytics und Adobe Experience Platform senden möchten.
+Die folgende Tabelle zeigt die XDM-Variablen, die das Adobe Experience Platform-Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden. Diese Felder sind im **[!UICONTROL Adobe Analytics ExperienceEvent-Vorlage]** Feldergruppe. Die Verwendung dieser Felder wird empfohlen, wenn Sie Daten an Adobe Analytics und Adobe Experience Platform senden möchten.
 
 Wenn Ihr Unternehmen plant, zu Customer Journey Analytics zu wechseln, empfiehlt Adobe stattdessen die Verwendung der `data` -Objekt, um Daten direkt an Adobe Analytics zu senden, ohne einem Schema zu entsprechen. Diese Strategie ermöglicht es Ihrem Unternehmen, Ihr eigenes Schema zu verwenden, anstatt [!UICONTROL Adobe Analytics ExperienceEvent-Vorlage] (weniger anwendbar auf Customer Journey Analytics). Siehe [Zuordnung von Datenobjektvariablen zu Adobe Analytics](data-var-mapping.md) für eine ähnliche Zuordnungstabelle.
 
@@ -27,16 +27,16 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 
 | XDM-Feldpfad | Analytics-Variable und -Beschreibung |
 | --- | --- |
-| `xdm.application.isClose` | Hilft bei der Definition der Lebenszyklusmetrik für Mobilgeräte [Abstürze](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isInstall` | Hilft bei der Bestimmung, wann die mobile Lebenszyklusmetrik erhöht werden soll [Erste Starts](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Hilft bei der Bestimmung, wann die mobile Lebenszyklusmetrik erhöht werden soll [Erste Starts](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.closeType` | Bestimmt, ob ein Schließen-Ereignis ein Absturz ist oder nicht. Gültige Werte sind `close` (eine Lebenszyklussitzung endet und ein Pausenereignis wurde für die vorherige Sitzung empfangen) und `unknown` (eine Lebenszyklussitzung endet ohne Pausenereignis). Hilft bei der Festlegung der Lebenszyklusmetrik für Mobilgeräte [Abstürze](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) Metrik. |
-| `xdm.application.isInstall` | Die Lebenszyklusmetrik für Mobilgeräte [Installationen](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Die Lebenszyklusmetrik für Mobilgeräte [Launches](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.name` | Hilft beim Festlegen der Mobile-Lebenszyklusdimension [App-ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isUpgrade` | Die Lebenszyklusmetrik für Mobilgeräte [Upgrades](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.version` | Hilft beim Festlegen der Mobile-Lebenszyklusdimension [App-ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.sessionLength` | Die Lebenszyklusmetrik für Mobilgeräte [Länge der vorherigen Sitzung](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isClose` | Ermöglicht die Definition der Mobile-Lebenszyklusmetrik [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isInstall` | Hilft bei der Bestimmung, wann die Mobile-Lebenszyklusmetrik [Erste Starts](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) erhöht werden soll. |
+| `xdm.application.isLaunch` | Hilft bei der Bestimmung, wann die Mobile-Lebenszyklusmetrik [Erste Starts](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) erhöht werden soll. |
+| `xdm.application.closeType` | Bestimmt, ob ein Schließen-Ereignis ein Absturz ist oder nicht. Gültige Werte sind `close` (eine Lebenszyklussitzung endet und ein Pausenereignis wurde für die vorherige Sitzung empfangen) und `unknown` (eine Lebenszyklussitzung endet ohne Pausenereignis). Ermöglicht die Definition der Mobile-Lebenszyklusmetrik [Crashes](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isInstall` | Die Mobile-Lebenszyklusmetrik [Installationen](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isLaunch` | Die Mobile-Lebenszyklusmetrik [Starts](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.name` | Ermöglicht die Definition der Mobile-Lebenszyklusdimension [App-ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isUpgrade` | Die Mobile-Lebenszyklusmetrik [Upgrades](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.version` | Ermöglicht die Definition der Mobile-Lebenszyklusdimension [App-ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.sessionLength` | Die Mobile-Lebenszyklusmetrik [Länge der vorherigen Sitzung](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.commerce.checkouts.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die Metrik [Checkouts](../../components/metrics/checkouts.md) an. |
 | `xdm.commerce.checkouts.value` | Inkrementiert die Metrik [Checkouts](../../components/metrics/checkouts.md) um den gewünschten Wert. |
 | `xdm.commerce.order.currencyCode` | Definiert die Konfigurationsvariable [currencyCode](../vars/config-vars/currencycode.md). |
@@ -64,20 +64,20 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | `xdm.environment.browserDetails.userAgent` | Wird als Fallback-Identifizierungsmethode für [Unique Visitor](../../components/metrics/unique-visitors.md) verwendet. Wird normalerweise unter Verwendung der HTTP-Anfrage-Kopfzeile `User-Agent` befüllt. Sie können dieses Feld einer eVar zuordnen, wenn Sie es in Berichten verwenden möchten. |
 | `xdm.environment.browserDetails.viewportHeight` | Definiert die Dimension [Browser-Höhe](../../components/dimensions/browser-height.md). |
 | `xdm.environment.browserDetails.viewportWidth` | Definiert die Dimension [Browser-Breite](../../components/dimensions/browser-width.md). |
-| `xdm.environment.carrier` | Die Mobile-Lebenszyklusdimension [Betreibername](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.environment.carrier` | Die Mobile-Lebenszyklusdimension [Anbietername](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Ermöglicht die Definition der Dimension [Verbindungstyp](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Wird als Fallback-Identifizierungsmethode für [Unique Visitor](../../components/metrics/unique-visitors.md) verwendet. Wird normalerweise unter Verwendung der HTTP-Kopfzeile `X-Forwarded-For` befüllt. |
 | `xdm.environment.language` | Die Mobile-Dimension „Locale“. |
 | `xdm.environment.operatingSystem` | Die Mobile-Lebenszyklusdimension [Betriebssystem](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.environment.operatingSystemVersion` | Hilft beim Festlegen der Mobile-Lebenszyklusdimension [Betriebssystemversion](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Legt die entsprechende [eVar](../../components/dimensions/evar.md)-Dimension fest. |
-| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Legt die entsprechende [Hierarchie](/help/components/dimensions/hierarchy.md)-Dimension fest. |
+| `xdm.environment.operatingSystemVersion` | Ermöglicht die Definition der Mobile-Lebenszyklusdimension [Betriebssystemversion](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Legt die entsprechende Dimension [eVar](../../components/dimensions/evar.md) fest. |
+| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Legt die entsprechende Dimension [Hierarchie](/help/components/dimensions/hierarchy.md) fest. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Außerkraftsetzen des Trennzeichens für Listen-Props. Die Verwendung dieses Felds wird nicht empfohlen, da das Trennzeichen automatisch von der [Traffic-Variablen-Verwaltung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen abgerufen wird. Die Verwendung dieses Felds kann zu einer Diskrepanz zwischen dem verwendeten Trennzeichen und dem von Analytics erwarteten Trennzeichen führen. |
-| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Ein Zeichenfolgen-Array, das die Werte der entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props) enthält. |
+| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Ein Zeichenfolgen-Array, das die entsprechenden [Listen-Prop](../vars/page-vars/prop.md#list-props)-Werte enthält. |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Verknüpft alle `value`-Zeichenfolgen im jeweiligen `list[]`-Array mit der jeweiligen [Listenvariablen](../vars/page-vars/list.md). Das Trennzeichen wird automatisch auf der Grundlage des in den [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) definierten Werts ausgewählt. |
-| `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Legt die Dimension der entsprechenden [Prop](../../components/dimensions/prop.md) fest. |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Gilt [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) an die jeweiligen [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) Metrik. Jede Ereignis-ID befindet sich in der übergeordneten 100-Gruppen-ID. So wenden Sie beispielsweise die Serialisierung auf `event678`, verwenden `xdm._experience.analytics.event601to700.event678.id`. |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Erhöht die jeweilige [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) Metrik nach dem gewünschten Betrag. Jedes Ereignis befindet sich in seinem 100-Gruppen-übergeordneten Element. Beispielsweise wird das Feld für `event567` is `xdm._experience.analytics.event501to600.event567.value`. |
+| `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Legt die entsprechende [Prop](../../components/dimensions/prop.md)-Dimension fest. |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Wendet die [Ereignis-Serialisierung](../vars/page-vars/events/event-serialization.md) auf die jeweilige Metrik [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) an. Jede Ereignis-ID befindet sich ihrem übergeordneten 100-Gruppen-Element. Verwenden Sie beispielsweise `xdm._experience.analytics.event601to700.event678.id`, um die Serialisierung auf `event678` anzuwenden. |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Erhöht die jeweilige Metrik [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) um den gewünschten Betrag. Jedes Ereignis befindet sich in seinem übergeordneten 100-Gruppen-Element. Das Feld für `event567` ist zum Beispiel `xdm._experience.analytics.event501to600.event567.value`. |
 | `xdm.identityMap.ECID[0].id` | Die [Adobe Experience Cloud Identity Service-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). |
 | `xdm.marketing.trackingCode` | Definiert die Dimension [Trackingcode](../../components/dimensions/tracking-code.md). |
 | `xdm.media.mediaTimed.completes.value` | Die Media Analytics-Metrik [Inhaltsbeendigung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-complete). |
@@ -143,7 +143,11 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 
 ## Zuordnen anderer XDM-Felder zu Analytics-Variablen
 
-Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun. Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix a.x an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann unter Verwendung der [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
+Wenn es Dimensionen oder Metriken gibt, die Sie zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md).
+
+### Implizite Zuordnung
+
+Alle XDM-Feldelemente, die nicht automatisch zugeordnet sind, werden als Kontextdaten mit dem Präfix an Adobe Analytics gesendet `a.x.` Sie können diese Kontextdatenvariable dann der gewünschten Analytics-Variablen zuordnen, indem Sie [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de). Angenommen, Sie senden das folgende Ereignis:
 
 ```js
 alloy("event",{
@@ -157,6 +161,28 @@ alloy("event",{
 })
 ```
 
-Das Web SDK sendet diese Daten als die Kontextdatenvariable `a.x._atag.search.term` an Adobe Analytics. Anschließend können Sie eine Verarbeitungsregel verwenden, um den Wert dieser Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. einer eVar:
+Das Web SDK sendet diese Daten als die Kontextdatenvariable `a.x._atag.search.term` an Adobe Analytics. Sie können dann eine Verarbeitungsregel verwenden, um diesen Wert der Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. eine `eVar`:
 
 ![Suchbegriff-Verarbeitungsregel](assets/examplerule.png)
+
+## Explizites Mapping
+
+Sie können XDM-Feldelemente auch explizit als Kontextdaten zuordnen. Jedes XDM-Feldelement, das explizit zugeordnet ist, mithilfe der `contextData` -Element wird als Kontextdaten ohne Präfix an Adobe Analytics gesendet. Sie können dann diese Kontextdatenvariable unter Verwendung von [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "analytics": {
+                "contextData" : {
+                    "someValue" : "1"
+                }
+            }
+        }
+    }
+})
+```
+
+Das Web SDK sendet diese Daten als Kontextdatenvariable an Adobe Analytics `somevalue` mit Wert `1`.  Sie können dann eine Verarbeitungsregel verwenden, um diesen Wert der Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. eine `eVar`:
+
+![Suchbegriff-Verarbeitungsregel](assets/examplerule-explicit.png)

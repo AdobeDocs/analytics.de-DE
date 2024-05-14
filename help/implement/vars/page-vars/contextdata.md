@@ -4,10 +4,10 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 90%
+source-wordcount: '531'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannt
 
 ## Kontextdatenvariablen, die das Web SDK verwenden
 
-Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md) festgelegt ist, werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.
+Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md) festgelegt ist, werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch mithilfe des XDM-Objekts explizit festlegen. Sie können dann [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) , um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Siehe [Zuordnen anderer XDM-Felder zu Analytics-Variablen](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) für weitere Informationen.
 
 Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
 
 1. Aktualisieren Sie Ihre Implementierung, um Kontextdatenvariablennamen und -werte festzulegen.
-2. Melden Sie sich bei Adobe Analytics an und gehen Sie zu „Admin“ > „Report Suites“.
-3. Wählen Sie die gewünschte Report Suite aus und gehen Sie dann zu „Einstellungen bearbeiten“ > „Allgemein“ > „Verarbeitungsregeln“.
+2. Melden Sie sich bei Adobe Analytics an und wechseln Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Bericht]** Suiten.
+3. Wählen Sie die gewünschte Report Suite aus und navigieren Sie zu **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
 4. Erstellen Sie eine Verarbeitungsregel, die eine Analytics-Variable auf den Wert der Kontextdatenvariablen setzt.
 5. Speichern Sie die Änderungen.
 
