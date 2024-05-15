@@ -4,10 +4,10 @@ description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Pl
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
+source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 98%
+source-wordcount: '454'
+ht-degree: 99%
 
 ---
 
@@ -39,46 +39,40 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>2</td>
-<td><b>Einrichten von Schemas.</b>. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe das offene und öffentlich dokumentierte Standard Experience-Datenmodell (XDM) erstellt.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de">Übersicht über die Benutzeroberfläche von Schemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Konfigurieren eines Datenstroms</b>. Ein Datenstrom stellt die Server-seitige Konfiguration bei der Implementierung des Adobe Experience Platform Web SDK dar.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de">Konfigurieren eines Datenstroms<a></td> 
 </tr>
 
-<td>4</td>
-<td><b>Fügen Sie einen Adobe Analytics-Service</b> zu Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
+<td>3</td>
+<td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Erstellen Sie eine mobile Eigenschaft</b>. Eine Eigenschaft ist ein Container, den Sie mit Erweiterungen, Regeln, Datenelementen und Bibliotheken füllen.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Einrichten einer mobilen Eigenschaft</a></tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Installieren Sie die Adobe Experience Platform Edge Network-Erweiterung</b> in der mobilen Tag-Eigenschaft und konfigurieren Sie den Datenstrom in der Erweiterung.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
 </tr>
 
 <tr>
-<td>7</td>
+<td>6</td>
 <td><b>Nutzen Sie den Code in Ihrer App</b>, um die notwendigen Erweiterungen zu registrieren und Ihre Tag-Konfiguration zu laden.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Einrichten der Konfiguration</a></td>
 </tr>
 
 <tr>
-<td>8</td>
+<td>7</td>
 <td><b>Implementieren und testen Sie die Funktionalität</b> mit einer Kombination aus Datenelementen des Tags, Regeln, zusätzlichen Erweiterungen und SDK-API-Aufrufen in Ihrer Anwendung. Prüfen, validieren und debuggen Sie die Datenerfassung und die Erfahrungen für Ihre Mobile App.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Beispielanwendung verwenden</a>
 </tr>
 
 <tr>
-<td>9</td>
+<td>8</td>
 <td><b>Erweitern und validieren Sie Ihre Mobile-App-Implementierung</b>, bevor sie in die Produktion verschoben wird.</td>
 <td></td> 
 </tr>
