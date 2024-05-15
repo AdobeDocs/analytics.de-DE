@@ -4,10 +4,10 @@ description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Pl
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 98%
 
 ---
 
@@ -106,30 +106,24 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>2</td>
-<td><b>Schemas einrichten</b>. Um die Datenerfassung für die Verwendung in allen Anwendungen zu standardisieren, die Adobe Experience Platform nutzen, hat Adobe das offene und öffentlich dokumentierte Standard Experience-Datenmodell (XDM) erstellt.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de">Übersicht über die Benutzeroberfläche von Schemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Installieren Sie die Adobe Analytics-Erweiterung</b> in der Eigenschaft des mobilen Tags und konfigurieren Sie die Erweiterung so, dass sie auf Ihre Report Suite verweist.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Adobe Analytics-Erweiterung für mobile Eigenschaft</a>
 </tr>
 
 <tr>
-<td>4</td>
-<td><b>Verwenden Sie den Code in Ihrer App</b>, um die erforderlichen Erweiterungen zu registrieren und Ihre Tag-Konfiguration zu laden.</td>
+<td>3</td>
+<td><b>Nutzen Sie den Code in Ihrer App</b>, um die notwendigen Erweiterungen zu registrieren und Ihre Tag-Konfiguration zu laden.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Einrichten der Konfiguration</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Implementieren und testen Sie die Funktionalität</b> mit einer Kombination aus Datenelementen des Tags, Regeln, zusätzlichen Erweiterungen und SDK-API-Aufrufen in Ihrer Anwendung. Prüfen, validieren und debuggen Sie die Datenerfassung und die Erfahrungen für Ihre Mobile App.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Beispielanwendung verwenden</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Erweitern und validieren Sie Ihre Mobile-App-Implementierung</b>, bevor sie in die Produktion verschoben wird.</td>
 <td></td> 
 </tr>
