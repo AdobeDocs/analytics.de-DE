@@ -3,78 +3,80 @@ description: Verwalten Sie Konten in Advertising Analytics.
 title: Werbekonten verwalten
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 86%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
 # Werbekonten verwalten
 
-Sie können wie folgt auf die Verwaltungsoberfläche zugreifen: **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
+Sie können auf die Oberfläche für Werbekonten zugreifen, indem Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
 
-![Werbekonten](assets/manage_ad_accounts.png)
+![Werbekonten](assets/manage-ad-accounts.png)
 
-<table id="table_BE318026CF024E94A885EED86AA7077F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Element </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Aktionen</b> </p> </td> 
-   <td colname="col2"> <p><b>Aktionen werden nur angezeigt, wenn Sie mindestens ein Werbekonto ausgewählt haben. </b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ Hinzufügen </p> </td> 
-   <td colname="col2"> <p>Hierdurch gelangen Sie zur Benutzeroberfläche <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Werbekonto einrichten</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Umbenennen </p> </td> 
-   <td colname="col2"> <p>Benennt dieses Konto in allen Report Suites um, denen es zugeordnet ist. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Suites zuordnen </p> </td> 
-   <td colname="col2"> <p>Hierüber können Sie die Report Suite-Zuordnungen bearbeiten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Anhalten </p> </td> 
-   <td colname="col2"> <p>Deaktiviert das Konto. Um es erneut zu aktivieren, wählen Sie <span class="uicontrol">Aktivieren</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Spaltenüberschriften</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>Der Name, den Sie diesem Werbekonto zugewiesen haben. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Suites </p> </td> 
-   <td colname="col2"> <p>Die diesem Werbekonto zugeordneten Report Suites. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Typ </p> </td> 
-   <td colname="col2"> <p>Nur ein Typ, den wir unterstützt haben: Suche. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Konto </p> </td> 
-   <td colname="col2"> <p>Listet einen der zwei unterstützten Kontotypen auf: Google AdWords oder Bing Ads. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Status </p> </td> 
-   <td colname="col2"> <p>Es gibt zwei Statusanzeigen: </p> 
-    <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>Aktiv</b>: Das Konto ruft aktiv Suchdaten ab. </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>Angehalten</b>: Das Konto ist derzeit deaktiviert und ruft keine Suchdaten ab. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Filter</b> </p> </td> 
-   <td colname="col2"> <p>(Linker Rand) Sie können die Werbekonten nach Report Suite, Typ und Status filtern. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Es wird eine Tabelle mit den Werbekonten angezeigt. Wenn keine Werbekonten verfügbar sind, wählen Sie **[!UICONTROL Neues Werbekonto erstellen]**.
+
+Die Tabelle besteht aus den folgenden Spalten:
+
+| Name oder Element | Beschreibung |
+|---|---|
+| **[!UICONTROL Name]** | *Name des Kontos*. Sie können den Namen auswählen, um die Suchmaschineneinstellungen zu bearbeiten. |
+| ![Bearbeiten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | Wählen Sie diese Option aus, um das Werbekonto umzubenennen oder die Suchmaschineneinstellungen zu bearbeiten. |
+| ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Wählen Sie diese Option aus, um ein Kontextmenü zu öffnen, über das Sie [Report Suites zuordnen](#map-reporting-suites), [Werbekonten aktivieren oder anhalten](#activate-or-pause-advertising-accounts). |
+| **[!UICONTROL Report Suites]** | Listet die Report Suites auf, denen das Werbekonto zugeordnet ist. |
+| **[!UICONTROL Typ]** | Zeigt den Typ des Werbekontos an. Standardmäßig ist der Typ [!UICONTROL Suche] |
+| **[!UICONTROL Konto]** | Zeigen Sie den Kontotyp an: [!UICONTROL Bing Ads] oder [!UICONTROL Google Adwords]. |
+| **[!UICONTROL Status]** | Status des Werbekontos: *Angehalten* oder Aktiv. |
+
+
+- Um die Liste nach Report Suite, Typ und Status zu filtern, wählen Sie ![Filter](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+- So suchen Sie Ihr Werbekonto mit dem ![Suche](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) Suchfeld.
+- Um aktive Konten in der Tabelle auszuwählen, aktivieren Sie die Option **[!UICONTROL Aktive Konten]**.
+- Um festzulegen, welche Spalten für die Tabelle angezeigt werden sollen, wählen Sie ![Spalteneinstellungen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Im **[!UICONTROL Tabelle anpassen]** dialog:
+   - Wählen Sie die Spalten aus, die angezeigt werden sollen.
+   - Wählen Sie **[!UICONTROL Anwenden]** aus.
+
+Wenn Sie ein oder mehrere Werbekonten auswählen, können Sie über eine blaue Aktionsleiste, die auf dem Status der ausgewählten Konten basiert, ![Bearbeiten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Umbenennen]**, ![Refesh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Report Suites zuordnen]**, ![Play](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Aktivieren]** oder ![Anhalten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Anhalten]** Ihre Werbekonten.
+
+## Werbekonto erstellen
+
+So erstellen Sie ein neues Werbekonto:
+
+1. Auswählen ![Hinzufügen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL Hinzufügen]**.
+1. Sie sehen die [!UICONTROL Werbekonten] > **[!UICONTROL Neues Konto]** -Dialogfeld, damit Sie ein neues Werbekonto definieren können. Siehe [Werbekonto einrichten](aa-create-ad-account.md) für weitere Informationen.
+
+
+## Werbekonto bearbeiten
+
+So bearbeiten Sie die Suchmaschineneinstellungen für ein Werbekonto:
+
+- Wählen Sie den Namen des Werbekontos aus.
+- Auswählen ![Bearbeiten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) neben dem Namen des Werbekontos.
+
+## Report Suites zuordnen
+
+So ordnen Sie ein oder mehrere Werbekonten Report Suites zu:
+
+1. (optional) Wählen Sie mehrere Werbekonten aus.
+1. Auswählen ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) für ein bestimmtes Werbekonto.
+1. Auswählen ![Refesh](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Report Suites zuordnen]** aus dem Kontextmenü aus.
+1. Wählen Sie im Dialogfeld Report Suites zuordnen eine oder mehrere Report Suites aus der Dropdown-Liste aus. Sie können Report Suites aus der Zuordnung löschen, indem Sie ![Kreuz](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. Auswählen **[!UICONTROL Speichern]** , um die Zuordnung zu speichern.
+
+
+## Werbekonten aktivieren oder anhalten
+
+So aktivieren Sie ein oder mehrere Werbekonten:
+
+1. (optional) Wählen Sie mehrere Werbekonten aus.
+1. Auswählen ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) für ein bestimmtes Werbekonto.
+1. Auswählen ![Play](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Aktivieren]** aus dem Kontextmenü aus.
+
+So pausieren Sie ein oder mehrere Werbekonten:
+
+1. (optional) Wählen Sie mehrere Werbekonten aus.
+1. Auswählen ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) für ein bestimmtes Werbekonto.
+1. Auswählen ![Anhalten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Anhalten]** aus dem Kontextmenü aus.
+

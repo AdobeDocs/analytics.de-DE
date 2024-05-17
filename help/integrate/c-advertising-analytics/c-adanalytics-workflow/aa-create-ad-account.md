@@ -3,7 +3,7 @@ title: Einrichten eines Werbekontos in Advertising Analytics
 description: In diesem Artikel wird erläutert, wie Sie neue Werbekonten erstellen und mehrere Konten mehreren Report Suites zuordnen.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 31%
@@ -23,7 +23,7 @@ Administratoren können auch [Nicht-Administratoren Zugriff gewähren](/help/int
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Werbekonten]**.
 1. (Nur bei erster Verwendung) Akzeptieren Sie die Bedingungen der Endnutzer-Lizenzvereinbarung.
 1. Auswählen **[!UICONTROL + Hinzufügen]**.
-1. Die [!UICONTROL Neue Suchmaschineneinstellung] angezeigt:
+1. Die [!UICONTROL Neue Suchmaschineneinstellung] angezeigt.
 
    ![](assets/aa-new-se-account.png)
 
