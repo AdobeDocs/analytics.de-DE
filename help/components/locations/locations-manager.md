@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Standorte-Manager
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,13 +73,15 @@ Informationen zum Bearbeiten eines Standorts finden Sie unter [Konfigurieren von
 >
 >Wenn Sie einen Ort löschen, sollten Sie [Bearbeiten Ihrer Daten-Feeds](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse-Berichte](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), und [Classification-Sets-Schemata](/help/components/classifications/sets/manage/schema.md) , um einen funktionierenden Standort zu verwenden.
 
-So löschen Sie einen Speicherort:
+So löschen Sie einen Speicherort im Locations Manager in Adobe Analytics:
+
+1. Auswählen **[!UICONTROL Komponenten]** > **[!UICONTROL Standorte]** und wählen Sie dann die [!UICONTROL **Standorte**] Registerkarte.
 
 1. Wählen Sie das Menü mit 3 Punkten im [!UICONTROL **Ortsname**] -Spalte für den Ort, den Sie löschen möchten.
 
 1. Wählen Sie [!UICONTROL **Löschen**] aus.
 
-## Konten bearbeiten
+## Konto bearbeiten
 
 1. Um Konten im Locations Manager in Adobe Analytics zu bearbeiten, wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Standorte]** und wählen Sie dann die [!UICONTROL **Standortkonten**] Registerkarte.
 
@@ -100,7 +102,7 @@ So zeigen Sie Schlüssel an, die mit einem Exportkonto verknüpft sind:
 
 1. Wählen Sie das 3-Punkt-Symbol für das Konto aus, das Sie bearbeiten möchten, und wählen Sie dann [!UICONTROL **Kontoschlüssel**].
 
-## Löschen von Konten
+## Konto löschen
 
 1. Wählen Sie in Adobe Analytics **[!UICONTROL Komponenten]** > **[!UICONTROL Standorte]** und wählen Sie dann die [!UICONTROL **Standortkonten**] Registerkarte.
 

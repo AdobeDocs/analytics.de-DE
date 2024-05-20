@@ -4,10 +4,10 @@ title: Schnellsegmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: ht
-source-wordcount: '1153'
-ht-degree: 100%
+source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 96%
 
 ---
 
@@ -33,9 +33,11 @@ So erstellen Sie ein Schnellsegment:
 
 1. Wählen Sie eine der folgenden Methoden, um ein Schnellsegment zu erstellen:
 
-   * **Ad hoc (Drag-and-Drop):** Ziehen Sie eine Komponente aus der linken Leiste in den Ablagebereich neben dem Symbol **Segment** in der Bedienfeldüberschrift und wählen Sie dann das Symbol **Bearbeiten** aus, um das Segment anzupassen.
+   * **Ad Hoc (Drag &amp; Drop):** Ziehen Sie eine Komponente aus der linken Leiste in die Segment-Dropzone in der Bedienfeldüberschrift.
 
-     ![Ad-hoc-Bearbeitung von Segmenten](assets/filter-adhoc-edit.png)
+     ![Segment in der Dropzone ablegen](assets/segment-dropzone.png)
+
+     Sie können das Segment wie in [Schnellsegmente bearbeiten](#edit-quick-segments).
 
      >[!NOTE]
      >

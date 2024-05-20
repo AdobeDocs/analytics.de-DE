@@ -4,10 +4,10 @@ title: Metriken in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 94%
 
 ---
 
@@ -33,15 +33,7 @@ Adobe bietet verschiedene Arten von Metriken zur Verwendung in Analysis Workspac
 
 ## Verwenden von Metriken in Analysis Workspace
 
-Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. Sie haben folgende Möglichkeiten:
-
-* Ziehen Sie eine Metrik in eine leere Freiformtabelle, um die Trendansicht dieser Metrik über den Datumsbereich des Projekts anzuzeigen.
-
-* Ziehen Sie eine Metrik, wenn eine Dimension vorhanden ist, um diese Metrik mit jedem Dimensionselement zu vergleichen.
-
-* Ziehen Sie eine Metrik auf eine vorhandene Metrik-Kopfzeile, um sie zu ersetzen.
-
-* Ziehen Sie eine Metrik neben eine Kopfzeile, um beide Metriken nebeneinander anzuzeigen.
+Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. Informationen zum Hinzufügen von Metriken und anderen Komponententypen zu Analysis Workspace finden Sie unter [Komponenten in Analysis Workspace verwenden](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
