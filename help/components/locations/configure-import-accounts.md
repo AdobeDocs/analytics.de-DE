@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportkonten
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ Sie können ein Cloud-Konto konfigurieren, das für einen oder alle der folgende
 
 Sie müssen Adobe Analytics mit den erforderlichen Informationen konfigurieren, um auf Ihr Cloud-Konto zugreifen zu können. Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie in diesem Artikel beschrieben, und anschließendem Hinzufügen und Konfigurieren des Speicherorts innerhalb dieses Kontos (z. B. eines Ordners innerhalb des Kontos), wie in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
 
+Informationen zum Verwalten vorhandener Konten, einschließlich Anzeigen, Bearbeiten und Löschen von Konten, finden Sie unter [Locations Manager](/help/components/locations/locations-manager.md).
+
 So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**].
 1. Im [!UICONTROL Standorte] Seite, wählen Sie die [!UICONTROL **Standortkonten**] Registerkarte.
-1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**].
+1. Auswählen [!UICONTROL **Konto hinzufügen**].
 
    Das Dialogfeld Konto hinzufügen wird angezeigt.
-
-   Oder
-
-   Um ein vorhandenes Konto zu bearbeiten, wählen Sie [!UICONTROL **Details anzeigen**] auf der Kachel, die das Konto auflistet, das Sie bearbeiten möchten.
-Das Dialogfeld Standort wird angezeigt.
-
-   Das Dialogfeld Details zum Standortkonto wird angezeigt
-
 
 1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name des Standortkontos**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Standorts angezeigt | | [!UICONTROL **Beschreibung des Standortkontos**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Positionen innerhalb dieses Kontos zu haben. |
 1. Im [!UICONTROL **Kontoeigenschaften**] -Abschnitt Informationen zum ausgewählten Kontotyp angeben.
@@ -48,7 +42,7 @@ Das Dialogfeld Standort wird angezeigt.
 
    + + + Amazon S3 Role ARN
 
-   Geben Sie die folgenden Informationen an, um ein Amazon S3 Role ARN-Konto zu konfigurieren:
+   Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
    | Feld | Funktion |
    |---------|----------|

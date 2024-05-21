@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ Sie können ein Cloud-Konto (und einen Speicherort auf diesem Konto) konfigurier
 
 Sie müssen Adobe Analytics mit den für den Zugriff auf Ihr Cloud-Konto erforderlichen Informationen konfigurieren. Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md)und dann den Speicherort innerhalb dieses Kontos hinzufügen und konfigurieren (wie in diesem Artikel beschrieben).
 
-## Erstellen oder Bearbeiten eines Cloud-Exportspeicherorts beginnen
+Informationen zum Verwalten vorhandener Standorte, einschließlich Anzeigen, Bearbeiten und Löschen von Standorten, finden Sie unter [Locations Manager](/help/components/locations/locations-manager.md).
+
+## Erstellen eines Cloud-Export-Standorts
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**].
 1. Im [!UICONTROL Standorte] Seite, wählen Sie die [!UICONTROL **Standorte**] Registerkarte.
-1. Um einen neuen Speicherort zu erstellen, wählen Sie [!UICONTROL **Ort hinzufügen**]. (Wenn Sie noch kein Konto hinzugefügt haben, fügen Sie eines wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).
+1. Auswählen [!UICONTROL **Ort hinzufügen**]. (Wenn Sie noch kein Konto hinzugefügt haben, fügen Sie eines wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).
 
-   Oder
-
-   Um einen vorhandenen Speicherort zu bearbeiten, wählen Sie das Menü mit 3 Punkten im [!UICONTROL **Ortsname**] Spalte für den Speicherort, den Sie bearbeiten möchten, und wählen Sie [!UICONTROL **Bearbeiten**].
-Das Dialogfeld Standort wird angezeigt.
+   Das Dialogfeld Standort wird angezeigt.
 
 1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name**] | Der Name des Standorts.  |
 | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Verwenden Sie**] | Wählen Sie aus, ob Sie diesen Standort mit [!UICONTROL **Daten-Feeds**], [!UICONTROL **Data Warehouse**] oder [!UICONTROL **Klassifizierungssätze**]. <p>Beachten Sie bei der Auswahl Folgendes:</p><ul><li>Ein einzelner Ort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse- oder Classification-Sets verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Standorts zu vermeiden, ändern Sie nicht den Wert der [!UICONTROL **Verwenden Sie**] -Feld, nachdem der Speicherort verwendet wurde.</li></ul> | | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, in dem Sie diesen Ort erstellen möchten. Informationen zum Erstellen eines Kontos finden Sie unter [Konto hinzufügen](#add-an-account). |
@@ -51,7 +50,7 @@ Geben Sie die folgenden Informationen an, um einen Amazon S3 Role ARN-Speicheror
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject` -Berechtigung, um Dateien in diesen Bucket hochzuladen. </p><p>Behälternamen müssen bestimmten Benennungsregeln entsprechen. Sie müssen beispielsweise zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der Dokumentation zu AWS .](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject` -Berechtigung, um Dateien in diesen Bucket hochzuladen. </p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
    {style="table-layout:auto"}
