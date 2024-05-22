@@ -4,10 +4,10 @@ title: Beschriftungsbeispiele
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 ## Beispiel einer Zugriffsanfrage {#access}
 
-Wenn Sie eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in der Tabelle unten angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur dann zurückgegeben, wenn eine Personen-ID verwendet wird und wenn die Option „expandIDs“ auf „true“ festgelegt ist.
+Wenn Sie eine Zugriffsanfrage senden, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurückgeben können. Eine Datei ist eine CSV-Datei mit einer Zeile für jeden Treffer, der für das Datensubjekt empfangen wird, und einer Spalte für jede Variable mit der entsprechenden Zugriffsbeschriftung. Bei der anderen HTML-Datei handelt es sich um eine Zusammenfassungsdatei, in der jede Variable aufgeführt wird, gefolgt von allen eindeutigen-Werten, die für die betroffene Person angezeigt werden, sowie der Häufigkeit, mit der jeder individuelle Wert gesehen wurde.
+
+In unserem Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabelle angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur zurückgegeben, wenn eine Personen-ID verwendet wird und `expandIds` ist wahr.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API-Werte</th>
-    <th rowspan="2">Zurückgegebener<br>Dateityp</th>
+    <th rowspan="2">Zusammenfassung<br/>Dateityp<br/>zurückgegeben</th>
     <th colspan="5" style="text-align:center">Daten in der Zusammenfassungsdatei für den Zugriff</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ Wenn Sie eine Zugriffsanfrage senden, enthält die Zusammenfassungsdatei die in 
   </tr>
 </table>
 
-Beachten Sie, dass die Einstellung für „expandIDs“ keinen Einfluss auf die Ausgabe hat, wenn eine Cookie-ID verwendet wird.
+Beachten Sie, dass die Einstellung für `expandIDs` hat keinen Einfluss auf die Ausgabe, wenn eine Cookie-ID verwendet wird.
 
 ## Beispiel für Löschanfragen {#delete}
 
@@ -217,7 +219,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 >[!NOTE]
 >
->Dies hat nur Einfluss auf Zellen in Zeilen, die „AAID = 77“ und eine DEL-DEVICE-Beschriftung enthalten.
+>Nur Spalten in Zeilen mit `AAID=77` und `DEL-DEVICE` -Beschriftung betroffen sind.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 >[!NOTE]
 >
->Dies hat nur Einfluss auf Zellen in Zeilen, die „user = Mary“ und eine DEL-PERSON-Beschriftung enthalten. In der Praxis wäre die Variable, die „A_ID“ enthält, wahrscheinlich auch eine Prop oder eine eVar. Der Ersatzwert wäre eine Zeichenfolge, die mit „Datenschutz-“ gefolgt von einer zufälligen Nummer (GUID) beginnt, anstatt den numerischen Wert durch einen anderen, zufälligen numerischen Wert zu ersetzen.
+>Nur Spalten für Zeilen mit `user=Mary` und `DEL-PERSON` -Beschriftung betroffen sind. In der Praxis enthält die Variable `A_ID` wahrscheinlich eine Prop oder eine eVar sein. Der Ersatzwert würde eine Zeichenfolge sein, die mit `Privacy-`, gefolgt von einer zufälligen Zahl (GUID), anstatt den numerischen Wert durch einen anderen, zufälligen numerischen Wert zu ersetzen.
 
 <table>
   <tr>

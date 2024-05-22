@@ -4,10 +4,10 @@ title: Best Practices für Beschriftungen
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
 workflow-type: tm+mt
-source-wordcount: '2676'
-ht-degree: 98%
+source-wordcount: '2692'
+ht-degree: 92%
 
 ---
 
@@ -103,15 +103,15 @@ Zwar verfügen nur wenige Felder über einige der anderen Beschriftungen, jedoch
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nur Geräte-IDs </p> </td> 
-   <td colname="col2"> <p>Wenn Sie nur Cookie-IDs oder IDs mit ID-DEVICE-Beschriftung nutzen, sollten Sie die Beschriftung ACC-ALL verwenden. </p> <p>Für jede Zugriffsanfrage erhalten Sie ein Dateipaar. Eine Datei enthält eine Zeile für jeden passenden Treffer mit allen spezifizierten ACC-ALL-Feldern und die andere enthält eine Zusammenfassung dieser Daten. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie nur Cookie-IDs oder IDs mit ID-DEVICE-Beschriftung nutzen, sollten Sie die Beschriftung ACC-ALL verwenden. </p> <p>Sie erhalten für jede Zugriffsanfrage ein Dateienpaar: eine Datei, die für jeden übereinstimmenden Treffer eine Zeile mit allen angegebenen ACC-ALL-Feldern enthält, und eine Zusammenfassungsdatei mit einer Zusammenfassung dieser Daten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Personen-IDs ohne ID-Erweiterung </p> </td> 
-   <td colname="col2"> <p>Wenn Sie nur benutzerspezifische IDs mit der ID-PERSON-Beschriftung verwenden und die ID-Erweiterung nicht nutzen, sollten Sie ACC-PERSON-Beschriftungen verwenden. Sie müssen jedoch nicht die standardmäßigen ACC-ALL-Beschriftungen ändern. Diese Felder werden automatisch der Zugriffsanfrage hinzugefügt. </p> <p>Sie erhalten ein Dateienpaar pro Zugriffsanfrage: eines mit einer Zeile für jeden passenden Treffer, das alle angegebenen ACC-DEVICE- und ACC-PERSON-Felder enthält, und ein zweites mit einer Zusammenfassung dieser Daten. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie nur benutzerspezifische IDs mit der ID-PERSON-Beschriftung verwenden und die ID-Erweiterung nicht nutzen, sollten Sie ACC-PERSON-Beschriftungen verwenden. Sie müssen jedoch nicht die standardmäßigen ACC-ALL-Beschriftungen ändern. Diese Felder werden automatisch der Zugriffsanfrage hinzugefügt. </p> <p>Sie erhalten für jede Zugriffsanfrage ein Dateienpaar: eine Datei, die eine Zeile für jeden übereinstimmenden Treffer mit allen angegebenen ACC-DEVICE- und ACC-PERSON-Feldern enthält, und eine Zusammenfassungsdatei mit einer Zusammenfassung dieser Daten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gemischte IDs und/oder ID-Erweiterung </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Geräte- und Personen-IDs in Datenschutzanfragen hinzufügen oder benutzerspezifische IDs (benutzerspezifische Besucher-ID oder eine ID in einer Prop oder einer eVar) nutzen, müssen Sie auf die verwendeten ACC-Beschriftungen achten. Bei jeder Zugriffsanfrage werden zwei Paare von Datendateien zurückgegeben: ein Paar beinhaltet Daten aus Treffern, die eine passende Personen-ID enthalten, und das andere Paar enthält Daten dieser Treffer, die nicht mit einer Personen-, sondern mit einer Geräte-ID übereinstimmen. </p> <p>Die „Personen-ID“-Dateien enthalten Daten zu allen Hits, die mit den Personen-IDs übereinstimmen, mit sämtlichen Feldern, die entweder über eine ACC-PERSON- oder ACC-ALL-Beschriftung verfügen (eine Datei mit allen übereinstimmenden Hits und die andere als Zusammenfassung). </p> <p>Das Geräte-ID-Dateienpaar enthält nur Felder, die eine ACC-ALL-Beschriftung aufweisen, und nur Treffer, die keine passende Personen-ID enthalten. Diese Dateien können Daten enthalten, die von anderen Benutzenden eines gemeinsam genutzten Geräts erzeugt wurden. Daher sollten Sie sorgfältig überlegen, welche Felder die Kennzeichnung ACC-ALL enthalten sollen. Analytics fügt diese Beschriftung standardmäßig nur Feldern mit allgemeinen Geräteinformationen (Gerätetyp, Betriebssystem, Browser usw.) sowie Uhrzeit und Datum der einzelnen Hits hinzu. </p> <p>Sie können festlegen, dass Sie sowohl Geräte- als auch Personendateien von Adobe erhalten, und lediglich die Personendateien weitergeben. So geben Sie keine Daten zurück, die möglicherweise von anderen Benutzern eines gemeinsam genutzten Geräts generiert wurden. Sie können auch Daten aus einem oder beiden Sätzen mit anderen Informationen, die Sie über die betroffene Person kennen, kombinieren und diese in Ihrem eigenen Format zurücksenden. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Geräte- und Personen-IDs in Datenschutzanfragen hinzufügen oder benutzerspezifische IDs (benutzerspezifische Besucher-ID oder eine ID in einer Prop oder einer eVar) nutzen, müssen Sie auf die verwendeten ACC-Beschriftungen achten. Jede Zugriffsanfrage gibt zwei Paare von Datendateien zurück. <p>Ein Dateipaar mit Daten aus Treffern, die eine übereinstimmende Personen-ID enthielten, und eine andere Datei mit Daten aus Treffern, die nicht mit einer Personen-ID, sondern mit einer Geräte-ID übereinstimmten. </p> <p>Die anderen ("Personen-ID")-Dateien enthalten Daten zu allen Treffern, die mit den Personen-IDs übereinstimmten, mit allen Feldern, die entweder eine ACC-PERSON- oder eine ACC-ALL-Beschriftung aufweisen. Eine Datei mit allen übereinstimmenden Treffern und eine weitere Zusammenfassungsdatei mit einer Zusammenfassung dieser Daten. </p> <p>Das Geräte-ID-Dateienpaar enthält nur Felder, die eine ACC-ALL-Beschriftung aufweisen, und nur Treffer, die keine passende Personen-ID enthalten. Diese Dateien können Daten enthalten, die von anderen Benutzenden eines gemeinsam genutzten Geräts erzeugt wurden. Daher sollten Sie sorgfältig überlegen, welche Felder die Kennzeichnung ACC-ALL enthalten sollen. Analytics fügt diese Beschriftung standardmäßig nur Feldern mit allgemeinen Geräteinformationen (Gerätetyp, Betriebssystem, Browser usw.) sowie Uhrzeit und Datum der einzelnen Hits hinzu. </p> <p>Sie können festlegen, dass Sie sowohl Geräte- als auch Personendateien von Adobe erhalten, und lediglich die Personendateien weitergeben. So geben Sie keine Daten zurück, die möglicherweise von anderen Benutzern eines gemeinsam genutzten Geräts generiert wurden. Sie können auch Daten aus einem oder beiden Sätzen mit anderen Informationen, die Sie über die betroffene Person kennen, kombinieren und diese in Ihrem eigenen Format zurücksenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
