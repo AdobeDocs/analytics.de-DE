@@ -3,10 +3,10 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4043'
-ht-degree: 42%
+source-wordcount: '4074'
+ht-degree: 52%
 
 ---
 
@@ -51,7 +51,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
    >Beachten Sie bei der Konfiguration eines Berichtsziels Folgendes:
    >
    >* Es wird empfohlen, ein Cloud-Konto für Ihr Berichtsziel zu verwenden. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
-   >* Alle Cloud-Konten, die Sie zuvor konfiguriert haben, stehen für Daten-Feeds zur Verfügung. Sie können Cloud-Konten auf eine der folgenden Arten konfigurieren:
+   >* Alle Cloud-Konten, die Sie zuvor konfiguriert haben, stehen für Daten-Feeds zur Verfügung. Sie können Cloud-Konten wie folgt konfigurieren:
    >
    >   * Beim Konfigurieren von Cloud-Konten für [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
@@ -61,7 +61,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
    >
    >* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzende können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
    >
-   >* Sie können alle Orte bearbeiten, die Sie über den Locations-Manager in [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md)
+   >* Sie können alle über den Speicherort-Manager erstellten Speicherorte unter [Komponenten > Speicherorte](/help/components/locations/configure-import-accounts.md) bearbeiten.
 
    ![Dropdown-Menü für Daten-Feed-Ziele](assets/datafeed-destinations-dropdown.png)
 
@@ -95,11 +95,11 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          Alle Cloud-Konten, die in einem der folgenden Bereiche von Adobe Analytics konfiguriert wurden, können verwendet werden:
 
-         * Beim Importieren von Adobe Analytics-Classification-Daten, wie unter [Schema](/help/components/classifications/sets/manage/schema.md).
+         * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
 
            Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
 
-         * Beim Konfigurieren von Konten und Speicherorten im Bereich Standorte, wie beschrieben in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
+         * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
       1. Wählen Sie den Speicherort aus dem [!UICONTROL **Speicherort auswählen**] Dropdown-Menü.
 
@@ -126,7 +126,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          |---------|----------|
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Behälternamen müssen bestimmten Benennungsregeln entsprechen. Sie müssen beispielsweise zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der Dokumentation zu AWS .](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
          | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
@@ -167,11 +167,11 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
       Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
 
-      * Beim Importieren von Adobe Analytics-Classification-Daten, wie unter [Schema](/help/components/classifications/sets/manage/schema.md).
+      * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
 
         Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
 
-      * Beim Konfigurieren von Konten und Speicherorten im Bereich Standorte, wie beschrieben in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
+      * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
       1. Wählen Sie den Speicherort aus dem [!UICONTROL **Speicherort auswählen**] Dropdown-Menü.
 
@@ -241,11 +241,11 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
 
-         * Beim Importieren von Adobe Analytics-Classification-Daten, wie unter [Schema](/help/components/classifications/sets/manage/schema.md).
+         * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
 
            Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
 
-         * Beim Konfigurieren von Konten und Speicherorten im Bereich Standorte, wie beschrieben in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
+         * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
       1. Wählen Sie den Speicherort aus dem [!UICONTROL **Speicherort auswählen**] Dropdown-Menü.
 
@@ -263,7 +263,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im [!UICONTROL **Konto auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-URI im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.</li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault. Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.</li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **Key Vault-Geheimnisname**] | Der Geheimnisname, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf den **Key Vault**-Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
@@ -276,7 +276,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im [!UICONTROL **Speicherort auswählen**] Dropdown-Feld ein und kann ein beliebiger Name sein, den Sie auswählen. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-URI-Store, den Sie beim Konfigurieren des Azure SAS-Kontos im Feld Key Vault Secret Name angegeben haben, den `Write` -Berechtigung. Dadurch kann der SAS-URI Dateien in Ihrem Azure-Container erstellen. <p>Wenn der SAS-URI auch Dateien überschreiben soll, stellen Sie sicher, dass der SAS-URI-Store über die `Delete` -Berechtigung.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
+         | [!UICONTROL **Präfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-URI-Speicher, den Sie bei der Konfiguration des Azure SAS-Kontos im Feld „Key Vault-Geheimnisname“ angegeben haben, über die `Write`-Berechtigung verfügt. Dadurch kann der SAS-URI Dateien in Ihrem Azure-Container erstellen. <p>Wenn Sie möchten, dass der SAS-URI auch Dateien überschreibt, stellen Sie sicher, dass der SAS-URI-Speicher die `Delete`-Berechtigung besitzt.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
 
          {style="table-layout:auto"}
 
@@ -314,11 +314,11 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
 
-         * Beim Importieren von Adobe Analytics-Classification-Daten, wie unter [Schema](/help/components/classifications/sets/manage/schema.md).
+         * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
 
            Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
 
-         * Beim Konfigurieren von Konten und Speicherorten im Bereich Standorte, wie beschrieben in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
+         * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
       1. Wählen Sie den Speicherort aus dem [!UICONTROL **Speicherort auswählen**] Dropdown-Menü.
 
@@ -345,7 +345,7 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
          | [!UICONTROL **Principal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen diesem Prinzipal Berechtigungen zum Empfangen von Feeds erteilen. |
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben:<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>(Empfohlen) `roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn Sie möchten, dass der Prinzipal Zugriff auf Dateien in Ihrem GCP-Konto hat, die Sie auflisten, aktualisieren und löschen können.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Informationen zum Gewähren von Berechtigungen finden Sie in der Google Cloud-Dokumentation unter [Hauptkonto zu einer Richtlinie auf Bucket-Ebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add).</p> |
+         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Vergewissern Sie sich, dass Sie dem durch Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben: (Informationen zum Gewähren von Berechtigungen finden Sie unter [Einen Prinzipal zu einer Richtlinie auf Behälterebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.)<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>(Empfohlen) `roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn Sie möchten, dass der Prinzipal Zugriff auf Dateien in Ihrem GCP-Konto hat, die Sie auflisten, aktualisieren und löschen können.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Wenn Ihr Unternehmen [Richtlinien der Organisation](https://cloud.google.com/storage/docs/org-policy-constraints) Um nur das Google Cloud Platform-Konto in Ihrer Zulassungsliste zuzulassen, benötigen Sie die folgende Adobe-eigene Google Cloud Platform-Organisations-ID: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}

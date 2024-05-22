@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: ht
-source-wordcount: '2584'
-ht-degree: 100%
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+workflow-type: tm+mt
+source-wordcount: '2615'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-Mail
 
@@ -163,7 +163,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -171,12 +171,12 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben:<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>`roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn der Prinzipal berechtigt sein soll, Dateien in Ihrem GCP-Konto anzuzeigen, aufzulisten, zu aktualisieren und zu löschen.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Informationen zum Gewähren von Berechtigungen finden Sie in der Google Cloud-Dokumentation unter [Hauptkonto zu einer Richtlinie auf Bucket-Ebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add).</p> |
-      | [!UICONTROL **Schlüsselpräfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
+      | [!UICONTROL **Bucket-Name**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Vergewissern Sie sich, dass Sie dem durch Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben: (Informationen zum Gewähren von Berechtigungen finden Sie unter [Einen Prinzipal zu einer Richtlinie auf Behälterebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.)<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>`roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn der Prinzipal berechtigt sein soll, Dateien in Ihrem GCP-Konto anzuzeigen, aufzulisten, zu aktualisieren und zu löschen.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Wenn Ihr Unternehmen [Richtlinien der Organisation](https://cloud.google.com/storage/docs/org-policy-constraints) Um nur das Google Cloud Platform-Konto in Ihrer Zulassungsliste zuzulassen, benötigen Sie die folgende Adobe-eigene Google Cloud Platform-Organisations-ID: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+      | [!UICONTROL **Schlüssel-Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der Registerkarte [!UICONTROL **Berichtsoptionen**] fort. Weitere Informationen finden Sie unter [Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

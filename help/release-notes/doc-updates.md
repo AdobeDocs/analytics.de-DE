@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
-source-wordcount: '5511'
-ht-degree: 96%
+source-wordcount: '5562'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Mai 2024** | |
+| Erforderliche Informationen bei der Verwendung von Einschränkungen der Organisationsrichtlinien mit Google Cloud Platform in Daten-Feeds und Data Warehouse | Die Organisations-ID von Google Cloud Platform, die sich im Besitz der Adobe befindet, wurde zur [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) Dokumentation. <p>Diese Informationen sind nur für Organisationen erforderlich, die [Richtlinien der Organisation](https://cloud.google.com/storage/docs/org-policy-constraints) in der Google Cloud-Plattform.</p> |
 | Dokumentation zum Hinzufügen von Komponenten zu Projekten | Es wurden allgemeine Informationen zum [Hinzufügen der verschiedenen Komponententypen zu Projekten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Aktualisierte Dokumentation zu Advertising Analytics | Die Dokumentation wurde entsprechend den Aktualisierungen am [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) -Benutzeroberfläche. |
 | Explizite Zuordnung von XDM-Objektvariablen zu Kontextdatenvariablen | Die Funktion wurde dokumentiert in [explizites Festlegen von Kontextdatenvariablen mithilfe der Zuordnung von XDM-Objektvariablen](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
