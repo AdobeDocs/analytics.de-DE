@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 41%
+source-wordcount: '1150'
+ht-degree: 39%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Mai 2024)
 
-**Letzte Aktualisierung:**: Mittwoch, 21. Mai 2024
+**Letzte Aktualisierung:**: Donnerstag, 22. Mai 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 15. Mai 2024 bis Juni. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-34559; AN 3
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
+| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | Donnerstag, 22. Mai 2024 | Eine bevorstehende Version der Analytics-Trefferverarbeitungsmaschine, **für Juli 2024** beginnt mit der Erzwingung eines 13-monatigen Ablaufs der gespeicherten `cust_visids`. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Derzeit gibt es keine Gültigkeit der Zuordnung eines `cust_visid` für einen `visid_high/visid_low`. Mit dieser Version, wenn 13 Monate oder mehr seit `visid_high/visid_low` hatte eine `cust_visid` bei einem Treffer abläuft die Zuordnung ab. |
 | **Aktualisierungen der ISO-Region** | Samstag, 10. Mai 2024 | Am Samstag, 7. Juni 2024 wird Adobe die Aktualisierung der ISO-Region 2024 durchführen. Nach dieser Version werden voraussichtlich kleinere Geo-Informationen (Region) aktualisiert. |
-| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | 20. März 2024 | Eine bevorstehende Version der Analytics-Trefferverarbeitungs-Engine, deren Freigabe für April oder Mai geplant ist, wird damit beginnen, eine 13-monatige Gültigkeit für gespeicherte `cust_visids` durchzusetzen. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Derzeit gibt es keine Gültigkeit der Zuordnung eines `cust_visid` für einen `visid_high/visid_low`. Mit dieser Version, wenn 13 Monate oder mehr seit `visid_high/visid_low` hatte eine `cust_visid` bei einem Treffer abläuft die Zuordnung ab. |
 
 {style="table-layout:auto"}
 
