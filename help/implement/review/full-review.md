@@ -4,7 +4,7 @@ description: Prüfen Sie Ihre Implementierung alle 6 Monate, um weiterhin die Au
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 80%
@@ -24,7 +24,7 @@ Treffen Sie sich mit dem Geschäftsinhaber und/oder den Business Analysten, um d
 Prüfen Sie kurz all Ihre Kennzahlen und Variablen in der Reihenfolge ihrer Bedeutung für das Unternehmen, um sicherzustellen, dass die Daten korrekt erfasst werden. Beginnen Sie mit Ihren zentralen Metriken und Variablen – denjenigen, die mit Ihren [5 wichtigsten KPIs](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=de#review) verbunden sind. Gehen Sie folgendermaßen vor:
 
 * Erstellen Sie Dashboards, um monatliche Trendansichten Ihrer Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) für jede Datei), um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Wenn Sie Abweichungen feststellen, überprüfen Sie Ihre Datenschicht, die Tag-Manager-Regeln und die Verarbeitungsregeln, um den Grund herauszufinden.
-* Führen Sie das [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) erneut aus, um allgemeine Trends Ihrer Kennzahlen und Variablen zu überwachen.
+* Führen Sie das [Analytics Health Dashboard](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) erneut aus, um allgemeine Trends Ihrer Kennzahlen und Variablen zu überwachen.
 
 Lassen Sie es nicht zu, dass Ihre Implementierung mit nicht benötigten Metriken und Variablen aufgebläht wird. Deaktivieren Sie Kennzahlen oder Variablen, die das Unternehmen nicht mehr benötigt oder verwendet. Sie können sie später löschen oder wiederverwenden.
 
