@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,21 +98,21 @@ So fügen Sie eine Visualisierung hinzu.
 >
 >Informationen zu den einzelnen Komponenten erhalten Sie, wenn Sie in der linken Leiste das Infosymbol neben dem Namen einer Komponente auswählen, oder in der [Komponentenübersicht](/help/components/home.md).
 
-Im Folgenden finden Sie grundlegende Informationen zum Hinzufügen einer Komponente zu einem Projekt in Analysis Workspace. Detaillierte Informationen zum Hinzufügen der verschiedenen Komponententypen (Dimensionen, Metriken, Segmente und Datumsbereiche) finden Sie unter [Komponenten in Analysis Workspace verwenden](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Im Folgenden finden Sie grundlegende Informationen zum Hinzufügen einer Komponente zu einem Projekt in Analysis Workspace. Detaillierte Informationen zum Hinzufügen der verschiedenen Komponententypen (Dimensionen, Metriken, Segmente und Datumsbereiche) finden Sie unter [Verwenden von Komponenten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 So fügen Sie einem Projekt in Analysis Workspace eine Komponente hinzu:
 
-1. Wählen Sie das Symbol **[!UICONTROL Komponenten]** in der linken Leiste aus.
+1. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Komponenten]** aus.
 
    ![](assets/build-components.png)
 
-1. Scrollen Sie zu der Komponente, die Sie hinzufügen möchten, oder suchen Sie sie und ziehen Sie sie in ein Bedienfeld oder eine Visualisierung innerhalb Ihres Projekts.
+1. Scrollen Sie zu der Komponente, die Sie hinzufügen möchten, oder suchen Sie sie und ziehen Sie sie anschließend in ein Bedienfeld oder eine Visualisierung innerhalb Ihres Projekts.
 
-   Sie können beispielsweise ein Segment in die Segment-Dropzone in einer Bedienfeldüberschrift ziehen.
+   Sie können beispielsweise ein Segment in den Segment-Ablegebereich in der Kopfzeile eines Bedienfelds ziehen.
 
-   ![Segment in der Dropzone ablegen](assets/segment-dropzone.png)
+   ![Segment im Ablegebereich ablegen](assets/segment-dropzone.png)
 
-   Weitere Informationen zum Hinzufügen von Komponenten zu Projekten finden Sie unter [Komponenten in Analysis Workspace verwenden](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   Weitere Informationen zum Hinzufügen von Komponenten zu Projekten finden Sie unter [Verwenden von Komponenten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Optional) Geben Sie das Projekt wie unter [Speichern und Freigeben des Projekts](#save-and-share-the-project) beschrieben frei.
 
