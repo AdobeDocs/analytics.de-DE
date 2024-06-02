@@ -3,9 +3,9 @@ description: Wenn ein Bericht viele eindeutige Werte aufweist, verwendet Adobe d
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: ht
-source-wordcount: '864'
+source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+workflow-type: tm+mt
+source-wordcount: '769'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,8 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
 ## So funktioniert [!UICONTROL Geringer Traffic]
 
 * Adobe Analytics verwendet zwei Schwellenwerte, um zu bestimmen, welche eindeutigen Werte jeden Monat in Berichten angezeigt werden: einen **[!UICONTROL niedrigen Schwellenwert]** und einen **[!UICONTROL hohen Schwellenwert]**. Diese Schwellenwerte können von Zeit zu Zeit durch Adobe angepasst werden. Die aktuellen Schwellenwerte sind:
-   * **[!UICONTROL Niedriger Schwellenwert]**: > 500.000 eindeutige Werte im Monat.
-   * **[!UICONTROL Hoher Schwellenwert]**: > 1.000.000 eindeutige Werte im Monat.
-* **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für geringen Traffic wie folgt: ![Schwellenwerte für geringen Traffic](assets/thresholds.png)
-Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen und wir gehen davon aus, dass sie bis **Ende Mai** abgeschlossen sind. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für das Reporting verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Klassifizierungs-Exporte können mehr Daten enthalten.</li></ul>
+   * **[!UICONTROL Niedriger Schwellenwert]**: > 2.000.000 eindeutige Werte im Monat.
+   * **[!UICONTROL Hoher Schwellenwert]**: > 2.100.000 eindeutige Werte im Monat.
 * Die Berichterstellung ist nicht betroffen, wenn die Variable in einem bestimmten Monat den niedrigen Schwellenwert nicht erreicht.
 * Wenn eine Variable den niedrigen Schwellenwert erreicht, werden die Daten unter [!UICONTROL Geringer Traffic] erfasst. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
