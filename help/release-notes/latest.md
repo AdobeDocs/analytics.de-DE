@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 47893ea714f0a0baaccce66578c9f9175c59511f
+source-git-commit: 258ef488f5bcf2ea2057ad3da605679f9e3438b6
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1145'
 ht-degree: 99%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Mai 2024)
 
-**Letzte Aktualisierung:**: 22. Mai 2024
+**Letzte Aktualisierung**: Dienstag, 3. Juni 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 15. Mai 2024 bis Juni 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -27,7 +27,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 15. 
 | **Anhebung der standardmäßigen Schwellenwerte für geringeren Traffic** | **Mitte April 2024** beginnt Adobe mit der Erhöhung der standardmäßigen Report Suite-Schwellenwerte für geringen Traffic wie folgt: ![Schwellenwerte für geringen Traffic](assets/thresholds.png) Dies wirkt sich nur auf Variablen aus, die derzeit unter den neuen Schwellenwerten liegen. Diese Änderungen werden schrittweise vorgenommen und wir gehen davon aus, dass sie bis **Ende Mai** abgeschlossen sind. Wenn diese Erhöhungen eingeführt werden, werden Sie möglicherweise Änderungen bei Variablen mit hoher Kardinalität bemerken:<ul><li>Es können mehr Dimensionswerte für das Reporting verfügbar sein.</li><li>Segmente und berechnete Metriken können weitere Daten enthalten.</li><li>Virtual Report Suites, die auf Segmenten basieren, können mehr Daten enthalten.</li><li>Klassifizierungs-Exporte können mehr Daten enthalten.</li></ul> | Mitte April 2024 | 31. Mai 2024 |
 | **Administratoreinstellungen zum Steuern der Konten und Speicherorte, die für den Export und Import verwendet werden** | Eine neue Registerkarte „Admin-Einstellungen“ im Speicherorte-Manager gibt Admins die Kontrolle darüber, ob Benutzende Konten und Speicherorte erstellen und bearbeiten können. Diese Einstellungen gelten, wenn Benutzende Cloud-Import- und -Exportkonten und Cloud-Import- und -Exportspeicherorte konfigurieren. <p>Admins können auch die Kontotypen (Google Cloud Platform, Azure RBAC, Amazon S3 usw.) einschränken, die Benutzende erstellen und verwenden können.</p><p>Zuvor konnten alle Benutzenden Konten und Speicherorte für beliebige Kontotypen erstellen, bearbeiten und verwenden.</p><p>(Link zur aktualisierten Dokumentation folgt)</p> | Donnerstag, 12. Juni 2024 | Montag, 30. Juni 2024 |
 | **Freigeben von Konten und Speicherorten, die für den Export und Import verwendet werden** | Benutzende können nun die von ihnen erstellten Konten und Speicherorte allen Benutzenden in ihrer Organisation zur Verfügung stellen. Nur die Personen, denen Konten bzw. Speicherorte gehören, und System-Admins können Konten und Speicherorte bearbeiten und löschen.<p>Zuvor konnten Konten und Speicherorte nur von der Person verwendet werden, die sie erstellt hat.</p><p>Diese Einstellungen sind verfügbar, wenn Benutzende Cloud-Import- und -Exportkonten und Cloud-Import- und -Exportspeicherorte konfigurieren. </p> <p>(Link zur aktualisierten Dokumentation folgt)</p> | Donnerstag, 12. Juni 2024 | Montag, 30. Juni 2024 |
-| **Activity Map, um weniger Server-Aufrufe für Web SDK zu verwenden** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. Durch diese Verbesserung werden einige Link-Ereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung durch AppMeasurement. <p>(Link zur aktualisierten Dokumentation folgt)</p> | Die Beta beginnt am 31. Mai 2024 | TBD |
+| **Activity Map, um weniger Server-Aufrufe für Web SDK zu verwenden** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. Durch diese Verbesserung werden einige Link-Ereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung durch AppMeasurement. <p>(Link zur aktualisierten Dokumentation folgt)</p> | Beta-Öffnung beginnt am 19. Juni 2024 | TBD |
 
 {style="table-layout:auto"}
 
