@@ -4,10 +4,10 @@ keywords: Daten-Feed;Auftrag;Metrik;vor Spalte;nach Spalte;Bots;Datumsfilterung;
 title: Metriken berechnen
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 
 1. Zählt die Anzahl der Zeilen, bei denen sich ein Wert in `post_pagename` oder `post_page_url` befindet.
 
+## Vorkommen
+
+1. Zählt die Gesamtzahl der Zeilen.
+
 ## Besuche
 
 1. Verkettet `post_visid_high`, `post_visid_low`, `visit_num` und `visit_start_time_gmt`.
 1. Zählen Sie die Anzahl der eindeutigen Werte.
 
->[!NOTE]
+>[!TIP]
 >
->In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie `visit_start_time_gmt` beim Zählen von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
+>In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Obwohl optional, verwenden Sie `visit_start_time_gmt` beim Zählen von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
 
 ## Besucher
 
