@@ -3,7 +3,7 @@ title: Referrer-Typ
 description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 375948a8a1d638ab4331b2437462c43c73ddfd6a
+source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -111,7 +111,9 @@ Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale 
 * `kanshin.com`
 * `kozocom.com`
 * `last.fm`
+* `likeshop.me`
 * `linkedin.com`
+* `linkin.bio`
 * `livejournal.com`
 * `lnkd.in`
 * `meetup.com`
