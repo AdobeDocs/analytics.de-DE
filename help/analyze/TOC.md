@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -152,9 +152,9 @@ ht-degree: 100%
       + [In der Anomalieerkennung verwendete statistische Verfahren](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + Intelligente Warnhinweise {#intelligent-alerts}
          + [Übersicht über intelligente Warnhinweise](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [Warnhinweiserstellung](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [Warnhinweis-Manager](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [Intelligente Warnhinweise – Anwendungsfälle](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [Warnhinweise erstellen](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+         + [Warnhinweise verwalten](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [Anwendungsbeispiele](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Benutzervoreinstellungen](analysis-workspace/user-preferences.md)
    + Häufig gestellte Fragen zu Workspace {#workspace-faq}
       + [Häufig gestellte Fragen](analysis-workspace/workspace-faq/faq.md)

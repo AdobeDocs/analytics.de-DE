@@ -4,14 +4,18 @@ title: Intelligente Warnhinweise – Anwendungsfälle
 feature: Alerts
 role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '67'
+ht-degree: 65%
 
 ---
 
 # Intelligente Warnhinweise – Anwendungsfälle
+
+Sie können intelligente Warnhinweise erstellen, wie unter [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+
+Die folgenden Abschnitte veranschaulichen Beispielanwendungsfälle, die bei der Erstellung von Warnhinweisen berücksichtigt werden sollten.
 
 ## Erstellen eines einfachen Warnhinweises, der nach zwei Segmenten gefiltert wird {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
@@ -23,15 +27,7 @@ Update screenshots for better readability.
 
 ![](assets/alerts_example1.png)
 
-## Erstellen eines Warnhinweises aus einer Tabellenauswahl {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freiform-Tabellen können Sie nun kontextbezogene Warnhinweise erstellen, indem Sie mit der rechten Maustaste auf eine Tabellenzeile klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
-
-![](assets/alert_selection.png)
-
-Dadurch wird die Warnhinweiserstellung unverzüglich mit den entsprechenden Werten ausgefüllt, um einen Warnhinweis mit den korrekten Metriken und Filtern zu erstellen:
-
-![](assets/prepopulated_alert.png)
 
 ## Warnhinweise zusammenfassen (stapeln), anstatt mehrere Warnhinweise zu erstellen {#section_B27B0856BA104B9FB6D0BBB317633F18}
 

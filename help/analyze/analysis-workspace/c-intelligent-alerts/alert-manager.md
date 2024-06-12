@@ -1,36 +1,57 @@
 ---
 description: Warnhinweise erstellen, bearbeiten oder löschen.
-title: Warnhinweis-Manager (Analysis Workspace)
+title: Alert Manager (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 97%
+source-wordcount: '233'
+ht-degree: 7%
 
 ---
 
-# Warnhinweis-Manager
 
-![](assets/alert-manager.png)
+# Warnhinweise verwalten
 
-Der Warnhinweis-Manager (**[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**) ähnelt sehr dem [Segment-Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de) und dem [Manager für berechnete Metrik](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=de) und ermöglicht Ihnen Folgendes:
+Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
 
-![](assets/alert-manager-tasks.png)
+Der Warnhinweis-Manager ähnelt sehr dem [Segment-Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de) und [Manager für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=de).
 
-* Die Warnhinweiserstellung per Klick auf **[!UICONTROL + Hinzufügen]** öffnen.
-* Warnhinweise mit einem Tag versehen: Dadurch können Sie sie zur einfachen Anwendung organisieren.
-* Warnhinweise löschen.
-* Warnhinweise umbenennen.
-* Warnhinweise genehmigen.
-* Warnhinweise kopieren.
-* Warnhinweise aktivieren/deaktivieren.
-* Ein Ablaufdatum für den Warnhinweis **verlängern**: Wenn ein oder mehrere Warnhinweise ausgewählt sind, können diese durch Klicken auf **Verlängern** verlängert werden. Dadurch werden die Ablaufdaten ab dem Tag, an dem auf „Verlängern“ geklickt wurde, unabhängig vom ursprünglichen Ablaufdatum um 1 Jahr verlängert.
-* Einen Warnhinweis als .CSV-Datei exportieren.
-* Warnhinweise durch Doppelklicken auf den Titel bearbeiten.
-* Nach Warnhinweisen suchen.
-* Warnhinweise zu anderen Report Suites hinzufügen.
-* Den Eigentümer eines Warnhinweises angeben oder ändern.
-* Andere Filter hinzufügen.
-* Ein **Ablaufdatum** für den Warnhinweis definieren.
+## Warnhinweise erstellen
+
+So erstellen Sie Warnhinweise vom Warnhinweis-Manager:
+
+1. Auswählen **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** , um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+
+   ![](assets/alert-manager.png)
+
+1. Auswählen [!UICONTROL **Hinzufügen**] (oder [!UICONTROL **Neuen Warnhinweis erstellen**] , wenn Sie noch keine Warnhinweise haben).
+
+1. Fahren Sie mit [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) Weitere Informationen zum Erstellen von Warnhinweisen.
+
+## Vorhandene Warnungen verwalten
+
+So verwalten Sie vorhandene Warnhinweise im Warnhinweis-Manager:
+
+1. Auswählen **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** , um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+
+   ![](assets/alert-manager.png)
+
+1. Wählen Sie einen oder mehrere Warnhinweise aus, die Sie verwalten möchten.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. Wählen Sie in der Aktionsleiste eine der folgenden Optionen aus:
+
+   | Aktion | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Wenden Sie ein Tag auf einen Warnhinweis an. Auf diese Weise können Sie Warnhinweise zur einfachen Verwendung organisieren. |
+   | [!UICONTROL **Löschen**] | Löscht den Warnhinweis. |
+   | [!UICONTROL **Umbenennen**] | Benennt die Warnung um. |
+   | [!UICONTROL **Genehmigen**] | Markieren Sie den Warnhinweis als Genehmigt. |
+   | [!UICONTROL **Kopieren**] | Erstellt eine Kopie (Duplikat) des Warnhinweises. |
+   | [!UICONTROL **Deaktivieren**] | Deaktiviert eine Warnung, die derzeit aktiviert ist. |
+   | [!UICONTROL **Aktivieren**] | Aktiviert einen Warnhinweis, der derzeit deaktiviert ist. |
+   | [!UICONTROL **Verlängern**] | Verlängern Sie das Ablaufdatum des Warnhinweises. Dadurch wird das Ablaufdatum ab dem Tag, an dem Sie diese Option ausgewählt haben, auf 1 Jahr verlängert, unabhängig vom ursprünglichen Ablaufdatum. |
+   | [!UICONTROL **In CSV exportieren**] | Exportiert den Warnhinweis in eine .CSV-Datei. |

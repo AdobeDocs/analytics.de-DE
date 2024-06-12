@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 55%
+source-wordcount: '969'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. 
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Auswählen mehrerer Filter, wenn sie im Dropdown-Menü in einer Freiformtabelle verfügbar sind** | Wenn einer Freiformtabelle als Dropdown-Menü mehrere Filter hinzugefügt wurden, können Benutzer der Freiformtabelle jetzt mehrere Filter gleichzeitig auswählen. Die Freiformtabelle wird gefiltert, um einen der ausgewählten Filter einzuschließen. Zuvor konnten Benutzer in einem Dropdown-Menü für Filter jeweils nur einen Filter auswählen.<p>(Der Dokumentationslink folgt.) |  | Donnerstag, 19. Juni 2024 |
+| **Auswählen mehrerer Felder in einem Dropdown-Filter** | Wenn einem Dropdown-Filter mehrere Felder hinzugefügt wurden, können Benutzer jetzt mehrere Felder gleichzeitig auswählen. Das Bedienfeld wird gefiltert, um eines der ausgewählten Felder einzuschließen. <p>Zuvor konnten Benutzer in einem Dropdown-Filter jeweils nur ein Feld auswählen.</p><p>(Der Dokumentationslink folgt.)</p> |  | Donnerstag, 19. Juni 2024 |
 | **Inhaltsverzeichnis für Workspace-Projekte** | Für Projekte ist jetzt ein neues Inhaltsverzeichnis verfügbar. Das Inhaltsverzeichnis enthält Links, über die Benutzer schnell zu Bereichen und Visualisierungen innerhalb des Projekts springen können. Das Inhaltsverzeichnis kann für einzelne Projekte oder für alle Projekte eines bestimmten Benutzers aktiviert werden.<p>(Der Dokumentationslink folgt.) |  | Donnerstag, 19. Juni 2024 |
 | **Erstellen von Hyperlinks für Dimensionselemente in einer Freiformtabelle** | Sie können Hyperlinks für ein oder mehrere Dimensionselemente erstellen, damit sie in einer Freiformtabelle in Analysis Workspace angeklickt werden können. <p>Sie können Hyperlinks für Dimensionselemente erstellen, die URL-Werte aufweisen, oder Sie können benutzerdefinierte URLs für Dimensionselemente erstellen, die Nicht-URL-Werte haben.</p><p>Sie können dynamische benutzerdefinierte URLs für mehrere Dimensionselemente mithilfe von Variablen erstellen. Variablen können auf den Wert eines Dimensionselements verweisen oder auf die Aufschlüsselungsdimension verweisen.</p><p>(Der Dokumentationslink folgt.)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | Donnerstag, 19. Juni 2024 |
 | **Administratoreinstellungen zum Steuern der Konten und Speicherorte, die für den Export und Import verwendet werden** | Eine neue [Registerkarte &quot;Admin settings&quot;im Locations Manager](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) gibt Administratoren die Kontrolle darüber, ob Benutzer Konten und Standorte erstellen und bearbeiten können. Diese Einstellungen gelten für Benutzer [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Cloud-Import- und -Exportspeicherorte konfigurieren](/help/components/locations/configure-import-locations.md). <p>Admins können auch die Kontotypen (Google Cloud Platform, Azure RBAC, Amazon S3 usw.) einschränken, die Benutzende erstellen und verwenden können.</p><p>Zuvor konnten alle Benutzenden Konten und Speicherorte für beliebige Kontotypen erstellen, bearbeiten und verwenden.</p> | 12. Juni 2024 | 30. Juni 2024 |
