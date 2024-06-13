@@ -4,10 +4,10 @@ title: Alert Builder (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 42%
+source-wordcount: '613'
+ht-degree: 39%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 42%
 >
 >Intelligente Warnhinweise sind nur für Kunden von Adobe Analytics Prime und Adobe Analytics Ultimate verfügbar.
 
-Intelligente Warnhinweise (oder nur &quot;Warnhinweise&quot;) in Adobe Analytics ermöglichen es Ihnen, sofort benachrichtigt zu werden, wenn in Ihren Daten abnorme Ereignisse auftreten.
+Intelligente Warnhinweise (oder nur &quot;Warnhinweise&quot;) in Adobe Analytics ermöglichen es Ihnen, sofort benachrichtigt zu werden, wenn in Ihren Daten abnorme Ereignisse auftreten. (Warnhinweise zur Nutzung von Server-Aufrufen sind eine andere Art von Warnhinweisen, die nur für Analytics-Administratoren verfügbar sind. Diese Warnhinweise informieren Sie über das Risiko oder das Auftreten einer Überschreitung der Verbrauchs- und Zusagedaten für Server-Aufrufe. Weitere Informationen finden Sie unter [Warnhinweise zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
 Detaillierte Übersichtsinformationen zu intelligenten Warnhinweisen finden Sie unter [Übersicht über intelligente Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-So erstellen Sie einen Warnhinweis:
+So erstellen Sie einen intelligenten Warnhinweis:
 
 1. Beginnen Sie mit der Erstellung eines Warnhinweises, indem Sie auf die Warnhinweiserstellung zugreifen. Sie haben folgende Möglichkeiten, auf den Warnhinweiserstellung zuzugreifen:
 
@@ -32,7 +32,7 @@ So erstellen Sie einen Warnhinweis:
    * Öffnen Sie ein Projekt in Analysis Workspace, wählen Sie ein oder mehrere Zeilenelemente in einer Freiformtabelle aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Warnhinweis aus Auswahl erstellen]**.
 
      Dadurch wird der Warnhinweiserstellung sofort vorausgefüllt, um einen Warnhinweis mit den richtigen Metriken und Filtern zu erstellen.
-   * Wählen Sie in Adobe Analytics **[!UICONTROL Komponenten]** > [!UICONTROL **Warnhinweise**] > **[!UICONTROL Neuen Warnhinweis erstellen]**.
+   * Warnhinweis erstellen [über den Warnhinweis-Manager](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
 
    Die Warnhinweiserstellung wird angezeigt. Diese Benutzeroberfläche ist mit jenen vertraut, die Segmente oder berechnete Metriken in Analytics erstellt haben:
 

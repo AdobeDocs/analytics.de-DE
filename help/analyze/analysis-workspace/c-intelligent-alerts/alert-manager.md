@@ -4,10 +4,10 @@ title: Alert Manager (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 7%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,22 @@ So erstellen Sie Warnhinweise vom Warnhinweis-Manager:
 
 1. Auswählen [!UICONTROL **Hinzufügen**] (oder [!UICONTROL **Neuen Warnhinweis erstellen**] , wenn Sie noch keine Warnhinweise haben).
 
-1. Fahren Sie mit [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) Weitere Informationen zum Erstellen von Warnhinweisen.
+1. Wählen Sie den Warnhinweistyp aus, der dem zu erstellenden Warnhinweis entspricht:
+
+   * [!UICONTROL **Analytics-Datenwarnung**]: Ein Warnhinweis, der Sie benachrichtigt, wenn in Ihren Daten abnormale Ereignisse auftreten.
+
+     Wenn Sie diese Option auswählen, fahren Sie mit [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) Weitere Informationen zum Erstellen von Warnhinweisen.
+
+   * [!UICONTROL **Warnung zur Nutzung von Server-Aufrufen**]: Ein Warnhinweis, der Sie über das Risiko oder das Auftreten einer Überschreitung der Verbrauchs- und Zusagedaten für Server-Aufrufe informiert.
+
+     Wenn Sie diese Option auswählen, fahren Sie mit [Warnhinweise zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >Sie müssen Analytics-Administrator oder Benutzer mit der Berechtigung zur Nutzung von Server-Aufrufen sein, um Zugriff auf die Nutzung von Server-Aufrufen zu erhalten.
+
+
+
 
 ## Vorhandene Warnungen verwalten
 
