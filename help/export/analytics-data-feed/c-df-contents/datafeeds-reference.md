@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`namespace`** | Nicht verwendet. Teil einer veralteten Funktion. | varchar(50) |
 | **`new_visit`** | Ein Flag, das bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe-Servern nach einer 30-minütigen Besuchsinaktivität festgelegt. | tinyint unsigniert |
 | **`os`** | Numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Der Schlüsselwert für `operating_system.tsv` Standardsuche und `operating_system_type.tsv` [Dynamische Suche](dynamic-lookups.md). | int unsigniert |
-| **`p_plugins`** | Wird nicht mehr verwendet. Liste der für den Browser verfügbaren Plugins. Hat die JavaScript-Funktion `navigator.plugins()` verwendet. | text |
+| **`p_plugins`** | Wird nicht mehr verwendet. Liste der für den Browser verfügbaren Plug-ins. Hat die JavaScript-Funktion `navigator.plugins()` verwendet. | text |
 | **`page_event`** | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink). Siehe [Seitenereignissuche](datafeeds-page-event.md). | tinyint unsigniert |
 | **`page_event_var1`** | Wird nur in Linktracking-Bildanforderungen verwendet. Die URL des angeklickten Downloadlinks, Exitlinks oder benutzerspezifischen Links. | text |
 | **`page_event_var2`** | Wird nur in Linktracking-Bildanforderungen verwendet. Der benutzerdefinierte Name des Links, sofern angegeben. | varchar(100) |
@@ -173,7 +173,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`paid_search`** | Flag, das gesetzt wird, wenn der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
 | **`partner_plugins`** | Nicht verwendet. Teil einer veralteten Funktion. | varchar(255) |
 | **`persistent_cookie`** | Wird in der Dimension [Unterstützung persistenter Cookies](/help/components/dimensions/persistent-cookie-support.md) verwendet. Gibt an, ob der Benutzer Cookies unterstützt, die nicht nach jedem Treffer gelöscht werden. | char(1) |
-| **`plugins`** | Wird nicht mehr verwendet. Liste numerischer IDs, die den im Browser verfügbaren Plugins entsprechen. Verwendet die `plugins.tsv`-Suche. | varchar(180) |
+| **`plugins`** | Wird nicht mehr verwendet. Liste numerischer IDs, die den im Browser verfügbaren Plug-ins entsprechen. Verwendet die `plugins.tsv`-Suche. | varchar(180) |
 | **`pointofinterest`** | Name des Mobile Services-Zielpunkts | varchar(255) |
 | **`pointofinterestdistance`** | Entfernung der Mobile Services zur Zielpunktmitte | varchar(255) |
 | **`post_`**-Spalten | Enthält den in diesen Berichten ultimativ verwendeten Wert. Jede Post-Spalte wird nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln gefüllt. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. | Vgl. entsprechende non-post-Spalte |

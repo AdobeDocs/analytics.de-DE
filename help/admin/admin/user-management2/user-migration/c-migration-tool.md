@@ -4,9 +4,9 @@ title: Analytics-Benutzermigration zur Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 97%
 
 ---
@@ -269,7 +269,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Anmeldung als </p> </td> 
-   <td colname="col2"> <p> Administrierende, die zur Adobe Admin Console migrieren, können die Funktion „Anmeldung als“ nicht mehr für den Zugriff auf Nicht-Admin-Benutzerkonten verwenden, die in die Adobe Admin Console migriert wurden. Diese Funktion ist in Analytics nicht vorhanden. </p> </td> 
+   <td colname="col2"> <p> Administrierende, die zur Adobe Admin Console migrieren, können die Funktion „Anmeldung als“ nicht mehr für den Zugriff auf Nicht-Admin-Benutzerkonten verwenden, die in die Adobe Admin Console migriert wurden. Diese Funktion wurde eingestellt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzergültigkeit und Asset-Übertragung </p> </td> 

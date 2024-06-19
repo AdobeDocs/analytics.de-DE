@@ -1,13 +1,13 @@
 ---
 title: account
-description: Verwenden Sie Variable „account“, um die Report Suite zu bestimmen, an die Daten gesendet werden.
+description: (Veraltet) Bestimmen Sie die Report Suite, an die Daten gesendet werden.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 47%
+source-wordcount: '131'
+ht-degree: 38%
 
 ---
 

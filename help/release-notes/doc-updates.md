@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '5586'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
-| **Juni 2024** | |
+| **Juni 2024** | |
 | Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zu [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Warnungen verwalten](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), und [Übersichtsinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Mai 2024** | |
 | Erforderliche Informationen bei der Verwendung von Organisationsrichtlinieneinschränkungen mit Google Cloud Platform in Daten-Feeds und Data Warehouse | Die Adobe-eigene Organisations-ID für Google Cloud Platform wurde zur Dokumentation zu [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) hinzugefügt. <p>Diese Informationen sind nur für Organisationen erforderlich, die [Organisationsrichtlinieneinschränkungen](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform verwenden.</p> |
@@ -140,7 +140,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | VISTA | Neue Seite mit Erläuterungen zu den Grundlagen von [VISTA-Regeln](/help/technotes/vista.md). |
 | **September 2022** | |
 | Kombinationsdiagramme | Neuer Artikel zur Visualisierung in [Kombinationsdiagrammen](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
-| Aktualisiertes Plug-in | Aktualisierte Version des Implementierungs-Plug-ins [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
+| Aktualisiertes Plug-in | Aktualisierte Version der [getvalonce](/help/implement/vars/plugins/getvalonce.md) -Implementierungs-Plug-in. |
 | Neue Konfigurationsvariable | Dokumentation zu [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | Client-Hinweise zu hoher Entropie | Neuer Artikel zur Verwendung von [Client-Hinweisen](/help/technotes/client-hints.md) durch Adobe zusätzlich zum Benutzeragenten, um Geräteinformationen zu ermitteln. |
 | Verarbeitungsreihenfolge | Verschiedene Hilfeseiten wurden zu einem einzigen Hilfeartikel zur [Verarbeitungsreihenfolge](/help/technotes/processing-order.md) zusammengefasst. |

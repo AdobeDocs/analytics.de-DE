@@ -4,10 +4,10 @@ description: Identifizieren Sie Bots dynamisch durch Mausbewegungen.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der A
 
 ## Verwenden des Plug-ins
 
-Das Plug-in `websiteBot` löst einen `s.tl`-Aufruf aus, wenn Nicht-Bot-Traffic erkannt wird.
+Die `websiteBot` -Plug-in löst einen `s.tl` aufrufen, wenn Nicht-Bot-Traffic erkannt wird.
 
 ## Beispiele
 

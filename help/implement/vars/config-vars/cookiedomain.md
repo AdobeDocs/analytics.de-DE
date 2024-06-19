@@ -1,20 +1,19 @@
 ---
 title: cookieDomain
-description: Die Variable „cookieDomain“ hilft bei der Bestimmung der Domain, in der Cookies gesetzt werden sollen.
+description: (Veraltet) Hilft bei der Bestimmung der Domäne, in der Cookies gesetzt werden sollen.
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 81%
+source-wordcount: '197'
+ht-degree: 77%
 
 ---
 
 # cookieDomain
 
 >[!IMPORTANT]
->
 >Diese Variable wurde eingestellt. Verwenden Sie stattdessen [`trackingServer`](trackingserver.md).
 
 Die `cookieDomain`-Variable bestimmt die Domain, in der AppMeasurement Cookies setzt. Mit dieser Variablen können Sie explizit die Cookie-Domäne festlegen, anstatt die [`cookieDomainPeriods`](cookiedomainperiods.md)-Variable zu verwenden.

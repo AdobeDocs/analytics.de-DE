@@ -4,10 +4,10 @@ title: Über den Manager für geplante Aufgaben
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 93%
+source-wordcount: '778'
+ht-degree: 86%
 
 ---
 
@@ -17,12 +17,12 @@ Im [!UICONTROL Manager für geplante Aufgaben] finden Sie eine Liste mit den vor
 
 ## Anhalten älterer geplanter Aufgaben
 
-Am 21. April 2022 haben wir im Rahmen unserer Leistungs- und Versandoptimierungsbemühungen in Report Builder Änderungen an terminierten Aufgaben durchgeführt. Zu diesen Änderungen gehörte auch das Entfernen der Möglichkeit, dass geplante Sendungen „nach x Vorfällen beendet werden“. Als Reaktion auf mehrere Kundenanfragen, die mehr Zeit für die Erkundung und Implementierung von Alternativen benötigen, haben wir beschlossen, diese Option in begrenztem Umfang wieder einzuführen und bis zum **31. Januar 2023** aufrecht zu erhalten.
+Am 21. April 2022 haben wir im Rahmen unserer Leistungs- und Versandoptimierungsbemühungen in Report Builder Änderungen an terminierten Aufgaben durchgeführt. Zu diesen Änderungen gehörte auch das Entfernen der Möglichkeit, dass geplante Sendungen „nach x Ereignissen beendet werden“. Als Reaktion auf mehrere Kundenanfragen, die mehr Zeit für die Erkundung und Implementierung von Alternativen benötigen, haben wir beschlossen, diese Option in begrenztem Umfang wieder einzuführen und bis zum **31. Januar 2023** aufrecht zu erhalten.
 
-Sie können weiterhin stündliche Report Builder-Aufgaben planen und diese nach maximal 99 Vorkommen beenden. Bitte beachten Sie, dass das Rollback nur für stündliche Aufgaben gilt. Die Option „Nach x Vorkommen beenden“ bleibt für alle anderen Versandintervalle (täglich, wöchentlich, monatlich und jährlich) weiterhin nicht verfügbar. 
+Sie können weiterhin stündliche Report Builder-Aufgaben planen und diese nach maximal 99 Vorkommen beenden. Beachten Sie, dass das Rollback nur für stündliche Aufgaben gilt. Das &quot;Ende nach x Vorkommen&quot;bleibt für alle anderen Versandintervalle (täglich, wöchentlich, monatlich und jährlich) nicht verfügbar.
 
-Bitte beachten Sie, dass diese Option ab dem 31. Januar 2023 nicht mehr unterstützt wird.
-Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Kundenunterstützung von Adobe.
+Bitte beachten Sie, dass diese Option zum 31. Januar 2023 eingestellt wurde.
+Wenden Sie sich bei weiteren Fragen oder Support an die Adobe-Kundenunterstützung.
 
 Diese Pause gilt insbesondere für **vor dem 31. Januar 2020 erstellte Aufgaben**. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht. Aufgaben, die älter als zwei Jahre sind, werden angehalten und es werden keine weiteren geplanten Aufgaben gesendet.
 

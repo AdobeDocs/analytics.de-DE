@@ -1,13 +1,13 @@
 ---
 title: state
-description: Füllen Sie den Bericht „Bundesstaat des Besuchers“ in Reports and Analytics.
+description: (Veraltet) Der nicht mehr verfügbare "Besucherstatusbericht"wurde ausgefüllt.
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 93%
+source-wordcount: '225'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Diese Variable wurde eingestellt und ist keine verfügbare Dimension in Analysis Workspace. Verwenden Sie stattdessen die Dimension „US-Bundesstaaten“, die AppMeasurement automatisch basierend auf dem Standort des Besuchers erfasst.
+>Diese Variable wurde eingestellt und ist keine verfügbare Dimension in Analysis Workspace. Verwenden Sie die [US-Staaten](/help/components/dimensions/us-states.md) Dimension, welche AppMeasurement automatisch basierend auf dem Standort des Besuchers erfasst.
 
 In früheren Versionen von Adobe Analytics wurde die `state`-Variable verwendet, wenn Besucher Versandinformationen auf Retail-Websites ausfüllten. Sie ist funktionell mit einer Prop identisch, aber nicht in Analysis Workspace verfügbar.
 
