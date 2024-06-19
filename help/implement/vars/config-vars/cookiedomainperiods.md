@@ -4,10 +4,10 @@ description: (Veraltet) Helfen Sie AppMeasurement, zu bestimmen, wo Cookies gesp
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '372'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 19%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->Diese Variable wird nicht mehr unterstützt. Wenn Sie AppMeasurement v2.26.x oder höher oder die Adobe Analytics-Erweiterung v1.9.4 oder höher verwenden, erkennt die Bibliothek automatisch die Domäne, in der Cookies gesetzt werden sollen.
+>Diese Variable wird nicht mehr unterstützt. Wenn Sie einen der folgenden Schritte verwenden:
+>
+>* AppMeasurement v2.26.x oder höher
+>* Adobe Analytics-Erweiterung v1.9.4 oder höher
+>* Adobe Experience Cloud ID-Dienst
+>
+>Diese Variable hat keine Auswirkung, da die entsprechende Bibliothek automatisch die Domäne erkennt, in der Cookies gesetzt werden sollen.
 
 Die `cookieDomainPeriods` hat AppMeasurement dabei geholfen zu bestimmen, wo Analytics-Cookies gesetzt werden sollten, indem angegeben wurde, dass die Domäne auf oberster Ebene einen zusätzlichen Punkt enthielt. Diese Variable ermöglichte es AppMeasurement, den zusätzlichen Punkt in der Domäne auf oberster Ebene aufzunehmen und Cookies an der richtigen Stelle zu setzen. Wenn die Domäne der obersten Ebene Ihrer Website keinen zusätzlichen Punkt enthält, ist diese Variable nicht erforderlich.
 
