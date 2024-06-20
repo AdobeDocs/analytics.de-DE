@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 9a44c2df3cb65a23c0e38a8af3892d045a279818
 workflow-type: tm+mt
-source-wordcount: '5586'
+source-wordcount: '5617'
 ht-degree: 99%
 
 ---
@@ -27,6 +27,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Juni 2024** | |
 | Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) und [Überblicksinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Veraltet `cookieDomainPeriods` | Nachdem AppMeasurement automatisch die richtige Domäne erkennt, für die Cookies gesetzt werden sollen, wird die [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) nicht mehr unterstützt. |
+| Dokumentation zu Data Connectors | Die Data Connectors-Seite zum Ende der Nutzungsdauer wurde nach [Eingestellte Erzeugnisse](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **Mai 2024** | |
 | Erforderliche Informationen bei der Verwendung von Organisationsrichtlinieneinschränkungen mit Google Cloud Platform in Daten-Feeds und Data Warehouse | Die Adobe-eigene Organisations-ID für Google Cloud Platform wurde zur Dokumentation zu [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) hinzugefügt. <p>Diese Informationen sind nur für Organisationen erforderlich, die [Organisationsrichtlinieneinschränkungen](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform verwenden.</p> |
 | Dokumentation zum Hinzufügen von Komponenten zu Projekten | Es wurden allgemeine Informationen zum [Hinzufügen der verschiedenen Komponententypen zu Projekten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md) hinzugefügt. |
