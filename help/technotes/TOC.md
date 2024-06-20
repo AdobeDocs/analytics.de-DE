@@ -5,7 +5,7 @@ user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
 source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
    + [Browsercookies](cookies/cookies.md)
    + [Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies](cookies/cookieless.md)
 + [Datenaufbewahrung](data-retention.md)
-+ [Domänen](domains.md)
++ [Domains](domains.md)
 + [Ausschließen von Daten](exclude-data.md)
 + [IP-Adressen](ip-addresses.md)
 + [Latenz](latency.md)
@@ -52,7 +52,7 @@ ht-degree: 100%
 + [Datenschutzübersicht](privacy-overview.md)
 + [Verarbeitungsreihenfolge](processing-order.md)
 + [Progressive Web-Apps](pwa.md)
-+ [Umleitungen und Aliase](redirects.md)
++ [Umleitungen und Aliasse](redirects.md)
 + [Sicherheitsressourcen](security.md)
 + [Verwendete Begriffe (Glossar)](terms.md)
 + [Zeitstempel optional](timestamps-optional.md)
