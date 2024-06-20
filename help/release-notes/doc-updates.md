@@ -25,8 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
-| **Juni 2024** | |
-| Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zu [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Warnungen verwalten](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), und [Übersichtsinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| **Juni 2024** | |
+| Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) und [Überblicksinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Mai 2024** | |
 | Erforderliche Informationen bei der Verwendung von Organisationsrichtlinieneinschränkungen mit Google Cloud Platform in Daten-Feeds und Data Warehouse | Die Adobe-eigene Organisations-ID für Google Cloud Platform wurde zur Dokumentation zu [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) hinzugefügt. <p>Diese Informationen sind nur für Organisationen erforderlich, die [Organisationsrichtlinieneinschränkungen](https://cloud.google.com/storage/docs/org-policy-constraints) in Google Cloud Platform verwenden.</p> |
 | Dokumentation zum Hinzufügen von Komponenten zu Projekten | Es wurden allgemeine Informationen zum [Hinzufügen der verschiedenen Komponententypen zu Projekten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md) hinzugefügt. |

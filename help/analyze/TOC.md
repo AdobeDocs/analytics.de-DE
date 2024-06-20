@@ -154,8 +154,8 @@ ht-degree: 98%
       + [In der Anomalieerkennung verwendete statistische Verfahren](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + Intelligente Warnhinweise {#intelligent-alerts}
          + [Übersicht über intelligente Warnhinweise](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [Warnhinweise erstellen](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [Warnhinweise verwalten](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [Erstellen von Warnhinweisen](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+         + [Verwalten von Warnhinweisen](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Anwendungsbeispiele](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Benutzervoreinstellungen](analysis-workspace/user-preferences.md)
    + Häufig gestellte Fragen zu Workspace {#workspace-faq}
