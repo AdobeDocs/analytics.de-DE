@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Standorte-Manager
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -128,8 +128,6 @@ So löschen Sie ein Konto:
 1. Wählen Sie das 3-Punkt-Symbol für das Konto aus, das Sie bearbeiten möchten, und wählen Sie dann [!UICONTROL **Konto löschen**]
 
 ## unternehmensweite Einstellungen konfigurieren (nur Administratoren)
-
-{{release-limited-testing-section}}
 
 Systemadministratoren können Benutzer daran hindern, Konten und Standorte zu erstellen, oder sie können die Arten von Konten einschränken, die Benutzer erstellen und verwenden können.
 

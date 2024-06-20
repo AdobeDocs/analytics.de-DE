@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportkonten
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1470'
 ht-degree: 54%
 
 ---
@@ -45,7 +45,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    Die [!UICONTROL **Konto hinzufügen**] angezeigt.
 
-1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name des Standortkontos**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Standorts angezeigt | | [!UICONTROL **Beschreibung des Standortkontos**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Konto für alle Benutzer in Ihrer Organisation verfügbar machen**] | **Hinweis:** Diese Funktion befindet sich in der eingeschränkten Testphase der Veröffentlichung und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md). <p>Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation das Konto verwenden können.</p> <p>Beachten Sie beim Freigeben von Konten Folgendes:</p><ul><li>Die Freigabe von Konten, die Sie freigeben, kann nicht aufgehoben werden.</li><li>Freigegebene Konten können nur vom Eigentümer des Kontos bearbeitet werden.</li><li>Jeder kann einen Speicherort für das freigegebene Konto erstellen.</li></ul> | | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Speicherorten nach Bedarf innerhalb dieses Kontos zu führen.<p>Systemadministratoren können die Kontotypen einschränken, die Benutzer erstellen können, wie unter [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</p> |
+1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name des Standortkontos**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Standorts angezeigt | | [!UICONTROL **Beschreibung des Standortkontos**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Konto für alle Benutzer in Ihrer Organisation verfügbar machen**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation das Konto verwenden können.<p>Beachten Sie beim Freigeben von Konten Folgendes:</p><ul><li>Die Freigabe von Konten, die Sie freigeben, kann nicht aufgehoben werden.</li><li>Freigegebene Konten können nur vom Eigentümer des Kontos bearbeitet werden.</li><li>Jeder kann einen Speicherort für das freigegebene Konto erstellen.</li></ul> | | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Speicherorten nach Bedarf innerhalb dieses Kontos zu führen.<p>Systemadministratoren können die Kontotypen einschränken, die Benutzer erstellen können, wie unter [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</p> |
 1. Im [!UICONTROL **Kontoeigenschaften**] -Abschnitt Informationen zum ausgewählten Kontotyp angeben.
 
    Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem [!UICONTROL **Kontotyp**] die Sie ausgewählt haben. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
