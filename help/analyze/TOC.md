@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und Activity Map.
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 99%
       + [Übersicht über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projekte erstellen](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Inhaltsverzeichnis des Projekts](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Ordner in Analysis Workspace {#workspace-folders}
          + [Über Ordner in Analysis Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern und Unterordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 99%
       + [Datenquellen verwalten](analysis-workspace/visualizations/t-sync-visualization.md)
       + Freiformtabelle {#freeform-table}
          + [Freiformtabelle](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Erstellen von Hyperlinks für Dimensionen in einer Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Spalten- und Zeileneinstellungen {#column-row-settings}
             + [Spalteneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Zeileneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

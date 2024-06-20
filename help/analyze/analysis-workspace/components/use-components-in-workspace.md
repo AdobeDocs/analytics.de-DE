@@ -1,16 +1,17 @@
 ---
 description: Erfahren Sie, wie Sie einem Projekt in Analysis Workspace Komponenten hinzufügen.
-title: Komponenten in Analysis Workspace verwenden
+title: Verwenden von Komponenten in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 15%
+source-wordcount: '873'
+ht-degree: 16%
 
 ---
 
-# Komponenten in Analysis Workspace verwenden
+# Verwenden von Komponenten in Analysis Workspace
 
 Komponenten bilden die tatsächlichen Daten eines Projekts in Analysis Workspace. Komponenten bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen. Sie können einem Projekt Komponenten hinzufügen, indem Sie sie in Visualisierungen oder Bedienfelder ziehen.
 
@@ -28,15 +29,19 @@ Eine Übersicht über die Komponententypen, die Sie hinzufügen können, finden 
 
    Wenn Sie eine Komponente zu einem leeren Projekt hinzufügen, wird automatisch eine Freiformtabellenvisualisierung erstellt.
 
-1. Wählen Sie das Symbol **[!UICONTROL Komponenten]** in der linken Leiste aus.
+1. Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Komponenten]** aus.
 
    ![](assets/build-components.png)
 
-1. Scrollen Sie zu der Komponente, die Sie hinzufügen möchten, oder suchen Sie sie und ziehen Sie sie in ein Bedienfeld oder eine Visualisierung innerhalb Ihres Projekts.
+1. Scrollen Sie zu der Komponente, die Sie hinzufügen möchten, oder suchen Sie sie und ziehen Sie sie anschließend in ein Bedienfeld oder eine Visualisierung innerhalb Ihres Projekts.
 
-   Sie können beispielsweise ein Segment in die Segment-Dropzone in einer Bedienfeldüberschrift ziehen.
+1. (Optional) Ziehen Sie eine Komponente in die Segment-Dropzone in einer Bedienfeldüberschrift.
 
-   ![Segment in der Dropzone ablegen](assets/segment-dropzone.png)
+   Segmente gelten für alle Inhalte im Bereich.
+
+   Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+   ![Segment im Ablegebereich ablegen](assets/segment-dropzone.png)
 
 1. Weitere Informationen erhalten Sie in den folgenden Abschnitten, je nach Typ der Komponente, die Sie hinzufügen:
 
@@ -62,7 +67,11 @@ Eine Übersicht über die Komponententypen, die Sie hinzufügen können, finden 
 
    * Ziehen Sie eine oder mehrere Dimensionen aus der linken Leiste in den Segment-Ablagebereich, um ein Ad-hoc-Segment zu erstellen, wie unter [Segmente zu einem Projekt hinzufügen](#add-segments-to-a-project).
 
-     ![Segment in der Dropzone ablegen](assets/segment-dropzone.png)
+     ![Segment im Ablegebereich ablegen](assets/segment-dropzone.png)
+
+1. (Optional) Sie können Dimensionen und Dimensionselemente in Analysis Workspace mit anderen Komponenten aufschlüsseln.
+
+   Weitere Informationen finden Sie unter [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 Weitere Informationen zur Verwendung von Dimensionen in Analysis Workspace finden Sie unter [Dimensionen in der Vorschau anzeigen](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), und [Dimensionen für die Zeitunterteilung](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
@@ -92,31 +101,23 @@ Weitere Informationen zur Verwendung von Metriken in Analysis Workspace finden S
 
 [Segmente](/help/components/segmentation/seg-overview.md) ermöglichen es Ihnen, Besucheruntergruppen anhand von Merkmalen oder spezifischen Interaktionen zu identifizieren.
 
-So fügen Sie einem Projekt in Analysis Workspace ein Segment hinzu:
+Sie können Segmente in Analysis Workspace auf eine der folgenden Arten verwenden:
 
-1. Beginnen Sie mit dem Hinzufügen eines Segments zu Ihrem Projekt in Analysis Workspace, wie beschrieben in [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project).
+### Segmente zu einem Bereich hinzufügen
 
-1. Wählen Sie eine der folgenden Methoden, um mit dem Filtern Ihres Bedienfelds zu beginnen:
+Wenn Sie einem Bedienfeld Segmente hinzufügen, gelten die Segmente für alle Inhalte im Bedienfeld.
 
-   * Ziehen Sie ein einzelnes Segment aus der linken Leiste in den Segmentablagebereich.
+Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![Segment in der Dropzone ablegen](assets/segment-dropzone.png)
+### Segmente zu einer Spalte in einer Freiformtabelle hinzufügen
 
-   * Halten Sie die Umschalt- oder Strg-Taste gedrückt, um mehrere Segmente in der linken Leiste auszuwählen, und halten Sie dann die Umschalt-Taste gedrückt, während Sie sie in der Segment-Dropzone ablegen.
+Wenn Sie einer Spalte in einer Freiformtabelle Segmente hinzufügen, gelten die Segmente für alle Inhalte in der Tabellenspalte.
 
-     ![mehrere Segmente in der Dropzone ablegen](assets/segment-dropzoone-multiple.png)
+### Segmente beim Erstellen berechneter Metriken verwenden
 
-     Dadurch wird ein Dropdown-Menü erstellt, über das Benutzer des Bedienfelds den Filter auswählen können, den sie anwenden möchten. Das Dropdown-Menü enthält eine [!UICONTROL **Kein Filter**] -Option, die Benutzer auswählen können, wodurch das Bedienfeld nicht gefiltert bleibt.
+Im Generator für berechnete Metriken können Sie Segmente innerhalb Ihrer Metrikdefinition anwenden.
 
-     Sie können die Option (x) auswählen, um eine beliebige Option aus dem Dropdown-Menü zu entfernen. Wenn Sie die [!UICONTROL **Kein Filter**] auswählen, ist ein Filter erforderlich.
-
-   * Erstellen Sie Ad-hoc-Segmente, indem Sie Nicht-Segment-Komponenten in die Dropzone ziehen. So sparen Sie Zeit und Mühe beim Aufrufen des Segment Builders. Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Trefferebene definiert. Diese Definition kann geändert werden, indem Sie auf das Informationssymbol (i) neben dem Segment und dann auf das stiftförmige Bearbeitungssymbol klicken und sie in Segment Builder bearbeiten.
-
-     Ad-hoc-Segmente sind eine Art Schnellsegment und für das Projekt lokal verfügbar. Sie werden nicht in der linken Leiste angezeigt, es sei denn, Sie machen sie öffentlich.
-
-     Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
-
-Weitere Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
+Weitere Informationen finden Sie unter [Segmentierte Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Hinzufügen von Datumsbereichen zu einem Projekt
 
