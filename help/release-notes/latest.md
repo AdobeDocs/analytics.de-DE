@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 91%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Juni 2024)
 
-**Letzte Aktualisierung**: 13. Juni 2024
+**Letzte Aktualisierung**: Freitag, 20. Juni 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. Juni 2024 bis Juli 2024. Die Versionen von Adobe Analytics basieren auf einem [kontinuierlichen Bereitstellungsmodell](releases.md), das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -26,6 +26,8 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 12. 
 | **Administratoreinstellungen zum Steuern der Konten und Speicherorte, die für den Export und Import verwendet werden** | Eine neue Registerkarte [„Admin-Einstellungen“ im Speicherorte-Manager](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) gibt Admins die Kontrolle darüber, ob Benutzende Konten und Speicherorte erstellen und bearbeiten können. Diese Einstellungen gelten, wenn Benutzende [Konten für den Cloud-Import und -Export](/help/components/locations/configure-import-accounts.md) und [Speicherorte für den Cloud-Import und -Export](/help/components/locations/configure-import-locations.md) konfigurieren. <p>Admins können auch die Kontotypen (Google Cloud Platform, Azure RBAC, Amazon S3 usw.) einschränken, die Benutzende erstellen und verwenden können.</p><p>Zuvor konnten alle Benutzenden Konten und Speicherorte für beliebige Kontotypen erstellen, bearbeiten und verwenden.</p> | 12. Juni 2024 | Freitag, 20. Juni 2024 |
 | **Freigeben von Konten und Speicherorten, die für den Export und Import verwendet werden** | Benutzende können nun die von ihnen erstellten Konten und Speicherorte allen Benutzenden in ihrer Organisation zur Verfügung stellen. Nur die Personen, denen Konten bzw. Speicherorte gehören, und System-Admins können Konten und Speicherorte bearbeiten und löschen.<p>Zuvor konnten Konten und Speicherorte nur von der Person verwendet werden, die sie erstellt hat.</p><p>Diese Einstellungen sind verfügbar, wenn Benutzende [Konten für den Cloud-Import und -Export](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts) und [Speicherorte für den Cloud-Import und -Export](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-locations) konfigurieren. </p> | 12. Juni 2024 | Freitag, 20. Juni 2024 |
 | **Activity Map, um weniger Server-Aufrufe für Web SDK zu verwenden** | Derzeit werden Activity Map-Link-Ereignisse als eigene Ereignisse gezählt und verursachen zusätzliche Kosten. Durch diese Verbesserung werden einige Link-Ereignisse aufgenommen und in den nächsten Treffer gepackt, ähnlich wie bei der Verarbeitung durch AppMeasurement. <p>(Link zur aktualisierten Dokumentation folgt)</p> | Open Beta beginnt am 19. Juni 2024 | TBD |
+| **Anleitung zur neuen Data Sources-API** | Die [Adobe Analytics 2.0 Data Sources-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) -Endpunkte bieten Methoden zum Erstellen, Anzeigen, Löschen und Hochladen in Data Sources-Konten. |  | Jetzt verfügbar |
+| **Neue Methoden im Handbuch zur Klassifizierungs-API** | Dem Handbuch zur Klassifizierungs-API wurden zwei neue Methoden zum Abrufen von Dateipartitionen hinzugefügt.<ul><li>[Klassifizierungsauftragsdateipartition erhalten](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[Einen Teil der Classification-Export-Auftragsdatei erhalten](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | Jetzt verfügbar |
 
 {style="table-layout:auto"}
 
