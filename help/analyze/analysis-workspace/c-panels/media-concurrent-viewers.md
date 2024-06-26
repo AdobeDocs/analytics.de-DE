@@ -4,20 +4,20 @@ description: Verwendung und Interpretation des Bedienfelds „Gleichzeitige Medi
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 91%
 
 ---
 
 # Bedienfeld „Gleichzeitige Medienbetrachter“
 
-Media Analytics-Kunden können gleichzeitige Betrachter analysieren, um zu verstehen, wo Spitzenzeiten mit gleichzeitigen Ansichten auftraten oder wo es zu Abbrüchen kam. So erhalten sie wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Betrachtern, die bei der Fehlerbehebung, Planung von Volumen oder Skalierung helfen können.
+Kunden, die das Streaming-Mediensammlungs-Add-on erworben haben, können gleichzeitige Betrachter analysieren, um zu verstehen, wo Spitzenzeiten von gleichzeitigen Aufrufen auftraten oder wo es zu Abbrüchen kam. So erhalten Sie wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Betrachtern und können bei der Fehlerbehebung oder Planung für Volumen oder Größe helfen.
 
 In Analysis Workspace bezeichnet der Begriff „Gleichzeitige Betrachter“ die Anzahl der Unique Visitors, die sich Ihre Medien-Streams unabhängig von der Anzahl der Sitzungen zu einem bestimmten Zeitpunkt ansehen.
 
-Das Bedienfeld „Gleichzeitige Medienbetrachter“ ermöglicht die Analyse von gleichzeitigen Betrachtern im Zeitverlauf mit Details zu Spitzenzeiten des gleichzeitigen Betrachtens und der Möglichkeit, Unterteilungen und Vergleiche vorzunehmen. Um auf das Bedienfeld „Gleichzeitige Medienbetrachter“ zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten. Klicken Sie dann auf das Panel-Symbol ganz links und ziehen Sie das Panel in Ihr Analysis Workspace-Projekt.
+Das Bedienfeld „Gleichzeitige Medienbetrachter“ ermöglicht die Analyse von gleichzeitigen Betrachtern im Zeitverlauf mit Details zu Spitzenzeiten des gleichzeitigen Betrachtens und der Möglichkeit, Unterteilungen und Vergleiche vorzunehmen. Um auf das Bedienfeld &quot;Gleichzeitige Medienbetrachter&quot;zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten Streaming-Medienkomponenten. Klicken Sie dann auf das Panel-Symbol ganz links und ziehen Sie das Panel in Ihr Analysis Workspace-Projekt.
 
 Im Folgenden finden Sie eine Videoübersicht zu diesem Panel:
 
@@ -59,7 +59,7 @@ Die einzige Metrik, die in diesem Bedienfeld verwendet werden kann, ist „Gleic
 
 | Metrik | Beschreibung |
 |---|---|
-| Gleichzeitige Betrachter | Anzahl der Unique Visitors, die Ihre(n) Medien-Stream(s) zu einem bestimmten Zeitpunkt angesehen haben, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Bericht „Gleichzeitige Betrachter“ im Bereich „Berichte“, wo die gleichzeitigen aktiven Sitzungen zugrunde gelegt werden.  Durch die Verwendung der Unique Visitors werden unerwünschte „Spitzen“ in den Anzeige-Grenzbereichen (wo die Sitzungen gleichzeitig enden und beginnen) entfernt. |
+| Gleichzeitige Betrachter | Anzahl der Unique Visitors, die Ihre(n) Medien-Stream(s) zu einem bestimmten Zeitpunkt angesehen haben, unabhängig von der Anzahl der Sitzungen.<br><br>Dies unterscheidet sich vom Bericht „Gleichzeitige Betrachter“ im Bereich „Berichte“, wo die gleichzeitigen aktiven Sitzungen zugrunde gelegt werden.  Die Verwendung von Unique Visitors ermöglicht das Entfernen unerwünschter &quot;Spitzen&quot;an den Grenzen der Show (wo Sitzungen gleichzeitig enden und beginnen). |
 
 Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Zur Ansicht der Datenquelle können Sie mit der rechten Maustaste auf das Liniendiagramm klicken und es als csv-Datei herunterladen.  Serienaufschlüsselungen werden einbezogen.
 

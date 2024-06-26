@@ -1,14 +1,14 @@
 ---
 description: Sie können Document Cloud-Daten in Adobe Analytics anzeigen
-title: Konfigurieren von Document Cloud Analytics
+title: Document Cloud Analytics konfigurieren
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
+source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '110'
+ht-degree: 5%
 
 ---
-
 
 # Konfigurieren von Document Cloud mit Adobe Analytics
 
@@ -16,12 +16,12 @@ Sie können Document Cloud Analytics aktivieren, um PDF-spezifische Dimensionen 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Document Cloud-Management]**
 
-Beim Bearbeiten einer Report Suite stehen die folgenden Optionen zur Document Cloud-Verwaltung zur Verfügung:
+Die folgenden Document Cloud-Verwaltungsoptionen sind beim Bearbeiten einer Report Suite verfügbar:
 
-* [!UICONTROL **Document Cloud Reporting**]
+* [!UICONTROL **Document Cloud-Reporting**]
 
-   Spezifische Berichte zu Streaming-Medien sind auf der Seite Medienberichte verfügbar. Weitere Informationen zur Medienberichterstellung finden Sie unter [Document Cloud Reporting konfigurieren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Spezifische Berichte zum Streaming-Mediensammlungs-Add-on sind auf der Seite Medienberichte verfügbar. Weitere Informationen zur Medienberichterstellung finden Sie unter [Document Cloud Reporting konfigurieren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Document Cloud Classifications**]
 
-   Document Cloud-spezifische Klassifizierungen sind auf der Seite Document Cloud-Klassifizierungen verfügbar. Weitere Informationen zu Classifications finden Sie unter [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Document Cloud-spezifische Klassifizierungen sind auf der Seite Document Cloud-Klassifizierungen verfügbar. Weitere Informationen zu Classifications finden Sie unter [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).

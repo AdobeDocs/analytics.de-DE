@@ -1,20 +1,24 @@
 ---
 description: Informationen zum Projektinhaltsverzeichnis, das für Projekte verfügbar ist
 keywords: Analysis Workspace
-title: Inhaltsverzeichnis des Projekts
+title: Projektinhaltsverzeichnis
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: e0b3ebf03fb1c37835a5580a7277cb81d9e3138b
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 1%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
-# Inhaltsverzeichnis des Projekts
+# Projektinhaltsverzeichnis
 
 Sie können in jedem Projekt in Analysis Workspace ein Inhaltsverzeichnis anzeigen, sodass Sie schnell zwischen allen Bereichen und Visualisierungen wechseln können, die im Projekt vorhanden sind. Dies ist besonders nützlich, wenn Sie größere Projekte anzeigen, die viele Bedienfelder und Visualisierungen enthalten.
+
+Im Folgenden finden Sie eine Videodemonstration zu dieser Funktion:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
 
 So zeigen Sie das Inhaltsverzeichnis in einem Projekt an:
 

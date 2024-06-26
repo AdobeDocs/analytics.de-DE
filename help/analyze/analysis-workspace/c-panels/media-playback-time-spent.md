@@ -4,9 +4,9 @@ description: Verwendung und Interpretation des Panels „verbrachten Zeit bei de
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '928'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ In Analysis Workspace entspricht die Wiedergabedauer der Zeit, die mit der Anzei
 
 Das Bedienfeld &quot;Besuchszeit für Medienwiedergabe&quot;ermöglicht die Analyse der Wiedergabe im Zeitverlauf mit Details zu Spitzenzeiten bei gleichzeitiger Wiedergabe und der Möglichkeit, diese aufzuschlüsseln und zu vergleichen.
 
-Media Analytics-Kunden können die Wiedergabedauer analysieren, um wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Betrachtern zu erhalten und bei der Fehlerbehebung oder Planung in Bezug auf Volumen oder Größe zu helfen.
+Kunden, die das Streaming-Mediensammlungs-Add-on erworben haben, können die Wiedergabedauer analysieren, um wertvolle Einblicke in die Qualität von Inhalten und die Interaktion mit Betrachtern zu erhalten und bei der Fehlerbehebung oder Planung in Bezug auf Volumen oder Größe zu helfen.
 
 Die Wiedergabedauer kann Ihnen dabei helfen, Folgendes zu verstehen:
 
@@ -31,7 +31,7 @@ Im Folgenden finden Sie eine Videoübersicht zu diesem Bedienfeld:
 
 ## Verwenden des Bedienfelds &quot;Besuchszeit für Medienwiedergabe&quot;
 
-1. Wechseln Sie zu einer Report Suite mit aktivierten Media Analytics-Komponenten.
+1. Wechseln Sie zu einer Report Suite mit aktivierten Streaming-Medien-Komponenten.
 1. Wählen Sie das Bedienfeldsymbol ganz links aus und ziehen Sie dann das Bedienfeld in Ihr Analysis Workspace-Projekt.
 1. Fahren Sie mit den folgenden Abschnitten fort, um das Bedienfeld Besuchszeit für Medienwiedergabe anzupassen
 

@@ -3,10 +3,10 @@ description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließ
 title: Erste Schritte für Admins, Analystinnen und Analysten, Endbenutzerinnen und Endbenutzer sowie Entwicklungspersonen
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
-source-wordcount: '1691'
-ht-degree: 100%
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+workflow-type: tm+mt
+source-wordcount: '1694'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ Analytics-Admins sollten die folgenden Aufgaben ausführen, bevor sie Adobe Anal
 | Beitragsanalyse | Die Beitragsanalyse erkennt versteckte Muster, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Anstiege oder Rückgänge für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen. | [Übersicht über die Beitragsanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics-Segmentierung | Damit können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten Berichte zu erstellen. | [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
 | Veröffentlichen von Zielgruppen in Audience Manager | Adobe Audience Manager ist eine leistungsfähige Datenverwaltungsplattform, mit deren Hilfe Sie eindeutige Zielgruppenprofile durch Integration von Daten aus erster, zweiter (Partner) und dritter Hand aufbauen können. | [Audience Analytics-Übersicht](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
-| Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics anzeigen lassen. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">Media Analytics</a></li> | [Analytics-Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=de) |
+| Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics anzeigen lassen. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">Das Streaming-Mediensammlungs-Add-on</a></li> | [Analytics-Integration](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=de) |
 
 {style="table-layout:auto"}
 
