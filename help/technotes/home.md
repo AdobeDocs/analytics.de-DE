@@ -3,10 +3,10 @@ title: Technische Hinweise zu Analytics
 description: Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analytics-Tool oder einer bestimmten Komponente gehören.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,6 @@ Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 ## Andere Analytics-Ressourcen
 
 * [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
-* [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/?lang=de#home)

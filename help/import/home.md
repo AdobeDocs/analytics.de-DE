@@ -1,12 +1,12 @@
 ---
 title: Importhandbuch für Analytics
-description: In diesem Handbuch wird erläutert, wie Daten mithilfe von Data Sources- und Dateneinfüge-APIs in Analytics eingespeist werden können.
+description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen und der Data Insertion-API in Analytics aufnehmen können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 88%
+source-wordcount: '144'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,6 @@ Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 ## Wichtige Analytics-Ressourcen
 
 * [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
-* [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/?lang=de#home)

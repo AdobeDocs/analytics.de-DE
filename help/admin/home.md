@@ -4,10 +4,10 @@ description: Hilfe zur Verwaltung für Adobe Analytics-Administratoren, darunter
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 91%
+source-wordcount: '311'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 
 ## Wichtige Artikel
 
-* [Erste Administratorhandbuch für Analytics](admin-console/first-admin-guide.md): Wenn Ihr Unternehmen neu in Adobe Analytics ist, folgen Sie diesem Handbuch, um Adobe Analytics optimal zu nutzen.
+* [Erstes Analytics-Handbuch für neue Admins](admin-console/first-admin-guide.md): Wenn Sie Adobe Analytics noch nicht kennen, lesen Sie dieses Handbuch, um Adobe Analytics optimal zu nutzen.
 * [Report Suite Manager](admin/c-manage-report-suites/report-suites-admin.md): Das am häufigsten aufgerufene Admin-Tool in Analytics. Report Suite Manager enthält Einstellungen für die Verwaltung von Variablen, Classifications, Zeitzonen und vielem mehr.
 
 ## Weitere Benutzerhandbücher für Analytics
@@ -45,6 +45,6 @@ Dieses Handbuch behandelt nur wenige der allgemeinen Funktionen der Adobe Admin 
 ## Wichtige Analytics-Ressourcen
 
 * [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
-* [Analytics-Forum](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/?lang=de#home)
