@@ -4,9 +4,9 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1582'
 ht-degree: 51%
 
 ---
@@ -107,11 +107,13 @@ Wenn Sie mit der rechten Maustaste auf ein Dropdown-Segment klicken, stehen folg
 
 #### Verwenden von statischen Dropdown-Segmenten
 
-Benutzer können das Dropdown-Menü für Segmente auf eine der folgenden Arten verwenden, um den Bereich zu filtern:
+Verwenden Sie das Dropdown-Menü für Segmente auf eine der folgenden Arten, um den Bereich zu filtern:
 
 * Wenden Sie ein einzelnes Segment auf das Bedienfeld an, indem Sie das Segment aus dem Dropdown-Menü auswählen.
 
 * Wenden Sie mehrere Segmente auf das Bedienfeld an, indem Sie mehr als ein Segment aus dem Dropdown-Menü auswählen. Das Bedienfeld wird gefiltert, um eines der ausgewählten Segmente einzuschließen.
+
+  Um ein Segment aus der Liste zu entfernen, wählen Sie es erneut im Dropdown-Menü aus.
 
   ![Mehrere Segmente auswählen](assets/dropdown-filter-multiselect.png)
 
