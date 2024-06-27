@@ -3,7 +3,7 @@ title: Exportleitfaden für Analytics
 description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mithilfe von Daten-Feeds und Data Warehouse aus Adobe Analytics abgerufen werden können.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 96%

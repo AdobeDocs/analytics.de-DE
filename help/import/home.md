@@ -3,7 +3,7 @@ title: Importhandbuch für Analytics
 description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Datenquellen und der Data Insertion-API in Analytics aufnehmen können.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 95%
