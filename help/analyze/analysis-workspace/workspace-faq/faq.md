@@ -4,10 +4,10 @@ title: Häufig gestellte Fragen und Fehlerbehebung in Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -31,10 +31,6 @@ Sie können jetzt in Analysis Workspace Projekte mit Daten aus [mehreren Report 
 
 +++Wie wird Analysis Workspace implementiert?
 Es ist keine spezielle Implementierung erforderlich. Der Analysis Workspace steht allen Unternehmen mit Analytics Standard oder Premium zur Verfügung. Es gelten jedoch die Standardberechtigungen für Inhalte (z. B. Report Suites und Projektkomponenten) und für die Kuratierung und Freigabe von Projekten. Weitere Informationen finden Sie unter [Administrations- und Zugriffsanforderungen](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
-+++
-
-+++Ändert Analysis Workspace die vorkonfigurierten Berichte in Adobe Analytics?
-Nein. Da es sich hier um eine separate Umgebung handelt, ergeben sich keine Änderungen an Ihren vorhandenen oder vorkonfigurierten Berichten in Adobe Analytics. Mit Analysis Workspace können Sie weiterhin standardmäßige Report Builder-Berichte verwenden.
 +++
 
 +++Kann ich Analysis Workspace für Data Warehouse verwenden?
@@ -71,4 +67,8 @@ Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vo
 * Wenn Sie ein Segment in Ihrem Bericht angewendet haben, stimmen die Segmentkriterien möglicherweise nicht mit den Daten überein. Versuchen Sie, das Segment zu entfernen oder die Segmentdefinition anzupassen.
 * Überprüfen Sie den Datumsbereich oben rechts und stellen Sie sicher, dass er auf einen erwarteten Wert eingestellt ist.
 * Navigieren Sie zu Ihrer Website und überprüfen Sie mit dem [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de), ob Daten erfasst werden.
++++
+
++++ + Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?
+Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen und -funktionen vollständig deaktiviert und Empfänger können das Dropdown-Menü nur ändern, um einen Filter vorab auf den Bereich anzuwenden.
 +++
