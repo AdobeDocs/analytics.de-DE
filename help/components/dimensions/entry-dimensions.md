@@ -4,18 +4,21 @@ description: Führt Einstiegsdimensionen und deren Verwendung auf.
 keywords: Entrypage, Einstiegsbereich, Einstiegs-Server, Custom Insight zum Einstieg
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 93%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
 # Einstiegsdimensionen
 
-*[Auf dieser Hilfeseite wird beschrieben, wie Einstiege als Dimension funktionieren](overview.md). Informationen dazu, wie Einstiege als Metrik funktionieren, finden Sie unter der Metrik [Einstiege](../metrics/entries.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie Einstiege als [Dimension](overview.md). Informationen dazu, wie Einstiege als Metrik funktionieren, finden Sie unter der Metrik [Einstiege](../metrics/entries.md).*
 
 Einstiegsdimensionen [besuchsbasiert](../metrics/visits.md). Sie zeichnen das erste Dimensionselement auf und behalten es für die gesamte Dauer des Besuchs bei. Einstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
+
+>[!TIP]
+>Wenn Sie Daten basierend auf dem ersten Treffer eines Besuchs anstelle des ersten bei einem Besuch angezeigten Werts sehen möchten, können Sie einen [Segment](/help/components/segmentation/seg-overview.md). Verwenden Sie einen Trefferbehälter , in dem [Treffertiefe](hit-depth.md) gleich 1 ist, verwenden Sie dieses Segment dann mit der gewünschten Variablen.
 
 ## Füllen von Einstiegsdimensionen mit Daten
 

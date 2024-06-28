@@ -3,10 +3,10 @@ title: Klassifizierungssätze – Überblick
 description: Verwenden Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,15 @@ Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassif
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]**
 
+Sie müssen Produktadministrator sein oder zu einem Produktprofil gehören, das das Berechtigungselement enthält. [!UICONTROL Report Suite-Tools] > [!UICONTROL Klassifizierungen] um diesen Menüpunkt anzuzeigen. Beachten Sie, dass sich zwar frühere Classification-Management-Schnittstellen unter der [!UICONTROL Admin] Menü, werden die Classification-Sets unter der [!UICONTROL Komponenten] Menü.
+
+## Verbesserungen
+
 Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, enthält einige wichtige Verbesserungen:
 
 * Verkürzte Verarbeitungszeit (72 Stunden → 24 Stunden)
-* Die Möglichkeit, die Benutzeroberfläche für Klassifizierungssätze zu verwenden
-* Die Option, Klassifizierungsdaten in Adobe Experience Platform künftig über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=de) zu verwenden
+* Eine neu gestaltete Benutzeroberfläche zum Verwalten von Klassifizierungen
+* Die Option, Klassifizierungsdaten in Adobe Experience Platform künftig über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications) zu verwenden
 
 Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, enthält auch einige wichtige Änderungen:
 
