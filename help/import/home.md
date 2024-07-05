@@ -4,9 +4,9 @@ description: In diesem Handbuch wird erläutert, wie Sie Daten mithilfe von Date
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 * [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
 * [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
-* [Experience League](https://experienceleague.adobe.com/?lang=de#home)
+* [Experience League](https://experienceleague.adobe.com/de)
