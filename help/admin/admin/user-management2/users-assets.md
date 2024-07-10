@@ -4,43 +4,44 @@ title: Verwalten von Analytics-Benutzern und -Assets
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 3%
 
 ---
 
-# Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs
+# Verwalten von alten Benutzerkonten, Assets und Ablaufdaten
 
-Die meisten Benutzer- und Produktverwaltungsfunktionen wurden in die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html). (Informationen zum Verwalten von Benutzerberechtigungen für Adobe Analytics-Benutzer finden Sie unter [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md).
+Sie können veraltete Benutzerkonten, ihren Migrationsstatus, die Ablaufdaten, die Übertragung von Assets an andere Benutzer und mehr verwalten, indem Sie **[!UICONTROL Admin] > [!UICONTROL Alle Administratoren] >  [!UICONTROL Analytics-Benutzer und -Admin]**.
 
-Während die meisten Benutzer- und Produktverwaltungsfunktionen jetzt nur noch in der Adobe Admin Console verfügbar sind, sind die auf dieser Seite beschriebenen Verwaltungsfunktionen nur im Adobe Analytics Admin-Bereich verfügbar.
+Der Bildschirm &quot;Benutzer&quot;enthält eine Liste der aktuellen Adobe Analytics-Benutzer mit den folgenden Spalten:
 
-## Übertragen von Assets von einem Analytics-Benutzer an einen anderen {#transfer}
+| Spalte | Beschreibung |
+|---|---|
+| [!UICONTROL Benutzer-ID] | Die Benutzer-ID, mit der sich der Benutzer bei Adobe Analytics anmeldet. |
+| [!UICONTROL Name] | Der Name des Benutzers. |
+| [!UICONTROL Migrationsstatus] | Der Status der Migration von einem alten Benutzerkonto zu einer Enterprise ID oder Adobe ID.  Der Status kann nicht initiiert, in die Warteschlange gestellt oder migriert werden. |
+| [!UICONTROL E-Mail] | Die E-Mail des Benutzers. |
+| [!UICONTROL Bisherige Anmeldung] | Der Status der bisherigen Anmeldung, die aktiviert oder deaktiviert werden kann. |
+| [!UICONTROL Erstellt am] | Zeitstempel der Erstellung des Benutzerkontos in der Adobe Analytics. |
+| [!UICONTROL Letzter Zugriff auf Analytics] | Zeitstempel des neuesten Zugriffs des Benutzerkontos auf Adobe Analytics, |
+| [!UICONTROL Ablauf] | Ablaufdatum für das Benutzerkonto oder Keine , wenn das Benutzerkonto nicht abläuft. |
 
-1. Navigieren Sie zu **Admin** > [!UICONTROL **Analytics-Benutzer und -Assets**].
-Die Seite Benutzer wird angezeigt.
-1. (Optional) Verwenden Sie eine der folgenden Optionen, um die gesuchten Benutzer leichter zu finden:
-   * Geben Sie im Suchfeld den Namen des Benutzers ein, für den Sie ein Ablaufdatum für das Konto festlegen möchten.
-   * Wählen Sie die **Filter** icon ![Filtersymbol](assets/filter-users-page.png) um die Filtereinstellungen ein- oder auszublenden. Sie können nach Migrationsstatus oder dem bisherigen Anmeldestatus filtern.
-1. Wählen Sie den Benutzer aus, dessen Assets Sie übertragen möchten.
-   ![Ablauf für Benutzerkonto festlegen](assets/manage-user-assets.png)
-1. Auswählen [!UICONTROL **Übertragen von Assets**].
-1. Auf der Seite &quot;Assets übertragen&quot;im [!UICONTROL **Übertragen von Assets in**] Geben Sie den Namen des Benutzers ein, an den Sie die Assets übertragen möchten, und wählen Sie dann seinen Namen aus, wenn er im Dropdown-Menü angezeigt wird.
-1. Im [!UICONTROL **Kontoelemente zum Übertragen auswählen**] , navigieren Sie zu den Assets, die Sie übertragen möchten, und wählen Sie sie aus. Wählen Sie dann [!UICONTROL **Übertragen**].
+![Benutzer](assets/users.png)
 
-   Alle Assets, die Sie ausgewählt haben, werden an den vorgesehenen Benutzer übertragen.
+- Um nach einem bestimmten Benutzer zu suchen, verwenden Sie die ![Suche](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Suche nach Titel* -Feld.
+- Um die Liste nach dem Migrationsstatus zu filtern, wählen Sie ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Migrationsstatus]**.
+- Um die Liste nach dem alten Anmeldestatus zu filtern, wählen Sie ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Bisherige Anmeldung]**.
+- Um die Anzeige der Spalten zu ändern, wählen Sie ![Spalteneinstellungen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) und wählen Sie die Spalten aus dem Popup aus.
 
+Sie können verschiedene Aktionen anwenden, wenn Sie einen oder mehrere Benutzer aus der Liste auswählen:
 
-## Ablaufdatum für ein Benutzerkonto festlegen {#expiration}
+| Aktion | Beschreibung |
+|---|---|
+| ![Migrieren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrieren]** | Sie können einen oder mehrere Benutzer zu Enterprise IDs oder Adobe IDs migrieren. |
+| ![Kalender gesperrt](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Ablauf festlegen]** | Sie können ein Ablaufdatum für die Verwendung der bisherigen Adobe Analytics-Anmeldedaten für die ausgewählten Benutzer festlegen.  Wählen Sie das Datum aus, an dem ein Kalender-Popup angezeigt werden soll, um das Datum anzugeben. Auswählen **[!UICONTROL Fertig]** zur Bestätigung des Ablaufs. |
+| ![Übertragen von Assets](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Übertragen von Assets]** | Diese Aktion ist nur verfügbar, wenn ein Benutzer ausgewählt wird. Wenn der Benutzer über Assets verfügt, die übertragen werden können, können Sie die Kontoelemente auswählen (wie Lesezeichen, Dashboards usw.). Auswählen **[!UICONTROL Übertragen]** , um die Übertragung abzuschließen.<br/>![Assets werden übertragen](assets/transfer-assets.png) |
+| ![Konten löschen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Konten löschen]** | Es wird ein Dialogfeld angezeigt, in dem der Löschvorgang der ausgewählten Konten bestätigt wird. Auswählen **[!UICONTROL OK]** , um die Konten zu löschen. Auswählen **[!UICONTROL Abbrechen]** abbrechen. |
+| ![Exportieren in CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Exportieren in CSV]** | Durch diese Aktion wird sofort eine Datei mit einer kommagetrennten Werteliste der ausgewählten Benutzer mit ihren Details (Name, Migrationsstatus, E-Mail usw.) heruntergeladen. |
 
-1. Navigieren Sie zu **Admin** > [!UICONTROL **Analytics-Benutzer und -Assets**].
-Die Seite Benutzer wird angezeigt.
-(Optional) Verwenden Sie eine der folgenden Optionen, um die gesuchten Benutzer leichter zu finden:
-   * Geben Sie im Suchfeld den Namen des Benutzers ein, für den Sie ein Ablaufdatum für das Konto festlegen möchten.
-   * Wählen Sie die **Filter** icon ![Filtersymbol](assets/filter-users-page.png) um die Filtereinstellungen ein- oder auszublenden. Sie können nach Migrationsstatus oder dem bisherigen Anmeldestatus filtern.
-1. Wählen Sie den Benutzer aus, für den Sie ein Ablaufdatum für das Konto festlegen möchten.
-   ![Ablauf für Benutzerkonto festlegen](assets/manage-user-assets.png)
-1. Auswählen [!UICONTROL **Ablauf festlegen**].
-1. Wählen Sie das Ablaufdatum aus und klicken Sie auf [!UICONTROL **Fertig**].
