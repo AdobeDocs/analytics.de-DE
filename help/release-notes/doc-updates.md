@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
-workflow-type: ht
-source-wordcount: '5695'
-ht-degree: 100%
+source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+workflow-type: tm+mt
+source-wordcount: '5709'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **Juli 2024** | |
+| Aktualisierte allgemeine Fehlermeldungen | Es wurden geringfügige Aktualisierungen an der [Allgemeine Fehlermeldungen](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juni 2024** | |
 | Aktualisierter Produktname, der sich auf die Funktion zum Streaming von Medien bezieht | Instanzen von „Media Analytics“ und „Streaming Media“ wurden durch den Namen „Add-on für Streaming-Mediensammlungen“ ersetzt, wenn auf die Reihe von Funktionen zum Streaming von Medien verwiesen wird, die Streaming-Mediendaten erfassen und in Analysis Workspace anzeigen. <p>Diese Aktualisierungen sind in der gesamten Dokumentation zu Adobe Analytics sowie in der [Dokumentation zum Add-on für Streaming-Mediensammlungen](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview) verfügbar.</p> |
 | Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) und [Überblicksinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
