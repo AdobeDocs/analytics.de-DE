@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Analytics-Daten-Feed {#analytics-data-feed}
    + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
-   + [Erstellen oder Bearbeiten eines Daten-Feeds](analytics-data-feed/create-feed.md)
+   + [Erstellen eines Daten-Feeds](analytics-data-feed/create-feed.md)
    + [Verwalten von Daten-Feeds](analytics-data-feed/df-manage-feeds.md)
    + [Verwalten von Daten-Feed-Aufträgen](analytics-data-feed/df-manage-jobs.md)
    + Daten-Feed-Inhalte {#data-feed-contents}
