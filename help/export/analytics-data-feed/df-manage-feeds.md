@@ -3,10 +3,10 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ Mit der Schaltfläche [!UICONTROL Hinzufügen] können Sie einen neuen Feed erst
 
    Beim Aktualisieren des Abschnitts [!UICONTROL **Ziel**] für einen Daten-Feed, den Sie bearbeiten, können Sie in den Dropdown-Feldern [!UICONTROL **Konto**] und [!UICONTROL **Standort**] ein anderes Konto und einen anderen Speicherort für den neuen Daten-Feed auswählen.
 
-   Wenn Sie das Konto und den Speicherort für alle Daten-Feeds bearbeiten möchten, in denen sie verwendet werden, können Sie die Konten und Speicherorte direkt bearbeiten, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben. Nicht-Cloud-Konten und -Standorte können nicht bearbeitet werden.
+   Konten und Standorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Die Bearbeitung eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder Standort verbunden sind.
+
+   In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure-Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feeds-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
@@ -84,7 +86,9 @@ Mit der Schaltfläche [!UICONTROL Hinzufügen] können Sie einen neuen Feed erst
 
    Beim Aktualisieren des Abschnitts [!UICONTROL **Ziel**] für einen kopierten Daten-Feed können Sie in den Dropdown-Feldern [!UICONTROL **Konto**] und [!UICONTROL **Standort**] ein anderes Konto und einen anderen Speicherort für den neuen Daten-Feed auswählen.
 
-   Wenn Sie das Konto und den Speicherort für alle Daten-Feeds bearbeiten möchten, in denen sie verwendet werden, können Sie die Konten und Speicherorte direkt bearbeiten, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben. Nicht-Cloud-Konten und -Standorte können nicht bearbeitet werden.
+   Konten und Standorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Die Bearbeitung eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder Standort verbunden sind.
+
+   In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure-Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feeds-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
 
 ## Anhalten eines Daten-Feeds
 
