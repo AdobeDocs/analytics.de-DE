@@ -3,10 +3,10 @@ title: Daten-Feed-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ So aktivieren Sie einen Daten-Feed:
 
 ## Daten-Feed löschen
 
-Wenn Sie einen Daten-Feed löschen, wird dessen Status auf [!UICONTROL Gelöscht] gesetzt.
+Wenn Sie einen Daten-Feed löschen, wird dessen Status auf [!UICONTROL Gelöscht] gesetzt. Daten-Feeds müssen den Status Aktiv aufweisen, bevor sie gelöscht werden können.
+
+So löschen Sie einen Daten-Feed:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
