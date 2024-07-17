@@ -5,10 +5,10 @@ keywords: ClickMap deaktivieren
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 30%
+source-wordcount: '191'
+ht-degree: 28%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
->Diese Variable wurde eingestellt. Siehe [Activity Map aktivieren](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) anstatt.
+>Diese Variable wurde eingestellt und wird nicht mehr verwendet.
 
-ClickMap ist eine veraltete Funktion in Adobe Analytics, mit der Daten darüber erfasst werden, wo Besucher klicken und worauf sie klicken. Die Funktion wurde durch [Activity Map](/help/analyze/activity-map/activity-map.md).
+ClickMap ist eine veraltete Funktion in Adobe Analytics, mit der Daten darüber erfasst werden, wo Besucher klicken und worauf sie klicken. Die Funktion wurde durch [Activity Map](/help/analyze/activity-map/overview.md) ersetzt.
 
-Wenn diese Option aktiviert ist, erfasst AppMeasurement Informationen zum Link und sendet diese Daten in der nächsten Bildanforderung. Informationen aus jedem Klick werden in einem Cookie mit der Bezeichnung `s_sq`.
+Wenn diese Option aktiviert ist, erfasst AppMeasurement Informationen zum Link und sendet diese Daten in der nächsten Bildanforderung. Informationen aus jedem Klick werden in einem Cookie mit der Bezeichnung `s_sq` gespeichert.
 
 ## Aktivieren von ClickMap mithilfe der Adobe Analytics-Erweiterung
 
-[!UICONTROL ClickMap aktivieren] ist ein Kontrollkästchen unter dem [!UICONTROL Linktracking] Akkordeon beim Konfigurieren der Adobe Analytics-Erweiterung.
+[!UICONTROL ClickMap aktivieren] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
-4. Erweitern Sie die [!UICONTROL Linktracking] Akkordeon, das die [!UICONTROL ClickMap aktivieren] aktivieren.
+4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking] , wodurch das Kontrollkästchen [!UICONTROL ClickMap aktivieren] angezeigt wird.
 
 >[!NOTE]
 >
->Dieses Kontrollkästchen unterscheidet sich vom [!UICONTROL Activity Map verwenden] Kontrollkästchen, das sich unter dem [!UICONTROL Bibliotheksverwaltung] Akkordeon.
+>Dieses Kontrollkästchen unterscheidet sich vom Kontrollkästchen [!UICONTROL Activity Map verwenden] , das sich unter dem Akkordeon [!UICONTROL Bibliotheksverwaltung] befindet.
 
 ## s.trackInlineStats in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

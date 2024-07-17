@@ -4,10 +4,10 @@ description: Senden Sie einen Linktracking-Aufruf an Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 76%
+source-wordcount: '865'
+ht-degree: 62%
 
 ---
 
@@ -19,13 +19,13 @@ Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackEx
 
 ## Linktracking mit dem Web SDK
 
-Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. Beide verwenden die Variable `sendEvent` Befehl.
+Das Web SDK unterscheidet nicht zwischen Seitenansichtsaufrufen und Linktracking-Aufrufen. Beide verwenden den Befehl `sendEvent`.
 
 Wenn Sie ein XDM-Objekt verwenden und möchten, dass Adobe Analytics ein bestimmtes Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihre XDM-Daten Folgendes enthalten:
 
-* Linkname: zugeordnet zu `xdm.web.webInteraction.name`.
-* Link-URL: zugeordnet `xdm.web.webInteraction.URL`.
-* Link-Typ: zugeordnet zu `xdm.web.webInteraction.type`. Gültige Werte sind `other` (benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
+* Linkname: `xdm.web.webInteraction.name` zugeordnet.
+* Link-URL: `xdm.web.webInteraction.URL` zugeordnet.
+* Link-Typ: `xdm.web.webInteraction.type` zugeordnet. Gültige Werte sind `other` (benutzerspezifische Links), `download` (Downloadlinks) und `exit` (Exitlinks).
 
 ```js
 alloy("sendEvent", {
@@ -43,9 +43,9 @@ alloy("sendEvent", {
 
 Wenn Sie ein Datenobjekt verwenden und möchten, dass Adobe Analytics ein bestimmtes Ereignis als Linktracking-Aufruf zählt, stellen Sie sicher, dass Ihr Datenobjekt Folgendes enthält:
 
-* Linkname: zugeordnet zu `data.__adobe.analytics.linkName`.
-* Link-URL: zugeordnet `data.__adobe.analytics.linkURL`.
-* Link-Typ: zugeordnet zu `data.__adobe.analytics.linkType`. Gültige Werte sind `o` (benutzerspezifische Links), `d` (Downloadlinks) und `e` (Exitlinks).
+* Linkname: `data.__adobe.analytics.linkName` zugeordnet.
+* Link-URL: `data.__adobe.analytics.linkURL` zugeordnet.
+* Link-Typ: `data.__adobe.analytics.linkType` zugeordnet. Gültige Werte sind `o` (benutzerspezifische Links), `d` (Downloadlinks) und `e` (Exitlinks).
 
 ```js
 alloy("sendEvent", {
@@ -68,8 +68,8 @@ Die Adobe Analytics-Erweiterung verfügt über einen speziellen Speicherort, um 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Analytics]** und die [!UICONTROL Aktionstyp] nach **[!UICONTROL Beacon senden]**.
+1. Klicken Sie unter [!UICONTROL Aktionen] auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;** , um eine Aktion hinzuzufügen.
+1. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf **[!UICONTROL Adobe Analytics]** und den Aktionstyp [!UICONTROL 5} auf **[!UICONTROL Beacon senden]**.]
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können keine optionalen Argumente in der Analytics-Erweiterung festlegen.
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### Linktracking-Aufrufe innerhalb einer benutzerdefinierten Funktion
 
-Sie können den Linktracking-Code in einer eigenständige JavaScript-Funktion zusammenfassen, die auf der Seite oder in einer verknüpften JavaScript-Datei definiert ist. Aufrufe können dann in der onClick-Funktion jedes Links erfolgen. Legen Sie Folgendes in einer JavaScript-Datei fest:
+Sie können den Linktracking-Code in einer eigenständigen JavaScript-Funktion zusammenfassen. Aufrufe können dann in der Funktion `onClick` jedes Links erfolgen. Legen Sie Folgendes in einer JavaScript-Datei fest:
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -173,6 +173,9 @@ Sie können die Funktion dann immer dann aufrufen, wenn Sie einen bestimmten Lin
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>Der indirekte Aufruf der `tl()` -Methode kann dazu führen, dass die Berichterstellung für Activity Map-Überlagerungen weniger bequem wird. Sie müssen auf jeden Link klicken, um die Funktion mit dem Link-Element zu registrieren. Activity Map-Dimensionen in Workspace werden jedoch auf die gleiche Weise verfolgt.
 
 ### Vermeiden des Trackings doppelter Links
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Verwenden der `tl()`-Methode mit Activity Map
+
+Mit der `tl()` -Methode können Sie benutzerdefinierte Elemente verfolgen und Überlagerungsrendering für dynamischen Inhalt konfigurieren. Der Parameter `linkName` wird auch verwendet, um die Dimension [Activity Map-Link](/help/components/dimensions/activity-map-link.md) festzulegen.
+
+Wenn die `tl()` -Methode direkt vom onclick-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map beim Laden der Webseite eine Überlagerung für dieses Element anzeigen. Zum Beispiel:
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+Wenn die `tl()` -Methode nicht direkt vom onclick-Ereignis des HTML-Elements aufgerufen wird, kann Activity Map eine Überlagerung erst anzeigen, nachdem auf dieses Element geklickt wurde. Zum Beispiel:
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```
