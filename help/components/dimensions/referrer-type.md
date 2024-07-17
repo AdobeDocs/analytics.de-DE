@@ -3,7 +3,7 @@ title: Referrer-Typ
 description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Referrer-Typ
 
-Der Typ &quot;Referrer&quot; [Dimension](overview.md) gibt an, durch welche generischen Kanäle Besucher geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
+Die Dimension &quot;Referrer-Typ&quot;[](overview.md) gibt an, durch welche allgemeinen Kanäle Besucher geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -168,6 +168,7 @@ Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale 
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.net`
 * `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
