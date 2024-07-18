@@ -3,9 +3,9 @@ description: Link zur Adobe Analytics-Admin-API auf GitHub.
 title: Häufig gestellte Fragen zum Adobe Analytics 1.4 API EOL
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,11 @@ Im Handbuch [Migration zu Adobe Analytics 2.0-APIs](https://developer.adobe.com/
 
 F: **Hat dies Auswirkungen auf die Datenerfassung?**
 
-A: Das Adobe Analytics 1.4-EOL hat keine Auswirkungen auf Ihre Tagging-Lösungen, wie Tags (früher Adobe Launch), WebSDK oder AppMeasurement.js. Wenn Sie Ihre Daten jedoch mit den 1.4-Data Sources-, Dateneinfüge- oder Classifications-APIs erfassen oder erweitern, müssen Sie diese Workflows zu den Adobe Analytics 2.0-APIs migrieren. Weitere Informationen finden Sie im [2.0 API-Endpunkte-Handbuch](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) .
+A: Das Adobe Analytics 1.4-EOL hat keine Auswirkungen auf Ihre Tagging-Lösungen, wie Tags (früher Adobe Launch), WebSDK oder AppMeasurement.js. Wenn Sie Ihre Daten jedoch mit den Data Sources- oder Classifications-APIs 1.4 erfassen oder erweitern, müssen Sie diese Workflows zu den Adobe Analytics 2.0-APIs migrieren. Weitere Informationen finden Sie im [2.0 API-Endpunkte-Handbuch](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) .
+
+F: **Ist die Dateneinfüge-API betroffen?**
+
+A: Nein, die Dateneinfüge-API wird von der Adobe Analytics 1.4 EOL nicht beeinflusst.
 
 F: **Was mache ich, wenn meine Frage in diesen häufig gestellten Fragen nicht beantwortet wurde?**
 
