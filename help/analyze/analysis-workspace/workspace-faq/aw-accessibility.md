@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Barrierefreiheit bezieht sich darauf, Produkte für Menschen mit visuellen, akus
 
 Die Navigation in [!UICONTROL Analysis Workspace] funktioniert von oben nach unten und von links nach rechts. Die folgenden Navigationselemente erleichtern die Zugänglichkeit:
 
-* Die `Tab`-Taste ermöglicht richtungsweisende Verknüpfungen.Hierbei wird zwischen größeren Abschnitten innerhalb von Workspace gewechselt. In der linken Leiste können Sie mit `Tab` auch von einer ziehbaren Option zur nächsten wechseln.
+* Die Taste `Tab` ermöglicht Markierungskurzbefehle, mit denen Sie zwischen größeren Abschnitten in Workspace wechseln können. In der linken Leiste können Sie mit `Tab` auch von einer ziehbaren Option zur nächsten wechseln.
 * Mit den `left/right arrows` können Sie zwischen einzelnen Elementen wechseln, nachdem Sie sie mit `Tab` markiert haben.
 * Mit `F6` navigieren Sie zum ersten Bedienfeld im Projekt und können zwischen den Visualisierungen in diesem Bedienfeld wechseln. Anschließend wird zum nächsten Bedienfeld im Projekt gewechselt und es wird wiederholt.
 * Wir wenden Fokusindikatoren an, sodass sehende Tastaturbenutzer einen klaren Hinweis darauf haben, welches Element der Benutzeroberfläche derzeit im Fokus ist. Der Indikator ist ein blauer Rand um das ausgewählte Element herum.
 
-   ![Fokusindikator](assets/focus-indicator.png)
+  ![Fokusindikator](assets/focus-indicator.png)
 
 ### Tastaturnavigation zur Menüleiste
 

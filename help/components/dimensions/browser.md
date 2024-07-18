@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 source-git-commit: 206df584deab5f6f9b8eeb09d9c8ad4983424eea
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 59%
+source-wordcount: '195'
+ht-degree: 58%
 
 ---
 
 # Browser
 
-Der[!UICONTROL Browser]&#39; [Dimension](overview.md) gibt den Namen und die Version des Browsers an, der den Treffer sendet. Diese Dimension ist nützlich, wenn Sie die gängigsten Browser messen möchten, die Besucher verwenden. Beim Testen neuer Versionen Ihrer Site können Sie diese Tests mit den wichtigsten Browsern in dieser Dimension ausführen, um den Aufwand für die Qualitätssicherung zu optimieren.
+Die Dimension &quot;[!UICONTROL Browser]&quot; [3} gibt den Namen und die Version des Browsers an, der den Treffer sendet. ](overview.md) Diese Dimension ist nützlich, wenn Sie die gängigsten Browser messen möchten, die Besucher verwenden. Beim Testen neuer Versionen Ihrer Site können Sie diese Tests mit den wichtigsten Browsern in dieser Dimension ausführen, um den Aufwand für die Qualitätssicherung zu optimieren.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) , um die Suche zwischen Benutzeragent und Browser zu unterhalten.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um Suchen zwischen Benutzeragent und Browser zu unterhalten.
 
 * Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] when [Konfigurieren eines Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] bei der [ Konfiguration eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 

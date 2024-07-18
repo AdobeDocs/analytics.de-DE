@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Einzelzugriff
 
-Der &quot;Einzelzugriff&quot; [Metrik](overview.md) zeigt die Anzahl der Besuche an, bei denen das Dimensionselement nur einen einzigen eindeutigen Wert für den gesamten Besuch enthielt. Diese Metrik ist hilfreich für alle Dimensionen, bei denen Sie sehen möchten, welche Dimensionselemente während eines Besuchs stagnieren.
+Die Metrik &quot;[Einzelzugriff&quot;](overview.md) gibt die Anzahl der Besuche an, bei denen das Dimensionselement nur einen einzigen eindeutigen Wert für den gesamten Besuch enthielt. Diese Metrik ist hilfreich für alle Dimensionen, bei denen Sie sehen möchten, welche Dimensionselemente während eines Besuchs stagnieren.
 
 ## Berechnung dieser Metrik
 

@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
 # Besuchsdauer pro Besucher (Sekunden)
 
-Die Metrik [!UICONTROL Besuchsdauer pro Besucher (Sekunden)] gibt die durchschnittliche Zeit an, die ein Besucher während seiner gesamten Lebensdauer mit einem bestimmten Dimensionselement interagiert.[](overview.md)
+Die Metrik [!UICONTROL Besuchszeit pro Besucher (Sekunden)] [metrik](overview.md) gibt die durchschnittliche Zeit an, die Besucher während der gesamten Lebensdauer eines Besuchers mit einem bestimmten Dimensionselement interagieren.
 
 Diese Metrik ist aufgrund ihrer unterschiedlichen Verarbeitungsarchitektur nicht in Data Warehouse verfügbar.
 

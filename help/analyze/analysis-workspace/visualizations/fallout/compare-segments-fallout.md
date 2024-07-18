@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
 source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 96%
+source-wordcount: '433'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer�
 
 ## Vergleichen von Segmenten im Fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten miteinander vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu 3 Segmente vergleichen können, was falsch ist.)
+Sie können eine unbegrenzte Anzahl von Segmenten in der Fallout-Visualisierung vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu 3 Segmente vergleichen können, was falsch ist.)
 
 Im Folgenden finden Sie ein Video zum Vergleichen von Segmenten im Fallout:
 

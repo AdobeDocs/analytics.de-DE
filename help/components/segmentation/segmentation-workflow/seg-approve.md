@@ -16,7 +16,7 @@ Im Segment-Manager können Sie einen Workflow einrichten, der die Genehmigung vo
 
 >[!NOTE]
 >
->Administratoren können auch Segmente (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>Administratoren können auch Segmente (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) beschrieben.
 >
 >Alle Segmente, die im Datenwörterbuch genehmigt wurden, werden im Segment-Manager angezeigt. Gleichermaßen werden Metriken, die im Segment-Manager genehmigt wurden, im Datenwörterbuch angezeigt.
 

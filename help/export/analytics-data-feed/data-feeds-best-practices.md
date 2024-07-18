@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -27,4 +27,4 @@ Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereits
 
 * Wenn Sie FTP verwenden (nicht empfohlen), stellen Sie sicher, dass auf Ihrer FTP-Site genügend Platz vorhanden ist. Entfernen Sie Dateien regelmäßig aus dem Ziel, damit Ihnen nicht versehentlich der Speicherplatz ausgeht.
 
-* Bei Verwendung von sFTP (nicht empfohlen) sollten Sie keine Dateien mit einer `.part` Suffix. Das `.part`-Suffix zeigt an, dass die Datei teilweise übertragen wurde. Sobald die Datei übertragen wurde, verschwindet das `.part`-Suffix.
+* Wenn Sie sFTP verwenden (nicht empfohlen), lesen oder löschen Sie keine Dateien mit dem Suffix &quot;`.part`&quot;. Das `.part`-Suffix zeigt an, dass die Datei teilweise übertragen wurde. Sobald die Datei übertragen wurde, verschwindet das `.part`-Suffix.

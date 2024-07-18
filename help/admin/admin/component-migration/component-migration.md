@@ -26,47 +26,47 @@ Der Migrationsvorgang umfasst:
 
 ## Vorbereitung auf eine Migration
 
-Bevor Sie Projekte zum Customer Journey Analytics migrieren, erfahren Sie mehr über die Migration von Projekten in der [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+Bevor Sie Projekte zu Customer Journey Analytics migrieren, erfahren Sie mehr über die Migration von Projekten in der [Vorbereitung der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 
 ## Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics
 
 >[!IMPORTANT]
 >
->Bevor Sie, wie in diesem Abschnitt beschrieben, Projekte auf das Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten im [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+>Bevor Sie, wie in diesem Abschnitt beschrieben, Projekte auf das Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten unter [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
 >**Alle Dimensionen oder Metriken, die Sie zuordnen, sind dauerhaft, sowohl für dieses Projekt als auch für alle zukünftigen Projekte, die in Ihrer gesamten IMS-Organisation migriert werden, unabhängig davon, welcher Benutzer die Migration durchführt. Diese Zuordnungen können nur geändert oder rückgängig gemacht werden, wenn Sie sich an die Kundenunterstützung wenden.**
 
 1. Wählen Sie in Adobe Analytics die Registerkarte [!UICONTROL **Admin**] und dann [!UICONTROL **Alle Admins**] aus.
 
-1. under [!UICONTROL **Datenkonfiguration und -erfassung**] auswählen [!UICONTROL **Komponentenmigration**].
+1. Wählen Sie unter [!UICONTROL **Datenkonfiguration und -erfassung**] die Option [!UICONTROL **Komponentenmigration**] aus.
 
 1. Suchen Sie das Projekt, das Sie migrieren möchten. Sie können die Projektliste filtern, sortieren oder durchsuchen.
 
-   Standardmäßig werden nur Projekte angezeigt, die für Sie freigegeben wurden. Um alle Projekte in Ihrer Organisation anzuzeigen, wählen Sie die **Filter** Symbol und dann erweitern [!UICONTROL **Sonstige Filter**] und wählen [!UICONTROL **Alle anzeigen**]. (Weitere Informationen zum Filtern, Sortieren und Durchsuchen der Projektliste finden Sie unter [Filtern, Sortieren und Durchsuchen der Projektliste](#filter-sort-and-search-the-list-of-projects).
+   Standardmäßig werden nur Projekte angezeigt, die für Sie freigegeben wurden. Um alle Projekte in Ihrer Organisation anzuzeigen, wählen Sie das Symbol **Filter** aus, erweitern Sie dann [!UICONTROL **Sonstige Filter**] und wählen Sie [!UICONTROL **Alle anzeigen**] aus. (Weitere Informationen zum Filtern, Sortieren und Durchsuchen der Projektliste finden Sie unter [Filtern, Sortieren und Durchsuchen der Projektliste](#filter-sort-and-search-the-list-of-projects).)
 
-1. Bewegen Sie den Mauszeiger über das Projekt, das Sie migrieren möchten, und wählen Sie dann die **Migrieren** icon ![Projekt migrieren](assets/migrate.svg).
+1. Bewegen Sie den Mauszeiger über das Projekt, das Sie migrieren möchten, und wählen Sie dann das Symbol **Migrieren** ![Projekt migrieren](assets/migrate.svg) aus.
 
    Oder
 
-   Wählen Sie das Projekt aus, das Sie migrieren möchten, und wählen Sie dann [!UICONTROL **Zu Customer Journey Analytics migrieren**].
+   Wählen Sie das Projekt aus, das Sie migrieren möchten, und wählen Sie dann [!UICONTROL **Zu Customer Journey Analytics migrieren**] aus.
 
    Sie können jeweils nur ein Projekt zur Migration auswählen.
 
-   Die [!UICONTROL **Migrieren des Projektnamens zu Customer Journey Analytics**] angezeigt.
+   Das Dialogfeld [!UICONTROL **Projektname auf Customer Journey Analytics migrieren**] wird angezeigt.
 
    <!-- add screenshot -->
 
-1. Im [!UICONTROL **Projektinhaber**] Geben Sie den Namen des Benutzers ein, den Sie als Projekteigentümer festlegen möchten, und wählen Sie ihn im Dropdown-Menü aus.
+1. Geben Sie im Feld [!UICONTROL **Projekteigentümer**] den Namen des Benutzers ein, den Sie als Projektinhaber festlegen möchten, und wählen Sie dann im Dropdown-Menü dessen Namen aus.
 
    Der von Ihnen angegebene Eigentümer hat vollständige Verwaltungsrechte für das Projekt.
 
-1. Im [!UICONTROL **Zuordnungsschema für Report Suites**] wählen Sie eine Report Suite aus.
+1. Wählen Sie im Abschnitt [!UICONTROL **Schema für Report Suites zuordnen**] eine Report Suite aus.
 
-1. Im [!UICONTROL **Datenansicht**] Dropdown-Menü wählen Sie die Customer Journey Analytics-Datenansicht aus, in die das Projekt und die Komponenten migriert werden sollen.
+1. Wählen Sie im Dropdown-Menü [!UICONTROL **Datenansicht**] die Customer Journey Analytics-Datenansicht aus, in der das Projekt und die Komponenten migriert werden sollen.
 
-1. Auswählen [!UICONTROL **Zuordnungsschema**].
+1. Wählen Sie [!UICONTROL **Schema zuordnen**] aus.
 
-1. Im [!UICONTROL **Zuordnungsschema**] -Abschnitt, erweitern Sie die [!UICONTROL **Dimensionen**] und [!UICONTROL **Metriken**] Abschnitte.
+1. Erweitern Sie im Abschnitt [!UICONTROL **Schema zuordnen**] die Abschnitte [!UICONTROL **Dimensionen**] und [!UICONTROL **Metriken**] .
 
    Einige Dimensionen und Metriken in Adobe Analytics werden automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet. Andere müssen manuell zugeordnet werden.
 
@@ -78,7 +78,7 @@ Bevor Sie Projekte zum Customer Journey Analytics migrieren, erfahren Sie mehr �
 
    Einige Dimensionen und Metriken in Adobe Analytics werden automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet. Sie können für diese Dimensionen und Metriken keine Zuordnungsentscheidungen treffen.
 
-   Beispiel: die **Besuche** Metrik in Adobe Analytics automatisch mit der **Sitzungen** Metrik in Customer Journey Analytics.
+   Beispielsweise wird die Metrik **Besuche** in Adobe Analytics automatisch der Metrik **Sitzungen** in Customer Journey Analytics zugeordnet.
 
    Sie können eine beliebige Dimension oder Metrik auswählen, um die zugehörigen IDs anzuzeigen.
 
@@ -90,41 +90,41 @@ Bevor Sie Projekte zum Customer Journey Analytics migrieren, erfahren Sie mehr �
 
    Einige Dimensionen und Metriken in Adobe Analytics können nicht automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet werden.
 
-   Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben dem [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] -Kopfzeile, die die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird ein Warnsymbol angezeigt ![Warnsymbol](assets/schema-warning.png) wird neben jeder Dimension oder Metrik angezeigt, die manuell zugeordnet werden muss.
+   Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben der Überschrift [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] ein orangefarbener Zähler angezeigt, der die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird neben jeder Dimension oder Metrik, die manuell zugeordnet werden muss, ein Warnsymbol ![Warnsymbol](assets/schema-warning.png) angezeigt.
 
-   Darüber hinaus wird die [!UICONTROL **Status**] Spalte sagt [!UICONTROL **Nicht zugeordnet**].
+   Darüber hinaus lautet die Spalte [!UICONTROL **Status**] [!UICONTROL **Nicht zugeordnet**].
 
    <!-- update screenshot after I can see the Status column -->
 
    ![Manuelle Zuordnung des Migrationsschemas](assets/schema-manual-map.png)
 
-1. Um Dimensionen und Metriken manuell zuzuordnen, wählen Sie eine Dimension oder Metrik aus, die ein Warnsymbol enthält ![Warnsymbol](assets/schema-warning.png), dann in der [!UICONTROL **Zugeordnete Customer Journey Analytics-Metrik**] (oder [!UICONTROL **Zugeordnete Customer Journey Analytics-Dimension**] -Feld, wenn Sie eine Dimension zuordnen), wählen Sie unter Customer Journey Analytics die Dimension oder Metrik aus, die Sie der ausgewählten Dimension oder Metrik zuordnen möchten.
+1. Um Dimensionen und Metriken manuell zuzuordnen, wählen Sie eine Dimension oder Metrik aus, die das Warnsymbol ![Warnsymbol](assets/schema-warning.png) enthält. Wählen Sie dann im Feld [!UICONTROL **Zugeordnete Customer Journey Analytics-Metrik**] (oder im Feld [!UICONTROL **Zugeordnete Customer Journey Analytics-Dimension**] , wenn Sie eine Dimension zuordnen) die Dimension oder Metrik im Customer Journey Analytics aus, die Sie der ausgewählten Dimension oder Metrik zuordnen möchten.
 
-   ![Zuordnungsdimensionen und -metriken](assets/schema-manual-map-drop-down.png)
+   ![Zuordnungsdimensionen und Metriken](assets/schema-manual-map-drop-down.png)
 
-   Nachdem eine Dimension oder Metrik zugeordnet wurde, wird das Warnsymbol ausgeblendet und die [!UICONTROL **Status**] Spaltenänderungen in [!UICONTROL **Zugeordnet**] mit einem grünen Punkt. (Status von [!UICONTROL **Zugeordnet**] mit einem grauen Punkt zeigt an, dass die Dimension oder Metrik während einer vorherigen Migration zugeordnet wurde. Alle vorherigen Zuordnungen können nicht aktualisiert werden.)
+   Nachdem eine Dimension oder Metrik zugeordnet wurde, wird das Warnsymbol ausgeblendet und die Spalte [!UICONTROL **Status**] wird in [!UICONTROL **Zugeordneter**] mit einem grünen Punkt geändert. (Der Status [!UICONTROL **Zugeordneter**] mit einem grauen Punkt zeigt an, dass die Dimension oder Metrik während einer vorherigen Migration zugeordnet wurde. Zuvor erfolgte Zuordnungen können nicht aktualisiert werden.)
 
    Wiederholen Sie diesen Vorgang für jede Dimension oder Metrik, die das Warnsymbol enthält.
 
-   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite in der Customer Journey Analytics-Datenansicht einer Dimension oder Metrik zugeordnet sind, wird ein grünes Häkchen angezeigt ![Häkchen](assets/report-suite-check.png) wird neben dem Report Suite-Namen in der [!UICONTROL **Zuordnungsschema für Report Suites**] Abschnitt.
+   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite in der Customer Journey Analytics-Datenansicht einer Dimension oder Metrik zugeordnet wurden, wird im Abschnitt [!UICONTROL **Schema für Report Suites zuordnen**] neben dem Report Suite-Namen ein grünes Häkchen ![Häkchen](assets/report-suite-check.png) angezeigt.
 
-1. (Bedingt) Wenn das zu migrierende Projekt mehr als eine Report Suite enthält, wählen Sie eine andere Report Suite im [!UICONTROL **Zuordnungsschema für Report Suites**] und wiederholen Sie dann Schritt 6 bis Schritt 10. <!-- double-check that the step numbers are still correct -->
+1. (Bedingt) Wenn das zu migrierende Projekt mehr als eine Report Suite enthält, wählen Sie eine andere Report Suite im Abschnitt [!UICONTROL **Schema für Report Suites zuordnen**] aus und wiederholen Sie dann Schritt 6 bis Schritt 10. <!-- double-check that the step numbers are still correct -->
 
-1. Auswählen [!UICONTROL **Migrieren**].
+1. Wählen Sie [!UICONTROL **Migrieren**] aus.
 
    >[!WARNING]
    >
-   >   Nach Auswahl wird eine Warnmeldung auf dem Bildschirm angezeigt [!UICONTROL **Migrieren**]. Bevor Sie fortfahren, sollten Sie wissen, dass alle Dimensionen oder Metriken, die Sie zuordnen, dauerhaft sind, sowohl für dieses Projekt als auch für alle zukünftigen Projekte, die in Ihrer gesamten Organisation migriert werden. Wenn Sie fortfahren, können die von Ihnen erstellten Zuordnungen nicht geändert werden.
+   >   Wenn Sie [!UICONTROL **Migrieren**] auswählen, wird eine Warnmeldung auf dem Bildschirm angezeigt. Bevor Sie fortfahren, sollten Sie wissen, dass alle Dimensionen oder Metriken, die Sie zuordnen, dauerhaft sind, sowohl für dieses Projekt als auch für alle zukünftigen Projekte, die in Ihrer gesamten Organisation migriert werden. Wenn Sie fortfahren, können die von Ihnen erstellten Zuordnungen nicht geändert werden.
 
-   Nach Abschluss der Migration wird die [!UICONTROL **Migrationsstatus**] bietet eine Zusammenfassung der migrierten Elemente.
+   Nach Abschluss der Migration bietet die Seite [!UICONTROL **Migrationsstatus**] eine Zusammenfassung dessen, was migriert wurde.
 
-   Wenn die Migration fehlschlägt, lesen Sie den Abschnitt [Fehlgeschlagene Migration wiederholen](#retry-a-failed-migration) unten für weitere Informationen.
+   Wenn die Migration fehlschlägt, finden Sie weitere Informationen im Abschnitt [Erneutes Zustellen einer fehlgeschlagenen Migration](#retry-a-failed-migration) weiter unten.
 
 ## Fehlgeschlagene Migration wiederholen
 
 Wenn eine Migration fehlschlägt, können Sie die Migration erneut versuchen.
 
-Bevor Sie eine fehlgeschlagene Migration wiederholen, müssen Sie alle [nicht unterstützte Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
+Bevor Sie eine fehlgeschlagene Migration wiederholen, entfernen Sie alle [nicht unterstützten Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
 
 >[!NOTE]
 >
@@ -134,17 +134,17 @@ So wiederholen Sie eine fehlgeschlagene Migration:
 
 1. Wählen Sie in Adobe Analytics die Registerkarte [!UICONTROL **Admin**] und dann [!UICONTROL **Alle Admins**] aus.
 
-1. under [!UICONTROL **Datenkonfiguration und -erfassung**] auswählen [!UICONTROL **Komponentenmigration**].
+1. Wählen Sie unter [!UICONTROL **Datenkonfiguration und -erfassung**] die Option [!UICONTROL **Komponentenmigration**] aus.
 
-1. Auswählen [!UICONTROL **Fehlgeschlagen**] im [!UICONTROL **Migrationsstatus**] neben dem Projekt, das Sie erneut versuchen möchten.
+1. Wählen Sie [!UICONTROL **Fehlgeschlagen**] in der Spalte [!UICONTROL **Migrationsstatus**] neben dem Projekt, das Sie erneut versuchen möchten.
 
-   ![Spalte mit Migrationsstatus](assets/migration-failed.png)
+   ![Migrationstatus-Spalte fehlgeschlagen](assets/migration-failed.png)
 
-   Die [!UICONTROL **Migrationsstatus**] angezeigt.
+   Die Seite [!UICONTROL **Migrationsstatus**] wird angezeigt.
 
-   Diese Seite wird auch unmittelbar nach Abschluss der im Abschnitt beschriebenen Migrationsschritte angezeigt. [Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) höher.
+   Diese Seite wird auch unmittelbar nach Abschluss der im Abschnitt [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) beschriebenen Migrationsschritte angezeigt.
 
-1. Auswählen [!UICONTROL **Migration wiederholen**].
+1. Wählen Sie [!UICONTROL **Migration wiederholen**] aus.
 
 ## Filtern, Sortieren und Durchsuchen der Projektliste
 
@@ -159,8 +159,8 @@ Sie können nach folgenden Kriterien filtern:
 | [!UICONTROL **Status**] | Der Status der Migration: <ul><li>[!UICONTROL **Nicht gestartet**]</li><li>[!UICONTROL **Gestartet**]</li><li>[!UICONTROL **Abgeschlossen**]</li><li>[!UICONTROL **Fehlgeschlagen**]</li></ul>. |
 | [!UICONTROL **Tags**] | Wählen Sie beliebige Tags in der Tag-Liste aus. Es werden nur Projekte angezeigt, auf die die ausgewählten Tags angewendet wurden. |
 | [!UICONTROL **Report Suite**] | Wählen Sie eine beliebige Report Suite in der Liste der Report Suites aus. Es werden nur Projekte angezeigt, die die ausgewählten Report Suites verwenden. |
-| [!UICONTROL **Eigentümer**] | Wählen Sie einen beliebigen Inhaber in der Liste der Inhaber aus. Es werden nur Projekte angezeigt, die den ausgewählten Benutzern gehören. |
-| [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Mine**]: Zeigt nur Projekte an, für die Sie als Inhaber festgelegt sind.</li><li>[!UICONTROL **Freigegeben für mich**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favorit markiert sind. (Sie können ein Projekt als Favoriten aus dem [Projekt-Landingpage](/help/analyze/landing.md).</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
+| [!UICONTROL **Inhaber**] | Wählen Sie einen beliebigen Inhaber in der Liste der Inhaber aus. Es werden nur Projekte angezeigt, die den ausgewählten Benutzern gehören. |
+| [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Meine**]: Zeigt nur Projekte an, für die Sie als Inhaber festgelegt sind.</li><li>[!UICONTROL **Für mich freigegeben**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favoriten gekennzeichnet sind. (Sie können ein Projekt auf der [Projekt-Landingpage](/help/analyze/landing.md) als Favoriten markieren.)</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
 
 {style="table-layout:auto"}
 

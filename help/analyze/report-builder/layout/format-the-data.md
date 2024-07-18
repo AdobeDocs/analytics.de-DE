@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
@@ -22,14 +22,14 @@ Klicken Sie im Menü **[!UICONTROL Format]** auf **[!UICONTROL Benutzerdefiniert
 
 In der folgenden Tabelle wird beschrieben, wie Datumsabkürzungen im Feld [!UICONTROL Benutzerdefiniertes Format] verwendet werden können:
 
-| Abkürzung | Bedeutung | Beispiel mit Mittwoch, 14. März 2012 |
+| Abkürzung | Bedeutung | Beispiel   Verwendung von Mittwoch, 14. März 2012 |
 |--- |--- |--- |
 | MM/TT/JJJ | Volles numerisches Datum | 03/14/2012 |
 | M | Monatsnummer | 3 |
 | MM | Monatsnummer mit vorangestellter 0 für Monate &lt; 10 | 03 |
 | MMM | Kurzname des Monats | Mär |
 | MMMM | Langname des Monats | März |
-| D | Langname des Datums | Mittwoch, 14. März 2012 |
+| D | Langname des Datums | Donnerstag, 14. März 2012 |
 | d | Tagesnummer | 14 |
 | dd | Tagesnummer mit vorangestellter 0 für Tage &lt; 10 | 01 - 09 |
 | TTT | Kurzname des Tages | Mit |

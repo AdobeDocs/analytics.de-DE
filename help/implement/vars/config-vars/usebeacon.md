@@ -25,20 +25,20 @@ Die `useBeacon`-Variable wird ignoriert, wenn der Besucher einen Browser verwend
 
 ## Verwenden der sendBeacon-API mit der Web SDK-Erweiterung
 
-Die **[!UICONTROL Dokument wird entladen]** innerhalb einer Aktionskonfiguration festlegen, ob an Adobe gesendete Daten die sendBeacon-API verwenden.
+Das Kontrollkästchen **[!UICONTROL Document will unload]** in einer Aktionskonfiguration bestimmt, ob an Adobe gesendete Daten die sendBeacon-API verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Navigieren Sie zu [!UICONTROL Regeln] und klicken Sie auf die gewünschte Regel.
-1. under [!UICONTROL Aktionen], klicken Sie auf die gewünschte Aktion oder klicken Sie auf die **&#39;+&#39;** -Symbol, um eine neue Aktion hinzuzufügen.
-1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste zu **[!UICONTROL Adobe Experience Platform Web SDK]** und [!UICONTROL Aktionstyp] nach **[!UICONTROL Ereignis senden]**
-1. Klicken Sie auf das Kontrollkästchen **[!UICONTROL Dokument wird entladen]** rechts.
+1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel.
+1. Klicken Sie unter [!UICONTROL Aktionen] auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;** , um eine neue Aktion hinzuzufügen.
+1. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf **[!UICONTROL Adobe Experience Platform Web SDK]** und den Aktionstyp [!UICONTROL 5} auf **[!UICONTROL Ereignis senden]**]
+1. Klicken Sie auf das Kontrollkästchen **[!UICONTROL Dokument wird nicht geladen]** auf der rechten Seite.
 
 Wenn dieses Kontrollkästchen aktiviert ist, werden Daten mithilfe der sendBeacon-API an Adobe gesendet. Es ist standardmäßig deaktiviert.
 
 ## Verwenden der sendBeacon-API zur manuellen Implementierung des Web SDK
 
-Satz `documentUnloading` nach `true` beim Senden eines Ereignisses. Wenn nicht festgelegt, lautet der Standardwert `false`.
+Setzen Sie `documentUnloading` beim Senden eines Ereignisses auf `true`. Wenn nicht festgelegt, ist der Standardwert `false`.
 
 ```json
 alloy("sendEvent", {
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Siehe [Verwenden der sendBeacon-API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Weitere Informationen finden Sie unter [Verwenden der sendBeacon-API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) in der Web SDK-Dokumentation.
 
 ## Verwenden von Beacon mit der Adobe Analytics-Erweiterung
 

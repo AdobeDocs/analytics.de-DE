@@ -14,11 +14,11 @@ ht-degree: 1%
 
 Die Segmentfunktionalität unterscheidet sich hauptsächlich zwischen Benutzern der Administratorebene und Nicht-Administratoren.
 
-|  | Admin-Benutzer | Benutzer ohne Administratorrechte |
+| | Admin Users | Benutzer ohne Administratorrechte |
 | --- | --- | --- |
 | Anwenden von Segmenten | Eigene Segmente oder freigegebene Segmente. Sie können jedoch jedes beliebige Segment von einem beliebigen Benutzer für sich selbst freigeben, um | Nur eigene Segmente oder freigegebene Segmente |
 | Anzeigen von Segmenten im Segment-Manager | Alle Segmente innerhalb der Organisation | Nur eigene Segmente oder freigegebene Segmente |
 | Segmente verwalten | Kann beliebige Segmente von jedem Benutzer anzeigen, bearbeiten, löschen oder genehmigen | Kann nur eigene Segmente bearbeiten oder löschen. Segmente können nicht genehmigt werden. |
-| Segmente freigeben | Kann für das gesamte Unternehmen, Benutzergruppen oder Einzelpersonen freigegeben werden | Können nur für Einzelpersonen freigegeben werden |
+| Segmente freigeben | Kann für das gesamte Unternehmen, Benutzergruppen oder Einzelanwender freigeben | Können nur für Einzelpersonen freigegeben werden |
 
 {style="table-layout:auto"}

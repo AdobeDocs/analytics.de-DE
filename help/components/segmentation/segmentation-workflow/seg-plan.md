@@ -6,7 +6,7 @@ exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ Wenn Sie für die Planung von Segmenten etwas Zeit aufwenden, verbessern Sie die
    * Wofür ist dieses Segment nützlich?
    * Wann sollte dieses Segment benutzt werden?
 
-1. Ermitteln Sie den **Umfang** des Segments. Welcher [Segmentbehälter](/help/components/segmentation/seg-overview.md) bildet den Umfang am besten ab? Benutzen Sie den kleinstmöglichen Container.
+1. Ermitteln Sie den **Umfang** des Segments. Welcher [Segmentbehälter](/help/components/segmentation/seg-overview.md) stellt den Umfang am besten dar? Benutzen Sie den kleinstmöglichen Container.
 
-1. Entscheiden Sie, welche **Elemente** und welche Werte in die Segmentdefinition aufgenommen werden. Berücksichtigen Sie bei dieser Entscheidung die [Variablenpersistenz](/help/components/segmentation/seg-overview.md).
+1. Entscheiden Sie, welche **Elemente** und welche Werte in die Segmentdefinition aufgenommen werden. Beachten Sie [Variablenpersistenz](/help/components/segmentation/seg-overview.md) in dieser Entscheidung.
 
 1. Überlegen Sie, wie der **Genehmigungsprozess** verlaufen soll. Wird eine einzelne Person die Segmente prüfen und genehmigen oder wird dies die Entscheidung einer Kommission sein?
 1. Definieren Sie Ihre Segmente mit Blick auf eine **Segmentbibliothek**, die Unternehmensbenutzern die Möglichkeit gibt, Segmentteile oder Komponenten modular zu [stapeln](/help/components/segmentation/segmentation-workflow/seg-build.md) und wiederzuverwenden. Welche „Module“ müssen Sie definieren, um diese Bibliothek zu realisieren?

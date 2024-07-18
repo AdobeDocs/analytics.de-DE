@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Paid Search
 
-Die &quot;gebührenpflichtige Suche&quot; [Dimension](overview.md) ermöglicht Ihnen, eine beliebige Metrik anzuzeigen und sie zwischen Paid Search und kostenloser Suche zu vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
+Mit der Dimension &quot;Paid Search&quot;[Dimension](overview.md) können Sie eine beliebige Metrik anzeigen und sie zwischen Paid Search und kostenloser Suche vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
 
 ## Füllen dieser Dimension mit Daten
 

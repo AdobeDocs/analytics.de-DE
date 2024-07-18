@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 69%
+source-wordcount: '558'
+ht-degree: 65%
 
 ---
 
@@ -21,17 +21,17 @@ Sie beginnen mit einer leeren Freiformtabelle.
 
 ![Leere Freiformtabelle](assets/freeform-table-1.png)
 
-Wenn Sie die **[!UICONTROL ** Besuche **]** Metrik auf der **[!UICONTROL ** Metrik hier ablegen (oder eine andere Komponente)**]** festgelegt ist, wird die Freiformtabelle für den ausgewählten Kalenderzeitraum automatisch mit Besuchen pro Tag gefüllt.
+Wenn Sie die Metrik **[!UICONTROL ** Besuche **]** auf **[!UICONTROL ** Metrik hier ablegen (oder eine andere Komponente)**]** ablegen, wird die Freiformtabelle für den ausgewählten Kalenderzeitraum automatisch mit Besuchen pro Tag gefüllt.
 
-![Besuche Freiformtabelle](assets/freeform-table-2.png)
+![Besuche der Freiformtabelle](assets/freeform-table-2.png)
 
-Wenn Sie dann **[!UICONTROL ** Seite **]** Dimension, die ersetzt werden soll **[!UICONTROL ** Tag **]** in der Freiformtabelle angezeigt werden, spiegeln die Besuche für jede Seite automatisch wider.
+Wenn Sie dann die Dimension **[!UICONTROL ** Seite **]** ablegen, um die Dimensionsspalte **[!UICONTROL ** Tag **]** zu ersetzen, spiegelt die Freiformtabelle automatisch die Besuche für jede Seite wider.
 
 ![Besuche nach Seiten-Freiformtabelle](assets/freeform-table-3.png)
 
-Sie können dann beispielsweise die **[!UICONTROL ** category:5 **]** Seite durch Ablegen der **[!UICONTROL ** Marketingkanal **]** Dimension auf **[!UICONTROL ** category:5 **]** Zeile.
+Anschließend können Sie beispielsweise die Seite **[!UICONTROL ** category:5 **]** aufschlüsseln, indem Sie die Dimension **[!UICONTROL ** Marketing-Kanal **]** in der Zeile **[!UICONTROL ** category:5 **]** ablegen.
 
-![Besuchsaufschlüsselung nach Freiformtabelle der Seite](assets/freeform-table-4.png)
+![Aufschlüsselung der Besuche nach Freiformtabelle der Seite](assets/freeform-table-4.png)
 
 
 ## Automatisierte Tabellen
@@ -42,7 +42,7 @@ Wie oben gezeigt, besteht die schnellste Möglichkeit zum Erstellen einer Tabell
 
 ## Freiformtabellen-Builder
 
-Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Builder aktiviert ist, können Sie Tabellen mit komplexeren Fragen per Drag &amp; Drop in viele Dimensionen, Aufschlüsselungen, Metriken und Segmente verschieben. Daten werden nicht sofort aktualisiert. Sie werden erst aktualisiert, wenn Sie auf **[!UICONTROL Build]**.
+Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Builder aktiviert ist, können Sie Tabellen mit komplexeren Fragen per Drag &amp; Drop in viele Dimensionen, Aufschlüsselungen, Metriken und Segmente verschieben. Daten werden nicht sofort aktualisiert. Sie werden aktualisiert, sobald Sie auf **[!UICONTROL Build]** klicken.
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/
 
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten in Zwischenablage kopieren]** exportiert die angezeigten Tabellendaten. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl in Zwischenablage kopieren]**. Mit dem Hotkey **Strg + C** können auch ausgewählte Daten kopiert werden.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
-* Rechtsklick > **[!UICONTROL Projekt > Elemente als CSV herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
+* Klicken Sie mit der rechten Maustaste auf > **[!UICONTROL Projekt > Elemente als CSV herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
 
 Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
 

@@ -15,21 +15,21 @@ ht-degree: 1%
 
 Das Senden einer Datenquellendatei an Adobe umfasst einen typischen authentifizierten FTP-Workflow. Sie können Windows Explorer, Finder oder einen dedizierten FTP-Client verwenden, um die gewünschten Dateien zum Speicherort auf Adobe FTP hochzuladen.
 
-Suchen Sie die FTP-Anmeldeinformationen im [Data Sources Manager](manage.md). Jede Datenquelle enthält einen Link zu **[!UICONTROL FTP-Info]**. Jeder FTP-Speicherort ist für diese Datenquelle vorgesehen. Sie können nicht denselben FTP-Speicherort für mehrere Datenquellen verwenden.
+Suchen Sie die FTP-Anmeldeinformationen im [Datenquellen-Manager](manage.md). Jede Datenquelle verfügt über einen Link zu ihrer **[!UICONTROL FTP-Info]**. Jeder FTP-Speicherort ist für diese Datenquelle vorgesehen. Sie können nicht denselben FTP-Speicherort für mehrere Datenquellen verwenden.
 
 Aus Sicherheitsgründen sind FTP-Standorte ohne Aktivität für mehr als 30 Tage deaktiviert.
 
-## Die `.fin` file
+## Die Datei `.fin`
 
-Ein wichtiger Teil der erfolgreichen Aufnahme einer Datenquellendatei ist die Einbeziehung eines `.fin` -Datei. Diese Datei zeigt dem Adobe an, dass die Datendatei zur Verarbeitung bereit ist. Wenn Sie eine Datenquellendatei ohne entsprechende `.fin` -Datei, verarbeitet Adobe diese Daten nie.
+Ein wichtiger Teil der erfolgreichen Aufnahme einer Datenquellendatei ist die Einbeziehung einer `.fin` -Datei. Diese Datei zeigt dem Adobe an, dass die Datendatei zur Verarbeitung bereit ist. Wenn Sie eine Datenquellendatei ohne entsprechende `.fin` -Datei hochladen, verarbeitet Adobe diese Daten nie.
 
-Die `.fin` -Datei weist die folgenden Eigenschaften auf:
+Die Datei `.fin` verfügt über die folgenden Eigenschaften:
 
-* Die Datei enthält eine `.fin` -Erweiterung. Stellen Sie sicher, dass Ihr Betriebssystem es Ihnen ermöglicht, Dateitypen anzuzeigen und zu bearbeiten.
-* Die Datei ist leer. Speichern Sie keine Daten in der `.fin` -Datei.
-* Die Datei hat genau den gleichen Namen wie die Datenquellendatei. Wenn Sie beispielsweise eine Datenquellendatei mit dem Namen `example.txt`, die `.fin` file **must** be name `example.fin`. Wenn sie nicht identisch benannt sind, verarbeitet Adobe nie die Datenquellendatei.
+* Die Datei weist die Erweiterung `.fin` auf. Stellen Sie sicher, dass Ihr Betriebssystem es Ihnen ermöglicht, Dateitypen anzuzeigen und zu bearbeiten.
+* Die Datei ist leer. Speichern Sie keine Daten in der Datei &quot;`.fin`&quot;.
+* Die Datei hat genau den gleichen Namen wie die Datenquellendatei. Wenn Sie beispielsweise eine Datenquellendatei mit dem Namen `example.txt` hochladen, muss die `.fin` Datei **** den Namen `example.fin` haben. Wenn sie nicht identisch benannt sind, verarbeitet Adobe nie die Datenquellendatei.
 
-Einmal die Datenquellendatei und `.fin` auf die FTP-Site hochgeladen werden, verarbeitet Adobe die Datei. Laden Sie die `.fin` Datei, bis die Datenquellendatei vollständig hochgeladen wurde. Wenn die Variable `.fin` -Datei vorzeitig hochgeladen wird, ruft Adobe die teilweise hochgeladene Datei ab und erfasst sie, was zu Fehlern führt.
+Sobald sowohl die Datenquellendatei als auch die `.fin`-Datei auf die FTP-Site hochgeladen wurden, verarbeitet Adobe die Datei. Laden Sie die Datei &quot;`.fin`&quot;erst hoch, nachdem die Datenquellendatei vollständig hochgeladen wurde. Wenn die `.fin` -Datei vorzeitig hochgeladen wird, ruft Adobe die teilweise hochgeladene Datei ab und erfasst sie, was zu Fehlern führt.
 
 ## Verarbeitungsreihenfolge
 

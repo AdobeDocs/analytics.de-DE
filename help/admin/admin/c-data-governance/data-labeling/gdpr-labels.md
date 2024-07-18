@@ -137,7 +137,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
 | <ul><li>Benutzerspezifische Erfolgsereignisse</li><li>Merchandising-eVars</li><li>Mehrwertige Variablen (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classifications | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Beschriftungen | – |
-| Die meisten anderen Variablen (*Siehe Tabelle unten mit Ausnahmen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| Die meisten anderen Variablen (*Siehe Tabelle unten für Ausnahmen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -262,4 +262,4 @@ Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
 Für den Code zur Generierung der für Datenschutz-Zugriffsanfragen zurückgegebenen Dateien ist es erforderlich, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Beschriftung, die für die Art der Anforderung gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
 
-Die CSV-Datei auf Trefferebene, die für Datenschutzanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Uhrzeitfelder des Formats `YYYY-MM-DD HH:MM:SS` (zum Beispiel: `2018-05-01 13:49:22`). In der Zusammenfassungs-HTML-Datei werden diese Zeitstempelwerte abgeschnitten, um nur das Datum, `YYYY-MM-DD`, um die Anzahl der eindeutigen Werte für diese Felder zu reduzieren.
+Die CSV-Datei auf Trefferebene, die für Datenschutz-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Uhrzeitfelder im Format `YYYY-MM-DD HH:MM:SS` (z. B. `2018-05-01 13:49:22`). In der Zusammenfassungsdatei werden diese Zeitstempelwerte abgeschnitten, sodass nur das HTML-Datum `YYYY-MM-DD` enthalten ist, um die Anzahl der eindeutigen Werte für diese zu reduzieren.

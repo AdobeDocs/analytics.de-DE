@@ -27,7 +27,7 @@ Die Aktivierung von `linkLeaveQueryString` gilt für alle Linktracking-Dimension
 
 ## Link-Abfragezeichenfolgen mit dem Web SDK verarbeiten
 
-Abfragezeichenfolgen werden nicht aus dem XDM-Feld entfernt `web.webInteraction.URL`. Wenn Sie Abfragezeichenfolgen aus diesem XDM-Feld entfernen möchten, können Sie es mit `onBeforeEventSend`.
+Abfragezeichenfolgen werden nicht aus dem XDM-Feld `web.webInteraction.URL` entfernt. Wenn Sie Abfragezeichenfolgen aus diesem XDM-Feld entfernen möchten, können Sie es mit `onBeforeEventSend` bearbeiten.
 
 ## URL-Parameter mithilfe der Adobe Analytics-Erweiterung beibehalten
 

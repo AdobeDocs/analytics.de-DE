@@ -19,11 +19,11 @@ Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics
 
 | | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics-Erweiterung](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK-Erweiterung](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
-| Implementierungsanforderungen | Referenz `AppMeasurement.js` auf jeder Seite Variablen definieren, Daten senden mit `s.t()` zu Adobe Analytics | Referenzieren Sie Tag-Lader auf jeder Seite über die Datenerfassungs-Benutzeroberfläche, um Variablen zu definieren und Daten an Adobe Analytics zu senden. | Referenz `Alloy.js` Verwenden Sie auf jeder Seite `alloy("sendEvent",{})` , um XDM-Objekte zu erstellen und die gewünschten Daten über Edge Network an Adobe Analytics zu senden. | Referenzieren Sie Tag-Lader auf jeder Seite, verwenden Sie die Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. |
+| Implementierungsanforderungen | Referenzieren Sie `AppMeasurement.js` auf jeder Seite, definieren Sie Variablen, senden Sie Daten mit `s.t()` an Adobe Analytics | Referenzieren Sie Tag-Lader auf jeder Seite über die Datenerfassungs-Benutzeroberfläche, um Variablen zu definieren und Daten an Adobe Analytics zu senden. | Referenzieren Sie `Alloy.js` auf jeder Seite, verwenden Sie `alloy("sendEvent",{})`, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. | Referenzieren Sie Tag-Lader auf jeder Seite, verwenden Sie die Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. |
 | Datenziel | Direkt an Adobe Analytics gesendet | Direkt an Adobe Analytics gesendet | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden |
 | Schwierigkeiten bei der Anpassung der Implementierung | Erfordert bei jeder Implementierungsänderung Zugriff auf den Website-Code | Ändern Sie den Website-Code einmal, um das Lader-Tag zu installieren. Alle weiteren Implementierungsaktualisierungen können in der Datenerfassungs-Benutzeroberfläche vorgenommen werden. | Erfordert bei jeder Implementierungsänderung Zugriff auf den Website-Code | Ändern Sie den Website-Code einmal, um das Lader-Tag zu installieren. Alle weiteren Implementierungsaktualisierungen können in der Datenerfassungs-Benutzeroberfläche vorgenommen werden. |
 | Handhabung von A4T | A4T-Aufrufe sind in Treffern enthalten, die an Adobe gesendet werden | A4T-Aufrufe sind in Treffern enthalten, die an Adobe gesendet werden | A4T-Aufrufe werden als separate Treffer gesendet | A4T-Aufrufe werden als separate Treffer gesendet |
-| Kontextdaten | Verwenden Sie `s.contextData`. | Verwendung `s.contextData` in benutzerspezifischen Codeblöcken | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen. | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen. |
+| Kontextdaten | Verwenden Sie `s.contextData`. | Verwenden Sie `s.contextData` in benutzerspezifischen Codeblöcken | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen gesendet. | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen gesendet. |
 
 {style="table-layout:auto"}
 
@@ -31,15 +31,15 @@ Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics
 
 >[!CAUTION]
 >
->Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Siehe [Häufig gestellte Fragen zur Einstellung der Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) für weitere Informationen.
+>Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den [FAQ zum Ende der Nutzungsdauer von Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) .
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Server-API](/help/implement/aep-edge/server-api/overview.md) |
 | --- | --- | --- |
-| Implementierungsanforderungen | Verweisen Sie in der App auf Tag-Lader und verwenden Sie dann direkte API-Aufrufe oder -Regeln in der Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. | Verwenden Sie Edge Network Server-APIs, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. |
+| Implementierungsanforderungen | Verweisen Sie in der App auf Tag-Lader und verwenden Sie dann direkte API-Aufrufe oder -Regeln in der Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden. | Verwenden Sie Edge Network Server-APIs, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden |
 | Datenziel | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden |
 | Schwierigkeiten bei der Anpassung der Implementierung | Ändern Sie den App-Code, in dem direkte API-Aufrufe durchgeführt werden, oder nehmen Sie Änderungen in der Datenerfassungs-Benutzeroberfläche vor. | Erfordert Zugriff auf App-Code für jede Implementierungsänderung |
 | Handhabung von A4T | A4T-Aufrufe werden als separate Treffer gesendet | A4T-Aufrufe werden als separate Treffer gesendet |
-| Kontextdaten | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen. | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen |
+| Kontextdaten | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen gesendet. | Alle nicht zugeordneten Felder werden automatisch als `a.x.*` Kontextdatenvariablen gesendet |
 
 {style="table-layout:auto"}

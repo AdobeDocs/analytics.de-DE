@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ Mit der Anomalieerkennung werden neue Metrikwerte für jede ausgewählte Metrik 
  </tbody> 
 </table>
 
-Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik für die  *`Page Views Lower Bound`* verwendet.
+Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik vom Typ *`Page Views Lower Bound`* verwendet.
 
 **Berechnung der Anomalieerkennung**
 

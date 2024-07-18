@@ -12,42 +12,42 @@ ht-degree: 9%
 
 # Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics
 
-Bevor jemand in Ihrer Organisation mit der Migration von Projekten beginnt, siehe [Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md), führen Sie die folgenden Abschnitte aus.
+Bevor jemand in Ihrer Organisation mit der Migration von Projekten beginnt, wie unter [Migrieren von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md) beschrieben, führen Sie die folgenden Abschnitte aus.
 
 ## Voraussetzungen
 
-Bevor Ihre Projekte und die zugehörigen Komponenten migriert werden können, müssen Sie zunächst die Schritte unter [Entwicklung von Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=de) im Adobe Customer Journey Analytics-Handbuch. Zu diesen Schritten gehören:
+Bevor Ihre Projekte und die zugehörigen Komponenten migriert werden können, müssen Sie zunächst die Schritte unter [Entwicklung von Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=de) im Adobe Customer Journey Analytics-Handbuch ausführen. Zu diesen Schritten gehören:
 
 1. Verwenden Sie eine der folgenden Methoden, um Daten in Adobe Experience Platform aufzunehmen, um Adobe Analytics-Report Suite-Daten unter Customer Journey Analytics anzuzeigen:
 
    >[!NOTE]
    >
-   >  Wenn Sie das WebSDK zum Erfassen von Daten verwenden, müssen alle Schemafelder manuell zugeordnet werden. (Weitere Informationen zum Zuordnungsprozess finden Sie unter [Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
+   >  Wenn Sie das WebSDK zum Erfassen von Daten verwenden, müssen alle Schemafelder manuell zugeordnet werden. (Weitere Informationen zum Zuordnungsprozess finden Sie unter [Migrieren von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
 
 
    * Um den Adobe Analytics-Quell-Connector zu verwenden, gehen Sie folgendermaßen vor:
 
       1. [Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics einrichten](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Daten erfassen und verwenden](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=de)
+      1. [Aufnehmen und Verwenden der Daten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=de)
 
    * Um das WebSDK zu verwenden, müssen Sie:
 
       1. [Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics einrichten](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Daten über das Adobe Experience Platform Web SDK erfassen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [Aufnehmen von Daten über das Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Erstellen Sie eine [connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) und [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den erfassten Daten.
+1. Erstellen Sie eine [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) und eine [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den aufgenommenen Daten.
 
 1. Stellen Sie sicher, dass Benutzer in Customer Journey Analytics für die Datenansichten bereitgestellt werden, in denen Daten zugeordnet werden.
 
-   Weitere Informationen finden Sie unter [Customer Journey Analytics-Berechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Zugriffskontrolle auf Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   Weitere Informationen finden Sie unter [Customer Journey Analytics-Berechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in der [Customer Journey Analytics-Zugriffskontrolle](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    Die Registerkarte Berechtigungen ist Teil jedes Produktprofils in Admin Console. Benutzende können zu bestimmten Produktprofilen hinzugefügt werden. Anschließend weisen Sie bestimmten Datenansichten Berechtigungen zu und geben an, welche Berechtigungen die Benutzer in einem Produktprofil haben.
 
 1. Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen.
 
-   Weitere Informationen finden Sie im folgenden Abschnitt: [Als Organisation entscheiden, wie Sie Komponenten zuordnen](#decide-as-an-organization-how-you-will-map-components).
+   Weitere Informationen finden Sie im folgenden Abschnitt, [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen](#decide-as-an-organization-how-you-will-map-components).
 
 ## Informationen zu den Funktionen einer Migration
 
@@ -55,7 +55,7 @@ In den folgenden Tabellen wird beschrieben, welche Elemente eines Projekts und e
 
 ### Migrierte Komponentenelemente
 
-Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten auf Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) beschrieben ist.
 
 Segmente, Datumsbereiche und berechnete Metriken, die noch nicht im Customer Journey Analytics vorhanden sind, werden dort anhand der zugeordneten Dimensionen und Metriken neu erstellt.
 
@@ -65,7 +65,7 @@ Segmente, Datumsbereiche und berechnete Metriken, die noch nicht im Customer Jou
 | **[Freigeben](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
 | **[Beschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: ![Häkchen](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
-| **[Attribution (auf Dimensionen)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
+| **[Attribution (für Dimensionen)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionen und Metriken: nein<p>Segmente und Datumsbereiche: nein</p> |
 
 {style="table-layout:auto"}
 
@@ -76,8 +76,8 @@ Segmente, Datumsbereiche und berechnete Metriken, die noch nicht im Customer Jou
 | **[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Segmente](/help/components/segmentation/seg-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
-| **[Dimensionen](/help/components/dimensions/overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Automatisch oder manuell zugeordnet |
-| **[Metriken](/help/components/metrics/overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Automatisch oder manuell zugeordnet |
+| **[Dimensionen](/help/components/dimensions/overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) automatisch oder manuell zugeordnet |
+| **[Metriken](/help/components/metrics/overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) automatisch oder manuell zugeordnet |
 | **[Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Inhabende](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Definiert durch den Benutzer, der die Migration durchführt |

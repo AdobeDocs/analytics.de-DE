@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Wenn Sie über einen Daten-Feed verfügen, der normalerweise stündlich oder tä
    2. Suchen Sie die gewünschten Daten-Feeds und klicken Sie auf das jeweilige Kontrollkästchen neben jedem Feed, den Sie erneut ausführen möchten.
    3. Klicken Sie auf **[!UICONTROL Erneut ausführen]**.
 
-   ![Erneut ausführen](assets/rerun.png)
+  ![Erneut ausführen](assets/rerun.png)
 
 Wenn Sie die Daten-Feed-Dateien nach der erneuten Ausführung immer noch nicht erhalten, wenden Sie sich an die Kundenunterstützung.
 

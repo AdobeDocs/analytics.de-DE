@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Kopieren Sie eher eine einfache Anforderung als eine Verweisanforderung. Eine einfache Anforderung enthält keine Verweise auf andere Anforderungen oder die Inhalte einer Zelle.
 
-Eine [Verweisanforderung](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) verwendet Werte aus Zellen als Eingabe für Parameter, etwa als Daten- oder relationale Filter. Diese Filter verwenden entweder Übereinstimmungen oder Trenderstellung und basieren auf den Ergebnissen einer früheren Anforderung oder auf dem vom Benutzer eingegebenen Inhalt einer Zelle. Eine solche Zelle wird Eingabezelle genannt.
+Eine [Verweisanforderung](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) verwendet Werte aus Zellen als Eingabe für Parameter, etwa als Daten- oder relationale Filter. Diese Filter verwenden entweder Übereinstimmungen oder Trends und basieren auf den Ergebnissen einer vorherigen Anforderung oder auf dem vom Benutzer eingegebenen Inhalt einer Zelle, der so genannten Eingabezelle.
 
 So kopieren Sie eine einfache Anforderung
 

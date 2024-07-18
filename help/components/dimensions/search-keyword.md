@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Suchbegriff
 
-Der Suchbegriff [Dimension](overview.md) erfasst die Suchbegriffe, die Besucher zum Erreichen Ihrer Site verwenden.
+Die Dimension &quot;Suchbegriff&quot;[Dimension](overview.md) erfasst die Suchbegriffe, die Besucher zum Erreichen Ihrer Site verwenden.
 
 >[!IMPORTANT]
 >

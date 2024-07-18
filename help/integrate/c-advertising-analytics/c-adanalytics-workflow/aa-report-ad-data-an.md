@@ -20,11 +20,11 @@ Dieser Artikel enthält Details zum Analysis Workspace-Bericht und zur Berichter
 
 ## Bericht zur gebührenpflichtigen Suche {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Mit diesem Bericht kann jeder, der die Suchmaschinenintegration implementiert, in Analytics auf Suchmaschinendaten zugreifen. Der Zugriff erfolgt über **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Berichte]** > **[!UICONTROL Akquise]** > **[!UICONTROL Advertising Analytics: Paid Search]**
+Mit diesem Bericht kann jeder, der die Suchmaschinenintegration implementiert, in Analytics auf Suchmaschinendaten zugreifen. Sie können darauf über **[!UICONTROL Workspace]** > **[!UICONTROL Berichte]** > **[!UICONTROL Akquise]** > **[!UICONTROL Advertising Analytics: Paid Search]** zugreifen
 
 >[!NOTE]
 >
->Der Bericht zu gebührenpflichtigen Suchvorgängen ist für alle Kunden sichtbar, auch wenn Sie keine Werbekonten implementiert haben. Wenn Sie versuchen, den Bericht über gebührenpflichtige Suchvorgänge für ein Unternehmen zu öffnen, das nicht registriert ist, wird eine Fehlermeldung angezeigt, die Ihnen mitteilt, dass Sie kein Suchmaschinenkonto konfiguriert haben. Auswählen **[!UICONTROL Jetzt konfigurieren]**, der Sie zum [Einrichtung von Werbekonten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) angezeigt.
+>Der Bericht zur gebührenpflichtigen Suche ist für alle Kunden sichtbar, auch wenn Sie keine Advertising-Konten implementiert haben. Wenn Sie versuchen, den Bericht über gebührenpflichtige Suchvorgänge für ein Unternehmen zu öffnen, das nicht registriert ist, wird eine Fehlermeldung angezeigt, die Ihnen mitteilt, dass Sie kein Suchmaschinenkonto konfiguriert haben. Wählen Sie **[!UICONTROL Jetzt konfigurieren]** aus, wodurch Sie zum Bildschirm [Advertising-Kontoeinrichtung](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) gelangen.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

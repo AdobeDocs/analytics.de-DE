@@ -31,7 +31,7 @@ Die Seite &quot;Projekte&quot;enthält die folgenden Informationen:
 | [Voreinstellungen bearbeiten](/help/analyze/analysis-workspace/user-preferences.md) | Verwalten Sie Einstellungen für Analysis Workspace und die zugehörigen Komponenten für alle neuen Projekte oder Bereiche, die Sie erstellen. |
 | [Ordner erstellen](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Fügen Sie der Liste der Projekte und Ordner einen neuen Ordner oder Unterordner hinzu. |
 | [Projekt erstellen](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Starten Sie ein neues Projekt von Grund auf neu oder erstellen Sie einen Bericht. |
-| Mehr zeigen | Diese Auswahl zeigt Optionen zum Erstellen eines leeren Projekts oder einer mobilen Scorecard, [Anzeigen von Tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction)oder [Versionshinweise anzeigen](/help/release-notes/latest.md). |
+| Mehr zeigen | Diese Auswahl zeigt Optionen zum Erstellen eines leeren Projekts oder einer mobilen Scorecard, zum [Anzeigen von Trainings-Tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction) oder zum [Anzeigen von Versionshinweisen](/help/release-notes/latest.md). |
 | ![Filter anzeigen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | Ein- oder Ausblenden von Filtern Sie können nach Tags, Report Suite, Inhabern, Typ (Projekt, Ordner, mobile Scorecard) und anderen Filtern filtern. |
 | ![Durchsuchen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Verwenden Sie das Suchfeld, um nach Ordnern, Workspace-Projekten oder mobilen Scorecards zu suchen. |
 | Anzeigen von Ordnern und Projekten | Wählen Sie aus, ob die Ordnerstruktur der Projekte angezeigt werden soll. Weitere Informationen finden Sie unter [Über Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
@@ -41,11 +41,11 @@ In der Projektliste können die folgenden Spalten angezeigt werden:
 
 | Spalte | Beschreibung |
 |---|---|
-| [!UICONTROL Name] | Name des Workspace-Projekts. Auswählen ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) um ein Popup mit weiteren Details zu einem Projekt oder Ordner anzuzeigen. Auswählen ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) , um verfügbare Aktionen anzuzeigen. Siehe [Projekte verwalten](#manage-projects) für weitere Details. |
-| [!UICONTROL Typ] | Gibt an, ob es sich bei diesem Eintrag um ein Workspace-Projekt, einen Ordner oder ein [Mobile Scorecard](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| [!UICONTROL Name] | Name des Workspace-Projekts. Wählen Sie ![Info](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) aus, um ein Popup mit weiteren Details zu einem Projekt oder Ordner anzuzeigen. Wählen Sie ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) aus, um verfügbare Aktionen anzuzeigen. Weitere Informationen finden Sie unter [Projekte verwalten](#manage-projects) . |
+| [!UICONTROL Typ] | Gibt an, ob dieser Eintrag ein Workspace-Projekt, ein Ordner oder eine [mobile Scorecard](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home) ist. |
 | [!UICONTROL Tags] | Tags, die auf das Projekt angewendet wurden. |
 | [!UICONTROL Geplant] | Gibt an, ob die E-Mail-Versendung von Projekten an Empfänger geplant ist. Siehe [Planen von Projekten](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| Freigegebener Link (alle) | Projekte können für jeden freigegeben werden, auch für Personen, die keinen Zugriff auf Analysis Workspace haben. Diese Spalte zeigt, ob Projekte auf diese Weise freigegeben wurden. Siehe [Projekt für andere freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md) für weitere Informationen. |
+| Freigegebener Link (alle) | Projekte können für jeden freigegeben werden, auch für Personen, die keinen Zugriff auf Analysis Workspace haben. Diese Spalte zeigt, ob Projekte auf diese Weise freigegeben wurden. Weitere Informationen finden Sie unter [Freigeben eines Projekts für andere (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md) . |
 | [Projektrolle](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | Zeigt Ihre Rolle für das Projekt an – Inhaber, bearbeiten, duplizieren, anzeigen. |
 | [!UICONTROL Report Suite] | Die Report Suite, mit der das Projekt verknüpft ist. |
 | [!UICONTROL Inhabende] | Die Person, die dieses Projekt erstellt hat (entweder Sie oder eine Person, die das Projekt für Sie freigegeben hat). |
@@ -66,25 +66,25 @@ In der blauen Aktionsleiste können Sie die folgenden Aktionen auswählen:
 
 | Aktion | Beschreibung |
 |---|---|
-| ![Löschen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Löschen | Wenn diese Option aktiviert ist, werden Sie in einem Bestätigungsdialogfeld aufgefordert, das Löschen eines Workspace-Projekts oder einer mobilen Scorecard zu bestätigen. Auswählen **[!UICONTROL OK]** zur Bestätigung. |
-| ![Freigeben](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Freigeben | Mit dieser Aktion können Sie Ihr Projekt freigeben. Siehe [Freigeben von Projekten](../curate-share/share-projects.md). |
-| ![Umbenennen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) Umbenennen | Öffnet eine **[!UICONTROL Umbenennen: *name *]**Dialogfeld zum Umbenennen Ihres Projekts. Auswählen**[!UICONTROL Speichern ]**, um den neuen Namen für das Projekt zu speichern. |
-| ![Kopieren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) Kopieren | Kopiert das ausgewählte Projekt sofort in ein neues Projekt mit dem Namen *Originalname* (Kopie). |
-| ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Pin | Pendet das Projekt sofort an den Anfang der Liste an. Fügt die ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Indikator. |
-| ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Öffnet die **[!UICONTROL Tag-Projekt]** angezeigt. Sie können ein vorhandenes Tag auswählen oder neue Tags hinzufügen. Auswählen **[!UICONTROL Speichern]** , um die Tags für das Projekt zu speichern. |
+| ![Löschen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) Löschen | Wenn diese Option aktiviert ist, werden Sie in einem Bestätigungsdialogfeld aufgefordert, das Löschen eines Workspace-Projekts oder einer mobilen Scorecard zu bestätigen. Wählen Sie zur Bestätigung **[!UICONTROL OK]** aus. |
+| ![Freigabe](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) Freigabe | Mit dieser Aktion können Sie Ihr Projekt freigeben. Siehe [Freigeben von Projekten](../curate-share/share-projects.md). |
+| ![Umbenennen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) Umbenennen | Öffnet ein Dialogfeld &quot;**[!UICONTROL Umbenennen: *Name *]**&quot;, um Ihr Projekt umzubenennen. Wählen Sie**[!UICONTROL Speichern ]**aus, um den neuen Namen für das Projekt zu speichern. |
+| ![Kopieren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) Kopieren | Kopiert das ausgewählte Projekt sofort in ein neues Projekt mit dem Namen *Originalname* (Kopieren). |
+| ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) Pin | Pendet das Projekt sofort an den Anfang der Liste an. Fügt den Indikator ![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) hinzu. |
+| Tag ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | Öffnet das Dialogfeld **[!UICONTROL Projekt taggen]** . Sie können ein vorhandenes Tag auswählen oder neue Tags hinzufügen. Wählen Sie **[!UICONTROL Speichern]** aus, um die Tags für das Projekt zu speichern. |
 | ![(Nicht-)Genehmigen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) Genehmigen oder Nicht genehmigen | Genehmigt das Projekt oder lehnt es ab. |
 | ![CSV exportieren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) CSV exportieren | Lädt sofort eine Datei mit einer kommagetrennten Werteliste der Projekte herunter. |
-| ![Verschieben nach](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Verschieben nach | Mit dieser Aktion können Sie das Projekt in einen Ordner verschieben. Im **[!UICONTROL Ordner auswählen]** wählen Sie einen Ordner aus dem **[!UICONTROL Ordner]** und wählen Sie **[!UICONTROL Verschieben]**. |
+| ![Verschieben nach](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) Verschieben nach | Mit dieser Aktion können Sie das Projekt in einen Ordner verschieben. Wählen Sie im Dialogfeld **[!UICONTROL Ordner auswählen]** einen Ordner aus der Liste **[!UICONTROL Ordner]** aus und wählen Sie **[!UICONTROL Verschieben]** aus. |
 
 
 ## Menüleiste {#menu-bar}
 
-Innerhalb eines Projekts bietet das Menü Optionen zum Verwalten Ihres Projekts, zum Hinzufügen von Komponenten, zur Suche von Hilfe und mehr. Sie können auch auf jede Menüoption über die Tastatur zugreifen [Kurzbefehle](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
+Innerhalb eines Projekts bietet das Menü Optionen zum Verwalten Ihres Projekts, zum Hinzufügen von Komponenten, zur Suche von Hilfe und mehr. Sie können auch über die Tastatur [Tastaturbefehle](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys) auf jede Menüoption zugreifen.
 
 
 | Menüelement | Beschreibung |
 |---|---|
-| Projekt   | Dieses Menü enthält allgemeine Aktionen für das Projektmanagement, einschließlich Neu, Öffnen, Speichern, Speichern unter und [Als Unternehmensbericht speichern](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). Sie können auch das gesamte Projekt aktualisieren, um die neuesten Daten und Definitionen abzurufen, indem Sie auf „Projekt aktualisieren“ klicken. Mithilfe der Optionen [CSV und PDF herunterladen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send) können Sie Daten aus Workspace exportieren. [Projektinformation und Einstellungen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) bieten viele Optionen zum Verwalten Ihres Projekts. |
+| Projekt   | Dieses Menü enthält allgemeine Aktionen für das Projektmanagement, darunter den Bericht &quot;Neu&quot;, &quot;Öffnen&quot;, &quot;Speichern&quot;, &quot;Speichern unter&quot;und den Bericht &quot;[Als Unternehmen speichern&quot;](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). Sie können auch das gesamte Projekt aktualisieren, um die neuesten Daten und Definitionen abzurufen, indem Sie auf „Projekt aktualisieren“ klicken. Mithilfe der Optionen [CSV und PDF herunterladen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send) können Sie Daten aus Workspace exportieren. [Projektinformation und Einstellungen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview) bieten viele Optionen zum Verwalten Ihres Projekts. |
 | Vorlage | Rückgängigmachen oder Wiederholen der letzten Aktion. Clear All setzt das Projekt auf einen leeren Ausgangspunkt zurück. |
 | Einfügen | Fügen Sie neue Bedienfelder oder Visualisierungen aus diesem Menü ein. Sie können auch neue Bedienfelder und Visualisierungen aus der linken Leiste einfügen. |
 | [Komponenten](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | Erstellen Sie neue Segmente, berechnete Metriken, Datumsbereiche oder Warnhinweiskomponenten aus Ihrem Projekt. Sie können auch über die linke Leiste neue Komponenten erstellen. Wenn sich Ihre Komponentendefinitionen kürzlich geändert haben, ruft &quot;Komponenten aktualisieren&quot;die neuesten Definitionen ab. |
@@ -94,9 +94,9 @@ Innerhalb eines Projekts bietet das Menü Optionen zum Verwalten Ihres Projekts,
 
 ### Projektinfo und Einstellungen {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]** liefert Informationen auf Projektebene zum derzeit aktiven Projekt.
+**[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]** enthält Informationen auf Projektebene zum derzeit aktiven Projekt.
 
-![Projektinformationen](assets/projectinfo.png)
+![Projektinfo](assets/projectinfo.png)
 
 Zu den Einstellungen gehören:
 
@@ -119,8 +119,8 @@ Innerhalb eines Projekts sind in der linken Leiste verschiedene Symbole verfügb
 | Symbol | Funktionalität |
 |---|---|
 | ![Bedienfeldsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md) |
-| ![Visualisierungssymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| ![Komponentensymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
+| Symbol ![Visualisierungen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
+| ![Symbol &quot;Komponenten&quot;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | ![Datenwörterbuchsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
 | ![Token-Symbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [Inhaltsverzeichnis](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
 
@@ -139,6 +139,6 @@ Auf der Arbeitsfläche des Projekts können Sie Bedienfelder, Tabellen, Visualis
 
 Panels sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Analysen ordnen möchten. Das aktive Bedienfeld hat einen farbigen Rahmen und bestimmt, welche Komponenten in der linken Leiste verfügbar sind.
 
-Je nach dem Ausgangspunkt, den Sie für Ihre Projekte ausgewählt haben, verfügen Sie entweder über eine [Freiformtabelle](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) oder [leeres Bedienfeld](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) in der Arbeitsfläche beginnen. Die schnellste Möglichkeit, eine Analyse zu starten, besteht darin, eine oder mehrere Komponenten auszuwählen und sie einfach in die Projektarbeitsfläche zu ziehen. Eine Datentabelle wird automatisch für Sie gerendert. [Weitere Infos](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) über die verschiedenen Optionen zum Erstellen einer Tabelle oder zur Nutzung der verfügbaren [Trainings-Tutorial](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) für weitere Anleitungen zum Erstellen Ihres ersten Projekts.
+Je nach dem Ausgangspunkt, den Sie für Ihre Projekte ausgewählt haben, befindet sich auf der Arbeitsfläche entweder eine [Freiformtabelle](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) oder ein [leeres Bedienfeld](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel). Die schnellste Möglichkeit, eine Analyse zu starten, besteht darin, eine oder mehrere Komponenten auszuwählen und sie einfach in die Projektarbeitsfläche zu ziehen. Eine Datentabelle wird automatisch für Sie gerendert. [Erfahren Sie mehr](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) über die verschiedenen Optionen zum Erstellen einer Tabelle oder nutzen Sie das verfügbare [Schulungsanleitung](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home), um weitere Anleitungen zum Erstellen Ihres ersten Projekts zu erhalten.
 
 ![](assets/canvas.png)

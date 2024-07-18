@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # Intelligente Warnhinweise – Anwendungsfälle
 
-Sie können intelligente Warnhinweise erstellen, wie unter [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+Sie können intelligente Warnhinweise erstellen, wie unter [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) beschrieben.
 
 Die folgenden Abschnitte veranschaulichen Beispielanwendungsfälle, die bei der Erstellung von Warnhinweisen berücksichtigt werden sollten.
 

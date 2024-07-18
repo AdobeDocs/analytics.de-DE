@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Eine abhängige Anforderung ist eine Anforderung, die von einer anderen Anforderung abhängt.
 
-Für Berichte mit in der Berichtstabelle aktivierten Korrelationsaufschlüsselungen klicken Sie mit der rechten Maustaste auf die Zelle und klicken dann auf **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Verteilung]**.
+Für Berichte mit in der Berichtstabelle aktivierten Korrelationsaufschlüsselungen klicken Sie mit der rechten Maustaste in die Zelle und klicken dann auf **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Aufschlüsselung]**, um ein Element genauer anzusehen.
 
 >[!NOTE]
 >

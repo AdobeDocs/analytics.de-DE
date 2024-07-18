@@ -17,7 +17,7 @@ Mit Adobe Analytics-Datenquellen können Sie zusätzliche Online- oder Offline-D
 
 1. Ihr Unternehmen erfasst Daten aus anderen Quellen. Beispiele sind Daten vor dem Klick, Callcenter-Daten oder Informationen zu Transaktionen, die außerhalb Ihrer Site aufgetreten sind.
 1. Die Formatierung der Daten erfolgt so, dass Adobe Analytics die Verwendung einer tabulatorgetrennten Textdatei versteht.
-1. Sie laden die Textdatei zusammen mit einer zugehörigen Datei auf eine FTP-Site-Adobe hoch. `.fin` -Datei.
+1. Sie laden die Textdatei zusammen mit der zugehörigen `.fin` -Datei auf eine FTP-Site-Adobe hoch.
 1. Adobe erfasst die Textdatei und zeigt diese Daten neben Dimensionen und Metriken an, die auf Ihrer Site erfasst wurden.
 
 Es gibt zwei allgemeine Arten von Datenquellen, die Adobe anbietet. Alle Datenquellenvorlagen basieren auf einem dieser beiden Typen:
@@ -25,9 +25,9 @@ Es gibt zwei allgemeine Arten von Datenquellen, die Adobe anbietet. Alle Datenqu
 * **Zusammenfassungsdatenquelle**: Bietet eine einfache Möglichkeit, allgemeine Daten in Adobe Analytics zu importieren. Sie geben den Zeitstempel, den Variablenwert und die zugehörigen Metriken an. Diese Metriken für jedes Dimensionselement werden dann entsprechend erhöht. Dies ist nützlich, wenn Sie Offline- und Online-Daten nebeneinander anzeigen möchten. Es werden jedoch keine Online- und Offline-Daten miteinander verknüpft.
 * **Transaktions-ID-Datenquelle**: Wenn ein von AppMeasurement gesendeter Treffer und eine Datenquellenzeile übereinstimmende Transaktions-IDs enthalten, werden die Dimensions- und Metrikwerte in der Datenquelle an diesen Treffer angehängt.
 
-**Datenquellen mit vollständiger Verarbeitung** ab dem 25. März 2021 nicht mehr als Datenquelle angeboten werden. Siehe [Mitteilung zum Ende der Nutzungsdauer](full-processing-eol.md) für weitere Informationen.
+**Datenquellen mit vollständiger Verarbeitung** werden ab dem 25. März 2021 nicht mehr als Datenquellentyp angeboten. Weitere Informationen finden Sie in der [Mitteilung über das Ende der Lebensdauer](full-processing-eol.md) .
 
-Adobe bietet auch die [Data sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit dem Sie Datenquellen erstellen und Daten hochladen können, ohne die Produkt-Benutzeroberfläche oder einen FTP-Speicherort zu verwenden.
+Adobe bietet außerdem die [Datenquellen-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit der Sie Datenquellen erstellen und Daten hochladen können, ohne die Produkt-Benutzeroberfläche oder einen FTP-Speicherort zu verwenden.
 
 ## Nächste Schritte
 

@@ -5,16 +5,16 @@ feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 source-git-commit: 26e166e065df90cb327fe1106542e17831069141
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '299'
 ht-degree: 19%
 
 ---
 
 # Content-Geschwindigkeit
 
-Mit der berechneten Metrik &quot;Content-Geschwindigkeit&quot;können Sie messen, wie eine Dimension (normalerweise [[!UICONTROL Seite]](/help/components/dimensions/page.md)) trägt dazu bei, dass Benutzer Zeit auf Ihrer Website oder in Ihrer App verbringen.
+Mit der berechneten Metrik &quot;Content-Geschwindigkeit&quot;können Sie messen, wie eine Dimension (normalerweise [[!UICONTROL Seite]](/help/components/dimensions/page.md)) dazu beiträgt, dass Benutzer Zeit auf Ihrer Website oder in Ihrer App verbringen.
 
-Diese Metrik verwendet [Beitragszuordnung](/help/analyze/analysis-workspace/attribution/models.md) auf [Seitenansichten](page-views.md) -Metrik als Teil der Berechnung. Bei der Teilnahme an Besuchen werden bei jedem Treffer einer Seite auch alle Seiten, die zuvor während desselben Besuchs aufgerufen wurden, für die Seitenansicht angerechnet. Diese Formel bedeutet normalerweise, dass je früher ein Seitenaufruf während eines Besuchs erfolgt, desto mehr Gewichtung erhält er. (Siehe [Seitenansichten (Beitrag) | Besuch) oder &quot;Besuchsbeteiligung&quot;](#page-views-participation--visit-or-visit-participation) für weitere Informationen.)
+Diese Metrik verwendet [Beitragszuordnung](/help/analyze/analysis-workspace/attribution/models.md) für die Metrik [Seitenansichten](page-views.md) als Teil ihrer Berechnung. Bei der Teilnahme an Besuchen werden bei jedem Treffer einer Seite auch alle Seiten, die zuvor während desselben Besuchs aufgerufen wurden, für die Seitenansicht angerechnet. Diese Formel bedeutet normalerweise, dass je früher ein Seitenaufruf während eines Besuchs erfolgt, desto mehr Gewichtung erhält er. (Siehe [Seitenansichten (Beitrag) | (Besuch) oder &quot;Besuchsbeteiligung&quot;](#page-views-participation--visit-or-visit-participation) für weitere Informationen.)
 
 ## Berechnung
 

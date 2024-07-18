@@ -19,24 +19,24 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 >
 >Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Zahl der Unique Visitors kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
 
-## Edge-Domäne mit der Web SDK-Erweiterung
+## Edge-Domäne, die die Web SDK-Erweiterung verwendet
 
-Das Web SDK verwendet [!UICONTROL Edge-Domäne] zur Verarbeitung von Tracking-Server und Secure Tracking Server. Sie können die gewünschte [!UICONTROL Edge-Domäne] Wert beim Konfigurieren der Web SDK-Erweiterung.
+Das Web-SDK verwendet [!UICONTROL Edge-Domäne], um sowohl den Tracking-Server als auch den sicheren Tracking-Server zu verarbeiten. Sie können den gewünschten Wert für [!UICONTROL Edge-Domäne] beim Konfigurieren der Web SDK-Erweiterung festlegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
-1. Legen Sie die gewünschte **[!UICONTROL Edge-Domäne]** Textfeld.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
+1. Legen Sie das gewünschte Textfeld für die **[!UICONTROL Edge-Domäne]** fest.
 
-Siehe [Konfigurieren der Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Weitere Informationen finden Sie unter [Konfigurieren der Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de) in der Dokumentation zum Web SDK.
 
 >[!TIP]
 >
->Wenn Ihr Unternehmen von einer AppMeasurement- oder Analytics-Erweiterungsimplementierung zum Web SDK wechselt, kann dieses Feld denselben Wert verwenden, der in `trackingServerSecure` (oder `trackingServer`).
+>Wenn Ihr Unternehmen von einer AppMeasurement- oder Analytics-Erweiterungsimplementierung zum Web SDK wechselt, kann dieses Feld denselben Wert verwenden, der in `trackingServerSecure` (oder `trackingServer`) enthalten ist.
 
 ## Edge-Domäne, die das Web SDK manuell implementiert
 
-SDK mit konfigurieren [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de). Das Feld ist eine Zeichenfolge, die die Domäne bestimmt, an die Daten gesendet werden sollen.
+Konfigurieren Sie das SDK mit &quot;[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de)&quot;. Das Feld ist eine Zeichenfolge, die die Domäne bestimmt, an die Daten gesendet werden sollen.
 
 ```json
 alloy("configure", {

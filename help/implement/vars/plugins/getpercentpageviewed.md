@@ -80,7 +80,7 @@ Weisen Sie eine oder mehrere dieser Variablen eVars zu, um Dimensionsdaten in Be
 
 Dieses Plug-in erstellt drei Erstanbieter-Cookies, die am Ende einer Browsersitzung ablaufen:
 
-* `s_ppv`: Speichert jeden Wert, der durch Aufruf der Funktion verfügbar gemacht wird.
+* `s_ppv`: Speichert jeden Wert, der durch Aufrufen der Funktion verfügbar gemacht wird
 * `s_tp`: Speichert die gesamte Pixelhöhe der vorherigen Seite
 * `s_ips`: Speichert den anfänglichen prozentualen Bildlauf der vorherigen Seite
 

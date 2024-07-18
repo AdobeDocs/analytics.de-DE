@@ -15,12 +15,12 @@ ht-degree: 75%
 
 Die Web Services APIs bieten Programmierungszugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die Funktionalität der Analytics-Oberfläche duplizieren und erweitern können.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Web-Services]** oder **[!UICONTROL API-Zugriff]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Unternehmenseinstellungen]** > **[!UICONTROL Web-Services]** oder **[!UICONTROL API-Zugriff]**
 
 
 ## Analytics 2.0-APIs
 
-Für den Zugriff auf die Analytics 2.0-APIs benötigen Sie die globale Unternehmens-ID Ihres Analytics-Unternehmens. Die globale Unternehmens-ID finden Sie unter **fett** oben im [!UICONTROL API-Zugriff] Abschnitt. Hier ein Beispiel: &quot;Die globale Unternehmens-ID für das Analytics-Unternehmen, bei dem Sie derzeit angemeldet sind, lautet **adobe1234**.&quot;
+Für den Zugriff auf die Analytics 2.0-APIs benötigen Sie die globale Unternehmens-ID Ihres Analytics-Unternehmens. Die globale Unternehmens-ID finden Sie in **fett** oben im Abschnitt [!UICONTROL API-Zugriff] . Im Folgenden finden Sie ein Beispiel: &quot;Die globale Unternehmens-ID für das Analytics-Unternehmen, bei dem Sie derzeit angemeldet sind, lautet **adobe1234**.&quot;
 
 ## Verwalten älterer Web-Services (nicht mehr unterstützt)
 

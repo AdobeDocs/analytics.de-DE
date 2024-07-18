@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # Postleitzahl
 
-Die Postleitzahl [Dimension](overview.md) gibt die Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
+Die Dimension &quot;Postleitzahl&quot;[](overview.md) gibt die Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -26,7 +26,7 @@ Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/hel
 Wenn Sie eine Option mit geo-zip verwenden:
 
 * Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] when [Konfigurieren eines Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [ Konfigurieren eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 

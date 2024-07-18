@@ -8,7 +8,7 @@ exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 82%
+ht-degree: 71%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Report Builder bietet Berechtigungseinstellungen, die denen in den Analyti
 
 Als Benutzer ohne Administratorrechte haben Sie möglicherweise bereits Arbeitsmappen mit Anforderungen erstellt, die auf Dimensionen und Metriken verweisen, auf die Sie keinen Zugriff haben. Diese Berechtigungen kommen nun zur Geltung.
 
-Wenn Sie zum Beispiel eine Anforderung aktualisieren, die Dimensionen oder Metriken enthält, auf die Sie keinen Zugriff haben, erhalten Sie eine Fehlermeldung wegen eingeschränkter Berechtigung. Die Fehlermeldung weist darauf hin, dass für Ihr Benutzerkonto aufgrund von Administratorberechtigungen keine Anfrage verfügbar ist.
+Wenn Sie beispielsweise eine Anforderung aktualisieren, die Dimensionen oder Metriken enthält, auf die Sie keinen Zugriff haben, erhalten Sie einen Fehler wegen eingeschränkter Berechtigung. Die Fehlermeldung weist darauf hin, dass für Ihr Benutzerkonto aufgrund von Administratorberechtigungen keine Anfrage verfügbar ist.
 
-![Screenshot mit der Fehlermeldung &quot;Fehler wegen eingeschränkter Berechtigung&quot;.](assets/arb_restrc_perm.png)
+![ Screenshot mit der Fehlermeldung &quot;Fehler wegen eingeschränkter Berechtigung&quot;.](assets/arb_restrc_perm.png)
 
 Befolgen Sie diese Anweisungen für **jede** Report Builder-Arbeitsmappe, die Sie pflegen:
 

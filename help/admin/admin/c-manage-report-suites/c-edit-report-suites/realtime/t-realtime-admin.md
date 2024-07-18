@@ -20,7 +20,7 @@ Um Echtzeitberichte in Adobe Analytics einzurichten, wählen Sie die Report Suit
 
    Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]**.
 
-1. Klicks **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Echtzeit]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Echtzeit]**.
 
 1. Richten Sie die Echtzeit-Datenerfassung für bis zu drei Berichte ein, wobei pro Bericht eine Metrik und drei Dimensionen oder Classifications erstellt werden.
 
@@ -50,5 +50,5 @@ Um Echtzeitberichte in Adobe Analytics einzurichten, wählen Sie die Report Suit
 
 1. Um den Echtzeitbericht anzuzeigen, navigieren Sie zu:
 
-   **[!UICONTROL Arbeitsbereich]** > **[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Echtzeit]**.
+   **[!UICONTROL Workspace]** > **[!UICONTROL Berichte]** > **[!UICONTROL Interaktion]** > **[!UICONTROL Echtzeit]**.
 

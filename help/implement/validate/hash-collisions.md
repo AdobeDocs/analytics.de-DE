@@ -35,13 +35,13 @@ Adobe Analytics verwendet für die meisten Dimensionen 32-Bit-Hashes, d. h. es g
 
 {style="table-layout:auto"}
 
-Ähnlich wie bei [Geburtstagsparadox](https://en.wikipedia.org/wiki/Birthday_problem)erhöht sich die Wahrscheinlichkeit von Hash-Kollisionen drastisch, da die Anzahl der eindeutigen Werte zunimmt. Bei 1 Million individuellen Werten ist es wahrscheinlich, dass für diese Dimension mindestens 100 Hash-Kollisionen vorliegen.
+Ähnlich wie beim [Geburtstagsparadox](https://en.wikipedia.org/wiki/Birthday_problem) steigt die Wahrscheinlichkeit von Hash-Kollisionen drastisch, je mehr individuelle Werte vorhanden sind. Bei 1 Million individuellen Werten ist es wahrscheinlich, dass für diese Dimension mindestens 100 Hash-Kollisionen vorliegen.
 
 ## Hash-Kollisionen verringern
 
 Die meisten Hash-Kollisionen treten mit zwei ungewöhnlichen Werten auf, die keine aussagekräftigen Auswirkungen auf Berichte haben. Selbst wenn ein Hash mit einem gemeinsamen und ungewöhnlichen Wert kollidiert, ist das Ergebnis vernachlässigbar. In seltenen Fällen, in denen zwei beliebte Werte eine Hash-Kollision erleben, ist es jedoch möglich, ihre Wirkung deutlich zu erkennen. Adobe empfiehlt Folgendes, um die Wirkung in Berichten zu reduzieren:
 
 * **Datumsbereich ändern**: Hash-Tabellen ändern sich jeden Monat. Wenn Sie den Datumsbereich so ändern, dass er sich über einen weiteren Monat erstreckt, können bei jedem Wert unterschiedliche Hashes auftreten, die nicht kollidieren.
-* **Anzahl eindeutiger Werte reduzieren**: Sie können Ihre Implementierung anpassen oder [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) um die Anzahl der eindeutigen Werte zu reduzieren, die eine Dimension erfasst. Wenn Ihre Dimension beispielsweise eine URL erfasst, können Sie Abfragezeichenfolgen oder Protokolle entfernen.
+* **Reduzieren der Anzahl eindeutiger Werte**: Sie können Ihre Implementierung anpassen oder [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um die Anzahl der eindeutigen Werte zu reduzieren, die eine Dimension erfasst. Wenn Ihre Dimension beispielsweise eine URL erfasst, können Sie Abfragezeichenfolgen oder Protokolle entfernen.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

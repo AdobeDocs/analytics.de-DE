@@ -17,51 +17,57 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->Beachten Sie beim Erstellen und Bearbeiten von Standorten Folgendes:<ul><li>Systemadministratoren können Benutzer daran hindern, Standorte zu erstellen, wie unter [Konfigurieren, ob Benutzer Orte erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Wenn Sie keine Standorte wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</li><li>Ein Speicherort kann nur von dem Benutzer, der ihn erstellt hat, oder von einem Systemadministrator bearbeitet werden.</li></ul>
+>Beachten Sie beim Erstellen und Bearbeiten von Standorten Folgendes:<ul><li>Systemadministratoren können Benutzer daran hindern, Standorte zu erstellen, wie unter [Konfigurieren, ob Benutzer Orte erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations) beschrieben. Wenn Sie keine Standorte wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</li><li>Ein Speicherort kann nur von dem Benutzer, der ihn erstellt hat, oder von einem Systemadministrator bearbeitet werden.</li></ul>
 
-Nach [Cloud-Konto konfigurieren](/help/components/locations/configure-import-accounts.md)können Sie einen Speicherort für dieses Konto konfigurieren. Ein einzelner Ort kann für einen der folgenden Zwecke verwendet werden (ein einzelner Ort kann nicht mehreren Zwecken zugeordnet werden):
+Nachdem Sie [ ein Cloud-Konto konfiguriert haben, können Sie einen Speicherort für dieses Konto konfigurieren. ](/help/components/locations/configure-import-accounts.md) Ein einzelner Ort kann für einen der folgenden Zwecke verwendet werden (ein einzelner Ort kann nicht mehreren Zwecken zugeordnet werden):
 
-* Exportieren von Dateien mithilfe von [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
-* Exportieren von Berichten mithilfe von [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importieren von Schemata mit [Klassifizierungssätze](/help/components/classifications/sets/overview.md)
+* Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
+* Exportieren von Berichten mit [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importieren von Schemata mit [Klassifizierungssätzen](/help/components/classifications/sets/overview.md)
 
-Sie müssen Adobe Analytics mit den für den Zugriff auf Ihr Cloud-Konto erforderlichen Informationen konfigurieren. Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md)und dann den Speicherort innerhalb dieses Kontos hinzufügen und konfigurieren (wie in diesem Artikel beschrieben).
+Sie müssen Adobe Analytics mit den für den Zugriff auf Ihr Cloud-Konto erforderlichen Informationen konfigurieren. Dieser Prozess besteht darin, das Konto hinzuzufügen und zu konfigurieren (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben, und dann den Speicherort innerhalb dieses Kontos hinzuzufügen und zu konfigurieren (wie in diesem Artikel beschrieben).
 
-Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unter [Locations Manager](/help/components/locations/locations-manager.md).
+Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unter [Standorte-Manager](/help/components/locations/locations-manager.md).
 
 ## Erstellen oder Bearbeiten eines Standorts beginnen
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
 
-1. Im [!UICONTROL Standorte] Seite, wählen Sie die [!UICONTROL **Standorte**] Registerkarte.
+1. Wählen Sie auf der Seite [!UICONTROL Standorte] die Registerkarte [!UICONTROL **Standorte**] aus.
 
-1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die [!UICONTROL **Anzeigen von Standorten für alle Benutzer**] -Option zum Anzeigen von Orten, die von allen Benutzern in Ihrer Organisation erstellt wurden.
-   ![Anzeigen von Standorten für alle Benutzer](assets/locations-all-users.png)
+1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Standorte für alle Benutzer anzeigen**] aktivieren, um von allen Benutzern in Ihrer Organisation erstellte Standorte anzuzeigen.
+   ![Anzeigen von Speicherorten für alle Benutzer](assets/locations-all-users.png)
 
-1. Um einen neuen Speicherort hinzuzufügen, wählen Sie [!UICONTROL **Ort hinzufügen**]. (Wenn Sie noch kein Konto hinzugefügt haben, fügen Sie eines wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).
+1. Um einen neuen Speicherort hinzuzufügen, wählen Sie [!UICONTROL **Position hinzufügen**] aus. (Wenn Sie noch kein Konto hinzugefügt haben, fügen Sie eines wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben hinzu.)
 
-   Die [!UICONTROL **Ort hinzufügen**] Dialogfelder
+   Das Dialogfeld [!UICONTROL **Ort hinzufügen**] wird angezeigt
 
    Oder
 
-   Um einen vorhandenen Speicherort zu bearbeiten, wählen Sie das 3-Punkt-Menü neben dem Ortsnamen aus und klicken Sie dann auf [!UICONTROL **Bearbeiten**].
+   Um einen vorhandenen Speicherort zu bearbeiten, wählen Sie das 3-Punkt-Menü neben dem Ortsnamen und dann [!UICONTROL **Bearbeiten**] aus.
 
-   Die [!UICONTROL **Standortdetails**] angezeigt.
+   Das Dialogfeld [!UICONTROL **Standortdetails**] wird angezeigt.
 
-1. Geben Sie die folgenden Informationen an: |Feld | Funktion | |—|—| | [!UICONTROL **Name**] | Der Name des Standorts.  |
-| [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. | | [!UICONTROL **Verwenden Sie**] | Wählen Sie aus, ob Sie diesen Standort mit [!UICONTROL **Daten-Feeds**], [!UICONTROL **Data Warehouse**] oder [!UICONTROL **Klassifizierungssätze**]. <p>Beachten Sie bei der Auswahl Folgendes:</p><ul><li>Ein einzelner Ort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse- oder Classification-Sets verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Standorts zu vermeiden, ändern Sie nicht den Wert der [!UICONTROL **Verwenden Sie**] -Feld, nachdem der Speicherort verwendet wurde.</li><li>Wenn Sie einen Speicherort für ein E-Mail-Konto erstellen, wählen Sie [!UICONTROL **Data Warehouse**] in dieses Feld ein. E-Mail-Standorte werden von Daten-Feeds und Classification-Sets nicht unterstützt.</li></ul> | | [!UICONTROL **Bereitstellung des Standorts für alle Benutzer in Ihrer Organisation**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation den Standort verwenden können.<p>Beachten Sie beim Freigeben von Orten Folgendes:</p><ul><li>Die Freigabe von freigegebenen Speicherorten kann nicht aufgehoben werden.</li><li>Freigegebene Standorte können nur vom Eigentümer des Standorts bearbeitet werden.</li><li>Standorte können nur freigegeben werden, wenn auch das Konto, mit dem der Ort verknüpft ist, freigegeben wurde.</li></ul> | | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, in dem Sie diesen Ort erstellen möchten. Informationen zum Erstellen eines Kontos finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md). |
+1. Geben Sie die folgenden Informationen an:
+|Feld | Funktion |
+|—|—|
+| [!UICONTROL **Name**] | Der Name des Standorts.  |
+| [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
+| [!UICONTROL **Verwenden mit**] | Wählen Sie aus, ob Sie diesen Speicherort mit [!UICONTROL **Daten-Feeds**], [!UICONTROL **Data Warehouse**] oder [!UICONTROL **Klassifizierungssätzen**] verwenden möchten. <p>Beachten Sie bei der Auswahl Folgendes:</p><ul><li>Ein einzelner Ort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse- oder Classification-Sets verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Standorts zu vermeiden, ändern Sie den Wert des Felds [!UICONTROL **Use with**] nicht, nachdem der Speicherort verwendet wurde.</li><li>Wenn Sie einen Speicherort für ein E-Mail-Konto erstellen, wählen Sie in diesem Feld [!UICONTROL **Data Warehouse**] aus. E-Mail-Standorte werden von Daten-Feeds und Classification-Sets nicht unterstützt.</li></ul> |
+| [!UICONTROL **Stellen Sie den Standort allen Benutzern in Ihrer Organisation zur Verfügung**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation den Standort verwenden können.<p>Beachten Sie beim Freigeben von Orten Folgendes:</p><ul><li>Die Freigabe von freigegebenen Speicherorten kann nicht aufgehoben werden.</li><li>Freigegebene Standorte können nur vom Eigentümer des Standorts bearbeitet werden.</li><li>Standorte können nur freigegeben werden, wenn auch das Konto, mit dem der Ort verknüpft ist, freigegeben wurde.</li></ul> |
+| [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, in dem Sie diesen Ort erstellen möchten. Informationen zum Erstellen eines Kontos finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md). |
 
-1. Um das Formular zur Konfiguration des Standorts auszufüllen, fahren Sie mit dem folgenden Abschnitt fort, der dem Kontotyp entspricht, den Sie in der [!UICONTROL **Standortkonten**] -Feld. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
+1. Um das Formular für die Konfiguration des Standorts auszufüllen, fahren Sie mit dem folgenden Abschnitt fort, der dem Kontotyp entspricht, den Sie im Feld [!UICONTROL **Standortkonten**] ausgewählt haben. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
 
 ### Amazon S3 Role ARN
 
 Geben Sie die folgenden Informationen an, um einen Amazon S3 Role ARN-Speicherort zu konfigurieren:
 
-1. [Erstellen oder Bearbeiten eines Standorts beginnen](#begin-creating-or-editing-a-location), wie oben beschrieben.
+1. [Beginnen Sie mit der Erstellung oder Bearbeitung eines Standorts](#begin-creating-or-editing-a-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject` -Berechtigung, um Dateien in diesen Bucket hochzuladen. </p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Behälter**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass die von Adobe bereitgestellte Benutzer-ARN über die Berechtigung `S3:PutObject` verfügt, um Dateien in diesen Behälter hochzuladen. </p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
    {style="table-layout:auto"}
@@ -74,18 +80,18 @@ Geben Sie die folgenden Informationen an, um einen Amazon S3 Role ARN-Speicheror
 
    >[!NOTE]
    >
-   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics verwendet haben, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
 
 
 ### Google Cloud Platform
 
 Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speicherort zu konfigurieren:
 
-1. [Erstellen oder Bearbeiten eines Standorts beginnen](#begin-creating-or-editing-a-location), wie oben beschrieben.
+1. [Beginnen Sie mit der Erstellung oder Bearbeitung eines Standorts](#begin-creating-or-editing-a-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal die Berechtigung zum Hochladen von Dateien in diesen Bucket erteilt haben. |
+   | [!UICONTROL **Behälter**] | Der Behälter in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie dem von Adobe bereitgestellten Prinzipal die Berechtigung zum Hochladen von Dateien in diesen Bucket erteilt haben. |
    | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
    {style="table-layout:auto"}
@@ -98,14 +104,14 @@ Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speiche
 
    >[!NOTE]
    >
-   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics verwendet haben, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
 
 
 ### Azure SAS
 
 Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konfigurieren:
 
-1. [Erstellen oder Bearbeiten eines Standorts beginnen](#begin-creating-or-editing-a-location), wie oben beschrieben.
+1. [Beginnen Sie mit der Erstellung oder Bearbeitung eines Standorts](#begin-creating-or-editing-a-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -122,14 +128,14 @@ Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konf
 
    >[!NOTE]
    >
-   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics verwendet haben, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
 
 
 ### Azure RBAC
 
 Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu konfigurieren:
 
-1. [Erstellen oder Bearbeiten eines Standorts beginnen](#begin-creating-or-editing-a-location), wie oben beschrieben.
+1. [Beginnen Sie mit der Erstellung oder Bearbeitung eines Standorts](#begin-creating-or-editing-a-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -147,13 +153,13 @@ Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu kon
 
    >[!NOTE]
    >
-   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) nach Adobe Analytics, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
+   >   Wenn Sie zuvor [FTP zum Importieren von Classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) in Adobe Analytics verwendet haben, müssen Sie eine FIN-Datei hochladen. Diese FIN-Datei ist beim Import aus Cloud-Konten nicht erforderlich.
 
 ### E-Mail
 
 Geben Sie die folgenden Informationen an, um einen E-Mail-Speicherort zu konfigurieren:
 
-1. [Erstellen oder Bearbeiten eines Standorts beginnen](#begin-creating-or-editing-a-location), wie oben beschrieben.
+1. [Beginnen Sie mit der Erstellung oder Bearbeitung eines Standorts](#begin-creating-or-editing-a-location), wie oben beschrieben.
 
    | Feld | Funktion |
    |---------|----------|
@@ -164,11 +170,11 @@ Geben Sie die folgenden Informationen an, um einen E-Mail-Speicherort zu konfigu
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten in das Konto und den Speicherort exportieren, die Sie bei Verwendung von [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md). (E-Mail-Standorte werden in [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Klassifizierungssätze](/help/components/classifications/sets/overview.md)).
+   Sie können jetzt Daten in das Konto und den Speicherort exportieren, die Sie bei Verwendung von [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) konfiguriert haben. (E-Mail-Speicherorte werden von [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) nicht unterstützt.)
 
 ### Alte Kontotypen
 
-Diese veralteten Kontotypen sind nur verfügbar, wenn Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen stehen beim Datenimport mit [Klassifizierungssätze](/help/components/classifications/sets/manage/schema.md).
+Diese veralteten Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) verfügbar. Diese Optionen sind beim Import von Daten mit [Klassifizierungssätzen](/help/components/classifications/sets/manage/schema.md) nicht verfügbar.
 
 +++FTP
 
@@ -176,7 +182,7 @@ Daten-Feed-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort b
 
 | Feld | Funktion |
 |---------|----------|
-| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
+| [!UICONTROL **Ordnerpfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -188,7 +194,7 @@ Daten-Feed-Daten können an einen Adobe- oder kundengehosteten SFTP-Speicherort 
 
 | Feld | Funktion |
 |---------|----------|
-| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
+| [!UICONTROL **Ordnerpfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Beispiel: `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

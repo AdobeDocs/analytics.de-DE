@@ -15,8 +15,8 @@ ht-degree: 80%
 
 Die Nutzung von Adobe Analytics-Server-Aufrufen richtet sich an Ihre Anforderungen zur Transparenz in Bezug auf die Nutzungsdaten von Browser- und mobilen Server-Aufrufen. Sie können damit auf Folgendes zugreifen:
 
-* Ein Dashboard zur Nutzung von Server-Aufrufen, das die Verbrauchsdaten Ihrer Server-Aufrufe verfolgt und mit Ihrem vertraglichen Limit vergleicht. (Wählen Sie in Adobe Analytics > [!UICONTROL **Admin**] > [!UICONTROL **Nutzung von Server-Aufrufen**])
-* Warnhinweis zur Nutzung von Server-Aufrufen in der Warnhinweiserstellung, mit dem Sie Warnhinweise einrichten können, um Überschüsse zu vermeiden (in Adobe Analytics wählen Sie [!UICONTROL **Komponenten**] > [!UICONTROL **Warnhinweise**])
+* Ein Dashboard zur Nutzung von Server-Aufrufen, das die Verbrauchsdaten Ihrer Server-Aufrufe verfolgt und mit Ihrem vertraglichen Limit vergleicht. (Wählen Sie in Adobe Analytics > [!UICONTROL **Admin**] > [!UICONTROL **Nutzung der Server-Aufrufe**])
+* Warnhinweis zur Nutzung von Server-Aufrufen im Warnhinweiserstellung, mit dem Sie Warnhinweise einrichten können, um Überschüsse zu verhindern (wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Warnhinweise**]))
 
 Die Hauptvorteile der Nutzung von Server-Aufrufen sind:
 
@@ -25,8 +25,8 @@ Die Hauptvorteile der Nutzung von Server-Aufrufen sind:
 
 ## Voraussetzungen {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Berechtigungen:** Um auf das Dashboard zur Nutzung von Server-Aufrufen und den Warnhinweisersteller oder Warnhinweismanager zugreifen zu können, müssen Sie Adobe Analytics-Administrator sein.
-* **Berechtigungen:** Administratoren können Nicht-Administratoren Zugriff gewähren: Die Berechtigung heißt **[!UICONTROL Nutzung von Server-Aufrufen]**. Siehe [Berechtigung zur Nutzung von Server-Aufrufen](#server-call-usage-permission).
+* **Berechtigungen:** Um auf das Dashboard zur Nutzung von Server-Aufrufen und den Warnhinweisersteller oder Warnhinweismanager zuzugreifen, müssen Sie Adobe Analytics-Administrator sein.
+* **Berechtigungen:** Administratoren können Nicht-Administratoren Zugriff gewähren: Die Berechtigung lautet **[!UICONTROL Nutzung von Server-Aufrufen]**. Siehe [Berechtigung zur Nutzung von Server-Aufrufen](#server-call-usage-permission).
 
 ## Wichtige Terminologie {#terminology}
 
@@ -99,13 +99,13 @@ Analytics-Administratoren erhalten automatisch die Berechtigung zur Nutzung von 
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Loggen Sie sich via sc.omniture.com in Analytics ein. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Alle Administratoren </span>  &gt; <span class="uicontrol"> Benutzerverwaltung </span>  &gt; <span class="uicontrol"> Gruppen </span>  &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span>  &gt; <span class="uicontrol"> Analytics-Tools </span>  &gt; <span class="uicontrol"> Anpassen </span>  &gt; <span class="uicontrol"> Nutzung von Server-Aufrufen </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> Benutzerverwaltung </span> &gt; <span class="uicontrol"> Gruppen </span> &gt; <span class="uicontrol"> Zugriff auf alle Berichte bearbeiten </span> &gt; <span class="uicontrol"> Analytics-Tools </span> &gt; <span class="uicontrol"> Benutzerspezifische Nutzung der Server-Aufrufe </span> &gt; <span class="uicontrol"> </span></span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Melden Sie sich bei login.experiencecloud.adobe.com an.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Klicken Sie auf <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Produkte </span>  &gt; <span class="uicontrol"> Produktprofil </span>  &gt; <span class="uicontrol"> Berechtigungen </span>  &gt; <span class="uicontrol"> Analytics-Tools </span>  &gt; <span class="uicontrol"> Nutzung von Server-Aufrufen </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Produkte </span> &gt; <span class="uicontrol"> Produktprofil </span> &gt; <span class="uicontrol"> Berechtigungen </span> &gt; <span class="uicontrol"> Analytics-Tools </span> &gt; <span class="uicontrol"> Nutzung der Server-Aufrufe </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

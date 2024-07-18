@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Die `campaign`-Variable dient der Erfassung von Trackingcodes auf Ihrer Website. In früheren Versionen von Adobe Analytics gab es eine Sonderbehandlung, bei der sie als Aufschlüsselung in die meisten Dimensionen verwendet werden konnte. In der aktuellen Version von Adobe Analytics ist sie mit einer eVar identisch.
 
-Diese Variable füllt die Variable [Trackingcode](/help/components/dimensions/tracking-code.md) Dimension. Sie ruft ihren Wert normalerweise mithilfe der [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) Dienstprogrammmethode. Ihr Unternehmen legt jedoch genau fest, wie diese Variable festgelegt wird.
+Diese Variable füllt die Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) . Normalerweise ruft er seinen Wert mithilfe der Methode [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) des Dienstprogramms aus einer Abfragezeichenfolge ab. Ihr Unternehmen legt jedoch genau fest, wie diese Variable festgelegt wird.
 
 ## Kampagne mit dem Web SDK
 
@@ -32,7 +32,7 @@ Sie können „campaign“ entweder beim Konfigurieren der Analytics-Erweiterung
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie die [!UICONTROL Erweiterung] einer Dropdown-Liste zu Adobe Analytics und dem [!UICONTROL Aktionstyp] nach [!UICONTROL Variablen festlegen].
+5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
 6. Suchen Sie den Abschnitt [!UICONTROL Kampagne].
 
 Sie können „campaign“ auf einen Wert oder einen Abfragezeichenfolgenparameter setzen.

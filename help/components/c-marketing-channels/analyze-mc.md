@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 97%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ Dieses Liniendiagramm zeigt die Trends bei Online-Bestellungen für verschiedene
 
 ## Anwenden von Attributionsmodellen
 
-Sie können [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) verwenden, um verschiedene Attributionsmodelle sofort anzuwenden:
+Sie können [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) verwenden, um verschiedene Attributionsmodelle sofort anzuwenden:
 
 ![](assets/mc-viz5.png)
 

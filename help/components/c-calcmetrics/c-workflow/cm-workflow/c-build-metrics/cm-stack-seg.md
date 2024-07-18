@@ -16,7 +16,7 @@ Sie können Segmente im Generator für berechnete Metriken stapeln und ersetzen.
 
 ## Stapeln von Segmenten {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. Beginnen Sie mit der Erstellung einer Metrik, wie unter [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Beginnen Sie mit der Erstellung einer Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
 
 1. Ziehen Sie das neue Segment in die Arbeitsfläche Definition und legen Sie es neben dem vorhandenen Segment ab:
 
@@ -24,7 +24,7 @@ Sie können Segmente im Generator für berechnete Metriken stapeln und ersetzen.
 
 ## Ersetzen eines Segments durch ein anderes {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. Beginnen Sie mit der Erstellung einer Metrik, wie unter [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Beginnen Sie mit der Erstellung einer Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
 
 1. Legen Sie das neue Segment auf der Arbeitsfläche Definition auf das vorhandene Segment ab:
 

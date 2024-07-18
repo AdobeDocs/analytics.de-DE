@@ -33,5 +33,5 @@ Es wird ein Analysis Workspace-Projekt erstellt, das mehrere Bedienfelder enthä
    * Berichtsgranularität: Die Komprimierung nach Tag ist in der Regel kleiner als die Komprimierung nach Monat oder Jahr. Die Wahrscheinlichkeit, dass eine Person mehrere Geräte verwendet, ist innerhalb eines Tages geringer als innerhalb eines ganzen Monats. Bei der Segmentierung, Filterung oder Verwendung von Aufschlüsselungsdimensionen kann es auch zu einer niedrigeren Komprimierungsrate kommen.
 * **Benutzerbasierte Segmente**: Enthält eine Segment-Dropdownliste, mit der Sie gerätespezifische Daten anzeigen können. In diesem Bedienfeld können Sie mit Segmenten experimentieren, um festzustellen, wie sich das Einschließen oder Ausschließen von Gerätetypen auf Berichte auswirkt.
 * **Analyse der geräteübergreifenden Journey**: Bietet Fluss- und Fallout-Berichte je nach Gerätetyp.
-* **Geräteübergreifende Attribution**: Kombinieren Sie die Funktionen von Journey IQ und Attribution miteinander.
+* **Geräteübergreifende Attribution**: Kombinieren Sie die Funktionen von Journey IQ und Attribution.
 * **Weitere Tipps und Tricks**: Hilfreiche Themen rund um CDA, mit denen Sie die Nutzung optimieren können.

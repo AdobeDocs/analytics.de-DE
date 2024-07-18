@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # Implementieren von Adobe Analytics mit der Analytics-Erweiterung
 
-Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die aktuelle empfohlene Methode wird durch Adobe empfohlen. [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform.
+Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die derzeit empfohlene Methode für Adobe wird über [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform durchgeführt.
 
 Tags in Adobe Experience Platform ist eine Tag-Management-Lösung, mit der Sie Analytics-Code bereitstellen und weitere Tagging-Vorgaben erfüllen können. Adobe bietet Integrationen mit anderen Lösungen und Produkten und ermöglicht die Bereitstellung von benutzerdefiniertem Code. Alle diese Aufgaben können ausgeführt werden, ohne dass Entwicklungsteams in Ihrer Organisation Code auf Ihrer Website aktualisieren müssen.
 
@@ -23,7 +23,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 
 
-![Implementieren von Adobe Analytics mit dem Analytics-Erweiterungs-Workflow, wie in diesem Abschnitt beschrieben.](../assets/analytics-extension-annotated.png)
+![Implementieren von Adobe Analytics mithilfe des Analytics-Erweiterungs-Workflows, wie in diesem Abschnitt beschrieben.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -65,7 +65,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>6</td> 
 <td><b>Validieren und Veröffentlichen in der Produktionsumgebung</b>. Betten Sie Code ein, um Ihre Tag-Eigenschaft in die Seiten Ihrer Website aufzunehmen. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Einbettungscode</a><br/><a href="./validate-publish-prod.md">Entwicklungsimplementierung validieren und in der Produktion veröffentlichen</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Einbettungscode</a><br/><a href="./validate-publish-prod.md">Validieren einer Entwicklungsimplementierung und Veröffentlichen in der Produktion</a></td>
 </tr>
 
 </table>

@@ -16,7 +16,7 @@ Adobe bietet mehrere Stufen der Währungsumrechnung, sodass Ihr Unternehmen die 
 
 ## Seitenebene
 
-Sie können die [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) um die gewünschte Währung auf jeder Seite festzulegen. Wenn die Währung auf der Seite nicht mit der Währung der Ziel-Report Suite übereinstimmt, führt Adobe eine Währungsumrechnung in die Währung der Report Suite basierend auf dem aktuellen Tageswechselkurs durch. Die konvertierte Währung wird aufgezeichnet.
+Sie können die Variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) verwenden, um die gewünschte Währung auf jeder Seite festzulegen. Wenn die Währung auf der Seite nicht mit der Währung der Ziel-Report Suite übereinstimmt, führt Adobe eine Währungsumrechnung in die Währung der Report Suite basierend auf dem aktuellen Tageswechselkurs durch. Die konvertierte Währung wird aufgezeichnet.
 
 ## Report Suite-Ebene
 

@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 90%
+source-wordcount: '246'
+ht-degree: 88%
 
 ---
 
 # Kundenloyalität
 
-Die &quot;Kundentreue&quot; [Dimension](overview.md) gibt die Anzahl der Besucher Ihrer Site an, die 0 frühere Käufe, 1 vorherigen Kauf, 2 vorherige Käufe oder mehr als 3 frühere Käufe getätigt haben. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre Website auf das Kaufverhalten auswirkt. Sie können diese Dimension auch in einem Segment verwenden, um sich auf Besucher zu konzentrieren, die zum Kauf zurückkehren, damit Sie ähnliche Verhaltensweisen bei neuen Besuchern fördern können.
+Die Dimension &quot;Kundentreue&quot;[1 gibt die Anzahl der Besucher auf Ihrer Site an, die 0 frühere Käufe, 1 früheren Kauf, 2 vorherige Käufe oder 3+ frühere Käufe getätigt haben. ](overview.md) Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre Website auf das Kaufverhalten auswirkt. Sie können diese Dimension auch in einem Segment verwenden, um sich auf Besucher zu konzentrieren, die zum Kauf zurückkehren, damit Sie ähnliche Verhaltensweisen bei neuen Besuchern fördern können.
 
 ## Füllen dieser Dimension mit Daten
 

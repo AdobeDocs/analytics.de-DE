@@ -5,14 +5,14 @@ exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 93%
 
 ---
 
 # Einverständnisverwaltungs-Opt-out
 
-Die &quot;Opt-out-Funktion der Einverständnisverwaltung&quot; [Dimension](overview.md) zeigt an, welche Datenschutzeinstellungen ein Besucher explizit abgelehnt hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-out anzuzeigen.
+Die Dimension &quot;Einwilligungsmanagement Opt-out&quot;[](overview.md) zeigt an, welche Datenschutzeinstellungen ein Besucher ausdrücklich abgelehnt hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-out anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

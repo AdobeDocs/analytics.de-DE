@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Neuladungen
 
-Die Neuladungen [Metrik](overview.md) zeigt an, wie oft ein Dimensionselement während einer Neuladung vorhanden war. Ein Besucher, der seinen Browser aktualisiert, stellt die häufigste Methode dar, eine Neuladung auszulösen.
+Die Metrik &quot;Neuladungen&quot;[metrik](overview.md) gibt an, wie oft ein Dimensionselement während einer Neuladung vorhanden war. Ein Besucher, der seinen Browser aktualisiert, stellt die häufigste Methode dar, eine Neuladung auszulösen.
 
 ## Berechnung dieser Metrik
 

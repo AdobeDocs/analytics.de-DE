@@ -15,16 +15,16 @@ ht-degree: 5%
 
 Datenquellendateien haben die folgenden Eigenschaften:
 
-* Die Datei befindet sich in `.txt` Format.
-* Kommentierte Zeilen beginnen mit &quot;`#`&#39; und sind optional.
+* Die Datei hat das Format &quot;`.txt`&quot;.
+* Kommentierte Zeilen beginnen mit &quot;`#`&quot; und sind optional.
 * Die erste Zeile ohne Kommentar enthält die Header der Datei.
-* Der erste Wert jeder Zeile ist das Datum, das das Format `MM/DD/YYYY` oder `MM/DD/YYYY/HH/mm/SS`.
+* Der erste Wert jeder Zeile ist das Datum, das das Format `MM/DD/YYYY` oder `MM/DD/YYYY/HH/mm/SS` verwendet.
 * Die Werte in jeder Zeile, einschließlich der Kopfzeilen, sind tabulatorgetrennt.
 * Jede Zeile muss mindestens eine Dimension und eine Metrik aufweisen.
 
 ## Kommentare
 
-Jede Zeile, die mit &quot;`#`&quot; ist ein Kommentar. Beim Herunterladen einer Datenquellenvorlagendatei sind die ersten beiden Zeilen Kommentare.
+Jede Zeile, die mit &quot;`#`&quot; beginnt, ist ein Kommentar. Beim Herunterladen einer Datenquellenvorlagendatei sind die ersten beiden Zeilen Kommentare.
 
 * Der erste Kommentar gibt den Vorlagentyp an, den Sie für die Datenquelle konfiguriert haben, die Backend-Benutzer-ID, mit der die Datenquelle erstellt wurde, und die Datenquellen-ID.
 * Der zweite Kommentar enthält Anzeigenamen für die einzelnen Header, die in der Vorlagendatei enthalten sind.
@@ -33,7 +33,7 @@ Alle Kommentarzeilen werden bei der Dateiverarbeitung von Adobe ignoriert, sodas
 
 ## Kopfzeilen
 
-Beim Hochladen von Datenquellendateien sind Spaltenüberschriften erforderlich. Bei diesen Spaltenüberschriften wird nicht zwischen Groß- und Kleinschreibung unterschieden, es sind jedoch erforderliche Leerzeichen erforderlich (z. B. `eVar1` ist eine ungültige Kopfzeile, während `EVAR 1` ist gültig). Spaltenüberschriften gelten für alle Report Suites. Verwenden Sie die folgenden Tabellen, um sicherzustellen, dass jeder Header in Ihrer Datenquellendatei korrekt festgelegt ist.
+Beim Hochladen von Datenquellendateien sind Spaltenüberschriften erforderlich. Bei diesen Spaltenüberschriften wird nicht zwischen Groß- und Kleinschreibung unterschieden, es sind jedoch erforderliche Leerzeichen erforderlich (z. B. ist `eVar1` eine ungültige Überschrift, während `EVAR 1` gültig ist). Spaltenüberschriften gelten für alle Report Suites. Verwenden Sie die folgenden Tabellen, um sicherzustellen, dass jeder Header in Ihrer Datenquellendatei korrekt festgelegt ist.
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ Beim Hochladen von Datenquellendateien sind Spaltenüberschriften erforderlich. 
 | [Kategorie](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Marketingkanal](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [Marketingkanaldetails](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Marketingkanal-Detail](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Produkt](/help/components/dimensions/product.md) | `Product` |
 | [Trackingcode](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [Transaktions-ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -68,11 +68,11 @@ Dimensionen und Metriken werden in dieselbe Kopfzeile verschoben.
 
 {style="table-layout:auto"}
 
-Adobe unterstützt keine Datenquellen für andere Dimensionen oder Metriken. Wenn Variablen erforderlich sind, die über das in den obigen Tabellen aufgeführte hinausgehen, sollten Sie die Variable [Bulk-Dateneinfüge-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) anstatt.
+Adobe unterstützt keine Datenquellen für andere Dimensionen oder Metriken. Wenn Variablen erforderlich sind, die über die in den obigen Tabellen aufgeführten Werte hinausgehen, sollten Sie stattdessen die [Bulk data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) verwenden.
 
 ## Datum
 
-Der erste Wert in jeder Zeile **must** das Datum. Das Datumsformat muss eines der folgenden Formate aufweisen:
+Der erste Wert in jeder Zeile **muss** das Datum sein. Das Datumsformat muss eines der folgenden Formate aufweisen:
 
 * **`MM/DD/YYYY/HH/mm/SS`**
 * **`MM/DD/YYYY`**
@@ -85,8 +85,8 @@ Eine Datenquellendatei unterstützt bis zu 90 eindeutige Tage. Wenn Sie mehr als
 
 Nachfolgende Werte nach dem Datum in jeder Zeile enthalten die Daten, die Sie hochladen möchten. Jede Zeile entspricht dem jeweiligen Zeitstempel. Stellen Sie sicher, dass in jeder Zeile dieselbe Anzahl von Registerkarten vorhanden ist. Die Spalten können in beliebiger Reihenfolge angeordnet werden. Stellen Sie sicher, dass die Daten in den einzelnen Zeilen mit den Kopfzeilen oben übereinstimmen. Die maximale Datenmenge, die eine Zeile enthalten kann, beträgt 4096 Byte.
 
-Dimension-Daten dürfen keine Semikolons (`;`). Zeilen, die Semikolons enthalten, werden übersprungen.
+Dimension-Daten dürfen keine Semikolons (`;`) enthalten. Zeilen, die Semikolons enthalten, werden übersprungen.
 
 ## Nächste Schritte
 
-[Datei-Upload](file-upload.md): Erfahren Sie, wie Sie eine Datenquellendatei zur Erfassung per Adobe hochladen.
+[Datei-Upload](file-upload.md): Erfahren Sie, wie Sie eine Datenquellendatei zur Aufnahme durch Adobe hochladen.

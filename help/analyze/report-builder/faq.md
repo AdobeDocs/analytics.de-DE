@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ Report Builder unterstützt Arbeitsmappen bis zu den folgenden Grenzen:
 
 ## Woher weiß ich, ob ich Zugriff auf Report Builder habe? {#access}
 
-Ihr Adobe Analytics-Administrator muss Ihnen Zugriff auf Report Builder gewähren. Der Administrator richtet Produktprofile im [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Bitten Sie Ihren Administrator, Ihnen Zugriff zu gewähren.
+Ihre bzw. Ihr Adobe Analytics-Admin muss Ihnen Zugriff auf Report Builder gewähren. Die oder der Admin richtet Produktprofile in [Adobe Admin Console](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-console/home) ein. Bitten Sie die oder den Admin, Ihnen Zugriff zu erteilen.

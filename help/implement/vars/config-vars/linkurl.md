@@ -15,7 +15,7 @@ ht-degree: 65%
 
 Sobald ein Linktracking-Aufruf an Adobe gesendet wird, erkennen die Datenerfassungs-Server automatisch die URL. Verwenden Sie die `linkURL`-Variable, um die erkannte URL zu überschreiben.
 
-Es gibt keine Dimensionen in Analysis Workspace, die über diese Variable berichten. Sie füllt die `page_event_var1` Spalte in [Datenfeeds](/help/export/analytics-data-feed/data-feed-overview.md).
+Es gibt keine Dimensionen in Analysis Workspace, die über diese Variable berichten. Sie füllt die Spalte `page_event_var1` in [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Link-URL mit dem Web SDK
 

@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 60%
+source-wordcount: '365'
+ht-degree: 55%
 
 ---
 
 # Durchschnittliche Klicktiefe
 
-Die &quot;durchschnittliche Klicktiefe&quot; [Metrik](overview.md) zeigt, wie weit sich ein Dimensionselement im Durchschnitt in einen bestimmten Besuch erstreckt. Ihre Startseite (die ein Dimensionselement für die Dimension &quot;Seite&quot;ist) zeigt beispielsweise in der Regel eine kleinere durchschnittliche Klicktiefe als Ihre Kaufbestätigungsseite, die sich wahrscheinlich weiter in einen Besuch erstreckt. Sie können diese Informationen verwenden, um bestimmte Seiten für neue Besucher zu optimieren, wenn die Seite durchschnittlich eine niedrige Klicktiefe aufweist.
+Die Metrik &quot;Durchschnittliche Klicktiefe&quot;[](overview.md) gibt an, wie weit sich ein Dimensionselement im Durchschnitt in einen bestimmten Besuch erstreckt. Ihre Startseite (die ein Dimensionselement für die Dimension &quot;Seite&quot;ist) zeigt beispielsweise in der Regel eine kleinere durchschnittliche Klicktiefe als Ihre Kaufbestätigungsseite, die sich wahrscheinlich weiter in einen Besuch erstreckt. Sie können diese Informationen verwenden, um bestimmte Seiten für neue Besucher zu optimieren, wenn die Seite durchschnittlich eine niedrige Klicktiefe aufweist.
 
 >[!TIP]
 >
@@ -20,7 +20,7 @@ Die &quot;durchschnittliche Klicktiefe&quot; [Metrik](overview.md) zeigt, wie we
 
 ## Berechnung dieser Metrik
 
-Die erste Seite eines Besuchs hat eine Klicktiefe von `0`. Die nächste Seite hat eine Klicktiefe von 1, usw. bis zum Ende des Besuchs. Diese Metrik erhöht sich nur bei Seitenansicht ([`t()`](/help/implement/vars/functions/t-method.md)) und nicht mit Linktracking ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Die erste Seite eines Besuchs hat eine Klicktiefe von `0`. Die nächste Seite hat eine Klicktiefe von 1, usw. bis zum Ende des Besuchs. Diese Metrik erhöht sich nur bei Seitenansichtsaufrufen ([`t()`](/help/implement/vars/functions/t-method.md)) und nicht bei Linktracking-Aufrufen ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 Fügen Sie für ein bestimmtes Dimensionselement alle Klicktiefen für dieses Dimensionselement hinzu und teilen Sie es durch Besuche. Die resultierende Zahl ist die durchschnittliche Klicktiefe, gerundet auf die nächste Ganzzahl. Wenn Dimensionselemente eine durchschnittlichen Klicktiefe von `0` haben, bedeutet das, dass sie auf der ersten Seite des Besuchs vorkamen.
 

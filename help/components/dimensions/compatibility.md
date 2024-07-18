@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Kompatibilität von Analytics-Dimensionen
 
-Diese Seite listet [Dimensionen](overview.md) unterstützt in ihren jeweiligen Analytics-Funktionen.
+Auf dieser Seite werden die in den jeweiligen Analytics-Funktionen unterstützten [Dimensionen](overview.md) aufgelistet.
 
 >[!NOTE]
 >

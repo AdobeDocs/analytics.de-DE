@@ -8,7 +8,7 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
@@ -18,9 +18,9 @@ Zeigen Sie Details zum Anforderungsstatus an und verwenden Sie die Feldbeschreib
 
 ## Überblick {#section_75C288C945FA4781A4EDF806711A5660}
 
-Die [!UICONTROL Anforderungs-Manager] bietet einen detaillierten Überblick über den Status aller Anforderungen, die Sie für alle Arbeitsblätter oder nur für ein Blatt der aktiven Arbeitsmappe erstellt haben. Sie können auch Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen. Diese Funktionen sind normalerweise mit dem [!UICONTROL Anforderungs-Assistent] und [!UICONTROL Anforderungs-Manager] wenn Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die frühere Anforderungen enthält.
+Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Ansicht des Status aller Anforderungen, die Sie für alle Arbeitsblätter oder nur für ein Blatt der aktiven Arbeitsmappe erstellt haben. Sie können auch Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen. Diese Funktionen sind in der Regel mit dem Anforderungs-Assistenten [!UICONTROL  und dem Anforderungs-Manager] verknüpft, wenn Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die frühere Anforderungen enthält.][!UICONTROL 
 
-Die [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL Verwalten]**  ![](assets/edit_request.gif) in der Symbolleiste &quot;Report Builder&quot;.
+Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in der Report Builder-Symbolleiste auf **[!UICONTROL Verwalten]** ![](assets/edit_request.gif) klicken.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Die [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie auf **[!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fügen Sie </p> </td> 
-   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >Eine Datenanforderung erstellen</a>. </p> </td> 
+   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Eine Datenanforderung erstellen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vorlage </p> </td> 

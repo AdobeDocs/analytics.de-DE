@@ -5,9 +5,9 @@ title: Analytics-Daten-Feed-Dokumentation
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Die folgenden Ressourcen helfen Ihnen dabei, den grundlegenden Workflow beim Abr
 * [Best Practices für Daten-Feeds](/help/export/analytics-data-feed/data-feeds-best-practices.md): Best Practices zum Erstellen und Verwalten von Daten-Feeds.
 * [Erstellen von Daten-Feeds](create-feed.md): Technische Details zum Erstellen eines Daten-Feed, detaillierte Erläuterungen einzelner Felder
 * [Verwalten von Daten-Feeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Daten-Feed-Benutzeroberfläche
-* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Informationen zum Inhalt der komprimierten Datei <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Informationen darüber, was sich in der komprimierten Datei befindet <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten.
 * Video zur Navigation auf der Daten-Feed-Oberfläche:
 

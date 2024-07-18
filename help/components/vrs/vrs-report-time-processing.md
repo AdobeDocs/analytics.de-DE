@@ -28,7 +28,7 @@ Während der Datenverarbeitung in Analytics fließen die Daten durch die Datener
 
 Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise den Timeout-Zeitraum für Besuche auf eine beliebige Zeitdauer ohne Zerstörung ändern, und diese Änderungen werden in Ihrer eVar-Persistenz und den Segmentbehältern für den gesamten Berichtszeitraum übernommen. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-[!UICONTROL Berichtszeitverarbeitung] ermöglicht Analytics auch, zu verhindern, dass Hintergrundtreffer neue Besuche starten, und ermöglicht die [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) , um einen neuen Besuch zu starten, sobald ein App-Startereignis ausgelöst wird.
+[!UICONTROL Berichtszeitverarbeitung] ermöglicht Analytics auch, Hintergrundtreffer daran zu hindern, neue Besuche zu starten, und es dem [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) zu ermöglichen, einen neuen Besuch zu starten, sobald ein App-Startereignis ausgelöst wird.
 
 ## Konfigurationsoptionen
 
@@ -65,7 +65,7 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 * [**Ursprünglich verweisende Domäne**](/help/components/dimensions/original-referring-domain.md)
 * [**Rückkehrhäufigkeit**](/help/components/dimensions/return-frequency.md)
 * [**Einzelzugriff**](/help/components/metrics/single-access.md)
-* **Transaktions-ID-Data Sources**
+* **Transaktions-ID-Datenquellen**
 * [**Besuchsnummer**](/help/components/dimensions/visit-number.md)
 
 ## Betroffene Dimensionen und Metriken
@@ -73,7 +73,7 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den ausgewählten Einstellungen für „Berichtszeitverarbeitung“ betroffen sind:
 
 * Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, treten die folgenden Änderungen ein. Weitere Informationen finden Sie unter [kontextbezogene Sitzungserstellung](vrs-mobile-visit-processing.md).
-   * [**Bounces**](/help/components/metrics/bounces.md) / [**Absprungrate:**](/help/components/metrics/bounce-rate.md) Hintergrundtreffer, denen kein Vordergrundtreffer folgt, werden nicht als Absprung betrachtet und tragen nicht zur Absprungrate bei.
+   * [**Absprünge**](/help/components/metrics/bounces.md) / [**Absprungrate:**](/help/components/metrics/bounce-rate.md) Hintergrundtreffer, denen kein Vordergrundtreffer folgt, werden nicht als Absprung betrachtet und tragen nicht zur Absprungrate bei.
    * [**Zeit pro Besuch in Sekunden:**](/help/components/metrics/time-spent-per-visit.md) Nur Besuche mit Treffern im Vordergrund tragen zu dieser Metrik bei.
    * **Zeit pro Besuch:** Nur Besuche, die Treffer im Vordergrund enthalten, tragen zu dieser Metrik bei.
    * [**Einstiegsmetrik**](/help/components/metrics/entries.md) / [**Ausstiegsmetrik:**](/help/components/metrics/exits.md) In dieser Dimension werden nur Einstiege und Ausstiege von Besuchen mit Vordergrundtreffern angezeigt.
@@ -83,6 +83,6 @@ Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den 
 * **Serialisierte Ereignisse mit Ereignis-ID:** Ereignisse, die die Ereignisserialisierung mit einer Ereignis-ID verwenden, werden nur für Ereignisse dedupliziert, die innerhalb des Datumsbereichs der Berichterstellung für einen Besucher auftreten. Diese Ereignisse werden aufgrund des Datumsfensters für die Berichtszeitverarbeitung nicht global für alle Daten oder Besucher dedupliziert.
 * **Käufe** / [**Umsatz**](/help/components/metrics/revenue.md) / [**Bestellungen**](/help/components/metrics/orders.md) / [**Einheiten:**](/help/components/metrics/units.md) Wenn die Kauf-ID verwendet wird, werden diese Metriken aufgrund des Datumsfensters für die Berichtszeitverarbeitung nur für doppelte Kauf-IDs dedupliziert, die innerhalb des Datumsbereichs der Berichterstellung für einen Besucher auftreten, und nicht global für alle Daten oder Besucher.
 * [**Nicht-Merchandising-eVars**](/help/components/dimensions/evar.md) / **reservierte eVars:** In einem eVar festgelegte Werte bleiben nur erhalten, wenn der Wert aufgrund des Datumsfensters für die Berichtszeitverarbeitung im Datumsbereich für die Berichterstellung festgelegt wurde. Zudem können zeitbasierte Abläufe eine Stunde zu früh oder zu spät ablaufen, wenn sich die Persistenz über eine Zeitumstellung erstreckt.
-* [**Merchandising-eVars**](/help/components/dimensions/evar-merchandising.md) / **reservierte eVars:** Siehe oben. Zudem wird bezüglich der Konversionssyntax „Beliebige Treffer“ verwendet, wenn die Bindung auf „Beliebiges Ereignis“ festgelegt ist.
+* [**Merchandising eVars**](/help/components/dimensions/evar-merchandising.md) / **reservierte eVars:** Siehe oben. Zudem wird bezüglich der Konversionssyntax „Beliebige Treffer“ verwendet, wenn die Bindung auf „Beliebiges Ereignis“ festgelegt ist.
 * [**Treffertyp:**](/help/components/dimensions/hit-type.md) Diese Dimension gibt an, ob es sich bei einem Treffer um einen Vorder- oder Hintergrundtreffer handelt.
-* **Dimensionen mit (geringem Traffic) oder &quot;Individuelle Werte überschritten&quot;:** Der Zeileneintrag (geringer Traffic) wird bei der Verwendung der Berichtszeitverarbeitung etwas anders bestimmt und entspricht nicht garantiert dem, was bei der Berichterstellung für die zugrunde liegende Report Suite beobachtet wird. Zeileneinträge von Dimensionen, die nicht Teil von &quot;Geringer Datenverkehr&quot;sind, stellen nicht garantiert 100 % der Daten für diesen Zeileneintrag dar. Je höher die Anzahl eindeutiger Werte in einer Dimension ist, desto größer können diese Unterschiede sein.
+* **Dimensionen mit (geringem Traffic) oder &quot;Individuelle Werte überschritten&quot;:** Das Zeilenelement (geringer Traffic) wird bei der Verwendung der Berichtszeitverarbeitung etwas anders bestimmt und entspricht nicht garantiert dem, was bei der Berichterstellung für die zugrunde liegende Report Suite beobachtet wird. Zeileneinträge von Dimensionen, die nicht Teil von &quot;Geringer Datenverkehr&quot;sind, stellen nicht garantiert 100 % der Daten für diesen Zeileneintrag dar. Je höher die Anzahl eindeutiger Werte in einer Dimension ist, desto größer können diese Unterschiede sein.

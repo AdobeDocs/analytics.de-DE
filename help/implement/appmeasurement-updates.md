@@ -17,41 +17,41 @@ Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Sie können die neueste Version von AppMeasurement von herunterladen. [GitHub](https://github.com/adobe/appmeasurement/releases).
+Sie können die neueste Version von AppMeasurement von [GitHub](https://github.com/adobe/appmeasurement/releases) herunterladen.
 
 ## Version 2.26.0
 
 Releasedatum: **Dienstag, 4. März 2024**
 
-* AppMeasurement erkennt und verwendet automatisch die Stammdomäne für Domänen mit Ländercode auf oberster Ebene, für die zuvor spezifische Cookie-Domänenkonfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Siehe [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) für weitere Informationen.
+* AppMeasurement erkennt und verwendet automatisch die Stammdomäne für Domänen mit Ländercode auf oberster Ebene, für die zuvor spezifische Cookie-Domänenkonfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Weitere Informationen finden Sie unter [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) .
 * Die Verteilung umfasst Identity Service Library 5.5.0 und Data Integration Library 9.6.
 
 ## Version 2.25.0
 
 Veröffentlichungsdatum: **Mittwoch, 12. September 2023**
 
-* Die optionale Methode wurde hinzugefügt. [`bufferRequests()`](vars/functions/bufferrequests.md) , um die Zuverlässigkeit bei der Erfassung von Anfragen zu erhöhen, wenn ein Browser die Beacon-API nicht unterstützt oder Anforderungen beim Entladen einer Seite abbricht.
+* Die optionale Methode [`bufferRequests()`](vars/functions/bufferrequests.md) wurde hinzugefügt, um die Zuverlässigkeit bei der Erfassung von Anforderungen zu erhöhen, wenn ein Browser die Beacon-API nicht unterstützt oder Anforderungen beim Entladen einer Seite abbricht.
 * Es wurden Schutzmechanismen hinzugefügt, um mehrere Nachverfolgungsrückrufe für eine einzelne Tracking-Anfrage zu verhindern.
 
 ## Version 2.24.0
 
 Releasedatum: **Mittwoch, 18. Juli 2023**
 
-* Die optionale Konfigurationsvariable wurde hinzugefügt [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) zum Dekodieren von Link-URLs, die doppelt-Byte-kodierte Zeichen enthalten.
+* Die optionale Konfigurationsvariable [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) wurde hinzugefügt, um Link-URLs zu dekodieren, die doppelt-Byte-kodierte Zeichen enthalten.
 * Zusätzliche Fehlerbehandlung für Browser mit fehlerhafter High-Entropy User-Agent-Client-Hints-APIs mit hoher Entropie.
-* Die Content-Type-Kopfzeile der POST wurde zur Verwendung geändert `x-www-form-urlencoded` Standardmäßig.
+* Die POST Content-Type -Kopfzeile wurde geändert, sodass standardmäßig `x-www-form-urlencoded` verwendet wird.
 
 ## Version 2.23.0
 
 Veröffentlichungsdatum: **23. September 2022**
 
-* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder die [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) Konfigurationsvariable. Die Sammlung von Hinweisen zur Entropie mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
+* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder die Konfigurationsvariable [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) verwenden. Die Sammlung von Hinweisen zur Entropie mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
 Veröffentlichungsdatum: **18. Januar 2022**
 
-* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es sich nicht um eine `string`, wird die `href` -Attribut anstatt eines Fehlschlagens. Dieses Szenario kann beim Bestätigen von `svg` -Objekte zum Linktracking-Aufruf.
+* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es sich nicht um einen `string` handelt, wird das Attribut `href` graziös ignoriert, anstatt fehlzuschlagen. Dieses Szenario kann auftreten, wenn Sie `svg` -Objekte an den Linktracking-Aufruf übergeben.
 
 ## Version 2.22.3
 
@@ -63,7 +63,7 @@ Releasedatum: **11. Oktober 2021**
 
 Releasedatum: **7. September 2021**
 
-* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Siehe [Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) im Admin-Benutzerhandbuch für weitere Informationen.
+* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden Sie unter [Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) im Admin-Benutzerhandbuch.
 
 ## Version 2.22.1
 
@@ -347,7 +347,7 @@ Releasedatum: **5. November 2015**
 Releasedatum: **17. September 2015**
 
 * Aufnahme der Visitor API 1.5.2
-* Aktualisiert [!DNL Audience Manager] -Modul zur Verwendung von Adobe Audience Manager DIL 6.2 - Abrufen von Kunden-IDs von VisitorAPI.js und Übergeben dieser IDs im /event -Aufruf an Adobe Audience Manager. (AN-104978)
+* Aktualisierung des [!DNL Audience Manager]-Moduls zur Verwendung von Adobe Audience Manager DIL 6.2 - Abrufen von Kunden-IDs von VisitorAPI.js und Übergeben dieser IDs im /event-Aufruf an Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 
@@ -362,7 +362,7 @@ Releasedatum: **18. Juni 2015**
 Releasedatum: **21. Mai 2015**
 
 * Ab iOS SDK-Version 4.5 können Sie mit einer neuen iOS-Erweiterung Nutzungsdaten aus Ihren Apple Watch-Apps, Today Widgets, Foto Editing Widgets und allen anderen iOS-Erweiterungs-Apps erfassen.
-* Die Android-SDK-Version 4.5 enthält eine neue Erweiterung von Android, die Ihnen das Erfassen von Daten aus Ihrer Android Wearable App ermöglicht.
+* Ab Android SDK-Version 4.5 können Sie mit einer neuen Android-Erweiterung Daten aus Ihrer Android Wearable App erfassen.
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 

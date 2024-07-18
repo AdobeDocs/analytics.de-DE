@@ -4,9 +4,9 @@ title: Nicht klassifizierte Schlüssel
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Nicht klassifizierte Schlüssel werden in Classification-Berichten unter einem e
 
 Nicht klassifizierte Schlüssel werden in Classification-Berichten unter einem einzigen Zeileneintrag mit der Bezeichnung *`None`* gruppiert. Benennen Sie *`None`* in eine aussagekräftigere Bezeichnung um.
 
-Angenommen, Ihre Trackingcodes enthalten Informationen zum Typ der mobilen Kampagne, mit der der Trackingcode verknüpft ist. Mit einer Classification (Mobilkampagnentyp) gruppieren Sie diese Trackingcodes in Kategorien wie „Mobiles Web“, „iOS-Anwendung“, „Android-Anwendung“ usw. Einige Kampagnen sind nicht als Mobilkampagne ausgelegt und werden daher nicht mit einem Mobilkampagnentyp klassifiziert. Alle nicht klassifizierten Trackingcodes werden unter  *`None`* im Bericht [!UICONTROL Mobilkampagnentyp] umbenannt.
+Angenommen, Ihre Trackingcodes enthalten Informationen zum Typ der mobilen Kampagne, mit der der Trackingcode verknüpft ist. Mit einer Classification (Mobilkampagnentyp) gruppieren Sie diese Trackingcodes in Kategorien wie „Mobiles Web“, „iOS-Anwendung“, „Android-Anwendung“ usw. Einige Kampagnen sind nicht als Mobilkampagne ausgelegt und werden daher nicht mit einem Mobilkampagnentyp klassifiziert. Alle nicht klassifizierten Trackingcodes werden unter *`None`* im Bericht [!UICONTROL Mobilkampagnentyp] gruppiert.
 
 ## Umbenennen des Classification-Schlüssels „Keine“  {#task_8CD595DA82AA44D08CEF002B588C3C30}
 
@@ -36,7 +36,7 @@ So benennen Sie einen nicht klassifizierten Schlüssel um, der im Bericht als *`
 
    Im Beispiel in dieser Dokumentation geben Sie „Nicht-Mobilkampagne“ in die Spalte [!UICONTROL Mobilkampagnentyp] ein.
 
-   Mit diesem Eintrag wird  *`None`* in *`non-mobile campaign`* im Bericht [!UICONTROL Mobilkampagnentyp] umbenannt.
+   Mit diesem Eintrag wird *`None`* im Bericht [!UICONTROL Mobilkampagnentyp] in *`non-mobile campaign`* umbenannt.
 
    ![Beispiel eines nicht klassifizierten Schlüssels](/help/components/classifications/importer/assets/non-classified-key.png)
 

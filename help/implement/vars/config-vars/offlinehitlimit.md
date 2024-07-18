@@ -27,7 +27,7 @@ In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable 
 
 ## s.offlineHitLimit in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Die `s.offlineHitLimit` ist eine Ganzzahl, die die maximale Anzahl von Treffern darstellt, die ein Gerät speichert, während es offline ist. Wenn diese Variable nicht definiert ist, wird standardmäßig `10`. Sie können einen beliebigen ganzzahligen Wert festlegen. Achten Sie beim Festlegen hoher Werte auf lokale Speicherobergrenzen im Browser eines Besuchers. Diese Grenze beträgt in der Regel 5 bis 10 MB.
+Die Variable `s.offlineHitLimit` ist eine Ganzzahl, die die maximale Anzahl von Treffern darstellt, die ein Gerät speichert, während es offline ist. Wenn diese Variable nicht definiert ist, wird standardmäßig `10` verwendet. Sie können einen beliebigen ganzzahligen Wert festlegen. Achten Sie beim Festlegen hoher Werte auf lokale Speicherobergrenzen im Browser eines Besuchers. Diese Grenze beträgt in der Regel 5 bis 10 MB.
 
 ```js
 s.offlineHitLimit = 100;

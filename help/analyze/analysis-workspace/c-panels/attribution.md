@@ -7,13 +7,13 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
 # Attributionsbedienfeld
 
-Das [!UICONTROL Attributionsbedienfeld] bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Dabei handelt es sich um eine Funktion in [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md), die Ihnen einen eigenen Arbeitsbereich bietet, um Attributionsmodelle zu verwenden und zu vergleichen.
+Das [!UICONTROL Attributionsbedienfeld] bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Es handelt sich um eine Funktion in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md), die Ihnen einen speziellen Arbeitsbereich zur Verwendung und zum Vergleich von Attributionsmodellen bietet.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # doPlugins
 
-Die `doPlugins`-Variable dient als „letzte Chance“, um Werte in Ihrer Implementierung festzulegen. Es ist der ideale Ort, um Anrufe an [Plug-in-Methoden](../plugins/impl-plugins.md) und legen Sie alle gewünschten Variablen fest, bevor eine Bildanforderung gesendet wird. Falls [`usePlugins`](../config-vars/useplugins.md) aktiviert ist, wird dies automatisch ausgeführt, unmittelbar bevor eine Bildanforderung kompiliert und an Adobe gesendet wird, einschließlich:
+Die `doPlugins`-Variable dient als „letzte Chance“, um Werte in Ihrer Implementierung festzulegen. Es ist der ideale Ort, um [Plug-in-Methoden](../plugins/impl-plugins.md) aufzurufen und alle gewünschten Variablen festzulegen, bevor eine Bildanforderung gesendet wird. Falls [`usePlugins`](../config-vars/useplugins.md) aktiviert ist, wird dies automatisch ausgeführt, unmittelbar bevor eine Bildanforderung kompiliert und an Adobe gesendet wird, einschließlich:
 
 * Alle Seitenansichtsaufrufe ([`t()`](t-method.md))
 * Alle Linktracking-Aufrufe ([`tl()`](tl-method.md)), einschließlich automatischer Downloadlinks und Exitlinks
@@ -22,17 +22,17 @@ Verwenden Sie die `doPlugins`-Variable, um Plug-in-Code aufzurufen und endgülti
 
 ## Verwenden von On Before Event Send Callback-Code mit der Web SDK-Erweiterung
 
-anstelle von `doPlugins`verwendet das Web SDK `onBeforeEventSend` mit ähnlichen Funktionen.
+Anstelle von `doPlugins` verwendet das Web SDK `onBeforeEventSend` mit ähnlichen Funktionen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
-1. under [!UICONTROL Datenerfassung], klicken Sie auf die **[!UICONTROL Bearbeiten am vor dem Senden des Callback-Codes eines Ereignisses]** Schaltfläche.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
+1. Klicken Sie unter [!UICONTROL Datenerfassung] auf die Schaltfläche **[!UICONTROL Vor dem Senden des Rückruffods durch das Ereignis bearbeiten]** .
 1. Platzieren Sie den gewünschten Code im Editor.
 
-## Verwendung `onBeforeEventSend` Manuelles Implementieren des Web SDK
+## Manuelles Implementieren des Web SDK mit `onBeforeEventSend`
 
-anstelle von `doPlugins`verwendet das Web SDK `onBeforeEventSend` mit ähnlichen Funktionen. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Anstelle von `doPlugins` verwendet das Web SDK `onBeforeEventSend` mit ähnlichen Funktionen. Weitere Informationen finden Sie unter [Globales Ändern von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation.
 
 ```js
 // Set the trackingCode XDM field to "New value"

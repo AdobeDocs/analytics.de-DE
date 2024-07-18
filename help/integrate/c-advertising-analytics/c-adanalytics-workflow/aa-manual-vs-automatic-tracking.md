@@ -24,16 +24,16 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 Es werden zwei Tracking-Modi unterstützt: [!UICONTROL Auto] und [!UICONTROL Manuell].
 
-## [!UICONTROL Auto] Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL Auto]-Verfolgung {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Auto] Bei der Verfolgung kann die Advertising Cloud-Engine entscheiden, wie die Suchmaschinendaten verarbeitet werden sollen. Das automatische Tracking ist der einfachere Ansatz, führt jedoch möglicherweise nicht zum besten integrierten Datensatz.
+Durch das Tracking von [!UICONTROL Auto] kann die Advertising Cloud-Engine entscheiden, wie die Suchmaschinendaten verarbeitet werden sollen. Das automatische Tracking ist der einfachere Ansatz, führt jedoch möglicherweise nicht zum besten integrierten Datensatz.
 
-Daher müssen Sie ein Kontrollkästchen für die Bestätigung aktivieren, wenn Sie **[!UICONTROL Auto]** bevor Sie die Kontoeinstellung speichern können.
+Daher müssen Sie ein Kontrollkästchen für die Bestätigung aktivieren, wenn Sie **[!UICONTROL Auto]** auswählen, bevor Sie die Kontoeinstellung speichern können.
 
-Beachten Sie, dass zum Konfigurieren eines Suchmaschinenkontos mit **[!UICONTROL Auto]** -Typ, sind Sie für die folgenden Aktionen verantwortlich:
+Beachten Sie, dass Sie für die folgenden Aktionen verantwortlich sind, um ein Suchmaschinenkonto mit dem Typ **[!UICONTROL Auto]** zu konfigurieren:
 
-* Die `s_kwcid` -Parameter und -Wert werden den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. Dieser Parameter und Wert werden am Ende der URL eingefügt. Wenn Ihr Webserver eine bestimmte `key=value` -Paar am Ende der URL. Oder ein Update zur Unterstützung neuer `key=value` in der URL. Es liegt in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter korrekt auf der endgültigen Landingpage beibehalten werden.
-* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Ein gängiges Sonderzeichen ist beispielsweise `+`, das in &quot;Broad Match Modified&quot;-Keywords verwendet wird.
+* Der Parameter `s_kwcid` und der Wert werden den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. Dieser Parameter und Wert werden am Ende der URL eingefügt. Zusätzliche Maßnahmen können von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes `key=value` -Paar am Ende der URL benötigt. Oder ein Update zur Unterstützung eines neuen `key=value` -Paares in der URL. Es liegt in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter korrekt auf der endgültigen Landingpage beibehalten werden.
+* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Beispielsweise ist das allgemeine Sonderzeichen `+`, das in Suchbegriffen mit der Bezeichnung &quot;Umfassende Übereinstimmung geändert&quot;verwendet wird.
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Google-Konto hinzugefügt
 
 >[!IMPORTANT]
 >
->Der Wert *`<Advertising Analytics ID>`* (unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen** müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge vom Bildschirm &quot;Konto&quot;unter dem [!UICONTROL Tracking] Abschnitt.
+>Der Wert *`<Advertising Analytics ID>`* (unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen** müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge vom Bildschirm &quot;Konto&quot;unter dem Abschnitt [!UICONTROL Tracking] abrufen.
 
 **Tracking-Zeichenfolge für Kampagnen:**
 

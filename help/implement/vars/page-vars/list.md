@@ -19,7 +19,7 @@ Vergewissern Sie sich, dass Sie die Verwendung der einzelnen Listenvariablen und
 
 >[!NOTE]
 >
->Listenvariablen speichern die neuesten Werte pro Besucher basierend auf dessen [!UICONTROL Max. Werte] Einstellung in [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Es werden bis zu 250 Werte unterstützt. Wenn es mehr eindeutige Werte gibt als die [!UICONTROL Max. Werte] erlaubt, werden die ältesten Werte nicht den Metriken zugeordnet.
+>Listenvariablen speichern die neuesten Werte pro Besucher basierend auf der Einstellung [!UICONTROL Maximale Werte] in den [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Es werden bis zu 250 Werte unterstützt. Wenn es mehr eindeutige Werte gibt, als die Einstellung [!UICONTROL Maximale Werte] zulässt, werden die ältesten Werte nicht den Metriken zugeordnet.
 
 ## Einrichten von Listenvariablen in den Report Suite-Einstellungen
 
@@ -27,7 +27,7 @@ Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellung
 
 ## Listenvariablen, die das Web SDK verwenden
 
-Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), verwenden Listenvariablen die XDM-Felder `xdm._experience.analytics.customDimensions.lists.list1.list[]` nach `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Adobe-Datenerfassungsserver erkennen automatisch das richtige Trennzeichen, das in [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) verwenden Listenvariablen die XDM-Felder `xdm._experience.analytics.customDimensions.lists.list1.list[]` bis `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Adobe-Datenerfassungsserver erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) festgelegt ist, und schließen es ein.
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), verw
 >
 >Das Adobe-XDM-Schema enthält `key`-Objekte zusätzlich zu `value`-Objekten in jedem `list[]`-Array. Adobe verwendet diese `key`-Objekte nicht beim Senden von Daten an Adobe Analytics.
 
-Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), Listenvariablen verwenden `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` nach AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen die folgende AppMeasurement-Syntax: `data.__adobe.analytics.list1` - `data.adobe.analytics.list3`. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in den [Report Suite-Einstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) festgelegt ist.
 
 ```json
 "data": {

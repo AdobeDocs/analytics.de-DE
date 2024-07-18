@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Diese Dimension wurde eingestellt und ist nicht verfügbar. [Dimension](overview.md) in Analysis Workspace. Adobe empfiehlt stattdessen die Verwendung von [eVars](evar.md) und Klassifizierungen.
+>Diese Dimension wurde eingestellt und ist keine verfügbare [Dimension](overview.md) in Analysis Workspace. Adobe empfiehlt stattdessen die Verwendung von [eVars](evar.md) und Klassifizierungen.
 
 Hierarchien sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den von ihnen festgelegten Treffer hinaus bestehen. Es sind bis zu 5 Hierarchien verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 

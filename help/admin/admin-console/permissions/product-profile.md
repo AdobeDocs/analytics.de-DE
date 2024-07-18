@@ -33,7 +33,7 @@ Informationen zur Ernennung von Produktprofil-Administrierenden finden Sie im Ab
 Für den Zugriff auf Adobe Analytics sind in einem Produktprofil mindestens folgende Berechtigungen erforderlich:
 
 * Das Produktprofil muss Zugriff auf mindestens eine Report Suite haben
-* Das Produktprofil muss zum Berechtigungselement Analytics Tools gehören **Zugriff auf Analysis Workspace**.
+* Das Produktprofil muss zum Berechtigungselement &quot;**Analysis Workspace Access**&quot; für die Analytics-Tools gehören.
 
 ### Report Suites
 

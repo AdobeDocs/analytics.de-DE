@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ So erstellen Sie eine Anomalieerkennungsanforderung in Report Builder:
 
    Klicken Sie für die hinzugefügte Metrik auf den Link **[!UICONTROL Keine]**.
 
-   ![Screenshot mit Anomalieerkennung, gefolgt von Einfügen und anschließenden Einfügen von Optionen für Lower und Upper Bound und erwartet.](assets/anomaly_select.png)
+   ![Screenshot mit der Anomalieerkennung, gefolgt von &quot;Einfügen&quot;und anschließenden Optionen für &quot;Untere&quot;und &quot;Obere Grenze&quot;und &quot;Erwartet&quot;.](assets/anomaly_select.png)
 
 1. Wählen Sie **[!UICONTROL Anomalieerkennung]** > **[!UICONTROL `<selection>`]** aus.
 

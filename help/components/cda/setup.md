@@ -38,7 +38,7 @@ Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Sui
 
 1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
-3. Bewegen **[!UICONTROL Komponenten]** Klicken Sie oben auf **[!UICONTROL Virtual Report Suites]**.
+3. Bewegen Sie den Mauszeiger über **[!UICONTROL Komponenten]** oben und klicken Sie dann auf **[!UICONTROL Virtual Report Suites]**.
 4. Klicken Sie auf Hinzufügen.
 5. Geben Sie einen Namen für Ihre Virtual Report Suite ein und stellen Sie sicher, dass die für die geräteübergreifende Analyse aktivierte Report Suite ausgewählt ist.
 6. (Optional) Wenden Sie ein Segment auf die Virtual Report Suite an. Sie können beispielsweise ein Segment anwenden, das die Virtual Report Suite auf Daten beschränkt, die nach dem Datum liegen, an dem die geräteübergreifende Analyse aktiviert wurde und die Suche begonnen hat. Dieses Segment ermöglicht es Benutzern, nur zugewiesene Datumsbereiche innerhalb der Virtual Report Suite anzuzeigen.

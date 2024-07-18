@@ -7,7 +7,7 @@ exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitena
 
 ## Zugriff auf Echtzeitberichte
 
-1. Wählen Sie in Analysis Workspace die [!UICONTROL **Arbeitsbereich**] Registerkarte.
+1. Wählen Sie in Analysis Workspace die Registerkarte [!UICONTROL **Workspace**].
 
-1. Auswählen [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]**.
+1. Wählen Sie [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]** aus.
 
 ## Echtzeitberichte verstehen
 

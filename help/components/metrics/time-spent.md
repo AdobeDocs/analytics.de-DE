@@ -12,19 +12,19 @@ ht-degree: 72%
 
 # Besuchszeit – Übersicht
 
-Verschiedene [!UICONTROL &quot;Besuchszeit&quot;] [Metriken](overview.md) und -Dimensionen werden für alle Adobe Analytics-Produkte angeboten.
+Für Adobe Analytics-Produkte stehen verschiedene [!UICONTROL &#39;Besuchszeit&#39;] [Metriken](overview.md) und Dimensionen zur Verfügung.
 
 ## Besuchszeit-Metriken
 
 | Metrik | Definition | Verfügbar in |
 |---|---|---|
 | [!UICONTROL Gesamtbesuchszeit in Sekunden] | Zeigt den Zeitraum an, über den Besucher insgesamt mit einem bestimmten Dimensionselement agieren. Enthält die Instanz eines Wertes sowie die Persistenz über alle folgenden Treffer hinweg. Bei Props wird die Besuchszeit auch über die nachfolgenden Verknüpfungsereignisse hinweg berechnet. | Analysis Workspace, Report Builder (als &quot;Gesamtbesuchszeit&quot;bezeichnet), Data Warehouse |
-| [!UICONTROL Zeit pro Besuch] (Sekunden) | Ungefähres *Gesamtbesuchszeit in Sekunden/(Besuchsabsprünge)*<br> Stellt die durchschnittliche Zeit dar, die Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
-| [!UICONTROL Besuchszeit pro Besucher] (Sekunden) | Ungefähres *Gesamtbesuchszeit in Sekunden/Unique Visitor*<br> Stellt die durchschnittliche Zeit dar, die Besucher über die Lebensdauer des Besuchers (Cookie-Dauer) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
-| [!UICONTROL Besuchszeit/Benutzer (Status)] | Ungefähres *Gesamtbesuchszeit pro Mobile App in Sekunden/Unique Mobile App-Besucher*<br> Stellt die durchschnittliche Zeit dar, die Besucher mobiler Apps über die Lebensdauer des Besuchers (Cookie-Länge) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
+| [!UICONTROL Zeit pro Besuch] (Sekunden) | Ungefähr *Gesamtbesuchszeit in Sekunden/(Besuchsabsprünge)*<br> Stellt die durchschnittliche Zeit dar, die Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
+| [!UICONTROL Besuchszeit pro Besucher] (Sekunden) | Ungefähr *Gesamtbesuchszeit/Unique Visitor in Sekunden*<br> Stellt die durchschnittliche Zeit dar, die Besucher über die Lebensdauer des Besuchers (Cookie-Länge) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
+| [!UICONTROL Besuchszeit/Benutzer (Status)] | Ungefähr *Gesamtbesuchszeit für die mobile App in Sekunden/Unique Mobile-App-Besucher*<br> Stellt die durchschnittliche Zeit dar, die Besucher der mobilen App über die Lebensdauer des Besuchers (Cookie-Länge) mit einem bestimmten Dimensionselement interagieren. **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
 | [!UICONTROL Durchschnittliche Besuchszeit pro Site] (Sekunden) | Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Es ist nicht nur auf &quot;Site&quot;-Durchschnittswerte beschränkt, wie der Name nahe legt. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“.<br>**Hinweis**: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. | Analysis Workspace, Report Builder (in Minuten angezeigt) |
-| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie *Durchschnittliche Besuchszeit pro Site (Sekunden)*, außer als Zeit formatiert (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> Adobe empfiehlt stattdessen die Verwendung von &quot;Durchschnittliche Besuchszeit pro Site&quot;, wenn die durchschnittliche Besuchszeit für ein Dimensionselement erforderlich ist. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |
+| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Dies ist dieselbe Metrik wie *Durchschnittliche Besuchszeit pro Site (Sekunden)*, mit Ausnahme der Formatierung als Zeit (`hh:mm:ss`) | Analysis Workspace |
+| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> Stattdessen empfiehlt Adobe, dass Sie &quot;Durchschnittliche Besuchszeit pro Site&quot;verwenden, wenn die durchschnittliche Besuchszeit für ein Dimensionselement erforderlich ist. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |
 | [!UICONTROL Gesamtsitzungslänge], also [!UICONTROL Frühere Sitzungslänge] | Nur SDK für Mobilanwendungen. <br>Wird beim nächsten Start der App für die vorangegangene Sitzung bestimmt. Diese Metrik wird in Sekunden berechnet. Allerdings zählt sie nicht, wenn sie im Hintergrund ausgeführt wird, sondern nur, wenn sie direkt verwendet wird. Es handelt sich um eine Metrik auf Sitzungsebene.<br>Beispiel: Wir installieren die App ABC, starten die App und verwenden sie 2 Minuten lang, bevor wir die App schließen. Es werden keine Daten über diese Sitzungsdauer gesendet. Wenn wir die App das nächste Mal starten, wird die [!UICONTROL Frühere Sitzungslänge] mit einem Wert von 120 gesendet. | Analysis Workspace, Report Builder, Mobile Services-Benutzeroberfläche |
 | [!UICONTROL Durchschnittliche Sitzungslänge] (Mobil) | *Gesamtsitzungslänge/(Starts – Erste Starts)*<br> Nur Mobile-App-SDK. Es handelt sich um eine Metrik auf Sitzungsebene. | Report Builder, Benutzeroberfläche von Mobile Services |
 
@@ -71,14 +71,14 @@ Die Besuchszeit-Metriken, die auf jede Dimension angewendet werden können, sind
 
 +++ Welche Besuchszeitdimension wird am besten in Aufschlüsselungen mit anderen Dimensionen verwendet?
 
-Die [!UICONTROL Besuchszeit pro Seite - präzise] -Dimension ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
+Die Dimension [!UICONTROL Besuchszeit pro Seite - präzise] ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
 Im folgenden Beispiel ist der Suchbegriff &quot;classifieds&quot;mit Trefferzeiten von 54 Sekunden, 59 Sekunden usw. verknüpft, was möglicherweise anzeigt, dass Besucher Zeit mit dem Lesen von Inhalten verbringen, die für diesen Begriff zurückgegeben werden.
 
 ![](assets/time-spent1.png)
 
 +++
 
-+++Welche Metrik eignet sich für die Dimension von [!UICONTROL Besuchszeit pro Seite - präzise]?
++++ Welche Metrik eignet sich für die Dimension [!UICONTROL Besuchszeit pro Seite - präzise]?
 
 Jede beliebige Metrik. Die Dimension zeigt die Besuchszeit für den Treffer an, bei dem es zu dem Ereignis kam. Eine längere Besuchszeit bedeutet, dass ein Besucher mehr Zeit auf einer Seite (Treffer) verbracht hat, auf der es zu dem Ereignis kam.
 
@@ -86,7 +86,7 @@ Jede beliebige Metrik. Die Dimension zeigt die Besuchszeit für den Treffer an, 
 
 +++
 
-+++Wie funktioniert [!UICONTROL Durchschnittliche Besuchszeit pro Site] unterscheidet sich von [!UICONTROL Zeit pro Besuch]?
++++Wie unterscheidet sich [!UICONTROL Durchschnittliche Besuchszeit pro Site] von [!UICONTROL Zeit pro Besuch]?
 
 Der Unterschied ist der in der Metrik verwendete Nenner:
 
@@ -98,9 +98,9 @@ Aus diesem Grund geben diese Metriken möglicherweise ähnliche Ergebnisse auf B
 
 +++
 
-+++ Warum verwenden Aufschlüsselungssummen mit [!UICONTROL Durchschnittliche Besuchszeit pro Site] nicht mit dem übergeordneten Zeileneintrag übereinstimmen?
++++ Warum stimmen Aufschlüsselungssummen mit [!UICONTROL Durchschnittliche Besuchszeit pro Site] nicht mit dem übergeordneten Zeileneintrag überein?
 
-weil [!UICONTROL Durchschnittliche Besuchszeit pro Site] hängt von ununterbrochenen Sequenzen einer Dimension ab, und der innere Bericht hängt bei der Berechnung dieser Läufe nicht vom äußeren Bericht ab.
+Da [!UICONTROL Durchschnittliche Besuchszeit pro Site] von ununterbrochenen Sequenzen einer Dimension abhängt und der innere Bericht bei der Berechnung dieser Ausführungen nicht vom äußeren Bericht abhängt.
 
 Betrachten Sie beispielsweise den folgenden Besuch.
 

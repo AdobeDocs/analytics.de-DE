@@ -35,11 +35,11 @@ Bei Verwendung von Ereignis-IDs erfolgt eine Deduplizierung auf folgenden Ebenen
 
 ## Verwenden von Ereignis-IDs mit dem Web SDK
 
-Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), verwendet die Ereignis-Serialisierung das XDM-Feld des gewünschten Ereignisses. `id`. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
+Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) verwendet die Ereignis-Serialisierung das XDM-Feld des gewünschten Ereignisses `id`. Der vollständige XDM-Pfad hängt davon ab, welches Ereignis Sie serialisieren möchten.
 
-Wenn Sie beispielsweise die Metrik &quot;Zusatz zum Warenkorb&quot;serialisieren möchten, legen Sie `xdm.commerce.productListAdds.id` zum gewünschten Serialisierungswert hinzu. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, legen Sie `xdm._experience.analytics.event1to100.event20` zum gewünschten Serialisierungswert hinzu.
+Wenn Sie beispielsweise die Metrik Zusatz zum Warenkorb serialisieren möchten, setzen Sie `xdm.commerce.productListAdds.id` auf den gewünschten Serialisierungswert. Wenn Sie das benutzerdefinierte Ereignis 20 serialisieren möchten, setzen Sie `xdm._experience.analytics.event1to100.event20` auf den gewünschten Serialisierungswert.
 
-Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), verwendet die Ereignis-Serialisierung `data.__adobe.analytics.events`, die der AppMeasurement-String-Syntax folgt.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet die Ereignis-Serialisierung `data.__adobe.analytics.events` und folgt dabei der AppMeasurement-String-Syntax.
 
 ## Verwenden von Ereignis-IDs mit der Adobe Analytics-Erweiterung
 
@@ -49,7 +49,7 @@ Sie können das Feld für die Ereignis-ID entweder beim Konfigurieren der Analyt
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie die [!UICONTROL Erweiterung] einer Dropdown-Liste zu Adobe Analytics und dem [!UICONTROL Aktionstyp] nach [!UICONTROL Variablen festlegen].
+5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse], in dem jedes Ereignis ein Feld [!UICONTROL Ereignis-ID] enthält.
 
 Gültige Werte sind alphanumerische Zeichen bis zu 20 Byte. Wenn Sie einen Wert eingeben, der länger als 20 Byte ist, kürzt das System ihn auf die ersten 20 Byte.

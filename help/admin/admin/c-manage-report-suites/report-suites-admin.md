@@ -6,7 +6,7 @@ exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONT
 
 >[!NOTE]
 >
->Virtual Report Suites werden über verwaltet **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]**. Weitere Informationen finden Sie unter [Dokumentation zu Virtual Report Suites](/help/components/vrs/vrs-about.md).
+>Virtual Report Suites werden unter **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verwaltet. Weitere Informationen finden Sie in der [Dokumentation zur Virtual Report Suite](/help/components/vrs/vrs-about.md).
 
 ## Report Suite Manager-Beschreibungen {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

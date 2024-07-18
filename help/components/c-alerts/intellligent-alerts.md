@@ -46,7 +46,7 @@ Es gibt drei Möglichkeiten, zur Warnhinweiserstellung zu gelangen:
 
 ## FAQs: Wie werden Warnhinweise berechnet und ausgelöst? {#trigger}
 
-Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Abhängig von der ausgewählten Zeitgranularität [verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) werden verwendet, um zu berechnen, wie weit (wie viele Standardabweichungen) jeder Datenpunkt von der Norm entfernt ist. Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
+Bei den prozentualen Schwellenwerten handelt es sich um Standardabweichungen. Beispiel: 95 % = 2 Standardabweichungen und 99 % = 3 Standardabweichungen. Je nach der von Ihnen gewählten Zeitgranularität werden [verschiedene Modelle](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) verwendet, um zu berechnen, wie weit (wie viele Standardabweichungen) jeder Datenpunkt von der Norm entfernt ist. Wenn Sie einen niedrigeren Schwellenwert festlegen (z. B. 90 %), erhalten Sie mehr Anomalien als bei einem höheren Schwellenwert (99 %). Die Schwellenwerte 99,75 % und 99,99 % wurden speziell für die Granularität „Stündlich“ eingeführt, damit nicht allzu viele Anomalien ausgelöst werden.
 
 +++ Wie weit reicht die Anomalieerkennung des Warnhinweises zurück, um Datenanomalien zu ermitteln?
 
@@ -73,7 +73,7 @@ Derzeit ist dies leider nicht möglich.
 
 +++ Kann ich eine Tabelle der &quot;erwarteten Werte&quot;, die die gepunktete Linie ausmachen, oder eine Art Ausgabe davon erhalten, was diese Werte sind?
 
-Nicht in Workspace, aber Sie können in Report Builder. Siehe [dieses Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=de) zur Anomalieerkennung im Report Builder.
+Nicht in Workspace, aber Sie können in Report Builder. Siehe [dieses Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=de) zur Anomalieerkennung in Report Builder.
 
 Beachten Sie, dass in Report Builder weniger ausgefeilte Methoden zur Anomalieerkennung angewandt werden. Es wird ein fester 30-tägiger Schulungzeitraum verwendet, festes 95-%-Intervall.
 

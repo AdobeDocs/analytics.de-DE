@@ -12,11 +12,11 @@ ht-degree: 72%
 
 # Produktansichten
 
-Die Produktansichten [Metrik](overview.md) zeigt an, wie oft ein Produkt angezeigt wurde. Diese Metrik ist nützlich, wenn Sie Ihre am häufigsten angezeigten Ansichten sehen möchten oder sehen wollen, wie sich die Gesamtproduktansichten im Laufe der Zeit entwickeln.
+Die Metrik &quot;Produktansichten&quot;[](overview.md) gibt an, wie oft ein Produkt angezeigt wurde. Diese Metrik ist nützlich, wenn Sie Ihre am häufigsten angezeigten Ansichten sehen möchten oder sehen wollen, wie sich die Gesamtproduktansichten im Laufe der Zeit entwickeln.
 
 ## Berechnung dieser Metrik
 
 Diese Metrik zählt die Anzahl der Treffer, die mit **einer** der folgenden Aussage übereinstimmen:
 
 * Der Wert `prodView` ist in der [`events`](/help/implement/vars/page-vars/events/events-overview.md)-Variable vorhanden oder
-* Die [`products`](/help/implement/vars/page-vars/products.md) festgelegt ist und die `events` leer ist.
+* Die Variable &quot;[`products`](/help/implement/vars/page-vars/products.md)&quot; und die Variable &quot;`events`&quot; sind leer.

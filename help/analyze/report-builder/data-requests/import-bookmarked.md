@@ -19,7 +19,7 @@ Wenn Sie einen mit Lesezeichen markierten Bericht auswählen, belegt der Anforde
 
 So werden in Schritt 1 des Anforderungs-Assistenten ein Dashboard und die zugehörigen Kurzberichte angezeigt:
 
-![Screenshot mit dem Anforderungs-Assistenten Schritt 1 von 2, in dem die Option Dashboards abrufen und Lesezeichen abrufen hervorgehoben wird.](assets/import_dashboard_reportlet.png)
+![Screenshot mit dem Anforderungs-Assistenten Schritt 1 von 2, in dem die Markierung &quot;Dashboards abrufen und Lesezeichen abrufen&quot;angezeigt wird.](assets/import_dashboard_reportlet.png)
 
 Wenn Sie auf **[!UICONTROL Ihre Dashboards abrufen]** oder auf **[!UICONTROL Ihre Lesezeichen abrufen]** klicken, werden Ihre vorhandenen Dashboard- und/oder Lesezeichendaten abgerufen und in das Arbeitsblatt eingefügt.
 

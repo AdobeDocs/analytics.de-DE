@@ -33,7 +33,7 @@ Adobe bietet verschiedene Arten von Metriken zur Verwendung in Analysis Workspac
 
 ## Verwenden von Metriken in Analysis Workspace
 
-Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. Informationen zum Hinzufügen von Metriken und anderen Komponententypen zu Analysis Workspace finden Sie unter [Komponenten in Analysis Workspace verwenden](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. Informationen zum Hinzufügen von Metriken und anderen Komponententypen zu Analysis Workspace finden Sie unter [Verwenden von Komponenten in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

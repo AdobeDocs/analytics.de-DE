@@ -14,20 +14,20 @@ ht-degree: 6%
 
 Wenn Sie mehrere Classification-Sets haben, die ähnliche Daten enthalten, können Sie sie zu einem einzigen Classification-Satz zusammenfassen. Wenn Sie zwei oder mehr Classification-Sets zusammenfassen, generiert Adobe einen neuen Classification-Satz, der alle Classification-Daten aus jedem Classification-Satz enthält. Konsolidierungen sind nützlich, wenn Sie Daten in viele Report Suites oder Dimensionen hochgeladen haben, die dieselben Classification-Daten enthalten und diese zu einem einzigen Workflow zusammenführen möchten. Sie müssen über Produktadministratorzugriff für Adobe Analytics verfügen, um den Konsolidierungsmanager für Klassifizierungssätze sehen zu können.
 
-**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Konsolidierung]**
+**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Konsolidierungen]**
 
-Sobald eine Konsolidierung ausgeführt wird, werden die ursprünglichen Classification-Sets entfernt, wobei der konsolidierte Classification-Satz ihren Platz einnimmt. Klicks **[!UICONTROL Hinzufügen]** nach [Konsolidierung erstellen](process.md).
+Sobald eine Konsolidierung ausgeführt wird, werden die ursprünglichen Classification-Sets entfernt, wobei der konsolidierte Classification-Satz ihren Platz einnimmt. Klicken Sie auf **[!UICONTROL Hinzufügen]** zu [Erstellen einer Konsolidierung](process.md).
 
 ## Filtern von Classification-Sets
 
-Die linke Seite des Konsolidierungs-Managers für den Klassifizierungssatz bietet Filtereinstellungen, um die gewünschte Konsolidierung zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Konsolidierungen nach **[!UICONTROL Status]**, **[!UICONTROL Abschlusszeit]** oder **[!UICONTROL Erstellungszeit]**.
+Die linke Seite des Konsolidierungs-Managers für den Klassifizierungssatz bietet Filtereinstellungen, um die gewünschte Konsolidierung zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Konsolidierungen nach **[!UICONTROL Status]**, **[!UICONTROL Abschlusszeit]** oder **[!UICONTROL Erstellungszeit]** filtern.
 
 ![Konsolidierungsfilter für Klassifizierungssätze](../../assets/classification-set-consolidation-filters.png)
 
 Zusätzliche Filteroptionen sind über den Spalten des Konsolidierungs-Managers für den Classification-Satz verfügbar:
 
-* **[!UICONTROL Suche nach Titel]**: Suche nach Konsolidierungen anhand des Namens.
-* **Spalten ein-/ausblenden**: Schaltet die Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Name].
+* **[!UICONTROL Suche nach Titel]**: Suche nach Konsolidierungen nach Namen.
+* **Spalten ein-/ausblenden**: Schaltet die Sichtbarkeit für eine Spalte außer [!UICONTROL Name] um.
 
 ## Konsolidierungs-Manager-Spalten für Klassifizierungssätze
 

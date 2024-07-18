@@ -19,10 +19,10 @@ Da Adobe Analytics zum Kompilieren und Senden einer Bildanforderung eine JavaScr
 
 ## Festlegen der Methode zum Implementieren von Adobe Analytics auf Seiten mit AMP
 
-Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit AMP. Beide verwenden das HTML-Tag `<amp-analytics>`. Siehe [amp-analytics](https://amp.dev/de/documentation/components/amp-analytics) Weitere Informationen finden Sie in der AMP-Dokumentation .
+Adobe bietet zwei Methoden zum Implementieren von Adobe Analytics auf Seiten mit AMP. Beide verwenden das HTML-Tag `<amp-analytics>`. Weitere Informationen finden Sie unter [amp-analytics](https://amp.dev/de/documentation/components/amp-analytics) in der AMP-Dokumentation.
 
-* **Verwenden Sie die `"adobeanalytics"` template**: Erstellen Sie die Analytics-Anforderung direkt auf der Seite
-* **Verwenden Sie die `"analytics_nativeConfig"` template**: Verwenden Sie einen iframe, der denselben AppMeasurement-Code enthält, den Sie auf Ihrer normalen Site bereitstellen.
+* **Verwenden Sie die `"adobeanalytics"`-Vorlage**: Erstellen Sie die Analytics-Anforderung direkt auf der Seite
+* **Use the `"analytics_nativeConfig"` template**: Verwenden Sie einen iframe, der denselben AppMeasurement-Code enthält, den Sie auf Ihrer normalen Site bereitstellen
 
 In der folgenden Tabelle werden die beiden Methoden verglichen:
 
@@ -42,11 +42,11 @@ Legen Sie die Vor- und Nachteile ab, sodass Sie die beste Implementierungsmethod
 >
 >Verwenden Sie mit AMP nicht sowohl die `"adobeanalytics"`- als auch die `"adobeanalytics_nativeConfig"`-Vorlage auf derselben Seite. Wenn Sie dies versuchen, können Sie Fehler in der Browser-Konsole erzeugen und Besucher doppelt zählen.
 
-## Methode 1: Verwenden Sie die `<amp-analytics>` Tag mit dem `"adobeanalytics"` template
+## Methode 1: Verwenden des `<amp-analytics>`-Tags mit der `"adobeanalytics"`-Vorlage
 
 Die Tracking-Vorlage `"adobeanalytics"` nutzt das `<amp-analytics>`-HTML-Tag, um direkt eine Tracking-Anforderung zu erstellen. Sie können Trefferanforderungen angeben, die bei bestimmten Seitenereignissen ausgelöst werden, z. B. bei der Anzeige der Seite oder bei einem Klick. Klickereignisse können angepasst werden, um sie auf bestimmte Element-IDs oder Klassen anzuwenden, indem eine Auswahl angegeben wird. Sie können die Vorlage laden, indem Sie `type="adobeanalytics"` zum amp-analytics-Tag hinzufügen.
 
-Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `click`. Der Auslöser `pageLoad` erfolgt, wenn das Dokument sichtbar wird und die `pageName`-Variable, wie im `vars`-Abschnitt definiert, enthält. Der zweite Auslöser `click` erfolgt beim Klick auf eine Schaltfläche. Die `eVar1` für dieses Ereignis mit dem Wert festgelegt ist `button clicked`.
+Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `click`. Der Auslöser `pageLoad` erfolgt, wenn das Dokument sichtbar wird und die `pageName`-Variable, wie im `vars`-Abschnitt definiert, enthält. Der zweite Auslöser `click` erfolgt beim Klick auf eine Schaltfläche. Die Variable `eVar1` wird für dieses Ereignis mit dem Wert `button clicked` festgelegt.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -79,17 +79,17 @@ Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `clic
 </amp-analytics>
 ```
 
-Die `<amp-analytics>` Tag unterstützt Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Siehe [werden in `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) auf GitHub .
+Das Tag `<amp-analytics>` unterstützt Variablenersetzungen, sodass AMP bekannte Datenwerte bereitstellen kann. Weitere Informationen finden Sie unter [in `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) unterstützte Variablen auf GitHub .
 
 >[!NOTE]
 >
->Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einbeziehen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für Bildanforderungen enthalten sind. Siehe [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md) für eine vollständige Liste der Abfrageparameter für Bildanforderungen und der zugehörigen Variablen.
+>Bildanforderungen, die mit dieser Methode an Adobe gesendet werden, enthalten für viele Standardberichte (z. B. Browser, Bildschirmgröße oder Referrer) keine Daten. Wenn Sie diese Informationen in Treffer einbeziehen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge für Bildanforderungen enthalten sind. Eine vollständige Liste der Abfrageparameter für Bildanforderungen und der zugehörigen Variablen finden Sie unter [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md) .
 
 Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist für jede andere von Adobe Analytics festgelegte ID eindeutig. Für jedes CDN, aus dem ein Besucher Inhalte abruft, wird ein anderer Unique Visitor gezählt, was die Anzahl der Unique Visitors erhöhen kann. Die Verwendung einer separaten Report Suite für AMP-Seiten wird dringend empfohlen, da AMP Unique Visitors identifiziert. Der Adobe Experience Cloud ID-Dienst wird nicht unterstützt.
 
 Bei dieser Lösung muss der von Ihnen in der `host`-Eigenschaft festgelegte Trackingserver dem Trackingserver auf Ihrer Haupt-Website entsprechen, damit Ihre Datenschutzrichtlinien eingehalten werden. Andernfalls erstellen Sie eine separate Datenschutzrichtlinie für Seiten, die AMP verwenden.
 
-## Methode 2: Verwenden Sie die `<amp-analytics>` Tag mit dem `"adobeanalytics_nativeConfig"` template
+## Methode 2: Verwenden des `<amp-analytics>`-Tags mit der `"adobeanalytics_nativeConfig"`-Vorlage
 
 Das `"adobeanalytics_nativeConfig"`-Tag ist einfacher zu implementieren, da es dieselbe Tagging-Methode wie auf Ihren normalen Websites nutzt. Fügen Sie Ihrem `amp-analytics`-Tag Folgendes hinzu:
 
@@ -147,7 +147,7 @@ Außerdem ist eine auf Ihren Webservern gehostete HTML-Seite erforderlich:
 
 Bei diesem Ansatz werden Daten über Abfragezeichenfolgenparameter, die dem `iframeMessage`-Abfrageparameter hinzugefügt werden, an eine Dienstprogramm-Website gesendet. Diese Abfragezeichenfolgenparameter können beliebig benannt werden, solange Ihre `stats.html`-Seite so konfiguriert ist, dass sie die entsprechenden Daten daraus erfassen kann.
 
-Die `"adobeanalytics_nativeConfig"` -Vorlage fügt zudem Abfragezeichenfolgenparameter hinzu, die auf den Variablen basieren, die im `extraUrlParams` Abschnitt `<amp-analytics>` -Tag. Im obigen Beispiel werden die Parameter `pageName` und `v1` einbezogen.
+Die Vorlage `"adobeanalytics_nativeConfig"` fügt zudem Abfragezeichenfolgenparameter hinzu, die auf den im Abschnitt `extraUrlParams` des Tags `<amp-analytics>` aufgeführten Variablen basieren. Im obigen Beispiel werden die Parameter `pageName` und `v1` einbezogen.
 
 >[!IMPORTANT]
 >

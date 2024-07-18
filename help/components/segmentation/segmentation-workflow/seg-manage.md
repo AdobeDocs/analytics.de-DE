@@ -6,7 +6,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -20,11 +20,11 @@ Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Be
 
 ## Zugriff auf den Segment-Manager
 
-1. Wählen Sie in Adobe Analytics die **[!UICONTROL Komponenten]** Registerkarte und wählen Sie **[!UICONTROL Segmente]**.
+1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Segmente]** aus.
 
    Oder
 
-   Wählen Sie in einem vorhandenen Bericht das Segmentsymbol aus ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Verwalten]**.
+   Wählen Sie in einem vorhandenen Bericht das Segmentsymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) im linken Navigationsbereich und dann **[!UICONTROL Verwalten]** aus.
 
 ## Verfügbare Aktionen im Segment-Manager
 
@@ -52,9 +52,9 @@ Sie können die für jedes Segment im Segment-Manager angezeigten Informationen 
 
 So konfigurieren Sie die sichtbaren Spalten im Segment-Manager:
 
-1. Wählen Sie in Adobe Analytics die **[!UICONTROL Komponenten]** Registerkarte und wählen Sie **[!UICONTROL Segmente]**.
+1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Segmente]** aus.
 
-1. Wählen Sie im Segment-Manager die **Spalten anpassen** icon ![Symbol &quot;Spalten anpassen&quot;](assets/customize-columns-icon.png)und wählen Sie dann die Spalten aus, die im Segment-Manager angezeigt werden sollen.
+1. Wählen Sie im Segment-Manager das Symbol **Spalten anpassen** ![Spaltensymbol anpassen](assets/customize-columns-icon.png) und wählen Sie dann die Spalten aus, die im Segment-Manager angezeigt werden sollen.
 
    Die folgenden Spalten sind verfügbar:
 
@@ -67,8 +67,8 @@ So konfigurieren Sie die sichtbaren Spalten im Segment-Manager:
    | Tags (in der Spaltenauswahl nicht aktiviert, weshalb die Spalte nicht angezeigt wird) | Tags, die entweder durch Sie oder durch Personen, die ein Segment für Sie freigegeben haben, auf das Segment angewendet wurden. |
    | Freigegeben für | Zeigt Personen oder Gruppen (nur Administrator) oder „Alle“ (nur Administrator) an, für die Sie das Segment freigegeben haben. <p>Wenn ein Segment von Ihnen oder für Sie freigegeben wird, wird neben dem Segmentnamen ein Freigabesymbol angezeigt.</p> |
    | Änderungsdatum | Zeigt das Datum der letzten Änderung des Segments an. |
-   | Verwendet in | Zeigt an, in wie vielen Komponenten das Segment derzeit verwendet wird. <p>Wenn das Segment beispielsweise in 40 Projekten und 2 Warnhinweisen verwendet wird, zeigt der Wert dieser Spalte als [!UICONTROL **42 Komponenten**].</p> <p>Wählen Sie den Wert in dieser Spalte aus, um die Aufschlüsselung der verwendeten Segmente anzuzeigen (z. B. [!UICONTROL **Projekte (40)**], [!UICONTROL **Warnhinweise (2)**]).</p><p>Segmente können in einem der folgenden Komponententypen verwendet werden:</p> <ul><li>Warnhinweise</li><li>Projekte</li><li>Geplante Projekte</li><li>Berechnete Metriken </li></ul><p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie bei der Anzeige dieser Spalte Folgendes:</p><ul><li>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</li><li>Die [!UICONTROL **Verwendet in**] -Spalte wird nicht standardmäßig angezeigt. [Spalten konfigurieren](#configure-columns) , um es anzuzeigen.</li><li>Wenn in dieser Spalte keine Daten für eine bestimmte Komponente vorhanden sind, aber eine [!UICONTROL **Zuletzt verwendet**] Datum, wurde die Komponente möglicherweise in einer Analyse verwendet, ohne gespeichert zu werden.</li><li>Diese Informationen sind nur für Systemadministratoren verfügbar.</li></ul><p>Sie können die [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen, damit Sie die Verwendung von Komponenten in Ihrem Unternehmen verfolgen und besser verstehen können.</p> |
-   | Zuletzt verwendet | Zeigt das Datum der letzten Verwendung des Segments in einem der folgenden Komponententypen an: <ul><li>Warnhinweise</li><li>Berechnete Metriken </li><li>Projekte</li><li>Geplante Projekte</li><li>Segmente </li></ul> <p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie bei der Anzeige dieser Spalte Folgendes:</p><ul><li>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</li><li>Bei einigen Komponenten enthält diese Spalte möglicherweise keine Daten, wenn die Komponente zuletzt vor September 2023 verwendet wurde.</li><li>Diese Informationen sind nur für Systemadministratoren verfügbar.</li></ul><p>Sie können die [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen, damit Sie die Verwendung von Komponenten in Ihrem Unternehmen verfolgen und besser verstehen können. |
+   | Verwendet in | Zeigt an, in wie vielen Komponenten das Segment derzeit verwendet wird. <p>Wenn das Segment beispielsweise in 40 Projekten und 2 Warnhinweisen verwendet wird, wird der Wert dieser Spalte als [!UICONTROL **42 Komponenten**] angezeigt.</p> <p>Wählen Sie den Wert in dieser Spalte aus, um die Aufschlüsselung des Bereichs anzuzeigen, in dem das Segment verwendet wird (z. B. [!UICONTROL **Projekte (40)**], [!UICONTROL **Warnhinweise (2)**]).</p><p>Segmente können in einem der folgenden Komponententypen verwendet werden:</p> <ul><li>Warnhinweise</li><li>Projekte</li><li>Geplante Projekte</li><li>Berechnete Metriken </li></ul><p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</li><li>Die Spalte [!UICONTROL **Verwendet in**] wird nicht standardmäßig angezeigt. [Konfigurieren Sie Spalten](#configure-columns), um sie anzuzeigen.</li><li>Wenn in dieser Spalte keine Daten für eine bestimmte Komponente vorhanden sind, sie jedoch das Datum [!UICONTROL **Zuletzt verwendet**] hat, wurde die Komponente möglicherweise in einer Analyse verwendet, ohne gespeichert zu werden.</li><li>Diese Informationen sind nur für Systemadministratoren verfügbar.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um die Verwendung von Komponenten in Ihrer Organisation zu verfolgen und besser zu verstehen.</p> |
+   | Zuletzt verwendet | Zeigt das Datum der letzten Verwendung des Segments in einem der folgenden Komponententypen an: <ul><li>Warnhinweise</li><li>Berechnete Metriken </li><li>Projekte</li><li>Geplante Projekte</li><li>Segmente </li></ul> <p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzer in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen enthalten keine Verwendung von API, Report Builder oder Data Warehouse.</li><li>Bei einigen Komponenten enthält diese Spalte möglicherweise keine Daten, wenn die Komponente zuletzt vor September 2023 verwendet wurde.</li><li>Diese Informationen sind nur für Systemadministratoren verfügbar.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um die Verwendung von Komponenten in Ihrer Organisation zu verfolgen und besser zu verstehen. |
 
    {style="table-layout:auto"}
 

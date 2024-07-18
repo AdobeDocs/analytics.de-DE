@@ -87,4 +87,4 @@ Da für diese Funktion Implementierungsänderungen erforderlich sind, empfiehlt 
 
 ## Publisher-Berichte
 
-Ähnlich wie auch Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.
+Ähnlich wie auch Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account-Team.

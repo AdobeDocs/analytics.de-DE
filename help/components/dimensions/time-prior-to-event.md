@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 84%
 
 ---
 
 # Zeit vor Ereignis
 
-Die &quot;Zeit vor Ereignis&quot; [Dimension](overview.md) gibt die Zeit an, die zwischen dem ersten Treffer des Besuchs und der gewünschten Metrik verstrichen ist. Diese Dimension ist nützlich, um die Zeitdauer zu bestimmen, die zum Erzielen eines Erfolgsereignisses (z. B. einer Formularübermittlung oder eines Kaufs) benötigt wird.
+Die Dimension &quot;Zeit vor Ereignis&quot;[](overview.md) gibt die Zeit an, die zwischen dem ersten Treffer des Besuchs und der gewünschten Metrik verstrichen ist. Diese Dimension ist nützlich, um die Zeitdauer zu bestimmen, die zum Erzielen eines Erfolgsereignisses (z. B. einer Formularübermittlung oder eines Kaufs) benötigt wird.
 
 ## Füllen dieser Dimension mit Daten
 

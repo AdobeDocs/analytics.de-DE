@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Suchmaschine
 
-Die Suchmaschine [Dimension](overview.md) erfasst die Suchmaschinen, die Besucher zum Erreichen Ihrer Site verwenden. Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchmaschine: klassifiziert zu werden:
+Die Dimension &quot;Suchmaschine&quot;[Dimension](overview.md) erfasst die Suchmaschinen, die Besucher zum Erreichen Ihrer Site verwenden. Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchmaschine: klassifiziert zu werden:
 
 * Die Referrer-Domäne wird von Adobe als gültige Suchmaschine erkannt.
 * In der Referrer-URL ist ein Abfragezeichenfolgenparameter für Suchbegriffe vorhanden. Der Abfragezeichenfolgenparameter kann leer sein (wie dies bei mehreren Suchmaschinen aus Datenschutzgründen der Fall ist).

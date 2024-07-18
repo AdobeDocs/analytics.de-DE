@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # Metriktyp und Attribution
 
-Wann [Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)können Sie den Metriktyp und das Attributionsmodell angeben.
+Beim [ Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie den Metriktyp und das Attributionsmodell angeben.
 
 ## Metriktyp
 
@@ -31,7 +31,7 @@ So legen Sie den Metriktyp beim Erstellen einer berechneten Metrik fest:
 
 ## Funktionsweise der linearen Zuordnung
 
-[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) gibt an, wie Zuordnungsmodelle in berechneten Metriken ausgewertet werden.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) ist die Art und Weise, wie Zuordnungsmodelle in berechneten Metriken ausgewertet werden.
 
 Eine vollständige Liste der nicht standardmäßigen Attributionsmodelle und unterstützten Lookback-Fenster finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
 

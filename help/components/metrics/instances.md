@@ -6,13 +6,13 @@ exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
 # Instanzen
 
-Die Instanzen [Metrik](overview.md) zeigt an, wie oft eine Dimension explizit in einer Bildanforderung definiert wurde. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), behalten ihre Dimensionselemente über den Treffer hinaus bei, für den sie festgelegt wurden. Diese Metrik ist nützlich, wenn Sie sehen möchten, wie oft ein Dimensionselement ohne die Treffer festgelegt wurde, bei denen dieser Wert beibehalten wurde.
+Die Metrik &quot;Instanzen&quot;[](overview.md) gibt an, wie oft eine Dimension explizit in einer Bildanforderung definiert wurde. Einige Dimensionen, wie z. B. [eVars](../dimensions/evar.md), behalten ihre Dimensionselemente über den Treffer hinaus bei, für den sie festgelegt wurden. Diese Metrik ist nützlich, wenn Sie sehen möchten, wie oft ein Dimensionselement ohne die Treffer festgelegt wurde, bei denen dieser Wert beibehalten wurde.
 
 ## Berechnung dieser Metrik
 
@@ -25,4 +25,4 @@ Wenn Sie einen Bericht in Workspace anzeigen, würden Sie eine eVar1-Instanz und
 ## Vergleich mit ähnlichen Metriken
 
 * **Instanzen vs. [Vorfälle](occurrences.md)**: Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird. Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde.
-* **Instanzen vs. [Seitenansichten](page-views.md)**: Instanzen umfassen alle Treffertypen, einschließlich Seitenansicht-Tracking-Aufrufen ([`t()`](/help/implement/vars/functions/t-method.md)), Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) und Daten aus der Zusammenfassung [Datenquellen](/help/import/data-sources/overview.md). Die Metrik &quot;Seitenansichten&quot;umfasst nur Seitenansichts-Tracking-Aufrufe, ausgenommen Linktracking-Aufrufe und Zusammenfassungsdatenquellen.
+* **Instanzen vs. [Seitenansichten](page-views.md)**: Instanzen umfassen alle Treffertypen, einschließlich Seitenansichts-Tracking-Aufrufen ([`t()`](/help/implement/vars/functions/t-method.md)), Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) und Daten aus der Zusammenfassung [Datenquellen](/help/import/data-sources/overview.md). Die Metrik „Seitenansichten“ umfasst nur Seitenansichts-Tracking-Aufrufe, aber keine Linktracking-Aufrufe und Datenquellen auf Zusammenfassungsebene.

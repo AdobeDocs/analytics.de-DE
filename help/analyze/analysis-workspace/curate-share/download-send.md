@@ -27,7 +27,7 @@ Beachten Sie beim Herunterladen von Projekten Folgendes:
    * Der Export von Downloads kann mehrere Minuten dauern, da das Projekt auf Adobe-Servern erneut ausgeführt wird, bevor es im PDF-Format gerendert wird. Wir empfehlen, das Projekt nicht zu verlassen, bis die PDF-Datei in Ihren Browser heruntergeladen wurde. Sie können jedoch beim Warten weiterhin Änderungen am Projekt vornehmen. Wenn die Ausgabe einer PDF-Datei länger als 5 Minuten dauert, werden Sie aufgefordert, diese stattdessen per E-Mail zu erhalten.
    * Downloads werden als einzelne Seite ohne Seitenumbruch gerendert.
    * PDF-Renderings enthalten die Informationen auf der Seite in Workspace. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
-   * Alle [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) , die in Freiformtabellen vorhanden sind, sind in der heruntergeladenen PDF nicht funktionsfähig.
+   * Alle [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md), die in Freiformtabellen vorhanden sind, sind auf der heruntergeladenen PDF nicht funktionsfähig.
 
 Herunterladen eines Projekts als CSV- oder PDF-Datei:
 

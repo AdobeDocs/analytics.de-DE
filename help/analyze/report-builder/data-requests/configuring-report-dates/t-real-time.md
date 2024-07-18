@@ -15,7 +15,7 @@ ht-degree: 80%
 
 So konfigurieren Sie Echtzeit-Anfragedaten:
 
-1. Stellen Sie sicher, dass die Echtzeitberichterstellung im [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=de).
+1. Stellen Sie sicher, dass die Echtzeitberichterstellung in den [Admin Tools](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=de) aktiviert ist.
 1. Klicken Sie im [!UICONTROL Anforderungs-Assistenten, Schritt 1] auf **[!UICONTROL Echtzeitbericht]** > **[!UICONTROL `<report type>`]**
 
    Wählen Sie beispielsweise einen Traffic-Bericht. Wenn Sie einen Echtzeitberichtstyp auswählen, werden die Optionen für die [!UICONTROL Auswahl des Zeitraums] angezeigt.

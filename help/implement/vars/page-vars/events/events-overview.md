@@ -19,7 +19,7 @@ Bevor Sie Ereignisse implementieren, stellen Sie sicher, dass Sie sie in den Rep
 
 ## Ereignisse, die das Web SDK verwenden
 
-Wenn Sie die [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md), verwenden benutzerdefinierte Ereignisse die folgenden XDM-Felder:
+Bei Verwendung des [XDM-Objekts](/help/implement/aep-edge/xdm-var-mapping.md) verwenden benutzerdefinierte Ereignisse die folgenden XDM-Felder:
 
 * Benutzerdefinierte Ereignisse 1–100 werden zugeordnet zu `xdm._experience.analytics.event1to100.event1` – `xdm._experience.analytics.event1to100.event100`.
 * Benutzerdefinierte Ereignisse 101–200 werden zugeordnet zu `xdm._experience.analytics.event101to200.event100` – `xdm._experience.analytics.event101to200.event200`.
@@ -38,7 +38,7 @@ Wenn Sie die [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md), verwende
 >
 >Wenn ein Ereignis unter `productListItems` festgelegt ist (z. B. `productListItems._experience.analytics.event1.value`) und sich dieses Ereignis noch nicht in diesem Feld befindet, wird dieses Ereignis automatisch diesem Feld hinzugefügt.
 
-Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), verwenden alle Ereignisse `data.__adobe.analytics.events`, die der AppMeasurement-String-Syntax folgt. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Ereignisse überschrieben und nicht an Adobe Analytics gesendet.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden alle Ereignisse `data.__adobe.analytics.events` und folgen dabei der AppMeasurement-Zeichenfolgensyntax. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Ereignisse überschrieben und nicht an Adobe Analytics gesendet.
 
 ## Ereignisse, die die Adobe Analytics-Erweiterung verwenden
 
@@ -48,14 +48,14 @@ Sie können Ereignisse entweder beim Konfigurieren der Analytics-Erweiterung (gl
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie die [!UICONTROL Erweiterung] einer Dropdown-Liste zu Adobe Analytics und dem [!UICONTROL Aktionstyp] nach [!UICONTROL Variablen festlegen].
+5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse].
 
 Es stehen verschiedene Funktionen zur Verfügung:
 
 * Eine Dropdown-Liste, in der Sie das einzuschließende Ereignis auswählen können
 * Ein optionales Textfeld zur Serialisierung. Weitere Informationen finden Sie unter [Ereignis-Serialisierung](event-serialization.md).
-* Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Wählen Sie beispielsweise `event1` unter der Dropdown-Liste und einschließlich `10` in diesem Feld erhöht `event1` um 10 Uhr in der Berichterstellung.
+* Ein optionales Textfeld für einen Ereigniswert. Sie können Währung für Währungsereignisse oder eine Ganzzahl für Ereignisse ohne Währungsangaben einschließen, um sie mehrmals zu erhöhen. Wenn Sie beispielsweise &quot;`event1`&quot;in der Dropdownliste auswählen und &quot;`10`&quot;in dieses Feld einschließen, wird in der Berichterstellung `event1` um 10 inkrementiert.
 * Eine Schaltfläche zum Hinzufügen eines weiteren Ereignisses. Sie können zu einer einzelnen Regel beliebig viele Ereignisse hinzufügen.
 
 ## s.events in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung

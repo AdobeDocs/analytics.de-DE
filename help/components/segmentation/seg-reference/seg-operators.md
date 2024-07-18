@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 96%
+source-wordcount: '1105'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken. Es gibt drei Kategorien von Operatoren: Standard, Data Warehouse und Distinct Count.
 
-Das einzige unterstützte Platzhalterzeichen ist das Sternchen: &#42;. Wenn Sie nach &#42;, können Sie ihn mit einem umgekehrten Schrägstrich umgehen.
+Das einzige unterstützte Platzhalterzeichen ist das Sternchen: &#42;. Wenn Sie nach &#42; suchen müssen, können Sie ihn mit einem umgekehrten Schrägstrich umgehen.
 
-**Beispiel**: Angenommen, Sie haben einen Seitennamen „My cool product“. Segmentregel &quot;Seitenname entspricht My&quot;&#42;product&quot;mit dem obigen Seitennamen übereinstimmen. Die Regel &quot;Seitenname entspricht jedoch My\\&quot;&#42;product&quot;entspricht nur dem Seitennamen &quot;My&#42;Produkt&quot;.
+**Beispiel**: Angenommen, Sie haben einen Seitennamen „My cool product“. Die Segmentregel &quot;Seitenname entspricht My&#42;product&quot;entspricht dem obigen Seitennamen. Die Regel &quot;Seitenname entspricht My\&#42;product&quot;entspricht jedoch nur dem Seitennamen &quot;My&#42;Product&quot;.
 
 ## Standardoperatoren
 

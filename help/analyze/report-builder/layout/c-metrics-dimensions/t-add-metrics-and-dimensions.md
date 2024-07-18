@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 39%
+source-wordcount: '582'
+ht-degree: 38%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 39%
 
 Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anforderung.
 
-1. Verwenden Sie die [!UICONTROL Anforderungs-Assistent: Schritt 1] Formular an [Datenanforderung erstellen](/help/analyze/report-builder/data-requests/data-requests.md)  Klicken Sie dann auf **[!UICONTROL Nächste]**.
-1. Im [!UICONTROL Anforderungs-Assistent: Schritt 2] Formular, doppelklicken Sie auf Metriken oder ziehen Sie sie an die gewünschte Position.
+1. Verwenden Sie das Formular [!UICONTROL Anforderungs-Assistent: Schritt 1] , um die Datenanforderung zu erstellen.](/help/analyze/report-builder/data-requests/data-requests.md) Klicken Sie dann auf **[!UICONTROL Weiter]**.[
+1. Doppelklicken Sie im Formular [!UICONTROL Anforderungs-Assistent: Schritt 2] auf Metriken oder ziehen Sie sie an die gewünschte Position.
 
    ![Screenshot mit Anforderungs-Assistent: Schritt 2 mit einem Pfeil, der von der Metrikliste zum gewünschten Seitenansichtsabschnitt zeigt.](assets/adding_metrics.png)
 
@@ -27,17 +27,17 @@ Schritte zum Hinzufügen von Metriken und Dimensionen zu einer Anforderung.
 
    Beachten Sie, dass auf der Registerkarte „Metriken“ direkt über der Metrikenliste eine Suchleiste angezeigt wird.
 
-   ![Screenshot mit der Suchleiste Metriken .](assets/search_bar_metric.png)
+   ![ Screenshot mit der Suchleiste &quot;Metriken&quot;.](assets/search_bar_metric.png)
 
 ## Richtlinien
 
 Beachten Sie beim Hinzufügen von Metriken und Dimensionen die folgenden Richtlinien.
 
 * Wenn Sie einen Suchbegriff eingeben, wird die Liste automatisch aktualisiert, um Metriken anzuzeigen, deren Titel mit dem Suchbegriff übereinstimmen.
-* Die Übereinstimmung unterscheidet nicht zwischen Groß- und Kleinschreibung und entspricht einer *contains* suchen.
+* Die Übereinstimmung unterscheidet nicht zwischen Groß- und Kleinschreibung und entspricht einer *contains* -Suche.
 * Suchen nach vollständigen Wörtern und anderen speziellen Suchmarkierungen (beginnt mit, endet mit, AND, OR usw.) werden nicht unterstützt.
 
-Der Suchbegriff wird gelöscht, wenn Sie den Anforderungs-Assistenten beim Klicken auf [!UICONTROL Beenden] oder [!UICONTROL Abbrechen]oder gehen Sie zurück zu Schritt 1 des Anforderungs-Assistenten oder ändern Sie die Kategorie Metrik .
+Der Suchbegriff wird gelöscht, wenn Sie den Anforderungs-Assistenten beenden, wenn Sie auf [!UICONTROL Beenden] oder [!UICONTROL Abbrechen] klicken, oder zu Anforderungs-Assistent: Schritt 1 zurückkehren oder die Metrikkategorie ändern.
 
 Der Suchbegriff wird nicht gelöscht:
 
@@ -61,7 +61,7 @@ So sortieren Sie eine Anforderung nach Metrik
 1. Klicken Sie auf die Metrikbezeichnung.
 1. Dimensionen hinzufügen. Dimensionen werden auf die gleiche Weise wie Metriken hinzugefügt. Siehe Schritte 1 und 2 oben.
 
-   Im [!UICONTROL Dimensionen] -Registerkarte angezeigt, zeigt das System Dimensionen an, die aufgeschlüsselt werden oder die eine Classification eines Basisberichts darstellen, den Sie auswählen [!UICONTROL Anforderungs-Assistent: Schritt 1]und zur Konfiguration der Report Suite. Wenn Sie eine Dimension in das Layout-Raster ziehen, wird sie aus der Strukturansicht entfernt und die Liste der verfügbaren Dimensionen neu berechnet.
+   Auf der Registerkarte [!UICONTROL Dimensionen] zeigt das System Dimensionen an, die aufgeschlüsselt sind oder die eine Classification des Basisberichts darstellen, den Sie unter [!UICONTROL Anforderungs-Assistent: Schritt 1] auswählen, sowie die Konfiguration der Report Suite. Wenn Sie eine Dimension in das Layout-Raster ziehen, wird sie aus der Strukturansicht entfernt und die Liste der verfügbaren Dimensionen neu berechnet.
 
    Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren Datumsdimensionen hängen von der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] gewählten Granularität ab. Gültige Werte sind:
 
@@ -74,6 +74,6 @@ So sortieren Sie eine Anforderung nach Metrik
 
 1. Ändern Sie Metriken und Dimensionen, indem Sie [Formatoptionen](/help/analyze/report-builder/layout/t-format-display-headers.md) und Filter konfigurieren.
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**. 
-Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Die [!UICONTROL Verweisende Domäne] Dimension erstellt einen Detailbericht zwischen [!UICONTROL Seite] und [!UICONTROL Verweisende Domäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
+Im folgenden Beispiel gehören die Dimensionen zur Metrik [!UICONTROL Seite]. Die Dimension [!UICONTROL Referrerdomäne] erstellt einen Detailbericht zwischen [!UICONTROL Seite] und [!UICONTROL Referrerdomäne]. Die Registerkarte [!UICONTROL Dimension] wird nur mit Dimensionen aktualisiert, die für einen Detailbericht verwenden können.
 
-   ![Screenshot mit den Dimensionen, die sich auf die Metrik beziehen.](assets/page_pageview_02.png)
+   ![ Screenshot mit den Dimensionen, die sich auf die Metrik beziehen.](assets/page_pageview_02.png)

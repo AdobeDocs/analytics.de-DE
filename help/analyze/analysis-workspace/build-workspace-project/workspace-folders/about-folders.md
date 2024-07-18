@@ -50,7 +50,7 @@ Die Optionen für Benutzende ohne Administratorrechte sind eingeschränkt.
 
 - Administratoren bzw. Administratorinnen können im Unternehmensordner Unterordner erstellen.
 
-- Administratoren bzw. Administratorinnen können im Unternehmensordner einen Ordner löschen, den ein anderer Administrator bzw. eine andere Administratorin erstellt hat. Administratoren bzw. Administratorinnen müssen sich möglicherweise mit anderen Administratoren bzw. Administratorinnen abstimmen, um die Konsistenz von Ordnern und Projektzugriffen zu gewährleisten.
+- Admins können im Firmenordner einen Ordner löschen, den andere Admins erstellt haben. Administratoren bzw. Administratorinnen müssen sich möglicherweise mit anderen Administratoren bzw. Administratorinnen abstimmen, um die Konsistenz von Ordnern und Projektzugriffen zu gewährleisten.
 
 - Wenn ein Administrator bzw. eine Administratorin ein Projekt in den Unternehmensordner verschiebt, wird das Projekt für alle freigegeben, selbst wenn die ursprünglichen Freigabeberechtigungen eingeschränkt waren.
 

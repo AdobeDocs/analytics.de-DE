@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Intelligente Warnhinweise (oder nur &quot;Warnhinweise&quot;) in Adobe Analytics ermöglichen es Ihnen, sofort benachrichtigt zu werden, wenn in Ihren Daten abnorme Ereignisse auftreten.
 
-Sie können Warnungen festlegen, die auf Anomalieschwellen, geänderten Prozentsätzen oder spezifischen Datenpunkten ausgelöst werden. Warnhinweise bieten granulare Steuerelemente, die mit [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)ausgelöst, wenn Sie sie am dringendsten benötigen.
+Sie können Warnungen festlegen, die auf Anomalieschwellen, geänderten Prozentsätzen oder spezifischen Datenpunkten ausgelöst werden. Warnhinweise bieten granulare Steuerelemente, die mit der [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integriert werden und ausgelöst werden, wenn Sie sie am dringendsten benötigen.
 
 Mithilfe intelligenter Warnhinweise können Sie:
 
@@ -35,9 +35,9 @@ Wenn ein Warnhinweis eine Anomalieerkennung verwendet, hängt der Trainings-Zeit
 * Tägliche Granularität: 35 Tage + derselbe Bereich im letzten Jahr
 * Stündliche Granularität: 336 Stunden
 
-Weitere Informationen finden Sie unter [Bei der Anomalieerkennung verwendete statistische Verfahren](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Weitere Informationen finden Sie unter [Statistische Verfahren zur Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
-## Warnhinweise erstellen
+## Erstellen von Warnhinweisen
 
 Informationen zum Erstellen von Warnhinweisen in Adobe Analytics finden Sie unter [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
@@ -45,7 +45,7 @@ Informationen zum Erstellen von Warnhinweisen in Adobe Analytics finden Sie unte
 >
 >Die Verwendung von Zeitstempeldaten zur Erstellung von Warnhinweisen kann dazu führen, dass Warnhinweise falsch ausgelöst werden. Adobe empfiehlt die Verwendung von Daten ohne Zeitstempel für intelligente Warnhinweise.
 
-## Warnhinweise verwalten
+## Verwalten von Warnhinweisen
 
 Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
 

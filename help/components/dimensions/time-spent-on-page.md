@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 85%
 
 ---
 
 # Besuchszeit pro Seite
 
-Die Besuchszeit pro Seite [Dimension](overview.md) erfasst die Zeit, die ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
+Die Dimension &quot;Besuchszeit pro Seite&quot;[](overview.md) gibt die Zeit an, die ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
 
 1. Sehen Sie sich für einen bestimmten Treffer den Zeitstempel an.
 2. Vergleichen Sie diesen Treffer mit dem Zeitstempel des nächsten Treffers im Besuch. Sowohl Seitenansichts- als auch Linktracking-Treffer werden gezählt.

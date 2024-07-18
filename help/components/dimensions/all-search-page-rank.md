@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 85%
 
 ---
 
 # Rangansicht aller Suchseiten
 
-Der &quot;Rangansicht aller Suchseiten&quot; [Dimension](overview.md) bietet Einblicke, auf welche Seite mit Suchergebnissen ein Besucher zu Ihrer Site durchgeklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
+Die Dimension &quot;Rangansicht aller Suchseiten&quot;[](overview.md) bietet Einblicke, auf welche Seite mit Suchergebnissen ein Besucher zu Ihrer Site durchgeklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
 
 ## Füllen dieser Dimension mit Daten
 

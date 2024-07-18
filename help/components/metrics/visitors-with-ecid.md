@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '361'
 ht-degree: 93%
 
 ---
 
 # Besucher mit Experience Cloud ID
 
-Die &quot;Besucher mit Experience Cloud-ID&quot; [Metrik](overview.md) zeigt die Anzahl der Unique Visitors an, die durch Adobe mithilfe der Variablen [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
+Die Metrik &quot;Besucher mit Experience Cloud-ID&quot;[metric](overview.md) gibt die Anzahl der Unique Visitors an, die durch Adobe mit dem [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) identifiziert wurden. Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
 
 >[!NOTE]
 >

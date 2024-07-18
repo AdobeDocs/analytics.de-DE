@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # charSet
 
-Die `charSet` wird von Adobe verwendet, um eingehende Daten zur Speicherung und Berichterstellung in UTF-8 zu konvertieren. Die meisten Sites müssen diese Variable nicht festlegen.
+Die Variable `charSet` wird von Adobe verwendet, um eingehende Daten für die Speicherung und Berichterstellung in UTF-8 zu konvertieren. Die meisten Sites müssen diese Variable nicht festlegen.
 
 Legen Sie diese Variable nur fest, wenn in Berichten unleserliche Werte ([Zeichensalat](https://de.wikipedia.org/wiki/Zeichensalat)) angezeigt werden. Diese Variable kann seitenweise eingestellt werden, wenn Ihre Website auf verschiedenen Seiten unterschiedliche Codierungen verwendet.
 
@@ -23,7 +23,7 @@ Das Web SDK unterstützt derzeit nur UTF-8 und bietet keine Optionen zum Ändern
 
 ## Zeichensatz in der Adobe Analytics-Erweiterung
 
-Zeichensatz ist ein Feld unter der [!UICONTROL Allgemein] Akkordeon beim Konfigurieren der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung.
+Zeichensatz ist ein Feld unter dem Akkordeon [!UICONTROL Allgemein] bei der Konfiguration der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.

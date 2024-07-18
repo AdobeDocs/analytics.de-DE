@@ -6,8 +6,8 @@ feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 65%
+source-wordcount: '681'
+ht-degree: 64%
 
 ---
 
@@ -64,7 +64,7 @@ Im Folgenden finden Sie ein Video zum Anpassen einer Besuchsdefinition in einer 
 1. Aktivieren Sie auf der Registerkarte [!UICONTROL Komponenten] das Kontrollkästchen, um die Kuratierung anzuwenden und Komponenten für diese Virtual Report Suite in Analysis Workspace einzuschließen, auszuschließen und umzubenennen.
 Weitere Informationen zur Kuratierung von Virtual Report Suites finden Sie unter [Kuratierung von Virtual Report Suite-Komponenten](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=de#virtual-report-suites).
 
-1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die Virtual Report Suite aufnehmen möchten, in die [!UICONTROL Enthaltene Komponenten] Abschnitt.
+1. Ziehen Sie Komponenten (Dimensionen, Metriken, Segmente oder Datumsbereiche), die Sie in die Virtual Report Suite aufnehmen möchten, in den Abschnitt [!UICONTROL Eingeschlossene Komponenten] .
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.
 

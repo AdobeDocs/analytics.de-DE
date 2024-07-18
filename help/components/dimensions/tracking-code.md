@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '559'
 ht-degree: 66%
 
 ---
 
 # Trackingcode
 
-Der Trackingcode [Dimension](overview.md) listet die Namen der Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen dabei zu verstehen, welche Links am erfolgreichsten zur Erhöhung des Traffics auf Ihre Site beigetragen haben.
+Die Dimension &quot;Trackingcode&quot;[Dimension](overview.md) listet die Namen der Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen dabei zu verstehen, welche Links am erfolgreichsten zur Erhöhung des Traffics auf Ihre Site beigetragen haben.
 
 Das Anhängen von Abfragezeichenfolgen für Trackingcodes ist in E-Mails, Anzeigen, Social-Media-Beiträgen und anderen Marketing-Maßnahmen Ihres Unternehmens üblich.
 
@@ -22,7 +22,7 @@ Diese Dimension ruft Daten aus der [`v0` Abfragezeichenfolge](/help/implement/va
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Siehe [Kampagnen-Tracking](/help/implement/use-cases/campaign-tracking.md) für weitere Informationen.
+Zu den Dimensionselementen gehören die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Weitere Informationen finden Sie unter [Kampagnen-Tracking](/help/implement/use-cases/campaign-tracking.md) .
 
 ## Dimension „Trackingcode“ mit Dimension „Marketing-Kanäle“ vergleichen, die Trackingcodes erfasst
 

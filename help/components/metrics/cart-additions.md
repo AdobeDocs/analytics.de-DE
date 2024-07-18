@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Zusatz zum Warenkorb
 
-&quot;Zusatz zum Warenkorb&quot; [Metrik](overview.md) zeigt an, wie oft ein Besucher etwas zum Warenkorb hinzugefügt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichters verstehen möchten, in dem Kunden so sehr an einem Produkt interessiert sind, dass sie es ihrem Warenkorb hinzufügen.
+Die Metrik &quot;Zusatz zum Warenkorb&quot;[](overview.md) gibt an, wie oft ein Besucher etwas zum Warenkorb hinzugefügt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichters verstehen möchten, in dem Kunden so sehr an einem Produkt interessiert sind, dass sie es ihrem Warenkorb hinzufügen.
 
 ## Berechnung dieser Metrik
 

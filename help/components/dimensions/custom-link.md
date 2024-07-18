@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Benutzerspezifischer Link
 
-Der benutzerspezifische Link [Dimension](overview.md) gibt die Namen der auf Ihrer Site implementierten benutzerspezifischen Links an. Diese Dimension ist nützlich, wenn Sie wissen möchten, auf welche Links Besucher am häufigsten klicken.
+Die Dimension &quot;Benutzerspezifischer Link&quot;[Dimension](overview.md) gibt die Namen der auf Ihrer Site implementierten benutzerspezifischen Links an. Diese Dimension ist nützlich, wenn Sie wissen möchten, auf welche Links Besucher am häufigsten klicken.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -17,4 +17,4 @@ ht-degree: 91%
 In Workspace können Sie unter **[!UICONTROL Projekt]** > **[!UICONTROL Projektinformationen und Einstellungen]** wählen, [wiederholte Instanzen ein-/auszuschließen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md). Standardmäßig sind sie eingeschlossen.
 
 >[!NOTE]
->Diese Einstellung gilt nicht für [!UICONTROL Fluss]- oder [!UICONTROL Fallout]-Visualisierungen. In Workspace [!UICONTROL Fluss] verfügt über eigene [Einstellung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) zum Entfernen von Wiederholungen.
+>Diese Einstellung gilt nicht für [!UICONTROL Fluss]- oder [!UICONTROL Fallout]-Visualisierungen. In Workspace verfügt [!UICONTROL Fluss] über eine eigene [Einstellung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) zum Entfernen von Wiederholungen.

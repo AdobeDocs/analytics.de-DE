@@ -74,7 +74,7 @@ Sobald der Data Warehouse-Bericht eintrifft, verfügen Sie über eine Liste der 
 * **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie für die neue deklarierte ID oben angegeben haben.
 * **Bot Flag**: Fügen Sie &quot;Bot Flag&quot;als Schema-Dimension für Kundenattribute hinzu.
 
-Verwenden Sie diese .CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie dann Ihre Report Suites für das Kundenattribut, wie in diesem Abschnitt beschrieben. [Blogpost](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Verwenden Sie diese .CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie dann Ihre Report Suites für das Kundenattribut, wie in diesem [Blogpost](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) beschrieben.
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Nachdem Ihr Datensatz verarbeitet und in Analysis Workspace integriert wurde, er
 
 ### Schritt 6: Dieses Segment als Virtual Report Suite-Filter verwenden
 
-Erstellen Sie abschließend eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) , das dieses Segment verwendet, um die identifizierten Bots herauszufiltern:
+Erstellen Sie abschließend eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) , die dieses Segment verwendet, um die identifizierten Bots herauszufiltern:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

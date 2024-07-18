@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # Datenschutzberichte
 
-Mit Datenschutzberichten können Sie die [Einverständnisverwaltung Opt-in](/help/components/dimensions/cm-opt-in.md), [Einverständnisverwaltung Opt-out](/help/components/dimensions/cm-opt-out.md) und [Zustimmung zur Anzeigenplattform](/help/components//dimensions/ad-consent.md) Dimensionen zur Verwendung in Berichten.
+Mit Datenschutzberichten können Sie die Dimensionen [Einverständnisverwaltung Opt-in](/help/components/dimensions/cm-opt-in.md), [Einverständnisverwaltung Opt-out](/help/components/dimensions/cm-opt-out.md) und [Einverständniserklärung für Anzeigenplattform](/help/components//dimensions/ad-consent.md) für die Verwendung in Berichten aktivieren.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ So greifen Sie auf diese Seite zu:
 
    ![Bearbeiten von Einstellungen](assets/rsm-privacy-select.png)
 
-1. Klicks **[!UICONTROL Datenschutzberichte aktivieren]**.
+1. Klicken Sie auf **[!UICONTROL Datenschutzberichte aktivieren]**.
 
    >[!NOTE]
    >

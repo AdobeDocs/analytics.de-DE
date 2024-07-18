@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1093'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ Dann zieht der Anomalieerkennungsschritt „Feiertag und Vorjahres-Saisonabhäng
 
 ## In der Beitragsanalyse verwendete statistische Verfahren
 
-Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. Damit soll dem Benutzer geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysieren viel schneller zu identifizieren.
+Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. Damit soll Benutzenden geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysen viel schneller zu identifizieren.
 
 Die Beitragsanalyse erreicht dies durch Ausführung eines zweiteiligen Algorithmus für jedes einzelne Dimensionselement, das für den Beitragsanalysebericht des Benutzers verfügbar ist. Dabei geht der Algorithmus in der folgenden Reihenfolge vor:
 

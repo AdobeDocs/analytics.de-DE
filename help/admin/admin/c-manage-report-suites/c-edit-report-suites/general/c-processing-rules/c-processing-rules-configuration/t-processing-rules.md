@@ -29,4 +29,4 @@ Verarbeitungsregeln werden in Report Suites festgelegt.
 
    Wenn mehrere Regeln vorliegen, können Sie die Verarbeitungsreihenfolge ändern, indem Sie die Regeln auf der Seite per Drag and Drop verschieben.
 
-   Siehe [Beispiele für Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) für Informationen zu den Arten von Regeln, die Sie erstellen können.
+   Weitere Informationen zu den Arten von Regeln, die Sie erstellen können, finden Sie unter [Beispiele für Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) .

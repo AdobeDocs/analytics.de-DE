@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '1884'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Verarbeitungsregeln für Marketing-Kanäle
 
-Die Verarbeitungsregeln für Marketing-Kanäle bestimmen, ob der Besucherzugriff die einem Kanal zugewiesenen Kriterien erfüllt, indem jeder Treffer eines Besuchers auf Ihrer Site verarbeitet wird. Die Regeln werden in der angegebenen Reihenfolge verarbeitet. Wenn eine Regel erfüllt ist, stoppt das System die Verarbeitung der verbleibenden Regeln.
+Die Verarbeitungsregeln für Marketing-Kanäle bestimmen, ob der Besucherzugriff die einem Kanal zugewiesenen Kriterien erfüllt, indem jeder Treffer eines Besuchers auf Ihrer Site verarbeitet wird. Die Regeln werden in der angegebenen Reihenfolge verarbeitet. Sobald eine Regel erfüllt ist, stoppt das System die Verarbeitung der verbleibenden Regeln.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Marketing-Kanal-Verarbeitungsregeln]**.
 
@@ -21,7 +21,7 @@ Die Verarbeitungsregeln für Marketing-Kanäle bestimmen, ob der Besucherzugriff
 
 Weitere Hinweise zur Verarbeitung:
 
-* Mit diesen Regeln erfasste Daten sind dauerhaft. Nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Adobe empfiehlt dringend, dass Sie alle Umstände vor dem Speichern überprüfen und berücksichtigen [!UICONTROL Marketingkanal-Verarbeitungsregeln] um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
+* Mit diesen Regeln erfasste Daten sind dauerhaft. Nach der Datenerfassung geänderte Regeln sind nicht rückwirkend. Adobe empfiehlt dringend, alle Umstände zu prüfen und zu bedenken, bevor [!UICONTROL Verarbeitungsregeln für Marketing-Kanäle] gespeichert werden, um zu verhindern, dass Daten in falschen Kanälen erfasst werden.
 * Sie können bis zu 25 separate Marketing-Kanäle konfigurieren.
 * Regeln haben Zugriff auf Variablen, die von VISTA gesetzt wurden, können jedoch nicht auf Daten zugreifen, die von VISTA gelöscht wurden.
 * Dasselbe Ereignis kann niemals zwei Marketingkanälen gutgeschrieben werden (wie Käufe oder Klicks). In dieser Hinsicht unterscheiden sich Marketingkanäle von eVars (dasselbe Ereignis kann zwei eVars gutgeschrieben werden).
@@ -30,8 +30,8 @@ Weitere Hinweise zur Verarbeitung:
 ## Voraussetzungen
 
 * Sehen Sie sich die Konzeptinformationen unter [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) an.
-* Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. Siehe [Hinzufügen von Marketingkanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Best Practices für die Verwendung von [!UICONTROL Marketingkanäle] mit [!UICONTROL Attribution].
+* Erstellen Sie einen oder mehr Kanäle, um Regeln zuweisen zu können. Weitere Informationen finden Sie unter [Hinzufügen von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* Lesen Sie die Best Practices für die Verwendung von [!UICONTROL Marketing-Kanälen] mit [!UICONTROL Attribution].
 
 ## Einrichten von Marketingkanal-Verarbeitungsregeln
 
@@ -40,7 +40,7 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 2. Wählen Sie eine Report Suite aus.
 
-   Wenn in Ihrer Report Suite keine Kanäle definiert wurden, wird die Seite [!UICONTROL Marketingkanäle: Automatisches Setup] angezeigt.
+   Wenn in Ihrer Report Suite keine Kanäle definiert wurden, wird die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] angezeigt.
 
    Siehe [Ausführen des automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
@@ -48,7 +48,7 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 
    ![Ergebnis des Schritts](assets/marketing_channel_rules.png)
 
-4. Wenn Sie eine Regel hinzufügen möchten, wählen Sie aus der **[!UICONTROL Neuen Regelsatz hinzufügen]** Menü. Wenn Sie einen Kanal auswählen, erhalten Sie eine Regelvorlage. Wenn Sie „Benutzerdefiniert“ auswählen, fangen Sie mit einer komplett leeren Vorlage an. Bei beiden Optionen können Sie den Regelsatz nach Bedarf ändern.
+4. Wenn Sie eine Regel hinzufügen möchten, wählen Sie im Menü **[!UICONTROL Neuen Regelsatz hinzufügen]**. Wenn Sie einen Kanal auswählen, erhalten Sie eine Regelvorlage. Wenn Sie „Benutzerdefiniert“ auswählen, fangen Sie mit einer komplett leeren Vorlage an. Bei beiden Optionen können Sie den Regelsatz nach Bedarf ändern.
 
    ![Ergebnis des Schritts](assets/example_email.png)
 
@@ -58,7 +58,7 @@ Richten Sie Marketingkanal-Verarbeitungsregeln ein, die bestimmen, ob der Besuch
 
 ### Festlegen des Marketing-Kanalwerts
 
-**[!UICONTROL Den Kanalwert festlegen]** definiert die Dimension Marketing-Kanaldetail , die für diesen Kanal verfügbar ist.
+**[!UICONTROL Kanalwert festsetzen]** legt die Dimension „Detail des Marketing-Kanals“ fest, die für diesen Kanal verfügbar ist.
 
 ### Regelkriterien
 
@@ -66,21 +66,21 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 
 >[!NOTE]
 >
->Jedes von Ihnen definierte Textfeld, z. B. Abfragezeichenfolgenparameter oder Listen mit Werten, die abgeglichen werden sollen, wird als **nicht von Schreibweise abhängig** -Werte. Wenn Sie beispielsweise eine Regel haben, bei der der Abfragezeichenfolgenparameter `cmp = abc123`, alle Varianten in Großbuchstaben und Kleinbuchstaben `cmp` und `abc123` übereinstimmen.
+>Bei den Werten in jedem von Ihnen definierten Textfeld, beispielsweise Abfragezeichenfolgeparameter oder Wertlisten, die abgeglichen werden sollen, wird **nicht zwischen Groß- und Kleinschreibung unterschieden**. Wenn Sie z. B. eine Regel haben, bei der der Abfragezeichenfolgeparameter `cmp = abc123` ist, stimmen alle groß- und kleingeschriebenen Varianten von sowohl `cmp` als auch `abc123` überein.
 
 | Begriff | Definition |
 |--- |--- |
-| Alle | Aktiviert diesen Kanal nur, wenn alle Kriterien in der Regel wahr sind. |
-| Eines | Aktiviert diesen Kanal, wenn eines der Kriterien in der Regel wahr ist. Diese Option ist nur verfügbar, wenn die Regel mehr als ein Kriterium enthält. |
-| AMO-ID | Der primäre Trackingcode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von „AMO-ID“ beginnt mit „AL“ für die Suche, „AC“ für die Anzeige oder „AO“ für Social. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu &quot;Direkt&quot;oder &quot;Keine&quot;). |
-| AMO-EF-ID | Der von Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Anzeige-Clickthroughs oder Anzeige-Viewthroughs verwendet werden, wenn Sie diese als zwei separate Marketing-Kanäle betrachten möchten. Dies kann durch Festlegen der Marketing-Kanal-Logik für &quot;AMO EF ID&quot;erreicht werden, die mit `:d` für Anzeige-Clickthroughs oder &quot;AMO EF ID&quot;endet mit `:i` für Display ViewThroughs. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
+| Alle | Aktiviert diesen Kanal nur, wenn alle Kriterien in der Regel „true“ sind. |
+| Eines | Aktiviert diesen Kanal, wenn irgendeines der Kriterien in der Regel „true“ ist. Diese Option ist nur verfügbar, wenn die Regel mehr als ein Kriterium enthält. |
+| AMO-ID | Der primäre Trackingcode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von „AMO-ID“ beginnt mit „AL“ für die Suche, „AC“ für die Anzeige oder „AO“ für Social. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu „Direkt“ oder „Keine“). |
+| AMO-EF-ID | Der von Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Anzeige-Clickthroughs oder Anzeige-Viewthroughs verwendet werden, wenn Sie diese als zwei separate Marketing-Kanäle betrachten möchten. Dazu können Sie die Marketing-Kanal-Logik so festlegen, dass „AMO EF ID“ für Anzeige-Clickthroughs auf `:d` oder „AMO EF ID“ für Anzeige-Viewthroughs auf `:i` endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
 | Konversionsvariablen | Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden. |
-| Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer Referrer-Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die Referrer-Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine verweisende Domäne einen bestimmten Wert nicht enthält (im Gegensatz zur Auswahl von &quot;Enthält&quot;).</li></ul> |
-| Den Kanal identifizieren als | Verbindet die Regel mit einem Marketingkanal, den Sie der Seite Marketingkanal-Manager hinzugefügt haben. |
+| Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer Referrer-Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die Referrer-Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine Referrer Domain einen bestimmten Wert nicht enthält (anders als bei der von Auswahl „Enthält“).</li></ul> |
+| Den Kanal identifizieren als | Verbindet die Regel mit dem Marketing-Kanal, den Sie der Seite „Marketing-Kanal-Manager“ hinzugefügt haben. |
 | Stimmt mit Erkennungsregeln gebührenpflichtiger Suchvorgänge überein | Eine von Adobe erkannte, gebührenpflichtige Suche. Gebührenpflichtige Suchvorgänge treten ein, wenn Firmen Gebühren an die Suchmaschine zahlen, damit diese deren Site auflistet. Gebührenpflichtige Suchergebnisse tauchen gewöhnlich oben oder rechts von den Suchergebnissen auf. |
 | Stimmt mit Erkennungsregeln kostenloser Suchvorgänge überein | Eine von Adobe erkannte, kostenlose Suche. |
 | Verweisende Stelle stimmt mit internen URL-Filtern überein | Ein Besuch, dessen Seiten-URL laut der Definition für die Report Suite in „Admin Tools“ mit dem internen URL-Filter übereinstimmt. |
-| Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit Seiten-URL und Existiert verwenden, um eine Sammelregel einzurichten, sodass keine Besuche im Berichtabschnitt Kein Kanal identifiziert landen. |
+| Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit Seiten-URL und „Existiert“ verwenden, um eine Sammelregel zu erstellen, sodass keine Besuche im Berichtabschnitt „Kein Kanal identifiziert“ landen. |
 | Treffer ignorieren, die mit internen URL-Filtern übereinstimmen | (Für verweisende Stellen) Verfolgt nur Treffer, die von extern verweisenden Stellen stammen. Normalerweise wird diese Option nicht aktiviert, es sei denn, Sie möchten internen Traffic einbeziehen. |
 | Ist erste Seite des Besuchs | Die erste Seite eines Besuchs, die in der Adobe Berichterstellung erkannt wurde. |
 | Seite | Die Dimension [Seite](/help/components/dimensions/page.md). |
@@ -88,26 +88,26 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Seitendomäne und Pfad | Die Domain und der Pfad, z. B. `products.example.com/mens/pants/overview.html`. |
 | Stammdomäne der Seite (TLD+1) | Die Stammdomäne der Seite, auf der der Besucher landet, z. B. example.co.uk. |
 | Seiten-URL | Die URL einer Webseite auf Ihrer Site. |
-| Referrer-Domain | Die [Verweisende Domäne](/help/components/dimensions/referring-domain.md) Dimension |
-| Abfragezeichenfolgenparameter | Verwenden Sie einen einzelnen Abfragezeichenfolgenparameter. Pro Kriterium können Sie nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Ihren Operator, und fügen Sie dann Abfragezeichenfolgenparameter zur Regel hinzu. |
+| Referrer-Domain | Die Dimension [Referrer Domain](/help/components/dimensions/referring-domain.md) |
+| Abfragezeichenfolgenparameter | Verwenden Sie einen einzelnen Abfragezeichenfolgenparameter. Sie können pro Kriterium nur einen Abfragezeichenfolgenparameter angeben. Verwenden Sie zum Hinzufügen zusätzlicher Abfragezeichenfolgenparameter `ANY` als Ihren Operator und fügen Sie der Regel dann Abfragezeichenfolgenparameter hinzu. |
 | Referrer | Die Webseite (volle URL), auf der sich Besucher befanden, bevor sie zu Ihrer Site kamen. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domain. |
 | Verweisende Domain und Pfad | Eine Verkettung aus verweisender Domain und URL-Pfad. Beispiele sind: `www.example.com/products/id/12345` oder `ad.example.com/foo` |
 | Verweisender Parameter | Abfragezeichenfolgenparameter der verweisenden URL. Wenn Ihre Besucher z. B. von `example.com/?page=12345&cat=1` kommen, sind „page“ und „cat“ die verweisenden Parameter. |
 | Verweisende Stammdomäne | Die Stammdomäne der verweisenden Stelle. Die verweisende Stelle befindet sich außerhalb Ihrer definierten Domain. |
 | Suchmaschine | Eine Suchmaschine wie Google oder Yahoo!, über die Besucher zu Ihrer Site gelangten. |
 | Suchkeywords | Ein Wort, mit dem in einer Suchmaschine gesucht wird. |
-| Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie beispielsweise nach dem Begriff &quot;computer&quot;suchen, werden die Suchmaschine und der Suchbegriff wie folgt identifiziert: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:** n = kostenlos; p = bezahlt |
-| Den Kanalwert setzen auf | Legt die [Marketingkanaldetails](/help/components/dimensions/marketing-detail.md) Dimension. Sie bestimmen, welcher Wert im Kontext der Regel am besten ist. Beispiele sind Banneranzeigen-ID, Suchbegriff oder E-Mail-Kampagne. |
+| Suchmaschine + Keywords | Eine Verkettung aus Keyword und Suchmaschine, um die Suchmaschine eindeutig zu kennzeichnen. Wenn Sie z. B. nach dem Begriff „Computer“ suchen, werden die Suchmaschine und das Keyword wie folgt identifiziert: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Hinweis:** n = natural (natürlich); p = paid (bezahlt) |
+| Den Kanalwert setzen auf | Legt die Dimension [Marketing-Kanaldetails](/help/components/dimensions/marketing-detail.md) fest. Sie bestimmen, welcher Wert im Kontext der Regel am besten ist. Beispiele sind Banneranzeigen-ID, Suchbegriff oder E-Mail-Kampagne. |
 
 ## Reihenfolge der Regeln und Definitionen für Marketing-Kanäle {#channel-rules}
 
-Kanalregeln werden in der angegebenen Reihenfolge verarbeitet. Adobe empfiehlt, dass Sie gebührenpflichtige oder verwaltete Kanäle zuerst platzieren (z. B. gebührenpflichtige Suche, kostenlose Suche, Anzeige oder E-Mail), damit sie Guthaben über organische Kanäle (z. B. direkte, interne, verweisende Domänen) erhalten.
+Kanalregeln werden in der angegebenen Reihenfolge verarbeitet. Adobe empfiehlt, dass Sie bezahlte oder verwaltete Kanäle zuerst platzieren (z. B. Paid Search, natürliche Suche, Anzeige oder E-Mail), damit sie Credits über organische Kanäle (z. B. direkte, interne oder Referrer Domains) erhalten.
 
 Nachfolgend finden Sie die empfohlene Reihenfolge für Kanalregeln und Beispieldefinitionen:
 
 ### Paid Search {#paid-search}
 
-Paid Search ist ein Begriff oder eine Wortgruppe, die auf Bezahlung von der Suchmaschine in die Suchergebnisse gesetzt wird. Dieser Kanal wird in der Regel basierend auf Abfragezeichenfolgenparametern (siehe Beispiel für einen Anzeigenkanal) oder Erkennungsregeln für Paid Search definiert.
+Paid Search ist ein Begriff oder eine Wortgruppe, die auf Bezahlung von der Suchmaschine in die Suchergebnisse gesetzt wird. Dieser Kanal wird in der Regel auf der Grundlage von Abfragezeichenfolgenparametern (siehe das Beispiel für einen Anzeige-Kanal) oder Paid Search-Erkennungsregeln definiert.
 
 #### Paid-Search-Erkennung
 
@@ -117,13 +117,13 @@ Die [!UICONTROL gebührenpflichtigen Sucheinstellungen] für die Marketingkanalr
 
 ![](assets/example_paid_search.png)
 
-Siehe [Erkennung von Paid Search](../general/paid-search-detection/paid-search-detection.md) für weitere Informationen.
+Weitere Informationen finden Sie unter [Paid Search-Erkennung](../general/paid-search-detection/paid-search-detection.md).
 
-### Kostenlose Suche  {#natural-search}
+### Natürliche Suche  {#natural-search}
 
-Eine kostenlose Suche ist der Fall, wenn Besucher Ihre Website über eine Suchmaschine finden und die Suchmaschine Ihre Site in einer Rangfolge aufführt, ohne dass Sie für die Auflistung bezahlen müssen.
+Bei einer natürlichen Suche finden Besucherinnen und Besucher Ihre Website durch eine Web-Suche, bei der die Suchmaschine Ihre Website auflistet, ohne dass Sie dafür bezahlen.
 
-Adobe ermittelt den Suchtraffic basierend auf einer internen Suche nach Suchmaschinen. Wenn eine verweisende Stelle Kriterien für eine Suchmaschine erfüllt, bestimmt sie anhand von [Erkennung von Paid Search](../general/paid-search-detection/paid-search-detection.md) Regeln, die Sie konfiguriert haben. Ein Treffer gilt als kostenlose Suche, wenn er mit keiner der gebührenpflichtigen Sucherkennungsregeln übereinstimmt.
+Adobe ermittelt den Such-Traffic basierend auf einer internen Suche nach Suchmaschinen. Wenn ein Referrer mit den Kriterien einer Suchmaschine übereinstimmt, wird anhand der von Ihnen konfigurierten Regeln zur [Paid Search-Erkennung](../general/paid-search-detection/paid-search-detection.md) festgestellt, ob es sich um eine bezahlte oder natürliche Suche handelt. Ein Treffer gilt als natürliche Suche, wenn er mit keiner der Paid Search-Erkennungsregeln übereinstimmt.
 
 Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt:
 
@@ -131,7 +131,7 @@ Die kostenlosen Sucheinstellungen für die Marketing-Kanalregel lauten wie folgt
 
 ### Anzeigen {#display}
 
-Diese Regel identifiziert Besucher, die von Banner-Werbung zu Ihnen gelangten. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL identifiziert, in diesem Fall *`Ad_01`*. Der Parameter der Abfragezeichenfolge und die gesuchten Werte werden ohne Unterscheidung der Groß-/Kleinschreibung ausgewertet.
+Diese Regel identifiziert Besucherinnen und Besucher, die über Banner-Werbung zu Ihnen gelangt sind. Sie wird durch einen Abfragezeichenfolgenparameter in der Ziel-URL bestimmt, in diesem Fall *`Ad_01`*. Der Parameter der Abfragezeichenfolge und die gesuchten Werte werden ohne Unterscheidung der Groß-/Kleinschreibung ausgewertet.
 
 ![](assets/example_display.png)
 
@@ -155,7 +155,7 @@ Eine Best Practice besteht darin, einen Kanal „Andere Kampagnen“ einzubezieh
 
 ### Soziale Netzwerke  {#social-networks}
 
-Diese Regel identifiziert Besucher, die aus einem sozialen Netzwerk wie Facebook stammen. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
+Diese Regel identifiziert Besucherinnen und Besucher, die aus sozialen Netzwerken wie Facebook stammen. Der Kanal wird oft in „Organic Social“ umbenannt. Die Einstellungen können wie folgt lauten:
 
 ![](assets/example_social.png)
 

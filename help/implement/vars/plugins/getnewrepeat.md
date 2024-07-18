@@ -22,14 +22,14 @@ Mit dem `getNewRepeat`-Plug-in können Sie innerhalb einer gewünschten Anzahl v
 Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit dem Web SDK verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicks **[!UICONTROL Tags]** auf der linken Seite und klicken Sie dann auf die gewünschte Tag-Eigenschaft.
-1. Klicks **[!UICONTROL Erweiterungen]** auf der linken Seite und klicken Sie dann auf das **[!UICONTROL Katalog]** tab
-1. Suchen und installieren Sie die **[!UICONTROL Allgemeine Web SDK-Plug-ins]** -Erweiterung.
-1. Klicks **[!UICONTROL Datenelemente]** auf der linken Seite und klicken Sie dann auf das gewünschte Datenelement.
+1. Klicken Sie links auf **[!UICONTROL Tags]** und dann auf die gewünschte Tag-Eigenschaft.
+1. Klicken Sie links auf **[!UICONTROL Erweiterungen]** und dann auf die Registerkarte **[!UICONTROL Katalog]** .
+1. Suchen und installieren Sie die Erweiterung **[!UICONTROL Common Web SDK Plugins]** .
+1. Klicken Sie links auf **[!UICONTROL Datenelemente]** und dann auf das gewünschte Datenelement.
 1. Legen Sie den gewünschten Datenelementnamen mit der folgenden Konfiguration fest:
    * Erweiterung: Allgemeine Web SDK-Plugins
    * Datenelement: `getNewRepeat`
-1. Legen Sie die `daysBeforeReset` rechts.
+1. Legen Sie den Parameter `daysBeforeReset` auf der rechten Seite fest.
 1. Speichern und veröffentlichen Sie die Änderungen am Datenelement.
 
 ## Installieren Sie das Plug-in manuell für die Implementierung des Web SDK

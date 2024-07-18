@@ -12,7 +12,7 @@ ht-degree: 26%
 
 # Lebenszyklusdimensionen für Mobile
 
-*Diese Seite referenziert Daten, die häufig über das Adobe Experience Platform Mobile SDK verfolgt werden. Informationen zu Mobilgeräten mit dem Benutzeragenten finden Sie unter [Mobile Suchdimensionen](mobile-dimensions.md). Informationen zu den mithilfe des Mobile SDK verfolgten Metriken finden Sie unter [Mobile Lebenszyklusmetriken](../metrics/lifecycle-metrics.md).*
+*Diese Seite enthält Referenzdaten, die häufig über das Adobe Experience Platform Mobile SDK verfolgt werden. Informationen zu Mobilgeräten mit Benutzeragent finden Sie unter [Mobile Lookup-Dimensionen](mobile-dimensions.md). Informationen zu den mithilfe des Mobile SDK verfolgten Metriken finden Sie unter [Mobile Lebenszyklusmetriken](../metrics/lifecycle-metrics.md).*
 
 | Name der Lebenszyklusdimension | Beschreibung | Kontextdatenvariable |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ ht-degree: 26%
 | [!UICONTROL Gerätename (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Betriebssystemversion (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Auflösung (SDK)] | | `a.Resolution` |
-| [!UICONTROL Akquisequelle] | | `a.referrer.campaign.source` |
+| [!UICONTROL Akquise-Source] | | `a.referrer.campaign.source` |
 | [!UICONTROL App-ID] | | `a.AppID` |
 | [!UICONTROL Akquise-Medium] | | `a.referrer.campaign.medium` |
 | [!UICONTROL Akquise-Begriff] | | `a.referrer.campaign.term` |
@@ -37,12 +37,12 @@ ht-degree: 26%
 | [!UICONTROL Lebenszeitwert (evar)] | | `a.ltv.amount` |
 | [!UICONTROL Beacon Major] | | TBD |
 | [!UICONTROL Beacon Minor] | | TBD |
-| [!UICONTROL Beacon-UUID] | | TBD |
+| [!UICONTROL Beacon UUID] | | TBD |
 | [!UICONTROL Beacon-Nähe] | | TBD |
 | [!UICONTROL Tage seit der letzten Verwendung] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Stunde des Tages (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Wochentag (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL Zielpunkt-ID] | | TBD |
+| [!UICONTROL POI-ID] | | TBD |
 
 {style="table-layout:auto"}
 

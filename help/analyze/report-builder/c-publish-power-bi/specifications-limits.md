@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power�
 
 * **Fall 1**: Sie veröffentlichen eine Arbeitsmappe in Power BI und erstellen eine Visualisierung basierend auf den darin enthaltenen Daten. Als Nächstes ändern Sie die Arbeitsmappe, indem Sie eine der Spalten aus dem referenzierten Datensatz ausblenden. Dann veröffentlichen Sie sie erneut. Dadurch wird die Visualisierung in Power BI beschädigt.
 
-   **Beispiel für eine Bearbeitung MIT Beschädigung der Visualisierung:**
+  **Beispiel für eine Bearbeitung MIT Beschädigung der Visualisierung:**
 
    1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
    2. Planen Sie die Veröffentlichung dieser Anforderung in Power BI.
@@ -46,7 +46,7 @@ Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power�
       2. Stellen Sie sicher, dass die Tabelle für Seite 1 ordnungsgemäß mit den Spalten „Seite“ und „Besuche“ aktualisiert wurde.
       3. Prüfen Sie, ob die Visualisierung beschädigt ist, da sie die Spalte „Seitenansichten“ referenziert, die nicht mehr in der Tabelle für Seite 1 enthalten ist.
 
-   **Beispiel für eine Bearbeitung OHNE Beschädigung der Visualisierung:**
+  **Beispiel für eine Bearbeitung OHNE Beschädigung der Visualisierung:**
 
    1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
    2. Planen Sie die Veröffentlichung dieser Anforderung in Power BI.
@@ -58,7 +58,6 @@ Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power�
       1. Vergewissern Sie sich, dass der bei Ihrer ersten Veröffentlichung erstellte Datensatz überschrieben wurde.
       2. Stellen Sie sicher, dass die Tabelle für Seite 1 ordnungsgemäß mit den Spalten „Seite“, „Seitenansichten“ und „Besuche“ aktualisiert wurde.
       3. Prüfen Sie, ob Ihre Visualisierung weiterhin korrekt funktioniert, da sie zwei Spalten referenziert, die sich noch immer in der Tabelle für Seite 1 befinden.
-
 
 * **Fall 2**: Heften Sie einen Abschnitt Ihrer Arbeitsmappe an ein Dashboard in Power BI an und entfernen Sie diesen angehefteten Abschnitt (beispielsweise ein Diagramm oder eine Tabelle) später aus der Arbeitsmappe. Dadurch wird die Visualisierung beschädigt.
 

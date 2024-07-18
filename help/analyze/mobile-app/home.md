@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,6 @@ Weitere Informationen zu Adobe Analytics-[!UICONTROL Dashboards] finden Sie in d
    * Eine Übersicht zur Kuratierung finden Sie im Video [Adobe Analytics Dashboards – Scorecard Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=de).
 
 
-* [Schnellstarthandbuch für ausführende Benutzer](/help/analyze/mobile-app/executive.md): Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in [!UICONTROL Dashboards] zu lesen und zu interpretieren. Das Programm ermöglicht es ausführenden Benutzern, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
+* [Schnellstarthandbuch für ausführende Benutzer](/help/analyze/mobile-app/executive.md): Dieses Handbuch soll ausführenden Benutzern helfen, die Scorecards in [!UICONTROL Dashboards] zu lesen und zu interpretieren. Das Programm ermöglicht es Führungskräften, eine umfassende Darstellung wichtiger Zusammenfassungsdaten schnell und einfach auf ihren eigenen Mobilgeräten anzuzeigen.
 
    * Ein Video mit diesen Informationen finden Sie unter [Adobe Analytics-Dashboards – In-App-Erlebnis](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=de).

@@ -14,7 +14,7 @@ ht-degree: 89%
 
 *Auf dieser Hilfeseite wird beschrieben, wie Einstiege als Metrik funktionieren. Informationen dazu, wie Einstiege als Dimension funktionieren, finden Sie unter [Einstiegsdimensionen](../dimensions/entry-dimensions.md).*
 
-Die Einträge [Metrik](overview.md) zeigt an, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über die ersten Impressionen erfahren möchten, die Besucher auf Ihrer Website haben. Wenn Sie die ersten Werte einer Dimension anzeigen, können Sie das Erlebnis eines neuen Besuchers besser verstehen und optimieren.
+Die Metrik &quot;Einstiege&quot;[metrik](overview.md) gibt an, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über die ersten Impressionen erfahren möchten, die Besucher auf Ihrer Website haben. Wenn Sie die ersten Werte einer Dimension anzeigen, können Sie das Erlebnis eines neuen Besuchers besser verstehen und optimieren.
 
 ## Berechnung dieser Metrik
 

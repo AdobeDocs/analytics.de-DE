@@ -7,7 +7,7 @@ exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
 source-git-commit: fb8be11fabefc0206af7868228f85353f15eb20c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 91%
 
 Sie können Ordner löschen, die Sie selbst erstellt haben.
 
-**Richtlinien**
+**Leitlinien**
 
 * Beim Löschen eines Ordners werden die Inhalte des Ordners nicht gelöscht. Der Inhalt eines gelöschten Ordners (Projekte oder Unterordner) wird in den in der Hierarchie direkt oberhalb gelegenen Ordner verschoben.
-* Administratoren bzw. Administratorinnen können im Unternehmensordner einen Ordner löschen, den ein anderer Administrator bzw. eine andere Administratorin erstellt hat. Administratoren bzw. Administratorinnen müssen sich möglicherweise mit anderen Administratoren bzw. Administratorinnen abstimmen, um die Konsistenz von Ordnern und Projektzugriffen zu gewährleisten. Siehe [Über Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* Admins können im Firmenordner einen Ordner löschen, den andere Admins erstellt haben. Admins müssen sich möglicherweise mit anderen Admins abstimmen, um die Konsistenz von Ordnern und Projektzugriffen zu gewährleisten. Weitere Informationen finden Sie unter [Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 So löschen Sie Ordner
 

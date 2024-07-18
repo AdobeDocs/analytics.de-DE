@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Tage seit dem letzten Besuch
 
-Die &quot;Tage seit dem letzten Besuch&quot; [Dimension](overview.md) misst die Zeit, die zwischen dem aktuellen Treffer des Besuchers und seinem vorherigen Besuch verstrichen ist (sofern vorhanden). Diese Dimension hilft Ihnen, das Verhalten der Besucher nach dem Besuch Ihrer Website zu verstehen. Beispiele hierfür sind:
+Die Dimension &quot;Tage seit dem letzten Besuch&quot;[](overview.md) misst die Zeit, die zwischen dem aktuellen Treffer des Besuchers und seinem vorherigen Besuch verstrichen ist (sofern vorhanden). Diese Dimension hilft Ihnen, das Verhalten der Besucher nach dem Besuch Ihrer Website zu verstehen. Beispiele hierfür sind:
 
 * Wie häufig rufen Benutzer die Site erneut auf?
 * Wie verhält sich die Rückkehrfrequenz zur Konversion? Besuchen Wiederholungskäufer die Site häufig oder weniger häufig?

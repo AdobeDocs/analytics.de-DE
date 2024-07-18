@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
@@ -51,7 +51,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 
 1. Nun können Sie den Datumsbereich ändern und die Anforderung wird mit diesem Datumsbereich aktualisiert.
 
-   ![Screenshot mit dem ausgewählten Datumsbereich.](assets/date_range_control_interactive.png)
+   ![ Screenshot mit dem ausgewählten Datumsbereich.](assets/date_range_control_interactive.png)
 
 1. Sie können die Anforderung auch kopieren und mit der rechten Maustaste darauf klicken, um eine der zwei Optionen zum Einfügen von Anforderungen zu verwenden:
 
@@ -69,7 +69,7 @@ Das Implementieren interaktiver Steuerelemente für Segmente ähnelt dem Impleme
 
 1. Wählen Sie in Schritt 1 des Anforderungs-Assistenten neben dem Dropdown-Menü **[!UICONTROL Segment]** das Symbol für die Segmentsteuerungseinstellungen:
 
-   ![Screenshot des Symbols Segmentsteuerungseinstellungen](assets/segment_interactive_1.png)
+   ![ Screenshot des Symbols für die Segmentsteuerungseinstellungen.](assets/segment_interactive_1.png)
 
 1. Wählen Sie im Dialogfeld für die Segmentsteuerungseinstellungen die Segmente aus, die im Dropdown-Menü enthalten sein sollen. Legen Sie außerdem den oberen linken Zellenstandort des Steuerelements fest.
 
@@ -77,4 +77,4 @@ Das Implementieren interaktiver Steuerelemente für Segmente ähnelt dem Impleme
 
 1. Das neue interaktive Steuerelement wird nun in der Arbeitsmappe angezeigt:
 
-   ![Screenshot mit dem ausgewählten neuen interaktiven Steuerelement.](assets/segment_interactive_3.png)
+   ![ Screenshot mit dem ausgewählten neuen interaktiven Steuerelement.](assets/segment_interactive_3.png)

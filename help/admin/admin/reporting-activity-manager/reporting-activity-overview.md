@@ -7,13 +7,13 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # Übersicht über die Berichterstellung in Activity Manager
 
-Die [!UICONTROL Reporting Activity Manager] ist für Administratoren verfügbar.
+Der [!UICONTROL Reporting Activity Manager] ist für Administratoren verfügbar.
 
 Wenn die Berichtsleistung Ihres Unternehmens während Spitzenzeiten bei der Berichterstellung beeinträchtigt wird, können Sie mit dem Reporting Activity Manager Kapazitätsprobleme selbstdiagnostizieren und beheben, ohne die Adobe-Kundenunterstützung zu kontaktieren. Sie können einfach Berichtwarteschlangen in einer einzigen Oberfläche verwalten und sofort &#x200B; handeln, um das Benutzererlebnis zu verbessern.
 
@@ -33,10 +33,10 @@ Zur Verwaltung der Berichtsaktivität benötigen Sie die Berechtigung Analytics-
 
 Berechtigung ![](/help/admin/admin/assets/rep-mgr-permission.png)
 
-## Berichtsaktivität anzeigen
+## Anzeigen von Berichtsaktivität
 
-Informationen zum Anzeigen der Berichtsaktivität im Reporting-Aktivitäts-Manager finden Sie unter [Berichtsaktivität im Reporting Activity Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+Informationen zum Anzeigen von Berichtsaktivitäten im Reporting Activity Manager finden Sie unter [Berichtsaktivität im Reporting Activity Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
 ## Abbrechen von Berichtsanfragen
 
-Informationen zum Abbrechen von Berichtsanforderungen im Reporting-Aktivitäts-Manager finden Sie unter [Abbrechen von Berichtsanforderungen im Reporting Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
+Informationen zum Abbrechen von Berichtsanforderungen im Reporting Activity Manager finden Sie unter [Berichtsanforderungen im Reporting Activity Manager abbrechen](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).

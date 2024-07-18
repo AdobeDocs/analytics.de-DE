@@ -22,7 +22,7 @@ Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** 
 
    >[!NOTE]
    >
-   >Wenn dieses Menüelement nicht angezeigt wird, müssen Sie zu einem [Produktprofil in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) über Berechtigungen für diese Funktion verfügen oder Zugriff auf eine Report Suite innerhalb der Admin Console erhalten haben.
+   >Wenn dieses Menüelement nicht angezeigt wird, müssen Sie einem [Produktprofil in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de) hinzugefügt werden, das über Berechtigungen für diese Funktion verfügt, oder Ihnen müssen innerhalb der Admin Console Zugriff auf eine Report Suite gewährt werden.
 
 3. Wählen Sie oben rechts eine Report Suite aus, deren Datenschutzkennzeichnungen Sie anzeigen oder verwalten möchten.
 

@@ -49,7 +49,7 @@ Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in 
 
 >[!TIP]
 >
->Mit der Einführung von [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md)können Sie den Namen einer bestimmten Dimension oder Metrik für jede Virtual Report Suite ändern.
+>Mit der Einführung von [Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md) können Sie den Namen einer bestimmten Dimension oder Metrik für jede Virtual Report Suite ändern.
 
 ### Segmentierungsnuancen
 

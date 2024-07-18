@@ -21,8 +21,8 @@ Im Folgenden finden Sie eine Liste aller berechneten Metriken, die von Adobe ber
 >Zusätzlich zu den auf dieser Seite beschriebenen standardmäßigen berechneten Metriken können Sie auch zusätzliche berechnete Metriken zu einer Report Suite hinzufügen.
 >
 >Sie haben folgende Möglichkeiten:
-> * Fügen Sie standardmäßige berechnete Metriken für das Streaming-Mediensammlungs-Add-on hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Erstellen Sie benutzerdefinierte berechnete Metriken aus vorhandenen Metriken, wie unter [Berechnete und erweiterte berechnete (abgeleitete) Metriken](/help/components/c-calcmetrics/cm-overview.md).
+> * Fügen Sie standardmäßige berechnete Metriken für das Streaming-Mediensammlungs-Add-on hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) beschrieben.
+> * Erstellen Sie benutzerdefinierte berechnete Metriken aus vorhandenen Metriken, wie unter [Berechnete und erweiterte berechnete (abgeleitete) Metriken](/help/components/c-calcmetrics/cm-overview.md) beschrieben.
 
 
 | Name der berechneten Metrik | Funktion | Formel |
@@ -37,7 +37,7 @@ Im Folgenden finden Sie eine Liste aller berechneten Metriken, die von Adobe ber
 | Content-Geschwindigkeit | Die Geschwindigkeit, mit der neue Inhalte auf der Website erstellt und veröffentlicht werden, und wie schnell dadurch Benutzerinteraktionen generiert werden. | `[Page Views] / [Visits]` |
 | Konversionsrate | Der Prozentsatz der Besucherinnen und Besucher, die eine gewünschte Aktion durchgeführt haben, z. B. einen Kauf getätigt haben. | `[Orders] / [Visits]` |
 | Einstiegsrate | Der Prozentsatz der Besucherinnen und Besucher, die die Website über eine bestimmte Seite aufgerufen haben, verglichen mit der Gesamtzahl der Sitzungen auf der Website. | `[Entries] / [Visits]` |
-| Geschätzte Unique Visitors (ITP 2.1) | Teilen Sie für ITP-Besucher (Benutzer in Safari-Browsern) Unique Visitors durch 2 oder weniger. Diese berechnete Metrik setzt voraus, dass Sie Cookies mit clientseitigem JavaScript setzen (ohne eine CNAME-Implementierung zu verwenden). Implementierungen, die Cookies mit clientseitigem JavaScript setzen, wurden ab ITP 2.1 beeinträchtigt. Siehe [Intelligente Tracking-Prävention](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) für Details. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Geschätzte Unique Visitors (ITP 2.1) | Teilen Sie für ITP-Besucher (Benutzer in Safari-Browsern) Unique Visitors durch 2 oder weniger. Diese berechnete Metrik setzt voraus, dass Sie Cookies mit clientseitigem JavaScript setzen (ohne eine CNAME-Implementierung zu verwenden). Implementierungen, die Cookies mit clientseitigem JavaScript setzen, wurden ab ITP 2.1 beeinträchtigt. Weitere Informationen finden Sie unter [Intelligent Tracking Prevention](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) . | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID-Abdeckung | Die Anzahl der Besucherinnen und Besucher mit einer Experience Cloud-ID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Ausstiegsrate | Der Prozentsatz der Besucherinnen und Besucher, die die Website nach dem Anzeigen einer bestimmten Seite verlassen. | `[Exits] / [Visits]` |
 | Unique Visitors (ITP 2.1) / Unique Visitors | Der Prozentsatz der Unique Visitors, die einen Browser verwenden, der von ITP 2.1-Cookie-Beschränkungen betroffen ist. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

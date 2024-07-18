@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites und Anmeldeunternehmen eines Abrechnungsunternehmens.
 
-Warnhinweise zur Nutzung von Server-Aufrufen sind Teil der [Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) -Benutzeroberfläche.
+Warnhinweise zur Nutzung von Server-Aufrufen sind Teil der Benutzeroberfläche von [Warnhinweise](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
 
 Diese Kategorie enthält **standardmäßig einen Warnhinweis**, der innerhalb jedes Anmeldeunternehmens auftaucht, das Zugriff auf die Funktion „Nutzung der Server-Aufrufe“ hat. Dieser Warnhinweis löst eine Benachrichtigung an alle Administratoren des Anmeldeunternehmen aus, wenn eines der folgenden Kriterien erfüllt ist:
 

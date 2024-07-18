@@ -18,7 +18,7 @@ Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing
 >
 >Yahoo Gemini wurde am 31. März 2019 von Microsoft Bing übernommen. Daher ist die Anzeigen-Kontenoption „Yahoo Gemini“ nicht mehr verfügbar.
 
-Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Eine neue [Paid Search-Leistung](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) -Vorlage in Workspace vereinfacht diese Analyse.
+Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Eine neue Vorlage [Paid Search Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace erleichtert diese Analyse.
 
 ![](assets/aa_aw.png)
 

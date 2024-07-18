@@ -31,7 +31,7 @@ Sie können mehrere Methoden verwenden, um Zeilen aus einer Freiformtabelle zu f
 - Tabellenfilter
 - Segmentierung
 
-Lesen Sie unbedingt, wie sich die einzelnen Methoden auf [Gesamtwerte der Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+Lesen Sie unbedingt, wie sich jede Methode auf die Gesamtwerte der Freiformtabelle [1} auswirkt.](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)
 
 ### Schnelles Ausschließen bestimmter Zeilen aus einer Tabelle
 
@@ -39,7 +39,7 @@ Sie können bestimmte Zeilen schnell aus der Tabelle ausschließen, ohne das Dia
 
 >[!NOTE]
 >
->Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben, wird ein [!UICONTROL **Ausschließen von Elementen**] im Dialogfeld für erweiterte Filter automatisch angewendet wird. (Sie können die angewendete Regel anzeigen, indem Sie das Filtersymbol auswählen und dann [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table).
+>Wenn Sie Zeilen wie in diesem Abschnitt beschrieben ausschließen, wird im Dialogfeld für erweiterte Filter automatisch eine Regel [!UICONTROL **Elemente immer ausschließen**] angewendet. (Sie können die angewendete Regel anzeigen, indem Sie das Filtersymbol und dann [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table) auswählen.)
 
 So schließen Sie bestimmte Zeilen schnell aus einer Freiformtabelle aus:
 
@@ -90,7 +90,7 @@ So filtern Sie Daten in Freiformtabellen:
 
 ### Segmentierung
 
-Siehe unsere [Dokumentation zur Segmentierung](/help/components/segmentation/seg-home.md) für weitere Details.
+Weitere Informationen finden Sie in der [Dokumentation zur Segmentierung](/help/components/segmentation/seg-home.md) .
 
 ## Sortieren von Tabellen
 

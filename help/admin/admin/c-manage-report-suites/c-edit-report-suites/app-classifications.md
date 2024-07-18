@@ -1,7 +1,8 @@
 ---
 title: App-Klassifizierungen
 description: Klassifizieren Sie App-Berichtsdimensionen.
-source-git-commit: f4445e928a65e41939d8ed5d24d2276cd61e3fba
+exl-id: b12992f6-2281-4600-8fe9-eea51854a87c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
@@ -10,8 +11,8 @@ ht-degree: 0%
 
 # App-Klassifizierungen
 
-Mobile Classifications sind aktiviert, nachdem Sie eine der Funktionen unter [App-Reporting](app-reporting.md). Sie bietet die gleiche Benutzeroberfläche wie [Konversionsklassifizierungen](conversion-var-admin/conversion-classifications.md) oder [Traffic-Klassifizierungen](c-traffic-variables/traffic-classifications.md), aber für App-Reporting-Dimensionen.
+Mobile Classifications sind aktiviert, nachdem Sie eine der Funktionen unter [App-Berichterstellung](app-reporting.md) aktiviert haben. Es bietet eine identische Schnittstelle zu [Konversionsklassifizierungen](conversion-var-admin/conversion-classifications.md) oder [Traffic-Klassifizierungen](c-traffic-variables/traffic-classifications.md), jedoch für App-Berichtsdimensionen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL App-Verwaltung]** > **[!UICONTROL App-Classifications]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL App-Verwaltung]** > **[!UICONTROL App-Klassifizierungen]**
 
-Adobe empfiehlt stattdessen die Verwendung von [Klassifizierungssätze](/help/components/classifications/sets/overview.md) für alle neuen Classification-Daten.
+Adobe empfiehlt stattdessen die Verwendung von [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) für alle neuen Klassifizierungsdaten.

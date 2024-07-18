@@ -34,7 +34,7 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 
 >[!TIP]
 >
->In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Obwohl optional, verwenden Sie `visit_start_time_gmt` beim Zählen von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
+>In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie optional `visit_start_time_gmt` bei der Zählung von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
 
 ## Besucher
 

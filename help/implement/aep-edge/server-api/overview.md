@@ -15,7 +15,7 @@ ht-degree: 35%
 
 Normalerweise verwenden Sie die Experience Platform Edge Network Server-API, um Daten Server-seitig und nicht Client-seitig zu erfassen und bei der Datenerfassung von Geräten wie IoT-Geräten, Set-Top-Boxen und Desktop-Anwendungen. Dann senden Sie diese Daten an das Edge-Netzwerk und an Dienste wie Adobe Analytics.
 
-Beachten Sie auch die Edge Network Server-API, wenn vertrauliche Daten sicher erfasst und im Netzwerk authentifiziert werden müssen. Siehe [Authentifizierung](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) für weitere Informationen.
+Beachten Sie auch die Edge Network Server-API, wenn Sie sensible Daten sicher erfassen und im Netzwerk authentifizieren müssen. Weitere Informationen finden Sie unter [Authentifizierung](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) .
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
@@ -47,8 +47,8 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>4</td>
-<td><b>Implementieren und Testen der Datenerfassung</b> Verwendung der Datenerfassungs-APIs für Einzelereignisse und Batch-Ereignisse.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung mit einem Ereignis</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Datenerfassung für Batch-Ereignisse</a>
+<td><b>Implementieren und testen Sie die Datenerfassung</b> mit den APIs für die Erfassung von Einzelereignisdaten und Batch-Ereignis-Daten.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung mit Einzelereignissen</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Erfassung von Batch-Ereignisdaten</a>
 </tr>
 
 <td>5</td>
@@ -59,5 +59,5 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 </table>
 
-Siehe [Dokumentation zur Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)und ein Beispiel [Integration mit Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=de) für weitere Informationen.
+Weitere Informationen finden Sie in der [Dokumentation zur Edge Network-Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) und einer Beispielintegration [mit Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=de) .
 

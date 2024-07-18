@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics implementieren (planen)** auf ihrer Website mit Anweisungen dazu, wie Sie Website-Benutzern Opt-out-Links bereitstellen können. <p><p>
-> Wenn Sie **Besuch einer Website, auf der Adobe Analytics implementiert wurde** und Sie möchten sich abmelden, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Siehe [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) um zu steuern, wie Adobe Ihre Informationen verwendet.
+> Dieser Artikel enthält Anweisungen dazu, wie Adobe Analytics-Kunden, die Adobe Analytics **auf ihrer Website implementieren (planen), Opt-out-Links für Website-Benutzer bereitstellen können.** <p><p>
+> Wenn Sie **eine Website besuchen, die Adobe Analytics implementiert hat, und Sie eine Abmeldung vornehmen möchten, ist**<span style="color:red"> dieser Artikel NICHT für Sie </span>**.** Unter [Adobe Privacy Choices](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Informationen verwendet.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchern Ihrer Website die Möglichkeit zu geben, sich von der Analyse ihrer Informationen abzumelden.
 
-Opt-out-Links bieten die Möglichkeit, dass Besucher Ihrer Website ihre Daten aus der Analytics-Berichterstellung auslassen. Diese Links beschränken sich auf AppMeasurement-Implementierungen. Adobe empfiehlt die Verwendung der [Adobe Experience Cloud Opt-in-Dienst](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) anstatt. Der Opt-in-Dienst ist robuster und funktioniert über mehrere Adobe Experience Cloud-Produkte hinweg, einschließlich Adobe Analytics und AppMeasurement.
+Opt-out-Links bieten die Möglichkeit, dass Besucher Ihrer Website ihre Daten aus der Analytics-Berichterstellung auslassen. Diese Links beschränken sich auf AppMeasurement-Implementierungen. Adobe empfiehlt stattdessen die Verwendung des [Adobe Experience Cloud-Opt-in-Dienstes](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de). Der Opt-in-Dienst ist robuster und funktioniert über mehrere Adobe Experience Cloud-Produkte hinweg, einschließlich Adobe Analytics und AppMeasurement.
 
 Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn ein Benutzer sich entscheidet, nicht verfolgt zu werden und ein Opt-out-Cookie gesetzt wird, sendet AppMeasurement weiterhin Daten an Adobe. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
 
@@ -68,7 +68,7 @@ Wechseln Sie automatisch die Sprache der Opt-out-Seite, indem Sie den Abfragezei
 * `zh_TW` (Traditionelles Chinesisch)
 * `cs_CZ` (Tschechisch)
 * `da_NK` (Dänisch)
-* `nl_NL` Niederländisch
+* `nl_NL` (Niederländisch)
 * `et_EE` (Estnisch)
 * `fi_FI` (Finnisch)
 * `fr_FR` (Französisch)
@@ -77,11 +77,11 @@ Wechseln Sie automatisch die Sprache der Opt-out-Seite, indem Sie den Abfragezei
 * `it_IT` (Italienisch)
 * `jp_JP` (Japanisch)
 * `ko_KR` (Koreanisch)
-* `lv_LV` Lettisch
+* `lv_LV` (Lettisch)
 * `lt_LT` (Litauisch)
 * `nb_NO` (Norwegisch)
-* `pl_PL` (Polnisch)
-* `pt_BR` Portugiesisch
+* `pl_PL` (Polen)
+* `pt_BR` (Portugiesisch)
 * `sk_SK` (Slowakisch)
 * `es_ES` (Spanisch)
 

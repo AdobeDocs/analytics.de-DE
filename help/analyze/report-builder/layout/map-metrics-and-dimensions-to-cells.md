@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 72%
+source-wordcount: '671'
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 Bevor Sie damit beginnen, einem Arbeitsblatt Elemente zuzuordnen, stellen Sie sicher, dass das Arbeitsblatt nicht schreibgeschützt ist. Wenn ein bestehender Schutz für das Arbeitsblatt die Benutzerinteraktion verhindert, können Sie keine Zellen darin auswählen. Heben Sie zunächst den Schreibschutz auf und beginnen Sie dann mit der Zuordnung von Elementen zu Zellen.
 
-Die Anzahl der Bereiche und Zellen, die zugeordnet werden sollen, hängt von der ausgewählten Metrik, der Granularität, dem Datumsbereich und den von Ihnen festgelegten Filtern ab. Wenn Sie beispielsweise [!UICONTROL Site-Metrik] > [!UICONTROL Traffic-Bericht], set [!UICONTROL Woche] Granularität und legen Sie den Datumsbereich für die [!UICONTROL Letzte 2 Wochen], werden Sie aufgefordert, drei Zellen zuzuordnen (bei Verwendung von [!UICONTROL Benutzerdefiniertes Layout]) auf der [!UICONTROL Anforderungs-Assistent: Schritt 2]. Die Anfrage ruft Daten für die erste und die zweite Woche ab, wobei jeder Datenpunktwert dem Wert einer Seitenansicht entspricht. Die dritte Zelle dient als Zeilenüberschrift, die Sie mit Hilfe der [!UICONTROL Formatoptionen] konfigurieren können.
+Die Anzahl der Bereiche und Zellen, die zugeordnet werden sollen, hängt von der ausgewählten Metrik, der Granularität, dem Datumsbereich und den von Ihnen festgelegten Filtern ab. Wenn Sie beispielsweise [!UICONTROL Site-Metrik] > [!UICONTROL Traffic-Bericht] auswählen, die Granularität [!UICONTROL Woche] festlegen und den Datumsbereich für die Granularität [!UICONTROL Letzte 2 Wochen] festlegen, werden Sie aufgefordert, im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] eine Zuordnung für drei Zellen vorzunehmen (bei Verwendung von [!UICONTROL Benutzerdefiniertes Layout]). Die Anfrage ruft Daten für die erste und die zweite Woche ab, wobei jeder Datenpunktwert dem Wert einer Seitenansicht entspricht. Die dritte Zelle dient als Zeilenüberschrift, die Sie mit Hilfe der [!UICONTROL Formatoptionen] konfigurieren können.
 
 Wenn Sie im Arbeitsblatt versehentlich inkompatible Speicherorte zuordnen, gibt der Report Builder einen Fehler aus.
 
@@ -24,20 +24,20 @@ Weitere Informationen finden Sie in den folgenden Abschnitten:
 
 * [Auswahl eines Zellenbereiches ](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
 * [Methoden für die Auswahl von Zellen ](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
-* [Probleme bei der Zuordnung ](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
+* [Probleme bei der Zuordnung](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Auswahl eines Zellenbereiches {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 Wenn Sie in [!UICONTROL Anforderungs-Assistent: Schritt 2] die Option [!UICONTROL Benutzerdefiniertes Layout] für eine Trendanforderung verwenden, können Sie die Anforderung einem Bereich von Zellen zuordnen.
 
-Klicken Sie auf die **[!UICONTROL Bereichsauswahl]** ![select_cell_icon.png](assets/select_cell_icon.png) neben dem Artikel, den Sie zuordnen möchten.
+Klicken Sie auf die **[!UICONTROL Bereichsauswahl]** ![select_cell_icon.png](assets/select_cell_icon.png) neben dem Element, das Sie zuordnen möchten.
 
 * **Alle Zellen im Bereich:** Dies erfordert die Auswahl einer Gruppe von Zellen für eine Anforderung mit [!UICONTROL benutzerdefiniertem Layout].
 * **Erste Zelle des Bereichs:** Hierdurch wird die Zelle links oben im Zellbereich ausgewählt und die Option [!UICONTROL Bereichausrichtung] angezeigt, mit der Sie festlegen können, ob die Eingabe- und Ausgabezellen horizontal (Zeile) oder vertikal (Spalte) angeordnet werden sollen. Verwenden Sie diese Option, damit Report Builder Zellen auswählen können.
 * **Bereichsausrichtung:** Wahlweise Orientierung des Zellenbereichs als Spalten oder Zeilen.
 * **Position der obersten Zelle des Bereichs auswählen:** Zeigt die Zellreferenzen an.
 
-## Methoden für die Auswahl von Zellen {#section_760421C3D7F84D67A639174710C93B22}
+## Verfahren für die Auswahl von Zellen {#section_760421C3D7F84D67A639174710C93B22}
 
 Sie können die Daten durch Klicken auf das Symbol **[!UICONTROL Bereichsauswahl]** auswählen ![select_cell_icon.png](assets/select_cell_icon.png)
 
@@ -57,7 +57,7 @@ Klicken Sie nach dem Auswählen von Zellen im Dialogfeld **[!UICONTROL Bereichsa
 
 ## Probleme mit der Zuordnung beheben{#section_CC1BCF841291447EB3A994EB08F3A099}
 
-Wenn Sie aus Versehen eine Zuordnung zu einer Zelle wählen, die bereits über eine aktive Zuordnung verfügt, wird im Textfeld neben dem Symbol für die Bereichsauswahl kein Zellenverweis angezeigt. Wenn Sie auf [!UICONTROL OK], zeigt der Report Builder den Fehler an, *Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.*
+Wenn Sie aus Versehen eine Zuordnung zu einer Zelle wählen, die bereits über eine aktive Zuordnung verfügt, wird im Textfeld neben dem Symbol für die Bereichsauswahl kein Zellenverweis angezeigt. Wenn Sie auf [!UICONTROL OK] klicken, zeigt Report Builder den Fehler an, *Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Ändern Sie Ihre Auswahl.*
 
 * Wenn Sie die Zelle trotzdem benötigen, klicken Sie mit der rechten Maustaste darauf (und auf evtl. ebenfalls betroffene Zellen) und wählen Sie **[!UICONTROL Anforderung löschen]**.
 

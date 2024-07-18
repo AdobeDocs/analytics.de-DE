@@ -1,5 +1,5 @@
 ---
-description: Beschreibung globaler Report Suites
+description: Beschreibungen von globalen Report Suites
 title: Globale Report Suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Mit den Methoden *Multi-Suite-Tagging* und *Virtual Report Suite* können Sie Te
 
 * **Virtual Report Suite**: Eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) ist eine Abfrage zu bestimmten Segmenten, die in einer globalen Report Suite erfasst und für bestimmte Benutzergruppen verfügbar sind. Virtual Report Suites ermöglichen es Ihnen, Berichtselemente für verschiedene Endbenutzer zu kuratieren, ohne Multi-Suite-Tagging zu verwenden, wodurch sekundäre Server-Aufrufe vermieden werden.
 
-  Um Virtual Report Suites zu verwenden, implementieren Sie eine globale Report Suite und analysieren Sie dann die Daten, um Virtual Report Suites mit bestimmten angewendeten Segmenten und mit bestimmten Gruppenberechtigungen zu erstellen. Sie können Virtual Report Suites im Virtual Report Suites-Manager erstellen ([!UICONTROL Komponenten] > [!UICONTROL Virtual Report Suites]). Weitere Informationen finden Sie unter [Workflow für Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
+  Um Virtual Report Suites zu verwenden, implementieren Sie eine globale Report Suite und analysieren Sie dann die Daten, um Virtual Report Suites mit bestimmten angewendeten Segmenten und mit bestimmten Gruppenberechtigungen zu erstellen. Sie können Virtual Report Suites in Virtual Report Suite Manager ([!UICONTROL Komponenten] > [!UICONTROL Virtual Report Suites]) erstellen. Weitere Informationen finden Sie unter [Workflow für Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
 
-Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist oft empfehlenswert, aber Virtual Report Suites weisen einige Einschränkungen auf. Siehe [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md), um zu bestimmen, welcher Report Suite-Ansatz für Ihre Geschäftsanforderungen am besten geeignet ist. Einen detaillierten Vergleich der Virtual Report Suites und Multi-Suite-Tagging-Funktionen finden Sie unter[Virtual Report Suites im Vergleich zum Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
+Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist oft empfehlenswert, aber Virtual Report Suites weisen einige Einschränkungen auf. Siehe [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md), um zu bestimmen, welcher Report Suite-Ansatz für Ihre Geschäftsanforderungen am besten geeignet ist. Einen detaillierten Vergleich der Funktionen von Virtual Report Suites und Multi-Suite-Tagging finden Sie unter [Virtual Report Suites vs. Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).
 
 <!---## Rollup reports
 

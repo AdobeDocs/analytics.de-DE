@@ -112,7 +112,7 @@ Cache-Control: no-cache
 
 Jeder digitale Assistent verfügt über Algorithmen, die Intents erkennen und dann den Intent an die „App“ weitergeben, damit die App weiß, was zu tun ist. Diese Intents entsprechen einer Kurzdarstellung der Anfrage.
 
-Wenn ein Benutzer beispielsweise sagt: &quot;Siri, sende John 20 $ für das Abendessen gestern über meine Bank-App&quot;, könnte der Intent ungefähr so sein: *sendMoney*.
+Wenn ein Benutzer beispielsweise sagt: &quot;Siri, sende John 20 $ für das Abendessen gestern über meine Bank-App&quot;, könnte der Intent etwa *sendMoney* sein.
 
 Indem Sie jede dieser Anfragen als eVar einsenden, können Sie Pfadsetzungsberichte für jeden Intent für Konversations-Apps erstellen. Stellen Sie sicher, dass Ihre App auch Anfragen ohne Absicht bearbeiten kann. Adobe empfiehlt, „Kein Intent angegeben“ an die Intent-Kontextdatenvariable zu übergeben, anstatt die Variable zu überspringen.
 

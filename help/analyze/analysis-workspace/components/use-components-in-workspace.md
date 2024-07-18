@@ -19,13 +19,13 @@ Eine Übersicht über die Komponententypen, die Sie hinzufügen können, finden 
 
 >[!TIP]
 >
->Informationen zu den einzelnen Komponenten erhalten Sie, wenn Sie in der linken Leiste von Analysis Workspace auf das Infosymbol neben dem Namen einer Komponente klicken oder in der [Komponentenleitfaden für Analytics](/help/components/home.md).
+>Informationen zu den einzelnen Komponenten erhalten Sie, wenn Sie in der linken Leiste von Analysis Workspace auf das Infosymbol neben dem Namen einer Komponente klicken oder im [Komponentenleitfaden für Analytics](/help/components/home.md) nachsehen.
 
 ## Hinzufügen von Komponenten zu einem Projekt beginnen
 
-1. [Erstellen eines Projekts in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) wenn Sie es noch nicht getan haben.
+1. [Erstellen Sie ein Projekt in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) , falls noch nicht geschehen.
 
-1. [Bedienfeld hinzufügen](/help/analyze/analysis-workspace/c-panels/panels.md) oder [Visualisierung hinzufügen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) zum Projekt in Analysis Workspace.
+1. [Fügen Sie dem Projekt in Analysis Workspace ein Bedienfeld ](/help/analyze/analysis-workspace/c-panels/panels.md) oder [ hinzu, um eine Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) hinzuzufügen.
 
    Wenn Sie eine Komponente zu einem leeren Projekt hinzufügen, wird automatisch eine Freiformtabellenvisualisierung erstellt.
 
@@ -39,7 +39,7 @@ Eine Übersicht über die Komponententypen, die Sie hinzufügen können, finden 
 
    Segmente gelten für alle Inhalte im Bereich.
 
-   Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
+   Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in der Übersicht über Bedienfelder [Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![Segment im Ablegebereich ablegen](assets/segment-dropzone.png)
 
@@ -57,7 +57,7 @@ Eine Übersicht über die Komponententypen, die Sie hinzufügen können, finden 
 
 [Dimensionen](/help/components/dimensions/overview.md) sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Zu den gebräuchlichen Dimensionen gehören [Seite](/help/components/dimensions/page.md), [Referrer-Domäne](/help/components/dimensions/referring-domain.md) oder eine [eVar](/help/components/dimensions/evar.md). Im Gegensatz dazu enthalten [Metriken](/help/components/metrics/overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
-1. Beginnen Sie mit dem Hinzufügen einer Dimension zu Ihrem Projekt in Analysis Workspace, wie beschrieben in [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project).
+1. Beginnen Sie mit dem Hinzufügen einer Dimension zu Ihrem Projekt in Analysis Workspace, wie unter [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project) beschrieben.
 
 1. Wählen Sie eine der folgenden Methoden, um Dimensionen hinzuzufügen und den Datentyp zu bestimmen, den Sie analysieren möchten:
 
@@ -65,23 +65,23 @@ Eine Übersicht über die Komponententypen, die Sie hinzufügen können, finden 
 
      ![Dimensionen zu einem Projekt hinzufügen](assets/add-dimensions.png)
 
-   * Ziehen Sie eine oder mehrere Dimensionen aus der linken Leiste in den Segment-Ablagebereich, um ein Ad-hoc-Segment zu erstellen, wie unter [Segmente zu einem Projekt hinzufügen](#add-segments-to-a-project).
+   * Ziehen Sie eine oder mehrere Dimensionen aus der linken Leiste in den Segment-Ablagebereich, um ein Ad-hoc-Segment zu erstellen, wie unter [Segmente zu einem Projekt hinzufügen](#add-segments-to-a-project) beschrieben.
 
      ![Segment im Ablegebereich ablegen](assets/segment-dropzone.png)
 
 1. (Optional) Sie können Dimensionen und Dimensionselemente in Analysis Workspace mit anderen Komponenten aufschlüsseln.
 
-   Weitere Informationen finden Sie unter [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+   Weitere Informationen finden Sie unter [Aufschlüsseln von Dimensionen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-Weitere Informationen zur Verwendung von Dimensionen in Analysis Workspace finden Sie unter [Dimensionen in der Vorschau anzeigen](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), und [Dimensionen für die Zeitunterteilung](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
+Weitere Informationen zur Verwendung von Dimensionen in Analysis Workspace finden Sie unter [Dimensionen in der Vorschau anzeigen](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) und [Dimensionen für die Zeitunterteilung](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Hinzufügen von Metriken zu einem Projekt
 
-[Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md) können Sie Datenpunkte in Analysis Workspace quantifizieren. Sie werden meist als Spalten in einer Visualisierung verwendet und sind an Dimensionen gebunden.
+Mit [Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md) können Sie Datenpunkte in Analysis Workspace quantifizieren. Sie werden meist als Spalten in einer Visualisierung verwendet und sind an Dimensionen gebunden.
 
 So fügen Sie einem Projekt in Analysis Workspace eine Metrik hinzu:
 
-1. Beginnen Sie mit dem Hinzufügen einer Metrik zu Ihrem Projekt in Analysis Workspace, wie unter [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project).
+1. Beginnen Sie mit dem Hinzufügen einer Metrik zu Ihrem Projekt in Analysis Workspace, wie unter [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project) beschrieben.
 
 1. Wählen Sie eine der folgenden Methoden, um eine Metrik in Analysis Workspace hinzuzufügen:
 
@@ -107,7 +107,7 @@ Sie können Segmente in Analysis Workspace auf eine der folgenden Arten verwende
 
 Wenn Sie einem Bedienfeld Segmente hinzufügen, gelten die Segmente für alle Inhalte im Bedienfeld.
 
-Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
+Informationen dazu, wie Sie die Segment-Dropzone in einem Bedienfeld zum Filtern Ihres Bedienfelds verwenden können, finden Sie unter [Dropzone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in der Übersicht über Bedienfelder [Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 ### Segmente zu einer Spalte in einer Freiformtabelle hinzufügen
 
@@ -121,11 +121,11 @@ Weitere Informationen finden Sie unter [Segmentierte Metriken](/help/components/
 
 ## Hinzufügen von Datumsbereichen zu einem Projekt
 
-[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) den Berichtszeitrahmen in Analysis Workspace bestimmen und auf einen oder mehrere Bereiche innerhalb eines Projekts angewendet werden können.
+[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) bestimmen den Berichtszeitrahmen in Analysis Workspace und können auf einen oder mehrere Bereiche innerhalb eines Projekts angewendet werden.
 
 Jedes Bedienfeld enthält standardmäßig einen Datumsbereich. Es gibt mehrere Möglichkeiten, einen Datumsbereich für ein Bedienfeld zu aktualisieren. Eine Möglichkeit, einen Datumsbereich für ein Bedienfeld in Analysis Workspace zu aktualisieren, besteht darin, eine Datumsbereichskomponente aus der linken Leiste zu ziehen:
 
-1. Beginnen Sie mit dem Hinzufügen eines Datumsbereichs zu Ihrem Projekt in Analysis Workspace, wie beschrieben in [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project).
+1. Beginnen Sie mit dem Hinzufügen eines Datumsbereichs zu Ihrem Projekt in Analysis Workspace, wie unter [Hinzufügen von Komponenten zu einem Projekt beginnen](#begin-adding-components-to-a-project) beschrieben.
 
 1. Ziehen Sie einen Datumsbereich aus der linken Leiste in den aktuellen Datumsbereich oben rechts im Bedienfeld.
 

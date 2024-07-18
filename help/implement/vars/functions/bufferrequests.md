@@ -7,28 +7,28 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # bufferRequests
 
-Die `bufferRequests()` -Methode ermöglicht es Ihnen, Bildanforderungen auf der aktuellen Seite zwischenzuspeichern, anstatt sie an Adobe zu senden. Das Auslösen dieser Methode ist in Szenarien nützlich, in denen ein Browser nicht unterstützt [`navigator.sendBeacon()`](https://developer.mozilla.org/de-DE/docs/Web/API/Navigator/sendBeacon) oder anderweitig Bildanforderungen beim Entladen einer Seite abbricht. Viele Versionen von WebKit-Browsern wie Safari zeigen normalerweise das Verhalten, eine Bildanforderung beim Klicken auf einen Link zu stoppen. Die `bufferRequests()` -Methode ist für alle Versionen von AppMeasurement v2.25.0 oder höher verfügbar.
+Mit der `bufferRequests()` -Methode können Sie Bildanforderungen auf der aktuellen Seite zwischenspeichern, anstatt sie an Adobe zu senden. Das Auslösen dieser Methode ist in Szenarien nützlich, in denen ein Browser [`navigator.sendBeacon()`](https://developer.mozilla.org/de-DE/docs/Web/API/Navigator/sendBeacon) nicht unterstützt oder Bildanforderungen anderweitig abbricht, wenn eine Seite entladen wird. Viele Versionen von WebKit-Browsern wie Safari zeigen normalerweise das Verhalten, eine Bildanforderung beim Klicken auf einen Link zu stoppen. Die `bufferRequests()` -Methode ist für alle Versionen von AppMeasurement v2.25.0 oder höher verfügbar.
 
-Wenn Sie [`t()`](t-method.md) oder [`tl()`](tl-method.md) auf einer nachfolgenden Seite in derselben Browsersitzung und `bufferRequests()` noch nicht auf dieser Seite aufgerufen wurde, werden alle gepufferten Anfragen zusätzlich zur Bildanforderung dieser Seite gesendet. Pufferte Anforderungen werden in der richtigen Reihenfolge gesendet, wobei die Bildanforderung der aktuellen Seite zuletzt gesendet wird.
+Wenn Sie [`t()`](t-method.md) oder [`tl()`](tl-method.md) auf einer nachfolgenden Seite in derselben Browsersitzung aufrufen und `bufferRequests()` noch nicht auf dieser Seite aufgerufen wurde, werden alle gepufferten Anforderungen zusätzlich zur Bildanforderung dieser Seite gesendet. Pufferte Anforderungen werden in der richtigen Reihenfolge gesendet, wobei die Bildanforderung der aktuellen Seite zuletzt gesendet wird.
 
 >[!TIP]
 >
->Der Zeitstempel der gepufferten Anforderungen wird für die Seite freigegeben, an die Daten gesendet werden. Wenn Sie in der exakten Sekunde, in der eine gepufferte Anforderung aufgezeichnet wird, mehr Präzision wünschen, können Sie die [`timestamp`](../page-vars/timestamp.md) Seitenvariable vor der Pufferung der Anforderung. Wenn Sie diese Variable verwenden, stellen Sie sicher, dass [Zeitstempel optional](/help/technotes/timestamps-optional.md) aktiviert ist - wenn nicht, gehen alle Treffer mit Zeitstempel dauerhaft verloren.
+>Der Zeitstempel der gepufferten Anforderungen wird für die Seite freigegeben, an die Daten gesendet werden. Wenn Sie in der exakten Sekunde, in der eine gepufferte Anforderung aufgezeichnet wird, mehr Präzision wünschen, können Sie die Variable &quot;[`timestamp`](../page-vars/timestamp.md)&quot;für die Seite festlegen, bevor Sie die Anforderung puffern. Wenn Sie diese Variable verwenden, stellen Sie sicher, dass [Zeitstempel optional](/help/technotes/timestamps-optional.md) aktiviert ist - wenn dies nicht der Fall ist, gehen alle Treffer mit Zeitstempel dauerhaft verloren!
 
 ## Einschränkungen
 
-Beim Aufrufen der `bufferRequests()` -Methode verwenden, beachten Sie die folgenden Einschränkungen. Da diese Methode verwendet [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), gelten viele der gleichen Einschränkungen:
+Beachten Sie beim Aufrufen der `bufferRequests()` -Methode die folgenden Einschränkungen. Da diese Methode [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) verwendet, gelten viele der gleichen Einschränkungen:
 
 * Der Ziel-Link muss sich in derselben Domäne und Subdomäne befinden. Gebuchte Anforderungen funktionieren nicht domänenübergreifend oder unterdomänenübergreifend, auch wenn beide über dieselbe Adobe Analytics-Implementierung verfügen. Diese Einschränkung bedeutet auch, dass Sie gepufferte Anfragen nicht zur Verfolgung von Exitlinks verwenden können.
 * Der Ziel-Link muss dasselbe Protokoll wie die aktuelle Seite verwenden. Sie können keine gepufferten Anfragen zwischen HTTP und HTTPS senden.
-* Pufferte Anforderungen werden gespeichert, bis Sie `t()` oder `tl()` ohne Aufruf `bufferRequests()` , oder bis der Browser oder die Registerkarte geschlossen ist. Wenn eine Browsersitzung beendet wird, bevor Sie diese Daten an Adobe senden können, gehen nicht gesendete gepufferte Anfragen dauerhaft verloren.
-* Wenn ein Browser die [Web-Speicher-API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) oder [JSON-API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON), wird eine Warnung an die Browser-Konsole ausgegeben und AppMeasurement versucht, die Bildanforderung sofort mit der `t()` -Methode.
+* Pufferte Anforderungen werden gespeichert, bis Sie `t()` oder `tl()` aufrufen, ohne zuerst `bufferRequests()` aufzurufen, oder bis der Browser oder die Registerkarte geschlossen ist. Wenn eine Browsersitzung beendet wird, bevor Sie diese Daten an Adobe senden können, gehen nicht gesendete gepufferte Anfragen dauerhaft verloren.
+* Wenn ein Browser die [Web-Speicher-API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) oder die [JSON-API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) nicht unterstützt, wird eine Warnung an die Browser-Konsole ausgegeben und AppMeasurement versucht, die Bildanforderung unverzüglich mit der `t()` -Methode zu senden.
 
 ## Pufferte Anforderungen im Web SDK
 
@@ -40,7 +40,7 @@ In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable 
 
 ## s.bufferRequests() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Rufen Sie die `bufferRequests()` -Methode vor dem Aufruf `t()` oder `tl()`. Wann `bufferRequests()` aufgerufen wird, werden nachfolgende Tracking-Aufrufe in die Sitzungsspeicherung geschrieben, anstatt an Adobe-Datenerfassungsserver gesendet zu werden.
+Rufen Sie die Methode `bufferRequests()` auf, bevor Sie `t()` oder `tl()` aufrufen. Wenn `bufferRequests()` aufgerufen wird, werden nachfolgende Tracking-Aufrufe in die Sitzungsspeicherung geschrieben und nicht an Adobe-Datenerfassungsserver gesendet.
 
 ```js
 // Instantiate the tracking object

@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 94%
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Wann sollten Segmente für das gesamte Unternehmen und wann nur für eine Benutz
 
 1. Aktivieren Sie im Segment-Manager das Kontrollkästchen neben dem Segment, das Sie freigeben möchten. Die Werkzeugleiste für die Segmentverwaltung wird angezeigt.
 
-2. Klicken Sie auf **[!UICONTROL Freigeben]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+2. Klicken Sie auf **[!UICONTROL Freigabe]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    Wenn Sie Administrator sind, können Sie **[!UICONTROL Alle]** oder **[!UICONTROL Gruppen]** und **[!UICONTROL Benutzer]** in Ihrer Organisation auswählen. Als Nicht-Administrator sehen Sie nur einzelne Benutzer. Benutzen Sie das Feld **[!UICONTROL Suchen]**, um nach Gruppen oder Benutzern zu suchen. 1. Klicken Sie auf **[!UICONTROL Freigeben]**.
 

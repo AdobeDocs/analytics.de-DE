@@ -38,9 +38,9 @@ Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen 
 1. Klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Plan]**.
 
    Die Registerkarte [!UICONTROL Terminierte Berichte] enthält eine Zusammenfassung aller von Ihnen erstellten Aufgaben sowie die Anzahl der verbleibenden Aufgaben.
-1. Im **[!UICONTROL Terminierte Berichte]** Registerkarte, klicken **[!UICONTROL Neu]**. Der grundlegende Planungs-Assistent zeigt die Optionen an, die zur Definition des terminierten Berichts verwendet werden.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Terminierte Berichte]** auf **[!UICONTROL Neu]**. Der grundlegende Planungs-Assistent zeigt die Optionen an, die zur Definition des terminierten Berichts verwendet werden.
 
-   ![Screenshot mit dem grundlegenden Planungsassistenten.](assets/simple-schedule-wizard.png)
+   ![ Screenshot mit dem grundlegenden Planungsassistenten.](assets/simple-schedule-wizard.png)
 
 1. Konfigurieren Sie im Fenster [!UICONTROL Planungs-Assistent – Grundlegend] die folgenden Optionen:
 

@@ -31,7 +31,7 @@ Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerwe
 
 1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `adobeDataLayer.page.title`.
 1. **Verwenden der Adobe Experience Platform-Datenerfassung zum Zuordnen von Datenschichtobjekten zu Datenelementen**: Dieser Schritt variiert je nach Implementierungsmethode Ihrer Organisation:
-   * **Bei Verwendung des Web SDK**: Ordnen Sie die gewünschten Datenschichtobjekte den gewünschten XDM-Feldern in Adobe Experience Platform Edge zu. Siehe [Analytics-XDM-Variablenzuordnung](../aep-edge/xdm-var-mapping.md) , um die gewünschte Datenschichtzuordnung zu bestimmen.
+   * **Bei Verwendung des Web SDK**: Ordnen Sie die gewünschten Datenschichtobjekte den gewünschten XDM-Feldern in Adobe Experience Platform Edge zu. Siehe [Analytics XDM-Variablenzuordnung ](../aep-edge/xdm-var-mapping.md) , um die gewünschte Datenschichtzuordnung zu bestimmen.
    * **Bei Verwendung der Analytics-Erweiterung**: Erstellen Sie Datenelemente unter „Tags“ in der Adobe Experience Platform-Datenerfassung und weisen Sie sie den gewünschten Datenschichtobjekten zu. Weisen Sie dann innerhalb der Analytics-Erweiterung jedes Datenelement der entsprechenden Analytics-Variablen zu.
 
 ## Spezifikationen

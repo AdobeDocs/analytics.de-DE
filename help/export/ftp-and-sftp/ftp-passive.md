@@ -15,4 +15,4 @@ ht-degree: 85%
 
 Aktives FTP und passives FTP regeln unterschiedlich, wie die Port-Verbindungen hergestellt werden, was gewisse Auswirkungen auf die Firewall hat.
 
-Adobe verwendet passives FTP, das eine sicherere Form der Datenübertragung bietet, bei der der Datenfluss durch den FTP-Client und nicht durch den FTP-Server initiiert wird. Wenn Sie Schwierigkeiten haben, eine Verbindung zum Adobe FTP herzustellen, stellen Sie sicher, dass Sie den passiven Modus verwenden.
+Adobe verwendet passives FTP, das eine sicherere Form der Datenübertragung bietet, bei der der Datenfluss durch den FTP-Client und nicht durch den FTP-Server initiiert wird. Wenn Sie Schwierigkeiten haben, eine Verbindung mit Adobe FTP herzustellen, stellen Sie sicher, dass Sie den passiven Modus verwenden.

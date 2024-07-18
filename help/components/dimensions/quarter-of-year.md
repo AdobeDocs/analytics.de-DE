@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Quartal des Jahres
 
-Das &quot;Quartal des Jahres&quot; [Dimension](overview.md) erfasst das Quartal eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Quartal des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen. Sie können Jahresberichte nach Quartalen aggregieren, sodass die Q1-Daten dieses Jahres mit den Q1-Daten des letzten Jahres im selben Dimensionselement aggregiert werden.
+Die Dimension &quot;Quartal des Jahres&quot;[](overview.md) erfasst das Quartal eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Quartal des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen. Sie können Jahresberichte nach Quartalen aggregieren, sodass die Q1-Daten dieses Jahres mit den Q1-Daten des letzten Jahres im selben Dimensionselement aggregiert werden.
 
 ## Füllen dieser Dimension mit Daten
 

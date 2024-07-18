@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Downloadlink
 
-Der Downloadlink [Dimension](overview.md) gibt die Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
+Die Dimension &quot;Downloadlink&quot;[](overview.md) gibt die Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
 
 * die Dateien zu bestimmen, die am häufigsten von Ihrer Site heruntergeladen werden.
 * zu erkennen, ob bestimmte Dateien zu bestimmten Zeiten häufiger heruntergeladen werden.

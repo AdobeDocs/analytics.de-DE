@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1310'
 ht-degree: 85%
 
 ---
@@ -29,14 +29,14 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | [Ringdiagramm](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![Symbol &quot;Ringdiagramm&quot;](assets/Smock_GraphDonut_18_N.svg)</p> | Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. |
 | [Trichteranalyse](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Fallout-Symbol](assets/Smock_ConversionFunnel_18_N.svg)</p> | Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind). Kann auf mögliche oder exakte Sequenzen eingestellt werden |
 | [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![Flusssymbol](assets/flow-icon.png)</p> | Zeigt Kundenpfade durch Ihre Websites und Programme. |
-| [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Symbol &quot;Freiformtabelle&quot;](assets/Smock_ViewTable_18_N.svg)</p> | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. Es bildet die Grundlage für die Analyse von Daten in Workspace. |
+| [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Freiformtabellensymbol](assets/Smock_ViewTable_18_N.svg)</p> | Eine Freiformtabelle ist nicht nur eine Datentabelle, sondern auch eine interaktive Visualisierung. Es bildet die Grundlage für die Analyse von Daten in Workspace. |
 | [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![Histogrammsymbol](assets/Smock_GraphHistogram_18_N.svg)</p> | Ein Histogramm fasst Besucher, Besuche oder Treffer basierend auf einem Metrikvolumen in Behälter zusammen. |
-| [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![Symbol &quot;Horizontalbalken&quot;](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
-| [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![Symbol Schlüsselmetrik](assets/key-metric-icon.png)</p> | Zeigt an, wie eine Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht, oder ermöglicht Ihnen den Vergleich der Metrikleistung über zwei Zeitrahmen hinweg. |
+| [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![Horizontalbalkensymbol](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| [Zusammenfassung der Schlüsselmetriken](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![Symbol für Schlüsselmetriken](assets/key-metric-icon.png)</p> | Zeigt an, wie eine Metrik innerhalb eines einzigen Zeitrahmens in die Trends eingeht, oder ermöglicht Ihnen den Vergleich der Metrikleistung über zwei Zeitrahmen hinweg. |
 | [Linie](/help/analyze/analysis-workspace/visualizations/line.md)<p>![Liniensymbol](assets/Smock_GraphTrend_18_N.svg)</p> | Stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein Liniendiagramm verwendet die Zeit entlang der X-Achse. |
-| [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![Landkartensymbol](assets/map-icon.png)</p> | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
+| [Zuordnung](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![Kartensymbol](assets/map-icon.png)</p> | Ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken). |
 | [Streudiagramm](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![Streudiagramm-Symbol](assets/Smock_GraphScatter_18_N.svg)</p> | Zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. |
-| [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Symbol für Zusammenfassungsnummer](assets/summary-number-icon.png)</p> | Zeigt die ausgewählte Zelle als eine große Zahl an. |
+| [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Symbol &quot;Zusammenfassungsnummer&quot;](assets/summary-number-icon.png)</p> | Zeigt die ausgewählte Zelle als eine große Zahl an. |
 | [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Symbol für Zusammenfassungsänderung](assets/summary-change-icon.png)</p> | Zeigt die Änderung zwischen den ausgewählten Zellen als eine große Zahl/Prozentzahl an. |
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md)<p>![Textsymbol](assets/Smock_Text_18_N.svg)</p> | Sie können benutzerdefinierten Text zu Ihrem Workspace hinzufügen. Hilfreich zum Hinzufügen zusätzlicher Kontexte zu Ihrer Analyse und zu Einblicken, zusätzlich zum Nutzen der Beschreibungen im Bedienfeld oder in Visualisierungen |
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![Treemap-Symbol](assets/Smock_GraphTree_18_N.svg)</p> | Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an. |
@@ -48,19 +48,19 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
 1. Verwenden Sie eine der folgenden Methoden, um die Visualisierung hinzuzufügen:
 
-   * Wählen Sie in der linken Leiste die **Visualisierung** icon <!-- add icon -->, und ziehen Sie eine Visualisierung in den Bereich, dem Sie sie hinzufügen möchten.
+   * Wählen Sie in der linken Leiste das Symbol **Visualisierungen** <!-- add icon --> aus und ziehen Sie dann eine Visualisierung in den Bereich, dem Sie sie hinzufügen möchten.
 
      ![](assets/viz-rail.png)
 
-   * Wählen Sie im Bereich, in dem Sie die Visualisierung hinzufügen möchten, die **Plus** und wählen Sie dann das Symbol aus, das die Visualisierung darstellt, die Sie hinzufügen möchten. Bewegen Sie den Mauszeiger über das Symbol für jede Visualisierung, um den Namen anzuzeigen.
+   * Wählen Sie im Bereich, in dem Sie die Visualisierung hinzufügen möchten, das Symbol **Plus** und dann das Symbol für die Visualisierung aus, die Sie hinzufügen möchten. Bewegen Sie den Mauszeiger über das Symbol für jede Visualisierung, um den Namen anzuzeigen.
 
      ![Schaltfläche zum Hinzufügen einer Visualisierung](assets/visualization-add-to-panel.png)
 
-   * Hinzufügen einer [leeres Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de)und wählen Sie dann die Visualisierung aus, die Sie hinzufügen möchten.
+   * Fügen Sie ein [leeres Bedienfeld](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=de) hinzu und wählen Sie dann die Visualisierung aus, die Sie hinzufügen möchten.
 
      ![Leeres Bedienfeld](assets/blank_panel.png)
 
-   * Klicken Sie mit der rechten Maustaste auf einen vorhandenen Bereich in Ihrem Analysis Workspace-Projekt und wählen Sie [!UICONTROL **Visualisierung duplizieren**] oder [!UICONTROL **Visualisierung kopieren**].
+   * Klicken Sie mit der rechten Maustaste auf einen vorhandenen Bereich in Ihrem Analysis Workspace-Projekt und wählen Sie dann [!UICONTROL **Visualisierung duplizieren**] oder [!UICONTROL **Visualisierung kopieren**] aus.
 
 ## Anpassen von Visualisierungseinstellungen
 

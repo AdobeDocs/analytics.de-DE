@@ -17,7 +17,7 @@ Mit der `registerPreTrackCallback`-Variablen kann Ihr Unternehmen eine JavaScrip
 
 >[!WARNING]
 >
->Führen Sie keine Tracking-Aufrufe durch, wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPreTrackCallback` -Variable. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
+>Führen Sie innerhalb der Variable `registerPreTrackCallback` keine Tracking-Aufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) durch. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie diese Funktion jedes Mal ein, um sie bei jeder Kompilierung der URL einer Bildanforderung auszuführen. Vermeiden Sie es, dieselbe Funktion mehrmals mit demselben Seitenladevorgang zu registrieren.
 
@@ -27,17 +27,17 @@ Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie
 
 ## Rückruf-Vorverfolgung mit der Web SDK-Erweiterung
 
-Das Web SDK kann eine Funktion nicht mehr hocken, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird.
+Das Web SDK kann eine Funktion nicht mehr hocken, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` verwenden, um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird.
 
-1. Melden Sie sich bei [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) Benutzeroberfläche mit Ihren Adobe ID-Anmeldeinformationen.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der Benutzeroberfläche von [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
-1. under [!UICONTROL Datenerfassung], klicken Sie auf die **[!UICONTROL Bearbeiten am vor dem Senden des Callback-Codes eines Ereignisses]** Schaltfläche.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
+1. Klicken Sie unter [!UICONTROL Datenerfassung] auf die Schaltfläche **[!UICONTROL Vor dem Senden des Rückruffods durch das Ereignis bearbeiten]** .
 1. Platzieren Sie den gewünschten Code im Editor.
 
 ## Rückruf-Vorverfolgung manuell zur Implementierung des Web SDK
 
-Das Web SDK kann eine Funktion nicht mehr hocken, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` , um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie bei `doPlugins`. Siehe [Globale Änderung von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Das Web SDK kann eine Funktion nicht mehr hocken, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` verwenden, um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie bei `doPlugins`. Weitere Informationen finden Sie unter [Globales Ändern von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation.
 
 ```js
 // Set the trackingCode XDM field to "New value"

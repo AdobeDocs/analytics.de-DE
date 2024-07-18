@@ -8,13 +8,13 @@ exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
 # Arbeitsmappe mit Anforderungen speichern
 
-Wenn Sie Berichte mit eingebetteten Anforderungen erstellen, können Sie diese mit **Datei** > **Speichern** oder **Datei** > **Speichern unter** in Excel. Report Builder erkennt, ob der Bericht Anforderungen enthält. Wenn Sie eine der Speicheroptionen auswählen, führen Sie die **Arbeitsmappe speichern unter** Formular.
+Wenn Sie Berichte mit eingebetteten Anforderungen erstellen, können Sie sie mit &quot;**Datei**&quot;> &quot;**Speichern**&quot;oder &quot;**Datei**&quot;> &quot;**Speichern unter**&quot;in Excel speichern. Report Builder erkennt, ob der Bericht Anforderungen enthält. Wenn Sie eine der Speicheroptionen auswählen, füllen Sie das Formular **Arbeitsmappe speichern unter** aus.
 
 * Die von Adobe empfohlene Best Practice bei umfangreichen Arbeiten mit Windows-Anwendungen ist, die Anforderungen in den Arbeitsblättern oft und regelmäßig zu speichern, um unerwartete Verluste von Anforderungen im Arbeitsblatt zu vermeiden.
 * Wenn Sie eine Arbeitsmappe benennen, sollten Sie eine Versionsnummer im Dateinamen verwenden, um den Verlauf Ihrer Arbeit verfolgen zu können. Nennen Sie beispielsweise Ihre erste Arbeitsmappe [!DNL web_forecast_01_01.xlsx].
@@ -26,7 +26,7 @@ Das Dialogfeld [!UICONTROL Vorlage speichern] ähnelt in einigen Punkten dem Exc
 
 Jeder Dateiname darf höchstens 255 Zeichen enthalten. Darüber hinaus darf ein Dateiname keines der folgenden Zeichen enthalten:
 
-\ ? | > &lt; : / &#42; &quot; &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 Schließlich dürfen keine Unicode-Zeichen über den Satz der erweiterten ASCII-Zeichen hinaus verwendet werden.
 

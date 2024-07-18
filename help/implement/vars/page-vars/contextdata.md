@@ -19,9 +19,9 @@ Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannt
 
 ## Kontextdatenvariablen, die das Web SDK verwenden
 
-Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md) festgelegt ist, werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch mithilfe des XDM-Objekts explizit festlegen. Sie können dann [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) , um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Siehe [Zuordnen anderer XDM-Felder zu Analytics-Variablen](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) für weitere Informationen.
+Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch mithilfe des XDM-Objekts explizit festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden Sie unter [Zuordnen anderer XDM-Felder zu Analytics-Variablen](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) .
 
-Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md), befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
 
 ```js
 alloy("sendEvent", {
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-Die [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) -Oberfläche anzeigen `c.example_variable` und `c.second_example` in entsprechenden Dropdown-Menüs.
+Die Oberfläche der [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) zeigt `c.example_variable` und `c.second_example` in den entsprechenden Dropdownmenüs an.
 
 ## Kontextdatenvariablen, die die Adobe Analytics-Erweiterung verwenden
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >Kontextdatenvariablen werden nach Ausführung der Verarbeitungsregeln verworfen. Wenn keine Verarbeitungsregeln aktiv sind, die Werte in Variablen platzieren, gehen diese Daten dauerhaft verloren!
 
 1. Aktualisieren Sie Ihre Implementierung, um Kontextdatenvariablennamen und -werte festzulegen.
-2. Melden Sie sich bei Adobe Analytics an und wechseln Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Bericht]** Suiten.
-3. Wählen Sie die gewünschte Report Suite aus und navigieren Sie zu **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
+2. Melden Sie sich bei Adobe Analytics an und gehen Sie zu &quot;**[!UICONTROL Admin]**&quot;> &quot;**[!UICONTROL Report]** Suites&quot;.
+3. Wählen Sie die gewünschte Report Suite aus und gehen Sie dann zu &quot;**[!UICONTROL Einstellungen bearbeiten]**&quot;> &quot;**[!UICONTROL Allgemein]**&quot;> &quot;**[!UICONTROL Verarbeitungsregeln]**&quot;.
 4. Erstellen Sie eine Verarbeitungsregel, die eine Analytics-Variable auf den Wert der Kontextdatenvariablen setzt.
 5. Speichern Sie die Änderungen.
 

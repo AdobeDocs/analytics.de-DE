@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -28,27 +28,27 @@ Erstellen und speichern Sie eine Metrik namens &quot;Deutsche Besucher&quot;und 
 
 1. Erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens &quot;Deutsche Besucher&quot;, wobei &quot;Länder&quot;gleich &quot;Deutschland&quot;ist.
 
-   Ziehen Sie die Dimension Länder in die Arbeitsfläche Definition und wählen Sie [!UICONTROL **Deutschland**] als Wert:
+   Ziehen Sie die Dimension Länder in die Arbeitsfläche Definition und wählen Sie als Wert [!UICONTROL **Deutschland**] aus:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >Sie können dies auch im Abschnitt [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md), aber wir haben den Workflow vereinfacht, indem wir Dimensionen im Generator für berechnete Metriken verfügbar gemacht haben. „Ad hoc“ bedeutet, dass das Segment nicht in der Liste der **[!UICONTROL Segmente]** in der linken Leiste angezeigt wird. Sie können es aber auch veröffentlichen, indem Sie über das „i“ daneben fahren und auf **[!UICONTROL Als öffentlich einstellen klicken]**.
+   >Sie können dies auch im [Segmentaufbau](/help/components/segmentation/segmentation-workflow/seg-build.md) tun, aber wir haben den Workflow vereinfacht, indem wir Dimensionen im Generator für berechnete Metriken verfügbar gemacht haben. „Ad hoc“ bedeutet, dass das Segment nicht in der Liste der **[!UICONTROL Segmente]** in der linken Leiste angezeigt wird. Sie können es aber auch veröffentlichen, indem Sie über das „i“ daneben fahren und auf **[!UICONTROL Als öffentlich einstellen klicken]**.
 
 1. Ziehen Sie das Segment Deutschland in die Arbeitsfläche Definition und ziehen Sie die Metrik Unique Visitors darin:
 
    ![](assets/german-visitors.png)
 
-1. Auswählen [!UICONTROL **Speichern**] , um die berechnete Metrik zu speichern.
+1. Wählen Sie [!UICONTROL **Speichern**] aus, um die berechnete Metrik zu speichern.
 
 1. Erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens &quot;Internationale Besucher&quot;, bei dem &quot;Länder&quot;nicht mit &quot;Deutschland&quot;übereinstimmt.
 
-   Ziehen Sie die Dimension Länder in die Arbeitsfläche Definition und wählen Sie [!UICONTROL **Deutschland**] als Wert angeben, und wählen Sie dann [!UICONTROL **ist nicht gleich**] als Operator.
+   Ziehen Sie die Dimension &quot;Länder&quot;in die Arbeitsfläche &quot;Definition&quot;, wählen Sie [!UICONTROL **Deutschland**] als Wert aus und wählen Sie dann [!UICONTROL **nicht gleich**] als Operator.
 
 1. Ziehen Sie die Metrik Unique Visitors hinzu.
 
-1. Auswählen [!UICONTROL **Speichern**] , um die berechnete Metrik zu speichern.
+1. Wählen Sie [!UICONTROL **Speichern**] aus, um die berechnete Metrik zu speichern.
 
 1. Ziehen Sie in Analysis Workspace die Dimension **[!UICONTROL Seite]** in eine Freiform-Tabelle und dann die zwei neuen berechneten Metriken nebeneinander oben in die Tabelle:
 

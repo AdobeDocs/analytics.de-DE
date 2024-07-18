@@ -12,7 +12,7 @@ ht-degree: 70%
 
 # Nicht identifizierte Personen
 
-Die &quot;nicht identifizierten Personen&quot; [Metrik](overview.md) ist [Geräteübergreifende Analyse](../cda/overview.md) Metrik, die die Anzahl der Besucher zählt, die die geräteübergreifende Analyse nicht identifizieren konnte.
+Die Metrik &quot;Nicht identifizierte Personen&quot;[metrik](overview.md) ist eine [geräteübergreifende Analyse](../cda/overview.md) -Metrik, mit der die Anzahl der Besucher gezählt wird, die die geräteübergreifende Analyse nicht identifizieren konnte.
 
 ## Berechnung dieser Metrik
 

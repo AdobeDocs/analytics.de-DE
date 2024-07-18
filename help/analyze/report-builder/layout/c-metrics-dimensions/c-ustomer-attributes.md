@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 83%
 
 ---
@@ -19,7 +19,7 @@ Weitere Informationen zum Hochladen von Kundenattributen finden Sie in der [Expe
 
 * Wenn es als Metrik konfiguriert ist, wird VisAttr sowohl als Metrik als auch als &quot;Dimension&quot;angezeigt.
 
-  ![Screenshot mit der Metrik und Dimension &quot;Kundenattribute&quot;.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
+  ![Screenshot mit Metrik und Dimension &quot;Kundenattribute&quot;.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Es unterstützt dieselbe Aufschlüsselung wie eine eVar (alles kann durch alles aufgeschlüsselt werden).
 * VisAttr unterstützt alle eVar-Metriken.

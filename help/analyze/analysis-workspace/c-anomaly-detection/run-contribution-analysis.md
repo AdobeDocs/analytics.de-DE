@@ -7,7 +7,7 @@ feature: Anomaly Detection
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Es gibt zwei Möglichkeiten, die Beitragsanalyse in einem Projekt aufzurufen:
 1. (Optional) Nachdem Sie in einem Liniendiagramm oder einer Tabelle auf **[!UICONTROL Beitragsanalyse durchführen]** geklickt haben, können Sie die Analyse weiter eingrenzen (und damit beschleunigen), indem Sie [Dimensionen ausschließen](#exclude).
 
 1. Warten Sie, während Ihre Beitragsanalyse geladen wird. Dieser Vorgang kann je nach der Größe Ihrer Report Suite und der Anzahl Ihrer Dimensionen einige Zeit in Anspruch nehmen. Die Beitragsanalyse erfolgt anhand der obersten 50.000 Elemente pro Dimension.
-1. Analysis Workspace lädt dann ein neues Beitragsanalyse-Bedienfeld direkt in dieses Projekt.
+1. Anschließend lädt Analysis Workspace ein neues Beitragsanalyse-Bedienfeld direkt in dieses Projekt. 
 
    * Eine Visualisierung, die die Anzahl der **Besuche** an diesem Tag anzeigt.
    * Eine monatliche **Besuchstrendlinie** für den Kontext.

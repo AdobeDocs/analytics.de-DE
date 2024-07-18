@@ -31,7 +31,7 @@ Kundenhinweise werden ab dem 27. Februar 2023 in den Analytics-Prozess zur Gerä
 >
 > Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
 
-Adobe Audience Manager erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie [serverseitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) dann können Sie die Sammlung von hochentropischen Hinweisen aktivieren.
+Adobe Audience Manager erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie die serverseitige Weiterleitung von [an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen zur Entropie mit hoher Entropie aktivieren.
 
 ## Häufig gestellte Fragen
 
@@ -159,6 +159,6 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 
 +++**Unterstützt die serverseitige Weiterleitung von Adobe Audience Manager Client-Hinweise?**
 
-Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass für Adobe Audience Manager hochgradige Entropy-Hinweise gesammelt werden müssen, um die volle Funktionalität zu erhalten. Wenn Sie [serverseitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) dann können Sie die Sammlung von hochentropischen Hinweisen aktivieren.
+Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass für Adobe Audience Manager hochgradige Entropy-Hinweise gesammelt werden müssen, um die volle Funktionalität zu erhalten. Wenn Sie die serverseitige Weiterleitung von [an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen zur Entropie mit hoher Entropie aktivieren.
 
 +++

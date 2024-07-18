@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -18,9 +18,9 @@ Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anfor
 
 Wenn Sie als Analyst eine Arbeitsmappe sperren, können Sie Ihre Arbeitsmappenanforderungen davor schützen, dass sie von anderen Benutzern in Ihrer Organisation bearbeitet werden. Gleichzeitig können diese Benutzer die Anforderungen in der Arbeitsmappe noch bearbeiten.
 
-Um eine Arbeitsmappe vor Änderungen zu schützen, klicken Sie auf der Report Builder-Symbolleiste auf **[!UICONTROL Gesperrt]** ( ![](assets/locked_icon.png)).
+Um eine Arbeitsmappe vor der Bearbeitung zu schützen, klicken Sie in der Symbolleiste des Report Builders auf **[!UICONTROL Gesperrt]** ( ![](assets/locked_icon.png)).
 
-Um die Sperrung für eine Arbeitsmappe aufzuheben, klicken Sie auf **[!UICONTROL Entsperrt]** ( ![](assets/unlocked_icon.png)).
+Um den Schutz einer Arbeitsmappe aufzuheben, klicken Sie auf **[!UICONTROL Entsperrt]** ( ![](assets/unlocked_icon.png)).
 
 Sie können eine Arbeitsmappe entsperren, wenn Sie über eine der folgenden Berechtigungen verfügen:
 
@@ -29,7 +29,7 @@ Sie können eine Arbeitsmappe entsperren, wenn Sie über eine der folgenden Bere
 
 >[!NOTE]
 >
->Sie können einer geschützten Arbeitsmappe keine Anforderung hinzufügen, außer Sie sind berechtigt, die Arbeitsmappe zu entsperren.
+>Sie können einer geschützten Arbeitsmappe keine Anforderung hinzufügen, es sei denn, Sie sind berechtigt, die Arbeitsmappe zu entsperren.
 
 Wenn eine Arbeitsmappe für die Bearbeitung von Anforderungen gesperrt ist, gilt Folgendes:
 
@@ -40,7 +40,7 @@ Wenn eine Arbeitsmappe für die Bearbeitung von Anforderungen gesperrt ist, gilt
 * Benutzer können Anforderungen entweder individuell oder als Mitglied einer Gruppe aktualisieren.
 * Wenn bei der Anforderung Eingabewerte aus Zellen verwendet werden (Datumsbereich, Segment, Filter) können Benutzer diese Werte in den Zellen ändern und so die Anforderungen indirekt bearbeiten, indem sie sie aktualisieren.
 
-Wenn Sie versuchen, eine geschützte Arbeitsmappe über das Kontextmenü zu bearbeiten, oder **[!UICONTROL Anforderungs-Manager]** oder **[!UICONTROL Mehrere Anforderungen bearbeiten]** kann es sein, dass Sie dies tun dürfen oder nicht:
+Wenn Sie versuchen, eine geschützte Arbeitsmappe über das Kontextmenü, den **[!UICONTROL Anforderungs-Manager]** oder den **[!UICONTROL Mehrere Anforderungen bearbeiten]** zu bearbeiten, ist dies möglicherweise nicht zulässig:
 
 * Wenn Sie nicht berechtigt sind, eine Anforderung zu entsperren, wird Ihnen eine Meldung angezeigt, in der Sie darauf hingewiesen werden, dass Sie nicht über die Rechte zum Entsperren und Bearbeiten der Arbeitsmappe verfügen.
 

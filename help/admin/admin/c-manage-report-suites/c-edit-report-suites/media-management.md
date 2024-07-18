@@ -23,8 +23,8 @@ Die folgenden Medienverwaltungsoptionen sind beim Bearbeiten einer Report Suite 
 
   Spezifische Berichte zum Streaming-Mediensammlungs-Add-on sind auf der Seite Medienberichte verfügbar. Weitere Informationen zur Medienberichterstellung finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
-* [!UICONTROL **Medien-Classifications**]
+* [!UICONTROL **Medienklassifizierungen**]
 
   Spezifische Classifications für das Streaming Media Collection Add-on sind auf der Seite Media Classifications verfügbar. Weitere Informationen zu Classifications finden Sie unter [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Allgemeine Informationen zur Integration von Streaming-Mediendaten in Adobe Analytics finden Sie im Abschnitt [Handbuch zum Streaming-Mediensammlungs-Add-on](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de).
+Allgemeine Informationen zur Integration von Streaming-Mediendaten in Adobe Analytics finden Sie im [Add-On für Streaming-Medien-Sammlungen](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de)-Handbuch.

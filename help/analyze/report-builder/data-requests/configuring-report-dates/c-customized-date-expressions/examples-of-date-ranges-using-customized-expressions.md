@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 
 | Beispiel | Datumsbereich | Ausdruck anpassen | Datumsbereich des Berichts |
 |---|---|---|---|
-|  |  | **Von** | **Bis** |  |
+|  | | **Von** | **Bis** | |
 | 1 | Vor zwei Wochen | cw-2w | cw-1w-1d | 26. Okt. bis 1. Nov. |
 | 2 | Die ersten 3 Tage des fünften Monats des letzten Jahres | cy-1y+4m | cy-1y+4m+2d | 1. Mai bis 3. Mai 2010 |
 | 3 | Eine ganze Woche, ab dem Datum vor vier Wochen | cw-4w | cw-3w-1d | 12. Okt. bis 18. Okt. |
@@ -28,7 +28,7 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 | 5 | Ein Monat ab dem Datum vor zwei Monaten | cm-2m | cm-1m-1d | 1. Sept. bis 30. Sept. |
 | 6 | Vor 12 Monaten im vergangenen Jahr | cm-12m | cm-11m-1d | 1. Nov. bis 30. Nov. 2010 |
 
-## Hinweise zu den Beispielen {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## Hinweise zu Beispielen {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **Beispiel 1**
 

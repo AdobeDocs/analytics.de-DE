@@ -19,7 +19,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
 
 +++ Woher weiß ich, ob ich persönlich identifizierbare Informationen (PII) in meinen Analytics-Daten verwende? Und wenn ja, was mache ich dagegen?
 
-Wenn sich in einer Prop oder einer eVar E-Mails/Adressen/etc. befinden, sollten Sie die Daten während der Erfassung mit einem Hashing versehen. Wenn in Ihrem Land IP-Adressen als persönlich identifizierbare Informationen gelten, [IP-Verschleierung aktivieren](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=de). Sprechen Sie mit Ihrem Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten betrachten.
+Wenn sich in einer Prop oder einer eVar E-Mails/Adressen/etc. befinden, sollten Sie die Daten während der Erfassung mit einem Hashing versehen. Wenn in Ihrem Land IP-Adressen als persönlich identifizierbare Informationen gelten, aktivieren Sie [die IP-Verschleierung](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=de). Sprechen Sie mit Ihrem Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten betrachten.
 
 +++
 
@@ -49,7 +49,7 @@ Es kann einige Stunden dauern, Ihre Report Suites mit neuen Daten zu füllen.
 
 +++ Ich habe ein neues Analytics-Ziel erstellt, aber es wird nicht im Abschnitt Zielzuordnungen meiner verfügbaren Segmente angezeigt. Wohin ging das Ziel, oder wie finde ich es?
 
-Ein Analytics-Ziel verschwindet aus dem Abschnitt Zielzuordnungen eines Segments, wenn Sie die **[!UICONTROL Alle aktuellen und zukünftigen Segmente automatisch zuordnen]** -Option in **[!UICONTROL Segmentzuordnungen]**. Um das zu vermeiden, wählen Sie statt der automatischen Option **[!UICONTROL Segmente manuell zuweisen]** aus.
+Ein Analytics-Ziel wird aus dem Abschnitt &quot;Zielzuordnungen&quot;eines Segments ausgeblendet, wenn Sie die Option **[!UICONTROL Alle aktuellen und zukünftigen Segmente automatisch zuordnen]** in **[!UICONTROL Segmentzuordnungen]** auswählen. Um das zu vermeiden, wählen Sie statt der automatischen Option **[!UICONTROL Segmente manuell zuweisen]** aus.
 
 +++
 
@@ -105,9 +105,9 @@ Wahrscheinlich gibt es zwischen Datenquelle und Ziel einen Konflikt zwischen den
 
 +++
 
-+++ Warum wird in meinem Analytics-Bericht &quot;Zielgruppenlimit erreicht&quot;angezeigt? (Hinweis: Dies wird auch als Zielgruppen-ID = -1 und `::max_audiences_exceeded::` in Data Warehouse)
++++ Warum wird in meinem Analytics-Bericht &quot;Zielgruppenlimit erreicht&quot;angezeigt? (Hinweis: Dies wird auch als Zielgruppen-ID = -1 und `::max_audiences_exceeded::` in Data Warehouse dargestellt.)
 
-Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle-Segmente, für die sich ein Besucher pro Treffer qualifiziert, an Analytics. Wenn ein Besucher bei einem einzelnen Treffer zu mehr als 150 Adobe Audience Manager-Segmenten gehört, wird die **150 zuletzt qualifizierte Segmente** werden an Analytics gesendet, während die verbleibende Liste abgeschnitten ist. Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt.
+Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle-Segmente, für die sich ein Besucher pro Treffer qualifiziert, an Analytics. Wenn ein Besucher bei einem einzelnen Treffer zu mehr als 150 Adobe Audience Manager-Segmenten gehört, werden die zuletzt qualifizierten **150 Segmente** an Analytics gesendet, während die verbleibende Liste abgeschnitten wird. Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt.
 
 Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen:
 
@@ -149,7 +149,7 @@ Siehe [Unterschiede in der Besucherzahl](/help/integrate/c-audience-analytics/vi
 
 +++ Was ist der Unterschied zwischen &quot;Zielgruppen&quot;in Adobe Audience Manager und &quot;Segmenten&quot;in Analytics?
 
-Siehe [Segmente in Analytics und Audience Manager - Grundlagen](/help/integrate/c-audience-analytics/aam-analytics-segments.md). Adobe Audience Manager-Zielgruppen werden gesendet und als &quot;Dimensionskomponenten&quot;freigegeben, die in Analytics verwendet werden können. Sie werden beispielsweise nicht als Segmente im Segment Builder angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können.
+Siehe [Segmente in Analytics und Audience Manager verstehen](/help/integrate/c-audience-analytics/aam-analytics-segments.md). Adobe Audience Manager-Zielgruppen werden gesendet und als &quot;Dimensionskomponenten&quot;freigegeben, die in Analytics verwendet werden können. Sie werden beispielsweise nicht als Segmente im Segment Builder angezeigt, sondern als Dimensionen, mit denen Sie Segmente erstellen können.
 
 +++
 

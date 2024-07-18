@@ -6,7 +6,7 @@ exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 39%
+ht-degree: 49%
 
 ---
 
@@ -18,17 +18,17 @@ Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfi
 
 So erstellen Sie einen Bericht für eine Data Warehouse-Anforderung:
 
-1. Beginnen Sie, falls noch nicht geschehen, mit der Erstellung einer Anforderung in Adobe Analytics, indem Sie **[!UICONTROL Instrumente]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
+1. Falls Sie noch keine Anfrage in Adobe Analytics erstellt haben, tun Sie dies nun durch Auswahl von **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
 
    Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen Sie auf der Seite Neue Data Warehouse-Anforderung die [!UICONTROL **Bericht erstellen**] Registerkarte.
+1. Wählen Sie auf der Seite Neue Data Warehouse-Anforderung die Registerkarte [!UICONTROL **Bericht erstellen**] aus.
 
-   ![Registerkarte Bericht erstellen](assets/build-report.png)
+   ![Registerkarte &quot;Bericht erstellen&quot;](assets/build-report.png)
 
 1. Ziehen Sie alle Segmente, Metriken und Dimensionen in den Builder. Der erstellte Bericht bestimmt, welche Daten in der Data Warehouse-Anfrage enthalten sind.
 
-1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der [!UICONTROL **Berichtsziel**] Registerkarte. Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anforderung auf der Registerkarte [!UICONTROL **Berichtsziel**] fort. Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 <!--
 

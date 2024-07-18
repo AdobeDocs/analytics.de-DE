@@ -19,7 +19,7 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nachdem Sie die Classifications aktiviert haben, verwenden Sie die [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) , um bestimmte Werte der entsprechenden Classification zuzuweisen.
+Nachdem Sie Klassifizierungen aktiviert haben, verwenden Sie den [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) , um bestimmte Werte der entsprechenden Klassifizierung zuzuweisen.
 
 >[!WARNING]
 >

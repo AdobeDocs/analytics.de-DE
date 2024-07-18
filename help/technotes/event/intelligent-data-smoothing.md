@@ -15,7 +15,7 @@ ht-degree: 3%
 
 In seltenen Fällen können einige Faktoren die Datenqualität beeinflussen. Bot-Traffic, Implementierungsänderungen oder Dienstunterbrechungen können sich auf die Integrität der erfassten Daten auswirken. Sie verkomplizieren auch die Analyse, wie sich das Ereignis auf die Vollständigkeit der Daten ausgewirkt haben kann.
 
-Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyze/labs.md) Dies kann dazu beitragen, diese Ansicht abzuschließen, indem historische Trends analysiert werden, um den Wert einer Metrik im betroffenen Zeitraum vorherzusagen. Der Prototyp wendet erweiterte maschinelle Lernalgorithmen an, um die erwarteten Werte für Metriken im Analysezeitraum darzustellen.
+Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyze/labs.md) , der dazu beitragen kann, diese Ansicht abzuschließen, indem historische Trends analysiert werden, um den Wert einer Metrik im betroffenen Zeitraum vorherzusagen. Der Prototyp wendet erweiterte maschinelle Lernalgorithmen an, um die erwarteten Werte für Metriken im Analysezeitraum darzustellen.
 
 ## Intelligente Datenausgleichung ausführen
 
@@ -29,8 +29,8 @@ Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyz
    ![Datumsbereich](assets/date-range.png)
 1. Klicken Sie auf das Zahnradsymbol für die Metrik in der Freiformtabelle.
    ![Zahnradsymbol](assets/gear-icon.png)
-1. under [!UICONTROL Dateneinstellungen], wählen Sie die [!UICONTROL Datenausgleichung] -Option.
+1. Wählen Sie unter [!UICONTROL Dateneinstellungen] die Option [!UICONTROL Datenausgleichung] aus.
    ![Datenausgleichung](assets/column-setting.png)
-1. Wählen Sie Datum/Datumsbereich aus, der dem Ereignis entspricht, und klicken Sie auf [!UICONTROL Anwenden].
+1. Wählen Sie das Datum/den Datumsbereich aus, das/der dem Ereignis entspricht, und klicken Sie auf [!UICONTROL Anwenden].
 Stellen Sie sicher, dass der Datenbereich für die Datenausgleichung eine Teilmenge des für den Bereich ausgewählten Datumsbereichs ist. Die Metrik in der Tabelle und im Diagramm werden durch die prognostizierten Werte ersetzt.
    ![Vorhergesagte Werte](assets/predictive-values.png)

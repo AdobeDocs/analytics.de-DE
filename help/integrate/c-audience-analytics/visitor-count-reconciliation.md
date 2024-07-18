@@ -5,8 +5,8 @@ feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 86%
+source-wordcount: '285'
+ht-degree: 85%
 
 ---
 
@@ -43,7 +43,7 @@ Die Besuchermetriken sind:
  </tbody> 
 </table>
 
-Die Segmentpopulation in Adobe Audience Manager in Echtzeit und Analytics-Besucher mit der Experience Cloud-ID, die in der Audience Analytics-Berichterstellung verwendet wird, sind am ähnlichsten. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
+Die Segmentpopulation in Adobe Audience Manager in Echtzeit und Analytics-Besucher mit Experience Cloud-ID, die in Audience Analytics-Berichten verwendet werden, sind am ähnlichsten. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

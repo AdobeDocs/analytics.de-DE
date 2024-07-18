@@ -8,7 +8,7 @@ exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -20,7 +20,7 @@ Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!U
 
 ![Symbole der Report Builder-Symbolleiste](assets/report_builder_toolbar.png)
 
-**Anmelden:** Zeigt die [!UICONTROL Anmelden] Formular, damit Sie sich mit Ihren Anmeldedaten oder als anderer Benutzer anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Anmelden bei Report Builder](/help/analyze/report-builder/setup/login.md).
+**Anmelden:** Zeigt das Formular [!UICONTROL Anmelden] an, sodass Sie sich mit Ihren Anmeldedaten oder als ein anderer Benutzer anmelden können. Außerdem wird nach der Anmeldung Ihr Firmenname angezeigt. Siehe [Report Builder-Anmeldung](/help/analyze/report-builder/setup/login.md).
 
 **Erstellen:** Startet den [!UICONTROL Anforderungs-Assistenten]. Wenn Sie noch nicht angemeldet sind, werden Sie jetzt dazu aufgefordert. Siehe [Datenanforderungen](/help/analyze/report-builder/data-requests/data-requests.md).
 
@@ -28,11 +28,11 @@ Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!U
 
 **Aktualisieren:** Die Daten aller in die Excel-Arbeitsmappe eingebetteten Anforderungen werden aktualisiert. Siehe [Eine Anforderung aktualisieren](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md).
 
-**Format:** Zur Festlegung von bedingten Formatierungen auf die Zellen des Arbeitsblatts. Siehe [Bedingte Formatierungen festlegen](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
+**Format:** Zur Festlegung von bedingten Formatierungen auf die Zellen des Arbeitsblatts. Siehe [Bedingte Formatierung festlegen](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md).
 
 **Plan:** Zur Planung von Berichten entsprechend der von Ihnen festgelegten Datums- und Dateiformate. Siehe [Berichtanforderungen planen](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Bibliothek:** Startet die [!UICONTROL Arbeitsmappen-Bibliothek] , damit Sie eine Excel-Arbeitsmappe für Report Builder hochladen können, die Sie freigeben möchten. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Siehe [Nutzung der Arbeitsmappen-Bibliothek](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)
+**Bibliothek:** Startet die [!UICONTROL Arbeitsmappen-Bibliothek], damit Sie eine Excel-Arbeitsmappe für den Report Builder hochladen können, die Sie freigeben möchten. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Siehe [Nutzung der Arbeitsmappen-Bibliothek](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md)
 
 **Optionen:** Hier können Sie angeben, ob beim Aktualisieren von Daten nach dem **[!UICONTROL Ausführungsdatum]** gefragt werden soll. Außerdem kann die Protokollierung zu Fehlerbehebungszwecken aktiviert werden. Siehe [Optionen](/help/analyze/report-builder/options.md).
 

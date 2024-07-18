@@ -30,7 +30,7 @@ Alle Benutzer können Tags für Segmente erstellen und eines oder mehrere Tags a
    * wählen Sie entweder ein vorhandenes Tag aus oder
    * fügen Sie ein neues Tag hinzu und drücken Sie die **[!UICONTROL Eingabetaste]**.
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. Klicken Sie erneut auf **[!UICONTROL Taggen]**, um das Segment zu taggen.
 

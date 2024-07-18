@@ -14,13 +14,13 @@ ht-degree: 5%
 
 Sie können Document Cloud Analytics aktivieren, um PDF-spezifische Dimensionen und Metriken in Ihrer Report Suite verfügbar zu machen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Document Cloud-Management]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Document Cloud-Verwaltung]**
 
 Die folgenden Document Cloud-Verwaltungsoptionen sind beim Bearbeiten einer Report Suite verfügbar:
 
-* [!UICONTROL **Document Cloud-Reporting**]
+* [!UICONTROL **Document Cloud Reporting**]
 
-  Spezifische Berichte zum Streaming-Mediensammlungs-Add-on sind auf der Seite Medienberichte verfügbar. Weitere Informationen zur Medienberichterstellung finden Sie unter [Document Cloud Reporting konfigurieren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Spezifische Berichte zum Streaming-Mediensammlungs-Add-on sind auf der Seite Medienberichte verfügbar. Weitere Informationen zu Medienberichten finden Sie unter [Konfigurieren von Document Cloud-Berichten](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Document Cloud Classifications**]
 

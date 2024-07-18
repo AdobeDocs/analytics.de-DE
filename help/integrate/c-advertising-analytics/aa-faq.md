@@ -68,7 +68,7 @@ Zu den Suchmaschinenkonten gehören Google AdWords und Microsoft Bing.
 
 +++ Wo greife ich auf Advertising Analytics zu?
 
-Navigieren Sie nach der Anmeldung bei Adobe Analytics zum [!UICONTROL Admin]. Wählen Sie anschließend [!UICONTROL Advertising Analytics] , um Suchmaschinenkonten hinzuzufügen.
+Navigieren Sie nach der Anmeldung bei Adobe Analytics zum Ordner &quot;[!UICONTROL Admin]&quot;. Wählen Sie dann [!UICONTROL Advertising Analytics] aus, um Suchmaschinenkonten hinzuzufügen.
 
 +++
 
@@ -105,7 +105,7 @@ Nein, die Rohdaten der Suche werden als unabhängiger Datensatz angezeigt. Es gi
 
 +++ Ich versuche, meine Advertising Analytics-Konten einer bestimmten Report Suite zuzuordnen, aber sie ist nicht im Report Suite-Modal verfügbar. Warum?
 
-Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die gewünschte Report Suite [für Advertising Analytics Reporting bereitgestellt](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Bevor Sie einem Advertising Analytics-Konto eine Report Suite zuweisen können, muss die gewünschte Report Suite [für die Advertising Analytics-Berichterstellung bereitgestellt werden](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Dies erfolgt über eine separate Admin-Seite, auf die Sie zugreifen können: Admin > Report Suites > `[select report suite]` > Einstellungen bearbeiten > Advertising Analytics-Konfiguration.
 
 +++
@@ -116,7 +116,7 @@ Virtual Report Suites erfassen keine Daten, sodass Sie ein Advertising Analytics
 
 +++
 
-+++ Können Advertising Analytics-Metriken in der *Marketingkanäle* Bericht?
++++ Können Advertising Analytics-Metriken im Bericht *Marketingkanäle* gemeldet werden?
 
 Nein, sie sind nicht im Marketingkanalbericht enthalten.
 
@@ -128,7 +128,7 @@ A: Die Suchdaten werden um ca. 6:00 Uhr in der Zeitzone Ihres Analytics-Rechenz
 
 +++
 
-+++ Was kann *vor dem Klick erfasst*? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst?
++++ Was kann *vor dem Klick* erfasst werden? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst?
 
 Die AMO-ID erfasst die Suchmaschinenmetriken: Impressionen, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung. Sind keine Klicks aber Impressionen vorhanden, werden die Daten zu Impression/Position/Qualität dennoch an Analytics gesendet. In der Regel entstehen keine Kosten, wenn keine Klicks vorhanden sind.
 
@@ -142,7 +142,7 @@ Die AMO-ID wird auch auf der Landingpage im Treffer für die betreffende Seite (
 
 +++
 
-+++ Erfassen Sie nur google.com oder *Länderversionen* (z. B. google.co.uk, google.it, google.fr oder google.de)?
++++ Erfassen wir nur google.com oder *Länderversionen* (z. B. google.co.uk, google.it, google.fr oder google.de)?
 
 Die Anzeigenplattform-Classification erfasst die folgenden Werte: &quot;Google Adwords&quot;und &quot;Bing Ads&quot;. Als gängige Best Practice sollte der Ländercode bei der Benennung der Kampagnen eingefügt werden. Anschließend können Sie detaillierter filtern oder eine Segmentierung vornehmen (Beispiel: Wenn alle Kampagnen mit „ländercode_“ beginnen, würden Sie durch die Erstellung eines Segments, in dem die Kampagnen (AMO-ID) mit „UK_“ beginnen, nur Daten für Großbritannien erhalten).
 
@@ -154,7 +154,7 @@ Die Anzeigenplattform-Classification erfasst die folgenden Werte: &quot;Google A
 
 +++
 
-+++ Gibt es Pläne, andere Werbekanäle wie *Anzeige* oder *Social*?
++++ Gibt es Pläne, andere Werbekanäle wie *Display* oder *Social* einzubeziehen?
 
 Nein, wir haben derzeit keine Pläne für diese anderen Kanäle auf dem Fahrplan.
 
@@ -163,7 +163,7 @@ Nein, wir haben derzeit keine Pläne für diese anderen Kanäle auf dem Fahrplan
 
 ## Automatisches Tracking im Vergleich zu manuellem Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Beim Einrichten meines Werbekontos wird darauf hingewiesen, dass *Automatisches Tracking* kann zu unbeabsichtigten Folgen führen. Welche Art von Folgen sind hier gemeint?
++++ Beim Einrichten meines Advertising-Kontos wird angegeben, dass das *automatische Tracking* unbeabsichtigte Folgen haben kann. Welche Art von Folgen sind hier gemeint?
 
 Der automatische Modus versucht, URL-Parameter im richtigen Format an das Ende der Tracking-Vorlagen/Ziel-URLs anzuhängen. Es liegt jedoch in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter ordnungsgemäß auf der endgültigen Landingpage beibehalten werden. Der Auto-Modus kann Keywords in die Landing-URL einfügen, die möglicherweise Sonderzeichen enthalten, die Ihr Webserver nicht unterstützt.
 

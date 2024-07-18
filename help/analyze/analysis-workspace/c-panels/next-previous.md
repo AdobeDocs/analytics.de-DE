@@ -7,7 +7,7 @@ exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -17,38 +17,38 @@ Dieses Bedienfeld enthält eine Reihe von Tabellen und Visualisierungen, um das 
 
 ## Zugriff auf den Bereich
 
-Sie können über [!UICONTROL Berichte] oder innerhalb [!UICONTROL Arbeitsbereich].
+Sie können über [!UICONTROL Berichte] oder in [!UICONTROL Workspace] auf den Bereich zugreifen.
 
 | Zugangspunkt | Beschreibung |
 | --- | --- |
-| [!UICONTROL Berichte] | <ul><li>Das Bedienfeld wurde bereits in einem Projekt abgelegt.</li><li>Die linke Leiste ist ausgeblendet.</li><li>Wenn Sie [!UICONTROL Nächste Seite], wurden die Standardeinstellungen bereits angewendet, z. B. [!UICONTROL Seite] für [!UICONTROL Dimension]und der obersten Seite als [!UICONTROL Dimension], [!UICONTROL Nächste] für [!UICONTROL Richtung] und [!UICONTROL Besuch] für [!UICONTROL Container]. Sie können alle diese Einstellungen ändern.</li></ul>![Nächstes/Vorheriges Bedienfeld](assets/next-previous.png) |
-| Workspace | Erstellen Sie ein neues Projekt und wählen Sie in der linken Leiste das Bedienfeldsymbol aus. Ziehen Sie dann die [!UICONTROL Nächstes oder vorheriges Element] oberhalb der Freiformtabelle angezeigt. Beachten Sie, dass [!UICONTROL Dimension] und [!UICONTROL Dimension] -Felder sind leer. Wählen Sie eine Dimension aus der Dropdownliste aus. [!UICONTROL Dimensionen] werden basierend auf der [!UICONTROL Dimension] auswählen. Das oberste Dimensionselement wird hinzugefügt, Sie können jedoch ein anderes Element auswählen. Die Standardeinstellung ist &quot;Weiter&quot;und &quot;Besucher&quot;. Auch hier können Sie diese ändern.<p>![Nächstes/Vorheriges Bedienfeld](assets/next-previous2.png) |
+| [!UICONTROL Berichte] | <ul><li>Das Bedienfeld wurde bereits in einem Projekt abgelegt.</li><li>Die linke Leiste ist ausgeblendet.</li><li>Wenn Sie &quot;[!UICONTROL Nächste Seite]&quot;ausgewählt haben, wurden bereits Standardeinstellungen angewendet, wie z. B. [!UICONTROL Dimension] für [!UICONTROL Dimension] und die oberste Seite als [!UICONTROL Seitenelement], [!UICONTROL Weiter] für [!UICONTROL Richtung] und [!UICONTROL Besuch] für [!UICONTROL Container]. Sie können alle diese Einstellungen ändern.</li></ul>![Nächstes/Vorheriges Bedienfeld](assets/next-previous.png) |
+| Workspace | Erstellen Sie ein neues Projekt und wählen Sie in der linken Leiste das Bedienfeldsymbol aus. Ziehen Sie dann das Bedienfeld &quot;[!UICONTROL Nächstes oder vorheriges Element]&quot;über die Freiformtabelle. Beachten Sie, dass die Felder [!UICONTROL Dimension] und [!UICONTROL Dimension Element] leer bleiben. Wählen Sie eine Dimension aus der Dropdownliste aus. [!UICONTROL Dimension-Elemente] werden basierend auf der ausgewählten [!UICONTROL Dimension] gefüllt. Das oberste Dimensionselement wird hinzugefügt, Sie können jedoch ein anderes Element auswählen. Die Standardeinstellung ist &quot;Weiter&quot;und &quot;Besucher&quot;. Auch hier können Sie diese ändern.<p>![Nächstes/Vorheriges Bedienfeld](assets/next-previous2.png) |
 
 {style="table-layout:auto"}
 
 ## Panel-Eingaben {#Input}
 
-Sie können die [!UICONTROL Nächstes oder vorheriges Element] Bedienfeld mit den folgenden Eingabeeinstellungen:
+Sie können das Bedienfeld &quot;[!UICONTROL Nächstes oder vorheriges Element]&quot;mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 
 | Einstellung | Beschreibung |
 | --- | --- |
 | Dropzone Segment (oder andere Komponente) | Sie können Segmente oder andere Komponenten per Drag-and-Drop verschieben, um die Ergebnisse Ihrer Bedienfelder weiter zu filtern. |
 | Dimension | Die Dimension, für die Sie die nächsten oder vorherigen Elemente untersuchen möchten. |
-| Dimension | Der spezifische Artikel im Mittelpunkt Ihrer nächsten/vorherigen Anfrage. |
-| Richtung | Geben Sie an, ob Sie nach dem [!UICONTROL Nächste] oder [!UICONTROL Vorherige] Dimensionselement. |
+| Dimensionselement | Der spezifische Artikel im Mittelpunkt Ihrer nächsten/vorherigen Anfrage. |
+| Richtung | Geben Sie an, ob Sie nach dem Dimensionselement [!UICONTROL Weiter] oder dem Dimensionselement [!UICONTROL Zurück] suchen. |
 | Container | [!UICONTROL Besuch] oder [!UICONTROL Besucher] (Standard) bestimmen den Umfang Ihrer Anfrage. |
 
 {style="table-layout:auto"}
 
-Klicks **[!UICONTROL Build]** , um das Bedienfeld zu erstellen.
+Klicken Sie auf **[!UICONTROL Build]** , um das Bedienfeld zu erstellen.
 
 ## Bedienfeldausgabe {#output}
 
-Die [!UICONTROL Nächstes oder vorheriges Element] -Bedienfeld gibt einen umfangreichen Satz an Daten und Visualisierungen zurück, damit Sie besser verstehen können, welche Vorkommen bestimmten Dimensionselementen folgen oder vorausgehen.
+Das Bedienfeld [!UICONTROL Nächstes oder vorheriges Element] gibt einen umfangreichen Satz an Daten und Visualisierungen zurück, damit Sie besser verstehen können, welche Vorkommen bestimmten Dimensionselementen folgen oder vorausgehen.
 
-![Ausgabe des nächsten/vorherigen Bedienfelds](assets/next-previous-output.png)
+![Nächste/Vorherige Bereichsausgabe](assets/next-previous-output.png)
 
-![Ausgabe des nächsten/vorherigen Bedienfelds](assets/next-previous-output2.png)
+![Nächste/Vorherige Bereichsausgabe](assets/next-previous-output2.png)
 
 | Visualisierung | Beschreibung |
 | --- | --- |

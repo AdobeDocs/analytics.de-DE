@@ -6,7 +6,7 @@ feature: Data Governance, Privacy
 source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Von Adobe Analytics gesammelte Daten werden über einen bestimmten Zeitraum gesp
 
 Die gespeicherten Daten basieren auf dem aktuellen Datum und dem Datum/der Uhrzeit der Verlaufsdaten. Datum und Uhrzeit, die bei Treffern aufgezeichnet werden, kann sich Datum und Uhrzeit der Treffer bei Adobe unterscheiden.
 
-## Anpassen der standardmäßigen Datenaufbewahrungsdauer
+## Anpassen der standardmäßigen Datenspeicherfrist
 
-Wenden Sie sich an Ihr Adobe Account Team, wenn Sie die standardmäßige Datenaufbewahrungsdauer verkürzen oder verlängern möchten.
+Wenden Sie sich an Ihr Adobe-Accountteam, wenn Sie die standardmäßige Datenspeicherfrist verkürzen oder verlängern möchten.
 
 * Für die Verkürzung der standardmäßigen Datenaufbewahrungszeit fallen keine Gebühren an.
 * Die Verlängerung der Datenspeicherung über den Standardzeitraum von 25 Monaten hinaus erfordert den Kauf von Erweiterungen, die in Schritten von jeweils einem Jahr verfügbar sind. Es können bis zu acht Erweiterungen erworben werden, für insgesamt zehn Jahre und einen Monat (zwei Jahre und ein Monat aus der Standardaufbewahrung plus acht gebührenpflichtige Jahre).
@@ -39,13 +39,13 @@ Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick d
 
 ## Häufig gestellte Fragen
 
-+++ Wie treffe ich Entscheidungen über den Datenaufbewahrungszeitraum meines Unternehmens?
++++ Wie entscheide ich mich für eine Datenspeicherfrist meines Unternehmens?
 
 Ihr Unternehmen kann als Datenverantwortlicher Interessengruppen (wie beispielsweise Ihre Marketing-, Analyse- und Datenschutz-Teams) innerhalb der Organisation bestimmen, die Entscheidungen über die Datenaufbewahrung treffen. Ihr Unternehmen ist am besten in der Lage, den richtigen Zeitraum für die Datenspeicherung in Adobe Analytics zu bestimmen.
 
 +++
 
-+++ Wie berechne ich das Zeitfenster zur Datenaufbewahrung?
++++ Wie berechne ich das Zeitfenster der Datenspeicherfrist?
 
 In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die Datenaufbewahrung festgelegt, in dem vollständige Daten angezeigt und zur Berichterstellung verwendet werden können. Das Datum des Datenerfassungsbeginns wird durch das aktuelle Datum abzüglich des Datenspeicherungszeitraums bestimmt. Das Enddatum der Datenspeicherung wird vom aktuellen Datum bestimmt. Die Daten fallen in das Zeitfenster für die Datenaufbewahrung, wenn der Zeitstempel der Daten zwischen dem Start- und dem Enddatum liegt.
 
@@ -53,13 +53,13 @@ In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die D
 
 +++ Kann ich eine Kopie meiner Daten anfordern, bevor sie gelöscht werden?
 
-Ja. Adobe kann einen Verlaufsdaten-Dump roher Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten. Wenden Sie sich an Ihr Adobe Account-Team, wenn die Anforderungen an den Datenexport außerhalb des Umfangs der Benutzeroberfläche liegen. Hierfür können besondere Vorkehrungen getroffen werden. Die Kosten können variieren.
+Ja. Adobe kann einen Verlaufsdaten-Dump roher Daten auf Trefferebene bereitstellen. Weitere Informationen finden Sie unter [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten. Wenden Sie sich an Ihr Adobe-Accountteam, wenn Ihre Anforderungen für den Datenexport außerhalb der Möglichkeiten der Benutzeroberfläche liegen. Hierfür können besondere Vorkehrungen getroffen werden. Die Kosten können variieren.
 
 +++
 
 +++ Wann löscht Adobe Daten?
 
-Wenden Sie sich an Ihr Adobe-Account-Team, um zu erfahren, wann die Löschung Ihrer Daten geplant ist. Daten werden in der Regel nach einem rollierenden monatlichen Zeitplan gelöscht.
+Wenden Sie sich an Ihr Adobe-Accountteam, um Näheres zu dem Zeitrahmen zu erfahren, in dem die Löschung Ihrer Daten geplant ist. Daten werden in der Regel nach einem rollierenden monatlichen Zeitplan gelöscht.
 
 +++
 

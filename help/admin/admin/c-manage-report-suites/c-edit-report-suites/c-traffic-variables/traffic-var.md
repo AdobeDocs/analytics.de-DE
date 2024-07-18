@@ -23,10 +23,10 @@ Sie können Traffic-Variablenberichte hinzufügen und aktivieren. Sie können au
 
 ## Hinzufügen und Aktivieren von Traffic-Variablen-Berichten
 
-1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
-1. Auswählen **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]**.
-1. Auswählen **[!UICONTROL Neu hinzufügen]**, und benennen Sie den Bericht.
-1. Im [!UICONTROL **Aktiviert**] Spalte auswählen [!UICONTROL **Aktiviert**] aus dem Dropdownmenü.1. Auswählen **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]** aus.
+1. Wählen Sie **[!UICONTROL Neu hinzufügen]** und geben Sie dem Bericht einen Namen.
+1. Wählen Sie in der Spalte [!UICONTROL **Aktiviert**] die Option [!UICONTROL **Aktiviert**] aus dem Dropdown-Menü.1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ## Berichte zu Traffic-Variablen deaktivieren
 
@@ -34,18 +34,18 @@ Nachdem ein Traffic-Variablenbericht deaktiviert wurde, wird er nicht mehr in de
 
 So deaktivieren Sie einen Traffic-Variablen-Bericht:
 
-1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
-1. Auswählen **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]**.
+1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]** aus.
 1. Wählen Sie den Traffic-Variablen-Bericht aus, den Sie deaktivieren möchten.
-1. Im [!UICONTROL **Aktiviert**] Spalte auswählen [!UICONTROL **Behinderte**] aus dem Dropdown-Menü.
+1. Wählen Sie in der Spalte [!UICONTROL **Aktiviert**] die Option [!UICONTROL **Deaktiviert**] aus dem Dropdownmenü aus.
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
 ## Umbenennen von Traffic-Variablenberichten
 
-1. Auswählen **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
-1. Auswählen **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]**.
+1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]** aus.
 1. Wählen Sie den Traffic-Variablen-Bericht aus, den Sie umbenennen möchten.
-1. Im [!UICONTROL **Name**] einen neuen Namen für den Bericht angeben.
+1. Geben Sie in der Spalte [!UICONTROL **Name**] einen neuen Namen für den Bericht an.
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-Siehe auch [prop](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
+Siehe auch [prop](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zur Implementierung.

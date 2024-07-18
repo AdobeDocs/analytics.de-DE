@@ -16,7 +16,7 @@ In diesem Handbuch werden allgemeine Berichtstypen vorgestellt, die Ihnen helfen
 
 Sowohl Google Analytics als auch Adobe Analytics sind leistungsstarke Plattformen, um wertvolle Einblicke in die Leistung Ihrer Website zu erhalten. Jede Plattform verfügt über eine eigene Verarbeitungsarchitektur und eine eigene Benutzeroberfläche, durch die jede Plattform einzigartige Vorteile bietet. Dieses Handbuch soll dazu beitragen, dass Anwender mit Erfahrung in Google Analytics schneller mit Adobe Analytics arbeiten können.
 
-In Adobe Analytics können Sie nach der Anmeldung bei der Adobe Experience Cloud hauptsächlich grundlegende Berichte abrufen, indem Sie **Analysis Workspace**. Im linken Menü können Anwender Komponenten per Drag-and-drop verschieben, um einen eigenen Bericht zu erstellen. Sie ermöglicht mehr Freiheit, um exakte Berichtsanforderungen zu erfüllen. Anwender, die mit der Erstellung von Google Analytics-Dashboards und benutzerspezifischen Berichten vertraut sind, finden dieses Layout möglicherweise vertraut.
+In Adobe Analytics können Sie nach der Anmeldung bei der Adobe Experience Cloud hauptsächlich grundlegende Berichte abrufen, indem Sie **Analysis Workspace** verwenden. Im linken Menü können Anwender Komponenten per Drag-and-drop verschieben, um einen eigenen Bericht zu erstellen. Sie ermöglicht mehr Freiheit, um exakte Berichtsanforderungen zu erfüllen. Anwender, die mit der Erstellung von Google Analytics-Dashboards und benutzerspezifischen Berichten vertraut sind, finden dieses Layout möglicherweise vertraut.
 
 ## Empfohlener Lernpfad
 

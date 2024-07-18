@@ -21,14 +21,14 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 ## Produkte mit dem Web SDK
 
-Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), werden Produkte den folgenden Variablen zugeordnet:
+Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) werden Produkte den folgenden Variablen zugeordnet:
 
-* Die Kategorie ist zugeordnet zu `xdm.productListItems[].productCategories[].categoryID`. Sie verwendet das erste Element im `productCategories[]` Array. `lineItemId` auch korrekt zugeordnet werden, aber Adobe empfiehlt `categoryID` da es Standard-XDM ist. Wenn beide XDM-Felder vorhanden sind, `lineItemId` hat Vorrang.
-* Das Produkt ist `xdm.productListItems[].SKU` oder `xdm.productListItems[].name`. Wenn beide XDM-Felder vorhanden sind, `xdm.productListItems[].SKU` verwendet.
-* Menge wird zugeordnet zu `xdm.productListItems[].quantity`.
-* Der Preis wird `xdm.productListItems[].priceTotal`.
-* Merchandising-eVars werden zugeordnet zu `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` nach `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, je nachdem, welche eVar Sie an ein Produkt binden möchten.
-* Merchandising-Ereignisse werden zugeordnet zu `xdm.productListItems[]._experience.analytics.event1to100.event1.value` nach `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event](events/events-overview.md) an Adobe Analytics gesendet.
+* Die Kategorie ist `xdm.productListItems[].productCategories[].categoryID` zugeordnet. Es wird das erste Element im Array `productCategories[]` verwendet. `lineItemId` ordnet ebenfalls korrekt zu, aber Adobe empfiehlt `categoryID`, da es sich um Standard-XDM handelt. Wenn beide XDM-Felder vorhanden sind, hat `lineItemId` Vorrang.
+* Das Produkt ist `xdm.productListItems[].SKU` oder `xdm.productListItems[].name` zugeordnet. Wenn beide XDM-Felder vorhanden sind, wird `xdm.productListItems[].SKU` verwendet.
+* Die Menge wird `xdm.productListItems[].quantity` zugeordnet.
+* Der Preis wird `xdm.productListItems[].priceTotal` zugeordnet.
+* Merchandising-eVars werden `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250` zugeordnet, je nachdem, welche eVar Sie an ein Produkt binden möchten.
+* Merchandising-Ereignisse werden `xdm.productListItems[]._experience.analytics.event1to100.event1.value` bis `xdm.productListItems._experience.analytics.event901to1000.event1000.value` zugeordnet, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die Zeichenfolge [event](events/events-overview.md) eingefügt, die an Adobe Analytics gesendet wird.
 
 ```json
 {
@@ -53,7 +53,7 @@ Wenn Sie die [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md), werd
 }
 ```
 
-Wenn Sie die [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md) verwendet die Produktvariable `data.__adobe.analytics.products` nach AppMeasurement-Syntax. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Produkte überschrieben und nicht an Adobe Analytics gesendet.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet die Variable &quot;products&quot;die folgende AppMeasurement-Syntax mit `data.__adobe.analytics.products`. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Produkte überschrieben und nicht an Adobe Analytics gesendet.
 
 ```json
 {
@@ -94,7 +94,7 @@ Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pr
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte `products` Zeichenfolge ist 64.000 Byte. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
+Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge der gesamten `products` -Zeichenfolge beträgt 64.000 Byte. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

@@ -28,7 +28,7 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Benutzerdefinierter Kalender] | Gewährt Zugriff auf „Allgemein > Kalender anpassen“ im Report Suite Manager. |
 | [!UICONTROL Benutzerdefinierter Data Warehouse-Bericht] | Gewährt Zugriff auf „Tools > Data Warehouse“ im oberen Navigationsbereich von Analytics. |
 | [!UICONTROL Rückkehrende Besucher pro Tag] | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher pro Tag“ in Reports &amp; Analytics. |
-| [!UICONTROL Data Feeds Manager] | Gewährt Zugriff auf „Admin > „Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
+| [!UICONTROL Daten-Feeds-Manager] | Gewährt Zugriff auf „Admin > „Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
 | [!UICONTROL Data Sources Manager] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Datenquellen“ im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
 | [!UICONTROL Datenreparatur-API] | Gewährt Zugriff auf die Datenreparatur-API |
 | [!UICONTROL Standardmetriken] | Gewährt Zugriff auf „Individuelle Report Suite-Einstellungen > Standardmetriken“ im Report Suite Manager. |
@@ -39,15 +39,15 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Paid Search] | Gewährt Zugriff auf „Allgemein > Erkennung von Paid Search“ im Report Suite Manager. |
 | [!UICONTROL Verarbeitungsregeln] | Gewährt Zugriff auf „Allgemein > Verarbeitungsregeln“ und „Allgemein > Bot-Regeln“ im Report Suite Manager. |
 | [!UICONTROL Konfiguration von Echtzeitberichten] | Gewährt Zugriff auf „Echtzeit“ im Report Suite Manager. Verwenden Sie das Berechtigungselement „Echtzeitbericht“, um Zugriff auf den Bericht selbst zu gewähren. |
-| [!UICONTROL Berichterstellung für Activity Manager-Administratoren] | Nicht verwendet. |
-| [!UICONTROL Zugriff auf Reporting Activity Manager] | Nicht verwendet. |
+| [!UICONTROL  Berichterstellung für Aktivitäts-Manager-Administratoren] | Nicht verwendet. |
+| [!UICONTROL Zugriff auf Activity Manager-Berichte] | Nicht verwendet. |
 | [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf Report Suite Manager, erlaubt jedoch keine Änderungen. |
-| [!UICONTROL Bild-Reportlet des R&amp;A Dashboard] | Nicht verwendet. |
-| [!UICONTROL Reportlet zur Metrikmessung des Dashboards] | Nicht verwendet. |
-| [!UICONTROL Report Suite-Zusammenfassungs-Reportlet zu R&amp;A Dashboard] | Nicht verwendet. |
-| [!UICONTROL R&amp;A DashboardText-Reportlet] | Nicht verwendet. |
-| [!UICONTROL Report Suite-Zusammenfassungs-Reportlet zu R&amp;A Dashboard] | Nicht verwendet. |
-| [!UICONTROL Externes Reportlet für das Dashboard] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard-Bild-Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard-Metrikmessung Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard Report Suite-Zusammenfassungs-Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A DashboardText Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard Report Suite-Zusammenfassungs-Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard Externes Reportlet] | Nicht verwendet. |
 | [!UICONTROL Erfolgsereignisse] | Gewährt Zugriff auf „Konversion > Erfolgsereignisse“ im Report Suite Manager. |
 | [!UICONTROL Traffic-Management] | Nicht verwendet. |
 | [!UICONTROL Traffic-Variablen] | Gewährt Zugriff auf „Traffic > Traffic-Variablen“ im Report Suite Manager. |

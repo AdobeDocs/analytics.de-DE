@@ -19,12 +19,12 @@ Zeigen Sie die derzeit konfigurierten Classification-Dimensionen für diesen Cla
 Folgende Schaltflächen sind verfügbar:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Hochladen]**: Manuelles Hochladen von Klassifizierungsdaten für eine oder mehrere Klassifizierungsdimensionen. `JSON`, `CSV`, `TSV`, und `TAB` -Dateien unterstützt werden. Beim Hochladen einer gültigen Datei wird eine Tabellenvorschau der zu klassifizierenden Daten angezeigt.
+* **[!UICONTROL Hochladen]**: Manuelles Hochladen von Klassifizierungsdaten für eine oder mehrere Klassifizierungsdimensionen. Die Dateien `JSON`, `CSV`, `TSV` und `TAB` werden unterstützt. Beim Hochladen einer gültigen Datei wird eine Tabellenvorschau der zu klassifizierenden Daten angezeigt.
    * **[!UICONTROL Dateikodierung]**: Wählen Sie mithilfe dieser Dropdown-Liste die korrekte Dateikodierung aus. Zu den gültigen Optionen gehören [!UICONTROL UTF-8] und [!UICONTROL Latin1].
    * **[!UICONTROL Listentrennzeichen]**: Wählen Sie das richtige Listentrennzeichen aus. Wenn Sie eine heruntergeladene Datei oder eine Vorlagendatei verwenden, stellen Sie sicher, dass das [!UICONTROL Listentrennzeichen] hier mit dem [!UICONTROL Listentrennzeichen] übereinstimmt, das beim Herunterladen der Datei verwendet wurde.
    * **[!UICONTROL Anwenden]**: Speichern Sie die hochgeladenen Classification-Daten in den Classification-Satz.
 
-  ![Classification-Set-Upload](../../assets/classification-set-upload.png)
+  ![Hochladen eines Klassifizierungssatzes](../../assets/classification-set-upload.png)
 
 * **[!UICONTROL Herunterladen]**: Laden Sie Schlüsselwerte und ihre Classification-Spalten herunter.
    * **[!UICONTROL Zeilen]**: Die maximale Anzahl von Zeilen, die in die herunterzuladene Datei aufgenommen werden sollen.
@@ -35,25 +35,25 @@ Folgende Schaltflächen sind verfügbar:
    * **[!UICONTROL Dateiformat]**: Eine Dropdown-Liste, die das Dateiformat der Download-Datei bestimmt. Die Optionen umfassen [!UICONTROL JSON], [!UICONTROL Kommagetrennte Werte] und [!UICONTROL Tabulatorgetrennte Werte für Excel].
    * **[!UICONTROL Dateikodierung]**: Eine Dropdown-Liste, die die Dateikodierung bestimmt. Die Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
 
-  ![Herunterladen von Klassifizierungssätzen](../../assets/classification-set-download.png)
+  ![Herunterladen des Klassifizierungssatzes](../../assets/classification-set-download.png)
 
 * **[!UICONTROL Vorlage]**: Herunterladen einer Vorlagendatei. Diese Datei ähnelt der Datei, die mit der Schaltfläche [!UICONTROL Herunterladen] erhalten wird, mit der Ausnahme, dass sie keine Klassifizierungsdaten oder Schlüsselwerte enthält.
    * **[!UICONTROL Dateiformat]**: Eine Dropdown-Liste, die das Dateiformat der Vorlagendatei bestimmt. Die Optionen umfassen [!UICONTROL Kommagetrennte Werte] und [!UICONTROL Tabulatorgetrennte Werte für Excel].
    * **[!UICONTROL Dateikodierung]**: Eine Dropdown-Liste, die die Dateikodierung bestimmt. Die Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
-   * **[!UICONTROL Trennzeichen auflisten]**: Eine Dropdownliste, die das Listentrennzeichen bestimmt, das Classification-Spalten in jeder Zeile trennt.
+   * **[!UICONTROL Listentrennzeichen]**: Eine Dropdownliste, die das Listentrennzeichen zur Trennung von Classification-Spalten für jede Zeile festlegt.
 
-  ![Classification-Set-Vorlage](../../assets/classification-set-template.png)
+  ![Klassifizierungsset-Vorlage](../../assets/classification-set-template.png)
 
-* **[!UICONTROL Auftragsverlauf]**: Ein Verknüpfungs-Link, über den Sie zum [Job Manager](../job-manager.md), die Aufträge nur für diesen Classification-Satz anzeigt.
-* **[!UICONTROL Automatisieren]**: Daten werden automatisch von externen Speicherorten erfasst.
-   * **[!UICONTROL Standortkonto]**: Eine Dropdownliste mit vorhandenen Standortkonten, die Ihr Unternehmen konfiguriert hat. Wenn Ihr Unternehmen noch kein Standortkonto konfiguriert hat, können Sie eines konfigurieren, indem Sie [!UICONTROL **Neues Konto erstellen**].
+* **[!UICONTROL Auftragsverlauf]**: Ein Verknüpfungslink, über den Sie zum [Job Manager](../job-manager.md) gelangen und Aufträge nur für diesen Classification-Satz anzeigen.
+* **[!UICONTROL Automatisieren]**: Erfassen Sie automatisch Daten von externen Speicherorten.
+   * **[!UICONTROL Standortkonto]**: Eine Dropdownliste mit vorhandenen Standortkonten, die von Ihrem Unternehmen konfiguriert wurden. Wenn Ihr Unternehmen noch kein Standortkonto konfiguriert hat, können Sie eines konfigurieren, indem Sie [!UICONTROL **Neues Konto erstellen**] auswählen.
 
      Informationen zum Konfigurieren des Standortkontos finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).
 
-   * **[!UICONTROL Standort]**: Eine Dropdown-Liste, die die vorhandenen Orte anzeigt, die Ihre Organisation konfiguriert hat. Wenn Ihr Unternehmen noch keinen Standort konfiguriert hat, können Sie einen konfigurieren, indem Sie [!UICONTROL **Neuen Speicherort erstellen**].
+   * **[!UICONTROL Position]**: Eine Dropdownliste mit vorhandenen Speicherorten, die Ihre Organisation konfiguriert hat. Wenn Ihr Unternehmen noch keinen Speicherort konfiguriert hat, können Sie einen konfigurieren, indem Sie [!UICONTROL **Neuen Speicherort erstellen**] auswählen.
 
-     Informationen zum Konfigurieren eines Standorts finden Sie unter [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
+     Weitere Informationen zum Konfigurieren eines Standorts finden Sie unter [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).
 
-   * **[!UICONTROL Trennzeichen]**: Das Spaltentrennzeichen für hochgeladene Dateien. Optionen umfassen [!UICONTROL Komma], [!UICONTROL Semikolon], [!UICONTROL Doppelpunkt], [!UICONTROL Vertikaler Balken], [!UICONTROL Leerzeichen], [!UICONTROL Vorwärtsschrägstrich], [!UICONTROL Abwärtsschrägstrich], [!UICONTROL Dash]oder [!UICONTROL Unterstrich].
+   * **[!UICONTROL Trennzeichen]**: Das Spaltentrennzeichen für hochgeladene Dateien. Zu den Optionen gehören [!UICONTROL Komma], [!UICONTROL Semikolon], [!UICONTROL Doppelpunkt], [!UICONTROL Vertikalbalken], [!UICONTROL Leerraum], [!UICONTROL Schrägstrich], [!UICONTROL Abwärtsschrägstrich], [!UICONTROL Bindestrich] oder [!UICONTROL Unterstrich].
 
    * **[!UICONTROL Kodierung]**: Eine Dropdown-Liste, die die Dateikodierung bestimmt. Die Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.

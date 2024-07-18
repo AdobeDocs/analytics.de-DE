@@ -13,39 +13,39 @@ ht-degree: 13%
 
 # Abbrechen von Berichtsanforderungen im Reporting Activity Manager
 
-Die [!UICONTROL Reporting Activity Manager] ermöglicht es Administratoren, Berichtsanforderungen schnell zu diagnostizieren und abzubrechen, um Probleme mit der Berichtskapazität während Spitzenzeiten der Berichterstellung zu beheben.
+Mit dem [!UICONTROL Reporting Activity Manager] können Administratoren Reporting-Anforderungen schnell diagnostizieren und abbrechen, um Probleme mit der Berichtskapazität während Spitzenzeiten der Berichterstellung zu beheben.
 
 Beachten Sie beim Abbrechen von Berichtsanforderungen Folgendes:
 
 * Sie können bestimmte Anforderungen abbrechen, alle Anforderungen eines bestimmten Benutzers abbrechen oder alle Anforderungen im Zusammenhang mit einem bestimmten Projekt abbrechen.
 
-  Wenn Sie eine Anforderung abbrechen, wird die Aktion im [Protokolle](/help/admin/admin/logs.md). Die [!UICONTROL **Ereignistyp**] -Spalte wird als [!UICONTROL **Administratoraktion**] und eine Beschreibung der Stornierung finden Sie im Abschnitt [!UICONTROL **Ereignis**] Spalte.
+  Wenn Sie eine Anforderung abbrechen, wird die Aktion in den [Protokollen](/help/admin/admin/logs.md) aufgezeichnet. Die Spalte [!UICONTROL **Ereignistyp**] wird als [!UICONTROL **Admin-Aktion**] angezeigt, und eine Beschreibung der Absage ist in der Spalte [!UICONTROL **Ereignis**] verfügbar.
 
 * Wenn Sie Anforderungen abbrechen, können Sie auch nachfolgende Anforderungen für einen bestimmten Zeitraum einschränken.
 
-  Wenn Sie eine nachfolgende Anforderung einschränken, wird die Aktion im [Protokolle](/help/admin/admin/logs.md). Die [!UICONTROL **Ereignistyp**] -Spalte wird als [!UICONTROL **Administratoraktion**] und eine Beschreibung der Beschränkung finden Sie im Abschnitt [!UICONTROL **Ereignis**] Spalte.
+  Wenn Sie eine nachfolgende Anforderung einschränken, wird die Aktion in den [Protokollen](/help/admin/admin/logs.md) aufgezeichnet. Die Spalte [!UICONTROL **Ereignistyp**] wird als [!UICONTROL **Admin-Aktion**] und eine Beschreibung der Beschränkung ist in der Spalte [!UICONTROL **Ereignis**] verfügbar.
 
-* Sie können eine Anforderung nicht abbrechen, wenn die Variable [!UICONTROL **Benutzer**] -Spalte einer Anforderung wird als [!UICONTROL **Nicht erkannt**]. In diesem Fall bedeutet dies, dass sich der Benutzer in einem Anmeldeunternehmen befindet, für das Sie keine Administratorberechtigungen haben.
+* Sie können eine Anforderung nicht abbrechen, wenn die Spalte [!UICONTROL **Benutzer**] einer Anforderung als [!UICONTROL **Nicht erkannt**] angezeigt wird. In diesem Fall bedeutet dies, dass sich der Benutzer in einem Anmeldeunternehmen befindet, für das Sie keine Administratorberechtigungen haben.
 
-Weitere Informationen zum Reporting Activity Manager, einschließlich der wichtigsten Vorteile und Berechtigungsanforderungen, finden Sie unter [Übersicht über die Berichterstellung in Activity Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
+Weitere Informationen zum Reporting-Aktivitäts-Manager, einschließlich der wichtigsten Vorteile und Berechtigungsanforderungen, finden Sie unter [Übersicht über den Reporting-Aktivitäts-Manager](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Bestimmte Anforderungen abbrechen
 
 Sie können einzelne Anforderungen abbrechen, die eine große Menge an Berichtskapazität beanspruchen.
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Berichterstellungsaktivitäts-Manager]**.
 
 1. Wählen Sie die Report Suite aus, in der Sie Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
-   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting Activity Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting-Aktivitäts-Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Wählen Sie die [!UICONTROL **Anforderungen**] und wählen Sie dann eine oder mehrere Anforderungen aus.
+1. Wählen Sie die Registerkarte [!UICONTROL **Anforderungen**] und dann eine oder mehrere Anforderungen aus.
 
    <!-- add screenshot -->
 
-1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
+1. Wählen Sie [!UICONTROL **Anforderungen abbrechen**] aus.
 
-   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen**] angezeigt.
+   Das Dialogfeld [!UICONTROL **Abbrechen _x_ der Berichtsanforderungen**] wird angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -66,7 +66,7 @@ Sie können einzelne Anforderungen abbrechen, die eine große Menge an Berichtsk
 
       {style="table-layout:auto"}
 
-1. Auswählen [!UICONTROL **Mit Abbruch fortfahren**].
+1. Wählen Sie [!UICONTROL **Mit Abbruch fortfahren**] aus.
 
    In Analysis Workspace wird eine Benachrichtigung angezeigt, die Benutzer darüber informiert, dass die Anfrage abgebrochen wurde. Weitere Informationen dazu, wie dies in Analysis Workspace angezeigt wird, finden Sie unter [Erlebnis beim Zugriff auf einen abgebrochenen Bericht](#experience-when-users-access-a-cancelled-report).
 
@@ -74,19 +74,19 @@ Sie können einzelne Anforderungen abbrechen, die eine große Menge an Berichtsk
 
 Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Benutzern verknüpft sind.
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Berichterstellungsaktivitäts-Manager]**.
 
 1. Wählen Sie die Report Suite aus, in der Sie Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
-   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting Activity Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting-Aktivitäts-Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Wählen Sie die [!UICONTROL **Benutzer**] und wählen Sie einen oder mehrere Benutzer aus.
+1. Wählen Sie die Registerkarte [!UICONTROL **Benutzer**] und dann einen oder mehrere Benutzer aus.
 
    <!-- add screenshot -->
 
-1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
+1. Wählen Sie [!UICONTROL **Anforderungen abbrechen**] aus.
 
-   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen von x Benutzern**] angezeigt.
+   Das Dialogfeld [!UICONTROL **Abbrechen _x_ der Berichtsanforderungen von x Benutzern**] wird angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -94,7 +94,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Benutzern 
 
    1. Aktivieren Sie die Option zum [!UICONTROL **Einschränken nachfolgender Anforderungen**].
 
-      ![Einschränken nachfolgender Anforderungen durch den Benutzer](assets/restrict-subsequent-requests-user.png)
+      ![Einschränken nachfolgender Anforderungen durch Benutzer](assets/restrict-subsequent-requests-user.png)
 
    1. Wählen Sie aus den folgenden Optionen:
 
@@ -107,7 +107,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Benutzern 
 
       {style="table-layout:auto"}
 
-1. Auswählen [!UICONTROL **Mit Abbruch fortfahren**].
+1. Wählen Sie [!UICONTROL **Mit Abbruch fortfahren**] aus.
 
    In Analysis Workspace wird eine Benachrichtigung angezeigt, die Benutzer darüber informiert, dass die Anfrage abgebrochen wurde. Weitere Informationen dazu, wie dies in Analysis Workspace angezeigt wird, finden Sie unter [Erlebnis beim Zugriff auf einen abgebrochenen Bericht](#experience-when-users-access-a-cancelled-report).
 
@@ -115,19 +115,19 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Benutzern 
 
 Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Projekten verknüpft sind.
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Berichterstellungsaktivitäts-Manager]**.
 
 1. Wählen Sie die Report Suite aus, in der Sie Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
-   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting Activity Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting-Aktivitäts-Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Wählen Sie die [!UICONTROL **Projekte**] und wählen Sie ein oder mehrere Projekte aus.
+1. Wählen Sie die Registerkarte [!UICONTROL **Projekte**] und dann ein oder mehrere Projekte aus.
 
    <!-- add screenshot -->
 
-1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
+1. Wählen Sie [!UICONTROL **Anforderungen abbrechen**] aus.
 
-   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen aus x Projekten**] angezeigt.
+   Das Dialogfeld [!UICONTROL **Abbrechen _x_ für Berichtsanforderungen von x Projekten**] wird angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -148,7 +148,7 @@ Sie können alle Anforderungen abbrechen, die mit einem oder mehreren Projekten 
 
       {style="table-layout:auto"}
 
-1. Auswählen [!UICONTROL **Mit Abbruch fortfahren**].
+1. Wählen Sie [!UICONTROL **Mit Abbruch fortfahren**] aus.
 
    In Analysis Workspace wird eine Benachrichtigung angezeigt, die Benutzer darüber informiert, dass die Anfrage abgebrochen wurde. Weitere Informationen dazu, wie dies in Analysis Workspace angezeigt wird, finden Sie unter [Erlebnis beim Zugriff auf einen abgebrochenen Bericht](#experience-when-users-access-a-cancelled-report).
 
@@ -169,19 +169,19 @@ Zu den Anwendungen gehören:
 
 So brechen Sie Anfragen nach Anwendung ab:
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Berichterstellungsaktivitäts-Manager]**.
 
 1. Wählen Sie die Verbindung aus, bei der Sie Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
-   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting Activity Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Weitere Informationen zu den auf dieser Seite verfügbaren Daten finden Sie unter [Berichtsaktivität im Reporting-Aktivitäts-Manager anzeigen](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Wählen Sie die [!UICONTROL **Anwendungen**] und wählen Sie eine oder mehrere Anwendungen aus.
+1. Wählen Sie die Registerkarte [!UICONTROL **Anwendungen**] und dann eine oder mehrere Anwendungen aus.
 
    <!-- add screenshot -->
 
-1. Auswählen [!UICONTROL **Anforderungen abbrechen**].
+1. Wählen Sie [!UICONTROL **Anforderungen abbrechen**] aus.
 
-   Die [!UICONTROL **Abbrechen _x_ Berichtsanforderungen aus x Projekten**] angezeigt.
+   Das Dialogfeld [!UICONTROL **Abbrechen _x_ für Berichtsanforderungen von x Projekten**] wird angezeigt.
 
 1. Im Feld Abbruchsnachricht wird die Nachricht angezeigt, die Benutzern angezeigt wird, wenn ihre Anforderungen abgebrochen werden. Eine Standardnachricht wird bereitgestellt. Sie können die Standardnachricht aktualisieren, um zusätzliche Details anzugeben.
 
@@ -189,7 +189,7 @@ So brechen Sie Anfragen nach Anwendung ab:
 
    1. Aktivieren Sie die Option zum [!UICONTROL **Einschränken nachfolgender Anforderungen**]
 
-      ![Einschränken nachfolgender Anforderungen nach Anwendung](assets/restrict-subsequent-requests-application.png)
+      ![Einschränken nachfolgender Anfragen nach Anwendung](assets/restrict-subsequent-requests-application.png)
 
    1. Wählen Sie aus den folgenden Optionen:
 
@@ -202,7 +202,7 @@ So brechen Sie Anfragen nach Anwendung ab:
 
       {style="table-layout:auto"}
 
-1. Auswählen [!UICONTROL **Mit Abbruch fortfahren**].
+1. Wählen Sie [!UICONTROL **Mit Abbruch fortfahren**] aus.
 
    In der Anwendung wird eine Benachrichtigung angezeigt (z. B. in Analysis Workspace), in der Benutzer darüber informiert werden, dass die Anfrage abgebrochen wurde. Weitere Informationen dazu, wie dies in Analysis Workspace angezeigt wird, finden Sie unter [Erlebnis beim Zugriff auf einen abgebrochenen Bericht](#experience-when-users-access-a-cancelled-report).
 
@@ -214,7 +214,7 @@ In Analysis Workspace sehen Benutzer die folgenden Meldungen, wenn sie versuchen
 
 Wenn Benutzer versuchen, auf ein Projekt zuzugreifen, das von einem Abbruch betroffen ist, wird ihnen eine Meldung angezeigt, dass der Bericht vorübergehend eingeschränkt ist:
 
-![Nachricht über die Projektabsage](assets/workspace-canceled-report.png)
+![Nachricht über den Abbruch des Projekts](assets/workspace-canceled-report.png)
 
 ### Meldung bei der Visualisierung
 

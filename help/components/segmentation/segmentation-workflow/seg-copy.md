@@ -2,10 +2,11 @@
 description: Beschreibt, wie ein Segment im Segment-Manager kopiert wird
 title: Segmente kopieren
 feature: Segmentation
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+exl-id: a7e8fd95-bb22-4961-8aac-a898faca50cd
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -15,10 +16,10 @@ Beim Erstellen eines neuen Segments ist es manchmal einfacher, ein vorhandenes S
 
 So kopieren Sie ein Segment im Segment-Manager:
 
-1. Wählen Sie in Adobe Analytics die **[!UICONTROL Komponenten]** Registerkarte und wählen Sie **[!UICONTROL Segmente]**.
+1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Segmente]** aus.
 
 1. Wählen Sie im Segment-Manager das Segment aus, das Sie kopieren möchten.
 
    Die Werkzeugleiste für die Segmentverwaltung wird angezeigt.
 
-1. Auswählen **[!UICONTROL Kopieren]**.
+1. Wählen Sie **[!UICONTROL Kopieren]** aus.

@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 39%
 
 Sie können das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) verwenden, um Daten an Adobe Analytics zu senden. Es gibt zwei Hauptmethoden zur Implementierung des Web SDK. Jede Methode verfügt über zwei Implementierungstypen:
 
-| | **Migration von AppMeasurement** | **Implementierung des Web SDK bereinigen** |
+| | **Migration von AppMeasurement** | **Web SDK-Implementierung bereinigen** |
 | --- | --- | --- |
 | **Tags verwenden** | [Migration von der Analytics-Erweiterung zur Web SDK-Erweiterung](analytics-extension-to-web-sdk.md) | [Senden von Daten an Adobe Analytics mithilfe der Web SDK-Erweiterung](web-sdk-tag-extension.md) |
-| **JavaScript verwenden** | [Migration von AppMeasurement zur JavaScript-Bibliothek des Web SDK](appmeasurement-to-web-sdk.md) | [Senden von Daten an Adobe Analytics mithilfe der Web SDK-JavaScript-Bibliothek](web-sdk-javascript-library.md) |
+| **Verwenden Sie JavaScript** | [Migration von AppMeasurement zur Web SDK JavaScript-Bibliothek](appmeasurement-to-web-sdk.md) | [Senden von Daten an Adobe Analytics mithilfe der Web SDK JavaScript-Bibliothek](web-sdk-javascript-library.md) |
 
-Wenn Ihr Unternehmen eine neue Web SDK-Implementierung benötigt und in Zukunft Customer Journey Analytics verwenden möchte, empfiehlt Adobe eine saubere Web SDK-Implementierung unter Verwendung Ihres eigenen Schemas. Siehe [Daten über das Adobe Experience Platform Web SDK erfassen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) im Customer Journey Analytics-Benutzerhandbuch.
+Wenn Ihr Unternehmen eine neue Web SDK-Implementierung benötigt und in Zukunft Customer Journey Analytics verwenden möchte, empfiehlt Adobe eine saubere Web SDK-Implementierung unter Verwendung Ihres eigenen Schemas. Siehe [Aufnehmen von Daten über das Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) im Customer Journey Analytics-Benutzerhandbuch.
 
 ## Zusätzliche Ressourcen
 

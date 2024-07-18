@@ -19,11 +19,11 @@ Sie können einen Datumsbereich angeben, indem Sie Zellen aus einem Arbeitsblatt
 **So konfigurieren Sie Datumswerte aus Zellen**
 
 1. Wählen Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] die Option **[!UICONTROL Datumswerte aus Zellen]**.
-1. Zellreferenzen in der **[!UICONTROL Von]** und **[!UICONTROL nach]** oder klicken Sie auf die Auswahl und wählen Sie die Zellen aus, die die Start- und Enddaten der Anforderungen enthalten.
+1. Geben Sie in die Felder **[!UICONTROL Von]** und **[!UICONTROL bis]** Zellenverweise ein oder klicken Sie auf die Auswahl und wählen Sie die Zellen aus, die die Start- und Enddaten enthalten.
 
    Erstellen Sie beispielsweise eine Report Builder-Anforderung, deren Datumsbereich auf „yesterday“ festgelegt ist, und geben Sie das Anforderungsdatum in derselben Zelle als „today()-1“ aus.
 
 Im Folgenden finden Sie eine Liste der unterstützten Datumsformate:
 
-![Screenshot mit unterstützten Datumsformaten.](assets/date-formats.png)
+![Screenshot mit den unterstützten Datumsformaten.](assets/date-formats.png)
 

@@ -16,7 +16,7 @@ Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassif
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]**
 
-Sie müssen Produktadministrator sein oder zu einem Produktprofil gehören, das das Berechtigungselement enthält. [!UICONTROL Report Suite-Tools] > [!UICONTROL Klassifizierungen] um diesen Menüpunkt anzuzeigen. Beachten Sie, dass sich zwar frühere Classification-Management-Schnittstellen unter der [!UICONTROL Admin] Menü, werden die Classification-Sets unter der [!UICONTROL Komponenten] Menü.
+Sie müssen Produktadministrator sein oder zu einem Produktprofil gehören, das das Berechtigungselement [!UICONTROL Report Suite-Tools] > [!UICONTROL Klassifizierungen] enthält, um dieses Menüelement anzuzeigen. Beachten Sie, dass sich die vorherigen Klassifizierungsverwaltungsschnittstellen zwar im Menü [!UICONTROL Admin] befinden, Klassifizierungssätze jedoch im Menü [!UICONTROL Komponenten] aufgeführt werden.
 
 ## Verbesserungen
 

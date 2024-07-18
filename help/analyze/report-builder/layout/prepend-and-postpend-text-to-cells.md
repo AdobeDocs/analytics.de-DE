@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 60%
+source-wordcount: '86'
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 Bei Anforderungen des Layouttyps „Pivot“ und „Benutzerdefiniert“ können Sie numerischen Zeichen oder Textzeichen in Zellenwerten Text voranstellen oder diesen daran anhängen.
 
-Diese Option ist im [!UICONTROL Anforderungs-Assistent: Schritt 2] Fenster.
+Diese Option ist im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 2] verfügbar.
 
 **Text voranstellen:** Hierdurch wird ein aus Zahlen oder Zeichen bestehender Präfix in die Zelle eingefügt.
 

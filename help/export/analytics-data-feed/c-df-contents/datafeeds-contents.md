@@ -28,7 +28,7 @@ So greifen Sie auf den Inhalt eines Daten-Feeds zu:
 
 1. Dekomprimieren Sie die komprimierte Datei mit einem Programm, das `.tar.gz`-Dateierweiterungen unterstützt.
 
-1. Öffnen Sie die `hit_data.tsv` in Ihrer Tabelle oder Datenbankanwendung Ihrer Wahl, um die Rohdaten für diesen Tag anzuzeigen. —>
+1. Öffnen Sie die Datei &quot;`hit_data.tsv`&quot; in Ihrer gewünschten Tabellenkalkulation oder Datenbankanwendung, um die Rohdaten für diesen Tag anzuzeigen. —>
 
 ## Manifestdatei {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Jede Manifestdatei enthält eine Kopfzeile, in der die Gesamtanzahl der Lookup-Dateien, Datendateien sowie die Gesamtanzahl der Datensätze in allen Datendateien angegeben sind. Nach dieser Kopfzeile folgen verschiedene Abschnitte mit Informationen zu den einzelnen Dateien, die in der Datenfeedauslieferung enthalten sind.
 
-Einige Feeds sind so konfiguriert, dass sie eine `.fin`-Datei anstelle einer `.txt`-Manifestdatei erhalten. Die `.fin` gibt an, dass der Upload abgeschlossen ist, die darin enthaltenen Metadaten jedoch in einem älteren Format vorliegen.
+Einige Feeds sind so konfiguriert, dass sie eine `.fin`-Datei anstelle einer `.txt`-Manifestdatei erhalten. Der `.fin` gibt an, dass der Upload abgeschlossen ist, die darin enthaltenen Metadaten jedoch in einem älteren Format vorliegen.
 
 ## Lookup-Dateien
 
@@ -81,20 +81,20 @@ Lookup-Dateien werden in einer komprimierten ZIP-Datei bereitgestellt, die nach 
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: Eine einzelne Zeile, die die Spaltenüberschriften für `hit_data.tsv`.
-* **`browser.tsv`**: Ordnet die Browser-ID zu (die `browser` Feed-Spalte) zum Anzeigenamen des Browsers hinzu.
-* **`browser_type.tsv`**: Ordnet die Browser-ID zu (die `browser` Feed-Spalte) zum Browsertyp hinzu.
-* **`color_depth.tsv`**: Ordnet die Farbtiefen-ID zu (die `color` Feed-Spalte) in die Farbtiefe.
-* **`connection_type.tsv`**: Ordnet die Verbindungstyp-ID zu (die `connection_type` Feed-Spalte) zum Verbindungstyp hinzu.
-* **`country.tsv`**: Ordnet die Länder-ID zu (die `country` Feed-Spalte) zum Ländernamen hinzu.
-* **`javascript_version.tsv`**: Ordnet die JavaScript-Versions-ID (die `javascript` -Feed-Spalte) zur JavaScript-Version hinzu.
-* **`languages.tsv`**: Ordnet die Sprach-ID (die `language` Feed-Spalte) in die Sprache hinzu.
-* **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID zu (die `os` Feed-Spalte) auf den Namen des Betriebssystems.
-* **`plugins.tsv`**: Ordnet die Plug-in-IDs (die `plugin` Feed-Spalte) zu den jeweiligen Plug-in-Namen hinzu.
-* **`resolution.tsv`**: Ordnet die Auflösungs-ID (die `resolution` -Feed-Spalte) zur Bildschirmauflösung hinzu.
-* **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID zu (die `ref_type` Feed-Spalte) zum Typ der verweisenden Stelle.
-* **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (die `search_engine` Feed-Spalte) zum Suchmaschinennamen hinzu.
-* **`event.tsv`**: Ordnet jede Ereignis-ID zu (die `event_list` Feed-Spalte) auf den entsprechenden Ereignisnamen hinzu.
+* **`column_headers.tsv`**: Eine einzelne Zeile mit den Spaltenüberschriften für `hit_data.tsv`.
+* **`browser.tsv`**: Ordnet die Browser-ID (die Feed-Spalte `browser`) dem Anzeigenamen des Browsers zu.
+* **`browser_type.tsv`**: Ordnet die Browser-ID (die Feed-Spalte `browser`) dem Browsertyp zu.
+* **`color_depth.tsv`**: Ordnet die Farbtiefen-ID (die Feed-Spalte `color`) der Farbtiefe zu.
+* **`connection_type.tsv`**: Ordnet die Verbindungstyp-ID (die Feed-Spalte `connection_type`) dem Verbindungstyp zu.
+* **`country.tsv`**: Ordnet die Länder-ID (die Feed-Spalte `country`) dem Ländernamen zu.
+* **`javascript_version.tsv`**: Ordnet die JavaScript-Versions-ID (die Feed-Spalte `javascript`) der JavaScript-Version zu.
+* **`languages.tsv`**: Ordnet die Sprach-ID (die Feed-Spalte `language`) der Sprache zu.
+* **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID (die Feed-Spalte `os`) dem Namen des Betriebssystems zu.
+* **`plugins.tsv`**: Ordnet die Plug-in-IDs (die Feed-Spalte `plugin`) jedem jeweiligen Plug-in-Namen zu.
+* **`resolution.tsv`**: Ordnet die Auflösungs-ID (die Feed-Spalte `resolution`) der Bildschirmauflösung zu.
+* **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID (die Feed-Spalte `ref_type`) dem Referrer-Typ zu.
+* **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (die Feed-Spalte `search_engine`) dem Suchmaschinennamen zu.
+* **`event.tsv`**: Ordnet jede Ereignis-ID (die Feed-Spalte `event_list`) dem jeweiligen Ereignisnamen zu.
 
 ## Trefferdatendateien
 
@@ -107,7 +107,7 @@ Die von Adobe bereitgestellten Dateien variieren je nach Art des konfigurierten 
 * `[YYYY-mm-dd]` bezeichnet den Starttag des Daten-Feed.
 * `[HHMMSS]` wird nur in stündlichen Feeds verwendet und bezeichnet den Startzeitpunkt des Daten-Feed.
 * `[compression_suffix]` bezeichnet die Art der verwendeten Komprimierung. Normalerweise werden Daten-Feeds in `tar.gz`- oder `zip`-Dateien komprimiert.
-* `[format_suffix]` bezieht sich auf den Typ des Dateiformats. Normalerweise wird das Datenfeed-Dateiformat `.tsv`.
+* `[format_suffix]` bezieht sich auf den Dateityp. In der Regel ist das Datenfeed-Dateiformat `.tsv`.
 
 ### Täglich; einzelne Datei
 
@@ -139,7 +139,7 @@ Nachdem die Daten eine Stunde lang erfasst wurden, erhalten Sie eine oder mehrer
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Nach dem Extrahieren enthält jede Datendatei eine einzige `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` -Datei mit ca. 2 GB unkomprimierten Daten sowie Lookup-Dateien für alle erforderlichen Spalten.
+Nach dem Extrahieren enthält jede Datendatei eine einzelne `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` -Datei, die ca. 2 GB unkomprimierte Daten enthält, sowie Lookup-Dateien für alle erforderlichen Spalten.
 
 ## Größe der Datendatei
 

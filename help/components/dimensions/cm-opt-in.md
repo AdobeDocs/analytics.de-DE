@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Einverständnisverwaltungs-Opt-in
 
-Das &quot;Opt-in der Einwilligungsverwaltung&quot; [Dimension](overview.md) zeigt an, welche Datenschutzeinstellungen ein Besucher aktiviert hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-in anzuzeigen.
+Die Dimension &quot;Einwilligungsmanagement Opt-in&quot;[](overview.md) zeigt an, welche Datenschutzeinstellungen ein Besucher aktiviert hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-in anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

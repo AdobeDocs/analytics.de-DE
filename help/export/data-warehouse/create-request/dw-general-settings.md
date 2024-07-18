@@ -1,12 +1,12 @@
 ---
-description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anforderung erstellen.
+description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anfrage erstellen.
 title: Allgemeine Einstellungen für Data Warehouse-Anfragen
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
 source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 24%
+ht-degree: 39%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 24%
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie allgemeine Einstellungen für die Anfrage konfigurieren.
 
-Informationen zum Erstellen einer Anforderung sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 So konfigurieren Sie allgemeine Einstellungen für eine Data Warehouse-Anforderung:
 
-1. Erstellen einer Data Warehouse-Anforderung in Adobe Analytics durch Auswahl von **[!UICONTROL Instrumente]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
+1. Beginnen Sie mit der Erstellung einer Data Warehouse-Anfrage in Adobe Analytics, indem Sie **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**] auswählen.
 
    Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen Sie auf der Seite Neue Data Warehouse-Anforderung die [!UICONTROL **Allgemeine Einstellungen**] Registerkarte.
+1. Wählen Sie auf der Seite Neue Data Warehouse-Anfrage die Registerkarte [!UICONTROL **Allgemeine Einstellungen**] aus.
 
-   ![Berichtsziel-Tab](assets/dw-general-settings.png)
+   ![Registerkarte „Berichtsziel“](assets/dw-general-settings.png)
 
 1. Füllen Sie die folgenden Felder aus:
 
@@ -37,4 +37,4 @@ So konfigurieren Sie allgemeine Einstellungen für eine Data Warehouse-Anforderu
 
    {style="table-layout:auto"}
 
-1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der [!UICONTROL **Bericht erstellen**] Registerkarte. Weitere Informationen finden Sie unter [Erstellen eines Berichts für eine Data Warehouse-Anforderung](/help/export/data-warehouse/create-request/dw-request-build-report.md).
+1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anforderung auf der Registerkarte [!UICONTROL **Bericht erstellen**] fort. Weitere Informationen finden Sie unter [Erstellen eines Berichts für eine Data Warehouse-Anforderung](/help/export/data-warehouse/create-request/dw-request-build-report.md).

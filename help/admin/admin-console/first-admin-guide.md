@@ -33,4 +33,4 @@ Nach der Unterzeichnung eines Vertrags:
 
 Nachdem ein erster Administrator für Ihre Organisation bereitgestellt wurde, kann der erste Administrator den Benutzern in der Organisation weitere wichtige Rollen zuweisen.
 
-Informationen dazu, wie Sie Benutzern in Ihrem Unternehmen wichtige Rollen für Adobe Analytics zuweisen, finden Sie unter [Administratorrollen in Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Informationen dazu, wie Sie Benutzern in Ihrer Organisation Schlüsselrollen für Adobe Analytics zuweisen können, finden Sie unter [Administratorrollen in Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

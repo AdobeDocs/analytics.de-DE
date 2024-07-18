@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,15 +20,15 @@ Einige Dimensionen und Metriken, die beim Data Warehouse verwendet werden könne
 
 ### Ausschließlich unterstützte Dimensionen
 
-* **Experience Cloud-ID**: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, eine 128-Bit-Zahl, die aus zwei verketteten 64-Bit-Zahlen mit 19 Stellen besteht.
+* **Experience Cloud ID**: Bei Implementierungen, die den Experience Cloud ID-Dienst (ECID) verwenden, eine 128-Bit-Zahl, die aus zwei verketteten 64-Bit-Zahlen besteht und zu 19 Stellen hinzugefügt wird.
 * **Seiten-URL**: Die Seiten-URL, auf der der Treffer aufgetreten ist.
-* **Kauf-IDs**: Eindeutige Kennung für einen Kauf, festgelegt mit der Variablen purchaseID.
+* **Kauf-IDs**: Eindeutige Kennung für einen Kauf, die mithilfe der Variablen purchaseID festgelegt wird.
 * **Besucher-ID**: Stellt die eindeutige Kennung für den Besucher bereit. Dieser Wert entspricht dem konkatenierten Wert der Spalten `visid_high` und `visid_low` in Daten-Feeds. Weitere Informationen finden Sie unter in der [Datenspaltenreferenz](../analytics-data-feed/c-df-contents/datafeeds-reference.md) unter Daten-Feeds.
 
 ### Ausschließlich unterstützte Metriken
 
-* **Besuche**: Diese Metrik schließt im Kontext von Data Warehouse nicht persistente Cookie-Besuche aus.
-* **Besuche - Alle Besucher**: Diese Metrik hat im Kontext von Data Warehouse eine engere Parität mit der Besuchsmetrik in anderen Tools in Adobe Analytics.
+* **Besuche**: Diese Metrik schließt nicht persistente Cookie-Besuche im Kontext von Data Warehouse aus.
+* **Besuche - Alle Besucher**: Diese Metrik im Kontext von Data Warehouse hat eine engere Parität mit der Besuchsmetrik in anderen Tools in Adobe Analytics.
 
 ## Nicht in Data Warehouse unterstützte Komponenten
 
@@ -67,7 +67,7 @@ Einige Dimensionen und Metriken werden in Data Warehouse nicht unterstützt.
    * Neuladungen
    * Einzelzugriff
    * Besuchszeit-Metriken
-* Beitragsmetriken (wie beschrieben in [Metrik &quot;Beitrag&quot;erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Beitragsmetriken (wie unter [Erstellen einer &quot;Beitragsmetrik&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) beschrieben)
 
 ### Auf andere Weise unterstützte Dimensionen
 

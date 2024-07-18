@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ Im Folgenden finden Sie ein Video zur Verwendung von benutzerdefinierten [!UICON
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. Navigieren Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**.
-1. Aus dem **[!UICONTROL Projekt-Farbpalette]** in der Dropdown-Liste können Sie eines von fünf voreingestellten Farbschemas auswählen.
+1. Aus der Dropdownliste **[!UICONTROL Projektfarbpalette]** können Sie eines von fünf voreingestellten Farbschemata auswählen.
 
    ![](assets/custom_palette.png)
 

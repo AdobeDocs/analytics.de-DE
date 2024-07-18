@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Zeit pro Besuch
 
-*Auf dieser Hilfeseite wird beschrieben, wie &quot;Zeit pro Besuch&quot;als ihre jeweiligen [Dimensionen](overview.md). Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie &quot;Zeit pro Besuch&quot;als ihre jeweiligen [Dimensionen](overview.md) funktioniert. Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
 
 Die Dimensionen „Zeit pro Besuch“ geben die Zeit an, die ein Besucher für den gesamten Besuch aufgewendet hat. Zur Berechnung werden die folgenden Schritte verwendet:
 

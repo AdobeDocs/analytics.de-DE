@@ -23,7 +23,7 @@ Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google ode
 >- MCC-Konto (My Client Center) und
 >- Standardkonto.
 >
->Für diese Integration mit Adobe Analytics: **Sie müssen die Standardkonto-Anmeldung verwenden**, keine MCC-Kontoanmeldung. Das liegt daran, dass das MCC-Konto als übergeordnetes Konto dient, das mit einem einzelnen Login auf verschiedene AdWords-Konten zugreifen kann. Die Standardkonto-Anmeldung kann hingegen pro Login nur auf ein AdWords-Konto zugreifen. Während Google die Verknüpfung einer E-Mail-Adresse mit bis zu 5 Konten ermöglicht, unterstützt Advertising Analytics diese Funktion noch nicht. Eine E-Mail-Adresse kann nur mit einem Adwords-Konto verknüpft werden.
+>Für diese Integration mit Adobe Analytics müssen Sie **ein Standardkonto-Login** und keine MCC-Kontoanmeldung verwenden. Das liegt daran, dass das MCC-Konto als übergeordnetes Konto dient, das mit einem einzelnen Login auf verschiedene AdWords-Konten zugreifen kann. Die Standardkonto-Anmeldung kann hingegen pro Login nur auf ein AdWords-Konto zugreifen. Während Google die Verknüpfung einer E-Mail-Adresse mit bis zu 5 Konten ermöglicht, unterstützt Advertising Analytics diese Funktion noch nicht. Eine E-Mail-Adresse kann nur mit einem Adwords-Konto verknüpft werden.
 
 Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-ID) anzuzeigen.
 

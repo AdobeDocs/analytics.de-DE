@@ -14,4 +14,4 @@ ht-degree: 29%
 
 Sie können Metriken in Analysis Workspace auf die gleiche Weise wie andere Komponententypen finden.
 
-Informationen zum schnellen Auffinden von Komponenten finden Sie unter [Suchen, Filtern und Sortieren der Komponentenliste](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html#search%2C-filter%2C-and-sort-the-component-list) in [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+Informationen zum schnellen Auffinden von Komponenten finden Sie unter [Suchen, Filtern und Sortieren der Komponentenliste](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html#search%2C-filter%2C-and-sort-the-component-list) in der [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).

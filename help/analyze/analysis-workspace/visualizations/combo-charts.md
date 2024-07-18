@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '760'
 ht-degree: 99%
 
 ---
@@ -90,13 +90,13 @@ Klicken Sie in einem Kombinationsdiagramm oben rechts auf das Zahnradsymbol, um 
 | Einstellung | Definition |
 | --- | --- |
 | **[!UICONTROL Visualisierungstyp]** | Hiermit können Sie zu einem anderen Visualisierungstyp wechseln. |
-| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste aus. |
+| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste. |
 | **[!UICONTROL Allgemein]** |  |
 | **[!UICONTROL Prozentsätze]** | Zeigt Werte als Prozentzahlen an. |
 | **[!UICONTROL Legende eingeblendet]** | Ermöglicht das Ausblenden des detaillierten Legendentextes für die Kombinationsdiagramm-Visualisierung. |
 | **[!UICONTROL Grenzwert für max. Anzahl von Elementen]** | Reduziert die Anzahl der Elemente auf der X-Achse. Wenn Sie einen großen Datensatz haben, können Sie nur die ersten 10 Elemente anzeigen (oder den entsprechenden von Ihnen angegebenen Wert). |
 | **[!UICONTROL Überlagerungen]** | Ein- oder Ausblenden von Datenpunkten auf Linien. |
-| **[!UICONTROL Achse]** |  |
+| **[!UICONTROL Achse]** | |
 | **[!UICONTROL Zwei Achsen anzeigen]** | Gilt nur, wenn Sie zwei Metriken haben – möglich sind eine Y-Achse links (für die eine Metrik) und eine rechts (für die andere). Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. Die Farbe der Doppelachse entspricht der Farbe der Tabelle, es sei denn, es gibt mehrere Vergleiche. In diesem Fall ist die Farbe für alle Vergleiche grau. |
 | **[!UICONTROL Normalisierung]** | Erzwingt Metriken für gleiche Anteile. Dies ist hilfreich, wenn grafisch dargestellte Metriken sehr unterschiedliche Größenordnungen aufweisen. |
 | **[!UICONTROL X-Achse anzeigen]** | Zeigen Sie die X-Achse an oder blenden Sie sie aus. |

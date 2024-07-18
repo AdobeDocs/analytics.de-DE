@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Unterstützung persistenter Cookies
 
-Die &quot;Unterstützung persistenter Cookies&quot; [Dimension](overview.md) zeigt an, ob der Treffer eine Besucher-ID verwendet hat, die aus einer beständigen Quelle stammt. Die häufigste persistente Quelle ist ein Cookie, aber auch mobile Header und andere Quellen sind möglich.
+Die Dimension &quot;[Unterstützung persistenter Cookies&quot;](overview.md) gibt an, ob der Treffer eine Besucher-ID verwendet hat, die aus einer persistenten Quelle stammt. Die häufigste persistente Quelle ist ein Cookie, aber auch mobile Header und andere Quellen sind möglich.
 
 ## Diese Dimension mit Daten füllen
 

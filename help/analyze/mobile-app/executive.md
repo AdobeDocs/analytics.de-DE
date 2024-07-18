@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1260'
 ht-degree: 92%
 
 ---
@@ -86,6 +86,7 @@ So verwenden Sie Dashboards:
       * Für einen Tag wird ein stündlicher Trend angezeigt.
       * Für mehr als einen Tag und weniger als ein Jahr wird ein täglicher Trend angezeigt.
       * Für ein Jahr oder mehr wird ein wöchentlicher Trend angezeigt.
+
    * Die Formel für die Änderung des Prozentwerts ist: Gesamtwert der Metrik (aktueller Datumsbereich) – Gesamtwert der Metrik (Vergleichsdatumsbereich) / Gesamtwert der Metrik (Vergleichsdatumsbereich).
 
    * Sie können den Anzeigebereich nach unten ziehen, um die Scorecard zu aktualisieren.

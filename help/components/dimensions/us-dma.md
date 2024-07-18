@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 68%
+source-wordcount: '311'
+ht-degree: 64%
 
 ---
 
 # US-DMA
 
-Das &quot;US-DMA&quot; [Dimension](overview.md) meldet das ausgewiesene Marktgebiet (DMA) des Besuchers. Sie basiert auf den von [Nielsen](https://www.nielsen.com/dma-regions/) erstellten Medienmärkten.
+Die Dimension &quot;US-DMA&quot;[](overview.md) gibt das angegebene Marktgebiet (DMA) des Besuchers an. Sie basiert auf den von [Nielsen](https://www.nielsen.com/dma-regions/) erstellten Medienmärkten.
 
 ## Füllen dieser Dimension mit Daten
 
 Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit Nielsen zusammen, um die Suche zwischen IP-Adresse und DMA zu unterstützen.
 
 * Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] when [Konfigurieren eines Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [ Konfigurieren eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 
@@ -33,4 +33,4 @@ Da diese Dimension auf der IP-Adresse basiert, kann in einigen Szenarien ein Unt
 * **Mobile IP-Adressen**: Die mobile IP-Zielerfassung funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Einige Netzbetreiber transportieren den IP-Traffic über zentralisierte oder regionale Standorte.
 * **Satelliten-ISP-Benutzer**: Es ist schwierig, den spezifischen Standort dieser Benutzer zu identifizieren, da sie in der Regel vom Uplink-Standort zu stammen scheinen.
 * **Militärische und staatliche IPs**: Die Mitarbeiter sind weltweit unterwegs und der Zugriff erfolgt eher über ihren Heimatstandort als von der Basis oder der Behörde aus, in der sie gegenwärtig beschäftigt sind.
-* **Proxys, die IP-Adressen aus Datenschutzgründen verdecken**: Dienste wie der Private Relay von Apple verbergen die wahre IP-Adresse, indem Daten per Zufall über einen Vermittler oder Proxy gesendet werden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.
+* **Proxys, die aus Datenschutzgründen IP-Adressen verdecken**: Dienste wie der private Link von Apple verbergen die wahre IP-Adresse, indem sie Daten per Zufall über einen Vermittler oder Proxy senden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.

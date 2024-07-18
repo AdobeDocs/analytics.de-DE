@@ -18,7 +18,7 @@ ht-degree: 73%
 >
 >FTP wird nicht empfohlen, da es sich um eine unverschlüsselte Methode der Dateifreigabe handelt. Dies bedeutet, dass jeder den Dateiinhalt sowie den Benutzernamen und das Kennwort für das Konto abfangen kann.
 >
->Konfigurieren Sie stattdessen ein Cloud-Konto, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).
+>Konfigurieren Sie stattdessen ein Cloud-Konto wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben.
 
 In diesen Schritten wird beschrieben, wie Sie Datendateien über FTP hochladen.
 
@@ -60,12 +60,12 @@ Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](/help/expor
    | Element | Beschreibung |
    |---|---|
    | **Name** | Der Name des FTP-Kontos. |
-   | **Zu klassifizierender Datensatz** | Wählen Sie in der Dropdown-Liste den zu klassifizierenden Datensatz (Marketing-Berichtsvariable) aus. |
+   | **Datensatz, der klassifiziert werden soll** | Wählen Sie in der Dropdown-Liste den zu klassifizierenden Datensatz (Marketing-Berichtsvariable) aus. |
    | **Report Suites auswählen** | Wählen Sie die Report Suites aus, in denen Sie den ausgewählten Datensatz klassifizieren möchten. Zur Auswahl mehrerer Report Suites müssen die Classifications für jede ausgewählte Report Suite identisch sein. |
-   | **Daten bei Konflikten überschreiben** | Mit dieser Option werden doppelte Daten überschrieben. Diese Option ist hilfreich, wenn Sie bestehende Classifications aktualisieren. Wenn Sie auf der [aktuelle Klassifizierungsarchitektur](../sets/overview.md)festgelegt ist, ist diese Einstellung immer aktiviert. |
-   | **Nach Abschluss des Imports** | Wählen Sie diese Option, um den aktualisierten Datensatz automatisch in dasselbe FTP-Konto zu exportieren, sobald der Import abgeschlossen ist. Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen über dieses FTP-Konto gesendet werden sollen. Wenn Sie auf der [aktuelle Klassifizierungsarchitektur](../sets/overview.md), ist diese Option nicht verfügbar. |
+   | **Daten bei Konflikten überschreiben** | Mit dieser Option werden doppelte Daten überschrieben. Diese Option ist hilfreich, wenn Sie bestehende Classifications aktualisieren. Wenn Sie die [neueste Klassifizierungsarchitektur](../sets/overview.md) verwenden, ist diese Einstellung immer aktiviert. |
+   | **Nach Abschluss des Imports** | Wählen Sie diese Option, um den aktualisierten Datensatz automatisch in dasselbe FTP-Konto zu exportieren, sobald der Import abgeschlossen ist. Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen über dieses FTP-Konto gesendet werden sollen. Wenn Sie die [neueste Klassifizierungsarchitektur](../sets/overview.md) verwenden, ist diese Option nicht verfügbar. |
    | **Benachrichtigungsempfänger** | Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen zu diesem FTP-Konto gesendet werden sollen. |
-   | **Autorisieren** | (Erforderlich) Berechtigt Adobe zum automatischen Importieren aller an das neue FTP-Konto gesendeten Datendateien. |
+   | **Authorize** | (Erforderlich) Berechtigt Adobe zum automatischen Importieren aller an das neue FTP-Konto gesendeten Datendateien. |
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

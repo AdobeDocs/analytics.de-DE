@@ -182,11 +182,11 @@ Segmentregeln beinhalten alle Daten, es sei denn, Sie schließen mithilfe der Re
 
 Beispiel:
 
-* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine bestimmte Seite auszuschließen (z. B. *`Home Page`*), erstellen Sie eine Trefferregel, bei der die Seite der &quot;Homepage&quot;entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
+* **Schließen Sie Seiten aus**. Verwenden Sie eine Segmentregel, um eine bestimmte Seite (z. B. *`Home Page`*) aus einem Bericht auszuschließen, erstellen Sie eine Trefferregel, bei der die Seite &quot;Homepage&quot;entspricht, und schließen Sie sie dann aus. Diese Regel schließt mit Ausnahme der Homepage automatisch alle Werte ein.
 * **Schließen Sie die Referrerdomäne aus**. Verwenden Sie eine Regel, die nur Referrerdomänen aus „Google.com“ einschließt und alle anderen Domänen ausschließt.
 * **Identifizieren Sie Nicht-Käufer**. Bestimmen Sie, wann Bestellungen größer als null sind, und schließen Sie dann den [!UICONTROL Besucher] aus.
 
-Der [!UICONTROL Exclude] kann zum Identifizieren einer Sequenz verwendet werden, in der vom Besucher keine spezifischen Besuche oder Treffer ausgeführt wurden. [!UICONTROL Ausschluss-Checkpoints] kann auch in eine [Logische Gruppe](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Der [!UICONTROL Exclude] kann zum Identifizieren einer Sequenz verwendet werden, in der vom Besucher keine spezifischen Besuche oder Treffer ausgeführt wurden. [!UICONTROL Ausschluss-Checkpoints] können auch in eine [logische Gruppe](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) einbezogen werden.
 
 ### Ausschluss zwischen Checkpoints
 
@@ -203,7 +203,7 @@ Die folgenden Beispiele zeigen, wie dieser Segmenttyp verwendet werden kann:
 
 **Dieses Segment erstellen**
 
-Erstellen Sie ein Segment wie für ein einfaches Segment, ein Segment mit gemischten Ebenen oder ein verschachteltes sequenzielles Segment und legen Sie dann die [!UICONTROL AUSSCHLIESSEN] -Operator für das Container-Element. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL THEN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
+Erstellen Sie ein Segment wie bei einem einfachen, gemischten oder verschachtelten sequenziellen Segment und legen Sie dann den Operator [!UICONTROL AUSSCHLIESSEN] für das Behälterelement fest. Bei dem Beispiel unten handelt es sich um ein aggregiertes Segment, bei dem die drei [!UICONTROL Trefferbehälter] in die Arbeitsfläche gezogen wurden, der [!UICONTROL THEN]-Operator für die Verknüpfung mit der Behälterlogik zugeordnet wurde und dann der mittlere Seitenansichtsbehälter ausgeschlossen wurde, um nur die Besucher aufzunehmen, die in der Sequenz von Seite A zu Seite C gewechselt sind.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -351,7 +351,7 @@ Mit den [!UICONTROL Within] und [!UICONTROL After]-Behältern und durch Angabe e
 >
 >![Bild](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->Verwenden Sie für dimensionsbasierte Definitionen von Within und After die Optionen im Untermenü. *Sonstige Dimensionen*:
+>Verwenden Sie für dimensionsbasierte Definitionen von Within und After die Optionen im Untermenü *Sonstige Dimensionen*:
 >
 >![Bild](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 

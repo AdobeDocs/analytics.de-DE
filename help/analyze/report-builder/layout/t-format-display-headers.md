@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '409'
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
    | Berichtsname | Zeigt entweder den Namen des Berichtstyps an, der über den Baum in Schritt 1 des Berichtsassistenten ausgewählt wurde (z. B. [!DNL Traffic Report]), oder den im Feld [!DNL Name this Request] eingegebenen Namen. |
    | Filtert Parameter | Zeigt die Dimensionsfilter wie beispielsweise Suchfilter an |
    | Segment | Zeigt die Segmentparameter an |
-   | Datenaktualität | Zeigt die Parameter für Datenaktualität an Beispiel:    Datenaktualität: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten); weitere Informationen zur aktuellen Datenverarbeitung finden Sie unter [Optionen](/help/analyze/report-builder/options.md). |
+   | Datenaktualität | Zeigt die Parameter für Datenaktualität an Beispiel:    Datenaktualität: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten) Siehe [Optionen](/help/analyze/report-builder/options.md) für Informationen zur aktuellen Datenverarbeitung. |
 
    Anzeigereihefolge: Wenn im [!UICONTROL Zeilentitel] (Schritt 2) ein Element enthalten ist, wird dies in der Anforderung zuerst angezeigt. Falls nicht, verwendet das System das erste vorhandene Element im Raster [!UICONTROL Spaltenbezeichnung]. Falls weder Zeilen- oder Spaltenelemente vorhanden sind, wird das erste Element im Raster [!UICONTROL Metriken] angezeigt.
 
@@ -41,7 +41,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
    >
    >Excel unterstützt nur einen einzigen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
 
-   **Automatische Gliederung durchführen:** Wandelt das vom Report Builder von einer Listenansicht in eine Baumansicht zurückgegebene Datum um.
+   **Automatische Gliederung durchführen:** Wandelt die vom Report Builder ausgegebenen Daten von einer Listen- in eine Baumansicht um.
 
    **Diese Anforderung benennen:** Hier können Sie einen benutzerdefinierten Namen für die Anforderung eingeben oder den in Schritt 1 ausgewählten Standardnamen verwenden. Dieser Name wird als [!UICONTROL Berichtname] im [!UICONTROL Anforderungs-Manager] angezeigt. Siehe [Eine Anforderung benennen](/help/analyze/report-builder/layout/name-a-request.md).
 

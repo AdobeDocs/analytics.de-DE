@@ -17,7 +17,7 @@ Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf
 
 ## Voraussetzungen
 
-[Erstellen einer Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Erstellen Sie ein Silos für zu erfassende Analytics-Daten.
+[Erstellen einer Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Erstellen Sie ein Silo für die zu erfassenden Analytics-Daten.
 
 ## Erstellen einer Tag-Eigenschaft und Installieren wichtiger Erweiterungen
 

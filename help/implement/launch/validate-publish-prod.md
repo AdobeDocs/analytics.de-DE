@@ -35,11 +35,11 @@ Nachdem Sie überprüft haben, ob Daten für Sie sichtbar sind, können Sie Ihre
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Publishing]** und suchen Sie die Bibliothek in der Spalte „Entwicklung“.
-1. Klicken Sie auf die Dropdownliste in der Bibliothek und wählen Sie **[!UICONTROL Zur Genehmigung einreichen]**. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte &quot;Gesendet&quot;) und wählen Sie **[!UICONTROL Build für das Staging]**.
+1. Klicken Sie in der Bibliothek auf die Dropdownliste und wählen Sie dann **[!UICONTROL Zur Genehmigung übermitteln]** aus. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte &quot;Gesendet&quot;) und wählen Sie **[!UICONTROL Für Staging erstellen]**.
 1. Nach einigen Augenblicken wird das gelbe Licht der Bibliothek grün, was auf eine erfolgreiche Erstellung hinweist.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek und wählen Sie **[!UICONTROL Zur Veröffentlichung genehmigen]**.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt im [!UICONTROL Genehmigt] Spalte) und wählen Sie **[!UICONTROL Erstellen und in der Produktion veröffentlichen]**.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek und wählen Sie **[!UICONTROL Zur Veröffentlichung genehmigen]** aus.
+1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt] ) und wählen Sie **[!UICONTROL Erstellen und Publish zur Produktion]** aus.
 1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
 1. Kopieren Sie den Produktions-Installationscode und stellen Sie ihn Ihren Website-Eigentümern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 

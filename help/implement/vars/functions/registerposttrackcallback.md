@@ -17,7 +17,7 @@ Die `registerPostTrackCallback`-Variable ermöglicht es Ihrer Organisation, eine
 
 >[!WARNING]
 >
->Führen Sie keine Tracking-Aufrufe durch, wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPostTrackCallback` -Variable. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
+>Führen Sie innerhalb der Variable `registerPostTrackCallback` keine Tracking-Aufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) durch. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPostTrackCallback`-Variable aufrufen, binden Sie diese Funktion so ein, dass sie unmittelbar nach dem erfolgreichen Senden einer Bildanforderung ausgeführt wird. Vermeiden Sie es, dieselbe Funktion mehrmals mit demselben Seitenladevorgang zu registrieren.
 
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Siehe [Umgang mit Antworten von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Weitere Informationen finden Sie unter [Umgang mit Antworten von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in der Web SDK-Dokumentation.
 
 ## Registrieren von Callback nach Tracking mit der Adobe Analytics-Erweiterung
 

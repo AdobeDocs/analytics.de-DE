@@ -21,10 +21,10 @@ Adobe bietet viele Möglichkeiten, Daten zu verändern oder zu bearbeiten, bevor
 Bevor Daten an Adobe gesendet werden, werden sie normalerweise Client-seitig mit einer der folgenden Methoden kompiliert:
 
 * **AppMeasurement**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden direkt an Adobe Analytics gesendet.
-* **Adobe Experience Platform Web SDK**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Die Daten werden an das Adobe Experience Platform Edge Network gesendet.
+* **Adobe Experience Platform Web SDK**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden an das Adobe Experience Platform-Edge Network gesendet.
 * **Tags in der Adobe Experience Cloud-Datenerfassung**: Eine auf jeder Seite referenzierte JavaScript-Datei mit Regeln, die in der Datenerfassungs-Benutzeroberfläche erstellt wurden. Die Adobe Analytics-Erweiterung bietet eine einfachere Möglichkeit der Implementierung von AppMeasurement. Die Web SDK-Erweiterung bietet eine einfachere Möglichkeit, das Web SDK zu implementieren.
 
-Wenn Sie Daten an das Edge-Netzwerk senden, können Sie diese so konfigurieren, dass Daten an Adobe Analytics (sowie an viele andere Adobe Experience Cloud-Lösungen) weitergeleitet werden. Unabhängig von der Implementierungsmethode wird letztendlich eine Bildanforderung mit den gewünschten Variablen an die Datenerfassungs-Server von Adobe gesendet.
+Wenn Sie Daten an das Edge Network senden, können Sie diese so konfigurieren, dass Daten an Adobe Analytics (sowie an viele andere Adobe Experience Cloud-Lösungen) weitergeleitet werden. Unabhängig von der Implementierungsmethode wird letztendlich eine Bildanforderung mit den gewünschten Variablen an die Datenerfassungs-Server von Adobe gesendet.
 
 ## Daten beim Empfang bei den Adobe Analytics-Datenerfassungs-Servern
 

@@ -7,7 +7,7 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
@@ -33,7 +33,7 @@ Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights], [!UICONTROL Leer] und [!UICONTROL Freiform] Bedienfelder eignen sich hervorragend als Ausgangspunkt für Ihre Analyse. [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Gleichzeitige Medienbetrachter] und [!UICONTROL Segmentvergleich] Stellen Sie sich erweiterte Analysen zur Verfügung. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
+Die Bedienfelder [!UICONTROL Quick Insights], [!UICONTROL Blank] und [!UICONTROL Freiform] eignen sich hervorragend als Ausgangspunkt für Ihre Analyse, während sich die Bedienfelder [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Gleichzeitige Medienbetrachter] und [!UICONTROL Segmentvergleich] für erweiterte Analysen eignen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
 
 Das standardmäßige Startbedienfeld ist das [!UICONTROL Freiform-]Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als Standard festlegen.
 
@@ -84,24 +84,24 @@ Statische Dropdown-Segmente können auch verwendet werden, um viele Projekte zu 
 
 #### Erstellen von statischen Dropdown-Segmenten
 
-* Wählen Sie für Dropdown-Segmente mit Dimensionselementen eine einzelne Dimension aus der linken Leiste aus und legen Sie sie im Dropzone des Bedienfelds ab. **während des Betriebs`[Shift]`**. Dadurch wird ein Dropdown-Segment mit allen Dimensionselementen erstellt, die mit dieser Dimension verknüpft sind.
+* Wählen Sie für Dropdown-Segmente, die Dimensionselemente verwenden, eine einzelne Dimension aus der linken Leiste aus und legen Sie sie in der Dropzone des Bedienfelds ab **, während Sie`[Shift]`** gedrückt halten. Dadurch wird ein Dropdown-Segment mit allen Dimensionselementen erstellt, die mit dieser Dimension verknüpft sind.
 
-  Wenn Sie auch möchten, dass das Dropdown-Segment nur bestimmte Dimensionselemente enthält, die mit einer Dimension verknüpft sind, klicken Sie in der linken Leiste auf das Pfeilsymbol neben der gewünschten Dimension. Diese Aktion legt alle verfügbaren Dimensionselemente offen. Mehrere Dimensionselemente aus dieser Liste auswählen mithilfe von `[Shift + Click]` oder `[Ctrl + Click]`und legen Sie sie dann in der Dropzone des Bedienfelds ab **während des Betriebs** `[Shift]`.
+  Wenn Sie auch möchten, dass das Dropdown-Segment nur bestimmte Dimensionselemente enthält, die mit einer Dimension verknüpft sind, klicken Sie in der linken Leiste auf das Pfeilsymbol neben der gewünschten Dimension. Diese Aktion legt alle verfügbaren Dimensionselemente offen. Wählen Sie mithilfe von `[Shift + Click]` oder `[Ctrl + Click]` mehrere Dimensionselemente aus dieser Liste aus und legen Sie sie dann im Ablegebereich des Bedienfelds ab, **während** Sie `[Shift]` gedrückt halten.
 
-* Wählen Sie für Dropdown-Segmente mit einem einzelnen Komponententyp (z. B. nur Dimensionen oder nur Segmente oder nur Metriken) in der linken Leiste mehrere Elemente desselben Typs aus, indem Sie `[Shift + Click]` oder `[Ctrl + Click]`und legen Sie sie dann in der Dropzone des Bedienfelds ab **während des Betriebs`[Shift]`**.
+* Wählen Sie für Dropdown-Segmente, die einen einzelnen Komponententyp verwenden (z. B. nur Dimensionen oder nur Segmente oder nur Metriken), mehrere Elemente desselben Typs in der linken Leiste mit `[Shift + Click]` oder `[Ctrl + Click]` aus und legen Sie sie dann in der Dropzone **ab, während Sie`[Shift]`** gedrückt halten.
 
   Ein einzelnes Dropdown-Segment wird mit den von Ihnen ausgewählten Komponenten erstellt.
 
-* Wählen Sie für Dropdown-Segmente, die eine Mischung aus Komponententypen verwenden (z. B. 2 Metriken und 3 Filter), mehrere Komponenten mit `[Shift + Click]` oder `[Ctrl + Click]`. Legen Sie die Auswahl im Ablegebereich des Bedienfelds ab, **während Sie`[Shift]`** gedrückt halten. In diesem Kontext werden alle Komponententypen als separate Dropdown-Segmente behandelt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl aufnehmen, werden zwei separate Dropdown-Segmente erstellt: eines enthält Dimensionselemente, das andere wiederum Metriken.
+* Wählen Sie für Dropdown-Segmente mit einer Mischung aus Komponententypen (z. B. 2 Metriken und 3 Filter) mehrere Komponenten mit `[Shift + Click]` oder `[Ctrl + Click]` aus. Legen Sie die Auswahl im Ablegebereich des Bedienfelds ab, **während Sie`[Shift]`** gedrückt halten. In diesem Kontext werden alle Komponententypen als separate Dropdown-Segmente behandelt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl aufnehmen, werden zwei separate Dropdown-Segmente erstellt: eines enthält Dimensionselemente, das andere wiederum Metriken.
 
-  ![Das Fenster Bedienfeld mit dem Feld Mobilkundensegment ist verfügbar, um ein statisches Dropdown-Segment abzulegen. ](assets/create-dropdown.png)
+  ![Das Fenster Bedienfeld mit dem Feld Mobilkundensegment , das zum Ablegen eines statischen Dropdown-Segments verfügbar ist. ](assets/create-dropdown.png)
 
 Wenn Sie mit der rechten Maustaste auf ein Dropdown-Segment klicken, stehen folgende Optionen zur Verfügung:
 
-* **[!UICONTROL Dropdown-Liste löschen]**: Entfernt das Dropdown-Segment aus dem Bedienfeld.
-* **[!UICONTROL Titel löschen]**: Entfernen Sie den Text über einem Dropdown-Segment. Um den Titel zu ändern, wählen Sie das Stiftsymbol aus.
-* **[!UICONTROL Bezeichnung hinzufügen]**: Wenn Sie ein Dropdown-Segment zu einem Projekt hinzufügen, wird für eine Beschriftung automatisch der Komponentenname festgelegt. Wenn Sie den Titel löschen, können Sie ihn mit dieser Option erneut hinzufügen.
-* **[!UICONTROL Auswahl erforderlich]**: Erfordert, dass ein Segment im Bedienfeld festgelegt wird.
+* **[!UICONTROL Dropdown-Liste löschen]**: Entfernt das Dropdown-Segment aus dem Bereich.
+* **[!UICONTROL Titel löschen]**: Entfernen Sie den Text über einem Dropdown-Segment. Wählen Sie zum Ändern des Labels das Stiftsymbol aus.
+* **[!UICONTROL Titel hinzufügen]**: Wenn Sie ein Dropdown-Segment zu einem Projekt hinzufügen, wird für eine Beschriftung automatisch der Komponentenname festgelegt. Wenn Sie den Titel löschen, können Sie ihn mit dieser Option erneut hinzufügen.
+* **[!UICONTROL Auswahl erforderlich]**: Erfordert, dass ein Segment im Bereich festgelegt wird.
 
 [Sehen Sie sich das Video an](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=de), um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
 
@@ -119,17 +119,17 @@ Verwenden Sie das Dropdown-Menü für Segmente auf eine der folgenden Arten, um 
 
 ### Dynamische Dropdown-Segmente
 
-Mit dynamischen Dropdown-Segmenten können Sie verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Segmenten bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Listen mit dem [Länder](/help/components/dimensions/countries.md) Dimension und [Städte](/help/components/dimensions/cities.md) Dimension. Wenn Sie ein Land aus dem [!UICONTROL Länder] Dropdown-Liste, die [!UICONTROL Städte] dynamisch angepasst werden, um nur Städte in diesem Land anzuzeigen.
+Mit dynamischen Dropdown-Segmenten können Sie verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Segmenten bestimmen. Sie können beispielsweise mithilfe der Dimension [Länder](/help/components/dimensions/countries.md) und der Dimension [Städte](/help/components/dimensions/cities.md) zwei dynamische Dropdown-Listen erstellen. Wenn Sie ein Land aus der Dropdownliste [!UICONTROL Länder] auswählen, wird die Dropdownliste [!UICONTROL Städte] dynamisch angepasst, um nur Städte in diesem Land anzuzeigen.
 
 Dieses Konzept gilt für alle Dimensionen. Es sind nur Dimensionselemente sichtbar, die innerhalb des Datumsbereichs des Bedienfelds angezeigt werden, sowie ausgewählte Segmente. In statischen Dropdown-Dimensionen ausgewählte Elemente wirken sich auf verfügbare Werte in dynamischen Dropdown-Segmenten aus. Das Gegenteil ist jedoch nicht der Fall. In dynamischen Dropdown-Dimensionen ausgewählte Elemente wirken sich nicht auf verfügbare Werte in statischen Dropdown-Segmenten aus.
 
-Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können auch ein dynamisches Dropdown-Segment löschen, sodass es keinen Wert enthält, sodass andere dynamische Dropdown-Segmente mehr Werte enthalten können. Auswählen **[!UICONTROL Alle zurücksetzen]** , um die Auswahl aus allen Dropdown-Segmenten für dieses Bedienfeld zu löschen.
+Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können auch ein dynamisches Dropdown-Segment löschen, sodass es keinen Wert enthält, sodass andere dynamische Dropdown-Segmente mehr Werte enthalten können. Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um die Auswahl aus allen Dropdown-Segmenten für dieses Bedienfeld zu löschen.
 
 So erstellen Sie ein dynamisches Dropdown-Segment:
 
 * Ziehen Sie eine einzelne Dimension in den Ablegebereich des Bedienfelds, **während Sie`[Shift]`** gedrückt halten.
 * Dynamische Dropdown-Segmente sind nicht für Metriken, Segmente oder Datumsbereiche verfügbar.
-* Klicken Sie mit der rechten Maustaste auf ein Dropdown-Segment und wählen Sie **[!UICONTROL Dropdown-Liste löschen]** , um sie zu löschen.
+* Klicken Sie mit der rechten Maustaste auf ein Dropdown-Segment und wählen Sie **[!UICONTROL Dropdown-Liste löschen]** aus, um es zu löschen.
 
 Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken, stehen dieselben Optionen zur Verfügung wie für statische Dropdown-Filter.
 
@@ -137,7 +137,7 @@ Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken
 
 Weitere Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bedienfeldüberschrift klicken.
 
-![Kontextmenü](assets/right-click-menu.png)
+![ Rechtsklick auf Menü](assets/right-click-menu.png)
 
 Folgende Einstellungen sind verfügbar:
 

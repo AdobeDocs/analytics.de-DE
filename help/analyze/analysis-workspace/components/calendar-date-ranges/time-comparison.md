@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Im Folgenden finden Sie ein Video zum Thema:
 ## Zeiträume vergleichen {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL „Zeiträume vergleichen“] nutzt erweiterte berechnete Metriken. Daher ist dies nur für Kunden mit Analytics Select-, Prime- und Ultimate-SKUs verfügbar.
+>[!UICONTROL Zeiträume vergleichen] nutzt erweiterte berechnete Metriken. Daher ist dies nur für Kunden mit Analytics Select-, Prime- und Ultimate-SKUs verfügbar.
 
 Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum bereitgestellt wird. Beispielsweise ist „Wie viel besser/schlechter geht es uns als zu diesem Zeitpunkt letztes Jahr?“ eine Kernfrage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch eine Spalte „Differenz“, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
 

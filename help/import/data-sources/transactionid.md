@@ -20,9 +20,9 @@ Transaktions-ID-Datenquellen sind eine Variation von Zusammenfassungsdatenquelle
 
 >[!NOTE]
 >
->Bevor Sie Transaktions-ID-Datenquellen verwenden, müssen Sie sie zunächst in [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) für die gewünschte Report Suite.
+>Bevor Sie Transaktions-ID-Datenquellen verwenden, müssen Sie sie zunächst in den [allgemeinen Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) für die gewünschte Report Suite aktivieren.
 
-Wenn Sie einen Online-Treffer senden, der eine [`transactionID`](/help/implement/vars/page-vars/transactionid.md) -Wert, erstellt Adobe einen &quot;Schnappschuss&quot;aller Variablen, die dann festgelegt oder beibehalten wurden. Wenn eine übereinstimmende Transaktions-ID gefunden wird, die über Datenquellen hochgeladen wurde, werden die Offline- und Online-Daten miteinander verknüpft.
+Wenn Sie einen Online-Treffer senden, der einen [`transactionID`](/help/implement/vars/page-vars/transactionid.md) -Wert enthält, erstellt Adobe einen &quot;Schnappschuss&quot;aller Variablen, die dann festgelegt oder beibehalten wurden. Wenn eine übereinstimmende Transaktions-ID gefunden wird, die über Datenquellen hochgeladen wurde, werden die Offline- und Online-Daten miteinander verknüpft.
 
 Transaktions-ID-Datenquellen haben die folgenden Eigenschaften:
 
@@ -52,4 +52,4 @@ Zum Beispiel:
    * `eVar3` gleich `bird`
    * `events` gleich `event2`
 
-Der eVar1-Wert `blue` und `event1` Metriken sind nicht in Berichten enthalten, da der Transaktions-ID-Treffer diese jeweiligen Werte überschrieben hat.
+Der eVar 1-Wert `blue` und die Metrik `event1` sind nicht in der Berichterstellung vorhanden, da der Transaktions-ID-Treffer diese jeweiligen Werte überschrieben hat.

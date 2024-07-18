@@ -30,13 +30,13 @@ Wenn Data Warehouse-Anfragen konsistent lange dauern, sollten Sie Ihre Anforderu
 Um die Bereitstellung einer Data Warehouse-Anfrage zu beschleunigen, können Sie sie auf eine der folgenden Arten ändern:
 
 * **Verwenden Sie ein Segment, das eine kleinere Stichprobe von Daten enthält**: Je weniger Daten eine Anforderung enthält, desto schneller wird ein Bericht zurückgegeben.
-* **Ausführen von Anforderungen in Schritten von 14 Tagen oder weniger**: Kleinere Anforderungen werden schneller verarbeitet als große Anforderungen.
-* **Weniger Aufschlüsselungen verwenden:** Viele Aufschlüsselungen in einer Anforderung erhöhen die Verarbeitungszeit exponentiell.
+* **Anforderungen in Schritten von 14 Tagen oder weniger ausführen**: Kleinere Anforderungen werden schneller verarbeitet als große Anforderungen.
+* **Weniger Aufschlüsselungen verwenden:** Viele Aufschlüsselungen in einer Anforderung erhöhen exponentiell die Verarbeitungszeit.
 
 ## Alternative Methode verwenden
 
 Wenn Sie diese Art von Berichten schneller benötigen, ziehen Sie die folgenden Alternativen in Betracht:
 
 * **Analysis Workspace**: Obwohl keine unbegrenzten Dimensionselemente verfügbar sind, sind fast alle anderen Anwendungsfälle enthalten, die von Data Warehouse bereitgestellt werden.
-* **Daten-Feed**: Nimmt täglich alle Rohdaten in einer Report Suite auf und sendet sie an ein Cloud-Ziel. Sie können dann die Daten in Ihre eigene Datenbank importieren und Abfragen ausführen, um die benötigten Daten abzurufen.
+* **Datenfeed**: Nimmt täglich alle Rohdaten in einer Report Suite auf und sendet sie an ein Cloud-Ziel. Sie können dann die Daten in Ihre eigene Datenbank importieren und Abfragen ausführen, um die benötigten Daten abzurufen.
 * **Individuelle Engineering Services-Lösung**: Adobe Engineering Services bieten gegen Aufpreis eine individuelle Lösung für Ihr Unternehmen. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.

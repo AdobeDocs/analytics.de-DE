@@ -12,7 +12,7 @@ ht-degree: 46%
 
 # Seitenansichten
 
-Die **[!UICONTROL Seitenansichten]** [Metrik](overview.md) zeigt an, wie oft ein bestimmtes Dimensionselement auf einer Seite festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
+Die Metrik **[!UICONTROL Seitenansichten]** [ ](overview.md) gibt an, wie oft ein bestimmtes Dimensionselement auf einer Seite festgelegt oder beibehalten wurde. Es handelt sich dabei um eine der häufigsten und grundlegendsten Metriken in Berichten.
 
 ## Berechnung dieser Metrik
 
@@ -21,4 +21,4 @@ Diese Metrik zählt alle Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement
 ## Vergleich mit ähnlichen Metriken
 
 * **Seitenansichten vs. [Besuche](visits.md)**: Seitenansichten zählen, wie oft eine Seite angezeigt wird. „Besuche“ zählt die Anzahl der Sitzungen für Besucher. Ein Besuch besteht aus einem oder mehreren Seitenansichten.
-* **Seitenansichten vs. [Seitenereignisse](page-events.md)**: Seitenansichten zählen die Anzahl der Seitenansichts-Tracking-Aufrufe (`t()`) und Linktracking-Aufrufe ausschließen (`tl()`). Seitenereignisse sind das Gegenteil. Sie zählen die Anzahl der Linktracking-Aufrufe und schließen Seitenansicht-Tracking-Aufrufe aus.
+* **Seitenansichten vs. [Seitenereignisse](page-events.md)**: Seitenansichten zählen die Anzahl der Seitenansicht-Tracking-Aufrufe (`t()`) und schließen Linktracking-Aufrufe (`tl()`) aus. Seitenereignisse sind das Gegenteil. Sie zählen die Anzahl der Linktracking-Aufrufe und schließen Seitenansicht-Tracking-Aufrufe aus.

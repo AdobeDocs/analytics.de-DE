@@ -50,6 +50,6 @@ Diese Architektur unterscheidet sich von der vorherigen darin, dass Analysis Wor
 * Sie können zahlreiche Visualisierungen hinzufügen und sie aus unterschiedlichen Zellen in derselben Tabelle beziehen, wie hier gezeigt wird. Es handelt sich um dieselbe Tabelle wie im Beispiel oben, allerdings ist die bezogene Zelle (und Metrik) anders:
 
   ![](assets/data-source3.png)>
-* Sie können sehen, ob Visualisierungen mit einer Freiform- oder Kohortentabelle verbunden sind, indem Sie auf den Punkt oben links klicken (Datenquelleneinstellungen). Wenn Sie die Maus über die verknüpfte Visualisierung bewegen, wird sie hervorgehoben. Wenn Sie darauf klicken, werden Sie dorthin geleitet.
+* Sie können sehen, ob Visualisierungen mit einer Freiform- oder Kohortentabelle verbunden sind, indem Sie auf den Punkt oben links klicken (Daten-Source-Einstellungen). Wenn Sie die Maus über die verknüpfte Visualisierung bewegen, wird sie hervorgehoben. Wenn Sie darauf klicken, werden Sie dorthin geleitet.
 
   ![](assets/linked-visualizations.png)>

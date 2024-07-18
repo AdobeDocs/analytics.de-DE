@@ -13,16 +13,16 @@ ht-degree: 75%
 
 # Einstiegsdimensionen
 
-*Auf dieser Hilfeseite wird beschrieben, wie Einstiege als [Dimension](overview.md). Informationen dazu, wie Einstiege als Metrik funktionieren, finden Sie unter der Metrik [Einstiege](../metrics/entries.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie Einstiege als [Dimension](overview.md) funktionieren. Informationen dazu, wie Einstiege als Metrik funktionieren, finden Sie unter der Metrik [Einstiege](../metrics/entries.md).*
 
-Einstiegsdimensionen [besuchsbasiert](../metrics/visits.md). Sie zeichnen das erste Dimensionselement auf und behalten es für die gesamte Dauer des Besuchs bei. Einstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
+Einstiegsdimensionen sind [besuchsbasiert](../metrics/visits.md). Sie zeichnen das erste Dimensionselement auf und behalten es für die gesamte Dauer des Besuchs bei. Einstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
 
 >[!TIP]
->Wenn Sie Daten basierend auf dem ersten Treffer eines Besuchs anstelle des ersten bei einem Besuch angezeigten Werts sehen möchten, können Sie einen [Segment](/help/components/segmentation/seg-overview.md). Verwenden Sie einen Trefferbehälter , in dem [Treffertiefe](hit-depth.md) gleich 1 ist, verwenden Sie dieses Segment dann mit der gewünschten Variablen.
+>Wenn Sie Daten basierend auf dem ersten Treffer eines Besuchs anstelle des ersten bei einem Besuch angezeigten Werts sehen möchten, können Sie ein [Segment](/help/components/segmentation/seg-overview.md) verwenden. Verwenden Sie einen Trefferbehälter, bei dem [Treffertiefe](hit-depth.md) gleich 1 ist, und verwenden Sie dann dieses Segment mit der gewünschten Variablen.
 
 ## Füllen von Einstiegsdimensionen mit Daten
 
-Ein bestimmter Eintrag [Dimension](overview.md) basiert auf der zugehörigen Traffic-Variablen. Wenn die Nicht-Einstiegsvariable über Daten verfügt, enthält die zugehörige Einstiegsdimension auch Daten. Für Einstiegsdimensionen sind keine Implementierungsänderungen erforderlich, wenn Ihre Traffic-Variablen Daten enthalten.
+Ein gegebener Eintrag [dimension](overview.md) basiert auf der zugehörigen Traffic-Variablen. Wenn die Nicht-Einstiegsvariable über Daten verfügt, enthält die zugehörige Einstiegsdimension auch Daten. Für Einstiegsdimensionen sind keine Implementierungsänderungen erforderlich, wenn Ihre Traffic-Variablen Daten enthalten.
 
 ## Dimensionselemente
 

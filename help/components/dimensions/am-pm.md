@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Vormittag/Nachmittag
 
-Das &quot;AM/PM&quot; [Dimension](overview.md) bietet Einblicke, ob der Treffer während der Vormittag- oder PM-Stunden stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+Die Dimension &quot;AM/PM&quot;[](overview.md) bietet einen Einblick, ob der Treffer während der Vormittags- oder Nachmittagsstunden stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Füllen dieser Dimension mit Daten
 

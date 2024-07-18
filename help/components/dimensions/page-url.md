@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 95%
 
 ---
 
 # Seiten-URL
 
-Die Seiten-URL [Dimension](overview.md) listet die URLs auf Ihrer Site auf.
+Die Dimension &quot;Seiten-URL&quot;[](overview.md) listet die URLs auf Ihrer Site auf.
 
 >[!IMPORTANT]
 >

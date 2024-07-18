@@ -5,12 +5,12 @@ feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
 source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 34%
+source-wordcount: '148'
+ht-degree: 37%
 
 ---
 
-# Metrik &quot;Beitrag&quot;erstellen
+# Erstellen einer Metrik vom Typ „Teilnahme“
 
 Die folgenden Informationen erläutern, wie Sie eine Metrik erstellen, die anzeigt, welche Seiten zu Besuchen beigetragen haben (oder an diesen teilgenommen haben), die eine Bestellung enthielten.
 
@@ -20,7 +20,7 @@ Diese Art von Informationen kann für jeden Inhaltsbesitzer nützlich sein.
 >
 >Sie können Beitragsmetriken in den Admin Tools aktivieren, jedoch nur für benutzerspezifische Ereignisse 1-100.
 
-1. Erstellen Sie eine berechnete Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Beginnen Sie mit der Erstellung einer berechneten Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
 
 1. Nennen Sie die Metrik im Generator für berechnete Metriken &quot;Beitrag&quot;.
 
@@ -30,10 +30,10 @@ Diese Art von Informationen kann für jeden Inhaltsbesitzer nützlich sein.
 
    ![](assets/participation.png)
 
-1. Auswählen [!UICONTROL **Speichern**] , um die Metrik zu speichern.
+1. Wählen Sie [!UICONTROL **Speichern**] aus, um die Metrik zu speichern.
 
 1. Verwenden Sie die berechnete Metrik im Bericht **[!UICONTROL Seiten]**.
 
    ![](assets/participation-pages.png)
 
-1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie hier beschrieben: [Berechnete Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie unter [Berechnete Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) beschrieben.

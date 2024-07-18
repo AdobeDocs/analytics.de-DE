@@ -6,13 +6,13 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
 # Seiten nicht gefunden
 
-*[Auf dieser Hilfeseite wird beschrieben, wie „Seiten nicht gefunden“ als Dimension funktioniert](overview.md). Weitere Informationen finden Sie unter der Metrik [Seiten nicht gefunden](../metrics/pages-not-found.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie &quot;Seiten nicht gefunden&quot;als [Dimension](overview.md) funktioniert. Weitere Informationen finden Sie unter der Metrik [Seiten nicht gefunden](../metrics/pages-not-found.md).*
 
 Die Dimension „Seiten nicht gefunden“ gibt URLs an, die einen Fehler enthalten. Diese Dimension ist nützlich, wenn Sie die Anzahl der Fehler verringern möchten, die Besucher auf Ihrer Site erhalten.
 

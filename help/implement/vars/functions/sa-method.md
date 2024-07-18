@@ -20,11 +20,11 @@ Mit der `sa()`-Methode können Sie eine Report Suite jederzeit auf der Seite dyn
 Das Web SDK sendet Daten an einen bestimmten Datastream, der Daten an die gewünschten Analytics Report Suites weiterleitet. Ein einzelner Datastream kann Daten an mehrere Report Suites weiterleiten. Dieser Abschnitt gilt sowohl für die Web SDK-Erweiterung als auch für die manuelle Implementierung des Web SDK.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicks **[!UICONTROL Datenspeicher]** auf der linken Seite.
-1. Klicken Sie auf den gewünschten Datastream oder auf **[!UICONTROL Neuer Datenspeicher]**.
-1. Klicks **[!UICONTROL Dienst hinzufügen]**, wählen Sie **[!UICONTROL Adobe Analytics]**.
+1. Klicken Sie links auf **[!UICONTROL Datastreams]**.
+1. Klicken Sie auf den gewünschten Datastream oder klicken Sie auf **[!UICONTROL Neuer Datastream]**.
+1. Klicken Sie auf **[!UICONTROL Dienst hinzufügen]** und wählen Sie dann **[!UICONTROL Adobe Analytics]** aus.
 1. Geben Sie die gewünschte Report Suite-ID ein. Wenn Sie dieselben Daten an mehrere Report Suites senden möchten, klicken Sie auf **[!UICONTROL Report Suite hinzufügen]**.
-1. Nachdem alle gewünschten Report Suites eingegeben wurden, klicken Sie auf **[!UICONTROL Speichern]**.
+1. Sobald alle gewünschten Report Suites eingegeben wurden, klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Festlegen des gewünschten Datenspeichers mithilfe der Web SDK-Erweiterung
 
@@ -32,13 +32,13 @@ Die Web SDK-Erweiterung stellt für jede Umgebung eine Dropdown-Liste für Datas
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Navigieren Sie zu [!UICONTROL Erweiterungen] und klicken Sie auf die **[!UICONTROL Konfigurieren]** Schaltfläche unter [!UICONTROL Adobe Experience Platform Web SDK].
-1. under [!UICONTROL Datenspeicher]wählen Sie den gewünschten Datastream in der Dropdown-Liste für jede Umgebung aus.
+1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
+1. Wählen Sie unter [!UICONTROL Datastreams] den gewünschten Datastream in der Dropdown-Liste für jede Umgebung aus.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Festlegen des gewünschten Datastreams zur manuellen Implementierung des Web SDK
 
-Legen Sie die `edgeConfigId` Konfigurationsvariable zur Datastream-ID hinzu. Die Datastream-ID befindet sich rechts beim Anzeigen eines Datastreams in der Adobe Experience Platform-Datenerfassung.
+Stellen Sie die Konfigurationsvariable `edgeConfigId` auf die Datastream-ID ein. Die Datastream-ID befindet sich rechts beim Anzeigen eines Datastreams in der Adobe Experience Platform-Datenerfassung.
 
 ```js
 alloy("configure", {
@@ -46,7 +46,7 @@ alloy("configure", {
 });
 ```
 
-Siehe [Web SDK konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) in der Web SDK-Dokumentation finden Sie weitere Informationen.
+Weitere Informationen finden Sie unter [Web SDK konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) in der Web SDK-Dokumentation.
 
 ## Report Suite mithilfe der Adobe Analytics-Erweiterung ändern
 

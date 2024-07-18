@@ -5,7 +5,7 @@ feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 90%
 
 ---
@@ -30,7 +30,7 @@ Wenn Sie jedoch zusätzliche Verarbeitungsregeln in der Mobile Services-Benutzer
 
    ![Kontextvariable](assets/context-var.png)
 
-1. Wechseln Sie in Experience Cloud zu Adobe Analytics und stellen Sie sicher, dass Sie sich in derselben mobilen Report Suite befinden, die Sie auch in Mobile Services verwendet haben.
+1. Wechseln Sie unter Experience Cloud zu Adobe Analytics und stellen Sie sicher, dass Sie sich in derselben mobilen Report Suite befinden, die Sie in Mobile Services angesehen haben.
 1. Wechseln Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
 1. Klicken Sie auf **[!UICONTROL Regel hinzufügen]**.
 1. Ignorieren Sie die Bedingungen und fügen Sie die gleichen Kontextvariablen hinzu, die in Mobile Services vorhanden sind.
@@ -77,4 +77,4 @@ Wenn Sie Mobile Services für gebührenpflichtige Funktionen nutzen, haben Sie k
 
 * Für Akquise-Links können wir Sie zu Adobe-Partnern weiterleiten, um Ihren Bedarf zu decken.
 * Push-Nachrichten und In-App-Nachrichten sind in Adobe Campaign Standard und Adobe Campaign Classic (nur Push) verfügbar. Der für die Zielgruppenbestimmung verwendete Datensatz ist jedoch anders. Wir empfehlen Ihnen, mit Ihrem Adobe-Account-Team zusammenzuarbeiten, um Migrationsoptionen für Nachrichtendaten zu ermitteln.
-* Für die Standortfunktion wird empfohlen, die neue [Adobe Experience Platform Location Service](https://www.adobe.com/de/experience-platform/location-service.html), der für alle Adobe Experience Platform-Kunden kostenlos ist.
+* Für die Standortfunktion wird empfohlen, den neuen [Adobe Experience Platform Location Service](https://www.adobe.com/de/experience-platform/location-service.html) zu verwenden, der für alle Adobe Experience Platform-Kunden kostenlos ist.

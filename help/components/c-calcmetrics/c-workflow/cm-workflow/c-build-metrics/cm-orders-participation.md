@@ -5,16 +5,16 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 56%
+source-wordcount: '202'
+ht-degree: 59%
 
 ---
 
-# Erstellen einer Metrik &quot;Bestellhilfen&quot;
+# Erstellen einer Metrik vom Typ „Bestellhilfen“
 
 Die folgenden Informationen erläutern, wie Sie eine Metrik erstellen, die anzeigt, welche Marketing-Kanäle zur Förderung von Bestellungen beitragen. Dies kann an beliebige relevante Dimensionen oder Erfolgsereignisse angepasst werden.
 
-1. Erstellen Sie eine berechnete Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Beginnen Sie mit der Erstellung einer berechneten Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
 
 1. Nennen Sie im Generator für berechnete Metriken die Metrik &quot;Assisted Orders&quot;oder eine ähnliche Metrik.
 
@@ -26,7 +26,7 @@ Die folgenden Informationen erläutern, wie Sie eine Metrik erstellen, die anzei
 
    ![](assets/custom-attr-model.png)
 
-1. Auswählen [!UICONTROL **Anwenden**] > [!UICONTROL **Speichern**].
+1. Wählen Sie [!UICONTROL **Apply**] > [!UICONTROL **Save**].
 
 1. Erstellen Sie in Analysis Workspace eine Freiformtabelle mit der Dimension Marketing-Kanal , Bestellungen und Ihrer neuen Metrik Assisted Orders .
 
@@ -34,4 +34,4 @@ Die folgenden Informationen erläutern, wie Sie eine Metrik erstellen, die anzei
 
    Dies ist eine einfache Möglichkeit, um festzustellen, welche Marketing-Kanäle zur Erhöhung der Bestellungen beigetragen haben. Alternativ können Sie in einer Freiformtabelle mit der rechten Maustaste auf eine Metrik klicken und das Attributionsmodell direkt über die Tabelle anpassen.
 
-1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie hier beschrieben: [Berechnete Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie unter [Berechnete Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) beschrieben.

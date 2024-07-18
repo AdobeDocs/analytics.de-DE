@@ -25,13 +25,13 @@ Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Exp
    >
    >AMO-ID bezieht sich auf die Adobe Advertising Cloud-Variable (auch als Adobe Media Optimizer bezeichnet), in die die Suchdaten eingefügt werden.
 
-1. Auswählen **[!UICONTROL Sie kennen Advertising Analytics nicht? Hier erfahren Sie mehr dazu]** Weitere Informationen zu Advertising Analytics.
+1. Wählen Sie **[!UICONTROL Unbekannt mit Advertising Analytics? Hier erfahren Sie mehr zu Advertising Analytics]** .
 
 1. Legen Sie die Variablenzuordnung und -gültigkeit fest, die die AMO-ID-Variable verwenden soll. Konversionsvariablen (eVars) ermöglichen es Adobe Analytics, Erfolgsereignisse spezifischen Variablenwerten zuzuordnen. Manchmal weisen Variablen mehrere Werte auf, bevor sich ein Erfolgsereignis einstellt. In diesen Fällen wird durch die Zuordnung festgelegt, auf welchen Variablenwert das Ereignis zurückgeführt wird.
 
    | Einstellung | Definition |
    |--- |--- |
-   | **[!UICONTROL Zuordnung]** | Wählen Sie zwischen:<br/> **[!UICONTROL Ausgangswert (Erster)]**: Der erste angezeigte Wert erhält die vollständige Zuordnung, unabhängig davon, welche nachfolgenden Werte für diese Variable vorhanden sind. <br/>**[!UICONTROL Zuletzt verwendet (Letzter)]**: Der zuletzt angezeigte Wert erhält die vollständige Zuordnung für das Erfolgsereignis, unabhängig davon, welche Variablen zuvor ausgelöst wurden. |
+   | **[!UICONTROL Zuordnung]** | Wählen Sie zwischen:<br/> **[!UICONTROL Ausgangswert (Erster)]**: Der erste angezeigte Wert erhält eine vollständige Zuordnungsgutschrift, unabhängig davon, welche nachfolgenden Werte für diese Variable vorhanden sind. <br/>**[!UICONTROL Zuletzt verwendet (Letzter)]**: Der zuletzt angezeigte Wert erhält die vollständige Zuordnung für das Erfolgsereignis, unabhängig davon, welche Variablen zuvor ausgelöst wurden. |
    | **[!UICONTROL Läuft ab nach]** | Ermöglicht die Angabe eines Zeitraums oder Ereignisses, nach dem der eVar abläuft (d. h. keine Gutschrift für Erfolgsereignisse mehr erhält).  Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. |
 
-1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (beim ersten Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (bei darauffolgenden Malen). Ihre Report Suite kann jetzt Advertising Analytics-Suchdaten empfangen. Sie können jetzt [Werbekonten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (beim ersten Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (bei darauffolgenden Malen). Ihre Report Suite kann jetzt Advertising Analytics-Suchdaten empfangen. Sie können jetzt [Advertising-Konten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

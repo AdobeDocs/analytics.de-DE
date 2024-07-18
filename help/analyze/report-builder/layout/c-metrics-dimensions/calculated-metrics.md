@@ -25,13 +25,13 @@ In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filte
 
 ## Berechnete Metriken filtern {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filter** berechnete Metriken durch Klicken auf das Filtersymbol:  ![Screenshot der Filteroptionen mit den Feldern Anwendung, Benutzer, Projekt .](/help/admin/admin/assets/filter.png)
+**Errechnete Metriken filtern** durch Klicken auf das Filtersymbol: ![Screenshot der Filteroptionen mit den Feldern &quot;Anwendung&quot;, &quot;Benutzer&quot;, &quot;Projekt&quot;](/help/admin/admin/assets/filter.png).
 
 Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
 
 Folgende Filter stehen zur Verfügung:
 
-![Screenshot mit den erweiterten Filteroptionen, wie in der folgenden Tabelle beschrieben.](assets/advanced_filters.png)
+![Screenshot mit den in der folgenden Tabelle beschriebenen Optionen für erweiterte Filter.](assets/advanced_filters.png)
 
 | Filtername | Beschreibung |
 |---|---|

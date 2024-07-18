@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Java aktiviert
 
-&quot;Java aktiviert&quot; [Dimension](overview.md) bestimmt, ob Java im Browser zum Zeitpunkt aktiviert ist. Das ist hilfreich, wenn Sie Java-basierte Funktionen auf Ihrer Site einführen und wissen möchten, wie viele Besucher Java bereits aktiviert haben. Für diejenigen, die Java deaktiviert haben, können Sie eine Alternative oder Anweisungen zur Aktivierung bereitstellen.
+Die Dimension &quot;[Java aktiviert&quot;](overview.md) bestimmt, ob Java im Browser zu diesem Zeitpunkt aktiviert ist. Das ist hilfreich, wenn Sie Java-basierte Funktionen auf Ihrer Site einführen und wissen möchten, wie viele Besucher Java bereits aktiviert haben. Für diejenigen, die Java deaktiviert haben, können Sie eine Alternative oder Anweisungen zur Aktivierung bereitstellen.
 
 ## Füllen dieser Dimension mit Daten
 

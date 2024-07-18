@@ -6,14 +6,14 @@ feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 4f0bd39b64535be8ba55e97d65177f6ef291ef6c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 61%
 
 ---
 
 # Verwalten von Anmerkungen
 
-Die [!UICONTROL Anmerkungs-Manager] zeigt Ihnen alle Anmerkungen an, die Ihnen gehören oder die für Sie freigegeben wurden. Projektspezifische Anmerkungen werden hier nicht angezeigt. Sie können diese Benutzeroberfläche verwenden, um Ihre Anmerkungen freizugeben, zu filtern, zu taggen, zu kopieren, zu löschen und zu favorisieren. Administratoren können Anmerkungen verwalten und genehmigen.
+Der [!UICONTROL Anmerkungsmanager] zeigt Ihnen alle Anmerkungen an, die Ihnen gehören oder für Sie freigegeben wurden. Projektspezifische Anmerkungen werden hier nicht angezeigt. Sie können diese Benutzeroberfläche verwenden, um Ihre Anmerkungen freizugeben, zu filtern, zu taggen, zu kopieren, zu löschen und zu favorisieren. Administratoren können Anmerkungen verwalten und genehmigen.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Anmerkungen]**
 

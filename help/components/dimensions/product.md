@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Produkt
 
-Das Produkt [Dimension](overview.md) gibt den Namen des Produkts im Treffer an. Dies ist für Implementierungen nützlich, die die `products`-Variable verwenden und Metriken für die Produkte anzeigen möchten, wie am häufigsten verkaufte oder angezeigte Artikel. Diese Dimension kann absichtlich leer sein, wenn Sie keine Produkte auf Ihrer Site haben.
+Die Dimension &quot;Produkt&quot;[Dimension](overview.md) gibt den Namen des Produkts im Treffer an. Dies ist für Implementierungen nützlich, die die `products`-Variable verwenden und Metriken für die Produkte anzeigen möchten, wie am häufigsten verkaufte oder angezeigte Artikel. Diese Dimension kann absichtlich leer sein, wenn Sie keine Produkte auf Ihrer Site haben.
 
 ## Füllen dieser Dimension mit Daten
 

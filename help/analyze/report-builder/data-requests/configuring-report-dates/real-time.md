@@ -1,14 +1,14 @@
 ---
 description: Zeigt den Webseitentraffic an und sortiert Seitenansichten in Echtzeit nach Rangfolge, sodass Sie die Trends auf Ihrer Website schneller verstehen können.
-title: Echtzeitberichte Übersicht
+title: Übersicht über Echtzeitberichte
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 97%
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -29,4 +29,4 @@ Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berü
 
 >[!NOTE]
 >
->[!UICONTROL Echtzeitberichte] sind mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Datenneuigkeit) nicht identisch. Mit dieser wird die Latenz für Standardberichte verkürzt, indem Daten angezeigt werden, bevor sie finalisiert wurden.
+>[!UICONTROL Echtzeitberichte] sind nicht mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Datenneuigkeit) identisch, wodurch die Latenz für Standardberichte reduziert wurde, indem Daten angezeigt wurden, bevor sie finalisiert wurden.

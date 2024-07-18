@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Ereignisauswirkungen an Benutzer kommunizieren
 
-Wenn Sie Daten haben [von einem Ereignis beeinflusst](overview.md)ist es wichtig, dieses Ereignis Benutzern in Ihrer Organisation mitzuteilen.
+Wenn von einem Ereignis ](overview.md) Daten [betroffen sind, ist es wichtig, dieses Ereignis Benutzern in Ihrer Organisation mitzuteilen.
 
 * Entwickeln eines häufigen Haftungsausschlusses, den Sie für die Konsistenz in der Kommunikation verwenden können
 * Bereitstellung laufender Kommunikation für Analytics-Benutzer und wichtige Interessengruppen während und nach der Veranstaltung
@@ -22,9 +22,9 @@ Die folgenden Abschnitte in Adobe Analytics zeigen verschiedene Möglichkeiten, 
 
 ## Kommunikation über Bedienfeld- oder Visualisierungsbeschreibungen
 
-Wenn Sie ein Workspace-Projekt haben, das von Benutzern in Ihrer Organisation gemeinsam genutzt wird, können Sie die Auswirkungen eines Ereignisses über Bedienfeld- oder Visualisierungsbeschreibungen kommunizieren. Klicken Sie mit der rechten Maustaste auf einen Bereich oder eine Visualisierungsheader und wählen Sie **[!UICONTROL Beschreibung bearbeiten]**.
+Wenn Sie ein Workspace-Projekt unter Benutzern in Ihrem Unternehmen freigegeben haben, können Sie die Auswirkungen eines Ereignisses über Bedienfeld- oder Visualisierungsbeschreibungen kommunizieren. Klicken Sie mit der rechten Maustaste auf einen Bereich oder eine Visualisierungs-Kopfzeile und wählen Sie dann **[!UICONTROL Beschreibung bearbeiten]** aus.
 
-![Bedienfeldbeschreibung](assets/panel_description.png)
+![Bereichsbeschreibung](assets/panel_description.png)
 
 ## Kommunikation über Textvisualisierungen
 
@@ -36,7 +36,7 @@ Sie können die Auswirkungen eines Ereignisses auch über spezielle Textvisualis
 
 Für jede Trend-Visualisierung in Workspace können Sie eine Reihe hinzufügen, die Ihren betroffenen Datumsbereich darstellt.
 
-1. Erstellen Sie eine berechnete Metrik mit dem Segment &quot;Betroffene Tage&quot;, indem Sie Folgendes ausführen [Ausschließen spezifischer Daten in der Analyse](segments.md).
+1. Erstellen Sie eine berechnete Metrik mit dem Segment &quot;Betroffene Tage&quot;, indem Sie den Schritten folgen: [Bestimmte Daten in der Analyse ausschließen](segments.md).
 1. Fügen Sie die gewünschte Metrik der Arbeitsfläche für berechnete Metriken hinzu.
 
    ![Metrik](assets/calcmetric_event.png)
@@ -49,7 +49,7 @@ Für jede Trend-Visualisierung in Workspace können Sie eine Reihe hinzufügen, 
 
    ![Freiformtabelle](assets/calcmetric_freeform.png)
 
-1. Klicken Sie auf das Zahnradsymbol für die Spalteneinstellungen für die berechnete Metrik und aktivieren Sie **[!UICONTROL Null als keinen Wert auffassen]**.
+1. Klicken Sie auf das Zahnradsymbol für die Spalteneinstellungen für die berechnete Metrik und aktivieren Sie die Option **[!UICONTROL Null als keinen Wert auffassen]**.
 
    ![Einstellungen für berechnete Metriken](assets/calcmetric_zero_no_value.png)
 

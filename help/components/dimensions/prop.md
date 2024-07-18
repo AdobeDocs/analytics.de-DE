@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 95%
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
 # Prop
 
-*[Auf dieser Hilfeseite wird beschrieben, wie Props als Dimension funktionieren](overview.md). Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Props als [Dimension](overview.md) funktionieren. Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
 
 Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den von ihnen festgelegten Treffer hinaus bestehen.
 
@@ -30,7 +30,7 @@ AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datene
 
 ## Dimensionselemente
 
-Da Props benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede Prop gelten. Vergewissern Sie sich, dass Sie den Zweck jeder Prop und die typischen Dimensionselemente in einer [Lösungsdesigndokument](/help/implement/prepare/solution-design.md).
+Da Props benutzerdefinierte Zeichenfolgen in Ihrer Implementierung enthalten, bestimmt Ihr Unternehmen, welche Dimensionselemente für jede Prop gelten. Vergewissern Sie sich, dass Sie den Zweck jeder Prop und die typischen Dimensionselemente in einem [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) aufzeichnen.
 
 ## Groß-/Kleinschreibung
 

@@ -14,7 +14,7 @@ ht-degree: 35%
 
 Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist.
 
-Alle von Adobe Analytics verwendeten IP-Adressen sind Teil von [Von der Adobe Experience Cloud verwendete IP-Adressen](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), mit Ausnahme des Add-On-Pakets China Performance Optimization .
+Alle von Adobe Analytics verwendeten IP-Adressen sind Teil von [IP-Adressen, die von der Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) verwendet werden, mit Ausnahme des Add-On-Pakets &quot;China Performance Optimization&quot;.
 
 ## IP-Adressen zur Optimierung der chinesischen Leistung
 

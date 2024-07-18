@@ -40,7 +40,7 @@ So konfigurieren Sie Erfolgsereignisse:
    |---------|----------|---------|
    | [!UICONTROL **Überall eingeblendet**] | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
    | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Überall ausgeblendet**] | Nicht angegeben | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
+   | [!UICONTROL **Überall ausgeblendet**] | -/- | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
 
 1. Geben Sie eine Beschreibung ein.
 1. Legen Sie fest, ob das Ereignis immer aufgezeichnet werden soll.

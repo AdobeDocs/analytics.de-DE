@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 92%
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
 # Erstkontakt-Kanal
 
-Der &quot;Erstkontakt-Kanal&quot; [Dimension](overview.md) erfasst den ersten Marketing-Kanal, mit dem ein Besucher während des Interaktionszeitraums des Besuchers übereinstimmt (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den anfänglichen Traffic zu Ihrer Site leiten, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
+Die Dimension &quot;Erstkontakt-Kanal&quot;[](overview.md) gibt den ersten Marketing-Kanal an, mit dem ein Besucher während des Interaktionszeitraums des Besuchers (standardmäßig 30 Tage) übereinstimmt. Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den anfänglichen Traffic zu Ihrer Site leiten, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
 
 ## Füllen dieser Dimension mit Daten
 
