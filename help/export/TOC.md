@@ -5,9 +5,9 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
 source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
