@@ -4,10 +4,10 @@ title: Konfigurieren einer Flussvisualisierung
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads konfigu
    >
    >Berechnete Metriken können nicht im Feld **[!UICONTROL Beginnt mit]** oder **[!UICONTROL Endet mit]** verwendet werden.
 
-1. Wenn Sie eine Metrik auswählen, müssen Sie auch eine [!UICONTROL **Pfaddimension**] bereitstellen, die als Pfad verwendet wird, der zu Ihrer ausgewählten Komponente führt oder von dieser weg führt, wie hier dargestellt. Die Standardeinstellung ist [!UICONTROL **Seite**].
+1. Wenn Sie eine Metrik auswählen, müssen Sie auch eine [!UICONTROL **Pfade-Dimension**] bereitstellen, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von ihr stammt (siehe hier). Die Standardeinstellung ist [!UICONTROL **Seite**].
 
    ![Pfaddimension](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads konfigu
 > 
 >1. Erstellen Sie eine Flussvisualisierung, wie oben beschrieben.
 >1. Ziehen Sie die Dimension [!UICONTROL **Seite**] in das Feld **[!UICONTROL Enthält]** und wählen Sie [!UICONTROL **Erstellen**] aus.
->1. Die Flussvisualisierung wird mit der am häufigsten angezeigten Seite erstellt, die im Fokusknoten in der Mitte der Visualisierung angezeigt wird. Sie sehen auch die Top-Seiten, die zu dieser Seite führen (links neben dem Fokusknoten), sowie die Top-Seiten, die aus dieser Fokusseite führen (rechts neben dem Fokusknoten).
+>1. Die Flussvisualisierung wird mit der am häufigsten angezeigten Seite erstellt, die im Fokusknoten in der Mitte der Visualisierung angezeigt wird. Sie sehen auch die oberen Seiten, die zu dieser Seite führen (links neben dem Fokusknoten), sowie die oberen Seiten, die von dieser Seite weg führen (rechts neben dem Fokusknoten).
 >1. Analysieren Sie die Daten im Fluss, wie unter [Flussausgabe anzeigen und ändern](#view-and-change-the-flow-output) beschrieben.
 
 
