@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -49,13 +49,14 @@ Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unte
    Das Dialogfeld [!UICONTROL **Standortdetails**] wird angezeigt.
 
 1. Geben Sie die folgenden Informationen an:
-|Feld | Funktion |
-|—|—|
-| [!UICONTROL **Name**] | Der Name des Standorts.  |
-| [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
-| [!UICONTROL **Verwenden mit**] | Wählen Sie aus, ob Sie diesen Speicherort mit [!UICONTROL **Daten-Feeds**], [!UICONTROL **Data Warehouse**] oder [!UICONTROL **Klassifizierungssätzen**] verwenden möchten. <p>Beachten Sie bei der Auswahl Folgendes:</p><ul><li>Ein einzelner Ort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse- oder Classification-Sets verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Standorts zu vermeiden, ändern Sie den Wert des Felds [!UICONTROL **Use with**] nicht, nachdem der Speicherort verwendet wurde.</li><li>Wenn Sie einen Speicherort für ein E-Mail-Konto erstellen, wählen Sie in diesem Feld [!UICONTROL **Data Warehouse**] aus. E-Mail-Standorte werden von Daten-Feeds und Classification-Sets nicht unterstützt.</li></ul> |
-| [!UICONTROL **Stellen Sie den Standort allen Benutzern in Ihrer Organisation zur Verfügung**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation den Standort verwenden können.<p>Beachten Sie beim Freigeben von Orten Folgendes:</p><ul><li>Die Freigabe von freigegebenen Speicherorten kann nicht aufgehoben werden.</li><li>Freigegebene Standorte können nur vom Eigentümer des Standorts bearbeitet werden.</li><li>Standorte können nur freigegeben werden, wenn auch das Konto, mit dem der Ort verknüpft ist, freigegeben wurde.</li></ul> |
-| [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, in dem Sie diesen Ort erstellen möchten. Informationen zum Erstellen eines Kontos finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md). |
+
+   | Feld | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Name**] | Der Name des Standorts. |
+   | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
+   | [!UICONTROL **Verwenden mit**] | Wählen Sie aus, ob Sie diesen Speicherort mit [!UICONTROL **Daten-Feeds**], [!UICONTROL **Data Warehouse**] oder [!UICONTROL **Klassifizierungssätzen**] verwenden möchten. <p>Beachten Sie bei der Auswahl Folgendes:</p><ul><li>Ein einzelner Ort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse- oder Classification-Sets verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Standorts zu vermeiden, ändern Sie den Wert des Felds [!UICONTROL **Use with**] nicht, nachdem der Speicherort verwendet wurde.</li><li>Wenn Sie einen Speicherort für ein E-Mail-Konto erstellen, wählen Sie in diesem Feld [!UICONTROL **Data Warehouse**] aus. E-Mail-Standorte werden von Daten-Feeds und Classification-Sets nicht unterstützt.</li></ul> |
+   | [!UICONTROL **Stellen Sie den Standort allen Benutzern in Ihrer Organisation zur Verfügung**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation den Standort verwenden können.<p>Beachten Sie beim Freigeben von Orten Folgendes:</p><ul><li>Die Freigabe von freigegebenen Speicherorten kann nicht aufgehoben werden.</li><li>Freigegebene Standorte können nur vom Eigentümer des Standorts bearbeitet werden.</li><li>Standorte können nur freigegeben werden, wenn auch das Konto, mit dem der Ort verknüpft ist, freigegeben wurde.</li></ul> |
+   | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, in dem Sie diesen Ort erstellen möchten. Informationen zum Erstellen eines Kontos finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md). |
 
 1. Um das Formular für die Konfiguration des Standorts auszufüllen, fahren Sie mit dem folgenden Abschnitt fort, der dem Kontotyp entspricht, den Sie im Feld [!UICONTROL **Standortkonten**] ausgewählt haben. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
 
