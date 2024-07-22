@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
 source-wordcount: '5806'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Juli 2024** | |
 | threads.net zur Dimension &quot;Referrer-Typ&quot;hinzugefügt | threads.net wurde zur Liste der sozialen Netzwerke hinzugefügt, die in der Dimension [ &quot;Typ der verweisenden Stelle&quot;](/help/components/dimensions/referrer-type.md) verwendet werden. |
-| Aktualisierte Dokumentation für die Verwaltung von Daten-Feeds | Die Informationen in [Verwalten von Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md) wurden aktualisiert, um die Klarheit zu verbessern. <p>Zu den Aktualisierungen gehören:</p><ul><li>Es wurden separate Abschnitte für verschiedene Aufgaben erstellt, um das Scannen und Verwenden der Informationen zu vereinfachen.</li><li>Es wurden Informationen zu Änderungen am Verhalten von reaktivierten Live-Feeds hinzugefügt. Diese Änderungen sind derzeit nur eingeschränkt verfügbar und stehen noch nicht allen Kunden zur Verfügung.</li><li>Es wurden Informationen hinzugefügt, aus denen hervorgeht, dass Daten-Feeds den Status Aktiv aufweisen müssen, bevor sie gelöscht werden können.</li> |
-| Aktualisierte allgemeine Fehlermeldungen | Es wurden kleinere Aktualisierungen an den [häufigen Fehlermeldungen](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) vorgenommen. |
+| Aktualisierte Dokumentation für die Verwaltung von Daten-Feeds | Die Informationen in [Verwalten von Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md) wurden aktualisiert, um die Klarheit zu verbessern. <p>Zu den Aktualisierungen gehören:</p><ul><li>Es wurden separate Abschnitte für verschiedene Aufgaben erstellt, damit die Informationen einfacher zu überfliegen und zu verstehen sind.</li><li>Es wurden Informationen zu Änderungen am Verhalten von reaktivierten Live-Feeds hinzugefügt. Diese Änderungen sind derzeit nur eingeschränkt verfügbar und stehen noch nicht allen Kundinnen und Kunden zur Verfügung.</li><li>Es wurden Informationen hinzugefügt, aus denen hervorgeht, dass Daten-Feeds den Status Aktiv aufweisen müssen, bevor sie gelöscht werden können.</li> |
+| Aktualisierte allgemeine Fehlermeldungen | Es wurden kleinere Aktualisierungen an den [allgemeinen Fehlermeldungen](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) vorgenommen. |
 | **Juni 2024** | |
 | Aktualisierter Produktname, der sich auf die Funktion zum Streaming von Medien bezieht | Instanzen von „Media Analytics“ und „Streaming Media“ wurden durch den Namen „Add-on für Streaming-Mediensammlungen“ ersetzt, wenn auf die Reihe von Funktionen zum Streaming von Medien verwiesen wird, die Streaming-Mediendaten erfassen und in Analysis Workspace anzeigen. <p>Diese Aktualisierungen sind in der gesamten Dokumentation zu Adobe Analytics sowie in der [Dokumentation zum Add-on für Streaming-Mediensammlungen](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview) verfügbar.</p> |
 | Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) und [Überblicksinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
