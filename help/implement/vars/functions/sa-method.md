@@ -4,7 +4,7 @@ description: Ändern Sie die Report Suite jederzeit in Ihrer Implementierung.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ Die Web SDK-Erweiterung stellt für jede Umgebung eine Dropdown-Liste für Datas
 
 ## Festlegen des gewünschten Datastreams zur manuellen Implementierung des Web SDK
 
-Stellen Sie die Konfigurationsvariable `edgeConfigId` auf die Datastream-ID ein. Die Datastream-ID befindet sich rechts beim Anzeigen eines Datastreams in der Adobe Experience Platform-Datenerfassung.
+Stellen Sie die Konfigurationsvariable `datastreamId` auf die Datastream-ID ein. Die Datastream-ID befindet sich rechts beim Anzeigen eines Datastreams in der Adobe Experience Platform-Datenerfassung.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

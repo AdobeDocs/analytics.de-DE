@@ -2,7 +2,7 @@
 title: Migration von AppMeasurement zum Web SDK
 description: Aktualisieren Sie Ihre Adobe Analytics-Implementierung von der AppMeasurement JavaScript-Bibliothek auf die Web SDK JavaScript-Bibliothek.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 7%
@@ -63,15 +63,15 @@ Referenzieren Sie die neueste Version von `alloy.js` , damit die zugehörigen Me
 
 Richten Sie Ihre Implementierung so ein, dass sie auf den im vorherigen Schritt erstellten Datastream verweist, indem Sie den Web SDK-Befehl [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) verwenden. Der Befehl `configure` muss auf jeder Seite festgelegt sein, damit Sie ihn neben den Bibliotheksinstallationscode einfügen können.
 
-Verwenden Sie die Eigenschaften [`edgeConfigId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgeconfigid) und [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) im Web SDK `configure` -Befehl:
+Verwenden Sie die Eigenschaften [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId) und [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) im Web SDK `configure` -Befehl:
 
-* Stellen Sie `edgeConfigId` auf die aus dem vorherigen Schritt abgerufene Datastream-ID ein.
+* Stellen Sie `datastreamId` auf die aus dem vorherigen Schritt abgerufene Datastream-ID ein.
 * Stellen Sie die `orgId` auf die IMS-Organisation Ihres Unternehmens ein.
 
 ```js
 alloy("configure", {
-    "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
-    "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg"
+    datastreamId: "ebebf826-a01f-4458-8cec-ef61de241c93",
+    orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

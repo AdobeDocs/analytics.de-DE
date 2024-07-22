@@ -2,7 +2,7 @@
 title: Senden von Daten an Adobe Analytics mithilfe der Web SDK JavaScript-Bibliothek
 description: Beginnen Sie mit einer sauberen Web SDK-Implementierung, um mithilfe der JavaScript-Bibliothek Daten an Adobe Analytics zu senden.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>7</td>
-<td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datastraam-ID (ehemals "Edge Configuration ID (<code>edgeConfigId</code>)"), der Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen konfiguriert ist. Stellen Sie sicher, dass Variablen ordnungsgemäß zugeordnet werden. </td>
+<td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datastraam-ID (ehemals "Edge Configuration ID (<code>datastreamId</code>)"), der Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen konfiguriert ist. Stellen Sie sicher, dass Variablen ordnungsgemäß zugeordnet werden. </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK konfigurieren</a><br/><a href="../xdm-var-mapping.md">XDM-Objektvariablenzuordnung</a></td>
 </tr>
 
