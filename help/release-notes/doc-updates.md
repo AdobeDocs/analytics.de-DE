@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '5806'
-ht-degree: 99%
+source-wordcount: '5910'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Juli 2024** | |
+| Informationen zu schnell berechneten Metriken hinzugefügt | Die Informationen in [Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md) wurden aktualisiert, um den Unterschied zwischen [berechneten Metriken, die im Generator für berechnete Metriken erstellt werden](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) und [Metriken, die in einem einzelnen Projekt als schnell berechnete Metriken erstellt werden, zu klären.](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) Es wurden auch weitere Details hinzugefügt, wie Sie schnell berechnete Metriken erstellen können.<p>Berechnete Metriken, die im Generator für berechnete Metriken erstellt werden, stehen in der Komponentenliste zur Verfügung und können in der gesamten Organisation auf Projekte angewendet werden, während berechnete Metriken, die als schnell berechnete Metriken erstellt werden, nur in dem Projekt verfügbar sind, in dem sie erstellt wurden.</p><p>Außerdem wurden Informationen in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) aktualisiert, um ähnliche Klarstellungen vorzunehmen.</p> |
 | threads.net zur Dimension &quot;Referrer-Typ&quot;hinzugefügt | threads.net wurde zur Liste der sozialen Netzwerke hinzugefügt, die in der Dimension [ &quot;Typ der verweisenden Stelle&quot;](/help/components/dimensions/referrer-type.md) verwendet werden. |
 | Aktualisierte Dokumentation für die Verwaltung von Daten-Feeds | Die Informationen in [Verwalten von Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md) wurden aktualisiert, um die Klarheit zu verbessern. <p>Zu den Aktualisierungen gehören:</p><ul><li>Es wurden separate Abschnitte für verschiedene Aufgaben erstellt, damit die Informationen einfacher zu überfliegen und zu verstehen sind.</li><li>Es wurden Informationen zu Änderungen am Verhalten von reaktivierten Live-Feeds hinzugefügt. Diese Änderungen sind derzeit nur eingeschränkt verfügbar und stehen noch nicht allen Kundinnen und Kunden zur Verfügung.</li><li>Es wurden Informationen hinzugefügt, aus denen hervorgeht, dass Daten-Feeds den Status Aktiv aufweisen müssen, bevor sie gelöscht werden können.</li> |
 | Aktualisierte allgemeine Fehlermeldungen | Es wurden kleinere Aktualisierungen an den [allgemeinen Fehlermeldungen](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) vorgenommen. |
