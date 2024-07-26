@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
 workflow-type: tm+mt
-source-wordcount: '3425'
-ht-degree: 75%
+source-wordcount: '3578'
+ht-degree: 68%
 
 ---
 
@@ -39,7 +39,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`browser_height`** | Die Dimension [Browserhöhe](/help/components/dimensions/browser-height.md) . | smallint unsigned |
 | **`browser_width`** | Die [Browserbreite](/help/components/dimensions/browser-width.md) | smallint unsigned |
 | **`c_color`** | Bit-Tiefe der Farbpalette. Wird bei der Berechnung der Dimension [Farbtiefe](/help/components/dimensions/color-depth.md) verwendet. AppMeasurement verwendet die JavaScript-Funktion `screen.colorDepth()`. | char(20) |
-| **`campaign`** | Die [Dimension &quot;Tracking-Code](/help/components/dimensions/tracking-code.md) &quot;. | varchar(255) |
+| **`campaign`** | Die [Tracking-Symbol](/help/components/dimensions/tracking-code.md) Dimension. | varchar(255) |
 | **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Der Schlüsselwert für die [dynamische Suche](dynamic-lookups.md) von `carrier.tsv`. | varchar(100) |
 | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
@@ -52,11 +52,11 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`color`** | Farbtiefen-ID, basierend auf dem Wert der Spalte `c_color`. Verweist auf die Suchtabelle `color_depth.tsv`. | smallint unsigniert |
 | **`connection_type`** | Eine numerische ID, die den Verbindungstyp darstellt. Die Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md) . Verweist auf die Suchtabelle `connection_type.tsv` | tinyint unsigniert |
 | **`cookies`** | Die Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) .<br>Y: aktiviert<br>N: deaktiviert<br>U: unbekannt | char(1) |
-| **`country`** | Eine numerische ID, die das Land des Besuchers darstellt. Verweist auf die Suchtabelle `country.tsv`. | smallint unsigniert |
+| **`country`** | Eine numerisch-ID, die das Land der Besucher repräsentiert. Verweist auf die Suchtabelle `country.tsv`. | smallint unsigniert |
 | **`ct_connect_type`** | Verknüpft mit der Spalte `connection_type`. Die häufigsten Werte sind LAN/WLAN, Mobilnetzbetreiber und Modem. | char(20) |
 | **`curr_factor`** | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. USD verwendet beispielsweise zwei Dezimalstellen, sodass dieser Spaltenwert `2` lautet. | tinyint |
 | **`curr_rate`** | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
-| **`currency`** | Der Währungscode, der während der Transaktion verwendet wurde. Wird mit [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) eingestellt. | char(8) |
+| **`currency`** | Der während der Transaktion verwendete Währungscode. Wird mit [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) eingestellt. | char(8) |
 | **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendete Zeitstempel in UNIX®-Zeit. | int |
 | **`cust_visid`** | Die benutzerdefinierte Besucher-ID, falls mit [`visitorID`](/help/implement/vars/config-vars/visitorid.md) festgelegt. | varchar(255) |
 | **`daily_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
@@ -64,14 +64,14 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`dataprivacyconsentoptout`** | Die Dimension [ Opt-out aus der Einverständnisverwaltung](/help/components/dimensions/cm-opt-out.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP` und `SELL`. | varchar(100) |
 | **`dataprivacydmaconsent`** | Ein Wert, der angibt, ob die Zustimmung zum Senden von Daten von Adobe Analytics über Adobe Advertising an Drittanbieter für Werbung (wie Google) eingeholt wurde. Weitere Informationen finden Sie unter [Einwilligung in Werbung](/help/components/dimensions/ad-consent.md). | varchar(100) |
 | **`date_time`** | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
-| **`domain`** | Die [Dimension Domäne](/help/components/dimensions/domain.md) . Basierend auf dem Internetzugang des Besuchers. | varchar(100) |
+| **`domain`** | Die [Domäne](/help/components/dimensions/domain.md) Dimension. Basiert auf dem Internet-Zugangspunkt des Besucher. | varchar(100) |
 | **`duplicate_events`** | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |
 | **`duplicate_purchase`** | Eine Markierung, die bestimmt, ob das Kaufereignis für diesen Treffer ignoriert wird, da es sich um ein Duplikat handelt. | tinyint unsigniert |
 | **`duplicated_from`** | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, von welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
 | **`ef_id`** | Die in Adobe Advertising-Integrationen verwendete `ef_id`. | varchar(255) |
 | **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Am besten erhalten Sie weitere Informationen dazu, wie Ihre Organisation die entsprechenden eVars füllt, indem Sie ein für Ihr Unternehmen spezifisches [Lösungsdesigndokument](/help/implement/prepare/solution-design.md) erstellen. | varchar(255) |
-| **`event_list`** | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Umfasst sowohl Standardereignisse als auch [benutzerspezifische Ereignisse 1-1000](/help/components/metrics/custom-events.md). Verwendet die `event.tsv`-Suche. | text |
-| **`exclude_hit`** | Eine Markierung, die bestimmt, ob der Treffer aus der Berichterstellung ausgeschlossen ist. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
+| **`event_list`** | Kommagetrennte Liste von numerisch-IDs, die Ereignisse darstellen, die auf der Treffer ausgelöst werden. Enthält sowohl die Standardereignisse als [auch die benutzerdefinierten Ereignisse 1–1000.](/help/components/metrics/custom-events.md) Verwendet die `event.tsv`-Suche. | text |
+| **`exclude_hit`** | Eine Hervorhebung, die bestimmt, ob die Treffer von Berichte ausgeschlossen wird. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
 | **`first_hit_page_url`** | Die allererste URL des Besuchers. | varchar(255) |
 | **`first_hit_pagename`** | Die Dimension [Ursprüngliche Entrypage](/help/components/dimensions/entry-dimensions.md) . Der Name der ursprünglichen Entrypage des Besuchers. | varchar(100) |
 | **`first_hit_ref_domain`** | Die Dimension [Ursprüngliche Referrer-Domäne](/help/components/dimensions/original-referring-domain.md) . Basierend auf `first_hit_referrer`. Die allererste verweisende Domain des Besuchers. | varchar(100) |
@@ -92,8 +92,8 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`ipv6`** | Die komprimierte IPv6-Adresse, falls verfügbar. Sich gegenseitig ausschließend für `ip`; wenn diese Spalte eine nicht verschleierte IP-Adresse enthält, ist `ip` leer. | varchar(40) |
 | **`j_jscript`** | Vom Browser unterstützte JavaScript-Version. | char(5) |
 | **`java_enabled`** | [[!UICONTROL Java enabled]](/help/components/dimensions/java-enabled.md). <br>Y: Aktiviert <br>N: Deaktiviert <br>U: Unbekannt | char(1) |
-| **`javascript`** | Eine Lookup-ID der JavaScript-Version basierend auf `j_jscript`. Verweist auf die Suchtabelle `javascript_version` | tinyint unsigniert |
-| **`language`** | Eine numerische ID, die die Sprache des Besuchers darstellt. Verweist auf die Suchtabelle `languages.tsv`. | smallint unsigniert |
+| **`javascript`** | Eine Such-ID JavaScript Version basierend auf `j_jscript`. Verweist auf die Suchtabelle `javascript_version` | tinyint unsigniert |
+| **`language`** | Eine numerisch-ID, die die Sprache des Besucher darstellt. Verweist auf die Suchtabelle `languages.tsv`. | smallint unsigniert |
 | **`last_hit_time_gmt`** | Zeitstempel (in UNIX®-Zeit) des vorherigen Treffers. Wird zur Berechnung der Dimension [[!UICONTROL Tage seit dem letzten Besuch]](/help/components/dimensions/days-since-last-visit.md) verwendet. | int |
 | **`last_purchase_num`** | Die Dimension [Kundentreue](/help/components/dimensions/customer-loyalty.md) . Die Anzahl der vorherigen Käufe des Besuchers. <br>0: Keine vorherigen Käufe (kein Kunde) <br>1: 1 vorheriger Kauf (neuer Kunde) <br>2: 2 vorherige Käufe (Bestandskunde) <br>3: 3 oder mehr vorherige Käufe (treuer Kunde) | int unsigniert |
 | **`last_purchase_time_gmt`** | Wird in der Dimension [[!UICONTROL Tage seit dem letzten Kauf]](/help/components/dimensions/days-since-last-purchase.md) verwendet. Zeitstempel (in UNIX®-Zeit) des letzten Kaufs. Bei Erstkäufen und Besuchern, die zuvor noch nichts gekauft haben, ist dieser Wert `0`. | int |
@@ -150,8 +150,8 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`page_event`** | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink). Siehe [Seitenereignissuche](datafeeds-page-event.md). | tinyint unsigniert |
 | **`page_event_var1`** | Wird nur in Linktracking-Bildanforderungen verwendet. Die URL des angeklickten Downloadlinks, Exitlinks oder benutzerspezifischen Links. | text |
 | **`page_event_var2`** | Wird nur in Linktracking-Bildanforderungen verwendet. Der benutzerdefinierte Name des Links (sofern angegeben). Legt den [benutzerspezifischen Link](/help/components/dimensions/custom-link.md), den [Downloadlink](/help/components/dimensions/download-link.md) oder den [Exitlink](/help/components/dimensions/exit-link.md) je nach Wert in `page_event` fest. | varchar(100) |
-| **`page_type`** | Die [Dimension &quot;Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) &quot;, die in der Regel für 404-Seiten verwendet wird. | char(20) |
-| **`page_url`** | Die URL des Treffers. Beachten Sie, dass `post_page_url` für Link-Tracking-Bildanforderungen ([`tl()`](/help/implement/vars/functions/tl-method.md)) entfernt wird und den Datentyp varchar(255) verwendet. | Text |
+| **`page_type`** | Die [Seiten nicht gefunden](/help/components/dimensions/pages-not-found.md) Dimension, die normalerweise für 404-Seiten verwendet wird. | char(20) |
+| **`page_url`** | Die URL des Treffers. Beachten Sie, dass `post_page_url` es für Linktracking Bildanforderungen ([`tl()`](/help/implement/vars/functions/tl-method.md)) entfernt wird und den Datentyp varchar(255) verwendet. | Text |
 | **`pagename`** | Die Dimension [Seite](/help/components/dimensions/page.md) . Wenn die Variable [`pagename`](/help/implement/vars/page-vars/pagename.md) leer ist, verwendet Analytics stattdessen `page_url`. | varchar(100) |
 | **`pagename_no_url`** | Ähnlich wie `pagename`, allerdings ohne Fallback auf `page_url`. Nur die Spalte `post` ist verfügbar. | varchar(100) |
 | **`paid_search`** | Eine Markierung, die bestimmt, ob der Treffer mit der gebührenpflichtigen Sucherkennung übereinstimmt. | tinyint unsigniert |
@@ -159,14 +159,14 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`pointofinterest`** | Name des Mobile Services-Zielpunkts | varchar(255) |
 | **`pointofinterestdistance`** | Entfernung der Mobile Services zur Zielpunktmitte | varchar(255) |
 | **`post_`**-Spalten | Enthält den in diesen Berichten ultimativ verwendeten Wert. Jede Post-Spalte wird nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln gefüllt. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. | Vgl. entsprechende non-post-Spalte |
-| **`product_list`** | Die [`products`](/help/implement/vars/page-vars/products.md) Variable page. Hilft beim Ausfüllen mehrerer Dimensionen und Metriken, darunter [Kategorie](/help/components/dimensions/category.md), [Produkt](/help/components/dimensions/product.md), [Einheiten](/help/components/metrics/units.md) und [Umsatz](/help/components/metrics/revenue.md). | text |
+| **`product_list`** | Die [`products`](/help/implement/vars/page-vars/products.md) -Seitenvariable. Hilft beim Ausfüllen verschiedener Dimensionen und Metriken, einschließlich [Kategorie](/help/components/dimensions/category.md), [Produkt](/help/components/dimensions/product.md), [Einheiten](/help/components/metrics/units.md) und [Umsatz](/help/components/metrics/revenue.md). | text |
 | **`prop1`** – `prop75` | Benutzerdefinierte Traffic-Variablen 1 bis 75. Wird in den Dimensionen [Prop](/help/components/dimensions/prop.md) verwendet. | varchar(100) |
 | **`purchaseid`** | Eindeutige Kennung für einen Kauf, so wie durch das Festlegen der Variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) bestimmt. Von der Spalte `duplicate_purchase` verwendet. | char(20) |
 | **`quarterly_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer Quartals-Besucher ist. | tinyint unsigniert |
 | **`ref_domain`** | Die Dimension [Referrer-Domäne](/help/components/dimensions/referring-domain.md) . Basiert auf der Spalte `referrer` . | varchar(100) |
 | **`ref_type`** | Eine numerische ID, die den Typ des Verweises für den Treffer darstellt. In der Dimension [Referrer-Typ](/help/components/dimensions/referrer-type.md) verwendet. <br>1: Auf Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/mit Lesezeichen versehen (kein Referrer) <br>7: E-Mail <br>8: Kein JavaScript <br>9: Soziale Netzwerke | tinyint unsigniert |
 | **`referrer`** | Die Dimension [Referrer](/help/components/dimensions/referrer.md) . Beachten Sie, dass während `referrer` einen Datentyp von varchar(255) verwendet, `post_referrer` einen Datentyp von varchar(244) verwendet. | varchar(255) |
-| **`resolution`** | Eine numerische ID, die die Auflösung des Monitors darstellt. In der Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md) verwendet. Verwendet die Suchtabelle `resolution.tsv`. | smallint unsigniert |
+| **`resolution`** | Eine numerische ID, die die Auflösung des Bildschirms darstellt. In der Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md) verwendet. Verwendet die Suchtabelle `resolution.tsv`. | smallint unsigniert |
 | **`s_kwcid`** | Die Keyword-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
 | **`s_resolution`** | Rohwert der Bildschirmauflösung. Erfasst mit der JavaScript-Funktion `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Eine numerische ID für die Suchmaschine, die den Besucher auf Ihre Site verwiesen hat. Wird in den Dimensionen [Suchmaschine](/help/components/dimensions/search-engine.md) verwendet. Verweist auf die Suchtabelle `search_engines.tsv`. | smallint unsigniert |
@@ -190,69 +190,69 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`va_closer_id`** | Eine numerische ID, die die Dimension [Letztkontakt-Kanal](/help/components/dimensions/last-touch-channel.md) angibt. Die Suche nach dieser ID finden Sie im Marketingkanal-Manager. | tinyint unsigniert |
 | **`va_finder_detail`** | Die Dimension [Erstkontaktdetail](/help/components/dimensions/first-touch-detail.md) . | varchar(255) |
 | **`va_finder_id`** | Eine numerische ID, die die Dimension [Erstkontaktkanal](/help/components/dimensions/first-touch-channel.md) angibt. Die Suche nach dieser ID finden Sie im Marketingkanal-Manager. | tinyint unsigniert |
-| **`va_instance_event`** | Ein Flag, das Marketingkanalinstanzen [](/help/components/metrics/instances.md)identifiziert. | tinyint unsigniert |
-| **`va_new_engagement`** | Ein Flag, das neue](/help/components/metrics/new-engagements.md) Interaktionen mit Marketingkanälen [identifiziert. | tinyint unsigniert |
-| **`video`** | Videoinhalt | varchar(255) |
-| **`videoad`** | Name der Videoanzeige | varchar(255) |
-| **`videoadinpod`** | Videoanzeigenposition innerhalb der Werbeunterbrechung | varchar(255) |
-| **`videoadlength`** | Länge der Videoanzeige | Ganzzahl |
-| **`videoadload`** | Ladeaufforderungen der Videoanzeige | varchar(255) |
-| **`videoadname`** | Name der Videoanzeige | varchar(255) |
-| **`videoadplayername`** | Name des Videoanzeigen-Players | varchar(255) |
-| **`videoadpod`** | Videoanzeigen-Pod | varchar(255) |
-| **`videoadvertiser`** | Video-Advertiser | varchar(255) |
-| **`videoaudioalbum`** | Video-Audio-Album | varchar(255) |
-| **`videoaudioartist`** | Video-Audio-Interpret | varchar(255) |
-| **`videoaudioauthor`** | Video-Audio-Autor | varchar(255) |
-| **`videoaudiolabel`** | Video-Audio-Beschriftung | varchar(255) |
-| **`videoaudiopublisher`** | Video-Audio-Publisher | varchar(255) |
-| **`videoaudiostation`** | Video-Audio-Station | varchar(255) |
-| **`videocampaign`** | Videokampagne | varchar(255) |
-| **`videochannel`** | Video-Kanal | varchar(255) |
-| **`videochapter`** | Video-Kapitelname | varchar(255) |
-| **`videocontenttype`** | Video-Content-Typ Ist für alle Videoansichten automatisch auf „Video“ gesetzt | varchar(255) |
-| **`videodaypart`** | Videotagesabschnitt | varchar(255) |
-| **`videoepisode`** | Videoepisode | varchar(255) |
-| **`videofeedtype`** | Video-Feed-Typ | varchar(255) |
-| **`videogenre`** | Video-Genre | text |
-| **`videolength`** | Videolänge | Ganzzahl |
-| **`videomvpd`** | Video-MVPD | varchar(255) |
-| **`videoname`** | Videoname | varchar(255) |
-| **`videonetwork`** | Videonetzwerk | varchar(255) |
-| **`videopath`** | Videopfad | varchar(100) |
-| **`videoplayername`** | Name des Videoplayers | varchar(255) |
-| **`videotime`** | Videodauer | Ganzzahl |
-| **`videoqoebitrateaverageevar`** | Videoqualität – Durchschnittliche Bitrate | varchar(255) |
-| **`videoqoebitratechangecountevar`** | Videoqualität – Anzahl Änderungen | varchar(255) |
-| **`videoqoebuffercountevar`** | Videoqualität – Anzahl Puffer | varchar(255) |
-| **`videoqoebuffertimeevar`** | Videoqualitätspufferzeit | varchar(255) |
-| **`videoqoedroppedframecountevar`** | Videoqualität – Anzahl Einzelbildverluste | varchar(255) |
-| **`videoqoeerrorcountevar`** | Videoqualität – Anzahl Fehler | varchar(255) |
-| **`videoqoeextneralerrors`** | Externe Fehler in Videoqualität | text |
-| **`videoqoeplayersdkerrors`** | SDK-Fehler in Videoqualität | text |
-| **`videoqoetimetostartevar`** | Videoqualität – Startzeitpunkt | varchar(255) |
-| **`videoseason`** | Videostaffel | varchar(255) |
-| **`videosegment`** | Videosegment | varchar(255) |
-| **`videoshow`** | Videosendung | varchar(255) |
-| **`videoshowtype`** | Typ der Videosendung | varchar(255) |
-| **`videostreamtype`** | Typ des Videostreams | varchar(255) |
+| **`va_instance_event`** | Eine Markierung, die den Marketingkanal [Instanzen](/help/components/metrics/instances.md) angibt. | tinyint unsigniert |
+| **`va_new_engagement`** | Eine Markierung, die den Marketingkanal [Neue Interaktionen](/help/components/metrics/new-engagements.md) angibt. | tinyint unsigniert |
+| **`video`** | Die Dimension [Inhalt](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
+| **`videoad`** | Die Dimension [Anzeige](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videoadinpod`** | Die Dimension [Anzeige an Werbeposition ](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videoadlength`** | Die Dimension [Anzeigenlänge (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Medien . | Ganzzahl |
+| **`videoadload`** | Die Dimension [Anzeige lädt](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videoadname`** | Die Dimension [Anzeigenname (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videoadplayername`** | Die Dimension [Name des Anzeigenplayers](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videoadpod`** | Die Dimension [Anzeigen-Pod](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videoadvertiser`** | Der Werbetreibende,](/help/components/dimensions/sm-ads.md) der [Dimension für das Streaming von Medien. | varchar(255) |
+| **`videoaudioalbum`** | Das [Album](/help/components/dimensions/sm-audio-metadata.md) Streaming Media Dimension. | varchar(255) |
+| **`videoaudioartist`** | Die Dimension [Künstler](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videoaudioauthor`** | Die Dimension [Autor](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videoaudiolabel`** | Die Dimension [Titel](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videoaudiopublisher`** | Die Dimension [Publisher](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videoaudiostation`** | Die Dimension [Station](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videocampaign`** | Die Dimension [Kampagnen-ID](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
+| **`videochannel`** | Die Dimension [Inhaltskanal](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
+| **`videochapter`** | Die Dimension [Kapitel](/help/components/dimensions/sm-chapters.md) Streaming-Medien . | varchar(255) |
+| **`videocontenttype`** | Der [Content-Typ](/help/components/dimensions/sm-core.md) &quot;Streaming Media&quot; Dimension. | varchar(255) |
+| **`videodaypart`** | Der [Tag Teil](/help/components/dimensions/sm-video-metadata.md) Streaming Media Dimension. | varchar(255) |
+| **`videoepisode`** | Die Dimension [Folge](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videofeedtype`** | Die Dimension [Medien-Feed-Typ](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videogenre`** | Das [Genre](/help/components/dimensions/sm-video-metadata.md) Streaming Media Dimension. Bei dieser Dimension sind mehrere Werte im selben Treffer, durch ein Komma getrennt, zulässig. | Text |
+| **`videolength`** | Die Dimension [Inhaltslänge (Variable)](/help/components/dimensions/sm-core.md) Streaming-Medien . | Ganzzahl |
+| **`videomvpd`** | Die Dimension [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videoname`** | Die Dimension [Inhaltsname (Variable)](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
+| **`videonetwork`** | Die Dimension [Netzwerk](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
+| **`videopath`** | Die Dimension [Medienpfad](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(100) |
+| **`videoplayername`** | Die Dimension [Name des Inhaltsplayers](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
+| **`videotime`** | Die Metrik [Besuchszeit für Inhalt](/help/components/metrics/sm-core.md) Streaming-Medien . | Ganzzahl |
+| **`videoqoebitrateaverageevar`** | Die Dimension [Durchschnittliche Bitrate](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
+| **`videoqoebitratechangecountevar`** | Die Dimension [Bitrate ändert](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
+| **`videoqoebuffercountevar`** | Die Dimension [Pufferereignisse](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
+| **`videoqoebuffertimeevar`** | Die Dimension [Gesamtpufferdauer ](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
+| **`videoqoedroppedframecountevar`** | Die Dimension [Dropped frames](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
+| **`videoqoeerrorcountevar`** | Die Dimension [Fehler](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
+| **`videoqoeextneralerrors`** | Die Dimension [Externe Fehler-IDs](/help/components/dimensions/sm-quality.md) Streaming-Medien . Diese Dimension ermöglicht mehrere Werte im selben Treffer. | Text |
+| **`videoqoeplayersdkerrors`** | Die [Player SDK Fehler-IDs](/help/components/dimensions/sm-quality.md) Streaming Media Dimension. Auf dieser Dimension sind mehrere Werte in derselben Treffer zulässig. | Text |
+| **`videoqoetimetostartevar`** | Die [Zeit zu Beginn](/help/components/dimensions/sm-quality.md) Dimension für Streamingmedien. | varchar(255) |
+| **`videoseason`** | Die [Saison](/help/components/dimensions/sm-video-metadata.md) Streaming-Media-Dimension. | varchar(255) |
+| **`videosegment`** | Die Dimension [Inhaltssegment](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
+| **`videoshow`** | Die Dimension [Streaming-Medien anzeigen](/help/components/dimensions/sm-video-metadata.md) . | varchar(255) |
+| **`videoshowtype`** | Die Dimension [Show type](/help/components/dimensions/sm-video-metadata.md) Streaming Media . | varchar(255) |
+| **`videostreamtype`** | Die Dimension [Streamtyp](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
 | **`visid_high`** | Wird mit `visid_low` zur eindeutigen Identifizierung von Besuchenden verwendet. | bigint unsigned |
 | **`visid_low`** | Wird mit `visid_high` zur eindeutigen Identifizierung von Besuchenden verwendet. | bigint unsigned |
 | **`visid_new`** | Eine Markierung, die bestimmt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
 | **`visid_timestamp`** | Wenn eine Besucher-ID neu generiert wird, stellt den Zeitstempel in UNIX®-Zeit von bereit, zu der die Besucher-ID generiert wurde. | int |
 | **`visid_type`** | Nicht zur externen Verwendung; intern von Adobe für Verarbeitungsoptimierungen verwendet. Eine numerische ID, die die Methode darstellt, mit der der Besucher identifiziert wird.<br>`0`: Benutzerspezifische Besucher-ID oder unbekannt/nicht anwendbar<br>`1`: IP- und Benutzeragenten-Fallback<br>`2`: HTTP-Kopfzeile mobiler Teilnehmer <br>`3`: Alter Cookie-Wert (`s_vi`) <br>`4`: Fallback-Cookie-Wert (`s_fid`) <br>`5`: Identity Service | tinyint unsigniert |
 | **`visit_keywords`** | Die Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md) . Diese Spalte verwendet eine nicht standardmäßige Zeichenbeschränkung von varchar(244), um der von Adobe verwendeten Backend-Logik Rechnung zu tragen. | varchar(244) |
-| **`visit_num`** | Die Dimension [Besuchsnummer](/help/components/dimensions/visit-number.md) . Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
-| **`visit_page_num`** | Die Dimension [Treffertiefe](/help/components/dimensions/hit-depth.md) . Erhöht sich um 1 für jeden Treffer, den der Besucher generiert. Setzt jeden Besuch zurück. | int unsigniert |
+| **`visit_num`** | Die [Besuchsnummer](/help/components/dimensions/visit-number.md) Dimension. Beginnt bei 1 und erhöht sich bei jedem neuen Besuch eines Besuchers. | int unsigniert |
+| **`visit_page_num`** | Die [Treffertiefe](/help/components/dimensions/hit-depth.md) Dimension. Wird für jedes Treffer, das der Besucher generiert, um 1 erhöht. Setzt jeden Besuch zurück. | int unsigniert |
 | **`visit_ref_domain`** | Basierend auf der Spalte `visit_referrer`. Die allererste verweisende Domain des Besuchs. | varchar(100) |
-| **`visit_ref_type`** | Eine numerische ID, die den Typ der verweisenden Stelle der ersten verweisenden Stelle des Besuchs darstellt. Verweist auf die Suchtabelle `referrer_type.tsv` | tinyint unsigniert |
+| **`visit_ref_type`** | Eine numerisch-ID, die den Werber Typ der ersten Werber der Visit darstellt. Verweist auf die Suchtabelle `referrer_type.tsv` | tinyint unsigniert |
 | **`visit_referrer`** | Die erste verweisende Stelle des Besuchs. | varchar(255) |
 | **`visit_search_engine`** | Eine numerische ID, die die erste Suchmaschine des Besuchs darstellt. Verweist auf die Suchtabelle `search_engines.tsv`. | smallint unsigniert |
 | **`visit_start_page_url`** | Die erste URL des Besuchs. | varchar(255) |
 | **`visit_start_pagename`** | Der Wert „Seitenname“ im ersten Treffer des Besuchs. | varchar(100) |
 | **`visit_start_time_gmt`** | Zeitstempel (in UNIX®-Zeit) des ersten Treffers des Besuchs. | int |
 | **`weekly_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer wöchentlicher Besucher ist. | tinyint unsigniert |
-| **`yearly_visitor`** | Ein Flag, das bestimmt, ob es sich bei dem Treffer um einen neuen jährlichen Besucher handelt. | tinyint unsigniert |
+| **`yearly_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer jährlicher Besucher ist. | tinyint unsigniert |
 | **`zip`** | Hilft beim Ausfüllen der Dimension [Postleitzahl](/help/components/dimensions/zip-code.md). Siehe auch `geo_zip`. | varchar(50) |
 
 {style="table-layout:auto"}
