@@ -5,9 +5,9 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
 source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Seitenvariablen {#page-vars}
-      + [Seitenvariablen-Übersicht](vars/page-vars/page-variables.md)
+      + [Übersicht zu Seitenvariablen](vars/page-vars/page-variables.md)
       + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
       + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
       + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
