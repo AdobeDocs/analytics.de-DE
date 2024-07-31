@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-Mail
 
@@ -141,12 +141,13 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
       |---------|----------|
       | [!UICONTROL **Empfangende**] | Es können E-Mail-Benachrichtigungen an bestimmte Benutzende gesendet werden, wenn der Bericht gesendet wird. Geben Sie eine einzelne E-Mail-Adresse oder eine durch Kommata getrennte Liste von E-Mail-Adressen an. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-|Feld | Funktion |
-|---------|----------|
-| [!UICONTROL **Name**] | Der Name des Speicherorts.  |
-| [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
-| [!UICONTROL **Speicherortkonto**] | Wählen Sie das Speicherortkonto aus, das Sie in [Konto hinzufügen](#add-an-account) erstellt haben. |
+   1. Wählen Sie [!UICONTROL **Position hinzufügen**] und geben Sie dann die folgenden Informationen an:
+
+      | Feld | Funktion |
+      |---------|----------|
+      | [!UICONTROL **Name**] | Der Name des Standorts. |
+      | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
+      | [!UICONTROL **Standortkonto**] | Wählen Sie das Standortkonto aus, das Sie in [Konto hinzufügen](#add-an-account) erstellt haben. |
 
    1. Geben Sie im Abschnitt [!UICONTROL **Speicherorteigenschaften**] spezifische Informationen zum Kontotyp Ihres Speicherortkontos an.
 
@@ -163,7 +164,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der Registerkarte [!UICONTROL **Berichtsoptionen**] fort. Weitere Informationen finden Sie unter [Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

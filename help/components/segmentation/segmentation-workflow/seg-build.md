@@ -3,7 +3,7 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 97%
@@ -54,6 +54,7 @@ Sie können Regeldefinitionen und Container hinzufügen, um Ihre Segmente zu def
    | Wiederholend | X | X | X | – | X | – |
    | Instanz | X | X | – | – | X | – |
    | Nicht wiederholende Instanz | X | – | – | – | X | – |
+
 1. **[!UICONTROL And/Or/Then]**: Weist die [!UICONTROL AND/OR/THEN]-Operatoren zwischen Containern oder Regeln zu. Mit dem Operator „THEN“ können Sie [sequenzielle Segmente definieren](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Metrik]** (Grüne Seitenleiste): Metrik, die aus der Liste „Metriken“ gezogen und abgelegt wurde.
 1. Operator **[!UICONTROL Vergleich]**: Sie können Werte mithilfe ausgewählter Operatoren vergleichen und beschränken.
