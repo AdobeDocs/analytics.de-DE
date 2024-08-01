@@ -5,9 +5,9 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -98,11 +98,11 @@ ht-degree: 94%
    + [Server](dimensions/server.md)
    + [Einzelseitenbesuche](dimensions/single-page-visits.md)
    + [Website-Bereich](dimensions/site-section.md)
-   + [Hauptdimensionen der Streaming-Medien](dimensions/sm-core.md)
-   + [Streaming von Medienanzeigen](dimensions/sm-ads.md)
-   + [Kapitel der Streaming-Medien](dimensions/sm-chapters.md)
-   + [Qualität der Streaming-Medien](dimensions/sm-quality.md)
-   + [Streaming von Medien-Audio-Metadaten](dimensions/sm-audio-metadata.md)
+   + [Dimensionen des Streaming-Medien-Core](dimensions/sm-core.md)
+   + [Streaming-Medienanzeigen](dimensions/sm-ads.md)
+   + [Streaming-Medienkapitel](dimensions/sm-chapters.md)
+   + [Streaming-Medienqualität](dimensions/sm-quality.md)
+   + [Streaming-Medien-Audio-Metadaten](dimensions/sm-audio-metadata.md)
    + [Streaming-Medien-Video-Metadaten](dimensions/sm-video-metadata.md)
    + [Zeit vor Ereignis](dimensions/time-prior-to-event.md)
    + [Besuchszeit pro Seite](dimensions/time-spent-on-page.md)
@@ -157,11 +157,11 @@ ht-degree: 94%
    + [Suchvorgänge](metrics/searches.md)
    + [Einzelzugriff](metrics/single-access.md)
    + [Einzelseitenbesuche](metrics/single-page-visits.md)
-   + [Kernmetriken von Streaming-Medien](metrics/sm-core.md)
-   + [Streaming von Medienanzeigen](metrics/sm-ads.md)
-   + [Kapitel der Streaming-Medien](metrics/sm-chapters.md)
-   + [Statusverfolgung des Streaming-Medien-Players](metrics/sm-player-state.md)
-   + [Qualität der Streaming-Medien](metrics/sm-quality.md)
+   + [Streaming-Medien-Core-Metriken](metrics/sm-core.md)
+   + [Streaming-Medienanzeigen](metrics/sm-ads.md)
+   + [Streaming-Medienkapitel](metrics/sm-chapters.md)
+   + [Streaming-Medien-Player-Status-Tracking](metrics/sm-player-state.md)
+   + [Streaming-Medienqualität](metrics/sm-quality.md)
    + [Streaming-Medien-Video-Metadaten](metrics/sm-video-metadata.md)
    + [Zeit pro Besuch](metrics/time-spent-per-visit.md)
    + [Besuchszeit pro Besucher](metrics/time-spent-per-visitor.md)
