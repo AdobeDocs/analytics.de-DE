@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
-workflow-type: ht
-source-wordcount: '5910'
-ht-degree: 100%
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+workflow-type: tm+mt
+source-wordcount: '5945'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Juli 2024** | |
+| Beim Verwalten von Standorten muss mindestens ein Kontotyp ausgewählt werden | Es wurde klargestellt, dass bei der Beschränkung der für den Export und Import verwendeten Kontotypen durch Administratoren [mindestens ein Kontotyp ausgewählt werden muss.](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users) |
 | Informationen zu schnell berechneten Metriken hinzugefügt | Die Informationen in [Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md) wurden aktualisiert, um den Unterschied zwischen [berechneten Metriken, die im Generator für berechnete Metriken erstellt werden](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects), und [Metriken, die in einem einzelnen Projekt als schnell berechnete Metriken erstellt werden](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project), zu klären. Darüber hinaus wurden weitere Details zum Erstellen schnell berechneter Metriken hinzugefügt.<p>Berechnete Metriken, die im Generator für berechnete Metriken erstellt werden, stehen in der Komponentenliste zur Verfügung und können in der gesamten Organisation auf Projekte angewendet werden. Demgegenüber sind berechnete Metriken, die als schnell berechnete Metriken erstellt werden, nur in dem Projekt verfügbar, in dem sie erstellt wurden.</p><p>Außerdem wurden Informationen in [Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) aktualisiert, um ähnliche Klarstellungen vorzunehmen.</p> |
 | threads.net zur Dimension „Referrer-Typ“ hinzugefügt | threads.net wurde zur Liste der sozialen Netzwerke hinzugefügt, die in der Dimension [„Referrer-Typ“](/help/components/dimensions/referrer-type.md) verwendet werden. |
 | Aktualisierte Dokumentation für die Verwaltung von Daten-Feeds | Die Informationen in [Verwalten von Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md) wurden aktualisiert, um die Klarheit zu verbessern. <p>Zu den Aktualisierungen gehören:</p><ul><li>Es wurden separate Abschnitte für verschiedene Aufgaben erstellt, damit die Informationen einfacher zu überfliegen und zu verstehen sind.</li><li>Es wurden Informationen zu Änderungen am Verhalten von reaktivierten Live-Feeds hinzugefügt. Diese Änderungen sind derzeit nur eingeschränkt verfügbar und stehen noch nicht allen Kundinnen und Kunden zur Verfügung.</li><li>Es wurden Informationen hinzugefügt, die besagen, dass Daten-Feeds den Status „aktiv“ aufweisen müssen, bevor sie gelöscht werden können.</li> |

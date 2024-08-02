@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Standorte-Manager
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ So beschränken Sie die Kontotypen, die Benutzern beim Erstellen und Verwenden v
 1. Suchen Sie den Abschnitt [!UICONTROL **Zulässige Kontotypen**] .
 
    Die folgenden Kontotypen sind standardmäßig für Benutzer verfügbar. Heben Sie die Auswahl dieser Kontotypen auf, die Sie die Verwendung von Benutzern beschränken möchten.
+
+   Es muss mindestens ein Kontotyp ausgewählt sein.
 
    * [!UICONTROL **Amazon S3-Rolle ARN**]
 
