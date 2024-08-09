@@ -3,10 +3,10 @@ title: Exportleitfaden für Analytics
 description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mithilfe von Daten-Feeds und Data Warehouse aus Adobe Analytics abgerufen werden können.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 69%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 In diesem Handbuch wird beschrieben, wie Sie Daten aus Adobe Analytics abrufen können. Zu diesem Service gehören:
 
-* **Daten-Feeds:** Hiermit erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein separater Treffer und jede Spalte ist eine Variable. Daten-Feeds werden normalerweise an FTP-Sites gesendet.
-* **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und von eindeutigen Werten zu ermöglichen.
-* **FTP und SFTP:** Best Practices für die Verwendung von FTP und SFTP mit Adobe
+* **Daten-Feeds:** Hiermit erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein separater Treffer und jede Spalte ist eine Variable. Daten-Feeds werden normalerweise an [Cloud-Ziele](/help/export/analytics-data-feed/create-feed.md) gesendet.
+* **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und eine beliebige Anzahl eindeutiger Werte zuzulassen. Data Warehouse-Anforderungen werden normalerweise an [Cloud-Ziele](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) gesendet
+* **FTP und SFTP:** FTP und SFTP werden unterstützt, jedoch nicht mehr empfohlen. Exportieren Sie stattdessen Daten in Cloud-Ziele.
 
 Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
