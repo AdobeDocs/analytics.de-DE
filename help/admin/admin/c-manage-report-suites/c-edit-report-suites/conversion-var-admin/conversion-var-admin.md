@@ -5,10 +5,10 @@ title: Konversionsvariablen (eVar)
 feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,7 @@ Die benutzerspezifische Insight-Konversionsvariable (oder eVar) wird auf ausgew�
 
 ## Konversionsvariablen (eVars) – Überblick
 
-Im Folgenden finden Sie eine Videoübersicht:
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+Eine Videoübersicht zu Konversionsvariablen finden Sie unter [Einführung in Konversionsvariablen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) im Analytics-Tutorials-Handbuch.
 
 Wenn eine eVar auf einen Wert für einen Besucher gesetzt wird, merkt Adobe sich automatisch diesen Wert, bis er abläuft. Jedes Erfolgsereignis, das beim Besucher während der eVar-Aktivität eintritt, wird für den eVar-Wert gezählt.
 

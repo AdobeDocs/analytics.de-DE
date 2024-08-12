@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
-workflow-type: ht
-source-wordcount: '5945'
-ht-degree: 100%
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+workflow-type: tm+mt
+source-wordcount: '5957'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Juli 2024** | |
+| Erfolgsereignisse | Die Dokumentation zu [Erfolgsereignissen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) wurde optimiert. Aktualisiert für Klarheit und Genauigkeit. |
 | Beim Verwalten von Speicherorten muss mindestens ein Kontotyp ausgewählt sein | Es wurde klargestellt, dass bei der [Beschränkung der für den Export und Import verwendeten Kontotypen](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users) durch Admins mindestens ein Kontotyp ausgewählt sein muss. |
 | Informationen zu schnell berechneten Metriken hinzugefügt | Die Informationen in [Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md) wurden aktualisiert, um den Unterschied zwischen [berechneten Metriken, die im Generator für berechnete Metriken erstellt werden](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects), und [Metriken, die in einem einzelnen Projekt als schnell berechnete Metriken erstellt werden](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project), zu klären. Darüber hinaus wurden weitere Details zum Erstellen schnell berechneter Metriken hinzugefügt.<p>Berechnete Metriken, die im Generator für berechnete Metriken erstellt werden, stehen in der Komponentenliste zur Verfügung und können in der gesamten Organisation auf Projekte angewendet werden. Demgegenüber sind berechnete Metriken, die als schnell berechnete Metriken erstellt werden, nur in dem Projekt verfügbar, in dem sie erstellt wurden.</p><p>Außerdem wurden Informationen in [Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) aktualisiert, um ähnliche Klarstellungen vorzunehmen.</p> |
 | threads.net zur Dimension „Referrer-Typ“ hinzugefügt | threads.net wurde zur Liste der sozialen Netzwerke hinzugefügt, die in der Dimension [„Referrer-Typ“](/help/components/dimensions/referrer-type.md) verwendet werden. |
