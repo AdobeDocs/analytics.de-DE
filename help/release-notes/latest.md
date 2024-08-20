@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | 22. Mai 2024 | Eine bevorstehende Version der Analytics-Trefferverarbeitungs-Engine, **deren Freigabe für Juli 2024 geplant ist**, wird damit beginnen, eine 13-monatige Gültigkeit für gespeicherte `cust_visids` durchzusetzen. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Derzeit gibt es keine Gültigkeit der Zuordnung eines `cust_visid` für einen `visid_high/visid_low`. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
+| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | Mittwoch, 20. August 2024 | Die Version vom **20. August 2024** der Analytics-Trefferverarbeitungs-Engine erzwingt einen 13-monatigen Ablauf der gespeicherten `cust_visids`. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Zuvor gab es keinen Ablauf der Zuordnung von `cust_visid` für eine `visid_high/visid_low`. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
 
 {style="table-layout:auto"}
 
