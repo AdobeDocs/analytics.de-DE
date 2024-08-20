@@ -4,34 +4,34 @@ description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (August 2024)
 
-**Letzte Aktualisierung**: Donnerstag, 14. August 2024
+**Letzte Aktualisierung**: 14. August 2024
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. August 2024 bis September 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. August 2024 bis September 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Web SDK-Verbesserungen für das Linktracking** | In der neuesten Version des Web SDK sind mehrere wichtige Verbesserungen bezüglich des Linktrackings verfügbar, wovon Activity Map direkt profitiert. Diese neuen Funktionen sind sowohl in der Web SDK-JavaScript-Bibliothek als auch in der Web SDK-Tag-Erweiterung verfügbar.<ul><li>Ereignisgruppierung: Wenn eine Besucherin oder ein Besucher auf einen internen Link klickt, können Sie sich dafür entscheiden, Ereignisdaten auf der nächsten Seite gruppieren, anstatt einen separaten Ereignisaufruf für das Linktracking auszulösen. Diese Verbesserung reduziert die Anzahl der Ereignisse, die das Web SDK im Rahmen Ihres vertraglichen Limits verwendet!.</li><li>Klickeigenschaften filtern: Ein neuer Rückruf, der `OnBeforeLinkClickSend` ersetzt. Sie können diesen Rückruf verwenden, um verknüpfungsbezogene Daten zu filtern oder zu verschleiern, bevor Sie sie an Adobe senden.</li></ul><p>Weitere Informationen finden Sie unter [clickCollection](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollection) im Web SDK-Benutzerhandbuch.</p> | Open Beta begann am 10. Juli 2024 | Freitag, 18. Juli 2024 |
+| **Web SDK-Verbesserungen für das Linktracking** | In der neuesten Version des Web SDK sind mehrere wichtige Verbesserungen bezüglich des Linktrackings verfügbar, wovon Activity Map direkt profitiert. Diese neuen Funktionen sind sowohl in der Web SDK-JavaScript-Bibliothek als auch in der Web SDK-Tag-Erweiterung verfügbar.<ul><li>Ereignisgruppierung: Wenn eine Besucherin oder ein Besucher auf einen internen Link klickt, können Sie sich dafür entscheiden, Ereignisdaten auf der nächsten Seite gruppieren, anstatt einen separaten Ereignisaufruf für das Linktracking auszulösen. Diese Verbesserung reduziert die Anzahl der Ereignisse, die das Web SDK im Rahmen Ihres vertraglichen Limits verwendet!.</li><li>Klickeigenschaften filtern: Ein neuer Rückruf, der `OnBeforeLinkClickSend` ersetzt. Sie können diesen Rückruf verwenden, um verknüpfungsbezogene Daten zu filtern oder zu verschleiern, bevor Sie sie an Adobe senden.</li></ul><p>Weitere Informationen finden Sie unter [clickCollection](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollection) im Web SDK-Benutzerhandbuch.</p> | Open Beta begann am 10. Juli 2024 | 18. Juli 2024 |
 
 {style="table-layout:auto"}
 
 ## Fehlerbehebungen in Adobe Analytics
 
 * Es wurde ein Problem behoben, bei dem mehrere unbekannte Werte in Workspace angezeigt wurden (AN-353632).
-* Es wurde ein Problem behoben, bei dem die Benachrichtigungs-E-Mail nach dem Hinzufügen neuer Kunden oder neuer Analytics-Produktprofile in der Admin Console nicht gesendet wurde. (AN-350930)
+* Es wurde ein Problem behoben, bei dem die Benachrichtigungs-E-Mail nach dem Hinzufügen neuer Kundinnen und Kunden oder neuer Analytics-Produktprofile in der Admin Console nicht gesendet wurde (AN-350930).
 
 ### Weitere behobene Fehler in Analytics
 
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN 353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-3 53819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-35 2656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354 402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-3537 58; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-35363 7; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-35435
+AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
@@ -60,4 +60,4 @@ Die neuesten Aktualisierungen zu AppMeasurement-Versionen (Version 2.26.0) finde
 * [Frühere Versionshinweise für 2024](/help/release-notes/2024.md)
 * [Versionshinweise zu Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=de)
 * [Versionshinweise zum Add-on für Streaming-Mediensammlungen](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=de)
-* Die neuesten Versions-Updates für [Adobe Experience Cloud-Produkte](https://business.adobe.com/products/adobe-experience-cloud-products.html)
+* Die neuesten Versions-Updates für [Adobe Experience Cloud-Produkte](https://business.adobe.com/de/products/adobe-experience-cloud-products.html)
