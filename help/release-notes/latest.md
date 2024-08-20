@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
+source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Aktuelle Adobe Analytics-Versionshinweise (August 2024)
 
-**Letzte Aktualisierung**: 14. August 2024
+**Letzte Aktualisierung**: Mittwoch, 20. August 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. August 2024 bis September 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
