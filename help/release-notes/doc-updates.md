@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
-workflow-type: ht
-source-wordcount: '5957'
-ht-degree: 100%
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+workflow-type: tm+mt
+source-wordcount: '5972'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **August 2024** | |
+| Warnhinweis-Manager | Die Dokumentation zum [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) wurde optimiert. Die Aktualisierungen verbessern die Klarheit und Genauigkeit. |
 | **Juli 2024** | |
 | Erfolgsereignisse | Die Dokumentation zu [Erfolgsereignissen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) wurde optimiert. Die Aktualisierungen verbessern die Klarheit und Genauigkeit. |
 | Beim Verwalten von Speicherorten muss mindestens ein Kontotyp ausgewählt sein | Es wurde klargestellt, dass bei der [Beschränkung der für den Export und Import verwendeten Kontotypen](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users) durch Admins mindestens ein Kontotyp ausgewählt sein muss. |
@@ -34,7 +36,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Aktualisierte allgemeine Fehlermeldungen | Es wurden kleinere Aktualisierungen an den [allgemeinen Fehlermeldungen](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) vorgenommen. |
 | **Juni 2024** | |
 | Aktualisierter Produktname, der sich auf die Funktion zum Streaming von Medien bezieht | Instanzen von „Media Analytics“ und „Streaming Media“ wurden durch den Namen „Add-on für Streaming-Mediensammlungen“ ersetzt, wenn auf die Reihe von Funktionen zum Streaming von Medien verwiesen wird, die Streaming-Mediendaten erfassen und in Analysis Workspace anzeigen. <p>Diese Aktualisierungen sind in der gesamten Dokumentation zu Adobe Analytics sowie in der [Dokumentation zum Add-on für Streaming-Mediensammlungen](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview) verfügbar.</p> |
-| Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) und [Überblicksinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Verbesserte Dokumentation zu intelligenten Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/components/c-alerts/alert-manager.md) und [Überblicksinformationen](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` wurde eingestellt | Nachdem AppMeasurement nun automatisch die richtige Domain erkennt, für die Cookies gesetzt werden sollen, wird die Variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) nicht mehr unterstützt. |
 | Dokumentation zum Deaktivieren von Data Connectors | Die Seite zum Ende der Nutzungsdauer von Data Connectors wurde in [Eingestellte Produkte](https://experienceleague.adobe.com/de/docs/discontinued/using/data-connectors) verschoben. |
 | **Mai 2024** | |

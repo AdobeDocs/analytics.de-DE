@@ -3,42 +3,93 @@ description: Warnhinweise verwalten.
 title: Warnhinweis-Manager - Übersicht
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 34%
+source-wordcount: '631'
+ht-degree: 5%
 
 ---
 
 # Warnhinweis-Manager
 
+Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
+
 Der Warnhinweis-Manager ähnelt sehr dem [Segment-Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de) und dem [Manager für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=de).
 
 ![](assets/alert-manager.png)
 
-## Zugriff auf den Warnhinweis-Manager
+## Erstellen von Warnhinweisen
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Warnhinweise**] aus.
+So erstellen Sie Warnhinweise vom Warnhinweis-Manager:
 
-## Verfügbare Aktionen im Warnhinweis-Manager
+1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
 
-Im Warnhinweis-Manager haben Sie folgende Möglichkeiten:
+   ![](assets/alert-manager.png)
 
-* Die Warnhinweiserstellung per Klick auf **[!UICONTROL + Hinzufügen]** öffnen.
-* Warnhinweise mit einem Tag versehen: Dadurch können Sie sie zur einfachen Anwendung organisieren.
-* Warnhinweise löschen.
-* Warnhinweise umbenennen.
-* Warnhinweise genehmigen.
-* Warnhinweise kopieren.
-* Warnhinweise aktivieren/deaktivieren.
-* Ein Ablaufdatum für den Warnhinweis **verlängern**: Wenn ein oder mehrere Warnhinweise ausgewählt sind, können diese durch Klicken auf **[!UICONTROL Verlängern]** verlängert werden. Dadurch werden die Ablaufdaten ab dem Tag, an dem auf **[!UICONTROL Verlängern]** geklickt wurde, unabhängig vom ursprünglichen Ablaufdatum um 1 Jahr verlängert.
-* Einen Warnhinweis als .CSV-Datei exportieren.
-* Warnhinweise durch Doppelklicken auf den Titel bearbeiten.
-* Nach Warnhinweisen suchen.
-* Warnhinweise zu anderen Report Suites hinzufügen.
-* Den Eigentümer eines Warnhinweises angeben oder ändern.
-* Andere Filter hinzufügen.
-* Ein **Ablaufdatum** für den Warnhinweis definieren.
+1. Wählen Sie [!UICONTROL **Hinzufügen**] (oder [!UICONTROL **Neuen Warnhinweis erstellen**] , wenn keine Warnhinweise vorhanden sind).
+
+1. Wählen Sie den Warnhinweistyp aus, der dem zu erstellenden Warnhinweis entspricht:
+
+   * [!UICONTROL **Analytics-Datenwarnung**]: Ein Warnhinweis, der Sie benachrichtigt, wenn in Ihren Daten anormale Ereignisse auftreten.
+
+     Wenn Sie diese Option auswählen, fahren Sie mit [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) fort, um weitere Informationen zum Erstellen von Warnhinweisen zu erhalten.
+
+   * [!UICONTROL **Warnung zur Nutzung von Server-Aufrufen**]: Ein Warnhinweis, der Sie über das Risiko oder das Auftreten einer Überschreitung der Daten zur Nutzung und Zusage Ihrer Server-Aufrufe informiert.
+
+     Wenn Sie diese Option auswählen, fahren Sie mit den [Warnhinweisen zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/scu-alerts.md) fort.
+
+     >[!NOTE]
+     >
+     >Sie müssen Analytics-Administrator oder Benutzer mit der Berechtigung zur Nutzung von Server-Aufrufen sein, um Zugriff auf die Nutzung von Server-Aufrufen zu erhalten.
+
+## Vorhandene Warnungen verwalten
+
+Sie können verschiedene Aktionen für vorhandene Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
+
+So verwalten Sie vorhandene Warnhinweise im Warnhinweis-Manager:
+
+1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+
+   ![](assets/alert-manager.png)
+
+1. Wählen Sie einen oder mehrere Warnhinweise aus, die Sie verwalten möchten.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. Wählen Sie in der Aktionsleiste eine der folgenden Optionen aus:
+
+   | Aktion | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Wenden Sie ein Tag auf einen Warnhinweis an. Auf diese Weise können Sie Warnhinweise zur einfachen Verwendung organisieren. |
+   | [!UICONTROL **Löschen**] | Löscht den Warnhinweis. |
+   | [!UICONTROL **Umbenennen**] | Benennt die Warnung um. |
+   | [!UICONTROL **Genehmigen**] | Markieren Sie den Warnhinweis als Genehmigt. |
+   | [!UICONTROL **Kopieren**] | Erstellt eine Kopie (Duplikat) des Warnhinweises. |
+   | [!UICONTROL **Deaktivieren**] | Deaktiviert eine Warnung, die derzeit aktiviert ist. |
+   | [!UICONTROL **Aktivieren**] | Aktiviert einen Warnhinweis, der derzeit deaktiviert ist. |
+   | [!UICONTROL **Verlängern**] | Verlängern Sie das Ablaufdatum des Warnhinweises. Dadurch wird das Ablaufdatum ab dem Tag, an dem Sie diese Option ausgewählt haben, auf 1 Jahr verlängert, unabhängig vom ursprünglichen Ablaufdatum. |
+   | [!UICONTROL **In CSV exportieren**] | Exportiert den Warnhinweis in eine .CSV-Datei. |
+
+## Warnhinweis bearbeiten
+
+So bearbeiten Sie einen vorhandenen Warnhinweis:
+
+1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+
+   ![](assets/alert-manager.png)
+
+1. Wählen Sie den Namen des Warnhinweises in der Spalte [!UICONTROL **Titel und Beschreibung**] aus.
+
+1. Bearbeiten Sie den Warnhinweis nach Bedarf.
+
+   Im Folgenden finden Sie einige Schritte, die Sie beim Bearbeiten eines Warnhinweises ausführen können:
+
+   * Warnhinweise zu anderen Report Suites hinzufügen
+   * Eigentümer ändern
+   * Filter aktualisieren
+   * Ablaufdatum aktualisieren
+
+1. Bearbeiten Sie den Warnhinweis und wählen Sie dann [!UICONTROL **Speichern**] aus.
 
 ## Spalten konfigurieren
 

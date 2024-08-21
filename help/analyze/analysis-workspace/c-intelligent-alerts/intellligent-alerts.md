@@ -4,10 +4,10 @@ title: Übersicht über intelligente Warnhinweise
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: a012aca08740428671f216793dbd12aa15f21448
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 Intelligente Warnhinweise (oder nur &quot;Warnhinweise&quot;) in Adobe Analytics ermöglichen es Ihnen, sofort benachrichtigt zu werden, wenn in Ihren Daten abnorme Ereignisse auftreten.
 
-Sie können Warnungen festlegen, die auf Anomalieschwellen, geänderten Prozentsätzen oder spezifischen Datenpunkten ausgelöst werden. Warnhinweise bieten granulare Steuerelemente, die mit der [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integriert werden und ausgelöst werden, wenn Sie sie am dringendsten benötigen.
+Sie können festlegen, dass Warnhinweise auf der Grundlage von Schwellenwerten für Anomalien, geänderten Prozentsätzen oder spezifischen Datenpunkten ausgelöst werden. Warnhinweise bieten granulare Steuerelemente, die mit der [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integriert werden und ausgelöst werden, wenn Sie sie am dringendsten benötigen.
 
 Mithilfe intelligenter Warnhinweise können Sie:
 
@@ -49,4 +49,4 @@ Informationen zum Erstellen von Warnhinweisen in Adobe Analytics finden Sie unte
 
 Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
 
-Weitere Informationen zum Verwalten vorhandener Warnhinweise in Adobe Analytics finden Sie unter [Warnhinweise verwalten](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Weitere Informationen zum Verwalten vorhandener Warnhinweise in Adobe Analytics finden Sie unter [Warnhinweise verwalten](/help/components/c-alerts/alert-manager.md).
