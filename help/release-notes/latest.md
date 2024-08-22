@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | Mittwoch, 20. August 2024 | Die Version vom **20. August 2024** der Analytics-Trefferverarbeitungs-Engine erzwingt einen 13-monatigen Ablauf der gespeicherten `cust_visids`. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Zuvor gab es keinen Ablauf der Zuordnung von `cust_visid` für eine `visid_high/visid_low`. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
+| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | 20. August 2024 | Die Version der Analytics-Trefferverarbeitungs-Engine vom **20. August 2024** setzt eine 13-monatige Gültigkeit für gespeicherte `cust_visids` durch. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Zuvor gab es keinen Ablauf der Zuordnung von `cust_visid` für eine `visid_high/visid_low`. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
 
 {style="table-layout:auto"}
 
