@@ -4,7 +4,7 @@ description: Beschreibt die einzelnen Felder in der CDA-Vorlage in Analysis Work
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # CDA Workspace-Vorlage
+
+{{available-existing-customers}}
 
 Adobe bietet eine Vorlage zum Anzeigen wichtiger geräteübergreifender Leistungsdaten.
 

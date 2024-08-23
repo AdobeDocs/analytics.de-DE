@@ -4,7 +4,7 @@ description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Da
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # Feldbasiertes Stitching
+
+{{available-existing-customers}}
 
 Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei dieser Methode wird eine Analytics-Variable verwendet, z. B. eine [Prop](/help/implement/vars/page-vars/prop.md) oder [eVar](/help/implement/vars/page-vars/evar.md), die eine Personenkennung enthält. Anhand dieser Variablen werden Geräte miteinander verknüpft. Adobe empfiehlt diese Stitching-Option für mehr Transparenz und Vorhersehbarkeit beim Besucher-Tracking.
 

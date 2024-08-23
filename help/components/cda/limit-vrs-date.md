@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Datumsbereich einer Virtual Report Suite 
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 41%
@@ -12,6 +12,8 @@ ht-degree: 41%
 ---
 
 # Beschränken einer Virtual Report Suite auf bestimmte Daten
+
+{{available-existing-customers}}
 
 Wenn wir das Zusammenfügen von Daten einschalten, beginnt dieses Zusammenfügen an einem bestimmten Datum. Angenommen, dieses Datum ist der 1. Juni. Die Virtual Report Suite der geräteübergreifenden Analyse enthält nicht zugeordnete Daten aus dem Zeitraum vor dem 1. Juni. Möglicherweise möchten Sie Daten aus der Virtual Report Suite vor dem 1. Juni ausblenden, damit sich Ihre Analyse nach dem Stitching auf Datumsbereiche konzentrieren kann.
 

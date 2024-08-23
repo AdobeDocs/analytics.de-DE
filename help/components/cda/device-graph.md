@@ -4,14 +4,17 @@ description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Da
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 60%
 
 ---
 
+
 # Gerätediagramm
+
+{{available-existing-customers}}
 
 Geräteübergreifende Analysen können das private Diagramm verwenden, um Daten miteinander zu verknüpfen. Das private Diagramm ist ein Repository mit Hash-Geräte-IDs, das für Ihr Unternehmen spezifisch ist. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
 
@@ -22,6 +25,7 @@ Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode i
 >[!WARNING]
 >
 >Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
+>
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
 * Ihr Unternehmen muss das private Diagramm [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html) verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de) im Benutzerhandbuch zum Identity Service.
