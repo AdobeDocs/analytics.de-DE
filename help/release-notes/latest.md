@@ -4,15 +4,15 @@ description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (August 2024)
 
-**Letzte Aktualisierung**: Mittwoch, 20. August 2024
+**Letzte Aktualisierung**: 20. August 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. August 2024 bis September 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | 20. August 2024 | Die Version der Analytics-Trefferverarbeitungs-Engine vom **20. August 2024** setzt eine 13-monatige Gültigkeit für gespeicherte `cust_visids` durch. Wenn „Besucherzuordnung aktivieren“ in der Report Suite aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Zuvor gab es keinen Ablauf der Zuordnung von `cust_visid` für eine `visid_high/visid_low`. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
+| **13-monatige Gültigkeit für gespeicherte`cust_visids`** | 20. August 2024 | Die Version der Analytics-Trefferverarbeitungs-Engine vom **20. August 2024** setzt eine 13-monatige Gültigkeit für gespeicherte `cust_visids` durch. Wenn in der Report Suite „Besucherzuordnung aktivieren“ aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Bisher war die Gültigkeit der Zuordnung eines `cust_visid` für einen `visid_high/visid_low` nicht eingeschränkt. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
 
 {style="table-layout:auto"}
 
