@@ -4,18 +4,18 @@ title: Best Practices für Beschriftungen
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 92%
+source-wordcount: '2830'
+ht-degree: 88%
 
 ---
 
 # Best Practices für Beschriftungen
 
->[!NOTE]
->
->Beachten Sie, dass die Beschriftung jedes Mal überprüft werden muss, wenn eine neue Report Suite erstellt wird oder in einer vorhandenen Report Suite eine neue Variable aktiviert wird. Sie müssen die Beschriftung möglicherweise auch dann überprüfen, wenn neue Lösungsintegrationen aktiviert werden, da sie neue Variablen zur Verfügung stellen können, für die eine Beschriftung erforderlich ist. Durch eine erneute Implementierung Ihrer Mobile Apps oder Websites kann sich die Art und Weise der Verwendung vorhandener Variablen ändern. Dadurch kann ebenfalls eine Aktualisierung der Beschriftungen erforderlich sein.
+Die Beschriftung muss jedes Mal überprüft werden, wenn eine neue Report Suite erstellt wird oder in einer vorhandenen Report Suite eine neue Variable aktiviert wird. Sie müssen die Beschriftung möglicherweise auch dann überprüfen, wenn neue Lösungsintegrationen aktiviert werden, da sie neue Variablen zur Verfügung stellen können, für die eine Beschriftung erforderlich ist. Durch eine erneute Implementierung Ihrer Mobile Apps oder Websites kann sich die Art und Weise der Verwendung vorhandener Variablen ändern. Dadurch kann ebenfalls eine Aktualisierung der Beschriftungen erforderlich sein.
+
+Die Beschriftungen I1, I2, S1 und S2 haben die gleiche Bedeutung wie die entsprechend benannten DULE-Beschriftungen in Adobe Experience Platform. Sie werden jedoch für sehr unterschiedliche Zwecke verwendet. Innerhalb von Adobe Analytics werden diese Beschriftungen verwendet, um Felder zu identifizieren, die infolge einer Privacy Service-Anfrage anonymisiert werden sollen. Innerhalb von Adobe Experience Platform werden sie für die Zugriffskontrolle, die Zustimmungsverwaltung und die Durchsetzung von Marketing-Beschränkungen für gekennzeichnete Felder verwendet. Adobe Experience Platform unterstützt viele zusätzliche Beschriftungen, die nicht von Adobe Analytics verwendet werden. Wenn Sie Analytics Data Connector verwenden, um Ihre Adobe Analytics-Daten in Adobe Experience Platform zu importieren, sollten Sie sicherstellen, dass alle I1-, I2-, S1- und S2-Beschriftungen, die Sie in Adobe Analytics angewendet haben, auch auf die Schemas in Adobe Experience Platform angewendet werden, die von den importierten Report Suites verwendet werden.
 
 ## Direkt vs. indirekt identifizierbare IDs {#direct-vs-indirect}
 
@@ -24,7 +24,7 @@ Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern h
 * **Direkt identifizierbare IDs (I1)**: benennen entweder die Person oder bieten eine direkte Methode, sie zu kontaktieren. Dies umfasst beispielsweise den Namen einer Person (selbst ein allgemeiner Name, wie z. B. Max Müller, den viele Menschen gemeinsam haben), E-Mail-Adressen, Telefonnummern usw. Auch eine Postanschrift ohne Name kann als direkt identifizierbar gelten, obwohl statt einer bestimmten Person ein übergeordneter Haushalt oder ein Unternehmen identifiziert wird.
 * **Indirekt identifizierbare IDs (I2)**: ermöglichen nicht die direkte Identifikation einer Person, sondern müssen mit anderen Informationen (ob in Ihrem Besitz oder nicht) kombiniert werden, um die Person zu bestimmen. Beispiele für indirekt identifizierbare IDs sind beispielsweise Kundentreuenummern oder im Unternehmens-CRM-System verwendete IDs, die für jeden Kunden oder jede Kundin eindeutig sind. Unter Datenschutz können die anonymen IDs, die in von Analytics verwendeten Tracking-Cookies gespeichert werden, als indirekt identifizierbar gelten, obwohl sie nur ein Gerät und keine Person identifizieren können. Auf einem gemeinsam genutzten Gerät können diese Cookies nicht zwischen den verschiedenen Nutzern des Systems unterscheiden. Das Cookie kann beispielsweise nicht dazu verwendet werden, einen Computer zu finden, der das Cookie enthält, jedoch kann eine Person, die auf den Computer zugreifen kann und das Cookie dort findet, das Analytics-Cookie auf den Computer zurückführen.
 
-  Auch eine IP-Adresse gilt als indirekt identifizierbar, da sie immer nur einem einzigen Gerät zugeordnet sein kann. Internetprovider können die IP-Adressen der meisten Benutzer jedoch ändern und tun dies regelmäßig. Deshalb können IP-Adressen mit der Zeit von mehreren Benutzern verwendet werden. Darüber hinaus kommt es nicht selten vor, dass mehrere Kunden eines Internetanbieters oder viele Mitarbeiter eines Unternehmens, die sich im selben Intranet befinden, eine externe IP-Adresse teilen. Deswegen unterstützt Adobe die Verwendung von IP-Adressen nicht als IDs für Datenschutzanfragen. Wenn für eine Löschanfrage eine von uns unterstützte ID verwendet wird, löschen wir auch die IP-Adressen, die mit dieser ID erfasst wurden. Sie müssen ermitteln, ob andere IDs in dieser Kategorie (I1 oder I2) existieren, die sich aber nicht für die Verwendung als eindeutige IDs für Datenschutzanfragen eignen.
+Auch eine IP-Adresse gilt als indirekt identifizierbar, da sie immer nur einem einzigen Gerät zugeordnet sein kann. Internetprovider können die IP-Adressen der meisten Benutzer jedoch ändern und tun dies regelmäßig. Deshalb können IP-Adressen mit der Zeit von mehreren Benutzern verwendet werden. Darüber hinaus kommt es nicht selten vor, dass mehrere Kunden eines Internetanbieters oder viele Mitarbeiter eines Unternehmens, die sich im selben Intranet befinden, eine externe IP-Adresse teilen. Deswegen unterstützt Adobe die Verwendung von IP-Adressen nicht als IDs für Datenschutzanfragen. Wenn für eine Löschanfrage eine von uns unterstützte ID verwendet wird, löschen wir auch die IP-Adressen, die mit dieser ID erfasst wurden. Sie müssen ermitteln, ob andere IDs in dieser Kategorie (I1 oder I2) existieren, die sich aber nicht für die Verwendung als eindeutige IDs für Datenschutzanfragen eignen.
 
 Selbst wenn Ihr Unternehmen innerhalb Ihrer Analytics-Daten viele verschiedene IDs erfasst, können Sie nur einen Teil dieser IDs für Datenschutzanfragen verwenden. Hierfür gibt es folgende mögliche Gründe:
 

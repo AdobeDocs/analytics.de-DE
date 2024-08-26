@@ -4,24 +4,26 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 97%
+source-wordcount: '3790'
+ht-degree: 91%
 
 ---
 
 # Datenschutzbezeichnungen für Analytics-Variablen
 
-## Grund für die Datenkennzeichnung {#why-label}
-
-Die Kundinnen und Kunden von Adobe müssen als Datenverantwortliche sicherstellen, dass geltende Datenschutzgesetze wie die DSGVO und CCPA eingehalten werden. Sie sollten sich daher mit ihrer eigenen Rechtsabteilung beraten, um zu bestimmen, wie ihre Daten im Einklang mit den Datenschutzgesetzen verarbeitet werden sollen. Adobe weiß, dass jede Kundin und jeder Kunde individuelle Datenschutzanforderungen hat. Deshalb ermöglicht Adobe es auch, die gewünschten Datenschutzeinstellungen für die Datenverarbeitung anzupassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
+Adobe-Kunden sind als Datenverantwortliche für die Einhaltung der geltenden Datenschutzgesetze wie der Datenschutz-Grundverordnung (DSGVO) und dem California Consumer Privacy Act (CCPA) zuständig. Sie sollten sich daher mit ihrer eigenen Rechtsabteilung beraten, um zu bestimmen, wie ihre Daten im Einklang mit den Datenschutzgesetzen verarbeitet werden sollen. Adobe weiß, dass jede Kundin und jeder Kunde individuelle Datenschutzanforderungen hat. Deshalb ermöglicht Adobe es auch, die gewünschten Datenschutzeinstellungen für die Datenverarbeitung anzupassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
 
 Adobe Analytics stellt Werkzeuge zur Verfügung, um Daten entsprechend ihrer Sensibilität und ihren vertraglichen Beschränkungen zu kennzeichnen. Kennzeichnungen sind ein wichtiger Schritt, um (1) die betroffenen Personen zu identifizieren, (2) zu bestimmen, welche Daten im Zuge der Auskunftspflicht zurückgegeben werden müssen, und (3) Datenfelder zu identifizieren, die im Rahmen einer Löschanfrage gelöscht werden müssen.
 
 Bevor Sie ermitteln, welche Beschriftungen den einzelnen Variablen und Feldern hinzugefügt werden müssen, sollten Sie zunächst die [Grundlagen zu den IDs](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) kennen, die Sie in Ihren Analytics-Daten erfassen, und entscheiden, welche hiervon Sie für Datenschutzanfragen verwenden wollen.
 
 Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftungen für Identitätsdaten, vertrauliche Daten und Data Governance.
+
+>[!NOTE]
+>
+>Die Beschriftungen I1, I2, S1 und S2 haben die gleiche Bedeutung wie die entsprechend benannten DULE-Beschriftungen in Adobe Experience Platform. Sie werden jedoch für sehr unterschiedliche Zwecke verwendet. Innerhalb von Adobe Analytics werden diese Beschriftungen verwendet, um Felder zu identifizieren, die infolge einer Privacy Service-Anfrage anonymisiert werden sollen. Innerhalb von Adobe Experience Platform werden sie für die Zugriffskontrolle, die Zustimmungsverwaltung und die Durchsetzung von Marketingbeschränkungen für die gekennzeichneten Felder verwendet. Adobe Experience Platform unterstützt viele zusätzliche Beschriftungen, die nicht von Adobe Analytics verwendet werden. Darüber hinaus werden Beschriftungen in Adobe Experience Platform auf Schemata angewendet. Wenn Sie Analytics Data Connector verwenden, um Ihre Adobe Analytics-Daten in Adobe Experience Platform zu importieren, müssen Sie sicherstellen, dass die entsprechenden DULE-Bezeichnungen in Adobe Experience Platform für die von den einzelnen Report Suites verwendeten Schemata konfiguriert sind. In Adobe Analytics zugewiesene Beschriftungen werden nicht automatisch auf diese Schemas in Adobe Experience Platform angewendet, da sie nur eine Teilmenge der DULE-Beschriftungen darstellen, die Sie ggf. anwenden müssen. Außerdem können verschiedene Report Suites ein Schema gemeinsam nutzen, Props und eVars jedoch unterschiedliche Bezeichnungen mit derselben Nummer zugewiesen haben und das Schema kann von Datensätzen aus anderen Datenquellen gemeinsam genutzt werden. Dies kann zu Verwirrung darüber führen, warum bestimmte Felder diese Bezeichnungen erhalten haben.
 
 ## Kennzeichnungen für Identitätsdaten {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 
 Über Data Governance-Kennzeichnungen können Benutzende Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen enthalten. Kundinnen und Kunden von Adobe werden so bei der Einhaltung von Verordnungen und Unternehmensrichtlinien unterstützt.
 
-### Datenschutz – Auskunftskennzeichnungen
+### Datenschutz – Auskunftskennzeichnungen {#access}
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 
 Obwohl nur wenige Variablen andere Kennzeichnungen erhalten werden, ist davon auszugehen, dass auf eine Vielzahl Ihrer Variablen Zugriffskennzeichnungen angewendet werden. Es obliegt jedoch Ihnen, nach Absprache mit Ihrer Rechtsabteilung zu entscheiden, welche der von Ihnen erfassten Daten für die betroffenen Personen freigegeben werden sollen.
 
-### Datenschutz-Löschkennzeichnungen
+### Datenschutz-Löschkennzeichnungen {#delete}
 
 Im Gegensatz zu anderen Beschriftungen schließen sich diese Löschbeschriftungen nicht gegenseitig aus. Sie können eine von ihnen, beide oder keine auswählen. Eine separate [!UICONTROL None]-Beschriftung ist nicht erforderlich, da [!UICONTROL None] einfach dadurch angezeigt wird, dass keine der Löschoptionen aktiviert wird.
 
@@ -74,7 +76,7 @@ Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der di
 
 {style="table-layout:auto"}
 
-### Datenschutz-Identitätskennzeichnungen
+### Datenschutz-Identitätskennzeichnungen {#identity}
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der di
 
 Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren.
 
-### Verwenden eines zuvor definierten Namespace
+### Verwenden eines zuvor definierten Namespace {#previously-defined}
 
 Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmeldeunternehmen eine ID-Beschriftung zugewiesen haben, können Sie einen dieser vorhandenen Namespaces auswählen. Sie sollten den Namespace wiederverwenden, wenn diese Variable denselben ID-Typ enthält wie andere Variablen, die bereits mit diesem Namespace beschriftet sind, und Sie beim Senden einer Anfrage alle Variablen durchsuchen wollen.
 
@@ -97,7 +99,7 @@ Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmel
 1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
 
-### Definieren eines neuen Namespace
+### Definieren eines neuen Namespace {#define}
 
 Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-Zeichenfolgen auf alphanumerische Zeichen sowie Unterstriche, Bindestriche und Leerzeichen zu beschränken. Alle Zeichen werden in Kleinschreibung konvertiert.
 
