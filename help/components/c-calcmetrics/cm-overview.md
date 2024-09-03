@@ -1,19 +1,19 @@
 ---
-description: Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
-keywords: Berechnete Metriken;Abgeleitete Metriken;Erweiterte berechnete Metriken
-title: Berechnete und erweiterte berechnete (abgeleitete) Metriken
+description: Berechnete und erweiterte berechnete Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
+keywords: Berechnete Metriken; erweiterte berechnete Metriken
+title: Berechnete und erweiterte berechnete Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 58%
+source-wordcount: '533'
+ht-degree: 53%
 
 ---
 
-# Berechnete und erweiterte berechnete (abgeleitete) Metriken
+# Berechnete und erweiterte berechnete Metriken
 
-Berechnete und erweiterte berechnete (oder abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
+Berechnete und erweiterte berechnete Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
 
 Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere Weise erstellen, verwalten und kuratieren. Damit können Marketingexperten, Produktmanager und Analytiker Fragen zu den Daten beantworten, ohne die [!DNL Analytics]-Implementierung ändern zu müssen. Dies sind die benutzerdefinierten Metriken, die in den einzelnen [!DNL Analytics]-Paketen verfügbar sind:
 
@@ -24,7 +24,7 @@ Mit unseren Tools für berechnete Metriken können Sie Metriken auf flexiblere W
 
 Im Folgenden finden Sie einen Vergleich berechneter Metriken mit erweiterten Funktionen für berechnete Metriken:
 
-| Generatoroptionen | Berechnete Metriken  | Erweiterte berechnete (abgeleitete) Metriken |
+| Generatoroptionen | Berechnete Metriken  | Erweiterte berechnete Metriken |
 |---|---|---|
 | [Formatarten (Dezimal, Zeit, Prozent, Währung)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Ja | Ja |
 | [Attributionsänderung (Standard, Linear, Teilnahme etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Ja | Ja |

@@ -3,9 +3,9 @@ description: Adobe bietet verschiedene berechnete Metriken, die Sie verwenden k�
 title: Standardmäßige berechnete Metriken
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 41%
 
 ---
@@ -21,8 +21,9 @@ Im Folgenden finden Sie eine Liste aller berechneten Metriken, die von Adobe ber
 >Zusätzlich zu den auf dieser Seite beschriebenen standardmäßigen berechneten Metriken können Sie auch zusätzliche berechnete Metriken zu einer Report Suite hinzufügen.
 >
 >Sie haben folgende Möglichkeiten:
+>
 > * Fügen Sie standardmäßige berechnete Metriken für das Streaming-Mediensammlungs-Add-on hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) beschrieben.
-> * Erstellen Sie benutzerdefinierte berechnete Metriken aus vorhandenen Metriken, wie unter [Berechnete und erweiterte berechnete (abgeleitete) Metriken](/help/components/c-calcmetrics/cm-overview.md) beschrieben.
+> * Erstellen Sie benutzerdefinierte berechnete Metriken aus vorhandenen Metriken, wie unter [Berechnete und erweiterte berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) beschrieben.
 
 
 | Name der berechneten Metrik | Funktion | Formel |

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 100%
    + [Häufig gestellte Fragen zur Handhabung älterer Segmente](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
-   + [Berechnete und erweiterte berechnete (abgeleitete) Metriken](c-calcmetrics/cm-overview.md)
+   + [Berechnete und erweiterte berechnete Metriken](c-calcmetrics/cm-overview.md)
    + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
       + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)

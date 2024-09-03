@@ -3,10 +3,10 @@ description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließ
 title: Grundlagen der Analytics-Oberfläche
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Die Registerkarte [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ih
    | Produktfunktion | Funktion | Weitere Informationen |
    |---------|----------|----------|
    | Segmente  | Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten Berichte zu erstellen. | [Analytics-Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-   | Berechnete Metriken  | Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.  Damit können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten die Daten abfragen, ohne die Adobe Analytics-Implementierung ändern zu müssen. | [Berechnete und erweiterte berechnete (abgeleitete) Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=de) |
+   | Berechnete Metriken  | Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.  Damit können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten die Daten abfragen, ohne die Adobe Analytics-Implementierung ändern zu müssen. | [Berechnete und erweiterte berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=de) |
    | Datumsbereiche | Analysis Workspace enthält eine Liste von Standarddatumsbereichen, die Benutzerinnen und Benutzer beim Erstellen von Analysen verwenden können. Darüber hinaus können Sie benutzerdefinierte Datumsbereiche erstellen und sie für Benutzerinnen und Benutzer in Analysis Workspace verfügbar machen. | [Erstellen von benutzerdefinierten Datumsbereichen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtual Report Suites | Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann. | [Virtual Report Suites – Übersicht](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) |
    | Warnhinweise | Intelligente Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem. | [Intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
@@ -120,7 +120,7 @@ Die Registerkarte „Admin“ enthält Funktionen und Konfigurationsoptionen fü
    | Web-Services | Die Web-Services-APIs bieten programmgesteuerten Zugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die über die Analytics-Schnittstelle verfügbaren Funktionen duplizieren und erweitern können. | [Web-Services](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
    | Report Builder-Berichte | Verwalten von Lizenzen, die Report Builder-Benutzern zugewiesen wurden. | [Report Builder-Berichte](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html) |
    | Single-Sign-On-Service | Single Sign-On ist in Adobe Experience Cloud über die Admin Console implementiert. | [Analytics in der Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) |
-   | Ausblenden von Report Suites | Ermöglicht das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics, wenn Sie nicht mehr möchten, dass eine Report Suite für Sie und Ihre Benutzerinnen und Benutzer verfügbar ist. | [Ausblenden von Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |  |
+   | Ausblenden von Report Suites | Ermöglicht das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics, wenn Sie nicht mehr möchten, dass eine Report Suite für Sie und Ihre Benutzerinnen und Benutzer verfügbar ist. | [Ausblenden von Report Suites](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |
 
    {style="table-layout:auto"}
 
