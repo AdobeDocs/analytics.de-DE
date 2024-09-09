@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 85%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (August 2024)
 
-**Letzte Aktualisierung**: 20. August 2024
+**Letzte Aktualisierung**: Dienstag, 9. September 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. August 2024 bis September 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,6 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14.�
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Zusätzliche Informationen in der Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager** | Die Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager enthält die folgenden neuen Berichtsbereiche:<ul><li>**Report Builder:** Zeigt die Anzahl der berechneten Metriken oder Segmente an, die im Report Builder verwendet werden.</li><li>**Ad-hoc-Komponenten:** Zeigt die Anzahl der berechneten Ad-hoc-Metriken oder Ad-hoc-Segmente an, die in Projekten verwendet werden. Diese errechneten Ad-hoc-Metriken und Segmente (auch als &quot;schnell berechnete Metriken&quot;und &quot;Schnellsegmente&quot;bezeichnet) können nur in dem Projekt verwendet werden, in dem sie erstellt wurden. Daher werden sie getrennt vom Berichtsbereich &quot;Projekt&quot;in der Spalte &quot;Verwendet in&quot;gemeldet.</li></ul><p>(Nachfolgende Links der Dokumentation wurden aktualisiert.)</p> | -/- | Donnerstag, 11. September 2024 |
 | **Web SDK-Verbesserungen für das Linktracking** | In der neuesten Version des Web SDK sind mehrere wichtige Verbesserungen bezüglich des Linktrackings verfügbar, wovon Activity Map direkt profitiert. Diese neuen Funktionen sind sowohl in der Web SDK-JavaScript-Bibliothek als auch in der Web SDK-Tag-Erweiterung verfügbar.<ul><li>Ereignisgruppierung: Wenn eine Besucherin oder ein Besucher auf einen internen Link klickt, können Sie sich dafür entscheiden, Ereignisdaten auf der nächsten Seite gruppieren, anstatt einen separaten Ereignisaufruf für das Linktracking auszulösen. Diese Verbesserung reduziert die Anzahl der Ereignisse, die das Web SDK im Rahmen Ihres vertraglichen Limits verwendet!.</li><li>Klickeigenschaften filtern: Ein neuer Rückruf, der `OnBeforeLinkClickSend` ersetzt. Sie können diesen Rückruf verwenden, um verknüpfungsbezogene Daten zu filtern oder zu verschleiern, bevor Sie sie an Adobe senden.</li></ul><p>Weitere Informationen finden Sie unter [clickCollection](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollection) im Web SDK-Benutzerhandbuch.</p> | Open Beta begann am 10. Juli 2024 | 18. Juli 2024 |
 
 {style="table-layout:auto"}
