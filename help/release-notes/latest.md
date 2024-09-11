@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 57%
+source-wordcount: '750'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 11. 
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 |--- | --- | --- | --- |
-| **Zusätzliche Informationen in der Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager** | Die Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager enthält die folgenden neuen Berichtsbereiche:<ul><li>**Report Builder**: Zeigt die Anzahl der berechneten Metriken oder Segmente an, die im Report Builder verwendet werden.</li><li>**Ad-hoc-Komponenten**: Zeigt die Anzahl der berechneten Ad-hoc-Metriken oder Ad-hoc-Segmente an, die in Projekten verwendet werden. Diese errechneten Ad-hoc-Metriken und Segmente (auch als &quot;schnell berechnete Metriken&quot;und &quot;Schnellsegmente&quot;bezeichnet) können nur in dem Projekt verwendet werden, in dem sie erstellt wurden. Daher werden sie getrennt vom Berichtsbereich &quot;Projekt&quot;in der Spalte &quot;Verwendet in&quot;gemeldet.</li></ul> |  | 11. September 2024 |
+| **Zusätzliche Informationen in der Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager** | Die Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager enthält die folgenden neuen Berichtsbereiche:<ul><li>**Report Builder**: Zeigt die Anzahl der berechneten Metriken oder Segmente an, die im Report Builder verwendet werden.</li><li>**Ad-hoc-Komponenten**: Zeigt die Anzahl der berechneten Ad-hoc-Metriken oder Ad-hoc-Segmente an, die in Projekten verwendet werden. Diese errechneten Ad-hoc-Metriken und Segmente (auch als &quot;schnell berechnete Metriken&quot;und &quot;Schnellsegmente&quot;bezeichnet) können nur in dem Projekt verwendet werden, in dem sie erstellt wurden. Daher werden sie getrennt vom Berichtsbereich &quot;Projekt&quot;in der Spalte &quot;Verwendet in&quot;gemeldet.</li></ul>Weitere Informationen finden Sie unter [Manager für berechnete Metriken](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) und [Segment-Manager](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11. September 2024 |
 | **Activity Map v3-Erweiterung** | Die Activity Map v3-Erweiterung ist jetzt verfügbar. Wenn Sie die v2-Erweiterung installiert haben, deinstallieren Sie sie, bevor Sie die v3-Erweiterung installieren. Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** , um die neueste Version der Erweiterung zu erhalten. |  | 3. September 2024 |
 
 
