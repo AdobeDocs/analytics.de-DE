@@ -3,42 +3,53 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 85%
+source-wordcount: '738'
+ht-degree: 57%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (August 2024)
+# Aktuelle Adobe Analytics-Versionshinweise (September 2024)
 
-**Letzte Aktualisierung**: Dienstag, 9. September 2024
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 14. August 2024 bis September 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+**Letzte Aktualisierung**: Donnerstag, 11. September 2024
+
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 11. September 2024 bis Anfang Oktober. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **Zusätzliche Informationen in der Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager** | Die Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager enthält die folgenden neuen Berichtsbereiche:<ul><li>**Report Builder:** Zeigt die Anzahl der berechneten Metriken oder Segmente an, die im Report Builder verwendet werden.</li><li>**Ad-hoc-Komponenten:** Zeigt die Anzahl der berechneten Ad-hoc-Metriken oder Ad-hoc-Segmente an, die in Projekten verwendet werden. Diese errechneten Ad-hoc-Metriken und Segmente (auch als &quot;schnell berechnete Metriken&quot;und &quot;Schnellsegmente&quot;bezeichnet) können nur in dem Projekt verwendet werden, in dem sie erstellt wurden. Daher werden sie getrennt vom Berichtsbereich &quot;Projekt&quot;in der Spalte &quot;Verwendet in&quot;gemeldet.</li></ul><p>(Nachfolgende Links der Dokumentation wurden aktualisiert.)</p> | -/- | Donnerstag, 11. September 2024 |
-| **Web SDK-Verbesserungen für das Linktracking** | In der neuesten Version des Web SDK sind mehrere wichtige Verbesserungen bezüglich des Linktrackings verfügbar, wovon Activity Map direkt profitiert. Diese neuen Funktionen sind sowohl in der Web SDK-JavaScript-Bibliothek als auch in der Web SDK-Tag-Erweiterung verfügbar.<ul><li>Ereignisgruppierung: Wenn eine Besucherin oder ein Besucher auf einen internen Link klickt, können Sie sich dafür entscheiden, Ereignisdaten auf der nächsten Seite gruppieren, anstatt einen separaten Ereignisaufruf für das Linktracking auszulösen. Diese Verbesserung reduziert die Anzahl der Ereignisse, die das Web SDK im Rahmen Ihres vertraglichen Limits verwendet!.</li><li>Klickeigenschaften filtern: Ein neuer Rückruf, der `OnBeforeLinkClickSend` ersetzt. Sie können diesen Rückruf verwenden, um verknüpfungsbezogene Daten zu filtern oder zu verschleiern, bevor Sie sie an Adobe senden.</li></ul><p>Weitere Informationen finden Sie unter [clickCollection](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollection) im Web SDK-Benutzerhandbuch.</p> | Open Beta begann am 10. Juli 2024 | 18. Juli 2024 |
+|--- | --- | --- | --- |
+| **Zusätzliche Informationen in der Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager** | Die Spalte &quot;Verwendet in&quot;im Manager für berechnete Metriken und im Segment-Manager enthält die folgenden neuen Berichtsbereiche:<ul><li>**Report Builder**: Zeigt die Anzahl der berechneten Metriken oder Segmente an, die im Report Builder verwendet werden.</li><li>**Ad-hoc-Komponenten**: Zeigt die Anzahl der berechneten Ad-hoc-Metriken oder Ad-hoc-Segmente an, die in Projekten verwendet werden. Diese errechneten Ad-hoc-Metriken und Segmente (auch als &quot;schnell berechnete Metriken&quot;und &quot;Schnellsegmente&quot;bezeichnet) können nur in dem Projekt verwendet werden, in dem sie erstellt wurden. Daher werden sie getrennt vom Berichtsbereich &quot;Projekt&quot;in der Spalte &quot;Verwendet in&quot;gemeldet.</li></ul> |  | 11. September 2024 |
+| **Activity Map v3-Erweiterung** | Die Activity Map v3-Erweiterung ist jetzt verfügbar. Wenn Sie die v2-Erweiterung installiert haben, deinstallieren Sie sie, bevor Sie die v3-Erweiterung installieren. Navigieren Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** , um die neueste Version der Erweiterung zu erhalten. |  | 3. September 2024 |
 
-{style="table-layout:auto"}
 
 ## Fehlerbehebungen in Adobe Analytics
 
-* Es wurde ein Problem behoben, bei dem mehrere unbekannte Werte in Workspace angezeigt wurden (AN-353632).
-* Es wurde ein Problem behoben, bei dem die Benachrichtigungs-E-Mail nach dem Hinzufügen neuer Kundinnen und Kunden oder neuer Analytics-Produktprofile in der Admin Console nicht gesendet wurde (AN-350930).
+A4T: AN-355736
+Activity Map: AN-353779
+Analysis Workspace: AN-348485; AN-349693; AN-357247
+Analytics Mobile App: AN-352645
+Klassifizierungen: AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-35657; AN-356622
+Geräteübergreifende Analyse: AN-355138
+Datenfeeds: AN-356258; AN-357133
+Data Warehouse: AN-339292; AN-353807
+Exportstandorte: AN-356912
+Datenschutz-API: AN-352420
+Report Builder: AN-352555; AN-354316
+Geplante Projekte: AN-355971
+Segmentierung: AN-352095;
+Zielberichte: AN-355748
 
-### Weitere behobene Fehler in Analytics
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+Weitere Fehlerbehebungen: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
 | **13-monatige Gültigkeit für gespeicherte`cust_visids`** | 20. August 2024 | Die Version der Analytics-Trefferverarbeitungs-Engine vom **20. August 2024** setzt eine 13-monatige Gültigkeit für gespeicherte `cust_visids` durch. Wenn in der Report Suite „Besucherzuordnung aktivieren“ aktiviert ist, wird diese Einstellung zum Suchen der `cust_visid` für einen `visid_high/visid_low value` ohne `cust_visid` für den Treffer verwendet. Bisher war die Gültigkeit der Zuordnung eines `cust_visid` für einen `visid_high/visid_low` nicht eingeschränkt. Mit dieser Version endet die Gültigkeit der Zuordnung, wenn 13 Monate oder mehr vergangen sind, seit `visid_high/visid_low` eine `cust_visid` für einen Treffer hatte. |
+| **Zusätzliche Implementierungsdetails XDM-Felder, die automatisch zugeordnet werden** | Donnerstag, 11. September 2024 | Wenn Sie das Adobe Experience Platform-Edge Network zum Senden von Daten an Adobe Analytics verwenden, werden die XDM-Felder `xdm.implementationdetails.name` und `xdm.implementationdetails.environment` jetzt immer den Kontextdatenvariablen `c.a.x.implementationdetails.name` und `c.a.x.implementationdetails.environment` zugeordnet. In früheren Szenarien wurde verhindert, dass diese Werte ausgefüllt werden. Passen Sie die relevanten Verarbeitungsregeln an, um die Verfügbarkeit dieser Werte zu berücksichtigen. |
 
 {style="table-layout:auto"}
 
