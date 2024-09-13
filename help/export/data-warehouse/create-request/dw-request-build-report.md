@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Erstellen eines Berichts für eine Data Warehouse-Anforderung
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ So erstellen Sie einen Bericht für eine Data Warehouse-Anforderung:
 1. Wählen Sie auf der Seite Neue Data Warehouse-Anforderung die Registerkarte [!UICONTROL **Bericht erstellen**] aus.
 
    ![Registerkarte &quot;Bericht erstellen&quot;](assets/build-report.png)
+
+1. Wählen Sie oben links die Report Suite aus, die Sie beim Erstellen Ihres Data Warehouse-Berichts verwenden möchten.
+
+   Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Wenn Sie eine Virtual Report Suite auswählen, die inkompatible Segmente enthält, wird ein Fehler angezeigt.
+
+   Eine Liste der unterstützten Funktionen innerhalb eines Segments finden Sie unter [Data Warehouse der Segmentkompatibilität](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Ziehen Sie alle Segmente, Metriken und Dimensionen in den Builder. Der erstellte Bericht bestimmt, welche Daten in der Data Warehouse-Anfrage enthalten sind.
 
