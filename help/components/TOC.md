@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [Beschränken einer Virtual Report Suite auf bestimmte Daten](cda/limit-vrs-date.md)
    + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/faq.md)
 + Warnhinweise {#alerts}
-   + [Intelligente Warnhinweise](c-alerts/intellligent-alerts.md)
-   + [Warnhinweiserstellung](c-alerts/alert-builder.md)
-   + [Warnhinweis-Manager](c-alerts/alert-manager.md)
-   + [Intelligente Warnhinweise – Anwendungsfälle](c-alerts/alerts-use-cases.md)
+   + [Überblick](c-alerts/intellligent-alerts.md)
+   + [Erstellen](c-alerts/alert-builder.md)
+   + [Verwalten](c-alerts/alert-manager.md)
+   + [Anwendungsbeispiele](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
    + [Übersicht über Klassifizierungen](classifications/c-classifications.md)
    + Klassifizierungssätze {#sets}

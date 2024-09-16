@@ -3,10 +3,10 @@ description: Warnhinweise verwalten.
 title: Warnhinweis-Manager - Übersicht
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ So erstellen Sie Warnhinweise vom Warnhinweis-Manager:
 
    * [!UICONTROL **Analytics-Datenwarnung**]: Ein Warnhinweis, der Sie benachrichtigt, wenn in Ihren Daten anormale Ereignisse auftreten.
 
-     Wenn Sie diese Option auswählen, fahren Sie mit [Warnhinweise erstellen](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) fort, um weitere Informationen zum Erstellen von Warnhinweisen zu erhalten.
+     Wenn Sie diese Option auswählen, fahren Sie mit [Warnhinweise erstellen](/help/components/c-alerts/alert-builder.md) fort, um weitere Informationen zum Erstellen von Warnhinweisen zu erhalten.
 
    * [!UICONTROL **Warnung zur Nutzung von Server-Aufrufen**]: Ein Warnhinweis, der Sie über das Risiko oder das Auftreten einer Überschreitung der Daten zur Nutzung und Zusage Ihrer Server-Aufrufe informiert.
 

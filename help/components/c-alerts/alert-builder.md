@@ -3,93 +3,50 @@ description: Verwenden Sie Warnhinweise in Analysis Workspace.
 title: Warnhinweiserstellung - Übersicht
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 97%
+source-wordcount: '609'
+ht-degree: 39%
 
 ---
 
-# Warnhinweiserstellung
-
->[!IMPORTANT]
->
->Intelligente Warnhinweise sind nur für Kunden von Adobe [!DNL Analytics] Prime und Adobe [!DNL Analytics] Ultimate verfügbar.
-
-Der Zugriff auf die Warnhinweiserstellung erfolgt auf drei Arten:
-
-* Mithilfe des folgenden Tastaturbefehls in Analysis Workspace:
-
-  `ctrl (or cmd) + shift + a`
-* Indem Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Neuer Warnhinweis]** navigieren.
-* Indem Sie ein oder mehrere Freiform-Tabellenzeilenelemente auswählen, mit der rechten Maustaste klicken und **[!UICONTROL Warnhinweis aus Auswahl erstellen auswählen]**.
-
-Die Benutzeroberfläche der Warnhinweiserstellung ähnelt solchen mit erstellten Segmenten oder berechneten Metriken in [!DNL Analytics]:
-
-![](assets/alert_builder.png)
-
-**Warnungsname**
-
-Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den Namen des Berichts oder den Schwellenwert einer Metrik enthalten.
-
-**Zeitgranularität**
-
-Geben Sie an, wann die Metrik überprüft werden soll: stündlich, täglich, wöchentlich oder monatlich.
+# Erstellen von Warnhinweisen
 
 >[!NOTE]
 >
->Bei Report Suites mit einem benutzerdefinierten Kalender wird die monatliche Abstufung in der Warnhinweiserstellung nicht unterstützt.
+>Intelligente Warnhinweise sind nur für Kunden von Adobe Analytics Prime und Adobe Analytics Ultimate verfügbar.
 
-**Empfänger**
+Intelligente Warnhinweise (oder nur &quot;Warnhinweise&quot;) in Adobe Analytics ermöglichen es Ihnen, sofort benachrichtigt zu werden, wenn in Ihren Daten abnorme Ereignisse auftreten. (Warnhinweise zur Nutzung von Server-Aufrufen sind eine andere Art von Warnhinweisen, die nur für Analytics-Administratoren verfügbar sind. Diese Warnhinweise informieren Sie über das Risiko oder das Auftreten einer Überschreitung der Verbrauchs- und Zusagedaten für Server-Aufrufe. Weitere Informationen finden Sie unter [Warnhinweise zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/scu-alerts.md).)
 
-Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann an einen [!DNL Analytics]-Benutzer, eine [!DNL Analytics]-Gruppe, eine E-Mail-Adresse oder eine Telefonnummer gesendet werden.
+Detaillierte Übersichtsinformationen zu intelligenten Warnhinweisen finden Sie unter [Übersicht über intelligente Warnhinweise](/help/components/c-alerts/intellligent-alerts.md).
 
->[!IMPORTANT]
->
->Die Telefonnummer muss über ein vorangestelltes Pluszeichen („+“) und eine [Landesvorwahl](https://countrycode.org/) verfügen.
+So erstellen Sie einen intelligenten Warnhinweis:
 
-**Ablaufdatum**
+1. Beginnen Sie mit der Erstellung eines Warnhinweises, indem Sie auf die Warnhinweiserstellung zugreifen. Sie haben folgende Möglichkeiten, auf den Warnhinweiserstellung zuzugreifen:
 
-Legen Sie das Ablaufdatum eines Warnhinweises fest.
+   * Öffnen Sie ein Projekt in Analysis Workspace und wählen Sie dann **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweis erstellen]** aus.
+   * Öffnen Sie ein Projekt in Analysis Workspace und verwenden Sie dann die folgende Verknüpfung:
 
-**Warnhinweis senden, wenn...**
+     `ctrl (or cmd) + shift + a`
+   * Öffnen Sie ein Projekt in Analysis Workspace, wählen Sie mindestens ein Zeilenelement in einer Freiformtabelle aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Warnhinweis aus Auswahl erstellen]** aus.
 
-*... Jede dieser Metriken ist ein Auslöser*
+     Dadurch wird der Warnhinweiserstellung sofort vorausgefüllt, um einen Warnhinweis mit den richtigen Metriken und Filtern zu erstellen.
+   * Erstellen Sie einen Warnhinweis [ vom Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md#create-alerts).
 
-* Ziehen Sie Metriken per Drag &amp; Drop in die Arbeitsfläche, um Auslöser hinzuzufügen.
+   Die Warnhinweiserstellung wird angezeigt. Diese Benutzeroberfläche ist mit jenen vertraut, die Segmente oder berechnete Metriken in Analytics erstellt haben:
 
-  Hinweis: Wenn nicht alle Komponenten (Metriken/Dimensionen/Segmente) des Warnhinweises mit der aktuell ausgewählten Report Suite kompatibel sind, wird die Meldung **Nicht kompatible Komponenten** angezeigt.
+   ![](assets/alert-builder.png)
 
-* Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:
+1. Geben Sie die folgenden Optionen zum Konfigurieren des Warnhinweises an:
 
-   * Anomalie vorhanden
-   * Anomalie liegt über erwartetem Wert
-   * Anomalie liegt unter erwartetem Wert
-   * Anomalie überschreitet
-   * ist größer oder gleich
-   * ist kleiner oder gleich
-   * ändert sich um
+   | Option | Beschreibung |
+   |---------|----------|
+   | [!UICONTROL **Titel**] | Geben Sie einen Namen für den Warnhinweis an. Der Warnhinweisname könnte den Namen des Berichts oder den Schwellenwert einer Metrik enthalten. |
+   | [!UICONTROL **Beschreibung (optional)**] | Geben Sie eine Beschreibung für den Warnhinweis an. |
+   | [!UICONTROL **Zeitgranularität**] | Wählen Sie aus, wie oft die Metrik überprüft werden soll: täglich, wöchentlich oder monatlich.<p><b>Hinweis:</b>Bei Datenansichten mit einem benutzerdefinierten Kalender wird die monatliche Granularität in der Warnhinweiserstellung nicht unterstützt.<!--true?--></p> |
+   | [!UICONTROL **Empfänger**] | Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann an einen Analyse-Benutzer, eine Analyse-Gruppe, eine E-Mail-Adresse oder eine Telefonnummer gesendet werden.<p><b>Wichtig:</b>Der Telefonnummer muss ein &quot;+&quot;- und ein &quot;[Ländercode](https://countrycode.org/)&quot; vorangestellt werden.</p><p>Die E-Mail, die ein Benutzer erhalten würde, sobald ein Warnhinweis ausgelöst wurde, sieht in etwa so aus:</p><p>![](assets/alerts-email.PNG)</p> |
+   | [!UICONTROL **Ablaufdatum**] | Legen Sie Datum und Uhrzeit für den Ablauf des Warnhinweises fest. |
+   | [!UICONTROL **Warnhinweis senden, wenn**] | [!UICONTROL **Jeder dieser Metriken Trigger**]: Ziehen Sie Metriken (einschließlich berechneter Metriken) hierher, um Trigger für den Warnhinweis zu erstellen.<p>Wenn nicht alle Metriken, Dimensionen oder Segmente im Warnhinweis mit der aktuell ausgewählten Datenansicht kompatibel sind, wird die Meldung **&quot;Nicht kompatible Komponenten&quot;** angezeigt.</p><p>Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:</p><ul><li>Anomalie vorhanden</li><li>Anomalie liegt über erwartetem Wert</li><li>Anomalie liegt unter erwartetem Wert</li><li>ist größer oder gleich</li><li>ist kleiner oder gleich</li><li>ändert sich um</li><li>Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.</li></ul><p>[!UICONTROL **Mit all diesen Filtern**]: Ziehen Sie Segmente oder Dimensionen per Drag-and-Drop, um Filter hinzuzufügen. Wenn Sie beispielsweise das Segment &quot;Nur Mobilgeräte&quot;hinzufügen, würde die Regel nur für Mobilgeräte Trigger. Mithilfe einer AND-Anweisung können Sie weitere Filter hinzufügen. Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.</p><p>Siehe [Intelligente Warnhinweise - Anwendungsbeispiele](/help/components/c-alerts/alerts-use-cases.md) für Anwendungsfälle.</p> |
+   | [!UICONTROL **Vorschau**] | Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.<p>Beispiel: Wenn Sie die Zeitgranularität auf „Stündlich“ festlegen, kann Ihnen die Vorschau verraten, dass der Warnhinweis zu einer bestimmten Metrik während der letzten 30 oder 31 Tage x-mal ausgelöst worden wäre.</p><p>Wenn Sie feststellen, dass Warnhinweise zu oft ausgelöst werden würden, können Sie den Schwellenwert im [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) anpassen.</p><p>![](assets/alert_preview.png)</p> |
 
-* „Anomalie überschreitet“ ist eine neue Bedingung, die über die vorhandenen (statischen) Schwellenwerte hinausgeht. Sie bezieht Anomalieerkennungsalgorithmen mit ein, die den Auslöser dynamisch definieren. Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.
-* Für die stündliche Granularität ist ein Schwellenwert von 99,75 % und für die tägliche Granularität ein Schwellenwert von 99 % festgelegt.
-* Beachten Sie, dass Sie auch berechnete Metriken verwenden können.
-
-*... Mit diesen Filtern*
-
-Platzieren Sie mittels Drag-and-Drop Segmente oder Dimensionen, um Filter hinzuzufügen. Wenn Sie zum Beispiel ein Segment vom Typ „Nur Mobilgeräte“ hinzufügen, würde die Regel nur für Mobilgeräte ausgelöst werden.
-
-Zusätzliche Filter werden mithilfe einer AND-Anweisung hinzugefügt.
-
-**Eine Regel hinzufügen**
-
-Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.
-
-## Warnhinweisvorschau {#section_10D75BA7B77E4C5FAF58A719C082E070}
-
-Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.
-
-Beispiel: Wenn Sie die Zeitgranularität auf „Stündlich“ festlegen, kann Ihnen die Vorschau verraten, dass der Warnhinweis zu einer bestimmten Metrik während der letzten 30 oder 31 Tage x-mal ausgelöst worden wäre.
-
-Wenn Sie feststellen, dass Warnhinweise zu oft ausgelöst werden würden, können Sie den Schwellenwert im [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) anpassen.
-
-![](assets/alert_preview.png)
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
