@@ -5,7 +5,7 @@ title: Für Verarbeitungsregeln verfügbare Dimensionen
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | --- | --- | --- |
 | Benutzerdefinierter Wert | Schreibgeschützt | Benutzerdefinierter Text oder Werte, die direkt in die Aktion einer Verarbeitungsregel eingegeben werden. |
 | Verketteter Wert | Schreibgeschützt | Werte, die durch Kombination zweier Werte erstellt werden. Beispielsweise können Kanal und Seitenname kombiniert werden, um eine Unterkategorie zu erstellen. |
-
-{style="table-layout:auto"}
 
 ## Trefferattribute
 
@@ -47,11 +45,9 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | Stammdomäne der Seite | Schreibgeschützt | Die Seitendomäne der aktuellen URL, ausgenommen Subdomänen. |
 | Kundenperspektive | Lesen und Schreiben | Eine Markierung, die bestimmt, ob der Treffer ein mobiler Hintergrundtreffer ist. |
 
-{style="table-layout:auto"}
-
 ## Konversionsvariablen
 
-| Variable | Status lesen/schreiben Beschreibung |
+| Variable | Lese-/Schreibstatus | Beschreibung |
 | --- | --- | --- |
 | eVar 1-250 | Lesen und Schreiben | [eVar](/help/components/dimensions/evar.md) -Dimensionen. |
 | Kampagne | Lesen und Schreiben | Die Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) . |
@@ -60,8 +56,6 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | Zip | Lesen und Schreiben | Die Dimension [Postleitzahl](/help/components/dimensions/zip-code.md) . |
 | Währungscode | Lesen und Schreiben | Die Implementierungsvariable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). WICHTIG: Wenn Sie diese Variable auf einen ungültigen Wert setzen, wird der Treffer verworfen. |
 | Transaktions-ID | Lesen und Schreiben | Die Implementierungsvariable [`transactionID`](/help/import/data-sources/transactionid.md). |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe unterstützt nicht das Festlegen der Implementierungsvariable [`products`](/help/implement/vars/page-vars/products.md) mithilfe von Verarbeitungsregeln.
@@ -74,8 +68,6 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | Hierarchie 1-5 | Lesen und Schreiben | [Hierarchie](/help/components/dimensions/hierarchy.md) -Dimensionen. |
 | Server | Lesen und Schreiben | Die Dimension [Server](/help/components/dimensions/server.md). |
 | Kanal | Lesen und Schreiben | Die Dimension [Site-Abschnitt](/help/components/dimensions/site-section.md) . |
-
-{style="table-layout:auto"}
 
 ## Kontextvariablen
 
@@ -96,4 +88,3 @@ Verarbeitungsregeln können Ereignisse festlegen, aber nicht als Bedingungen les
 | Ereignis 1–1000 | Schreibgeschützt | [Benutzerspezifische Ereignisse](/help/components/metrics/custom-events.md). |
 | Produktansichten | Schreibgeschützt | Die Metrik [Produktansichten](/help/components/metrics/product-views.md) . |
 
-{style="table-layout:auto"}
