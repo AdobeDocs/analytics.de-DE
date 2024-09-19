@@ -4,9 +4,9 @@ title: Abbrechen von Berichtsanforderungen im Reporting Activity Manager
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1438'
 ht-degree: 13%
 
 ---
@@ -163,7 +163,7 @@ Zu den Anwendungen gehören:
 * Report Builder
 * Builder-Benutzeroberflächen: Segment, berechnete Metriken, Anmerkungen, Audiences usw.
 * API-Aufrufe aus der API 1.4 oder 2.0
-* Intelligente Warnhinweise
+* Warnhinweise
 * Für alle Links freigeben
 * Jede andere Anwendung, die die Analytics-Reporting-Engine abfragt
 

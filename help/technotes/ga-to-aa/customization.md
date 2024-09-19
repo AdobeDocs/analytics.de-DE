@@ -3,10 +3,10 @@ title: Berichtsanpassung in Adobe Analytics
 description: Erfahren Sie, wie Sie Berichte in Adobe Analytics anpassen können.
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -72,4 +72,4 @@ So erstellen Sie eine errechnete Metrik:
 
 ## Benutzerspezifische Warnungen
 
-Warnungen sind auf beiden Plattformen verfügbar. Verwenden Sie in Adobe Analytics das Navigationsmenü in der Kopfzeile und gehen Sie zu *[!UICONTROL Komponenten]* > *[!UICONTROL Warnhinweise]*. Weitere Informationen finden Sie unter [Intelligente Warnungen](/help/components/c-alerts/intellligent-alerts.md) im Benutzerhandbuch zu Komponenten.
+Warnungen sind auf beiden Plattformen verfügbar. Verwenden Sie in Adobe Analytics das Navigationsmenü in der Kopfzeile und gehen Sie zu *[!UICONTROL Komponenten]* > *[!UICONTROL Warnhinweise]*. Weitere Informationen finden Sie unter [Übersicht über Warnhinweise](/help/components/c-alerts/intellligent-alerts.md) im Benutzerhandbuch zu Komponenten.

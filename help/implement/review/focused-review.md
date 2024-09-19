@@ -4,10 +4,10 @@ description: Führen Sie diese Schritte aus, um sicherzustellen, dass Ihre Imple
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 74%
+source-wordcount: '490'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ Die Kenntnis der 5 wichtigsten Leistungsindikatoren (Key Performance Indicators
 
 Hin und wieder stattfindende Code-Aktualisierungen können unbeabsichtigte Auswirkungen haben. Sie sollten sicherstellen, dass alle Metriken und Dimensionen, die Ihren [wichtigsten 5 KPIs](/help/implement/review/define-kpis.md) zugeordnet sind, weiterhin ihre Aufgabe korrekt erfüllen. Idealerweise erfolgt dies direkt nach einer Website-Veröffentlichung. Wenn Sie es in den letzten Monaten nicht getan haben, führen Sie es *now* durch. Gehen Sie folgendermaßen vor:
 
-* Erstellen Sie Dashboards, um die Trendansicht der Ansichten dieser wichtigen Metriken und Variablen anzuzeigen (oder richten Sie [intelligente Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) für jede Metrik ein). Überwachen Sie sie dann für ein oder zwei Tage, um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle wichtigen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um den Grund herauszufinden.
+* Erstellen Sie Dashboards, um die Trendansicht der Ansichten dieser wichtigen Metriken und Variablen anzuzeigen (oder richten Sie für jede Metrik [Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) ein). Überwachen Sie sie dann für ein oder zwei Tage, um sicherzustellen, dass Sie die erwarteten Daten erhalten und dass die Daten korrekt sind. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle wichtigen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um den Grund herauszufinden.
 * Führen Sie [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) erneut aus, um allgemeine Trends Ihrer KPI-Metriken und -Variablen zu überwachen.
 
 *Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ihre Aufgabe ordnungsgemäß erfüllen, finden Sie in [diesen Tipps](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von der Adobe Analytics-Expertin Sarah Owen.*
