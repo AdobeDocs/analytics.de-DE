@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 68%
+source-wordcount: '3580'
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`color`** | Farbtiefen-ID, basierend auf dem Wert der Spalte `c_color`. Verweist auf die Suchtabelle `color_depth.tsv`. | smallint unsigniert |
 | **`connection_type`** | Eine numerische ID, die den Verbindungstyp darstellt. Die Dimension [Verbindungstyp](/help/components/dimensions/connection-type.md) . Verweist auf die Suchtabelle `connection_type.tsv` | tinyint unsigniert |
 | **`cookies`** | Die Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md) .<br>Y: aktiviert<br>N: deaktiviert<br>U: unbekannt | char(1) |
-| **`country`** | Eine numerisch-ID, die das Land der Besucher repräsentiert. Verweist auf die Suchtabelle `country.tsv`. | smallint unsigniert |
+| **`country`** | Eine numerische ID, die das Land des Besuchers darstellt. Verweist auf die Suchtabelle `country.tsv`. | smallint unsigniert |
 | **`ct_connect_type`** | Verknüpft mit der Spalte `connection_type`. Die häufigsten Werte sind LAN/WLAN, Mobilnetzbetreiber und Modem. | char(20) |
 | **`curr_factor`** | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. USD verwendet beispielsweise zwei Dezimalstellen, sodass dieser Spaltenwert `2` lautet. | tinyint |
 | **`curr_rate`** | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
@@ -144,7 +144,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`mobileresolution`** | Auflösung des Mobilgeräts. `[Width] x [Height]` in Pixel. | varchar(255) |
 | **`monthly_visitor`** | Eine Markierung, die bestimmt, ob der Besucher für den aktuellen Monat eindeutig ist. | tinyint unsigniert |
 | **`mvvar1`** - `mvvar3` | [Listenvariable](/help/implement/vars/page-vars/list.md) -Werte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
-| **`mvvar1_instances`** – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Enthält keine `post`-Spalte. | Text |
+| **`mvvar1_instances`** – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Die `post` Spalten enthalten normalerweise keine Daten. | Text |
 | **`new_visit`** | Eine Markierung, die bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird durch Adobe nach einer 30-minütigen Besuchsinaktivität eingestellt. | tinyint unsigniert |
 | **`os`** | Eine numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Der Schlüsselwert für `operating_system.tsv` Standardsuche und `operating_system_type.tsv` [Dynamische Suche](dynamic-lookups.md). | int unsigniert |
 | **`page_event`** | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink). Siehe [Seitenereignissuche](datafeeds-page-event.md). | tinyint unsigniert |

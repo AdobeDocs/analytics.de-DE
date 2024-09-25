@@ -4,10 +4,10 @@ description: Übersicht über die Verwendung von XDM-Daten aus Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 85%
 
 ---
 
@@ -30,15 +30,18 @@ An Adobe Experience Platform Edge Network gesendete Daten können zwei Formate a
 * XDM-Objekt: Entsprechen Schemas, die auf [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) basieren.  Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Ereignisse Adobe Analytics erreichen, werden sie in ein Format übersetzt, das Adobe Analytics verarbeiten kann.
 * Datenobjekt: Senden Sie Daten mithilfe bestimmter, Adobe Analytics zugewiesener Felder an Edge Network. Edge Network erkennt das Vorhandensein dieser Felder und leitet sie an Adobe Analytics weiter, ohne dass sie einem Schema entsprechen müssen.
 
-
-Edge Network verwendet die folgende Logik, um die Seitenansichten und Verknüpfungsereignisse in Adobe Analytics zu bestimmen.
+Das Edge Network verwendet die folgende Logik, um Adobe Analytics-Seitenansichten und Verknüpfungsereignisse zu bestimmen:
 
 | XDM-Payload enthält … | Adobe Analytics … |
 |---|---|
-| `web.webPageDetails.name` oder `web.webPageDetails.URL` und nicht `web.webInteraction.type` | betrachtet Payload als eine **Seitenansicht** |
-| `web.webInteraction.type` und (`web.webInteraction.name` oder `web.webInteraction.url`) | betrachtet Payload als ein **Link-Ereignis** |
+| `xdm.web.webPageDetails.name` oder `xdm.web.webPageDetails.URL` und nicht `xdm.web.webInteraction.type` | betrachtet Payload als eine **Seitenansicht** |
+| `xdm.web.webInteraction.type` und (`xdm.web.webInteraction.name` oder `xdm.web.webInteraction.url`) | betrachtet Payload als ein **Link-Ereignis** |
 | `web.webInteraction.type` und (`web.webPageDetails.name` oder `web.webPageDetails.url`) | betrachtet Payload als ein **Link-Ereignis** <br/>`web.webPageDetails.name` und `web.webPageDetails.URL` sind auf `null` gesetzt |
 | kein `web.webInteraction.type` und (kein `webPageDetails.name` und kein `web.webPageDetails.URL`) | entfernt die Payload und ignoriert die Daten |
+| `xdm.eventType = display` oder <br/>`xdm.eventType = decisioning.propositionDisplay` oder <br/>`xdm.eventType = personalization.request` oder <br/>`xdm.eventType = decisioning.propositionFetch` und `xdm._experience.decisioning` | berücksichtigt Nutzlast einen **A4T** -Aufruf. |
+| `xdm.eventType = display` oder <br/>`xdm.eventType = decisioning.propositionDisplay` oder <br/>`xdm.eventType = personalization.request` oder <br/>`xdm.eventType = decisioning.propositionFetch` und keine `xdm._experience.decisioning` | entfernt die Payload und ignoriert die Daten |
+| `xdm.eventType = click` oder `xdm.eventType = decisioning.propositionInteract` und `xdm._experience.decisioning` und keine `web.webInteraction.type` | berücksichtigt Nutzlast einen **A4T** -Aufruf. |
+| `xdm.eventType = click` oder `xdm.eventType = decisioning.propositionInteract` und keine `xdm._experience.decisioning` und keine `web.webInteraction.type` | speichert die Payload und ignoriert die Daten. |
 
 {style="table-layout:auto"}
 
