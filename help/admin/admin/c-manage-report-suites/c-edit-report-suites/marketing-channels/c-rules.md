@@ -4,10 +4,10 @@ description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzu
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 100%
+source-wordcount: '1878'
+ht-degree: 91%
 
 ---
 
@@ -72,8 +72,8 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 |--- |--- |
 | Alle | Aktiviert diesen Kanal nur, wenn alle Kriterien in der Regel „true“ sind. |
 | Eines | Aktiviert diesen Kanal, wenn irgendeines der Kriterien in der Regel „true“ ist. Diese Option ist nur verfügbar, wenn die Regel mehr als ein Kriterium enthält. |
-| AMO-ID | Der primäre Trackingcode, der von den Advertising Cloud- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising Cloud-spezifische Kanäle zu identifizieren. Die Verwendung von „AMO-ID“ beginnt mit „AL“ für die Suche, „AC“ für die Anzeige oder „AO“ für Social. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden (wenn diese nicht konfiguriert sind, gehen diese Metriken zu „Direkt“ oder „Keine“). |
-| AMO-EF-ID | Der von Advertising Cloud verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel zum Zurücksenden von Daten an Ad Cloud zu dienen. Sie kann jedoch auch zur Identifizierung von Anzeige-Clickthroughs oder Anzeige-Viewthroughs verwendet werden, wenn Sie diese als zwei separate Marketing-Kanäle betrachten möchten. Dazu können Sie die Marketing-Kanal-Logik so festlegen, dass „AMO EF ID“ für Anzeige-Clickthroughs auf `:d` oder „AMO EF ID“ für Anzeige-Viewthroughs auf `:i` endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
+| AMO-ID | Der primäre Trackingcode, der von den Adobe Advertising- und Advertising Analytics-Integrationen verwendet wird. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising-spezifische Kanäle zu identifizieren. Verwenden Sie eine &quot;AMO-ID&quot;, die mit &quot;AL&quot;für Suche und Social oder &quot;AC&quot;für Anzeige beginnt. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden. Wenn die AMO-ID nicht konfiguriert ist, gehen diese Metriken zu &quot;Direkt&quot;oder &quot;Keine&quot;. |
+| AMO EF ID | Der von Adobe Advertising verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes besteht darin, als Schlüssel für das Zurücksenden von Daten an Advertising zu dienen. Sie kann jedoch auch verwendet werden, um Display ClickThroughs und Display ViewThroughs als zwei separate Marketing-Kanäle zu identifizieren. Legen Sie dazu die Marketing-Kanal-Logik fest, bei der &quot;AMO EF ID&quot;für Display-Clickthroughs auf `:d` endet oder &quot;AMO EF ID&quot;für Display ViewThroughs auf `:i` endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
 | Konversionsvariablen | Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden. |
 | Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer Referrer-Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die Referrer-Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine Referrer Domain einen bestimmten Wert nicht enthält (anders als bei der von Auswahl „Enthält“).</li></ul> |
 | Den Kanal identifizieren als | Verbindet die Regel mit dem Marketing-Kanal, den Sie der Seite „Marketing-Kanal-Manager“ hinzugefügt haben. |
