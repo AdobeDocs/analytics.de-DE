@@ -4,9 +4,9 @@ title: Grundlagen der Analytics-Oberfläche
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Die Registerkarte [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ih
    | Berechnete Metriken  | Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.  Damit können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten die Daten abfragen, ohne die Adobe Analytics-Implementierung ändern zu müssen. | [Berechnete und erweiterte berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=de) |
    | Datumsbereiche | Analysis Workspace enthält eine Liste von Standarddatumsbereichen, die Benutzerinnen und Benutzer beim Erstellen von Analysen verwenden können. Darüber hinaus können Sie benutzerdefinierte Datumsbereiche erstellen und sie für Benutzerinnen und Benutzer in Analysis Workspace verfügbar machen. | [Erstellen von benutzerdefinierten Datumsbereichen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtual Report Suites | Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann. | [Virtual Report Suites – Übersicht](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html) |
-   | Warnhinweise | Warnhinweise ermöglichen eine präzisere Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem. | [Übersicht über Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
+   | Warnhinweise | Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem. | [Übersicht über Warnhinweise](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
    | Anmerkungen | Mit Anmerkungen im Arbeitsbereich können Sie Ihrer Organisation kontextbezogene Informationen und Erkenntnisse zu Daten effektiv übermitteln. Durch sie können Sie Kalenderereignisse an bestimmte Dimensionen und Metriken binden. | [Verwalten von Anmerkungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
    | Klassifizierungssätze | Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassifizierungen und Regeln. <p>Eine Klassifizierung ist eine Methode, mit der Sie Analytics-Variablendaten in Kategorien aufgliedern und diese Daten auf unterschiedliche Weise darstellen, wenn Sie einen Bericht erzeugen. Sie stellen eine Beziehung zwischen einem Variablenwert und Metadaten her, die sich auf diesen Wert beziehen. Klassifizierungen können für die meisten benutzerdefinierten Dimensionen wie Trackingcode, Props und eVars verwendet werden.</p> | [Klassifizierungssätze – Übersicht](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html) |
    | Standorte | Um Adobe Analytics-Klassifizierungsdaten aus einem Cloud-Ziel zu importieren, müssen Sie zunächst den Speicherort hinzufügen und konfigurieren, an dem die Klassifizierungsdaten erfasst werden sollen. Sie können Speicherorte erstellen, bearbeiten oder löschen. | [Standorte-Manager](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html) |

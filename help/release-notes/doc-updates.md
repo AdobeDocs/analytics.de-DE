@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5971'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Aktualisierte allgemeine Fehlermeldungen | Es wurden kleinere Aktualisierungen an den [allgemeinen Fehlermeldungen](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) vorgenommen. |
 | **Juni 2024** | |
 | Aktualisierter Produktname, der sich auf die Funktion zum Streaming von Medien bezieht | Instanzen von „Media Analytics“ und „Streaming Media“ wurden durch den Namen „Add-on für Streaming-Mediensammlungen“ ersetzt, wenn auf die Reihe von Funktionen zum Streaming von Medien verwiesen wird, die Streaming-Mediendaten erfassen und in Analysis Workspace anzeigen. <p>Diese Aktualisierungen sind in der gesamten Dokumentation zu Adobe Analytics sowie in der [Dokumentation zum Add-on für Streaming-Mediensammlungen](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview) verfügbar.</p> |
-| Verbesserte Warnhinweisdokumentation | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/components/c-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/components/c-alerts/alert-manager.md) und [Überblicksinformationen](/help/components/c-alerts/intellligent-alerts.md). |
+| Verbesserte Dokumentation zu Warnhinweisen | Die Dokumentation zu Warnhinweisen wurde aktualisiert und verbessert. Diese Aktualisierungen enthalten Informationen zum [Erstellen von Warnhinweisen](/help/components/c-alerts/alert-builder.md), [Verwalten von Warnhinweisen](/help/components/c-alerts/alert-manager.md) und [Überblicksinformationen](/help/components/c-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` wurde eingestellt | Nachdem AppMeasurement nun automatisch die richtige Domain erkennt, für die Cookies gesetzt werden sollen, wird die Variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) nicht mehr unterstützt. |
 | Dokumentation zum Deaktivieren von Data Connectors | Die Seite zum Ende der Nutzungsdauer von Data Connectors wurde in [Eingestellte Produkte](https://experienceleague.adobe.com/de/docs/discontinued/using/data-connectors) verschoben. |
 | **Mai 2024** | |
@@ -116,7 +116,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde vereinheitlicht und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten sind jetzt mit den Schritten zum [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md) zusammengelegt. |
 | Dynamische Suchen | Es wurden zusätzliche Informationen zu [Dynamischen Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, bei denen es sich um eine von mehreren dynamischen Suchen handelt. |
 | **März 2023** | |
-| Web SDK-Unterstützung für Activity Map | [Implementieren von Adobe Analytics](/help/implement/home.md) aktualisiert |
+| Web SDK-Unterstützung für Activity Map | [Implementieren von Adobe Analytics](/help/implement/home.md) aktualisiert. |
 | Übersicht über Traffic-Variablen (Props) | Es wurden Abschnitte und schrittweise Anweisungen zur Klarstellung und Verbesserung des Artikelinhalts hinzugefügt. Inhalte aus dem Artikel „Aktivieren von Traffic-Variablen-Berichten“ wurden zusammengeführt und dieser Artikel entfernt. Siehe [Übersicht über Traffic-Variablen (Props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Interne URL-Filter | Es wurden Abschnitte und schrittweise Anweisungen zur Klarstellung und Verbesserung des Artikelinhalts hinzugefügt. Siehe [Interne URL-Filter](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Erstellen von Daten-Storys in Mobile Scorecards | Eine [Daten-Story](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) ist eine Sammlung unterstützender Datenpunkte, Geschäftskontexte und verwandter Metriken, die auf einem zentralen Thema oder einer zentralen Metrik basieren. |
@@ -146,7 +146,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Oktober 2022** |  |
 | Data Workbench | [Mitteilung zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Client-Hinweise | Neue [Übersicht und häufig gestellte Fragen](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=de). |
-| Zusammenfassung einer Schlüsselmetrik | Neuer Artikel zur Visualisierung der [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md) |
+| Zusammenfassung einer Schlüsselmetrik | Neuer Artikel zur Visualisierung der [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Klassifizierungssätze | Das neue Benutzererlebnis [Klassifizierungssätze](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html) bietet eine zentrale Schnittstelle zur Verwaltung von Klassifizierungen und Regeln und verbessert die Sichtbarkeit der kundeneigenen Klassifizierungsdaten. |
 | Mobile App: Benutzerdefinierte Detailansichten | Neuer Artikel zu [benutzerdefinierten Detailansichten](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de). |
 | VISTA | Neue Seite mit Erläuterungen zu den Grundlagen von [VISTA-Regeln](/help/technotes/vista.md). |
