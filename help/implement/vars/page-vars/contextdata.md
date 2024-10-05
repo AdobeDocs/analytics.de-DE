@@ -4,10 +4,10 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
+source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 79%
+source-wordcount: '576'
+ht-degree: 69%
 
 ---
 
@@ -56,6 +56,7 @@ s.contextData["example_variable"] = "Example value";
 * Gültige Kontextdatenvariablen enthalten nur alphanumerische Zeichen, Unterstriche und Punkte. Adobe garantiert die Datenerfassung in den Verarbeitungsregeln nicht, wenn Sie andere Zeichen, wie z. B. Bindestriche, einfügen.
 * Starten Sie Kontextdatenvariablen nicht mit `"a."`. Dieses Präfix ist reserviert und wird von Adobe verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
 * Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Variablen `s.contextData["example"]` und `s.contextData["EXAMPLE"]` sind identisch.
+* Ein einzelner Schlüssel darf nicht mehr als einen Wert enthalten. Wenn Sie Kontextdatenvariablen für Variablen mit mehreren Werten verwenden möchten, verketten Sie alle Werte mit einem Trennzeichen (normalerweise ein Komma) und übergeben Sie es mithilfe von Verarbeitungsregeln entweder an eine [Listen-Prop](prop.md#list-props) oder an eine [list-Variable](list.md).
 
 ## Verwenden von Verarbeitungsregeln zum Ausfüllen von Analytics-Variablen
 
