@@ -4,17 +4,17 @@ description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober 2024)
 
-**Letztes Update**: Donnerstag, 2. Oktober 2024
+**Letztes Update**: 2. Oktober 2024
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Donnerstag, 2. Oktober 2024 bis zum Mittwoch, 22. Oktober 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 2. Oktober 2024 bis zum 22. Oktober 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
@@ -27,10 +27,10 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Donn
 ## Fehlerbehebungen in Adobe Analytics
 
 Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
-Analytics Mobile App: AN-354085
-Klassifizierungen: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-35924
+Analytics-App: AN-354085
+Klassifizierungen: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
 Geräteübergreifende Analyse: AN-357968
-Datenfeeds: AN-358489; AN-358542
+Daten-Feeds: AN-358489; AN-358542
 Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
