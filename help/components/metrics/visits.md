@@ -3,10 +3,10 @@ title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Ein Besuch fällt aufgrund der oben genannten Kriterien nicht unbedingt mit eine
 
 Wenn ein Besucher eine dieser Aktionen ausführt, beginnt ein neuer Besuch:
 
-* Löscht den Cache während der Sitzung und setzt den Besuch Ihrer Site fort.
+* Löscht die Cookies während der Sitzung und fährt mit dem Surfen auf Ihrer Site fort
 * Lässt Ihre Site länger als 30 Minuten in einem Tab geöffnet und fährt dann mit dem Surfen fort.
 * Öffnet einen anderen Browser und navigiert auf demselben Computer zu Ihrer Site.
 * Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site.
