@@ -4,10 +4,10 @@ title: Übersicht über Kalender und Datumsbereiche
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspa
 | Einstellung | Beschreibung |
 |--- |--- |
 | Ausgewählte Tage | Ausgewählte Tage/Wochen/Monate/Jahre |
-| Erstellen von Datumsbereichskomponenten relativ zum Bedienfeld-Kalender | Die auf dem Datumsbereich des Bedienfelds basierenden Datumsangaben bleiben gleich. |
+| Erstellen von Datumsbereichskomponenten relativ zum Bedienfeld-Kalender | Wenn diese Option deaktiviert ist, überschreiben alle Datumsbereichskomponenten, die in einer Tabelle, Visualisierung oder Dropzone des Bedienfelds verwendet werden, den Bedienfeldkalender. <p>Wenn diese Option aktiviert ist, beziehen sich alle Datumsbereichskomponenten, die in einer Tabelle, Visualisierung oder Ablagezone des Bedienfelds verwendet werden, auf den Datumsbereich des Bedienfelds. Wenn beispielsweise der Datumsbereich des Bedienfelds auf den 1. bis 30. November festgelegt ist und eine Komponente des Datumsbereichs der letzten Woche in einer Freiformtabelle verwendet wird, beziehen sich die Informationen in der Freiformtabelle auf die letzte Woche im Oktober. |
 | Verwenden von rollierenden Daten | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel finden Sie unter [Benutzerdefinierte Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Standardmäßig ausgewählt. |
 | Datumsbereich | Hier können Sie einen voreingestellten Datumsbereich auswählen. Der Standardwert lautet „Letzte 30 Tage“. **[!UICONTROL Diese Woche/Monat/Quartal/Jahr (außer heute)]** ermöglicht Ihnen, aus Datumsbereichen auszuwählen, die keine Daten von heute enthalten. |
 | In alle Bedienfelder übernehmen | Hiermit können Sie den ausgewählten Datumsbereich nicht nur für das aktuelle Bedienfeld, sondern für alle Bedienfelder des Projekts ändern. |

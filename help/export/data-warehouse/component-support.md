@@ -3,10 +3,10 @@ title: Unterstützung von Komponenten in Data Warehouse
 description: Erfahren Sie, welche zusätzlichen Dimensionen und Metriken in Data Warehouse verfügbar sind und was nicht unterstützt wird.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 61%
 
 ---
 
@@ -80,3 +80,10 @@ Die folgenden zeitbasierten Dimensionen werden unterstützt. Bei der Verwendung 
 * Tag
 * Stunde
 * Minute
+
+## Segmente als Dimensionen in Data Warehouse
+
+Wenn Sie ein Segment als Dimension in Data Warehouse verwenden, gibt der Bericht eine Spalte zurück, die `"0"` oder `"1"` enthält:
+
+* **`"0"`**: Das Dimensionselement entsprach nicht den Kriterien des Segments.
+* **`"1"`**: Das Dimensionselement entsprach den Kriterien des Segments.
