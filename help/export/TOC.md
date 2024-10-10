@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
-source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: ht
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 100%
    + [Nach Metrik sortieren](data-warehouse/sorting-by-metric.md)
    + [Verwalten von Data Warehouse-Anforderungen](data-warehouse/data-warehouse-requests-manage.md)
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
-   + [Häufig gestellte Fragen zu Data Warehouse](data-warehouse/faq.md)
    + [Best Practices für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
    + [FTP und SFTP mit der Adobe Experience Cloud verwenden](ftp-and-sftp/ftp-overview.md)
