@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+workflow-type: tm+mt
 source-wordcount: '5971'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Februar 2022** | |
 | Vorschaumodus für Mobile Scorecard-Projekte | Der [Vorschaumodus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=de#preview) ermöglicht es Ihnen, eine Vorschau eines Erlebnisses anzuzeigen, bevor Sie eine Scorecard speichern und freigeben. |
 | API-Projekt-Endpunkt | Sie können mit der API Analysis Workspace-Projekte hinzufügen, bearbeiten oder löschen. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Aktualisiertes Kapitel zum Pausieren älterer terminierter Report Builder-Aufgaben | **Ab 15. April 2022** pausiert Adobe [alle terminierten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Aktualisiertes Kapitel zum Pausieren älterer terminierter Report Builder-Aufgaben | **Ab 15. April 2022** pausiert Adobe [alle terminierten Report Builder-Aufgaben, die vor mehr als zwei Jahren erstellt wurden](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md). |
 
 ### 2021 {#year2021}
 

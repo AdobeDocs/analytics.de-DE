@@ -3,7 +3,7 @@ description: Erläutert die Migration von Komponenten und Projekten von Adobe An
 title: Migrieren von Komponenten und Projekten von Adobe Analytics zum Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Bevor Sie Projekte zu Customer Journey Analytics migrieren, erfahren Sie mehr ü
 
    Wiederholen Sie diesen Vorgang für jede Dimension oder Metrik, die das Warnsymbol enthält.
 
-   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite in der Customer Journey Analytics-Datenansicht einer Dimension oder Metrik zugeordnet wurden, wird im Abschnitt [!UICONTROL **Schema für Report Suites zuordnen**] neben dem Report Suite-Namen ein grünes Häkchen ![Häkchen](assets/report-suite-check.png) angezeigt.
+   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite einer Dimension oder Metrik in der Customer Journey Analytics Report Suite zugeordnet wurden, wird im Abschnitt [!UICONTROL **Schema für Report Suites zuordnen**] neben dem Report Suite-Namen ein grünes Häkchen ![Häkchen](assets/report-suite-check.png) angezeigt.
 
 1. (Bedingt) Wenn das zu migrierende Projekt mehr als eine Report Suite enthält, wählen Sie eine andere Report Suite im Abschnitt [!UICONTROL **Schema für Report Suites zuordnen**] aus und wiederholen Sie dann Schritt 6 bis Schritt 10. <!-- double-check that the step numbers are still correct -->
 

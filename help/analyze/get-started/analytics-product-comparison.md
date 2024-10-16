@@ -3,10 +3,10 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ Diese Seite enthält einen Vergleich verschiedener Adobe Analytics-Produkte: Ana
 
 Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Produktname und Link zur Hilfe | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics-API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Produktname und Link zur Hilfe | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics-API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **Zugriffsmethode** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel für Windows](/help/analyze/report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Informationen](/help/analyze/get-started/sys-reqs.md) | Einrichtung über den Browser. [Weitere Informationen](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit Adobe Developer-Anmeldeinformationen an. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Zugriffsmethode** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel für Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Informationen](/help/analyze/get-started/sys-reqs.md) | Einrichtung über den Browser. [Weitere Informationen](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit Adobe Developer-Anmeldeinformationen an. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Treffer | Aggregiert |
 | **Experience Cloud ID (ECID) verfügbar** | Nein | Nein | Ja | Ja | Nein |
 | **Zeitstempel verfügbar** | Nein | Nein | Nein | Ja | Nein |
@@ -36,5 +36,5 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Kuratierung** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja – Projekt und Virtual Report Suite | Nein | Nein | Nein | Ja – nur Virtual Report Suite |
 | **Projektfreigabe** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, mit Projektrollen | Ja | Nein | Nein | Nein |
 | **Geplanter Versand** | Ja | Ja | Ja | Ja | Nein |
-| **Versandziele** | E-Mail | E-Mail, FTP, SFTP, [Veröffentlichung auf Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC und E-Mail | Amazon S3, Azure RBAC, Azure SAS und Google Cloud Platform | – |
+| **Versandziele** | E-Mail | E-Mail, FTP, SFTP, [Veröffentlichung auf Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC und E-Mail | Amazon S3, Azure RBAC, Azure SAS und Google Cloud Platform | – |
 | **Berichtszeitverarbeitung von Virtual Report Suite** <br> [Weitere Informationen](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nein | Nein | Nein | Ja |
