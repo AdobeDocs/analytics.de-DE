@@ -4,14 +4,16 @@ title: Best Practices
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '139'
+ht-degree: 100%
 
 ---
 
 # Best Practices
+
+{{legacy-arb}}
 
 ## Beibehalten von Referenzen in Power BI-Visualisierungen
 

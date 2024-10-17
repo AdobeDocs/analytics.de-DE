@@ -4,7 +4,7 @@ title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 65%
@@ -12,6 +12,8 @@ ht-degree: 65%
 ---
 
 # Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
+
+{{legacy-arb}}
 
 Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden jetzt in Schritt 1 des Anforderungs-Assistenten als Dimensionen aufgelistet und können als Report Builder-Anforderungen importiert werden.
 

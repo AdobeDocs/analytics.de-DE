@@ -4,7 +4,7 @@ title: 'Datenanforderungen – Anforderungs-Assistent: Schritt 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 92%
@@ -12,6 +12,8 @@ ht-degree: 92%
 ---
 
 # Datenanforderungen – Anforderungs-Assistent: Schritt 1
+
+{{legacy-arb}}
 
 Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ wählen Sie die Report Suite, den Berichtstyp sowie die Segmente aus und konfigurieren Datumswerte.
 

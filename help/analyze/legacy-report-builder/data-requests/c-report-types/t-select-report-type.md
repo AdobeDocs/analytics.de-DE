@@ -4,14 +4,16 @@ title: Berichtstyp auswählen
 feature: Report Builder
 role: User, Admin
 exl-id: c515eae5-93da-460b-8c72-7ddf3d7c5dfe
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '55'
+ht-degree: 100%
 
 ---
 
 # Berichtstyp auswählen
+
+{{legacy-arb}}
 
 Schritte zur Auswahl des Basisberichtstyps für Ihre Datenanforderung
 

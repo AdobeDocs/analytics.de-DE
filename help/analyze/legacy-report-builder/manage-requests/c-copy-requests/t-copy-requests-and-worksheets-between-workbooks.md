@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # Anforderungen und Arbeitsblätter zwischen Arbeitsmappen kopieren
 
+{{legacy-arb}}
+
 Kopieren Sie ein ganzes Arbeitsblatt aus einer Quellarbeitsmappe in eine oder mehrere Arbeitsmappen. Dazu müssen Sie mindestens zwei Arbeitsmappen in derselben Excel-Instanz geöffnet haben:
+
 * Die erste Quellarbeitsmappe enthält eine Tabelle (Arbeitsblatt) mit Anforderungen, die Zellen zugeordnet sind.
+
 * Die zusätzlichen Ziel-Arbeitsmappen sind die Ziele. Für jede neue Zielarbeitsmappe müssen Sie sich bei derselben Report Suite wie die Quellarbeitsmappe anmelden, bevor Sie Arbeitsblätter mit Anforderungen einfügen können.
 
 >[!NOTE]

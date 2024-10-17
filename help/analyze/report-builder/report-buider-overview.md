@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 32%
+source-wordcount: '561'
+ht-degree: 28%
 
 ---
 
@@ -16,10 +16,14 @@ ht-degree: 32%
 
 Das neue JavaScript-Report Builder-Add-in, das ursprünglich nur auf Customer Journey Analytics verfügbar war, wird jetzt auch in Adobe Analytics eingeführt. Diese neue Version bietet mehrere Vorteile:
 
-- Unterstützung für Microsoft Excel in Mac, Microsoft Windows und Webbrowsern
-- Verbessertes Benutzererlebnis
+- Mit verbesserten Workflows für die Erstellung und Verwaltung von Datenblöcken, einschließlich höherer Flexibilität bei Datenblöcken, können Sie Einblicke in Excel schneller und einfacher finden.
+- Plattformübergreifend: Melden Sie sich nicht mehr bei Ihrer VM an, um Report Builder zu verwenden, da wir jetzt PC, Mac und Excel Online unterstützen
+- Weniger Wartezeit für die Rückgabe von Datenblöcken dank API 2.0-Upgrade
 - Verbesserte Geschwindigkeit.
-- Unterstützung für Analytics 2.0 API
+
+>[!NOTE]
+>
+>Die Arbeitsmappen-Planung für diese Version von Report Builder auf Adobe Analytics wurde noch nicht veröffentlicht, wird aber Anfang 2025 verfügbar sein. Sie können jetzt mit Arbeitsmappen beginnen, die keine Planung erfordern.
 
 Benutzer des Tools &quot;Legacy Report Builder&quot;können [alte Arbeitsmappen](/help/analyze/report-builder/convert-workbooks.md) in den neuen Report Builder konvertieren.
 

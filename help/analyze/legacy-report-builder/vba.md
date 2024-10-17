@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Funktionalität von Excel-Arbeitsmappen u
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Visual Basic-Makros in Report Builder
+
+{{legacy-arb}}
 
 Visual Basic (VBA)-Makros bieten Funktionen, mit denen Sie Excel-Arbeitsmappen aktualisieren können. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und Windows.
 

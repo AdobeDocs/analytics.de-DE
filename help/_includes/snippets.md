@@ -1,11 +1,18 @@
 ---
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 93%
+source-wordcount: '1214'
+ht-degree: 89%
 
 ---
 # Snippets
+
+## Legacy-Report Builder {#legacy-arb}
+
+>[!IMPORTANT]
+>
+>Am 16. Oktober 2024 wurde ein neuer und optimierter [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) veröffentlicht. Sie wird in Mac-, Windows- und Webbrowsern unterstützt.
+>Diese alte Report Builder-Add-In-Version funktioniert weiterhin. Sie können [Ihre alten Arbeitsmappen](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in den neuen Report Builder konvertieren.
 
 ## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
