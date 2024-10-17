@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+source-git-commit: 21cf08af6922aaaed2f0b3e4c0fcd701b54473ee
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 91%
+source-wordcount: '509'
+ht-degree: 92%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober 2024)
 
-**Letztes Update**: Donnerstag, 16. Oktober 2024
+**Letztes Update**: Freitag, 17. Oktober 2024
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 2. Oktober 2024 bis zum 22. Oktober 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,7 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 2. O
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Neuer Report Builder für Adobe Analytics | Die neue Report Builder-Anwendung bietet aktualisierte Funktionen wie verbesserte Leistung, optimierte Benutzeroberfläche, 2.0-API-Unterstützung und Unterstützung für Microsoft Excel unter Mac, Windows und Webbrowsern. [Dokumentationslink, der folgen soll] |  | Donnerstag, 16. Oktober 2024 |
+| Neuer Report Builder für Adobe Analytics | Die neue Report Builder-Anwendung bietet aktualisierte Funktionen wie verbesserte Leistung, optimierte Benutzeroberfläche, 2.0-API-Unterstützung und Unterstützung für Microsoft Excel unter Mac, Windows und Webbrowsern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | Donnerstag, 16. Oktober 2024 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
