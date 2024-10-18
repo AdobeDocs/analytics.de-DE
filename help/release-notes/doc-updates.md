@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
+source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
 workflow-type: tm+mt
-source-wordcount: '5994'
+source-wordcount: '6028'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Oktober 2024** |  |
+| Neue Informationen zu Anforderungsfaktoren in der Analysis Workspace-Leistung | In einem neuen Abschnitt [Anforderungsfaktoren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) im Artikel [Leistungsoptimierung von Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) wird erläutert, wie Anforderungen verarbeitet werden und welche Faktoren die Verarbeitungszeiten beeinflussen. |
 | Neuer Report Builder | [Neue Dokumentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) für das optimierte Report Builder-Add-in, das in Mac, Windows und Webbrowsern unterstützt wird. |
 | **August 2024** | |
 | Warnhinweis-Manager | Die Dokumentation zum [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) wurde optimiert. Die Aktualisierungen verbessern die Klarheit und Genauigkeit. |

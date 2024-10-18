@@ -4,10 +4,10 @@ title: Leistungsfaktoren und Optimierung von Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ab2eead2406a7bb06f76cab7a09333a5dc250359
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 100%
+source-wordcount: '2503'
+ht-degree: 77%
 
 ---
 
@@ -57,13 +57,42 @@ Darüber hinaus können Sie die Leistungsinhalte **als CSV-Datei herunterladen**
 
 | Faktor | Definition | Optimierung |
 | --- | --- | --- |
-| Anzahl der Abfragen | Die Gesamtzahl der Abfragen (Anfragen) an Adobe, die zum Abrufen der im Projekt angezeigten Daten vorgenommen wurden. Zu den Abfragen gehören Ranganfragen für Tabellen, Anomalieerkennung, Wortgrafiken, Komponenten in der linken Leiste und mehr. Schließt ausgeblendete Bedienfelder und Visualisierungen aus. Die Richtlinie ist 100. | Vereinfachen Sie Ihr Projekt nach Möglichkeit, indem Sie Daten in verschiedene Projekte aufteilen, die einem bestimmten Zweck oder Interessenten dienen. Verwenden Sie Tags, um Projekte in Themen zu organisieren, und verwenden Sie [direkte Verknüpfungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=de), um ein internes Inhaltsverzeichnis zu erstellen, damit die Interessierte leichter finden können, wonach sie suchen. |
+| Anzahl der Anfragen | Die Gesamtzahl der an Adobe gerichteten Anfragen zum Abrufen von Daten, die im Projekt angezeigt werden. Zu den Abfragen gehören Ranganfragen für Tabellen, Anomalieerkennung, Wortgrafiken, Komponenten in der linken Leiste und mehr. Schließt ausgeblendete Bedienfelder und Visualisierungen aus. Die Richtlinie ist 100. | Vereinfachen Sie Ihr Projekt nach Möglichkeit, indem Sie Daten in verschiedene Projekte aufteilen, die einem bestimmten Zweck oder Interessenten dienen. Verwenden Sie Tags, um Projekte in Themen zu organisieren, und verwenden Sie [direkte Verknüpfungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=de), um ein internes Inhaltsverzeichnis zu erstellen, damit die Interessierte leichter finden können, wonach sie suchen. |
 | Erweiterte Bedienfelder (von der Gesamtzahl der Bedienfelder) | Die Anzahl der erweiterten Bedienfelder von der Gesamtzahl der Bedienfelder im Projekt. Die Richtlinie ist 5. | Nachdem Sie Schritte zur Vereinfachung des Projekts unternommen haben, reduzieren Sie die Bedienfelder im Projekt, die beim Laden nicht angezeigt werden müssen. Wenn das Projekt geöffnet wird, werden nur erweiterte Bedienfelder verarbeitet. Reduzierte Felder werden erst verarbeitet, wenn der Nutzer sie erweitert. |
 | Erweiterte Visualisierungen (aus der Gesamtzahl der Visualisierungen) | Die Anzahl der erweiterten Tabellen und Visualisierungen aus der Gesamtsumme im Projekt, einschließlich der ausgeblendeten Datenquellen. Die Richtlinie ist 15. | Nachdem Sie Schritte zur Vereinfachung des Projekts unternommen haben, reduzieren Sie die Visualisierungen in Ihrem Projekt, die beim Laden nicht angezeigt werden müssen. Priorisieren Sie die Visuals, die für den Verbraucher des Berichts am wichtigsten sind, und teilen Sie die unterstützenden Visuals bei Bedarf in ein separates, detaillierteres Bedienfeld oder Projekt auf. |
 | Anzahl der Freiformzellen | Die Gesamtzahl der Freiform-Tabellenzellen im Projekt, berechnet durch Zeilen * Spalten in allen Tabellen. Schließt verborgene Datenquellen aus. Die Richtlinie ist 4000. | Reduzieren Sie die Anzahl der Spalten in Ihrer Tabelle auf die relevantesten Datenpunkte. Reduzieren Sie die Anzahl der Zeilen in Ihrer Tabelle, indem Sie die Anzahl der angezeigten Zeilen anpassen, einen Tabellenfilter oder ein Segment anwenden. |
 | Verfügbare Komponenten | Die Gesamtzahl der in der linken Leiste des Projekts abgerufenen Komponenten für alle Report Suites im Projekt. Dies wirkt sich auf die Geschwindigkeit aus, mit der die linke Leiste geladen wird und wie schnell Suchergebnisse innerhalb der Leiste zurückgegeben werden. Die Richtlinie ist 2.000. | Sprechen Sie mit Ihrem Produktadministrator über das Erstellen einer kuratierten Virtual Report Suite, die über einen stärker auf Ihre Bedürfnisse zugeschnittenen Satz an Komponenten verfügt. |
 | Verwendete Komponenten | Die Gesamtzahl der im Projekt verwendeten Komponenten. Die Richtlinie ist 100. | Die Anzahl der verwendeten Komponenten hat keinen direkten Einfluss auf die Leistung. Die Komplexität dieser Komponenten wird jedoch zur Leistung des Projekts beitragen. Siehe Optimierungen im Abschnitt „Weitere Faktoren“ unten. |
 | Längster Datumsbereich | Dieser Faktor zeigt den längsten Datumsbereich an, der für das Projekt verwendet wurde. Die Richtlinie ist ein Jahr. | Rufen Sie möglichst nicht mehr Daten ab, als Sie benötigen. Schränken Sie den Kalender des Bedienfelds auf die relevanten Daten für Ihre Analyse ein oder verwenden Sie Datumsbereichskomponenten (violette Komponenten) in Ihren Freiform-Tabellen. In einer Tabelle verwendete Datumsbereiche überschreiben den Datumsbereich des Bedienfelds. Beispielsweise können Sie den Tabellenspalten „Letzter Monat“, „Letzte Woche“ und „Gestern“ hinzufügen, um diese spezifischen Datenbereiche anzufordern. Weitere Informationen zu Datumsbereichen in Analysis Workspace erhalten Sie in [diesem Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html?lang=de). <br><br>Minimieren Sie außerdem die Anzahl der im Projekt verwendeten Jahresvergleiche. Bei der Berechnung eines Jahresvergleichs werden die gesamten 13 Monate von Daten zwischen den betrachteten Monaten berücksichtigt. Dies hat die gleiche Auswirkung wie die Änderung des Datumsbereichs des Bedienfelds auf 13 Monate. |
+
+## Anforderungsfaktoren
+
+[!UICONTROL Hilfe] > [!UICONTROL Leistung] Anforderungsfaktoren
+
+Verwenden Sie das folgende Diagramm und die folgenden Begriffe, um zu erfahren, wie Anforderungen verarbeitet werden und welche Faktoren die Verarbeitungszeiten beeinflussen:
+
+>[!NOTE]
+>
+>Die empfohlenen Richtlinien für diese Faktoren basieren auf einem Komplexitätswert von Medium für Berichterstellungsanforderungen.
+
+
+### Anforderungsverarbeitungsdiagramm
+
+![Anforderungsverarbeitung](assets/request-processing.png)
+
+### Verarbeitungsbegriffe anfordern
+
+| Faktor | Definition | Optimierung |
+| --- | --- | --- |
+| [!UICONTROL **Durchschnittliche Anforderungszeit**] | Die Zeit, die ab dem Initiieren der Anfrage bis zum Abschluss benötigt wird. <p>Im obigen Diagramm [Anforderungsverarbeitung](#request-processing-diagram) stellt die Anforderungszeit den gesamten Prozess dar, von **Analysis Workspace-Anfrage initiiert** bis **Analysis Workspace-Anfrage abgeschlossen**.</p> |  |
+| [!UICONTROL **Längste Anforderungszeit**] | Die Zeit, die ab dem Initiieren der Anfrage bis zum Abschluss benötigt wird. <p>Im obigen Diagramm [Anforderungsverarbeitung](#request-processing-diagram) stellt die Anforderungszeit den gesamten Prozess dar, von **Analysis Workspace-Anfrage initiiert** bis **Analysis Workspace-Anfrage abgeschlossen**.</p> |  |
+| [!UICONTROL **Durchschnittliche Suchzeit**] | Da Analysis Workspace nur den Hash für alle Zeichenfolgen speichert, die in beliebigen Segmenten verwendet werden, werden bei jeder Projektverarbeitung **Suchen** ausgeführt, um die Hashes mit den entsprechenden Werten abzugleichen. <p>Dies kann ein ressourcenintensiver Prozess sein, je nachdem, wie viele Werte möglicherweise mit dem Hash übereinstimmen. </p><p>Im obigen Diagramm [Anforderungsverarbeitung](#request-processing-diagram) wird die Suchzeit in der Phase **Suchvorgänge** dargestellt (zum Zeitpunkt der Phase der **Verarbeitung der Anforderungs-Engine**).</p> | Wenn sich die Anforderungen hier verlangsamen, liegt dies wahrscheinlich daran, dass in Ihrem Projekt zu viele Zeichenfolgensegmente vorhanden sind oder Zeichenfolgen mit zu generischen Werten vorhanden sind, die zu viele potenzielle Übereinstimmungen aufweisen. |
+| [!UICONTROL **Durchschnittliche Warteschlangenzeit**] | Die Gesamtwartezeit in der Warteschlange, bevor Anforderungen verarbeitet werden.<p>Im obigen Diagramm [Anforderungsverarbeitung](#request-processing-diagram) wird die Warteschlangenzeit in der Phase **Anforderungs-Engine-Warteschlange** und in der Phase **Server-Warteschlange** dargestellt.</p> | Wenn sich die Anforderungen hier verlangsamen, kann dies auf zu viele Anforderungen zurückzuführen sein, die gleichzeitig in Ihrem Unternehmen ausgeführt werden. Versuchen Sie, die Anfrage außerhalb der Spitzenzeiten auszuführen. |
+| [!UICONTROL **Durchschnittliche Server-Verarbeitungszeit**] | Die durchschnittliche Zeit, die für die Verarbeitung der Anfrage benötigt wird.<p>Im obigen Diagramm [Anforderungsverarbeitung](#request-processing-diagram) wird die durchschnittliche Serververarbeitungszeit in der Phase **Serverwarteschlange** und in der Phase **Serververarbeitung** dargestellt. | Wenn sich die Anforderungen hier verlangsamen, weist das Projekt wahrscheinlich zu lange Datumsbereiche oder komplexe Visualisierungen auf. Versuchen Sie, den Datumsbereich Ihres Projekts zu verkürzen, um die Verarbeitungszeiten zu verkürzen. |
+| [!UICONTROL **Komplexität**] | Nicht alle Anforderungen benötigen dieselbe Verarbeitungszeit. Die Anforderungskomplexität kann dabei helfen, eine allgemeine Vorstellung davon zu erhalten, wie viel Zeit für die Verarbeitung der Anfrage erforderlich ist. <p>Mögliche Werte:</p> <ul><li>[!UICONTROL **Niedrig**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **Hoch**]</li></ul>Dieser Wert wird durch die Werte in den folgenden Spalten beeinflusst:<ul><li>[!UICONTROL **Monatsgrenzen**]</li><li>[!UICONTROL **Spalten**]</li><li>[!UICONTROL **Segmente**]</li></ul> |  |
+| [!UICONTROL **Monatsgrenzen**] | Die Anzahl der Monate, die in einer Anfrage enthalten sind. Mehr Monatsgrenzen erhöhen die Komplexität der Anfrage. | Wenn sich die Anforderungen hier verlangsamen, liegt dies möglicherweise daran, dass die Monatsgrenzen in Ihrem Projekt zu groß sind. Versuchen Sie, die Anzahl der Monate zu reduzieren. |
+| [!UICONTROL **Spalten**] | Die Anzahl der Metriken und Aufschlüsselungen in der Anforderung. Mehr Spalten erhöhen die Komplexität der Anforderung. | Wenn sich die Anforderungen hier verlangsamen, liegt dies möglicherweise daran, dass Ihr Projekt zu viele Spalten enthält. Versuchen Sie, die Anzahl der Spalten zu reduzieren. |
+| [!UICONTROL **Segmente**] | Die Anzahl der Segmente, die auf die Anforderung angewendet werden. Weitere Segmente erhöhen die Komplexität der Anforderung. | Wenn sich die Anforderungen hier verlangsamen, kann dies daran liegen, dass Ihr Projekt zu viele Segmente enthält. Versuchen Sie, die Anzahl der Segmente zu reduzieren. |
 
 ## Zusätzliche Faktoren
 
