@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,25 +20,25 @@ Ein *Datenblock* ist die Datentabelle, die von einer einzelnen Datenanforderung 
 
 Konfigurieren Sie die anfänglichen Datenblock-Parameter für den Datenblock-Speicherort, die Report Suites und einen Datumsbereich.
 
-1. Klicken Sie auf **Datenblock erstellen**.
+1. Klicken Sie auf **[!UICONTROL Datenblock erstellen]**.
 
    ![ Screenshot mit der Option &quot;Datenblock erstellen&quot;.](./assets/create_db.png)
 
-1. Legen Sie den **Speicherort des Datenblocks** fest.
+1. Legen Sie den **[!UICONTROL Speicherort des Datenblocks]** fest.
 
    Die Option „Datenblock-Speicherort“ definiert den Speicherort des Arbeitsblatts, an dem Report Builder die Daten zu Ihrem Arbeitsblatt hinzufügt.
 
    Um den Speicherort des Datenblocks anzugeben, wählen Sie eine einzelne Zelle im Arbeitsblatt aus oder geben Sie eine Zellenadresse ein, z. B. a3, \\\$a3, a\\\$3 oder sheet1!a2. Die angegebene Zelle ist die obere linke Ecke des Datenblocks, wenn die Daten abgerufen werden.
 
-1. Wählen Sie die **Report Suites** aus.
+1. Wählen Sie eine **Report Suite** aus.
 
    Mit der Option Report Suites können Sie eine Report Suite aus einem Dropdown-Menü auswählen oder auf eine Report Suite aus einer Zellenposition verweisen.
 
-1. Legen Sie den **Datumsbereich** fest.
+1. Legen Sie den **[!UICONTROL Datumsbereich]** fest.
 
    Mit der Option „Datumsbereich“ können Sie einen Datumsbereich auswählen. Datumsbereiche können fest oder rollierend sein. Weitere Informationen zu den Datumsbereichsoptionen finden Sie unter [Einen Datumsbereich auswählen](select-date-range.md).
 
-1. Klicken Sie auf **Weiter**.
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![Screenshot mit der Option &quot;Datumsbereich&quot;und der aktiven Schaltfläche &quot;Weiter&quot;](./assets/choose_date_data_view3.png)
 
