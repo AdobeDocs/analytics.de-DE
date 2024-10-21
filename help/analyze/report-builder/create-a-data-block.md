@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Ein *Datenblock* ist die Datentabelle, die von einer einzelnen Datenanforderung 
 
 Konfigurieren Sie die anfänglichen Datenblockparameter für die Position des Datenblocks, die Report Suite und einen Datumsbereich.
 
-1. Klicken Sie auf **[!UICONTROL Datenblock erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![ Screenshot mit der Option &quot;Datenblock erstellen&quot;.](./assets/create_db.png)
 
@@ -28,7 +28,7 @@ Konfigurieren Sie die anfänglichen Datenblockparameter für die Position des Da
 
    Die Option „Datenblock-Speicherort“ definiert den Speicherort des Arbeitsblatts, an dem Report Builder die Daten zu Ihrem Arbeitsblatt hinzufügt.
 
-   Um den Speicherort des Datenblocks anzugeben, wählen Sie eine einzelne Zelle im Arbeitsblatt aus oder geben Sie eine Zellenadresse ein, z. B. a3, \\\$a3, a\\\$3 oder sheet1!a2. Die angegebene Zelle ist die obere linke Ecke des Datenblocks, wenn die Daten abgerufen werden.
+   Um den Speicherort des Datenblocks anzugeben, wählen Sie eine einzelne Zelle im Arbeitsblatt aus oder geben Sie eine Zellenadresse ein, z. B. a3, \\\$a3, a\\\$3 oder sheet1!a2. Die angegebene Zelle markiert die obere linke Ecke des Datenblocks, wenn die Daten abgerufen werden.
 
 1. Wählen Sie eine **Report Suite** aus.
 
@@ -50,7 +50,7 @@ Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Si
 
 1. Fügen Sie Dimensionen, Metriken und Filter hinzu.
 
-   Scrollen Sie in den Komponentenlisten oder verwenden Sie das Feld **Suchen**, um Komponenten zu finden. Ziehen Sie Komponenten per Drag &amp; Drop in den Tabellenbereich oder doppelklicken Sie auf einen Komponentennamen in der Liste, um die Komponente automatisch zum Tabellenbereich hinzuzufügen.
+   Scrollen Sie in den Komponentenlisten durch oder verwenden Sie das Feld **[!UICONTROL Suche]** , um Komponenten zu finden. Ziehen Sie Komponenten per Drag &amp; Drop in den Tabellenbereich oder doppelklicken Sie auf einen Komponentennamen in der Liste, um die Komponente automatisch zum Tabellenbereich hinzuzufügen.
 
    Doppelklicken Sie auf eine Komponente, um sie einem Standardabschnitt der Tabelle hinzuzufügen.
 
@@ -60,7 +60,7 @@ Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Si
 
    **Startdatum als Dimension**
 
-   Legen Sie das Startdatum als Dimension fest, um das Startdatum Ihres Datenblocks eindeutig zu identifizieren. Dies ist hilfreich, wenn Sie einen regelmäßig terminierten Bericht mit einem rollierenden Datumsbereich haben oder wenn Sie einen unkonventionellen Datumsbereich haben und das Startdatum nicht angegeben werden muss.
+   Legen Sie das **[!UICONTROL Startdatum]** als Dimension fest, um das Startdatum Ihres Datenblocks eindeutig zu identifizieren. Dies ist hilfreich, wenn Sie einen regelmäßig terminierten Bericht mit einem rollierenden Datumsbereich haben oder wenn Sie einen unkonventionellen Datumsbereich haben und Sie am Startdatum klar sein müssen.
 
    ![Screenshot mit dem Startdatum in der Liste der Dimensionen.](./assets/start-date-dimension.png){width="30%"}
 
@@ -74,7 +74,7 @@ Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Si
 
    **Anzeigen oder Ausblenden von Zeilen- und Spaltenüberschriften**
 
-1. Klicken Sie auf das Symbol **Tabellen**-Einstellungen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Tabelleneinstellungen]**.
 
    ![ Screenshot mit der Option Tabelleneinstellungen.](./assets/table-settings.png){width="35%"}
 
@@ -88,7 +88,7 @@ Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Si
 
 1. Klicken Sie auf Ausblenden oder Anzeigen , um die Dimensionsbezeichnungen oder Spaltenüberschriften umzuschalten. Alle Bezeichnungen werden standardmäßig angezeigt.
 
-1. Klicken Sie auf **Beenden**.
+1. Klicken Sie auf **[!UICONTROL Fertig stellen]**.
 
    Eine Verarbeitungsmeldung wird angezeigt, während die Analysedaten abgerufen werden.
 
