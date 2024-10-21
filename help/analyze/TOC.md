@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und veralteter Report Builder sowie Activity Map.
-source-git-commit: 227a9d2b10db737ad255c2f9f65bab0ede691f20
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 96%
@@ -166,7 +166,7 @@ ht-degree: 96%
    + [Ältere Anforderungen konvertieren](report-builder/convert-workbooks.md)
    + [Datenblock erstellen](report-builder/create-a-data-block.md)
    + [Report Builder-Hub](report-builder/report-builder-hub.md)
-   + [Datenansicht auswählen](report-builder/select-report-suite.md)
+   + [Eine Report Suite auswählen](report-builder/select-report-suite.md)
    + [Datumsbereich auswählen](report-builder/select-date-range.md)
    + [Arbeiten mit Segmenten](report-builder/work-with-segments.md)
    + [Dimensionen filtern](report-builder/filter-dimensions.md)

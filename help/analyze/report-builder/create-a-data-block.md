@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -18,9 +18,9 @@ Ein *Datenblock* ist die Datentabelle, die von einer einzelnen Datenanforderung 
 
 ## Datenblock konfigurieren
 
-Konfigurieren Sie die anfänglichen Datenblock-Parameter für den Datenblock-Speicherort, die Report Suites und einen Datumsbereich.
+Konfigurieren Sie die anfänglichen Datenblockparameter für die Position des Datenblocks, die Report Suite und einen Datumsbereich.
 
-1. Klicken Sie auf **[!UICONTROL Datenblock erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Datenblock erstellen]**.
 
    ![ Screenshot mit der Option &quot;Datenblock erstellen&quot;.](./assets/create_db.png)
 
