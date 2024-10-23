@@ -3,15 +3,14 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Version vom 23. Oktober 2024)
-
 
 **Letztes Update**: Donnerstag, 23. Oktober 2024
 
@@ -38,12 +37,11 @@ Data Sources: AN-359290
 Data Warehouse: AN-359820
 Ausschreibungswarnungen: AN-358132
 
-
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **Nicht-Campaign-Kunden verlieren den Zugriff auf Trigger** | 16. Oktober 2024 | Am 30. Januar 2025 verlieren Adobe Analytics-Kunden, die keine Adobe Campaign-Lizenz haben, den Zugriff auf die Möglichkeit, [Trigger](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) zu konfigurieren und zu nutzen. Kunden müssen entweder Campaign erwerben oder planen, keine Trigger mehr zu verwenden, oder sich andere Adobe-Tools ansehen, die Trigger-Funktionen bieten. |
+| **Nicht-Campaign-Kunden verlieren den Zugriff auf Trigger** | 16. Oktober 2023 | Am 30. Januar 2025 verlieren Adobe Analytics-Kunden, die keine Adobe Campaign-Lizenz haben, den Zugriff auf die Möglichkeit, Trigger zu konfigurieren und zu nutzen. Kunden müssen entweder Campaign erwerben oder planen, keine Trigger mehr zu verwenden, oder sich andere Adobe-Tools ansehen, die Trigger-Funktionen bieten. |
 | **Automatische Zuordnung von XDM-Feldern mit zusätzlichen Implementierungsdetails** | 11. September 2024 | Wenn Sie Adobe Experience Platform Edge Network zum Senden von Daten an Adobe Analytics verwenden, werden die XDM-Felder `xdm.implementationdetails.name` und `xdm.implementationdetails.environment` nun immer den Kontextdatenvariablen `c.a.x.implementationdetails.name` und `c.a.x.implementationdetails.environment` zugeordnet. Früher wurde bei bestimmten Szenarien verhindert, dass diese Werte ausgefüllt werden. Passen Sie die relevanten Verarbeitungsregeln an, damit diese Werte verfügbar sind. |
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
