@@ -3,41 +3,48 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ae03f0d9e5f22c8e8ff6550a33a6f9d18432f46f
+source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 94%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Oktober 2024)
+# Aktuelle Adobe Analytics-Versionshinweise (Version vom 23. Oktober 2024)
 
-**Letztes Update**: Freitag, 17. Oktober 2024
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 2. Oktober 2024 bis zum 22. Oktober 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+**Letztes Update**: Donnerstag, 23. Oktober 2024
+
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 16. Oktober 2024 bis Ende des Jahres 2024. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Neuer Report Builder für Adobe Analytics | Die neue Anwendung Report Builder bietet aktualisierte Funktionen für Adobe Analytics, beispielsweise verbesserte Leistung, eine optimierte Benutzeroberfläche, Unterstützung für 2.0 API und Unterstützung für Microsoft Excel unter Mac, Windows und in Web-Browsern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16. Oktober 2024 |
+| **Neuer Report Builder für Adobe Analytics** | Die neue Report Builder-Applikation bietet eine umfangreiche Aktualisierung von Adobe Analytics, einschließlich verbesserter Leistung, optimierter Benutzeroberfläche, 2.0-API-Unterstützung und Unterstützung für Microsoft Excel unter Mac, Windows und Webbrowsern. Diese Anwendung kann zusammen mit der Legacy-Anwendung verwendet werden, jedoch nicht in derselben Datei. Eine Upgrade-Funktion wird bereitgestellt, um alte Arbeitsmappen auf die neue Anwendung zu aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16. Oktober 2024 |
+| **JSON-Export für die Migration der Tag-Implementierung zu Web SDK-Tags** | Diese Aktualisierung der Analytics-Tag-Erweiterung bezieht sich auf die Migration zum Web SDK. Sie können dieses Update für die Adobe Analytics-Erweiterung als Teil Ihres Workflows verwenden, um Ihre Erweiterungskonfigurationen mit der Web SDK-Erweiterung neu zu erstellen. In der Adobe Analytics-Tag-Erweiterung können Sie eVars-, Props- und Ereigniseinstellungen als JSON anzeigen, die zur Bearbeitung exportiert und in die Web SDK-Erweiterung aufgenommen werden können. |  | Donnerstag, 23. Oktober 2024 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
-Analysis Workspace: AN-343611; AN-355870; AN-357100; AN-358364; AN-358756; AN-359269
-Analytics-App: AN-354085
-Klassifizierungen: AN-353074; AN-357533; AN-358308; AN-358350; AN-358732; AN-358925; AN-359249
-Geräteübergreifende Analyse: AN-357968
-Daten-Feeds: AN-358489; AN-358542
-Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
+Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
+Admin Tools: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-35954 8; AN-360136
+Klassifizierungen: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-35979; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
+Geräteübergreifende Analyse: AN-359210
+Kundenattribute: AN-357897
+Datenerfassung: AN-351131; AN-351309; AN-355678; AN-359856
+Datenfeeds: AN-359699
+Datenreparatur-API: AN-360256
+Data Sources: AN-359290
+Data Warehouse: AN-359820
+Ausschreibungswarnungen: AN-358132
+
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
+| **Nicht-Campaign-Kunden verlieren den Zugriff auf Trigger** | 16. Oktober 2024 | Am 30. Januar 2025 verlieren Adobe Analytics-Kunden, die keine Adobe Campaign-Lizenz haben, den Zugriff auf die Möglichkeit, [Trigger](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) zu konfigurieren und zu nutzen. Kunden müssen entweder Campaign erwerben oder planen, keine Trigger mehr zu verwenden, oder sich andere Adobe-Tools ansehen, die Trigger-Funktionen bieten. |
 | **Automatische Zuordnung von XDM-Feldern mit zusätzlichen Implementierungsdetails** | 11. September 2024 | Wenn Sie Adobe Experience Platform Edge Network zum Senden von Daten an Adobe Analytics verwenden, werden die XDM-Felder `xdm.implementationdetails.name` und `xdm.implementationdetails.environment` nun immer den Kontextdatenvariablen `c.a.x.implementationdetails.name` und `c.a.x.implementationdetails.environment` zugeordnet. Früher wurde bei bestimmten Szenarien verhindert, dass diese Werte ausgefüllt werden. Passen Sie die relevanten Verarbeitungsregeln an, damit diese Werte verfügbar sind. |
-
-{style="table-layout:auto"}
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
 
@@ -46,7 +53,6 @@ Data Warehouse: AN-352181; AN-356701; AN-356802; AN-356804; AN-359162
 | **Ende der Nutzungsdauer für Adobe Analytics-API (Version 1.4)** | 17. Juli 2024 | Am **12. August 2026** erreichen die folgenden Analytics Legacy-API-Dienste ihr Lebenszyklusende und werden beendet. Aktuelle Integrationen, die mit diesen Diensten erstellt wurden, funktionieren nicht mehr:<ul><li>Adobe Analytics-API (Version 1.4)</li><li>WSSE-Authentifizierung von Adobe Analytics </li></ul><p>Integrationen, die die Adobe Analytics-API (Version 1.4) verwenden, müssen zur [Adobe Analytics 2.0-API](https://developer.adobe.com/analytics-apis/docs/2.0/) migrieren, während WSSE-Integrationen zu einem OAuth-basierten Authentifizierungsprotokoll in der [Adobe Developer Console](https://developer.adobe.com/console) migrieren müssen.</p><p>Antworten auf häufig gestellte Fragen und weitere Anleitungen finden Sie in den [häufig gestellten Fragen zum Ende der Nutzungsdauer der Adobe Analytics 1.4-API](/help/admin/c-admin-api/c-admin-14-api-eol.md).</p> |
 | **Migration auf OAuth Server-zu-Server-Anmeldeinformationen für Adobe I/O** | 11. Mai 2023 | Kundinnen und Kunden von Adobe Analytics-API und Livestream, die JWT-Anmeldeinformationen für Adobe I/O verwenden, müssen bis zum **1. Januar 2025** auf OAuth Server-zu-Server-Anmeldeinformationen für Adobe I/O migrieren. Adobe I/O lässt die Erstellung neuer JWT-Anmeldeinformationen ab dem 1. Mai 2024 nicht mehr zu. Kunden und Kundinnen, die JWT verwenden, müssen neue OAuth Server-zu-Server-Anmeldeinformationen erstellen oder ihre bestehende JWT-Anmeldeinformationen zu OAuth Server-zu-Server-Anmeldeinformationen migrieren. Kunden und Kundinnen müssen außerdem ihre Client-Anwendungen aktualisieren, um die neuen OAuth Server-to-Server-Anmeldeinformationen zu verwenden. <ul><li>[Migration von Dienstkonto-Anmeldeinformationen (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Implementierungshandbuch für neue und alte Programme mit OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Verwenden der neuen OAuth Server-zu-Server-Anmeldeinformationen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Häufig gestellte Fragen (FAQ)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
-{style="table-layout:auto"}
 
 ## AppMeasurement
 
