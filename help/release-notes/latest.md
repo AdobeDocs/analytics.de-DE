@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
+source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 51%
@@ -21,7 +21,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 16. 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Neuer Report Builder für Adobe Analytics** | Die neue Report Builder-Applikation bietet eine umfangreiche Aktualisierung von Adobe Analytics, einschließlich verbesserter Leistung, optimierter Benutzeroberfläche, 2.0-API-Unterstützung und Unterstützung für Microsoft Excel unter Mac, Windows und Webbrowsern. Diese Anwendung kann zusammen mit der Legacy-Anwendung verwendet werden, jedoch nicht in derselben Datei. Eine Upgrade-Funktion wird bereitgestellt, um alte Arbeitsmappen auf die neue Anwendung zu aktualisieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16. Oktober 2024 |
-| **JSON-Export für die Migration der Tag-Implementierung zu Web SDK-Tags** | Diese Aktualisierung der Analytics-Tag-Erweiterung bezieht sich auf die Migration zum Web SDK. Sie können dieses Update für die Adobe Analytics-Erweiterung als Teil Ihres Workflows verwenden, um Ihre Erweiterungskonfigurationen mit der Web SDK-Erweiterung neu zu erstellen. In der Adobe Analytics-Tag-Erweiterung können Sie eVars-, Props- und Ereigniseinstellungen als JSON anzeigen, die zur Bearbeitung exportiert und in die Web SDK-Erweiterung aufgenommen werden können. |  | Donnerstag, 23. Oktober 2024 |
+| **JSON-Export für die Migration der Tag-Implementierung zu Web SDK-Tags** | Diese Aktualisierung der Analytics-Tag-Erweiterung bezieht sich auf die Migration zum Web SDK. Sie können dieses Update für die Adobe Analytics-Erweiterung als Teil Ihres Workflows verwenden, um Ihre Erweiterungskonfigurationen mit der Web SDK-Erweiterung neu zu erstellen. In der Adobe Analytics-Tag-Erweiterung können Sie eVars-, Props- und Ereigniseinstellungen als JSON anzeigen, die zur Bearbeitung exportiert und in die Web SDK-Erweiterung aufgenommen werden können. |  | 31. Oktober 2024 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
