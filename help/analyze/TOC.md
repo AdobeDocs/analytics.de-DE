@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
-user-guide-description: Erfahren Sie, wie Sie Analytics-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder und veralteter Report Builder sowie Activity Map.
+user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,20 +163,20 @@ ht-degree: 96%
 + Report Builder {#report-builder}
    + [Übersicht über Report Builder](report-builder/report-buider-overview.md)
    + [Einrichten von Report Builder](report-builder/report-builder-setup.md)
-   + [Ältere Anforderungen konvertieren](report-builder/convert-workbooks.md)
+   + [Konvertieren älterer Anfragen](report-builder/convert-workbooks.md)
    + [Datenblock erstellen](report-builder/create-a-data-block.md)
    + [Report Builder-Hub](report-builder/report-builder-hub.md)
    + [Eine Report Suite auswählen](report-builder/select-report-suite.md)
-   + [Datumsbereich auswählen](report-builder/select-date-range.md)
+   + [Auswählen eines Datumsbereichs](report-builder/select-date-range.md)
    + [Arbeiten mit Segmenten](report-builder/work-with-segments.md)
-   + [Dimensionen filtern](report-builder/filter-dimensions.md)
+   + [Filtern von Dimensionen](report-builder/filter-dimensions.md)
    + [Verwalten von Datenblöcken](report-builder/manage-reportbuilder.md)
    + [Erstellen von Zeitplänen für Arbeitsmappen](report-builder/schedule-reportbuilder.md)
    + [Eingeschränkte Beschriftungen](report-builder/restricted-labels.md)
    + [Report Builder-Einstellungen](report-builder/report-builder-settings.md)
-+ Legacy-Report Builder {#legacy-report-builder}
-   + [Hilfe zu veralteten Adobe Report Builder](legacy-report-builder/home.md)
-   + Einrichtung veralteter Report Builder {#legacy-report-builder-setup}
++ Vorgängerversion von Report Builder {#legacy-report-builder}
+   + [Hilfe zur Vorgängerversion von Adobe Report Builder](legacy-report-builder/home.md)
+   + Einrichtung der Vorgängerversion von Report Builder {#legacy-report-builder-setup}
       + [Systemanforderungen](legacy-report-builder/setup/system-requirements.md)
       + [Report Builder installieren](legacy-report-builder/setup/t-install-arb.md)
       + [Report Builder aktualisieren](legacy-report-builder/setup/upgrade-arb.md)
