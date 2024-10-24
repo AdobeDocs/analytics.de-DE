@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
+source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -75,4 +75,4 @@ Beim Vergleich der Funktionalität von Legacy Report Builder mit dem neuen Repor
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
-Sie können Report Builder aus dem [Microsoft Store](https://www.microsoft.com/de-de/store/apps/windows) herunterladen.
+Sie können Report Builder aus dem [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview) herunterladen.
