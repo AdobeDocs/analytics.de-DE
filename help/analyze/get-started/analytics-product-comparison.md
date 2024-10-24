@@ -4,9 +4,9 @@ title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '340'
+ht-degree: 100%
 
 ---
 

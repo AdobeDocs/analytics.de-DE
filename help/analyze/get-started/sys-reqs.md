@@ -4,9 +4,9 @@ description: Die Systemanforderungen für die Verwendung von Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,5 +43,5 @@ Die meisten Adobe Analytics-Lösungen, einschließlich Analysis Workspace, sind 
 
 Die Systemanforderungen dieser Lösungen finden Sie auf der verlinkten Seite der entsprechenden Lösung.
 
-* [Systemanforderungen älterer Report Builder](/help/analyze/legacy-report-builder/setup/system-requirements.md)
+* [Systemanforderungen für die Vorgängerversion von Report Builder](/help/analyze/legacy-report-builder/setup/system-requirements.md)
 

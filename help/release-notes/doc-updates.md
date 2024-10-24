@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Oktober 2024** |  |
-| Neue Informationen zu Anforderungsfaktoren in der Analysis Workspace-Leistung | In einem neuen Abschnitt [Anforderungsfaktoren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) im Artikel [Leistungsoptimierung von Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) wird erläutert, wie Anforderungen verarbeitet werden und welche Faktoren die Verarbeitungszeiten beeinflussen. |
-| Neuer Report Builder | [Neue Dokumentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) für das optimierte Report Builder-Add-in, das in Mac, Windows und Webbrowsern unterstützt wird. |
+| Neue Informationen zu Anfragefaktoren in der Leistung von Analysis Workspace | In einem neuen Abschnitt [Anfragefaktoren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) im Artikel [Optimieren der Leistung von Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) wird erläutert, wie Anfragen verarbeitet werden und welche Faktoren die Verarbeitungszeiten beeinflussen. |
+| Neuer Report Builder | [Neue Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) für das optimierte Report Builder-Add-in, das unter Mac, Windows und in Webbrowsern unterstützt wird. |
 | **August 2024** | |
 | Warnhinweis-Manager | Die Dokumentation zum [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) wurde optimiert. Die Aktualisierungen verbessern die Klarheit und Genauigkeit. |
 | **Juli 2024** | |

@@ -4,9 +4,9 @@ title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ In diesem Video werden verschiedene Adobe Analytics-Tools verglichen:
 
 **[Adobe Analytics-Dashboards](/help/analyze/mobile-app/home.md)** ermöglichen Benutzenden mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** ist ein Add-in für Microsoft Excel, das in Mac, Windows und Webbrowsern ausgeführt wird. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die Sie in Excel-Arbeitsblätter einfügen können. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen.
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** ist ein Add-in für Microsoft Excel, das unter Mac, Windows und in Webbrowsern ausgeführt werden kann. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die Sie in Excel-Arbeitsblätter einfügen können. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen.
 
-**[Legacy Report Builder](/help/analyze/legacy-report-builder/home.md)** ist ein Add-in für Microsoft Excel, das nur unter Windows ausgeführt wird. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die Sie in Excel-Arbeitsblätter einfügen können. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen.
+**[Die Vorgängerversion von Report Builder](/help/analyze/legacy-report-builder/home.md)** ist ein Add-in für Microsoft Excel, das nur unter Windows ausgeführt werden kann. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die Sie in Excel-Arbeitsblätter einfügen können. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen.
 
 Die **[Activity Map](/help/analyze/activity-map/overview.md)** ist eine Funktion in Adobe Analytics, die eine visuelle Darstellung der Benutzerinteraktion auf Web-Seiten und mobilen Apps bietet. Sie ermöglicht es Marketing-Fachleuten sowie Analystinnen und Analysten, Benutzerinteraktionen wie Klicks, Mausberührungen und das Scroll-Verhalten zu verfolgen und zu analysieren.
 
