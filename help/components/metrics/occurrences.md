@@ -3,10 +3,10 @@ title: Vorfälle
 description: Die Anzahl der Treffer, für die eine Variable festgelegt oder beibehalten wurde.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 57%
 
 ---
 
@@ -22,3 +22,9 @@ Schließen Sie von allen Treffern in einer Report Suite die Treffer ein, bei den
 
 * **Vorfälle oder [Instanzen](instances.md)**: Vorfälle zählen Treffer, bei denen ein Dimensionselement festgelegt oder beibehalten wurde. Instanzen enthalten keine Treffer, bei denen ein Dimensionselement beibehalten wird.
 * **Vorfälle im Vergleich zu [Seitenansichten](page-views.md)**: Zu den Vorfällen gehören alle Treffertypen, darunter Seitenansicht-Tracking-Aufrufe ([`t()`](/help/implement/vars/functions/t-method.md)), Linktracking-Aufrufe ([`tl()`](/help/implement/vars/functions/tl-method.md)) und Daten aus [Datenquellen](/help/import/data-sources/overview.md) auf Zusammenfassungsebene. Die Metrik „Seitenansichten“ umfasst nur Seitenansichts-Tracking-Aufrufe, aber keine Linktracking-Aufrufe und Datenquellen auf Zusammenfassungsebene.
+
+## Persistenz
+
+Persistenz ist die Fähigkeit eines bestimmten Dimensionswerts, sich mit einer Metrik über das Ereignis hinaus zu beziehen, für das sie festgelegt wurde. Es wird eine Kombination aus Zuordnung und Gültigkeit verwendet. Mit der Zuordnung können Sie festlegen, welcher Wert beibehalten wird, wenn mehrere Dimensionselemente gleichzeitig in einer Spalte beibehalten werden können. Mit Ablauf können Sie festlegen, wie lange ein Dimensionselement über das Ereignis hinaus bestehen bleibt, für das es festgelegt wurde.
+
+Persistenz ist nur für Dimensionen verfügbar und rückwirkend für die Daten, auf die sie angewendet wird. Es handelt sich um eine sofortige Datenumwandlung, die vor der Anwendung von Filtern oder anderen Analysevorgängen erfolgt. Wenn die Persistenz nicht aktiviert ist, bezieht sich die Dimension nur auf Metriken, die im selben Ereignis vorhanden sind.
