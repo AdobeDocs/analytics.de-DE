@@ -4,10 +4,10 @@ title: Analytics-Benutzermigration zur Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3084'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Antworten auf Fragen, die Sie vielleicht vor der Migration haben.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder aktualisieren </p> </td> 
-   <td colname="col2"> <p> <p>Wichtig: Aktualisieren Sie Ihre Installation von <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=de">Report Builder</a> auf die neueste Version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Wichtig: Aktualisieren Sie Ihre Installation von <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> auf die neueste Version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wann beginnt die Migration? </p> </td> 
@@ -248,7 +248,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kontogültigkeit </p> </td> 
-   <td colname="col2"> <p> Sie können in Analytics in den Admin Tools manuell ein Ablaufdatum für ein Konto festlegen. Sobald das Ablaufdatum erreicht ist, kann der Benutzer nicht mehr auf Analytics zugreifen, aber sein aktuelles Experience Cloud-Benutzerkonto (z. B. Adobe ID, Enterprise ID, Federated ID usw.) behält Gültigkeit. Er kann sich immer noch in die Experience Cloud einloggen, kann aber in Analytics keine Klicks mehr ausführen. </p> </td> 
+   <td colname="col2"> <p> Sie können in Analytics in den Admin Tools manuell ein Ablaufdatum für ein Konto festlegen. Sobald das Ablaufdatum erreicht ist, kann der Benutzer nicht mehr auf Analytics zugreifen, sein aktuelles Experience Cloud-Benutzerkonto (z. B. Adobe ID, Enterprise ID, Federated ID usw.) läuft jedoch nicht mehr ab. Er kann sich immer noch in die Experience Cloud einloggen, kann aber in Analytics keine Klicks mehr ausführen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
