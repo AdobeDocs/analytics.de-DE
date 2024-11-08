@@ -3,10 +3,10 @@ title: Besuche
 description: Eine Folge von Seitenansichten während einer Sitzung.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '694'
+ht-degree: 88%
 
 ---
 
@@ -45,8 +45,8 @@ Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **erst**
 
 Sie können die Definition eines Besuchs auf eine andere Zeit als 30 Minuten ändern.
 
-* Bei [Virtual Report Suites](../vrs/vrs-about.md) können Sie das Besuchszeitlimit mithilfe des Dropdown-Menüs [!UICONTROL Besuchszeitlimit] ändern. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
-* Wenden Sie sich bei Standard-Report Suites an die Kundenunterstützung, um eine Verkürzung der Besuchsdauer für eine bestimmte Report Suite anzufordern. Die Besuchslänge für Standard-Report Suites darf 30 Minuten nicht überschreiten, daher können Sie sie nur verkürzen.
+* Für [Virtual Report Suites](../vrs/vrs-about.md) können Sie das Besuchstimeout (Zeit zwischen Treffern, durch die ein neuer Besuch gestartet wird) mithilfe der Dropdownliste [!UICONTROL Besuchstimeout] ändern. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
+* Wenden Sie sich bei Standard-Report Suites an die Kundenunterstützung, um eine Verkürzung des Besuchstimeouts (Zeit zwischen Treffern, die zum Starten eines neuen Besuchs führen) für eine bestimmte Report Suite anzufordern. Das Besuchstimeout für Standard-Report Suites darf 30 Minuten nicht überschreiten, daher können Sie es nur verkürzen.
 
 ## Besuche, die eine Datumsgrenze überschreiten
 
