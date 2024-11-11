@@ -4,9 +4,9 @@ title: Handbuch zu Adobe Analytics-Dashboards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ So verwenden Sie Dashboards:
 
 1. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
-   Wenn Sie unter einer Anmeldung Zugriff auf mehr als eine Organisation haben, sind alle Scorecards Ihrer Organisation in der Scorecard-Liste verfügbar.
+   Wenn Sie Zugriff auf mehr als eine Organisation mit einer Anmeldung haben, zeigt der Startbildschirm alle Scorecards aller verfügbaren Unternehmen an einem Ort an.
 
    Sie können die Scorecard-Liste nach Scorecard-Titel, Organisationsname oder zuletzt angezeigten Namen sortieren. Sie können sogar nach einer bestimmten Scorecard suchen.
 

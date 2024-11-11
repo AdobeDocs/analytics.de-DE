@@ -4,7 +4,7 @@ title: Mobile Scorecards erstellen und freigeben
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2500'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Um zwischen der Kachel und den Folien zu wechseln, tippen Sie auf die Navigation
 ![Erstellen einer Daten-Story](assets/data-story-nav.png){width="25%"}
 
 Sie können auch hin und her navigieren, indem Sie die Pfeile auf der Tastatur verwenden oder eine Komponente auswählen und links bzw. rechts auf dem Bildschirm gedrückt halten, um einen Bildlauf durchzuführen.
-
 
 ## Vorschau der Scorecard {#preview}
 
