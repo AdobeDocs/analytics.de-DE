@@ -4,7 +4,7 @@ title: Erste Schritte für Admins, Analystinnen und Analysten, Endbenutzerinnen 
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Im Folgenden finden Sie wichtige Aufgaben und Funktionen, mit denen Analystinnen
 | Beitragsanalyse | Verwenden Sie Analysis Workspace, um versteckte Muster zu erkennen, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Spitzen oder Tiefpunkte für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen. | [Beitragsanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) in [Anomalieerkennung – Übersicht](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Warnhinweise | Erstellen und verwalten Sie auf Datenanomalien basierende Warnhinweise sowie „gestapelte“ Warnhinweise, die mehrere Metriken in einem Warnhinweis erfassen. | [Übersicht über Warnhinweise](/help/components/c-alerts/intellligent-alerts.md) |
 | Datenexport | Mit Data Warehouse und Daten-Feeds können Sie Daten an verschiedene Cloud-Ziele exportieren, z. B. Google Cloud Platform, Azure RBAC, Azure SAS und Amazon S3. | [Leitfaden für Analytics-Exporte](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=de) |
-| Activity Map | Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen.<p>Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleunigte Kundenaktivität zu erkennen, Marketinginitiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
+| Activity Map | Activity Map ist eine Adobe Analytics-Anwendung, die der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuweist und ein Dashboard mit Echtzeitanalyse bereitstellt, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen.<p>Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um beschleunigte Kundenaktivität zu erkennen, Marketinginitiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=de) |
 | Report Builder | Report Builder ist ein Add-in für Microsoft Excel. Mit Report Builder können Sie benutzerdefinierte Anfragen aus Adobe Analytics-Daten erstellen, die in Ihre Excel-Arbeitsblätter eingefügt werden. Anforderungen können dynamisch auf Zellen innerhalb Ihres Arbeitsblatts verweisen, und die Darstellung der Daten in Report Builder lässt sich aktualisieren und anpassen. | [Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) |
 
 <!-- * Realtime reporting? -->
