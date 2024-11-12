@@ -4,10 +4,10 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
+source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 100%
+source-wordcount: '3566'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,10 @@ Wenn Sie Segment-Container innerhalb anderer Container erstellen, erstellen Sie 
 1. Bestimmen, welche Daten enthalten sind, indem der äußerste Container verwendet wird. Alle Daten, die nicht mit dieser äußeren Regel übereinstimmen, werden aus dem Segmentbericht ausgeschlossen.
 1. Anwenden der verschachtelten Regel auf die verbleibenden Daten. Die verschachtelte Regel gilt NICHT für Treffer, die die erste Regel abgewiesen hat.
 1. Wiederholen, bis alle verschachtelten Container-Regeln berechnet wurden. Die verbleibenden Daten werden dann in den resultierenden Bericht einbezogen.
+
+>[!NOTE]
+>
+>Wenn Sie ein Segment innerhalb eines Segments verschachteln (z. B. ein Segment aus dem Bedienfeld &quot;Komponenten&quot;auf Ihre Segmentdefinition ziehen), wird ein Container mit einer Kopie (keine Referenz) der gezogenen Segmentregel erstellt.
 
 Sie können die Verschachtelung zwischen Containern und zwischen Regeln in einem Container verwenden. Folgende Elemente können in jedem Container verschachtelt werden:
 
