@@ -3,9 +3,9 @@ description: Warnhinweise ermöglichen eine detaillierte Kontrolle der Benachric
 title: Warnhinweise – Übersicht
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 33%
 
 ---
@@ -29,7 +29,7 @@ Das folgende Video-Tutorial bietet einen grundlegenden Überblick über Warnunge
 
 >[!NOTE]
 >
->Die Verwendung von Warnhinweisen mit Anomalieerkennung (auch _Intelligente Warnhinweise_ genannt) ist nur für Unternehmen mit einem Adobe Analytics Select-, Prime- oder Ultimate-Paket verfügbar.
+>Die Verwendung von Warnhinweisen mit Anomalieerkennung (auch _Intelligente Warnhinweise_ genannt) ist nur für Unternehmen mit einem Adobe Analytics Prime- oder Ultimate-Paket verfügbar.
 
 Wenn ein Warnhinweis eine Anomalieerkennung verwendet, hängt der Trainings-Zeitraum von der für den Warnhinweis ausgewählten Granularität ab.
 
