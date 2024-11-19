@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +29,9 @@ Konfigurieren Sie die anfänglichen Datenblockparameter für die Position des Da
 
    Die Option „Datenblock-Speicherort“ definiert den Speicherort des Arbeitsblatts, an dem Report Builder die Daten zu Ihrem Arbeitsblatt hinzufügt.
 
-   Um den Speicherort des Datenblocks anzugeben, wählen Sie eine einzelne Zelle im Arbeitsblatt aus oder geben Sie eine Zellenadresse ein, z. B. a3, \\\$a3, a\\\$3 oder sheet1!a2. Die angegebene Zelle markiert die obere linke Ecke des Datenblocks, wenn die Daten abgerufen werden.
+   Um die Position des Datenblocks anzugeben, wählen Sie eine einzelne Zelle im Arbeitsblatt aus und klicken Sie auf das Symbol neben **[!UICONTROL Position des Datenblocks]**:
+
+   Sie können auch eine Zellenadresse eingeben, z. B. a3, \\\$a3, a\\\$3 oder sheet1!a2. Die angegebene Zelle markiert die obere linke Ecke des Datenblocks, wenn die Daten abgerufen werden.
 
 1. Wählen Sie eine **Report Suite** aus.
 
@@ -40,7 +43,7 @@ Konfigurieren Sie die anfänglichen Datenblockparameter für die Position des Da
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-   ![Screenshot mit der Option &quot;Datumsbereich&quot;und der aktiven Schaltfläche &quot;Weiter&quot;](./assets/choose_date_data_view3.png)
+   ![Screenshot mit der Option &quot;Datumsbereich&quot;und der aktiven Schaltfläche &quot;Weiter&quot;](./assets/choose_date_report_suite.png)
 
    Nach der Konfiguration des Datenblocks können Sie Dimensionen, Metriken und Segmente auswählen, um Ihren Datenblock zu erstellen. Die Registerkarten „Dimensionen“, „Metriken“ und „Filter“ werden über dem Bereich „Tabellen-Builder“ angezeigt.
 
@@ -48,7 +51,7 @@ Konfigurieren Sie die anfänglichen Datenblockparameter für die Position des Da
 
 Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Sie dann das Layout an.
 
-1. Fügen Sie Dimensionen, Metriken und Filter hinzu.
+1. Dimensionen, Metriken und Segmente hinzufügen.
 
    Scrollen Sie in den Komponentenlisten durch oder verwenden Sie das Feld **[!UICONTROL Suche]** , um Komponenten zu finden. Ziehen Sie Komponenten per Drag &amp; Drop in den Tabellenbereich oder doppelklicken Sie auf einen Komponentennamen in der Liste, um die Komponente automatisch zum Tabellenbereich hinzuzufügen.
 
@@ -56,7 +59,7 @@ Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Si
 
    - Dimensionskomponenten werden zum Bereich „Zeile“ oder zum Bereich „Spalte“ hinzugefügt, wenn bereits eine Dimension in den Spalten vorhanden ist.
    - Datumskomponenten werden dem Abschnitt „Spalte“ hinzugefügt.
-   - Filterkomponenten werden dem Abschnitt „Filter“ hinzugefügt.
+   - Segmentkomponenten werden dem Abschnitt Segmente hinzugefügt.
 
    **Startdatum als Dimension**
 
@@ -91,8 +94,6 @@ Um den Datenblock zu erstellen, wählen Sie Berichtkomponenten aus und passen Si
 1. Klicken Sie auf **[!UICONTROL Fertig stellen]**.
 
    Eine Verarbeitungsmeldung wird angezeigt, während die Analysedaten abgerufen werden.
-
-   ![ Die Verarbeitungsmeldung.](./assets/image11.png)
 
    Report Builder ruft die Daten ab und zeigt den abgeschlossenen Datenblock im Arbeitsblatt an.
 
