@@ -5,10 +5,11 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e98458a96e9950ffab40876b80a9e799a9182e6a
+exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '18051'
-ht-degree: 58%
+source-wordcount: '18050'
+ht-degree: 61%
 
 ---
 
@@ -34,13 +35,13 @@ Im Folgenden wird beschrieben, wie Sie Vorlagen auf der Registerkarte [!UICONTRO
 
    <!--update screenshot -->
 
-   ![Registerkarte „Berichte“](assets/view-prebuilt-reports.png)
+   ![Registerkarte „Berichte“](assets/view-prebuilt-templates.png)
 
 1. Wählen Sie im Abschnitt [!UICONTROL **Vorlagen**] eine der folgenden Registerkarten aus:
 
    * **[!UICONTROL Adobe templates]**: Zeigt alle Vorlagen an, die von Adobe bereitgestellt werden.
 
-   * **[!UICONTROL _login_company_name _templates]**: Zeigt alle Unternehmensvorlagen an, für die in Ihrem Unternehmen erstellt wurde.
+   * **[!UICONTROL _login_company_name _templates]**: Zeigt alle Unternehmensvorlagen an, die für Ihr Unternehmen erstellt wurden.
 
      Unternehmensvorlagen können nur von einem Administrator erstellt werden. Weitere Informationen zum Erstellen einer Unternehmensvorlage finden Sie unter [Erstellen und Verwalten von Vorlagen](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
@@ -849,8 +850,8 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-lifecycle-metrics-app-usage-template"
->title="Zeigen Sie die Anzahl der Benutzer, Starts und ersten Starts in Ihrer App sowie die durchschnittliche Sitzungslänge an."
->abstract="**Dies kann Ihnen** helfen, besser zu verstehen, wie viel Ihre App verwendet wird. <br/>**Je nachdem, was Sie lernen, können Sie** beliebig viele Dinge tun, z. B. die App-Leistung verbessern, damit sie auf die Nutzungsmenge skaliert werden kann."
+>title="Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts in Ihrer App sowie die durchschnittliche Sitzungslänge an."
+>abstract="**Dies kann Ihnen helfen**, die Nutzungszeiten Ihrer App genauer zu überblicken. <br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die App-Leistung verbessern, damit sie entsprechend der Nutzungsintensität skaliert werden kann."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -858,8 +859,8 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-journeys"
->title="Zeigen Sie die markanten Nutzungsmuster für Ihre App an."
->abstract="**Dies kann Ihnen** helfen, besser zu verstehen, wie Benutzer Ihre App verwenden. <br/>**Basierend auf dem, was Sie lernen, können Sie** beliebig viele Dinge tun, z. B. die Verbesserung, wie Benutzer von einem Bildschirm zum anderen gelangen können, um die häufigsten Workflows auszuwählen."
+>title="Zeigen Sie die meistverbreiteten Nutzungsmuster für Ihre App an."
+>abstract="**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende Ihre App verwenden. <br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die Art und Weise verbessern, wie die Benutzenden von einem Bildschirm zum anderen gelangen, um die gängigsten Workflows zu optimieren."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -867,8 +868,8 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-key-metrics"
->title="Zeigen Sie einige der häufigsten Mobile-App-Metriken an."
->abstract="**Dies kann Ihnen** dabei helfen, die grundlegende Leistung Ihrer App besser zu verstehen.<br/>**Basierend auf dem, was Sie lernen, können Sie** eine beliebige Anzahl von Dingen ausführen, z. B. die allgemeine Gesundheit und Leistung Ihrer App bewerten."
+>title="Zeigen Sie einige der wichtigsten App-Metriken an."
+>abstract="**Dies kann Ihnen dabei helfen**, die allgemeine Leistung Ihrer App besser zu überblicken.<br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. den allgemeinen Zustand und die Leistung Ihrer App beurteilen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -877,7 +878,7 @@ Die folgenden Vorlagen sind verfügbar:
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-messaging"
 >title="Zeigen Sie Leistungsdaten für In-App-Nachrichten und Push-Nachrichten für Ihre App an."
->abstract="**Dies kann Ihnen** helfen, besser zu verstehen, wie Benutzer In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.<br/>**Je nach Ihren Erkenntnissen können Sie** beliebig viele Dinge tun, z. B. die Verbesserung des Erlebnisses von In-App-Nachrichten-Push-Benachrichtigungen."
+>abstract="**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.<br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -885,8 +886,8 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-performance-template"
->title="Sehen Sie sich die Leistung Ihrer App an und erfahren Sie, wo Probleme bei Benutzern auftreten."
->abstract="**Dies kann Ihnen** helfen, besser zu verstehen, ob Benutzer Ihrer App auf Langsamkeit oder eine beeinträchtigte Leistung stoßen. <br/>**Je nachdem, was Sie erfahren, können Sie** eine beliebige Anzahl von Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern, bevor Probleme auftreten."
+>title="Sehen Sie sich die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten."
+>abstract="**Dies kann Ihnen helfen**, zu überblicken, ob Benutzende Ihrer App eine langsame oder sonstwie beeinträchtigte Leistung erleben. <br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern und so Problemen vorbeugen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -894,8 +895,8 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--mobile-app-retention"
->title="Zeigen Sie an, welche Benutzer die treuesten Benutzer Ihrer App sind und was sie in der App tun."
->abstract="**Dies kann Ihnen** helfen, besser zu verstehen, wie Ihre treusten Benutzer Ihre App verwenden.<br/>**Je nachdem, was Sie lernen, können Sie** eine beliebige Anzahl von Maßnahmen durchführen, z. B. Ihre Marketing-Bemühungen für die Funktionen verbessern, die Ihre treusten Benutzer verwenden."
+>title="Zeigen Sie an, welche Benutzenden Ihrer App die treuesten sind und was sie in der App tun."
+>abstract="**Dies kann Ihnen helfen**, die Nutzungsweisen Ihrer App durch Ihre treuesten Benutzenden zu überblicken.<br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. intensivere Marketing-Maßnahmen für die Funktionen, die Ihre treusten Benutzenden verwenden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -935,12 +936,12 @@ Die folgenden Vorlagen sind verfügbar:
 | **Mobil** > **Bildschirmgröße** | Zeigen Sie die wichtigsten Bildschirmgrößen für Mobilgeräte an, mit denen Benutzer auf Ihre Site zugreifen.<p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Inhalte Besuchern angezeigt werden.</p><p>**Je nachdem, was Sie lernen, können Sie** eine beliebige Anzahl von Maßnahmen ergreifen, z. B. die Verbesserung der Site-Qualität durch Testen neuer Versionen Ihrer Site mit den am häufigsten verwendeten Bildschirmgrößen für Mobilgeräte. Auf diese Weise können die Maßnahmen zur Qualitätssicherung maximiert werden.</p> |
 | **Mobil** > **Bildschirmhöhe** | Zeigen Sie die wichtigsten Mobilgerät-Bildschirmhöhen an, mit denen Benutzer auf Ihre Site zugreifen.<p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Inhalte Besuchern angezeigt werden.</p><p>**Je nachdem, was Sie lernen, können Sie** eine beliebige Anzahl von Maßnahmen ergreifen, z. B. die Verbesserung der Site-Qualität durch Tests neuer Versionen Ihrer Site mit den am häufigsten verwendeten Mobilgerät-Bildschirmhöhen. Auf diese Weise können die Maßnahmen zur Qualitätssicherung maximiert werden.</p> |
 | **Mobil** > **Bildschirmbreite** | Zeigen Sie die oberen Mobilgerät-Bildschirmbreiten an, mit denen Benutzer auf Ihre Site zugreifen.<p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Inhalte Besuchern angezeigt werden.</p><p>**Je nachdem, was Sie lernen, können Sie** eine beliebige Anzahl von Maßnahmen ergreifen, z. B. die Verbesserung der Site-Qualität durch Testen neuer Versionen Ihrer Site mit den am häufigsten verwendeten Mobilgerät-Bildschirmbreiten. Auf diese Weise können die Maßnahmen zur Qualitätssicherung maximiert werden.</p> |
-| **Mobil** > **Nutzung mobiler Apps** | Zeigen Sie die Anzahl der Benutzer, Starts und ersten Starts in Ihrer App sowie die durchschnittliche Sitzungslänge an.<p>**Dies kann Ihnen** helfen, besser zu verstehen, wie viel Ihre App verwendet wird. </p><p>**Je nachdem, was Sie lernen, können Sie** beliebig viele Dinge tun, z. B. die App-Leistung verbessern, damit sie auf die Nutzungsmenge skaliert werden kann.</p><!-- This template uses the --> |
-| **Mobil** > **Journey für mobile Apps** | Zeigen Sie die markanten Nutzungsmuster für Ihre App an. <p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Benutzer Ihre App verwenden. </p><p>**Basierend auf dem, was Sie lernen, können Sie** beliebig viele Dinge tun, z. B. die Verbesserung, wie Benutzer von einem Bildschirm zum anderen gelangen können, um die häufigsten Workflows auszuwählen. </p><!-- This template uses the --> |
-| **Mobile** > **Mobile App-Metriken** | Zeigen Sie einige der häufigsten Mobile-App-Metriken an. <p>**Dies kann Ihnen** dabei helfen, die grundlegende Leistung Ihrer App besser zu verstehen.</p><p>**Basierend auf dem, was Sie lernen, können Sie** eine beliebige Anzahl von Dingen ausführen, z. B. die allgemeine Gesundheit und Leistung Ihrer App bewerten.</p><!-- This template uses the --> |
-| **Mobile** > **Mobile App Messaging** | Zeigen Sie Leistungsdaten für In-App-Nachrichten und Push-Nachrichten für Ihre App an.<p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Benutzer In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.</p><p>**Je nach Ihren Erkenntnissen können Sie** beliebig viele Dinge tun, z. B. die Verbesserung des Erlebnisses von In-App-Nachrichten-Push-Benachrichtigungen.</p><!-- This template uses the --> |
-| **Mobile** > **Leistung der mobilen App** | Sehen Sie sich die Leistung Ihrer App an und erfahren Sie, wo Probleme bei Benutzern auftreten. <p>**Dies kann Ihnen** helfen, besser zu verstehen, ob Benutzer Ihrer App auf Langsamkeit oder eine beeinträchtigte Leistung stoßen. </p><p>**Je nachdem, was Sie erfahren, können Sie** eine beliebige Anzahl von Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern, bevor Probleme auftreten.</p><!-- This template uses the --> |
-| **Mobil** > **Beibehaltung mobiler Apps** | Zeigen Sie an, welche Benutzer die treuesten Benutzer Ihrer App sind und was sie in der App tun. <p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Ihre treusten Benutzer Ihre App verwenden.</p><p>**Je nachdem, was Sie lernen, können Sie** eine beliebige Anzahl von Maßnahmen durchführen, z. B. Ihre Marketing-Bemühungen für die Funktionen verbessern, die Ihre treusten Benutzer verwenden.</p><!-- This template uses the --> |
+| **Mobil** > **Nutzung mobiler Apps** | Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts in Ihrer App sowie die durchschnittliche Sitzungslänge an.<p>**Dies kann Ihnen** helfen, besser zu verstehen, wie viel Ihre App verwendet wird. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die App-Leistung verbessern, damit sie entsprechend der Nutzungsintensität skaliert werden kann.</p><!-- This template uses the --> |
+| **Mobil** > **Journey für mobile Apps** | Zeigen Sie die meistverbreiteten Nutzungsmuster für Ihre App an. <p>**Dies kann Ihnen** helfen, besser zu verstehen, wie Benutzer Ihre App verwenden. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die Art und Weise verbessern, wie die Benutzenden von einem Bildschirm zum anderen gelangen, um die gängigsten Workflows zu optimieren. </p><!-- This template uses the --> |
+| **Mobile** > **Mobile App-Metriken** | Zeigen Sie einige der wichtigsten App-Metriken an. <p>**Dies kann Ihnen dabei helfen**, die allgemeine Leistung Ihrer App besser zu überblicken.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. den allgemeinen Zustand und die Leistung Ihrer App beurteilen.</p><!-- This template uses the --> |
+| **Mobile** > **Mobile App Messaging** | Zeigen Sie Leistungsdaten für In-App-Nachrichten und Push-Nachrichten für Ihre App an.<p>**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern.</p><!-- This template uses the --> |
+| **Mobile** > **Leistung der mobilen App** | Sehen Sie sich die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten. <p>**Dies kann Ihnen** helfen, besser zu verstehen, ob Benutzer Ihrer App auf Langsamkeit oder eine beeinträchtigte Leistung stoßen. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern und so Problemen vorbeugen.</p><!-- This template uses the --> |
+| **Mobil** > **Beibehaltung mobiler Apps** | Zeigen Sie an, welche Benutzenden Ihrer App die treuesten sind und was sie in der App tun. <p>**Dies kann Ihnen helfen**, die Nutzungsweisen Ihrer App durch Ihre treuesten Benutzenden zu überblicken.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. intensivere Marketing-Maßnahmen für die Funktionen, die Ihre treusten Benutzenden verwenden.</p><!-- This template uses the --> |
 
 ### Akquise {#web-acquisition}
 
