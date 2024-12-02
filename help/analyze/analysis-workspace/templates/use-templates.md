@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ Im Folgenden wird beschrieben, wie Sie Vorlagen auf der Registerkarte [!UICONTRO
 
      Unternehmensvorlagen können nur von einem Administrator erstellt werden. Weitere Informationen zum Erstellen einer Unternehmensvorlage finden Sie unter [Erstellen und Verwalten von Vorlagen](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
-1. Wählen Sie entweder das Spaltenansichtssymbol ![Spaltenansichtssymbol](assets/column-view-icon.png) oder das Kartenansichtssymbol ![Kartenansichtssymbol](assets/card-view-icon.png) aus, um Vorlagen in einer Spaltenansicht oder Kartenansicht anzuzeigen.
+1. Verwenden Sie eine der folgenden Optionen, um die Ansicht der verfügbaren Vorlagen zu ändern:
+
+   * Wählen Sie entweder das Spaltenansichtssymbol ![Spaltenansichtssymbol](assets/column-view-icon.png) oder das Kartenansichtssymbol ![Kartenansichtssymbol](assets/card-view-icon.png) aus, um Vorlagen in einer Spaltenansicht oder Kartenansicht anzuzeigen.
+
+   * Wählen Sie bei Verwendung des Kartenansichtssymbols ![Kartenansicht ](assets/card-view-icon.png) aus den folgenden Sortierreihenfolgen: **[!UICONTROL Zuletzt verwendet]**, **[!UICONTROL Zuletzt verwendet]**, **[!UICONTROL Alphabetisch]**, **[!UICONTROL Kategorisch]**.
 
 1. Geben Sie im Suchfeld den Namen der Vorlage ein, die Sie finden möchten, und wählen Sie sie dann aus der Vorlagenliste aus. Sie können die Vorlagenliste auch nach Eigenschaften, eVar und Ereignisnummern durchsuchen. <!-- still true? -->
 
@@ -58,8 +62,6 @@ Im Folgenden wird beschrieben, wie Sie Vorlagen auf der Registerkarte [!UICONTRO
    >Um mithilfe der Pfeiltasten durch das Menü zu navigieren, drücken Sie die Schrägstrich-Taste (/) und dann die Nach-unten-Taste. Drücken Sie die Eingabetaste , um die ausgewählte Vorlage zu laden.
 
    Eine Liste der verfügbaren Vorlagen finden Sie unten im Abschnitt [Verfügbare Vorlagen](#available-reports) .
-
-1. (Optional) Zeigen Sie Vorlagen an und verwenden Sie Vorlagen, die Komponenten enthalten, die nicht in Ihrer Report Suite verfügbar sind. (Standardmäßig werden nur Vorlagen angezeigt, die Komponenten verwenden, die in Ihrer Report Suite verfügbar sind.) <!--does this apply to AA? -->
 
 ## Erstellen eines Projekts basierend auf einer Vorlage {#use-reports}
 
