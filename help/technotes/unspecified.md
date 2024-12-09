@@ -3,10 +3,10 @@ description: Verschiedene Berichte in Adobe Analytics können abhängig vom aufg
 title: „Nicht angegeben“, „Keine“, „Sonstige“ und „Unbekannt“ in Berichten
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Verschiedene Berichte in Adobe Analytics können abhängig vom aufgerufenen spez
 „Nicht angegeben“ ist ein relativ häufiger Zeileneintrag in Berichten. Er wird auch häufig als „Keine“ bezeichnet.
 
 * **Ein Ereignis löst ohne Konversionsvariable aus:** Wenn z. B. ein Benutzer Ihre Website besucht und einen Kauf tätigt, ohne dass ein eVar1-Wert ausgelöst wird. Wenn Sie die Bestellungen mit der eVar1-Dimension anzeigen, ist kein Wert vorhanden, dem diese Bestellung zugeordnet wird. Daher wird ihm automatisch „Nicht angegeben“ zugeordnet.
-* **Unklassifizierte Daten in Classification-Berichten:** Wenn Sie Classification-Daten anzeigen, wird für alle Werte, denen keine Daten mit dieser Classification zugeordnet sind, „Nicht angegeben“ aufgeführt. Um dieses Problem zu beheben, klassifizieren Sie den Wert der übergeordneten Variablen.
+* **Unklassifizierte Daten in Classification-Berichten:** Wenn Sie Classification-Daten anzeigen, wird für alle Werte, denen keine Daten mit dieser Classification zugeordnet sind, „Nicht angegeben“ aufgeführt. Um dieses Problem zu beheben, stellen Sie sicher, dass jedem übergeordneten Dimensionselement ein Classification-Wert zugeordnet ist.
 * **Detailberichte, bei denen nur eine Variable ausgelöst wurde:** Wenn Sie eine Aufschlüsselung auf eine Variable anwenden, muss jede Instanz dieser Variable berücksichtigt werden. Wenn die zweite Variable nicht angezeigt wurde oder sie von einem vorherigen Treffer beibehalten wurde, lautet das Dimensionselement „Nicht angegeben“.
 * **Nicht mobile Treffer in Mobilgeräteberichten:** Alle nicht mobilen Treffer in Mobilgeräteberichten werden als „Nicht angegeben“ aufgeführt (in Reports &amp; Analytics als „Nicht mobil“).
 
