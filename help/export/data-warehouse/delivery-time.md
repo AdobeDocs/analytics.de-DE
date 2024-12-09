@@ -1,12 +1,12 @@
 ---
-title: Fehlerbehebung bei Versandzeiten von Data Warehouse-Anforderungen
+title: Fehlerbehebung bei Data Warehouse Request Delivery Times
 description: Ermitteln Sie potenzielle Probleme mit einer Data Warehouse-Anforderung, die die Versandzeiten verlängern können.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: fc6a2deabaf2012cefebf4864db19aef1825adf2
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 

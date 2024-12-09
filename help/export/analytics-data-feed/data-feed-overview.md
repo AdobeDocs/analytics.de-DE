@@ -1,13 +1,13 @@
 ---
-description: Daten, die aus Websites oder mobilen Apps erfasst bzw. über Web-Service-APIs oder Datenquellen hochgeladen werden, werden im Adobe Data Warehouse verarbeitet und gespeichert. Diese Clickstream-Rohdaten bilden die Grundlage für den Datensatz, der von Adobe Analytics genutzt wird.
+description: Erfahren Sie, wie Sie mit Daten-Feeds Rohdaten aus Adobe Analytics abrufen können. Erfahren Sie, welche Voraussetzungen für die Verwendung von Daten-Feeds erfüllt sein müssen.
 keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
-title: Analytics-Daten-Feed-Dokumentation
+title: Analytics-Daten-Feed - Überblick
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 

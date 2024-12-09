@@ -1,13 +1,13 @@
 ---
-description: Data Warehouse bezieht sich auf die Kopie der Analytics-Daten für Speicherberichte und benutzerspezifische Berichte, die Sie durch Filtern der Daten ausführen können. Sie können Berichte anfordern, um erweiterte Datenbeziehungen aus Rohdaten basierend auf den für Sie relevanten Fragen anzuzeigen. Data Warehouse-Berichte werden per E-Mail an einen Cloud-Speicherplatzanbieter verschickt oder gesendet. Die Verarbeitung kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der angeforderten Daten.
+description: Erfahren Sie mehr über Data Warehouse und das Filtern der Daten, sodass Sie benutzerdefinierte Berichte erstellen und ausführen können.
 title: Data Warehouse-Übersicht
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ Data Warehouse ZIP-komprimiert automatisch Dateien, die größer als 1 MB sind.
 
 ## Zugriff
 
-Adobe aktiviert Data Warehouse nur für Benutzende auf Administratorebene und nur für bestimmte Report Suites. (Die Funktion kann für globale und untergeordnete Report Suites, jedoch nicht für Datenaggregations-Report Suites aktiviert werden.) Der Administrator kann eine Gruppe erstellen, die Zugriff auf Data Warehouse hat, und anschließend Benutzer, die sich nicht auf Administrator-Ebene befinden, dieser Gruppe zuweisen.
+Adobe aktiviert Data Warehouse nur für Benutzende auf Administratorebene und nur für bestimmte Report Suites. (Sie kann für globale und untergeordnete Report Suites, jedoch nicht für Datenaggregations-Report Suites aktiviert werden.) Der Administrator kann eine Gruppe erstellen, die Zugriff auf Data Warehouse hat, und anschließend Benutzer, die sich nicht auf Administratorebene befinden, dieser Gruppe zuweisen.
 
 Siehe [Verwalten von Data Warehouse-Berechtigungen](/help/export/data-warehouse/t-dw-group.md).
 

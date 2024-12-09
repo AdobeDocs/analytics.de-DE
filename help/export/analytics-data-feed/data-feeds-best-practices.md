@@ -1,13 +1,13 @@
 ---
-description: Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereitstellung von Datenfeeds aufgeführt.
+description: Erfahren Sie mehr über Best Practices für die Verarbeitung und Bereitstellung von Daten-Feeds in Analytics.
 keywords: Daten-Feed;Best Practices;Traffic-Spitze;stündlich;FTP
 title: Best Practice und allgemeine Informationen
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 88%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Erstellen eines Daten-Feeds
-description: Erfahren Sie, wie Sie einen Daten-Feed erstellen.
+description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen für Adobe bereitgestellt werden sollen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '4119'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---

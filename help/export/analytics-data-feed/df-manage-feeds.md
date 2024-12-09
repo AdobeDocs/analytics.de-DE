@@ -1,12 +1,12 @@
 ---
-title: Daten-Feed-Benutzeroberfläche
-description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren.
+title: Verwalten von Daten-Feeds
+description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren. Erfahren Sie, wie Sie einen Daten-Feed erstellen, bearbeiten und anzeigen.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 27%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 
@@ -28,7 +28,7 @@ Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstel
 
    Daten-Feeds für alle Report Suites, auf die Sie Zugriff haben, werden angezeigt. Wenn keine Feeds konfiguriert wurden, wird auf der Seite die Schaltfläche [!UICONTROL Neuen Daten-Feed erstellen] angezeigt.
 
-   ![Datenfeeds](assets/feeds.png)
+   ![Daten-Feeds](assets/feeds.png)
 
 ## Erstellen eines Daten-Feeds
 
