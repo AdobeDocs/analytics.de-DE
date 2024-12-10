@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2a766fc06cab81c2b1d4b8a4de2c88dae42bf907
+source-git-commit: 65c934f56a580f921fa7baad6d5dd03c85e320e6
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 16. 
 | **Neuer Report Builder für Adobe Analytics** | Die neue Anwendung Report Builder bietet eine umfassende Aktualisierung für Adobe Analytics, beispielsweise verbesserte Leistung, eine optimierte Benutzeroberfläche, Unterstützung für 2.0 API und Unterstützung für Microsoft Excel unter Mac, Windows und in Webbrowsern. Diese Anwendung kann zusammen mit der Vorgängeranwendung verwendet werden, jedoch nicht in derselben Datei. Mit einer Aktualisierungsfunktion können ältere Arbeitsmappen auf die neue Anwendung aktualisiert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16. Oktober 2024 |
 | **JSON-Export für die Migration der Tag-Implementierung zu Web SDK-Tags** | Diese Aktualisierung der Analytics-Tag-Erweiterung bezieht sich auf die Migration zu Web SDK. Sie können dieses Update für die Adobe Analytics-Erweiterung als Teil Ihres Workflows verwenden, um Ihre Erweiterungskonfigurationen mit der Web SDK-Erweiterung neu zu erstellen. In der Adobe Analytics-Tag-Erweiterung können Sie eVars-, Props- und Ereigniseinstellungen als JSON anzeigen, die zur Bearbeitung exportiert und in die Web SDK-Erweiterung aufgenommen werden können. |  | 31. Oktober 2024 |
 | **Neue Informationen zu Anfragefaktoren bei der Leistung von Analysis Workspace** | Bei der Leistungsanalyse in Analysis Workspace ist jetzt ein neuer Abschnitt „Anfragefaktoren“ verfügbar. Weitere Informationen zur Verarbeitung von Anfragen und zu den verschiedenen Faktoren, die die Verarbeitungszeiten beeinflussen, finden Sie unter „Anfragefaktoren“ unter [Optimieren der Analysis Workspace-Leistung](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | 1. Oktober 2024 |
-| **Aufbewahrungszeitraum der Transaktions-ID** | Die `transactionID`-Variable identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Data Sources hochgeladen wurden. Der standardmäßige Aufbewahrungszeitraum der ID von 90 Tagen wird im Januar 2025 auf 25 Monate verlängert. |  | Donnerstag, 22. Januar 2025 |
+| **Aufbewahrungszeitraum der Transaktions-ID** | Die Aufbewahrungsfrist der Transaktions-ID von 90 Tagen wird im Januar 2025 auf 25 Monate verlängert. Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Data Sources hochgeladen wurden. |  | Donnerstag, 22. Januar 2025 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
