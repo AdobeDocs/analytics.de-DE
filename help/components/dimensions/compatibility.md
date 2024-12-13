@@ -3,22 +3,22 @@ title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 96%
+source-wordcount: '889'
+ht-degree: 97%
 
 ---
 
 # Kompatibilität von Analytics-Dimensionen
 
-Auf dieser Seite werden die in den jeweiligen Analytics-Funktionen unterstützten [Dimensionen](overview.md) aufgelistet.
+Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jeweiligen Analytics-Funktionen unterstützt werden.
 
 >[!NOTE]
 >
 >Benutzerdefinierte Variablennamen, Klassifizierungen und Besucherattribute werden in dieser Liste weggelassen. Diese Dimensionselemente sind spezifisch für einzelne Report Suites.
 
-## In Analysis Workspace unterstützte Dimensionen
+## Unterstützte Dimensionen in Analysis Workspace
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |---|---|
@@ -155,9 +155,9 @@ Auf dieser Seite werden die in den jeweiligen Analytics-Funktionen unterstützte
 | Nielsen-Kanal-Asset | `nielsenchannelasset` |
 | Nielsen-Content-Typ | `nielsencontenttype` |
 
-## Von Analysis Workspace unterstützte inhaltsorientierte Dimensionen
+## Von Analysis Workspace unterstützte inhaltsbezogene Dimensionen
 
-### Video (das Add-on für Streaming-Mediensammlung)
+### Video (die Sammlung von Streaming-Medien)
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |
