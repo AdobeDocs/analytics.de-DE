@@ -1,54 +1,54 @@
 ---
 description: Warnhinweise verwalten.
-title: Warnhinweis-Manager - Übersicht
+title: Übersicht über den Warnhinweis-Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
 
 # Warnhinweis-Manager
 
-Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
+Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Taggen, Umbenennen, Löschen und mehr.
 
-Der Warnhinweis-Manager ähnelt sehr dem [Segment-Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de) und dem [Manager für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=de).
+Der Warnhinweis-Manager ist ähnlich wie der [Segment-Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=de) und der [Manager für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=de) strukturiert.
 
 ![](assets/alert-manager.png)
 
 ## Erstellen von Warnhinweisen
 
-So erstellen Sie Warnhinweise vom Warnhinweis-Manager:
+So erstellen Sie Warnhinweise über den Warnhinweis-Manager:
 
-1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf die Warnhinweisverwaltung in Adobe Analytics zuzugreifen.
 
    ![](assets/alert-manager.png)
 
-1. Wählen Sie [!UICONTROL **Hinzufügen**] (oder [!UICONTROL **Neuen Warnhinweis erstellen**] , wenn keine Warnhinweise vorhanden sind).
+1. Wählen Sie [!UICONTROL **Hinzufügen**] (oder [!UICONTROL **Neuen Warnhinweis erstellen**], wenn noch keine Warnhinweise vorhanden sind).
 
 1. Wählen Sie den Warnhinweistyp aus, der dem zu erstellenden Warnhinweis entspricht:
 
-   * [!UICONTROL **Analytics-Datenwarnung**]: Ein Warnhinweis, der Sie benachrichtigt, wenn in Ihren Daten anormale Ereignisse auftreten.
+   * [!UICONTROL **Analytics-Datenwarnung**] Ein Warnhinweis, der Sie benachrichtigt, wenn abnormale Ereignisse in Ihren Daten auftreten.
 
-     Wenn Sie diese Option auswählen, fahren Sie mit [Warnhinweise erstellen](/help/components/c-alerts/alert-builder.md) fort, um weitere Informationen zum Erstellen von Warnhinweisen zu erhalten.
+     Wenn Sie diese Option wählen, fahren Sie mit [Warnhinweise erstellen](/help/components/c-alerts/alert-builder.md) fort, um weitere Informationen zum Erstellen von Warnhinweisen zu erhalten.
 
-   * [!UICONTROL **Warnung zur Nutzung von Server-Aufrufen**]: Ein Warnhinweis, der Sie über das Risiko oder das Auftreten einer Überschreitung der Daten zur Nutzung und Zusage Ihrer Server-Aufrufe informiert.
+   * [!UICONTROL **Warnhinweis zur Nutzung von Server-Aufrufen**]: Ein Warnhinweis, der Sie über das Risiko oder das Auftreten eines Überschusses in Ihren Daten zur Nutzung und Zusage von Server-Aufrufen informiert.
 
-     Wenn Sie diese Option auswählen, fahren Sie mit den [Warnhinweisen zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/scu-alerts.md) fort.
+     Wenn Sie diese Option wählen, fahren Sie mit [Warnhinweisen zur Nutzung von Server-Aufrufen](/help/admin/admin/c-server-call-usage/scu-alerts.md) fort.
 
      >[!NOTE]
      >
-     >Sie müssen Analytics-Administrator oder Benutzer mit der Berechtigung zur Nutzung von Server-Aufrufen sein, um Zugriff auf die Nutzung von Server-Aufrufen zu erhalten.
+     >Sie müssen ein Analytics-Administrator oder ein Benutzer mit der Berechtigung zur Nutzung von Server-Aufrufen sein, um Zugriff auf die Nutzung von Server-Aufrufen zu erhalten.
 
-## Vorhandene Warnungen verwalten
+## Verwalten vorhandener Warnhinweise
 
-Sie können verschiedene Aktionen für vorhandene Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen usw.
+Sie können verschiedene Aktionen für vorhandene Warnhinweise ausführen, z. B. Taggen, Umbenennen, Löschen usw.
 
 So verwalten Sie vorhandene Warnhinweise im Warnhinweis-Manager:
 
-1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf die Warnhinweisverwaltung in Adobe Analytics zuzugreifen.
 
    ![](assets/alert-manager.png)
 
@@ -60,21 +60,21 @@ So verwalten Sie vorhandene Warnhinweise im Warnhinweis-Manager:
 
    | Aktion | Funktion |
    |---------|----------|
-   | [!UICONTROL **Tag**] | Wenden Sie ein Tag auf einen Warnhinweis an. Auf diese Weise können Sie Warnhinweise zur einfachen Verwendung organisieren. |
-   | [!UICONTROL **Löschen**] | Löscht den Warnhinweis. |
-   | [!UICONTROL **Umbenennen**] | Benennt die Warnung um. |
-   | [!UICONTROL **Genehmigen**] | Markieren Sie den Warnhinweis als Genehmigt. |
+   | [!UICONTROL **Tag**] | Anwenden eines Tags auf einen Warnhinweis. Auf diese Weise können Sie Warnhinweise organisieren, um die Verwendung zu vereinfachen. |
+   | [!UICONTROL **Löschen**] | Löscht den Warnhinweis |
+   | [!UICONTROL **Umbenennen**] | Benennt den Warnhinweis um. |
+   | [!UICONTROL **Genehmigen**] | Markieren Sie den Warnhinweis als genehmigt. |
    | [!UICONTROL **Kopieren**] | Erstellt eine Kopie (Duplikat) des Warnhinweises. |
-   | [!UICONTROL **Deaktivieren**] | Deaktiviert eine Warnung, die derzeit aktiviert ist. |
-   | [!UICONTROL **Aktivieren**] | Aktiviert einen Warnhinweis, der derzeit deaktiviert ist. |
-   | [!UICONTROL **Verlängern**] | Verlängern Sie das Ablaufdatum des Warnhinweises. Dadurch wird das Ablaufdatum ab dem Tag, an dem Sie diese Option ausgewählt haben, auf 1 Jahr verlängert, unabhängig vom ursprünglichen Ablaufdatum. |
-   | [!UICONTROL **In CSV exportieren**] | Exportiert den Warnhinweis in eine .CSV-Datei. |
+   | [!UICONTROL **Deaktivieren**] | Deaktiviert einen derzeit aktivierten Warnhinweis. |
+   | [!UICONTROL **Aktivieren**] | Aktiviert einen derzeit deaktivierten Warnhinweis. |
+   | [!UICONTROL **Verlängern**] | Verlängert das Ablaufdatum des Warnhinweises. Dadurch wird das Ablaufdatum auf 1 Jahr ab dem Tag verlängert, den Sie diese Option ausgewählt haben, unabhängig vom ursprünglichen Ablaufdatum. |
+   | [!UICONTROL **In CSV exportieren**] | Exportiert den Warnhinweis in eine CSV-Datei. |
 
 ## Warnhinweis bearbeiten
 
 So bearbeiten Sie einen vorhandenen Warnhinweis:
 
-1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf den Warnhinweis-Manager in Adobe Analytics zuzugreifen.
+1. Wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]** aus, um auf die Warnhinweisverwaltung in Adobe Analytics zuzugreifen.
 
    ![](assets/alert-manager.png)
 
@@ -82,14 +82,16 @@ So bearbeiten Sie einen vorhandenen Warnhinweis:
 
 1. Bearbeiten Sie den Warnhinweis nach Bedarf.
 
-   Im Folgenden finden Sie einige Schritte, die Sie beim Bearbeiten eines Warnhinweises ausführen können:
+   Im Folgenden finden Sie einige Möglichkeiten zur Bearbeitung eines Warnhinweises:
 
-   * Warnhinweise zu anderen Report Suites hinzufügen
-   * Eigentümer ändern
-   * Filter aktualisieren
-   * Ablaufdatum aktualisieren
+   * Hinzufügen von Warnhinweisen zu anderen Report Suites
+   * Beschreibung hinzufügen oder ändern
+   * Ändern der Zeitgranularität
+   * Ändern der Empfänger
+   * Ablaufdatum ändern
+   * Metriken und Filter ändern
 
-1. Bearbeiten Sie den Warnhinweis und wählen Sie dann [!UICONTROL **Speichern**] aus.
+1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
 ## Spalten konfigurieren
 
@@ -99,21 +101,21 @@ So konfigurieren Sie die sichtbaren Spalten im Warnhinweis-Manager:
 
 1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Warnhinweise]** aus.
 
-1. Wählen Sie im Warnhinweis-Manager das Symbol **Spalten anpassen** ![Spaltensymbol anpassen](assets/customize-columns-icon.png) und wählen Sie dann die Spalten aus, die im Warnhinweis-Manager angezeigt werden sollen.
+1. Klicken Sie in der Warnhinweisverwaltung auf das **Spalten anpassen**-Symbol ![Symbol Spalten anpassen](assets/customize-columns-icon.png) und wählen Sie dann die Spalten aus, die Sie in der Warnhinweisverwaltung anzeigen möchten.
 
    Die folgenden Spalten sind verfügbar:
 
    | Spaltentitel | Beschreibung |
    |---|---|
-   | Titel und Beschreibung | Diese Werte werden in der Warnhinweiserstellung bereitgestellt. Um den Titel und die Beschreibung zu bearbeiten, wählen Sie den Titel-Link aus, um die Warnhinweiserstellung zu öffnen. |
-   | Favoriten | Zeigt neben jedem Warnhinweis Sternensymbole an, mit denen Sie Warnhinweise als Favoriten markieren können. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Typ | Zeigt an, ob es sich bei dem Warnhinweis um einen Warnhinweis zu Analytics-Daten oder eine Warnung zur Nutzung von Server-Aufrufen handelt. |
+   | Titel und Beschreibung | Diese Werte werden im Warnhinweis-Builder bereitgestellt. Um den Titel und die Beschreibung zu bearbeiten, klicken Sie auf den Titel-Link, um die Warnhinweiserstellung zu öffnen. |
+   | Favoriten | Zeigt Sternsymbole neben jedem Warnhinweis an, sodass Sie Warnhinweise als Favoriten markieren können. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | Typ | Zeigt an, ob es sich bei dem Warnhinweis um einen Warnhinweis zu Analytics-Daten oder zur Nutzung von Server-Aufrufen handelt. |
    | Aktiviert | Zeigt an, ob der Warnhinweis derzeit aktiviert oder deaktiviert ist. |
-   | Report Suite | Gibt an, in welcher Report Suite die Warnung zuletzt gespeichert wurde. |
-   | Verantwortlicher | Gibt an, wem der Warnhinweis gehört. Als Benutzer ohne Administratorrechte können Sie nur Warnhinweise sehen, deren Inhaber Sie sind, sowie solche, die für Sie freigegeben wurden. |
-   | Tags | Zeigt Tags an, die entweder von Ihnen oder von Personen, die den Warnhinweis für Sie freigegeben haben, auf den Warnhinweis angewendet wurden. |
-   | Ablaufdatum | Zeigt Datum und Uhrzeit des Ablaufs des Warnhinweises an. |
-   | Änderungsdatum | Gibt das Datum der letzten Änderung des Warnhinweises an. |
+   | Report Suite | Gibt an, in welcher Report Suite der Warnhinweis zuletzt gespeichert wurde. |
+   | Besitzer | Gibt an, wem der Warnhinweis gehört. Wenn Sie kein Administrator sind, können Sie nur Warnhinweise sehen, deren Inhaber Sie sind oder die für Sie freigegeben wurden. |
+   | Tags | Zeigt Tags an, die auf den Warnhinweis angewendet wurden, entweder von Ihnen oder von Personen, die den Warnhinweis für Sie freigegeben haben. |
+   | Ablaufdatum | Zeigt das Datum und die Uhrzeit an, zu der der Warnhinweis ablaufen soll. |
+   | Änderungsdatum | Gibt das Datum an, an dem der Warnhinweis zuletzt geändert wurde. |
 
    {style="table-layout:auto"}
 
