@@ -4,10 +4,10 @@ title: PDF- oder CSV-Dateien herunterladen
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -21,13 +21,13 @@ Exportierte Daten können in Form kopierter Daten, CSV- oder PDF-Dateien vorlieg
 
 Beachten Sie beim Herunterladen von Projekten Folgendes:
 
-* Beim Herunterladen von Projekten als CSV- oder PDF-Datei kann das Projekt gespeichert oder nicht gespeichert werden, wenn Sie einen Projektdownload anfordern. Es können jedoch nur gespeicherte Projekte [geplant](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) sein.
+* Beim Herunterladen von Projekten als CSV- oder PDF-Datei kann das Projekt gespeichert oder nicht gespeichert werden, wenn Sie einen Projekt-Download anfordern. Es können jedoch nur gespeicherte Projekte [geplant](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) sein.
 
 * Beim Herunterladen von Projekten als PDF:
    * Der Export von Downloads kann mehrere Minuten dauern, da das Projekt auf Adobe-Servern erneut ausgeführt wird, bevor es im PDF-Format gerendert wird. Wir empfehlen, das Projekt nicht zu verlassen, bis die PDF-Datei in Ihren Browser heruntergeladen wurde. Sie können jedoch beim Warten weiterhin Änderungen am Projekt vornehmen. Wenn die Ausgabe einer PDF-Datei länger als 5 Minuten dauert, werden Sie aufgefordert, diese stattdessen per E-Mail zu erhalten.
    * Downloads werden als einzelne Seite ohne Seitenumbruch gerendert.
-   * PDF-Renderings enthalten die Informationen auf der Seite in Workspace. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
-   * Alle [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md), die in Freiformtabellen vorhanden sind, sind auf der heruntergeladenen PDF nicht funktionsfähig.
+   * PDF-Renderings enthalten den Inhalt der Seite in Workspace. Wenn ein Projekt Visualisierungen und Bedienfelder in benutzerdefinierter Größe enthält, müssen Sie diese so ändern, dass die Größe automatisch bestimmt wird (Schaltfläche in der oberen rechten Ecke), damit der Inhalt nicht abgeschnitten wird.
+   * Alle [Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) die in Freiformtabellen vorhanden sind, funktionieren auf der heruntergeladenen PDF nicht.
 
 Herunterladen eines Projekts als CSV- oder PDF-Datei:
 
@@ -44,6 +44,7 @@ Herunterladen eines Projekts als CSV- oder PDF-Datei:
    ![](assets/download-project.png)
 
 1. (Bedingt) Wenn Sie sich für den Download einer PDF entschieden haben, wird eine Nachricht angezeigt, sobald das Projekt heruntergeladen werden kann. Klicken Sie auf [!UICONTROL **Herunterladen**].
+1. Klicken Sie auf **[!UICONTROL Datei herunterladen]** und speichern Sie die Datei in einem Ordner Ihrer Wahl.
 
 ## Daten in die Zwischenablage kopieren (Hotkey: Strg + C) {#copy-data}
 
