@@ -1,14 +1,15 @@
 ---
-title: So konfigurieren Sie Einstellungen für Report Builder in Adobe Analytics
+title: Konfigurieren der Einstellungen für den Report Builder in Adobe Analytics
 description: Beschreibt, wie Einstellungen für Offline-Modus, Sprache, Datum und Fehlerbehebung festgelegt werden.
 role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ So ändern Sie die Report Builder-Einstellungen
 
 1. Klicken Sie auf **Anwenden**.
 
-   ![Datumsbereich des Report Builders, in dem die Schaltfläche Abbrechen und Anwenden angezeigt wird.](./assets/image38.png)
+   ![Report Builder-Einstellungen.](./assets/image38.png)
 
 ## Offline-Modus
 
@@ -32,13 +33,13 @@ Beim Erstellen und Bearbeiten eines Datenblocks im Offline-Modus werden keine Da
 
 So aktivieren Sie den Offline-Modus
 
-1. Klicken Sie auf das Symbol **Einstellungen**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Einstellungen]**.
 
-1. Wählen Sie **Offline-Modus aktivieren** aus.
+1. Wählen Sie **[!UICONTROL Offline-Modus aktivieren]e** aus.
 
-1. Geben Sie eine positive Ganzzahl in das Feld **Metrikdaten anzeigen als** ein.
+1. Geben Sie eine positive Ganzzahl in das Feld **[!UICONTROL Metrikdaten anzeigen als]** ein.
 
-1. Klicken Sie auf **Anwenden**.
+1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
 ## Sprache
 
@@ -48,14 +49,14 @@ So wählen Sie die in der UI von Report Builder verwendete Sprache aus
 
 1. Klicken Sie auf Einstellungen.
 
-1. Wählen Sie eine Sprache aus dem Dropdown-Menü **Sprache** aus.
+1. Wählen Sie eine Sprache aus dem Dropdown-Menü **[!UICONTROL Sprache]** aus.
 
-   ![Datumsbereich des Report Builders, in dem die Sprachliste mit Englisch angezeigt wird.](./assets/image39.png)
+   Datumsbereich des Report Builders ![mit Sprachliste und ausgewähltem Englisch.](./assets/image39.png)
 
-1. Klicken Sie auf **Anwenden.**
+1. Klicken Sie **[!UICONTROL Apply].**
 
 ## Fehlerbehebung
 
 Verwenden Sie die Einstellung „Fehlerbehebung“, um alle Client-/Server-Daten in einer lokalen Datei zu protokollieren. Verwenden Sie diese Option, um Support-Tickets zu klären.
 
-Um die Option „Fehlerbehebung“ zu aktivieren, wählen Sie **Report Builder-Anforderung in lokaler Datei protokollieren** aus.
+Um die Option „Fehlerbehebung“ zu aktivieren, wählen Sie **[!UICONTROL Report Builder-Datenblock in Web-Konsole protokollieren]**.
