@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,6 @@ Sie können ein vorhandenes Segment durch ein anderes Segment ersetzen, um die S
 
    Wenn Sie einen Filter auswählen, wird dieser der Liste **[!UICONTROL Ersetzen durch]**... hinzugefügt.
 
-   ![Die Registerkarte Ersetzen , auf der der Datenblock Personen in der App ausgewählt ist, und die Liste Ersetzen durch wurde aktualisiert, sodass „Personen in der App überarbeitet“ angezeigt wird.](./assets/replace_screen_new.png)
-
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
    Report Builder aktualisiert die Segmentliste entsprechend der Ersetzung.
@@ -103,7 +101,7 @@ So wenden Sie Segmente aus einer Zelle an
 
 1. Wählen Sie die Zelle aus, aus der die Datenblöcke auf ein Segment verweisen sollen.
 
-1. Fügen Sie die Segmentauswahl hinzu, die Sie der Zelle hinzufügen möchten, indem Sie entweder auf das Segment doppelklicken oder es per Drag-and-Drop in den Abschnitt Enthaltene Segmente ziehen.
+1. Fügen Sie die Segmentauswahl hinzu, die Sie der Zelle hinzufügen möchten, indem Sie entweder auf das Segment doppelklicken oder es per Drag-and-Drop in den Abschnitt **[!UICONTROL Segmente enthalten]** ziehen.
 
    Hinweis: Für die jeweilige Zelle kann jeweils nur eine Auswahl ausgewählt werden.
 
