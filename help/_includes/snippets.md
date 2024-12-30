@@ -2,23 +2,23 @@
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 # Snippets
 
-## Legacy-Report Builder {#legacy-arb}
+## Vorgängerversion von Report Builder {#legacy-arb}
 
 >[!IMPORTANT]
 >
->Am 16. Oktober 2024 wurde ein neuer und optimierter [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) veröffentlicht. Sie wird in Mac-, Windows- und Webbrowsern unterstützt.
->Diese alte Report Builder-Add-In-Version funktioniert weiterhin. Sie können [Ihre alten Arbeitsmappen](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) in den neuen Report Builder konvertieren.
+>Ein neuer und optimierter [Report Builder ](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
+>Diese ältere Report Builder-Add-in-Version funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) neuen Report Builder konvertieren.
 
 ## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->Mit Wirkung vom **17. Januar 2024** hat die Adobe Reports &amp; Analytics und die zugehörigen Berichte und Funktionen eingestellt. Damals funktionierten Reports &amp; Analytics und alle Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Informationen zur Verwendung von Berichten in Analysis Workspace finden Sie unter [Verwenden von vordefinierten Berichten](/help/analyze/analysis-workspace/reports/use-reports.md).
+>Mit **17. Januar 2024** Adobe Reports &amp; Analytics und die zugehörigen Berichte und Funktionen eingestellt. Zu diesem Zeitpunkt funktionierten Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Informationen zur Verwendung von Berichten in Analysis Workspace finden Sie [Verwenden von vordefinierten Berichten](/help/analyze/analysis-workspace/reports/use-reports.md).
 > 
 >Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 >
@@ -92,9 +92,9 @@ ht-degree: 89%
 >Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe bei diesem Plug-in benötigen, wenden Sie sich an das für Ihr Unternehmen zuständige Adobe-Kunden-Team. Sie können ein Treffen mit einer Beraterin oder einem Berater zur Unterstützung arrangieren.
 
 
-## Nur für bestehende Kunden verfügbar {#available-existing-customers}
+## Nur für Bestandskunden verfügbar {#available-existing-customers}
 
 >[!AVAILABILITY]
 >
->Die in diesem Abschnitt beschriebene Funktion steht nur vorhandenen Kunden zur Verfügung, die bereits über eine Lizenz für die Funktion verfügen. Die Funktion wird nicht mehr als zusätzliches Add-on für bestehende oder neue Kunden angeboten.
+>Die in diesem Abschnitt beschriebene Funktion steht nur Bestandskunden zur Verfügung, die bereits über eine Lizenz für die Funktion verfügen. Die Funktion wird bestehenden oder neuen Kunden nicht mehr als zusätzliches Add-on angeboten.
 >

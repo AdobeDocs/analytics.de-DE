@@ -46,7 +46,7 @@ Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://ex
 
 ## Markdown zum Formatieren Ihres Themas verwenden
 
-Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, lesen Sie [Grundlegende Syntax zum Schreiben und Formatieren](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) auf GitHub-Dokumenten.
+Alle Artikel in diesem Repository verwenden GitHub-Markdown. Wenn Sie mit Markdown nicht vertraut sind, finden Sie weitere Informationen unter [Einfache Schreib- und Formatierungssyntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in den GitHub-Dokumenten.
 
 ## Bezeichnungen
 
