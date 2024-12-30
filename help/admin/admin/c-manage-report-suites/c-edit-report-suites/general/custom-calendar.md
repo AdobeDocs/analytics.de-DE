@@ -1,5 +1,5 @@
 ---
-description: Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Die Berichterstellung bietet außerdem einen vollständig anpassbaren Kalender, den Sie selbst einrichten können.
+description: Verfügt neben dem gregorianischen Kalender noch über andere Kalenderoptionen. Zu den Optionen zählen die 4-4-5-, 4-5-4- und 5-4-4-Kalendermodelle, die alle als Standard im Einzelhandel genutzt werden. Das Reporting bietet außerdem einen vollständig anpassbaren Kalender, den Sie selbst einrichten können.
 title: Anpassen von Kalendern
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4

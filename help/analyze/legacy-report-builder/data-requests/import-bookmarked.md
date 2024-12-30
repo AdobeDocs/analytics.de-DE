@@ -1,5 +1,5 @@
 ---
-description: Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden jetzt in Schritt 1 des Anforderungs-Assistenten als Dimensionen aufgelistet und können als Report Builder-Anforderungen importiert werden.
+description: Alle mit Lesezeichen versehenen Berichte und Dashboard-Berichte werden jetzt im Anforderungs-Assistenten in Schritt 1 als Dimensionen aufgeführt und können als Report Builder-Anforderungen importiert werden.
 title: Mit Lesezeichen markierte Berichte und Dashboard-Kurzberichte importieren
 feature: Report Builder
 role: User, Admin
@@ -15,13 +15,13 @@ ht-degree: 65%
 
 {{legacy-arb}}
 
-Alle mit Lesezeichen markierten Berichte und Dashboard-Berichte werden jetzt in Schritt 1 des Anforderungs-Assistenten als Dimensionen aufgelistet und können als Report Builder-Anforderungen importiert werden.
+Alle mit Lesezeichen versehenen Berichte und Dashboard-Berichte werden jetzt im Anforderungs-Assistenten in Schritt 1 als Dimensionen aufgeführt und können als Report Builder-Anforderungen importiert werden.
 
-Wenn Sie einen mit Lesezeichen markierten Bericht auswählen, belegt der Anforderungs-Assistent alle Dimensionen und Metriken, die diesen mit Lesezeichen markierten Bericht definieren. Der Datumsbereich, die Granularität und das ausgewählte Segment werden ebenfalls basierend auf dem ausgewählten Lesezeichen aktualisiert.
+Wenn Sie einen mit Lesezeichen markierten Bericht auswählen, belegt der Anforderungs-Assistent alle Dimensionen und Metriken, die diesen mit Lesezeichen markierten Bericht definieren. Der Datumsbereich, die Granularität und das ausgewählte Segment werden ebenfalls auf der Grundlage des ausgewählten Lesezeichens aktualisiert.
 
 So werden in Schritt 1 des Anforderungs-Assistenten ein Dashboard und die zugehörigen Kurzberichte angezeigt:
 
-![Screenshot mit dem Anforderungs-Assistenten Schritt 1 von 2, in dem die Markierung &quot;Dashboards abrufen und Lesezeichen abrufen&quot;angezeigt wird.](assets/import_dashboard_reportlet.png)
+![Screenshot mit dem Anforderungs-Assistenten, Schritt 1 von 2, in dem die Optionen „Dashboards abrufen“ und „Lesezeichen abrufen“ hervorgehoben sind.](assets/import_dashboard_reportlet.png)
 
 Wenn Sie auf **[!UICONTROL Ihre Dashboards abrufen]** oder auf **[!UICONTROL Ihre Lesezeichen abrufen]** klicken, werden Ihre vorhandenen Dashboard- und/oder Lesezeichendaten abgerufen und in das Arbeitsblatt eingefügt.
 

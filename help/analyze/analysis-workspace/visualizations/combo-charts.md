@@ -7,7 +7,7 @@ exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ Klicken Sie in einem Kombinationsdiagramm oben rechts auf das Zahnradsymbol, um 
 | Einstellung | Definition |
 | --- | --- |
 | **[!UICONTROL Visualisierungstyp]** | Hiermit können Sie zu einem anderen Visualisierungstyp wechseln. |
-| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) aus dieser Dropdown-Liste. |
+| **[!UICONTROL Granularität]** | Für Trend-Visualisierungen können Sie die Zeitgranularität (Tag, Woche, Monat usw.) über diese Dropdown-Liste ändern. |
 | **[!UICONTROL Allgemein]** |  |
 | **[!UICONTROL Prozentsätze]** | Zeigt Werte als Prozentzahlen an. |
 | **[!UICONTROL Legende eingeblendet]** | Ermöglicht das Ausblenden des detaillierten Legendentextes für die Kombinationsdiagramm-Visualisierung. |

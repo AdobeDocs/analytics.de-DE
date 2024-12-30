@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -28,7 +28,7 @@ Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Rep
 
 >[!NOTE]
 >
->Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang „offen gehalten“ wird, während jeder zusätzliche Hit – also keine 30 Minuten nach dem vorherigen Hit (in der Hit-Zeit) – noch in denselben Besuch/dieselbe Sitzung einbezogen werden kann. Alle „alten“ Hits, die nicht in Reihenfolge empfangen werden, führen zu „unbekannten“ Ergebnissen, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Ablauf usw.) beeinflussen, ob diese Hits in die Berichterstellung einbezogen werden.
+>Mit Zeitstempel versehene Daten werden bis zu 92 Tage gespeichert. Das bedeutet, dass ein Besuch/eine Sitzung 92 Tage lang „offen gehalten“ wird, während jeder zusätzliche Hit – also keine 30 Minuten nach dem vorherigen Hit (in der Hit-Zeit) – noch in denselben Besuch/dieselbe Sitzung einbezogen werden kann. Alle „alten“ Treffer, die nicht in der richtigen Reihenfolge empfangen werden, führen zu „unbekannten“ Ergebnissen, da eine Reihe von Faktoren (Segmentierung, Zuordnung, Gültigkeit usw.) beeinflussen, ob diese Treffer in Berichte aufgenommen werden oder nicht.
 
 ## Neue Report Suites {#section_095A7CFBD280494593B9BEC1592B73A6}
 

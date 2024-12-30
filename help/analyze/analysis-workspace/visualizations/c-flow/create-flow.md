@@ -43,7 +43,7 @@ Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads konfigu
    >
    >Berechnete Metriken können nicht im Feld **[!UICONTROL Beginnt mit]** oder **[!UICONTROL Endet mit]** verwendet werden.
 
-1. Wenn Sie eine Metrik auswählen, müssen Sie auch eine [!UICONTROL **Pfade-Dimension**] bereitstellen, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von ihr stammt (siehe hier). Die Standardeinstellung ist [!UICONTROL **Seite**].
+1. Wenn Sie eine Metrik auswählen, müssen Sie auch eine &quot;[!UICONTROL **&quot;-Dimension angeben**] die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von ihr stammt, wie hier dargestellt. Die Standardeinstellung ist [!UICONTROL **Seite**].
 
    ![Pfaddimension](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads konfigu
 > 
 >1. Erstellen Sie eine Flussvisualisierung, wie oben beschrieben.
 >1. Ziehen Sie die Dimension [!UICONTROL **Seite**] in das Feld **[!UICONTROL Enthält]** und wählen Sie [!UICONTROL **Erstellen**] aus.
->1. Die Flussvisualisierung wird mit der am häufigsten angezeigten Seite erstellt, die im Fokusknoten in der Mitte der Visualisierung angezeigt wird. Sie sehen auch die oberen Seiten, die zu dieser Seite führen (links neben dem Fokusknoten), sowie die oberen Seiten, die von dieser Seite weg führen (rechts neben dem Fokusknoten).
+>1. Die Flussvisualisierung wird mit der am häufigsten angezeigten Seite erstellt, die im Fokusknoten in der Mitte der Visualisierung angezeigt wird. Außerdem werden die obersten Seiten, die zu dieser Seite führen (links neben dem Fokusknoten), sowie die obersten Seiten, die von dieser Seite führen (rechts neben dem Fokusknoten) angezeigt.
 >1. Analysieren Sie die Daten im Fluss, wie unter [Flussausgabe anzeigen und ändern](#view-and-change-the-flow-output) beschrieben.
 
 

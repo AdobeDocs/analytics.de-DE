@@ -21,25 +21,25 @@ Mit Filtern in Analysis Workspace können Sie die wichtigsten Informationen aufd
 
 >[!NOTE]
 >
-> Nur dynamische Dimensionselemente können wie in diesem Abschnitt beschrieben gefiltert werden. Statische Dimensionselemente können nicht gefiltert werden. Weitere Informationen finden Sie unter [Dynamische und statische Dimensionselemente in Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Nur dynamische Dimensionselemente können gefiltert werden, wie in diesem Abschnitt beschrieben. Statische Dimensionselemente können nicht gefiltert werden. Weitere Informationen finden Sie unter [Dynamische und statische Dimensionselemente in Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
-## Freiformtabellenzeilen filtern
+## Freiformtabellen-Zeilen filtern
 
 Sie können mehrere Methoden verwenden, um Zeilen aus einer Freiformtabelle zu filtern. 
 
-- Klicken Sie auf das X in der Zeile
+- Auf das „X“ in der Zeile klicken
 - Tabellenfilter
 - Segmentierung
 
-Lesen Sie unbedingt, wie sich jede Methode auf die Gesamtwerte der Freiformtabelle [1} auswirkt.](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+Sehen Sie sich unbedingt an, wie sich die einzelnen Methoden auf [Gesamtwerte von Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md) auswirken.
 
 ### Schnelles Ausschließen bestimmter Zeilen aus einer Tabelle
 
-Sie können bestimmte Zeilen schnell aus der Tabelle ausschließen, ohne das Dialogfeld Filter öffnen zu müssen.
+Sie können bestimmte Zeilen schnell aus der Tabelle ausschließen, ohne das Dialogfeld „Filter“ öffnen zu müssen.
 
 >[!NOTE]
 >
->Wenn Sie Zeilen wie in diesem Abschnitt beschrieben ausschließen, wird im Dialogfeld für erweiterte Filter automatisch eine Regel [!UICONTROL **Elemente immer ausschließen**] angewendet. (Sie können die angewendete Regel anzeigen, indem Sie das Filtersymbol und dann [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table) auswählen.)
+>Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben, wird [!UICONTROL **Regel „Elemente immer ausschließen**] im Dialogfeld Erweiterter Filter automatisch angewendet. (Sie können die angewendete Regel anzeigen, indem Sie auf das Symbol Filter und dann auf [**[!UICONTROL Erweiterte Einstellungen anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table) klicken.)
 
 So schließen Sie bestimmte Zeilen schnell aus einer Freiformtabelle aus:
 
@@ -56,11 +56,11 @@ Note: this option does not seem to work. AN-338422
 
    This action will remove the rows from the table and apply a table filter.-->
 
-### Einfache oder erweiterte Filter auf Tabellen anwenden
+### Anwenden eines einfachen oder erweiterten Filters auf eine Tabelle
 
 So filtern Sie Daten in Freiformtabellen:
 
-1. Bewegen Sie den Mauszeiger über die Spalte, die die zu filternden Daten enthält. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. Bewegen Sie den Mauszeiger über die Spalte, die die Daten enthält, die Sie filtern möchten. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. Wählen Sie das **Filtersymbol** aus, wenn es angezeigt wird.
 
@@ -70,7 +70,7 @@ So filtern Sie Daten in Freiformtabellen:
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **Suchbegriff oder -satz**] | Geben Sie ein Wort oder eine Wortgruppe an, nach dem/der Sie filtern möchten. Es werden nur Zeilen angezeigt, die das Wort oder die exakte Phrase enthalten. |
+   | [!UICONTROL **Nach Wort oder Phrase suchen**] | Geben Sie ein Wort oder eine Phrase an, nach dem bzw. der Sie filtern möchten. Es werden nur Zeilen angezeigt, die das Wort oder die exakte Phrase enthalten. |
    | [!UICONTROL **Nicht spezifizierte einschließen (keine)**] | Aktivieren Sie diese Option, um Daten in der Tabelle anzuzeigen, die nicht zu einer Dimension der Tabelle gehören. <!--what is this?--> |
 
 1. (Optional) Um nach verschiedenen Kriterien oder nach mehreren Kriterien zu filtern, wählen Sie [!UICONTROL **Erweiterte Einstellungen anzeigen**] aus.
@@ -90,11 +90,11 @@ So filtern Sie Daten in Freiformtabellen:
 
 ### Segmentierung
 
-Weitere Informationen finden Sie in der [Dokumentation zur Segmentierung](/help/components/segmentation/seg-home.md) .
+Weitere Informationen finden [ in der ](/help/components/segmentation/seg-home.md) zur Segmentierung .
 
 ## Sortieren von Tabellen
 
-Sie können die Daten einer Freiformtabelle nach jeder Spalte in Analysis Workspace sortieren, die eine Metrik ist.
+Sie können die Daten einer Freiformtabelle nach einer beliebigen Spalte in Analysis Workspace sortieren, die eine Metrik ist.
 
 Ein Pfeil-nach-unten-Symbol ![Pfeil nach unten zur Sortierung einer Tabellenspalte](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) ist in der Kopfzeile der Spalte sichtbar, nach der die Daten derzeit sortiert werden.
 

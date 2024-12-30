@@ -17,35 +17,35 @@ Benutzerspezifische Insight-Traffic-Variablen (oder Eigenschaften/Props) ermögl
 
 >[!TIP]
 >
->Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](/help/implement/vars/page-vars/evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch insofern verbessert, als sie nun fast alle Anwendungsfälle für Props erfüllen.
+>Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](/help/implement/vars/page-vars/evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch so weit verbessert, dass sie nun fast alle Anwendungsfälle für Props erfüllen.
 
-Sie können Traffic-Variablenberichte hinzufügen und aktivieren. Sie können auch vorhandene Traffic-Variablenberichte deaktivieren oder umbenennen.
+Sie können Berichte zu Traffic-Variablen hinzufügen und aktivieren. Sie können auch vorhandene Berichte zu Traffic-Variablen deaktivieren oder umbenennen.
 
 ## Hinzufügen und Aktivieren von Traffic-Variablen-Berichten
 
-1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite.
 1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]** aus.
-1. Wählen Sie **[!UICONTROL Neu hinzufügen]** und geben Sie dem Bericht einen Namen.
-1. Wählen Sie in der Spalte [!UICONTROL **Aktiviert**] die Option [!UICONTROL **Aktiviert**] aus dem Dropdown-Menü.1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Wählen Sie **[!UICONTROL Neu hinzufügen]** und benennen Sie dann den Bericht.
+1. Wählen Sie in [!UICONTROL **Spalte**] Aktiviert [!UICONTROL **aus**] Dropdown-Menü aus.1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-## Berichte zu Traffic-Variablen deaktivieren
+## Deaktivieren von Traffic-Variablenberichten
 
-Nachdem ein Traffic-Variablenbericht deaktiviert wurde, wird er nicht mehr in der Benutzeroberfläche angezeigt.
+Nachdem ein Traffic-Variablenbericht deaktiviert wurde, wird der Bericht nicht mehr in der Benutzeroberfläche angezeigt.
 
-So deaktivieren Sie einen Traffic-Variablen-Bericht:
+So deaktivieren Sie einen Traffic-Variablenbericht:
 
-1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite.
 1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]** aus.
-1. Wählen Sie den Traffic-Variablen-Bericht aus, den Sie deaktivieren möchten.
-1. Wählen Sie in der Spalte [!UICONTROL **Aktiviert**] die Option [!UICONTROL **Deaktiviert**] aus dem Dropdownmenü aus.
+1. Wählen Sie den Traffic-Variablenbericht aus, den Sie deaktivieren möchten.
+1. Wählen Sie in [!UICONTROL **Spalte**] Aktiviert [!UICONTROL **aus**] Dropdown-Menü aus.
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-## Umbenennen von Traffic-Variablenberichten
+## Umbenennen von Traffic-Variablen-Berichten
 
-1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite aus.
+1. Wählen Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** und wählen Sie dann eine Report Suite.
 1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Traffic]** > **[!UICONTROL Traffic-Variablen]** aus.
-1. Wählen Sie den Traffic-Variablen-Bericht aus, den Sie umbenennen möchten.
-1. Geben Sie in der Spalte [!UICONTROL **Name**] einen neuen Namen für den Bericht an.
+1. Wählen Sie den Traffic-Variablenbericht aus, den Sie umbenennen möchten.
+1. Geben Sie in [!UICONTROL **Spalte**] einen neuen Namen für den Bericht an.
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
 Siehe auch [prop](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zur Implementierung.

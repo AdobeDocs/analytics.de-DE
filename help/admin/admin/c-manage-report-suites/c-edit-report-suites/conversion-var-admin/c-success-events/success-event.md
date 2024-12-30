@@ -16,7 +16,7 @@ ht-degree: 51%
 
 Erfolgsereignisse (auch Konversionsereignisse oder benutzerdefinierte Ereignisse genannt) sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Wenn ein Besucher beispielsweise einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden.
 
-Eine Videoübersicht über Erfolgsereignisse finden Sie unter [Einführung in Konversionsereignisse](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) im Analytics-Tutorials-Handbuch.
+Eine Videoübersicht über Erfolgsereignisse finden Sie unter [Einführung in Konversionsereignisse](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) im Handbuch Analytics-Tutorials .
 
 ## Beispiele für Erfolgsereignisse
 
@@ -40,29 +40,29 @@ So konfigurieren Sie Erfolgsereignisse:
 
 1. Wählen Sie in Adobe Analytics **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** aus.
 1. Wählen Sie die Report Suite aus, in der Sie Erfolgsereignisse konfigurieren möchten.
-1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]** aus.
+1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Erfolgsereignisse]**.
 
    ![Ergebnis des Schritts](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/assets/success_event_page.png)
 
-1. Geben Sie in der Spalte [!UICONTROL **Ereignis**] den Namen des Ereignisses an, das Sie als Erfolgsereignis verwenden möchten.
+1. Geben [!UICONTROL **in der**] „Ereignis“ den Namen des Ereignisses an, das als Erfolgsereignis verwendet werden soll.
 
-1. Aktivieren Sie in der Spalte **[!UICONTROL Name]** das Kontrollkästchen neben dem Element, um die Bearbeitung zu aktivieren, und geben Sie dann den gewünschten Namen an.
+1. Aktivieren Sie in **[!UICONTROL Spalte &quot;]**&quot; das Kontrollkästchen neben dem Element, dessen Bearbeitung aktiviert werden soll, und geben Sie dann den gewünschten Namen an.
 
    Verwenden Sie aussagekräftige Namen für die auf Ihrer Website genutzten Erfolgsereignisse. Wenn beispielsweise Ereignis1 zur Nachverfolgung von Registrierungen verwendet wird, können Sie hier den Namen ändern, damit es in sämtlichen Konversionsberichten als „Registrierungen“ angezeigt wird.
 
-1. Aktivieren Sie in der Spalte **[!UICONTROL Typ]** das Kontrollkästchen neben dem Element, um die Dropdownliste zu aktivieren, und wählen Sie dann den gewünschten Typ aus.
+1. Aktivieren Sie in **[!UICONTROL Spalte]** Typ“ das Kontrollkästchen neben dem Element, um die Dropdown-Liste zu aktivieren, und wählen Sie dann den gewünschten Typ aus.
 
    >[!IMPORTANT]
    >
-   >Beachten Sie beim Ändern des Ereignistyps Folgendes:<ul><li>Sie können den Ereignistyp zwischen Zähler und numerisch ändern, ohne den Zugriff auf zuvor erfasste Daten zu verlieren.</li><li>Beim Ändern von Ereignistypen in oder von einem Währungsereignis wird eine Meldung angezeigt, dass historische Daten nicht in Berichten verfügbar sind. Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Nach der ersten Änderung erfasste Daten sind jedoch nicht verfügbar.</li></ul>
+   >Beachten Sie beim Ändern des Ereignistyps Folgendes:<ul><li>Sie können den Ereignistyp zwischen Zähler und numerischen Werten ändern, ohne den Zugriff auf zuvor erfasste Daten zu verlieren.</li><li>Beim Ändern von Ereignistypen in oder von einem Währungsereignis wird eine Meldung angezeigt, die besagt, dass historische Daten im Reporting nicht verfügbar sind. Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht verfügbar.</li></ul>
 
-   Der ausgewählte Typ bestimmt, ob es sich bei dem Ereignis um ein Zählerereignis (Standard), ein numerisches Ereignis oder ein Währungsereignis handelt. <p>Zählerereignisse werden verwendet, um ein Ereignis rechtzeitig aufzuzeichnen.</p><p>Numerische Ereignisse werden verwendet, um Berichte zu Zahlen zu erstellen, die keine Währungen sind, z. B. die Anzahl der in einer Bestellung verwendeten Gutscheine.</p> <p>Währungsereignisse zeichnen eine Dezimalzahl auf, z. B. Steuern oder Versandkosten. Der in die Währungsereignisse einfließende Wert wird bei Eingang von der Seitenwährung in die Basiswährung der Report Suite konvertiert. Währungsereignisse werden zur Nachverfolgung von Steuern und Versandkosten verwendet. Weitere Informationen zur Verwendung von Währungsereignissen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.<p>Bei numerischen Ereignissen und Währungsereignissen können die Metriken um einen anderen Wert als 1 erhöht werden.</p><p>Ereignisse im Standardtyp von „Data Sources“ müssen numerische oder Währungsereignisse sein.</p>
+   Der ausgewählte Typ bestimmt, ob das Ereignis ein Zähler- (Standard-), numerisches oder ein Währungsereignis ist. <p>Zählerereignisse werden verwendet, um ein Ereignis in der Zeit aufzuzeichnen.</p><p>Numerische Ereignisse werden für Berichte zu nicht währungsbezogenen Zahlen verwendet, z. B. die Anzahl der Coupons, die in einer Bestellung verwendet werden.</p> <p>Währungsereignisse zeichnen eine Dezimalzahl auf, z. B. Steuer oder Versand. Der in die Währungsereignisse einfließende Wert wird bei Eingang von der Seitenwährung in die Basiswährung der Report Suite konvertiert. Währungsereignisse werden zur Nachverfolgung von Steuern und Versandkosten verwendet. Weitere Informationen zur Verwendung von Währungsereignissen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.<p>Bei numerischen Ereignissen und Währungsereignissen können die Metriken um einen anderen Wert als 1 erhöht werden.</p><p>Ereignisse im Standardtyp von „Data Sources“ müssen numerische oder Währungsereignisse sein.</p>
 
-1. Aktivieren Sie in der Spalte **[!UICONTROL Polarität]** das Kontrollkästchen und wählen Sie dann aus dem Dropdownmenü aus, ob ein Aufwärtstrend für diese Metrik positiv oder negativ ist.
+1. Aktivieren Sie in **[!UICONTROL Spalte]** Polarität“ das Kontrollkästchen und wählen Sie dann aus dem Dropdown-Menü aus, ob für diese Metrik ein Aufwärts-Trend gut oder schlecht ist.
 
-   Auf diese Weise können Sie angeben, ob Adobe Analytics es als positiv oder negativ interpretieren soll, wenn ein benutzerspezifisches Ereignis (eine Metrik) ansteigt. Es werden Trendanzeigen (Pfeile) für verschiedene Metriken aktiviert, um Kontext hinzuzufügen (z. B. Vergleiche über mehrere Wochen).  Beispiele: Wenn die Metrik „Übermittelte Bugs“ über mehrere Wochen ansteigt, soll Adobe Analytics dies als positiv oder negativ interpretieren? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich positiv. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität angewendet auf: bedingte Formatierung der Freiformtabelle, Visualisierungen von Änderungen an der Zusammenfassung und das positive/negative Farbschema der Kartenvisualisierung.
+   Auf diese Weise können Sie angeben, ob Adobe Analytics es als gut oder schlecht erachten sollte, wenn ein bestimmtes benutzerspezifisches Ereignis (eine Metrik) aufsteigt. Sie aktiviert Richtungsindikatoren (Pfeile) für verschiedene Metriken, um Kontext hinzuzufügen (z. B. wochenweise Vergleiche).  Beispiele: Wenn die Metrik „Übermittelte Bugs“ über mehrere Wochen ansteigt, soll Adobe Analytics dies als positiv oder negativ interpretieren? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich positiv. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität angewendet auf: bedingte Formatierung der Freiformtabelle, Visualisierungen von Änderungen an der Zusammenfassung und das positive/negative Farbschema der Kartenvisualisierung.
 
-1. Aktivieren Sie in der Spalte **[!UICONTROL Sichtbarkeit]** das Kontrollkästchen und wählen Sie aus dem Dropdownmenü aus, ob Standardmetriken (integrierte Metriken), benutzerspezifische Ereignisse und integrierte Ereignisse im Menü, in der Metrikauswahl, im Generator für berechnete Metriken und im Segmentaufbau ausgeblendet werden sollen.
+1. Aktivieren Sie in der Spalte **[!UICONTROL Sichtbarkeit]** das Kontrollkästchen und wählen Sie dann aus dem Dropdown-Menü aus, ob Standardmetriken (integriert), benutzerdefinierte Ereignisse und integrierte Ereignisse im Menü, Metrikselektoren, Generator für berechnete Metriken und Segment Builder ausgeblendet werden sollen.
 
    Diese Einstellung wirkt sich nicht auf die Datenerfassung für diese Metrik oder das Ereignis aus, sondern nur auf die Sichtbarkeit in der Benutzeroberfläche,:
 
@@ -72,19 +72,19 @@ So konfigurieren Sie Erfolgsereignisse:
    |---------|----------|---------|
    | [!UICONTROL **Überall eingeblendet**] | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
    | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Überall ausgeblendet**] | -/- | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
+   | [!UICONTROL **Überall ausgeblendet**] | Nicht angegeben | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
 
-1. Aktivieren Sie in der Spalte [!UICONTROL **Beschreibung**] das Kontrollkästchen und geben Sie eine Beschreibung ein.
-1. Aktivieren Sie in der Spalte [!UICONTROL **Eindeutige Ereignisaufzeichnung**] das Kontrollkästchen und wählen Sie aus dem Dropdown-Menü aus, ob das Ereignis immer aufgezeichnet werden soll.
+1. Aktivieren Sie in [!UICONTROL **Spalte**] Beschreibung“ das Kontrollkästchen und geben Sie dann eine Beschreibung ein.
+1. Aktivieren Sie in [!UICONTROL **Spalte &quot;**] Ereignisaufzeichnung“ das Kontrollkästchen und wählen Sie dann aus dem Dropdown-Menü aus, ob das Ereignis immer aufgezeichnet werden soll.
 
    Die folgenden Optionen sind verfügbar:
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **Einmal pro Besuch aufzeichnen**] | Verbindet das angegebene Ereignis mit der Benutzersitzung. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich. |
+   | [!UICONTROL **Einmal pro Besuch aufzeichnen**] | Verbindet das angegebene Ereignis mit der Sitzung des Besuchers. Nachfolgende Zählungen für ein bestimmtes Ereignis im selben Besuch werden ignoriert. Für diese Art der Ereignis-Serialisierung sind keine Implementierungsänderungen erforderlich. |
    | [!UICONTROL **Ereignis-ID verwenden**] | Verbindet das angegebene Ereignis mit einer benutzerdefinierten ID. Nachfolgende Zählungen für ein bestimmtes Ereignis mit derselben Ereignis-ID werden ignoriert. Für diese Art der Ereignis-Serialisierung ist eine benutzerdefinierte ID in Treffern erforderlich, um Werte zu deduplizieren. Siehe [Ereignis-ID-Serialisierung](/help/implement/vars/page-vars/events/event-serialization.md) im Benutzerhandbuch zu Implementierungen. |
 
-1. Aktivieren Sie in der Spalte [!UICONTROL **Beitrag**] das Kontrollkästchen und wählen Sie dann aus, ob die Beteiligung aktiviert oder deaktiviert werden soll. Wenn diese Option aktiviert ist, werden alle Dimensionselemente im Besuch vollständig zugeordnet.
+1. Aktivieren Sie in [!UICONTROL **Spalte**] Teilnahme“ das Kontrollkästchen und legen Sie fest, ob die Teilnahme aktiviert oder deaktiviert werden soll. Wenn diese Option aktiviert ist, werden alle Dimensionselemente beim Besuch vollständig zugeordnet.
 
    >[!NOTE]
    >

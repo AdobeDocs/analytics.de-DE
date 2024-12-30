@@ -1,6 +1,6 @@
 ---
 description: Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie die nativ erfassten Daten behandelt und verarbeitet werden.
-title: Data Sources für Administratoren
+title: Datenquellen für Admins
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 role: Admin

@@ -13,36 +13,36 @@ ht-degree: 65%
 
 # Freiformtabelle
 
-In Analysis Workspace bildet eine Freiformtabelle die Grundlage für die interaktive Analyse von Daten. Sie können eine Kombination von [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=de) per Drag und Drop in die Zeilen und Spalten ziehen, um eine benutzerdefinierte Tabelle für Ihre Analyse zu erstellen. Wenn jede Komponente abgelegt wird, wird die Tabelle sofort aktualisiert, sodass Sie schnell analysieren und tiefer gehen können.
+In Analysis Workspace bildet eine Freiformtabelle die Grundlage für die interaktive Analyse von Daten. Sie können eine Kombination von [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=de) per Drag und Drop in die Zeilen und Spalten ziehen, um eine benutzerdefinierte Tabelle für Ihre Analyse zu erstellen. Da jede Komponente abgelegt wird, wird die Tabelle sofort aktualisiert, sodass Sie sie schnell analysieren und vertiefen können.
 
-## Einfache Freiformtabelle erstellen
+## Erstellen einer einfachen Freiformtabelle
 
 Sie beginnen mit einer leeren Freiformtabelle.
 
 ![Leere Freiformtabelle](assets/freeform-table-1.png)
 
-Wenn Sie die Metrik **[!UICONTROL ** Besuche **]** auf **[!UICONTROL ** Metrik hier ablegen (oder eine andere Komponente)**]** ablegen, wird die Freiformtabelle für den ausgewählten Kalenderzeitraum automatisch mit Besuchen pro Tag gefüllt.
+Wenn Sie die Metrik **[!UICONTROL ** Besuche **]** auf der **[!UICONTROL ** Metrik hier ablegen (oder einer anderen Komponente)**]** ablegen, werden in der Freiformtabelle für den ausgewählten Kalenderzeitraum automatisch die Besuche pro Tag ausgefüllt.
 
-![Besuche der Freiformtabelle](assets/freeform-table-2.png)
+![Freiformtabelle „Besuche](assets/freeform-table-2.png)
 
-Wenn Sie dann die Dimension **[!UICONTROL ** Seite **]** ablegen, um die Dimensionsspalte **[!UICONTROL ** Tag **]** zu ersetzen, spiegelt die Freiformtabelle automatisch die Besuche für jede Seite wider.
+Wenn Sie dann die Dimension **[!UICONTROL ** Seite **]** ablegen, um die Dimensionsspalte **[!UICONTROL ** Tag **]** zu ersetzen, spiegelt die Freiformtabelle automatisch Besuche für jede Seite wider.
 
-![Besuche nach Seiten-Freiformtabelle](assets/freeform-table-3.png)
+![Besuche nach Freiformtabelle der Seite](assets/freeform-table-3.png)
 
-Anschließend können Sie beispielsweise die Seite **[!UICONTROL ** category:5 **]** aufschlüsseln, indem Sie die Dimension **[!UICONTROL ** Marketing-Kanal **]** in der Zeile **[!UICONTROL ** category:5 **]** ablegen.
+Sie können dann beispielsweise die Seite &quot;**[!UICONTROL **:5“ aufschlüsseln **]** indem Sie die Dimension **[!UICONTROL ** Marketing-Kanal **]** in der Zeile **[!UICONTROL ** Kategorie:5 **]** ablegen.
 
-![Aufschlüsselung der Besuche nach Freiformtabelle der Seite](assets/freeform-table-4.png)
+![Aufschlüsselung der Besuche nach Seiten-Freiformtabelle](assets/freeform-table-4.png)
 
 
 ## Automatisierte Tabellen
 
-Wie oben gezeigt, besteht die schnellste Möglichkeit zum Erstellen einer Tabelle darin, Komponenten direkt in einem leeren Projekt, Bedienfeld oder einer Freiformtabelle abzulegen. Eine Freiformtabelle wird dann automatisch in einem empfohlenen Format erstellt. [Tutorial ansehen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=de).
+Wie oben gezeigt, besteht die schnellste Möglichkeit, eine Tabelle zu erstellen, darin, Komponenten direkt in ein leeres Projekt, ein leeres Bedienfeld oder eine Freiformtabelle abzulegen. Eine Freiformtabelle wird dann automatisch in einem empfohlenen Format erstellt. [Tutorial ansehen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=de).
 
 ![](assets/automated-table.png)
 
 ## Freiformtabellen-Builder
 
-Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Builder aktiviert ist, können Sie Tabellen mit komplexeren Fragen per Drag &amp; Drop in viele Dimensionen, Aufschlüsselungen, Metriken und Segmente verschieben. Daten werden nicht sofort aktualisiert. Sie werden aktualisiert, sobald Sie auf **[!UICONTROL Build]** klicken.
+Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Builder aktiviert ist, können Sie für komplexe Fragen Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag-and-Drop erstellen. Daten werden nicht sofort aktualisiert. Sie werden erst aktualisiert, wenn Sie auf &quot;**[!UICONTROL &quot;]**.
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/
 
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten in Zwischenablage kopieren]** exportiert die angezeigten Tabellendaten. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl in Zwischenablage kopieren]**. Mit dem Hotkey **Strg + C** können auch ausgewählte Daten kopiert werden.
 * Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
-* Klicken Sie mit der rechten Maustaste auf > **[!UICONTROL Projekt > Elemente als CSV herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
+* Klicken Sie mit der rechten Maustaste **[!UICONTROL Projekt > Elemente als CSV herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
 
 Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
 

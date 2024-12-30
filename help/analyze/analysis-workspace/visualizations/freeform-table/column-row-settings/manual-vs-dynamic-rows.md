@@ -7,7 +7,7 @@ exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 90%
+ht-degree: 85%
 
 ---
 
@@ -21,9 +21,9 @@ Dynamische Dimensionselemente ändern sich mit der Zeit und hängen von der Metr
 
 Wenn Sie eine Dimension in eine Freiform-Tabelle ablegen, werden dynamische Zeilen zurückgegeben. Sie stellen die obersten Elemente dar, die der Dimension für eine bestimmte Metrik und einen bestimmten Zeitraum entsprechen. Sie können eine Dimension auch in Freiform-Tabellenspalten ablegen und die Dimension wird automatisch in die fünf obersten Dimensionselemente erweitert.
 
-Wenn Sie beispielsweise die Dimension „Browser-Typ“ in die Tabelle ziehen, kehren die obersten Dimensionselemente des Browser-Typs (z. B. Microsoft, Apple, Google usw.) dynamisch zu den Tabellenzeilen zurück. Wenn sie in eine Spalte abgelegt wurde, werden die obersten 5 Browsertyp-Dimensionselemente dynamisch zurückgegeben.
+Wenn Sie beispielsweise die Dimension „Browser-Typ“ in die Tabelle ziehen, kehren die oberen Dimensionselemente des Browser-Typs (z. B. Microsoft, Apple, Google usw.) dynamisch zu den Tabellenzeilen zurück. Wenn sie in eine Spalte abgelegt wurde, werden die obersten 5 Browsertyp-Dimensionselemente dynamisch zurückgegeben.
 
-Dynamische Dimensionselemente verfügen über die Zeilenfilteroption und die X-Symbole und verfügen nicht über das Sperrsymbol (**nicht** ). <!--do they have the lock icon? --> Wenn Sie auf das x neben einem dynamischen Dimensionselement klicken, wird automatisch ein Filter angewendet. Weitere Informationen zum Anwenden von Filtern auf Tabellen finden Sie unter [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Dynamische Dimensionselemente verfügen über die Zeilenfilteroption und die X-Symbole und **nicht** ein Sperrsymbol. <!--do they have the lock icon? --> Wenn Sie auf das x neben einem dynamischen Dimensionselement klicken, wird automatisch ein Filter angewendet. Weitere Informationen zum Anwenden von Filtern auf Tabellen finden Sie unter [Tabellen filtern und sortieren](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 

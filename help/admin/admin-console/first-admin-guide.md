@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics-Handbuch für erste Administratoren
-description: Erfahren Sie, wie der erste Admin-Bereitstellungsprozess und die nächsten Schritte ablaufen.
+description: Erfahren Sie, wie der erste Admin-Bereitstellungsprozess stattfindet und wie die nächsten Schritte aussehen
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 role: Admin
@@ -13,13 +13,13 @@ ht-degree: 43%
 
 # Adobe Analytics-Handbuch für erste Administratoren
 
-Bevor Benutzenden in Adobe Analytics Benutzerrollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in Experience Cloud zugewiesen werden. Der erste Administrator kann dann Benutzer in der Organisation mit anderen Schlüsselrollen versorgen.
+Bevor Benutzenden in Adobe Analytics Benutzerrollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in Experience Cloud zugewiesen werden. Der erste Administrator bzw. die erste Administratorin kann dann Benutzenden in der Organisation andere Rollen zuweisen.
 
-Ein erster Administrator ist der Ausgangspunkt, um dem Rest der Organisation die Verwendung der einzelnen Experience Cloud-Lösungen, einschließlich Adobe Analytics, zu ermöglichen.
+Ein erster Administrator bzw. eine erste Administratorin ist der erste Schritt, um dem Rest des Unternehmens die Verwendung der einzelnen Experience Cloud-Lösungen, einschließlich Adobe Analytics, zu ermöglichen.
 
-## Bereitstellungsprozess für einen ersten Administrator
+## Bereitstellungsprozess für den ersten Administrator
 
-Nach der Unterzeichnung eines Vertrags:
+Nach Vertragsunterzeichnung:
 
 1. Das Bereitstellungs-Team von Adobe bereitet die Erstellung des Kontos vor.
 
@@ -31,6 +31,6 @@ Nach der Unterzeichnung eines Vertrags:
 
 ## Nächste Schritte
 
-Nachdem ein erster Administrator für Ihre Organisation bereitgestellt wurde, kann der erste Administrator den Benutzern in der Organisation weitere wichtige Rollen zuweisen.
+Nachdem ein erster Administrator bzw. eine erste Administratorin für Ihre Organisation eingerichtet wurde, kann der erste Administrator bzw. die erste Administratorin Benutzenden in der Organisation andere Rollen zuweisen.
 
-Informationen dazu, wie Sie Benutzern in Ihrer Organisation Schlüsselrollen für Adobe Analytics zuweisen können, finden Sie unter [Administratorrollen in Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Informationen dazu, wie Sie Benutzenden in Ihrer Organisation Schlüsselrollen für Adobe Analytics bereitstellen, finden Sie unter [Administratorrollen in Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

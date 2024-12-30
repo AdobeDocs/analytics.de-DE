@@ -13,7 +13,7 @@ ht-degree: 94%
 
 # Vergleich verschiedener Methoden zum Ausschluss von Bots
 
-Die folgende Tabelle zeigt verschiedene Methoden zum Ausschließen von Bots und wie diese miteinander verglichen werden.
+Die folgende Tabelle zeigt verschiedene Methoden zum Ausschluss von Bots und deren Vergleich untereinander.
 
 | Methode | Bot-Regeln | Nach IP-Adresse ausschließen | Kundenattribute | Segmentierung | Bewertung durch Dritte + Segmentierung | Unterdrücken des Server-Aufrufs für Bots zur Laufzeit | Benutzerspezifische DB VISTA-Regel |
 | --- | --- | --- | --- | --- | --- | --- | --- |

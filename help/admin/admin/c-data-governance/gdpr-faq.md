@@ -109,7 +109,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Wir möchten Sie bitten, die Datenschutz-API nicht für andere Zwecke zu verwenden, wie z. B. das Löschen von Daten, die versehentlich durch große Besuchergruppen übermittelt wurden. Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie Datenfelder löschen möchten, und zeigt, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe Account-Team, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von PII- oder Datenproblemen zu unternehmen.
+Wenden Sie sich an Ihr Adobe-Account-Team, um sich mit unserem Engineering Architect-Consulting-Team abzustimmen und den Aufwand für die Entfernung von personenbezogenen Daten oder Datenproblemen zu ermitteln.
 
 +++
 
@@ -119,7 +119,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie Datenfelder löschen möchten, und zeigt, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe Account-Team, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von PII- oder Datenproblemen zu unternehmen.
+Wenden Sie sich an Ihr Adobe-Account-Team, um sich mit unserem Engineering Architect-Consulting-Team abzustimmen und den Aufwand für die Entfernung von personenbezogenen Daten oder Datenproblemen zu ermitteln.
 
 +++
 

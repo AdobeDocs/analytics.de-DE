@@ -21,6 +21,6 @@ So passen Sie ein rollierendes Datum für Ihre Anfrage an:
 1. Wählen Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] die Option **[!UICONTROL Rollierende Datumswerte]**.
 1. Klicken Sie auf den Link **[!UICONTROL Rollierend]**, um den Rollierungstyp zu wählen, und verwenden Sie dann die Datums-Links, um rollierende Datumswerte zu konfigurieren.
 
-   Die Einstellungen für [!UICONTROL Rollierende Datumswerte] ändern sich je nach ausgewähltem Typ. Wenn Sie beispielsweise [!UICONTROL Rollierend wöchentlich] auswählen, stellt Report Builder wochenspezifische Einstellungen bereit, die Sie als Rollierungsmuster auswählen können.
+   Die Einstellungen für [!UICONTROL Rollierende Datumswerte] ändern sich je nach ausgewähltem Typ. Wenn Sie beispielsweise [!UICONTROL Wöchentlich rollierend] auswählen, stellt Report Builder wöchentliche Einstellungen bereit, die Sie als rollierendes Muster auswählen können.
 
 1. Konfigurieren Sie die erweiterten Optionen nach Bedarf.

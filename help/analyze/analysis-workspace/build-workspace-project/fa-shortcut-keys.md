@@ -28,7 +28,7 @@ Hinweis:
 | Vorhandenes Projekt öffnen | Strg+O |
 | Zum Fenster „Bedienfelder“ | Alt + Umsch + 1 |
 | Zum Fenster „Visualisierungen“ | Alt + Umsch + 2 |
-| Zum Fenster „Komponenten“ | Alt + Umsch + 3 |
+| Zum Bereich „Komponenten“ | Alt + Umsch + 3 |
 | Alle Bedienfelder reduzieren/erweitern | Alt+M |
 | Aktives Bedienfeld reduzieren/erweitern | Alt + Strg + M |
 | Zum nächsten Bedienfeld wechseln | Alt + Rechtstaste |
@@ -64,7 +64,7 @@ Hinweis:
 | Neues Bedienfeld „Quick Insights“ | Alt+F |
 | Neues Bedienfeld für Segmentvergleich | Alt+C |
 | Neue Freiformtabelle | Alt+1 |
-| Neuer Kantengraph | Alt + 2 |
+| Neues Liniendiagramm | Alt + 2 |
 | Neues Balkendiagramm | Alt + 3 |
 
 ## Demokratisierungaktionen

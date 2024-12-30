@@ -18,27 +18,27 @@ ht-degree: 24%
 
 Sie können einen komplexen Datumsbereich festlegen, indem Sie einen benutzerdefinierten Ausdruck verwenden.
 
-Wenn Sie Ausdrücke erstellen, lesen Sie einen Kalender , um die Anzahl der Wochen und Tage korrekt anzugeben. Excel bietet verschiedene integrierte Funktionen für die Berechnung von Tagen, Werktagen, Monaten und Jahren, die zwischen zwei Datumswerten liegen. Sie können diese Funktionen in Formeln verwenden, um andere Intervalle zu berechnen, etwa Wochen oder Quartale.
+Verweisen Sie beim Erstellen von Ausdrücken auf einen Kalender, um die Anzahl der Wochen und Tage korrekt anzugeben. Excel bietet verschiedene integrierte Funktionen für die Berechnung von Tagen, Werktagen, Monaten und Jahren, die zwischen zwei Datumswerten liegen. Sie können diese Funktionen in Formeln verwenden, um andere Intervalle zu berechnen, etwa Wochen oder Quartale.
 
 **So aktivieren Sie benutzerdefinierte Ausdrücke**
 
-Das folgende Beispiel zeigt, wie Sie einen benutzerdefinierten Ausdruck für **[!UICONTROL Rollierende Datumswerte]** aktivieren.
+Das folgende Beispiel zeigt, wie ein benutzerdefinierter Ausdruck für „Rollierende **[!UICONTROL &quot; aktiviert]**.
 
-1. Wählen Sie im Dialogfeld &quot;[!UICONTROL Anforderungs-Assistent: Schritt 1]&quot;anstelle von &quot;**[!UICONTROL Vordefinierte Datumswerte]**&quot; die Option &quot;**[!UICONTROL Rollierende Datumswerte]**&quot;.
+1. Wählen Sie im [!UICONTROL Anforderungs-Assistenten: Schritt 1] anstelle von **[!UICONTROL Vordefinierte Datumswerte]** die Option **[!UICONTROL Rollierende Datumswerte]**.
 
-   ![ Screenshot mit ausgewählten rollierenden Datumswerten.](assets/rolldates1.png)
+   ![Screenshot mit ausgewählten rollierenden Datumsangaben.](assets/rolldates1.png)
 
-1. Wechseln Sie zu Rollierend wöchentlich, monatlich, vierteljährlich oder jährlich. Beachten Sie, wie sich die folgenden Optionen ändern.
-1. Klicken Sie für weitere Anpassungsoptionen auf **[!UICONTROL Erweiterte Optionen anzeigen]**.
+1. Wechseln Sie zu „Rollierend“ (wöchentlich, monatlich, vierteljährlich oder jährlich). Beachten Sie, wie sich die unten stehenden Optionen ändern.
+1. Um weitere Anpassungsoptionen anzuzeigen, klicken Sie auf **[!UICONTROL Erweiterte Optionen anzeigen]**.
 
-   ![ Screenshot, in dem die erweiterten Optionen anzeigen hervorgehoben werden.](assets/rolldates2.png)
+   ![Screenshot mit hervorgehobenen Optionen für „Erweiterte Optionen anzeigen“.](assets/rolldates2.png)
 
-1. Wenn Sie beispielsweise die oben genannten Daten in &quot;Monatlich&quot;ändern, vom ersten Tag vor drei Monaten bis zum ersten Tag dieses Monats, werden die Datumsangaben in den vorherigen Optionen aktualisiert, um Folgendes widerzuspiegeln:
+1. Wenn Sie beispielsweise die obigen Datumsangaben vom ersten Tag vor drei Monaten auf den ersten Tag dieses Monats in „Rollierend monatlich“ ändern, werden die Datumsangaben im Abschnitt „Erweiterte Optionen“ selbst aktualisiert, um Folgendes widerzuspiegeln:
 
-   ![Screenshot mit den rollierenden Daten vom ersten Tag vor drei Monaten bis zum ersten Tag dieses Monats.](assets/rolldatesfor3.png)
+   ![Screenshot mit den rollierenden Datumsangaben vom ersten Tag vor drei Monaten bis zum ersten Tag dieses Monats.](assets/rolldatesfor3.png)
 
-1. Aktivieren Sie **[!UICONTROL Ausdruck anpassen]**. Wenn Sie unter **[!UICONTROL Rollierende Datumswerte]** Optionen auswählen, können Sie die Syntax für benutzerdefinierte Datumsausdrücke leicht sehen.
+1. Aktivieren Sie **[!UICONTROL Ausdruck anpassen]**. Durch Auswahl von Optionen unter **[!UICONTROL Rollierende Datumswerte]** können Sie die Syntax für benutzerdefinierte Datumsausdrücke leicht erkennen.
 
-   ![ Screenshot mit ausgewähltem Ausdruck anpassen.](assets/rolldatesfor5.png)
+   ![Screenshot mit ausgewähltem Ausdruck anpassen.](assets/rolldatesfor5.png)
 
-   Sie können Erweiterte Optionen verwenden, um benutzerdefinierte Datumsausdrücke zu kombinieren und zuzuordnen. Wenn Sie beispielsweise Daten vom ersten des Jahres bis zum Ende des letzten vollen Monats sehen möchten, können Sie Folgendes eingeben: `From: cy` `To: cm-1d`. Im Assistenten werden diese Daten als 1.1.2020-1.31.2020 angezeigt.
+   Sie können erweiterte Optionen verwenden, um benutzerdefinierte Datumsausdrücke zu mischen und zuzuordnen. Wenn Sie beispielsweise Daten vom ersten Tag des Jahres bis zum Ende des letzten vollen Monats anzeigen möchten, können Sie Folgendes eingeben: `From: cy` `To: cm-1d`. Im Assistenten werden diese Daten als 31.1.2020-1.2020 angezeigt.

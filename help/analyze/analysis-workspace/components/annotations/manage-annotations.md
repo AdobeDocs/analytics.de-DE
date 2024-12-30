@@ -13,7 +13,7 @@ ht-degree: 61%
 
 # Verwalten von Anmerkungen
 
-Der [!UICONTROL Anmerkungsmanager] zeigt Ihnen alle Anmerkungen an, die Ihnen gehören oder für Sie freigegeben wurden. Projektspezifische Anmerkungen werden hier nicht angezeigt. Sie können diese Benutzeroberfläche verwenden, um Ihre Anmerkungen freizugeben, zu filtern, zu taggen, zu kopieren, zu löschen und zu favorisieren. Administratoren können Anmerkungen verwalten und genehmigen.
+Die [!UICONTROL Anmerkungsverwaltung] zeigt Ihnen alle Anmerkungen an, deren Inhaber Sie sind oder die für Sie freigegeben wurden. Projektspezifische Anmerkungen werden hier nicht angezeigt. Sie können diese Benutzeroberfläche verwenden, um Anmerkungen freizugeben, zu filtern, zu taggen, zu kopieren, zu löschen und zu Ihren Favoriten hinzuzufügen. Administratoren können Anmerkungen verwalten und genehmigen.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Anmerkungen]**
 
@@ -34,7 +34,7 @@ Der [!UICONTROL Anmerkungsmanager] zeigt Ihnen alle Anmerkungen an, die Ihnen ge
 
 ## Bearbeiten von Anmerkungen
 
-Die Bearbeitung einer Anmerkung bedeutet, dass Sie Datumsbereiche, Farben und den Umfang anpassen können oder ob diese für alle Report Suites oder Projekte gelten. Anmerkungen können auf zwei Arten bearbeitet werden:
+Das Bearbeiten einer Anmerkung bedeutet, dass Sie Datumsbereiche, Farben und den Umfang anpassen können oder festlegen können, ob die Anmerkung für alle Report Suites oder Projekte gilt. Anmerkungen können auf zwei Arten bearbeitet werden:
 
 * Bewegen Sie in einem Liniendiagramm den Mauszeiger über die Anmerkung und klicken Sie im Popover auf das Stiftsymbol.
 * Klicken Sie in der [!UICONTROL Anmerkungsverwaltung] auf den Titel der Anmerkung.
@@ -45,15 +45,15 @@ Beide Optionen führen Sie zurück in den [!UICONTROL Anmerkungsgenerator]. Dort
 
 Beachten Sie Folgendes beim Freigeben von Anmerkungen oder Arbeiten mit Anmerkungen, die für Sie freigegeben wurden:
 
-* Wenn Sie ein Projekt mit schreibgeschützten Anmerkungen erstellen und das Projekt dann für einen anderen Benutzer freigeben, können Anmerkungen von niemandem bearbeitet oder gelöscht werden, für den Sie das Projekt freigeben.
+* Wenn Sie ein Projekt mit projektbezogenen Anmerkungen erstellen und das Projekt dann für einen anderen Benutzer freigeben, können Anmerkungen von niemandem bearbeitet oder gelöscht werden, für den Sie das Projekt freigeben.
 * Wenn Sie eine Anmerkung speichern und direkt für einen Benutzer freigeben, kann dieser die Anmerkung nur bearbeiten/löschen, wenn er über Administratorrechte verfügt.
-* Wenn ein Projekt für Sie mit einer reinen projektbezogenen Anmerkung freigegeben wird, wird es nur in diesem Projekt angezeigt. Wenn die Anmerkung direkt für Sie freigegeben ist, wird sie in allen Projekten angezeigt, in denen diese Anmerkung angezeigt werden kann.
+* Wenn ein Projekt mit einer projektbezogenen Anmerkung freigegeben wird, wird es nur in diesem Projekt angezeigt. Wenn die Anmerkung direkt für Sie freigegeben ist, wird sie in allen Projekten angezeigt, in denen diese Anmerkung angezeigt werden kann.
 
 ## Anmerkungen und Zeitzonen
 
-Alle Anmerkungen werden mit einem Zeitstempel erstellt, jedoch ohne Stunden- oder Zeitzoneninformationen. Zum Zeitpunkt des Berichts wird immer die Zeitzone der Report Suite des Bedienfelds angewendet. Beispielsweise wird am 25. Dezember unabhängig von der Zeitzone der Report Suite, in der Sie sich befinden, eine Anmerkung für den Weihnachtstag erstellt.
+Alle Anmerkungen werden mit einem Zeitstempel erstellt, jedoch ohne Stunden- oder Zeitzoneninformationen. Zum Zeitpunkt des Berichts wird immer die Zeitzone der Report Suite des Bedienfelds angewendet. Zum Beispiel erfolgt eine für Weihnachten erstellte Anmerkung am 25. Dezember, unabhängig davon, in welcher Report Suite-Zeitzone Sie sich befinden.
 
-## Sonstige Anmerkungsaufgaben
+## Andere Anmerkungsaufgaben
 
 Mit der Anmerkungsverwaltung können Administratoren Anmerkungen bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Dies ist für Nicht-Admin-Benutzer nicht sichtbar.
 
@@ -61,8 +61,8 @@ Zusätzliche Optionen sind verfügbar, wenn Sie mindestens eine Anmerkung auswä
 
 | Aufgabe | Beschreibung |
 | --- | --- |
-| [!UICONTROL Hinzufügen] | Sie gelangen zum Generator für Anmerkungen , in dem Sie Anmerkungen erstellen können. |
-| [!UICONTROL Tag] | Alle Benutzer können Tags für Anmerkungen erstellen und ein oder mehrere Tags auf eine Anmerkung anwenden. Sie können Tags jedoch nur für Anmerkungen anzeigen, deren Inhaber Sie sind. |
+| [!UICONTROL Hinzufügen] | Sie gelangen zum Anmerkungsgenerator, in dem Sie Anmerkungen erstellen können. |
+| [!UICONTROL Tag] | Alle Benutzer können Tags für Anmerkungen erstellen und ein oder mehrere Tags auf eine Anmerkung anwenden. Sie können Tags jedoch nur für Anmerkungen sehen, deren Inhaber Sie sind. |
 | [!UICONTROL Löschen] | Durch das Löschen einer Anmerkung wird sie aus jedem Projekt in Ihrer Organisation entfernt. |
 | [!UICONTROL Umbenennen] | Beim Umbenennen einer Anmerkung wird sie in allen Projekten umbenannt, auf die sie angewendet wurde. |
 | [!UICONTROL Kopieren] | Erstellt eine eigenständige Kopie mit einer eigenen neuen Anmerkungs-ID, jedoch mit demselben Namen und derselben Definition. |

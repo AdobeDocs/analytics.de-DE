@@ -22,7 +22,7 @@ Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassi
 
 Auf der Seite „Traffic-Classifications“ können Sie Classifications für ausgewählte Report Suites erstellen. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der zugeordneten Attribute erstellt werden.
 
-Nachdem Sie Klassifizierungen aktiviert haben, verwenden Sie [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md) , um bestimmte Werte der entsprechenden Klassifizierung zuzuweisen.
+Nach der Aktivierung der Klassifizierungen verwenden [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md), um der entsprechenden Klassifizierung bestimmte Werte zuzuweisen.
 
 ## Hinzufügen einer Traffic-Klassifizierung {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

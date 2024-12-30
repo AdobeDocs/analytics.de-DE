@@ -27,4 +27,4 @@ Abkürzungen für Start- und Enddaten.
 
 >[!NOTE]
 >
->Wenn Sie das Datum auf ein zukünftiges Datum festlegen, werden die Werte nicht zurückgegeben.
+>Wenn Sie das Datum auf ein Datum in der Zukunft setzen, werden keine Werte zurückgegeben.

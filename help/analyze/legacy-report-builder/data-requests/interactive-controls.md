@@ -1,5 +1,5 @@
 ---
-description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von Report Builder-Anforderungen mehr Flexibilität.
+description: Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie mehr Flexibilität bei der Aktualisierung von Report Builder-Anfragen.
 title: interaktive Steuerelemente
 feature: Report Builder
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie beim Aktualisieren von Report Builder-Anforderungen mehr Flexibilität.
+Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie mehr Flexibilität bei der Aktualisierung von Report Builder-Anfragen.
 
-Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow erstellt, bei dem Analysten Arbeitsmappen erstellen und diese mit der Marketingorganisation teilen. Interaktive Steuerelemente ermöglichen es Marketern, Anforderungen zu ändern und zu aktualisieren, ohne über umfassende Kenntnisse der Funktionsweise von Report Builder verfügen zu müssen. (Beachten Sie, dass der Arbeitsmappen-Empfänger ein Report Builder sein muss, um eine Anforderung aktualisieren zu können.) Diese Steuerelemente funktionieren innerhalb geplanter Arbeitsmappen. Derzeit sind zwei Arten interaktiver Steuerelemente verfügbar:
+Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow erstellt, bei dem Analysten Arbeitsmappen erstellen und diese mit der Marketingorganisation teilen. Interaktive Steuerelemente bieten Marketing-Experten die Möglichkeit, Anfragen zu ändern und zu aktualisieren, ohne über fundierte Kenntnisse der Funktionsweise von Report Builder verfügen zu müssen. (Beachten Sie, dass der Arbeitsmappen-Empfänger ein Report Builder sein muss, um eine Anfrage aktualisieren zu können.) Diese Steuerelemente funktionieren in geplanten Arbeitsmappen. Derzeit sind zwei Arten interaktiver Steuerelemente verfügbar:
 
 * Rollierender Datumsbereich
 * Segmente
@@ -25,7 +25,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 >[!IMPORTANT]
 >
 >Damit die interaktiven Steuerelemente funktionieren, muss Report Builder v5.0 installiert sein. >
->* Wenn Sie Microsoft Excel unter Windows ausführen, aber eine niedrigere Version von Report Builder ausführen oder wenn Sie Report Builder nicht installiert haben, können Sie den Wert im interaktiven Steuerelement ändern. Es werden jedoch weder die verknüpfte Anforderung noch die zugehörigen Parameter der Anforderung aktualisiert.
+>* Wenn Sie Microsoft Excel unter Windows ausführen, aber eine niedrigere Version von Report Builder ausführen oder wenn Sie keinen installierten Report Builder haben, können Sie den Wert im interaktiven Steuerelement ändern. Die zugehörige Anfrage wird jedoch nicht aktualisiert und die zugehörigen Parameter der Anfrage werden nicht aktualisiert.
 >* Wenn Sie Excel auf einem Mac ausführen, wird die folgende Nachricht angezeigt, wenn Sie den Wert im Steuerelement ändern: „Das Makro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kann nicht gefunden werden.“
 >
 
@@ -38,11 +38,11 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 1. Wählen Sie in Schritt 1 des Anforderungs-Assistenten zum Beispiel den Bericht **[!UICONTROL Seite]** aus.
 1. Klicken Sie neben dem Dropdown-Menü **[!UICONTROL Häufig verwendete Datumsangaben]** auf das Symbol **[!UICONTROL Steuerungseinstellungen]**:
 
-   ![Screenshot des Anforderungs-Assistenten Schritt 1, in dem das Symbol Kontrolleinstellungen hervorgehoben wird. ](assets/date_range_control.png)
+   ![Screenshot des Anforderungs-Assistenten, Schritt 1 mit hervorgehobenem Symbol für Kontrolleinstellungen. ](assets/date_range_control.png)
 
 1. Wählen Sie im Dialogfeld „Steuerungseinstellungen“ alle Datumsbereichselemente aus, die im interaktiven Steuerelement angezeigt werden sollen. Legen Sie außerdem den oberen linken Zellenstandort des Steuerelements fest.
 
-   ![Screenshot mit den ausgewählten Datumsbereichselementen und der Zellenposition oben links.](assets/control_settings.png)
+   ![Screenshot mit den ausgewählten Datumsbereichselementen und der Position der oberen linken Zelle.](assets/control_settings.png)
 
 1. Beachten Sie die Option „Verknüpfte Anforderungen bei Elementauswahl automatisch aktualisieren“.
 
@@ -53,7 +53,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 
 1. Nun können Sie den Datumsbereich ändern und die Anforderung wird mit diesem Datumsbereich aktualisiert.
 
-   ![ Screenshot mit dem ausgewählten Datumsbereich.](assets/date_range_control_interactive.png)
+   ![Screenshot mit dem ausgewählten Datumsbereich.](assets/date_range_control_interactive.png)
 
 1. Sie können die Anforderung auch kopieren und mit der rechten Maustaste darauf klicken, um eine der zwei Optionen zum Einfügen von Anforderungen zu verwenden:
 
@@ -71,12 +71,12 @@ Das Implementieren interaktiver Steuerelemente für Segmente ähnelt dem Impleme
 
 1. Wählen Sie in Schritt 1 des Anforderungs-Assistenten neben dem Dropdown-Menü **[!UICONTROL Segment]** das Symbol für die Segmentsteuerungseinstellungen:
 
-   ![ Screenshot des Symbols für die Segmentsteuerungseinstellungen.](assets/segment_interactive_1.png)
+   ![Screenshot des Symbols „Segmentsteuerungseinstellungen“.](assets/segment_interactive_1.png)
 
 1. Wählen Sie im Dialogfeld für die Segmentsteuerungseinstellungen die Segmente aus, die im Dropdown-Menü enthalten sein sollen. Legen Sie außerdem den oberen linken Zellenstandort des Steuerelements fest.
 
-   ![Screenshot mit Segmentsteuerungseinstellungen mit ausgewählten Segmenten und der Zellenposition.](assets/segment_drop_down_properties.png)
+   ![Screenshot mit den Einstellungen für die Segmentsteuerung mit den ausgewählten Segmenten und der Zellenposition.](assets/segment_drop_down_properties.png)
 
 1. Das neue interaktive Steuerelement wird nun in der Arbeitsmappe angezeigt:
 
-   ![ Screenshot mit dem ausgewählten neuen interaktiven Steuerelement.](assets/segment_interactive_3.png)
+   ![Screenshot mit dem ausgewählten neuen interaktiven Steuerelement.](assets/segment_interactive_3.png)

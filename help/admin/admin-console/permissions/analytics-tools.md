@@ -42,7 +42,7 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | [!UICONTROL Erstellung von Segmenten] | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | [!UICONTROL Segmentveröffentlichung] | Gewährt die Möglichkeit, ein Segment beim Erstellen oder Bearbeiten zu einer Experience Cloud-Zielgruppe zu machen. |
 | [!UICONTROL Nutzung der Server-Aufrufe] | Gewährt Zugriff auf „Admin“ > „Server-Aufruf-Nutzung“. |
-| [!UICONTROL Projektlinks für jedermann freigeben] | Gewährt Benutzern ohne Zugriff auf Adobe Analytics die Möglichkeit, schreibgeschützten Zugriff auf Analysis Workspace-Projekte zu gewähren. |
+| [!UICONTROL Projekt-Links für alle freigeben] | Ermöglicht Personen, die keinen Zugriff auf Adobe Analytics haben, schreibgeschützten Zugriff auf Analysis Workspace-Projekte. |
 | [!UICONTROL Support] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Supportinfo“. |
 | [!UICONTROL Traffic-Management] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
 | [!UICONTROL Zugriff auf Web Services] | Ermöglicht die Verwendung der API, einschließlich Authentifizierung bei Websites von Drittanbietern und dem Senden von API-Aufrufen. |

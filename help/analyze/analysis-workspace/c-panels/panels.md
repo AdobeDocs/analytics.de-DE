@@ -33,7 +33,7 @@ Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
 
 ![](assets/panel-overview.png)
 
-Die Bedienfelder [!UICONTROL Quick Insights], [!UICONTROL Blank] und [!UICONTROL Freiform] eignen sich hervorragend als Ausgangspunkt für Ihre Analyse, während sich die Bedienfelder [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Gleichzeitige Medienbetrachter] und [!UICONTROL Segmentvergleich] für erweiterte Analysen eignen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
+Die Bedienfelder [!UICONTROL Quick Insights], [!UICONTROL Leer] und [!UICONTROL Freiform] eignen sich hervorragend als Ausgangspunkt für Ihre Analyse. [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Media Concurrent Viewers] und [!UICONTROL Segmentvergleich] eignen sich für erweiterte Analysen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
 
 Das standardmäßige Startbedienfeld ist das [!UICONTROL Freiform-]Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als Standard festlegen.
 
@@ -62,74 +62,74 @@ Mit dem Ablegebereich eines Panels können Sie Segment- und Dropdown-Filter auf 
 
 ### Segmentfilter
 
-Ziehen Sie alle Segmente aus der linken Leiste in die Dropzone des Bedienfelds, um mit dem Filtern Ihres Bedienfelds zu beginnen. Wiederholen Sie diesen Vorgang, um dem Bedienfeld weitere Filter hinzuzufügen. Filter werden oben im Bedienfeld nebeneinander angezeigt.
+Ziehen Sie beliebige Segmente aus der linken Leiste in den Ablagebereich des Bedienfelds, um mit dem Filtern des Bedienfelds zu beginnen. Wiederholen Sie diesen Vorgang, um dem Bedienfeld weitere Filter hinzuzufügen. Filter werden oben im Bedienfeld nebeneinander angezeigt.
 
 ![Filter](assets/segment-filter.png)
 
 ### Ad-hoc-Segmentfilter
 
-Komponenten, die keine Segmente sind, können auch direkt in die Dropzone gezogen werden, um Ad-hoc-Segmente zu erstellen. So sparen Sie Zeit und Mühe beim Aufrufen von Segment Builder. Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Trefferebene definiert. Diese Definition kann geändert werden, indem Sie auf das Informationssymbol (i) neben dem Segment und dann auf das stiftförmige Bearbeitungssymbol klicken und sie in Segment Builder bearbeiten.
+Komponenten, die keine Segmente sind, können auch direkt in den Ablagebereich gezogen werden, um Ad-hoc-Segmente zu erstellen, sodass Sie sich das mühsame Aufrufen von Segment Builder ersparen. Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Trefferebene definiert. Diese Definition kann geändert werden, indem Sie auf das Informationssymbol (i) neben dem Segment und dann auf das stiftförmige Bearbeitungssymbol klicken und sie in Segment Builder bearbeiten.
 
-Ad-hoc-Segmente sind eine Art Schnellsegment und für das Projekt lokal verfügbar. Sie werden nicht in der linken Leiste angezeigt, es sei denn, Sie machen sie öffentlich.
+Ad-hoc-Segmente sind eine Art von Schnellsegmenten und lokal im Projekt verfügbar. Sie werden nicht in der linken Leiste angezeigt, es sei denn, Sie machen sie öffentlich.
 
 Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### Statische Dropdown-Segmente
 
-Statische Dropdown-Segmente ermöglichen Ihnen eine kontrollierte Interaktion mit den Daten. Sie können beispielsweise ein Dropdown-Segment für Mobilgerätetypen hinzufügen, damit Sie das Bedienfeld nach Tablet, Mobiltelefon oder Desktop segmentieren können.
+Statische Dropdown-Segmente ermöglichen eine kontrollierte Interaktion mit den Daten. Sie können beispielsweise ein Dropdown-Segment für Typen von Mobilgeräten hinzufügen, damit Sie das Bedienfeld nach Tablet, Mobiltelefon oder Desktop segmentieren können.
 
-Statische Dropdown-Segmente können auch verwendet werden, um viele Projekte zu einem zusammenzufassen. Wenn Sie beispielsweise über viele Versionen desselben Projekts mit verschiedenen Ländersegmenten verfügen, können Sie alle Versionen in einem Projekt zusammenfassen und ein Dropdown-Segment &quot;Land&quot;hinzufügen.
+Statische Dropdown-Segmente können auch verwendet werden, um viele Projekte zu einem zusammenzufassen. Wenn Sie beispielsweise viele Versionen desselben Projekts mit unterschiedlichen Ländersegmenten angewendet haben, können Sie alle Versionen in einem Projekt zusammenfassen und ein Dropdown-Segment Land hinzufügen.
 
 ![](assets/dropdown-filter-intro.png)
 
-#### Erstellen von statischen Dropdown-Segmenten
+#### Erstellen statischer Dropdown-Segmente
 
-* Wählen Sie für Dropdown-Segmente, die Dimensionselemente verwenden, eine einzelne Dimension aus der linken Leiste aus und legen Sie sie in der Dropzone des Bedienfelds ab **, während Sie`[Shift]`** gedrückt halten. Dadurch wird ein Dropdown-Segment mit allen Dimensionselementen erstellt, die mit dieser Dimension verknüpft sind.
+* Bei Dropdown-Segmenten, die Dimensionselemente verwenden, wählen Sie eine einzelne Dimension aus der linken Leiste aus und legen Sie sie im Ablagebereich des Bedienfelds ab **während Sie`[Shift]`** gedrückt halten. Dadurch wird ein Dropdown-Segment mit allen Dimensionselementen erstellt, die mit dieser Dimension verknüpft sind.
 
-  Wenn Sie auch möchten, dass das Dropdown-Segment nur bestimmte Dimensionselemente enthält, die mit einer Dimension verknüpft sind, klicken Sie in der linken Leiste auf das Pfeilsymbol neben der gewünschten Dimension. Diese Aktion legt alle verfügbaren Dimensionselemente offen. Wählen Sie mithilfe von `[Shift + Click]` oder `[Ctrl + Click]` mehrere Dimensionselemente aus dieser Liste aus und legen Sie sie dann im Ablegebereich des Bedienfelds ab, **während** Sie `[Shift]` gedrückt halten.
+  Wenn das Dropdown-Segment nur bestimmte Dimensionselemente enthalten soll, die mit einer Dimension verknüpft sind, klicken Sie auf das Pfeil-nach-rechts-Symbol neben der gewünschten Dimension in der linken Leiste. Diese Aktion legt alle verfügbaren Dimensionselemente offen. Wählen Sie mithilfe von `[Shift + Click]` oder `[Ctrl + Click]` mehrere Dimensionselemente aus dieser Liste aus und legen Sie sie dann im Ablegebereich des Bedienfelds ab, **während** Sie `[Shift]` gedrückt halten.
 
-* Wählen Sie für Dropdown-Segmente, die einen einzelnen Komponententyp verwenden (z. B. nur Dimensionen oder nur Segmente oder nur Metriken), mehrere Elemente desselben Typs in der linken Leiste mit `[Shift + Click]` oder `[Ctrl + Click]` aus und legen Sie sie dann in der Dropzone **ab, während Sie`[Shift]`** gedrückt halten.
+* Wählen Sie für Dropdown-Segmente, die einen einzelnen Komponententyp verwenden (z. B. nur Dimensionen oder nur Segmente oder nur Metriken), in der linken Leiste mithilfe von `[Shift + Click]` oder `[Ctrl + Click]` mehrere Elemente desselben Typs aus und legen Sie sie dann im Ablagebereich des Bedienfelds ab **während Sie`[Shift]`** gedrückt halten.
 
-  Ein einzelnes Dropdown-Segment wird mit den von Ihnen ausgewählten Komponenten erstellt.
+  Ein einzelnes Dropdown-Segment wird mit ausgewählten Komponenten erstellt.
 
-* Wählen Sie für Dropdown-Segmente mit einer Mischung aus Komponententypen (z. B. 2 Metriken und 3 Filter) mehrere Komponenten mit `[Shift + Click]` oder `[Ctrl + Click]` aus. Legen Sie die Auswahl im Ablegebereich des Bedienfelds ab, **während Sie`[Shift]`** gedrückt halten. In diesem Kontext werden alle Komponententypen als separate Dropdown-Segmente behandelt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl aufnehmen, werden zwei separate Dropdown-Segmente erstellt: eines enthält Dimensionselemente, das andere wiederum Metriken.
+* Wählen Sie für Dropdown-Segmente, die einen Mix aus Komponententypen verwenden (z. B. zwei Metriken und drei Filter), mehrere Komponenten mit `[Shift + Click]` oder `[Ctrl + Click]` aus. Legen Sie die Auswahl im Ablegebereich des Bedienfelds ab, **während Sie`[Shift]`** gedrückt halten. In diesem Kontext werden alle Komponententypen als separate Dropdown-Segmente behandelt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl einbeziehen, werden zwei separate Dropdown-Segmente erstellt: eines der Dropdown-Segmente enthält Dimensionselemente und das andere enthält Metriken.
 
-  ![Das Fenster Bedienfeld mit dem Feld Mobilkundensegment , das zum Ablegen eines statischen Dropdown-Segments verfügbar ist. ](assets/create-dropdown.png)
+  ![Das Bedienfeldfenster mit dem Feld Mobile-Kundensegment , das zum Ablegen eines statischen Dropdown-Segments verfügbar ist. ](assets/create-dropdown.png)
 
-Wenn Sie mit der rechten Maustaste auf ein Dropdown-Segment klicken, stehen folgende Optionen zur Verfügung:
+Wenn Sie mit der rechten Maustaste auf ein Dropdown-Segment klicken, erhalten Sie die folgenden Optionen:
 
-* **[!UICONTROL Dropdown-Liste löschen]**: Entfernt das Dropdown-Segment aus dem Bereich.
-* **[!UICONTROL Titel löschen]**: Entfernen Sie den Text über einem Dropdown-Segment. Wählen Sie zum Ändern des Labels das Stiftsymbol aus.
-* **[!UICONTROL Titel hinzufügen]**: Wenn Sie ein Dropdown-Segment zu einem Projekt hinzufügen, wird für eine Beschriftung automatisch der Komponentenname festgelegt. Wenn Sie den Titel löschen, können Sie ihn mit dieser Option erneut hinzufügen.
-* **[!UICONTROL Auswahl erforderlich]**: Erfordert, dass ein Segment im Bereich festgelegt wird.
+* **[!UICONTROL Dropdown löschen]**: Entfernt das Dropdown-Segment aus dem Bedienfeld.
+* **[!UICONTROL Bezeichnung löschen]**: Entfernen des Textes über einem Dropdown-Segment. Wählen Sie zum Ändern des Labels das Stiftsymbol aus.
+* **[!UICONTROL Beschriftung hinzufügen]**: Wenn Sie einem Projekt ein Dropdown-Segment hinzufügen, wird eine Beschriftung automatisch auf den Komponentennamen festgelegt. Wenn Sie den Titel löschen, können Sie ihn mit dieser Option erneut hinzufügen.
+* **[!UICONTROL Auswahl erforderlich]**: Erfordert, dass ein Segment im Bedienfeld festgelegt wird.
 
 [Sehen Sie sich das Video an](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=de), um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
 
 #### Verwenden von statischen Dropdown-Segmenten
 
-Verwenden Sie das Dropdown-Menü für Segmente auf eine der folgenden Arten, um den Bereich zu filtern:
+Verwenden Sie das Dropdown-Menü Segmente auf eine der folgenden Arten, um das Bedienfeld zu filtern:
 
 * Wenden Sie ein einzelnes Segment auf das Bedienfeld an, indem Sie das Segment aus dem Dropdown-Menü auswählen.
 
-* Wenden Sie mehrere Segmente auf das Bedienfeld an, indem Sie mehr als ein Segment aus dem Dropdown-Menü auswählen. Das Bedienfeld wird gefiltert, um eines der ausgewählten Segmente einzuschließen.
+* Wenden Sie mehrere Segmente auf das Bedienfeld an, indem Sie mehr als ein Segment aus dem Dropdown-Menü auswählen. Das Bedienfeld wird so gefiltert, dass es jedes der ausgewählten Segmente enthält.
 
-  Um ein Segment aus der Liste zu entfernen, wählen Sie es erneut im Dropdown-Menü aus.
+  Um ein Segment aus der Liste zu entfernen, wählen Sie es im Dropdownmenü erneut aus.
 
   ![Mehrere Segmente auswählen](assets/dropdown-filter-multiselect.png)
 
 ### Dynamische Dropdown-Segmente
 
-Mit dynamischen Dropdown-Segmenten können Sie verfügbare Werte basierend auf Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Segmenten bestimmen. Sie können beispielsweise mithilfe der Dimension [Länder](/help/components/dimensions/countries.md) und der Dimension [Städte](/help/components/dimensions/cities.md) zwei dynamische Dropdown-Listen erstellen. Wenn Sie ein Land aus der Dropdownliste [!UICONTROL Länder] auswählen, wird die Dropdownliste [!UICONTROL Städte] dynamisch angepasst, um nur Städte in diesem Land anzuzeigen.
+Mit dynamischen Dropdown-Segmenten können Sie verfügbare Werte auf der Grundlage von Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Segmenten bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Listen mit den Dimensionen &quot;[&quot; ](/help/components/dimensions/countries.md) &quot;[&quot; ](/help/components/dimensions/cities.md). Wenn Sie ein Land aus der Dropdownliste [!UICONTROL Länder] auswählen, wird die Dropdownliste [!UICONTROL Städte] dynamisch angepasst, sodass nur Städte innerhalb dieses Landes angezeigt werden.
 
-Dieses Konzept gilt für alle Dimensionen. Es sind nur Dimensionselemente sichtbar, die innerhalb des Datumsbereichs des Bedienfelds angezeigt werden, sowie ausgewählte Segmente. In statischen Dropdown-Dimensionen ausgewählte Elemente wirken sich auf verfügbare Werte in dynamischen Dropdown-Segmenten aus. Das Gegenteil ist jedoch nicht der Fall. In dynamischen Dropdown-Dimensionen ausgewählte Elemente wirken sich nicht auf verfügbare Werte in statischen Dropdown-Segmenten aus.
+Dasselbe Konzept gilt für alle Dimensionen. Nur Dimensionselemente, die innerhalb des Datumsbereichs und der ausgewählten Segmente des Bedienfelds angezeigt werden, sind sichtbar. In statischen Dropdown-Segmenten ausgewählte Segmentelemente wirken sich auf verfügbare Werte in dynamischen Dropdown-Dimensionen aus. Das Gegenteil trifft jedoch nicht zu. In der Dropdown-Liste Dynamische Segmente ausgewählte Segmentelemente wirken sich nicht auf verfügbare Werte in statischen Dropdown-Dimensionen aus.
 
-Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können auch ein dynamisches Dropdown-Segment löschen, sodass es keinen Wert enthält, sodass andere dynamische Dropdown-Segmente mehr Werte enthalten können. Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um die Auswahl aus allen Dropdown-Segmenten für dieses Bedienfeld zu löschen.
+Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten, dass ein bestimmtes Dimensionselement in Zukunft erfasst wird. Sie können ein dynamisches Dropdown-Segment auch löschen, sodass es keinen Wert enthält, sodass andere dynamische Dropdown-Segmente weitere Werte enthalten können. Wählen Sie **[!UICONTROL Alle zurücksetzen]** aus, um die Auswahl aus allen Dropdown-Segmenten für dieses Bedienfeld zu löschen.
 
 So erstellen Sie ein dynamisches Dropdown-Segment:
 
 * Ziehen Sie eine einzelne Dimension in den Ablegebereich des Bedienfelds, **während Sie`[Shift]`** gedrückt halten.
-* Dynamische Dropdown-Segmente sind nicht für Metriken, Segmente oder Datumsbereiche verfügbar.
-* Klicken Sie mit der rechten Maustaste auf ein Dropdown-Segment und wählen Sie **[!UICONTROL Dropdown-Liste löschen]** aus, um es zu löschen.
+* Dynamische Dropdown-Segmente sind für Metriken, Segmente oder Datumsbereiche nicht verfügbar.
+* Klicken Sie mit der rechten Maustaste auf ein Dropdown-Segment und wählen Sie **[!UICONTROL Dropdown löschen]**, um es zu löschen.
 
 Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken, stehen dieselben Optionen zur Verfügung wie für statische Dropdown-Filter.
 
@@ -137,7 +137,7 @@ Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken
 
 Weitere Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bedienfeldüberschrift klicken.
 
-![ Rechtsklick auf Menü](assets/right-click-menu.png)
+![Kontextmenü](assets/right-click-menu.png)
 
 Folgende Einstellungen sind verfügbar:
 

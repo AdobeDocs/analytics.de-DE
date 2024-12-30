@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 

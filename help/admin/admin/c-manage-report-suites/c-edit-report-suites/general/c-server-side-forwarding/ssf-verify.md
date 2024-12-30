@@ -1,5 +1,5 @@
 ---
-description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Diese Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die serverseitige Weiterleitung ordnungsgemäß aktiviert ist.
+description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Diese Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
 solution: Analytics
 title: Überprüfen der Server-seitigen Weiterleitungsimplementierung
 feature: Server-Side Forwarding
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 # Überprüfen der serverseitigen Weiterleitungsimplementierung
 
-Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen zeigen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die serverseitige Weiterleitung ordnungsgemäß aktiviert ist.
+Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
 
 So überprüfen Sie den Status der serverseitigen Weiterleitung:
 

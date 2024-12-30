@@ -69,6 +69,6 @@ Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vo
 * Navigieren Sie zu Ihrer Website und überprüfen Sie mit dem [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de), ob Daten erfasst werden.
 +++
 
-+++ + Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?
-Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen und -funktionen vollständig deaktiviert und Empfänger können das Dropdown-Menü nur ändern, um einen Filter vorab auf den Bereich anzuwenden.
++++Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?
+Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen und -funktionen vollständig deaktiviert und die Empfänger können die Dropdown-Liste nur ändern, um einen Filter auf vordefinierte Weise auf das Bedienfeld anzuwenden.
 +++

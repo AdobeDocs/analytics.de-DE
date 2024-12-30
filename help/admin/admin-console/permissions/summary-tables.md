@@ -84,7 +84,7 @@ Verwenden Sie die folgenden Zusammenfassungstabellen, um die Adobe Analytics-Ber
 | Support | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Supportinfo“. |
 | Traffic-Management | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
 | Web-Services | x |  |  |  | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Web-Services“. |
-| Projekt-Links für alle freigeben | x |  |  |  | Gewährt Benutzern Zugriff auf die Freigabe für andere Benutzer unter einem Workspace-Projekt > Freigeben > Für alle freigeben . |
+| Projekt-Links für alle freigeben | x |  |  |  | Gewährt Benutzenden Zugriff, um sie unter einem Workspace-Projekt -> Freigeben -> Für alle freigeben zu können. |
 | Activity Map |  | x |  |  | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
 | Ad Hoc Analysis-Lizenzanwender |  | x |  |  | Ad Hoc Analysis wird nicht mehr unterstützt. [Weitere Informationen](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Zugriff auf Analysis Workspace |  | x |  |  | Gewährt Zugriff auf Analysis Workspace. |

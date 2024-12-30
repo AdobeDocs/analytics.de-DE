@@ -4,7 +4,7 @@ title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 100%
 

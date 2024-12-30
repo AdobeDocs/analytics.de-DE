@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # Attributionsbedienfeld
 
-Das [!UICONTROL Attributionsbedienfeld] bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Es handelt sich um eine Funktion in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md), die Ihnen einen speziellen Arbeitsbereich zur Verwendung und zum Vergleich von Attributionsmodellen bietet.
+Das [!UICONTROL Attributionsbedienfeld] bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Es handelt sich dabei um eine Funktion in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) mit der Sie einen speziellen Arbeitsbereich zum Verwenden und Vergleichen von Attributionsmodellen erhalten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
@@ -36,7 +36,7 @@ Das [!UICONTROL Attributionsbedienfeld] bietet eine einfache Möglichkeit, eine 
 
 ## Visualisierungen der Attribution
 
-* **Gesamtmetrik**: Die Gesamtanzahl der im Berichtszeitfenster aufgetretenen Konversionen. Dies sind die Konversionen, die über die von Ihnen ausgewählte Dimension hinweg zugeordnet werden.
+* **Gesamtmetrik**: Die Gesamtanzahl der im Berichtszeitfenster aufgetretenen Konversionen. Dies sind die Konversionen, die der ausgewählten Dimension zugeordnet werden.
 * **Balkendiagramm für den Vergleich der Metrik-Attribution**: Vergleicht visuell die zugeordneten Konversionen über die einzelnen Dimensionselemente der von Ihren ausgewählten Dimension hinweg. Jede Balkenfarbe stellt ein bestimmtes Attributionsmodell dar.
 * **Attributionsvergleichstabelle**: Zeigt dieselben Daten wie das Balkendiagramm in Tabellenform an. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle verhält sich ähnlich wie jede andere Freiformtabelle in Workspace. So können Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen.
 * **Überlagerungsdiagramm**: Ein Venn-Diagramm, das die drei wichtigsten Dimensionselemente zeigt und wie oft sie gemeinsam an einer Konversion beteiligt sind. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn ein Besucher beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.

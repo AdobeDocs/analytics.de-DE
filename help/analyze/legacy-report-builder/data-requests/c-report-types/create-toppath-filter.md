@@ -17,7 +17,7 @@ ht-degree: 62%
 
 Beschreibt, wie Pfadberichte mit vordefinierten Filtern erstellt werden.
 
-Report Builder bietet Pfadberichte nicht als eigenständige Berichte an, aber Sie können sie über die Kontextmenüs **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Pfad]** erstellen. Die folgenden Berichte sind verfügbar:
+Report Builder bietet keine Pfadberichte als eigenständige Berichte an, Sie können sie jedoch über die Kontextmenüs **[!UICONTROL Abhängige Anfrage hinzufügen]** > **[!UICONTROL Pfad]** erstellen. Die folgenden Berichte sind verfügbar:
 
 * Pfad > Trichteranalyse für Seite
 * Pfad > Einstiegspfad
@@ -29,9 +29,9 @@ Report Builder bietet Pfadberichte nicht als eigenständige Berichte an, aber Si
 * Pfad > Einstiegspfad > Als Entrypage
 * Pfad > Ausstiegspfad > Als Exitpage
 
-1. Wählen Sie mehrere Zeilen aus einer vorhandenen Anforderung aus und klicken Sie dann mit der rechten Maustaste auf **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Pfad]**. Sie müssen mindestens drei Zeilen auswählen, wenn das Menüelement **[!UICONTROL Trichteranalyse für Seite]** angezeigt werden soll.
+1. Wählen Sie mehrere Zeilen aus einer vorhandenen Anfrage aus und klicken Sie dann mit der rechten Maustaste auf **[!UICONTROL Abhängige Anfrage hinzufügen]** > **[!UICONTROL Pfad]**. Sie müssen mindestens drei Zeilen auswählen, wenn Sie den Menüeintrag **[!UICONTROL Seiten-Fallout]** anzeigen möchten.
 
-   ![Screenshot mit drei ausgewählten Zeilen mit ausgewählter Option &quot;Abhängige Anforderung hinzufügen&quot;.](assets/dependen_request.png)
+   ![Screenshot mit drei ausgewählten Zeilen, wobei die Option Abhängige Anfrage hinzufügen ausgewählt ist.](assets/dependen_request.png)
 
 2. Wählen Sie den vordefinierten Filter aus, z. B. **[!UICONTROL Vorherige Seite]**.
 

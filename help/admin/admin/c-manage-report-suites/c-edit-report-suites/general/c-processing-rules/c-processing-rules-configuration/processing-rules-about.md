@@ -16,7 +16,7 @@ ht-degree: 94%
 
 Mit Verarbeitungsregeln können Sie Änderungen an den Daten auf der Grundlage definierter Bedingungen vornehmen. Wenn Attribute oder Werte definierten Bedingungen entsprechen, können Werte festgelegt und gelöscht sowie Ereignisse festgelegt werden.
 
-Verarbeitungsregeln werden auf Daten während der Erfassung angewandt, und Regeln werden auf alle Daten angewandt, die über die AppMeasurement-Bibliotheken und durch die Dateneinfüge-API eingehen. Außerdem gelten die Verarbeitungsregeln für vollständige Datenquellen und Protokolldatenquellen. Diese Quellen enthalten Daten, die für eine *`hit`* oder eine Aktion stehen, die ein Benutzer ausführt. Für andere Datenquellen gelten die Verarbeitungsregeln nicht.
+Verarbeitungsregeln werden auf Daten während der Erfassung angewandt, und Regeln werden auf alle Daten angewandt, die über die AppMeasurement-Bibliotheken und durch die Dateneinfüge-API eingehen. Außerdem gelten die Verarbeitungsregeln für vollständige Datenquellen und Protokolldatenquellen. Diese Quellen enthalten Daten, die eine *`hit`* oder Aktion darstellen, die ein Benutzer ausführt. Für andere Datenquellen gelten die Verarbeitungsregeln nicht.
 
 ## Wichtige Konzepte {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -40,7 +40,7 @@ In der folgenden Tabelle sind zentrale und grundlegende Konzepte für die Verwen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln werden sofort nach ihrer Speicherung auf die Report Suite angewendet. </p> </td> 
-   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Testen von Verarbeitungsregeln empfehlen wir, <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Echtzeitberichte</a> in Ihrer Test-Report Suite zu konfigurieren, damit Sie die Ergebnisse einer Verarbeitungsregel schnell sehen können. </p> </td> 
+   <td colname="col2"> <p>Änderungen der Verarbeitungsregeln sollten in Ihrer Report Suite wenige Minuten nach dem Speichern sichtbar werden. Beim Testen von Verarbeitungsregeln empfehlen wir, <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Echtzeitberichte </a> Ihrer Test-Report-Suite zu konfigurieren, damit Sie die Ergebnisse einer Verarbeitungsregel schnell sehen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verarbeitungsregeln sind die einzige Möglichkeit für den Zugriff auf Kontextdatenvariablen. </p> </td> 

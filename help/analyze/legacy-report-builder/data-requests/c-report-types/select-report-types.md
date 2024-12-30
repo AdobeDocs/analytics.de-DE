@@ -17,8 +17,8 @@ ht-degree: 55%
 
 Sie können auch den Basisberichtstyp für Ihre Datenanforderung auswählen, z. B. Site-Metriken, Site-Content und Video.
 
-Sie können für einen Bereich von Arbeitsblattzellen nur jeweils einen Basisberichtstyp wählen. Wenn Sie eine zuvor erstellte Anforderung bearbeiten, können Sie den Berichtstyp im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1] ändern, ohne andere Einstellungen in der Anforderung neu zu konfigurieren.
+Sie können für einen Bereich von Arbeitsblattzellen nur jeweils einen Basisberichtstyp wählen. Wenn Sie eine zuvor erstellte Anfrage bearbeiten, können Sie den Berichtstyp im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1] ändern, ohne andere Einstellungen in der Anfrage neu zu konfigurieren.
 
 Sie können über die Suchleiste „Automatisch auffüllen“ nach Berichten suchen. Nachdem Sie einen Bericht aus diesem Steuerelement ausgewählt haben, wählt die Baumansicht automatisch den entsprechenden Knoten aus.
 
-![ Screenshot mit der Baumstrukturansicht der Report Suite und dem ausgewählten übereinstimmenden Knoten.](assets/search_reports.png)
+![Screenshot mit der Baumansicht der Report Suite und dem ausgewählten übereinstimmenden Knoten.](assets/search_reports.png)

@@ -31,4 +31,4 @@ Bei der Echtzeitanzeige werden die Berechtigungen der Benutzer und Gruppen berü
 
 >[!NOTE]
 >
->[!UICONTROL Echtzeitberichte] sind nicht mit der zuvor veröffentlichten Funktion [Aktuelle Daten einschließen](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Datenneuigkeit) identisch, wodurch die Latenz für Standardberichte reduziert wurde, indem Daten angezeigt wurden, bevor sie finalisiert wurden.
+>[!UICONTROL Echtzeitberichte] sind nicht dasselbe wie die [Aktuelle Daten einschließen](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Datenaktualität), die zuvor veröffentlicht wurde und die die Latenz für standardmäßige Berichte reduziert hat, indem Daten angezeigt werden, bevor sie abgeschlossen sind.

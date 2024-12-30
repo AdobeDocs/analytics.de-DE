@@ -21,7 +21,7 @@ Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereit
 * ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
 * ein Feld „value“, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen all Ihrer Report Suites suchen soll
 
-Weitere Informationen und eine [ Liste der standardmäßigen Identitäts-Namespaces](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces) finden Sie in der Dokumentation zur [Experience Cloud Data Privacy API. ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) Siehe [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) für eine Beispielanfrage.
+Experience Cloud Weitere Informationen und eine (Liste der Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)Identity-Namespaces) finden Sie in der Dokumentation zur Datenschutz[API für [](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Siehe [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) für eine Beispielanfrage.
 
 ## Cookie-ID
 
@@ -114,6 +114,6 @@ Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen od
 
 >[!CAUTION]
 >
->Die Namespaces `visitorId` und `customVisitorId` sind zur Identifikation des alten Analytics-Tracking-Cookies und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
+>Die Namespaces `visitorId` und `customVisitorId` sind für die Identifizierung des alten Analytics-Tracking-Cookies und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
 
 Weitere Informationen dazu finden Sie unter [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

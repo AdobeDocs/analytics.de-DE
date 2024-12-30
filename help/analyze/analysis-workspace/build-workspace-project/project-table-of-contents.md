@@ -1,5 +1,5 @@
 ---
-description: Informationen zum Projektinhaltsverzeichnis, das für Projekte verfügbar ist
+description: Informationen über das Inhaltsverzeichnis des Projekts, das für Projekte verfügbar ist
 keywords: Analysis Workspace
 title: Projektinhaltsverzeichnis
 feature: Workspace Basics
@@ -14,22 +14,22 @@ ht-degree: 7%
 
 # Projektinhaltsverzeichnis
 
-Sie können in jedem Projekt in Analysis Workspace ein Inhaltsverzeichnis anzeigen, sodass Sie schnell zwischen allen Bereichen und Visualisierungen wechseln können, die im Projekt vorhanden sind. Dies ist besonders nützlich, wenn Sie größere Projekte anzeigen, die viele Bedienfelder und Visualisierungen enthalten.
+In Analysis Workspace können Sie innerhalb jedes Projekts ein Inhaltsverzeichnis anzeigen, sodass Sie schnell zwischen allen Bedienfeldern und Visualisierungen wechseln können, die im Projekt vorhanden sind. Dies ist besonders nützlich, wenn Sie größere Projekte anzeigen, die viele Bedienfelder und Visualisierungen enthalten.
 
-+++ Sehen Sie sich eine Videodemonstration für diese Funktion an.
++++Sehen Sie sich eine Videodemonstration zu dieser Funktion an.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
 
 +++
 
-So zeigen Sie das Inhaltsverzeichnis in einem Projekt an:
+So zeigen Sie das Inhaltsverzeichnis eines Projekts an:
 
-1. Navigieren Sie in Analysis Workspace zu dem Projekt, in dem das Inhaltsverzeichnis angezeigt werden soll.
+1. Wechseln Sie in Analysis Workspace zu dem Projekt, in dem Sie das Inhaltsverzeichnis anzeigen möchten.
 
-1. Wählen Sie im linken Navigationsmenü das Inhaltsverzeichnissymbol ![Token-Symbol](assets/toc-icon.png) aus.
+1. Wählen Sie in der linken Navigationsleiste das Inhaltsverzeichnissymbol (![) ](assets/toc-icon.png).
 
-   Das Inhaltsverzeichnis für das Projekt wird angezeigt und jedes Bedienfeld wird standardmäßig erweitert.
+   Das Inhaltsverzeichnis für das Projekt wird angezeigt, und jedes Bedienfeld wird standardmäßig erweitert.
 
    ![Projekt-Inhaltsverzeichnis erweitert](assets/project-toc-expanded.png)
 
-1. Wählen Sie im Inhaltsverzeichnis eine Visualisierung aus, die innerhalb des Projekts angezeigt werden soll.
+1. Wählen Sie im Inhaltsverzeichnis eine Visualisierung aus, um innerhalb des Projekts dorthin zu wechseln.

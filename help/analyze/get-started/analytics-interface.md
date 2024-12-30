@@ -4,7 +4,7 @@ title: Grundlagen der Analytics-Oberfläche
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
 

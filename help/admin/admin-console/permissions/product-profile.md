@@ -22,7 +22,7 @@ Allgemeine Informationen zu Produktprofilen, einschließlich der Erstellung von 
 Produktprofiladministratoren sind eine optionale Gruppe, die Benutzer zu diesem Produktprofil hinzufügen oder entfernen kann. Beachten Sie, dass ein Produktprofiladministrator nicht mit einem Produktadministrator identisch ist:
 
 * Produktprofil-Administrierende haben keinen vollständigen Zugriff auf Adobe Analytics. Der uneingeschränkte Zugriff auf Adobe Analytics ist Produktadministratoren vorbehalten.
-* Produktprofiladministratoren können die Berechtigungselemente in ihrem Produktprofil nicht anpassen.
+* Produktprofil-Administrierende können Berechtigungselemente in ihrem Produktprofil nicht anpassen.
 * Produktprofiladministratoren können Benutzergruppen Produktprofile zuweisen oder entziehen.
 * Produktprofiladministratoren eignen sich ideal für Teamleiter oder Manager, die für ihr Team den Zugriff auf Adobe Analytics gewähren und verwalten müssen. Für Einzelpersonen ist es nicht erforderlich, dass Systemadministratoren oder Produktadministratoren sich die Mühe geben, Zugriff auf Adobe Analytics zu gewähren.
 
@@ -33,7 +33,7 @@ Informationen zur Ernennung von Produktprofil-Administrierenden finden Sie im Ab
 Für den Zugriff auf Adobe Analytics sind in einem Produktprofil mindestens folgende Berechtigungen erforderlich:
 
 * Das Produktprofil muss Zugriff auf mindestens eine Report Suite haben
-* Das Produktprofil muss zum Berechtigungselement &quot;**Analysis Workspace Access**&quot; für die Analytics-Tools gehören.
+* Das Produktprofil muss zum Berechtigungselement für Analytics-Tools **Analysis Workspace Access}**.
 
 ### Report Suites
 

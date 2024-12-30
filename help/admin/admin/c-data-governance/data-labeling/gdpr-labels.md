@@ -7,13 +7,13 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
 source-wordcount: '3790'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
 # Datenschutzbezeichnungen für Analytics-Variablen
 
-Adobe-Kunden sind als Datenverantwortliche für die Einhaltung der geltenden Datenschutzgesetze wie der Datenschutz-Grundverordnung (DSGVO) und dem California Consumer Privacy Act (CCPA) zuständig. Sie sollten sich daher mit ihrer eigenen Rechtsabteilung beraten, um zu bestimmen, wie ihre Daten im Einklang mit den Datenschutzgesetzen verarbeitet werden sollen. Adobe weiß, dass jede Kundin und jeder Kunde individuelle Datenschutzanforderungen hat. Deshalb ermöglicht Adobe es auch, die gewünschten Datenschutzeinstellungen für die Datenverarbeitung anzupassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
+Adobe-Kunden sind als Datenverantwortliche für die Einhaltung der geltenden Datenschutzgesetze, wie der Datenschutz-Grundverordnung (DSGVO) und des California Consumer Privacy Act (CCPA), verantwortlich. Sie sollten sich daher mit ihrer eigenen Rechtsabteilung beraten, um zu bestimmen, wie ihre Daten im Einklang mit den Datenschutzgesetzen verarbeitet werden sollen. Adobe weiß, dass jede Kundin und jeder Kunde individuelle Datenschutzanforderungen hat. Deshalb ermöglicht Adobe es auch, die gewünschten Datenschutzeinstellungen für die Datenverarbeitung anzupassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
 
 Adobe Analytics stellt Werkzeuge zur Verfügung, um Daten entsprechend ihrer Sensibilität und ihren vertraglichen Beschränkungen zu kennzeichnen. Kennzeichnungen sind ein wichtiger Schritt, um (1) die betroffenen Personen zu identifizieren, (2) zu bestimmen, welche Daten im Zuge der Auskunftspflicht zurückgegeben werden müssen, und (3) Datenfelder zu identifizieren, die im Rahmen einer Löschanfrage gelöscht werden müssen.
 
@@ -23,7 +23,7 @@ Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftun
 
 >[!NOTE]
 >
->Die Beschriftungen I1, I2, S1 und S2 haben die gleiche Bedeutung wie die entsprechend benannten DULE-Beschriftungen in Adobe Experience Platform. Sie werden jedoch für sehr unterschiedliche Zwecke verwendet. Innerhalb von Adobe Analytics werden diese Beschriftungen verwendet, um Felder zu identifizieren, die infolge einer Privacy Service-Anfrage anonymisiert werden sollen. Innerhalb von Adobe Experience Platform werden sie für die Zugriffskontrolle, die Zustimmungsverwaltung und die Durchsetzung von Marketingbeschränkungen für die gekennzeichneten Felder verwendet. Adobe Experience Platform unterstützt viele zusätzliche Beschriftungen, die nicht von Adobe Analytics verwendet werden. Darüber hinaus werden Beschriftungen in Adobe Experience Platform auf Schemata angewendet. Wenn Sie Analytics Data Connector verwenden, um Ihre Adobe Analytics-Daten in Adobe Experience Platform zu importieren, müssen Sie sicherstellen, dass die entsprechenden DULE-Bezeichnungen in Adobe Experience Platform für die von den einzelnen Report Suites verwendeten Schemata konfiguriert sind. In Adobe Analytics zugewiesene Beschriftungen werden nicht automatisch auf diese Schemas in Adobe Experience Platform angewendet, da sie nur eine Teilmenge der DULE-Beschriftungen darstellen, die Sie ggf. anwenden müssen. Außerdem können verschiedene Report Suites ein Schema gemeinsam nutzen, Props und eVars jedoch unterschiedliche Bezeichnungen mit derselben Nummer zugewiesen haben und das Schema kann von Datensätzen aus anderen Datenquellen gemeinsam genutzt werden. Dies kann zu Verwirrung darüber führen, warum bestimmte Felder diese Bezeichnungen erhalten haben.
+>Die Bezeichnungen I1, I2, S1 und S2 haben die gleichen Bedeutungen wie die entsprechend benannten DULE-Bezeichnungen in Adobe Experience Platform. Sie werden jedoch für sehr unterschiedliche Zwecke verwendet. Innerhalb von Adobe Analytics werden diese Kennzeichnungen verwendet, um Felder zu identifizieren, die bei einer Privacy Service-Anfrage anonymisiert werden sollen. Innerhalb von Adobe Experience Platform werden sie für die Zugriffssteuerung, die Einverständnisverwaltung und die Durchsetzung von Marketing-Einschränkungen für die gekennzeichneten Felder verwendet. Adobe Experience Platform unterstützt viele zusätzliche Beschriftungen, die nicht von Adobe Analytics verwendet werden. Darüber hinaus werden Kennzeichnungen in Adobe Experience Platform auf Schemata angewendet. Wenn Sie Analytics Data Connector zum Importieren Ihrer Adobe Analytics-Daten in Adobe Experience Platform verwenden, müssen Sie sicherstellen, dass die entsprechenden DULE-Kennzeichnungen in Adobe Experience Platform für die von den einzelnen Report Suites verwendeten Schemata konfiguriert sind. In Adobe Analytics zugewiesene Kennzeichnungen werden nicht automatisch auf diese Schemata in Adobe Experience Platform angewendet, da sie nur eine Teilmenge der DULE-Kennzeichnungen darstellen, die Sie möglicherweise anwenden müssen. Außerdem können verschiedene Report Suites ein Schema gemeinsam haben, aber unterschiedlichen Kennzeichnungen Props und eVars mit derselben Nummer zugewiesen sein, und das Schema kann von Datensätzen aus anderen Datenquellen gemeinsam genutzt werden, was zu Verwirrung darüber führen kann, warum bestimmte Felder diese Kennzeichnungen erhalten haben.
 
 ## Kennzeichnungen für Identitätsdaten {#identity-data-labels}
 
@@ -67,7 +67,7 @@ Obwohl nur wenige Variablen andere Kennzeichnungen erhalten werden, ist davon au
 
 Im Gegensatz zu anderen Beschriftungen schließen sich diese Löschbeschriftungen nicht gegenseitig aus. Sie können eine von ihnen, beide oder keine auswählen. Eine separate [!UICONTROL None]-Beschriftung ist nicht erforderlich, da [!UICONTROL None] einfach dadurch angezeigt wird, dass keine der Löschoptionen aktiviert wird.
 
-Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). Andere persönliche Daten (Favoriten, Browser-/Einkaufsverlauf, Gesundheitszustand usw.) müssen nicht gelöscht werden, da die Zuordnung zur betroffenen Person entfernt wird.
+Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). Andere personenbezogene Daten (Favoriten, Browser-/Kaufverlauf, Gesundheitszustand usw.) müssen nicht gelöscht werden, da die Zuordnung zur betroffenen Person aufgehoben wird.
 
 | Beschriftung | Definition | Weitere Anforderungen |
 | --- | --- | --- |
@@ -139,7 +139,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
 | <ul><li>Benutzerspezifische Erfolgsereignisse</li><li>Merchandising-eVars</li><li>Mehrwertige Variablen (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classifications | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Beschriftungen | – |
-| Die meisten anderen Variablen (*Siehe Tabelle unten für Ausnahmen*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| Die meisten anderen Variablen (*Ausnahmen finden Sie in der Tabelle unten*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -169,7 +169,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
    <td colname="col1"> <p>Traffic-Variablen </p> </td> 
    <td colname="col2"> <p>Listen-Props </p> </td> 
    <td colname="col3"> <p>None/S1/S2 </p> </td> 
-   <td colname="col4"> <p>Listen-Props können mehrere Werte enthalten und sind nicht als Datenschutzbezeichner zulässig.</p> </td> 
+   <td colname="col4"> <p>Listen-Props können mehrere Werte enthalten und sind nicht als Datenschutzkennungen zulässig.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Classifications </p> </td> 
@@ -264,4 +264,4 @@ Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
 Für den Code zur Generierung der für Datenschutz-Zugriffsanfragen zurückgegebenen Dateien ist es erforderlich, dass mindestens eine der ersten drei Zeitstempelvariablen in die Zugriffsanfrage aufgenommen wird (mit einer ACC-Beschriftung, die für die Art der Anforderung gilt). Wenn keine davon enthalten ist, wird „Custom Hit Time UTC“ so behandelt, als hätte es eine „ACC-ALL“-Beschriftung.
 
-Die CSV-Datei auf Trefferebene, die für Datenschutz-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Uhrzeitfelder im Format `YYYY-MM-DD HH:MM:SS` (z. B. `2018-05-01 13:49:22`). In der Zusammenfassungsdatei werden diese Zeitstempelwerte abgeschnitten, sodass nur das HTML-Datum `YYYY-MM-DD` enthalten ist, um die Anzahl der eindeutigen Werte für diese zu reduzieren.
+Die CSV-Datei auf Trefferebene, die für Datenschutz-Zugriffsanfragen zurückgegeben wird, konvertiert die Werte in diesen Feldern von Unix-Zeitstempeln in Datums-/Zeitfelder im Format `YYYY-MM-DD HH:MM:SS` (z. B. `2018-05-01 13:49:22`). In der Zusammenfassungs-HTML-Datei werden diese Zeitstempelwerte abgeschnitten, sodass nur das Datum `YYYY-MM-DD` enthalten ist, um die Anzahl der eindeutigen Werte zu reduzieren, die für diese Felder auftreten.

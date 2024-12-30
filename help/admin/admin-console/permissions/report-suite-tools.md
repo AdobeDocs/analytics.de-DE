@@ -38,16 +38,16 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Menüanpassung] | Gewährt Zugriff auf „Allgemein > Menüs benutzerspezifisch einstellen“ im Report Suite Manager. |
 | [!UICONTROL Paid Search] | Gewährt Zugriff auf „Allgemein > Erkennung von Paid Search“ im Report Suite Manager. |
 | [!UICONTROL Verarbeitungsregeln] | Gewährt Zugriff auf „Allgemein > Verarbeitungsregeln“ und „Allgemein > Bot-Regeln“ im Report Suite Manager. |
-| [!UICONTROL Konfiguration von Echtzeitberichten] | Gewährt Zugriff auf „Echtzeit“ im Report Suite Manager. Verwenden Sie das Berechtigungselement „Echtzeitbericht“, um Zugriff auf den Bericht selbst zu gewähren. |
-| [!UICONTROL  Berichterstellung für Aktivitäts-Manager-Administratoren] | Nicht verwendet. |
-| [!UICONTROL Zugriff auf Activity Manager-Berichte] | Nicht verwendet. |
+| [!UICONTROL Echtzeit-Berichtskonfiguration] | Gewährt Zugriff auf „Echtzeit“ im Report Suite Manager. Verwenden Sie das Berechtigungselement „Echtzeitbericht“, um Zugriff auf den Bericht selbst zu gewähren. |
+| [!UICONTROL Reporting Activity Manager-Administratoren] | Nicht verwendet. |
+| [!UICONTROL Reporting Activity Manager-Zugriff] | Nicht verwendet. |
 | [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf Report Suite Manager, erlaubt jedoch keine Änderungen. |
-| [!UICONTROL R&amp;A Dashboard-Bild-Reportlet] | Nicht verwendet. |
-| [!UICONTROL R&amp;A Dashboard-Metrikmessung Reportlet] | Nicht verwendet. |
-| [!UICONTROL R&amp;A Dashboard Report Suite-Zusammenfassungs-Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard Image Reportlet] | Nicht verwendet. |
+| [!UICONTROL R&amp;A Dashboard Metric Gage Reportlet] | Nicht verwendet. |
+| [!UICONTROL Report Suite-Zusammenfassungs-Reportlet des R&amp;A-Dashboards] | Nicht verwendet. |
 | [!UICONTROL R&amp;A DashboardText Reportlet] | Nicht verwendet. |
-| [!UICONTROL R&amp;A Dashboard Report Suite-Zusammenfassungs-Reportlet] | Nicht verwendet. |
-| [!UICONTROL R&amp;A Dashboard Externes Reportlet] | Nicht verwendet. |
+| [!UICONTROL Report Suite-Zusammenfassungs-Reportlet des R&amp;A-Dashboards] | Nicht verwendet. |
+| [!UICONTROL Externes Reportlet des R&amp;A-Dashboards] | Nicht verwendet. |
 | [!UICONTROL Erfolgsereignisse] | Gewährt Zugriff auf „Konversion > Erfolgsereignisse“ im Report Suite Manager. |
 | [!UICONTROL Traffic-Management] | Nicht verwendet. |
 | [!UICONTROL Traffic-Variablen] | Gewährt Zugriff auf „Traffic > Traffic-Variablen“ im Report Suite Manager. |

@@ -4,7 +4,7 @@ title: Erste Schritte für Admins, Analystinnen und Analysten, Endbenutzerinnen 
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1691'
 ht-degree: 100%
 

@@ -16,7 +16,7 @@ ht-degree: 86%
 
 {{legacy-arb}}
 
-Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an dem ein Zeitraum beginnt, nicht auf einen Bereich von Tagen. Ein Zeitraum von Tagen wird durch Angabe eines Start- und Enddatums für zwei zeitliche Abkürzungen oder Begriffe angegeben.
+Zeitliche Abkürzungen beziehen sich auf ein bestimmtes Datum, an dem ein Zeitraum beginnt, nicht auf einen Bereich von Tagen. Ein Tagesbereich wird durch die Angabe eines Start- und eines Enddatums für zwei Zeitabkürzungen oder -begriffe ausgedrückt.
 
 Informationen zur Nutzung der richtigen Syntax finden Sie unter [Hinweise zur Syntax](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 

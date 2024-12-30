@@ -1,5 +1,5 @@
 ---
-description: Beschreibt, wie Report Builder Pfad- und Fallout-Berichte unterstützt und wie sich die Implementierung von Reports & Analytics unterscheidet.
+description: Beschreibt, wie Report Builder Pfade- und Fallout-Berichte unterstützt und wie sich die Implementierung von Reports & Analytics unterscheidet.
 title: Pfad- und Pfad-Fallout-Berichte in Report Builder
 feature: Report Builder
 role: User, Admin
@@ -15,11 +15,11 @@ ht-degree: 83%
 
 {{legacy-arb}}
 
-Beschreibt, wie Report Builder Pfad- und Fallout-Berichte unterstützt und wie sich die Implementierung von Reports &amp; Analytics unterscheidet (jetzt Ende der Unterstützung).
+Beschreibt, wie Report Builder Pfade- und Fallout-Berichte unterstützt und wie sich die Implementierung von Reports &amp; Analytics (jetzt eingestellt) unterscheidet.
 
 | Pfadberichtname in Reports &amp; Analytics (Pfade > Dimension >) | Unterstützt in Report Builder? |
 |--- |--- |
-| Nächster/vorheriger Dimensionsfluss | Ist nicht als eigenständiger Bericht verfügbar. Kann mit mehreren Anforderungen bei der Pfaddimension und mithilfe eines Filters reproduziert werden. |
+| Fluss der nächsten/vorherigen Dimension | Ist nicht als eigenständiger Bericht verfügbar. Kann mit mehreren Anforderungen bei der Pfaddimension und mithilfe eines Filters reproduziert werden. |
 | Nächste/Vorherige Dimension | Ist nicht als eigenständiger Bericht verfügbar. Kann mit einem Pfadbericht und mithilfe eines Filters reproduziert werden. |
 | Fallout | Als eigenständiger Bericht unterstützt und bereitgestellt (Pfade > Dimension > Dimension Fallout). |
 | Vollständige Pfade | Nicht unterstützt. |
@@ -28,7 +28,7 @@ Beschreibt, wie Report Builder Pfad- und Fallout-Berichte unterstützt und wie s
 | Seitenanalyse > Dimensionszusammenfassung | Ist nicht als eigenständiger Bericht verfügbar. Kann mit mehreren Anforderungen bei der Pfaddimension und mithilfe eines Filters reproduziert werden. |
 | Seitenanalyse > Neuladungen | Ist nicht als eigenständiger Bericht verfügbar. Kann mit einem Dimensionsbericht mithilfe der Metrik „Neuladungen“ reproduziert werden. |
 | Seitenanalyse > Dimension „Tiefe“ | Wird nur für die Seitendimension unterstützt. |
-| Seitenanalyse > Besuchszeit pro Dimension | Nicht unterstützt. |
+| Seitenanalyse > Besuchszeit für Dimension | Nicht unterstützt. |
 | Einstiege und Ausstiege > Entrypages | Ist nicht als eigenständiger Bericht verfügbar. Kann als Pfadbericht mithilfe des vordefinierten Filters „Einstiegs-Site“ reproduziert werden. |
 | Einstiege und Ausstiege > Ursprüngliche Entrypages | Wird nur für die Seitendimension unterstützt. |
 | Einstiege und Ausstiege > Einzelseitenbesuche | Ist nicht als eigenständiger Bericht verfügbar. Kann als Pfadbericht mithilfe eines vordefinierten Filters reproduziert werden. |

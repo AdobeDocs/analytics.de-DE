@@ -48,7 +48,7 @@ Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer�
 
 ## Vergleichen von Segmenten im Fallout {#section_E0B761A69B1545908B52E05379277B56}
 
-Sie können eine unbegrenzte Anzahl von Segmenten in der Fallout-Visualisierung vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu 3 Segmente vergleichen können, was falsch ist.)
+In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu drei Segmente vergleichen können, was falsch ist.)
 
 Im Folgenden finden Sie ein Video zum Vergleichen von Segmenten im Fallout:
 

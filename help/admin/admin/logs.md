@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Protokolldateien, die anzeigen, wann sich Benutzer angemeldet haben, was genutzt und worauf zugegriffen wurde, sowie Report Suites und Admin-Änderungen.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL logs]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Protokolle]**
 
 ## Admin-Protokoll {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -31,7 +31,7 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 | Anmelden | Filtern Sie das Protokoll nach dem Benutzernamen. |
 | IP | Filtern Sie das Protokoll nach der IP-Adresse. |
 | Report Suite | Filtern Sie das Protokoll nach einer bestimmten Report Suite-ID. |
-| Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie in der Dropdown-Liste einen Ereignistyp aus. Siehe die vollständige Liste der Ereignistypen unten. |
+| Ereignistyp | Filtern Sie das Protokoll nach Ereignistyp. Wählen Sie einen Ereignistyp aus der Dropdown-Liste aus. Siehe die vollständige Liste der Ereignistypen unten. |
 | Ereignis- | Filtern Sie das Protokoll nach einzelnen oder mehreren Wörtern aus der Ereignisbeschreibung. |
 | Bericht herunterladen | Exportiert den Inhalt des [!UICONTROL Nutzungs- und Zugriffsprotokolls] in eine durch Tabulatoren getrennte Datei. |
 
@@ -39,34 +39,34 @@ Das [!UICONTROL Nutzungs- und Zugriffsprotokoll] ermöglicht es Ihnen, die Beric
 
 | Ereignistyp | Beschreibung |
 | --- | --- |
-| Keine Kategorie | Kann jeder Ereignistyp sein. |
-| Anmeldung fehlgeschlagen | Der Benutzeranmeldungsprozess ist fehlgeschlagen. |
-| Anmeldung erfolgreich | Benutzer hat sich erfolgreich angemeldet. |
-| Administratoraktion | Es kam zu einer Administratoraktion, z. B. zum Bearbeiten einer Report Suite, zum Ändern der Unternehmenseinstellungen, zum Erstellen eines Benutzers, zum Abbrechen einer Reporting-Anforderung usw. |
+| Keine Kategorie | Es kann sich um einen beliebigen Ereignistyp handeln. |
+| Anmeldung fehlgeschlagen | Fehler beim Anmeldevorgang des Benutzers. |
+| Anmeldung erfolgreich | Benutzer wurde angemeldet. |
+| Admin-Aktion | Eine Admin-Aktion ist aufgetreten, z. B. Bearbeiten einer Report Suite, Ändern der Unternehmenseinstellungen, Erstellen eines Benutzers, Abbrechen einer Berichtsanfrage usw. |
 | Änderung der Sicherheitseinstellung | Eine Sicherheitseinstellung wurde geändert. |
-| Warnhinweis gesendet | Es wurde ein Warnhinweis gesendet. |
-| Benutzeraktion | Die Benutzerinformationen wurden bearbeitet. |
-| Tool angezeigt | Ein Tool wurde angezeigt. |
-| Omniture-Aktion | Eine Aktion wurde von Adobe durchgeführt. |
-| Kennwortwiederherstellung | Ein Passwort wurde wiederhergestellt. |
+| Warnhinweis gesendet | Ein Warnhinweis wurde gesendet. |
+| Benutzeraktion | Benutzerinformationen wurden bearbeitet. |
+| Tool angesehen | Ein Tool wurde angezeigt. |
+| Omniture-Aktion | Eine Aktion wurde vom Adobe ausgeführt. |
+| Passwortwiederherstellung | Ein Kennwort wurde wiederhergestellt. |
 | Lesezeichen | Ein Lesezeichen wurde verwaltet. |
 | Dashboards | Ein Dashboard wurde verwaltet. |
 | Warnhinweise | Ein Warnhinweis wurde verwaltet. |
 | Kalenderereignisse | Ein Kalenderereignis wurde verwaltet. |
-| Zielgruppen | Eine Zielgruppe wurde verwaltet. |
-| Berichtseinstellungen | Eine Berichtseinstellung wurde verwaltet. |
+| Zielgruppen | Ein Ziel wurde verwaltet. |
+| Berichtseinstellungen | Eine Berichteinstellung wurde verwaltet. |
 | Terminierte Berichte | Ein terminierter Bericht wurde verwaltet. |
-| Nach IP ausschließen | Die IP-Einstellung wurde geändert. |
+| Nach IP ausschließen | IP-Einstellung wurde geändert. |
 | Seiten benennen | Nicht mehr verwendet |
-| Klassifizierungen | Eine Classification wurde verwaltet. |
+| Klassifizierungen | Eine Klassifizierung wurde verwaltet. |
 | Datenquellen | Eine Datenquelle wurde verwaltet. |
 | Workspace-Projekt | Ein Workspace-Projekt wurde angezeigt oder bearbeitet. |
 | Segment | Ein Segment wurde erstellt/bearbeitet. |
 | Berechnete Metrik | Eine berechnete Metrik wurde erstellt/bearbeitet. |
 | Datumsbereich | Ein Datumsbereich wurde erstellt/bearbeitet. |
 | Virtual Report Suite | Eine Virtual Report Suite wurde erstellt/bearbeitet. |
-| Beitragsanalyse | Ein Beitragsanalyseauftrag wurde ausgeführt. |
-| API-Methode | Es wurde ein API-Aufruf durchgeführt. |
+| Beitragsanalyse | Es wurde ein Beitragsanalysevorgang ausgeführt. |
+| API-Methode | Ein API-Aufruf wurde durchgeführt. |
 
 
 ## Report Suite-Änderungsprotokoll  {#section_3864966639414BBEA871F4D0352F56B6}

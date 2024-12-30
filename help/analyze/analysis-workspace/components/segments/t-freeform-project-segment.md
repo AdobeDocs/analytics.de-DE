@@ -19,9 +19,9 @@ In Workspace können Sie verschiedene Arten von Segmenten erstellen, je nachdem,
 | Segmenttyp | Wo erstellt? | Wird wo angewendet? | Verwendungsbereiche |
 | --- | --- | --- | --- |
 | Segment der Komponentenliste | Klicken Sie auf +, um zu [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) zu gelangen. | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
-| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Kann für Ad-hoc-Einzelregelsegmente (per Drag &amp; Drop) oder zum Hinzufügen/Bearbeiten mehrerer Regeln verwendet werden (durch Klicken auf das Segmentsymbol) |
-| Berechnetes metrikbasiertes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=de) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
-| Virtual Report Suite-basiertes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer Virtual Report Suite-Definition |
+| Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Kann für Einzelregelsegmente (per Drag-and-Drop) oder zum Hinzufügen/Bearbeiten mehrerer Regeln (durch Klicken auf das Segmentsymbol) verwendet werden |
+| Auf berechneten Metriken basierendes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=de) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
+| Auf Virtual Report Suite basierendes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer Virtual Report Suite-Definition |
 
 ## Videos
 

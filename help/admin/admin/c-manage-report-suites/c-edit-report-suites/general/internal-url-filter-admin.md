@@ -14,19 +14,19 @@ ht-degree: 31%
 
 # Interne URL-Filter
 
-Mit internen URL-Filtern können Sie die Referrer identifizieren, die Sie als intern für Ihre Site betrachten. Dies hilft, Berichte zu Traffic-Quellen mit Daten zu füllen und internen Traffic zu filtern.
+Interne URL-Filter ermöglichen es Ihnen, die Referrer zu identifizieren, die Sie als intern für Ihre Site erachten. Dies hilft, Berichte zu Traffic-Quellen mit Daten zu füllen und internen Traffic zu filtern.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Interne URL-Filter]**
 
-Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Zu den Dimensionen, die auf interne URL-Filter angewiesen sind, zählen [Referrer](/help/components/dimensions/referrer.md), [Referrer-Domäne](/help/components/dimensions/referring-domain.md), [Marketing-Kanäle](/help/components/dimensions/marketing-channel.md) und andere Traffic-Quelldimensionen.
+Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Dimensionen, die auf internen URL-Filtern basieren[ umfassen ](/help/components/dimensions/referrer.md)Referrer[ „Referrer-](/help/components/dimensions/referring-domain.md)&quot;, [Marketing-Kanäle](/help/components/dimensions/marketing-channel.md) und andere Traffic-Quelldimensionen.
 
-[Verarbeitungsregeln für Marketing-Kanäle](../marketing-channels/c-rules.md) stellen als Regelkriterium &quot;[!UICONTROL Entspricht internen URL-Filtern]&quot;bereit.
+[Marketing-Kanal-Verarbeitungsregeln](../marketing-channels/c-rules.md) geben als mögliche Regelkriterien &quot;[!UICONTROL stimmt mit internen URL-Filtern überein] an.
 
 >[!IMPORTANT]
 >
->Einige Report Suites verfügen über einen internen URL-Filter für einen Zeitraum (`.`), der standardmäßig konfiguriert ist. Wenn dieser Filter vorhanden ist, wird der gesamte Traffic als intern klassifiziert. Berichte der verweisenden Stelle funktionieren erst, wenn dieser Filter entfernt und durch eine oder mehrere gewünschte interne Domänen ersetzt wurde.
+>Einige Report Suites verfügen über einen standardmäßig konfigurierten internen URL-Filter eines Zeitraums (`.`). Wenn dieser Filter vorhanden ist, wird der gesamte Traffic als intern klassifiziert. Berichte zu Referrern funktionieren erst, nachdem dieser Filter entfernt und durch eine oder mehrere gewünschte interne Domains ersetzt wurde.
 
-* Zeigen Sie alle vorhandenen Filter im Abschnitt **[!UICONTROL Aktuelle Filter]** an.
-* Fügen Sie mithilfe des Textfelds unter dem Abschnitt **[!UICONTROL Filter hinzufügen]** einen Filter hinzu und klicken Sie dann auf **[!UICONTROL Hinzufügen]** .
+* Alle vorhandenen Filter im Abschnitt **[!UICONTROL Aktuelle Filter]** anzeigen.
+* Fügen Sie mithilfe des Textfelds unter dem Abschnitt „Filter **[!UICONTROL &quot; einen Filter]** und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
-Filter werden mit der Logik **contains** gegen die vollständige URL ausgeführt. Adobe empfiehlt, beim Erstellen von Filtern das Nichtberücksichtigungsprotokoll (`https://`) und die Subdomänen wegzulassen, es sei denn, der Traffic von separaten Subdomänen ist als externer Traffic erwünscht.
+Filter arbeiten mit **contains**-Logik für die vollständige URL. Adobe empfiehlt, beim Erstellen von Filtern Protokoll (`https://`) und Subdomains wegzulassen, es sei denn, Traffic von separaten Subdomains wird als externer Traffic gewünscht.

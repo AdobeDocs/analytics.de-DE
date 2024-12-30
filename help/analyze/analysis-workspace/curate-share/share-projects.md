@@ -8,7 +8,7 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
 source-wordcount: '1929'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projek
 
    Oder
 
-   Wählen Sie **[!UICONTROL Kuratieren und freigeben]**, um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]** aus.) Erhalten Sie weitere Informationen zur [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
+   Wählen Sie **[!UICONTROL Kuratieren und freigeben]**, um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]**.) Weitere Informationen [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
 
 ## Freigeben eines Links zu einem Projekt
 

@@ -19,7 +19,7 @@ Klassifizierungen werden verwendet, um Werte in Gruppen zu kategorisieren und au
 
 Mit Konversion-Classifications können Sie Konversionsvariablen klassifizieren. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der verbundenen Dateneigenschaften erstellt werden.
 
-Nachdem Sie Klassifizierungen aktiviert haben, verwenden Sie den [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md) , um bestimmte Werte der entsprechenden Klassifizierung zuzuweisen.
+Nach der Aktivierung der Klassifizierungen verwenden Sie [Classification Importer](/help/components/classifications/importer/c-working-with-saint.md), um der entsprechenden Klassifizierung bestimmte Werte zuzuweisen.
 
 >[!WARNING]
 >
@@ -51,7 +51,7 @@ So fügen Sie Konversionsklassifizierungen in Admin hinzu:
    Zu den Optionen gehören **[!UICONTROL Text]** und **[!UICONTROL Numerisch]**. Weitere Informationen zu Classification-Typen finden Sie unter [Informationen über Classifications](/help/components/classifications/c-classifications.md).
 1. Konfigurieren Sie die Klassifizierung im Dialogfeld **[!UICONTROL Textklassifizierungen]** nach Bedarf.
 
-1. Optionen im Dropdown-Listendialogfeld hinzufügen oder entfernen
+1. Optionen im Dropdown-Listendialogfeld hinzufügen oder entfernen.
 
    Durch Hinzufügen von Optionen wird eine Liste mit für diese Classification verfügbaren Classification-Werten erstellt. Diese Option kann zusammen mit Kampagnenvariablen verwendet werden, um den Benutzern eine Liste mit unterstützten Werten für die Classification im Kampagnen-Manager bereitzustellen. Verwenden Sie dies für Classification-Dimensionen, bei denen eine kleine Zahl erlaubter Werte vorliegt, die sich selten oder nie ändern. Sie können zum Beispiel verschiedene Kampagnen durchführen, die auf verschiedene Stufen der Kundenbindung ausgerichtet sind: Silber, Gold und Platin. Sie können dann Dropdown-Listen verwenden, um sicherzustellen, dass nur solche Werte akzeptiert werden, die Ihren drei Stufen entsprechen. Der Versuch, einen anderen Wert zu verwenden, wird verworfen.
 

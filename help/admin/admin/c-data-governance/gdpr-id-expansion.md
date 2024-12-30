@@ -1,5 +1,5 @@
 ---
-description: Die von Ihnen übermittelten IDs decken nicht immer alle Trefferdaten ab, die Analytics der betroffenen Person zuordnen kann. Analytics kann einen erweiterten Satz von IDs erstellen, um diese verknüpften Daten in die Datenschutzanfragen einzuschließen.
+description: Die von Ihnen übermittelten IDs decken nicht immer alle Trefferdaten ab, die Analytics der betroffenen Person zuordnen kann. Analytics kann einen erweiterten Satz von IDs erstellen, um diese verknüpften Daten in die Datenschutzanfragen aufzunehmen.
 title: ID-Erweiterung
 feature: Data Governance
 role: Admin
@@ -60,4 +60,4 @@ Zusätzlich zu seinem standardmäßigen Wert unterstützt das Feld `priority` au
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Das Ergebnis ist in Situationen, in denen Sie Datenfelder löschen möchten, unerwünscht und verdeutlicht einen Grund, warum die Privacy Service-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe Account-Team, um sich mit unserem Engineering Architect-Beratungsteam abzustimmen, um weitere Überprüfungen durchzuführen und Anstrengungen zur Beseitigung von personenbezogenen Daten oder zur Lösung von Datenproblemen zu unternehmen.
+Wenden Sie sich an Ihr Adobe-Account-Team, um sich mit unserem Engineering Architect-Consulting-Team abzustimmen und den Aufwand für die Entfernung von personenbezogenen Daten oder die Lösung von Datenproblemen zu ermitteln.

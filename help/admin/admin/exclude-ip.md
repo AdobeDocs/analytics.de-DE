@@ -21,7 +21,7 @@ Daten von bestimmten IP-Adressen, z. B. von internen Websiteaktivitäten, Websi
 >
 >Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=de) in Rechnung gestellt.
 
-Sie können Platzhalterindikatoren (&#42;) verwenden, um eine Reihe von Adressen auszuschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
+Sie können Platzhalterindikatoren (&#42;) verwenden, um einen Adressbereich auszuschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
 
 >[!TIP]
 >

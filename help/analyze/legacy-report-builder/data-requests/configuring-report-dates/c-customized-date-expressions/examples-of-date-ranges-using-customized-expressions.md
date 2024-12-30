@@ -40,7 +40,7 @@ Wenn heute Montag, der 10. November 2011 ist, das aktuelle Datum nehmen und eine
 
 Dem Beginn des Jahres (dem Monat Januar) vier Monate hinzufügen, um den Mai zu erhalten; dem ersten Tag des Monats zwei Tage hinzufügen, um den dritten Tag des Monats zu erhalten.
 
-## Syntaxhinweise {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Hinweise zur Syntax {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Benutzerdefinierte Ausdrücke für die Abdeckung eines Großteils aller möglichen Datumsbereiche können erstellt werden, indem zwei Terme mit einem Operator verknüpft werden. Ein Term besteht aus einem ganzzahligen Multiplikator und der Abkürzung für einen Zeitraum. Ein Beispiel für einen Term ist 18d, ein Beispiel für einen Operator ist +.
 

@@ -128,7 +128,7 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten auf eine Enterprise ID oder Federate
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domain </p> </td> 
-   <td colname="col2"> <p>Stellen Sie sicher, dass die Domänen in den Spalten <span class="term"> Domäne</span> und <span class="term"> E-Mail</span> mit den Domänen übereinstimmen, die in den Voraussetzungen </a> festgelegt wurden. </p> </td> 
+   <td colname="col2"> <p>Stellen Sie sicher, dass die Domains in <span class="term"> </span> Spalte Domain und <span class="term"> Spalte E</span> mit den Domains übereinstimmen, die in den Voraussetzungen festgelegt wurden</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ländercode </p> </td> 

@@ -7,7 +7,7 @@ exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Bei der Interaktion mit Analysis Workspace können Fehler auftreten, die auch di
 
 | Fehlermeldung | Grund | Optimierung |
 | --- | --- | --- |
-| [!UICONTROL Die Report Suite weist derzeit ein ungewöhnlich hohes Berichtvolumen auf. Bitte später erneut versuchen.] | Ihr Unternehmen versucht, zu viele Anfragen gleichzeitig für eine bestimmte Report Suite auszuführen. Gründe für diesen Fehler sind API-Anfragen, geplante Projekte und gleichzeitige Benutzer, die Berichterstellungsanfragen ausführen. | Verteilen Sie Ihre Anfragen und Zeitpläne für die Report Suite gleichmäßig über den Tag. <p>Administratoren können den [Berichterstellungsaktivitäts-Manager verwenden, um Anforderungen zu identifizieren und abzubrechen](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md), die die Berichtskapazität beanspruchen. |
+| [!UICONTROL Die Report Suite weist derzeit ein ungewöhnlich hohes Berichtvolumen auf. Bitte später erneut versuchen.] | Ihr Unternehmen versucht, zu viele Anfragen gleichzeitig für eine bestimmte Report Suite auszuführen. Dieser Fehler kann etwa ausgelöst werden durch API-Anfragen, geplante Projekte und die gleichzeitige Ausführung von Reporting-Anfragen durch mehrere Benutzende. | Verteilen Sie Ihre Anfragen und Zeitpläne für die Report Suite gleichmäßig über den Tag. <p>Admins können den [Berichterstellungsaktivitäts-Manager verwenden, um Anfragen zu identifizieren und abzubrechen](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md), die Berichtskapazität verbrauchen. |
 | [!UICONTROL Die Report Suite überschreitet derzeit die Berichtskapazitäten. Bitte vereinfachen Sie die Anfrage oder versuchen Sie es später erneut.] | Ihr Unternehmen versucht, zu viele Anfragen gleichzeitig für eine bestimmte Report Suite auszuführen. Zu diesem Fehler gehören API-Anfragen, geplante Projekte, terminierte Berichte, terminierte Warnhinweise und gleichzeitige Benutzer, die Reporting-Anfragen ausführen. | Verteilen Sie Ihre Anfragen und Zeitpläne für die Report Suite gleichmäßig über den Tag. |
 | [!UICONTROL Es ist ein Systemfehler aufgetreten. Melden Sie eine Anfrage an den Kundendienst unter Hilfe > senden Sie ein Support-Ticket und geben Sie Ihren Fehler-Code an.] | Adobe hat ein Problem, das behoben werden muss. | Senden Sie den Fehler-Code an die Kundenunterstützung. |
 | [!UICONTROL Es ist ein unerwarteter Fehler aufgetreten. Versuchen Sie, Ihr Projekt erneut zu aktualisieren. Wenn das Problem weiterhin besteht, senden Sie bitte diese Fehler-ID zur weiteren Diagnose an die Adobe-Kundenunterstützung.] | Adobe hat ein Problem, das behoben werden muss. | Versuchen Sie, Ihr Projekt zu aktualisieren. Wenn das Problem weiterhin besteht, senden Sie den Fehler-Code an die Kundenunterstützung. |

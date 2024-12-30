@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Wenn Sie einen Warnhinweis einrichten, dann gilt dieser für alle Report Suites und Anmeldeunternehmen eines Abrechnungsunternehmens.
 
-Warnhinweise zur Nutzung von Server-Aufrufen sind Teil der Benutzeroberfläche von [Warnhinweise](/help/components/c-alerts/alert-manager.md).
+Warnhinweise zur Nutzung von Server-Aufrufen sind Teil der Benutzeroberfläche [Warnhinweise](/help/components/c-alerts/alert-manager.md).
 
 Diese Kategorie enthält **standardmäßig einen Warnhinweis**, der innerhalb jedes Anmeldeunternehmens auftaucht, das Zugriff auf die Funktion „Nutzung der Server-Aufrufe“ hat. Dieser Warnhinweis löst eine Benachrichtigung an alle Administratoren des Anmeldeunternehmen aus, wenn eines der folgenden Kriterien erfüllt ist:
 
@@ -30,7 +30,7 @@ Sie können mithilfe von zwei Methoden auf die Warnhinweise zur Nutzung von Serv
 * Klicken Sie auf **[!UICONTROL Warnhinweise verwalten]** in der oberen rechten Ecke der Registerkarte „Aktuelle Nutzung“ oder der Registerkarte „Nutzung der Report Suite“; oder
 * Navigieren Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**.
 
-## Warnhinweise zur Nutzung von Server-Aufrufen erstellen {#create}
+## Erstellen von Warnhinweisen zur Nutzung von Server-Aufrufen {#create}
 
 Um zusätzliche Warnhinweise zu erstellen:
 

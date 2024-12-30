@@ -52,7 +52,7 @@ Diese Visualisierung eignet sich für eine Vielzahl gängiger Anwendungsfälle, 
 
 ## Ausgabe anzeigen
 
-Die Ausgabe sollte ungefähr so aussehen:
+Die Ausgabe sollte in etwa so aussehen:
 
 ![](assets/key-metric-output.png)
 

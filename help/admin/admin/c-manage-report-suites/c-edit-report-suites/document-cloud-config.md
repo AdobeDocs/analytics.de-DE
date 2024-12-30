@@ -12,29 +12,29 @@ ht-degree: 7%
 
 # Konfigurieren von Document Cloud-Berichten
 
-Sie können PDF-spezifische Dimensionen und Metriken so konfigurieren, dass sie in Adobe Analytics verfügbar sind.
+Sie können PDF-spezifische Dimensionen und Metriken konfigurieren, die in Adobe Analytics verfügbar sein sollen.
 
-## Komponenten hinzugefügt, die beim Aktivieren der PDF-Berichterstellung hinzugefügt werden
+## Beim Aktivieren der PDF-Berichterstellung hinzugefügte Komponenten
 
-Wenn die PDF-Berichterstellung ordnungsgemäß konfiguriert ist, sind die folgenden Dimensionen und Metriken in Adobe Analytics verfügbar:
+Wenn das PDF-Reporting ordnungsgemäß konfiguriert ist, sind die folgenden Dimensionen und Metriken in Adobe Analytics verfügbar:
 
 **Dimensionen:**
 
 * PDF-Suchbegriff
 
-* PDF Zoom-Level
+* PDF-Zoomfaktor
 
 * PDF-Aktion
 
-* PDF-Seitenzahl
+* PDF-Seitennummer
 
-* PDF Filename
+* PDF Dateiname
 
 **Metriken:**
 
-* PDF-Ansichten
+* PDF Views
 
-* PDF Seitenansichten
+* PDF-Seitenansichten
 
 * PDF-Downloads
 
@@ -44,12 +44,12 @@ Wenn die PDF-Berichterstellung ordnungsgemäß konfiguriert ist, sind die folgen
 
 * PDF Copy Text
 
-* PDF Print
+* PDF-Druck
 
-## PDF-Reporting in Adobe Analytics aktivieren
+## Aktivieren des PDF-Reportings in Adobe Analytics
 
-1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Document Cloud-Verwaltung]** > [!UICONTROL **Document Cloud-Berichterstellung**].
+1. Navigieren Sie **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Document Cloud-Verwaltung]** > [!UICONTROL **Document Cloud-Reporting**].
 
-1. Wählen Sie auf der Seite &quot;Adobe Document Cloud-Verwaltung&quot;die Option [!UICONTROL **PDF-Berichte aktivieren**].
+1. Wählen Sie auf der Seite &quot;Adobe Document Cloud-Verwaltung [!UICONTROL **die Option PDF-Berichte aktivieren**].
 
-1. Verwenden Sie das JavaScript-SDK [Adobe Document Cloud](https://www.adobe.io/apis/documentcloud/dcsdk.html), um Adobe Document Cloud für die Datenübertragung an Adobe Analytics zu konfigurieren.
+1. Um Adobe Document Cloud für die Übertragung von Daten an Adobe Analytics zu konfigurieren, verwenden Sie die [Adobe Document Cloud JavaScript-SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html).

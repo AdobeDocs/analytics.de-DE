@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Data Warehouse verfügt über eine Funktion, mit der Sie eine Liste mit Besucher-IDs extrahieren können. Diese IDs sind keine Cookie-IDs, sondern IDs, die Sie in einer der Konversionsvariablen erfassen. Obwohl diese Informationen auch auf andere Weise erhalten werden können, stellt das folgende Beispiel einen kürzeren Weg zum Generieren einer Data Warehouse-Anforderung dar.
 
-Nehmen Sie zum Beispiel einmal an, dass Ihre Firma Marketing-E-Mails an Kunden und Interessenten sendet. Jeder dieser E-Mail-Empfänger hat eine eindeutige ID in Ihrem E-Mail-System (z. B. *`EMAIL Contact ID`*). Sie richten Ihre E-Mails so ein, dass Kontakte eine E-Mail erhalten und auf einen darin enthaltenen Link klicken, wobei der Besucher dann mit einer Kampagnen-ID und einer eindeutigen EMAIL-Kontakt-ID auf Ihre Website geleitet wird. Der Link in der E-Mail kann zum Beispiel wie folgt aufgelöst werden:
+Nehmen Sie zum Beispiel einmal an, dass Ihre Firma Marketing-E-Mails an Kunden und Interessenten sendet. Jeder dieser E-Mail-Empfänger verfügt über eine eindeutige ID in Ihrem E-Mail-System (z. B. *`EMAIL Contact ID`*). Sie richten Ihre E-Mails so ein, dass Kontakte eine E-Mail erhalten und auf einen darin enthaltenen Link klicken, wobei der Besucher dann mit einer Kampagnen-ID und einer eindeutigen EMAIL-Kontakt-ID auf Ihre Website geleitet wird. Der Link in der E-Mail kann zum Beispiel wie folgt aufgelöst werden:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

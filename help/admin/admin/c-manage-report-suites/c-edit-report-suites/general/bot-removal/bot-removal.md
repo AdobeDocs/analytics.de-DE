@@ -13,7 +13,7 @@ ht-degree: 81%
 
 # Entfernen von Bots in Adobe Analytics
 
-Adobe Analytics bietet mehrere Optionen, um Bot-Traffic aus der Berichterstellung zu entfernen:
+Adobe Analytics bietet mehrere Optionen zum Entfernen von Bot-Traffic aus Berichten:
 
 ## Verwenden von Bot-Regeln
 
@@ -24,7 +24,7 @@ Sowohl Standard- als auch benutzerdefinierte Bot-Filtermethoden werden in **[!UI
 | Standard-IAB-Bot-Regeln | Wenn Sie **[!UICONTROL IAB Bot-Filterungsregeln aktivieren]** auswählen, wird die Liste „International Spiders &amp; Bots List“ von [IAB](https://www.iab.com/) (International Advertising Bureau) verwendet, um Bot-Traffic zu entfernen. Die meisten Kunden wählen mindestens diese Option aus. |
 | Benutzerdefinierte Bot-Regeln | Sie können benutzerdefinierte Bot-Regeln festlegen und hinzufügen, die auf Benutzeragenten, IP-Adressen oder IP-Bereichen basieren. |
 
-Weitere Informationen finden Sie unter [Bot-Regeln verstehen und konfigurieren](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Weitere Informationen finden Sie unter [Grundlegendes zu und Konfigurieren von Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Identifizieren von Bots mit dem Plug-in [!UICONTROL websiteBot]
 
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie im [Adobe Analytics-Implementierungshandbuch](h
 
 ## Verwenden einer Kombination aus Adobe-Tools
 
-Da Bots sich schnell wandeln, bietet Adobe außerdem mehrere leistungsstarke Funktionen, die, wenn sie richtig und regelmäßig kombiniert werden, dazu beitragen können, diese Feinde der Datenqualität zu beseitigen. Diese Funktionen sind: Experience Cloud ID-Dienst, Segmentierung, Data Warehouse, Kundenattribute und Virtual Report Suites. Im Folgenden finden Sie eine Übersicht darüber, wie Sie diese Tools nutzen können.
+Da Bots sich schnell wandeln, bietet Adobe außerdem mehrere leistungsstarke Funktionen, die, wenn sie richtig und regelmäßig kombiniert werden, dazu beitragen können, diese Feinde der Datenqualität zu beseitigen. Zu diesen Funktionen gehören: Experience Cloud-ID-Service, Segmentierung, Data Warehouse, Kundenattribute und Virtual Report Suites. Im Folgenden finden Sie eine Übersicht darüber, wie Sie diese Tools nutzen können.
 
 ### Schritt 1: Experience Cloud ID Ihrer Besucher in eine neue deklarierte ID übertragen
 
@@ -72,13 +72,13 @@ Denken Sie daran, die Experience Cloud-Besucher-ID als Dimension zu verwenden un
 Sobald der Data Warehouse-Bericht eintrifft, verfügen Sie über eine Liste der ECIDs, die aus historischen Daten gefiltert werden müssen. Kopieren Sie diese ECIDs und fügen Sie sie in eine leere .CSV-Datei mit nur zwei Spalten, „ECID“ und „Bot Flag“, ein.
 
 * **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie für die neue deklarierte ID oben angegeben haben.
-* **Bot Flag**: Fügen Sie &quot;Bot Flag&quot;als Schema-Dimension für Kundenattribute hinzu.
+* **Bot Flag**: Fügen Sie „Bot Flag“ als Schema-Dimension für Kundenattribute hinzu.
 
-Verwenden Sie diese .CSV-Datei als Importdatei für Kundenattribute und abonnieren Sie dann Ihre Report Suites für das Kundenattribut, wie in diesem [Blogpost](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) beschrieben.
+Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [ beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### Schritt 5: Segment erstellen, das das neue Kundenattribut nutzt
+### Schritt 5: Erstellen Sie ein Segment, das das neue Kundenattribut nutzt.
 
 Nachdem Ihr Datensatz verarbeitet und in Analysis Workspace integriert wurde, erstellen Sie ein weiteres Segment, das Ihre neue Kundenattributdimension „Bot Flag“ und einen [!UICONTROL Ausschließen]-Container nutzt:
 
@@ -86,11 +86,11 @@ Nachdem Ihr Datensatz verarbeitet und in Analysis Workspace integriert wurde, er
 
 ### Schritt 6: Dieses Segment als Virtual Report Suite-Filter verwenden
 
-Erstellen Sie abschließend eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) , die dieses Segment verwendet, um die identifizierten Bots herauszufiltern:
+Erstellen Sie abschließend eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) die dieses Segment verwendet, um die identifizierten Bots herauszufiltern:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-Diese neu segmentierte Virtual Report Suite führt jetzt zu einem saubereren Datensatz, wobei die identifizierten Bots entfernt werden.
+Diese neu segmentierte Virtual Report Suite führt nun zu einem saubereren Datensatz, aus dem die identifizierten Bots entfernt wurden.
 
 ### Schritt 7: Schritte 2, 3 und 4 regelmäßig wiederholen
 

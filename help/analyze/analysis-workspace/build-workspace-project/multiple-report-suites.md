@@ -13,13 +13,13 @@ ht-degree: 89%
 
 # Mehrere Report Suites
 
-Sie können in Analysis Workspace Projekte mit Daten aus mehr als einer Report Suite erstellen. Report Suites werden auf Bereichsebene ausgewählt, sodass Sie für jedes Bedienfeld innerhalb desselben Workspace-Projekts eine andere Report Suite auswählen können.
+Sie können in Analysis Workspace Projekte mit Daten aus mehr als einer Report Suite erstellen. Report Suites werden auf Bedienfeldebene ausgewählt, sodass Sie für jedes Bedienfeld innerhalb desselben Workspace-Projekts eine andere Report Suite auswählen können.
 
 Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 * Daten aus zwei verschiedenen Regionen vergleichen und sich die Daten in zwei verschiedenen Report Suites befinden. Sie können Tabellen und Visualisierungen erstellen, um die Daten nebeneinander zu vergleichen.
 
-* ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können Daten aus verschiedenen Report Suites in dasselbe Projekt ziehen.
+* ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können Daten aus verschiedenen Report Suites in im selben Projekt abrufen.
 
 Im Folgenden finden Sie ein Video zum Thema:
 

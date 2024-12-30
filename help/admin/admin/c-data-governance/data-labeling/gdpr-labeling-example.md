@@ -35,14 +35,14 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 ## Beispiel einer Zugriffsanfrage {#access}
 
-Wenn Sie eine Zugriffsanfrage senden, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurückgeben können. Eine Datei ist eine CSV-Datei mit einer Zeile für jeden Treffer, der für das Datensubjekt empfangen wird, und einer Spalte für jede Variable mit der entsprechenden Zugriffsbeschriftung. Bei der anderen HTML-Datei handelt es sich um eine Zusammenfassungsdatei, in der jede Variable aufgeführt wird, gefolgt von allen eindeutigen-Werten, die für die betroffene Person angezeigt werden, sowie der Häufigkeit, mit der jeder individuelle Wert gesehen wurde.
+Wenn Sie eine Zugriffsanfrage stellen, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurücksenden können. Eine Datei ist eine CSV-Datei, die eine Zeile für jeden für die betroffene Person empfangenen Treffer und eine Spalte für jede Variable mit der entsprechenden Zugriffskennzeichnung enthält. Die andere Datei ist eine Zusammenfassungs-HTML-Datei, in der jede Variable aufgelistet ist, gefolgt von allen eindeutigen Werten, die für diese Variable bei der betroffenen Person angezeigt wurden, und der Häufigkeit, mit der jeder eindeutige Wert angezeigt wurde.
 
-In unserem Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabelle angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur zurückgegeben, wenn eine Personen-ID verwendet wird und `expandIds` &quot;true&quot;ist.
+Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabelle angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur zurückgegeben, wenn eine Personen-ID verwendet wird und `expandIds` „true“ ist.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API-Werte</th>
-    <th rowspan="2">Summary<br/>file type<br/></th>
+    <th rowspan="2">Summary<br/>file type<br/>returned</th>
     <th colspan="5" style="text-align:center">Daten in der Zusammenfassungsdatei für den Zugriff</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ In unserem Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabe
   </tr>
 </table>
 
-Beachten Sie, dass die Einstellung für `expandIDs` keinen Einfluss auf die Ausgabe hat, wenn eine Cookie-ID verwendet wird.
+Beachten Sie, dass die Einstellung für `expandIDs` keinen Unterschied bei der Ausgabe macht, wenn eine Cookie-ID verwendet wird.
 
 ## Beispiel für Löschanfragen {#delete}
 
@@ -219,7 +219,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 >[!NOTE]
 >
->Dies hat nur Einfluss auf Spalten in Zeilen, die `AAID=77` und eine `DEL-DEVICE` -Beschriftung enthalten.
+>Dies hat nur Einfluss auf Spalten in Zeilen, die `AAID=77` und eine `DEL-DEVICE` enthalten.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 >[!NOTE]
 >
->Dies hat nur Einfluss auf Spalten in Zeilen, die `user=Mary` und eine `DEL-PERSON` -Beschriftung enthalten. In der Praxis wäre die Variable, die `A_ID` enthält, wahrscheinlich auch eine Prop oder ein eVar. Der Ersatzwert wäre eine Zeichenfolge, die mit `Privacy-` gefolgt von einer zufälligen Zahl (GUID) beginnt, anstatt den numerischen Wert durch einen anderen, zufälligen numerischen Wert zu ersetzen.
+>Dies hat nur Einfluss auf cellColumns in Zeilen, die `user=Mary` und eine `DEL-PERSON` enthalten. In der Praxis wäre die Variable, die `A_ID` enthält, wahrscheinlich auch eine Prop oder eine eVar. Der Ersatzwert wäre eine Zeichenfolge, die mit `Privacy-` beginnt, gefolgt von einer zufälligen Zahl (GUID), anstatt den numerischen Wert durch einen anderen, zufälligen numerischen Wert zu ersetzen.
 
 <table>
   <tr>

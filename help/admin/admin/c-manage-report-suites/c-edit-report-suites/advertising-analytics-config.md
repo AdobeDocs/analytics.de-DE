@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Konfigurieren von Advertising Analytics
 
-Sie können Adobe Analytics so konfigurieren, dass alle Ihre gebührenpflichtigen Google- und Bing-Suchdaten nebeneinander angezeigt werden.
+Sie können Adobe Analytics so konfigurieren, dass alle Ihre Google- und Bing Paid Search-Daten nebeneinander angezeigt werden.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **`<select report suite>`** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**
 
@@ -22,8 +22,8 @@ Sie können die folgenden Daten in Adobe Analytics abrufen:
 
 * Klicks
 
-* Kostendaten direkt aus Suchmaschinen
+* Kostendaten direkt aus den Suchmaschinen
 
-* AMO-ID-Instanzen (Klickinstanzen)
+* AMO ID-Instanzen (Klickinstanzen)
 
-Weitere Informationen finden Sie unter [Eine Anleitung zu Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md).
+Weitere Informationen finden Sie unter [Handbuch zu Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md).

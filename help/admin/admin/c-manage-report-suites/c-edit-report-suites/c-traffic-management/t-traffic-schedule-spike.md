@@ -63,4 +63,4 @@ Adobe möchte sicherstellen, dass Ihr Erlebnis mit aktuellem Reporting konsisten
 
 * Planen Sie Vorlaufzeiten für alle Traffic-Spitzen. **Es ist besonders wichtig, dass alle in den Monaten November und Dezember erwarteten Traffic-Spitzen bis zum 15. September geplant werden**. Wenn Sie die Frist verpassen, planen Sie Ihre Spitze so bald wie möglich. Weniger Vorlaufzeit ist besser als keine, und Adobe arbeitet mit den aktuellen Ressourcen, um Ihre Report Suites optimal zu berücksichtigen.
 * Wenn Sie von Adobe bezüglich einer geplanten Traffic-Spitze kontaktiert werden, geben Sie auf jeden Fall an, ob Echtzeit-Reporting oder Reporting zur vollständigen Verarbeitung wichtiger ist. Einige Organisationen stützen sich mehr auf Echtzeit-Reporting als andere. Wenn Sie wissen, welchen Reporting-Typ Sie verwenden, können Sie Adobe bei der entsprechenden Priorisierung helfen.
-* Indem Sie mit Ihrem Adobe Account-Team die wichtigsten Berichte kommunizieren und diese abrufen, können Sie diese für Sie einsetzen.
+* Wenn Sie Ihrem Adobe-Account-Team mitteilen, welche Berichte am wichtigsten sind und wann Sie sie abrufen, können Sie unterstützt werden.

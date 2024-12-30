@@ -1,5 +1,5 @@
 ---
-description: Die Bereichsvisualisierung ist wie ein Liniendiagramm, jedoch mit einem farbigen Bereich unterhalb der Linie.
+description: Die Bereichsvisualisierung ist wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie.
 title: Bereich und Bereich gestapelt
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations

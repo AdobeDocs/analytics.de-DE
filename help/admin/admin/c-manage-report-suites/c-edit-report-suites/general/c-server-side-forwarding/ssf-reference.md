@@ -68,7 +68,7 @@ Parameter mit dem Präfix `c_` kennzeichnen vom Kunden definierte Variablen. Sie
 | `c_linkExitURL` | Die Exitlink-URL. |
 | `c_list#` | Benutzerdefinierte Listenvariablen. |
 | `c_longitude` | Numerischer Längengrad. |
-| `c_mediaPlayerType` | Für Medienstream-Verfolgungsanfragen. Zu den Optionen gehören: other, primetime |
+| `c_mediaPlayerType` | Für Medienstream-Verfolgungsanfragen. Zu den Optionen gehören: Sonstige, Primetime |
 | `c_pageName` | Der Seitenname (sofern festgelegt). |
 | `c_pageURL` | Die Adresse der Seite in der Adressleiste des Browsers. |
 | `c_products` | Die Produktzeichenfolge (festgelegt durch `s.products`). |
