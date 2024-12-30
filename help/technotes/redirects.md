@@ -90,7 +90,7 @@ if(tempVar)
 
 ## Ändern des Weiterleitungsmechanismus {#modify}
 
-Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die Variable &quot;*`s_pageURL`*&quot;, um die aktuelle URL zu überschreiben.
+Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die Variable *`s_pageURL`* , um die aktuelle URL zu überschreiben.
 
 Da viele Möglichkeiten zur Implementierung einer Weiterleitung bestehen, müssen Sie ggf. mit Ihrer Web Operations-Gruppe oder Ihrem Online-Werbepartner die spezifischen Mechanismen bestimmen, die Weiterleitungen auf Ihrer Website ausführen.
 

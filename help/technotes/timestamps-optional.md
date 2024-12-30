@@ -45,7 +45,7 @@ Eine Report Suite kann eine der folgenden Zeitstempeleinstellungen haben:
 * Zeitstempel erforderlich (Einstellen der Besucher-ID nicht unterstützt)
 * Zeitstempel optional (Einstellen der Besucher-ID unterstützt, aber nicht bei Treffern mit Zeitstempel)
 
-## Über die optionalen Funktionen von Zeitstempeln {#features}
+## Über Zeitstempel Optionale Funktionen {#features}
 
 „Zeitstempel optional“ ermöglicht die Berichterstattung über mehrere Report Suites, und zwar unabhängig davon, ob clientseitige Zeitstempel enthalten sind oder nicht. Wenn Sie die Option „Zeitstempel optional“ gewählt haben, können Sie Ihre App so aktualisieren, dass Zeitstempel, nach wie vor aber auch Daten ohne Zeitstempel aus früheren Apps verwendet werden.
 
@@ -55,7 +55,7 @@ Eine Report Suite kann eine der folgenden Zeitstempeleinstellungen haben:
 
 Mit **Zeitstempel optional** können Sie nicht zeitgestempelte Daten einer Live-Webseite mit Offline-Daten von mobilen Geräten integrieren oder Ihre App ohne Zeitstempel zu einer App aktualisieren, die Zeitstempel verwendet.
 
-## Kombinieren von Daten zu einer globalen Report Suite {#combine}
+## Daten in einer globalen Report Suite kombinieren {#combine}
 
 Sie können Daten auf verschiedene Weise zu einer globalen Report Suite kombinieren: über Multi-Suite-Tagging, Vista-Regeln und importierte Batchdateien aus Offline-Quellen.
 

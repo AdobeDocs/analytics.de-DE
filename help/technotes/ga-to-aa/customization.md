@@ -64,7 +64,7 @@ So erstellen Sie eine errechnete Metrik:
 
 1. Klicken Sie auf das Symbol **+** neben der Metrikliste, um den [!UICONTROL Generator für berechnete Metriken] zu öffnen.
 2. Geben Sie für die berechnete Metrik einen Namen und ein Format an.
-3. Ziehen Sie Metrikkomponenten in den Definitionsbereich und verwenden Sie die Dropdown-Listen zwischen den einzelnen Komponenten, um einen Operator zu bestimmen.
+3. Ziehen Sie Metrik -Komponenten in den Definitionsbereich und verwenden Sie die Dropdown-Listen zwischen den einzelnen Komponenten, um einen Operator zu bestimmen.
 4. Sobald die berechnete Metrik die gewünschte Formel enthält, klicken Sie auf „Speichern“, um zu Ihrem Arbeitsbereich zurückzukehren.
 5. Ziehen Sie die neu definierte berechnete Metrik in den Arbeitsbereich.
 
@@ -72,4 +72,4 @@ So erstellen Sie eine errechnete Metrik:
 
 ## Benutzerspezifische Warnungen
 
-Warnungen sind auf beiden Plattformen verfügbar. Verwenden Sie in Adobe Analytics das Navigationsmenü in der Kopfzeile und gehen Sie zu *[!UICONTROL Komponenten]* > *[!UICONTROL Warnhinweise]*. Weitere Informationen finden Sie unter [Übersicht über Warnhinweise](/help/components/c-alerts/intellligent-alerts.md) im Benutzerhandbuch zu Komponenten.
+Warnungen sind auf beiden Plattformen verfügbar. Verwenden Sie in Adobe Analytics das Navigationsmenü in der Kopfzeile und gehen Sie zu *[!UICONTROL Komponenten]* > *[!UICONTROL Warnhinweise]*. Weitere Informationen finden [ im ](/help/components/c-alerts/intellligent-alerts.md) „Warnhinweise - Übersicht“ im Benutzerhandbuch zu Komponenten.

@@ -43,7 +43,7 @@ Der [Segmentvergleich](https://experienceleague.adobe.com/docs/analytics/analyze
 
 ## Customer Journey (Fluss) in Analysis Workspace {#flow}
 
-Adobe Audience Manager-Segmentdaten werden pro Treffer an Analytics übergeben und stellen die Zielgruppenzugehörigkeit für einen Besucher zu diesem Zeitpunkt dar. Das bedeutet, dass ein Besucher einem Segment zugehörig sein kann (z. B. „Bewusstsein“) und sich später für ein qualifizierteres Segment qualifizieren könnte (z. B. „Überlegung“). Sie können [Fluss](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) in Analysis Workspace verwenden, um die Customer Journey eines Besuchers zwischen zwei Zielgruppen zu visualisieren.
+Adobe Audience Manager-Segmentdaten werden von Treffer zu Treffer an Analytics übergeben und stellen die Zielgruppenzugehörigkeit eines Besuchers zu diesem Zeitpunkt dar. Das bedeutet, dass ein Besucher einem Segment zugehörig sein kann (z. B. „Bewusstsein“) und sich später für ein qualifizierteres Segment qualifizieren könnte (z. B. „Überlegung“). Sie können [Fluss](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) in Analysis Workspace verwenden, um die Customer Journey eines Besuchers zwischen zwei Zielgruppen zu visualisieren.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Fluss]** aus.
 

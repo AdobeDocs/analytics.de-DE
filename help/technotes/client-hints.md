@@ -25,13 +25,13 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 Ab Oktober 2022 haben neue Versionen von Chromium-Browsern die in der Benutzeragenten-Zeichenfolge dargestellte Betriebssystemversion „eingefroren“. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
 
-Kundenhinweise werden ab dem 27. Februar 2023 in den Analytics-Prozess zur Geräterücksicht integriert und am 2. März 2023 abgeschlossen. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Februar nicht für die Gerätesuche verwendet. Wie unten beschrieben, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (mehr dazu [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher und -Besucherinnen betrifft.
+Client-Hinweise werden ab 27. Februar 2023 in den Prozess der Analytics-Gerätesuche integriert, der am 2. März 2023 endet. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Februar nicht für die Gerätesuche verwendet. Wie unten beschrieben, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (mehr dazu [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher und -Besucherinnen betrifft.
 
 >[!NOTE]
 >
 > Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
 
-Adobe Audience Manager erfordert die Erfassung von Hinweisen zur Entropie mit hoher Entropie, um die volle Funktionalität zu erhalten. Wenn Sie die serverseitige Weiterleitung von [an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen zur Entropie mit hoher Entropie aktivieren.
+Adobe Audience Manager erfordert das Erfassen von Hinweisen mit hoher Entropie, um die volle Funktionalität beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
 ## Häufig gestellte Fragen
 
@@ -55,7 +55,7 @@ Für Daten, die über eine API übermittelt werden, z. B. über die [Data Insert
 
 Zum jetzigen Zeitpunkt nicht. Sie können entweder alle Hinweise mit hoher Entropie oder keine erfassen.
 
-Beachten Sie, dass fullVersionList derzeit nicht erfasst wird, da die Hauptversion des Browsers als Hinweis mit geringer Entropie erfasst wird.
+Hinweis: fullVersionList wird derzeit nicht erfasst, da die Hauptversion des Browsers als Hinweis mit niedriger Entropie erfasst wird.
 
 +++
 
@@ -69,13 +69,13 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 | Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
 | Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
 | Architektur | Architektur der Site | Hoch | `"arm"` |
-| bitness | Architekturbitenz | Hoch | `"64"` |
+| Bitness | Bitness der Architektur | Hoch | `"64"` |
 | fullVersionList | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | Gerätemodell | Hoch | `"Pixel 3"` |
 | platformVersion | Betriebssystem/Platform-Version | Hoch | `"10"` |
 
 * Über den Anfrage-Header werden Hinweise mit geringer Entropie erfasst.
-* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung. Beachten Sie, dass fullVersionList derzeit nicht erfasst wird, da die Hauptversion des Browsers als Hinweis für eine niedrige Entropie erfasst wird.
+* Hinweise mit hoher Entropie werden über JavaScript erfasst und mithilfe von Abfragezeichenfolgen-Parameterwerten übergeben. Die Abfragezeichenfolgenparameter verwenden `h.` als Präfix in der Bildanforderung. Hinweis: fullVersionList wird derzeit nicht erfasst, da die Hauptversion des Browsers als Hinweis mit niedriger Entropie erfasst wird.
 
 Hinweise mit hoher Entropie werden über einen JavaScript-Aufruf erfasst und mithilfe eines Abfrageparameters übergeben
 
@@ -157,8 +157,8 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 
 +++
 
-+++**Unterstützt die serverseitige Weiterleitung von Adobe Audience Manager Client-Hinweise?**
++++**Unterstützt die Server-seitige Weiterleitung an Adobe Audience Manager Client-Hinweise?**
 
-Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass für Adobe Audience Manager hochgradige Entropy-Hinweise gesammelt werden müssen, um die volle Funktionalität zu erhalten. Wenn Sie die serverseitige Weiterleitung von [an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen zur Entropie mit hoher Entropie aktivieren.
+Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass Adobe Audience Manager die Erfassung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
 +++

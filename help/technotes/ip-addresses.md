@@ -14,17 +14,17 @@ ht-degree: 35%
 
 Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihres Unternehmens so zu ändern, dass der Zugriff und das Senden von Daten aus Ihrem Unternehmen heraus möglich ist.
 
-Alle von Adobe Analytics verwendeten IP-Adressen sind Teil von [IP-Adressen, die von der Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) verwendet werden, mit Ausnahme des Add-On-Pakets &quot;China Performance Optimization&quot;.
+Alle von Adobe Analytics verwendeten IP-Adressen sind Teil von [vom Adobe Experience Cloud verwendeten IP-Adressen](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) mit Ausnahme des Add-on-Pakets „China Performance Optimization“.
 
-## IP-Adressen zur Optimierung der chinesischen Leistung
+## IP-Adressen zur Leistungsoptimierung in China
 
-Das Add-On-Paket zur Leistungsoptimierung von China ist ein zusätzlicher zahlungspflichtiger Dienst, der die AppMeasurement-Datenerfassungsleistung für Besucher in China verbessert. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über die Verwendung dieser Funktion zu erfahren.
+Das Add-on-Paket zur Leistungsoptimierung für China ist ein zusätzlicher gebührenpflichtiger Service, der die Leistung der AppMeasurement-Datenerfassung für Besucher innerhalb Chinas verbessert. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über die Verwendung dieser Funktion zu erfahren.
 
 >[!IMPORTANT]
 >
->China RDC ist nicht für die Web SDK-Datenerfassung verfügbar. Diese Server gelten nur für AppMeasurement-Bibliotheken.
+>Die regionale Datenerfassung für China ist nicht für die Web SDK-Datenerfassung verfügbar. Diese Server gelten nur für AppMeasurement-Bibliotheken.
 
-Regionale Datenerfassungsserver in China verwenden die folgenden IP-Adressen:
+Regionale Datenerfassungs-Server in China verwenden die folgenden IP-Adressen:
 
 | Standort | Host |
 | --- | --- |
@@ -38,4 +38,4 @@ Regionale Datenerfassungsserver in China verwenden die folgenden IP-Adressen:
 >
 >[Von der Adobe Experience Cloud verwendete IP-Adressen](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
->[Von Adobe Analytics verwendete Domänen](domains.md)
+>[Von Adobe Analytics verwendete Domains](domains.md)

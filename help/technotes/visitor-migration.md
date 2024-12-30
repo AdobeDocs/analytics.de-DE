@@ -16,9 +16,9 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->Wenn Sie den Experience Cloud-Besucher-ID-Dienst bereits implementiert haben, gilt die Übergangsphase nicht für Sie und sollte nicht aktiviert werden.
+>Wenn Sie den Experience Cloud-Besucher-ID-Service bereits implementiert haben, gilt die Übergangsphase nicht für Sie und sollte nicht aktiviert werden.
 
-Bei der Besuchermigration handelt es sich um einen Prozess, bei dem das Besucher-ID-Cookie(s_vi) von einer Domäne zu einer anderen migriert wird.
+Bei der Besuchermigration werden die Besucher-ID-Cookies von einer Domain zu einer anderen migriert.
 
 Beim Migrieren von Besuchern können Sie die Cookies zur Identifizierung von Besuchern beibehalten, wenn Sie die Datenerfassungsdomänen ändern. Das Ändern von Datenerfassungsdomänen kann die folgenden Gründe haben:
 
@@ -45,7 +45,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html"  >Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domain(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die nicht sicheren und sicheren Domänen einschließen. </p> </td> 
+   <td colname="col1"> <p> <b>Zu Beginn:</b> <a href="https://helpx.adobe.com/de/marketing-cloud/contact-support.html"  >Wenden Sie sich an den Kundendienst</a>, und teilen Sie die Domain(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die nicht sicheren und sicheren Domains einbeziehen. </p> </td> 
    <td colname="col3"> <p>Erstellen Sie eine Liste mit der <i>exakten</i> Syntax für die Domänen, zu denen und von denen migriert werden soll. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -58,7 +58,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Unmittelbar nach Aktualisierung Ihres Analytics-Code</b>: Testen Sie Ihre Website, um zu verifizieren, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. </p> </td> 
-   <td colname="col3"> <p>Verwenden Sie einen <a href="../implement/validate/packet-monitor.md"> Paketmonitor</a> , um sicherzustellen, dass beim erstmaligen Zugriff auf Ihre Site oder nach dem Löschen von Cookies zwei HTTP-Status-Codes vom Typ 302 (Umleitung) vor dem HTTP-Statuscode 200 (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
+   <td colname="col3"> <p>Verwenden Sie einen <a href="../implement/validate/packet-monitor.md">-</a>, um zu überprüfen, ob beim erstmaligen Zugriff auf Ihre Website oder nach dem Löschen von Cookies zwei HTTP-Status-Codes „302“ (Redirect) vor dem HTTP-Status-Code „200“ (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Im gesamten Migrationszeitraum</b>: Belassen Sie den DNS-Eintrag für den vorherigen Hostnamen weiterhin aktiviert. </p> </td> 
@@ -69,7 +69,7 @@ In der folgenden Tabelle sind die Aufgaben aufgeführt, die für das Migrieren v
 
 | Aufgabe | Beschreibung |
 |--- |--- |
-| Zu Beginn: Wenden Sie sich an die Kundenunterstützung mit der Domäne(n), die migriert werden soll, und dem Migrationszeitraum, den Sie aktivieren möchten (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die nicht sicheren und sicheren Domänen einschließen. | Erstellen Sie eine Liste mit der genauen Syntax für die Domänen, zu denen Sie migrieren und von denen Sie migrieren möchten.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>Die Migrations-Hostnamen werden auf dem Adobe-Datenerfassungsserver konfiguriert. Der Kundendienst teilt Ihnen mit, wann die Änderung erfolgt, sodass Sie für den nächsten Schritt planen können. |
-| 6 und mehr Stunden nach der Konfigurationsänderung: Aktualisieren Sie die Variablen `s.trackingServer` und `s.trackingServerSecure` in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. | Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie den [Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de), um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungsserver gesendet wird. |
-| Sofort nach der Aktualisierung Ihres Analytics-Codes: Testen Sie Ihre Site, um sicherzustellen, dass die Umleitung zur vorherigen Datenerfassungsdomäne erfolgt. | Verwenden Sie einen [Paketmonitor](../implement/validate/packet-monitor.md) , um zu überprüfen, ob beim erstmaligen Zugriff auf Ihre Site oder nach dem Löschen von Cookies zwei 302-HTTP-Status-Codes (Umleitung) vor dem HTTP-Statuscode 200 (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. |
-| Für den gesamten Migrationszeitraum: Lassen Sie den DNS-Eintrag für den vorherigen Hostnamen aktiv. | Der vorherige Hostname muss über DNS aufgelöst werden. Andernfalls wird die Cookie-Migration nicht ausgeführt. |
+| Zu Beginn: Wenden Sie sich an die Kundenunterstützung, und teilen Sie die Domain(n) mit, die migriert werden sollen, sowie den Migrationszeitraum, der aktiviert werden soll (30, 60 oder 90 Tage). Stellen Sie sicher, dass Sie die nicht sicheren und sicheren Domains einbeziehen. | Erstellen Sie eine Liste mit der genauen Syntax für die Domains, zu denen Sie migrieren und von denen Sie migrieren möchten.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>Die Migrations-Hostnamen werden auf dem Adobe-Datenerfassungsserver konfiguriert. Der Kundendienst teilt Ihnen mit, wann die Änderung erfolgt, sodass Sie für den nächsten Schritt planen können. |
+| 6+ Stunden nach Konfigurationsänderung: Aktualisieren Sie die `s.trackingServer`- und `s.trackingServerSecure`-Variablen in Ihrem Analytics JavaScript-Code, um die neuen Datenerfassungsserver zu verwenden. | Nachdem Sie diese Änderung vorgenommen haben, verwenden Sie den [Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de), um zu überprüfen, ob die Analytics-Bildanforderung an den aktualisierten Datenerfassungs-Server gesendet wird. |
+| Sofort nach der Aktualisierung Ihres Analytics-Codes: Testen Sie Ihre Site, um sicherzustellen, dass die Umleitung zur vorherigen Datenerfassungs-Domain erfolgt. | Verwenden Sie einen [Paketmonitor](../implement/validate/packet-monitor.md), um zu überprüfen, ob beim erstmaligen Zugriff auf Ihre Website bzw. nach dem Löschen von Cookies zwei HTTP-Status-Codes „302“ (Redirect) vor dem HTTP-Status-Code „200“ (OK) angezeigt werden. Wenn eine dieser Umleitungen fehlschlägt, wenden Sie sich an den Kundendienst, um sicherzustellen, dass die Migration ordnungsgemäß konfiguriert wurde. |
+| Für den gesamten Migrationszeitraum: Der DNS-Eintrag für den vorherigen Host-Namen muss aktiv bleiben. | Der vorherige Hostname muss über DNS aufgelöst werden. Andernfalls wird die Cookie-Migration nicht ausgeführt. |

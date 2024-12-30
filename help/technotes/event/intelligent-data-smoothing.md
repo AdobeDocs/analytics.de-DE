@@ -1,6 +1,6 @@
 ---
 title: Intelligente Datenausgleichung
-description: Erfahren Sie, wie intelligente Datenausgleichung historische Trends analysiert, um den Wert einer Metrik innerhalb eines betroffenen Zeitraums vorherzusagen.
+description: Erfahren Sie, wie die intelligente Datenausgleichung historische Trends analysiert, um den Wert einer Metrik innerhalb eines betroffenen Zeitraums vorherzusagen.
 feature: AI Tools
 role: User, Admin
 exl-id: b7a2e5d5-99d4-408d-84e6-67abff9e8727
@@ -13,24 +13,24 @@ ht-degree: 3%
 
 # Intelligente Datenausgleichung
 
-In seltenen Fällen können einige Faktoren die Datenqualität beeinflussen. Bot-Traffic, Implementierungsänderungen oder Dienstunterbrechungen können sich auf die Integrität der erfassten Daten auswirken. Sie verkomplizieren auch die Analyse, wie sich das Ereignis auf die Vollständigkeit der Daten ausgewirkt haben kann.
+In seltenen Fällen können einige Faktoren die Datenqualität beeinträchtigen. Sowohl Traffic als auch Implementierungsänderungen oder Service-Unterbrechungen können sich auf die Integrität der erfassten Daten auswirken. Sie erschweren auch die Analyse, inwiefern das Ereignis die Vollständigkeit der Daten beeinflusst haben könnte.
 
-Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyze/labs.md) , der dazu beitragen kann, diese Ansicht abzuschließen, indem historische Trends analysiert werden, um den Wert einer Metrik im betroffenen Zeitraum vorherzusagen. Der Prototyp wendet erweiterte maschinelle Lernalgorithmen an, um die erwarteten Werte für Metriken im Analysezeitraum darzustellen.
+Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyze/labs.md) der dabei helfen kann, diese Ansicht abzuschließen, indem historische Trends analysiert werden, um den Wert einer beliebigen Metrik innerhalb des betroffenen Zeitraums vorherzusagen. Der Prototyp wendet erweiterte Algorithmen des maschinellen Lernens an, um die erwarteten Werte für Metriken über den analysierten Zeitraum darzustellen.
 
 ## Intelligente Datenausgleichung ausführen
 
 1. Navigieren Sie zu Adobe Analytics Labs:
    ![Labs](assets/labs.png)
 1. Starten Sie den Prototyp Intelligente Datenausgleichung .
-   ![Launch-Prototyp](assets/intelligent-ds.png)
-1. Fügen Sie die zu analysierende Metrik zur Freiformtabelle hinzu. Der Prototyp arbeitet nur mit einer täglichen Granularität. Stellen Sie daher sicher, dass die Dimension in der Tabelle &quot;Tag&quot;ist.
+   ![Prototyp starten](assets/intelligent-ds.png)
+1. Fügen Sie die Metrik, die analysiert werden muss, zur Freiformtabelle hinzu. Der Prototyp funktioniert nur mit einer täglichen Granularität. Stellen Sie daher sicher, dass die Dimension in der Tabelle Tag lautet.
    ![Metrik hinzufügen](assets/add-metric.png)
-1. Wählen Sie einen Datumsbereich aus, der größer als das Fenster des Ereignisses ist, stellen Sie jedoch sicher, dass er das Ereignis enthält.
+1. Wählen Sie einen Datumsbereich aus, der breiter ist als das Fenster des Ereignisses, stellen Sie jedoch sicher, dass er das Ereignis enthält.
    ![Datumsbereich](assets/date-range.png)
-1. Klicken Sie auf das Zahnradsymbol für die Metrik in der Freiformtabelle.
+1. Klicken Sie in der Freiformtabelle auf das Zahnradsymbol für die Metrik.
    ![Zahnradsymbol](assets/gear-icon.png)
-1. Wählen Sie unter [!UICONTROL Dateneinstellungen] die Option [!UICONTROL Datenausgleichung] aus.
-   ![Datenausgleichung](assets/column-setting.png)
-1. Wählen Sie das Datum/den Datumsbereich aus, das/der dem Ereignis entspricht, und klicken Sie auf [!UICONTROL Anwenden].
-Stellen Sie sicher, dass der Datenbereich für die Datenausgleichung eine Teilmenge des für den Bereich ausgewählten Datumsbereichs ist. Die Metrik in der Tabelle und im Diagramm werden durch die prognostizierten Werte ersetzt.
-   ![Vorhergesagte Werte](assets/predictive-values.png)
+1. Wählen [!UICONTROL  unter ] die Option [!UICONTROL Datenausgleichung] aus.
+   ![Datenglättung](assets/column-setting.png)
+1. Wählen Sie das Datum/den Datumsbereich für das Ereignis aus und klicken Sie auf [!UICONTROL Anwenden].
+Stellen Sie sicher, dass der Datenbereich für die Datenausgleichung eine Teilmenge des für das Bedienfeld ausgewählten Datumsbereichs ist. Die Metriken in der Tabelle und im Diagramm werden durch die prognostizierten Werte ersetzt.
+   ![Prognostizierte Werte](assets/predictive-values.png)

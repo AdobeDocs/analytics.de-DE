@@ -1,6 +1,6 @@
 ---
-title: Von Adobe Analytics verwendete Domänen
-description: Lassen Sie diese Domänen über die Firewall Ihres Unternehmens zu, um eine optimale Nutzung von Adobe Analytics zu erhalten.
+title: Von Adobe Analytics verwendete Domains
+description: Lassen Sie diese Domains durch die Firewall Ihres Unternehmens laufen, um ein optimales Erlebnis mit Adobe Analytics zu gewährleisten.
 feature: Data Configuration and Collection
 exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
 source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
@@ -10,9 +10,9 @@ ht-degree: 13%
 
 ---
 
-# Von Adobe Analytics verwendete Domänen
+# Von Adobe Analytics verwendete Domains
 
-Einige Firewall-Konfigurationen blockieren Domänen, auf die Adobe Analytics für seine Produktoberfläche angewiesen ist. Sie können diese Liste von Domänen verwenden, um die Netzwerkeinstellungen Ihres Unternehmens zu ändern und den Produktzugriff innerhalb Ihres Unternehmens zuzulassen. Adobe empfiehlt, diese Domänen über die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu erzielen.
+Einige Firewall-Konfigurationen blockieren Domains, auf die Adobe Analytics für seine Produktoberfläche angewiesen ist. Mithilfe dieser Liste von Domains können Sie die Netzwerkeinstellungen Ihrer Organisation ändern, um den Produktzugriff innerhalb Ihrer Organisation zuzulassen. Adobe empfiehlt, diese Domains durch die Firewall Ihres Unternehmens laufen zu lassen, um ein optimales Erlebnis zu gewährleisten.
 
 | Technologie | Domain |
 | --- | --- |
@@ -29,10 +29,10 @@ Einige Firewall-Konfigurationen blockieren Domänen, auf die Adobe Analytics fü
 
 ## Adobe Experience Cloud-Domains
 
-Zusätzlich zu den oben genannten Domänen ist die Adobe Experience Cloud für die Datenerfassung und den Export von Berichten auf mehrere Domänen angewiesen. Eine Liste der Domänen finden Sie unter [Domänen, die von der Adobe Experience Cloud verwendet werden](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains).
+Zusätzlich zu den oben genannten Domains nutzt die Adobe Experience Cloud mehrere Domains für die Datenerfassung und den Export von Berichten. Siehe [Von der Adobe Experience Cloud verwendete Domains](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) für diese Liste.
 
 >[!MORELIKETHIS]
 >
 >[Von Adobe Analytics verwendete IP-Adressen](ip-addresses.md)
 >
->[Von der Adobe Experience Cloud verwendete Domänen](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Von der Adobe Experience Cloud verwendete Domains](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

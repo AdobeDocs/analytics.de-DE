@@ -25,11 +25,11 @@ Die Besuchermetriken sind:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Segmentpopulation insgesamt</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Gesamte Segmentpopulation</a> </p> </td> 
    <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Segmentpopulation in Echtzeit</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Echtzeit-Segmentpopulation</a> </p> </td> 
    <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren und Ihre Eigenschaften erreicht haben. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ Die Besuchermetriken sind:
  </tbody> 
 </table>
 
-Die Segmentpopulation in Adobe Audience Manager in Echtzeit und Analytics-Besucher mit Experience Cloud-ID, die in Audience Analytics-Berichten verwendet werden, sind am ähnlichsten. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
+Adobe Audience Manager Real-time Segment Population und Analytics Visitors with Experience Cloud ID used within Audience Analytics reporting will be the most similar. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Faktor </th> 
-   <th colname="col2" class="entry"> Adobe Audience Manager: Segmentpopulation in Echtzeit </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager: Echtzeit-Segmentpopulation </th> 
    <th colname="col3" class="entry"> Analytics: Besucher mit Experience Cloud ID </th> 
   </tr>
  </thead>

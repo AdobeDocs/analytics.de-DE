@@ -141,4 +141,4 @@ Der Bericht zu kostenlosen Keywords zeigt die Leistung der einzelnen Suchbegriff
 
 ## Kostenanalyse
 
-Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account-Team.
+Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe-Account-Team.

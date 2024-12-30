@@ -16,14 +16,14 @@ Echtzeitberichte zeigen, was gerade auf Ihrer Site geschieht. Diese Berichtstype
 
 ![Echtzeitbericht](/help/technotes/ga-to-aa/assets/realtime.png)
 
-Echtzeitberichte sind eine der wenigen Funktionen, die noch nicht in Analysis Workspace eingeführt wurden. Verwenden Sie Berichte , um diese Daten abzurufen. Sie erfordern eine einfache Konfiguration, um mit der Datenerfassung zu beginnen.
+Echtzeitberichte sind eine der wenigen Funktionen, die noch nicht in Analysis Workspace eingeführt wurden. Diese Daten können mithilfe von Berichten abgerufen werden. Sie erfordern eine einfache Konfiguration, um mit der Datenerfassung zu beginnen.
 
 So rufen Sie die Seite zur Konfiguration von Echtzeitberichten auf (Administratorberechtigungen erforderlich):
 
-1. Klicken Sie in der oberen Navigationsleiste von Adobe Analytics auf **[!UICONTROL Workspace]** .
-1. Wählen Sie in der linken Navigationsleiste **[!UICONTROL Berichte]** aus.
-1. Wählen Sie **[!UICONTROL Erweiterung]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Echtzeit]** aus. Sie können auch ![Suchen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) nach Echtzeit suchen.
-1. Wenn Echtzeit in der Report Suite noch nicht aktiviert ist, wird eine Meldung mit einem Link zur Konfiguration der Report Suite angezeigt.
+1. Klicken Sie in der ]**Navigationsleiste oben in Adobe Analytics auf**[!UICONTROL  Workspace.
+1. Wählen **[!UICONTROL Berichte]** über die linke Navigationsleiste aus.
+1. Wählen Sie **[!UICONTROL Interaktion]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Echtzeit]** aus. Sie können auch ![Suchen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) nach Echtzeit suchen.
+1. Wenn für die Report Suite die Echtzeit-Funktion noch nicht aktiviert ist, wird eine Meldung mit einem Link zur Konfiguration der Report Suite angezeigt.
 
 Adobe ermöglicht bis zu drei Echtzeitberichte, die Daten gleichzeitig erfassen. Jede muss konfiguriert werden, bevor sie mit der Datenerfassung in Echtzeit beginnen.
 

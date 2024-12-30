@@ -26,12 +26,12 @@ Viele Anwendungsfälle für VISTA-Regeln werden bereits von [Verarbeitungsregeln
 
 >[!IMPORTANT]
 >
->VISTA-Regeln erfordern eine entgeltliche Vereinbarung zwischen Ihrem Unternehmen und Adobe Professional Services. Wenden Sie sich an Ihr Adobe-Account-Team, wenn Sie eine VISTA-Regel erstellen oder aktualisieren möchten.
+>VISTA-Regeln erfordern eine entgeltliche Vereinbarung zwischen Ihrem Unternehmen und Adobe Professional Services. Wenden Sie sich an Ihr Adobe-Konto-Team, wenn Sie eine VISTA-Regel erstellen oder aktualisieren möchten.
 
 ## Erstellen einer VISTA-Regel {#create}
 
-Sie müssen mit Adobe Professional Services zusammenarbeiten, um eine VISTA-Regel zu erstellen. Wenden Sie sich an Ihr Adobe-Account-Team, wenn Sie eine VISTA-Regel erstellen möchten.
+Sie müssen mit Adobe Professional Services zusammenarbeiten, um eine VISTA-Regel zu erstellen. Wenden Sie sich an Ihr Adobe-Konto-Team, wenn Sie eine VISTA-Regel erstellen möchten.
 
 ## Anzeigen vorhandener VISTA-Regeln. {#see}
 
-Adobe bietet keine Benutzeroberfläche zum Anzeigen vorhandener VISTA-Regeln. Wenden Sie sich an Ihr Adobe-Account-Team oder an die Kundenunterstützung mit der gewünschten Report Suite, um eine Liste der vorhandenen VISTA-Regeln abzurufen.
+Adobe bietet keine Benutzeroberfläche zum Anzeigen vorhandener VISTA-Regeln. Wenden Sie sich mit der gewünschten Report Suite an Ihr Adobe-Konto-Team oder die Kundenunterstützung, um eine Liste der bestehenden VISTA-Regeln abzurufen.

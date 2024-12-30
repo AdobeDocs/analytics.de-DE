@@ -6,7 +6,7 @@ exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ So erstellen Sie einen Kantengraphen für Unique Visitors:
 
 1. Klicken Sie auf das Symbol „Visualisierungen“ auf der linken Seite und ziehen Sie die Linienvisualisierung auf den Arbeitsbereich über der leeren Freiformtabelle.
 2. Klicken Sie links auf das Symbol „Komponenten“ und ziehen Sie dann die Metrik **Unique Visitors** in den kleineren Bereich namens „Metrik hier ablegen“.
-3. Wenn eine andere Granularität gewünscht wird, ziehen Sie den gewünschten Datumsbereich (z. B. **Tag**, **Woche**, **Monat** usw.) oberhalb der vorhandenen Datendimensionskopfzeile.
+3. Wenn Sie eine andere Granularität wünschen, ziehen Sie den gewünschten Datumsbereich (z. B. **Tag**, **Woche**, **Monat** usw.) über die Kopfzeile der vorhandenen Datumsdimension.
 
 Weitere Informationen zur Berechnung von Unique Visitors durch Adobe finden Sie unter [Unique Visitors](/help/components/metrics/unique-visitors.md) im Benutzerhandbuch zu Komponenten.
 

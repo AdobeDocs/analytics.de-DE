@@ -16,7 +16,7 @@ Sowohl Analytics als auch der Audience Manager verwenden Segmente. Jedoch ist e
 
 ## Audience Manager-Segmente {#aam-segments}
 
-Ein Audience Manager-Segment ist eine Besuchergruppe (Benutzer-IDs), die sich für einen Satz definierter Eigenschaften qualifiziert, die durch logische Regeln verbunden werden. Es gibt vier Kriterien, die bestimmen, ob ein Besucher (Benutzer-ID) Teil eines Segments in Audience Manager ist:
+Ein Besuchersegment ist eine Besuchergruppe (Audience Manager-IDs), die für einen Satz definierter Eigenschaften qualifiziert sind, die durch logische Regeln verbunden sind. Es gibt vier Kriterien, die bestimmen, ob ein Besucher (Benutzer-ID) Teil eines Segments in Audience Manager ist:
 
 * Regeln, die für die Segmente selbst und die Eigenschaften, aus denen die einzelnen Segmente bestehen, festgelegt wurden. Diese Regeln legen die Bedingungen fest, die eine Benutzer-ID erfüllen oder vorweisen muss, um sich für ein Segment zu qualifizieren.
 * Algorithmische Modellierung. Unter Umständen qualifizieren sich Benutzer, die sich für ein bestimmtes Segment qualifizieren, basierend auf der algorithmischen Modellierung und Analyse auch für andere Segmente.
@@ -43,6 +43,6 @@ Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. D
 
 * Je nachdem, ob sie die Segmentkriterien zu einem bestimmten Zeitpunkt erfüllen, können Audience Manager-Besucher wie erwähnt Teil eines Segments werden oder daraus ausscheiden.
 
-  Im Gegensatz dazu werden Besucher in Analytics basierend auf dem Datumsbereich für die Berichterstellung zu Segmenten hinzugefügt oder daraus entfernt. Ein Beispiel: Ein einzelner Besucher hat im vergangenen Monat einen Kauf getätigt. In Adobe Audience Manager würde dieser Besucher unabhängig vom Datumsbereich in ein Segment &quot;Käufer&quot;einbezogen. In Analytics wäre der Besucher bei einem auf diesem Monat basierenden Bericht nicht im Segment enthalten. Allerdings wäre der Besucher bei einem auf diesem und dem vergangenen Monat basierenden Bericht im Segment enthalten.
+  Im Gegensatz dazu werden Besucher in Analytics basierend auf dem Datumsbereich für die Berichterstellung zu Segmenten hinzugefügt oder daraus entfernt. Ein Beispiel: Ein einzelner Besucher hat im vergangenen Monat einen Kauf getätigt. In Adobe Audience Manager würde dieser Besucher unabhängig vom Datumsbereich in ein Segment „Käufer“ aufgenommen. In Analytics wäre der Besucher bei einem auf diesem Monat basierenden Bericht nicht im Segment enthalten. Allerdings wäre der Besucher bei einem auf diesem und dem vergangenen Monat basierenden Bericht im Segment enthalten.
 
 Weitere Informationen finden Sie im [Analytics-Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).
