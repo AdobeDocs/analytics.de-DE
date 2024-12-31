@@ -25,18 +25,18 @@ Die `useBeacon`-Variable wird ignoriert, wenn der Besucher einen Browser verwend
 
 ## Verwenden der sendBeacon-API mit der Web SDK-Erweiterung
 
-Das Kontrollkästchen **[!UICONTROL Document will unload]** in einer Aktionskonfiguration bestimmt, ob an Adobe gesendete Daten die sendBeacon-API verwenden.
+Das **[!UICONTROL Dokument wird entladen]** Kontrollkästchen innerhalb einer Aktionskonfiguration bestimmt, ob Daten, die an Adobe gesendet werden, die sendBeacon-API verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel.
-1. Klicken Sie unter [!UICONTROL Aktionen] auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;** , um eine neue Aktion hinzuzufügen.
-1. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf **[!UICONTROL Adobe Experience Platform Web SDK]** und den Aktionstyp [!UICONTROL 5} auf **[!UICONTROL Ereignis senden]**]
-1. Klicken Sie auf das Kontrollkästchen **[!UICONTROL Dokument wird nicht geladen]** auf der rechten Seite.
+1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine neue Aktion hinzuzufügen.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste auf **[!UICONTROL Adobe Experience Platform SDK Web]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Ereignis senden]**
+1. Klicken Sie auf **[!UICONTROL rechten Seite auf das Kontrollkästchen]** Dokument wird entladen“.
 
 Wenn dieses Kontrollkästchen aktiviert ist, werden Daten mithilfe der sendBeacon-API an Adobe gesendet. Es ist standardmäßig deaktiviert.
 
-## Verwenden der sendBeacon-API zur manuellen Implementierung des Web SDK
+## Verwenden der sendBeacon-API für die manuelle Implementierung der Web-SDK
 
 Setzen Sie `documentUnloading` beim Senden eines Ereignisses auf `true`. Wenn nicht festgelegt, ist der Standardwert `false`.
 
@@ -47,13 +47,13 @@ alloy("sendEvent", {
 });
 ```
 
-Weitere Informationen finden Sie unter [Verwenden der sendBeacon-API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) in der Web SDK-Dokumentation.
+Weitere Informationen finden [ in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)SDK-Dokumentation unter „Verwenden der sendBeacon-API“.
 
-## Verwenden von Beacon mit der Adobe Analytics-Erweiterung
+## Verwenden von Beacon mithilfe der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.useBeacon in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.useBeacon im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.useBeacon`-Variable ist ein boolescher Wert, der bestimmt, ob AppMeasurement die `navigator.sendBeacon()`-Methode des Browsers verwendet. Der Standardwert lautet `false`. Setzen Sie diese Variable vor dem Aufruf einer Tracking-Funktion auf `true`, wenn Sie die asynchrone Natur von `navigator.sendBeacon()` nutzen möchten.
 

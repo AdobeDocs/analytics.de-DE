@@ -25,23 +25,23 @@ Der Experience Cloud-Debugger ist eine Erweiterung, die alle auf einer Seite vor
 
 1. Installieren Sie die Erweiterung für [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder Firefox.
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
-3. Klicken Sie in Ihrem Browser auf das Adobe Experience Cloud-Debugger-Symbol.
-4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und dem Adobe Experience Cloud-Besucher-ID-Dienst angezeigt werden.
+3. Klicken Sie in Ihrem Browser auf das Symbol &quot;Adobe Experience Cloud-Debugger“.
+4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und der Besucher-ID-Dienst von Adobe Experience Cloud angezeigt werden.
 
 ## Bereitstellen der Dev-Implementierung für Staging/Produktion.
 
-Nachdem Sie überprüft haben, ob Daten für Sie sichtbar sind, können Sie Ihre Implementierung an die Live-Version Ihrer Site übertragen.
+Nachdem Sie überprüft haben, ob Daten angezeigt werden, können Sie Ihre Implementierung an die Live-Version Ihrer Site pushen.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Publishing]** und suchen Sie die Bibliothek in der Spalte „Entwicklung“.
-1. Klicken Sie in der Bibliothek auf die Dropdownliste und wählen Sie dann **[!UICONTROL Zur Genehmigung übermitteln]** aus. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte &quot;Gesendet&quot;) und wählen Sie **[!UICONTROL Für Staging erstellen]**.
+1. Klicken Sie in der Bibliothek auf die Dropdown-Liste und wählen Sie **[!UICONTROL Zur Genehmigung einreichen]**. Klicken Sie im modalen Fenster auf **[!UICONTROL Senden]**.
+1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek (jetzt in der Spalte „Gesendet„) und wählen Sie **[!UICONTROL Für Staging erstellen]**.
 1. Nach einigen Augenblicken wird das gelbe Licht der Bibliothek grün, was auf eine erfolgreiche Erstellung hinweist.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek und wählen Sie **[!UICONTROL Zur Veröffentlichung genehmigen]** aus.
-1. Klicken Sie erneut auf die Dropdownliste der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt] ) und wählen Sie **[!UICONTROL Erstellen und Publish zur Produktion]** aus.
+1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek und wählen Sie **[!UICONTROL Für Veröffentlichung genehmigen]**.
+1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt] und wählen Sie **[!UICONTROL Erstellen und Publish in Produktion]**.
 1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
-1. Kopieren Sie den Produktions-Installationscode und stellen Sie ihn Ihren Website-Eigentümern zur Verfügung. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
+1. Kopieren Sie den Produktions-Installations-Code und stellen Sie ihn Ihren Website-Inhabern bereit. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 
 ## Überprüfen der Produktionsimplementierung
 
@@ -59,7 +59,7 @@ Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beg
 * Es gibt keine JavaScript-Fehler in der Konsole. Wenden Sie sich an die Website-Inhaber Ihres Unternehmens, um sicherzustellen, dass alle JS-Fehler behoben sind.
 * Der Kopfzeilencode ist ordnungsgemäß implementiert: Stellen Sie sicher, dass sich der Kopfzeilencode innerhalb des `<head>`-Tags befindet und dass die Datei vorhanden ist.
 * AppMeasurement-Bibliothek vorhanden: Navigieren Sie direkt zur JS-Quelle, um sicherzustellen, dass die JS-Datei Code enthält. Ist dies nicht der Fall, stellen Sie sicher, dass jede Umgebung erstellt und die Bibliothek in der entsprechenden Umgebung veröffentlicht wurde.
-* Störende Erweiterungen: Einige Erweiterungen, wie z. B. Anzeigenblocker, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die verhindern könnten, dass Daten an Adobe gesendet werden.
+* Überlagernde Erweiterungen: Einige Erweiterungen, wie z. B. Anzeigenblocker, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die das Senden von Daten an Adobe verhindern.
 
 ## Nächste Schritte
 

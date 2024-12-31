@@ -1,42 +1,43 @@
 ---
 title: ActivityMap.link
-description: Passen Sie an, wie Activity Map den angeklickten Link erfasst.
+description: Anpassen, wie Activity Map den angeklickten Link erfasst.
 feature: Variables
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # ActivityMap.link
 
-Mit der Variable `ActivityMap.link` können Sie die Logik überschreiben, die Activity Map zum Festlegen von Link-Werten verwendet. Diese Variable ist nützlich in Bereichen, in denen Sie mehr Kontrolle haben möchten als von [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md) bereitgestellt wird.
+Mit der Variablen `ActivityMap.link` können Sie die Logik überschreiben, die Activity Map zum Festlegen von Linkwerten verwendet. Diese Variable ist in Bereichen nützlich, in denen Sie mehr Kontrolle haben möchten als [`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md) bietet.
 
 >[!CAUTION]
->Diese Variable überschreibt die Activity Map-Logik vollständig. Wenn Sie hier eine Überschreibungsfunktion einrichten, die falsche Werte zurückgibt, kann dies zu Problemen bei der Datenerfassung mit Activity Map-Dimensionen und der Activity Map-Überlagerung führen.
+>Diese Variable überschreibt die Activity Map-Logik vollständig. Wenn Sie hier eine Überschreibungsfunktion festlegen, die falsche Werte zurückgibt, kann dies zu Problemen bei der Datenerfassung mit Activity Map-Dimensionen und der Activity Map-Überlagerung führen.
 
-## Linkwerte mithilfe des Web SDK überschreiben
+## Überschreiben von Linkwerten mit der Web-SDK
 
-Sie können den Rückruf [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) verwenden, um die Web SDK-Payload zu ändern oder das Senden von Daten abzubrechen.
+Sie können [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) Callback verwenden, um die Web-SDK-Payload zu ändern oder den Versand von Daten abzubrechen.
 
-## Linküberschreibungen mit der Adobe Analytics-Erweiterung
+## Link-Überschreibung mit der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## ActivityMap.link in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## ActivityMap.link im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Weisen Sie dieser Variablen eine Funktion zu, die:
 
-* empfängt das angeklickte HTML-Element und
-* Gibt einen Zeichenfolgenwert zurück. Dieser Zeichenfolgenwert ist der endgültige Wert, der für die Dimension [Activity Map-Link](/help/components/dimensions/activity-map-link.md) verwendet wird.
+* das angeklickte HTML-Element erhält und
+* Gibt einen Zeichenfolgenwert zurück. Dieser Zeichenfolgenwert ist der endgültige Wert, der für die Dimension [Activity Map Link](/help/components/dimensions/activity-map-link.md) verwendet wird.
 
-Wenn der Rückgabewert [falsy](https://developer.mozilla.org/de-DE/docs/Glossary/Falsy) ist, werden alle Activity Map-Kontextdatenvariablen gelöscht und es werden keine Linkdaten verfolgt.
+Wenn der Rückgabewert &quot;[&quot; ](https://developer.mozilla.org/de-DE/docs/Glossary/Falsy), werden alle Activity Map-Kontextdatenvariablen gelöscht und es werden keine Linkdaten verfolgt.
 
 ## Beispiele
 
-Verwenden Sie nur das Titelattribut von `<a>` -Tags. Wenn das Titelattribut nicht vorhanden ist, wird kein Link verfolgt.
+Verwenden Sie nur das Titelattribut aus `<a>` Tags. Wenn das Attribut title nicht vorhanden ist, wird kein Link verfolgt.
 
 ```js
 s.ActivityMap.link = function(clickedElement) {
@@ -48,7 +49,7 @@ s.ActivityMap.link = function(clickedElement) {
 }
 ```
 
-Geben Sie den manuell festgelegten Link-Namen in `s.tl` zurück, falls er vorhanden ist. Andernfalls wird die Link-URL zurückgegeben.
+Gibt den manuell festgelegten Link-Namen in `s.tl` zurück, falls vorhanden. Andernfalls wird die Link-URL zurückgegeben.
 
 ```js
 s.ActivityMap.link = function(ele, linkName) {
@@ -61,7 +62,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Anstatt die standardmäßige Link-Logik vollständig zu ersetzen, können Sie sie bedingt ändern.
+Anstatt die Standardverknüpfungslogik vollständig zu ersetzen, können Sie sie bedingt ändern.
 
 ```html
 <script>
@@ -77,6 +78,6 @@ Anstatt die standardmäßige Link-Logik vollständig zu ersetzen, können Sie si
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. Wenn `linkName` übergeben wird, wurde die Methode von `tl()` aufgerufen. Gibt zurück, was `tl()` als `linkName` übergeben hat.
-2. Wenn von Activity Map aufgerufen wird, wird nie ein `linkName` übergeben. Rufen Sie daher `customFunction()` mit dem Link-Element auf. Sie können jede benutzerdefinierte Funktion verwenden, die Sie als Wert zurückgeben möchten.
-3. Wenn keiner der oben genannten Rückgabewerte auftritt, verwenden Sie den Link-Namen, der normalerweise als Fallback erfasst wird.
+1. Wenn `linkName` übergeben wird, wurde die Methode von `tl()` aufgerufen. Gibt zurück, was als `linkName` übergeben `tl()`.
+2. Beim Aufruf von Activity Map wird ein `linkName` nie übergeben. Rufen Sie daher `customFunction()` mit dem Link-Element auf. Sie können jede benutzerdefinierte Funktion verwenden, die Sie als Wert zurückgeben möchten.
+3. Wenn keiner der oben genannten Werte zurückgibt, verwenden Sie den Link-Namen, der normalerweise als Fallback erfasst wird.

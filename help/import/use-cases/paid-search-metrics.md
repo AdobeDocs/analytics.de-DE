@@ -1,12 +1,12 @@
 ---
 title: Importieren von Paid-Search-Metriken
-description: Schritte zum Konfigurieren von Adobe Analytics zur Verfolgung Ihrer Paid Search-Metriken (z. B. Google AdWords, MSN, Yahoo usw.) unter Verwendung von Datenquellen.
+description: Schritte zum Konfigurieren von Adobe Analytics zum Tracking Ihrer Paid Search-Metriken (z. B. Google AdWords, MSN, Yahoo usw.) mithilfe von Datenquellen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
 source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Der [!UICONTROL Datenquellenaktivierungs-Assistent] wird angezeigt:
 1. Klicken Sie auf **[!UICONTROL Weiter]** und benennen Sie Ihre Datenquelle. Dieser Name erscheint im Datenquellen-Manager.
 1. Akzeptieren Sie die Service-Vereinbarung und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie die drei Standardmetriken aus: [!UICONTROL Impressionen], [!UICONTROL Klicks] und [!UICONTROL Gesamtkosten], und klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Ordnen Sie diese neue Datenquelle den benutzerspezifischen Ereignissen zu, die wir in [Erfolgsereignissen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) erstellt haben.
+1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[ erstellt ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
 
    ![Zuordnen](assets/data-source-mapping.png)
 

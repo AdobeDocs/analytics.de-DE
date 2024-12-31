@@ -1,6 +1,6 @@
 ---
-title: Datenquellen verwalten
-description: Navigieren Sie zur Benutzeroberfläche zum Verwalten von Datenquellen .
+title: Verwalten von Datenquellen
+description: Navigieren Sie in der Benutzeroberfläche zum Verwalten von Datenquellen .
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
@@ -11,55 +11,55 @@ ht-degree: 7%
 
 ---
 
-# Datenquellen verwalten
+# Verwalten von Datenquellen
 
 Verwenden Sie den Datenquellen-Manager, um Datenquellen zu erstellen, zu bearbeiten oder zu deaktivieren. Sie können diese Benutzeroberfläche auch verwenden, um den Status von Dateien zu verfolgen, die zu FTP-Speicherorten für Datenquellen hochgeladen wurden.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Alle Admin]** > **[!UICONTROL Datenquellen]**
+**[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**
 
-Verwenden Sie die Report Suite-Auswahl oben rechts, um zwischen Report Suites in Ihrer Organisation zu wechseln.
+Verwenden Sie den Report Suite-Selektor oben rechts, um zwischen Report Suites in Ihrer Organisation zu wechseln.
 
-Diese Benutzeroberfläche enthält drei Hauptregisterkarten: **[!UICONTROL Verwalten]**, **[!UICONTROL Erstellen]** und **[!UICONTROL Dateiprotokoll]**.
+Diese Benutzeroberfläche verfügt über drei Registerkarten: **[!UICONTROL Verwalten]**, **[!UICONTROL Erstellen]** und **[!UICONTROL Dateiprotokoll]**.
 
 ## Verwalten
 
-Die Registerkarte **[!UICONTROL Verwalten]** verarbeitet alle Datenquellen, die Ihr Unternehmen erstellt hat. Sie können FTP-Informationen anzeigen, Änderungen an Variablen vornehmen, die in Vorlagendateien verwendet werden, oder Datenquellen vollständig deaktivieren.
+Die **[!UICONTROL Verwalten]** verarbeitet alle Datenquellen, die Ihr Unternehmen erstellt hat. Sie können FTP-Informationen anzeigen, Änderungen an Variablen vornehmen, die in Vorlagendateien verwendet werden, oder Datenquellen vollständig deaktivieren.
 
 ![Verwalten](assets/manage.png)
 
-Die oberste Datenquelle ist immer [!UICONTROL Web-Beacon]. Diese Datenquelle wird für die typische Datenerfassung über AppMeasurement verwendet. Sie kann nicht bearbeitet oder deaktiviert werden.
+Die oberste Datenquelle ist immer [!UICONTROL Web Beacon]. Diese Datenquelle verwenden Sie für die typische Datenerfassung durch AppMeasurement. Sie kann nicht bearbeitet oder deaktiviert werden.
 
 Jede Datenquelle verfügt über die folgenden Optionen:
 
-* **[!UICONTROL Verarbeitung neu starten]**: Startet die Verarbeitung der Datenquelle neu, die zuvor aufgrund von Fehlern beendet wurde. Die Verarbeitung wird fortgesetzt, bis der nächste Fehler erkannt wird. Data Sources stoppt die Verarbeitung einer Data Sources-Datei nur, wenn Sie **[!UICONTROL Verarbeitung bei Fehlern stoppen]** auswählen.
-* **[!UICONTROL Verarbeitung abschließen]**: Wird nicht mehr verwendet - diese Schaltfläche wurde nur für [Datenquellen mit vollständiger Verarbeitung](full-processing-eol.md) verwendet.
-* **[!UICONTROL Verarbeitung bei Fehlern stoppen]**: Ein Kontrollkästchen, das den Verarbeitungsserver anweist, bei Auftreten eines Fehlers anzuhalten. Die Verarbeitung der Datenquelle wird erst fortgesetzt, wenn Sie **[!UICONTROL Verarbeitung neu starten]** auswählen. Wenn bei einer Datenquelle ein Dateifehler auftritt, werden Sie über den Fehler benachrichtigt. Adobe verschiebt die Datei mit dem Fehler in den Ordner `files_with_errors` auf dem FTP-Server. Nachdem Sie das Problem behoben haben, senden Sie die Datei erneut zur Verarbeitung.
-* **[!UICONTROL Konfigurieren]**: Ein Link, der Sie durch den Erstellungsassistenten für Datenquellen für diese Datenquelle führt. Mit diesem Assistenten können Sie die Datenquelle umbenennen oder die automatisch beim Herunterladen einer Vorlagendatei eingeschlossenen Variablen neu konfigurieren.
-* **[!UICONTROL FTP-Info]**: Ein Link, über den Sie zum letzten Schritt des Datenquellen-Erstellungsassistenten gelangen, in dem FTP-Anmeldeinformationen angezeigt werden.
+* **[!UICONTROL Verarbeitung neu starten]**: Startet die Verarbeitung von Datenquellen neu, die zuvor aufgrund von Fehlern angehalten wurde. Die Verarbeitung wird fortgesetzt, bis der nächste Fehler erkannt wird. Datenquellen : Hält die Verarbeitung einer Datenquellendatei nur an, wenn Sie die Option **[!UICONTROL Verarbeitung bei Fehlern anhalten]** auswählen.
+* **[!UICONTROL Vollständige Verarbeitung]**: Nicht mehr verwendet - Diese Schaltfläche wurde nur für „Vollständige [&quot; ](full-processing-eol.md).
+* **[!UICONTROL Verarbeitung bei Fehlern anhalten]**: Ein Kontrollkästchen, das den Verarbeitungs-Server anweist, bei einem Fehler anzuhalten. Die Datenquelle nimmt die Verarbeitung erst wieder auf, wenn Sie auf **[!UICONTROL Verarbeitung neu starten]** klicken. Wenn eine Datenquelle auf einen Dateifehler stößt, werden Sie über den Fehler benachrichtigt. Adobe verschiebt die fehlerhafte Datei in einen Ordner namens `files_with_errors` auf dem FTP-Server. Nachdem Sie das Problem behoben haben, senden Sie die Datei erneut zur Verarbeitung.
+* **[!UICONTROL Konfigurieren]**: Ein Link, der Sie durch den Assistenten zur Erstellung von Datenquellen für diese Datenquelle führt. Dieser Assistent ermöglicht es Ihnen, die Datenquelle umzubenennen oder die beim Herunterladen einer Vorlagendatei automatisch eingeschlossenen Variablen neu zu konfigurieren.
+* **[!UICONTROL FTP-]**: Ein Link, der Sie zum letzten Schritt des Assistenten zur Erstellung von Datenquellen führt, in dem FTP-Anmeldeinformationen angezeigt werden.
 
-Sobald eine Datenquelle Daten erhält, wird eine Tabelle mit mehreren Spalten für die hochgeladenen Dateien angezeigt.
+Sobald eine Datenquelle Daten erhält, wird eine Tabelle angezeigt, die mehrere Spalten für die hochgeladenen Dateien enthält.
 
 * **[!UICONTROL Dateien in der Verarbeitungswarteschlange]**: Der Name der Datei.
-* **[!UICONTROL Zeilen]**: Die Gesamtanzahl der Zeilen in der Datei.
-* **[!UICONTROL Fehler]**: Die Anzahl der Zeilen, die Fehler enthielten und nicht erfasst werden konnten.
-* **[!UICONTROL Warnungen]**: Die Anzahl der Zeilen, die Warnungen enthalten.
-* **[!UICONTROL Erhalten]**: Der Zeitstempel, mit dem die Datei in der Zeitzone der Report Suite empfangen wurde.
+* **[!UICONTROL Zeilen]**: Die Gesamtzahl der Zeilen in der Datei.
+* **[!UICONTROL Fehler]**: Die Anzahl der Zeilen, die Fehler enthielten und nicht aufgenommen werden konnten.
+* **[!UICONTROL Warnungen]**: Die Anzahl der Zeilen, die Warnungen enthielten.
+* **[!UICONTROL Received]**: Der Zeitstempel, mit dem die Datei in der Zeitzone der Report Suite empfangen wurde.
 * **[!UICONTROL Status]**: Der Status der Datei (`Success` oder `Failed`).
 
 ## Erstellen
 
-Auf der Registerkarte **[!UICONTROL Erstellen]** erhalten Sie einen Ausgangspunkt für den Erstellungsassistenten für Datenquellen.
+Die **[!UICONTROL Erstellen]** gibt Ihnen einen Ausgangspunkt für den Assistenten zur Erstellung von Datenquellen.
 
 ![Erstellen](assets/create.png)
 
-Die Kategorie und der Typ der Datenquelle waren in früheren Versionen von Adobe Analytics wertvoller. Sie haben jedoch weiterhin nur eingeschränkte Verwendung:
+Die Kategorie und der Typ der Datenquelle waren in früheren Versionen von Adobe Analytics wertvoller. Sie haben jedoch immer noch eine begrenzte Verwendung:
 
 * Der Datenquellentyp wird auf der Registerkarte [Verwalten](#manage) für die Datenquelle selbst und auf der Registerkarte [Dateiprotokoll](#file-log) für jede einzelne Datei angezeigt.
-* Einige Datenquellentypen enthalten beim Herunterladen der Vorlagendatei automatisch Variablen. Sie können jedoch jede verfügbare Dimension oder Metrik einbeziehen, sofern sie dem festgelegten [Dateiformat](file-format.md) entspricht.
+* Einige Datenquellentypen enthalten beim Herunterladen der Vorlagendatei automatisch Variablen. Sie können jedoch jede verfügbare Dimension oder Metrik einbeziehen, solange sie dem etablierten [Dateiformat“ ](file-format.md).
 
-Über diese Gründe hinaus sind alle Datenquellen-Kategorien und -Typen, die Sie auswählen können, effektiv identisch. Wählen Sie die Kategorie und den Typ aus, die Ihren Zweck für die Verwendung von Datenquellen am besten widerspiegeln.
+Abgesehen von diesen Gründen sind alle Datenquellenkategorien und -typen, die Sie auswählen können, effektiv identisch. Wählen Sie die Kategorie und den Typ aus, die bzw. der Ihren Zweck bei der Verwendung von Datenquellen am besten widerspiegelt.
 
-Mit der Einstellung von [Datenquellen mit vollständiger Verarbeitung](full-processing-eol.md) können mehrere Kategorien und Typen nicht ausgewählt werden. Wenn Sie einen Datenquellentyp mit vollständiger Verarbeitung auswählen, ist die Schaltfläche **[!UICONTROL Aktivieren]** grau ausgeblendet.
+Mit der Einstellung [Full Processing Data Sources](full-processing-eol.md) können mehrere Kategorien und Typen nicht mehr ausgewählt werden. Wenn Sie einen Datenquellentyp für die vollständige Verarbeitung auswählen, wird **[!UICONTROL Schaltfläche]** Aktivieren“ ausgegraut.
 
 ## Dateiprotokoll
 
@@ -67,13 +67,13 @@ Die Registerkarte **[!UICONTROL Dateiprotokoll]** bietet eine aggregierte Ansich
 
 ![Dateiprotokoll](assets/file-log.png)
 
-Es steht eine Suchleiste zur Verfügung, die Ihnen beim Suchen nach einer bestimmten Datenquelle hilft. Die Tabelle enthält die folgenden Spalten:
+Es ist eine Suchleiste verfügbar, mit der Sie eine bestimmte Datenquelle finden können. Die Tabelle zeigt die folgenden Spalten:
 
 * **[!UICONTROL Data Source Name]**: Der Name der Datenquelle.
-* **[!UICONTROL Typ]**: Der Typ der Datenquelle.
+* **[!UICONTROL Type]**: Der Typ der Datenquelle.
 * **[!UICONTROL Dateiname]**: Der Name der hochgeladenen Datei.
-* **[!UICONTROL Zeilen]**: Die Gesamtanzahl der Zeilen in der Datei.
-* **[!UICONTROL Fehler]**: Die Anzahl der Zeilen, die Fehler enthalten.
-* **[!UICONTROL Warnungen]**: Wird nicht mehr verwendet. Die Anzahl der Zeilen, die Warnungen enthalten.
-* **[!UICONTROL Erhalten]**: Datum und Uhrzeit des Beginns der Verarbeitung der Datei durch Adobe.
-* **[!UICONTROL Status]**: Der Dateistatus (`Success` oder `Failed`).
+* **[!UICONTROL Zeilen]**: Die Gesamtzahl der Zeilen in der Datei.
+* **[!UICONTROL Fehler]**: Die Anzahl der Zeilen, die Fehler enthielten.
+* **[!UICONTROL Warnungen]**: Wird nicht mehr verwendet. Die Anzahl der Zeilen, die Warnungen enthielten.
+* **[!UICONTROL Received]**: Datum und Uhrzeit des Beginns der Verarbeitung der Datei durch Adobe.
+* **[!UICONTROL Status]**: Der Status der Datei (`Success` oder `Failed`).

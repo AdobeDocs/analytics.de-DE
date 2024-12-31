@@ -19,15 +19,15 @@ Die `timestamp`-Variable legt den Zeitstempel des Treffers für Report Suites mi
 >
 >Verwenden Sie diese Variable nicht, wenn Ihre Report Suite nicht explizit für die Annahme von Treffern mit Zeitstempel konfiguriert ist. AppMeasurement legt die Zeit eines Treffers für Report Suites automatisch fest, die keine Treffer mit Zeitstempel unterstützen. Wenn Sie einen Treffer mit dieser Variablen an eine Report Suite senden, die keine Zeitstempel unterstützt, gehen diese Daten dauerhaft verloren.
 
-## Zeitstempel mit dem Web SDK
+## Zeitstempel bei Verwendung der Web-SDK
 
-Der Zeitstempel ist [für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) unter dem XDM-Feld `xdm.timestamp` zugeordnet. Dieses Feld unterstützt nur die Unix-Zeit.
+Der Zeitstempel ist [für Adobe Analytics) unter ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) XDM-`xdm.timestamp` zugeordnet. Dieses Feld unterstützt nur Unix-Zeit.
 
-## Zeitstempel mit der Adobe Analytics-Erweiterung
+## Zeitstempel bei Verwendung der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.timestamp in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.timestamp im AppMeasurement und benutzerdefinierter Code-Editor der Analytics-Erweiterung
 
 Die `s.timestamp`-Variable ist eine Zeichenfolge, die das Datum und die Uhrzeit des Treffers enthält. Gültige Zeitstempelformate sind [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601) und [Unix-Zeit](https://de.wikipedia.org/wiki/Unixzeit) in Sekunden.
 

@@ -17,15 +17,15 @@ Dynamische Variablen sind ein Kurzkonzept, mit dem Sie Werte von einer Variablen
 
 Dynamische Variablen verwenden standardmäßig das Präfix `D=`. Mit der `dynamicVariablePrefix`-Variablen können Sie die Zeichenfolge zur Identifizierung dynamischer Variablen anpassen. Dabei ist die Groß-/Kleinschreibung zu beachten.
 
-## Dynamisches Variablenpräfix mit dem Web SDK
+## Präfix dynamischer Variablen unter Verwendung der Web-SDK
 
-Das Web SDK verwendet keine dynamische Variablenformatierung. Stattdessen können Sie die Datastream-Zuordnung verwenden, um mehrere Zielfelder mit einem einzigen Source-Feld zu füllen. Weitere Informationen finden Sie unter [Dynamische Variablen mit dem Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) .
+Web SDK verwendet keine dynamische Variablenformatierung. Stattdessen können Sie die Datenstromzuordnung verwenden, um mehrere Zielfelder mit einem einzigen Source-Feld auszufüllen. Weitere Informationen finden [ unter „Dynamische Variablen, die die Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)SDK verwenden“.
 
 Wenn Sie Daten direkt an Adobe Analytics senden, ohne einem Schema zu entsprechen, wird die folgende Variable verwendet:
 
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
-## Dynamisches Variablenpräfix mit der Adobe Analytics-Erweiterung
+## Präfix dynamischer Variablen mit der Adobe Analytics-Erweiterung
 
 „Dynamisches Variablenpräfix“ ist ein Feld unter dem Akkordeon [!UICONTROL Globale Variablen] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -36,7 +36,7 @@ Wenn Sie Daten direkt an Adobe Analytics senden, ohne einem Schema zu entspreche
 
 Dieses Feld enthält standardmäßig `D=`. Sie können den Wert ändern, wenn Sie ein anderes Präfix für dynamische Variablen verwenden möchten. Sie können jeden gewünschten Wert verwenden, sofern er mit der Zeichencodierung auf Ihrer Website übereinstimmt.
 
-## s.dynamicVariablePrefix in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.dynamicVariablePrefix im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.dynamicVariablePrefix`-Variable ist eine Zeichenfolge, die eine beliebige Folge von Zeichen enthalten kann. Wenn diese Variable nicht definiert ist, verwendet AppMeasurement standardmäßig die Zeichenfolge `D=`.
 

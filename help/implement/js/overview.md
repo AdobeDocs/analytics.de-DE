@@ -26,11 +26,11 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>1</td><td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Stellen Sie sicher<b> dass Sie eine Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Laden Sie den erforderlichen JavaScript-Code für AppMeasurement</b> vom Code-Manager herunter. Entpacken Sie die Datei.</td><td><a href="../../admin/admin/code-manager-admin.md">Code-Manager</a></td>
+<td>2</td><td><b>Laden Sie den erforderlichen JavaScript-Code für das AppMeasurement</b> vom Code-Manager herunter. Entpacken Sie die Datei.</td><td><a href="../../admin/admin/code-manager-admin.md">Code-Manager</a></td>
 </tr>
 
 <tr>
@@ -47,7 +47,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>4</td><td><b>Definieren Sie Konfigurationsvariablen innerhalb von <code>AppMeasurement.js</code></b>. Wenn das Analytics-Objekt instanziiert wird, stellen diese Variablen sicher, dass die Datenerfassungseinstellungen korrekt sind.
+<td>4</td><td><b>Definieren von Konfigurationsvariablen in <code>AppMeasurement.js</code></b>. Wenn das Analytics-Objekt instanziiert wird, stellen diese Variablen sicher, dass die Datenerfassungseinstellungen korrekt sind.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Senden Sie die Daten mit der <code>t()</code> -Methode</b> an Adobe, wenn alle Seitenvariablen definiert sind.
+<td>6</td><td><b>Senden der Daten an Adobe mithilfe der <code>t()</code>-Methode</b> wenn alle Seitenvariablen definiert sind.
 
 ```js
 s.t();

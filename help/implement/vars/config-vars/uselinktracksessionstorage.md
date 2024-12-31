@@ -26,15 +26,15 @@ Die Verwendung der Sitzungsspeicherung eines Browsers für Linktracking unterlie
 
 AppMeasurement entfernt die Sitzungsspeicherungs-Linktracking-Daten, nachdem ein Treffer an Adobe gesendet wurde. Die Speicherung wird auch automatisch eingestellt, wenn die Browser-Registerkarte geschlossen wird.
 
-## Verwenden der Linktracking-Sitzungsspeicherung mithilfe des Web SDK
+## Verwenden der Speicherung von Linktracking-Sitzungen mit der Web-SDK
 
-Das Web SDK unterstützt diese Funktion nicht.
+Web SDK unterstützt diese Funktion nicht.
 
-## Verwenden des Linktracking-Sitzungsspeichers mithilfe der Adobe Analytics-Erweiterung
+## Verwenden der Linktracking-Sitzungsspeicherung mit der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.useLinkTrackSessionStorage in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.useLinkTrackSessionStorage auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Variable `s.useLinkTrackSessionStorage` ist ein boolescher Wert, der bestimmt, ob AppMeasurement die Sitzungsspeicherung anstelle des `s_sq`-Cookies für die Linktracking-Daten verwendet. Der Standardwert lautet `false`. Legen Sie diese Variable auf `true` fest, wenn Sie möchten, dass AppMeasurement die Sitzungsspeicherung anstelle des `s_sq`-Cookies für Linktracking und Activity Map verwendet.
 

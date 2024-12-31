@@ -29,9 +29,9 @@ Wenn diese Option aktiviert ist, verwendet AppMeasurement den folgenden Prozess 
    * Wenn nicht auf Adobe-Datenerfassungs-Server zugegriffen werden kann, wird der Treffer Warteschlange auf dem Gerät hinzugefügt.
    * Wenn auf Adobe-Datenerfassungs-Server zugegriffen werden kann, werden der Treffer und die Warteschlange der Treffer gesendet, während das Gerät offline war.
 
-## Offline-Tracking mit dem Web SDK
+## Offline-Tracking mit der Web-SDK
 
-Das Web SDK unterstützt kein Offline-Tracking.
+Web SDK unterstützt kein Offline-Tracking.
 
 ## Offline-Tracking mit der Adobe Analytics-Erweiterung
 

@@ -19,24 +19,24 @@ Adobe erfasst Daten auf Ihrer Website, indem es eine vom Besucher generierte Bil
 >
 >Wenn Sie diesen Wert ändern, sucht AppMeasurement an einer anderen Stelle nach Cookies. Die Zahl der Unique Visitors kann bei der Berichterstellung vorübergehend zu Spitzenwerten führen, da Besucher-Cookies an der neuen Position gesetzt werden.
 
-## Edge-Domäne, die die Web SDK-Erweiterung verwendet
+## Edge-Domain unter Verwendung der Web-SDK-Erweiterung
 
-Das Web-SDK verwendet [!UICONTROL Edge-Domäne], um sowohl den Tracking-Server als auch den sicheren Tracking-Server zu verarbeiten. Sie können den gewünschten Wert für [!UICONTROL Edge-Domäne] beim Konfigurieren der Web SDK-Erweiterung festlegen.
+Die Web-SDK verwendet die [!UICONTROL Edge]Domain, um sowohl den Tracking-Server als auch den sicheren Tracking-Server zu verarbeiten. Sie können den gewünschten Wert für die [!UICONTROL Edge-Domain] beim Konfigurieren der Web-SDK-Erweiterung festlegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
-1. Legen Sie das gewünschte Textfeld für die **[!UICONTROL Edge-Domäne]** fest.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
+1. Legen Sie das gewünschte Textfeld **[!UICONTROL Edge Domain]** fest.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Adobe Experience Platform Web SDK-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de) in der Dokumentation zum Web SDK.
+Weitere Informationen [ Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
 
 >[!TIP]
 >
->Wenn Ihr Unternehmen von einer AppMeasurement- oder Analytics-Erweiterungsimplementierung zum Web SDK wechselt, kann dieses Feld denselben Wert verwenden, der in `trackingServerSecure` (oder `trackingServer`) enthalten ist.
+>Wenn Ihr Unternehmen von einer AppMeasurement- oder Analytics-Erweiterungsimplementierung zum Web SDK wechselt, kann dieses Feld denselben in `trackingServerSecure` (oder `trackingServer`) enthaltenen Wert verwenden.
 
-## Edge-Domäne, die das Web SDK manuell implementiert
+## Edge-Domain - Manuelle Implementierung der Web-SDK
 
-Konfigurieren Sie das SDK mit &quot;[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de)&quot;. Das Feld ist eine Zeichenfolge, die die Domäne bestimmt, an die Daten gesendet werden sollen.
+Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
 
 ```json
 alloy("configure", {
@@ -61,12 +61,12 @@ Die `s.trackingServer`-Variable ist eine Zeichenfolge, die den Ort enthält, an 
 
 ## Überlegungen zur Bestimmung des Werts für `trackingServer`
 
-Sie können die Verwendung von Tracking-Server-Domänen (z. B. `adobedc.net`) oder einen speziellen Prozess durchführen, um einen Tracking-Server einzurichten, der Ihrer Sites-Domäne entspricht (z. B. `data.mydomain.com`), die auch als CNAME-Implementierung bezeichnet wird. Ein Trackingserver, der Ihrer Site-Domäne entspricht, kann abhängig von anderen Aspekten Ihrer Implementierung einige Vorteile bieten. Wenn der Tracking-Server nicht mit der Domäne der aktuellen Seite übereinstimmt, müssen von AppMeasurement festgelegte Cookies als Drittanbieter gesetzt werden. Wenn der Browser keine Drittanbieter-Cookies unterstützt, kann diese Diskrepanz bestimmte Analytics-Funktionen beeinträchtigen:
+Sie können Adobe-Tracking-Server-Domains (z. B. `adobedc.net`) verwenden oder einen speziellen Prozess zum Einrichten eines Tracking-Servers durchführen, der Ihrer Sites-Domain entspricht (z. B. `data.mydomain.com`), auch als CNAME-Implementierung bezeichnet. Ein Tracking-Server, der Ihrer Website-Domain entspricht, kann je nach anderen Aspekten Ihrer Implementierung einige Vorteile bieten. Wenn der Tracking-Server nicht mit der Domain der aktuellen Seite übereinstimmt, müssen von AppMeasurement gesetzte Cookies als Drittanbieter gesetzt werden. Wenn der Browser keine Cookies von Drittanbietern unterstützt, kann diese Nichtübereinstimmung bestimmte Analytics-Funktionen beeinträchtigen:
 
-- Festlegen von Identifikatoren: Wenn Sie den Experience Cloud Identity-Dienst verwenden, hat der Tracking-Server keine Auswirkungen auf das Setzen von Cookies. Wenn Sie jedoch ältere Analytics-IDs (z. B. das Cookie `s_vi` ) verwenden und der Erfassungsserver nicht mit der aktuellen Domäne übereinstimmt, müssen Cookies als Drittanbieter gesetzt werden. Wenn Drittanbieter-Cookies vom Browser blockiert werden, setzt Analytics in diesem Fall eine Erstanbieter-Ausweich-ID (`s_fid`) anstelle des standardmäßigen `s_vi` -Cookies.
-- Das Linktracking funktioniert bei internen Links nicht.
+- Festlegen von Kennungen: Wenn Sie den Experience Cloud Identity Service verwenden, hat der Tracking-Server keine Auswirkungen auf die Cookie-Einstellung. Wenn Sie jedoch ältere Legacy-IDs von Analytics (auch `s_vi`-Cookie genannt) verwenden und der Erfassungsserver nicht mit der aktuellen Domain übereinstimmt, müssen Cookies als Drittanbieter festgelegt werden. Wenn Drittanbieter-Cookies vom Browser blockiert werden, setzt Analytics eine First-Party- Ausweich-ID (`s_fid`) anstelle des standardmäßigen `s_vi`-Cookies.
+- Linktracking funktioniert nicht für interne Links.
 - Activity Map funktioniert nicht für interne Links.
-- Cookie-Prüfung.
+- Cookie-Überprüfung.
 
 ### Erstanbieter-Cookies
 
@@ -78,7 +78,7 @@ Die Person, die die Erstanbieter-Cookie-Implementierung anfänglich konfiguriert
 s.trackingServer = "data.example.com";
 ```
 
-### Tracking-Server von Drittanbietern
+### Trackingserver eines Drittanbieters
 
 >[!TIP]
 >

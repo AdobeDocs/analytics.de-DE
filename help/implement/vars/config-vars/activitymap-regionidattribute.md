@@ -3,24 +3,25 @@ title: ActivityMap.regionIDAttribute
 description: Ändern Sie das Attribut, nach dem Activity Map sucht, um die Region zu bestimmen.
 feature: Variables
 role: Admin, Developer
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
 # ActivityMap.regionIDAttribute
 
-Mit der Variable `ActivityMap.regionIDAttribute` können Sie das Attribut ändern, nach dem Activity Map bei der Bestimmung der Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) sucht. Wenn Ihre Site so strukturiert ist, dass das Attribut `id` für die Activity Map-Region weniger nützlich ist, können Sie diese Variable so einstellen, dass sie sich ein anderes Attribut ansieht.
+Mit der Variablen `ActivityMap.regionIDAttribute` können Sie das Attribut ändern, nach dem Activity Map beim Bestimmen der Dimension [Activity Map-Region](/help/components/dimensions/activity-map-region.md) sucht. Wenn Ihre Site so strukturiert ist, dass das Attribut `id` für den Activity Map-Bereich weniger nützlich ist, können Sie diese Variable so einstellen, dass sie ein anderes Attribut anzeigt.
 
-## Regions-ID-Attribut in der Web SDK-Erweiterung
+## Regionskennungsattribut in der Web SDK-Erweiterung
 
-Wenn **[!UICONTROL Klickdatenerfassung aktivieren]** aktiviert ist, verwenden Sie den Callback-Codeblock **[!UICONTROL Klickeigenschaften filtern]** . In diesem Codeblock können Sie den Wert von `content.clickedElement` überprüfen und entweder den Wert ändern oder die Erfassung von Linktracking-Daten abbrechen.
+Wenn **[!UICONTROL Click-Datenerfassung aktivieren]** aktiviert ist, verwenden Sie den **[!UICONTROL Filter click properties]** Callback-Code-Block. Innerhalb dieses Code-Blocks können Sie den Wert von `content.clickedElement` überprüfen und entweder den Wert ändern oder die Sammlung von Linktracking-Daten aufgeben.
 
-## Regions-ID-Attribut in der Web SDK JavaScript-Bibliothek
+## Regionskennungsattribut in der Web SDK JavaScript-Bibliothek
 
-Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den Rückruf `filterClickDetails` im Objekt `clickCollection` . In diesem Rückruf können Sie den Wert von `clickedElement` überprüfen und die Logik der erfassten Region anpassen.
+Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `clickedElement` überprüfen und die Logik der erfassten Region anpassen.
 
 ```js
 alloy("configure", {
@@ -35,13 +36,13 @@ alloy("configure", {
 });
 ```
 
-## Regions-ID-Attribut mithilfe der Adobe Analytics-Erweiterung
+## Regionskennungsattribut, das die Adobe Analytics-Erweiterung verwendet
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.ActivityMap.regionIDAttribute mithilfe von AppMeasurement
+## s.ActivityMap.regionIDAttribute mit AppMeasurement
 
-Die Variable `s.ActivityMap.regionIDAttribute` ist eine Zeichenfolge, die das Attribut darstellt, mit dem die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) bestimmt wird. Diese Variable ist standardmäßig auf `id` gesetzt. Wenn Sie diese Variable ändern, sucht Activity Map nicht mehr nach dem Attribut `id` , sondern sucht weiterhin nach anderen Kriterien, um die Region zu bestimmen (z. B. semantische Elemente).
+Die `s.ActivityMap.regionIDAttribute`-Variable ist eine Zeichenfolge, die das -Attribut darstellt, um die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) zu bestimmen. Diese Variable ist standardmäßig auf `id` festgelegt. Wenn Sie diese Variable ändern, sucht Activity Map nicht mehr nach dem `id`, sondern nach anderen Kriterien zur Bestimmung der Region (z. B. nach semantischen Elementen).
 
 ```html
 <script>

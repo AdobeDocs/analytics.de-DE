@@ -1,5 +1,5 @@
 ---
-description: Details zur Analysis Workspace-Vorlage und Berichterstellung in Report Builder.
+description: Details zur Analysis Workspace-Vorlage und zum Reporting im Report Builder.
 title: Berichte zu Werbedaten in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
@@ -12,19 +12,19 @@ ht-degree: 49%
 
 # Bericht zu Werbedaten
 
-Dieser Artikel enthält Details zum Analysis Workspace-Bericht und zur Berichterstellung in Report Builder.
+Dieser Artikel enthält Details zum Analysis Workspace-Bericht und zum Reporting in Report Builder.
 
 >[!NOTE]
 >
->Es dauert in der Regel mindestens 24 Stunden, bis Suchmaschinendaten in Ihren Analytics-Berichten angezeigt werden. Beachten Sie auch, dass die Analytics-Berichterstellung keine Daten für die stündliche Granularität zurückgibt, da die Advertising Cloud-Daten keine stündliche Granularität unterstützen.
+>Es sollte mindestens 24 Stunden gewartet werden, bevor Suchmaschinendaten in Ihre Analytics-Berichte eingefügt werden. Beachten Sie, dass Analytics-Berichte keine Daten mit stündlicher Granularität zurückgeben, da die Advertising Cloud-Daten keine stündliche Granularität unterstützen.
 
-## Bericht zur gebührenpflichtigen Suche {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Paid Search-Bericht {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Mit diesem Bericht kann jeder, der die Suchmaschinenintegration implementiert, in Analytics auf Suchmaschinendaten zugreifen. Sie können darauf über **[!UICONTROL Workspace]** > **[!UICONTROL Berichte]** > **[!UICONTROL Akquise]** > **[!UICONTROL Advertising Analytics: Paid Search]** zugreifen
+Dieser Bericht ermöglicht allen Personen, die die Suchmaschinenintegration implementieren, den Zugriff auf Suchmaschinendaten in Analytics. Sie können darauf über **[!UICONTROL Workspace]** > **[!UICONTROL Berichte]** > **[!UICONTROL Akquise]** > **[!UICONTROL Advertising Analytics: Paid Search zugreifen]**
 
 >[!NOTE]
 >
->Der Bericht zur gebührenpflichtigen Suche ist für alle Kunden sichtbar, auch wenn Sie keine Advertising-Konten implementiert haben. Wenn Sie versuchen, den Bericht über gebührenpflichtige Suchvorgänge für ein Unternehmen zu öffnen, das nicht registriert ist, wird eine Fehlermeldung angezeigt, die Ihnen mitteilt, dass Sie kein Suchmaschinenkonto konfiguriert haben. Wählen Sie **[!UICONTROL Jetzt konfigurieren]** aus, wodurch Sie zum Bildschirm [Advertising-Kontoeinrichtung](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) gelangen.
+>Der Paid Search-Bericht ist für alle Kunden sichtbar, auch wenn Sie keine Advertising-Konten implementiert haben. Wenn Sie versuchen, den Paid-Search-Bericht für ein Unternehmen zu öffnen, das nicht bereitgestellt wurde, wird eine Fehlermeldung angezeigt, die besagt, dass Sie kein Suchmaschinenkonto konfiguriert haben. Wählen Sie **[!UICONTROL Jetzt konfigurieren]** aus, um zum Bildschirm [Advertising-Konto-Einrichtung](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) zu gelangen.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -46,4 +46,4 @@ Mit diesem Bericht kann jeder, der die Suchmaschinenintegration implementiert, i
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Sobald Sie ein Advertising Analytics-Konto eingerichtet haben, wird der Advertising Analytics-Bericht verfügbar gemacht.
+Sobald Sie ein Advertising Analytics-Konto eingerichtet haben, wird der Advertising Analytics-Bericht bereitgestellt.

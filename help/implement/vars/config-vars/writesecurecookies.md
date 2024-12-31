@@ -23,9 +23,9 @@ Weitere Informationen zu Analytics-Cookies finden Sie [hier](https://experiencel
 >
 >Wenn Sie die Variable `writeSecureCookies` aktivieren, stellen Sie sicher, dass der gesamte Inhalt auf Ihrer Site sicher über HTTPS bereitgestellt wird. Die Datenerfassung funktioniert nicht ordnungsgemäß, wenn diese Variable aktiviert ist und Sie unsicheren Inhalt auf Ihrer Seite haben.
 
-## Verwenden sicherer Cookies mit dem Web SDK
+## Verwenden sicherer Cookies mit der Web-SDK
 
-Wenn Ihre Site das HTTPS-Protokoll verwendet, wird das Secure-Attribut für alle Cookies festgelegt, die vom Web SDK gesetzt werden.
+Wenn Ihre Site das HTTPS-Protokoll verwendet, wird das Attribut „Secure“ für alle Cookies festgelegt, die von Web SDK gesetzt werden.
 
 ## Schreiben sicherer Cookies mit der Adobe Analytics-Erweiterung
 

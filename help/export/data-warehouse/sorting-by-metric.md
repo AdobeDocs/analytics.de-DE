@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie die Sortierung nach Metrik Data Warehouse-Berichte die Interpretation und den Vergleich mit anderen Analytics-Aufschlüsselungs-Berichtsansichten erleichtert.
+description: Erfahren Sie, wie die Sortierung nach Metrik die Interpretation und den Vergleich von Data Warehouse-Berichten mit anderen Analytics-Aufschlüsselungsansichten erleichtert.
 title: Nach Metrik sortieren
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b

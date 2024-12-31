@@ -15,9 +15,9 @@ ht-degree: 67%
 
 Die `campaign`-Variable dient der Erfassung von Trackingcodes auf Ihrer Website. In früheren Versionen von Adobe Analytics gab es eine Sonderbehandlung, bei der sie als Aufschlüsselung in die meisten Dimensionen verwendet werden konnte. In der aktuellen Version von Adobe Analytics ist sie mit einer eVar identisch.
 
-Diese Variable füllt die Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) . Normalerweise ruft er seinen Wert mithilfe der Methode [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) des Dienstprogramms aus einer Abfragezeichenfolge ab. Ihr Unternehmen legt jedoch genau fest, wie diese Variable festgelegt wird.
+Diese Variable befüllt die Dimension [Trackingcode](/help/components/dimensions/tracking-code.md) . Normalerweise ruft sie den Wert aus einer Abfragezeichenfolge mithilfe der [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md)-Hilfsmethode ab. Ihre Organisation bestimmt jedoch genau, wie diese Variable festgelegt wird.
 
-## Kampagne mit dem Web SDK
+## Campaign mit der Web-SDK
 
 Campaign ist den folgenden Variablen zugeordnet:
 
@@ -32,12 +32,12 @@ Sie können „campaign“ entweder beim Konfigurieren der Analytics-Erweiterung
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Kampagne].
 
 Sie können „campaign“ auf einen Wert oder einen Abfragezeichenfolgenparameter setzen.
 
-## s.campaign in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.campaign im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.campaign`-Variable ist eine Zeichenfolge, die normalerweise einen Trackingcode enthält, der in Marketing-Maßnahmen verwendet wird. Die maximale Länge beträgt 255 Byte. Werte, die länger als 255 Byte sind, werden beim Senden an Adobe automatisch abgeschnitten.
 

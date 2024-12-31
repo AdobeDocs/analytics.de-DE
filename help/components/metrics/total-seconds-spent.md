@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Gesamtbesuchszeit in Sekunden
 
-Die Metrik &quot;Gesamtbesuchszeit in Sekunden&quot;[](overview.md) gibt die aggregierte Anzahl der Sekunden an, die ein Besucher mit einem bestimmten Dimensionselement verbracht hat. Diese Metrik ist nützlich, wenn Sie die für ein bestimmtes Dimensionselement aufgewendete Rohzeit und nicht Durchschnittswerte wie bei anderen Besuchszeit-Metriken wünschen.
+Die Metrik „Total Seconds [&quot; ](overview.md) die aggregierte Anzahl von Sekunden an, die eine Besucherin oder ein Besucher mit einem bestimmten Dimensionselement verbracht hat. Diese Metrik ist nützlich, wenn Sie die für ein bestimmtes Dimensionselement aufgewendete Rohzeit und nicht Durchschnittswerte wie bei anderen Besuchszeit-Metriken wünschen.
 
 In Report Builder heißt diese Metrik „Gesamtbesuchszeit“.
 

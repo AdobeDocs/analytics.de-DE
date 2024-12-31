@@ -13,15 +13,15 @@ ht-degree: 80%
 
 # Definieren Ihrer fünf wichtigsten KPIs
 
-Sie können einfach nicht alles messen, und Ihre Adobe Analytics-Implementierung ist am erfolgreichsten, wenn Sie die Messung der wichtigsten Elemente für das Unternehmen priorisieren. Arbeiten Sie mit Ihren Geschäftsführern zusammen, um die wichtigsten Leistungsindikatoren (KPIs) zu definieren, die für Ihr Unternehmen die größte Wirkung haben. Konzentrieren Sie Ihre Bemühungen dann auf die Metriken und Variablen, die diese KPIs unterstützen.
+Sie können einfach nicht alles messen, und Ihre Adobe Analytics-Implementierung ist am erfolgreichsten, wenn Sie vor allem das messen, was für das Unternehmen am wichtigsten ist. Arbeiten Sie mit Ihren Geschäftsführern zusammen, um die wichtigsten Leistungsindikatoren (KPIs) zu definieren, die für Ihr Unternehmen die größte Wirkung haben. Konzentrieren Sie Ihre Bemühungen dann auf die Metriken und Variablen, die diese KPIs unterstützen.
 
 ## 1. Verstehen Sie Ihre Geschäftsziele
 
-Beginnen Sie damit, dass Sie zunächst einmal Ihre Geschäftsziele verstehen, sodass Sie die 5 KPIs wählen können, die für das Unternehmen am wichtigsten sind. Bei diesen KPIs kann es sich um Kennzahlen wie den Umsatz oder um berechnete Kennzahlen wie den Umsatz pro Besuch handeln. Die Kennzahlen können auch Variablen enthalten. Kopieren Sie KEINE zufälligen KPIs aus anderen Unternehmen oder Branchenstandards - sie passen wahrscheinlich nicht zu Ihren Geschäftszielen.
+Beginnen Sie damit, dass Sie zunächst einmal Ihre Geschäftsziele verstehen, sodass Sie die 5 KPIs wählen können, die für das Unternehmen am wichtigsten sind. Bei diesen KPIs kann es sich um Kennzahlen wie den Umsatz oder um berechnete Kennzahlen wie den Umsatz pro Besuch handeln. Die Kennzahlen können auch Variablen enthalten. Kopieren Sie KEINE zufälligen KPIs von anderen Unternehmen oder aus Branchenstandards - sie passen wahrscheinlich nicht zu IHREN Geschäftszielen.
 
 ## 2. Stellen Sie die entscheidende Frage
 
-Fragen Sie sich Folgendes: Wenn Ihre CEO auf einer Insel festsitzen würde und Sie ihr nur 5 Dinge über den Status des Unternehmen erzählen könnten, was wären diese Dinge? Wenn du ihr sagtest, dass die durchschnittliche Besuchszeit auf einer Seite 1:30 wäre, würde das ihr überhaupt nicht helfen. Wenn Sie ihr jedoch mitteilen, dass Ihr durchschnittlicher Umsatz pro Besuch 2,00 USD betrug und Ihre Seite 2 Millionen Mal besucht wurde, hat sie dadurch wirklich eine Vorstellung vom geschäftlichen Erfolg.
+Fragen Sie sich Folgendes: Wenn Ihre CEO auf einer Insel festsitzen würde und Sie ihr nur 5 Dinge über den Status des Unternehmen erzählen könnten, was wären diese Dinge? Wenn du ihr sagtest, dass die durchschnittliche Besuchszeit auf einer Seite 1:30 wäre, würde ihr das überhaupt nicht helfen. Wenn Sie ihr jedoch mitteilen, dass Ihr durchschnittlicher Umsatz pro Besuch 2,00 USD betrug und Ihre Seite 2 Millionen Mal besucht wurde, hat sie dadurch wirklich eine Vorstellung vom geschäftlichen Erfolg.
 
 ## 3. Behalten Sie im Kopf, was KPIs sind und was sie nicht sind
 

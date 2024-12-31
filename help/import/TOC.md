@@ -6,8 +6,8 @@ breadcrumb-title: Importleitfaden
 user-guide-description: Importieren Sie Daten entweder als Massenimport oder in Echtzeit von externen Quellen nach Adobe Analytics.
 source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

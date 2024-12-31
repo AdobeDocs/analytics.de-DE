@@ -42,7 +42,7 @@ Für den Erhalt des Modulcodes ist ein Benutzer mit Produktadministratorzugriff 
 
 ### Platzieren Sie das Integrationsmodul in Ihrer Implementierung
 
-Für die Implementierung des Integrate-Moduls auf Ihrer Site ist der Zugriff auf die Adobe Experience Platform-Datenerfassung erforderlich. Wenn Sie eine ältere JavaScript-Implementierung verwenden, ist der Zugriff auf den Quellcode der Website Ihres Unternehmens erforderlich.
+Für die Implementierung des Integrate-Moduls auf Ihrer Site ist der Zugriff auf die Datenerfassung von Adobe Experience Platform erforderlich. Wenn Sie eine ältere JavaScript-Implementierung verwenden, ist der Zugriff auf den Quellcode der Website Ihres Unternehmens erforderlich.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die Tag-Eigenschaft, die Sie bearbeiten möchten.

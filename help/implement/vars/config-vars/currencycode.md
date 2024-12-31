@@ -32,7 +32,7 @@ Ein Punkt **muss** als Währungstrennzeichen für alle Währungen bei der Implem
 
 ## Währungs-Code bei Verwendung des Web SDK
 
-Währungscode wird den folgenden Variablen zugeordnet:
+Der Währungs-Code ist den folgenden Variablen zugeordnet:
 
 * [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` oder `data.__adobe.analytics.cc`

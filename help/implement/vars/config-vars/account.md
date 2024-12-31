@@ -1,6 +1,6 @@
 ---
 title: account
-description: (Veraltet) Bestimmen Sie die Report Suite, an die Daten gesendet werden.
+description: (Eingestellt) Bestimmen Sie die Report Suite, an die Daten gesendet werden.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
@@ -19,6 +19,6 @@ ht-degree: 38%
 
 In früheren Versionen von Adobe Analytics hat die `account`-Variable die Report Suite ermittelt, an die Sie Daten senden möchten. Zum Senden von Daten an Adobe Analytics ist eine Report Suite-ID erforderlich.
 
-* Wenn Sie das Web SDK verwenden, befinden sich die Report Suites in den Einstellungen des Adobe Analytics-Dienstes innerhalb des Datastreams, an den das Web SDK Daten sendet.
-* Wenn Sie die Adobe Analytics-Erweiterung verwenden, befinden sich Report Suites beim Konfigurieren der Adobe Analytics-Erweiterung unter dem Akkordeon [!UICONTROL Bibliotheksverwaltung] .
-* Wenn Sie die Funktion [`s_gi()`](../functions/s-gi.md) zum Instanziieren eines Analytics-Tracking-Objekts verwenden, sind die Report Suite-ID(s) bereits als erforderliches Argument in der Funktion vorhanden.
+* Wenn Sie Web SDK verwenden, befinden sich Report Suites in den Adobe Analytics-Diensteinstellungen innerhalb des Datenstroms, an den die Web SDK Daten sendet.
+* Wenn Sie die Adobe Analytics-Erweiterung verwenden, befinden sich die Report Suites beim Konfigurieren [!UICONTROL  Adobe Analytics]Erweiterung im Akkordeon Bibliotheksverwaltung .
+* Wenn Sie die Funktion [`s_gi()`](../functions/s-gi.md) verwenden, um ein Analytics-Tracking-Objekt zu instanziieren, sind die Report Suite-ID(s) bereits als erforderliches Argument in der Funktion vorhanden.

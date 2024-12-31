@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung bei Daten-Feeds
-description: Erfahren Sie mehr über die Gründe, aus denen ein Daten-Feed-Auftrag möglicherweise Daten nicht verarbeiten oder bereitstellen kann. Beheben potenzieller Probleme mit Daten-Feeds.
+description: Erfahren Sie mehr über die Gründe, warum ein Daten-Feed-Vorgang möglicherweise keine Daten verarbeiten oder bereitstellen kann. Lösen Sie potenzielle Probleme mit Daten-Feeds.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7

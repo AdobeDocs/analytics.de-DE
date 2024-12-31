@@ -45,7 +45,7 @@ Der Wert für `eVar1` wird dem Produkt zugewiesen. Alle nachfolgenden Erfolgsere
 
 ### Produktsyntax, die das Web SDK verwendet
 
-Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) verwenden Produktsyntax-Merchandising-Variablen die folgenden XDM-Felder:
+Wenn Sie das [**XDM-Objekt**](/help/implement/aep-edge/xdm-var-mapping.md) verwenden, verwenden Merchandising-Variablen mit Produktsyntax die folgenden XDM-Felder:
 
 * Merchandising-eVars mit Produktsyntax sind unter `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` bis `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250` zugeordnet.
 * Merchandising-Ereignisse mit Produktsyntax sind unter `xdm.productListItems[]._experience.analytics.event1to100.event1.value` bis `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value` zugeordnet. XDM-Felder zur [Ereignis-Serialisierung](events/event-serialization.md) sind unter `xdm.productListItems[]._experience.analytics.event1to100.event1.id` bis `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id` zugeordnet.
@@ -87,7 +87,7 @@ Das folgende Beispiel zeigt ein [Produkt](products.md) unter Verwendung mehrerer
 
 Das obige Beispielobjekt würde wie folgt an Adobe Analytics gesendet werden: `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet eVar Merchandising `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` nach AppMeasurement-Syntax.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet eVar Merchandising `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` folgende AppMeasurement-Syntax.
 
 ## Implementieren mit Syntax der Konversionsvariablen
 
@@ -111,7 +111,7 @@ Der Wert `"Aviary"` für `eVar1` wird dem Produkt `"Canary"` zugewiesen. Alle na
 
 ### Konversionsvariablensyntax, die das Web SDK verwendet
 
-Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) funktioniert die Syntax ähnlich wie die Implementierung anderer [eVars](evar.md) und [Ereignisse](events/events-overview.md). Das XDM-Spiegeln des obigen Beispiels würde wie folgt aussehen:
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) funktioniert die Syntax ähnlich wie die Implementierung anderer [eVars](evar.md) und [Ereignisse](events/events-overview.md). Das XDM-Spiegeln des obigen Beispiels würde wie folgt aussehen:
 
 Festlegen der eVar für denselben oder vorherigen Ereignisaufruf:
 
@@ -142,7 +142,7 @@ Festlegen des Binding-Ereignisses und der Werte für die Produktzeichenfolge:
 ]
 ```
 
-Bei Verwendung des [**data -Objekts**](/help/implement/aep-edge/data-var-mapping.md) würden die Datenobjekte, die das obige Beispiel widerspiegeln, wie folgt aussehen:
+Bei Verwendung von [**Datenobjekt**](/help/implement/aep-edge/data-var-mapping.md) würden die Datenobjekte, die das obige Beispiel spiegeln, wie folgt aussehen:
 
 Festlegen der eVar für denselben oder vorherigen Ereignisaufruf:
 

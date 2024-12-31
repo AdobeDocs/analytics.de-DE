@@ -15,15 +15,15 @@ ht-degree: 80%
 
 Die `s_objectID`-Variable stellt eine eindeutige Kennung für einen Link bereit. Damit werden Berichte in [Activity Map](/help/analyze/activity-map/overview.md) genauer. Wenn Sie Links auf einer Seite haben, die sich häufig ändern, können Sie die `s_objectID`-Variable verwenden, um Activity Map die Position eines eindeutigen Links anzuzeigen, damit die Daten nach Wunsch korrekt gruppiert werden können.
 
-Wenn die Activity Map-Genauigkeit für Ihr Unternehmen von entscheidender Bedeutung ist, empfiehlt Adobe, die Variable `s_objectID` in das `onClick` -Ereignis von Links auf Ihrer Site aufzunehmen.
+Wenn die Activity Map-Genauigkeit für Ihr Unternehmen von entscheidender Bedeutung ist, empfiehlt Adobe, die Variable `s_objectID` im `onClick` von Links auf Ihrer Site einzubeziehen.
 
-## Objekt-ID mit der Adobe Analytics-Erweiterung
+## Objekt-ID bei Verwendung der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s_objectID in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s_objectID im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Die `s_objectID`-Variable ist eine globale Variable, d. h. sie funktioniert unabhängig vom Analytics-Tracking-Objekt (standardmäßig `s`). Beliebige Zeichenfolgen mit einer Länge von bis zu 100 Byte können gültige Werte für diese Variable sein. Wenn diese Variable nicht definiert ist, verwendet Activity Map den Linktext als Kennung für den Link.
+Die `s_objectID`-Variable ist eine globale Variable, d. h. sie funktioniert unabhängig vom Analytics-Tracking-Objekt (standardmäßig `s`). Beliebige Zeichenfolgen mit einer Länge von bis zu 100 Byte können gültige Werte für diese Variable sein. Wenn diese Variable nicht definiert ist, verwendet Activity Map den Link-Text als Kennung für den Link.
 
 Diese Variable wird normalerweise im `onClick`-Ereignis eines HTML-Links gesetzt.
 
@@ -60,4 +60,4 @@ Einige Websites verfügen über Links, die an verschiedenen Stellen auf dieselbe
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-Selbst wenn Links auf dieselbe URL verweisen, kann Activity Map die Variable `s_objectID` verwenden, um sie bei der Berichterstellung korrekt zu unterscheiden.
+Selbst wenn Links auf dieselbe URL verweisen, kann Activity Map die Variable `s_objectID` verwenden, um sie beim Reporting korrekt zu unterscheiden.

@@ -22,7 +22,7 @@ Analytics bietet eine Reihe von Variablen zur Erfassung von Analytics-Daten. Die
 
 ## Variablen und Implementierungsmethoden
 
-Adobe bietet mehrere Möglichkeiten, Adobe Analytics zu implementieren. Jede Seite enthält einen Abschnitt zur Implementierung der Variablen mithilfe des Web SDK, mithilfe der Adobe Analytics-Erweiterung und mithilfe von AppMeasurement für JavaScript.
+Adobe bietet mehrere Möglichkeiten, Adobe Analytics zu implementieren. Jede Seite enthält einen Abschnitt über die Implementierung der Variablen mithilfe der Web-SDK, der Adobe Analytics-Erweiterung und der Verwendung von AppMeasurement für JavaScript.
 
 Hier finden Sie ein Video zum Konfigurieren von Variablen in Adobe Analytics:
 
@@ -32,9 +32,9 @@ Hier finden Sie ein Video zum Konfigurieren von Variablen in Adobe Analytics:
 
 AppMeasurement-Bibliotheken, die von Adobe Analytics veröffentlicht werden, befolgen beim Senden von Daten an Adobe eine bestimmte Reihenfolge. Wenn Sie diese Aufgaben nicht in der richtigen Reihenfolge ausführen, können die Daten unvollständig sein.
 
-1. Wenn Ihre Website eine Datenschicht verwendet, stellen Sie sicher, dass alle entsprechenden Variablen zuerst gefüllt werden. Sie füllen beispielsweise &quot;`adobeDataLayer.page.title`&quot;mit dem Seitentitel. Weitere Informationen finden Sie unter [Datenschicht](../prepare/data-layer.md).
-2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. <br/>Wenn Sie Tags in Adobe Experience Platform verwenden, erfolgt dies durch die Verwendung von Datenelementen dazwischen. Datenelemente werden mit Werten aus der Datenschicht gefüllt. Beispielsweise ruft das Datenelement `Page Title` den Wert aus der Datenschichtvariablen `adobeDataLayer.page.title` ab. <br/>Anschließend können Sie das Datenelement verwenden, um Analytics-Variablen zu füllen. Beispiel: `eVar4` ruft den Wert aus dem Datenelement `Page Title` ab. <br/>Weitere Informationen finden Sie unter [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=de), [Zuordnen von Datenschichtobjekten zu Datenelementen](../launch/layer-to-elements.md) und [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](../launch/elements-to-variable.md)
-3. Rufen Sie schließlich die Tracking-Funktion auf. Die meisten AppMeasurement-Bibliotheken verwenden die `t()`-Methode, doch einige mobile SDKs verwenden `track()`. Wenn die Tracking-Funktion aufgerufen wird, werden alle im Analytics-Objekt definierten unterstützten Variablen in Form einer Bildanforderung an Adobe gesendet.
+1. Wenn Ihre Website eine Datenschicht verwendet, stellen Sie sicher, dass alle entsprechenden Variablen zuerst gefüllt werden. Sie füllen `adobeDataLayer.page.title` beispielsweise mit dem Seitentitel. Weitere Informationen finden Sie unter [Datenschicht](../prepare/data-layer.md).
+2. Verwenden Sie die Datenschicht, um Analytics-Variablen zu füllen. <br/>Wenn Sie Tags in Adobe Experience Platform verwenden, wird diese Aufgabe durch die Verwendung von Datenelementen dazwischen erreicht. Datenelemente werden mit Werten aus der Datenschicht gefüllt. Beispielsweise ruft Datenelement `Page Title` den Wert aus der Datenschichtvariablen-`adobeDataLayer.page.title` ab. <br/>Anschließend können Sie das Datenelement verwenden, um Analytics-Variablen aufzufüllen. Beispielsweise ruft `eVar4` den Wert aus dem Datenelement `Page Title` ab. <br/>Weitere Informationen finden Sie [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=de), [Zuordnen von Datenschichtobjekten zu Datenelementen](../launch/layer-to-elements.md) und [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](../launch/elements-to-variable.md)
+3. Rufen Sie abschließend die Tracking-Funktion auf. Die meisten AppMeasurement-Bibliotheken verwenden die `t()`-Methode, doch einige mobile SDKs verwenden `track()`. Wenn die Tracking-Funktion aufgerufen wird, werden alle im Analytics-Objekt definierten unterstützten Variablen in Form einer Bildanforderung an Adobe gesendet.
 
 ## Unzulässige Zeichen
 

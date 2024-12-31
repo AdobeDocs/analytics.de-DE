@@ -19,15 +19,15 @@ Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie
 
 >[!TIP]
 >
->Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch insofern verbessert, als sie nun fast alle Anwendungsfälle für Props erfüllen.
+>Adobe empfiehlt in den meisten Fällen die Verwendung von [eVars](evar.md). In früheren Versionen von Adobe Analytics hatten Props und eVars Vorteile und Nachteile. Adobe hat eVars jedoch so weit verbessert, dass sie nun fast alle Anwendungsfälle für Props erfüllen.
 
 Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, können Sie diese benutzerspezifischen Dimensionen den unternehmensspezifischen Werten zuordnen. Die Anzahl der verfügbaren Props hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 75 Props verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
 ## Props, die das Web SDK verwenden
 
-Props werden den folgenden Variablen zugeordnet:
+Props sind den folgenden Variablen zugeordnet:
 
-* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einem [separaten Satz von Feldern](#list-props-web-sdk) angegeben.
+* [XDM-](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einem [separaten Satz von Feldern) ](#list-props-web-sdk).
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; oder `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - Listen-Props sind in diesen Feldern enthalten.
 
 ## Props, die die Adobe Analytics-Erweiterung verwenden
@@ -38,7 +38,7 @@ Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Props].
 
 Sie können eine Prop auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.
@@ -65,9 +65,9 @@ Aktivieren Sie Listen-Props in [Traffic-Variablen](/help/admin/admin/c-manage-re
 
 ### Festlegen von Listen-Props mit dem Web SDK {#list-props-web-sdk}
 
-Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) werden Listen-Props `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]` zugeordnet. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden Listen-Props `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]` zugeordnet. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listen-Props dieselben Felder wie Standard-Props und befolgen die AppMeasurement-Syntax.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listen-Props dieselben Felder wie Standard-Props und folgen der AppMeasurement-Syntax.
 
 ### Festlegen von Listen-Props mit der Adobe Analytics-Erweiterung und AppMeasurement
 

@@ -23,14 +23,14 @@ Wenn Sie ein Kaufereignis festlegen, wirkt sich dies auf die folgenden Metriken 
 
 >[!NOTE]
 >
->Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispiel: `s.products="Womens;Socks;5;4.50"` gibt 22,50 USD nicht in den Umsatz ein, sondern 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgeführte Menge ausweist. Zum Beispiel `s.products="Womens;Socks;5;22.50"`.
+>Umsatz wird nicht mit dem Mengenfeld multipliziert. Beispielsweise fließen `s.products="Womens;Socks;5;4.50"` 22,50 USD nicht in den Umsatz ein, sondern 4,50 USD. Stellen Sie sicher, dass Ihre Implementierung den Gesamtumsatz für die aufgelistete Menge weitergibt. Zum Beispiel `s.products="Womens;Socks;5;22.50"`.
 
-## Festlegen des Kaufereignisses mit dem Web SDK
+## Festlegen des Kaufereignisses mit der Web-SDK
 
-Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) verwendet das Kaufereignis die folgenden XDM-Felder:
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwendet das Kaufereignis die folgenden XDM-Felder:
 
 * Bestellungen werden `xdm.commerce.purchases.value` zugeordnet.
-* Einheiten werden der Summe aller `xdm.productListItems[].quantity` -Felder zugeordnet. Weitere Informationen finden Sie unter [`products`](../products.md) .
+* Einheiten werden der Summe aller `xdm.productListItems[].quantity` Felder zugeordnet. Weitere Informationen finden Sie unter [`products`](../products.md) .
 * Der Umsatz wird der Summe aller `xdm.productListItems[].priceTotal`-Felder zugeordnet.
 
 ```json
@@ -45,7 +45,7 @@ Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md
 }
 ```
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet das Kaufereignis `data.__adobe.analytics.events` und folgt dabei der AppMeasurement-Zeichenfolgensyntax.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet das Kaufereignis `data.__adobe.analytics.events`, wobei die AppMeasurement-Zeichenfolgensyntax befolgt wird.
 
 ```json
 {
@@ -65,12 +65,12 @@ Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
-6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und legen Sie in der Dropdownliste [!UICONTROL Ereignisse] den Wert [!UICONTROL Kauf] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und legen Sie für die [!UICONTROL -Liste ]Ereignisse“ [!UICONTROL Kauf] fest.
 
-Andere abhängige Variablen wie `products` und `purchaseID` verfügen nicht über dedizierte Felder in der Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
+Andere abhängige Variablen wie `products` und `purchaseID` verfügen über keine eigenen Felder in der Analytics-Erweiterung in der Datenerfassung von Adobe Experience Platform. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung festlegen
+## Kaufereignis auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung festlegen
 
 Das Kaufereignis ist eine Zeichenfolge, die als Teil der Ereignisvariablen festgelegt wird.
 

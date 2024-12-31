@@ -21,13 +21,13 @@ Numbers Suite bietet eine Reihe von JavaScript-Funktionen. Es enthält die folge
 * **`randomNumber`**: Generieren Sie eine Zufallszahl mit einer bestimmten Anzahl von Ziffern. Dieses Plug-in ist nützlich, wenn Sie Tags von Drittanbietern bereitstellen und eine Cache-Busting-Zufallszahl wünschen.
 * **`twoDecimals`**: Runden Sie eine Zahl auf das nächste Hundertstel. Dieses Plug-in eignet sich für Währungszwecke, sodass Sie eine Zahl auf einen gültigen Währungswert runden können.
 
-## Installieren des Plug-ins mit der Web SDK- oder Web SDK-Erweiterung
+## Installieren des Plug-ins über die Web SDK- oder Web SDK-Erweiterung
 
-Dieses Plug-in wird noch nicht für die Verwendung im Web SDK unterstützt.
+Dieses Plug-in wird noch nicht für die Verwendung in der Web-SDK unterstützt.
 
-## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
+## Installieren des Plug-ins über die Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit Adobe Analytics verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
@@ -43,7 +43,7 @@ Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mi
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
-Wenn Sie die Plug-in-Erweiterung &quot;Common Analytics Plugins&quot;nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
+Wenn Sie die Plug-in-Erweiterung Common Analytics Plugins nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.

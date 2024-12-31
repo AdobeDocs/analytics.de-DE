@@ -29,7 +29,7 @@ Links qualifizieren sich automatisch als Exitlink, wenn sich die Ziel-Domain des
 
 Weitere Informationen finden Sie in der Web-SDK-Dokumentation im Abschnitt [Automatisches Linktracking](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de#automaticLinkTracking).
 
-## Ausgehende Links - Tracking mit der Adobe Analytics-Erweiterung
+## Ausgehende Links - Tracking mithilfe der Adobe Analytics-Erweiterung
 
 Das Feld „Verfolgen“ ist eine kommagetrennte Liste von Filtern (üblicherweise Domains) unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 

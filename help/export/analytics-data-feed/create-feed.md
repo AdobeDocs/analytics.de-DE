@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines Daten-Feeds
-description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen für Adobe bereitgestellt werden sollen.
+description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
@@ -14,9 +14,9 @@ ht-degree: 53%
 
 Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
-* Informationen zum Ziel, an das Rohdatendateien gesendet werden sollen
+* Die Informationen über das Ziel, an das Rohdatendateien gesendet werden sollen
 
-* Die Daten, die Sie in jede Datei aufnehmen möchten
+* Die Daten, die in die einzelnen Dateien aufgenommen werden sollen
 
 >[!NOTE]
 >
@@ -25,67 +25,67 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 ## Erstellen und Konfigurieren eines Daten-Feeds
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-1. Wählen Sie das 9-Quadrat-Symbol oben rechts und dann [!UICONTROL **Analytics**] aus.
+1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf [!UICONTROL **Analytics**].
 1. Navigieren Sie in der oberen Navigationsleiste zu [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
 1. Wählen Sie [!UICONTROL **Hinzufügen**] aus.
 
-   ![Hinzufügen von Daten-Feed](assets/datafeed-add.png)
+   ![Daten-Feed hinzufügen](assets/datafeed-add.png)
 
    Eine Seite wird mit drei Hauptkategorien angezeigt: [!UICONTROL **Feed-Informationen**], [!UICONTROL **Ziel**] und [!UICONTROL **Datenspaltendefinitionen**].
-1. Füllen Sie im Abschnitt [!UICONTROL **Feed-Informationen**] die folgenden Felder aus:
+1. Füllen [!UICONTROL **im Abschnitt „Feed**] Informationen die folgenden Felder aus:
 
    | Feld | Funktion |
    |---------|----------|
    | [!UICONTROL **Name**] | Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein. Er kann bis zu 255 Zeichen enthalten. |
    | [!UICONTROL **Report Suite**] | Die Report Suite, auf der der Daten-Feed basiert. Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, müssen sie unterschiedliche Spaltendefinitionen haben. Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt. |
-   | [!UICONTROL **E-Mail nach Abschluss**] | Die E-Mail-Adresse, die benachrichtigt werden soll, wenn die Verarbeitung eines Feeds abgeschlossen ist. Die E-Mail-Adresse muss korrekt formatiert sein. |
-   | [!UICONTROL **Feed-Intervall**] | Wählen Sie **Täglich** für Aufstockung oder historische Daten aus. Tägliche Feeds enthalten Daten zu einem vollständigen Tageswert, von Mitternacht bis Mitternacht in der Zeitzone der Report Suite. Wählen Sie **Stündlich** aus, um die Daten fortzusetzen (Täglich ist bei Bedarf auch für weitere Feeds verfügbar). Stündliche Feeds enthalten Daten aus einer Stunde. |
+   | [!UICONTROL **E-Mail nach Abschluss**] | Die E-Mail-Adresse, die benachrichtigt werden soll, wenn ein Feed die Verarbeitung abgeschlossen hat. Die E-Mail-Adresse muss korrekt formatiert sein. |
+   | [!UICONTROL **Vorschub-Intervall**] | Wählen Sie **Täglich** für Aufstockung oder historische Daten aus. Tägliche Feeds enthalten Daten eines ganzen Tages von Mitternacht bis Mitternacht in der Zeitzone der Report Suite. Wählen Sie **Stündlich** für weitere Daten aus (Täglich ist auch für weitere Feeds verfügbar, wenn Sie es vorziehen). Stündliche Feeds enthalten Daten für eine einzige Stunde. |
    | [!UICONTROL **Verarbeitung verzögern**] | Warten Sie eine bestimmte Zeit, bevor Sie eine Daten-Feed-Datei verarbeiten. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Ein Feed kann um bis zu 120 Minuten verzögert werden. |
-   | [!UICONTROL **Start- und Enddatum**] | Das Startdatum gibt das Datum an, an dem der Daten-Feed beginnen soll. Um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen, setzen Sie dieses Datum auf ein Datum in der Vergangenheit, an dem Daten erfasst werden. Start- und Enddatum basieren auf der Zeitzone der Report Suite. |
-   | [!UICONTROL **Kontinuierlicher Feed**] | Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
+   | [!UICONTROL **Start- und Enddatum**] | Das Startdatum gibt das Datum an, an dem der Daten-Feed beginnen soll. Um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen, setzen Sie dieses Datum auf ein beliebiges Datum in der Vergangenheit, an dem Daten erfasst werden. Start- und Enddatum basieren auf der Zeitzone der Report Suite. |
+   | [!UICONTROL **Fortlaufender**] | Dieses Kontrollkästchen entfernt das Enddatum, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
 
-1. Wählen Sie im Abschnitt [!UICONTROL **Ziel**] im Dropdown-Menü [!UICONTROL **Typ**] das Ziel aus, an das die Daten gesendet werden sollen.
+1. Wählen Sie im [!UICONTROL **Ziel**] im Dropdown-Menü [!UICONTROL **Typ**] das Ziel aus, an das die Daten gesendet werden sollen.
 
    >[!NOTE]
    >
    >Beachten Sie bei der Konfiguration eines Berichtsziels Folgendes:
    >
-   >* Es wird empfohlen, ein Cloud-Konto für Ihr Berichtsziel zu verwenden. [Ältere FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
-   >* Alle Cloud-Konten, die Sie zuvor konfiguriert haben, stehen für Daten-Feeds zur Verfügung. Sie können Cloud-Konten wie folgt konfigurieren:
+   >* Es wird empfohlen, ein Cloud-Konto für Ihr Berichtsziel zu verwenden. [Ältere FTP- und SFTP](#legacy-destinations)Konten sind verfügbar, werden jedoch nicht empfohlen.
+   >* Alle Cloud-Konten, die Sie zuvor konfiguriert haben, können für Daten-Feeds verwendet werden. Sie können Cloud-Konten wie folgt konfigurieren:
    >
    >   * Beim Konfigurieren von Cloud-Konten für [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
-   >   * Beim [Importieren von Adobe Analytics-Classification-Daten](/help/components/locations/locations-manager.md) (Es können keine Speicherorte verwendet werden, die für den Import von Classification-Daten konfiguriert sind.)
+   >   * Beim [Importieren von Adobe Analytics-Klassifizierungsdaten](/help/components/locations/locations-manager.md) (Alle Speicherorte, die für den Import von Klassifizierungsdaten konfiguriert sind, können nicht verwendet werden.)
    >   
-   >   * Klicken Sie im Standort-Manager unter [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md) auf
+   >   * Über den Standort-Manager unter [Komponenten > Standorte](/help/components/locations/configure-import-accounts.md)
    >
    >* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzende können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
    >
    >* Sie können alle über den Speicherort-Manager erstellten Speicherorte unter [Komponenten > Speicherorte](/help/components/locations/configure-import-accounts.md) bearbeiten.
 
-   ![Dropdown-Menü für das Daten-Feed-Ziel](assets/datafeed-destinations-dropdown.png)
+   ![Dropdown-Menü „Daten-Feed-Ziel“](assets/datafeed-destinations-dropdown.png)
 
-   Verwenden Sie einen der folgenden Zieltypen beim Erstellen eines Daten-Feeds. Erweitern Sie für Konfigurationsanweisungen den Zieltyp. (Zusätzliche [alte Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
+   Verwenden Sie beim Erstellen eines Daten-Feeds einen der folgenden Zieltypen. Erweitern Sie für Konfigurationsanweisungen den Zieltyp . (Zusätzliche [alte Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
 
    +++Amazon S3
 
-   Sie können Feeds direkt an Amazon S3-Behälter senden. Für diesen Zieltyp sind nur Ihr Amazon S3-Konto und der Speicherort (Bucket) erforderlich.
+   Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert nur Ihr Amazon S3-Konto und den Speicherort (Bucket).
 
-   Adobe Analytics verwendet kontoübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer Amazon S3-Instanz hochzuladen.
+   Adobe Analytics verwendet die kontenübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer Amazon S3-Instanz hochzuladen.
 
-   So konfigurieren Sie einen Amazon S3-Behälter als Ziel für einen Daten-Feed:
+   So konfigurieren Sie einen Amazon S3-Bucket als Ziel für einen Daten-Feed:
 
-   1. Beginnen Sie mit der Erstellung eines Daten-Feeds, wie unter [Erstellen und Konfigurieren eines Daten-Feeds](#create-and-configure-a-data-feed) beschrieben.
+   1. Erstellen Sie einen Daten-Feed wie in [Erstellen und Konfigurieren eines Daten-Feeds](#create-and-configure-a-data-feed) beschrieben.
 
-   1. Wählen Sie im Bereich [!UICONTROL **Ziel**] im Dropdown-Menü [!UICONTROL **Typ**] die Option [!UICONTROL **Amazon S3**] aus.
+   1. Wählen Sie [!UICONTROL **Abschnitt**] Ziel“ im Dropdown-Menü [!UICONTROL **Typ**] die Option [!UICONTROL **Amazon S3**] aus.
 
       ![Amazon S3-Ziel](assets/datafeed-destination-amazons3.png)
 
-   1. Wählen Sie [!UICONTROL **Position auswählen**].
+   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
 
-      Die Seite Amazon S3-Exportstandorte wird angezeigt.
+      Die Seite Amazon S3-Exportspeicherorte wird angezeigt.
 
-   1. (Bedingt) Wenn in Adobe Analytics bereits ein Amazon S3-Konto (und ein Speicherort auf diesem Konto) konfiguriert wurde, können Sie es als Ihr Daten-Feed-Ziel verwenden:
+   1. (Bedingt) Wenn in Adobe Analytics bereits ein Amazon S3-Konto (und ein Speicherort in diesem Konto) konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
 
       >[!NOTE]
       >
@@ -101,13 +101,13 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
-      1. Wählen Sie die Position aus dem Dropdownmenü [!UICONTROL **Position auswählen**] aus.
+      1. Wählen Sie den Speicherort aus dem Dropdown [!UICONTROL **Menü**] Speicherort auswählen“ aus.
 
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**].
 
       Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Amazon S3-Speicherort gesendet werden.
 
-   1. (Bedingt) Wenn Sie noch kein Amazon S3-Konto hinzugefügt haben:
+   1. (Bedingt) Wenn Sie zuvor noch kein Amazon S3-Konto hinzugefügt haben:
 
       1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
@@ -120,44 +120,44 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Position hinzufügen**] und geben Sie dann die folgenden Informationen an:
+      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Behälter**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
          | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Amazon S3-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Locations Manager](/help/components/locations/locations-manager.md) verfügbar.
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
 +++
 
    +++Azure RBAC
 
-   Sie können Feeds mithilfe der RBAC-Authentifizierung direkt an einen Azure-Container senden. Für diesen Zieltyp sind eine Anwendungs-ID, eine Mandanten-ID und ein Geheimnis erforderlich.
+   Mithilfe der RBAC-Authentifizierung können Sie Feeds direkt an einen Azure-Container senden. Dieser Zieltyp erfordert eine Anwendungs-ID, eine Mandanten-ID und ein Geheimnis.
 
    So konfigurieren Sie ein Azure RBAC-Konto als Ziel für einen Daten-Feed:
 
-   1. Erstellen Sie, falls noch nicht geschehen, eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann, und gewähren Sie dann Zugriffsberechtigungen für die Zugriffskontrolle (IAM).
+   1. Erstellen Sie, falls noch nicht geschehen, eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann, und gewähren Sie dann Zugriffsberechtigungen in der Zugriffssteuerung (IAM).
 
-      Informationen zum Erstellen einer Azure Active Directory-Anwendung finden Sie in der Dokumentation zu [Microsoft Azure](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) .
+      Weitere Informationen zum Erstellen einer Azure Active Directory-Anwendung finden Sie in der [Microsoft Azure-Dokumentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Wählen Sie in der Adobe Analytics Admin Console im Abschnitt [!UICONTROL **Ziel**] im Dropdown-Menü [!UICONTROL **Typ**] die Option [!UICONTROL **Azure RBAC**].
 
       ![Azure RBAC-Ziel](assets/datafeed-destination-azurerbac.png)
 
-   1. Wählen Sie [!UICONTROL **Position auswählen**].
+   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
 
-      Die Seite &quot;Azure RBAC Export Locations&quot;wird angezeigt.
+      Die Seite Azure RBAC-Exportspeicherorte wird angezeigt.
 
-   1. (Bedingt) Wenn in Adobe Analytics bereits ein Azure RBAC-Konto (und ein Speicherort auf diesem Konto) konfiguriert wurde, können Sie es als Ihr Daten-Feed-Ziel verwenden:
+   1. (Bedingt) Wenn in Adobe Analytics bereits ein Azure RBAC-Konto (und ein Speicherort in diesem Konto) konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
 
       >[!NOTE]
       >
@@ -173,19 +173,19 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
       * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
-      1. Wählen Sie die Position aus dem Dropdownmenü [!UICONTROL **Position auswählen**] aus.
+      1. Wählen Sie den Speicherort aus dem Dropdown [!UICONTROL **Menü**] Speicherort auswählen“ aus.
 
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Azure RBAC-Speicherort gesendet werden.
 
-   1. (Bedingt) Wenn Sie noch kein Azure RBAC-Konto hinzugefügt haben:
+   1. (Bedingt) Wenn Sie zuvor noch kein Azure RBAC-Konto hinzugefügt haben:
 
       1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Ein Name für das Azure RBAC-Konto. Dieser Name wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Kontoname**] | Ein Name für das Azure RBAC-Konto. Dieser Name wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure RBAC-Konto. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
          | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
@@ -193,45 +193,45 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Position hinzufügen**] und geben Sie dann die folgenden Informationen an:
+      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im Dropdown-Feld [!UICONTROL **Position auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Position auswählen**] angezeigt und kann ein beliebiger Name sein. |
+         | [!UICONTROL **Name**] | Ein Name für den Speicherort. Dieser Name wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
+         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Speicherort. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
          | [!UICONTROL **Konto**] | Das Azure-Speicherkonto. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie Berechtigungen zum Hochladen von Dateien in die Azure-Anwendung erteilen, die Sie zuvor erstellt haben. |
          | [!UICONTROL **Präfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass die Anwendungs-ID, die Sie beim Konfigurieren des Azure RBAC-Kontos angegeben haben, der Rolle `Storage Blob Data Contributor` zugeteilt wurde, damit der Zugriff auf den Container (Ordner) möglich ist.</p> <p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p> |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Azure RBAC-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Locations Manager](/help/components/locations/locations-manager.md) verfügbar.
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
 +++
 
    +++Azure SAS
 
-   Sie können Feeds über die SAS-Authentifizierung direkt an einen Azure-Container senden. Für diesen Zieltyp sind eine Anwendungs-ID, eine Mandantenkennung, ein URI für den Schlüssel-Vault, ein geheimer Name für den Schlüssel-Vault und ein Geheimnis erforderlich.
+   Mithilfe der SAS-Authentifizierung können Sie Feeds direkt an einen Azure-Container senden. Dieser Zieltyp erfordert eine Anwendungs-ID, eine Mandanten-ID, einen Schlüsseltresor-URI, einen Schlüsseltresor-Geheimnisnamen und ein Geheimnis.
 
    So konfigurieren Sie Azure SAS als Ziel für einen Daten-Feed:
 
-   1. Erstellen Sie, falls noch nicht geschehen, eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann.
+   1. Wenn Sie dies noch nicht getan haben, erstellen Sie ein Azure-Programm, das Adobe Analytics für die Authentifizierung verwenden kann.
 
-      Informationen zum Erstellen einer Azure Active Directory-Anwendung finden Sie in der Dokumentation zu [Microsoft Azure](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) .
+      Weitere Informationen zum Erstellen einer Azure Active Directory-Anwendung finden Sie in der [Microsoft Azure-Dokumentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
-   1. Wählen Sie in der Adobe Analytics Admin Console im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Azure SAS**].
+   1. Wählen Sie in der Adobe Analytics Admin Console im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Azure SAS**] aus.
 
       ![Azure SAS-Ziel](assets/datafeed-destination-azuresas.png)
 
-   1. Wählen Sie [!UICONTROL **Position auswählen**].
+   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
 
-      Die Seite &quot;Azure SAS Export Locations&quot;wird angezeigt.
+      Die Seite Azure SAS-Exportspeicherorte wird angezeigt.
 
-   1. (Bedingt) Wenn in Adobe Analytics bereits ein Azure SAS-Konto (und ein Speicherort auf diesem Konto) konfiguriert wurde, können Sie es als Ihr Daten-Feed-Ziel verwenden:
+   1. (Bedingt) Wenn in Adobe Analytics bereits ein Azure SAS-Konto (und ein Speicherort in diesem Konto) konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
 
       >[!NOTE]
       >
@@ -247,64 +247,64 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
-      1. Wählen Sie die Position aus dem Dropdownmenü [!UICONTROL **Position auswählen**] aus.
+      1. Wählen Sie den Speicherort aus dem Dropdown [!UICONTROL **Menü**] Speicherort auswählen“ aus.
 
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Azure SAS-Speicherort gesendet werden.
 
-   1. (Bedingt) Wenn Sie noch kein Azure SAS-Konto hinzugefügt haben:
+   1. (Bedingt) Wenn Sie zuvor noch kein Azure SAS-Konto hinzugefügt haben:
 
       1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Ein Name für das Azure SAS-Konto. Dieser Name wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein, den Sie auswählen. |
+         | [!UICONTROL **Kontoname**] | Ein Name für das Azure SAS-Konto. Dieser Name wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
          | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
          | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-URI im Azure Key Vault. Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.<p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Oder</p><p>Wenn Sie eine Zugriffsrolle direkt ohne Erstellung einer Zugriffsrichtlinie zuweisen möchten, finden Sie in der Dokumentation zu [Microsoft Azure Informationen zum Zuweisen von Azure-Rollen mit Azure Portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal) weitere Informationen. Dadurch wird die Rollenzuweisung für die Anwendungs-ID hinzugefügt, um auf den Schlüssel-Vault-URI zuzugreifen. </p></li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul> |
+         | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-URI in Azure Key Vault. Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.<p>Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Oder</p><p>Wenn Sie eine Zugriffsrolle direkt gewähren möchten, ohne eine Zugriffsrichtlinie zu erstellen, finden Sie weitere Informationen zum Zuweisen von Azure-Rollen mithilfe des Azure-Portals in der [Microsoft Azure-Dokumentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Dadurch wird die Rollenzuweisung für die Anwendungs-ID hinzugefügt, um auf den Schlüsseltresor-URI zuzugreifen. </p></li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul> |
          | [!UICONTROL **Key Vault-Geheimnisname**] | Der Geheimnisname, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf den **Key Vault**-Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Position hinzufügen**] und geben Sie dann die folgenden Informationen an:
+      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Name**] | Ein Name für den Standort. Dieser Name wird im Dropdown-Feld [!UICONTROL **Position auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Ort. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Position auswählen**] angezeigt und kann ein beliebiger Name sein. |
+         | [!UICONTROL **Name**] | Ein Name für den Speicherort. Dieser Name wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
+         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Speicherort. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
          | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
          | [!UICONTROL **Präfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-URI-Speicher, den Sie bei der Konfiguration des Azure SAS-Kontos im Feld „Key Vault-Geheimnisname“ angegeben haben, über die `Write`-Berechtigung verfügt. Dadurch kann der SAS-URI Dateien in Ihrem Azure-Container erstellen. <p>Wenn Sie möchten, dass der SAS-URI auch Dateien überschreibt, stellen Sie sicher, dass der SAS-URI-Speicher die `Delete`-Berechtigung besitzt.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Azure SAS-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Locations Manager](/help/components/locations/locations-manager.md) verfügbar.
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
 +++
 
    +++Google Cloud Platform
 
-   Sie können Feeds direkt an Google Cloud Platform-Buckets (GCP) senden. Für diesen Zieltyp sind nur der Name Ihres GCP-Kontos und der Speicherort (Bucket) erforderlich.
+   Sie können Feeds direkt an Google Cloud Platform (GCP)-Buckets senden. Dieser Zieltyp erfordert nur Ihren GCP-Kontonamen und den Speicherort (Bucket)-Namen.
 
-   Adobe Analytics verwendet kontoübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer GCP-Instanz hochzuladen.
+   Adobe Analytics verwendet die kontenübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer GCP-Instanz hochzuladen.
 
-   So konfigurieren Sie einen GCP-Behälter als Ziel für einen Daten-Feed:
+   So konfigurieren Sie einen GCP-Bucket als Ziel für einen Daten-Feed:
 
-   1. Wählen Sie in der Adobe Analytics Admin Console im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Google Cloud Platform**].
+   1. Wählen Sie in der Adobe Analytics Admin Console im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Google Cloud Platform**] aus.
 
       ![Google Cloud Platform-Ziel](assets/datafeed-destination-gcp.png)
 
-   1. Wählen Sie [!UICONTROL **Position auswählen**].
+   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
 
-      Die Seite GCP-Exportstandorte wird angezeigt.
+      Die Seite GCP-Exportverzeichnisse wird angezeigt.
 
-   1. (Bedingt) Wenn ein Google Cloud Platform-Konto (und ein Speicherort auf diesem Konto) bereits in Adobe Analytics konfiguriert wurde, können Sie es als Ihr Daten-Feed-Ziel verwenden:
+   1. (Bedingt) Wenn in Adobe Analytics bereits ein Google Cloud Platform-Konto (und ein Speicherort in diesem Konto) konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
 
       >[!NOTE]
       >
@@ -320,13 +320,13 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
-      1. Wählen Sie die Position aus dem Dropdownmenü [!UICONTROL **Position auswählen**] aus.
+      1. Wählen Sie den Speicherort aus dem Dropdown [!UICONTROL **Menü**] Speicherort auswählen“ aus.
 
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Google Cloud Platform-Speicherort gesendet werden.
 
-   1. (Bedingt) Wenn Sie noch kein GCP-Konto hinzugefügt haben:
+   1. (Bedingt) Wenn Sie zuvor noch kein GCP-Konto hinzugefügt haben:
 
       1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
@@ -338,57 +338,57 @@ Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Position hinzufügen**] und geben Sie dann die folgenden Informationen an:
+      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
-         | [!UICONTROL **Principal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen diesem Prinzipal Berechtigungen zum Empfangen von Feeds erteilen. |
+         | [!UICONTROL **Prinzipal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen die Berechtigung zum Empfang von Feeds an diesen Prinzipal erteilen. |
          | [!UICONTROL **Name**] | Ein Name für das Konto. |
          | [!UICONTROL **Beschreibung**] | Eine Beschreibung für das Konto. |
-         | [!UICONTROL **Behälter**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Vergewissern Sie sich, dass Sie dem durch Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben: (Informationen zum Gewähren von Berechtigungen finden Sie unter [Prinzipal zu einer Richtlinie auf Bucket-Ebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.)<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>(Empfohlen) `roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn Sie möchten, dass der Prinzipal Zugriff auf Dateien in Ihrem GCP-Konto hat, diese auflistet, aktualisiert und löscht.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Wenn Ihre Organisation [Organisationsrichtlinieneinschränkungen](https://cloud.google.com/storage/docs/org-policy-constraints) verwendet, um nur das Google Cloud Platform-Konto in Ihrer Zulassungsliste zuzulassen, benötigen Sie die folgende Adobe-eigene Organisations-ID für Google Cloud Platform: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Vergewissern Sie sich, dass Sie dem durch Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben: (Informationen zum Gewähren von Berechtigungen finden Sie unter [Prinzipal zu einer Richtlinie auf Bucket-Ebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.)<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>(Empfohlen) `roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn Sie möchten, dass der Prinzipal Zugriff auf das Anzeigen, Auflisten, Aktualisieren und Löschen von Dateien in Ihrem GCP-Konto hat.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Wenn Ihre Organisation [Organisationsrichtlinieneinschränkungen](https://cloud.google.com/storage/docs/org-policy-constraints) verwendet, um nur das Google Cloud Platform-Konto in Ihrer Zulassungsliste zuzulassen, benötigen Sie die folgende Adobe-eigene Organisations-ID für Google Cloud Platform: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Wählen [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**].
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen GCP-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Locations Manager](/help/components/locations/locations-manager.md) verfügbar.
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
 +++
 
-1. Wählen Sie im Abschnitt [!UICONTROL **Datenspaltendefinitionen**] die neueste Vorlage für [!UICONTROL **Alle Adobe Columns**] aus der Dropdown-Liste aus und füllen Sie dann die folgenden Felder aus:
+1. Wählen [!UICONTROL **Abschnitt „Datenspaltendefinitionen**] die neueste Vorlage [!UICONTROL **Alle Adobe Columns**] in der Dropdown-Liste aus und füllen Sie dann die folgenden Felder aus:
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Escapezeichen entfernen**] | Beim Erfassen von Daten können einige Zeichen (z. B. Zeilenumbrüche) Probleme verursachen. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zeichen aus Feed-Dateien entfernt werden sollen. |
-   | [!UICONTROL **Komprimierungsformat**] | Die verwendete Komprimierungsart. **Gzip** gibt Dateien im Format `.tar.gz` aus. **Zip** gibt Dateien im Format `.zip` aus. |
-   | [!UICONTROL **Verpackungstyp**] | Wählen Sie für die meisten Daten-Feeds [!UICONTROL **Mehrere Dateien**] aus. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Blöcke paginiert. (Wenn die Option [!UICONTROL **Mehrere Dateien**] ausgewählt ist und die unkomprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet.) Wenn Sie **Einzeldatei** auswählen, wird die `hit_data.tsv`-Datei in einer einzigen, potenziell riesigen Datei ausgegeben. |
-   | [!UICONTROL **Manifest**] | Bestimmt, ob Adobe eine [Manifestdatei](c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst werden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Entfernen von Escape-Zeichen**] | Beim Erfassen von Daten können einige Zeichen (z. B. Zeilenumbrüche) Probleme verursachen. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zeichen aus Feed-Dateien entfernt werden sollen. |
+   | [!UICONTROL **Komprimierungsformat**] | Der Typ der verwendeten Komprimierung. **Gzip** gibt Dateien im `.tar.gz` Format aus. **Zip** gibt Dateien im `.zip` aus. |
+   | [!UICONTROL **Verpackungsart**] | Wählen Sie [!UICONTROL **Mehrere Dateien**] für die meisten Daten-Feeds aus. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Blöcke unterteilt. (Wenn die Option [!UICONTROL **Mehrere Dateien**] ausgewählt ist und die unkomprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet.) Wenn Sie **Einzeldatei** auswählen, wird die `hit_data.tsv` in einer einzelnen, potenziell umfangreichen Datei ausgegeben. |
+   | [!UICONTROL **Manifest**] | Bestimmt, ob Adobe eine [Manifestdatei) an ](c-df-contents/datafeeds-contents.md#feed-manifest) Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Spaltenvorlagen**] | Bei der Erstellung vieler Daten-Feeds empfiehlt Adobe die Erstellung einer Spaltenvorlage. Bei Auswahl einer Spaltenvorlage werden automatisch die angegebenen Spalten in der Vorlage eingefügt. Adobe stellt standardmäßig auch mehrere Vorlagen bereit. |
-   | [!UICONTROL **Verfügbare Spalten**] | Alle in Adobe Analytics verfügbaren Datenspalten. Klicken Sie auf [!UICONTROL Alle hinzufügen], um alle Spalten in einen Daten-Feed einzubeziehen. |
-   | [!UICONTROL **Einbezogene Spalten**] | Die Spalten, die in einen Daten-Feed aufgenommen werden sollen. Klicken Sie auf [!UICONTROL Alle entfernen], um alle Spalten aus einem Daten-Feed zu entfernen. |
+   | [!UICONTROL **Verfügbare Spalten**] | Alle verfügbaren Datenspalten in Adobe Analytics. Klicken Sie auf [!UICONTROL Alle hinzufügen], um alle Spalten in einen Daten-Feed einzubeziehen. |
+   | [!UICONTROL **Enthaltene Spalten**] | Die in einen Daten-Feed einzuschließenden Spalten. Klicken Sie auf [!UICONTROL Alle entfernen], um alle Spalten aus einem Daten-Feed zu entfernen. |
    | [!UICONTROL **CSV herunterladen**] | Lädt eine CSV-Datei herunter, die alle eingeschlossenen Spalten enthält. |
 
-1. Wählen Sie oben rechts [!UICONTROL **Speichern**] aus.
+1. Klicken [!UICONTROL **oben**] auf „Speichern“.
 
-   Die historische Datenverarbeitung beginnt sofort. Wenn die Verarbeitung der Daten für einen Tag abgeschlossen ist, wird die Datei an das konfigurierte Ziel gesendet.
+   Die Verarbeitung historischer Daten beginnt sofort. Wenn die Datenverarbeitung für einen Tag abgeschlossen ist, wird die Datei an das von Ihnen konfigurierte Ziel gesendet.
 
-   Informationen zum Zugriff auf den Daten-Feed und zum besseren Verständnis seines Inhalts finden Sie unter [Daten-Feed-Inhalte - Übersicht](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
+   Informationen zum Zugriff auf den Daten-Feed und zu einem besseren Verständnis seiner Inhalte finden Sie unter [Daten-Feed-Inhalte - Übersicht](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
 
 ## Veraltete Ziele
 
 >[!IMPORTANT]
 >
->Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen eines der folgenden Ziele beim Erstellen eines Daten-Feeds: Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS. Detaillierte Informationen zu den einzelnen empfohlenen Zielen finden Sie unter [Erstellen und Konfigurieren eines Daten-Feeds](#create-and-configure-a-data-feed) .
+>Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen beim Erstellen eines Daten-Feeds eines der folgenden Ziele: Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS. Detaillierte [ zu den einzelnen empfohlenen Zielen finden Sie unter](#create-and-configure-a-data-feed) Erstellen und Konfigurieren eines Daten-Feeds .
 
 
 Die folgenden Informationen enthalten Konfigurationsinformationen für die einzelnen veralteten Ziele:
 
 ### FTP
 
-Daten-Feed-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
+Daten-Feed-Daten können an einen Adobe- oder vom Kunden gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
 
 Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
 
@@ -413,7 +413,7 @@ Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folg
 
   >[!NOTE]
   >
-  >Für jeden Upload in einen Amazon S3-Bucket fügt [!DNL Analytics] den Bucket-Inhaber zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket über eine Richtlinie verfügt, die dies erfordert. Weitere Informationen finden Sie unter &quot;[Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Datenfeeds?](df-faq.md#BucketOwnerFullControl)&quot;
+  >Bei jedem Upload in einen Amazon S3-Bucket fügt [!DNL Analytics] den Bucket-Inhaber zur BucketOwnerFullControl-ACL hinzu, unabhängig davon, ob der Bucket eine Richtlinie enthält, die dies erfordert. Weitere Informationen finden Sie unter [Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Daten-Feeds?](df-faq.md#BucketOwnerFullControl)&quot;
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 

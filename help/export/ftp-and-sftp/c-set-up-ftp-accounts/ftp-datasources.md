@@ -11,7 +11,7 @@ ht-degree: 96%
 
 ---
 
-# FTP-basierte Data Sources
+# FTP-basierte Datenquellen
 
 Sie können Analytics nutzen, um FTP-basierte Datenquellen zu erstellen und zu verwalten, wodurch die FTP-Dateiübertragung genutzt werden kann, um Offline- oder historische Daten in Experience Cloud zu importieren.
 

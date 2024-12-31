@@ -17,13 +17,13 @@ ht-degree: 89%
 
 Das `getTimeToComplete`-Plug-in verfolgt die Zeit, die ein Benutzer zum Ausführen eines Prozesses auf einer Website benötigt. Die Zeiterfassung beginnt mit dem Aufruf der `start`-Aktion und endet mit dem Aufruf der `stop`-Aktion. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn es auf der Website einen Workflow gibt, der einige Zeit in Anspruch nimmt, und Sie wissen möchten, wie viel Zeit die Besucher benötigen, um ihn abzuschließen. Es ist nicht erforderlich, dieses Plug-in zu verwenden, wenn der Arbeitsablauf auf Ihrer Website eine kurze Zeitspanne (weniger als 3 Sekunden) in Anspruch nimmt, da die Granularität auf die volle Sekunde begrenzt ist.
 
-## Installieren des Plug-ins mit der Web SDK- oder Web SDK-Erweiterung
+## Installieren des Plug-ins über die Web SDK- oder Web SDK-Erweiterung
 
-Dieses Plug-in wird noch nicht für die Verwendung im Web SDK unterstützt.
+Dieses Plug-in wird noch nicht für die Verwendung in der Web-SDK unterstützt.
 
-## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
+## Installieren des Plug-ins über die Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit Adobe Analytics verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
@@ -39,7 +39,7 @@ Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mi
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
-Wenn Sie die Plug-in-Erweiterung &quot;Common Analytics Plugins&quot;nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
+Wenn Sie die Plug-in-Erweiterung Common Analytics Plugins nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.

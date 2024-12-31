@@ -13,8 +13,8 @@ ht-degree: 47%
 
 # Dateneinfüge-API
 
-[Dateneinfüge-API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) und die [Bulk Data Insertion API](../bulk-data-insertion-api/bulk-data-insert.md) sind beide Methoden zum Senden serverseitiger Erfassungsdaten an Adobe Analytics. Aufrufe der Data Insertion-API erfolgen jeweils für ein Ereignis. Die Bulk Data Insertion API akzeptiert CSV-formatierte Dateien mit Ereignisdaten, einem Ereignis pro Zeile.
+[Dateneinfüge-](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)) und [Bulk-Dateneinfüge-](../bulk-data-insertion-api/bulk-data-insert.md)) sind beides Methoden, um Server-seitige Sammlungsdaten an Adobe Analytics zu senden. Aufrufe der Data Insertion-API erfolgen jeweils für ein Ereignis. Die Bulk Data Insertion-API akzeptiert CSV-formatierte Dateien, die Ereignisdaten enthalten, ein Ereignis pro Zeile.
 
-Weitere Informationen finden Sie in der [Entwicklerdokumentation für die Bulk Data Insert API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) .
+Weitere Informationen finden [ in der Entwicklerdokumentation zur Bulk Data Insert](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)API.
 
 Wenn Sie an einer neuen Implementierung der Server-seitigen Sammlung arbeiten, empfehlen wir die Verwendung der Bulk Data Insertion-API.

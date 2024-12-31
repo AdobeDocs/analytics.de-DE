@@ -21,15 +21,15 @@ Mit der `forceOnline()`-Methode können Sie den automatisch erkannten Status von
 
 AppMeasurement erkennt automatisch den Online-Status des Geräts. Mit der `forceOnline()`-Methode können Sie AppMeasurement zwingen, Treffer so zu behandeln, als ob das Gerät online wäre. Diese Methode akzeptiert keine Argumente und gibt keinen Wert zurück. Ihr einziger Zweck besteht darin, den Online-Status in AppMeasurement zu überschreiben.
 
-## Online mithilfe des Web SDK erzwingen
+## Online erzwingen mit der Web-SDK
 
-Das Web SDK unterstützt kein Offline-Tracking.
+Web SDK unterstützt kein Offline-Tracking.
 
-## Online mithilfe der Adobe Analytics-Erweiterung erzwingen
+## Erzwingen von Online mithilfe der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.forceOnline() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.forceOnline() im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Sie können die `s.forceOnline()`-Methode an einer beliebigen Stelle in Ihrer Implementierung aufrufen, nachdem Sie das Analytics-Objekt instanziiert haben.
 

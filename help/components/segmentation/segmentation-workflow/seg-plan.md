@@ -21,7 +21,7 @@ Wenn Sie für die Planung von Segmenten etwas Zeit aufwenden, verbessern Sie die
    * Wofür ist dieses Segment nützlich?
    * Wann sollte dieses Segment benutzt werden?
 
-1. Ermitteln Sie den **Umfang** des Segments. Welcher [Segmentbehälter](/help/components/segmentation/seg-overview.md) stellt den Umfang am besten dar? Benutzen Sie den kleinstmöglichen Container.
+1. Ermitteln Sie den **Umfang** des Segments. Welcher [Segment-Container](/help/components/segmentation/seg-overview.md) stellt den Umfang am besten dar? Benutzen Sie den kleinstmöglichen Container.
 
 1. Entscheiden Sie, welche **Elemente** und welche Werte in die Segmentdefinition aufgenommen werden. Beachten Sie [Variablenpersistenz](/help/components/segmentation/seg-overview.md) in dieser Entscheidung.
 

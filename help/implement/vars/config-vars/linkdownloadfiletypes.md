@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # linkDownloadFileTypes
 
-Wenn [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) oder [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) aktiviert ist und ein Besucher auf einen Link klickt, überprüft AppMeasurement die URL des Links auf Dateityp-Erweiterungen. Wenn die Link-URL einen übereinstimmenden Dateityp enthält, wird automatisch eine Bildanforderung für den Downloadlink gesendet.
+Wenn [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) oder [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) aktiviert ist und ein Besucher auf einen Link klickt, prüft AppMeasurement die URL des Links auf Dateityperweiterungen. Wenn die Link-URL einen übereinstimmenden Dateityp enthält, wird automatisch eine Bildanforderung für einen Download-Link gesendet.
 
 Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen Sie als Download-Links zählen möchten.
 
@@ -26,22 +26,22 @@ Verwenden Sie `linkDownloadFileTypes`, um anzupassen, welche Dateierweiterungen 
 >* Mit der rechten Maustaste klicken und „Ziel speichern unter...“ auswählen
 >* Links, die JavaScript verwenden, wie z. B. `javascript:openLink()`
 >
->Für diese Download-Typen können Sie manuell einen [`link tracking`](../functions/tl-method.md) -Aufruf senden.
+>Für diese Download-Typen können Sie manuell einen [`link tracking`](../functions/tl-method.md)-Aufruf senden.
 
 Wenn ein geklickter Link sowohl den Kriterien für Exitlinks als auch für Downloadlinks entspricht, hat der Downloadlink-Typ Priorität.
 
-## Downloadlink-Qualifizierer mit der Web SDK-Erweiterung
+## Herunterladen des Link-Qualifizierers mithilfe der Web-SDK-Erweiterung
 
-Das Textfeld [!UICONTROL Link-Qualifizierer herunterladen] verwendet Regex, um zu bestimmen, ob ein angeklickter Link als Downloadlink qualifiziert ist.
+Das Textfeld [!UICONTROL Downloadlink]Qualifizierer“ verwendet Regex, um zu bestimmen, ob ein geklickter Link als Download-Link gilt.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
-1. Legen Sie unter [!UICONTROL Datenerfassung] den gewünschten Wert im Textfeld **[!UICONTROL Qualifizierer für Downloadlinks]** fest.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
+1. Legen [!UICONTROL  unter „Datenerfassung] den gewünschten Wert im Textfeld **[!UICONTROL Link-Qualifizierer herunterladen]** fest.
 
-## Downloadlink-Qualifizierer zur manuellen Implementierung des Web SDK
+## Download-Link-Qualifizierer bei der manuellen Implementierung der Web-SDK
 
-[ Konfigurieren Sie das SDK mit [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de#automaticLinkTracking). ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) Das Feld verwendet regex für die angeklickte URL, um zu ermitteln, ob es sich um einen gültigen Downloadlink handelt. Wenn `downloadLinkQualifier` nicht definiert ist, wird der Standardwert auf `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` gesetzt.
+[Konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de) der SDK mithilfe von [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=de#automaticLinkTracking). Das Feld verwendet Regex für die angeklickte URL, um zu ermitteln, ob es sich um einen gültigen Download-Link handelt. Wenn `downloadLinkQualifier` nicht definiert ist, wird der Standardwert auf `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` festgelegt.
 
 ```json
 alloy("configure", {
@@ -58,9 +58,9 @@ Download-Erweiterungen sind eine Liste von Dateierweiterungen, in der Sie bei de
 3. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 4. Erweitern Sie das Akkordeon [!UICONTROL Linktracking], wodurch das Feld **[!UICONTROL Download-Erweiterungen]** angezeigt wird.
 
-Fügen Sie der Liste Dateierweiterungen hinzu, indem Sie Text in das Feld eingeben und auf **[!UICONTROL Hinzufügen]** klicken. Entfernen Sie Dateierweiterungen aus der Liste, indem Sie auf das entsprechende **&#39;X&#39;** -Symbol klicken.
+Fügen Sie der Liste Dateierweiterungen hinzu, indem Sie Text in das Feld eingeben und auf **[!UICONTROL Hinzufügen]** klicken. Entfernen Sie Dateierweiterungen aus der Liste, indem Sie auf das entsprechende **X“**.
 
-## s.linkDownloadFileTypes in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkDownloadFileTypes auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.linkDownloadFileTypes`-Variable ist eine Zeichenfolge aus kommagetrennten Dateierweiterungen. Verwenden Sie keine Leerzeichen.
 

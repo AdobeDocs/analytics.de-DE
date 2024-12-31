@@ -6,8 +6,8 @@ feature: Variables
 role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

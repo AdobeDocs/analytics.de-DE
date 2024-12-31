@@ -1,6 +1,6 @@
 ---
 description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-Anfrage erstellen.
-title: Erstellen eines Berichts für eine Data Warehouse-Anforderung
+title: Erstellen eines Berichts für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
@@ -10,31 +10,31 @@ ht-degree: 42%
 
 ---
 
-# Erstellen eines Berichts für eine Data Warehouse-Anforderung
+# Erstellen eines Berichts für eine Data Warehouse-Anfrage
 
-Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Im Folgenden wird beschrieben, wie Sie einen Bericht für die Anfrage erstellen.
+Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Die folgenden Informationen beschreiben, wie Sie einen Bericht für die Anfrage erstellen.
 
 Informationen zum Erstellen einer Anfrage sowie Links zu anderen wichtigen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-So erstellen Sie einen Bericht für eine Data Warehouse-Anforderung:
+So erstellen Sie einen Bericht für eine Data Warehouse-Anfrage:
 
 1. Falls Sie noch keine Anfrage in Adobe Analytics erstellt haben, tun Sie dies nun durch Auswahl von **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Hinzufügen**].
 
    Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen Sie auf der Seite Neue Data Warehouse-Anforderung die Registerkarte [!UICONTROL **Bericht erstellen**] aus.
+1. Wählen Sie auf der Seite Neue Data Warehouse-Anfrage die Registerkarte [!UICONTROL **Bericht erstellen**] aus.
 
-   ![Registerkarte &quot;Bericht erstellen&quot;](assets/build-report.png)
+   ![Registerkarte Bericht erstellen](assets/build-report.png)
 
 1. Wählen Sie oben links die Report Suite aus, die Sie beim Erstellen Ihres Data Warehouse-Berichts verwenden möchten.
 
    Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Wenn Sie eine Virtual Report Suite auswählen, die inkompatible Segmente enthält, wird ein Fehler angezeigt.
 
-   Eine Liste der unterstützten Funktionen innerhalb eines Segments finden Sie unter [Data Warehouse der Segmentkompatibilität](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Eine Liste der unterstützten Funktionen innerhalb eines Segments finden Sie unter [Data Warehouse-Segmentkompatibilität](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
-1. Ziehen Sie alle Segmente, Metriken und Dimensionen in den Builder. Der erstellte Bericht bestimmt, welche Daten in der Data Warehouse-Anfrage enthalten sind.
+1. Ziehen Sie beliebige Segmente, Metriken und Dimensionen in den Builder. Der von Ihnen erstellte Bericht bestimmt, welche Daten in der Data Warehouse-Anfrage enthalten sind.
 
-1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anforderung auf der Registerkarte [!UICONTROL **Berichtsziel**] fort. Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der Registerkarte [!UICONTROL **Berichtsziel**] fort. Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 <!--
 

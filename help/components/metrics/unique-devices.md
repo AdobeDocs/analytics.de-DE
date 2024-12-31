@@ -12,19 +12,19 @@ ht-degree: 73%
 
 # Eindeutige Geräte
 
-Die Metrik &quot;Eindeutige Geräte&quot;[metrik](overview.md) ist eine [geräteübergreifende Analyse](../cda/overview.md) -Metrik, die die Anzahl eindeutiger nicht identifizierter Geräte und eindeutiger virtueller Geräte zählt. Nicht identifizierte Geräte sind Geräte, die anonyme Treffer erzeugen. Eindeutige virtuelle Geräte sind Einzelpersonen, die pro Gerät identifiziert werden.
+Die Metrik „Eindeutige Geräte[ ](overview.md) ist eine Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der eindeutigen nicht identifizierten Geräte und der eindeutigen virtuellen Geräte zählt. Nicht identifizierte Geräte sind Geräte, die anonyme Treffer erzeugen. Eindeutige virtuelle Geräte sind Einzelpersonen, die pro Gerät identifiziert werden.
 
 ## Berechnung dieser Metrik
 
 Für jedes Gerät werden alle Einzelpersonen, die mit ihm verknüpft sind, zusammengefasst (einschließlich anonymer Personen, wenn das Gerät nicht zuordenbare Treffer enthält).
 
-Beachten Sie, dass diese Metrik anders ist als [Unique Visitors](unique-visitors.md) in Report Suite mit nicht-geräteübergreifender Analyse. Nehmen wir an, ein Gerät wird von drei verschiedenen Konten gemeinsam genutzt. Wenn alle 3 Konten Ihre Site in einem Berichtsfenster besuchen, zeigt der resultierende Bericht 3 eindeutige Geräte in der geräteübergreifenden Analyse an. Dieselben Daten außerhalb der geräteübergreifenden Analyse würden 1 Unique Visitor ergeben.
+Beachten Sie, dass diese Metrik anders ist als [Unique Visitors](unique-visitors.md) in Report Suite mit nicht-geräteübergreifender Analyse. Nehmen wir an, ein Gerät wird von drei verschiedenen Konten gemeinsam genutzt. Wenn alle drei Konten Ihre Site in einem Berichtsfenster besuchen, zeigt der resultierende Bericht in der geräteübergreifenden Analyse drei eindeutige Geräte an. Dieselben Daten außerhalb der geräteübergreifenden Analyse würden 1 Unique Visitor ergeben.
 
 ## Beispiel
 
-1. Sally gelangt über eine Anzeige telefonisch zu Ihrer Site, ist jedoch nicht angemeldet.
+1. Sally kommt telefonisch über eine Anzeige auf Ihre Website, ist aber nicht angemeldet.
 1. Sally möchte einen Kauf tätigen, würde ihn aber lieber auf dem Familien-Computer abschließen, weil sie dort bereits angemeldet ist. Auf dem Familien-Computer tätigt sie den Kauf.
-1. Am nächsten Tag überprüft sie ihre Bestellung auf ihrem Telefon und authentifiziert sich dort.
+1. Am nächsten Tag überprüft sie ihre Bestellung auf ihrem Handy und authentifiziert sich dort.
 1. Bobs Frau Alice surft auf Ihrer Site, während sie in ihrem Konto auf dem Familien-Computer angemeldet ist.
 1. Bobs Bruder Charles surft ebenfalls auf Ihrer Site, während er in seinem Konto auf dem Familien-Computer angemeldet ist.
 

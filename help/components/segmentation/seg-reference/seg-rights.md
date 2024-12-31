@@ -1,5 +1,5 @@
 ---
-description: Vergleichstabelle mit Segmenten zwischen Administratoren und Nicht-Administratoren.
+description: Vergleichsdiagramm mit Segmenten zwischen Administratoren und Nicht-Administratoren.
 title: Segmentberechtigungen nach Rolle
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # Segmentberechtigungen nach Rolle
 
-Die Segmentfunktionalität unterscheidet sich hauptsächlich zwischen Benutzern der Administratorebene und Nicht-Administratoren.
+Die Segmentfunktion unterscheidet sich hauptsächlich zwischen Benutzern auf Admin-Ebene und Benutzern ohne Adminrechte.
 
-| | Admin Users | Benutzer ohne Administratorrechte |
+| | Admin-Benutzer | Nicht-Admins |
 | --- | --- | --- |
-| Anwenden von Segmenten | Eigene Segmente oder freigegebene Segmente. Sie können jedoch jedes beliebige Segment von einem beliebigen Benutzer für sich selbst freigeben, um | Nur eigene Segmente oder freigegebene Segmente |
-| Anzeigen von Segmenten im Segment-Manager | Alle Segmente innerhalb der Organisation | Nur eigene Segmente oder freigegebene Segmente |
-| Segmente verwalten | Kann beliebige Segmente von jedem Benutzer anzeigen, bearbeiten, löschen oder genehmigen | Kann nur eigene Segmente bearbeiten oder löschen. Segmente können nicht genehmigt werden. |
-| Segmente freigeben | Kann für das gesamte Unternehmen, Benutzergruppen oder Einzelanwender freigeben | Können nur für Einzelpersonen freigegeben werden |
+| Anwenden von Segmenten | Eigene Segmente oder freigegebene Segmente. Sie können jedoch jedes Segment von jedem Benutzer für sich freigeben, um es zu verwenden | Nur eigene Segmente oder freigegebene Segmente |
+| Anzeigen von Segmenten im Segment-Manager | Alle Segmente im Unternehmen | Nur eigene Segmente oder freigegebene Segmente |
+| Segmente verwalten | Kann jedes Segment von jedem Benutzer anzeigen, bearbeiten, löschen oder genehmigen | Können nur ihre eigenen Segmente bearbeiten oder löschen. Segmente können nicht genehmigt werden. |
+| Segmente freigeben | Können Inhalte für das gesamte Unternehmen, für Benutzergruppen oder Einzelpersonen freigeben | Können nur für Einzelpersonen freigegeben werden |
 
 {style="table-layout:auto"}

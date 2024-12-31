@@ -15,16 +15,16 @@ ht-degree: 80%
 
 Die `referrer`-Variable überschreibt den automatisch erfassten Referrer in Berichten. Diese Variable ist hilfreich in Situationen, in denen der Referrer verloren gehen könnte, z. B. bei Redirects oder vorübergehender Weiterleitung des Besuchers an einen Zahlungsverarbeiter. Diese Variable hilft beim Ausfüllen der Dimensionen „Referrer“ und „Referrer-Domäne“.
 
-## Referrer mit dem Web SDK
+## Referrer unter Verwendung der Web-SDK
 
-Der Referrer ist den folgenden Variablen zugeordnet:
+Referrer ist den folgenden Variablen zugeordnet:
 
 * [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
-Das Web SDK enthält bei jedem gesendeten Ereignis automatisch `web.webReferrer.URL` , sofern verfügbar.
+Die Web-SDK enthält automatisch `web.webReferrer.URL` zu jedem gesendeten Ereignis, sofern verfügbar.
 
-## Referrer mit der Adobe Analytics-Erweiterung
+## Referrer, der die Adobe Analytics-Erweiterung verwendet
 
 Sie können „referrer“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -32,7 +32,7 @@ Sie können „referrer“ entweder beim Konfigurieren der Analytics-Erweiterung
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Referrer].
 
 Sie können den Referrer auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.

@@ -25,17 +25,17 @@ Wenn Adobe ein Präfix für dynamische Variablen erkennt, kopiert es automatisch
 >
 >Achten Sie beim Kopieren von Variablen auf maximale Zeichenbeschränkungen. Wenn Sie z. B. `eVar1` nach `prop1` kopieren, kann `prop1` einen abgeschnittenen Wert haben, da sie eine 100-Byte-Grenze hat (während `eVar1` eine 255-Byte-Grenze hat).
 
-## Dynamische Variablen mit dem Web SDK
+## Dynamische Variablen, die die Web-SDK verwenden
 
-Verwenden Sie die Datastream-Zuordnung, um Daten von einem einzelnen XDM-Feld an mehrere Analytics-Variablen zu senden.
+Verwenden Sie die Datenstromzuordnung , um Daten von einem einzelnen XDM-Feld an mehrere Analytics-Variablen zu senden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicken Sie in der linken Leiste auf **[!UICONTROL Datastreams]** .
-1. Klicken Sie auf den gewünschten Datastream.
-1. Klicken Sie rechts auf **[!UICONTROL Zuordnung bearbeiten]** .
-1. Ordnen Sie das gewünschte [!UICONTROL Source-Feld] dem gewünschten [!UICONTROL Zielfeld] zu. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
+1. Klicken Sie **[!UICONTROL der linken Leiste auf]** Datenströme“.
+1. Klicken Sie auf den gewünschten Datenstrom.
+1. Klicken **[!UICONTROL rechts auf]** Zuordnung bearbeiten“.
+1. Ordnen Sie das gewünschte [!UICONTROL Source]Feld dem gewünschten [!UICONTROL Target-Feld“ ]. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
 
-## Dynamische Variablen mit der Adobe Analytics-Erweiterung
+## Dynamische Variablen, die die Adobe Analytics-Erweiterung verwenden
 
 Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zeichenfolge akzeptiert. Dimensionselemente werden normalerweise beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festgelegt.
 
@@ -43,12 +43,12 @@ Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zei
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie das gewünschte Dimensionselement.
 
 Platzieren Sie das Präfix der dynamischen Variablen in das Textfeld, gefolgt vom Abfragezeichenfolgenparameter oder dem HTTP-Header, auf den Sie verweisen möchten. Standardmäßig ist das dynamische Variablenpräfix `D=`.
 
-## Dynamische Variablen in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## Dynamische Variablen im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Dynamische Variablen sind Textzeichenfolgen, die anderen Variablen zugewiesen werden. Standardmäßig ist das dynamische Variablenpräfix `D=`. Bei dynamischen Variablen wird zwischen Groß- und Kleinschreibung unterschieden.
 

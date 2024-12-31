@@ -21,15 +21,15 @@ Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die mit dem Segmen
 
 Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment mit Blick auf seinen Einsatzzweck und die konkrete Verwendung entworfen?
 
-Hilfe zur Planung und Organisation Ihrer Segmente finden Sie in der Checkliste für die Segmentplanung .
+Siehe die Checkliste für die Segmentplanung , um Hilfe bei der Planung und Organisation Ihrer Segmente zu erhalten.
 
 ![](assets/step2_icon.png) [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
 Erstellen und bearbeiten Sie Segmente für die Verwendung mit sämtlichen Analytics-Funktionen.
 
-Informationen zum Erstellen von Segmenten mit dem THEN-Operator finden Sie unter [Erstellen sequenzieller Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) .
+Informationen [ Erstellen von Segmenten mit ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) Operator THEN finden Sie unter Erstellen sequenzieller Segmente .
 
-![](assets/step3_icon.png) [Segmente taggen](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+![](assets/step3_icon.png) [Tagging-Segmente](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
 Taggen Sie Segmente, um die Organisation und Freigabe zu erleichtern. Erhalten Sie Informationen zum Planen und Zuweisen von Tags für einfache und erweiterte Suchvorgänge und für die Organisation.
 
@@ -45,7 +45,7 @@ Sie können Segmente direkt in einem Bericht auf der Segmentleiste (Segmente anz
 
 Geben Sie Ihre Segmente für die gewünschte Zielgruppe in anderen Analytics-Werkzeugen und in Adobe Target und der Adobe Experience Cloud frei.
 
-![](assets/step7_icon.png) [Segmente filtern](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+![](assets/step7_icon.png) [Segmente ](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 
 Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
 

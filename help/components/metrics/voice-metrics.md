@@ -12,12 +12,12 @@ ht-degree: 21%
 
 # Sprache – Analysemetriken
 
-Wenn Sie [!UICONTROL Voice and Chatbots] in [[!UICONTROL Anwendungsberichten]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md) aktivieren, werden die folgenden Metriken (und [Dimensionen](../dimensions/voice-dimensions.md)) erstellt. Sie können [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) verwenden, um sie auf den Wert `1` (oder mehr, falls zutreffend) festzulegen. Wenn dies in den Report Suite-Einstellungen aktiviert ist, werden [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) automatisch erstellt, um Sprachanalysemetriken ihrer zugehörigen Kontextdatenvariablen zuzuordnen.
+Wenn Sie [!UICONTROL Sprach- und ]) für [[!UICONTROL Anwendungsberichte]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md) aktivieren, werden die folgenden Metriken (und [Dimensionen](../dimensions/voice-dimensions.md)) erstellt. Sie können [Kontextdatenvariablen“ verwenden](/help/implement/vars/page-vars/contextdata.md) um sie auf einen Wert von `1` (oder ggf. auf mehr) festzulegen. Wenn diese Option in den Report Suite-Einstellungen aktiviert [, ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) automatisch Verarbeitungsregeln erstellt, die Sprachanalysemetriken der zugehörigen Kontextdatenvariablen zuordnen.
 
 | Metrikname | Beschreibung | Kontextdatenvariable |
 | --- | --- | --- |
-| Sprache – Äußerungen | Trigger, wenn einem Sprachassistenten ein Befehl erteilt wird. | `a.voiceutterances` |
-| Sprache – Sitzung beenden | Trigger, wenn die Sprachanwendung geschlossen ist. | `a.voiceendsession` |
-| Sprache – Fehler | Trigger, in denen die Voice App auf einen Fehler stößt. | `a.voiceerror` |
+| Sprache – Äußerungen | Trigger, wenn ein Befehl an einen Sprachassistenten ausgegeben wird. | `a.voiceutterances` |
+| Sprache – Sitzung beenden | Trigger beim Schließen der Sprach-App. | `a.voiceendsession` |
+| Sprache – Fehler | Trigger, wenn in der Sprach-App ein Fehler auftritt. | `a.voiceerror` |
 
 {style="table-layout:auto"}

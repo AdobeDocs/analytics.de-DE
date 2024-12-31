@@ -13,25 +13,25 @@ ht-degree: 39%
 
 # abort
 
-Die Variable `abort` ist ein boolescher Wert, der verhindern kann, dass der nächste Tracking-Aufruf an Adobe gesendet wird. Ähnliche Funktionen gibt es im Web SDK, mit denen Sie `false` zurückgeben können, bevor ein XDM-Ereignis gesendet wird.
+Die Variable `abort` ist ein boolescher Wert, der verhindern kann, dass der nächste Tracking-Aufruf an Adobe gesendet wird. Ähnliche Funktionen sind in der Web-SDK verfügbar, mit denen Sie `false` zurückgeben können, bevor ein XDM-Ereignis gesendet wird.
 
 ## Senden eines Ereignisses mit der Web SDK-Erweiterung abbrechen
 
-Verwenden Sie den Code-Editor [!UICONTROL Ein vor dem Senden des Rückrufs durch das Ereignis] und geben Sie `false` zurück.
+Verwenden Sie das [!UICONTROL Ein-Ereignis vor dem Rückruf] Code-Editor und geben Sie `false` zurück.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
-1. Klicken Sie unter [!UICONTROL Datenerfassung] auf die Schaltfläche **[!UICONTROL Vor dem Senden des Rückruffods durch das Ereignis bearbeiten]** .
-1. Fügen Sie im Code-Editor den folgenden Code unter allen Bedingungen ein, die Sie abbrechen möchten, um Daten an Edge zu senden:
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
+1. Klicken [!UICONTROL  unter „Datenerfassung] auf die Schaltfläche **[!UICONTROL Bearbeiten vor dem Rückruf-Code senden]**.
+1. Fügen Sie im Code-Editor den folgenden Code unter einer beliebigen Bedingung ein, unter der Sie das Senden von Daten an Edge abbrechen möchten:
 
 ```js
 return false;
 ```
 
-## Abbrechen des manuellen Versands eines Ereignisses zur Implementierung des Web SDK
+## Manuelles Senden eines Ereignisses abbrechen, indem die Web-SDK implementiert wird
 
-Verwenden Sie den Rückruf `onBeforeEventSend` und geben Sie `false` zurück. Weitere Informationen finden Sie unter [Globales Ändern von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation.
+Verwenden Sie den `onBeforeEventSend` Callback und geben Sie `false` zurück. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ```js
 alloy("configure"), {
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >Die `abort`-Variable wird nach jedem Tracking-Aufruf auf `false` zurückgesetzt. Wenn Sie nachfolgende Tracking-Aufrufe auf derselben Seite abbrechen möchten, setzen Sie `abort` erneut auf `true`.
 
-Die Variable `abort` kann in der Funktion [`doPlugins()`](../functions/doplugins.md) festgelegt werden. Dies ist die letzte Funktion, die ausgeführt wird, bevor eine Bildanforderung an Adobe gesendet wird. Dieses Beispiel funktioniert ähnlich wie der Rückruf `onBeforeEventSend` mit dem Web SDK.
+Die `abort` kann in der [`doPlugins()`](../functions/doplugins.md) festgelegt werden. Dies ist die letzte Funktion, die ausgeführt wird, bevor eine Bildanforderung an den Adobe gesendet wird. Dieses Beispiel funktioniert ähnlich wie der `onBeforeEventSend` Callback unter Verwendung der Web-SDK.
 
 ```js
 s.doPlugins = function(s) {

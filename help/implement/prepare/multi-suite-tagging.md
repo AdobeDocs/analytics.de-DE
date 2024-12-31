@@ -37,4 +37,4 @@ Multi-Suite-Tagging führt zu mehreren Server-Aufrufen für jede Bildanforderung
 
 Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist häufig eine Best Practice, aber der beste Report Suite-Ansatz für Ihre Organisation hängt von Ihren Geschäftsanforderungen ab.
 
-Informationen dazu, ob Virtual Report Suites Ihr bestmöglicher Ansatz sind, finden Sie unter [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md). Siehe auch &quot;[Virtual Report Suites vs. Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;, um einen Vergleich zwischen Multi-Suite-Tagging und Virtual Report Suite-Funktionalität anzustellen.
+Informationen dazu, ob Virtual Report Suites Ihr bestmöglicher Ansatz sind, finden Sie unter [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md). Siehe auch [Virtual Report Suites vs. , Multi-Suite-Tagging](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) mit einem Vergleich von Multi-Suite-Tagging und Virtual Report Suite-Funktionalität.

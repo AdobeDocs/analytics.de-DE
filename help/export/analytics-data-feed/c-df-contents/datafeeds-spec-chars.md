@@ -32,7 +32,7 @@ Wenn diesen reservierten Werten ein umgekehrter Schrägstrich vorangestellt wird
 | `\\n` | Der Wert „`\n`“ wurde während der Datenerfassung gesendet und von Adobe mit Escape-Zeichen versehen. |
 | `\\` | Der Wert „`\`“ wurde während der Datenerfassung gesendet und von Adobe mit Escape-Zeichen versehen. |
 
-Beispiel: Ein Besucher Ihrer Site verwendet die interne Suche und sucht nach `"search\nstring"`. Sie füllen eVar1 mit `"search\nstring"` und senden diesen Wert an Adobe. Adobe erhält diesen Treffer und versieht den in der Zeichenfolge enthaltenen Zeilenumbruch mit einem Escape-Zeichen. Der tatsächliche Wert, der in den Rohdaten platziert wird, ist `"search\\nstring"`.
+Ein Besucher Ihrer Site nutzt beispielsweise die interne Suche und sucht nach `"search\nstring"`. Sie füllen eVar1 mit `"search\nstring"` und senden diesen Wert an Adobe. Adobe erhält diesen Treffer und versieht den in der Zeichenfolge enthaltenen Zeilenumbruch mit einem Escape-Zeichen. Der in den Rohdaten tatsächlich platzierte Wert ist `"search\\nstring"`.
 
 ## Sonderzeichen in Variablen mit mehreren Werten (events_list, products_list, mvvars)
 

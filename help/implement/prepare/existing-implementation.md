@@ -19,12 +19,12 @@ ht-degree: 71%
 
 ![Playbook](assets/inherited-impl-playbook.png)
 
-Sehen Sie sich diese Tipps von Sarah Owen an, ebenfalls eine technisch Verantwortliche. Sarah ist Adobe Analytics Champion und gibt Ideen dazu weiter, wie das Playbook für geerbte Implementierungen zur Übernahme einer bestehenden Implementierung verwendet werden kann:
+Sehen Sie sich diese Tipps von Sarah Owen an, ebenfalls eine technisch Verantwortliche. Sarah ist eine Adobe Analytics-Expertin und sie teilt mit uns ihre Ideen dazu, wie wir das inherited implementation Playbook zur Übernahme einer bestehenden Implementierung nutzen können:
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 Siehe auch:
 
-* [Checkliste &quot;Gezielte Prüfung&quot;zur Überprüfung Ihrer Implementierung nach jeder Website-Veröffentlichung](/help/implement/review/focused-review.md)
-* [Checkliste &quot;Vollständige Prüfung&quot;Ihrer Implementierung alle 6 Monate](/help/implement/review/full-review.md)
+* [Checkliste „Gezielte Überprüfung“ zur Überprüfung Ihrer Implementierung nach jeder Website-Veröffentlichung](/help/implement/review/focused-review.md)
+* [Checkliste „Vollständige Prüfung“ Ihrer Implementierung alle 6 Monate](/help/implement/review/full-review.md)
 * [Definieren Ihrer fünf wichtigsten KPIs](/help/implement/review/define-kpis.md)

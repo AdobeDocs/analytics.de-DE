@@ -94,7 +94,7 @@ Kopieren Sie den folgenden Code und fügen Sie ihn an beliebiger Stelle in der A
 
 ## Verwenden des Plug-ins
 
-Das Plug-in `websiteBot` löst einen `s.tl` -Aufruf aus, wenn kein Bot-Traffic erkannt wird.
+Das `websiteBot`-Plug-in löst einen `s.tl` aus, wenn Nicht-Bot-Traffic erkannt wird.
 
 ## Beispiele
 

@@ -12,13 +12,13 @@ ht-degree: 53%
 
 # Segmente genehmigen
 
-Im Segment-Manager können Sie einen Workflow einrichten, der die Genehmigung von Segmenten für verschiedene Anwendungsebenen, für bestimmte Abteilungen oder Gruppen umfasst und mit Berichtserstellungsrichtlinien übereinstimmt.
+Innerhalb des Segment-Managers können Sie einen Workflow einrichten, der die Genehmigung von Segmenten für verschiedene Anwendungsebenen, für bestimmte Abteilungen oder Gruppen sowie die Einhaltung von Berichtsrichtlinien umfasst.
 
 >[!NOTE]
 >
->Administratoren können auch Segmente (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) beschrieben.
+>Admins können auch Segmente (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie beschrieben unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 >
->Alle Segmente, die im Datenwörterbuch genehmigt wurden, werden im Segment-Manager angezeigt. Gleichermaßen werden Metriken, die im Segment-Manager genehmigt wurden, im Datenwörterbuch angezeigt.
+>Alle Segmente, die im Datenwörterbuch genehmigt sind, werden im Segment-Manager angezeigt. Ebenso werden Metriken, die im Segment-Manager genehmigt wurden, im Datenwörterbuch angezeigt.
 
 So wird ein Segment als genehmigt gekennzeichnet:
 

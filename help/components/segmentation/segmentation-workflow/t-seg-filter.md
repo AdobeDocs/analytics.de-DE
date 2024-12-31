@@ -24,12 +24,12 @@ Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
 
    | Filtername | Beschreibung |
    |---|---|
-   | Tags | Filtert Segmente mit bestimmten [Tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). Die Spalte „Tags“ wird standardmäßig angezeigt. |
+   | Tags | Ermöglicht das Filtern nach Segmenten mit bestimmten [Tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). Die Spalte „Tags“ wird standardmäßig angezeigt. |
    | Inhaber | Filtert Segmente nach Inhaber. |
-   | Report Suite | Filtert nach Report Suite. |
+   | Report Suite | Ermöglicht das Filtern nach Report Suite. |
    | Weitere Filter > Alle anzeigen | **(Nur Administrator)** Zeigt alle Segmente, deren Inhaber und das Datum der letzten Änderung an. |
    | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
-   | Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, die für Sie freigegeben wurden.[](/help/components/segmentation/segmentation-workflow/t-seg-share.md) |
-   | Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als [Favoriten](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) markiert haben. |
-   | Weitere Filter > Genehmigt | Zeigt alle offiziell [genehmigten](/help/components/segmentation/segmentation-workflow/seg-approve.md) Segmente an. |
+   | Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, [ andere für ](/help/components/segmentation/segmentation-workflow/t-seg-share.md) freigegeben haben. |
+   | Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als &quot;[&quot; ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) haben. |
+   | Weitere Filter > Genehmigt | Zeigt alle offiziell [ Segmente ](/help/components/segmentation/segmentation-workflow/seg-approve.md). |
    | Segmente durchsuchen | Sucht Segmente nach Namen. |

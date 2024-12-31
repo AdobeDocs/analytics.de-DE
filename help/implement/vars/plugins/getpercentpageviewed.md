@@ -17,13 +17,13 @@ ht-degree: 84%
 
 Das `getPercentPageViewed`-Plug-in misst die Bildlaufaktivität eines Besuchers, um festzustellen, wie viel Prozent einer Seite der Benutzer ansieht, bevor er auf eine andere Seite wechselt. Dieses Plug-in ist nicht erforderlich, wenn Ihre Seiten eine geringe Höhe haben oder die Bildlaufaktivität nicht gemessen werden soll.
 
-## Installieren des Plug-ins mit der Web SDK- oder Web SDK-Erweiterung
+## Installieren des Plug-ins über die Web SDK- oder Web SDK-Erweiterung
 
-Dieses Plug-in wird noch nicht für die Verwendung im Web SDK unterstützt.
+Dieses Plug-in wird noch nicht für die Verwendung in der Web-SDK unterstützt.
 
-## Installieren des Plug-ins mit der Adobe Analytics-Erweiterung
+## Installieren des Plug-ins über die Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mit Adobe Analytics verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit Adobe Analytics verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
@@ -39,7 +39,7 @@ Adobe bietet eine Erweiterung, mit der Sie am häufigsten verwendete Plug-ins mi
 
 ## Installieren des Plug-ins mit dem benutzerdefinierten Code-Editor
 
-Wenn Sie die Plug-in-Erweiterung &quot;Common Analytics Plugins&quot;nicht verwenden möchten, können Sie den Editor für benutzerdefinierten Code verwenden.
+Wenn Sie die Plug-in-Erweiterung Common Analytics Plugins nicht verwenden möchten, können Sie den Editor für benutzerspezifischen Code verwenden.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Eigenschaft.
@@ -78,11 +78,11 @@ Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die folgenden
 
 Weisen Sie eine oder mehrere dieser Variablen eVars zu, um Dimensionsdaten in Berichten anzuzeigen.
 
-Dieses Plug-in erstellt drei Erstanbieter-Cookies, die am Ende einer Browsersitzung ablaufen:
+Mit diesem Plug-in werden drei Erstanbieter-Cookies erstellt, die am Ende einer Browser-Sitzung ablaufen:
 
-* `s_ppv`: Speichert jeden Wert, der durch Aufrufen der Funktion verfügbar gemacht wird
+* `s_ppv`: Speichert alle Werte, die durch Aufruf der Funktion verfügbar gemacht werden
 * `s_tp`: Speichert die gesamte Pixelhöhe der vorherigen Seite
-* `s_ips`: Speichert den anfänglichen prozentualen Bildlauf der vorherigen Seite
+* `s_ips`: Speichert den anfänglichen Prozentsatz der gescrollten Seite
 
 ## Beispiele
 

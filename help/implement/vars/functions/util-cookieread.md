@@ -15,14 +15,14 @@ ht-degree: 72%
 
 Cookies können Informationen über Seiten in derselben Domain hinweg speichern und abrufen. Verwenden Sie die `Util.cookieRead()`-Methode, um einen Wert aus einem Cookie abzurufen.
 
-## Cookies mithilfe der Adobe Analytics-Erweiterung und der Web SDK-Erweiterung lesen
+## Lesen von Cookies mithilfe der Adobe Analytics-Erweiterung und der Web SDK-Erweiterung
 
 Sie können Cookies lesen, indem Sie Werte in Datenelementen festlegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Datenelemente] und klicken Sie dann auf das gewünschte Datenelement (oder erstellen Sie ein Datenelement).
-4. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf **[!UICONTROL Core]** und den [!UICONTROL Datenelementtyp] auf **[!UICONTROL Cookie]**.
+4. Legen Sie [!UICONTROL  Dropdown]Liste Erweiterung auf **[!UICONTROL Core]** und den [!UICONTROL Datenelementtyp] auf **[!UICONTROL Cookie]** fest.
 5. Geben Sie den Namen des Cookies in das Textfeld ein.
 
 Der Wert des Cookies wird im Datenelement gespeichert. Anschließend können Sie das Datenelement in Regeln referenzieren, um die gewünschten Variablen zuzuweisen.

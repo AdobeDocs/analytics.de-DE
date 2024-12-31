@@ -17,9 +17,9 @@ Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen
 
 Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-method.md)-Methode) verwendet.
 
-## Bestimmen Sie mithilfe des Web SDK, welche Analytics-Ereignisse in ein XDM-Ereignis einbezogen werden sollen.
+## Bestimmen Sie mithilfe der Web-SDK, welche Analytics-Ereignisse in ein XDM-Ereignis eingeschlossen werden sollen
 
-Das Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den Rückruf `onBeforeEventSend` verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an Adobe gesendet werden. Weitere Informationen finden Sie unter [Globales Ändern von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation.
+Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den `onBeforeEventSend`-Callback verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an den Adobe gesendet werden. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ## Ereignisse in Linktracking-Aufrufen mit der Adobe Analytics-Erweiterung
 
@@ -27,9 +27,9 @@ Adobe Experience Platform schließt definierte Ereignisse automatisch in Linktra
 
 >[!IMPORTANT]
 >
->Wenn Sie Ereignisse im Editor für benutzerdefinierten Code der Analytics-Erweiterung festlegen, müssen Sie das Ereignis auch mit benutzerdefiniertem Code in `linkTrackEvents` einbeziehen.
+>Wenn Sie Ereignisse im benutzerdefinierten Code-Editor der Analytics-Erweiterung festlegen, müssen Sie das Ereignis auch in `linkTrackEvents` einbeziehen, indem Sie benutzerdefinierten Code verwenden.
 
-## s.linkTrackEvents in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkTrackEvents im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.linkTrackEvents`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Ereignissen enthält, die Sie in Bildanforderungen zum Linktracking einbeziehen möchten (`tl()`-Methode). Die folgenden drei Kriterien müssen erfüllt sein, um Metriken in Linktracking-Treffer einzubeziehen:
 

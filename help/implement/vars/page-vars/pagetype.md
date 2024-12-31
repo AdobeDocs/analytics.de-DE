@@ -21,9 +21,9 @@ Die `pageType`-Variable ist eine Markierung, mit der Sie Fehlerseiten (wie z. B
 
 ## Seitentyp unter Verwendung des Web SDK
 
-Der Kanal wird den folgenden Variablen zugeordnet:
+Der Kanal ist den folgenden Variablen zugeordnet:
 
-* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - Dieses XDM-Feld ist ein boolescher Wert. Setzen Sie es auf `true`, um es als Fehlerseite zu kennzeichnen, oder auf `false`, wenn es keine Fehlerseite ist.
+* [XDM-](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - Dieses XDM-Feld ist ein boolescher Wert. Setzen Sie ihn auf `true`, um die Seite als Fehlerseite zu kennzeichnen, oder auf `false`, wenn es sich nicht um eine Fehlerseite handelt.
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - Dieses Datenobjektfeld ist eine Zeichenfolge. Setzen Sie es auf `"errorPage"`, um es als solches zu kennzeichnen.
 
 ## Seitentyp unter Verwendung der Adobe Analytics-Erweiterung

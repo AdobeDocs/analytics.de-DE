@@ -19,7 +19,7 @@ Plug-ins sind Codefragmente, die mehrere erweiterte Funktionen ausführen, um Ih
 
 Adobe bietet mehrere Möglichkeiten, ein bestimmtes Plug-in zu installieren:
 
-* Verwenden der Erweiterung &quot;Common Analytics Plugins&quot;mit der Adobe Analytics-Erweiterung
+* Verwenden der Erweiterung „Common Analytics Plugins“ mit der Adobe Analytics-Erweiterung
 * Einfügen des Plug-in-Codes mit dem benutzerdefinierten Code-Editor
 * Einfügen des Plug-in-Codes in Ihre `AppMeasurement.js`-Datei.
 

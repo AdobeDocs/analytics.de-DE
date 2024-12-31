@@ -22,11 +22,11 @@ Mithilfe der `fpCookieDomainPeriods`-Variablen kann AppMeasurement ermitteln, wo
 >
 >Berücksichtigen Sie für diese Variable keine Subdomains. Legen Sie beispielsweise nicht `fpCookieDomainPeriods` für die Beispiel-URL `store.toys.example.com` fest. AppMeasurement erkennt standardmäßig, dass Cookies auf `example.com` gespeichert werden sollen. Das gilt auch für URLs mit vielen Unterdomänen.
 
-## Erstanbieter-Domänenpunkte, die das Web SDK verwenden
+## Punkte für Erstanbieter-Domains, die die Web-SDK verwenden
 
-Das Web SDK kann die richtige Cookie-Speicherdomäne ohne diese Variable ermitteln.
+Web SDK kann ohne diese Variable die richtige Cookie-Speicherdomäne ermitteln.
 
-## Erstanbieter-Domänenpunkte, die die Adobe Analytics-Erweiterung verwenden
+## Punkte für Erstanbieter-Domains, die die Adobe Analytics-Erweiterung verwenden
 
 „Erstanbieter-Domain-Punkte“ ist ein Feld unter dem Akkordeon [!UICONTROL Cookies] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -37,7 +37,7 @@ Das Web SDK kann die richtige Cookie-Speicherdomäne ohne diese Variable ermitte
 
 Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
-## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.fpCookieDomainPeriods auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Variable `fpCookieDomainPeriods` ist eine Zeichenfolge, die normalerweise auf `"3"` gesetzt wird, und zwar nur bei Domänen, die einen Punkt in ihrem Suffix enthalten. Der Standardwert ist `"2"`, der für die meisten Domänen geeignet ist.
 

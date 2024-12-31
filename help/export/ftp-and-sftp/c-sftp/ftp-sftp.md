@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # Secure File Transfer Protocol – Übersicht
 
-SFTP ist ein sicheres Protokoll für die Übertragung von Daten, das sicherstellt, dass außer Ihnen niemand Ihre Daten sehen kann. Für Adobe Engineering Services kann ein SFTP-Konto eingerichtet werden, in dem Ihre Daten sicher sind.
+SFTP ist ein sicheres Protokoll für die Datenübertragung, das sicherstellt, dass niemand außer Ihnen Ihre Daten sehen kann. Für Adobe Engineering Services kann ein SFTP-Konto eingerichtet werden, in dem Ihre Daten sicher sind.
 
 ## Push-Auslieferung {#section_A47831BB1DCA490BB57F0940617AA506}
 
@@ -21,7 +21,7 @@ Hierbei übertragen die Server von Adobe die Datei per Push auf Ihre Server. Fak
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) - und [Analytics-Daten-Feed](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=de) können Daten per SFTP übertragen.
 
-Report Builder **kann** keine Daten per Push über SFTP übertragen.
+Report Builder **kann** Daten per SFTP übertragen.
 
 ## Pull-Auslieferung {#section_FA29FAEF02FE40B8B32452146A036F48}
 

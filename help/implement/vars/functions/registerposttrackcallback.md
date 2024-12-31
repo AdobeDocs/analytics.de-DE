@@ -17,7 +17,7 @@ Die `registerPostTrackCallback`-Variable ermöglicht es Ihrer Organisation, eine
 
 >[!WARNING]
 >
->Führen Sie innerhalb der Variable `registerPostTrackCallback` keine Tracking-Aufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) durch. Das Festlegen von Tracking-Aufrufen in dieser Variablen führt zu einer Endlosschleife von Bildanforderungen!
+>Führen Sie keine Tracking-Aufrufe wie [`t()`](t-method.md) oder [`tl()`](tl-method.md) innerhalb der `registerPostTrackCallback`-Variablen durch. Das Festlegen von Tracking-Aufrufen in dieser Variablen verursacht eine unendliche Schleife von Bildanforderungen!
 
 Jedes Mal, wenn Sie die `registerPostTrackCallback`-Variable aufrufen, binden Sie diese Funktion so ein, dass sie unmittelbar nach dem erfolgreichen Senden einer Bildanforderung ausgeführt wird. Vermeiden Sie es, dieselbe Funktion mehrmals mit demselben Seitenladevorgang zu registrieren.
 
@@ -25,13 +25,13 @@ Jedes Mal, wenn Sie die `registerPostTrackCallback`-Variable aufrufen, binden Si
 >
 >Der Zeitpunkt und die Reihenfolge der Funktionen, die zwischen [`registerPreTrackCallback`](registerpretrackcallback.md) und `registerPostTrackCallback` ausgelöst werden, sind nicht gewährleistet. Vermeiden Sie Abhängigkeiten zwischen diesen beiden Funktionen.
 
-## Callback nach dem Tracking mit der Web SDK-Erweiterung
+## Nachverfolgen von Callback mit der Web SDK-Erweiterung
 
-Bald!
+Bald verfügbar!
 
-## Rückruf nach der Rückverfolgung - Manuelles Implementieren des Web SDK
+## Nach dem Tracking erfolgt ein Callback, bei dem die Web-SDK manuell implementiert wird
 
-Sie können beim Senden eines Ereignisses einen JavaScript-Promise verwenden, um eine Funktion zu registrieren, nachdem die Daten erfolgreich an Adobe gesendet wurden.
+Sie können ein JavaScript Promise verwenden, wenn Sie ein Ereignis senden, um eine Funktion zu registrieren, nachdem Daten erfolgreich an Adobe gesendet wurden.
 
 ```js
 alloy("sendEvent",{
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Weitere Informationen finden Sie unter [Umgang mit Antworten von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) in der Web SDK-Dokumentation.
+Weitere Informationen [ Sie in der Dokumentation zu Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)SDK unter „Umgang mit Antworten von Ereignissen“.
 
 ## Registrieren von Callback nach Tracking mit der Adobe Analytics-Erweiterung
 

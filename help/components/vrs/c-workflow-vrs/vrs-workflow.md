@@ -21,14 +21,14 @@ Machen Sie sich mit den [Überlegungen zum globalen/Multisuite-Tagging](/help/co
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Erstellen einer Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) durch Anwendung eines oder mehrerer Segmente auf eine übergeordnete Report Suite.
 
-Virtual Report Suites werden im Virtual Report Suites-Manager erstellt und sind über **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verfügbar.
+Virtual Report Suites werden im Virtual Report Suites Manager erstellt, der über **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verfügbar ist.
 
 Nachdem sie erstellt wurde, wird eine Virtual Report Suite auf der Benutzeroberfläche genauso behandelt wie eine Basis-Report Suite und unterstützt die meisten erweiterten Funktionen. Virtual Report Suites werden z. B. in der Report Suite-Auswahl angezeigt und können, genau wie andere Report Suites, einzeln ausgewählt werden.
 
-Klicken Sie auf das Infosymbol neben dem Report Suite-Namen, um [Informationen dazu anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
+Klicken Sie auf das Informationssymbol neben dem Namen der Report Suite, um [Informationen dazu anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Öffnen Sie ein Projekt oder einen Bericht und wählen Sie eine Virtual Report Suite aus, um eine segmentierte Ansicht der Daten bereitzustellen.
 
 ![](assets/step4_icon.png) [Verwalten](/help/components/vrs/c-workflow-vrs/vrs-manage.md) der Virtual Report Suite.
 
-Mit dem Virtual Report Suites Manager können Sie Virtual Report Suites bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Dies ist für Nicht-Admin-Benutzer nicht sichtbar.
+Mit Virtual Report Suites Manager können Sie Virtual Report Suites bearbeiten, hinzufügen, taggen, löschen, umbenennen, genehmigen, kopieren, exportieren und filtern. Dies ist für Nicht-Admin-Benutzer nicht sichtbar.

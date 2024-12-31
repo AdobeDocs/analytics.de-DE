@@ -15,14 +15,14 @@ ht-degree: 75%
 
 Die `channel`-Variable speichert normalerweise den Abschnitt der Website, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich, zu bestimmen, welche Gruppen Ihrer Website am beliebtesten sind. Diese Variable füllt die Dimension „Website-Bereiche“.
 
-## Kanal mit dem Web SDK
+## Kanal, der die Web-SDK verwendet
 
-Der Kanal wird den folgenden Variablen zugeordnet:
+Der Kanal ist den folgenden Variablen zugeordnet:
 
 * [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` oder `data.__adobe.analytics.ch`
 
-## Kanal mit der Adobe Analytics-Erweiterung
+## Kanal, der die Adobe Analytics-Erweiterung verwendet
 
 Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -30,12 +30,12 @@ Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung 
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf Adobe Analytics und den Aktionstyp [!UICONTROL 3} auf [!UICONTROL Variablen festlegen].]
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Kanal].
 
 Sie können „channel“ auf einen beliebigen Zeichenfolgenwert oder ein beliebiges Datenelement einstellen.
 
-## s.channel in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.channel im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.channel`-Variable ist eine Zeichenfolge, die normalerweise den Website-Bereich der Seite enthält. Sie hat einen Maximalwert von 100 Byte. Längere Werte werden abgeschnitten.
 

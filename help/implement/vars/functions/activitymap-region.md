@@ -1,42 +1,43 @@
 ---
 title: ActivityMap.region
-description: Passen Sie an, wie Activity Map die angeklickte Region erfasst.
+description: Anpassen, wie Activity Map die angeklickte Region erfasst.
 feature: Variables
 role: Admin, Developer
-source-git-commit: 1fb57590714ad2412323416289dee967eef07fad
+exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # ActivityMap.region
 
-Mit der Variable `ActivityMap.region` können Sie die Logik überschreiben, die Activity Map zum Festlegen von Regionswerten verwendet. Diese Variable ist nützlich in Bereichen, in denen Sie mehr Kontrolle haben möchten als von [`ActivityMap.regionExclusions`](../config-vars/activitymap-regionexclusions.md) bereitgestellt wird.
+Mit der Variablen `ActivityMap.region` können Sie die Logik überschreiben, die Activity Map zum Festlegen von Bereichswerten verwendet. Diese Variable ist in Bereichen nützlich, in denen Sie mehr Kontrolle haben möchten als [`ActivityMap.regionExclusions`](../config-vars/activitymap-regionexclusions.md) bietet.
 
 >[!CAUTION]
->Diese Variable überschreibt die Activity Map-Logik vollständig. Wenn Sie hier eine Überschreibungsfunktion einrichten, die falsche Werte zurückgibt, kann dies zu Problemen bei der Datenerfassung mit Activity Map-Dimensionen und der Activity Map-Überlagerung führen.
+>Diese Variable überschreibt die Activity Map-Logik vollständig. Wenn Sie hier eine Überschreibungsfunktion festlegen, die falsche Werte zurückgibt, kann dies zu Problemen bei der Datenerfassung mit Activity Map-Dimensionen und der Activity Map-Überlagerung führen.
 
-## Überschreiben von Regionswerten mithilfe des Web SDK
+## Überschreiben von Regionswerten mit der Web-SDK
 
-Sie können den Rückruf [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) verwenden, um die Web SDK-Payload zu ändern oder das Senden von Daten abzubrechen.
+Sie können [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) Callback verwenden, um die Web-SDK-Payload zu ändern oder den Versand von Daten abzubrechen.
 
-## Regionsüberschreibungen mit der Adobe Analytics-Erweiterung
+## Überschreiben von Regionen mithilfe der Adobe Analytics-Erweiterung
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## ActivityMap.region in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## ActivityMap.Region im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Weisen Sie dieser Variablen eine Funktion zu, die:
 
-* empfängt das angeklickte HTML-Element und
-* Gibt einen Zeichenfolgenwert zurück. Dieser Zeichenfolgenwert ist der Endwert, der für die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) verwendet wird.
+* das angeklickte HTML-Element erhält und
+* Gibt einen Zeichenfolgenwert zurück. Dieser Zeichenfolgenwert ist der endgültige Wert, der für die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) verwendet wird.
 
-Wenn der Rückgabewert [falsy](https://developer.mozilla.org/de-DE/docs/Glossary/Falsy) ist, werden alle Activity Map-Kontextdatenvariablen gelöscht und es werden keine Linkdaten verfolgt.
+Wenn der Rückgabewert &quot;[&quot; ](https://developer.mozilla.org/de-DE/docs/Glossary/Falsy), werden alle Activity Map-Kontextdatenvariablen gelöscht und es werden keine Linkdaten verfolgt.
 
 ## Beispiele
 
-Verwenden Sie einen Tag-Namen in Kleinbuchstaben als region:
+Verwenden Sie einen Tag-Namen in Kleinbuchstaben als Region:
 
 ```js
 s.ActivityMap.region = function(clickedElement) {
@@ -49,7 +50,7 @@ s.ActivityMap.region = function(clickedElement) {
 }
 ```
 
-Verwenden Sie bestimmte gewünschte Klassennamen als region:
+Verwenden Sie bestimmte gewünschte Klassennamen als Region:
 
 ```js
 s.ActivityMap.region = function(ele) {

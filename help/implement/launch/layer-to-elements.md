@@ -30,8 +30,8 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
    ![Datenelement erstellen](assets/createelement.png)
 
 1. Geben Sie einen Namen für Ihr Datenelement ein. Dies kann eine einfache Bezeichnung sein, die einer JavaScript-Variablen in Ihrer Datenschicht entspricht, die Sie tracken möchten.
-1. Wählen Sie in der Dropdownliste **[!UICONTROL Erweiterung]** die Option **[!UICONTROL Core]** aus.
-1. Wählen Sie unter der Dropdownliste **[!UICONTROL Datenelementtyp]** die Option **[!UICONTROL JavaScript-Variable]** aus. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
+1. Wählen **[!UICONTROL in der Dropdown]** Liste „Erweiterung“ die Option **[!UICONTROL Core]**.
+1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Datenelementtyp) die Option **[!UICONTROL JavaScript-Variable]**. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
 1. Geben Sie die gewünschte JavaScript-Variable ein, normalerweise innerhalb Ihrer Datenschicht. Wenn beispielsweise die Datenschicht Ihres Unternehmens der empfohlenen Vorgehensweise von Adobe sehr ähnlich ist, könnte als Wert `digitalData.page.pageInfo.pageName` verwendet werden. Sie können die Syntax und Werte Ihrer JavaScript-Variablen in der Browser-Konsole überprüfen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

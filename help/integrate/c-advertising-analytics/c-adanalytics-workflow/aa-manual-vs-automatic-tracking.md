@@ -1,5 +1,5 @@
 ---
-description: Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß mit Suchmaschinendaten zu ergänzen.
+description: Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß um Suchmaschinendaten zu erweitern.
 title: Tracking-Typ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
@@ -12,7 +12,7 @@ ht-degree: 32%
 
 # Tracking-Typ
 
-Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß mit Suchmaschinendaten zu ergänzen.
+Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß um Suchmaschinendaten zu erweitern.
 
 <!--
 
@@ -22,18 +22,18 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-Es werden zwei Tracking-Modi unterstützt: [!UICONTROL Auto] und [!UICONTROL Manuell].
+Es werden zwei Tracking-Modi unterstützt[!UICONTROL  „Auto] und [!UICONTROL Manuell].
 
-## [!UICONTROL Auto]-Verfolgung {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL Auto]-Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-Durch das Tracking von [!UICONTROL Auto] kann die Advertising Cloud-Engine entscheiden, wie die Suchmaschinendaten verarbeitet werden sollen. Das automatische Tracking ist der einfachere Ansatz, führt jedoch möglicherweise nicht zum besten integrierten Datensatz.
+[!UICONTROL Auto]-Tracking ermöglicht es der Advertising Cloud-Engine zu entscheiden, wie die Suchmaschinendaten verarbeitet werden sollen. Automatisches Tracking ist der einfachere Ansatz, führt jedoch möglicherweise nicht zum am besten integrierten Datensatz.
 
-Daher müssen Sie ein Kontrollkästchen für die Bestätigung aktivieren, wenn Sie **[!UICONTROL Auto]** auswählen, bevor Sie die Kontoeinstellung speichern können.
+Daher müssen Sie bei Auswahl von „Automatisch“ ein Bestätigungs-Kontrollkästchen aktivieren **[!UICONTROL bevor Sie]** Kontoeinstellung speichern können.
 
-Beachten Sie, dass Sie für die folgenden Aktionen verantwortlich sind, um ein Suchmaschinenkonto mit dem Typ **[!UICONTROL Auto]** zu konfigurieren:
+Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!UICONTROL Auto]**-Typ für die folgenden Aktionen verantwortlich sind:
 
-* Der Parameter `s_kwcid` und der Wert werden den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. Dieser Parameter und Wert werden am Ende der URL eingefügt. Zusätzliche Maßnahmen können von Ihrer Seite erforderlich sein, wenn Ihr Webserver ein bestimmtes `key=value` -Paar am Ende der URL benötigt. Oder ein Update zur Unterstützung eines neuen `key=value` -Paares in der URL. Es liegt in Ihrer Verantwortung sicherzustellen, dass die hinzugefügten URL-Parameter korrekt auf der endgültigen Landingpage beibehalten werden.
-* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Beispielsweise ist das allgemeine Sonderzeichen `+`, das in Suchbegriffen mit der Bezeichnung &quot;Umfassende Übereinstimmung geändert&quot;verwendet wird.
+* Der `s_kwcid` und der Wert werden zu den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. Dieser Parameter und Wert werden am Ende der URL eingefügt. Möglicherweise sind zusätzliche Aktionen Ihrerseits erforderlich, wenn Ihr Webserver ein bestimmtes `key=value` am Ende der URL benötigt. Oder eine Aktualisierung zur Unterstützung jedes neuen `key=value` in der URL. Sie müssen sicherstellen, dass die hinzugefügten URL-Parameter korrekt auf der endgültigen Landingpage bestehen bleiben.
+* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Beispielsweise wird ein gängiges Sonderzeichen `+`, das in Schlüsselwörtern vom Typ „Broad Match Modified“ verwendet wird.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Beachten Sie, dass Sie für die folgenden Aktionen verantwortlich sind, um ein S
 
 ## Manuelles Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-Mit der manuellen Verfolgung können Sie angeben, wie der Advertising Analytics-Datenintegrationsprozess die Suchmaschinendaten behandeln soll.
+Mit dem manuellen Tracking können Sie festlegen, wie die Suchmaschinendaten im Advertising Analytics-Datenintegrationsprozess verarbeitet werden sollen.
 
 ### Manuelles Tracking zu Google-Konto hinzufügen {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
@@ -49,7 +49,7 @@ Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Google-Konto hinzugefügt
 
 >[!IMPORTANT]
 >
->Der Wert *`<Advertising Analytics ID>`* (unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen** müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge vom Bildschirm &quot;Konto&quot;unter dem Abschnitt [!UICONTROL Tracking] abrufen.
+>Der Wert *`<Advertising Analytics ID>`* (unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen** müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt [!UICONTROL Tracking] abrufen.
 
 **Tracking-Zeichenfolge für Kampagnen:**
 
@@ -84,8 +84,8 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 Um sicherzustellen, dass die Zeichenfolge durch die Umleitung zur endgültigen Landingpage-URL erhalten bleibt, müssen Sie die Zeichenfolge ausreichend kodieren:
 
-* wenn die URL eine Umleitung durchläuft, und
-* verwendet keinen &quot;unescapedlpurl&quot;-Wert.
+* wenn die URL eine Umleitung durchläuft und
+* verwendet keinen „UnescapedLpURL“-Wert.
 
 
 ```
@@ -98,7 +98,7 @@ Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Bing-Konto hinzugefügt w
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge über den Bildschirm &quot;Konto&quot;im Abschnitt &quot;Tracking&quot;abrufen.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
 **Tracking-Zeichenfolge für Kampagnen:**
 
@@ -133,8 +133,8 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 Um sicherzustellen, dass die Zeichenfolge durch die Umleitung zur endgültigen Landingpage-URL erhalten bleibt, müssen Sie die Zeichenfolge ausreichend kodieren:
 
-* wenn die URL eine Umleitung durchläuft, und
-* verwendet keinen &quot;unescapedlpurl&quot;-Wert.
+* wenn die URL eine Umleitung durchläuft und
+* verwendet keinen „UnescapedLpURL“-Wert.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

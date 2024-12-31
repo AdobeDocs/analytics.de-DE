@@ -1,6 +1,6 @@
 ---
 title: Besuche
-description: Erfahren Sie mehr über die Metrik Besuche in Analytics. Erfahren Sie mehr über die Berechnung der Metrik, ihr Verhalten, ihre Definition ändern und vieles mehr.
+description: Erfahren Sie mehr über die Metrik Besuche in Analytics. Hier erfahren Sie, wie er berechnet wird, welche Verhaltensweisen ihn beeinflussen, wie er seine Definition ändert und vieles mehr.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
@@ -29,7 +29,7 @@ Ein Besuch fällt aufgrund der oben genannten Kriterien nicht unbedingt mit eine
 
 Wenn ein Besucher eine dieser Aktionen ausführt, beginnt ein neuer Besuch:
 
-* Löscht die Cookies während der Sitzung und fährt mit dem Surfen auf Ihrer Site fort
+* Löscht die Cookies während der Sitzung und surft weiter auf Ihrer Site
 * Lässt Ihre Site länger als 30 Minuten in einem Tab geöffnet und fährt dann mit dem Surfen fort.
 * Öffnet einen anderen Browser und navigiert auf demselben Computer zu Ihrer Site.
 * Derselbe Benutzer surft auf verschiedenen Geräten auf Ihrer Site.
@@ -45,8 +45,8 @@ Wenn ein Besucher eine dieser Aktionen ausführt, wird ein neuer Besuch **erst**
 
 Sie können die Definition eines Besuchs auf eine andere Zeit als 30 Minuten ändern.
 
-* Für [Virtual Report Suites](../vrs/vrs-about.md) können Sie das Besuchstimeout (Zeit zwischen Treffern, durch die ein neuer Besuch gestartet wird) mithilfe der Dropdownliste [!UICONTROL Besuchstimeout] ändern. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
-* Wenden Sie sich bei Standard-Report Suites an die Kundenunterstützung, um eine Verkürzung des Besuchstimeouts (Zeit zwischen Treffern, die zum Starten eines neuen Besuchs führen) für eine bestimmte Report Suite anzufordern. Das Besuchstimeout für Standard-Report Suites darf 30 Minuten nicht überschreiten, daher können Sie es nur verkürzen.
+* Bei [Virtual Report Suites](../vrs/vrs-about.md) können Sie die maximale Wartezeit für Besuche (Zeit zwischen Treffern, die den Start eines neuen Besuchs verursacht) über die [!UICONTROL Besuchs-Zeitüberschreitung] ändern. Sie können das Besuchszeitlimit auf einen angemessenen Wert ändern.
+* Wenden Sie sich bei Standard-Report Suites an die Kundenunterstützung, um anzufordern, dass die maximale Wartezeit für einen Besuch (Zeit zwischen Treffern, die den Start eines neuen Besuchs verursacht) für eine bestimmte Report Suite verkürzt wird. Die maximale Wartezeit für Besuche bei standardmäßigen Report Suites darf 30 Minuten nicht überschreiten. Daher können Sie sie nur verkürzen.
 
 ## Besuche, die eine Datumsgrenze überschreiten
 

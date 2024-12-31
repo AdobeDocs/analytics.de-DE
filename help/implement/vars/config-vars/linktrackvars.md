@@ -17,19 +17,19 @@ Einige Implementierungen möchten nicht alle Variablen in alle Bildanforderungen
 
 Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-method.md)-Methode) verwendet.
 
-## Bestimmen, welche Variablen in ein XDM-Ereignis mit dem Web SDK einbezogen werden sollen
+## Bestimmen Sie mithilfe der Web-SDK, welche Variablen in ein XDM-Ereignis eingeschlossen werden sollen
 
-Das Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den Rückruf `onBeforeEventSend` verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an Adobe gesendet werden. Weitere Informationen finden Sie unter [Globales Ändern von Ereignissen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) in der Web SDK-Dokumentation.
+Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den `onBeforeEventSend`-Callback verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an den Adobe gesendet werden. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ## Variablen in Linktracking-Aufrufen mit der Adobe Analytics-Erweiterung
 
-Diese Variable wird automatisch im Backend basierend auf den in der Benutzeroberfläche festgelegten Variablen eingefügt, sodass sie immer in Implementierungen mit der Adobe Analytics-Erweiterung festgelegt wird.
+Diese Variable wird automatisch im Backend auf der Grundlage der in der -Schnittstelle festgelegten Variablen gefüllt, sodass sie in Implementierungen, die die Adobe Analytics-Erweiterung verwenden, immer festgelegt wird.
 
 >[!IMPORTANT]
 >
->Wenn Sie Variablen mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variablen auch in `linkTrackVars` mit benutzerdefiniertem Code einbeziehen.
+>Wenn Sie Variablen mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variablen auch in `linkTrackVars` unter Verwendung von benutzerdefiniertem Code einbeziehen.
 
-## s.linkTrackVars in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkTrackVars auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.linkTrackVars`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Variablen enthält, die Sie in Bildanforderungen zum Linktracking einbeziehen möchten (`tl()`-Methode). Die folgenden beiden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffer einzubeziehen:
 

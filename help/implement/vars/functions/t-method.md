@@ -37,19 +37,19 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 
 Adobe empfängt die Bildanforderung und analysiert dann die Parameter für Anforderungsheader, URL und Abfragezeichenfolge. Datenerfassungs-Server geben dann ein transparentes 1x1-Pixel-Bild zurück, das unsichtbar auf Ihrer Website angezeigt wird.
 
-## Ereignis mit der Web SDK-Erweiterung senden
+## Senden eines Ereignisses mit der Web SDK-Erweiterung
 
-Verwenden Sie eine Aktion, um das Senden von XDM-Ereignisdaten an Adobe zu konfigurieren. Der Datastream empfängt diese Daten, wendet konfigurierte Zuordnungen an und leitet diese Daten an Adobe Analytics weiter, wenn es sich um einen hinzugefügten Dienst für diesen Datastream handelt.
+Verwenden Sie eine Aktion, um das Senden von XDM-Ereignisdaten an Adobe zu konfigurieren. Der Datenstrom empfängt diese Daten, wendet alle konfigurierten Zuordnungen an und leitet diese Daten an Adobe Analytics weiter, wenn es sich um einen hinzugefügten Service zu diesem Datenstrom handelt.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken Sie unter [!UICONTROL Aktionen] auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;** , um eine Aktion hinzuzufügen.
-1. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf **[!UICONTROL Adobe Experience Platform Web SDK]** und den Aktionstyp ] auf **[!UICONTROL Ereignis senden]**.[!UICONTROL 
+1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
+1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste auf **[!UICONTROL Adobe Experience Platform Web SDK]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Ereignis senden]** fest.
 
-## Ereignis manuell zur Implementierung des Web SDK senden
+## Manuelles Senden des Ereignisses mit Implementierung der Web-SDK
 
-Verwenden Sie den Befehl `sendEvent` , um Daten an Adobe zu senden. Der Datastream empfängt diese Daten, wendet konfigurierte Zuordnungen an und leitet diese Daten an Adobe Analytics weiter, wenn es sich um einen hinzugefügten Dienst für diesen Datastream handelt.
+Verwenden Sie den Befehl `sendEvent` , um Daten an Adobe zu senden. Der Datenstrom empfängt diese Daten, wendet alle konfigurierten Zuordnungen an und leitet diese Daten an Adobe Analytics weiter, wenn es sich um einen hinzugefügten Service zu diesem Datenstrom handelt.
 
 ```js
 alloy("sendEvent", {
@@ -57,20 +57,20 @@ alloy("sendEvent", {
 });
 ```
 
-Weitere Informationen finden Sie unter [Ereignisse verfolgen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de) in der Web SDK-Dokumentation.
+Weitere Informationen finden [ in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de) zu Web SDK unter „Nachverfolgen von Ereignissen“.
 
 ## Seitenansichts-Tracking-Aufruf mit der Adobe Analytics-Erweiterung
 
-Die Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung verfügt über einen speziellen Speicherort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
+Die Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung verfügt über einen speziellen Ort, um einen Seitenansichts-Tracking-Aufruf festzulegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken Sie unter [!UICONTROL Aktionen] auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;** , um eine Aktion hinzuzufügen.
-1. Setzen Sie die Dropdownliste [!UICONTROL Erweiterung] auf **[!UICONTROL Adobe Analytics]** und den Aktionstyp [!UICONTROL 5} auf **[!UICONTROL Beacon senden]**.]
+1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
+1. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
 1. Klicken Sie auf die Optionsschaltfläche `s.t()`.
 
-## s.t()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.t()-Methode im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Rufen Sie die `s.t()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 

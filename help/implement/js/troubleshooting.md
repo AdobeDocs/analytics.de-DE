@@ -21,7 +21,7 @@ Die meisten Variablen, die an Adobe gesendet werden, sind Zeichenfolgen. In Java
 
 ### Mischen von Anführungszeichen bei der Definition einer Variablen
 
-Als Best Practice sollten Sie sicherstellen, dass Sie mit den von Ihnen verwendeten Anführungszeichenarten konsistent sind. Wenn ein einzelnes Anführungszeichen den Anfang einer Zeichenfolge angibt, muss ein einfaches Anführungszeichen zum Schließen verwendet werden.
+Es empfiehlt sich, sicherzustellen, dass Sie mit den verwendeten Angebotstypen übereinstimmen. Wenn ein einzelnes Anführungszeichen den Anfang einer Zeichenfolge angibt, muss ein einfaches Anführungszeichen zum Schließen verwendet werden.
 
 Zum Beispiel sind `s.eVar1 = 'Value'` und `s.eVar1 = "Value"` beide gültig. `s.eVar1 = 'Value"` ist nicht gültig.
 

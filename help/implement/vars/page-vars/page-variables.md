@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# Seitenvariablen-Übersicht
+# Übersicht zu Seitenvariablen
 
 Seitenvariablen bestimmen die Werte für Dimensionen und Metriken in Berichten.
 

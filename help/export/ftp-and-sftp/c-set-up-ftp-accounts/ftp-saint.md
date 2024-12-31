@@ -25,7 +25,7 @@ Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter 
 
 ## Informationen zur `.fin`-Datei für Uploads von Klassifizierungen und Datenquellen {#section_1484719F8A134EAE91212DBD8F15174F}
 
-Wenn Sie eine Classification- oder Data Source-Datei (`.tab` oder `.txt`) hochladen, müssen Sie für den Upload außerdem eine leere Datei mit exakt demselben Namen wie die importierte Datendatei, jedoch mit einer hochladen.`.fin` -Erweiterung. Diese `.fin`-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die `.fin`-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind.
+Beim Hochladen einer Klassifizierungs- oder Source-Datendatei (`.tab` oder `.txt`) müssen Sie auch eine leere Datei mit exakt demselben Namen wie die importierte Datendatei hochladen, jedoch mit .`.fin`. Diese `.fin`-Datei ist eine Finish-Datei. Sie dient dazu, dem System mitzuteilen, dass die Datendatei vollständig in das FTP-Konto hochgeladen wurde. Über die `.fin`-Datei erkennt Adobe, dass Sie mit Ihrem Import fertig sind.
 
 Nachdem Sie sowohl die Quelldatei als auch die `.fin`-Datei übermittelt haben, müssen Sie sich unbedingt von der FTP-Site abmelden. Adobe Analytics verwendet Abmeldeereignisse nämlich als Trigger dafür, dass Dateien zur Verarbeitung bereit sind. Nach Abschluss des Imports entfernt Adobe beide Dateien aus dem FTP-Verzeichnis.
 

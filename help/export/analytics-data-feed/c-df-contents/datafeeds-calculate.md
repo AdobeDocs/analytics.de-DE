@@ -7,7 +7,7 @@ exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 
 ## Vorkommen
 
-1. Zählt die Gesamtzahl der Zeilen.
+1. Zählen Sie die Gesamtzahl der Zeilen.
 
 ## Besuche
 
@@ -34,11 +34,11 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 
 >[!TIP]
 >
->In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie optional `visit_start_time_gmt` bei der Zählung von Besuchen, um sicherzustellen, dass diese Besuche gezählt werden.
+>In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie bei der Zählung von Besuchen `visit_start_time_gmt`, um sicherzustellen, dass diese Besuche gezählt werden, auch wenn dies optional ist.
 
 ## Besucher
 
-Alle Methoden, die Adobe zur Identifizierung von Unique Visitors verwendet (benutzerdefinierte Besucher-ID, Experience Cloud ID-Dienst usw.) werden letztlich als Wert in `post_visid_high` und `post_visid_low` berechnet. Die Verkettung dieser beiden Spalten kann als Standardmethode zur Identifizierung von Unique Visitors verwendet werden, unabhängig davon, wie Besucher als Unique Visitors identifiziert wurden. In der Spalte `post_visid_type` ist die Methode ersichtlich, die Adobe zur Identifizierung eines Unique Visitors verwendet hat.
+Alle Methoden, die Adobe verwendet, um Unique Visitors zu identifizieren (benutzerdefinierte Besucher-ID, Experience Cloud-ID-Service usw.), werden letztendlich als Wert in `post_visid_high` und `post_visid_low` berechnet. Die Verkettung dieser beiden Spalten kann als Standardmethode zur Identifizierung von Unique Visitors verwendet werden, unabhängig davon, wie Besucher als Unique Visitors identifiziert wurden. In der Spalte `post_visid_type` ist die Methode ersichtlich, die Adobe zur Identifizierung eines Unique Visitors verwendet hat.
 
 1. Verketten Sie `post_visid_high` und `post_visid_low`.
 2. Zählen Sie die Anzahl der eindeutigen Werte.

@@ -26,7 +26,7 @@ Verspätete Treffer können von Adobe für einzelne Daten-Feeds manuell aktivier
 
 * Daten für verschiedene Tage werden häufig dann in Daten-Feeds angezeigt, wenn verspätete Treffer aktiviert sind. Stellen Sie sicher, dass die Plattform, die Sie zum Erfassen von Daten-Feeds verwenden, Daten aus verschiedenen Tagen in derselben Datei aufnehmen kann.
 * Bei verspäteten Treffern verlängert sich die Verarbeitungszeit. In der Regel beträgt diese Verzögerung weniger als eine Stunde, kann aber mehrere Stunden betragen, wenn Ihre Report Suite eine große Anzahl verspäteter Treffer erhält. Adobe empfiehlt, diese Einstellung nicht zu aktivieren, wenn der zeitgerechte Empfang von Daten-Feeds für den Arbeitsablauf in Ihrem Unternehmen wichtig ist.
-* Wenn eine Daten-Feed-Datei erneut verarbeitet wird, werden die verspäteten Treffer, die in der Originaldatei enthalten waren, in die erneut verarbeitete Datei aufgenommen, wenn die Neuverarbeitung innerhalb der ersten 5 Tage erfolgt. Nach 5 Tagen werden verspätete Treffer nicht mehr in die erneut verarbeitete Datei aufgenommen.
+* Wenn eine Daten-Feed-Datei erneut verarbeitet wird, werden die in der Originaldatei enthaltenen verspäteten Treffer in die erneut verarbeitete Datei aufgenommen, wenn die Neuverarbeitung innerhalb der ersten 5 Tage erfolgt. Nach 5 Tagen werden verspätete Treffer nicht in die erneut verarbeitete Datei aufgenommen.
 
 Wenn Sie für einen vorhandenen wiederkehrenden Daten-Feed verspätete Treffer aktivieren möchten, bitten Sie einen unterstützten Benutzer, sich an die Kundenunterstützung zu wenden und folgende Angaben zu machen:
 

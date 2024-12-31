@@ -1,6 +1,6 @@
 ---
 title: Dynamische Suchen
-description: Erfahren Sie, was dynamische Suchen sind und wie sie aktiviert werden. Enthält Träger, Attribute für Mobilgeräte und Betriebssystemtypen.
+description: Erfahren Sie, was dynamische Suchen sind und wie Sie sie aktivieren. Umfasst Provider, Attribute für Mobilgeräte und Betriebssystemtypen.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
@@ -12,40 +12,40 @@ ht-degree: 1%
 
 # Dynamische Suchen
 
-Mit dynamischen Suchen können Sie zusätzliche Lookup-Dateien in Ihrem Daten-Feed erhalten, wenn sie andernfalls nicht verfügbar sind. Mit dieser Einstellung können die folgenden Suchtabellen mit jeder Daten-Feed-Datei gesendet werden:
+Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:
 
-* **Betreibername**: Stellt zusätzlichen Kontext für die Spalte `carrier` bereit. Der einbezogene Dateiname ist `carrier.tsv`.
-* **Mobile Attribute**: Bietet zusätzlichen Kontext für die Spalte `mobile_id`, einschließlich aller für jedes Mobilgerät verfolgten Funktionen. Der einbezogene Dateiname ist `mobile_attributes.tsv`.
-* **Betriebssystemtyp**: Stellt einen alternativen Kontext für die Spalte `os` bereit. Sowohl `operating_systems.tsv` als auch `operating_system_type.tsv` verwenden die Spalte `os` als Schlüssel, aber nur `operating_system_type.tsv` ist eine dynamische Suche.
+* **Betreibername**: Bietet zusätzlichen Kontext für die `carrier`. Der eingeschlossene Dateiname lautet `carrier.tsv`.
+* **Mobile-Attribute**: Bietet zusätzlichen Kontext für die Spalte &quot;`mobile_id`&quot;, einschließlich aller für jedes Mobilgerät verfolgten Funktionen. Der eingeschlossene Dateiname lautet `mobile_attributes.tsv`.
+* **Betriebssystemtyp**: Bietet einen alternativen Kontext für die `os`. Sowohl `operating_systems.tsv` als auch `operating_system_type.tsv` verwenden die `os` als Schlüssel. Nur `operating_system_type.tsv` ist eine dynamische Suche.
 
 ## Dynamische Suchen aktivieren
 
-Wenn Sie die erwähnten Lookup-Dateien erhalten möchten, müssen Sie alle folgenden Voraussetzungen erfüllen:
+Wenn Sie die genannten Lookup-Dateien erhalten möchten, müssen Sie alle folgenden Voraussetzungen erfüllen:
 
 * Die Schlüsselspalte muss im Daten-Feed enthalten sein.
-   * Für `carrier.tsv` müssen Sie `carrier` einbeziehen.
-   * Für `mobile_attributes.tsv` müssen Sie `mobile_id` einbeziehen.
-   * Für `operating_system_type.tsv` müssen Sie `os` einbeziehen.
-* Die folgenden Spalten müssen **excluded** sein. Wenn eine dieser Spalten im Daten-Feed enthalten ist, wird die dynamische Suche `mobile_attributes.tsv` nicht einbezogen.
+   * `carrier.tsv` müssen Sie `carrier` einbeziehen.
+   * `mobile_attributes.tsv` müssen Sie `mobile_id` einbeziehen.
+   * `operating_system_type.tsv` müssen Sie `os` einbeziehen.
+* Die folgenden Spalten müssen **ausgeschlossen** sein. Wenn eine dieser Spalten im Daten-Feed enthalten ist, wird die `mobile_attributes.tsv` dynamische Suche nicht einbezogen.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
 
-Sobald Ihr Daten-Feed die Aufnahme- und Ausschlussanforderungen für Spalten erfüllt, wenden Sie sich mit der Daten-Feed-ID an die Kundenunterstützung und fordern Sie die Aktivierung dynamischer Suchen an.
+Sobald Ihr Daten-Feed die Spalten-Ein- und Ausschlussanforderungen erfüllt, wenden Sie sich mit der Daten-Feed-ID und der Anfrage an die Kundenunterstützung, um dynamische Suchen zu aktivieren.
 
-## Lookup-Kopfzeilenreferenz
+## Kopfzeilenreferenz nachschlagen
 
-Spaltenüberschriften für diese Lookup-Dateien ändern sich im Laufe der Zeit nicht, sodass Header nicht in jeder Daten-Feed-Datei enthalten sind. Verwenden Sie diese Spaltenüberschriften als Referenz oder laden Sie die entsprechende `.tsv` -Datei herunter.
+Die Spaltenüberschriften für diese Lookup-Dateien ändern sich im Laufe der Zeit nicht, sodass keine Kopfzeilen in jeder Daten-Feed-Datei enthalten sind. Verwenden Sie diese Spaltenüberschriften als Referenz oder laden Sie die entsprechende `.tsv` herunter.
 
 +++**Betreibername**
-Laden Sie [carrier_headers.tsv](assets/carrier_headers.tsv) herunter oder referenzieren Sie die folgenden Header.
+Laden Sie [carrier_headers.tsv](assets/carrier_headers.tsv) herunter oder verweisen Sie auf die folgenden Kopfzeilen.
 
 `carrier`
 `Carrier Name`
 +++
 
-+++**Mobile Attribute**
-Laden Sie [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) herunter oder referenzieren Sie die folgenden Header.
++++**Attribute für Mobilgeräte**
+Laden Sie [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) herunter oder verweisen Sie auf die folgenden Kopfzeilen.
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ Laden Sie [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) 
 +++
 
 +++**Betriebssystemtyp**
-Laden Sie [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) herunter oder referenzieren Sie die folgenden Header.
+Laden Sie [Operating_System_Type_Headers.tsv](assets/operating_system_type_headers.tsv) herunter oder verweisen Sie auf die folgenden Header.
 
 `os`
 `Operating System Type`

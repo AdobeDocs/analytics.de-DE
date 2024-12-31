@@ -1,5 +1,5 @@
 ---
-title: Fehlerbehebung bei Data Warehouse Request Delivery Times
+title: Fehlerbehebung bei den Lieferzeiten von Data Warehouse-Anfragen
 description: Ermitteln Sie potenzielle Probleme mit einer Data Warehouse-Anforderung, die die Versandzeiten verlängern können.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
@@ -23,20 +23,20 @@ Eine bestimmte Data Warehouse-Anforderung kann zwischen einer Stunde und mehrere
 * Die Anzahl der gleichzeitig verarbeiteten Anforderungen,
 * VISTA-Regeln, falls für die Anwendung auf Data Warehouse-Anforderungen konfiguriert.
 
-## Anforderungen zur Beschleunigung des Versands ändern
+## Anforderungen ändern, um den Versand zu beschleunigen
 
-Wenn Data Warehouse-Anfragen konsistent lange dauern, sollten Sie Ihre Anforderungen ändern. Das Ändern einer Anfrage ist die einzige Möglichkeit, die Bereitstellung einer Data Warehouse-Anfrage zu beschleunigen.
+Wenn Data Warehouse-Anfragen durchgängig viel Zeit beanspruchen, sollten Sie Ihre Anfragen ändern. Die einzige Möglichkeit, den Versand einer Data Warehouse-Anfrage zu beschleunigen, besteht darin, eine Anfrage zu ändern.
 
-Um die Bereitstellung einer Data Warehouse-Anfrage zu beschleunigen, können Sie sie auf eine der folgenden Arten ändern:
+Um die Bereitstellung einer Data Warehouse-Anfrage zu beschleunigen, können Sie sie wie folgt ändern:
 
 * **Verwenden Sie ein Segment, das eine kleinere Stichprobe von Daten enthält**: Je weniger Daten eine Anforderung enthält, desto schneller wird ein Bericht zurückgegeben.
-* **Anforderungen in Schritten von 14 Tagen oder weniger ausführen**: Kleinere Anforderungen werden schneller verarbeitet als große Anforderungen.
-* **Weniger Aufschlüsselungen verwenden:** Viele Aufschlüsselungen in einer Anforderung erhöhen exponentiell die Verarbeitungszeit.
+* **Anfragen in 14-tägigen Intervallen oder weniger ausführen** Kleinere Anfragen werden schneller verarbeitet als große Anfragen.
+* **Weniger Aufschlüsselungen verwenden** Viele Aufschlüsselungen in einer Anfrage erhöhen exponentiell die Verarbeitungszeit.
 
-## Alternative Methode verwenden
+## Verwenden einer alternativen Methode
 
 Wenn Sie diese Art von Berichten schneller benötigen, ziehen Sie die folgenden Alternativen in Betracht:
 
 * **Analysis Workspace**: Obwohl keine unbegrenzten Dimensionselemente verfügbar sind, sind fast alle anderen Anwendungsfälle enthalten, die von Data Warehouse bereitgestellt werden.
-* **Datenfeed**: Nimmt täglich alle Rohdaten in einer Report Suite auf und sendet sie an ein Cloud-Ziel. Sie können dann die Daten in Ihre eigene Datenbank importieren und Abfragen ausführen, um die benötigten Daten abzurufen.
+* **Daten-Feed**: Alle Rohdaten in einer Report Suite werden täglich abgerufen und an ein Cloud-Ziel gesendet. Anschließend können Sie die Daten in Ihre eigene Datenbank importieren und Abfragen ausführen, um die benötigten Daten abzurufen.
 * **Individuelle Engineering Services-Lösung**: Adobe Engineering Services bieten gegen Aufpreis eine individuelle Lösung für Ihr Unternehmen. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.

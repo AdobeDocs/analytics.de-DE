@@ -13,13 +13,13 @@ ht-degree: 56%
 
 # Zuordnung von XDM-Objektvariablen zu Adobe Analytics
 
-Die folgende Tabelle zeigt die XDM-Variablen, die das Adobe Experience Platform-Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden. Diese Felder sind in der Feldergruppe **[!UICONTROL Adobe Analytics ExperienceEvent Template]** enthalten. Die Verwendung dieser Felder wird empfohlen, wenn Sie Daten an Adobe Analytics und Adobe Experience Platform senden möchten.
+Die folgende Tabelle zeigt die XDM-Variablen, die das Adobe Experience Platform-Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese XDM-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden. Diese Felder sind in der Feldergruppe **[!UICONTROL Adobe Analytics ExperienceEvent Template]** enthalten. Die Verwendung dieser Felder wird empfohlen, wenn Sie Daten sowohl an Adobe Analytics als auch an Adobe Experience Platform senden möchten.
 
-Wenn Ihr Unternehmen plant, zu Customer Journey Analytics zu wechseln, empfiehlt Adobe stattdessen die Verwendung des `data` -Objekts, um Daten direkt an Adobe Analytics zu senden, ohne einem Schema zu entsprechen. Diese Strategie ermöglicht es Ihrem Unternehmen, Ihr eigenes Schema zu verwenden, anstatt die [!UICONTROL Adobe Analytics ExperienceEvent-Vorlage] zu verwenden (was weniger auf Customer Journey Analytics anwendbar ist). Eine ähnliche Zuordnungstabelle finden Sie unter [Zuordnung von Datenobjektvariablen zu Adobe Analytics](data-var-mapping.md) .
+Wenn Ihr Unternehmen plant, auf Customer Journey Analytics umzusteigen, empfiehlt Adobe, stattdessen das `data`-Objekt zu verwenden, um Daten direkt an Adobe Analytics zu senden, ohne einem Schema zu entsprechen. Diese Strategie ermöglicht es Ihrem Unternehmen, Ihr eigenes Schema zu verwenden, anstatt die [!UICONTROL Adobe Analytics ExperienceEvent-Vorlage] zu verwenden (was weniger auf Customer Journey Analytics anwendbar ist). Siehe [Zuordnung von Datenobjektvariablen zu Adobe Analytics](data-var-mapping.md) für eine ähnliche Zuordnungstabelle.
 
 ## Wertprioritäten
 
-Die meisten XDM-Objektfelder in dieser Tabelle entsprechen einem [Datenobjektfeld](data-var-mapping.md). Wenn Sie sowohl ein bestimmtes XDM-Objektfeld als auch das entsprechende Datenobjektfeld festlegen, hat das Datenobjektfeld Priorität. Wenn Sie sowohl das XDM-Objektfeld als auch das Datenobjektfeld verwenden, empfiehlt Adobe, benutzerdefinierte Ereignisse mithilfe des Datenobjektfelds festzulegen. Wenn das Feld `data.__adobe.analytics.events` vorhanden ist, werden alle XDM-Objektfelder, die mit Commerce- und benutzerspezifischen Ereignissen verknüpft sind, überschrieben.
+Die meisten XDM-Objektfelder in dieser Tabelle entsprechen einem [Datenobjektfeld](data-var-mapping.md). Wenn Sie sowohl ein bestimmtes XDM-Objektfeld als auch das entsprechende Datenobjektfeld festlegen, hat das Datenobjektfeld Priorität. Wenn Sie sowohl das XDM-Objektfeld als auch das Datenobjektfeld verwenden, empfiehlt Adobe, benutzerdefinierte Ereignisse mithilfe des Datenobjektfelds festzulegen. Wenn das Feld `data.__adobe.analytics.events` vorhanden ist, werden alle XDM-Objektfelder im Zusammenhang mit Commerce- und benutzerdefinierten Ereignissen überschrieben.
 
 ## XDM-Objektfeldzuordnung
 
@@ -79,43 +79,43 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Erhöht die jeweilige Metrik [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md) um den gewünschten Betrag. Jedes Ereignis befindet sich in seinem übergeordneten 100-Gruppen-Element. Das Feld für `event567` ist zum Beispiel `xdm._experience.analytics.event501to600.event567.value`. |
 | `xdm.identityMap.ECID[0].id` | Die [Adobe Experience Cloud Identity Service-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). |
 | `xdm.marketing.trackingCode` | Definiert die Dimension [Trackingcode](../../components/dimensions/tracking-code.md). |
-| `xdm.media.mediaTimed.completes.value` | Die Metrik für Streaming-Medien [Inhaltsbeendigung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-complete). |
+| `xdm.media.mediaTimed.completes.value` | Die Metrik &quot;[ abgeschlossen](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-complete) für Streaming-Medien |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`, `c.a.media.timePlayed`, `c.a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | Die Metrik für Streaming-Medien [Federated Data](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#federated-data). |
-| `xdm.media.mediaTimed.firstQuartiles.value` | Die Streaming-Medien-Metrik [5 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#twenty-five-progress-marker). |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | Die Metrik für Streaming-Medien [Ansichten des Inhaltssegments](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-segment-views). |
-| `xdm.media.mediaTimed.midpoints.value` | Die Streaming-Medien-Metrik [50 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#fifty-progress-marker). |
-| `xdm.media.mediaTimed.pauseTime.value` | Die Metrik für Streaming-Medien [Pausierung - Gesamtdauer ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#total-pause-duration). |
-| `xdm.media.mediaTimed.pauses.value` | Die Streaming-Medien-Metrik [Pausenereignisse](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#pause-events). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | Die Dimension für Streaming-Medien [Asset-ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#asset-id). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Die Dimension für Streaming-Medien [Videoname](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#video-name). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Die Dimension für Streaming-Medien [Urheber](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#originator). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Die Dimension für Streaming-Medien [Folge](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#episode). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Die Dimension für Streaming-Medien [Genre](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#genre). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Die Dimension &quot;Streaming-Medien&quot;[Inhaltsbewertung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-rating). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Die Dimension für Streaming-Medien [Staffel](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#season). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Die Dimension für Streaming-Medien [Inhalts-ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-id). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Die Dimension &quot;Streaming-Medien&quot;[Anzeigen](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#show). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | Die Dimension für Streaming-Medien [Show Type](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#show-type). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Die Dimension für Streaming-Medien [Videolänge](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#video-length). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Die Dimension für Streaming-Medien [Mediensitzungs-ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-session-id). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Die Dimension für Streaming-Medien [Inhaltskanal](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-channel). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Die Dimension für Streaming-Medien [Content-Typ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-type). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Die Dimension für Streaming-Medien [Netzwerk](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#network). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Die Dimension für Streaming-Medien [Inhaltssegment](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-segment). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Die Dimension für Streaming-Medien [Inhalts-Player-Name](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-player-name). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Die Dimension &quot;Streaming-Medien&quot;[SDK-Version](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#sdk-version). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Die Dimension für Streaming-Medien [Medien-Feed-Typ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-feed-type). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Die Dimension für Streaming-Medien [Stream-Format](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#stream-format). |
+| `xdm.media.mediaTimed.federated.value` | Die Metrik &quot;[&quot; ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#federated-data) Streaming-Medien. |
+| `xdm.media.mediaTimed.firstQuartiles.value` | Die Metrik für Streaming-[ (25 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#twenty-five-progress-marker). |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | Die Metrik für Streaming-[ (Inhaltssegmentansichten](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-segment-views). |
+| `xdm.media.mediaTimed.midpoints.value` | Die Metrik für Streaming-Medien [50 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#fifty-progress-marker). |
+| `xdm.media.mediaTimed.pauseTime.value` | Die Metrik Streaming-Medien [Pausierung - ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#total-pause-duration). |
+| `xdm.media.mediaTimed.pauses.value` | Die Metrik Streaming-Medien [Pause-Ereignisse](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#pause-events). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | Die Dimension Streaming-Medien [Asset-ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#asset-id). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Die Dimension Streaming-Medien [Videoname](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#video-name). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Die Dimension Streaming-Medien [Urheber](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#originator). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Die Dimension Streaming-Medien [Folge](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#episode). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Die Dimension Streaming-Medien [Genre](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#genre). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Die Dimension Streaming-Medien [Inhaltsbewertung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-rating). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Die Dimension Streaming-Medien [Staffel](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#season). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Die Dimension Streaming-Medien [Inhalts-ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-id). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Die Dimension Streaming-Medien [Anzeigen](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#show). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | Die Dimension Streaming-Medien [Sendungstyp](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#show-type). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Die Dimension Streaming-Medien [Videolänge](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#video-length). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Die Dimension Streaming-Medien [Mediensitzungs-ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-session-id). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Die Dimension Streaming-Medien [Inhaltskanal](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-channel). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Die Dimension Streaming-Medien [Content-Typ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-type). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Die Dimension Streaming-Medien [Netzwerk](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#network). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Die Dimension „Streaming[Medien-](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-segment)&quot; |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Die Dimension Streaming-Medien [Name des Inhalts](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-player-name). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Die Streaming-Medien-Dimension [SDK Version](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#sdk-version). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Die Dimension „Streaming[Medien-Feed-Typ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-feed-type). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Die Dimension Streaming-Medien [Stream-Format](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#stream-format). |
 | `xdm.media.mediaTimed.progress10.value` | Die Streaming-Medien-Metrik [10 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#ten-progress-marker). |
-| `xdm.media.mediaTimed.progress95.value` | Die Streaming-Medien-Metrik [95 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#ninety-five-progress-marker). |
+| `xdm.media.mediaTimed.progress95.value` | Die Streaming-Medien[Metrik 95 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#ninety-five-progress-marker). |
 | `xdm.media.mediaTimed.resumes.value` | Die Metrik für Streaming-Medien [Inhaltswiederaufnahmen](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-resumes). |
-| `xdm.media.mediaTimed.starts.value` | Die Metrik für Streaming-Medien [Medienstarts](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-starts). |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | Die Streaming-Medien-Metrik [75 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#seventy-five-progress-marker). |
-| `xdm.media.mediaTimed.timePlayed.value` | Die Metrik für Streaming-Medien [Besuchszeit für Inhalt](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-time-spent). |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | Die Metrik für Streaming-Medien [Besuchszeit für Medien](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-time-spent). |
-| `xdm.placeContext.geo._schema.latitude` | Die Position des Besuchers im Breitengrad. Hilft bei der Festlegung von [Standort des mobilen Lebenszyklus](/help/components/dimensions/lifecycle-dimensions.md) -Dimensionen. |
-| `xdm.placeContext.geo._schema.longitude` | Der Längengrad des Besuchers. Hilft bei der Festlegung von [Standort des mobilen Lebenszyklus](/help/components/dimensions/lifecycle-dimensions.md) -Dimensionen. |
+| `xdm.media.mediaTimed.starts.value` | Die Metrik Streaming-Medien [Medienstarts](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-starts). |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | Die Metrik für Streaming-[ (75 % Fortschrittsmarkierung](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#seventy-five-progress-marker). |
+| `xdm.media.mediaTimed.timePlayed.value` | Die Metrik Streaming-Medien [Besuchszeit für Inhalt](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#content-time-spent). |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | Die Metrik „Besuchszeit für Streaming[Medien](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=de#media-time-spent). |
+| `xdm.placeContext.geo._schema.latitude` | Der Breitengrad-Standort des Besuchers. Ermöglicht die Definition [ Dimensionen für den mobilen ](/help/components/dimensions/lifecycle-dimensions.md). |
+| `xdm.placeContext.geo._schema.longitude` | Die Längengrad-Position des Besuchers. Ermöglicht die Definition [ Dimensionen für den mobilen ](/help/components/dimensions/lifecycle-dimensions.md). |
 | `xdm.placeContext.geo.postalCode` | Die Dimension [Postleitzahl](../../components/dimensions/zip-code.md). |
 | `xdm.placeContext.geo.stateProvince` | Die Dimension [US-Bundesstaaten](../../components/dimensions/us-states.md). |
 | `xdm.placeContext.localTime` | Erscheint in [Daten-Feeds](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) als `t_time_info`. |
@@ -142,11 +142,11 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 
 ## Zuordnen anderer XDM-Felder zu Analytics-Variablen
 
-Wenn es Dimensionen oder Metriken gibt, die Sie zu Adobe Analytics hinzufügen möchten, können Sie dies über [Kontextdatenvariablen](../vars/page-vars/contextdata.md) tun.
+Wenn Sie Dimensionen oder Metriken zu Adobe Analytics hinzufügen möchten, können Sie dies über &quot;[&quot; ](../vars/page-vars/contextdata.md).
 
 ### Implizite Zuordnung
 
-Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix `a.x.` an Adobe Analytics gesendet. Sie können diese Kontextdatenvariable dann mithilfe von [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
+Alle XDM-Feldelemente, die nicht automatisch zugeordnet werden, werden als Kontextdaten mit dem Präfix an Adobe Analytics gesendet. `a.x.` Sie können diese Kontextdatenvariable dann mithilfe von [Verarbeitungsregeln“ der gewünschten Analytics-](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) zuordnen. Angenommen, Sie senden das folgende Ereignis:
 
 ```js
 alloy("event",{
@@ -160,13 +160,13 @@ alloy("event",{
 })
 ```
 
-Das Web SDK sendet diese Daten als die Kontextdatenvariable `a.x._atag.search.term` an Adobe Analytics. Anschließend können Sie eine Verarbeitungsregel verwenden, um diesen Wert der Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. &quot;`eVar`&quot;:
+Das Web SDK sendet diese Daten als die Kontextdatenvariable `a.x._atag.search.term` an Adobe Analytics. Anschließend können Sie eine Verarbeitungsregel verwenden, um den Wert dieser Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. eine `eVar`:
 
 ![Suchbegriff-Verarbeitungsregel](assets/examplerule.png)
 
 ## Explizites Mapping
 
-Sie können XDM-Feldelemente auch explizit als Kontextdaten zuordnen. Jedes XDM-Feldelement, das explizit mithilfe des Elements `contextData` zugeordnet ist, wird als Kontextdaten ohne Präfix an Adobe Analytics gesendet. Sie können dann diese Kontextdatenvariable unter Verwendung von [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
+Sie können XDM-Feldelemente auch explizit als Kontextdaten zuordnen. Jedes XDM-Feldelement, das mithilfe des `contextData` explizit zugeordnet wird, wird als Kontextdaten ohne Präfix an Adobe Analytics gesendet. Sie können dann diese Kontextdatenvariable unter Verwendung von [Verarbeitungsregeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=de) der gewünschten Analytics-Variablen zuordnen. Angenommen, Sie senden das folgende Ereignis:
 
 ```js
 alloy("event",{
@@ -182,6 +182,6 @@ alloy("event",{
 })
 ```
 
-Das Web SDK sendet diese Daten als Kontextdatenvariable `somevalue` mit dem Wert `1` an Adobe Analytics.  Anschließend können Sie eine Verarbeitungsregel verwenden, um diesen Wert der Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. &quot;`eVar`&quot;:
+Web SDK sendet diese Daten an Adobe Analytics als die Kontextdatenvariable `somevalue` mit dem Wert `1`.  Anschließend können Sie eine Verarbeitungsregel verwenden, um den Wert dieser Kontextdatenvariablen der gewünschten Analytics-Variablen zuzuweisen, z. B. eine `eVar`:
 
 ![Suchbegriff-Verarbeitungsregel](assets/examplerule-explicit.png)

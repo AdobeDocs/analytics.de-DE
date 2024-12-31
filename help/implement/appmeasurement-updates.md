@@ -17,62 +17,62 @@ Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Sie können die neueste Version von AppMeasurement von [GitHub](https://github.com/adobe/appmeasurement/releases) herunterladen.
+Sie können die neueste AppMeasurement-Version von [GitHub](https://github.com/adobe/appmeasurement/releases) herunterladen.
 
 ## Version 2.27.0
 
 Releasedatum: **Dienstag, 12. August 2024**
 
-* Das Cookie `s_ac` wird jetzt mit der Markierung `secure` geschrieben, wenn `writeSecureCookies` aktiviert wurde.
-* Fehlerkorrektur - Jetzt tritt kein Initialisierungsfehler mehr auf, wenn die Bibliothek inline eingebettet wird.
-* Es wurde ein Fehler behoben, der auftrat, wenn `localStorage` oder `sessionStorage` deaktiviert war.
-* Hohe Entropy-Benutzeragenten-Hinweise sind jetzt mit Linktracking-Aufrufen (`tl`) enthalten, wenn `collectHighEntropyUserAgentHints` aktiviert wurde.
+* Das `s_ac`-Cookie wird jetzt mit der `secure`-Markierung geschrieben, wenn `writeSecureCookies` aktiviert wurde.
+* Fehlerkorrektur - Bei der Initialisierung tritt jetzt kein Fehler mehr auf, wenn die Bibliothek inline eingebettet ist.
+* Fehlerkorrektur - Wenn `localStorage` oder `sessionStorage` deaktiviert wurden, tritt jetzt kein Fehler mehr auf.
+* Benutzeragenten-Hinweise mit hoher Entropie sind jetzt in Linktracking-Aufrufen (`tl`) enthalten, wenn `collectHighEntropyUserAgentHints` aktiviert wurde.
 
 ## Version 2.26.0
 
 Releasedatum: **Dienstag, 4. März 2024**
 
-* AppMeasurement erkennt und verwendet automatisch die Stammdomäne für Domänen mit Ländercode auf oberster Ebene, für die zuvor spezifische Cookie-Domänenkonfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Weitere Informationen finden Sie unter [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) .
-* Die Verteilung umfasst Identity Service Library 5.5.0 und Data Integration Library 9.6.
+* AppMeasurement erkennt automatisch die Stamm-Domain für Länder-Code-Domains auf oberster Ebene und verwendet sie, für die zuvor bestimmte Cookie-Domain-Konfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Weitere Informationen finden Sie unter [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) .
+* Die Verteilung umfasst die Identity Service-Bibliothek 5.5.0 und Data Integration Library 9.6.
 
 ## Version 2.25.0
 
 Veröffentlichungsdatum: **Mittwoch, 12. September 2023**
 
-* Die optionale Methode [`bufferRequests()`](vars/functions/bufferrequests.md) wurde hinzugefügt, um die Zuverlässigkeit bei der Erfassung von Anforderungen zu erhöhen, wenn ein Browser die Beacon-API nicht unterstützt oder Anforderungen beim Entladen einer Seite abbricht.
-* Es wurden Schutzmechanismen hinzugefügt, um mehrere Nachverfolgungsrückrufe für eine einzelne Tracking-Anfrage zu verhindern.
+* Es wurde die optionale Methode [`bufferRequests()`](vars/functions/bufferrequests.md) hinzugefügt, um die Zuverlässigkeit der Erfassung von Anfragen zu erhöhen, wenn ein Browser die Beacon-API nicht unterstützt, oder Anfragen beim Entladen einer Seite abbricht.
+* Es wurden Sicherheitsmaßnahmen hinzugefügt, um mehrere Nachverfolgungs-Callbacks für eine einzelne Verfolgungsanfrage zu verhindern.
 
 ## Version 2.24.0
 
 Releasedatum: **Mittwoch, 18. Juli 2023**
 
-* Die optionale Konfigurationsvariable [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) wurde hinzugefügt, um Link-URLs zu dekodieren, die doppelt-Byte-kodierte Zeichen enthalten.
-* Zusätzliche Fehlerbehandlung für Browser mit fehlerhafter High-Entropy User-Agent-Client-Hints-APIs mit hoher Entropie.
-* Die POST Content-Type -Kopfzeile wurde geändert, sodass standardmäßig `x-www-form-urlencoded` verwendet wird.
+* Es wurde die optionale Konfigurationsvariable [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) hinzugefügt, um Link-URLs zu decodieren, die doppelbyte-codierte Zeichen enthalten.
+* Es wurde eine zusätzliche Fehlerbehandlung für Browser mit fehlerhaften APIs für Benutzeragenten-Client-Hinweise mit hoher Entropie hinzugefügt.
+* Die Kopfzeile des Inhaltstyps der POST wurde so geändert, dass `x-www-form-urlencoded` standardmäßig verwendet wird.
 
 ## Version 2.23.0
 
 Veröffentlichungsdatum: **23. September 2022**
 
-* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Clienthinweise über Tags konfigurieren oder die Konfigurationsvariable [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) verwenden. Die Sammlung von Hinweisen zur Entropie mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
+* AppMeasurement unterstützt jetzt die Erfassung von Benutzeragenten-Client-Hinweisen mit hoher Entropie, die von Chromium-Browsern (Google Chrome und Microsoft Edge) verwendet werden, um Geräteinformationen bereitzustellen. Sie können Client-Hinweise über Tags konfigurieren oder die Konfigurationsvariable [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) verwenden. Die Sammlung von Hinweisen mit hoher Entropie ist standardmäßig deaktiviert. Weitere Informationen zu Benutzeragenten-[Client-Hinweisen](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
 Veröffentlichungsdatum: **18. Januar 2022**
 
-* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es sich nicht um einen `string` handelt, wird das Attribut `href` graziös ignoriert, anstatt fehlzuschlagen. Dieses Szenario kann auftreten, wenn Sie `svg` -Objekte an den Linktracking-Aufruf übergeben.
+* Der Linktracking-Aufruf `s.tl()` überprüft jetzt, ob das Objekt, das an diesen übergeben wird, ein `href`-Attribut des Typs `string` enthält. Wenn es sich nicht um einen `string` handelt, wird das `href`-Attribut einfach ignoriert, anstatt fehlzuschlagen. Dieses Szenario kann eintreten, wenn Sie `svg` -Objekte an den Linktracking-Aufruf übergeben.
 
 ## Version 2.22.3
 
 Releasedatum: **11. Oktober 2021**
 
-* Die Links in Dateien, die auf die Dokumentation verweisen, wurden aktualisiert.
+* Links in Dateien, die auf die -Dokumentation verweisen, wurden aktualisiert.
 
 ## Version 2.22.2
 
 Releasedatum: **7. September 2021**
 
-* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden Sie unter [Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) im Admin-Benutzerhandbuch.
+* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden [ im ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) „Datenschutzberichte“ im Admin-Benutzerhandbuch.
 
 ## Version 2.22.1
 
@@ -356,7 +356,7 @@ Releasedatum: **5. November 2015**
 Releasedatum: **17. September 2015**
 
 * Aufnahme der Visitor API 1.5.2
-* Aktualisierung des [!DNL Audience Manager]-Moduls zur Verwendung von Adobe Audience Manager DIL 6.2 - Abrufen von Kunden-IDs von VisitorAPI.js und Übergeben dieser IDs im /event-Aufruf an Adobe Audience Manager. (AN-104978)
+* Das [!DNL Audience Manager] wurde aktualisiert, um Adobe Audience Manager DIL 6.2 - getCustomer IDs von VisitorAPI.js zu verwenden und sie im /event-Aufruf an Adobe Audience Manager zu übergeben. (AN-104978)
 
 ## Version 1.5
 
@@ -370,8 +370,8 @@ Releasedatum: **18. Juni 2015**
 
 Releasedatum: **21. Mai 2015**
 
-* Ab iOS SDK-Version 4.5 können Sie mit einer neuen iOS-Erweiterung Nutzungsdaten aus Ihren Apple Watch-Apps, Today Widgets, Foto Editing Widgets und allen anderen iOS-Erweiterungs-Apps erfassen.
-* Ab Android SDK-Version 4.5 können Sie mit einer neuen Android-Erweiterung Daten aus Ihrer Android Wearable App erfassen.
+* Ab iOS SDK Version 4.5 können Sie mit einer neuen iOS-Erweiterung Nutzungsdaten aus Ihren Apple Watch-Apps, Today-Widgets, Fotobearbeitungs-Widgets und allen anderen iOS-Erweiterungs-Apps erfassen.
+* Ab Android SDK Version 4.5 können Sie mit einer neuen Android-Erweiterung Daten aus Ihrer Android Wearable-App erfassen.
 * Aufnahme der Visitor API 1.4.
 * AudienceManagement-Modul für die Verwendung von DIL-Version 6.0 aktualisiert.
 
@@ -392,7 +392,7 @@ Releasedatum: **16. April 2015**
 Releasedatum: **19. Februar 2015**
 
 * Die Verarbeitung aller verzögerten Tracking-Aufrufe wurde vereinheitlicht. Dadurch werden Probleme mit während der Verzögerung zurückgestellten Variablen, z. B. dem angeklickten Objekt, behoben.
-* Geändert, sodass kein automatisches Referrer-Tracking nach dem ersten Tracking-Aufruf stattfindet. Der zweite, dritte usw. Tracking-Aufruf (im Regelfall Linktracking) zählen somit den Referrer nicht doppelt, wenn *`s.referrer`* vor dem ersten Tracking-Aufruf manuell eingestellt wurde.
+* Geändert, sodass nach dem ersten Tracking-Aufruf kein automatisches Referrer-Tracking stattfindet. Der zweite, dritte usw. Tracking-Aufruf (in der Regel Linktracking) zählen daher den Referrer nicht doppelt, wenn *`s.referrer`* vor dem ersten Tracking-Aufruf manuell festgelegt wurde.
 * Die ZIP-Datei für die Verteilung wurde aktualisiert und enthält nun die Visitor API 1.3.5.
 
 ## Version 1.4.2

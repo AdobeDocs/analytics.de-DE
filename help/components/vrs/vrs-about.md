@@ -18,7 +18,7 @@ Bei vielen Kunden fließen Daten in eine globale Report Suite aber auch in klein
 
 Beispielsweise können Sie alle Daten in einer einzelnen Report Suite erfassen, aber anschließend Report Suites einrichten, sodass die Personen in Ihrem Unternehmen Zugriff auf einen Teil der Daten haben, jedoch nicht auf alle. Die Daten können nach Region eingeteilt werden. Möglicherweise verwenden Sie für verschiedene Länder unterschiedliche Websites. Weitere Beispiele sind spezielle Marken, die zwar zu einem größeren Unternehmen gehören, aber jeweils über ein eigenes Marketingteam verfügen.
 
-Mit einer *Virtual Report Suite* können Sie dieses Verzweigungskonzept mithilfe von Segmenten anstelle mehrerer Report Suites reproduzieren. Die Daten werden an eine Report Suite gesendet und anschließend nach Segmenten aufgeteilt. Anhand des Beispiels mit mehreren Marken können Sie für die Marke, zu der ein Element gehört, eine Eigenschaft einrichten. Mithilfe von Segmenten können Sie einen Bericht zu den Elementen erstellen, die den einzelnen Eigenschaften zugewiesen sind. Alle diese Segmente erhalten eine eigene Ansicht, wobei gewissermaßen eine neue Report Suite erstellt wird. Es werden keine Daten an das jeweilige Segment gesendet, sondern nur an die globale Report Suite. Sie funktioniert jedoch in Ihren Berichten wie eine andere Report Suite.
+Mit *Virtual Report Suite* können Sie dieses Verzweigungskonzept reproduzieren, indem Sie Segmente anstelle mehrerer Report Suites verwenden. Die Daten werden an eine Report Suite gesendet und anschließend nach Segmenten aufgeteilt. Anhand des Beispiels mit mehreren Marken können Sie für die Marke, zu der ein Element gehört, eine Eigenschaft einrichten. Mithilfe von Segmenten können Sie einen Bericht zu den Elementen erstellen, die den einzelnen Eigenschaften zugewiesen sind. Alle diese Segmente erhalten eine eigene Ansicht, wobei gewissermaßen eine neue Report Suite erstellt wird. Es werden keine Daten an das jeweilige Segment gesendet, sondern nur an die globale Report Suite. Sie funktioniert jedoch in Ihren Berichten wie eine andere Report Suite.
 
 Eine Virtual Report Suite erbt die meisten Service-Levels der zugrunde liegenden Report Suite, wie die eVar-Einstellungen, Verarbeitungsregeln, Classifications usw. Die folgenden Einstellungen werden NICHT vererbt:
 
@@ -49,12 +49,12 @@ Virtual Report Suites haben die folgenden Einschränkungen:
 * Echtzeitbericht
 * Einstellungen und Variablennamen können nicht wie bei einer vollständigen Report Suite angepasst werden
 
-## Virtual Report Suites im Vergleich zum Multi-Suite-Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Virtual Report Suites vs. Multi-Suite-Tagging {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Funktion | Virtual Report Suite | Multi-Suite-Tagging |
 |--- |--- |--- |
 | Bietet Berichte mit Echtzeit- oder aktuellen Daten | Nein | Ja |
-| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Sie können sie nur in [!UICONTROL Analytics] > [!UICONTROL Komponenten] > [!UICONTROL Virtual Report Suites] bearbeiten und als Virtual Report Suites identifizieren. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden.<p>**Wichtig**: Virtual Report Suites mit Berichtszeitverarbeitung und Variablenanpassung werden derzeit in Adobe Report Builder nicht unterstützt. | Ja |
+| Funktioniert in allen Analytics-Tools (Analysis Workspace, Report Builder usw.) | Ja. **Hinweis:** Sie können sie nur in  Analytics“ > [!UICONTROL Komponenten] > [!UICONTROL Virtual Report Suites“ bearbeiten und als Virtual Report Suites ]. Sie können in den anderen Tools jedoch in den Dropdown-Listen für Report Suites ausgewählt werden.<p>**Wichtig**: Virtual Report Suites mit Berichtszeitverarbeitung und Variablenanpassung werden derzeit in Adobe Report Builder nicht unterstützt. | Ja |
 | Hochladen von Daten (über Classifications, Datenfeeds usw.) | Nein | Ja |
 | Unterstützt die Erstellung von DL-Berichten, Lesezeichen, Dashboards, Zielgruppen, Warnhinweisen, Segmenten, berechneten Metriken... | Ja | Ja |
 | Kann einzeln zu Berechtigungsgruppen hinzugefügt werden | Ja | Ja |

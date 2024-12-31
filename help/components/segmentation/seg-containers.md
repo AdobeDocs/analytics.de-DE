@@ -99,7 +99,7 @@ Wenn Sie Segment-Container innerhalb anderer Container erstellen, erstellen Sie 
 
 >[!NOTE]
 >
->Wenn Sie ein Segment innerhalb eines Segments verschachteln (z. B. ein Segment aus dem Bedienfeld &quot;Komponenten&quot;auf Ihre Segmentdefinition ziehen), wird ein Container mit einer Kopie (keine Referenz) der gezogenen Segmentregel erstellt.
+>Wenn Sie ein Segment innerhalb eines Segments verschachteln (Sie ziehen beispielsweise ein Segment aus dem Bedienfeld „Komponenten“ auf Ihre Segmentdefinition), wird ein Container mit einer Kopie (nicht einer Referenz) der gezogenen Segmentregel erstellt.
 
 Sie können die Verschachtelung zwischen Containern und zwischen Regeln in einem Container verwenden. Folgende Elemente können in jedem Container verschachtelt werden:
 

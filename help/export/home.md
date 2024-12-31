@@ -4,9 +4,9 @@ description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mith
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

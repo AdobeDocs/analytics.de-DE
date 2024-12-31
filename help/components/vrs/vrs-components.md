@@ -24,10 +24,10 @@ Hier finden Sie ein Video zur Kuratierung von Komponenten:
 
 So ermöglichen Sie die Kuratierung von Komponenten:
 
-1. Wechseln Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Neue Virtual Report Suite erstellen]**.
+1. Navigieren Sie **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Neue Virtual Report Suite erstellen]**.
 1. Wenn Sie die **[!UICONTROL Einstellungen]** festgelegt haben, klicken Sie auf die Registerkarte **[!UICONTROL Komponenten]**.
 
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzerdefinierte Anpassung der Komponenten der Virtual Report Suite aktivieren]**:
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Anpassung der Virtual Report Suite-Komponenten aktivieren]**:
 
    ![](assets/vrs-enable.png)
 

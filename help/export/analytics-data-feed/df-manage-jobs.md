@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Daten-Feed-Aufträgen
-description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten. Navigieren Sie zur Benutzeroberfläche, verwenden Sie Filter und suchen Sie nach Spaltendefinitionen.
+description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten. Navigieren Sie in der -Benutzeroberfläche, verwenden Sie Filter und suchen Sie nach Spaltendefinitionen.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7

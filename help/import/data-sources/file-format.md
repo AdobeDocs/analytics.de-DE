@@ -1,6 +1,6 @@
 ---
-title: Dateiformat der Datenquelle
-description: Ordnungsgemäßes Generieren einer Datei für die Verwendung in Datenquellen.
+title: Format der Datenquellendatei
+description: Richtige Generierung einer Datei zur Verwendung in Datenquellen.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
@@ -11,40 +11,40 @@ ht-degree: 5%
 
 ---
 
-# Dateiformat der Datenquelle
+# Format der Datenquellendatei
 
 Datenquellendateien haben die folgenden Eigenschaften:
 
-* Die Datei hat das Format &quot;`.txt`&quot;.
-* Kommentierte Zeilen beginnen mit &quot;`#`&quot; und sind optional.
-* Die erste Zeile ohne Kommentar enthält die Header der Datei.
+* Die Datei liegt im `.txt`-Format vor.
+* Kommentare zu Zeilen beginnen mit &quot;`#`&quot; und sind optional.
+* Die erste nicht kommentierte Zeile enthält die Kopfzeilen der Datei.
 * Der erste Wert jeder Zeile ist das Datum, das das Format `MM/DD/YYYY` oder `MM/DD/YYYY/HH/mm/SS` verwendet.
-* Die Werte in jeder Zeile, einschließlich der Kopfzeilen, sind tabulatorgetrennt.
+* Die Werte in jeder Zeile, einschließlich der Kopfzeilen, werden durch Tabulatoren getrennt.
 * Jede Zeile muss mindestens eine Dimension und eine Metrik aufweisen.
 
 ## Kommentare
 
 Jede Zeile, die mit &quot;`#`&quot; beginnt, ist ein Kommentar. Beim Herunterladen einer Datenquellenvorlagendatei sind die ersten beiden Zeilen Kommentare.
 
-* Der erste Kommentar gibt den Vorlagentyp an, den Sie für die Datenquelle konfiguriert haben, die Backend-Benutzer-ID, mit der die Datenquelle erstellt wurde, und die Datenquellen-ID.
-* Der zweite Kommentar enthält Anzeigenamen für die einzelnen Header, die in der Vorlagendatei enthalten sind.
+* Der erste Kommentar gibt den Typ der Vorlage an, die Sie für die Datenquelle konfiguriert haben, die Backend-Benutzer-ID, die die Datenquelle erstellt hat, und die Datenquellen-ID.
+* Der zweite Kommentar liefert benutzerfreundliche Namen für jede der Kopfzeilen, die in der Vorlagendatei enthalten sind.
 
-Alle Kommentarzeilen werden bei der Dateiverarbeitung von Adobe ignoriert, sodass Sie die Vorlagenkommentare entfernen oder Ihre eigenen in der Datei hinzufügen können. Nur vollständige Zeilen können kommentiert werden. Sie können einzelne Felder oder Zeilen nicht auskommentieren.
+Alle Kommentarzeilen werden von Adobe ignoriert, wenn die Datei verarbeitet wird, sodass Sie die Vorlagenkommentare entfernen oder eigene in der gesamten Datei hinzufügen können. Es können nur vollständige Zeilen kommentiert werden. Einzelne Felder oder Teilzeilen können nicht auskommentiert werden.
 
 ## Kopfzeilen
 
-Beim Hochladen von Datenquellendateien sind Spaltenüberschriften erforderlich. Bei diesen Spaltenüberschriften wird nicht zwischen Groß- und Kleinschreibung unterschieden, es sind jedoch erforderliche Leerzeichen erforderlich (z. B. ist `eVar1` eine ungültige Überschrift, während `EVAR 1` gültig ist). Spaltenüberschriften gelten für alle Report Suites. Verwenden Sie die folgenden Tabellen, um sicherzustellen, dass jeder Header in Ihrer Datenquellendatei korrekt festgelegt ist.
+Beim Hochladen von Datenquellendateien sind Spaltenüberschriften erforderlich. Bei diesen Spaltenüberschriften wird nicht zwischen Groß- und Kleinschreibung unterschieden, aber erforderliche Leerzeichen sind erforderlich (z. B. ist `eVar1` eine ungültige Kopfzeile, während `EVAR 1` gültig ist). Spaltenüberschriften gelten für alle Report Suites. Verwenden Sie die folgenden Tabellen, um sicherzustellen, dass jede Kopfzeile in Ihrer Datenquellendatei korrekt festgelegt ist.
 
 >[!TIP]
 >
->Sie können eine Datenquellendatei von Grund auf neu erstellen, wenn Sie die richtigen Header in Ihre Datenquellendatei aufnehmen. Die Anzahl der Header, die in einer Datei enthalten sein können, ist nicht beschränkt. Jede Zeile darf jedoch maximal 4096 Byte enthalten.
+>Sie können eine Datenquellendatei von Grund auf neu erstellen, wenn Sie die richtigen Kopfzeilen in Ihre Datenquellendatei einschließen. Die Anzahl der Kopfzeilen, die Sie in eine einzelne Datei aufnehmen können, ist unbegrenzt. Jede Zeile darf jedoch nur maximal 4.096 Byte enthalten.
 
-| Dimension | Datenquellenüberschrift |
+| Dimension | Datenquellen-Header |
 | --- | --- |
 | [Kategorie](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
-| [Marketingkanal](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [Marketingkanal-Detail](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Marketing-](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [Details zum Marketing-Kanal](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Produkt](/help/components/dimensions/product.md) | `Product` |
 | [Trackingcode](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [Transaktions-ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -52,9 +52,9 @@ Beim Hochladen von Datenquellendateien sind Spaltenüberschriften erforderlich. 
 
 {style="table-layout:auto"}
 
-Dimensionen und Metriken werden in dieselbe Kopfzeile verschoben.
+Dimensionen und Metriken werden in dieselbe Kopfzeile eingefügt.
 
-| Metrik | Datenquellenüberschrift |
+| Metrik | Datenquellen-Header |
 | --- | --- |
 | [Zusatz zum Warenkorb](/help/components/metrics/cart-additions.md) | `Cart Adds` |
 | [Entnahme aus Warenkorb](/help/components/metrics/cart-removals.md) | `Cart Removes` |
@@ -68,7 +68,7 @@ Dimensionen und Metriken werden in dieselbe Kopfzeile verschoben.
 
 {style="table-layout:auto"}
 
-Adobe unterstützt keine Datenquellen für andere Dimensionen oder Metriken. Wenn Variablen erforderlich sind, die über die in den obigen Tabellen aufgeführten Werte hinausgehen, sollten Sie stattdessen die [Bulk data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) verwenden.
+Adobe unterstützt keine Datenquellen für andere Dimensionen oder Metriken. Wenn Variablen erforderlich sind, die über die in den obigen Tabellen aufgeführten hinausgehen, sollten Sie stattdessen die [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) verwenden.
 
 ## Datum
 
@@ -77,16 +77,16 @@ Der erste Wert in jeder Zeile **muss** das Datum sein. Das Datumsformat muss ein
 * **`MM/DD/YYYY/HH/mm/SS`**
 * **`MM/DD/YYYY`**
 
-Wenn die Stunden/Minuten/Sekunden nicht angegeben werden, wird der Zeitstempel für diesen Tag automatisch auf 23 Uhr festgelegt.
+Wenn Sie die Stunden/Minuten/Sekunden auslassen, wird der Zeitstempel automatisch auf 12 Uhr für diesen Tag festgelegt.
 
-Eine Datenquellendatei unterstützt bis zu 90 eindeutige Tage. Wenn Sie mehr als 90 eindeutige Tage in einen Upload einbeziehen möchten, teilen Sie Ihre Daten in mehrere Dateien auf.
+Eine einzelne Datenquellendatei unterstützt bis zu 90 eindeutige Tage. Wenn Sie mehr als 90 eindeutige Tage in einen Upload einbeziehen möchten, teilen Sie Ihre Daten in mehrere Dateien auf.
 
-## Dimension und Metrikdaten
+## Daten zu Dimensionen und Metriken
 
-Nachfolgende Werte nach dem Datum in jeder Zeile enthalten die Daten, die Sie hochladen möchten. Jede Zeile entspricht dem jeweiligen Zeitstempel. Stellen Sie sicher, dass in jeder Zeile dieselbe Anzahl von Registerkarten vorhanden ist. Die Spalten können in beliebiger Reihenfolge angeordnet werden. Stellen Sie sicher, dass die Daten in den einzelnen Zeilen mit den Kopfzeilen oben übereinstimmen. Die maximale Datenmenge, die eine Zeile enthalten kann, beträgt 4096 Byte.
+Nachfolgende Werte nach dem Datum in jeder Zeile enthalten die Daten, die Sie hochladen möchten. Jede Zeile entspricht diesem entsprechenden Zeitstempel. Stellen Sie sicher, dass in jeder Zeile dieselbe Anzahl von Registerkarten vorhanden ist. Die Spalten können in beliebiger Reihenfolge angeordnet werden. Stellen Sie sicher, dass die Daten in jeder Zeile mit den Kopfzeilen oben ausgerichtet sind. Die maximale Datenmenge, die eine einzelne Zeile haben kann, beträgt 4096 Byte.
 
-Dimension-Daten dürfen keine Semikolons (`;`) enthalten. Zeilen, die Semikolons enthalten, werden übersprungen.
+Daten in Dimension dürfen keine Semikolons (`;`) enthalten. Zeilen mit Semikolons werden übersprungen.
 
 ## Nächste Schritte
 
-[Datei-Upload](file-upload.md): Erfahren Sie, wie Sie eine Datenquellendatei zur Aufnahme durch Adobe hochladen.
+[Datei-Upload](file-upload.md): Erfahren Sie, wie Sie eine Datenquellendatei zur Aufnahme per Adobe hochladen.

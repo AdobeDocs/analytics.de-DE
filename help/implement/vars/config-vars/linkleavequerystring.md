@@ -25,11 +25,11 @@ Die Aktivierung von `linkLeaveQueryString` gilt für alle Linktracking-Dimension
 >
 >Diese Variable hat keine Auswirkungen auf Dimensionen außerhalb des Linktrackings. Sie betrifft nur benutzerspezifische Links, Exitlinks und Downloadlinks.
 
-## Link-Abfragezeichenfolgen mit dem Web SDK verarbeiten
+## Verarbeiten von Link-Abfragezeichenfolgen mit der Web-SDK
 
-Abfragezeichenfolgen werden nicht aus dem XDM-Feld `web.webInteraction.URL` entfernt. Wenn Sie Abfragezeichenfolgen aus diesem XDM-Feld entfernen möchten, können Sie es mit `onBeforeEventSend` bearbeiten.
+Abfragezeichenfolgen werden nicht aus dem XDM-`web.webInteraction.URL` entfernt. Wenn Sie Abfragezeichenfolgen aus diesem XDM-Feld entfernen möchten, können Sie sie mit `onBeforeEventSend` bearbeiten.
 
-## URL-Parameter mithilfe der Adobe Analytics-Erweiterung beibehalten
+## Beibehalten von URL-Parametern mithilfe der Adobe Analytics-Erweiterung
 
 [!UICONTROL URL-Parameter beibehalten] ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 
@@ -40,7 +40,7 @@ Abfragezeichenfolgen werden nicht aus dem XDM-Feld `web.webInteraction.URL` entf
 
 Aktivieren Sie dieses Kontrollkästchen, wenn Sie Abfragezeichenfolgen in die Linktracking-Dimensionen einbeziehen möchten.
 
-## s.linkLeaveQueryString in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkLeaveQueryString im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.linkLeaveQueryString`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 

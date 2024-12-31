@@ -11,23 +11,23 @@ ht-degree: 58%
 
 ---
 
-# Verbindung zu einem FTP-Konto mit SFTP herstellen
+# Herstellen einer Verbindung zu einem FTP-Konto mit SFTP
 
 So richten Sie eine sichere Übertragung mit FTP ein:
 
-1. (Bedingt) Wenn Sie eine sichere Übertragung mit Adobe FTP-Servern einrichten möchten:
+1. (Bedingt) Wenn Sie eine sichere Übertragung mit Adobe-FTP-Servern einrichten möchten:
 
    1. Von Adobe gehostetes FTP-Konto anfordern (max. 50 MB)
 
-   1. Öffentlichen/privaten RSA-Schlüssel erstellen.
+   1. Erstellen Sie öffentliche/private RSA-Schlüssel.
 
-      * Führen Sie in der Linux-Umgebung Folgendes aus:
+      * Führen Sie in einer Linux-Umgebung Folgendes aus:
 
         ```
         ssh-keygen -t rsa
         ```
 
-      * Verwenden Sie in einer Windows-Umgebung puttyGen.
+      * Verwenden Sie in einer Windows-Umgebung PuttyGen.
 
 1. (Bedingt) Wenn Sie eine sichere Übertragung mit Ihrem eigenen FTP-Speicherort einrichten möchten, müssen Sie über einen SFTP-Host, einen Benutzernamen und die Ziel-Site verfügen, die einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
 

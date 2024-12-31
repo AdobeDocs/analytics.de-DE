@@ -17,18 +17,18 @@ Adobe bietet die Möglichkeit, ausgehende Links zu verfolgen, ohne die [`tl()`](
 
 Wenn diese Option aktiviert ist, vergleicht AppMeasurement alle geklickten Link-URLs mit den Werten in [`linkInternalFilters`](linkinternalfilters.md) und [`linkExternalFilters`](linkexternalfilters.md). Bei Übereinstimmung wird automatisch ein Exitlinktracking-Aufruf ausgelöst.
 
-## Aktivieren oder Deaktivieren der Klickkollektion mithilfe der Web SDK-Erweiterung
+## Aktivieren oder Deaktivieren der Klick-Erfassung mithilfe der Web SDK-Erweiterung
 
-Verwenden Sie das Kontrollkästchen [!UICONTROL Klick-Datenerfassung aktivieren] bei der Konfiguration des Web SDK. Dieses Kontrollkästchen verarbeitet sowohl Exitlinks als auch Downloadlinks.
+Verwenden Sie das [!UICONTROL Aktivieren der Klick-Datenerfassung] beim Konfigurieren der Web-SDK. Dieses Kontrollkästchen verarbeitet sowohl Exit- als auch Download-Links.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter [!UICONTROL Adobe Experience Platform Web SDK] auf die Schaltfläche **[!UICONTROL Konfigurieren]** .
-1. Klicken Sie unter [!UICONTROL Datenerfassung] auf das Kontrollkästchen **[!UICONTROL Klick-Datenerfassung aktivieren]** .
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf das Kontrollkästchen **[!UICONTROL Aktivieren]** Datenerfassung“.
 
-## Aktivieren oder Deaktivieren der Klickkollektion durch manuelles Implementieren des Web SDK
+## Aktivieren oder Deaktivieren der Klick-Sammlung Manuelles Implementieren der Web-SDK
 
-Konfigurieren Sie das SDK mit &quot;[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)&quot;. Das Feld ist ein boolescher Wert, der bestimmt, ob mit Link-Klicks verknüpfte Daten automatisch erfasst werden. Der Standardwert lautet `true`. Setzen Sie diesen Wert auf `false` , wenn Sie das automatische Linktracking deaktivieren möchten. Diese Einstellung verarbeitet das automatische Linktracking für Download- und Exitlinks.
+Konfigurieren Sie die SDK mithilfe von [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Bei dem Feld handelt es sich um einen booleschen Wert, der bestimmt, ob mit Link-Klicks verknüpfte Daten automatisch erfasst werden. Der Standardwert lautet `true`. Legen Sie diesen Wert auf `false` fest, wenn Sie die automatische Link-Überwachung deaktivieren möchten. Diese Einstellung behandelt die automatische Linkverfolgung für Download- und Exitlinks.
 
 ```json
 alloy("configure", {
@@ -36,7 +36,7 @@ alloy("configure", {
 });
 ```
 
-## Ausgehende Links mit der Adobe Analytics-Erweiterung verfolgen
+## Nachverfolgen ausgehender Links mit der Adobe Analytics-Erweiterung
 
 „Ausgehende Links verfolgen“ ist ein Kontrollkästchen unter dem Akkordeon [!UICONTROL Linktracking] bei der Konfiguration der Adobe Analytics-Erweiterung.
 

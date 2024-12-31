@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Suchvorgänge
 
-Die Metrik &quot;Suchvorgänge&quot;[metrik](overview.md) gibt die Anzahl der Treffer an, die mit der externen Sucherkennung von Adobe übereinstimmen. Diese Metrik ist nützlich, wenn Sie nicht suchbezogene Dimensionselemente betrachten und sehen möchten, wie sie zum Traffic von Suchmaschinen beigetragen haben.
+Die „Metrik[ „Suchen](overview.md) zeigt die Anzahl der Treffer an, die mit der externen Sucherkennung von Adobe übereinstimmen. Diese Metrik ist nützlich, wenn Sie nicht suchbezogene Dimensionselemente betrachten und sehen möchten, wie sie zum Traffic von Suchmaschinen beigetragen haben.
 
 ## Berechnung dieser Metrik
 

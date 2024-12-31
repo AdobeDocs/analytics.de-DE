@@ -14,7 +14,7 @@ ht-degree: 84%
 
 *Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als Metrik funktioniert. Weitere Informationen finden Sie unter der Dimension [Einzelseitenbesuche](../dimensions/single-page-visits.md).*
 
-Die Metrik [!UICONTROL Einzelseitenbesuche] [ ](overview.md) gibt die Anzahl der Besuche an, bei denen das Dimensionselement [Seite](../dimensions/page.md) nur einen einzigen eindeutigen Wert für den gesamten Besuch enthielt. Diese Metrik ist hilfreich bei Dimensionen, in denen Sie kurze Besuche anzeigen, aber keine so strengen Regeln wie bei [[!UICONTROL Absprüngen]](bounces.md) verwenden möchten.
+Die Metrik [!UICONTROL Einzelseitenbesuche] [ gibt ](overview.md) Anzahl der Besuche an, bei denen das Dimensionselement [Seite](../dimensions/page.md) nur einen einzigen, eindeutigen Wert für den gesamten Besuch enthält. Diese Metrik ist hilfreich bei Dimensionen, in denen Sie kurze Besuche anzeigen, aber keine so strengen Regeln wie bei [[!UICONTROL Absprüngen]](bounces.md) verwenden möchten.
 
 ## Berechnung dieser Metrik
 
