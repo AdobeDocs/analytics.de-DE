@@ -16,7 +16,7 @@ ht-degree: 91%
 
 {{legacy-arb}}
 
-Fügen Sie im Dialogfeld Anforderungs-Assistent: Schritt 2 Metriken und Dimensionen hinzu, um das Analytics-Layout der Daten in Ihrer Anforderung zu definieren. Die Liste der Metriken und Dimensionen in Report Builder wird entsprechend dem in Reports and Analytics üblichen Menülayout angezeigt.
+Hinzufügen von Metriken und Dimensionen im Anfrage-Assistenten: Schritt 2 zum Definieren des Analytics-Layouts der Daten in Ihrer Anfrage. Die Liste der Metriken und Dimensionen in Report Builder wird entsprechend dem in Reports and Analytics üblichen Menülayout angezeigt.
 
 Metriken sind numerische Werte. Sie enthalten quantitative Informationen über die Aktivität auf Ihrer Website, z. B. [!UICONTROL Seitenaufrufe], [!UICONTROL Besucherprofile], [!UICONTROL Clickthroughs], [!UICONTROL Neuladungen], [!UICONTROL durchschnittliche Besuchszeiten], [!UICONTROL Datumsangaben], [!UICONTROL Einheiten] usw. Report Builder gliedert Metriken in verschiedene Gruppen, die der standardmäßigen Gruppierung in Analytics entsprechen:
 

@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über die Planung von Arbeitsmappen mit Makros.
-title: Über die Arbeitsmappen-Planung mit Makros
+title: Informationen zur Arbeitsmappen-Planung mit aktivierten Makros
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin

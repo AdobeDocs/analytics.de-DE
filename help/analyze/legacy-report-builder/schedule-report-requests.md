@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie Berichtsanforderungen planen, erweiterte Bereitstellungsoptionen festlegen, Empfänger angeben und den Planverlauf anzeigen.
-title: Über geplante Berichtsanforderungen
+description: Erfahren Sie, wie Sie Berichtsanfragen planen, erweiterte Versandoptionen festlegen, Empfänger angeben und den Zeitplanverlauf anzeigen.
+title: Über geplante Berichtsanfragen
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
 role: User, Admin

@@ -12,17 +12,17 @@ ht-degree: 52%
 
 # Domain
 
-Die Dimension &quot;Domäne&quot;[](overview.md) gibt die Zugriffspunkte an, die Besucher für den Internetzugang verwenden.
+Die Dimension „Domain[ ](overview.md) zeigt die Zugriffspunkte an, die Besucherinnen und Besucher für den Internetzugang verwenden.
 
 ## Füllen dieser Dimension mit Daten
 
-Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um die Zugriffspunkt-Domain zu bestimmen. Zur Bestimmung der Zugriffspunkt-Domain werden verschiedene Methoden verwendet, einschließlich Reverse DNS Lookup. Es ist keine Konfiguration erforderlich und es gibt keine Variable zum Ausfüllen.
+Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um die Zugriffspunkt-Domain zu bestimmen. Zur Bestimmung der Zugriffspunkt-Domain werden verschiedene Methoden verwendet, einschließlich Reverse DNS Lookup. Es ist keine Konfiguration erforderlich und es gibt keine Variable, die ausgefüllt werden kann.
 
-* Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen die [!UICONTROL Netzwerksuche] bei der [ Konfiguration eines Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
+* Aktivieren Sie bei Web SDK-Implementierungen [!UICONTROL Netzwerksuche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 
-Beispiele für Dimensionselemente sind `comcast.net`, `rr.com`, `sbcglobal.net` und `amazonaws.com`. Diese Domänen sind Zugriffspunkte und nicht notwendigerweise die Domäne, die einen ISP oder eine Organisation repräsentiert.
+Beispiele für Dimensionselemente sind `comcast.net`, `rr.com`, `sbcglobal.net` und `amazonaws.com`. Bei diesen Domains handelt es sich um Zugriffspunkte, und nicht unbedingt um die Domain, die einen ISP oder eine Organisation repräsentiert.
 
 Dimensionswerte von `None` bedeuten, dass der Inhaber der IP-Adresse des Zugriffspunkts keine Domain angegeben hat.

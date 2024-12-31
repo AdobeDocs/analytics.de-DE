@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Letztkontakt-Kanaldetail
 
-Die Dimension &quot;Letztkontakt-Kanaldetail&quot;[Dimension](overview.md) enthält Details zum letzten Marketing-Kanal, mit dem ein Besucher während des Interaktionszeitraums des Besuchers (standardmäßig 30 Tage) übereinstimmt. Diese Dimension ist nützlich, um zu verstehen, was dazu beigetragen hat, dass der Treffer einem Marketing-Kanal entsprach. Wenn beispielsweise ein Besucher zu Ihrer Site gelangt ist und mit dem Marketing-Kanal „Paid Search“ übereinstimmt, können Sie anhand des Kanaldetails sehen, welche Suchmaschine verwendet wurde oder nach welchem Schlüsselwort er gesucht hat.
+Die Dimension „Detail des Letztkontaktkanals[ zeigt Details zum ](overview.md) Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, was dazu beigetragen hat, dass der Treffer einem Marketing-Kanal entsprach. Wenn beispielsweise ein Besucher zu Ihrer Site gelangt ist und mit dem Marketing-Kanal „Paid Search“ übereinstimmt, können Sie anhand des Kanaldetails sehen, welche Suchmaschine verwendet wurde oder nach welchem Schlüsselwort er gesucht hat.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -22,11 +22,11 @@ Führen Sie die folgenden Schritte aus, um diese Dimension auf einen bestimmten 
 
 * Achten Sie darauf, dass sich das gewünschte Dimensionselement in einem Trefferattribut oder einer benutzerdefinierten Variable befindet.
 * Legen Sie eine Marketing-Kanalverarbeitungsregel fest, die die gewünschten Kriterien für den Treffer enthält.
-* Wählen Sie den gewünschten Dropdown-Wert unter [!UICONTROL Den Kanalwert setzen] in der Marketing-Kanal-Verarbeitungsregel aus.
+* Wählen Sie in der Marketing-Kanal[!UICONTROL Verarbeitungsregel den gewünschten Dropdown-Wert unter ]Kanalwert festlegen) aus.
 * Der Treffer des Besuchers auf Ihrer Site muss den Kriterien entsprechen, die in der Marketing-Kanalverarbeitungsregel beschrieben sind.
 
 ## Dimensionselemente
 
-Die Elemente der Dimension hängen vom Kanalwert ab, der in der Dropdownliste für die entsprechende Marketing-Kanalverarbeitungsregel aufgeführt ist. Wenn Sie beispielsweise den Wert des Kanals auf „Seiten-URL“ setzen, umfassen die Dimensionselemente die Seiten-URLs auf Ihrer Site. Wenn Sie den Wert des Kanals auf „Referrer-Domäne“ setzen, umfassen die Dimensionselemente die Domänen, auf die Besucher geklickt haben, um zu Ihrer Site zu gelangen. Diese Dimension aggregiert alle Detaildimensionselemente, unabhängig davon, auf welchem Kanal sie sich befinden.
+Die Elemente der Dimension hängen vom Kanalwert ab, der in der Dropdown-Liste für die entsprechende Marketing-Kanal-Verarbeitungsregel aufgeführt ist. Wenn Sie beispielsweise den Wert des Kanals auf „Seiten-URL“ setzen, umfassen die Dimensionselemente die Seiten-URLs auf Ihrer Site. Wenn Sie den Wert des Kanals auf „Referrer-Domäne“ setzen, umfassen die Dimensionselemente die Domänen, auf die Besucher geklickt haben, um zu Ihrer Site zu gelangen. Diese Dimension aggregiert alle Detaildimensionselemente, unabhängig davon, auf welchem Kanal sie sich befinden.
 
 Adobe empfiehlt, Kanalwerte für den Marketing-Kanal festzulegen, um Einblick in die Kanaldetails zu erhalten.

@@ -16,8 +16,8 @@ ht-degree: 44%
 
 {{legacy-arb}}
 
-Sie können Traffic- und Commerce-Metriktypen in einer Anfrage kombinieren, anstatt separate Anforderungen zu erstellen.
+Sie können Traffic- und Commerce-Metriktypen in einer Anfrage kombinieren, anstatt separate Anfragen zu erstellen.
 
-Traffic- und Commerce-Metriken werden in derselben Metrikkategorie im Anforderungs-Assistenten angezeigt: Schritt 2. Die gruppierte Kategorie trägt die Bezeichnung **[!UICONTROL Standard]**.
+Traffic- und Commerce-Metriken werden im Anforderungs-Assistenten in derselben Metrikkategorie angezeigt: Schritt 2. Die gruppierte Kategorie trägt die Bezeichnung **[!UICONTROL Standard]**.
 
 ![Screenshot des Anforderungs-Assistenten: Liste der Standardmetriken in Schritt 2.](assets/standard_metrics.png)

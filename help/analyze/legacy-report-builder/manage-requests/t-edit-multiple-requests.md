@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie mehrere Anforderungen gleichzeitig ändern können.
-title: So bearbeiten Sie mehrere Anforderungen
+description: Erfahren Sie, wie Sie mehrere Anfragen gleichzeitig ändern können.
+title: So bearbeiten Sie mehrere Anfragen
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
@@ -45,8 +45,8 @@ Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Mehrere Anforderungen bearbeiten] auf **[!UICONTROL OK]**.
 
-## Segmente gleichzeitig zu mehreren Anforderungen hinzufügen
+## Gleichzeitiges Hinzufügen von Segmenten in mehrere Anfragen
 
-Im Folgenden finden Sie ein Video, in dem der Prozess gezeigt wird:
+Im Folgenden finden Sie ein Video zum Prozess:
 
 https://video.tv.adobe.com/v/25445/?quality=12

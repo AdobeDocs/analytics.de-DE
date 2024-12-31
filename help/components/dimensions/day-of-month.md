@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Tag des Monats
 
-Die Dimension &quot;Tag des Monats&quot;[](overview.md) erfasst den numerischen Tag eines Monats als Dimensionselement. Wenn Sie beispielsweise einen Bericht haben, der sich vom 1. Januar bis zum 31. März erstreckt, wird der erste Tag jedes Monats in dasselbe Dimensionselement gruppiert. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach Tag aufschlüsseln möchten, aber keine statischen Datumswerte als Dimensionswerte wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit dem ausgewählten Datumsbereich rolliert.
+Der „Tag des Monats“ [Dimension](overview.md) zeigt den numerischen Tag eines Monats als Dimensionselement an. Wenn Sie beispielsweise einen Bericht haben, der sich vom 1. Januar bis zum 31. März erstreckt, wird der erste Tag jedes Monats in dasselbe Dimensionselement gruppiert. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach Tag aufschlüsseln möchten, aber keine statischen Datumswerte als Dimensionswerte wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit dem ausgewählten Datumsbereich rolliert.
 
 ## Füllen dieser Dimension mit Daten
 

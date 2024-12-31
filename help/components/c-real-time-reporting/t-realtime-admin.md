@@ -14,13 +14,13 @@ ht-degree: 78%
 
 Die folgenden Informationen enthalten administrative Schritte zum Einrichten von Echtzeitberichten.
 
-Hierzu müssen Sie die Report Suite auswählen und bis zu drei Berichte konfigurieren.
+Sie können dabei die Report Suite auswählen und bis zu drei Berichte dafür konfigurieren.
 
 1. Wählen Sie die Report Suite aus, für die Sie Echtzeit-Berichte aktivieren möchten.
 
    1. Wählen Sie in Analysis Workspace die Registerkarte [!UICONTROL **Workspace**] und dann [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]**.
 
-   1. Wählen Sie die Report Suite aus der Dropdown-Liste oben aus:
+   1. Wählen Sie die Report Suite aus der Dropdownliste oben aus:
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
@@ -55,7 +55,7 @@ Hierzu müssen Sie die Report Suite auswählen und bis zu drei Berichte konfigur
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]** aus.
+1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
 
    Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=de).
 

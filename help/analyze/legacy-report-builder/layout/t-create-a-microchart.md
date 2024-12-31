@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie eine Metrikspalte in ein Balkendiagramm mit einem entsprechenden Prozentwert oder einen Prozentwert mit einem entsprechenden Balkendiagramm ändern.
-title: Microchart erstellen
+title: So erstellen Sie ein Mikrodiagramm
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
 role: User, Admin
@@ -22,4 +22,4 @@ Im benutzerdefinierten Layout können Sie eine Metrik-Spalte in eine Balkengrafi
 1. Klicken Sie mit der rechten Maustaste auf die Spalte mit dem Metrikwert.
 1. Wählen Sie **[!UICONTROL Ausgabeanzeige ändern]** und geben Sie dann den Microchart-Typ ein, der angezeigt werden soll.
 
-   Report Builder ändert die Anzeige in der Spalte entsprechend Ihrer Auswahl.
+   Report Builder ändert die Anzeige in der Spalte so, dass sie Ihrer Auswahl entspricht.

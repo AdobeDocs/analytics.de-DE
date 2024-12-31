@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Stunde des Tages
 
-Die Dimension &quot;Stunde des Tages&quot;[](overview.md) gibt die numerische Stunde eines Tages als Dimensionselement an. Wenn Sie beispielsweise einen Bericht haben, der sich vom 1. Januar bis zum 7. Januar erstreckt, wird die erste Stunde jedes Tages in dasselbe Dimensionselement gruppiert. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach relativer Tageszeit aufschlüsseln möchten, aber keine statischen Stunden als Dimensionselemente wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit dem ausgewählten Datumsbereich rolliert.
+Die „Stunde des Tages“ [Dimension](overview.md) zeigt die numerische Stunde eines bestimmten Tages als Dimensionselement an. Wenn Sie beispielsweise einen Bericht haben, der sich vom 1. Januar bis zum 7. Januar erstreckt, wird die erste Stunde jedes Tages in dasselbe Dimensionselement gruppiert. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach relativer Tageszeit aufschlüsseln möchten, aber keine statischen Stunden als Dimensionselemente wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit dem ausgewählten Datumsbereich rolliert.
 
 Diese Dimension basiert auf der Zeitzone der Report Suite und nicht auf der lokalen Zeitzone des Besuchers. Wenn Ihre Report Suite beispielsweise in der Zeitzone „Mountain Time“ liegt und ein Besucher in Kalifornien Ihre Site um 10:00 Uhr „Pacific-Zeit“ besucht, werden die Treffergruppen unter dem Dimensionselement `11:00 AM` angezeigt. Wenn Sie eine Dimension wünschen, die die Zeit des lokalen Besuchers erfasst, empfiehlt Adobe die Verwendung des Plug-Ins [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 

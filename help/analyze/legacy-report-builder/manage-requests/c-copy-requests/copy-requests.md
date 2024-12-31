@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie mit mehr als einer Anforderung zugeordnete Zellen kopieren und einfügen können.
-title: Überblick über das Kopieren von Anforderungen
+description: Erfahren Sie, wie Sie mit mehr als einer Anfrage zugeordnete Zellen kopieren und einfügen.
+title: So kopieren Sie Anfragen - Übersicht
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin

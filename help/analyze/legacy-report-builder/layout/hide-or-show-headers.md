@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie Kopfzeilen ein- oder ausblenden.
-title: Überschriften ein- oder ausblenden
+title: Ein- oder Ausblenden von Kopfzeilen
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 feature: Report Builder
 role: User, Admin
@@ -20,4 +20,4 @@ Dieser Vorgang beschreibt, wie Sie Überschriften aus- oder einblenden.
 
 Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] im [!UICONTROL Pivot-Layout] oder im [!UICONTROL benutzerdefinierten Layout] auf **[!UICONTROL Ausblenden/Anzeigen]**.
 
-![Screenshot mit dem Symbol &quot;Ausblenden/Anzeigen&quot;für Metrikkopfzeilen.](assets/hide_show_header.png)
+![Screenshot mit dem Symbol zum Ausblenden/Anzeigen für Metrikkopfzeilen.](assets/hide_show_header.png)

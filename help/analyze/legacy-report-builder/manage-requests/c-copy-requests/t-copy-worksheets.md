@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie eine Tabelle in eine andere in derselben Arbeitsmappe kopieren.
-title: Kopieren von Arbeitsblättern in Report Builder
+description: Erfahren Sie, wie Sie in derselben Arbeitsmappe eine Tabelle in eine andere kopieren.
+title: Kopieren von Arbeitsblättern in den Report Builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin

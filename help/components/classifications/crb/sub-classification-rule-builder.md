@@ -28,7 +28,7 @@ Mit einer Classification-Hierarchie können Sie eine Classification auf eine and
 
 ![](assets/sub_class_table.png)
 
-Nachdem Sie diese Struktur eingerichtet haben, können Sie den [Classifications Rule Builder](/help/components/classifications/crb/classification-rule-builder.md) verwenden, um kleine Dateien hochzuladen, die nur die Suchtabellen (die grüne und rote Tabelle in der Abbildung) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
+Sobald Sie diese Struktur eingerichtet haben, können Sie den [Classifications Rule Builder) verwenden](/help/components/classifications/crb/classification-rule-builder.md) um kleine Dateien hochzuladen, die nur die Suchtabellen (die grünen und roten Tabellen im vorherigen Bild) aktualisieren. Außerdem können Sie den Classification Rule Builder dazu verwenden, die Haupt-Classification-Tabelle stets auf dem aktuellsten Stand zu halten.
 
 In der folgenden Aufgabe wird beschrieben, wie Sie das machen.
 
@@ -72,6 +72,6 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
 1. Laden Sie eine kleine Datei (siehe oben) hoch, um die Suchtabellen zu pflegen.
 
-   Zum Beispiel würden Sie eine solche Datei hochladen, wenn ein neuer *`Broad Campaign code`* eingeführt wird. Diese Datei würde dann für bereits klassifizierte Werte gelten. Wenn Sie eine neue Unter-Classification erstellen (z. B. *`Creative Theme`* als Unter-Classification von *`Creative code`*), laden Sie nur die Unter-Classification-Datei hoch und nicht die gesamte Classification-Datei.
+   Zum Beispiel würden Sie eine solche Datei hochladen, wenn ein neuer *`Broad Campaign code`* eingeführt wird. Diese Datei würde dann für bereits klassifizierte Werte gelten. Wenn Sie eine neue Unterklassifizierung erstellen (z. B. *`Creative Theme`* als Unterklassifizierung von *`Creative code`*), laden Sie nur die Unterklassifizierungsdatei und nicht die gesamte Klassifizierungsdatei hoch.
 
    Bei der Berichterstellung funktionieren die Unter-Classifications genauso wie die übergeordneten Classifications. So haben Sie weniger Verwaltungsaufwand, wenn Sie Unter-Classifications verwenden.-->

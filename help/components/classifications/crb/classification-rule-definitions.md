@@ -6,7 +6,7 @@ exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lookback-Fenster </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Regeln aktivieren und validieren, können Sie angeben, ob die Regeln vorhandene Classifications für die betroffenen Schlüssel überschreiben sollen. (Hiervon sind ausschließlich klassifizierte Schlüssel betroffen, die vorher im angegebenen Zeitraum an <span class="keyword">Adobe Analytics</span> übergeben wurden.) </p> <p>Wenn Sie kein <span class="term">Lookback-Fenster</span> festlegen, betrachten die Regeln rückblickend einen Zeitraum von etwa einem Monat (hängt vom aktuellen Tag des Monats ab). Vorhandene Classifications werden nicht überschrieben, sofern Sie diese Option nicht aktivieren. </p> <p><b>Entwicklungszentrum</b>: Partner können im <span class="wintitle">Entwicklungszentrum</span> Classification-Regeln erstellen. Diese Regeln werden bereitgestellt, wenn der Kunde eine Integration aktiviert. Mit der Option <span class="wintitle">„Seit“ überschreiben</span> im <span class="uicontrol">Entwicklungszentrum</span> kann der Partner angeben, ob der Kunde den Überschreibungswert festlegen kann, wenn er eine Integration aktiviert oder bearbeitet. </p> <p>Weitere Informationen zur Verarbeitung von Regeln finden Sie unter <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Verarbeitung der Regeln</a>. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Regeln aktivieren und validieren, können Sie angeben, ob die Regeln vorhandene Classifications für die betroffenen Schlüssel überschreiben sollen. (Hiervon sind ausschließlich klassifizierte Schlüssel betroffen, die vorher im angegebenen Zeitraum an <span class="keyword">Adobe Analytics</span> übergeben wurden.) </p> <p>Wenn Sie kein <span class="term"> Lookback-Fenster angeben</span> sehen die Regeln ungefähr einen Monat zurück (je nach aktuellem Tag des Monats). Bestehende Klassifizierungen werden nur überschrieben, wenn Sie diese Option aktivieren. </p> <p><b>Entwicklungszentrum</b>: Partner können im <span class="wintitle">Entwicklungszentrum</span> Classification-Regeln erstellen. Diese Regeln werden bereitgestellt, wenn der Kunde eine Integration aktiviert. Mit der Option <span class="wintitle">„Seit“ überschreiben</span> im <span class="uicontrol">Entwicklungszentrum</span> kann der Partner angeben, ob der Kunde den Überschreibungswert festlegen kann, wenn er eine Integration aktiviert oder bearbeitet. </p> <p>Weitere Informationen zur Verarbeitung von Regeln finden Sie unter <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Verarbeitung der Regeln</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Regel hinzufügen </a> </td> 
@@ -84,7 +84,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Die Nummer der Regel. </p> <p>Weitere Informationen finden Sie unter <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Verarbeitung der Regeln</a> . </p> </td> 
+   <td colname="col2"> <p>Die Nummer der Regel. </p> <p>Weitere Informationen finden Sie unter <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Verarbeitung </a> Regeln . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Regeltyp auswählen</span> </td> 

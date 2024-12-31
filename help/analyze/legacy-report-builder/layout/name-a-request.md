@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie einen benutzerdefinierten Namen für Ihre Anforderung angeben.
+description: Erfahren Sie, wie Sie einen benutzerdefinierten Namen für Ihre Anfrage angeben.
 title: Anpassen des Anforderungsnamens
 uuid: 111326eb-33e2-490b-9a04-0f481a70e072
 feature: Report Builder

@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Letztkontakt-Kanal
 
-Die Dimension &quot;Letztkontakt-Kanal&quot;[](overview.md) gibt den letzten Marketing-Kanal an, mit dem ein Besucher während des Interaktionszeitraums des Besuchers (standardmäßig 30 Tage) übereinstimmt. Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
+Der „Letztkontakt-Kanal[ (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
 
 ## Füllen dieser Dimension mit Daten
 

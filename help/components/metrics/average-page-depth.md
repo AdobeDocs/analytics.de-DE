@@ -12,15 +12,15 @@ ht-degree: 55%
 
 # Durchschnittliche Klicktiefe
 
-Die Metrik &quot;Durchschnittliche Klicktiefe&quot;[](overview.md) gibt an, wie weit sich ein Dimensionselement im Durchschnitt in einen bestimmten Besuch erstreckt. Ihre Startseite (die ein Dimensionselement für die Dimension &quot;Seite&quot;ist) zeigt beispielsweise in der Regel eine kleinere durchschnittliche Klicktiefe als Ihre Kaufbestätigungsseite, die sich wahrscheinlich weiter in einen Besuch erstreckt. Sie können diese Informationen verwenden, um bestimmte Seiten für neue Besucher zu optimieren, wenn die Seite durchschnittlich eine niedrige Klicktiefe aufweist.
+Die „Metrik [ durchschnittliche Seitentiefe“ ](overview.md) an, wie weit ein Dimensionselement sich im Durchschnitt bis zu einem bestimmten Besuch erstreckt. Beispielsweise zeigt Ihre Startseite (die ein Dimensionselement für die Dimension Seite ist) in der Regel eine kleinere durchschnittliche Seitentiefe als Ihre Kaufbestätigungsseite, die wahrscheinlich weiter in einen Besuch hineinreicht. Sie können diese Informationen verwenden, um bestimmte Seiten für neue Besucher zu optimieren, wenn die Seite im Durchschnitt eine niedrige Tiefe aufweist.
 
 >[!TIP]
 >
->Verwenden Sie diese Metrik neben einer anderen Metrik, z. B. [Besuche](visits.md), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie möglicherweise Dimensionselemente mit anomalen Klicktiefen, was normalerweise kein wertvoller Einblick ist.
+>Verwenden Sie diese Metrik zusammen mit einer anderen Metrik, z[ B. „Besuche](visits.md), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie möglicherweise Dimensionselemente mit anomalen Seitentiefen, was in der Regel keine wertvolle Erkenntnis ist.
 
 ## Berechnung dieser Metrik
 
-Die erste Seite eines Besuchs hat eine Klicktiefe von `0`. Die nächste Seite hat eine Klicktiefe von 1, usw. bis zum Ende des Besuchs. Diese Metrik erhöht sich nur bei Seitenansichtsaufrufen ([`t()`](/help/implement/vars/functions/t-method.md)) und nicht bei Linktracking-Aufrufen ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Die erste Seite eines Besuchs hat eine Klicktiefe von `0`. Die nächste Seite hat eine Klicktiefe von 1, usw. bis zum Ende des Besuchs. Diese Metrik erhöht sich nur bei Aufrufen der Seitenansicht ([`t()`](/help/implement/vars/functions/t-method.md)) und nicht bei Aufrufen des Linktrackings ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 Fügen Sie für ein bestimmtes Dimensionselement alle Klicktiefen für dieses Dimensionselement hinzu und teilen Sie es durch Besuche. Die resultierende Zahl ist die durchschnittliche Klicktiefe, gerundet auf die nächste Ganzzahl. Wenn Dimensionselemente eine durchschnittlichen Klicktiefe von `0` haben, bedeutet das, dass sie auf der ersten Seite des Besuchs vorkamen.
 
@@ -46,6 +46,6 @@ If 'Count repeat instances' is disabled:
 
 ## Prozentsätze über 100 %
 
-Diese Metrik enthält häufig Prozentsätze über 100 %. Der Nenner ist die durchschnittliche Klicktiefe der gesamten Dimension und der Zähler die durchschnittliche Klicktiefe des Dimensionselements.
+Diese Metrik enthält häufig Prozentsätze über 100 %. Der Nenner ist die durchschnittliche Seitentiefe der gesamten Dimension und der Zähler die durchschnittliche Seitentiefe des Dimensionselements.
 
-Wenn die durchschnittliche Klicktiefe der gesamten Dimension kleiner ist als die durchschnittliche Klicktiefe eines bestimmten Dimensionselements, werden Prozentsätze über 100 % angezeigt. Bei der Sortierung von Rangberichten nach dieser Metrik werden anormale Werte für die durchschnittliche Klicktiefe angezeigt, was normalerweise nicht nützlich ist. Adobe empfiehlt, in Rangberichten nach einer anderen Metrik wie z. B. [Besuche](visits.md) zu sortieren.
+Wenn die durchschnittliche Seitentiefe der gesamten Dimension geringer ist als die durchschnittliche Seitentiefe eines bestimmten Dimensionselements, werden Prozentsätze über 100 % angezeigt. Bei der Sortierung von Rangberichten nach dieser Metrik werden anormale Werte für die durchschnittliche Klicktiefe angezeigt, was normalerweise nicht nützlich ist. Adobe empfiehlt, in Rangberichten nach einer anderen Metrik wie z. B. [Besuche](visits.md) zu sortieren.

@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Cookie-Unterstützung
 
-Die Dimension &quot;[Cookie-Unterstützung&quot;](overview.md) gibt an, ob der Browser Cookies für einen bestimmten Treffer unterstützt. Es ist nützlich, den Anteil der Besucher zu ermitteln, die Browser verwenden, die Cookies unterstützen, und diejenigen, die sie absichtlich deaktivieren.
+Die Dimension „Cookie-Unterstützung[ gibt ](overview.md), ob der Browser Cookies für einen bestimmten Treffer unterstützt. Es ist nützlich, den Anteil der Besucher zu ermitteln, die Browser verwenden, die Cookies unterstützen, und diejenigen, die sie absichtlich deaktivieren.
 
 ## Füllen dieser Dimension mit Daten
 

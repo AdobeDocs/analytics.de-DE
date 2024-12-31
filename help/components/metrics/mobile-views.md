@@ -16,4 +16,4 @@ ht-degree: 44%
 >
 >Diese Metrik wurde im September 2017 stillgelegt. Es werden keine Daten zurückgegeben.
 
-Wenn Sie eine [metrik](overview.md) wünschen, die den Traffic von Mobilgeräten misst, empfiehlt Adobe die Verwendung des Segments &quot;Besuche von Mobilgeräten&quot;in einem Projekt oder einer berechneten Metrik.
+Wenn Sie eine [Metrik](overview.md) benötigen, die den Traffic von Mobilgeräten misst, empfiehlt Adobe die Verwendung des Segments „Besuche von Mobilgeräten“ in einem Projekt oder einer berechneten Metrik.

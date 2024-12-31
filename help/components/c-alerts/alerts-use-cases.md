@@ -1,5 +1,5 @@
 ---
-description: Anwendungsbeispiele für die Erstellung und Verwaltung von Warnhinweisen.
+description: Anwendungsbeispiele zum Erstellen und Verwalten von Warnhinweisen
 title: Warnhinweise - Anwendungsfälle
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
@@ -12,9 +12,9 @@ ht-degree: 46%
 
 # Warnhinweise - Anwendungsfälle
 
-Sie können Warnhinweise wie in [Warnhinweise erstellen](/help/components/c-alerts/alert-builder.md) beschrieben erstellen.
+Sie können Warnhinweise erstellen, wie in [Warnhinweise erstellen](/help/components/c-alerts/alert-builder.md) beschrieben.
 
-Die folgenden Abschnitte veranschaulichen Beispielanwendungsfälle, die bei der Erstellung von Warnhinweisen berücksichtigt werden sollten.
+Die folgenden Abschnitte veranschaulichen Beispielanwendungsfälle, die bei der Erstellung von Warnhinweisen berücksichtigt werden müssen.
 
 ## Erstellen eines einfachen Warnhinweises, der nach zwei Segmenten gefiltert wird {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 

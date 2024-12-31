@@ -16,13 +16,13 @@ ht-degree: 71%
 
 {{legacy-arb}}
 
-Adobe Report Builder bietet Berechtigungseinstellungen, die denen in den Analytics Admin Tools ähneln.
+Adobe Report Builder verfügt über Berechtigungseinstellungen, die denen der Analytics Admin Tools ähneln.
 
 Als Benutzer ohne Administratorrechte haben Sie möglicherweise bereits Arbeitsmappen mit Anforderungen erstellt, die auf Dimensionen und Metriken verweisen, auf die Sie keinen Zugriff haben. Diese Berechtigungen kommen nun zur Geltung.
 
-Wenn Sie beispielsweise eine Anforderung aktualisieren, die Dimensionen oder Metriken enthält, auf die Sie keinen Zugriff haben, erhalten Sie einen Fehler wegen eingeschränkter Berechtigung. Die Fehlermeldung weist darauf hin, dass für Ihr Benutzerkonto aufgrund von Administratorberechtigungen keine Anfrage verfügbar ist.
+Wenn Sie beispielsweise eine Anfrage aktualisieren, die Dimensionen oder Metriken enthält, auf die Sie keinen Zugriff haben, wird der Berechtigungsfehler eingeschränkt angezeigt. Die Fehlermeldung besagt, dass eine Anfrage aufgrund von Administratorberechtigungen für Ihr Benutzerkonto nicht verfügbar ist.
 
-![ Screenshot mit der Fehlermeldung &quot;Fehler wegen eingeschränkter Berechtigung&quot;.](assets/arb_restrc_perm.png)
+![Screenshot mit der Fehlermeldung „Eingeschränkte Berechtigung“.](assets/arb_restrc_perm.png)
 
 Befolgen Sie diese Anweisungen für **jede** Report Builder-Arbeitsmappe, die Sie pflegen:
 

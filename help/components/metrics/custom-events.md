@@ -14,7 +14,7 @@ ht-degree: 83%
 
 *Auf dieser Hilfeseite wird beschrieben, wie benutzerspezifische Ereignisse als Metrik funktionieren. Informationen dazu, wie benutzerspezifische Ereignisse als Implementierungsvariable funktionieren, finden Sie unter [Übersicht über Ereignisse](/help/implement/vars/page-vars/events/events-overview.md) im Benutzerhandbuch zu Implementierungen.*
 
-Benutzerspezifisches Ereignis [metriken](overview.md) gibt die Anzahl der Treffer an, bei denen ein bestimmtes benutzerspezifisches Ereignis in einer Bildanforderung festgelegt wurde. Diese Metriken sind für viele Implementierungen unverzichtbar, da sie Einblicke in unternehmensspezifische Ereignisse bieten.
+Benutzerspezifisches Ereignis [Metriken](overview.md) zeigen die Anzahl der Treffer an, bei denen ein bestimmtes benutzerspezifisches Ereignis in einer Bildanforderung festgelegt wurde. Diese Metriken sind für viele Implementierungen unverzichtbar, da sie Einblicke in unternehmensspezifische Ereignisse bieten.
 
 ## Berechnung dieser Metrik
 
@@ -24,6 +24,6 @@ Benutzerspezifische Ereignisse werden je nach Typ unterschiedlich berechnet. Sie
 * **Numerische Ereignisse**: Summieren den numerischen Wert, der dem Ereignis in der `events`-Variablen zugewiesenen ist.
 * **Währungsereignisse**: Wendet die Währungsumrechnung auf den Wechselkurs dieses Tages an und summiert dann den numerischen Wert, der jedem Treffer in der `events`-Variablen zugewiesen ist.
 
-Die Anzahl der verfügbaren Ereignisse hängt vom Analytics-Vertrag Ihres Unternehmens ab. In den meisten Unternehmen, die nicht über einen Altvertrag verfügen, stehen 1000 benutzerdefinierte Ereignisse zur Verfügung. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie nicht sicher sind, wie viele benutzerspezifische Ereignisse für Sie verfügbar sind.
+Die Anzahl der verfügbaren Ereignisse hängt vom Analytics-Vertrag Ihres Unternehmens ab. In den meisten Unternehmen, die nicht über einen Altvertrag verfügen, stehen 1000 benutzerdefinierte Ereignisse zur Verfügung. Wenden Sie sich an Ihr Adobe-Account-Team, wenn Sie sich nicht sicher sind, wie viele benutzerspezifische Ereignisse für Sie verfügbar sind.
 
 Adobe empfiehlt, dass Sie die Verwendung der einzelnen Ereignisse im [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) Ihres Unternehmens erfassen.

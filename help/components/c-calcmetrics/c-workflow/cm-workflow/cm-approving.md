@@ -12,28 +12,28 @@ ht-degree: 19%
 
 # Berechnete Metriken genehmigen
 
-Im Manager für berechnete Metriken können Administratoren einen Workflow einrichten, der die Genehmigung von Metriken für verschiedene Anwendungsebenen sowie für bestimmte Abteilungen oder Gruppen umfasst.
+Im Manager für berechnete Metriken können Admins einen Workflow einrichten, der die Genehmigung von Metriken für verschiedene Anwendungsebenen sowie für bestimmte Abteilungen oder Gruppen umfasst.
 
 >[!NOTE]
 >
->Administratoren können auch berechnete Metriken (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie unter [Komponenteneinträge im Datenwörterbuch bearbeiten](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) beschrieben.
+>Admins können auch berechnete Metriken (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie beschrieben unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 >
->Alle berechneten Metriken, die im Datenwörterbuch genehmigt wurden, werden im Manager für berechnete Metriken angezeigt. Gleichermaßen werden Metriken, die im Manager für berechnete Metriken genehmigt wurden, im Datenwörterbuch angezeigt.
+>Alle berechneten Metriken, die im Datenwörterbuch genehmigt wurden, werden im Manager für berechnete Metriken angezeigt. Ebenso werden Metriken, die im Manager für berechnete Metriken genehmigt wurden, im Datenwörterbuch angezeigt.
 
 So markieren Sie berechnete Metriken als genehmigt:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**].
 
 1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen links neben den Metriken, die Sie als genehmigt markieren möchten.
 
-1. Wählen Sie in der Verwaltungsaufgabe oben auf der Seite **[!UICONTROL Genehmigen]** aus.
+1. Wählen **[!UICONTROL in]** Verwaltungsaufgabe oben auf der Seite „Genehmigen“ aus.
 
    Um eine Metrik aus der Liste der genehmigten Metriken zu entfernen, wählen Sie **[!UICONTROL Nicht genehmigen]** aus.
 
-1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie unter [Berechnete Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) beschrieben.
+1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie unter [Freigeben berechneter Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) beschrieben.
 
-1. Wählen Sie **[!UICONTROL OK]** aus.
+1. Klicken Sie **[!UICONTROL OK]**.
 
    Beachten Sie, dass in der Liste neben der berechneten Metrik ein Genehmigungssymbol angezeigt wird:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)
 
-1. (Optional) Um die Liste der berechneten Metriken im Manager für berechnete Metriken so zu filtern, dass nur genehmigte Metriken angezeigt werden, wählen Sie das Symbol **Filter** aus, erweitern Sie **[!UICONTROL Sonstige Filter]** und wählen Sie dann **[!UICONTROL Genehmigt]** aus.
+1. (Optional) Um die Liste der berechneten Metriken im Manager für berechnete Metriken so zu filtern, dass nur genehmigte Metriken angezeigt werden, wählen Sie das Symbol **Filter** aus, erweitern Sie **[!UICONTROL Andere Filter]** und klicken Sie dann auf **[!UICONTROL Genehmigt]**.

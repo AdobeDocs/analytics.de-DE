@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Paid Search
 
-Mit der Dimension &quot;Paid Search&quot;[Dimension](overview.md) können Sie eine beliebige Metrik anzeigen und sie zwischen Paid Search und kostenloser Suche vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
+Mit der Dimension [Paid Search](overview.md) können Sie eine beliebige Metrik betrachten und sie zwischen Paid Search und natürlicher Suche vergleichen. Alle anderen Treffer außerhalb der Suchmaschinen werden weggelassen. Diese Dimension ist hilfreich, um zu verstehen, wie sich Ihre gebührenpflichtigen Suchbemühungen mit der kostenlosen Suche vergleichen.
 
 ## Füllen dieser Dimension mit Daten
 

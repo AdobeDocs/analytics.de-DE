@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Seiten-URL
 
-Die Dimension &quot;Seiten-URL&quot;[](overview.md) listet die URLs auf Ihrer Site auf.
+Die Dimension „Seiten-URL[ führt ](overview.md) URLs auf Ihrer Site auf.
 
 >[!IMPORTANT]
 >

@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über das Hinzufügen von abhängigen Anforderungen.
-title: Abhängige Anforderungen hinzufügen
+description: Erfahren Sie mehr über das Hinzufügen abhängiger Anfragen.
+title: Hinzufügen abhängiger Anfragen
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
@@ -18,13 +18,13 @@ ht-degree: 32%
 
 Eine abhängige Anforderung ist eine Anforderung, die von einer anderen Anforderung abhängt.
 
-Für Berichte mit in der Berichtstabelle aktivierten Korrelationsaufschlüsselungen klicken Sie mit der rechten Maustaste in die Zelle und klicken dann auf **[!UICONTROL Abhängige Anforderung hinzufügen]** > **[!UICONTROL Aufschlüsselung]**, um ein Element genauer anzusehen.
+Klicken Sie bei Berichten mit aktivierten Korrelationsaufschlüsselungen in der Berichtstabelle mit der rechten Maustaste in die Zelle, um sich ein Element genauer anzusehen, und klicken Sie dann auf **[!UICONTROL Abhängige Anfrage hinzufügen]** > **[!UICONTROL Aufschlüsselung]**.
 
 >[!NOTE]
 >
->Sie können auch eine Aufschlüsselungsanforderung hinzufügen, wenn Sie die ursprüngliche Anforderung erstellen. Siehe [Eine Datenanforderung erstellen](/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md).
+>Sie können auch eine Aufschlüsselungsanfrage hinzufügen, wenn Sie die ursprüngliche Anfrage erstellen. Siehe [Eine Datenanforderung erstellen](/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md).
 
 >[!NOTE]
 >
->Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
+>Adobe Report Builder erzwingt Anfrageabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht über Arbeitsblätter hinweg. Die Einschränkung auf Abhängigkeiten innerhalb eines einzigen Arbeitsblatts stellt eine zeitgerechte Ausführung sicher.
 

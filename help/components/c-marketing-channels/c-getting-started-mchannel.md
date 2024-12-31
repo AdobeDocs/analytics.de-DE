@@ -6,7 +6,7 @@ exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ So führen Sie das automatische Setup für Marketing-Kanäle aus.
 
    >[!NOTE]
    >
-   >Die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] wird automatisch bei Zugriff auf die Kanalkonfigurationsanwendungen in „Admin Tools“ angezeigt. (Weitere Informationen finden Sie unter [Marketing-Kanal-Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Die Seite wird nicht angezeigt, wenn Ihre Report Suite einen oder mehrere Marketingkanäle enthält. Sie können nur dann erneut auf die Seite zugreifen, wenn Sie eine andere Report Suite ohne Marketingkanäle auswählen.
+   >Die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] wird automatisch bei Zugriff auf die Kanalkonfigurationsanwendungen in „Admin Tools“ angezeigt. (Siehe [Marketing-Kanal-Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Diese Seite wird nicht angezeigt, wenn Ihre Report Suite einen oder mehrere Marketing-Kanäle enthält. Sie können nur dann erneut auf die Seite zugreifen, wenn Sie eine andere Report Suite ohne Marketingkanäle auswählen.
 
 1. Stellen Sie sicher, dass die gewünschten Kanäle ausgewählt sind.
 

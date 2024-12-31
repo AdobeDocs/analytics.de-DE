@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie Anforderungen kopieren, einfügen und in einen anderen Teil des Arbeitsblatts verschieben können.
-title: Anleitung zum Kopieren angrenzender Anforderungen
+description: Erfahren Sie, wie Sie Anfragen kopieren, einfügen und in einen anderen Teil des Arbeitsblatts verschieben können.
+title: Kopieren angrenzender Anfragen
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
 role: User, Admin
@@ -22,8 +22,8 @@ Wenn Sie eine Anforderung ausschneiden, wird sie von ihrer ursprünglichen Posit
 
 >[!NOTE]
 >
->ReportBuilder unterstützt den Excel-Befehl &quot;Rückgängig&quot;zum Ausschneiden oder Einfügen von Anforderungen nicht.
+>Report Builder unterstützt nicht den Excel-Befehl zum Rückgängigmachen von Ausschneide- oder Einfügeanfragen.
 
-Sie sind nicht darauf beschränkt, das Kopieren und Einfügen im selben Arbeitsblatt der Arbeitsmappe vorzunehmen. Sie können eine Anforderung in ein Arbeitsblatt kopieren und an eine Stelle in einem anderen Arbeitsblatt in derselben Arbeitsmappe einfügen.
+Sie sind nicht darauf beschränkt, in dasselbe Blatt der Arbeitsmappe zu kopieren und einzufügen. Sie können eine Anforderung in ein Blatt kopieren und an eine Position in einem anderen Blatt in derselben Arbeitsmappe einfügen.
 
-Sie sind nicht darauf beschränkt, jeweils eine Anforderung zu kopieren und einzufügen. Sie können mehr als eine Anforderung im Arbeitsblatt kopieren und in einem anderen Bereich des Arbeitsblatts einfügen. Genau wie beim Kopieren und Einfügen einer einzelnen Anforderung müssen Sie dabei darauf achten, dass der Einfügebereich keine Zelleninhalte enthält, die durch die Einfügung ersetzt werden. Wenn das System feststellt, dass der Zieleinfügebereich bereits eine oder mehrere Anforderungen enthält, zeigt Report Builder das Menü [!UICONTROL Anforderungen einfügen] für keine kopierten oder ausgeschnittenen Anforderungen an. Sie müssen eine andere Zelle als Ziel der Einfügeoperation wählen, damit sich die Anforderungen nicht überschneiden.
+Es ist nicht möglich, jeweils nur eine Anfrage zu kopieren und einzufügen. Sie können mehr als eine Anforderung im Arbeitsblatt kopieren und in einem anderen Bereich des Arbeitsblatts einfügen. Genau wie beim Kopieren und Einfügen einer einzelnen Anforderung müssen Sie dabei darauf achten, dass der Einfügebereich keine Zelleninhalte enthält, die durch die Einfügung ersetzt werden. Wenn das System feststellt, dass der Zielbereich zum Einfügen bereits eine oder mehrere Anforderungen enthält, zeigt der Report Builder das Menü [!UICONTROL Anforderungen einfügen] für kopierte oder ausgeschnittene Anforderungen nicht an. Sie müssen eine andere Zelle als Ziel der Einfügeoperation wählen, damit sich die Anforderungen nicht überschneiden.

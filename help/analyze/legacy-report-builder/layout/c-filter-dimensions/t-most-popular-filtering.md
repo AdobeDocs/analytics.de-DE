@@ -26,7 +26,7 @@ Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedi
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] im Raster auf den Link neben der Dimension und wählen Sie dann **[!UICONTROL Filter]**.
 
-   ![Screenshot mit dem Dialogfeld &quot;Filter definieren&quot;mit Optionen zum Filtern nach Anwendung, Benutzer und Projekt.](/help/admin/admin/assets/filter.png)
+   ![Screenshot mit dem Dialogfeld „Filter definieren“ mit Optionen zum Filtern nach Anwendung, Benutzer und Projekt.](/help/admin/admin/assets/filter.png)
 
 1. Aktivieren Sie im Dialogfeld [!UICONTROL Seiten auswählen] die Option **[!UICONTROL Am meisten bevorzugte]** und konfigurieren Sie dann die folgenden Optionen:
 
@@ -45,15 +45,15 @@ Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedi
 1. Konfigurieren Sie im Dialogfeld [!UICONTROL Filter definieren] die Ihren Anforderungen entsprechenden Bedingungen.
 
 
-   ![ Screenshot mit dem Dialogfeld &quot;Filter definieren&quot;.](assets/expressions_define_filter.png)
+   ![Screenshot mit dem Dialogfeld „Filter definieren“.](assets/expressions_define_filter.png)
 
-   Über das Symbol Zelle auswählen können Sie eine Bedingung finden, die im Wert einer Zelle definiert ist. ![ Das Symbol &quot;Zelle auswählen&quot;.](assets/select_cell_icon.png)
+   Mit dem Symbol Zelle auswählen können Sie eine Bedingung finden, die im Wert einer Zelle definiert ist. ![Das Symbol „Zelle auswählen“.](assets/select_cell_icon.png)
 
-   Über den Link **Bedingung hinzufügen** können Sie eine Bedingung zum Ausdruck hinzufügen. Die Zahl der Bedingungen, die Sie hinzufügen können, ist nicht beschränkt.
+   Über **Link** Bedingung hinzufügen“ können Sie eine Bedingung zum Ausdruck hinzufügen. Die Zahl der Bedingungen, die Sie hinzufügen können, ist nicht beschränkt.
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
-   ![Screenshot des Dialogfelds Filter definieren mit der Schaltfläche OK unten rechts.](assets/choose_page_02.png)
+   ![Screenshot des Dialogfelds „Filter definieren“ mit der Schaltfläche „OK“ unten rechts.](assets/choose_page_02.png)
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Seiten auswählen] auf **[!UICONTROL Speichern]**, um den Ausdruck zu speichern.
 1. Klicken Sie auf **[!UICONTROL OK]**.

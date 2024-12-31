@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie mehr als eine Kopie einer Anforderung erstellen.
-title: So erstellen Sie mehr als eine Kopie einer Anforderung
+description: Erfahren Sie, wie Sie mehr als eine Kopie einer Anfrage erstellen.
+title: So erstellen Sie mehr als eine Kopie einer Anfrage
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin

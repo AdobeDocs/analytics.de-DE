@@ -6,7 +6,7 @@ exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '2847'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -443,7 +443,7 @@ NOT(logical)
 |---|---|
 | *logisch* | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 
-Bei Verwendung von NOT müssen Sie wissen, ob die Ausdrücke (&lt;, >, =, &lt;> usw.) 0- oder 1-Werte zurückgeben.
+Die Verwendung von NOT erfordert zu wissen, ob die Ausdrücke (&lt;, >, =, &lt;> usw.) 0 oder 1 Werte zurückgeben.
 
 ## Ungleich {#concept_EC010B7A9D2049099114A382D662FC16}
 

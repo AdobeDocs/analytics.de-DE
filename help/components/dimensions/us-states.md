@@ -12,14 +12,14 @@ ht-degree: 73%
 
 # US-Bundesstaat
 
-Die Dimension &quot;US-Bundesstaat&quot;[](overview.md) gibt den Bundesstaat des Besuchers in den Vereinigten Staaten von Amerika an. Sie ähnelt der Dimension [Regionen](regions.md), allerdings ist diese Dimension spezifisch für die USA. Die Verwendung dieser Dimension ist hilfreich, wenn Sie Einblicke wünschen, die detaillierter sind als [Länder](countries.md), aber nicht so detailliert wie [Städte](cities.md).
+Die Dimension „US[Bundesstaat](overview.md) zeigt den Status des Besuchers in den Vereinigten Staaten von Amerika an. Sie ähnelt der Dimension [Regionen](regions.md), allerdings ist diese Dimension spezifisch für die USA. Die Verwendung dieser Dimension ist hilfreich, wenn Sie Einblicke wünschen, die detaillierter sind als [Länder](countries.md), aber nicht so detailliert wie [Städte](cities.md).
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um die Suche zwischen IP-Adresse und Land zu unterstützen.
+Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um Suchvorgänge zwischen IP-Adresse und Land zu verwalten.
 
-* Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [ Konfigurieren eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 
@@ -32,7 +32,7 @@ Diese Dimension kann `"AOL"`, einen DFÜ-Dienstleister umfassen. Abonnenten dies
 Da diese Dimension auf der IP-Adresse basiert, kann in einigen Szenarien ein Unterschied zwischen dem gemeldeten und dem tatsächlichen Standort anzeigt werden:
 
 * **IP-Adressen, die Unternehmensproxys darstellen**: Diese Besucher können als Traffic erscheinen, der über das Unternehmensnetzwerk des Benutzers kommt. Dies kann ein anderer Standort sein, wenn der Benutzer remote arbeitet.
-* **Mobile IP-Adressen**: Die mobile IP-Zielerfassung funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Einige Netzbetreiber transportieren den IP-Traffic über zentralisierte oder regionale Standorte.
+* **Mobile IP-Adressen**: Die mobile IP-Zielerfassung funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Einige Fluggesellschaften befördern den IP-Verkehr über zentrale oder regionale Anlaufstellen.
 * **Satelliten-ISP-Benutzer**: Es ist schwierig, den spezifischen Standort dieser Benutzer zu identifizieren, da sie in der Regel vom Uplink-Standort zu stammen scheinen.
 * **Militärische und staatliche IPs**: Die Mitarbeiter sind weltweit unterwegs und der Zugriff erfolgt eher über ihren Heimatstandort als von der Basis oder der Behörde aus, in der sie gegenwärtig beschäftigt sind.
-* **Proxys, die aus Datenschutzgründen IP-Adressen verdecken**: Dienste wie der private Link von Apple verbergen die wahre IP-Adresse, indem sie Daten per Zufall über einen Vermittler oder Proxy senden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.
+* **Proxys, die IP-Adressen aus Datenschutzgründen verdecken**: Services wie das Private Relay von Apple verbergen die wahre IP-Adresse, indem sie zufällig Daten über einen Vermittler oder Proxy senden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.

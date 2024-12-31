@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Tag des Jahres
 
-Die Dimension &quot;Tag des Jahres&quot;[](overview.md) erfasst den numerischen Tag eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Tag des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen.
+Der „Tag des Jahres“ [Dimension](overview.md) zeigt den numerischen Tag eines bestimmten Jahres als Dimensionselement an. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Tag des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen.
 
 ## Füllen dieser Dimension mit Daten
 

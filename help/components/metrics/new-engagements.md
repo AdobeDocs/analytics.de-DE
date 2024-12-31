@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Neue Interaktionen
 
-Die Metrik &quot;Neue Interaktionen&quot;[zeigt an, wie oft ein Besucher im Interaktionszeitraum des Besuchers zum ersten Mal mit einem Marketing-Kanal übereinstimmt. ](overview.md) Diese Metrik ist nützlich, wenn Sie eine beliebige Dimension mit einem Besucher vergleichen möchten, der zum ersten Mal mit einer Verarbeitungsregel für einen Marketing-Kanal übereinstimmt.
+Die „Metrik [ Interaktionen“ ](overview.md) an, wie oft eine Besucherin oder ein Besucher zum ersten Mal in ihrem bzw. seinem Interaktionszeitraum mit einem Marketing-Kanal übereinstimmt. Diese Metrik ist nützlich, wenn Sie eine beliebige Dimension mit einem Besucher vergleichen möchten, der zum ersten Mal mit einer Verarbeitungsregel für einen Marketing-Kanal übereinstimmt.
 
 ## Berechnung dieser Metrik
 

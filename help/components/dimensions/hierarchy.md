@@ -1,6 +1,6 @@
 ---
 title: Hierarchie
-description: (Veraltet) Eine benutzerdefinierte Dimension, die Sie für die Berichterstellung verwenden können.
+description: (Eingestellt) Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
 source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669

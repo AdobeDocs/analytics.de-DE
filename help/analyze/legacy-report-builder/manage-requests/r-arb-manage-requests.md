@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über die Feldbeschreibungen für die Verwaltung von Anforderungen in Report Builder.
-title: Verwalten von Anforderungen in Report Builder
+description: Erfahren Sie mehr über die Feldbeschreibungen für „Anfragen verwalten“ in Report Builder.
+title: Verwalten von Anfragen im Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
@@ -16,17 +16,17 @@ ht-degree: 74%
 
 {{legacy-arb}}
 
-Zeigen Sie Details zum Anforderungsstatus an und verwenden Sie die Feldbeschreibungen, um Anforderungen in Report Builder zu verwalten.
+Zeigen Sie Details eines Anfragestatus an und verwenden Sie die Feldbeschreibungen, um Anfragen im Report Builder zu verwalten.
 
 ## Überblick {#section_75C288C945FA4781A4EDF806711A5660}
 
-Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Ansicht des Status aller Anforderungen, die Sie für alle Arbeitsblätter oder nur für ein Blatt der aktiven Arbeitsmappe erstellt haben. Sie können auch Anforderungen hinzufügen, bearbeiten, aktualisieren und löschen. Diese Funktionen sind in der Regel mit dem Anforderungs-Assistenten [!UICONTROL  und dem Anforderungs-Manager] verknüpft, wenn Sie mit der rechten Maustaste auf eine verfügbare Zelle im Excel-Arbeitsblatt klicken, die frühere Anforderungen enthält.][!UICONTROL 
+Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Ansicht des Status aller Anforderungen, die Sie für alle Arbeitsblätter oder nur für ein Blatt der aktiven Arbeitsmappe erstellt haben. Sie können auch eine Anfrage hinzufügen, bearbeiten, aktualisieren und löschen. Diese Funktionen sind in der Regel mit dem [!UICONTROL Anforderungs-]) und [!UICONTROL Anforderungs-Manager] verknüpft, wenn Sie mit der rechten Maustaste auf eine verfügbare Zelle in der Excel-Tabelle klicken, die frühere Anforderungen enthält.
 
-Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in der Report Builder-Symbolleiste auf **[!UICONTROL Verwalten]** ![](assets/edit_request.gif) klicken.
+Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in der Report Builder **[!UICONTROL Symbolleiste auf]** Verwalten![](assets/edit_request.gif) klicken.
 
 >[!NOTE]
 >
->Adobe Report Builder erzwingt Anforderungsabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht aber über Arbeitsblätter hinweg. Die Beschränkung auf Abhängigkeiten innerhalb eines einzelnen Arbeitsblatts stellt die Ausführungszeit sicher.
+>Adobe Report Builder erzwingt Anfrageabhängigkeiten nur innerhalb desselben Arbeitsblatts, nicht über Arbeitsblätter hinweg. Durch die Beschränkung auf Abhängigkeiten in einem einzigen Arbeitsblatt wird die fristgerechte Ausführung gewährleistet.
 
 ## Definitionen {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -64,7 +64,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in der Report Bui
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fügen Sie </p> </td> 
-   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Eine Datenanforderung erstellen</a>. </p> </td> 
+   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Erstellen einer Datenanfrage</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vorlage </p> </td> 
@@ -84,7 +84,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in der Report Bui
   </tr> 
   <tr> 
    <td colname="col1"> <p> Aktualisieren </p> </td> 
-   <td colname="col2"> <p>Aktualisierung einer einzelnen Anforderung oder einer Auswahl von Anforderungen. (Siehe <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Eine Anforderung aktualisieren</a>.) </p> </td> 
+   <td colname="col2"> <p>Aktualisierung einer einzelnen Anforderung oder einer Auswahl von Anforderungen. (Siehe <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Aktualisieren einer Anfrage</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Liste aktualisieren </p> </td> 

@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über das Speichern von Berichten mit eingebetteten Anforderungen.
-title: Informationen zum Speichern einer Arbeitsmappe mit Anforderungen
+description: Erfahren Sie mehr über das Speichern von Berichten mit eingebetteten Anfragen.
+title: Informationen zum Speichern einer Arbeitsmappe mit Anfragen
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-Wenn Sie Berichte mit eingebetteten Anforderungen erstellen, können Sie sie mit &quot;**Datei**&quot;> &quot;**Speichern**&quot;oder &quot;**Datei**&quot;> &quot;**Speichern unter**&quot;in Excel speichern. Report Builder erkennt, ob der Bericht Anforderungen enthält. Wenn Sie eine der Speicheroptionen auswählen, füllen Sie das Formular **Arbeitsmappe speichern unter** aus.
+Wenn Sie Berichte mit eingebetteten Anfragen erstellen, können Sie sie mithilfe von **Datei** > **Speichern** oder **Datei** > **Speichern unter** in Excel speichern. Report Builder erkennt, ob der Bericht Anforderungen enthält. Wenn Sie eine der Speicheroptionen auswählen, füllen Sie das Formular **Arbeitsmappe speichern unter** aus.
 
 * Die von Adobe empfohlene Best Practice bei umfangreichen Arbeiten mit Windows-Anwendungen ist, die Anforderungen in den Arbeitsblättern oft und regelmäßig zu speichern, um unerwartete Verluste von Anforderungen im Arbeitsblatt zu vermeiden.
 * Wenn Sie eine Arbeitsmappe benennen, sollten Sie eine Versionsnummer im Dateinamen verwenden, um den Verlauf Ihrer Arbeit verfolgen zu können. Nennen Sie beispielsweise Ihre erste Arbeitsmappe [!DNL web_forecast_01_01.xlsx].

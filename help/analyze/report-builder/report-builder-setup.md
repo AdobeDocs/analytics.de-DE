@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -14,7 +15,7 @@ ht-degree: 68%
 
 # Einrichten von Report Builder
 
-Über das Excel-Add-in-Menü können Sie schnell auf den Report Builder zugreifen.
+Über das Excel-Add-in-Menü können Sie schnell auf Report Builder zugreifen.
 
 ## Voraussetzungen
 
@@ -51,13 +52,13 @@ So laden Sie das Report Builder-Add-in herunter und installieren es
 
 1. Starten Sie Excel und öffnen Sie eine neue Arbeitsmappe.
 
-1. Wählen Sie **[!UICONTROL Einfügen]** > **[!UICONTROL Add-Ins abrufen]**.
+1. Wählen **[!UICONTROL Einfügen]** > **[!UICONTROL Add-Ins abrufen]**.
 
 1. Wählen Sie im Dialogfeld „Office-Add-ins“ die Registerkarte „Store“ aus.
 
-1. Suchen Sie nach &quot;Report Builder&quot;und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Suchen Sie nach &quot;Report Builder&quot; und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-1. Klicken Sie im Dialogfeld &quot;Lizenzbedingungen und Datenschutzrichtlinien&quot;auf **[!UICONTROL Weiter]**.
+1. Klicken Sie im Dialogfeld Lizenzbedingungen und Datenschutzrichtlinien auf **[!UICONTROL Weiter]**.
 
 **Wenn die Registerkarte „Store“ nicht angezeigt wird**
 
@@ -71,7 +72,7 @@ So laden Sie das Report Builder-Add-in herunter und installieren es
 
 Wenden Sie sich an Ihre IT- oder Sicherheitsabteilung, um eine Genehmigung für das Report Builder-Add-in anzufordern. Nachdem die Genehmigung erteilt wurde, wählen Sie im Dialogfeld „Office-Add-Ins“ die Registerkarte „Admin Managed“ aus.
 
-![Die Registerkarte &quot;Admin Managed&quot;im Dialogfeld &quot;Office Add-Ins&quot;.](./assets/image1.png)
+![Die Registerkarte „Admin Managed“ im Dialogfeld „Office-Add-Ins“.](./assets/image1.png)
 
 Nach der Installation des Report Builder-Add-ins wird das Report Builder-Symbol im Excel-Band auf der Registerkarte „Start“ angezeigt.
 
@@ -87,13 +88,13 @@ Nachdem Sie das Report Builder for Excel-Add-in für Ihr Betriebssystem oder Ihr
 
 1. Klicken Sie in der Adobe Report Builder-Symbolleiste auf **[!UICONTROL Anmelden]**.
 
-   ![Klicken Sie auf die Schaltfläche zum Anmelden des Report Builders.](./assets/rb_login.png)
+   ![Klicken Sie auf die Schaltfläche Report Builder-Anmeldung.](./assets/rb_login.png)
 
-1. Geben Sie Ihre Adobe Experience ID-Kontoinformationen ein. Ihre Kontoinformationen sollten mit Ihren Adobe Analytics-Anmeldedaten übereinstimmen.
+1. Geben Sie Ihre Adobe Experience ID-Kontoinformationen ein. Ihre Kontoinformationen sollten mit Ihren Adobe Analytics-Anmeldeinformationen übereinstimmen.
 
    ![Ihr Anmeldesymbol und Ihre Organisation.](./assets/image4.png)
 
-Nach der Anmeldung wird Ihr Anmeldesymbol und Ihre Organisation oben im Bedienfeld angezeigt
+Nach der Anmeldung werden Ihr Anmeldesymbol und Ihre Organisation oben im Bedienfeld angezeigt
 
 ## Wechseln von Organisationen
 
@@ -113,6 +114,6 @@ Sie können sich über das Benutzerprofil von Report Builder abmelden.
 
 1. Klicken Sie auf das Avatar-Symbol, um Ihr Benutzerprofil anzuzeigen.
 
-   ![Ihr Benutzerprofilavatar und die Schaltfläche &quot;Abmelden&quot;.](./assets/image6.png)
+   ![Ihr Benutzerprofilavatar und die Schaltfläche Abmelden.](./assets/image6.png)
 
 1. Klicken Sie auf **Abmelden**.

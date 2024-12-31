@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Referrer-Typ
 
-Die Dimension &quot;Referrer-Typ&quot;[](overview.md) gibt an, durch welche allgemeinen Kanäle Besucher geklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
+Der „Referrer-Typ[ (Dimension](overview.md) zeigt an, welche allgemeinen Kanäle Besucher durchgeklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
 
 ## Füllen dieser Dimension mit Daten
 

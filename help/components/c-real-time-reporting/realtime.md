@@ -23,9 +23,9 @@ Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitena
 
 1. Wählen Sie in Analysis Workspace die Registerkarte [!UICONTROL **Workspace**].
 
-1. Wählen Sie [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]** aus.
+1. Wählen [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]** aus.
 
-## Echtzeitberichte verstehen
+## Grundlegendes zum Echtzeit-Reporting
 
 Beantwortet in Echtzeit die folgenden Fragen: Welche Trends sind auf meiner Site zu beobachten und warum? Marketingexperten können schnell auf die Leistung ihrer Marketinginhalte und Kampagnen reagieren und diese verwalten. Die gelieferten Echtzeitdaten verfügen über eine Latenz von weniger als zwei Minuten und werden minutenweise automatisch aktualisiert.
 
@@ -59,7 +59,7 @@ Nach Aktivierung der A4T-Integration in Adobe [!DNL Target] ist in Adobe Analyti
 
 Diese Steigerung spiegelt sich in sämtlichen Services und Tools von Adobe Analytics wider, einschließlich Live-Stream und Echtzeit-Berichterstattung, und gilt für folgende Szenarien:
 
-* Bei Live-Streams, Echtzeitberichten und API-Anfragen sowie aktuellen Daten für Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
+* Bei Live-Streams, Echtzeitberichten und API-Anfragen sowie aktuellen Daten zu Traffic-Variablen werden nur Treffer mit einer zusätzlichen Daten-ID verzögert.
 * Für aktuelle Daten zu Konversionsmetriken, endgültige Daten und Datenfeeds werden alle Treffer um zusätzliche 5 bis 7 Minuten verzögert.
 
 Achten Sie darauf, dass die Erhöhung der Latenz nach der Implementierung des Identity Service beginnt, auch wenn Sie diese Integration nicht vollständig implementiert haben.

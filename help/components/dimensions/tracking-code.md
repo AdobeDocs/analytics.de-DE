@@ -12,9 +12,9 @@ ht-degree: 66%
 
 # Trackingcode
 
-Die Dimension &quot;Trackingcode&quot;[Dimension](overview.md) listet die Namen der Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen dabei zu verstehen, welche Links am erfolgreichsten zur Erhöhung des Traffics auf Ihre Site beigetragen haben.
+Die Dimension „Trackingcode[ listet ](overview.md) Namen von Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen zu verstehen, welche Links am erfolgreichsten den Traffic zu Ihrer Site geleitet haben.
 
-Das Anhängen von Abfragezeichenfolgen für Trackingcodes ist in E-Mails, Anzeigen, Social-Media-Beiträgen und anderen Marketing-Maßnahmen Ihres Unternehmens üblich.
+Das Anhängen von Trackingcode-Abfragezeichenfolgen ist in E-Mails, Anzeigen, Social-Media-Posts und anderen Marketing-Maßnahmen Ihres Unternehmens häufig.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -22,11 +22,11 @@ Diese Dimension ruft Daten aus der [`v0` Abfragezeichenfolge](/help/implement/va
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Weitere Informationen finden Sie unter [Kampagnen-Tracking](/help/implement/use-cases/campaign-tracking.md) .
+Zu den Dimensionselementen gehören die Namen der Trackingcodes auf Ihrer Site. Ihr Unternehmen legt fest, welche spezifischen Dimensionselemente Sie verwenden möchten. Siehe [Kampagnen-Tracking](/help/implement/use-cases/campaign-tracking.md) für weitere Informationen.
 
 ## Dimension „Trackingcode“ mit Dimension „Marketing-Kanäle“ vergleichen, die Trackingcodes erfasst
 
-Einige Benutzer, die Verarbeitungsregeln für Marketing-Kanäle einrichten, konfigurieren eine Regel, die alle in der Dimension „Trackingcode“ verwendeten Werte berücksichtigt. Obwohl es sich um eine hervorragende Praxis handelt, unterscheiden sie sich aufgrund der inhärenten Verarbeitungs- und Architekturunterschiede. In der folgenden Liste wird erläutert, warum diese beiden Methoden, auch wenn sie auf einen Blick ähnlich sind, das Attributionsverhalten ändern können.
+Einige Benutzer, die Verarbeitungsregeln für Marketing-Kanäle einrichten, konfigurieren eine Regel, die alle in der Dimension „Trackingcode“ verwendeten Werte berücksichtigt. Obwohl es sich um eine hervorragende Praxis handelt, unterscheiden sie sich aufgrund der inhärenten Verarbeitungs- und Architekturunterschiede. In der folgenden Liste wird erläutert, warum diese beiden Methoden, obwohl sie auf einen Blick ähnlich sind, das Attributionsverhalten ändern können.
 
 ### Vorherige Kanäle in Verarbeitungsregeln
 
@@ -37,27 +37,27 @@ Verarbeitungsregeln für Marketing-Kanäle weiter oben in der Liste können verh
 
 Da „Soziale Netzwerke“ die erste Verarbeitungsregel für Marketing-Kanäle ist, werden diese Benutzer dem Marketing-Kanal „Soziale Netzwerke“ und nicht Ihrem Marketing-Kanal für Trackingcodes zugeordnet.
 
-### Andere Marketing-Kanäle können die Attribution über Letztkontakt durchführen.
+### Andere Marketing-Kanäle können die Attribution durch Letztkontakt übernehmen
 
-Bei der Behandlung einer standardmäßigen Dimension &quot;Trackingcodes&quot;müssen Sie sich nicht darum sorgen, dass andere Teile Ihrer Site die Attribution stehlen. Bei Marketing-Kanälen kann ein Benutzer jedoch eine andere Regel anwenden und eine andere Attribution vornehmen. Beispiel:
+Wenn Sie mit einer Standard-Trackingcode-Dimension arbeiten, müssen Sie sich keine Sorgen darüber machen, dass andere Teile Ihrer Site die Attribution stehlen. Bei Marketing-Kanälen kann ein Benutzer jedoch eine andere Regel anwenden und eine andere Attribution vornehmen. Beispiel:
 
 1. Sie haben „Trackingcodes“ als ersten Kanal und „Direkt“ als zweiten.
 2. Ein Benutzer gelangt zunächst über einen Trackingcode zu Ihrer Site, verlässt dann jedoch die Site.
 3. Am nächsten Tag geben sie Ihre URL in ihre Adressleiste ein und tätigen dann einen Kauf.
 
-In diesem Beispiel erhält der Marketing-Kanal Trackingcodes für diesen Kauf keine Letztkontakt-Gutschrift. Stattdessen würde er dem Marketing-Kanal „Direkt“ gutgeschrieben.
+In diesem Beispiel erhält der Marketing-Kanal für Trackingcodes für diesen Kauf keine Letztkontakt-Gutschrift. Stattdessen würde er dem Marketing-Kanal „Direkt“ gutgeschrieben.
 
 
-### Unterschiede beim Ablauf
+### Gültigkeitsunterschiede
 
-Marketingkanäle haben einen rollierenden Besucherinteraktionsablauf von 30 Tagen, unabhängig davon, ob ein Kanal berührt wurde oder nicht. Die Gültigkeit von Trackingcodes basiert auf dem Zeitpunkt, zu dem die Variable festgelegt wurde. Beispiel:
+Marketing-Kanäle haben einen rollierenden Ablauf der Besucherinteraktion um 30 Tage, unabhängig davon, ob ein Kanal berührt wurde oder nicht. Die Gültigkeit von Trackingcodes basiert auf dem Zeitpunkt, zu dem die Variable festgelegt wurde. Beispiel:
 
 1. Sie haben einen Besucherinteraktionsablauf von 30 Tagen und die Dimension „Trackingcode“ so konfiguriert, dass sie nach 30 Tagen abläuft.
 2. Ein Benutzer gelangt über einen Trackingcode zu Ihrer Site. Er durchsucht die Site und verlässt sie anschließend.
 3. Drei Wochen später kehrt er ohne Trackingcode oder Marketing-Kanal zurück und verlässt die Seite erneut.
 4. Zwei weitere Wochen später (fünf Wochen nach dem ersten Besuch) kehrt er ohne Trackingcode oder Marketing-Kanal zurück und tätigt dann einen Kauf.
 
-Der Benutzer tätigte letztendlich einen Kauf nach mehr 30 Tagen, war aber nie länger als 30 Tage inaktiv. In diesem Fall würden Sie den Umsatz sehen, der dem Marketing-Kanal &quot;Trackingcodes&quot;zugeordnet ist, jedoch nicht der Dimension Trackingcode selbst.
+Der Benutzer tätigte letztendlich einen Kauf nach mehr 30 Tagen, war aber nie länger als 30 Tage inaktiv. In diesem Fall wird der Umsatz angezeigt, der dem Marketing-Kanal Trackingcodes zugeordnet ist, nicht jedoch der Trackingcode-Dimension selbst.
 
 
 

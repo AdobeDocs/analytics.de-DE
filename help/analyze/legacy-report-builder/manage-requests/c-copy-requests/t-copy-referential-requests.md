@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie Verweisanforderungen kopieren.
-title: Kopieren von Verweisanforderungen
+description: Erfahren Sie, wie Sie Referenzanfragen kopieren.
+title: So kopieren Sie Referenzanfragen
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
@@ -17,17 +17,17 @@ ht-degree: 80%
 
 Eine Verweisanforderung verwendet Zellenwerte als Eingabe für Parameter, etwa als Daten- oder relationale Filter.
 
-So propagieren Sie Verweisanforderungen in das Arbeitsblatt:
+So übertragen oder kopieren Sie Verweisanforderungen und fügen diese in die Tabelle ein:
 
-* Sie müssen mindestens eine gültige Anforderung im Arbeitsblatt erstellen.
+* Sie müssen mindestens eine gültige Anfrage in der Tabelle erstellen.
 
-* Die von der Anforderung erzeugten Daten müssen eine Zelle enthalten, deren Wert entweder von einer Anforderung in einer anderen Zelle (mithilfe einer Aufschlüsselung oder eines übereinstimmenden Filters) oder von einem Filter abhängt, der die Eingabe aus Daten übernimmt, die in eine Zelle eingegeben wurden.
+* Die von der Anfrage erzeugten Daten müssen eine Zelle enthalten, deren Wert entweder von einer Anfrage in einer anderen Zelle (mithilfe eines Aufschlüsselungs- oder Übereinstimmungsfilters) oder von einem Filter abhängt, der Eingaben aus in eine Zelle eingegebenen Daten übernimmt.
 
 Sie können außerdem Anforderungen erstellen, die auf Eingabefilter von Anforderungen in unterschiedlichen Arbeitsblättern verweisen, aber nicht in unterschiedlichen Arbeitsmappen. Beispielsweise kann eine Report Suite in Blatt 2 eine Report Suite aus einer bestimmten Zelle in Blatt 1 und einen Datumsbereich aus einer Zelle in Blatt 2 verwenden. Die neue Ausgabe kann in einem der beiden Blätter oder in einem neuen Blatt innerhalb der Arbeitsmappe positioniert werden. Wenn Sie eine relative Anforderung einfügen und ein Eingabefilter sich auf einem anderen Arbeitsblatt befindet als die Ausgabe der kopierten Anforderung, wird der Filter als absoluter Filter eingefügt.
 
 >[!NOTE]
 >
->Eine einzelne Anforderung kann nicht in mehreren Arbeitsblättern ausgegeben werden. Außerdem kann das System einige der kopierten Anforderungen nicht in neue Arbeitsmappen einfügen, da die Anforderungen Eingabefilter aus anderen Arbeitsblättern enthalten. Eingabefilter enthalten Report Suites aus Zellen, Datumsbereiche aus Zellen, Filter aus Zellen und andere zugehörige Parameter.
+>Es kann keine einzelne Anforderung in mehreren Arbeitsblättern ausgegeben werden. Darüber hinaus kann das System einige der kopierten Anfragen nicht in neue Arbeitsmappen einfügen, da die Anfragen Eingabefilter aus anderen Arbeitsblättern enthalten. Eingabefilter enthalten Report Suites aus Zellen, Datumsbereiche aus Zellen, Filter aus Zellen und andere zugehörige Parameter.
 
 **So kopieren Sie Verweisanforderungen**
 

@@ -12,15 +12,15 @@ ht-degree: 53%
 
 # Betriebssystemtypen
 
-Die Dimension &quot;Betriebssystemtypen&quot;[](overview.md) zeigt das übergeordnete Betriebssystem an, das der Besucher verwendet hat, unabhängig von bestimmten Versionen. Diese Dimension ist nützlich, um nicht nur zu verstehen, welches Betriebssystem und welche Version am häufigsten verwendet werden, sondern auch, welche typischen Besucher der Betriebssystemplattform verwenden.
+Die Dimension „Betriebssystemtypen[ zeigt das übergeordnete Betriebssystem an](overview.md) das der Besucher verwendet hat, unabhängig von bestimmten Versionen. Diese Dimension ist nützlich, um nicht nur zu verstehen, welches Betriebssystem und welche Version am häufigsten verwendet werden, sondern auch, welche typischen Besucher der Betriebssystemplattform verwenden.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um die Suche zwischen Benutzeragent und Betriebssystemtyp zu unterstützen.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um die Suche nach Benutzeragenten und Betriebssystemtyp aufrechtzuerhalten.
 
-* Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] bei der [ Konfiguration eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 
-Zu den Elementen der Dimension gehört der Typ des verwendeten Betriebssystems. Beispiele sind `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` und `"Apple iOS"`.
+Zu den Dimensionen gehört der Typ des verwendeten Betriebssystems. Beispiele sind `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` und `"Apple iOS"`.

@@ -24,13 +24,13 @@ Sie können dimensionsspezifische Filter setzen, indem Sie einen Filter erstelle
 
 1. Erstellen oder bearbeiten Sie eine Anforderung und gehen Sie zum Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2].
 
-   ![Screenshot mit den Optionen &quot;Filter nach&quot;: &quot;Anwendung&quot;, &quot;Benutzer&quot;und &quot;Projekt&quot;.](/help/admin/admin/assets/filter.png)
+   ![Screenshot mit den Optionen zum Filtern nach: Anwendung, Benutzer und Projekt.](/help/admin/admin/assets/filter.png)
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] im Raster auf den Link neben der Dimension und wählen Sie dann **[!UICONTROL Filter]**.
 
 1. Aktivieren Sie **[!UICONTROL spezifisch]**.
 
-   ![Screenshot des Dialogfelds &quot;Seite auswählen&quot;mit ausgewählter Option &quot;Spezifisch&quot;.](assets/choose_page_specific01.png)
+   ![Screenshot des Dialogfelds „Seite wählen“ mit ausgewählter Option „Spezifisch“.](assets/choose_page_specific01.png)
 
 1. Aktivieren Sie eine der folgenden spezifischen Optionen:
 

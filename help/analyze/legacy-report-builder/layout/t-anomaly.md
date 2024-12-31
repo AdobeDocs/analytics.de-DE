@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie in Report Builder eine Anomalieerkennungsanforderung erstellen.
-title: Konfigurieren einer Anomalieerkennungsanforderung
+description: Erfahren Sie, wie Sie in Report Builder eine Anomalieerkennungsanfrage erstellen.
+title: Konfigurieren einer Anomalieerkennungsanfrage
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-So erstellen Sie eine Anomalieerkennungsanforderung in Report Builder:
+So erstellen Sie eine Anomalieerkennungsanfrage im Report Builder:
 
 1. Wählen Sie einen Trendbericht aus, z. B. einen Bericht für **[!UICONTROL Site-Metriken]** > **[!UICONTROL Traffic]**.
 1. Wählen Sie im Menü [!UICONTROL Granularität anwenden] den Eintrag **[!UICONTROL Tag]**.
@@ -31,7 +31,7 @@ So erstellen Sie eine Anomalieerkennungsanforderung in Report Builder:
 
    Klicken Sie für die hinzugefügte Metrik auf den Link **[!UICONTROL Keine]**.
 
-   ![Screenshot mit der Anomalieerkennung, gefolgt von &quot;Einfügen&quot;und anschließenden Optionen für &quot;Untere&quot;und &quot;Obere Grenze&quot;und &quot;Erwartet&quot;.](assets/anomaly_select.png)
+   ![Screenshot der Anomalieerkennung, dann Optionen für Untergrenze und Obergrenze und „Erwartet“ einfügen und dann einfügen.](assets/anomaly_select.png)
 
 1. Wählen Sie **[!UICONTROL Anomalieerkennung]** > **[!UICONTROL `<selection>`]** aus.
 

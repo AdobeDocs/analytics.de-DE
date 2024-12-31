@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie alle Anforderungen in einer Arbeitsmappe vor dem Hinzufügen und Bearbeiten von Anforderungen schützen können, indem Sie die Arbeitsmappe sperren.
-title: Arbeitsmappen sperren und entsperren
+title: Sperren und Entsperren von Arbeitsmappen
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
@@ -20,7 +20,7 @@ Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anfor
 
 Wenn Sie als Analyst eine Arbeitsmappe sperren, können Sie Ihre Arbeitsmappenanforderungen davor schützen, dass sie von anderen Benutzern in Ihrer Organisation bearbeitet werden. Gleichzeitig können diese Benutzer die Anforderungen in der Arbeitsmappe noch bearbeiten.
 
-Um eine Arbeitsmappe vor der Bearbeitung zu schützen, klicken Sie in der Symbolleiste des Report Builders auf **[!UICONTROL Gesperrt]** ( ![](assets/locked_icon.png)).
+Um eine Arbeitsmappe vor der Bearbeitung zu schützen, klicken Sie **[!UICONTROL der Report Builder]** Symbolleiste (![](assets/locked_icon.png)) auf „Gesperrt“.
 
 Um den Schutz einer Arbeitsmappe aufzuheben, klicken Sie auf **[!UICONTROL Entsperrt]** ( ![](assets/unlocked_icon.png)).
 
@@ -31,22 +31,22 @@ Sie können eine Arbeitsmappe entsperren, wenn Sie über eine der folgenden Bere
 
 >[!NOTE]
 >
->Sie können einer geschützten Arbeitsmappe keine Anforderung hinzufügen, es sei denn, Sie sind berechtigt, die Arbeitsmappe zu entsperren.
+>Sie können eine Anfrage nur dann zu einer geschützten Arbeitsmappe hinzufügen, wenn Sie über die Berechtigungen zum Entsperren der Arbeitsmappe verfügen.
 
 Wenn eine Arbeitsmappe für die Bearbeitung von Anforderungen gesperrt ist, gilt Folgendes:
 
-* Benutzer können keine Anforderungen erstellen und hinzufügen.
+* Benutzende können keine Anfragen erstellen und hinzufügen.
 * Benutzer können über den Anforderungs-Assistenten keine Anforderungen bearbeiten.
 * Benutzer können über die Funktion „Mehrere Anforderungen bearbeiten“ keine Anforderungen bearbeiten.
 * Benutzer können keine Anforderungen ausschneiden, kopieren oder einfügen. Jedoch können sie zum Ausschneiden/Kopieren/Einfügen das native Excel-Kontextmenü verwenden, um den Inhalt der Anforderung(en) auszuschneiden/zu kopieren/einzufügen.
 * Benutzer können Anforderungen entweder individuell oder als Mitglied einer Gruppe aktualisieren.
 * Wenn bei der Anforderung Eingabewerte aus Zellen verwendet werden (Datumsbereich, Segment, Filter) können Benutzer diese Werte in den Zellen ändern und so die Anforderungen indirekt bearbeiten, indem sie sie aktualisieren.
 
-Wenn Sie versuchen, eine geschützte Arbeitsmappe über das Kontextmenü, den **[!UICONTROL Anforderungs-Manager]** oder den **[!UICONTROL Mehrere Anforderungen bearbeiten]** zu bearbeiten, ist dies möglicherweise nicht zulässig:
+Wenn Sie versuchen, eine geschützte Arbeitsmappe über das Kontextmenü, den **[!UICONTROL Anforderungs-Manager]** oder **[!UICONTROL Mehrere Anforderungen bearbeiten]** zu bearbeiten, können Sie dies tun oder nicht:
 
-* Wenn Sie nicht berechtigt sind, eine Anforderung zu entsperren, wird Ihnen eine Meldung angezeigt, in der Sie darauf hingewiesen werden, dass Sie nicht über die Rechte zum Entsperren und Bearbeiten der Arbeitsmappe verfügen.
+* Wenn Sie nicht über die Berechtigung zum Entsperren einer Anfrage verfügen, wird eine Meldung angezeigt, die Sie darauf hinweist, dass Sie nicht über die Berechtigungen zum Entsperren und Bearbeiten der Arbeitsmappe verfügen.
 
-  ![Screenshot mit der Fehlermeldung, wenn Sie nicht über die Berechtigung zum Entsperren einer Anforderung verfügen.](assets/locked_workbook_error.png)
+  ![Screenshot, der die Fehlermeldung anzeigt, wenn Sie nicht über die Berechtigung zum Entsperren einer Anfrage verfügen.](assets/locked_workbook_error.png)
 
 ## Workflow {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

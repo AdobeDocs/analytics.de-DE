@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Regionen
 
-Die Dimension &quot;Regionen&quot;[ ](overview.md) gibt die geografische Region des Besuchers an. Dies ist ein geografischer Bereich, der kleiner als ein Land, jedoch größer als eine Stadt ist. In einigen Ländern ist unter einer Region ein Bundesstaat, eine Provinz oder eine Präfektur zu verstehen. In anderen Bereichen handelt es sich um ein eigenständiges Land, ein Distrikt oder eine Metropolregion. Die Verwendung dieser Dimension ist hilfreich, wenn Sie Einblicke wünschen, die detaillierter sind als [Länder](countries.md), aber nicht so detailliert wie [Städte](cities.md).
+Die Dimension „Regionen[ ](overview.md) gibt die geografische Region des Besuchers an. Dies ist ein geografischer Bereich, der kleiner als ein Land, jedoch größer als eine Stadt ist. In einigen Ländern ist eine Region ein Bundesland, eine Provinz oder eine Präfektur. In anderen Bereichen handelt es sich um ein eigenständiges Land, ein Distrikt oder eine Metropolregion. Die Verwendung dieser Dimension ist hilfreich, wenn Sie Einblicke wünschen, die detaillierter sind als [Länder](countries.md), aber nicht so detailliert wie [Städte](cities.md).
 
 ## Füllen dieser Dimension mit Daten
 
@@ -32,4 +32,4 @@ Da diese Dimension auf der IP-Adresse basiert, kann in einigen Szenarien ein Unt
 * **Mobile IP-Adressen**: Die mobile IP-Zielerfassung funktioniert auf unterschiedlichen Ebenen, je nach Standort und Netzwerk. Eine Reihe von Netzbetreibern transportiert den IP-Traffic über zentralisierte oder regionale POPs (Points of Presence).
 * **Satelliten-ISP-Benutzer**: Es ist schwierig, den spezifischen Standort dieser Benutzer zu identifizieren, da sie in der Regel vom Uplink-Standort zu stammen scheinen.
 * **Militärische und staatliche IPs**: Die Mitarbeiter sind weltweit unterwegs und der Zugriff erfolgt eher über ihren Heimatstandort als von der Basis oder der Behörde aus, in der sie gegenwärtig beschäftigt sind.
-* **Proxys, die aus Datenschutzgründen IP-Adressen verdecken**: Dienste wie der private Link von Apple verbergen die wahre IP-Adresse, indem sie Daten per Zufall über einen Vermittler oder Proxy senden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.
+* **Proxys, die IP-Adressen aus Datenschutzgründen verdecken**: Services wie das Private Relay von Apple verbergen die wahre IP-Adresse, indem sie zufällig Daten über einen Vermittler oder Proxy senden. Dieser Proxy ersetzt dann eine andere IP-Adresse, bevor er an Adobe weitergeleitet wird.

@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Rangansicht aller Suchseiten
 
-Die Dimension &quot;Rangansicht aller Suchseiten&quot;[](overview.md) bietet Einblicke, auf welche Seite mit Suchergebnissen ein Besucher zu Ihrer Site durchgeklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
+Der „Rang aller Suchseiten“ [Dimension](overview.md) bietet Einblick in die Seite der Suchergebnisse, durch die ein Besucher auf Ihre Site geklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
 
 ## Füllen dieser Dimension mit Daten
 

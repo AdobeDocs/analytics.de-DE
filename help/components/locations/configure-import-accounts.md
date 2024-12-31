@@ -1,5 +1,5 @@
 ---
-description: Konfigurieren Sie das Cloud-Importkonto und den Speicherort, an den Classification-Daten hochgeladen werden können.
+description: Konfigurieren Sie das Cloud-Importkonto und den Speicherort, an den Klassifizierungsdaten hochgeladen werden können
 keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportkonten
 feature: Classifications
@@ -17,50 +17,50 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->Beachten Sie beim Erstellen und Bearbeiten von Konten Folgendes: <ul><li>Systemadministratoren können Benutzer daran hindern, Konten zu erstellen, wie in [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) beschrieben. Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</li><li>Ein Konto kann nur von dem Benutzer, der es erstellt hat, oder von einem Systemadministrator bearbeitet werden.</li></ul>
+>Beachten Sie beim Erstellen und Bearbeiten von Konten Folgendes: <ul><li>Systemadministratoren können das Erstellen von Konten durch Benutzer einschränken, wie unter [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) beschrieben. Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</li><li>Ein Konto kann nur von dem Benutzer, der es erstellt hat, oder von einem Systemadministrator bearbeitet werden.</li></ul>
 
 Sie können ein Cloud-Konto konfigurieren, das für einen oder alle der folgenden Zwecke verwendet wird:
 
 * Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exportieren von Berichten mit [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importieren von Schemata mit [Klassifizierungssätzen](/help/components/classifications/sets/overview.md)
+* Importieren von Schemas mithilfe [Klassifizierungssätze](/help/components/classifications/sets/overview.md)
 
-Sie müssen Adobe Analytics mit den erforderlichen Informationen konfigurieren, um auf Ihr Cloud-Konto zugreifen zu können. Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie in diesem Artikel beschrieben, und anschließendem Hinzufügen und Konfigurieren des Speicherorts innerhalb dieses Kontos (z. B. eines Ordners innerhalb des Kontos), wie in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
+Sie müssen Adobe Analytics mit den erforderlichen Informationen konfigurieren, um auf Ihr Cloud-Konto zugreifen zu können. Dieser Prozess besteht aus dem Hinzufügen und Konfigurieren des Kontos (z. B. Amazon S3 Role ARN, Google Cloud Platform usw.), wie in diesem Artikel beschrieben, und dem Hinzufügen und Konfigurieren des Speicherorts innerhalb dieses Kontos (z. B. eines Ordners innerhalb des Kontos), wie in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
 
-Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Standorte-Manager](/help/components/locations/locations-manager.md).
+Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Standort-Manager](/help/components/locations/locations-manager.md).
 
 So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
-1. Wählen Sie auf der Seite [!UICONTROL Standorte] die Registerkarte [!UICONTROL **Standortkonten**] aus.
+1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standortkonten**] aus.
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Konten für alle Benutzer anzeigen**] aktivieren, um Konten anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Konten für alle Benutzer anzeigen](assets/accounts-all-users.png)
 1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**] aus.
 
-   Das Dialogfeld [!UICONTROL **Details zum Standortkonto**] wird angezeigt.
+   Das [!UICONTROL **Details des Standortkontos**] wird angezeigt.
 
    Oder
 
-   Um ein vorhandenes Konto zu bearbeiten, suchen Sie das Konto, das Sie bearbeiten möchten, und wählen Sie dann die Schaltfläche [!UICONTROL **Details bearbeiten**] aus.
+   Um ein vorhandenes Konto zu bearbeiten, suchen Sie das Konto, das Sie bearbeiten möchten, und klicken Sie dann auf die Schaltfläche [!UICONTROL **Details bearbeiten**].
 
-   Das Dialogfeld [!UICONTROL **Konto hinzufügen**] wird angezeigt.
+   Das [!UICONTROL **Konto hinzufügen**] wird angezeigt.
 
 1. Geben Sie die folgenden Informationen an:
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Name des Standortkontos**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Standorts angezeigt |
+   | [!UICONTROL **Speicherort-Kontoname**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Speicherorts angezeigt |
    | [!UICONTROL **Beschreibung des Standortkontos**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
-   | [!UICONTROL **Bereitstellen des Kontos für alle Benutzer in Ihrer Organisation**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrer Organisation das Konto verwenden können.<p>Beachten Sie beim Freigeben von Konten Folgendes:</p><ul><li>Die Freigabe von Konten, die Sie freigeben, kann nicht aufgehoben werden.</li><li>Freigegebene Konten können nur vom Eigentümer des Kontos bearbeitet werden.</li><li>Jeder kann einen Speicherort für das freigegebene Konto erstellen.</li></ul> |
-   | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Speicherorten nach Bedarf innerhalb dieses Kontos zu führen.<p>Systemadministratoren können die Kontotypen einschränken, die Benutzer erstellen können, wie unter [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) beschrieben. Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</p> |
+   | [!UICONTROL **Konto für alle Benutzer in Ihrer Organisation verfügbar machen**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrem Unternehmen das Konto verwenden können.<p>Beachten Sie beim Freigeben von Konten Folgendes:</p><ul><li>Die Freigabe von Konten, die Sie freigeben, kann nicht aufgehoben werden.</li><li>Freigegebene Konten können nur vom Kontoinhaber bearbeitet werden.</li><li>Jeder kann einen Speicherort für das freigegebene Konto erstellen.</li></ul> |
+   | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Speicherorten nach Bedarf innerhalb dieses Kontos zu führen.<p>Systemadministratoren können die Kontotypen, die Benutzer erstellen können, einschränken, wie unter [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) beschrieben. Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</p> |
 
-1. Geben Sie im Abschnitt [!UICONTROL **Kontoeigenschaften**] spezifische Informationen zum ausgewählten Kontotyp an.
+1. Geben [!UICONTROL **im Abschnitt**] Kontoeigenschaften“ Informationen an, die für den von Ihnen ausgewählten Kontotyp spezifisch sind.
 
-   Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem von Ihnen ausgewählten [!UICONTROL **Kontotyp**] entspricht. (Es sind auch zusätzliche veraltete Kontotypen verfügbar, jedoch nicht empfohlen.)
+   Erweitern Sie für Konfigurationsanweisungen den folgenden Abschnitt, der dem ausgewählten [!UICONTROL **Kontotyp**] entspricht. (Zusätzliche Legacy-Kontotypen sind ebenfalls verfügbar, werden aber nicht empfohlen.)
 
    **Kontotypen**
 
-   + + + Amazon S3 Role ARN
+   +++Amazon S3-Rollen-ARN
 
    Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
@@ -92,8 +92,8 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
    |---------|----------|
    | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als geheim speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Schlüssel-Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Key Vault-Geheimnisname**] | Der geheime Name, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf der Einstellungsseite **Key Vault** . Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token als Geheimnis mit Azure Key Vault speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der URI für den Schlüsseltresor erstellt wurde, fügen Sie eine Zugriffsrichtlinie für den Schlüsseltresor hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu gewähren. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **Key Vault-Geheimnisname**] | Der geheime Name, den Sie beim Hinzufügen der geheimen Daten zum Azure-Schlüsseltresor erstellt haben. In Microsoft Azure befinden sich diese Informationen in dem von Ihnen erstellten Schlüsseltresor auf der Seite mit den **Schlüsseltresor** Einstellungen. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Geheimnis des Standortkontos**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
    {style="table-layout:auto"}
@@ -118,7 +118,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    >[!NOTE]
    >
-   >E-Mail-Konten können nur mit [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) verwendet werden. (E-Mail-Konten werden von [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) nicht unterstützt.)
+   >E-Mail-Konten können nur mit [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) verwendet werden. (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
 
    Geben Sie die folgenden Informationen an, um ein Azure RBAC-Konto zu konfigurieren:
 
@@ -130,20 +130,20 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 +++
 
-   **Veraltete Kontotypen**
+   **Legacy-Kontotypen**
 
-   Diese veralteten Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) verfügbar. Diese Optionen sind beim Import von Daten mit [Klassifizierungssätzen](/help/components/classifications/sets/manage/schema.md) nicht verfügbar.
+   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse verfügbar](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht ](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
-   Daten-Feed-Daten können an einen Adobe- oder kundengehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
+   Daten-Feed-Daten können an einen Adobe- oder vom Kunden gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
 
    | Feld | Funktion |
    |---------|----------|
    | [!UICONTROL **Host**] | Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.adobe.com`. |
    | [!UICONTROL **Path**] | Kann leer gelassen werden. |
-   | [!UICONTROL **Benutzername**] | Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden. |
-   | [!UICONTROL **Kennwort und Kennwort bestätigen**] | Geben Sie das Kennwort ein, um sich bei der FTP-Site anzumelden. |
+   | [!UICONTROL **Benutzername**] | Geben Sie den Benutzernamen für die Anmeldung bei der FTP-Site ein. |
+   | [!UICONTROL **Passwort und Passwort bestätigen**] | Geben Sie das Passwort für die Anmeldung bei der FTP-Site ein. |
 
    {style="table-layout:auto"}
 
@@ -155,7 +155,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 +++
 
-   ++ + S3
+   +++S3
 
    Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumentation.
 
@@ -202,4 +202,4 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-1. Fahren Sie mit [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) fort.
+1. Fahren Sie mit [Konfigurieren von Cloud-Import- und -](/help/components/locations/configure-import-locations.md)&quot; fort.

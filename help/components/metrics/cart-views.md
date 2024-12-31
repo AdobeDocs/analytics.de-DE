@@ -12,10 +12,10 @@ ht-degree: 72%
 
 # Warenkorbansicht
 
-Die Metrik &quot;Warenkorbansichten&quot;[](overview.md) gibt an, wie oft ein Besucher seinen Warenkorb angezeigt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden den Inhalt in ihrem Warenkorb ansehen.
+Die Metrik „Warenkorbansichten[ gibt an](overview.md) wie oft eine Besucherin oder ein Besucher ihren bzw. seinen Warenkorb angesehen hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden den Inhalt in ihrem Warenkorb ansehen.
 
 ## Berechnung dieser Metrik
 
 Diese Metrik zählt die Anzahl der Treffer, bei denen `scView` in der [`events`](/help/implement/vars/page-vars/events/events-overview.md)-Variable vorhanden ist.
 
-Siehe [Warenkorb](carts.md) für einen Metrikvergleich.
+Siehe [Warenkörbe](carts.md) für einen Metrikvergleich.

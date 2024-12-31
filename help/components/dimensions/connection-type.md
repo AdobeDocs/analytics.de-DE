@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Verbindungstyp
 
-Die Dimension &quot;Verbindungstyp&quot;[](overview.md) gibt an, wie sich der Besucher mit dem Internet verbunden hat. Diese Dimension ist nützlich, um festzustellen, wie Besucher eine Internetverbindung herstellen, um auf Ihrer Site zu surfen. Damit können Sie den Site-Inhalt entsprechend der Verbindungsgeschwindigkeit der Besucher optimieren.
+Der „Verbindungstyp“ (Dimension[ gibt ](overview.md), wie der Besucher eine Internetverbindung hergestellt hat. Diese Dimension ist nützlich, um festzustellen, wie Besucher eine Internetverbindung herstellen, um auf Ihrer Site zu surfen. Damit können Sie den Site-Inhalt entsprechend der Verbindungsgeschwindigkeit der Besucher optimieren.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -1,5 +1,5 @@
 ---
-description: Sie können Filter oder andere Parameter in Report Builder speichern und in anderen Arbeitsblättern oder Arbeitsmappen verwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Report Builder auf anderen Computern verfügbar sind.
+description: Sie können Filter oder andere Parameter im Report Builder speichern und in anderen Arbeitsblättern oder Arbeitsmappen verwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Report Builder auf anderen Computern verfügbar sind.
 title: Gespeicherte Filter
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
@@ -16,8 +16,8 @@ ht-degree: 14%
 
 {{legacy-arb}}
 
-Sie können Filter oder andere Parameter in Report Builder speichern und in anderen Arbeitsblättern oder Arbeitsmappen verwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Report Builder auf anderen Computern verfügbar sind.
+Sie können Filter oder andere Parameter im Report Builder speichern und in anderen Arbeitsblättern oder Arbeitsmappen verwenden. Diese Parameter werden in Analytics gespeichert, um sicherzustellen, dass sie für andere Report Builder auf anderen Computern verfügbar sind.
 
 Filter werden während der Erstellung im Dialogfeld [!UICONTROL Seiten auswählen] gespeichert. Ein Beispiel für dieses Verfahren finden Sie unter [Spezifische Filter](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
-![Screenshot des Formulars &quot;Seite auswählen&quot;und Optionen für die Seiten mit den beliebtesten, spezifischen und gespeicherten Filtern.](assets/choose_page_saved.png)
+![Screenshot des Formulars „Seite auswählen“ und der Optionen für die Seiten „Bevorzugte, spezifische und gespeicherte Filter“.](assets/choose_page_saved.png)

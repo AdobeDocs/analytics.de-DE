@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Sprache
 
-Die Dimension &quot;Sprache&quot;[](overview.md) zeigt die Sprachen an, in denen die Besucher am häufigsten Inhalte sehen. Diese Dimension ist nützlich, wenn Sie die am häufigsten bevorzugten Sprachen der Besucher verstehen möchten, um die Lokalisierungsbemühungen zu unterstützen.
+Die Dimension [Sprache](overview.md) zeigt die wichtigsten Sprachen an, in denen Besucherinnen und Besucher Inhalte lieber sehen. Diese Dimension ist nützlich, wenn Sie die am häufigsten bevorzugten Sprachen der Besucher verstehen möchten, um die Lokalisierungsbemühungen zu unterstützen.
 
 >[!NOTE]
 >

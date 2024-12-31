@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Zeit vor Ereignis
 
-Die Dimension &quot;Zeit vor Ereignis&quot;[](overview.md) gibt die Zeit an, die zwischen dem ersten Treffer des Besuchs und der gewünschten Metrik verstrichen ist. Diese Dimension ist nützlich, um die Zeitdauer zu bestimmen, die zum Erzielen eines Erfolgsereignisses (z. B. einer Formularübermittlung oder eines Kaufs) benötigt wird.
+Die „Zeit vor Ereignis“ [Dimension](overview.md) gibt die Zeit an, die zwischen dem ersten Treffer des Besuchs und der gewünschten Metrik vergangen ist. Diese Dimension ist nützlich, um die Zeitdauer zu bestimmen, die zum Erzielen eines Erfolgsereignisses (z. B. einer Formularübermittlung oder eines Kaufs) benötigt wird.
 
 ## Füllen dieser Dimension mit Daten
 

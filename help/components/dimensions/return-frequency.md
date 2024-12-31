@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Rückkehrhäufigkeit
 
-Die Dimension &quot;Rückkehrhäufigkeit&quot;[](overview.md) gibt die Zeit an, die zwischen Besuchen wiederkehrender Besucher vergeht. Wenn ein Besucher zu Ihrer Site zurückkehrt, prüft Adobe, wie lange der vorherige Besuch zurückliegt, und erfasst den Treffer im entsprechenden Dimensionselement. Diese Dimension ist nützlich, um die Attraktivität und Relevanz Ihrer Website für Besucher im Zeitverlauf einzuschätzen. Sie kann auch dazu beitragen, die Auswirkungen der Inhalte und Werbeaktionen Ihrer Website auf Ihre Besucher zu ermitteln.
+Die Dimension [Häufigkeit der Rückkehr](overview.md) gibt die Zeitspanne an, die zwischen Besuchen von wiederkehrenden Besuchern vergeht. Wenn ein Besucher zu Ihrer Site zurückkehrt, prüft Adobe, wie lange der vorherige Besuch zurückliegt, und erfasst den Treffer im entsprechenden Dimensionselement. Diese Dimension ist nützlich, um die Attraktivität und Relevanz Ihrer Website für Besucher im Zeitverlauf einzuschätzen. Sie kann auch dazu beitragen, die Auswirkungen der Inhalte und Werbeaktionen Ihrer Website auf Ihre Besucher zu ermitteln.
 
 >[!TIP]
 >

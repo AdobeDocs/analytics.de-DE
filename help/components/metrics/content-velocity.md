@@ -12,13 +12,13 @@ ht-degree: 19%
 
 # Content-Geschwindigkeit
 
-Mit der berechneten Metrik &quot;Content-Geschwindigkeit&quot;können Sie messen, wie eine Dimension (normalerweise [[!UICONTROL Seite]](/help/components/dimensions/page.md)) dazu beiträgt, dass Benutzer Zeit auf Ihrer Website oder in Ihrer App verbringen.
+Mit der berechneten Metrik „Inhaltsgeschwindigkeit“ können Sie messen, wie eine Dimension (normalerweise [[!UICONTROL Seite]](/help/components/dimensions/page.md)) dazu beiträgt, dass Benutzer Zeit auf Ihrer Website oder in Ihrem Programm verbringen.
 
-Diese Metrik verwendet [Beitragszuordnung](/help/analyze/analysis-workspace/attribution/models.md) für die Metrik [Seitenansichten](page-views.md) als Teil ihrer Berechnung. Bei der Teilnahme an Besuchen werden bei jedem Treffer einer Seite auch alle Seiten, die zuvor während desselben Besuchs aufgerufen wurden, für die Seitenansicht angerechnet. Diese Formel bedeutet normalerweise, dass je früher ein Seitenaufruf während eines Besuchs erfolgt, desto mehr Gewichtung erhält er. (Siehe [Seitenansichten (Beitrag) | (Besuch) oder &quot;Besuchsbeteiligung&quot;](#page-views-participation--visit-or-visit-participation) für weitere Informationen.)
+Diese Metrik verwendet [Partizipationsattribution](/help/analyze/analysis-workspace/attribution/models.md) für die Metrik [Seitenansichten](page-views.md) als Teil ihrer Berechnung. Bei der Teilnahme an Besuchen wird jedes Mal, wenn eine Seite aufgerufen wird, allen Seiten, die zuvor während desselben Besuchs getroffen wurden, auch die Seitenansicht angerechnet. Diese Formel bedeutet in der Regel, dass eine Seite umso mehr Anerkennung erhält, je früher sie während eines Besuchs aufgerufen wurde. (Siehe [Seitenansichten (Teilnahme) | Besuch) oder „Besuchsbeteiligung“](#page-views-participation--visit-or-visit-participation) um weitere Informationen zu erhalten.)
 
 ## Berechnung
 
-&#39;Content-Geschwindigkeit&#39; ist eine standardmäßig berechnete [Metrik](overview.md) und verwendet die Formel `Page views (Visit participation)` dividiert durch `Visits`.
+„Inhaltsgeschwindigkeit“ ist eine standardmäßig berechnete [Metrik](overview.md) und verwendet die Formel `Page views (Visit participation)` dividiert durch `Visits`.
 
 ![](assets/cont-velo-1.png)
 
@@ -30,11 +30,11 @@ Diese Metrik verwendet [Beitragszuordnung](/help/analyze/analysis-workspace/attr
 
 ## Beispiel
 
-Im folgenden Beispiel werden die beiden Teile der Content-Geschwindigkeit unterteilt: &quot;Seitenansichten (Beitrag) | Besuch)&quot;und &quot;Besuche&quot;.
+Im folgenden Beispiel werden die 2 Teile der Inhaltsgeschwindigkeit aufgeschlüsselt: „Seitenansichten (Teilnahme) | visit)“ und „Visits“.
 
-### Seitenansichten (Beitrag) | Besuch) oder &quot;Besuchsbeteiligung&quot;
+### Seitenansichten (Teilnahme) | Besuch) oder „Teilnahme an Besuch“
 
-Betrachten Sie das folgende Beispiel, wie die Besuchsbeteiligung die Attribution beeinflusst:
+Im Folgenden finden Sie ein Beispiel dafür, wie sich die Besuchsbeteiligung auf die Attribution auswirkt:
 
 Auf einer Website besucht ein Benutzer die folgenden Seiten in dieser Reihenfolge:
 
@@ -43,9 +43,9 @@ Auf einer Website besucht ein Benutzer die folgenden Seiten in dieser Reihenfolg
 * Seite C
 * Seite D
 
-Im obigen Beispiel würde Seite A eine Gutschrift für 4 Treffer, Seite B für 3 Treffer, Seite C für 2 Treffer und Seite D für 1 Treffer erhalten.
+Im obigen Beispiel würde Seite A eine Gutschrift für 4 Treffer erhalten, Seite B für 3 Treffer, Seite C für 2 Treffer und Seite D für 1 Treffer.
 
-Das folgende Beispiel veranschaulicht das gleiche Prinzip, wobei einige Seiten jedoch mehrmals besucht werden.
+Das folgende Beispiel veranschaulicht dasselbe Prinzip, jedoch mit einigen Seiten, die mehrmals besucht werden.
 
 * Seite A
 * Seite B
@@ -54,8 +54,8 @@ Das folgende Beispiel veranschaulicht das gleiche Prinzip, wobei einige Seiten j
 * Seite D
 * Seite A
 
-Im obigen Beispiel würde Seite A die Gutschrift für 7 Treffer, Seite B für 8 Treffer, Seite C für 4 Treffer und Seite D für 2 Treffer erhalten.
+Im obigen Beispiel würde Seite A eine Gutschrift für 7 Treffer erhalten, Seite B für 8 Treffer, Seite C für 4 Treffer und Seite D für 2 Treffer.
 
 ### Besuche
 
-Nach der Berechnung der Besuchsbeteiligung wird das Ergebnis durch die Anzahl der Besuche dividiert.
+Nachdem die Besuchsbeteiligung berechnet wurde, wird das Ergebnis durch die Anzahl der Besuche dividiert.

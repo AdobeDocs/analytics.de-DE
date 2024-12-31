@@ -14,8 +14,8 @@ ht-degree: 45%
 
 >[!IMPORTANT]
 >
->Die Metrik für Personen, die sich auf die Device Co-op bezieht, wird ab 8. März 2023 nicht mehr unterstützt. Die auf dieser Seite beschriebene Metrik für CDA-bezogene Personen ist weiterhin aktiv.
+>Die Metrik Personen , die sich auf die Gerätekooperation bezieht, wird seit dem 8. März 2023 nicht mehr unterstützt. Die auf dieser Seite beschriebene Metrik „Personen“, die sich auf die geräteübergreifende Analyse bezieht, ist weiterhin aktiv.
 
-Die Metrik &quot;Personen&quot;[metrik](overview.md) ist spezifisch für die Virtual Report Suites der [geräteübergreifenden Analyse](../cda/overview.md) . Er stellt die Summe der Personen dar, die im Bericht identifiziert werden, sowie die Anzahl der Geräte, die nicht als einer Person zugehörig identifiziert werden.
+Die „Metrik[ „Personen](overview.md) ist spezifisch für [geräteübergreifende Analyse](../cda/overview.md) Virtual Report Suites. Er stellt die Summe der Einzelanwender dar, die im Bericht identifiziert werden, plus die Anzahl der Geräte, die nicht als zu einer Person gehörend identifiziert werden.
 
 Wird ein Besucher während eines Besuchs identifiziert, kann dieser Besucher als zwei Personen gezählt werden (1 nicht identifizierte Person und 1 identifizierte Person). Durch [Wiederholen](/help/components/cda/replay.md) kann diese doppelte Zählung abhängig vom Berichtsfenster, von der Häufigkeit der Wiederholung und von der Erfolgsrate verhindert werden. Weitere Informationen finden Sie unter [Eindeutige Geräte](unique-devices.md).

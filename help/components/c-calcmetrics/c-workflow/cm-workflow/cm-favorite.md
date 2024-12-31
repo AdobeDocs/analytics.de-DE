@@ -1,5 +1,5 @@
 ---
-description: Die Kennzeichnung berechneter Metriken als Favoriten bietet eine weitere Möglichkeit, sie zur einfachen Verwendung zu organisieren.
+description: Das Kennzeichnen berechneter Metriken als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren.
 title: Berechnete Metriken als Favoriten markieren
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
@@ -12,11 +12,11 @@ ht-degree: 31%
 
 # Berechnete Metriken als Favoriten markieren
 
-Die Kennzeichnung berechneter Metriken als Favoriten bietet eine weitere Möglichkeit, sie zur einfachen Verwendung zu organisieren.
+Das Kennzeichnen berechneter Metriken als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren.
 
 1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Berechnete Metriken]** aus.
 
-1. Überprüfen Sie im Manager für berechnete Metriken den Stern neben einer beliebigen berechneten Metrik, die Sie als Favoriten markieren möchten. Der Stern wird daraufhin gelb angezeigt:
+1. Aktivieren Sie im Manager für berechnete Metriken den Stern neben einer beliebigen berechneten Metrik, die Sie als Favorit markieren möchten. Der Stern wird daraufhin gelb angezeigt:
 
    ![](assets/favorites.png)
 

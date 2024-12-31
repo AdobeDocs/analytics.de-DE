@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Besuchszeit pro Seite
 
-Die Dimension &quot;Besuchszeit pro Seite&quot;[](overview.md) gibt die Zeit an, die ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
+Die Dimension „Auf Seite verbrachte Zeit[ erfasst ](overview.md) Zeit, die eine Besucherin oder ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
 
 1. Sehen Sie sich für einen bestimmten Treffer den Zeitstempel an.
 2. Vergleichen Sie diesen Treffer mit dem Zeitstempel des nächsten Treffers im Besuch. Sowohl Seitenansichts- als auch Linktracking-Treffer werden gezählt.
@@ -36,7 +36,7 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 Für die Besuchszeit pro Seite gibt es mehrere Dimensionen:
 
-* **Besuchszeit pro Seite – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimensionselemente reichen von `"Less than 15 seconds"` bis `"More than 30 minutes"`. Die Zeit zwischen Treffern dauert in der Regel nicht länger als 30 Minuten. Die Zeit zwischen Treffern kann jedoch 30 Minuten überschreiten, wenn Treffer mit Zeitstempel oder Datenquellen verwendet werden.
+* **Besuchszeit pro Seite – zusammengefasst**: Die Zeitdauer wird zusammengefasst. Dimensionselemente reichen von `"Less than 15 seconds"` bis `"More than 30 minutes"`. Die Zeit zwischen Treffern dauert in der Regel nicht länger als 30 Minuten. Bei der Verwendung von Treffern oder Datenquellen mit Zeitstempel können die Zeiten zwischen Treffern jedoch länger als 30 Minuten sein.
 * **Besuchszeit pro Seite – präzise**: Jede Anzahl von Sekunden ist ein eindeutiges Dimensionselement.
 
 Allgemeine Informationen zur Besuchszeit finden Sie unter [Besuchszeit – Übersicht](../metrics/time-spent.md).

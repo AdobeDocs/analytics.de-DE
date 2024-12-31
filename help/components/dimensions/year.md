@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Jahr
 
-Die Dimension &quot;Jahr&quot;[](overview.md) gibt das Jahr an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist das erste Jahr im Datumsbereich und das letzte Dimensionselement das letzte Jahr im Datumsbereich.
+Die Dimension „Jahr[ zeigt ](overview.md) Jahr an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist das erste Jahr im Datumsbereich und das letzte Dimensionselement das letzte Jahr im Datumsbereich.
 
 ## Füllen dieser Dimension mit Daten
 

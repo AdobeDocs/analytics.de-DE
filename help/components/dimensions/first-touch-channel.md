@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Erstkontakt-Kanal
 
-Die Dimension &quot;Erstkontakt-Kanal&quot;[](overview.md) gibt den ersten Marketing-Kanal an, mit dem ein Besucher während des Interaktionszeitraums des Besuchers (standardmäßig 30 Tage) übereinstimmt. Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den anfänglichen Traffic zu Ihrer Site leiten, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
+Der „Erstkontaktkanal“ [Dimension](overview.md) zeigt den ersten Marketing-Kanal an, dem eine Besucherin oder ein Besucher während ihres bzw. seines Interaktionszeitraums entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den anfänglichen Traffic zu Ihrer Site leiten, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
 
 ## Füllen dieser Dimension mit Daten
 

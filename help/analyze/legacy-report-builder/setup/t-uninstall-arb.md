@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie Adobe Report Builder deinstallieren.
-title: Deinstallation von Report Builder
+title: Deinstallieren von Report Builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: User, Admin

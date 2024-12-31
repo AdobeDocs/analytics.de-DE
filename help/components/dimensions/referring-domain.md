@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # Referrer-Domain
 
-Die Dimension &quot;Referrer-Domäne&quot;[](overview.md) gibt an, durch welche Domänen Besucher klicken, um zu Ihrer Site zu gelangen. Diese Dimension ist nützlich, um zu verstehen, welche Websites von Drittanbietern den meisten Traffic zu Ihrer Site leiten. Auf der externen Site muss ein Link vorhanden sein und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
+Die Dimension „Referrerdomäne[ gibt an](overview.md) welche Domains Besucher durchklicken, um zu Ihrer Site zu gelangen. Diese Dimension ist nützlich, um zu verstehen, welche Websites von Drittanbietern den meisten Traffic zu Ihrer Site leiten. Auf der externen Site muss ein Link vorhanden sein und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
 
 >[!IMPORTANT]
 >

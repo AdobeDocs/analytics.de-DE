@@ -1,6 +1,6 @@
 ---
-description: In Anforderungen des Layouts "Pivot"und "Benutzerdefiniert"erfahren Sie, wie Sie Zellen Textzeichenfolgen oder -zeichen voranstellen oder daran anhängen.
-title: Anstellen und Verschieben von Text in Zellen
+description: In Pivot- und benutzerdefinierten Layout-Anfragen erfahren Sie, wie Sie Zellen Zeichenfolgen oder Zeichen voranstellen oder anhängen.
+title: Text Zellen voranstellen und anhängen
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
 role: User, Admin

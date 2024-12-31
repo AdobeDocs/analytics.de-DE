@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie das benutzerdefinierte Layout Funktionalität und Flexibilität des Pivot-Layouts bietet, z. B. das Hinzufügen von Aufschlüsselungen und Microcharts.
-title: So konfigurieren Sie ein benutzerdefiniertes Layout in Adobe Analytics
+description: Erfahren Sie, wie das benutzerdefinierte Layout Funktionalität und Flexibilität des Pivot-Layouts bietet, z. B. das Hinzufügen von Aufschlüsselungen und Mikrodiagrammen.
+title: Konfigurieren eines benutzerdefinierten Layouts in Adobe Analytics
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin

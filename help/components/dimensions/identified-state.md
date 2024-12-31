@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Identifizierter Status
 
-Die Dimension &quot;Identifizierter Status&quot;[Dimension](overview.md) ist spezifisch für [Cross-Device Analytics](../cda/overview.md) Virtual Report Suites. Mit dieser Dimension wird angegeben, ob Treffer zum Zeitpunkt der Berichterstellung vom System identifiziert (zugeordnet) wurden oder nicht. Diese Dimension ist hilfreich, um zu verstehen, wie gut CDA Daten zusammenfügt oder „komprimiert“.
+Der „Identifizierte Status[ (Dimension](overview.md) ist spezifisch für [geräteübergreifende Analyse](../cda/overview.md) Virtual Report Suites. Mit dieser Dimension wird angegeben, ob Treffer zum Zeitpunkt der Berichterstellung vom System identifiziert (zugeordnet) wurden oder nicht. Diese Dimension ist hilfreich, um zu verstehen, wie gut CDA Daten zusammenfügt oder „komprimiert“.
 
 ## Füllen dieser Dimension mit Daten
 

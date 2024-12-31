@@ -12,11 +12,11 @@ ht-degree: 69%
 
 # Metriktyp und Attribution
 
-Beim [ Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie den Metriktyp und das Attributionsmodell angeben.
+Beim [Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie den Metriktyp und das Attributionsmodell angeben.
 
 ## Metriktyp
 
-So legen Sie den Metriktyp beim Erstellen einer berechneten Metrik fest:
+So geben Sie den Metriktyp beim Erstellen einer berechneten Metrik an:
 
 1. Wählen Sie das Zahnradsymbol neben der Metrik aus, deren Typ Sie auswählen möchten.
 
@@ -27,15 +27,15 @@ So legen Sie den Metriktyp beim Erstellen einer berechneten Metrik fest:
    | Metriktyp | Definition |
    |---|---|
    | Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
-   | Gesamtsumme | Verwenden Sie in jedem Zeileneintrag die Gesamtsumme für den Berichtszeitraum. Wenn eine Formel aus einer einzelnen Gesamtmetrik bestand, wird für jeden Zeileneintrag dieselbe Gesamtanzahl angezeigt. Gesamtmetriken sind nützlich für die Erstellung berechneter Metriken, die mit den Gesamtdaten der Site vergleichen. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
+   | Gesamtsumme | Verwenden Sie für jeden Zeileneintrag die Gesamtsumme für den Berichtszeitraum. Wenn eine Formel aus einer einzelnen Gesamtsummen-Metrik bestand, wurde für jeden Zeileneintrag dieselbe Gesamtanzahl angezeigt. Gesamtmetriken sind nützlich, um berechnete Metriken zu erstellen, die mit den Gesamtdaten der Site verglichen werden. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
 
 ## Funktionsweise der linearen Zuordnung
 
-[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) ist die Art und Weise, wie Zuordnungsmodelle in berechneten Metriken ausgewertet werden.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) wird anhand der Zuordnungsmodelle in berechneten Metriken bewertet.
 
 Eine vollständige Liste der nicht standardmäßigen Attributionsmodelle und unterstützten Lookback-Fenster finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
 
-Das folgende Beispiel zeigt, wie berechnete Metriken mit linearen Zuordnungen in Berichten funktionieren:
+Das folgende Beispiel zeigt, wie berechnete Metriken mit linearer Zuordnung in Berichten funktionieren:
 
 | | Treffer 1 | Treffer 2 | Treffer 3 | Treffer 4 | Treffer 5 | Treffer 6 | Treffer 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |

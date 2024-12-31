@@ -12,11 +12,11 @@ ht-degree: 74%
 
 # Zusatz zum Warenkorb
 
-Die Metrik &quot;Zusatz zum Warenkorb&quot;[](overview.md) gibt an, wie oft ein Besucher etwas zum Warenkorb hinzugefügt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichters verstehen möchten, in dem Kunden so sehr an einem Produkt interessiert sind, dass sie es ihrem Warenkorb hinzufügen.
+Die „Metrik [Hinzufügungen zum Warenkorb](overview.md) gibt an, wie oft eine Besucherin oder ein Besucher etwas zum Warenkorb hinzugefügt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichters verstehen möchten, in dem Kunden so sehr an einem Produkt interessiert sind, dass sie es ihrem Warenkorb hinzufügen.
 
 ## Berechnung dieser Metrik
 
 Diese Metrik zählt die Anzahl der Treffer, bei denen `scAdd` in der [`events`](/help/implement/vars/page-vars/events/events-overview.md)-Variable vorhanden ist.
 
-Siehe [Warenkorb](carts.md) für einen Metrikvergleich.
+Siehe [Warenkörbe](carts.md) für einen Metrikvergleich.
 

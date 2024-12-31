@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie eine Arbeitsmappe bearbeiten, um Platz für neue Anforderungen zu schaffen, indem Sie Anforderungen löschen.
-title: Löschen der Ausgabezuordnung
+description: Erfahren Sie, wie Sie eine Arbeitsmappe bearbeiten, um Platz für neue Anfragen zu schaffen, indem Sie Anfragen löschen.
+title: So löschen Sie die Ausgabezuordnung
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin

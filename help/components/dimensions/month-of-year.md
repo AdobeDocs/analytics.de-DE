@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Monat des Jahres
 
-Die Dimension &quot;Monat des Jahres&quot;[](overview.md) erfasst den Monat eines Jahres als Dimensionselement. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Monat des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen. Sie können Jahresberichte nach Monaten aggregieren, sodass die Daten vom Januar dieses Jahres mit den Daten vom Januar des letzten Jahres im selben Dimensionselement aggregiert werden.
+„Monat des Jahres“ [Dimension](overview.md) zeigt den Monat eines beliebigen Jahres als Dimensionselement an. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach dem Monat des Jahres aufschlüsseln möchten, aber kein statisches Datum als Dimensionselement wünschen. Sie können Jahresberichte nach Monaten aggregieren, sodass die Daten vom Januar dieses Jahres mit den Daten vom Januar des letzten Jahres im selben Dimensionselement aggregiert werden.
 
 ## Füllen dieser Dimension mit Daten
 

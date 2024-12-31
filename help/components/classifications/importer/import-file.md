@@ -18,6 +18,6 @@ Sobald Sie die gewünschten Daten in die Classification-Vorlagendatei kopiert ha
 >
 >Vor dem Hochladen neuer Daten müssen Sie die vorhandenen Classification-Daten nicht (mit der Exportfunktion) herunterladen. Es genügt, wenn Sie eine neue Datei mit den neuen Datenzeilen hochladen. Diese Methode steigert die Leistung.
 
-Wichtige Informationen zur Struktur und zu den Einschränkungen hochgeladener Dateien finden Sie unter [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) .
+Siehe [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md) für wichtige Informationen zur Struktur und zu den Einschränkungen für hochgeladene Dateien.
 
 Weitere Informationen zur Fehlerbehebung finden Sie unter [Häufige Probleme beim Hochladen von Classifications](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html).

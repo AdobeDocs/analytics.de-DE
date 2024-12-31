@@ -76,6 +76,6 @@ Benennen Sie den Klassifizierungsregelsatz, wenden Sie die Variable an und legen
 
    Die Report Suite und die Variablenliste werden mit allen klassifizierten Variablen ausgefüllt, die in allen Report Suites Ihres angemeldeten Unternehmens verfügbar sind. Eine Variable in einer Report Suite kann nur zu jeweils einem einzigen Regelsatz gehören.
 
-   Weitere Informationen finden Sie unter *`Variable`* in den Definitionen für die Seite [Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) .
+   Weitere Informationen finden Sie unter *`Variable`* in den Definitionen [ Seite „Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) .
 1. Geben Sie die zu verwendenden Report Suites und Variablen an und klicken Sie auf **[!UICONTROL Speichern]**.
 1. Fahren Sie fort, indem Sie [Classification-Regeln zum Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md).

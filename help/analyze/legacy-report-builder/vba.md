@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Visual Basic-Makros in Report Builder
-description: Erfahren Sie, wie Sie die Funktionalität von Excel-Arbeitsmappen und Report Builder mithilfe von VBA-Makros erweitern.
+description: Erfahren Sie, wie Sie die Funktionalität von Excel-Arbeitsmappen und Report Builder mithilfe von VBA-Makros erweitern können.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 {{legacy-arb}}
 
-Visual Basic (VBA)-Makros bieten Funktionen, mit denen Sie Excel-Arbeitsmappen aktualisieren können. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und Windows.
+Visual Basic (VBA)-Makros bieten Features, mit denen Sie Excel-Arbeitsmappen aktualisieren können. Visual Basic hat Zugriff auf die Arbeitsmappe, Excel und Windows.
 
 Sie müssen die neueste Version von Report Builder ausführen und sich anmelden, bevor Sie VBA-Makros ausführen.
 

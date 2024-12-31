@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Tag
 
-Die Dimension &quot;Tag&quot;[Dimension](overview.md) gibt den Tag an, an dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist der erste Tag im Datumsbereich und das letzte Dimensionselement der letzte Tag im Datumsbereich. Diese Dimension ist für Trend-Berichte von entscheidender Bedeutung, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
+Die „Tag[-Dimension](overview.md) zeigt den Tag an, an dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist der erste Tag im Datumsbereich und das letzte Dimensionselement der letzte Tag im Datumsbereich. Diese Dimension ist für Trend-Berichte von entscheidender Bedeutung, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

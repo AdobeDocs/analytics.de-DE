@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Kampagnen
 
-Die Dimension &quot;Kampagnen&quot;[](overview.md) kann sich auf Folgendes beziehen:
+Die Dimension [Kampagnen](overview.md) kann auf Folgendes verweisen:
 
 * Eine [Classification](../classifications/c-classifications.md), die in einigen Report Suites automatisch erstellt wird. Sie basiert auf der Dimension [Trackingcode](tracking-code.md).
 * Die Dimension [Trackingcode](tracking-code.md), die die Implementierungsvariable [campaign](/help/implement/vars/page-vars/campaign.md) verwendet.

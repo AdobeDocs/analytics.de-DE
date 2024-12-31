@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie den Report Builder-Versand optimieren können, und eine Liste der möglicherweise auftretenden Fehlermeldungen.
+description: Erfahren Sie, wie Sie den Versand von Report Buildern optimieren können, und lernen Sie eine Liste von Fehlermeldungen kennen, die möglicherweise auftreten können.
 title: Fehlerbehebung und Best Practices für Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
@@ -8,7 +8,7 @@ exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '1424'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 {{legacy-arb}}
 
-In diesem Artikel werden die Fehlerbehebung und Best Practices beschrieben, die Sie zur Optimierung des Report Builders verwenden können. Er enthält auch eine Liste der möglicherweise angezeigten Fehlermeldungen.
+In diesem Artikel werden die Fehlerbehebung und Best Practices beschrieben, mit denen Sie Report Builder optimieren können. Sie enthält auch eine Liste von Fehlermeldungen, die möglicherweise angezeigt werden.
 
 ## Benutzer von Report Builder 5.0 und Öffnen von 5.1-Arbeitsmappen {#section_C29898775999453FABB5FB0E098415C8}
 
@@ -34,21 +34,21 @@ Außerdem bewirkt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classificat
 
 ## Authentifizierungsprobleme in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist eine Authentifizierung erforderlich. Manchmal kann es bei der Anmeldung bei Report Builder abhängig von Ihren Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk zu Problemen kommen.
+Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist eine Authentifizierung erforderlich. Manchmal gibt es Probleme bei der Anmeldung beim Report Builder, abhängig von Ihren Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk.
 
-* **Ungültiges Anmeldeunternehmen**: Dieser Fehler tritt in den meisten Fällen auf, wenn entweder das Anmeldeunternehmen falsch eingegeben wurde oder Probleme mit Netzwerkaktivitäten auftreten. Gehen Sie folgendermaßen vor:
+* **Ungültige Unternehmensanmeldung** Dieser Fehler tritt am häufigsten auf, wenn die Unternehmensanmeldung nicht korrekt eingegeben wurde oder Probleme mit der Netzwerkaktivität auftreten. Gehen Sie folgendermaßen vor:
    * Überprüfen Sie Ihre Eingabe auf Tippfehler oder überflüssige Leerzeichen.
    * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
-* **Firewall**: Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
+* **Firewall**: Der Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports von der Firewall in Ihrem Unternehmen freigegeben sind. Überprüfen Sie auch die interne IP-Adresse von Adobe auf weitere Firewall-Ausnahmen.
 
 ## Empfehlungen für die Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die Verarbeitungsgeschwindigkeit verringert werden.
 
 * **Faktoren, die die Bereitstellung verlangsamen können**: Es wurden zu viele Lesezeichen, Dashboards und Report Builder-Arbeitsmappen innerhalb weniger Stunden geplant. Es wurden möglicherweise zu viele Report Builder-Arbeitsmappen um die gleiche Uhrzeit herum geplant. In diesem Fall tritt in der Berichts-API-Warteschlange ein Rückstand ein.
-* **Faktoren, die die Arbeitsmappen-Laufzeit verlangsamen können**: Deutliche Erhöhung der Classifications oder Erhöhung des Anfragedatumsbereichs im Zeitverlauf.
+* **Faktoren, die die Arbeitsmappen-Laufzeit verlangsamen können**: Signifikante Zunahme der Klassifizierungen oder Vergrößerung des Anfragedatumsbereichs im Laufe der Zeit.
 * **Ursachen, die zum Scheitern der Bereitstellung von Arbeitsmappen führen**: Komplexe Excel-Formeln in einer Arbeitsmappe, insbesondere solche mit Datum und Uhrzeit.
-* **Zellen, die 0 zurückgeben (keine Werte)**: Ein Apostroph oder ein einfaches Anführungszeichen im Namen eines Excel-Arbeitsblatts führt dazu, dass der Report Builder keine Werte zurückgibt. (Dies ist eine Microsoft Excel-Einschränkung.)
+* **Zellen, die 0 (keine Werte) zurückgeben**: Ein Apostroph oder ein einfaches Anführungszeichen im Namen des Excel-Arbeitsblatts führt dazu, dass der Report Builder keine Werte zurückgibt. (Dies ist eine Microsoft Excel-Einschränkung.)
 * **Individuelle Anfrageleistung**: Die Verarbeitungsgeschwindigkeit kann durch die folgenden Einstellungen beeinflusst werden:
 
   | Einstellung | Schnellere Leistung | Langsamere Leistung |
@@ -66,17 +66,17 @@ Durch die folgenden Faktoren kann die Anfragekomplexität erhöht und damit die 
   |--- |--- |--- |--- |--- |
   | Report Builder – Nutzung | Ruhig | Hohe Auslastung | clientseitige Nutzung<br>Höhere Anzahl an Nutzern, die eine lokale Aktualisierung vornehmen und ein „Sofortiges Senden“ anfordern.<br>Überprüfen Sie außerdem, ob die API-Warteschlange gelöscht wird, wenn bei geplanten Arbeitsmappen ein Timeout auftritt. | Geringe Auslastung |
 
-* **Timeouts**: Zeitüberschreitung bei terminierten Berichten nach vier Stunden. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert die Ausführung.) Dies wird in der [!DNL Analytics]-Berichterstellung und in Report Builder angezeigt:
+* **Zeitüberschreitungen**: Alle terminierten Berichte werden nach vier Stunden beendet. Das System versucht drei weitere Male eine Planung, die möglicherweise zu einem Fehler führen. (Im Allgemeinen gilt: Je größer der Datensatz, desto länger dauert seine Ausführung.) Diese sind in [!DNL Analytics] Reporting und Report Builder zu sehen:
 
-## Beschreibung der Beispielfehlermeldungen {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## Beispiele für Fehlermeldungen {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
-Dieser Abschnitt enthält eine Beispielliste von Fehlermeldungen, die auftreten können, wenn Sie Report Builder verwenden.
+Dieser Abschnitt enthält eine Beispielliste von Fehlermeldungen, die bei der Verwendung von Report Builder auftreten können.
 
 >[!NOTE]
 >
->Dies ist ein Beispiel für Fehlermeldungen und keine umfassende Liste. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
+>Dies ist ein Beispiel für Fehlermeldungen und keine erschöpfende Liste. Weitere Informationen zur Behebung von Fehlern erhalten Sie von Ihrem Administrator.
 
-* **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**: Wenn in Excel keine Arbeitsmappen (Tabellendokumente) geöffnet sind und Sie auf eines der Symbole in der Symbolleiste &quot;Report Builder&quot;klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
+* **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**: Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole in der Report Builder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können allerdings auf das Hilfesymbol klicken, solange die Symbolleiste noch aktiviert ist, ohne dass diese Fehlermeldung erfolgt.
 * **Sie müssen zunächst den [!UICONTROL Anforderungs-Assistenten] beenden, bevor Sie den [!UICONTROL Anforderungs-Manager aktivieren].**: Der [!UICONTROL Anforderungs-Assistent] und der [!UICONTROL Anforderungs-Manager] sind zwar funktional verbunden, aber es ist nicht möglich, den [!UICONTROL Anforderungs-Manager] zu verwenden, bevor Sie eine im [!UICONTROL Anforderungs-Assistenten] begonnene Arbeit abgebrochen oder abgeschlossen haben.
 * **Mit diesem Bereich ist keine Anforderung verbunden.**: Diese Fehlermeldung wird angezeigt, wenn Sie im [!UICONTROL Anforderungs-Manager] auf die Schaltfläche [!UICONTROL Aus Blatt] klicken, aber die entsprechende Zelle im Arbeitsblatt keine Anforderungen enthält. Um zu prüfen, welche Zellen des Arbeitsblatts Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen in der Liste im [!UICONTROL Anforderungs-Manager]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
 * **Der ausgewählte Bereich ist ungültig. Wählen Sie einen anderen Bereich aus.**: Diese Fehlermeldung wird angezeigt, wenn eine Zelle des Arbeitsblatts ausgewählt wird, der bereits eine Anforderung zugeordnet ist. Löschen Sie entweder die der Zelle zugeordnete Anforderung oder wählen Sie einen anderen Zellenbereich für die Verknüpfung aus. Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln, welche Zellen Anforderungen enthalten und die Anforderung löschen, bevor Sie die Zellen löschen (indem Sie Zeilen oder Spalten entfernen).

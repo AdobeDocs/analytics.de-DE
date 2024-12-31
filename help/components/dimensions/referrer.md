@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Referrer
 
-Die Dimension &quot;Referrer&quot;[](overview.md) gibt an, auf welchen URLs sich Besucher befanden, als sie zum Erreichen Ihrer Site durchklickten. Diese Dimension ist nützlich, um zu verstehen, welche spezifischen URLs den meisten Traffic zu Ihrer Site leiten. Auf der externen URL muss ein Link vorhanden sein, und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
+Die Dimension „Referrer[ gibt ](overview.md) URLs an, auf denen sich Besucher befanden, als sie zu Ihrer Site klickten. Diese Dimension ist nützlich, um zu verstehen, welche spezifischen URLs den meisten Traffic zu Ihrer Site leiten. Auf der externen URL muss ein Link vorhanden sein, und ein Besucher muss darauf klicken, damit das Dimensionselement angezeigt wird.
 
 >[!IMPORTANT]
 >

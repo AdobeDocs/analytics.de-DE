@@ -1,5 +1,5 @@
 ---
-title: Konsolidierungsprozess für Klassifizierungssätze
+title: Konsolidierungsprozess für Klassifizierungssatz
 description: Der vollständige Prozess der Konsolidierung von Klassifizierungssätzen.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
@@ -10,41 +10,41 @@ ht-degree: 0%
 
 ---
 
-# Konsolidierungsprozess für Klassifizierungssätze
+# Konsolidierungsprozess für Klassifizierungssatz
 
-Verwenden Sie diese Schnittstelle, um von Anfang bis Ende eine Konsolidierung des Klassifizierungssatzes zu erstellen.
+Verwenden Sie diese Schnittstelle, um eine Klassifizierungssatz-Konsolidierung von Anfang bis Ende zu erstellen.
 
 ## Erstellung
 
-**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Konsolidierung]** > **[!UICONTROL Hinzufügen]**
+**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Konsolidierungen]** > **[!UICONTROL Hinzufügen]**
 
 Beim Erstellen einer Konsolidierung stehen die folgenden Felder zur Verfügung:
 
 * **[!UICONTROL Name]**: Der Name der Konsolidierung.
-* **[!UICONTROL Über Probleme benachrichtigen]**: Eine kommagetrennte Liste von E-Mail-Adressen, die über Probleme bei dieser Konsolidierung benachrichtigt werden.
-* **[!UICONTROL Datensatz, der mit]** übereinstimmt: Eine Dropdown-Liste aller Classification-Sets.
+* **[!UICONTROL Über Probleme informieren]**: Eine kommagetrennte Liste von E-Mail-Adressen, die bei Problemen mit dieser Konsolidierung benachrichtigt werden.
+* **[!UICONTROL Abzugleichender Datensatz]**: Eine Dropdown-Liste aller Klassifizierungssätze.
 
-Nachdem Sie einen Classification-Satz ausgewählt haben, wird eine Tabelle mit zwei Spalten angezeigt:
+Nachdem Sie einen Klassifizierungssatz ausgewählt haben, wird eine Tabelle mit zwei Spalten angezeigt:
 
-* Die rechte Spalte enthält alle Classification-Sets, die Sie konsolidieren möchten. Er beginnt mit dem Classification-Satz, der mithilfe der obigen Dropdownliste ausgewählt wurde.
-* Die linke Spalte enthält alle Classification-Sets, die für die Zusammenführung mit dem ursprünglich ausgewählten Datensatz infrage kommen. **Schemas müssen genau übereinstimmen, damit sie für die Konsolidierung infrage kommen**. Wenn Schemata nicht mit dem ausgewählten Classification-Satz übereinstimmen, werden sie nicht in dieser linken Spalte angezeigt.
+* Die rechte Spalte enthält alle Klassifizierungssätze, die Sie konsolidieren möchten. Sie beginnt mit dem Klassifizierungssatz, der mithilfe der obigen Dropdown-Liste ausgewählt wurde.
+* Die linke Spalte enthält alle Klassifizierungssätze, die mit dem ursprünglich ausgewählten Datensatz zusammengeführt werden können. **Schemata müssen genau übereinstimmen, damit sie konsolidiert werden können**. Wenn Schemata nicht mit dem ausgewählten Klassifizierungssatz übereinstimmen, werden sie nicht in dieser linken Spalte angezeigt.
 
-Ziehen Sie die gewünschten Classification-Sets aus der verfügbaren Spalte auf der linken Seite in die Konsolidierungsspalte auf der rechten Seite. Nachdem die Konsolidierung einen Namen erhalten hat und sich zwei oder mehr Classification-Sets in der rechten Spalte befinden, klicken Sie auf **[!UICONTROL Speichern und fortfahren]**.
+Ziehen Sie die gewünschten Klassifizierungssätze aus der verfügbaren Spalte links in die Konsolidierungsspalte auf der rechten Seite. Sobald der Konsolidierung ein Name zugewiesen wurde und sich zwei oder mehr Klassifizierungssätze in der rechten Spalte befinden, klicken Sie auf **[!UICONTROL Speichern und fortfahren]**.
 
 ## Validierung
 
-Nachdem Sie eine Konsolidierung erstellt haben, wird rechts eine Liste der Quelldatensätze angezeigt. Die Schaltfläche **[!UICONTROL Validieren]** stellt sicher, dass jeder einzelne Classification-Satz für diese Konsolidierung gültig ist. Sie können die Classification-Schritte hier neu anordnen, um die Priorität bei nicht übereinstimmenden Classification-Werten zu bestimmen. **Der höchste Classification-Satz in der Liste überschreibt alle nicht übereinstimmenden Werte in anderen Classification-Sets.**
+Nachdem Sie eine Konsolidierung erstellt haben, wird rechts eine Liste der Quelldatensätze angezeigt. Mit **[!UICONTROL Schaltfläche &quot;]**&quot; wird sichergestellt, dass jeder einzelne Klassifizierungssatz für diese Konsolidierung gültig ist. Sie können die Classification-Schritte hier neu anordnen, um die Priorität im Fall von nicht übereinstimmenden Classification-Werten zu bestimmen. **Der höchste Klassifizierungssatz in der Liste überschreibt alle nicht übereinstimmenden Werte in anderen Klassifizierungssätzen.**
 
 ## Ausführen
 
-Nachdem eine Konsolidierung validiert wurde, können Sie sie ausführen. Das Ausführen einer Konsolidierung bietet einen Ähnlichkeitsbericht mit den folgenden Tabellenspalten:
+Nachdem eine Konsolidierung validiert wurde, können Sie sie ausführen. Die Ausführung einer Konsolidierung liefert einen Ähnlichkeitsbericht mit den folgenden Tabellenspalten:
 
-* **[!UICONTROL Datensatzname]**: Der Name des Classification-Sets.
-* **[!UICONTROL Abweichung]**: Der Prozentsatz der Zeilen, in denen Schlüsselwerte nicht mit dem Quell-Classification-Satz übereinstimmten. Wenn der Prozentsatz der Abweichungen hoch ist, können die Classification-Daten zu unterschiedlich sein. Überprüfen Sie, ob die ausgewählten Classification-Sets ähnliche Classification-Daten aufweisen.
-* **[!UICONTROL Abwesend]**: Der Prozentsatz der Zeilen, in denen Schlüsselwerte in diesem Classification-Satz waren, aber nicht im Quell-Classification-Satz. Alle fehlenden Zeilen werden zum konsolidierten Classification-Satz hinzugefügt.
+* **[!UICONTROL Datensatzname]**: Der Name des Klassifizierungssatzes.
+* **[!UICONTROL Nicht]**: Der Prozentsatz der Zeilen, bei denen die Schlüsselwerte nicht mit dem Quellklassifizierungssatz übereinstimmten. Wenn der Prozentsatz der nicht übereinstimmenden Elemente hoch ist, können die Klassifizierungsdaten zu unterschiedlich sein. Überprüfen Sie, ob die ausgewählten Klassifizierungssätze ähnliche Klassifizierungsdaten aufweisen.
+* **[!UICONTROL Absent]**: Der Prozentsatz der Zeilen, in denen sich Schlüsselwerte in diesem Klassifizierungssatz, aber nicht im Quellklassifizierungssatz befanden. Alle fehlenden Zeilen werden dem konsolidierten Klassifizierungssatz hinzugefügt.
 
 ## Genehmigen
 
-fungiert als letzter Aufruf, bevor die einzelnen Classification-Sets entfernt und ein konsolidierter Classification-Satz erstellt wird. Vergewissern Sie sich, dass alles korrekt ist, und klicken Sie dann auf **[!UICONTROL Genehmigen]**.
+Fungiert als letzter Aufruf, bevor die einzelnen Klassifizierungssätze entfernt und ein konsolidierter Klassifizierungssatz erstellt wird. Stellen Sie sicher, dass alles korrekt ist, und klicken Sie dann auf **[!UICONTROL Genehmigen]**.
 
-Nach der Genehmigung wird der konsolidierte Classification-Satz erstellt. Der Status ist auf [!UICONTROL Abgeschlossen] festgelegt, und für die Konsolidierung ist keine weitere Aktion erforderlich.
+Nach der Genehmigung wird der konsolidierte Klassifizierungssatz erstellt. Der Status ist auf [!UICONTROL Abgeschlossen] festgelegt, und es sind keine weiteren Maßnahmen für die Konsolidierung erforderlich.

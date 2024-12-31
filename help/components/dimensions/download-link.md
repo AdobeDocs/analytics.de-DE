@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Downloadlink
 
-Die Dimension &quot;Downloadlink&quot;[](overview.md) gibt die Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
+Die Dimension „Downloadlink[ gibt ](overview.md) Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
 
 * die Dateien zu bestimmen, die am häufigsten von Ihrer Site heruntergeladen werden.
 * zu erkennen, ob bestimmte Dateien zu bestimmten Zeiten häufiger heruntergeladen werden.
@@ -22,7 +22,7 @@ Die Dimension &quot;Downloadlink&quot;[](overview.md) gibt die Namen der auf Ihr
 
 Diese Dimension erfasst Daten aus der [`pev2`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_d` aufweisen. Wenn die Abfragezeichenfolge `pe` im Treffer einen anderen Wert hat, werden in dieser Dimension keine Daten erfasst.
 
-Wenn Sie mit AppMeasurement Daten an diese Dimension senden möchten, senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung mit einem Link-Typ-Argument `"d"`. Füllen Sie das Linknamenargument mit dem gewünschten Wert:
+Wenn Sie mit AppMeasurement Daten an diese Dimension senden möchten, senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung mit einem Link-Typ-Argument `"d"`. Füllen Sie das Argument Link-Name mit dem gewünschten Wert:
 
 ```js
 s.tl(true,"d","Example download link");

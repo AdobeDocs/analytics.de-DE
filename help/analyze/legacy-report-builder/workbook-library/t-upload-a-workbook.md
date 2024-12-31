@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie eine Excel-Arbeitsmappe für Report Builder hochladen, die Sie freigeben möchten.
-title: Arbeitsmappe hochladen
+description: Erfahren Sie, wie Sie eine Report Builder Excel-Arbeitsmappe hochladen, die Sie freigeben möchten.
+title: Hochladen einer Arbeitsmappe
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
 role: User, Admin

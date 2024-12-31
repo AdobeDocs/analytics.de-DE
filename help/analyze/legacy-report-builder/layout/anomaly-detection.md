@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über die Anomalieerkennung und ihre Berechnung.
-title: Verwendung der Anomalieerkennung zum automatischen Auffinden von Trends
+description: Erfahren Sie mehr über die Anomalieerkennung und deren Berechnung.
+title: Verwendung der Anomalieerkennung zur automatischen Suche von Trends
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
@@ -58,11 +58,11 @@ Mit der Anomalieerkennung werden neue Metrikwerte für jede ausgewählte Metrik 
  </tbody> 
 </table>
 
-Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Metrik für Seitenansichten auswählen und die Anomalieerkennung anwenden, wird eine Metrik vom Typ *`Page Views Lower Bound`* verwendet.
+Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispielsweise eine Seitenansichtsmetrik auswählen und die Anomalieerkennung anwenden, wird eine *`Page Views Lower Bound`* Metrik verwendet.
 
 **Berechnung der Anomalieerkennung**
 
-Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. Im Report Builder sind 30 Tage verfügbar.
+Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. Im Report Builder sind 30 Tage frei.
 
 Der Schulungszeitraum ist nicht notwendigerweise mit dem ausgewählten Berichtzeitraum identisch. Eine Berichtsgrafik zeigt den Datumsbereich an, den Sie im Kalender angegeben haben.
 

@@ -58,20 +58,20 @@ So verwenden Sie Dashboards:
 
 1. Wählen Sie ein Unternehmen aus. Nach der Anmeldung bei den Dashboards wird der Bildschirm **[!UICONTROL Organisation auswählen]** angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die Sie verwenden können. Tippen Sie auf den Unternehmensnamen, der mit der für Sie freigegebenen Scorecard verknüpft ist.
 
-   Die Scorecard-Liste zeigt alle Scorecards an, die für Sie freigegeben sind.
+   Die Scorecard-Liste zeigt alle Scorecards an, die für Sie freigegeben wurden.
 
 1. Tippen Sie auf die Scorecard, die Sie anzeigen möchten.
 
-   Wenn Sie Zugriff auf mehr als eine Organisation mit einer Anmeldung haben, zeigt der Startbildschirm alle Scorecards aller verfügbaren Unternehmen an einem Ort an.
+   Wenn Sie unter einer Anmeldung Zugriff auf mehr als eine Organisation haben, zeigt der Startbildschirm alle Scorecards aller verfügbaren Unternehmen an einem Ort an.
 
-   Sie können die Scorecard-Liste nach Scorecard-Titel, Organisationsname oder zuletzt angezeigten Namen sortieren. Sie können sogar nach einer bestimmten Scorecard suchen.
+   Sie können die Scorecard-Liste nach Scorecard-Titel, Organisationsname oder Zuletzt angezeigt sortieren. Sie können sogar nach einer bestimmten Scorecard suchen.
 
    ![Unternehmen auswählen](assets/mobile-home-screen.png)
 
    Wenn Sie sich anmelden und eine Meldung darüber erhalten, dass nichts freigegeben wurde, überprüfen Sie Folgendes zusammen mit Ihrem Kurator:
 
    * Sie können sich bei der richtigen Analytics-Instanz anmelden.
-   * Die Scorecard wurde für Sie freigegeben.
+   * Die Scorecard wurde für Sie freigegeben
 
    ![Nichts freigegeben](assets/nothing.png)
 
@@ -108,7 +108,7 @@ So verwenden Sie Dashboards:
 
    * Je nachdem, auf welches Intervall Sie tippen (**Tag**, **Woche**, **Monat** oder **Jahr**), sehen Sie zwei Optionen für Datumsbereiche – entweder den aktuellen oder den unmittelbar vorhergehenden Zeitraum. Tippen Sie auf eine dieser beiden Optionen, um den ersten Bereich auszuwählen. Tippen Sie in der Liste unter **[!UICONTROL VERGLEICHEN MIT]** auf eine der angezeigten Optionen, um die Daten in diesem Zeitraum mit dem ersten von Ihnen ausgewählten Datumsbereich zu vergleichen. Tippen Sie oben rechts im Bildschirm auf **[!UICONTROL Fertig]**. Das Feld **[!UICONTROL Datumsbereiche]** und die Scorecard-Kacheln werden mit den neuen Vergleichsdaten aus den von Ihnen ausgewählten neuen Bereichen aktualisiert.
 
-1. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf das Dropdown-Menü Filter und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
+1. Um einen Segmentfilter auf Ihre Scorecard anzuwenden, tippen Sie auf die Dropdown-Liste Filter und wählen Sie ein Segment aus, das von Ihrem Kurator konfiguriert wurde. [Filter](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) in der App funktionieren auf dieselbe Weise wie in Analytics Workspace.
 
    ![Segmentfilter](/help/admin/admin/assets/filter.png)
 

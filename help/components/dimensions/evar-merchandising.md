@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # eVar (Merchandising)
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als [Dimension](overview.md) funktionieren. Informationen zur Implementierung von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zur Implementierung.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als [Dimension“ ](overview.md). Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zu Implementierungen.*
 
 Eine ausführliche Erläuterung der Funktionsweise von Merchandising-eVars finden Sie unter [Merchandising-eVars und Methoden zur Produktsuche](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=de).
 

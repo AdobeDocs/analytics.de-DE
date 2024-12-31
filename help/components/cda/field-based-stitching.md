@@ -15,11 +15,11 @@ ht-degree: 90%
 
 {{available-existing-customers}}
 
-Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei dieser Methode wird eine Analytics-Variable verwendet, z. B. eine [Prop](/help/implement/vars/page-vars/prop.md) oder [eVar](/help/implement/vars/page-vars/evar.md), die eine Personenkennung enthält. Anhand dieser Variablen werden Geräte miteinander verknüpft. Adobe empfiehlt diese Stitching-Option für mehr Transparenz und Vorhersehbarkeit beim Besucher-Tracking.
+Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei dieser Methode wird eine Analytics-Variable verwendet, z. B. eine [Prop](/help/implement/vars/page-vars/prop.md) oder [eVar](/help/implement/vars/page-vars/evar.md), die eine Personenkennung enthält. Anhand dieser Variablen werden Geräte miteinander verknüpft. Adobe empfiehlt diese Stitching-Option, um das Besucher-Tracking transparenter und vorhersehbarer zu gestalten.
 
 ## Spezifische Voraussetzungen für feldbasiertes Stitching
 
-Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe-Account-Team zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
+Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe-Account-Team zusammen, um sicherzustellen, dass Sie alle folgenden Voraussetzungen erfüllen.
 
 >[!WARNING]
 >
@@ -27,7 +27,7 @@ Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching 
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
 * Ihre Implementierung muss eine Prop oder eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn ein Benutzer sich anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Vermeiden Sie es, der Eigenschaft oder der eVar einen Standardwert zuzuweisen.
-* Teilen Sie Ihrem Adobe-Account-Team die gewünschte Identifizierungsvariable mit, wenn sie für feldbasiertes Stitching bereitgestellt wird.
+* Übermitteln Sie die gewünschte Identifizierungsvariable an Ihr Adobe-Account-Team, wenn Sie für feldbasiertes Stitching vorgesehen sind.
 
 ## Spezifische Einschränkungen für feldbasiertes Stitching
 

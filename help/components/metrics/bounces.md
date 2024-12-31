@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Absprünge
 
-Die Metrik &quot;Absprünge&quot;[metrik](overview.md) gibt die Anzahl der Besuche an, die genau einen Treffer enthielten. Sie können diese Metrik verwenden, um das Verhältnis von Absprung- zu Nicht-Absprung-Traffic zu verstehen, die Top-Entrypages zu sehen, die Besucher zum Absprung bewegen, oder um zu sehen, wie die Gesamtanzahl der Absprünge im Zeitverlauf aussieht.
+Die „Metrik[ „Bounces“ ](overview.md) die Anzahl der Besuche an, die genau einen Treffer enthielten. Sie können diese Metrik verwenden, um das Verhältnis von Absprung- zu Nicht-Absprung-Traffic zu verstehen, die Top-Entrypages zu sehen, die Besucher zum Absprung bewegen, oder um zu sehen, wie die Gesamtanzahl der Absprünge im Zeitverlauf aussieht.
 
 ## Berechnung dieser Metrik
 

@@ -12,21 +12,21 @@ ht-degree: 79%
 
 # Postleitzahl
 
-Die Dimension &quot;Postleitzahl&quot;[](overview.md) gibt die Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
+Die Dimension „Postleitzahl[ gibt ](overview.md) Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
 
 ## Füllen dieser Dimension mit Daten
 
 Diese Dimension ist insofern einzigartig, als sie mehrere Möglichkeiten enthält, sie mit Daten zu füllen. Sie können entweder eine der beiden oder beide in Kombination verwenden.
 
 * Legen Sie die Postleitzahl direkt mit der `zip`-Variablen fest. Oder:
-* Konfigurieren Sie sie so, dass sie aus Geolocation-Daten abgerufen wird.
+* Konfigurieren Sie es so, dass es aus den Geolokalisierungsdaten abgerufen wird.
 
 Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) steuert, wie Sie diese Dimension füllen möchten.
 
-Wenn Sie eine Option mit geo-zip verwenden:
+Wenn Sie eine Option verwenden, die Geo-Zip beinhaltet:
 
-* Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [ Konfigurieren eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 

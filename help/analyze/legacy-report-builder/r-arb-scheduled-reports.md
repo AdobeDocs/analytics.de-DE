@@ -21,10 +21,10 @@ Im [!UICONTROL Manager für geplante Aufgaben] finden Sie eine Liste mit den vor
 
 Am 21. April 2022 haben wir im Rahmen unserer Leistungs- und Versandoptimierungsbemühungen in Report Builder Änderungen an terminierten Aufgaben durchgeführt. Zu diesen Änderungen gehörte auch das Entfernen der Möglichkeit, dass geplante Sendungen „nach x Ereignissen beendet werden“. Als Reaktion auf mehrere Kundenanfragen, die mehr Zeit für die Erkundung und Implementierung von Alternativen benötigen, haben wir beschlossen, diese Option in begrenztem Umfang wieder einzuführen und bis zum **31. Januar 2023** aufrecht zu erhalten.
 
-Sie können weiterhin stündliche Report Builder-Aufgaben planen und diese nach maximal 99 Vorkommen beenden. Beachten Sie, dass das Rollback nur für stündliche Aufgaben gilt. Das &quot;Ende nach x Vorkommen&quot;bleibt für alle anderen Versandintervalle (täglich, wöchentlich, monatlich und jährlich) nicht verfügbar.
+Sie können weiterhin stündliche Report Builder-Aufgaben planen und diese nach maximal 99 Vorfällen beenden lassen. Bitte beachten Sie, dass das Rollback nur für stündliche Aufgaben gilt. Die Option „Nach x Ereignissen beenden“ bleibt für alle anderen Versandintervalle (täglich, wöchentlich, monatlich und jährlich) weiterhin nicht verfügbar.
 
-Bitte beachten Sie, dass diese Option zum 31. Januar 2023 eingestellt wurde.
-Wenden Sie sich bei weiteren Fragen oder Support an die Adobe-Kundenunterstützung.
+Beachten Sie, dass diese Option zum 31. Januar 2023 eingestellt wurde.
+Bei weiteren Fragen oder bezüglich Support wenden Sie sich bitte an die Adobe-Kundenunterstützung.
 
 Diese Pause gilt insbesondere für **vor dem 31. Januar 2020 erstellte Aufgaben**. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht. Aufgaben, die älter als zwei Jahre sind, werden angehalten und es werden keine weiteren geplanten Aufgaben gesendet.
 
@@ -32,7 +32,7 @@ Alle Aufgaben, die fortgesetzt werden sollen, können reaktiviert werden. Melden
 
 Darüber hinaus gilt für alle Aufgaben mit einem Erstellungsdatum von weniger als zwei Jahren ohne aktuelles Ablaufdatum (oder mit einem Ablaufdatum von mehr als zwei Jahren) das standardmäßige Ablaufdatum von 18 Monaten. Das neue Ablaufdatum ist der 15. Oktober 2023. Sie können dieses Ablaufdatum auf weniger als 18 Monate ändern, es kann jedoch nicht länger sein. Zum Zeitpunkt des Ablaufs wird die Aufgabe angehalten. Sie können die Aufgabe jedoch mit einem neuen Ablaufdatum von 18 Monaten erneut aktivieren. Es werden keine Aufgaben, Arbeitsmappen oder Daten gelöscht.
 
-Ziel dieser Pause ist es, unsere Datenbank geplanter Aufgaben effektiv zu verwalten und zu pflegen, um eine optimale Leistung und Bereitstellung für alle nötigen Aufgaben und Arbeitsmappen sicherzustellen. Dies wird künftig unsere neue Governance-Richtlinie sein. Nach dem 31. Januar 2023 gilt für alle Aufgaben ein maximales Ablaufdatum von 18 Monaten. Nach 18 Monaten werden abgelaufene Aufgaben angehalten und können bei Bedarf reaktiviert werden.
+Ziel dieser Pause ist es, unsere Datenbank geplanter Aufgaben effektiv zu verwalten und zu pflegen, um eine optimale Leistung und Bereitstellung für alle nötigen Aufgaben und Arbeitsmappen sicherzustellen. Dies wird künftig unsere neue Governance-Richtlinie sein. Nach dem 31. Januar 2023 haben alle Aufgaben ein maximales Ablaufdatum von 18 Monaten. Nach 18 Monaten werden abgelaufene Aufgaben angehalten und können bei Bedarf reaktiviert werden.
 
 ## Geplante Aufgaben konfigurieren
 

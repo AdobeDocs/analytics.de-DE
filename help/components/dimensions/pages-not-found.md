@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Seiten nicht gefunden
 
-*Auf dieser Hilfeseite wird beschrieben, wie &quot;Seiten nicht gefunden&quot;als [Dimension](overview.md) funktioniert. Weitere Informationen finden Sie unter der Metrik [Seiten nicht gefunden](../metrics/pages-not-found.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie „Seiten nicht gefunden“ als [Dimension“ ](overview.md). Weitere Informationen finden Sie unter der Metrik [Seiten nicht gefunden](../metrics/pages-not-found.md).*
 
 Die Dimension „Seiten nicht gefunden“ gibt URLs an, die einen Fehler enthalten. Diese Dimension ist nützlich, wenn Sie die Anzahl der Fehler verringern möchten, die Besucher auf Ihrer Site erhalten.
 

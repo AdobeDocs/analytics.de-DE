@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Wochentag
 
-Die Dimension &quot;Wochentag&quot;[](overview.md) gibt den Wochentag an, an dem der Treffer stattgefunden hat. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach Woche aufschlüsseln möchten, aber keine statischen Tage als Dimensionswerte wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit jedem beliebigen Datumsbereich funktioniert.
+Die Dimension „Wochentag“ [Dimension](overview.md) gibt den Wochentag an, an dem der Treffer aufgetreten ist. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach Woche aufschlüsseln möchten, aber keine statischen Tage als Dimensionswerte wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit jedem beliebigen Datumsbereich funktioniert.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -16,11 +16,11 @@ ht-degree: 60%
 
 {{available-existing-customers}}
 
-Geräteübergreifende Analysen können das private Diagramm verwenden, um Daten miteinander zu verknüpfen. Das private Diagramm ist ein Repository mit Hash-Geräte-IDs, das für Ihr Unternehmen spezifisch ist. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
+Die geräteübergreifende Analyse kann das private Diagramm verwenden, um Daten miteinander zu verknüpfen. Das private Diagramm ist ein Repository mit gehashten Geräte-IDs, das speziell für Ihre Organisation gilt. Die geräteübergreifende Analyse kommuniziert regelmäßig mit dem Gerätediagramm, um Geräte miteinander zu verknüpfen.
 
 ## Besondere Voraussetzungen für das Gerätediagramm
 
-Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe-Account-Team zusammen, um sicherzustellen, dass Sie alle folgenden Kriterien erfüllen.
+Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe-Account-Team zusammen, um sicherzustellen, dass Sie alle folgenden Voraussetzungen erfüllen.
 
 >[!WARNING]
 >
@@ -28,9 +28,9 @@ Wenn Sie die geräteübergreifende Analyse mithilfe der Gerätediagrammmethode i
 >
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
-* Ihr Unternehmen muss das private Diagramm [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html) verwenden. Weitere Informationen finden Sie unter [Startseite](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de) im Benutzerhandbuch zum Identity Service.
-* Ihre Implementierung muss die neueste Version des Experience Cloud ID-Diensts (ECID) verwenden. Weitere Informationen finden Sie auf der [Homepage](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) im Benutzerhandbuch zum ID-Dienst. Bei den meisten Implementierungen mit [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform ist ID-Dienst wahrscheinlich bereits bereitgestellt.
-* Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Siehe [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=de) im Benutzerhandbuch zum ID-Dienst.
+* Ihr Unternehmen muss das private Diagramm [Adobe Experience Platform Identity Service verwenden](https://business.adobe.com/products/experience-platform/identity-service.html). Siehe auch [Startseite](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de) im Identity Service-Benutzerhandbuch.
+* Ihre Implementierung muss die neueste Version des Experience Cloud-ID-Service (ECID) verwenden. Siehe die [Startseite](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) im Benutzerhandbuch für den ID-Service. Bei den meisten Implementierungen mit [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform ist der ID-Service wahrscheinlich bereits bereitgestellt.
+* Ihre Implementierung muss die `setCustomerIDs`-Funktion (oder das SDK-Äquivalent) immer dann aufrufen, wenn eine Person identifiziert werden kann, z. B. wenn sich ein Benutzer anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Siehe [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=de) im ID-Service-Benutzerhandbuch.
 
 ## Besondere Einschränkungen für das Gerätediagramm
 

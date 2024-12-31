@@ -21,7 +21,7 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 >
 >Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Siehe die [Übersichtsseite](overview.md) und die gewünschte Stitching-Methode ([feldbasiertes Stitching](field-based-stitching.md) oder [Gerätediagramm](device-graph.md)) für Voraussetzungen und Einschränkungen.
 
-## 1. Öffnen Sie ein Ticket bei der Kundenunterstützung, um CDA für Ihre geräteübergreifende Report Suite bereitzustellen.
+## 1. Eröffnen Sie ein Ticket bei der Kundenunterstützung, um die geräteübergreifende Report Suite mit geräteübergreifender Analyse zu versorgen
 
 CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering bereitgestellt. Wenden Sie sich zunächst an die Kundenunterstützung und stellen Sie folgende Informationen bereit:
 
@@ -34,16 +34,16 @@ Die Standardeinstellung ist eine wöchentliche Wiederholung mit einem 7-tägigen
 
 Sobald Sie der Kundenunterstützung diese Informationen zur Verfügung gestellt haben, kann diese mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die geräteübergreifende Analyse zu aktivieren.
 
-## 2. Erstellen Sie eine geräteübergreifende Virtual Report Suite, um die geräteübergreifende Ansicht anzuzeigen.
+## 2. Erstellen Sie eine geräteübergreifende Virtual Report Suite, um die geräteübergreifende Ansicht anzuzeigen
 
 Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Suites für die geräteübergreifende Analyse wie folgt erstellen:
 
 1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
-3. Bewegen Sie den Mauszeiger über **[!UICONTROL Komponenten]** oben und klicken Sie dann auf **[!UICONTROL Virtual Report Suites]**.
+3. Bewegen Sie den Mauszeiger **[!UICONTROL Komponenten]** oben und klicken Sie dann auf **[!UICONTROL Virtual Report Suites]**.
 4. Klicken Sie auf Hinzufügen.
 5. Geben Sie einen Namen für Ihre Virtual Report Suite ein und stellen Sie sicher, dass die für die geräteübergreifende Analyse aktivierte Report Suite ausgewählt ist.
-6. (Optional) Wenden Sie ein Segment auf die Virtual Report Suite an. Sie können beispielsweise ein Segment anwenden, das die Virtual Report Suite auf Daten beschränkt, die nach dem Datum liegen, an dem die geräteübergreifende Analyse aktiviert wurde und die Suche begonnen hat. Dieses Segment ermöglicht es Benutzern, nur zugewiesene Datumsbereiche innerhalb der Virtual Report Suite anzuzeigen.
+6. (Optional) Wenden Sie ein Segment auf die Virtual Report Suite an. Sie können beispielsweise ein Segment anwenden, das die Virtual Report Suite auf Daten beschränkt, die nach dem Datum liegen, an dem die geräteübergreifende Analyse aktiviert wurde und die Suche begonnen hat. Mit diesem Segment können Benutzende nur zugeordnete Datumsbereiche innerhalb der Virtual Report Suite sehen.
 7. Aktivieren Sie das Kontrollkästchen „Berichtszeitverarbeitung aktivieren“, wodurch mehrere weitere Optionen, einschließlich der geräteübergreifenden Analyse, aktiviert werden.
 8. Aktivieren Sie das Kontrollkästchen „Besuche von Benutzern geräteübergreifend zuordnen“.
 9. Klicken Sie auf „Weiter“, konfigurieren Sie die Virtual Report Suite und klicken Sie dann auf „Speichern“.

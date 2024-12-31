@@ -100,7 +100,7 @@ Weitere Beispiele und Details zur Funktionsweise finden Sie unter [Eindeutige Ge
 
 +++
 
-+++ Kann ich CDA-Metriken über die Adobe Analytics 2.0-API einbinden?
++++ Kann ich CDA-Metriken mithilfe der Adobe Analytics 2.0-API einbeziehen?
 
 Ja. Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufordern. Außerdem können Sie API-Aufrufe anzeigen, die Adobe verwendet, um Ihre eigenen Berichte zu erstellen:
 
@@ -139,7 +139,7 @@ Die geräteübergreifende Analyse ruft Identifizierungsvariablen-Dimensionseleme
 
 +++ Wie viele Report Suites meines Unternehmens können für die geräteübergreifende Analyse (CDA) aktiviert werden?
 
-Ab dem 1. Mai 2022 wird jede neue Implementierung von CDA auf maximal drei Report Suite-IDs (RSIDs) pro Kunde beschränkt. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (Daten von mehreren Oberflächen wie Desktop-Web, mobiles Web, mobile App usw.).
+Ab dem 1. Mai 2022 wird jede neue Implementierung von CDA auf maximal drei Report Suite-IDs (RSIDs) pro Kunde beschränkt. Die geräteübergreifende Analyse führt Report Suites nicht zusammen. Jede für die geräteübergreifende Analyse aktivierte Report Suite muss geräteübergreifend sein (mit Daten von mehreren Oberflächen wie Desktop-Web, mobilem Web, Mobile App usw.).
 
 +++
 

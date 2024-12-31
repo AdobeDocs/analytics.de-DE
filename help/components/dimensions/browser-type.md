@@ -12,14 +12,14 @@ ht-degree: 67%
 
 # Browser-Typ
 
-Die Dimension &quot;Browsertyp&quot;[Dimension](overview.md) listet die Organisationen auf, die den vom Besucher verwendeten Browser erstellt haben. Diese Dimension ist nützlich, wenn Sie sehen möchten, welche übergeordneten Browser von Besuchern verwendet werden. Sie ist insofern nützlicher als die Dimension „Browser“, als sie verschiedene Versionen desselben Browsers nicht als separate Dimensionselemente auflistet.
+Die Dimension „Browser[Typ“ ](overview.md) die Organisationen auf, die den Browser erstellt haben, den der Besucher verwendet. Diese Dimension ist nützlich, wenn Sie sehen möchten, welche übergeordneten Browser von Besuchern verwendet werden. Sie ist insofern nützlicher als die Dimension „Browser“, als sie verschiedene Versionen desselben Browsers nicht als separate Dimensionselemente auflistet.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um Suchen zwischen Benutzeragent und Browser zu unterhalten.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um die Suche zwischen Benutzeragenten und Browser aufrechtzuerhalten.
 
-* Bei AppMeasurement-Implementierungen funktioniert diese Dimension standardmäßig.
-* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] bei der [ Konfiguration eines Datastreams](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
+* Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
+* Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 

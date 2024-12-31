@@ -13,7 +13,7 @@ ht-degree: 94%
 
 # Ausstiegsdimensionen
 
-*Auf dieser Hilfeseite wird beschrieben, wie Ausstiege als [Dimension](overview.md) funktionieren. Informationen dazu, wie Ausstiege als Metrik funktionieren, finden Sie unter der Metrik [Ausstiege](../metrics/exits.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie Exits als [Dimension](overview.md) funktionieren. Informationen dazu, wie Ausstiege als Metrik funktionieren, finden Sie unter der Metrik [Ausstiege](../metrics/exits.md).*
 
 Ausstiegsdimensionen zeichnen das letzte Dimensionselement auf und wenden es rückwirkend auf alle Treffer im Besuch an. Ausstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
 

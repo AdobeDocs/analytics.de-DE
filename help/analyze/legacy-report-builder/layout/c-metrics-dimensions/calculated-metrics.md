@@ -15,7 +15,7 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-Report Builder 5.2 und höher unterstützt berechnete Adobe Analytics-Metriken. Alle berechneten Metriken verfügen jetzt über eine globale ID - sie sind nicht mehr auf eine Report Suite beschränkt.
+Report Builder 5.2 und höher unterstützt berechnete Adobe Analytics-Metriken. Alle berechneten Metriken verfügen jetzt über eine globale ID und sind nicht mehr auf eine Report Suite beschränkt.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ In Schritt 2 des Anforderungs-Assistenten können Sie berechnete Metriken filte
 
 ## Berechnete Metriken filtern {#section_376E986D3E684999A7CDB08E53854159}
 
-**Errechnete Metriken filtern** durch Klicken auf das Filtersymbol: ![Screenshot der Filteroptionen mit den Feldern &quot;Anwendung&quot;, &quot;Benutzer&quot;, &quot;Projekt&quot;](/help/admin/admin/assets/filter.png).
+**Filtern** Berechnete Metriken, indem Sie auf das Filtersymbol klicken: ![Screenshot der Filteroptionen mit den Feldern „Anwendung“, „Benutzer“, „Projekt“.](/help/admin/admin/assets/filter.png)
 
 Im Dialogfeld „Erweiterte Filter“ werden die Standardmetriken und berechneten Metriken aufgeführt.
 
 Folgende Filter stehen zur Verfügung:
 
-![Screenshot mit den in der folgenden Tabelle beschriebenen Optionen für erweiterte Filter.](assets/advanced_filters.png)
+![Screenshot mit den in der folgenden Tabelle beschriebenen erweiterten Filteroptionen.](assets/advanced_filters.png)
 
 | Filtername | Beschreibung |
 |---|---|
@@ -49,4 +49,4 @@ Folgende Filter stehen zur Verfügung:
 
 Wenn Sie die Filter ausgewählt haben, klicken Sie auf **[!UICONTROL Übernehmen]**, um sie auf Ihre Anforderung anzuwenden. Die ausgewählten Metriken werden zum Berichtslayout hinzugefügt.
 
-![Screenshot mit dem Anforderungs-Assistenten, Schritt 2: Site-Summen, die auf das Fenster Erweiterte Filter verweisen, und den angewendeten Berichtsmetriken.](assets/filtering_for_metric.png)
+![Screenshot mit dem Anforderungs-Assistenten: Schritt 2: Site-Gesamtwerte, die auf das Fenster „Erweiterte Filter“ und die angewendeten Berichtsmetriken verweisen.](assets/filtering_for_metric.png)

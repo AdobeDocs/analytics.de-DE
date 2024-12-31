@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Browser-Höhe
 
-Die Dimension &quot;Browserhöhe - zusammengefasst&quot;[](overview.md) gibt die Höhe des Browser-Fensters an, klassifiziert in vordefinierte Gruppen. Diese Dimension ist nützlich, wenn Sie verstehen möchten, wo sich die Kante auf Ihrer Site für Besucher befindet. Wenn Sie wissen, wo die Kante ist, können Sie Inhalte für die Anzeige optimieren.
+„Browser height - bucketed[ (Dimension](overview.md) zeigt die Höhe des Browser-Fensters an, klassifiziert in vordefinierte Gruppen. Diese Dimension ist nützlich, wenn Sie verstehen möchten, wo sich die Kante auf Ihrer Site für Besucher befindet. Wenn Sie wissen, wo die Kante ist, können Sie Inhalte für die Anzeige optimieren.
 
 Diese Dimension unterscheidet sich von der Bildschirmhöhe. Die Browser-Höhe ist die Anzahl der Pixel im sichtbaren Browser-Bereich, während die Bildschirmhöhe die Höhe des gesamten Monitors in Pixel darstellt. Wenn Sie den Unterschied zwischen diesen beiden Variablen auf Ihrem Computer sehen möchten, öffnen Sie die Browser-Konsole (F12 bei den meisten Browsern) und kopieren Sie den folgenden Code in die Konsole:
 
@@ -30,4 +30,4 @@ Adobe behält die Browser-Höhe für einen Besuch bei. Wenn die Browser-Höhe w�
 
 ## Dimensionselemente
 
-Zu den Dimensionen gehören alle erfassten Browserhöhen, klassifiziert in vordefinierte Gruppen. Wenn die Browser-Höhe eines Treffers beispielsweise `720` beträgt, wird sie im Dimensionselement `700 to 799` gruppiert.
+Zu den Elementen der Dimension gehören alle erfassten Browser-Höhen, die in vordefinierte Gruppen klassifiziert sind. Wenn die Browser-Höhe eines Treffers beispielsweise `720` beträgt, wird sie im Dimensionselement `700 to 799` gruppiert.

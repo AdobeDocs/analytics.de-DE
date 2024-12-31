@@ -1,6 +1,6 @@
 ---
 title: Einverständnis für Anzeigenplattform
-description: Weitere Informationen finden Sie in der Konfiguration für die Werbezustimmung für Drittanbieter.
+description: Siehe die Konfiguration für die Werbezustimmung bei Werbeanbietern von Drittanbietern.
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
 source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
@@ -12,11 +12,11 @@ ht-degree: 3%
 
 # Einverständnis für Anzeigenplattform
 
-Die Dimension &quot;[Einverständnis für Anzeigenplattform&quot;](overview.md) zeigt an, ob die Einwilligung zum Senden von Daten an Drittanbieter für Werbung wie Google, Meta und andere erfasst wird.
+Die Dimension [Einverständnis zur Anzeigenplattform](overview.md) zeigt an, ob Einverständnis eingeholt wird, um Daten an Drittanbieter von Werbeanbietern wie Google, Meta und andere zu senden.
 
-Diese Dimension wird derzeit nur für Google verwendet. Aufgrund der europäischen Datenschutzbestimmungen, des Digital Markets Act (DMA), verlangt Google, dass Daten, die an ihre Server gesendet und in Europa erfasst werden, angeben müssen, ob die Einwilligung eingeholt wird. Einige Analytics-Kunden senden Ereignisdaten über Adobe Advertising als Konversionsereignisse an Google.
+Derzeit wird diese Dimension nur für Google verwendet. Aufgrund der europäischen Datenschutzbestimmungen, dem Digital Markets Act (DMA), verlangt Google, dass Daten, die an ihre Server gesendet und in Europa erfasst werden, angeben müssen, ob eine Einwilligung eingeholt wird. Einige Analytics-Kunden senden Ereignisdaten per Adobe Advertising als Konversionsereignisse an Google.
 
-Künftig kann diese Dimension zur Unterstützung der Kodierung zusätzlicher Zustimmungsinformationen für andere Drittanbieter von Werbung verwendet werden.
+In Zukunft kann diese Dimension verwendet werden, um die Codierung zusätzlicher Einverständnisinformationen für andere Drittanbieter von Werbung zu unterstützen.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -24,38 +24,38 @@ Diese Dimension erfasst Daten aus den folgenden [Kontextdatenvariablen](/help/im
 
 * `contextData.['adConsent']`
 
-Sie füllen die Kontextdatenvariable mit relevanten Werten für die Google-Einwilligungsfelder.
+Sie füllen die Kontextdatenvariable mit relevanten Werten für die Google-Einverständnisfelder
 
 * `ad_user_data` (1. Zeichen) und
-* `ad_personalization` (2. Zeichen).
+* `ad_personalization` (2. Zeichen)
 
-Weitere Informationen finden Sie unter [Einverständnis in der Google Ads API-Referenz](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent).
+Weitere Informationen finden [ unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
 
 Die möglichen Werte für jedes dieser Felder können sein:
 
 | Wert | ad_user_data | ad_personalization |
 |:-:|---|---|
-| `Y` | Erteilen Sie Google eine Einwilligung zu Anzeigenbenutzerdaten. | Erteilen Sie Google eine Zustimmung zur Anzeigenpersonalisierung. |
-| `N` | Verweigern Sie die Zustimmung zu Google für Anzeigenbenutzerdaten. | Einverständnis für die Anzeigenpersonalisierung mit Google. |
+| `Y` | Erteilen Sie Google Ihr Einverständnis für die Daten von Anzeigenbenutzenden. | Erteilen Sie Google Ihr Einverständnis zur Personalisierung von Anzeigen. |
+| `N` | Einverständnis für Anzeigenbenutzerdaten an Google verweigern. | Einverständnis zur Personalisierung von Anzeigen an Google senden. |
 | `U` | Nicht angegeben. | Nicht angegeben. |
 
-Im folgenden Beispiel wird Google für Anzeigenbenutzerdaten, jedoch nicht für die Anzeigenpersonalisierung genehmigt:
+Im folgenden Beispiel wird Google das Einverständnis für Anzeigenbenutzerdaten, nicht jedoch für die Anzeigenpersonalisierung erteilt:
 
 ```
 contextData.['adConsent'] = "YN..."
 ```
 
-Zeichen, die über das erste und zweite Zeichen hinausgehen, werden derzeit ignoriert.
+Jenseits des ersten und zweiten Zeichens werden derzeit ignoriert.
 
-## Daten verwenden
+## Verwenden der Daten
 
-Sie können die erfassten Daten der Anzeigenzustimmung verwenden:
+Sie können die erfassten Anzeigeneinverständnisdaten verwenden:
 
-* Daten-Feeds: Die Daten zur Anzeigenzustimmung sind mit der Spalte `dataprivacydmaconsent` [column](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) verfügbar.
-* Data Warehouse-Berichte: Die Daten zur Anzeigenzustimmung sind mit der Dimension **[!UICONTROL Anzeigenplattformzustimmung]** verfügbar.
+* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* Data Warehouse-Berichte: Die Daten zum Werbeeinverständnis sind über die Dimension **[!UICONTROL Werbeplattformeinverständnis]** verfügbar.
 
 Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariablen. Der Wert bleibt nicht über den Treffer hinaus erhalten, für den er festgelegt wurde. Daher müssen Sie die Kontextdatenvariable auf jeder Seite festlegen.
 
-Wenn Sie Werbedaten von Adobe Analytics über Adobe Advertising als Konversionsereignisse an Google senden, wenden Sie sich an das Adobe Advertising-Team, um Hilfe bei der Integration zu erhalten.
+Wenn Sie Werbedaten von Adobe Analytics per Adobe Advertising als Konversionsereignisse an Google senden, wenden Sie sich bitte an das Adobe Advertising-Team, um bei der Integration zu helfen.
 
 Weitere Informationen finden Sie unter [Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

@@ -10,7 +10,7 @@ ht-degree: 89%
 
 ---
 
-# Berechnete Metriken insgesamt in Analysis Workspace
+# Gesamtwerte für berechnete Metriken in Analysis Workspace
 
 Wenn Sie Daten in Analysis Workspace anzeigen, werden die berechneten Metriken insgesamt in den meisten Fällen angezeigt. In einigen Fällen ist die Bereitstellung einer Gesamtsumme nicht möglich, beispielsweise wenn die Zeilen des Berichts unterschiedliche Formate aufweisen (z. B. Dezimalzahl und Währung).
 

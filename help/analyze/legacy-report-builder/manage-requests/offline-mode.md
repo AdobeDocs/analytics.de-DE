@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie im Offline-Modus Platzhalterdaten zurückgeben können.
+description: Erfahren Sie, wie Sie den Offline-Modus verwenden, um Platzhalterdaten zurückzugeben.
 title: Aktivieren des Offline-Modus
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
@@ -18,21 +18,21 @@ ht-degree: 33%
 
 Im Offline-Modus werden Platzhalterdaten zurückgegeben, um das Erstellen und Bearbeiten von Anfragen zu beschleunigen.
 
-Wenn Sie eine neue Anforderung erstellen oder bearbeiten, werden Berichts-API-Aufrufe durchgeführt, um die Antwort abzurufen. Manchmal verlangsamen diese Aufrufe den Prozess der Anforderungserstellung, da Sie warten müssen, bis die Daten zurückgegeben werden, bevor Sie zum nächsten Schritt übergehen. Im Offline-Modus werden nur Platzhalterdaten zurückgegeben und die API wird nicht ausgeführt.
+Wenn Sie eine neue Anfrage erstellen oder bearbeiten, werden Report API-Aufrufe durchgeführt, um die Antwort abzurufen. Manchmal verlangsamen diese Aufrufe den Prozess der Anfrageerstellung, da Sie warten müssen, bis die Daten zurückgegeben werden, bevor Sie mit dem nächsten Schritt fortfahren. Der Offline-Modus gibt nur Platzhalterdaten zurück und die API wird nicht erstellt.
 
 So aktivieren Sie den Offline-Modus
 
 1. Klicken Sie im Report Builder-Menü auf **[!UICONTROL Optionen]**.
 
-   ![Screenshot des Bildschirms &quot;Optionen&quot;mit ausgewähltem Offline-Code.](assets/offline_mode.png)
+   ![Screenshot des Bildschirms „Optionen“ mit ausgewähltem Offline-Modus.](assets/offline_mode.png)
 
 1. Aktivieren Sie neben **[!UICONTROL Aktivieren Sie den Offline-Modus, um Anforderungen zu erstellen und zu bearbeiten]** das Kontrollkästchen.
 1. Geben Sie im Feld **[!UICONTROL Metrikdaten anzeigen als]** die Platzhalterdaten ein, die bei Ihrer Anforderung zurückgegeben werden sollen. Geben Sie zum Beispiel „1“ ein.
 1. Klicken Sie auf **[!UICONTROL OK]**.
-1. Erstellen und führen Sie Ihre Anforderung im Offline-Modus mit dem Anforderungs-Assistenten aus. Der folgende Screenshot zeigt ein Beispiel einer Anfrage mit &quot;1&quot;als Platzhalterdaten.
+1. Erstellen Sie Ihre Anfrage und führen Sie sie im Offline-Modus mit dem Anforderungs-Assistenten aus. Der folgende Screenshot zeigt ein Beispiel für eine Anfrage mit „1“ als Platzhalterdaten.
 
-   ![Screenshot mit dem Beispiel des Offline-Modus unter Verwendung von 1 als Platzhalter.](assets/offline_mode_example.png)
+   ![Screenshot mit dem Beispiel für den Offline-Modus, in dem 1 als Platzhalter verwendet wird.](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >Stellen Sie sicher, dass Sie den Offline-Modus deaktivieren, bevor Sie Ihre Anforderungen mit echten Daten ausführen.
+   >Stellen Sie sicher, dass Sie den Offline-Modus deaktivieren, bevor Sie Ihre Anfragen mit echten Daten ausführen.

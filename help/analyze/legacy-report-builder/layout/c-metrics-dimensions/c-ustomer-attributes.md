@@ -19,9 +19,9 @@ Kundenattribute werden in einem neuen Elementtyp namens „VisAttr“ gespeicher
 
 Weitere Informationen zum Hochladen von Kundenattributen finden Sie in der [Experience Cloud-Hilfe](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de).
 
-* Wenn es als Metrik konfiguriert ist, wird VisAttr sowohl als Metrik als auch als &quot;Dimension&quot;angezeigt.
+* Wenn es als Metrik konfiguriert ist, wird VisAttr sowohl als Metrik als auch als „Dimension“ bereitgestellt.
 
-  ![Screenshot mit Metrik und Dimension &quot;Kundenattribute&quot;.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![Screenshot mit Metrik und Dimension Kundenattribute.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Es unterstützt dieselbe Aufschlüsselung wie eine eVar (alles kann durch alles aufgeschlüsselt werden).
 * VisAttr unterstützt alle eVar-Metriken.

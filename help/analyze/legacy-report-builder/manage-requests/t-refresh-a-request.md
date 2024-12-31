@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie Anforderungen aktualisieren können, nachdem Sie Filter bearbeitet oder auf sie angewendet haben, oder wie Sie aktuellere Daten anzeigen können.
-title: Aktualisieren einer Anforderung
+description: Erfahren Sie, wie Sie Anfragen aktualisieren können, nachdem Sie Filter bearbeitet oder angewendet haben, oder wie Sie aktuellere Daten anzeigen.
+title: Aktualisieren einer Anfrage
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
 role: User, Admin
@@ -16,18 +16,18 @@ ht-degree: 37%
 
 {{legacy-arb}}
 
-Aktualisieren Sie Anforderungen, nachdem Sie sie bearbeitet haben oder wenn Sie aktuellere Daten benötigen. Sie können mehrere Anforderungen in einem Arbeitsblatt auswählen und gleichzeitig aktualisieren.
+Aktualisieren Sie Anfragen, nachdem Sie sie mit Bearbeitungen, Filtern aktualisiert haben, oder Sie müssen aktuellere Daten anzeigen. Sie können mehrere Anfragen in einem Arbeitsblatt auswählen und sie alle gleichzeitig aktualisieren.
 
-Wenn Sie den Datumsbereich einer Anforderung erweitern und die Anforderung dann aktualisieren, fügt Report Builder Zellen hinzu, um die zusätzliche Anzahl von Zeiträumen aufzunehmen.
+Wenn Sie den Datumsbereich einer Anfrage erhöhen und dann die Anfrage aktualisieren, fügt Report Builder Zellen hinzu, um die zusätzliche Anzahl von Zeiträumen zu erfassen.
 
 1. Erstellen Sie eine Anforderung und führen Sie sie aus.
-1. Klicken Sie nach Änderung der Anforderung mit der rechten Maustaste auf die Anforderung und wählen Sie dann im Kontextmenü die Option **[!UICONTROL Anforderung aktualisieren]** aus. (Alternativ können Sie auf die Anforderung klicken und dann in der Symbolleiste die Option **[!UICONTROL Aktualisieren]** wählen.)
+1. Nachdem Sie die Anfrage geändert haben, klicken Sie mit der rechten Maustaste auf die Anfrage und wählen **[!UICONTROL Anforderung aktualisieren]** aus dem Kontextmenü. (Alternativ können Sie auf die Anforderung klicken und dann in der Symbolleiste die Option **[!UICONTROL Aktualisieren]** wählen.)
 
    Das Dialogfeld [!UICONTROL Anforderung aktualisieren] wird angezeigt:
 
    **Datum für „Jetzt“:** Das Datum für die Aktualisierung der Anforderung. Auch [!UICONTROL Ausführungsdatum] genannt.
 
-   **Wird bei zukünftigen Aktualisierungsvorgängen auf das aktuelle Datum gesetzt:** Durch Aktivierung dieser Option wird der Report Builder angewiesen, immer das aktuelle Datum als [!UICONTROL Jetzt] (bzw. [!UICONTROL Ab ]) Datum zu verwenden. Sie können diese Einstellung wieder ändern, indem Sie in der Symbolleiste auf [!UICONTROL Optionen] klicken.
+   **Auf aktuelles Datum für zukünftige Aktualisierungsaktionen festlegen** Wenn diese Option aktiviert ist, verwendet der Report Builder immer das aktuelle Datum [!UICONTROL Jetzt] (oder [!UICONTROL Ab]). Sie können diese Einstellung wieder ändern, indem Sie in der Symbolleiste auf [!UICONTROL Optionen] klicken.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
    Eine erfolgreich abgeschlossene Aktualisierung wird durch ein grünes Symbol im [!UICONTROL Anforderungs-Manager] gekennzeichnet.

@@ -12,44 +12,44 @@ ht-degree: 12%
 
 # Berechnete Metriken taggen
 
-Im Manager für berechnete Metriken können Sie Segmente organisieren, indem Sie sie mit Tags versehen.
+Im Manager für berechnete Metriken können Sie Segmente durch Tagging organisieren.
 
-Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder mehrere Tags auf eine Metrik anwenden. Sie können Tags jedoch nur für die berechneten Metriken sehen, deren Inhaber Sie sind oder die für Sie freigegeben wurden.
+Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder mehrere Tags auf eine Metrik anwenden. Sie sehen Tags jedoch nur für die berechneten Metriken, deren Inhaber Sie sind oder die für Sie freigegeben wurden.
 
 >[!TIP]
 >
->Die nützlichsten Typen von Tags sind normalerweise Tags, die auf den folgenden Kriterien basieren:
+>Die nützlichsten Arten von Tags sind normalerweise Tags, die auf den folgenden Kriterien basieren:
 >
->* **Team-Namen**, z. B. Social Marketing oder Mobile Marketing.
->* **Projekte** (Analyse-Tags), z. B. Entrypage-Analyse.
->* **Kategorien**, z. B. Frauen oder Geografie.
->* **Workflows**, z. B. Genehmigung oder Kuratierung für (einen bestimmten Geschäftsbereich)
+>* **Team-Namen** wie Social-Media-Marketing oder Mobile-Marketing.
+>* **Projekte** (Analyse-Tags), z. B. die Einstiegsseitenanalyse.
+>* **Kategorien** wie „Women&#39;s“ oder „Geography“.
+>* **Workflows** z. B. Zu validieren oder zu kuratieren für (einen bestimmten Geschäftsbereich)
 
 ## Anwenden von Tags auf eine berechnete Metrik
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**].
 
 1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben den Metriken, die Sie taggen möchten.
 
    ![](assets/cm_add_tags.png)
 
-1. Im Dialogfeld **[!UICONTROL Berechnete Metrik taggen]** :
+1. Im Dialogfeld **[!UICONTROL Berechnete Metrik taggen]**:
 
-   * Fügen Sie ein neues Tag hinzu. Geben Sie den Namen in das Feld [!UICONTROL **Tags hinzufügen**] ein und drücken Sie dann die Eingabetaste.
-   * Wählen Sie einen oder mehrere vorhandene Tags aus, die auf die ausgewählten Metriken angewendet werden sollen.
+   * Ein neues Tag hinzufügen. Geben Sie den Namen in das Feld [!UICONTROL **Tags hinzufügen**] ein und drücken Sie dann die Eingabetaste.
+   * Wählen Sie ein oder mehrere vorhandene Tags aus, die auf die ausgewählten Metriken angewendet werden sollen.
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus, um die Tags anzuwenden.
 
-## Angewandte Tags anzeigen
+## Angewendete Tags anzeigen
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] aus, um zum Manager für berechnete Metriken zu wechseln.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete**]) aus, um zum Manager für berechnete Metriken zu wechseln.
 
-1. Im Manager für berechnete Metriken werden Tags in der Spalte [!UICONTROL **Tags**] angezeigt. (Klicken Sie auf das Zahnradsymbol oben rechts, um Ihre Spalten zu verwalten.)
+1. Im Manager für berechnete Metriken werden Tags in der Spalte [!UICONTROL **Tags**] angezeigt. (Klicken Sie oben rechts auf das Zahnradsymbol, um Ihre Spalten zu verwalten.)
 
 ## Metriken nach Tags filtern
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**] aus, um zum Manager für berechnete Metriken zu wechseln.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete**]) aus, um zum Manager für berechnete Metriken zu wechseln.
 
-1. Wählen Sie im Manager für berechnete Metriken das Symbol **Filter** und dann die Tags aus, nach denen Sie filtern möchten.
+1. Wählen Sie im Manager für berechnete Metriken das Symbol **Filtern** und wählen Sie dann die Tags aus, nach denen Sie filtern möchten.
 
-   Es werden nur Metriken angezeigt, die den von Ihnen ausgewählten Filter aufweisen.
+   Es werden nur Metriken mit dem ausgewählten Filter angezeigt.

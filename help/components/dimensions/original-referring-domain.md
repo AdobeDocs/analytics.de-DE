@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Ursprüngliche Referrer-Domain
 
-Die Dimension &quot;Ursprüngliche Referrer-Domäne&quot;[](overview.md) gibt die erste Referrer-Domäne an, über die ein Besucher zum Erreichen Ihrer Site geklickt hat. Sobald sie festgelegt wurde, enthält sie denselben Wert für die gesamte Lebensdauer dieser Besucher-ID. Diese Dimension ist nützlich, um zu verstehen, welche Drittanbieter-Sites den Traffic ursprünglich zu Ihrer Site leiten.
+Die Dimension „Ursprüngliche Referrer[ gibt die erste Referrer](overview.md)Domain an, auf die sich ein Besucher geklickt hat, um zu Ihrer Site zu gelangen. Sobald sie festgelegt wurde, enthält sie denselben Wert für die gesamte Lebensdauer dieser Besucher-ID. Diese Dimension ist nützlich, um zu verstehen, welche Drittanbieter-Sites den Traffic ursprünglich zu Ihrer Site leiten.
 
 >[!IMPORTANT]
 >

@@ -12,8 +12,8 @@ ht-degree: 29%
 
 # Durchschnittliche Sitzungslänge (Mobil)
 
-Die Metrik &quot;Durchschnittliche Sitzungslänge (Mobil)&quot;[metrik](overview.md) gibt die durchschnittliche Zeit an, die ein bestimmtes Dimensionselement pro Dimensionselement vorhanden ist. Sie ähnelt der Metrik [[!UICONTROL Zeit pro Besuch (Sekunden)]](time-spent-per-visit.md) , allerdings verwendet diese Metrik für die Berechnung mobile SDK-spezifische Komponenten.
+Die „Metrik „Durchschnittliche Sitzungslänge (mobil[&quot; ](overview.md) die durchschnittliche Zeit an, die ein bestimmtes Dimensionselement pro Dimensionselement vorhanden ist. Es ähnelt der Metrik [[!UICONTROL Aufgewendete Zeit pro Besuch (Sekunden]](time-spent-per-visit.md) mit der Ausnahme, dass diese Metrik Mobile SDK-spezifische Komponenten als Teil ihrer Berechnung verwendet.
 
 ## Berechnung dieser Metrik
 
-Diese Metrik wird mit den [Lebenszyklusmetriken](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) `'Total Session length' / ('Launches' - 'First launches'` berechnet.
+Diese Metrik wird mithilfe der `'Total Session length' / ('Launches' - 'First launches'` [Lebenszyklusmetriken](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) berechnet.

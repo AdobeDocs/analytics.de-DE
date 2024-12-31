@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Seite
 
-Die Dimension &quot;Seite&quot;[Dimension](overview.md) listet die Namen der Seiten auf Ihrer Site auf. Sie ist eine der am häufigsten verwendeten Dimensionen in Adobe Analytics, da sie Aufschluss darüber gibt, welche Seiten Ihrer Website die beste Leistung erbringen.
+Die Dimension [Seite](overview.md) listet die Namen von Seiten auf Ihrer Site auf. Sie ist eine der am häufigsten verwendeten Dimensionen in Adobe Analytics, da sie Aufschluss darüber gibt, welche Seiten Ihrer Website die beste Leistung erbringen.
 
 Diese Dimension hängt mit den Dimensionen [Website-Bereich](site-section.md) und [Server](server.md) zusammen. „Seite“ ist am detailliertesten, „Server“ am wenigsten detailliert und „Website-Bereich“ befindet sich zwischen den beiden.
 
@@ -20,7 +20,7 @@ Diese Dimension hängt mit den Dimensionen [Website-Bereich](site-section.md) un
 
 Diese Dimension ruft Daten aus der [`pageName`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in [Aufrufen von Seitenansichten (`t()`)](/help/implement/vars/functions/t-method.md) ab. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn die Abfragezeichenfolge `pageName` vorhanden ist.
 
-AppMeasurement erfasst diese Daten mit der [`pageName`](/help/implement/vars/page-vars/pagename.md)-Variable. Wenn die Variable `pageName` nicht festgelegt ist, verwendet diese Dimension die Variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md) .
+AppMeasurement erfasst diese Daten mit der [`pageName`](/help/implement/vars/page-vars/pagename.md)-Variable. Wenn die Variable `pageName` nicht festgelegt ist, wird diese Dimension auf die Verwendung der Variablen [`pageURL`](/help/implement/vars/page-vars/pageurl.md) zurückgesetzt.
 
 ## Dimensionselemente
 

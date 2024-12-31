@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie, wie Sie ein Berichtslayout, die Kopfzeilenformatierung und die Dimensionsfilterung für die Ausgabe konfigurieren.
-title: So konfigurieren Sie ein Berichtslayout
+description: Erfahren Sie, wie Sie ein Berichtslayout, eine Kopfzeilenformatierung und eine Dimensionsfilterung für die Ausgabe konfigurieren.
+title: Konfigurieren eines Berichts-Layouts
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
 role: User, Admin
