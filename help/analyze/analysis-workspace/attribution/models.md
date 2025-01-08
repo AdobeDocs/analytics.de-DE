@@ -4,10 +4,10 @@ description: Die Art und Weise, wie verschiedene Arten von Attribution Gewichtun
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 
 * **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Bei der Besucher-Lookback-Funktion werden alle Werte ab dem Monatsanfang des Datumsbereichs des Berichts berücksichtigt. Wenn der Datumsbereich des Berichts beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
 
-* **Benutzerdefiniertes Lookback-Fenster:** Ermöglicht Ihnen, das Attributionsfenster über den Datumsbereich des Berichts hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konversion im Berichtszeitraum ausgewertet. Beispiel: Bei einer Konversion am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Touchpoints der Dimension vom 10. bis 20. Februar im Attributionsmodell auswerten.
+* **Benutzerdefiniertes Lookback-Fenster:** Ermöglicht Ihnen, das Attributionsfenster über den Datumsbereich des Berichts hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konversion im Berichtszeitraum ausgewertet. Beispiel: Für eine Konversion am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimensions-Touchpoints vom 10. bis 20. Februar im Attributionsmodell auswerten.
 
   Im Folgenden finden Sie ein Video zu benutzerdefinierten Lookback-Fenstern:
 
@@ -76,6 +76,7 @@ Je nach Lookback-Fenster und Attributionsmodell erhalten Kanäle eine unterschie
       * E-Mail: 33,8 %, 16,88 Euro
       * Social Media: 18,6 %, 9,32 Euro
       * Paid Search: 13,8 %, 6,92 Euro
+* Bei Verwendung **Teilnahme** und eines **Besucher-Lookback-Fensters** werden die gesamten 50 USD Paid Search, Social, E-Mail und Display zugeordnet. Wenn Sie den Umsatz als Trend-Bericht und nicht als Rangbericht anzeigen, sehen Sie die 50 $ an jedem Tag, an dem der Besucher einen bestimmten Marketing-Kanal berührt hat.
 
 >[!TIP]
 >

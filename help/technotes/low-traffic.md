@@ -3,10 +3,10 @@ description: Wenn ein Bericht viele eindeutige Werte aufweist, verwendet Adobe d
 title: Wert „Geringer Datenverkehr“ in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -17,13 +17,13 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
 ## So funktioniert [!UICONTROL Geringer Traffic]
 
 * Adobe Analytics verwendet zwei Schwellenwerte, um zu bestimmen, welche eindeutigen Werte jeden Monat in Berichten angezeigt werden: einen **[!UICONTROL niedrigen Schwellenwert]** und einen **[!UICONTROL hohen Schwellenwert]**. Diese Schwellenwerte können von Zeit zu Zeit durch Adobe angepasst werden. Die aktuellen Schwellenwerte sind:
-   * **[!UICONTROL Niedriger Schwellenwert]**: > 2.000.000 eindeutige Werte im Monat.
-   * **[!UICONTROL Hoher Schwellenwert]**: > 2.100.000 eindeutige Werte im Monat.
-* Die Berichterstellung ist nicht betroffen, wenn die Variable in einem bestimmten Monat den niedrigen Schwellenwert nicht erreicht.
-* Wenn eine Variable den niedrigen Schwellenwert erreicht, werden die Daten unter [!UICONTROL Geringer Traffic] erfasst. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
+   * **[!UICONTROL Niedriger Schwellenwert]**: 2.000.000 eindeutige Werte während des Monats.
+   * **[!UICONTROL Hoher Schwellenwert]**: 2.100.000 eindeutige Werte während des Monats.
+* Die Berichterstellung ist nicht betroffen, wenn eine Variable den niedrigen Schwellenwert in einem bestimmten Monat nicht erreicht.
+* Wenn eine Variable den niedrigen Schwellenwert erreicht, werden Daten unter einem Dimensionselement mit der Bezeichnung [!UICONTROL Geringer Traffic“ ]. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
-   * Wenn ein Wert noch nicht in Berichten angezeigt wird, wird er im Dimensionselement [!UICONTROL Geringer Traffic] erfasst. 
-   * Wenn ein Wert, der unter [!UICONTROL Geringer Traffic] einen Zustrom von Traffic erhält (typischerweise Instanzen im zweistelligen Bereich an einem einzelnen Tag), wird er als eigenes Dimensionselement erkannt. Vor Erreichen des Schwellenwerts gesammelte Instanzen bleiben unter [!UICONTROL Geringer Traffic]. Der genaue Zeitpunkt, zu dem das Dimensionselement in Berichten angezeigt wird, weist viele Abhängigkeiten auf. Dazu gehören die Anzahl der Server, die Daten für die Report Suite verarbeiten, und die Zeitspanne zwischen den einzelnen Dimensionselementinstanzen.
+   * Wenn ein Wert noch nicht in Berichten angezeigt wird, fügen Sie ihn zunächst zum Dimensionselement [!UICONTROL Geringer Traffic] hinzu.
+   * Wenn ein Wert, der unter [!UICONTROL Geringer Traffic] zusammengefasst wird, einen Traffic-Zufluss erhält (normalerweise Instanzen im zweistelligen Bereich an einem Tag), erkennen Sie ihn als sein eigenes Dimensionselement. Instanzen, die vor dem Traffic-Zustrom erfasst wurden, verbleiben unter [!UICONTROL Geringer Traffic]. Der genaue Zeitpunkt, zu dem das Dimensionselement in Berichten angezeigt wird, weist viele Abhängigkeiten auf. Dazu gehören die Anzahl der Server, die Daten für die Report Suite verarbeiten, und die Zeitspanne zwischen den einzelnen Dimensionselementinstanzen.
 * Erreicht eine Variable den hohen Schwellenwert, wird eine aggressivere Filterung angewendet. Eindeutige Werte erfordern Instanzen im dreistelligen Bereich an einem Tag, bevor sie als eigenes Dimensionselement erkannt werden.
 
 Diese Logik ermöglicht es Adobe, die Berichterstellungsfunktionen zu optimieren, während Ihr Unternehmen weiterhin wichtige Dimensionselemente melden kann, die später im Monat erfasst werden. Wenn Ihr Unternehmen beispielsweise eine Site mit Millionen von Artikeln betreibt und gegen Ende des Monats ein neuer Artikel sehr nachgefragt ist (nachdem er beide eindeutigen Schwellenwerte überschritten hat), können Sie die Leistung dieses Artikels dennoch analysieren, ohne dass der Artikel unter [!UICONTROL Geringer Traffic] erfasst wird. Diese Logik strebt nicht an, alle Elemente aus dem Bucket entfernen, die eine bestimmte Anzahl von Seitenaufrufen pro Tag oder Monat erhalten.
@@ -31,7 +31,7 @@ Diese Logik ermöglicht es Adobe, die Berichterstellungsfunktionen zu optimieren
 >[!NOTE]
 >Die Dimension [Seite](../components/dimensions/page.md) verwendet mehrere Backend-Spalten, die alle auf eindeutige Schwellenwerte angerechnet werden, darunter `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url` und `click_context`. Diese Backend-Spalten können die Anwendung der Logik [!UICONTROL Geringer Traffic] verursachen, bevor die Anzahl der eindeutigen Dimensionselemente „Seite“ in Workspace den unteren Schwellenwert erreicht.
 
-Beachten Sie, dass die oben beschriebene Logik für geringen Traffic am besten mit Variablen funktioniert, die Dimensionselemente enthalten, die im Laufe des Monats häufig auftreten. Wenn die Dimensionselemente einer Variablen bei jedem Treffer nahezu oder vollständig eindeutig sind, erreicht die Variable schnell den unteren Schwellenwert, und alle neuen Dimensionselemente für den Monat gelangen in den Bucket „Geringer Traffic“.
+Beachten Sie, dass Logik mit geringem Traffic am besten mit Variablen funktioniert, die Dimensionselemente haben, die im Verlauf des Monats oft wiederkehren. Wenn die Dimensionselemente einer Variablen bei jedem Treffer fast oder vollständig eindeutig sind, erreicht die Anzahl der eindeutigen Werte der Variablen schnell beide Schwellenwerte und alle nachfolgenden Dimensionselemente für den Monat landen im Bereich für geringen Traffic.
 
 ## Ändern der Schwellenwerte für eindeutige Werte
 

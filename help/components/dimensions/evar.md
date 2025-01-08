@@ -3,10 +3,10 @@ title: eVar (Dimension)
 description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 82%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 *Auf dieser Hilfeseite wird beschrieben, wie eVars als [Dimension](overview.md) funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
 
-eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Solution-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, liegen die meisten unternehmensspezifischen Dimensionen schließlich als [!UICONTROL eVars] vor (zusätzlich zu der in Adobe Analytics verfügbaren Standarddimension, z. B. „Seitenname“, „Verweisende Domäne“ oder „Kanal“). Weitere Informationen finden Sie in der [Übersicht über Dimensionen](overview.md).
+eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsentwurfsdokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als [!UICONTROL eVars] angezeigt. Weitere Informationen finden Sie unter Übersicht ](overview.md) [Dimensionen .
 
-Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in den [!UICONTROL Report Suite-Einstellungen] anpassen. Unten finden Sie ein Beispiel für eVar-Definitionen in der Benutzeroberfläche für Konversionsvariablen.
+Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. EVar Weitere Informationen zur Funktionsweise der [-Persistenz auf der Adobe-Architektur finden Sie ](#how-evars-tie-to-metrics) den Abschnitten ](#how-evars-work)Funktionsweise von eVars“ und [Verknüpfung von eVars mit Metriken . Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in den [!UICONTROL Report Suite-Einstellungen] anpassen. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
 
 ![eVar-Beispiele](assets/evars-sample.png)
 
 Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-Die Groß- oder Kleinschreibung, die für die Berichterstellung verwendet wird, basiert auf dem ersten Wert, den das Backend-System registriert. Dieser Wert kann entweder die erste jemals erkannte Instanz sein oder je nach Zeitraum (z. B. monatlich) variieren, je nach der Vielfalt und Menge der mit der Report Suite verknüpften Daten.
+Die Groß- oder Kleinschreibung, die in Berichten verwendet wird, basiert auf dem ersten Wert, den Sie in einem bestimmten Kalendermonat senden. Die Groß-/Kleinschreibung kann sich je nach Berichtsfenster und dem Fall eines eVar-Werts ändern, der zuerst in diesem Zeitraum erfasst wurde.
 
 ## Füllen von eVars mit Daten
 
@@ -45,7 +45,7 @@ Die Spalte `post_evar` wird fast immer in Berichten verwendet.
 
 ### Verknüpfung von eVars mit Metriken
 
-Erfolgsereignisse und eVars werden häufig in verschiedenen Bildanforderungen definiert. In der Spalte `post_evar` können eVar-Werte mit Ereignissen verknüpft werden, sodass Daten in Berichten angezeigt werden. Nehmen Sie zum Beispiel den folgenden Besuch:
+Erfolgsereignisse und eVars werden häufig zu unterschiedlichen Zeiten definiert. In der Spalte `post_evar` können eVar-Werte mit Ereignissen verknüpft werden, sodass Daten in Berichten angezeigt werden. Nehmen Sie zum Beispiel den folgenden Besuch:
 
 1. Ein Besucher erreicht Ihre Site auf Ihrer Startseite.
 2. Sie suchen mithilfe der internen Suche Ihrer Site nach „cats“. Ihre Implementierung verwendet eVar1 für die interne Suche.
@@ -78,8 +78,10 @@ Die Tools in Adobe Analytics wie Analysis Workspace verarbeiten diese erfassten 
 
 Analysis Workspace ruft diesen Bericht mit der folgenden Logik ab:
 
-* Sehen Sie sich alle `event_list`-Werte an und wählen Sie alle Treffer aus, die `purchase` enthalten.
-* Zeigen Sie von diesen Treffern den `post_evar1`-Wert an.
+* Durchsuchen Sie alle `event_list` Werte und wählen Sie alle Zeilen mit `purchase` darin aus.
+* Zeigen Sie von diesen Zeilen den `post_evar1` an.
+
+Der resultierende Bericht zeigt jeden einzelnen Wert in `post_evar1` auf der linken Seite an und wie viele Bestellungen diesem Wert auf der rechten Seite zugeordnet wurden.
 
 ### Bedeutung von Zuordnung und Gültigkeit
 

@@ -4,9 +4,9 @@ description: Häufig gestellte Fragen zum Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 15%
 
 ---
@@ -203,7 +203,11 @@ Im Folgenden finden Sie einige Beispiele, bei denen Activity Map über alle erfo
 
 +++Was sind einige Beispiele für Links, die von Activity Map NICHT automatisch verfolgt werden?
 
-Im Folgenden finden Sie einige Beispiele, bei denen Activity Map Klicks nicht verfolgt.
+* Anker-Tag hat keine gültige `href`
+* Weder [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) noch [`tl()`](/help/implement/vars/functions/tl-method.md) Methode vorhanden
+* `src` Eigenschaft fehlt in einem Formulareingabeelement
+
+Im Folgenden finden Sie einige Beispiele, bei denen Activity Map Klicks nicht verfolgt:
 
 ```html
 <!-- Anchor tag does not have a valid href -->
