@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -259,7 +259,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 
 ## Nicht verwendete oder eingestellte Spalten
 
-Die folgende Liste mit Spalten wird nicht verwendet und enthält normalerweise keine Daten. Spalten, die keine Daten enthalten, werden von aktuellen Datenerfassungsbibliotheken nicht unterstützt und sind in Analysis Workspace nicht als Dimensionen verfügbar.
+Die folgende Liste von Spalten ist nicht verwendet, nicht mehr verwendet oder enthält anderweitig keinen Wert im Reporting. Einige dieser Spalten sind an Funktionen gebunden, die nicht mehr unterstützt werden, während andere aufgrund neuer und robusterer Funktionen nicht mehr benötigt werden. Die meisten dieser Spalten enthalten keine Daten. Spalten, die möglicherweise noch Daten enthalten, werden von aktuellen Datenerfassungsbibliotheken nicht unterstützt und sind in Analysis Workspace nicht für Dimensionen verfügbar.
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ Die folgende Liste mit Spalten wird nicht verwendet und enthält normalerweise k
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`

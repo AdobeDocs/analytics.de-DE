@@ -3,7 +3,7 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
 source-wordcount: '4128'
 ht-degree: 53%
@@ -15,12 +15,9 @@ ht-degree: 53%
 Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
 
 * Die Informationen über das Ziel, an das Rohdatendateien gesendet werden sollen
-
 * Die Daten, die in die einzelnen Dateien aufgenommen werden sollen
 
->[!NOTE]
->
->Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse zu Daten-Feeds verfügen und sicherstellen, dass Sie alle Voraussetzungen erfüllen. Weitere Informationen finden Sie unter [Übersicht über Daten-Feeds](data-feed-overview.md).
+Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse zu Daten-Feeds verfügen und sicherstellen, dass Sie alle Voraussetzungen erfüllen. Weitere Informationen finden Sie unter [Übersicht über Daten-Feeds](data-feed-overview.md).
 
 ## Erstellen und Konfigurieren eines Daten-Feeds
 
