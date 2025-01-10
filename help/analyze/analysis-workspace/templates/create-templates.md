@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 6%
+source-wordcount: '691'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,6 @@ So erstellen Sie eine neue Vorlage, die von Personen in Ihrem Anmeldeunternehmen
    | **[!UICONTROL Name]** | Geben Sie einen beschreibenden Namen für die Vorlage an. |
    | **[!UICONTROL Beschreibung]** | Geben Sie eine kurze Beschreibung für die Vorlage an, die ihre Verwendungszwecke beschreibt. |
    | **[!UICONTROL Warum diese Vorlage verwenden]** | Geben Sie eine kurze Erklärung ab, um Personen in der Organisation darüber zu informieren, wie diese Vorlage verwendet werden könnte. Diese Erklärung wird auf der Vorschauseite der Vorlage angezeigt. |
-   | **[!UICONTROL Kanäle]** | Wählen Sie alle Kanäle aus, die auf diese Vorlage zutreffen. Sie können mehrere Kanäle auswählen: **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-Channel]**, **[!UICONTROL Callcenter]** und **[!UICONTROL In-Store]**.<p>Die von Ihnen ausgewählten Auswahlmöglichkeiten bestimmen, wo die Vorlage angezeigt wird und welche Filter für Benutzer gelten, die über die Seite „Organisationsvorlagen“ darauf zugreifen.</p> |
    | **[!UICONTROL Anwendungsbeispiele]** | Wählen Sie alle Anwendungsfälle aus, die für diese Vorlage gelten. Sie können mehrere Anwendungsfälle auswählen: **[!UICONTROL Interaktion]**, **[!UICONTROL Konversion]**, **[!UICONTROL Audience]** und **[!UICONTROL Akquise]**. <p>Die von Ihnen ausgewählten Auswahlmöglichkeiten bestimmen, wo die Vorlage angezeigt wird und welche Filter für Benutzer gelten, die über die Seite „Organisationsvorlagen“ darauf zugreifen.</p> |
    | **[!UICONTROL Tags]** | Geben Sie alle Tags an, die Sie auf die Vorlage anwenden möchten. Benutzer können die Liste der Vorlagen nach den von Ihnen hinzugefügten Tags filtern. |
 
@@ -44,7 +43,7 @@ So erstellen Sie eine neue Vorlage, die von Personen in Ihrem Anmeldeunternehmen
 
 Informationen dazu, wie Benutzer ein Projekt basierend auf einer Vorlage erstellen können, finden Sie unter [Erstellen eines Projekts basierend auf einer Vorlage](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) in [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md).
 
-## Bearbeiten oder Löschen von Vorlagen
+## Bearbeiten oder Löschen einer Vorlage
 
 Admins können Unternehmensvorlagen bearbeiten oder löschen.
 
@@ -71,6 +70,22 @@ Admins können Unternehmensvorlagen bearbeiten oder löschen.
    1. Wählen Sie das Symbol Mehr und dann **[!UICONTROL Bearbeiten]** oder **[!UICONTROL Löschen]**.
 
       ![Bearbeiten oder Löschen der Karte „Unternehmensvorlage“](assets/company-template-card-edit-delete.png)
+
+1. Wenn Sie eine Vorlage bearbeiten, nehmen Sie die gewünschten Änderungen vor und klicken Sie auf [!UICONTROL **Projekt**] > **[!UICONTROL Als Vorlage speichern…]**.
+
+   ![Unternehmensvorlage](assets/company-template-save.png)
+
+1. Geben Sie im Dialogfeld [!UICONTROL Als Vorlage speichern] folgende Informationen ein:
+
+   | Feld | Beschreibung |
+   |---------|----------|
+   | **[!UICONTROL Name]** | Geben Sie einen beschreibenden Namen für die Vorlage an. |
+   | **[!UICONTROL Beschreibung]** | Geben Sie eine kurze Beschreibung für die Vorlage an, die ihre Verwendungszwecke beschreibt. |
+   | **[!UICONTROL Warum diese Vorlage verwenden]** | Geben Sie eine kurze Erklärung ab, um Personen in der Organisation darüber zu informieren, wie diese Vorlage verwendet werden könnte. Diese Erklärung wird auf der Vorschauseite der Vorlage angezeigt. |
+   | **[!UICONTROL Anwendungsbeispiele]** | Wählen Sie alle Anwendungsfälle aus, die für diese Vorlage gelten. Sie können mehrere Anwendungsfälle auswählen: **[!UICONTROL Interaktion]**, **[!UICONTROL Konversion]**, **[!UICONTROL Audience]** und **[!UICONTROL Akquise]**. <p>Die von Ihnen ausgewählten Auswahlmöglichkeiten bestimmen, wo die Vorlage angezeigt wird und welche Filter für Benutzer gelten, die über die Seite „Organisationsvorlagen“ darauf zugreifen.</p> |
+   | **[!UICONTROL Tags]** | Geben Sie alle Tags an, die Sie auf die Vorlage anwenden möchten. Benutzer können die Liste der Vorlagen nach den von Ihnen hinzugefügten Tags filtern. |
+
+1. Wählen Sie [!UICONTROL **Als Vorlage speichern**].
 
 ## Vorlagen umbenennen, taggen oder genehmigen
 
