@@ -4,14 +4,32 @@ title: Lineardiagramm
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Lineardiagramm
+# Lineardiagramm {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="Zielwert"
+>abstract="**[!UICONTROL Hohes Ziel]** entspricht dem angestrebten Hauptziel. Mit **[!UICONTROL Niedriges Ziel]** und **[!UICONTROL Mittleres Ziel]** werden Bereiche unterhalb des Zielwerts [!UICONTROL Hohes Ziel] erstellt. Hinweis: Wenn die Option **[!UICONTROL Prozentsatz]** aktiviert ist, geben Sie Ziele als Ganzzahlen ein, z. B. `20`, wenn Ihr Ziel zwanzig Prozent ist."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="Horizontales Säulendiagramm"
+>abstract="Erstellen Sie eine Visualisierung als horizontales Säulendiagramm, um anzuzeigen, wie eine Metrik gegenüber Leistungsbereichen (Zielen) abschneidet."
+
+<!-- markdownlint-enable MD034 -->
 
 Schauen wir uns einmal an, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt.
 
