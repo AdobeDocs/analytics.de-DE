@@ -3,13 +3,11 @@ description: Eine Übersicht über die Verwendung von Standardberichten in Analy
 title: Arbeiten mit Berichten
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ Administratoren können Unternehmensvorlagen umbenennen, taggen und genehmigen.
 Wie bei Vorlagen, die vom Adobe bereitgestellt werden, können Benutzende in der Organisation auf Vorlagen zugreifen, die Administratoren erstellen.
 
 Informationen zum Zugriff auf eine Unternehmensvorlage finden Sie unter [Zugriff auf und Ausführen einer Vorlage](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) unter [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Ausblenden der Registerkarte Vorlagen {#hide-reports}
+
+Admins können die Registerkarte Vorlagen für alle Benutzenden in ihrer Organisation ausblenden.
+
+1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Komponenten]** > **[!UICONTROL Voreinstellungen]** > **[!UICONTROL Firma]**.
+1. Wählen Sie die Option **[!UICONTROL Registerkarte „Vorlagen“]**.
