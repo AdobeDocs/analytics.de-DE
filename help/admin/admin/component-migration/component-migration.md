@@ -3,9 +3,9 @@ description: Erläutert das Migrieren von Komponenten und Projekten von Adobe An
 title: Migrieren von Komponenten und Projekten aus Adobe Analytics nach Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
+source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1501'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,13 @@ Der Migrationsvorgang umfasst:
   Einige Dimensionen und Metriken werden automatisch zugeordnet; andere müssen im Rahmen des Migrationsprozesses manuell zugeordnet werden. Segmente werden ebenfalls migriert, müssen jedoch nicht im Rahmen des Migrationsprozesses zugeordnet werden.
 
   Alle migrierten Komponenten werden nach Abschluss der Migration in der Migrationszusammenfassung angezeigt.
+
+>[!NOTE]
+>
+>Die Informationen auf dieser Seite beschreiben, wie Sie Projekte und die zugehörigen Komponenten mit der Benutzeroberfläche migrieren.
+>
+>Alternativ können Sie die Migration mithilfe der APIs durchführen. Weitere Informationen finden Sie in den [Adobe Analytics-APIs](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Alle API-Definitionen sind im Dropdown-Menü **[!UICONTROL Definition auswählen]** verfügbar.
+
 
 ## Vorbereiten der Migration
 
