@@ -4,122 +4,204 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
+source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 54%
+source-wordcount: '2156'
+ht-degree: 57%
 
 ---
 
 # Übersicht über Bedienfelder
 
-Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können über das Symbol oben links in Arbeitsbereich oder über ein [leeres Bedienfeld](blank-panel.md) auf Bedienfelder zugreifen. Panels sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Analysen ordnen möchten. 
+Ein [!UICONTROL Bedienfeld] ist eine Sammlung von Tabellen und Visualisierungen. Sie können über das Symbol oben links in Arbeitsbereich oder über ein [leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) auf Bedienfelder zugreifen. Panels sind hilfreich, wenn Sie Ihre Projekte nach Zeiträumen, Report Suites oder Analysen ordnen möchten. 
 
 ## Bedienfeldtypen
 
-Die folgenden Bedienfeldtypen sind in Analysis Workspace verfügbar:
+Die folgenden Bedienfeldtypen sind in Analysis Workspace für [!UICONTROL Customer Journey Analytics] verfügbar:
 
 | Name des Bedienfelds | Beschreibung |
 | --- | --- |
-| [Leeres Bedienfeld](blank-panel.md) | Wählen Sie zum Beginnen Ihrer Analyse aus den verfügbaren Bedienfeldern und Visualisierungen. |
-| [Bedienfeld „Quick Insights“](quickinsight.md) | Sie können rasch eine Freiformtabelle und eine entsprechende Visualisierung erstellen, um Einblicke schneller zu analysieren und bereitzustellen. |
-| [Analytics for Target-Bedienfeld](a4t-panel.md) | Target-Aktivitäten und Erlebnisse in Analysis Workspace analysieren. |
-| [Attributionsbedienfeld](attribution.md) | Vergleichen und visualisieren Sie im Handumdrehen eine beliebige Anzahl von Attributionsmodellen unter Verwendung verschiedener Dimensionen und Konversionskennzahlen. |
-| [Freiform-Bedienfeld](freeform-panel.md) | Führen Sie unbegrenzte Vergleiche und Aufschlüsselungen durch und fügen Sie dann Visualisierungen hinzu, um eine ausführliche Story mit den Daten zu erzählen. |
-| [Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“](average-minute-audience-panel.md) | Analysieren Sie die durchschnittliche Besucherzahl pro Minute im Laufe der Zeit, einschließlich Details zu Spitzenwerten und der Möglichkeit, diese aufzuschlüsseln und zu vergleichen. |
-| [Bedienfeld „Gleichzeitige Medienbetrachter“](media-concurrent-viewers.md) | Analysieren Sie gleichzeitige Betrachter über einen längeren Zeitraum. Sie erhalten Details zum maximalen gleichzeitigen Zugriff und die Möglichkeit, aufzuschlüsseln und zu vergleichen. |
-| [Bedienfeld „Mit Medienwiedergabe verbrachte Zeit“](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analysieren Sie gleichzeitige Betrachter über einen längeren Zeitraum. Sie erhalten Details zum maximalen gleichzeitigen Zugriff und die Möglichkeit, aufzuschlüsseln und zu vergleichen. |
-| [Bedienfeld „Segmentvergleich“](c-segment-comparison/segment-comparison.md) | Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln. |
+| [Leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | Wählen Sie zum Beginnen Ihrer Analyse aus den verfügbaren Bedienfeldern und Visualisierungen. |
+| [Attribution](attribution.md) | Vergleichen und visualisieren Sie im Handumdrehen eine beliebige Anzahl von Attributionsmodellen unter Verwendung verschiedener Dimensionen und Konversionskennzahlen. |
+| [Analytics for Target](a4t-panel.md) | Target-Aktivitäten und Erlebnisse in Analysis Workspace analysieren. |
+| [Freiform](freeform-panel.md) | Führen Sie unbegrenzt Vergleiche und Aufschlüsselungen durch und fügen Sie dann Visualisierungen hinzu, um eine ausführliche Story mit den Daten zu erzählen. |
+| [Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md) | Analysieren Sie den Zielgruppendurchschnitt pro Minute für einen bestimmten Inhalt oder für einen benutzerdefinierten Zeitraum. |
+| [Gleichzeitige Medienbetrachtende](media-concurrent-viewers.md) | Analysieren Sie gleichzeitige Betrachtende über einen längeren Zeitraum. Sie erhalten Details zum maximalen gleichzeitigen Zugriff und die Möglichkeit, aufzuschlüsseln und zu vergleichen. |
+| [Verbrachte Zeit bei der Medienwiedergabe](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analysieren Sie die Wiedergabedauer, um nachzuvollziehen, wo Spitzenzeiten bei gleichzeitigen Ansichten auftreten oder wo es zu Abbrüchen kommt. |
+| [Nächstes oder vorheriges Objekt](next-previous.md) | Zeigen Sie die nächsten oder vorherigen Seiten an, zu denen Personen navigieren. |
+| [Quick Insights](quickinsight.md) | Erstellen Sie im Nu eine Freiformtabelle und eine entsprechende Visualisierung, um Erkenntnisse schneller zu analysieren und bereitzustellen. |
+| [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln. |
 
-![](assets/panel-overview.png)
 
-Die Bedienfelder [!UICONTROL Quick Insights], [!UICONTROL Leer] und [!UICONTROL Freiform] eignen sich hervorragend als Ausgangspunkt für Ihre Analyse. [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Media Concurrent Viewers] und [!UICONTROL Segmentvergleich] eignen sich für erweiterte Analysen. In Projekten steht eine `"+"`-Schaltfläche zur Verfügung, mit der Sie jederzeit leere Bedienfelder hinzufügen können.
+Die Bedienfelder [!UICONTROL Quick Insights], [!UICONTROL Leer] und [!UICONTROL Freiform] eignen sich hervorragend als Ausgangspunkt für Ihre Analyse. [!UICONTROL Attribution] bietet sich hingegen für erweiterte Analysen an. Unten auf der Arbeitsfläche ist das Symbol ![Hinzufügen](/help/assets/icons/AddCircle.svg) verfügbar, durch das Sie jederzeit leere Bedienfelder hinzufügen können.
 
-Das standardmäßige Startbedienfeld ist das [!UICONTROL Freiform-]Bedienfeld. Sie können jedoch auch das [leere Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) als Standard festlegen.
+Das standardmäßige Startbedienfeld ist das Bedienfeld [!UICONTROL Freiform]. Sie können jedoch auch das Bedienfeld [Leer](/help/analyze/analysis-workspace/c-panels/blank-panel.md) oder [Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) als Standard festlegen. Siehe [Voreinstellungen für Projekte und Analysen](/help/analyze/analysis-workspace/user-preferences.md#projects--analyses-preferences).
 
-## Report Suite {#report-suite}
 
-Tabellen und Visualisierungen innerhalb eines Bedienfelds leiten Daten von der [!UICONTROL Report Suite] ab, die oben rechts im Bedienfeld ausgewählt wurde. Von der Report Suite hängt auch ab, welche Komponenten in der linken Leiste verfügbar sind. In einem Projekt können Sie je nach Anwendungsfällen Ihrer Analyse eine oder [viele Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de) verwenden. Um eine einzelne Report Suite auf alle Bedienfelder in einem Projekt anzuwenden, **klicken Sie mit der rechten Maustaste auf die Bedienfeldkopfzeile > „Report Suite auf alle Bedienfelder anwenden“**.
+## Erstellen eines Bedienfelds
+
+So erstellen Sie ein Bedienfeld:
+
+* Ziehen Sie ein Bedienfeld aus dem linken Bedienfeld **[!UICONTROL Bedienfelder]** auf Ihre Arbeitsfläche.
+* Wählen Sie ein Bedienfeld aus dem Bedienfeld [Leer](blank-panel.md) aus.
+* Verwenden Sie das Menü **[!UICONTROL Einfügen]** in Workspace und wählen Sie Ihr Bedienfeld aus. Alternativ können Sie Bedienfelder mit einem der [Tastaturbefehle](../build-workspace-project/fa-shortcut-keys.md) einfügen.
+
+  ![Erstellen eines Bedienfelds](assets/create-panel.png)
+
+Sie haben folgende Möglichkeiten:
+
+* Wählen Sie das Symbol ![Hinzufügen](/help/assets/icons/AddCircle.svg) **in** einem beliebigen Bedienfeld aus, um eine weitere Visualisierung hinzuzufügen. Es wird ein Popup angezeigt, in dem Sie eine Visualisierung auswählen können.
+
+  ![Popup mit möglichen Visualisierungen](assets/blank-panel.png)
+
+  | Auswahl | Erstelltes Element |
+  |---|---|
+  | ![Tabelle](/help/assets/icons/Table.svg) | [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![Linie](/help/assets/icons/GraphTrend.svg) | [Linie](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![VertikaleGrafikbalken](/help/assets/icons/GraphBarVertical.svg) | [Balken](/help//analyze/analysis-workspace/visualizations/bar.md) |
+  | ![123](/help/assets/icons/123.svg) | [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Text](/help/assets/icons/Text.svg) | [Text](/help/analyze/analysis-workspace/visualizations/text.md) |
+  | ![Konversionstrichter](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![Arbeitsablauf](/help/assets/icons/GraphPathing.svg) | [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![Stapeldiagramm](/help/assets/icons/GraphAreaStacked.svg) | [Bereiche gestapelt](/help/analyze/analysis-workspace/visualizations/area.md) |
+  | ![NummerierterText](/help/assets/icons/TextNumbered.svg) | [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![Aufzählungspunkte](/help/assets/icons/GraphBullet.svg) | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![Ringdiagramm](/help/assets/icons/GraphDonut.svg) | [Ringdiagramm](/help/analyze/analysis-workspace/visualizations/donut.md) |
+  | ![NachObenUnten](/help/assets/icons/MoveUpDown.svg) | [Zusammenfassungsänderung](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Histogramm](/help/assets/icons/Histogram.svg) | [Histogramm](/help/analyze/analysis-workspace/visualizations/histogram.md) |
+  | ![Streudiagramm](/help/assets/icons/GraphScatter.svg) | [Streuung](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
+  | ![Typ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) |
+  | ![Baumdiagramm](/help/assets/icons/GraphTree.svg) | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) |
+
+* Wählen Sie ![Kreis hinzufügen](/help/assets/icons/AddCircle.svg) **außerhalb** des letzten Panels in Ihrem Arbeitsbereich aus, um ein weiteres [leeres Panel](blank-panel.md) hinzuzufügen.
+
+
+## Report Suite
+
+Jedes Bedienfeld ist mit einer [Report Suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) verknüpft, die durch ![Daten](/help/assets/icons/Data.svg) **[!UICONTROL *Name der Report Suite *]**im Dropdown-Menü oben rechts im Bedienfeld identifiziert wird.
+
+Wenn Sie ein neues Bedienfeld erstellen, basiert die standardmäßige Report Suite auf der Report Suite des Bedienfelds, an dem Sie zuletzt im Analysis Workspace-Projekt gearbeitet haben.
+
+In einem Projekt können Sie je nach Anwendungsfällen Ihrer Analyse eine oder [viele Report ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de)&quot; verwenden.
 
 Die Liste der Report Suites ist nach Relevanz sortiert, die Adobe danach definiert, wie kürzlich und häufig die Suite vom aktuellen Benutzer verwendet wurde und wie häufig die Suite innerhalb der Organisation eingesetzt wird.
 
 ![](assets/panel-report-suite.png)
 
-## Kalender {#calendar}
+>[!IMPORTANT]
+>
+>Die ausgewählte Report Suite bestimmt, welche Dimensionen, Metriken und Segmente für die Erstellung von Visualisierungen in einem Bedienfeld verfügbar sind.
+>
+>
+>Wenn Sie eine Report Suite für ein Bedienfeld wechseln, sind einige der Komponenten möglicherweise nicht in dieser neuen Report Suite verfügbar. Diese Änderung kann dazu führen, dass Ihre Visualisierung nicht ordnungsgemäß gerendert wird. Möglicherweise werden Warnungen wie diese angezeigt:
+>
+>* Dieses Bedienfeld enthält Komponenten, die in der ausgewählten Report Suite nicht aktiviert sind. Ändern Sie die Report Suite oder aktivieren Sie die erforderlichen Komponenten in der Report Suite.
+>* Visualisierung kann nicht gerendert werden: Überprüfen Sie Ihre Spalten und Zeilen, um sicherzustellen, dass sie gültige Komponenten enthalten.
+>
 
-Über den Panel-Kalender wird der Reporting-Bereich für Tabellen und Visualisierungen innerhalb eines Panels festgelegt.
+## Kalender
+
+Der Panel-Kalender steuert den Reporting-Datumsbereich für Tabellen und Visualisierungen innerhalb eines Panels.
 
 >[!NOTE]
->Wenn in einer Tabelle, Visualisierung oder dem Ablegebereich eines Panels eine (violette) Datumsbereichskomponente verwendet wird, überschreibt sie den Panel-Kalender.
+>
+>Wenn eine ![Kalender](/help/assets/icons/Calendar.svg)-Datumsbereichskomponente in einer Visualisierung oder einem Bedienfeld verwendet wird (z. B. als Segment), überschreibt die Datumsbereichskomponente den Bedienfeldkalender.
+>
 
-![](assets/panel-calendar.png)
 
-Sie können unter den erweiterten Einstellungen Ihres Bedienfeldkalenders einen Datumsbereich auf Minutenebene anwenden. Wenn Sie Berichte zu einem Datumsbereich erstellen, der viele Tage umfasst, gilt als Startzeit der erste Tag und als Endzeit der letzte Tag in Ihrem Bereich.
+![Das Kalenderfenster mit dem ausgewählten Datumsbereich.](assets/panel-calendar.png)
+
+1. Wählen Sie einen Datumsbereich aus, indem Sie zuerst das Startdatum und dann das Enddatum auswählen.
+Alternativ können Sie eine **[!UICONTROL Voreinstellung]** aus dem Dropdown-Menü [!UICONTROL *Voreinstellung auswählen*] auswählen.
+
+1. Wählen Sie optional **[!UICONTROL Erweiterte Einstellungen einblenden]** für Folgendes aus:
+
+   * Geben Sie eine andere **[!UICONTROL Startzeit]** und **[!UICONTROL Endzeit]** als die Standardwerte `12:00 AM` (`0:00`) und `11:59 PM` (`23:59`) an. Endzeiten umfassen immer 59 Sekunden. Für einen Datumsbereich, der viele Tage umfasst, gilt die Startzeit für den ersten Tag des Datumsbereichs und die Endzeit gilt für den letzten Tag in Ihrem Datumsbereich. Verwenden Sie **[!UICONTROL (Zeitwerte zurücksetzen)]**, um die Start- und Endzeit auf ihre Standardwerte zurückzusetzen.
+   * **[!UICONTROL Erstellen von Datumsbereichskomponenten relativ zum Panel-Kalender]**. Wenn diese Option deaktiviert ist, beziehen sich die im Bedienfeld verwendeten Datumsbereichskomponenten auf die aktuelle Zeit. Wenn diese Option aktiviert ist, beziehen sich die im Bedienfeld verwendeten Datumsbereichskomponenten auf den Kalender des Bedienfelds.
+   * **[!UICONTROL Rollierende Termine verwenden]**. Wenn diese Option aktiviert ist, werden voreingestellte Datumsbereiche wie **[!UICONTROL Letzte 7 volle Tage]** dynamisch als aktueller Datums- und Uhrzeitfortschritt aktualisiert. Wenn diese Option deaktiviert ist, werden diese Vorgaben nach der Anwendung nicht aktualisiert.
+
+     ![Rollierende Datumswerte](assets/calendar-rolling.png)
+
+     Sie können den Text in eckigen Klammern auswählen (z. B. **[!UICONTROL Festgelegter Start – täglich rollierend]**), um das Bedienfeld zu erweitern und Details für **[!UICONTROL Start]** und **[!UICONTROL Ende]** anzugeben.
+
+      1. Wählen Sie **[!UICONTROL Anfang von]**, **[!UICONTROL Ende von]** oder **[!UICONTROL Festgelegter Tag]** aus.
+      1. Wenn Sie **[!UICONTROL Anfang von]** oder **[!UICONTROL Ende von]** ausgewählt haben, können Sie einen vollständigen Ausdruck erstellen. Beispiel: **[!UICONTROL Ende von]** **[!UICONTROL Aktuelles Jahr]** **[!UICONTROL plus]** `1` **[!UICONTROL Tag]**. Wählen Sie den entsprechenden Wert für jeden einzelnen Teil des Ausdrucks aus.
+         * Wählen Sie einen Wert für den aktuellen Zeitraum aus, z. B. **[!UICONTROL Aktuelles Jahr]**.
+         * Wählen Sie einen Wert für die zusätzliche Berechnung aus, z. B. **[!UICONTROL plus]**.
+         * Wenn Sie eine zusätzliche Berechnung angegeben haben, geben Sie einen Wert an. Zum Beispiel `1`.
+         * Wenn Sie eine zusätzliche Berechnung angegeben haben, wählen Sie den Zeitraum aus, der für die Berechnung verwendet werden soll, z. B. **[!UICONTROL Tag]**.
+
+     Wählen Sie **[!UICONTROL Details ausblenden]** aus, um die Details für die Berechnung rollierender Termine auszublenden.
+
+1. Wählen Sie **[!UICONTROL Übernehmen]** aus, um den Datumsbereich auf das Bedienfeld anzuwenden, über das der Kalender aufgerufen wurde.
+Wählen Sie **[!UICONTROL Auf alle Panels anwenden]** aus, um den Datumsbereich auf alle Panels im Workspace-Projekt anzuwenden.
+
 
 ## Ablegebereich {#dropzone}
 
-Mit dem Ablegebereich eines Panels können Sie Segment- und Dropdown-Filter auf alle Tabellen und Visualisierungen innerhalb des Panels anwenden. Sie können einen oder mehrere Filter auf ein Bedienfeld anwenden.
+Mit dem Ablagebereich des Bedienfelds können Sie Segmente und Dropdown-Segmente auf alle Tabellen und Visualisierungen innerhalb des Bedienfelds anwenden. Sie können ein oder mehrere Segmente auf ein Bedienfeld anwenden.
 
-### Segmentfilter
+### Segmente 
 
-Ziehen Sie beliebige Segmente aus der linken Leiste in den Ablagebereich des Bedienfelds, um mit dem Filtern des Bedienfelds zu beginnen. Wiederholen Sie diesen Vorgang, um dem Bedienfeld weitere Filter hinzuzufügen. Filter werden oben im Bedienfeld nebeneinander angezeigt.
+Ziehen Sie beliebige Segmente aus dem linken Bedienfeld in den Ablagebereich des Bedienfelds, um mit der Segmentierung Ihres Bedienfelds zu beginnen. Wiederholen Sie diesen Vorgang, um dem Bedienfeld weitere Segmente hinzuzufügen. Segmente werden nebeneinander oben im Bedienfeld angezeigt.
 
-![Filter](assets/segment-filter.png)
+![Das linke Bedienfeld mit verfügbaren Metriken und der in den Ablegebereich des Bedienfelds gezogenen Metrik für mobile Kundschaft](assets/segment-filter.png)
 
-### Ad-hoc-Segmentfilter
+#### Schnellsegmente
 
-Komponenten, die keine Segmente sind, können auch direkt in den Ablagebereich gezogen werden, um Ad-hoc-Segmente zu erstellen, sodass Sie sich das mühsame Aufrufen von Segment Builder ersparen. Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Trefferebene definiert. Diese Definition kann geändert werden, indem Sie auf das Informationssymbol (i) neben dem Segment und dann auf das stiftförmige Bearbeitungssymbol klicken und sie in Segment Builder bearbeiten.
+Komponenten, die keine Segmente sind, können auch direkt in den Ablagebereich gezogen werden, um Schnellsegmente zu erstellen, wodurch Sie sich das mühsame Aufrufen von „Segment [&quot; ](/help/components/segmentation/segmentation-workflow/seg-build.md). Auf diese Weise erstellte Segmente werden automatisch als Segmente auf Ereignisebene definiert. Diese Definition kann schnell geändert werden, indem Sie ![Bearbeiten](/help/assets/icons/Edit.svg) neben dem Segmentnamen auswählen.
 
-Ad-hoc-Segmente sind eine Art von Schnellsegmenten und lokal im Projekt verfügbar. Sie werden nicht in der linken Leiste angezeigt, es sei denn, Sie machen sie öffentlich.
+<!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
-Weitere Informationen finden Sie unter [Schnellsegmente](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+![Ad-hoc-Segmente, die veröffentlicht und in der Ablagefläche abgelegt werden.](assets/adhoc-segment-filter.png)
 
-### Statische Dropdown-Segmente
+### Dropdown-Segmente
+
++++ Video zur Erläuterung von Dropdown-Segmenten anzeigen
+
+>[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+
++++
+
+#### Statische Dropdown-Segmente
 
 Statische Dropdown-Segmente ermöglichen eine kontrollierte Interaktion mit den Daten. Sie können beispielsweise ein Dropdown-Segment für Typen von Mobilgeräten hinzufügen, damit Sie das Bedienfeld nach Tablet, Mobiltelefon oder Desktop segmentieren können.
 
 Statische Dropdown-Segmente können auch verwendet werden, um viele Projekte zu einem zusammenzufassen. Wenn Sie beispielsweise viele Versionen desselben Projekts mit unterschiedlichen Ländersegmenten angewendet haben, können Sie alle Versionen in einem Projekt zusammenfassen und ein Dropdown-Segment Land hinzufügen.
 
-![](assets/dropdown-filter-intro.png)
+![Statische Dropdown-Segmente mit hervorgehobenem Filter „Direkt“ für den Marktkanal. ](assets/dropdown-filter-intro.png)
 
-#### Erstellen statischer Dropdown-Segmente
+##### Erstellen statischer Dropdown-Segmente
 
-* Bei Dropdown-Segmenten, die Dimensionselemente verwenden, wählen Sie eine einzelne Dimension aus der linken Leiste aus und legen Sie sie im Ablagebereich des Bedienfelds ab **während Sie`[Shift]`** gedrückt halten. Dadurch wird ein Dropdown-Segment mit allen Dimensionselementen erstellt, die mit dieser Dimension verknüpft sind.
+* Bei Dropdown-Segmenten, die Dimensionselemente verwenden, wählen Sie eine einzelne Dimension aus dem linken Bereich und legen Sie die Dimension in der Ablagefläche des Bereichs ab, während Sie die ⇧ gedrückt halten *Umschalt*. Diese Aktion erstellt ein Dropdown-Segment mit allen Dimensionselementen, die mit dieser Dimension verknüpft sind.
 
-  Wenn das Dropdown-Segment nur bestimmte Dimensionselemente enthalten soll, die mit einer Dimension verknüpft sind, klicken Sie auf das Pfeil-nach-rechts-Symbol neben der gewünschten Dimension in der linken Leiste. Diese Aktion legt alle verfügbaren Dimensionselemente offen. Wählen Sie mithilfe von `[Shift + Click]` oder `[Ctrl + Click]` mehrere Dimensionselemente aus dieser Liste aus und legen Sie sie dann im Ablegebereich des Bedienfelds ab, **während** Sie `[Shift]` gedrückt halten.
+  Wenn das Dropdown-Segment nur bestimmte Dimensionselemente enthalten soll, die mit einer Dimension verknüpft sind, wählen Sie im linken Bedienfeld das Nach-rechts-Symbol neben der gewünschten Dimension aus. Durch diese Aktion werden alle verfügbaren Dimensionselemente offengelegt. Wählen Sie mithilfe von ⇧+![Auswählen](/help/assets/icons/Select.svg) (*Umschalt* + *Auswählen*) oder ^+![Auswählen](/help/assets/icons/Select.svg) (*Steuerung* + *Auswählen*) mehrere Dimensionselemente aus dieser Liste aus und legen Sie sie dann bei im Ablegebereich des Panels ab, **während Sie ⇧ gedrückt halten**.
 
-* Wählen Sie für Dropdown-Segmente, die einen einzelnen Komponententyp verwenden (z. B. nur Dimensionen oder nur Segmente oder nur Metriken), in der linken Leiste mithilfe von `[Shift + Click]` oder `[Ctrl + Click]` mehrere Elemente desselben Typs aus und legen Sie sie dann im Ablagebereich des Bedienfelds ab **während Sie`[Shift]`** gedrückt halten.
+* Wählen Sie für Dropdown-Segmente, die einen einzelnen Komponententyp verwenden (z. B. nur Dimensionen, nur Segmente oder nur Metriken), im linken Bereich mehrere Elemente desselben Typs mit ⇧+![Auswählen](/help/assets/icons/Select.svg) oder ^+![Auswählen](/help/assets/icons/Select.svg). Legen Sie die Elemente dann im Ablegebereich des Panels ab, **während Sie ⇧ gedrückt halten**.
 
   Ein einzelnes Dropdown-Segment wird mit ausgewählten Komponenten erstellt.
 
-* Wählen Sie für Dropdown-Segmente, die einen Mix aus Komponententypen verwenden (z. B. zwei Metriken und drei Filter), mehrere Komponenten mit `[Shift + Click]` oder `[Ctrl + Click]` aus. Legen Sie die Auswahl im Ablegebereich des Bedienfelds ab, **während Sie`[Shift]`** gedrückt halten. In diesem Kontext werden alle Komponententypen als separate Dropdown-Segmente behandelt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl einbeziehen, werden zwei separate Dropdown-Segmente erstellt: eines der Dropdown-Segmente enthält Dimensionselemente und das andere enthält Metriken.
+* Bei Dropdown-Segmenten, die einen Mix von Komponententypen verwenden (z. B. 2 Metriken und 3 Segmente), wählen Sie mehrere Komponenten mit ⇧+![Auswählen](/help/assets/icons/Select.svg) oder ^+![Auswählen](/help/assets/icons/Select.svg). Legen Sie die Auswahl im Ablegebereich des Panels ab, **während Sie ⇧ gedrückt halten**. In diesem Kontext werden alle Komponententypen als separate Dropdown-Segmente behandelt. Wenn Sie beispielsweise sowohl Metriken als auch Dimensionselemente in Ihre Auswahl einbeziehen, werden zwei separate Dropdown-Segmente erstellt: ein Dropdown-Segment enthält Dimensionselemente und das andere enthält Metriken.
 
-  ![Das Bedienfeldfenster mit dem Feld Mobile-Kundensegment , das zum Ablegen eines statischen Dropdown-Segments verfügbar ist. ](assets/create-dropdown.png)
-
-Wenn Sie mit der rechten Maustaste auf ein Dropdown-Segment klicken, erhalten Sie die folgenden Optionen:
+Ein Dropdown-Segment bietet die folgenden Kontextmenüoptionen:
 
 * **[!UICONTROL Dropdown löschen]**: Entfernt das Dropdown-Segment aus dem Bedienfeld.
-* **[!UICONTROL Bezeichnung löschen]**: Entfernen des Textes über einem Dropdown-Segment. Wählen Sie zum Ändern des Labels das Stiftsymbol aus.
+* **[!UICONTROL Bezeichnung löschen]**: Entfernen des Textes, der über einem Dropdown-Segment angezeigt wird. Um die Bezeichnung zu ändern, bewegen Sie den Mauszeiger über die Bezeichnung und wählen Sie ![Bezeichnung des Dropdown-Segments bearbeiten](/help/assets/icons/Edit.svg) aus.
 * **[!UICONTROL Beschriftung hinzufügen]**: Wenn Sie einem Projekt ein Dropdown-Segment hinzufügen, wird eine Beschriftung automatisch auf den Komponentennamen festgelegt. Wenn Sie den Titel löschen, können Sie ihn mit dieser Option erneut hinzufügen.
 * **[!UICONTROL Auswahl erforderlich]**: Erfordert, dass ein Segment im Bedienfeld festgelegt wird.
 
-[Sehen Sie sich das Video an](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=de), um mehr über das Hinzufügen von Dropdown-Filtern zu Ihrem Projekt zu erfahren.
+##### Verwenden von statischen Dropdown-Segmenten
 
-#### Verwenden von statischen Dropdown-Segmenten
+Benutzende können das Dropdown-Menü „Segment“ auf eine der folgenden Arten verwenden, um das Bedienfeld zu segmentieren:
 
-Verwenden Sie das Dropdown-Menü Segmente auf eine der folgenden Arten, um das Bedienfeld zu filtern:
+* Wenden Sie ein einzelnes Segment auf das Bedienfeld an, indem Sie das Segment aus der Dropdown-Liste auswählen.
 
-* Wenden Sie ein einzelnes Segment auf das Bedienfeld an, indem Sie das Segment aus dem Dropdown-Menü auswählen.
+* Wenden Sie mehrere Segmente auf das Bedienfeld an, indem Sie mehr als ein Segment aus dem Dropdown-Segment auswählen. Das Bedienfeld ist so segmentiert, dass es jedes der ausgewählten Segmente enthält.
 
-* Wenden Sie mehrere Segmente auf das Bedienfeld an, indem Sie mehr als ein Segment aus dem Dropdown-Menü auswählen. Das Bedienfeld wird so gefiltert, dass es jedes der ausgewählten Segmente enthält.
 
-  Um ein Segment aus der Liste zu entfernen, wählen Sie es im Dropdownmenü erneut aus.
+#### Dynamische Dropdown-Segmente
 
-  ![Mehrere Segmente auswählen](assets/dropdown-filter-multiselect.png)
-
-### Dynamische Dropdown-Segmente
-
-Mit dynamischen Dropdown-Segmenten können Sie verfügbare Werte auf der Grundlage von Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Segmenten bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Listen mit den Dimensionen &quot;[&quot; ](/help/components/dimensions/countries.md) &quot;[&quot; ](/help/components/dimensions/cities.md). Wenn Sie ein Land aus der Dropdownliste [!UICONTROL Länder] auswählen, wird die Dropdownliste [!UICONTROL Städte] dynamisch angepasst, sodass nur Städte innerhalb dieses Landes angezeigt werden.
+Mit dynamischen Dropdown-Segmenten können Sie verfügbare Werte auf der Grundlage von Daten innerhalb des Berichtsbereichs des Bedienfelds und Werte in anderen Dropdown-Segmenten bestimmen. Sie können beispielsweise zwei dynamische Dropdown-Filter mit einer Dimension „Länder“ und einer Dimension „Städte“ erstellen. Wenn Sie ein Land aus der Dropdown-Liste **[!UICONTROL Länder]** auswählen, wird die Dropdown-Liste **[!UICONTROL Städte]** dynamisch angepasst, sodass nur Städte in diesem Land angezeigt werden.
 
 Dasselbe Konzept gilt für alle Dimensionen. Nur Dimensionselemente, die innerhalb des Datumsbereichs und der ausgewählten Segmente des Bedienfelds angezeigt werden, sind sichtbar. In statischen Dropdown-Segmenten ausgewählte Segmentelemente wirken sich auf verfügbare Werte in dynamischen Dropdown-Dimensionen aus. Das Gegenteil trifft jedoch nicht zu. In der Dropdown-Liste Dynamische Segmente ausgewählte Segmentelemente wirken sich nicht auf verfügbare Werte in statischen Dropdown-Dimensionen aus.
 
@@ -127,27 +209,177 @@ Eine manuelle Auswahl von Dimensionselementen ist verfügbar, wenn Sie erwarten,
 
 So erstellen Sie ein dynamisches Dropdown-Segment:
 
-* Ziehen Sie eine einzelne Dimension in den Ablegebereich des Bedienfelds, **während Sie`[Shift]`** gedrückt halten.
-* Dynamische Dropdown-Segmente sind für Metriken, Segmente oder Datumsbereiche nicht verfügbar.
-* Klicken Sie mit der rechten Maustaste auf ein Dropdown-Segment und wählen Sie **[!UICONTROL Dropdown löschen]**, um es zu löschen.
+* Ziehen Sie eine einzelne Dimension per Drag-and-Drop in den Ablegebereich des Panels, **während Sie ⇧ gedrückt halten**.
 
-Wenn Sie mit der rechten Maustaste auf einen dynamischen Dropdown-Filter klicken, stehen dieselben Optionen zur Verfügung wie für statische Dropdown-Filter.
+Beachten Sie, dass dynamische Dropdown-Segmente für Metriken, Segmente oder Datumsbereiche nicht verfügbar sind.
 
-## Rechtsklickmenü {#right-click}
+Ein dynamisches Dropdown-Segment bietet dieselben Kontextmenüoptionen wie statische Dropdown-Segmente.
 
-Weitere Funktionen für ein Bedienfeld sind verfügbar, wenn Sie mit der rechten Maustaste auf die Bedienfeldüberschrift klicken.
 
-![Kontextmenü](assets/right-click-menu.png)
+## Kontextmenü
 
-Folgende Einstellungen sind verfügbar:
+Weitere Funktionen für ein Panel sind über ein Kontextmenü (Rechtsklick) auf der Panel-Überschrift verfügbar.
 
-| Einstellung | Beschreibung |
+![Die Rechtsklick-Optionen für eine Panel-Überschrift.](assets/right-click-menu.png)
+
+Die folgenden Optionen sind verfügbar:
+
+| Option | Beschreibung |
 | --- | --- |
-| Kopiertes Bedienfeld/kopierte Visualisierung einfügen | Ermöglicht es Ihnen, das kopierte Bedienfeld oder die kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einzufügen. |
-| Bedienfeld kopieren | Ermöglicht es Ihnen, mit der rechten Maustaste auf ein Bedienfeld zu klicken und es zu kopieren, sodass Sie es an einer anderen Stelle innerhalb des Projekts oder in ein anderes Projekt einfügen können. |
-| Anwenden einer Report Suite auf alle Panels | Damit können Sie die Report Suite des aktiven Bedienfelds auf alle Bedienfelder im Projekt anwenden. |
-| Bedienfeld duplizieren | Fertigt ein exaktes Duplikat des aktuellen Bedienfelds an, das Sie dann bearbeiten können. |
-| Alle Bedienfelder reduzieren/erweitern | Reduziert und erweitert alle Projektbedienfelder. |
-| Alle Visualisierungen im Bedienfeld reduzieren/erweitern | Reduziert bzw. erweitert alle Visualisierungen im aktuellen Bedienfeld. |
-| Beschreibung bearbeiten | Hiermit können Sie einen Text zur Beschreibung des Bedienfelds hinzufügen (oder bearbeiten). |
-| Bereichslink abrufen | Sie können Personen zu einem bestimmten Bereich innerhalb eines Projekts leiten. Wenn auf den Link geklickt wird, muss sich der Empfänger anmelden, bevor er zu genau dem Bedienfeld weitergeleitet wird, mit dem er verknüpft ist. |
+| **[!UICONTROL Kopiertes Panel einfügen]** | Ermöglicht es Ihnen, ein kopiertes Panel an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einzufügen. |
+| **[!UICONTROL Kopierte Visualisierung einfügen]** | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Panels oder des Projekts oder in ein ganz anderes Projekt ein. |
+| **[!UICONTROL Report Suite auf alle Bedienfelder anwenden]** | Die Report Suite für dieses Bedienfeld auf alle anderen Bedienfelder im Projekt anwenden. |
+| **[!UICONTROL Panel kopieren]** | Kopieren Sie ein Panel, sodass Sie es an einer anderen Stelle innerhalb des Projekts oder in ein anderes Projekt einfügen können. |
+| **[!UICONTROL Panel duplizieren]** | Fertigt ein exaktes Duplikat des aktuellen Panels an, das Sie dann bearbeiten können. |
+| **[!UICONTROL Alle Bedienfelder reduzieren]** | Ermöglicht es Ihnen, alle Projektbedienfelder zu reduzieren. |
+| **[!UICONTROL Alle Bedienfelder erweitern]** | Ermöglicht es Ihnen, alle Projektbedienfelder zu erweitern. |
+| **[!UICONTROL Alle Visualisierungen im Bedienfeld reduzieren]** | Ermöglicht es Ihnen, alle Visualisierungen im aktuellen Bedienfeld zu reduzieren. |
+| **[!UICONTROL Alle Visualisierungen im Bedienfeld erweitern]** | Ermöglicht es Ihnen, alle Visualisierungen im aktuellen Bedienfeld zu erweitern. |
+| **[!UICONTROL Beschreibung bearbeiten]** | Hiermit können Sie einen Text zur Beschreibung des Bedienfelds hinzufügen (oder bearbeiten). |
+| **[!UICONTROL Bereichslink abrufen]** | Ermöglicht es Ihnen, Personen zu einem bestimmten Bedienfeld innerhalb eines Projekts zu leiten. Wenn der Link ausgewählt wird, muss sich die empfangende Person anmelden, bevor sie genau zu dem Bedienfeld weitergeleitet wird, zu dem eine Verknüpfung besteht. |
+
+## Konfiguration
+
+Einige Panels (z. B. [!UICONTROL Attribution], [!UICONTROL Experimentieren] und [!UICONTROL Medien-Zielgruppendurchschnitt pro Minute]) verfügen über ein Konfigurationsdialogfeld, das Sie beim Erstellen der Visualisierung unterstützt. Verwenden Sie ![Bearbeiten](/help/assets/icons/Edit.svg) oben im Panel, um auf die Konfiguration zuzugreifen und diese zu ändern.
+
+![Konfigurieren eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
+
+<!--
+## Panel types
+
+The following panel types are available in Analysis Workspace:
+
+| Panel name | Description |
+| --- | --- |
+| [Blank panel](blank-panel.md) | Choose from available panels and visualizations to start your analysis. |
+| [Quick Insights panel](quickinsight.md) | Quickly build a freeform table and an accompanying visualization in order to analyze and uncover insights faster. |
+| [Analytics for Target panel](a4t-panel.md) | Analyze Target activities and experiences in Analysis Workspace. |
+| [Attribution panel](attribution.md) | Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
+| [Freeform panel](freeform-panel.md) | Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story. |
+| [Media Average Minute Audience panel](average-minute-audience-panel.md) | Analyze average minute audience over time, with details on peak views and the ability to break down and compare. |
+| [Media Concurrent Viewers panel](media-concurrent-viewers.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
+| [Media Playback Timespent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
+| [Segment Comparison panel](c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
+
+![](assets/panel-overview.png)
+
+[!UICONTROL Quick Insights], [!UICONTROL Blank] and [!UICONTROL Freeform] panels are great places to start your analysis, while [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Media Concurrent Viewers] and [!UICONTROL Segment Comparison] lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
+
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+
+## Report suite {#report-suite}
+
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+
+The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
+
+![](assets/panel-report-suite.png)
+
+## Calendar {#calendar}
+
+The panel calendar controls the reporting range for tables and visualizations within a panel.
+
+>[!NOTE]
+>If a (purple) date range component is used within a table, visualization or panel drop zone, it overrides the panel calendar.
+
+![](assets/panel-calendar.png)
+
+You can apply a minute-level date range under the advanced settings of your panel calendar. If you are reporting on a date range that spans many days, start time applies to the first day and end time applies to the last day in your range.
+
+## Drop zone {#dropzone}
+
+The panel drop zone enables you to apply segment and drop-down filters to all tables and visualizations within a panel. You can apply one or many filters to a panel. 
+
+### Segment filters
+
+Drag and drop any segments from the left rail into the panel drop zone to begin filtering your panel. Repeat this process to add additional filters to the panel. Filters appear side by side at the top of the panel.
+
+![Filter](assets/segment-filter.png)
+
+### Ad hoc segment filters
+
+Non-segment components can also be dragged directly into the drop zone to create ad hoc segments, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
+
+Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
+
+For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+
+### Static drop-down segments
+
+Static drop-down segments enable you to interact with the data in a controlled way. For example, you can add a drop-down segment for Mobile Device Types so that you can segment the panel by Tablet, Mobile Phone, or Desktop.
+
+Static drop-down segments can also be used to consolidate many projects into one. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down segment.
+
+![](assets/dropdown-filter-intro.png)
+
+#### Create static drop-down segments
+
+* For drop-down segments using dimension items, select a single dimension from the left rail and drop it into the panel dropzone **while holding `[Shift]`**. This creates a drop-down segment with all the dimension items that are associated with that dimension. 
+
+  Or, if you want the drop-down segment to include only specific dimension items that are associated with a dimension, click the right arrow icon next to the desired dimension in the left rail. This action exposes all available dimension items. Select multiple dimension items from this list using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding** `[Shift]`.
+
+* For drop-down segments using a single component type (for example, only dimensions, or only segments, or only metrics), select multiple items of the same type in the left rail using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding `[Shift]`**.
+
+  A single drop-down segment is created with components that you selected.
+
+* For drop-down segments using a mix of component types (such as 2 metrics and 3 filters), select multiple components using `[Shift + Click]` or `[Ctrl + Click]`. Drop the selection into the panel dropzone **while holding `[Shift]`**. In this context, all component types are treated as separate drop-down segments. For example, if you include both metrics and dimension items in your selection, two separate drop-down segments are created: one drop-down segments includes dimension items, and the other includes metrics.
+
+  ![The Panel window with the Mobile Customer segment field available to drop a static drop-down segment. ](assets/create-dropdown.png)
+
+Right-clicking a drop-down segment provides the following options:
+
+* **[!UICONTROL Delete drop-down]**: Removes the drop-down segment from the panel. 
+* **[!UICONTROL Delete label]**: Remove the text above a drop-down segment. To modify the label, select the pencil icon.
+* **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
+* **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
+
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
+
+#### Use static drop-down segments
+
+Use the drop-down segments menu in any of the following ways in order to filter the panel:
+     
+* Apply a single segment to the panel by selecting the segment from the drop-down menu.
+
+* Apply multiple segments to the panel by selecting more than one segment from the drop-down menu. The panel is filtered to include any of the selected segments. 
+
+  To remove a segment from the list, select it again in the drop-down menu.
+
+  ![Select multiple segments](assets/dropdown-filter-multiselect.png)
+
+### Dynamic drop-down segments
+
+Dynamic drop-down segments allow you to determine available values based on data within the panel's reporting range and values in other drop-down segments. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected segments are visible. Dimension items selected in static drop-down segments affect available values in dynamic drop-down segments. However, the inverse is not true; Dimension items selected in dynamic drop-down segments do not affect available values in static drop-down segments.
+
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down segment so that it does not contain a value, allowing other dynamic drop-down segments to contain more values. Select **[!UICONTROL Reset all]** to clear the selection from all drop-down segments for that panel.
+
+To create a dynamic drop-down segment:
+
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down segments are not available for metrics, segments, or date ranges.
+* Right-click a drop-down segment and select **[!UICONTROL Delete dropdown]** to delete it.
+
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.
+
+## Right-click menu {#right-click}
+
+Additional functionality for a panel is available by right-clicking on the panel header.
+
+![Right-click menu](assets/right-click-menu.png)
+
+The following settings are available:
+
+| Setting | Description |
+| --- | --- |
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a different project.|
+| Copy Panel | Lets you right-click and copy a panel, so that you can insert it to another place within the project, or into a different project.|
+| Apply Report Suite to all panels | Lets you apply the active panel report suite to all panels in the project.|
+| Duplicate Panel | Makes an exact duplicate of the current panel, which you can then modify. |
+| Collapse/Expand all Panels | Collapses and expands all project panels. |
+| Collapse/Expand all Visualizations in Panel | Collapses and expands all visualizations in the current panel. |
+| Edit Description | Add (or edit) a text description for the panel. |
+| Get Panel Link | Lets you direct someone to a specific panel within a project. When the link is clicked, the recipient will be required to login before being directed to the exact panel linked to. |
+
+-->
