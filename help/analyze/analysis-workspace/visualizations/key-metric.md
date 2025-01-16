@@ -4,14 +4,30 @@ title: Zusammenfassung einer Schlüsselmetrik
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '839'
 ht-degree: 56%
 
 ---
 
-# Zusammenfassung einer Schlüsselmetrik
+# Zusammenfassung einer Schlüsselmetrik {#key-metric-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_keymetricsummary_button"
+>title="Zusammenfassung einer Schlüsselmetrik"
+>abstract="Erstellen Sie eine Visualisierung, die eine Kombination aus Linien-, Zusammenfassungsänderungs- und Zusammenfassungszahldiagramm darstellt. Verwenden Sie diese Visualisierung, um zu vergleichen, wie wichtige Metriken zwischen zwei Zeiträumen im Trend verlaufen."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Visualisierung der Zusammenfassung der Schlüsselmetriken in **Adobe Analytics**.<br/>Siehe [Zusammenfassung der Schlüsselmetriken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
 
 Mit der [!UICONTROL Zusammenfassung der Schlüsselmetrik] können Sie sehen, wie eine wichtige Metrik innerhalb eines einzigen Zeitrahmens trendet. Außerdem können Sie damit die Leistung von Metriken über zwei Zeitrahmen hinweg vergleichen. Sie bietet die Vorteile mehrerer Visualisierungen, die in einer Visualisierung kombiniert werden:
 

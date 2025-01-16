@@ -3,14 +3,62 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2063'
 ht-degree: 96%
 
 ---
 
-# Segmentaufbau
+# Segmentaufbau {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="Erstellen einer Zielgruppe"
+>abstract="Zielgruppen können mithilfe eines Filters erstellt und zur Aktivierung für Adobe Experience Platform freigegeben werden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="Datenvorschau"
+>abstract="Vergleicht die Daten dieses Filters mit den Daten der Datenansicht. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl der Daten in der Datenansicht aus den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="Wiederholend"
+>abstract="Umfasst Instanzen und persistierte Werte für die Dimension."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="Instanz"
+>abstract="Umfasst Instanzen und persistierte Werte für die Dimension."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="Nicht wiederholende Instanz"
+>abstract="Umfasst einzigartige (sich nicht wiederholende) Instanzen für die Dimension."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 Mit dem [!UICONTROL Segmentaufbau] können Sie einfache oder komplexe Segmente erstellen, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden. Er bietet eine Arbeitsfläche zum Ziehen und Ablegen von metrischen Dimensionen, Ereignissen und anderen Segmenten, um Besucher mithilfe von Hierarchielogik, Regeln und Operatoren zu segmentieren.
 

@@ -4,14 +4,30 @@ description: Eine Visualisierung, die die Beziehung zwischen bis zu drei Metrike
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 86%
 
 ---
 
-# Streudiagramm
+# Streudiagramm {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="Streuung"
+>abstract="Erstellen Sie eine Streuungsvisualisierung, die die Beziehung zwischen Dimensionselementen und bis zu drei Metriken anzeigt."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Streuvisualisierung in **Adobe Analytics**.<br/>Siehe [Streuung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
 
 Die Streudiagramm-Visualisierung zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken an. Sie erfordert drei Komponenten und unterstützt die Visualisierung von bis zu vier Komponenten.
 

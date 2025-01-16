@@ -1,728 +1,2153 @@
 ---
-description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste Funktionen die Option „Erweitert anzeigen“ wählen.
-title: 'Referenz: Erweiterte Funktionen'
+title: Erweiterte Funktionen
+description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweitert anzeigen“ auswählen.
 feature: Calculated Metrics
-exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
+role: User
+source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
 workflow-type: tm+mt
-source-wordcount: '2847'
-ht-degree: 99%
+source-wordcount: '4438'
+ht-degree: 56%
 
 ---
 
-# Referenz: Erweiterte Funktionen
+# Erweiterte Funktionen
 
-Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste **[!UICONTROL Funktionen]** die Option **[!UICONTROL Erweitert anzeigen]** wählen.
+Mit dem [Generator für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie statistische und mathematische Funktionen anwenden. Dieser Artikel dokumentiert eine alphabetische Liste der erweiterten Funktionen und ihrer Definitionen.
 
-## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen {#section_8977BE40A47E4ED79EB543A9703A4905}
+Greifen Sie auf diese Funktionen zu, indem **[!UICONTROL Alle anzeigen]** unter ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL Funktionen]** im Bedienfeld „Komponenten“ auswählen. Scrollen Sie nach unten, um die Liste der **[!UICONTROL Erweiterten Funktionen]** anzuzeigen.
+
+## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen
 
 Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
-## Was bedeutet der Parameter „Include-Zeros“? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+Gegebenenfalls wird einer Funktion eine Anmerkung mit dem Typ der Funktion hinzugefügt: [!BADGE Tabelle]{type="Neutral"}[!BADGE Zeile]{type="Neutral"}
 
-Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null „nichts“, in anderen Fällen kann sie aber auch wichtig sein.
+## Was bedeutet der Parameter „include-zeros“? 
 
-Beispiel: Wenn Sie mit einer Umsatzmetrik arbeiten und dem Bericht dann eine Seitenansichtsmetrik hinzufügen, gibt es plötzlich mehr Zeilen für den Umsatz, die alle Nullwerte enthalten. Dies soll sich sicherlich nicht auf Berechnungen für arithmetisches MEAN, MIN, QUARTILE usw. auswirken, die Sie für die Umsatzspalte eingerichtet haben. In diesem Fall würden Sie den include-zeros-Parameter aktivieren.
+Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null *nichts*, in anderen Fällen kann sie aber auch wichtig sein.
 
-Wenn Sie allerdings an zwei Metriken interessiert sind, soll vielleicht nicht eine Metrik einen höheren Durchschnitt oder Mindestwert erhalten, weil einige seiner Zeilen Null waren. Daher würden Sie den Parameter zum Einbeziehen der Nullwerte nicht aktivieren.
+Beispiel: Wenn Sie mit einer Umsatzmetrik arbeiten und dem Bericht dann eine Seitenansichtsmetrik hinzufügen, gibt es plötzlich mehr Zeilen für den Umsatz, die alle Nullwerte enthalten. Sie möchten wahrscheinlich nicht, dass sich diese zusätzliche Metrik auf Berechnungen wie **[ARITHMETISCHES MITTEL](cm-functions.md#mean)**, **[ZEILENMINIMUM](cm-functions.md#row-min)**, **[QUARTIL](cm-functions.md#quartile)** usw. auswirkt, die sich in der Umsatzspalte befinden. In diesem Fall müssen Sie den Parameter `include-zeros` aktivieren.
 
-## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+Ein alternatives Szenario besteht darin, dass Sie zwei Metriken von Interesse haben und eine Metrik einen höheren Durchschnitt oder ein höheres Minimum aufweist, da einige der Zeilen Nullen sind.   In diesem Fall können Sie festlegen, dass der Parameter keine Nullen enthält.
 
-Gibt den Wert des zugehörigen Arguments zurück. Mit „NOT“ können Sie sicherstellen, dass ein Wert nicht mit einem bestimmten Wert übereinstimmt.
+
+## Und {#and}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-and"
+>title="Und"
+>abstract="Verbindung. „Ungleich null“ gilt als „True“ und „Gleich null“ gilt als „False“. Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL AND(logical_test)]**
+
+Verbindung. „Ungleich null“ gilt als „True“ und „Gleich null“ gilt als „False“. Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+| Argument | Beschreibung |
+|---|---|
+| Logical_test | Erfordert mindestens einen Parameter, kann jedoch eine beliebige Anzahl Parameter annehmen. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
+
+
+## Ungefähre Zählung Verschiedener {#approximate_count_distinct}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-count-distinct-metric"
+>title="Ungefähre Zählung Verschiedener"
+>abstract="Gibt die ungefähre Anzahl von Dimensionselementen für die ausgewählte Dimension zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL ANNÄHERNDE ANZAHL DISTINCT(Dimension)]**
+
+
+Gibt die ungefähre Anzahl von Dimensionselementen für die ausgewählte Dimension zurück.
+
+
+| Argument | Beschreibung |
+|---|---|
+| Dimension | Die Dimension, für die Sie die ungefähre Anzahl der einzelnen Elemente berechnen möchten |
+
+### Beispiel
+
+Ein gängiger Anwendungsfall für diese Funktion ist, wenn Sie eine ungefähre Anzahl von Kunden erhalten möchten.
+
+
+
+## Arcuscosinus {#arc-cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-acos"
+>title="Arcuscosinus"
+>abstract="Gibt den Arcuscosinus (d. h. die Umkehrung des Cosinus) einer Metrik zurück. Der Arcuscosinus ist der Winkel, dessen Cosinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich von 0 (Null) bis pi angegeben. Wenn Sie das Ergebnis von Radianten in Grad umrechnen möchten, multiplizieren Sie es mit 180/PI()."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL BOGEN KOSINUS(metrisch)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Kosinus des gewünschten Winkels von -1 bis 1 |
+
+
+
+## Arcussinus {#arc-sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-asin"
+>title="Arcussinus"
+>abstract="Gibt den Arcussinus (die Umkehrung des Sinus) einer Zahl zurück. Der Arcussinus ist der Winkel, dessen Sinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arcussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI()."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL BOGEN SINUS(metrisch)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Sinus des gewünschten Winkels von -1 bis 1 |
+
+
+
+## Arkustangens {#arc-tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-atan"
+>title="Arkustangens"
+>abstract="Gibt den Arkustangens, d. h. die Umkehrung des Tangens, einer Zahl zurück. Der Arkustangens ist der Winkel, dessen Tangens eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkustangens in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI()."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL BOGENTANGENTE(metrisch)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Tangens des gewünschten Winkels von -1 bis 1 |
+
+
+
+## Cdf-T {#cdf-t}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cdf-t"
+>title="Cdf-T"
+>abstract="Gibt die Wahrscheinlichkeit dafür zurück, dass eine Zufallsvariable mit studentscher t-Verteilung mit n Freiheitsgraden einen z-Wert hat, der unter dem Spaltenwert liegt."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-T(Metrik, Zahl)]**
+
+Gibt die Wahrscheinlichkeit dafür zurück, dass eine Zufallsvariable mit studentscher t-Verteilung mit n Freiheitsgraden einen z-Wert hat, der unter dem Spaltenwert liegt.
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, für die die Kumulative Verteilungsfunktion der studentischen t-Verteilung angezeigt werden soll |
+| number | Die Freiheitsgrade für die Kumulative Verteilungsfunktion der studentischen t-Verteilung |
+
+### Beispiel
+
+```
+CDF-T(-∞, n) = 0
+CDF-T(∞, n) = 1
+CDF-T(3, 5) ? 0.99865
+CDF-T(-2, 7) ? 0.0227501
+CDF-T(x, ∞) ? cdf_z(x)
+```
+
+
+## Cdf-Z {#cdf-z}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cdf-z"
+>title="Cdf-Z"
+>abstract="Gibt die Wahrscheinlichkeit dafür zurück, dass eine Zufallsvariable mit einer Normalverteilung einen z-Wert hat, der unter dem Spaltenwert liegt."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CDF-Z(Metrik, Zahl)]**
+
+Gibt die Wahrscheinlichkeit dafür zurück, dass eine Zufallsvariable mit einer Normalverteilung einen z-Wert hat, der unter dem Spaltenwert liegt.
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, für die die Kumulative Verteilungsfunktion der Standardnormalverteilung verwendet werden soll |
+
+### Beispiele
+
+```
+CDF-Z(-∞) = 0
+CDF-Z(∞) = 1
+CDF-Z(0) = 0.5
+CDF-Z(2) ? 0.97725
+CDF-Z(-3) ? 0.0013499
+```
+
+## Ceiling (Obergrenze) {#ceiling}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ceil"
+>title="Ceiling (Obergrenze)"
+>abstract="Gibt die kleinste Ganzzahl zurück, die nicht kleiner als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel CEILING(Umsatz) den Umsatz auf den nächsten Dollar aufrunden (in diesem Fall 570 US-Dollar)."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metrisch)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, die Sie runden möchten |
+
+
+## Konfidenz {#confidence}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-confidence"
+>title="Konfidenz"
+>abstract="Berechnet die jederzeit gültige Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg)**[!UICONTROL KONFIDENZ(Normalisierungs-Container, Erfolgsmetrik, Kontrolle, Signifikanz-Schwellenwert)]**
+
+Berechnet die jederzeit gültige Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
+
+Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
+
+| Argument | Beschreibung |
+| --- | --- |
+| Normalisierungs-Container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
+| Erfolgsmetrik | Die Kennzahl(en), die ein(e) Benutzende(r) verwendet, um Varianten zu vergleichen. |
+| Kontrolle | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
+| Signifikanzschwelle | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
+
+
+## Confidence (Lower) {#confidence-lower}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-confidence-interval-lower"
+>title="Confidence (Lower)"
+>abstract="Berechnet die jederzeit gültige **niedrigere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg)**[!UICONTROL KONFIDENZ(Normalisierungs-Container, Erfolgsmetrik, Kontrolle, Signifikanz-Schwellenwert)]**
+
+Berechnet die jederzeit gültige **niedrigere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
+
+Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
+
+| Argument | Beschreibung |
+| --- | --- |
+| Normalisierungs-Container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
+| Erfolgsmetrik | Die Kennzahl(en), die ein(e) Benutzende(r) verwendet, um Varianten zu vergleichen. |
+| Kontrolle | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
+| Signifikanzschwelle | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
+
+## Confidence (Upper) {#confidence-upper}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-confidence-interval-upper"
+>title="Confidence (Upper)"
+>abstract="Berechnet die jederzeit gültige **höhere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg)**[!UICONTROL KONFIDENZ(Normalisierungs-Container, Erfolgsmetrik, Kontrolle, Signifikanz-Schwellenwert)]**
+
+Berechnet die jederzeit gültige **höhere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
+
+Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
+
+| Argument | Beschreibung |
+| --- | --- |
+| Normalisierungs-Container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
+| Erfolgsmetrik | Die Kennzahl(en), die ein(e) Benutzende(r) verwendet, um Varianten zu vergleichen. |
+| Kontrolle | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
+| Signifikanzschwelle | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
+
+
+## Cosine {#cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cos"
+>title="Cosine"
+>abstract="Gibt den Cosinus des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL KOSINUS(metrisch)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Winkel im Bogenmaß, für den der Kosinus verwendet werden soll |
+
+
+## Kubikwurzel {#cube-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cube-root"
+>title="Kubikwurzel"
+>abstract="Gibt die positive Kubikwurzel einer Zahl zurück. Die Kubikwurzel einer Zahl ist der Wert, wenn diese Zahl zur Potenz 1/3 erhoben wird."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CUBE ROOT(metric)]**
+
+
+Gibt die positive Kubikwurzel einer Zahl zurück. Die Kubikwurzel einer Zahl ist der Wert, wenn diese Zahl zur Potenz 1/3 erhoben wird.
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, für die Sie die Kubikwurzel berechnen möchten |
+
+
+
+## Kumulativ {#cumulative}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cumul"
+>title="Kumulativ"
+>abstract="Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die n vorangehenden Elemente addiert."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
+
+Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die n vorangehenden Elemente addiert.
+
+| Argument | Beschreibung |
+| --- | --- |
+| number | Die letzte Anzahl N von Zeilen, für die die Summe zurückgegeben werden soll. Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. |
+| metric | Die Metrik, für die die kumulative Summe angezeigt werden soll. |
+
+### Beispiele
+
+| Datum | Umsatz | KUMULATIV(0, Umsatz) | KUMULATIV(2, Einnahmen) |
+|------|------:|--------------:|--------------:|
+| Mai | 500 $ | 500 $ | 500 $ |
+| Juni | 200 $ | 700 $ | 700 $ |
+| Juli | 400$ | 1 100 $ | 600 $ |
+
+
+## Cumulative (Average) {#cumulative-average}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cumul-avg"
+>title="Cumulative (Average)"
+>abstract="Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden Elemente n addiert."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL KUMULATIVER DURCHSCHNITT(Zahl, Metrik)]**
+
+Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden Elemente n addiert.
+
+| Argument | Beschreibung |
+| --- | --- |
+| number | Die letzte Anzahl N von Zeilen, für die der Durchschnitt zurückgegeben wird. Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. |
+| metric | Die Metrik, für die der kumulative Durchschnitt angezeigt werden soll. |
+
+>[!NOTE]
+>
+>Diese Funktion funktioniert nicht mit Tarifmetriken wie Umsatz pro Person. Die Funktion ermittelt den Durchschnitt der Sätze, anstatt den Umsatz der letzten N zu summieren und die Personen der letzten N zu summieren und dann zu teilen. <br/>Verwenden Sie stattdessen [**[!UICONTROL CUMULATIVE(Revenue)]**](#cumulative) ![Divide](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
+>
+
+
+## Gleich {#equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-eq"
+>title="Gleich"
+>abstract="Gleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![EFFECT](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL()]**
+
+Gleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Beispiel
+
+`Metric 1 = Metric 2`
+
+
+## Exponentielle Regression: Korrelationskoeffizient {#exponential-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-exp"
+>title="Exponentielle Regression: Korrelationskoeffizient"
+>abstract="Exponentielle Regression: Y = a exp(X) + b. Gibt den Korrelationskoeffizienten zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIELLE REGRESSION: KORRELATIONSKOEFFIZIENT(metric_X, metric_Y, include_zeros)]**
+
+
+[!BADGE Tabelle]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, die Sie mit metric_Y korrelieren möchten |
+| metric_Y | Eine Metrik, die Sie mit metric_X korrelieren möchten |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+## Exponentielle Regression: Vorhersage für Y {#exponential-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-exp"
+>title="Exponentielle Regression: Vorhersage für Y"
+>abstract="Exponentielle Regression: Y = a exp(X) + b. Gibt Y zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zero)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| metric_Y | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+## Exponentielle Regression: Schnittpunkt {#exponential-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-exp"
+>title="Exponentielle Regression: Schnittpunkt"
+>abstract="Exponentielle Regression: Y = a exp(X) + b. Gibt b zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zero)]**
+
+
+[!BADGE Tabelle]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+## Exponentielle Regression: Steigung {#exponential-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-exp"
+>title="Exponentielle Regression: Steigung"
+>abstract="Exponentielle Regression: Y = a exp(X) + b. Gibt a zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIELLE REGRESSION: SLOPE(metric_X, metric_Y, include_zero)]**
+
+
+[!BADGE Tabelle]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+## Floor {#floor}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-floor"
+>title="Floor"
+>abstract="Gibt die größte Ganzzahl zurück, die nicht größer als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel FLOOR(Umsatz) den Umsatz auf den nächsten Dollar abrunden (in diesem Fall 569 US-Dollar)."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zero)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, die gerundet werden soll. |
+
+
+## Größer als {#greather-than}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-gt"
+>title="Größer als"
+>abstract="Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![EFFECT](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN()]**
+
+Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Beispiel
+
+`Metric 1 > Metric 2`
+
+
+## Größer gleich {#greater-than-or-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ge"
+>title="Größer gleich"
+>abstract="Größer als oder gleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![EFFECT](/help/assets/icons/Effect.svg) **[!UICONTROL GRÖSSER ODER GLEICH()]**
+
+Größer als oder gleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X |  |
+| metric_Y |  |
+
+### Beispiel
+
+`Metric 1 >= Metric 2`
+
+
+
+## Hyperbolic Cosine {#hyperbolic-cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cosh"
+>title="Hyperbolic Cosine"
+>abstract="Gibt den Cosinus hyperbolicus einer Zahl zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLISCHER KOSINUS(metrisch)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Winkel im Bogenmaß, für den Sie den hyperbolischen Kosinus finden möchten |
+
+
+
+## Hyperbolic Sine {#hyperbolic-sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-sinh"
+>title="Hyperbolic Sine"
+>abstract="Gibt den Sinus hyperbolicus einer Zahl zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLISCHER SINUS(metrisch)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Winkel im Bogenmaß, für den der hyperbolische Sinus gefunden werden soll |
+
+
+## Hyperbolic Tangent {#hyperbolic-tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-tanh"
+>title="Hyperbolic Tangent"
+>abstract="Gibt den Tangens hyperbolicus einer Zahl zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLISCHER TANGENS(metrisch)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Der Winkel im Bogenmaß, für den die hyperbolische Tangente gefunden werden soll |
+
+
+## Wenn {#if}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-if"
+>title="Wenn"
+>abstract="Wenn der Bedingungsparameter einen Wert ungleich null (true) aufweist, ist das Ergebnis der Wert des Parameters „value_if_true“. Andernfalls ist es der Wert des Parameters „value_if_false“."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| Logical_test | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
+| value_if_true | Der Wert, der ausgegeben werden soll, wenn das Argument des Logiktests also TRUE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
+| value_if_false | Der Wert, der ausgegeben werden soll, wenn das logical_test-Argument als FALSE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
+
+
+## Kleiner als {#less-than}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-lt"
+>title="Kleiner als"
+>abstract="Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![EFFECT](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN()]**
+
+Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Beispiel
+
+`Metric 1 < Metric 2`
+
+
+## Kleiner gleich {#less-than-or-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-le"
+>title="Kleiner gleich"
+>abstract="Kleiner als oder gleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![EFFECT](/help/assets/icons/Effect.svg) **[!UICONTROL LESS THAN OR EQUAL()]**
+
+Kleiner als oder gleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Beispiel
+
+`Metric 1 <= Metric 2`
+
+
+
+## Lift (#lift)
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-lift"
+>title="Anstieg"
+>abstract="Der Anstieg des Verhältnisses im Vergleich zum Kontrollwert."
+
+<!-- markdownlint-enable MD034 -->
+
+| Argument | Beschreibung |
+| --- | --- |
+| Normalisierungs-Container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
+| Erfolgsmetrik | Die Kennzahl(en), die ein(e) Benutzende(r) verwendet, um Varianten zu vergleichen. |
+| Kontrolle | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
+
+
+
+## Lineare Regression: Korrelationskoeffizient {#linear-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-linear"
+>title="Lineare Regression: Korrelationskoeffizient"
+>abstract="Lineare Regression: Y = a X + b. Gibt den Korrelationskoeffizienten zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEARE REGRESSION: KORRELATIONSKOEFFIZIENT(metric_X, metric_Y, include_zero)]**
+
+
+[!BADGE Tabelle]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, die Sie mit metric_Y korrelieren möchten |
+| metric_Y | Eine Metrik, die Sie mit metric_X korrelieren möchten |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+
+## Lineare Regression: Schnittpunkt {#linear-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-linear"
+>title="Lineare Regression: Schnittpunkt"
+>abstract="Lineare Regression: Y = a X + b. Gibt b zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEARE REGRESSION: INTERCEPT(metric_X, metric_Y, include_zero)]**
+
+
+[!BADGE Tabelle]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+
+## Lineare Regression: Vorhersage für Y {#linear-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-linear"
+>title="Lineare Regression: Vorhersage für Y"
+>abstract="Lineare Regression: Y = a X + b. Gibt Y zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEARE REGRESSION: PRODICTED Y(metric_X, metric_Y, include_zero)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+
+## Lineare Regression: Steigung {#linear-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-linear"
+>title="Lineare Regression: Steigung"
+>abstract="Lineare Regression: Y = a X + b. Gibt a zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEARE REGRESSION: SLOPE(metric_X, metric_Y, include_zero)]**
+
+[!BADGE Tabelle]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+## Log Base 10 {#log-base-ten}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-log10"
+>title="Log Base 10"
+>abstract="Gibt den Logarithmus einer Zahl zur Basis 10 zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metrisch)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die positive reelle Zahl, für die der Logarithmus der Basis 10 verwendet werden soll |
+
+
+## Logarithmische Regression: Korrelationskoeffizient {#log-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-log"
+>title="Logarithmische Regression: Korrelationskoeffizient"
+>abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt den Korrelationskoeffizienten zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: KORRELATIONSKOEFFIZIENT(metric_X, metric_Y, include_zeros)]**
+
+[!BADGE Tabelle]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, die Sie mit metric_Y korrelieren möchten |
+| metric_Y | Eine Metrik, die Sie mit metric_X korrelieren möchten |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+## Logarithmische Regression: Schnittpunkt {#log-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-log"
+>title="Logarithmische Regression: Schnittpunkt"
+>abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt b zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
+
+[!BADGE Tabelle]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+
+## Logarithmische Regression: Vorhersage für Y {#log-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-log"
+>title="Logarithmische Regression: Vorhersage für Y"
+>abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt Y zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zero)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+
+## Logistische Regression: Steigung {#log-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-log"
+>title="Logistische Regression: Steigung"
+>abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt a zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zero)]**
+
+[!BADGE Tabelle]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+
+
+## Natürlicher Logarithmus {#natural-log}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-log"
+>title="Natürlicher Logarithmus"
+>abstract="Gibt den natürlichen Logarithmus einer Zahl zurück. Natürliche Logarithmen basieren auf der Konstanten e (2.71828182845904). LN ist die Umkehrung der EXP-Funktion."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL NATÜRLICHES LOG(metrisch)]**
+
+Gibt den natürlichen Logarithmus einer Zahl zurück. Natürliche Logarithmen basieren auf der Konstanten e (2.71828182845904). LN ist die Umkehrung der EXP-Funktion.
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die positive reelle Zahl, für die der natürliche Logarithmus angezeigt werden soll |
+
+
+
+## Nicht {#not}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-not"
+>title="Nicht"
+>abstract="Negation als boolescher Wert. Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL NICHT(logisch)]**
+
+Negation als boolescher Wert. Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+| Argument | Beschreibung |
+|---|---|
+| logisch | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
+
+
+
+## Not Equal {#not-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ne"
+>title="Not Equal"
+>abstract="Ungleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![EFFECT](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL()]**
+
+
+Ungleich.  Die Ausgabe ist entweder 0 (False) oder 1 (True).
+
+
+| Argument | Beschreibung |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### Beispiel
+
+`Metric 1 != Metric 2`
+
+
+## Oder {#or}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-or"
+>title="Oder"
+>abstract="ODER-Verknüpfung. „Ungleich null“ gilt als „True“ und „Gleich null“ gilt als „False“. Die Ausgabe ist entweder 0 (False) oder 1 (True)."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
+
+
+[!BADGE Zeile]{type="Neutral"}
+
+
+| Argument | Beschreibung |
+|---|---|
+| Logical_test | Erfordert mindestens einen Parameter, kann jedoch eine beliebige Anzahl Parameter annehmen. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
+
 
 >[!NOTE]
 >
 >0 (null) bedeutet „Falsch“ und jeder andere Wert „Wahr“.
 
-```
-AND(logical_test1,[logical_test2],...)
-```
+
+## Pi {#pi}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-pi"
+>title="Pi"
+>abstract="Gibt Pi zurück: 3,14159…"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
+
+Gibt Pi zurück: 3,14159…
+
+
+## Potenzregression: Korrelationskoeffizient {#power-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-power"
+>title="Potenzregression: Korrelationskoeffizient"
+>abstract="Potenzregression: Y = b X ^ a. Gibt den Korrelationskoeffizienten zurück."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: KORRELATIONSKOEFFIZIENT(metric_X, metric_Y, include_zero)]**
+
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *logical_test1* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
-| *logical_test2* | Optional. Zusätzliche Bedingungen, die als TRUE oder FALSE ausgewertet werden sollen. |
+| metric_X | Eine Metrik, die Sie mit metric_Y korrelieren möchten |
+| metric_Y | Eine Metrik, die Sie mit metric_X korrelieren möchten |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Ungefährer Distinct Count (Dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Gibt den ungefähren Distinct Count für die Elemente der ausgewählten Dimension zurück. Diese Funktion verwendet die HyperLogLog (HLL)-Methode zur ungefähren Bestimmung des Distinct Count. Sie ist entsprechend eingestellt, um zu garantieren, dass der Wert zu 95 % der Zeit 5 % des tatsächlichen Werts beträgt.
 
-```
-Approximate Count Distinct (dimension)
-```
+## Potenzregression: Schnittpunkt {#power-regression-intercept}
 
-| Argument |  |
-|---|---|
-| *Dimension* | Die Dimension, für die Sie den ungefähren Distinct Count für Elemente ermitteln möchten. |
+<!-- markdownlint-disable MD034 -->
 
-### Beispielanwendungsfall {#section_424E3FC5092948F0A9D655F6CCBA0312}
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-power"
+>title="Potenzregression: Schnittpunkt"
+>abstract="Potenzregression: Y = b X ^ a. Gibt b zurück."
 
-Ungefährer Distinct Count (Kunden-ID-eVar) ist ein typischer Anwendungsfall für diese Funktion.
+<!-- markdownlint-enable MD034 -->
 
-Definition für eine neue berechnete „Ungefähre Kunden“-Metrik:
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zero)]**
 
-![](assets/approx-count-distinct.png)
 
-So könnte die „Ungefähre Kunden“-Metrik für Berichte verwendet werden:
+[!BADGE Tabelle]{type="Neutral"}
 
-![](assets/approx-customers.png)
-
-### Individuelle Werte überschritten {#section_9C583858A9F94FF7BA054D1043194BAA}
-
-Ebenso wie Count() und RowCount() unterliegt Ungefährer Distinct Count() [„Uniques überschritten“-Beschränkungen](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=de). Wird für eine Dimension in einem bestimmten Monat die „Uniques überschritten“-Beschränkung erreicht, wird der Wert als 1 Dimensionselement gezählt.
-
-### Vergleich von Count-Funktionen {#section_440FB8FB44374459B2C6AE2DA504FC0B}
-
-Ungefährer Distinct Count() ist eine Verbesserung im Vergleich zu Count()- und RowCount()-Funktionen, da die dadurch erstellte Metrik in allen Dimensionsberichten verwendet werden kann, um eine ungefähre Elementanzahl für eine separate Dimension zu rendern. Beispielsweise wird eine Anzahl an Kunden-IDs in einem Bericht zu Mobilgerätetypen verwendet.
-
-Diese Funktion ist etwas weniger genau als Count() und RowCount(), da die HLL-Methode verwendet wird. Bei Count() und RowCount() hingegen handelt es sich um genaue Anzahlen.
-
-## Arkuskosinus (Zeile) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
-
-Gibt den Arkuskosinus (oder umgekehrten Kosinus) einer Metrik zurück. Der Arkuskosinus ist der Winkel, dessen Kosinus die Zahl ist. Der zurückgegebene Winkel wird in Radianten im Bereich zwischen 0 (null) und Pi angegeben. Wenn Sie das Ergebnis von Radianten in Grad umrechnen möchten, multiplizieren Sie es mit 180/PI( ).
-
-```
-ACOS(metric)
-```
-
-| Argument |  |
-|---|---|
-| *metric* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
-
-## Arkussinus (Zeile) {#concept_90F00DEC46BA47F8A21493647D9668CD}
-
-Gibt den Arkussinus (oder umgekehrten Sinus) einer Zahl zurück. Der Arkussinus ist der Winkel, dessen Sinus die Zahl ist. Der zurückgegebene Winkel wird in Radianten im Bereich zwischen -Pi/2 und Pi/2 angegeben. Um den Arkussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI( ).
-
-```
-ASIN(metric) 
-```
-
-| Argument |  |
-|---|---|
-| *metric* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
-
-## Arkustangens (Zeile) {#concept_3408520673774A10998E9BD8B909E90C}
-
-Gibt den Arkustangens (oder umgekehrten Tangens) einer Zahl zurück. Der Arkustangens ist der Winkel, dessen Tangens die Zahl ist. Der zurückgegebene Winkel wird in Radianten im Bereich zwischen -Pi/2 und Pi/2 angegeben. Um den Arkustangens in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI( ).
-
-```
-ATAN(metric)
-```
-
-| Argument |  |
-|---|---|
-| *metric* | Der Kosinus des gewünschten Winkels von -1 bis 1. |
-
-## Exponentielle Regression: Vorhersage für Y (Zeile) {#concept_25615693312B4A7AB09A2921083502AD}
-
-Berechnet die prognostizierten y-Werte (metric_Y) anhand der bekannten x-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden basierend auf.
-
-```
-ESTIMATE.EXP(metric_X, metric_Y)
-```
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
-Gibt den Prozentsatz von Werten in studentischer t-Verteilung mit n Freiheitsgraden zurück, die einen z-Wert unter x aufweisen.
+## Potenzregression: Vorhersage für Y {#power-regression-predicted-y}
 
-```
-cdf_t( -∞, n ) = 0 
-cdf_t(  ∞, n ) = 1 
-cdf_t( 3, 5 ) ? 0.99865 
-cdf_t( -2, 7 ) ? 0.0227501 
-cdf_t( x, ∞ ) ? cdf_z( x )
-```
+<!-- markdownlint-disable MD034 -->
 
-## Cdf-Z {#concept_99C97ACC40A94FADBCF7393A17BC2D12}
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-power"
+>title="Potenzregression: Vorhersage für Y"
+>abstract="Potenzregression: Y = b X ^ a. Gibt Y zurück."
 
-Gibt den Prozentsatz von Werten in einer normalen Verteilung zurück, die einen z-Wert unter x aufweisen.
+<!-- markdownlint-enable MD034 -->
 
-```
-cdf_z( -∞ ) = 0 
-cdf_z( ∞ ) = 1 
-cdf_z( 0 ) = 0.5 
-cdf_z( 2 ) ? 0.97725 
-cdf_z( -3 ) ? 0.0013499 
- 
-```
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zero)]**
 
-## Nächsthöhere ganze Zahl (Ceiling) (Zeile) {#concept_A14CDB1E419B4AA18D335E5BA2548346}
-
-Gibt die kleinste Ganzzahl zurück, die nicht kleiner als ein angegebener Wert ist. Beispiel: Wenn Sie keine Währungsdezimalzahlen für den Umsatz in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel CEILING(*Revenue*) den Umsatz bis zum nächsten Dollar aufrunden (in diesem Fall 570 US-Dollar).
-
-```
-CEILING(metric)
-```
+[!BADGE Zeile]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die Metrik, die gerundet werden soll. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Kosinus (Zeile) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
-Gibt den Kosinus des angegebenen Winkels zurück. Wenn der Winkel in Grad vorliegt, multiplizieren Sie ihn mit PI( )/180.
 
-```
-COS(metric)
-```
+## Potenzregression: Steigung {#power-regression-slope}
 
-| Argument | Beschreibung |
-|---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Kosinus ermitteln möchten. |
+<!-- markdownlint-disable MD034 -->
 
-## Kubikwurzel {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-power"
+>title="Potenzregression: Steigung"
+>abstract="Potenzregression: Y = b X ^ a. Gibt a zurück."
 
-Gibt die positive Kubikwurzel einer Zahl zurück. Die Kubikwurzel einer Zahl ist der Wert dieser Zahl hoch 1/3.
+<!-- markdownlint-enable MD034 -->
 
-```
-CBRT(metric)
-```
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zero)]**
 
-| Argument | Beschreibung |
-|---|---|
-| *metric* | Die Metrik, für die Sie die Kubikwurzel abrufen möchten. |
-
-## Kumulativ {#concept_3D3347797B6344CE88B394C3E39318ED}
-
-Gibt die Summe von x für die letzten N Zeilen zurück (angeordnet nach Dimension mit Hashwerten für zeichenfolgenbasierte Felder).
-
-Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. Da die Anordnung nach Dimensionen erfolgt, ist dies nur bei Dimensionen mit einer natürlichen Reihenfolge nützlich, wie Datum oder Pfadlänge.
-
-```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
-|------+------+--------------+--------------| 
-| May  | $500 | $500         | $500         | 
-| June | $200 | $700         | $700         | 
-| July | $400 | $1100        | $600         | 
- 
-```
-
-## Kumulativer Durchschnitt {#concept_ABB650962DC64FD58A79C305282D3E61}
-
-Gibt den Durchschnitt der letzten N Zeilen zurück.
-
-Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. Da die Anordnung nach Dimensionen erfolgt, ist dies nur bei Dimensionen mit einer natürlichen Reihenfolge nützlich, wie Datum oder Pfadlänge.
-
->[!NOTE]
->
->Mit Quotenmetriken, wie Umsatz/Besucher, funktioniert dies nicht so, wie Sie es vielleicht erwarten: Es wird der Quotendurchschnitt ermittelt, anstatt dass der Umsatz über die letzten N und die Besucher über die letzten N summiert und anschließend geteilt werden. Verwenden Sie stattdessen
-
-```
-cumul(revenue)/cumul(visitor)
-```
-
-## Gleich {#concept_A3B97152B5F74E04A97018B35734BEEB}
-
-Gibt Elemente mit einer exakten Entsprechung für numerische oder Zeichenfolgenwerte wieder.
-
-## Exponentielle Regression: Korrelationskoeffizient (Tabelle) {#concept_C18BBFA43C1A499293290DF49566D8D8}
-
-Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_A* und *metric_B*) für die Regressionsgleichung zurück.
-
-```
-CORREL.EXP(metric_X, metric_Y)
-```
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, die mit *metric_Y* korreliert werden soll. |
-| *metric_Y* | Die Metrik, die mit *metric_X* korreliert werden soll. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Exponentielle Regression: Konstante (Tabelle) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) zurück für
 
-```
-INTERCEPT.EXP(metric_X, metric_Y)
-```
+## Quadratische Regression: Korrelationskoeffizient {#quadratic-regression-correlation-coefficient}
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+<!-- markdownlint-disable MD034 -->
 
-## Exponentielle Regression: Steigung (Tabelle) {#concept_230991B0371E44308C52853EFA656F04}
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-quadratic"
+>title="Quadratische Regression: Korrelationskoeffizient"
+>abstract="Quadratische Regression: Y = (a + bX) ^ 2. Gibt den Korrelationskoeffizienten zurück."
 
-Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) zurück für
+<!-- markdownlint-enable MD034 -->
 
-```
-SLOPE.EXP(metric_X, metric_Y)
-```
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATISCHE REGRESSION: KORRELATIONSKOEFFIZIENT(metric_X, metric_Y, include_zero)]**
+
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric_X | Eine Metrik, die Sie mit metric_Y korrelieren möchten |
+| metric_Y | Eine Metrik, die Sie mit metric_X korrelieren möchten |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Nächstniedrigere ganze Zahl (Floor) (Zeile) {#concept_D368150EC3684077B284EE471463FC31}
+## Quadratische Regression: Schnittpunkt {#quadratic-regression-intercept}
 
-Gibt die größte Ganzzahl zurück, die nicht größer als ein angegebener Wert ist. Beispiel: Wenn Sie keine Währungsdezimalzahlen für den Umsatz in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel FLOOR(*Revenue*) den Umsatz bis zum nächsten Dollar abrunden (in diesem Fall 569 US-Dollar).
+<!-- markdownlint-disable MD034 -->
 
-```
-FLOOR(metric)
-```
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-quadratic"
+>title="Quadratische Regression: Schnittpunkt"
+>abstract="Quadratische Regression: Y = (a + bX) ^ 2. Gibt a zurück."
 
-| Argument | Beschreibung |
-|---|---|
-| *metric* | Die Metrik, die gerundet werden soll. |
+<!-- markdownlint-enable MD034 -->
 
-## Größer als {#concept_A83734A0C0C14646B76D2CC5E677C644}
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATISCHE REGRESSION: INTERCEPT(metric_X, metric_Y, include_zero)]**
 
-Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist.
-
-## Größer gleich {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
-
-Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt.
-
-## Hyperbelkosinus (Zeile) {#concept_79DD5681CE9640BDBA3C3F527343CA98}
-
-Gibt den Hyperbelkosinus einer Zahl zurück.
-
-```
-COSH(metric)
-```
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Hyperbelkosinus ermitteln möchten. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Hyperbelsinus (Zeile) {#concept_96230731600C45E3A4E823FE155ABA85}
 
-Gibt den Hyperbelsinus einer Zahl zurück.
+## Quadratische Regression: Vorhersage für Y {#quadratic-regression-predicted-y}
 
-```
-SINH(metric)
-```
+<!-- markdownlint-disable MD034 -->
 
-| Argument | Beschreibung |
-|---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Hyperbelsinus ermitteln möchten. |
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-quadratic"
+>title="Quadratische Regression: Vorhersage für Y"
+>abstract="Quadratische Regression: Y = (a + bX) ^ 2. Gibt Y zurück."
 
-## Hyperbeltangens (Zeile) {#concept_BD249013732F462B9863629D142BCA6A}
+<!-- markdownlint-enable MD034 -->
 
-Gibt den Hyperbeltangens einer Zahl zurück.
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATISCHE REGRESSION: PROGNOSTIZIERTES Y(metric_X, metric_Y, include_zero)]**
 
-```
-TANH(metric)
-```
+[!BADGE Zeile]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radiant, dessen hyperbolischer Tangens berechnet werden soll. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## IF (Zeile) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-Die IF-Funktion gibt einen Wert zurück, wenn eine angegebene Bedingung TRUE ergibt, und einen anderen Wert, wenn diese Bedingung FALSE ergibt.
+## Quadratische Regression: Steigung {#quadratic-regression-slope}
 
-```
-IF(logical_test, [value_if_true], [value_if_false])
-```
+<!-- markdownlint-disable MD034 -->
 
-| Argument | Beschreibung |
-|---|---|
-| *logical_test* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
-| *[value_if_true]* | Der Wert, der zurückgegeben soll, wenn das Argument *logical_test* TRUE ergibt. (Für dieses Argument wird standardmäßig 0 verwendet, wenn es nicht angegeben wird.) |
-| *[value_if_false]* | Der Wert, der zurückgegeben soll, wenn das Argument *logical_test* FALSE ergibt. (Für dieses Argument wird standardmäßig 0 verwendet, wenn es nicht angegeben wird.) |
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-quadratic"
+>title="Quadratische Regression: Steigung"
+>abstract="Quadratische Regression: Y = (a + bX) ^ 2. Gibt b zurück."
 
-## Kleiner als {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
+<!-- markdownlint-enable MD034 -->
 
-Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist.
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATISCHE REGRESSION: SLOPE(metric_X, metric_Y, include_zero)]**
 
-## Kleiner gleich {#concept_99D12154DE4848B1B0A6327C4322D288}
-
-Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt.
-
-## Lineare Regression: Korrelationskoeffizient {#concept_132AC6B3A55248AA9C002C1FBEB55C60}
-
-Y = a X + b. Gibt den Korrelationskoeffizienten zurück.
-
-## Lineare Regression: Konstante {#concept_E44A8D78B802442DB855A07609FC7E99}
-
-Y = a X + b. Gibt b zurück.
-
-## Lineare Regression: Vorhersage für Y {#concept_9612B9BF106D4D278648D2DF92E98EFC}
-
-Y = a X + b. Gibt Y zurück.
-
-## Lineare Regression: Steigung {#concept_12352982082A4DDF824366B073B4C213}
-
-Y = a X + b. Gibt a zurück.
-
-## Logarithmus zur Basis 10 (Zeile) {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
-
-Gibt den Logarithmus zur Basis 10 einer Zahl zurück.
-
-```
-LOG10(metric)
-```
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Die positive reale Zahl, dessen Logarithmus zur Basis 10 gewünscht ist. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Logistische Regression: Korrelationskoeffizient (Tabelle) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für die Regressionsgleichung [!DNL Y = a ln(X) + b] zurück. Dies wird mit der Gleichung CORREL berechnet.
 
-```
-CORREL.LOG(metric_X,metric_Y)
-```
+## Reziproke Regression: Korrelationskoeffizient {#reciprocal-regression-correlation-coefficient}
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Die Metrik, die mit *metric_Y* korreliert werden soll. |
-| *metric_Y* | Die Metrik, die mit *metric_X* korreliert werden soll. |
+<!-- markdownlint-disable MD034 -->
 
-## Logistische Regression: Konstante (Tabelle) {#concept_75A3282EDF54417897063DC26D4FA363}
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-reciprocal"
+>title="Reziproke Regression: Korrelationskoeffizient"
+>abstract="Reziproke Regression: Y = a + b X ^ -1. Gibt den Korrelationskoeffizienten zurück."
 
-Gibt die Konstante *b* als die Regression der kleinsten Quadrate zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für die Regressionsgleichung [!DNL Y = a ln(X) + b] zurück. Dies wird mit der Gleichung INTERCEPT berechnet.
+<!-- markdownlint-enable MD034 -->
 
-```
-INTERCEPT.LOG(metric_X, metric_Y)
-```
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL REZIPROKE REGRESSION: KORRELATIONSKOEFFIZIENT(metric_X, metric_Y, include_zeros)]**
+
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric_X | Eine Metrik, die Sie mit metric_Y korrelieren möchten |
+| metric_Y | Eine Metrik, die Sie mit metric_X korrelieren möchten |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Logistische Regression: Vorhersage für Y (Zeile) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Berechnet die prognostizierten [!DNL y]-Werte (metric_Y) anhand der bekannten [!DNL x]-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden mit [!DNL Y = a ln(X) + b]. Dies wird mit der Gleichung ESTIMATE berechnet.
+## Reziproke Regression: Schnittpunkt {#reciprocal-regression-intercept}
 
-In der Regressionsanalyse berechnet diese Funktion die prognostizierten [!DNL y]-Werte (*metric_Y*) anhand der bekannten [!DNL x]-Werte (*metric_X*) mithilfe des Logarithmus zur Berechnung der Ausgleichsgraden für die Regressionsgleichung [!DNL Y = a ln(X) + b]. Die [!DNL a]-Werte entsprechen den jeweiligen x-Werten und [!DNL b] ist eine Konstante.
+<!-- markdownlint-disable MD034 -->
 
-```
-ESTIMATE.LOG(metric_X, metric_Y)
-```
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-reciprocal"
+>title="Reziproke Regression: Schnittpunkt"
+>abstract="Reziproke Regression: Y = a + b X ^ -1. Gibt a zurück."
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+<!-- markdownlint-enable MD034 -->
 
-## Logistische Regression: Steigung (Tabelle) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL REZIPROKE REGRESSION: INTERCEPT(metric_X, metric_Y, include_zero)]**
 
-Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für die Regressionsgleichung [!DNL Y = a ln(X) + b] zurück. Dies wird mit der Gleichung SLOPE berechnet.
-
-```
-SLOPE.LOG(metric_A, metric_B)
-```
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_A* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_B* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Natürlicher Logarithmus {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
-Gibt den natürlichen Logarithmus einer Zahl zurück. Natürliche Logarithmen basieren auf der Konstante *e* (2,71828182845904). LN ist die Umkehrung der Exponentialfunktion.
+## Reziproke Regression: Vorhersage für Y {#reciprocal-regression-predicted-y}
 
-```
-LN(metric)
-```
+<!-- markdownlint-disable MD034 -->
 
-| Argument | Beschreibung |
-|---|---|
-| *metric* | Die positive reale Zahl, deren natürlicher Logarithmus gewünscht ist. |
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-reciprocal"
+>title="Reziproke Regression: Vorhersage für Y"
+>abstract="Reziproke Regression: Y = a + b X ^ -1. Gibt Y zurück."
 
-## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
+<!-- markdownlint-enable MD034 -->
 
-Gibt 1 zurück, wenn die Zahl 0 ist, oder gibt 0 zurück, wenn es eine andere Zahl ist.
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL REZIPROKE REGRESSION: PROGNOSTIZIERTES Y(metric_X, metric_Y, include_zero)]**
 
-```
-NOT(logical)
-```
+[!BADGE Zeile]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *logisch* | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-Die Verwendung von NOT erfordert zu wissen, ob die Ausdrücke (&lt;, >, =, &lt;> usw.) 0 oder 1 Werte zurückgeben.
 
-## Ungleich {#concept_EC010B7A9D2049099114A382D662FC16}
+## Reziproke Regression: Steigung {#reciprocal-regression-slope}
 
-Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten.
+<!-- markdownlint-disable MD034 -->
 
-## Oder (Zeile) {#concept_AF81A33A376C4849A4C14F3A380639D2}
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-reciprocal"
+>title="Reziproke Regression: Steigung"
+>abstract="Reziproke Regression: Y = a + b X ^ -1. Gibt b zurück."
 
-Gibt TRUE zurück, wenn ein Argument TRUE ist, oder FALSE, wenn alle Argumente FALSE sind.
+<!-- markdownlint-enable MD034 -->
 
->[!NOTE]
->
->0 (null) bedeutet „Falsch“ und jeder andere Wert „Wahr“.
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL REZIPROKE REGRESSION: SLOPE(metric_X, metric_Y, include_zero)]**
 
-```
-OR(logical_test1,[logical_test2],...)
-```
-
-| Argument | Beschreibung |
-|---|---|
-| *logical_test1* | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
-| *logical_test2* | Optional. Zusätzliche Bedingungen, die als TRUE oder FALSE ausgewertet werden sollen. |
-
-## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
-
-Gibt die Konstante PI (3,14159265358979) mit 15 Stellen zurück.
-
-```
-PI()
-```
-
-Die Funktion [!DNL PI] weist keine Argumente auf.
-
-## Potenzregression: Korrelationskoeffizient (Tabelle) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
-
-Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X] zurück.
-
-```
-CORREL.POWER(metric_X, metric_Y)
-```
+[!BADGE Tabelle]{type="Neutral"}
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Die Metrik, die mit *metric_Y* korreliert werden soll. |
-| *metric_Y* | Die Metrik, die mit *metric_X* korreliert werden soll. |
+| metric_X | Eine Metrik, der abhängige Daten zugewiesen werden sollen |
+| metric_Y | Eine Metrik, die als unabhängige Daten gekennzeichnet werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Potenzregression: Konstante (Tabelle) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X] zurück.
 
-```
- INTERCEPT.POWER(metric_X, metric_Y)
-```
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+## Sine {#sine}
 
-## Potenzregression: Vorhersage für Y (Zeile) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
+<!-- markdownlint-disable MD034 -->
 
-Berechnet die prognostizierten [!DNL y]-Werte ([!DNL metric_Y]) anhand der bekannten [!DNL x]-Werte ([!DNL metric_X]) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden für [!DNL Y = b*X].
+>[!CONTEXTUALHELP]
+>id="functions-sin"
+>title="Sine"
+>abstract="Gibt den Sinus des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180."
 
-```
- ESTIMATE.POWER(metric_X, metric_Y)
-```
+<!-- markdownlint-enable MD034 -->
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL SINUS(metrisch)]**
 
-## Potenzregression: Steigung (Tabelle) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = b*X] a zurück.
+[!BADGE Zeile]{type="Neutral"}
 
-```
-SLOPE.POWER(metric_X, metric_Y)
-```
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric | Der Winkel im Bogenmaß, für den der Sinus verwendet werden soll |
 
-## Quadratische Regression: Korrelationskoeffizient (Tabelle) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y=(a*X+b)]**** zurück.
 
-```
-CORREL.QUADRATIC(metric_X, metric_Y)
-```
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Die Metrik, die mit *metric_Y* korreliert werden soll. |
-| *metric_Y* | Die Metrik, die mit *metric_X* korreliert werden soll. |
+## t-Transformation {#t-score}
 
-## Quadratische Regression: Konstante (Tabelle) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
+<!-- markdownlint-disable MD034 -->
 
-Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y=(a*X+b)]**** zurück.
+>[!CONTEXTUALHELP]
+>id="functions-t-score"
+>title="t-Transformation"
+>abstract="Die Abweichung vom [ARITHMETISCHEN MITTEL](cm-functions.md#mean) geteilt durch die Standardabweichung. Alias für [Z-Score](#z-score)."
 
-```
-INTERCEPT.POWER(metric_X, metric_Y)
-```
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE(metric, include_zeros)]**
+
+Die Abweichung vom [ARITHMETISCHEN MITTEL](cm-functions.md#mean) geteilt durch die Standardabweichung. Alias für [Z-Score](#z-score).
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric | Die Metrik, für die der T-Score erstellt werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
 
-## Quadratische Regression: Vorhersage für Y (Zeile) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Berechnet die prognostizierten [!DNL y]-Werte (metric_Y) anhand der bekannten [!DNL x]-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden mit [!DNL Y=(a*X+b)]****.
+## t-Test {#t-test}
 
-```
-ESTIMATE.QUADRATIC(metric_A, metric_B)
-```
+<!-- markdownlint-disable MD034 -->
 
-| Argument | Beschreibung |
-|---|---|
-| *metric_A* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_B* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+>[!CONTEXTUALHELP]
+>id="functions-t-test"
+>title="t-Test"
+>abstract="Führt einen m-seitigen t-Test mit einem t-Wert von x und n Freiheitsgraden durch."
 
-## Quadratische Regression: Steigung (Tabelle) {#concept_0023321DA8E84E6D9BCB06883CA41645}
+<!-- markdownlint-enable MD034 -->
 
-Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und metric_Y) für [!DNL Y=(a*X+b)]**** zurück.
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST(metrisch, Grad, Schwanz)]**
 
-```
-SLOPE.QUADRATIC(metric_X, metric_Y)
-```
+Führt einen m-seitigen t-Test mit einem t-Wert von x und n Freiheitsgraden durch.
 
 | Argument | Beschreibung |
 |---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| metric | Die Metrik, für die Sie einen Test durchführen möchten |
+| degrees | Die Freiheitsgrade |
+| Schwänze | Die Länge des für die Durchführung des T-Tests zu verwendenden Schwanzes |
 
-## Reziproke Regression: Korrelationskoeffizient (Tabelle) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
+### Details
 
-Gibt den Korrelationskoeffizienten *r* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b] zurück.
+Die Signatur ist T-TEST (Metrik, Grad, Zahl). Darunter ruft es einfach ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Diese Funktion ähnelt der **[Z-TEST](#z-test)**-Funktion, die ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** ausführt.
 
-```
-CORREL.RECIPROCAL(metric_X, metric_Y)
-```
-
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Die Metrik, die mit *metric_Y* korreliert werden soll. |
-| *metric_Y* | Die Metrik, die mit *metric_X* korreliert werden soll. |
-
-## Reziproke Regression: Konstante (Tabelle) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
-
-Gibt die Konstante *b* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b] zurück.
-
-```
-INTERCEPT.RECIPROCAL(metric_A, metric_B)
-```
-
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
-
-## Reziproke Regression: Vorhersage für Y (Zeile) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
-
-Berechnet die prognostizierten [!DNL y]-Werte (metric_Y) anhand der bekannten [!DNL x]-Werte (metric_X) mittels der Methode der kleinsten Quadrate für die Berechnung der Ausgleichsgeraden mit [!DNL Y = a/X+b].
-
-```
-ESTIMATE.RECIPROCAL(metric_X, metric_Y)
-```
-
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
-
-## Reziproke Regression: Steigung (Tabelle) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
-
-Gibt die Steigung *a* zwischen zwei Metrikspalten (*metric_X* und *metric_Y*) für [!DNL Y = a/X+b] a zurück.
-
-```
-SLOPE.RECIPROCAL(metric_X, metric_Y)
-```
-
-| Argument | Beschreibung |
-|---|---|
-| *metric_X* | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
-| *metric_Y* | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
-
-## Sinus (Zeile) {#concept_21C8C3AA835947A28B53A4E756A7451E}
-
-Gibt den Sinus des angegebenen Winkels zurück. Wenn der Winkel in Grad vorliegt, multiplizieren Sie ihn mit PI( )/180.
-
-```
-SIN(metric)
-```
-
-| Argument | Beschreibung |
-|---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Sinus ermitteln möchten. |
-
-## t-Transformation {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
-
-Alias für z-Transformation, also die Abweichung vom arithmetischen Mittel geteilt durch die Standardabweichung.
-
-## t-Test {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
-
-Führt einen m-seitigen t-Test mit einem t-Wert von Spalte und n Freiheitsgraden durch.
-
-Die Signatur lautet `t_test( x, n, m )`. Darunter wird einfach `m*cdf_t(-abs(x),n)` aufgerufen. (Dies entspricht der z-Test-Funktion, die wie folgt lautet `m*cdf_z(-abs(x))`.
-
-Hier gibt `m` die Anzahl der Seiten und `n` die Freiheitsgrade an. Hierbei sollte es sich um Ziffern handeln (im gesamten Bericht konstant, d. h. die Werte sollten nicht von Zeile zu Zeile variieren).
-
-`X` ist die t-Test-Statistik. Hierbei handelt es sich häufig um eine auf einer Metrik basierende Formel (z. B. z-Wert), die in jeder Zeile bewertet wird.
+- ***m*** ist die Anzahl der Schwänze.
+- ***n*** ist der Freiheitsgrad und sollte eine konstante Zahl für den gesamten Bericht sein, d. h., sie ändert sich nicht Zeile für Zeile.
+- ***x*** ist die Statistik des T-Tests und wäre häufig eine Formel (z. B. **[Z-SCORE](#z-score)**), die auf einer Metrik basiert und in jeder Zeile ausgewertet wird.
 
 Der Rückgabewert ist die Wahrscheinlichkeit, die Teststatistik x zu erhalten, bei gegebenen Freiheitsgraden und der Anzahl an Seiten.
 
-**Beispiele:**
+### Beispiele
 
-1. Verwenden Sie ihn zum Auffinden von Ausreißern:
-
-   ```
-   t_test( zscore(bouncerate), row-count-1, 2)
-   ```
-
-1. Kombinieren Sie ihn mit `if`, um sehr hohe oder niedrige Absprungraten zu ignorieren und alle weiteren Besuche zu zählen:
+1. Verwenden Sie die -Funktion, um Ausreißer zu finden:
 
    ```
-   if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
+   T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-## Tangens {#concept_C25E00CB17054263AB0460D9EF94A700}
+1. Kombinieren Sie die Funktion mit **[IF](#if)**, um sehr hohe oder niedrige Absprungraten zu ignorieren und Sitzungen auf alles andere zu zählen:
 
-Gibt den Tangens des angegebenen Winkels zurück. Wenn der Winkel in Grad vorliegt, multiplizieren Sie ihn mit PI( )/180.
+   ```
+   IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
+   ```
 
-```
-TAN (metric)
-```
+
+
+## Tangens {#tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-tan"
+>title="Tangens"
+>abstract="Gibt den Tangens des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENS(metrisch)]**
+
+Gibt den Tangens des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180.
 
 | Argument | Beschreibung |
 |---|---|
-| *metric* | Der Winkel in Radianten, für den Sie den Tangens ermitteln möchten. |
+| metric | Der Winkel in Bogenmaß, für den die Tangente bestimmt werden soll |
 
-## z-Transformation (Zeile) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Gibt die z-Transformation oder Normaltransformation basierend auf einer normalen Verteilung zurück. Die z-Transformation ist die Anzahl der Standardabweichungen, die eine Beobachtung vom arithmetischen Mittel darstellt. Eine z-Transformation von 0 (null) gibt an, dass die Transformation mit dem arithmetischen Mittel identisch ist. Eine z-Transformation kann positiv oder negativ sein, abhängig davon, ob sie über oder unter dem arithmetischen Mittel liegt und um wie viele Standardabweichungen es sich handelt.
+
+## Z-Score {#z-score}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-z-score"
+>title="Z-Score"
+>abstract="Die Abweichung vom arithmetischen Mittel geteilt durch die Standardabweichung."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
+
+[!BADGE Zeile]{type="Neutral"}
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, für die der Z-Wert gewünscht wird |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen |
+
+Ein Z-Score von 0 (Null) bedeutet, dass der Score dem Mittelwert entspricht. Eine z-Transformation kann positiv oder negativ sein, abhängig davon, ob sie über oder unter dem arithmetischen Mittel liegt und um wie viele Standardabweichungen es sich handelt.
 
 Die Gleichung für z-Transformation lautet:
 
 ![](assets/z_score.png)
 
-wobei [!DNL x] der Rohwert, [!DNL μ] das arithmetische Mittel der Population und [!DNL σ] die Standardabweichung der Population ist.
+Dabei ist ***[!DNL x]*** der Rohwert, ***[!DNL μ]*** der Mittelwert der Population und ***[!DNL σ]*** die Standardabweichung der Population.
 
 >[!NOTE]
 >
->[!DNL μ] (Mu) und [!DNL σ] (Sigma) werden automatisch aus der Metrik berechnet.
+>***[!DNL μ]*** (Mu) und ***[!DNL σ]*** (Sigma) werden automatisch aus der Metrik berechnet.
 
-z-Transformation (Metrik)
 
-<table id="table_AEA3622A58F54EA495468A9402651E1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> <p> Gibt den Wert des ersten Arguments ungleich null zurück. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
-## z-Test {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
+## z-Test {#z-test}
 
-Führt einen n-seitigen z-Test mit einem z-Wert von A durch.
+<!-- markdownlint-disable MD034 -->
 
-Gibt zurück, wie wahrscheinlich es ist, dass die aktuelle Zeile zufällig in der Spalte gesehen wird.
+>[!CONTEXTUALHELP]
+>id="functions-z-test"
+>title="z-Test"
+>abstract="Führt einen n-seitigen z-Test mit einem z-Wert von x durch."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
+
+Führt einen n-seitigen z-Test mit einem z-Wert von x durch.
+
+| Argument | Beschreibung |
+|---|---|
+| metric | Die Metrik, für die ein Z-Test durchgeführt werden soll |
+| Schwänze | Die Länge des für die Durchführung des Z-Tests zu verwendenden Schwanzes |
 
 >[!NOTE]
 >
 >Dabei wird von einer Normalverteilung der Werte ausgegangen.
+
+
+
+
+<!--
+
+
+
+## AND
+
+Returns the value of its argument. Use NOT to make sure that a value is not equal to one particular value.
+
+>[!NOTE]
+>
+>0 (zero) means False, and any other value is True.
+
+```
+AND(logical_test1,[logical_test2],...)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
+
+## Approximate Count Distinct (dimension)
+
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+
+```
+Approximate Count Distinct (dimension)
+```
+
+|  Argument  |  |
+|---|---|
+|  *dimension* | The dimension for which you want the approximate distinct item count.  |
+
+### Example Use Case
+
+Approximate Count Distinct (customer ID eVar) is a common use case for this function.
+
+Definition for a new 'Approximate Customers' calculated metric:
+
+![Approximate county distinct new dimension definition showing Customer ID (eVar1)](assets/approx-count-distinct.png)
+
+This is how the "Approximate Customers" metric could be used in reporting:
+
+![Freeform Table showing Unique Visitors and Approximate Customers ](assets/approx-customers.png)
+
+### Comparing Count Functions
+
+Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
+
+This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts.
+
+## Arc Cosine (Row)
+
+Returns the arccosine, or inverse of the cosine, of a metric. The arccosine is the angle whose cosine is number. The returned angle is given in radians in the range 0 (zero) to pi. If you want to convert the result from radians to degrees, multiply it by 180/PI( ).
+
+```
+ACOS(metric)
+```
+
+|  Argument  |  |
+|---|---|
+|  *metric* | The cosine of the angle you want from -1 to 1. |
+
+## Arc Sine (Row)
+
+Returns the arcsine, or inverse sine, of a number. The arcsine is the angle whose sine is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arcsine in degrees, multiply the result by 180/PI( ).
+
+```
+ASIN(metric)
+```
+
+|  Argument  |  |
+|---|---|
+|  *metric* | The cosine of the angle you want from -1 to 1. |
+
+## Arc Tangent (Row)
+
+Returns the arctangent, or inverse tangent, of a number. The arctangent is the angle whose tangent is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arctangent in degrees, multiply the result by 180/PI( ).
+
+```
+ATAN(metric)
+```
+
+|  Argument  |  |
+|---|---|
+|  *metric* | The cosine of the angle you want from -1 to 1. |
+
+## Exponential Regression: Predicted Y (Row)
+
+Calculates the predicted y-values (metric_Y), given the known x-values (metric_X) using the "least squares" method for calculating the line of best fit based on .
+
+```
+ESTIMATE.EXP(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Cdf-T
+
+Returns the percentage of values in a student's t-distribution with n degrees of freedom that have a z-score less than x.
+
+```
+cdf_t( -∞, n ) = 0
+cdf_t(  ∞, n ) = 1
+cdf_t( 3, 5 ) ? 0.99865
+cdf_t( -2, 7 ) ? 0.0227501
+cdf_t( x, ∞ ) ? cdf_z( x )
+```
+
+## Cdf-Z
+
+Returns the percentage of values in a normal distribution that have a z-score less than x.
+
+```
+cdf_z( -∞ ) = 0
+cdf_z( ∞ ) = 1
+cdf_z( 0 ) = 0.5
+cdf_z( 2 ) ? 0.97725
+cdf_z( -3 ) ? 0.0013499
+
+```
+
+## Exponential Regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+
+```
+INTERCEPT.EXP(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Exponential Regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+
+```
+SLOPE.EXP(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Floor (Row)
+
+Returns the largest integer not greater than a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula FLOOR( *Revenue*) to round revenue down to the nearest dollar, or $569.
+
+```
+FLOOR(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The metric you want to round.  |
+
+## Greater Than
+
+Returns items whose numeric count is greater than the value entered.
+
+## Greater Than or Equal
+
+Returns items whose numeric count is greater than or equal to the value entered.
+
+## Hyperbolic Cosine (Row)
+
+Returns the hyperbolic cosine of a number.
+
+```
+COSH(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want to find the hyperbolic cosine.  |
+
+## Hyperbolic Sine (Row)
+
+Returns the hyperbolic sine of a number.
+
+```
+SINH(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want to find the hyperbolic sine.  |
+
+## Hyperbolic Tangent (Row)
+
+Returns the hyperbolic tangent of a number.
+
+```
+TANH(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+
+## IF (Row)
+
+The IF function returns one value if a condition you specify evaluates to TRUE, and another value if that condition evaluates to FALSE.
+
+```
+IF(logical_test, [value_if_true], [value_if_false])
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical_test* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.)  |
+|  *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.)  |
+
+## Less Than
+
+Returns items whose numeric count is less than the value entered.
+
+## Less Than or Equal
+
+Returns items whose numeric count is less than or equal to the value entered.
+
+## Lift
+
+Returns the Lift a particular variant had in conversions over a control variant. It is the difference in performance between a given variant and the baseline, divided by the performance of the baseline, expressed as a percentage. 
+
+```
+fx Lift (normalizing-container, success-metric, control)
+```
+
+| Argument | Description |
+| --- | --- |
+| Normalizing Container | The basis (People, Sessions, or Events) on which a test will be run. |
+| Success Metric | The metric or metrics that a user is comparing variants with. |
+| Control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+
+{style="table-layout:auto"}
+
+## Linear regression_ Correlation Coefficient
+
+Y = a X + b. Returns the correlation coefficient
+
+## Linear regression_ Intercept
+
+Y = a X + b. Returns b.
+
+## Linear regression_ Predicted Y
+
+Y = a X + b. Returns Y.
+
+## Linear regression_ Slope
+
+Y = a X + b. Returns a.
+
+## Log Base 10 (Row)
+
+Returns the base-10 logarithm of a number.
+
+```
+LOG10(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The positive real number for which you want the base-10 logarithm.  |
+
+## Log regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the CORREL equation.
+
+```
+CORREL.LOG(metric_X,metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Log regression: Intercept (Table)
+
+Returns the intercept *b* as the least squares regression between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the INTERCEPT equation.
+
+```
+INTERCEPT.LOG(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Log Regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. It is calculated using the ESTIMATE equation.
+
+In regression analysis, this function calculates the predicted [!DNL y] values (*metric_Y*), given the known [!DNL x] values (*metric_X*) using the logarithm for calculating the line of best fit for the regression equation [!DNL Y = a ln(X) + b]. The [!DNL a] values correspond to each x value, and [!DNL b] is a constant value.
+
+```
+ESTIMATE.LOG(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Log regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the SLOPE equation.
+
+```
+SLOPE.LOG(metric_A, metric_B)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the independent data.  |
+
+## Natural Log
+
+Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
+
+```
+LN(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The positive real number for which you want the natural logarithm.  |
+
+## NOT
+
+Returns 1 if the number is 0 or returns 0 if another number.
+
+```
+NOT(logical)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical* | Required. A value or expression that can be evaluated to TRUE or FALSE.  |
+
+Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values.
+
+## Not equal
+
+Returns all items that do not contain the exact match of the value entered.
+
+## Or (Row)
+
+Returns TRUE if any argument is TRUE, or returns FALSE if all arguments are FALSE.
+
+>[!NOTE]
+>
+>0 (zero) means False, and any other value is True.
+
+```
+OR(logical_test1,[logical_test2],...)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
+
+## Pi
+
+Returns the constant PI, 3.14159265358979, accurate to 15 digits.
+
+```
+PI()
+```
+
+The [!DNL PI]function has no arguments.
+
+## Power regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+
+```
+CORREL.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Power regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+
+```
+ INTERCEPT.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Power regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+
+```
+ ESTIMATE.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Power regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+
+```
+SLOPE.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Quadratic regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+
+```
+CORREL.QUADRATIC(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Quadratic regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+
+```
+INTERCEPT.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Quadratic regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+
+```
+ESTIMATE.QUADRATIC(metric_A, metric_B)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the dependent data.  |
+
+## Quadratic regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+
+```
+SLOPE.QUADRATIC(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Reciprocal regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X)* and *metric_Y*) for [!DNL Y = a/X+b].
+
+```
+CORREL.RECIPROCAL(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Reciprocal regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+
+```
+INTERCEPT.RECIPROCAL(metric_A, metric_B)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Reciprocal regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+
+```
+ESTIMATE.RECIPROCAL(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Reciprocal regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+
+```
+SLOPE.RECIPROCAL(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Sine (Row)
+
+Returns the sine of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
+
+```
+SIN(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want the sine.  |
+
+## T-Score
+
+Alias for Z-Score, namely the deviation from the mean divided by the standard deviation
+
+## T-Test
+
+Performs an m-tailed t-test with t-score of col and n degrees of freedom.
+
+The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+
+Here, `m` is the number of tails, and `n` is the degrees of freedom. These should be numbers (constant for the whole report, i.e. not changing on a row by row basis).
+
+`X` is the t-test statistic, and would often be a formula (e.g. zscore) based on a metric and will be evaluated on every row.
+
+The return value is the probability of seeing the test statistic x given the degrees of freedom and number of tails.
+
+**Examples:**
+
+1. Use it to find outliers:
+
+   ```
+   t_test( zscore(bouncerate), row-count-1, 2)
+   ```
+
+1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+
+   ```
+   if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
+   ```
+
+## Tangent
+
+Returns the tangent of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
+
+```
+TAN (metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want the tangent.  |
+
+## Z-Score (Row)
+
+Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
+
+The equation for Z-score is:
+
+![](assets/z_score.png)
+
+where [!DNL x] is the raw score, [!DNL μ] is the mean of the population, and [!DNL σ] is the standard deviation of the population.
+
+>[!NOTE]
+>
+>[!DNL μ] (mu) and[!DNL σ] (sigma) are automatically calculated from the metric.
+
+Z-score(metric)
+
+<table id="table_AEA3622A58F54EA495468A9402651E1B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Argument </th>
+   <th colname="col2" class="entry"> Description </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td colname="col1"> <i>metric</i> </td>
+   <td colname="col2"> <p> Returns the value of its first non-zero argument. </p> </td>
+  </tr>
+ </tbody>
+</table>
+
+## Z-Test
+
+Performs an n-tailed Z-test with Z-score of A.
+
+Returns the probability that the current row could be seen by chance in the column.
+
+>[!NOTE]
+>
+>Assumes that the values are normally distributed.
+
+-->

@@ -4,14 +4,21 @@ title: Erstellen und Freigeben von mobilen Scorecards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# Mobile-Scorecard erstellen
+# Erstellen einer mobilen Scorecard {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="Anmerkungen"
+>abstract="Anmerkungen können im Komponenten-Manager eines Arbeitsbereichsprojekts erstellt werden."
+
+<!-- markdownlint-enable MD034 -->
 
 Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten eine Anleitung dazu, wie sie Mobile-Scorecards für Führungskräfte konfigurieren und darstellen können. Sehen Sie sich zunächst das Video zu Scorecard Builder für Adobe Analytics-Dashboards an:
 

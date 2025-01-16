@@ -4,14 +4,30 @@ title: Fallout-Übersicht
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
-# Fallout-Übersicht
+# Fallout-Übersicht {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="Fallout"
+>abstract="Erstellt eine Visualisierung, die zeigt, wie Personen erfolgreich zu den gewünschten Checkpoints übergehen."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Fallout-Visualisierung in **Adobe Analytics**.<br/>Siehe [Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
 
 Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind).
 

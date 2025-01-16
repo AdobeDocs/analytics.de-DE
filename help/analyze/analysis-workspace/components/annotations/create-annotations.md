@@ -4,16 +4,34 @@ description: Erstellen von Anmerkungen in Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
 
-# Erstellen von Anmerkungen
+# Erstellen von Anmerkungen {#create-annotations}
 
-Standardmäßig können nur Admins Anmerkungen erstellen. Benutzer haben die Berechtigung, Anmerkungen anzuzeigen, wie dies bei anderen Analytics-Komponenten der Fall ist (z. B. Segmente, berechnete Metriken usw.).
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_details"
+>title="Anmerkungsdetails"
+>abstract="Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv übermitteln. Durch sie können Sie Kalenderereignisse an bestimmte Dimensionen/Metriken binden. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_scope"
+>title="Anwendungsbereich"
+>abstract="Mit der Option „Umfang“ können Sie anpassen, welche Daten mit einer Anmerkung versehen werden. Berechnete Metriken und Segmente übernehmen nicht automatisch Anmerkungen, die auf die in ihren Definitionen verwendeten Komponenten angewendet werden. Sie können zu einer vorhandenen Anmerkung im Abschnitt „Umfang“ neue berechnete Metriken hinzufügen. Neue Segmente erfordern eine neue Anmerkung."
+
+<!-- markdownlint-enable MD034 -->
+
+Standardmäßig können nur Administratoren Anmerkungen erstellen. Benutzer haben die Berechtigung, Anmerkungen anzuzeigen, wie dies bei anderen Analytics-Komponenten der Fall ist (z. B. Segmente, berechnete Metriken usw.).
 
 Admins können jedoch über die [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=de) Benutzenden die Berechtigung zur [!UICONTROL Erstellung von Anmerkungen] (Analytics-Tools) erteilen.
 

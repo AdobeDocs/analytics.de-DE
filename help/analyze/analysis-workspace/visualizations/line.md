@@ -5,14 +5,30 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 96%
 
 ---
 
-# Linie
+# Linie {#line}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_line_button"
+>title="Linie"
+>abstract="Erstellen Sie eine Linienvisualisierung, die anzeigt, wie sich Werte über einen bestimmten Zeitraum ändern. Eine Linienvisualisierung kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Linienvisualisierung in **Adobe Analytics**.<br/>Siehe [Line](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
 
 Die [!UICONTROL Linien]-Visualisierung stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Ein [!UICONTROL Linien]-Diagramm kann nur verwendet werden, wenn die Zeit eine der Dimensionen ist.
 

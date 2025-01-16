@@ -4,14 +4,30 @@ title: Visualisierung von Kombinationsdiagrammen
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 97%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# Kombinationsdiagramm
+# Kombinationsdiagramm {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="Kombination"
+>abstract="Erstellen Sie schnell eine Visualisierung eines Kombinationsdiagramms, ohne dass Sie zuerst eine Freiformtabelle erstellen müssen."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Kombinationsvisualisierung in **Adobe Analytics**.<br/>Siehe [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
 
 Mit der Visualisierung [!UICONTROL Kombinationsdiagramm] können Sie schnell und einfach einen Vergleich darstellen, ohne zuerst eine Tabelle erstellen zu müssen. Die Entwicklung Ihrer Daten wird dabei durch eine Kombination aus Linien und Balken dargestellt.
 
@@ -65,7 +81,7 @@ Wenn Sie **[!UICONTROL Funktion]** als [!UICONTROL Linienvergleichstyp] auswähl
 | --- | --- |
 | **[!UICONTROL Spaltensumme]** | Addiert alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) |
 | **[!UICONTROL Kumulativer Durchschnitt]** | Gibt den Durchschnitt der letzten N Zeilen zurück. |
-| **[!UICONTROL Median]** | Gibt den Medianwert für eine Metrik in einer Spalte zurück. Der Medianwert ist die Zahl in der Mitte eines Zahlensatzes, d. h. die Hälfte der Zahlen hat Werte größer oder gleich dem Medianwert und die Hälfte ist kleiner oder gleich dem Medianwert. |
+| **[!UICONTROL Median]** | Gibt den Median für eine Metrik in einer Spalte zurück. Der Medianwert ist die Zahl in der Mitte eines Zahlensatzes, d. h. die Hälfte der Zahlen hat Werte größer oder gleich dem Medianwert und die Hälfte ist kleiner oder gleich dem Medianwert. |
 | **[!UICONTROL Kumulativ]** | Die kumulative Summe von N Zeilen. |
 | **[!UICONTROL Spaltenmaximum]** | Gibt den größten Wert in einem Satz aus Dimensionselementen für eine Metrikspalte zurück. |
 | **[!UICONTROL Mittel]** | Gibt das arithmetische Mittel (bzw. den Durchschnitt) einer Metrik zurück. |

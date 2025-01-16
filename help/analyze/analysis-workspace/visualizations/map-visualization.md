@@ -5,14 +5,50 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 92%
 
 ---
 
-# Zuordnung
+# Zuordnung {#map}
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_button"
+>title="Zuordnung"
+>abstract="Diese Visualisierung stellt Metriken dar, indem sie sie auf einer Karte überlagert. Dies ist nützlich, um Daten über verschiedene geografische Regionen hinweg zu identifizieren."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_bubbles"
+>title="Blasen"
+>abstract="Plotten Sie Ereignisse mithilfe von Blasen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_heatmap"
+>title="Heatmap"
+>abstract="Plotten Sie Ereignisse mithilfe einer Heatmap."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Kartenvisualisierung in **Adobe Analytics dokumentiert**.<br/>Derzeit ist keine Zuordnungsvisualisierung in **Customer Journey Analytics verfügbar**.*
+
+>[!ENDSHADEBOX]
 
 ## Überblick {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 

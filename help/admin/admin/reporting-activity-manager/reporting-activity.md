@@ -4,10 +4,10 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,24 @@ Mit [!UICONTROL Reporting Activity Manager] können Administratoren Probleme mit
 Weitere Informationen zu Reporting Activity Manager, einschließlich der wichtigsten Vorteile und Berechtigungsanforderungen, finden Sie unter [Reporting Activity Manager - Übersicht](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Anzeigen der Berichtsaktivität für alle Report Suites {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Verbindungen"
+>abstract="Diese Tabelle zeigt die Verbindungen, für die Sie zur Verwaltung der Reporting-Aktivität berechtigt sind. Informationen zu den einzelnen Verbindungen finden Sie in den jeweiligen Spalten der Tabelle."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="Verbindungen"
+>abstract="Diese Tabelle zeigt die Verbindungen, für die Sie zur Verwaltung der Reporting-Aktivität berechtigt sind. Informationen zu den einzelnen Verbindungen finden Sie in den jeweiligen Spalten der Tabelle."
+
+<!-- markdownlint-enable MD034 -->
 
 1. Navigieren Sie in Adobe Analytics **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 

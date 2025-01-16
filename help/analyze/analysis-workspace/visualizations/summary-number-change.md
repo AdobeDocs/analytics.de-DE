@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL Zusammenfassungszahl] und [!UICONTROL Zusammenfassungsänderung]
+
+*In diesem Artikel werden die Visualisierung der Zusammenfassungsnummer und der Zusammenfassungsänderung in **Adobe Analytics**.<br/>Siehe [Zusammenfassungsnummer und Zusammenfassungsänderung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) für die **Customer Journey Analytics**-Version dieses Artikels.*
 
 Im Folgenden finden Sie ein Video zu diesen beiden Visualisierungen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## Visualisierung der [!UICONTROL Zusammenfassungszahl] {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="Zusammenfassungszahl"
+>abstract="Erstellen Sie eine Visualisierung, die die Summen und Zwischensummen anzeigt."
+
+<!-- markdownlint-enable MD034 -->
 
 Verwenden Sie die Visualisierung der [!UICONTROL Zusammenfassungszahl], um eine große Zahl hervorzuheben, die für ein Projekt wichtig ist. Diese Visualisierung verhält sich folgendermaßen:
 
@@ -37,6 +48,15 @@ Klicken Sie oben rechts auf den **Visualisierungseinstellungen**, um die Einstel
 | [!UICONTROL Wert zusammenfassen nach] | Wählen Sie diese Option, um für ausgewählte Daten das Maximum, das Minimum, den Mittelwert, den Median oder die Summe anzuzeigen. |
 
 ## Visualisierung der [!UICONTROL Zusammenfassungsänderung:] {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Zusammenfassungsänderung"
+>abstract="Erstellen Sie eine Visualisierung, die das Delta (die Änderung) zwischen zwei Zahlen anzeigt."
+
+<!-- markdownlint-enable MD034 -->
 
 Verwenden Sie die Visualisierung der [!UICONTROL Zusammenfassungsänderung], um das Delta (die Änderung) zwischen zwei Zahlen anzuzeigen. Die grüne und rote Farbe der [!UICONTROL Zusammenfassungsänderung] kann über die [benutzerdefinierte Ereignispolarität](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) oder die Option [Aufwärts-Trend anzeigen als](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de) einer berechneten Metrik angepasst werden.
 

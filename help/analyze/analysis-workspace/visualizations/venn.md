@@ -5,14 +5,30 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 87%
 
 ---
 
-# Venn
+# Venn {#venn}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_venn_button"
+>title="Venn"
+>abstract="Erstellen Sie eine Visualisierung eines Venn-Diagramms, um schnell zwei Elemente und die Größe ihrer Überschneidung visuell zu vergleichen."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird die Venn-Visualisierung in **Adobe Analytics**.<br/>Siehe [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
 
 Bei der [!UICONTROL Venn]-Visualisierung können Sie bis zu drei Segmente (aus den [!UICONTROL Komponenten]) und eine Metrik einfügen, um ein [!UICONTROL Venn]-Diagramm zu erstellen.
 

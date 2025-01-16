@@ -5,22 +5,50 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 82ba19e600f141f967148399cc1697f0bba189db
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 85%
+source-wordcount: '172'
+ht-degree: 69%
 
 ---
 
 # Bereich und Bereich gestapelt
 
-## Bereich {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel werden die Visualisierungen „Bereich“ und „Bereich gestapelt“ in **Adobe Analytics**.<br/>Siehe [Bereich und Bereich gestapelt](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area) für die **Customer Journey Analytics**-Version dieses Artikels.*
+
+>[!ENDSHADEBOX]
+
+Die Bereichsvisualisierung verfügt über eine standardmäßige und gestapelte Option.
+
+## Bereich {#area}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_area_button"
+>title="Flächendiagramm"
+>abstract="Erstellen Sie eine Flächendiagrammvisualisierung, um die Schnittmenge mehrerer Metriken darzustellen."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Diese Visualisierung entspricht einem Kantengraph, bei dem der Bereich unter der Linie farbig dargestellt ist. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird.
 
 ![](assets/area.png)
 
-## Bereich gestapelt {#section_922BBC5A6D254778A050DF710B0BD8D9}
+## Bereich gestapelt {#area-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_areastacked_button"
+>title="Bereich gestapelt"
+>abstract="Erstellen Sie eine Flächendiagramm-Visualisierung, um die Stapelung mehrerer Metriken darzustellen."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Diese Visualisierung entspricht einem Flächendiagramm, aber hier beginnt jede Serie über der vorherigen Serie.
 
