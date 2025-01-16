@@ -4,9 +4,9 @@ title: Bedienfeld „Nächstes oder vorheriges Element“
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '467'
 ht-degree: 36%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-*In diesem Artikel wird das Bedienfeld Nächstes oder vorheriges Element in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**dokumentiert.<br/>Siehe [Bedienfeld „Nächstes oder vorheriges Element](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**-Version dieses Artikels.*
+*In diesem Artikel wird das Bedienfeld Nächstes oder vorheriges Element in **Adobe Analytics**.<br/>Siehe [Bedienfeld „Nächstes oder vorheriges Element](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) für die **Customer Journey Analytics**-Version dieses Artikels.*
 
 >[!ENDSHADEBOX]
 

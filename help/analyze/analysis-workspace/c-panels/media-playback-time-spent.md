@@ -4,9 +4,9 @@ description: Verwendung und Interpretation des Panels „verbrachten Zeit bei de
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 56%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-*In diesem Artikel wird das Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“ in ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**dokumentiert.<br/>Siehe [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**-Version dieses Artikels.*
+*In diesem Artikel wird das Panel „Verbrachte Zeit bei der Medienwiedergabe“ in **Adobe Analytics**.<br/>Siehe [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) für die **Customer Journey Analytics**-Version dieses Artikels.*
 
 >[!ENDSHADEBOX]
 
