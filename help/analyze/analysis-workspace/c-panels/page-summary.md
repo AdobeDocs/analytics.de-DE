@@ -4,14 +4,33 @@ title: Bedienfeld „Seitenzusammenfassung“
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
 
-# Bedienfeld „Seitenzusammenfassung“
+# Bedienfeld „Seitenzusammenfassung“ {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="Seitenzusammenfassung"
+>abstract="Überprüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="Bedienfeld „Seitenzusammenfassung“"
+>abstract="Überprüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter **<br/>**Dimensionselement Seite hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension Seite und erweitern Sie sie, indem Sie auf die Karotte klicken, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die spezifische Seite, über die Sie etwas erfahren möchten, per Drag-and-Drop in den Builder. Nachdem Sie das Dimensionselement per Drag-and-Drop verschoben haben, wird der Bericht automatisch mit wichtigen Informationen zur Seite gefüllt."
+
+<!-- markdownlint-enable MD034 -->
+
 
 In diesem Bedienfeld können Sie wichtige Statistiken zu bestimmten Seiten einfach untersuchen.
 
