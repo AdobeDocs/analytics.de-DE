@@ -4,10 +4,10 @@ description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgrupp
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 89%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ Video zu Kohortentabellen in Analysis Workspace:
 
 ## Funktionen der Kohortenanalyse
 
-Die folgenden Fähigkeiten ermöglichen eine fein abgestimmte Kontrolle über die erstellten Kohorten:
+In den folgenden Abschnitten werden Funktionen zur Kohortenanalyse beschrieben, die eine Feinabstimmung der Kontrolle über die Kohorten ermöglichen, die Sie erstellen.
+
+Weitere Informationen zum Erstellen einer Kohorte und zum Ausführen eines Berichts [!UICONTROL Kohortenanalyse] finden Sie unter [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### [!UICONTROL Bindungstabelle]
 
@@ -103,5 +105,3 @@ Misst die Zeit, die vor und nach dem Aufnahmeereignis verstrichen ist. Ein hervo
 Erstellen Sie Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf Grundlage zeitbasierter Kohorten, die Standardeinstellung sind. Verwenden Sie Dimensionen wie [!UICONTROL Marketing-Kanal], [!UICONTROL Kampagne], [!UICONTROL Produkt], [!UICONTROL Seite], [!UICONTROL Region] oder jede andere Dimension in Adobe Analytics, um anzuzeigen, wie die Bindung sich basierend auf verschiedenen Werten dieser Dimensionen verändert.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-Anweisungen zum Einrichten und Ausführen eines Kohortenberichts finden Sie unter [Konfigurieren eines Kohortenanalyseberichts](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

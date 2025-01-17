@@ -5,7 +5,7 @@ title: Ausführen eines Kohortenanalyseberichts
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -33,9 +33,10 @@ Erstellen Sie in Analysis Workspace eine Kohorte und führen Sie einen [!UICONTR
 1. (Optional) Passen Sie die **[!UICONTROL Einstellungen der Kohortentabellen]** durch Klicken auf das Zahnradsymbol an.
 
    | Einstellung | Beschreibung |
-| Nur Prozentwert anzeigen | Entfernt den Zahlenwert und zeigt nur den Prozentsatz an. |
-| Prozentwert auf nächste Ganzzahl runden | Rundet den Prozentwert auf den nächsten ganzzahligen Wert, anstatt den Dezimalwert anzuzeigen. |
-| Zeile mit durchschnittlichem Porzentwert anzeigen | Fügt oben in der Tabelle eine neue Zeile ein und fügt dann den Durchschnitt der Werte in jeder Spalte hinzu. |
+   |--- |--- |
+   | Nur Prozentwert anzeigen | Entfernt den Zahlenwert und zeigt nur den Prozentsatz an. |
+   | Prozentwert auf nächste Ganzzahl runden | Rundet den Prozentwert auf den nächsten ganzzahligen Wert, anstatt den Dezimalwert anzuzeigen. |
+   | Zeile mit durchschnittlichem Prozentwert anzeigen | Fügt oben in der Tabelle eine neue Zeile ein und fügt dann den Spaltendurchschnitt der Werte hinzu. |
 
 ## Erstellen des Berichts [!UICONTROL Kohortenanalyse]
 
