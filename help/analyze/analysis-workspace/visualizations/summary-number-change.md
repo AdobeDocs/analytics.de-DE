@@ -54,7 +54,7 @@ Klicken Sie oben rechts auf den **Visualisierungseinstellungen**, um die Einstel
 >[!CONTEXTUALHELP]
 >id="workspace_summarychange_button"
 >title="Zusammenfassungsänderung"
->abstract="Erstellen Sie eine Visualisierung, die das Delta (die Änderung) zwischen zwei Zahlen anzeigt."
+>abstract="Erstellen Sie eine Visualisierung, die das Delta (die Änderung) zwischen zwei Zahlen anzeigt"
 
 <!-- markdownlint-enable MD034 -->
 
