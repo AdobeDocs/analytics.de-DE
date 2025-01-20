@@ -4,9 +4,9 @@ description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgrupp
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 86%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-*In diesem Artikel wird die Kohortentabelle in **Adobe Analytics**.<br/>Siehe [Kohortentabelle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) für die **Customer Journey Analytics**-Version dieses Artikels.*
+_In diesem Artikel wird die Kohortentabelle in {_}![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Kohortentabelle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 

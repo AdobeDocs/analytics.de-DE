@@ -4,9 +4,9 @@ description: Verwendung und Interpretation des Attributionsbedienfelds in Analys
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '692'
 ht-degree: 47%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*In diesem Artikel wird das Attributionsbedienfeld in **Adobe Analytics**.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) für die **Customer Journey Analytics**-Version dieses Artikels.*
+_In diesem Artikel wird das Attributionsbedienfeld in {_}![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 

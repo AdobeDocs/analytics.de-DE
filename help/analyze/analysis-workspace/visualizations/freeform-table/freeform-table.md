@@ -4,9 +4,9 @@ description: Freiformtabellen sind die Grundlage für die Analyse von Daten in W
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 64%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-*In diesem Artikel wird die Freiformtabellen-Visualisierung in **Adobe Analytics**.<br/>Siehe [Freiformtabelle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) für die **Customer Journey Analytics**-Version dieses Artikels.*
+_In diesem Artikel wird die Freiformtabellen-Visualisierung in {_}![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Freiformtabelle](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 

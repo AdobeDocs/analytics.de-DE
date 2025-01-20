@@ -4,9 +4,9 @@ description: Verwendung und Interpretation des Bedienfelds „Gleichzeitige Medi
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1234'
 ht-degree: 47%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in **Adobe Analytics Analytics}**.<br/>Siehe [Bedienfeld „Gleichzeitige Medienbetrachter](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) für die **Customer Journey Analytics**-Version dieses Artikels.*
+_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in **Adobe Analytics Analytics}**.<br/>Siehe [Bedienfeld „Gleichzeitige Medienbetrachter](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
