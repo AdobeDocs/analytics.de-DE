@@ -5,23 +5,23 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1653'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Neue Landingpage von Adobe Analytics
 
-Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] als auch [!DNL Reports & Analytics] (eingestellt) in einer einzigen Oberfläche und einem Zugangspunkt unter dem Dach von [!DNL Workspace]. Sie enthält eine Startseite für den Projekt-Manager, einen Vorlagenbereich und einen Lernbereich, der Ihnen bei den ersten Schritten hilft. Hier finden Sie eine Videoübersicht:
+Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] als auch [!DNL Reports & Analytics] (eingestellt) in einer einzigen Oberfläche und einem Zugangspunkt unter dem Dach von [!DNL Workspace]. Sie enthält eine Startseite für den Projekt-Manager, einen Vorlagenbereich und einen Lernbereich, der Ihnen dabei hilft, die ersten Schritte effektiver zu bewältigen. Hier finden Sie eine Videoübersicht:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-Die Adobe Analytics-Landingpage besteht aus den folgenden Unterregisterkarten: Projekte, Vorlagen und Lernen.
+Die Adobe Analytics-Landingpage besteht aus den folgenden Unterregisterkarten: „Projekte“, „Vorlagen“ und „Lernen“.
 
 **[!UICONTROL Projekte]** sind benutzerdefinierte Entwürfe, die aus Datenkomponenten, Tabellen und Visualisierungen bestehen, die von Ihnen erstellt oder einer anderen Person für Sie erstellt und freigegeben wurden. [!UICONTROL Projekte] beziehen sich auch auf leere Projekte und leere mobile Scorecards.
 
-**[!UICONTROL Vorlagen]** enthält Vorlagen, die vom Adobe bereitgestellt werden, und alle Vorlagen, die für Ihr Unternehmen spezifisch sind.
+**[!UICONTROL Vorlagen]** enthält sowohl von Adobe bereitgestellte als auch für Ihr Unternehmen spezifische Vorlagen.
 
 Die Registarkarte **[!UICONTROL Lernen]** enthält praktische Video-Touren und Tutorials sowie Links zur Dokumentation.
 
@@ -83,7 +83,7 @@ Die verfügbaren Spalten sind:
 | ANZEIGEN: Ordner und Projekte oder alle Projekte | Ändert die Anzeigeeinstellung der Tabelle, sodass Ordner und Projekte entsprechend Ihrer Ordnerorganisation **oder** alle Projekte in einer ungeordneten Liste angezeigt werden. |
 | &lt; (Schaltfläche „Zurück“) | Hiermit gelangen Sie in einem Analysis Workspace-Projekt oder einem Bericht zu Ihrer letzten Landingpage-Konfiguration zurück. Die Seitenkonfiguration, die Sie beim Verlassen der Landingpage hatten, bleibt bis zur Rückkehr erhalten. |
 
-## Navigieren durch die [!UICONTROL Vorlagen] Registerkarte {#navigate-reports}
+## Navigieren auf der Registerkarte [!UICONTROL Vorlagen] {#navigate-reports}
 
 Informationen zur Verwendung von Vorlagen in Adobe Analytics finden Sie in den folgenden Ressourcen:
 
