@@ -6,18 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 79%
+source-wordcount: '1168'
+ht-degree: 81%
 
 ---
 
 # Erstellen von Zeitplänen für Arbeitsmappen
-
->[!NOTE]
->
->Die Arbeitsmappen-Planung für diese Version von Report Builder auf Adobe Analytics wurde noch nicht veröffentlicht, wird aber Anfang 2025 verfügbar sein. Sie können jetzt mit Arbeitsmappen beginnen, für die keine Planung erforderlich ist.
 
 Nachdem Sie Ihre Arbeitsmappe gespeichert und Ihre Analyse abgeschlossen haben, können Sie die Arbeitsmappe mithilfe der Zeitplanfunktion für andere in Ihrem Team freigeben. Mit der Zeitplanfunktion können Sie einen Zeitplan erstellen, anhand dessen die Daten in der Arbeitsmappe automatisch aktualisiert werden und die Excel-Arbeitsmappe (.xlsx) als E-Mail-Anhang an Ihre ausgewählte Zielgruppe gesendet wird. Durch die Einrichtung eines Zeitplans erhalten die Empfänger und Empfängerinnen automatisch regelmäßige Aktualisierungen. Sie können die Zeitplanfunktion auch verwenden, um die Arbeitsmappe nur einmal zu senden, ohne automatische Aktualisierungen festzulegen.
 

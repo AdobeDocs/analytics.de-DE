@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den allgemeinen Workflow bei der Verwendung
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Wenn Sie einen Online-Treffer senden, der einen [`transactionID`](/help/implemen
 Transaktions-ID-Datenquellen haben die folgenden Eigenschaften:
 
 * Die Online-Daten müssen zuerst erfasst und verarbeitet werden. Wenn eine Transaktions-ID-Datenquelle hochgeladen wird, bevor eine Report Suite einen Treffer verarbeitet, der mit dieser Transaktions-ID übereinstimmt, werden die Daten nicht verknüpft.
-* Über AppMeasurement erfasste Transaktions-IDs laufen nach etwa 90 Tagen ab. Wenn Ihr Unternehmen ein längeres Transaktions-ID-Fenster benötigt, wenden Sie sich an die Kundenunterstützung von Adobe.
+* Über AppMeasurement erfasste Transaktions-IDs laufen nach 25 Monaten ab.
 * Datenquellen, die mit einer abgelaufenen Transaktions-ID hochgeladen wurden, werden ähnlich wie Daten behandelt, die ohne Transaktions-ID hochgeladen wurden.
 * Wenn dieselbe Variable sowohl im Online-Treffer als auch in der Transaktions-ID-Datenquelle enthalten ist, wird der Wert aus der Transaktions-ID-Datenquelle verwendet.
 * Wenn eine Variable in einem Online-Treffer, aber nicht in einem übereinstimmenden Transaktions-ID-Datenquellen-Treffer enthalten ist, wird die Online-Treffervariable beibehalten.

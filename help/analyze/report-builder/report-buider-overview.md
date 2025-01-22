@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -21,10 +21,6 @@ Das neue JavaScript-Report Builder-Add-in, das ursprünglich nur auf Customer Jo
 - Plattformübergreifend: Keine weitere Anmeldung bei Ihrem virtuellen Rechner, um Report Builder zu verwenden, da wir jetzt PC, Mac und Excel Online unterstützen
 - Dank API-2.0-Upgrade verkürzt sich die Wartezeit auf die Rückgabe von Datenblöcken
 - Verbesserte Geschwindigkeit.
-
->[!NOTE]
->
->Die Arbeitsmappen-Planung für diese Version von Report Builder auf Adobe Analytics wurde noch nicht veröffentlicht, wird aber Anfang 2025 verfügbar sein. Sie können jetzt mit Arbeitsmappen beginnen, für die keine Planung erforderlich ist.
 
 Benutzende des alten Report Builder-Tools können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neuen Report Builder konvertieren.
 
