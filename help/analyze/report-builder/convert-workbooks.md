@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Im Zuge der Umstellung auf eine neue Report Builder-Technologie können Sie Ihre
 
 >[!IMPORTANT]
 >
->Duplizieren Sie jede Arbeitsmappe und benennen Sie eine Version um, bevor Sie sie konvertieren. Auf diese Weise haben Sie immer noch eine Kopie der ursprünglichen Arbeitsmappe, falls Sie sie benötigen.
+>Duplizieren Sie jede Arbeitsmappe und benennen Sie eine Version um, bevor Sie sie konvertieren. Auf diese Weise haben Sie immer noch eine Kopie der ursprünglichen Arbeitsmappe, falls Sie sie benötigen sollten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ Im Zuge der Umstellung auf eine neue Report Builder-Technologie können Sie Ihre
 Sie können [den Datenblock verwalten](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Funktionen älterer Report Builder werden im neuen Report Builder nicht unterstützt
+## Funktionen älterer Report Builder werden im neuen Report Builder nicht unterstützt {#unsupported}
 
 Beim Vergleich der Funktionalität von Legacy-Report Builder mit dem neuen Report Builder-Add-in sind einige Legacy-Funktionen nicht mehr verfügbar:
 
@@ -66,3 +66,7 @@ Beim Vergleich der Funktionalität von Legacy-Report Builder mit dem neuen Repor
 - FTP-Option für terminierte Berichte
 
 - Besuchermetriken. Die folgenden Metriken werden alle in „Unique Visitors“ konvertiert, obwohl das Berichtsergebnis möglicherweise keine exakte Übereinstimmung aufweist: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` und `visitorsyearly`. Dies gilt auch für `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` und `mobilevisitorsyearly`.
+
+## Planen einer konvertierten Arbeitsmappe {#schedule}
+
+Siehe [Planen einer konvertierten Arbeitsmappe](/help/analyze/report-builder/schedule-reportbuilder.md) im Artikel Planung .

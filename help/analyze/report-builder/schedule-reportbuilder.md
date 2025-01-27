@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ Verwenden Sie die Schaltfläche Zeitplan im Report Builder-Hub, um schnell einen
 
    ![Bestätigungs-Popup](./assets/confirmation-toast.png){width="55%"}
 
+## Planen einer konvertierten Arbeitsmappe {#converted}
+
+1. Planen Sie eine [konvertierte](/help/analyze/report-builder/convert-workbooks.md) ältere Arbeitsmappe.
+
+   Es wird ein Popup angezeigt, in dem Sie gefragt werden, ob Sie die Zeitplanmetadaten aus der veralteten Arbeitsmappe verwenden möchten, um eine neue geplante Aufgabe zu erstellen.
+
+1. Wenn Sie **[!UICONTROL Verwenden]** auswählen, füllt Report Builder automatisch die alten Zeitplaninformationen aus.
+
+1. Stellen Sie sicher, dass diese Informationen korrekt sind und den Zeitplan einhalten.
+
+1. Wenn Sie die Arbeitsmappe nach einem anderen Zeitplan senden möchten, planen Sie eine vollständig neue geplante Aufgabe.
+
+
 ## Einmaliges Senden der Arbeitsmappe
 
 Sie können die Arbeitsmappe auch nur ein einziges Mal versenden.
@@ -85,7 +98,7 @@ Sie können die Arbeitsmappe auch nur ein einziges Mal versenden.
 
 1. Klicken Sie auf **Jetzt senden**.
 
-## Anzeigen und Bearbeiten geplanter Arbeitsmappen
+## Anzeigen und Bearbeiten geplanter Arbeitsmappen {#view-edit}
 
 Sie können alle geplanten Arbeitsmappen auf der Registerkarte „Arbeitsmappen“ anzeigen und verwalten.
 
@@ -107,7 +120,7 @@ Sie können alle geplanten Arbeitsmappen auf der Registerkarte „Arbeitsmappen�
 
   ![Screenshot mit der Liste der geplanten Aufgaben.](./assets/selected-workbook.png){width="40%"}
 
-## Überprüfen des Status geplanter Aufgaben
+## Überprüfen des Status geplanter Aufgaben {#status}
 
 In der Verlaufsansicht können Sie den Status jeder geplanten Aufgabe überprüfen. Für jede geplante Aufgabe wird in einer eigenen Zeile die Statusänderung festgehalten. Im folgenden Beispiel wurde *der neue stündliche Zeitplan* am 5. Januar um 15:04 Uhr gestartet. Um 15:05 Uhr waren die Aktualisierung und der Versand an die Empfänger und Empfängerinnen erfolgreich abgeschlossen. Die nächste Arbeitsmappe, *Fehlerhafte Arbeitsmappe*, meldete einen Fehler während des Aktualisierungsprozesses. Wenn eine Arbeitsmappe nicht gesendet werden kann, hilft Ihnen die Registerkarte „Verlauf“ bei der Fehlerbehebung, da sie anzeigt, wo im Prozess der Fehler aufgetreten ist. In diesem Fall ist der Fehler wahrscheinlich auf einen Datenblockfehler, vielleicht eine fehlende Komponente, zurückzuführen, sodass die Arbeitsmappe nicht erfolgreich aktualisiert werden konnte.
 
