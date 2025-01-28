@@ -7,11 +7,11 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
-# Bedienfeld „Analytics for Target“ {#analyze-for-target-panel}
+# Analytics for Target-Bedienfeld {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Bedienfeld „Analytics for Target“"
->abstract="Target-Aktivitäten und Erlebnisse in Analysis Workspace analysieren.<br/><br>**Parameter **<br/>**Target-Aktivität**: Die analysierte Target-Aktivität.<br/>**Kontrollerlebnis**: Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besucher, Besuche oder Impressionen. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetriken**: Bis zu drei standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
+>title="Analytics for Target-Bedienfeld"
+>abstract="Target-Aktivitäten und Erlebnisse in Analysis Workspace analysieren.<br/><br>**Parameter **<br/>**Target-Aktivität**: Die analysierte Target-Aktivität.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
 
 <!-- markdownlint-enable MD034 -->
 

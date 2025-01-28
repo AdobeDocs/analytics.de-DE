@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 27%
+ht-degree: 38%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
->title="Bedienfeld für den Segmentvergleich"
->abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln.<br/><br/>**Parameter **<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem Sie vergleichen möchten. Dadurch wird automatisch *Alle anderen* eingefügt, was das Gegenteil Ihres ersten Segments ist. Sie können dies bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte**: Die Möglichkeit, Komponenten von der Analyse im Segmentvergleich auszuschließen."
+>title="Bedienfeld „Segmentvergleich“"
+>abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln.<br/><br/>**Parameter **<br/>**Segment hinzufügen**: Das erste Segment, das analysiert werden soll.<br/>**Vergleichen mit**: Das zweite Segment, mit dem ein Vergleich durchgeführt werden soll. Dies wird automatisch mit *Alle anderen* aufgefüllt, was die Inverse Ihres ersten Segments ist. Sie können dies bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

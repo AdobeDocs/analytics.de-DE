@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_button"
 >title="Seitenzusammenfassung"
->abstract="Überprüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite."
+>abstract="Prüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Bedienfeld „Seitenzusammenfassung“"
->abstract="Überprüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter **<br/>**Dimensionselement Seite hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension Seite und erweitern Sie sie, indem Sie auf die Karotte klicken, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die spezifische Seite, über die Sie etwas erfahren möchten, per Drag-and-Drop in den Builder. Nachdem Sie das Dimensionselement per Drag-and-Drop verschoben haben, wird der Bericht automatisch mit wichtigen Informationen über die Seite gefüllt."
+>abstract="Prüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter **<br/>**Dimensionselement „Seite“ hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension „Seite“ und erweitern Sie sie durch Klicken auf die Karotte, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die Seite, über die Sie etwas erfahren möchten, in den Builder. Nachdem Sie das Dimensionselement per Drag-and-Drop verschoben haben, wird der Bericht automatisch mit wichtigen Informationen über die Seite gefüllt."
 
 <!-- markdownlint-enable MD034 -->
 
