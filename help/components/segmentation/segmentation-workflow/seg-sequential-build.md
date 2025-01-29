@@ -3,9 +3,9 @@ description: Sequenzielle Segmente werden über den THEN-Operator anstelle von A
 title: Sequentielle Segmente erstellen
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
+source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '3931'
 ht-degree: 95%
 
 ---
@@ -27,7 +27,7 @@ Im Folgenden finden Sie ein Video zur sequenziellen Segmentierung:
 Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist, identifiziert das Segment Pfade, die mit dem jeweiligen Muster insgesamt übereinstimmen. Hier ist ein Beispiel für ein einfaches Sequenzsegment, das nach einem Treffer sucht (Seite A), auf den ein weiterer folgt (Seite B), der vom gleichen Besucher besucht wurde. Das Segment ist so eingestellt, dass es alle einschließt.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
 
 | Wenn Ergebnis... | Sequenz |
 |--- |--- |
@@ -349,11 +349,11 @@ Mit den [!UICONTROL Within] und [!UICONTROL After]-Behältern und durch Angabe e
 >
 >Bei der Auswertung gibt es Unterschiede zwischen ähnlich benannten Elementen **Tag(e** oder **Tag**. Für zeitbasierte Definitionen von „Innerhalb“ und „Danach“ verwenden Sie die Optionen, die zuerst im Popup-Fenster aufgeführt sind:
 >
->![Bild](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![Bild](assets/terrible-link-2.png)
 >
 >Für Dimensionsbasierte Definitionen von „In“ und „Danach“ verwenden Sie die Optionen im Untermenü *Sonstige Dimensionen*:
 >
->![Bild](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![Bild](assets/terrible-link-3.png)
 
 ### After- und Within-Operatoren {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
