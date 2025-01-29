@@ -3,7 +3,7 @@ description: Sequenzielle Segmente werden über den THEN-Operator anstelle von A
 title: Sequentielle Segmente erstellen
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
+source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
 workflow-type: tm+mt
 source-wordcount: '3931'
 ht-degree: 95%
@@ -27,7 +27,7 @@ Im Folgenden finden Sie ein Video zur sequenziellen Segmentierung:
 Wenn bei der Erstellung eines Segments „Alle einschließen“ ausgewählt ist, identifiziert das Segment Pfade, die mit dem jeweiligen Muster insgesamt übereinstimmen. Hier ist ein Beispiel für ein einfaches Sequenzsegment, das nach einem Treffer sucht (Seite A), auf den ein weiterer folgt (Seite B), der vom gleichen Besucher besucht wurde. Das Segment ist so eingestellt, dass es alle einschließt.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
 
 | Wenn Ergebnis... | Sequenz |
 |--- |--- |
@@ -293,7 +293,7 @@ Seite B und C sind in einem [!UICONTROL logischen Gruppenbehälter] innerhalb de
 
 ![](assets/logic_group_any_order3.png)
 
-Das Segment muss mindestens mit einem der Checkpoints der logischen Gruppe (B oder C) übereinstimmen. Außerdem können die Bedingungen für logische Gruppen im selben Treffer oder über mehrere Treffer hinweg erfüllt werden.&#x200B;
+Das Segment muss mindestens mit einem der Checkpoints der logischen Gruppe (B oder C) übereinstimmen. Außerdem können logische Gruppenbedingungen im selben Treffer oder über mehrere Treffer hinweg erfüllt werden.
 
 ### Logische Gruppe – Erste Übereinstimmung
 
@@ -349,11 +349,11 @@ Mit den [!UICONTROL Within] und [!UICONTROL After]-Behältern und durch Angabe e
 >
 >Bei der Auswertung gibt es Unterschiede zwischen ähnlich benannten Elementen **Tag(e** oder **Tag**. Für zeitbasierte Definitionen von „Innerhalb“ und „Danach“ verwenden Sie die Optionen, die zuerst im Popup-Fenster aufgeführt sind:
 >
->![Bild](assets/terrible-link-2.png)
+>![Bild](assets/copied-link-2.png)
 >
 >Für Dimensionsbasierte Definitionen von „In“ und „Danach“ verwenden Sie die Optionen im Untermenü *Sonstige Dimensionen*:
 >
->![Bild](assets/terrible-link-3.png)
+>![Bild](assets/copied-link-3.png)
 
 ### After- und Within-Operatoren {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
