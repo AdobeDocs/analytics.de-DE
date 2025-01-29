@@ -4,9 +4,9 @@ title: Verwenden von Vorlagen
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
+source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
 workflow-type: tm+mt
-source-wordcount: '18673'
+source-wordcount: '18672'
 ht-degree: 83%
 
 ---
@@ -1226,7 +1226,7 @@ Die folgenden Vorlagen sind verfügbar:
 | **Verweisende Stellen** | Zeigen Sie an, auf welchen URLs sich die Besuchenden befanden, als sie sich zu Ihrer Site durchklickten. (In der externen URL muss ein Link vorhanden sein und Besuchende müssen darauf klicken, damit das Dimensionselement angezeigt wird.)  <p>**Dies kann Ihnen helfen**, besser zu verstehen, welche spezifischen URLs den meisten Traffic zu Ihrer Site leiten.</p><p>**Basierend auf dem, was Sie lernen** können Sie beliebig viele Dinge tun, z. B. Inhalte erstellen oder anpassen, um sie besser an die Interessen der Besucher anzupassen, die von Top-URLs kommen. </p><p>Diese Vorlage verwendet die Dimension Referrer Domain . </p><p>Diese Vorlage verwendet die Dimension Referrer . </p> |
 | **Referrer-Typen** | Zeigen Sie an, durch welche generischen Kanäle Besuchende sich geklickt haben, um zu Ihrer Site zu gelangen. Adobe verwaltet die Regeln für jeden Kanal. Mögliche Kanäle sind Suchmaschinen, soziale Netzwerke, andere Websites, die Festplatte oder E-Mails.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Referrer-Typen den meisten Traffic zu Ihrer Site leiten.</p><p>**Basierend auf dem, was Sie lernen** können Sie beliebig viele Dinge tun, z. B. Inhalte erstellen oder anpassen, um sie besser an die Interessen der Besucher anzupassen, die von einem bestimmten Kanal kommen.</p><p>Diese Vorlage verwendet die Dimension Referrer-Typ .</p> |
 
-## Mobile-Vorlagen
+### Mobile {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 
