@@ -3,9 +3,9 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2504'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,6 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Benutzerhandbuch zu Analysen.
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
 * **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) im Benutzerhandbuch zu zentralen Diensten.
-* **Support-Beauftragter:** ein bestimmter Anwender, der zur direkten Interaktion mit der Adobe-Kundenunterstützung bestimmt ist. Siehe [Support-Beauftragte](https://helpx.adobe.com/de/experience-cloud/supported-users.html) in der Experience Cloud-Wissensdatenbank.
 * **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungs-Server von Adobe gesendet.
 * **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch die Adobe Exchange Marketplace.
 * **Daten-Feed:** ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten werden Adobe Analytics-Daten in Datenbanken von Drittanbietern exportiert. Siehe [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten.

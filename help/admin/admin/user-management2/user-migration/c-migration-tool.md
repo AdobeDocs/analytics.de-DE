@@ -4,10 +4,10 @@ title: Analytics-Benutzermigration zur Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '3084'
-ht-degree: 96%
+source-wordcount: '3083'
+ht-degree: 95%
 
 ---
 
@@ -281,7 +281,7 @@ Wichtige Informationen zum Migrationsprozess und dazu, welche Auswirkungen diese
   </tr> 
   <tr> 
    <td colname="col1"> <p>User Management-APIs – <a href="https://helpx.adobe.com/de/enterprise/help/identity.html">von Adobe unterstützte Identitätstypen</a> </p> </td> 
-   <td colname="col2"> <p> Admins, die zur Adobe Admin Console migrieren, sollten die über Adobe Developer angebotenen <a href="https://developer.adobe.com/UMAPI/">User Management-APIs</a> konfigurieren, um programmgesteuerten Zugriff auf Benutzerkonten in der Adobe Admin Console zu erhalten. </p> <p>Die Analytics-Berechtigungs-APIs werden deaktiviert, wenn die Migration für Sie aktiviert wird. </p> </td> 
+   <td colname="col2"> <p> Admins, die zur Adobe Admin Console migrieren, sollten die auf Adobe Developer angebotenen User Management-APIs konfigurieren, um programmgesteuerten Zugriff auf Benutzerkonten in der Adobe Admin Console zu erhalten. </p> <p>Die Analytics-Berechtigungs-APIs werden deaktiviert, wenn die Migration für Sie aktiviert wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web-Service-Zugriffsberechtigungen </p> </td> 
