@@ -3,9 +3,9 @@ description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie A
 title: Kontextbezogene Sitzungen
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,13 @@ Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analyti
 
 Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrunde liegenden Daten zu ändern, um ihn auf die Interaktion Ihrer Besucher mit Ihren digitalen Erlebnissen abzustimmen.
 
-Im Folgenden finden Sie ein Video zu kontextabhängigen Sitzungen:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kontextsensitive Sitzungen](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## URL-Parameter für Kundenperspektive
 
