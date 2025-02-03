@@ -27,7 +27,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Analytics for Target-Bedienfeld"
->abstract="Target-Aktivitäten und Erlebnisse in Analysis Workspace analysieren.<br/><br>**Parameter **<br/>**Target-Aktivität**: Die analysierte Target-Aktivität.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
+>abstract="Target-Aktivitäten und Erlebnisse in Analysis Workspace analysieren.<br/><br>**Parameter **<br/>**Target-Aktivität**: Die Target-Aktivität, die analysiert wird.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
 
 <!-- markdownlint-enable MD034 -->
 
