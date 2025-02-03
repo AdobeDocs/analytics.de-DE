@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ Standardmäßig gibt jedes Dimensionselement in der Tabelle die 10 wichtigsten E
 
 So ändern Sie die für jede Dimension zurückgegebenen Dimensionselemente
 
-1. Wählen Sie einen Datenblock aus und klicken Sie **[!UICONTROL Datenblock bearbeiten]** im Bedienfeld „Befehle“.
+1. Klicken Sie **[!UICONTROL Verwalten]** und wählen Sie einen Datenblock aus der Liste aus.
+
+   ![Verwalten > Datenblock bearbeiten](./assets/manage-edit.png)
+
+1. Klicken **[!UICONTROL im Bedienfeld &quot;]**&quot; auf „Datenblock bearbeiten“.
 
 1. Klicken Sie **[!UICONTROL Weiter]**, um die Registerkarte Dimensionen anzuzeigen.
 
