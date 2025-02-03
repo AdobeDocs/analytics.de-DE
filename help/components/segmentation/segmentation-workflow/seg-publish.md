@@ -3,10 +3,10 @@ description: Sie können das Segment für Marketingaktivitäten in der Zielgrupp
 title: Publish-Segmente zum Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 67%
+source-wordcount: '1308'
+ht-degree: 66%
 
 ---
 
@@ -16,9 +16,13 @@ Durch das Veröffentlichen eines Adobe Analytics-Segments auf Experience Cloud k
 
 Sie können Analytics-Segmente in weniger als acht Stunden auf Experience Cloud veröffentlichen. Verwenden Sie diese Segmente, um Zielgruppen-Manager in Audience Manager für alle nachfolgenden Ziele zu aktivieren.
 
-Weitere Informationen finden Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish-Segmente](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

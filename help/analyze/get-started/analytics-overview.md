@@ -4,10 +4,10 @@ short-description: Lernen Sie die wichtigsten Funktionen, gängigen Anwendungsf�
 title: Übersicht zu Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ Verwenden Sie die folgenden Ressourcen, um die Grundlagen von Adobe Analytics ke
 
 Weitere Informationen zu den Grundlagen von Adobe Analytics finden Sie im folgenden Video: *Einführung in Adobe Analytics – Skill Builder-Webinar*. Das Video führt Sie durch die Grundlagen, wie Daten erfasst werden, wie Daten an Adobe Analytics gesendet werden und welche Visualisierungsfunktionen Sie in Adobe Analytics verwenden können. Das Video bietet eine Grundlage für das Erstellen, Bereitstellen, Erfassen und Interpretieren von Daten, sodass Sie anhand der erfassten Daten umsetzbare Erkenntnisse und Empfehlungen liefern können.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einführung in Adobe Analytics - Skill Builder](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} für das Webinar-Video.
+
+>[!ENDSHADEBOX]
+
 
 Eine Erörterung, welches Tool verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=de).
 

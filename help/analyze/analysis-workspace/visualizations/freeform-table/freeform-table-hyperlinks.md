@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Hyperlinks für Dimensionselemente in einer F
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1739'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,16 @@ Diese Funktion ist besonders beim Erstellen von Hyperlinks für die folgenden Ar
 
 * Elemente oder Aufschlüsselungen einer Dimension, deren Werte Teil einer URL sind, mit der Sie eine Verknüpfung herstellen möchten (z. B. eine Seitennamendimension, die Teil einer URL ist)
 
-+++ Sehen Sie sich eine Videodemonstration dieser Funktion an.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks für Dimension](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+
+
 
 ## Erstellen von Hyperlinks für ein oder mehrere Dimensionselemente
 

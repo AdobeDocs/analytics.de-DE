@@ -5,10 +5,10 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 99%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ Sie können ein Analysis Workspace-Projekt für die folgenden Personentypen frei
 
 Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird beim Öffnen des Projekts durch die Empfängerinnen bzw. Empfänger angezeigt.
 
-Im Folgenden finden Sie eine Videoübersicht zur gemeinsamen Nutzung von Projekten:
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 
 ## Freigeben für Analysis Workspace-Benutzende und -Gruppen in Ihrer Organisation {#Add}
@@ -138,9 +142,13 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 >
 >* Wenn viele Personen gleichzeitig versuchen, auf einen bestimmten Link zuzugreifen, ist das Projekt möglicherweise nicht mehr zugänglich. Standardmäßig können alle 5 Minuten mehr als 190 Personen auf einen einzelnen Link zugreifen. Sollte Ihr Unternehmen diese Grenze erreichen, warten Sie 5 Minuten und versuchen Sie dann erneut, den Link zu öffnen.
 
-Die folgende Videodemonstration und die zugehörige Dokumentation beschreiben die Optionen im Zusammenhang mit der Freigabe eines Links für alle:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugriff auf Adobe Analytics haben:
 
@@ -188,9 +196,14 @@ Wenn eine Benutzerin oder ein Benutzer ein Projekt für Sie freigibt, indem sie 
 
 ## Freigeben von eingebetteten Komponenten
 
-Im Folgenden finden Sie ein Video zum Thema:
+Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Häufig gestellte Fragen (FAQ) {#FAQs}
 

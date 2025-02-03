@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics-Übersicht
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '478'
 ht-degree: 42%
 
 ---
@@ -17,7 +17,13 @@ Adobe Audience Manager (Adobe Audience Manager) ist eine leistungsstarke Datenve
 
 Mit der Audience Analytics-Integration können Sie Zielgruppendaten von Adobe Audience Manager wie demografische Informationen (z. B. Geschlecht oder Einkommensstufe), psychografische Informationen (z. B. Interessen und Hobbys), CRM-Daten und Daten zu Werbeeindrückungen in jeden Analytics-Workflow integrieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Wesentliche Vorteile  {#benefits}
 

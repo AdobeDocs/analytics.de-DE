@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 83%
+source-wordcount: '164'
+ht-degree: 26%
 
 ---
 
@@ -29,14 +29,25 @@ _In diesem Artikel wird die Treemap-Visualisierung in {_}![AdobeAnalytics](/help
 
 >[!ENDSHADEBOX]
 
-Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an.
-
-Im Folgenden finden Sie ein Video über die Visualisierung mithilfe eines [!UICONTROL Kacheldiagramms]:
-
->[!VIDEO](https://video.tv.adobe.com/v/334458/?quality=12)
+Verwenden Sie eine ![GraphTree](/help/assets/icons/GraphTree.svg)**[!UICONTROL Treemap]**-Visualisierung, um hierarchische (baumstrukturierte) Daten als Satz verschachtelter Rechtecke anzuzeigen.
 
 Jeder Zweig des Baums erhält ein Rechteck, das kleinere Rechtecke enthält, die für untergeordnete Zweige stehen.
 
-![](assets/treemap.png)
+![Treemap-Beispiel mit Kacheln kleinerer Rechtecke, die Unterzweige darstellen.](assets/treemap.png)
 
-Wenn die Farb- und Größendimensionen in irgendeiner Weise mit der Baumstruktur korrelieren, werden oft Muster offensichtlich, die bei anderen Visualisierungen nur schwer sichtbar wären. Beispielsweise wird sichtbar, ob eine bestimmte Farbe besonders relevant ist. Ein weiterer Vorteil von Kacheldiagrammen besteht darin, dass sie aufgrund ihres Aufbaus den vorhandenen Platz effizient nutzen.
+Mit einer Treemap können Sie Muster sehen, die auf andere Weise schwer zu erkennen wären. Mithilfe der Farbe und Größe der Dimensionen können Sie entdecken, wie Dimensionen korreliert werden und ob eine bestimmte Dimension besonders relevant ist. Ein zweiter Vorteil von Baumkarten besteht darin, dass sie konstruktiv den Platz effizient nutzen.
+
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Treemap-Visualisierung](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

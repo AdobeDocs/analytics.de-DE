@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 88%
+source-wordcount: '269'
+ht-degree: 29%
 
 ---
 
@@ -27,22 +27,35 @@ _In diesem Artikel wird die Textvisualisierung in {_}![AdobeAnalytics](/help/ass
 
 >[!ENDSHADEBOX]
 
-Sie können Ihrem Workspace-Projekt benutzerdefinierten Text hinzufügen, indem Sie Textvisualisierungen oder Bedienfeld-/Visualisierungsbeschreibungen verwenden (klicken Sie mit der rechten Maustaste auf die Kopfzeile > **[!UICONTROL Beschreibung bearbeiten]**). Sie können auch die Formatierung Ihres Textes ändern sowie Hyperlinks und Bilder hinzufügen.
+Sie können
+Um Ihrem Workspace-Projekt benutzerdefinierten Rich-Text hinzuzufügen, können Sie eine ![Text-](/help/assets/icons/Text.svg)-**[!UICONTROL -]**-Visualisierung oder Beschreibungen für eine Visualisierung und ein Bedienfeld verwenden.
+
+## Verwenden
+
+Sie können die Textvisualisierung wie folgt verwenden:
+
+1. Fügen Sie eine ![Text](/help/assets/icons/Text.svg)/**[!UICONTROL -]** hinzu. Siehe [Hinzufügen einer Visualisierung zu einem Bedienfeld](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+
+1. Wählen Sie in einem Bedienfeld oder einer Visualisierung im Kontextmenü die Option **[!UICONTROL Beschreibung bearbeiten]** aus.
+
+   Wählen Sie ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) aus, wenn Sie die Bearbeitung der Beschreibung abgeschlossen haben, wählen Sie ![CloseCircle](/help/assets/icons/CloseCircle.svg) aus, um den Vorgang abzubrechen.
+
+Sie können die Formatierung Ihres Textes ändern, Hyperlinks hinzufügen und Bilder hinzufügen.
 
 ## Formatierung anpassen {#format}
 
 Beim Bearbeiten des Textfelds oder der Beschreibung können Sie Schriftgrad (Überschriftenebenen), Farbe, Formatierung (fett, kursiv, unterstrichen) und Ausrichtung des ausgewählten Textes anpassen. Sie können auch Aufzählungs- und nummerierte Listen hinzufügen.
 
-![](assets/format.png)
+![Textoptionen für ein Workspace-Projekt, in dem die Textfarbpalette hervorgehoben wird.](assets/format.png)
 
 ## Hyperlinks hinzufügen {#hyperlinks}
 
-Um einen Hyperlink hinzuzufügen, markieren Sie den Text und klicken Sie im Menü auf das Hyperlink-Symbol. Hyperlinks können zur zusätzlichen Unterstützung der Projektempfänger Links zu externen Websites, Dokumentationsseiten, [Workspace-Projekten/Bedienfeldern/Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=de) und mehr enthalten.
+Um einen Hyperlink hinzuzufügen, markieren Sie den Text und wählen Sie ![ Menü ](/help/assets/icons/Link.svg)Link“ aus. Sie können Hyperlinks verwenden, um Ihren Projektempfängern weitere Unterstützung zu bieten. Hyperlinks können Links zu externen Websites, Dokumentationsseiten, [Workspace-Projekten, Bedienfeldern oder ](/help/analyze/analysis-workspace/curate-share/shareable-links.md) und mehr enthalten.
 
-![](assets/hyperlink.png)
+![Textoptionen mit hervorgehobenem Link-Symbol.](assets/hyperlink.png)
 
 ## Bilder hinzufügen {#images}
 
-Um ein Bild zu Ihrem Projekt hinzuzufügen, klicken Sie auf das Bildsymbol im Menü und fügen Sie eine URL für ein öffentliches Bild ein. Die Bild-URL muss öffentlich zugänglich sein, mit `https` beginnen und das Format `.png`, `.jpeg`, `.jpg` oder `.gif` haben. Statische und animierte Bilder werden unterstützt.
+Um ein Bild zu Ihrem Projekt hinzuzufügen, wählen Sie ![Bild](/help/assets/icons/Image.svg) im Menü aus und fügen Sie eine öffentliche Bild-URL ein. Die Bild-URL muss öffentlich zugänglich sein, mit `https` beginnen und das Format `.png`, `.jpeg`, `.jpg` oder `.gif` haben. Statische und animierte Bilder werden unterstützt.
 
-![](assets/image.png)
+![Textoptionen mit ausgewähltem Bildsymbol.](assets/image.png)

@@ -4,10 +4,10 @@ description: Freiformtabellen sind die Grundlage für die Analyse von Daten in W
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 64%
+source-wordcount: '637'
+ht-degree: 61%
 
 ---
 
@@ -93,13 +93,23 @@ Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/
 ## Videos
 
 Freiformtabellen-Builder – Übersicht:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zum Freiformtabellen-Builder](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
-Freiformtabellen-Filter:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-Gesamtwerte der Freiformtabelle:
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freiformtabellenfilter](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freiformtabellen-Summen](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+

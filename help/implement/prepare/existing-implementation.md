@@ -4,10 +4,10 @@ description: Anweisungen für Administratoren, die neu zu einer bestehenden Adob
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,13 @@ ht-degree: 71%
 
 Sehen Sie sich diese Tipps von Sarah Owen an, ebenfalls eine technisch Verantwortliche. Sarah ist eine Adobe Analytics-Expertin und sie teilt mit uns ihre Ideen dazu, wie wir das inherited implementation Playbook zur Übernahme einer bestehenden Implementierung nutzen können:
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des übernommenen Implementierungs-](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 Siehe auch:
 

@@ -4,10 +4,10 @@ title: Ringdiagramm
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 75%
+source-wordcount: '119'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _In diesem Artikel wird die Ringidagramm-Visualisierung in_![AdobeAnalytics](/he
 
 >[!ENDSHADEBOX]
 
-Ähnlich einem Tortendiagramm zeigt diese Visualisierung die Daten als Teile oder Segmente eines Ganzen. Ein [!UICONTROL Ringdiagramm] kann für den Vergleich der prozentualen Anteile eines Ganzen verwendet werden, typischerweise bei einer geringen Anzahl an Werten.
 
-![](assets/donut.png)
+Ähnlich einem Tortendiagramm zeigt die Visualisierung ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** die Daten als Teile oder Filter eines Ganzen. Verwenden Sie eine Ringdiagramm-Visualisierung, wenn Sie die Prozentsätze eines Ganzen vergleichen, in der Regel bei einer geringen Anzahl an Elementen.
 
-Im Folgenden finden Sie ein Video zur Verwendung der [!UICONTROL Ringdiagramm]-Visualisierung:
+![Ein Ringdiagramm, das Daten als Teile oder Filter eines Ganzen anzeigt.](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen einer Ringdiagramm](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

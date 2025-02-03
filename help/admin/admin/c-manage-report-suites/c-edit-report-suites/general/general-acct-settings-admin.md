@@ -4,10 +4,10 @@ title: Allgemeine Kontoeinstellungen
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 85%
+source-wordcount: '698'
+ht-degree: 83%
 
 ---
 
@@ -19,9 +19,12 @@ Feldbeschreibungen für die Report Suite „Allgemeine Kontoeinstellungen“ unt
 
 Diese Einstellungen umfassen Bearbeitungsoptionen für grundlegende Report-Suite-Funktionen wie Name und Zeitzone.
 
-Im Folgenden finden Sie ein Video zum Konfigurieren der allgemeinen Kontoeinstellungen:
 
->[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Konfigurieren allgemeiner Kontoeinstellungen](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 | Option | Beschreibung |
 |--- |--- |

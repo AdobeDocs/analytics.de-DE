@@ -4,10 +4,10 @@ title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 92%
+source-wordcount: '227'
+ht-degree: 88%
 
 ---
 
@@ -28,9 +28,14 @@ Beachten Sie:
 
 ## So ändern Sie Ihre [!UICONTROL Farbpalette]:
 
-Im Folgenden finden Sie ein Video zur Verwendung von benutzerdefinierten [!UICONTROL Farbpaletten]:
 
->[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden einer benutzerdefinierten Farbpalette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 1. Navigieren Sie zu **[!UICONTROL Workspace]** > **[!UICONTROL Projekt]** > **[!UICONTROL Projektinfo und Einstellungen]**.
 1. Aus der **[!UICONTROL Projektfarbpalette]** Dropdown-Liste können Sie eines von fünf vordefinierten Farbschemata auswählen.

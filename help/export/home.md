@@ -3,10 +3,10 @@ title: Exportleitfaden für Analytics
 description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mithilfe von Daten-Feeds und Data Warehouse aus Adobe Analytics abgerufen werden können.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,13 @@ In diesem Handbuch wird beschrieben, wie Sie Daten aus Adobe Analytics abrufen k
 * **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und von eindeutigen Werten zu unterstützen. Data Warehouse-Anfragen werden normalerweise an [Cloud-Ziele](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) gesendet.
 * **FTP und SFTP:** FTP und SFTP werden zwar unterstützt, jedoch nicht mehr empfohlen. Exportieren Sie Daten stattdessen in Cloud-Ziele.
 
-Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} Adobe Analytics finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Wichtige Artikel über den Export in Analytics
 

@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -70,6 +70,11 @@ Beim Vergleich der Funktionalität von Legacy-Report Builder mit dem neuen Repor
 >
 >Dieses Übersichtsvideo zeigt die Benutzeroberfläche des Report Builders in Customer Journey Analytics. Einige Bereiche der Benutzeroberfläche und der Terminologie unterscheiden sich. Andernfalls ist das Benutzererlebnis identisch.
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} Report Builder finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 Sie können Report Builder aus dem [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview) herunterladen.

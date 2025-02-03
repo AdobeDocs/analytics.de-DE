@@ -4,9 +4,9 @@ title: Verwenden von Vorlagen
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18672'
+source-wordcount: '18666'
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ Die folgenden Informationen beschreiben, wie Sie in Analysis Workspace auf Vorla
 
    <!--update screenshot -->
 
-   ![Registerkarte „Berichte“](assets/view-prebuilt-templates.png)
+   ![Registerkarte „Berichte“](assets/view-prebuilt-templates-full.png)
 
 1. Wählen [!UICONTROL **im Abschnitt**] eine der folgenden Registerkarten aus:
 
@@ -45,9 +45,9 @@ Die folgenden Informationen beschreiben, wie Sie in Analysis Workspace auf Vorla
 
 1. Verwenden Sie eine der folgenden Optionen, um die Anzeige der verfügbaren Vorlagen zu ändern:
 
-   * Wählen Sie aus, ob die Vorlagen in einer Spaltenansicht oder einer Kartenansicht angezeigt werden sollen, indem Sie entweder die Spaltenansicht ![Spaltenansichtssymbol](assets/column-view-icon.png) oder die Kartenansicht ![Kartenansichtssymbol](assets/card-view-icon.png) auswählen.
+   * Wählen Sie aus, ob Vorlagen in einer Spaltenansicht oder einer Kartenansicht angezeigt werden sollen, indem Sie entweder die Spaltenansicht ![AnsichtSpalte](/help/assets/icons/ViewColumn.svg) oder das Kartenansichtssymbol ![Karte](/help/assets/icons/Card.svg) auswählen.
 
-   * Wenn Sie die Kartenansicht (![) verwenden](assets/card-view-icon.png) wählen Sie aus den folgenden Sortierreihenfolgen: **[!UICONTROL Zuletzt verwendet]**, **[!UICONTROL Am beliebtesten]**, **[!UICONTROL Alphabetisch]**, **[!UICONTROL Kategorisch]**.
+   * Wenn Sie die Kartenansicht ![Karte](/help/assets/icons/Card.svg) verwenden, wählen Sie aus den folgenden Sortierreihenfolgen: **[!UICONTROL Zuletzt verwendet]**, **[!UICONTROL Am beliebtesten]**, **[!UICONTROL Alphabetisch]**, **[!UICONTROL Kategorisch]**.
 
 1. Geben Sie im Suchfeld zunächst den Namen der zu suchenden Vorlage ein und wählen Sie diese dann aus der Liste der Vorlagen aus. Sie können die Vorlagenliste auch nach Eigenschaft, eVar und Ereignisnummer durchsuchen. <!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Die folgenden Vorlagen sind verfügbar:
 | **Geräte** | Zeigen Sie die Marke und das Modell von Mobilgeräten an, mit denen Benutzende auf Ihre Site zugreifen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Mobilgeräte bei Ihrer Benutzerbasis am beliebtesten sind.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. das Rendering Ihrer Site für die gängigsten Mobilgeräte optimieren.</p><p>Diese Vorlage verwendet die Dimension Mobilgerätename .</p> |
 | **Gerätetyp** | Zeigen Sie die Mobilgerätetypen an, mit denen Benutzende auf Ihre Site zugreifen, z. B. Smartphones und Tablets.<p>**Dies kann Ihnen dabei helfen**, die verschiedenen Arten von Mobilgeräten besser zu verstehen, die für den Zugriff auf Ihre Site verwendet werden.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Ihre Site für die Mobilgerätetypen optimieren, die am häufigsten verwendet werden.</p><p>Diese Vorlage verwendet die Dimension Mobilgerätetyp .</p> |
 | **Hersteller** | Zeigen Sie an, welche Hersteller die Mobilgeräte herstellen, mit denen Benutzende auf Ihre Site zugreifen, z. B. Apple und Samsung.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Hersteller bei Ihrer Benutzerbasis am beliebtesten sind.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Ihre Inhaltsbereitstellung auf Grundlage der Fähigkeiten verschiedener Hersteller anpassen, um ein reibungsloses Anwendererlebnis zu gewährleisten.</p><p>Diese Vorlage verwendet die Dimension Mobilgerätehersteller .</p> |
+
+

@@ -5,10 +5,10 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,13 @@ ht-degree: 100%
 
 Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über verschiedene Dimensionen hinweg untersuchen. Im Folgenden finden Sie ein Video zum Textumbruch und zum multidimensionalen Fluss in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Interdimensionale ](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 Eine Dimensionsbezeichnung jeweils oben in der Spalte „Fluss“ vereinfacht die Verwendung mehrerer Dimensionen in einer Flussvisualisierung:
 

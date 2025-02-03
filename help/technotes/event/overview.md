@@ -3,10 +3,10 @@ title: Analyse der von Ereignissen betroffenen Daten
 description: Verstehen Sie, wie die von einem Ereignis betroffenen Daten zur Datenqualität insgesamt beitragen.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,15 @@ Sobald Sie mit der geplanten Handhabung eines Ereignisses vertraut sind, können
 
 ## Video
 
-Dieses Video führt Sie durch die oben genannten Schritte.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysieren und Kommunizieren von Varianten in Ihren Daten](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 * **0:27**: Daten mithilfe der Segmentierung ausschließen
 * **2:55**: Ereignis mit vorherigen Bereichen vergleichen
 * **8:42**: Daten mithilfe berechneter Metriken ableiten
 * **11:46**: Auswirkungen an Benutzer kommunizieren
+
+>[!ENDSHADEBOX]
+
+

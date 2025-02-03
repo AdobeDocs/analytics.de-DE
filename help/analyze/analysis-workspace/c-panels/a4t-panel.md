@@ -4,10 +4,10 @@ title: Bedienfeld „Analytics for Target“ (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 46%
+source-wordcount: '1130'
+ht-degree: 47%
 
 ---
 
@@ -39,11 +39,12 @@ _In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_![AdobeAnal
 
 Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. Im Bedienfeld können Sie außerdem Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Um auf das Bedienfeld „Analytics for Target“ zuzugreifen, navigieren Sie zu einer Report Suite mit aktivierten Analytics for Target-Komponenten. Wählen Sie dann ganz links das Bedienfeldsymbol aus und ziehen Sie das Bedienfeld „Analytics for Target“ in Ihr Analysis Workspace-Projekt.
 
-+++Im Folgenden finden Sie eine kurze Videoübersicht zum Bedienfeld „Analytics for Target“:
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 ## Verwenden
 

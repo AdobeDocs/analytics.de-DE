@@ -4,10 +4,10 @@ title: Segmente
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ In Workspace können Sie verschiedene Arten von Segmenten erstellen, je nachdem,
 
 ## Videos
 
-Verwendung von Segmenten in Analysis Workspace:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von Segmenten in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo dazu.
 
-Suchen und Erstellen von Segmenten:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-Rollierende Datumsbereiche in Segmenten:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suchen und Erstellen von Segmenten](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segment](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Erstellen von Segmenten {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ In Analysis Workspace können Sie verschiedene Segmenttypen erstellen:
 ### Erstellen von Komponentenlistensegmenten {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 Die Segmentleiste im Menü „Komponenten“ enthält
-* Segmente, die Sie oder Ihr Unternehmen erstellt haben
-* Segmentvorlagen, die durch das Adobe-Symbol gekennzeichnet sind:
 
-![](assets/segment_icons.png)
+* Segmente, die Sie oder Ihr Unternehmen erstellt haben
+* Segmentvorlagen, wie durch das Symbol Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) gekennzeichnet:
+
 
 Sie haben zwei Möglichkeiten, ein Segment dieses Typs zu erstellen. Beide führen Sie zum [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) in Adobe Analytics, wo Sie weitere Anweisungen finden.
 
@@ -65,7 +74,12 @@ oder
 
 ### Andere Methoden für das Anwenden von Segmenten {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Weitere Methoden zum Anwenden von Segmenten](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 Es gibt verschiedene weitere Methoden für das Anwenden von Segmenten auf ein Freiformprojekt.
 

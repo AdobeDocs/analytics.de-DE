@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ Im Zuge der Umstellung auf eine neue Report Builder-Technologie können Sie Ihre
 >
 >Duplizieren Sie jede Arbeitsmappe und benennen Sie eine Version um, bevor Sie sie konvertieren. Auf diese Weise haben Sie immer noch eine Kopie der ursprünglichen Arbeitsmappe, falls Sie sie benötigen sollten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Richten Sie den neuen Report Builder ein[ indem Sie die folgenden Anweisungen ](/help/analyze/report-builder/report-builder-setup.md).
 

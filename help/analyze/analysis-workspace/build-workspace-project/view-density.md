@@ -4,10 +4,10 @@ title: Dichte anzeigen
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,6 +27,10 @@ So stellen Sie die Anzeigedichte ein:
 
 1. Wählen Sie eine der 3 oben erwähnten Optionen und klicken Sie auf **[!UICONTROL Speichern]**.
 
-Im Folgenden finden Sie ein Video zur Verwendung der Funktion [!UICONTROL Anzeigedichte]:
 
->[!VIDEO](https://video.tv.adobe.com/v/25963/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anzeigedichte](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+

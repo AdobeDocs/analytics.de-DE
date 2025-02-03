@@ -4,10 +4,10 @@ title: Häufig gestellte Fragen und Fehlerbehebung in Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -38,35 +38,51 @@ Der Analysis Workspace wird für den Export von Massendaten nicht empfohlen. Es 
 +++
 
 +++Wie kann ich die Leistung von Analysis Workspace optimieren?
+
 Siehe [Leistungsoptimierung](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+
 +++
 
 +++Wie fließen Daten in Ihr Analysis Workspace-Projekt ein?
-Sehen Sie sich dieses Video an:
 
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++ Wie kann ich die Workspace-Nutzung nachverfolgen?
++++Wie kann ich die Nutzung von Workspace verfolgen?
 
-Sehen Sie sich dieses Video zur Nutzungsprotokollverfolgung für Analysis Workspace an:
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tracking protokollieren](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++Wenn ich eine Metrik per Drag-and-Drop ziehe, wird die Meldung „Ungültige Daten“ angezeigt. Wie kann ich dieses Problem beheben?
+
 „Ungültige Daten“ bedeuten, dass Adobe keine Daten mit der Kombination von Dimensionen und Metriken zurückgeben kann, die im Bericht verwendet werden. Beispielsweise können zwei Metriken, die übereinander gestapelt sind, nicht als Daten zurückgegeben werden, da es nicht möglich ist, zwei Metriken in dieser Weise anzuzeigen. Platzieren Sie die Metriken stattdessen nebeneinander.
+
 +++
 
 +++Wenn ich eine Metrik per Drag-and-drop ziehe, sehe ich keine tatsächlichen Daten, sondern nur Nullen. Wie kann ich dieses Problem beheben?
+
 Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vorhanden sind, können Sie einige Punkte prüfen:
 
 * Überprüfen Sie die Report Suite und stellen Sie sicher, dass sie mit Daten gefüllt ist.
 * Wenn Sie ein Segment in Ihrem Bericht angewendet haben, stimmen die Segmentkriterien möglicherweise nicht mit den Daten überein. Versuchen Sie, das Segment zu entfernen oder die Segmentdefinition anzupassen.
 * Überprüfen Sie den Datumsbereich oben rechts und stellen Sie sicher, dass er auf einen erwarteten Wert eingestellt ist.
 * Navigieren Sie zu Ihrer Website und überprüfen Sie mit dem [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de), ob Daten erfasst werden.
+
+
 +++
 
 +++Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?

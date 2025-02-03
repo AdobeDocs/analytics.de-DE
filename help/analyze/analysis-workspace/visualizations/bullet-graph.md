@@ -4,10 +4,10 @@ title: Lineardiagramm
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 87%
+source-wordcount: '266'
+ht-degree: 56%
 
 ---
 
@@ -37,12 +37,31 @@ _In diesem Artikel wird die Visualisierung mit Aufzählungszeichen in {_}![Adobe
 
 >[!ENDSHADEBOX]
 
-Schauen wir uns einmal an, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt.
+Die ![GraphBullet](/help/assets/icons/GraphBullet.svg)**[!UICONTROL Bullet]**-Visualisierung zeigt, wie eine Metrik mit Leistungsbereichen (Zielen) verglichen wird oder wie sie mit diesen gemessen wird.
 
-![](assets/bullet-image.png)
+![Visualisierung mit horizontalen Säulendiagrammen](assets/bullet.png)
 
-Das Lineardiagramm enthält einen einzigen primären Messwert (z. B. aktueller Umsatz im Jahr) und ermöglicht Ihnen die Eingabe qualitativer Bereiche und Leistungsbereiche (z. B. im Vergleich zu einem Zielumsatz). Sie können zwischen „Hoch“, „Mittel“ und „Niedrig“ wählen. In den [!UICONTROL Visualisierungseinstellungen] können Sie Zielbereiche festlegen.
+Das Lineardiagramm enthält einen einzigen primären Messwert (z. B. aktueller Umsatz im Jahr) und ermöglicht Ihnen die Eingabe qualitativer Bereiche und Leistungsbereiche (z. B. im Vergleich zu einem Zielumsatz). Sie können hohe, mittlere und niedrige Zielbereiche angeben. Sie können Zielbereiche in &quot;![&quot; ](/help/assets/icons/Setting.svg) &quot;**[!UICONTROL &quot;]**.
 
-Im Folgenden finden Sie ein Video zur Visualisierung von Bullet-Diagrammen:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung von-Diagrammen](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+## Einstellungen
+
+Sie können spezifische Einstellungen für eine [!UICONTROL -Visualisierung ].
+
+| Einstellung | Beschreibung |
+|---|---|
+| **[!UICONTROL Aufzählungsoptionen]** | Geben Sie Werte für **[!UICONTROL Hohes Ziel]**, **[!UICONTROL Mittleres Ziel]** und **[!UICONTROL Niedriges Ziel]** in der [!UICONTROL Aufzählungs]-Visualisierung an. <br/>**[!UICONTROL Hohes Ziel ]**entspricht dem angestrebten Hauptziel.**[!UICONTROL  Niedriges Ziel ]**und**[!UICONTROL  Mittleres Ziel ]**Erstellen Sie Bereiche unterhalb des hohen Ziels. Hinweis: Wenn die Option**[!UICONTROL  Prozentsatz ]**aktiviert ist, geben Sie Ziele als Ganzzahlen ein, z. B. `20`, wenn Ihr Ziel zwanzig Prozent ist. |
+
+>[!MORELIKETHIS]
+>
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

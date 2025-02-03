@@ -4,10 +4,10 @@ description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -21,9 +21,13 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 * ein Dashboard mit Metriken und Visualisierungen erstellen, um Berichte an andere Organisationen zu senden. Sie können Daten aus verschiedenen Report Suites in im selben Projekt abrufen.
 
-Im Folgenden finden Sie ein Video zum Thema:
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Anwenden einer Report Suite auf alle Panels
 

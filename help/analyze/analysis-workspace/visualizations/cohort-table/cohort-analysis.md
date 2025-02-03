@@ -4,10 +4,10 @@ description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgrupp
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 86%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -52,9 +52,12 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortenanalyse]:
 
 Die [!UICONTROL Kohortenanalyse] steht allen Adobe Analytics-Kunden mit Zugriffsrechten auf [!UICONTROL Analysis Workspace] zur Verfügung.
 
-Video zu Kohortentabellen in Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kohortenanalyse in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ Ein [!UICONTROL Bindungskohortenbericht] gibt Besucherdaten aus: Jede Datenzelle
 
 ![](assets/retention-report.png)
 
-Im Folgenden finden Sie ein Video zur Berechnung der rollierenden Bindung:
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Berechnung der rollierenden ](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL Abwanderungstabelle]
 
@@ -84,9 +92,12 @@ Eine [!UICONTROL Abwanderungskohorte] ist die Umkehrung einer Bindungstabelle un
 
 ![](assets/churn-report.png)
 
-Im Folgenden finden Sie ein Video zur Analyse der Kundenabwanderung:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abwanderungsanalyse](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL Rollierende Berechnung]
 

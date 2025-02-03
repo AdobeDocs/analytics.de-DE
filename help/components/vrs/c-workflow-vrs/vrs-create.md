@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 64%
+source-wordcount: '675'
+ht-degree: 62%
 
 ---
 
@@ -43,9 +43,12 @@ Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einste
 
 ![](assets/visit-definition.png)
 
-Im Folgenden finden Sie ein Video zum Anpassen einer Besuchsdefinition in einer virtuellen Report Suite:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anpassen einer Besuchsdefinition](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 | Element | Beschreibung |
 | --- |--- |

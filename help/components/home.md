@@ -3,10 +3,10 @@ title: Komponentenleitfaden für Analytics
 description: Erfahren Sie mehr über die verschiedenen Komponenten, die Adobe Analytics bietet.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,13 @@ Mithilfe von Analytics-Komponenten können Sie die Datenanalyse optimieren. Zu d
 * **Echtzeitberichte:** Sie erhalten Berichte und Trends unmittelbar, wenn sie verfügbar werden.
 * **Marketingkanäle:** Zeigen, wie Besucher zu Ihrer Site gelangen und welche Kanäle am erfolgreichsten sind.
 
-Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} Adobe Analytics finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Artikel zu wichtigen Analytics-Komponenten
 

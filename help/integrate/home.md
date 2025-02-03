@@ -3,31 +3,40 @@ title: Analytics-Integration
 description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Analytics integrieren können.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 76%
 
 ---
 
 # Analytics-Integration
 
-![Banner](../../assets/doc_banner_integrate.png)
-
 In diesem Handbuch wird die Integration mehrerer Adobe Experience Cloud-Lösungen wie Audience Manager, Advertising Cloud oder Target beschrieben. Zu diesem Service gehören:
 
 * **Audience Analytics:** Integration von Adobe Audience Manager mit Adobe Analytics.
 * **Advertising Analytics:** zur Anzeige von Paid Search-Daten gemeinsam mit Adobe Analytics-Daten.
-* **Analytics für Advertising Cloud DSP:** Integriert Adobe Analytics und Adobe Advertising Cloud, um die Funktionen der einzelnen Produkte zu erweitern und zu verbessern. Im Folgenden finden Sie eine Videoübersicht:
+* **Analytics für Advertising Cloud DSP:** integriert Adobe Analytics und Adobe Advertising Cloud, um die Funktionen der einzelnen Produkte zu erweitern und zu verbessern.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
 * **Analytics for Target:** A4T integriert Adobe Analytics mit Adobe Target.
 * **Adobe Campaign Reporting:** Integration von Adobe Analytics mit Adobe Campaign.
 * **AEM Assets Reporting:** Ermöglicht die Erfassung von Impressionen und Klicks auf Assets, die von Adobe Experience Manager bereitgestellt werden.
 
-Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} Adobe Analytics finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Wichtige Artikel zur Analytics-Integration
 

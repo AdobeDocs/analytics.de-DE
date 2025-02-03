@@ -4,10 +4,10 @@ description: Analysis Workspace ist das wichtigste Analyse-Tool von Adobe Analyt
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,12 @@ Mit Analysis Workspace können Sie schnell Analysen erstellen, um Einblicke zu g
 
 Das folgende Video bietet einen kurzen Überblick mit Beispielen, was alles möglich ist.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} Analysis Workspace finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 ## Bereiche von Analysis Workspace
 

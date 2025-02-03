@@ -3,7 +3,7 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 96%
@@ -167,9 +167,13 @@ Erstellen Sie einen Behälter „Besuch“ und fügen Sie den Zeitraum [!UICONTR
 
 ![](assets/date-ranges.png)
 
-Im Folgenden finden Sie ein Video zur Verwendung rollierender Datumsbereiche in Segmenten:
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Stapeln von Segmenten {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

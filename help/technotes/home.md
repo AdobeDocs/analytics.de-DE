@@ -3,9 +3,9 @@ title: Technische Hinweise zu Analytics
 description: Dieses Handbuch enthält nützliche Informationen zu Themen, die nicht zu einem bestimmten Analytics-Tool oder einer bestimmten Komponente gehören.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,6 @@ Zu den Hauptfunktionen von Adobe Analytics gehören:
 
 Um es zusammenzufassen: Adobe Analytics ist eine leistungsstarke Web-Analyselösung, die Unternehmen die Tools zur Messung, Analyse und Optimierung ihrer digitalen Marketing-Aktivitäten bietet. Mit Echtzeitdaten, erweiterten Analysen und Attributionsmodellen können Unternehmen datengesteuerte Entscheidungen treffen, die die digitale Transformation fördern und den ROI verbessern.
 
-Im Folgenden finden Sie eine Videoübersicht zu Adobe Analytics:
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Wichtige Technote-Artikel
 

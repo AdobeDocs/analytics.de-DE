@@ -4,10 +4,10 @@ description: Produktdokumentation und Selbsthilfe für Analysis Workspace, Analy
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ Das Handbuch für Analytics-Tools enthält Informationen zu Produktfunktionen, A
 
 Weitere Informationen zu den Adobe Analytics-Grundlagen finden Sie im folgenden Video: *Einführung in Adobe Analytics – Skill Builder-Webinar*. Das Video führt Sie durch die Grundlagen, wie Daten erfasst werden, wie Daten an Adobe Analytics gesendet werden und welche Visualisierungsfunktionen Sie in Adobe Analytics verwenden können. Das Video bietet eine Grundlage für das Erstellen, Bereitstellen, Erfassen und Interpretieren von Daten, sodass Sie anhand der erfassten Daten umsetzbare Einblicke und Empfehlungen liefern können.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einführung in Adobe Analytics - Skill Builder-](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} für das Webinar.
+
+>[!ENDSHADEBOX]
 
 Eine Erörterung, welches Tool verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=de).
 

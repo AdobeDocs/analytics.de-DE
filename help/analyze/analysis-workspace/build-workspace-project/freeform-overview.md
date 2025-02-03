@@ -5,10 +5,10 @@ title: Übersicht über Projekte
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: f6bfded8b3a8346b912f34cf2f3ba9a4958eefa7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 44%
+source-wordcount: '1491'
+ht-degree: 43%
 
 ---
 
@@ -18,7 +18,13 @@ Mit Workspace-Projekten können Sie Datenkomponenten, Tabellen und Visualisierun
 
 Im Folgenden finden Sie ein Video zum Erstellen eines Workspace-Projekts:
 
->[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen eines Workspace-](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Projektliste {#project-list}
 
@@ -131,7 +137,12 @@ Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) in der linken Leis
 
 In diesem Video wird die Verwendung des Rechtsklickmenüs in Analysis Workspace erklärt:
 
->[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Kontextmenüs](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
 
 ## Arbeitsfläche des Projekts {#canvas}
 

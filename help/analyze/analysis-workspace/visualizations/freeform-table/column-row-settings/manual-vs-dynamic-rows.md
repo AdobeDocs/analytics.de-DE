@@ -4,10 +4,10 @@ description: Interaktion mit dynamischen und statischen Dimensionselementen in T
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 85%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -57,6 +57,11 @@ Dynamische und statische Zeilen verhalten sich in der Freiform-Gesamtzeile unter
 
 ## Neuanordnen von statischen Zeilen
 
-Im Folgenden finden Sie ein Video zum Thema:
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Statische Zeilen neu anordnen](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+

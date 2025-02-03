@@ -4,10 +4,10 @@ description: Sie können allgemeine Voreinstellungen und Projekteinstellungen f�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 100%
+source-wordcount: '3122'
+ht-degree: 99%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Sie können für alle neu erstellten Projekte oder Bedienfelder die auf Analysis Workspace und die zugehörigen Komponenten anzuwendenden Einstellungen verwalten. Bestehende Projekte und Bedienfelder sind davon nicht betroffen.
 
-In diesem Video erhalten Sie einen kurzen Überblick über Voreinstellungen:
 
->[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Aktualisieren von Voreinstellungen
 

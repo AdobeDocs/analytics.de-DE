@@ -3,9 +3,9 @@ title: Verwalten von Daten-Feeds
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren. Erfahren Sie, wie Sie einen Daten-Feed erstellen, bearbeiten und anzeigen.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 26%
 
 ---
@@ -14,11 +14,13 @@ ht-degree: 26%
 
 Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstellen, bearbeiten und löschen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
 
-+++Sehen Sie sich ein Video zur Verwaltung von Daten-Feeds an.
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Anzeigen von Daten-Feeds
 

@@ -5,10 +5,10 @@ title: Segmente in der Fallout-Analyse anwenden
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 93%
+source-wordcount: '436'
+ht-degree: 90%
 
 ---
 
@@ -50,9 +50,13 @@ Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer�
 
 In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu drei Segmente vergleichen können, was falsch ist.)
 
-Im Folgenden finden Sie ein Video zum Vergleichen von Segmenten im Fallout:
 
->[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente in einer Fallout-Visualisierung vergleichen](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 1. Wählen Sie die zu vergleichenden Segmente links in der Leiste [!UICONTROL Segmente] aus. Im vorliegenden Beispiel haben wir 2 Segmente ausgewählt: „USA-Benutzer“ und „Benutzer außerhalb der USA“.
 1. Ziehen Sie sie nach oben in die Ablegezone „Segmente“.

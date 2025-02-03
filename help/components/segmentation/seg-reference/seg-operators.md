@@ -3,10 +3,10 @@ description: Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Oper
 title: Vergleichsoperatoren für Segmente
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,9 @@ Sie können nach einer bestimmten Anzahl von Elementen innerhalb einer Dimension
 | größer als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
 | kleiner als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
 
-Im Folgenden finden Sie ein Video zur Segmentierung anhand einer bestimmten Anzahl von Dimensionselementen:
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct Dimension Counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]

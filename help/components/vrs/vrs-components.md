@@ -3,10 +3,10 @@ description: Virtual Report Suites können so zusammengestellt werden, dass Komp
 title: Kuratierung von Komponenten der Virtual Report Suite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 94%
+source-wordcount: '415'
+ht-degree: 92%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 94%
 
 Virtual Report Suites können so zusammengestellt werden, dass Komponenten in Analysis Workspace aufgenommen oder aus Analysis Workspace entfernt werden.
 
-Hier finden Sie ein Video zur Kuratierung von Komponenten:
 
->[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

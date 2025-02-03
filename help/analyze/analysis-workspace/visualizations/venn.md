@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 86%
+source-wordcount: '167'
+ht-degree: 24%
 
 ---
 
@@ -30,26 +30,33 @@ _In diesem Artikel wird die Venn-Visualisierung in_![AdobeAnalytics](/help/asset
 
 >[!ENDSHADEBOX]
 
-Bei der [!UICONTROL Venn]-Visualisierung können Sie bis zu drei Segmente (aus den [!UICONTROL Komponenten]) und eine Metrik einfügen, um ein [!UICONTROL Venn]-Diagramm zu erstellen.
+Bei der Visualisierung ![Typ](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** können Sie bis zu drei Filter und eine Metrik (aus dem Bedienfeld „Komponenten„) einfügen, um ein Venn-Diagramm zu erstellen.
 
-![](assets/venn.png)
+![Venn-Visualisierung mit drei Filtern.](assets/venn.png)
 
-Sie können dann den Mauszeiger über die Segmente bewegen, um mehr Details z. B. zu den Prozentzahlen anzuzeigen.
+Sie können den Mauszeiger über die Filter bewegen, um mehr über Prozentsätze und mehr zu erfahren.
 
-![](assets/venn_hover.png)
+Um eine [!UICONTROL Freiformtabelle] aus der [!UICONTROL Venn]-Visualisierung zu generieren, wählen Sie die farbige ![StatusOrange](/help/assets/icons/StatusOrange.svg) neben der **[!UICONTROL Venn]**-Kopfzeile aus und klicken Sie auf **[!UICONTROL Datenquelle anzeigen]**. Es wird eine **[!UICONTROL Venn-Daten]**-Freiformtabelle mit den Daten angezeigt, die zum Erstellen der [!UICONTROL Venn]-Visualisierung verwendet wurden.
 
-## Umwandeln eines [!UICONTROL Venn]-Diagramms in eine [!UICONTROL Freiformtabelle]
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-Um das Venn-Diagramm in eine Freiformtabelle umzuwandeln, klicken Sie auf den farbigen Punkt neben der Überschrift **[!UICONTROL Venn]** und wählen Sie **[!UICONTROL Datenquellen verwalten]** > **[!UICONTROL Verfügbare Datenquellen]** > **[!UICONTROL Freiformtabelle]** aus.
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## Normalisieren eines [!UICONTROL Venn]-Diagramms
+-->
 
-Um das [!UICONTROL Venn]-Diagramm zu normalisieren (d. h. die Größeninformationen zu entfernen), klicken Sie auf das Symbol für seine Visualisierungseinstellungen und wählen Sie **[!UICONTROL Normalisierung]** aus.
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## Video
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Venn](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"}Visualisierung) für ein Demovideo.
 
-Im Folgenden finden Sie ein Video zum [!UICONTROL Venn]-Diagramm:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

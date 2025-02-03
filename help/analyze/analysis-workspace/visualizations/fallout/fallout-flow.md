@@ -4,10 +4,10 @@ title: Fallout-Übersicht
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,13 @@ _In diesem Artikel wird die Fallout-Visualisierung in_![AdobeAnalytics](/help/as
 
 Fallout-Visualisierungen bieten mehr Optionen zum Erstellen Ihrer Fallout-Berichte. Fallout-Berichte zeigen, wo Besucher eine Site verlassen haben und wo sie eine vorab definierte Folge von Seiten passiert haben (d. h., wo sie verblieben sind).
 
-Im Folgenden finden Sie ein Video zur Fallout-Visualisierung:
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fallout-Visualisierung](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 Mit Fallout-Visualisierungen können Sie:
 

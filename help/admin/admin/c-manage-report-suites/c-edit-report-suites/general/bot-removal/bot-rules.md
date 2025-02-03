@@ -4,7 +4,7 @@ title: Verstehen und Konfigurieren von Bot-Regeln
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 68%
@@ -31,9 +31,13 @@ Traffic-Daten von Bots werden in einem separaten Repository gespeichert, um sie 
 >
 >Bevor Sie den Bot-Traffic entfernen, machen Sie Stakeholder darauf aufmerksam, damit diese die im Zuge der Änderung notwendigen Anpassungen an wichtige Kennzahlen vornehmen können. Wenn möglich, empfehlen wir, zunächst den Bot-Traffic aus einer kleinen Report Suite zu entfernen, um die potenziellen Auswirkungen abschätzen zu können.
 
-Das folgende Video zeigt, wie Sie Bot-Regeln konfigurieren:
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Konfigurieren von Bot-Regeln](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 So aktualisieren oder laden Sie Bot-Regeln hoch:
 

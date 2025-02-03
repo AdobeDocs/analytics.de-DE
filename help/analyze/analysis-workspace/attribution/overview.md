@@ -4,10 +4,10 @@ description: Das Konzept der Zuordnung eines Erfolgsereignisses zu mehreren Dime
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 91%
 
 ---
 
@@ -48,21 +48,34 @@ Attribution umfasst die folgenden Funktionen:
 
 ## Videos
 
-Attribution in Freiformtabellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+>[!BEGINSHADEBOX]
 
-Attribution in berechneten Metriken
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
->[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+>[!ENDSHADEBOX]
 
-Verwenden des Bedienfelds „Attribution“:
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!BEGINSHADEBOX]
 
-Hinzufügen von nebeneinander angezeigten Vergleichen von Attribution-Modellen:
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten ](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
->[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Attributionsbedienfelds](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von nebeneinander angezeigten Vergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Adobe Analytics-Tools, die Attribution nicht unterstützen
 

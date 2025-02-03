@@ -4,10 +4,10 @@ keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Analytics-Daten-Feed - Übersicht
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ Die folgenden Ressourcen helfen Ihnen dabei, den grundlegenden Workflow beim Abr
 * [Verwalten von Daten-Feeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Daten-Feed-Benutzeroberfläche
 * [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Verstehen Sie, was sich in der komprimierten Datei befindet<!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten.
-* Video zur Navigation auf der Daten-Feed-Oberfläche:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* Video zur Suche nach Ihrer Daten-Feed-ID:
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in der Daten-Feed-](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln der Daten-Feed-](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+
+>[!ENDSHADEBOX]

@@ -4,7 +4,7 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '3566'
 ht-degree: 98%
@@ -44,9 +44,13 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 <!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
-Im Folgenden finden Sie eine Videoübersicht über die Segment-Container:
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Besucher-Container
 

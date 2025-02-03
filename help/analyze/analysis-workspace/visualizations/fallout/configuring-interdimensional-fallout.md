@@ -4,10 +4,10 @@ title: Mehrdimensionaler Fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Mithilfe der Fallout-Funktion in Analysis Workspace können Sie Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren. Das gibt Ihnen mehr Flexibilität beim Definieren der Benutzerschritte, die Sie näher untersuchen möchten.
 
-Im Folgenden finden Sie ein Video zum Thema:
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensionaler Fallout](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 **Beispiel**: So können Sie einer Fallout-Visualisierung zusätzlich zu einer Dimension vom Typ „Seite“ auch aktionsbasierte Dimensionselemente hinzufügen. Dadurch können Sie visuell darstellen, welche Zusammenhänge es zwischen Seiten und bestimmten Aktionen auf dem Weg gibt, den Besucher einschlagen.
 

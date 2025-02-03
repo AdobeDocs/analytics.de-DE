@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ Damit können Sie:
 * Analysieren, wohin Kunden vor und nach festgelegten Checkpoints navigieren, wie zum Beispiel Einsteig, eine bestimmte Dimension oder Ausstieg
 * Erstellen von Segmenten, indem Sie einen bestimmten Punkt in einem ausgewählten Pfad angeben
 
-Im Folgenden finden Sie ein Video-Tutorial zur Flussvisualisierung:
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Interdimensionale Flüsse {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ Informationen zum Konfigurieren einer Flussvisualisierung finden Sie unter [Konf
 
 Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
 
-## Erweiterte Optionen bei der Flussvisualisierung
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## Zusätzliche Funktionen
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen in der Flussvisualisierung](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+

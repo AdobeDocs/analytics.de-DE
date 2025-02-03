@@ -5,10 +5,10 @@ title: Übersicht über Verarbeitungsregeln
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,14 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 * Korrigieren von Fehlschreibungen bei Sitebereichen
 * Extrahieren von Suchbegriffen oder Kampagnen-IDs aus der Abfragezeichenfolge in eine eVar
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über Verarbeitungsregeln](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} für ein Demovideo.
+
+>[!ENDSHADEBOX]
+
 
 ## Berechtigungen für Verarbeitungsregeln {#section_8A4846688050453784DAE4D89355169A}
 
