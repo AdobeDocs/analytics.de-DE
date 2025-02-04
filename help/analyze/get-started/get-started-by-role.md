@@ -3,9 +3,9 @@ description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließ
 title: Erste Schritte für Admins, Analystinnen und Analysten, Endbenutzerinnen und Endbenutzer sowie Entwicklungspersonen
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Informationen zum Erstellen von Analysen in Analysis Workspace finden Sie unter 
 [Mit Analytics-APIs können Sie die Adobe-Server direkt aufrufen, um fast alle Aktionen auszuführen, die Sie in der Benutzeroberfläche ausführen können.](https://developer.adobe.com/analytics-apis/docs/2.0/)
 
 Sie können Berichte erstellen, um wichtige Fragen zu Ihren Daten zu untersuchen, zu beantworten oder Einblicke zu ihnen zu erhalten. Sie können auch Komponenten von Adobe Analytics verwalten, z. B. die Erstellung von Segmenten oder berechneten Metriken.
+
+>[!MORELIKETHIS]
+>
+>[Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md)
+>
