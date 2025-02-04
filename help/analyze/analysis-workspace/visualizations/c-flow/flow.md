@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -57,13 +57,10 @@ Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/vi
 
 Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
-## Konfigurieren einer Flussvisualisierung
-
-Informationen zum Konfigurieren einer Flussvisualisierung finden Sie unter [Konfigurieren einer Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
-
-## Flussdiagramme als Teil von Projekt-CSV-Dateien exportieren {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-Flussdiagramme sind Teil der .CSV-Datei eines Projekts, die Sie erstellen können, indem Sie **[!UICONTROL Projekt]** > **[!UICONTROL CSV herunterladen]** aufrufen. Dies ermöglicht es Ihnen, Flussergebnisse in Microsoft Excel (als Tabelle visualisiert) oder anderen Programmen zu analysieren.
+>[!MORELIKETHIS]
+>
+>[Flussvisualisierung konfigurieren](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
 
 ## Zusätzliche Funktionen

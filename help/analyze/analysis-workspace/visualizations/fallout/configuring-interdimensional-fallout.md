@@ -4,17 +4,17 @@ title: Mehrdimensionaler Fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 95%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
-# Mehrdimensionaler Fallout
+# Interdimensionaler Fallout
 
-Mithilfe der Fallout-Funktion in Analysis Workspace können Sie Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren. Das gibt Ihnen mehr Flexibilität beim Definieren der Benutzerschritte, die Sie näher untersuchen möchten.
 
+Mit Fallout in Analysis Workspace können Sie Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren. Fallouts bieten Ihnen mehr Flexibilität bei der Definition der Benutzerschritte, die Sie untersuchen möchten.
 
 >[!BEGINSHADEBOX]
 
@@ -22,17 +22,16 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensiona
 
 >[!ENDSHADEBOX]
 
+Beispielsweise können Sie zusätzlich zu einer Seitendimension weitere Dimensionselemente (wie einen bestimmten Gerätenamen aus der Dimension Gerätename) zu einer Fallout-Visualisierung hinzufügen. Durch Kombinieren von Dimensionen können Sie visualisieren, wie Seiten und bestimmte Aktionen in den Pfaden der Kunden interagieren.
 
-**Beispiel**: So können Sie einer Fallout-Visualisierung zusätzlich zu einer Dimension vom Typ „Seite“ auch aktionsbasierte Dimensionselemente hinzufügen. Dadurch können Sie visuell darstellen, welche Zusammenhänge es zwischen Seiten und bestimmten Aktionen auf dem Weg gibt, den Besucher einschlagen.
-
-![](assets/interdimensional-fallout1.png)
+![Die Ansicht „Alle Besuche“, die mehrere Dimensionen als Touchpoints anzeigt.](assets/fallout-otherdimension.png)
 
 Der Fallout wird dynamisch aktualisiert und zeigt Ihnen den Fallout über mehrere Dimensionen hinweg an.
 
-Dieser Kombination können auch Metriken hinzugefügt werden. In diesem Beispiel haben wir die Metrik „Geteiltes Foto“ hinzugefügt, um den Pfad zu konkretisieren, den Besucher eingeschlagen haben:
+Sie können auch Metriken hinzufügen. Sie können beispielsweise die Metrik Aufruf hinzufügen, um nur Pfade für Benutzer anzuzeigen, für die Anrufe vorhanden sind und die sich an das Callcenter gewandt haben:
 
-![](assets/interdimensional-fallout2.png)
+![Die Ansicht „Alle Besuche“, die die hinzugefügte Metrik „Freigegebenes Foto“ anzeigt.](assets/fallout-metrics.png)
 
-Außerdem können Sie auch unterschiedliche Dimensionen und Metriken in AND-Checkpoints kombinieren. Ziehen Sie dazu einfach eine weitere Dimension oder Metrik auf eine bereits vorhandene:
+Sie können Dimensionen und Metriken kombinieren. Ziehen Sie eine andere Dimension oder Metrik auf eine vorhandene. Um beispielsweise die Auswirkungen auf Personen zu verstehen, die einen iPhone haben und das Callcenter kontaktiert haben.
 
-![](assets/interdimensional-fallout3.png)
+![Die Ansicht „Alle Besuche“, die den hinzugefügten Aktionsnamen anzeigt: Metrik „Freigegebene und freigegebene Fotos“.](assets/fallout-combined.png)

@@ -4,10 +4,10 @@ description: Freiformtabellen sind die Grundlage für die Analyse von Daten in W
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 61%
+source-wordcount: '785'
+ht-degree: 25%
 
 ---
 
@@ -30,69 +30,89 @@ _In diesem Artikel wird die Freiformtabellen-Visualisierung in {_}![AdobeAnalyti
 
 >[!ENDSHADEBOX]
 
-In Analysis Workspace bildet eine Freiformtabelle die Grundlage für die interaktive Analyse von Daten. Sie können eine Kombination von [Komponenten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=de) per Drag und Drop in die Zeilen und Spalten ziehen, um eine benutzerdefinierte Tabelle für Ihre Analyse zu erstellen. Da jede Komponente abgelegt wird, wird die Tabelle sofort aktualisiert, sodass Sie sie schnell analysieren und vertiefen können.
 
-## Erstellen einer einfachen Freiformtabelle
+In Analysis Workspace bildet ![ Visualisierung ](/help/assets/icons/Table.svg)Freiformtabelle **[!UICONTROL die]** für die interaktive Datenanalyse. Sie können eine Kombination von [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) per Drag und Drop in die Zeilen und Spalten ziehen, um eine benutzerdefinierte Tabelle für Ihre Analyse zu erstellen. Da jede Komponente abgelegt wird, wird die Tabelle sofort aktualisiert, damit Sie schnell analysieren und tiefer graben können.
 
-Sie beginnen mit einer leeren Freiformtabelle.
+![Freiformtabelle mit Komponenten in Zeilen und Spalten, einschließlich Besuchen und Online-Bestellungen für mehrere Web-Seiten.](assets/opening-section.png)
 
-![Leere Freiformtabelle](assets/freeform-table-1.png)
+So erstellen und konfigurieren Sie eine [!UICONTROL Freiformtabelle]:
 
-Wenn Sie die Metrik **[!UICONTROL ** Besuche **]** auf der **[!UICONTROL ** Metrik hier ablegen (oder einer anderen Komponente)**]** ablegen, werden in der Freiformtabelle für den ausgewählten Kalenderzeitraum automatisch die Besuche pro Tag ausgefüllt.
-
-![Freiformtabelle „Besuche](assets/freeform-table-2.png)
-
-Wenn Sie dann die Dimension **[!UICONTROL ** Seite **]** ablegen, um die Dimensionsspalte **[!UICONTROL ** Tag **]** zu ersetzen, spiegelt die Freiformtabelle automatisch Besuche für jede Seite wider.
-
-![Besuche nach Freiformtabelle der Seite](assets/freeform-table-3.png)
-
-Sie können dann beispielsweise die Seite &quot;**[!UICONTROL **:5“ aufschlüsseln **]** indem Sie die Dimension **[!UICONTROL ** Marketing-Kanal **]** in der Zeile **[!UICONTROL ** Kategorie:5 **]** ablegen.
-
-![Aufschlüsselung der Besuche nach Seiten-Freiformtabelle](assets/freeform-table-4.png)
-
+* Fügen Sie eine Visualisierung ![Tabelle](/help/assets/icons/Table.svg) **[!UICONTROL Freiformtabelle)]**. Siehe [Hinzufügen einer Visualisierung zu einem Bedienfeld](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 ## Automatisierte Tabellen
 
-Wie oben gezeigt, besteht die schnellste Möglichkeit, eine Tabelle zu erstellen, darin, Komponenten direkt in ein leeres Projekt, ein leeres Bedienfeld oder eine Freiformtabelle abzulegen. Eine Freiformtabelle wird dann automatisch in einem empfohlenen Format erstellt. [Tutorial ansehen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=de).
+Am schnellsten können Sie eine Tabelle erstellen, indem Sie Komponenten direkt in ein leeres Projekt, ein leeres Bedienfeld oder eine Freiformtabelle ablegen. Eine Freiformtabelle wird in einem empfohlenen Format erstellt. [Tutorial ansehen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace).
 
-![](assets/automated-table.png)
+![Ein neues Bedienfeld, in dem die Komponente „Besuche“ im Arbeitsbereich abgelegt wird.](assets/automated-table.png)
 
 ## Freiformtabellen-Builder
 
-Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie Freiformtabellen-Builder aktivieren. Wenn der Builder aktiviert ist, können Sie für komplexe Fragen Tabellen mit vielen Dimensionen, Unterteilungen, Metriken und Segmenten per Drag-and-Drop erstellen. Daten werden nicht sofort aktualisiert. Sie werden erst aktualisiert, wenn Sie auf &quot;**[!UICONTROL &quot;]**.
+Wenn Sie Ihrer Tabelle lieber zuerst mehrere Komponenten hinzufügen und dann die Daten rendern möchten, können Sie **[!UICONTROL Tabellengenerator aktivieren]** auswählen. Wenn der Builder aktiviert ist, können Sie Dimensionen, Aufschlüsselungen, Metriken und Filter per Drag-and-Drop verschieben, um Tabellen zu erstellen, die komplexere Fragen beantworten. Datenaktualisierungen nach Auswahl von **[!UICONTROL Erstellen]**.
 
-![](assets/table-builder.png)
+![Ein Freiformtabellen-Builder mit ](assets/table-builder.png)
 
-## Tabelleninteraktionen
+## Interaktionen
 
 Es gibt verschiedene Arten, mit Freiformtabellen zu interagieren und sie anzupassen:
 
-* **Zeilen**
-   * Sie können mehr Zeilen in einen einzigen Bildschirm einpassen, indem Sie die [Anzeigedichte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=de) des Projekts anpassen.
-   * Jede Dimensionsreihe kann bis zu 400 Zeilen anzeigen, bevor die Paginierung erfolgt. Klicken Sie auf die Zahl neben „Zeilen“, um weitere Zeilen auf einer Seite anzuzeigen. Mit dem Pfeil in der Kopfzeile navigieren Sie zu einer anderen Seite.
-   * Zeilen können nach zusätzlichen Komponenten aufgeschlüsselt werden. Um mehrere Zeilen gleichzeitig zu aufzuschlüsseln, wählen Sie einfach mehrere Zeilen aus und ziehen dann die nächste Komponente auf die ausgewählten Zeilen. Weitere Informationen zu [Aufschlüsselungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=de).
-   * Zeilen können [gefiltert](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=de) werden, um einen reduzierte Anzahl von Elementen anzuzeigen. Weitere Einstellungen finden Sie unter [Zeileneinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=de).
+### Filtern und Sortieren
 
-* **Spalten**
-   * Komponenten können innerhalb von Spalten gestapelt werden, um segmentierte Metriken, tabellenübergreifende Analysen und mehr zu erstellen.
-   * Die Ansicht jeder Spalte kann unter den [Spalteneinstellungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=de) angepasst werden.
-   * Über das [Kontextmenü](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html?lang=de) sind verschiedene Aktionen verfügbar. Das Menü enthält verschiedene Aktionen, je nachdem, ob Sie auf die Tabellenüberschrift, die Zeilen oder die Spalten klicken.
+* Sie können [ Daten ](filter-and-sort.md) einer Tabelle filtern und sortieren.
 
-## Exportieren von Freiformtabellendaten
+### Zeilen
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
+* Mit [GraphBarVerticalAdd](../freeform-analysis-visualizations.md#visualize) ![ können Sie schnell aus einer oder mehreren Zeilen eine neue Visualisierung ](/help/assets/icons/GraphBarVerticalAdd.svg).
+* Sie können mehr Zeilen in einen einzigen Bildschirm einpassen, indem Sie die [Anzeigedichte](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) des Projekts anpassen.
+* Jede Dimensionsreihe kann bis zu 400 Zeilen anzeigen, bevor die Paginierung erfolgt. Wählen Sie die Zahl neben **[!UICONTROL Zeilen]** in der ersten Spaltenüberschrift aus, um weitere Zeilen auf einer Seite anzuzeigen. Navigieren Sie mit „ChevronRight![ in ](/help/assets/icons/ChevronRight.svg) ersten Spaltenüberschrift zu einer anderen Seite.
+* Sie können Zeilen nach zusätzlichen Komponenten aufschlüsseln. Um mehrere Zeilen gleichzeitig aufzuschlüsseln, wählen Sie mehrere Zeilen aus und ziehen Sie dann die nächste Komponente auf die ausgewählten Zeilen. Weitere Informationen zu [Aufschlüsselungen](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+* Zeilen können [gefiltert](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) werden, um einen reduzierte Anzahl von Elementen anzuzeigen. Weitere Einstellungen finden Sie unter [Zeileneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
-* Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten in Zwischenablage kopieren]** exportiert die angezeigten Tabellendaten. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl in Zwischenablage kopieren]**. Mit dem Hotkey **Strg + C** können auch ausgewählte Daten kopiert werden.
-* Klicken Sie mit der rechten Maustaste und **[!UICONTROL Daten als CSV-Datei herunterladen]** lädt die angezeigten Tabellendaten als CSV-Datei herunter. Wenn eine Tabellenauswahl vorgenommen wurde, lautet diese Option **[!UICONTROL Auswahl als CSV-Datei herunterladen]**.
-* Klicken Sie mit der rechten Maustaste **[!UICONTROL Projekt > Elemente als CSV herunterladen]** exportiert bis zu 50.000 Dimensionselemente für die ausgewählte Dimension.
+### Spalten
 
-Erfahren Sie mehr über die [Exportoptionen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de) aller Daten für Analysis Workspace.
+* Komponenten können innerhalb von Spalten gestapelt werden, um gefilterte Metriken, tabellenübergreifende Analysen und mehr zu erstellen.
+* Die Ansicht jeder Spalte kann unter den [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) angepasst werden.
+* Mehrere Aktionen sind über das [Kontextmenü](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) verfügbar. Das Menü bietet verschiedene Aktionen, je nachdem, ob Sie die Tabellenkopfzeile, Zeilen oder Spalten auswählen.
 
-![](assets/export-options.png)
+
+## Einstellungen
+
+Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) aus, um **[!UICONTROL Tabelleneinstellungen]** anzuzeigen. Die folgenden spezifischen [ (Einstellungen](../freeform-analysis-visualizations.md#settings) sind verfügbar:
+
+### Datenquelle
+
+| Option | Beschreibung |
+|---|---|
+| **[!UICONTROL Verknüpfte]**. | Listet alle verknüpften Visualisierungen auf. |
+| **[!UICONTROL Datenquelle anzeigen]** | Wenn diese Option deaktiviert ist, wird die Freiformtabelle, die als Datenquelle für die Visualisierung fungiert, in Workspace ausgeblendet. |
+
+### Einstellungen
+
+| Option | Beschreibung |
+|---|---|
+| **[!UICONTROL Die Datumsangaben in den einzelnen Spalten so ausrichten, dass sie alle in derselben Zeile beginnen]** | So ordnen Sie Datumsangaben in jeder Spalte so an, dass sie alle in derselben Zeile beginnen. |
+
+
+## Kontextmenü
+
+Die folgenden [Kontextmenü](../freeform-analysis-visualizations.md#context-menu)-Optionen sind in der Kopfzeile der Visualisierung verfügbar:
+
+| Option | Beschreibung |
+| --- | --- |
+| **[!UICONTROL Kopierte Visualisierung einfügen]**n | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt ein. |
+| **[!UICONTROL Daten in die Zwischenablage kopieren]** | Kopieren Sie Daten aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Auswahl in Zwischenablage kopieren]** | Kopieren Sie die Auswahl aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | Laden Sie sofort die Dimensionselemente (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
+| **[!UICONTROL Visualisierung kopieren]** | Kopieren Sie die Visualisierung, sodass Sie die Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
+| **[!UICONTROL Daten-CSV herunterladen]** | Laden Sie die angezeigten Daten der Visualisierung sofort auf Ihr lokales Gerät herunter. |
+| **[!UICONTROL Visualisierung duplizieren]** | Erstellen Sie ein exaktes Duplikat der Visualisierung. |
+| **[!UICONTROL Beschreibung bearbeiten]** | Hinzufügen (oder Bearbeiten) einer Textbeschreibung für die Visualisierung. Siehe [Text](../text.md). |
+| **[!UICONTROL Visualisierungs-Link abrufen]** | Kopieren Sie einen Link und teilen Sie ihn direkt in der Visualisierung. Das Dialogfeld Link freigeben zeigt den Link an. Wählen Sie Kopieren aus, um den Link in die Zwischenablage zu kopieren. |
+| **[!UICONTROL Neu starten]** | Löschen Sie die Konfiguration für die aktuelle Visualisierung, damit Sie sie von Grund auf neu konfigurieren können. |
+
+
 
 ## Videos
 
-Freiformtabellen-Builder – Übersicht:
 >[!BEGINSHADEBOX]
 
 Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zum Freiformtabellen-Builder](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} für ein Demovideo.
@@ -110,6 +130,14 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freiformtabell
 Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freiformtabellen-Summen](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
 
 
 
