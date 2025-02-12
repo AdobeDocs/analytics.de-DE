@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Anal
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ In diesem Handbuch wird die Integration mehrerer Adobe Experience Cloud-Lösunge
 
 * **Audience Analytics:** Integration von Adobe Audience Manager mit Adobe Analytics.
 * **Advertising Analytics:** zur Anzeige von Paid Search-Daten gemeinsam mit Adobe Analytics-Daten.
-* **Analytics für Advertising Cloud DSP:** integriert Adobe Analytics und Adobe Advertising Cloud, um die Funktionen der einzelnen Produkte zu erweitern und zu verbessern.
+* **Analytics für Advertising Cloud DSP:** Integriert Adobe Analytics und Adobe Advertising Cloud, um die Funktionen der einzelnen Produkte zu erweitern und zu verbessern. 
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics für Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} Adobe Analytics finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

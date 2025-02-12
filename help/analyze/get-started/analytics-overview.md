@@ -5,9 +5,9 @@ title: Übersicht zu Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Weitere Informationen zu den Grundlagen von Adobe Analytics finden Sie im folgen
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einführung in Adobe Analytics - Skill Builder](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} für das Webinar-Video.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einführung in Adobe Analytics – Skill Builder](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} finden Sie das Webinar-Video.
 
 >[!ENDSHADEBOX]
 

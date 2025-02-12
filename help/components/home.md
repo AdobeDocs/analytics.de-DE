@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Komponenten, die Adobe An
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Mithilfe von Analytics-Komponenten können Sie die Datenanalyse optimieren. Zu d
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} Adobe Analytics finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
