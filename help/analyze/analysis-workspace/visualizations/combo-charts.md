@@ -4,7 +4,7 @@ title: Visualisierung von Kombinationsdiagrammen
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
+source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 48%
@@ -25,7 +25,9 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Kombinationsvisualisierung in {_}![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Kombinationsvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
+
+_Siehe [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +80,7 @@ Wenn Sie **[!UICONTROL Funktion]** als [!UICONTROL Linienvergleichstyp] auswähl
 | --- | --- |
 | **[!UICONTROL Spaltensumme]** | Addiert alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) |
 | **[!UICONTROL Kumulativer Durchschnitt]** | Gibt den Durchschnitt der letzten N Zeilen zurück. |
-| **[!UICONTROL Median]** | Gibt den Median für eine Metrik in einer Spalte zurück. Der Median ist die Zahl in der Mitte einer Zahlenreihe. Die Hälfte der Zahlen hat Werte, die größer oder gleich dem Median sind, und die Hälfte der Zahlen hat Werte, die kleiner oder gleich dem Median sind. |
+| **[!UICONTROL Median]** | Gibt den Medianwert für eine Metrik in einer Spalte zurück. Der Median ist die Zahl in der Mitte einer Zahlenreihe. Die Hälfte der Zahlen hat Werte, die größer oder gleich dem Median sind, und die Hälfte der Zahlen hat Werte, die kleiner oder gleich dem Median sind. |
 | **[!UICONTROL Kumulativ]** | Die kumulative Summe von N Zeilen. |
 | **[!UICONTROL Spaltenmaximum]** | Gibt den größten Wert in einem Satz aus Dimensionselementen für eine Metrikspalte zurück. |
 | **[!UICONTROL Mittel]** | Gibt das arithmetische Mittel (bzw. den Durchschnitt) einer Metrik zurück. |
