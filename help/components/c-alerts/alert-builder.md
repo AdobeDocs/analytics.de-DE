@@ -3,10 +3,10 @@ description: Verwenden Sie Warnhinweise in Analysis Workspace.
 title: Übersicht über die Warnhinweiserstellung
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 966bd9a05e6c344a62ce3f0b12df8a99ff3d7ece
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 32%
+source-wordcount: '695'
+ht-degree: 25%
 
 ---
 
@@ -52,6 +52,6 @@ So erstellen Sie einen Warnhinweis:
    | [!UICONTROL **Empfänger**] | Geben Sie an, wo der Warnhinweis hingeschickt werden soll. Ein Warnhinweis kann an einen Analyse-Benutzer, eine Analyse-Gruppe, eine E-Mail-Adresse oder eine Telefonnummer gesendet werden.<p><b>Wichtig:</b> Vor der Telefonnummer müssen `+` und eine [Landesvorwahl](https://countrycode.org/) stehen.</p><p>Die E-Mail-Adresse, die ein Benutzer erhalten würde, sobald ein Warnhinweis ausgelöst wurde, sieht in etwa so aus:</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **Ablaufdatum**] | Datum und Uhrzeit festlegen, zu der der Warnhinweis ablaufen soll. |
    | [!UICONTROL **Warnhinweis senden, wenn**] | [!UICONTROL **Trigger einer dieser Metriken**]: Ziehen Sie Metriken (einschließlich berechneter Metriken) per Drag-and-Drop hierher, um Trigger für den Warnhinweis zu erstellen.<p>Eine **Meldung „Inkompatible Komponenten** wird angezeigt, wenn nicht alle Metriken, Dimensionen oder Segmente im Warnhinweis mit der aktuell ausgewählten Datenansicht kompatibel sind.</p><p>Legen Sie den Schwellenwert fest, den die Metrik überschreiten muss, damit ein Warnhinweis ausgegeben wird. Sie können diesen Wert auf einen Schwellenwert und anschließend auf eine der folgenden Bedingungen setzen:</p><ul><li>Anomalie vorhanden</li><li>Anomalie liegt über erwartetem Wert</li><li>Anomalie liegt unter erwartetem Wert</li><li>ist größer oder gleich</li><li>ist kleiner oder gleich</li><li>ändert sich um</li><li>Sie können einen Schwellenwert von 90 %, 95 %, 99 %, 99,75 % und 99,9 % festlegen.</li></ul><p>[!UICONTROL **Mit allen diesen Filtern**]: Ziehen Sie Segmente oder Dimensionen per Drag-and-Drop, um Filter hinzuzufügen. Wenn Sie beispielsweise das Segment „Nur Mobilgeräte“ hinzufügen, bedeutet dies, dass die Regel-Trigger nur für Mobilgeräte gelten. Mit einer AND-Anweisung können Sie zusätzliche Filter hinzufügen. Per Klick auf das Zahnrad-Symbol können Sie AND- oder OR-Regeln hinzufügen.</p><p>Siehe [Warnhinweise - Anwendungsfälle](/help/components/c-alerts/alerts-use-cases.md) zum Beispiel.</p> |
-   | [!UICONTROL **Vorschau**] | Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.<p>Beispiel: Wenn Sie die Zeitgranularität auf „Stündlich“ festlegen, kann Ihnen die Vorschau verraten, dass der Warnhinweis zu einer bestimmten Metrik während der letzten 30 oder 31 Tage x-mal ausgelöst worden wäre.</p><p>Wenn Sie feststellen, dass zu viele Warnhinweise ausgelöst werden, können Sie den Schwellenwert im [Warnhinweis-Manager“ ](/help/components/c-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
+   | [!UICONTROL **Vorschau**] | Die interaktive Warnhinweisvorschau zeigt Ihnen basierend auf Daten aus der Vergangenheit, wie oft damit zu rechnen ist, dass ein Warnhinweis ausgelöst wird.<p>Wenn Sie beispielsweise die Zeitgranularität auf „Täglich“ setzen, können Sie in der Vorschau sehen, dass der Warnhinweis in den letzten 30 oder 31 Tagen für eine bestimmte Metrik x-mal ausgelöst worden wäre. Das Vorschaufenster für die Annäherung wird durch die Einstellung der Warnungsfrequenz festgelegt. Bei den täglichen Warnhinweishäufigkeiten werden die vorherigen 30 Tage im Vorschaufenster angezeigt. Bei den wöchentlichen Warnhinweishäufigkeiten werden die letzten 12 Wochen im Vorschaufenster angezeigt. Für die monatlichen Warnhinweishäufigkeiten nimmt das Vorschaufenster ungefähr die vorherigen 12 Monate an.</p><p>Wenn Sie feststellen, dass zu viele Warnhinweise ausgelöst werden, können Sie den Schwellenwert im [Warnhinweis-Manager“ ](/help/components/c-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
