@@ -3,10 +3,10 @@ title: Verwalten von Daten-Feeds
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren. Erfahren Sie, wie Sie einen Daten-Feed erstellen, bearbeiten und anzeigen.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 26%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ Mit [!UICONTROL  Schaltfläche ]Hinzufügen“ können Sie einen neuen Feed erst
 
    Beim Aktualisieren des [!UICONTROL **Ziel**]-Abschnitts für einen Daten-Feed, den Sie bearbeiten, können Sie in den Dropdown-Feldern [!UICONTROL **Konto**] und [!UICONTROL **Speicherort**] ein anderes Konto und einen anderen Speicherort für den neuen Daten-Feed auswählen.
 
-   Konten und Speicherorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Das Bearbeiten eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder diesem Standort verknüpft sind.
+   Konten und Speicherorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Die Bearbeitung eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder diesem Standort verknüpft sind.
 
    In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feed-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
 
@@ -84,17 +84,21 @@ Mit [!UICONTROL  Schaltfläche ]Hinzufügen“ können Sie einen neuen Feed erst
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, den Sie kopieren möchten, und klicken Sie dann auf [!UICONTROL **Kopieren**].
 
-   Führt Sie zu [Erstellen eines neuen Feeds](create-feed.md) mit allen Einstellungen des aktuellen Feeds. Diese Option ist nicht sichtbar, wenn mehr als ein Daten-Feed ausgewählt ist.
+   Hiermit wird [neuer Feed erstellt](create-feed.md) mit allen Einstellungen des aktuellen Feeds erstellt. Diese Option ist nicht sichtbar, wenn mehr als ein Daten-Feed ausgewählt ist.
 
    Beim Aktualisieren des [!UICONTROL **Ziel**]-Abschnitts für einen Daten-Feed, den Sie kopieren, können Sie in den Dropdown-Feldern [!UICONTROL **Konto**] und [!UICONTROL **Speicherort**] ein anderes Konto und einen anderen Speicherort für den neuen Daten-Feed auswählen.
 
-   Konten und Speicherorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Das Bearbeiten eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder diesem Standort verknüpft sind.
+   Konten und Speicherorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Die Bearbeitung eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder diesem Standort verknüpft sind.
 
    In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feed-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
 
 ## Anhalten eines Daten-Feeds
 
-Sie können die Verarbeitung für den Feed stoppen und seinen Status auf [!UICONTROL Inaktiv] setzen.
+Wenn Sie einen Daten-Feed anhalten, verarbeitet er den Feed nicht mehr und setzt seinen Status auf [!UICONTROL Inaktiv].
+
+Wenn Sie den Feed nach dem Anhalten erneut aktivieren, werden die Daten während der Pause des Feeds für Aufstockungs-Feeds verarbeitet, nicht aber für Live-Feeds. Weitere Informationen finden Sie unter [Aktivieren eines Daten-Feeds](#activate-a-data-feed).
+
+So pausieren Sie einen Daten-Feed:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
 
@@ -104,17 +108,11 @@ Sie können die Verarbeitung für den Feed stoppen und seinen Status auf [!UICON
 
 Sie können Feeds aktivieren, die inaktiv sind.
 
-Aufstockungs-Feeds (Feeds, die nur historische Daten verarbeiten) setzen die Verarbeitung von Daten von der Stelle aus fort, an der sie gestoppt wurden, und füllen bei Bedarf Datumsangaben auf. Live-Feeds setzen auch die Verarbeitung von Daten an der Stelle fort, an der sie gestoppt wurden.
+Wenn ein Feed erneut aktiviert wird, werden Daten möglicherweise nicht automatisch verarbeitet, solange der Feed inaktiv war. Ob die Daten verarbeitet werden, hängt davon ab, ob es sich um einen Aufstockungs-Feed oder einen Live-Feed handelt:
 
->[!AVAILABILITY]
->
->Die folgende Änderung an der Art und Weise, wie Live-Feeds die Verarbeitung von Daten fortsetzen, befindet sich in der eingeschränkten Testphase der Veröffentlichung:
-> 
->**Live-Feeds setzen die Verarbeitung von Daten aus der aktuellen Zeit fort.**
->
->Diese Änderung ist in Ihrer Umgebung möglicherweise noch nicht verfügbar.
->
->Dieser Hinweis wird entfernt, wenn diese Änderung allgemein verfügbar ist. Informationen zum Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+* **Aufstockungs-Feeds** (Feeds, die nur historische Daten verarbeiten) setzen die Verarbeitung von Daten von dort fort, wo sie gestoppt wurden, und füllen bei Bedarf alle Daten auf.
+
+* **Live-Feeds** setzen die Verarbeitung von Daten ab dem Zeitpunkt ihrer Aktivierung fort. Das bedeutet, dass Daten während der Zeit, in der der Feed pausiert wurde, bis zur Aktivierung nicht verarbeitet werden. Wenn Sie die Daten für diesen Zeitraum benötigen, müssen Sie eine Aufstockung einrichten.
 
 So aktivieren Sie einen Daten-Feed:
 
@@ -153,10 +151,10 @@ Die folgenden Spalten sind verfügbar:
    * Aktiv: Der Feed ist betriebsfähig.
    * Genehmigung ausstehend: Unter bestimmten Umständen muss ein Feed von Adobe genehmigt werden, bevor er Aufträge generieren kann.
    * Gelöscht: Der Feed wurde gelöscht.
-   * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, angehalten und abgebrochen werden.
+   * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
    * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
    * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [ unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
-* **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
-* **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
+* **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
+* **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
 * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '6026'
-ht-degree: 100%
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 * Informationen zur Streaming-Mediensammlung finden Sie unter [Messen von Audio und Video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details zu wichtigen Aktualisierungen der Dokumentation
+
+### 2025 {#year2025}
+
+| Funktion | Beschreibung |
+| --- | --- |
+| **Februar 2025** |  |
+| Aktualisierte Informationen zum Anhalten und erneuten Aktivieren eines Daten-Feeds | Beim [Anhalten und erneuten Aktivieren eines Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed) wurde das Verhalten für Live-Feeds klarer formuliert. Die Datenverarbeitung erfolgt nicht zwischen der Pause des Feeds und der Reaktivierung. |
 
 ### 2024 {#year2024}
 
