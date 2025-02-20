@@ -4,10 +4,10 @@ description: Machen Sie sich mit den Voraussetzungen und Einschränkungen der Da
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 80%
 
 ---
 
@@ -19,15 +19,15 @@ Cross-Device Analytics bietet zwei verschiedene Methoden der Datenzuordnung. Bei
 
 ## Spezifische Voraussetzungen für feldbasiertes Stitching
 
-Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe-Account-Team zusammen, um sicherzustellen, dass Sie alle folgenden Voraussetzungen erfüllen.
+Wenn Sie die geräteübergreifende Analyse mithilfe von feldbasiertem Stitching implementieren möchten, ist Folgendes erforderlich. Arbeiten Sie mit Teams in Ihrem Unternehmen und Ihrem Adobe Account Team zusammen, um sicherzustellen, dass Sie alle folgenden Voraussetzungen erfüllen.
 
 >[!WARNING]
 >
 >Wenn nicht alle Voraussetzungen erfüllt sind, ist die Aktivierung der geräteübergreifenden Analyse unter Umständen nicht möglich oder die Ergebnisse bei der Datenzuordnung sind schlecht.
 
 * Alle auf der [Übersichtsseite](overview.md) aufgeführten Voraussetzungen.
-* Ihre Implementierung muss eine Prop oder eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn ein Benutzer sich anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, wenn sie verwendet werden. Vermeiden Sie es, der Eigenschaft oder der eVar einen Standardwert zuzuweisen.
-* Übermitteln Sie die gewünschte Identifizierungsvariable an Ihr Adobe-Account-Team, wenn Sie für feldbasiertes Stitching vorgesehen sind.
+* Ihre Implementierung muss eine Prop oder eVar festlegen, die eine Person eindeutig identifiziert, wann immer dies möglich ist, z. B. wenn ein Benutzer sich anmeldet oder eine E-Mail öffnet. Diese Anforderung gilt für alle Plattformen, einschließlich mobiler Apps, falls sie verwendet werden.<br/>Vermeiden Sie es, dieser Eigenschaft oder eVar einen Standardwert zuzuweisen. Wenn mindestens 2.000 verschiedenen Geräten derselbe Standardwert zugewiesen wird, wird die Person der Liste „Bad Person“ hinzugefügt und diese Ereignisse werden aus der CDA-fähigen Virtual Report Suite gelöscht, was zu einer fehlerhaften Analyse führt.
+* Übermitteln Sie die gewünschte Identifizierungsvariable an Ihr Adobe-Konto-Team, wenn Sie für feldbasiertes Stitching vorgesehen sind.
 
 ## Spezifische Einschränkungen für feldbasiertes Stitching
 
