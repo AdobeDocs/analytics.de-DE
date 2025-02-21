@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
+source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
 workflow-type: tm+mt
 source-wordcount: '6237'
 ht-degree: 96%
@@ -27,9 +27,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Februar 2025** |  |
 | Aktualisierte Informationen zum Anhalten und erneuten Aktivieren eines Daten-Feeds | Beim [Anhalten und erneuten Aktivieren eines Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed) wurde das Verhalten für Live-Feeds klarer formuliert. Die Datenverarbeitung erfolgt nicht zwischen der Pause des Feeds und der Reaktivierung. |
-| Aufbewahrungszeitraum der geänderten Transaktions-ID   Die Aufbewahrungsfrist für Transaktions-IDs von 90 Tagen wurde auf 25 Monate verlängert. Die Variable transactionID identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Data Sources hochgeladen wurden. Weitere Informationen [hier](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) und [hier](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
+| Aufbewahrungszeitraum der geänderten Transaktions-ID | Die Aufbewahrungsfrist für Transaktions-IDs von 90 Tagen wurde auf 25 Monate verlängert. Die Variable transactionID identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Data Sources hochgeladen wurden. Weitere Informationen [hier](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) und [hier](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
 | Livestream-API - Client-Implementierung | Verwenden Sie die [Livestream-Client-Implementierung](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) um Livestream-Daten zu nutzen. |
-| Aktualisierung der Klassifizierungs-API \ Sie können jetzt [einzelne Klassifizierungsfelder oder -schlüssel vom Server entfernen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Dies bietet eine Alternative zum Löschen eines gesamten Klassifizierungsdatensatzes mit der DELETE-Methode. |
+| Aktualisierung der Klassifizierungs-API | Sie können jetzt [einzelne Classification-Felder oder Schlüssel vom Server entfernen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Dies bietet eine Alternative zum Löschen eines gesamten Klassifizierungsdatensatzes mit der DELETE-Methode. |
 | **Januar 2025** |  |
 | API-Referenz für Daten-Feeds | Die [Referenz für die Daten-Feeds-API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) ist jetzt verfügbar. |
 | Neue Dokumentation zur Planung in der neuen Report Builder | [Planung](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) ermöglicht nicht nur die Planung Ihrer neuen Report Builder-Arbeitsmappen. Darüber hinaus können Sie beim Konvertieren veralteter Arbeitsmappen die Metadaten für alte geplante Aufgaben abrufen. |
