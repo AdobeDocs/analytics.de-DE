@@ -4,10 +4,10 @@ title: Metriken in Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,8 +42,6 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von 
 
 >[!ENDSHADEBOX]
 
-
-
 ## Erstellen von berechneten Metriken
 
 Berechnete Metriken ermöglichen es Ihnen, mithilfe einfacher Operatoren oder statistischer Funktionen leicht zu erkennen, wie sich Metriken zueinander verhalten.
@@ -64,21 +62,41 @@ Erstellen einer berechneten Metrik für ein einzelnes Projekt:
 
 1. Öffnen Sie in Analysis Workspace das Projekt, in dem Sie die berechnete Metrik erstellen möchten.
 
-1. Klicken Sie in einer Freiformtabelle mit der rechten Maustaste auf eine oder mehrere Überschriftenspaltenzellen und wählen Sie dann **[!UICONTROL Metrik aus Auswahl erstellen]**
+1. Klicken Sie in einer Freiformtabelle mit der rechten Maustaste auf die Spaltenüberschrift einer einzelnen Spalte.
+
+   Oder
+
+   Wählen Sie zwei Spalten aus, während Sie die Umschalttaste gedrückt halten, und klicken Sie dann mit der rechten Maustaste auf eine der ausgewählten Spalten.
+
+1. Wählen Sie **[!UICONTROL Metrik aus Auswahl erstellen]**
 
    ![Workspace-Bedienfeld mit hervorgehobener Option „Aus Auswahl erstellen“](assets/create-metric-from-selection.png)
 
-1. Um eine berechnete Metrik nur für dieses Projekt zu erstellen, wählen Sie eine der folgenden Optionen aus:
+1. Um nur für dieses Projekt eine berechnete Metrik zu erstellen, wählen Sie eine der verfügbaren Optionen aus.
 
-   * [!UICONTROL **Trennen**]
+   Wenn eine einzelne Spalte ausgewählt ist, stehen die folgenden Optionen zur Verfügung:
 
-   * [!UICONTROL **Abziehen**]
+   * [!UICONTROL **Mittel**]: Erstellt eine neue Spalte, die den Mittelwert im Satz der Dimensionselemente für die Spalte anzeigt. Dabei wird die Funktion [Mittelwert](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) verwendet.
 
-   * [!UICONTROL **Hinzufügen**]
+   * [!UICONTROL **Median**]: Erstellt eine neue Spalte, die den Medianwert im Satz der Dimensionselemente für die Spalte anzeigt. Dabei wird die [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)-Funktion verwendet.
 
-   * [!UICONTROL **Multiplizieren**]
+   * [!UICONTROL **Spalte max**]: Erstellt eine neue Spalte, die den größten Wert im Satz von Dimensionselementen für die Spalte anzeigt. Dabei wird die [Spaltenmaximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)-Funktion verwendet.
 
-   Alternativ können Sie den Generator für berechnete Metriken öffnen und die berechnete Metrik für alle Projekte erstellen, indem Sie [!UICONTROL **In Generator für berechnete Metriken öffnen**] und dann mit [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) fortfahren.
+   * [!UICONTROL **Spalte min**]: Erstellt eine neue Spalte, die den kleinsten Wert im Satz der Dimensionselemente für die Spalte anzeigt. Dabei wird die Funktion [Spalten-Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) verwendet.
+
+   * [!UICONTROL **Spaltensumme**]: Erstellt eine neue Spalte, die alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) hinzufügt. Dabei wird die Funktion [Spaltensumme](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) verwendet.
+
+   Wenn zwei Spalten ausgewählt sind, sind die folgenden Optionen verfügbar:
+
+   * [!UICONTROL **Trennen**]: Erstellt eine neue Spalte, die die Werte der beiden ausgewählten Spalten teilt.
+
+   * [!UICONTROL **Abziehen**]: Erstellt eine neue Spalte, die die Werte der beiden ausgewählten Spalten abzieht.
+
+   * [!UICONTROL **Hinzufügen**]: Erstellt eine neue Spalte, die die Werte der beiden ausgewählten Spalten hinzufügt.
+
+   * [!UICONTROL **Multiplizieren**]: Erstellt eine neue Spalte, die die Werte der beiden ausgewählten Spalten multipliziert.
+
+   * [!UICONTROL **prozentuale Änderung**]: Erstellt eine neue Spalte, die die prozentuale Änderung der beiden ausgewählten Spalten anzeigt.
 
 [Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=de) (3:42)
 
