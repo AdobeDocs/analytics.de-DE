@@ -3,7 +3,7 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
+source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 57%
@@ -24,7 +24,7 @@ Diese Versionshinweise decken den Veröffentlichungszeitraum vom 11. Februar bis
 | **API-Referenz für Daten-Feeds** | Die [Referenz](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) für die Daten-Feeds-API ist jetzt verfügbar. |  | 30. Januar 2025 |
 | **Livestream-API - Client-Implementierung** | Verwenden Sie die Livestream-Client-Implementierung , um Livestream-Daten zu nutzen. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | Mittwoch, 18. Februar 2025 |
 | **Aktualisierung der Klassifizierungs-API** | Sie können jetzt einzelne Klassifizierungsfelder oder Schlüssel vom Server entfernen. Dies bietet eine Alternative zum Löschen eines gesamten Klassifizierungsdatensatzes mit der DELETE-Methode. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | Mittwoch, 18. Februar 2025 |
-| **Aktualisierung des Analytics-Kontextdatenfelds`a.locale`** | Eine Aktualisierung der Einstellung des Analytics-Kontextdatenfeld-`a.locale` bei der geplanten Datenerfassung über Experience Edge. Wenn Daten mit Experience Edge an Adobe Analytics gesendet werden, werden Analytics-Felder basierend auf einer Zuordnung von XDM-Feldern ausgefüllt. Die Zuordnung für `c.a.locale` verweist auf ein nicht standardmäßiges XDM-Feld `xdm.environment.language`. Dieses Feld wird aktualisiert, um `xdm.environment._dc.language` auf das richtige Feld zu verweisen.  Die Zuordnung verweist weiterhin auf `xdm.environment.language` aus Gründen der Abwärtskompatibilität. Wenn beide Felder festgelegt sind, hat `xdm.environment.language` für die Kontinuität Vorrang. Sie können die vollständige Liste der Zuordnungen von XDM zu standardmäßigen Analytics-Feldern ([) ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | Donnerstag, 5. März 2025 |
+| **Aktualisierung des Analytics-Kontextdatenfelds`a.locale`** | Durch eine geplante Aktualisierung ändert sich, wie das Analytics-Kontextdatenfeld `a.locale` bei der Datenerfassung über Experience Edge festgelegt wird. Wenn Daten mit Experience Edge an Adobe Analytics gesendet werden, werden Analytics-Felder basierend auf einer Zuordnung von XDM-Feldern ausgefüllt. Die Zuordnung für `c.a.locale` verweist auf ein nicht standardmäßiges XDM-Feld `xdm.environment.language`. Dieses Feld wird aktualisiert, um `xdm.environment._dc.language` auf das richtige Feld zu verweisen.  Die Zuordnung verweist weiterhin auf `xdm.environment.language` aus Gründen der Abwärtskompatibilität. Wenn beide Felder festgelegt sind, hat `xdm.environment.language` für die Kontinuität Vorrang. Sie können die vollständige Liste der Zuordnungen von XDM zu standardmäßigen Analytics-Feldern ([) ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | Donnerstag, 5. März 2025 |
 
 
 ## Fehlerbehebungen in Adobe Analytics
