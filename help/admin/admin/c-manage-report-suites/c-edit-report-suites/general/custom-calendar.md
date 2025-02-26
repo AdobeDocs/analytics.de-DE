@@ -4,10 +4,10 @@ title: Anpassen von Kalendern
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu d
 | Benutzerdefinierter Kalender | Bietet drei Formate, basierend auf der Anzahl der Wochen je Monat. Die Anzahl der Wochen in jedem Monat hängt vom ausgewählten ersten Tag des Jahres ab.  Ein Jahr hat 52 Wochen. Bei einer Aufteilung in vier Quartale kommen 13 Wochen pro Quartal heraus. Doch in einem Quartal sind drei Monate enthalten. Die Zahl 13 ist nicht durch 3 teilbar. Folglich muss die restliche Woche aus Konsistenzgründen zu einem der Monate hinzugefügt werden.<ul><li>5-4-4 bedeutet, dass die übrig gebliebene Woche im 1. Monat des Quartals ist. 4-5-4 bedeutet, dass sie im 2. Monat ist, usw. Im 5-4-4-Kalender wird die 53. Woche dem letzten Quartal des Jahres hinzugefügt.</li><li>4-5-4: Januar hat vier Wochen, Februar hat fünf Wochen, März hat vier Wochen usw.</li><li>4-4-5: Januar hat vier Wochen, Februar hat vier Wochen, März hat fünf Wochen usw.</li><li>5-4-4: Januar hat fünf Wochen, Februar hat vier Wochen, März hat vier Wochen usw.</li></ul> |
 
 >[!NOTE]
->Diese Kalenderoptionen werden in allen Adobe Analytics-Tools (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map) unterstützt mit Ausnahme von Data Warehouse. Data Warehouse unterstützt nur den gregorianischen Kalender vollständig. Bei der Auswahl eines nicht-gregorianischen Kalenders verwendet Data Warehouse den erwarteten Datumsbereich des nicht-gregorianischen Kalenders. Die Aufschlüsselung nach Tag/Woche/Monat in den Berichtszeilen entspricht jedoch möglicherweise nicht den Erwartungen an einen nicht-gregorianischen Kalender.
+>Diese Kalenderoptionen werden in allen Adobe Analytics-Tools (Analysis Workspace, Report Builder, Activity Map) mit Ausnahme von Data Warehouse unterstützt. Data Warehouse unterstützt nur den gregorianischen Kalender vollständig. Bei der Auswahl eines nicht-gregorianischen Kalenders verwendet Data Warehouse den erwarteten Datumsbereich des nicht-gregorianischen Kalenders. Die Aufschlüsselung nach Tag/Woche/Monat in den Berichtszeilen entspricht jedoch möglicherweise nicht den Erwartungen an einen nicht-gregorianischen Kalender.

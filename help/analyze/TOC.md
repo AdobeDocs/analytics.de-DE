@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [Segmente verwalten](legacy-report-builder/data-requests/segmentation.md)
       + Berichtstypen {#report-types}
          + [Übersicht über Berichtstypen](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Pfad- und Pfad-Fallout-Berichte in Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Pfadbericht mit dem Anforderungs-Assistenten filtern](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Fallout-Bericht mit dem Anforderungs-Assistenten filtern](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Pfadberichte durch Hinzufügen von abhängigen Anforderungen filtern](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

@@ -4,9 +4,9 @@ description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,6 @@ Diese Seite enthält Informationen zu den einzelnen Berechtigungselementen unter
 | [!UICONTROL Konversionsvariablen] | Gewährt Zugriff auf „Konversions- > Konversionsvariablen“ im Report Suite Manager. |
 | [!UICONTROL Benutzerdefinierter Kalender] | Gewährt Zugriff auf „Allgemein > Kalender anpassen“ im Report Suite Manager. |
 | [!UICONTROL Benutzerdefinierter Data Warehouse-Bericht] | Gewährt Zugriff auf „Tools > Data Warehouse“ im oberen Navigationsbereich von Analytics. |
-| [!UICONTROL Rückkehrende Besucher pro Tag] | Gewährt Zugriff auf „Besuchertreue > Rückkehrende Besucher pro Tag“ in Reports &amp; Analytics. |
 | [!UICONTROL Daten-Feeds-Manager] | Gewährt Zugriff auf „Admin > „Daten-Feeds“ im oberen Navigationsbereich von Analytics. |
 | [!UICONTROL Data Sources Manager] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Datenquellen“ im oberen Navigationsbereich von Analytics. Erfordert das Berechtigungselement „Report Suite-Verwaltung“. |
 | [!UICONTROL Datenreparatur-API] | Gewährt Zugriff auf die Datenreparatur-API |

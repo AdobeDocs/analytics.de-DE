@@ -3,9 +3,9 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2580'
 ht-degree: 89%
 
 ---
@@ -45,14 +45,14 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
 * **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) im Benutzerhandbuch zu zentralen Diensten.
 * **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungs-Server von Adobe gesendet.
-* **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch den [Adobe Exchange-Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE).
+* **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch den [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE).
 * **Daten-Feed:** ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten werden Adobe Analytics-Daten in Datenbanken von Drittanbietern exportiert. Siehe [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten.
 * **Datenschicht:** Eine [Datenschicht](/help/implement/prepare/data-layer.md) ist ein Framework von JavaScript-Objekten auf Ihrer Site, die die in Ihrer Analytics-Implementierung verwendeten Variablenwerte enthalten. Dies ermöglicht eine bessere Kontrolle und einfachere Wartung beim Zuweisen von Werten zu Analytics-Variablen.
 * **Datenquellen:** Ermöglicht dem Anwender das Hochladen von Daten aus einer Datei in Adobe Analytics. Die Datei wird normalerweise von einer FTP-Site abgerufen. Siehe [Data Sources](/help/import/data-sources/overview.md) im Benutzerhandbuch zu Importen.
 * **Data Warehouse:** Eine Funktion in Adobe Analytics, mit der Sie größere Berichte anfordern können. Siehe [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) im Benutzerhandbuch zu Exporten.
 * **Data Workbench:** Ein [eingestelltes](https://experienceleague.adobe.com/de/docs/discontinued/using/data-workbench) Analyse-Tool, das Daten aus Online- und Offline-Kundeninteraktionen kanalübergreifend erfasst, verarbeitet, analysiert und visualisiert.
 * **Dimension:** Dimensionen sind nicht numerische Werte und Daten, z. B. Geschlecht, Monat, Alter, Treue, Bildschirmauflösung usw. Andere Beispiele sind Seitenname, Trackingcode oder verweisende Domain. Eine Metrik bildet normalerweise ihr Gegenstück.
-* **Aufschlüsselung der Dimensionen:** Jede Dimension kann in detailliertere Ebenen unterteilt werden. Beispielsweise kann die Dimension „Monat“ in „Januar“, „Februar“, „März“ usw. unterteilt werden.
+* **Dimension-Aufschlüsselung:** Jede Dimension kann in detailliertere Ebenen unterteilt werden. Beispielsweise kann die Dimension „Monat“ in „Januar“, „Februar“, „März“ usw. unterteilt werden.
 * **Ereignis-Serialisierung:** der Prozess der Implementierung von Maßnahmen zur Vermeidung der Erfassung doppelter Ereignisse. Siehe [Ereignis-Serialisierung](../implement/vars/page-vars/events/event-serialization.md) im Benutzerhandbuch zu Implementierungen.
 * **eVar:** Siehe „Konversionsvariable“.
 * **Ereignis:** Siehe „Erfolgsereignis“.
@@ -89,9 +89,9 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
 * **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) im Administratorhandbuch.
-* **Report Builder:** Mit dem JavaScript-[Report Builder ](/help/analyze/report-builder/report-buider-overview.md)-Add-in können Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen.
+* **Report Builder:** Mit dem JavaScript-[Report Builder](/help/analyze/report-builder/report-buider-overview.md)-Add-in können Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
-* **Reports &amp; Analytics:** Eine jetzt nicht mehr verwendete Browser-Lösung für Reporting und Analysen. Dieses Tool wurde [eingestellt](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=de).
+* **Reports &amp; Analytics:** Dieses Tool wurde [Ende des Lebenszyklus](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=de).
 * **Rollierender Datumsbereich:** ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten sieben Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch „Statischer Datumsbereich“.
 * **RSID:** Abkürzung für Report Suite-ID. Eine Report Suite verfügt sowohl über einen benutzerfreundlichen Namen als auch über eine Report Suite-ID.
 * **s.t():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.track()`. Siehe [t](../implement/vars/functions/t-method.md) im Benutzerhandbuch zu Implementierungen.
