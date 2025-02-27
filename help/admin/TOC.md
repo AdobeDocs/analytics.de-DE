@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 100%
 + Admin-Tools für Analytics {#admin-tools}
    + [Übersicht über Admin-Tools](admin/c-admin-tools.md)
    + [Code-Manager](admin/code-manager-admin.md)
+   + [Analytics-Inventar](admin/analytics-inventory.md)
    + [Datenquellen](admin/data-sources.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
