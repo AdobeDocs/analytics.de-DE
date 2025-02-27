@@ -3,9 +3,9 @@ description: Sequenzielle Segmente werden über den THEN-Operator anstelle von A
 title: Sequentielle Segmente erstellen
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Ermitteln Sie alle Besuche, bei denen ein Besucher eine Seite vor einer anderen 
 
 ## [!UICONTROL Nachher] und [!UICONTROL Innerhalb]
 
-Sie können ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** und ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** den **[!UICONTROL Then]**-Operator verwenden, um zusätzliche [Zeitbeschränkungen](#time-constraints) oder [Beschränkungen für Treffer, Besuche oder Dimensionen ](#event-session-and-dimension-constraints).
+Sie können ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** und ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** den **[!UICONTROL Then]**-Operator verwenden, um zusätzliche [Zeitbeschränkungen](#time-constraints) oder [Beschränkungen für Treffer, Besuche oder Dimensionen](#event-session-and-dimension-constraints).
 
 ### Zeitliche Beschränkungen
 
@@ -120,7 +120,7 @@ Besucherinnen und Besucher identifizieren, die eine Seite besucht und dann nach 
 Alle Besucherinnen und Besucher, die am 1. Juni 2024 auf die Startseite gelangen und wieder zu den Frauen zurückkehren | Schuhe Seite nach dem 15. Juni 2019 00:01, aber vor dem 1. Juli 2019 qualifiziert für das Segment.
 
 
-### [!UICONTROL Treffer], [!UICONTROL Besuch] und [!UICONTROL Dimension ] Einschränkungen
+### [!UICONTROL Treffer], [!UICONTROL Besuch] und [!UICONTROL Dimension]Beschränkungen
 
 Mit den Begrenzungen ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** und ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** können Sie nicht nur eine Zeitbeschränkung, sondern auch eine Treffer-, Besuchs- oder Dimensionsbeschränkung angeben. Wählen Sie **[!UICONTROL Treffer(]**), **[!UICONTROL Besuch(e)]** oder **[!UICONTROL Andere Dimensionen]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension-Name *]**. Sie können das Feld [!UICONTROL *Suche*] verwenden, um nach einer Dimension zu suchen.
 
@@ -299,3 +299,7 @@ Als letztes Beispiel möchten Sie Besuchende identifizieren, die von einer besti
 
 
 ![Beispiel für ein komplexes sequenzielles Segment](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [Beherrschen sequenzieller Logik in AA und CJA: Einführung in THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
