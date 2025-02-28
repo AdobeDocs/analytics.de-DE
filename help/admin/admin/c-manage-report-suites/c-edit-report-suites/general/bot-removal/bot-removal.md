@@ -4,10 +4,10 @@ description: Entfernen von Bots in Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 81%
+source-wordcount: '791'
+ht-degree: 78%
 
 ---
 
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie im [Adobe Analytics-Implementierungshandbuch](h
 
 ## Verwenden einer Kombination aus Adobe-Tools
 
-Da Bots sich schnell wandeln, bietet Adobe außerdem mehrere leistungsstarke Funktionen, die, wenn sie richtig und regelmäßig kombiniert werden, dazu beitragen können, diese Feinde der Datenqualität zu beseitigen. Zu diesen Funktionen gehören: Experience Cloud-ID-Service, Segmentierung, Data Warehouse, Kundenattribute und Virtual Report Suites. Im Folgenden finden Sie eine Übersicht darüber, wie Sie diese Tools nutzen können.
+Da Bots sich schnell wandeln, bietet Adobe außerdem mehrere leistungsstarke Funktionen, die, wenn sie richtig und regelmäßig kombiniert werden, dazu beitragen können, diese Feinde der Datenqualität zu beseitigen. Zu diesen Funktionen gehören: Experience Cloud ID-Service, Segmentierung, Data Warehouse, Kundenattribute und Virtual Report Suites. Im Folgenden finden Sie eine Übersicht darüber, wie Sie diese Tools nutzen können.
 
 ### Schritt 1: Experience Cloud ID Ihrer Besucher in eine neue deklarierte ID übertragen
 
@@ -95,3 +95,10 @@ Diese neu segmentierte Virtual Report Suite führt nun zu einem saubereren Daten
 ### Schritt 7: Schritte 2, 3 und 4 regelmäßig wiederholen
 
 Legen Sie mindestens eine monatliche Erinnerung fest, um neue Bots zu identifizieren und auszufiltern, vielleicht vor der regelmäßig geplanten Analyse.
+
+>[!MORELIKETHIS]
+>
+>* [Bessere Bot-Blockierung (Teil 1): Die Grundlagen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Better Bot Blocking (Teil 2): Identifizieren von Bots und Nutzung von CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Bessere Bot-Blockierung (Teil 3): Der Trefferregler](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+
