@@ -5,10 +5,11 @@ feature: Admin Tools
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
+exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
+source-git-commit: 81131600bdd3233f9a50af6d1c5c45ccf7f3d37a
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 4%
+ht-degree: 82%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Analytics-Inventar"
->abstract="Diese Seite bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzer und mehr. Diese Informationen sind besonders nützlich, wenn Sie mit den Vorbereitungen für die Aktualisierung auf Customer Journey Analytics beginnen."
+>abstract="Diese Seite bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzenden und mehr. Diese Informationen sind besonders nützlich, wenn Sie mit den Vorbereitungen für die Aktualisierung auf Customer Journey Analytics beginnen."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -32,7 +33,7 @@ Das Analytics-Inventar bietet einen umfassenden Überblick über Ihre Adobe Anal
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-components"
 >title="Komponenten"
->abstract="In diesem Abschnitt wird die Anzahl der Projekte, Segmente und berechneten Metriken angezeigt, die in Ihrer Adobe Analytics-Umgebung vorhanden sind. Projekte und Komponenten können nach Customer Journey Analytics migriert werden."
+>abstract="In diesem Abschnitt wird die Anzahl der Projekte, Segmente und berechneten Metriken angezeigt, die in Ihrer Adobe Analytics-Umgebung vorhanden sind. Projekte und Komponenten können zu Customer Journey Analytics migriert werden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -59,5 +60,3 @@ Das Analytics-Inventar bietet einen umfassenden Überblick über Ihre Adobe Anal
 >abstract="In diesem Abschnitt wird die Anzahl der Benutzenden in Ihrer Adobe Analytics-Umgebung angezeigt."
 
 <!-- markdownlint-enable MD034 -->
-
-

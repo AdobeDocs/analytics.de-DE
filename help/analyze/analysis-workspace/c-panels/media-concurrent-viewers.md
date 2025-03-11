@@ -44,7 +44,7 @@ _In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_!
 >
 >Das Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“ ist nur für Kunden verfügbar, die das Add-on „Streaming Media Collection“ für Adobe Analytics erworben haben.
 >
->Wenden Sie sich an Ihren Adobe-Kundenbetreuer oder Ihr Adobe-Kundenbetreuerteam, um weitere Informationen zu erhalten.
+>Wenden Sie sich an Ihren Adobe-Vertriebsmitarbeiter oder Ihr Adobe-Accountteam, um weitere Informationen zu erhalten.
 >
 
 Das Bedienfeld **[!UICONTROL Gleichzeitige Medienbetrachter]** ermöglicht die Analyse gleichzeitiger Betrachter im Zeitverlauf mit Details zu Spitzenzeiten von gleichzeitigen Betrachtern und der Möglichkeit, diese aufzuschlüsseln und zu vergleichen.
