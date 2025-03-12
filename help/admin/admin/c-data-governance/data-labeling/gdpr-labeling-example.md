@@ -4,10 +4,10 @@ title: Beschriftungsbeispiele
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 ## Beispiel einer Zugriffsanfrage {#access}
 
-Wenn Sie eine Zugriffsanfrage stellen, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurücksenden können. Eine Datei ist eine CSV-Datei, die eine Zeile für jeden für die betroffene Person empfangenen Treffer und eine Spalte für jede Variable mit der entsprechenden Zugriffskennzeichnung enthält. Die andere Datei ist eine Zusammenfassungs-HTML-Datei, in der jede Variable aufgelistet ist, gefolgt von allen eindeutigen Werten, die für diese Variable bei der betroffenen Person angezeigt wurden, und der Häufigkeit, mit der jeder eindeutige Wert angezeigt wurde.
+Wenn Sie eine Zugriffsanfrage stellen, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurücksenden können. Eine Datei ist eine CSV-Datei, die eine Zeile für jeden für die betroffene Person empfangenen Treffer und eine Spalte für jede Variable mit der entsprechenden Zugriffskennzeichnung enthält. Die andere Datei ist eine zusammenfassende HTML-Datei, in der jede Variable aufgelistet ist, gefolgt von allen eindeutigen Werten, die für diese Variable bei der betroffenen Person angezeigt wurden, und der Häufigkeit, mit der jeder eindeutige Wert angezeigt wurde.
 
 Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabelle angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur zurückgegeben, wenn eine Personen-ID verwendet wird und `expandIds` „true“ ist.
 
@@ -366,8 +366,4 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 Beachten Sie Folgendes:
 
 * Dies hat Einfluss auf Zellen in Zeilen, die `user=Mary` und eine `DEL-PERSON`-Kennzeichnung enthalten.
-* Aufgrund der ID-Erweiterung sind Zellen in Zeilen betroffen, die `AAID=77`, `AAID=88` oder `AAID=99` (dies sind die AAID-Werte in Zeilen, die `user=Mary` enthalten) und eine `DEL-DEVICE`-Kennzeichnung enthalten. Dazu gehören Zellen mit einer `DEL-DEVICE`-Kennzeichnung in Zeilen mit `user=Mary`. Dies hat zur Folge, dass Zellen in den Zeilen 4 und 5 (sowie in den Zeilen 1 bis 3) mit `DEL-DEVICE`-Kennzeichnungen (AAID, MyEvar2 und MyEvar3) verschleiert werden.
-* Die Einstellung „expandIDs“ wird nicht auf den Aufruf erweitert, um Werte in MyEvar3 (`X`, `Y` und `Z`) einzuschließen, das eine ID-DEVICE-Kennzeichnung hat, wenn `user=Mary` verwendet wird. Bei „expandIDs“ kommt es nur zu einer Erweiterung, um Besucher-IDs (in diesem Beispiel AAIDs, aber auch die ECID) in Zeilen mit `user=Mary` einzuschließen. Daher sind die letzten beiden Zeilen, die MyEvar3-Werte von `X` und `Z` enthalten, nicht betroffen.
-* `MyEvar2` in der vierten und fünften Zeile wird aktualisiert, weil diese Zeilen dieselben Besucher-ID-Werte (`77` und `88`) enthalten wie die Daten in der ersten und zweiten Zeile. Daher werden sie bei der ID-Erweiterung für Löschvorgänge auf Geräteebene einbezogen.
-* Die Werte von `MyEvar2` in den Zeilen zwei und fünf stimmen sowohl vor als auch nach dem Löschvorgang überein. Nach dem Löschen stimmen sie jedoch nicht mehr mit dem Wert `N` in der letzten Zeile überein, da diese Zeile im Rahmen der Löschanfrage nicht aktualisiert wurde.
-* `MyEvar3` verhält sich mit ID-Erweiterung anders als ohne, da ohne ID-Erweiterung keine `ID-DEVICES` übereingestimmt haben. Jetzt stimmt `AAID` in den ersten fünf Zeilen überein.
+

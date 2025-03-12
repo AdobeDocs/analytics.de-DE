@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,6 @@ ht-degree: 100%
          + [Best Practices für Beschriftungen](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
          + [Beschriftungsbeispiel](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
          + [Namespaces](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
-      + [ID-Erweiterung](admin/c-data-governance/gdpr-id-expansion.md)
       + [CNIL-Zustimmungsfreistellung](admin/c-data-governance/cnil-consent-exemption.md)
    + Nutzung der Server-Aufrufe {#server-call-usage}
       + [Übersicht zur Nutzung von Server-Aufrufen](admin/c-server-call-usage/overage-overview.md)
