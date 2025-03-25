@@ -4,7 +4,7 @@ title: Verwenden von Vorlagen
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
 source-wordcount: '18666'
 ht-degree: 83%
@@ -37,11 +37,11 @@ Die folgenden Informationen beschreiben, wie Sie in Analysis Workspace auf Vorla
 
 1. Wählen [!UICONTROL **im Abschnitt**] eine der folgenden Registerkarten aus:
 
-   * **[!UICONTROL Adobe-Vorlagen]**: Zeigt alle von Adobe bereitgestellten Vorlagen an.
+   * **[!UICONTROL Adobe-]**: Zeigt alle von Adobe bereitgestellten Vorlagen an.
 
    * **[!UICONTROL _login_company_name _templates]**: Zeigt alle Unternehmensvorlagen an, die für Ihre Organisation erstellt wurden.
 
-     Nur Administratoren können Unternehmensvorlagen erstellen. Weitere Informationen zum Erstellen einer Unternehmensvorlage finden Sie unter [Erstellen und Verwalten von Vorlagen](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+     Nur Administratoren können Unternehmensvorlagen erstellen. Weitere Informationen zum Erstellen einer Unternehmensvorlage finden Sie unter [Erstellen und Verwalten von Vorlagen](/help/analyze/analysis-workspace/templates/create-templates.md).
 
 1. Verwenden Sie eine der folgenden Optionen, um die Anzeige der verfügbaren Vorlagen zu ändern:
 

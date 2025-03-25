@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: ht
-source-wordcount: '6237'
-ht-degree: 100%
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+workflow-type: tm+mt
+source-wordcount: '6234'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Dezember 2023** | |
 | Verbesserte Dokumentation zu Bot-Regeln | Aktualisierte Informationen in [Verstehen und Konfigurieren von Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) zur Erhöhung der Klarheit.<p>Zu den Verbesserungen gehören:</p> <ul><li>Der Titel des Artikels wurde aktualisiert und ist nun aussagekräftiger</li><li>Verbesserte Organisation der Informationen</li><li>Es wurden Schritte zur Angabe von aufgabenbasierten Informationen hinzugefügt.</li><li>Weitere Informationen zu CSV-Dateianforderungen beim Hochladen von Bot-Regeln hinzugefügt</li></ul> |
-| Neuer Berichteabschnitt | Es wurde ein neuer Berichteabschnitt mit Informationen zur [Verwendung vorkonfigurierter Berichte](/help/analyze/analysis-workspace/reports/use-reports.md) und zum [Erstellen und Verwalten von Unternehmensberichten](/help/analyze/analysis-workspace/reports/create-company-reports.md) hinzugefügt. |
+| Neuer Berichteabschnitt | Es wurde ein neuer Abschnitt Berichte hinzugefügt, der Informationen zu [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md) und [Erstellen von Unternehmensvorlagen](/help/analyze/analysis-workspace/templates/create-templates.md) enthält. |
 | Aktualisierungen der Dokumentation zur Anomalieerkennung und Beitragsanalyse | Die Dokumentation zur Anomalieerkennung und Beitragsanalyse war zuvor in einem Abschnitt zu Virtual Analyst enthalten. Die folgenden Änderungen wurden vorgenommen: <ul><li>Der Begriff „Virtual Analyst“ wurde aus der Dokumentation entfernt.</li><li>Der Abschnitt zur [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) wurde direkt unter den Abschnitt zu Analysis Workspace verschoben.</li><li>Die Dokumentation zur Beitragsanalyse wurde mit der Dokumentation zur Anomalieerkennung zusammengeführt.</li></ul> |
 | „Attribution IQ“ wurde zu „Attribution“ geändert | Alle Instanzen von „Attribution IQ“ wurden in der gesamten Dokumentation zu „[Attribution](/help/analyze/analysis-workspace/attribution/overview.md)“ geändert. |
 | **November 2023** | |

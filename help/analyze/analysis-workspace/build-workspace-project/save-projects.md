@@ -4,10 +4,10 @@ title: Projekte speichern
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie folgendermaßen vor, um ein Projekt manuell zu speichern:
    | **[!UICONTROL Speichern]** | Speichern Sie die Änderungen an Ihrem Projekt. Wenn das Projekt freigegeben ist, sehen auch die Empfänger des Projekts die Änderungen. Wenn Sie das Projekt zum ersten Mal speichern, werden Sie aufgefordert, dem Projekt einen Namen, eine (optionale) Beschreibung und (optionale) Tags hinzuzufügen. |
    | **[!UICONTROL Mit Hinweisen speichern]** | Bevor Sie das Projekt speichern, fügen Sie Notizen zu den Änderungen im Projekt hinzu. Notizen werden mit der Projektversion gespeichert und stehen allen Editoren unter [!UICONTROL Projekt] > [!UICONTROL Frühere Version öffnen] zur Verfügung. |
    | **[!UICONTROL Speichern unter]** | Erstellen Sie ein Duplikat Ihres Projekts. Das ursprüngliche Projekt bleibt davon unberührt. |
-   | **[!UICONTROL Speichern als Unternehmensbericht]** | Speichern Sie Ihr Projekt als [Unternehmensbericht](/help/analyze/analysis-workspace/reports/create-company-reports.md), der für Ihr Unternehmen unter **[!UICONTROL Projekt > Neu]** zur Verfügung steht. |
+   | **[!UICONTROL Als Vorlage speichern]** | Speichern Sie Ihr Projekt als [Vorlage](/help/analyze/analysis-workspace/templates/create-templates.md), die für Ihr Unternehmen unter (Projekt **[!UICONTROL Neu) verfügbar]** |
 
 ## Automatisches Speichern {#Autosave}
 

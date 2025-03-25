@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->Ein neuer und optimierter [Report Builder ](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->Diese ältere Report Builder-Add-in-Version funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) neuen Report Builder konvertieren.
+>Eine neue und optimierte [Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
+>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) neue Report Builder konvertieren.
 
 ## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->Mit **17. Januar 2024** Adobe Reports &amp; Analytics und die zugehörigen Berichte und Funktionen eingestellt. Zu diesem Zeitpunkt funktionierten Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Informationen zur Verwendung von Berichten in Analysis Workspace finden Sie [Verwenden von vordefinierten Berichten](/help/analyze/analysis-workspace/reports/use-reports.md).
+>Mit **17. Januar 2024** Adobe Reports &amp; Analytics und die zugehörigen Berichte und Funktionen eingestellt. Zu diesem Zeitpunkt funktionierten Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Weitere Informationen finden Sie unter [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 >

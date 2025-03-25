@@ -4,10 +4,10 @@ title: Übersicht über die Echtzeitberichterstellung
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '602'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,9 @@ Die Echtzeitberichterstellung zeigt den Webseitentraffic an und sortiert Seitena
 
 1. Wählen Sie in Analysis Workspace die Registerkarte [!UICONTROL **Workspace**].
 
-1. Wählen [!UICONTROL **Berichte**] > [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]** aus.
+1. Wählen Sie links auf der Seite unter **[!UICONTROL Vorlagen]** [!UICONTROL **Adobe-Vorlagen**] aus.
+
+1. Wählen Sie [!UICONTROL **Interaktion**] > **[!UICONTROL Echtzeit]** aus.
 
 ## Grundlegendes zum Echtzeit-Reporting
 
