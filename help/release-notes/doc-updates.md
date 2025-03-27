@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **März 2025** |  |
+| Klarere Datumsformatierung in Data Warehouse-Exporten | Zeitbasierte Dimensionswerte in Data Warehouse-Exporten weisen eine nicht standardmäßige Datumsformatierung auf. Informationen zur Interpretation von Datumswerten aus Data Warehouse-Exporten wurden hinzugefügt. <p>Siehe [Dimensionen, die auf andere Weise unterstützt werden (nicht standardmäßige Datumsformatierung)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Komponentenunterstützung in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
+| Aktualisierte Informationen zu IP-Ausschlüssen | Es wurden Informationen hinzugefügt, die erklären[ dass ](/help/admin/admin/exclude-ip.md)IP-Ausschlüsse“ bis zu 5 Minuten dauern können, bevor sie wirksam werden, und dass Änderungen nur für neue Treffer gelten (Daten, die vor dem Festlegen des Ausschlusses erfasst wurden, sind davon nicht betroffen). <p>Das Layout des Inhalts wurde ebenfalls aktualisiert, um die Lesbarkeit zu verbessern.</p> |
 | **Februar 2025** |  |
 | Aktualisierte Informationen zum Anhalten und erneuten Aktivieren eines Daten-Feeds | Das Verhalten von Live-Feeds beim [Anhalten und erneuten Aktivieren eines Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed) wurde klarer formuliert. Es erfolgt keine Datenverarbeitung in der Zeit zwischen dem Anhalten und erneutem Aktivieren des Feeds. |
 | Geänderter Aufbewahrungszeitraum der Transaktions-ID | Der Aufbewahrungszeitraum der Transaktions-ID von 90 Tagen wurde auf 25 Monate verlängert. Die Variable transactionID identifiziert eine Transaktion eindeutig, sodass der Treffer mit Daten verknüpft werden kann, die über Datenquellen hochgeladen wurden. Weitere Informationen finden Sie [hier](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/page-vars/transactionid?lang=de) und [hier](https://experienceleague.adobe.com/de/docs/analytics/import/data-sources/transactionid?lang=de). |
