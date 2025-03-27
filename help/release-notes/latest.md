@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: ht
-source-wordcount: '730'
-ht-degree: 100%
+source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 5. 
 
 ## AppMeasurement
 
-Die neuesten Aktualisierungen zu AppMeasurement-Versionen (Version 2.27.0) finden Sie in den [Versionshinweisen zu AppMeasurement für JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=de).
+Die neuesten Aktualisierungen zu AppMeasurement-Versionen finden Sie in den Versionshinweisen zu [AppMeasurement für JavaScript](https://github.com/adobe/appmeasurement/releases).
 
 
 ## Verwandte Ressourcen
