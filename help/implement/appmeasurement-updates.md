@@ -4,20 +4,19 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 87%
+source-wordcount: '2730'
+ht-degree: 86%
 
 ---
 
 # Versionshinweise für AppMeasurement für JavaScript
 
-Gesammelte Versionshinweise für AppMeasurement für JavaScript.
+>[!IMPORTANT]
+>
+>Ab März 2025 wird dieser Artikel nicht mehr aktualisiert. Sie können die Versionshinweise für anzeigen und die neueste Version von AppMeasurement von [GitHub](https://github.com/adobe/appmeasurement/releases) herunterladen.
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-Sie können die neueste AppMeasurement-Version von [GitHub](https://github.com/adobe/appmeasurement/releases) herunterladen.
 
 ## Version 2.27.0
 
@@ -32,7 +31,7 @@ Releasedatum: **Dienstag, 12. August 2024**
 
 Releasedatum: **Dienstag, 4. März 2024**
 
-* AppMeasurement erkennt automatisch die Stamm-Domain für Länder-Code-Domains auf oberster Ebene und verwendet sie, für die zuvor bestimmte Cookie-Domain-Konfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Weitere Informationen finden Sie unter [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) .
+* AppMeasurement erkennt und verwendet automatisch die Stamm-Domain für Länder-Code-Domains auf oberster Ebene, für die zuvor bestimmte Cookie-Domain-Konfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Weitere Informationen finden Sie unter [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) .
 * Die Verteilung umfasst die Identity Service-Bibliothek 5.5.0 und Data Integration Library 9.6.
 
 ## Version 2.25.0
@@ -48,7 +47,7 @@ Releasedatum: **Mittwoch, 18. Juli 2023**
 
 * Es wurde die optionale Konfigurationsvariable [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) hinzugefügt, um Link-URLs zu decodieren, die doppelbyte-codierte Zeichen enthalten.
 * Es wurde eine zusätzliche Fehlerbehandlung für Browser mit fehlerhaften APIs für Benutzeragenten-Client-Hinweise mit hoher Entropie hinzugefügt.
-* Die Kopfzeile des Inhaltstyps der POST wurde so geändert, dass `x-www-form-urlencoded` standardmäßig verwendet wird.
+* Die Kopfzeile des POST-Inhaltstyps wurde geändert, sodass `x-www-form-urlencoded` standardmäßig verwendet wird.
 
 ## Version 2.23.0
 
