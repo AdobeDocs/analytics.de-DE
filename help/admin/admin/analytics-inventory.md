@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 81131600bdd3233f9a50af6d1c5c45ccf7f3d37a
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 82%
+source-wordcount: '279'
+ht-degree: 48%
 
 ---
 
@@ -25,6 +25,27 @@ ht-degree: 82%
 <!-- markdownlint-enable MD034 -->
 
 Das Analytics-Inventar bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzer und mehr. Diese Informationen sind besonders nützlich, wenn Sie mit den Vorbereitungen für die Aktualisierung auf Customer Journey Analytics beginnen.
+
+Ziel dieser Anwendung ist es, Ihnen bei der Beantwortung der folgenden Fragen zu helfen:
+
+* Welche Assets (z. B. Report Suites, Segmente, Benutzer, Workspace-Projekte, Daten-Feeds usw.) müssen Sie für Ihr Unternehmen aktualisieren und welche Assets können Sie hinterlassen?
+
+* Nachdem Sie ermittelt haben, welche Assets migriert werden müssen:
+
+   * Sollten Sie vor diesem Upgrade eine Bereinigung der Assets durchführen?
+
+   * Sollten Sie im Rahmen dieses Prozesses eine Asset-Konsolidierung durchführen?
+
+   * Wie sollte die Upgrade-Sequenz für Ihre Assets lauten?
+
+   * Für welche Gruppe von Report Suites ist ein Upgrade erforderlich? Letzte?
+
+## Zugriff auf Analytics-Inventar
+
+Das Analytics-Inventar ist im Menü **[!UICONTROL Admin]** sowie im Menüelement **[!UICONTROL Alle Administratoren]** verfügbar.
+
+    ![Analytics-Inventarmenü](assets/an-inventory-menu.png)
+
 
 ## Komponenten {#components}
 
