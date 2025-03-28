@@ -4,9 +4,9 @@ title: Verwenden von Vorlagen
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
 workflow-type: tm+mt
-source-wordcount: '18666'
+source-wordcount: '18667'
 ht-degree: 83%
 
 ---
@@ -103,9 +103,9 @@ So greifen Sie auf alle verfügbaren vordefinierten Vorlagen zu:
 
    Die folgenden Abschnitte entsprechen den verfügbaren Kategorien und enthalten Informationen zu den einzelnen Vorlagen.
 
-   * [[!UICONTROL ](#most-popular)
+   * **[[!UICONTROL Am beliebtesten]](#most-popular)**
 
-   * [[!UICONTROL ](#engagement)
+   * **[[!UICONTROL Interaktion]](#engagement)**
 
 ### Am beliebtesten {#most-popular}
 
