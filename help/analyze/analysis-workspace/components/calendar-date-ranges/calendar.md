@@ -5,9 +5,9 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstell
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspa
 | Einstellung | Beschreibung |
 |--- |--- |
 | Ausgewählte Tage | Ausgewählte Tage/Wochen/Monate/Jahre |
-| Erstellen von Datumsbereichskomponenten relativ zum Bedienfeld-Kalender | Wenn diese Option deaktiviert ist, überschreiben alle Datumsbereichskomponenten, die in einer Tabelle, Visualisierung oder Ablagefläche des Bedienfelds verwendet werden, den Bedienfeldkalender. <p>Wenn diese Option aktiviert ist, beziehen sich alle in einer Tabelle, Visualisierung oder einem Ablegebereich des Bedienfelds verwendeten Datumsbereichskomponenten auf den Datumsbereich des Bedienfelds. Wenn beispielsweise der Datumsbereich des Bedienfelds auf den 1. November bis zum 30. November eingestellt ist und eine Datumsbereichskomponente der letzten Woche in einer Freiformtabelle verwendet wird, beziehen sich die Informationen in der Freiformtabelle auf die letzte Woche im Oktober. |
+| Erstellen von Datumsbereichskomponenten relativ zum Bedienfeld-Kalender | Bei Deaktivierung überschreibt die in einer Tabelle, einer Visualisierung oder dem Ablegebereich eines Bedienfelds verwendete Datumsbereichskomponente den Bedienfeldkalender. <p>Wenn diese Option aktiviert ist, beziehen sich alle in einer Tabelle, einer Visualisierung oder dem Ablegebereich eines Bedienfelds verwendeten Datumsbereichskomponenten auf den Datumsbereich des Bedienfelds. Wenn beispielsweise der Datumsbereich des Bedienfelds auf den 1. November bis zum 30. November eingestellt ist und eine Datumsbereichskomponente „Letzte Woche“ in einer Freiformtabelle verwendet wird, beziehen sich die Informationen in der Freiformtabelle auf die letzte Woche im Oktober. |
 | Verwenden von rollierenden Daten | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel finden Sie unter [Benutzerdefinierte Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Standardmäßig ausgewählt. |
 | Datumsbereich | Hier können Sie einen voreingestellten Datumsbereich auswählen. Der Standardwert lautet „Letzte 30 Tage“. **[!UICONTROL Diese Woche/Monat/Quartal/Jahr (außer heute)]** ermöglicht Ihnen, aus Datumsbereichen auszuwählen, die keine Daten von heute enthalten. |
 | In alle Bedienfelder übernehmen | Hiermit können Sie den ausgewählten Datumsbereich nicht nur für das aktuelle Bedienfeld, sondern für alle Bedienfelder des Projekts ändern. |

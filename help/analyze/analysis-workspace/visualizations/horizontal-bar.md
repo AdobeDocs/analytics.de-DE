@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel werden die Visualisierungen „Horizontalbalken“ und „Horizontalbalken gestapelt“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Horizontalbalken und Horizontalbalken gestapelt](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel werden die Visualisierungen „Horizontalbalken“ und „Horizontalbalken gestapelt“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [„Horizontalbalken“ und „Horizontalbalken gestapelt“](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Die horizontale Balkenvisualisierung hat eine standardmäßige und eine gestapelte Option.
+Die Horizontalbalkenvisualisierung bietet die Optionen „Standardmäßig“ und „Gestapelt“.
 
 ## Horizontalbalken {#horizontal-bar}
 
@@ -33,7 +33,7 @@ Die horizontale Balkenvisualisierung hat eine standardmäßige und eine gestapel
 
 <!-- markdownlint-enable MD034 -->
 
-Diese ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)Horizontalbalken **[!UICONTROL -Visualisierung]** horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
+Die ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontalbalkenvisualisierung]** zeigt horizontale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
 
 ![Horizontaler Balken mit Metriken wie Seitenansichten, Seitengeschwindigkeit, Besuche, Einstiege und Ausstiege.](assets/horizontal-bar.png)
 
@@ -50,13 +50,13 @@ Diese ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)Horizontal
 <!-- markdownlint-enable MD034 -->
 
 
-Die ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)**[!UICONTROL Horizontalbalken gestapelt]**-Visualisierung entspricht der [!UICONTROL Horizontalbalken], die Serienbalken erscheinen jedoch gestapelt.
+Die Visualisierung ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Horizontalbalken gestapelt]** entspricht der [!UICONTROL Horizontalbalkenvisualisierung], aber die Serienbalken sind hier gestapelt.
 
 ![Ein gestapelter horizontaler Balken mit Seitenansichten, Besuchen, Einstiegen und Ausstiegen.](assets/horizontal-bar-stacked.png)
 
-Verwenden Sie die Option **[!UICONTROL 100 % gestapelt]** in ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Einstellungen]**, um das Diagramm in eine 100 % gestapelte Visualisierung umzuwandeln.
+Verwenden Sie die Option **[!UICONTROL 100 % gestapelt]** in den ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Einstellungen]**, um das Diagramm in eine zu 100 % gestapelte Visualisierung umzuwandeln.
 
-![Horizontalbalken gestapelt 100%](assets/horizontal-bar-stacked100.png)
+![Horizontalbalken zu 100 % gestapelt](assets/horizontal-bar-stacked100.png)
 
 
 >[!MORELIKETHIS]

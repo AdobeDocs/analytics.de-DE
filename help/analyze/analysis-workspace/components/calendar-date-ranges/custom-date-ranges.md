@@ -6,38 +6,38 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Erstellen von benutzerdefinierten Datumsbereichen
 
-Sie können benutzerdefinierte Datumsbereiche in Analysis Workspace erstellen und als Zeitkomponenten speichern.
+Erstellen Sie benutzerdefinierte Datumsbereiche in Analysis Workspace und speichern Sie sie als Zeitkomponenten.
 
-Informationen zum Hinzufügen vorhandener Datumsbereiche zu einem Projekt finden Sie unter [Übersicht über Kalender und Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+Informationen zum Hinzufügen vorhandener Datumsbereiche zu einem Projekt finden Sie in der [Übersicht über Kalender und Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 
 So erstellen Sie einen benutzerdefinierten Datumsbereich:
 
-1. Wählen Sie in Adobe Analytics **[!UICONTROL Komponenten]** > **[!UICONTROL Datumsbereiche]** aus.
+1. Wählen Sie in Adobe Analytics die Option **[!UICONTROL Komponenten]** > **[!UICONTROL Datumsbereiche]** aus.
 
    ![Seite „Datumsbereich“](assets/date-ranges.png)
 
-1. Wählen [!UICONTROL **Neuen Datumsbereich erstellen**] aus.
+1. Wählen Sie [!UICONTROL **Neuen Datumsbereich erstellen**] aus.
 
-1. Geben Sie im Datumsbereichsersteller die folgenden Informationen an:
+1. Geben Sie im Datumsbereichsgenerator die folgenden Informationen an:
 
    | Option | Beschreibung |
    |---------|----------|
-   | [!UICONTROL **Titel**] | Der Titel des Datumsbereichs, wie er angezeigt wird, wenn Benutzende ihn in Analysis Workspace auswählen. |
+   | [!UICONTROL **Titel**] | Der Titel des Datumsbereichs, wie er angezeigt wird, wenn er von Benutzenden in Analysis Workspace ausgewählt wird. |
    | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Datumsbereich. |
-   | [!UICONTROL **Tags**] | Alle Tags, die Sie auf den Datumsbereich anwenden möchten. |
-   | [!UICONTROL **Datumsbereich**] | Ermöglicht die Auswahl eines benutzerdefinierten Datumsbereichs. Standardmäßig sind die letzten 30 Tage ausgewählt. |
-   | [!UICONTROL **Voreinstellung**] | Wählen Sie aus einer Liste vordefinierter Datumsbereiche aus, z. B [!UICONTROL **&quot;**]&quot;, [!UICONTROL **Letzte 7 Tage**], [!UICONTROL **Letzte 30 Tage**] usw. |
+   | [!UICONTROL **Tags**] | Alle Tags, die auf den Datumsbereich angewendet werden sollen. |
+   | [!UICONTROL **Datumsbereich**] | Hier können Sie einen benutzerdefinierten Datumsbereich auswählen. Standardmäßig sind die letzten 30 Tage ausgewählt. |
+   | [!UICONTROL **Voreinstellung**] | Sie können aus einer Liste voreingestellter Datumsbereiche auswählen, beispielsweise [!UICONTROL **Gestern**], [!UICONTROL **Letzte 7 Tage**], [!UICONTROL **Letzte 30 Tage**] usw. |
    | [!UICONTROL **Startzeit**] | Die Tageszeit, zu der der Datumsbereich beginnt. |
    | [!UICONTROL **Endzeit**] | Die Tageszeit, zu der der Datumsbereich endet. |
-   | [!UICONTROL **Rollierende Datumswerte verwenden**] | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul><br>Standardmäßig ausgewählt. |
+   | [!UICONTROL **Verwenden von rollierenden Daten**] | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul><br>Standardmäßig ausgewählt. |
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
@@ -55,9 +55,9 @@ Sie können diesen benutzerdefinierten Datumsbereich auf eine Spalte neben einem
 
 ![](assets/date-range-two-months-table.png)
 
-## Beispiel: Verwenden eines 7-tägigen rollierenden Datumsbereichs {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Beispiel: Verwenden eines rollierenden 7-Tage-Datumsbereichs {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-Sie können einen Datumsbereich erstellen, der ein rollierendes 7-tägiges Fenster angibt, das vor einer Woche endet:
+Sie können einen Datumsbereich erstellen, der ein rollierendes Zeitfenster von 7 Tagen festlegt, das zurückliegend vor einer Woche in der Vergangenheit endet:
 
 ![](assets/create_date_range.png)
 

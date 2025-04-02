@@ -1,13 +1,13 @@
 ---
 title: Abschnittskopfzeile
-description: Eine Visualisierung, die eine Abschnittsüberschrift in Ihr Workspace-Projekt einfügen.
+description: Eine Visualisierung, mit der eine Abschnittskopfzeile in Ihr Workspace-Projekt eingefügt wird.
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 13%
 >[!BEGINSHADEBOX]
 
 
-_In diesem Artikel wird die Visualisierung der Abschnittsüberschrift in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Abschnittsheader](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Abschnittskopfzeilen-Visualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Abschnittskopfzeile](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/section-header) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
 
-Um Abschnitte innerhalb eines Bereichs zu identifizieren und zu artikulieren, können Sie eine ![PageRule](/help/assets/icons/PageRule.svg)Section **[!UICONTROL Header]**-Visualisierung an einer beliebigen Stelle innerhalb eines Bereichs einfügen.
+Um Abschnitte innerhalb eines Bedienfelds zu identifizieren und zu gliedern, können Sie eine ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL Abschnittskopfzeilen]**-Visualisierung an einer beliebigen Stelle in einem Bedienfeld einfügen.
 
-![Bereichs-Kopfzeile](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
+![Abschnittskopfzeile](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 
-Um den Text der Abschnittsüberschrift zu ändern, wählen Sie einfach die **[!UICONTROL Abschnittsüberschrift]** aus.
+Um den Text der Abschnittskopfzeile zu ändern, wählen Sie einfach die **[!UICONTROL Abschnittskopfzeile]** aus.
 
 
 >[!MORELIKETHIS]

@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Flussvisualisierung in {_}![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Fluss](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Flussvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Fluss](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ Damit können Sie:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension p
 
 >[!MORELIKETHIS]
 >
->[Flussvisualisierung konfigurieren](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Konfigurieren einer Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
@@ -67,7 +67,7 @@ Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension p
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen in der Flussvisualisierung](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen bei der Flussvisualisierung](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

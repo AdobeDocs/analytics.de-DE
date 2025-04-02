@@ -1,13 +1,13 @@
 ---
-description: Das Bedienfeld Seitenzusammenfassung zeigt Zusammenfassungsinformationen für eine von Ihnen ausgewählte Seite an.
+description: Im Bedienfeld „Seitenzusammenfassung“ werden zusammenfassende Informationen für eine von Ihnen ausgewählte Seite angezeigt.
 title: Bedienfeld „Seitenzusammenfassung“
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 28%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld Seitenzusammenfassung in {_}![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Es gibt kein entsprechendes Bedienfeld in_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Seitenzusammenfassung“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Ein Bedienfeld **[!UICONTROL Seitenzusammenfassung]** ermöglicht die Untersuchung wichtiger Statistiken zu bestimmten Seiten.
+Das Bedienfeld **[!UICONTROL Seitenzusammenfassung]** ermöglicht die Untersuchung wichtiger Statistiken zu bestimmten Seiten.
 
 ## Verwenden
 
-So verwenden Sie ein Bedienfeld **[!UICONTROL Seitenzusammenfassung]**:
+So verwenden Sie das Bedienfeld **[!UICONTROL Seitenzusammenfassung]**:
 
-1. Erstellen eines Bedienfelds **[!UICONTROL Seitenzusammenfassung]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
+1. Erstellen Sie ein Bedienfeld **[!UICONTROL Seitenzusammenfassung]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
 
 1. Legen Sie die [Eingabe](#panel-input) für das Bedienfeld fest.
 
@@ -52,22 +52,22 @@ So verwenden Sie ein Bedienfeld **[!UICONTROL Seitenzusammenfassung]**:
 
 
 
-Sie können auf das Bedienfeld in [!UICONTROL Berichte] oder in [!UICONTROL Workspace ].
+Sie können auf das Bedienfeld über [!UICONTROL Berichte] oder [!UICONTROL Workspace ] zugreifen.
 
-| Zugangspunkt | Beschreibung |
+| Zugriffspunkt | Beschreibung |
 | --- | --- |
-| [!UICONTROL Berichte] | <ul><li>Das Bedienfeld ist bereits in einem Projekt abgelegt.</li><li>Die linke Leiste ist reduziert.</li><li>Es wird nur die Dimension Seite unterstützt.</li><li>Eine Standardeinstellung wurde bereits angewendet, in diesem Fall die am häufigsten besuchte Seite für die Dimension [!UICONTROL Seite]. Sie können diese Einstellung ändern.</li></ul> |
-| Workspace | Erstellen Sie ein neues Projekt und wählen Sie das Bedienfeldsymbol in der linken Leiste aus. Ziehen Sie das Bedienfeld [!UICONTROL Seitenzusammenfassung] über die Freiformtabelle. Beachten Sie, dass das Feld Dimension [!UICONTROL Element] leer gelassen wird. Wählen Sie ein Dimensionselement aus der Dropdownliste aus. |
+| [!UICONTROL Berichte] | <ul><li>Das Bedienfeld ist bereits in einem Projekt abgelegt.</li><li>Die linke Leiste ist reduziert.</li><li>Es wird nur die Seitendimension unterstützt.</li><li>Eine Standardeinstellung wurde bereits angewendet: in diesem Fall die am häufigsten besuchte Seite für die [!UICONTROL Seitendimension]. Sie können diese Einstellung ändern.</li></ul> |
+| Workspace | Erstellen Sie ein neues Projekt und wählen Sie in der linken Leiste das Bedienfeldsymbol aus. Ziehen Sie das Bedienfeld [!UICONTROL Seitenzusammenfassung] über die Freiformtabelle. Beachten Sie, dass das Feld mit dem [!UICONTROL Seiten-Dimensionselement] leer gelassen wird. Wählen Sie ein Dimensionselement aus der Dropdown-Liste aus.  |
 
 ### Bedienfeldeingabe {#panel-input}
 
-Sie können das Bedienfeld [!UICONTROL Seitenzusammenfassung] mit den folgenden Eingabeeinstellungen konfigurieren:
+Sie können das Bedienfeld [!UICONTROL Seitenzusammenfassung] mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 
 ![Zusammenfassung der Seiteneingabe](assets/page-summary-input.png)
 
 | Eingabe | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Seite]** | Wählen Sie eine Seitendimension aus, für die Sie wichtige Statistiken untersuchen möchten. |
+| **[!UICONTROL Seite]** | Wählen Sie eine Seitendimension aus, für die wichtige Statistiken untersucht werden sollen. |
 
 {style="table-layout:auto"}
 
@@ -82,17 +82,17 @@ Das Bedienfeld [!UICONTROL Seitenzusammenfassung] gibt eine Vielzahl von Metrikd
 
 | Visualisierung | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Seitenansichten] - Aktueller Monat (bis heute)** | Eine Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Anzahl der Seitenansichten für diese Seite für den aktuellen Monat anzeigt. |
-| **[!UICONTROL Seitenansichten] - vor 4 Wochen** | Eine Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Anzahl der Seitenansichten für diese Seite im letzten Monat anzeigt. |
-| **[!UICONTROL Seitenansichten] - 52 Wochen davor** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) Visualisierung, die die Anzahl der Seitenansichten für diese Seite im letzten Jahr anzeigt. |
-| **[!UICONTROL Trend]** | Eine Trend[Linien](/help/analyze/analysis-workspace/visualizations/line.md)-Visualisierung für Seitenansichten für diesen Monat, 4 Wochen davor und 52 Wochen davor. |
+| **[!UICONTROL Seitenaufrufe] – aktueller Monat (bis heute)** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)-Visualisierung, die die Anzahl der Seitenansichten für diese Seite im aktuellen Monat anzeigt. |
+| **[!UICONTROL Seitenansichten] – 4 Wochen vorher** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)-Visualisierung, die die Anzahl der Seitenansichten für diese Seite im letzten Monat anzeigt. |
+| **[!UICONTROL Seitenansichten] – 52 Wochen vorher** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)-Visualisierung, die die Anzahl der Seitenansichten für diese Seite im letzten Jahr anzeigt. |
+| **[!UICONTROL Trend]** | Eine [Trend-Linien](/help/analyze/analysis-workspace/visualizations/line.md)-Visualisierung der Seitenansichten für diesen Monat sowie die vorhergehenden 4 Wochen und die vorhergehenden 52 Wochen. |
 | **[!UICONTROL Prozentsatz aller Seitenansichten]** | Eine Zusammenfassungszahl für den Prozentsatz aller Seitenansichten, die zu dieser Seite gewechselt sind. |
-| **[!UICONTROL Besuchszeit pro Seite]** | Eine [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) Visualisierung, die die auf dieser Seite verbrachte Zeit anzeigt. |
-| **[!UICONTROL Einzelseitenbesuche]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Anzahl der Seitenansichten anzeigt, in denen diese Seite die einzige besuchte Seite war. |
-| **[!UICONTROL Neuladungen]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) die angibt, wie oft ein Dimensionselement während eines Neuladens vorhanden war. Ein Besucher, der seinen Browser aktualisiert, stellt die häufigste Methode dar, eine Neuladung auszulösen. |
-| **[!UICONTROL Einträge]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) die angibt, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. |
-| **[!UICONTROL Ausstiege]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) die angibt, wie oft ein bestimmtes Dimensionselement als letzter Wert bei einem Besuch erfasst wird. |
-| **[!UICONTROL Fluss]** | Eine [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)-Visualisierung mit der ausgewählten Seite als Fokus. Wie bei jeder anderen Flussvisualisierung können Sie [ Daten weiter ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
+| **[!UICONTROL Besuchszeit pro Seite]** | Eine [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)-Visualisierung, die die auf dieser Seite verbrachte Zeit anzeigt. |
+| **[!UICONTROL Einzelseitenbesuche]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Anzahl der Seitenansichten anzeigt, bei denen nur diese Seite besucht wurde. |
+| **[!UICONTROL Neuladungen]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein Dimensionselement während einer Neuladung vorhanden war. Das Aktualisieren des Browsers durch eine Besucherin oder einen Besucher ist die häufigste Art, wie ein erneutes Laden ausgelöst wird. |
+| **[!UICONTROL Einträge]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird.  |
+| **[!UICONTROL Ausstiege]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein bestimmtes Dimensionselement als letzter Wert bei einem Besuch erfasst wird.  |
+| **[!UICONTROL Fluss]** | Eine [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) mit der ausgewählten Seite als Fokus. Wie bei jeder anderen [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) können Sie sich die Daten genauer ansehen. |
 
 {style="table-layout:auto"}
 

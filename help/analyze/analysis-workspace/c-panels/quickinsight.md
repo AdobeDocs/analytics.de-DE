@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Bedienfeld „Quick Insights](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight)_) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Quick Insights“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Wenn Sie [!UICONTROL Analysis Workspace] zum ersten Mal verwenden, stellen Sie s
 * Wo werden Filter erstellt?
 * und vieles mehr.
 
-Zur Beantwortung dieser Fragen nutzt [!UICONTROL Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche in Ihrem Unternehmen präsentiert. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt[!UICONTROL  die mit ]POPULAR“ gekennzeichnet sind, wie im Folgenden gezeigt:
+Um bei der Beantwortung dieser Fragen zu helfen, nutzt [!UICONTROL Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
 
 ![Das Bedienfeld „Quick Insights“.](assets/popular-tag.png)
 
@@ -62,7 +62,7 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 | **[!UICONTROL Metrik]** | Metriken sind quantitative Informationen über Aktivitäten von Personen wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
 | **[!UICONTROL Visualisierung]** | Workspace bietet [eine Reihe von Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), um visuelle Darstellungen Ihrer Daten zu erstellen. Zum Beispiel Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. |
 | **[!UICONTROL Dimensionsaufschlüsselung]** | Mit einer Dimensionsaufschlüsselung können Sie eine Dimension nach anderen Dimensionen aufschlüsseln. Sie können beispielsweise die US-Bundesstaaten nach Mobilgeräten aufschlüsseln, um die Besuche durch Mobilgeräte pro Bundesstaat zu erhalten. Oder Sie können Mobilgeräte nach Mobilgerätetypen, Regionen, internen Kampagnen und mehr aufschlüsseln. |
-| **[!UICONTROL Segmente]** | Mit Segmenten können Sie Untergruppen von Personen anhand von Merkmalen oder Website-Interaktionen identifizieren. Beispielsweise können Sie „Besucher[!UICONTROL -Segmente ] auf folgender Grundlage erstellen <li>Attribute: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht; oder</li><li>Interaktionen: Kampagnen, Keyword-Suche, Suchmaschine; oder</li><li>Ausstiege und Einstiege: Besucher aus Facebook, einer definierten Landingpage, einer verweisenden Domain oder</li><li> Benutzerdefinierte Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
+| **[!UICONTROL Segmente]** | Mit Segmenten können Personenuntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Zum Beispiel können Sie [!UICONTROL Besucher]-Segmente basierend auf folgenden Merkmalen erstellen: <li>Attribute: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht; oder</li><li>Interaktionen: Kampagnen, Keyword-Suche, Suchmaschine; oder</li><li>Ausstiege und Einstiege: Besuchende aus Facebook, einer definierten Landingpage, einer Referrer Domain; oder</li><li> Benutzerdefinierte Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
 
 ## Verwenden
 
@@ -83,7 +83,7 @@ Wählen Sie die gewünschten Bausteine aus:
 
 * **[!UICONTROL Analysieren]**: Zum Festlegen einer Dimension (orange)
 * **[!UICONTROL Nach]**: Zum Festlegen einer Metrik (grün)
-* **[!UICONTROL Filtern nach]** - Segment angeben (blau)
+* **[!UICONTROL Filtern nach]**: Zum Festlegen eines Segments (blau)
 * **[!UICONTROL Am]**: Zum Festlegen eines Datumsbereichs (violett).
 
 Sie müssen mindestens eine Dimension und eine Metrik auswählen, damit die Visualisierung ordnungsgemäß funktioniert.
@@ -105,7 +105,7 @@ Wählen Sie **[!UICONTROL Löschen]** aus, um alle Eingabefelder zu löschen.
 
    ![Die Freiformtabelle, die die Dimension vertikal und die Metrik horizontal anzeigt.](assets/quick-insights-output.png)
 
-   * Eine Freiformtabelle mit der Dimension ([!UICONTROL Länderwebsite]) und Metrik ([!UICONTROL Besuche]), segmentiert nach [!UICONTROL Besuche] von [!UICONTROL Suchmaschinen] für die [!UICONTROL letzten 12 Monate].
+   * Eine Freiformtabelle mit der Dimension ([!UICONTROL Länder-Site]) und Metrik ([!UICONTROL Besuche]), segmentiert nach [!UICONTROL Besuchen] von [!UICONTROL Suchmaschinen] für die [!UICONTROL letzten 12 Monate].
 
    * Eine begleitende Visualisierung, in diesem Fall ein [Balkendiagramm](/help/analyze/analysis-workspace/visualizations/bar.md). Die erstellte Visualisierung basiert auf dem Datentyp, den Sie der Tabelle hinzugefügt haben. Zeitbasierte Daten (z. B. [!UICONTROL Besuche] pro Tag/Monat) verwenden standardmäßig ein [!UICONTROL Liniendiagramm]. Alle nicht zeitbasierten Daten (z. B. [!UICONTROL Besuche] pro [!UICONTROL Gerät]) verwenden standardmäßig ein [!UICONTROL Balkendiagramm]. Sie können den Visualisierungstyp ändern, indem Sie auf den Dropdown-Pfeil neben dem Visualisierungstyp klicken.
 
@@ -129,7 +129,7 @@ Weitere nützliche Hinweise werden im [!UICONTROL Quick Insights Builder] angeze
 
    * Weitere Metriken **[!UICONTROL nach]** hinzufügen: Sie können bis zu zwei weitere Metriken hinzufügen. Siehe ➍ und ➎.
 
-   * **[!UICONTROL Filtern nach]**: Sie können bis zu 2 weitere Segmente hinzufügen. Fügen Sie beispielsweise Buchungen als Segment hinzu und kombinieren Sie dieses Segment mit den Segmenten „Frequent Bookers“ und „First Time Flyers“, die Sie vergleichen. Siehe ➏, ➐ und ➑.
+   * **[!UICONTROL Filtern nach]**: Sie können bis zu zwei weitere Segmente hinzufügen. Sie können beispielsweise „Buchungen“ als Segment hinzufügen und dieses Segment mit den von Ihnen verglichenen Segmenten für Personen, die häufig fliegen, und Personen, die zum ersten Mal fliegen, kombinieren. Siehe ➏, ➐ und ➑.
 
    * Am: Sie können den Datumsbereich festlegen. Siehe ➒.
 

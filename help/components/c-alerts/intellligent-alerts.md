@@ -1,35 +1,35 @@
 ---
-description: Warnhinweise ermöglichen eine granulare Steuerung der Benachrichtigungen und die Integration in die Anomalieerkennung.
-title: Warnhinweise – Übersicht
+description: Warnhinweise ermöglichen eine abgestufte Kontrolle über Benachrichtigungen und integrieren die Anomalieerkennung.
+title: Warnhinweise – Überblick
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Warnhinweise – Übersicht
+# Warnhinweise – Überblick
 
-Warnhinweise in Adobe Analytics ermöglichen die Benachrichtigung anhand geänderter Prozentsätze oder bestimmter Datenpunkte.
+Warnhinweise in Adobe Analytics ermöglichen es Ihnen, sich über geänderte Prozentsätze oder bestimmte Datenpunkte benachrichtigen zu lassen.
 
-Je nach Adobe Analytics-Paket können Sie auch Warnhinweise verwenden, die auf der Grundlage von Anomalieschwellen ausgelöst werden. Diese Warnhinweise (auch als „intelligente Warnhinweise“ bezeichnet) bieten granulare Steuerelemente, die in die [Anomalieerkennung“ integriert ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) und bei Bedarf ausgelöst werden.
+Je nach Adobe Analytics-Paket können Sie auch Warnhinweise verwenden, die basierend auf Schwellenwerten für Anomalien ausgelöst werden. Diese Warnhinweise (auch als „intelligente Warnhinweise“ bezeichnet) bieten granulare Steuerelemente, die mit der [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) integriert sind und ausgelöst werden, wenn Sie sie am dringendsten benötigen.
 
-Warnhinweise ermöglichen Folgendes:
+Mithilfe von Warnhinweisen können Sie:
 
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken
 * „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
-* Erstellen von Warnhinweisen basierend auf Anomalien (Schwellenwerte von 90 %, 95 %, 99 %, 99,75 % und 99,9 %; prozentuale Veränderung; über/unter) (nur für Adobe Analytics-Kunden mit einem Select-, Prime- oder Ultimate-Paket verfügbar)
+* Warnhinweisen basierend auf Anomalien erstellen (Schwellenwerte von 90 %, 95 %, 99 %, 99,75 % und 99,9 %; prozentuale Veränderung; über/unter) (nur für Adobe Analytics-Kundschaft mit einem Select-, Prime- oder Ultimate-Paket verfügbar)
 
 Das folgende Video-Tutorial bietet einen grundlegenden Überblick über Warnhinweise: [Warnhinweise](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=de) (5:34)
 
-## Anomalie-Suche nach Warnungen
+## Anomalie-Suche für Warnungen
 
 >[!NOTE]
 >
->Die Verwendung von Warnhinweisen mit Anomalieerkennung (auch _intelligente Warnhinweise_ genannt) ist nur für Unternehmen mit einem Adobe Analytics Prime- oder Ultimate-Paket verfügbar.
+>Die Verwendung von Warnhinweisen mit der Anomalieerkennung (auch als _intelligente Warnhinweise_ bezeichnet) ist nur für Organisationen mit einem Adobe Analytics Prime- oder Ultimate-Paket verfügbar.
 
 Wenn ein Warnhinweis eine Anomalieerkennung verwendet, hängt der Trainings-Zeitraum von der für den Warnhinweis ausgewählten Granularität ab.
 
@@ -50,6 +50,6 @@ Informationen zum Erstellen von Warnhinweisen in Adobe Analytics finden Sie unte
 
 ## Verwalten von Warnhinweisen
 
-Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Taggen, Umbenennen, Löschen und mehr.
+Sie können vorhandene Warnhinweise im Warnhinweis-Manager verwalten. Sie können verschiedene Verwaltungsaufgaben für Warnhinweise ausführen, z. B. Tagging, Umbenennen, Löschen und mehr.
 
 Weitere Informationen zum Verwalten vorhandener Warnhinweise in Adobe Analytics finden Sie unter [Verwalten von Warnhinweisen](/help/components/c-alerts/alert-manager.md).

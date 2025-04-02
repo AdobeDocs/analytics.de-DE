@@ -1,13 +1,13 @@
 ---
-description: Erstellen und Freigeben von Scorecards für Adobe Analytics-Dashboards
+description: 'Erstellen und Freigeben von Scorecards in Adobe Analytics '
 title: Erstellen und Freigeben von mobilen Scorecards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 80%
 
 <!-- markdownlint-enable MD034 -->
 
-Die folgenden Informationen liefern Kuratoren von Adobe Analytics-Daten eine Anleitung dazu, wie sie Mobile-Scorecards für Führungskräfte konfigurieren und darstellen können. Sehen Sie sich zunächst das Video zu Scorecard Builder für Adobe Analytics-Dashboards an:
+Die folgenden Informationen liefern Kuratorinnen und Kuratoren von Adobe Analytics-Daten eine Anleitung dazu, wie sie mobile Scorecards für Führungskräfte konfigurieren und präsentieren können. Sehen Sie sich zunächst das Video zu Scorecard Builder von Adobe Analytics-Dashboards an:
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -34,11 +34,11 @@ Eine Adobe Analytics Scorecard stellt wie nachfolgend gezeigt wichtige Datenvisu
 
 ![Beispiel-Scorecard](assets/intro_scorecard.png)
 
-Als Kurator dieser Scorecard können Sie mit dem Scorecard Builder konfigurieren, welche Kacheln auf der Scorecard für den ausführenden Benutzer angezeigt werden. Sie können auch konfigurieren, wie die detaillierten Ansichten bzw. Aufschlüsselungen angepasst werden können, nachdem auf die Kacheln getippt wird. Die Benutzeroberfläche von Scorecard Builder wird unten angezeigt:
+Als Kuratorin bzw. Kurator dieser Scorecard können Sie mit dem Scorecard Builder festlegen, welche Kacheln auf der Scorecard für die Führungskraft angezeigt werden. Sie können auch konfigurieren, wie die detaillierten Ansichten bzw. Aufschlüsselungen angepasst werden können, nachdem auf die Kacheln getippt wird. Hier sehen Sie die Scorecard Builder-Oberfläche:
 
 ![Scorecard Builder](assets/scorecard_builder.png)
 
-Gehen Sie wie folgt vor, um die Scorecard zu erstellen:
+Gehen Sie zur Erstellung der Scorecard wie folgt vor:
 
 1. Öffnen Sie die Vorlage für [!UICONTROL leere mobile Scorecards].
 1. Konfigurieren Sie die Scorecard mit Daten und speichern Sie sie.
@@ -50,7 +50,7 @@ Sie können die Vorlage [!UICONTROL Leere mobile Scorecard] öffnen, indem Sie e
 ### Neues Projekt erstellen {#create}
 
 1. Öffnen Sie Adobe Analytics und klicken Sie auf die Registerkarte **[!UICONTROL Arbeitsbereich]**.
-1. Klicken Sie **[!UICONTROL Projekt erstellen]** und wählen Sie die Projektvorlage **[!UICONTROL Leere mobile]**&quot; aus.
+1. Klicken Sie auf **[!UICONTROL Projekt erstellen]** und wählen Sie die Projektvorlage **[!UICONTROL Leere mobile Scorecard]** aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
 ![Scorecard-Vorlage](assets/new_template.png)
@@ -68,7 +68,7 @@ So implementieren Sie die Scorecard-Vorlage:
 
    ![Report Suite-Auswahl](assets/properties_save.png)
 
-1. Um Ihrer Scorecard eine neue Kachel hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bedienfeld und legen Sie sie in der Zone **[!UICONTROL Metriken hierher ziehen und hier ablegen]** ab. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
+1. Um Ihrer Scorecard eine neue Kachel hinzuzufügen, ziehen Sie eine Metrik aus dem linken Bedienfeld per Drag-and-Drop in den Bereich **[!UICONTROL Metriken hierher ziehen und ablegen]**. Sie können auch eine Metrik zwischen zwei Kacheln einfügen, indem Sie einen ähnlichen Workflow verwenden.
 
    ![Kacheln hinzufügen](assets/build_list.png)
 
@@ -87,7 +87,7 @@ Sie können beispielsweise geeignete Dimensionen (wie **[!DNL Marketing Channel]
 
 Um ein Segment auf einzelne Kacheln anzuwenden, ziehen Sie es aus dem linken Bereich und legen Sie es direkt auf der Kachel ab.
 
-Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [Filter für Ihre Scorecards konfigurieren und anwenden](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) genauso wie in Adobe Analytics Workspace.
+Wenn Sie das Segment auf alle Kacheln in der Scorecard anwenden möchten, legen Sie die Kachel oben auf der Scorecard ab. Sie können auch Segmente anwenden, indem Sie im Filtermenü unterhalb der Datumsbereiche Segmente auswählen. Sie [konfigurieren und wenden Filter für Ihre Scorecards](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de) genauso wie in Adobe Analytics Workspace an.
 
 ![Segmente für Filter erstellen](assets/segment_ui.png)
 
@@ -130,7 +130,7 @@ Die Einstellung ist standardmäßig *an*. Deaktivieren Sie die Option, wenn Sie 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit no
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -235,7 +235,7 @@ Um einer Detailfolie Text hinzuzufügen, wählen Sie ein Layout aus, für das da
 
 ## Entfernen von Komponenten {#remove}
 
-Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie außerhalb der Kacheln auf eine beliebige Stelle auf der Scorecard. Entfernen Sie die Komponente, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
+Um eine Komponente zu entfernen, die auf die gesamte Scorecard angewendet wird, klicken Sie außerhalb der Kacheln auf eine beliebige Stelle auf der Scorecard. Entfernen Sie sie dann, indem Sie auf das **x** klicken, das angezeigt wird, wenn Sie den Mauszeiger über die Komponente bewegen, wie unten für das Segment **Erstbesuche** dargestellt:
 
 ![Entfernen von Komponenten](assets/new_remove.png)
 
@@ -248,7 +248,7 @@ Wenn Sie sich beispielsweise auf den Webtraffic konzentrieren, können Besuche I
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen von Daten-Storys](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen von Daten-Storys](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -338,15 +338,15 @@ Sie können eine Vorschau davon anzeigen, wie die Scorecard nach ihrer Veröffen
 
    * Klicken und halten Sie, um das Drücken und Halten des Fingers auf dem Bildschirm des Smartphones zu simulieren. Dies ist für die Interaktion mit den Visualisierungen in der Detailansicht nützlich.
 
-## Scorecard benennen {#name}
+## Benennen einer Scorecard {#name}
 
-Um die Scorecard zu benennen, klicken Sie auf den Namespace oben links im Bildschirm und geben Sie den neuen Namen ein.
+Um die Scorecard zu benennen, klicken Sie auf den Namensbereich in der oberen linken Ecke des Bildschirms und geben Sie den neuen Namen ein.
 
-![Scorecards benennen](assets/new_name.png)
+![Benennen von Scorecards](assets/new_name.png)
 
 ## Scorecard freigeben {#share}
 
-So geben Sie die Scorecard für einen ausführenden Benutzer frei:
+So geben Sie die Scorecard für eine Führungskraft frei:
 
 1. Klicken Sie auf das Menü **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL Scorecard freigeben]**.
 
@@ -361,15 +361,15 @@ So geben Sie die Scorecard für einen ausführenden Benutzer frei:
 
 ![Scorecards freigeben](assets/new_share.png)
 
-Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie im Scorecard Builder nachfolgende Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Ausführende Benutzer sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
+Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Führungskräfte sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
+Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die Führungskräfte Zugriff auf diese Änderungen haben.
 
-### Freigeben von Scorecards über einen freigebbaren Link {#shareable-link}
+### Freigeben von Scorecards über einen Freigabe-Link {#shareable-link}
 
-Die Verwendung eines freigebbaren Links erleichtert die Freigabe einer Scorecard in einer E-Mail-, Dokument- oder Textnachrichten-App. Über den Freigabe-Link können Empfänger die Scorecard auf ihrem Desktop oder in der Dashboards-Mobile-App öffnen. Gemeinsame Deep-Linking erleichtert die Freigabe von Projekten und die Förderung der Interaktion mit Ihren Stakeholdern.
+Die Verwendung eines Freigabe-Links erleichtert die Freigabe einer Scorecard in einer E-Mail-, Dokument- oder Textnachrichten-App. Über den Freigabe-Link können Empfängerinnen und Empfänger die Scorecard auf ihrem Desktop oder in der Dashboards-App öffnen. Deeplinks, die freigegeben werden können, erleichtern die Freigabe von Projekten und fördern die Interaktion mit Ihren Stakeholdern.
 
-So geben Sie eine Scorecard über einen Freigabe-Link frei
+So geben Sie eine Scorecard über einen Freigabe-Link frei:
 
 1. Klicken Sie auf das Menü **[!UICONTROL Freigeben]** und wählen Sie **[!UICONTROL Scorecard freigeben]**.
 
@@ -377,9 +377,9 @@ So geben Sie eine Scorecard über einen Freigabe-Link frei
 
 1. Kopieren Sie den Link und fügen Sie ihn in eine E-Mail-, Dokument- oder IM-App ein.
 
-   Wenn ein Empfänger eine Desktop-Anwendung oder einen Browser verwendet, um den Link zu öffnen, wird das mobile Scorecard-Projekt in Workspace geöffnet.
+   Wenn der Link von einer Empfängerin oder einem Empfänger über eine Desktop-Anwendung oder einen Browser aufgerufen wird, wird das mobile Scorecard-Projekt in Workspace geöffnet.
 
-   Wenn ein Empfänger den Link auf einem Mobilgerät öffnet, wird die Scorecard direkt in der Analytics-Dashboards-App geöffnet.
+   Wenn der Link von einer Empfängerin oder einem Empfänger auf einem Mobilgerät aufgerufen wird, wird die Scorecard direkt in der Analytics-Dashboards-App geöffnet.
 
-   Wenn ein Empfänger die Mobile App nicht heruntergeladen hat, wird er zur App-Liste im App Store oder Google Play Store weitergeleitet, wo er sie herunterladen kann.
+   Wenn eine Empfängerin oder ein Empfänger die App nicht heruntergeladen hat, wird diese Person zur App-Liste im App Store oder Google Play Store weitergeleitet, wo sie sie herunterladen kann.
 
