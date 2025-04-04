@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
+source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
-source-wordcount: '6352'
+source-wordcount: '6380'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **März 2025** |  |
+| | **Analytics-Inventar** | Der Analytics-Bestand bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzer und mehr. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Customer Journey Analytics-Aktualisierungshandbuch | Ermöglicht die Erstellung einer [ Anleitung ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) Upgrade von Adobe Analytics auf Customer Journey Analytics. |
 | Klarere Datumsformatierung in Data Warehouse-Exporten | Zeitbasierte Dimensionswerte in Data Warehouse-Exporten weisen eine nicht standardmäßige Datumsformatierung auf. Informationen zur Interpretation von Datumswerten aus Data Warehouse-Exporten wurden hinzugefügt. <p>Siehe [Dimensionen, die auf andere Weise unterstützt werden (nicht standardmäßige Datumsformatierung)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Komponentenunterstützung in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Aktualisierte Informationen zu IP-Ausschlüssen | Es wurden Informationen hinzugefügt, die erklären[ dass ](/help/admin/admin/exclude-ip.md)IP-Ausschlüsse“ bis zu 5 Minuten dauern können, bevor sie wirksam werden, und dass Änderungen nur für neue Treffer gelten (Daten, die vor dem Festlegen des Ausschlusses erfasst wurden, sind davon nicht betroffen). <p>Das Layout des Inhalts wurde ebenfalls aktualisiert, um die Lesbarkeit zu verbessern.</p> |
