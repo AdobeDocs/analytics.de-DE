@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18667'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -682,7 +682,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--location"
->title="Zeigen Sie eine Übersicht der Besucherstandorte in einer Kartenvisualisierung an."
+>title="Zeigen Sie eine Übersicht der Besuchsstandorte in einer Kartenvisualisierung an."
 >abstract="**Dies kann Ihnen helfen**, besser zu verstehen, wo sich die Personen, die Ihre Site besuchen, befinden. <br/>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Ressourcen auf die Standorte konzentrieren, wo Sie das größte Interesse und die meisten Chancen sehen."
 
 <!-- markdownlint-enable MD034 -->
@@ -929,7 +929,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-lifecycle-metrics-app-usage-template"
->title="Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts in Ihrer App sowie die durchschnittliche Sitzungslänge an."
+>title="Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts der App sowie die durchschnittliche Sitzungslänge an."
 >abstract="**Dies kann Ihnen helfen**, die Nutzungszeiten Ihrer App genauer zu überblicken. <br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die App-Leistung verbessern, damit sie entsprechend der Nutzungsintensität skaliert werden kann."
 
 <!-- markdownlint-enable MD034 -->
@@ -965,7 +965,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-performance-template"
->title="Sehen Sie sich die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten."
+>title="Zeigen Sie die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten."
 >abstract="**Dies kann Ihnen helfen**, zu überblicken, ob Benutzende Ihrer App eine langsame oder sonstwie beeinträchtigte Leistung erleben. <br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern und so Problemen vorbeugen."
 
 <!-- markdownlint-enable MD034 -->
@@ -984,7 +984,7 @@ Die folgenden Vorlagen sind verfügbar:
 | Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **Metrik „Personen“**] | Zeigen Sie die Anzahl der Personen an, die mit Ihrer Marke interagieren. <p>**Dies kann Ihnen helfen**, die Nutzungs-Trends auf Ihrer Site besser zu verstehen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Effektivität der letzten Marketing-Maßnahmen beim Generieren von neuen Besuchenden auf Ihrer Site messen.</p> |
-| **Besucherprofil** > **Standortübersicht** | Zeigen Sie eine Übersicht der Besucherstandorte in einer Kartenvisualisierung an.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wo sich die Personen befinden, die Ihre Site besuchen. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Ressourcen auf die Standorte konzentrieren, wo Sie das größte Interesse und die meisten Chancen sehen.</p><!-- This template uses the --> |
+| **Besucherprofil** > **Standortübersicht** | Zeigen Sie eine Übersicht der Besuchsstandorte in einer Kartenvisualisierung an.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wo sich die Personen befinden, die Ihre Site besuchen. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Ressourcen auf die Standorte konzentrieren, wo Sie das größte Interesse und die meisten Chancen sehen.</p><!-- This template uses the --> |
 | **Besucherprofil** > **Geo-Segmentierung** > **Geo-Länder** | Zeigen Sie das Land an, aus dem die Personen stammen, die Ihre Site besuchen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, aus welchen Ländern die meisten Personen stammen, die Ihre Site besuchen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Daten nutzen, um sich auf Marketing-Maßnahmen in diesen Ländern zu konzentrieren, oder sicherstellen, dass Ihr Site-Erlebnis in Ländern mit unterschiedlichen Hauptsprachen optimal ist.</p><p>Diese Vorlage verwendet die Dimension „Länder“. </p> |
 | **Besucherprofil** > **Geo-Segmentierung** > **Geo-Bundesstaaten der USA** | Zeigen Sie den Bundesstaat (in den USA) an, aus dem die Personen stammen, die Ihre Site besuchen. Diese Vorlage ähnelt der Vorlage für geografische Regionen, allerdings ist sie spezifisch für die USA.<p>**Dies kann Ihnen helfen**, besser zu verstehen, aus welchen US-Bundesstaaten die meisten Personen stammen, die Ihre Site besuchen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Daten verwenden, um sich auf Marketing-Maßnahmen in diesen Bundesstaaten zu konzentrieren.</p><p>Diese Vorlage verwendet die Dimension „USA-Bundesstaaten“. </p> |
 | **Besucherprofil** > **Geo-Segmentierung** > **Geo-Regionen** | Zeigen Sie die geografische Region an, aus der die Personen stammen, die Ihre Site besuchen. Eine Region ist ein geografischer Bereich, der kleiner als ein Land, jedoch größer als eine Stadt ist. In einigen Ländern ist eine Region ein Bundesland, eine Provinz oder eine Präfektur. In anderen Gebieten handelt es sich um einen Landesteil, ein Departement oder eine großstädtische Region. <p>**Dies kann Ihnen helfen**, besser zu verstehen, aus welchen Regionen die meisten Personen stammen, die Ihre Site besuchen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Daten nutzen, um sich auf Marketing-Maßnahmen in diesen Regionen zu konzentrieren, oder sicherstellen, dass Ihr Site-Erlebnis in Regionen mit unterschiedlichen Hauptsprachen optimal ist. </p><p>Diese Vorlage verwendet die Dimensionen „ID(variables/geocountry)“ und „Regionen“. </p> |
@@ -1014,11 +1014,11 @@ Die folgenden Vorlagen sind verfügbar:
 | **Mobile** > **Bildschirmgröße** | Zeigen Sie die wichtigsten Bildschirmgrößen von Mobilgeräte an, mit denen Personen auf Ihre Site zugreifen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wie Inhalte den Besuchenden angezeigt werden.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Site-Qualität durch Testen neuer Versionen Ihrer Site mit den gängigsten Bildschirmgrößen von Mobilgeräten verbessern. Auf diese Weise können die Maßnahmen zur Qualitätssicherung maximiert werden.</p> |
 | **Mobile** > **Bildschirmhöhe** | Zeigen Sie die häufigsten Bildschirmhöhen von Mobilgeräten an, mit denen Personen auf Ihre Site zugreifen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wie Inhalte den Besuchenden angezeigt werden.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Site-Qualität durch Testen neuer Versionen Ihrer Site mit den gängigsten Bildschirmhöhen von Mobilgeräte verbessern. Auf diese Weise können die Maßnahmen zur Qualitätssicherung maximiert werden.</p> |
 | **Mobile** > **Bildschirmbreite** | Zeigen Sie die häufigsten Bildschirmbreiten von Mobilgeräten an, mit denen Personen auf Ihre Site zugreifen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wie Inhalte den Besuchenden angezeigt werden.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Site-Qualität durch Testen neuer Versionen Ihrer Site mit den gängigsten Bildschirmbreiten von Mobilgeräte verbessern. Auf diese Weise können die Maßnahmen zur Qualitätssicherung maximiert werden.</p> |
-| **Mobile** > **Mobile-App-Nutzung** | Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts in Ihrer App sowie die durchschnittliche Sitzungslänge an.<p>**Dies kann Ihnen helfen**, die Nutzungszeiten Ihrer App genauer zu überblicken.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die App-Leistung verbessern, damit sie entsprechend der Nutzungsintensität skaliert werden kann.</p><!-- This template uses the --> |
+| **Mobile** > **Mobile-App-Nutzung** | Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts der App sowie die durchschnittliche Sitzungslänge an.<p>**Dies kann Ihnen helfen**, die Nutzungszeiten Ihrer App genauer zu überblicken.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die App-Leistung verbessern, damit sie entsprechend der Nutzungsintensität skaliert werden kann.</p><!-- This template uses the --> |
 | **Mobile** > **Mobile App – Journeys** | Zeigen Sie die meistverbreiteten Nutzungsmuster für Ihre Mobile App an. <p>**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende Ihre App verwenden.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die Art und Weise verbessern, wie die Benutzenden von einem Bildschirm zum anderen gelangen, um die gängigsten Workflows zu optimieren. </p><!-- This template uses the --> |
 | **Mobile** > **Mobile-App-Metriken** | Zeigen Sie einige der häufigsten Mobile-App-Metriken an. <p>**Dies kann Ihnen helfen**, die allgemeine Leistung Ihrer App besser zu verstehen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. den allgemeinen Zustand und die allgemeine Leistung Ihrer App bewerten.</p><!-- This template uses the --> |
 | **Mobile** > **Mobile-App-Messaging** | Zeigen Sie Leistungsdaten für In-App-Nachrichten und Push-Nachrichten für Ihre App an.<p>**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern.</p><!-- This template uses the --> |
-| **Mobile** > **Mobile-App-Leistung** | Sehen Sie sich die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten. <p>**Dies kann Ihnen helfen**, zu überblicken, ob Benutzende Ihrer App eine langsame oder sonstwie beeinträchtigte Leistung erleben.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern und so Problemen vorbeugen.</p><!-- This template uses the --> |
+| **Mobile** > **Mobile-App-Leistung** | Zeigen Sie die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten. <p>**Dies kann Ihnen helfen**, zu überblicken, ob Benutzende Ihrer App eine langsame oder sonstwie beeinträchtigte Leistung erleben.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern und so Problemen vorbeugen.</p><!-- This template uses the --> |
 | **Mobile** > **Mobile-App-Bindung** | Zeigen Sie an, welche Benutzenden Ihrer App die treuesten sind und was sie in der App tun. <p>**Dies kann Ihnen helfen**, die Nutzungsweisen Ihrer App durch Ihre treuesten Benutzenden zu überblicken.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. intensivere Marketing-Maßnahmen für die Funktionen, die Ihre treusten Benutzenden verwenden.</p><!-- This template uses the --> |
 | **Bots** | Zeigen Sie Seitenansichten und Trends in Bezug auf den Bottraffic auf Ihrer Site an. <p>**Dies kann Ihnen helfen**, die Menge an Bottraffic besser zu verstehen, der aus Ihren Berichten gemäß den von Ihnen konfigurierten Bot-Regeln gefiltert wird.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Bot-Aktivität weiter überwachen, um neue Muster zu erkennen.</p><!-- This template uses the --> |
 
@@ -1123,7 +1123,7 @@ Die folgenden Vorlagen sind verfügbar:
 >[!CONTEXTUALHELP]
 >id="template--searchPaidKeywordRankedReport"
 >title="Zeigen Sie die Suchbegriffe an, die Besuchende zum Erreichen Ihrer Site verwenden und die mit der Paid-Search-Erkennung übereinstimmen."
->abstract="**Dies kann Ihnen helfen**, die Keywords besser zu verstehen, die bei Suchvorgängen verwendet werden, welche zu Sitetraffic führen.<br/>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. SEO-Lücken zwischen den verwendeten Keywords und den Keywords, die den Sitetraffic fördern, identifizieren und schließen. <br/>Diese Vorlage verwendet die Dimension „Suchbegriff – Paid“. "
+>abstract="**Dies kann Ihnen helfen**, die Keywords besser zu verstehen, die bei den Suchvorgängen verwendet werden, die zu Sitetraffic führen.<br/>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. SEO-Lücken zwischen den verwendeten Keywords und den Keywords, die den Sitetraffic fördern, identifizieren und schließen. <br/>Diese Vorlage verwendet die Dimension „Suchbegriff – Paid“. "
 
 <!-- markdownlint-enable MD034 -->
 
