@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
+source-git-commit: d81412790f5658d90890c48eca50548cd57b4b48
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 94%
+source-wordcount: '684'
+ht-degree: 88%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Version März 2025)
 
-**Letzte Aktualisierung**: Samstag, 4. April 2025
+**Letzte Aktualisierung**: Samstag, 11. April 2025
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 5. März bis Mai 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,10 +20,10 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 5. 
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics-Inventar** | Der Analytics-Bestand bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzer und mehr. Durch die Automatisierung des Inventarprozesses können Sie den Aufwand für den Wechsel von Adobe Analytics zu Customer Journey Analytics schnell verstehen. Dies erleichtert und beschleunigt den Übergang. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 26. März 2025 |
+| **Analytics-Inventar** | Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. By automating the inventory process, you can quickly understand the effort needed to switch from Adobe Analytics to Customer Journey Analytics. This will make the transition easier and faster. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 26. März 2025 |
 | **Aktualisierung des Analytics-Kontextdatenfelds`a.locale`** | Durch diese Aktualisierung ändert sich die Art und Weise, wie das Analytics-Kontextdatenfeld `a.locale` bei der Datenerfassung über Experience Edge festgelegt wird. Wenn Daten mit Experience Edge an Adobe Analytics gesendet werden, werden Analytics-Felder basierend auf einer Zuordnung von XDM-Feldern ausgefüllt. Die Zuordnung für `c.a.locale` verweist auf ein nicht standardmäßiges XDM-Feld (`xdm.environment.language`). Dieses Feld wird aktualisiert, um auf das richtige Feld (`xdm.environment._dc.language`) zu verweisen.<p>Aus Gründen der Abwärtskompatibilität verweist die Zuordnung weiterhin auf `xdm.environment.language`. Um die Kontinuität sicherzustellen, hat `xdm.environment.language` Vorrang, falls beide Felder festgelegt sind. Die vollständige Liste der Zuordnungen von XDM zu standardmäßigen Analytics-Feldern finden Sie [hier](https://experienceleague.adobe.com/de/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5. März 2025 |
 | **Leitfaden für das Upgrade auf Customer Journey Analytics** | Ermöglicht die Erstellung eines schrittweisen Leitfadens für das Upgrade von Adobe Analytics auf Customer Journey Analytics. Dieser Leitfaden ist auf Ihre Organisation zugeschnitten und berücksichtigt Ihre aktuelle Adobe Analytics-Umgebung, die vorgesehenen Verwendungszwecke für Customer Journey Analytics und alle zeitsparenden Kompromisse, die Ihre Organisation eingehen möchte.<p>Um mit der Erstellung Ihres benutzerdefinierten Leitfadens zu beginnen, melden Sie sich bei [!DNL Customer Journey Analytics] an und wählen Sie dann auf der Registerkarte **[!UICONTROL Arbeitsbereich]** die Option **[!UICONTROL Upgrade auf Customer Journey Analytics]** aus.<p>[Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 11. März 2025 |
-| **„Nur Data Warehouse“-Dimensionen** | Ab Mai 2025 beginnt Adobe, bestimmte Dimensionen (benutzerdefinierte Variablen wie eVars und Props) als „Nur Data Warehouse“ festzulegen. Dies gilt für Dimensionen mit den folgenden Eigenschaften:<ul><li> Über einen Zeitraum von mehreren Monaten erreicht die Variable innerhalb der ersten Tage des Monats das Limit für geringen Traffic.</li><li>> 90 % der übergebenen Werte werden nur einmal im Monat angezeigt.</li></ul>Beispiele sind Dimensionen mit Zeitstempeln, UUIDs oder anderen Daten, die eine extrem hohe Kardinalität aufweisen und bei denen eindeutige neue Werte für fast jeden Treffer (oder fast jeden Besuch oder fast jede besuchende Person) im Laufe des Monats übergeben werden. Diese Dimensionen überschreiten normalerweise sehr schnell die Limits für geringen Traffic und nur für einen sehr kleinen Teil der Werte können in Analysis Workspace Berichte erstellt werden. Berichte, die diese Dimensionen verwenden, sind dadurch verwirrend, da sie keine nützlichen oder genauen Informationen enthalten. Diese Dimensionen entsprechen nicht dem Zweck der Funktion des geringen Traffics bzw. profitieren nicht von dieser Funktion, die eine Möglichkeit bieten soll, Berichte zu Werten zu erstellen, die „beliebt“ werden, nachdem die Dimension die Limits für geringen Traffic im Laufe des Monats überschritten hat. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics/technotes/low-traffic)<p>Dimensionen, die als „Nur Data Warehouse“ gekennzeichnet sind, sind in Analysis Workspace nicht für Berichte verfügbar. Sie stehen jedoch weiterhin für Berichte über Data Warehouse zur Verfügung, da Limits für geringen Traffics hier nicht gelten.<p>Dies bedeutet nicht, dass jede Dimension, die die Limits für geringen Traffic erreicht hat, als „Nur Data Warehouse“ gekennzeichnet werden kann. Die meisten Dimensionen, die die Limits für geringen Traffic erreichen, erfüllen tatsächlich die Absicht der Funktionalität für geringen Traffic:<ul><li>Die meisten übergebenen Werte sind nicht eindeutig.</li><li>Allgemeine Werte kommen weiter an, nachdem die Limits für geringen Traffic im Laufe des Monats erreicht wurden.</li><li>Neue „beliebte“ Werte können weiterhin auftreten.</li></ul>Nur die Dimensionen, in denen fast alle übergebenen Werte neu und eindeutig sind, werden als „Nur Data Warehouse“ gekennzeichnet. Angesichts der Eindeutigkeit der in diesen Situationen erfassten Daten ist die Erhöhung der Limits für geringen Traffic keine Lösung. | | Mai 2025 |
+| **„Nur Data Warehouse“-Dimensionen** | Aufgrund des Feedbacks unserer Kunden haben wir beschlossen, eine Neubewertung vorzunehmen. Wir werden die automatische Nur-Data Warehouse-Funktion nicht wie angekündigt veröffentlichen. | | TBD |
 
 
 ## Fehlerbehebungen in Adobe Analytics
@@ -43,7 +43,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 5. 
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| -/- |  |  |
+| k. A. |  |  |
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
 
