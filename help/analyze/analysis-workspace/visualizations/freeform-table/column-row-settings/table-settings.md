@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 98%
 
 ---
 
@@ -87,5 +87,9 @@ Die folgenden Kontextmenüoptionen sind bei Auswahl der Kopfzeile einer Metriksp
 | **[!UICONTROL Attributionsmodell vergleichen]** | Geben Sie ein neues Attributionsmodell an und vergleichen Sie es mit dem Attributionsmodell für die ausgewählte Spalte. Es wird eine neue Spalte mit den neuen Attributionsmodell-Metriken hinzugefügt. Außerdem wird eine Spalte „Prozentänderung“ zum Vergleich hinzugefügt. |
 | **[!UICONTROL Spaltenbreiten zurücksetzen]** | Zum Zurücksetzen der Spaltenbreiten auf die Standardbreite. |
 | **[!UICONTROL Anmerkung aus Auswahl erstellen]** | Zum Öffnen der **[!UICONTROL Anmerkungsdetails]**, um eine Anmerkung hinzuzufügen. |
-| **[!UICONTROL Filter aus Auswahl erstellen]** | Zum Öffnen des **[!UICONTROL Filter-Builders]**, um einen Filter aus der Auswahl zu erstellen. |
-| **[!UICONTROL Zielgruppe aus Auswahl erstellen]** | Zum Öffnen des Dialogs **[!UICONTROL Zielgruppe erstellen]**, um eine Zielgruppe aus der Auswahl zu erstellen. |
+| **[!UICONTROL Filter aus Auswahl erstellen]** | Öffnen Sie den **[!UICONTROL Filter-Builder]**, um einen Filter aus der Auswahl zu erstellen. |
+| **[!UICONTROL Zielgruppe aus Auswahl erstellen]** | Öffnen Sie das Dialogfeld **[!UICONTROL Zielgruppe erstellen]**, um eine Zielgruppe aus der Auswahl zu erstellen. |
+
+## Zeilenhöhe ändern
+
+Sie können die Anzeigedichte eines Projekts auf **[!UICONTROL Compact]**, **[!UICONTROL Comfort]** und **[!UICONTROL Expanded]** festlegen. [Weitere Informationen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
