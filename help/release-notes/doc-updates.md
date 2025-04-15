@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -26,7 +26,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **März 2025** |  |
-| | **Analytics-Inventar** | Der Analytics-Bestand bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzer und mehr. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
+| | **Analytics-Inventar** | Das Analytics-Inventar bietet einen umfassenden Überblick über Ihre Adobe Analytics-Umgebung, einschließlich der Anzahl der Projekte und Komponenten, Report Suites, Benutzenden und mehr. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Handbuch für das Upgrade auf Customer Journey Analytics | Ermöglicht die Erstellung eines [schrittweisen Leitfadens](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) für das Upgrade von Adobe Analytics auf Customer Journey Analytics.  |
 | Klarere Datumsformatierung in Data Warehouse-Exporten | Zeitbasierte Dimensionswerte in Data Warehouse-Exporten weisen eine nicht standardmäßige Datumsformatierung auf. Informationen zur Interpretation von Datumswerten aus Data Warehouse-Exporten wurden hinzugefügt. <p>Weitere Informationen finden Sie unter [Auf neue Art unterstützte Dimensionen (nicht standardmäßige Datumsformatierung)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Komponentenunterstützung in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Aktualisierte Informationen zu IP-Ausschlüssen | Informationen wurden hinzugefügt, die erklären, dass es bis zu 5 Minuten dauern kann, bis [IP-Ausschlüsse](/help/admin/admin/exclude-ip.md) wirksam werden, und dass Änderungen nur für neue Treffer gelten (Daten, die vor dem Festlegen des Ausschlusses erfasst wurden, sind nicht betroffen). <p>Das Layout des Inhalts wurde ebenfalls aktualisiert, um die Lesbarkeit zu verbessern.</p> |
@@ -47,7 +47,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Oktober 2024** |  |
 | Neue Informationen zu Anfragefaktoren in der Leistung von Analysis Workspace | In einem neuen Abschnitt [Anfragefaktoren](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) im Artikel [Optimieren der Leistung von Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) wird erläutert, wie Anfragen verarbeitet werden und welche Faktoren die Verarbeitungszeiten beeinflussen. |
-| Neuer Report Builder | [Neue Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) für das optimierte Report Builder-Add-in, das unter Mac, Windows und in Webbrowsern unterstützt wird. |
+| Neuer Report Builder | [Neue Dokumentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) für das optimierte Report Builder-Add-in, das unter Mac, Windows und in Webbrowsern unterstützt wird. |
 | **August 2024** | |
 | Warnhinweis-Manager | Die Dokumentation zum [Warnhinweis-Manager](/help/components/c-alerts/alert-manager.md) wurde optimiert. Die Aktualisierungen verbessern die Klarheit und Genauigkeit. |
 | **Juli 2024** | |

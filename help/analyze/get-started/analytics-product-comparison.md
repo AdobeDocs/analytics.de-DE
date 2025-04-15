@@ -3,7 +3,7 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -16,7 +16,7 @@ Diese Seite enthält einen Vergleich verschiedener Adobe Analytics-Produkte: Ana
 
 Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Produktname und Link zur Hilfe | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics-API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Produktname und Link zur Hilfe | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics-API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **Zugriffsmethode** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel für Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Informationen](/help/analyze/get-started/sys-reqs.md) | Einrichtung über den Browser. [Weitere Informationen](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit Adobe Developer-Anmeldeinformationen an. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Treffer | Aggregiert |

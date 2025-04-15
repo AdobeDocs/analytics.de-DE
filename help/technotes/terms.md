@@ -3,7 +3,7 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
 * **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) im Administratorhandbuch.
-* **Report Builder:** Mit dem JavaScript-[Report Builder](/help/analyze/report-builder/report-buider-overview.md)-Add-in können Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen.
+* **Report Builder:** Mit dem JavaScript-[Report Builder](/help/analyze/report-builder/rb-overview.md)-Add-in können Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
 * **Reports &amp; Analytics:** Dieses Tool wurde [Ende des Lebenszyklus](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=de).
 * **Rollierender Datumsbereich:** ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten sieben Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch „Statischer Datumsbereich“.

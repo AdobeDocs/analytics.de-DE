@@ -1,8 +1,8 @@
 ---
-source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '2353'
-ht-degree: 36%
+ht-degree: 46%
 
 ---
 # Snippets
@@ -11,7 +11,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->Eine neue und optimierte [Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
+>Eine neue und optimierte [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
 >Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) neue Report Builder konvertieren.
 
 ## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
@@ -76,7 +76,7 @@ Ein Attributionsmodell bestimmt, welchen Dimensionselementen eine Metrik gutgesc
 | ![Selber Kontakt](/help/assets/icons/AttributeSameTouch.svg) | Selber Kontakt | Gibt dem Ereignis, bei dem die Konversion stattgefunden hat, eine 100%ige Gutschrift. Wenn ein Touchpoint nicht im selben Ereignis wie eine Konversion auftritt, wird er in Buckets unter „None“ („Keine„) erfasst. Dieses Attributionsmodell wird manchmal damit gleichgesetzt, dass es gar kein Attributionsmodell hat. Dies ist nützlich in Szenarien, in denen Sie keine Werte von anderen Ereignissen wünschen, die beeinflussen, wie eine Metrik Dimensionselementen zuordnet. Produkt- oder Design-Teams können dieses Modell verwenden, um die Effektivität einer Seite zu bewerten, auf der Konversionen stattfinden. |
 | ![U-förmig](/help/assets/icons/AttributeUShaped.svg) | U-Form | Der ersten Interaktion werden 40 % zugeschrieben, der letzten Interaktion 40 %. Die verbleibenden 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints werden beide mit 50 % angerechnet. Dieses Attributionsmodell eignet sich am besten für Szenarien, in denen Sie die erste und letzte Interaktion am meisten schätzen, aber zusätzliche Interaktionen dazwischen nicht völlig ausschließen möchten. |
 | ![J-Kurve](/help/assets/icons/AttributeJCurve.svg) | J-Kurve | Der letzten Interaktion werden 60 % zugeschrieben, der ersten Interaktion werden 20 % zugeschrieben. Die restlichen 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints werden der letzten Interaktion 75 % und der ersten 25 % zugeschrieben. Ähnlich wie U-förmig begünstigt dieses Attributionsmodell die erste und die letzte Interaktion, stärker jedoch die letzte Interaktion. |
-| ![Umgekehrt J](/help/assets/icons/AttributeInverseJ.svg) | Umgekehrtes J | Der ersten Interaktion werden 60 % zugeschrieben, der letzten Interaktion 20 %. Die verbleibenden 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints werden der ersten Interaktion 75 % und der letzten Interaktion 25 % zugeschrieben. Ähnlich wie J-förmig bevorzugt dieses Attributionsmodell die erste und die letzte Interaktion, stärker jedoch die erste Interaktion. |
+| ![Umgekehrtes J](/help/assets/icons/AttributeInverseJ.svg) | Umgekehrtes J | Der ersten Interaktion werden 60 % zugeschrieben, der letzten Interaktion 20 %. Die verbleibenden 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints werden der ersten Interaktion 75 % und der letzten Interaktion 25 % zugeschrieben. Ähnlich wie J-förmig bevorzugt dieses Attributionsmodell die erste und die letzte Interaktion, stärker jedoch die erste Interaktion. |
 | ![Zeitverfall](/help/assets/icons/AttributeTimeDecay.svg) | Zeitabfall | Folgt einem exponentiellen Abfall mit einem benutzerdefinierten Parameter für die Halbwertszeit, wobei der Standardwert 7 Tage ist. Die Gewichtung der einzelnen Kanäle hängt von der Zeit ab, die zwischen dem Beginn des Touchpoints und der letztendlichen Konversion verstrichen ist. Die Formel, die zur Bestimmung der Gewichtung verwendet wird, lautet `2^(-t/halflife)`, wobei `t` die Zeit zwischen einem Touchpoint und einer Konversion ist. Alle Berührungspunkte werden dann auf 100 % normalisiert. Ideal für Szenarien, in denen Sie die Attribution anhand eines bestimmten und signifikanten Ereignisses messen möchten. Je länger nach diesem Ereignis eine Konversion stattfindet, desto weniger Anerkennung wird erhalten. |
 | ![Benutzerspezifisch](/help/assets/icons/AttributeCustom.svg) | Anpassen | Hier können Sie die Gewichtungen angeben, die Sie dem ersten Touchpoint, dem letzten Touchpoint und allen dazwischen liegenden Touchpoints zuweisen möchten. Die angegebenen Werte werden auf 100 % normalisiert, selbst wenn die eingegebenen benutzerdefinierten Zahlen zusammen nicht 100 ergeben. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Interaktionen mit zwei Touchpoints wird der mittlere Parameter ignoriert. Der erste und der letzte Berührungspunkt werden dann auf 100 % normalisiert und die Gutschrift wird entsprechend zugewiesen. Dieses Modell eignet sich ideal für Analysten, die die volle Kontrolle über ihr Attributionsmodell haben möchten und spezifische Anforderungen haben, die andere Attributionsmodelle nicht erfüllen. |
 | ![Algorithmisch](/help/assets/icons/AttributeAlgorithmic.svg) | Algorithmisch | Verwendet statistische Verfahren, um die optimale Zuordnung von Gutschriften für die ausgewählte Metrik dynamisch zu bestimmen. Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi-Dividende aus der kooperativen Spieltheorie. Die Harsanyi-Dividende ist eine Verallgemeinerung der Shapley-Wertlösung (die nach Lloyd Shapley, einem Nobelpreisträger für Ökonomie, benannt wurde) zur Verteilung von Gutschriften unter den Spielern in einem Spiel mit ungleichen Beiträgen zum Ergebnis.<br>Auf hoher Ebene wird die Attribution als eine Koalition von Akteuren berechnet, an die ein Überschuss gerecht verteilt werden muss. Die Überschussverteilung jeder Koalition wird anhand des Überschusses bestimmt, der zuvor von jeder Subkoalition (oder zuvor teilnehmenden Dimensionselementen) rekursiv erzeugt wurde. Weitere Einzelheiten finden Sie in John Harsanyis und Lloyd Shapleys Originaldokumenten: <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
@@ -97,33 +97,32 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 
 ## Attributionsbeispiel {#attribution-example}
 
-Siehe folgendes Beispiel:
+Sehen Sie sich folgendes Beispiel an:
 
-1. Am 15. September kommt eine Person über eine Paid-Search-Anzeige auf Ihre Website und verlässt sie.
-1. Am 18. September kommt die Person über einen Social-Media-Link, den sie von einem Freund erhalten hat, wieder auf Ihre Website. Er fügt mehrere Artikel zum Warenkorb hinzu, erwirbt aber nichts.
+1. Am 15. September gelangt eine Person über eine Paid Search-Anzeige zu Ihrer Site und verlässt sie dann.
+1. Am 18. September gelangt die Person über einen Link in sozialen Medien, den er von einer Freundin oder einem Freund erhalten hat, erneut auf Ihre Site. Er fügt mehrere Artikel zum Warenkorb hinzu, erwirbt aber nichts.
 1. Am 24. September sendet Ihr Marketing-Team eine E-Mail mit einem Coupon für einige der Artikel im Warenkorb. Der Coupon wird angewendet, der Besucher ruft aber mehrere andere Websites auf, um zu sehen, ob andere Coupons verfügbar sind. Er findet einen weiteren über eine Display-Anzeige und kauft dann letztendlich für 50 Euro ein.
 
 Je nach Lookback-Fenster und Attributionsmodell erhalten Kanäle eine unterschiedliche Gewichtung. Im Folgenden finden Sie einige Beispiele:
 
-* Mit **Erstkontakt** und einem **Sitzungs-Lookback-Fenster** betrachtet die Attribution nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs von 50 Euro zugeschrieben werden.
+* Bei Verwendung von **Erstkontakt** und einem **Sitzungs-Lookback-Fenster** betrachtet die Attribution nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs von 50 US-Dollar zugeschrieben werden.
 
-* Mit **Erstkontakt** und einem **Personen-Lookback-Fenster** untersucht die Attribution alle drei Besuche. Paid Search kam zuerst, sodass Paid Search 100 % des Kaufs von 50 Euro zugeschrieben werden.
+* Mithilfe von **Erstkontakt** und einem **Personen-Lookback-Fenster** betrachtet die Attribution alle drei Besuche. Paid Search kam zuerst, sodass Paid Search 100 % des Kaufs von 50 $ zugeschrieben werden.
 
-* Mit **linear** und einem **Sitzungs-Lookback-Fenster** wird die Gutschrift auf E-Mail und Anzeige aufgeteilt. Beide Kanäle erhalten jeweils einen Kredit von 25 Dollar.
-Bei Verwendung **linear** und eines **Personen-Lookback-Fensters** wird die Gutschrift auf Paid Search, Social, E-Mail und Display aufgeteilt. Jedem Kanal werden für diesen Kauf 12,50 Euro zugeschrieben.
+* Bei Verwendung eines **linearen** Fensters und eines **Sitzungs-Lookback-Fensters** wird die Gewichtung zwischen E-Mail und Display-Anzeige aufgeteilt. Beiden Kanälen werden jeweils 25 $ zugeschrieben. Die Gewichtung wird mithilfe eines **linearen** Fensters und eines **Personen-Lookback-Fensters** zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt. Jedem Kanal werden für diesen Kauf 12,50 $ zugeschrieben.
 
-* Mithilfe **J-förmigen** und eines **Personen-Lookback-Fensters** wird die Gutschrift auf Paid Search, Social, E-Mail und Display aufgeteilt.
+* Mithilfe des **J-förmigen** Fensters und eines **Personen-Lookback-Fensters** wird die Gewichtung zwischen Paid Search, Social Media und Display-Anzeige aufgeteilt.
 
    * Der Display-Anzeige werden 60 %, also 30 Euro, zugeschrieben.
    * Paid Search werden 20 %, also 10 Euro, zugeschrieben.
    * Die restlichen 20 % werden zwischen Social Media und E-Mail aufgeteilt (jeweils 5 Euro).
 
-* Mithilfe **Zeitverfalls** und eines **Personen-Lookback-Fensters** wird die Gutschrift auf Paid Search, Social, E-Mail und Display aufgeteilt. Verwendung der standardmäßigen 7-Tage-Halbwertszeit:
+* Bei Verwendung von **Zeitverfall** und einem **Personen-Lookback-Fenster** wird die Gewichtung zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt. Verwendung der standardmäßigen 7-Tage-Halbwertszeit:
 
-   * Intervall von null Tagen zwischen Touchpoint-Display und Konversion. `2^(-0/7) = 1`
-   * Lücke von null Tagen zwischen E-Mail-Touchpoint und Konversion. `2^(-0/7) = 1`
-   * Lücke von sechs Tagen zwischen Social Touchpoint und Konversion. `2^(-6/7) = 0.552`
-   * Intervall von neun Tagen zwischen Paid Search-Touchpoint und Konversion. `2^(-9/7) = 0.41`
+   * Abstand von null Tagen zwischen Display-Touchpoint und Konversion. `2^(-0/7) = 1`
+   * Abstand von null Tagen zwischen E-Mail-Touchpoint und Konversion. `2^(-0/7) = 1`
+   * Abstand von sechs Tagen zwischen Social Media-Touchpoint und Konversion. `2^(-6/7) = 0.552`
+   * Abstand von 9 Tagen zwischen Paid Search-Touchpoint und Konversion. `2^(-9/7) = 0.41`
    * Die Normalisierung dieser Werte führt zu Folgendem:
 
       * Display-Anzeige: 33,8 %, 16,88 Euro
@@ -131,7 +130,7 @@ Bei Verwendung **linear** und eines **Personen-Lookback-Fensters** wird die Guts
       * Social Media: 18,6 %, 9,32 Euro
       * Paid Search: 13,8 %, 6,92 Euro
 
-Konversionsereignisse, die in der Regel Ganzzahlen aufweisen, werden aufgeteilt, wenn das Guthaben zu mehr als einem Kanal gehört. Wenn beispielsweise zwei Kanäle zu einer Reihenfolge beitragen, die ein lineares Attributionsmodell verwendet, erhalten beide Kanäle 0,5 dieser Reihenfolge. Diese partiellen Metriken werden für alle Personen summiert und dann zur Berichterstellung auf die nächste Ganzzahl gerundet.
+Konversionsereignisse, die in der Regel Ganzzahlen aufweisen, werden aufgeteilt, wenn die Gewichtung mehr als einem Kanal zugeschrieben wird. Wenn beispielsweise zwei Kanäle mit einem linearen Attributionsmodell zu einer Bestellung beitragen, erhalten beide Kanäle 0,5 dieser Bestellung. Diese Teilmetriken werden über alle Personen summiert und dann zur Berichterstellung auf die nächste Ganzzahl gerundet.
 
 ## Journey-Visualisierungsvergleiche {#journey-visualization-comparisons}
 

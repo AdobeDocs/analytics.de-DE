@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,4 +75,4 @@ ht-degree: 100%
       + [Verbindung zu Adobe über SFTP ohne Kennwort herstellen](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace-Downloads](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/report-buider-overview)
++ [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)
