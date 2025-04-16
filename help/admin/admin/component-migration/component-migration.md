@@ -1,11 +1,11 @@
 ---
-description: Erläutert das Migrieren von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics.
+description: Erläutert das Migrieren von Komponenten und Projekten von Adobe Analytics zu Customer Journey Analytics.
 title: Migrieren von Komponenten und Projekten aus Adobe Analytics nach Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,9 @@ Der Migrationsvorgang umfasst:
 
 ## Vorbereiten der Migration
 
-Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten in der [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics auf Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+Bevor Sie Projekte nach Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten in der [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+
+Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/admin/analytics-inventory.md) indem Sie das Tool verwenden, das Analytics-Admins zur Verfügung steht.
 
 ## Migrieren von Adobe Analytics-Projekten nach Customer Journey Analytics
 
@@ -59,11 +61,11 @@ Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr �
 
    Sie können jeweils nur ein Projekt zur Migration auswählen.
 
-   Das [!UICONTROL **Projektname zum Customer Journey Analytics migrieren**] wird angezeigt.
+   Das [!UICONTROL **Projekt_name zu Customer Journey Analytics migrieren**] wird angezeigt.
 
    <!-- add screenshot -->
 
-1. Geben [!UICONTROL **in das Feld**] den Namen des Benutzers ein, den Sie als Projektbesitzer auf Customer Journey Analytics festlegen möchten, und wählen Sie dann im Dropdown-Menü dessen Namen aus.
+1. Geben [!UICONTROL **in das Feld**] Projektbesitzer“ den Namen des Benutzers ein, den Sie als Projektbesitzer in Customer Journey Analytics festlegen möchten, und wählen Sie dann im Dropdown-Menü dessen Namen aus.
 
    Der angegebene Eigentümer hat vollständige Verwaltungsrechte für das Projekt. Der Besitzer muss ein Administrator in Customer Journey Analytics sein. Sie können den Besitz des Projekts in einem späteren Schritt ändern.
 
@@ -75,7 +77,7 @@ Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr �
 
 1. Erweitern Sie im Abschnitt [!UICONTROL **Zuordnungsschema**] die Abschnitte [!UICONTROL **Dimensionen**] und [!UICONTROL **Metriken**].
 
-   Einige Dimensionen und Metriken in Adobe Analytics werden automatisch einer Dimension oder Metrik im Customer Journey Analytics zugeordnet. Andere müssen manuell zugeordnet werden.
+   Einige Dimensionen und Metriken in Adobe Analytics werden automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet. Andere müssen manuell zugeordnet werden.
 
    **Dimensionen und Metriken automatisch zuordnen**
 
@@ -83,7 +85,7 @@ Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr �
    >
    >   Wenn Sie das Web SDK verwendet haben, um Daten in Adobe Experience Platform aufzunehmen, können Dimensionen und Metriken nicht automatisch zugeordnet werden. Weitere Informationen finden Sie unter [Voraussetzungen](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) in [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 
-   Einige Dimensionen und Metriken in Adobe Analytics werden automatisch einer Dimension oder Metrik im Customer Journey Analytics zugeordnet. Für diese Dimensionen und Metriken können keine Zuordnungsentscheidungen getroffen werden.
+   Einige Dimensionen und Metriken in Adobe Analytics werden automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet. Für diese Dimensionen und Metriken können keine Zuordnungsentscheidungen getroffen werden.
 
    Beispielsweise wird die Metrik **Besuche** in Adobe Analytics automatisch der Metrik **Sitzungen** in Customer Journey Analytics zugeordnet.
 
@@ -95,7 +97,7 @@ Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr �
 
    **Dimensionen und Metriken manuell zuordnen**
 
-   Einige Dimensionen und Metriken in Adobe Analytics können nicht automatisch einer Dimension oder Metrik im Customer Journey Analytics zugeordnet werden.
+   Einige Dimensionen und Metriken in Adobe Analytics können nicht automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet werden.
 
    Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben der Abschnittsüberschrift [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] ein orangefarbener Zähler angezeigt, der die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird neben jeder Dimension ![ Metrik, ](assets/schema-warning.png) manuell zugeordnet werden muss, ein Warnsymbol (Warnsymbol) angezeigt.
 
@@ -105,7 +107,7 @@ Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr �
 
    ![Manuelle Zuordnung des Migrationsschemas](assets/schema-manual-map.png)
 
-1. Um Dimensionen und Metriken manuell zuzuordnen, wählen Sie eine Dimension oder Metrik aus, die ein Warnsymbol ![Warnsymbol](assets/schema-warning.png) enthält, und wählen Sie dann im Feld [!UICONTROL **Zugeordnete Customer Journey Analytics-Metrik**] (oder im Feld [!UICONTROL **Zugeordnete Customer Journey Analytics-Dimension**], wenn Sie eine Dimension zuordnen) die Dimension oder Metrik in Customer Journey Analytics aus, die Sie der ausgewählten Dimension oder Metrik zuordnen möchten.
+1. Um Dimensionen und Metriken manuell zuzuordnen, wählen Sie eine Dimension oder Metrik aus, die ein Warnsymbol ![Warnsymbol](assets/schema-warning.png) enthält, und wählen Sie dann im Feld [!UICONTROL **Zugeordnete Customer Journey Analytics-Metrik**] (oder im Feld [!UICONTROL **Zugeordnete Customer Journey Analytics-Dimension**] , wenn Sie eine Dimension zuordnen) die Dimension oder Metrik in Customer Journey Analytics aus, die Sie der ausgewählten Dimension oder Metrik zuordnen möchten.
 
    ![Zuordnen von Dimensionen und Metriken](assets/schema-manual-map-drop-down.png)
 
@@ -127,7 +129,7 @@ Bevor Sie Projekte auf Customer Journey Analytics migrieren, erfahren Sie mehr �
 
    Wenn die Migration fehlschlägt, finden Sie [ Abschnitt „Wiederholen einer fehlgeschlagenen Migration](#retry-a-failed-migration) weiter unten weitere Informationen.
 
-1. (Optional) Nach der Migration eines Projekts können Sie das Eigentum an dem Projekt auf einen beliebigen Benutzer auf Customer Journey Analytics übertragen. Weitere Informationen finden Sie unter [Assets übertragen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) im Customer Journey Analytics-Handbuch.
+1. (Optional) Nachdem ein Projekt migriert wurde, können Sie die Eigentümerschaft des Projekts an einen beliebigen Benutzer in Customer Journey Analytics übertragen. Weitere Informationen finden Sie unter [Assets übertragen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) im Customer Journey Analytics-Handbuch.
 
 ## Fehlgeschlagene Migration wiederholen
 
@@ -151,7 +153,7 @@ So versuchen Sie eine fehlgeschlagene Migration erneut:
 
    Die [!UICONTROL **„Migrationsstatus**] wird angezeigt.
 
-   Diese Seite wird auch sofort nach Abschluss der Migrationsschritte angezeigt, die im Abschnitt [Migrieren von Adobe Analytics-Projekten zum Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) weiter oben beschrieben sind.
+   Diese Seite wird auch sofort nach Abschluss der Migrationsschritte angezeigt, die im Abschnitt [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) weiter oben beschrieben sind.
 
 1. Wählen Sie [!UICONTROL **Migration wiederholen**] aus.
 
@@ -168,7 +170,7 @@ Sie können nach den folgenden Kriterien filtern:
 | [!UICONTROL **Status**] | Der Status der Migration: <ul><li>[!UICONTROL **Nicht gestartet**]</li><li>[!UICONTROL **Gestartet**]</li><li>[!UICONTROL **Abgeschlossen**]</li><li>[!UICONTROL **Fehlgeschlagen**]</li></ul>. |
 | [!UICONTROL **Tags**] | Wählen Sie beliebige Tags in der Liste der Tags aus. Es werden nur Projekte angezeigt, auf die die ausgewählten Tags angewendet wurden. |
 | [!UICONTROL **Report Suite**] | Wählen Sie eine beliebige Report Suite in der Liste der Report Suites aus. Es werden nur Projekte angezeigt, die die ausgewählten Report Suites verwenden. |
-| [!UICONTROL **Inhaber**] | Wählen Sie einen beliebigen Eigentümer in der Liste der Eigentümer aus. Es werden nur Projekte angezeigt, die den von Ihnen ausgewählten Benutzern gehören. |
+| [!UICONTROL **Inhaberinnen oder Inhaber**] | Wählen Sie einen beliebigen Eigentümer in der Liste der Eigentümer aus. Es werden nur Projekte angezeigt, die den von Ihnen ausgewählten Benutzern gehören. |
 | [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Meine**]: Zeigt nur Projekte an, bei denen Sie als Besitzer festgelegt sind.</li><li>[!UICONTROL **Für mich freigegeben**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favoriten markiert sind. (Sie können ein Projekt auf der [Projekt-Landingpage“ als Favorit ](/help/analyze/landing.md).)</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
 
 {style="table-layout:auto"}
