@@ -4,10 +4,10 @@ title: Fehlerbehebung für die Power BI-Integration
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 64%
+source-wordcount: '320'
+ht-degree: 66%
 
 ---
 
@@ -39,13 +39,13 @@ Im Folgenden werden die wichtigsten Gründe für beschädigte Visualisierungen n
 
 >[!IMPORTANT]
 >
->Report Builder erfordert, dass ein Administrator den Zugriff auf die Ressourcen Ihres Unternehmens autorisiert. Wenn Sie Zugriff benötigen, bitten Sie einen Administrator, Ihnen die Berechtigung zu erteilen.
+>Report Builder erfordert, dass ein Administrator den Zugriff auf die Ressourcen Ihrer Organisation autorisiert. Wenn Sie Zugriff benötigen, bitten Sie einen Administrator, Ihnen die Berechtigung zu erteilen.
 > Ein Microsoft-Administrator kann die Einstellung *Benutzer können Anwendung registrieren* unter **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen lassen Optionen zu]** überprüfen. Wenn diese Option auf **Nein** gesetzt ist, kann der Administrator diese Anwendungstypen registrieren.
 
-Benutzende können Zugriff gewähren, indem sie sich bei ihrem [Microsoft Power BI-Konto anmelden](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Benutzer können Zugriff gewähren, indem sie sich bei ihrem [Microsoft Power BI-Konto anmelden](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 Administratoren können jedem Zugriff gewähren, indem sie sich bei ihrem [Microsoft Power BI-Konto des Administrators](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) anmelden.
 
 ## API-Limit erreicht
 
-Das Reporting im Power BI funktioniert mit der Analytics-Reporting-API, sodass API-Schwellenwerte gelten. Weitere Informationen finden Sie [Web-Services-Fehlercodes](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+Das Reporting in Power BI funktioniert mit der Analytics-Reporting-API, sodass API-Schwellenwerte gelten.

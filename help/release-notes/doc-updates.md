@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -227,12 +227,12 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | 15. Juni 2021 | [Best Practices für Marketing-Kanäle](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=de) wurde aktualisiert |
 | 3. Juni 2021 | Die Dokumentation wurde mit genaueren Erläuterungen zur [Implementierung von Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=de) [hier](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=de#BucketOwnerFullControl) aktualisiert. |
 | 25. Mai 2021 | Die Dokumentation zu [Groß-/Kleinschreibung bei eVars in Berichten](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=de) wurde aktualisiert. |
-| 13. Mai 2021 | Aktualisierungen für [Data Warehouse-API-Anfragen](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Sie unterstützen jetzt „Stunden“. |
+| 13. Mai 2021 | Aktualisierungen für [Data Warehouse-API-Anfragen](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). Sie unterstützen jetzt „Stunden“. |
 | **März 2021** | |
 | März, April 2021 | Aktualisierungen des [Handbuchs für ausführende Benutzer](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=de) und des [Handbuchs für Kuratoren](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=de) zu Adobe Analytics-Dashboards |
 | 25. März 2021 | Neue Dokumentation auf der Seite [!UICONTROL Komponenten] > [!UICONTROL Benutzervoreinstellungen]. Damit können Sie die [!UICONTROL Analysis Workspace]-Einstellungen und die zugehörigen Komponenten für Ihren Benutzer verwalten. Die [!UICONTROL Benutzervoreinstellungen] gelten für alle neuen Projekte und Bedienfelder. <br>**Hinweis:** Die folgenden Einstellungen wurden auf die Seite [!UICONTROL Benutzervoreinstellungen] verschoben:<ul><li>Berichtseinstellungen: Tausender-Trennzeichen (jetzt als _Zahlenformat_ bezeichnet)</li><li>Berichtseinstellungen: CSV-Trennzeichen</li><li>Arbeitsbereich-Projekte: „Hilfe“ > „Tipps aktivieren“</li><li>Arbeitsbereich-Projekte: Option _Neue Projekte mit diesem Bedienfeld beginnen_ mit leerem Bedienfeld</li></ul> |
 | 25. März 2021 | [!UICONTROL Histogramm Smart Bucket Prediction] hilft bei Histogrammen mit hoher Kardinalität, indem automatisch die richtige Breite und Anzahl der Behälter für Ihren Datenbogen identifiziert wird. Bei Metriken mit niedriger Kardinalität verhält sich die Visualisierung genauso wie zuvor. |
-| 25. März 2021 | Aktualisierungen der [Data Repair-API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) (Filtern nach URLs, Abfragezeichenfolgen, at-Zeichen und mehr) |
+| 25. März 2021 | Aktualisierungen der [Data Repair-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) (Filtern nach URLs, Abfragezeichenfolgen, at-Zeichen und mehr) |
 | 25. März 2021 | Neue Dokumentation zur [Nutzungsprotokoll-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
 | **Februar 2021** | |
 | 4. Februar 2021 | Komponentenauswahl: Die Dropdown-/Dropzone-Komponente, die sich in [!UICONTROL Quick Insights] befunden hatte, wurde zu allen Ablagebereichen in [!UICONTROL Arbeitsbereich] hinzugefügt. Diese Verbesserung ermöglicht es Ihnen, aus einer Dropdown-Liste kompatibler Komponenten zu wählen oder den Raum weiterhin als Ablagebereich zu verwenden. |

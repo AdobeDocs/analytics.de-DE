@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten 
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt un
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
-Für Daten, die über eine API übermittelt werden, z. B. über die [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) oder die [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), müssen Hinweise explizit in die Payload aufgenommen werden. Einzelheiten dazu finden Sie in der entsprechenden Dokumentation.
+Für Daten, die über eine API übermittelt werden, z. B. über die [Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) oder die [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), müssen Hinweise explizit in die Payload aufgenommen werden. Einzelheiten dazu finden Sie in der entsprechenden Dokumentation.
 
 +++
 
