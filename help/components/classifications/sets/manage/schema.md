@@ -3,9 +3,9 @@ title: Klassifizierungssatz-Schema
 description: Anzeigen und Bearbeiten des Schemas für einen einzelnen Klassifizierungssatz.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 43%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 43%
 Zeigen Sie die derzeit konfigurierten Klassifizierungsdimensionen für diesen Klassifizierungssatz an.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]** > Klicken Sie auf den Namen des gewünschten Klassifizierungssatzes > **[!UICONTROL Schema]**
+
+![Benutzeroberfläche des Klassifizierungssatz-Schemas](../../assets/classification-set-schema.png)
 
 Folgende Schaltflächen sind verfügbar:
 

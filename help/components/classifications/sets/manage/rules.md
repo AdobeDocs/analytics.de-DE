@@ -3,9 +3,9 @@ title: Klassifizierungssatz-Regeln
 description: Anzeigen und Bearbeiten von Regeln für einen einzelnen Klassifizierungssatz.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 Klassifizierungssatzregeln ermöglichen es Ihnen, Werte automatisch basierend auf dem Wert zu klassifizieren, auf den die Variable gesetzt ist. Diese Regeln gelten für alle eingehenden Variablenwerte für alle Abonnements des Klassifizierungssatzes.
 
 **[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]** > Klicken Sie auf den Namen des gewünschten Klassifizierungssatzes > **[!UICONTROL Regeln]**
+
+![Benutzeroberfläche für Klassifizierungssatzregeln](../../assets/csets-rules.png)
 
 ## Regeleinstellungen
 
