@@ -3,10 +3,10 @@ title: Klassifizierungssatz-Schema
 description: Anzeigen und Bearbeiten des Schemas für einen einzelnen Klassifizierungssatz.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ Zeigen Sie die derzeit konfigurierten Klassifizierungsdimensionen für diesen Kl
 Folgende Schaltflächen sind verfügbar:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Hochladen]**: Manuelles Hochladen von Klassifizierungsdaten für eine oder mehrere Klassifizierungsdimensionen. `JSON`-, `CSV`-, `TSV`- und `TAB` werden unterstützt. Beim Hochladen einer gültigen Datei wird eine Tabellenvorschau der zu klassifizierenden Daten angezeigt.
+* **[!UICONTROL Hochladen]**: Manuelles Hochladen von Klassifizierungsdaten für eine Klassifizierungsdimension. `JSON`-, `CSV`-, `TSV`- und `TAB` werden unterstützt. Beim Hochladen einer gültigen Datei wird eine Tabellenvorschau der zu klassifizierenden Daten angezeigt.
    * **[!UICONTROL Dateicodierung]**: Wählen Sie mithilfe dieser Dropdown-Liste die richtige Dateicodierung aus. Zu den gültigen Optionen gehören [!UICONTROL UTF-8] und [!UICONTROL Latin1].
    * **[!UICONTROL Listentrennzeichen]**: Wählen Sie das richtige Listentrennzeichen aus. Wenn Sie eine heruntergeladene Datei oder eine Vorlagendatei verwenden, stellen Sie sicher, dass das [!UICONTROL Listentrennzeichen] hier mit dem [!UICONTROL Listentrennzeichen] übereinstimmt, das beim Herunterladen der Datei verwendet wurde.
    * **[!UICONTROL Anwenden]**: Speichern der hochgeladenen Klassifizierungsdaten in den Klassifizierungssatz.
@@ -59,3 +59,13 @@ Folgende Schaltflächen sind verfügbar:
    * **[!UICONTROL Trennzeichen]**: Das Spaltentrennzeichen für hochgeladene Dateien. Die Optionen umfassen [!UICONTROL Komma], [!UICONTROL Semikolon], [!UICONTROL Doppelpunkt], [!UICONTROL Vertikaler Balken], [!UICONTROL Leerzeichen], [!UICONTROL Schrägstrich], [!UICONTROL Schrägstrich], [!UICONTROL Strich] oder [!UICONTROL Unterstrich].
 
    * **[!UICONTROL Codierung]**: Eine Dropdown-Liste, in der die Dateicodierung bestimmt wird. Die Optionen umfassen [!UICONTROL UTF-8] und [!UICONTROL Latin1]. UTF-8 wird empfohlen.
+
+Die folgenden Aktionen sind erst verfügbar, nachdem Sie eine Klassifizierung ausgewählt haben.
+
+* **Suche hinzufügen**: Eine Suchtabelle ist eine Klassifizierung einer Klassifizierung. Es handelt sich um Metadaten über einen Klassifizierungswert und nicht um die Variable selbst. Beispielsweise könnte die Variable „Produkt“ eine Klassifizierung von „Farbcode“ haben. Eine Lookup-Tabelle mit „Farbname“ kann an „Farbcode“ angehängt werden, um zu erklären, was die Farben sind.
+
+  ![Lookup-Tabelle anhängen](../../assets/lookup.png)
+
+* **Umbenennen**: Hiermit können Sie die Klassifizierung umbenennen.
+
+* **Löschen**: Hiermit können Sie die Klassifizierung löschen.

@@ -3,9 +3,9 @@ title: Klassifizierungssatz-Manager
 description: Verwalten Sie Klassifizierungssätze in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ Klassifizierungssätze bestehen aus **Abonnements** (Kombinationen aus Report Su
 Auf der linken Seite des Classification Set Manager finden Sie Filtereinstellungen, um den gewünschten Klassifizierungssatz zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Klassifizierungssätze nach **[!UICONTROL Tags]** oder **[!UICONTROL Report Suite)]**.
 
 ![Klassifizierungssatzfilter](../../assets/classification-set-filters.png)
+
+Beachten Sie, dass jeweils 1.000 Klassifizierungssätze vorgeladen werden. Die in der linken Leiste angezeigten Filter spiegeln die Optionen für die Sätze wider, die vorgeladen werden.
 
 ## Classification Set Manager-Spalten
 
