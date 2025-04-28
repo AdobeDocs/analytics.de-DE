@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Seitenvariablen {#page-vars}
-      + [Übersicht zu Seitenvariablen](vars/page-vars/page-variables.md)
+      + [Seitenvariablen-Übersicht](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins {#plugins}
+   + Plug-ins   {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -130,16 +130,15 @@ ht-degree: 100%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [websiteBot](vars/plugins/websitebot.md)
    + [Integrationsmodul](vars/integrate.md)
-+ Vorbereitungen für die Implementierung von Adobe Analytics {#prepare}
++ Vorbereiten der Implementierung von Adobe Analytics {#prepare}
    + [Datenschicht erstellen](prepare/data-layer.md)
    + [Vergleich von Implementierungsmethoden](prepare/comparison.md)
    + [Überlegungen zur globalen Report Suite](prepare/global-rs.md)
    + [Implementieren von Multi-Suite-Tagging](prepare/multi-suite-tagging.md)
    + [Lösungsdesigndokument erstellen](prepare/solution-design.md)
    + [Übernahme einer bestehenden Adobe Analytics-Implementierung](prepare/existing-implementation.md)
-+ Implementieren von Analytics unter Verwendung von Experience Platform Edge {#aep-edge}
++ Analytics mit Experience Platform Edge implementieren {#aep-edge}
    + [Übersicht über Experience Edge](aep-edge/overview.md)
    + [Zuordnung von Datenobjektvariablen](aep-edge/data-var-mapping.md)
    + [Zuordnung von XDM-Objektvariablen](aep-edge/xdm-var-mapping.md)
@@ -153,7 +152,7 @@ ht-degree: 100%
       + [Mobile SDK – Übersicht](aep-edge/mobile-sdk/overview.md)
    + Server-API {#server-api}
       + [Übersicht über die Server-API](aep-edge/server-api/overview.md)
-+ Implementierung von Analytics mithilfe der Adobe Analytics-Erweiterung {#launch}
++ Implementieren von Analytics mithilfe der Adobe Analytics-Erweiterung {#launch}
    + [Übersicht über Tags](launch/overview.md)
    + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
    + [Bereitstellen in einer Entwicklungsumgebung](launch/deploy-dev.md)
@@ -190,13 +189,13 @@ ht-degree: 100%
    + [„AppMeasurement“ mit iFrames verwenden](use-cases/iframe.md)
    + [Tracking über verschiedene Implementierungstypen hinweg](use-cases/cross-type-implementation.md)
    + [Kampagnen-Tracking-Workflow](use-cases/campaign-tracking.md)
-+ Ihre Implementierung validieren {#validate}
++ Validieren der Implementierung {#validate}
    + [Legacy Adobe Experience Cloud-Debugger](validate/debugger.md)
    + [Datenerfassungs-Abfrageparameter](validate/query-parameters.md)
    + [Paketmonitore](validate/packet-monitor.md)
    + [Hash-Kollisionen](validate/hash-collisions.md)
 + [Häufig gestellte Fragen](faq.md)
-+ Prüfen Sie Ihre Implementierung {#review}
++ Überprüfen der Implementierung {#review}
    + [Gezielte Prüfung (nach jeder Website-Veröffentlichung)](review/focused-review.md)
    + [Vollständige Prüfung (alle 6 Monate)](review/full-review.md)
    + [Definieren Ihrer fünf wichtigsten KPIs](review/define-kpis.md)

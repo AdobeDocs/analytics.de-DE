@@ -4,10 +4,10 @@ description: Entfernen von Bots in Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 78%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -25,17 +25,6 @@ Sowohl Standard- als auch benutzerdefinierte Bot-Filtermethoden werden in **[!UI
 | Benutzerdefinierte Bot-Regeln | Sie können benutzerdefinierte Bot-Regeln festlegen und hinzufügen, die auf Benutzeragenten, IP-Adressen oder IP-Bereichen basieren. |
 
 Weitere Informationen finden Sie unter [Grundlegendes zu und Konfigurieren von Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
-
-## Identifizieren von Bots mit dem Plug-in [!UICONTROL websiteBot]
-
-Mit dem Plug-in [!UICONTROL websiteBot] können Sie dynamisch feststellen, ob es sich bei Desktop-Besuchern um Bots handelt. Mithilfe dieser Daten können Sie eine höhere Genauigkeit bei allen Arten von Berichten erzielen. Dadurch verfügen Sie über eine bessere Möglichkeit, legitimen Sitetraffic zu messen.
-
-Dieses Plug-in führt zwei Prüfungen durch:
-
-* Zunächst wird anhand der navigator.UserAgent-Variablen ermittelt, ob es sich bei dem Gerät um ein Desktop-Gerät oder ein Mobilgerät handelt. Smartphones und Tablets werden ignoriert.
-* Wenn es sich um ein Desktop-Gerät handelt, wird ein Ereignis-Listener für Mausbewegungen hinzugefügt.
-
-Weitere Informationen finden Sie im [Adobe Analytics-Implementierungshandbuch](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=de).
 
 ## Verwenden einer Kombination aus Adobe-Tools
 
