@@ -4,10 +4,10 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
+source-git-commit: a8fe70381fbe04f3c57d221045a28d89e854ff54
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 69%
+source-wordcount: '577'
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-Die [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) Benutzeroberfläche zeigt `c.example_variable` und `c.second_example` in den entsprechenden Dropdown-Menüs an.
+Die [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) Benutzeroberfläche zeigt `example_variable` und `second_example` in den entsprechenden Dropdown-Menüs an.
 
 ## Kontextdatenvariablen, die die Adobe Analytics-Erweiterung verwenden
 
@@ -46,7 +46,7 @@ Die Adobe Experience Platform-Datenerfassung verfügt über keinen speziellen Or
 
 ## s.contextData in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Die `s.contextData`-Variable nimmt keinen Wert direkt an. Setzen Sie stattdessen die Eigenschaften dieser Variable auf eine Zeichenfolge.
+Die `s.contextData`-Variable nimmt keinen Wert direkt an. Legen Sie stattdessen die Eigenschaften dieser Variablen auf eine Zeichenfolge fest.
 
 ```js
 // Assign the example_variable property a value
