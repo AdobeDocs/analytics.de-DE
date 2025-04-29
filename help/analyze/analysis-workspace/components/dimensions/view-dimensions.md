@@ -4,10 +4,10 @@ title: Dimensionsvorschau
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 90%
 
 ---
 
@@ -29,4 +29,4 @@ Jetzt zeigen wir standardmäßig dynamische Werte anstelle von statischen an, mi
 
 Wenn Sie auf eine Dimension zeigen und auf den grauen, nach rechts zeigenden Pfeil daneben klicken, wird eine Liste der jeweiligen Dimensionselemente angezeigt. Dimensionselementlisten zeigen normalerweise die Top-Elemente der letzten 30 Tage an.
 
-Am Ende der Liste sehen Sie die Option **[!UICONTROL Top-Elemente der letzten 6 Monate anzeigen]**. Klicken Sie auf diese Option, um die Top-Dimensionselemente der letzten 180 Tage anzuzeigen.
+Wenn Sie nach unten zum unteren Rand der Liste scrollen, sehen Sie **[!UICONTROL Top-Elemente aus den letzten 18 Monaten anzeigen]**. Klicken Sie auf diese Option, um die Top-Dimensionselemente der letzten 547 Tage anzuzeigen.
