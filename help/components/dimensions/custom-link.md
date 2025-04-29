@@ -3,10 +3,10 @@ title: Benutzerspezifischer Link
 description: Der Name des benutzerspezifischen Links.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '161'
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ Die Dimension „Benutzerspezifischer [&quot; ](overview.md) die Namen der auf I
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der [`pev2`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_o` aufweisen. Wenn die Abfragezeichenfolge `pe` im Treffer einen anderen Wert hat, werden in dieser Dimension keine Daten erfasst.
+Diese Dimension erfasst Daten aus der [`pev2`Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen für Treffer, die auch die Abfragezeichenfolge `pe` mit dem Wert `lnk_o` aufweisen. Wenn die `pe` Abfragezeichenfolge im Treffer einen anderen Wert hat, erfasst diese Dimension keine Daten. Die maximale Länge dieser Dimension beträgt 100 Byte.
 
 Wenn Sie mit AppMeasurement Daten an diese Dimension senden möchten, senden Sie eine [`tl()`](/help/implement/vars/functions/tl-method.md)-Bildanforderung mit einem Link-Typ-Argument `"o"`. Geben Sie im Linkname-Argument den gewünschten Wert an.
 

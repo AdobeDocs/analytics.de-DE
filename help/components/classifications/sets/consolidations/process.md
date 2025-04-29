@@ -3,16 +3,16 @@ title: Konsolidierungsprozess für Klassifizierungssatz
 description: Der vollständige Prozess der Konsolidierung von Klassifizierungssätzen.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Konsolidierungsprozess für Klassifizierungssatz
 
-Verwenden Sie diese Schnittstelle, um eine Klassifizierungssatz-Konsolidierung von Anfang bis Ende zu erstellen.
+Klassifizierungskonsolidierungen ermöglichen es Ihnen, Klassifizierungen aus mehreren Datensätzen zu nehmen und zu einem zusammenzufassen. Verwenden Sie diese Schnittstelle, um eine Klassifizierungssatz-Konsolidierung von Anfang bis Ende zu erstellen. Diese Benutzeroberfläche ist besonders nützlich für Unternehmen, die von einer veralteten Klassifizierungsarchitektur zu einer Klassifizierungssatz-Architektur wechseln. Die meisten Unternehmen, die bereits eine Klassifizierungssatz-Architektur verwenden, müssen diesen Konsolidierungs-Workflow normalerweise nicht verwenden.
 
 ## Erstellung
 
@@ -45,6 +45,6 @@ Nachdem eine Konsolidierung validiert wurde, können Sie sie ausführen. Die Aus
 
 ## Genehmigen
 
-Fungiert als letzter Aufruf, bevor die einzelnen Klassifizierungssätze entfernt und ein konsolidierter Klassifizierungssatz erstellt wird. Stellen Sie sicher, dass alles korrekt ist, und klicken Sie dann auf **[!UICONTROL Genehmigen]**.
+Der letzte Aufruf, bevor einzelne Klassifizierungssätze entfernt und durch einen konsolidierten Klassifizierungssatz ersetzt werden. Überprüfen Sie, ob alles korrekt ist, und wählen Sie dann **[!UICONTROL Genehmigen]** aus.
 
 Nach der Genehmigung wird der konsolidierte Klassifizierungssatz erstellt. Der Status ist auf [!UICONTROL Abgeschlossen] festgelegt, und es sind keine weiteren Maßnahmen für die Konsolidierung erforderlich.

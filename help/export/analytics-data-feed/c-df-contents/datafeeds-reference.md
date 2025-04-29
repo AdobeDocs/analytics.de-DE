@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3625'
 ht-degree: 67%
 
 ---
@@ -62,7 +62,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`daily_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
 | **`dataprivacyconsentoptin`** | Die Dimension [Einverständnisverwaltungs-Opt-in](/help/components/dimensions/cm-opt-in.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Die Dimension [Einverständnisverwaltungs-Opt-out](/help/components/dimensions/cm-opt-out.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP` und `SELL`. | varchar(100) |
-| **`dataprivacydmaconsent`** | Ein -Wert, der angibt, ob das Einverständnis für das Senden von Daten von Adobe Analytics über Adobe Advertising an Drittanbieter-Werbeanbieter (wie Google) eingeholt wurde. Weitere Informationen finden Sie unter [Einwilligung in Werbung](/help/components/dimensions/ad-consent.md). | varchar(100) |
+| **`dataprivacydmaconsent`** | Ein -Wert, der angibt, ob das Einverständnis für das Senden von Daten von Adobe Analytics über Adobe Advertising an Drittanbieter-Werbeanbieter (wie Google) erworben wurde. Weitere Informationen finden Sie unter [Einwilligung in Werbung](/help/components/dimensions/ad-consent.md). | varchar(100) |
 | **`date_time`** | Die Uhrzeit des Treffers in lesbarem Format, basierend auf der Zeitzone der Report Suite. | datetime |
 | **`domain`** | Die [Domäne](/help/components/dimensions/domain.md) Dimension. Basiert auf dem Internet-Zugangspunkt des Besucher. | varchar(100) |
 | **`duplicate_events`** | Listet alle Ereignisse auf, die als Duplikat gezählt wurden. | varchar(255) |
@@ -145,7 +145,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`monthly_visitor`** | Eine Markierung, die bestimmt, ob der Besucher für den aktuellen Monat eindeutig ist. | tinyint unsigniert |
 | **`mvvar1`** - `mvvar3` | [Listenvariable](/help/implement/vars/page-vars/list.md)-Werte. Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | text |
 | **`mvvar1_instances`** – `mvvar3_instances` | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Die `post` Spalten enthalten normalerweise keine Daten. | Text |
-| **`new_visit`** | Eine Markierung, die bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird durch Adobe nach 30 Minuten Besuchs-Inaktivität festgelegt. | tinyint unsigniert |
+| **`new_visit`** | Eine Markierung, die bestimmt, ob der aktuelle Treffer ein neuer Besuch ist. Wird von Adobe nach 30 Minuten Inaktivität des Besuchs festgelegt. | tinyint unsigniert |
 | **`os`** | Eine numerische ID, die das Betriebssystem des Besuchers darstellt. Basiert auf der Spalte `user_agent`. Der Schlüsselwert für `operating_system.tsv` Standardsuche und `operating_system_type.tsv` [Dynamische Suche](dynamic-lookups.md). | int unsigniert |
 | **`page_event`** | Die Art des Treffers, die in der Bildanforderung gesendet wird (Standardtreffer, Downloadlink, benutzerspezifischer Link, Exitlink). Siehe [Seitenereignissuche](datafeeds-page-event.md). | tinyint unsigniert |
 | **`page_event_var1`** | Wird nur in Linktracking-Bildanforderungen verwendet. Die URL des angeklickten Downloadlinks, Exitlinks oder benutzerspezifischen Links. | text |
@@ -405,3 +405,8 @@ Die folgende Liste von Spalten ist nicht verwendet, nicht mehr verwendet oder en
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[XDM-Objektvariablenzuordnung](/help/implement/aep-edge/xdm-var-mapping.md)
+>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)
