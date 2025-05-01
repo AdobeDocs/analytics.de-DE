@@ -3,10 +3,10 @@ description: Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Oper
 title: Vergleichsoperatoren für Segmente
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 94%
+source-wordcount: '1193'
+ht-degree: 51%
 
 ---
 
@@ -14,41 +14,56 @@ ht-degree: 94%
 
 Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken. Es gibt drei Kategorien von Operatoren: Standard, Data Warehouse und Distinct Count.
 
-Das einzige unterstützte Platzhalterzeichen ist das Sternchen: &#42;. Wenn Sie nach &#42; suchen müssen, können Sie sie mit einem umgekehrten Schrägstrich mit Escape-Zeichen versehen.
+Je nach ausgewähltem Operator:
 
-**Beispiel**: Angenommen, Sie haben einen Seitennamen „My cool product“. Die Segmentregel „Seitenname stimmt mit „Mein&#42;Produkt“ überein mit dem obigen Seitennamen. Die Regel „Seitenname stimmt mit „Mein\\&#42;&quot; überein mit dem Seitennamen „Mein&#42;Produkt“.
+* Sie können einen Wert eingeben
+* Sie können einen Teil eines Werts eingeben und aus einem Dropdown-Menü auswählen (falls verfügbar).
+* Wählen Sie sofort einen Wert aus dem Dropdown-Menü aus (falls verfügbar).
+
+Wenn Sie einen Wert für einen Operator eingeben, der verfügbare Werte überprüft, z **[!UICONTROL B. &quot;]**&quot;, und der Wert nicht mit den für die Komponente verfügbaren Werten übereinstimmt, wird ein ![AlertRed](/help/assets/icons/AlertRed.svg)-Symbol angezeigt. Sie können entweder einen Wert aus dem Dropdown-Menü auswählen oder die Eingabetaste **[!UICONTROL _,_]** den Wert einzugeben.
+
+![Segment ist gleich](assets/segment-operator-equals.png)
+
+## Platzhalter
+
+Das einzige unterstützte Platzhalterzeichen für Benutzer, die Platzhalter unterstützen, ist das Sternchen: `*`. Wenn Sie nach dem spezifischen &#42; suchen müssen, können Sie es mit einem umgekehrten Schrägstrich (z. B. `\*`) maskieren.
+
+Beispiel: Sie haben einen Seitennamen mit dem Namen *Mein cooles Produkt*.
+
+* Die Segmentregel **[!UICONTROL Seitenname]** **[!UICONTROL stimmt überein]** `* product` entspricht dem obigen Seitennamen.
+* Die Regel **[!UICONTROL Seitenname]** **[!UICONTROL stimmt überein]** `My \* product` entspricht jedoch nur dem Seitennamen *Mein * Produkt*.
 
 ## Standardoperatoren
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 |--- |--- |
-| gleich | Gibt Elemente mit einer exakten Entsprechung für numerische oder Zeichenfolgenwerte wieder. Hinweis: Nutzen Sie bei Verwendung von Platzhalterzeichen den Operator „stimmt überein mit“. |
-| ist nicht gleich | Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten.  Hinweis: Nutzen Sie bei Verwendung von Platzhalterzeichen den Operator „stimmt nicht überein mit“. |
-| entspricht einem der folgenden Werte | Gibt Elemente zurück, die exakt mit einem beliebigen Wert im Eingabefeld übereinstimmen (bis zu 500 Elemente). Wenn Sie beispielsweise „Suchergebnisse, Homepage“ mit diesem Operator eingeben, werden „Suchergebnisse“ und „Homepage“ abgeglichen und zählen als 2 Elemente. Das Eingabefeld für diesen Operator ist kommagetrennt. |
-| entspricht keinem der folgenden Werte | Identifiziert Elemente, die exakt mit einem beliebigen Wert im Eingabefeld übereinstimmen, (bis zu 500 Elemente) und gibt dann nur Elemente ohne diese Werte zurück. Wenn Sie beispielsweise „Suchergebnisse, Homepage“ mit diesem Operator eingeben, werden „Suchergebnisse“ und „Homepage“ identifiziert und von den zurückgegebenen Elementen ausgeschlossen. Dieses Beispiel würde als 2 Elemente zählen. Das Eingabefeld für diesen Operator ist kommagetrennt. |
-| enthält | Gibt Elemente zurück, die mit den Unterzeichenfolgen der eingegebenen Werte vergleichbar sind. Wenn die Regel für „Seite“ z. B. „Suche“ enthält, stimmt dies mit allen Seiten überein, die die Unterzeichenfolge „Suche“ enthalten, z. B. „Suchergebnisse“, „Suche“ und „Suchen“. Bei der Klausel „Enthält“ wird in Adobe Analytics nicht zwischen Groß- und Kleinschreibung unterschieden, in Customer Journey Analytics wird jedoch zwischen Groß- und Kleinschreibung unterschieden. |
-| „Enthält nicht“ | Gibt das Gegenteil der Regel „enthält“ zurück. Insbesondere werden alle Elemente, die mit dem eingegebenen Wert übereinstimmen, aus den eingegebenen Werten ausgeschlossen. Wenn die Regel für „Seite“ z. B. „Suche“ nicht enthält, stimmt dies mit keiner Seite überein, die die Unterzeichenfolge „Suche“ enthält, z. B. „Suchergebnisse“, „Suche“ und „Suchen“. Diese Werte werden aus den Ergebnissen ausgeschlossen. |
-| enthält alle von | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener Werte. Wenn z. B. „Suchergebnisse“ mit diesem Operator eingegeben wird, stimmen „Suchergebnisse“ und „Ergebnisse der Suche“ überein, „Suche“ oder „Ergebnisse“ als unabhängige Werte jedoch nicht. Eine Übereinstimmung liegt vor, wenn „Suche“ UND „Ergebnisse“ gemeinsam gefunden werden. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
-| enthält nicht alle von | Ermittelt Elemente, die mit Unterzeichenfolgen verglichen werden – einschließlich mehrfacher miteinander verbundener Werte –, und gibt anschließend lediglich Elemente ohne diese Werte zurück. Beispielsweise werden bei der Eingabe von „Suchergebnisse“ mit diesem Operator „Suchergebnisse“ und „Ergebnisse der Suche“ ermittelt (jedoch nicht „Suche“ oder „Ergebnisse“ als unabhängige Werte) und anschließend ausgenommen. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
-| enthält beliebige von | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener oder unabhängig erkannter Werte. Wenn z. B. „Suchergebnisse“ mit diesem Operator eingegeben wird, stimmen „Suchergebnisse“, „Ergebnisse der Suche“, „Suche“ und „Ergebnisse“ überein. Eine Übereinstimmung liegt vor, wenn entweder „Suche“ ODER „Ergebnisse“ zusammen oder unabhängig voneinander gefunden werden. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
-| enthält keinen von | Ermittelt Elemente basierend auf Unterzeichenfolgen und gibt Werte zurück, die diese Zeichenfolgen nicht enthalten. Kann mehrfache zusammengefasste Werte oder unabhängig ermittelte Werte umfassen. Wenn z. B. „Suchergebnisse“ eingegeben wird, stimmen „Suchergebnisse“, „Ergebnisse der Suche“, „Suche“ und „Ergebnisse“ überein, wobei sowohl „Suche“ als auch „Ergebnisse“ zusammen oder unabhängig voneinander gefunden werden. Anschließend würden die Elemente ausgenommen, die diese Unterzeichenfolgen enthalten. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
-| beginnt mit | Gibt Elemente zurück, die mit dem Zeichen oder der Zeichenfolge des eingegebenen Werts beginnen. |
-| beginnt nicht mit | Gibt alle Elemente zurück, die nicht mit dem Zeichen oder der Zeichenfolge der eingegebenen Werte beginnen. Dies ist das Gegenteil des Operators „beginnt mit“. |
-| endet mit | Gibt Elemente zurück, die mit dem Zeichen oder der Zeichenfolge des eingegebenen Werts enden. |
-| endet nicht mit | Gibt alle Elemente zurück, die nicht mit dem Zeichen oder der Zeichenfolge der eingegebenen Werte enden. Dies ist das Gegenteil des Operators „endet mit“. |
-| stimmt überein mit | Gibt Elemente mit einer exakten Entsprechung für gegebene numerische oder Zeichenfolgenwerte wieder. Bei der Klausel „Stimmt überein mit“ wird in Adobe Analytics und in Customer Journey Analytics zwischen Groß- und Kleinschreibung unterschieden. **Hinweis**: Nutzen Sie diesen Operator bei der Verwendung von Platzhalterfunktionen (Globbing). Beispiele für „Globbing“:<ul><li>`a*e` würde übereinstimmen mit `ae`, `abcde`, `adobe` und `a whole sentence`</li><li>`adob*` würde übereinstimmen mit `adobe`, `adobe analytics` und `adobo recipe`</li><li>`*dobe` würde übereinstimmen mit `dobe`, `adobe` und `cute little dobe`</li></ul> |
-| stimmt nicht überein mit | Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten. Hinweis: Nutzen Sie diesen Operator bei der Verwendung von Platzhalterfunktionen (Globbing). |
-| vorhanden | Gibt die Anzahl der vorhandenen Elemente zurück. Wenn Sie z. B. die Dimension „Seiten nicht gefunden“ mithilfe des Operators „vorhanden“ auswerten, wird die Anzahl der vorhandenen Fehlerseiten zurückgegeben. |
-| nicht vorhanden | Gibt alle nicht vorhandenen Elemente zurück. Wenn Sie zum Beispiel die Dimension „Seiten nicht gefunden“ mithilfe des Operators „nicht vorhanden“ auswerten, wird die Anzahl der Seiten zurückgegeben, bei denen diese Fehlerseite nicht vorhanden war. |
+| **[!UICONTROL gleich]** | Gibt Elemente mit einer exakten Entsprechung für numerische oder Zeichenfolgenwerte wieder. Hinweis: Wenn Sie Platzhalterzeichen verwenden, verwenden Sie den Operator **[!UICONTROL stimmt überein]**. |
+| **[!UICONTROL nicht gleich]** | Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten.  Hinweis: Wenn Sie Platzhalterzeichen verwenden, verwenden Sie den Operator **[!UICONTROL stimmt nicht überein]**. |
+| **[!UICONTROL Entspricht einem von]** | Gibt Elemente zurück, die exakt mit einem beliebigen Wert im Eingabefeld übereinstimmen (bis zu 500 Elemente). Wenn Sie beispielsweise `Search Results, Homepage` für die Dimension **[!UICONTROL Seitenname]** mit diesem Operator eingeben, stimmen *Suchergebnisse* und *Homepage* und zählen als zwei Elemente. Das Eingabefeld für diesen Operator ist kommagetrennt. |
+| **[!UICONTROL Entspricht keinem von]** | Identifiziert Elemente, die exakt mit einem beliebigen Wert im Eingabefeld übereinstimmen, (bis zu 500 Elemente) und gibt dann nur Elemente ohne diese Werte zurück. Wenn Sie beispielsweise `Search Results, Homepage` mit diesem Operator für die Dimension **[!UICONTROL Seitenname]** eingeben, werden *Suchergebnisse* und *Homepage* identifiziert und dann **ausgeschlossen** aus den zurückgegebenen Elementen. Dieses Beispiel würde als 2 Elemente zählen. Das Eingabefeld für diesen Operator ist kommagetrennt. |
+| **[!UICONTROL enthält]** | Gibt Elemente zurück, die mit den Unterzeichenfolgen der eingegebenen Werte vergleichbar sind. Wenn die Regel beispielsweise **[!UICONTROL Seitenname]** **[!UICONTROL enthält]** `Search` lautet, stimmt diese Regel mit allen Seiten überein, die die `Search` der Unterzeichenfolge enthalten, einschließlich *Suchergebnisse*, *Suche* und *Suchen*. Bei der Klausel „Enthält“ wird in Adobe Analytics nicht zwischen Groß- und Kleinschreibung unterschieden, in Customer Journey Analytics wird jedoch zwischen Groß- und Kleinschreibung unterschieden. |
+| **[!UICONTROL enthält nicht]** | Gibt die Umkehrung der Regel **[!UICONTROL contains]** zurück. Insbesondere werden alle Elemente, die mit dem eingegebenen Wert übereinstimmen, aus den eingegebenen Werten ausgeschlossen. Wenn die Regel beispielsweise **[!UICONTROL Seitenname]** **[!UICONTROL Enthält nicht]** `Search` lautet, stimmt sie mit keiner Seite überein, die die `Search` der Unterzeichenfolge enthält, einschließlich *Suchergebnisse*, *Suche* und *Suchen*. Diese Werte werden aus den Ergebnissen ausgeschlossen. |
+| **[!UICONTROL enthält alle von]** | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener Werte. Wenn Sie beispielsweise `Search Results` mit diesem Operator für die Dimension **[!UICONTROL Seitenname]** eingeben, stimmen *Suchergebnisse* und *Suchergebnisse* überein, jedoch nicht *Suche* oder *Ergebnisse*. Die Regel würde mit *Suche* UND *Ergebnisse* übereinstimmen. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
+| **[!UICONTROL enthält nicht alle von]** | Identifiziert Elemente im Vergleich zu Unterzeichenfolgen, einschließlich mehrerer miteinander verbundener Werte, und gibt dann nur Elemente ohne diese Werte zurück. Wenn Sie beispielsweise `Search Results` mit diesem Operator für die Dimension **[!UICONTROL Seitenname]** eingeben, werden *Suchergebnisse* und *Suchergebnisse* (aber nicht *Suche* oder *Ergebnisse* einzeln) identifiziert und diese Elemente ausgeschlossen. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
+| **[!UICONTROL enthält beliebige von]** | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener oder unabhängig erkannter Werte. Wenn Sie beispielsweise `Search Results` mit diesem Operator eingeben, stimmen *Suchergebnisse*, *Suchergebnisse*, *Suche* und *Ergebnisse*. Entweder würde er mit *Suche* ODER *Ergebnisse* übereinstimmen, die zusammen oder unabhängig gefunden wurden. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
+| **[!UICONTROL enthält keinen von]** | Ermittelt Elemente basierend auf Unterzeichenfolgen und gibt Werte zurück, die diese Zeichenfolgen nicht enthalten. Kann mehrfache zusammengefasste Werte oder unabhängig ermittelte Werte umfassen. Wenn Sie beispielsweise `Search Results` für die Dimension **[!UICONTROL Seitenname]** eingeben, stimmen *Suchergebnisse*, *Suchergebnisse von**, *Suche* und *Ergebnisse* überein, wobei entweder *Suche* oder *Ergebnis* gemeinsam oder unabhängig voneinander gefunden werden. Anschließend würden die Elemente ausgenommen, die diese Unterzeichenfolgen enthalten. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
+| **[!UICONTROL beginnt mit]** | Gibt Elemente zurück, die mit dem eingegebenen Zeichenfolgenwert beginnen. |
+| **[!UICONTROL beginnt nicht mit]** | Gibt alle Elemente zurück, die nicht mit dem eingegebenen Zeichenfolgenwert beginnen. Dies ist das Gegenteil des Operators **[!UICONTROL Beginnt mit]**. |
+| **[!UICONTROL endet mit]** | Gibt Elemente zurück, die mit eingegebenem Zeichenfolgenwert enden. |
+| **[!UICONTROL endet nicht mit]** | Gibt alle Elemente zurück, die nicht mit dem eingegebenen Zeichenfolgenwert enden. Dies ist das Gegenteil des Operators **[!UICONTROL Endet mit]**. |
+| **[!UICONTROL stimmt überein mit]** | Gibt Elemente mit einer exakten Entsprechung für gegebene numerische oder Zeichenfolgenwerte wieder. Bei **[!UICONTROL matches]**-Klausel wird in Adobe Analytics und in Customer Journey Analytics zwischen Groß- und Kleinschreibung unterschieden. **Hinweis**: Verwenden Sie diesen Operator bei der Verwendung von [Platzhalterfunktionen](#wildcards) (Globbing). Beispiele für „Globbing“:<ul><li>`a*e` würde übereinstimmen mit `ae`, `abcde`, `adobe` und `a whole sentence`</li><li>`adob*` würde übereinstimmen mit `adobe`, `adobe analytics` und `adobo recipe`</li><li>`*dobe` würde übereinstimmen mit `dobe`, `adobe` und `cute little dobe`</li></ul> |
+| **[!UICONTROL stimmt nicht überein mit]** | Gibt alle Elemente zurück, die keine exakte Übereinstimmung mit dem eingegebenen Wert enthalten. Hinweis: Verwenden Sie diesen Operator bei der Verwendung [Platzhalter](#wildcards)-Funktionen (Globbing). |
+| **[!UICONTROL vorhanden]** | Gibt die Anzahl der vorhandenen Elemente zurück. Wenn Sie beispielsweise die Dimension **[!UICONTROL Seiten nicht gefunden]** mit dem Operator **[!UICONTROL vorhanden]** auswerten, wird die Anzahl der vorhandenen Fehlerseiten zurückgegeben. |
+| **[!UICONTROL nicht vorhanden]** | Gibt alle nicht vorhandenen Elemente zurück. Wenn Sie beispielsweise die Dimension **[!UICONTROL Seiten nicht gefunden]** mit dem Operator **[!UICONTROL Nicht vorhanden]** auswerten, wird die Anzahl der Seiten zurückgegeben, auf denen diese Fehlerseite nicht vorhanden war. |
 
 ## Data Warehouse-Operatoren
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 | --- | --- |
-| kleiner als | Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist. |
-| kleiner als oder gleich | Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
-| größer als | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist. |
-| größer als oder gleich | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
+| **[!UICONTROL kleiner als]** | Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist. |
+| **[!UICONTROL kleiner als oder gleich]** | Gibt Elemente zurück, deren numerische Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
+| **[!UICONTROL größer als]** | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist. |
+| **[!UICONTROL größer als oder gleich]** | Gibt Elemente zurück, deren numerische Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
 
 ## Distinct Count-Operatoren
 
@@ -56,12 +71,12 @@ Sie können nach einer bestimmten Anzahl von Elementen innerhalb einer Dimension
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 | --- | --- |
-| gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl dem eingegebenen Wert entspricht. |
-| ist nicht gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl nicht dem eingegebenen Wert entspricht. |
-| größer als | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist. |
-| kleiner als | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist. |
-| größer als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
-| kleiner als oder gleich | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
+| **[!UICONTROL gleich]** | Gibt Dimensionselemente zurück, deren eindeutige Anzahl dem eingegebenen Wert entspricht. |
+| **[!UICONTROL nicht gleich]** | Gibt Dimensionselemente zurück, deren eindeutige Anzahl nicht dem eingegebenen Wert entspricht. |
+| **[!UICONTROL größer als]** | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist. |
+| **[!UICONTROL kleiner als]** | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist. |
+| **[!UICONTROL größer als oder gleich]** | Gibt Dimensionselemente zurück, deren eindeutige Anzahl größer als der eingegebene Wert ist oder damit übereinstimmt. |
+| **[!UICONTROL kleiner als oder gleich]** | Gibt Dimensionselemente zurück, deren eindeutige Anzahl kleiner als der eingegebene Wert ist oder damit übereinstimmt. |
 
 
 >[!BEGINSHADEBOX]

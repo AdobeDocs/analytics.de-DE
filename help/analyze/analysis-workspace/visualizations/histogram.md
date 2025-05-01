@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -37,8 +37,8 @@ Die ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogrammvisua
 
 So erstellen Sie ein Histogramm:
 
-1. Fügen Sie eine ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogrammvisualisierung]** hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Visualisierung in einem Bedienfeld](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
-1. Ziehen Sie eine Metrik aus der Komponentenliste **[!UICONTROL Metriken]** oder wählen Sie eine Metrik aus dem Dropdown-Menü [!UICONTROL *Metrik hinzufügen*] aus.
+1. Fügen Sie eine Visualisierung ![Histogram](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogramm]** hinzu. Siehe [Hinzufügen einer Visualisierung zu einem Panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Ziehen Sie eine Metrik aus **[!UICONTROL Komponentenliste]** Metriken“ oder wählen Sie eine Metrik aus dem [!UICONTROL *Metrik hinzufügen*] Dropdown-Menü aus.
 1. (Optional) Wählen Sie **[!UICONTROL Erweiterte Einstellungen einblenden]** aus. Weitere Informationen finden Sie unter [Erweiterte Einstellungen](#advanced-settings).
 1. Wählen Sie **[!UICONTROL Erstellen]** aus.
 
@@ -57,9 +57,9 @@ Im Rahmen der Visualisierung sind bestimmte Histogrammeinstellungen verfügbar.
 | Histogrammeinstellungen | Beschreibung |
 |---|---|
 | **[!UICONTROL Anfangs-Bucket]** | Bestimmt, mit welchem Paket das Histogramm beginnt. Die Standardeinstellung lautet 1. Sie können Startwerte von null bis unendlich festlegen, jedoch keine negativen Zahlen. |
-| **[!UICONTROL Metrik-Buckets]** | Ermöglicht das Erhöhen/Verringern der Anzahl der Datenbereiche (Buckets). Die maximale Anzahl von Buckets ist 50. |
+| **[!UICONTROL Metrik-Buckets]** | Hiermit können Sie die Anzahl der Datenbereiche (Buckets) erhöhen/verringern. Die maximale Anzahl von Buckets ist 50. |
 | **[!UICONTROL Metrik-Bucket-Größe]** | Hiermit können Sie die Größe der einzelnen Behälter festlegen. So könnten Sie zum Beispiel die Behältergröße von 1 Seitenansicht zu 2 Seitenansichten ändern. |
-| **[!UICONTROL Zählmethode]** | Treffen Sie eine Auswahl aus **[!UICONTROL Person]**, **[!UICONTROL Sitzung]** oder **[!UICONTROL Ereignis]**. Zum Beispiel Seitenansichten pro Sitzung, Seitenansichten pro Person oder Seitenansichten pro Ereignis.  |
+| **[!UICONTROL Zählmethode]** | Treffen Sie eine Auswahl aus **[!UICONTROL Person]**, **[!UICONTROL Sitzung]** oder **[!UICONTROL Ereignis]**, z. B. Seitenansichten pro Sitzung, Seitenansichten pro Person oder Seitenansichten pro Ereignis. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -67,12 +67,12 @@ Im Rahmen der Visualisierung sind bestimmte Histogrammeinstellungen verfügbar.
 
 | Anfangs-Bucket | Metrik-Buckets | Metrik-Bucket-Größe | Ergebnis |
 |:----:|:--:|:--:|:--|
-| 1 | 5 | 2 | ![Histogramm, Anfangs-Bucket 1, Metrik-Buckets 5, Metrik-Bucket Größe 2](assets/histogram-1-5-2.png) |
-| 0 | 3 | 5 | ![Histogramm, Anfangs-Bucket 0, Metrik-Buckets 3, Metrik-Bucket Größe 5](assets/histogram-0-3-5.png) |
+| 1 | 5 | 2 | ![Histogramm, Anfangs-Bucket 1, Metrik-Buckets 5, Metrik-Bucket-Größe 2](assets/histogram-1-5-2.png) |
+| 0 | 3 | 5 | ![Histogramm, Anfangs-Bucket 0, Metrik-Buckets 3, Metrik-Bucket-Größe 5](assets/histogram-0-3-5.png) |
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung in einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >[Verwenden von Histogrammen zur Identifizierung unerwarteter Datenwerte](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=de)

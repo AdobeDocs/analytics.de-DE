@@ -3,16 +3,16 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
-ht-degree: 53%
+source-wordcount: '4129'
+ht-degree: 54%
 
 ---
 
 # Erstellen eines Daten-Feeds
 
-Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes bereit:
+Beim Erstellen eines Daten-Feeds stellen Sie Adobe Folgendes zur Verfügung:
 
 * Die Informationen über das Ziel, an das Rohdatendateien gesendet werden sollen
 * Die Daten, die in die einzelnen Dateien aufgenommen werden sollen
@@ -117,7 +117,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          {style="table-layout:auto"}
 
-      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
+      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
@@ -190,7 +190,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          {style="table-layout:auto"}
 
-      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
+      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
@@ -266,7 +266,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          {style="table-layout:auto"}
 
-      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
+      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
@@ -335,7 +335,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          {style="table-layout:auto"}
 
-      1. Klicken Sie [!UICONTROL **Speicherort hinzufügen**] und geben Sie die folgenden Informationen an:
+      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
 
          | Feld | Funktion |
          |---------|----------|
@@ -355,7 +355,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
 +++
 
-1. Wählen [!UICONTROL **Abschnitt „Datenspaltendefinitionen**] die neueste Vorlage [!UICONTROL **Alle Adobe Columns**] in der Dropdown-Liste aus und füllen Sie dann die folgenden Felder aus:
+1. Wählen [!UICONTROL **Abschnitt „Datenspaltendefinitionen**] die neueste Vorlage [!UICONTROL **Alle Adobe-Spalten**] im Dropdown-Menü aus und füllen Sie dann die folgenden Felder aus:
 
    | Feld | Funktion |
    |---------|----------|

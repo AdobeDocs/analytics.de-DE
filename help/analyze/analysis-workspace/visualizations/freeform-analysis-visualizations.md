@@ -5,10 +5,10 @@ title: Visualisierungsübersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '1457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -48,19 +48,19 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
 1. Verwenden Sie eine der folgenden Methoden, um die Visualisierung hinzuzufügen:
 
-   ![Visualisierung hinzufügen](assets/add-visualization.png)
+   ![Hinzufügen einer Visualisierung](assets/add-visualization.png)
 
-   * Wählen Sie im linken Bedienfeld ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **Visualisierungen** aus und ziehen Sie dann eine Visualisierung per Drag-and-Drop in das Bedienfeld, dem Sie die Visualisierung hinzufügen möchten.
+   * Wählen Sie im linken Panel ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **Visualisierungen** aus und ziehen Sie dann eine Visualisierung in das Panel, dem Sie die Visualisierung hinzufügen möchten.
 
-   * Wählen Sie in dem Bedienfeld, in dem Sie die Visualisierung hinzufügen möchten, ![AddCircle](/help/assets/icons/AddCircle.svg) aus und wählen Sie dann das Symbol, das die Visualisierung darstellt, die Sie hinzufügen möchten. Wenn Sie den Mauszeiger über das Symbol für eine Visualisierung bewegen, wird ihr Name angezeigt.
+   * Wählen Sie in dem, in dem die Visualisierung hinzugefügt werden soll, ![AddCircle](/help/assets/icons/AddCircle.svg) und dann das Symbol für die Visualisierung aus, die Sie hinzufügen möchten. Bewegen Sie den Mauszeiger über das Symbol für jede Visualisierung, um den Namen anzuzeigen.
 
-   * Fügen Sie ein [leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) hinzu und wählen Sie dann die Visualisierung aus, die Sie hinzufügen möchten.
+   * Fügen Sie ein [leeres Panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) hinzu und wählen Sie dann die Visualisierung aus, die hinzugefügt werden soll.
 
    * Wählen Sie im Kontextmenü einer vorhandenen Visualisierung in Ihrem Analysis Workspace-Projekt die Option **[!UICONTROL Visualisierung duplizieren]** oder **[!UICONTROL Visualisierung kopieren]** aus.
 
    * Verwenden Sie das Workspace-Menü **[!UICONTROL Einfügen]**, um eine Visualisierung einzufügen.
 
-   * Wählen Sie im Kontextmenü in einer Freiformtabelle die Option **[!UICONTROL Visualisieren]** aus. Wählen Sie dann die Visualisierung aus dem Untermenü aus. Basierend auf der aktuellen Auswahl in der Tabelle bestimmt Workspace, welche Visualisierung angeboten wird, und interpretiert die Daten, um die angeforderte Visualisierung zu erstellen.
+   * Wählen Sie im Kontextmenü in einer Freiformtabelle die Option **[!UICONTROL Visualisieren]** aus. Wählen Sie dann die Visualisierung aus dem Untermenü aus. Basierend auf der aktuellen Auswahl in der Tabelle bestimmt Workspace, welche Visualisierung angeboten werden soll, und interpretiert die Daten, um die angeforderte Visualisierung zu erstellen.
 
 ## Legende
 
@@ -73,7 +73,7 @@ So bearbeiten Sie eine Legendenbezeichnung:
 1. klicken Sie mit der rechten Maustaste auf die Legendenbeschriftungen.
 1. Klicken Sie auf **[!UICONTROL Bezeichnung bearbeiten]**.
 
-   ![Ein Legenden-Label und die Option „Label bearbeiten“](assets/edit-label.png)
+   ![Ein Legenden-Label und die Option „Label bearbeiten“.](assets/edit-label.png)
 
 1. Geben Sie den neuen Beschriftungstext ein.
 1. Drücken Sie zum Speichern die **[!UICONTROL Eingabetaste]**.
@@ -88,45 +88,45 @@ Welche Visualisierungseinstellungen verfügbar sind, ist von der jeweiligen Visu
 | --- | --- |
 | **[!UICONTROL Visualisierungstyp]** | Ändern Sie den Visualisierungstyp, der zum Visualisieren der Daten verwendet wird. |
 | **[!UICONTROL Granularität]** | Ändern Sie die Zeitgranularität für Trend-Visualisierungen. Diese Änderung gilt auch für die Datenquellentabelle. |
-| **[!UICONTROL Prozentsätze]** | Zeigt Werte als Prozentzahlen an. |
-| **[!UICONTROL 100 % gestapelt]** | Wandeln Sie das Diagramm in eine zu 100 % gestapelte Visualisierung um.  Gilt nur für gestapelte Bereichs-, Balken- und Horizontalbalken-Visualisierungen. |
-| **[!UICONTROL Legende eingeblendet]** | Zeigt den Legendentext an. |
-| **[!UICONTROL Grenzwert für max. Anzahl von Elementen]** | Lässt Sie die Anzahl der Elemente begrenzen, die in einer Visualisierung angezeigt werden. Wenn diese Option ausgewählt ist, definieren Sie die Anzahl der maximalen Elemente. |
-| **[!UICONTROL Anmerkungen anzeigen]** | Zeigt die Anmerkungen an, die für diese Visualisierung erstellt wurden. |
-| **[!UICONTROL Titel ausblenden]** | Blendet den Titel der Visualisierung aus. |
-| **[!UICONTROL Y-Achse bei null verankern]** | Erzwingt, dass der untere Teil der y-Achse bei null anfängt. Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, fängt der untere Teil der y-Achse standardmäßig oberhalb von null an. Wenn Sie diese Option aktivieren, fängt die y-Achse bei null an (und das Diagramm wird neu gezeichnet). |
-| **[!UICONTROL Beide Achsen zeigen]** | Zeigt für zwei verschiedene Metriken die linke und rechte y-Achse an. Diese Option gilt nur, wenn zwei Metriken vorliegen. Doppelachsen sind hilfreich, wenn grafisch dargestellte Metriken unterschiedliche Größenordnungen aufweisen. |
-| **[!UICONTROL X-Achse zeigen]** | Zeigt die x-Achse in der Visualisierung an. |
-| **[!UICONTROL Y-Achse zeigen]** | Zeigt die y-Achse in der Visualisierung an. |
-| **[!UICONTROL Balken auf Linien anzeigen]** | Zeigt Balken in der Linienvisualisierung in einer Kombinationsdiagramm-Visualisierung an. |
-| **[!UICONTROL Normalisierung]** | Erzwingt die gleiche Proportion für Metriken. Gleiche Proportionen sind hilfreich, wenn grafisch dargestellte Metriken unterschiedliche Größenordnungen aufweisen. |
-| **[!UICONTROL Anomalien zeigen]** | Verbessert Liniendiagramme und Freiformtabellen durch Anzeige der Anomalieerkennung. Die Anomalieerkennung in Linienvisualisierungen umfasst einen erwarteten Wert (gestrichelte Linie) und einen erwarteten Bereich (schattiertes Band). |
-| **[!UICONTROL Prognose anzeigen]** | Verbessert Liniendiagramme und Freiformtabellen durch Anzeige von Prognosewerten.  |
-| **[!UICONTROL Min. zeigen]** | Zeigt den Minimalwert in der Visualisierung an. |
-| **[!UICONTROL Max. zeigen]** | Zeigt den Maximalwert in der Visualisierung an. |
-| **[!UICONTROL Trendlinie anzeigen]** | Zeigt eine Trend-Linie in der Visualisierung. Wenn diese Option ausgewählt ist, können Sie den Typ der Trend-Linie aus dem Dropdown-Menü auswählen. |
+| **[!UICONTROL Prozentsätze]** | Zeigen Sie Werte als Prozentzahlen an. |
+| **[!UICONTROL 100 % gestapelt]** | Wandeln Sie das Diagramm in eine 100 % gestapelte Visualisierung um.  Gilt nur für eine gestapelte Visualisierung „Bereich“, „Balken“ und „Horizontalbalken“. |
+| **[!UICONTROL Legende eingeblendet]** | Zeigen Sie den Legendentext an. |
+| **[!UICONTROL Grenzwert für max. Anzahl von Elementen]** | Begrenzen Sie die Anzahl der Elemente, die in einer Visualisierung angezeigt werden. Wenn diese Option ausgewählt ist, definieren Sie die Anzahl der maximalen Elemente. |
+| **[!UICONTROL Anmerkungen anzeigen]** | Zeigen Sie die Anmerkungen an, die für diese Visualisierung erstellt wurden. |
+| **[!UICONTROL Titel ausblenden]** | Blenden Sie den Titel der Visualisierung aus. |
+| **[!UICONTROL Y-Achse bei null verankern]** | Setzen Sie durch, dass der untere Teil der Y-Achse bei null liegt. Wenn alle im Diagramm dargestellten Werte deutlich größer als null sind, wird der untere Teil der Y-Achse standardmäßig zu nicht-null gemacht. Wenn Sie diese Option aktivieren, wird die Y-Achse auf null gesetzt (und das Diagramm wird neu gezeichnet). |
+| **[!UICONTROL Zwei Achsen anzeigen]** | Zeigen Sie die linke und rechte Y-Achse für zwei verschiedene Metriken an. Diese Option gilt nur, wenn zwei Metriken vorliegen. Zwei Achsen sind hilfreich, wenn grafisch dargestellte Metriken unterschiedliche Größenordnungen aufweisen. |
+| **[!UICONTROL X-Achse anzeigen]** | Zeigen Sie die X-Achse in der Visualisierung an. |
+| **[!UICONTROL y-Achse anzeigen]** | Zeigen Sie die Y-Achse in der Visualisierung an. |
+| **[!UICONTROL Balken auf Linien anzeigen]** | Zeigen Sie Balken in der Visualisierung „Linie“ in einer Visualisierung „Kombinationsdiagramm“ an. |
+| **[!UICONTROL Normalisierung]** | Erzwingen Sie Metriken gleicher Proportion. Gleiche Proportionen sind hilfreich, wenn grafisch dargestellte Metriken unterschiedliche Größenordnungen aufweisen. |
+| **[!UICONTROL Anomalien zeigen]** | Verbessern Sie Liniendiagramme und Freiformtabellen durch Anzeige der Anomalieerkennung. Die Anomalieerkennung in Linienvisualisierungen umfasst einen erwarteten Wert (gestrichelte Linie) und einen erwarteten Bereich (schattiertes Band). |
+| **[!UICONTROL Prognose anzeigen]** | Verbessern Sie Liniendiagramme und Freiformtabellen durch Anzeige von Prognosewerten. |
+| **[!UICONTROL Min. zeigen]** | Zeigen Sie den Minimalwert in der Visualisierung an. |
+| **[!UICONTROL Max. zeigen]** | Zeigen Sie den Maximalwert in der Visualisierung an. |
+| **[!UICONTROL Trend-Linie anzeigen]** | Zeigen Sie eine Trend-Linie in der Visualisierung. Wenn ausgewählt, können Sie den Typ der Trendlinie aus dem Dropdown-Menü auswählen. |
 
 Sie können die Einstellungen für alle von Ihnen erstellten Visualisierungen anpassen. Weitere Informationen finden Sie unter [Benutzervoreinstellungen](/help/analyze/analysis-workspace/user-preferences.md).
 
 
 ## Kontextmenü {#right-click}
 
-Verwenden Sie das Kontextmenü (verfügbar über eine alternative Auswahl, z. B. Rechtsklick mit der Maus) für eine Visualisierungskopfzeile, um auf zusätzliche Funktionen für eine Visualisierung zuzugreifen. Nicht alle Optionen stehen für alle Visualisierungen zur Verfügung.
+Verwenden Sie das Kontextmenü (verfügbar über eine alternative Auswahl, z. B. Rechtsklick mit der Maus) für einen Header „Visualisierung“, um auf zusätzliche Funktionen für eine Visualisierung zuzugreifen. Nicht alle Optionen stehen für alle Visualisierungen zur Verfügung.
 
 ![Zusätzliche Visualisierungseinstellungen mit den angezeigten Rechtsklick-Optionen. Die Optionen werden im nächsten Abschnitt beschrieben.](assets/right-click.png)
 
 | Option | Beschreibung |
 | --- | --- |
 | **[!UICONTROL Kopierte Visualisierung einfügen]** | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt ein. |
-| **[!UICONTROL Daten in die Zwischenablage kopieren]** | Zum Kopieren der Daten aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Daten in die Zwischenablage kopieren]** | Kopieren Sie Daten aus der Visualisierung in die Zwischenablage. |
 | **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | Zum Kopieren der Auswahl aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | Lädt die Dimensionselemente (bis maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
-| **[!UICONTROL Visualisierung kopieren]** | Zum Kopieren der Visualisierung, sodass Sie sie an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
+| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | Laden Sie die Dimensionselemente (bis maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
+| **[!UICONTROL Visualisierung kopieren]** | Kopieren Sie die Visualisierung, sodass Sie sie an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
 | **[!UICONTROL Daten als CSV herunterladen]** | Lädt die angezeigten Daten der Visualisierung auf Ihr lokales Gerät herunter. |
-| **[!UICONTROL Visualisierung duplizieren]** | Erstellt ein exaktes Duplikat der Visualisierung. |
-| **[!UICONTROL Beschreibung bearbeiten]** | Zum Hinzufügen (oder Bearbeiten) von Text zur Beschreibung der Visualisierung. Siehe [Text](text.md). |
-| **[!UICONTROL Visualisierungs-Link abrufen]** | Kopiert einen Link und gibt ihn direkt in der Visualisierung frei. Der Link wird im Dialogfeld „Link freigeben“ angezeigt. Wählen Sie „Kopieren“ aus, um den Link in die Zwischenablage zu kopieren. |
-| **[!UICONTROL Neu starten]** | Löscht die Konfiguration für die aktuelle Visualisierung, damit Sie sie von Grund auf neu konfigurieren können. |
+| **[!UICONTROL Visualisierung duplizieren]** | Erstellen Sie ein exaktes Duplikat der Visualisierung. |
+| **[!UICONTROL Beschreibung bearbeiten]** | Fügen Sie Text zur Beschreibung der Visualisierung hinzu (oder bearbeiten Sie ihn). Siehe [Text](text.md). |
+| **[!UICONTROL Visualisierungs-Link abrufen]** | Kopieren Sie einen Link und teilen Sie ihn direkt in der Visualisierung. Der Link wird im Dialogfeld „Link freigeben“ angezeigt. Wählen Sie „Kopieren“ aus, um den Link in die Zwischenablage zu kopieren. |
+| **[!UICONTROL Neu starten]** | Löschen Sie die Konfiguration für die aktuelle Visualisierung, damit Sie sie von Grund auf neu konfigurieren können. |
 
 
 ## Konfiguration
@@ -137,7 +137,7 @@ Einige Visualisierungen (z. B. „Kohortentabelle“, „Fallout“, „Fluss�
 
 ## Visualisieren
 
-Wenn Sie sich nicht sicher sind, welche Visualisierung Sie auswählen sollen, bewegen Sie den Mauszeiger über eine beliebige Freiformtabellenzeile und klicken Sie auf das dann erscheinende Symbol ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualisieren]**. Dies ist die schnellste Möglichkeit, eine Visualisierung hinzuzufügen. Analysis Workspace sucht nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie beispielsweise eine einzelne Zeile ausgewählt haben, wird ein [Trend-Liniendiagramm](line.md) erstellt. Wenn Sie drei Filterzeilen ausgewählt haben, wird ein [Venn-Diagramm](venn.md) erstellt.
+Wenn Sie sich nicht sicher sind, welche Visualisierung Sie auswählen sollen, bewegen Sie den Mauszeiger über eine beliebige Freiformtabellenzeile und klicken Sie auf das dann erscheinende Symbol ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualisieren]**. Dies ist die schnellste Möglichkeit, eine Visualisierung hinzuzufügen. Analysis Workspace sucht nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie beispielsweise eine einzelne Zeile ausgewählt haben, wird ein Trend-[Liniendiagramm](line.md) erstellt. Wenn Sie drei Filterzeilen ausgewählt haben, wird ein [Venn](venn.md)-Diagramm erstellt.
 
 ![Schnellvisualisierung](assets/quick-viz.png)
 

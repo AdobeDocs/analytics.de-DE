@@ -4,10 +4,10 @@ title: Übersicht über Bedienfelder
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ Sie haben folgende Möglichkeiten:
 
 ## Report Suite
 
-Jedes Bedienfeld ist mit einer [Report Suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) verknüpft, die durch den ![Data](/help/assets/icons/Data.svg) **[!UICONTROL *Namen der Report Suite *]**im Dropdown-Menü oben rechts im Bedienfeld identifiziert wird.
+Jedes Bedienfeld ist mit einer [Report Suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) verknüpft, die durch ![Daten](/help/assets/icons/Data.svg) **[!UICONTROL *Name der Report Suite *]**im Dropdown-Menü oben rechts im Bedienfeld identifiziert wird.
 
 Wenn Sie ein neues Bedienfeld erstellen, basiert die Standard-Report Suite auf dem Bedienfeld, an dem Sie zuletzt im Analysis Workspace-Projekt gearbeitet haben.
 
@@ -112,7 +112,7 @@ Der Panel-Kalender steuert den Reporting-Datumsbereich für Tabellen und Visuali
 ![Das Kalenderfenster mit dem ausgewählten Datumsbereich.](assets/panel-calendar.png)
 
 1. Wählen Sie einen Datumsbereich aus, indem Sie zuerst das Startdatum und dann das Enddatum auswählen.
-Alternativ können Sie eine **[!UICONTROL Voreinstellung]** aus dem Dropdown-Menü [!UICONTROL *Voreinstellung auswählen*] auswählen.
+Alternativ können Sie eine **[!UICONTROL Vorgabe]** aus dem Dropdown-Menü [!UICONTROL *Vorgabe auswählen*] auswählen.
 
 1. Wählen Sie optional **[!UICONTROL Erweiterte Einstellungen einblenden]** für Folgendes aus:
 

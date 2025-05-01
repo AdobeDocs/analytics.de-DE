@@ -5,7 +5,7 @@ title: Für Verarbeitungsregeln verfügbare Dimensionen
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -27,8 +27,8 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 
 | Attribut | Lese-/Schreibstatus | Beschreibung |
 | --- | --- | --- |
-| Seiten-URL | Lesen + Schreiben | Die Dimension [Seiten](/help/components/dimensions/page-url.md)URL. Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht](/help/components/metrics/page-views.md) anstatt als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension einen Wert zu suchen, bevor er geändert wird. |
-| Seitenname | Lesen + Schreiben | Die Dimension [Seite](/help/components/dimensions/page.md) . Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seitenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht“ ](/help/components/metrics/page-views.md) als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension einen Wert zu suchen, bevor er geändert wird. |
+| Seiten-URL | Lesen + Schreiben | Die Dimension [Seiten](/help/components/dimensions/page-url.md)URL. Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht](/help/components/metrics/page-views.md) anstatt als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
+| Seitenname | Lesen + Schreiben | Die Dimension [Seite](/help/components/dimensions/page.md) . Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seitenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht“ ](/help/components/metrics/page-views.md) als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
 | Report Suite-ID | Schreibgeschützt | Die Report Suite, für die die Verarbeitungsregel ausgeführt wird. Diese Report Suite kann sich von der ursprünglich über AppMeasurement gesendeten Report Suite unterscheiden, z. B. bei Verwendung von VISTA-Regeln. |
 | AppMeasurement-Code-Version | Schreibgeschützt | Die AppMeasurement-Bibliotheksversion, die zum Generieren der Bildanforderung verwendet wird. |
 | IP-Adresse | Schreibgeschützt | Die IP-Adresse des Besuchers. |
@@ -75,7 +75,7 @@ Alle [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) die 
 
 ## Erfolgsereignisse
 
-Verarbeitungsregeln können Ereignisse festlegen, sie jedoch nicht als Bedingungen lesen. Legen Sie das Dropdown-Menü für die Regelaktion auf **[!UICONTROL Ereignis festlegen]** fest, um verfügbare Metriken anzuzeigen, die inkrementiert werden sollen.
+Verarbeitungsregeln können Ereignisse festlegen, sie jedoch nicht als Bedingungen lesen. Legen Sie die Dropdown-Liste für die Regelaktion auf **[!UICONTROL Ereignis festlegen]** fest, um verfügbare Metriken anzuzeigen, deren Wert erhöht werden soll.
 
 | Variable | Lese-/Schreibstatus | Beschreibung |
 | --- | --- | --- |

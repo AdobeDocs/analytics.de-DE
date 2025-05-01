@@ -4,9 +4,9 @@ title: Häufig gestellte Fragen und Fehlerbehebung in Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vo
 +++
 
 +++Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?
-Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen und -funktionen vollständig deaktiviert und die Empfänger können die Dropdown-Liste nur ändern, um einen Filter auf vordefinierte Weise auf das Bedienfeld anzuwenden.
+Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen und -funktionen vollständig deaktiviert, und die Empfänger können das Dropdown-Menü nur ändern, um einen Filter auf vordefinierte Weise auf das Bedienfeld anzuwenden.
 +++
