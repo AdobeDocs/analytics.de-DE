@@ -4,14 +4,66 @@ title: Konfigurieren einer Flussvisualisierung
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
-# Konfigurieren einer Flussvisualisierung
+# Konfigurieren einer Flussvisualisierung {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Beginnt mit"
+>abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Enthält"
+>abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Endet mit"
+>abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Pfaddimension"
+>abstract="Wählen Sie eine Dimension aus, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente hin- oder von ihr wegführt."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Fluss-Container"
+>abstract="Wählen Sie den Container aus, der für die Anzeige (der Zahlen) des Pfads verwendet werden soll."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Wiederholungen einschließen (deaktiviert)"
+>abstract="Wiederholungen können nicht aus Flussvisualisierungen entfernt werden, die mehrwertige Dimensionen enthalten."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Wiederholungen einschließen"
+>abstract="Flussvisualisierungen basieren auf Instanzen einer Dimension. Mit dieser Einstellung haben Sie die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B.: Seitenneuladungen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Begrenzung auf erstes/letztes Auftreten"
+>abstract="Die Ergebnisse sind auf Pfade beschränkt, wenn der erste/letzte Touchpoint ein Ein-/Austritt ist."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Anzahl der Spalten"
+>abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Erweiterte Elemente pro Spalte"
+>abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+
+
 
 Flussvisualisierungen helfen Ihnen, die Journey zu verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer Mobile App ausgeht oder dazu führt. Die Flussvisualisierung folgt einem Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken.
 
