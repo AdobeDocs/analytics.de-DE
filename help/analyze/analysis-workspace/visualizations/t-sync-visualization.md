@@ -5,14 +5,19 @@ title: Verwalten von Visualisierungsdatenquellen
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# Verwalten von Visualisierungsdatenquellen
+# Verwalten von Visualisierungsdatenquellen {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="Auswahl sperren"
+>abstract="Aktivieren Sie diese Einstellung, um die Visualisierung entweder an den Tabellenpositionen oder an den exakten Elementen zu sperren, die in der Datenquelle ausgewählt sind."
 
 Beim Synchronisieren von Visualisierungen können Sie kontrollieren, welche Datentabelle oder Datenquelle zu einer Visualisierung gehört.
 
@@ -29,6 +34,8 @@ Beim Verwalten von Datenquellen können Sie die Datenquelle anzeigen oder die Au
    Beim Synchronisieren einer Visualisierung mit einer Tabellenzelle wird eine neue (ausgeblendete) Tabelle erstellt und die synchronisierte Visualisierung mit dieser Tabelle farblich codiert.
 
 ## Einstellungen zur Datenquelle
+
+
 
 
 >[!BEGINSHADEBOX]
