@@ -34,7 +34,7 @@ Die folgenden Variablen wurden zum Einfügen von Bulk-Daten eingeführt, die zuv
 * **`aamlh`**: Adobe Audience Manager-Standorthinweis.
 * **`contextData.key`**: [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud-ID-Dienstvariablen. Umfasst `id`, `authState` und `isMCSeed`.
-* **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
+* **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
 * **`ipaddress`**: Die IP-Adresse des Besuchers.
 * **`language`**: Die Dimension [Sprache](/help/components/dimensions/language.md) .
 * **`list1`** - **`list3`**: [Listenvariablen](/help/implement/vars/page-vars/list.md).

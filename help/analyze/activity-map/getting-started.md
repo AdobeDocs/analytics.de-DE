@@ -48,7 +48,7 @@ Die Konfigurationseinstellung **[!UICONTROL Klicken auf]**) verarbeitet die Acti
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weitere [ finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
+Weitere [ finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
 
 +++
 
@@ -56,7 +56,7 @@ Weitere [ finden Sie unter „Konfigurieren der Tag](https://experienceleague.ad
 
 Für die Activity Map-Datenerfassung ist die Web SDK JavaScript Library v2.20 oder höher erforderlich. Bibliotheksversionen bis Version 2.15 werden nur eingeschränkt unterstützt. Diese früheren Bibliotheksversionen senden Activity Map-Daten in einem separaten Ereignis von den übrigen Daten. Dieses zusätzliche Ereignis erhöht die Anzahl der Treffer, die Sie an Adobe Analytics oder Adobe Experience Platform senden.
 
-Die Web SDK-Konfigurationsvariable [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) verarbeitet die automatische Erfassung von Activity Map-Daten. Sie ist standardmäßig aktiviert, es sei denn, sie wird explizit deaktiviert.
+Die Web SDK-Konfigurationsvariable [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) verarbeitet die automatische Erfassung von Activity Map-Daten. Sie ist standardmäßig aktiviert, es sei denn, sie wird explizit deaktiviert.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ Die Konfigurationseinstellung **[!UICONTROL Activity Map verwenden]** handhabt d
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weiterführende Informationen dazu finden Sie in der [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) zur Adobe Analytics-Erweiterung .
+Weiterführende Informationen dazu finden Sie in der [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview) zur Adobe Analytics-Erweiterung .
 
 +++
 

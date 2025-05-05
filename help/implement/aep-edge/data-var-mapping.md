@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Die folgende Tabelle zeigt die Datenobjektvariablen, die das Adobe Experience Platform-Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese Datenobjekt-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
 
-Die Verwendung dieser Felder wird empfohlen, wenn Sie beabsichtigen, in Zukunft Customer Journey Analytics zu verwenden. Mit dieser Implementierungsmethode kann Ihr Unternehmen Daten mithilfe der Web-SDK an Adobe senden, ohne ein XDM-Schema zu erfüllen. Wenn Ihr Unternehmen bereit ist, Daten an Adobe Experience Platform zu senden, können Sie [Datenstromzuordnung](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) verwenden, um Datenobjektfelder auf ihre jeweiligen XDM-Felder zu verweisen.
+Die Verwendung dieser Felder wird empfohlen, wenn Sie beabsichtigen, in Zukunft Customer Journey Analytics zu verwenden. Mit dieser Implementierungsmethode kann Ihr Unternehmen Daten mithilfe der Web-SDK an Adobe senden, ohne ein XDM-Schema zu erfüllen. Wenn Ihr Unternehmen bereit ist, Daten an Adobe Experience Platform zu senden, können Sie [Datenstromzuordnung](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/data-prep#mapping) verwenden, um Datenobjektfelder auf ihre jeweiligen XDM-Felder zu verweisen.
 
 ## Wertprioritäten
 

@@ -37,7 +37,7 @@ Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/de/docs/id-service/using/reference/csp) hinzufügen sollten.
 
 ## Manuelles Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

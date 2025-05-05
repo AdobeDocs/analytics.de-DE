@@ -21,7 +21,7 @@ Wenn **[!UICONTROL Click-Datenerfassung aktivieren]** aktiviert ist, verwenden S
 
 ## Regionsausschlüsse in der Web SDK JavaScript-Bibliothek
 
-Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `linkRegion` überprüfen und entweder den Wert ändern oder die Sammlung von Linktracking-Daten aufgeben.
+Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `linkRegion` überprüfen und entweder den Wert ändern oder die Sammlung von Linktracking-Daten aufgeben.
 
 ```js
 alloy("configure", {

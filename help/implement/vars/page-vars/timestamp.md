@@ -21,7 +21,7 @@ Die `timestamp`-Variable legt den Zeitstempel des Treffers für Report Suites mi
 
 ## Zeitstempel bei Verwendung der Web-SDK
 
-Der Zeitstempel ist [für Adobe Analytics) unter ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) XDM-`xdm.timestamp` zugeordnet. Dieses Feld unterstützt nur Unix-Zeit.
+Der Zeitstempel ist [für Adobe Analytics) unter ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=de) XDM-`xdm.timestamp` zugeordnet. Dieses Feld unterstützt nur Unix-Zeit.
 
 ## Zeitstempel bei Verwendung der Adobe Analytics-Erweiterung
 

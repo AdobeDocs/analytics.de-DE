@@ -17,7 +17,7 @@ ht-degree: 0%
 Weitere Informationen zum Konfigurieren dieser Integrationen finden Sie in der [Adobe Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Dieser Artikel gilt nur für die Adobe Campaign **Standard**-Berichte. Weitere Informationen zum Hinzufügen von Adobe Campaign **Classic**-Berichten finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html).
+>Dieser Artikel gilt nur für die Adobe Campaign **Standard**-Berichte. Weitere Informationen zum Hinzufügen von Adobe Campaign **Classic**-Berichten finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=de).
 
 Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign Standard:
 

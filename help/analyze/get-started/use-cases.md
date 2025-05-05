@@ -24,7 +24,7 @@ Adobe Analytics bietet die folgenden komplexen Segmentierungs- und Prognosewerkz
 
 * [Flussanalyse](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [Erweiterte Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [Erweiterte Segmentierung](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de)
 
 
 ## Marketing-Analyse

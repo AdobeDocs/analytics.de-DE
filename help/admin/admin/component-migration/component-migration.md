@@ -135,7 +135,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
 Wenn eine Migration fehlschlägt, können Sie die Migration erneut versuchen.
 
-Bevor Sie eine fehlgeschlagene Migration erneut versuchen, entfernen Sie alle [nicht unterstützten Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
+Bevor Sie eine fehlgeschlagene Migration erneut versuchen, entfernen Sie alle [nicht unterstützten Elemente](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=de#understand-unsupported-elements-that-cause-errors) aus dem Projekt.
 
 >[!NOTE]
 >
