@@ -89,7 +89,7 @@ Wenn Sie [!UICONTROL Standortverfolgung] aktivieren, sind die folgenden Dimensio
 * **Lebenszyklus**: Grundlegende Reporting-Ebene für jede App, z. B. Anzahl der Launches und Plattformtyp.
 * **Konversationen** Misst Absichten, Antworten und andere Metriken und Dimensionen im Zusammenhang mit der Konversation.
 
-Wenn Sie &quot;[!UICONTROL  und Chatbots] aktivieren, sind die folgenden Dimensionen verfügbar:
+Wenn Sie &quot;[!UICONTROL &#x200B; und Chatbots] aktivieren, sind die folgenden Dimensionen verfügbar:
 
 * [!UICONTROL Sprachgerätefunktionen] (mit den Dimensionen [Einstieg](/help/components/dimensions/entry-dimensions.md) und [Ausstieg](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Sprachauthentifizierung]

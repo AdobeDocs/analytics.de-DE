@@ -38,7 +38,7 @@ Im Folgenden finden Sie einen Vergleich der Funktionen von berechneten Metriken 
 
 Sie können
 
-* Erstellen von Metriken für [!UICONTROL Analysis WorkspaceReport Builder ], , [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse].
+* Erstellen von Metriken für [!UICONTROL Analysis WorkspaceReport Builder &#x200B;], , [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse].
 * Segmentierte Metriken erstellen, die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 
 
@@ -73,7 +73,7 @@ Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berec
 
 ## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Im Folgenden finden Sie einen kurzen Überblick über die Tools [!UICONTROL Berechnete ]):
+Im Folgenden finden Sie einen kurzen Überblick über die Tools [!UICONTROL Berechnete &#x200B;]):
 
 | Tool | Funktionen |
 |--- |--- |

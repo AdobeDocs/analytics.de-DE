@@ -27,7 +27,7 @@ Die Verwendung einer anderen Dimension oder Metrik mit dieser Dimension gibt kei
 
 ## Füllen dieser Dimension mit Daten
 
-Wenn Sie „Bot[Regeln“ aktiviert haben](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) erfasst diese Dimension automatisch Daten. Wenn Sie „Bot[!UICONTROL Regeln“ noch nicht ] haben, wird diese Dimension in Analysis Workspace nicht angezeigt.
+Wenn Sie „Bot[Regeln“ aktiviert haben](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) erfasst diese Dimension automatisch Daten. Wenn Sie „Bot[!UICONTROL Regeln“ noch nicht &#x200B;] haben, wird diese Dimension in Analysis Workspace nicht angezeigt.
 
 ## Dimensionselemente
 

@@ -18,7 +18,7 @@ Nicht klassifizierte Schlüssel werden in Classification-Berichten unter einem e
 
 Nicht klassifizierte Schlüssel werden in Classification-Berichten unter einem einzigen Zeileneintrag mit der Bezeichnung *`None`* gruppiert. Benennen Sie *`None`* in eine aussagekräftigere Bezeichnung um.
 
-Angenommen, Ihre Trackingcodes enthalten Informationen zum Typ der mobilen Kampagne, mit der der Trackingcode verknüpft ist. Mit einer Classification (Mobilkampagnentyp) gruppieren Sie diese Trackingcodes in Kategorien wie „Mobiles Web“, „iOS-Anwendung“, „Android-Anwendung“ usw. Einige Kampagnen sind nicht als Mobilkampagne ausgelegt und werden daher nicht mit einem Mobilkampagnentyp klassifiziert. Alle nicht klassifizierten Trackingcodes werden im Bericht „Mobilkampagnentyp[!UICONTROL  unter &quot;*`None`*&quot; ].
+Angenommen, Ihre Trackingcodes enthalten Informationen zum Typ der mobilen Kampagne, mit der der Trackingcode verknüpft ist. Mit einer Classification (Mobilkampagnentyp) gruppieren Sie diese Trackingcodes in Kategorien wie „Mobiles Web“, „iOS-Anwendung“, „Android-Anwendung“ usw. Einige Kampagnen sind nicht als Mobilkampagne ausgelegt und werden daher nicht mit einem Mobilkampagnentyp klassifiziert. Alle nicht klassifizierten Trackingcodes werden im Bericht „Mobilkampagnentyp[!UICONTROL &#x200B; unter &quot;*`None`*&quot; &#x200B;].
 
 ## Umbenennen des Classification-Schlüssels „Keine“  {#task_8CD595DA82AA44D08CEF002B588C3C30}
 
@@ -36,7 +36,7 @@ So benennen Sie einen nicht klassifizierten Schlüssel um, der im Bericht als *`
 
    Im Beispiel in dieser Dokumentation geben Sie „Nicht-Mobilkampagne“ in die Spalte [!UICONTROL Mobilkampagnentyp] ein.
 
-   Mit diesem Eintrag wird *`None`* im Bericht [!UICONTROL Mobilkampagnentyp“ in *`non-mobile campaign`* ].
+   Mit diesem Eintrag wird *`None`* im Bericht [!UICONTROL Mobilkampagnentyp“ in *`non-mobile campaign`* &#x200B;].
 
    ![Beispiel eines nicht klassifizierten Schlüssels](/help/components/classifications/importer/assets/non-classified-key.png)
 

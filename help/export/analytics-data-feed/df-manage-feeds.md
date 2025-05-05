@@ -34,7 +34,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](h
 
 ## Erstellen eines Daten-Feeds
 
-Mit [!UICONTROL  Schaltfläche ]Hinzufügen“ können Sie einen neuen Feed erstellen. Weitere [ finden Sie unter „Erstellen ](create-feed.md) Daten-Feeds“.
+Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Hinzufügen“ können Sie einen neuen Feed erstellen. Weitere [ finden Sie unter „Erstellen ](create-feed.md) Daten-Feeds“.
 
 ## Bearbeiten eines Daten-Feeds
 
@@ -122,7 +122,7 @@ So aktivieren Sie einen Daten-Feed:
 
 ## Löschen eines Daten-Feeds
 
-Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; ]. Daten-Feeds müssen den Status Aktiv haben, bevor sie gelöscht werden können.
+Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; &#x200B;]. Daten-Feeds müssen den Status Aktiv haben, bevor sie gelöscht werden können.
 
 Löschen eines Daten-Feeds:
 

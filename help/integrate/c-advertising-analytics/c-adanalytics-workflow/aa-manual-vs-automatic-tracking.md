@@ -22,7 +22,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-Es werden zwei Tracking-Modi unterstützt[!UICONTROL  „Auto] und [!UICONTROL Manuell].
+Es werden zwei Tracking-Modi unterstützt[!UICONTROL &#x200B; „Auto] und [!UICONTROL Manuell].
 
 ## [!UICONTROL Auto]-Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
@@ -98,7 +98,7 @@ Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Bing-Konto hinzugefügt w
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
 **Tracking-Zeichenfolge für Kampagnen:**
 

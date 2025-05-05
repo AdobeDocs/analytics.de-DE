@@ -18,7 +18,7 @@ Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsop
 
 1. Wählen Sie in Adobe Analytics **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]** aus.
 
-1. Wählen Sie auf der Seite {**]}Data Warehouse[!UICONTROL ** die Option „Hinzufügen **]aus.[!UICONTROL **
+1. Wählen Sie auf der Seite {**}Data Warehouse[!UICONTROL **&#x200B; die Option „Hinzufügen &#x200B;**]aus.**
 
    ![Schaltfläche zum Hinzufügen einer Anfrage](assets/dw-add-request.png)
 

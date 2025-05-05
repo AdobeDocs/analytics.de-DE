@@ -38,7 +38,7 @@ Sie können bestimmte Zeilen schnell aus der Tabelle ausschließen, ohne dass Si
 
 >[!NOTE]
 >
->Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben[!UICONTROL  wird im Filterdialogfeld [!UICONTROL Erweitert] automatisch eine Regel „Elemente immer ausschließen] hinzugefügt. Sie können die angewendete Regel anzeigen, indem Sie auf das Symbol ![Filter](/help/assets/icons/Filter.svg) Filter und dann auf [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table) klicken.
+>Wenn Sie Zeilen ausschließen, wie in diesem Abschnitt beschrieben[!UICONTROL &#x200B; wird im Filterdialogfeld [!UICONTROL Erweitert] automatisch eine Regel „Elemente immer ausschließen] hinzugefügt. Sie können die angewendete Regel anzeigen, indem Sie auf das Symbol ![Filter](/help/assets/icons/Filter.svg) Filter und dann auf [**[!UICONTROL Erweitert anzeigen]**](#apply-a-simple-or-advanced-filter-to-a-table) klicken.
 
 So schließen Sie bestimmte Zeilen aus einer Freiformtabelle aus:
 

@@ -124,7 +124,7 @@ Nachdem Sie das Segment angewendet haben, können Sie es Ihrer Liste der Segment
 
 1. Wählen Sie [!UICONTROL **Builder öffnen**] aus.
 
-1. Oben in Segment Builder ist das Dialogfeld für projektbasierte Segmente [!UICONTROL ****] zu sehen:
+1. Oben in Segment Builder ist das Dialogfeld für projektbasierte Segmente [!UICONTROL **&#x200B;**] zu sehen:
 
    ![Dialogfeld für projektbasierte Segmente](assets/project-only-segment-dialog.png)
 

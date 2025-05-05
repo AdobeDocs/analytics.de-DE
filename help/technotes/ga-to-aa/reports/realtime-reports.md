@@ -20,7 +20,7 @@ Echtzeitberichte sind eine der wenigen Funktionen, die noch nicht in Analysis Wo
 
 So rufen Sie die Seite zur Konfiguration von Echtzeitberichten auf (Administratorberechtigungen erforderlich):
 
-1. Klicken Sie in der ]**Navigationsleiste oben in Adobe Analytics auf**[!UICONTROL  Workspace.
+1. Klicken Sie in der **Navigationsleiste oben in Adobe Analytics auf** Workspace.
 1. Wählen **[!UICONTROL Berichte]** über die linke Navigationsleiste aus.
 1. Wählen Sie **[!UICONTROL Interaktion]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Echtzeit]** aus. Sie können auch ![Suchen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) nach Echtzeit suchen.
 1. Wenn für die Report Suite die Echtzeit-Funktion noch nicht aktiviert ist, wird eine Meldung mit einem Link zur Konfiguration der Report Suite angezeigt.

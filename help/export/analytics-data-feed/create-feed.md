@@ -134,7 +134,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
       1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
       1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
       1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
       1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
 1. Wählen [!UICONTROL **Abschnitt „Datenspaltendefinitionen**] die neueste Vorlage [!UICONTROL **Alle Adobe-Spalten**] im Dropdown-Menü aus und füllen Sie dann die folgenden Felder aus:
 

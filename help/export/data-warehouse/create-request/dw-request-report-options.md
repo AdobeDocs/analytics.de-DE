@@ -30,7 +30,7 @@ So konfigurieren Sie Berichtsoptionen für eine Data Warehouse-Anfrage:
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **Dateiname**] | Identifiziert den Bericht. <p>Wenn eines der folgenden Sonderzeichen im Dateinamen verwendet wird, kann die Anfrage nicht gespeichert werden: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Das Zeichen % kann nur verwendet werden, wenn auf es „R“, „rsid“ oder „id“ folgt: <code>%R</code>, <code>%rsid</code>und <code>%id</code>.</p> |
+   | [!UICONTROL **Dateiname**] | Identifiziert den Bericht. <p>Wenn eines der folgenden Sonderzeichen im Dateinamen verwendet wird, kann die Anfrage nicht gespeichert werden: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>Das Zeichen % kann nur verwendet werden, wenn auf es „R“, „rsid“ oder „id“ folgt: <code>%R</code>, <code>%rsid</code>und <code>%id</code>.</p> |
    | [!UICONTROL **Berichtsdatumsbereich an Dateinamen anhängen**] | Fügt den Datumsbereich zum Namen der Berichtsdatei hinzu. <p>Wenn Sie beispielsweise Daten vom 1. Mai 2024 bis zum 7. Mai 2024 anfordern, enthält der Dateiname den Datumsbereich 20240501 bis 20240507.</p> |
    | [!UICONTROL **CSV**] | Stellt Berichte im CSV-Dateiformat bereit, um Daten in einer Tabelle anzuzeigen. |
    | [!UICONTROL **Tableau (TDE)**] | Stellt Berichte im Tableau-Datenextraktionsdateiformat (TDE) bereit, mit dem Daten visualisiert und in zusätzlichen Daten innerhalb von Tableau eingefügt werden können. |

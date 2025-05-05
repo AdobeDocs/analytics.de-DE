@@ -171,7 +171,7 @@ Sie können die Kontotypen, die Benutzerinnen und Benutzer sehen, in den folgend
 
 * Beim [Erstellen neuer Konten](/help/components/locations/configure-import-accounts.md)
 
-* Data Warehouse Bei der Auswahl der Konten, die beim Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) beim Exportieren von Berichten mit [](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder beim Importieren von Schemas mit [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) verwendet werden.
+* Data Warehouse Bei der Auswahl der Konten, die beim Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) beim Exportieren von Berichten mit [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder beim Importieren von Schemas mit [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) verwendet werden.
 
 Wenn Sie Kontotypen wie in diesem Abschnitt beschrieben einschränken, sind alle Konten des Typs, den Sie einschränken, für Benutzerinnen und Benutzer nicht mehr sichtbar. Das bedeutet, dass keine neuen Konten dieses Typs erstellt werden können und dass keine bestehenden Konten dieses Typs beim Erstellen von Daten-Feeds, Data Warehouse oder Klassifizierungssätzen verwendet werden können.
 

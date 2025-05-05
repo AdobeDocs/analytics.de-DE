@@ -20,7 +20,7 @@ Wenn ein Bericht zahlreiche eindeutige Werte aufweist, kann mit Adobe nun sicher
    * **[!UICONTROL Niedriger Schwellenwert]**: 2.000.000 eindeutige Werte während des Monats.
    * **[!UICONTROL Hoher Schwellenwert]**: 2.100.000 eindeutige Werte während des Monats.
 * Die Berichterstellung ist nicht betroffen, wenn eine Variable den niedrigen Schwellenwert in einem bestimmten Monat nicht erreicht.
-* Wenn eine Variable den niedrigen Schwellenwert erreicht, werden Daten unter einem Dimensionselement mit der Bezeichnung [!UICONTROL Geringer Traffic“ ]. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
+* Wenn eine Variable den niedrigen Schwellenwert erreicht, werden Daten unter einem Dimensionselement mit der Bezeichnung [!UICONTROL Geringer Traffic“ &#x200B;]. Jeder Wert, der über diesen Schwellenwert hinausgeht, durchläuft die folgende Logik:
    * Wenn ein Wert bereits in Berichten enthalten ist, wird er wie gewohnt hinzugefügt.
    * Wenn ein Wert noch nicht in Berichten angezeigt wird, fügen Sie ihn zunächst zum Dimensionselement [!UICONTROL Geringer Traffic] hinzu.
    * Wenn ein Wert, der unter [!UICONTROL Geringer Traffic] zusammengefasst wird, einen Traffic-Zufluss erhält (normalerweise Instanzen im zweistelligen Bereich an einem Tag), erkennen Sie ihn als sein eigenes Dimensionselement. Instanzen, die vor dem Traffic-Zustrom erfasst wurden, verbleiben unter [!UICONTROL Geringer Traffic]. Der genaue Zeitpunkt, zu dem das Dimensionselement in Berichten angezeigt wird, weist viele Abhängigkeiten auf. Dazu gehören die Anzahl der Server, die Daten für die Report Suite verarbeiten, und die Zeitspanne zwischen den einzelnen Dimensionselementinstanzen.

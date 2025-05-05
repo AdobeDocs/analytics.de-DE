@@ -32,7 +32,7 @@ Die WSSE-Authentifizierung ist ein veraltetes Authentifizierungsprotokoll, das v
 
 +++**Hat dies Auswirkungen auf meine bestehenden Adobe IO-Projekte für die Analytics-APIs?**
 
-Alle vorhandenen Projekte, die die Analytics 1.4-APIs verwenden, sind betroffen. Diese Integrationen müssen vor Ablauf der Frist für das Ende der Nutzungsdauer ](https://developer.adobe.com/analytics-apis/docs/2.0/) die [Adobe Analytics 2.0-APIs migriert werden.
+Alle vorhandenen Projekte, die die Analytics 1.4-APIs verwenden, sind betroffen. Diese Integrationen müssen vor Ablauf der Frist für das Ende der Nutzungsdauer [&#128279;](https://developer.adobe.com/analytics-apis/docs/2.0/) die Adobe Analytics 2.0-APIs migriert werden.
 
 +++
 

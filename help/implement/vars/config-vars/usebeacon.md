@@ -30,7 +30,7 @@ Das **[!UICONTROL Dokument wird entladen]** Kontrollkästchen innerhalb einer Ak
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte [!UICONTROL Regeln] und klicken Sie dann auf die gewünschte Regel.
-1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine neue Aktion hinzuzufügen.
+1. Klicken [!UICONTROL &#x200B; unter &#x200B;]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine neue Aktion hinzuzufügen.
 1. Legen Sie die [!UICONTROL Erweiterung] Dropdown-Liste auf **[!UICONTROL Adobe Experience Platform SDK Web]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Ereignis senden]**
 1. Klicken Sie auf **[!UICONTROL rechten Seite auf das Kontrollkästchen]** Dokument wird entladen“.
 

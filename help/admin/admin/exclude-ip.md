@@ -26,8 +26,8 @@ Um Daten nach IP-Adresse auszuschließen, können Sie Ausschlüsse wie unten bes
 >* Treffer, die nach IP-Adresse ausgeschlossen sind, werden als [Server-Aufrufe](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=de) in Rechnung gestellt.
 >* Private IP-Adressen müssen nicht ausgeschlossen werden. Nur externe IP-Adressen gelangen zu den Adobe-Datenerfassungs-Servern. Private Adressen enthalten `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` und `169.254.*.*`.
 >* Sie können Platzhalterindikatoren (&#42;) verwenden, um einen Adressbereich auszuschließen. Zum Beispiel würde `[!DNL 0.0.*.0]` sämtliche IP-Adressen zwischen `[!DNL 0.0.0.0]` und `[!DNL 0.0.255.0]` ausschließen. Sie können bis zu 50 verschiedene IP-Adressen ausschließen.
-* Daten von einer ausgeschlossenen IP-Adresse werden für alle neuen Treffer, die innerhalb von 5 Minuten nach dem Festlegen des Ausschlusses in das System gelangen, ausgeschlossen.
-* Daten zu Treffern, die vor dem Zeitpunkt erfasst wurden, zu dem Änderungen an der IP-Adresse vorgenommen wurden, sind davon nicht betroffen.
+>* Daten von einer ausgeschlossenen IP-Adresse werden für alle neuen Treffer, die innerhalb von 5 Minuten nach dem Festlegen des Ausschlusses in das System gelangen, ausgeschlossen.
+>* Daten zu Treffern, die vor dem Zeitpunkt erfasst wurden, zu dem Änderungen an der IP-Adresse vorgenommen wurden, sind davon nicht betroffen.
 >
 
 So konfigurieren Sie Ausschlüsse nach IP-Adresse:

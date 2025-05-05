@@ -59,5 +59,5 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 </table>
 
-Weitere Informationen finden Sie in der Dokumentation zur Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)Server[API und im Beispiel ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=de)Integration mit Adobe Analytics).[
+Weitere Informationen finden Sie in der Dokumentation zur Edge Network[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)Server[API und im Beispiel ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=de)Integration mit Adobe Analytics).
 

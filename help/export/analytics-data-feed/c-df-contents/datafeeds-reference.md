@@ -200,7 +200,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`videoadname`** | Die Dimension [Anzeigename (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
 | **`videoadplayername`** | Die Dimension [Anzeigenplayer-Name](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
 | **`videoadpod`** | Die Dimension [Ad Pod](/help/components/dimensions/sm-ads.md) Streaming Media . | varchar(255) |
-| **`videoadvertiser`** | Der Werbetreibende,](/help/components/dimensions/sm-ads.md) der [Dimension für das Streaming von Medien. | varchar(255) |
+| **`videoadvertiser`** | Der Werbetreibende,[&#128279;](/help/components/dimensions/sm-ads.md) der Dimension für das Streaming von Medien. | varchar(255) |
 | **`videoaudioalbum`** | Das [Album](/help/components/dimensions/sm-audio-metadata.md) Streaming Media Dimension. | varchar(255) |
 | **`videoaudioartist`** | Die Dimension [Interpret](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
 | **`videoaudioauthor`** | Die Dimension [Autor](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |

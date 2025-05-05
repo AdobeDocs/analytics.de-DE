@@ -31,12 +31,12 @@ Im Bedienfeld Activity Map-Einstellung können Sie die Einstellungen und Eigensc
    * **[!UICONTROL Prozent]**: Zeigt den Anteil der Link-Klicks im Vergleich zur Gesamtzahl der Link-Klicks auf der Seite an
    * **[!UICONTROL Rank]**: Der numerische Rang des Links nach der Anzahl der Link-Klicks.
 * **[!UICONTROL Schriftgröße der Beschriftung]**: Bestimmt die Größe des Textes innerhalb der Blase oder des Verlaufs.
-* **[!UICONTROL Verlaufsfarbe]**: Ermöglicht das Ändern der Verlaufsfarbe, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; ].
-* **[!UICONTROL Sprechblasenfarbe]**: Ermöglicht das Ändern der Sprechblasenfarbe, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; ].
-* **[!UICONTROL Farbverlauf basierend auf]**: Bestimmt, auf welcher Metrik die Farbintensität einer Relation basiert, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; ].
+* **[!UICONTROL Verlaufsfarbe]**: Ermöglicht das Ändern der Verlaufsfarbe, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;].
+* **[!UICONTROL Sprechblasenfarbe]**: Ermöglicht das Ändern der Sprechblasenfarbe, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;].
+* **[!UICONTROL Farbverlauf basierend auf]**: Bestimmt, auf welcher Metrik die Farbintensität einer Relation basiert, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;].
    * **[!UICONTROL Top 30-Rangfolgen]**: Die Farbintensität für die 30 wichtigsten Links wird normalisiert.
    * **[!UICONTROL Absoluter Metrikwert]**: Die Farbintensität ist eine Funktion des absoluten Metrikwerts.
-* **[!UICONTROL Verlaufstransparenz]**: Bestimmt die Transparenz von Verlaufsüberlagerungen, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; ]. Mit diesem Schieberegler können Sie die Farbüberlagerung vollständig transparent, vollständig deckend oder irgendwo dazwischen machen.
+* **[!UICONTROL Verlaufstransparenz]**: Bestimmt die Transparenz von Verlaufsüberlagerungen, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;]. Mit diesem Schieberegler können Sie die Farbüberlagerung vollständig transparent, vollständig deckend oder irgendwo dazwischen machen.
 
 ## Standardeinstellungen
 

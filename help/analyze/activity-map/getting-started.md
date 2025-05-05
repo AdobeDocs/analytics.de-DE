@@ -26,7 +26,7 @@ Für eine Report Suite muss die Activity Map-Berichterstellung aktiviert sein, b
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Report Suite auswählen > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map-Berichte]** > **[!UICONTROL Activity Map-Berichte aktivieren]**
 
-Durch die Aktivierung von Activity Map-Berichten werden mehrere reservierte Backend-Variablen erstellt. Weitere Informationen finden Sie unter {](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)}Activity Map-Berichte im Adobe Analytics-Administratorhandbuch.[
+Durch die Aktivierung von Activity Map-Berichten werden mehrere reservierte Backend-Variablen erstellt. Weitere Informationen finden Sie unter {[&#128279;](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)}Activity Map-Berichte im Adobe Analytics-Administratorhandbuch.
 
 ## Code-Installation
 
@@ -82,7 +82,7 @@ Die Konfigurationseinstellung **[!UICONTROL Activity Map verwenden]** handhabt d
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weiterführende Informationen dazu finden Sie in der ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) zur Adobe Analytics-Erweiterung [.
+Weiterführende Informationen dazu finden Sie in der [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) zur Adobe Analytics-Erweiterung .
 
 +++
 

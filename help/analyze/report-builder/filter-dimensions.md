@@ -51,7 +51,7 @@ Es gibt zwei Möglichkeiten, Dimensionselemente zu filtern: „Am beliebtesten�
 
 ## Am beliebtesten
 
-Mit [!UICONTROL  Option ]Am beliebtesten“ können Sie Dimensionselemente basierend auf Metrikwerten dynamisch filtern. [!UICONTROL Am beliebtesten] gibt die Filterung die am höchsten bewerteten Dimensionselemente basierend auf Metrikwerten zurück. Standardmäßig werden die ersten 10 Dimensionselemente aufgelistet, sortiert nach der ersten Metrik, die zum Datenblock hinzugefügt wurde.
+Mit [!UICONTROL &#x200B; Option &#x200B;]Am beliebtesten“ können Sie Dimensionselemente basierend auf Metrikwerten dynamisch filtern. [!UICONTROL Am beliebtesten] gibt die Filterung die am höchsten bewerteten Dimensionselemente basierend auf Metrikwerten zurück. Standardmäßig werden die ersten 10 Dimensionselemente aufgelistet, sortiert nach der ersten Metrik, die zum Datenblock hinzugefügt wurde.
 
 ![Die beliebteste Option.](./assets/image29.png)
 

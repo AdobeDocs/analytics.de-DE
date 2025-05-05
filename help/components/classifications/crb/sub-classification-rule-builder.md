@@ -65,7 +65,7 @@ In diesen Schritten wird beispielhaft beschrieben, wie Sie Unter-Classifications
 
    Beispiel:
 
-   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&amp;Hat;Kampagnentyp | Code einer breiten Kampagne&amp;Hat;Kampagnen-Director | ... |
+   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&Hat;Kampagnentyp | Code einer breiten Kampagne&Hat;Kampagnen-Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marke | Suzanne |  |
    | &#42; |  | 222 | Marke | Frank |  |

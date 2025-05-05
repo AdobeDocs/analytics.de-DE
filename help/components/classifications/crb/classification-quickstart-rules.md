@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln
 
-* Geben Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Klassifizierungen in &quot;[!UICONTROL  Tools“ ].
+* Geben Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Klassifizierungen in &quot;[!UICONTROL &#x200B; Tools“ &#x200B;].
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -145,7 +145,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
+| Regulärer Ausdruck | &Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
 
 **Syntax**
 

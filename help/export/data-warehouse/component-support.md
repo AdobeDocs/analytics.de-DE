@@ -100,11 +100,11 @@ Beachten Sie bei der Berechnung der Ausgabe von Datumsangaben in Data Warehouse 
    * 04: Mai
    * 05: Juni
    * 06: Juli
-   * 7. August
+   * &#x200B;7. August
    * 08: September
-   * 9. Oktober
-   * 10. November
-   * 11. Dezember
+   * &#x200B;9. Oktober
+   * &#x200B;10. November
+   * &#x200B;11. Dezember
 
   Wenn beispielsweise der Wert des Felds Datumsbereich Woche in Data Warehouse `1250901` ist, wird der Monat als 09 dargestellt, was Oktober bedeutet.
 

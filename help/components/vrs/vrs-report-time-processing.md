@@ -68,7 +68,7 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 * **Vars auflisten**
 * [**Marketing-Kanal-Dimensionen**](/help/components/dimensions/marketing-channel.md)
 * [**Ursprünglich verweisende Domain**](/help/components/dimensions/original-referring-domain.md)
-* [**Häufigkeit der **](/help/components/dimensions/return-frequency.md)
+* [**Häufigkeit der &#x200B;**](/help/components/dimensions/return-frequency.md)
 * [**Einzelzugriff**](/help/components/metrics/single-access.md)
 * **Transaktions-ID-Datenquellen**
 * [**Besuchsnummer**](/help/components/dimensions/visit-number.md)

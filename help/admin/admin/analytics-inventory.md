@@ -44,7 +44,7 @@ Das Analytics-Inventar steht Benutzenden mit Adobe Analytics-Produktadministrato
 
 ## Zugriff auf Analytics-Inventar
 
-1. Klicken Sie **** Menü **[!UICONTROL Admin]** auf Analytics-Inventar. Oder gehen Sie zu **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Analytics-Inventar]**.
+1. Klicken Sie **&#x200B;**&#x200B;Menü **[!UICONTROL Admin]** auf Analytics-Inventar. Oder gehen Sie zu **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Analytics-Inventar]**.
 
 ![analytics-inventory-menu](assets/an-inventory-menu.png)
 

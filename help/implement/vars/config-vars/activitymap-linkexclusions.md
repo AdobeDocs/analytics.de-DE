@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # ActivityMap.linkExclusions
 
-Mit der `ActivityMap.linkExclusions` können Sie Activity Map-Daten basierend auf dem Text in der Dimension [Activity Map-Link} selektiv filtern oder ](/help/components/dimensions/activity-map-link.md).
+Mit der `ActivityMap.linkExclusions` können Sie Activity Map-Daten basierend auf dem Text in der Dimension [Activity Map-Link&rbrace; selektiv filtern oder ](/help/components/dimensions/activity-map-link.md).
 
 ## Verknüpfen von Ausschlüssen in der Web SDK-Erweiterung
 

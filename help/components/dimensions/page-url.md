@@ -20,7 +20,7 @@ Die Dimension „Seiten-URL[ führt ](overview.md) URLs auf Ihrer Site auf.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus den Abfragezeichenfolgen](/help/implement/validate/query-parameters.md) [`g` und `-g` in [Seitenaufrufen (`t()`)](/help/implement/vars/functions/t-method.md) ab. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn die Abfragezeichenfolge `g` vorhanden ist.
+Diese Dimension ruft Daten aus den Abfragezeichenfolgen[&#128279;](/help/implement/validate/query-parameters.md) `g` und `-g` in [Seitenaufrufen (`t()`)](/help/implement/vars/functions/t-method.md) ab. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn die Abfragezeichenfolge `g` vorhanden ist.
 
 Manchmal sind URLs länger als 255 Byte. AppMeasurement verwendet den Abfragezeichenfolgenparameter `g` für die ersten 255 Byte der URL in Bildanforderungen. Wenn eine URL länger als 255 Byte ist, wird der Rest der URL im Abfragezeichenfolgenparameter `-g` gespeichert. Protokoll- und Abfragezeichenfolgen in der URL sind in dieser Variablen enthalten.
 

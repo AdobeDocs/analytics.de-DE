@@ -29,10 +29,10 @@ Jedes Mal, wenn Sie die `registerPreTrackCallback`-Variable aufrufen, binden Sie
 
 Web SDK kann keine Funktion einbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` verwenden, um eine Funktion zu registrieren, die unmittelbar vor dem Senden von Daten ausgeführt wird.
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com/data-collection) Datenerfassungs-Benutzeroberfläche von Adobe Experience Platform an.[
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com/data-collection) Datenerfassungs-Benutzeroberfläche von Adobe Experience Platform an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
-1. Klicken [!UICONTROL  unter „Datenerfassung] auf die Schaltfläche **[!UICONTROL Bearbeiten vor dem Rückruf-Code senden]**.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
+1. Klicken [!UICONTROL &#x200B; unter „Datenerfassung] auf die Schaltfläche **[!UICONTROL Bearbeiten vor dem Rückruf-Code senden]**.
 1. Platzieren Sie den gewünschten Code im Editor.
 
 ## Vorab-Tracking des Callbacks bei manueller Implementierung der Web-SDK
