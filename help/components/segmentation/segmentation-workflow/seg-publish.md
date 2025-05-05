@@ -19,7 +19,7 @@ Sie können Analytics-Segmente in weniger als acht Stunden auf Experience Cloud 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish-Segmente](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish-Segmente](https://video.tv.adobe.com/v/36752?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

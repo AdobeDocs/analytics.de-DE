@@ -30,7 +30,7 @@ So stellen Sie die Anzeigedichte ein:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anzeigedichte](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anzeigedichte](https://video.tv.adobe.com/v/40311?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

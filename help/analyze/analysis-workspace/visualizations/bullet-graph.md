@@ -45,7 +45,7 @@ Das horizontale Säulendiagramm enthält einen einzigen primären Messwert (z. 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung mit horizontalen Säulendiagrammen](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung mit horizontalen Säulendiagrammen](https://video.tv.adobe.com/v/41509/?quality=12/?quality=12&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

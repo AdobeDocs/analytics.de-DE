@@ -27,7 +27,7 @@ Diese Funktion ist besonders beim Erstellen von Hyperlinks für die folgenden Ar
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks für Dimension](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks für Dimension](https://video.tv.adobe.com/v/3445795?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

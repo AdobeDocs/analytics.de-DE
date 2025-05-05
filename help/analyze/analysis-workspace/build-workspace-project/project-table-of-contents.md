@@ -18,7 +18,7 @@ In Analysis Workspace können Sie innerhalb jedes Projekts ein Inhaltsverzeichni
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inhaltsverzeichnis](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inhaltsverzeichnis](https://video.tv.adobe.com/v/35186?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

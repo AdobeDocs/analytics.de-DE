@@ -56,7 +56,7 @@ In Analysis Workspace umfasst die Metrik „Gleichzeitige Betrachter“ die Anza
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Gleichzeitige Medienbetrachter“](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Gleichzeitige Medienbetrachter“](https://video.tv.adobe.com/v/343542?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343542/?quality=12&captions=ger)
 
 ## Panel Inputs {#Input}
 

@@ -46,7 +46,7 @@ Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend be
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefiniertes Lookback-Fenster](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefiniertes Lookback-Fenster](https://video.tv.adobe.com/v/40039?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

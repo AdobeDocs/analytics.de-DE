@@ -27,7 +27,7 @@ Verarbeitungsregeln erleichtern die Datenerfassung und ermöglichen die Verwaltu
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über Verarbeitungsregeln](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über Verarbeitungsregeln](https://video.tv.adobe.com/v/327636/?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

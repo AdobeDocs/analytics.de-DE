@@ -57,7 +57,7 @@ Erstellen und speichern Sie eine Metrik namens „Deutsche Besucher“ und eine 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte ](https://video.tv.adobe.com/v/37930?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

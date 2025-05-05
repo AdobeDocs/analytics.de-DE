@@ -73,7 +73,7 @@ Beim Vergleich der Funktionalität von Legacy Report Builder mit dem neuen Repor
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} Report Builder finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht über ](https://video.tv.adobe.com/v/3452589?quality=12&learn=on&captions=ger){target="_blank"} Report Builder finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

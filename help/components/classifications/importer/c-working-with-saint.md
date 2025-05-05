@@ -19,7 +19,7 @@ Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics ho
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification Importer](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification Importer](https://video.tv.adobe.com/v/40933?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

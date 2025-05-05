@@ -47,7 +47,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/3429106?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -45,7 +45,7 @@ Siehe [Leistungsoptimierung](/help/analyze/analysis-workspace/workspace-faq/opti
 
 +++Wie fließen Daten in Ihr Analysis Workspace-Projekt ein?
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten in Analysis Workspace](https://video.tv.adobe.com/v/35893?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 +++
 

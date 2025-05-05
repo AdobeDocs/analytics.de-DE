@@ -140,7 +140,7 @@ In diesem Video wird die Verwendung des Rechtsklickmenüs in Analysis Workspace 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Kontextmenüs](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Kontextmenüs](https://video.tv.adobe.com/v/327454?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

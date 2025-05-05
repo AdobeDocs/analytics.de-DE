@@ -21,7 +21,7 @@ In diesem Handbuch wird die Integration mehrerer Adobe Experience Cloud-Lösunge
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics für Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics für Advertising Cloud](https://video.tv.adobe.com/v/327664?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

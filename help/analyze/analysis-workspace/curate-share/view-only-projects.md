@@ -23,7 +23,7 @@ Beachten Sie, dass Sie den Datumsbereich des Bedienfeldkalenders auch in schreib
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schreibgeschützte Projekte](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schreibgeschützte Projekte](https://video.tv.adobe.com/v/40055?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

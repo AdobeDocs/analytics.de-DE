@@ -110,7 +110,7 @@ Zu den weiteren Faktoren, die nicht unter Hilfe > Leistung aufgeführt sind, zä
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tipps zur Produktivitätssteigerung](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tipps zur Produktivitätssteigerung](https://video.tv.adobe.com/v/33613?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

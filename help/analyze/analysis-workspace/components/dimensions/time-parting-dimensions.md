@@ -18,7 +18,7 @@ Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräfti
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=Parting Dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} für ein Demo-Video.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=Parting Dimensions](https://video.tv.adobe.com/v/41457?quality=12&learn=on&captions=ger){target="_blank"} für ein Demo-Video.
 
 >[!ENDSHADEBOX]
 
