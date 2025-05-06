@@ -4,10 +4,10 @@ description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft o
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Das folgende Entscheidungsschema kann Ihnen bei der Auswahl einer Client-seitige
 
 Zur Server-seitigen Implementierung von Adobe Analytics stehen Ihnen die folgenden Optionen zur Verfügung:
 
-* **Edge Server-API**: Sie implementieren Code auf dem Server, der die Adobe Experience Platform Edge Server-API verwendet, um über einen Datenstrom mit Adobe Analytics zu kommunizieren.
+* **Edge Network-API**: Sie implementieren Code auf dem Server, der die Adobe Experience Platform Edge Network-API verwendet, um über einen Datenstrom mit Adobe Analytics zu kommunizieren.
   ![Server-seitige Implementierung](assets/edge-network-server-api.svg)
-Weitere Informationen finden Sie unter [Implementieren von Adobe Analytics mit der Adobe Experience Platform Edge Network Server-API](/help/implement/aep-edge/server-api/overview.md).
+Weitere Informationen finden [ unter „Implementieren von Adobe Analytics mit der Adobe Experience Platform](/help/implement/aep-edge/api/overview.md)Edge Network-API“.
 
 * **(Bulk) Data Insertion-API**: Sie verwenden die (Bulk) Data Insertion-API von Adobe Analytics, um Daten Server-seitig direkt in Adobe Analytics zu erfassen.
   ![Data Insertion-APIs](assets/analytics-apis.png)
@@ -91,7 +91,7 @@ Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&amp;lang=de#support)
-* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de&lang=de)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=de#support)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Neueste Versionshinweise](../release-notes/latest.md)

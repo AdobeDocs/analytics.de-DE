@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Vorteile jeder Methode zum Datenversand
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '490'
 ht-degree: 41%
 
 ---
@@ -31,12 +31,12 @@ Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics
 
 >[!CAUTION]
 >
->Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den Häufig gestellten Fragen zum Ende der Nutzungsdauer [&#128279;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=de)Adobe Mobile Services).
+>Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den Häufig gestellten Fragen zum Ende der Nutzungsdauer ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) Adobe Mobile Services .[
 
 
-| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Server-API](/help/implement/aep-edge/server-api/overview.md) |
+| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Edge Network-API](/help/implement/aep-edge/api/overview.md) |
 | --- | --- | --- |
-| Implementierungsanforderungen | Referenzieren Sie Tag-Lader in der App und verwenden Sie dann direkte API-Aufrufe oder Regeln in der Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden | Verwenden Sie Edge Network-Server-APIs, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden |
+| Implementierungsanforderungen | Referenzieren Sie Tag-Lader in der App und verwenden Sie dann direkte API-Aufrufe oder Regeln in der Datenerfassungs-Benutzeroberfläche, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden | Verwenden Sie die Edge Network-API, um XDM-Objekte zu erstellen und die gewünschten Daten mithilfe von Edge Network an Adobe Analytics zu senden |
 | Datenziel | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden | An Adobe Experience Platform Edge gesendet, von wo die Daten an Adobe Analytics weitergeleitet werden |
 | Schwierigkeiten bei der Anpassung der Implementierung | Ändern Sie den App-Code, an dem direkte API-Aufrufe durchgeführt werden, oder nehmen Sie Änderungen an der Datenerfassungs-Benutzeroberfläche vor | Erfordert bei jeder Implementierungsänderung Zugriff auf den Anwendungs-Code |
 | Handhabung von A4T | A4T-Aufrufe werden als separate Treffer gesendet | A4T-Aufrufe werden als separate Treffer gesendet |
