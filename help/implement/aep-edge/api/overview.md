@@ -59,5 +59,5 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 </table>
 
-Weitere Informationen finden Sie in der Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) Edge Network-APIs.[
+Weitere Informationen finden Sie in der Dokumentation [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) Edge Network-APIs.
 

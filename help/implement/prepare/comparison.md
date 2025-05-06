@@ -31,7 +31,7 @@ Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics
 
 >[!CAUTION]
 >
->Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den Häufig gestellten Fragen zum Ende der Nutzungsdauer ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) Adobe Mobile Services .[
+>Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den Häufig gestellten Fragen zum Ende der Nutzungsdauer [&#128279;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) Adobe Mobile Services .
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Edge Network-API](/help/implement/aep-edge/api/overview.md) |
