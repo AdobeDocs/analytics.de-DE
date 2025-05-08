@@ -37,7 +37,7 @@ Beachten Sie:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden einer benutzerdefinierten Farbpalette](https://video.tv.adobe.com/v/328055?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden einer benutzerdefinierten Farbpalette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

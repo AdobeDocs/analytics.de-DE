@@ -18,7 +18,7 @@ Sie können für alle neu erstellten Projekte oder Bedienfelder die auf Analysis
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/3429986/?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
