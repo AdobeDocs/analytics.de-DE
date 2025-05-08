@@ -4,14 +4,19 @@ title: Was sind Visualisierungsfarbpaletten und wie funktionieren sie?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# Visualisierungsfarbpaletten
+# Visualisierungsfarbpaletten {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="Projektfarbpalette"
+>abstract="Ändern Sie die in diesem Projekt verwendete Farbpalette."
 
 Sie können die in Workspace verwendete Visualisierungsfarbpalette ändern, indem Sie eine andere Farbpalette auswählen oder Ihre eigene Palette festlegen, die den Markenfarben Ihres Unternehmens entsprechen. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus, aber **nicht** auf die [!UICONTROL Zusammenfassungsänderung], die bedingte Formatierung in [!UICONTROL Freiformtabellen] und die [!UICONTROL Zuordnungsvisualisierung].
 
@@ -32,7 +37,7 @@ Beachten Sie:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden einer benutzerdefinierten Farbpalette](https://video.tv.adobe.com/v/328055?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden einer benutzerdefinierten Farbpalette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

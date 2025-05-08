@@ -3,10 +3,10 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Erstellen einer Zielgruppe"
->abstract="Zielgruppen können mithilfe eines Filters erstellt und zur Aktivierung für Adobe Experience Platform freigegeben werden."
+>abstract="Zielgruppen können aus einem Segment erstellt und für die Adobe Experience Platform freigegeben werden, damit sie aktiviert werden können."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Datenvorschau"
->abstract="Vergleicht die Daten dieses Filters mit den Daten der Datenansicht. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl der Daten in der Datenansicht aus den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
+>abstract="Vergleicht die Daten dieses Segments mit den Daten der Datenansicht. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl der Daten in der Datenansicht aus den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
 
 <!-- markdownlint-enable MD034 -->
 

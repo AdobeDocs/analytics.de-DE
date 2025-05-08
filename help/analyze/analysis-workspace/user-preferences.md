@@ -4,10 +4,10 @@ description: Sie können allgemeine Voreinstellungen und Projekteinstellungen f�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Sie können für alle neu erstellten Projekte oder Bedienfelder die auf Analysis
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/3429986/?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ Sie können die allgemeinen Voreinstellungen für alle neuen Projekte anpassen, 
 | Tipps anzeigen | Zeigt Tipps in einem blauen Feld im rechten unteren Bereich von Analysis Workspace an. <p>Standardmäßig ist diese Option aktiviert.</p> |
 | Komponenten, die in Gruppen auf der linken Leiste angezeigt werden | Wählen Sie aus, wie viele Komponenten im Komponentenmenü in der linken Leiste angezeigt werden sollen. <p>Wenn Sie „0“ auswählen, kann die Komponente nicht mehr über die linke Leiste Ihrer Arbeitsbereiche aufgerufen werden.</p><p>Standardmäßig werden für jede der folgenden Objekte fünf Komponenten angezeigt:</p> <ul><li>Dimensionen</li><li>Metriken</li><li>Filter</li><li>Datumsbereiche</li></ul> <p>Weitere Informationen zu Komponenten in Analysis Workspace finden Sie unter [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
-## Unternehmensvoreinstellungen
+## Unternehmensvoreinstellungen {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Freigabe nur für Workspace-Benutzende zulassen"
+>abstract="Wenn diese Option aktiviert ist, ist die Option **[!UICONTROL Für alle freigeben]** nicht mehr für Benutzende verfügbar, wenn ein Analysis Workspace-Projekt freigegeben wird. Personen, die zuvor über diese Freigabeoption Zugriff auf ein Projekt erhalten haben, können nicht mehr auf das Projekt zugreifen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Experience Cloud-Authentifizierung verlangen"
+>abstract="Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten, mit ihren Experience Cloud-Anmeldeinformationen authentifizieren."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="Kommentare zu Projekten zulassen"
+>abstract="Wenn diese Option aktiviert ist, ist in der rechten Leiste jedes Projekts in Analysis Workspace ein Kommentarbereich verfügbar."
 
 Sie können Unternehmensvoreinstellungen aktualisieren, die für alle Benutzerinnen und Benutzer sowie Projekte in Ihrer Organisation gelten. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
 
@@ -61,11 +76,26 @@ Sie können Unternehmensvoreinstellungen aktualisieren, die für alle Benutzerin
 |  | Registerkarte „Berichte“ ausblenden | Blendet die Registerkarte „Berichte“ für alle Benutzerinnen und Benutzer in Ihrer Organisation aus. |
 | **Projektfreigabe** | | |
 | | Freigabe nur für Workspace-Benutzende zulassen | <p>Wenn diese Option aktiviert ist, können Benutzerinnen und Benutzer in Ihrer Organisation im Menü „Freigeben“ die Option „Für alle freigeben“ nicht sehen. Das bedeutet, dass Benutzerinnen und Benutzer keine Projekte für Personen freigeben können, die kein Analysis Workspace-Konto in Ihrer Organisation haben, wie unter [Projekt für andere freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md) beschrieben wird.</p><p>Beachten Sie beim Aktivieren oder Deaktivieren dieser Option Folgendes:</p> <ul><li><p>Wenn Sie diese Option aktivieren, können Personen, die zuvor über die Freigabeoption „Für alle freigeben“ Zugriff auf ein Projekt erhalten haben, nicht mehr auf das Projekt zugreifen.</p></li><li><p>Wenn diese Option aktiviert ist (um die Freigabe nur für Workspace-Benutzende zuzulassen) und später deaktiviert wird (um die Freigabe für andere zuzulassen), erhalten Personen, die zuvor über die Freigabeoption „Für alle freigeben“ Zugriff auf ein Projekt erhalten hatten, nicht automatisch wieder Zugriff auf das Projekt. In diesem Fall muss die Person, die das Projekt freigegeben hat, die Option [!UICONTROL **Link ist aktiv**] aktivieren, die beim Freigeben eines Projekts für alle verfügbar ist ([!UICONTROL **Freigeben**] > [!UICONTROL **Für alle freigeben**]), wie unter [Projekt für alle freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
-| | Experience Cloud-Authentifizierung verlangen | <p>Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option „Für alle freigeben“ in Analysis Workspace Zugriff auf ein Projekt erhalten haben, sich mit ihren Anmeldeinformationen von Experience Cloud authentifizieren.</p> <p>Wenn diese Option aktiviert ist, wird jedes Mal, wenn eine Person ein Projekt mithilfe der Freigabeoption „Für alle freigeben“ teilt, die Option „Authentifizierung für dieses Projekt erforderlich“ im Freigabe-Dialogfeld aktiviert und kann von der Person, die das Projekt freigegeben hat, nicht deaktiviert werden. (Informationen dazu, wie Benutzerinnen und Benutzer Projekte für alle freigeben können, finden Sie unter [Projekt für alle freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Beachten Sie beim Aktivieren dieser Option Folgendes:</p><ul><li><p>Wenn Sie diese Option aktivieren, werden alle Projekte, die zuvor mit der Freigabeoption „Für alle freigeben“ freigegeben wurden und für die die Option „Experience Cloud-Authentifizierung erfordern“ nicht aktiviert ist, deaktiviert.</p></li> <li><p>Wenn diese Option aktiviert ist (d. h. eine Experience Cloud-Authentifizierung erforderlich ist) und später deaktiviert wird (damit alle Benutzerinnen und Benutzer mit dem Link auf das Projekt zugreifen können), erhalten Personen, die zuvor über die Freigabeoption „Für alle freigeben“ Zugriff auf ein Projekt erhalten haben, nicht automatisch wieder Zugriff auf das Projekt. In diesem Fall muss die Person, die das Projekt freigegeben hat, die Option „Link ist aktiv“ aktivieren, die verfügbar ist, wenn ein Projekt für alle freigegeben wird ([!UICONTROL **Freigeben**] > [!UICONTROL **Für alle freigeben**] > [!UICONTROL **Link ist aktiv**]), wie unter [Projekt für alle freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md) beschrieben wird.</p></li> <li><p>Diese Option ist nur verfügbar, wenn SSO in Ihrem Unternehmen implementiert ist. Informationen dazu, wie System-Admins SSO für Ihre Organisation aktivieren können, finden Sie unter [Einrichten von Identität und Single Sign-On](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Wenn SSO für Ihre Organisation konfiguriert ist, überprüfen Sie, ob in der Konsole eine automatische Kontoerstellung implementiert ist. Normalerweise richten System-Admins dies ein, wie unter [Aktivieren der automatischen Kontoerstellung](https://helpx.adobe.com/de/enterprise/using/automatic-account-creation.html){target=_blank} beschrieben wird.</p></li><li><p>Wenn Ihr Unternehmen in einer Branche tätig ist, die HIPAA-Compliance erfordert, wird diese Option automatisch aktiviert und kann nicht deaktiviert werden.</p></li></ul> |
+| | Experience Cloud-Authentifizierung verlangen | <p>Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option „Für alle freigeben“ in Analysis Workspace Zugriff auf ein Projekt erhalten haben, sich mit ihren Anmeldeinformationen von Experience Cloud authentifizieren.</p> <p>Wenn diese Option aktiviert ist, wird jedes Mal, wenn eine Person ein Projekt mithilfe der Freigabeoption „Für alle freigeben“ teilt, die Option „Authentifizierung für dieses Projekt erforderlich“ im Freigabe-Dialogfeld aktiviert und kann von der Person, die das Projekt freigegeben hat, nicht deaktiviert werden. (Informationen dazu, wie Benutzerinnen und Benutzer Projekte für alle freigeben können, finden Sie unter [Projekt für alle freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Beachten Sie beim Aktivieren dieser Option Folgendes:</p><ul><li><p>Wenn Sie diese Option aktivieren, werden alle Projekte, die zuvor mit der Freigabeoption „Für alle freigeben“ freigegeben wurden und für die die Option „Experience Cloud-Authentifizierung erfordern“ nicht aktiviert ist, deaktiviert.</p></li> <li><p>Wenn diese Option aktiviert ist (d. h. eine Experience Cloud-Authentifizierung erforderlich ist) und später deaktiviert wird (damit alle Benutzerinnen und Benutzer mit dem Link auf das Projekt zugreifen können), erhalten Personen, die zuvor über die Freigabeoption „Für alle freigeben“ Zugriff auf ein Projekt erhalten haben, nicht automatisch wieder Zugriff auf das Projekt. In diesem Fall muss die Person, die das Projekt freigegeben hat, die Option „Link ist aktiv“ aktivieren, die verfügbar ist, wenn ein Projekt für alle freigegeben wird ([!UICONTROL **Freigeben**] > [!UICONTROL **Für alle freigeben**] > [!UICONTROL **Link ist aktiv**]), wie unter [Projekt für alle freigeben (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/share-projects.md) beschrieben wird.</p></li> <li><p>Diese Option ist nur verfügbar, wenn SSO in Ihrem Unternehmen implementiert ist. Informationen dazu, wie System-Admins SSO für Ihre Organisation aktivieren können, finden Sie unter [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Wenn SSO für Ihre Organisation konfiguriert ist, überprüfen Sie, ob in der Konsole eine automatische Kontoerstellung implementiert ist. Normalerweise richten System-Admins dies ein, wie unter [Aktivieren der automatischen Kontoerstellung](https://helpx.adobe.com/de/enterprise/using/automatic-account-creation.html){target=_blank} beschrieben wird.</p></li><li><p>Wenn Ihr Unternehmen in einer Branche tätig ist, die HIPAA-Compliance erfordert, wird diese Option automatisch aktiviert und kann nicht deaktiviert werden.</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## Voreinstellungen für Projekte und Analysen
+## Voreinstellungen für Projekte und Analysen {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="Kategorische Palette"
+>abstract="Wird auf viele Visualisierungen in Analysis Workspace und geführte Analysen angewendet. Jede Farbe steht für einen Wert einer Kategorie."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="Divergierende Palette"
+>abstract="Wird auf die Kohortentabelle in Analysis Workspace und die geführte Analyse von Benutzerwachstum angewendet. Durch diese Palette werden die Zahlen zwischen zwei Extremwerten dargestellt, getrennt durch eine Basislinie in der Mitte."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="Sequenzielle Palette"
+>abstract="Wird bei der geführten Analyse der Frequenz-Trends angewendet (gestapelte Balken). In dieser Palette werden Zahlen durch die Helligkeitsabstufungen von hell bis dunkel dargestellt."
 
 Sie können die Projektvoreinstellungen für alle neuen Projekte anpassen, die Sie in Analysis Workspace erstellen. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
 
@@ -87,7 +117,24 @@ Klicken Sie auf die verlinkten Voreinstellungstitel, um weitere Informationen un
 |  | CSV-Trennzeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
 |  | Anmerkungen anzeigen | Wählen Sie aus, ob Anmerkungen in Ihren Projekten sichtbar sein sollen. Weitere Informationen zu Anmerkungen finden Sie unter [Anmerkungen – Überblick](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
-## Voreinstellungen für Freiformtabellen
+## Voreinstellungen für Freiformtabellen {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="Anomalien anzeigen"
+>abstract="Wenn Sie **[!UICONTROL Anomalien zeigen]** auswählen, wird die Anomalieerkennung automatisch für die erste metrische Spalte ausgeführt, die zu einer Freiformtabellenvisualisierung der Zeitreihe hinzugefügt wurde."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="Prognose anzeigen"
+>abstract="Wenn Sie **[!UICONTROL Prognose zeigen]** auswählen, wird die Prognose automatisch für die erste metrische Spalte ausgeführt, die zu einer Freiformtabellenvisualisierung der Zeitreihe hinzugefügt wurde."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Standard-Tabellenmetrik"
+>abstract="Wählen Sie die Standardmetrik aus, die für Freiformtabellen verwendet werden soll. Wenn die ausgewählte Datenansicht die ausgewählte Standardmetrik nicht enthält, wechselt die Tabelle automatisch zu einer anderen primären Metrik."
+
 
 Sie können die Voreinstellungen für Freiformtabellen für alle neuen Projekte anpassen, die Sie in Analysis Workspace erstellen. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
 

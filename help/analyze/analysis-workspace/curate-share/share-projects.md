@@ -5,14 +5,21 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 98%
 
 ---
 
-# Freigeben von Projekten
+# Freigeben von Projekten {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="Freigeben von Projekten"
+>abstract="Sie können diese Projektrollen für andere Benutzende in Ihrer Organisation freigeben."
+
+
 
 Sie können ein Analysis Workspace-Projekt für die folgenden Personentypen freigeben:
 
@@ -34,7 +41,7 @@ Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird bei
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/40031?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -100,7 +107,7 @@ Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projek
 
    Oder
 
-   Wählen Sie **[!UICONTROL Kuratieren und freigeben]**, um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]**.) Weitere Informationen [Projektkuratierung](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
+   Wählen Sie **[!UICONTROL Kuratieren und freigeben]**, um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]** aus.) Erfahren Sie mehr über die [Projektkuration](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
 
 ## Freigeben eines Links zu einem Projekt
 
@@ -145,7 +152,7 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3452469?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -200,7 +207,7 @@ Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sin
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/327497?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

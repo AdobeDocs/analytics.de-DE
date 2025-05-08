@@ -4,14 +4,19 @@ title: Projekte speichern
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
 
-# Projekte speichern
+# Projekte speichern {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="Hinzufügen von Hinweisen"
+>abstract="Fügen Sie Hinweise zur Projektversion hinzu, die gespeichert wird. Diese Hinweise werden mit der Version gespeichert und sind über das Menü **[!UICONTROL Projekt]** > **[!UICONTROL Vorherige Version öffnen]** zugänglich."
 
 Projekte in Analysis Workspace werden automatisch alle zwei Minuten gespeichert.
 
