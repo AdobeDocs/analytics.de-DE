@@ -51,7 +51,7 @@ Beim Verwalten von Datenquellen können Sie die Datenquelle anzeigen oder die Au
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen zur Datenquelle](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen zur Datenquelle](https://video.tv.adobe.com/v/328028?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
