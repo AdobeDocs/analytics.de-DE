@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie Classification-Daten 
 title: Löschen von Classification-Daten
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ Durch Verwendung von `~deletekey~` unter der Classification „Inventarkategorie
 * Bei der Verwendung von `~deletekey~` benötigen Sie nur eine Zeile in einer Classification-Datei.
 * `~empty~` und `~deletekey~` müssen *exakt* übereinstimmen. Leerzeichen oder Groß-/Kleinschreibung sind nicht zulässig.
 * Werte in der Schlüsselspalte können nicht gelöscht werden. Diese Werte werden direkt in die Variable übergeben und sind dauerhaft.
-* Wenn Sie einen Classification-Wert entfernen, der Unter-Classifications enthält, werden diese ebenfalls entfernt. Classifications können nicht ohne Schlüsselwert bestehen, und die übergeordnete Classification ist der Schlüsselwert für eine Unter-Classification.
+* Wenn Sie einen Klassifizierungswert entfernen, der Unterklassifizierungen enthält, werden diese Unterklassifizierungen ebenfalls entfernt. Classifications können nicht ohne Schlüsselwert bestehen, und die übergeordnete Classification ist der Schlüsselwert für eine Unter-Classification.
 * Sie können die Unter-Classificationsdaten entfernen, wobei die übergeordnete Classification intakt bleibt.

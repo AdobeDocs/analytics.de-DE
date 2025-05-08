@@ -3,10 +3,10 @@ description: Administrative Schritte zum Einrichten von Echtzeitberichten.
 title: Echtzeitberichte konfigurieren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 78%
+source-wordcount: '283'
+ht-degree: 77%
 
 ---
 
@@ -46,8 +46,6 @@ Sie können dabei die Report Suite auswählen und bis zu drei Berichte dafür ko
    >[!NOTE]
    >
    >Für einzelne Echtzeitberichte wird die Aktivierung doppelter Dimensionen derzeit nicht unterstützt, auch wenn für jede Dimension eine andere Classification ausgewählt wird.
-
-   Weitere Informationen zu Klassifizierungen finden Sie unter [Informationen über Klassifizierungen](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >

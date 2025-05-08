@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -257,49 +257,46 @@ ht-degree: 100%
    + [Erstellen](c-alerts/alert-builder.md)
    + [Verwalten](c-alerts/alert-manager.md)
    + [Anwendungsbeispiele](c-alerts/alerts-use-cases.md)
-+ Classifications {#classifications}
-   + [Übersicht über Klassifizierungen](classifications/c-classifications.md)
++ Klassifizierungen {#classifications}
+   + [Übersicht über Klassifizierungen](classifications/classifications-overview.md)
    + Klassifizierungssätze {#sets}
-      + [Klassifizierungssätze – Übersicht](classifications/sets/overview.md)
-      + Verwalten von Klassifizierungssätzen {#manage}
+      + [Überblick](classifications/sets/overview.md)
+      + Klassifizierungssätze verwalten {#manage}
          + [Klassifizierungssatz-Manager](classifications/sets/manage/set-manager.md)
          + [Erstellen eines Klassifizierungssatzes](classifications/sets/manage/create.md)
          + [Klassifizierungssatz-Einstellungen](classifications/sets/manage/settings.md)
          + [Klassifizierungssatz-Schema](classifications/sets/manage/schema.md)
          + [Klassifizierungssatz-Regeln](classifications/sets/manage/rules.md)
       + [Auftrags-Manager für Klassifizierungssätze](classifications/sets/job-manager.md)
-      + Klassifizierungssatz-Konsolidierungen {#consolidations}
-         + [Manager für Klassifizierungssatz-Konsolidierungen](classifications/sets/consolidations/manage.md)
-         + [Prozess für Konsolidierungssatz-Konsolidierungen](classifications/sets/consolidations/process.md)
-   + Classification Rule Builder {#classifications-rulebuilder}
-      + [Classification Rule Builder-Workflow](classifications/crb/classification-rule-builder.md)
+      + Konsolidierung von Klassifizierungssätzen {#consolidations}
+         + [Konsolidierungs-Manager](classifications/sets/consolidations/manage.md)
+         + [Konsolidierungsprozess](classifications/sets/consolidations/process.md)
+   + Classification Rule Builder (veraltet){#classifications-rulebuilder}
+      + [Überblick](classifications/crb/classification-rule-builder.md)
       + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
       + [Klassifizierungsregeln](classifications/crb/classification-quickstart-rules.md)
-      + [Klassifizierungsregeln – Definitionen](classifications/crb/classification-rule-definitions.md)
-      + [Unterklassifizierungen und der Rule Builder](classifications/crb/sub-classification-rule-builder.md)
-   + Classifications importer {#classifications-importer}
-      + [Classifications importer – Übersicht](classifications/importer/c-working-with-saint.md)
+      + [Klassifizierungsregeldefinitionen](classifications/crb/classification-rule-definitions.md)
+      + [Unterklassifizierungen und der Regel-Builder](classifications/crb/subclassification-rule-builder.md)
+   + Classification Importer (veraltet){#classifications-importer}
+      + [Übersicht über den Classifications importer](classifications/importer/c-working-with-saint.md)
       + [Klassifizierungsdatendateien](classifications/importer/c-saint-data-files.md)
       + [Löschen von Classification-Daten](classifications/importer/t-delete-classification-data.md)
-      + [Classification-Daten maskieren](classifications/importer/t-classifications-escape-data.md)
-      + [Nicht klassifizierte Schlüssel](classifications/importer/nonclassified-keys.md)
       + [Klassifizierungsvorlage](classifications/importer/c-download-saint-data.md)
-      + [Browser- und FTP-Import](classifications/importer/import-file.md)
       + [Browser-Import](classifications/importer/browser-import.md)
       + [Browser-Export](classifications/importer/browser-export.md)
       + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP-Export](classifications/importer/ftp-export.md)
       + [Verarbeitungszeit](classifications/importer/processing-time.md)
+      + [Unterklassifizierungen](classifications/importer/subclassifications.md)
       + [Fehlerbehebung](classifications/importer/troubleshooting.md)
-   + [Unterklassifizierungen](classifications/c-sub-classifications.md)
-   + [Häufig gestellte Fragen zu Klassifizierungen](classifications/faq.md)
+      + [Häufig gestellte Fragen](classifications/importer/importer-faq.md)
 + Standorte {#locations}
    + [Standorte-Manager](/help/components/locations/locations-manager.md)
    + [Cloud-Importkonten](/help/components/locations/configure-import-accounts.md)
    + [Cloud-Importspeicherorte](/help/components/locations/configure-import-locations.md)
 + [Geplante Projekte](scheduled-projects-manager.md)
 + [Warteschlange für terminierte Berichte](scheduled-reports-admin.md)
-+ Echtzeitberichterstellung {#real-time-reporting}
++ Echtzeit-Reporting {#real-time-reporting}
    + [Übersicht über die Echtzeitberichterstellung](c-real-time-reporting/realtime.md)
    + [Echtzeitberichte konfigurieren](c-real-time-reporting/t-realtime-admin.md)
    + [Unterstützte Echtzeit-Metriken und -Dimensionen](c-real-time-reporting/realtime-metrics.md)

@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 79%
@@ -21,7 +21,7 @@ Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report 
 
 ## Richtlinien
 
-Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an Ihre anderen Adobe Analytics-Administratoren oder Ihr Adobe-Account-Team. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
+Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie und Ihr Unternehmen zutreffen, wenden Sie sich an Ihre anderen Adobe Analytics-Administratoren oder Ihr Adobe-Accountteam. Sie können Ihnen dabei helfen, Ihre Geschäftsanforderungen zu beurteilen, und eine Empfehlung abgeben.
 
 Berücksichtigen Sie bei der Entscheidung, ob Sie Multi-Suite-Tagging oder Virtual Report Suites verwenden sollten, folgende Aspekte:
 
@@ -37,7 +37,7 @@ Wenn Sie über eine globale Report Suite verfügen, die eine große Anzahl von S
 
 Beispiel: Eine große Medienorganisation verfügt über 100 Webeigenschaften. Jede Eigenschaft veröffentlicht monatlich einige tausend News-Artikel, zusätzlich zum Hosting aller Artikel aus den Vormonaten. Diese Organisation verwendet eine globale Report Suite, bei der eVar1 „Artikelname“ lautet. Angenommen, in diesem Bericht gibt es etwa 5 Millionen eindeutige Artikelnamen pro Monat aus den verschiedenen Eigenschaften zusammen. Bei Verwendung einer Virtual Report Suite wird nur ein Teil der 5 Millionen Werte in die Virtual Report Suite aufgenommen. Die übrigen sind unter Low Traffic enthalten. Wenn Multi-Suite-Tagging verwendet wird, kann jede einzelne Report Suite einen eigenen Satz eindeutiger Werte sehen.
 
-Die Adobe-Kundenunterstützung kann manchmal die Beschränkungen für eindeutige Werte für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig beseitigt werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
+Die Adobe-Kundenunterstützung kann manchmal die Beschränkungen für eindeutige Werte für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig behoben werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
 
 ### Freigegebene Metriken über Report Suites hinweg
 
@@ -45,7 +45,7 @@ Virtual Report Suites verfügen nicht über eigene Dimensionen und Metriken, son
 
 Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. Einige Dimensionen und Ereignisse können zwischen zwei Sites freigegeben werden. Beispielsweise kann bei einer E-Mail-Registrierung dasselbe Ereignis auf mehreren Websites verwendet werden, wodurch dasselbe benutzerspezifische Ereignis ausgelöst wird. Andere Dimensionen können spezifisch für eine Site sein. Beispielsweise kann nur über eine Ihrer Sites vom Benutzer das Profilbild geändert werden. Dieses benutzerspezifische Ereignis wird nur auf der Website implementiert, die es unterstützt.
 
-Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele eindeutige Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/c-classifications.md). Sie können zum Beispiel die Classification „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
+Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele eindeutige Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/classifications-overview.md). Sie können zum Beispiel die Classification „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
 >[!TIP]
 >

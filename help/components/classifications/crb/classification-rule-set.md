@@ -3,14 +3,16 @@ description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine b
 title: Klassifizierungsregelsätze
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 96%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
-# Klassifizierungsregelsätze
+# Klassifizierungsregelsätze (veraltet)
+
+*Auf dieser Seite werden Klassifizierungsregelsätze als Teil des [Classification Rule Builders“ ](classification-rule-builder.md). Unter [Klassifizierungssätze](../sets/overview.md) finden Sie die aktuelle Methode zur Klassifizierung von Daten in Adobe Analytics.*
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
@@ -56,8 +58,6 @@ Die Seite [!UICONTROL Classifications Rule Builder] bietet die nachfolgenden Fel
 Benennen Sie den Klassifizierungsregelsatz, wenden Sie die Variable an und legen Sie die Einstellungen für das Überschreiben fest.
 
 1. (Voraussetzung) Definieren Sie die Classification-Struktur in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-
-   (Informationen zum Hinzufügen von Classifications finden Sie unter [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) in der Admin Tools-Hilfe.)
 
    Variablen werden erst im Bereich [!UICONTROL Neuer Regelsatz] angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde.
 

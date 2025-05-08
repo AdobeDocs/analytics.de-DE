@@ -3,7 +3,7 @@ title: Klassifizierungssatz-Manager
 description: Verwalten Sie Klassifizierungssätze in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Beachten Sie, dass jeweils 1.000 Klassifizierungssätze vorgeladen werden. Die i
 
 Die folgenden Spalten sind im Classification Set Manager verfügbar:
 
-* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes. Wenn Sie auf den Namen eines Klassifizierungssatzes klicken [ dessen Einstellungen ](settings.md).
+* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes. Wenn Sie auf den Namen eines Klassifizierungssatzes klicken, wird dessen [ (Einstellungen](settings.md) bearbeitet.
 * **[!UICONTROL Abonnements]**: Die Anzahl der Abonnements, für die dieser Klassifizierungssatz gilt.
 * **[!UICONTROL Klassifizierungen]**: Die Anzahl der Klassifizierungsdimensionen, die der Klassifizierungssatz enthält.
 * **[!UICONTROL Automated]**: Bestimmt, ob der Klassifizierungssatz so konfiguriert ist, dass Daten automatisch aus einem Cloud-Speicherort importiert werden. Die Automatisierung kann im (Schema) des Klassifizierungssatzes [ werden](schema.md).

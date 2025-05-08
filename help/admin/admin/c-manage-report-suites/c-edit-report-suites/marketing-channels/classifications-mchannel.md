@@ -4,9 +4,9 @@ description: Classifications werden verwendet, um Werte in Gruppen zu kategorisi
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
 
 Klassifizierungen, die Sie in diesem Vorgang hinzufügen, werden im [!UICONTROL Marketing-Kanal-Übersichtsbericht] als [!UICONTROL Kanalwerte] angezeigt. Kanalwerte sind nicht klassifizierte Werte in den Kanaldetails.
-
->[!NOTE]
->
->Stellen Sie sicher, dass Sie mit dem Erstellen von Klassifizierungen in [Klassifizierungen](/help/components/classifications/c-classifications.md) vertraut sind.
 
 >[!IMPORTANT]
 >

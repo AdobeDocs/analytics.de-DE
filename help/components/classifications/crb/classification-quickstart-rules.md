@@ -3,14 +3,14 @@ description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. 
 title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 92%
+source-wordcount: '1979'
+ht-degree: 90%
 
 ---
 
-# Klassifizierungsregeln
+# Klassifizierungsregeln (veraltet)
 
 Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
 
@@ -27,7 +27,7 @@ Classification-Regeln eignen sich für Folgendes:
 
 Der Trackingcode für eine E-Mail-Kampagnen-ID lautet beispielsweise:
 
-`em:Summer:2013:Sale`.
+`em:Summer:20XX:Sale`.
 
 Sie können drei Regeln in einem Regelsatz festlegen, die die Teile der Zeichenfolge ermitteln, und dann die Werte klassifizieren:
 
@@ -35,7 +35,7 @@ Sie können drei Regeln in einem Regelsatz festlegen, die die Teile der Zeichenf
 |---|---|---|---|
 | Beginnt mit | em: | Kanal | E-Mail |
 | Endet mit | Ausverkauf | Typ | Ausverkauf |
-| Enthält | 2013 | Jahr | 2013 |
+| Enthält | 20XX | Jahr | 20XX |
 
 ## Verarbeitung der Regeln {#how-rules-are-processed}
 
@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln
 
-* Geben Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Klassifizierungen in &quot;[!UICONTROL &#x200B; Tools“ &#x200B;].
+* Geben Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Klassifizierungen in &quot;[!UICONTROL  Tools“ ].
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -95,18 +95,6 @@ Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben
 
 Mithilfe von regulären Ausdrücken gleichen Sie konsistent formatierte Zeichenfolgenwerte mit einer Classification ab. So können Sie beispielsweise eine Classification anhand bestimmter Zeichen in einem Trackingcode erstellen. Sie können bestimmte Zeichen, Wörter oder Zeichenmuster abgleichen.
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [Regulärer Ausdruck – Beispiel für Trackingcode](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [Reguläre Ausdrücke – Abgleichen von Trackingcodes unterschiedlicher Länge](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [Reguläre Ausdrücke – Beispiel für „enthält nicht“ ](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >Reguläre Ausdrücke eignen sich als Best Practice für Trackingcodes, in denen Trennzeichen verwendet werden; dies gehört zu den bewährten Verfahren.
@@ -115,29 +103,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->Wenn der Trackingcode URL-kodiert ist, wird er **nicht** durch den Rule Builder klassifiziert.
+>Wenn der Trackingcode URL-kodiert ist, **er** vom Regel-Builder klassifiziert.
 
 In diesem Beispiel wird angenommen, dass die folgende Kampagnen-ID klassifiziert werden soll:
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+Beispielschlüssel: `em:JuneSale:20XX0601`
 
 Die folgenden Teile des Trackingcodes sind zu klassifizieren:
 
 * `em` = email
 * `JuneSale` = Kampagnenname
-* `20130601` = date
+* `20XX0601` = date
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+Regulärer Ausdruck: `^(.+)\:(.+)\:(.+)$`
 
 Zusammenhang zwischen dem regulären Ausdruck und der Kampagnen-ID:
 
 ![](assets/regex.png)
 
-[!UICONTROL Übereinstimmungsgruppen:] Zeigt, wie der reguläre Ausdruck den Zeichen der Kampagnen-ID entspricht, so dass Sie eine Position in der Kampagnen-ID klassifizieren können.
+Übereinstimmungsgruppen: Zeigt, wie der reguläre Ausdruck den Zeichen der Kampagnen-ID entspricht, damit Sie eine Position in der Kampagnen-ID klassifizieren können.
 
 ![](assets/regex_tracking_code.png)
 
-In diesem Beispiel gilt die Regel, dass sich das Kampagnendatum `20140601` in der dritten Gruppe `(.+)` befindet, identifiziert durch `$3`.
+In diesem Beispiel gilt die Regel, dass sich das Kampagnendatum `20XX0601` in der dritten Gruppe `(.+)` befindet, identifiziert durch `$3`.
 
 **[!UICONTROL Regel-Builder]**
 
@@ -145,22 +133,22 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
+| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
 
 **Syntax**
 
 | Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Zugehörige Übereinstimmungsgruppen |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: Juni`$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: Juni`$3`: 20XX0601 |
 | Aufbauen der Syntax | `^` = Beginn einer Zeile () = gruppiert Zeichen und ermöglicht das Extrahieren von übereinstimmenden Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) Zeichen und ( + ) beliebige mehr \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
 
-Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
+Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens  {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Mit einem regulären Ausdruck können Sie beispielsweise ein bestimmes Zeichen in einer Zeichenfolge klassifizieren. Angenommen, der folgende Trackingcode enthält zwei wichtige Zeichen:
 
-[!UICONTROL Sample Key]: `4s3234`
+Beispielschlüssel: `4s3234`
 
 * `4` = Markenname
 * `s` = Suchmaschine, z. B. Google
@@ -308,7 +296,7 @@ Zum Hinzufügen einer Regel ordnen Sie eine Bedingung einer Klassifizierung zu, 
 
 >[!NOTE]
 >
->Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie über 100 Regeln haben, sollten Sie den Regelsatz mithilfe von [Unterklassifizierungen](/help/components/classifications/c-sub-classifications.md) vereinfachen.
+>Im Rahmen dieses Verfahrens müssen Sie die Regeln auf eine oder mehrere Report Suites anwenden. Es wird empfohlen, zwischen 500 und 1000 Regeln in einen Regelsatz aufzunehmen. Es gibt allerdings keine Begrenzungen. Wenn Sie über 100 Regeln haben, vereinfachen Sie Ihren Regelsatz ggf. mithilfe von [Unterklassifizierungen](/help/components/classifications/importer/subclassifications.md).
 
 So können Sie eine Klassifizierungsregel hinzufügen oder bearbeiten:
 

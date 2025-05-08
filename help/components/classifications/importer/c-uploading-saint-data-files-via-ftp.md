@@ -3,18 +3,18 @@ description: Hochladen von Datendateien über FTP.
 title: FTP-Import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 73%
+source-wordcount: '725'
+ht-degree: 72%
 
 ---
 
-# FTP-Import
+# FTP-Import (veraltet)
 
 >[!IMPORTANT]
 >
->Es wird nicht mehr empfohlen, FTP zum Importieren zu verwenden, wie auf dieser Seite beschrieben.
+>Adobe empfiehlt nicht mehr, FTP zum Importieren zu verwenden, wie auf dieser Seite beschrieben.
 >
 >FTP wird nicht empfohlen, da es sich um eine unverschlüsselte Methode zur Freigabe von Dateien handelt, was bedeutet, dass jeder den Dateiinhalt sowie den Benutzernamen und das Passwort für das Konto abfangen kann.
 >

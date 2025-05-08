@@ -3,18 +3,18 @@ description: Definitionen der Elemente auf den Seiten im Classification Rule Bui
 title: Klassifizierungsregeln – Definitionen
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '862'
 ht-degree: 94%
 
 ---
 
-# Klassifizierungsregeln – Definitionen
+# Klassifizierungsregeldefinitionen (veraltet)
 
 Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 
-## Seite „Regeln“  {#section_4A5BF384EEEE4994B6DC888339833529}
+## Seite „Regeln“ 
 
 Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
 

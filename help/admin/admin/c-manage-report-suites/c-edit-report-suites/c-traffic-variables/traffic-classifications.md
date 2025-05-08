@@ -5,10 +5,10 @@ title: Traffic-Klassifizierung
 feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 92%
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,13 @@ ht-degree: 92%
 
 Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
 
-## Traffic-Klassifizierung {#concept_028079B29A9C412AA68910A87E11176F}
+## Traffic-Klassifizierung
 
 Mit Traffic-Classifications können Sie Traffic-Variablen (Eigenschaften) klassifizieren. Traffic-Classifications können nur Text-Classifications nutzen.
 
 Auf der Seite „Traffic-Classifications“ können Sie Classifications für ausgewählte Report Suites erstellen. Nach der Classification kann jeder Bericht, den Sie mithilfe der wichtigen Daten erstellen können, auch mithilfe der zugeordneten Attribute erstellt werden.
 
-Nach der Aktivierung der Klassifizierungen verwenden [Classifications Importer](/help/components/classifications/importer/c-working-with-saint.md), um der entsprechenden Klassifizierung bestimmte Werte zuzuweisen.
-
-## Hinzufügen einer Traffic-Klassifizierung {#task_4DB49CCB1D764483907BC33A5CEB7315}
-
-<!-- 
-
-t_classification_add_traffic.xml
-
- -->
+## Hinzufügen einer Traffic-Klassifizierung
 
 So fügen Sie Klassifizierungen für die ausgewählten Report Suites hinzu bzw. bearbeiten sie:
 

@@ -3,14 +3,14 @@ description: Mit dem Importeur können Sie Classification-Daten in großen Menge
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
+source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 90%
 
 ---
 
-# Klassifizierungsdatendateien
+# Klassifizierungsdatendateien (veraltet)
 
 Mit dem Importeur können Sie Classification-Daten in großen Mengen in Form einer Classification-Datendatei in die Analytics-Berichterstellung hochladen. Für den Import ist ein besonderes Dateiformat erforderlich, damit die Daten erfolgreich hochgeladen werden.
 
@@ -29,7 +29,7 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 * Der Wert von Classifications darf nicht 0 (null) sein.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
 * Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [auskommentiert](/help/components/classifications/importer/t-classifications-escape-data.md) ist. Sonderzeichen umfassen:
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [auskommentiert](/help/components/classifications/importer/importer-faq.md) ist. Sonderzeichen umfassen:
 
   ```text
   \t     tab character 
@@ -40,13 +40,13 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
 
   Das Komma ist kein Sonderzeichen.
 
-* Classifications können kein Caret (^) enthalten, da mit diesem Zeichen eine Unter-Classification gekennzeichnet wird.
+* Klassifizierungsnamen dürfen kein Caret (^) enthalten, da dieses Zeichen eine Unterklassifizierung bezeichnet.
 * Vorsicht bei der Verwendung von Bindestrichen. Wenn Sie beispielsweise einen Bindestrich (-) in einem sozialem Begriff verwenden, erkennt Social ihn als [!DNL Not]-Operator (Minuszeichen). Wenn Sie beispielsweise mit dem Import *`fragrance-free`* als Begriff angeben, interpretiert Social den Begriff folgendermaßen: Parfüm *`minus`* frei. Dadurch werden Wortlaute mit den Begriffen *`fragrance`*, jedoch nicht *`free`* erfasst.
-* Zeichenbeschränkungen werden erzwungen, um Berichtdaten zu klassifizieren. Wenn Sie beispielsweise eine Klassifizierungstextdatei für Produkte (*`s.products`*) mit Produktnamen mit mehr als 100 Zeichen (Byte) hochladen, werden die Produkte nicht in den Berichten angezeigt. Für Trackingcodes und für alle benutzerdefinierten Konversionsvariablen (eVars) sind jeweils 255 Byte zulässig. Diese Richtlinie betrifft auch Klassifizierungs- und Unterklassifizierungsspaltenwerte, für die dieselbe Begrenzung auf 255 Bytes gilt.
+* Zeichenbeschränkungen werden erzwungen, um Berichtdaten zu klassifizieren. Wenn Sie beispielsweise eine Klassifizierungstextdatei für Produkte (*`s.products`*) mit Produktnamen mit mehr als 100 Zeichen (Byte) hochladen, werden die Produkte nicht in den Berichten angezeigt. Für Trackingcodes und für alle benutzerdefinierten Konversionsvariablen (eVars) sind jeweils 255 Byte zulässig. Diese Richtlinie erstreckt sich auch auf Spaltenwerte für Klassifizierungs- und Unterklassifizierungen, für die dieselbe Beschränkung von 255 Byte gilt.
 * Tabulatorgetrennte Datendatei (Sie können die Vorlagendatei mit jeder Tabellenkalkulationsanwendung oder einem Texteditor erstellen).
-* Die Dateierweiterung muss entweder [!DNL .tab] oder [!DNL .txt] lauten.
+* Die Dateierweiterung muss entweder `.tab` oder `.txt` lauten.
 * Ein Rautenzeichen (#) kennzeichnet eine Zeile als Benutzerkommentar. Sämtliche mit # beginnenden Zeilen werden von Adobe ignoriert.
-* Ein doppeltes Rautenzeichen, gefolgt von SC (## SC) kennzeichnet die Zeile als Kopfzeilenkommentar vor der Verarbeitung, der von der Berichterstellung genutzt wird. Löschen Sie diese Zeilen nicht.
+* Ein Doppelpfund-Zeichen gefolgt von SC (`## SC`) kennzeichnet die Zeile als Vorab-Header-Kommentar, der vom Reporting verwendet wird. Löschen Sie diese Zeilen nicht.
 * Classification-Exporte können aufgrund von Zeilenumbruchzeichen im Schlüssel doppelte Schlüssel aufweisen. Bei einem FTP- oder Browser-Export können Sie dies vermeiden, indem Sie Anführungszeichen für das FTP-Konto aktivieren. Dadurch wird jeder Schlüssel mit Zeilenumbruchzeichen in Anführungszeichen gesetzt.
 * Die Zelle C1 in der ersten Zeile der Importdatei enthält eine Versionskennung, die festlegt, wie Classifications die Verwendung von Anführungszeichen im Rest der Datei handhaben.
 
@@ -90,10 +90,6 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
  </tbody> 
 </table>
 
->[!MORELIKETHIS]
->
->* [Häufige Probleme beim Hochladen von](https://helpx.adobe.com/de/analytics/kb/common-saint-upload-issues.html)
-
 ## Format der Spaltenüberschrift
 
 >[!NOTE]
@@ -112,92 +108,11 @@ Jeder Wert muss innerhalb des Systems eindeutig sein. Der Wert in diesem Feld en
 >
 >Die Werte in der Überschrift der Spalte [!UICONTROL Klassifizierungen] müssen die Namenskonvention für Klassifizierungen exakt erfüllen, da sonst der Import fehlschlägt. Wenn die Administratorin oder der Administrator beispielsweise im [!UICONTROL Campaign Set-up Manager] den Wert [!UICONTROL Campaigns] in [!UICONTROL Internal Campaign Names] ändert, muss dies ebenfalls in die Spaltenüberschrift übernommen werden. „Schlüssel“ ist ein reservierter Klassifizierungswert (Kopfzeile). Neue Klassifizierungen mit dem Namen „Schlüssel“ werden nicht unterstützt.
 
-Darüber hinaus unterstützt die Datendatei weitere Überschriftenkonventionen zur Kennzeichnung von Unterklassifizierungen und anderen spezialisierten Datenspalten:
+Darüber hinaus unterstützt die Datendatei die folgenden zusätzlichen Überschriftenkonventionen zum Identifizieren von Unterklassifizierungen und anderen spezialisierten Datenspalten:
 
-### Überschrift einer Unter-Classification
+### Untergliederungsüberschrift
 
-Beispielsweise ist [!UICONTROL Campaigns^Owner] eine Spaltenüberschrift für die Spalte, die Werte zum [!UICONTROL Kampagnenverantwortlichen] enthält. Vergleichbar ist [!UICONTROL Creative Elements^Size] eine Spaltenüberschrift für die Spalte, die die [!UICONTROL Größen]-Unter-Classification der [!UICONTROL Kreative-Elemente]-Classification enthält.
-
-### Klassifizierungsmetrik-Überschriften
-
-So bezieht sich beispielsweise [!UICONTROL Campaigns^~Cost] auf die [!UICONTROL Kosten] metrik in der [!UICONTROL Kampagnen]-Classification.
-
-### PER-Modifizierer-Überschriften
-
-*`Per Modifier`*-Überschriften werden durch Hinzufügen von *`~per`* zur Classification-Metrik-Überschrift gekennzeichnet. Wenn die *`Metric`*-Überschrift beispielsweise *`Campaigns^~Cost`* lautet, lautet die Überschrift des PER-Modifizierers *`Campaigns^~Cost~per`*. Adobe unterstützt die folgenden *`PER Modifier`*-Keywords:
-
-Diese Zeichen haben in einer Datendatei eine spezielle Bedeutung. Vermeiden Sie nach Möglichkeit, diese Wörter in Attributnamen und -daten zu verwenden.
-
-**FIXED:** Fester Wert. Es wird keine Skalierung durchgeführt.
-
-**TAG:** Multipliziert den Wert mit der Anzahl der Tage im Bericht.
-
-**BESTELLUNG:** Multipliziert den Wert mit der Anzahl der Bestellungen für den Zeileneintrag im Bericht.
-
-**KASSE:** Multipliziert den Wert mit der Anzahl der Kassengänge für den Zeileneintrag im Bericht.
-
-**EINHEIT:** Multipliziert den Wert mit der Anzahl der Einheiten für den Zeileneintrag im Bericht.
-
-**UMSATZ:** Multipliziert den Wert mit dem Umsatz für den Zeileneintrag im Bericht.
-
-**SCADD:** Multipliziert den Wert mit der Anzahl des auftretenden Ereignisses [!UICONTROL Zusatz zum Warenkorb] pro Zeileneintrag im Bericht.
-
-**SCREMOVE:** Multipliziert den Wert mit der Anzahl des auftretenden Ereignisses [!UICONTROL Entnahme aus Warenkorb] pro Zeileneintrag im Bericht.
-
-**INSTANZ:** Multipliziert den Wert mit der Anzahl der Instanzen für den Zeileneintrag im Bericht.
-
-**KLICK:** Multipliziert den Wert mit der Anzahl der Klicks für den Zeileneintrag im Bericht.
-
-**EREIGNIS:** Multipliziert den Wert mit der Anzahl der auftretenden, jeweils angegebenen benutzerspezifischen Ereignisse pro Zeileneintrag im Bericht.
-
-**Beispiel:** Wenn Kampagne A 10.000 USD kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 10000, und die Spalte [!UICONTROL Campaigns^~Cost~per] enthält die Angabe [!UICONTROL FIXED]. Beim Anzeigen der Kosten für Kampagne A in den Berichten sehen Sie den Betrag von 10.000 USD als Festkosten der Kampagne A für den Datumsbereich.
-
-**Beispiel:** Wenn Kampagne B ca. 2 USD pro Klick kostet, enthält die Spalte [!UICONTROL Campaigns^~Cost] den Wert 2 und die Spalte **[!UICONTROL Campaigns^~Cost~per]** enthält die Angabe [!UICONTROL CLICK]. Beim Anzeigen der Kosten für Kampagne B in den Berichten führt Adobe für den Datumsbereich des Berichts schnell entsprechende Berechnungen (2 &#42; [Anzahl der Klicks]) durch. Damit erhalten Sie eine Gesamtkostenkalkulation basierend auf im Zuge von Kampagne B erfolgten Klicks.
-
-### Datum
-
-Kampagnendatumsangaben sind üblicherweise Datumsbereiche (Start- und Enddaten), die einzelnen Kampagnen zugewiesen wurden. Datumsangaben müssen das Format JJJJ/MM/TT aufweisen, zum Beispiel 2013/06/15-2013/06/30.
-
-Weitere Informationen finden Sie unter [Konversion-Classifications](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=de).
-
->[!NOTE]
->
->Seit der [!DNL Analytics]-Wartungsversion vom 10. Mai 2018 schränkt Adobe die Funktion für datumsaktivierte und numerische Klassifizierungen ein. Diese Classification-Typen wurden aus den Admin- und Classification Importer-Schnittstellen entfernt. Es können keine neuen datumsaktivierten und Numerisch-Classifications hinzugefügt werden. Vorhandene Classifications können weiterhin über den Standard-Classification-Arbeitsablauf verwaltet (hochgeladen, gelöscht) werden und stehen auch noch für die Berichterstellung zur Verfügung.
-
-## Verwendung von Datumsangaben zusammen mit [!UICONTROL Klassifizierungen] {#section_966A07B228CD4643B258E73FB8BA150A}
-
-Mit [!UICONTROL Klassifizierungen] können Sie Datumsbereiche zu Ihren Kampagnen oder anderen Konversions [!UICONTROL klassifizierungen] zuweisen, um eine genauere Kampagnenmessung zu erreichen. Nachdem Sie den Datumsbereich eines Wertes angegeben haben, werden übereinstimmende Werte, die außerhalb des Datumsbereichs auftreten, nicht klassifiziert. Dies ist für Kampagnenmessungen nützlich, bei denen die genauen Tage genutzt werden sollen, an denen die Kampagne aktiv war, und nicht alle Hits, die mit der Kampagne selbst übereinstimmen. Um einen Wert erfolgreich mit einem Datumsbereich zu klassifizieren, müssen die folgenden Voraussetzungen erfüllt werden:
-
-* Die [!UICONTROL Classification] muss auf einer Konversionsvariable basieren.
-* Die verwendete [!UICONTROL Classification] muss auf „Datumsaktiviert“ oder „Numerisch 2“ eingestellt sein.
-* Der betreffende Datumsbereich muss ein Anfangsdatum und (optional) ein Enddatum enthalten.
-
-So klassifizieren Sie Kampagnen basierend auf einem Datumsbereich:
-
->[!IMPORTANT]
->Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind.
-
-1. Melden Sie sich bei [!DNL Analytics] an und gehen Sie zu „Admin“ > „Klassifizierungen“.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Browser-Export]**, stellen Sie sicher, dass die Einstellungen für die datumsaktivierte Classification richtig sind, und klicken Sie dann auf „Datei exportieren“.
-1. Öffnen Sie diese Datei in Microsoft Excel oder einem anderen Tabelleneditor, mit dem Sie vertraut sind.
-1. Eine der Spalten endet auf
-
-   ^~Punkt~.
-Dies ist die Spalte, in der Sie den Datumsbereich eingeben müssen.
-1. Geben Sie unter dieser Spalte den Datumsbereich der einzelnen Werte im folgenden Format ein:
-
-   `YYYY/MM/DD - YYYY/MM/DD`. Achten Sie dabei auf Folgendes:
-
-   * Behalten Sie die Leerzeichen vor und nach dem Bindestrich bei.
-   * Trennen Sie Bereiche mit einem Bindestrich (-) und nicht mit einem Gedankenstrich oder Geviertstrich.
-   * Wenn der Monat oder Tag einstellig ist, muss eine Null vorangestellt werden.
-   * Der Datumsbereich muss ein Anfangsdatum aufweisen, das Enddatum ist optional.
-
-1. Speichern Sie die Datei und laden Sie sie in [!DNL Analytics] hoch, indem Sie „Admin“ | „Klassifizierungen“ | „Datei importieren“ aufrufen.
-
->[!NOTE]
->
->Ein spezieller Schlüsselwert kann nicht mehrere Datumsbereiche aufweisen.
+Beispiel: `Campaigns^Owner` ist eine Spaltenüberschrift für die Spalte, die `Campaign Owner` enthält. `Creative Elements^Size` ist auch eine Spaltenüberschrift für die Spalte, die die `Size` Unterklassifizierung der `Creative Elements` enthält.
 
 ## Fehlerbehebung für Classifications
 

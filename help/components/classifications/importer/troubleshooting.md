@@ -3,10 +3,10 @@ title: Fehlerbehebung beim Klassifizierungs-Importer
 description: Häufige Upload-Probleme bei der Verwendung von Classification Importer.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '875'
+ht-degree: 96%
 
 ---
 
@@ -31,8 +31,8 @@ Wenn die hochgeladene Datei richtig formatiert ist, versucht der Uploader, mögl
 
 * **Zeilen, die bereits klassifiziert wurden**: Wenn Sie versuchen, Zeilen hochzuladen, die bereits mit demselben Wert klassifiziert wurden, gibt der Importer Zeilen zurück, die keine Auswirkungen hatten. Dies ist so vorgesehen, da Klassifizierungen einen Schlüsselwert nicht erneut mit derselben Klassifizierung klassifizieren. Es handelt sich um eine Benachrichtigung anstelle eines Fehlers. Sie müssen sich also keine Gedanken darum machen, Zeilen innerhalb einer Exportdatei zu ändern. Adobe empfiehlt, nur geänderte Zeilen hochzuladen.
 * **Kopfzeile stimmt nicht mit hochgeladener Variable überein**: Wenn Sie eine Classification-Vorlage für die Trackingcode-Dimension herunterladen und versuchen, sie in eine eVar-Classification hochzuladen, schlägt dies fehl. Verwenden Sie Exportdateien nur für die spezifischen Variablen, aus denen sie exportiert wurden.
-* **Schlüssel- oder Classification-Wert enthält 0**: Classifications können den Wert 0 nicht von einer leeren Zeile unterscheiden und können somit diesen Wert nicht klassifizieren. Weitere Informationen finden Sie in den [häufig gestellten Fragen zu Klassifizierungen](../faq.md).
-* **Die Classification-Datei enthält Kommas oder Sonderzeichen**: Weitere Informationen finden Sie in den [häufig gestellten Fragen zu Classifications](../faq.md).
+* **Schlüssel- oder Classification-Wert enthält 0**: Classifications können den Wert 0 nicht von einer leeren Zeile unterscheiden und können somit diesen Wert nicht klassifizieren. Weitere Informationen finden [ unter Häufig gestellte Fragen ](importer-faq.md) Classification Importer .
+* **Die Classification-Datei enthält Kommas oder Sonderzeichen**: Informationen zum Maskieren von Werten finden [ in den ](importer-faq.md) zum Classification Importer .
 * **Zusätzliche Tabulatoren in der hochgeladenen Datei**: Manchmal werden beim Bearbeiten von Classification-Dateien versehentlich zusätzliche Tabs hinzugefügt. Jede Zeile erfordert eine identische Anzahl von Tabulatoren, damit sie richtig verarbeitet werden kann. Um zu überprüfen, ob die Datei über zusätzliche Tabulatoren verfügt, markieren Sie den gesamten Text in einem Texteditor und stellen Sie sicher, dass keine Zeilen Leerzeichen am Ende haben.
 * **Doppelte Schlüsselwerte in der Datei**: Jeder Schlüsselwert darf nur eine Classification pro Spalte aufweisen. Wenn Sie versuchen, denselben Wert mehrmals zu klassifizieren, gibt der Importer einen Fehler aus.
 * **Unterklassifizierungen sind vorhanden und falsch konfiguriert**: Wenn Unterklassifizierungen vorhanden sind, überprüfen Sie Folgendes:
