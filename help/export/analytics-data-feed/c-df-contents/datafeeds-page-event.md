@@ -1,25 +1,46 @@
 ---
-description: Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
-keywords: Daten-Feed, Seite, Ereignis, „page_event“, „post_page_event“
+description: Suchtabelle zur Bestimmung des Typs eines Treffers auf der Grundlage des Seitenereignisses.
+keywords: page;event;page_event;post_page_event
 title: Seitenereignissuche
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 # Seitenereignissuche
 
-Suchtabelle zur Bestimmung der Art eines Treffers auf der Grundlage des Werts „page_event“.
+Suchtabelle zur Bestimmung des Typs eines Treffers auf der Grundlage des `page_event`. Wie in der [Datenspaltenreferenz“ erwähnt](datafeeds-reference.md) sind die `page_event` und `post_page_event` Spalten winzig unsigniert.
 
-| Treffertyp | Wert `page_event` | Wert `post_page_event` |
+* Siehe [`t()`](/help/implement/vars/functions/t-method.md) , um die Implementierung von Seitenansichtsaufrufen für AppMeasurement und die Web-SDK zu verstehen.
+* Siehe [`tl()`](/help/implement/vars/functions/tl-method.md) , um die Implementierung von Linktracking-Aufrufen für AppMeasurement und die Web-SDK zu verstehen.
+* Unter [Implementieren von Adobe Analytics mit der Adobe Experience Platform-Edge Network](/help/implement/aep-edge/overview.md) erfahren Sie, wie Adobe Analytics XDM-Payloads in Seitenereignistypen übersetzt.
+
+| Wert `page_event` | Wert `post_page_event` | Beschreibung |
 | --- | --- | --- |
-| Seitenansichten | 0: Alle Seitenansichtsaufrufe und `trackState`-Aufrufe von mobilen SDKs | Gleicher Wert wie `page_event` |
-| Linktracking | 10: Benutzerspezifische Links und `trackAction`-Aufrufe in mobilen SDKs<br>11: Downloadlinks<br>12: Exitlinks | 100: Benutzerspezifische Links und `trackAction`-Aufrufe in mobilen SDKs<br>101: Downloadlinks<br>102: Exitlinks |
-| Meilenstein-Video | 31: Medienstart<br>32: Medienaktualisierungen (keine andere Variablenverarbeitung)<br>33: Medienaktualisierungen (mit anderen Variablen) | 76: Medienstart<br>77: Medienaktualisierungen (keine andere Variablenverarbeitung)<br>78: Medienaktualisierungen (mit anderen Variablen) |
-| Heartbeat-Video | 50: Medien-Stream-Start (nicht Primetime)<br>51: Medien-Stream-Beendigung (nicht Primetime)<br>52: Medien-Stream-Scrubbing (nicht Primetime)<br>53: Medien-Stream-Fortsetzung (nicht Primetime)<br>54: Medien-Stream-Anzeigenstart (nicht Primetime)<br>55: Medien-Stream-Anzeigenbeendigung (nicht Primetime)<br>56: Medien-Stream-Anzeigen-Scrubbing (nicht Primetime)<br>60: Medien-Stream-Start (Primetime)<br>61: Medien-Stream-Beendigung (Primetime)<br>62: Medien-Stream-Scrubbing (Primetime)<br>63: Medien-Stream-Fortsetzung (Primetime)<br>64: Medien-Stream-Anzeigenstart (Primetime)<br>65: Medien-Stream-Anzeigenbeendigung (Primetime)<br>66: Medien-Stream-Anzeigen-Scrubbing (Primetime) | Gleicher Wert wie `page_event` |
-| Umfrage | 40: Jeder Aufruf, der aus der Umfrage generiert wurde | 80: Jeder Aufruf, der aus der Umfrage generiert wurde |
-| Analytics for Target | 70: Treffer enthält Target-Aktivitätsdaten | Gleicher Wert wie `page_event` |
+| `0` | `0` | Alle Aufrufe von Standardseitenansichten. Dies ist der Standardwert für die meisten Treffer. |
+| `10` | `100` | Benutzerdefinierte Links. Setzen Sie den Link-Typ auf `o` (AppMeasurement) oder `xdm.web.webInteraction.type` auf `other` (Web SDK oder Mobile SDK). |
+| `11` | `101` | Downloadlinks. Setzen Sie den Link-Typ auf `d` (AppMeasurement) oder `xdm.web.webInteraction.type` auf `download` (Web SDK oder Mobile SDK). |
+| `12` | `102` | Exitlinks Setzen Sie den Link-Typ auf `e` (AppMeasurement) oder `xdm.web.webInteraction.type` auf `exit` (Web SDK oder Mobile SDK). |
+| `31` | `76` | Medienstart |
+| `32` | `77` | Medienaktualisierungen (ohne andere Variablenverarbeitung) |
+| `33` | `78` | Medienaktualisierungen (mit anderer Variablenverarbeitung) |
+| `40` | `80` | Umfrage |
+| `50` | `50` | Start von Streaming-Medien |
+| `51` | `51` | Schließen von Streaming-Medien |
+| `52` | `52` | Bereinigung von Streaming-Medien |
+| `53` | `53` | Streaming-Medien bleiben am Leben |
+| `54` | `54` | Anzeigenstart für Streaming-Medien |
+| `55` | `55` | Streaming-Medien und Schließen |
+| `56` | `56` | Streaming-Medien und Bereinigung |
+| `60` | `60` | Medienstart zu Primetime |
+| `61` | `61` | Primetime-Medienschluss |
+| `62` | `62` | Primetime-Medienbereinigung |
+| `63` | `63` | Primetime-Medien bleiben am Leben |
+| `64` | `64` | Anzeigenstart für Primetime-Medien |
+| `65` | `65` | Primetime-Medienanzeige schließen |
+| `66` | `66` | Primetime-Medien und -Scrubbing |
+| `70` | `70` | Enthält Target-Aktivitätsdaten |
