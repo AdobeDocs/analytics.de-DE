@@ -3,10 +3,10 @@ description: Erstellen eines einfachen Containers für die Datenerfassung in Ado
 title: Erstellen einer Report Suite
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Dieser Artikel wurde für Administratoren oder Adobe Analytics-Administratoren a
 ## Erstellen einer Report Suite {#create-report-suite}
 
 1. Klicken Sie auf **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. Klicken Sie auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Report Suite]**.
+1. Klicken Sie **[!UICONTROL Report Suite hinzufügen]**.
 1. Wählen Sie entweder eine vordefinierte Vorlage oder eine vorhandene Report Suite als [Vorlage](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md) aus.
 
    >[!NOTE]
