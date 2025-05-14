@@ -4,9 +4,9 @@ description: Verwenden Sie diese Variable, um Online- und Offline-Daten miteinan
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 89%
 
 ---
@@ -27,7 +27,7 @@ Adobe speichert alle Transaktions-ID-Werte (verknüpft und nicht verknüpft) fü
 
 Die Transaktions-ID ist den folgenden Variablen zugeordnet:
 
-* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` oder `xdm.commerce.order.payments.transactionID`
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` oder `data.__adobe.analytics.xact`
 
 ## Transaktions-ID unter Verwendung der Adobe Analytics-Erweiterung
@@ -38,7 +38,7 @@ Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweit
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Transaktions-ID].
 
 Sie können die Transaktions-ID auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
