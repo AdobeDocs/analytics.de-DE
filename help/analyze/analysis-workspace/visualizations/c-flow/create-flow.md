@@ -7,7 +7,7 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="Beginnt mit"
->abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+>abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="Enthält"
->abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+>abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="Endet mit"
->abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+>abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
 >title="Pfaddimension"
->abstract="Wählen Sie eine Dimension aus, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente hin- oder von ihr wegführt."
+>abstract="Wählen Sie eine Dimension aus, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von dieser weg führt."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -41,32 +41,32 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_disabled"
 >title="Wiederholungen einschließen (deaktiviert)"
->abstract="Wiederholungen können nicht aus Flussvisualisierungen entfernt werden, die mehrwertige Dimensionen enthalten."
+>abstract="Wiederholungen können nicht aus Flussvisualisierungen entfernt werden, die Dimensionen mit mehreren Werten enthalten."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Wiederholungen einschließen"
->abstract="Flussvisualisierungen basieren auf Instanzen einer Dimension. Mit dieser Einstellung haben Sie die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B.: Seitenneuladungen."
+>abstract="Flussvisualisierungen basieren auf Instanzen einer Dimension. Diese Einstellung gibt Ihnen die Möglichkeit, wiederholte Instanzen ein- oder auszuschließen, z. B. Seitenneuladungen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
 >title="Begrenzung auf erstes/letztes Auftreten"
->abstract="Die Ergebnisse sind auf Pfade beschränkt, wenn der erste/letzte Touchpoint ein Ein-/Austritt ist."
+>abstract="Die Ergebnisse sind auf Pfade beschränkt, wenn der erste/letzte Touchpoint ein Ein-/Ausstieg ist."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="Anzahl der Spalten"
->abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+>abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Erweiterte Elemente pro Spalte"
->abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+>abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
->title="Auf Update zurücksetzen"
->abstract="Dieses Feld kann nur beim ersten Build festgelegt werden. Um dieses Feld zu aktualisieren, wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
+>title="Zum Aktualisieren zurücksetzen"
+>abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 
 
@@ -175,7 +175,7 @@ Verwenden Sie ein Kontextmenü auf einem beliebigen Knoten in der Flussvisualisi
 | **[!UICONTROL Element ausschließen]** oder **[!UICONTROL Ausgeschlossene Elemente wiederherstellen]** | Entfernt einen bestimmten Knoten aus der Spalte und erstellt daraus automatisch einen Filter oben in der Spalte. Um das ausgeschlossene Element wiederherzustellen, wählen Sie im Kontextmenü **[!UICONTROL Ausgeschlossenes Element wiederherstellen]** aus. Sie können den Filter auch oben in der Spalte öffnen und die Box mit dem Element entfernen, das Sie gerade ausgeschlossen haben. |
 | **[!UICONTROL Trend]** | Mit dieser Option erstellen Sie ein Trenddiagramm für den Knoten. |
 | **[!UICONTROL Nächste Spalte anzeigen]** / **[!UICONTROL Vorherige Spalte anzeigen]** | Zeigt die nächste (rechte) oder vorherige (linke) Spalte der Visualisierung an. |
-| **[!UICONTROL Spalte ausblenden]**&#x200B;n | Blendet die ausgewählte Spalte aus der Visualisierung aus. |
+| **[!UICONTROL Spalte ausblenden]**n | Blendet die ausgewählte Spalte aus der Visualisierung aus. |
 | **[!UICONTROL Gesamte Spalte erweitern]** | Hiermit erweitern Sie eine Spalte so, dass alle Knoten angezeigt werden. In der Standardeinstellung werden nur die obersten fünf Knoten angezeigt. |
 | **[!UICONTROL Zielgruppe aus Auswahl erstellen]** | Erstellt eine Zielgruppe basierend auf der ausgewählten Spalte. |
 | **[!UICONTROL Gesamte Spalte reduzieren]** | Diese Option blendet alle Knoten in einer Spalte aus. |

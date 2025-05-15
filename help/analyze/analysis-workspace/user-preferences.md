@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Sie können für alle neu erstellten Projekte oder Bedienfelder die auf Analysis
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/3429986/?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einstellungen verwalten](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Sie können die allgemeinen Voreinstellungen für alle neuen Projekte anpassen, 
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
->title="Kommentare zu Projekten zulassen"
+>title="Kommentieren von Projekten zulassen"
 >abstract="Wenn diese Option aktiviert ist, ist in der rechten Leiste jedes Projekts in Analysis Workspace ein Kommentarbereich verfügbar."
 
 Sie können Unternehmensvoreinstellungen aktualisieren, die für alle Benutzerinnen und Benutzer sowie Projekte in Ihrer Organisation gelten. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter [Aktualisieren von Voreinstellungen](#update-preferences).
