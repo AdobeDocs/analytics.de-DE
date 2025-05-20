@@ -4,10 +4,10 @@ description: Verwenden Sie die Berechtigungselemente der Analytics-Werkzeuge, um
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 91%
+source-wordcount: '439'
+ht-degree: 82%
 
 ---
 
@@ -17,18 +17,19 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 
 | Berechtigungselement der Analytics-Tools | Beschreibung |
 |----|----|
-| [!UICONTROL Activity Map] | Gewährt Zugriff auf „Tools > Activity Map“. Ermöglicht dem Benutzer die Verwendung der Activity Map-Erweiterung. |
-| [!UICONTROL Advertising Analytics-Verwaltung] | Ermöglicht Nutzern die Einrichtung, Bearbeitung und Anzeige von Werbesuchkonten. |
-| [!UICONTROL Zugriff auf Analysis Workspace] | Gewährt Zugriff auf Analysis Workspace. |
+| [!UICONTROL Activity Map] | Gewährt Zugriff auf „Tools > Activity Map“. Außerdem kann der Benutzer die Activity Map-Erweiterung verwenden. |
+| [!UICONTROL Advertising Analytics-Verwaltung] | Gewährt Zugriff auf: Admin > Alle Administratoren > Advertising Analytics. |
 | [!UICONTROL Analysis Workspace: als Vorlage speichern] | Gewährt Zugriff auf „Projekt > Als Vorlage speichern“ in Analysis Workspace. |
 | [!UICONTROL Anmerkungserstellung] | Ermöglicht das Erstellen von Anmerkungen. |
 | [!UICONTROL Erstellung berechneter Metriken] | Ermöglicht die Erstellung berechneter Metriken für alle Analytics-Funktionen. |
 | [!UICONTROL Co-Branding] | Nicht verwendet. |
-| [!UICONTROL Code-Manager] | Aus Gründen der Kompatibilität mit älteren Apps beibehalten. Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Code-Manager“. In den meisten Fällen können Sie stattdessen die Bibliotheken verwenden, die in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung enthalten sind. |
+| [!UICONTROL Code-Manager] | Gewährt Zugriff auf: Admin > Alle Administratoren > Code-Manager. |
 | [!UICONTROL Code-Manager – Web-Services] | Gewährt Zugriff auf den Code-Manager über die 1.4-API. |
+| [!UICONTROL Komponentenmigration] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Komponentenmigration“. |
+| [!UICONTROL Aktuelle Daten] | Nicht verwendet. |
 | [!UICONTROL Excel-Lizenzanwender] | Nicht verwendet. |
 | [!UICONTROL Report Suites ausblenden] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Report Suites ausblenden“. Ermöglicht das Ausblenden von Report Suites in der Organisation, unabhängig vom Report Suite-Zugriff. |
-| [!UICONTROL Integrationen (Erstellen)] | Nicht verwendet. Data Connectors wurden eingestellt. |
+| [!UICONTROL Integrationen (Erstellen)] | Nicht verwendet. |
 | [!UICONTROL Integrationen (Aktualisieren)] | Nicht verwendet. |
 | [!UICONTROL Integrationen (Löschen)] | Nicht verwendet. |
 | [!UICONTROL Lab-Zugriff] | Gewährt Benutzern Zugriff auf Labs und die Prototypen in Labs. |
@@ -38,6 +39,7 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | [!UICONTROL Ausstehende Aktionen] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Ausstehende Aktionen“. |
 | [!UICONTROL Voreinstellungen] | Nicht verwendet. |
 | [!UICONTROL Report Builder] | Aktiviert die Schaltfläche zum Herunterladen unter „Tools > Report Builder“ und ermöglicht dem Benutzer die Authentifizierung in Microsoft Excel. |
+| [!UICONTROL Zugriff auf Reports &amp; Analytics] | Nicht verwendet. |
 | [!UICONTROL Sicherheit] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Sicherheits-Manager“. |
 | [!UICONTROL Erstellung von Segmenten] | Ermöglicht die Erstellung und Freigabe von Segmenten für alle Analytics-Funktionen. |
 | [!UICONTROL Segmentveröffentlichung] | Gewährt die Möglichkeit, ein Segment beim Erstellen oder Bearbeiten zu einer Experience Cloud-Zielgruppe zu machen. |
@@ -47,3 +49,4 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | [!UICONTROL Traffic-Management] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Traffic-Management“. |
 | [!UICONTROL Zugriff auf Web Services] | Ermöglicht die Verwendung der API, einschließlich Authentifizierung bei Websites von Drittanbietern und dem Senden von API-Aufrufen. |
 | [!UICONTROL Web-Services] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Web-Services“. |
+| [!UICONTROL Zugriff auf Workspace-Projekte] | Gewährt Zugriff auf Analysis Workspace. **Dieses Berechtigungselement ist erforderlich, um Adobe Analytics verwenden zu können.** |
