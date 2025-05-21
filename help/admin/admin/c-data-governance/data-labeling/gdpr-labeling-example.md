@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ Angenommen, es liegen die folgenden Trefferdaten vor:
 
 ## Beispiel einer Zugriffsanfrage {#access}
 
-Wenn Sie eine Zugriffsanfrage stellen, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurücksenden können. Eine Datei ist eine CSV-Datei, die eine Zeile für jeden für die betroffene Person empfangenen Treffer und eine Spalte für jede Variable mit der entsprechenden Zugriffskennzeichnung enthält. Die andere Datei ist eine zusammenfassende HTML-Datei, in der jede Variable aufgelistet ist, gefolgt von allen eindeutigen Werten, die für diese Variable bei der betroffenen Person angezeigt wurden, und der Häufigkeit, mit der jeder eindeutige Wert angezeigt wurde.
+Wenn Sie eine Zugriffsanfrage übermitteln, erhalten Sie zwei Dateien, die Sie an die betroffene Person zurücksenden können. Die eine Datei ist eine CSV-Datei, die eine Zeile für jeden für die betroffene Person empfangenen Treffer und eine Spalte für jede Variable mit der entsprechenden Zugriffsbeschriftung enthält. Die andere Datei ist eine zusammenfassende HTML-Datei, in der jede einzelne Variable aufgelistet ist, gefolgt von allen eindeutigen Werten, die für diese Variable bei der betroffenen Person angezeigt wurden, und der Häufigkeit, mit der jeder eindeutige Wert angezeigt wurde.
 
-Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabelle angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur zurückgegeben, wenn eine Personen-ID verwendet wird und `expandIds` „true“ ist.
+Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabelle angegebenen Werte. Eine Anfrage kann nur eine Gerätedatei, eine Personendatei oder je eine von beiden zurückgeben. Zwei Zusammenfassungsdateien werden nur dann zurückgegeben, wenn eine Personen-ID verwendet wird und wenn `expandIds` auf „wahr“ festgelegt ist.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API-Werte</th>
-    <th rowspan="2">Summary<br/>file type<br/>returned</th>
+    <th rowspan="2">Typ der<br/>zurückgegebenen<br/>Zusammenfassungsdatei</th>
     <th colspan="5" style="text-align:center">Daten in der Zusammenfassungsdatei für den Zugriff</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabe
   </tr>
 </table>
 
-Beachten Sie, dass die Einstellung für `expandIDs` keinen Unterschied bei der Ausgabe macht, wenn eine Cookie-ID verwendet wird.
+Beachten Sie, dass die Einstellung für `expandIDs` keinen Einfluss auf die Ausgabe hat, wenn eine Cookie-ID verwendet wird.
 
 ## Beispiel für Löschanfragen {#delete}
 
@@ -219,7 +219,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 >[!NOTE]
 >
->Dies hat nur Einfluss auf Spalten in Zeilen, die `AAID=77` und eine `DEL-DEVICE` enthalten.
+>Dies hat nur Einfluss auf Spalten in Zeilen, die `AAID=77` und eine `DEL-DEVICE`-Beschriftung enthalten.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Wenn für eine Löschanfrage die API-Werte in der ersten Zeile der Tabelle verwe
 
 >[!NOTE]
 >
->Dies hat nur Einfluss auf cellColumns in Zeilen, die `user=Mary` und eine `DEL-PERSON` enthalten. In der Praxis wäre die Variable, die `A_ID` enthält, wahrscheinlich auch eine Prop oder eine eVar. Der Ersatzwert wäre eine Zeichenfolge, die mit `Privacy-` beginnt, gefolgt von einer zufälligen Zahl (GUID), anstatt den numerischen Wert durch einen anderen, zufälligen numerischen Wert zu ersetzen.
+>Dies hat Einfluss auf Spalten in Zeilen, die `user=Mary` und eine `DEL-PERSON`-Beschriftung enthalten. In der Praxis wäre die Variable, die `A_ID` enthält, wahrscheinlich auch eine Prop oder eine eVar. Der Ersatzwert wäre eine Zeichenfolge, die mit `Privacy-` gefolgt von einer zufälligen Nummer (GUID) beginnt, anstatt den numerischen Wert durch einen anderen, zufälligen numerischen Wert zu ersetzen.
 
 <table>
   <tr>

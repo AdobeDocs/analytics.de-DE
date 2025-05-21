@@ -5,9 +5,9 @@ user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -130,42 +130,42 @@ ht-degree: 88%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-   + [Integrationsmodul](vars/integrate.md)
-+ Vorbereiten der Implementierung von Adobe Analytics {#prepare}
-   + [Datenschicht erstellen](prepare/data-layer.md)
+   + [Integrieren des Moduls](vars/integrate.md)
++ Vorbereitungen für die Implementierung von Adobe Analytics {#prepare}
+   + [Erstellen einer Datenschicht](prepare/data-layer.md)
    + [Vergleich von Implementierungsmethoden](prepare/comparison.md)
    + [Überlegungen zur globalen Report Suite](prepare/global-rs.md)
    + [Implementieren von Multi-Suite-Tagging](prepare/multi-suite-tagging.md)
    + [Lösungsdesigndokument erstellen](prepare/solution-design.md)
    + [Übernahme einer bestehenden Adobe Analytics-Implementierung](prepare/existing-implementation.md)
-+ Analytics mit Experience Platform Edge implementieren {#aep-edge}
++ Implementieren von Analytics mit Experience Platform Edge {#aep-edge}
    + [Übersicht über Experience Edge](aep-edge/overview.md)
    + [Zuordnung von Datenobjektvariablen](aep-edge/data-var-mapping.md)
    + [Zuordnung von XDM-Objektvariablen](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
-      + [Web SDK – Übersicht](aep-edge/web-sdk/overview.md)
+      + [Übersicht über Web SDK](aep-edge/web-sdk/overview.md)
       + [Migrieren zum Web SDK mithilfe von Tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [Migrieren zum Web SDK mithilfe von JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [Neue Implementierung mithilfe von Tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [Neue Implementierung mithilfe von JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
-      + [Mobile SDK – Übersicht](aep-edge/mobile-sdk/overview.md)
+      + [Übersicht über Mobile SDK](aep-edge/mobile-sdk/overview.md)
    + Edge Network-API {#api}
-      + [Übersicht über die Edge Network-API](aep-edge/api/overview.md)
-+ Implementieren von Analytics mithilfe der Adobe Analytics-Erweiterung {#launch}
+      + [Übersicht über das Edge Network-API](aep-edge/api/overview.md)
++ Implementieren von Analytics mit der Adobe Analytics-Erweiterung {#launch}
    + [Übersicht über Tags](launch/overview.md)
    + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
    + [Bereitstellen in einer Entwicklungsumgebung](launch/deploy-dev.md)
    + [Validieren und Veröffentlichen in der Produktionsumgebung](launch/validate-publish-prod.md)
    + [Zuordnen von Datenschichtobjekten zu Datenelementen](launch/layer-to-elements.md)
    + [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
-+ Analytics mit JavaScript implementieren {#js}
++ Implementieren von Analytics mit JavaScript {#js}
    + [JavaScript-Übersicht](js/overview.md)
    + [Implementieren von Ausschluss-Links](js/opt-out.md)
    + [Variablenüberschreibungen](js/overrides.md)
    + [Aus H-Code migrieren](js/migrate-from-hcode.md)
    + H-Code {#h-code}
-      + [H-Code-Übersicht](js/h-code/overview.md)
+      + [Übersicht über H-Code](js/h-code/overview.md)
       + Dynamische Konten {#dynamicaccount}
          + [Übersicht über dynamische Konten](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
@@ -178,8 +178,8 @@ ht-degree: 88%
       + [Besuchsbeispiel](js/xdevice-visid/visit-example.md)
       + [Häufig gestellte Fragen zu veralteten geräteübergreifenden Themen](js/xdevice-visid/xdevice-faq.md)
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
-+ Analytics auf anderen Plattformen implementieren {#other}
-   + [Analytics mit fest programmierten Bildanforderungen implementieren](other/hardcoded.md)
++ Implementieren von Analytics auf anderen Plattformen {#other}
+   + [Implementieren von Analytics mit fest programmierten Bildanforderungen](other/hardcoded.md)
    + [Analytics auf Ajax implementieren](other/ajax.md)
    + [Analytics auf AMP implementieren](other/amp.md)
    + [Analytics auf digitalen Assistenten implementieren](other/digital-assistants.md)

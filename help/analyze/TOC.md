@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace – Übersicht](analysis-workspace/home.md)
    + Projekte {#build-workspace-project}
-      + [Übersicht über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Überblick über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Projekte erstellen](analysis-workspace/build-workspace-project/create-projects.md)
       + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
       + [Projektinhaltsverzeichnis](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + Ordner in Analysis Workspace {#workspace-folders}
+      + Ordner in Workspace {#workspace-folders}
          + [Über Ordner in Analysis Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern und Unterordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Löschen von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
@@ -49,9 +49,9 @@ ht-degree: 100%
    + Komponenten {#components}
       + [Komponentenübersicht](analysis-workspace/components/analysis-workspace-components.md)
       + [Verwenden von Komponenten in Workspace](analysis-workspace/components/use-components-in-workspace.md)
-      + [Komponentenbeschreibungen hinzufügen](analysis-workspace/components/add-component-descriptions.md)
+      + [Hinzufügen von Komponentenbeschreibungen](analysis-workspace/components/add-component-descriptions.md)
       + Anmerkungen {#annotations}
-         + [Anmerkungen – Übersicht](analysis-workspace/components/annotations/overview.md)
+         + [Übersicht über Anmerkungen](analysis-workspace/components/annotations/overview.md)
          + [Erstellen von Anmerkungen](analysis-workspace/components/annotations/create-annotations.md)
          + [Verwalten von Anmerkungen](analysis-workspace/components/annotations/manage-annotations.md)
          + [Anzeigen von Anmerkungen](analysis-workspace/components/annotations/view-annotations.md)
@@ -93,7 +93,7 @@ ht-degree: 100%
          + [Fallout-Übersicht](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Fallout-Visualisierung konfigurieren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Mehrdimensionaler Fallout](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [Segmente in der Fallout-Analyse anwenden](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [Anwenden von Segmenten in der Fallout-Analyse](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Fluss {#flow}
          + [Flussübersicht](analysis-workspace/visualizations/c-flow/flow.md)
          + [Flussvisualisierung konfigurieren](analysis-workspace/visualizations/c-flow/create-flow.md)
@@ -126,7 +126,7 @@ ht-degree: 100%
       + [Bedienfeld „Nächstes oder vorheriges Element“](analysis-workspace/c-panels/next-previous.md)
       + [Bedienfeld „Seitenzusammenfassung“](analysis-workspace/c-panels/page-summary.md)
       + [Bedienfeld „Quick Insights“](analysis-workspace/c-panels/quickinsight.md)
-      + Bedienfeld für den Segmentvergleich {#segment-comparison}
+      + Bedienfeld „Segmentvergleich“ {#segment-comparison}
          + [Übersicht über den Segmentvergleich](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -218,7 +218,7 @@ ht-degree: 100%
          + [Benutzerdefinierter Kalender](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [interaktive Steuerelemente](legacy-report-builder/data-requests/interactive-controls.md)
    + Layout – Anforderungs-Assistent: Schritt 2 {#layout}
-      + [Layout-Übersicht](legacy-report-builder/layout/layout.md)
+      + [Übersicht über Layout](legacy-report-builder/layout/layout.md)
       + Metriken und Dimensionen {#metrics-dimension}
          + [Übersicht über Metriken und Dimensionen](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Metriken und Dimensionen hinzufügen](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
@@ -243,7 +243,7 @@ ht-degree: 100%
          + [Bevorzugte Filter](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Spezifische Filter](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [Gespeicherte Filter](legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)
-   + Anforderungen verwalten {#manage-requests}
+   + Verwalten von Anforderungen {#manage-requests}
       + [Anforderungen verwalten – Definitionen](legacy-report-builder/manage-requests/r-arb-manage-requests.md)
       + [Diagnostische Meldungen](legacy-report-builder/manage-requests/diagnostic-messages.md)
       + [Auf- oder absteigende Sortierung](legacy-report-builder/manage-requests/sort-ascending-or-descending.md)
@@ -254,7 +254,7 @@ ht-degree: 100%
       + [Anforderungen für alle Arbeitsblätter aktualisieren](legacy-report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [Abhängige Anforderungen hinzufügen](legacy-report-builder/manage-requests/add-dependent-requests.md)
       + [Klassifizierung](legacy-report-builder/manage-requests/classification.md)
-      + Anforderungen kopieren {#copy-requests}
+      + Kopieren von Anforderungen {#copy-requests}
          + [Anforderungen kopieren – Übersicht](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [Einfache Anforderungen kopieren](legacy-report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [Angrenzende Anforderungen kopieren](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -274,7 +274,7 @@ ht-degree: 100%
       + [Arbeitsmappe herunterladen](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [Arbeitsmappen sperren/entsperren](legacy-report-builder/workbook-library/protect-wb.md)
       + [Arbeitsmappen mit Makros planen](legacy-report-builder/workbook-library/schedule-macro-wb.md)
-   + Mit Report Builder 5.5 in Power BI veröffentlichen {#publish-powerbi}
+   + Veröffentlichen in Power BI mit Report Builder 5.5 {#publish-powerbi}
       + [In Power BI veröffentlichen – Übersicht](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Einschränkungen und Spezifikationen](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [Daten manuell in Power BI importieren](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -296,7 +296,7 @@ ht-degree: 100%
    + [Fehlerbehebung](activity-map/troubleshooting.md)
    + [Häufig gestellte Fragen](activity-map/faq.md)
 + Adobe Analytics-Dashboards {#mobapp}
-   + [Adobe Analytics-Dashboards – Übersicht](mobile-app/home.md)
+   + [Übersicht über Adobe Analytics-Dashboards](mobile-app/home.md)
    + [Einleitung für Kuratoren](mobile-app/curator.md)
    + [Mobile-Scorecard erstellen](mobile-app/create-scorecard.md)
    + [Führungskräften die Nutzung von Dashboards ermöglichen](mobile-app/set-up-execs.md)

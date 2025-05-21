@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -45,13 +45,13 @@ Siehe [Leistungsoptimierung](/help/analyze/analysis-workspace/workspace-faq/opti
 
 +++Wie fließen Daten in Ihr Analysis Workspace-Projekt ein?
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten in Analysis Workspace](https://video.tv.adobe.com/v/35893?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenaufnahme in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 +++
 
-+++Wie kann ich die Nutzung von Workspace verfolgen?
++++Wie kann ich die Workspace-Nutzung nachverfolgen?
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tracking protokollieren](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Protokoll-Tracking](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 +++
 
@@ -73,6 +73,6 @@ Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vo
 
 +++
 
-+++Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?
-Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen und -funktionen vollständig deaktiviert, und die Empfänger können das Dropdown-Menü nur ändern, um einen Filter auf vordefinierte Weise auf das Bedienfeld anzuwenden.
++++Welche Aktionen können schreibgeschützte Benutzende in Analysis Workspace durchführen?
+Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen vollständig deaktiviert, und die Empfängerinnen und Empfänger können das Dropdown-Menü nur ändern, um einen Filter auf vordefinierte Weise auf das Panel anzuwenden.
 +++

@@ -5,22 +5,22 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Datenwörterbuch – Überblick
 
-Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
+Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Admins, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen.
 
 Analytics-Administratorinnen und -Administratoren sind dafür verantwortlich, Informationen über jede Komponenten im Datenwörterbuch zu kuratieren, um sie Benutzerinnen und Benutzern verfügbar zu machen.
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenwörterbuch](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenwörterbuch](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ Sie können das Datenwörterbuchfenster auf eine der folgenden Arten verändern:
 
 * in einen beliebigen Bereich in Analysis Workspace ziehen
 
-  Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an die Sie es zuletzt verschoben haben.<!--True?-->
+  Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an die Sie es zuletzt verschoben haben. <!--True?-->
 
 * minimieren
 

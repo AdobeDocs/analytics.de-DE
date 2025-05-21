@@ -5,7 +5,7 @@ user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
    + [Datenquellen](admin/data-sources.md)
    + [Nach IP-Adresse ausschließen](admin/exclude-ip.md)
    + [Protokolle](admin/logs.md)
-   + Berichterstellung für Activity Manager {#reporting-activity-manager}
+   + Reporting Activity Manager {#reporting-activity-manager}
       + [Überblick](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [Anzeigen der Berichtsaktivität](admin//reporting-activity-manager/reporting-activity.md)
       + [Abbrechen von Berichtsanfragen](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -44,7 +44,7 @@ ht-degree: 100%
             + [Allgemeine Kontoeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Interne URL-Filter](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Anpassen von Kalendern](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + Erkennung von Paid Search {#paid-search-detection}
+            + Paid-Search-Erkennung {#paid-search-detection}
                + [Übersicht über die Paid-Search-Erkennung](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Konfigurieren der Erkennung von Paid Search](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + Verarbeitungsregeln {#c-processing-rules}
@@ -75,7 +75,7 @@ ht-degree: 100%
                + [Bot-Ausschlussmethoden](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Datenschutzeinstellungen](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [Zeitstempelkonfiguration](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + Server-seitige Weiterleitung {#server-side-forwarding}
+            + Serverseitige Weiterleitung {#server-side-forwarding}
                + [Übersicht über die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [Anforderungen an die Server-seitige Weiterleitung](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -107,7 +107,7 @@ ht-degree: 100%
             + [Planen einer Spitze](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Dauerhafter Traffic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Standardmetriken](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + App-Verwaltung {#app-management}
+         + App-Management {#app-management}
             + [App-Berichterstellung](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
             + [App-Klassifizierungen](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [Medienverwaltung](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
@@ -172,7 +172,7 @@ ht-degree: 100%
    + Verwalten von Benutzenden und Produkten (veraltet) {#user-product-management}
       + [Verwalten von Benutzenden und Produkten (veraltet)](admin/user-management2/user-management.md)
       + [Verwalten von älteren Benutzerkonten, Assets und Ablaufdaten](admin/user-management2/users-assets.md)
-      + Migrieren von Benutzern zur Adobe Admin Console {#migrate-users}
+      + Migrieren von Benutzenden zur Adobe Admin Console {#migrate-users}
          + [Analytics-Benutzermigration zur Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](admin/user-management2/user-migration/t-migrate-users.md)
          + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](admin/user-management2/user-migration/migrate-enterprise.md)

@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereit
 * ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
 * ein Feld „value“, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen all Ihrer Report Suites suchen soll
 
-Experience Cloud Weitere Informationen und eine (Liste der Standard[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)Identity-Namespaces) finden Sie in der Dokumentation zur DatenschutzAPI für [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix#standard-namespaces). Siehe [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/privacy-jobs#access-delete) für eine Beispielanfrage.
+Weitere Informationen und eine [Liste standardmäßiger Identity-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix#standard-namespaces) finden Sie in der [Dokumentation zum Datenschutz-API von Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de). Eine Beispielanfrage finden Sie unter [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/privacy-jobs#access-delete).
 
 ## Cookie-ID
 
@@ -114,6 +114,6 @@ Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen od
 
 >[!CAUTION]
 >
->Die Namespaces `visitorId` und `customVisitorId` sind für die Identifizierung des alten Analytics-Tracking-Cookies und der Analytics-Kunden-Besucher-ID reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
+>Die Namespaces `visitorId` und `customVisitorId` sind zur Identifikation des früheren Tracking-Cookies von Analytics und der benutzerdefinierten Besucher-ID von Analytics reserviert. Verwenden Sie diese Namespaces nicht für benutzerdefinierte Traffic-Variablen oder Konversionsvariablen.
 
 Weitere Informationen dazu finden Sie unter [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

@@ -1,13 +1,13 @@
 ---
-description: Häufig gestellte Fragen zur Verwaltung von Adobe Analytics-Daten
+description: Häufig gestellte Fragen zur Data Governance in Adobe Analytics
 title: Häufig gestellte Fragen zu Data Governance
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Das Data Governance-Tool beinhaltet die folgenden Datenkennzeichnungen:
 
 * **Kennzeichnungen für Datenschutzdaten**: Werden zum Definieren der Felder verwendet, die möglicherweise personenbezogene, in Datenschutzanfragen verwendete Kennzeichnungen enthalten oder die im Rahmen der Datenschutz-Löschanfrage entfernt werden sollen. In einigen Fällen können sich diese Kennzeichnungen mit den Kennzeichnungen für Identitätsdaten und vertrauliche Daten überschneiden.
 
-Weitere Informationen zu den Data Governance-Beschriftungen finden Sie unter [Datenschutzkennzeichnungen für Analytics-Variablen](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
+Weitere Informationen zu den Data-Governance-Labels finden Sie unter [Datenschutzkennzeichnungen für Analytics-Variablen](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
 +++
 
@@ -109,7 +109,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Wir möchten Sie bitten, die Datenschutz-API nicht für andere Zwecke zu verwenden, wie z. B. das Löschen von Daten, die versehentlich durch große Besuchergruppen übermittelt wurden. Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie Datenfelder löschen möchten, und zeigt, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe-Account-Team, um sich mit unserem Engineering Architect-Consulting-Team abzustimmen und den Aufwand für die Entfernung von personenbezogenen Daten oder Datenproblemen zu ermitteln.
+Wenden Sie sich an Ihr Adobe-Accountteam, um sich mit unserem Engineering Architect-Beratungs-Team abzustimmen und weitere Überprüfungen durchzuführen sowie die Bemühungen zur Beseitigung von PII- oder Datenproblemen zu verstärken.
 
 +++
 
@@ -119,7 +119,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Jede eVar-Attribution fängt von vorn an, ebenso wie Informationen wie Besuchszahlen, Verweise, die erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen unerwünscht, in denen Sie Datenfelder löschen möchten, und zeigt, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe-Account-Team, um sich mit unserem Engineering Architect-Consulting-Team abzustimmen und den Aufwand für die Entfernung von personenbezogenen Daten oder Datenproblemen zu ermitteln.
+Wenden Sie sich an Ihr Adobe-Accountteam, um sich mit unserem Engineering Architect-Beratungs-Team abzustimmen und weitere Überprüfungen durchzuführen sowie die Bemühungen zur Beseitigung von PII- oder Datenproblemen zu verstärken.
 
 +++
 

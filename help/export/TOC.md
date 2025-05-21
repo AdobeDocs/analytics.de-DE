@@ -5,9 +5,9 @@ user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds zum Exportieren von Rohdaten und Data Warehouse zum Abrufen einer Tabellenausgabe von Daten. Erfahren Sie, wie Sie FTP und SFTP zur Übertragung von Dateien einsetzen können.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 + [Exportleitfaden für Analytics](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
-+ Analytics-Daten-Feed {#analytics-data-feed}
++ Analytics-Daten-Feed {#analytics-data-feed}
    + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
    + [Erstellen eines Daten-Feeds](analytics-data-feed/create-feed.md)
    + [Verwalten von Daten-Feeds](analytics-data-feed/df-manage-feeds.md)
@@ -36,7 +36,7 @@ ht-degree: 99%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse-Übersicht](data-warehouse/data-warehouse.md)
    + [Hinzufügen einer Data Warehouse-Benutzergruppe](data-warehouse/t-dw-group.md)
-   + Erstellen einer Data Warehouse-Anfrage {#dw-create-request}
+   + Erstellen einer Data Warehouse-Anforderung {#dw-create-request}
       + [Erstellen einer Data Warehouse-Anforderung](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Allgemeine Einstellungen](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [Erstellen Ihres Berichts](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -51,8 +51,8 @@ ht-degree: 99%
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
    + [Best Practices für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
-   + [FTP und SFTP mit der Adobe Experience Cloud verwenden](ftp-and-sftp/ftp-overview.md)
-   + Von Adobe gehostete FTP-Konten einrichten {#set-up-ftp-accounts}
+   + [Verwenden von FTP und SFTP mit der Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+   + Einrichten von durch Adobe gehostete FTP-Konten {#set-up-ftp-accounts}
       + [FTP-Konten einrichten – Übersicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Klassifizierungen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Datenquellen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
