@@ -3,140 +3,106 @@ description: Informationen
 title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 98%
 
 ---
 
 # Metriktyp und Attribution {#metric-type-attribution}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Verwenden eines nicht standardmäßigen Attributionsmodells"
->abstract="Aktivieren Sie ein nicht standardmäßiges Attributionsmodell für die ausgewählte Metrik."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Modell"
 >abstract="Wählen Sie ein Attributionsmodell für die Metrik aus."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Letztkontakt"
 >abstract="Die Credits gehen zu 100 % an den letzten Dimensionswert, den eine Besucherin bzw. ein Besucher gesehen hat."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="Erstkontakt"
 >abstract="Die Credits gehen zu 100 % an den ersten Dimensionswert, den eine Besucherin bzw. ein Besucher gesehen hat."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Linear"
 >abstract="Die Credits werden gleichmäßig auf alle Dimensionswerte verteilt."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Beitrag"
 >abstract="Die Credits gehen zu 100 % an jeden Dimensionswert, der von einer Besucherin oder einem Besucher gesehen wird.<br/>Spaltensummen werden erhöht."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Selber Kontakt"
 >abstract="Die Credits werden nur für Dimensionswerte erteilt, die bei demselben Ereignis wie die Konversion auftreten."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Selber Kontakt"
+>abstract="Die Credits werden nur für Dimensionswerte erteilt, die bei demselben Ereignis wie die Konversion auftreten."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="U-Form"
 >abstract="Die Credits gehen zu zu 40 % an die erste Dimension, zu 40 % an die letzte und zu 20 % an die mittlere."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="J-Kurve"
 >abstract="Die Credits gehen zu zu 60 % an den letzten Dimensionswert, zu 20 % an den ersten und zu 20 % an den mittleren."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="J-Kurve"
+>abstract="Die Credits gehen zu zu 60 % an den letzten Dimensionswert, zu 20 % an den ersten und zu 20 % an den mittleren."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
 >title="Umgekehrtes J"
 >abstract="Die Credits gehen zu 60 % an den ersten Dimensionswert, zu 20 % an den letzten und zu 20 % an den mittleren."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="Umgekehrtes J"
+>abstract="Die Credits gehen zu 60 % an den ersten Dimensionswert, zu 20 % an den letzten und zu 20 % an den mittleren."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Zeitabfall"
 >abstract="Die Dimensionswerte, die einer Konversion zeitlich am nächsten sind, erhalten die meisten Credits."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Anpassen"
 >abstract="Definieren Sie Ihre eigene positionsbasierte Attributionsgewichtung."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Anpassen"
+>abstract="Definieren Sie Ihre eigene positionsbasierte Attributionsgewichtung."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorithmisch"
 >abstract="Die Credits werden anhand eines statistischen Algorithmus dynamisch bestimmt."
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Container"
+>abstract="Wählen Sie einen Container aus, um den gewünschten Umfang für die Attribution festzulegen."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Lookback-Fenster"
 >abstract="Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion angewendet wird."
-
-<!-- markdownlint-enable MD034 -->
 
 Beim [Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie den Metriktyp und das Attributionsmodell angeben.
 
