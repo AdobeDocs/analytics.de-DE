@@ -4,23 +4,23 @@ description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 9c6da2c1ed5bc2c016da16a5bb821f0064e1ae4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
-# Aktuelle Versionshinweise zu Adobe Analytics (Version vom Mai 2025)
+# Aktuelle Adobe Analytics-Versionshinweise (Version Mai 2025)
 
-**Letzte Aktualisierung:**: Donnerstag, 14. Mai 2025
+**Letzte Aktualisierung:**: 14. Mai 2025
 
-Diese Versionshinweise decken den Veröffentlichungszeitraum vom XX. April bis zum 18. Juni 2025 ab. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom xx. April bis 18. Juni 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Das linke Bedienfeld von Analysis Workspace wird beim Bewegen des Mauszeigers nicht mehr geöffnet und geschlossen** | Das linke Bedienfeld in Analysis Workspace wird verwendet, um Ihrem Projekt Elemente wie Komponenten, Bedienfelder und Visualisierungen hinzuzufügen. Die Option zum vorübergehenden Öffnen des linken Bedienfelds durch Bewegen des Mauszeigers über eines der Symbole ganz links ist nicht mehr verfügbar. Klicken Sie stattdessen einfach auf eines dieser Symbole, um das Bedienfeld offen zu lassen, und klicken Sie dann auf dasselbe Symbol, um es zu schließen. |  | Freitag, 29. Mai 2025 |
+| **Das linke Panel in Analysis Workspace wird beim Bewegen des Mauszeigers nicht mehr geöffnet und geschlossen** | Das linke Panel in Analysis Workspace wird verwendet, um Ihrem Projekt Elemente wie Komponenten, Panels und Visualisierungen hinzuzufügen. Die Option zum vorübergehenden Öffnen des linken Panels durch Bewegen des Mauszeigers über eines der Symbole ganz links ist nicht mehr verfügbar. Klicken Sie stattdessen einfach auf eines dieser Symbole, um das Panel geöffnet zu lassen, und klicken Sie dann auf dasselbe Symbol, um es zu schließen. |  | 29. Mai 2025 |
 
 
 ## Fehlerbehebungen in Adobe Analytics
@@ -32,19 +32,19 @@ Diese Versionshinweise decken den Veröffentlichungszeitraum vom XX. April bis z
 **Komponenten**: AN-314468
 **Daten-Feeds**: AN-370241; AN-375267; AN-376940
 **Datenquellen**: AN-375259
-**Data Warehouse**: AN-370415; AN-372090;
-**PLATTFORM**: AN-365681; AN-372306; AN-372616;
+**DataWarehouse**: AN-370415; AN-372090;
+**Plattform**: AN-365681; AN-372306; AN-372616;
 **Echtzeit-Reporting**: AN-365681
 **Report Builder**: AN-371395
 **Segmentierung**: AN-373576; AN-375858
 **Virtual Report Suites**: AN-377948; AN-377952
-**VISTA-Regeln**: AN-373292
+**Vista-Regeln**: AN-373292
 
 ## Wichtige Hinweise für Adobe Analytics-Administratoren {#admin}
 
 | Hinweis | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | ----------- | ---------- | ---------- |
-| **Das linke Bedienfeld von Analysis Workspace wird beim Bewegen des Mauszeigers nicht mehr geöffnet und geschlossen** | Das linke Bedienfeld in Analysis Workspace wird verwendet, um Ihrem Projekt Elemente wie Komponenten, Bedienfelder und Visualisierungen hinzuzufügen. Die Option zum vorübergehenden Öffnen des linken Bedienfelds durch Bewegen des Mauszeigers über eines der Symbole ganz links ist nicht mehr verfügbar. Klicken Sie stattdessen einfach auf eines dieser Symbole, um das Bedienfeld offen zu lassen, und klicken Sie dann auf dasselbe Symbol, um es zu schließen. |  | Freitag, 29. Mai 2025 |
+| **Das linke Panel in Analysis Workspace wird beim Bewegen des Mauszeigers nicht mehr geöffnet und geschlossen** | Das linke Panel in Analysis Workspace wird verwendet, um Ihrem Projekt Elemente wie Komponenten, Panels und Visualisierungen hinzuzufügen. Die Option zum vorübergehenden Öffnen des linken Panels durch Bewegen des Mauszeigers über eines der Symbole ganz links ist nicht mehr verfügbar. Klicken Sie stattdessen einfach auf eines dieser Symbole, um das Panel geöffnet zu lassen, und klicken Sie dann auf dasselbe Symbol, um es zu schließen. |  | 29. Mai 2025 |
 
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}

@@ -5,9 +5,9 @@ user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -261,24 +261,24 @@ ht-degree: 95%
    + [Übersicht über Klassifizierungen](classifications/classifications-overview.md)
    + Klassifizierungssätze {#sets}
       + [Überblick](classifications/sets/overview.md)
-      + Klassifizierungssätze verwalten {#manage}
+      + Verwalten von Klassifizierungssätzen {#manage}
          + [Klassifizierungssatz-Manager](classifications/sets/manage/set-manager.md)
          + [Erstellen eines Klassifizierungssatzes](classifications/sets/manage/create.md)
          + [Klassifizierungssatz-Einstellungen](classifications/sets/manage/settings.md)
          + [Klassifizierungssatz-Schema](classifications/sets/manage/schema.md)
          + [Klassifizierungssatz-Regeln](classifications/sets/manage/rules.md)
       + [Auftrags-Manager für Klassifizierungssätze](classifications/sets/job-manager.md)
-      + Konsolidierung von Klassifizierungssätzen {#consolidations}
+      + Klassifizierungssatz-Konsolidierungen {#consolidations}
          + [Konsolidierungs-Manager](classifications/sets/consolidations/manage.md)
          + [Konsolidierungsprozess](classifications/sets/consolidations/process.md)
    + Classification Rule Builder (veraltet){#classifications-rulebuilder}
       + [Überblick](classifications/crb/classification-rule-builder.md)
       + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
       + [Klassifizierungsregeln](classifications/crb/classification-quickstart-rules.md)
-      + [Klassifizierungsregeldefinitionen](classifications/crb/classification-rule-definitions.md)
+      + [Klassifizierungsregel – Definitionen](classifications/crb/classification-rule-definitions.md)
       + [Unterklassifizierungen und der Regel-Builder](classifications/crb/subclassification-rule-builder.md)
    + Classification Importer (veraltet){#classifications-importer}
-      + [Übersicht über den Classifications importer](classifications/importer/c-working-with-saint.md)
+      + [Classification Importer – Überblick](classifications/importer/c-working-with-saint.md)
       + [Klassifizierungsdatendateien](classifications/importer/c-saint-data-files.md)
       + [Löschen von Classification-Daten](classifications/importer/t-delete-classification-data.md)
       + [Klassifizierungsvorlage](classifications/importer/c-download-saint-data.md)

@@ -4,9 +4,9 @@ title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie unter [An
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vergleich von Tools](https://video.tv.adobe.com/v/30167?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vergleich von Tools](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics-Reporting-Benutzeroberflächen {#user-interfaces}
+## Adobe Analytics-Berichtsoberflächen {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Können Sie eine Aufgabe nicht mit Analysis Workspace durchführen, versuchen Sie eine der unten stehenden Oberflächen.**
 
@@ -38,9 +38,9 @@ Die **[Activity Map](/help/analyze/activity-map/overview.md)** ist eine Funktion
 
 ## Importieren von Daten in Adobe Analytics {#import}
 
-**[Classifications](/help/components/classifications/classifications-overview.md)** sollte verwendet werden:
+**[Klassifizierungen](/help/components/classifications/classifications-overview.md)** sollten verwendet werden:
 
-* Wenn Metadaten vorhanden sind, die Sie mit einem Sammlungswert verknüpfen möchten (eVar, Eigenschaft, Marketing-Kanal). Adobe empfiehlt die Verwendung [Klassifizierungssätze](/help/components/classifications/sets/overview.md). Der Classification Rule Builder und das Classification Importer sind veraltete Methoden zum Übertragen von Classification-Daten in Adobe Analytics.
+* Wenn Metadaten vorliegen, die Sie einem Erfassungswert (eVar, prop, Marketing-Kanal) zuweisen möchten. Adobe empfiehlt stattdessen die Verwendung von [Klassifizierungssätzen](/help/components/classifications/sets/overview.md). Der Classification Rule Builder und Classification Importer sind veraltete Methoden zum Übertragen von Klassifizierungsdaten in Adobe Analytics.
 
 **[Data Sources](/help/import/data-sources/overview.md)** sollte verwendet werden:
 
@@ -53,13 +53,13 @@ Die **[Activity Map](/help/analyze/activity-map/overview.md)** ist eine Funktion
 
 * Wenn Sie mit einem Drittanbieter interagieren, der eine unterstützte Schnittstelle für Adobe Analytics erstellt hat. Integrations-Mobile-Apps übernehmen meist zusammengefasste Daten automatisch, dauerhaft und wiederholt in Adobe Analytics.
 
-**[Bulk-Dateneinfüge-API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Die Bulk Data Insertion-API akzeptiert CSV-formatierte Dateien, die Ereignisdaten enthalten, ein Ereignis pro Zeile. Adobe empfiehlt die Verwendung der Bulk Insertion-API für jede Implementierung, für die Server-seitiger Code erforderlich ist oder die AppMeasurement oder die Web-SDK nicht für die Datenerfassung verwenden kann.
+* Das Bulk Data Insertion API akzeptiert Dateien mit Ereignisdaten im CSV-Format, wobei ein Ereignis pro Zeile angegeben wird. Adobe empfiehlt die Verwendung des Bulk Insertion API für jede Implementierung, für die Server-seitiger Code erforderlich ist, ohne den AppMeasurement oder das Web-SDK nicht für die Datenerfassung verwendet werden kann.
 
-**[Data Insertion-API (veraltet](/help/import/c-data-insertion-api/c-data-insertion-api.md)** sollte verwendet werden:
+Das **[Data Insertion API (veraltet)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** sollte in folgenden Fällen verwendet werden:
 
-* Wenn Sie Daten in Adobe Analytics importieren müssen und AppMeasurement, Web SDK oder die Bulk Data Insertion-API nicht verwenden können.
+* Wenn Sie Daten in Adobe Analytics importieren müssen und AppMeasurement, Web-SDK oder das Bulk Data Insertion API nicht verwenden können.
 
 **[Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de)** sollten verwendet werden:
 
