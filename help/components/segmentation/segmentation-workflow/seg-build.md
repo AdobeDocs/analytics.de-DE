@@ -3,14 +3,19 @@ description: Der Segmentaufbau bietet eine Arbeitsfläche zum Ziehen und Ablegen
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 97%
 
 ---
 
 # Segmentaufbau {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="Produktkompatibilität"
+>abstract="Eine geringe Anzahl der verfügbaren Segmentkriterien sind nicht mit allen Adobe Analytics-Tools kompatibel. Tools, die mit dem Segment kompatibel sind, sind in dieser Liste aufgeführt. Um ein Segment mit allen Adobe Analytics-Tools kompatibel zu machen, bearbeiten Sie Ihre Kriterien."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instanz"
->abstract="Umfasst Instanzen und persistierte Werte für die Dimension."
+>abstract="Enthält Instanzen für die Dimension."
 
 <!-- markdownlint-enable MD034 -->
 
