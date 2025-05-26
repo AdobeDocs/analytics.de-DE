@@ -8,7 +8,7 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 440cc4c977aae97e3fc3c97f3998c5d542cd88c3
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird bei
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/40031?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ So geben Sie den Projekt-Link für Personen in Ihrer Organisation frei:
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Experience Cloud-Authentifizierung verlangen"
->abstract="Ihr Unternehmen verlangt, dass sich Benutzer bei der Experience Cloud anmelden, um diesen Link verwenden zu können."
+>abstract="Ihr Unternehmen verlangt, dass sich Benutzende bei Experience Cloud anmelden, um diesen Link verwenden zu können."
 
 Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) auf Analysis Workspace-Projekte für Personen freischalten, die keinen Zugriff auf Adobe Analytics haben. Dazu können gehören:
 
@@ -157,7 +157,7 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3452469?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sin
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/327497?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
