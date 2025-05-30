@@ -1,12 +1,12 @@
 ---
 title: Erweiterte Funktionen
-description: Sie können auf diese Funktionen zugreifen, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweiterte Optionen anzeigen“ auswählen.
+description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweitert anzeigen“ auswählen.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
-workflow-type: ht
-source-wordcount: '4438'
+source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
+workflow-type: tm+mt
+source-wordcount: '5026'
 ht-degree: 100%
 
 ---
@@ -15,21 +15,21 @@ ht-degree: 100%
 
 Mit dem [Generator für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie statistische und mathematische Funktionen anwenden. In diesem Artikel werden die erweiterten Funktionen und ihre Definitionen alphabetisch aufgelistet.
 
-Sie können auf diese Funktionen zugreifen, indem Sie die Option **[!UICONTROL Alle anzeigen]** unter der Liste ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL Funktionen]** im Bedienfeld „Komponenten“ auswählen. Scrollen Sie nach unten, um die Liste der **[!UICONTROL erweiterten Funktionen]** anzuzeigen.
+Sie können auf diese Funktionen zugreifen, indem Sie die Option **[!UICONTROL Alle anzeigen]** unter der Liste ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL Funktionen]** im Panel „Komponenten“ auswählen. Scrollen Sie nach unten, um die Liste der **[!UICONTROL Erweiterten Funktionen]** anzuzeigen.
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen
 
 Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
 
-Gegebenenfalls wird einer Funktion eine Anmerkung mit dem Typ der Funktion hinzugefügt: [!BADGE Tabelle]{type="Neutral"}[!BADGE Zeile]{type="Neutral"}
+Gegebenenfalls wird einer Funktion eine Anmerkung mit dem Typ der Funktion hinzugefügt: [!BADGE Tabelle]{type="Neutral"} oder [!BADGE Zeile]{type="Neutral"}.
 
-## Was bedeutet der Parameter „include-zeros“? 
+## Was bedeutet der Parameter „include-zeros“?
 
 Damit wird angegeben, ob Nullen in die Berechnung einbezogen werden sollen. In manchen Fällen bedeutet eine Null *nichts*, in anderen Fällen kann sie aber auch wichtig sein.
 
 Beispiel: Wenn Sie mit einer Umsatzmetrik arbeiten und dem Bericht dann eine Seitenansichtsmetrik hinzufügen, gibt es plötzlich mehr Zeilen für den Umsatz, die alle Nullwerte enthalten. Sie möchten wahrscheinlich nicht, dass sich diese zusätzliche Metrik auf Berechnungen wie **[ARITHMETISCHES MITTEL](cm-functions.md#mean)**, **[ZEILENMINIMUM](cm-functions.md#row-min)**, **[QUARTIL](cm-functions.md#quartile)** usw. auswirkt, die sich in der Umsatzspalte befinden. In diesem Fall müssen Sie den Parameter `include-zeros` aktivieren.
 
-Ein alternatives Szenario besteht darin, dass Sie zwei Metriken von Interesse haben und eine Metrik einen höheren Durchschnitt oder ein höheres Minimum aufweist, da einige der Zeilen Nullen sind.   In diesem Fall können Sie festlegen, dass der Parameter nicht auf Nullen überprüft werden soll.
+Ein alternatives Szenario besteht darin, dass Sie zwei Metriken von Interesse haben und eine Metrik einen höheren Durchschnitt oder ein höheres Minimum aufweist, da einige der Zeilen Nullen sind.  In diesem Fall können Sie festlegen, dass der Parameter nicht auf Nullen überprüft werden soll.
 
 
 ## Und {#and}
@@ -49,7 +49,7 @@ Verbindung. „Ungleich null“ gilt als „True“ und „Gleich null“ gilt a
 
 | Argument | Beschreibung |
 |---|---|
-| logical_test | Erfordert mindestens einen Parameter, kann jedoch eine beliebige Anzahl von Parametern verwenden. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| logical_test | Erfordert mindestens einen Parameter, kann jedoch eine beliebige Anzahl von Parametern verwenden. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
 
 
 ## Ungefähre Zählung Verschiedener {#approximate_count_distinct}
@@ -71,7 +71,7 @@ Gibt die ungefähre Anzahl von Dimensionselementen für die ausgewählte Dimensi
 
 | Argument | Beschreibung |
 |---|---|
-| Dimension | Die Dimension, für die die ungefähre Anzahl verschiedener Elemente ermittelt werden soll. |
+| Dimension | Die Dimension, für die die ungefähre Anzahl verschiedener Elemente ermittelt werden soll |
 
 ### Beispiel
 
@@ -93,12 +93,12 @@ Ein gängiger Anwendungsfall für diese Funktion ist, wenn Sie eine ungefähre A
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Arkuscosinus (die Umkehrung des Cosinus) einer Metrik zurück. Der Arcuscosinus ist der Winkel, dessen Cosinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich von 0 (Null) bis pi angegeben. Wenn Sie das Ergebnis von Radianten in Grad umrechnen möchten, multiplizieren Sie es mit 180/PI().
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Kosinus des gewünschten Winkels von -1 bis 1. |
+| metric | Der Kosinus des gewünschten Winkels von -1 bis 1 |
 
 
 
@@ -116,12 +116,12 @@ Ein gängiger Anwendungsfall für diese Funktion ist, wenn Sie eine ungefähre A
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile ]{type="Neutral"} Gibt den Arkussinus (die Umkehrung des Sinus) einer Zahl zurück. Der Arcussinus ist der Winkel, dessen Sinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI().
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Sinus des gewünschten Winkels von -1 bis 1. |
+| metric | Der Sinus des gewünschten Winkels von -1 bis 1 |
 
 
 
@@ -139,12 +139,12 @@ Ein gängiger Anwendungsfall für diese Funktion ist, wenn Sie eine ungefähre A
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Arkustangens (die Umkehrung des Tangens) einer Zahl zurück. Der Arkustangens ist der Winkel, dessen Tangens eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkustangens in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI().
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Tangens des gewünschten Winkels von -1 bis 1. |
+| metric | Die Tangente des gewünschten Winkels von -1 bis 1 |
 
 
 
@@ -165,8 +165,8 @@ Gibt die Wahrscheinlichkeit dafür zurück, dass eine Zufallsvariable mit studen
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die die kumulative Verteilungsfunktion der studentschen t-Verteilung angezeigt werden soll |
-| number | Die Freiheitsgrade für die kumulative Verteilungsfunktion der studentschen t-Verteilung |
+| metric | Die Metrik, für die die kumulative Verteilungsfunktion der studentischen t-Verteilung angezeigt werden soll |
+| number | Die Freiheitsgrade für die kumulative Verteilungsfunktion der studentischen t-Verteilung |
 
 ### Beispiel
 
@@ -196,7 +196,7 @@ Gibt die Wahrscheinlichkeit dafür zurück, dass eine Zufallsvariable mit einer 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die die kumulative Verteilungsfunktion der Standardnormalverteilung verwendet werden soll. |
+| metric | Die Metrik, für die die kumulative Verteilungsfunktion der Standardnormalverteilung verwendet werden soll |
 
 ### Beispiele
 
@@ -215,17 +215,17 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="Ceiling (Obergrenze)"
->abstract="Gibt die kleinste Ganzzahl zurück, die nicht kleiner als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel CEILING(Umsatz) den Umsatz auf den nächsten Dollar aufrunden (in diesem Fall 570 US-Dollar)."
+>abstract="Gibt die kleinste Ganzzahl zurück, die nicht kleiner als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel CEILING(Revenue) den Umsatz auf den nächsten Dollar aufrunden (in diesem Fall 570 US-Dollar)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt die kleinste Ganzzahl zurück, die nicht kleiner als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel CEILING(Revenue) den Umsatz auf den nächsten Dollar aufrunden (in diesem Fall 570 US-Dollar).
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, die gerundet werden soll. |
+| metric | Die Metrik, die gerundet werden soll |
 
 
 ## Konfidenz {#confidence}
@@ -243,14 +243,14 @@ CDF-Z(-3) ? 0.0013499
 
 Berechnet die jederzeit gültige Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
 
-Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
+Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
 
 | Argument | Beschreibung |
 | --- | --- |
 | normalizing-container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
-| success-metric | Die Metrik(en), die Benutzende verwenden, um Varianten zu vergleichen. |
+| success-metric | Die Metrik oder Metriken, die eine Benutzerin bzw. ein Benutzer verwendet. |
 | control | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
-| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % festgelegt. |
+| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
 
 
 ## Confidence (Lower) {#confidence-lower}
@@ -258,7 +258,7 @@ Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass ein
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-lower"
+>id="functions-waskr-lower-individual-confidence-sequence"
 >title="Confidence (Lower)"
 >abstract="Berechnet die jederzeit gültige **niedrigere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben."
 
@@ -268,21 +268,21 @@ Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass ein
 
 Berechnet die jederzeit gültige **niedrigere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
 
-Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
+Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
 
 | Argument | Beschreibung |
 | --- | --- |
 | normalizing-container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
-| success-metric | Die Metrik(en), die Benutzende verwenden, um Varianten zu vergleichen. |
+| success-metric | Die Metrik oder Metriken, die eine Benutzerin bzw. ein Benutzer verwendet. |
 | control | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
-| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % festgelegt. |
+| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
 
 ## Confidence (Upper) {#confidence-upper}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-upper"
+>id="functions-waskr-upper-individual-confidence-sequence"
 >title="Confidence (Upper)"
 >abstract="Berechnet die jederzeit gültige **höhere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben."
 
@@ -290,16 +290,16 @@ Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass ein
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-Berechnet die jederzeit gültige **obere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
+Berechnet die jederzeit gültige **höhere** Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
 
-Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
+Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
 
 | Argument | Beschreibung |
 | --- | --- |
 | normalizing-container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
-| success-metric | Die Metrik(en), die Benutzende verwenden, um Varianten zu vergleichen. |
+| success-metric | Die Metrik oder Metriken, die eine Benutzerin bzw. ein Benutzer verwendet. |
 | control | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
-| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % festgelegt. |
+| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
 
 
 ## Cosine {#cosine}
@@ -315,11 +315,11 @@ Die Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass ein
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Cosinus des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180.
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Winkel in Radianten, für den der Kosinus ermittelt werden soll. |
+| metric | Der Winkel in Radianten, für den der Kosinus ermittelt werden soll |
 
 
 ## Kubikwurzel {#cube-root}
@@ -341,7 +341,7 @@ Gibt die positive Kubikwurzel einer Zahl zurück. Die Kubikwurzel einer Zahl ist
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die die Kubikwurzel berechnet werden soll. |
+| metric | Die Metrik, für die die Kubikwurzel berechnet werden soll |
 
 
 
@@ -352,26 +352,26 @@ Gibt die positive Kubikwurzel einer Zahl zurück. Die Kubikwurzel einer Zahl ist
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="Kumulativ"
->abstract="Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die n vorangehenden Elemente addiert."
+>abstract="Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
 
-Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die n vorangehenden Elemente addiert.
+Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert.
 
 | Argument | Beschreibung |
 | --- | --- |
-| number | Die letzten N Zeilen, für die die Summe zurückgegeben werden soll. Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet.  |
+| number | Die letzte Anzahl N von Zeilen, für die die Summe zurückgegeben werden soll. Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. |
 | metric | Die Metrik, für die die kumulative Summe angezeigt werden soll. |
 
 ### Beispiele
 
-| Datum | Umsatz | CUMULATIVE(0, Umsatz) | CUMULATIVE(2, Umsatz) |
+| Datum | Umsatz | CUMULATIVE(0, Revenue) | CUMULATIVE(2, Revenue) |
 |------|------:|--------------:|--------------:|
 | Mai | 500 $ | 500 $ | 500 $ |
 | Juni | 200 $ | 700 $ | 700 $ |
-| Juli | 400 $ | 1100 $ | 600 $ |
+| Juli | 400$ | 1100 $ | 600 $ |
 
 
 ## Cumulative (Average) {#cumulative-average}
@@ -381,22 +381,22 @@ Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werd
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
 >title="Cumulative (Average)"
->abstract="Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden Elemente n addiert."
+>abstract="Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
 
-Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden Elemente n addiert.
+Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert.
 
 | Argument | Beschreibung |
 | --- | --- |
-| number | Die letzte Anzahl N von Zeilen, für die der Durchschnitt zurückgegeben werden soll. Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet.  |
+| number | Die letzte Anzahl N von Zeilen, für die der Durchschnitt zurückgegeben werden soll. Wenn N &lt;= 0 ist, werden alle vorherigen Zeilen verwendet. |
 | metric | Die Metrik, für die der kumulative Durchschnitt ermittelt werden soll. |
 
 >[!NOTE]
 >
->Diese Funktion funktioniert nicht mit Satzmetriken wie etwa Umsatz pro Person. Die Funktion ermittelt den Durchschnitt der Raten, anstatt den Umsatz der letzten N zu summieren, die Personen der letzten N zu summieren und dann zu dividieren. <br/>Verwenden Sie stattdessen [**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![Divide](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
+>Diese Funktion funktioniert nicht mit Satzmetriken wie Umsatz pro Person. Die Funktion ermittelt den Durchschnitt der Sätze, anstatt den Umsatz der letzten N zu summieren und die Personen der letzten N zu summieren und dann zu teilen. <br/>Verwenden Sie stattdessen [**[!UICONTROL CUMULATIVE(Revenue)]**](#cumulative) ![Divide](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative).
 >
 
 
@@ -440,14 +440,14 @@ Gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Exponentielle Regression: Y = a exp(X) + b. Gibt den Korrelationskoeffizienten zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Die Metrik, die mit metric_Y korreliert werden soll. |
-| metric_Y | Die Metrik, die mit metric_X korreliert werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Die Metrik, die mit metric_Y korreliert werden soll |
+| metric_Y | Die Metrik, die mit metric_X korreliert werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 ## Exponentielle Regression: Vorhersage für Y {#exponential-regression-predicted-y}
 
@@ -463,14 +463,14 @@ Gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Exponentielle Regression: Y = a exp(X) + b. Gibt Y zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, der unabhängiger Datenstatus zugewiesen werden soll. |
+| metric_Y | Eine Metrik, der abhängiger Datenstatus zugewiesen werden soll. |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Exponentielle Regression: Schnittpunkt {#exponential-regression-intercept}
@@ -487,13 +487,13 @@ Gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Exponentielle Regression: Y = a exp(X) + b. Gibt b zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Exponentielle Regression: Steigung {#exponential-regression-slope}
@@ -510,14 +510,14 @@ Gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Exponentielle Regression: Y = a exp(X) + b. Gibt a zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Floor {#floor}
@@ -527,13 +527,13 @@ Gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="Floor"
->abstract="Gibt die größte Ganzzahl zurück, die nicht größer als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel FLOOR(Umsatz) den Umsatz auf den nächsten Dollar abrunden (in diesem Fall 569 US-Dollar)."
+>abstract="Gibt die größte Ganzzahl zurück, die nicht größer als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel FLOOR(Revenue) den Umsatz auf den nächsten Dollar abrunden (in diesem Fall 569 US-Dollar)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt die größte Ganzzahl zurück, die nicht größer als ein angegebener Wert ist. Beispiel: Wenn Sie für den Umsatz keine Währungsdezimalzahlen in Berichte aufnehmen möchten und ein Produkt einen Umsatz von 569,34 US-Dollar aufweist, können Sie mit der Formel FLOOR(Revenue) den Umsatz auf den nächsten Dollar abrunden (in diesem Fall 569 US-Dollar).
 
 | Argument | Beschreibung |
 |---|---|
@@ -605,12 +605,12 @@ Größer als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC COSINE(metric)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Cosinus hyperbolicus einer Zahl zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Winkel in Radianten, dessen Hyperbelkosinus berechnet werden soll. |
+| metric | Der Winkel in Radianten, für den Sie den Hyperbelkosinus ermitteln möchten |
 
 
 
@@ -627,11 +627,11 @@ Größer als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC SINE(metric)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Reihe]{type="Neutral"} Gibt den Sinus hyperbolicus einer Zahl zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Winkel in Radianten, dessen Hyperbelsinus berechnet werden soll. |
+| metric | Der Winkel in Radianten, für den Sie den Hyperbelsinus ermitteln möchten |
 
 
 ## Hyperbolic Tangent {#hyperbolic-tangent}
@@ -647,11 +647,11 @@ Größer als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL HYPERBOLIC TANGENT(metric)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Tangens hyperbolicus einer Zahl zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Winkel in Radianten, dessen Hyperbeltangens berechnet werden soll. |
+| metric | Der Winkel in Radianten, dessen hyperbolischer Tangens berechnet werden soll |
 
 
 ## Wenn {#if}
@@ -668,14 +668,14 @@ Größer als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL IF(logical_test, value_if_true, value_if_false)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Wenn der Bedingungsparameter einen Wert ungleich null (true) aufweist, ist das Ergebnis der Wert des Parameters „value_if_true“. Andernfalls ist es der Wert des Parameters „value_if_false“.
 
 
 | Argument | Beschreibung |
 |---|---|
-| logical_test | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
-| value_if_true | Der Wert, der ausgegeben werden soll, wenn das Argument des Logiktests als TRUE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht angegeben wurde.) |
-| value_if_false | Der Wert, der ausgegeben werden soll, wenn das logical_test-Argument als FALSE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht angegeben wurde.) |
+| logical_test | Erforderlich. Wert, der als TRUE oder FALSE ausgewertet werden kann. |
+| value_if_true | Der Wert, der ausgegeben werden soll, wenn das Argument des Logiktests also TRUE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
+| value_if_false | Der Wert, der ausgegeben werden soll, wenn das logical_test-Argument als FALSE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
 
 
 ## Weniger als {#less-than}
@@ -736,14 +736,14 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
 >title="Anstieg"
->abstract="Der Anstieg des Verhältnisses im Vergleich zum Kontrollwert."
+>abstract="Der Lift (Anstieg) des Verhältnisses im Vergleich zum Kontrollwert."
 
 <!-- markdownlint-enable MD034 -->
 
 | Argument | Beschreibung |
 | --- | --- |
 | normalizing-container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
-| success-metric | Die Metrik(en), die Benutzende verwenden, um Varianten zu vergleichen. |
+| success-metric | Die Metrik oder Metriken, die eine Benutzerin bzw. ein Benutzer verwendet. |
 | control | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
 
 
@@ -755,21 +755,21 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="Lineare Regression: Korrelationskoeffizient"
->abstract="Lineare Regression: Y = a X + b. Gibt den Korrelationskoeffizienten zurück."
+>abstract="Lineare Regression: Y = a X + b.  Gibt den Korrelationskoeffizienten zurück."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt den Korrelationskoeffizienten zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Die Metrik, die mit metric_Y korreliert werden soll. |
-| metric_Y | Die Metrik, die mit metric_X korreliert werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Die Metrik, die mit metric_Y korreliert werden soll |
+| metric_Y | Die Metrik, die mit metric_X korreliert werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -787,14 +787,14 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt b zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -812,14 +812,14 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt Y zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -836,13 +836,13 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Log Base 10 {#log-base-ten}
@@ -859,12 +859,12 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG BASE 10(metric)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Logarithmus einer Zahl zur Basis 10 zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die positive reale Zahl, deren Logarithmus zur Basis 10 berechnet werden soll. |
+| metric | Die positive reale Zahl, deren Logarithmus zur Basis 10 gewünscht ist |
 
 
 ## Logarithmische Regression: Korrelationskoeffizient {#log-regression-correlation-coefficient}
@@ -880,13 +880,13 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt den Korrelationskoeffizienten zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Die Metrik, die mit metric_Y korreliert werden soll. |
-| metric_Y | Die Metrik, die mit metric_X korreliert werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Die Metrik, die mit metric_Y korreliert werden soll |
+| metric_Y | Die Metrik, die mit metric_X korreliert werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Logarithmische Regression: Schnittpunkt {#log-regression-intercept}
@@ -902,13 +902,13 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt b zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -925,13 +925,13 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt Y zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -948,13 +948,13 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -975,7 +975,7 @@ Gibt den natürlichen Logarithmus einer Zahl zurück. Natürliche Logarithmen ba
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die positive reale Zahl, deren natürlicher Logarithmus berechnet werden soll. |
+| metric | Die positive reale Zahl, deren natürlicher Logarithmus gewünscht ist |
 
 
 
@@ -996,7 +996,7 @@ Negation als boolescher Wert. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 | Argument | Beschreibung |
 |---|---|
-| logisch | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| logical | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
 
 
 
@@ -1041,7 +1041,7 @@ Ungleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL OR(logical_test)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Oder-Verknüpfung. „Ungleich null“ gilt als „True“ und „Gleich null“ gilt als „False“. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 
 | Argument | Beschreibung |
@@ -1061,13 +1061,13 @@ Ungleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 >[!CONTEXTUALHELP]
 >id="functions-pi"
 >title="Pi"
->abstract="Gibt Pi zurück: 3,14159…"
+>abstract="Gibt Pi zurück: 3,14159..."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL PI()]**
 
-Gibt Pi zurück: 3,14159…
+Gibt Pi zurück: 3,14159...
 
 
 ## Potenzregression: Korrelationskoeffizient {#power-regression-correlation-coefficient}
@@ -1083,13 +1083,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt den Korrelationskoeffizienten zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Die Metrik, die mit metric_Y korreliert werden soll. |
-| metric_Y | Die Metrik, die mit metric_X korreliert werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Die Metrik, die mit metric_Y korreliert werden soll |
+| metric_Y | Die Metrik, die mit metric_X korreliert werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -1107,14 +1107,14 @@ Gibt Pi zurück: 3,14159…
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt b zurück.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Potenzregression: Vorhersage für Y {#power-regression-predicted-y}
@@ -1130,13 +1130,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt Y zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -1153,13 +1153,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -1176,13 +1176,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Quadratische Regression: Y = (a + bX) ^ 2. Gibt den Korrelationskoeffizienten zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Die Metrik, die mit metric_Y korreliert werden soll. |
-| metric_Y | Die Metrik, die mit metric_X korreliert werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Die Metrik, die mit metric_Y korreliert werden soll |
+| metric_Y | Die Metrik, die mit metric_X korreliert werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 ## Quadratische Regression: Schnittpunkt {#quadratic-regression-intercept}
 
@@ -1197,13 +1197,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Quadratische Regression: Y = (a + bX) ^ 2. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Quadratische Regression: Vorhersage für Y {#quadratic-regression-predicted-y}
@@ -1219,13 +1219,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Quadratische Regression: Y = (a + bX) ^ 2. Gibt Y zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Quadratische Regression: Steigung {#quadratic-regression-slope}
@@ -1241,13 +1241,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL QUADRATIC REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Quadratische Regression: Y = (a + bX) ^ 2. Gibt b zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -1264,13 +1264,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Reziproke Regression: Y = a + b X ^ -1. Gibt den Korrelationskoeffizienten zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Die Metrik, die mit metric_Y korreliert werden soll. |
-| metric_Y | Die Metrik, die mit metric_X korreliert werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Die Metrik, die mit metric_Y korreliert werden soll |
+| metric_Y | Die Metrik, die mit metric_X korreliert werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Reziproke Regression: Schnittpunkt {#reciprocal-regression-intercept}
@@ -1286,13 +1286,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Reziproke Regression: Y = a + b X ^ -1. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Reziproke Regression: Vorhersage für Y {#reciprocal-regression-predicted-y}
@@ -1308,13 +1308,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Reziproke Regression: Y = a + b X ^ -1. Gibt Y zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## Reziproke Regression: Steigung {#reciprocal-regression-slope}
@@ -1330,13 +1330,13 @@ Gibt Pi zurück: 3,14159…
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL RECIPROCAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"}
+[!BADGE Tabelle]{type="Neutral"} Reziproke Regression: Y = a + b X ^ -1. Gibt b zurück.
 
 | Argument | Beschreibung |
 |---|---|
-| metric_X | Eine Metrik, der ein abhängiger Datenstatus zugewiesen werden soll. |
-| metric_Y | Die Metrik, der ein unabhängiger Datenstatus zugewiesen werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric_X | Eine Metrik, die als abhängiges Datenelement zugewiesen werden soll |
+| metric_Y | Die Metrik, die als unabhängiges Datenelement zugewiesen werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 
@@ -1355,12 +1355,12 @@ Gibt Pi zurück: 3,14159…
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Gibt den Sinus des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180.
 
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Winkel in Radianten, für den der Sinus berechnet werden soll. |
+| metric | Der Winkel in Radianten, für den Sie den Sinus ermitteln möchten |
 
 
 
@@ -1382,8 +1382,8 @@ Die Abweichung vom [ARITHMETISCHEN MITTEL](cm-functions.md#mean) geteilt durch d
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die der t-Wert angezeigt werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric | Die Metrik, für die der t-Wert angezeigt werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 
 ## t-Test {#t-test}
@@ -1403,19 +1403,19 @@ Führt einen m-seitigen t-Test mit einem t-Wert von x und n Freiheitsgraden durc
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die ein t-Test durchgeführt werden soll. |
+| metric | Die Metrik, für die ein t-Test durchgeführt werden soll |
 | degrees | Die Freiheitsgrade |
-| Longtails | Die Länge des Longtails, der für die Durchführung des t-Tests verwendet werden soll. |
+| Longtails | Die Länge des Longtails, der für die Durchführung des t-Tests verwendet werden soll |
 
 ### Details
 
-Die Signatur ist T-TEST(metric, degrees, tails). Darunter wird einfach ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)** aufgerufen. Diese Funktion ähnelt der Funktion **[Z-TEST](#z-test)**, die ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** ausführt.
+Die Signatur ist T-TEST(metric, degrees, tails). Darunter wird einfach ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)** aufgerufen. Diese Funktion ähnelt der **[Z-TEST](#z-test)**-Funktion, die ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** ausführt.
 
 - ***m*** ist die Anzahl der Longtails.
-- ***n*** ist der Freiheitsgrad. Dies sollte eine konstante Zahl für den gesamten Bericht sein, d. h., sie ändert sich nicht für jede Zeile.
-- ***X*** ist die t-Test-Statistik. Hierbei handelt es sich häufig um eine auf einer Metrik basierende Formel (z. B. **[Z-SCORE](#z-score)**), die in jeder Zeile bewertet wird.
+- ***n*** ist der Freiheitsgrad. Dies sollte eine konstante Zahl für den gesamten Bericht sein, d. h., sie ändert sich nicht Zeile für Zeile.
+- ***X*** ist die t-Test-Statistik. Hierbei handelt es sich häufig um eine auf einer Metrik basierende Formel (z. B. **[Z-WERT](#z-score)**), die in jeder Zeile bewertet wird.
 
-Der Rückgabewert ist die Wahrscheinlichkeit, die Teststatistik x zu erhalten, bei gegebener Anzahl an Freiheitsgraden und Longtails.
+Der Rückgabewert ist die Wahrscheinlichkeit, die Teststatistik x zu erhalten, bei gegebenen Freiheitsgraden und der Anzahl an Seiten.
 
 ### Beispiele
 
@@ -1433,13 +1433,13 @@ Der Rückgabewert ist die Wahrscheinlichkeit, die Teststatistik x zu erhalten, b
 
 
 
-## Tangens {#tangent}
+## Tangente {#tangent}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-tan"
->title="Tangens"
+>title="Tangente"
 >abstract="Gibt den Tangens des gegebenen Winkels zurück. Wenn der Winkel in Grad angegeben ist, multiplizieren Sie den Winkel mit PI()/180."
 
 <!-- markdownlint-enable MD034 -->
@@ -1450,7 +1450,7 @@ Gibt den Tangens des gegebenen Winkels zurück. Wenn der Winkel in Grad angegebe
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Der Winkel in Radianten, dessen Tangens berechnet werden soll. |
+| metric | Der Winkel in Radianten, für den Sie die Tangente ermitteln möchten |
 
 
 
@@ -1467,12 +1467,12 @@ Gibt den Tangens des gegebenen Winkels zurück. Wenn der Winkel in Grad angegebe
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE(metric, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"}
+[!BADGE Zeile]{type="Neutral"} Die Abweichung vom arithmetischen Mittel geteilt durch die Standardabweichung.
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die der z-Wert angezeigt werden soll. |
-| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht. |
+| metric | Die Metrik, für die der z-Wert angezeigt werden soll |
+| include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
 Ein z-Wert von 0 (null) gibt an, dass der Wert mit dem arithmetischen Mittel identisch ist. Eine z-Transformation kann positiv oder negativ sein, abhängig davon, ob sie über oder unter dem arithmetischen Mittel liegt und um wie viele Standardabweichungen es sich handelt.
 
@@ -1480,7 +1480,7 @@ Die Gleichung für z-Transformation lautet:
 
 ![](assets/z_score.png)
 
-wobei ***[!DNL x]*** der Rohwert, ***[!DNL μ]*** das arithmetische Mittel der Population und ***[!DNL σ]*** die Standardabweichung der Population ist.
+Dabei ist ***[!DNL x]*** der Rohwert, ***[!DNL μ]*** das arithmetische Mittel der Population und ***[!DNL σ]*** die Standardabweichung der Population.
 
 >[!NOTE]
 >
@@ -1505,8 +1505,8 @@ Führt einen n-seitigen z-Test mit einem z-Wert von x durch.
 
 | Argument | Beschreibung |
 |---|---|
-| metric | Die Metrik, für die ein z-Test durchgeführt werden soll. |
-| Longtails | Die Länge des Longtails, der für die Durchführung des z-Tests verwendet werden soll. |
+| metric | Die Metrik, für die ein z-Test durchgeführt werden soll |
+| Longtails | Die Länge des Longtails, der für die Durchführung des z-Tests verwendet werden soll |
 
 >[!NOTE]
 >
