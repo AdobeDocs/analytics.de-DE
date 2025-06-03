@@ -6,7 +6,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Experience Cloud-Veröffentlichung"
+>title="Veröffentlichen in Experience Cloud"
 >abstract="Sie können die aus diesem Segment abgeleitete Zielgruppe in der Zielgruppenbibliothek veröffentlichen, wo sie für Marketing-Aktivitäten in Target und anderen Experience Cloud-Lösungen verwendet werden kann."
 
 >[!CONTEXTUALHELP]
@@ -30,7 +30,7 @@ Sie können Analytics-Segmente in weniger als acht Stunden in Experience Cloud v
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://video.tv.adobe.com/v/36752?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
