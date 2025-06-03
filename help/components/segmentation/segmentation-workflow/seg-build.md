@@ -4,9 +4,9 @@ title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Produktkompatibilität"
->abstract="Eine geringe Anzahl der verfügbaren Segmentkriterien sind nicht mit allen Adobe Analytics-Tools kompatibel. Tools, die mit dem Segment kompatibel sind, sind in dieser Liste aufgeführt. Um ein Segment mit allen Adobe Analytics-Tools kompatibel zu machen, bearbeiten Sie Ihre Kriterien."
+>abstract="Eine geringe Anzahl der verfügbaren Segmentkriterien ist nicht mit allen Adobe Analytics-Tools kompatibel. Tools, die mit dem Segment kompatibel sind, werden in dieser Liste aufgeführt. Bearbeiten Sie die Kriterien, um ein Segment mit allen Adobe Analytics-Tools kompatibel zu machen."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instanz"
->abstract="Enthält Instanzen für die Dimension."
+>abstract="Umfasst Instanzen für die Dimension."
 
 <!-- markdownlint-enable MD034 -->
 
