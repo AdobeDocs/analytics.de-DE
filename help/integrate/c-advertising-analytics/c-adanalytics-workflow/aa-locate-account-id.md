@@ -1,44 +1,53 @@
 ---
-description: Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google oder Bing finden können.
+description: Anweisungen zum Auffinden Ihrer Konto-IDs für Google Ads und Microsoft Advertising.
 title: Konto-IDs suchen
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 55%
+source-wordcount: '338'
+ht-degree: 3%
 
 ---
 
-# Konto-IDs suchen
+# Konto-IDs suchen {#locate-your-account-ids}
 
-Im Folgenden finden Sie Anweisungen, mit denen Sie die Konto-IDs für Google oder Bing finden können.
+Erfahren Sie, wie Sie Ihre Konto-IDs für Google Ads und Microsoft Advertising finden.
 
-## Google Ads (AdWords) {#section_2A62AD448BD949889DB77C2AF3E04C33}
+## Google Ads (AdWords) {#google}
 
 >[!IMPORTANT]
 >
->Google AdWords verwendet zwei Kontotypen:
+>Google Ads verwendet zwei Kontotypen:
 >
 >- MCC-Konto (My Client Center) und
 >- Standardkonto.
 >
->Für diese Integration mit Adobe Analytics **Sie müssen eine Standardkonto-Anmeldung verwenden** keine MCC-Konto-Anmeldung. Das liegt daran, dass das MCC-Konto als übergeordnetes Konto dient, das mit einem einzelnen Login auf verschiedene AdWords-Konten zugreifen kann. Die Standardkonto-Anmeldung kann hingegen pro Login nur auf ein AdWords-Konto zugreifen. Während Google die Verknüpfung einer E-Mail-Adresse mit bis zu 5 Konten ermöglicht, unterstützt Advertising Analytics diese Funktion noch nicht. Eine E-Mail-Adresse kann nur mit einem Adwords-Konto verknüpft werden.
+>Für diese Integration mit Adobe Analytics **Sie müssen eine Standardkonto-Anmeldung verwenden** keine MCC-Konto-Anmeldung. Dies liegt daran, dass ein MCC-Konto als „Übersichtskonto“ dient, das mit einer einzigen Anmeldung auf mehrere Google Ads-Konten zugreifen kann, während die Standardkonto-Anmeldung pro Anmeldung nur auf ein Konto zugreifen kann. Google unterstützt zwar die Verknüpfung einer E-Mail mit fünf Konten, Advertising Analytics unterstützt diese Funktion jedoch noch nicht. Eine E-Mail kann nur mit einem Google Ads-Konto verknüpft werden.
 
-Klicken Sie oben rechts auf das Kontosymbol, um die AdWords-Kontonummer (Kunden-ID) anzuzeigen.
+Klicken Sie auf das Konto-Symbol oben rechts, um die Google Ads-Kontonummer (Kunden-ID) anzuzeigen.
 
 ![Google Ads Manager-Konto](assets/google-account.png)
 
-## Microsoft Advertising (Bing) {#section_F1B9C7E997444746936599732CD62665}
+## Microsoft Advertising (Bing) {#microsoft}
 
 >[!NOTE]
 >
->Wenn Ihr Microsoft Advertising-Konto (früher als Bing bezeichnet) die Google-Importfunktion verwendet, stellen Sie sicher, dass Sie die richtige Tracking-Zeichenfolge aktualisieren. Die Tracking-Zeichenfolge wird nicht automatisch von der Google-Version auf die richtige Bing-Tracking-Zeichenfolge aktualisiert, was zu nicht spezifizierten Daten führen kann. Weitere Details zu der Funktion finden Sie [hier](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>Wenn Ihr Microsoft Advertising-Konto (früher als Bing bezeichnet) die Google-Importfunktion verwendet, stellen Sie sicher, dass Sie die richtige Tracking-Zeichenfolge aktualisieren. Die Tracking-Zeichenfolge wird nicht automatisch von der Google-Version auf die richtige Tracking-Zeichenfolge für Microsoft Advertising aktualisiert, was zu nicht spezifizierten Daten führen kann. Weitere Informationen finden Sie [Was aus Google Ads importiert wird](https://help.ads.microsoft.com/apex/index/3/en/50851/) in der Hilfe zu Microsoft Advertising .
 
-Die **[!UICONTROL Konto]** ID) und **[!UICONTROL Kontonummer]** sind beide erforderlich. Sie werden auf der Registerkarte **[!UICONTROL Kontoeinstellungen]** unter **[!UICONTROL Einstellungen]** aufgeführt.
+Die **[!UICONTROL Konto-ID]** und **[!UICONTROL Manager-Konto-ID]** sind beide erforderlich.
 
->[!NOTE]
->
->Die Kontonummer ist nicht dasselbe wie die Konto-ID.
+- Die **[!UICONTROL Konto-ID]** befindet sich unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** > **[!UICONTROL Konto-ID]**. Stellen Sie sicher, dass Sie [!UICONTROL Konto-ID] und NICHT [!UICONTROL Kontonummer] verwenden.
+- Die **[!UICONTROL Manager-Konto]** ID) befindet sich unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Manager-Kontoeinstellungen]** > **[!UICONTROL Manager-Konto-ID]**. Stellen Sie sicher, dass Sie [!UICONTROL Manager-Konto-ID] und NICHT [!UICONTROL Manager-Kontonummer] verwenden.
 
-![Microsoft Advertising](assets/bing-id.png)
+![Microsoft Advertising-Navigation](assets/bing-id.png)
+
+>[!CONTEXTUALHELP]
+>id="adanalytics_ma_account_id"
+>title="Konto-ID"
+>abstract="Die „Konto-ID“ ist ein numerischer Wert in der Benutzeroberfläche von Microsoft Advertising. Sie können sie finden, indem Sie zu Einstellungen > Kontoeinstellungen > Konto-ID navigieren."
+
+>[!CONTEXTUALHELP]
+>id="adanalytics_ma_manager_account_id"
+>title="Manager-Konto-ID"
+>abstract="Die „Manager-Konto-ID“ ist ein numerischer Wert in der Benutzeroberfläche von Microsoft Advertising. Sie können sie finden, indem Sie zu Einstellungen > Manager-Kontoeinstellungen > Manager-Konto-ID navigieren."

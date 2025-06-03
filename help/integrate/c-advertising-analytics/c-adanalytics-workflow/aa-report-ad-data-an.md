@@ -1,12 +1,12 @@
 ---
-description: Details zur Analysis Workspace-Vorlage und zum Reporting im Report Builder.
+description: Details zur Analysis Workspace-Vorlage und zum Reporting in Report Builder.
 title: Berichte zu Werbedaten in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
@@ -31,7 +31,7 @@ Dieser Bericht ermöglicht allen Personen, die die Suchmaschinenintegration impl
 | Tabelle/Visualisierung | Beschreibung |
 |--- |--- |
 | Werbetrends | Tägliche Übersicht mit Trenddaten für AMO-Impressionen, -Klicks und -Kosten |
-| Anzeigenplattformen | Kreisdiagramm mit Kosten der führenden zwei Plattformen (Google, Bing) |
+| Anzeigenplattformen | Ringdiagramm für die Kosten der zwei wichtigsten Plattformen (Google Ads, Microsoft Advertising). |
 | Werbeplattform gesamt | Freiformtabelle der führenden Plattformen, aufgeschlüsselt nach AMO-Impressionen, -Klicks, -Kosten, durchschnittlicher AMO-Position und durchschnittlicher AMO- Qualitätsbewertung. |
 | Konten | Zusammengefasster Kostenbereich |
 | Konto gesamt | Freiformtabelle der führenden Konten, aufgeschlüsselt nach zugehörigen Metriken |

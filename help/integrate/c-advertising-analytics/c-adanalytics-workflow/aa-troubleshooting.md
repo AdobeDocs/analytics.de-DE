@@ -3,17 +3,17 @@ description: Finden und Beheben von Problemen in Advertising Analytics.
 title: Problembehebung in Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 50%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 # Problembehebung in Advertising Analytics
 
 * [Meine Report Suite wird nicht im Abschnitt „Zuordnung“ angezeigt](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung.](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Bei der Authentifizierung beim Google Ads-Konto erscheint eine Fehlermeldung…](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Meine Report Suite wird nicht im Abschnitt Zuordnung angezeigt {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
@@ -38,7 +38,7 @@ Sie versuchen, [ein neues Advertising-Konto einzurichten](/help/integrate/c-adve
  </tbody> 
 </table>
 
-## Wenn ich mich bei meinem Google AdWords-Konto anmelde, erhalte ich eine Fehlermeldung.  {#section_C99EA9A1946E4908B36778A331142B84}
+## Bei der Authentifizierung beim Google Ads-Konto wird eine Fehlermeldung angezeigt {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -49,8 +49,8 @@ Sie versuchen, [ein neues Advertising-Konto einzurichten](/help/integrate/c-adve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Die Authentifizierung bei Google AdWords mit einem E-Mail-Konto, das auch mit einem AdWords-Manager-Konto verknüpft ist, funktioniert nicht. </p> </td> 
-   <td colname="col2"> <p>Verwenden Sie zur Authentifizierung ein anderes E-Mail-Konto, das mit demselben AdWords-Konto verknüpft ist. </p> </td> 
+   <td colname="col1"> <p>Die Authentifizierung bei Google Ads mit einem E-Mail-Konto, das auch mit einem Google Ads Manager-Konto verknüpft ist, funktioniert nicht. </p> </td> 
+   <td colname="col2"> <p>Verwenden Sie zur Authentifizierung eine andere E-Mail-Adresse, die mit demselben Google Ads-Konto verknüpft ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,7 +3,7 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Advertising Analytics
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 36%
@@ -14,9 +14,9 @@ ht-degree: 36%
 
 ## Zugriff/Berechtigungen {#access}
 
-+++ Muss ich Adobe Advertising Cloud- oder Adobe Advertising Cloud (AMO)-Kunde sein, um auf diese Funktion zugreifen zu können?
++++ Muss ich Kunde von Adobe Advertising Cloud oder Adobe Advertising Cloud (AMO) sein, um auf diese Funktion zugreifen zu können?
 
-Nein, diese Funktion ist für Kunden verfügbar, die nicht Advertising Cloud oder AMO sind.
+Nein, diese Funktion ist für Kunden, die nicht zu Advertising Cloud gehören, und für Kunden, die keine AMO sind, verfügbar.
 
 AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden.
 
@@ -46,7 +46,7 @@ Nein, Advertising Analytics verwendet einen speziellen Datenquellentyp, der kein
 
 +++
 
-+++ Kann ich die Advertising Analytics-Funktion verwenden, wenn ich bereits Advertising Cloud/AMO verwende?
++++ Kann ich trotzdem die Advertising Analytics-Funktion verwenden, wenn ich Advertising Cloud/AMO bereits verwende?
 
 Jedes kompatible Suchmaschinenkonto wird an Advertising Analytics übergeben und als schreibgeschützt angezeigt. Sämtliche Bearbeitungen oder Aktualisierungen müssen in Advertising Cloud/AMO vorgenommen werden.
 
@@ -62,7 +62,7 @@ Advertising Analytics ist nur für Adobe Analytics-Administratoren verfügbar. A
 
 +++ Welche Suchmaschinenkonten sind in Advertising Analytics enthalten?
 
-Zu den Suchmaschinenkonten gehören Google AdWords und Microsoft Bing.
+Zu den Suchmaschinenkonten gehören Google Ads und Microsoft Advertising.
 
 +++
 
@@ -74,7 +74,7 @@ Navigieren Sie nach der Anmeldung bei Adobe Analytics zu [!UICONTROL Admin]. Wä
 
 +++ Wie werden die Daten erfasst und an Analytics weitergegeben?
 
-Advertising Analytics verwendet eine Reihe benutzerdefinierter APIs, um Daten von Suchmaschinen über die Adobe Advertising Cloud an Analytics zu übergeben.
+Advertising Analytics verwendet eine Reihe benutzerdefinierter APIs, um Daten von Suchmaschinen über Adobe Advertising Cloud an Analytics zu übergeben.
 
 +++
 
@@ -82,7 +82,7 @@ Advertising Analytics verwendet eine Reihe benutzerdefinierter APIs, um Daten vo
 
 Sie erhalten
 
-* Impressions
+* Impressionen
 * Klicks
 * Kosten
 * Qualitätsbewertung

@@ -3,10 +3,10 @@ description: Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung 
 title: Tracking-Typ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '572'
+ht-degree: 29%
 
 ---
 
@@ -18,15 +18,15 @@ Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmasc
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/37472/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
-Es werden zwei Tracking-Modi unterstützt[!UICONTROL &#x200B; „Auto] und [!UICONTROL Manuell].
+Es werden zwei Tracking-Modi unterstützt[!UICONTROL  „Auto] und [!UICONTROL Manuell].
 
 ## [!UICONTROL Auto]-Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Auto]-Tracking ermöglicht es der Advertising Cloud-Engine zu entscheiden, wie die Suchmaschinendaten verarbeitet werden sollen. Automatisches Tracking ist der einfachere Ansatz, führt jedoch möglicherweise nicht zum am besten integrierten Datensatz.
+[!UICONTROL Auto]-Tracking ermöglicht der Advertising Cloud-Engine die Entscheidung, wie die Suchmaschinendaten verarbeitet werden sollen. Automatisches Tracking ist der einfachere Ansatz, führt jedoch möglicherweise nicht zum am besten integrierten Datensatz.
 
 Daher müssen Sie bei Auswahl von „Automatisch“ ein Bestätigungs-Kontrollkästchen aktivieren **[!UICONTROL bevor Sie]** Kontoeinstellung speichern können.
 
@@ -37,7 +37,7 @@ Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/de/docs/id-service/using/reference/csp) hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) hinzufügen sollten.
 
 ## Manuelles Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -92,13 +92,13 @@ Um sicherzustellen, dass die Zeichenfolge durch die Umleitung zur endgültigen L
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Manuelles Tracking zu Bing-Konto hinzufügen {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Manuelles Tracking zum Microsoft Advertising-Konto hinzufügen {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Bing-Konto hinzugefügt werden muss. Sie müssen die Zeichenfolge zu allen finalen URL-Suffixen hinzufügen, die innerhalb Ihres Kontos verwendet werden.
+Die Zeichenfolge, die Ihrem Microsoft Advertising-Konto hinzugefügt werden muss, wird unten angezeigt. Sie müssen die Zeichenfolge zu allen finalen URL-Suffixen hinzufügen, die innerhalb Ihres Kontos verwendet werden.
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
 **Tracking-Zeichenfolge für Kampagnen:**
 
@@ -106,7 +106,7 @@ Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Bing-Konto hinzugefügt w
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![Trackingcode-Parameter hinzufügen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Beispiele für Trackingcodes in verschiedenen finalen URL-Suffix-Formaten:
 

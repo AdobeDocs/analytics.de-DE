@@ -3,16 +3,16 @@ description: Entdecken Sie alles, was Sie mit Advertising Analytics tun können,
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: cf0f528f1ccb0346786c017b4d0d48dd5ab6dfc2
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 93%
+source-wordcount: '1112'
+ht-degree: 70%
 
 ---
 
 # Advertising Analytics
 
-Mit Advertising Analytics können Sie alle Paid Search-Daten aus Google und Bing zentral in Adobe Analytics anzeigen. Zuvor mussten Sie Daten zu Google AdWords/DFA oder Microsoft Bing Ads in Adobe Advertising Cloud (AMO) oder in Google/Bing anzeigen. Sie können in Adobe Analytics jetzt die folgenden Daten erhalten: Impressionen, Klicks, Kostendaten direkt aus den Suchmaschinen sowie AMO ID-Instanzen (Klickinstanzen).
+Mit Advertising Analytics können Sie alle Paid Search-Daten von Google Ads und Microsoft Advertising in Adobe Analytics nebeneinander anzeigen. Zuvor mussten alle Google Ads- oder Microsoft Advertising-Daten in Adobe Advertising Cloud (AMO) oder in jeder entsprechenden Anzeigenschnittstelle angezeigt werden. Sie können jetzt Impressions-, Klick- und Kostendaten direkt von Suchmaschinen sowie AMO ID-Instanzen (Klickinstanzen) erhalten.
 
 Indem Sie die Daten aus diesen Suchmaschinen in Adobe Analytics zusammenführen, können Sie sie mit Analysis Workspace zentral analysieren. Eine neue Vorlage [Paid Search Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace vereinfacht die Analyse.
 
@@ -28,41 +28,21 @@ Diese Integration zielt auf folgende Zielgruppen ab:
 
 * Advertising Analytics steht nur für die Adobe Analytics-SKUs [Select](https://www.adobe.com/de/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html) und [Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html) zur Verfügung.
 * Diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung.
-* Sie müssen Adobe Analytics-Administrator sein, um auf Advertising Analytics zugreifen zu können. Daraufhin können Sie auch Nicht-Administratoren [Zugriffsberechtigungen erteilen](/help/integrate/c-advertising-analytics/overview.md#permissions).
-* Für jede Report Suite, in der Sie Google- oder Bing-Suchdaten anzeigen möchten, müssen Sie [die betreffenden Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**).
+* Sie müssen ein Adobe Analytics-Administrator sein, um Zugriff auf Advertising Analytics zu erhalten, oder zu einem Produktprofil gehören, dem Zugriff [ Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md#permissions) wurde.
+* Für jede Report Suite, in der Sie Google Ads- oder Microsoft Advertising-Suchdaten anzeigen möchten, müssen Sie [diese Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**).
 * Sie benötigen die Anmeldedaten eines Benutzers mit Bearbeitungsberechtigungen für die Suchkonten, die Sie in Adobe Analytics integrieren möchten wie z. B. Google-Konto-ID und -Passwort.
-* Bei Bing Ads benötigen Sie darüber hinaus die Bing-Kunden-ID.
+* Im Fall von Microsoft Advertising benötigen Sie auch die [[!UICONTROL Konto-ID] und [!UICONTROL Manager-Konto-ID]](c-adanalytics-workflow/aa-locate-account-id.md).
 
 ## Advertising Analytics-Berechtigungen {#permissions}
 
-Analytics umfasst zwei Berechtigungen, die Analytics-Administratoren automatisch zugewiesen werden. Administratoren können diese Berechtigungen dann an andere Benutzer weitergeben.
+Analytics verfügt über zwei Berechtigungen, die Analytics-Administrierenden automatisch erteilt werden. Administratoren können diese Berechtigungen dann an andere Benutzer weitergeben.
 
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Berechtigung </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-   <th colname="col3" class="entry"> Berechtigung in Adobe Analytics gewähren </th> 
-   <th colname="col4" class="entry"> Berechtigung bei Anmeldung in Adobe Experience Cloud gewähren </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Advertising Analytics-Verwaltung </p> </td> 
-   <td colname="col2"> <p>Ermöglicht Nutzern die Einrichtung, Bearbeitung und Anzeige von Werbesuchkonten. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Analytics-Werkzeuge anpassen</span> &gt; <span class="uicontrol">Advertising Analytics-Verwaltung</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Anmeldung bei adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Registerkarte „Berechtigungen“</span> &gt; <span class="uicontrol">Analytics-Tools</span> &gt; <span class="uicontrol">Advertising Analytics-Verwaltung</span></span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Advertising Analytics-Konfiguration </p> </td> 
-   <td colname="col2"> <p>Ermöglicht Benutzern die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Alle Administratoren</span> &gt; <span class="uicontrol">Benutzerverwaltung</span> &gt; <span class="uicontrol">Gruppen</span> &gt; <span class="uicontrol">Zugriff auf alle Berichte bearbeiten</span> &gt; <span class="uicontrol">Report Suite-Tools anpassen</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Anmeldung bei adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produkte</span> &gt; <span class="uicontrol">Produktprofil</span> &gt; <span class="uicontrol">Registerkarte „Berechtigungen“</span> &gt; <span class="uicontrol">Report Suite-Tools</span> &gt; <span class="uicontrol">Advertising Analytics-Konfiguration</span></span> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Berechtigung | Definition | Berechtigung bei Anmeldung in Adobe Experience Cloud gewähren |
+| --- | --- | --- |
+| Advertising Analytics-Verwaltung | Ermöglicht Nutzern die Einrichtung, Bearbeitung und Anzeige von Werbesuchkonten. | Melden Sie sich bei [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Produkte] > [!UICONTROL Adobe Analytics] > [!UICONTROL Produktprofil] > [!UICONTROL Berechtigungen] Registerkarte > [!UICONTROL Analytics-Tools] > [!UICONTROL Advertising Analytics Management] |
+| Advertising Analytics-Konfiguration | Ermöglicht Benutzern die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. | Melden Sie sich bei [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Produkte] > [!UICONTROL Adobe Analytics] > [!UICONTROL Produktprofil] > [!UICONTROL Berechtigungen] Registerkarte > [!UICONTROL Analytics-Tools] > [!UICONTROL Advertising Analytics Configuration] |
 
-## Advertising Analytics-Dimensionen und -Metriken {#dimensions-metrics}
+## Dimensionen und Metriken in Advertising Analytics {#dimensions-metrics}
 
 Advertising Analytics fügt die folgenden Dimensionen und Metriken zu Analysis Workspace, Report Builder und der Analytics Reporting-API hinzu.
 
@@ -74,26 +54,26 @@ Advertising Analytics fügt die folgenden Dimensionen und Metriken zu Analysis W
 >
 >Die Klassifizierungen für diese Metriken werden täglich aktualisiert. Wenn Sie also Änderungen an Metadaten in einer Suchmaschine vornehmen, treten diese möglicherweise erst am folgenden Tag in Kraft, nachdem die Klassifizierungen aktualisiert wurden.
 
-| Name der Classification (Dimension) | Definition |
-|--- |--- |
-| Keywordübereinstimmungstyp (AMO-ID) | Der Keyword-Übereinstimmungstyp. Mögliche Werte lauten in der Regel „Weit gefasst“, „Wortgruppe“, „Exakt“ bzw. kein Wert, wenn die Anzeigenart nicht über einen Übereinstimmungstyp verfügt. |
-| Anzeigenplattform (AMO-ID) | Der Name der Suchmaschine. Die Werte können Google AdWords oder Microsoft Bing Ads enthalten. |
-| Konto (AMO-ID) | Der Name des Suchmaschinenkontos, das verfolgt wird. |
-| Kampagne (AMO-ID) | Der Name der Kampagne in Ihrem Suchmaschinenkonto. |
-| Anzeigengruppe (AMO-ID) | Der Name der Anzeigengruppe in Ihren Suchmaschinen-Kampagnen. |
-| Anzeige (AMO-ID) | Der Anzeigentitel und die Anzeigenbeschreibung Ihrer Werbeanzeige. |
-| Keyword (AMO-ID) | Der Keywordwert aus Ihrem Suchmaschinenkonto. |
-| Übereinstimmungstyp (AMO-ID) | Der Ihrem Keyword zugewiesene Keyword-Übereinstimmungstyp. Mögliche Werte lauten in der Regel „Weit gefasst“, „Wortgruppe“, „Exakt“ bzw. kein Wert, wenn die Anzeigenart nicht über einen Übereinstimmungstyp verfügt. |
-| Anzeigenart (AMO-ID) | Der Typ der verarbeiteten Anzeige, normalerweise „Textanzeige“. |
-| Anzeigentitel (AMO-ID) | Das in Ihrer Werbeanzeige verwendete Titelobjekt. |
-| Anzeigenbeschreibung (AMO-ID) | Die in Ihrer Werbeanzeige verwendete Anzeigenbeschreibung. |
-| Werbeanzeigen-URL (AMO-ID) | Die in Ihrer Werbeanzeige verwendete Werbeanzeigen-URL. |
-| Anzeigenziel-URL (AMO-ID) | Die Ihrer Werbeanzeige zugewiesene Landingpage-URL oder endgültige URL. |
-| Netzwerk (AMO-ID) | Das Netzwerk, auf dem die Werbeanzeige ausgeliefert wird. Bei Advertising Analytics lautet dieser Wert immer „Suche“. |
-| Platzierung (AMO-ID) | Die Website der verwalteten Platzierung (bei Content-Netzwerken). Diese Dimension wird nur bei verwalteten Platzierungen verwendet. |
-| Produktziel (AMO-ID) | Der bei PLA-Anzeigen verwendete Name des Produktziels (nicht das tatsächlich erworbene Produkt). |
-| Optimierung (AMO-ID) | Dies wird von Advertising Analytics nicht verwendet. Es wird nur von Advertising Cloud-Kunden verwendet. |
-| Gerät (AMO-ID) | Derzeit nicht verwendet. Platzhalter für potenzielle zukünftige Produktoptimierungen am jeweiligen Zielgerätetyp (z. B. Mobilgerät, Desktop) einer Werbeanzeige (nicht das tatsächliche Gerät des Besuchers). |
+| Name der Klassifizierung (Dimension) | Definition |
+| --- | --- |
+| **[!UICONTROL Keyword MatchType (AMO-ID)]** | Der Keyword-Übereinstimmungstyp. Mögliche Werte lauten in der Regel „Weit gefasst“, „Wortgruppe“, „Exakt“ bzw. kein Wert, wenn die Anzeigenart nicht über einen Übereinstimmungstyp verfügt. |
+| **[!UICONTROL Anzeigenplattform (AMO-ID)]** | Der Name der Suchmaschine. Werte können &quot;Google AdWords“ oder &quot;Microsoft Bing Ads“ sein. |
+| **[!UICONTROL Konto (AMO-ID)]** | Der Name des Suchmaschinenkontos, das verfolgt wird. |
+| **[!UICONTROL Campaign (AMO-ID)]** | Der Name der Kampagne in Ihrem Suchmaschinenkonto. |
+| **[!UICONTROL Anzeigengruppe (AMO-ID)]** | Der Name der Anzeigengruppe in Ihren Suchmaschinen-Kampagnen. |
+| **[!UICONTROL Anzeige (AMO-ID)]** | Der Anzeigentitel und die Anzeigenbeschreibung Ihrer Werbeanzeige. |
+| **[!UICONTROL Keyword (AMO-ID)]** | Der Keyword-Wert aus Ihrem Suchmaschinenkonto. |
+| **[!UICONTROL Übereinstimmungstyp (AMO-ID)]** | Der Ihrem Keyword zugewiesene Keyword-Übereinstimmungstyp. Mögliche Werte lauten in der Regel „Weit gefasst“, „Wortgruppe“, „Exakt“ bzw. kein Wert, wenn die Anzeigenart nicht über einen Übereinstimmungstyp verfügt. |
+| **[!UICONTROL Ad Type (AMO ID)]** | Der Typ der verarbeiteten Anzeige, normalerweise „Textanzeige“. |
+| **[!UICONTROL Anzeigentitel (AMO-ID)]** | Das in Ihrer Werbeanzeige verwendete Titelobjekt. |
+| **[!UICONTROL Anzeigenbeschreibung (AMO-ID)]** | Die in Ihrer Werbeanzeige verwendete Anzeigenbeschreibung. |
+| **[!UICONTROL Anzeige-URL (AMO-ID)]** | Die in Ihrer Werbeanzeige verwendete Werbeanzeigen-URL. |
+| **[!UICONTROL Werbeziel-URL (AMO-ID)]** | Die Ihrer Werbeanzeige zugewiesene Landingpage-URL oder endgültige URL. |
+| **[!UICONTROL Netzwerk (AMO-ID)]** | Das Netzwerk, auf dem die Werbeanzeige ausgeliefert wird. Bei Advertising Analytics lautet dieser Wert immer „Suche“. |
+| **[!UICONTROL Platzierung (AMO-ID)]** | Die Website der verwalteten Platzierung (bei Content-Netzwerken). Diese Dimension wird nur bei verwalteten Platzierungen verwendet. |
+| **[!UICONTROL Produktzielgruppe (AMO-ID)]** | Der bei PLA-Anzeigen verwendete Name des Produktziels (nicht das tatsächlich erworbene Produkt). |
+| **[!UICONTROL Optimierung (AMO-ID)]** | Dies wird von Advertising Analytics nicht verwendet. Es wird nur von Advertising Cloud-Kunden verwendet. |
+| **[!UICONTROL Gerät (AMO-ID)]** | Derzeit nicht verwendet. Platzhalter für potenzielle zukünftige Produktoptimierungen am jeweiligen Zielgerätetyp (z. B. Mobilgerät, Desktop) einer Werbeanzeige (nicht das tatsächliche Gerät des Besuchers). |
 
 ### Metriken
 
@@ -105,8 +85,8 @@ Advertising Analytics fügt die folgenden Dimensionen und Metriken zu Analysis W
 >
 >Es gibt eine Metrik zu AMO-ID-Instanzen, die festgelegt wird, wenn die AMO-ID auf einer Landingpage festgelegt wird (also bei einem Clickthrough). Diese Metrik wird in Echtzeit mit dem Landingpage-Aufruf erfasst und ist für Aufschlüsselungen mit anderen auf der Landingpage festgelegten Dimensionen verfügbar.
 
-| Kennzahlname | Definition |
-|--- |--- |
-| AMO-Impressionen | Die Anzahl der Werbeimpressionen gemäß den Daten der Suchmaschine. |
-| AMO-Klicks | Die Anzahl der Klicks gemäß den Daten der Suchmaschine. |
-| AMO-Kosten | Die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. |
+| Metrikname | Definition |
+| --- | --- |
+| **[!UICONTROL AMO-Impressionen]** | Die Anzahl der Werbeimpressionen gemäß den Daten der Suchmaschine. |
+| **[!UICONTROL AMO-Klicks]** | Die Anzahl der Klicks gemäß den Daten der Suchmaschine. |
+| **[!UICONTROL AMO-Kosten]** | Die Kosten pro Keyword/Werbeanzeige gemäß den Daten der Suchmaschine. |

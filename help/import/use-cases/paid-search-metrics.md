@@ -1,20 +1,20 @@
 ---
 title: Importieren von Paid-Search-Metriken
-description: Schritte zum Konfigurieren von Adobe Analytics zum Tracking Ihrer Paid Search-Metriken (z. B. Google AdWords, MSN, Yahoo usw.) mithilfe von Datenquellen.
+description: Schritte zum Konfigurieren von Adobe Analytics zum Tracking Ihrer Paid-Search-Metriken (z. B. Google-Anzeigen, Microsoft Advertising usw.) mithilfe von Datenquellen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
 # Importieren von [!UICONTROL Paid Search]-Metriken mithilfe von [!UICONTROL Datenquellen]
 
-Für viele Marketing-Unternehmen ist Paid Search eine der wertvollsten und zuverlässigsten Methoden, um sowohl neue Kunden zu erreichen als auch bestehende zu binden. Die Funktion [!UICONTROL Datenquellen] in Adobe Analytics erleichtert den Import von erweiterten Paid-Search-Daten von digitalen Werbeplattformen wie Google AdWords. Sie können sie zusammen mit den Verhaltensdaten und Kundenattributen auf der Site in den Rest Ihrer Marketing-Daten integrieren, um Ihnen bessere Einblicke in die Paid Search-Bemühungen Ihres Unternehmens zu ermöglichen.
+Für viele Marketing-Unternehmen ist Paid Search eine der wertvollsten und zuverlässigsten Methoden, um sowohl neue Kunden zu erreichen als auch bestehende zu binden. Die [!UICONTROL Datenquellen] in Adobe Analytics erleichtert den Import von erweiterten Paid-Search-Daten von digitalen Werbeplattformen wie Google Ads. Sie können sie zusammen mit den Verhaltensdaten und Kundenattributen auf der Site in den Rest Ihrer Marketing-Daten integrieren, um Ihnen bessere Einblicke in die Paid Search-Bemühungen Ihres Unternehmens zu ermöglichen.
 
-Diese Schritte zeigen Ihnen, wie Sie eine Integration mit AdWords konfigurieren können, um Keyword-Daten sowie Metriken wie Impressionen, Klicks, Kosten pro Klick und mehr zu importieren.
+Diese Schritte zeigen Ihnen, wie Sie eine Integration mit Ads konfigurieren können, um Keyword-Daten sowie Metriken wie Impressionen, Klicks, Kosten pro Klick und mehr zu importieren.
 
 In den Schritten wird beschrieben, wie Sie einen einmaligen Import von Pay-per-Click-Daten einrichten. Allerdings ermöglicht [!UICONTROL Datenquellen] den fortlaufenden Import von Daten unter Verwendung des hier beschriebenen Dateiformats. Abhängig von Ihrer Paid-Search-Plattform können Sie unter Umständen regelmäßige Exporte planen (täglich, monatlich usw.), automatisierte Prozesse einrichten, um diese Exporte in das von Adobe Analytics benötigte Dateiformat umzuwandeln, und diese Dateien in Adobe Analytics hochladen, um Berichte zur Paid-Search-Integration zu erstellen.
 
@@ -85,7 +85,7 @@ Die Datei enthält bereits die Metriken und Dimensionen sowie deren Zuordnungen.
 
 ## Exportieren der PPC-Daten und Hochladen in Analytics
 
-Diese Schritte funktionieren für Google Adwords, MSN, Yahoo und andere PPC-Konten.
+Diese Schritte funktionieren für Google Ads, Microsoft Advertising und andere PPC-Konten.
 
 ### Exportieren von Daten
 
