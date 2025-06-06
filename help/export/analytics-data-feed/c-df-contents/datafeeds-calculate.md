@@ -4,10 +4,10 @@ keywords: Daten-Feed;Auftrag;Metrik;vor Spalte;nach Spalte;Bots;Datumsfilterung;
 title: Metriken berechnen
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 90%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 
 >[!NOTE]
 >
->Treffer, die normalerweise von Adobe Analytics ausgeschlossen sind, werden in Daten-Feeds eingeschlossen. Mit `exclude_hit = 0` können Sie ausgeschlossene Treffer aus Abfragen von Rohdaten entfernen. Daten aus Datenquellen werden in Daten-Feeds ebenfalls eingeschlossen. Wenn Sie Datenquellen ausschließen möchten, schließen Sie alle Zeilen mit `hit_source = 5,7,8,9` aus.
+>Treffer, die normalerweise von Analysis Workspace ausgeschlossen sind, sind in Daten-Feeds enthalten. Erwägen Sie, Ihren Abfragen die folgenden Bedingungen hinzuzufügen, falls sie relevant sind:
+>
+>* **`exclude_hit`**: Analysis Workspace umfasst nur Daten, bei denen `exclude_hit = 0`.
+>* **`customer_perspective`**: Analysis Workspace umfasst nur Daten, bei denen `customer_perspective = 0` sind, es sei denn, Sie verwenden eine Virtual Report Suite, die mobile Hintergrundtreffer enthält.
+>* **`hit_source`**: Daten aus Datenquellen können Unterschiede zwischen Rohdaten und Analysis Workspace enthalten. Wenn Sie Treffer aus Datenquellen ausschließen möchten, schließen Sie alle Zeilen aus, für die `hit_source = 5,7,8,9` gilt.
 
 ## Seitenansichten
 
@@ -36,7 +40,7 @@ In diesem Abschnitt wird erläutert, wie häufig verwendete Metriken mithilfe vo
 >
 >In seltenen Fällen kann es vorkommen, dass bei Problemen mit dem Internet oder dem System oder der Verwendung benutzerspezifischer Besucher-IDs dieselben `visit_num`-Werte für verschiedene Besuche verwendet werden. Verwenden Sie bei der Zählung von Besuchen `visit_start_time_gmt`, um sicherzustellen, dass diese Besuche gezählt werden, auch wenn dies optional ist.
 
-## Besucher
+## Besuchende
 
 Alle Methoden, die Adobe verwendet, um Unique Visitors zu identifizieren (benutzerdefinierte Besucher-ID, Experience Cloud-ID-Service usw.), werden letztendlich als Wert in `post_visid_high` und `post_visid_low` berechnet. Die Verkettung dieser beiden Spalten kann als Standardmethode zur Identifizierung von Unique Visitors verwendet werden, unabhängig davon, wie Besucher als Unique Visitors identifiziert wurden. In der Spalte `post_visid_type` ist die Methode ersichtlich, die Adobe zur Identifizierung eines Unique Visitors verwendet hat.
 
