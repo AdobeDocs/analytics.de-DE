@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1039,7 +1039,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--advertisingAnalyticsPaidSearch"
->title="Zeigen Sie alle Paid Search-Daten für Google Ads und Microsoft Advertising nebeneinander an."
+>title="Zeigen Sie alle Paid-Search-Daten von Google Ads und Microsoft Advertising nebeneinander an."
 >abstract="**Dies kann Ihnen helfen**, den Umfang des an Ihre Site gesendeten Traffics besser zu verstehen und ob Kundinnen und Kunden konvertieren.<br/>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Kostenwirksamkeit einer Anzeigenkampagne schätzen."
 
 <!-- markdownlint-enable MD034 -->
@@ -1213,7 +1213,7 @@ Die folgenden Vorlagen sind verfügbar:
 | [!UICONTROL **Kampagnen**] > [!UICONTROL **Trackingcode**] | Zeigen Sie die Namen der Trackingcodes auf Ihrer Site an. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Links am erfolgreichsten dazu beigetragen haben, den Traffic auf Ihre Site zu lenken. Das Anhängen von Trackingcode-Abfragezeichenfolgen erfolgt häufig in E-Mails, Anzeigen, Social Media-Posts und anderen Marketing-Maßnahmen Ihrer Organisation</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Maßnahmen auf die Kampagnen konzentrieren, die den meisten Umsatz bringen. </p><p>Diese Vorlage verwendet die Dimension „Trackingcode“. </p> |
 | **Web-Akquise** | Sehen Sie sich an, wie Ihre Website Besuchende erhält.<p>**Dies kann Ihnen helfen**, die verschiedenen Faktoren besser zu verstehen, die zur Akquise führen, wie Suchbegriffe, verweisende Domain usw.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Maßnahmen auf die effektivsten Kanäle konzentrieren.</p><p>Diese Vorlage verwendet die Absprungratenmetrik und die Metrik „Bounces“. Außerdem werden die Dimension „Suchmaschine“, die Dimension „Suchbegriff“, die Dimension „Einstiegsseite“, die Dimension „Verweisende Domäne“, die Dimension „Trackingcode“ und die Dimension „Verweisende Stelle“ verwendet.  </p> |
 | **Mobile-Akquise** | Zeigen Sie an, wie Ihre Site Besuchende auf Mobilgeräten erhält.<p>**Dies kann Ihnen helfen**, die verschiedenen Faktoren besser zu verstehen, die zur Akquise führen, wie Suchbegriffe, verweisende Domain usw.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Maßnahmen auf die effektivsten Kanäle konzentrieren.</p><p>Diese Vorlage verwendet die Absprungratenmetrik und die Metrik „Bounces“. Außerdem werden die Dimension „Suchmaschine“, die Dimension „Suchbegriff“, die Dimension „Einstiegsseite“, die Dimension „Verweisende Domäne“, die Dimension „Trackingcode“ und die Dimension „Verweisende Stelle“ verwendet.  </p> |
-| **Advertising Analytics: Paid Search** | Zeigen Sie alle Paid Search-Daten für Google Ads und Microsoft Advertising nebeneinander an. <p>**Dies kann Ihnen helfen**, den Umfang des an Ihre Site gesendeten Traffics besser zu verstehen und ob Kundinnen und Kunden konvertieren.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Kostenwirksamkeit einer Anzeigenkampagne schätzen.</p> |
+| **Advertising Analytics: Paid Search** | Zeigen Sie alle Paid-Search-Daten von Google Ads und Microsoft Advertising nebeneinander an. <p>**Dies kann Ihnen helfen**, den Umfang des an Ihre Site gesendeten Traffics besser zu verstehen und ob Kundinnen und Kunden konvertieren.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Kostenwirksamkeit einer Anzeigenkampagne schätzen.</p> |
 | **Suchbegriffe – Alle** | Zeigen Sie die Suchbegriffe an, die Besuchende zum Erreichen Ihrer Site verwenden, unabhängig davon, ob es sich um gebührenpflichtige oder organische Suchbegriffe handelt. <p>**Dies kann Ihnen helfen**, die Keywords besser zu verstehen, die bei Suchvorgängen verwendet werden, welche zu Sitetraffic führen. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. SEO-Lücken zwischen den verwendeten Keywords und den Keywords, die den Sitetraffic fördern, identifizieren und schließen.</p><p>Diese Vorlage verwendet die Dimension „Suchbegriff“. </p> |
 | **Suchbegriffe – Paid** | Zeigen Sie die Suchbegriffe an, die Besuchende zum Erreichen Ihrer Site verwenden und die mit der Paid-Search-Erkennung übereinstimmen.<p>**Dies kann Ihnen helfen**, die Keywords besser zu verstehen, die bei den Suchvorgängen verwendet werden, die zu Sitetraffic führen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. SEO-Lücken zwischen den verwendeten Keywords und den Keywords, die den Sitetraffic fördern, identifizieren und schließen. </p><p>Diese Vorlage verwendet die Dimension „Suchbegriff – Bezahlt“. </p> |
 | **Suchbegriffe – Natürlich** | Zeigen Sie die Suchbegriffe an, die Besuchende zum Erreichen Ihrer Site verwenden und die nicht mit der Paid-Search-Erkennung übereinstimmen.<p>**Dies kann Ihnen helfen**, die Keywords besser zu verstehen, die bei Suchvorgängen verwendet werden, welche zu Sitetraffic führen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. SEO-Lücken zwischen den verwendeten Keywords und den Keywords, die den Sitetraffic fördern, identifizieren und schließen.</p><p>Diese Vorlage verwendet die Dimension „Keyword – Natürlich“. </p> |
