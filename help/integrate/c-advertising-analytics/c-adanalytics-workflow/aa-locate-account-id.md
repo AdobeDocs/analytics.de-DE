@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -45,9 +45,9 @@ Die **[!UICONTROL Konto-ID]** und **[!UICONTROL Manager-Konto-ID]** sind beide e
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="Konto-ID"
->abstract="Die „Konto-ID“ ist ein numerischer Wert in der Benutzeroberfläche von Microsoft Advertising. Sie können sie finden, indem Sie zu Einstellungen > Kontoeinstellungen > Konto-ID navigieren."
+>abstract="Die „Konto-ID“ ist ein numerischer Wert auf der Benutzeroberfläche von Microsoft Advertising. Sie können sie finden, indem Sie zu „Einstellungen“ > „Kontoeinstellungen“ > „Konto-ID“ navigieren."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
 >title="Manager-Konto-ID"
->abstract="Die „Manager-Konto-ID“ ist ein numerischer Wert in der Benutzeroberfläche von Microsoft Advertising. Sie können sie finden, indem Sie zu Einstellungen > Manager-Kontoeinstellungen > Manager-Konto-ID navigieren."
+>abstract="Die „Manager-Konto-ID“ ist ein numerischer Wert auf der Benutzeroberfläche von Microsoft Advertising. Sie können sie finden, indem Sie zu „Einstellungen“ > „Manager-Kontoeinstellungen“ > „Manager-Konto-ID“ navigieren."

@@ -6,7 +6,7 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segmen
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/37520?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -50,9 +50,9 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentverglei
 
 ## Verwenden
 
-So verwenden Sie das Bedienfeld **[!UICONTROL Attribution]**:
+So verwenden Sie das Panel **[!UICONTROL Attribution]**:
 
-1. Erstellen Sie das Bedienfeld **[!UICONTROL Attribution]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](../panels.md#create-a-panel).
+1. Erstellen Sie das Panel **[!UICONTROL Attribution]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](../panels.md#create-a-panel).
 
 1. Legen Sie die [Eingabe](#panel-input) für das Bedienfeld fest.
 
@@ -60,7 +60,7 @@ So verwenden Sie das Bedienfeld **[!UICONTROL Attribution]**:
 
 
 
-### Bedienfeldeingabe
+### Panel-Eingabe
 
 Sie können das Bedienfeld [!UICONTROL Segmentvergleich] mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 

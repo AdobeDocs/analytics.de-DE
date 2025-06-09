@@ -5,7 +5,7 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '18671'
 ht-degree: 100%
 
@@ -956,8 +956,8 @@ Die folgenden Vorlagen sind verfügbar:
 
 >[!CONTEXTUALHELP]
 >id="template--mobile-app-messaging"
->title="Zeigen Sie Leistungsdaten zu In-App-Nachrichten und Push-Nachrichten für Ihre App an."
->abstract="**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.<br/>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern."
+>title="Zeigen Sie Leistungsdaten für In-App- und Push-Nachrichten für Ihre App an."
+>abstract="**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.<br/>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1017,7 +1017,7 @@ Die folgenden Vorlagen sind verfügbar:
 | **Mobile** > **Mobile-App-Nutzung** | Zeigen Sie die Anzahl der Benutzenden, Starts und ersten Starts der App sowie die durchschnittliche Sitzungslänge an.<p>**Dies kann Ihnen helfen**, die Nutzungszeiten Ihrer App genauer zu überblicken. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die App-Leistung verbessern, damit sie entsprechend der Nutzungsintensität skaliert werden kann.</p><!-- This template uses the --> |
 | **Mobile** > **Mobile App – Journeys** | Zeigen Sie die meistverbreiteten Nutzungsmuster für Ihre Mobile App an. <p>**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende Ihre App verwenden.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. die Art und Weise verbessern, wie die Benutzenden von einem Bildschirm zum anderen gelangen, um die gängigsten Workflows zu optimieren. </p><!-- This template uses the --> |
 | **Mobile** > **Mobile-App-Metriken** | Zeigen Sie einige der häufigsten Mobile-App-Metriken an. <p>**Dies kann Ihnen helfen**, die allgemeine Leistung Ihrer App besser zu verstehen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. den allgemeinen Zustand und die allgemeine Leistung Ihrer App bewerten.</p><!-- This template uses the --> |
-| **Mobile** > **Mobile-App-Messaging** | Zeigen Sie Leistungsdaten zu In-App-Nachrichten und Push-Nachrichten für Ihre App an.<p>**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern.</p><!-- This template uses the --> |
+| **Mobile** > **Mobile-App-Messaging** | Zeigen Sie Leistungsdaten für In-App- und Push-Nachrichten für Ihre App an.<p>**Dies kann Ihnen helfen**, besser zu überblicken, wie Benutzende In-App-Messaging-Funktionen verwenden und wie effektiv Push-Benachrichtigungen Traffic zu Ihrer App leiten.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. das Push-Benachrichtigungs-Erlebnis bei In-App-Nachrichten verbessern.</p><!-- This template uses the --> |
 | **Mobile** > **Mobile-App-Leistung** | Zeigen Sie die Leistung Ihrer App an und finden Sie heraus, wo Probleme bei Benutzenden auftreten. <p>**Dies kann Ihnen helfen**, zu überblicken, ob Benutzende Ihrer App eine langsame oder sonstwie beeinträchtigte Leistung erleben.  </p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. vorhandene Probleme beheben oder die App-Leistung verbessern und so Problemen vorbeugen.</p><!-- This template uses the --> |
 | **Mobile** > **Mobile-App-Bindung** | Zeigen Sie an, welche Benutzenden Ihrer App die treuesten sind und was sie in der App tun. <p>**Dies kann Ihnen helfen**, die Nutzungsweisen Ihrer App durch Ihre treuesten Benutzenden zu überblicken.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** verschiedene Maßnahmen ergreifen, z. B. intensivere Marketing-Maßnahmen für die Funktionen, die Ihre treusten Benutzenden verwenden.</p><!-- This template uses the --> |
 | **Bots** | Zeigen Sie Seitenansichten und Trends in Bezug auf den Bottraffic auf Ihrer Site an. <p>**Dies kann Ihnen helfen**, die Menge an Bottraffic besser zu verstehen, der aus Ihren Berichten gemäß den von Ihnen konfigurierten Bot-Regeln gefiltert wird.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Bot-Aktivität weiter überwachen, um neue Muster zu erkennen.</p><!-- This template uses the --> |
