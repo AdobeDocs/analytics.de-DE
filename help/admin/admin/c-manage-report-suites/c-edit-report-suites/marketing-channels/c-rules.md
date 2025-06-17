@@ -4,7 +4,7 @@ description: Die Marketingkanal-Verarbeitungsregeln bestimmen, ob der Besucherzu
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -73,7 +73,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Alle | Aktiviert diesen Kanal nur, wenn alle Kriterien in der Regel „true“ sind. |
 | Eines | Aktiviert diesen Kanal, wenn irgendeines der Kriterien in der Regel „true“ ist. Diese Option ist nur verfügbar, wenn die Regel mehr als ein Kriterium enthält. |
 | AMO-ID | Der von den Adobe Advertising- und Advertising Analytics-Integrationen verwendete primäre Trackingcode. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising-spezifische Kanäle zu identifizieren. Verwenden Sie eine „AMO ID“, die mit „AL“ für Suche und Social beginnt, oder „AC“ für Anzeige. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können die Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden. Wenn die AMO-ID nicht konfiguriert ist, gehen diese Metriken zu „Direkt“ oder „Keine“. |
-| AMO EF ID | Der sekundäre Trackingcode, der vom Adobe Advertising verwendet wird. Der Hauptzweck dieses Trackingcodes ist es, als Schlüssel für das Zurücksenden von Daten an Advertising zu dienen. Es kann jedoch auch verwendet werden, um Display-Clickthroughs und Display-Viewthroughs als zwei separate Marketing-Kanäle zu identifizieren. Legen Sie dazu fest, dass die Marketing-Kanal-Logik für „AMO EF ID“ mit `:d` für Display-Clickthroughs oder „AMO EF ID“ mit `:i` für Display-ViewThroughs endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
+| AMO EF ID | Der von Adobe Advertising verwendete sekundäre Trackingcode. Der Hauptzweck dieses Trackingcodes ist es, als Schlüssel für das Zurücksenden von Daten an Advertising zu dienen. Es kann jedoch auch verwendet werden, um Display-Clickthroughs und Display-Viewthroughs als zwei separate Marketing-Kanäle zu identifizieren. Legen Sie dazu fest, dass die Marketing-Kanal-Logik für „AMO EF ID“ mit `:d` für Display-Clickthroughs oder „AMO EF ID“ mit `:i` für Display-ViewThroughs endet. Wenn Sie die Anzeige nicht in zwei Kanäle aufteilen möchten, verwenden Sie stattdessen die „AMO-ID“-Dimension. |
 | Konversionsvariablen | Setzt sich aus eVars zusammen, die für diese Report Suite aktiviert wurden, und gilt nur, wenn diese Variablen über den Adobe-Code auf der Seite gesetzt wurden. |
 | Vorhanden | Mehrere Auswahlmöglichkeiten sind verfügbar, einschließlich:<ul><li>**Nicht vorhanden**: Gibt an, dass das Trefferattribut nicht in der Anfrage vorhanden ist. Beispiel: Wenn der Benutzer in einer Referrer-Domäne eine URL eingibt oder auf ein Lesezeichen klickt, ist das Attribut für die Referrer-Domäne nicht vorhanden.</li><li>**Ist leer**: Gibt an, dass ein Trefferattribut vorhanden ist. In der Regel handelt es sich dabei um eine eVar oder einen Abfragezeichenfolgenparameter, doch dem Trefferattribut ist kein Wert zugeordnet.</li><li>**Enthält nicht**: Hiermit können Sie beispielsweise angeben, dass eine Referrer Domain einen bestimmten Wert nicht enthält (anders als bei der von Auswahl „Enthält“).</li></ul> |
 | Den Kanal identifizieren als | Verbindet die Regel mit dem Marketing-Kanal, den Sie der Seite „Marketing-Kanal-Manager“ hinzugefügt haben. |
@@ -82,7 +82,7 @@ Diese Referenztabelle definiert die Trefferattribute, die Sie zum Festlegen von 
 | Verweisende Stelle stimmt mit internen URL-Filtern überein | Ein Besuch, dessen Seiten-URL laut der Definition für die Report Suite in „Admin Tools“ mit dem internen URL-Filter übereinstimmt. |
 | Verweisende Stelle stimmt nicht mit internen URL-Filtern überein | Die verweisende URL stimmt laut Definition für die Report Suite in „Admin Tools“ nicht mit dem internen URL-Filter überein. Sie können diese Einstellung mit Seiten-URL und „Existiert“ verwenden, um eine Sammelregel zu erstellen, sodass keine Besuche im Berichtabschnitt „Kein Kanal identifiziert“ landen. |
 | Treffer ignorieren, die mit internen URL-Filtern übereinstimmen | (Für verweisende Stellen) Verfolgt nur Treffer, die von extern verweisenden Stellen stammen. Normalerweise wird diese Option nicht aktiviert, es sei denn, Sie möchten internen Traffic einbeziehen. |
-| Ist erste Seite des Besuchs | Die erste Seite eines Besuchs, die in der Adobe Berichterstellung erkannt wurde. |
+| Ist der erste Treffer des Besuchs | Der erste Treffer eines Besuchs, der von Adobe-Berichten erkannt wurde. |
 | Seite | Die Dimension [Seite](/help/components/dimensions/page.md). |
 | Seitendomäne | Die Domain der Seite, auf der der Besucher landet, z. B. `products.example.com`. |
 | Seitendomäne und Pfad | Die Domain und der Pfad, z. B. `products.example.com/mens/pants/overview.html`. |
