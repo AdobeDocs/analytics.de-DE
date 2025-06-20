@@ -30,7 +30,7 @@ In den folgenden Abschnitten erfahren Sie, wie Sie mithilfe segmentierter Metrik
 ## Beliebte Seiten
 
 1. [Erstellen Sie eine berechnete ](../cm-workflow.md) aus einem Workspace-Projekt namens `Germany`.
-1. Erstellen Sie im [Generator für berechnete ](cm-build-metrics.md)[ ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
+1. Erstellen Sie im [Generator für berechnete ](cm-build-metrics.md) [ ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
 
    >[!TIP]
    >
