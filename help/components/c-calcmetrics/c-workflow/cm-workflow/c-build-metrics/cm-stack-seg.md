@@ -3,10 +3,10 @@ description: Hier wird erläutert, wie Sie Segmente mit dem Generator für berec
 title: Segmente stapeln und ersetzen
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 26%
+source-wordcount: '112'
+ht-degree: 19%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 26%
 
 Sie können Segmente im Generator für berechnete Metriken stapeln und ersetzen.
 
-## Stapeln von Segmenten {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
+## Stapeln von Segmenten {#stack-segment}
 
-1. Beginnen Sie mit dem Erstellen einer Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
+1. Beginnen Sie mit dem Erstellen einer Metrik, wie in [Berechnete Metriken erstellen](cm-build-metrics.md) beschrieben.
 
 1. Ziehen Sie das neue Segment auf die Arbeitsfläche „Definition“ und legen Sie es neben dem vorhandenen Segment ab:
 
-![](assets/cm_stack_seg.png)
+   ![Arbeitsfläche mit der US-Besuchermetrik neben den bestehenden „International Visitors“ entfernt.](assets/segment-stack.png)
 
-## Ersetzen eines Segments durch ein anderes {#section_3DA899DF522A44D7A583C5DC8C0A033E}
+## Ersetzen eines Segments durch ein anderes {#replace-segment}
 
-1. Beginnen Sie mit dem Erstellen einer Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
+1. Beginnen Sie mit dem Erstellen einer Metrik, wie in [Metriken erstellen](cm-build-metrics.md) beschrieben.
 
 1. Legen Sie das neue Segment auf der Arbeitsfläche „Definition“ auf dem vorhandenen Segment ab:
 
-![](assets/cm_replace_seg.png)
+   ![Arbeitsfläche mit der Definition der US-Besucher, die über der Metrik „Internationale Besucher“ abgelegt wurden.](assets/segment-replace.png)

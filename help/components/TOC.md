@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Komponentenleitfaden für Analytics](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Dimensionen {#dimensions}
-   + [Dimensionen – Übersicht](dimensions/overview.md)
+   + [Dimensionen – Überblick](dimensions/overview.md)
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
    + [Activity Map-Link](dimensions/activity-map-link.md)
    + [Activity Map-Link nach Region](dimensions/activity-map-link-by-region.md)
@@ -180,22 +180,24 @@ ht-degree: 100%
    + [Informationen zu Segment-Containern](segmentation/seg-containers.md)
    + [Segmentierungsfunktionen in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Segmentierungs-Workflow {#segmentation-workflow}
-      + [Übersicht über den Segmentierungs-Workflow](segmentation/segmentation-workflow/seg-workflow.md)
-      + [Segmente planen](segmentation/segmentation-workflow/seg-plan.md)
-      + [Segmente erstellen](segmentation/segmentation-workflow/seg-build.md)
-      + [Sequentielle Segmente erstellen](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [Segmente taggen](segmentation/segmentation-workflow/seg-tag.md)
-      + [Segmente genehmigen](segmentation/segmentation-workflow/seg-approve.md)
-      + [Segmente freigeben](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Segmente auswählen und anwenden](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [Filtern von Segmenten](segmentation/segmentation-workflow/t-seg-filter.md)
-      + [Segmente als Favoriten markieren](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Überblick](segmentation/segmentation-workflow/seg-workflow.md)
+      + [Planen von Segmenten](segmentation/segmentation-workflow/seg-plan.md)
+      + [Erstellen von Segmenten](segmentation/segmentation-workflow/seg-create.md)
+      + [Aufbauen von Segmenten](segmentation/segmentation-workflow/seg-build.md)
+      + [Schnellsegmente](segmentation/segmentation-workflow/seg-quick.md)
+      + [Sequenzielle Segmente](segmentation/segmentation-workflow/seg-sequential-build.md)
+      + [Freigeben von Segmenten](segmentation/segmentation-workflow/t-seg-share.md)
+      + [Taggen von Segmente](segmentation/segmentation-workflow/seg-tag.md)
+      + [Filtern der Segmentliste](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Markieren von Segmenten als Favoriten](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Genehmigen von Segmenten](segmentation/segmentation-workflow/seg-approve.md)
       + [Segmente löschen](segmentation/segmentation-workflow/seg-delete.md)
       + [Segmente kopieren](segmentation/segmentation-workflow/seg-copy.md)
-      + [Segmente verwalten](segmentation/segmentation-workflow/seg-manage.md)
+      + [Verwalten von Segmenten](segmentation/segmentation-workflow/seg-manage.md)
+      + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Segmente auswählen und anwenden](segmentation/segmentation-workflow/t-seg-apply.md)
    + Segmentreferenz {#segment-reference}
-      + [Vergleichsoperatoren für Segmente](segmentation/seg-reference/seg-operators.md)
+      + [Operatoren](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
@@ -208,9 +210,9 @@ ht-degree: 100%
       + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Erstellen von Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Erstellen einer Metrik vom Typ „Seitenansichten pro Besuch“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Erstellen einer Metrik vom Typ „Bestellhilfen“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Erstellen einer Metrik vom Typ „Teilnahme“](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Einfache Metrik erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Erstellen einer komplexeren Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Erstellen einer Teilnahmemetrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Metriktyp und Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Segmentierte Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmente stapeln und ersetzen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

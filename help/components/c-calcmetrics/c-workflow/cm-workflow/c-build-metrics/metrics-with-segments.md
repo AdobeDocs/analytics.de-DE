@@ -3,74 +3,86 @@ description: Durch die Segmentierung einzelner Metriken können Sie Metriken inn
 title: Segmentierte Metriken
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 68%
+source-wordcount: '458'
+ht-degree: 4%
 
 ---
 
 # Segmentierte Metriken
 
-Im Generator für berechnete Metriken können Sie Segmente innerhalb Ihrer Metrikdefinition anwenden. Dies ist hilfreich, wenn Sie neue Metriken für Ihre Analyse ableiten möchten. Beachten Sie, dass Segmentdefinitionen über den Segment Builder aktualisiert werden können. Wenn Änderungen vorgenommen werden, wird das Segment automatisch überall dort aktualisiert, wo es angewendet wurde, auch wenn es Teil einer Definition für berechnete Metriken ist.
+Im [Generator für berechnete Metriken](cm-build-metrics.md#definition-builder) können Sie Segmente innerhalb Ihrer Metrikdefinition anwenden. Das Anwenden von Segmenten ist hilfreich, wenn Sie Metriken für eine Teilmenge Ihrer Daten in Ihrer Analyse verwenden möchten.
 
-![](assets/german-visitors.png)
+>[!NOTE]
+>
+>Segmentdefinitionen werden über den [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) aktualisiert. Wenn Sie eine Änderung an einem Segment vornehmen, wird das Segment automatisch aktualisiert, wo immer es verwendet wird, auch wenn das Segment Teil einer Definition für berechnete Metriken ist.
+>
 
-## Erstellen einer segmentierten Metrik {#create}
+Sie möchten Metriken für deutsche Personen, die mit Ihrer Marke interagieren, mit denen für Personen außerhalb Deutschlands vergleichen. Sie können also Fragen beantworten wie:
 
-Beispiel: Sie möchten unterschiedliche Aspekte des Segments „Deutsche Besucher“ mit denen des Segments „Internationale Besucher“ vergleichen. Dazu können Sie Metriken erstellen, die Einblick in Folgendes ermöglichen:
+1. Wie viele Deutsche bzw. internationale Personen besuchen Ihre beliebtesten [Seiten](#popular-pages).
+1. Wie viele Deutsche bzw. internationale Personen [total](#totals) haben in diesem Monat online mit Ihrer Marke interagiert.
+1. Was sind [Prozent](#percentages) der Deutschen und internationalen Menschen, die Ihre beliebten Seiten besucht haben?
 
-* Wie sieht das Browsingverhalten im Vergleich zwischen den beiden Gruppen aus? (Ein weiteres Beispiel wäre: Wie sieht die Konversionsrate im Vergleich zwischen den beiden Segmenten aus?)
-* Wie viele Besucher aus Deutschland navigieren im Vergleich mit internationalen Besuchern zu bestimmten Seiten (als Prozentsatz der Gesamtbesucher)?
-* Wo liegen die größten Unterschiede in Bezug darauf, welcher Inhalt von den verschiedenen Segmenten aufgerufen wird?
+In den folgenden Abschnitten erfahren Sie, wie Sie mithilfe segmentierter Metriken diese Fragen beantworten können. Gegebenenfalls wird auf eine ausführlichere Dokumentation verwiesen.
 
-Erstellen und speichern Sie eine Metrik namens „Deutsche Besucher“ und eine Metrik namens „Internationale Besucher“:
+## Beliebte Seiten
 
-1. Erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens „Deutsche Besucher“, bei dem Sie für „Länder“ den Wert „Deutschland“ angeben.
+1. [Erstellen Sie eine berechnete ](../cm-workflow.md) aus einem Workspace-Projekt namens `Germany`.
+1. Erstellen Sie im [Generator für berechnete ](cm-build-metrics.md)[ ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
 
-   Ziehen Sie die Dimension Länder in die Arbeitsfläche Definition und wählen Sie [!UICONTROL **Deutschland**] als Wert aus:
-
-   ![](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >Sie können diesen Vorgang auch im [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) durchführen, aber wir haben den Arbeitsablauf vereinfacht. Daher stehen Dimensionen auch im Generator für berechnete Metriken zur Verfügung. „Ad hoc“ bedeutet, dass das Segment nicht in der Liste der **[!UICONTROL Segmente]** in der linken Leiste angezeigt wird. Sie können es aber auch veröffentlichen, indem Sie über das „i“ daneben fahren und auf **[!UICONTROL Als öffentlich einstellen klicken]**.
+   >Im Generator für berechnete Metriken können Sie ein Segment direkt mithilfe des Bedienfelds Komponenten erstellen.
+   >   
 
-1. Ziehen Sie das Segment Deutschland in die Arbeitsfläche Definition und ziehen Sie die Metrik Unique Visitors hinein:
+   Ihr Segment könnte wie folgt aussehen.
 
-   ![](assets/german-visitors.png)
+   ![Segment Deutschland](assets/segment-germany.png)
 
-1. Wählen [!UICONTROL **Speichern**], um die berechnete Metrik zu speichern.
+1. Zurück im Generator für berechnete Metriken verwenden Sie das Segment , um die berechnete Metrik zu aktualisieren.
 
-1. Erstellen Sie im Generator für berechnete Metriken ein Ad-hoc-Segment namens „Internationale Besucher“, bei dem „Länder“ nicht „Deutschland“ entspricht.
+   ![Berechnete Metrik Deutschland](assets/germany-visits.png)
 
-   Ziehen Sie die Dimension Länder in die Arbeitsfläche „Definition“, wählen Sie [!UICONTROL **Deutschland**] als Wert aus und wählen Sie dann [!UICONTROL **Ist nicht gleich**] als Operator aus.
+Wiederholen Sie die obigen Schritte für die internationale Version Ihrer berechneten Metrik.
 
-1. Ziehen Sie die Metrik Unique Visitors hinein.
+1. Erstellen Sie aus Ihrem Workspace-Projekt eine berechnete Metrik mit dem Titel `Non Germany visits`.
+1. Erstellen Sie im Generator für berechnete Metriken ein Segment mit dem Titel &quot;`Not Germany`&quot;, das das Feld „CRM-Land“ aus Ihren CRM-Daten verwendet, um zu bestimmen, woher eine Person kommt.
 
-1. Wählen [!UICONTROL **Speichern**], um die berechnete Metrik zu speichern.
+   Ihr Segment sollte wie folgt aussehen.
 
-1. Ziehen Sie in Analysis Workspace die Dimension **[!UICONTROL Seite]** in eine Freiform-Tabelle und dann die zwei neuen berechneten Metriken nebeneinander oben in die Tabelle:
+   ![Segment Deutschland](assets/segment-not-germany.png)
 
-   ![](assets/workspace-pages.png)
+1. Zurück im Generator für berechnete Metriken verwenden Sie das Segment , um die berechnete Metrik zu aktualisieren.
 
-
->[!BEGINSHADEBOX]
-
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte ](https://video.tv.adobe.com/v/37930?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
-
->[!ENDSHADEBOX]
+   ![Berechnete Metrik Deutschland](assets/non-germany-visits.png)
 
 
-## Prozent der Gesamtmetriken {#percent-total}
+1. Erstellen Sie ein Projekt in Analysis Workspace, in dem Sie sich die Seiten ansehen, die von deutschen und nichtdeutschen Besuchern besucht werden.
 
-Sie können das obige Beispiel weiter ausführen, indem Sie Ihr Segment mit der Gesamtpopulation vergleichen. Erstellen Sie dazu zwei neue Metriken: „% aller deutschen Besucher“ und „% der Gesamtzahl internationaler Besucher“:
+   ![Workspace-Freiformtabellen-Visualisierung, die deutsche und internationale Personen zeigt](assets/workspace-german-vs-international.png)
 
-1. Ziehen Sie das Segment „Deutsche Besucher“ (oder „Internationale Besucher“) in die Arbeitsfläche.
-1. Legen Sie darunter ein weiteres Segment „Deutsche Besucher“ (oder „Internationale Besucher“) ab. Klicken Sie dieses Mal aber auf das zugehörige Konfigurationssymbol (Zahnrad), um den Metriktyp „Gesamt“ auszuwählen. Das Format sollte „Prozent“ lauten. Der Operator sollte „Geteilt durch“ lauten. Dadurch erhalten Sie die folgende Metrikdefinition:
 
-   ![](assets/cm_metric_total.png)
+## Gesamt
 
-1. Wenden Sie diese Metrik auf das Projekt an:
+1. Erstellen Sie zwei neue berechnete Metriken basierend auf der Gesamtsumme. Öffnen Sie jedes der zuvor erstellten Segmente, benennen Sie das Segment um, legen Sie **[!UICONTROL Metriktyp]** für **[!UICONTROL Personen]** auf **[!UICONTROL Gesamtsumme]** fest und verwenden Sie **[!UICONTROL Speichern unter]**, um das Segment unter dem neuen Namen zu speichern. Zum Beispiel:
 
-   ![](assets/cm_percent_total.png)
+   ![Gesamtmetrik für Deutschland](assets/calculated-metric-germany-total.png)
+
+1. Fügen Sie Ihrem Workspace-Projekt eine neue Freiformtabellen-Visualisierung hinzu, die die Gesamtseiten für dieses Jahr anzeigt.
+
+   ![Workspace-Freiformtabellen-Visualisierung, die Deutsche im Vergleich zu internationalen Personen zeigt](assets/workspace-german-vs-international-totals.png)
+
+
+## Prozentsatz
+
+1. Erstellen Sie zwei neue berechnete Metriken, die einen Prozentsatz aus den zuvor erstellten berechneten Metriken berechnen.
+
+   ![Workspace-Freiformtabellen-Visualisierung, die den prozentualen Anteil deutscher vs. internationaler Personen anzeigt](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. Aktualisieren Sie Ihr Workspace-Projekt.
+
+   ![Workspace-Freiformtabellen-Visualisierung, die Deutsche im Vergleich zu internationalen Personen zeigt](assets/workspace-german-vs-international-totals-percentage.png)
+

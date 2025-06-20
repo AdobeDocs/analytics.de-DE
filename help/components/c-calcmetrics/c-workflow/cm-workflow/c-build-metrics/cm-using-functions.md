@@ -3,10 +3,10 @@ description: Mit Funktionen können Sie Daten filtern/sortieren und eine statist
 title: Funktionen verwenden
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 80%
+source-wordcount: '57'
+ht-degree: 77%
 
 ---
 
@@ -20,4 +20,6 @@ Eine Liste aller Funktionen finden Sie unter [Grundfunktionen](/help/components/
 >
 >Wenn Sie Funktionen in die Formel einer berechneten Metrik aufnehmen, wenden Sie immer die Funktion an, bevor Sie Metriken oder Segmente hineinziehen.
 
-In diesem [Video](https://youtu.be/SSyWvomnewI) wird die Verwendung von Funktionen veranschaulicht.
+<!-- OUTDATED VIDEO 
+Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
+-->

@@ -3,55 +3,85 @@ description: Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre g
 title: Berechnete Metriken freigeben
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 24%
+source-wordcount: '322'
+ht-degree: 11%
 
 ---
 
 # Berechnete Metriken freigeben
 
-Abhängig von Ihren Berechtigungen können Sie Metriken für Ihre gesamte Organisation, für Gruppen oder für einzelne Benutzer freigeben.
+Im [Manager für berechnete Metriken](cm-manager.md) können Sie berechnete Metriken freigeben. Je nach Ihren Berechtigungen können Sie berechnete Metriken für Ihre gesamte Organisation, Gruppen oder einzelne Benutzer freigeben:
 
-| Rolle | Zugriffsberechtigung |
+* **Administratoren**: Administratoren können berechnete Metriken für die gesamte Organisation, für Gruppen innerhalb einer Organisation und für einzelne Benutzer freigeben. Weitere Informationen finden Sie in der [Dokumentation zu Admin Console](https://helpx.adobe.com/de/enterprise/using/manage-products.html).
+* **Benutzer ohne Administratorrechte**: Benutzer ohne Administratorrechte können die von ihnen erstellte berechnete Metrik nur für einzelne Benutzer freigeben.
+
+So geben Sie eine oder mehrere berechnete Metriken frei:
+
+1. Wählen [ im Manager für ](cm-manager.md) berechnete Metriken eine oder mehrere der berechneten Metriken aus, die Sie freigeben möchten.
+1. Wählen Sie in der Aktionsleiste ![Freigeben](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Freigeben]** aus.
+1. Im Dialogfeld **[!UICONTROL Berechnete Metrik freigeben]**:
+
+   ![Dialogfeld „Berechnete Metriken freigeben“](assets/share-calculated-metrics-dialog.png)
+
+   1. (Optional) Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um *Einzelpersonen oder Gruppen suchen* die Liste der Gruppen oder Einzelpersonen, für die Sie die berechnete Metrik freigeben möchten, zu suchen und einzuschränken.
+
+   1. Wählen Sie eine oder mehrere Optionen aus dem Abschnitt **[!UICONTROL Organisation]** oder **[!UICONTROL Gruppen]** oder suchen Sie nach einer oder mehreren Einzelpersonen und wählen Sie diese aus. Welche Optionen verfügbar sind, hängt von Ihrer Rolle ab.
+
+   1. Wählen Sie **[!UICONTROL Speichern]** aus, um die berechneten Metriken freizugeben. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
+
+## Best Practices
+
+Im Folgenden finden Sie Best Practices für die Freigabe berechneter Metriken und für Personen, für die Sie berechnete Metriken freigeben sollten.
+
+* Geben Sie als Administrator eine berechnete Metrik nur dann für alle frei, wenn Sie überzeugt sind, dass die Verwendung der berechneten Metrik für alle Mitarbeiter in Ihrem Unternehmen annehmbar ist. Sie können auch in Betracht ziehen, diese berechneten Metriken zu bevorzugen. Weitere [ finden Sie unter „Markieren ](cm-favorite.md) berechneten Metrik als Favorit“.
+
+* Geben Sie als Administrator eine berechnete Metrik für eine bestimmte Gruppe frei, wenn diese berechnete Metrik einen Geschäftswert für die Benutzer dieser Gruppe bietet.
+
+* Geben Sie als Administrator oder einzelner Benutzer eine berechnete Metrik für eine oder mehrere Personen frei, um eine berechnete Metrik zu validieren. Wenn sich die Segmente als nicht nützlich erweisen, können Sie die berechnete Metrik löschen.
+
+<!--
+Depending on your permissions, you can share metrics with your whole organization, groups, or individual users.
+
+|  Role | Permissions |
 |---|---|
-| Administrator | Kann Metriken für alle, für Gruppen und für Benutzer freigeben. Gruppen werden in der Admin Console als Berechtigungsgruppen eingerichtet. |
-| Nicht-Administrator | Kann Metriken nur für einzelne Benutzer freigeben. |
+|  Administrator  | Can share metrics with All, with Groups, and with Users. Groups are set up as permission groups in the Admin Console. |
+|  Non-Administrator  | Can share metrics only with individual users.  |
 
-Freigeben einer berechneten Metrik:
+To share a calculated metric:
 
-1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Berechnete Metriken]** aus.
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
 
-1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen links neben den Metriken, die Sie freigeben möchten.
+1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to share. 
 
-1. Wählen Sie das Symbol **[!UICONTROL Freigeben]** aus. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
-
-   Das Dialogfeld Berechnete Metrik freigeben wird angezeigt.
+1. Select the **[!UICONTROL Share]** icon. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   
+   The Share Calculated metric dialog box displays.
 
    ![](assets/cm_share.png)
 
-1. Wählen Sie **[!UICONTROL Freigeben]** aus.
+1. Select **[!UICONTROL Share]**.
 
-1. Wählen Sie aus, für wen Sie freigeben möchten:
+1. Choose who you want to share with:
 
-   * **[!UICONTROL Alle]** (nur Administratoren): Wird für alle Benutzer in der Organisation freigegeben.
+   * **[!UICONTROL All]** (Administrators only): Shares with all users in the organization.
 
-     Erwägen Sie, nur dann für alle freizugeben, wenn dies für das gesamte Unternehmen von Nutzen ist und alle damit vertraut sind. In diesem Fall sollten Sie auch erwägen, daraus eine [genehmigte Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md) zu machen.
+     Consider sharing with all only if it's of use to the entire company and everyone is comfortable using it. In this case, you should also consider making it an [approved metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+   
+   * **[!UICONTROL Groups]** (Administrators only): Select any groups you want to share with.
 
-   * **[!UICONTROL Gruppen]** (nur Administratoren): Wählen Sie alle Gruppen aus, für die Sie eine Freigabe durchführen möchten.
+     Consider sharing with a group if the metric provides good business value for that team.
+   
+   * **[!UICONTROL Individual users]**: Search for and select the individual users you want to share with.
 
-     Erwägen Sie die Freigabe für eine Gruppe, wenn die Metrik einen guten Geschäftswert für dieses Team bietet.
+      This is the only share option available to all users. Administrators might want to use this option to vet and validate a metric prior to making it available to a group or to everyone. If the metric isn't useful, it can be discarded. Administrators should not officially approve this type of metric.
 
-   * **[!UICONTROL Individuelle Benutzer]**: Suchen Sie nach den einzelnen Benutzern, für die Sie freigeben möchten, und wählen Sie sie aus.
+1. Select **[!UICONTROL Share]**.
 
-     Dies ist die einzige Freigabeoption, die allen Benutzern zur Verfügung steht. Administratoren sollten diese Option verwenden, um eine Metrik zu überprüfen und zu validieren, bevor sie sie einer Gruppe oder allen Personen zur Verfügung stellt. Wenn die Metrik nicht nützlich ist, kann sie verworfen werden. Administratoren sollten diesen Metriktyp nicht offiziell genehmigen.
+   The Shared icon appears next to the metric: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
-1. Wählen Sie **[!UICONTROL Freigeben]** aus.
+1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 
-   Das Symbol Freigegeben wird neben der Metrik angezeigt: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
-
-1. Sie können nach für Sie freigegebenen Metriken filtern, indem Sie **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Für mich freigegeben]** verwenden.
-
-1. (Optional) Um die Liste der berechneten Metriken im Manager für berechnete Metriken so zu filtern, dass nur die für Sie freigegebenen Metriken angezeigt werden, wählen Sie das Symbol **Filter** aus, erweitern Sie **[!UICONTROL Andere Filter]** und klicken Sie dann auf **[!UICONTROL Für mich freigegeben]**.
-
+1. (Optional) To filter the list of calculated metrics in the Calculated metrics manager to show only metrics that are shared with you, select the **Filter** icon, expand **[!UICONTROL Other filters]**, then select **[!UICONTROL Shared with me]**.
+-->

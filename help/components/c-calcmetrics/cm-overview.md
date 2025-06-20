@@ -4,9 +4,9 @@ keywords: Berechnete Metriken;erweiterte berechnete Metriken
 title: Berechnete und erweiterte berechnete Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '552'
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -41,10 +41,9 @@ Sie können
 * Metriken für [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse] erstellen.
 * Erstellen Sie segmentierte Metriken, die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Diese Metriken können historisch angezeigt werden, da sie auf Segmenten basieren.
 
-
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/37931?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -54,14 +53,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Met
 * (Nur erweiterte berechnete Metriken) Beziehen Sie statistische Funktionen mit ein, um Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
 
 
->[!BEGINSHADEBOX]
-
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://video.tv.adobe.com/v/37930?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
-
->[!ENDSHADEBOX]
-
-
-## Einschränkungen {#section_CB878B02451541D68A68B508D4DBD19A}
+## Einschränkungen
 
 Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berechneten Metriken verwenden:
 
@@ -71,13 +63,28 @@ Bei einigen [!DNL Analytics]-Funktionen können Sie Ereignisse, aber keine berec
 * [!UICONTROL Segmente]
 * [!DNL Analytics] für [!DNL Target]
 
-## Tools {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Im Folgenden erhalten Sie einen kurzen Überblick über die Tools für [!UICONTROL berechnete Metriken]:
+>[!BEGINSHADEBOX]
 
-| Tool | Funktionen |
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+<!--
+
+Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
+
+|Tool|Capabilities|
 |--- |--- |
-| Generator für berechnete Metriken | <ul><li>Erstellen Sie einfache berechnete Metriken oder erweiterte berechnete Metriken mit erweiterten Zuordnungsmodellen.</li><li>Segmente inline zu Metrikformeln hinzufügen</li><li>Segmente in einem Bericht vergleichen (beispielsweise lokale Besucher mit internationalen Besuchern vergleichen.)</li><li>Statistische Funktionen verwenden</li><li>Detaillierte Metrikbeschreibungen angeben (was die Metrik macht, wo sie verwendet werden sollte, wo sie NICHT verwendet werden sollte)</li><li>Definitionen in neue Metriken kopieren</li><li>Eine Inline-Metrikvorschau bereitstellen</li><li>Die Metrikpolarität festlegen, die angibt, ob es gut oder schlecht ist, wenn ein bestimmtes benutzerspezifisches Ereignis (eine Metrik) steigt</li><li>Metriken taggen</li></ul> |
-| Manager für berechnete Metriken | <ul><li>Metriken für andere freigeben<li>Metriken genehmigen und kuratieren</li><li>Metriken organisieren (taggen), damit sie von Personen gefunden werden können</li><li>Metriken löschen</li><li>Metriken umbenennen</li></ul> |
-| Leiste „Metrikauswahl“ | Mit dieser Funktion können Sie Metriken suchen und diese dem Bericht hinzufügen bzw. darauf anwenden. Sie können auch die Sortierreihenfolge ändern (Optionen sind: „Alphabetisch“, „Empfohlen“, „Häufig verwendet“, „Zuletzt verwendet“). Darüber hinaus können Sie nach Report Suites filtern, um nur Metriken anzuzeigen, die in einer bestimmten Report Suite erstellt wurden.  Um auf diese Metrikauswahl zuzugreifen, klicken Sie auf das Metriksymbol auf der linken Seite eines Berichts.  |
-| API für berechnete Metriken | Teil des Adobe Analytics 2.0-API-Sets. |
+| [Calculated metric builder](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)| The capabilities are: <ul><li>Create calculated and advanced calculated metrics using advancmd allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
+|Calculated Metric Manager|<ul><li>Share metrics with others</li<li>Approve and curate metrics</li><li>Organize (tag) your metrics so people can find them</li><li>Delete metrics</li><li>Rename metrics</li></ul>|
+|Metric Selector rail|Lets you search for and add/apply metrics to the report. You can also change the  sort order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite.  To access this Metric Selector, click the Metrics icon  to the left of a report. |
+|API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
+
+-->

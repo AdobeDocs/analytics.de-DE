@@ -3,14 +3,53 @@ description: Informationen
 title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 77%
 
 ---
 
 # Metriktyp und Attribution {#metric-type-attribution}
+
+Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für eine Metrik in der Definition einer berechneten Metrik konfigurieren.
+
+1. Wählen Sie in der Metrikkomponente ![Einstellung](/help/assets/icons/Setting.svg) aus.
+1. Im Popup-Dialogfeld:
+
+   ![Metriktyp und Attribution](assets/cm-type-alloc.png)
+
+   * Geben Sie den **[!UICONTROL Metriktyp]** an:
+
+     | Metriktyp | Definition |
+     |---|---|
+     | **[!UICONTROL Standard]** | Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Zeileneinträge gelten. <p>Beispielsweise nimmt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Teilen](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg)**[!UICONTROL Besuche]** die Bestellungen für diesen bestimmten Zeileneintrag und teilt ihn durch die Anzahl der Besuche für diesen bestimmten Zeileneintrag. |
+     | **[!UICONTROL Gesamtsumme]** | Verwenden Sie die **[!UICONTROL Gesamtsumme]** für den Berichtszeitraum in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Gesamtsummenmetrik besteht, zeigt sie dieselbe Gesamtsummenzahl für jeden Zeileneintrag an. Gesamtsummenmetriken sind hilfreich, wenn Sie berechnete Metriken erstellen möchten, die mit den Gesamtdaten verglichen werden. <p>Beispiel: ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Teilen](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg)**[!UICONTROL Gesamtzahl der Besuche]** zeigt den Anteil der Bestellungen an allen Besuchen an, nicht nur an den Besuchen des bestimmten Zeileneintrags. In diesem Beispiel geben Sie **[!UICONTROL Gesamtsumme]** für die Metrik ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** in Ihrer berechneten Metrik an, wodurch sie automatisch in ![](/help/assets/icons/Event.svg) Ereignis **[!UICONTROL Gesamtbesuche]** umgewandelt wird. |
+
+   * Geben Sie die **[!UICONTROL Attribution]** an.
+
+      1. Sie haben folgende Möglichkeiten:
+
+         * Deaktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**, um das standardmäßige Spalten-Attributionsmodell Letztkontakt mit einem Lookback-Fenster von 30 Tagen zu verwenden.
+         * Aktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**. Im Dialogfeld **[!UICONTROL Attributionsmodell mit Spalten]**
+
+            * Wählen Sie **[!UICONTROL Modell]** unter [Attributionsmodelle](#attribution-models) aus.
+            * Wählen Sie einen **[!UICONTROL Container]** aus den Optionen [Container](#container) aus.
+            * Wählen Sie ein **[!UICONTROL Lookback]** Fenster) unter den Optionen [Lookback-Fenster](#lookback-window) aus. Wenn Sie **[!UICONTROL Benutzerdefinierte Zeit]** auswählen, können Sie den Zeitraum in **[!UICONTROL Minute(n)]** bis zu **[!UICONTROL Quartal(en)]** definieren.
+
+      1. Wählen Sie **[!UICONTROL Anwenden]**, um das nicht standardmäßige Attributionsmodell anzuwenden. Wählen Sie zum Abbrechen die Option „Abbrechen“ aus.
+
+     Wenn Sie bereits ein nicht standardmäßiges Attributionsmodell definiert haben, wählen Sie **[!UICONTROL Bearbeiten]** aus, um die Auswahl zu ändern.
+
+Siehe [Beispiel](#example) für ein Beispiel der Verwendung eines Attributionsmodells, eines Containers und eines Lookback-Fensters.
+
+
+## Attributionsmodelle {#attribution-models}
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="Nicht standardmäßiges Attributionsmodell verwenden"
+>abstract="Aktivieren Sie ein nicht standardmäßiges Attributionsmodell für die ausgewählte Metrik."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -74,7 +113,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
->title="Zeitabfall"
+>title="Zeitverfall"
 >abstract="Die Dimensionswerte, die einer Konversion zeitlich am nächsten sind, erhalten die meisten Credits."
 
 >[!CONTEXTUALHELP]
@@ -92,49 +131,66 @@ ht-degree: 100%
 >title="Algorithmisch"
 >abstract="Die Credits werden anhand eines statistischen Algorithmus dynamisch bestimmt."
 
+{{attribution-models-details}}
+
+
+## Container {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Container"
 >abstract="Wählen Sie einen Container aus, um den gewünschten Umfang für die Attribution festzulegen."
 
+{{attribution-container}}
+
+
+## Lookback-Fenster {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Lookback-Fenster"
 >abstract="Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion angewendet wird."
 
-Beim [Erstellen einer berechneten Metrik](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) können Sie den Metriktyp und das Attributionsmodell angeben.
+{{attribution-lookback-window}}
 
-## Metriktyp
+## Beispiel
 
-So geben Sie den Metriktyp beim Erstellen einer berechneten Metrik an:
+{{attribution-example}}
 
-1. Wählen Sie das Zahnradsymbol neben der Metrik aus, deren Typ Sie auswählen möchten.
 
-   ![](assets/cm_type_alloc.png)
+<!--
+When [building a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 
-1. Wählen Sie aus den folgenden Optionen:
+## Metric type
 
-   | Metriktyp | Definition |
+To specify the metric type when building a calculated metric:
+
+1. Select the gear icon next to the metric whose type you want to select.
+
+   ![](assets/cm-type-alloc.png) 
+
+1. Choose from the following options:
+
+   |  Metric Type  | Definition  |
    |---|---|
-   | Standard | Diese Metriken sind dieselben, die auch in der Standard-[!DNL Analytics]-Berichterstellung verwendet werden. Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Einzelposten gelten. Beispiel: [Bestellungen]/[Besuche] teilt die Bestellungen für diesen Einzelposten durch die Anzahl der Besuche für den Posten. |
-   | Gesamtsumme | Verwenden Sie die Gesamtsumme für den Berichtszeitraum in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Gesamtsummenmetrik besteht, zeigt sie dieselbe Gesamtzahl für jeden Zeileneintrag an. Gesamtsummenmetriken eignen sich für die Erstellung berechneter Metriken, die mit den Gesamtdaten der Site verglichen werden. Beispiel: [Bestellungen]/[Gesamtbesuche] zeigt den Anteil der Bestellungen für ALLE Site-Besuche und nicht nur die Besuche für den speziellen Zeileneintrag. |
+   |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
+   |  Grand total  | Use Grand total for the reporting period in every line item. If a formula consisted of a single Grand total metric, it displays the same total number on every line item. Grand total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## Funktionsweise der linearen Zuordnung
+## How linear allocation works
 
-Mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) werden Zuordnungsmodelle in berechneten Metriken bewertet.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 
-Eine vollständige Liste der nicht standardmäßigen Attributionsmodelle und unterstützten Lookback-Fenster finden Sie unter [Attributionsmodelle und Lookback-Fenster](/help/analyze/analysis-workspace/attribution/models.md).
+For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
-Im folgenden Beispiel wird illustriert, wie berechnete Metriken mit linearen Zuordnungen beim Reporting funktionieren:
+The following example illustrates how calculated metrics with linear allocations work in reporting: 
 
-| | Treffer 1 | Treffer 2 | Treffer 3 | Treffer 4 | Treffer 5 | Treffer 6 | Treffer 7 |
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| Eingereichte Daten | PROMO A | – | PROMO A | PROMO B | – | PROMO C | 10$ |
-| Letztkontakt-eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | 10$ |
-| Erstkontakt-eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | 10$ |
-| Beispieleigenschaft | PROMO A | – | PROMO A | PROMO B | – | PROMO C | 10$ |
+|Data Sent In|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
+|Last Touch eVar|PROMO A|PROMO A|PROMO A|PROMO B|PROMO B|PROMO C|$10|
+|First Touch eVar|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|$10|
+|Example prop|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
 
-In diesem Beispiel wurden die Werte A, B und C in eine Variable für die Treffer 1, 3, 4 und 6 gesendet, bevor ein Kauf in Höhe von 10 USD bei Treffer 7 getätigt wurde. In der zweiten Zeile werden dieses Werte bei Treffern auf Grundlage von Letztkontaktbesuchen gespeichert. In der dritten Zeile wird das Speichern auf Grundlage des Erstkontaktbesuchs dargestellt. Zu guter Letzt stellt die letzte Zeile dar, wie Daten aus einer Eigenschaft aufgezeichnet würden, bei denen kein Speichern vorgesehen ist.
+In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
 
+-->

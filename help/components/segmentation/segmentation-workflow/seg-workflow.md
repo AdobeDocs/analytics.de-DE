@@ -3,56 +3,30 @@ description: Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die m
 title: Übersicht über den Segmentierungs-Workflow
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 82%
+source-wordcount: '265'
+ht-degree: 55%
 
 ---
 
 # Übersicht über den Segmentierungs-Workflow
 
-Beschreibt einen vorgeschlagenen Arbeitsablauf für Segmente, die mit dem Segment Builder erstellt wurden und mit dem Segment-Manager verwaltet werden.
-
-![](assets/seg_workflow.png)
+In diesem Artikel wird ein empfohlener Workflow zum Erstellen von Segmenten mit Segment Builder und zum Verwalten von Segmenten mit dem Segment Manager beschrieben.
 
 
-![](assets/step1_icon.png) [Segmente planen](/help/components/segmentation/segmentation-workflow/seg-plan.md)
+| Schritt | Aktion | Details |
+|:--:|---|---|
+| 1 | [Segmente planen](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment für den vorgesehenen Zweck und für eine bestimmte Verwendung entworfen? <br/>Hilfe bei [ Planung und Organisation Ihrer Segmente finden Sie ](seg-plan.md) der Checkliste für die Segmentplanung . |
+| 2 | [Erstellen von Segmenten](seg-create.md) | Verwenden Sie die verschiedenen verfügbaren Optionen, um ein neues Segment zu erstellen. |
+| 3 | [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md) | Erstellen und bearbeiten Sie Segmente zur Verwendung in allen Analytics-Funktionen. <br/>Siehe [Erstellen sequenzieller Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem THEN-Operator. |
+| 4 | [Segmente taggen](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Taggen Sie Segmente, um die Organisation und Freigabe zu erleichtern. Erhalten Sie Informationen zum Planen und Zuweisen von Tags für einfache und erweiterte Suchvorgänge und für die Organisation. |
+| 5 | [Segmente genehmigen](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Genehmigen Sie Segmente, um diese zu autorisieren. |
+| 6 | [Segmente verwenden](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Sie können Segmente aus den Segmentkomponenten direkt auf einen Bericht anwenden. |
+| 7 | [Segmente freigeben](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Geben Sie Ihre Segmente für die gewünschte Zielgruppe in anderen Analytics-Werkzeugen und in Adobe Target und der Adobe Experience Cloud frei. |
+| 8 | [Segmente filtern](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“). |
+| 9 | [Segment als Favoriten markieren](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Das Kennzeichnen von Segmenten als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren. |
 
-Haben Sie alle wichtigen Fragen gestellt, bevor Sie Segmente erstellt und eine Umgebung für die Segmentverwaltung eingerichtet haben? Haben Sie das Segment mit Blick auf seinen Einsatzzweck und die konkrete Verwendung entworfen?
+## Verwalten von Segmenten
 
-Siehe die Checkliste für die Segmentplanung , um Hilfe bei der Planung und Organisation Ihrer Segmente zu erhalten.
-
-![](assets/step2_icon.png) [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md)
-
-Erstellen und bearbeiten Sie Segmente für die Verwendung mit sämtlichen Analytics-Funktionen.
-
-Informationen [ Erstellen von Segmenten mit ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) Operator THEN finden Sie unter Erstellen sequenzieller Segmente .
-
-![](assets/step3_icon.png) [Tagging-Segmente](/help/components/segmentation/segmentation-workflow/seg-tag.md)
-
-Taggen Sie Segmente, um die Organisation und Freigabe zu erleichtern. Erhalten Sie Informationen zum Planen und Zuweisen von Tags für einfache und erweiterte Suchvorgänge und für die Organisation.
-
-![](assets/step4_icon.png) [Segmente genehmigen](/help/components/segmentation/segmentation-workflow/seg-approve.md)
-
-Genehmigen Sie Segmente, um diese zu autorisieren.
-
-![](assets/step5_icon.png) [Segmente anwenden](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)
-
-Sie können Segmente direkt in einem Bericht auf der Segmentleiste (Segmente anzeigen) anwenden.
-
-![](assets/step6_icon.png) [Segmente freigeben](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
-
-Geben Sie Ihre Segmente für die gewünschte Zielgruppe in anderen Analytics-Werkzeugen und in Adobe Target und der Adobe Experience Cloud frei.
-
-![](assets/step7_icon.png) [Segmente ](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
-
-Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
-
-![](assets/step8_icon.png) [Segment als Favoriten markieren](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
-
-Das Kennzeichnen von Segmenten als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren.
-
-[Segmente verwalten](/help/components/segmentation/segmentation-workflow/seg-manage.md)
-
-Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratieren von Segmenten wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
+Der [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md) bietet viele Möglichkeiten zum Kuratieren von Segmenten, z. B. Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.

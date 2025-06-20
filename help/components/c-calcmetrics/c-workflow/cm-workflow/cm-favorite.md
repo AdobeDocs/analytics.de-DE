@@ -3,21 +3,19 @@ description: Das Kennzeichnen berechneter Metriken als Favoriten bietet eine wei
 title: Berechnete Metriken als Favoriten markieren
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 31%
+source-wordcount: '108'
+ht-degree: 9%
 
 ---
 
 # Berechnete Metriken als Favoriten markieren
 
-Das Kennzeichnen berechneter Metriken als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren.
+Sie können eine berechnete Metrik als Favorit markieren. Wenn Sie berechnete Metriken als Favoriten markieren, können Sie Ihre berechnete Metrik organisieren. Alle Benutzer können berechnete Metriken bevorzugen.
 
-1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Berechnete Metriken]** aus.
+Um eine berechnete Metrik im [Manager für berechnete Metriken“ zu favorisieren oder zu ](cm-manager.md):
 
-1. Aktivieren Sie im Manager für berechnete Metriken den Stern neben einer beliebigen berechneten Metrik, die Sie als Favorit markieren möchten. Der Stern wird daraufhin gelb angezeigt:
+* Wählen Sie ![StarOutline](/help/assets/icons/StarOutline.svg) aus, um eine berechnete Metrik zu bevorzugen, oder wählen Sie ![Star](/help/assets/icons/Star.svg) aus, um eine unbevorzugte berechnete Metrik auszuwählen.
 
-   ![](assets/favorites.png)
-
-1. Sie können unter **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Favoriten]** nach Favoriten filtern.
+Sie können Ihre Liste berechneter Metriken nach Favoriten filtern. Wählen Sie **[!UICONTROL Sonstige Filter]** im Bedienfeld ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** aus und wählen Sie **[!UICONTROL Favoriten]**. Weitere [ finden Sie unter „Filtern ](cm-filter.md) Liste der berechneten Metriken“.

@@ -3,77 +3,140 @@ description: Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratier
 title: Segmente verwalten (Segment-Manager)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 27%
+source-wordcount: '564'
+ht-degree: 20%
 
 ---
 
-# Segment-Manager
+# Verwalten von Segmenten
 
-Der Segment-Manager bietet verschiedene Möglichkeiten zum Kuratieren von Segmenten wie das Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
 
-Der Segment-Manager in Analytics zeigt Ihnen alle Segmente, die sich in Ihrem Besitz befinden und für Sie freigegeben wurden. Benutzer auf Administratorebene sehen alle Segmente der Organisation. In dieser Übersicht werden die Benutzeroberfläche und die Funktionen des Segment-Managers vorgestellt.
+Sie können [Freigeben](t-seg-share.md), [Segment](t-seg-filter.md), [Tag](seg-tag.md), [Genehmigen](seg-approve.md), umbenennen [Kopieren](seg-copy.md), Segmente löschen, exportieren und Segmente über eine zentrale [!UICONTROL Segment]Verwaltungsoberfläche als [Favorit](t-seg-favorite.md) markieren. So verwalten Sie Segmente:
 
-![Segment-Manager](assets/segments-manager.png)
+* Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Segmente]**.
 
-## Zugriff auf den Segment-Manager
 
-1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Segmente]** aus.
+>[!NOTE]
+>
+>Die Schnellsegmente, die Sie in einem bestimmten Workspace-Projekt erstellen, werden nicht im [!UICONTROL Segment]Manager angezeigt, es sei denn, Sie haben das Segment für alle Ihre Projekte verfügbar gemacht.
+>
 
-   Oder
+## Segment-Manager
 
-   Wählen Sie in einem vorhandenen Bericht im linken Navigationsbereich das Symbol Segmente ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) und dann **[!UICONTROL Verwalten]** aus.
+Der Segment-Manager verfügt über die folgenden Elemente der Benutzeroberfläche:
 
-## Verfügbare Aktionen im Segment-Manager
+![Segmentschnittstelle](assets/segments-manager.png)
 
-Im Segment-Manager haben Sie folgende Möglichkeiten:
+### Segmentliste
 
-* [Filtern von Segmenten](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+In der ➊ „Segmentliste“ werden alle Segmente angezeigt, deren Inhaber Sie sind, die Segmente, die für alle Ihre Projekte gelten, und die Segmente, die für Sie freigegeben wurden. Die Liste umfasst die folgenden Spalten:
 
-* [Segmente als Favoriten markieren](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+| Spalte | Beschreibung |
+| --- | --- | 
+| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus, ![ ein Segment ](/help/assets/icons/Star.svg)StarOutline![ zu bevorzugen oder ](/help/assets/icons/StarOutline.svg). Siehe [Segment als Favorit markieren](t-seg-favorite.md) |
+| **[!UICONTROL Titel und Beschreibung]** | Um das Segment zu bearbeiten, klicken Sie auf den Titel-Link, der den [Segment Builder“ ](seg-build.md). Ein freigegebenes Segment wird mit &quot;![&quot; ](/help/assets/icons/ShareAlt.svg). |
+| **[!UICONTROL Report Suites]** | Die Report Suite, für die dieses Segment gilt. |
+| **[!UICONTROL Inhabende]** | Der Inhaber des Segments. Als Benutzer sehen Sie nur die Segmente, deren Inhaber Sie sind, oder die Anmerkungen, die für Sie freigegeben wurden. |
+| **[!UICONTROL Tags]** | Die Tags für dieses Segment. |
+| **[!UICONTROL Freigegeben für]** | Wie viele Einzelpersonen oder Gruppen Sie das Segment freigegeben haben. Wählen Sie diese Option aus, um das Dialogfeld **[!UICONTROL Komponente freigeben]** zu öffnen. Weitere Informationen finden [ unter ](t-seg-share.md) von Segmenten . |
+| **[!UICONTROL Veröffentlicht]** | Ob das [Segment veröffentlicht](seg-publish.md) in Experience Cloud veröffentlicht wird. |
+| **[!UICONTROL Änderungsdatum]** | Datum und Uhrzeit der letzten Änderung des Segments. |
 
-* [Segmente genehmigen](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+Verwenden Sie ![Spalteneinstellung](/help/assets/icons/ColumnSetting.svg), um die anzuzeigenden Spalten anzugeben.
 
-* [Segmente taggen](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+### Aktionsleiste
 
-* [Segmente freigeben](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+Sie können Aktionen für Segmente mithilfe der Aktionsleiste ➋. Die Aktionsleiste ermöglicht die folgenden Aktionen:
 
-* Exportieren Sie ein Segment in eine CSV-Datei.
+| Aktion | Beschreibung |
+|---|---|
+| ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** | Fügen Sie mit dem [Segment Builder“ ein weiteres Segment ](seg-build.md). |
+| ![Suchen](/help/assets/icons/Search.svg) [!UICONTROL *Nach Titel suchen*] | Wenn kein Segment in der Liste ausgewählt ist, suchen Sie mithilfe dieses Suchfelds nach Segmenten. |
+| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tagging der ausgewählten Segmente. Wählen Sie im **[!UICONTROL Segment]**-Dialogfeld die Tags für die ausgewählten Segmente aus bzw. heben Sie die Auswahl auf. Wählen Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten Segmente zu speichern. Weitere Informationen finden [ unter ](seg-tag.md) von Segmenten . |
+| ![Freigeben](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Freigeben]** | Freigeben der ausgewählten Segmente. Im Dialogfeld **[!UICONTROL Segment freigeben]** können Sie ![Suchen](/help/assets/icons/Search.svg) *(Einzelpersonen oder Gruppen* oder **[!UICONTROL Organisation]** oder **[!UICONTROL Gruppen]**. Wählen Sie **[!UICONTROL Speichern]**, um Freigabedetails für die ausgewählten Segmente zu speichern. Weitere Informationen finden [ unter ](t-seg-share.md) von Segmenten . |
+| ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Löschen]** | Löscht die ausgewählten Segmente. Sie werden zur Bestätigung aufgefordert. |
+| ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Umbenennen]** | Ein einzelnes ausgewähltes Segment umbenennen. Wenn diese Option aktiviert ist, können Sie das Segment inline umbenennen. |
+| ![Häkchen](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten Segmente. Weitere Informationen finden [ unter ](seg-approve.md) von Segmenten. |
+| ![Kopieren](/help/assets/icons/Copy.svg) **[!UICONTROL Kopieren]** | Kopiert das ausgewählte Segment. Neue Segmente werden mit demselben Namen und derselben `(Copy)` erstellt. |
+| ![CSV-Datei](/help/assets/icons/FileCSV.svg) **[!UICONTROL In CSV exportieren]** | Exportieren Sie die Segmente in eine `Segments List.csv`. |
 
-* [Segmente kopieren](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+### Aktive Filterleiste
 
-* [Segmente löschen](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+Die Filterleiste zeigt ➌ die aktiven Segmente an, die vom Filterbedienfeld auf die Liste der Segmente angewendet wurden (falls vorhanden). Mit ![XGröße75](/help/assets/icons/CrossSize75.svg) können Sie schnell einen Filter entfernen. Wenn mehr als ein Filter angegeben ist, können Sie mit „Alle entfernen **[!UICONTROL alle Filter]**.
 
-## Spalten konfigurieren
+### Panel „Filter“
 
-Sie können die in Segment Manager für jedes Segment angezeigten Informationen konfigurieren, indem Sie die angezeigten Spalten konfigurieren.
+Sie können die Liste der Segmente mithilfe der ➍ des ![Filtern](/help/assets/icons/Filter.svg) **[!UICONTROL Filtern]** filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
-So konfigurieren Sie die sichtbaren Spalten im Segment-Manager:
+Weitere [ finden Sie unter ](t-seg-filter.md) der Segmentliste .
 
-1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Segmente]** aus.
 
-1. Klicken Sie im Segment-Manager auf das Symbol **Spalten anpassen** (Symbol ![ Spalten anpassen](assets/customize-columns-icon.png) und wählen Sie dann die Spalten aus, die Sie im Segment-Manager anzeigen möchten.
+<!--
 
-   Die folgenden Spalten sind verfügbar:
+The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-   | Spaltentitel | Beschreibung |
+The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. 
+
+![Segments manager](assets/segments-manager.png)
+
+## Access the Segment Manager
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**.
+
+   Or 
+
+   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+
+## Available actions in the Segment Manager
+
+In the Segment Manager, you can:
+
+* [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [Approve segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [Tag segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* Export a segment to a CSV file.
+
+* [Copy segments](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [Delete segments](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## Configure columns
+
+You can configure the information displayed for each segment in the Segment Manager by configuring the columns that are displayed.
+
+To configure the visible columns in the Segment Manager:
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
+
+1. In the Segment Manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment Manager.
+
+   The following columns are available:
+
+   | Column title | Description  |
    |---|---|
-   | Titel und Beschreibung | Diese Werte werden im Segment Builder bereitgestellt. Um den Titel und die Beschreibung zu bearbeiten, klicken Sie auf den Titel-Link, um Segment Builder zu öffnen. |
-   | Favoriten | Zeigt Sternsymbole neben jedem Segment an, sodass Sie Segmente als Favoriten markieren können. Weitere Informationen finden Sie unter [Segmente als Favoriten markieren](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
-   | Report Suites | Diese Spalte zeigt an, in welcher Report Suite das Segment zuletzt gespeichert wurde. |
-   | Inhaber | Zeigt an, wer Inhaber des Segments ist. Wenn Sie kein Administrator sind, können Sie nur Segmente sehen, deren Inhaber Sie sind, sowie Segmente, die für Sie freigegeben wurden. |
-   | Tags (in der Spaltenauswahl nicht aktiviert, weshalb die Spalte nicht angezeigt wird) | Tags, die entweder durch Sie oder durch Personen, die ein Segment für Sie freigegeben haben, auf das Segment angewendet wurden. |
-   | Freigegeben für | Zeigt Personen oder Gruppen (nur Administrator) oder „Alle“ (nur Administrator) an, für die Sie das Segment freigegeben haben. <p>Wenn ein Segment von Ihnen oder für Sie freigegeben wird, wird neben dem Segmentnamen ein Freigabesymbol angezeigt.</p> |
-   | Änderungsdatum | Zeigt das Datum der letzten Änderung des Segments an. |
-   | Verwendet in | Zeigt an, wo Segmente derzeit verwendet werden und wie oft sie in den einzelnen Bereichen verwendet werden. <p>Wenn das Segment beispielsweise in 40 Projekten und 2 Warnhinweisen verwendet wird, wird der Wert dieser Spalte als [!UICONTROL **42 Komponenten**] angezeigt.</p> <p>Wählen Sie den Wert in dieser Spalte aus, um die Aufschlüsselung anzuzeigen, wo die Segmente verwendet werden (z. B. [!UICONTROL **Projekte (40)**], [!UICONTROL **Warnhinweise (2)**]). Darüber hinaus können Sie die Liste der Elemente anzeigen, in denen die Segmente verwendet werden. Um beispielsweise die Liste der Projekte anzuzeigen, in denen sie verwendet werden, klicken Sie auf den Link [!UICONTROL **Projekte (40)**].</p><p>Jeder der folgenden Bereiche zeigt die Anzahl der Instanzen der Segmente an, die in diesem Bereich verwendet werden:</p>  <ul><li>[!UICONTROL **Projekte**]<p>Enthält Segmente, [ im Segment Builder erstellt wurden ](/help/components/segmentation/segmentation-workflow/seg-build.md) für alle Projekte verfügbar sind.</p></li><li>[!UICONTROL **Ad-hoc-Komponenten**]<p>Enthält Segmente, [ als Schnellsegmente erstellt wurden ](/help/analyze/analysis-workspace/components/segments/quick-segments.md) nur in einem einzigen Projekt verfügbar sind.</p></li><li>[!UICONTROL **Geplante Projekte**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Anmerkungen**]</li><li>[!UICONTROL **Warnhinweise**]</li><li>[!UICONTROL **Berechnete Metriken**]</li><li>[!UICONTROL **Report Builder**]<p>Wenn Sie diese Option wählen, wird eine CSV-Datei mit den folgenden Datenspalten heruntergeladen:</p><ul><li>Name des Report Builders</li><li>Zuletzt aufgerufen</li><li>Zuletzt aufgerufene IMS-Benutzer-ID</li><li>Zuletzt aufgerufener Benutzername</li></ul><p>Beim Anzeigen von Informationen zum Report Builder sind ab September 2024 Nutzungsinformationen verfügbar.</p></li></ul><p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzende in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen stehen nur Systemadministratoren zur Verfügung.</li><li>Die Spalte [!UICONTROL **Verwendet in**] wird standardmäßig nicht angezeigt. [Spalten konfigurieren](#configure-columns) um sie anzuzeigen.</li><li>Wenn ein Segment ein anderes Segment in seiner Definition enthält, wird eine Verwendung dieses Segments nicht in der Spalte [!UICONTROL **Verwendet in**] angezeigt. Wenn ein Segment in der Definition eines anderen Komponententyps enthalten ist (z. B. eine berechnete Metrik), wird die Verwendung in der Spalte [!UICONTROL **Verwendet in**] angezeigt.</li><li>Diese Informationen beinhalten keine Verwendung über die API oder die Data Warehouse.</li><li>Wenn in dieser Spalte keine Daten für eine bestimmte Komponente vorhanden sind, sie jedoch ein Datum [!UICONTROL **Zuletzt verwendet**] aufweist, wurde die Komponente möglicherweise in einer Analyse verwendet, ohne gespeichert zu werden.</li><li>Nutzungsinformationen sind ab September 2023 verfügbar.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um zu verfolgen und besser zu verstehen, wie Komponenten in Ihrer Organisation verwendet werden.</p> |
-   | Zuletzt verwendet | Zeigt das Datum an, an dem das Segment zuletzt in einem der folgenden Komponententypen verwendet wurde: <ul><li>Warnhinweise</li><li>Berechnete Metriken </li><li>Projekte</li><li>Geplante Projekte</li><li>Segmente </li></ul> <p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzende in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen umfassen nicht die Verwendung der API, des Report Builders oder der Data Warehouse.</li><li>Bei einigen Komponenten enthält diese Spalte möglicherweise keine Daten, wenn die Komponente zuletzt vor September 2023 verwendet wurde.</li><li>Diese Informationen stehen nur Systemadministratoren zur Verfügung.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um zu verfolgen und besser zu verstehen, wie Komponenten in Ihrer Organisation verwendet werden. |
-
+   | Title and description | These values are provided in the Segment builder. To edit the title and description, select the title link to open the Segment builder.  |
+   | Favorites  | Displays star icons next to each segment, allowing you to mark segments as favorites. For more information, see [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Report suites  | This column indicates in which report suite the segment was last saved.  |
+   | Owner  | Indicates who owns the segment. As a non-Admin, you can see only segments you own or those that were shared with you.  |
+   | Tags (not checked in column selector, hence column not appearing)  | Tags that were applied to the segment, either by you or by people who shared the segment with you.  |
+   | Shared with  | Lists individuals or groups (Admin only) or All (Admin only) that you shared the segment with. <p>When a segment is being shared by you or with you, a share icon displays next to the segment name.</p>|
+   | Date modified  | Shows the date that the segment was last modified.  |
+   | Used in | Shows where segments are currently being used, and how many times they are being used in each area. <p>For example, if the segment is being used in 40 projects and 2 alerts, then the value of this column shows as [!UICONTROL **42 components**].</p> <p>Select the value in this column to see the breakdown of where the segments are being used (for example, [!UICONTROL **Projects (40)**], [!UICONTROL **Alerts (2)**]). Furthermore, you can view the list of items where the segments are being used. For example, so see the list of projects where they are being used, select the [!UICONTROL **Projects (40)**] link.</p><p>Each of the following areas shows the number of instances of segments being used in that area:</p>  <ul><li>[!UICONTROL **Projects**]<p>Contains segments that were [created in the segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md) and are available for all projects.</p></li><li>[!UICONTROL **Ad hoc components**]<p>Contains segments that were [created as quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md) and are available only within a single project.</p></li><li>[!UICONTROL **Scheduled projects**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Annotations**]</li><li>[!UICONTROL **Alerts**]</li><li>[!UICONTROL **Calculated metrics**]</li><li>[!UICONTROL **Report Builder**]<p>Selecting this option downloads a CSV file, with the following columns of data:</p><ul><li>Report Builder Name</li><li>Last accessed</li><li>Last accessed IMS User ID</li><li>Last accessed user name</li></ul><p>When viewing information for Report Builder, usage information is available starting in September 2024.</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information is available only to system administrators.</li><li>The [!UICONTROL **Used in**] column does not display by default. [Configure columns](#configure-columns) to display it.</li><li>If a segment includes another segment in its definition, any use of that segment is not shown in the [!UICONTROL **Used in**] column. If a segment is included in the definition of another type of component (such as a calculated metric), then usage is shown in the [!UICONTROL **Used in**] column.</li><li>This information does not include usage from the API or Data Warehouse.</li><li>If there is no data in this column for a given component but it has a [!UICONTROL **Last used**] date, the component might have been used in an analysis without being saved.</li><li>Usage information is available starting in September 2023.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization.</p>  |
+   | Last used | Shows the date when the segment was last used in any of the following component types: <ul><li>Alerts</li><li>Calculated metrics</li><li>Projects</li><li>Scheduled projects</li><li>Segments</li></ul> <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li><li>This information is available only to system administrators.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   
    {style="table-layout:auto"}
 
-## Anleitungsvideo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
+## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-In diesem [Adobe Analytics-Video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=de) erhalten Sie einen kurzen Überblick darüber, wie Sie Segment Manager einsetzen können.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
 
-
+-->

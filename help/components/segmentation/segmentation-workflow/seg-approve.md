@@ -3,31 +3,26 @@ description: Im Segment-Manager können Sie einen Arbeitsablauf einrichten, der 
 title: Segmente genehmigen
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '135'
+ht-degree: 24%
 
 ---
 
-# Segmente genehmigen
+# Genehmigen von Segmenten
 
-Innerhalb des Segment-Managers können Sie einen Workflow einrichten, der die Genehmigung von Segmenten für verschiedene Anwendungsebenen, für bestimmte Abteilungen oder Gruppen sowie die Einhaltung von Berichtsrichtlinien umfasst.
+In [Segment-Manager](seg-manage.md) können Sie Segmente genehmigen und die Genehmigung aufheben. Nur Administratoren können Segmente genehmigen.
 
->[!NOTE]
->
->Admins können auch Segmente (und andere Komponenten) aus dem Datenwörterbuch genehmigen, wie beschrieben unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
->
->Alle Segmente, die im Datenwörterbuch genehmigt sind, werden im Segment-Manager angezeigt. Ebenso werden Metriken, die im Segment-Manager genehmigt wurden, im Datenwörterbuch angezeigt.
+So genehmigen Sie Segmente:
 
-So wird ein Segment als genehmigt gekennzeichnet:
+1. Wählen [ im ](seg-manage.md)-Manager eines oder mehrere der Segmente aus, die Sie genehmigen möchten.
+1. Wählen Sie in der Aktionsleiste ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Genehmigen]** aus. Die genehmigten Segmente werden mit &quot;![&quot; ](/help/assets/icons/CheckmarkCircle.svg)
 
-1. Aktivieren Sie im Segment-Manager das Kontrollkästchen links neben dem Segmenttitel.
-1. Klicken Sie auf der Taskleiste für die Segmentverwaltung auf **[!UICONTROL Genehmigen]**.
-1. Entscheiden Sie, ob Sie die genehmigten Segmente für Ihre Organisation freigeben möchten.
-1. Klicken Sie auf **[!UICONTROL OK]**.
-1. Beachten Sie, dass in der Liste neben dem Segment ein Genehmigungssymbol angezeigt wird.
+So heben Sie die Genehmigung für Segmente auf:
 
-   ![](assets/seg_approved.png)
+1. Wählen Sie [Segment-Manager](seg-manage.md) eines oder mehrere der Segmente aus, deren Genehmigung Sie aufheben möchten.
+1. Wählen Sie in der Aktionsleiste ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Nicht genehmigen]** aus.
 
-1. Sie können die Genehmigung eines genehmigten Segments auch aufheben, indem Sie auf **[!UICONTROL Nicht genehmigen klicken]**.
+
+Sie können Ihre Segmentliste nach genehmigten Segmenten segmentieren. Wählen Sie **[!UICONTROL Andere Segmente]** im Bedienfeld ![Segment](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** aus und wählen Sie **[!UICONTROL Genehmigt]**. Weitere Informationen [ Sie unter ](t-seg-filter.md) der Segmentliste .

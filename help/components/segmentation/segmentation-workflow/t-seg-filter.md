@@ -3,33 +3,52 @@ description: Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeig
 title: Filtern von Segmenten
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 74%
+source-wordcount: '173'
+ht-degree: 39%
 
 ---
 
-# Filtern von Segmenten
+# Filtern der Segmentliste
 
-Filtern Sie nach Tags, Inhabern und anderen Filtern („Alle anzeigen“, „Meine“, „Für mich freigegeben“, „Favoriten“ und „Genehmigt“).
+Sie können die Liste der Segmente filtern. Die Verwendung eines Segmentfilters erleichtert das Auffinden der Segmente, die Ihnen zur Verfügung stehen, und die Verwaltung von Segmenten über den [Segment-Manager](seg-manage.md).
 
-Das Filtern erleichtert die Suche nach Segmenten in der Segmentleiste.
+>[!NOTE]
+>
+>Die Segmentliste bezieht sich auf die [Segmentliste](seg-manage.md#filters-list) als Teil des [Segment-Managers](seg-manage.md). Sie können diese Liste mithilfe von ![Filter](/help/assets/icons/Filter.svg) [Filterbereich](seg-manage.md#filter-panel) filtern, der Teil desselben [Segment-Managers](seg-manage.md).
+>
 
-1. Klicken Sie im Segment-Manager auf das Symbol **[!UICONTROL Filter]**: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+So filtern Sie die Segmentliste:
 
-2. Folgende Filter sind verfügbar:
+1. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um das Bedienfeld „Filter“ zu öffnen. Wenn Sie mehr Platz für die Filterliste benötigen, können Sie ![Filter](/help/assets/icons/Filter.svg) erneut auswählen, um das Bedienfeld zu schließen.
+1. Wählen Sie Filter aus einem der verfügbaren [Filterabschnitte](#filter-sections) aus.
 
-   | Filtername | Beschreibung |
-   |---|---|
-   | Tags | Ermöglicht das Filtern nach Segmenten mit bestimmten [Tags](/help/components/segmentation/segmentation-workflow/seg-tag.md). Die Spalte „Tags“ wird standardmäßig angezeigt. |
-   | Inhaber | Filtert Segmente nach Inhaber. |
-   | Report Suite | Ermöglicht das Filtern nach Report Suite. |
-   | Weitere Filter > Alle anzeigen | **(Nur Administrator)** Zeigt alle Segmente, deren Inhaber und das Datum der letzten Änderung an. |
-   | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
-   | Weitere Filter > Für mich freigegeben | Zeigt alle Segmente an, [ andere für ](/help/components/segmentation/segmentation-workflow/t-seg-share.md) freigegeben haben. |
-   | Weitere Filter > Favoriten | Zeigt alle Segmente an, die Sie als &quot;[&quot; ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) haben. |
-   | Weitere Filter > Genehmigt | Zeigt alle offiziell [ Segmente ](/help/components/segmentation/segmentation-workflow/seg-approve.md). |
-   | Segmente durchsuchen | Sucht Segmente nach Namen. |
+   >[!INFO]
+   >
+   >*Elemente* beziehen sich auf die Filterelemente, die in der [Filterliste“ angezeigt ](seg-manage.md#segment-list).
+   > 
+
+## Filterabschnitte
+
+Die folgenden Filterabschnitte sind verfügbar:
+
+### Tags
+
+{{tagfiltersection}}
+
+### Report Suite
+
+{{reportsuitefiltersection}}
+
+### Inhaberin oder Inhaber
+
+{{ownerfiltersection}}
+
+### Andere Filter
+
+{{otherfiltersfiltersection}}
+
+
+Die [Filterliste](seg-manage.md#segment-list) wird automatisch auf der Grundlage Ihrer Filterkonfiguration aktualisiert. Die konfigurierten Filter werden in der [aktiven Filterleiste](seg-manage.md#active-filter-bar) angezeigt.

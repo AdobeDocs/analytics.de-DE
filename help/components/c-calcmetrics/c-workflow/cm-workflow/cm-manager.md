@@ -3,67 +3,130 @@ description: Die Seite „Berechnete Metriken“ bietet viele Möglichkeiten zum
 title: Manager für berechnete Metriken
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 9%
+source-wordcount: '905'
+ht-degree: 29%
 
 ---
 
-# Manager für berechnete Metriken
+# Berechnete Metriken verwalten
 
-Die Seite „Berechnete Metriken“ bietet viele Möglichkeiten zum Kuratieren von Metriken, z. B. Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
+Sie können berechnete Metriken freigeben, filtern, taggen, genehmigen, umbenennen, kopieren, löschen, exportieren und berechnete Metriken über eine zentrale Verwaltungsoberfläche [!UICONTROL Berechnete ]&quot; als Favoriten markieren. So verwalten Sie berechnete Metriken:
 
-Auf der Seite „Berechnete Metriken“ werden alle Segmente angezeigt, deren Inhaber Sie sind und die für Sie freigegeben wurden. Benutzer auf Admin-Ebene können alle benutzerdefinierten Metriken in der Organisation sehen.
 
-<!-- add screenshot -->
+* Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ und dann **[!UICONTROL Berechnete Metriken]** aus.
 
-## Zugriff auf den Manager für berechnete Metriken
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**].
+## Manager für berechnete Metriken
 
-## Verfügbare Aktionen im Manager für berechnete Metriken
+Der Manager für berechnete Metriken verfügt über die folgenden Schnittstellenelemente:
 
-Im Manager für berechnete Metriken haben Sie folgende Möglichkeiten:
 
-* [Berechnete Metriken filtern](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+![Benutzeroberfläche für berechnete Metriken](assets/calculated-metrics-manager.png)
 
-* [Berechnete Metriken als Favoriten markieren](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+### Liste der berechneten Metriken
 
-* [Berechnete Metriken genehmigen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+Die ➊ Liste Berechnete Metriken zeigt alle berechneten Metriken an, deren Inhaber Sie sind oder die für Sie freigegeben wurden. Die Liste umfasst die folgenden Spalten:
 
-* [Berechnete Metriken taggen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+<!-- I think this table incorrectly talks about quick calculated metrics -->
 
-* [Berechnete Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+| Spalte | Beschreibung |
+| --- | --- | 
+| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![ um eine berechnete Metrik ](/help/assets/icons/Star.svg)StarOutline![ zu bevorzugen oder ](/help/assets/icons/StarOutline.svg). Siehe [Berechnete Metrik als Favorit markieren](cm-favorite.md) |
+| **[!UICONTROL Titel und Beschreibung]** | Um die berechnete Metrik zu bearbeiten, wählen Sie den Titel-Link aus, über den der [Generator für berechnete Metriken“ ](c-build-metrics/cm-build-metrics.md) wird. Eine freigegebene berechnete Metrik wird mit ![Freigabe](/help/assets/icons/ShareAlt.svg) angegeben. |
+| **[!UICONTROL Report Suite]** | Die Report Suites, für die diese berechnete Metrik gilt. |
+| **[!UICONTROL Inhabende]** | Inhaber der berechneten Metrik. Benutzende können nur die Anmerkungen sehen, die ihnen gehören oder die für sie freigegeben wurden. |
+| **[!UICONTROL Tags]** | Listet die Tags für diese berechnete Metrik auf. |
+| **[!UICONTROL Freigegeben für]** | Listet auf, für wie viele Einzelpersonen oder Gruppen Sie die berechnete Metrik freigegeben haben. Wählen Sie aus, um das Dialogfeld **[!UICONTROL Berechnete Metrik freigeben]** zu öffnen. Weitere Informationen [ Sie unter ](cm-sharing.md) berechneter Metriken freigeben . |
+| **[!UICONTROL Änderungsdatum]** | Datum und Uhrzeit der letzten Änderung der berechneten Metrik. |
+| **[!UICONTROL Verwendet in]** | Zeigt an, wo berechnete Metriken derzeit verwendet werden und wie oft sie in den einzelnen Bereichen verwendet werden. <p>Wenn die berechnete Metrik beispielsweise in 40 Projekten und 2 Warnhinweisen verwendet wird, wird der Wert dieser Spalte als [!UICONTROL **42 Komponenten**] angezeigt. <p>Wählen Sie den Wert in dieser Spalte aus, um die Aufschlüsselung anzuzeigen, wo die berechneten Metriken verwendet werden (z. B. [!UICONTROL **Projekte (40)**], [!UICONTROL **Mobile Scorecards (2)**]). Darüber hinaus können Sie die Liste der Elemente anzeigen, in denen die berechneten Metriken verwendet werden. Um beispielsweise die Liste der Projekte anzuzeigen, in denen sie verwendet werden, klicken Sie auf den Link [!UICONTROL **Projekte (40)**].</p><p>Jeder der folgenden Bereiche zeigt die Anzahl der Instanzen berechneter Metriken an, die in diesem Bereich verwendet werden:</p> <ul><li>[!UICONTROL **Projekte**]<p>Enthält berechnete Metriken, [ im Generator für berechnete Metriken erstellt wurden ](c-build-metrics/cm-build-metrics.md) für alle Projekte verfügbar sind.</p></li><li>[!UICONTROL **Ad-hoc-Komponenten**]<p>Enthält berechnete Metriken, [ als schnelle berechnete Metriken erstellt wurden ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) nur in einem einzigen Projekt verfügbar sind.</p></li><li>[!UICONTROL **Geplante Projekte**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Anmerkungen**]</li><li>[!UICONTROL **Report Builder**]<p>Wenn Sie diese Option wählen, wird eine CSV-Datei mit den folgenden Datenspalten heruntergeladen:</p><ul><li>Report Builder-Name</li><li>Letzter Zugriff</li><li>Letzter Zugriff – IMS-Benutzer-ID</li><li>Letzter Zugriff – Benutzername</li></ul></li></ul><p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzende in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen stehen nur Systemadmins zur Verfügung.</li><li>Die Spalte [!UICONTROL **Verwendet in**] wird standardmäßig nicht angezeigt. Mit ![Spalteneinstellung](/help/assets/icons/ColumnSetting.svg) können Sie die Anzeige dieser Spalte konfigurieren.</li><li>Diese Informationen umfassen nicht die Nutzung über die API oder Data Warehouse.</li><li>Wenn in dieser Spalte keine Daten für eine bestimmte Komponente vorhanden sind, sie jedoch ein Datum [!UICONTROL **Zuletzt verwendet**] aufweist, wurde die Komponente möglicherweise in einer Analyse verwendet, ohne gespeichert zu werden.</li><li>Nutzungsinformationen sind ab September 2023 verfügbar.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um die Verwendung von Komponenten in Ihrer Organisation zu verfolgen und besser zu verstehen.</p> |
+| **[!UICONTROL Zuletzt verwendet]** | Wann die berechnete Metrik zuletzt verwendet wurde. |
 
-* Exportieren Sie eine berechnete Metrik in eine CSV-Datei.
+{style="table-layout:auto"}
 
-* [Kopieren von berechneten Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
+Verwenden Sie ![Spalteneinstellung](/help/assets/icons/ColumnSetting.svg), um die anzuzeigenden Spalten anzugeben.
 
-* Berechnete Metriken löschen
+### Aktionsleiste
 
-## Spalten konfigurieren
+Sie können Aktionen für Filter mithilfe der Aktionsleiste ➋. Die Aktionsleiste ermöglicht die folgenden Aktionen:
 
-Sie können die für jede berechnete Metrik im Manager für berechnete Metriken angezeigten Informationen konfigurieren, indem Sie die angezeigten Spalten konfigurieren.
+| Symbol | Aktion | Beschreibung |
+|:---:|---|---|
+| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie weitere berechnete Metriken mithilfe des Builders für [ berechnete Metriken ](c-build-metrics/cm-build-metrics.md). |
+| ![Durchsuchen](/help/assets/icons/Search.svg) | [!UICONTROL *Nach Titel suchen*] | Wenn keine berechnete Metrik in der Liste ausgewählt ist, suchen Sie mithilfe dieses Suchfelds nach Filtern. |
+| ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Kennzeichnen Sie die ausgewählten berechneten Metriken. Wählen Sie im **[!UICONTROL Berechnete Metrik]** Tag) die Tags für die ausgewählte berechnete Metrik aus oder heben Sie die Auswahl auf. Wählen Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten berechneten Metriken zu speichern. Weitere Informationen finden [ unter &quot;](cm-tagging.md) Metriken taggen“. |
+| ![Freigeben](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Freigeben]** | Geben Sie die ausgewählten berechneten Metriken frei. Im Dialogfeld **[!UICONTROL Berechnete Metriken freigeben]** können Sie ![Suchen](/help/assets/icons/Search.svg)*nach Einzelpersonen oder Gruppen* oder **[!UICONTROL Organisation]** oder **[!UICONTROL Gruppen]**. Wählen Sie **[!UICONTROL Speichern]**, um Freigabedetails für die ausgewählten berechneten Metriken zu speichern. Weitere Informationen [ Sie unter ](cm-sharing.md) berechneter Metriken freigeben . |
+| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löscht die ausgewählten berechneten Metriken. Sie werden zur Bestätigung aufgefordert. |
+| ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Umbenennen]** | Eine einzelne ausgewählte berechnete Metrik umbenennen. Wenn diese Option aktiviert ist, können Sie die berechnete Metrik inline umbenennen. |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten berechneten Metriken. Siehe [Genehmigen von berechneten Metriken](cm-approving.md). |
+| ![Kopieren](/help/assets/icons/Copy.svg) | **[!UICONTROL Kopieren]** | Kopieren Sie die ausgewählten berechneten Metriken. Neue berechnete Metriken werden mit demselben Namen und Suffix `(Copy)` erstellt |
+| ![CSV-Datei](/help/assets/icons/FileCSV.svg) | **[!UICONTROL In CSV exportieren]** | Exportieren Sie die berechneten Metriken in eine `Calculated  metric List.csv`. |
 
-So konfigurieren Sie die sichtbaren Spalten im Manager für berechnete Metriken:
+### Aktive Filterleiste
 
-1. Wählen Sie in Adobe Analytics die Registerkarte **[!UICONTROL Komponenten]** und dann **[!UICONTROL Berechnete Metriken]** aus.
+Die Filterleiste zeigt ➌ die aktiven Filter an, die vom Bedienfeld Filter auf die Liste der berechneten Metriken angewendet wurden (falls vorhanden). Mit ![XGröße75](/help/assets/icons/CrossSize75.svg) können Sie schnell einen Filter entfernen. Wenn mehr als ein Filter angegeben ist, können Sie alle Filter mit **[!UICONTROL Alle entfernen]** entfernen.
 
-1. Klicken Sie im Manager für berechnete Metriken auf das Symbol **Spalten anpassen** (![Symbol Spalten anpassen](assets/customize-columns-icon.png) und wählen Sie dann die Spalten aus, die Sie im Manager für berechnete Metriken anzeigen möchten.
+### Panel „Filter“
 
-   Die folgenden Spalten sind verfügbar:
+Sie können die Liste der berechneten Metriken mithilfe der ➍ des ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linken Bedienfelds filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der berechneten Metriken an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
-   | Spaltentitel | Beschreibung |
+Weitere Informationen [ Sie unter „Filtern ](cm-filter.md) Liste berechneter Metriken“.
+
+<!-- OLD CONTENT
+
+The Calculated metrics page offers many ways of curating metrics, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
+
+The Calculated metrics page shows you all the segments you own and that have been shared with you. Admin-level users can see all custom metrics in the organization. 
+
+## Access the Calculated metrics manager
+
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
+
+## Available actions in the Calculated metrics manager
+
+In the Calculated metrics manager, you can:
+
+* [Filter calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+
+* [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+
+* [Approve calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
+
+* [Tag calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+
+* [Share calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+
+* Export a calculated metric to a CSV file. 
+
+* [Copy calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
+
+* Delete calculated metrics
+
+## Configure columns
+
+You can configure the information displayed for each calculated metric in the Calculated metrics manager by configuring the columns that are displayed.
+
+To configure the visible columns in the Calculated metrics manager:
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
+
+1. In the Calculated metrics manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Calculated metrics manager.
+
+   The following columns are available:
+
+   | Column title  | Description |
    |---|---|
-   | Favoriten | Zeigt Sternsymbol neben jeder berechneten Metrik an, sodass Sie berechnete Metriken als Favoriten markieren können. Weitere Informationen finden Sie unter [Berechnete Metriken als Favoriten markieren](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). |
-   | Titel und Beschreibung | Diese Werte werden im Generator für berechnete Metriken bereitgestellt. Um den Titel und die Beschreibung zu bearbeiten, klicken Sie auf den Titel-Link, um den Generator für berechnete Metriken zu öffnen. |
-   | Report Suite | Gibt an, in welcher Report Suite die Metrik zuletzt gespeichert wurde. |
-   | Inhaber | Gibt den Inhaber der benutzerdefinierten Metrik an. Wenn Sie kein Administrator sind, können Sie nur die Metriken sehen, deren Inhaber Sie sind, oder die für Sie freigegeben wurden. |
-   | Tags | Zeigt Tags an, die auf die Metrik angewendet wurden, entweder von Ihnen oder von Personen, die die berechnete Metrik für Sie freigegeben haben. |
-   | Freigegeben für | Listet Einzelpersonen oder Gruppen (nur Admin) oder Alle (nur Admin) auf, für die Sie die berechnete Metrik freigegeben haben. <p>Bei der Freigabe einer berechneten Metrik wird neben dem Namen der berechneten Metrik ein Freigabesymbol angezeigt.</p> |
-   | Änderungsdatum | Gibt das Datum an, an dem die benutzerdefinierte Metrik zuletzt geändert wurde. |
-   | Verwendet in | Zeigt an, wo berechnete Metriken derzeit verwendet werden und wie oft sie in den einzelnen Bereichen verwendet werden. <p>Wenn die berechnete Metrik beispielsweise in 40 Projekten und 2 Warnhinweisen verwendet wird, wird der Wert dieser Spalte als [!UICONTROL **42 Komponenten**] angezeigt. <p>Wählen Sie den Wert in dieser Spalte aus, um die Aufschlüsselung anzuzeigen, wo die berechneten Metriken verwendet werden (z. B. [!UICONTROL **Projekte (40)**], [!UICONTROL **Warnhinweise (2)**]). Darüber hinaus können Sie die Liste der Elemente anzeigen, in denen die berechneten Metriken verwendet werden. Um beispielsweise die Liste der Projekte anzuzeigen, in denen sie verwendet werden, klicken Sie auf den Link [!UICONTROL **Projekte (40)**].</p><p>Jeder der folgenden Bereiche zeigt die Anzahl der Instanzen berechneter Metriken an, die in diesem Bereich verwendet werden:</p> <ul><li>[!UICONTROL **Projekte**]<p>Enthält berechnete Metriken, [ im Generator für berechnete Metriken erstellt wurden ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) für alle Projekte verfügbar sind.</p></li><li>[!UICONTROL **Ad-hoc-Komponenten**]<p>Enthält berechnete Metriken, [ als schnelle berechnete Metriken erstellt wurden ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) nur in einem einzigen Projekt verfügbar sind.</p></li><li>[!UICONTROL **Geplante Projekte**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Anmerkungen**]</li><li>[!UICONTROL **Warnhinweise**]</li><li>[!UICONTROL **Report Builder**]<p>Wenn Sie diese Option wählen, wird eine CSV-Datei mit den folgenden Datenspalten heruntergeladen:</p><ul><li>Name des Report Builders</li><li>Zuletzt aufgerufen</li><li>Zuletzt aufgerufene IMS-Benutzer-ID</li><li>Zuletzt aufgerufener Benutzername</li></ul><p>Beim Anzeigen von Informationen zum Report Builder sind ab September 2024 Nutzungsinformationen verfügbar.</p></li></ul><p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzende in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen stehen nur Systemadministratoren zur Verfügung.</li><li>Die Spalte [!UICONTROL **Verwendet in**] wird standardmäßig nicht angezeigt. [Spalten konfigurieren](#configure-columns) um sie anzuzeigen.</li><li>Wenn eine berechnete Metrik eine andere berechnete Metrik in ihrer Definition enthält, wird die Verwendung dieser berechneten Metrik nicht in der Spalte [!UICONTROL **Verwendet in**] angezeigt. Wenn eine berechnete Metrik in die Definition eines anderen Komponententyps (z. B. eines Segments) aufgenommen wird, wird die Verwendung in der Spalte [!UICONTROL **Verwendet in**] angezeigt.</li><li>Diese Informationen beinhalten keine Verwendung über die API oder die Data Warehouse.</li><li>Wenn in dieser Spalte keine Daten für eine bestimmte Komponente vorhanden sind, sie jedoch ein Datum [!UICONTROL **Zuletzt verwendet**] aufweist, wurde die Komponente möglicherweise in einer Analyse verwendet, ohne gespeichert zu werden.</li><li>Nutzungsinformationen sind ab September 2023 verfügbar.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um zu verfolgen und besser zu verstehen, wie Komponenten in Ihrer Organisation verwendet werden.</p> |
-   | Zuletzt verwendet | Zeigt das Datum, an dem die berechnete Metrik zuletzt in einem der folgenden Bereiche verwendet wurde: <ul><li>Warnhinweise</li><li>Berechnete Metriken </li><li>Projekte</li><li>Geplante Projekte</li></ul> <p>Diese Informationen können Ihnen dabei helfen festzustellen, ob eine Komponente für Benutzende in Ihrer Organisation nützlich ist, wo sie verwendet wird und ob sie gelöscht oder geändert werden muss.</p><p>Beachten Sie Folgendes beim Anzeigen dieser Option:</p><ul><li>Diese Informationen umfassen nicht die Verwendung der API, des Report Builders oder der Data Warehouse.</li><li>Bei einigen Komponenten enthält diese Spalte möglicherweise keine Daten, wenn die Komponente zuletzt vor September 2023 verwendet wurde.</li><li>Diese Informationen stehen nur Systemadministratoren zur Verfügung.</li></ul><p>Sie können das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) zusammen mit diesen Informationen verwenden, um zu verfolgen und besser zu verstehen, wie Komponenten in Ihrer Organisation verwendet werden. |
+   | Favorites  | Displays star icons next to each calculated metric, allowing you to mark calculated metrics as favorites. For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). |
+   | Title and description | These values are provided in the Calculated metric builder. To edit the title and description, select the title link to open the Calculated metric builder.  |
+   | Report suite | Indicates in which report suite the metric was last saved.  |
+   | Owner | Indicates who owns the custom metric. As a non-admin, you can see only metrics you own or those that were shared with you.  |
+   | Tags | Shows tags that were applied to the metric, either by you or by people who shared the calculated metric with you.  |
+   | Shared with | Lists individuals or groups (admin only) or All (admin only) that you shared the calculated metric with. <p>When a calculated metric is being shared, a share icon displays next to the calculated metric name.</p>  |
+   | Date modified | Indicates the date when the custom metric was last modified.  |
+   | Used in | Shows where calculated metrics are currently being used, and how many times they are being used in each area. <p>For example, if the calculated metric is being used in 40 projects and 2 alerts, then the value of this column shows as [!UICONTROL **42 components**]. <p>Select the value in this column to see the breakdown of where the calculated metrics are being used (for example, [!UICONTROL **Projects (40)**], [!UICONTROL **Alerts (2)**]). Furthermore, you can view the list of items where the calculated metrics are being used. For example, so see the list of projects where they are being used, select the [!UICONTROL **Projects (40)**] link.</p><p>Each of the following areas shows the number of instances of calculated metrics being used in that area:</p> <ul><li>[!UICONTROL **Projects**]<p>Contains calculated metrics that were [created in the calculated metric builder](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) and are available for all projects.</p></li><li>[!UICONTROL **Ad hoc components**]<p>Contains calculated metrics that were [created as quick calculated metrics ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) and are available only within a single project.</p></li><li>[!UICONTROL **Scheduled projects**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Annotations**]</li><li>[!UICONTROL **Alerts**]</li><li>[!UICONTROL **Report Builder**]<p>Selecting this option downloads a CSV file, with the following columns of data:</p><ul><li>Report Builder Name</li><li>Last accessed</li><li>Last accessed IMS User ID</li><li>Last accessed user name</li></ul><p>When viewing information for Report Builder, usage information is available starting in September 2024.</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information is available only to system administrators.</li><li>The [!UICONTROL **Used in**] column does not display by default. [Configure columns](#configure-columns) to display it.</li><li>If a calculated metric includes another calculated metric in its definition, any use of that calculated metric is not shown in the [!UICONTROL **Used in**] column. If a calculated metric is included in the definition of another type of component (such as a segment), then usage is shown in the [!UICONTROL **Used in**] column.</li><li>This information does not include usage from the API or Data Warehouse.</li><li>If there is no data in this column for a given component but it has a [!UICONTROL **Last used**] date, the component might have been used in an analysis without being saved.</li><li>Usage information is available starting in September 2023.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization.</p> |
+   | Last used | Shows the date when the calculated metric was last used in any of the following areas: <ul><li>Alerts</li><li>Calculated metrics</li><li>Projects</li><li>Scheduled projects</li></ul> <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li><li>This information is available only to system administrators.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
 
    {style="table-layout:auto"}
+
+-->

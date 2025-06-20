@@ -3,16 +3,16 @@ description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Wareh
 title: Data Warehouse-Segmentkompatibilität
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Data Warehouse-Segmentkompatibilität
 
-Nicht alle im Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse] kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
+Nicht alle in Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse] kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
 
 <table> 
  <thead> 

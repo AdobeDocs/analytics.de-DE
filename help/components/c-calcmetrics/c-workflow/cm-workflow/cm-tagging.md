@@ -3,53 +3,77 @@ description: Durch das Taggen von Segmenten können Sie diese im Manager für be
 title: Berechnete Metriken taggen
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '171'
 ht-degree: 12%
 
 ---
 
 # Berechnete Metriken taggen
 
-Im Manager für berechnete Metriken können Sie Segmente durch Tagging organisieren.
 
-Alle Benutzer können Tags für berechnete Metriken erstellen und eines oder mehrere Tags auf eine Metrik anwenden. Sie sehen Tags jedoch nur für die berechneten Metriken, deren Inhaber Sie sind oder die für Sie freigegeben wurden.
+Im [Manager für berechnete ](cm-manager.md)&quot; können Sie Tags verwenden, um berechnete Metriken zu organisieren. Admins können alle berechneten Metriken taggen. Nicht-Admins können nur die berechneten Metriken taggen, die sie erstellen oder die für sie freigegeben wurden.
+
+So kennzeichnen Sie eine oder mehrere berechnete Metriken:
+
+1. Wählen [ im Manager für ](cm-manager.md) berechnete Metriken mindestens eine der berechneten Metriken aus, die Sie taggen möchten.
+1. Wählen Sie in der Aktionsleiste ![Kennzeichnungen](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]** aus.
+1. Im Dialogfeld **[!UICONTROL Berechnete Metriken taggen]**
+
+   ![Dialogfeld „Berechnete Metrik taggen“](assets/tag-calculated-metric-dialog.png)
+
+   1. (Optional) Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um nach der Liste der Tags zu suchen und diese zu beschränken.
+
+   2. Basierend auf der Liste der Tags:
+
+      * Wählen Sie ein oder mehrere vorhandene Tags aus der Liste aus oder
+      * geben Sie einen neuen Tag ein und drücken Sie **[!UICONTROL EINGABETASTE]**. Wiederholen Sie diesen Vorgang, um mehr als ein neues Tag hinzuzufügen.
+
+1. Wählen Sie **[!UICONTROL Speichern]**, um die Tags für die berechneten Metriken zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
+
+Nach dem Speichern werden die Tags im Feld [!UICONTROL Tag] für die ausgewählte berechnete Metrik im [Generator für berechnete Metriken](cm-tagging.md) aufgeführt.
+
+<!--
+In the Calculated metric manager, you can organize segments by tagging them.
+
+All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. 
 
 >[!TIP]
 >
->Die nützlichsten Arten von Tags sind normalerweise Tags, die auf den folgenden Kriterien basieren:
+>The most useful types of tags are usually tags that are based on the following criteria:
 >
->* **Team-Namen** wie Social-Media-Marketing oder Mobile-Marketing.
->* **Projekte** (Analyse-Tags), z. B. die Einstiegsseitenanalyse.
->* **Kategorien** wie „Women&#39;s“ oder „Geography“.
->* **Workflows** z. B. Zu validieren oder zu kuratieren für (einen bestimmten Geschäftsbereich)
+>* **Team names**, such as Social Marketing or Mobile Marketing.
+>* **Projects** (analysis tags), such as Entry-page analysis.
+>* **Categories**, such as Women's or Geography.
+>* **Workflows**, such as To be approved or Curated for (a specific business unit)
 
-## Anwenden von Tags auf eine berechnete Metrik
+## Apply tags to a calculated metric
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete Metriken**].
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
 
-1. Aktivieren Sie im Manager für berechnete Metriken das Kontrollkästchen neben den Metriken, die Sie taggen möchten.
+1. In the Calculated metrics manager, select the checkbox next to any metrics that you want to tag. 
 
    ![](assets/cm_add_tags.png)
+   
+1. In the **[!UICONTROL Tag Calculated metric]** dialog box:
 
-1. Im Dialogfeld **[!UICONTROL Berechnete Metrik taggen]**:
+    * Add a new tag. Type the name in the [!UICONTROL **Add tags**] field, then press Enter.
+    * Select one or more existing tags to apply to the selected metrics. 
 
-   * Ein neues Tag hinzufügen. Geben Sie den Namen in das Feld [!UICONTROL **Tags hinzufügen**] ein und drücken Sie dann die Eingabetaste.
-   * Wählen Sie ein oder mehrere vorhandene Tags aus, die auf die ausgewählten Metriken angewendet werden sollen.
+1. Select [!UICONTROL **Save**] to apply the tags.
 
-1. Wählen Sie [!UICONTROL **Speichern**] aus, um die Tags anzuwenden.
+## View applied tags
 
-## Angewendete Tags anzeigen
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete**]) aus, um zum Manager für berechnete Metriken zu wechseln.
+1. In the Calculated metrics manager, tags appear in the [!UICONTROL **Tags**] column. (Click the gear icon on the top-right to manage your columns.)
 
-1. Im Manager für berechnete Metriken werden Tags in der Spalte [!UICONTROL **Tags**] angezeigt. (Klicken Sie oben rechts auf das Zahnradsymbol, um Ihre Spalten zu verwalten.)
+## Filter metrics by tags
 
-## Metriken nach Tags filtern
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Berechnete**]) aus, um zum Manager für berechnete Metriken zu wechseln.
+1. In the Calculated metrics manager, select the **Filter** icon, then select the tags that you want to filter by. 
 
-1. Wählen Sie im Manager für berechnete Metriken das Symbol **Filtern** und wählen Sie dann die Tags aus, nach denen Sie filtern möchten.
-
-   Es werden nur Metriken mit dem ausgewählten Filter angezeigt.
+   Only metrics that have the filter you select are shown.
+-->
