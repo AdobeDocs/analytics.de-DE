@@ -1,19 +1,23 @@
 ---
-title: Zeitliche Planung von Arbeitsmappen mithilfe von Report Builder in Adobe Analytics
+title: Zeitliche Planung von Arbeitsmappen mit Report Builder in Adobe Analytics
 description: Erfahren Sie, wie Sie die Zeitplanfunktion in Report Builder verwenden
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 76%
+source-wordcount: '858'
+ht-degree: 69%
 
 ---
 
-# Erstellen von Zeitplänen für Arbeitsmappen
+# Arbeitsmappen durch Freigabe per E-Mail planen
+
+>[!NOTE]
+>
+>Zusätzlich zur Planung von Arbeitsmappen für die Freigabe per E-Mail, wie in diesem Abschnitt beschrieben, können Sie Arbeitsmappen für den Export in Cloud-Ziele planen, wie in [Arbeitsmappen für den Export in Cloud-Ziele planen](/help/analyze/report-builder/report-builder-export.md) beschrieben.
 
 Nachdem Sie Ihre Arbeitsmappe gespeichert und Ihre Analyse abgeschlossen haben, können Sie die Arbeitsmappe mithilfe der Zeitplanfunktion für andere in Ihrem Team freigeben. Mit der Zeitplanfunktion können Sie einen Zeitplan erstellen, anhand dessen die Daten in der Arbeitsmappe automatisch aktualisiert werden und die Excel-Arbeitsmappe (.xlsx) als E-Mail-Anhang an Ihre ausgewählte Zielgruppe gesendet wird. Durch die Einrichtung eines Zeitplans erhalten die Empfänger und Empfängerinnen automatisch regelmäßige Aktualisierungen. Sie können die Zeitplanfunktion auch verwenden, um die Arbeitsmappe nur einmal zu senden, ohne automatische Aktualisierungen festzulegen.
 
@@ -77,7 +81,7 @@ Verwenden Sie die Schaltfläche Zeitplan im Report Builder-Hub, um schnell einen
 
    ![Klicken Sie auf Planmäßig senden.](./assets/send-on-schedule.png){width="55%"}
 
-   Im Report Builder-Abschnitt wird unten eine Bestätigungsmitteilung angezeigt, und die zeitlich geplante Arbeitsmappe wird auf der Registerkarte „Arbeitsmappen“ aufgeführt.
+   Unten im Report Builder-Hub wird eine Bestätigungsmitteilung angezeigt, und die geplante Arbeitsmappe wird auf der Registerkarte „Arbeitsmappen“ aufgeführt.
 
    ![Bestätigungs-Popup](./assets/confirmation-toast.png){width="55%"}
 
@@ -104,44 +108,6 @@ Sie können die Arbeitsmappe auch nur ein einziges Mal versenden.
 
 1. Klicken Sie auf **Jetzt senden**.
 
-## Anzeigen und Bearbeiten geplanter Arbeitsmappen {#view-edit}
+## Geplante Arbeitsmappen verwalten
 
-Sie können alle geplanten Arbeitsmappen auf der Registerkarte „Arbeitsmappen“ anzeigen und verwalten.
-
-1. Klicken Sie im Report Builder-Hub im Bereich „Zeitplan“ auf die Registerkarte „Arbeitsmappen“. In dieser Ansicht finden Sie eine Liste aller geplanten Arbeitsmappen.
-
-1. Wählen Sie eine Arbeitsmappe aus. Es werden verschiedene Tools angezeigt, mit denen Sie die Arbeitsmappe bearbeiten, die geplante Aufgabe bearbeiten, die geplante Aufgabe anhalten und neu starten, einen Bericht zu geplanten Aufgaben herunterladen oder die geplante Aufgabe löschen können.
-
-   ![Screenshot mit den Symbolen für den Arbeitsmappen-Zeitplan.](./assets/schedule-icons.png){width="20%"}
-
-* (Optional) Klicken Sie auf das Stiftsymbol, um die Aufgabe Arbeitsmappen-Zeitplan zu bearbeiten.
-
-* (Optional) Klicken Sie auf das Uhrensymbol, um den Verlauf jeder geplanten Aufgabe anzuzeigen.
-
-* (Optional) Klicken Sie auf das Pausensymbol, um die Verteilungszeitplanaufgabe anzuhalten und neu zu starten. Dies ist hilfreich, wenn Sie die Arbeitsmappe vor ihrem Versand ändern müssen. Klicken Sie erneut auf das Pausensymbol, wenn Sie den Versand neu starten möchten.
-
-* (Optional) Klicken Sie auf das Symbol Herunterladen , um eine Kopie der Aufgabe „Arbeitsmappen-Zeitplan“ herunterzuladen.
-
-* (Optional) Klicken Sie auf den Papierkorb, um die geplante Aufgabe zu löschen.
-
-  ![Screenshot mit der Liste der geplanten Aufgaben.](./assets/selected-workbook.png){width="40%"}
-
-## Überprüfen des Status geplanter Aufgaben {#status}
-
-In der Verlaufsansicht können Sie den Status jeder geplanten Aufgabe überprüfen. Für jede geplante Aufgabe wird in einer eigenen Zeile die Statusänderung festgehalten. Im folgenden Beispiel wurde *der neue stündliche Zeitplan* am 5. Januar um 15:04 Uhr gestartet. Um 15:05 Uhr waren die Aktualisierung und der Versand an die Empfänger und Empfängerinnen erfolgreich abgeschlossen. Die nächste Arbeitsmappe, *Fehlerhafte Arbeitsmappe*, meldete einen Fehler während des Aktualisierungsprozesses. Wenn eine Arbeitsmappe nicht gesendet werden kann, hilft Ihnen die Registerkarte „Verlauf“ bei der Fehlerbehebung, da sie anzeigt, wo im Prozess der Fehler aufgetreten ist. In diesem Fall ist der Fehler wahrscheinlich auf einen Datenblockfehler, vielleicht eine fehlende Komponente, zurückzuführen, sodass die Arbeitsmappe nicht erfolgreich aktualisiert werden konnte.
-
-Ein grünes Häkchen bedeutet, dass die Arbeitsmappe erfolgreich gesendet wurde. Ein Ausrufezeichen in einem roten Dreieck gibt an, dass ein Fehler aufgetreten ist.
-
-Sie können auswählen, welche Spalten in der Registerkarte „Verlauf“ angezeigt werden sollen, indem Sie rechts neben der Suchleiste auf das Spalteneinstellungssymbol klicken.
-
-![Klicken Sie auf das Spaltensymbol, um bestimmte Spalten ein- oder auszublenden.](./assets/history.png){width="55%"}
-
-Sie können den Verlauf so filtern, dass nur der Verlauf einer einzigen geplanten Arbeitsmappen angezeigt wird. Gehen Sie dazu zur Registerkarte „Arbeitsmappen“, wählen Sie die Arbeitsmappe aus und klicken Sie auf das Verlaufsymbol.
-
-Sie können den Verlauf einer bestimmten Arbeitsmappe auch auf der Registerkarte „Arbeitsmappen“ einsehen. Wählen Sie dazu auf der Registerkarte „Arbeitsmappen“ die entsprechende Arbeitsmappe aus und klicken Sie auf das Verlaufsymbol.
-
-![Das Verlaufssymbol für Arbeitsmappen](./assets/history2.png){width="55%"}
-
-Der Arbeitsmappen-Filter wird dann oben im Verlauf angezeigt. Um wieder den Verlauf aller geplanten Aufgaben anzuzeigen, klicken Sie auf das x neben dem Filter.
-
-![Der Arbeitsmappen-Filter.](./assets/history3.png){width="55%"}
+Informationen zum Verwalten von bereits geplanten Arbeitsmappen finden Sie unter [Verwalten geplanter Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

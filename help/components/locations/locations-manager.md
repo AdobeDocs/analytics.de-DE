@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Standorte-Manager
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ Mit dem Standort-Manager können Sie Konten und Standorte anzeigen, erstellen, b
 
 * Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md)
 * Exportieren von Berichten mit [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Dateien werden bei Verwendung von [Report Builder exportiert](/help/analyze/report-builder/report-builder-export.md)
 * Importieren von Schemas mithilfe [Klassifizierungssätze](/help/components/classifications/sets/overview.md)
 
 ## Anzeigen, Filtern und Suchen von Speicherorten
@@ -46,7 +47,7 @@ Die folgenden Spalten sind im Standort-Manager verfügbar. Um die in der Tabelle
 * **[!UICONTROL Speicherort-Name]**: Der Speicherort-Name. Wählen Sie das Dreipunkt-Menü neben einem Ortsnamen aus, um entweder [den Ort bearbeiten](/help/components/locations/configure-import-locations.md) oder ihn zu löschen.
 * **[!UICONTROL Speicherort-]**: Der mit dem Speicherort verknüpfte Kontotyp.
 * **[!UICONTROL Konto]**: Das spezifische Konto, das mit dem Speicherort verknüpft ist.
-* **Application**: Der Typ der Anwendung, mit der der Speicherort verwendet werden kann (z. B. Daten-Feeds, Data Warehouse oder Klassifizierungssätze).
+* **Programm**: Der Typ der Anwendung, mit der der Speicherort verwendet werden kann (z. B. Daten-Feeds, Data Warehouse oder Klassifizierungssätze).
 * **[!UICONTROL Zuletzt verwendet]**: Das Datum, an dem der Speicherort zuletzt verwendet wurde.
 * **[!UICONTROL Erstellt von]**: Der Benutzer, der den Speicherort erstellt hat.
 * **[!UICONTROL Erstellungsdatum]**: Das Datum, an dem der Speicherort erstellt wurde.
@@ -73,7 +74,7 @@ Informationen zum Bearbeiten eines Speicherorts finden Sie unter [Konfigurieren 
 >
 >Wenn ein Speicherort gelöscht wird, schlagen alle Daten-Feed-Dateien, Data Warehouse-Berichte oder Klassifizierungssatz-Schemas, die mit dem gelöschten Speicherort verknüpft sind, fehl, wenn sie das nächste Mal verwendet werden.
 >
->Wenn Sie einen Speicherort löschen, sollten Sie [Daten-Feeds bearbeiten](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse-Berichte](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und [Klassifizierungssätze-Schemas](/help/components/classifications/sets/manage/schema.md), um einen funktionierenden Speicherort zu verwenden.
+>Wenn Sie einen Speicherort löschen, sollten Sie [Ihre Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse-Berichte](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und [Klassifizierungssätze-Schemas](/help/components/classifications/sets/manage/schema.md) verwenden, um einen funktionierenden Speicherort zu verwenden.
 
 Ein Speicherort kann nur von dem Benutzer, der ihn erstellt hat, oder von einem Systemadministrator gelöscht werden.
 
@@ -171,7 +172,7 @@ Sie können die Kontotypen, die Benutzerinnen und Benutzer sehen, in den folgend
 
 * Beim [Erstellen neuer Konten](/help/components/locations/configure-import-accounts.md)
 
-* Data Warehouse Bei der Auswahl der Konten, die beim Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) beim Exportieren von Berichten mit [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder beim Importieren von Schemas mit [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) verwendet werden.
+* Bei der Auswahl der Konten, die beim Exportieren von Dateien mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) beim Exportieren von Berichten mit [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder beim Importieren von Schemata mit [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) verwendet werden.
 
 Wenn Sie Kontotypen wie in diesem Abschnitt beschrieben einschränken, sind alle Konten des Typs, den Sie einschränken, für Benutzerinnen und Benutzer nicht mehr sichtbar. Das bedeutet, dass keine neuen Konten dieses Typs erstellt werden können und dass keine bestehenden Konten dieses Typs beim Erstellen von Daten-Feeds, Data Warehouse oder Klassifizierungssätzen verwendet werden können.
 
@@ -205,7 +206,7 @@ So beschränken Sie die Kontotypen, die Benutzern beim Erstellen und Verwenden v
 
    Es muss mindestens ein Kontotyp ausgewählt sein.
 
-   * [!UICONTROL **Amazon S3-Rollen-ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
    * [!UICONTROL **Google Cloud Platform**]
 

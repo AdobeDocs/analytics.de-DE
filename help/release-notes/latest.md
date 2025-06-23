@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d2f87c771ec2d5ab671cd8f022a2bd2e23a51ccb
+source-git-commit: 3d3a91e806be36ff1f913bcc336bde7520fb84a2
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 99%
+source-wordcount: '1000'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 18.�
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Unterstützung für sichere Ziele im neuen Report Builder** | Dem Report Builder-Add-in wurden neue Exportziele hinzugefügt. Die folgenden Cloud-Speicherziele werden unterstützt: <ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul> FTP wird aufgrund von Sicherheitsbedenken nicht mehr unterstützt. (Link zur Dokumentation folgt) |  | &#x200B;19. Juni 2025 (ursprünglich 18. Juni) |
+| **Unterstützung für sichere Cloud-Ziele in der neuen Report Builder** | Das JavaScript Report Builder-Add-in unterstützt jetzt den Export von Berichten an die folgenden Cloud-Speicherziele:<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>Zuvor waren nur FTP- und E-Mail-Ziele verfügbar. FTP wird aus Sicherheitsgründen nicht mehr unterstützt.</p><p>Weitere Informationen finden Sie unter &quot;[ von Arbeitsmappen durch Exportieren in Cloud-Ziele](/help/analyze/report-builder/report-builder-export.md).</p><p>Zusätzlich zu diesen Änderungen bietet das Feld Verwenden von mit beim Erstellen eines Speicherorts in Adobe Analytics jetzt die Möglichkeit, den Speicherort mit Report Builder zu verwenden, wie in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.</p> |  | &#x200B;19. Juni 2025 (ursprünglich 18. Juni) |
 | **Neues Vorschauerlebnis** | Das Panel „Vorschau“, das zur Vorschau von Segmenten, berechneten Metriken und mehr verwendet wird, nutzt jetzt eine Darstellung mit horizontalen Balken anstelle einer Darstellung mit Ringdiagrammen. |  | 18. Juni 2025 |
 | **Geändertes Dialogfeld für Attributionsmodelle** | Sie können nun den Container und den Zeitraum separat im Dialogfeld für Attributionsmodelle definieren. |  | 18. Juni 2025 |
 | **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche für Kundenattribute ist jetzt direkt über die App-Auswahl in Adobe Experience Cloud zugänglich. |  | TBD |

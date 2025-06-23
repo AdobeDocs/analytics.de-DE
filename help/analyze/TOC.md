@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
       + [Verwenden von Komponenten in Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Hinzufügen von Komponentenbeschreibungen](analysis-workspace/components/add-component-descriptions.md)
       + Anmerkungen {#annotations}
-         + [Übersicht über Anmerkungen](analysis-workspace/components/annotations/overview.md)
+         + [Anmerkungen – Übersicht](analysis-workspace/components/annotations/overview.md)
          + [Erstellen von Anmerkungen](analysis-workspace/components/annotations/create-annotations.md)
          + [Verwalten von Anmerkungen](analysis-workspace/components/annotations/manage-annotations.md)
          + [Anzeigen von Anmerkungen](analysis-workspace/components/annotations/view-annotations.md)
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [Arbeiten mit Segmenten](report-builder/work-with-segments.md)
    + [Filtern von Dimensionen](report-builder/filter-dimensions.md)
    + [Verwalten von Datenblöcken](report-builder/manage-reportbuilder.md)
-   + [Erstellen von Zeitplänen für Arbeitsmappen](report-builder/schedule-reportbuilder.md)
+   + [Arbeitsmappen für E-Mails planen](report-builder/schedule-reportbuilder.md)
+   + [Arbeitsmappen für Cloud-Exporte planen](/help/analyze/report-builder/report-builder-export.md)
+   + [Geplante Arbeitsmappen verwalten](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Eingeschränkte Beschriftungen](report-builder/restricted-labels.md)
    + [Report Builder-Einstellungen](report-builder/report-builder-settings.md)
 + Vorgängerversion von Report Builder {#legacy-report-builder}
