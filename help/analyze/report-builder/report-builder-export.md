@@ -51,7 +51,7 @@ So exportieren Sie Berichte aus Report Builder:
 
 1. Falls noch nicht geschehen, konfigurieren Sie ein Exportkonto und einen Speicherort, wie unter [Konfigurieren von Cloud-Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben.
 
-1. Öffnen Sie in der Excel-Tabelle, die die zu exportierenden Daten enthält, das rechte Bedienfeld {]**}Adobe Report Builder.**[!UICONTROL 
+1. Öffnen Sie in der Excel-Tabelle, die die zu exportierenden Daten enthält, das rechte Bedienfeld {**}Adobe Report Builder.**
 
 1. Wählen Sie [!UICONTROL **Zeitplan**] aus.
 
@@ -65,7 +65,7 @@ So exportieren Sie Berichte aus Report Builder:
 
    Um die Arbeitsmappe nach einem Zeitplan zu exportieren, den Sie bereits erstellt haben, wählen Sie den Zeitplan aus der Liste der Zeitpläne aus und klicken Sie auf **[!UICONTROL Planmäßig senden]**.
 
-1. Geben Sie im rechten Bedienfeld **]0}Adobe Report Builder&quot; die folgenden Informationen an, um mit der Erstellung eines neuen Zeitplans fortzufahren:[!UICONTROL **
+1. Geben Sie im rechten Bedienfeld **0&rbrace;Adobe Report Builder&quot; die folgenden Informationen an, um mit der Erstellung eines neuen Zeitplans fortzufahren:**
 
    | Feldname | Funktion |
    |---------|----------|

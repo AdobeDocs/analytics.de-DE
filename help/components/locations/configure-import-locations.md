@@ -34,7 +34,7 @@ Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unte
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
 
-1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standorte**] aus.
+1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standorte**] aus.
 
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Standorte für alle Benutzer anzeigen**] aktivieren, um Standorte anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Standorte für alle Benutzer anzeigen](assets/locations-all-users.png)

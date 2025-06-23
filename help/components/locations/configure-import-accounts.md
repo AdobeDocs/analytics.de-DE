@@ -33,7 +33,7 @@ Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Sta
 So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
-1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standortkonten**] aus.
+1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standortkonten**] aus.
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Konten für alle Benutzer anzeigen**] aktivieren, um Konten anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Konten für alle Benutzer anzeigen](assets/accounts-all-users.png)
 1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**] aus.
@@ -71,7 +71,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -83,7 +83,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -99,7 +99,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -113,7 +113,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++E-Mail
 
@@ -129,7 +129,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **Legacy-Kontotypen**
 
@@ -148,13 +148,13 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host und Benutzernamen. Außerdem muss die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
 
-+++
+   +++
 
    +++S3
 
@@ -189,7 +189,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
    >
    >Die Region „cn-north-1“ wird nicht unterstützt.
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -199,7 +199,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
    >
    >Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Data Warehouse-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
 
-+++
+   +++
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
