@@ -32,8 +32,8 @@ Die Web SDK-Erweiterung bietet eine Dropdown-Liste für jeden Datenstrom für je
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
-1. Wählen [!UICONTROL  unter ] den gewünschten Datenstrom in der Dropdown-Liste für jede Umgebung aus.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
+1. Wählen [!UICONTROL &#x200B; unter &#x200B;] den gewünschten Datenstrom in der Dropdown-Liste für jede Umgebung aus.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Manuelles Festlegen des gewünschten Datenstroms durch Implementieren der Web-SDK
