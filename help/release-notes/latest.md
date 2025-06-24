@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3d3a91e806be36ff1f913bcc336bde7520fb84a2
+source-git-commit: adbd342948ce3c38107a86613d77a9bf90a7df97
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1002'
 ht-degree: 90%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Version Juni 2025)
 
-**Letzte Aktualisierung**: 18. Juni 2025
+**Letzte Aktualisierung**: Mittwoch, 24. Juni 2025
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 18. Juni bis zum 15. Juli 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -24,7 +24,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 18.�
 | **Neues Vorschauerlebnis** | Das Panel „Vorschau“, das zur Vorschau von Segmenten, berechneten Metriken und mehr verwendet wird, nutzt jetzt eine Darstellung mit horizontalen Balken anstelle einer Darstellung mit Ringdiagrammen. |  | 18. Juni 2025 |
 | **Geändertes Dialogfeld für Attributionsmodelle** | Sie können nun den Container und den Zeitraum separat im Dialogfeld für Attributionsmodelle definieren. |  | 18. Juni 2025 |
 | **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche für Kundenattribute ist jetzt direkt über die App-Auswahl in Adobe Experience Cloud zugänglich. |  | TBD |
-| **Streaming-Medien: Unterstützung von Zeitplandaten** | Sie können jetzt Zeitplandaten von früheren Live-Inhalten von Streaming-Medien hochladen, um die Zuschauerzahlen einfacher und genauer zu verfolgen. Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:<ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen zu bestimmten Themen oder Programmsegmenten erfassen. Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.<p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen. Weitere Informationen |  | 25. Juni 2025 |
+| **Streaming-Medien: Unterstützung von Zeitplandaten** | Sie können jetzt Zeitplandaten von früheren Live-Inhalten von Streaming-Medien hochladen, um die Zuschauerzahlen einfacher und genauer zu verfolgen. Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:<ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen zu bestimmten Themen oder Programmsegmenten erfassen. Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.<p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen. Weitere Informationen |  | &#x200B;15. August 2025 (ursprünglich 25. Juni 2025) |
 
 ## Fehlerbehebungen in Adobe Analytics
 
