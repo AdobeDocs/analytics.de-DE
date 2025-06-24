@@ -28,7 +28,7 @@ Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstell
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/328023?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
