@@ -1,10 +1,10 @@
 ---
 title: visitorNameSpace
 description: (Eingestellt) Hilfe bei der Bestimmung der Drittanbieter-Cookie-Domain.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 89%
@@ -34,7 +34,7 @@ In früheren Versionen von Adobe Analytics verwendete AppMeasurement die `visito
 
 Adobe empfiehlt, dieses Feld nicht zu verwenden. Verwenden Sie stattdessen `trackingServer` und `trackingServerSecure`.
 
-## s.visitorNamespace beim AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.visitorNamespace in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.visitorNamespace`-Variable ist eine Zeichenfolge, die einen eindeutigen Wert pro Organisation enthält. Alte AppMeasurement-Bibliotheken enthielten diesen eindeutigen Wert automatisch, wenn sie von früheren Versionen von Adobe Analytics heruntergeladen wurden. Aktuelle AppMeasurement-Bibliotheken verwenden diese Variable nur, wenn `trackingServer` und `trackingServerSecure` gesetzt sind.
 

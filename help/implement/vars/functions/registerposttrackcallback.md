@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: Erstellen Sie Callback-Funktionen, nachdem Sie einen Treffer an Adobe gesendet haben.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Weitere Informationen [ Sie in der Dokumentation zu Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#handling-responses-from-events)SDK unter „Umgang mit Antworten von Ereignissen“.
+Weitere Informationen [ Sie in der Dokumentation zu Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)SDK unter „Umgang mit Antworten von Ereignissen“.
 
 ## Registrieren von Callback nach Tracking mit der Adobe Analytics-Erweiterung
 

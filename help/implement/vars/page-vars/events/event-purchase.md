@@ -1,10 +1,10 @@
 ---
 title: Kaufereignis
 description: Verwenden Sie das Kaufereignis, um Daten zu den Metriken „Bestellungen“, „Einheiten“ und „Umsatz“ zu erfassen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -65,12 +65,12 @@ Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
-6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und legen Sie für die [!UICONTROL -Liste &#x200B;]Ereignisse“ [!UICONTROL Kauf] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse] und legen Sie für die [!UICONTROL -Liste ]Ereignisse“ [!UICONTROL Kauf] fest.
 
 Andere abhängige Variablen wie `products` und `purchaseID` verfügen über keine eigenen Felder in der Analytics-Erweiterung in der Datenerfassung von Adobe Experience Platform. Verwenden Sie für diese Variablen den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## Kaufereignis auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung festlegen
+## Kaufereignis in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung festlegen
 
 Das Kaufereignis ist eine Zeichenfolge, die als Teil der Ereignisvariablen festgelegt wird.
 

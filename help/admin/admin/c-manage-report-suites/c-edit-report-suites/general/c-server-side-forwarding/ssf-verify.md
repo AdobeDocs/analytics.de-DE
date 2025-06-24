@@ -2,10 +2,10 @@
 description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Diese Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
 solution: Analytics
 title: Überprüfen der Server-seitigen Weiterleitungsimplementierung
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%

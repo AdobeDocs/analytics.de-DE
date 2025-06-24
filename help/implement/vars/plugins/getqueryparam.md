@@ -1,10 +1,10 @@
 ---
 title: getQueryParam
 description: Extrahieren Sie den Wert des Abfragezeichenfolgenparameters einer URL.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 73%
@@ -17,11 +17,11 @@ ht-degree: 73%
 
 Mit dem `getQueryParam`-Plug-in können Sie den Wert eines beliebigen Abfragezeichenfolgenparameters extrahieren, der in einer URL enthalten ist. Dies ist nützlich, um interne und externe Kampagnencodes aus den Landingpage-URLs zu extrahieren. Dies ist auch beim Extrahieren von Suchbegriffen oder anderen Abfragezeichenfolgenparametern nützlich.
 
-Dieses Plug-in bietet stabile Funktionen zum Analysieren komplexer URLs, einschließlich Hashes und URLs, die mehrere Abfragezeichenfolgenparameter enthalten. Wenn Sie nur einfache Abfragezeichenfolgenparameter benötigen, empfiehlt Adobe, die URL-Parameterfunktionen mit der Web-SDK- oder der Adobe Analytics-Erweiterung oder der im AppMeasurement enthaltenen [`Util.getQueryParam()`](../functions/util-getqueryparam.md)-Methode zu verwenden.
+Dieses Plug-in bietet stabile Funktionen zum Analysieren komplexer URLs, einschließlich Hashes und URLs, die mehrere Abfragezeichenfolgenparameter enthalten. Wenn Sie nur einfache Abfragezeichenfolgenparameter benötigen, empfiehlt Adobe die Verwendung der URL-Parameterfunktionen mit der Web-SDK- oder der Adobe Analytics-Erweiterung oder der in AppMeasurement enthaltenen [`Util.getQueryParam()`](../functions/util-getqueryparam.md)-Methode.
 
 ## Installieren des Plug-ins mithilfe der Web SDK-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit der Web-SDK verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit dem Web-SDK verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie **[!UICONTROL links auf]** Tags“ und dann auf die gewünschte Tag-Eigenschaft.

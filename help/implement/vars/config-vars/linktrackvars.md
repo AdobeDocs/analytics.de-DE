@@ -1,10 +1,10 @@
 ---
 title: linkTrackVars
 description: Geben Sie an, welche Variablen in Bildanforderungen zum Linktracking einbezogen werden sollen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 62%
@@ -19,7 +19,7 @@ Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-met
 
 ## Bestimmen Sie mithilfe der Web-SDK, welche Variablen in ein XDM-Ereignis eingeschlossen werden sollen
 
-Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den `onBeforeEventSend`-Callback verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an den Adobe gesendet werden. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den `onBeforeEventSend`-Callback verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an Adobe gesendet werden. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ## Variablen in Linktracking-Aufrufen mit der Adobe Analytics-Erweiterung
 
@@ -29,7 +29,7 @@ Diese Variable wird automatisch im Backend auf der Grundlage der in der -Schnitt
 >
 >Wenn Sie Variablen mit dem Editor für benutzerspezifischen Code festlegen, müssen Sie die Variablen auch in `linkTrackVars` unter Verwendung von benutzerdefiniertem Code einbeziehen.
 
-## s.linkTrackVars auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkTrackVars in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.linkTrackVars`-Variable ist eine Zeichenfolge, die eine kommagetrennte Liste von Variablen enthält, die Sie in Bildanforderungen zum Linktracking einbeziehen möchten (`tl()`-Methode). Die folgenden beiden Kriterien müssen erfüllt sein, um Dimensionen in Linktracking-Treffer einzubeziehen:
 

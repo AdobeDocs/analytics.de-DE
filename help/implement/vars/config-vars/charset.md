@@ -1,10 +1,10 @@
 ---
 title: charSet
 description: Die Variable „charSet“ bestimmt, mit welcher Codierung Adobe Ihre Bildanforderung analysiert.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 65%
@@ -32,7 +32,7 @@ Web SDK unterstützt derzeit nur UTF-8 und bietet keine Optionen zum Ändern der
 
 Sie können entweder einen vorab festgelegten oder einen benutzerdefinierten Zeichensatz verwenden. Ändern Sie den Wert nicht von `UTF-8`, es sei denn, Sie sehen beschädigte Werte in Berichten.
 
-## s.charSet auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.charSet in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `charSet`-Variable ist eine Zeichenfolge. Wenn Sie in Adobe Analytics über beschädigte Werte verfügen, setzen Sie diese Variable auf denselben Wert wie das HTML-Tag `<meta charset="">` auf Ihrer Site.
 

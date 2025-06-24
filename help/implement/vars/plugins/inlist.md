@@ -1,10 +1,10 @@
 ---
 title: inList
 description: Überprüfen Sie, ob ein Wert in einem anderen, durch Zeichen getrennten Wert enthalten ist.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 87%

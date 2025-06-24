@@ -1,10 +1,10 @@
 ---
 title: products
 description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder sich im Warenkorb befinden.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -23,7 +23,7 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden Produkte den folgenden Variablen zugeordnet:
 
-* Kategorie wird `xdm.productListItems[].productCategories[].categoryID` zugeordnet. Dabei wird das erste Element im `productCategories[]`-Array verwendet. `lineItemId` ist auch korrekt zugeordnet, Adobe empfiehlt jedoch `categoryID`, da es sich um Standard-XDM handelt. Wenn beide XDM-Felder vorhanden sind, hat `lineItemId` Vorrang.
+* Kategorie wird `xdm.productListItems[].productCategories[].categoryID` zugeordnet. Dabei wird das erste Element im `productCategories[]`-Array verwendet. `lineItemId` auch korrekt zugeordnet, Adobe empfiehlt jedoch `categoryID`, da es sich um Standard-XDM handelt. Wenn beide XDM-Felder vorhanden sind, hat `lineItemId` Vorrang.
 * Produkt wird `xdm.productListItems[].SKU` oder `xdm.productListItems[].name` zugeordnet. Wenn beide XDM-Felder vorhanden sind, wird `xdm.productListItems[].SKU` verwendet.
 * Die Menge wird `xdm.productListItems[].quantity` zugeordnet.
 * Der Preis wird `xdm.productListItems[].priceTotal` zugeordnet.

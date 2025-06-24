@@ -1,10 +1,10 @@
 ---
 title: linkDownloadFileTypes
 description: Legen Sie Dateierweiterungen fest, die automatisch als Downloadlinks verfolgt werden.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 55%
@@ -36,8 +36,8 @@ Das Textfeld [!UICONTROL Downloadlink]Qualifizierer“ verwendet Regex, um zu be
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
-1. Legen [!UICONTROL &#x200B; unter „Datenerfassung] den gewünschten Wert im Textfeld **[!UICONTROL Link-Qualifizierer herunterladen]** fest.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
+1. Legen [!UICONTROL  unter „Datenerfassung] den gewünschten Wert im Textfeld **[!UICONTROL Link-Qualifizierer herunterladen]** fest.
 
 ## Download-Link-Qualifizierer bei der manuellen Implementierung der Web-SDK
 
@@ -60,7 +60,7 @@ Download-Erweiterungen sind eine Liste von Dateierweiterungen, in der Sie bei de
 
 Fügen Sie der Liste Dateierweiterungen hinzu, indem Sie Text in das Feld eingeben und auf **[!UICONTROL Hinzufügen]** klicken. Entfernen Sie Dateierweiterungen aus der Liste, indem Sie auf das entsprechende **X“**.
 
-## s.linkDownloadFileTypes auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkDownloadFileTypes in AppMeasurement und der benutzerdefinierte Code-Editor der Analytics-Erweiterung
 
 Die `s.linkDownloadFileTypes`-Variable ist eine Zeichenfolge aus kommagetrennten Dateierweiterungen. Verwenden Sie keine Leerzeichen.
 

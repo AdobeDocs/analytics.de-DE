@@ -1,10 +1,10 @@
 ---
 title: ActivityMap.regionExclusions
-description: Filtern von Activity Map-Daten nach Region.
+description: Filtern Sie Activity Map-Daten nach Region.
 role: Admin, Developer
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 13%
@@ -13,7 +13,7 @@ ht-degree: 13%
 
 # ActivityMap.regionExclusions
 
-Mit der Variablen `ActivityMap.regionExclusions` können Sie Activity Map-Daten selektiv filtern oder ausschließen, basierend auf den Dimensionselementen, die in der Dimension [Activity Map-Region](/help/components/dimensions/activity-map-region.md) erfasst wurden.
+Mit der Variablen `ActivityMap.regionExclusions` können Sie Activity Map-Daten selektiv basierend auf den Dimensionselementen filtern oder ausschließen, die in der Dimension [Activity Map-Region](/help/components/dimensions/activity-map-region.md) erfasst wurden.
 
 ## Regionsausschlüsse in der Web SDK-Erweiterung
 
@@ -21,7 +21,7 @@ Wenn **[!UICONTROL Click-Datenerfassung aktivieren]** aktiviert ist, verwenden S
 
 ## Regionsausschlüsse in der Web SDK JavaScript-Bibliothek
 
-Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `linkRegion` überprüfen und entweder den Wert ändern oder die Sammlung von Linktracking-Daten aufgeben.
+Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `linkRegion` überprüfen und entweder den Wert ändern oder die Sammlung von Linktracking-Daten aufgeben.
 
 ```js
 alloy("configure", {
@@ -43,7 +43,7 @@ In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable 
 
 ## s.ActivityMap.regionExclusions mit AppMeasurement
 
-Die `s.ActivityMap.regionExclusions` ist eine Zeichenfolge, die durch Kommas getrennte Phrasen enthält, die vom Activity Map-Tracking ausgeschlossen werden sollen. Wenn eine der Phrasen mit dem Wert übereinstimmt, der in der Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) erfasst wurde, werden alle Activity Map-Daten aus dem Treffer entfernt.
+Die `s.ActivityMap.regionExclusions`-Variable ist eine Zeichenfolge, die durch Kommas getrennte Phrasen enthält, die vom Activity Map-Tracking ausgeschlossen werden sollen. Wenn eine der Phrasen mit dem Wert übereinstimmt, der in der Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) erfasst wurde, werden alle Activity Map-Daten aus dem Treffer entfernt.
 
 ```html
 <script>

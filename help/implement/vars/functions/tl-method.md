@@ -1,10 +1,10 @@
 ---
 title: tl
 description: Senden Sie einen Linktracking-Aufruf an Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -68,13 +68,13 @@ Die Adobe Analytics-Erweiterung verfügt über einen speziellen Ort, um einen Li
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken [!UICONTROL &#x200B; unter &#x200B;]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
-1. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
+1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
+1. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können in der Analytics-Erweiterung keine optionalen Argumente festlegen.
 
-## s.tl()-Methode im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.tl()-Methode in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Rufen Sie die `s.tl()`-Methode auf, wenn Sie einen Tracking-Aufruf an Adobe senden möchten.
 
@@ -175,7 +175,7 @@ Sie können die Funktion dann immer dann aufrufen, wenn Sie einen bestimmten Lin
 ```
 
 >[!NOTE]
->Der indirekte Aufruf der `tl()`-Methode kann das Activity Map-Überlagerungsbericht weniger praktisch gestalten. Sie müssen auf jeden Link klicken, um die Funktion beim Link-Element zu registrieren. Activity Map-Dimensionen in Workspace werden jedoch auf dieselbe Weise verfolgt.
+>Ein indirekter Aufruf der `tl()`-Methode kann das Reporting über Activity Map-Überlagerungen weniger praktisch gestalten. Sie müssen auf jeden Link klicken, um die Funktion beim Link-Element zu registrieren. Activity Map-Dimensionen in Workspace werden jedoch auf dieselbe Weise verfolgt.
 
 ### Vermeiden des Trackings doppelter Links
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### Verwenden der `tl()` mit Activity Map
+### Verwenden der `tl()`-Methode mit Activity Map
 
-Sie können die `tl()`-Methode verwenden, um benutzerdefinierte Elemente zu verfolgen und das Überlagerungsrendering für dynamische Inhalte zu konfigurieren. Der `linkName` Parameter wird auch zum Festlegen der Dimension [Activity Map-Link](/help/components/dimensions/activity-map-link.md) verwendet.
+Sie können die `tl()`-Methode verwenden, um benutzerdefinierte Elemente zu verfolgen und das Überlagerungsrendering für dynamische Inhalte zu konfigurieren. Der Parameter `linkName` wird auch zum Festlegen der Dimension [Activity Map Link](/help/components/dimensions/activity-map-link.md) verwendet.
 
-Wenn die `tl()`-Methode direkt vom Klickereignis des HTML-Elements aufgerufen wird, kann Activity Map beim Laden der Web-Seite eine Überlagerung für dieses Element anzeigen. z. B.:
+Wenn die `tl()`-Methode direkt vom Klickereignis des HTML-Elements aufgerufen wird, kann Activity Map beim Laden der Web-Seite eine Überlagerung für dieses Element anzeigen. Zum Beispiel:
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-Wenn die `tl()` nicht direkt über das Klickereignis des HTML-Elements aufgerufen wird, kann Activity Map eine Überlagerung erst anzeigen, nachdem auf dieses Element geklickt wurde. z. B.:
+Wenn die `tl()` nicht direkt über das Klickereignis des HTML-Elements aufgerufen wird, kann Activity Map eine Überlagerung erst anzeigen, nachdem auf dieses Element geklickt wurde. Zum Beispiel:
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

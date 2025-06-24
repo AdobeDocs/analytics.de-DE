@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: Entfernen oder ersetzen Sie alle unnötigen Zeichen aus einer Zeichenfolge.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%

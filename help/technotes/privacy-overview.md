@@ -2,18 +2,18 @@
 description: Übersicht der Daten, die Adobe Analytics erfasst, und sonstige Hinweise zum Datenschutz.
 keywords: Datenschutz
 title: Datenschutzübersicht
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Datenschutzübersicht
 
-Adobe möchte Ihr Unternehmen in die Lage versetzen, die geltenden Gesetze und Vorschriften einzuhalten. Weitere Informationen finden Sie unter [Adobe Experience Cloud – Datenschutz](https://www.adobe.com/de/privacy/experience-cloud.html){target=_blank}. Zwischen Adobe Analytics und Ihrer Organisation agiert Adobe als „Auftragsverarbeiter“ und Sie sind der oder die „Datenverantwortliche“ (oder ein Äquivalent gemäß den geltenden Gesetzen zum Schutz der Privatsphäre und des Datenschutzes). Es ist Sache Ihrer Organisation, ob sie offenlegen möchte, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Lösungen implementiert werden. Bei der Verwendung von Adobe Analytics ist Ihre Organisation für die Einhaltung Ihrer eigenen Datenschutzrichtlinie, Ihrer Service-Vereinbarung mit Adobe und aller geltenden Gesetze verantwortlich.
+Adobe möchte Ihr Unternehmen in die Lage versetzen, die geltenden Gesetze und Vorschriften einzuhalten. Weitere Informationen finden Sie unter {](https://www.adobe.com/de/privacy/experience-cloud.html){target=_blank}}Adobe Experience Cloud-Datenschutz. [ Zwischen Adobe Analytics und Ihrer Organisation agiert Adobe als „Auftragsverarbeiter“ und Sie sind der oder die „Datenverantwortliche“ (oder ein Äquivalent gemäß den geltenden Gesetzen zum Schutz der Privatsphäre und des Datenschutzes). Es ist Sache Ihrer Organisation, ob sie offenlegen möchte, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Lösungen implementiert werden. Bei der Verwendung von Adobe Analytics ist Ihre Organisation für die Einhaltung Ihrer eigenen Datenschutzrichtlinie, Ihrer Service-Vereinbarung mit Adobe und aller geltenden Gesetze verantwortlich.
 
 Adobe empfiehlt dringend die Einhaltung der folgenden übergreifenden Konzepte:
 
@@ -53,4 +53,4 @@ Weitere Variablen, unter denen Adobe potenziell Daten sammeln kann, finden Sie i
 
 ## Standorte für die Datenverarbeitung
 
-Adobe besitzt drei Standorte für die Datenverarbeitung für Adobe Analytics. Diese Sites empfangen Rohdaten und verarbeiten sie in einer Report Suite, die für Datenspeicherung und Berichtsabruf optimiert ist. Diese Standorte für die Datenverarbeitung befinden sich derzeit in den USA (Oregon), Großbritannien (London) und Singapur. Weitere Informationen finden Sie unter [Übersicht über die Sicherheit in Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}.
+Adobe besitzt drei Standorte für die Datenverarbeitung für Adobe Analytics. Diese Sites empfangen Rohdaten und verarbeiten sie in einer Report Suite, die für Datenspeicherung und Berichtsabruf optimiert ist. Diese Standorte für die Datenverarbeitung befinden sich derzeit in den USA (Oregon), Großbritannien (London) und Singapur. Weitere Informationen finden Sie unter {0](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} Adobe Analytics-Sicherheitsübersicht.[

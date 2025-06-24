@@ -1,10 +1,10 @@
 ---
 title: visitorID
 description: Verwenden Sie eine benutzerdefinierte Besucher-ID.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 71%
@@ -30,7 +30,7 @@ Adobe verwendet verschiedene Methoden zur Identifizierung von Besuchern Ihrer We
 
 Weisen Sie dieses Feld dem Datenelement zu, das Ihre benutzerdefinierte Besucher-ID enthält. Legen Sie für dieses Feld keinen statischen Wert fest.
 
-## s.visitorID auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.visitorID in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.visitorID`-Variable ist eine Zeichenfolge, die eine benutzerdefinierte eindeutige Kennung für den Besucher enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Verwenden Sie in dieser Variablen keine Bindestriche, Leerzeichen, Unterstriche oder Symbole.
 
@@ -48,4 +48,4 @@ s.visitorID = "abc123";
 
 ## Besucher-ID bei Verwendung der Web-SDK
 
-Mit dem Adobe Experience Platform-Edge Network können Sie mithilfe der XDM-Identitätszuordnung [ mehrere IDs ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=de#using-identitymap). Jede Identität in einer Identitätszuordnung hat einen anderen Namespace. Sie können angeben, welcher Namespace für die Besucher-ID als Teil der [Datenstromkonfiguration“ verwendet werden ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de#analytics). Wenn Sie nach der Konfiguration ein Ereignis senden, dessen Wert für diesen Namespace angegeben ist, wird es automatisch als Besucher-ID in Analytics verwendet.
+Mit Adobe Experience Platform Edge Network können Sie mehrere Kennungen mithilfe der XDM-Identitätszuordnung [Identity Map) ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Jede Identität in einer Identitätszuordnung hat einen anderen Namespace. Sie können angeben, welcher Namespace für die Besucher-ID als Teil der [Datenstromkonfiguration“ verwendet werden ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Wenn Sie nach der Konfiguration ein Ereignis senden, dessen Wert für diesen Namespace angegeben ist, wird es automatisch als Besucher-ID in Analytics verwendet.

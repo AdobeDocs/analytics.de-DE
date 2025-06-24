@@ -1,10 +1,10 @@
 ---
 title: state
 description: (Eingestellt) Der Bericht „Bundesstaat des Besuchers“ wurde ausgefüllt, der nicht mehr verfügbar ist.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 80%
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Diese Variable wurde eingestellt und ist keine verfügbare Dimension in Analysis Workspace. Verwenden Sie stattdessen [ Dimension ](/help/components/dimensions/us-states.md)US-Bundesstaaten“, die von AppMeasurement basierend auf dem Standort des Besuchers automatisch erfasst wird.
+>Diese Variable wurde eingestellt und ist keine verfügbare Dimension in Analysis Workspace. Verwenden Sie stattdessen [ Dimension ](/help/components/dimensions/us-states.md)US-Bundesstaaten“, die AppMeasurement basierend auf dem Standort des Besuchers automatisch erfasst.
 
 In früheren Versionen von Adobe Analytics wurde die `state`-Variable verwendet, wenn Besucher Versandinformationen auf Retail-Websites ausfüllten. Sie ist funktionell mit einer Prop identisch, aber nicht in Analysis Workspace verfügbar.
 
@@ -27,7 +27,7 @@ Sie können den Status entweder beim Konfigurieren der Analytics-Erweiterung (gl
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Bundesstaat].
 
 Sie können „state“ auf einen beliebigen Zeichenfolgenwert oder ein beliebiges Datenelement einstellen.

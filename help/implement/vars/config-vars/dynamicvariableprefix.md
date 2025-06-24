@@ -1,10 +1,10 @@
 ---
 title: dynamicVariablePrefix
 description: Ermöglicht die Anpassung der Zeichenfolge zur Identifizierung dynamischer Variablen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 70%
@@ -36,7 +36,7 @@ Wenn Sie Daten direkt an Adobe Analytics senden, ohne einem Schema zu entspreche
 
 Dieses Feld enthält standardmäßig `D=`. Sie können den Wert ändern, wenn Sie ein anderes Präfix für dynamische Variablen verwenden möchten. Sie können jeden gewünschten Wert verwenden, sofern er mit der Zeichencodierung auf Ihrer Website übereinstimmt.
 
-## s.dynamicVariablePrefix im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.dynamicVariablePrefix in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.dynamicVariablePrefix`-Variable ist eine Zeichenfolge, die eine beliebige Folge von Zeichen enthalten kann. Wenn diese Variable nicht definiert ist, verwendet AppMeasurement standardmäßig die Zeichenfolge `D=`.
 

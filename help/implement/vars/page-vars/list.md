@@ -1,10 +1,10 @@
 ---
 title: list
 description: Benutzerdefinierte Variablen, die mehrere Werte im selben Treffer enthalten.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 74%
@@ -27,7 +27,7 @@ Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellung
 
 ## Listenvariablen, die das Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwenden Listenvariablen die zu `xdm._experience.analytics.customDimensions.lists.list3.list[]` XDM-Felder `xdm._experience.analytics.customDimensions.lists.list1.list[]` . Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Adobe-Datenerfassungs-Server erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen“ festgelegt ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwenden Listenvariablen die zu `xdm._experience.analytics.customDimensions.lists.list3.list[]` XDM-Felder `xdm._experience.analytics.customDimensions.lists.list1.list[]` . Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Datenerfassungs-Server von Adobe erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen“ festgelegt ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verw
 >
 >Das Adobe-XDM-Schema enthält `key`-Objekte zusätzlich zu `value`-Objekten in jedem `list[]`-Array. Adobe verwendet diese `key`-Objekte nicht beim Senden von Daten an Adobe Analytics.
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` folgende AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen“ festgelegt ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` der folgenden AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen“ festgelegt ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

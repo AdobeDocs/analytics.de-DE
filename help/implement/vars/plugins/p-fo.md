@@ -1,10 +1,10 @@
 ---
 title: p_fo (Page First Only (nur einmal pro Seite))
 description: Stellen Sie sicher, dass bestimmte Routinen nur einmal pro Seite ausgelöst werden.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 77%
@@ -19,7 +19,7 @@ Das `p_fo`-Plug-in ist ein Dienstprogramm, das prüft, ob ein bestimmtes JavaScr
 
 ## Installieren des Plug-ins mithilfe der Web SDK-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit der Web-SDK verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit dem Web-SDK verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie **[!UICONTROL links auf]** Tags“ und dann auf die gewünschte Tag-Eigenschaft.

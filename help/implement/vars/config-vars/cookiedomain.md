@@ -1,10 +1,10 @@
 ---
 title: cookieDomain
 description: (Eingestellt) Hilft bei der Bestimmung der Domain, auf der Cookies gesetzt werden sollen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 77%
@@ -33,7 +33,7 @@ Web SDK kann ohne diese Variable die richtige Cookie-Speicherdomäne ermitteln.
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s.cookieDomain auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.cookieDomain in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `cookieDomain`-Variable ist eine Zeichenfolge und auf die Domain eingestellt, in der Sie Cookies speichern möchten.
 

@@ -1,11 +1,11 @@
 ---
 description: Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
 title: Übersicht über Kalender und Datumsbereiche
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstell
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/328023?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

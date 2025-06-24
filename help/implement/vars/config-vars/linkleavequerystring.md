@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: Ermöglicht die Beibehaltung von Abfragezeichenfolgen in Linktracking-Dimensionen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -40,7 +40,7 @@ Abfragezeichenfolgen werden nicht aus dem XDM-`web.webInteraction.URL` entfernt.
 
 Aktivieren Sie dieses Kontrollkästchen, wenn Sie Abfragezeichenfolgen in die Linktracking-Dimensionen einbeziehen möchten.
 
-## s.linkLeaveQueryString im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.linkLeaveQueryString in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s.linkLeaveQueryString`-Variable ist ein boolescher Wert. Der Standardwert lautet `false`.
 

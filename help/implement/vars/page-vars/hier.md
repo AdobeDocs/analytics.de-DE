@@ -1,10 +1,10 @@
 ---
 title: hier
 description: (Eingestellt) Implementieren von Hierarchievariablen in Adobe Analytics.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 93%
@@ -35,7 +35,7 @@ Sie können Hierarchien entweder beim Konfigurieren der Analytics-Erweiterung (g
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Hierarchie].
 
 Sie können einen Hierarchiewert auf eine statische Zeichenfolge setzen oder auf ein Datenelement verweisen. Sie können auch das gewünschte Trennzeichen festlegen. Stellen Sie sicher, dass das hier definierte Trennzeichen mit dem in den Report Suite-Einstellungen festgelegten Trennzeichen übereinstimmt.

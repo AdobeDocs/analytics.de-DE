@@ -2,8 +2,8 @@
 title: Ausschließen spezifischer Daten in der Analyse
 description: Tipps zum Ausschließen von Datumsangaben oder Datumsbereichen, wenn Sie sie nicht in Berichte aufnehmen möchten.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-feature: Event, Segmentation
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+feature: Curate and Share, Segmentation
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Erstellen Sie ein Segment, das den betroffenen Tag oder Datumsbereich isoliert. 
 >
 >Um die OR-Anweisung in eine AND-Anweisung zu ändern, klicken Sie auf den Abwärtspfeil neben ODER und wählen Sie AND aus.
 
-Beim Adobe wird empfohlen, die orangefarbenen Dimensionskomponenten und nicht die lilafarbenen Datumsbereichskomponenten zu verwenden. Wenn Sie lilafarbene Datumsbereichskomponenten verwenden, wird der Kalenderbereich des Projekts überschrieben:
+Adobe empfiehlt, die orangefarbenen Dimensionskomponenten und nicht die lilafarbenen Datumsbereichskomponenten zu verwenden. Wenn Sie lilafarbene Datumsbereichskomponenten verwenden, wird der Kalenderbereich des Projekts überschrieben:
 
 ![Tag-Typ des Segments ausschließen](assets/exclude_segment_day_type.jpg)
 

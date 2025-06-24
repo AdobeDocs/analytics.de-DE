@@ -1,10 +1,10 @@
 ---
 title: trackingServer
 description: Stellen Sie fest, an welcher Position Bildanforderungen gesendet werden.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 52%
@@ -25,7 +25,7 @@ Die Web-SDK verwendet die [!UICONTROL Edge]Domain, um sowohl den Tracking-Server
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
 1. Legen Sie das gewünschte Textfeld **[!UICONTROL Edge Domain]** fest.
 
 Weitere Informationen [ Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
@@ -61,7 +61,7 @@ Die `s.trackingServer`-Variable ist eine Zeichenfolge, die den Ort enthält, an 
 
 ## Überlegungen zur Bestimmung des Werts für `trackingServer`
 
-Sie können Adobe-Tracking-Server-Domains (z. B. `adobedc.net`) verwenden oder einen speziellen Prozess zum Einrichten eines Tracking-Servers durchführen, der Ihrer Sites-Domain entspricht (z. B. `data.mydomain.com`), auch als CNAME-Implementierung bezeichnet. Ein Tracking-Server, der Ihrer Website-Domain entspricht, kann je nach anderen Aspekten Ihrer Implementierung einige Vorteile bieten. Wenn der Tracking-Server nicht mit der Domain der aktuellen Seite übereinstimmt, müssen von AppMeasurement gesetzte Cookies als Drittanbieter gesetzt werden. Wenn der Browser keine Cookies von Drittanbietern unterstützt, kann diese Nichtübereinstimmung bestimmte Analytics-Funktionen beeinträchtigen:
+Sie können die Tracking-Server-Domains von Adobe (z. B. `adobedc.net`) verwenden oder einen speziellen Prozess zum Einrichten eines Tracking-Servers durchführen, der Ihrer Sites-Domain entspricht (z. B. `data.mydomain.com`), auch als CNAME-Implementierung bezeichnet. Ein Tracking-Server, der Ihrer Website-Domain entspricht, kann je nach anderen Aspekten Ihrer Implementierung einige Vorteile bieten. Wenn der Tracking-Server nicht mit der Domain der aktuellen Seite übereinstimmt, müssen von AppMeasurement gesetzte Cookies als Drittanbieter gesetzt werden. Wenn der Browser keine Cookies von Drittanbietern unterstützt, kann diese Nichtübereinstimmung bestimmte Analytics-Funktionen beeinträchtigen:
 
 - Festlegen von Kennungen: Wenn Sie den Experience Cloud Identity Service verwenden, hat der Tracking-Server keine Auswirkungen auf die Cookie-Einstellung. Wenn Sie jedoch ältere Legacy-IDs von Analytics (auch `s_vi`-Cookie genannt) verwenden und der Erfassungsserver nicht mit der aktuellen Domain übereinstimmt, müssen Cookies als Drittanbieter festgelegt werden. Wenn Drittanbieter-Cookies vom Browser blockiert werden, setzt Analytics eine First-Party- Ausweich-ID (`s_fid`) anstelle des standardmäßigen `s_vi`-Cookies.
 - Linktracking funktioniert nicht für interne Links.

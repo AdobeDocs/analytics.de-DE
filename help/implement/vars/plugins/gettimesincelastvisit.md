@@ -1,10 +1,10 @@
 ---
 title: getTimeSinceLastVisit
 description: Messen Sie den Zeitraum zwischen zwei Besuchen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 role: Admin, Developer
-source-git-commit: 2b48ea372a5e0d8589f09d2209373bd4c47be578
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 72%
@@ -19,7 +19,7 @@ Mit dem `getTimeSinceLastVisit`-Plug-in können Sie verfolgen, wie lange ein Bes
 
 ## Installieren des Plug-ins mithilfe der Web SDK-Erweiterung
 
-Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit der Web-SDK verwenden können.
+Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-ins mit dem Web-SDK verwenden können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie **[!UICONTROL links auf]** Tags“ und dann auf die gewünschte Tag-Eigenschaft.

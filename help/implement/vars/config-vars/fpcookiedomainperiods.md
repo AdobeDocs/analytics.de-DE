@@ -1,10 +1,10 @@
 ---
 title: fpcookieDomainPeriods
 description: Hilft AppMeasurement zu verstehen, welche Domain Cookies speichern soll, wenn Ihre Domain einen Punkt im Suffix hat.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 86%
@@ -37,7 +37,7 @@ Web SDK kann ohne diese Variable die richtige Cookie-Speicherdomäne ermitteln.
 
 Setzen Sie dieses Feld nur bei Domänen, die einen Punkt im Suffix enthalten, auf `3`. Andernfalls kann dieses Feld leer gelassen werden.
 
-## s.fpCookieDomainPeriods auf AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.fpCookieDomainPeriods in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die Variable `fpCookieDomainPeriods` ist eine Zeichenfolge, die normalerweise auf `"3"` gesetzt wird, und zwar nur bei Domänen, die einen Punkt in ihrem Suffix enthalten. Der Standardwert ist `"2"`, der für die meisten Domänen geeignet ist.
 

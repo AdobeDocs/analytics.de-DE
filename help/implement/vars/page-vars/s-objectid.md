@@ -1,10 +1,10 @@
 ---
 title: s_objectID
 description: Hilft Activity Map, eindeutige Links auf Ihrer Website zu identifizieren.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 80%
@@ -21,7 +21,7 @@ Wenn die Activity Map-Genauigkeit für Ihr Unternehmen von entscheidender Bedeut
 
 In der Adobe Analytics-Erweiterung gibt es kein eigenes Feld, um diese Variable zu verwenden. Verwenden Sie den Editor für benutzerdefinierten Code entsprechend der AppMeasurement-Syntax.
 
-## s_objectID im AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s_objectID in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
 Die `s_objectID`-Variable ist eine globale Variable, d. h. sie funktioniert unabhängig vom Analytics-Tracking-Objekt (standardmäßig `s`). Beliebige Zeichenfolgen mit einer Länge von bis zu 100 Byte können gültige Werte für diese Variable sein. Wenn diese Variable nicht definiert ist, verwendet Activity Map den Link-Text als Kennung für den Link.
 

@@ -1,10 +1,10 @@
 ---
 description: Administrative Schritte für die Aktivierung von AEM Assets Reporting in Analytics.
 title: Berichten über AEM Assets in Adobe Analytics
-feature: AEM Assets Reporting
+feature: Report Suite Settings
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
