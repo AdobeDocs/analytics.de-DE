@@ -17,7 +17,7 @@ Wenn `usePlugins` aktiviert ist, wird die [`doPlugins()`](../functions/doplugins
 
 ## Verwenden des `onBeforeEventSend` Callbacks mithilfe der Web-SDK
 
-Web SDK verfügt zwar über keinen booleschen Wert, der die Ausführung zusätzlicher Logik handhabt, bevor Daten an Adobe gesendet werden, Sie können jedoch den `onBeforeEventSend`-Callback registrieren, um Daten zu ändern. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Web SDK verfügt zwar über keinen booleschen Wert, der die Ausführung zusätzlicher Logik handhabt, bevor Daten an Adobe gesendet werden, Sie können jedoch den `onBeforeEventSend`-Callback registrieren, um Daten zu ändern. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ## Verwenden von Plug-ins mit der Adobe Analytics-Erweiterung
 

@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Weitere Informationen finden Sie unter [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) in der Web SDK-Dokumentation .
+Weitere Informationen finden Sie unter [`sendEvent`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendevent/overview) in der Web SDK-Dokumentation .
 
 ## Seitenansichts-Tracking-Aufruf mit der Adobe Analytics-Erweiterung
 

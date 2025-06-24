@@ -37,7 +37,7 @@ Web SDK kann keine Funktion einbinden, nachdem Daten kompiliert wurden, aber bev
 
 ## Vorab-Tracking des Callbacks bei manueller Implementierung der Web-SDK
 
-Web SDK kann keine Funktion einbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` verwenden, um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie `doPlugins`. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Web SDK kann keine Funktion einbinden, nachdem Daten kompiliert wurden, aber bevor sie an Adobe gesendet werden. Sie können jedoch `onBeforeEventSend` verwenden, um eine Funktion zu registrieren, die kurz vor dem Senden von Daten ausgeführt wird, ähnlich wie `doPlugins`. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ```js
 // Set the trackingCode XDM field to "New value"

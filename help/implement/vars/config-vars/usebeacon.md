@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Weitere Informationen finden [ in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)SDK-Dokumentation unter „Verwenden der sendBeacon-API“.
+Weitere Informationen finden [ in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#using-the-sendbeacon-api)SDK-Dokumentation unter „Verwenden der sendBeacon-API“.
 
 ## Verwenden von Beacon mithilfe der Adobe Analytics-Erweiterung
 
