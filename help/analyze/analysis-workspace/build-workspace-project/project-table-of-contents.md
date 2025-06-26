@@ -18,7 +18,7 @@ Sie können ein Inhaltsverzeichnis für ein Projekt in Analysis Workspace anzeig
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen eines Inhaltsverzeichnisses](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen eines Inhaltsverzeichnisses](https://video.tv.adobe.com/v/35186/?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/35186?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
