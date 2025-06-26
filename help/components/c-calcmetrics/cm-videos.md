@@ -20,9 +20,9 @@ Diese kurzen Videos bieten einen Überblick darüber, wie Sie die Verwendung der
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnelle berechnete Metriken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Metric Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metric Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[segmentierte Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=de){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [segmentierte Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=de){target="_blank"}
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [implementierungslose Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=de){target="_blank"}
 

@@ -63,7 +63,7 @@ Die Filterleiste zeigt ➌ die aktiven Filter an (falls vorhanden). Mit ![XGrö�
 
 ### Panel „Filter“
 
-Sie können Datumsbereiche mithilfe der ➍ des ]**Bedienfelds**[!UICONTROL  Filter filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Datumsbereiche an, die den Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
+Sie können Datumsbereiche mithilfe der ➍ des **Bedienfelds** Filter filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Datumsbereiche an, die den Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
 So filtern Sie die Filterliste:
 
@@ -91,7 +91,7 @@ Sie können einen Datumsbereich auf zwei Arten bearbeiten:
 
 * Verwenden Sie in einem Workspace-Projekt das Symbol [Komponenteninformationen](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) aus.
 
-* Wählen Sie in [[!UICONTROL  Liste ]Datumsbereiche](#date-ranges-list) den Titel des Datumsbereichs aus.
+* Wählen Sie in [[!UICONTROL &#x200B; Liste &#x200B;]Datumsbereiche](#date-ranges-list) den Titel des Datumsbereichs aus.
 
 Sie verwenden den [Generator für Datumsbereiche](create.md#date-range-builder), um den Datumsbereich zu bearbeiten.
 

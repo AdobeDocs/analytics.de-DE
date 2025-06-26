@@ -16,13 +16,13 @@ Oft sind komplexe Segmente erforderlich, um die gewünschten Daten zu erhalten. 
 
 ## Verwenden Sie den `Contains` Operator nur als letztes Mittel
 
-Der [**[!UICONTROL Enthält ]**-Operator](/help/components/segmentation/seg-reference/seg-operators.md) ist eines der verarbeitungsintensivsten Funktionen in der Segmentierung, da der Operator den gesamten Inhalt jedes Werts analysieren muss. Erwägen Sie die Verwendung anderer Operatoren**[!UICONTROL  Beginnt mit ]**oder**[!UICONTROL  Endet mit ]**wenn die gewünschten Werte am Anfang oder Ende einer Zeichenfolge sind.
+Der [**[!UICONTROL Enthält &#x200B;]**-Operator](/help/components/segmentation/seg-reference/seg-operators.md) ist eines der verarbeitungsintensivsten Funktionen in der Segmentierung, da der Operator den gesamten Inhalt jedes Werts analysieren muss. Erwägen Sie die Verwendung anderer Operatoren&#x200B;**[!UICONTROL &#x200B; Beginnt mit &#x200B;]**&#x200B;oder&#x200B;**[!UICONTROL &#x200B; Endet mit &#x200B;]**&#x200B;wenn die gewünschten Werte am Anfang oder Ende einer Zeichenfolge sind.
 
 Wenn ein **[!UICONTROL Enthält]**-Operator in einem Segment eine große Anzahl von Ergebnissen zurückgibt, tritt in der Regel eine Zeitüberschreitung des Berichts auf. Wenn Sie beispielsweise ein Segment erstellt haben, in dem **[!UICONTROL Referrer]** **[!UICONTROL gleich]** `"."`, durchsucht das Segment den Inhalt jedes Werts. Verwenden Sie stattdessen den Operator **[!UICONTROL Vorhanden]**.
 
 ## Verwenden Sie Klassifizierungen zum Gruppieren von Dimensionselementen.
 
-Wenn Sie viele Segmentbedingungen haben, können diese die Segmentleistung schnell beeinträchtigen. Beispiel: **[!UICONTROL Seite]** **[!UICONTROL gleich]** `X` **[!UICONTROL ODER**[!UICONTROL  Seite **** gleich ]******ODER****]** Seite **** `Y`gleich`Z` mit Hunderten von verschiedenen Werten wiederholt. Anstatt diese Hunderte von Bedingungen aufzuschreiben, klassifizieren Sie alle gewünschten Werte in ein Segment und verwenden Sie dann den klassifizierten Wert in einem Segment.
+Wenn Sie viele Segmentbedingungen haben, können diese die Segmentleistung schnell beeinträchtigen. Beispiel: **[!UICONTROL Seite]** **[!UICONTROL gleich]** `X` **[!UICONTROL ODER**&#x200B;[!UICONTROL &#x200B; Seite **&#x200B;**&#x200B;gleich &#x200B;]&#x200B;**&#x200B;**&#x200B;**ODER**&#x200B;**]** Seite **&#x200B;**&#x200B;`Y`gleich`Z` mit Hunderten von verschiedenen Werten wiederholt. Anstatt diese Hunderte von Bedingungen aufzuschreiben, klassifizieren Sie alle gewünschten Werte in ein Segment und verwenden Sie dann den klassifizierten Wert in einem Segment.
 
 1. Erstellen Sie eine Classification für die Variable, mit der Sie arbeiten.
 2. Laden Sie die Classification-Vorlage herunter und öffnen Sie sie in der gewünschten Tabelle oder im Texteditor.

@@ -20,7 +20,7 @@ Berechnete Metriken bieten eine äußerst flexible Möglichkeit zum Erstellen, V
 Berechnete Metriken sind in jedem [!DNL Analytics] verfügbar, jedoch ist das Adobe Analytics Foundation Pack für Experience Cloud auf grundlegende berechnete Metriken beschränkt, einschließlich [Formattypen (Dezimal, Zeit, Prozent, Währung)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) ([Zuordnungsänderungen (Standard, linear, Teilnahme usw.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [Metriktypen (Standard, Gesamt)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) und [Grundoperatoren](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (hinzufügen, subtrahieren, multiplizieren und teilen).
 
 
-Weitere Informationen finden Sie in der {0](https://helpx.adobe.com/de/legal/product-descriptions/adobe-analytics.html) Adobe Analytics-Produktbeschreibung.[
+Weitere Informationen finden Sie in der &lbrace;0[&#128279;](https://helpx.adobe.com/de/legal/product-descriptions/adobe-analytics.html) Adobe Analytics-Produktbeschreibung.
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->>[Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->>[Verwenden Sie Funktionen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>&#x200B;>[Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>&#x200B;>[Verwenden Sie Funktionen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >
