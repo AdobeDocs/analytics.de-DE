@@ -1,18 +1,18 @@
 ---
-description: Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken.
+description: Mit Segment Builder können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken.
 title: Vergleichsoperatoren für Segmente
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 51%
+ht-degree: 47%
 
 ---
 
 # Vergleichsoperatoren für Segmente
 
-Mit dem Segmentaufbau können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken. Es gibt drei Kategorien von Operatoren: Standard, Data Warehouse und Distinct Count.
+Mit Segment Builder können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken. Es gibt drei Kategorien von Operatoren: Standard, Data Warehouse und Distinct Count.
 
 Je nach ausgewähltem Operator:
 
@@ -67,7 +67,7 @@ Beispiel: Sie haben einen Seitennamen mit dem Namen *Mein cooles Produkt*.
 
 ## Distinct Count-Operatoren
 
-Sie können nach einer bestimmten Anzahl von Elementen innerhalb einer Dimension segmentieren. Beispiele: „Besucher, die mehr als 5 verschiedene Produkte angesehen haben“ oder „Besuche, bei denen mehr als 5 verschiedene Seiten angesehen wurden.“
+Sie können nach einer bestimmten Anzahl von Elementen innerhalb einer Dimension segmentieren. Beispiele: *Besucher, die mehr als 5 verschiedene Produkte angesehen haben* oder *Besuche, bei denen mehr als 5 verschiedene Seiten angezeigt wurden*.
 
 | Operator | Die ausgewählte Dimension, das ausgewählte Segment oder metrische Ereignis... |
 | --- | --- |

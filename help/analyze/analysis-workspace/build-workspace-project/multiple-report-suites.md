@@ -4,10 +4,10 @@ description: Erfahren Sie, wie und warum Sie in Workspace Projekte mit mehreren 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 87%
+source-wordcount: '440'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Sie können in Analysis Workspace Projekte mit Daten aus mehr als einer Report Suite erstellen. Report Suites werden auf Bedienfeldebene ausgewählt, sodass Sie für jedes Bedienfeld innerhalb desselben Workspace-Projekts eine andere Report Suite auswählen können.
 
-Diese Funktion ist beispielsweise hilfreich, wenn Sie:
+Diese Funktion ist nützlich, wenn Sie Folgendes tun möchten:
 
 * Daten aus zwei verschiedenen Regionen vergleichen und sich die Daten in zwei verschiedenen Report Suites befinden. Sie können Tabellen und Visualisierungen erstellen, um die Daten nebeneinander zu vergleichen.
 
@@ -24,7 +24,7 @@ Diese Funktion ist beispielsweise hilfreich, wenn Sie:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/36754?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -37,16 +37,12 @@ Sie können eine Report Suite auf alle Bedienfelder gleichzeitig anwenden, indem
 
 ## Aktives Bedienfeld
 
-Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Vergleich zum „interaktiven Bedienfeld“ ein. Sie erkennen das aktive Bedienfeld am hellblauen Rand. Durch einfaches Klicken in ein Bedienfeld wird dieses Bedienfeld zum aktiven Bedienfeld.
+Sie erkennen das aktive Bedienfeld am hellblauen Rand. Wählen Sie einfach in einem Bedienfeld aus, um dieses Bedienfeld in das aktive Bedienfeld zu verwandeln.
 
 >[!TIP]
+>
 >Sie können Objekte per Drag-and-Drop in ein beliebiges Bedienfeld ziehen, das sich in derselben Report Suite wie das aktive Bedienfeld befindet. Durch Ziehen eines Objekts in ein inaktives Bedienfled derselben Report Suite wird das Bedienfeld aktiv.
-
-| Aufgabe | Aktives Bedienfeld | Inaktives Bedienfeld |
-| --- | --- | --- |
-| Report Suite ändern | Ja | Nein |
-| Komponenten per Drag &amp; Drop verschieben | Ja | Ja, für alle Bedienfelder, die sich in derselben Report Suite wie Ihr aktives Bedienfeld befinden. |
-| Visualisierungen per Drag &amp; Drop verschieben | Ja | Ja, für alle Bedienfelder, die sich in derselben Report Suite wie Ihr aktives Bedienfeld befinden. |
+>
 
 ## Arbeiten mit mehreren Report Suites
 
@@ -58,7 +54,9 @@ Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Ver
 
 
    >[!NOTE]
+   >
    >Manchmal wird beim Laden eines Projekts (oder beim Umschalten auf eine Report Suite) ein Banner angezeigt, wenn nicht alle Komponenten des Projekts in der Report Suite enthalten sind. Die fehlenden Komponenten werden aufgelistet. Befolgen Sie [diese Anweisungen](/help/admin/admin-console/permissions/product-profile.md), um Berechtigungen für die erforderlichen Metriken/Dimensionen festzulegen.
+   >
 
    ![](assets/incompat-rs.png)
 
@@ -73,6 +71,6 @@ Mit dieser Funktion führen wir das Konzept des „aktiven Bedienfelds“ im Ver
 
 1. (Optional) Sie können auch andere Komponenten-Builder in Analytics aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die angibt
 
-   * wo ein Segment erstellt wird: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de).
-   * wo eine berechnete Metrik erstellt wird: [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de).
-   * wo eine Warnung erstellt wird: [Warnhinweiserstellung](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=de).
+   * Wo ein Segment erstellt wird: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de).
+   * Wo eine berechnete Metrik erstellt wird: [Generator für berechnete ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de)).
+   * Wo ein Warnhinweis erstellt wird: [Warnhinweiserstellung](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=de).

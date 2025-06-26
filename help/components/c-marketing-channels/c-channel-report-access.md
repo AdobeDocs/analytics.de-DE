@@ -3,10 +3,10 @@ description: Beschreibt, wie Sie den Marketing-Kanalbericht ausführen und besch
 title: Berechtigungen für Marketing-Kanäle
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c5573b7252a4113355cc4b96d467fde2c86ba28f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 91%
 
 ---
 
@@ -28,4 +28,5 @@ Im Folgenden finden Sie die Report Suite Tools-Berechtigungen, die in der [Admin
 | Analytics-Tools | Zugriff auf Analysis Workspace | Gewährt Zugriff auf Analysis Workspace. Benutzer müssen entweder zu dieser Gruppe (empfohlen) oder zu „Zugriff auf Reports &amp; Analytics“ gehören, um die Marketing-Kanal-Dimensionen in Workspace verwenden zu können. |
 | Analytics-Tools | Zugriff auf Reports &amp; Analytics | Gewährt Zugriff auf Reports &amp; Analytics. Benutzer müssen entweder zu dieser Gruppe oder zu „Zugriff auf Analysis Workspace“ (empfohlen) gehören, um Adobe Analytics verwenden zu können. |
 
-Weitere Informationen zu Produktprofilen und Adobe Analytics-Berechtigungen in der Admin Console finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de).
+Weitere Informationen zu Produktprofilen und Adobe Analytics-Berechtigungen in Admin Console finden Sie unter [Produktprofile für Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=de).
+

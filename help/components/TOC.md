@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Komponentenleitfaden für Analytics
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 97%
+source-wordcount: '773'
+ht-degree: 96%
 
 ---
 
@@ -195,23 +195,23 @@ ht-degree: 97%
       + [Segmente kopieren](segmentation/segmentation-workflow/seg-copy.md)
       + [Verwalten von Segmenten](segmentation/segmentation-workflow/seg-manage.md)
       + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Segmente auswählen und anwenden](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [Segmente verwenden](segmentation/segmentation-workflow/t-seg-apply.md)
    + Segmentreferenz {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
-   + [Häufig gestellte Fragen zur Handhabung älterer Segmente](segmentation/seg-transition.md)
+   + [Häufig gestellte Fragen zu älteren Segmenten](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
-   + [Berechnete und erweiterte berechnete Metriken](c-calcmetrics/cm-overview.md)
+   + [Überblick](c-calcmetrics/cm-overview.md)
    + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
-      + [Workflow bei berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Erstellen von berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Erstellen von Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Einfache Metrik erstellen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Erstellen einer komplexeren Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Erstellen berechneter Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Eine einfache berechnete Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Eine komplexere berechnete Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Erstellen einer Teilnahmemetrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Metriktyp und Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Segmentierte Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -224,12 +224,12 @@ ht-degree: 97%
       + [Berechnete Metriken genehmigen](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berechnete Metriken freigeben](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berechnete Metriken kopieren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Manager für berechnete Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Berechnete Metriken verwalten](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Metrikreferenz {#calcmetrics-reference}
-      + [Referenz: Grundfunktionen](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Referenz: Erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
+      + [Grundlegende Funktionen](c-calcmetrics/cm-reference/cm-functions.md)
+      + [Erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
-      + [Berechnete Metriken: Rollenbasierte Rechte](c-calcmetrics/cm-role-based-rights.md)
+      + [Rollenbasierte Berechtigungen](c-calcmetrics/cm-role-based-rights.md)
       + [Berechnete Metriken insgesamt](c-calcmetrics/cm-totals.md)
       + [Standardmäßige berechnete Metriken](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 98%
 
 ---
@@ -27,22 +27,21 @@ ht-degree: 98%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace – Übersicht](analysis-workspace/home.md)
    + Projekte {#build-workspace-project}
-      + [Überblick über Projekte](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Projekte erstellen](analysis-workspace/build-workspace-project/create-projects.md)
-      + [Projekte speichern](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Überblick](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Erstellen von Projekten](analysis-workspace/build-workspace-project/create-projects.md)
+      + [Öffnen von Projekten](analysis-workspace/build-workspace-project/open-projects.md)
+      + [Speichern von Projekten](analysis-workspace/build-workspace-project/save-projects.md)
       + [Projektinhaltsverzeichnis](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Ordner in Workspace {#workspace-folders}
-         + [Über Ordner in Analysis Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Übersicht über Ordner](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern und Unterordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Löschen von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [Hinzufügen von Projekten](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Entfernen eines Projekts](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [Speichern eines neuen Projekts](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [Verwalten von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [Hinzufügen oder Verschieben von Projekten zu Ordnern](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Vorlagen](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Mehrere Report Suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Hotkeys (Tastaturbefehle)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Farbpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
-      + [Dichte anzeigen](analysis-workspace/build-workspace-project/view-density.md)
+      + [Anzeigen der Dichte](analysis-workspace/build-workspace-project/view-density.md)
    + Vorlagen {#templates}
       + [Verwenden von Vorlagen](analysis-workspace/templates/use-templates.md)
       + [Erstellen von Vorlagen](analysis-workspace/templates/create-templates.md)
@@ -65,9 +64,11 @@ ht-degree: 98%
          + [Erstellen von Segmenten](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Schnellsegmente](analysis-workspace/components/segments/quick-segments.md)
       + Kalender und Datumsbereiche {#calendar-date-ranges}
-         + [Übersicht über Kalender und Datumsbereiche](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Benutzerdefinierte Datumsbereiche erstellen](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [Überblick](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [Erstellen von Datumsbereichen](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [Verwalten von Datenbereichen](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Datumsvergleich](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Beispiele](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Datenwörterbuch {#data-dictionary}
          + [Datenwörterbuch – Überblick](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Komponenteninformationen im Datenwörterbuch anzeigen](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,7 +132,7 @@ ht-degree: 98%
          + [Anwendungsfälle für Segmentvergleiche](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Im Segmentvergleich verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Kuratieren, Freigeben und Planen von Projekten {#curate-share}
-      + [Menü „Freigeben“](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Überblick](analysis-workspace/curate-share/send-schedule-files.md)
       + [Kuratieren von Projekten](analysis-workspace/curate-share/curate.md)
       + [Freigeben von Projekten](analysis-workspace/curate-share/share-projects.md)
       + [Erstellen von freigebbaren Links](analysis-workspace/curate-share/shareable-links.md)

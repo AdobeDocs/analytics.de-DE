@@ -3,10 +3,10 @@ description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen ode
 title: Informationen zu Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 99%
+source-wordcount: '1020'
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Int
 
 Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Treffer]-Ebenenhierachie, wobei ein verschachteltes Container-Modell verwendet wird. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
-Sie können Segmente in Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in [!UICONTROL &#x200B; Analysis Workspace]) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
+Sie können Segmente in Segment Builder erstellen und speichern oder Segmente aus einem Fallout-Bericht generieren (in [!UICONTROL Analysis Workspace]). Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
 Segmente identifizieren
 
@@ -108,31 +108,29 @@ Beim Erstellen von Zielgruppensegmenten in Segment Builder definieren Sie Beding
 
 Dieser Segmenttyp filtert Datensätze auf der Grundlage von Merkmalen, die mit den Operatoren [!UICONTROL UND] bzw. [!UICONTROL ODER] verbunden werden.
 
-- Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+- Sie können [mehrere Segmente auf einen Bericht oder ein Projekt anwenden](/help/components/segmentation/segmentation-workflow/t-seg-apply.md).
 - Alle Segmente gelten nun für alle Report Suites.
-- Der [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md) vereinfacht das Erstellen von Segmenten.
-- Der neue [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md) ermöglicht die Einrichtung von [Workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) und bietet Funktionen zum Teilen, Taggen, Prüfen und Genehmigen.
-- Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/segmentation/segmentation-workflow/seg-workflow.md), anstatt Ordner zu verwenden.
-- Sie können [sequenzielle Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) erstellen.
-- Der Container [!UICONTROL Seitenansicht] wurde in den Container [!UICONTROL Treffer] umbenannt, da er alle Datentypen und nicht nur Seitenaufrufe segmentiert. So werden z. B. Linktracking-Aufrufe und trackAction-Aufrufe aus den Mobile SDKs durch den Treffer-Container vollständig ein- oder ausgeschlossen.
+- Der [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md) vereinfacht die Segmenterstellung.
+- Mit [Segmentmanager](/help/components/segmentation/segmentation-workflow/seg-manage.md) können Sie [Workflows](/help/components/segmentation/segmentation-workflow/seg-workflow.md) mit Funktionen zur Segmentfreigabe, Tagging, Überprüfung und Genehmigung einrichten.
+- Sie können Segmente zum Organisieren und Suchen [taggen](/help/components/segmentation/segmentation-workflow/seg-tag.md), anstatt Ordner zu verwenden.
+- Sie können [sequenzielle Segmente“ ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+- Der Container [!UICONTROL Seitenansicht] wurde in den Container [!UICONTROL Treffer] umbenannt, da er alle Datentypen und nicht nur Seitenaufrufe segmentiert. Beispielsweise werden alle Linktracking-Aufrufe und Tracking-Aktionsaufrufe aus den Mobile SDKs vom Treffer-Container eingeschlossen oder ausgeschlossen.
 
 ## Segmentierung in Analysis Workspace
 
 Analysis Workspace umfasst die folgenden zusätzlichen Funktionen:
 
 - Sie können [Segmente vergleichen](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
-- Verwenden Sie [Segmente als Dimensionen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) bei Vergleichen.
+- Verwenden Sie Segmente als Dimensionen in Freiformtabellen-Visualisierungen.
 - Verwenden Sie Segmente in der [Fallout-Analyse](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
 ## Von Adobe bereitgestellte Segmente
 
-Die Leiste „Komponente“ auf der linken Bildschirmseite zeigt Segmente an, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die standardmäßig bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]** klicken, werden diese Segmente in der Regel unten in der Liste angezeigt und durch das Adobe-Logo rechts gekennzeichnet.
+Die linke Leiste Komponente zeigt Segmente an, die von Ihnen und Ihrem Unternehmen erstellt wurden, sowie Adobe-Segmente, die vorkonfiguriert bereitgestellt werden. Wenn Sie auf **[!UICONTROL Alle anzeigen]** klicken, werden diese Segmente in der Regel am unteren Rand der Liste angezeigt und durch „AdobeLogoSmall![ gekennzeichnet](/help/assets/icons/AdobeLogoSmall.svg).
 
 ## Sequenzielle Segmente {#sequential}
 
 Mit sequenziellen Segmenten können Sie Besucher anhand der Navigation und den Seitenansichten innerhalb Ihrer Site identifizieren, indem Sie ein Segment mit definierten Aktionen und Interaktionen bereitstellen. Mit sequenziellen Segmenten können Sie erkennen, was ein Besucher mag und was er meidet. Beim Erstellen sequenzieller Segmente wird der Operator [!UICONTROL THEN] eingesetzt, um die Navigation des Besuchers zu definieren und zu ordnen.
-
-<!--![](assets/sequential_seg.png)-->
 
 | Erster Besuch | Zweiter Besuch | Dritter Besuch |
 |---|---|---|
@@ -242,40 +240,12 @@ In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segment-Conta
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/3429106?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Zugriff auf die Segmentierungswerkzeuge {#access}
-
-+++ **Wie komme ich zum Segment Builder?**
-
-Sie können wie folgt auf den Segment Builder zugreifen:
-
-- Öffnen Sie einen vorhandenen Bericht und klicken Sie auf das ![Segmentsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) im linken Navigationsmenü. Klicken Sie in der angezeigten Segmentleiste auf **[!UICONTROL Hinzufügen]** oder
-
-- Klicken Sie oben im Segment-Manager auf **[!UICONTROL + Hinzufügen]**.  ![Schaltfläche hinzufügen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
-
-  oder
-
-- klicken Sie im Segment-Manager auf einen Segmenttitel, um das Segment im Segment Builder zu bearbeiten.
-
-+++
-
-+++ **Wie komme ich zum Segment-Manager?**
-
-Sie können wie folgt auf den Segment-Manager zugreifen:
-
-- Wechseln Sie in der oberen Navigation zu **[!UICONTROL Analysen]** > **[!UICONTROL Komponenten]**. Klicken Sie anschließend auf **[!UICONTROL Segmente]** oder
-
-- Öffnen Sie einen vorhandenen Bericht und klicken Sie auf das ![Segmentsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) im linken Navigationsmenü. Klicken Sie anschließend auf **[!UICONTROL Verwalten]** oder
-
-- drücken Sie an einer beliebigen Stelle die Schrägstrich-Taste (/) und suchen Sie nach Segment Manager.
-
-+++
-
-## Zugriffsberechtigung {#section_648DFA3A882146C485A84ED014EEC707}
+## Zugriffsberechtigung {#permissions}
 
 +++ **Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?**
 
@@ -293,9 +263,9 @@ Report Builder zeigt Segmente an, die sich in Ihrem Besitz befinden, sowie Segme
 
 +++
 
-+++ **Kann ich alle Analytics-Segmente in Segment Manager verwalten?**
++++ **Kann ich alle Analytics-Segmente im Segment-Manager verwalten?**
 
-Ja, alle Segmente können in Segment Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Inhaber (den Benutzer, der das Segment erstellt hat), Benutzer, für die diese freigegeben sind, und Administratorbenutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
+Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für den Eigentümer (den Benutzer, der das Segment erstellt hat), freigegebene Benutzer und Admin-Benutzer sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaber der Benutzer ist, und solche, die für ihn freigegeben wurden.
 
 Admins können alle Segmente in der Benutzeroberfläche von Analysis Workspace sehen.
 
@@ -303,8 +273,8 @@ Report Builder zeigt nur von Ihnen erstellte Segmente oder Segmente, die für Si
 
 +++
 
-+++ **Warum kann ich dieses Segment nicht löschen?**
++++ **Warum kann ich ein Segment nicht löschen?**
 
-In der [Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md) veröffentlichte Segmente können nicht gelöscht oder bearbeitet werden. Sie können das Segment jedoch kopieren und die Kopie bearbeiten.
+Wenn das Segment in [ Experience Cloud veröffentlicht wurde](/help/components/segmentation/segmentation-workflow/seg-workflow.md) können Sie das Segment nicht löschen oder bearbeiten. Sie können jedoch das Segment kopieren und die kopierte Version bearbeiten.
 
 +++

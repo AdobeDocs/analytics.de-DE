@@ -5,33 +5,73 @@ title: Projektinhaltsverzeichnis
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: '202'
+ht-degree: 94%
 
 ---
 
-# Projektinhaltsverzeichnis
+# Inhaltsverzeichnis
 
-In Analysis Workspace können Sie innerhalb jedes Projekts ein Inhaltsverzeichnis anzeigen, sodass Sie schnell zwischen allen Bedienfeldern und Visualisierungen wechseln können, die im Projekt vorhanden sind. Dies ist besonders nützlich, wenn Sie größere Projekte anzeigen, die viele Bedienfelder und Visualisierungen enthalten.
+Sie können ein Inhaltsverzeichnis für ein Projekt in Analysis Workspace anzeigen, um schnell zwischen allen Panels und Visualisierungen wechseln können, die im Projekt vorhanden sind. Das Inhaltsverzeichnis ist besonders nützlich, wenn Sie größere Projekte anzeigen, die viele Panels und Visualisierungen enthalten.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inhaltsverzeichnis](https://video.tv.adobe.com/v/35186?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen eines Inhaltsverzeichnisses](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+
+>[!ENDSHADEBOX]
+
+
+>[!TIP]
+>
+>Sie können die Visualisierung „Abschnittskopfzeile“ verwenden, um einen Abschnitt innerhalb eines Panels zu identifizieren und zu artikulieren, das viele Visualisierungen enthält. Diese Abschnittskopfzeilen werden auch als Einträge im Inhaltsverzeichnis angezeigt.
+>
+
+
+So zeigen Sie das Inhaltsverzeichnis in einem Projekt an:
+
+1. Navigieren Sie in Analysis Workspace zu dem Projekt, in dem Sie das Inhaltsverzeichnis anzeigen möchten.
+
+1. Wählen Sie im Schaltflächen-Panel die Option ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Inhaltsverzeichnis]** aus. Weitere Informationen finden unter [Analysis Workspace – Übersicht](/help/analyze/analysis-workspace/home.md).<br/>
+
+   Das **[!UICONTROL Inhaltsverzeichnis]** für das Projekt wird angezeigt, und jedes Panel ist standardmäßig erweitert.
+
+1. Wählen Sie eine Visualisierung im **[!UICONTROL Inhaltsverzeichnis]** aus.<br/>
+
+   Es wird automatisch zur ausgewählten Visualisierung gescrollt und sie wird kurz hervorgehoben.
+
+   ![Inhaltsverzeichnis hervorgehoben](assets/toc-highlighted.png)
+
+
+>[!MORELIKETHIS]
+>
+>* [Vereinfachen der Dashboard-Navigation mit der neuen Inhaltsverzeichnisfunktion in Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=de)
+
+
+
+<!--
+# Project table of contents
+
+You can view a table of contents within each project in Analysis Workspace, allowing you to quickly move between any panels and visualizations that exist in the project. This is especially useful when viewing larger projects that contain many panels and visualizations.
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 
-So zeigen Sie das Inhaltsverzeichnis eines Projekts an:
+To view the table of contents on a project:
 
-1. Wechseln Sie in Analysis Workspace zu dem Projekt, in dem Sie das Inhaltsverzeichnis anzeigen möchten.
+1. In Analysis Workspace, go to the project where you want to view the table of contents.
 
-1. Wählen Sie in der linken Navigationsleiste das Inhaltsverzeichnissymbol (![) ](assets/toc-icon.png).
+1. In the left nav, select the table of contents icon ![toc icon](assets/toc-icon.png). 
 
-   Das Inhaltsverzeichnis für das Projekt wird angezeigt, und jedes Bedienfeld wird standardmäßig erweitert.
+   The table of contents for the project is displayed, and each panel is expanded by default.
 
-   ![Projekt-Inhaltsverzeichnis erweitert](assets/project-toc-expanded.png)
+   ![Project TOC expanded](assets/project-toc-expanded.png)
 
-1. Wählen Sie im Inhaltsverzeichnis eine Visualisierung aus, um innerhalb des Projekts dorthin zu wechseln.
+1. In the table of contents, select a visualization to go to it within the project.
+-->

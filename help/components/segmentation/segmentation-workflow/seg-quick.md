@@ -3,23 +3,24 @@ description: Verwenden von Schnellsegmenten in Analysis Workspace für Adobe Ana
 title: Schnellsegmente
 feature: Segmentation
 role: User
-source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
+exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 23%
+source-wordcount: '1177'
+ht-degree: 21%
 
 ---
 
 # Schnellsegmente
 
 
-Schnellsegmente ermöglichen es Ihnen, Daten innerhalb eines Workspace-Projekts schnell zu untersuchen, ohne dass ein Segment in [Segment Builder“ erstellt ](seg-create.md) muss.
+Schnellsegmente ermöglichen es Ihnen, Daten innerhalb eines Workspace-Projekts schnell zu untersuchen, ohne dass ein Segment in [Segment Builder) erstellt ](seg-create.md) muss.
 
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnellsegmente in Analysis Workspace](https://video.tv.adobe.com/v/3410293/?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnellsegmente in Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -43,9 +44,9 @@ So erstellen Sie ein Schnellsegment:
 Beachten Sie beim Erstellen eines Schnellsegments per Drag-and-Drop Folgendes:
 
 * Es werden nicht alle Komponententypen unterstützt. Berechnete Metriken werden nicht unterstützt, und nur Dimensionen und Metriken, aus denen Sie Segmente erstellen können, werden unterstützt.
-* Für Dimensionen und Metrikkomponenten erstellt [Quick Segment Builder](#quick-segment-builder) automatisch eine `exists`. Wenn Sie beispielsweise `City` ziehen und ablegen, wird die Bedingung `City exists` erstellt.
-* Für Dimensionswerte erstellt [Quick Segment Builder](#quick-segment-builder) automatisch eine `equals`. Wenn Sie beispielsweise `amsterdam` aus der Dimension `City` ziehen und ablegen, wird die Bedingung `City equals amsterdam` erstellt.
-* Wenn Sie `unspecified` oder `none` per Drag-and-Drop verschieben, erstellt [Quick Segment Builder](#quick-segment-builder) automatisch eine `does not exist`.
+* Für Dimensionen und Metrikkomponenten erstellt [Quick Segment Builder](#quick-segment-builder) automatisch eine **[!UICONTROL exists]**. Wenn Sie beispielsweise per Drag-and-Drop **[!UICONTROL Stadt]** ziehen, wird die Bedingung **[!UICONTROL Stadt]** **[!UICONTROL vorhanden]** erstellt.
+* Für Dimensionswerte erstellt [Quick Segment Builder](#quick-segment-builder) automatisch eine **[!UICONTROL gleich]**-Bedingung. Wenn Sie z. B. **[!UICONTROL Amsterdam]** aus den Dimensionselementen **[!UICONTROL Stadt]** ziehen, wird die Bedingung **[!UICONTROL Stadt]** **[!UICONTROL gleich]** `Amsterdam` erstellt.
+* Wenn Sie per Drag-and-Drop **[!UICONTROL unspecified]** oder **[!UICONTROL none]**, erstellt [Quick Segment Builder](#quick-segment-builder) automatisch eine Bedingung **[!UICONTROL exists]**.
 
 Die von Ihnen erstellten Schnellsegmente werden oben im Bedienfeld angezeigt. Schnellsegmente haben einen hellblauen, dünnen linken Balken. Wenn sich ein Schnellsegment im Bearbeitungsmodus mit dem [Quick Segment Builder](#quick-segment-builder) befindet, wird der Hintergrund des Schnellsegments hellblau dargestellt.
 
@@ -61,7 +62,7 @@ Um ein Schnellsegment zu verwalten, bewegen Sie den Mauszeiger über das spezifi
 
 ## Quick Segment Builder
 
-Unten finden Sie ein Beispiel für den Quick Segment Builder. In diesem Beispiel wird der Builder für ein Schnellsegment namens &quot;`Interaction Channel equals Website AND Online Orders is greater than 1`&quot; geöffnet. Das Schnellsegment oben gilt nicht für das Bedienfeld [!UICONTROL Dashboard „Durchschnittlicher Bestellwert] und alle darin enthaltenen Visualisierungen.
+Unten finden Sie ein Beispiel für den Quick Segment Builder. In diesem Beispiel wird der Builder für ein Schnellsegment namens &quot;`Interaction Channel = Website  AND Online Orders is greater than 1`&quot; geöffnet. Das Schnellsegment oben gilt nicht für das Bedienfeld **[!UICONTROL Dashboard „Durchschnittlicher Bestellwert]** und alle darin enthaltenen Visualisierungen.
 
 ![Quick Segment Builder](assets/quick-segment-builder.png)
 
@@ -74,7 +75,7 @@ Der Kopfzeilenbereich bestimmt den Namen, den Typ und den Umfang des Schnellsegm
 | Element | Beschreibung |
 |---|---|
 | **[!UICONTROL Name]** | Der Name wird automatisch aus der Schnellsegmentdefinition abgeleitet. |
-| **[!UICONTROL Personen]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Vorschau der visuellen Daten, die aus dem Schnellsegment resultieren. Ein Balken und ein Prozentwert geben insight an, wie viel der Gesamtdaten Teil des Ergebnisses des Schnellsegments ist. Ein rotes ![Warnhinweis](/help/assets/icons/Alert.svg) signalisiert, dass das Schnellsegment keine Daten zurückgibt. |
+| **[!UICONTROL Personen]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Vorschau der visuellen Daten, die aus dem Schnellsegment resultieren. Ein Balken und ein Prozentwert geben insight an, wie viel der Gesamtdaten Teil des Ergebnisses des Schnellsegments ist. Ein ![Warnhinweis](/help/assets/icons/AlertRed.svg) signalisiert, dass das Schnellsegment keine Daten zurückgibt. |
 | **[!UICONTROL Einbeziehen]**<br/>**[!UICONTROL Ausschließen]** | Wählen Sie aus der Dropdown![Liste ChevronDown](/help/assets/icons/ChevronDown.svg) aus, ob Sie die Ergebnisse des Schnellsegments aus den Daten im Bedienfeld ein- oder ausschließen möchten. |
 | **[!UICONTROL Ereignis]**<br/>**[!UICONTROL Sitzung]**<br/>**[!UICONTROL Person]** | Wählen Sie aus dem Dropdown-![ (ChevronDown](/help/assets/icons/ChevronDown.svg) den Umfang des Schnellsegments aus. |
 
@@ -108,5 +109,3 @@ Segmente haben im Vergleich zu Schnellsegmenten die folgenden Vorteile.
 
 * Segmente können für alle Workspace-Projekte verfügbar gemacht werden
 * Segmente unterstützen eine höhere Komplexität bei der Verwendung verschachtelter und hierarchischer [Container](../seg-containers.md) und Sequenzen (unter Verwendung [sequenzieller Segmente](seg-sequential-build.md).
-
-

@@ -5,10 +5,10 @@ feature: Calculated Metrics
 role: User
 level: Beginner
 exl-id: 1227f68f-b4cd-4fa6-8fa9-0e8cc4e86cb3
-source-git-commit: 36d74c4cc579b8bacabb62288addd49fa1cde4a7
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -16,9 +16,19 @@ ht-degree: 9%
 
 Diese kurzen Videos bieten einen Überblick darüber, wie Sie die Verwendung der Tools für berechnete Metriken optimieren können.
 
-* [Schnelle berechnete Metriken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=de){target="_blank"}
-* [Generator für Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=de){target="_blank"}
-* [Segmentierte Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=de){target="_blank"}
-* [implementierungslose Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=de){target="_blank"}
-* [Funktionen](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=de){target="_blank"}
-* [Verwalten von berechneten Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=de){target="_blank"}
+>[!BEGINSHADEBOX]
+
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnelle berechnete Metriken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Metric Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[segmentierte Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=de){target="_blank"}
+
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [implementierungslose Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=de){target="_blank"}
+
+![videoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Functions](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwalten der berechneten Metriken](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+
+
+>[!ENDSHADEBOX]

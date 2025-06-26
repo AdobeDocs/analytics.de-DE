@@ -4,10 +4,10 @@ title: Komponentenbeschreibungen hinzufügen
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ Analytics-Administratoren bzw. -Administratorinnen können Beschreibungen für K
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/39719?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 
-## Hinzufügen von Beschreibungen zu Komponenten in Analysis Workspace (mithilfe des Datenwörterbuchs) {#add-descriptions}
+## Hinzufügen von Beschreibungen zu Komponenten im Datenwörterbuch {#add-descriptions}
 
 Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen. Dazu gehört auch die Möglichkeit für Analytics-Administratoren bzw. -Administratorinnen, Komponentenbeschreibungen direkt in Analysis Workspace hinzuzufügen.
 

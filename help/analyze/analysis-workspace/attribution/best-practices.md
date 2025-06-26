@@ -1,25 +1,29 @@
 ---
 title: Best Practices für die Attribution
-description: Welche Best Practices bestehen für die Wahl eines Attributionsmodells?
+description: Was sind die Best Practices für die Entscheidung über ein Attributionsmodell?
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 75%
 
 ---
 
 # Best Practices für die Attribution
 
-Welches Attributionsmodells für Ihr Unternehmen am besten geeignet ist, hängt von einer Reihe von Überlegungen ab. Dieser Artikel zeigt eine Methodik sowie einige allgemeine Best Practices auf.
+Welches Attributionsmodells für Ihr Unternehmen am besten geeignet ist, hängt von einer Reihe von Überlegungen ab. In diesem Artikel werden eine Methodik und einige allgemeine Best Practices untersucht:
 
-## Schritt 1: Explorative Analyse
+* [Explorative Analyse](#exploratory-analysis)
+* [Regelbasierte Attributionen](#rule-base-attribution)
+* [Algorithmische Attribution verwenden](#use-algorithmic-attribution)
+
+## Explorative Analyse
 
 >[!NOTE]
 >Diese Analyse muss der Entscheidung für ein bestimmtes Attributionsmodell vorangehen.
 
-In dieser vorbereitenden Phase geht es darum, ein Verständnis des Kundenverhaltens zu gewinnen und Konversionsmetriken zu bestimmen. Basierend auf der Konversionsmetrik erleichtern Tools wie [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=de) (für Rohdaten) oder Analysis Workspace Ihr Verständnis von
+In dieser vorbereitenden Phase geht es darum, ein Verständnis des Kundenverhaltens zu gewinnen und Konversionsmetriken zu bestimmen. Basierend auf der Konversionsmetrik erleichtern Tools wie [Daten-Feeds](https://experienceleague.adobe.com/de/docs/analytics/export/analytics-data-feed/data-feed-overview) (für Rohdaten) oder Analysis Workspace Ihr Verständnis von
 
 * Anzahl der Kundinnen und Kunden, die vor der Konvertierung verschiedene Marketing-Kanäle nutzten
 * Der Anteil/die Verteilung dieser Verhaltensweisen
@@ -35,23 +39,23 @@ Bei der Analyse des oberen Ende des Trichters werden diejenigen Kanäle untersuc
 
 Bei der Analyse des unteren Trichters geht man davon aus, dass die Menschen bereits von Ihrer Marke wissen und Sie möchten, dass sie konvertieren. Verwenden Sie E-Mail- oder Push-Benachrichtigungen oder Facebook-Anzeigen.
 
-## Schritt 2: Regelbasierte Attribution
+## Regelbasierte Attribution
 
 Dieser Schritt dient der Validierung Ihrer Hypothesen.
 
 **Beispiel 1**
 
-Angenommen, Ihre Hypothese lautet: „Mein für den Erstkontakt verwendeter Kanal hat größeren Einfluss auf die Konversion als mein für den Letztkontakt verwendeter“. 
+Angenommen, Ihre Hypothese lautet: &quot;*Mein Erstkontaktkanal hat eine größere Auswirkung auf die Konversion als mein Letztkontaktkanal.*&quot;
 
-In diesem Fall würden Sie das [Attributionsmodell „Umgekehrt J-förmig“](/help/analyze/analysis-workspace/attribution/models.md) anwenden, um diese Hypothese zu testen. Dieses Modell schreibt dem ersten Kontaktpunkt (bzw. „Touchpoint“) eine Gewichtung von 60 % zu.
+In diesem Fall würden Sie das Attributionsmodell [Umgekehrt J-förmig“ verwenden](/help/analyze/analysis-workspace/attribution/models.md) um diese Hypothese zu testen. Dieses Modell schreibt dem ersten Kontaktpunkt (bzw. „Touchpoint“) eine Gewichtung von 60 % zu.
 
 **Beispiel 2**
 
-Angenommen, Ihre Hypothese lautet: „In unserer Branche (z. B. der Reisebranche) beträgt das Attributionsfenster 60 oder 90 Tage, nicht 30 Tage, da Kundinnen und Kunden vor dem Kauf eines Produkts sehr viel recherchieren.“
+Angenommen, Ihre Hypothese lautet: *„In einer bestimmten Branche (z. B. der Reisebranche) beträgt das Attributionsfenster 60 oder 90 Tage, nicht 30 Tage, da Kunden viel recherchieren, bevor sie ein Produkt kaufen.*&quot;
 
-In diesem Fall würden Sie Ihr [Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=de#lookback-windows) auf 90 Tage ändern.
+In diesem Fall würden Sie Ihr [Lookback-Fenster](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) auf 90 Tage ändern.
 
-## Schritt 3: Algorithmische Attribution verwenden
+## Algorithmische Attribution verwenden
 
 Wenn Sie noch kein Attributionsmodell haben, das alle Ihre Fragen zufriedenstellend beantwortet, können Sie die [algorithmische Attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md) verwenden. Da es sehr schwierig ist, eine große Anzahl möglicher Hypothesen und Kombinationen zu validieren, werden bei der algorithmischen Attribution integrierte Algorithmen verwendet, um auf die einzelnen Dimensionen Punkte zu verteilen.
 
@@ -59,4 +63,4 @@ Wenn Sie noch kein Attributionsmodell haben, das alle Ihre Fragen zufriedenstell
 
 * Möglicherweise sollten Sie ergänzend zu Analysis Workspace einen Datenwissenschaftler hinzuziehen.
 * Sie können sich auf Rohdaten verlassen, wie in Daten-Feeds von Adobe.
-* Erwägen Sie beispielsweise die Verwendung von [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.
+* Erwägen Sie beispielsweise die Verwendung von [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.

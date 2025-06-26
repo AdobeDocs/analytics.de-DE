@@ -4,98 +4,169 @@ title: Übersicht über Kalender und Datumsbereiche
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Übersicht über Kalender und Datumsbereiche {#date-range}
 
-<!-- markdownlint-disable MD034 -->
+# Übersicht über Datumsbereiche
+
+In einem Workspace-Projekt verwenden Sie normalerweise den [Kalender in einem Panel](/help/analyze/analysis-workspace/c-panels/panels.md#calendar), um den Datumsbereich für die Visualisierungen in diesem Panel anzugeben.
+
+Mit Datumsbereichskomponenten können Sie die Kalendereinstellungen für das Panel definieren und überschreiben.
+
+
+## Verwenden von Datumsbereichen
+
+Sie können eine Datumsbereichskomponente verwenden, um den Kalender für das Panel neu zu definieren.
+
+Sie können auch einen Datumsbereich in einer Freiformtabelle als Metrik oder Dimension verwenden.
+
+![Nutzung von Datumsbereich](assets/date-ranges-usage.png)
+
+- **Metrik**. Sie können beispielsweise eine Dimension für zwei verschiedene Monate einer Metrik vergleichen.
+- **Dimension**. So vergleichen Sie eine Metrik zu verschiedenen Dimensionselementen für die Dimension Datumsbereich.
+
+>[!NOTE]
+>
+>Wenn Sie Datumsbereiche in einer Freiformtabelle verwenden, überschreiben die Datumsbereiche den Kalender, der für das Panel angegeben ist, zu dem die Freiformtabelle gehört.
+>
+
+Sie verwenden einen Datumsbereich so wie Sie [eine beliebige Komponente verwenden würden](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components). Sie ziehen den Datumsbereich aus dem Komponenten-Panel ![Kalender](/help/assets/icons/Calendar.svg) **[!UICONTROL Datumsbereiche]** und legen Sie die Komponente hier ab:
+
+- **[!UICONTROL Kalender]**: Sie ![Wechseln](/help/assets/icons/Switch.svg) **[!UICONTROL Ersetzen]** die aktuelle Kalenderkonfiguration durch den Datumsbereich.
+- **Spaltenkopf Metrik**: Sie ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL ersetzen]** die Metrik, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL fügen ]**den Datumsbereich als Metrik hinzu oder ![Filter](/help/assets/icons/Filter.svg)**[!UICONTROL  filtern ]**die Metrik mit der Komponente Datumsbereich.
+- **Spaltenkopf Dimension**: Sie ![Wechseln](/help/assets/icons/Switch.svg) **[!UICONTROL ersetzen]** die aktuellen Dimensionen. Die neue Dimension lautet jetzt **[!UICONTROL Datumsbereiche]**. Sobald die Dimension Datumsbereiche lautet, können Sie zusätzliche Datumsbereiche als Dimensionselemente ![Hinzufügen](/help/assets/icons/Add.svg)**[!UICONTROL hinzufügen ]**.
+- **Dimensionselement**: Sie ![Aufschlüsselung](/help/assets/icons/Breakdown.svg) **[!UICONTROL schlüsseln]** das spezifische Dimensionselement nach Datumsbereich auf.
+
+Sie können eine Spalte für Datumsbereich auch direkt in einer Visualisierung „Freiformtabelle“ hinzufügen:
+
+1. Wählen Sie in einer Spalte für Metrik aus dem Kontextmenü:
+
+   - **[!UICONTROL Spalte für Zeitraum hinzufügen]**. Sie können zwischen vorgeschlagenen Optionen wählen, die auf dem aktuellen Kalender basieren, oder einen [benutzerdefinierten Datumsbereich](#custom-date-ranges) erstellen.
+   - **[!UICONTROL Zeiträume vergleichen]**. Sie können zwischen einer vorgeschlagenen Option wählen, die auf dem aktuellen Kalender basiert, oder einen [benutzerdefinierten Datumsbereich](#custom-date-ranges) erstellen.
+
+1. Entsprechend Ihrer Auswahl werden der Freiformtabelle zusätzliche Spalten für Datumsbereich hinzugefügt.
+
+## Fehlgeschlagene Datumsbereiche
+
+Analysis Workspace bietet eine Reihe von standardmäßigen Datumsbereichen.
+
+
+| Tag | Woche | Monat | Quartal | Jahr |
+|---|---|---|---|---|
+| Am aktuellen Tag | Diese Woche | Diesen Monat | Dieses Quartal | Dieses Jahr |
+| Am Vortag | Diese Woche (ohne heute) | Dieser Monat (ohne heute) | Dieses Quartal (ohne heute) | Dieses Jahr (ohne heute) |
+| Vor 2 Tagen | Vor 2 Wochen | Vor 2 Monaten |   |  |
+| Vor 3 Tagen | Vor 3 Wochen | Vor 3 Monaten |  | |
+| Letzte 7 Tage | Letzte Woche | Letzter Monat | Letztes Quartal | Letztes Jahr |
+| Letzte 14 Tage | Letzte 2 volle Wochen | Letzte 2 volle Monate | Letzte 4 volle Quartale | |
+| Letzte 30 Tage | Letzte 3 volle Wochen | Letzte 3 volle Monate | | |
+| Letzte 60 Tage | Letzte 4 volle Wochen | Letzte 6 volle Monate | | |
+| Letzte 90 Tage | Letzte 12 volle Wochen | Letzte 12 volle Monate | | |
+| Letzte 7 volle Tage | Letzte 52 volle Wochen | Letzte 13 volle Monate | | |
+| Letzte 14 volle Tage | | | | |
+| Letzte 30 volle Tage | | | | |
+| Letzte 90 volle Tage | | | | |
+
+<table style="table-layout:fixed">
+
+## Benutzerdefinierte Datumsbereiche
+
+Sie können eigene, benutzerdefinierte Datumsbereiche erstellen. Unter [Datumsbereich erstellen](create.md) finden Sie die verschiedenen Optionen zum Erstellen von Datumsbereichen. Anschließend erstellen, ändern und speichern Sie Datumsbereiche im [Datumsbereichsgenerator](create.md#date-range-builder).
+
+Sie verwenden die [Datumsbereichsverwaltung](manage.md), um Datumsbereiche zu verwalten.
+
+
+
+<!--
+# Calendar and date ranges overview {#date-range}
 
 >[!CONTEXTUALHELP]
 >id="components_dateranges_endtime"
->title="Endzeit"
->abstract="Endzeiten umfassen immer 59 Sekunden."
-
-<!-- markdownlint-enable MD034 -->
+>title="End time"
+>abstract="End times always include 59 seconds."
 
 
-Im Kalender können Sie Daten und Datumsbereiche festlegen oder eine Voreinstellung auswählen.
+
+In the calendar, you can specify dates and date ranges, or select a preset.
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Kalender und Datumsbereiche](https://video.tv.adobe.com/v/328023?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-Wenn Sie im Kalender etwas auswählen, bezieht sich diese Auswahl auf das jeweilige Panel. Sie haben jedoch die Möglichkeit, die Auswahl auf sämtliche Panels anzuwenden. Wenn Sie in Workspace auf einen Datumsbereich klicken, zeigt die Benutzeroberfläche den aktuellen Kalendermonat und den vorherigen Kalendermonat an. Sie können diese beiden Kalender anpassen, indem Sie auf die Rechts- und Linkspfeile in den jeweiligen oberen Ecken klicken.
+Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-![Kalender](assets/aw_calendar2.png){width="60%"}
+![Calendar](assets/aw_calendar2.png){width="60%"} 
 
-## Auswählen und Anwenden von Datumsbereichen {#select-apply}
+## Select and apply date ranges {#select-apply}
 
-Beim ersten Klick auf einen Kalender wird die Auswahl eines Datumsbereichs begonnen. Mit dem zweiten Klick wird die Auswahl des Datumsbereichs beendet und hervorgehoben. Wenn die `Shift` Taste gedrückt gehalten wird (oder ein Rechtsklick verwendet wird), wird der entsprechende Bereich an den derzeit ausgewählten Bereich angehängt.
+The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
-Sie können Datums- (und Zeitdimensionen) mittels Drag-and-Drop in einem Workspace-Projekt ablegen. Sie können spezifische Tage, Wochen, Monate, Jahre oder ein rollierendes Datum auswählen.
+You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Verwendung von Datumsbereichen und Kalender in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=de) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
-| Einstellung | Beschreibung |
+| Setting | Description |
 |--- |--- |
-| Ausgewählte Tage | Ausgewählte Tage/Wochen/Monate/Jahre |
-| Erstellen von Datumsbereichskomponenten relativ zum Bedienfeld-Kalender | Bei Deaktivierung überschreibt die in einer Tabelle, einer Visualisierung oder dem Ablegebereich eines Bedienfelds verwendete Datumsbereichskomponente den Bedienfeldkalender. <p>Wenn diese Option aktiviert ist, beziehen sich alle in einer Tabelle, einer Visualisierung oder dem Ablegebereich eines Bedienfelds verwendeten Datumsbereichskomponenten auf den Datumsbereich des Bedienfelds. Wenn beispielsweise der Datumsbereich des Bedienfelds auf den 1. November bis zum 30. November eingestellt ist und eine Datumsbereichskomponente „Letzte Woche“ in einer Freiformtabelle verwendet wird, beziehen sich die Informationen in der Freiformtabelle auf die letzte Woche im Oktober. |
-| Verwenden von rollierenden Daten | Mithilfe rollierender Daten können Sie einen dynamischen Bericht generieren, der zum Zeitpunkt seiner Ausführung einen bestimmten Zeitraum voraus oder zurück umfasst. Wenn Sie zum Beispiel einen Bericht zu allen Bestellungen haben möchten, die im letzten Monat aufgegeben wurden (wobei sich „Letzter Monat“ auf das Feld „Erstellungsdatum“ bezieht), und diesen Bericht dann im Dezember ausführen, würden Ihnen alle Bestellungen angezeigt, die im November aufgegeben wurden. Führen Sie den gleichen Bericht im Januar aus, werden Ihnen die Bestellungen aus dem Dezember angezeigt.<ul><li>**[!UICONTROL Datumsvorschau]**: Gibt an, welchen Zeitraum der rollierende Kalender umfasst.</li><li>**[!UICONTROL Start]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li><li>**[!UICONTROL Ende]**: Sie können zwischen den folgenden Optionen wählen: „Aktueller Tag“, „Aktuelle Woche“, „Aktueller Monat“, „Aktuelles Quartal“ und „Aktuelles Jahr“.</li></ul>Ein Beispiel finden Sie unter [Benutzerdefinierte Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Standardmäßig ausgewählt. |
-| Datumsbereich | Hier können Sie einen voreingestellten Datumsbereich auswählen. Der Standardwert lautet „Letzte 30 Tage“. **[!UICONTROL Diese Woche/Monat/Quartal/Jahr (außer heute)]** ermöglicht Ihnen, aus Datumsbereichen auszuwählen, die keine Daten von heute enthalten. |
-| In alle Bedienfelder übernehmen | Hiermit können Sie den ausgewählten Datumsbereich nicht nur für das aktuelle Bedienfeld, sondern für alle Bedienfelder des Projekts ändern. |
-| Übernehmen | Hiermit wird der Datumsbereich nur in diesem Bedienfeld übernommen. |
+|Selected Days|Selected days/weeks/months/years.|
+|Make date range components relative to panel calendar| If disabled, any date range components used within a table, visualization, or panel drop zone override the panel calendar. <p>If enabled, any date range components used within a table, visualization, or panel drop zone are in relation to the panel date range. For example, if the panel date range is set to November 1 through November 30, and a Last Week date range component is used in a freeform table, the information in the freeform table refers to the last week in October. |
+|Use rolling dates| Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul>To view an example, see [Custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selected by default.|
+|Date Range|Lets you pick a preset date range. Last 30 days is the default. **[!UICONTROL This week/month/quarter/year (excluding today)]** lets you choose from date ranges that do not include partial-day data from today.|
+|Apply to All Panels|Lets you not only change the selected date range for the current panel, but also for all other panels within the project.|
+|Apply|Applies the date range to this panel only.|
 
-## Über relative Datumsbereiche des Bedienfelds {#relative-panel-dates}
+## About relative panel date ranges {#relative-panel-dates}
 
-Wenn Sie in Workspace arbeiten, können Sie die Komponenten der Datumsbereiche relativ zum Bedienfeldkalender festlegen.
-Drei gängige Anwendungsfälle, in denen relative Datumsangaben im Bedienfeld verwendet werden, sind Combo-Diagramme, Zusammenfassungen der Schlüsselmetriken und Datumsbereiche in Freiformtabellen.
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
-So verwenden Sie relative Datumsbereiche im Bedienfeld
+To use relative panel date ranges
 
-1. Wählen Sie die Registerkarte **Arbeitsbereich** aus.
-1. Wählen Sie **Leeres Projekt** aus.
-1. Fügen Sie Dimensionen, Metriken und Segmente über die linke Leiste hinzu.
-1. Klicken Sie auf das Feld für den Datumsbereich des Bedienfelds, um in die Einstellung für den relativen Datumsbereich des Bedienfelds umzuschalten.
-1. Wählen Sie **Erstellen von Datumsbereichskomponenten relativ zum Bedienfeldkalender** aus.
-   * Wählen Sie die Option aus, damit sich die Komponenten für den Datumsbereich relativ zum Bedienfeldkalender verhalten.
-Wenn relative Datumswerte ausgewählt sind, basieren rollierende Datumswerte auf dem Startdatum des Bedienfeldkalenders und nicht auf dem heutigen Datum.
-   * Ist diese Option nicht ausgewählt, basieren rollierende Datumswerte auf dem heutigen Datum.
+1. Select the **Workspace** tab.
+1. Select **Blank project**.
+1. Add dimensions, metrics, and segments from the left rail. 
+1. Click the panel date range field to toggle the relative panel date range setting.
+1. Select **Make date range components relative to panel calendar**.
+    * Select the option to make the date range components relative to the panel calendar.
+        If relative dates are selected, then rolling dates will be based on the start date of the panel calendar and not today's date.
+    * If this option isn't selected, then rolling dates will be based on today's date.
 
-   ![relative Bedienfeld-Datumsangaben](assets/relative-date-selected.png){width="60%"}
+    ![relative panel dates](assets/relative-date-selected.png){width="60%"} 
 
-1. Klicken Sie auf **Anwenden**.
-Die relativen Daten werden oben rechts angezeigt.
+1. Click **Apply**.
+    The relative dates are shown in the upper-right.
 
-   ![relative Daten in Freiform ](assets/relative-date-range1.png)
+    ![relative dates in freeform ](assets/relative-date-range1.png)
 
-## Richtlinien für relative Bedienfelddatumsbereiche {#guidelines}
+## Guidelines for relative panel date ranges {#guidelines}
 
-Beachten Sie bei der Verwendung relativer Bedienfelddatumsbereiche die folgenden Richtlinien.
+Keep in mind the following guidelines when using relative panel date ranges.
 
-### Formeln und relative Datumsbereiche {#formula-relative-dates}
+### Formulas and relative date ranges {#formula-relative-dates}
 
-Wenn Sie relative Datumsangaben ausgewählt haben, verwenden alle Datumsformeln das Startdatum des Bedienfelds als Ausgangspunkt.
+If you have relative dates selected, all date formulas will use the panel's start date as the starting point.
 
-### Benutzerdefinierte Kalender und relative Datumsbereiche {#custom-calendar-formulas}
+### Custom calendars and relative date ranges {#custom-calendar-formulas}
 
-Wenn Sie einen wöchentlichen benutzerspezifischen Kalender verwenden und Monate oder Jahre hinzufügen, berechnet die Formel den Versatz des Tages im angegebenen Zeitraum. Das tatsächliche Datum kann sich aufgrund des Versatzes unterscheiden. Durch die Formel wird der Tag ausgewählt, der an derselben Stelle im benutzerdefinierten Kalender liegt, beispielsweise der dritte Freitag der dritten Woche in einem benutzerdefinierten Kalender.
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
 
-### Über Segmente, die rollierende Datumsangaben und relative Bedienfeld-Datumsbereiche verwenden {#segments-relative-dates}
+### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
 
-Wenn Sie ein Segment erstellen oder ein Segment mit einem rollierenden Datum verwenden, z. B. die letzten 7 Tage oder die letzten 2 Wochen, und Sie auf die Segmentvorschau klicken, beginnt das rollierende Datum ab *Heute* anstelle des Startdatums des Bedienfelds. Daher stimmt die Vorschau für das Segment nicht, wenn Sie das Segment in der Tabelle verwenden. Die Vorschau ist zwar falsch, nicht aber das Segment selbst.
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
 
-## Richtlinien für Panel-Datumsbereiche und Vorschauen {#guidelines-panel-dates}
+## Guidelines for panel date ranges and previews {#guidelines-panel-dates}
 
-* Ab der Februarversion basieren die Komponenten- und Datenvorschauen auf dem Datumsbereich des Bedienfelds und nicht auf den letzten 90 Tagen.
-* Alle in der linken Leiste aufgelisteten Komponenten sind basierend auf dem Datumsbereich des Bedienfelds verfügbar.
-* Alle Datumsvorschauen im Segment und Generatoren für berechnete Metriken basieren auf dem Datumsbereich des Bedienfelds (sofern nicht von den Komponenten-Managern darauf zugegriffen wird, die über kein verknüpftes Bedienfeld verfügen, basieren sie weiterhin auf den letzten 90 Tagen).
-* Bei jeder Datenvorschau werden Daten oder Komponenten basierend auf dem Datumsbereich des Bedienfelds angezeigt.
+* Starting with the February release, component and data previews will be based on the panel date range and not the last 90 days. 
+* All components listed in the left rail will be available based on the panel date range. 
+* All date previews in the segment and calculated metric builders will be based on the panel date range (unless accessed from the component managers, which do not have an associated panel, they will still be based on the last 90 days). 
+* Any data previews will display data or components based on the panel date range.
+
+-->

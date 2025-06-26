@@ -4,23 +4,23 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
 
 # Segment-Container
 
-Ein Segment legt Bedingungen für das Filtern von Besuchenden auf der Grundlage ihrer Attribute oder Interaktionen mit Ihrer Site fest. Um in einem Segment Bedingungen festzulegen, legen Sie Regeln für die Filterung von Besuchern auf der Grundlage von Besuchermerkmalen und/oder Navigationsverhalten fest. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Untergruppen und das Anwenden von Regeln als verschachtelte hierarchische Container der Form Besucher, Besuch oder Treffer.
+Ein Segment legt Bedingungen für das Filtern von Besuchenden auf der Grundlage ihrer Attribute oder Interaktionen mit Ihrer Site fest. Um in einem Segment Bedingungen festzulegen, legen Sie Regeln für die Filterung von Besuchern auf der Grundlage von Besuchermerkmalen und/oder Navigationsverhalten fest. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
 
-Die in Segment Builder verwendete Container-Architektur definiert
+Die im Segmentaufbau verwendete Container[Architektur definiert ](/help/components/segmentation/segmentation-workflow/seg-build.md):
 
-- ![Besuchende](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Besuchende]** als äußersten Container, der übergreifende Daten enthält, die für Besuchende über Besuche und Seitenansichten hinweg spezifisch sind.
-- ![Besuch](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) Mit einem verschachtelten Container **[!UICONTROL Besuch]** können Sie Regeln festlegen, um die Besucherdaten auf der Grundlage von Besuchen aufzuschlüsseln, und
-- ![Ereignis](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) mit einem verschachtelten Container **[!UICONTROL Treffer]** können Sie die Besucherinformationen auf der Grundlage einzelner Seitenansichten aufschlüsseln.
+- ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Besucher]** als äußerster Container, der übergreifende Daten enthält, die für den Besucher über Besuche und Seitenansichten hinweg spezifisch sind.
+- ![Besuch](/help/assets/icons/Visit.svg) Mit einem verschachtelten Container **[!UICONTROL Besuch]** können Sie Regeln festlegen, um die Besucherdaten auf der Grundlage von Besuchen aufzuschlüsseln, und
+- ![WebPage](/help/assets/icons/WebPage.svg) ein verschachtelter **[!UICONTROL Treffer]**-Container ermöglicht die Aufschlüsselung der Besucherinformationen anhand der einzelnen Seitenansichten.
 
 Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Besuch aufgeschlüsselte Interaktionen oder aufgeschlüsselte einzelne Treffer.
 
@@ -38,7 +38,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/3429106?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -148,7 +148,7 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ Die einzige Ausnahme für diese Container-Hierarchie besteht in der Verwendung d
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ Die einzige Ausnahme für diese Container-Hierarchie besteht in der Verwendung d
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
 </tr>
 
 <tr>

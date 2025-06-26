@@ -4,70 +4,120 @@ keywords: Analysis Workspace
 title: Hinzufügen von Ordnern in Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 93%
 
 ---
 
-# Hinzufügen von Projekten zu Ordnern
 
-Sie können Projekte zu einem Ordner in der Tabellenansicht oder innerhalb eines Ordners hinzufügen.
+# Hinzufügen oder Verschieben von Projekten zu Ordnern
+
+Sie können Projekte direkt über die [Projektliste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) zu einem Ordner hinzufügen oder verschieben.
+
+## Verschieben von Projekten in einen Ordner
 
 >[!NOTE]
 >
->Nur Analytics-Administrierende können dem Unternehmensordner Projekte hinzufügen oder ein neues Projekt erstellen und es im Unternehmensordner speichern.
+>Wenn eine Administratorin oder ein Administrator ein Projekt in den Firmenordner verschiebt, wird der Ordner für alle freigegeben, selbst wenn die vorhandenen freigegebenen Berechtigungen eingeschränkt sind. Wenn eine Administratorin oder ein Administrator ein Projekt aus dem Unternehmensordner verschiebt, werden die vorhandenen freigegebenen Berechtigungen erneut angewendet.
+>
 
-## Aus der Tabellenansicht {#table-view}
+So verschieben Sie Projekte aus der [Projektliste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) in einen Ordner:
 
-Fügen Sie auf der Startseite aus der Tabellenansicht Projekte zu einem Ordner hinzu.
+1. Wählen Sie ![Auswahlkästchen](/help/assets/icons/SelectBox.svg) ein oder mehrere Projekte aus, die Sie in einen Ordner verschieben möchten.
 
-1. Wählen Sie ein oder mehrere Projekte aus, die Sie einem Ordner hinzufügen möchten.
+1. Wählen Sie ![OrdnerHinzufügen](/help/assets/icons/FolderAddTo.svg) **Verschieben nach** aus der Liste der möglichen [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) aus. Das Dialogfeld **[!UICONTROL Ordner auswählen]** wird angezeigt.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. Wählen Sie im Dropdown-Menü **[!UICONTROL Ordner]** einen Ordnernamen aus. Über das Dropdown-Menü können Sie die Ordnerhierarchie durchlaufen, um einen Unterordner auf einer beliebigen Ebene auszuwählen.
 
-1. Wählen Sie **Verschieben nach** aus.
+   ![In der Ansicht „Ordner auswählen“ werden das Dropdown-Menü und die verfügbaren Unterordner angezeigt.](../assets/add-projects.png)
 
-   Das Dialogfeld „Ordner auswählen“ wird angezeigt.
+1. Wählen Sie **[!UICONTROL Verschieben]** aus. 
 
-1. Wählen Sie im Dropdown-Menü den Ordner aus, in den Sie die ausgewählten Projekte verschieben möchten.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
-
-1. Wählen Sie **Verschieben** aus. 
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    Die ausgewählten Projekte werden dem Ordner hinzugefügt.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   Auf der Startseite von Workspace wird nun angezeigt, dass der Ordner (3) Projekte enthält.
+## Hinzufügen von Projekten zu einem Ordner
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+So fügen Sie Projekte zu einem Ordner aus der [Projektliste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) hinzu:
 
-## Aus dem Inneren eines Ordners {#inside-folder}
+1. Wählen Sie ![Auswahlkästchen](/help/assets/icons/SelectBox.svg) den Ordner aus, dem Projekte hinzugefügt werden sollen.
 
-Sie können auch Projekte aus dem Inneren eines Ordners hinzufügen, indem Sie den Link mit den Auslassungspunkten verwenden.
+1. Wählen Sie ![ProjektHinzufügen](/help/assets/icons/ProjectAdd.svg) **Projekte hinzufügen** aus der Liste der möglichen [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) aus. Das Dialogfeld **[!UICONTROL Ordner auswählen]** wird angezeigt.
 
-1. Wählen Sie einen Ordner in der Tabellenansicht aus und öffnen Sie ihn.
+1. Wählen Sie ein oder mehrere Projekte aus dem Dropdown zum [!UICONTROL *Auswählen von Projekten, die dem Ordner hinzugefügt werden sollen*].
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![In der Ansicht „Ordner auswählen“ werden das Dropdown-Menü und die verfügbaren Unterordner angezeigt.](../assets/add-projects-folder.png)
 
-1. Wählen Sie oben rechts das Symbol mit den Auslassungspunkten **...** aus.
+1. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-1. Wählen Sie **Projekte hinzufügen** und wählen Sie das Projekt, das Sie hinzufügen möchten, aus der Dropdown-Liste.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+>[!NOTE]
+>
+>Nur Admins können Projekte zum Unternehmensordner hinzufügen oder ein neues Projekt erstellen und es im Unternehmensordner speichern.
 
 
-1. (Optional) Wählen Sie aus der Dropdown-Liste zusätzliche Projekte aus, um mehrere Projekte hinzuzufügen.
+<!--
+# Add Projects to Folders
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+You can add projects to a folder in the table view or from within a folder.
 
-1. Wählen Sie **Hinzufügen** aus, um die Projekte zu dem Ordner hinzuzufügen.
+>[!NOTE]
+>
+>Only Analytics administrators can add projects to the Company Folder or create a new project and save it to the Company Folder
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+## From the table view {#table-view}
+
+Add projects to a folder from the table view on the home page.
+
+1.  Select one or more projects that you want to add to a folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+
+1.  Select **Move to**. 
+
+    The Select Folder dialogue is displayed.
+
+1.  In the drop-down menu, select the folder where you want to move the selected projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+
+1.  Select **Move**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
+
+    The selected projects are added to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
+
+    The Workspace landing page now shows the folder contains (3) projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+
+## From inside a folder {#inside-folder}
+
+You can also add projects from inside a folder using the ellipses link.
+
+1.  Select and open a folder from the table view.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+
+1.  Select the **...** ellipsis icon in the upper-right.
+   
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
+
+1.  Select **Add projects** and select the project that you want to add from the drop-down list.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+
+    
+1.  (Optional) Select additional projects from the drop-down list to add multiple projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+
+1.  Select **Add** to add the projects to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+
+-->

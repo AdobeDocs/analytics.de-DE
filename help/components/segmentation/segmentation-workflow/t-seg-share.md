@@ -3,7 +3,7 @@ description: Abhängig von Ihren Berechtigungen können Sie Segmente für Ihre g
 title: Segmente freigeben
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 61%
@@ -25,7 +25,7 @@ Wann sollten Segmente für das gesamte Unternehmen und wann nur für eine Benutz
 * Geben Sie als Administrator ein Segment für eine bestimmte **[!UICONTROL Gruppe]** frei, wenn das Segment für das entsprechende Team einen Geschäftswert bietet. Führen Sie für diesen Segmenttyp keine offizielle Genehmigung durch.
 * Geben Sie als Administrator oder als einzelner Benutzer ein Segment für andere einzelne Benutzer frei, um ein Segment zu prüfen und zu validieren. Wenn er sich als nicht nützlich erweist, kann er verworfen werden. Führen Sie für diesen Segmenttyp keine offizielle Genehmigung durch.
 
-1. Aktivieren Sie im Segment-Manager ![SelectBox](/help/assets/icons/SelectBox.svg) das Kontrollkästchen neben dem Segment, das Sie freigeben möchten.
+1. Wählen Sie im Segment-Manager ![SelectBox](/help/assets/icons/SelectBox.svg) das Kontrollkästchen neben dem Segment aus, das Sie freigeben möchten.
 1. Wählen Sie ![Freigeben](/help/assets/icons/Share.svg) Freigeben aus.
 1. Im Dialogfeld **[!UICONTROL Segmente freigeben]**:
 

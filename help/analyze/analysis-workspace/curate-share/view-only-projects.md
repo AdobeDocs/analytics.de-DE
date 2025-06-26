@@ -5,36 +5,32 @@ title: Schreibgeschützte Projekte
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 96%
+source-wordcount: '297'
+ht-degree: 53%
 
 ---
 
 # Schreibgeschützte Projekte
 
-Sie können Projekte über den [Projektfreigabe-Workflow](/help/analyze/analysis-workspace/curate-share/share-projects.md) für Empfänger als „schreibgeschützt“ freigeben. Empfänger mit der Rolle „Kann anzeigen“ erhalten ein eingeschränkteres Projekterlebnis. Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzende freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
+Sie können Projekte über die Funktion [Freigeben“ schreibgeschützt für Empfänger ](share-projects.md). Empfänger mit der Rolle **[!UICONTROL Schreibgeschützt]** erhalten ein eingeschränkteres Projekterlebnis.
 
-Beachten Sie, dass Sie den Datumsbereich des Bedienfeldkalenders auch in schreibgeschützten Projekten bearbeiten können.
+Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzende freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
 
-![](assets/view-only-project.png)
+![Freigeben als schreibgeschützt](assets/read-only-project-sender.png)
 
+Die Interaktionen für schreibgeschützte Empfänger sind begrenzt.
 
->[!BEGINSHADEBOX]
-
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schreibgeschützte Projekte](https://video.tv.adobe.com/v/40055?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
-
->[!ENDSHADEBOX]
-
+![Freigeben als schreibgeschützt empfangen](assets/read-only-project-receiver.png)
 
 ## Deaktivierte Interaktionen
 
 Zu den deaktivierten Interaktionen in einem schreibgeschützten Projekt gehören:
 
-* Ausgeblendete linke Leiste
-* Report Suite
-* Freiformfilterung
+* Ausgeblendeter linker Bereich
+* Datumsbereich des Bedienfeldkalenders. Hinweis: Wenn Sie Empfängern die Kalenderkontrolle gewähren möchten, fügen Sie ein [Dropdown-Segment mit Datumsbereichen“ ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de).
+* Freiformsegmentierung
 * Freiform – Anzahl der sichtbaren Zeilen
 * Freiformzeilen-, Spalten- oder Visualisierungseinstellungen
 * Bedienfeldsegmente
@@ -47,7 +43,14 @@ Zu den wichtigen aktivierten Interaktionen in einem schreibgeschützten Projekt 
 
 | Bereich | Aktivierte Interaktionen |
 | --- | --- |
-| Freiformtabellen | <ul><li>Paginierung und Sortierung</li><li>Bewegen</li><li>Zellauswahl, die verknüpfte Visualisierungen aktualisiert</li><li>Rechtsklick > Visualisierungs-Link abrufen</li><li>Rechtsklick > In Zwischenablage kopieren</li></ul> |
-| Visualisierungen | <ul><li>Klicken zum Aktivieren/Deaktivieren der Legende</li><li>Bewegen</li><li>Rechtsklick > Visualisierungs-Link abrufen</li><li>Reduzieren/Erweitern</li><li>Fluss – Flussknoten erweitern</li><li>Karte – Zoomen</li></ul> |
-| Bedienfelder | <ul><li>Interaktive Dropdown-Filter</li><li>Rechtsklick > Bedienfeld-Link abrufen</li><li>Reduzieren/Erweitern</li></ul> |
+| Freiformtabellen | <ul><li>Paginierung und Sortierung</li><li>Bewegen</li><li>Zellauswahlen, die verknüpfte Visualisierungen aktualisieren</li><li>Über das Kontextmenü > Visualisierungs-Link abrufen</li><li>Über das Kontextmenü > In Zwischenablage kopieren</li></ul> |
+| Visualisierungen | <ul><li>Klicken zum Aktivieren/Deaktivieren der Legende</li><li>Bewegen</li><li>Über das Kontextmenü > Visualisierungs-Link abrufen</li><li>Reduzieren/Erweitern</li><li>Fluss – Flussknoten erweitern</li><li>Karte – Zoomen</li></ul> |
+| Bedienfelder | <ul><li>Interaktive Dropdown-Segmente</li><li>Über das Kontextmenü > Bereichslink abrufen</li><li>Reduzieren/Erweitern</li></ul> |
 | Projekt | <ul><li>Alle Infosymbole überprüfen</li><li>Projektmenü – Neu, Öffnen, Als Landingpage festlegen, Aktualisieren, CSV/PDF herunterladen, eingeschränkte Projektinfo und Einstellungen</li><li>Menü „Freigeben“ – Projekt-Link abrufen, Datei jetzt senden</li><li>Menü „Hilfe“ – Alle Aktionen mit Ausnahme der Optionen für Tipps und Debugger</li></ul> |
+
+
+## Für alle freigeben
+
+Wenn Sie ein Projekt mithilfe von [Für alle freigeben](share-projects.md#share-a-project-with-anyone-no-login-required) ausgewählt haben, kann der Empfänger des Links nur das Projekt anzeigen und nicht mit dem Projekt interagieren.
+
+![Für alle freigeben](assets/share-with-anyone-receiver.png)

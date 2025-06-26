@@ -3,10 +3,10 @@ title: Best Practices für die Segmentierung
 description: Erstellen Sie optimale Segmente, die Daten effizient zurückgeben.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 62%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 Oft sind komplexe Segmente erforderlich, um die gewünschten Daten zu erhalten. Wenn komplexe Segmente ineffizient sind und in einer großen Report Suite verwendet werden, dauert die Ausführung von Berichten erheblich länger. Berücksichtigen Sie beim Erstellen oder Bearbeiten eines Segments die folgenden Ressourcen, um die Komplexität zu minimieren.
 
-## Verwenden Sie den Operator „Enthält“ nur als letzten Ausweg.
+## Verwenden Sie den `Contains` Operator nur als letztes Mittel
 
-Der Operator „Enthält“ ist eine der verarbeitungsintensivsten Funktionen bei der Segmentierung, da er den gesamten Inhalt jedes Werts analysieren muss. Erwägen Sie die Verwendung anderer Operatoren wie „Beginn mit“ oder „Endet mit“, wenn sich die gewünschten Werte am Anfang oder am Ende einer Zeichenfolge befinden.
+Der [**[!UICONTROL Enthält ]**-Operator](/help/components/segmentation/seg-reference/seg-operators.md) ist eines der verarbeitungsintensivsten Funktionen in der Segmentierung, da der Operator den gesamten Inhalt jedes Werts analysieren muss. Erwägen Sie die Verwendung anderer Operatoren**[!UICONTROL  Beginnt mit ]**oder**[!UICONTROL  Endet mit ]**wenn die gewünschten Werte am Anfang oder Ende einer Zeichenfolge sind.
 
-Wenn ein Operator „Enthält“ in einem Segment eine große Anzahl von Ergebnissen zurückgibt, wird der Bericht typischerweise mit einer Zeitüberschreitung abgebrochen. Wenn Sie z. B. ein Segment erstellt haben, in dem `Referrer equals "."`, durchsucht das Segment den Inhalt jedes Werts. Verwenden Sie stattdessen den Operator „Existiert“.
+Wenn ein **[!UICONTROL Enthält]**-Operator in einem Segment eine große Anzahl von Ergebnissen zurückgibt, tritt in der Regel eine Zeitüberschreitung des Berichts auf. Wenn Sie beispielsweise ein Segment erstellt haben, in dem **[!UICONTROL Referrer]** **[!UICONTROL gleich]** `"."`, durchsucht das Segment den Inhalt jedes Werts. Verwenden Sie stattdessen den Operator **[!UICONTROL Vorhanden]**.
 
 ## Verwenden Sie Klassifizierungen zum Gruppieren von Dimensionselementen.
 
-Wenn Sie viele Segmentbedingungen haben, können diese die Segmentleistung schnell beeinträchtigen. Zum Beispiel wurde `Page equals X or Page equals Y or Page equals Z`mit Hunderten von verschiedenen Werten wiederholt. Anstatt diese Hunderte von Bedingungen aufzuschreiben, klassifizieren Sie alle gewünschten Werte in ein Segment und verwenden Sie dann den klassifizierten Wert in einem Segment.
+Wenn Sie viele Segmentbedingungen haben, können diese die Segmentleistung schnell beeinträchtigen. Beispiel: **[!UICONTROL Seite]** **[!UICONTROL gleich]** `X` **[!UICONTROL ODER**[!UICONTROL  Seite **** gleich ]******ODER****]** Seite **** `Y`gleich`Z` mit Hunderten von verschiedenen Werten wiederholt. Anstatt diese Hunderte von Bedingungen aufzuschreiben, klassifizieren Sie alle gewünschten Werte in ein Segment und verwenden Sie dann den klassifizierten Wert in einem Segment.
 
 1. Erstellen Sie eine Classification für die Variable, mit der Sie arbeiten.
 2. Laden Sie die Classification-Vorlage herunter und öffnen Sie sie in der gewünschten Tabelle oder im Texteditor.

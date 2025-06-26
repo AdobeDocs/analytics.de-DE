@@ -4,54 +4,101 @@ keywords: Analysis Workspace
 title: Übersicht über Ordner
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 99%
+source-wordcount: '412'
+ht-degree: 95%
 
 ---
 
-# Ordner in Analysis Workspace
+# Übersicht über Ordner
 
-„Ordner“ in Analytics ist ein Ordnerverwaltungssystem, das auf der Landingpage von Adobe Analytics angezeigt wird. Sie können es auch aufrufen, indem Sie **Workspace** > **Projekte** auswählen.
+Ordner in Adobe Analytics sind auf der Workspace-Landingpage verfügbar, wenn Sie die Option &quot;[ und Projekte anzeigen“ ](../freeform-overview.md#show-selector).
 
-Mit Ordnern in Analysis Workspace können Sie Ihre Projekte organisieren und kategorisieren, um einfacher auf ihre Inhalte zugreifen zu können. Darüber hinaus ermöglicht ein gemeinsam genutzter Unternehmensordner Administratoren bzw. Administratorinnen die einfache Erstellung und Freigabe von Inhalten für alle Analysis Workspace-Benutzenden.
+Die Ordner in Workspace unterstützen Sie dabei, Projekte zu organisieren und zu kategorisieren. Mit der Ordnerfunktionalität können Sie Ordner und Unterordner erstellen, um Ihre Projekte zu verwalten.
 
-Bei einer langen Liste von Projekten kann die Navigation zu einem bestimmten Projekt eine Herausforderung sein. Mit der Ordnerfunktion können Sie Ordner und Unterordner erstellen, um Ihre Projekte zu verwalten. So können Sie Projekte bei Bedarf leichter finden.
+In Analysis Workspace gibt es zwei Arten von Ordnern: den Firmenordner und persönliche Ordner. Ein freigegebener Firmenordner ermöglicht es Admins, Inhalte zu erstellen und diese für alle Workspace-Benutzenden freizugeben.
 
-In Analysis Workspace gibt es zwei Arten von Ordnern: den Unternehmensordner und persönliche Ordner.
+Wenn Sie [Ordner und Projekte anzeigen](../freeform-overview.md#show-selector) ausgewählt haben, wird auf der Startseite „Projekte“ eine Liste Ihrer Projekte mit dem Firmenordner und allen von Ihnen erstellten persönlichen Ordnern angezeigt. Andernfalls wird nur eine Liste Ihrer Projekte angezeigt.
 
-Wenn Sie sich bei Analysis Workspace anmelden, wird auf der Startseite von „Projekte“ eine Liste Ihrer Projekte mit dem Unternehmensordner und allen von Ihnen erstellten persönlichen Ordnern angezeigt.
+
+## Firmenordner
+
+Der Firmenordner ist ein Ordner mit gemeinsamem Zugriff für Projekte, die Admins für alle Benutzenden freigeben können.
+
+Als Admin können Sie schnell Projekte für alle Benutzenden freigeben und Projekte für eine Benutzergruppe in Unterordnern gruppieren. Angenommen, Sie haben eine Reihe von Projekten, die Ihre Marketing-Fachleute als Ausgangspunkt für ihre Untersuchungen verwenden sollen. Sie können dann einen Marketing-Ordner im Firmenordner erstellen und ausgewählte Projekte im Marketing-Ordner ablegen. Dieser Ordner ermöglicht einen schnellen Direktzugriff auf freigegebene Projekte und erleichtert dem Marketing-Team das Auffinden allgemeiner Projekte.
+
+Bei der Anmeldung bei Workspace wird der Firmenordner automatisch zu Ihrer Projekt- und Ordnerliste hinzugefügt. Für Projekte, die im Unternehmensordner enthalten sind, sind keine spezifischen Berechtigungen erforderlich.
+
+### Administratoroptionen
+
+Admins verfügen über spezielle Berechtigungen, die dem Firmenordner zugewiesen sind. Beispielsweise können nur Admins Ordner oder Projekte im Firmenordner hinzufügen oder entfernen. Benutzende ohne Admin-Zugriffssteuerung können sich den Inhalt des Firmenordners anzeigen lassen.
+
+<!--
+![The Projects page showing the admin options.](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-options.png)
+
+Non-Admins have limited options.
+
+![The Projects page showing the non-admin options for folders.](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png)
+
+-->
+
+### Richtlinien
+
+Im Folgenden finden Sie einige Richtlinien für die Arbeit mit dem Firmenordner:
+
+- Admins können Projekte zum Firmenordner hinzufügen oder ein neues Projekt erstellen und dieses im Firmenordner speichern. Nicht-Admins können sich die Inhalte des Firmenordners anzeigen lassen.
+- Admins können im Firmenordner Unterordner erstellen.
+- Admins können im Firmenordner einen Ordner löschen, den andere Admins erstellt haben. Admins müssen sich möglicherweise mit anderen Admins abstimmen, um den Zugriff auf Ordner und Projekte konsistent zu halten.
+- Wenn Admins ein Projekt in den Firmenordner verschieben, wird der Ordner für alle freigegeben, selbst wenn die ursprünglichen freigegebenen Berechtigungen eingeschränkt waren.
+- Wenn Admins ein Projekt aus dem Firmenordner verschieben, werden die ursprünglichen oder vorherigen Freigabeberechtigungen beibehalten.
+
+
+<!--
+# Folders in Analysis Workspace
+
+Folders in Analytics is a folder management system displayed on the Adobe Analytics landing page and when **Workspace** > **Projects** is selected.
+
+Folders in Workspace helps you organize and categorize your projects for better retrieval and access. In addition, a shared Company folder allows Admins to easily create and share content with all Workspace users. 
+
+When you have a long list of projects, navigating to a specific project has its challenges. With the folders feature, you can create folders and sub-folders to manage your projects, making it easier to find projects when you need them.
+
+There are two types of folders in Workspace: the Company folder and personal folders.
+
+When you log in to Workspace, the Projects home page displays a list of your projects along with the Company folder and any personal folders that you created.
 
 ![](/help/analyze/analysis-workspace/build-workspace-project/assets/landing-page2.png)
 
-## Über den Unternehmensordner {#company-folder}
+## About the Company folder {#company-folder}
 
-Der Unternehmensordner ist ein Ordner mit gemeinsamem Zugriff für Projekte, die Administratoren bzw. Administratorinnen für alle Benutzenden freigeben können.
+The Company folder is a shared-access folder for projects that Admins can share with all users.
 
-Als Administrator bzw. Administratorin können Sie Projekte für alle Benutzenden mühelos freigeben und für eine Benutzergruppe in Unterordnern ablegen. Wenn Sie beispielsweise möchten, dass Ihre Marketer an bestimmten Projekten arbeiten, können Sie im Unternehmensordner einen Marketing-Ordner erstellen und diese Projekte dann im Marketing-Ordner ablegen. Dies ermöglicht einen schnellen direkten Zugriff auf freigegebene Projekte und das Marketing-Team weiß sofort, wo die freigegebenen Dateien abgelegt sind.
+As an Admin, you can quickly share projects with all users and group projects into subfolders for a user group. For example, if you have a set of projects that you want your marketers to use to start their research, you can create a Marketing folder within the Company folder then place selected projects within the Marketing folder. This quickly provides direct access to shared projects and it makes it easier for the Marketing team to know where to look for common files.
 
-Wenn sich ein(e) Benutzende(r) bei Analysis Workspace anmeldet, wird der Unternehmensordner automatisch zu seiner Projekt- und Ordnerliste hinzugefügt. Für Projekte, die im Unternehmensordner enthalten sind, sind keine spezifischen Berechtigungen erforderlich.
+When a user logs in to Workspace, the Company folder is automatically added to their project and folder list. There are no specific permissions for projects contained within the Company folder.
 
 
-### Optionen für Administratoren bzw. Administratorinnen {#admin-options}
+### Admin Options {#admin-options}
 
-Administratoren bzw. Administratorinnen verfügen über spezielle Berechtigungen in Bezug auf den Unternehmensordner. Beispielsweise können nur Administratoren bzw. Administratorinnen Ordner oder Projekte im Unternehmensordner hinzufügen oder entfernen. Benutzende ohne Administratorrechte können den Inhalt des Unternehmensordners anzeigen.
+Admins have special privileges assigned to the Company folder. For example, only Admins can add or remove folders or projects in the Company folder. Users without Admin-access can view the contents of the Company folder.
 
 ![](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-options.png)
 
-Die Optionen für Benutzende ohne Administratorrechte sind eingeschränkt.
+Non-Admins have limited options.
 
 ![](/help/analyze/analysis-workspace/build-workspace-project/assets/non-admin-folder-options.png){width="45%"}
 
-### Informationen zum Unternehmensordner {#company-folder-guidelines}
+### Company folder guidelines {#company-folder-guidelines}
 
-- Administratoren bzw. Administratorinnen können Projekte zum Unternehmensordner hinzufügen oder ein neues Projekt erstellen und im Unternehmensordner speichern. Benutzende ohne Administratorrechte können dann die Inhalte im Unternehmensordner anzeigen.
+-   Admins can add projects to the Company folder or create a new project and save it to the Company folder. Non-Admins can view the contents of the Company folder.
 
-- Administratoren bzw. Administratorinnen können im Unternehmensordner Unterordner erstellen.
+-   Admins can create subfolders within the Company folder.
 
-- Admins können im Firmenordner einen Ordner löschen, den andere Admins erstellt haben. Administratoren bzw. Administratorinnen müssen sich möglicherweise mit anderen Administratoren bzw. Administratorinnen abstimmen, um die Konsistenz von Ordnern und Projektzugriffen zu gewährleisten.
+-   Admins can delete a folder within the Company folder that another admin created. Admins may need to coordinate with other Admins to keep folder and project access consistent.
 
-- Wenn ein Administrator bzw. eine Administratorin ein Projekt in den Unternehmensordner verschiebt, wird das Projekt für alle freigegeben, selbst wenn die ursprünglichen Freigabeberechtigungen eingeschränkt waren.
+-   When an Admin moves a project to the Company folder, the project is shared with everyone even if the original shared privileges were restricted.
 
-- Wenn ein Administrator bzw. eine Administratorin ein Projekt aus dem Unternehmensordner verschiebt, werden die ursprünglichen oder vorherigen Freigabeberechtigungen beibehalten.
+-   When an Admin moves a project out of the Company folder, the original or previous sharing privileges are respected.
+
+
+-->

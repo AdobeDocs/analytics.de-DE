@@ -1,12 +1,12 @@
 ---
-description: Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
+description: Nicht alle in Segment Builder erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
 title: Data Warehouse-Segmentkompatibilität
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -45,14 +45,14 @@ Nicht alle in Segment Builder erstellten Segmente sind mit [!DNL Data Warehouse]
   </tr> 
   <tr> 
    <td> <b>Dimensionen</b> </td> 
-   <td>Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Beispielsweise werden diese Dimensionen nur in Analysis Workspace und Reports &amp; Analytics unterstützt: 
+   <td>Ziehen Sie eine Dimension per Drag-and-Drop in das Feld <span class="uicontrol">-Definitionen </span> Segment Builders, um mehr über die Produktkompatibilität zu erfahren. Beispielsweise werden diese Dimensionen nur in Analysis Workspace und Reports &amp; Analytics unterstützt: 
     <ul> 
      <li>Entryserver </li> 
      <li>Entrykategorie </li> 
      <li>Entrydatum </li> 
      <li>Rangansicht aller Suchseiten </li> 
     </ul> </td> 
-   <td> Ziehen Sie eine Dimension in das Feld <span class="uicontrol">Definitionen</span> des Segmentaufbaus, um die Produktkompatibilität zu ermitteln. Folgende Dimensionen werden beispielsweise nur in Data Warehouse unterstützt: 
+   <td> Ziehen Sie eine Dimension per Drag-and-Drop in das Feld <span class="uicontrol">-Definitionen </span> Segment Builders, um mehr über die Produktkompatibilität zu erfahren. Folgende Dimensionen werden beispielsweise nur in Data Warehouse unterstützt: 
     <ul> 
      <li>IP-Adresse </li> 
      <li>Seiten-URL </li> 

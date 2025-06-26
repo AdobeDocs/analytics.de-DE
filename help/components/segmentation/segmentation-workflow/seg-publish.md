@@ -3,14 +3,14 @@ description: Sie können das Segment für Marketingaktivitäten in der Zielgrupp
 title: Veröffentlichen von Segmenten in Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 63%
+source-wordcount: '1363'
+ht-degree: 58%
 
 ---
 
-# Veröffentlichen von Segmenten in Experience Cloud {#publish-segments}
+# Segmente veröffentlichen {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
@@ -23,14 +23,14 @@ ht-degree: 63%
 >abstract="In der Zielgruppenbibliothek erstellte Segmente sind sofort verfügbar und nicht von Analytics-Aktualisierungen abhängig."
 
 
-Durch das Veröffentlichen eines Adobe Analytics-Segments in Experience Cloud können Sie das Segment für Marketing-Aktivitäten in [!DNL Audience Manager] und in anderen Aktivierungskanälen verwenden, einschließlich [!DNL Advertising Cloud], [!DNL Target] und [!DNL Campaign] von Adobe.
+Sie können ein Adobe Analytics-Segment in Experience Cloud veröffentlichen, damit Sie es für Marketing-Aktivitäten in [!DNL Audience Manager] und in anderen Aktivierungskanälen verwenden können, einschließlich [!DNL Advertising Cloud], [!DNL Target] und [!DNL Campaign] von Adobe.
 
 Sie können Analytics-Segmente in weniger als acht Stunden in Experience Cloud veröffentlichen. Verwenden Sie diese Segmente, um Zielgruppen-Manager in Audience Manager für alle nachfolgenden Ziele zu aktivieren.
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://video.tv.adobe.com/v/36752?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -63,12 +63,12 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente verö
 >[!NOTE]
 >Einmal pro Woche werden alle Daten vollständig synchronisiert, um alle Unterschiede (Deltas) und Diskrepanzen zu berücksichtigen, die in der Vorwoche nicht erfasst wurden.
 
-## Veröffentlichen von Segmenten im [!UICONTROL Segment Builder]
+## Veröffentlichen von Segmenten in [!UICONTROL Segment Builder]
 
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]**
 1. Wählen Sie **[!UICONTROL Hinzufügen]** aus, um ein neues Segment zu erstellen.
    ![Veröffentlichen in Experience Cloud](assets/publish-ec.png)
-1. Geben Sie einen Titel und eine Beschreibung für das Segment an. Diese Felder sind vor dem Speichern erforderlich.
+1. Geben Sie einen Titel und eine Beschreibung für das Segment an. Diese Felder sind erforderlich, bevor Sie das Segment speichern können.
 1. Wählen Sie im Abschnitt **[!UICONTROL Experience Cloud-]** die Option **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
 
    >[!IMPORTANT]
@@ -79,14 +79,17 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente verö
 | Element | Beschreibung |
 |---|---|
 | **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]** | Wenn diese Option aktiviert ist, werden der Segmenttitel und die Segmentdefinition (d. h. die Shell-Zielgruppe, wie sie häufig in Werbeplattformen verwendet wird) sofort für Experience Cloud freigegeben, während die Segmentzugehörigkeit ausgewertet und alle 4 Stunden freigegeben wird. <br> Wenn die Zielgruppe einer Aktivität beispielsweise in [!DNL Target] zugewiesen wird, beginnt [!DNL Analytics] damit, IDs für Besucher zu senden, die sich für diese Experience Cloud- und [!DNL Target]-Zielgruppe qualifizieren. Ab diesem Zeitpunkt werden der Zielgruppenname und die entsprechenden Daten auf der [!DNL Audience Library] in Experience Cloud angezeigt. </br> |
-| **[!UICONTROL Fenster für die Zielgruppenerstellung]** | Der von Ihnen ausgewählte Zeitrahmen wird verwendet, um die Zielgruppe in einem fortlaufenden Kalender zu erstellen. „Letzte 30 Tage“ (Standard) bezieht zum Beispiel Besucher ein, die sich in den letzten 30 Tagen ab dem heutigen Datum für die Zielgruppe qualifiziert haben (NICHT ab dem ursprünglichen Datum, an dem das Segment erstellt wurde). |
+| **[!UICONTROL Fenster für die Zielgruppenerstellung]** | Der von Ihnen ausgewählte Zeitrahmen wird verwendet, um die Zielgruppe in einem fortlaufenden Kalender zu erstellen. Beispielsweise umfasst **[!UICONTROL Letzte 30 Tage]** (Standard) Besucher, die sich in den letzten 30 Tagen ab dem heutigen Datum für die Zielgruppe qualifiziert haben (NICHT ab dem ursprünglichen Datum, an dem das Segment erstellt wurde). |
 | **[!UICONTROL In Zielgruppenbibliothek erstellen]** | Die Segmente, die Sie erstellen und veröffentlichen, können ohne Latenz auf der [!DNL Audience Library] in Experience Cloud verfügbar gemacht werden. Sie sind nicht von Analytics-Aktualisierungen abhängig. Diese Segmente werden nicht Ihrer Beschränkung auf 75 veröffentlichte Segmente angerechnet. |
 | **[!UICONTROL x von 75 veröffentlicht]** | Zeigt die Anzahl der Segmente an, die Sie in Experience Cloud veröffentlicht haben. Klicken Sie auf den Link, um eine Liste der veröffentlichten Segmente mit zugehöriger Report Suite und Eigentümer anzuzeigen. |
 | **[!UICONTROL Speichern]** | Speichert dieses Segment. |
 
 ## Rückgängigmachen der Veröffentlichung oder Löschen von Segmenten
 
-Um ein Segment zu löschen, das in Experience Cloud veröffentlicht wurde, müssen Sie die Veröffentlichung zuerst aufheben. Um die Veröffentlichung eines Segments rückgängig zu machen, **deaktivieren** Sie einfach das Kontrollkästchen, das Sie zum Veröffentlichen aktiviert haben.
+>[!CAUTION]
+>
+>Um ein Segment zu löschen, das in Experience Cloud veröffentlicht wurde, müssen Sie die Veröffentlichung des Segments zunächst aufheben. Um die Veröffentlichung eines Segments aufzuheben, heben Sie einfach die Auswahl von **[!UICONTROL Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
+
 
 >[!NOTE]
 >
@@ -100,9 +103,7 @@ Anzeigen veröffentlichter Segmente:
 
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** > **[!UICONTROL Segmente]**.
 
-1. Zeigen Sie die Spalte **[!UICONTROL Veröffentlicht]** an. **[!UICONTROL Ja]** in dieser Spalte gibt an, dass das Segment in Experience Cloud veröffentlicht wurde. **[!UICONTROL Nein]** bedeutet, dass dies nicht der Fall ist.
-
-   ![Veröffentlichungsstatus](assets/publish-status.png)
+1. Zeigen Sie die Spalte **[!UICONTROL Veröffentlicht]** an. **[!UICONTROL Ja]** in dieser Spalte gibt an, dass das Segment in Experience Cloud veröffentlicht wurde. **[!UICONTROL Nein]** bedeutet, dass das Segment nicht veröffentlicht ist.
 
 ## Abrufen der [!DNL Audience Manager]-UUID
 

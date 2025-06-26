@@ -1,12 +1,12 @@
 ---
-description: Im Segment-Manager können Sie einen Arbeitsablauf einrichten, der das Genehmigen von Segmenten für verschiedene Anwendungsebenen, für bestimmte Abteilungen oder Gruppen umfasst und mit den Berichtserstellungsrichtlinien übereinstimmt.
-title: Segmente genehmigen
+description: Innerhalb des Segment-Managers können Sie einen Workflow einrichten, der die Genehmigung von Segmenten für verschiedene Anwendungsebenen, für bestimmte Abteilungen oder Gruppen sowie die Einhaltung von Berichtsrichtlinien umfasst.
+title: Genehmigen von Segmenten
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 24%
+ht-degree: 2%
 
 ---
 

@@ -4,83 +4,108 @@ description: Die Art und Weise, wie verschiedene Arten von Attribution Gewichtun
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '94'
+ht-degree: 45%
 
 ---
 
-# Attributionsmodelle und Lookback-Fenster
+# Attributionsmodelle, Container und Lookback-Fenster
 
-Das Attributionskonzept in Adobe Analytics erfordert zwei Komponenten:
+Das Attributionskonzept in Adobe Analytics umfasst drei Komponenten:
 
 * **Attributionsmodell:** Das Modell beschreibt die Verteilung der Konversionen auf die Hits in einer Gruppe. Zum Beispiel Erstkontakt oder Letztkontakt.
-* **Attributions-Lookback-Fenster:** Das Lookback-Fenster beschreibt, welche Gruppierungen der Hits für das jeweilige Modell berücksichtigt werden. Beispiel: Besuch oder Besucher.
+* **Container**: Der Container definiert den Umfang der Attribution oder die Gruppierung der Treffer für jedes Modell.
+* **Attributions-Lookback-Fenster** Das Lookback-Fenster beschreibt die Anzahl der Tage für den Lookback für das ausgewählte Modell.
+
 
 ## Attributionsmodelle
 
-| Benutzeroberflächensymbol | Attributionsmodell | Definition | Verwendungsbereiche |
-| --- | --- | --- | --- |
-| ![Letztkontakt](assets/last_touch1.png) | Letztkontakt | 100 % werden dem Touchpoint zugeschrieben, der zuletzt vor der Konversion aufgetreten ist. | Das einfachste und gängigste Attributionsmodell. Es wird häufig für Konversionen mit einem kurzen Überlegungszyklus verwendet. Letztkontakt wird häufig durch Teams verwendet, die Suchmaschinen-Marketing verwalten oder Keywords für die interne Suche analysieren. |
-| ![Erstkontakt](assets/first_touch.png) | Erstkontakt | 100 % werden dem Touchpoint zugeschrieben, der zuerst im Attributions-Lookback-Fenster angezeigt wird. | Ein weiteres allgemeines Attributionsmodell, das sich für die Analyse von Marketing-Kanälen eignet, die das Markenbewusstsein oder die Kundenakquise ankurbeln sollen. Es wird häufig von Teams für Display- oder Social-Media-Marketing verwendet, eignet sich jedoch auch für das Bewerten der Produktempfehlungseffektivität vor Ort. |
-| ![Selber Kontakt](assets/same_touch.png) | Selber Kontakt | 100 % werden dem Hit zugeschrieben, bei dem die Konversion erfolgte. Wenn ein Touchpoint nicht bei demselben Hit erfolgt wie eine Konversion, wird er unter „Keine“ zusammengefasst. | Dies ist ein hilfreiches Modell beim Evaluieren des zum Zeitpunkt der Konversion angezeigten Inhalts oder Kundenerlebnisses. Produkt- oder Designteams verwenden dieses Modell oftmals, um die Effektivität einer Seite zu bewerten, auf der die Konversion auftritt. |
-| ![Linear](assets/linear.png) | Linear | Ermöglicht dieselbe Gewichtung für jeden Touchpoint, der vor einer Konversion erfolgte. | Dieses Modell eignet sich für Konversionen mit längeren Überlegungszyklen oder Kundenerlebnissen, für die eine häufigere Kundeninteraktion erforderlich ist. Es wird oft von Teams genutzt, die die Benachrichtigungseffektivität von Apps messen, oder mit abonnementbasierten Produkten verwendet. |
-| ![U-förmig](assets/u_shaped.png) | U-förmig | Der ersten Interaktion werden 40 % zugeschrieben, der letzten Interaktion 40 %. Die verbleibenden 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints werden jedem 50 % zugeschrieben. | Ein passendes Modell für diejenigen, die Interaktionen schätzen, die eine Konversion gestartet oder beendet haben, aber dennoch unterstützende Interaktionen erkennen möchten. Die U-förmige Attribution wird oft durch Teams verwendet, die einen ausgeglicheneren Ansatz verwenden, jedoch Kanälen mehr Gewichtung zuteilen möchten, die eine Konversion gestartet oder beendet haben. |
-| ![J-förmig](assets/j_shaped.png) | J-förmig | Der letzten Interaktion werden 60 % zugeschrieben, der ersten Interaktion werden 20 % zugeschrieben. Die restlichen 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints der letzten Interaktion 75 % zu geschrieben und der ersten 25 %. | Dieses Modell ist ideal für diejenigen, die Eröffnung und Abschluss priorisieren, sich aber auf den Abschluss konzentrieren möchten. Die J-förmige Attribution wird oft durch Teams verwendet, die einen ausgeglicheneren Ansatz verwenden und Kanälen mehr Gewichtung zuteilen möchten, auf denen eine Konversion abgeschlossen wurde. |
-| ![Umgekehrt J-förmig](assets/inverse_j.png) | Umgekehrtes J | Der ersten Interaktion werden 60 % zugeschrieben, der letzten Interaktion 20 %. Die verbleibenden 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints der ersten Interaktion 75 % zu geschrieben und der letzten 25 %. | Dieses Modell ist ideal für diejenigen, die Eröffnung und Abschluss priorisieren, sich aber auf die Eröffnung konzentrieren möchten. Die Attribution mit umgekehrtem J wird oft durch Teams verwendet, die einen ausgeglicheneren Ansatz verwenden und Kanälen mehr Gewichtung zuteilen möchten, auf denen eine Konversion begonnen wurde. |
-| ![Benutzerspezifisch](assets/custom.png) | Anpassen | Ermöglicht Ihnen die Angabe der Gewichtungen, die Sie für Erstkontakt-Punkte, Letztkontakt-Punkte und dazwischen liegende Touchpoints festlegen möchten. Die angegebenen Werte werden auf 100 % normalisiert, selbst wenn die eingegebenen benutzerdefinierten Zahlen zusammen nicht 100 ergeben. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Interaktionen mit zwei Touchpoints wird der mittlere Parameter ignoriert. Die ersten und letzten Touchpoints werden dann auf 100 % normalisiert und die Gewichtung wird entsprechend zugeschrieben. | Dieses Modell ist perfekt für diejenigen, die eine vollständige Kontrolle über ihr Attributionsmodell wünschen und spezielle Bedürfnisse haben, die andere Zuordnungsmodelle nicht erfüllen. |
-| ![Zeitverfall](assets/time_decay.png) | Zeitverfall | Folgt einem exponentiellen Abfall mit einem benutzerdefinierten Parameter für die Halbwertszeit, wobei der Standardwert 7 Tage ist. Die Gewichtung der einzelnen Kanäle hängt von der Zeit ab, die zwischen dem Beginn des Touchpoints und der letztendlichen Konversion verstrichen ist. Die Formel, die zur Bestimmung der Gewichtung verwendet wird, lautet `2^(-t/halflife)`, wobei `t` die Zeit zwischen einem Touchpoint und einer Konversion ist. Alle Touchpoints werden dann auf 100 % normalisiert. | Ideal für Teams, die regelmäßig Videowerbung betreiben oder Marketing im Zusammenhang mit Ereignissen mit festem Datum durchführen. Je länger eine Konversion nach einem Marketing-Ereignis erfolgt, desto geringer ist die zugeschriebene Gewichtung. |
-| ![Beitrag](assets/participation.png) | Beitrag | 100 % Gewichtung für alle eindeutigen Touchpoints. Die Gesamtanzahl der Konversionen ist im Vergleich zu anderen Attributionsmodellen überhöht. Durch den Beitrag werden Kanäle dedupliziert, die mehrmals angezeigt werden. | Ausgezeichnet, um zu verstehen, wie häufig Kunden einer bestimmten Interaktion ausgesetzt sind. Medienunternehmen verwenden dieses Modell häufig zur Berechnung der Content Velocity. Einzelhandelsunternehmen verwenden dieses Modell oft, um zu verstehen, welche Teile ihrer Site für die Konversion von entscheidender Bedeutung sind. |
-| ![Algorithmisch](assets/algorithmic.png) | [Algorithmisch](algorithmic.md) | Verwendet statistische Verfahren, um die optimale Zuordnung für die ausgewählte Metrik dynamisch zu bestimmen. | Nützlich, um das Zuordnungsmodell für Ihr Unternehmen nicht auf Basis vager Annahmen oder unvollständiger Informationen auszuwählen. |
+{{attribution-models-details}}
+
+
+## Container
+
+{{attribution-container}}
+
 
 ## Lookback-Fenster
 
-Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend bei der Erfassung von Touchpoints berücksichtigt werden sollte. Attributionsmodelle, die der ersten Interaktion mehr Gewicht zuschreiben, sehen bei der Anzeige verschiedener Lookback-Fenster größere Unterschiede.
-
-* **Besuchs-Lookback-Fenster:** Sieht bis zum Beginn eines Besuchs zurück, bei dem eine Konversion stattgefunden hat. Besuchs-Lookback-Fenster sind klein, da sie nicht über den Besuch hinausblicken. Besuchs-Lookback-Fenster berücksichtigen die geänderte Besuchsdefinition in Virtual Report Suites.
-
-* **Besucher-Lookback-Fenster:** Betrachtet alle Besuche bis zum 1. des Monats des aktuellen Datumsbereichs. Besucher-Lookback-Fenster sind groß, da sie viele Besuche umfassen können. Bei der Besucher-Lookback-Funktion werden alle Werte ab dem Monatsanfang des Datumsbereichs des Berichts berücksichtigt. Wenn der Datumsbereich des Berichts beispielsweise zwischen dem 15. September und dem 30. September liegt, liegt der Besucher-Lookback-Datumsbereich zwischen dem 1. September und dem 30. September.
-
-* **Benutzerdefiniertes Lookback-Fenster:** Ermöglicht Ihnen, das Attributionsfenster über den Datumsbereich des Berichts hinaus auf maximal 90 Tage zu erweitern. Benutzerdefinierte Lookback-Fenster werden bei jeder Konversion im Berichtszeitraum ausgewertet. Beispiel: Für eine Konversion am 20. Februar würde ein Lookback-Fenster von 10 Tagen alle Dimensions-Touchpoints vom 10. bis 20. Februar im Attributionsmodell auswerten.
-
->[!BEGINSHADEBOX]
-
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefiniertes Lookback-Fenster](https://video.tv.adobe.com/v/40039?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
-
->[!ENDSHADEBOX]
+{{attribution-lookback-window}}
 
 
 ## Beispiel
 
-Siehe folgendes Beispiel:
+{{attribution-example}}
 
-1. Am 15. September gelangt ein Besucher über Paid Search zu Ihrer Site und verlässt sie dann.
-2. Am 18. September gelangt der Besucher erneut über einen Link in sozialen Medien zu Ihrer Site, den er von einem Freund erhalten hat. Er fügt mehrere Artikel zum Warenkorb hinzu, erwirbt aber nichts.
-3. Am 24. September sendet Ihr Marketing-Team eine E-Mail mit einem Coupon für einige der Artikel im Warenkorb. Der Coupon wird angewendet, der Besucher ruft aber mehrere andere Websites auf, um zu sehen, ob andere Coupons verfügbar sind. Er findet einen weiteren über eine Display-Anzeige und kauft dann letztendlich für 50 Euro ein.
 
-Je nach Lookback-Fenster und Attributionsmodell erhalten Kanäle eine unterschiedliche Gewichtung. Im Folgenden finden Sie einige interessante Beispiele:
+<!--
+## Attribution models
 
-* Bei Verwendung von **Erstkontakt** und einem **Besuchs-Lookback-Fenster** betrachtet die Attribution nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs von 50 Euro zugeschrieben werden.
-* Mithilfe von **Erstkontakt** und einem **Besucher-Lookback-Fenster** betrachtet die Attribution alle drei Besuche. Paid Search kam zuerst, sodass Paid Search 100 % des Kaufs von 50 Euro zugeschrieben werden.
-* Bei Verwendung eines **linearen** Fensters und eines **Besuchs-Lookback-Fensters** wird die Gewichtung zwischen E-Mail und Display-Anzeige aufgeteilt. Beiden Kanälen werden jeweils 25 Euro zugeschrieben.
-* Die Gewichtung wird mithilfe eines **linearen** Fensters **und eines** Besucher-Lookback-Fensters zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt. Jedem Kanal werden für diesen Kauf 12,50 Euro zugeschrieben.
-* Mithilfe des **J-förmigen** Fensters und eines **Besucher-Lookback-Fensters** wird die Gewichtung zwischen Paid Search, Social Media und Display-Anzeige aufgeteilt.
-   * Der Display-Anzeige werden 60 %, also 30 Euro, zugeschrieben.
-   * Paid Search werden 20 %, also 10 Euro, zugeschrieben.
-   * Die restlichen 20 % werden zwischen Social Media und E-Mail aufgeteilt (jeweils 5 Euro).
-* Bei Verwendung von **Zeitverfall** und einem **Besucher-Lookback-Fenster** wird die Gewichtung zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt. Verwendung der standardmäßigen 7-Tage-Halbwertszeit:
-   * Abstand von 0 Tagen zwischen Display-Touchpoint und Konversion. `2^(-0/7) = 1`
-   * Abstand von 0 Tagen zwischen E-Mail-Touchpoint und Konversion. `2^(-0/7) = 1`
-   * Abstand von 6 Tagen zwischen Social-Media-Touchpoint und Konversion. `2^(-6/7) = 0.552`
-   * Abstand von 9 Tagen zwischen Paid-Search-Touchpoint und Konversion. `2^(-9/7) = 0.41`
-   * Die Normalisierung dieser Werte führt zu Folgendem:
-      * Display-Anzeige: 33,8 %, 16,88 Euro
-      * E-Mail: 33,8 %, 16,88 Euro
-      * Social Media: 18,6 %, 9,32 Euro
-      * Paid Search: 13,8 %, 6,92 Euro
-* Bei Verwendung **Teilnahme** und eines **Besucher-Lookback-Fensters** werden die gesamten 50 USD Paid Search, Social, E-Mail und Display zugeordnet. Wenn Sie den Umsatz als Trend-Bericht und nicht als Rangbericht anzeigen, sehen Sie die 50 $ an jedem Tag, an dem der Besucher einen bestimmten Marketing-Kanal berührt hat.
+| UI icon | Attribution model | Definition | When to use |
+| --- | --- | --- | --- |
+| ![Last Touch](assets/last_touch1.png) | Last Touch | Gives 100% credit to the touch point occurring most recently before conversion. | The most basic and common attribution model. It is frequently used for conversions with a short consideration cycle. Last Touch is commonly used by teams managing search marketing or analyzing internal search keywords. |
+| ![First Touch](assets/first_touch.png) | First Touch | Gives 100% credit to the touch point first seen in the attribution lookback window. | Another common attribution model useful for analyzing marketing channels intended to drive brand awareness or customer acquisition. It is frequently used by display or social marketing teams, but is also great for assessing onsite product recommendation effectiveness. |
+| ![Same Touch](assets/same_touch.png) | Same Touch | Gives 100% credit to the very hit where the conversion occurred. If a touch point does not happen on the same hit as a conversion, It is bucketed under "None". | A helpful model when evaluating the content or user experience that was presented immediately at the time of conversion. Product or design teams often use this model to assess the effectiveness of a page where conversion happens. |
+| ![Linear](assets/linear.png) | Linear | Gives equal credit to every touch point seen leading up to a conversion. | Useful for conversions with longer consideration cycles or user experiences that need more frequent customer engagement. It is often used by teams measuring mobile app notification effectiveness or with subscription-based products. |
+| ![U-Shaped](assets/u_shaped.png) | U-Shaped | Gives 40% credit to the first interaction, 40% credit to the last interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 50% credit is given to both. | A great model for those who value interactions that introduced or closed a conversion, but still want to recognize assisting interactions. U-Shaped attribution is commonly used by teams who take a more balanced approach but want to give more credit to channels that found or closed a conversion. |
+| ![J-Shaped](assets/j_shaped.png) | J-Shaped | Gives 60% credit to the last interaction, 20% credit to the first interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the last interaction, and 25% credit is given to the first. | This model is great for those who prioritize finders and closers, but want to focus on closing interactions. J-Shaped attribution is frequently used by teams who take a more balanced approach and want to give more credit to channels that closed a conversion. |
+| ![Inverse J-Shaped](assets/inverse_j.png) | Inverse J | Gives 60% credit to the first touch point, 20% credit to the last touch point, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the first interaction, and 25% credit is given to the last. | This model is ideal for those who prioritize finders and closers, but want to focus on finding interactions. Inverse J attribution is used by teams who take a more balanced approach and want to give more credit to channels that initiated a conversion. |
+| ![Custom](assets/custom.png) | Custom | Allows you to specify the weights you want to give to first touch points, last touch points, and any touch points in between. Values specified are normalized to 100% even if the custom numbers entered do not add to 100. For conversions with a single touch point, 100% credit is given. For interactions with two touch points, the middle parameter is ignored. The first and last touch points are then normalized to 100%, and credit is assigned accordingly. | This model is perfect for those who want full control over their attribution model and have specific needs that other attribution models do not fulfill. |
+| ![Time Decay](assets/time_decay.png) | Time-Decay | Follows an exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or who market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
+| ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding how often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](algorithmic.md) |  Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
+
+## Lookback windows
+
+A lookback window is the amount of time a conversion should look back to include touch points. Attribution models that give more credit to first interactions see larger differences when viewing different lookback windows.
+
+* **Visit lookback window:** Looks back up to the beginning of a the visit where a conversion happened. Visit lookback windows are narrow, as they don't look beyond the visit. Visit lookback windows respect the modified visit definition in virtual report suites.
+
+* **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. Visitor lookback considers all values from the beginning of the month of the report's date range. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
+
+* **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range, up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on February 20, a lookback window of 10 days would evaluate all dimension touchpoints from February 10 - February 20 in the attribution model.
+
+>[!BEGINSHADEBOX]
+  
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
+  
+>[!ENDSHADEBOX]
+
+
+## Example
+
+Consider the following example:
+
+1. On September 15, a visitor arrives to your site through a paid search advertisement, then leaves.
+2. On September 18, the visitor arrives to your site again through a social media link they got from a friend. They add several items to their cart, but do not purchase anything.
+3. On September 24, your marketing team sends them an email with a coupon for some of the items in their cart. They apply the coupon, but visit several other sites to see if any other coupons are available. They find another through a display ad, then ultimately make a purchase for $50.
+
+Depending on your lookback window and attribution model, channels receive different credit. The following are some notable examples:
+
+* Using **first touch** and a **visit lookback window**, attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase.
+* Using **first touch** and a **visitor lookback window**, attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase.
+* Using **linear** and a **visit lookback window**, credit is divided between email and display. Both of these channels each get $25 credit.
+* Using **linear** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase.
+* Using **J-shaped** and a **visitor lookback window**, credit is divided between paid search, social, email, and display.
+  * 60% credit is given to display, for $30.
+  * 20% credit is given to paid search, for $10.
+  * The remaining 20% is divided between social and email, giving $5 to each.
+* Using **Time Decay** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Using the default 7-day half-life:
+  * Gap of 0 days between display touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 0 days between email touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 6 days between social touch point and conversion. `2^(-6/7) = 0.552`
+  * Gap of 9 days between paid search touch point and conversion. `2^(-9/7) = 0.41`
+  * Normalizing these values results in the following:
+    * Display: 33.8%, getting $16.88
+    * Email: 33.8% getting $16.88
+    * Social: 18.6%, getting $9.32
+    * Paid Search: 13.8%, getting $6.92
+* Using **Participation** and a **visitor lookback window**, the full $50 is attributed to paid search, social, email, and display. If you view revenue as a trended report instead of a ranked report, you would see the $50 on each respective day that the visitor touched a given marketing channel.
 
 >[!TIP]
 >
->Andere Konversionsereignisse wie Bestellungen oder benutzerspezifische Ereignisse werden ebenfalls aufgeteilt, wenn die Gewichtung für mehrere Kanäle erfolgt. Wenn beispielsweise zwei Kanäle mit einem linearen Attributionsmodell zu einem benutzerspezifischen Ereignis beitragen, erhalten beide Kanäle 0,5 des benutzerspezifischen Ereignisses. Diese Ereignis-Teilbereiche werden über alle Besuche summiert und dann zur Berichterstellung auf die nächste Ganzzahl gerundet.
+>Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+
+-->

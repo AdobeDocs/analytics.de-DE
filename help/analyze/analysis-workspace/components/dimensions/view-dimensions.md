@@ -4,29 +4,57 @@ title: Dimensionsvorschau
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
+source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 90%
+source-wordcount: '106'
+ht-degree: 21%
 
 ---
 
-# Dimensionsvorschau
+# Vorschau von Dimensionen in Analysis Workspace
 
-Bewegen Sie den Cursor über das Informations-Symbol neben einer Dimension, um die obersten fünf Werte für nicht zeitabhängige Dimensionen (und 15 für zeitabhängige Dimensionen) anzuzeigen. Bisher waren diese Werte statisch (d. h. die fünf ausgewählten Werte blieben unverändert).
+Sie können die [Komponenteninformationen](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) für eine Komponente verwenden, um die obersten Elemente für eine Dimension anzuzeigen.
 
-![](assets/dimension-preview.png)
+![Komponenteninformationen](assets/component-info.png)
 
-Jetzt zeigen wir standardmäßig dynamische Werte anstelle von statischen an, mit der Option, diese in statische Werte umzuwandeln. Wissenswertes:
+<!--
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
 
-* Bei einer Aktualisierung Ihrer Daten werden die Spalten der dynamischen Dimension aktualisiert, um die aktuellen 5/15 Dimensionselemente anzuzeigen.
-* Eine dynamische Dimensionsspalte, die kopiert oder bewegt wird, wird statisch.
-* Wenn Sie mit dem Mauszeiger über eine statische Dimensionsspalte fahren, wird ein Schlosssymbol angezeigt, das angibt, dass es sich bei der Dimension um eine statische handelt.
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
 
-![](assets/dimension_static.png)
+![Dimension column popup highlighting the lock icon.](assets/dimension_static.png)
+
+-->
+
 
 ## Anzeige von Dimensionselementen
 
-Wenn Sie auf eine Dimension zeigen und auf den grauen, nach rechts zeigenden Pfeil daneben klicken, wird eine Liste der jeweiligen Dimensionselemente angezeigt. Dimensionselementlisten zeigen normalerweise die Top-Elemente der letzten 30 Tage an.
+Wenn Sie ![ChevronRight) für ](/help/assets/icons/ChevronRight.svg) Dimension im Bedienfeld „Komponenten“ auswählen, wird eine Liste mit den Dimensionselementen angezeigt. Die Liste der Dimensionselemente zeigt normalerweise die wichtigsten Elemente der letzten 30 Tage an. Wenn weitere Elemente verfügbar sind, wählen Sie außerhalb des für das Bedienfeld ausgewählten Datumsbereichs den Link aus, um weitere Elemente anzuzeigen. Beispiel: **[!UICONTROL Elemente aus dem letzten Monat anzeigen]**.
 
-Wenn Sie nach unten zum unteren Rand der Liste scrollen, sehen Sie **[!UICONTROL Top-Elemente aus den letzten 18 Monaten anzeigen]**. Klicken Sie auf diese Option, um die Top-Dimensionselemente der letzten 547 Tage anzuzeigen.
+![Dimensionselemente anzeigen](assets/dimension-items.png)
+
+
+<!--
+# Preview dimensions
+
+Hover over the information (i) icon next to a dimension. This shows the top 5 values for non-time dimensions (and 15 for time dimensions). We used to keep those values static (i.e., the 5 values picked never changed).
+
+![](assets/dimension-preview.png)
+
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
+
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
+
+![](assets/dimension_static.png)
+
+## Show dimension items
+
+When you hover over a dimension and click the grey right-arrow next to it, a list of its dimension items appears. Any list of dimension items usually shows the top items for the last 30 days.
+
+If you scroll down to the bottom of the list, you see **[!UICONTROL Show Top Items From Last 18 Months]**. Click this option to see top dimension items from the last 547 days.
+
+-->

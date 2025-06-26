@@ -3,45 +3,49 @@ description: Behebung von Fehlern und Erkennen von Problemen im Zusammenhang mit
 title: Fehlerbehebung bei der Segmentierung
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 99%
+source-wordcount: '166'
+ht-degree: 50%
 
 ---
 
 # Fehlerbehebung bei der Segmentierung
 
-## Fehler: „Inkompatible Elemente in diesem Segment“  {#incompatible}
+<!-- Looks like this is not part anymore of the current UI.
 
-Dieser Fehler wird angezeigt, wenn Sie versuchen, ein Segment im Data Warehouse-Ordner zu speichern und das Segment Elemente enthält, die mit Data Warehouse nicht kompatibel sind. Um den Fehler zu beheben, befolgen Sie eine der beiden folgenden Möglichkeiten:
+## Error: "Incompatible elements in this segment" {#incompatible}
 
-* Speichern Sie das Segment in einem anderen Ordner.
-* Entfernen oder ändern Sie die inkompatiblen Segmentbestandteile.
+This error occurs when you try to save a segment in the Data Warehouse folder where the segment contains elements not compatible with Data Warehouse. To resolve this error, do one of two things:
+
+* Save the segment in a different folder 
+* Remove or change the incompatible portions of the segment.
+
+-->
 
 ## Warum gibt mein Segment überhaupt keine Daten zurück? {#no-data}
 
 Mögliche Gründe:
 
-* Inverse Verschachtelung – beispielsweise die Verschachtelung eines Containers für Besucher in einem Container für Besuche.
+* Umgekehrte Verschachtelung - z. B. Verschachteln eines ![User](/help/assets/icons/User.svg)**[!UICONTROL Visitor]**-Containers unter einem ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]**-Container.
 * Der Bericht unterstützt keine Segmentierung.
 * Es stimmen keine Daten mit den Segmentierungskriterien überein.
 
-## Warum sehe ich das Segment, das ich erstellt habe, nicht im Segment-Manager? {#invisible}
+## Warum kann ich das Segment, das ich erstellt habe, nicht im Segment-Manager sehen? {#invisible}
 
 Mögliche Gründe:
 
 * Einige Dimensionen sind nur in Data Warehouse und nicht im Segment-Manager verfügbar.
 * Das Segment ist nur für eine bestimmte Report Suite aktiviert.
 * Ein freigegebenes Segment wurde möglicherweise von einem anderen Benutzer gelöscht.
-* Segmente konnten aufgrund eines Problems mit dem Datencenter oder dem Browser-Cache nicht geladen werden.
+* Segmente konnten aufgrund eines Problems mit dem Rechenzentrum oder dem Browser-Cache nicht geladen werden.
 * Das Segment wurde nicht gespeichert.
 * Die IP-Adresse ist möglicherweise auf Seiten des Benutzers gesperrt.
 
-## Warum sind die Seitendaten, die nach dem Anwenden eines Segments angezeigt werden, falsch? {#page-data}
+## Warum sind die Daten, die nach der Anwendung eines Segments angezeigt werden, falsch? {#page-data}
 
 Mögliche Gründe:
 
-* Die Regeln/Operatoren sind für das erforderliche Ergebnis inkorrekt.
-* Container wurden falsch auf das Segment angewendet.
+* Regeln oder Operatoren sind für das erforderliche Ergebnis falsch.
+* Falsche Verwendung von Containern im Segment.
 * Traffic-Variablen, die zur Segmentierung verwendet werden, sind nicht richtig eingestellt oder abgelaufen.

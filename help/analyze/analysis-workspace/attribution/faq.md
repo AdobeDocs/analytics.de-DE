@@ -1,13 +1,13 @@
 ---
 title: Häufig gestellte Fragen zu Attribution
-description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution.
+description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution .
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1238'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++## Was ist der Zeileneintrag „Keine“ bei der Verwendung von Attribution?
 
-Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darstellt, die ohne Touchpoints im Lookback-Fenster stattgefunden haben. Um die Anzahl der Konversionen zu reduzieren, die dem Zeilenelement „Keine“ zugeordnet sind, verwenden Sie ein benutzerdefiniertes Lookback-Fenster mit einem längeren Lookback-Zeitraum.
+Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darstellt, die ohne Touchpoints im Lookback-Fenster stattgefunden haben. Um die Anzahl der Konversionen zu reduzieren, die dem Zeileneintrag „Keine“ zugeordnet sind, versuchen Sie, ein benutzerdefiniertes Lookback-Fenster mit einem längeren Lookback-Zeitraum zu verwenden.
 
 +++
 
@@ -106,11 +106,11 @@ Ja, Klassifizierungen werden vollständig unterstützt.
 
 Ja, die meisten Datenquellen werden unterstützt. Bei Datenquellen auf Zusammenfassungsebene ist eine Attribution nicht möglich, da diese Datenquellen nicht mit einer Analytics-Besucherkennung verknüpft sind. 
 
-Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. Transaktions-ID-Datenquellen erfahren nicht die spezielle Verarbeitung, die normalerweise beim herkömmlichen Reporting verwendet wird. Anders formuliert: Bei der Berichtszeitverarbeitung werden bei Transaktions-ID-Treffern eVar-Werte von Treffern übertragen, die nahe dem Zeitstempel des Transaktions-ID-Treffers auftreten. Die Werte werden nicht aus Treffern übernommen, die in der Nähe des Zeitpunkts der ursprünglichen Transaktion aufgetreten sind.
+Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. Transaktions-ID-Datenquellen erfahren nicht die spezielle Verarbeitung, die normalerweise beim herkömmlichen Reporting verwendet wird. Anders ausgedrückt: Bei Verwendung der Berichtszeitverarbeitung werden bei Transaktions-ID-Treffern eVar-Werte aus Treffern übertragen, die nahe dem Zeitstempel des Transaktions-ID-Treffers auftreten. Die Werte werden nicht aus Treffern weitergegeben, die in der Nähe des Zeitpunkts der ursprünglichen Transaktion aufgetreten sind.
 
-Wenn möglich, beruht die Attribution auf dem MID-Spaltenwert, der innerhalb eines Ereignisses in der Datenquelle gesendet wird, und nicht auf einem beibehaltenen Wert. Das Attributionsmodell wird ad hoc auf die MID-Spaltenwerte in der Datenquelle angewendet. Wenn Sie beispielsweise die Attribution „Letztkontakt“ verwenden, beginnt das Modell bei jeder Instanz einer Metrik und geht in den Treffern sequenziell zurück, bis das Modell den letzten in der MID-Spalte beobachteten Wert erreicht.
+Wenn möglich, basiert die Attribution auf dem MID-Spaltenwert, der innerhalb eines Ereignisses in der Datenquelle gesendet wird, und nicht auf einem persistenten Wert. Das Attributionsmodell wird ad hoc auf die MID-Spaltenwerte in der Datenquelle angewendet. Wenn Sie beispielsweise die Attribution [Letztkontakt“ verwenden](models.md) beginnt das Modell mit jeder Instanz einer Metrik. und in den Treffern sequenziell rückwärts geht, bis das Modell den letzten in der Spalte MID beobachteten Wert erreicht.
 
-Wenn dies nicht möglich ist, verwendet die Attribution den MID-Wert im „vorherigen Datensatz“ in der Datenquelle zur Auswertung. Dieser vorherige Datensatz wird möglicherweise nicht sequenziell nach Zeitstempel geordnet, da AA keine korrupten Daten unterstützt.
+Wenn nicht möglich, wird bei der Attribution der MID-Wert im *vorherigen Datensatz* in der Datenquelle zur Auswertung verwendet. Dieser vorherige Datensatz wird möglicherweise nicht sequenziell nach Zeitstempel geordnet, da AA keine korrupten Daten unterstützt.
 
 Da die Datensätze nicht sequenziell angeordnet werden, können sich die erwarteten Werte aus der Anwendung der Persistenz auf die Zeit auswirken, die zwischen dem Zeitstempel der bereitgestellten Transaktions-ID und der ursprünglichen Transaktion vorhanden ist.
 

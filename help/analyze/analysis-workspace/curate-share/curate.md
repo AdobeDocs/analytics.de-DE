@@ -5,16 +5,16 @@ title: Kuratieren von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 65%
 
 ---
 
 # Kuratieren von Projekten
 
-Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn ein Empfänger das Projekt öffnet, wird ihm eine begrenzte Anzahl von Komponenten angezeigt, die Sie für ihn kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
+Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn ein Empfänger das Projekt öffnet, sieht er/sie einen begrenzten Satz von Komponenten, die Sie für ihn kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
 
 >[!NOTE]
 > Produktprofile bestimmen als Hauptmechanismen, welche Komponenten ein Anwender sehen kann. Sie werden über die Adobe Experience Cloud Admin Console verwaltet. Kuratierung ist ein Sekundärfilter.
@@ -22,47 +22,46 @@ Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kuratieren von Projekten](https://video.tv.adobe.com/v/328056?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kuratieren von Projekten](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 ## Anwenden der Projektkuratierung
 
-1. Klicken Sie auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
-Die im Projekt verwendeten Komponenten werden automatisch hinzugefügt.
-   **Hinweis**: Wenn ein Projekt mehrere Report Suites hat, wird für jede Report Suite im Projekt ein Feld zum Kuratieren angezeigt.
-1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die freizugebenden Komponenten aus der linken Leiste in das Feld [!UICONTROL Komponenten kuratieren].
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
+1. Wählen Sie **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
+Die Komponenten, die im Projekt verwendet werden, werden automatisch hinzugefügt.
+Wenn ein Projekt über mehrere Report Suites verfügt, wird für jede Report Suite im Projekt ein kuratiertes Ablageziel angezeigt.
+1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die Komponenten, die Sie freigeben möchten, aus dem linken Bereich in den Ablagebereich **[!UICONTROL Komponenten kuratieren]** für die Datenansicht.
+1. Wählen Sie **[!UICONTROL Fertig]** aus.
 
-Eine Kuratierung kann auch über das Menü [!UICONTROL Freigeben] angewendet werden, indem Sie auf **[!UICONTROL Kuratieren und freigeben]** klicken. Diese Option kuratiert das Projekt automatisch auf die im Projekt verwendeten Komponenten. Sie können weitere Komponenten hinzufügen, wie oben beschrieben.
+Die Kuratierung kann auch über das Menü [!UICONTROL Freigeben] angewendet werden, indem Sie **[!UICONTROL Kuratieren und Freigeben]** auswählen. Diese Option kuratiert das Projekt automatisch auf die im Projekt verwendeten Komponenten. Sie können weitere Komponenten hinzufügen, wie oben beschrieben.
 
 ![](assets/curation-field.png)
 
-## Ansicht des kuratierten Projekts
+Wenn ein Empfänger ein kuratiertes Projekt öffnet, wird ihm nur der von Ihnen definierte kuratierte Komponentensatz angezeigt:
 
-Wenn ein Empfänger ein kuratiertes Projekt öffnet, wird ihm nur der ausgewählte Satz der von Ihnen definierten Komponenten angezeigt:
-
-![](assets/curate-project.png)
 
 ## Entfernen der Projektkuratierung
 
 So entfernen Sie die Projektkuratierung und stellen Sie den vollständigen Satz der Komponenten in der linken Leiste wieder her:
 
-1. Klicken Sie auf **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
-1. Klicken Sie auf **[!UICONTROL Kuratierung entfernen]**.
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
+1. Wählen Sie **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
+1. Wählen Sie **[!UICONTROL Kuration entfernen]** aus.
+1. Wählen Sie **[!UICONTROL Fertig]** aus.
 
 ## Kuratierung einer Virtual Report Suite
 
-Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite kuratieren](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=de).
+Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite kuratieren](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
-> Die Kuratierung einer Virtual Report Suite wird immer vor der Projektkuratierung ausgeführt. Das bedeutet, dass selbst dann, wenn Ihr kuratiertes Projekt bestimmte Komponenten enthält, diese herausgefiltert werden, wenn die kuratierte Virtual Report Suite diese nicht enthält.
+>
+> Die Kuratierung einer Virtual Report Suite wird immer vor der Projektkuratierung ausgeführt. Selbst wenn Ihr kuratiertes Projekt bestimmte Komponenten enthält, werden diese herausgefiltert, wenn die kuratierte Virtual Report Suite diese Komponenten nicht enthält.
+> 
 
-## Option „Alle anzeigen“ für Komponenten
+## Optionen zur Komponentenkuratierung
 
-In einem kuratierten Projekt oder einer Virtual Report Suite wird der Empfängerin bzw. dem Empfänger die Option **[!UICONTROL Alle anzeigen]** für Komponenten in der linken Leiste angezeigt. [!UICONTROL Alle anzeigen] zeigt verschiedene Komponentensätze an, je nach:
+In einem kuratierten Projekt oder einer Virtual Report Suite wird dem Empfänger in der linken Leiste die Option **[!UICONTROL Alle anzeigen]** angezeigt. [!UICONTROL Alle anzeigen] zeigt verschiedene Komponentensätze an, je nach:
 
 * Berechtigungsebene der Person (Admin oder Nicht-Admin)
 * Projektrolle (Inhaber/Bearbeiter oder nicht)
