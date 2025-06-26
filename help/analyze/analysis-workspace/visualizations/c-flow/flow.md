@@ -46,7 +46,7 @@ Damit können Sie:
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://video.tv.adobe.com/v/3411349?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Jede Spalte könnte eine andere Dimension anzeigen. Ziehen Sie einen Dimension p
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen bei der Flussvisualisierung](https://video.tv.adobe.com/v/328039?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen bei der Flussvisualisierung](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
