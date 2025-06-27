@@ -54,7 +54,7 @@ In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente in einer Fallout-Visualisierung vergleichen](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente in einer Fallout-Visualisierung vergleichen](https://video.tv.adobe.com/v/328032?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

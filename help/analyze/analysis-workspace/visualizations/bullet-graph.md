@@ -45,7 +45,7 @@ Das Lineardiagramm enthält einen einzigen primären Messwert (z. B. aktueller U
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung Bullet-Diagramm](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung Bullet-Diagramm](https://video.tv.adobe.com/v/41509/?quality=12/?quality=12&captions=ger){target=&#34;_blank&#34;} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -20,7 +20,7 @@ Beispielsweise können Sie zusätzlich zu einer Seitendimension weitere Dimensio
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensionaler Fallout](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensionaler Fallout](https://video.tv.adobe.com/v/327466?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

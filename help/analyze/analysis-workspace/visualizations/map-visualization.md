@@ -63,7 +63,7 @@ Die ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Zuordnungsvisualisierun
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://video.tv.adobe.com/v/41504/?quality=12&captions=ger){target=&#34;_blank&#34;} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Um Einstellungen für die Visualisierung zu definieren, wählen Sie ![Setting](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35171/?quality=12&captions=ger)
 
 -->
 
