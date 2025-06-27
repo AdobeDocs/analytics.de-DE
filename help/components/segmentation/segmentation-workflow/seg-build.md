@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 65%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 65%
 >abstract="Vergleicht die Daten dieses Segments mit den Daten der Datenansicht. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl der Daten in der Datenansicht aus den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
 
 
-Das Dialogfeld **[!UICONTROL Segment Builder]** wird verwendet, um neue Segmente zu erstellen oder vorhandene Segmente zu bearbeiten. Das Dialogfeld heißt **[!UICONTROL Neues Segment]** oder **[!UICONTROL Segment bearbeiten]** für Segmente, die Sie über den [[!UICONTROL Segment]Manager erstellen oder verwalten](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zum Bearbeiten vorhandener Segmente verwendet. Das Dialogfeld heißt **[!UICONTROL Neues Segment]** oder **[!UICONTROL Segment bearbeiten]** bei Segmenten, die Sie über den [[!UICONTROL Segment-Manager] erstellen oder verwalten](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
 >[!BEGINTABS]
 
@@ -36,7 +36,7 @@ Das Dialogfeld **[!UICONTROL Segment Builder]** wird verwendet, um neue Segmente
 
 ![Fenster „Segmentdetails“ mit Feldern und Optionen, die im nächsten Abschnitt beschrieben werden.](assets/new-segment.png)
 
->[!TAB Segment erstellen oder bearbeiten]
+>[!TAB Erstellen oder Bearbeiten von Segmenten]
 
 ![Fenster „Segmentdetails“ mit Feldern und Optionen, die im nächsten Abschnitt beschrieben werden.](assets/edit-segment.png)
 
@@ -47,49 +47,49 @@ Das Dialogfeld **[!UICONTROL Segment Builder]** wird verwendet, um neue Segmente
    | Element | Beschreibung |
    | --- | --- |
    | **[!UICONTROL Report Suite]** | Sie können die Report Suite für das Segment auswählen. |
-   | **[!UICONTROL Segment nur für Projekte]** | Ein Informationsfeld, in dem erläutert wird, dass das Segment nur in dem Projekt sichtbar ist, in dem es erstellt wurde, und nicht zur Komponentenliste hinzugefügt wird. Aktivieren Sie **[!UICONTROL Dieses Segment für alle Projekte verfügbar machen und der Komponentenliste hinzufügen]** um diese Einstellung zu ändern. Dieses Infofeld wird nur angezeigt, wenn Sie ein [Schnellsegment](seg-quick.md) erstellen und das Schnellsegment mithilfe von **[!UICONTROL Open Builder]** in der [!UICONTROL Schnellsegment]-Oberfläche in ein reguläres Segment umwandeln. |
-   | **[!UICONTROL Titel]** ![Erforderlich](/help/assets/icons/Required.svg) | Benennen Sie das Segment, z. B. `Last month mobile visitors`. |
-   | **[!UICONTROL Beschreibung]** | Geben Sie eine Beschreibung für das Segment an, z. B. `Segment to define the mobile customers for the last month`. |
+   | **[!UICONTROL Projektspezifische Segmente]** | Ein Informationsfeld, in dem erklärt wird, dass das Segment nur in dem Projekt sichtbar ist, in dem es erstellt wurde, und dass das Segment nicht zu Ihrer Komponentenliste hinzugefügt wird. Aktivieren Sie **[!UICONTROL Dieses Segment für alle Projekte verfügbar machen und der Komponentenliste hinzufügen]**, um diese Einstellung zu ändern. Dieses Infofeld wird nur angezeigt, wenn Sie ein [Schnellsegment](seg-quick.md) erstellen und dieses mithilfe von **[!UICONTROL Builder öffnen]** in der Oberfläche [!UICONTROL Schnellsegment] in ein reguläres Segment umwandeln. |
+   | **[!UICONTROL Titel]** ![Erforderlich](/help/assets/icons/Required.svg) | Benennen Sie das Segment, beispielsweise mit `Last month mobile visitors`. |
+   | **[!UICONTROL Beschreibung]** | Geben Sie eine Beschreibung für das Segment ein, beispielsweise `Segment to define the mobile customers for the last month`. |
    | **[!UICONTROL Tags]** | Organisieren Sie das Segment, indem Sie ein oder mehrere Tags erstellen oder anwenden. Beginnen Sie mit der Eingabe, um nach vorhandenen Tags zu suchen, die Sie auswählen können. Oder drücken Sie die **[!UICONTROL Eingabetaste]**, um ein neues Tag hinzuzufügen. Wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg) aus, um ein Tag zu entfernen. |
    | **[!UICONTROL Definition]** ![Required](/help/assets/icons/Required.svg) | Definieren Sie Ihr Segment mit dem [Definition Builder](#definition-builder). |
 
    {style="table-layout:auto"}
 
-1. Um sicherzustellen, dass Ihre Segmentdefinition korrekt ist, verwenden Sie die ständig aktualisierte Vorschau der Ergebnisse des Segments oben rechts.
-1. Um Ihr Segment in der Experience Cloud zu veröffentlichen, wählen Sie **[!UICONTROL Dieses Segment in der Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere Informationen [ Sie unter ](/help/components/segmentation/segmentation-workflow/seg-publish.md) in Experience Cloud veröffentlichen.
+1. Um zu überprüfen, ob Ihre Segmentdefinition korrekt ist, verwenden Sie die ständig aktualisierte Vorschau der Ergebnisse des Segments oben rechts.
+1. Um Ihr Segment in Experience Cloud zu veröffentlichen, wählen Sie **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]** aus. Weitere Informationen finden Sie unter [Veröffentlichen von Segmenten in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Wählen Sie Folgendes aus:
-   * **[!UICONTROL Speichern]**, um das Segment zu speichern.
-   * **[!UICONTROL Speichern unter]**, um eine Kopie des Segments zu speichern.
-   * **[!UICONTROL Löschen]**, um das Segment zu löschen.
-   * **[!UICONTROL Abbrechen]**, um alle an dem Segment vorgenommenen Änderungen rückgängig zu machen oder die Erstellung eines neuen Segments abzubrechen.
+   * **[!UICONTROL Speichern]**: Speichert das Segment.
+   * **[!UICONTROL Speichern unter]**: Speichert eine Kopie des Segments.
+   * **[!UICONTROL Löschen]**: Löscht das Segment.
+   * **[!UICONTROL Abbrechen]**: Verwirft alle Änderungen, die Sie am Segment vorgenommen haben, oder bricht die Erstellung eines neuen Segments ab.
 
 
 ## Definition Builder
 
-Mit dem Definition Builder erstellen Sie eine Segmentdefinition. Dabei verwenden Sie Komponenten, Container, Operatoren und Logik.
+Mit dem Definition Builder erstellen Sie Ihre Segmentdefinition. Dabei verwenden Sie Komponenten, Container, Operatoren und Logik.
 
 Sie können den Typ und den Umfang Ihrer Definition konfigurieren:
 
-1. Um den Typ Ihrer Definition anzugeben, geben Sie an, ob Sie eine Ein- oder Ausschlussdefinition erstellen möchten. Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Optionen]** und aus dem Dropdown-Menü **[!UICONTROL Einschließen]** oder **[!UICONTROL Ausschließen]**.
-1. Um den Umfang Ihrer Definition anzugeben, wählen Sie aus dem Dropdown-Menü **[!UICONTROL Einschließen]** oder **[!UICONTROL Ausschließen]** aus, ob der Umfang der Definition **[!UICONTROL Treffer]**, **[!UICONTROL Besuche]** oder **[!UICONTROL Besucher]** sein soll.
+1. Um den Typ Ihrer Definition anzugeben, geben Sie an, ob Sie eine Ein- oder Ausschlussdefinition erstellen möchten. Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Optionen]** und aus dem Dropdown-Menü **[!UICONTROL Einbeziehen]** oder **[!UICONTROL Ausschließen]** aus.
+1. Um den Umfang Ihrer Definition anzugeben, wählen Sie über das Dropdown-Menü **[!UICONTROL Einbeziehen]** oder **[!UICONTROL Ausschließen]** aus, ob der Umfang der Definition **[!UICONTROL Hits]**, **[!UICONTROL Besuche]** oder **[!UICONTROL Besucher]** sein soll.
 
 Sie können diese Einstellungen später jederzeit ändern.
 
 ### Komponenten
 
-Ein wichtiger Teil beim Erstellen Ihrer Segmentdefinition ist die Verwendung von Dimensionen, Metriken, vorhandenen Segmenten und Datumsbereichen. Alle diese Komponenten sind über das Bedienfeld „Komponenten“ in Segment Builder verfügbar.
+Ein wichtiger Teil beim Erstellen Ihrer Segmentdefinition ist die Verwendung von Dimensionen, Metriken, vorhandenen Segmenten und Datumsbereichen. Alle diese Komponenten sind über das Panel „Komponenten“ im Segment Builder verfügbar.
 
 ![Mit dem Erstellen einer Definition beginnen](assets/start-building-segment.gif){width=100%}
 
 So fügen Sie eine Komponente hinzu:
 
-1. Ziehen Sie eine Komponente aus dem Bedienfeld „Komponenten“ per Drag **[!UICONTROL and-Drop auf „Metrik(en), Segment(e) und/oder Dimensionen hierher ziehen und ablegen]**. Sie können die ![Suche](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
+1. Ziehen Sie eine Komponente aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Segmente und/oder Dimensionen mittels Drag-and-Drop hier]**. Sie können die ![Suche](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
 1. Geben Sie Details für die Komponente an. Wählen Sie beispielsweise einen Wert über **[!UICONTROL Wert auswählen]** aus. Oder geben Sie einen Wert ein. Wie Sie einen oder mehrere Werte und welche Werte Sie angeben können, hängt von der Komponente und dem Operator ab.
 1. Ändern Sie optional den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
 So bearbeiten Sie eine Komponente:
 
-* Wählen Sie im Dropdown-Menü Operator einen neuen Operator für die Komponente aus.
+* Wählen Sie im Dropdown-Menü „Operator“ einen neuen Operator für die Komponente aus.
 * Wählen Sie ggf. einen anderen Wert für den Operator aus oder geben Sie ihn an.
 * Wenn der Komponententyp eine Dimension ist, können Sie das Attributionsmodell definieren. Weitere Informationen finden Sie unter [Attributionsmodell](#attribution).
 
@@ -107,8 +107,8 @@ Sie können mehrere Komponenten in einem oder mehreren Containern gruppieren und
 * Um eine vorhandene Komponente zum Container hinzuzufügen, ziehen Sie die Komponente per Drag-and-Drop in den Container.
 * Um dem Container eine weitere Komponente hinzuzufügen, ziehen Sie eine Komponente per Drag-and-Drop aus dem Panel „Komponente“ in den Container. Verwenden Sie die blaue Linie zum Einfügen als Orientierung.
 * Um eine weitere Komponente außerhalb des Containers hinzuzufügen, ziehen Sie eine Komponente per Drag-and-Drop aus dem Panel „Komponente“ außerhalb des Containers, aber innerhalb des Containers für die Hauptdefinition. Verwenden Sie die blaue Linie zum Einfügen als Orientierung.
-* Um die Logik zwischen Komponenten in einem Container, zwischen Containern oder zwischen einem Container und einer Komponente zu ändern, wählen Sie die entsprechende Option **[!UICONTROL Und]**, **[!UICONTROL Oder]**, **[!UICONTROL Dann]**. Wenn Sie **[!UICONTROL Dann]** auswählen, wandeln Sie das Segment in ein sequenzielles Segment um. Weitere Informationen [ Sie unter &quot;](seg-sequential-build.md) Segment erstellen“.
-* Um die Container-Ebene zu wechseln, wählen ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]** oder ![User](/help/assets/icons/User.svg)**[!UICONTROL Visitors]**.
+* Um die Logik zwischen Komponenten in einem Container, zwischen Containern oder zwischen einem Container und einer Komponente zu ändern, wählen Sie die entsprechende Option **[!UICONTROL Und]**, **[!UICONTROL Oder]**, **[!UICONTROL Dann]**. Wenn Sie **[!UICONTROL Dann]** auswählen, wandeln Sie das Segment in ein sequenzielles Segment um. Weitere Informationen finden Sie unter [Erstellen eines sequenziellen Segments](seg-sequential-build.md).
+* Wählen Sie zum Wechseln der Container-Ebene ![Web-Seite](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Besuch](/help/assets/icons/Visit.svg) **[!UICONTROL Besuche]** oder ![Benutzende](/help/assets/icons/User.svg) **[!UICONTROL Besucher]**.
 
 Sie können ![Einstellung](/help/assets/icons/Setting.svg) in einem Container für die folgenden Aktionen verwenden:
 
@@ -116,14 +116,14 @@ Sie können ![Einstellung](/help/assets/icons/Setting.svg) in einem Container f�
 |---|---|
 | **[!UICONTROL Behälter hinzufügen]** | Fügen Sie dem Container einen verschachtelten Container hinzu. |
 | **[!UICONTROL Ausschließen]** | Schließen Sie das Ergebnis aus dem Container in der Segmentdefinition aus. Ein dünner roter Balken auf der linken Seite kennzeichnet einen Container „Ausschließen.“ |
-| **[!UICONTROL Einschließlich]** | Fügen Sie das Ergebnis aus dem Container in die Segmentdefinition ein. Die Standardeinstellung lautet „Einbeziehen“. Ein dünner grauer Balken auf der linken Seite kennzeichnet einen Container „Einbeziehen“. |
+| **[!UICONTROL Einschließlich]** | Beziehen Sie das Ergebnis aus dem Container in die Segmentdefinition ein. Die Standardeinstellung lautet „Einbeziehen“. Ein dünner grauer Balken auf der linken Seite kennzeichnet einen Container „Einbeziehen“. |
 | **[!UICONTROL Container benennen]** | Benennen Sie den Container ausgehend von seiner Standardbeschreibung um. Geben Sie einen Namen in das Textfeld ein. Wenn Sie keine Eingabe vornehmen, wird die Standardbeschreibung verwendet. |
 | **[!UICONTROL Container löschen]** | Löschen Sie den Container aus der Definition. |
 
 
 ## Datumsbereiche
 
-Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. Auf diese Weise können Sie Fragen zu laufenden Kampagnen oder Ereignissen beantworten. Sie können beispielsweise ein Segment erstellen, das Folgendes enthält *alle, die in den letzten 60 Tagen einen Online-Kauf getätigt haben*.
+Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. So können Sie Fragen zu laufenden Kampagnen oder Ereignissen beantworten. Sie können beispielsweise ein Segment erstellen, das *alle Personen, die in den vergangenen 60 Tagen Online-Käufe getätigt haben*, einschließt.
 
 ![Segment mit rollierendem Datumsbereich](assets/segment-rolling-date-range.png)
 
@@ -139,13 +139,13 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Da
 
 Sie können ein Segment mithilfe von Segmenten erstellen. Wenn Sie Segmente in einem Segment verwenden, können Sie Ihr Segment optimieren und die Komplexität reduzieren.
 
-Angenommen, Sie möchten die Kombination aus Interaktionskanal (5) und US-Status (50) segmentieren. Sie können entweder 250 Segmente erstellen, jedes für die eindeutige Kombination aus Gerätetyp (Mobiltelefon versus Tablet) und US-Bundesstaat. Um die Tablet-Benutzer in Kalifornien zu erhalten, verwenden Sie eines der 250 Segmente:
+Angenommen, Sie möchten nach der Kombination aus Interaktionskanal (5) und US-Bundesstaaten (50) segmentieren. Sie können entweder 250 Segmente erstellen, d. h. jeweils eine eindeutige Kombination aus Gerätetyp (Mobiltelefon oder Tablet) und US-Bundesstaat. Um die Tablet-Benutzenden aus Kalifornien abzurufen, würden Sie dann eines der 250 Segmente verwenden:
 
 ![Einfaches Segment für Kalifornien und Tablet](assets/segment-ca-tablet-single.png)
 
-Oder Sie können 55 Segmente definieren: 50 Segmente für die US-Bundesstaaten und 5 für die möglichen Interaktionskanäle. Stapeln Sie dann die Segmente, um die gleichen Ergebnisse zu erhalten. Um die Benutzenden der Mobile App von Kalifornien abzurufen, stapeln Sie zwei Segmente:
+Oder Sie können 55 Segmente definieren, d. h. 50 Segmente für die US-Bundesstaaten und 5 für die möglichen Interaktionskanäle. Stapeln Sie dann die Segmente, um die gleichen Ergebnisse zu erhalten. Um die App-Benutzenden aus Kalifornien abzurufen, würden Sie zwei Segmente stapeln:
 
-![Gestapeltes Segment für CA und Tablet](assets/segment-ca-tablet-stacked.png)
+![Gestapeltes Segment für Kalifornien und Tablet](assets/segment-ca-tablet-stacked.png)
 
 
 ## Attribution {#attribution}
@@ -170,7 +170,7 @@ Oder Sie können 55 Segmente definieren: 50 Segmente für die US-Bundesstaaten u
 
 
 
-Wenn Sie eine Dimension in Segment Builder verwenden, haben Sie die Möglichkeit, das Attributionsmodell für diese Dimension anzugeben. Das von Ihnen ausgewählte Attributionsmodell bestimmt, ob Daten für die Bedingung qualifiziert sind, die Sie für die Dimensionskomponente angegeben haben.
+Wenn Sie eine Dimension im Segment Builder verwenden, können Sie das Attributionsmodell für diese Dimension angeben. Das von Ihnen ausgewählte Attributionsmodell bestimmt, ob Daten für die Bedingung qualifiziert sind, die Sie für die Dimensionskomponente angegeben haben.
 
 Wählen Sie in der Dimensionskomponente das Symbol ![Setting](/help/assets/icons/Setting.svg) und dann eines der Attributionsmodelle aus dem Popup aus:
 
@@ -181,11 +181,11 @@ Wählen Sie in der Dimensionskomponente das Symbol ![Setting](/help/assets/icons
 | **[!UICONTROL Sich nicht wiederholende Instanz]** | Schließen Sie eindeutige (sich nicht wiederholende) Instanzwerte für die Dimension ein, um die Qualifizierung zu bestimmen. |
 
 
-![Attributionsmodell auf Dimension beim Erstellen eines Segments](assets/segment-dimension-attribution.png)
+![Attributionsmodell für Dimension beim Erstellen eines Segments](assets/segment-dimension-attribution.png)
 
 ### Beispiel
 
-Als Teil einer Segmentdefinition haben Sie die folgende Bedingung angegeben: Seitenname ist gleich Frauen. Ähnlich wie im obigen Beispiel. Sie wiederholen diese Segmentdefinition mithilfe der beiden anderen Attributionsmodelle. Sie haben also drei Segmente mit jeweils einem eigenen Attributionsmodell:
+Als Teil einer Segmentdefinition haben Sie die folgende Bedingung angegeben: Seitenname ist gleich Frauen. Dies ist ähnlich wie im obigen Beispiel. Sie wiederholen diese Segmentdefinition mit den beiden anderen Attributionsmodellen. Sie haben also drei Segmente mit jeweils einem eigenen Attributionsmodell:
 
 * „Frauen“-Seite – Attribution – Wiederholung (Standard)
 * „Frauen“-Seite – Attribution – Instanz
@@ -203,7 +203,7 @@ In der folgenden Tabelle wird für jedes Attributionsmodell angegeben, welche ei
 
 Ein Beispielbericht zu Ereignissen, die die drei Segmente verwenden, sieht wie folgt aus:
 
-![Ergebnisse des Segmentzuordnungsmodells](assets/segment-dimension-attribution-results.png)
+![Ergebnisse für Segment-Attributionsmodell](assets/segment-dimension-attribution-results.png)
 
 
 
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.

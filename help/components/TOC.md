@@ -7,7 +7,7 @@ user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umge
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -191,7 +191,7 @@ ht-degree: 96%
       + [Filtern der Segmentliste](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Markieren von Segmenten als Favoriten](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Genehmigen von Segmenten](segmentation/segmentation-workflow/seg-approve.md)
-      + [Segmente löschen](segmentation/segmentation-workflow/seg-delete.md)
+      + [Löschen von Segmenten](segmentation/segmentation-workflow/seg-delete.md)
       + [Segmente kopieren](segmentation/segmentation-workflow/seg-copy.md)
       + [Verwalten von Segmenten](segmentation/segmentation-workflow/seg-manage.md)
       + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
