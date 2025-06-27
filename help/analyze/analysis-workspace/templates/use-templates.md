@@ -1,13 +1,13 @@
 ---
-description: Eine Übersicht über die Verwendung von Vorlagen in Analysis Workspace.
-title: Verwenden von Vorlagen
+description: Erfahren Sie, wie Sie Vorlagen in Analysis Workspace verwenden.
+title: Vorlagen verwenden
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '18671'
-ht-degree: 100%
+source-wordcount: '18669'
+ht-degree: 99%
 
 ---
 

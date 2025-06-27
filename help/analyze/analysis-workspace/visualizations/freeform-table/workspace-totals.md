@@ -1,17 +1,17 @@
 ---
-description: Berechnung der Gesamtsummen in Workspace.
-title: Workspace-Summen
+description: Erfahren Sie, wie Summen in Freiformtabellen in Analysis Workspace berechnet werden.
+title: Gesamt
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 83%
+source-wordcount: '490'
+ht-degree: 81%
 
 ---
 
-# Workspace-Summen {#workspace-totals}
+# Gesamt {#workspace-totals}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"

@@ -1,35 +1,27 @@
 ---
-description: Ein Bedienfeld, das die nächsten oder vorherigen Dimensionselemente für eine bestimmte Dimension anzeigt.
-title: Bedienfeld „Nächstes oder vorheriges Objekt“
+description: Erfahren Sie, wie Sie das Bedienfeld Nächstes oder vorheriges Element verwenden, das die nächsten oder vorherigen Dimensionselemente für eine bestimmte Dimension anzeigt.
+title: Bedienfeld Nächstes oder vorheriges Element
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 94%
 
 ---
 
-# Bedienfeld „Nächstes oder vorheriges Objekt“ {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
+# Panel „Nächstes oder vorheriges Objekt“ {#next-or-previous-item-panel}
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="Nächstes oder vorheriges Objekt"
 >abstract="Erstellen Sie ein Bedienfeld, um mehr über die vorherigen Dimensionen zu erfahren, aus denen Personen kommen, oder über die nächste Dimension, zu der sie gehen."
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Nächstes oder vorheriges Objekt"
 >abstract="Analysieren Sie, von wo Besuchende am häufigsten gekommen sind oder wohin sie als Nächstes gehen.<br/><br/>**Dimension**: Wählen Sie eine Dimension aus, z. B. **Seite**.<br/>**Dimensionselement**: Wählen Sie ein bestimmtes Dimensionselement aus, z. B. **Homepage**.<br/>**Richtung**: Wählen Sie **Weiter** aus, um die Dimensionselemente unmittelbar nach dem ausgewählten Dimensionselement anzuzeigen. Wählen Sie **Zurück** aus, um die Dimensionselemente anzuzeigen, die zu Ihrem ausgewählten Dimensionselement führen.<br/>**Container**: Wählen Sie **Sitzung** aus, um die nächsten/vorherigen Dimensionselemente innerhalb derselben Sitzung anzuzeigen, oder **Person**, um das nächste/vorherige Dimensionselement für dieselbe Person anzuzeigen."
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
@@ -41,19 +33,19 @@ Das Bedienfeld **[!UICONTROL Nächstes oder vorheriges Objekt]** enthält eine R
 
 ## Verwenden
 
-So verwenden Sie das Bedienfeld **[!UICONTROL Nächstes oder vorheriges Objekt]**:
+So verwenden Sie das Panel **[!UICONTROL Nächstes oder vorheriges Objekt]**:
 
-1. Erstellen Sie das Bedienfeld **[!UICONTROL Nächstes oder vorheriges Objekt]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
+1. Erstellen Sie das Panel **[!UICONTROL Nächstes oder vorheriges Objekt]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
 
 1. Legen Sie die [Eingabe](#panel-input) für das Bedienfeld fest.
 
 1. Sehen Sie sich die [Ausgabe](#panel-output) für das Bedienfeld an.
 
-### Bedienfeldeingabe
+### Panel-Eingabe
 
-Sie können das Bedienfeld [!UICONTROL Nächstes oder vorheriges Objekt] mithilfe der folgenden Eingabeeinstellungen konfigurieren:
+Sie können das Panel [!UICONTROL Nächstes oder vorheriges Objekt] mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 
-![Bedienfeld „Nächstes oder vorheriges Objekt“](assets/next-or-previous-item.png)
+![Panel Nächstes oder vorheriges Objekt](assets/next-or-previous-item.png)
 
 | Eingabe | Beschreibung |
 | --- | --- |
@@ -64,13 +56,13 @@ Sie können das Bedienfeld [!UICONTROL Nächstes oder vorheriges Objekt] mithilf
 
 {style="table-layout:auto"}
 
-Wählen Sie **[!UICONTROL Erstellen]** aus, um das Bedienfeld zu erstellen.
+Wählen Sie **[!UICONTROL Erstellen]** aus, um das Panel zu erstellen.
 
-### Bedienfeldausgabe
+### Panel-Ausgabe
 
-Das Bedienfeld [!UICONTROL Nächstes oder vorheriges Objekt] gibt einen umfangreichen Satz von Daten und Visualisierungen zurück, damit Sie besser verstehen können, welche Ereignisse bestimmten Dimensionselementen folgen oder vorausgehen.
+Das Panel [!UICONTROL Nächstes oder vorheriges Objekt] gibt einen umfangreichen Satz von Daten und Visualisierungen zurück, damit Sie besser verstehen können, welche Ereignisse bestimmten Dimensionselementen folgen oder vorausgehen.
 
-![Bedienfeldausgabe für „Nächstes/Vorheriges“](assets/next-or-previous-item-output.png)
+![Panel-Ausgabe für Nächstes/Vorheriges](assets/next-or-previous-item-output.png)
 
 
 | Visualisierung | Beschreibung |

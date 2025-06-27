@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie Ordner und Unterordner in Workspace erstellen
+description: Erfahren Sie, wie Sie in Analysis Workspace Ordner und Unterordner erstellen.
 keywords: Analysis Workspace
 title: Erstellen von Ordnern
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ So erstellen Sie einen neuen Ordner:
 
 1. Geben Sie im Dialogfeld **[!UICONTROL Neuen Ordner erstellen]** einen Namen für den neuen Ordner an. Beispiel: `Second Week Reports`.
 
-1. Wählen Sie Tags über das Dropdown-Menü **[!UICONTROL Tags]** aus oder geben Sie neue Tags ein.
+1. Wählen Sie Tags aus oder geben Sie neue Tags aus **[!UICONTROL Dropdown]** Menü „Tags“ ein.
 
    ![Neuen Ordner erstellen](../assets/create-new-folder.png)
 

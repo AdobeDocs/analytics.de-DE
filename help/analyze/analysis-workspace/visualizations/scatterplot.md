@@ -1,17 +1,17 @@
 ---
-title: Streudiagramm
-description: Eine Visualisierung, die die Beziehung zwischen bis zu drei Metriken anzeigt.
+title: Streuung
+description: Verwenden Sie die Streuvisualisierung, um die Beziehung zwischen bis zu drei Metriken anzuzeigen.
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 92%
 
 ---
 
-# Streudiagramm {#scatter}
+# Streuung {#scatter}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -30,7 +30,7 @@ _In diesem Artikel wird die Streuungsvisualisierung in_ ![AdobeAnalytics](/help/
 >[!ENDSHADEBOX]
 
 
-Die ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Streuungsvisualisierung]** zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken an. Die Visualisierung erfordert drei Komponenten und unterstützt die Visualisierung von bis zu vier Komponenten.
+Die ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Streuungsvisualisierung]** zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken an. Die Visualisierung drei Komponenten und unterstützt die Visualisierung von bis zu vier Komponenten.
 
 * Die Zeilenkomponente (normalerweise eine Dimension) stellt jeden Punkt im Diagramm dar. Verschiedene Zeilen werden als verschiedenfarbige Punkte angezeigt.
 * Die Spalte ganz links (normalerweise eine Metrik) stellt die Position des Punkts auf der Y-Achse (vertikal) dar.
@@ -38,19 +38,19 @@ Die ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Streuungs
 * Die dritte Spalte bestimmt den Radius des Punkts.
 * Alle nachfolgenden Spalten in einer Freiform-Tabelle werden von der Streudiagramm-Visualisierung ignoriert.
 
-![Beispiel für ein Streudiagramm mit mehreren Dimensionselementen ](assets/scatter.png)
+![Streudiagramm-Beispiel mit mehreren Dimensionselementen ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Streudiagramm-Visualisierung](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung „Streudiagramm“](https://video.tv.adobe.com/v/334459/?quality=12){target=&#34;_blank&#34;} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

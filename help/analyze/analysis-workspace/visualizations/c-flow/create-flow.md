@@ -1,13 +1,13 @@
 ---
-description: Verwenden Sie die Flussvisualisierung in einem Workspace-Projekt.
+description: Erfahren Sie, wie Sie die Flussvisualisierung in Analysis Workspace konfigurieren
 title: Konfigurieren einer Flussvisualisierung
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,9 @@ ht-degree: 100%
 >abstract="Dieses Feld kann nur bei der Ersterstellung festgelegt werden. Zum Aktualisieren dieses Felds wählen Sie **[!UICONTROL Zurücksetzen]** aus, um eine neue Flussvisualisierung zu erstellen."
 
 
+Flussvisualisierungen helfen Ihnen, die Journey zu verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer App stammt. Oder führen zu einem bestimmten Konversionsereignis. Die Visualisierung verfolgt einen Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken.
 
-Flussvisualisierungen helfen Ihnen, die Journey zu verstehen, die von einem bestimmten Konversionsereignis auf Ihrer Website oder in Ihrer Mobile App ausgeht oder dazu führt. Die Flussvisualisierung folgt einem Pfad durch Ihre Dimensionen (und Dimensionselemente) oder Metriken.
-
-Mit Flussvisualisierungen können Sie den Anfang oder das Ende des Pfads konfigurieren, an dem Sie interessiert sind, oder alle Pfade analysieren, die durch eine Dimension oder ein Dimensionselement führen.
-
+Sie können den Beginn oder das Ende des Pfads konfigurieren, an dem Sie interessiert sind. Oder analysieren Sie alle Pfade, die durch eine Dimension oder ein Dimensionselement fließen.
 ![Neue Fluss-Benutzeroberfläche](assets/new-flow.png)
 
 ## Verwenden
@@ -204,8 +202,8 @@ Im folgenden Beispiel sind **alle** Vorkommen von *Produkthauptkategorie* und *Z
 >[!MORELIKETHIS]
 >
 >[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

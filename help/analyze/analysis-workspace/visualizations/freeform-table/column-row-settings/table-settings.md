@@ -1,14 +1,14 @@
 ---
-description: Die Zeileneinstellungen variieren je nachdem, welche Komponente Sie in die Tabelle gezogen haben.
+description: Erfahren Sie, wie Sie Zeileneinstellungen verwenden und wie Zeileneinstellungen je nachdem, welche Komponente Sie in Analysis Workspace in eine Freiformtabelle gezogen haben, variieren.
 title: Zeileneinstellungen
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 98%
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zeilen- und Spalteneinstellungen in einer Freiformtabelle](https://video.tv.adobe.com/v/328501/?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zeilen- und Spalteneinstellungen in einer Freiformtabelle](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -90,6 +90,6 @@ Die folgenden Kontextmenüoptionen sind bei Auswahl der Kopfzeile einer Metriksp
 | **[!UICONTROL Filter aus Auswahl erstellen]** | Öffnen Sie den **[!UICONTROL Filter-Builder]**, um einen Filter aus der Auswahl zu erstellen. |
 | **[!UICONTROL Zielgruppe aus Auswahl erstellen]** | Öffnen Sie das Dialogfeld **[!UICONTROL Zielgruppe erstellen]**, um eine Zielgruppe aus der Auswahl zu erstellen. |
 
-## Zeilenhöhe ändern
+## Ändern der Zeilenhöhe
 
-Sie können die Anzeigedichte eines Projekts auf **[!UICONTROL Compact]**, **[!UICONTROL Comfort]** und **[!UICONTROL Expanded]** festlegen. [Weitere Informationen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+Sie können die [Anzeigedichte](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) eines Projekts auf **[!UICONTROL Kompakt]**, **[!UICONTROL Komfortabel]** und **[!UICONTROL Erweitert]**.

@@ -1,13 +1,13 @@
 ---
-description: Ermöglicht die einfache Visualisierung von Vergleichsdaten in Analysis Workspace, z. B. das Erstellen von Vergleichen mit dem letzten Monat, dem letzten Jahr usw.
-title: Visualisierung von Kombinationsdiagrammen
+description: Erfahren Sie, wie Sie Vergleichsdaten in Analysis Workspace visualisieren können, z. B. Vergleiche zum letzten Monat, letzten Jahr usw. erstellen.
+title: Kombination
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ Bedenken Sie Folgendes:
 
 ## Verwenden
 
-1. Fügen Sie eine Visualisierung des Typs ![Kommentar](/help/assets/icons/ComboChart.svg) [!UICONTROL Kombination] hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Visualisierung in einem Panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+1. Fügen Sie eine Visualisierung des Typs ![Comment](/help/assets/icons/ComboChart.svg) [!UICONTROL Kombination] hinzu. Siehe [Hinzufügen einer Visualisierung zu einem Panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 
 1. Wählen Sie aus den Dropdown-Listen eine Dimension für die X-Achse und eine Metrik für die Y-Achse aus.
 
@@ -58,8 +58,8 @@ Bedenken Sie Folgendes:
 
    | Linienvergleichstyp | Definition |
    | --- | --- |
-   | **[!UICONTROL Zeitvergleich]** | Der häufigste Vergleichstyp, z. B. Vergleich dieses Zeitraums mit dem vor 4 Wochen. Wenn Sie [!UICONTROL Zeitvergleich] auswählen, führen Sie eine zweite Auswahl durch, um anzugeben, mit welchem Zeitraum der Vergleich durchgeführt werden soll.<p>![Linienvergleich mit ausgewähltem Zeitraum und dem sekundären Auswahlfeld für Zeitraum.](assets/combo-time-period.png) |
-   | **[!UICONTROL Funktion]** | Sie können zum Vergleich eine Funktion wie [!UICONTROL Durchschnitt] hinzufügen. Hier finden Sie eine Liste der [unterstützten Funktionen](#supported-functions).<p>![Dropdown-Menü „Linienvergleich“ mit ausgewählten Funktionen und einer Liste der verfügbaren unterstützten Funktionen.](assets/combo-functions.png) |
+   | **[!UICONTROL Zeitvergleich]** | Der häufigste Vergleichstyp, z. B. Vergleich dieses Zeitraums mit dem vor 4 Wochen. Wenn Sie [!UICONTROL Zeitvergleich] auswählen, führen Sie eine zweite Auswahl durch, um anzugeben, mit welchem Zeitraum der Vergleich durchgeführt werden soll.<p>![Linienvergleich mit ausgewähltem Zeitraum und sekundärem Auswahlfeld für Zeitraum.](assets/combo-time-period.png) |
+   | **[!UICONTROL Funktion]** | Sie können zum Vergleich eine Funktion wie [!UICONTROL Durchschnitt] hinzufügen. Hier finden Sie eine Liste der [unterstützten Funktionen](#supported-functions).<p>![Dropdown-Menü Linienvergleich mit ausgewählten Funktionen und einer Liste der verfügbaren unterstützten Funktionen.](assets/combo-functions.png) |
    | **[!UICONTROL Sekundäre Metrik]** | Sie können beispielsweise den [!UICONTROL Umsatz] mit einer anderen Metrik vergleichen.<p>![Ein Kombinationsdiagramm, in dem zwei Metriken verglichen werden.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
@@ -68,9 +68,9 @@ Bedenken Sie Folgendes:
 
    Die Ausgabe sieht in etwa so aus:
 
-   ![Ein Kombinationsdiagramm, das den aktuellen Zeitraum in einem Balkendiagramm und den Vergleichszeitraum im Liniendiagramm anzeigt](assets/combo-output.png)
+   ![Ein Kombinationsdiagramm, das den aktuellen Zeitraum in einem Balkendiagramm und den Vergleichszeitraum in einem Liniendiagramm anzeigt ](assets/combo-output.png)
 
-   Der aktuelle Zeitraum wird im Balkendiagramm angezeigt. Das Liniendiagramm stellt den Vergleichszeitraum dar. Die Punkte im Liniendiagramm werden als *Datenpunkte* bezeichnet.
+   Der aktuelle Zeitraum wird als Balkendiagramm angezeigt. Das Liniendiagramm stellt den Vergleichszeitraum dar. Die Punkte im Liniendiagramm werden als *Datenpunkte* bezeichnet.
 
 ## Unterstützte Funktionen
 
@@ -94,11 +94,11 @@ Im Folgenden finden Sie ein Beispiel für den kumulativen Durchschnitt der Umsat
 
 Im Folgenden finden Sie ein Beispiel für ein Kombinationsdiagramm mit den Funktionen „Kumulativer Durchschnitt“ und „Mittel“:
 
-![Ein Kombinationsdiagramm, das sowohl die Funktion „Kumulativer Durchschnitt“ als auch die Funktion „Mittel“ anzeigt.](assets/combo-three-functions.png)
+![Ein Kombinationsdiagramm, das sowohl die Funktion Kumulativer Durchschnitt als auch die Funktion Median anzeigt.](assets/combo-three-functions.png)
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung in einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

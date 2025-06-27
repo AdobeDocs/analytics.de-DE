@@ -1,14 +1,14 @@
 ---
-description: Verwenden Sie die Balkenvisualisierung in einem Workspace-Projekt.
+description: Erfahren Sie, wie Sie die Visualisierung „Balken“ und „Balken gestapelt“ in Analysis Workspace verwenden.
 title: Balken und Balken gestapelt
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 91%
 
 ---
 
@@ -34,9 +34,9 @@ Die Balkenvisualisierung bietet die Optionen „Standardmäßig“ und „Gestap
 <!-- markdownlint-enable MD034 -->
 
 
-Die ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Balkenvisualisierung]** zeigt vertikale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
+Die ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) Visualisierung **[!UICONTROL Balken]** zeigt vertikale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
 
-![Vertikale Balkenvisualisierung mit mehreren Metriken wie Seitenansichten, Besuche, Eintritte und Ausstiege](assets/bar.png)
+![Vertikale Visualisierung Balken mit mehreren Metriken wie Seitenansichten, Besuche, Eintritte und Ausstiege.](assets/bar.png)
 
 In den Visualisierungseinstellungen können Sie über ein Dropdown-Menü für die Granularität eine Trend-Visualisierung (z. B. Linie, Balken) von täglich über wöchentlich zu monatlich usw. ändern.
 
@@ -56,13 +56,13 @@ Die Visualisierung ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVertica
 
 ![Gestapeltes Balkendiagramm mit mehreren Metriken](assets/bar-stacked.png)
 
-Verwenden Sie die Option **[!UICONTROL 100 % gestapelt]** in den ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Einstellungen]**, um das Diagramm in eine 100 % gestapelte Visualisierung umzuwandeln.
+Verwenden Sie die Option **[!UICONTROL 100 % gestapelt]** in den ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Einstellungen]**, um das Diagramm in eine zu 100 % gestapelte Visualisierung umzuwandeln.
 
 ![Ein 100 % gestapeltes Balkendiagramm.](assets/bar-stacked100.png)
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

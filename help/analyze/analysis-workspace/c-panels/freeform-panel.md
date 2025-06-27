@@ -1,13 +1,13 @@
 ---
-description: Informationen zu Freiform-Bedienfeldern.
+description: Erfahren Sie, wie Sie Freiform-Bedienfelder mit einer Freiformtabelle als Startstatus für Ihr Analysis Workspace-Projekt verwenden.
 title: Freiform-Bedienfeld
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 84%
 
 ---
 
@@ -24,9 +24,9 @@ Das Bedienfeld **[!UICONTROL Freiform]** ist ein leeres Bedienfeld mit einer [Fr
 
 ## Verwenden
 
-So verwenden Sie das Bedienfeld **[!UICONTROL Freiform]**:
+So verwenden Sie das Panel **[!UICONTROL Freiform]**:
 
-1. Erstellen Sie ein Bedienfeld **[!UICONTROL Freiform]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
+1. Erstellen Sie ein Panel **[!UICONTROL Freiform]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
 
    ![Das standardmäßige Bedienfeld „Freiform“: ein leeres Bedienfeld mit einer Freiformtabelle](assets/freeform-panel.png)
 
@@ -36,6 +36,6 @@ So verwenden Sie das Bedienfeld **[!UICONTROL Freiform]**:
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Analytics-Komponentenhandbuch](/help/components/home.md)
->[Freiformtabellen-Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics-Komponentenhandbuch](/help/components/home.md)
+>>[Freiformtabellen-Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

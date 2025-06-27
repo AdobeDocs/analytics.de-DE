@@ -1,13 +1,13 @@
 ---
-description: Sie können die Touchpoints angeben, um eine mehrdimensionale Fallout-Sequenz zu erstellen.
+description: Erfahren Sie, wie Sie die Touchpoints konfigurieren und angeben, um eine mehrdimensionale Fallout-Sequenz zu erstellen.
 title: Fallout-Visualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 97%
+source-wordcount: '713'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ Im Rahmen der Visualisierung sind bestimmte Kontextmenüoptionen verfügbar.
 >[!MORELIKETHIS]
 >
 >[Hinzufügen einer Visualisierung in einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

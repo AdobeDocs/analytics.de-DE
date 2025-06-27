@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: adbd342948ce3c38107a86613d77a9bf90a7df97
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 90%
+source-wordcount: '1009'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 18.�
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Unterstützung für sichere Cloud-Ziele in der neuen Report Builder** | Das JavaScript Report Builder-Add-in unterstützt jetzt den Export von Berichten an die folgenden Cloud-Speicherziele:<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>Zuvor waren nur FTP- und E-Mail-Ziele verfügbar. FTP wird aus Sicherheitsgründen nicht mehr unterstützt.</p><p>Weitere Informationen finden Sie unter &quot;[ von Arbeitsmappen durch Exportieren in Cloud-Ziele](/help/analyze/report-builder/report-builder-export.md).</p><p>Zusätzlich zu diesen Änderungen bietet das Feld Verwenden von mit beim Erstellen eines Speicherorts in Adobe Analytics jetzt die Möglichkeit, den Speicherort mit Report Builder zu verwenden, wie in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.</p> |  | 19. Juni 2025 (ursprünglich 18. Juni) |
-| **Neues Vorschauerlebnis** | Der Vorschaubereich, der zur Vorschau von Segmenten, berechneten Metriken und mehr verwendet wird, nutzt jetzt eine Darstellung mit horizontalen Balken anstelle einer Darstellung mit Ringdiagrammen. |  | 18. Juni 2025 |
+| **Neues Vorschauerlebnis** | Das Vorschaufenster, das beim Erstellen eines Segments oder beim Konfigurieren der Einstellungen einer Datenansicht verwendet wird, verwendet jetzt eine horizontale Balkenvisualisierung anstelle einer Ringvisualisierung. |  | 18. Juni 2025 |
 | **Geändertes Dialogfeld für Attributionsmodelle** | Sie können nun den Container und den Zeitraum separat im Dialogfeld für Attributionsmodelle definieren. |  | 18. Juni 2025 |
 | **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche für Kundenattribute ist jetzt direkt über die App-Auswahl in Adobe Experience Cloud zugänglich. |  | TBD |
 | **Streaming-Medien: Unterstützung von Zeitplandaten** | Sie können jetzt Zeitplandaten von früheren Live-Inhalten von Streaming-Medien hochladen, um die Zuschauerzahlen einfacher und genauer zu verfolgen. Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:<ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen zu bestimmten Themen oder Programmsegmenten erfassen. Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.<p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen. Weitere Informationen |  | &#x200B;15. August 2025 (ursprünglich 25. Juni 2025) |

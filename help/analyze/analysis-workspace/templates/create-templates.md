@@ -1,13 +1,13 @@
 ---
-description: Eine Übersicht über die Verwendung von Standardberichten in Analysis Workspace.
-title: Arbeiten mit Berichten
+description: Erfahren Sie, wie Sie Vorlagen in Analysis Workspace erstellen und verwalten.
+title: Erstellen und Verwalten von Vorlagen
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ So erstellen Sie eine neue Vorlage, die von Personen in Ihrem Anmeldeunternehmen
    | **[!UICONTROL Anwendungsbeispiele]** | Wählen Sie alle Anwendungsfälle aus, die für diese Vorlage gelten. Sie können mehrere Anwendungsfälle auswählen: **[!UICONTROL Interaktion]**, **[!UICONTROL Konversion]**, **[!UICONTROL Audience]** und **[!UICONTROL Akquise]**. <p>Ihre Auswahl bestimmt, wo die Vorlage angezeigt wird und welche Filter für Benutzende gelten, die über die Seite „Organisationsvorlagen“ darauf zugreifen.</p> |
    | **[!UICONTROL Tags]** | Geben Sie alle Tags an, die Sie auf die Vorlage anwenden möchten. Die Benutzenden können die Liste der Vorlagen nach den von Ihnen hinzugefügten Tags filtern. |
 
-1. Wählen Sie [!UICONTROL **Als Vorlage speichern**].
+1. Wählen Sie [!UICONTROL **Als Vorlage speichern**] aus.
 
 Weitere Informationen dazu, wie Benutzerinnen und Benutzer ein Projekt basierend auf einer Vorlage erstellen können, finden Sie unter [Erstellen eines Projekts basierend auf einer Vorlage](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) in [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md).
 
@@ -80,16 +80,16 @@ Admins können Unternehmensvorlagen bearbeiten oder löschen.
    | **[!UICONTROL Name]** | Geben Sie einen beschreibenden Namen für die Vorlage an. |
    | **[!UICONTROL Beschreibung]** | Geben Sie eine kurze Beschreibung für die Vorlage an, die ihre Verwendungszwecke beschreibt. |
    | **[!UICONTROL Warum diese Vorlage verwenden?]** | Liefern Sie eine kurze Erklärung, in der Sie Personen in der Organisation darüber informieren, wie diese Vorlage verwendet werden könnte. Diese Erklärung wird auf der Vorschauseite der Vorlage angezeigt. |
-   | **[!UICONTROL Anwendungsszenarien]** | Wählen Sie alle Anwendungsfälle aus, die für diese Vorlage gelten. Sie können mehrere Anwendungsszenarien auswählen: **[!UICONTROL Interaktion]**, **[!UICONTROL Konversion]**, **[!UICONTROL Zielgruppe]** und **[!UICONTROL Akquise]**. <p>Ihre Auswahl bestimmt, wo die Vorlage angezeigt wird und welche Filter für Benutzende gelten, die über die Seite „Organisationsvorlagen“ darauf zugreifen.</p> |
+   | **[!UICONTROL Anwendungsbeispiele]** | Wählen Sie alle Anwendungsfälle aus, die für diese Vorlage gelten. Sie können mehrere Anwendungsfälle auswählen: **[!UICONTROL Interaktion]**, **[!UICONTROL Konversion]**, **[!UICONTROL Audience]** und **[!UICONTROL Akquise]**. <p>Ihre Auswahl bestimmt, wo die Vorlage angezeigt wird und welche Filter für Benutzende gelten, die über die Seite „Organisationsvorlagen“ darauf zugreifen.</p> |
    | **[!UICONTROL Tags]** | Geben Sie alle Tags an, die Sie auf die Vorlage anwenden möchten. Die Benutzenden können die Liste der Vorlagen nach den von Ihnen hinzugefügten Tags filtern. |
 
-1. Wählen Sie [!UICONTROL **Als Vorlage speichern**] aus.
+1. Wählen Sie [!UICONTROL **Als Vorlage speichern**].
 
 ## Umbenennen, Taggen oder Genehmigen von Vorlagen
 
 Admins können Unternehmensvorlagen umbenennen, taggen und genehmigen.
 
-1. Wählen Sie in Analysis Workspace die Registerkarte [!UICONTROL **Arbeitsbereich**] und dann in der linken Leiste die Registerkarte **[!UICONTROL Projekte]** aus.
+1. Wählen Sie in Analysis Workspace die Registerkarte [!UICONTROL **Arbeitsbereich**] und dann in der linken Leiste die **[!UICONTROL Registerkarte „Projekte“]** aus.
 
 1. Wählen Sie das Filtersymbol aus, um die Liste der Projekte zu filtern.
 
@@ -101,7 +101,7 @@ Admins können Unternehmensvorlagen umbenennen, taggen und genehmigen.
 
    ![Anzeigen der Filter „Unternehmensvorlagen“](assets/company-templates-filter.png)
 
-1. Klicken Sie auf das Symbol mit den Auslassungspunkten **…** neben einer Vorlage, um die verfügbaren Optionen anzuzeigen.
+1. Klicken Sie auf das Symbol mit den Auslassungspunkten **...** neben einer Vorlage, um die verfügbaren Optionen anzuzeigen. 
 
    ![Aktionen für Unternehmensvorlagen](assets/company-templates-actions.png)
 

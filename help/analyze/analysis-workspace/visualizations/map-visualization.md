@@ -1,14 +1,14 @@
 ---
-description: Verwenden Sie die Map-Visualisierung in einem Workspace-Projekt.
+description: Verwenden Sie die Kartenvisualisierung, um Daten in einer geografischen Kartenvisualisierung darzustellen
 title: Zuordnung
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Die ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Zuordnungsvisualisierun
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://video.tv.adobe.com/v/41504/?quality=12&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Um Einstellungen für die Visualisierung zu definieren, wählen Sie ![Setting](/
 | Einstellung | Beschreibung |
 |--- |--- |
 | **[!UICONTROL Zuordnungstyp]** | |
-| [!UICONTROL Blasen] | Plottet Ereignisse mithilfe von Blasen. Ein Blasendiagramm ist ein multivariables Diagramm, das eine Kreuzung aus Streudiagramm und proportionalem Flächendiagramm darstellt. Diese Ansicht ist die Standardansicht. |
-| Heatmap | Plottet Ereignisse mithilfe einer Heatmap. Eine Heatmap ist eine graphische Darstellung von Daten, bei der die individuellen Werte in einer Matrix als Farben dargestellt werden. |
+| **[!UICONTROL Blasen] | Plottet Ereignisse mithilfe von Blasen. Ein Blasendiagramm ist ein multivariables Diagramm, das eine Kreuzung aus Streudiagramm und proportionalem Flächendiagramm darstellt. Diese Ansicht ist die Standardansicht. |
+| [!UICONTROL Heatmap] | Plottet Ereignisse mithilfe einer Heatmap. Eine Heatmap ist eine graphische Darstellung von Daten, bei der die individuellen Werte in einer Matrix als Farben dargestellt werden. |
 | **[!UICONTROL Stile]** | |
 | [!UICONTROL Farbschema] | Zeigt das Farbschema für die Heatmap und die Blasen. Sie können zwischen Korallenrot, Rot, Grün oder Blau auswählen. Der Standardwert ist „Koralle“.  |
 | [!UICONTROL Zuordnungsstil] | Sie können zwischen „Allgemein“, „Straßen“, „Leuchtend“ „Hell“, „Dunkel“ und „Satellit“ auswählen. |
@@ -132,7 +132,7 @@ Um Einstellungen für die Visualisierung zu definieren, wählen Sie ![Setting](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35171/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

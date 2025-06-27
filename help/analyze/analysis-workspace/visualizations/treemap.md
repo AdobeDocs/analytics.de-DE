@@ -1,14 +1,14 @@
 ---
-description: Zeigt hierarchische Daten (Baumstruktur) als Gruppe verschachtelter Rechtecke an.
+description: Erfahren Sie, wie Sie hierarchische (baumstrukturierte) Daten als Satz verschachtelter Rechtecke anzeigen.
 title: Baumkarte
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ _In diesem Artikel wird die Baumkartenvisualisierung in_ ![AdobeAnalytics](/help
 
 Verwenden Sie eine ![GraphTree](/help/assets/icons/GraphTree.svg)**[!UICONTROL Baumkartenvisualisierung]**, um hierarchische (baumstrukturierte) Daten als Satz verschachtelter Rechtecke anzuzeigen.
 
-Jedem Zweig des Baums entspricht ein Rechteck, das kleinere Rechtecke enthält, die für untergeordnete Zweige stehen.
+Jeder Zweig des Baums erhält ein Rechteck, das kleinere Rechtecke enthält, die für untergeordnete Zweige stehen.
 
 ![Beispiel einer Baumkarte mit Kacheln kleinerer Rechtecke, die Unterzweige darstellen.](assets/treemap.png)
 
@@ -40,7 +40,7 @@ Mit einer Baumkarte können Sie Muster sehen, die auf andere Weise schwer zu erk
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Baumkartenvisualisierung](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung „Baumkarte“](https://video.tv.adobe.com/v/334458/?quality=12){target=&#34;_blank&#34;} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Baumkartenvisu
 >[!MORELIKETHIS]
 >
 >[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

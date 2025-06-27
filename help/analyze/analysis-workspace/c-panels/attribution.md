@@ -1,13 +1,13 @@
 ---
-title: Bedienfeld „Attribution“
-description: Verwendung und Interpretation des Attributionsbedienfelds in Analysis Workspace.
+title: Attributionsbedienfeld
+description: Erfahren Sie, wie Sie das Attributionsbedienfeld in Analysis Workspace verwenden und interpretieren.
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 97%
 
 ---
 
@@ -114,7 +114,7 @@ Die folgenden Visualisierungen sind Teil der Panel-Ausgabe.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/37477/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 

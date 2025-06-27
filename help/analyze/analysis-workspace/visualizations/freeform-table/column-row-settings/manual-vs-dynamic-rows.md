@@ -1,19 +1,19 @@
 ---
-title: Dynamische und statische Dimensionselemente in Freiform-Tabellen
-description: Interaktion mit dynamischen und statischen Dimensionselementen in Tabellen.
+title: Dynamische und statische Dimension-Elemente
+description: Erfahren Sie, wie Sie dynamische und statische Dimensionselemente in Freiformtabellen in Analysis Workspace verwenden.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
 # Dynamische und statische Dimensionselemente
 
-In Freiform-Tabellen können die Zeilen und Spalten verschiedene Komponentenwerte enthalten. Diese Werte können abhängig von der Analyse, die Sie erstellen möchten, dynamisch (zeitabhängig) oder statisch (nicht zeitabhängig) sein.
+In Freiformtabellen können die Zeilen und Spalten verschiedene Komponentenwerte enthalten. Diese Werte können abhängig von der Analyse, die Sie erstellen möchten, dynamisch (zeitabhängig) oder statisch (nicht zeitabhängig) sein.
 
 ## Dynamische Dimensionselemente
 
@@ -58,7 +58,7 @@ Dynamische und statische Zeilen verhalten sich in der Freiform-Gesamtzeile unter
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Neuanordnen von statischen Zeilen](https://video.tv.adobe.com/v/33607?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Neuanordnen von statischen Zeilen](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -1,13 +1,13 @@
 ---
-description: Mithilfe der Fallout-Funktion in Analysis Workspace können Sie Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren. Das gibt Ihnen mehr Flexibilität beim Definieren der Benutzerschritte, die Sie näher untersuchen möchten.
-title: Mehrdimensionaler Fallout
+description: Erfahren Sie, wie Sie mit der Fallout-Visualisierung in Analysis Workspace Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren können. Erfahren Sie, wie dies mehr Flexibilität bei der Definition der Benutzerschritte bietet, die Sie untersuchen möchten.
+title: Interdimensionaler Fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 21%
 
 Mit Fallout in Analysis Workspace können Sie Dimensionen und Metriken als Touchpoints in Trichtern und Workflows kombinieren. Fallouts bieten Ihnen mehr Flexibilität bei der Definition der Benutzerschritte, die Sie untersuchen möchten.
 
+Beispielsweise können Sie zusätzlich zu einer Seitendimension weitere Dimensionselemente (wie einen bestimmten Gerätenamen aus der Dimension Gerätename) zu einer Fallout-Visualisierung hinzufügen. Durch Kombinieren von Dimensionen können Sie visualisieren, wie Seiten und bestimmte Aktionen in den Pfaden der Kunden interagieren.
+
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensionaler Fallout](https://video.tv.adobe.com/v/327466?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensionaler Fallout](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

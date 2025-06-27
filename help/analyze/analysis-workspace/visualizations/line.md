@@ -1,14 +1,14 @@
 ---
-description: Linienvisualisierung zur Darstellung von (zeitbasierten) Trend-Datensätzen verwenden
+description: Verwenden Sie die Linienvisualisierung, um Trenddatensätze (zeitbasierte) darzustellen.
 title: Linie
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 98%
 
 ---
 
@@ -30,20 +30,20 @@ _In diesem Artikel wird die Linienvisualisierung in_ ![AdobeAnalytics](/help/ass
 
 >[!ENDSHADEBOX]
 
-Die ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Linienvisualisierung]** stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Eine Linienvisualisierung kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
+Die ![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Linienvisualisierung]** stellt Metriken anhand einer Linie dar, die den Wertverlauf über einen bestimmten Zeitraum hinweg zeigt. Eine Visualisierung „Linie“ kann nur verwendet werden, wenn die Zeit als Dimension verwendet wird.
 
 ![Linienvisualisierung](assets/line-viz.png)
 
 
 ## Einstellungen
 
-Im Rahmen der [Visualisierungseinstellungen](freeform-analysis-visualizations.md#settings) sind bestimmte Einstellungen für die Linienvisualisierung verfügbar.
+Im Rahmen der [Visualisierungseinstellungen](freeform-analysis-visualizations.md#settings) sind bestimmte Einstellungen für die Visualisierung „Linie“ verfügbar.
 
 | Einstellung | Beschreibung |
 |---|---|
 | **[!UICONTROL Granularität]** | Wählen Sie aus der Dropdown-Liste „Granularität“ eine Trend-Visualisierung von täglich über wöchentlich bis monatlich usw. aus. Die Granularität wird auch in der Datenquellentabelle aktualisiert. |
-| **[!UICONTROL Min. zeigen]** <br/>**[!UICONTROL Max. zeigen ]** | Sie können eine Beschriftung für Minimal- und Maximalwerte überlagern, um die Mindest- und Maximalwerte in einer Metrik hervorzuheben. Die Minimal bzw. Maximalwerte werden aus den sichtbaren Datenpunkten in der Visualisierung abgeleitet, nicht aus dem vollständigen Satz von Werten innerhalb einer Dimension.<br/>![Eine Überlagerung mit der Beschriftung für den Minimal- und Maximalwert.](assets/min-max-labels.png) |
-| **[!UICONTROL Trend-Linie anzeigen]** | Sie können eine Trend-Linie für eine Regression oder einen gleitenden Mittelwert zu Ihrer Linienserie hinzufügen. Trend-Linien helfen, ein Muster in den Daten besser darzustellen. Wählen Sie anschließend ein Modell aus der Liste aus. Unter [Modelle](#models) finden Sie einen Überblick und eine Beschreibung der verfügbaren Modelle.<br/>![Lineare Trend-Linie](assets/show-linear-trendline.png). |
+| **[!UICONTROL Min. zeigen]** <br/>**[!UICONTROL Max. zeigen ]** | Sie können eine Beschriftung für Minimal- und Maximalwerte überlagern, um die Mindest- und Maximalwerte in einer Metrik hervorzuheben. Die Minimal bzw. Maximalwerte werden aus den sichtbaren Datenpunkten in der Visualisierung abgeleitet, nicht aus dem vollständigen Satz von Werten innerhalb einer Dimension.<br/>![Eine Überlagerung mit der Beschriftung für den Minimal- und Maximalwert](assets/min-max-labels.png) |
+| **[!UICONTROL Trendlinie anzeigen]** | Sie können eine Trend-Linie für eine Regression oder einen gleitenden Mittelwert zu Ihrer Linienserie hinzufügen. Trend-Linien helfen, ein Muster in den Daten besser darzustellen. Wählen Sie anschließend ein Modell aus der Liste aus. Unter [Modelle](#models) finden Sie einen Überblick und eine Beschreibung der verfügbaren Modelle.<br/>![Lineare Trend-Linie](assets/show-linear-trendline.png). |
 
 >[!TIP]
 >
@@ -62,12 +62,12 @@ Alle Trendlinien des Regressionsmodells werden über die reguläre Kleinstquadra
 | **[!UICONTROL Exponentiell]** | Erstellt eine gekrümmte Linie und ist nützlich, wenn Daten mit immer stärker steigenden Raten steigen oder fallen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten Null oder negative Werte enthalten. Gleichung: `y = a + e^(b * x)` |
 | **[!UICONTROL Potenzfunktion]** | Erstellt eine gekrümmte Linie und ist nützlich für Datensätze, die Messungen vergleichen, welche mit einer bestimmten Rate ansteigen. Diese Option sollte nicht verwendet werden, wenn Ihre Daten Null oder negative Werte enthalten. Gleichung: `y = a * x^b` |
 | **[!UICONTROL Quadratisch]** | Findet die beste Anpassung für einen Datensatz in Form einer Parabel (konkav nach oben oder unten). Gleichung: `y = a + b * x + c * x^2` |
-| **[!UICONTROL Gleitender Mittelwert]** | Erstellt eine glatte Trend-Linie basierend auf einer Reihe von Durchschnittswerten. Ein gleitender Mittelwert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Ihre Auswahl der [!UICONTROL Granularität]), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. Beispiele sind der gleitende Mittelwert für 7 Tage oder der gleitende Mittelwert für 4 Wochen. |
+| **[!UICONTROL Gleitender Mittelwert]** | Erstellt eine glatte Trend-Linie basierend auf einer Reihe von Durchschnittswerten. Ein gleitender Mittelwert, der auch als rollierender Durchschnitt bezeichnet wird, nutzt eine bestimmte Anzahl von Datenpunkten (bestimmt durch Ihre Auswahl der [!UICONTROL Granularität]), errechnet einen Durchschnittswert und verwendet den Durchschnittswert als Punkt auf der Linie. Beispiele sind der gleitende Mittelwert für 7 Tage oder der gleitende Mittelwert für 4 Wochen. |
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung in einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

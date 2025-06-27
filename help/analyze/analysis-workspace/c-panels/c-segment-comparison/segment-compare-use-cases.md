@@ -5,14 +5,14 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Anwendungsfälle für Segment IQ
+# Anwendungsfälle für Segmentvergleiche
 
 Der Bereich für den Segmentvergleich ist eine häufig verwendete Funktion in Analysis Workspace. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
 
@@ -60,7 +60,7 @@ Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch Paid-
 
 > *„Wir haben festgestellt, dass Käufer von Fitbits mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten. Deshalb haben wir schnell mehr Fitbits bestellt und konnten die Nachfrage decken!“*
 
-**Szenario:** Ein großes Online-Einzelhandelsunternehmen hatte die Absicht, herauszufinden, wie sich Fitbit – einer der beliebtesten Weihnachtsartikel – verkaufte und was Fitbit-Käufer von anderen Kunden unterschied. Das Marketingteam konnte einfach auf den Zeileneintrag „Fitbit“ im Produktbericht rechtsklicken und im Handumdrehen eine Segment-IQ-Analyse durchführen. Das Team fand heraus, dass Nutzer, die Fitbits kauften, mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten als alle anderen Kunden. Nach weiteren Analysen konnte das Marketingteam diese Besucher an seine Ladengeschäfte verweisen, während es darauf wartete, dass die Einkaufsabteilung weitere Fitbits bestellte. So konnte das Unternehmen weitere Bestandslücken vermeiden und die Weihnachtsnachfrage besser decken.
+**Szenario:** Ein großes Online-Einzelhandelsunternehmen hatte die Absicht, herauszufinden, wie sich Fitbit – einer der beliebtesten Weihnachtsartikel – verkaufte und was Fitbit-Käufer von anderen Kunden unterschied. Das Marketing-Team konnte einfach mit der rechten Maustaste auf den Zeileneintrag „Fitbit“ in seinem Produktbericht klicken und schnell eine Segment-IQ-Analyse durchführen. Sie stellten fest, dass Benutzer, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine Nachricht „Nicht vorrätig“ erhielten als andere Kunden. Nach weiteren Analysen konnte das Marketingteam diese Besucher an seine Ladengeschäfte verweisen, während es darauf wartete, dass die Einkaufsabteilung weitere Fitbits bestellte. So konnte das Unternehmen weitere Bestandslücken vermeiden und die Weihnachtsnachfrage besser decken.
 
 | Segment 1 | Segment 2 |
 |--- |--- |

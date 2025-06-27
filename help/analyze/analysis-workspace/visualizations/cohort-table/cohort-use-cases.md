@@ -1,26 +1,26 @@
 ---
-description: Anwendungsfälle für die Kohortenanalyse.
+description: Erfahren Sie mehr über einige Anwendungsbeispiele für die Kohortenanalyse.
 keywords: Analysis Workspace
 title: Anwendungsfälle für die Kohortenanalyse
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# Anwendungsfälle für die [!UICONTROL Kohortenanalyse]
+# Anwendungsfälle für die Kohortenanalyse
 
 Anwendungsfälle für die [!UICONTROL Kohortenanalyse].
 
-## Anwendungsfall: Mobile-App-Interaktion {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Anwendungsfall: Mobile-App-Interaktion
 
 Angenommen Sie möchten herausfinden, wie Benutzer, die Ihre Anwendung installieren, im Laufe der Zeit damit interagieren. Installieren sie die Anwendung, benutzen sie aber nie? Benutzen sie die Anwendung eine Zeit lang und hören dann auf? Oder bleiben Sie die ganze Zeit dabei?
 
-Sie können eine [!UICONTROL Kohortenanalyse] über sechs Monate erstellen:
+Sie können eine Kohortenanalyse über sechs Monate erstellen.
 
 **Granularität**: Monatlich, von Januar 2015 bis Juni 2015
 
@@ -30,7 +30,7 @@ Sie können eine [!UICONTROL Kohortenanalyse] über sechs Monate erstellen:
 
 Besuchende zählen in nachfolgenden Monaten nicht als *`engaged`*, sofern nicht eine Sitzung stattgefunden hat oder sie zumindest die App gestartet haben. Die [!UICONTROL Kohortenanalyse] zeigt Ihnen dann Nutzungsmuster, bei denen *`App Install`* immer in Monat 0 auftritt. Vielleicht stellen Sie fest, dass die Verwendung im zweiten Monat zurückgeht, unabhängig vom Zeitpunkt der Installation der Anwendung durch die Benutzer. (Für diejenigen, die die Anwendung im Januar 2015 installiert haben, ist der zweite Monat der März 2015. Für diejenigen, die die App im Februar 2015 installiert haben, ist Monat 2 der April 2015 usw.) Mit dieser Analyse können Sie im zweiten Monat nach der Installation der App eine E-Mail oder eine Push-Nachricht an alle Benutzenden senden, um sie an die Verwendung der App zu erinnern.
 
-## Anwendungsfall: Abonnement {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Anwendungsfall: Abonnement
 
 Sie arbeiten bei Adobe.com und bieten ein kostenloses Creative Cloud-Abonnement an. Das Ziel besteht darin, dass die Benutzer ein Upgrade von der kostenlosen Version auf das 30-tägige Probe-Abo oder letztlich auf die zahlungspflichtige Version durchführen.
 

@@ -1,28 +1,34 @@
 ---
-description: Informationen zum Speichern von Projekten in Ordnern in Workspace
+description: Erfahren Sie, wie Sie ein neues Projekt in einem Ordner in Analysis Workspace speichern.
 keywords: Analysis Workspace
-title: Speichern von Projekten in Ordnern
+title: Speichern eines neuen Projekts in einem Ordner
 feature: Workspace Basics
 exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
 # Speichern eines neuen Projekts in einem Ordner
 
-Um ein neues Projekt in einem bestimmten Ordner zu speichern, wählen Sie den Ordnernamen im Dialogfenster „Projekt speichern“ aus.
+Weitere Informationen finden [ unter ](../save-projects.md#save)Projekte speichern“.
 
-1. Erstellen Sie in Workspace ein neues Projekt.
+<!-- Not in TOC anymore; irrelevant article
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
+To save a new project to a specific folder, select the folder name in the Save project dialogue window.
 
-1. Wählen Sie im Dialogfeld **Projekt** > **Speichern** einen Ordnernamen aus dem Dropdown-Menü „Ordner“.
+1. In Workspace, create a new project.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder1.png)
 
-1. Klicken Sie auf **Speichern**.
+1. In the **Project** > **Save** dialogue, select a folder name from the Folder drop-down menu.
 
-   Das Projekt wird im ausgewählten Ordner gespeichert.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/save-to-folder2.png)
+
+1. Click **Save**.
+
+    The project is saved in the selected folder.
+
+-->

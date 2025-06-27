@@ -1,14 +1,14 @@
 ---
-title: Überblick über das Bedienfeld „Segmentvergleich“
-description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“, Teil von Segment IQ in Analysis Workspace, verwenden.
+title: Bedienfeld für den Segmentvergleich - Übersicht
+description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“ in Analysis Workspace verwenden.
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segmen
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/37520?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

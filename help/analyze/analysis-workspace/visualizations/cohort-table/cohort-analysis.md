@@ -1,13 +1,13 @@
 ---
-title: Was ist eine Kohortenanalyse und wie funktioniert sie?
-description: Informieren Sie sich genauer über die Daten rund um Ihre Zielgruppe und unterteilen Sie sie mit der Kohortenanalyse in die zugehörigen Gruppen. Erfahren Sie mehr über die Kohortenanalyse in Analysis Workspace.
+title: Übersicht über die Kohortentabelle
+description: Erfahren Sie, wie Sie Ihre Audience genauer untersuchen und diese Daten mithilfe der Kohortenanalyse in verwandte Gruppen aufteilen können. Verwenden Sie die Kohortenanalyse in Analysis Workspace.
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 96%
+source-wordcount: '704'
+ht-degree: 90%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Kohortentabelle"
->abstract="Gruppieren Sie Benutzende bei Abschluss eines Ereignisses und analysieren Sie dann ihre anhaltenden Interaktionen und Abwanderungen im Zeitverlauf.<br/><br/>**Parameter &#x200B;**<br/>**Aufnahmekriterien**: Die Komponenten, die zur Definition der anfänglichen Besucherkohorten verwendet werden.<br/>**Rückkehrkriterien**: Die Komponenten, mit denen bestimmt wird, ob eine Besucherin bzw. ein Besucher zurückgekehrt ist."
+>abstract="Gruppieren Sie Benutzende bei Abschluss eines Ereignisses und analysieren Sie dann ihre anhaltenden Interaktionen und Abwanderungen im Zeitverlauf.<br/><br/>**Parameter **<br/>**Aufnahmekriterien**: Die Komponenten, die zur Definition der anfänglichen Besucherkohorten verwendet werden.<br/>**Rückkehrkriterien**: Die Komponenten, mit denen bestimmt wird, ob eine Besucherin bzw. ein Besucher zurückgekehrt ist."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Kohortentabelle in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Kohortentabelle](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird die Kohortentabelle in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Kohortentabelle](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ Beispiele für die Nutzung einer [!UICONTROL Kohortentabelle]:
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kohortenanalyse in Analysis Workspace](https://video.tv.adobe.com/v/3430076/?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kohortenanalyse in Analysis Workspace](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -74,31 +74,31 @@ In den folgenden Abschnitten werden Funktionen zur Kohortenanalyse beschrieben, 
 
 Weitere ausführliche Informationen zum Erstellen einer Kohorte und zum Ausführen eines [!UICONTROL Kohortenanalyse-Berichts] finden Sie unter [Konfigurieren einer Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
-### [!UICONTROL Kundenbindungstabelle]
+### Aufbewahrungstabelle
 
 Eine [!UICONTROL Bindungskohortentabelle] gibt Personen zurück: Jede Datenzelle zeigt die Roh- und Prozentanzahl der Personen in der Kohorte, die die Aktion während dieses Zeitraums ausgeführt haben. Sie können bis zu drei Metriken und bis zu zehn Filter einschließen.
 
 ![Ein Bindungskohortenbericht mit den Einheiten und dem Prozentsatz der Personen in der Kohorte.](assets/retention-report.png)
 
-### [!UICONTROL Abwanderungstabelle]
+### Abwanderungstabelle
 
 Eine [!UICONTROL Abwanderungskohortentabelle] ist die Umkehrung einer Bindungstabelle und zeigt die Personen an, die abgewandert sind oder die Rückkehrkriterien für Ihre Kohorte im Laufe der Zeit nie erfüllt haben. Sie können bis zu drei Metriken und bis zu zehn Filter einschließen.
 
 ![Eine Abwanderungstabelle mit den Einheiten und dem Prozentsatz der Personen, die die Rückkehrkriterien für eine Kohorte nicht erfüllt haben.](assets/churn-report.png)
 
-### [!UICONTROL Rollierende Berechnung]
+### Rollierende Berechnung
 
 Sie können die Kundenbindung oder -abwanderung basierend auf der vorherigen Spalte berechnen, nicht basierend auf der eingeschlossenen Spalte, was als rollierende Berechnung bezeichnet wird.
 
 ![Ein Kohortenbindungsbericht mit den Berechnungen, die auf einer vorherigen Datenspalte basieren.](assets/retention-report-rolling.png)
 
-### [!UICONTROL Latenztabelle]
+### Latenztabelle
 
 Eine Latenztabelle misst die verstrichene Zeit vor und nach dem Aufnahmeereignis. Das Messen der Latenz ist ein hervorragendes Instrument für die Vor- und Nachanalyse. Die Spalte **[!UICONTROL Aufnahme]** befindet sich in der Mitte der Tabelle und die Zeiträume vor und nach dem Aufnahmeereignis werden auf beiden Seiten angezeigt.
 
 ![Ein Kohortenbericht mit der verstrichenen Zeit vor und nach einem Ereignis.](assets/retention-report-latency.png)
 
-### [!UICONTROL Angepasste Dimensionskohorte]
+### Benutzerdefinierte Dimensionskohorte
 
 Sie können Kohorten auf Grundlage einer ausgewählten Dimension und nicht auf Grundlage zeitbasierter Kohorten (was die Standardeinstellung ist) erstellen. Verwenden Sie Dimensionen wie [!UICONTROL Ort-Geo], [!UICONTROL Marketing-Kanal], [!UICONTROL Kampagne], [!UICONTROL Produkt], [!UICONTROL Seite], [!UICONTROL Region] oder jede andere Dimension, um zu zeigen, wie sich die Bindung ändert. Basierend auf den verschiedenen Werten dieser Dimensionen.
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430083?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430165?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430163?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
