@@ -4,9 +4,9 @@ title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für
 
      | Metriktyp | Definition |
      |---|---|
-     | **[!UICONTROL Standard]** | Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Zeileneinträge gelten. <p>Beispielsweise nimmt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Teilen](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg)**[!UICONTROL Besuche]** die Bestellungen für diesen bestimmten Zeileneintrag und teilt ihn durch die Anzahl der Besuche für diesen bestimmten Zeileneintrag. |
-     | **[!UICONTROL Gesamtsumme]** | Verwenden Sie die **[!UICONTROL Gesamtsumme]** für den Berichtszeitraum in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Gesamtsummenmetrik besteht, zeigt sie dieselbe Gesamtsummenzahl für jeden Zeileneintrag an. Gesamtsummenmetriken sind hilfreich, wenn Sie berechnete Metriken erstellen möchten, die mit den Gesamtdaten verglichen werden. <p>Beispiel: ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Teilen](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg)**[!UICONTROL Gesamtzahl der Besuche]** zeigt den Anteil der Bestellungen an allen Besuchen an, nicht nur an den Besuchen des bestimmten Zeileneintrags. In diesem Beispiel geben Sie **[!UICONTROL Gesamtsumme]** für die Metrik ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** in Ihrer berechneten Metrik an, wodurch sie automatisch in ![](/help/assets/icons/Event.svg) Ereignis **[!UICONTROL Gesamtbesuche]** umgewandelt wird. |
+     | **[!UICONTROL Standard]** | Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Zeileneinträge gelten. <p>Zum Beispiel teilt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Geteilt durch](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** die Bestellungen für diesen spezifischen Zeileneintrag durch die Anzahl der Besuche für diesen spezifischen Zeileneintrag. |
+     | **[!UICONTROL Gesamtsumme]** | Verwenden Sie die **[!UICONTROL Gesamtsumme]** für den Berichtszeitraum in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Gesamtsummenmetrik besteht, zeigt sie dieselbe Gesamtsummenzahl für jeden Zeileneintrag an. Gesamtsummenmetriken sind hilfreich, wenn Sie berechnete Metriken erstellen möchten, die mit den Gesamtdaten verglichen werden. <p>Zum Beispiel zeigt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Geteilt durch](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Gesamtbesuche]** den Anteil der Bestellungen im Verhältnis zu allen Besuchen und nicht nur die Besuche für den spezifischen Zeileneintrag an. In diesem Beispiel geben Sie die **[!UICONTROL Gesamtsumme]** für die Metrik ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** in Ihrer berechneten Metrik an, die sie automatisch in ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Gesamtbesuche]** umwandelt. |
 
    * Geben Sie die **[!UICONTROL Attribution]** an.
 
@@ -33,15 +33,15 @@ Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für
          * Deaktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**, um das standardmäßige Spalten-Attributionsmodell Letztkontakt mit einem Lookback-Fenster von 30 Tagen zu verwenden.
          * Aktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**. Im Dialogfeld **[!UICONTROL Attributionsmodell mit Spalten]**
 
-            * Wählen Sie **[!UICONTROL Modell]** unter [Attributionsmodelle](#attribution-models) aus.
-            * Wählen Sie einen **[!UICONTROL Container]** aus den Optionen [Container](#container) aus.
-            * Wählen Sie ein **[!UICONTROL Lookback]** Fenster) unter den Optionen [Lookback-Fenster](#lookback-window) aus. Wenn Sie **[!UICONTROL Benutzerdefinierte Zeit]** auswählen, können Sie den Zeitraum in **[!UICONTROL Minute(n)]** bis zu **[!UICONTROL Quartal(en)]** definieren.
+            * Wählen Sie ein **[!UICONTROL Modell]** aus den [Attributionsmodellen](#attribution-models) aus.
+            * Wählen Sie einen **[!UICONTROL Container]** aus den Optionen für [Container](#container) aus.
+            * Wählen Sie ein **[!UICONTROL Lookback-Fenster]** aus den Optionen für [Lookback-Fenster](#lookback-window) aus. Wenn Sie **[!UICONTROL Benutzerdefinierte Zeit]** auswählen, können Sie den Zeitraum in **[!UICONTROL Minuten]** bis zu **[!UICONTROL Quartalen]** festlegen. 
 
       1. Wählen Sie **[!UICONTROL Anwenden]**, um das nicht standardmäßige Attributionsmodell anzuwenden. Wählen Sie zum Abbrechen die Option „Abbrechen“ aus.
 
      Wenn Sie bereits ein nicht standardmäßiges Attributionsmodell definiert haben, wählen Sie **[!UICONTROL Bearbeiten]** aus, um die Auswahl zu ändern.
 
-Siehe [Beispiel](#example) für ein Beispiel der Verwendung eines Attributionsmodells, eines Containers und eines Lookback-Fensters.
+Unter [Beispiel](#example) finden Sie ein Beispiel für die Verwendung von Attributionsmodellen, Containern und Lookback-Fenstern.
 
 
 ## Attributionsmodelle {#attribution-models}
