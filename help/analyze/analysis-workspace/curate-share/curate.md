@@ -51,7 +51,7 @@ So entfernen Sie die Projektkuratierung und stellen Sie den vollständigen Satz 
 
 ## Kuratierung einer Virtual Report Suite
 
-Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite kuratieren](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
+Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite kuratieren](https://experienceleague.adobe.com/de/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
