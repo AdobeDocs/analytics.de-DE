@@ -1,14 +1,14 @@
 ---
-description: Projektfreigabe und Projektrollen in Workspace
+description: Erfahren Sie, wie Sie Projekt- und Projektrollen in Workspace freigeben
 keywords: Analysis Workspace-Freigabe
-title: Freigeben von Projekten
+title: Projekte freigeben
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 97%
+source-wordcount: '1976'
+ht-degree: 96%
 
 ---
 
@@ -41,12 +41,12 @@ Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird bei
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/40031?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Freigeben für Analysis Workspace-Benutzende und -Gruppen in Ihrer Organisation {#Add}
+## Für Benutzende und Gruppen in Ihrer Organisation freigeben {#Add}
 
 Sie können ein Projekt für bestehende Analysis Workspace-Benutzende oder -Gruppen in Ihrer Organisation freigeben. Wenn Sie ein Projekt wie in diesem Abschnitt beschrieben freigeben, müssen die Benutzenden, für die Sie es freigeben, bereits über Zugriff auf Adobe Analytics verfügen.
 
@@ -157,7 +157,7 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3452469?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sin
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/327497?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

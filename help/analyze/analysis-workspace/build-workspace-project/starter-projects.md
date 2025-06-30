@@ -1,19 +1,19 @@
 ---
-description: Erfahren Sie, wie Sie mithilfe von Vorlagen in Analysis Workspace schnell ein Projekt auf der Grundlage gängiger Berichtsszenarien erstellen können.
-title: Vorlagen
+description: Erfahren Sie, wie Sie mithilfe von Vorlagen in Analysis Workspace schnell ein Projekt starten können, das auf gängigen Berichtsszenarien basiert.
+title: Schneller Projektstart
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 37%
+source-wordcount: '75'
+ht-degree: 24%
 
 ---
 
-# Vorlagen
+# Schneller Start eines Projekts
 
-Vorlagen (oder Unternehmensvorlagen) in Analysis Workspace bieten schnelle Einblicke in die gängigsten Reporting-Szenarien.
+Sie können ein Projekt schnell mit relevanten Bedienfeldern und Visualisierungen starten. Verwenden Sie dazu Vorlagen (oder Unternehmensvorlagen) in Analysis Workspace. Vorlagen bieten schnelle Einblicke in die gängigsten Reporting-Szenarien.
 
 Informationen zur Verwendung von Vorlagen in Adobe Analytics finden Sie in den folgenden Ressourcen:
 

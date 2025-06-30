@@ -1,20 +1,20 @@
 ---
-description: Versenden Sie ein Projekt aus Analysis Workspace per E-Mail oder planen Sie den Versand.
+description: Erfahren Sie, wie Sie ein Analysis Workspace-Projekt direkt oder nach einem Zeitplan für den E-Mail-Versand senden.
 keywords: Analysis Workspace
-title: Planen von Projekten
+title: Senden und Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 32%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 
-# Dateien An andere senden
+# Senden und planen
 
-Sie können Adobe Analytics-Berichte als Dateien per E-Mail an ausgewählte Benutzende senden. Sie können Dateien ad hoc senden oder Sie können Dateien so konfigurieren, dass sie nach einem Zeitplan gesendet werden. Dateien können im CSV- oder PDF-Format gesendet werden.
+Sie können Adobe Analytics-Projekte als Dateien per E-Mail an ausgewählte Benutzer senden. Sie können Dateien ad hoc senden oder Sie können Dateien so konfigurieren, dass sie nach einem Zeitplan gesendet werden. Dateien können im CSV- oder PDF-Format gesendet werden.
 
 Alle auf das Projekt angewendeten Tags werden automatisch auf den Export angewendet.
 
@@ -24,7 +24,7 @@ Es sind auch andere Methoden zum Exportieren von Adobe Analytics-Daten verfügba
 
 ## Datei senden
 
-So senden Sie eine Datei per E-Mail an Empfänger:
+So senden Sie eine Ad-hoc-Datei per E-Mail an Empfänger:
 
 1. Wählen Sie **[!UICONTROL Freigeben] > [!UICONTROL Datei senden]**.
 1. Geben Sie den Dateityp an:

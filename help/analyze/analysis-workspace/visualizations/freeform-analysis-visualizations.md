@@ -5,10 +5,10 @@ title: Visualisierungen - Übersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -149,11 +149,11 @@ Verwenden Sie das Kontextmenü (verfügbar über eine alternative Auswahl, z. B
 | Option | Beschreibung |
 | --- | --- |
 | **[!UICONTROL Kopierte Visualisierung einfügen]** | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt ein. |
-| **[!UICONTROL Daten in die Zwischenablage kopieren]** | Kopieren Sie Daten aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | Zum Kopieren der Auswahl aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | Laden Sie die Dimensionselemente (bis maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
+| **[!UICONTROL Daten in die Zwischenablage kopieren]** | [Kopieren Sie Daten](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
 | **[!UICONTROL Visualisierung kopieren]** | Kopieren Sie die Visualisierung, sodass Sie sie an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
-| **[!UICONTROL Daten als CSV herunterladen]** | Lädt die angezeigten Daten der Visualisierung auf Ihr lokales Gerät herunter. |
+| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
 | **[!UICONTROL Visualisierung duplizieren]** | Erstellen Sie ein exaktes Duplikat der Visualisierung. |
 | **[!UICONTROL Beschreibung bearbeiten]** | Fügen Sie Text zur Beschreibung der Visualisierung hinzu (oder bearbeiten Sie ihn). Siehe [Text](text.md). |
 | **[!UICONTROL Visualisierungs-Link abrufen]** | Kopieren Sie einen Link und teilen Sie ihn direkt in der Visualisierung. Der Link wird im Dialogfeld „Link freigeben“ angezeigt. Wählen Sie „Kopieren“ aus, um den Link in die Zwischenablage zu kopieren. |
@@ -217,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -234,6 +234,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/41447/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->
