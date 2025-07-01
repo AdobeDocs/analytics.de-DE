@@ -5,14 +5,14 @@ title: Senden und Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 28%
 
 ---
 
-# Senden und planen
+# Senden und Planen von Projekten
 
 Sie können Adobe Analytics-Projekte als Dateien per E-Mail an ausgewählte Benutzer senden. Sie können Dateien ad hoc senden oder Sie können Dateien so konfigurieren, dass sie nach einem Zeitplan gesendet werden. Dateien können im CSV- oder PDF-Format gesendet werden.
 
