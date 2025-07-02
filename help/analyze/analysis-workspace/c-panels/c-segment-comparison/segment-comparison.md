@@ -28,12 +28,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Bedienfeld „Segmentvergleich“"
->abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden.<br/><br/>**Parameter **<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem Sie vergleichen möchten, das automatisch mit &quot;*Alle anderen“* wird (das Gegenteil Ihres ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
+>abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden.<br/><br/>**Parameter &#x200B;**<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem Sie vergleichen möchten, das automatisch mit &quot;*Alle anderen“* wird (das Gegenteil Ihres ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Segmentvergleich“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Segmentvergleich“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
