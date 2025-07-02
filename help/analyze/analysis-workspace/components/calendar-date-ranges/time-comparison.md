@@ -18,7 +18,7 @@ Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datumsvergleich](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datumsvergleich](https://video.tv.adobe.com/v/33712?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
