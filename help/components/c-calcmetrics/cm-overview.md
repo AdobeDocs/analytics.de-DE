@@ -5,9 +5,9 @@ title: Berechnete und erweiterte berechnete Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 36%
 
 Berechnete und benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
 
-Berechnete Metriken bieten eine äußerst flexible Möglichkeit zum Erstellen, Verwalten und Kuratieren von Metriken. Mit berechneten Metriken können Sie als Marketing-Experten, Produkt-Manager und Analysten Fragen zu den Daten stellen, ohne Ihre [!DNL Analytics]-Implementierung ändern zu müssen.
+Berechnete Metriken bieten die Möglichkeit, Metriken auf flexible Weise zu erstellen, zu verwalten und zu kuratieren. Mit berechneten Metriken können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten Daten abfragen, ohne die [!DNL Analytics]-Implementierung ändern zu müssen.
 
-Berechnete Metriken sind in jedem [!DNL Analytics] verfügbar, jedoch ist das Adobe Analytics Foundation Pack für Experience Cloud auf grundlegende berechnete Metriken beschränkt, einschließlich [Formattypen (Dezimal, Zeit, Prozent, Währung)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) ([Zuordnungsänderungen (Standard, linear, Teilnahme usw.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [Metriktypen (Standard, Gesamt)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) und [Grundoperatoren](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (hinzufügen, subtrahieren, multiplizieren und teilen).
+Berechnete Metriken sind in jedem [!DNL Analytics]-Paket verfügbar, jedoch ist das Adobe Analytics Foundation-Paket für Experience Cloud auf grundlegende berechnete Metriken beschränkt, einschließlich [Formattypen (Dezimal, Zeit, Prozent, Währung)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) und [Zuordnungsänderungen (Standard, linear, Teilnahme usw.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [Metriktypen (Standard, Gesamt)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) und [grundlegende Operatoren](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (addieren, subtrahieren, multiplizieren und dividieren).
 
 
-Weitere Informationen finden Sie in der &lbrace;0[&#128279;](https://helpx.adobe.com/de/legal/product-descriptions/adobe-analytics.html) Adobe Analytics-Produktbeschreibung.
+Weitere Informationen finden Sie in der [Produktbeschreibung für Adobe Analytics](https://helpx.adobe.com/de/legal/product-descriptions/adobe-analytics.html).
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
@@ -39,16 +39,16 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 Sie können
 
-* [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) für [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Anomalieerkennung] und [!UICONTROL Beitragsanalyse].
-* [Segmentierte Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) die zur Berichtslaufzeit abgeleitet werden, ohne die Implementierung ändern zu müssen. Sie können beispielsweise eine Metrik für *Neue Besucher* mit der Anzahl der Personen erstellen, für die dies die erste Sitzung ist.
+* [Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) für [!UICONTROL Analysis Workspace], den [!UICONTROL Report Builder], die [!UICONTROL Anomalieerkennung] und die [!UICONTROL Beitragsanalyse] erstellen.
+* [Segmentierte Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), die zur Berichtslaufzeit abgeleitet werden, ohne dass die Implementierung geändert werden muss. Sie können beispielsweise eine Metrik für *Neue Besuchende* erstellen, mit der die Personen gezählt werden, für die dies die erste Sitzung ist.
 
-* [Metriken freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) über Report Suites hinweg. Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
+* Metriken über Report Suites hinweg [freigeben](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md). Das bedeutet, dass alle neu erstellten Metriken für alle Report Suites in demselben Anmeldeunternehmen gelten.
 
-* [Integrieren Sie statistische Funktionen](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) um Ihre Daten besser zu beschreiben. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
+* [Statistische Funktionen einbeziehen](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md), um die Daten besser beschreiben zu können. Sie könnten beispielsweise die Elemente in einem Bericht zählen oder die Anzahl der Standardabweichungen für jedes Element addieren.
 
 ## Einschränkungen
 
-Einige [!DNL Analytics] Funktionen erlauben keine Verwendung von berechneten Metriken:
+Einige Funktionen von [!DNL Analytics] erlauben die Verwendung von berechneten Metriken nicht:
 
 * [!UICONTROL Fallout] in [!UICONTROL Analysis Workspace]
 * [!UICONTROL Kohortenanalyse] in Analysis Workspace
@@ -59,13 +59,13 @@ Einige [!DNL Analytics] Funktionen erlauben keine Verwendung von berechneten Met
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/37931?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://video.tv.adobe.com/v/37930?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 
 >[!MORELIKETHIS]
 >
->[Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[Verwenden Sie Funktionen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>[Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+>>[Erstellen von Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Verwenden von Funktionen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

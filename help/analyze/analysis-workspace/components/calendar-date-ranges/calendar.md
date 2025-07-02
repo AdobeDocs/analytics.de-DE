@@ -5,9 +5,9 @@ feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '535'
+ht-degree: 100%
 
 ---
 
@@ -38,8 +38,8 @@ Sie können auch einen Datumsbereich in einer Freiformtabelle als Metrik oder Di
 Sie verwenden einen Datumsbereich so wie Sie [eine beliebige Komponente verwenden würden](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components). Sie ziehen den Datumsbereich aus dem Komponenten-Panel ![Kalender](/help/assets/icons/Calendar.svg) **[!UICONTROL Datumsbereiche]** und legen Sie die Komponente hier ab:
 
 - **[!UICONTROL Kalender]**: Sie ![Wechseln](/help/assets/icons/Switch.svg) **[!UICONTROL Ersetzen]** die aktuelle Kalenderkonfiguration durch den Datumsbereich.
-- **Spaltenkopf Metrik**: Sie ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL ersetzen]** die Metrik, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL fügen &#x200B;]**&#x200B;den Datumsbereich als Metrik hinzu oder ![Filter](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B; filtern &#x200B;]**&#x200B;die Metrik mit der Komponente Datumsbereich.
-- **Spaltenkopf Dimension**: Sie ![Wechseln](/help/assets/icons/Switch.svg) **[!UICONTROL ersetzen]** die aktuellen Dimensionen. Die neue Dimension lautet jetzt **[!UICONTROL Datumsbereiche]**. Sobald die Dimension Datumsbereiche lautet, können Sie zusätzliche Datumsbereiche als Dimensionselemente ![Hinzufügen](/help/assets/icons/Add.svg)**[!UICONTROL hinzufügen &#x200B;]**.
+- **Spaltenkopf Metrik**: Sie ![Switch](/help/assets/icons/Switch.svg) **[!UICONTROL ersetzen]** die Metrik, ![Add](/help/assets/icons/Add.svg)**[!UICONTROL fügen ]**den Datumsbereich als Metrik hinzu oder ![Filter](/help/assets/icons/Filter.svg)**[!UICONTROL  filtern ]**die Metrik mit der Komponente Datumsbereich.
+- **Spaltenkopf Dimension**: Sie ![Wechseln](/help/assets/icons/Switch.svg) **[!UICONTROL ersetzen]** die aktuellen Dimensionen. Die neue Dimension lautet jetzt **[!UICONTROL Datumsbereiche]**. Sobald die Dimension Datumsbereiche lautet, können Sie zusätzliche Datumsbereiche als Dimensionselemente ![Hinzufügen](/help/assets/icons/Add.svg)**[!UICONTROL hinzufügen ]**.
 - **Dimensionselement**: Sie ![Aufschlüsselung](/help/assets/icons/Breakdown.svg) **[!UICONTROL schlüsseln]** das spezifische Dimensionselement nach Datumsbereich auf.
 
 Sie können eine Spalte für Datumsbereich auch direkt in einer Visualisierung „Freiformtabelle“ hinzufügen:
@@ -97,7 +97,7 @@ In the calendar, you can specify dates and date ranges, or select a preset.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/328023?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=de) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

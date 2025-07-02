@@ -1,20 +1,20 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Komponentenleitfaden für Analytics
+user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # [!DNL Adobe Analytics]-Komponentenleitfaden {#components}
 
-+ [Komponentenleitfaden für Analytics](home.md)
++ [Analytics-Komponentenhandbuch](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
 + Dimensionen {#dimensions}
    + [Dimensionen – Überblick](dimensions/overview.md)
@@ -195,20 +195,20 @@ ht-degree: 97%
       + [Segmente kopieren](segmentation/segmentation-workflow/seg-copy.md)
       + [Verwalten von Segmenten](segmentation/segmentation-workflow/seg-manage.md)
       + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Segmente verwenden](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [Verwenden von Segmenten](segmentation/segmentation-workflow/t-seg-apply.md)
    + Segmentreferenz {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
-   + [Häufig gestellte Fragen zu älteren Segmenten](segmentation/seg-transition.md)
+   + [Häufig gestellte Fragen zu veralteten Segmenten](segmentation/seg-transition.md)
    + [Best Practices](segmentation/best-practices.md)
 + Berechnete Metriken {#calculated-metrics}
    + [Überblick](c-calcmetrics/cm-overview.md)
    + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
    + Workflow bei berechneten Metriken {#calcmetric-workflow}
       + [Erstellen von berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [Metriken suchen](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [Suchen von Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Erstellen berechneter Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Eine einfache berechnete Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Eine komplexere berechnete Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
@@ -224,7 +224,7 @@ ht-degree: 97%
       + [Berechnete Metriken genehmigen](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Berechnete Metriken freigeben](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berechnete Metriken kopieren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Berechnete Metriken verwalten](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Verwalten berechneter Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Metrikreferenz {#calcmetrics-reference}
       + [Grundlegende Funktionen](c-calcmetrics/cm-reference/cm-functions.md)
       + [Erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)

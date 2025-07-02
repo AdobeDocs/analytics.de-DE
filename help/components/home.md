@@ -1,16 +1,16 @@
 ---
-title: Komponentenleitfaden für Analytics
+title: Analytics-Komponentenhandbuch
 description: Erfahren Sie mehr über die verschiedenen Komponenten, die Adobe Analytics bietet.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
 ht-degree: 100%
 
 ---
 
-# Komponentenleitfaden für Analytics
+# Analytics-Komponentenhandbuch
 
 Mithilfe von Analytics-Komponenten können Sie die Datenanalyse optimieren. Zu den Komponenten gehören:
 
@@ -44,7 +44,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu 
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&lang=de#support)
-* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de&lang=de)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&lang=de#support)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/de)

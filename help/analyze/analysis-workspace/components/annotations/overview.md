@@ -6,9 +6,9 @@ solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 Mit Anmerkungen können Sie kontextbezogene Datennuancen und Erkenntnisse auf effektive Weise an andere Stakeholderinnen und Stakeholder in Ihrer Organisation übermitteln. Durch Anmerkungen können Sie Kalenderereignisse an bestimmte Dimensionen und Metriken binden. Sie können etwa zu einem Datum oder Datumsbereich Anmerkungen zu bekannten Datenproblemen, öffentlichen Feiertagen, Kampagnenstarts usw. machen, Sie können dann Ereignisse grafisch darstellen und sehen, ob sich Kampagnen oder andere Ereignisse auf den Sitetraffic, die Nutzung der Mobile App, den Umsatz oder andere Metriken ausgewirkt haben.
 
-Angenommen, Sie geben Projekte für Ihre Organisation frei. Wenn Ihre Unique Visitors merklich zurückgegangen sind, können Sie eine Anmerkung mit **abnehmenden Besuchern** erstellen und sie für Ihre gesamte Report Suite verwenden. Wenn Ihre Benutzer eine Report Suite aufrufen, die dieses Datum enthält, sehen sie die Anmerkung in ihren Projekten zusammen mit ihren Daten.
+Angenommen, Sie geben Projekte für Ihre Organisation frei. Wenn es einen merklichen Rückgang bei den Unique Visitors gegeben hat, können Sie die Anmerkung **Abnehmende Besucherzahlen** erstellen und diese auf Ihre gesamte Report Suite anwenden. Wenn Ihre Benutzenden eine Report Suite betrachten, die dieses Datum enthält, sehen sie die Anmerkung in ihren Projekten gemeinsam mit ihren Daten.
 
 ![Liniendiagramm mit hervorgehobener Anmerkung.](assets/annotation-example.png)
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=de).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

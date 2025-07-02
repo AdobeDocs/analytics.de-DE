@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Anal
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
 source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ In diesem Handbuch wird die Integration mehrerer Adobe Experience Cloud-Lösunge
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics für Advertising Cloud](https://video.tv.adobe.com/v/327664?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics für Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu 
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&lang=de#support)
-* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de&lang=de)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&lang=de#support)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/de)

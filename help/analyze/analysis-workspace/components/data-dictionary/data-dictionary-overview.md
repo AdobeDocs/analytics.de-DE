@@ -1,13 +1,13 @@
 ---
-description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzenden, die verschiedenen Komponenten in Analysis Workspace zu katalogisieren und im Auge zu behalten, einschließlich ihres Verwendungszwecks, der genehmigt ist, bei dem es sich um Duplikate handelt usw.
+description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzenden, die verschiedenen Komponenten in Analysis Workspace zu katalogisieren und im Auge zu behalten, einschließlich ihres Verwendungszwecks, Informationen dazu, welche genehmigt sind, welche Duplikate sind usw.
 title: Datenwörterbuch – Überblick
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Datenwörterbuch"
->abstract="Das Datenwörterbuch hilft sowohl Benutzenden als auch Admins, den Überblick zu behalten und die Komponenten in ihrer Analytics-Umgebung besser zu verstehen. <br/>Analytics-Admins sind dafür verantwortlich, im Datenwörterbuch Informationen über jede Komponente zu kuratieren."
+>abstract="Das Datenwörterbuch hilft Benutzenden und Admins dabei, die Komponenten in ihrer Analytics-Umgebung im Auge zu behalten und besser zu verstehen. <br/>Analytics-Admins sind dafür verantwortlich, Informationen zu den einzelnen Komponenten im Datenwörterbuch zu kuratieren."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Analytics-Administratorinnen und -Administratoren sind dafür verantwortlich, In
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenwörterbuch für Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Unter ![Video-Symbol](/help/assets/icons/VideoCheckedOut.svg) [Datenwörterbuch für Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,13 @@ Das Datenwörterbuch hilft Benutzenden, jede Komponente besser zu verstehen, die
 
 Zu den im Datenwörterbuch verfügbaren Informationen gehören:
 
-* Funktion und Verwendungszweck einer Komponente.
+* Funktion und vorgesehene Verwendung einer Komponente.
 
-* Komponenten, die normalerweise mit der angezeigten Komponente verwendet werden.
+* Komponenten, die in der Regel mit der angezeigten Komponente verwendet werden.
 
-* Komponenten, die der angezeigten Komponente ähnlich sind.
+* Komponenten, die der angezeigten Komponente ähneln.
 
-* Ob eine Komponente vom Systemadministrator genehmigt wurde.
+* Ob die Systemadministratorin oder der Systemadministrator eine Komponente genehmigt hat.
 
 Informationen zum Zugriff auf das Datenwörterbuch und Details zu den darin enthaltenen Informationen finden Sie unter [Komponenteninformationen im Datenwörterbuch anzeigen](view-data-dictionary.md).
 
@@ -88,9 +88,9 @@ Detaillierte Informationen zu den verschiedenen verfügbaren Optionen im Datenw�
 
 ## Aktualisieren und Kuratieren des Datenwörterbuchs
 
-Adobe Analytics-Admins sind dafür verantwortlich, das Datenwörterbuch für ihre Organisation in einem guten Zustand zu halten, wie beschrieben unter [Überwachen des Zustands des Datenwörterbuchs](monitor-data-dictionary-health.md).
+Analytics-Admins sind dafür verantwortlich, das Datenwörterbuch für ihre Organisation in einem guten Zustand zu halten, wie unter [Überwachen des Zustands des Datenwörterbuchs](monitor-data-dictionary-health.md) beschrieben.
 
-Im Rahmen dieses Prozesses können Adobe Analytics-Admins die Informationen zu den einzelnen Komponenten im Datenwörterbuch bearbeiten, wie beschrieben unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](edit-entries-data-dictionary.md).
+Im Rahmen dieses Prozesses können Analytics-Admins die Informationen zu den einzelnen Komponenten im Datenwörterbuch bearbeiten, wie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](edit-entries-data-dictionary.md) beschrieben.
 
 ## Verschieben, Minimieren oder Schließen des Datenwörterbuchs
 
@@ -102,7 +102,7 @@ Sie können das Datenwörterbuchfenster auf eine der folgenden Arten verändern:
 
   Wenn Sie Analysis Workspace schließen und erneut öffnen, bleibt das Datenwörterbuchfenster an der Stelle, an die Sie es zuletzt verschoben haben. <!--True?-->
 
-* Fenster minimieren.
+* Minimieren Sie das Fenster.
 
   Wenn es minimiert wird, erscheint das Datenwörterbuch als blaue Registerkarte in der rechten unteren Ecke von Analysis Workspace.
 
