@@ -10,7 +10,7 @@ ht-degree: 58%
 
 ---
 
-# Segmente veröffentlichen {#publish-segments}
+# Veröffentlichen von Segmenten {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
@@ -30,7 +30,7 @@ Sie können Analytics-Segmente in weniger als acht Stunden in Experience Cloud v
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://video.tv.adobe.com/v/36752?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

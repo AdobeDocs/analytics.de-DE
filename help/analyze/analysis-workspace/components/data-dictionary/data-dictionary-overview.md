@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Datenwörterbuch"
->abstract="Das Datenwörterbuch hilft Benutzenden und Admins, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen. <br/>Analytics-Admins sind dafür verantwortlich, Informationen zu den einzelnen Komponenten im Datenwörterbuch zu kuratieren."
+>abstract="Das Datenwörterbuch hilft sowohl Benutzenden als auch Admins, den Überblick zu behalten und die Komponenten in ihrer Analytics-Umgebung besser zu verstehen. <br/>Analytics-Admins sind dafür verantwortlich, im Datenwörterbuch Informationen über jede Komponente zu kuratieren."
 
 <!-- markdownlint-enable MD034 -->
 
