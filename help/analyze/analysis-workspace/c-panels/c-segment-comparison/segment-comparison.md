@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="Segmentvergleich"
->abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln."
+>abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,21 +28,21 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Bedienfeld „Segmentvergleich“"
->abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln.<br/><br/>**Parameter &#x200B;**<br/>**Segment hinzufügen**: Das erste Segment, das analysiert werden soll.<br/>**Vergleichen mit**: Das zweite Segment, mit dem ein Vergleich durchgeführt werden soll. Dies wird automatisch mit *Alle anderen* aufgefüllt, was die Inverse Ihres ersten Segments ist. Sie können dies bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
+>abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden.<br/><br/>**Parameter **<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem Sie vergleichen möchten, das automatisch mit &quot;*Alle anderen“* wird (das Gegenteil Ihres ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Segmentvergleich“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Segmentvergleich“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Das Bedienfeld „Segmentvergleich“ ist ein Tool von [Segment IQ](../../segment-iq.md), das die statistisch bedeutendsten Unterschiede zwischen einer unbegrenzten Anzahl von Segmenten aufdeckt. Die Funktion iteriert durch eine automatisierte Analyse aller Dimensionen und Metriken, auf die Sie Zugriff haben. Sie entdeckt automatisch die wesentlichen Merkmale der Zielgruppensegmente, die für die KPIs Ihres Unternehmens ausschlaggebend sind, und zeigt Ihnen, wie stark sich die Segmente überschneiden.
+Das Bedienfeld Segmentvergleich erkennt die meisten statistisch signifikanten Unterschiede zwischen einer unbegrenzten Anzahl von Segmenten. Die Funktion iteriert durch eine automatisierte Analyse aller Dimensionen und Metriken, auf die Sie Zugriff haben. Dadurch werden automatisch die wichtigsten Merkmale der Zielgruppensegmente ermittelt, die für die KPIs Ihres Unternehmens verantwortlich sind, und Sie können sehen, wie viele Segmente sich überschneiden.
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/37520?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -68,25 +68,25 @@ Sie können das Bedienfeld [!UICONTROL Segmentvergleich] mithilfe der folgenden 
 
 | Eingabe | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Segment hinzufügen]** | Wählen Sie eine Dimension für den Vergleich aus. |
+| **[!UICONTROL Segment hinzufügen]** | Wählen Sie die Dimension aus, mit der Sie vergleichen möchten. |
 | **[!UICONTROL Vergleichen mit]** | Wählen Sie die Dimension aus, die Sie zum Vergleichen des ursprünglich ausgewählten Segments verwenden möchten. Wenn Sie kein bestimmtes Segment auswählen, wird das Standardsegment **[!UICONTROL Alle anderen]** verwendet. |
 | **[!UICONTROL Erweiterte Einstellungen einblenden/ausblenden]** | Wählen Sie **[!UICONTROL Erweiterte Einstellungen einblenden]**, um **[!UICONTROL ausgeschlossene Komponenten]** zu konfigurieren, wählen Sie **[!UICONTROL Erweiterte Einstellungen ausblenden]**, um **[!UICONTROL ausgeschlossene Komponenten]** auszublenden. |
 | **[!UICONTROL Ausgeschlossene Komponenten]** | Komponenten, die Sie für den Ausschluss angeben können, z. B. **[!UICONTROL Dimensionen]**, **[!UICONTROL Metriken]** oder **[!UICONTROL Segmente]**.<br><ul><li>Ziehen Sie eine oder mehrere Dimensionen, Metriken oder Segmente per Drag-and-Drop aus den Containern in den Container **[!UICONTROL Ausgeschlossene Komponenten]**.</li><li>Wählen Sie zum Entfernen einer Komponente den Typ (**[!UICONTROL Dimension]**, **[!UICONTROL Metriken]** oder **[!UICONTROL Segmente]**) aus und wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg), um eine Komponente zu entfernen. Um alle Komponenten zu entfernen, wählen Sie **[!UICONTROL Alle löschen]**.</li><li>Um die aktuelle Auswahl von Dimensionen, Metriken und Segmenten als Standard festzulegen, wählen Sie **[!UICONTROL Als Standard festlegen]**.</li></ul> |
 
 Wählen Sie **[!UICONTROL Erstellen]** aus, um das Bedienfeld zu erstellen.
 
-### Bedienfeldausgabe
+### Panel-Ausgabe
 
-Nachdem Adobe Analytics die Analyse der beiden gewünschten Segmente abgeschlossen hat, werden die Ergebnisse durch verschiedene Visualisierungen im Bedienfeld „Ausgabe“ angezeigt:
+Nachdem Adobe Analytics die Analyse der beiden gewünschten Segmente abgeschlossen hat, zeigen die Bedienfelder „Ausgabe“ die Ergebnisse in mehreren Visualisierungen an:
 
 ![Bedienfeldausgabe für Segmentvergleich](assets/segment-comparison-output.png)
 
 | Visualisierung | Beschreibung |
 |---|---|
 | **[!UICONTROL Größe und Überschneidung]** | Zeigt mit einer [Venn-Visualisierung](/help/analyze/analysis-workspace/visualizations/venn.md) die komparativen Größen aller ausgewählten Segmente und wie stark sich diese überschneiden.  |
-| **[!UICONTROL Unique Visitors für das erste Segment]** | Die Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) zeigt die Unique Visitors für das erste Segment an (im Beispiel: Einzelseitenbesuche) |
-| **[!UICONTROL Unique Visitors für das zweite Segment]** | Die Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) zeigt die Unique Visitors für das zweite Segment an (im Beispiel: Erstbesuche) |
-| **[!UICONTROL Top-Metriken im Vergleich zu Segmenten]** | Eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mit den Top-Metriken für die ausgewählten Segmente. |
+| **[!UICONTROL Unique Visitors für das erste Segment]** | Eine Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Unique Visitors für das erste Segment zeigt (im Beispiel Einzelseitenbesuche) |
+| **[!UICONTROL Unique Visitors für das zweite Segment]** | Eine Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Unique Visitors für das zweite Segment zeigt (im Beispiel Erstbesuche) |
+| **[!UICONTROL Top-Metriken für Segmente]** | Eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mit den Top-Metriken für die ausgewählten Segmente. |
 | **[!UICONTROL Metrik im Zeitverlauf nach Segment]** | Eine [Linienvisualisierung](/help/analyze/analysis-workspace/visualizations/line.md) mit den Metriken für die ausgewählten Segmente im Zeitverlauf. |
 | **[!UICONTROL Top-Dimensionselemente im Vergleich zu Segmenten]** | Eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mit den gemischten Dimensionselementen für die ausgewählten Segmente. |
 | **[!UICONTROL Dimensionselemente nach Segmenten]** | Eine [Horizontalbalkenvisualisierung](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) mit Dimensionselementen nach Segment. |
