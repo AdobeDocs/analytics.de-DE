@@ -31,7 +31,7 @@ Sie können Komponenten in einer Report Suite Beschreibungen hinzufügen.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/39719?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
