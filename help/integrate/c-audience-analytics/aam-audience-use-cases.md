@@ -22,11 +22,11 @@ Als Reiseunternehmen können Sie bevorzugte Reiseziele schnell mit dem Kaufverha
 
 ## Look-Alike-Modellierung {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-Als Multimedia-Publisher können Sie Ihre Drittanbieter-Zielgruppen mithilfe von [Segmentvergleich](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) vergleichen, um die wichtigsten Unterscheidungsmerkmale zu verstehen. Dieser Vergleich hilft Ihnen beim Erstellen hochwertiger First-Party-Segmente, die für das Targeting verwendet werden können.
+Als Multimedia-Publisher können Sie Ihre Drittanbieter-Zielgruppen mithilfe von [Segmentvergleich](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) vergleichen, um die wichtigsten Unterscheidungsmerkmale zu verstehen. Dieser Vergleich hilft Ihnen beim Erstellen hochwertiger First-Party-Segmente, die für das Targeting verwendet werden können.
 
 ## Analyse potenzieller Kunden {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe direkt vor dem Kauf mit der [sequenziellen Segmentierung](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build) genauestens analysieren. Dies bietet Ihnen ein besseres Verständnis darüber, welche Handlungen die Konversion fördern.
+Als B2B-Händler können Sie jetzt das Verhalten Ihrer potenziellen Zielgruppe direkt vor dem Kauf mit der [sequenziellen Segmentierung](https://experienceleague.adobe.com/de/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build) genauestens analysieren. Dies bietet Ihnen ein besseres Verständnis darüber, welche Handlungen die Konversion fördern.
 
 ## Demografisches Targeting {#section_F034DB721A06419283DBD29D4A1B444B}
 
