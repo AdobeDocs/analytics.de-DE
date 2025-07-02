@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschlie
 source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -172,9 +172,9 @@ ht-degree: 96%
    + [Arbeiten mit Segmenten](report-builder/work-with-segments.md)
    + [Filtern von Dimensionen](report-builder/filter-dimensions.md)
    + [Verwalten von Datenblöcken](report-builder/manage-reportbuilder.md)
-   + [Arbeitsmappen für E-Mails planen](report-builder/schedule-reportbuilder.md)
-   + [Arbeitsmappen für Cloud-Exporte planen](/help/analyze/report-builder/report-builder-export.md)
-   + [Geplante Arbeitsmappen verwalten](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
+   + [Planen von Arbeitsmappen für E-Mails](report-builder/schedule-reportbuilder.md)
+   + [Planen von Arbeitsmappen für Cloud-Exporte](/help/analyze/report-builder/report-builder-export.md)
+   + [Verwalten von geplanten Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Eingeschränkte Beschriftungen](report-builder/restricted-labels.md)
    + [Report Builder-Einstellungen](report-builder/report-builder-settings.md)
 + Vorgängerversion von Report Builder {#legacy-report-builder}
