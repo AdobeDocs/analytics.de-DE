@@ -1,13 +1,13 @@
 ---
 title: Verwalten von Anmerkungen
-description: Verwalten von Anmerkungen in Workspace.
+description: Verwalten von Anmerkungen in Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 89%
+source-wordcount: '761'
+ht-degree: 88%
 
 ---
 
@@ -69,7 +69,7 @@ Die Filterleiste zeigt ➌ die aktiven Filter an (falls vorhanden). Mit ![XGrö�
 
 ### Panel „Filter“
 
-Sie können Anmerkungen mithilfe der ➍ im linken Bedienfeld **[!UICONTROL Filter]** filtern. Im Bedienfeld „Filter“ werden der Filtertyp und die Anzahl der Anmerkungen angezeigt, auf die gefiltert wurde. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
+Sie können Anmerkungen mithilfe der **[!UICONTROL im linken Bedienfeld]** Filter➍ filtern. Im Bedienfeld „Filter“ werden der Filtertyp und die Anzahl der Anmerkungen angezeigt, auf die gefiltert wurde. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
 So filtern Sie die Filterliste:
 

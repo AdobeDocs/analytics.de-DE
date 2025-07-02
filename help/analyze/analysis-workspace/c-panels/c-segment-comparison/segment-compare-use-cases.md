@@ -5,32 +5,32 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 93%
+source-wordcount: '850'
+ht-degree: 18%
 
 ---
 
 # Anwendungsfälle für Segmentvergleiche
 
-Der Bereich für den Segmentvergleich ist eine häufig verwendete Funktion in Analysis Workspace. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
+Das Bedienfeld für den Segmentvergleich ist eine in Analysis Workspace häufig verwendete Funktion. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
 
 ## Anwendungsfall 1: Vergleich zwischen Mobile- und Desktop-Implementierung
 
-> *„Wir haben zwei Seiten hinsichtlich der Hits verglichen und schnell einige Abweichungen beim Tagging festgestellt. So konnten wir Datenprobleme vor der Produktveröffentlichung vermeiden.“*
+> *„Sie haben Treffer von einer Website mit einer anderen verglichen und schnell eine Reihe von Tagging-Inkonsistenzen festgestellt. Auf diese Weise haben Sie Datenprobleme vor der Produktveröffentlichung vermieden.“*
 
-Ein Produkt-Manager, der für eine mobile Website und eine Desktop-Website zuständig ist, sollte sicherstellen, dass die Tags auf beiden Websites einheitlich waren. Um sicherzustellen, dass er nichts Wichtiges versäumt hatte, nutzte er das Fenster für den Segmentvergleich, um Hits von der mobilen Site mit Hits zu vergleichen, die von der Desktop-Site stammten. Er bemerkte, dass es auf der mobilen Website keine Checkout-Ereignisse gab, und implementierte die korrekten Tags vor der Veröffentlichung der mobilen Site. So konnte der Produkt-Manager vermeiden, dass die mobile Website keine Konversionen aufzeichnete, was zu einer Datenkatastrophe geführt hätte.
+Sie sind für eine mobile Website und eine Desktop-Website verantwortlich und müssen sicherstellen, dass Tags auf allen Mobilgeräten und Desktops konsistent sind. Um sicherzustellen, dass Sie nichts Wichtiges verpassen, verwenden Sie das Bedienfeld Segmentvergleich , um Treffer auf ihrer mobilen Site mit Treffern auf ihrer Desktop-Site zu vergleichen. Sie werden feststellen, dass es auf der mobilen Website keine Checkout-Ereignisse gibt und Sie die richtigen Tags erhalten, bevor die mobile Website veröffentlicht wird. Dadurch wird ein Datenunglück verhindert, das dadurch entsteht, dass die mobile Site keine Konversionen aufzeichnet.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Hit-Container, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
 
-## Anwendungsfall 2: Vergleich zwischen Kunden, die eine bestimmte Funktion nutzen, und solchen, die sie nicht nutzen
+## Anwendungsfall 2: Vergleichen von Kunden, die eine bestimmte Funktion verwenden, mit Kunden, die dies nicht tun
 
-> *„Wir stellten fest, dass Kunden, die unseren Produktvergleich nutzten, mit 10 % höherer Wahrscheinlichkeit konvertierten. Wir platzierten diese Funktion am Anfang der Seite. Dadurch stieg die Anzahl der Bestellungen um 4 %!“*
+> *„Sie haben festgestellt, dass Kunden, die Ihre Funktion zum Produktvergleich nutzen, mit 10 % höherer Wahrscheinlichkeit konvertieren. Sie haben den Produktvergleich an den Anfang der Seite verschoben und die Bestellungen um 4 % gesteigert!“*
 
-Das Optimierungs-Team einer Einzelhandels-Website wollte die Nutzer besser verstehen, die eine kürzlich veröffentlichte Produktvergleichsfunktion nutzten. Sie nutzten das Bedienfeld für den Segmentvergleich, um Benutzer, die die Produktvergleichsfunktion verwendeten, mit allen anderen auf der Site zu vergleichen. Sie fanden schnell einige wichtige Unterschiede, darunter die Tatsache, dass diese Nutzer mit 10 % höherer Wahrscheinlichkeit ein Produkt kauften. Das Optimierungs-Team entschied sich, versuchsweise die Produktvergleichsfunktion auffälliger am Anfang der Seite zu platzieren.
+Ein Team für die Optimierung von Websites für den Einzelhandel möchte die Benutzer besser verstehen, die mit einer kürzlich veröffentlichten Produktvergleichsfunktion interagieren. Sie verwenden das Bedienfeld „Segmentvergleich“, um Benutzer, die die Funktion „Produktvergleich“ verwenden, mit allen anderen Personen auf der Website zu vergleichen. Sie identifizieren schnell mehrere wichtige Unterschiede, darunter die Tatsache, dass diese Benutzer mit 10 % höherer Wahrscheinlichkeit ein Produkt kaufen. Das Site-Optimierungs-Team entscheidet, die Funktion für den Produktvergleich oben auf der Seite prominenter zu testen.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -38,9 +38,9 @@ Das Optimierungs-Team einer Einzelhandels-Website wollte die Nutzer besser verst
 
 ## Anwendungsfall 3: Vergleich zwischen Besuchern der News-Website und Besuchern anderer Website-Abschnitte
 
-> *„Wir haben festgestellt, dass sich Besucher unseres News-Abschnitts mit doppelter Wahrscheinlichkeit Videoanzeigen ansehen. Deshalb haben wir in diesem Abschnitt mehr Videooptionen hinzugefügt. Dadurch sind die angesehenen Videoanzeigen um 7 % gestiegen!“*
+> *„Sie haben festgestellt, dass sich Besucher Ihres News-Abschnitts mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen. Daher haben Sie in diesem Abschnitt mehr Videooptionen hinzugefügt. Die Zahl der angezeigten Videoanzeigen stieg um 7 % an!“*
 
-Ein großer Medienverlag suchte nach Möglichkeiten, die Interaktion mit Inhalten durch Besucher seines News-Bereichs zu verbessern. Er erstellte ein Segment von Besuchern, die die News-Site besucht hatten, um die News-Zielgruppe besser zu verstehen. Sofort wurde festgestellt, dass diese Benutzer mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen wie Besucher anderer Website-Bereiche. Das Video-Team erstellte in der Seitenleiste des News-Bereichs einen Abschnitt mit empfohlenen Videos und erzielte eine Steigerung der angesehenen Videoanzeigen um 7 %.
+Ein großes Medienunternehmen untersucht in seinem News-Bereich, wie sich die Interaktion der Zielgruppen mit Inhalten verbessern lässt. Sie erstellen ein Segment von Besucherinnen und Besuchern, die den Bereich „Nachrichten-Website“ besuchen, um die Nachrichten-Zielgruppe besser zu verstehen. Sie stellen sofort fest, dass diese Benutzer mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen als Besucher anderer Site-Bereiche. Das Video-Team hat einen empfohlenen Videoabschnitt auf seiner News-Seitenleiste zusammengestellt und erreicht eine Steigerung der angezeigten Videoanzeigen um 7 %.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -48,9 +48,9 @@ Ein großer Medienverlag suchte nach Möglichkeiten, die Interaktion mit Inhalte
 
 ## Anwendungsfall 4: Vergleich zwischen Besuchern aus Paid Search und allen anderen
 
-> *„Wir konnten bei Besuchern, die unsere Seite über Suchmaschinen erreicht hatten, mit dreimal höherer Wahrscheinlichkeit einen Upsell erzielen als bei allen anderen. Wir steigerten daher unsere Ausgaben für bestimmte Schlüsselwörter und erzielten eine Steigerung der Upsells um 56 %.“*
+> *„Bei Besuchern, die über Suchmaschinen auf Ihre Website kamen, war die Wahrscheinlichkeit eines Upsell dreimal höher als bei allen anderen Besuchern. Infolgedessen haben Sie Ihre Ausgaben für bestimmte Keywords erhöht und eine Steigerung der Upsell-Werte um 56 % erzielt.*
 
-Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch Paid-Search-Suchbegriffe seine Website erreichte. Es hatte durch Paid Search nicht viele Konversionen direkt erzielt, und der Marketing-Leiter dachte darüber nach, das Budget dafür zu senken. Das Marketing-Team erstellte ein Segment mit Besuchern, die die Website über Paid Search erreicht hatten, und verglich sie mit dem Segmentvergleich mit allen anderen Besuchern. Das Ergebnis war, dass diese Besucher zwar weniger wahrscheinlich direkt konvertierten, aber mit dreimal höherer Wahrscheinlichkeit einen Upsell für eine zuvor gekaufte Dienstleistung erzielt werden konnte. Das Marketing-Team konzentrierte sein Budget auf Suchbegriffe im Zusammenhang mit Upselling und erzielte eine Steigerung der Upsells für Dienstleistungen um 56 %.
+Ein großes B2B-Dienstleistungsunternehmen möchte den Traffic verstehen, den Paid Search-Keywords auf seine Site bringen. Paid Search hat nicht zu zahlreichen Konversionen direkt geführt, und der Marketing-Manager erwägt, das Budget dafür zu reduzieren. Das Marketing-Team erstellt ein Segment von Besuchern, die über die gebührenpflichtige Suche auf die Website kommen, und vergleicht dieses Segment mithilfe des Bedienfelds für den Segmentvergleich mit allen anderen Besuchern. Sie stellen fest, dass diese Besucher zwar mit geringerer Wahrscheinlichkeit direkt konvertieren, aber mit dreimal höherer Wahrscheinlichkeit einen zuvor erworbenen Service anbieten. Das Marketing-Team konzentriert sein Budget nur auf die Schlüsselwörter im Zusammenhang mit dem Upsell und verzeichnet eine Steigerung von 56 % bei den Service-Upsells.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
@@ -58,9 +58,9 @@ Ein großes B2B-Unternehmen wollte den Traffic besser verstehen, der durch Paid-
 
 ## Anwendungsfall 5: Vergleich zwischen Käufern von Fitbit und allen anderen
 
-> *„Wir haben festgestellt, dass Käufer von Fitbits mit sechsmal höherer Wahrscheinlichkeit die Nachricht „Nicht vorrätig“ erhielten. Deshalb haben wir schnell mehr Fitbits bestellt und konnten die Nachfrage decken!“*
+> *„Sie haben herausgefunden, dass Kunden, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine „nicht vorrätige“ Nachricht erhalten als alle anderen. So haben Sie schnell mehr Fitbits bestellt und vermeiden, nicht mehr vorrätig zu sein!“*
 
-**Szenario:** Ein großes Online-Einzelhandelsunternehmen hatte die Absicht, herauszufinden, wie sich Fitbit – einer der beliebtesten Weihnachtsartikel – verkaufte und was Fitbit-Käufer von anderen Kunden unterschied. Das Marketing-Team konnte einfach mit der rechten Maustaste auf den Zeileneintrag „Fitbit“ in seinem Produktbericht klicken und schnell eine Segment-IQ-Analyse durchführen. Sie stellten fest, dass Benutzer, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine Nachricht „Nicht vorrätig“ erhielten als andere Kunden. Nach weiteren Analysen konnte das Marketingteam diese Besucher an seine Ladengeschäfte verweisen, während es darauf wartete, dass die Einkaufsabteilung weitere Fitbits bestellte. So konnte das Unternehmen weitere Bestandslücken vermeiden und die Weihnachtsnachfrage besser decken.
+**Szenario:** Ein großes Online-retailer interessiert sich dafür, wie eines der beliebtesten Ferienprodukte - Fitbit - verkauft wird und was Fitbit-Käufer unter anderen Kunden einzigartig macht. Das Marketing-Team kann den Fitbit-Zeileneintrag in seinem Produktbericht auswählen und schnell eine Segmentvergleichsanalyse über das Kontextmenü durchführen. Sie stellen fest, dass Benutzer, die Fitbits kaufen, mit 6-mal höherer Wahrscheinlichkeit eine „nicht vorrätige“ Nachricht erhalten als andere Kunden. Nach weiterer Analyse kann das Marketing-Team diese Besucher zu ihren stationären Läden leiten, während sie in ihrer Einkaufsabteilung warten, um weitere Fitbits zum Versand zu bestellen. Dadurch vermeidet der retailer mehr „nicht vorrätige“ Nachrichten und kann einen größeren Teil der Urlaubsnachfrage befriedigen.
 
 | Segment 1 | Segment 2 |
 |--- |--- |

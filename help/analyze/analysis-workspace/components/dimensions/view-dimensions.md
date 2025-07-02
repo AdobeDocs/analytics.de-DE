@@ -1,17 +1,17 @@
 ---
-description: Ansicht der obersten Werte einer Dimension, bevor sie in einem Projekt verwendet wird.
-title: Dimensionsvorschau
+description: Erfahren Sie, wie Sie Details und die wichtigsten Werte einer Dimension in Analysis Workspace anzeigen.
+title: Dimensionen in der Vorschau anzeigen
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# Vorschau von Dimensionen in Analysis Workspace
+# Dimensionsvorschau
 
 Sie können die [Komponenteninformationen](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) für eine Komponente verwenden, um die obersten Elemente für eine Dimension anzuzeigen.
 

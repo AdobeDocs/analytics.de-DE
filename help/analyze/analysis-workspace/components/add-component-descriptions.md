@@ -1,37 +1,51 @@
 ---
-description: Administratoren und Administratorinnen können mithilfe der Report Suite Beschreibungen für Komponenten hinzufügen.
+description: Admins können Beschreibungen für Komponenten in einer Report Suite oder mithilfe des Datenwörterbuchs hinzufügen.
 title: Komponentenbeschreibungen hinzufügen
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 89%
+source-wordcount: '231'
+ht-degree: 42%
 
 ---
 
-# Komponentenbeschreibungen hinzufügen
+# Hinzufügen von Komponentenbeschreibungen
 
 Mithilfe von Beschreibungen können Benutzerinnen und Benutzer wissen, wie die verschiedenen Komponenten beim Erstellen von Projekten in Analysis Workspace oder beim Anzeigen von Berichten am besten verwendet werden.
 
-Analytics-Administratoren bzw. -Administratorinnen können Beschreibungen für Komponenten (Dimensionen, Metriken, Segmente und Datumsbereiche) entweder innerhalb der Report Suite oder über das Datenwörterbuch direkt in Analysis Workspace hinzufügen.
+Analytics-Admins können Komponentenbeschreibungen (Dimensionen, Metriken, Segmente und Datumsbereiche) entweder innerhalb einer Report Suite oder mithilfe des Datenwörterbuchs direkt in Analysis Workspace hinzufügen.
 
-## Hinzufügen von Beschreibungen zu Komponenten in einer Report Suite
+## Report Suite
 
+Sie können Komponenten in einer Report Suite Beschreibungen hinzufügen.
+
+1. Wählen Sie **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Report Suites]**.
+1. Wählen Sie die Report Suite im Report Suite Manager aus, für die Sie Komponentenbeschreibungen angeben möchten.
+1. Wählen Sie **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Konversionsvariablen]** aus.
+1. Wählen ![Hinzufügen](/help/assets/icons/Add.svg), um Details für eine Konversionsvariable anzuzeigen.
+1. Aktivieren Sie das Kontrollkästchen für **[!UICONTROL Beschreibung]** und fügen Sie eine Beschreibung hinzu.
+1. Wiederholen Sie die Schritte 4 und 5 für jede andere Variable, der Sie eine Beschreibung hinzufügen möchten.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/39719?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-
-## Hinzufügen von Beschreibungen zu Komponenten im Datenwörterbuch {#add-descriptions}
+## Datenwörterbuch {#add-descriptions}
 
 Das Datenwörterbuch in Analysis Workspace hilft Benutzenden und Administrierenden, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen. Dazu gehört auch die Möglichkeit für Analytics-Administratoren bzw. -Administratorinnen, Komponentenbeschreibungen direkt in Analysis Workspace hinzuzufügen.
 
 Informationen zum Bearbeiten einer Komponente im Datenwörterbuch finden Sie unter [Bearbeiten von Komponenteneinträgen im Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 Allgemeine Informationen zum Datenwörterbuch finden Sie unter [Datenwörterbuch – Übersicht](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+
+>[!MORELIKETHIS]
+>
+>[Einstellungen der Berichtskomponente](/help/components/vrs/vrs-components.md)
+>>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>

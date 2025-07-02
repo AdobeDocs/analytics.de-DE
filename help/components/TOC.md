@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '773'
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 100%
    + [Informationen zu Segmenten](segmentation/seg-overview.md)
    + [Informationen zu Segment-Containern](segmentation/seg-containers.md)
    + [Segmentierungsfunktionen in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentierungs-Workflow {#segmentation-workflow}
+   + Workflow {#segmentation-workflow}
       + [Überblick](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planen von Segmenten](segmentation/segmentation-workflow/seg-plan.md)
       + [Erstellen von Segmenten](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 100%
       + [Verwalten von Segmenten](segmentation/segmentation-workflow/seg-manage.md)
       + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Verwenden von Segmenten](segmentation/segmentation-workflow/t-seg-apply.md)
-   + Segmentreferenz {#segment-reference}
+   + Referenz {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 100%
 + Berechnete Metriken {#calculated-metrics}
    + [Überblick](c-calcmetrics/cm-overview.md)
    + [Anleitungsvideos](c-calcmetrics/cm-videos.md)
-   + Workflow bei berechneten Metriken {#calcmetric-workflow}
+   + Workflow {#calcmetric-workflow}
       + [Erstellen von berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Suchen von Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Erstellen berechneter Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 100%
       + [Berechnete Metriken freigeben](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Berechnete Metriken kopieren](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Verwalten berechneter Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Metrikreferenz {#calcmetrics-reference}
+   + Referenz {#calcmetrics-reference}
       + [Grundlegende Funktionen](c-calcmetrics/cm-reference/cm-functions.md)
       + [Erweiterte Funktionen](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Metrikkompatibilität](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 100%
    + [A4T-Überlegungen](vrs/vrs-a4t.md)
    + [Virtual Report Suites – Häufig gestellte Fragen (FAQs)](vrs/vrs-faq.md)
    + [Virtual Report Suites und globales/Multi-Suite-Tagging](vrs/vrs-considerations.md)
-   + Virtual Report Suite – Workflow {#vrs-workflow}
+   + Workflow {#vrs-workflow}
       + [Virtual Report Suite – Workflow](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Virtual Report Suites erstellen](vrs/c-workflow-vrs/vrs-create.md)
       + [Virtual Report Suites verwalten](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 100%
    + [Häufig gestellte Fragen zur geräteübergreifenden Analyse](cda/faq.md)
 + Warnhinweise {#alerts}
    + [Überblick](c-alerts/intellligent-alerts.md)
-   + [Erstellen](c-alerts/alert-builder.md)
-   + [Verwalten](c-alerts/alert-manager.md)
+   + [Erstellen von Warnhinweisen](c-alerts/alert-builder.md)
+   + [Verwalten von Warnhinweisen](c-alerts/alert-manager.md)
    + [Anwendungsbeispiele](c-alerts/alerts-use-cases.md)
 + Klassifizierungen {#classifications}
    + [Übersicht über Klassifizierungen](classifications/classifications-overview.md)

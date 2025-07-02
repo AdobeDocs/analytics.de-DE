@@ -3,10 +3,10 @@ title: Metriken – Übersicht
 description: Betrachten Sie Mengen von Dimensionselementen oder Daten im Zeitverlauf.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 89%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 Mit Metriken können Sie Dimensionselemente quantifizieren, z. B., um zu sehen, welche Seiten auf Ihrer Site die meisten Ansichten aufweisen. Sie können auch Trend-Metriken im Zeitverlauf anzeigen, z. B. wie viele Bestellungen die Besucher auf Ihrer Site jeden Tag tätigen. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
-Wenn Sie beispielsweise die Dimension „Seite“ mit der Metrik „Besuche“ kombinieren, erhalten Sie einen Rangbericht, der Ihre am häufigsten besuchten Seiten anzeigt:
+Wenn Sie beispielsweise die Dimension **[!UICONTROL Seite]** mit der Metrik **[!UICONTROL Besuche]** kombinieren, erhalten Sie einen Rangbericht mit Ihren am häufigsten besuchten Seiten:
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Seite | Besuche |
+| --- | ---: |
+| Startseite | 800 |
+| Produktseite | 500 |
+| Kaufseite | 100 |
+
+{style="table-layout:fixed"}
 
 Wenn Sie die Hilfeseite für eine bestimmte Metrik nicht finden können, handelt es sich wahrscheinlich entweder um ein [benutzerspezifisches Ereignis](custom-events.md) oder um eine [berechnete Metrik](../c-calcmetrics/cm-overview.md).
 

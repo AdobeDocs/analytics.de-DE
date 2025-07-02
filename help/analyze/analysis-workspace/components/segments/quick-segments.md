@@ -1,13 +1,13 @@
 ---
-description: Schnellsegmente in Analysis Workspace verwenden
-title: Schnellsegmente
+description: Erfahren Sie, wie Sie Schnellsegmente in Analysis Workspace erstellen und verwenden.
+title: Quick s=Segmente
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 99%
+source-wordcount: '101'
+ht-degree: 74%
 
 ---
 
@@ -24,126 +24,133 @@ Beachten Sie beim Erstellen von Schnellsegmenten Folgendes:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnellsegmente](https://video.tv.adobe.com/v/3410293?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnellsegmente](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Erstellen eines Schnellsegments
-
-Alle Analysis Workspace-Benutzenden können ein Schnellsegment erstellen.
-
-So erstellen Sie ein Schnellsegment:
-
-1. Wählen Sie eine der folgenden Methoden, um ein Schnellsegment zu erstellen:
-
-   * **Ad hoc (Drag-and-Drop):** Ziehen Sie eine Komponente aus der linken Leiste in den Segment-Ablegebereich in der Kopfzeile des Bedienfelds.
-
-     ![Segment im Ablegebereich ablegen](assets/segment-dropzone.png)
-
-     Sie können das Segment bearbeiten, wie in [Bearbeiten von Schnellsegmenten](#edit-quick-segments) beschrieben.
-
-     >[!NOTE]
-     >
-     > Beachten Sie bei der Ad-hoc-Erstellung eines Schnellsegments (per Drag-and-Drop) Folgendes:
-     > * Die folgenden Komponententypen werden nicht unterstützt: berechnete Metriken und Dimensionen sowie Metriken, aus denen Sie keine Segmente erstellen können.
-     > * Bei vollständigen Dimensionen und Ereignissen erstellt Analysis Workspace Treffersegmente mit „vorhanden“. Beispiele: `Hit where eVar1 exists` oder `Hit where event1 exists`.
-     > * Wenn „nicht angegeben“ oder „keine“ im Segmentablagebereich abgelegt wird, werden sie automatisch in ein Segment „nicht vorhanden“ umgewandelt, damit sie bei der Segmentierung korrekt gehandhabt werden.
+>[!MORELIKETHIS]
+>
+>[Erstellen eines Schnellsegments](/help/components/segmentation/segmentation-workflow/seg-quick.md)
 
 
-   * **Verwenden des Segmentsymbols:** Wählen Sie in einer Freiformtabelle das Symbol **Segment** in der Bedienfeldüberschrift aus.
+<!--
+## Create a quick segment
 
-     ![Segmentfilter](assets/quick-seg1.png)
+Any user in Anlysis Workspace can create a quick segment.
 
-1. Passen Sie die folgenden Einstellungen an:
+To create a quick segment:
 
-   | Einstellung | Beschreibung |
+1. Choose one of the following methods to begin creating the quick segment:
+
+   * **Ad hoc (drag-and-drop):** From the left rail, drag a component to the segment drop zone in the panel header.
+   
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+     
+     You can edit the segment as described in [Edit quick segments](#edit-quick-segments).
+
+      >[!NOTE]
+      >
+      > Consider the following when creating a quick segment ad hoc (drag-and-drop):
+      > * The following component types are not supported: calculated metrics and dimensions, as well as metrics from which you cannot build segments.
+      > * For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: `Hit where eVar1 exists` or `Hit where event1 exists`.
+      > * If "unspecified" or "none" is dropped in the segment drop zone, it is automatically converted to a "does not exist" segment so that it is treated correctly in segments.
+
+
+   * **Using the segment icon:** In a Freeform table, select the **Segment** icon in the panel header.
+
+     ![Segment filter](assets/quick-seg1.png)
+
+1. Adjust any of the following settings:
+
+   | Setting | Description |
    | --- | --- |
-   | [!UICONTROL Name] | Der Standardname eines Segments besteht aus der Kombination der Regelnamen im Segment. Sie können für das Segment einen benutzerfreundlicheren Namen wählen. |
-   | [!UICONTROL Ein-/Ausschließen] | Sie können Komponenten in Ihrer Segmentdefinition entweder ein- oder ausschließen, aber nicht beides. |
-   | [!UICONTROL Treffer-/Besuchs-/Besucher-Container] | Schnellsegmente enthalten nur einen [Segment-Container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=de#section_AF2A28BE92474DB386AE85743C71B2D6), mit dem Sie eine Dimension/eine Metrik/einen Datumsbereich in das Segment einbeziehen (oder daraus ausschließen) können. [!UICONTROL Besucher] enthält für den Besucher spezifische übergreifende Daten zu allen Besuchen und Seitenansichten. Mit dem Container [!UICONTROL Besuch] können Sie Regeln für die Aufschlüsselung der Besucherdaten auf der Grundlage der Besuche festlegen und mit dem Container [!UICONTROL Treffer] können Sie die Besucherinformationen anhand der einzelnen Seitenaufrufe aufschlüsseln. Der Standard-Container ist [!UICONTROL Treffer]. |
-   | [!UICONTROL Komponenten] (Dimension/Metrik/Datumsbereich) | Definieren Sie bis zu 3 Regeln, indem Sie Komponenten (Dimensionen, Metriken, Datumsbereiche oder Dimensionswerte) hinzufügen. Es gibt 3 Möglichkeiten, die richtige Komponente zu finden:<ul><li>Beginnen Sie mit der Eingabe. Der Schnellsegment-Builder findet automatisch die entsprechende Komponente.</li><li>Verwenden Sie die Dropdown-Liste, um die Komponente zu finden.</li><li>Per Drag-and-Drop aus der der linken Leiste ziehen.</li></ul> |
-   | [!UICONTROL Operator] | Verwenden Sie das Dropdown-Menü, um Standardoperatoren und Operatoren des Typs [!UICONTROL Distinct Count] zu finden. Siehe [Segmentoperatoren](/help/components/segmentation/seg-reference/seg-operators.md). |
-   | Plus (+)-Zeichen | Eine weitere Regel hinzufügen |
-   | AND/OR-Kennzeichung | Sie können den Regeln „AND“ oder „OR“ hinzufügen, aber Sie können „AND“ und „OR“ aber nicht in einer Segmentdefinition kombinieren. |
-   | [!UICONTROL Anwenden] | Wenden Sie dieses Segment auf das Bedienfeld an. Wenn das Segment keine Daten enthält, werden Sie gefragt, ob Sie fortfahren möchten. |
-   | [!UICONTROL Builder öffnen] | Öffnet Segment Builder. Nachdem Sie das Segment in Segment Builder gespeichert oder übernommen haben, ist es kein „Schnellsegment“ mehr. Es wird Teil der Segmentbibliothek der Komponentenliste. <p>Um die Komponente für alle Projekte und in der linken Leiste verfügbar zu machen, wählen Sie die Option [!UICONTROL **Dieses Segment für alle Projekte verfügbar machen und der Komponentenliste hinzufügen**] aus.</p><p>Weitere Informationen finden Sie in diesem Artikel unter [Speichern eines Schnellsegments als Komponentenlisten-Segment](#save-a-quick-segment-as-a-component-list-segment).</p><p>**Hinweis:** Nur Benutzende mit der Berechtigung „Segmenterstellung“ in der [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) können Segment Builder öffnen.</p> |
-   | [!UICONTROL Abbrechen] | Verwirft das entsprechende Schnellsegment. Es wird nicht angewendet. |
-   | [!UICONTROL Datumsbereich] | Der Validator verwendet den Datumsbereich des Panels für die Datensuche. Doch jeder in einem Schnellsegment angewendete Datumsbereich überschreibt den Datumsbereich des Panels im oberen Bereich des Panels. |
-   | Vorschau (oben rechts) | Ermöglicht festzustellen, ob ein gültiges Segment vorhanden ist und wie groß es ist. Stellt eine Aufschlüsselung des Datensatzes dar, der bei der Anwendung dieses Segments zu erwarten ist. Möglicherweise erhalten Sie den Hinweis, dass dieses Segment über keine Daten verfügt. In diesem Fall können Sie weiterarbeiten oder aber die Segmentdefinition ändern. |
+   | [!UICONTROL Name] | The default name of a segment is a combination of the rule names in the segment. You can rename the segment to a more friendly name. |
+   | [!UICONTROL Include/exclude] | You can either include or exclude components in your segment definition, but not both. |
+   | [!UICONTROL Hit/Visit/Visitor] container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor's data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+   | [!UICONTROL Components] (Dimension/metric/date range) | Define up to 3 rules by adding components (dimensions, metrics, date ranges, or dimension values). There are 3 ways to find the right component:<ul><li>Start typing and the quick segment builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
+   | [!UICONTROL Operator] | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. See [Segment operators](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Plus (+) sign | Add another rule |
+   | AND/OR qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
+   | [!UICONTROL Apply] | Apply this segment to the panel. If the segment contains no data, you are asked if you want to continue. |
+   | [!UICONTROL Open builder] | Opens the Segment Builder. After you save or apply the segment in the Segment Builder, it is no longer considered a "quick segment". It becomes part of the component-list segment library. <p>To make the component available across all of your projects and in the left rail, select the option [!UICONTROL **Make this segment available to all your projects and add it to your component list**].</p><p>For more information, see the section [Save a quick segment as a component-list segment](#save-a-quick-segment-as-a-component-list-segment) in this article.</p><p>**Note:** Only users with the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) can open the Segment Builder.</p> |
+   | [!UICONTROL Cancel] | Cancel this quick segment (don't apply it). |
+   | [!UICONTROL Date range] | The validator uses the panel date range for its data lookup. But any date range applied in a quick segment overrides the panel date range at the top of the panel.  |
+   | Preview (top right) | Lets you see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see when you apply this segment. You might get a notice that indicates that this segment has no data. In this case, you can proceed or change the segment definition. |
 
-1. Wählen Sie [!UICONTROL **Übernehmen**] aus, um Ihre Änderungen zu speichern.
+1. Select [!UICONTROL **Apply**] to save your changes.
 
-## Schnellsegmente bearbeiten
+## Edit quick segments
 
-1. Bewegen Sie den Mauszeiger über das Schnellsegment und wählen Sie das Symbol **Bearbeiten** aus.
+1. Hover over the quick segment and select the **Edit** icon.
 
-   ![Ad-hoc-Bearbeitung von Filtern](assets/filter-adhoc-edit.png)
+   ![Edit ad hoc filter](assets/filter-adhoc-edit.png)
 
-1. Bearbeiten Sie die Segmentdefinition und/oder den Segmentnamen.
+1. Edit the segment definition and/or the segment name.
 
-1. Wählen Sie [!UICONTROL **Anwenden**] aus.
+1. Select [!UICONTROL **Apply**].
 
-## Speichern eines Schnellsegments als Komponentenlisten-Segment
+## Save a quick segments as a component-list segment
 
 >[!IMPORTANT]
 >
-> Beachten Sie beim Speichern eines Schnellsegments Folgendes:
+> Consider the following when saving a quick segment:
 > 
-> * Um ein Schnellsegment zu speichern, benötigen Sie die Berechtigung „Segmenterstellung“ in der [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
+> * To save a quick segment, you need the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
 > 
-> * Nachdem Sie das Segment gespeichert oder angewendet haben, kann es nicht mehr im Schnellsegment-Builder bearbeitet werden. Stattdessen müssen Sie den standardmäßigen Segment Builder verwenden.
+> * After you save or apply the segment, it can no longer be edited it in the quick segment builder. Instead, you must use the regular Segment Builder.
 
-Sie können Schnellsegmente als Komponentenlisten-Segmente speichern. Zu den Vorteilen von Komponentenlisten-Segmenten gehören:
+You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* Verfügbarkeit über alle Arbeitsbereich-Projekte hinweg
-* Unterstützung komplexerer Segmente sowie sequenzieller Segmente
+* Availablility across all your Workspace projects
+* Support more complex segments as well as sequential segments
 
-Sie können Segmente entweder über den Schnellsegment-Builder oder über den [!UICONTROL Filter-Builder] speichern.
+You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].
 
-### Speichern im Schnellsegment-Builder {#save2}
+### Save in the quick segment builder {#save2}
 
-1. Nachdem Sie das Schnellsegment angewendet haben, bewegen Sie den Mauszeiger darüber und wählen Sie das Infosymbol („i“) aus.
-1. Wählen Sie **[!UICONTROL Für alle Projekte verfügbar machen und Ihrer Komponentenliste hinzufügen]** aus.
-1. Optional: Benennen Sie das Segment um.
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Make available to all projects and add to your component list]**.
+1. (Optional) Rename the segment.
+1. Select **[!UICONTROL Save]**.
 
-   Das Segment wird nun in der Komponentenliste in der linken Leiste angezeigt. Außerdem ändert sich die Seitenleiste des Segments von hellblau in dunkelblau. Dies bedeutet, dass das Segment nicht mehr im Schnellsegment-Builder bearbeitet oder geöffnet werden kann.
+   The segment now appears in your component list in the left rail. Also, note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder.
 
-### Speichern im Segment Builder {#save3}
+### Save in the Segment Builder {#save3}
 
-1. Nachdem Sie das Schnellsegment angewendet haben, bewegen Sie den Mauszeiger darüber und wählen Sie das Infosymbol („i“) aus.
-1. Wählen Sie **[!UICONTROL Segment speichern]** aus.
-1. (Optional) Benennen Sie das Segment um und wählen Sie [!UICONTROL **Anwenden**] aus.
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Save segment]**
+1. (Optional) Rename the segment, then select [!UICONTROL **Apply**].
 
-   Gehen Sie zurück zum Arbeitsbereich. Sie werden bemerken, dass sich die Seitenleiste des Segments von hellblau in dunkelblau ändert. Das bedeutet, dass das Segment nicht mehr im Schnellsegment-Builder bearbeitet oder geöffnet werden kann. Und durch Speichern wird es Teil der Komponentenliste.
+   Go back to Workspace and note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder. And by saving it, it becomes part of the component list.
 
-Nachdem Sie das Segment angewendet haben, können Sie es Ihrer Liste der Segmentkomponenten hinzufügen und für alle Ihre Projekte verfügbar machen.
+After you apply the segment, you can choose to add it to your segment component list and make it available to all your projects.
 
-1. Bewegen Sie den Mauszeiger über das gespeicherte Segment und wählen Sie das Stiftsymbol aus.
+1. Hover over the saved segment and select the pencil icon.
 
-1. Wählen Sie [!UICONTROL **Builder öffnen**] aus.
+1. Select [!UICONTROL **Open builder**].
 
-1. Oben in Segment Builder ist das Dialogfeld für projektbasierte Segmente [!UICONTROL **&#x200B;**] zu sehen:
+1. At the top of the Segment Builder, notice the [!UICONTROL **Project-only segment**] dialog:
 
-   ![Dialogfeld für projektbasierte Segmente](assets/project-only-segment-dialog.png)
+   ![project-only segment dialog](assets/project-only-segment-dialog.png)
 
-1. Aktivieren Sie das Kontrollkästchen neben **[!UICONTROL Für alle Projekte verfügbar machen und Ihrer Komponentenliste hinzufügen]**.
+1. Select the checkbox next to **[!UICONTROL Make available to all your projects and add to your component list.]**
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Select **[!UICONTROL Save]**.
 
-   Das Segment wird jetzt in der Liste der Segmentkomponenten für alle Ihre Projekte angezeigt.
-Sie können das Segment auch für andere Personen in Ihrer Organisation [freigeben](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+   The segment now appears in your segment component list for all your projects.
+   You can also [share the segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) with other people in your organization.
 
-## Beispiel für ein Schnellsegment
+## Quick segment example
 
-In dem folgenden Beispiel für ein Segment werden Dimensionen und Metriken kombiniert:
+The following example of a segment combines dimensions and metrics:
 
 ![](assets/quick-seg2.png)
 
-## Bekanntes Problem
+## Known issue
 
-1. Erstellen Sie ein Schnellsegment mit zwei Einträgen und **[!UICONTROL speichern]** Sie es als „Test1“.
-1. Klicken Sie auf **[!UICONTROL Speichern unter]** und speichern Sie dieses Schnellsegment als „Test2“.
-1. Bearbeiten Sie das Schnellsegment „Test2“ und speichern Sie es erneut als „Test2“.
-Beachten Sie, dass das Schnellsegment „Test1“ durch „Test2“ geändert wird.
+1. Create a quick segment with 2 entries and **[!UICONTROL Save]** it as Test1.
+1. Click **[!UICONTROL Save as]** and save this quick segment as Test2. 
+1. Edit the Test2 quick segment and save it again as Test2. 
+   Notice that the Test1 quick segment gets modified by Test2.
+-->

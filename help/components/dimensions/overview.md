@@ -1,12 +1,12 @@
 ---
-title: Dimensionen – Übersicht
-description: Variablen, die Zeichenfolgenwerte enthalten.
+title: Dimensionen - Übersicht
+description: Erfahren Sie, was Dimensionen sind und wie sie in Adobe Analytics verwendet werden.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 77%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 Dimensionen sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Zu den gebräuchlichen Dimensionen gehören [Seite](page.md), [Referrer-Domäne](referring-domain.md) oder eine [eVar](evar.md). Im Gegensatz dazu enthalten [Metriken](../metrics/overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
-Wenn Sie beispielsweise die Dimension „Seite“ mit der Metrik „Besuche“ kombinieren, erhalten Sie einen Rangbericht, der Ihre am häufigsten besuchten Seiten anzeigt:
+Wenn Sie beispielsweise die Dimension **[!UICONTROL Seite]** mit der Metrik **[!UICONTROL Besuche]** kombinieren, erhalten Sie einen Rangbericht mit Ihren am häufigsten besuchten Seiten:
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Seite | Besuche |
+| --- | ---: |
+| Startseite | 800 |
+| Produktseite | 500 |
+| Kaufseite | 100 |
+
+{style="table-layout:fixed"}
 
 Jede Dimension stellt einen anderen Teil oder eine andere Facette Ihrer Site dar. Sie können eine oder mehrere dieser Dimensionen mit einer oder mehreren Metriken kombinieren, um einen gewünschten Bericht zu erstellen.
 

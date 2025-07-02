@@ -1,26 +1,24 @@
 ---
-title: Übersicht über Segment IQ
-description: Erfahren Sie, was Adobe Analytics Segment IQ ist und wie es Ihrem Unternehmen helfen kann.
+title: Funktionen zum Segmentvergleich
+description: Erfahren Sie mehr über die Funktionen in Adobe Analytics zum Vergleichen von Segmenten.
 keywords: Analysis Workspace;Segment IQ
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
 feature: Visualizations
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 2%
 
 ---
 
-# Übersicht über Segment IQ
+# Funktionen zum Segmentvergleich
 
-Es kann viele Stunden oder sogar Tage dauern, bis Analysten in den Metriken und Dimensionen Ihres Unternehmens relevante Unterschiede zwischen Segmenten aufdecken. Diese Analyse ist nicht nur mühsam und zeitaufwendig, Sie können sich auch nie sicher sein, ob der entscheidende Unterschied eines Segments verpasst wurde, der erhebliche Auswirkungen auf Ihre zielgerichteten Marketing-Maßnahmen haben könnte.
+Analysten können viele Stunden oder sogar Tage damit verbringen, nach relevanten Unterschieden zwischen Segmenten in den Metriken und Dimensionen einer Organisation zu suchen. Diese Analyse ist mühsam und zeitaufwendig. Möglicherweise übersehen Sie auch den Hauptunterschied eines Segments, der erhebliche Auswirkungen auf Ihre zielgerichteten Marketing-Maßnahmen haben könnte.
 
-Viele Unternehmen waren mit Funktionen erfolgreich, die auf Segment IQ basieren. Unter [Anwendungsfälle für Segmentvergleiche](c-panels/c-segment-comparison/segment-compare-use-cases.md) finden Sie reale Szenarien, die Unternehmen wertvolle Einblicke bieten.
+Die [Anwendungsfälle für den Segmentvergleich](c-panels/c-segment-comparison/segment-compare-use-cases.md) für reale Szenarien helfen Unternehmen, wertvolle Einblicke in Segmente und deren Vergleich zu erhalten.
 
-## Funktionen
+Die Funktionen zum Segmentvergleich sind:
 
-Segment IQ umfasst die folgenden Funktionen:
-
-* [Bedienfeld „Segmentvergleich“:](c-panels/c-segment-comparison/segment-comparison.md) Die Kernfunktion in Segment IQ. Ziehen Sie zwei Segmente in das Bedienfeld und zeigen Sie einen umfassenden Bericht an, der statistisch signifikante Unterschiede und Überschneidungen zwischen den beiden Zielgruppen zeigt.
-* [Vergleich von Segmenten hinsichtlich Fallout:](visualizations/fallout/compare-segments-fallout.md) Sehen Sie sich einen Vergleich verschiedener Zielgruppen im Kontext einer Fallout-Visualisierung an.
+* [Bedienfeld „Segmentvergleich“:](c-panels/c-segment-comparison/segment-comparison.md) Hiermit können Sie zwei Segmente in das Bedienfeld ziehen und einen umfassenden Bericht anzeigen, der statistisch signifikante Unterschiede und Überschneidungen zwischen den beiden Zielgruppen zeigt.
+* [Segmente im Fallout vergleichen](visualizations/fallout/compare-segments-fallout.md) Sehen Sie sich an, wie sich verschiedene Zielgruppen im Kontext einer Fallout-Visualisierung vergleichen.

@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie einem Projekt in Analysis Workspace Komponenten hinzufügen.
+description: Erfahren Sie, wie Sie in Analysis Workspace Komponenten in einem Projekt verwenden
 title: Verwenden von Komponenten in Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ Weitere Informationen zu den Typen von Komponenten, die Sie hinzufügen können,
 1. Scrollen Sie zu oder suchen Sie nach der Komponente, die hinzugefügt werden soll, und ziehen Sie sie anschließend in ein Panel oder eine Visualisierung innerhalb Ihres Projekts.
 
 1. Sie können eine Komponente auch in den Segment-Ablegebereich in der Kopfzeile eines Panels ziehen. Dieser Drag-and-Drop-Vorgang definiert die Komponente als Segment und wendet das Segment auf alle Inhalte im Panel an.
-Informationen zum Verwenden des Segment-Ablegebereichs in einem Panel, um das Panel zu segmentieren, finden Sie im [Überblick über Panels](/help/analyze/analysis-workspace/c-panels/panels.md) unter [Ablegebereich](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone).
+Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwenden können, um Ihr Bedienfeld zu segmentieren, finden Sie unter [Ablagebereich](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 1. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
@@ -68,7 +68,7 @@ Mit Metriken können Sie Datenpunkte in Analysis Workspace quantifizieren. Sie w
 
 So fügen Sie einem Projekt in Analysis Workspace eine Metrik hinzu:
 
-1. Fügen Sie zunächst eine Metrik zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben. 
+1. Beginnen Sie mit dem Hinzufügen einer Metrik zu Ihrem Projekt in Analysis Workspace, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben.
 
 
 
@@ -97,24 +97,24 @@ Sie können Segmente in Analysis Workspace auf eine der folgenden Arten verwende
 
 * Segmente zu einem Panel hinzufügen
 Wenn Sie Segmente zu einem Panel hinzufügen, gelten die Segmente für alle Inhalte im Panel.
-Informationen zum Verwenden des Segment-Ablegebereichs in einem Panel, um das Panel zu segmentieren, finden Sie im [Überblick über Panels](/help/analyze/analysis-workspace/c-panels/panels.md) unter [Ablegebereich](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone).
+Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwenden können, um Ihr Bedienfeld zu segmentieren, finden Sie unter [Ablagebereich](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Segmente zu einer Visualisierung hinzufügen
 Wenn Sie einer Spalte in einer Freiformtabelle Segmente hinzufügen, werden die Segmente auf alle Inhalte in der Tabellenspalte angewendet. Sie können Segmente auch als Teil einer Fallout-Visualisierung hinzufügen.
 
-* Segmente in Komponenten verwenden
+* Verwenden von Segmenten in Komponenten
 Wenn Sie Komponenten wie [berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [Anmerkungen](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) oder sogar [Segmente](/help/components/segmentation/segmentation-workflow/seg-build.md) definieren, können Sie Segmente als Teil der Definition verwenden.
 
 
 ### Hinzufügen von Datumsbereichen zu einem Projekt
 
-[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) bestimmen den Reporting-Zeitrahmen in Analysis Workspace und können auf ein oder mehrere Panels innerhalb eines Projekts sowie auf einige Visualisierungen (wie die Freiformtabelle) angewendet werden.
+[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) bestimmen den Zeitrahmen der Berichterstellung in Analysis Workspace. Außerdem kann ein Datenbereich auf Bereiche innerhalb eines Projekts und auch auf einige Visualisierungen (wie die Freiformtabelle) angewendet werden.
 
 Jedes Panel enthält standardmäßig einen Datumsbereich. Es gibt mehrere Möglichkeiten, einen Datumsbereich für ein Panel zu aktualisieren. Eine Möglichkeit zum Aktualisieren eines Datumsbereichs für ein Panel in Analysis Workspace besteht darin, eine Datumsbereichskomponente aus dem linken Panel zu ziehen:
 
 1. Fügen Sie optional Panels zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben. 
 
-1. Ziehen Sie einen Datumsbereich per Drag-and-Drop aus dem linken Panel auf:
+1. Ziehen Sie per Drag-and-Drop einen Datumsbereich aus dem linken Panel auf:
 
    * Den aktuellen Datumsbereich, um den Datumsbereich für das Panel zu ändern.
 
@@ -126,7 +126,7 @@ Weitere Informationen zum Verwenden und Verwalten von Datumsbereichen in Analysi
 
 ## Informationen zu Komponenten
 
-Sie können den Mauszeiger über eine beliebige Komponente bewegen, um ![weitere Informationen](/help/assets/icons/InfoOutline.svg) anzuzeigen. Wenn diese Option ausgewählt ist, wird ein Popup mit zusätzlichen Informationen über die Komponente angezeigt.
+Sie können den Mauszeiger über eine beliebige Komponente bewegen, um ![weitere Informationen](/help/assets/icons/InfoOutline.svg) anzuzeigen. Wenn Sie ![InfoOutline](/help/assets/icons/InfoOutline.svg) auswählen, wird ein Popup mit zusätzlichen Informationen zur Komponente angezeigt.
 
 ![Informationen zu Komponenten](assets/component-info.png)
 

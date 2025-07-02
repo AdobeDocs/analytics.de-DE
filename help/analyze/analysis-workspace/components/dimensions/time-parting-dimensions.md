@@ -1,13 +1,13 @@
 ---
-description: Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräftigere Dimensionen wie „Stunde des Tages“ oder „Tag der Woche“ unterteilt.
+description: Erfahren Sie, wie Zeitunterteilungsdimensionen den Zeitstempel erfasster Ereignisse in aussagekräftigere Dimensionen wie „Stunde des Tages“ oder „Tag der Woche“ unterteilen.
 title: Dimensionen für die Zeitunterteilung
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ Bei einer Zeitunterteilung wird der Zeitstempel erfasster Hits in aussagekräfti
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=Parting Dimensions](https://video.tv.adobe.com/v/41457?quality=12&learn=on&captions=ger){target="_blank"} für ein Demo-Video.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=Parting Dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} für ein Demo-Video.
 
 >[!ENDSHADEBOX]
 

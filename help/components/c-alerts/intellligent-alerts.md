@@ -1,12 +1,12 @@
 ---
-description: Warnhinweise ermöglichen eine abgestufte Kontrolle über Benachrichtigungen und integrieren die Anomalieerkennung.
-title: Warnhinweise – Überblick
+description: Erfahren Sie, wie Sie mithilfe von Warnhinweisen eine granulare Steuerung der Benachrichtigungen und die Integration in die Anomalieerkennung ermöglichen.
+title: Warnhinweise – Übersicht
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Mithilfe von Warnhinweisen können Sie:
 
 * In einer Vorschau anzeigen, wie oft ein Warnhinweis ausgelöst wird
 * Warnhinweise per E-Mail oder SMS mit Links zu automatisch erstellten Projekten in Analysis Workspace verschicken
-* „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen.
+* „Gestapelte“ Warnhinweise erstellen, die mehrere Metriken in einem Warnhinweis vereinen
 * Warnhinweisen basierend auf Anomalien erstellen (Schwellenwerte von 90 %, 95 %, 99 %, 99,75 % und 99,9 %; prozentuale Veränderung; über/unter) (nur für Adobe Analytics-Kundschaft mit einem Select-, Prime- oder Ultimate-Paket verfügbar)
 
 Das folgende Video-Tutorial bietet einen grundlegenden Überblick über Warnhinweise: [Warnhinweise](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=de) (5:34)

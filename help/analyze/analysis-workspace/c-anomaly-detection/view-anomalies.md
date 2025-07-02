@@ -4,16 +4,16 @@ title: Anomalien in Analysis Workspace anzeigen
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# Anomalien in Analysis Workspace anzeigen
+# Anzeigen von Anomalien
 
-Sie können Anomalien in einer Tabelle oder einem Liniendiagramm anzeigen.
+Sie können Anomalien in Analysis Workspace in einer Tabelle oder einem Liniendiagramm anzeigen.
 
 ## Anzeigen von Anomalien in einer Tabelle {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -30,6 +30,7 @@ Sie können Anomalien in einer Freiformtabelle für Zeitreihen anzeigen.
    Die **farbige senkrechte Linie** in jeder Zeile zeigt ➋ den erwarteten Wert an. Der **farbig schattierte Bereich** in jeder Zeile zeigt ➊ den tatsächlichen Wert an. Der Vergleich der Linie (erwarteter Wert) mit dem schattierten Bereich (tatsächlicher Wert) bestimmt, ob eine Anomalie vorliegt. (Eine Anomalie wird durch die fortschrittlichen statistischen Verfahren festgestellt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren“ beschrieben ](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
 
 1. Wählen Sie ◥ in der oberen rechten Ecke einer Zeile aus, um Details zur Anomalie anzuzeigen. Angezeigt wird das Ausmaß (in Prozent), in dem der tatsächliche Wert über oder unter dem erwarteten Wert liegt.
+1. Wählen [Beitragsanalyse öffnen](run-contribution-analysis.md), um die Beitragsanalyse zu starten.
 
 ## Darstellen von Anomalien in einem Liniendiagramm
 
