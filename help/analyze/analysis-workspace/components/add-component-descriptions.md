@@ -47,5 +47,5 @@ Allgemeine Informationen zum Datenwörterbuch finden Sie unter [Datenwörterbuch
 >[!MORELIKETHIS]
 >
 >[Einstellungen der Berichtskomponente](/help/components/vrs/vrs-components.md)
->>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
