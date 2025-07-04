@@ -1,17 +1,17 @@
 ---
-description: Admins können Beschreibungen für Komponenten in einer Report Suite oder mithilfe des Datenwörterbuchs hinzufügen.
+description: Erfahren Sie, wie Administratoren mithilfe einer Report Suite oder des Datenwörterbuchs Beschreibungen zu Komponenten hinzufügen können.
 title: Komponentenbeschreibungen hinzufügen
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 42%
+source-wordcount: '232'
+ht-degree: 43%
 
 ---
 
-# Hinzufügen von Komponentenbeschreibungen
+# Komponentenbeschreibungen hinzufügen
 
 Mithilfe von Beschreibungen können Benutzerinnen und Benutzer wissen, wie die verschiedenen Komponenten beim Erstellen von Projekten in Analysis Workspace oder beim Anzeigen von Berichten am besten verwendet werden.
 
@@ -31,7 +31,7 @@ Sie können Komponenten in einer Report Suite Beschreibungen hinzufügen.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/39719?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Allgemeine Informationen zum Datenwörterbuch finden Sie unter [Datenwörterbuch
 >[!MORELIKETHIS]
 >
 >[Einstellungen der Berichtskomponente](/help/components/vrs/vrs-components.md)
->&#x200B;>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

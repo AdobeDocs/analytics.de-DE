@@ -4,10 +4,10 @@ title: Zusammenfassung einer Schlüsselmetrik
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ Diese Visualisierung eignet sich für eine Vielzahl gängiger Anwendungsfälle, 
    | **[!UICONTROL Metrik]** | Wählen Sie die Metrik aus, die Sie überprüfen möchten. Alle Metriken werden unterstützt. |
    | **[!UICONTROL Primärer Datumsbereich]** | Der aktuelle Datumsbereich für die Freiformtabelle.<p>Wählen Sie aus allen verfügbaren Datumsbereichen in Ihrer Datenansicht.</p> <p>Wählen Sie [!UICONTROL **Datumsbereich der Panels**] aus, wenn Sie denselben Datumsbereich verwenden möchten, der in dem Panel verwendet wird, in dem sich die Visualisierung befindet.</p> |
    | **[!UICONTROL Vergleichsdatumsbereich]** | Der Datumsbereich, den Sie mit dem primären Datumsbereich vergleichen möchten. |
-   | **[!UICONTROL Filter (optional)]** | Jeder Filter, an dem Sie für diese Zusammenfassung interessiert sind. |
+   | **[!UICONTROL Segment (optional)]** | Jedes Segment, an dem Sie für diese Zusammenfassung interessiert sind. |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ Im Rahmen der Visualisierungseinstellungen sind spezifische Einstellungen für d
 
 ## Visualisierung bearbeiten
 
-Nach dem Erstellen der Visualisierung können Sie die ursprüngliche Konfiguration noch bearbeiten.
+Nachdem Sie die Visualisierung erstellt haben, können Sie die ursprüngliche Konfiguration bearbeiten.
 
-1. Klicken Sie oben rechts in der Visualisierung auf das Stiftsymbol (neben dem Zahnradsymbol für die Einstellungen).
+1. Wählen ![ oben ](/help/assets/icons/Edit.svg) der Visualisierung „Bearbeiten“ aus.
 
-   ![Bearbeitungssymbol für Visualisierungen](assets/edit-icon.png)
 
-   Sie gelangen nun zurück zur ursprünglichen Konfigurationsansicht.
+   Sie gelangen nun zurück zur ursprünglichen [Konfigurationsansicht](#configure).
 
-1. Ändern Sie die Metrik, den primären Datumsbereich, den Vergleichs-Datumsbereich oder den Filter nach Belieben.
+1. Ändern Sie die Metrik, den primären Datumsbereich, den Vergleichsdatumsbereich oder das Segment nach Belieben.
 
 >[!MORELIKETHIS]
 >

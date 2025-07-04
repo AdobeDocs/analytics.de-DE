@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 96%
       + [Speichern von Projekten](analysis-workspace/build-workspace-project/save-projects.md)
       + [Inhaltsverzeichnis](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Ordner in Workspace {#workspace-folders}
-         + [Übersicht über Ordner](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Überblick](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Verwalten von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Projekte hinzufügen oder verschieben](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -42,9 +42,10 @@ ht-degree: 96%
       + [Tastaturbefehle](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Farbpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Anzeigen der Dichte](analysis-workspace/build-workspace-project/view-density.md)
+      + [Debugger](analysis-workspace/build-workspace-project/debugger.md)
    + Vorlagen {#templates}
       + [Verwenden von Vorlagen](analysis-workspace/templates/use-templates.md)
-      + [Erstellen von Vorlagen](analysis-workspace/templates/create-templates.md)
+      + [Erstellen und Verwalten von Vorlagen](analysis-workspace/templates/create-templates.md)
    + Komponenten {#components}
       + [Überblick](analysis-workspace/components/analysis-workspace-components.md)
       + [Verwenden von Komponenten](analysis-workspace/components/use-components-in-workspace.md)
@@ -99,8 +100,8 @@ ht-degree: 96%
          + [Überblick](analysis-workspace/visualizations/c-flow/flow.md)
          + [Konfigurieren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale Flüsse](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Bereich und Bereich gestapelt](analysis-workspace/visualizations/area.md)
-      + [Balken und Balken gestapelt](analysis-workspace/visualizations/bar.md)
+      + [Bereich (gestapelt)](analysis-workspace/visualizations/area.md)
+      + [Balken (gestapelt)](analysis-workspace/visualizations/bar.md)
       + [Bullet](analysis-workspace/visualizations/bullet-graph.md)
       + [Kombination](analysis-workspace/visualizations/combo-charts.md)
       + [Ringdiagramm](analysis-workspace/visualizations/donut.md)

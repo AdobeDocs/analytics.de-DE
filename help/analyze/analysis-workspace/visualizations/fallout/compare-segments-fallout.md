@@ -5,10 +5,10 @@ title: Segmente in Fallout-Analyse anwenden
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 71%
+source-wordcount: '448'
+ht-degree: 42%
 
 ---
 
@@ -25,47 +25,45 @@ Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segme
 >* Verwenden eines besuchsbasierten Segments als Touchpoint innerhalb einer auf den Besuchskontext bezogenen Fallout-Visualisierung
 >
 
-## Erstellen eines Segments aus einem Touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Erstellen eines Segments aus einem Touchpoint
 
 1. Als Erstes erstellen Sie ein Segment aus einem bestimmten Touchpoint, an dem Sie interessiert sind und der sich möglicherweise lohnt, auch in andere Berichte übernommen zu werden. Klicken Sie dazu mit der rechten Maustaste auf den Touchpoint und wählen Sie dann **[!UICONTROL Segment aus Touchpoint erstellen aus]**.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![](assets/fallout-createsegment.png)
 
    Der Segment Builder wird geöffnet und enthält das vorab erstellte sequenzielle Segment, das zu dem von Ihnen ausgewählten Touchpoint passt:
 
-   ![](assets/segment-builder.png)
+   ![](assets/fallout-definesegment.png)
 
 1. Geben Sie einen Titel und eine Beschreibung für das Segment ein, und speichern Sie es.
 
-   Nun können Sie dieses Segment in jedem gewünschten Bericht verwenden.
+   Dieses Segment kann jetzt in jedem gewünschten Projekt verwendet werden.
 
-## Hinzufügen eines Segments als Touchpoint {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Hinzufügen eines Segments als Touchpoint
 
-Wenn Sie zum Beispiel wissen möchten, wie der Trend bei Ihren Benutzern aus den USA aussieht und wie sich dies in der Fallout-Analyse auswirkt, ziehen Sie einfach das Segment „USA-Benutzer“ in den Trichter:
+Wenn Sie beispielsweise sehen möchten, wie sich die Mobile-App-Treffer im Trend auswirken und wie sich dies auf den Fallout auswirkt, ziehen Sie einfach das Segment Mobile-App-Treffer in den Fallout:
 
 ![](assets/segment-touchpoint.png)
 
-Oder Sie erstellen einen AND-Touchpoint, indem Sie das Segment „USA-Benutzer“ auf einen anderen Checkpoint ziehen.
+Sie können auch einen UND-Touchpoint erstellen, indem Sie das Segment Mobile-App-Treffer auf einen anderen Checkpoint ziehen.
 
-## Vergleichen von Segmenten im Fallout {#section_E0B761A69B1545908B52E05379277B56}
+## Vergleichen von Segmenten im Fallout
 
 In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu drei Segmente vergleichen können, was falsch ist.)
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente in einer Fallout-Visualisierung vergleichen](https://video.tv.adobe.com/v/328032?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente in einer Fallout-Visualisierung vergleichen](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-1. Wählen Sie die zu vergleichenden Segmente links in der Leiste [!UICONTROL Segmente] aus. Im vorliegenden Beispiel haben wir 2 Segmente ausgewählt: „USA-Benutzer“ und „Benutzer außerhalb der USA“.
-1. Ziehen Sie sie nach oben in die Ablegezone „Segmente“.
+1. Wählen Sie die zu vergleichenden Segmente aus dem Bedienfeld [!UICONTROL Segment] auf der linken Seite aus. Im Beispiel sind zwei Segmente ausgewählt: **[!UICONTROL iOS]** und **[!UICONTROL Android]**.
+1. Ziehen Sie die drei Segmente in den Ablegebereich für Segmente am oberen Rand der Visualisierung.
 
-   ![](assets/segment-drop.png)
+   ![](assets/segment-compare.png)
 
-1. Optional: Sie können „Alle Besuche“ als Standard-Container belassen oder ihn löschen.
+1. Optional: Sie können *Alle Personen* als Standard-Container beibehalten oder den Container löschen.
 
-   ![](assets/seg-compare.png)
-
-1. Sie können nun den Fallout über zwei Segmente hinweg vergleichen (z. B. an welcher Stelle ein Segment eine bessere Leistung als das andere hat) oder sonstige Einblicke erhalten.
+1. Sie können jetzt den Fallout über die drei Segmente hinweg vergleichen, z. B. wo ein Segment eine bessere Leistung als das andere erzielt, oder andere Einblicke erhalten.

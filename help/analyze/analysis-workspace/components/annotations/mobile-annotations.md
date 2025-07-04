@@ -1,21 +1,21 @@
 ---
-title: Anmerkungen für Mobilgeräte
+title: Anmerkungen zu mobilen Scorecards
 description: Erfahren Sie, wie Sie Anmerkungen in mobilen Scorecards einblenden können.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 86%
 
 ---
 
 
 # Anmerkungen zu mobilen Scorecards
 
-Sie können in Workspace erstellte Anmerkungen in mobilen Scorecards anzeigen. Anmerkungen in mobilen Scorecards ermöglichen es, kontextbezogene Datennuancen und Erkenntnisse zu Ihrer Organisation und Ihren Kampagnen mit anderen zu teilen.
+Sie können Anmerkungen, die in Analysis Workspace erstellt wurden, in mobilen Scorecards anzeigen. Anmerkungen in mobilen Scorecards ermöglichen es, kontextbezogene Datennuancen und Erkenntnisse zu Ihrer Organisation und Ihren Kampagnen mit anderen zu teilen.
 
 
 ## Einblenden von Anmerkungen in mobilen Scorecards
