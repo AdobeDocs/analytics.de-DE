@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie einem Erfolgsereignis mehrere Dimensionseleme
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 81%
@@ -53,28 +53,28 @@ Attribution umfasst die folgenden Funktionen:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/37474?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten ](https://video.tv.adobe.com/v/41478?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten ](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Attributionsbedienfelds](https://video.tv.adobe.com/v/37477?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Attributionsbedienfelds](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von nebeneinander angezeigten Vergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/327794?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von nebeneinander angezeigten Vergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

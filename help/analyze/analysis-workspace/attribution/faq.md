@@ -1,20 +1,21 @@
 ---
-title: Häufig gestellte Fragen zu Attribution
+title: Häufig gestellte Fragen zur Attribution
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zur Attribution .
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# Häufig gestellte Fragen zu Attribution
+# Häufig gestellte Fragen
 
+Im Folgenden finden Sie Antworten auf häufig gestellte Fragen zur Attribution.
 
-+++## Was ist der Zeileneintrag „Keine“ bei der Verwendung von Attribution?
++++## Was ist der Zeileneintrag **[!UICONTROL Keine]** bei Verwendung von Attribution?
 
 Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darstellt, die ohne Touchpoints im Lookback-Fenster stattgefunden haben. Um die Anzahl der Konversionen zu reduzieren, die dem Zeileneintrag „Keine“ zugeordnet sind, versuchen Sie, ein benutzerdefiniertes Lookback-Fenster mit einem längeren Lookback-Zeitraum zu verwenden.
 
@@ -23,7 +24,7 @@ Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darste
 
 +++## Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?
 
-Einige besuchsbasierte Metriken, wie [Einträge](/help/components/metrics/entries.md) oder [Absprungrate](/help/components/metrics/bounce-rate.md), können Daten einem Zeitraum vor dem Anfangsdatumsbereich des Berichtsfensters zuordnen. Diese Situation ist auf Attributionsmodelle zurückzuführen, die ein Lookback-Fenster verwenden, in dem festgelegt wird, wie weit die Attribution zurückblicken soll, um Metriken anzurechnen. Das häufigste Szenario ist, wenn Besuche über Mitternacht hinausgehen. Beispiel:
+Einige besuchsbasierte Metriken, wie [Einträge](/help/components/metrics/entries.md) oder [Absprungrate](/help/components/metrics/bounce-rate.md), können Daten einem Zeitraum vor dem Startdatumsbereich des Berichtsfensters zuordnen. Diese Situation ist auf Attributionsmodelle zurückzuführen, die ein Lookback-Fenster verwenden, in dem festgelegt wird, wie weit die Attribution zurückblicken soll, um Metriken anzurechnen. Das häufigste Szenario ist, wenn Besuche über Mitternacht hinausgehen. Beispiel:
 
 1. Ein Benutzer besucht Ihre Homepage am 7. September um 23:55 Uhr.
 1. Er besucht mehrere Seiten, die letzte davon um 0:05 Uhr am 8. September.
@@ -44,12 +45,13 @@ In diesem Beispiel würden „Einstiege“ und „Absprungrate“ keine Daten vo
 +++
 
 
-+++## Wann sollte ich ein Besuchs-, Besucher- oder benutzerdefiniertes Attributions-Lookback verwenden?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-Die Auswahl des Attributions-Lookbacks hängt von Ihrem Anwendungsfall ab. Wenn Konversionen in der Regel länger als einen Besuch dauern, wird ein Besucher oder benutzerdefinierte Lookback empfohlen. Für längere Konversionszyklen sind benutzerdefinierte Lookback-Fenster am besten geeignet, da nur sie Daten aus einer Zeit vor dem Berichtsfenster abrufen können.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## Worin unterscheiden sich Props und eVars bei der Verwendung von Attribution?
 

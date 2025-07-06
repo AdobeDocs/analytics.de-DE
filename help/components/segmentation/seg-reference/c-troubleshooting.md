@@ -1,16 +1,18 @@
 ---
-description: Behebung von Fehlern und Erkennen von Problemen im Zusammenhang mit Segmenten.
-title: Fehlerbehebung bei der Segmentierung
+description: Erfahren Sie, wie Sie Probleme im Zusammenhang mit Segmenten beheben.
+title: Fehlerbehebung
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 42%
 
 ---
 
-# Fehlerbehebung bei der Segmentierung
+# Fehlerbehebung
+
+In diesem Artikel werden einige häufige Probleme mit Segmenten und deren Behebung aufgeführt.
 
 <!-- Looks like this is not part anymore of the current UI.
 

@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie das Bedienfeld Nächstes oder vorheriges Element verwenden, das die nächsten oder vorherigen Dimensionselemente für eine bestimmte Dimension anzeigt.
+description: Erfahren Sie, wie Sie das Bedienfeld Nächstes oder vorheriges Element verwenden, das die nächsten oder vorherigen Elemente für eine bestimmte Dimension anzeigt.
 title: Bedienfeld Nächstes oder vorheriges Element
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Nächstes oder vorheriges Objekt“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Nächstes oder vorheriges Objekt“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/next-previous) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Nächstes oder vorheriges Objekt“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Nächstes oder vorheriges Objekt“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/next-previous) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ Sie können das Panel [!UICONTROL Nächstes oder vorheriges Objekt] mithilfe der
 | **[!UICONTROL Dimension]** | Wählen Sie die Dimension aus, für die Sie die nächsten oder vorherigen Elemente untersuchen möchten. |
 | **[!UICONTROL Dimensionselement]** | Wählen Sie das spezifische Dimensionselement in der Mitte Ihrer Anfrage für das nächste/vorherige Element aus. |
 | **[!UICONTROL Richtung]** | Geben Sie an, ob Sie nach dem [!UICONTROL nächsten] oder [!UICONTROL vorherigen] Dimensionselement suchen. |
-| **[!UICONTROL Container]** | Wählen Sie den Container [!UICONTROL Sitzung] oder [!UICONTROL Person] (Standard) aus, um den Umfang Ihrer Anfrage zu festzulegen. |
+| **[!UICONTROL Container]** | Wählen Sie den Container **[!UICONTROL Besuch]** oder **[!UICONTROL Besucher]** (Standard) aus, um den Umfang Ihrer Anfrage zu bestimmen. |
 
 {style="table-layout:auto"}
 

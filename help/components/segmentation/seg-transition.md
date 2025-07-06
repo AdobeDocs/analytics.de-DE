@@ -1,30 +1,30 @@
 ---
-description: Häufig gestellte Fragen zur Verwaltung veralteter Segmente.
-title: Häufig gestellte Fragen zu älteren Segmenten
+description: Erfahren Sie, wie Sie veraltete Segmente verwalten.
+title: Häufig gestellte Fragen zu Legacy-Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 91%
+source-wordcount: '1431'
+ht-degree: 57%
 
 ---
 
-# Häufig gestellte Fragen zu älteren Segmenten
+# Legacy-Segmente
 
-In diesem Artikel werden häufig gestellte Fragen zu Best Practices für die Verwaltung veralteter Segmente (Segmente, die vor 2014 erstellt wurden) beantwortet.
+In diesem Artikel werden häufig gestellte Fragen zu Best Practices für die Verwaltung veralteter Segmente beantwortet. Legacy-Segmente sind Segmente, die vor 2014 erstellt wurden.
 
 ## Verwalten veralteter Segmente {#legacy}
 
 +++ **Was ist mit meinen vorhandenen Segmenten passiert?**
 
-Ihre vorhandenen Segmente funktionieren weiterhin wie bisher. Alle Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin korrekt.
+Die vorhandenen Segmente funktionieren weiterhin wie zuvor. Alle Berichte, auf die diese Segmente angewendet werden, funktionieren weiterhin ordnungsgemäß.
 
-Die meisten vorherigen vordefinierten Segmente und Suite-Segmente werden als Segmentvorlagen in Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gängigen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten vorherigen vordefinierten Segmente und Suite-Segmente werden als Segmentvorlagen in Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gemeinsamen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
 
-Segmentvorlagen sind in Segment Builder mit einem speziellen Symbol gekennzeichnet:
+Segmentvorlagen sind im Segment Builder mit einem speziellen Symbol ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) gekennzeichnet.
 
-![](assets/seg_templates.png)
+
 
 +++
 
@@ -38,13 +38,13 @@ Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselb
 
 ![](assets/duplicate_seg_names.png)
 
-Sie haben ein Lesezeichen, das das Segment für die Report Suite „mainprod“ referenziert. Dann löschen Sie das Segment, weil es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition des maindev-Segments ändern und „Catalina Island“ und „Tijuana Mexiko“ einfügen, wird das auf das Lesezeichen angewendete Segment nicht geändert. Es verwendet weiterhin die alte Definition. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht ein gelöschtes Segment verwendet, können Sie den Namen des Segments ändern, damit deutlich wird, ob das Lesezeichen das Segment verwendet.
+Sie verfügen über eine Visualisierung, die auf das Segment für die Report Suite **[!UICONTROL mainprod]** verweist. Dann löschen Sie das Segment, weil es sich um ein Duplikat handelt. Die Visualisierung wird fortgesetzt und verweist auf die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition für das Hauptsegment ändern, um Catalina Island und Tijuana, Mexiko, einzuschließen, ändert sich das auf die Visualisierung angewendete Segment nicht und verwendet die alte Definition. Um die neue Definition zu verwenden, aktualisieren Sie die Visualisierung, um auf die neue Definition zu verweisen. Wenn Sie sich nicht sicher sind, ob eine Visualisierung, ein Projekt oder ein terminierter Bericht ein gelöschtes Segment verwendet, ändern Sie den Namen des verbleibenden Segments, um anzuzeigen, ob die Visualisierung das verbleibende Segment verwendet.
 
 +++
 
 +++ **Was ist mit Data Warehouse-Segmenten passiert?**
 
-Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten, z. B. Analysis Workspace.
+Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace.
 
 Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Der Produktkompatibilitätsmechanismus in Segment Builder bestimmt automatisch, ob ein Segment mit Data Warehouse kompatibel ist.
 
@@ -58,7 +58,7 @@ Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erst
 * **Besuche über eine gebührenpflichtige Suche**
 * **Besuche mit Besucher-ID-Cookie**
 
-Diese Segmente werden als Segmentvorlagen in den Segment Builder migriert. Vorhandene Berichte, auf die diese Segmente angewendet werden, funktionieren weiterhin fehlerfrei.
+Diese Segmente werden als Segmentvorlagen in den Segment Builder migriert. Vorhandene Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin fehlerfrei.
 
 +++
 
@@ -80,25 +80,25 @@ Vorhandene Berichte, auf die diese Segmente angewendet wurden, funktionieren wei
 
 +++ **Was ist mit Admin-Segmenten (auch bekannt als „globale“ Segmente) passiert?**
 
-**Admin**-Segmente werden in die neue Segmentoberfläche migriert und werden dort als für alle freigegebene Segmente angezeigt.
+**Admin**-Segmente werden in die neue Segmentoberfläche migriert und als Segmente angezeigt, die für alle freigegeben sind.
 
-Der Eigentümer dieser Segmente wird mit dem ältesten Konto in der Liste der Admin-Benutzer in der Organisation als Admin angelegt. Es können jedoch alle Administratoren diese Segmente löschen, bearbeiten und teilen.
+Der Eigentümer dieser Segmente wird auf den Administrator mit dem ältesten Konto von Admin-Benutzern festgelegt. Alle Administratoren können diese Segmente jedoch löschen, bearbeiten und freigeben.
 
 Die Segmentverwaltungsoberfläche der Admin Console, über die Administratoren diese globalen Segmente erstellen und verwalten konnten, gibt es nicht mehr. Administratoren sollten jetzt den neuen Segmentaufbau verwenden, um Segmente zu erstellen und für geeignete Gruppen, für alle oder für einzelne Personen freizugeben.
 
-Vorhandene Segmente, die Logik verwenden, die wie in diesem Dokument beschrieben geändert wurde, funktionieren weiterhin fehlerfrei, müssen jedoch aktualisiert werden, damit sie erneut gespeichert werden können. Wenn Sie z. B. ein vorhandenes Segment haben, in dem „US-Bundesstaaten“ „New York“ enthalten, funktioniert es weiterhin fehlerfrei. Wenn Sie das Segment jedoch das nächste Mal bearbeiten, müssen Sie es im Hinblick auf die Verwendung des Aufzählungstyps mit einer Gleich-Bedingung aktualisieren.
+Vorhandene Segmente, die eine geänderte Logik wie in diesem Dokument beschrieben verwenden, funktionieren weiterhin ordnungsgemäß, obwohl die Segmente aktualisiert werden müssen, bevor sie erneut gespeichert werden können. Wenn Sie beispielsweise über ein vorhandenes Segment verfügen, in dem **[!UICONTROL US]** **[!UICONTROL enthält]** `New York`, funktioniert dieses Segment weiterhin ordnungsgemäß. Wenn Sie das nächste Mal das Segment bearbeiten, müssen Sie das Segment aktualisieren, um den Aufzählungstyp mit einer **[!UICONTROL gleich]**-Bedingung zu verwenden.
 
 +++
 
 +++ **Was mache ich mit doppelten Segmenten, die denselben Namen und unterschiedliche Definitionen haben?**
-Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Wir empfehlen Folgendes:
+Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Gehen Sie dazu folgendermaßen vor:
 
 * Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
 * Löschen Sie Segmente, die Sie nicht mehr benötigen.
 
 +++
 
-+++ **Welche Empfehlungen hat Adobe bezüglich der Segmentbereinigung?**
++++ **Was empfiehlt Adobe im Hinblick auf die Bereinigung von Segmenten?**
 
 * Markieren Sie alle alten Segmente mit einem Tag.
 * Überprüfen Sie all Ihre Segmente.
@@ -110,11 +110,11 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 ### Tipps zur Migration
 
-Folgende Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
+Die folgenden Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
 
 * Geo-Stadt/Region/Land – Suche nach und Auswahl bestimmter Städte, Regionen oder Länder, anstelle einer teilweisen Übereinstimmung.
-* Browser – benutzen Sie die Browsertypen-Dimension, um alle Browser eines Typs zu erhalten, z. B. Google Chrome.
-* Betriebssysteme – benutzen Sie die Betriebssystemtypen-Dimensionen, um alle Betriebssysteme eines Typs zu erhalten, z. B. Microsoft Windows.
+* Browser - Verwenden Sie die Dimension Browser-Typen , um alle Browser in einen Typ zu bekommen, z. B. Google Chrome
+* Betriebssysteme : Verwenden Sie die Dimensionen „Betriebssystemtypen“, um alle Betriebssysteme in einen Typ zu bekommen, z. B. Microsoft Windows.
 * Siehe „Neue und umbenannte Dimensionen“ (siehe unten).
 
 ## Neue und umbenannte Dimensionen {#renamed}
@@ -124,10 +124,10 @@ Die folgende Tabelle enthält eine Liste der Dimensionen, die in Segment Builder
 | Neuer Dimensionsname | Vorheriger Name | Hinweise |
 |--- |--- |--- |
 | Betriebssystemtypen | Neu | Hinzugefügt im Frühling 2015. |
-| Browser-Breite – zusammengefasst | Browser-Breite | Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, benutzen Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
-| Browser-Höhe – zusammengefasst | Browser-Höhe | Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, benutzen Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
-| Browserbreite – Granular | Browser-Breite | Diese Dimension wurde umbenannt und ist jetzt nur mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserbreite – Zusammengefasst“. |
-| Browserhöhe – Granular | Browser-Höhe | Diese Dimension wurde umbenannt und ist jetzt nur mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserhöhe – Zusammengefasst“. |
+| Browser-Breite – zusammengefasst | Browser-Breite | Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, verwenden Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
+| Browser-Höhe – zusammengefasst | Browser-Höhe | Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, verwenden Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
+| Browserbreite – Granular | Browser-Breite | Diese Dimension wurde umbenannt und ist jetzt nur noch mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserbreite – Zusammengefasst“. |
+| Browserhöhe – Granular | Browser-Höhe | Diese Dimension wurde umbenannt und ist jetzt nur noch mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserhöhe – Zusammengefasst“. |
 | Cookie-Unterstützung | Cookies | – |
 | Farbtiefe | Bildschirmfarbtiefe | – |
 | – | „App - *“ | Die „App -“-Präfixe wurden aus einigen Dimensionstypen entfernt. Da mobile App-Daten in der Regel in einer Report Suite erfasst werden, die keine Webdaten enthält, waren diese Präfixe nicht erforderlich. |
@@ -149,7 +149,7 @@ Die folgende Tabelle enthält eine Liste der Dimensionen, die in Segment Builder
 
 ## Änderungen an zeichenfolgenbasierten Dimensionen mit bekannten Werten {#string-based-dims}
 
-Auf Zeichenketten basierende Dimensionen, die einen bekannten Satz Werte besitzen, wurden in Aufzählungstypen geändert. Wenn Sie mit diesen Dimensionen ein Segment erstellen, wird die Liste mit allen bekannten Werten vorbelegt und „Gleich“ wird als einziger Operator unterstützt. So können Sie die genauen Werte, nach denen Sie suchen, schnell segmentieren, ohne nicht beabsichtigte Werte auszuwählen, die bei einer weniger restriktiven Übereinstimmung auftreten.
+Zeichenfolgenbasierte Dimensionen mit einem bekannten Wertesatz wurden in Aufzählungstypen geändert. Beim Erstellen eines Segments mit diesen Dimensionen wird die Liste mit allen bekannten Werten vorab ausgefüllt und der einzige unterstützte Operator ist **[!UICONTROL Gleich]**. Mit dieser Wertepopulation können Sie die gesuchten Werte schnell segmentieren, ohne unbeabsichtigte Werte bei weniger restriktiven Übereinstimmungen auszuwählen.
 
 Folgende Dimensionen wurden in Aufzählungslisten geändert:
 
@@ -172,8 +172,8 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 
 ## Änderungen an auf Ganzzahlen basierenden Dimensionen mit bekannten Werten {#integer-based-dims}
 
-Auf Ganzzahlen basierende Dimensionen (wie die Browserbreite) mit einem bekannten Satz Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segment Builder-Oberfläche segmentiert werden:
+Ganzzahlige Dimensionen (z. B. die Browser-Breite) mit einem bekannten Satz von Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segment Builder-Oberfläche segmentiert werden:
 
 ![](assets/seg_browser_dimension.png)
 
-Die Operatoren „kleiner als“, „größer als“ und vergleichbare Operatoren sind jetzt nur noch mit Data Warehouse-Segmenten kompatibel. Segmente, die mit allen Berichtsoberflächen kompatibel sein sollen, müssen die „Zusammengefasst“-Version der Metrik mit dem Operator „Gleich“ verwenden.
+Die Operatoren „kleiner als“, „größer als“ und vergleichbare Operatoren sind jetzt nur noch mit Data Warehouse-Segmenten kompatibel. Segmente, die mit allen Reporting-Schnittstellen kompatibel sein sollen, sollten die „Bucketed“-Version der Metrik mit dem Operator **[!UICONTROL Gleich]** verwenden.

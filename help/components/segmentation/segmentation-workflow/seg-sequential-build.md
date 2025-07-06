@@ -1,12 +1,12 @@
 ---
-description: Sequenzielle Segmente werden über den THEN-Operator anstelle von AND oder OR erstellt. THEN gibt an, dass ein Segmentkriterium gefolgt von einem anderen auftritt. Standardmäßig identifiziert ein sequenzielles Segment alle übereinstimmenden Daten mit dem Filter „Alle einschließen“. Sequenzielle Segmente können außerdem nach einer Teilmenge an übereinstimmenden Treffern über die Optionen „Nur vor Sequenz“ und „Nur nach Sequenz“ weiter gefiltert werden.
-title: Sequentielle Segmente erstellen
+description: Erfahren Sie mehr über sequenzielle Segmente, die den THEN-Operator zum Definieren einer Sequenz von Segmentbedingungen verwenden.
+title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Darüber hinaus können Sie sequenzielle Segmente mithilfe der Operatoren &quot;
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sequenzielle Segmentierung](https://video.tv.adobe.com/v/37428?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sequenzielle Segmentierung](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ So wenden Sie Zeitbeschränkungen auf den Operator **[!UICONTROL Then]** an:
 1. Wählen Sie ![Uhr](/help/assets/icons/Clock.svg) aus.
 1. Wählen **[!UICONTROL Innerhalb]** oder **[!UICONTROL Nachher]** aus dem Kontextmenü aus.
 1. Geben Sie einen Zeitraum (**[!UICONTROL Minute]**, **[!UICONTROL Stunde]** bis **[!UICONTROL Jahre]**) an.
-1. Wählen Sie ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;aus, um ein Popup zu öffnen, in dem Sie eine Zahl eingeben oder mit&#x200B;**[!UICONTROL -]**&#x200B;oder&#x200B;**[!UICONTROL +]**&#x200B;angeben können.
+1. Wählen Sie ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**aus, um ein Popup zu öffnen, in dem Sie eine Zahl eingeben oder mit**[!UICONTROL -]**oder**[!UICONTROL +]**angeben können.
 
 Um eine Zeitbeschränkung zu entfernen, verwenden Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -97,7 +97,7 @@ Einige Beispiele für die Verwendung der Zeitbeschränkungen.
 
 ##### [!UICONTROL After]-Operator
 
-Besucherinnen und Besucher identifizieren, die erst nach zwei Wochen eine Seite und dann eine weitere Seite besucht haben. Beispielsweise Besucher, die die Startseite besucht haben, aber die Frauen | Schuhe Seite erst nach zwei Wochen.
+Besucherinnen und Besucher identifizieren, die erst nach zwei Wochen eine Seite und dann eine weitere Seite besucht haben. Dies könnten beispielsweise Besucher sein, die die -Startseite, aber die -Frauen besucht haben | Schuhe Seite erst nach zwei Wochen.
 
 ![Sequenz nach](assets/sequence-after.png)
 
@@ -113,7 +113,7 @@ Wenn am 1. Juni 2024 um 12:01 Uhr eine Seitenansicht für die Startseite erfolgt
 
 ##### [!UICONTROL After] but [!UICONTROL Within]-Operator
 
-Besucherinnen und Besucher identifizieren, die eine Seite besucht und dann nach zwei Wochen, aber innerhalb eines Monats, eine andere Seite besucht haben. Dies können beispielsweise Besucherinnen und Besucher sein, die die Startseite besucht haben, und dann nach zwei Wochen und innerhalb eines Monats die Frauen | Seite Schuhe.
+Besucher identifizieren, die eine Seite besucht und nach zwei Wochen, aber innerhalb eines Monats, eine andere Seite besucht haben. Dies können beispielsweise Besucherinnen und Besucher sein, die die Startseite und dann nach zwei Wochen und innerhalb eines Monats die Seite Frauen besucht haben | Seite Schuhe.
 
 ![Sequenz nach, aber innerhalb von](assets/sequence-afterbutwithin.png)
 
@@ -193,7 +193,7 @@ Beim Reporting für Site-Abschnitte mit diesen drei Segmenten sieht die Beispiel
 
 ## [!UICONTROL Ausschließen]
 
-Segmentdefinitionen enthalten alle Daten, es sei denn, Sie schließen ![Benutzer](/help/assets/icons/User.svg) [!UICONTROL Person], ![Besuch](/help/assets/icons/Visit.svg) [!UICONTROL Besuch] oder ![WebPage](/help/assets/icons/WebPage.svg) [!UICONTROL &#x200B; Treffer] Daten mit **[!UICONTROL Exclude]** aus.
+Segmentdefinitionen enthalten alle Daten, es sei denn, Sie schließen ![Benutzer](/help/assets/icons/User.svg) [!UICONTROL Person], ![Besuch](/help/assets/icons/Visit.svg) [!UICONTROL Besuch] oder ![WebPage](/help/assets/icons/WebPage.svg)[!UICONTROL  Treffer] Daten mit **[!UICONTROL Exclude]** aus.
 
 [!UICONTROL Ausschließen] ermöglicht es Ihnen, gängige Daten zu verwerfen und Segmente mit stärkerem Fokus zu erstellen. Mit „Ausschließen“ können Sie auch Segmente erstellen, die bestimmte Besuchergruppen ausschließen. Beispielsweise um ein Segment zu definieren, das Besucher angibt, die Bestellungen aufgegeben haben, und dann diese Besuchergruppe auszuschließen, um (Nicht *Käufer)* identifizieren. Es empfiehlt sich, Regeln zu erstellen, die eine breite Definition verwenden, anstatt zu versuchen, [!UICONTROL Ausschließen] für bestimmte Besucher auszuwählen, die bestimmten Einschlusswerten entsprechen.
 
@@ -203,7 +203,7 @@ Beispiele für Ausschlussdefinitionen:
 * **Schließen Sie die Referrerdomäne aus**. Verwenden Sie eine Definition, die nur verweisende Domains von Google.com umfasst und alle anderen ausschließt.
 * **Identifizieren Sie Nicht-Käufer**. Ermitteln Sie, wenn die Bestellungen größer als null sind, und schließen Sie dann die [!UICONTROL Person] aus.
 
-[!UICONTROL Ausschließen] kann verwendet werden, um eine Sequenz zu identifizieren, in der Besucher nicht Teil bestimmter Besuche sind oder bestimmte Treffer ausführen. [!UICONTROL Ausschließen] kann auch in eine [!UICONTROL logische Gruppe“ aufgenommen werden &#x200B;]siehe unten).
+[!UICONTROL Ausschließen] kann verwendet werden, um eine Sequenz zu identifizieren, in der Besucher nicht Teil bestimmter Besuche sind oder bestimmte Treffer ausführen. [!UICONTROL Ausschließen] kann auch in eine [!UICONTROL logische Gruppe“ aufgenommen werden ]siehe unten).
 
 Sie können Container ausschließen, keine Komponenten.
 
@@ -213,7 +213,7 @@ Nachfolgend finden Sie Beispiele für die Verwendung von [!UICONTROL Ausschließ
 
 #### [!UICONTROL Ausschließen] innerhalb von
 
-Besucherinnen und Besucher identifizieren, die eine Seite besucht, keine andere Seite besucht und dann noch eine andere Seite besucht haben. Sie schließen den Container mit &quot;![&quot; ](/help/assets/icons/Setting.svg) &quot;[!UICONTROL &quot; &#x200B;]. Ein ausgeschlossener Container wird durch einen dünnen roten Balken auf der linken Seite gekennzeichnet.
+Besucherinnen und Besucher identifizieren, die eine Seite besucht, keine andere Seite besucht und dann noch eine andere Seite besucht haben. Sie schließen den Container mit &quot;![&quot; ](/help/assets/icons/Setting.svg) &quot;[!UICONTROL &quot; ]. Ein dünner roter Balken links kennzeichnet einen ausgeschlossenen Container.
 
 ![Sequenz ausschließen](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ Besucher identifizieren, die eine Seite, aber nie andere Seiten besucht haben. B
 >
 >Eine [!UICONTROL logische Gruppe] kann nur in einem sequenziellen Segment definiert werden, was bedeutet, dass der [!UICONTROL Then]Operator innerhalb des Containers verwendet wird.
 
-Mit der logischen Gruppe können Sie Bedingungen in einem einzigen sequenziellen Segment-Checkpoint gruppieren. Als Teil der Sequenz wird die Logik, die in dem als logische Gruppe identifizierten Container definiert ist, nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint ausgewertet.
+„Logische Gruppe“ ermöglicht es Ihnen, Bedingungen in einem einzigen sequenziellen Segment-Checkpoint zu gruppieren. Als Teil der Sequenz wird die Logik, die in dem als logische Gruppe identifizierten Container definiert ist, nach einem vorherigen sequenziellen Checkpoint und vor einem nachfolgenden sequenziellen Checkpoint ausgewertet.
 
 Die Bedingungen innerhalb der Logikgruppe selbst können in beliebiger Reihenfolge erfüllt werden. Nicht sequenzielle Container (Treffer, Besuch, Besucher) erfordern dagegen nicht, dass ihre Bedingungen innerhalb der Gesamtsequenz erfüllt sind, was bei Verwendung mit einem „Dann **[!UICONTROL -]** zu intuitiven Ergebnissen führen kann.
 
@@ -273,13 +273,13 @@ Besucherinnen und Besucher identifizieren, die eine Seite oder eine andere Seite
 
 #### [!UICONTROL exclude] [!UICONTROL and]
 
-Besucherinnen und Besucher identifizieren, die eine Seite besucht und dann explizit keine anderen Seiten besucht haben, sondern eine weitere Seite. Besucherinnen und Besucher, die beispielsweise die Startseite besucht haben, haben nicht die Seite „Männer“ oder „Frauen“ besucht, sondern die Seite „Kinder“.
+Besucherinnen und Besucher identifizieren, die eine Seite besucht und dann explizit keine anderen Seiten besucht haben, sondern eine weitere Seite. Besucherinnen und Besucher, die beispielsweise die Startseite und nicht die Männer- oder die Frauenseite, sondern die Kinderseite besucht haben.
 
 ![Logische Gruppe ausschließen und](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Ausschließen] [!UICONTROL ODER]
 
-Besucherinnen und Besucher identifizieren, die eine Seite besucht haben, dann explizit keine Seite eines Satzes von Seiten besucht haben, sondern eine weitere Seite besucht haben. Besucherinnen und Besucher, die beispielsweise die Startseite besucht haben, haben nicht die Seite „Männer und Frauen“ besucht, sondern die Seite „Kinder“.
+Besucherinnen und Besucher identifizieren, die eine Seite besucht haben, dann explizit keine Seite eines Satzes von Seiten besucht haben, sondern eine weitere Seite besucht haben. Besucherinnen und Besucher, die beispielsweise die Startseite und nicht die Seite „Männer und Frauen“, sondern die Seite „Kinder“ besucht haben.
 
 ![Logische Gruppe ausschließen und](assets/logicgroup-exclude-or.png)
 
@@ -295,11 +295,11 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## Ein letztes Beispiel
 
-Als letztes Beispiel möchten Sie Besuchende identifizieren, die von einer bestimmten Produktseite erfahren haben, ohne dass diese Besucher jemals von Ihrer Kampagne „Empower Your Move“ berührt wurden. Und bei ihrem ersten Besuch in Ihrem Online-Shop die Startseite angesehen, aber nicht weiter auf Fitness (Ausrüstung) Produkte aus der Kategorie Männer. Bei ihrem nächsten Besuch direkt danach gingen sie jedoch auf eine Produktseite und gaben eine Online-Bestellung auf, ohne die Startseite zuerst zu durchlaufen.
+Als letztes Beispiel möchten Sie Besuchende identifizieren, die von einer bestimmten Produktseite erfahren haben, ohne dass diese Besucher jemals von Ihrer Kampagne „Empower Your Move“ berührt wurden. Und bei ihrem ersten Besuch in Ihrem Online-Shop die Startseite angesehen, aber nicht weiter auf Fitness (Ausrüstung) Produkte aus der Kategorie Männer. Bei ihrem nächsten Besuch direkt danach gingen sie jedoch auf eine Produktseite und gaben eine Online-Bestellung auf, ohne zuerst die Startseite zu durchlaufen.
 
 
 ![Beispiel für ein komplexes sequenzielles Segment](assets/sequential-complex.png)
 
 >[!MORELIKETHIS]
 >
-> * [Beherrschen sequenzieller Logik in AA und CJA: Einführung in THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=de)
+> * [Beherrschen sequenzieller Logik in AA und CJA: Einführung in THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

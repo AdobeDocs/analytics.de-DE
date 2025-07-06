@@ -1,20 +1,20 @@
 ---
 description: Erfahren Sie mehr über die verschiedenen Segmentierungs-Container und deren Verwendung
 keywords: Segmentierung;Segmente
-title: Segment-Container
+title: Segmentcontainer
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3563'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
 # Segment-Container
 
-Ein Segment legt Bedingungen für das Filtern von Besuchenden auf der Grundlage ihrer Attribute oder Interaktionen mit Ihrer Site fest. Um in einem Segment Bedingungen festzulegen, legen Sie Regeln für die Filterung von Besuchern auf der Grundlage von Besuchermerkmalen und/oder Navigationsverhalten fest. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
+Ein Segment legt Bedingungen fest, um einen Besucher basierend auf den Attributen des Besuchers oder den Interaktionen mit Ihrer Site zu filtern. Um in einem Segment Bedingungen festzulegen, legen Sie Regeln für die Filterung von Besuchern auf der Grundlage von Besuchermerkmalen und/oder Navigationsverhalten fest. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
 
 Die im Segmentaufbau verwendete Container[Architektur definiert ](/help/components/segmentation/segmentation-workflow/seg-build.md):
 
@@ -47,7 +47,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/3429106?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

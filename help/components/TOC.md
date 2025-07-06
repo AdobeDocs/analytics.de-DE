@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -189,12 +189,12 @@ ht-degree: 100%
       + [Freigeben von Segmenten](segmentation/segmentation-workflow/t-seg-share.md)
       + [Taggen von Segmente](segmentation/segmentation-workflow/seg-tag.md)
       + [Filtern der Segmentliste](segmentation/segmentation-workflow/t-seg-filter.md)
-      + [Markieren von Segmenten als Favoriten](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Segmente als Favoriten markieren](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Genehmigen von Segmenten](segmentation/segmentation-workflow/seg-approve.md)
       + [Löschen von Segmenten](segmentation/segmentation-workflow/seg-delete.md)
       + [Segmente kopieren](segmentation/segmentation-workflow/seg-copy.md)
       + [Verwalten von Segmenten](segmentation/segmentation-workflow/seg-manage.md)
-      + [Veröffentlichen von Segmenten in Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Veröffentlichen von Segmenten](segmentation/segmentation-workflow/seg-publish.md)
       + [Verwenden von Segmenten](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referenz {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
@@ -210,10 +210,10 @@ ht-degree: 100%
       + [Erstellen von berechneten Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Suchen von Metriken](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Erstellen berechneter Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Eine einfache berechnete Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Eine komplexere berechnete Metrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Erstellen einer Teilnahmemetrik](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Ein einfaches Beispiel](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Ein komplexeres Beispiel](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Metriktyp und Attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Teilnahmemetriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Segmentierte Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Segmente stapeln und ersetzen](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Gefilterte und gewichtete Metriken](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)

@@ -1,12 +1,12 @@
 ---
-description: Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als kodifizierte Zielgruppeneinblicke ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
-title: Informationen zu Segmenten
+description: Verstehen Sie, wie Sie mit Segmenten Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifizieren können.
+title: 'Segmente '
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '988'
+ht-degree: 98%
 
 ---
 
@@ -240,7 +240,7 @@ In diesem Video erhalten Sie einen kurzen Überblick darüber, was Segment-Conta
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/3429106?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -249,7 +249,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Contai
 
 +++ **Welche Rechte und Privilegien benötige ich, um Segmente zu verwenden, zu erstellen und zu verwalten?**
 
-Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
+Standardmäßig können alle Benutzer persönliche Segmente erstellen und bearbeiten. Administratoren können jedoch entscheiden, wer [Berechtigungen zur Erstellung von Segmenten](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html) erhält, und sie bestimmten Gruppen zuweisen. Diese Segmente können direkt für andere Analytics-Benutzer freigegeben werden.
 
 Administratoren können alle Segmente bearbeiten und Segmente für Gruppen und alle Personen der Organisation freigeben. [Segmentberechtigungen nach Rolle](/help/components/segmentation/seg-reference/seg-rights.md)
 

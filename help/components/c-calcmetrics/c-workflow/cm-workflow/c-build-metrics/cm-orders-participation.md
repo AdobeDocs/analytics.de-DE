@@ -1,12 +1,12 @@
 ---
-description: Erläutert, wie Sie eine Metrik erstellen, die zeigt, welche Marketing-Kanäle zur Erhöhung der Bestellungen beitragen. Dies kann an beliebige relevante Dimensionen oder Erfolgsereignisse angepasst werden.
-title: Order Assist-Metrik
+description: Erläutert die Erstellung einer Metrik, die anzeigt, welche Marketing-Kanäle bei der Bestelloptimierung helfen.
+title: Erstellen einer komplexeren berechneten Metrik
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ In diesem Artikel wird ein komplexeres Beispiel für eine berechnete Metrik erl�
 
 1. Beginnen Sie mit dem Erstellen einer berechneten Metrik, wie in [Metriken erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) beschrieben.
 
-1. Benennen Sie im Generator für berechnete Metriken die Metrik `Assisted Orders` oder etwas Ähnliches.
+1. Benennen Sie im Generator für berechnete Metriken die Metrik `Assisted Online Orders` oder etwas Ähnliches.
 
 1. Wählen Sie die Metrik **[!UICONTROL Online-Bestellungen]** aus den Komponenten **[!UICONTROL Metriken]** und ziehen Sie die Metrik in den Bereich **[!UICONTROL Definition]**.
 
@@ -41,4 +41,4 @@ So verwenden Sie die berechnete Metrik:
 
 1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie unter [Freigeben berechneter Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) beschrieben.
 
-Dies ist eine einfache Möglichkeit, um festzustellen, welche Marketing-Kanäle zur Erhöhung der Bestellungen beigetragen haben. Alternativ können Sie in einer Freiformtabelle mit der rechten Maustaste auf eine Metrik klicken und das Attributionsmodell direkt über die Tabelle anpassen.
+Dies ist eine einfache Möglichkeit, um festzustellen, welche Marketing-Kanäle zur Erhöhung der Bestellungen beigetragen haben. Alternativ können Sie in einer Freiformtabelle eine beliebige Metrik auswählen und im Kontextmenü das Attributionsmodell direkt in der Tabelle anpassen.

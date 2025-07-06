@@ -1,12 +1,12 @@
 ---
-description: Durch die Segmentierung einzelner Metriken können Sie Metriken innerhalb eines Berichts vergleichen.
+description: Erfahren Sie, wie Sie einzelne Metriken segmentieren, sodass Sie Metriken innerhalb derselben Visualisierung vergleichen können.
 title: Segmentierte Metriken
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ In den folgenden Abschnitten erfahren Sie, wie Sie mithilfe segmentierter Metrik
 ## Beliebte Seiten
 
 1. [Erstellen Sie eine berechnete ](../cm-workflow.md) aus einem Workspace-Projekt namens `Germany`.
-1. Erstellen Sie im [Generator für berechnete ](cm-build-metrics.md) [ ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
+1. Erstellen Sie im [Generator für berechnete ](cm-build-metrics.md)[ ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
 
    >[!TIP]
    >

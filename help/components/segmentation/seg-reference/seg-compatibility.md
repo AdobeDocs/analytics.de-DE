@@ -1,12 +1,12 @@
 ---
-description: Nicht alle in Segment Builder erstellten Segmente sind mit Data Warehouse kompatibel. Diese Tabelle listet die unterstützten Funktionen auf.
+description: Erfahren Sie, warum nicht alle in Segment Builder erstellten Segmente mit Data Warehouse kompatibel sind. Erfahren Sie, welche Funktionen unterstützt werden.
 title: Data Warehouse-Segmentkompatibilität
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 81%
+source-wordcount: '343'
+ht-degree: 80%
 
 ---
 

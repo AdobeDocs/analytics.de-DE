@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie mit dem Bedienfeld „Quick Insights“ Datentabellen und Visualisierungen in Analysis Workspace erstellen können.
+description: Erfahren Sie, wie Sie mit dem Bedienfeld „Quick Insights“ Freiformtabellen und Visualisierungen in Analysis Workspace erstellen können.
 title: Bedienfeld Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 97%
+source-wordcount: '1149'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Quick Insights“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Quick Insights“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Wenn Sie [!UICONTROL Analysis Workspace] zum ersten Mal verwenden, stellen Sie s
 * Wo werden Filter erstellt?
 * und vieles mehr.
 
-Um bei der Beantwortung dieser Fragen zu helfen, nutzt [!UICONTROL Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
+Um Ihnen bei diesen Fragen zu helfen[!UICONTROL  nutzt „Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
 
 ![Das Bedienfeld „Quick Insights“.](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 |---|---|
 | **[!UICONTROL Dimension]** | Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die in einem Projekt angezeigt, aufgeschlüsselt und verglichen werden können. Es handelt sich um nicht-numerische Werte und Daten, die in Dimensionselemente aufgeschlüsselt werden. Zum Beispiel ist *Browser* oder *Seite* eine Dimension. |
 | **[!UICONTROL Dimensionselement]** | Dimensionselemente sind individuelle Werte für eine Dimension. Dimensionselemente für die Dimension „Browser“ wären zum Beispiel *Chrome*, *Firefox*, *Edge* oder andere. |
-| **[!UICONTROL Metrik]** | Metriken sind quantitative Informationen über Aktivitäten von Personen wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
+| **[!UICONTROL Metrik]** | Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
 | **[!UICONTROL Visualisierung]** | Workspace bietet [eine Reihe von Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), um visuelle Darstellungen Ihrer Daten zu erstellen. Zum Beispiel Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. |
 | **[!UICONTROL Dimensionsaufschlüsselung]** | Mit einer Dimensionsaufschlüsselung können Sie eine Dimension nach anderen Dimensionen aufschlüsseln. Sie können beispielsweise die US-Bundesstaaten nach Mobilgeräten aufschlüsseln, um die Besuche durch Mobilgeräte pro Bundesstaat zu erhalten. Oder Sie können Mobilgeräte nach Mobilgerätetypen, Regionen, internen Kampagnen und mehr aufschlüsseln. |
-| **[!UICONTROL Segmente]** | Mit Segmenten können Personenuntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Zum Beispiel können Sie [!UICONTROL Besucher]-Segmente basierend auf folgenden Merkmalen erstellen: <li>Attribute: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht; oder</li><li>Interaktionen: Kampagnen, Keyword-Suche, Suchmaschine; oder</li><li>Ausstiege und Einstiege: Besuchende aus Facebook, einer definierten Landingpage, einer Referrer Domain; oder</li><li> Benutzerdefinierte Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
+| **[!UICONTROL Segmente]** | Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Zum Beispiel können Sie [!UICONTROL Besucher]-Segmente basierend auf folgenden Merkmalen erstellen: <li>Attribute: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht; oder</li><li>Interaktionen: Kampagnen, Keyword-Suche, Suchmaschine; oder</li><li>Ausstiege und Einstiege: Besuchende aus Facebook, einer definierten Landingpage, einer Referrer Domain; oder</li><li> Benutzerdefinierte Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
 
 ## Verwenden
 
@@ -94,7 +94,7 @@ Sie haben drei Möglichkeiten, um die Bausteine festzulegen:
 
 * Ziehen Sie Komponenten aus dem linken Bedienfeld und legen Sie sie ab.
 * Beginnen Sie mit der Eingabe in eines der Bausteinfelder. Wenn eine Eingabe gefunden wird, wird das Bausteinfeld automatisch mit möglichen Werten aufgefüllt.
-* Geben Sie ein Dropdown für Bausteine an (z. B. `Country` in **[!UICONTROL Analysieren]**) und suchen Sie in der Liste der möglichen Werte (mit ![Chevron nach rechts](/help/assets/icons/ChevronRight.svg)) nach dem zu verwendenden Wert (z. B. **[!UICONTROL Länder-Code]**).
+* Geben Sie eine Dropdown-Liste für Bausteine an (z. B **[!UICONTROL &quot;]**&quot; in **[!UICONTROL Analyze]**) und suchen Sie in der Liste der möglichen Werte (mit ![ChevronRight](/help/assets/icons/ChevronRight.svg)) nach dem gewünschten Wert (z. B. **[!UICONTROL Länder-Code]**).
 
 Wählen Sie **[!UICONTROL Löschen]** aus, um alle Eingabefelder zu löschen.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326698/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

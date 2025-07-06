@@ -1,19 +1,19 @@
 ---
-description: Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen.
+description: Erfahren Sie, wie Sie mit Adobe Analytics mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten leistungsstarke, zielgerichtete Zielgruppensegmente erstellen, verwalten, freigeben und auf Ihre Berichte anwenden können.
 keywords: Segmentierung;Segmente
-title: Analytics-Segmentierung
+title: Übersicht über die Segmentierung
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 80%
 
 ---
 
-# Analytics-Segmentierung
+# Überblick über die Segmentierung
 
-Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um Berichte mithilfe von Analytics-Funktionen, der Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten zu erstellen.
+Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten Berichte zu erstellen.
 
 Die Analytics-Segmentierung geschieht im [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-workflow.md), in dem Segmente erstellt und Vorab-Tests ausgeführt werden, sowie im [Segment-Manager](/help/components/segmentation/segmentation-workflow/seg-workflow.md), in dem die Erfassung, das Tagging, die Freigabe, die Sicherheitseinstellung und die Weitergabe von Segmenten in Ihrer Organisation vorgenommen werden.
 

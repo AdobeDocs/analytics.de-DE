@@ -1,12 +1,12 @@
 ---
-description: Mit Funktionen können Sie Daten filtern/sortieren und eine statistische Analyse vornehmen.
+description: Erfahren Sie, wie Sie mit Funktionen Ihre Daten filtern und sortieren sowie statistische Analysen durchführen können.
 title: Funktionen verwenden
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 44%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 

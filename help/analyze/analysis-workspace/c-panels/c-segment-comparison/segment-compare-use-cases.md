@@ -5,26 +5,29 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 18%
+source-wordcount: '853'
+ht-degree: 15%
 
 ---
 
 # Anwendungsfälle für Segmentvergleiche
 
-Das Bedienfeld für den Segmentvergleich ist eine in Analysis Workspace häufig verwendete Funktion. Kunden entdecken häufig neue Wege, damit Einblicke zu gewinnen. Im Folgenden werden einige erfolgreiche Anwendungsfälle aufgeführt.
+Das Bedienfeld für den Segmentvergleich ist eine in Analysis Workspace häufig verwendete Funktion. Kunden entdecken häufig neue Möglichkeiten, Einblicke zu gewinnen, wenn sie das Bedienfeld verwenden. Im Folgenden finden Sie einige typische Anwendungsfälle
 
-## Anwendungsfall 1: Vergleich zwischen Mobile- und Desktop-Implementierung
+## Anwendungsfall 1: Vergleich von Mobile- und Desktop-Implementierungen
 
 > *„Sie haben Treffer von einer Website mit einer anderen verglichen und schnell eine Reihe von Tagging-Inkonsistenzen festgestellt. Auf diese Weise haben Sie Datenprobleme vor der Produktveröffentlichung vermieden.“*
 
-Sie sind für eine mobile Website und eine Desktop-Website verantwortlich und müssen sicherstellen, dass Tags auf allen Mobilgeräten und Desktops konsistent sind. Um sicherzustellen, dass Sie nichts Wichtiges verpassen, verwenden Sie das Bedienfeld Segmentvergleich , um Treffer auf ihrer mobilen Site mit Treffern auf ihrer Desktop-Site zu vergleichen. Sie werden feststellen, dass es auf der mobilen Website keine Checkout-Ereignisse gibt und Sie die richtigen Tags erhalten, bevor die mobile Website veröffentlicht wird. Dadurch wird ein Datenunglück verhindert, das dadurch entsteht, dass die mobile Site keine Konversionen aufzeichnet.
+Sie sind für eine mobile Website und eine Desktop-Website zuständig und müssen sicherstellen, dass die Tags auf allen Mobilgeräten und Desktop-Computern einheitlich sind. Um sicherzustellen, dass Sie nichts Wichtiges verpassen, verwenden Sie das Bedienfeld Segmentvergleich , um Treffer auf ihrer mobilen Site mit Treffern auf ihrer Desktop-Site zu vergleichen. Sie werden feststellen, dass es auf der mobilen Website keine Checkout-Ereignisse gibt und Sie die richtigen Tags erhalten, bevor die mobile Website veröffentlicht wird. Dadurch wird ein Datenunglück verhindert, das dadurch entsteht, dass die mobile Site keine Konversionen aufzeichnet.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Hit-Container, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
+
+{style="table-layout:fixed"}
+
 
 ## Anwendungsfall 2: Vergleichen von Kunden, die eine bestimmte Funktion verwenden, mit Kunden, die dies nicht tun
 
@@ -36,6 +39,9 @@ Ein Team für die Optimierung von Websites für den Einzelhandel möchte die Ben
 |--- |--- |
 | Besucher-Container, in dem ein benutzerdefiniertes Ereignis (Preisvergleichswerkzeug) vorhanden ist | Alle anderen |
 
+{style="table-layout:fixed"}
+
+
 ## Anwendungsfall 3: Vergleich zwischen Besuchern der News-Website und Besuchern anderer Website-Abschnitte
 
 > *„Sie haben festgestellt, dass sich Besucher Ihres News-Abschnitts mit doppelt so hoher Wahrscheinlichkeit Videoanzeigen ansehen. Daher haben Sie in diesem Abschnitt mehr Videooptionen hinzugefügt. Die Zahl der angezeigten Videoanzeigen stieg um 7 % an!“*
@@ -45,6 +51,9 @@ Ein großes Medienunternehmen untersucht in seinem News-Bereich, wie sich die In
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Besucher-Container, bei dem der Website-Bereich „News“ entspricht | Alle anderen |
+
+{style="table-layout:fixed"}
+
 
 ## Anwendungsfall 4: Vergleich zwischen Besuchern aus Paid Search und allen anderen
 
@@ -56,12 +65,17 @@ Ein großes B2B-Dienstleistungsunternehmen möchte den Traffic verstehen, den Pa
 |--- |--- |
 | Besucher-Container, bei dem der Typ der verweisenden Stelle „Paid Search“ ist | Alle anderen |
 
+{style="table-layout:fixed"}
+
+
 ## Anwendungsfall 5: Vergleich zwischen Käufern von Fitbit und allen anderen
 
-> *„Sie haben herausgefunden, dass Kunden, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine „nicht vorrätige“ Nachricht erhalten als alle anderen. So haben Sie schnell mehr Fitbits bestellt und vermeiden, nicht mehr vorrätig zu sein!“*
+> *„Sie haben herausgefunden, dass Kunden, die Fitbits kauften, mit 6-mal höherer Wahrscheinlichkeit eine „nicht vorrätige“ Nachricht erhalten als alle anderen. Sie haben schnell mehr Fitbits bestellt und haben es vermieden, nicht mehr vorrätig zu sein!“*
 
 **Szenario:** Ein großes Online-retailer interessiert sich dafür, wie eines der beliebtesten Ferienprodukte - Fitbit - verkauft wird und was Fitbit-Käufer unter anderen Kunden einzigartig macht. Das Marketing-Team kann den Fitbit-Zeileneintrag in seinem Produktbericht auswählen und schnell eine Segmentvergleichsanalyse über das Kontextmenü durchführen. Sie stellen fest, dass Benutzer, die Fitbits kaufen, mit 6-mal höherer Wahrscheinlichkeit eine „nicht vorrätige“ Nachricht erhalten als andere Kunden. Nach weiterer Analyse kann das Marketing-Team diese Besucher zu ihren stationären Läden leiten, während sie in ihrer Einkaufsabteilung warten, um weitere Fitbits zum Versand zu bestellen. Dadurch vermeidet der retailer mehr „nicht vorrätige“ Nachrichten und kann einen größeren Teil der Urlaubsnachfrage befriedigen.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Besucher-Container, in dem Bestellungen vorhanden sind und benutzerdefinierte Dimension „Marke“ gleich „FitBit“ | Alle anderen |
+
+{style="table-layout:fixed"}

@@ -1,12 +1,12 @@
 ---
-description: Durch das Taggen von Segmenten können Sie diese im Manager für berechnete Metriken organisieren.
+description: Erfahren Sie, wie Sie berechnete Metriken taggen, um Ihre berechneten Metriken zu organisieren.
 title: Berechnete Metriken taggen
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 12%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 

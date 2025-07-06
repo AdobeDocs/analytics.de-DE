@@ -1,22 +1,22 @@
 ---
-description: Mit Segment Builder können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken.
-title: Vergleichsoperatoren für Segmente
+description: Erfahren Sie, wie Sie mit den Operatoren in Segment Builder Werte vergleichen und einschränken können.
+title: Operatoren
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 47%
+source-wordcount: '1191'
+ht-degree: 45%
 
 ---
 
 # Vergleichsoperatoren für Segmente
 
-Mit Segment Builder können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken. Es gibt drei Kategorien von Operatoren: Standard, Data Warehouse und Distinct Count.
+Mit Segment Builder können Sie Werte mithilfe ausgewählter Operatoren vergleichen und beschränken. Es gibt drei Kategorien von Benutzern: [Standard](#standard-operators), [Data Warehouse](#data-warehouse-operators) und [Distinct Count](#distinct-count-operators).
 
 Je nach ausgewähltem Operator:
 
-* Sie können einen Wert eingeben
+* Sie können einen Wert eingeben.
 * Sie können einen Teil eines Werts eingeben und aus einem Dropdown-Menü auswählen (falls verfügbar).
 * Wählen Sie sofort einen Wert aus dem Dropdown-Menü aus (falls verfügbar).
 
@@ -46,7 +46,7 @@ Beispiel: Sie haben einen Seitennamen mit dem Namen *Mein cooles Produkt*.
 | **[!UICONTROL enthält alle von]** | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener Werte. Wenn Sie beispielsweise `Search Results` mit diesem Operator für die Dimension **[!UICONTROL Seitenname]** eingeben, stimmen *Suchergebnisse* und *Suchergebnisse* überein, jedoch nicht *Suche* oder *Ergebnisse*. Die Regel würde mit *Suche* UND *Ergebnisse* übereinstimmen. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
 | **[!UICONTROL enthält nicht alle von]** | Identifiziert Elemente im Vergleich zu Unterzeichenfolgen, einschließlich mehrerer miteinander verbundener Werte, und gibt dann nur Elemente ohne diese Werte zurück. Wenn Sie beispielsweise `Search Results` mit diesem Operator für die Dimension **[!UICONTROL Seitenname]** eingeben, werden *Suchergebnisse* und *Suchergebnisse* (aber nicht *Suche* oder *Ergebnisse* einzeln) identifiziert und diese Elemente ausgeschlossen. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
 | **[!UICONTROL enthält beliebige von]** | Gibt Elemente zurück, die mit den Unterzeichenfolgen vergleichbar sind, einschließlich mehrerer miteinander verbundener oder unabhängig erkannter Werte. Wenn Sie beispielsweise `Search Results` mit diesem Operator eingeben, stimmen *Suchergebnisse*, *Suchergebnisse*, *Suche* und *Ergebnisse*. Entweder würde er mit *Suche* ODER *Ergebnisse* übereinstimmen, die zusammen oder unabhängig gefunden wurden. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
-| **[!UICONTROL enthält keinen von]** | Ermittelt Elemente basierend auf Unterzeichenfolgen und gibt Werte zurück, die diese Zeichenfolgen nicht enthalten. Kann mehrfache zusammengefasste Werte oder unabhängig ermittelte Werte umfassen. Wenn Sie beispielsweise `Search Results` für die Dimension **[!UICONTROL Seitenname]** eingeben, stimmen *Suchergebnisse*, *Suchergebnisse von**, *Suche* und *Ergebnisse* überein, wobei entweder *Suche* oder *Ergebnis* gemeinsam oder unabhängig voneinander gefunden werden. Anschließend würden die Elemente ausgenommen, die diese Unterzeichenfolgen enthalten. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
+| **[!UICONTROL enthält keinen von]** | Ermittelt Elemente basierend auf Unterzeichenfolgen und gibt Werte zurück, die diese Zeichenfolgen nicht enthalten. Kann mehrfache zusammengefasste Werte oder unabhängig ermittelte Werte umfassen. Wenn Sie beispielsweise `Search Results` für die Dimension **[!UICONTROL Seitenname]** eingeben, stimmen *Suchergebnisse*, *Suchergebnisse*, *Suche* und *Ergebnisse* überein, wobei entweder *Search* oder *Result* zusammen oder unabhängig voneinander gefunden werden. Anschließend würden die Elemente ausgenommen, die diese Unterzeichenfolgen enthalten. Das Eingabefeld für diesen Operator ist durch Leerzeichen getrennt (100 Wörter). |
 | **[!UICONTROL beginnt mit]** | Gibt Elemente zurück, die mit dem eingegebenen Zeichenfolgenwert beginnen. |
 | **[!UICONTROL beginnt nicht mit]** | Gibt alle Elemente zurück, die nicht mit dem eingegebenen Zeichenfolgenwert beginnen. Dies ist das Gegenteil des Operators **[!UICONTROL Beginnt mit]**. |
 | **[!UICONTROL endet mit]** | Gibt Elemente zurück, die mit eingegebenem Zeichenfolgenwert enden. |

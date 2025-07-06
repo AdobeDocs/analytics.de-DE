@@ -1,12 +1,12 @@
 ---
-description: Abhängig von Ihren Berechtigungen können Sie Segmente für Ihre gesamte Organisation, Gruppen oder einzelne Benutzer freigeben.
+description: Erfahren Sie, wie Sie Segmente für Ihre gesamte Organisation, Gruppen oder einzelne Benutzer freigeben können.
 title: Segmente freigeben
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 61%
+source-wordcount: '424'
+ht-degree: 57%
 
 ---
 

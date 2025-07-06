@@ -1,12 +1,12 @@
 ---
-description: Das Kennzeichnen berechneter Metriken als Favoriten bietet eine weitere Möglichkeit, diese für eine einfache Verwendung zu organisieren.
+description: Organisieren Sie berechnete Metriken, indem Sie berechnete Metriken als Favoriten markieren.
 title: Berechnete Metriken als Favoriten markieren
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 9%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 

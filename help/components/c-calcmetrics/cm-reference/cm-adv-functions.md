@@ -1,13 +1,13 @@
 ---
 title: Erweiterte Funktionen
-description: Greifen Sie auf diese Funktionen zu, indem Sie in der Dropdown-Liste „Funktionen“ die Option „Erweitert anzeigen“ auswählen.
+description: Erfahren Sie mehr über erweiterte Funktionen für berechnete Metriken.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
-workflow-type: ht
-source-wordcount: '5026'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '5020'
+ht-degree: 99%
 
 ---
 

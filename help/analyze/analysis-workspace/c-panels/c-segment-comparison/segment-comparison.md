@@ -1,14 +1,14 @@
 ---
 title: Bedienfeld für den Segmentvergleich - Übersicht
-description: Erfahren Sie, wie Sie das Bedienfeld „Segmentvergleich“ in Analysis Workspace verwenden.
+description: Erfahren Sie, wie Sie mit dem Bedienfeld „Segmentvergleich“ Segmente in Analysis Workspace vergleichen können.
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 64%
+source-wordcount: '588'
+ht-degree: 63%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Bedienfeld „Segmentvergleich“"
->abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden.<br/><br/>**Parameter &#x200B;**<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem Sie vergleichen möchten, das automatisch mit &quot;*Alle anderen“* wird (das Gegenteil Ihres ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
+>abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden.<br/><br/>**Parameter **<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem Sie vergleichen möchten, das automatisch mit &quot;*Alle anderen“* wird (das Gegenteil Ihres ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Segmentvergleich“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Segmentvergleich“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Das Bedienfeld Segmentvergleich erkennt die meisten statistisch signifikanten Unterschiede zwischen einer unbegrenzten Anzahl von Segmenten. Die Funktion iteriert durch eine automatisierte Analyse aller Dimensionen und Metriken, auf die Sie Zugriff haben. Dadurch werden automatisch die wichtigsten Merkmale der Zielgruppensegmente ermittelt, die für die KPIs Ihres Unternehmens verantwortlich sind, und Sie können sehen, wie viele Segmente sich überschneiden.
+Das Bedienfeld Segmentvergleich erkennt die meisten statistisch signifikanten Unterschiede zwischen einer unbegrenzten Anzahl von Segmenten. Die Funktion iteriert durch eine automatisierte Analyse aller Dimensionen und Metriken, auf die Sie Zugriff haben. Der Vergleich deckt automatisch die wichtigsten Merkmale der Zielgruppensegmente auf, die für die KPIs Ihres Unternehmens verantwortlich sind, und zeigt Ihnen, wie viele Segmente sich überschneiden.
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/37520?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -3,10 +3,10 @@ title: Best Practices für die Attribution
 description: Machen Sie sich mit den Best Practices vertraut, um zu entscheiden, welches Attributionsmodell verwendet werden soll.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Sie können dann eine Analyse des oberen und des unteren Ende des Trichters durc
 
 ### Analyse des oberen Ende des Trichters
 
-Bei der Analyse des oberen Ende des Trichters werden diejenigen Kanäle untersucht, die zur Förderung der Marken- oder Produktwahrnehmung dienen. So zielen etwa TV-Werbespots in der Regel auf die Markenwahrnehmung ab. Hierfür empfiehlt sich das [Attributionsmodell des Zeitverfalls](/help/analyze/analysis-workspace/attribution/models.md), da Ihr TV-Werbespot im Zeitverlauf aus dem Gedächtnis Ihrer Zielgruppe verschwinden wird.
+Bei der Analyse des oberen Ende des Trichters werden diejenigen Kanäle untersucht, die zur Förderung der Marken- oder Produktwahrnehmung dienen. So zielen etwa TV-Werbespots in der Regel auf die Markenwahrnehmung ab. Hierfür empfiehlt sich das [Attributionsmodell des Zeitverfalls](/help/analyze/analysis-workspace/attribution/models.md) da Ihr TV-Werbespot im Zeitverlauf aus dem Gedächtnis Ihrer Zielgruppe verschwinden wird.
 
 ### Analyse des unteren Ende des Trichters
 
@@ -47,13 +47,13 @@ Dieser Schritt dient der Validierung Ihrer Hypothesen.
 
 Angenommen, Ihre Hypothese lautet: &quot;*Mein Erstkontaktkanal hat eine größere Auswirkung auf die Konversion als mein Letztkontaktkanal.*&quot;
 
-In diesem Fall würden Sie das Attributionsmodell [Umgekehrt J-förmig“ verwenden](/help/analyze/analysis-workspace/attribution/models.md) um diese Hypothese zu testen. Dieses Modell schreibt dem ersten Kontaktpunkt (bzw. „Touchpoint“) eine Gewichtung von 60 % zu.
+In diesem Fall würden Sie das [Umgekehrte J-förmige Attributionsmodell) verwenden](/help/analyze/analysis-workspace/attribution/models.md) um diese Hypothese zu testen. Dieses Modell schreibt dem ersten Kontaktpunkt (bzw. „Touchpoint“) eine Gewichtung von 60 % zu.
 
 **Beispiel 2**
 
 Angenommen, Ihre Hypothese lautet: *„In einer bestimmten Branche (z. B. der Reisebranche) beträgt das Attributionsfenster 60 oder 90 Tage, nicht 30 Tage, da Kunden viel recherchieren, bevor sie ein Produkt kaufen.*&quot;
 
-In diesem Fall würden Sie Ihr [Lookback-Fenster](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/attribution/models) auf 90 Tage ändern.
+In diesem Fall würden Sie Ihr [Lookback-Fenster](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) auf 90 Tage ändern.
 
 ## Algorithmische Attribution verwenden
 
@@ -63,4 +63,4 @@ Wenn Sie noch kein Attributionsmodell haben, das alle Ihre Fragen zufriedenstell
 
 * Möglicherweise sollten Sie ergänzend zu Analysis Workspace einen Datenwissenschaftler hinzuziehen.
 * Sie können sich auf Rohdaten verlassen, wie in Daten-Feeds von Adobe.
-* Erwägen Sie beispielsweise die Verwendung von [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.
+* Erwägen Sie beispielsweise die Verwendung von [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)Customer Journey Analytics), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.

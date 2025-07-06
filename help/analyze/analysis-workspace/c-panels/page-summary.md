@@ -4,7 +4,7 @@ title: Bedienfeld „Seitenzusammenfassung“
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 96%
@@ -27,14 +27,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Bedienfeld „Seitenzusammenfassung“"
->abstract="Prüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter &#x200B;**<br/>**Dimensionselement „Seite“ hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension „Seite“ und erweitern Sie sie durch Klicken auf die Karotte, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die Seite, über die Sie etwas erfahren möchten, in den Builder. Danach werden automatisch die wichtigsten Informationen über die Seite in den Bericht übertragen."
+>abstract="Prüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter **<br/>**Dimensionselement „Seite“ hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension „Seite“ und erweitern Sie sie durch Klicken auf die Karotte, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die Seite, über die Sie etwas erfahren möchten, in den Builder. Danach werden automatisch die wichtigsten Informationen über die Seite in den Bericht übertragen."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Seitenzusammenfassung“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Seitenzusammenfassung“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ So verwenden Sie das Bedienfeld **[!UICONTROL Seitenzusammenfassung]**:
 
 
 
-Sie können auf das Bedienfeld über [!UICONTROL Berichte] oder [!UICONTROL Workspace &#x200B;] zugreifen.
+Sie können auf das Bedienfeld über [!UICONTROL Berichte] oder [!UICONTROL Workspace ] zugreifen.
 
 | Zugriffspunkt | Beschreibung |
 | --- | --- |

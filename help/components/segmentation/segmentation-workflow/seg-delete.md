@@ -1,27 +1,33 @@
 ---
-description: Führt einige Überlegungen auf, die Sie vor dem Löschen von Segmenten anstellen sollten.
+description: Machen Sie sich mit den Überlegungen vertraut, die Sie vor dem Löschen von Segmenten beachten sollten.
 title: Segmente löschen
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 39%
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
-# Segmente löschen
+# Löschen von Segmenten
 
 In diesem Artikel werden einige Überlegungen aufgeführt, die Sie beachten sollten, bevor Sie Segmente löschen.
 
 Wenn Sie ein Segment löschen:
 
-* Terminierte Berichte und Dashboards, auf die dieses Segment angewendet wird, funktionieren weiterhin normal. Beispielsweise verwendet das Segment oder Dashboard weiterhin das gelöschte Segment.
-* Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselben Namen aktualisieren. Im Folgenden finden Sie ein Beispiel: Angenommen, Sie haben zwei Segmente mit demselben Namen in verschiedenen Report Suites:
+* Terminierte Berichte und Dashboards, auf die dieses Segment angewendet wird, funktionieren weiterhin normal.
+* Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselben Namen bearbeiten.
 
-  | Segmentname | Report Suite |
+<!--
+
+For example: Assume you have 2 segments with the same name in different report suites:
+
+  | Segment name | Report suite |
   |---|---|
-  | Besuche aus Kalifornien | mainprod |
-  | Besuche aus Kalifornien | maindev |
+  | Visits from California | mainprod |
+  | Visits from California | maindev |
 
-  Sie haben ein Lesezeichen, das auf das Segment für die Report Suite [!UICONTROL mainprod] verweist. Dann löschen Sie dieses Segment, da es sich um ein Duplikat handelt. Das Lesezeichen funktioniert weiterhin und referenziert die Definition des gelöschten Segments. Wenn Sie die Segmentdefinition des verbleibenden Segments ändern und „Catalina Island“ und „Tijuana Mexiko“ einfügen, wird das auf das Lesezeichen angewendete Segment nicht geändert. Das Segment verwendet die alte Definition. Um dies zu beheben, müssen Sie das Lesezeichen aktualisieren, damit es die neue Definition referenziert. Wenn Sie sich nicht sicher sind, ob ein Lesezeichen, ein Dashboard oder ein terminierter Bericht ein gelöschtes Segment verwendet, können Sie den Namen des verbleibenden Segments ändern, um anzugeben, ob das Lesezeichen das verbleibende Segment verwendet.
+  You have a visualization that references the segment for the **[!UICONTROL mainprod]** report suite. Then you delete that segment because the segment is a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the remaining segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. The segment will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment to indicate whether the bookmark is using the remaining segment.
+
+-->

@@ -1,21 +1,21 @@
 ---
-description: Berechnete und erweiterte berechnete Metriken sind benutzerdefinierte Metriken, die Sie über vorhandene Metriken erstellen können.
-keywords: Berechnete Metriken;erweiterte berechnete Metriken
-title: Berechnete und erweiterte berechnete Metriken
+description: Erfahren Sie mehr über berechnete Metriken, die Sie aus vorhandenen Metriken erstellen können.
+keywords: Berechnete Metriken
+title: Übersicht über berechnete Metriken
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
 # Überblick über berechnete Metriken
 
-Berechnete und benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
+Berechnete sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.
 
-Berechnete Metriken bieten die Möglichkeit, Metriken auf flexible Weise zu erstellen, zu verwalten und zu kuratieren. Mit berechneten Metriken können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten Daten abfragen, ohne die [!DNL Analytics]-Implementierung ändern zu müssen.
+Berechnete Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können. Berechnete Metriken bieten eine flexible Möglichkeit zum Erstellen, Verwalten und Kuratieren benutzerdefinierter Metriken, mit denen Sie Ihre Daten analysieren können, ohne Ihre Implementierung ändern zu müssen.
 
 Berechnete Metriken sind in jedem [!DNL Analytics]-Paket verfügbar, jedoch ist das Adobe Analytics Foundation-Paket für Experience Cloud auf grundlegende berechnete Metriken beschränkt, einschließlich [Formattypen (Dezimal, Zeit, Prozent, Währung)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) und [Zuordnungsänderungen (Standard, linear, Teilnahme usw.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [Metriktypen (Standard, Gesamt)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) und [grundlegende Operatoren](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (addieren, subtrahieren, multiplizieren und dividieren).
 
@@ -59,13 +59,13 @@ Einige Funktionen von [!DNL Analytics] erlauben die Verwendung von berechneten M
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/37931?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://video.tv.adobe.com/v/37930?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

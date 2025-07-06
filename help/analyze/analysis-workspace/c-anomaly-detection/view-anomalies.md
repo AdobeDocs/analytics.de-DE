@@ -1,13 +1,13 @@
 ---
-description: Sie können Anomalien in einer Tabelle oder einem Liniendiagramm anzeigen.
-title: Anomalien in Analysis Workspace anzeigen
+description: Wissen, wie Sie Datenanomalien in Analysis Workspace anzeigen und analysieren können.
+title: Anomalien anzeigen
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 52%
+source-wordcount: '444'
+ht-degree: 49%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können Anomalien in Analysis Workspace in einer Tabelle oder einem Liniendi
 
 Sie können Anomalien in einer Freiformtabelle für Zeitreihen anzeigen.
 
-1. Wählen Sie ![ Spaltenüberschrift ](/help/assets/icons/Setting.svg)Einstellung“ aus und stellen Sie sicher, dass die Option **[!UICONTROL Anomalien]** in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie unter [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) in der Spaltenüberschrift aus und stellen Sie sicher, dass die Option **[!UICONTROL Anomalien]** in der Optionsliste ausgewählt ist. Weitere Informationen finden Sie unter [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. Anomalien werden in der Tabelle wie folgt angezeigt:
 

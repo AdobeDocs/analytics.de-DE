@@ -1,11 +1,11 @@
 ---
-description: Der Segment-Manager bietet viele Möglichkeiten zum Kuratieren von Segmenten, z. B. Freigeben, Filtern, Taggen, Genehmigen, Kopieren, Löschen und Kennzeichnen als Favoriten.
-title: Segmente verwalten (Segment-Manager)
+description: Erfahren Sie, wie Sie mit dem Segment-Manager Segmente verwalten können, z. B. Segmente freigeben, filtern, taggen, genehmigen, kopieren, löschen und als Favoriten markieren.
+title: Segmente verwalten
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 16%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 16%
 # Verwalten von Segmenten
 
 
-Sie können [Freigeben](t-seg-share.md), [Segment](t-seg-filter.md), [Tag](seg-tag.md), [Genehmigen](seg-approve.md), umbenennen [Kopieren](seg-copy.md), Segmente löschen, exportieren und Segmente über eine zentrale [!UICONTROL Segment]Verwaltungsoberfläche als [Favorit](t-seg-favorite.md) markieren. So verwalten Sie Segmente:
+Sie können [Freigeben](t-seg-share.md), [Segment](t-seg-filter.md), [Tag](seg-tag.md), [Genehmigen](seg-approve.md), umbenennen [Kopieren](seg-copy.md), Segmente löschen, exportieren und Segmente über eine zentrale [Segment](t-seg-favorite.md)Verwaltungsoberfläche als [!UICONTROL Favorit] markieren. So verwalten Sie Segmente:
 
 * Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Segmente]**.
 
@@ -68,7 +68,7 @@ Die Filterleiste zeigt ➌ die aktiven Segmente an, die vom Filterbedienfeld auf
 
 ### Panel „Filter“
 
-Sie können die Liste der Segmente mithilfe der ➍ des ![Filtern](/help/assets/icons/Filter.svg) **[!UICONTROL Filtern]** filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
+Sie können die Liste der Segmente mithilfe der ![ des ](/help/assets/icons/Filter.svg)Filtern **** Filtern➍ filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
 Weitere [ finden Sie unter ](t-seg-filter.md) der Segmentliste .
 
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=de) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->
