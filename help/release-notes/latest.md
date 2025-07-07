@@ -3,16 +3,16 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 91a17aa9ae7a0a6c6b7a1fd8d5ffe5d7d2efb294
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 100%
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Version Juni 2025)
 
-**Letzte Aktualisierung**: 24. Juni 2025
+**Letzte Aktualisierung**: Dienstag, 7. Juli 2025
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 18. Juni bis zum 15. Juli 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -20,6 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 18.�
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Livestream-TNT-Felder mit Algorithmen** | Livestream wird derzeit aktualisiert, um sicherzustellen, dass die Technologie weiterhin modern und stabil ist. Im Rahmen dieser Aktualisierung beginnen wir mit der Integration des TNT-Felds in die Livestream-Ausgabe, wenn Ihr TNT-Feld einen Algorithmus enthält. Dies umfasst jedoch nur die zuvor unterstützten Elemente: `campaignId`, `recipeId`, `trafficType`, `actionId` und `actionName`. Das gesamte TNT-Schema für Livestream bleibt unverändert. |   | Juli 7,2025 |
 | **Unterstützung für sichere Cloud-Ziele im neuen Report Builder** | Das JavaScript-Add-in Report Builder unterstützt jetzt den Export von Berichten in die folgenden Cloud-Speicherziele:<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>Zuvor waren nur FTP und E-Mail als Ziele verfügbar. FTP wird aufgrund von Sicherheitsbedenken nicht mehr unterstützt.</p><p>Weitere Informationen finden Sie unter [Planen von Arbeitsmappen durch den Export in Cloud-Ziele](/help/analyze/report-builder/report-builder-export.md).</p><p>Zusätzlich zu diesen Änderungen bietet das Feld „Verwenden mit“ beim Erstellen eines Speicherorts in Adobe Analytics jetzt die Möglichkeit, den Speicherort mit Report Builder zu verwenden, wie in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.</p> |  | 19. Juni 2025 (ursprünglich 18. Juni) |
 | **Neues Vorschauerlebnis** | Der Vorschaubereich, der beim Erstellen eines Segments oder beim Konfigurieren der Einstellungen einer Datenansicht verwendet wird, nutzt jetzt eine Darstellung mit horizontalen Balken anstelle einer Darstellung mit Ringdiagrammen. |  | 18. Juni 2025 |
 | **Geändertes Dialogfeld für Attributionsmodelle** | Sie können nun den Container und den Zeitraum separat im Dialogfeld für Attributionsmodelle definieren. |  | 18. Juni 2025 |
