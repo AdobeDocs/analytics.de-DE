@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie Warnhinweise in Analysis Workspace erstellen.
 title: Erstellen von Warnhinweisen
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 69%
@@ -31,7 +31,7 @@ Weitere Informationen zu Warnhinweisen finden Sie unter [Warnhinweise - Übersic
 
 So erstellen Sie einen Warnhinweis:
 
-1. Verwenden Sie eine der folgenden Möglichkeiten, um einen Warnhinweis zu erstellen. 
+1. Verwenden Sie eine der folgenden Möglichkeiten, um einen Warnhinweis zu erstellen:
 
    * Öffnen Sie ein Projekt in Analysis Workspace und wählen Sie **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweis erstellen]** aus.
    * Öffnen Sie ein Projekt in Analysis Workspace und verwenden Sie dann den folgenden Tastaturbefehl: ***Befehlstaste + Umschalttaste + A*** (macOS) oder ***Strg + Umschalttaste + A*** (Windows).
