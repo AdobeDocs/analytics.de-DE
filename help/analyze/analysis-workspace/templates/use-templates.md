@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über die Standardvorlagen in Analysis Workspace und wie Sie diese Standardvorlagen verwenden.
-title: Vorlagen verwenden
+title: Verwenden von Vorlagen
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc

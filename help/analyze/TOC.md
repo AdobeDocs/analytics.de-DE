@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschlie
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 96%
    + [Übersicht über Analytics](get-started/analytics-overview.md)
    + [Erste Schritte (nach Rolle)](get-started/get-started-by-role.md)
    + [Grundlagen der Analytics-Oberfläche](get-started/analytics-interface.md)
-   + [Anwendungsbeispiele](get-started/use-cases.md)
+   + [Anwendungsfälle](get-started/use-cases.md)
    + [Welches Adobe Analytics-Tool sollte ich verwenden?](get-started/which-analytics-tool.md)
    + [Analytics – Produktvergleich und Voraussetzungen](get-started/analytics-product-comparison.md)
    + [Systemanforderungen](get-started/sys-reqs.md)
 + [Landingpage](landing.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace – Übersicht](analysis-workspace/home.md)
+   + [Analysis Workspace – Überblick](analysis-workspace/home.md)
    + Projekte {#build-workspace-project}
       + [Überblick](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Schneller Projektstart](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -37,9 +37,9 @@ ht-degree: 96%
          + [Überblick](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Erstellen von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Verwalten von Ordnern](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Projekte hinzufügen oder verschieben](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Hinzufügen oder Verschieben von Projekten](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Mehrere Report Suites](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [Tastaturbefehle](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [Hotkeys](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Farbpaletten](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Anzeigen der Dichte](analysis-workspace/build-workspace-project/view-density.md)
       + [Debugger](analysis-workspace/build-workspace-project/debugger.md)
@@ -90,7 +90,7 @@ ht-degree: 96%
       + Kohortentabelle {#cohort-table}
          + [Überblick](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Konfigurieren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Anwendungsszenarien](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Anwendungsfälle](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Überblick](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Konfigurieren](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -130,16 +130,16 @@ ht-degree: 96%
       + [Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Segmentvergleich {#segment-comparison}
          + [Überblick](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Anwendungsszenarien](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [Anwendungsfälle](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Verwendete statistische Tests](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Kuratieren und freigeben {#curate-share}
+   + Kuratieren und Freigeben {#curate-share}
       + [Überblick](analysis-workspace/curate-share/send-schedule-files.md)
       + [Kuratieren von Projekten](analysis-workspace/curate-share/curate.md)
       + [Freigeben von Projekten](analysis-workspace/curate-share/share-projects.md)
       + [Erstellen von freigebbaren Links](analysis-workspace/curate-share/shareable-links.md)
       + [Schreibgeschützte Projekte](analysis-workspace/curate-share/view-only-projects.md)
       + [Herunterladen](analysis-workspace/curate-share/download-send.md)
-      + [Senden und planen](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Senden und Planen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution {#attribution}
       + [Übersicht über Attribution](analysis-workspace/attribution/overview.md)
       + [Modell, Container und Lookback-Fenster](analysis-workspace/attribution/models.md)
