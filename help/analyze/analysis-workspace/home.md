@@ -1,23 +1,23 @@
 ---
-title: Analysis Workspace – Übersicht
-description: Erfahren Sie mehr über Analysis Workspace, das führende Analyse-Tool für Adobe Analytics. Verwenden Sie Projekte, Bedienfelder, Tabellen, Visualisierungen und andere Komponenten, um Daten zum Leben zu erwecken und Ihre Analyse zu kuratieren und freizugeben.
+title: Analysis Workspace – Überblick
+description: Erfahren Sie mehr über Analysis Workspace, das führende Analyse-Tool für Adobe Analytics. Verwenden Sie Projekte, Panels, Tabellen, Visualisierungen und andere Komponenten, um Daten zu veranschaulichen und Ihre Analyse zu kuratieren und freizugeben.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 06e66118888f5dfcefb484d429bf5421861fb92e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1383'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Analysis Workspace – Übersicht {#analysis-workspace-overview}
+# Analysis Workspace – Überblick {#analysis-workspace-overview}
 
 Mit Analysis Workspace können Sie schnell Analysen erstellen, um Erkenntnisse zu gewinnen und diese Erkenntnisse dann für andere freizugeben. Mithilfe der Drag-and-Drop-Browser-Oberfläche können Sie Ihre Analyse erstellen, Visualisierungen hinzufügen, um Daten lebendig werden zu lassen, einen Datensatz kuratieren sowie [Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) für andere in Ihrer Organisation freigeben und planen.
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace – Übersicht](https://video.tv.adobe.com/v/35525/?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace – Übersicht](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -30,9 +30,9 @@ Das folgende Bild und die zugehörige Tabelle erläutern die Hauptelemente der B
 | Standort | Name und Funktion |
 |:---------:|----------|
 | A  | Enthält den Projektnamen, eine Menüstruktur für den Zugriff auf die Funktionen, eine Schaltfläche ![Zurück-Schaltfläche](/help/assets/icons/ChevronLeft.svg) zum Zurückkehren zur Projektliste und eine Schaltfläche **[!UICONTROL Freigabe]** zum [Freigeben Ihres Workspace-Projekts](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/>Sie können jederzeit den Namen Ihres Projekts (z. B. „Neues Projekt“) auswählen, um den Namen zu ändern. <br/>Wählen Sie ![Favorisierung aufheben](/help/assets/icons/StarOutline.svg) aus, um Ihr Projekt als bevorzugtes Projekt ![Favorisieren](/help/assets/icons/Star.svg) zu markieren. |
-| B | **Bedienfeld „Schaltfläche“** Enthält Schaltflächen für den Zugriff auf die wichtigsten [Funktionen](#features) von Analysis Workspace:<ul><li>![WebSeite](/help/assets/icons/WebPage.svg) [[!UICONTROL Bedienfelder]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![VertikaleGrafikbalken](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualisierungen]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Kuratieren](/help/assets/icons/Curate.svg) [[!UICONTROL Komponenten]](/help/components/home.md)</li><li>![Ansichtsliste](/help/assets/icons/ViewList.svg) [[!UICONTROL Inhaltsverzeichnis]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Lesezeichen](/help/assets/icons/Bookmark.svg) [[!UICONTROL Datenwörterbuch]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **Schaltflächen-Panel**: Enthält Schaltflächen für den Zugriff auf die wichtigsten [Funktionen](#features) von Analysis Workspace:<ul><li>![Web-Seite](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![VertikaleGrafikbalken](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualisierungen]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Kuratieren](/help/assets/icons/Curate.svg) [[!UICONTROL Komponenten]](/help/components/home.md)</li><li>![Ansichtsliste](/help/assets/icons/ViewList.svg) [[!UICONTROL Inhaltsverzeichnis]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Lesezeichen](/help/assets/icons/Bookmark.svg) [[!UICONTROL Datenwörterbuch]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **Linkes Bedienfeld:** Dieser Bereich enthält einzelne Bedienfelder, Visualisierungen, Komponenten oder Listen. Der Inhalt hängt von der im Schaltflächenbedienfeld ausgewählten Schaltfläche ab. |
-| D | **Arbeitsfläche:** Der Hauptbereich, in den Sie Inhalte aus dem linken Bedienfeld ziehen, um Ihr Projekt zu erstellen. Das Projekt wird dynamisch aktualisiert, wenn Sie Bedienfelder hinzufügen, Visualisierungen zu Bedienfeldern hinzufügen und Komponenten zu Visualisierungen hinzufügen. Sie können mehrere Bedienfelder erstellen und in jedem Bedienfeld können Sie mehrere Visualisierungen erstellen.<br/>Jedes Bedienfeld basiert auf einer ausgewählten Report Suite. Die ausgewählte Report Suite bestimmt die verfügbaren Komponenten wie Metriken und Dimensionen. Weitere Informationen finden [ unter „Bedienfelder - ](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite) Suite“. |
+| D | **Arbeitsfläche:** Der Hauptbereich, in den Sie Inhalte aus dem linken Bedienfeld ziehen, um Ihr Projekt zu erstellen. Das Projekt wird dynamisch aktualisiert, wenn Sie Bedienfelder hinzufügen, Visualisierungen zu Bedienfeldern hinzufügen und Komponenten zu Visualisierungen hinzufügen. Sie können mehrere Bedienfelder erstellen und in jedem Bedienfeld können Sie mehrere Visualisierungen erstellen.<br/>Jedes Panel basiert auf einer ausgewählten Report Suite. Die ausgewählte Report Suite bestimmt verfügbare Komponenten wie Metriken und Dimensionen. Weitere Informationen finden Sie unter [Panels – Report Suite](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite). |
 
 ## Funktionen
 
@@ -43,7 +43,7 @@ Die Hauptfunktionen von Analysis Workspace sind über das Schaltflächenbedienfe
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Bedienfelder]** | [Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md) dienen zur Organisation Ihrer Analyse in einem Projekt und können viele Tabellen und Visualisierungen enthalten. Viele der in Analysis Workspace bereitgestellten Bedienfelder ermöglichen das Generieren eines vollständigen Satzes von Analysen auf der Grundlage einiger weniger Benutzereingaben. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualisierungen]** | [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), wie z. B. ein Balken- oder Liniendiagramm, können verwendet werden, um Daten visuell lebendig werden zu lassen. Wählen Sie im linken Bedienfeld das mittlere Symbol **[!UICONTROL Visualisierungen]** aus, um die vollständige Liste der verfügbaren Visualisierungen anzuzeigen. |
 | ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL Komponenten]** | Zu den [Komponenten](/help/components/home.md) gehören die folgenden Elemente:<ul><li>![Dimensionen](/help/assets/icons/Dimensions.svg) [Dimensionen](/help/components/dimensions/overview.md)</li><li>![Ereignis](/help/assets/icons/Event.svg) [Metriken](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentierung](/help/assets/icons/Segmentation.svg) [Segmente](/help/components/segmentation/seg-overview.md)</li><li>![Kalender](/help/assets/icons/Calendar.svg) [Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
-| ![Ansichtsliste](/help/assets/icons/ViewList.svg) | **[!UICONTROL Inhaltsverzeichnis]** | Das [Inhaltsverzeichnis](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) organisiert alle Bedienfelder und Visualisierungen im Projekt in einer ausblendbaren Liste, sodass Sie schnell auf einen bestimmten Bereich oder eine bestimmte Visualisierung zugreifen können. |
+| ![Ansichtsliste](/help/assets/icons/ViewList.svg) | **[!UICONTROL Inhaltsverzeichnis]** | Im [Inhaltsverzeichnis](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) sind alle im Projekt enthaltenen Panels und Visualisierungen in Form einer reduzierbaren Liste organisiert, sodass Sie schnell auf ein bestimmtes Panel oder eine bestimmte Visualisierung zugreifen können. |
 | ![Lesezeichen](/help/assets/icons/Bookmark.svg) | **Datenwörterbuch** | Das [Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) hilft Benutzenden und Admins dabei, die Komponenten in ihrer Analytics-Umgebung zu verfolgen und besser zu verstehen. |
 
 
@@ -106,7 +106,7 @@ Eine Übersicht über die verfügbaren Menüs finden Sie in den nachfolgenden Ta
 | **[!UICONTROL Metrik erstellen…]** | **[!UICONTROL *Umschalt+Befehlstaste+C *]** | **[!UICONTROL *Umschalt+Strg+C *]** | Erstellen einer neuen [berechneten Metrik](/help/components/c-calcmetrics/cm-overview.md). |
 | **[!UICONTROL Datumsbereich erstellen]** | **[!UICONTROL *Umschalt+Befehlstaste+D *]** | **[!UICONTROL *Umschalt+Strg+D *]** | Erstellen eines neuen [Datumsbereichs](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | **[!UICONTROL Anmerkung erstellen...]** | **[!UICONTROL *Umschalt+Befehlstaste+O *]** | **[!UICONTROL *Umschalt+Strg+O *]** | Erstellen einer neuen [Anmerkung](/help/analyze/analysis-workspace/components/annotations/overview.md) |
-| **[!UICONTROL Komponenten aktualisieren]** | **[!UICONTROL *Wahltaste+Umschalt+R *]** | **[!UICONTROL *Umschalt+Alt+R *]** | Aktualisieren der Komponenten im Projekt. |
+| **[!UICONTROL Aktualisieren von Komponenten]** | **[!UICONTROL *Wahltaste+Umschalt+R *]** | **[!UICONTROL *Umschalt+Alt+R *]** | Aktualisieren der Komponenten im Projekt. |
 
 | **[!UICONTROL Freigeben]** | Mac-Tastaturbefehl | Windows-Tastaturbefehl | Beschreibung |
 |---|---|---|---|
@@ -168,7 +168,7 @@ Analysis Workspace allows you to build analyses quickly to gather insights and t
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/35525/?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -311,8 +311,8 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - The [Learning landing](/help/getting-started/landing.md#learning) page in Customer Journey Analytics. This page is  great way to become acquainted with Analysis Workspace. Especially the Learning Workspace Fundamental. This template walks you through common terminology and steps for building your first analysis in Workspace
-- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/de/docs/release-notes/experience-cloud/current) for updates about new features.
+- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
 
 
 
@@ -326,7 +326,7 @@ The following video provides a brief overview with examples of what is possible.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/35525/?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace overview](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -351,7 +351,7 @@ Following are some of the key features available in Analysis Workspace:
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of panels available.
 
-To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de).
+To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html).
 
 ![](assets/build-panels.png)
 
@@ -359,7 +359,7 @@ To learn more about panels, see [Panels overview](https://experienceleague.adobe
 
 **Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of visualizations available. 
 
-To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de).
+To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
 
 ![](assets/build-visualizations.png)
 
@@ -415,8 +415,8 @@ When you finish building out the project and it's gathering actionable insights,
 
 ## Additional resources {#resources}
 
-* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=de).
-* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de#analytics) for updates about new features.
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) for updates about new features.
 * A great way to become acquainted with Analysis Workspace is through the Analysis Workspace Training Tutorial template. This template walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial:
   1. On the [!UICONTROL **Workspace**] tab in Adobe Analytics, select **[!UICONTROL Learning]** on the left.
   1. Select **[!UICONTROL Open Tutorial]**.
