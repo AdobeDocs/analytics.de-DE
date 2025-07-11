@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 6cec1085093404235e29319db984d4389c68c31e
 workflow-type: tm+mt
 source-wordcount: '3461'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Sie können für alle neu erstellten Projekte oder Bedienfelder die auf Analysis
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwalten von Voreinstellungen](https://video.tv.adobe.com/v/3429986/?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwalten von Voreinstellungen](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Sie können die allgemeinen Voreinstellungen für alle neuen Projekte anpassen, 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Experience Cloud-Authentifizierung verlangen"
->abstract="Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten, mit ihren Experience Cloud-Anmeldeinformationen authentifizieren."
+>abstract="Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten haben, mit ihren Anmeldedaten von Experience Cloud authentifizieren."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -101,12 +101,12 @@ Klicken Sie auf die verlinkten Voreinstellungstitel, um weitere Informationen un
 | Abschnitt | Voreinstellung | Optionen |
 | --- | --- | --- |
 | **Anzeigen** | | |
-|  | [Dichte anzeigen](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Wählen Sie aus, wie viel Inhalt auf dem Bildschirm angezeigt werden soll, indem Sie den vertikalen Abstand der linken Schiene, der Freiformtabellen und der Kohortentabellen verkleinern. <ul><li>Kompakt</li><li>Komfortabel</li><li>Erweitert (Standard)</li></ul> |
+|  | [Dichte anzeigen](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Wählen Sie aus, wie viel Inhalt auf dem Bildschirm angezeigt werden soll, indem Sie den vertikalen Abstand der linken Schiene, der Freiformtabellen und der Kohortentabellen verkleinern. <ul><li>Kompakt</li><li>Komfortabel</li><li>Erweitert (Standard)</li></ul> |
 | | [Farbpalette](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Wählen Sie die in Analysis Workspace verwendeten Farbpaletten für die Visualisierung aus.<ul><li>**Kategorische Palette**: Wird auf viele Visualisierungen in Analysis Workspace angewendet. Jede Farbe stellt einen bestimmten kategorischen Wert dar. Wählen Sie aus den von Adobe bereitgestellten Optionen oder geben Sie eine benutzerdefinierte Palette ein, die durch kommagetrennte Hexadezimalwerte definiert ist.</li><li>**Divergente Palette**: Wird auf die Kohortentabelle in Analysis Workspace angewendet. Diese Palette enthält eine numerische Bedeutung mit zwei Extremen und einer Grundlinie in der Mitte.</li><li>**Sequenzielle Palette**: Wird auf die geführte Analyse der Häufigkeits-Trends (gestapelter Balken) angewendet. Diese Palette hat eine numerische Bedeutung von hell bis dunkel.</li></ul> |
 | **Daten** | | |
-|  | [Report Suite](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/panels) | Wählen Sie aus, von wo Tabellen und Visualisierungen ihre Daten beziehen sollen. <ul><li>Zuletzt verwendet (Standard)</li><li>Spezifische Report Suite, die aus einer Liste ausgewählt wurde</li></ul> |
-|  | [Kalender](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/panels) | Wählen Sie aus einer Liste, die Folgendes enthält: <ul><li>Von Adobe bereitgestellte Bereiche (Standard ist „Diesen Monat“)</li><li>Benutzerdefinierte Bereiche</li></ul> |
-|  | [Typ des Bedienfelds](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>Freiform (Standard)</li><li>Leer</li><li>Quick Insights</li></ul> |
+|  | [Report Suite](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Wählen Sie aus, von wo Tabellen und Visualisierungen ihre Daten beziehen sollen. <ul><li>Zuletzt verwendet (Standard)</li><li>Spezifische Report Suite, die aus einer Liste ausgewählt wurde</li></ul> |
+|  | [Kalender](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Wählen Sie aus einer Liste, die Folgendes enthält: <ul><li>Von Adobe bereitgestellte Bereiche (Standard ist „Diesen Monat“)</li><li>Benutzerdefinierte Bereiche</li></ul> |
+|  | [Typ des Bedienfelds](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>Freiform (Standard)</li><li>Leer</li><li>Quick Insights</li></ul> |
 |  | Wiederholte Instanzen zählen | Diese Einstellung legt fest, ob wiederholte Instanzen in Berichten gezählt werden sollen. Beispielsweise werden mit dieser Einstellung (wenn aktiviert) mehrere aufeinanderfolgende Aufrufe derselben Seite wie mehrere Seitenaufrufe gezählt. Ist diese Einstellung deaktiviert, werden sie als nur ein einziger Seitenaufruf gezählt. <p>**Hinweis:** Diese Einstellung wirkt sich nur auf bestimmte Metriken aus (z. B. Einzelseitenbesuche) und nicht auf Fluss- oder Fallout-Visualisierungen.</p> |
 |  | Zahlenformat | <ul><li>1.000,00 (Standard)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV-Trennzeichen | <ul><li>Komma (Standard)</li><li>Semikolon</li><li>Doppelpunkt</li><li>Verkettungszeichen</li><li>Zeitraum</li><li>Leerzeichen</li><li>Tab</li></ul> |
@@ -117,12 +117,12 @@ Klicken Sie auf die verlinkten Voreinstellungstitel, um weitere Informationen un
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="Anomalien anzeigen"
->abstract="Wenn Sie **[!UICONTROL Anomalien anzeigen]** auswählen, wird die Anomalieerkennung automatisch für die erste Metrikspalte ausgeführt, die zu einer Freiformtabellen-Visualisierung der Zeitreihe hinzugefügt wurde."
+>abstract="Wenn Sie **[!UICONTROL Anomalien zeigen]** auswählen, wird die Anomalieerkennung automatisch für die erste Metrik-Spalte ausgeführt, die zu einer Freiformtabellen-Visualisierung der Zeitreihe hinzugefügt wurde."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="Prognose anzeigen"
->abstract="Wenn Sie **[!UICONTROL Prognose anzeigen]** wird automatisch die erste Metrikspalte prognostiziert, die zu einer Freiformtabellen-Visualisierung der Zeitreihe hinzugefügt wurde."
+>abstract="Wenn Sie **[!UICONTROL Prognose anzeigen]** auswählen, wird die Prognose automatisch für die erste Metrik-Spalte ausgeführt, die zu einer Freiformtabellen-Visualisierung der Zeitreihe hinzugefügt wurde."
 
 
 >[!CONTEXTUALHELP]

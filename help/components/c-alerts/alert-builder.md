@@ -6,7 +6,7 @@ exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="components_alerts_timegranularity"
 >title="Zeitgranularität"
->abstract="Zeitgranularität bezieht sich auf die Häufigkeit der Überprüfung des Warnhinweises."
+>abstract="Zeitgranularität bezieht sich darauf, wie oft der Warnhinweis überprüft wird."
 
 <!-- markdownlint-enable MD034 -->
 
