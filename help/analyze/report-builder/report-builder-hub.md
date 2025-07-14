@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -25,10 +25,6 @@ Der Report Builder-Hub enthält die Schaltflächen „Erstellen“, „Verwalten
 ## Erstellen, Verwalten und Planen von Schaltflächen
 
 Verwenden Sie die Schaltflächen Erstellen, Verwalten und Planen , um neue Datenblöcke zu erstellen, vorhandene Datenblöcke zu verwalten oder Datenblöcke zu planen.
-
->[!NOTE]
->
->Die Arbeitsmappen-Planung für diese Version von Report Builder auf Adobe Analytics wurde noch nicht veröffentlicht, wird aber Anfang 2025 verfügbar sein. Sie können jetzt mit Arbeitsmappen beginnen, für die keine Planung erforderlich ist.
 
 ## Bedienfeld „Befehle“
 
@@ -62,12 +58,12 @@ Wenn Sie die Report Suite ändern, übernehmen alle Datenblöcke in der Auswahl 
 
 Um die Report Suite zu ändern, wählen Sie eine neue Report Suite aus dem Dropdown-Menü aus.
 
-![Der Report Builder-Hub mit dem Dropdown-Menü für die Report Suite.](./assets/image16.png)
+![Der Report Builder Hub mit dem Dropdown-Menü für die Report Suite.](./assets/image16.png)
 
 ### Datumsbereich
 
 **[!UICONTROL Datumsbereich]** zeigt den Datumsbereich für die ausgewählten Datenblöcke an. Wenn mehrere Datenblöcke mit mehreren Datumsbereichen ausgewählt sind, zeigt der Link **[!UICONTROL Datumsbereich]** &quot;*&quot;*. [Weitere Informationen](/help/analyze/report-builder/select-date-range.md)
 
-### Segmente 
+### Segmente
 
 Der **Segmente**-Link zeigt eine zusammenfassende Liste der Segmente an, die von den ausgewählten Datenblöcken verwendet werden. Wenn mehrere Datenblöcke mit mehreren angewendeten Segmenten ausgewählt sind, wird der Link **Segmente** angezeigt *Mehrere*. [Weitere Informationen](/help/analyze/report-builder/work-with-segments.md)
