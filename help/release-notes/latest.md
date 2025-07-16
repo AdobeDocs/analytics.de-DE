@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 00d716f12a7372ca94f09ddfddd7ffb55d4b1dd2
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Diese Versionshinweise decken den Veröffentlichungszeitraum vom 7. Juli bis zum
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Livestream-TNT-Felder mit Algorithmen** | Livestream wird derzeit aktualisiert, um sicherzustellen, dass die Technologie weiterhin modern und stabil ist. Im Rahmen dieser Aktualisierung beginnen wir mit der Integration des TNT-Felds in die Livestream-Ausgabe, wenn Ihr TNT-Feld einen Algorithmus enthält. Dies umfasst jedoch nur die zuvor unterstützten Elemente: `campaignId`, `recipeId`, `trafficType`, `actionId` und `actionName`. Das gesamte TNT-Schema für Livestream bleibt unverändert. |   | Juli 7,2025 |
+| **Livestream-TNT-Felder mit Algorithmen** | Livestream wird derzeit aktualisiert, um sicherzustellen, dass die Technologie weiterhin modern und stabil ist. Im Rahmen dieser Aktualisierung beginnen wir mit der Integration des TNT-Felds in die Livestream-Ausgabe, wenn Ihr TNT-Feld einen Algorithmus enthält. Dies umfasst jedoch nur die zuvor unterstützten Elemente: `campaignId`, `recipeId`, `trafficType`, `actionId` und `actionName`. Das allgemeine TNT-Schema für Livestream bleibt unverändert. |   | &#x200B;7. Juli 2025 |
 | **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche für Kundenattribute ist jetzt direkt über die App-Auswahl in Adobe Experience Cloud zugänglich. | Mittwoch, 1. Juli 2025 | TBD |
 | **Streaming-Medien: Unterstützung von Zeitplandaten** | Sie können jetzt Zeitplandaten von früheren Live-Inhalten von Streaming-Medien hochladen, um die Zuschauerzahlen einfacher und genauer zu verfolgen. Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:<ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen zu bestimmten Themen oder Programmsegmenten erfassen. Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.<p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen. Weitere Informationen |  | 25. Juni 2025 |
 
