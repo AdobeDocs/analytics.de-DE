@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -47,27 +47,13 @@ ht-degree: 100%
             + Paid-Search-Erkennung {#paid-search-detection}
                + [Übersicht über die Paid-Search-Erkennung](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Konfigurieren der Erkennung von Paid Search](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + Verarbeitungsregeln {#c-processing-rules}
-               + [Übersicht über Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + Verarbeitungsregeln {#c-processing-rules-configuration}
-                  + [Funktionsweise von Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-                  + [Erstellen von Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-                  + [Anzeigen der aktiven Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-                  + [Anzeigen des Verlaufs von Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-                  + [Wiederherstellen von Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [Kopieren von Verarbeitungsregeln in eine andere Report Suite](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [Für Verarbeitungsregeln verfügbare Dimensionen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + Beispiele für Verarbeitungsregeln {#processing-rules-examples}
-                  + [Beispiele für Verarbeitungsregeln](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [Füllen einer Kampagnen-ID aus einem Abfragezeichenfolgenparameter](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-                  + [Festlegen des Produktansichtsereignisses auf der Seite „Produktübersicht“](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [Hinzufügen einer Unterkategorie durch Verketten von Kategorie und Seitenname](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [Bereinigen von Werten in einem Bericht](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-                  + [Füllen interner Suchbegriffe mithilfe eines Abfragezeichenfolgenparameters](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [Kopieren einer Kontextdatenvariable in eine eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-                  + [Festlegen eines Ereignisses mit einer Kontextdatenvariablen](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-                  + [Entfernen eines Ereignisses aus einem Treffer](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-               + [Verarbeitungsregeln – Tipps und Tricks](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + Verarbeitungsregeln {#processing-rules}
+               + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [Benutzeroberfläche](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+               + [Verlauf ansehen](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+               + [Regeln kopieren](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [Verfügbare Dimensionen und Metriken](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [Anwendungsfälle](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + Bot-Regeln {#bot-removal}
                + [Entfernung von Bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Verstehen und Konfigurieren von Bot-Regeln](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)

@@ -4,7 +4,7 @@ description: Informieren Sie sich über häufige Probleme und Best Practices zur
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -88,7 +88,7 @@ Diese beiden Variablenwerte werden in Adobe Analytics getrennt betrachtet. Das L
 Bei Implementierungen, die viele Variablen mit langen Werten füllen, kann es manchmal zu abgeschnittenen Bildanforderungen kommen. Einige ältere Browser, wie z. B. Internet Explorer, legen für Bildanforderungs-URLs eine Beschränkung von 2083 Zeichen fest. Wenn Ihr Unternehmen mit sehr langen Bildanforderungen konfrontiert ist, versuchen Sie Folgendes:
 
 * **Experience Cloud Identity Service verwenden**: AppMeasurement-Bibliotheken 1.4.1 und höher senden Bildanforderungen automatisch über HTTP-POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten. Weitere Informationen finden Sie unter [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
-* **Verarbeitungsregeln verwenden**: [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode erspart Ihnen das Festlegen des gleichen Werts in mehreren Variablen. Beispiel:
+* **Verarbeitungsregeln verwenden**: [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode erspart Ihnen das Festlegen des gleichen Werts in mehreren Variablen. Beispiel:
 
   Immer ausführen:<br>
 Wert von prop1 mit eVar1 überschreiben<br> Wert von eVar2 mit eVar1 überschreiben<br> Wert von prop2 mit eVar1 überschreiben<br>

@@ -3,7 +3,7 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -45,7 +45,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
 * **Kundenattribute:** eine Experience Cloud-Funktion, mit der Attributdaten hochgeladen werden können. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) im Benutzerhandbuch zu zentralen Diensten.
 * **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungs-Server von Adobe gesendet.
-* **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch den [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE).
+* **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch den [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Daten-Feed:** ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten werden Adobe Analytics-Daten in Datenbanken von Drittanbietern exportiert. Siehe [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten.
 * **Datenschicht:** Eine [Datenschicht](/help/implement/prepare/data-layer.md) ist ein Framework von JavaScript-Objekten auf Ihrer Site, die die in Ihrer Analytics-Implementierung verwendeten Variablenwerte enthalten. Dies ermöglicht eine bessere Kontrolle und einfachere Wartung beim Zuweisen von Werten zu Analytics-Variablen.
 * **Datenquellen:** Ermöglicht dem Anwender das Hochladen von Daten aus einer Datei in Adobe Analytics. Die Datei wird normalerweise von einer FTP-Site abgerufen. Siehe [Data Sources](/help/import/data-sources/overview.md) im Benutzerhandbuch zu Importen.
@@ -84,7 +84,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Persistenz:** ein abstraktes Konzept für Konversionsvariablen, das die Verknüpfung zwischen einem Variablenwert und einem Ereignis bei separaten Treffern ermöglicht. Siehe auch „Gültigkeit“.
 * **Primärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, handelt es sich bei der ersten Report Suite um einen primären Server-Aufruf und bei den anderen um sekundäre Server-Aufrufe. Diese Regel gilt für alle Treffertypen, einschließlich Seitenansicht und Linktracking. Siehe auch „Sekundäre Server-Aufrufe“.
 * **Verarbeitungsregeln:** kann sich auf Folgendes beziehen:
-   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) im Administratorhandbuch.
+   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) im Administratorhandbuch.
    * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) im Administratorhandbuch.
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
@@ -98,7 +98,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **s<span>.</span>tl():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für das Linktracking sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.trackLink()`. Siehe [tl](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen.
 * **s_code.js:** der Name der JavaScript-Datei, die in alten Versionen von Adobe Analytics verwendet wird. Der aktuelle Name der verwendeten JavaScript-Datei ist „AppMeasurement.js“.
 * **Sekundärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, sind alle Report Suites nach dem ersten aufgelisteten Aufruf sekundäre Server-Aufrufe. Siehe auch „Primäre Server-Aufrufe“.
-* **Segment:** Hiermit können Sie sich auf eine bestimmte Untergruppe Ihrer Daten konzentrieren. Siehe [Segmentierung](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
+* **Segment:** Hiermit können Sie sich auf eine bestimmte Teilmenge Ihrer Daten konzentrieren. Siehe [Segmentierung](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Segment-Container:** der Teil eines Segments, der bestimmt, wie viele Daten eingehen sollen. Container können auf Seitenansicht, Besuch oder Besucher basieren. Siehe [Segmentierung](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Serialisierung:** Siehe „Ereignis-Serialisierung“.
 * **Server-Aufruf:** Alternativname für eine Bildanforderung oder einen Treffer, der hauptsächlich im Zusammenhang mit der Abrechnung verwendet wird.
