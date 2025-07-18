@@ -4,10 +4,10 @@ title: Bedienfeld „Seitenzusammenfassung“
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Bedienfeld „Seitenzusammenfassung“"
->abstract="Prüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter &#x200B;**<br/>**Dimensionselement „Seite“ hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension „Seite“ und erweitern Sie sie durch Klicken auf die Karotte, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die Seite, über die Sie etwas erfahren möchten, in den Builder. Danach werden automatisch die wichtigsten Informationen über die Seite in den Bericht übertragen."
+>abstract="Prüfen Sie schnell einige allgemeine Metriken sowie die Bewegungen zu und von einer bestimmten Seite.<br/><br/>**Parameter **<br/>**Dimensionselement „Seite“ hinzufügen**: Öffnen Sie die Komponentenleiste, suchen Sie die Dimension „Seite“ und erweitern Sie sie durch Klicken auf die Karotte, um die Dimensionselemente anzuzeigen. Ziehen Sie dann die Seite, über die Sie etwas erfahren möchten, in den Builder. Danach werden automatisch die wichtigsten Informationen über die Seite in den Bericht übertragen."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Seitenzusammenfassung“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Seitenzusammenfassung“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ So verwenden Sie das Bedienfeld **[!UICONTROL Seitenzusammenfassung]**:
 
 
 
-Sie können auf das Bedienfeld über [!UICONTROL Berichte] oder [!UICONTROL Workspace &#x200B;] zugreifen.
+Sie können auf das Bedienfeld über [!UICONTROL Berichte] oder [!UICONTROL Workspace ] zugreifen.
 
 | Zugriffspunkt | Beschreibung |
 | --- | --- |
@@ -67,12 +67,12 @@ Sie können das Bedienfeld [!UICONTROL Seitenzusammenfassung] mithilfe der folge
 
 | Eingabe | Beschreibung |
 | --- | --- |
-| **[!UICONTROL Seite]** | Wählen Sie eine Seitendimension aus, für die wichtige Statistiken untersucht werden sollen. |
+| **[!UICONTROL Seite]** | Wählen Sie eine Seitendimension aus, für die Sie wichtige Statistiken untersuchen möchten. Beispiel: **[!UICONTROL Startseite]**, um Statistiken für die Startseite zu untersuchen. Verwenden Sie das Dropdown-Menü, um eine Seite auszuwählen oder mit der Eingabe zu beginnen (z. B. `home`), um schnell nach Seiten zu suchen. |
 
 {style="table-layout:auto"}
 
 
-Wählen Sie **[!UICONTROL Erstellen]** aus, um das Bedienfeld zu erstellen.
+Wählen Sie **[!UICONTROL Erstellen]** aus, um das Panel zu erstellen.
 
 ### Bedienfeldausgabe {#panel-output}
 
