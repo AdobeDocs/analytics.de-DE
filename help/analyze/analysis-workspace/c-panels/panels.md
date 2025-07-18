@@ -79,7 +79,7 @@ Sie haben folgende Möglichkeiten:
 
 ## Report Suite
 
-Jedes Panel ist mit einer [Report Suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) verknüpft, die durch den ![Daten](/help/assets/icons/Data.svg)-**[!UICONTROL *Namen der Report Suite *]**im Dropdown-Menü oben rechts im Panel identifiziert wird.
+Jedes Panel ist mit einer [Report Suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) verknüpft, die durch den ![Daten](/help/assets/icons/Data.svg)-**[!UICONTROL *Namen der Report Suite *]**&#x200B;im Dropdown-Menü oben rechts im Panel identifiziert wird.
 
 Wenn Sie ein neues Bedienfeld erstellen, basiert die Standard-Report Suite auf dem Bedienfeld, an dem Sie zuletzt im Analysis Workspace-Projekt gearbeitet haben.
 

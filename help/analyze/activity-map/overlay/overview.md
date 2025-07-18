@@ -31,7 +31,7 @@ Es bietet die folgenden Einstellungen:
 * **Standard-/Live-**: Schaltet zwischen Standard- und Live-Ansicht um.
    * Standardansicht: Zeigt die Überlagerung basierend auf historischen Daten an.
    * Live-Ansicht: Zeigt die Überlagerung basierend auf Live-Daten an. Die Datumsauswahl wird zu einem Dropdown-Menü, über das Sie die Granularität von Live-Daten ändern können.
-* **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL  Live-Ansicht ausgewählt ], sind nur Link-Klicks verfügbar.
+* **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL &#x200B; Live-Ansicht ausgewählt &#x200B;], sind nur Link-Klicks verfügbar.
 * **Segmentauswahl**: Ermöglicht die Auswahl eines [Segments](/help/components/segmentation/seg-overview.md), wobei eine Teilmenge der Daten in Ihrer Überlagerung angezeigt wird. Segmente sind in der Live-Ansicht nicht verfügbar.
 * **Visualisierungstyp „Überlagerung**: Ermöglicht es Ihnen zu ändern, wie die Überlagerung das Ranking von Links visualisiert.
    * **[!UICONTROL Bubble]**: Top-Links erhalten eine grüne Blase, die ihren numerischen Rang während des Berichtszeitraums anzeigt. Sie können die Sprechblasenfarbe in „Einstellungen[ ändern](settings.md).
@@ -81,7 +81,7 @@ Der **[!UICONTROL Links auf Seite]** Bericht zeigt einen grundlegenden Arbeitsbe
 Der **[!UICONTROL Seitendetails]**-Bericht zeigt eine [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)-Visualisierung mithilfe der Dimension [Seite](/help/components/dimensions/page.md) an, wobei der Fokus auf der aktuellen Seite liegt. Die folgenden Metriken für die aktuelle Seite werden auf der linken Seite angezeigt:
 
 * [Seitenansichten](/help/components/metrics/page-views.md)
-* [!UICONTROL  % aller Seitenansichten]
+* [!UICONTROL &#x200B; % aller Seitenansichten]
 * [Eintritt](/help/components/metrics/entries.md) Anzahl
 * [Beenden](/help/components/metrics/exits.md) Anzahl
 * [Einzelseitenbesuche](/help/components/metrics/single-page-visits.md)
