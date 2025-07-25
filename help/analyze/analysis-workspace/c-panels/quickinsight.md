@@ -4,10 +4,10 @@ title: Bedienfeld Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
 source-wordcount: '1149'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Quick Insights“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Siehe [Bedienfeld „Quick Insights](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Wenn Sie [!UICONTROL Analysis Workspace] zum ersten Mal verwenden, stellen Sie s
 * Wo werden Filter erstellt?
 * und vieles mehr.
 
-Um Ihnen bei diesen Fragen zu helfen[!UICONTROL &#x200B; nutzt „Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
+Um Ihnen bei diesen Fragen zu helfen[!UICONTROL  nutzt „Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
 
 ![Das Bedienfeld „Quick Insights“.](assets/popular-tag.png)
 
@@ -62,7 +62,7 @@ Im Folgenden finden Sie einige grundlegende Begriffe, mit denen Sie vertraut sei
 | **[!UICONTROL Metrik]** | Metriken sind quantitative Informationen über Besucheraktivitäten wie Ansichten, Clickthroughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
 | **[!UICONTROL Visualisierung]** | Workspace bietet [eine Reihe von Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), um visuelle Darstellungen Ihrer Daten zu erstellen. Zum Beispiel Balkendiagramme, Ringdiagramme, Histogramme, Liniendiagramme, Karten, Streudiagramme und andere. |
 | **[!UICONTROL Dimensionsaufschlüsselung]** | Mit einer Dimensionsaufschlüsselung können Sie eine Dimension nach anderen Dimensionen aufschlüsseln. Sie können beispielsweise die US-Bundesstaaten nach Mobilgeräten aufschlüsseln, um die Besuche durch Mobilgeräte pro Bundesstaat zu erhalten. Oder Sie können Mobilgeräte nach Mobilgerätetypen, Regionen, internen Kampagnen und mehr aufschlüsseln. |
-| **[!UICONTROL Segmente]** | Mit Segmenten können Besucheruntergruppen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Zum Beispiel können Sie [!UICONTROL Besucher]-Segmente basierend auf folgenden Merkmalen erstellen: <li>Attribute: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht; oder</li><li>Interaktionen: Kampagnen, Keyword-Suche, Suchmaschine; oder</li><li>Ausstiege und Einstiege: Besuchende aus Facebook, einer definierten Landingpage, einer Referrer Domain; oder</li><li> Benutzerdefinierte Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
+| **[!UICONTROL Segmente]** | Mit Segmenten können Besucherteilmengen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Zum Beispiel können Sie [!UICONTROL Besucher]-Segmente basierend auf folgenden Merkmalen erstellen: <li>Attribute: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht; oder</li><li>Interaktionen: Kampagnen, Keyword-Suche, Suchmaschine; oder</li><li>Ausstiege und Einstiege: Besuchende aus Facebook, einer definierten Landingpage, einer Referrer Domain; oder</li><li> Benutzerdefinierte Variablen: Formularfeld, definierte Kategorien, Kunden-ID. |
 
 ## Verwenden
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326698/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 
