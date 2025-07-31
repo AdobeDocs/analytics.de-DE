@@ -5,9 +5,9 @@ user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 98%
                + [Überblick](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
                + [Benutzeroberfläche](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
                + [Verlauf ansehen](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
-               + [Regeln kopieren](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [Kopierregeln](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
                + [Verfügbare Dimensionen und Metriken](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
                + [Anwendungsfälle](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + Bot-Regeln {#bot-removal}
