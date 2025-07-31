@@ -6,35 +6,35 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Version Juli 2025)
+# Aktuelle Adobe Analytics-Versionshinweise (Version Mai 2025)
 
 **Letzte Aktualisierung**: Donnerstag, 30. Juli 2025
 
-Diese Versionshinweise decken den Veröffentlichungszeitraum vom 7. Juli bis zum 15. August 2025 ab. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 7. Juli bis 15. August 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Livestream-TNT-Felder mit Algorithmen** | Livestream wird derzeit aktualisiert, um sicherzustellen, dass die Technologie weiterhin modern und stabil ist. Im Rahmen dieser Aktualisierung beginnen wir mit der Integration des TNT-Felds in die Livestream-Ausgabe, wenn Ihr TNT-Feld einen Algorithmus enthält. Dies umfasst jedoch nur die zuvor unterstützten Elemente: `campaignId`, `recipeId`, `trafficType`, `actionId` und `actionName`. Das allgemeine TNT-Schema für Livestream bleibt unverändert. |   | &#x200B;7. Juli 2025 |
-| **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche Kundenattribute kann jetzt direkt über den App-Selektor in Adobe Experience Cloud aufgerufen werden. Wählen Sie **[!UICONTROL Kundenattribute]** aus dem Dropdown-Menü aus (anstatt zu [!UICONTROL Personen] > [!UICONTROL Kundenattribute]) und aktualisieren Sie Ihre Lesezeichen.  Die Aktualisierung enthält einige Verbesserungen an der Benutzeroberfläche. | Mittwoch, 1. Juli 2025 | Freitag, 31. Juli 2025 |
+| **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche Kundenattribute kann jetzt direkt über den App-Selektor in Adobe Experience Cloud aufgerufen werden. Wählen Sie **[!UICONTROL Kundenattribute]** aus dem Dropdown-Menü aus (anstatt zu [!UICONTROL Personen] > [!UICONTROL Kundenattribute]) und aktualisieren Sie Ihre Lesezeichen.  Die Aktualisierung enthält einige Verbesserungen an der Benutzeroberfläche. | &#x200B;1. Juli 2025 | Freitag, 31. Juli 2025 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
 **Activity Map**: AN-360987
 **Analysis Workspace**: AN-378094; AN-380979; AN-382908; AN-387652;
-**Klassifizierungen** AN-382412; AN-383157; AN-384616; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915;
+**Klassifizierungen**: AN-382412; AN-383157; AN-384616; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915;
 **Datenerfassung**: AN-387661
-**Daten-Feeds** AN-375172; AN-384369; AN-387859; AN-387952; AN-388155;
-**PLATTFORM**: AN-382813; AN-386627; AN-386815
+**Daten-Feeds**: AN-375172; AN-384369; AN-387859; AN-387952; AN-388155;
+**Platform**: AN-382813; AN-386627; AN-386815
 **Datenschutz**: AN-384390
 **Report Builder**: AN-388035
 **Reporting**: AN-380441
-**Terminierte Berichte**: AN-378280; AN-378331
+**Geplante Berichte**: AN-378280; AN-378331
 **Segmentvergleich**: AN-368766
 
 
