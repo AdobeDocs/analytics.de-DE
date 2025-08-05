@@ -4,15 +4,15 @@ description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Aktuelle Adobe Analytics-Versionshinweise (Version Mai 2025)
 
-**Letzte Aktualisierung**: Donnerstag, 30. Juli 2025
+**Letzte Aktualisierung**: 30. Juli 2025
 
 Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 7. Juli bis 15. August 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
@@ -21,7 +21,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 7. 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Livestream-TNT-Felder mit Algorithmen** | Livestream wird derzeit aktualisiert, um sicherzustellen, dass die Technologie weiterhin modern und stabil ist. Im Rahmen dieser Aktualisierung beginnen wir mit der Integration des TNT-Felds in die Livestream-Ausgabe, wenn Ihr TNT-Feld einen Algorithmus enthält. Dies umfasst jedoch nur die zuvor unterstützten Elemente: `campaignId`, `recipeId`, `trafficType`, `actionId` und `actionName`. Das allgemeine TNT-Schema für Livestream bleibt unverändert. |   | &#x200B;7. Juli 2025 |
-| **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche Kundenattribute kann jetzt direkt über den App-Selektor in Adobe Experience Cloud aufgerufen werden. Wählen Sie **[!UICONTROL Kundenattribute]** aus dem Dropdown-Menü aus (anstatt zu [!UICONTROL Personen] > [!UICONTROL Kundenattribute]) und aktualisieren Sie Ihre Lesezeichen.  Die Aktualisierung enthält einige Verbesserungen an der Benutzeroberfläche. | &#x200B;1. Juli 2025 | Freitag, 31. Juli 2025 |
+| **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche für Kundenattribute ist jetzt direkt über die Anwendungsauswahl in Adobe Experience Cloud zugänglich. Wählen Sie **[!UICONTROL Kundenattribute]** aus dem Dropdown-Menü aus (anstatt zu [!UICONTROL Personen] > [!UICONTROL Kundenattribute] zu gehen) und aktualisieren Sie Ihre Lesezeichen.  Die Aktualisierung enthält einige Verbesserungen an der Benutzeroberfläche. | &#x200B;1. Juli 2025 | &#x200B;31. Juli 2025 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
