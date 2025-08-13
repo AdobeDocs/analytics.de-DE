@@ -3,7 +3,7 @@ title: Verarbeitungszeit von Classification Importer
 description: Verstehen Sie den Zeitrahmen, in dem Adobe Classification-Dateien verarbeitet, und wie Sie die Verarbeitungszeit minimieren.
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # Verarbeitungszeit von Classification Importer
+
+{{classification-importer-deprecation}}
 
 Die Verarbeitungszeit für eine Classification-Datei hängt von der Größe der Datei und der Gesamtzahl der von Adobe verarbeiteten Dateien ab. Klassifizierungen dauern in der Regel nicht länger als 24 Stunden. In Unternehmen, die Adobe Analytics einsetzen, kann es jedoch vorkommen, dass Dateien in Zeiten starker Nutzung der Classification länger als 24 Stunden benötigen. Adobe verzeichnet in den Monaten vor der Weihnachtssaison eine starke Nutzung von Classifications.
 

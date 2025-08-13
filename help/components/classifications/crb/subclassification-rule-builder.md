@@ -3,7 +3,7 @@ description: Verwenden Sie Unterklassifizierungen mit dem Classification Rule Bu
 title: Unterklassifizierungen und der Regel-Builder
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # Unterklassifizierungen und der Regel-Builder (veraltet)
+
+{{classification-rulebuilder-deprecation}}
 
 Sie können den Classification Rule Builder mit Unterklassifizierungen kombinieren, wenn Sie sicherstellen, dass jede Unterklassifizierung über einen übergeordneten Wert verfügt.
 
@@ -61,7 +63,7 @@ Beispielschritte, die beschreiben, wie Sie Unterklassifizierungen mit dem Regel-
 
    Beispiel:
 
-   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&Hat;Kampagnentyp | Code einer breiten Kampagne&Hat;Kampagnen-Director | ... |
+   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&amp;Hat;Kampagnentyp | Code einer breiten Kampagne&amp;Hat;Kampagnen-Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marke | Suzanne |  |
    | &#42; |  | 222 | Marke | Frank |  |

@@ -1,8 +1,8 @@
 ---
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
-source-wordcount: '2910'
-ht-degree: 87%
+source-wordcount: '2964'
+ht-degree: 88%
 
 ---
 # Snippets
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/rb-overview) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->&#x200B;>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/convert-workbooks) neue Report Builder konvertieren.
+>>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -83,9 +83,9 @@ Ein Attributionsmodell bestimmt, welchen Dimensionselementen eine Metrik zugesch
 
 {style="table-layout:auto"}
 
-## Attributionscontainer {#attribution-container}
+## Attributions-Container {#attribution-container}
 
-Ein Attributionscontainer definiert den gewünschten Umfang für die Attribution . Mögliche Optionen sind:
+Ein Attributions-Container definiert den gewünschten Umfang für die Attribution. Mögliche Optionen sind:
 
 * **Besuch**: Betrachtet Konversionen aus dem Umfang des Besuchs-Containers.
 * **Besucher**: Betrachtet Konversionen aus dem Umfang des Besucher-Containers.
@@ -108,16 +108,16 @@ Sehen Sie sich folgendes Beispiel an:
 1. Am 18. September gelangt der Besucher erneut über einen Link in sozialen Medien zu Ihrer Site, den er von einem Freund erhalten hat. Er fügt mehrere Artikel zum Warenkorb hinzu, erwirbt aber nichts.
 1. Am 24. September sendet Ihr Marketing-Team eine E-Mail mit einem Coupon für einige der Artikel im Warenkorb. Der Coupon wird angewendet, der Besucher ruft aber mehrere andere Websites auf, um zu sehen, ob andere Coupons verfügbar sind. Er findet einen weiteren über eine Display-Anzeige und kauft dann letztendlich für 50 Euro ein.
 
-Je nach Attributionsmodell erhalten Container und Kanäle unterschiedliche Gutschriften. Beispiele finden Sie in der folgenden Tabelle:
+Je nach Attributionsmodell erhalten Container und Kanäle unterschiedliche Gewichtungen. Beispiele finden Sie in der unten stehenden Tabelle:
 
 | Modell | Container | Lookback-Fenster | Erklärung |
 |---|---|---|---|
-| First Touch | Besuch | 30 Tage | Die Attribution betrachtet nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs von 50 US-Dollar zugeschrieben werden. |
-| First Touch | Besucher | 30 Tage | Die Attribution untersucht alle drei Besuche. Paid Search kam zuerst, sodass Paid Search 100 % des Kaufs von 50 $ zugeschrieben werden. |
-| Linear | Besuch | 30 Tage | Das Guthaben wird zwischen E-Mail und Anzeige aufgeteilt. Beiden Kanälen werden jeweils 25 Euro zugeschrieben. |
-| Linear | Besucher | 30 Tage | Die Gutschrift wird aufgeteilt in Paid Search, Social Media, E-Mail und Display. Jedem Kanal werden für diesen Kauf 12,50 $ zugeschrieben. |
-| J-förmig | Besucher | 30 Tage | Die Gutschrift wird aufgeteilt in Paid Search, Social Media, E-Mail und Display.<ul><li>Der Display-Anzeige werden 60 %, also 30 Euro, zugeschrieben.</li><li>Paid Search werden 20 %, also 10 Euro, zugeschrieben.</li><li>Die restlichen 20 % werden zwischen Social Media und E-Mail aufgeteilt (jeweils 5 Euro).</li></ul> |
-| Zeitverfall | Besucher | 30 Tage | <ul><li>Abstand von null Tagen zwischen Display-Touchpoint und Konversion. `2^(-0/7) = 1`</li><li>Abstand von null Tagen zwischen E-Mail-Touchpoint und Konversion. `2^(-0/7) = 1`</li><li>Abstand von sechs Tagen zwischen Social Media-Touchpoint und Konversion. `2^(-6/7) = 0.552`</li><li>Abstand von 9 Tagen zwischen Paid Search-Touchpoint und Konversion. `2^(-9/7) = 0.41`</li>Die Normalisierung dieser Werte führt zu Folgendem:<ul><li>Display-Anzeige: 33,8 %, 16,88 Euro</li><li>E-Mail: 33,8 %, 16,88 Euro</li><li>Social Media: 18,6 %, 9,32 Euro</li><li>Paid Search: 13,8 %, 6,92 Euro</li></ul></li></ul> |
+| Erstkontakt | Besuch | 30 Tage | Die Attribution untersucht nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs in Höhe von 50 Euro zugeschrieben werden. |
+| Erstkontakt | Besucher | 30 Tage | Die Attribution untersucht alle drei Besuche. Paid Search kam zuerst, sodass Paid Search 100 % des Kaufs in Höhe von 50 Euro zugeschrieben werden. |
+| Linear | Besuch | 30 Tage | Die Gewichtung wird zwischen E-Mail und Display-Anzeige aufgeteilt. Beiden Kanälen werden jeweils 25 Euro zugeschrieben. |
+| Linear | Besucher | 30 Tage | Die Gewichtung wird zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt. Jedem Kanal werden für diesen Kauf 12,50 Euro zugeschrieben. |
+| J-förmig | Besucher | 30 Tage | Die Gewichtung wird zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt.<ul><li>Der Display-Anzeige werden 60 %, also 30 Euro, zugeschrieben.</li><li>Paid Search werden 20 %, also 10 Euro, zugeschrieben.</li><li>Die restlichen 20 % werden zwischen Social Media und E-Mail aufgeteilt (jeweils 5 Euro).</li></ul> |
+| Zeitverfall | Besucher | 30 Tage | <ul><li>Abstand von null Tagen zwischen Display-Touchpoint und Konversion. `2^(-0/7) = 1`</li><li>Abstand von null Tagen zwischen E-Mail-Touchpoint und Konversion. `2^(-0/7) = 1`</li><li>Abstand von sechs Tagen zwischen Social Media-Touchpoint und Konversion. `2^(-6/7) = 0.552`</li><li>Abstand von 9 Tagen zwischen Paid Search-Touchpoint und Konversion. `2^(-9/7) = 0.41`</li>Die Normalisierung dieser Werte führt zu Folgendem:<ul><li>Display-Anzeige: 33,8 %, 16,88 Euro</li><li>E-Mail: 33,8 %, 16,88 Euro</li><li>Social Media: 18,6 %, 9,32 Euro</li><li>Paid Search: 13,8 %, 6,92 Euro</li></ul></li></ul> |
 
 Konversionsereignisse, die in der Regel Ganzzahlen aufweisen, werden aufgeteilt, wenn die Gewichtung mehr als einem Kanal zugeschrieben wird. Wenn beispielsweise zwei Kanäle mit einem linearen Attributionsmodell zu einer Bestellung beitragen, erhalten beide Kanäle 0,5 dieser Bestellung. Diese Teilmetriken werden über alle Personen summiert und dann zur Berichterstellung auf die nächste Ganzzahl gerundet.
 
@@ -187,3 +187,21 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 | Angewendeter Datumsbereich | Beschreibung |
 |---|---|
 | ![Datumsbereich](/help/assets/filter-daterange.png){width="300"} | Im Abschnitt „Angewendeter Datumsbereich“ können Sie nach einem Datumsbereich filtern, der auf die Elemente anwendbar ist.<ol><li>Wählen Sie einen Datumsbereich aus.</li><li>Definieren Sie im Kalender-Popup einen Datumsbereich oder wählen Sie eine der verfügbaren Voreinstellungen aus.<br>Alternativ können Sie einen Datumsbereich auch direkt im Abschnitt „Datumsbereich“ des Panels „Filter“ angeben.</li></ol><ul><li>Die Zahlen geben Folgendes an:<ul><li>**(1)**: Die Anzahl der geänderten Datumsbereiche, die von den Standardvorgaben geändert wurden.</li><li>**5︎⃣**: Die Anzahl der Datumsbereiche, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li></ul> |
+
+
+## Einstellung des Classification Importers {#classification-importer-deprecation}
+
+>[!WARNING]
+>
+>Das Classification Importer wird nicht mehr unterstützt und ist nach dem 31. **2026 nicht mehr**. Wechseln Sie zum Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um den Fortbestand der Funktionalität sicherzustellen.
+>
+
+
+
+## Einstellung des Classification Rule Builders {#classification-rulebuilder-deprecation}
+
+>[!WARNING]
+>
+>Der Classification Rule Builder wird nicht mehr unterstützt und ist nach dem 31. **2026 nicht mehr**. Wechseln Sie zum Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um den Fortbestand der Funktionalität sicherzustellen.
+>
+

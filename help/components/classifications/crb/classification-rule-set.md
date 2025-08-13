@@ -3,7 +3,7 @@ description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine b
 title: Klassifizierungsregelsätze
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 89%
@@ -11,6 +11,8 @@ ht-degree: 89%
 ---
 
 # Klassifizierungsregelsätze (veraltet)
+
+{{classification-rulebuilder-deprecation}}
 
 *Auf dieser Seite werden Klassifizierungsregelsätze als Teil des [Classification Rule Builders“ ](classification-rule-builder.md). Unter [Klassifizierungssätze](../sets/overview.md) finden Sie die aktuelle Methode zur Klassifizierung von Daten in Adobe Analytics.*
 

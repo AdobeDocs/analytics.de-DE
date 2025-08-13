@@ -3,14 +3,16 @@ description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige
 title: Unterklassifizierungen
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 # Unterklassifizierungen
+
+{{classification-importer-deprecation}}
 
 Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
 

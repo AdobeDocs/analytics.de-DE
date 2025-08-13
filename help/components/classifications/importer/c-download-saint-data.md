@@ -3,7 +3,7 @@ description: (Optional) Vor dem Importieren von Classifications in Marketingberi
 title: Klassifizierungsvorlage
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # Klassifizierungsvorlage (veraltet)
+
+{{classification-importer-deprecation}}
 
 (Optional) Vor dem Importieren von Klassifizierungen in Marketing-Berichte können Sie eine Vorlage herunterladen, um eine Klassifizierungsdatendatei zu erstellen. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
 

@@ -3,7 +3,7 @@ title: Export von Klassifizierungsdaten über FTP
 description: Der FTP-Export bietet mehr Flexibilität beim Herunterladen von Datensätzen, z. B. die Fähigkeit, Daten aus mehreren Report Suites oder Datensatzdatein mit mehr als 50.000 Datenzeilen herunterzuladen.
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # FTP-Export (veraltet)
+
+{{classification-importer-deprecation}}
 
 Die FTP-Option bietet mehr Flexibilität beim Herunterladen von Datensätzen, z. B. die Fähigkeit, Daten aus mehreren Report Suites oder Datensatzdateien mit über 50.000 Datenzeilen herunterzuladen. Erstellen Sie vor dem Herunterladen von Klassifizierungsdaten via FTP ein FTP-Konto.
 

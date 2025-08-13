@@ -3,7 +3,7 @@ description: Definitionen der Elemente auf den Seiten im Classification Rule Bui
 title: Klassifizierungsregeln – Definitionen
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 94%
@@ -11,6 +11,8 @@ ht-degree: 94%
 ---
 
 # Klassifizierungsregeldefinitionen (veraltet)
+
+{{classification-rulebuilder-deprecation}}
 
 Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 

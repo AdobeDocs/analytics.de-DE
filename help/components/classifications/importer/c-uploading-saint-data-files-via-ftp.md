@@ -3,7 +3,7 @@ description: Hochladen von Datendateien über FTP.
 title: FTP-Import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 72%
@@ -11,6 +11,8 @@ ht-degree: 72%
 ---
 
 # FTP-Import (veraltet)
+
+{{classification-importer-deprecation}}
 
 >[!IMPORTANT]
 >

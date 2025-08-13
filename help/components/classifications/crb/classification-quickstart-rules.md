@@ -3,7 +3,7 @@ description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. 
 title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # Klassifizierungsregeln (veraltet)
+
+{{classification-rulebuilder-deprecation}}
 
 Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
 
@@ -57,7 +59,7 @@ about_classification_rules.xml
 
 ## Wichtige Informationen zu Regeln
 
-* Geben Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Klassifizierungen in &quot;[!UICONTROL &#x200B; Tools“ &#x200B;].
+* Geben Sie [Gruppenberechtigungen](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=de) für Klassifizierungen in &quot;[!UICONTROL  Tools“ ].
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -133,7 +135,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
+| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
 
 **Syntax**
 

@@ -3,7 +3,7 @@ description: Mit dem Importeur können Sie Classification-Daten in großen Menge
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # Klassifizierungsdatendateien (veraltet)
+
+{{classification-importer-deprecation}}
 
 Mit dem Importeur können Sie Classification-Daten in großen Mengen in Form einer Classification-Datendatei in die Analytics-Berichterstellung hochladen. Für den Import ist ein besonderes Dateiformat erforderlich, damit die Daten erfolgreich hochgeladen werden.
 
