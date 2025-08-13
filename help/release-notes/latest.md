@@ -3,39 +3,41 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: 07d6b4e096d239d4940f438c5eca46f496a18131
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 42%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Version Mai 2025)
+# Aktuelle Adobe Analytics-Versionshinweise (Version August 2025)
 
-**Letzte Aktualisierung**: 30. Juli 2025
+**Letzte Aktualisierung**: Donnerstag, 13. August 2025
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 7. Juli bis 15. August 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise decken den Veröffentlichungszeitraum vom 13. August bis zum 16. September 2025 ab. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion | Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Livestream-TNT-Felder mit Algorithmen** | Livestream wird derzeit aktualisiert, um sicherzustellen, dass die Technologie weiterhin modern und stabil ist. Im Rahmen dieser Aktualisierung beginnen wir mit der Integration des TNT-Felds in die Livestream-Ausgabe, wenn Ihr TNT-Feld einen Algorithmus enthält. Dies umfasst jedoch nur die zuvor unterstützten Elemente: `campaignId`, `recipeId`, `trafficType`, `actionId` und `actionName`. Das allgemeine TNT-Schema für Livestream bleibt unverändert. |   | &#x200B;7. Juli 2025 |
-| **Aktualisierte Navigation zur Benutzeroberfläche für Kundenattribute** | Die Benutzeroberfläche für Kundenattribute ist jetzt direkt über die Anwendungsauswahl in Adobe Experience Cloud zugänglich. Wählen Sie **[!UICONTROL Kundenattribute]** aus dem Dropdown-Menü aus (anstatt zu [!UICONTROL Personen] > [!UICONTROL Kundenattribute] zu gehen) und aktualisieren Sie Ihre Lesezeichen.  Die Aktualisierung enthält einige Verbesserungen an der Benutzeroberfläche. | &#x200B;1. Juli 2025 | &#x200B;31. Juli 2025 |
+| **Analysieren des KI-Traffics mit einem neuen Dimensionselement „Referrer-Typ“** | Im Oktober wird ein neues Dimensionselement Referrer-Typ zur Verfügung stehen, um den Traffic zu analysieren, der von KI-Tools stammt. <p>Dieses neue Dimensionselement vom Typ „Referrer“ namens Conversational AI-Tools gruppiert verweisende Domains der wichtigsten KI-Tools und ermöglicht es Ihnen, Trends für die Gruppe als Ganzes zu betrachten. Die anfängliche Liste der verweisenden Domains in dieser neuen Kategorie umfasst (ist jedoch nicht auf beschränkt auf):</p><ul><li>chatgpt.com</li><li>claude.ai</li><li>m365.cloud.microsoft</li><li>grok.com</li><li>gemini.google.com</li><li>perplexity.ai</li></ul><p>Das neue Dimensionselement ist in allen Adobe Analytics-bezogenen Tools verfügbar, einschließlich Analysis Workspace, Report Builder, Data Warehouse, Daten-Feeds usw.</p><p>Beachten Sie bei der Verwendung dieses neuen Dimensionselements Folgendes:</p><ul><li>Es ist nicht immer möglich, Referrer-Traffic zu unterscheiden, der aus Ergebnissen stammt, die im „KI-Modus“ einer Suchmaschine bereitgestellt wurden, im Vergleich zu Ergebnissen, die aus Clickthroughs aus herkömmlichen Suchergebnissen stammen.</li><li>Das neue Dimensionselement der Conversational AI-Tools konzentriert sich auf die wichtigsten Anbieter mit dem meisten Traffic. Ein neuer Trend zeigt eine steigende Anzahl von Stellvertreter-Sites mit Domains, die den wichtigsten KI-Tool-Anbietern ähneln. Dies liegt wahrscheinlich daran, dass Einzelpersonen oder Gruppen ihre eigenen KI-Tools erstellen und im Internet hosten können. Da sich dieser Bereich schnell weiterentwickelt, wenden Sie sich an das Adobe-Supportteam, wenn Sie feststellen, dass eine beliebte Website nicht enthalten ist.</li><li>Die Dimension Referrer-Typ , einschließlich des neuen Dimensionselements „Conversational AI-Tools“, ist nur für Daten verfügbar, die von Adobe Analytics verarbeitet werden. </li></ul><p>(Link zur Dokumentation folgt.)</p> |   | Oktober 2025 |
+| **Als PDF heruntergeladene Projekte werden auf Ihre Workstation heruntergeladen** | Beim Herunterladen eines Projekts als PDF wird die PDF in den Ordner „Downloads“ auf Ihrer Workstation heruntergeladen. <p>Beim Herunterladen eines Projekts als PDF wurde PDF zuvor in einer neuen Browser-Registerkarte mit einer eindeutigen URL gestartet.</p><p>Weitere Informationen finden Sie unter [Herunterladen von Projekten und Daten](/help/analyze/analysis-workspace/curate-share/download-send.md)</p> |  | Dienstag, 25. August 2025 |
+| **Gelöschte Projekte sind per URL sofort nicht mehr verfügbar und werden aus terminierten Sendungen gelöscht** | Gelöschte Projekte werden sofort aus den geplanten Sendungen gelöscht und sind über ihre URL nicht mehr zugänglich.<p>Zuvor waren Projekte in geplante Sendungen eingeschlossen und konnten nach dem Löschen 60 Tage lang über die URL aufgerufen werden.</p><p>Weitere Informationen zum Löschen von Projekten finden Sie unter [Projekte - Übersicht](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p> | | Ende August 2025 |
+| **Streaming-Medien: Aktualisierte XDM-Felder zum Erfassen von Streaming-Mediendaten in Adobe Experience Platform** | Beim Erfassen von Streaming-Mediendaten in Adobe Experience Platform sollten die XDM-Feldpfade unter der Überschrift „XDM-Feldpfad“ in der Dokumentation zu den Streaming-Medienparametern nicht mehr verwendet werden. Stattdessen müssen Kundinnen und Kunden, die den Analytics-Quell-Connector implementiert haben, um Streaming-Mediendaten in Platform vor dem 9. Mai 2025 zu erfassen, ihre vorhandenen Konfigurationen in die mediaReporting-Feldpfade migrieren, wie unter der Überschrift „XDM-Feldpfad für Berichterstellung“ der Dokumentation zu Streaming-Medienparametern gezeigt.<p> Diese Feldpfade befinden sich auf den folgenden Seiten und sind als „Veraltet“ gekennzeichnet: [Audio- und Videoparameter](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/audio-video-parameters), [Anzeigenparameter](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/ad-parameters), [Kapitelparameter](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/chapter-parameters), [Player-](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/player-state-parameters) und [Qualitätsparameter](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/quality-parameters). (Für Kunden, die den Analytics-Quell-Connector nach dem 9. Mai 2025 implementieren und bereits nur XDM-Pfade für mediaReporting verwenden, ist keine Aktion erforderlich.)</p><p>Die Datenaufnahme in den veralteten XDM-Feldpfaden wird bis Ende Oktober 2025 fortgesetzt. Nach diesem Zeitpunkt werden veraltete Feldpfade vollständig entfernt und nicht mehr in der Adobe Experience Platform-Schema-Benutzeroberfläche angezeigt. Daten werden nur noch über die MediaReporting-Feldpfade gesendet.</p><p>Weitere Informationen finden Sie unter [ einer Analytics Source Connector-Implementierung in aktualisierte XDM Streaming Media-Felder](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields).</p><p>Wenden Sie sich an Ihren Adobe Consulting-Service oder Ihr Account-Team, um Unterstützung bei der Migration zu erhalten. </p> |  | Oktober 2025 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
-**Activity Map**: AN-360987
-**Analysis Workspace**: AN-378094; AN-380979; AN-382908; AN-387652;
-**Klassifizierungen**: AN-382412; AN-383157; AN-384616; AN-384803; AN-385933; AN-387320; AN-387351; AN-387832; AN-387833; AN-387839; AN-387915;
-**Datenerfassung**: AN-387661
-**Daten-Feeds**: AN-375172; AN-384369; AN-387859; AN-387952; AN-388155;
-**Platform**: AN-382813; AN-386627; AN-386815
-**Datenschutz**: AN-384390
-**Report Builder**: AN-388035
-**Reporting**: AN-380441
-**Geplante Berichte**: AN-378280; AN-378331
-**Segmentvergleich**: AN-368766
+**Activity Map**: AN-389205; AN-384186
+**Analysis Workspace**: AN-390102; AN-389066; AN-388841; AN-388687; AN-388478; AN-387089; AN-387044; AN-384560; AN-379213; AN-351639
+**Klassifizierungen** AN-390442; AN-390385; AN-389953; AN-389703; AN-389321; AN-389116; AN-388833; AN-388717; AN-387987; AN-383329
+**Datenerfassung**: AN-389320
+**Daten-Feeds und Data Warehouse**: AN-389702; AN-388136; AN-387779; AN-384369; AN-383075; AN-380307
+**Datenschutz**:
+**Report Builder**: AN-389336; AN-382775
+**Reporting**: AN-390398
+**Terminierte Berichte**:
+**Segmentvergleich**:
+**Sonstige**: AN-388180; AN-383164; AN-366532
 
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
