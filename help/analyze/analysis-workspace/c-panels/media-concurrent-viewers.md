@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Gleichzeitige Medienbetrachter“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Gleichzeitige Medienbetrachter“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Um die Datenquelle
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Panel Verbrachte Zeit bei der Medienwiedergabe](media-playback-time-spent.md)
->>[Panel Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md)
+>&#x200B;>[Panel Verbrachte Zeit bei der Medienwiedergabe](media-playback-time-spent.md)
+>&#x200B;>[Panel Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
