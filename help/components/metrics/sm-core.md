@@ -1,20 +1,20 @@
 ---
-title: Kernmetriken für Streaming-Medien
+title: Kernmetriken für Streaming-Mediendienste
 description: Verfügbare Metriken bei Aktivierung von [!UICONTROL Media Core] für eine Report Suite.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
 
-# Kernmetriken für Streaming-Medien
+# Kernmetriken für Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Metriken beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Siehe [Kerndimensionen von Streaming-Medien](../dimensions/sm-core.md) für verfügbare Dimensionen.*
+*Auf dieser Seite werden die verfügbaren Metriken beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Verfügbare Dimensionen finden Sie [Kerndimensionen ](../dimensions/sm-core.md) Streaming-Mediendienste)*
 
-Kernmetriken für Streaming-Medien bieten grundlegende Reporting-Funktionen für Daten, die über Streaming-Mediensammlungsbibliotheken erfasst werden. Für die Verwendung dieser Metriken ist die Sammlung **[!UICONTROL Adobe-Streaming-Medien erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Kernmetriken für Streaming-Mediendienste bieten grundlegende Reporting-Funktionen für Daten, die über Sammlungsbibliotheken von Streaming-Mediendiensten erfasst werden. Für die Verwendung dieser Metriken ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 Wenn Sie **[!UICONTROL Media Core]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Metriken verfügbar:
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie das Bedienfeld „Gleichzeitige Medienbetrach
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 98%
+source-wordcount: '1241'
+ht-degree: 95%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Gleichzeitige Medienbetrachter“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Gleichzeitige Medienbetrachter“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Das Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“ ist nur für Kundinnen und Kunden verfügbar, die das Add-on zur Streaming-Mediensammlung für Adobe Analytics gekauft haben.
+>Das Bedienfeld „Medien-Zielgruppendurchschnitt pro Minute“ ist nur für Kunden verfügbar, die das Add-on „Adobe Analytics for Streaming Media“ erworben haben.
 >
->Wenden Sie sich an Ihren Adobe-Vertriebskontakt oder Ihr Adobe-Accountteam, um weitere Informationen zu erhalten.
+>Wenden Sie sich an Ihren Adobe-Vertriebskontakt oder Ihr Adobe-Acountteam, um weitere Informationen zu erhalten.
 >
 
 Das Panel **[!UICONTROL Gleichzeitige Medienbetrachter]** ermöglicht die Analyse von gleichzeitigen Betrachtenden im Zeitverlauf, mit Details zum maximalen gleichzeitigen Zugriff sowie der Möglichkeit von Aufschlüsselungen und Vergleichen.
@@ -56,7 +56,7 @@ In Analysis Workspace umfasst die Metrik „Gleichzeitige Betrachter“ die Anza
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel Gleichzeitige Medienbetrachter](https://video.tv.adobe.com/v/343542?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel Gleichzeitige Medienbetrachter](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ So verwenden Sie das Panel **[!UICONTROL Gleichzeitige Medienbetrachter]**:
 
 1. Erstellen Sie ein Panel **[!UICONTROL Gleichzeitige Medienbetrachter]**. Informationen zum Erstellen eines Bedienfelds finden Sie unter [Erstellen eines Bedienfelds](panels.md#create-a-panel).
 
-1. Stellen Sie sicher, dass Sie eine Datenansicht für das Panel auswählen, in der Komponenten aus der Streaming-Mediensammlung konfiguriert sind.
+1. Stellen Sie sicher, dass Sie eine Datenansicht für das Bedienfeld auswählen, in dem Komponenten über das Add-on Adobe Analytics für Streaming-Medien konfiguriert sind.
 
 1. Legen Sie die [Eingabe](#panel-input) für das Bedienfeld fest.
 
@@ -131,8 +131,8 @@ Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Um die Datenquelle
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Verbrachte Zeit bei der Medienwiedergabe](media-playback-time-spent.md)
->&#x200B;>[Panel Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md)
+>>[Panel Verbrachte Zeit bei der Medienwiedergabe](media-playback-time-spent.md)
+>>[Panel Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/343542/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

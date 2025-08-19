@@ -3,18 +3,18 @@ title: Streaming-Medien-Kapiteldimensionen
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Medienkapitel] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 13%
 
 ---
 
-# Streaming-Medien-Kapiteldimensionen
+# Kapiteldimensionen für Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienkapitel] für eine Report Suite aktivieren. Unter [Metriken für Streaming-Medien](../metrics/sm-chapters.md) finden Sie verfügbare Metriken.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienkapitel] für eine Report Suite aktivieren. Verfügbare Metriken finden [ unter ](../metrics/sm-chapters.md)Metriken zu Streaming-Mediendiensten“.*
 
-Streaming-Medien-Kapiteldimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediensammlungsbibliotheken. Für die Verwendung dieser Dimensionen ist die Sammlung **[!UICONTROL Adobe-Streaming-Medien erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Die Kapiteldimensionen für Streaming-Mediendienste bieten zusätzliche Berichtsfunktionen für die Datenerfassung über Streaming-Mediendienstbibliotheken. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 Wenn Sie **[!UICONTROL Medienkapitel]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, ist die folgende Dimension verfügbar:
 

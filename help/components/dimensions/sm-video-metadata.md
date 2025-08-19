@@ -1,20 +1,20 @@
 ---
-title: Metadatendimensionen von Streaming-Medien-Videos
+title: Dimensionen für Videometadaten von Streaming-Mediendiensten
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Videometadaten] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '247'
+ht-degree: 6%
 
 ---
 
-# Metadatendimensionen von Streaming-Medien-Videos
+# Dimensionen für Videometadaten von Streaming-Mediendiensten
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Videometadaten] für eine Report Suite aktivieren. Unter [Metriken zu Streaming-Medien-Video](../metrics/sm-video-metadata.md) finden Sie verfügbare Metriken.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Videometadaten] für eine Report Suite aktivieren. Unter [Metriken zu Videometadaten von Streaming](../metrics/sm-video-metadata.md)Mediendiensten finden Sie verfügbare Metriken.*
 
-Streaming-Medien und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediensammlungsbibliotheken. Für die Verwendung dieser Dimensionen ist die Sammlung **[!UICONTROL Adobe-Streaming-Medien erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Streaming-Mediendienste und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Sammlungsbibliotheken von Streaming-Mediendiensten. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 Wenn Sie **[!UICONTROL Videometadaten]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
 

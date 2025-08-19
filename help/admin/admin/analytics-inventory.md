@@ -4,10 +4,10 @@ title: Analytics-Inventar
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 21%
+source-wordcount: '1184'
+ht-degree: 20%
 
 ---
 
@@ -38,13 +38,13 @@ Das Ziel des Analytics-Inventars besteht darin, Ihnen bei der Beantwortung der f
 
    * Welche Report Suites sollten zuerst oder zuletzt aktualisiert werden?
 
-## Zugriffsberechtigungen
+## Berechtigungen
 
-Das Analytics-Inventar steht Benutzenden mit Adobe Analytics-Produktadministratorrechten in [Adobe Admin Console zur ](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+Das Analytics-Inventar steht Benutzenden mit Adobe Analytics-Produktadministratorrechten in [Adobe Admin Console zur ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
 ## Zugriff auf Analytics-Inventar
 
-1. Klicken Sie **&#x200B;**&#x200B;Menü **[!UICONTROL Admin]** auf Analytics-Inventar. Oder gehen Sie zu **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Analytics-Inventar]**.
+1. Klicken Sie **** Menü **[!UICONTROL Admin]** auf Analytics-Inventar. Oder gehen Sie zu **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Analytics-Inventar]**.
 
 ![analytics-inventory-menu](assets/an-inventory-menu.png)
 
@@ -81,7 +81,7 @@ In dieser ersten Version können Sie zusammenfassende Inventarnummern für Works
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Datenkonfiguration und -erfassung"
->abstract="In diesem Abschnitt wird die Anzahl der Report Suites in Ihrer Adobe Analytics-Umgebung sowie Ihr Zugriff auf Streaming-Medien angezeigt. "
+>abstract="In diesem Abschnitt wird die Anzahl der Report Suites in Ihrer Adobe Analytics-Umgebung sowie Ihr Zugriff auf Streaming-Mediendienste angezeigt."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,10 +112,10 @@ Die Antworten auf diese Fragen geben Ihnen eine gute Vorstellung davon, welche R
    | Vorkommnisse (letzte 90 Tage) | Die Metrik „Vorfälle“ zeigt die Anzahl der Treffer an, bei denen eine bestimmte Dimension festgelegt oder beibehalten wurde. Wie viele Treffer hat diese Report Suite in den letzten 90 Tagen erhalten? |
    | Metriken | Wie viele Metriken sind in dieser Report Suite definiert? |
    | Dimensionen | Wie viele Dimensionen sind in dieser Report Suite definiert? |
-   | Analytics for Target (A4T) aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für &quot;[ for Target“ ](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für &quot;[ for Target“ ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Marketing-Kanäle aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für (Marketing[Kanäle) ](https://experienceleague.adobe.com/de/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
-   | Source Connector aktiviert | Ist diese Report Suite für den [Adobe Analytics Source-Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Report Suite mithilfe des Analytics Source Connectors nach Customer Journey Analytics migriert werden? |
-   | Kalendertyp | [Standardmäßig ausgeblendet] Weitere Informationen finden Sie unter [Benutzerdefinierte Kalender](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Quell-Connector aktiviert | Ist diese Report Suite für den [Adobe Analytics Source-Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Report Suite mithilfe des Analytics Source Connectors nach Customer Journey Analytics migriert werden? |
+   | Kalendertyp | [Standardmäßig ausgeblendet] Weitere Informationen finden Sie unter [Benutzerdefinierte Kalender](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Dimensionen analysieren
 
@@ -132,7 +132,7 @@ Dieser Bildschirm bietet eine detaillierte Ansicht aller für eine bestimmte Rep
    | ID | Die Dimensions-ID. |
    | Typ | Der Typ der Dimension. Zu den möglichen Werten gehören Konversion, Traffic, Navigation, Traffic-Quellen, Kunden, Datum oder produktspezifische Adobe-Dimensionen wie AEM, Zielgruppe, Adobe Campaign, Mobile App usw. |
    | Beschreibung | Nicht alle Dimensionen haben Beschreibungen. |
-   | Source Connector aktiviert | Ist diese Dimension für den [Adobe Analytics Source-Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Dimension mithilfe des Analytics Source Connectors zu Customer Journey Analytics migriert werden? |
+   | Quell-Connector aktiviert | Ist diese Dimension für den [Adobe Analytics Source-Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Dimension mithilfe des Analytics Source Connectors zu Customer Journey Analytics migriert werden? |
 
 1. Bestimmen Sie, welche Dimensionen für die Migration zu CJA sinnvoll sind.
 
@@ -153,11 +153,11 @@ Dieser Bildschirm bietet eine detaillierte Ansicht aller Metriken, die für eine
    | ID | Die Metrik-ID. |
    | Typ | Der Typ der Metrik. Zu den möglichen Werten gehören Konversion, Traffic, Navigation, Traffic-Quellen, Kunden, Datum oder produktspezifische Adobe-Dimensionen wie AEM, Zielgruppe, Adobe Campaign, Mobile App usw. |
    | Beschreibung | Nicht alle Dimensionen haben Beschreibungen. |
-   | Source Connector aktiviert | Ist diese Metrik für den [Adobe Analytics Source Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Metrik mithilfe des Analytics Source Connectors nach Customer Journey Analytics migriert werden? |
+   | Quell-Connector aktiviert | Ist diese Metrik für den [Adobe Analytics Source Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Metrik mithilfe des Analytics Source Connectors nach Customer Journey Analytics migriert werden? |
 
 1. Bestimmen Sie, welche Metriken für die Migration zu CJA sinnvoll sind.
 
-### In CSV exportieren
+### Exportieren in CSV
 
 1. Um die Liste der Report Suites, Dimensionen oder Metriken in eine CSV-Datei zu exportieren, klicken Sie auf **[!UICONTROL In CSV exportieren]**.
 

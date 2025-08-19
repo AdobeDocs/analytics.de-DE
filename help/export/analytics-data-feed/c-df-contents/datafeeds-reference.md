@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3686'
 ht-degree: 66%
 
 ---
@@ -193,50 +193,50 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`va_finder_id`** | Eine numerische ID, die die Dimension [Erstkontaktkanal](/help/components/dimensions/first-touch-channel.md) identifiziert. Die Suche nach dieser ID finden Sie im Marketing-Kanal-Manager. | tinyint unsigniert |
 | **`va_instance_event`** | Eine Markierung, die den Marketing-Kanal [Instanzen](/help/components/metrics/instances.md) identifiziert. | tinyint unsigniert |
 | **`va_new_engagement`** | Eine Markierung, die den Marketing-Kanal [Neue Interaktionen](/help/components/metrics/new-engagements.md) identifiziert. | tinyint unsigniert |
-| **`video`** | Die Dimension [Inhalt](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
-| **`videoad`** | Die Dimension [Anzeige](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videoadinpod`** | Die Dimension [Anzeige in Pod-Position](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videoadlength`** | Die Dimension [Anzeigenlänge (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Medien . | Ganzzahl |
-| **`videoadload`** | Die Dimension [Anzeige lädt](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videoadname`** | Die Dimension [Anzeigename (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videoadplayername`** | Die Dimension [Anzeigenplayer-Name](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videoadpod`** | Die Dimension [Ad Pod](/help/components/dimensions/sm-ads.md) Streaming Media . | varchar(255) |
-| **`videoadvertiser`** | Die Dimension [Advertiser](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videoaudioalbum`** | Die Dimension [Album](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoaudioartist`** | Die Dimension [Interpret](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoaudioauthor`** | Die Dimension [Autor](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoaudiolabel`** | Die Dimension [Label](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoaudiopublisher`** | Die Dimension [Publisher](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoaudiostation`** | Die Dimension [Station](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videocampaign`** | Die Dimension [Kampagnen-ID](/help/components/dimensions/sm-ads.md) Streaming-Medien . | varchar(255) |
-| **`videochannel`** | Die Dimension [Inhaltskanal](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
-| **`videochapter`** | Die Dimension [Kapitel](/help/components/dimensions/sm-chapters.md) Streaming-Medien . | varchar(255) |
-| **`videocontenttype`** | Die Dimension [Content](/help/components/dimensions/sm-core.md)Typ: Streaming-Medien. | varchar(255) |
-| **`videodaypart`** | Die Dimension [Day-Teil](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoepisode`** | Die Dimension [Folge](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videofeedtype`** | Die Dimension [Medien-Feed](/help/components/dimensions/sm-video-metadata.md)Typ: Streaming-Medien. | varchar(255) |
-| **`videogenre`** | Die Dimension [Genre](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . Diese Dimension ermöglicht mehrere Werte im selben Treffer, getrennt durch ein Komma. | Text |
-| **`videolength`** | Die Dimension [Inhaltslänge (Variable)](/help/components/dimensions/sm-core.md) Streaming-Medien . | Ganzzahl |
-| **`videomvpd`** | Die Dimension [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoname`** | Die Dimension [Inhaltsname (Variable)](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
-| **`videonetwork`** | Die Dimension [Netzwerk](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videopath`** | Die Dimension [Medienpfad](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(100) |
-| **`videoplayername`** | Die Dimension [Name des Content](/help/components/dimensions/sm-core.md)Players“ für Streaming-Medien. | varchar(255) |
-| **`videotime`** | Die Metrik [Besuchszeit für Inhalt](/help/components/metrics/sm-core.md) Streaming-Medien . | Ganzzahl |
-| **`videoqoebitrateaverageevar`** | Die Dimension [Durchschnittliche Bitrate](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
-| **`videoqoebitratechangecountevar`** | Die Dimension [Bitratenänderungen](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
-| **`videoqoebuffercountevar`** | Die Dimension [Pufferereignisse](/help/components/dimensions/sm-quality.md) Streaming-Medien. | varchar(255) |
-| **`videoqoebuffertimeevar`** | Die Dimension [Gesamtpufferdauer](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
-| **`videoqoedroppedframecountevar`** | Die Dimension [Abgelegte Frames](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
-| **`videoqoeerrorcountevar`** | Die Dimension [Fehler](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
-| **`videoqoeextneralerrors`** | Die Dimension [Externe Fehler-IDs](/help/components/dimensions/sm-quality.md) Streaming-Medien . Diese Dimension ermöglicht mehrere Werte im selben Treffer. | Text |
-| **`videoqoeplayersdkerrors`** | Die Dimension [Player-SDK-Fehler](/help/components/dimensions/sm-quality.md)IDs: Streaming-Medien . Diese Dimension ermöglicht mehrere Werte im selben Treffer. | Text |
-| **`videoqoetimetostartevar`** | Die Dimension [Startzeit](/help/components/dimensions/sm-quality.md) Streaming-Medien . | varchar(255) |
-| **`videoseason`** | Die Dimension [Staffel](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videosegment`** | Die Dimension [Inhaltssegment](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
-| **`videoshow`** | Die Dimension [Anzeigen](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien . | varchar(255) |
-| **`videoshowtype`** | Die Dimension [Sendungstyp](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien. | varchar(255) |
-| **`videostreamtype`** | Die Dimension [Stream-Typ](/help/components/dimensions/sm-core.md) Streaming-Medien . | varchar(255) |
+| **`video`** | Die Dimension [Inhalt](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoad`** | Die Dimension [Anzeige](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoadinpod`** | Die Dimension [Anzeige in Pod-Position](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoadlength`** | Die Dimension [Anzeigenlänge (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste . | Ganzzahl |
+| **`videoadload`** | Die Dimension [Anzeige lädt](/help/components/dimensions/sm-ads.md) Streaming-Medien-Services . | varchar(255) |
+| **`videoadname`** | Die Dimension [Anzeigename (Variable)](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoadplayername`** | Die Dimension [Anzeigenplayer-Name](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoadpod`** | Die Dimension [Ad-Pod](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoadvertiser`** | Die Dimension [Advertiser](/help/components/dimensions/sm-ads.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoaudioalbum`** | Die Dimension [Album](/help/components/dimensions/sm-audio-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoaudioartist`** | Die Dimension [Interpret](/help/components/dimensions/sm-audio-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoaudioauthor`** | Die Dimension [Autor](/help/components/dimensions/sm-audio-metadata.md) Streaming-Medien-Services . | varchar(255) |
+| **`videoaudiolabel`** | Die Dimension [Label](/help/components/dimensions/sm-audio-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoaudiopublisher`** | Die Dimension [Publisher](/help/components/dimensions/sm-audio-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoaudiostation`** | Die Dimension [Station](/help/components/dimensions/sm-audio-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videocampaign`** | Die Dimension [Kampagnen](/help/components/dimensions/sm-ads.md)ID) Streaming-Mediendienste . | varchar(255) |
+| **`videochannel`** | Die Dimension [Inhaltskanal](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(255) |
+| **`videochapter`** | Die Dimension [Kapitel](/help/components/dimensions/sm-chapters.md) Streaming-Mediendienste . | varchar(255) |
+| **`videocontenttype`** | Die Dimension [Content](/help/components/dimensions/sm-core.md)Typ: Streaming-Mediendienste. | varchar(255) |
+| **`videodaypart`** | Die Dimension [Day-Teil](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoepisode`** | Die Dimension [Episode](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videofeedtype`** | Die Dimension [Medien-Feed-Typ](/help/components/dimensions/sm-video-metadata.md) Streaming-Medien-Services . | varchar(255) |
+| **`videogenre`** | Die Dimension [Genre](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste. Diese Dimension ermöglicht mehrere Werte im selben Treffer, getrennt durch ein Komma. | Text |
+| **`videolength`** | Die Dimension [Inhaltslänge (Variable)](/help/components/dimensions/sm-core.md) Streaming-Mediendienste . | Ganzzahl |
+| **`videomvpd`** | Die Dimension [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoname`** | Die Dimension [Inhaltsname (Variable)](/help/components/dimensions/sm-core.md) Streaming-Mediendienste . | varchar(255) |
+| **`videonetwork`** | Die Dimension [Netzwerk](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videopath`** | Die Dimension [Medienpfad](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(100) |
+| **`videoplayername`** | Die [ „Name des Content](/help/components/dimensions/sm-core.md)Players“ für Streaming-Mediendienste. | varchar(255) |
+| **`videotime`** | Die Metrik [Besuchszeit für Inhalte](/help/components/metrics/sm-core.md) Streaming-Mediendienste. | Ganzzahl |
+| **`videoqoebitrateaverageevar`** | Die Dimension [Durchschnittliche Bitrate](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoqoebitratechangecountevar`** | Die Dimension [Bitratenänderungen](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoqoebuffercountevar`** | Die Dimension [Pufferereignisse](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoqoebuffertimeevar`** | Die Dimension [Gesamtpufferdauer](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoqoedroppedframecountevar`** | Die Dimension [Abgelegte Frames](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoqoeerrorcountevar`** | Die Dimension [Fehler](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoqoeextneralerrors`** | Die Dimension [Externe Fehler-IDs](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste . Diese Dimension ermöglicht mehrere Werte im selben Treffer. | Text |
+| **`videoqoeplayersdkerrors`** | Die Dimension [Player-SDK-Fehler](/help/components/dimensions/sm-quality.md)IDs: Streaming-Mediendienste . Diese Dimension ermöglicht mehrere Werte im selben Treffer. | Text |
+| **`videoqoetimetostartevar`** | Die Dimension [Zeit bis zum Start](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoseason`** | Die Dimension [Staffel](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videosegment`** | Die Dimension [Inhaltssegment](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(255) |
+| **`videoshow`** | Die Dimension [Anzeigen](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
+| **`videoshowtype`** | Die Dimension [Sendungstyp](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste. | varchar(255) |
+| **`videostreamtype`** | Die Dimension [Stream-Typ](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(255) |
 | **`visid_high`** | Wird mit `visid_low` zur eindeutigen Identifizierung von Besuchenden verwendet. | bigint unsigned |
 | **`visid_low`** | Wird mit `visid_high` zur eindeutigen Identifizierung von Besuchenden verwendet. | bigint unsigned |
 | **`visid_new`** | Eine Markierung, die bestimmt, ob der Treffer eine neu generierte Besucher-ID enthält. | char(1) |
@@ -410,4 +410,4 @@ Die folgende Liste von Spalten ist nicht verwendet, nicht mehr verwendet oder en
 >[!MORELIKETHIS]
 >
 >[XDM-Objektvariablenzuordnung](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)
+>>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)

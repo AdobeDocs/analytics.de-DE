@@ -3,9 +3,9 @@ title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 >
 >Benutzerdefinierte Variablennamen, Klassifizierungen und Besucherattribute werden in dieser Liste weggelassen. Diese Dimensionselemente sind spezifisch für einzelne Report Suites.
 
-## Unterstützte Dimensionen in Analysis Workspace
+## In Analysis Workspace unterstützte Dimensionen
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |---|---|
@@ -157,7 +157,7 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 
 ## Von Analysis Workspace unterstützte inhaltsbezogene Dimensionen
 
-### Video (die Sammlung von Streaming-Medien)
+### Video (Streaming-Mediendienste)
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |
@@ -209,7 +209,7 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 
 ### Adobe Social
 
-Adobe Social wurde eingestellt.
+Adobe Social ist eingestellt.
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
 |--- |--- |

@@ -4,7 +4,7 @@ title: Medienverwaltung
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 23%
@@ -21,7 +21,7 @@ Beim Bearbeiten einer Report Suite stehen die folgenden Medienverwaltungsoptione
 
 * [!UICONTROL **Medienberichte**]
 
-  Verwenden Sie diese Kontrollkästchen, um für die Streaming-Mediensammlung spezifische Dimensionen und Metriken zu aktivieren.
+  Aktivieren Sie diese Kontrollkästchen, um für Streaming-Mediendienste spezifische Dimensionen und Metriken zu aktivieren.
 
    * [Kerndimensionen der Medien](/help/components/dimensions/sm-core.md)
    * [Media Core-Metriken](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ Beim Bearbeiten einer Report Suite stehen die folgenden Medienverwaltungsoptione
 
 * [!UICONTROL **Medienklassifizierungen**]
 
-  Klassifizierungen, die für Streaming-Mediensammlungs-Dimensionen spezifisch sind, sind auf der Seite [!UICONTROL Medienklassifizierungen] verfügbar. Sie funktionieren ähnlich wie [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md), die für Konversionsvariablen verfügbar sind. Durch Aktivierung bestimmter Komponenten unter [!UICONTROL Medienberichte] werden automatisch Klassifizierungsdimensionen für Sie erstellt. Sie können diese Schnittstelle verwenden, um Ihre eigenen Klassifizierungsdimensionen zu erstellen oder Klassifizierungsdaten hochzuladen.
+  Klassifizierungen, die für Streaming-Medien-Services-Dimensionen spezifisch sind, sind auf der Seite [!UICONTROL Medien-Klassifizierungen] verfügbar. Sie funktionieren ähnlich wie [Konversionsklassifizierungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md), die für Konversionsvariablen verfügbar sind. Durch Aktivierung bestimmter Komponenten unter [!UICONTROL Medienberichte] werden automatisch Klassifizierungsdimensionen für Sie erstellt. Sie können diese Schnittstelle verwenden, um Ihre eigenen Klassifizierungsdimensionen zu erstellen oder Klassifizierungsdaten hochzuladen.
 
-Allgemeine Informationen zum Einbinden von Streaming-Mediendaten in Adobe Analytics finden Sie im [Handbuch zur Streaming-Mediensammlung](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
+Allgemeine Informationen zum Einbinden von Streaming-Mediendaten in Adobe Analytics finden Sie unter [Übersicht über Adobe-Streaming-Mediendienste](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).

@@ -1,20 +1,20 @@
 ---
-title: Kerndimensionen von Streaming-Medien
+title: Kerndimensionen der Streaming-Mediendienste
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 10%
+source-wordcount: '416'
+ht-degree: 9%
 
 ---
 
-# Kerndimensionen von Streaming-Medien
+# Kerndimensionen der Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Unter [Kernmetriken für Streaming-Medien](../metrics/sm-core.md) finden Sie verfügbare Metriken.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Verfügbare Metriken finden Sie [Kernmetriken ](../metrics/sm-core.md) Streaming-Mediendienste“.*
 
-Kerndimensionen für Streaming-Medien bieten grundlegende Reporting-Funktionen für Daten, die über Streaming-Mediensammlungsbibliotheken erfasst werden. Für die Verwendung dieser Dimensionen ist die Sammlung **[!UICONTROL Adobe-Streaming-Medien erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Die Kerndimensionen der Streaming-Mediendienste bieten grundlegende Reporting-Funktionen für Daten, die über Bibliotheken der Streaming-Mediendienste erfasst werden. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 Wenn Sie **[!UICONTROL Media Core]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
 

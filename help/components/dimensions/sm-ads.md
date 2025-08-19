@@ -1,20 +1,20 @@
 ---
-title: Anzeigendimensionen für Streaming-Medien
+title: Streaming-Mediendienste und -Dimensionen
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 15%
 
 ---
 
-# Anzeigendimensionen für Streaming-Medien
+# Streaming-Mediendienste und -Dimensionen
 
 *Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren. Unter [Metriken für Streaming-](../metrics/sm-ads.md)-Anzeigen“ finden Sie verfügbare Metriken.*
 
-Streaming-Medien und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediensammlungsbibliotheken. Für die Verwendung dieser Dimensionen ist die Sammlung **[!UICONTROL Adobe-Streaming-Medien erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Streaming-Mediendienste und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediendienste-Bibliotheken. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 Wenn Sie **[!UICONTROL Media Ads]** unter [Media-Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
 

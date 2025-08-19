@@ -1,24 +1,24 @@
 ---
-title: Qualitätsdimensionen von Streaming-Medien
+title: Qualitätsdimensionen der Streaming-Mediendienste
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Medienqualität] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
-# Qualitätsdimensionen von Streaming-Medien
+# Qualitätsdimensionen der Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienqualität] für eine Report Suite aktivieren. Unter [Qualitätsmetriken für Streaming-Medien](../metrics/sm-quality.md) finden Sie verfügbare Metriken.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienqualität] für eine Report Suite aktivieren. Unter [Qualitätsmetriken für Streaming](../metrics/sm-quality.md)Mediendienste) finden Sie verfügbare Metriken.*
 
-Qualitätsdimensionen von Streaming-Medien bieten Berichte in Bezug auf die Qualität der Inhalte, die der Besucher konsumiert. Für die Verwendung dieser Dimensionen ist die Sammlung [!UICONTROL Adobe-Streaming-Medien erforderlich]. Weitere Informationen erhalten Sie von Ihrem Adobe-Account-Team.
+Qualitätsdimensionen von Streaming-Mediendiensten bieten Berichte in Bezug auf die Qualität der Inhalte, die der Besucher konsumiert. Für die Verwendung dieser Dimensionen ist das Add[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 Wenn Sie **[!UICONTROL Medienqualität]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
 
-| Name der Dimension | Beschreibung | Gesendet mit | Kontextdatenvariable |
+| Dimensionsname | Beschreibung | Gesendet mit | Kontextdatenvariable |
 | --- | --- | --- | --- |
 | Durchschnittliche Bitrate | Die durchschnittliche Bitrate in Bucket-Intervallen von 100 Kbit/s. Er wird als gewichteter Durchschnitt aller Bitratenwerte in Bezug auf die Wiedergabedauer für eine bestimmte Wiedergabesitzung berechnet. | Schließen von Medien | `a.media.qoe.bitrateAverageBucket` |
 | Änderungen der Bitrate | Die Anzahl der Bitratenänderungen, die während einer Wiedergabesitzung aufgetreten sind. | Schließen von Medien | `a.media.qoe.bitrateChangeCount` |
