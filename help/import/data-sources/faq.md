@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen zu Datenquellen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
+source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 7%
 
 ---
 
@@ -20,28 +20,31 @@ Für Datenquellen fallen keine Gebühren an und sie werden auch nicht für die N
 +++
 
 +++Wie wirken sich Datenquellen auf die Attribution und den Ablauf von eVars aus?
-Wenn eine transactionID zwischen einer Datenquelle und einem Online-Treffer übereinstimmt, gehen die zugehörigen eVar-Werte von derselben Attribution und demselben Ablauf aus, als ob sie im Online-Treffer festgelegt worden wären.
-
-Alle anderen Daten, die über Datenquellen hochgeladen werden, haben keine Attribution oder Gültigkeit.
+Datenquellen verfügen über keine Attribution oder Gültigkeit.
 +++
 
-+++Wie wirken sich Datenquellen auf Standardmetriken aus, z. B. Seitenansichten, Besuche oder Unique Visitors?
++++Wie wirken sich Datenquellen auf Metriken wie Seitenansichten, Besuche oder Unique Visitors aus?
 Daten, die über Datenquellen hochgeladen wurden[ wirken sich in keiner Weise auf ](/help/components/metrics/page-views.md)Seitenansichten[ (](/help/components/metrics/visits.md)) oder [Unique Visitors](/help/components/metrics/unique-visitors.md) aus. Die einzige Standardmetrik, auf die sie sich auswirken, umfasst [Vorfälle](/help/components/metrics/occurrences.md).
 +++
 
-+++Kann ich Daten löschen, die mithilfe von Datenquellen importiert wurden?
++++Werden Daten, die über Datenquellen hochgeladen wurden, durch zusätzliche Verarbeitungsregeln wie Verarbeitungsregeln verarbeitet?
+Nein. Daten, die über Datenquellen hochgeladen wurden:
 
-Ja. Sie können diese Daten mithilfe der [Data Repair API“ ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Darüber hinaus empfiehlt Adobe dringend, Datenquellendaten in eine Test-Report-Suite hochzuladen, bevor Sie sie in eine Produktions-Report-Suite hochladen.
+* Durchläuft nicht [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+* Durchläuft nicht [Marketing-Kanal-Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* Durchläuft nicht [VISTA-Regeln](/help/technotes/vista.md)
++++
+
++++Kann ich Daten löschen, die mit Datenquellen importiert wurden?
+Ja. Sie können diese Daten mithilfe der [Data Repair API“ ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe empfiehlt dringend, Datenquellendaten in eine Test-Report-Suite hochzuladen, bevor Sie sie in eine Produktions-Report-Suite hochladen, um die Notwendigkeit zum Entfernen von Daten zu verringern.
 +++
 
 +++Wie viele Daten kann ich gleichzeitig importieren?
-
 Die Verarbeitung wird angehalten, wenn die Datenmenge 50 MB übersteigt, und wird erst fortgesetzt, wenn die Gesamtmenge unter 50 MB liegt. Stellen Sie sicher, dass die Gesamtgröße aller Dateien auf der FTP-Site weniger als 50 MB beträgt.
 +++
 
-+++Was passiert, wenn ich über Datenquellen negative Werte in Berichte übergebe?
-
-Der Wert wird entsprechend verringert. Einige Unternehmen verwenden negative Datenquellenwerte, um zu versuchen, Daten zu korrigieren. Negative Datenquellenwerte können sich auf Berichte in potenziell unerwünschter oder unerwarteter Weise auswirken. Adobe empfiehlt, negative Datenquellen nur als letztes Mittel zu verwenden.
++++Was passiert, wenn ich über Datenquellen negative Werte in Berichte einfüge?
+Der Wert wird entsprechend verringert. Einige Unternehmen verwenden negative Datenquellenwerte, um zu versuchen, Daten zu korrigieren. Negative Datenquellenwerte können sich auf Berichte in potenziell unerwünschter oder unerwarteter Weise auswirken. Adobe empfiehlt die Verwendung negativer Werte in Datenquellen nur als letztes Mittel.
 +++
 
 +++Wird bei Dateierweiterungen zwischen Groß- und Kleinschreibung unterschieden?
@@ -53,5 +56,5 @@ Sie können beliebig viele Spalten in eine Datenquellendatei einbeziehen, wenn e
 +++
 
 +++Kann ich Datenquellen verwenden, ohne den von Adobe bereitgestellten FTP-Speicherort zu verwenden?
-Sie können die [Datenquellen-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/) verwenden, mit der Sie API-Aufrufe direkt an Adobe senden können. Diese API-Aufrufe enthalten eine `UploadData`-Methode, mit der Sie Daten über eine JSON-Objekt-Payload senden können.
+Sie können die [Data Sources-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/) verwenden, mit der Sie API-Aufrufe direkt an Adobe senden können. Diese API-Aufrufe enthalten eine `UploadData`-Methode, mit der Sie Daten über eine JSON-Objekt-Payload senden können.
 +++
