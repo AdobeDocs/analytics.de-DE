@@ -4,10 +4,10 @@ title: Gesamt
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 81%
+source-wordcount: '496'
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ In Freiformtabellen wird auf jeder Unterteilungsebene eine Zeile insgesamt angez
 Unter ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Spalteneinstellungen]** finden Sie die Optionen **[!UICONTROL Summen anzeigen]** und **[!UICONTROL Gesamtsumme anzeigen]**. Wenn diese Einstellungen nicht aktiviert sind, werden Summen aus der Tabelle entfernt. In Fällen, in denen Summen nicht sinnvoll sind, kann dies durchaus erwünscht sein.
 
 
-Die Gesamtwerte für [statische Zeilen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) verhalten sich anders und werden unter ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Zeileneinstellungen]** gesteuert.
+In einer Freiformtabelle, die (statische [) enthält](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) verhalten sich Summen anders. und werden mithilfe von ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Zeileneinstellungen]**.
 
 | Option | Beschreibung |
 |---|---|
