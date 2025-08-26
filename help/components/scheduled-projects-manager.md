@@ -3,9 +3,9 @@ description: Informationen zum Verwalten geplanter Projekte.
 title: Geplante Projekte
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '795'
 ht-degree: 41%
 
 ---
@@ -59,7 +59,7 @@ Die folgenden Aktionen werden im Manager für geplante Projekte häufig ausgefü
 | Symbol | Aktion | Beschreibung |
 |:---:|---|---|
 | ![Schließen](/help/assets/icons/Close.svg) | **[!UICONTROL *x *ausgewählt]** | Wählen Sie aus, um die Auswahl der geplanten Projekte aufzuheben. |
-| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Die ausgewählten geplanten Projekte für das Projekt löschen; die Projekte werden nicht gelöscht. |
+| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Die ausgewählten geplanten Projekte für das Projekt löschen; die Projekte werden nicht gelöscht. <p>Informationen zum Löschen eines Projekts finden Sie unter [Projekte - Übersicht](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p> |
 | ![Bezeichnungen](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Markieren Sie die ausgewählten geplanten Projekte. Wählen Sie in **[!UICONTROL Geplante Projekte taggen]** und klicken Sie zum Speichern **[!UICONTROL Speichern]**. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten geplanten Projekte. |
 | ![CSV-Datei](/help/assets/icons/FileCSV.svg) | **[!UICONTROL In CSV exportieren]** | Exportieren Sie die ausgewählten geplanten Projekte in eine Datei mit dem Namen `Export Scheduled Projects List.csv`. |
