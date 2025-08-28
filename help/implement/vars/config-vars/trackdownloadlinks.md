@@ -4,14 +4,14 @@ description: Aktivieren oder deaktivieren Sie das automatische Linktracking für
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
-# trackDownLoadLinks
+# trackDownloadLinks
 
 Adobe bietet die Möglichkeit, Downloadlinks zu verfolgen, ohne die [`tl()`](../functions/tl-method.md)-Methode für jeden Downloadlink manuell festzulegen. Aktivieren Sie diese Variable, wenn Sie das automatische Linktracking für Downloadlinks verwenden möchten.
 
@@ -23,12 +23,12 @@ Verwenden Sie das [!UICONTROL Aktivieren der Klick-Datenerfassung] beim Konfigur
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
-1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf das Kontrollkästchen **[!UICONTROL Aktivieren]** Datenerfassung“.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren[!UICONTROL .]
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf das Kontrollkästchen **[!UICONTROL Aktivieren]** Datenerfassung“.
 
 ## Aktivieren oder Deaktivieren der Klick-Sammlung Manuelles Implementieren der Web-SDK
 
-Konfigurieren Sie die SDK mithilfe von [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de#clickCollectionEnabled). Bei dem Feld handelt es sich um einen booleschen Wert, der bestimmt, ob mit Link-Klicks verknüpfte Daten automatisch erfasst werden. Der Standardwert lautet `true`. Legen Sie diesen Wert auf `false` fest, wenn Sie die automatische Link-Überwachung deaktivieren möchten. Diese Einstellung behandelt die automatische Linkverfolgung für Download- und Exitlinks.
+Konfigurieren Sie die SDK mithilfe von [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Bei dem Feld handelt es sich um einen booleschen Wert, der bestimmt, ob mit Link-Klicks verknüpfte Daten automatisch erfasst werden. Der Standardwert lautet `true`. Legen Sie diesen Wert auf `false` fest, wenn Sie die automatische Link-Überwachung deaktivieren möchten. Diese Einstellung behandelt die automatische Linkverfolgung für Download- und Exitlinks.
 
 ```json
 alloy("configure", {
@@ -49,7 +49,7 @@ Aktivieren Sie das Kontrollkästchen, um das automatische Tracking von Downloadl
 
 ## s.trackDownloadLinks in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-`s.trackDownloadLinks` ist ein boolescher Wert, der das automatische Tracking von Downloadlinks aktiviert oder deaktiviert. Wenn Sie Downloadlinks nicht verfolgen oder die `tl()`-Methode zum Tracking von Downloads lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`.
+`s.trackDownloadLinks` ist ein boolescher Wert, der das automatische Tracking von Downloadlinks aktiviert oder deaktiviert. Wenn Sie keine Download-Links verfolgen möchten oder die `tl()`-Methode zum Tracking von Downloads lieber manuell aufrufen möchten, setzen Sie diese Variable auf `false`. Die Variable [linkDownloadFileTypes](linkdownloadfiletypes.md) muss ebenfalls festgelegt werden, damit das automatische Tracking von Downloadlinks funktioniert.
 
 ```js
 s.trackDownloadLinks = true;
