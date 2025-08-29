@@ -4,10 +4,10 @@ keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1463'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,19 @@ Häufig gestellte Fragen zu Daten-Feeds.
 
 ## Müssen Feed-Namen eindeutig sein? {#unique}
 
-Datenfeed-Dateinamen umfassen die Report Suite-ID und das Datum. Zwei Feeds, die für dieselbe RSID und denselben Termin bzw. dieselben Termine konfiguriert sind, haben denselben Dateinamen. Wenn diese Feeds in dasselbe Verzeichnis gesendet werden, überschreibt eine Datei die andere. Um das Überschreiben einer Datei zu verhindern, können Sie keinen Feed erstellen, der einen vorhandenen Feed im selben Verzeichnis überschreiben könnte.
+Adobe Analytics verhindert nicht das Überschreiben von Daten-Feed-Dateien.
 
-Der Versuch, einen Feed zu erstellen, wenn ein anderer mit demselben Dateinamen existiert, führt zu einer Fehlermeldung. Sehen Sie sich folgende alternative Wege an:
+Um zu verhindern, dass Daten-Feed-Dateien überschrieben werden, empfehlen wir, dass alle Daten-Feed-Dateien, die an denselben Speicherort gesendet werden, eindeutige Dateinamen haben.
+
+Daten-Feed-Dateinamen bestehen aus den folgenden Daten-Feed-Merkmalen:
+
+* Report Suite-ID (RSID)
+
+* Exportdatum
+
+Zwei Feeds, die für dieselbe RSID und dasselbe Datum konfiguriert sind, haben denselben Dateinamen. Wenn diese Feeds an denselben Speicherort bereitgestellt werden, überschreibt eine Datei die andere.
+
+Um das Überschreiben einer Datei zu verhindern, sollten Sie die folgenden Problemumgehungen in Betracht ziehen:
 
 * Bereitstellungspfad ändern
 * Termine ändern, falls möglich
@@ -67,11 +77,11 @@ Beispiel: Am 9. März 2021 wird ein neuer Daten-Feed erstellt. Die Daten vom 1.
 
 ## Welche Auswirkungen hat die Sommerzeit auf stündliche Daten-Feeds? {#dst}
 
-Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (normalerweise um 2:00 Uhr morgens).
+Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (in der Regel um 2 :00 Uhr morgens).
 
-Bei der Umstellung von Normalzeit auf Sommerzeit (im Frühling) erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Beispiel: Wenn die Umstellung um 2:00 Uhr erfolgt, erhalten die Kunden eine Datei für 1:00 Uhr und eine Datei für 3:00 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit während der Sommerzeit 3:00 Uhr entspricht.
+Bei der Umstellung von Normalzeit auf Sommerzeit (im Frühling) erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn die Umstellung beispielsweise um 2 Uhr morgens erfolgt, erhalten sie eine Datei für die :00 Stunde und eine Datei für die 3:00 Stunde. Es gibt keine 2:00-Datei, da sie bei 2:00 STD zu 3:00 DST wird.
 
-Bei der Umstellung von Sommerzeit auf Normalzeit (im Herbst) erhält der Kunde 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt zwei Stunden. Beispiel: Wenn die Umstellung um 2:00 Uhr erfolgt, erhalten die Kunden die Datei für 1:00 Uhr eine Stunde später, diese umfasst jedoch Daten für insgesamt zwei Stunden: nämlich Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr Sommerzeit entspricht). Die nächste Datei beginnt um 2:00 Uhr Normalzeit.
+Bei der Umstellung von Sommerzeit auf Normalzeit (im Herbst) erhält der Kunde 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt zwei Stunden. Wenn die Umstellung beispielsweise um 2:00 :00 erfolgt, wird die Datei für 1::00 um eine Stunde verzögert, sie enthält jedoch Daten für zwei Stunden. Es enthält Daten von 1:00 DST bis 2:00 STD (was 3:00 DST gewesen wäre). Die nächste Datei beginnt um 2:00 STD.
 
 ## Wie behandelt Analytics FTP-Übertragungsfehler? {#ftp-failure}
 

@@ -3,10 +3,10 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
-ht-degree: 54%
+source-wordcount: '4128'
+ht-degree: 53%
 
 ---
 
@@ -33,7 +33,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Name**] | Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein. Er kann bis zu 255 Zeichen enthalten. |
+   | [!UICONTROL **Name**] | Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein und kann bis zu 255 Zeichen lang sein. [Weitere Informationen](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **Report Suite**] | Die Report Suite, auf der der Daten-Feed basiert. Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, müssen sie unterschiedliche Spaltendefinitionen haben. Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt. |
    | [!UICONTROL **E-Mail nach Abschluss**] | Die E-Mail-Adresse, die benachrichtigt werden soll, wenn ein Feed die Verarbeitung abgeschlossen hat. Die E-Mail-Adresse muss korrekt formatiert sein. |
    | [!UICONTROL **Vorschub-Intervall**] | Wählen Sie **Täglich** für Aufstockung oder historische Daten aus. Tägliche Feeds enthalten Daten eines ganzen Tages von Mitternacht bis Mitternacht in der Zeitzone der Report Suite. Wählen Sie **Stündlich** für weitere Daten aus (Täglich ist auch für weitere Feeds verfügbar, wenn Sie es vorziehen). Stündliche Feeds enthalten Daten für eine einzige Stunde. |
@@ -404,9 +404,9 @@ Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erforder
 
 Der Benutzer, den Sie zum Hochladen von Daten-Feeds angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
-* s3:GetObject
-* s3:PutObject
-* s3:PutObjectAcl
+* S3:GetObject
+* S3:PutObject
+* S3:PutObjectAcl
 
   >[!NOTE]
   >
