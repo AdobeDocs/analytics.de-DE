@@ -5,16 +5,20 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
 
 # Activity Map-Erweiterungsschnittstelle
 
-Die Activity Map-Erweiterungsschnittstelle besteht aus zwei Teilen:
+Mit der Activity Map-Erweiterung können Sie auf Ihrer Website überlagerte Klickdaten anzeigen. Sie können die Erweiterung herunterladen, indem Sie zur folgenden Seite navigieren, die einen Link zum Web-Store bereitstellt:
+
+**[!UICONTROL Tools]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map herunterladen]**
+
+Nach der Installation und Aktivierung besteht die Benutzeroberfläche aus mehreren Teilen:
 
 * Ein oberes Bedienfeld, in dem Sie die Erweiterung und Berichte konfigurieren können
 * Eine Überlagerung, die die beliebtesten Links anzeigt
@@ -31,7 +35,7 @@ Es bietet die folgenden Einstellungen:
 * **Standard-/Live-**: Schaltet zwischen Standard- und Live-Ansicht um.
    * Standardansicht: Zeigt die Überlagerung basierend auf historischen Daten an.
    * Live-Ansicht: Zeigt die Überlagerung basierend auf Live-Daten an. Die Datumsauswahl wird zu einem Dropdown-Menü, über das Sie die Granularität von Live-Daten ändern können.
-* **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL &#x200B; Live-Ansicht ausgewählt &#x200B;], sind nur Link-Klicks verfügbar.
+* **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL  Live-Ansicht ausgewählt ], sind nur Link-Klicks verfügbar.
 * **Segmentauswahl**: Ermöglicht die Auswahl eines [Segments](/help/components/segmentation/seg-overview.md), wobei eine Teilmenge der Daten in Ihrer Überlagerung angezeigt wird. Segmente sind in der Live-Ansicht nicht verfügbar.
 * **Visualisierungstyp „Überlagerung**: Ermöglicht es Ihnen zu ändern, wie die Überlagerung das Ranking von Links visualisiert.
    * **[!UICONTROL Bubble]**: Top-Links erhalten eine grüne Blase, die ihren numerischen Rang während des Berichtszeitraums anzeigt. Sie können die Sprechblasenfarbe in „Einstellungen[ ändern](settings.md).
@@ -81,7 +85,7 @@ Der **[!UICONTROL Links auf Seite]** Bericht zeigt einen grundlegenden Arbeitsbe
 Der **[!UICONTROL Seitendetails]**-Bericht zeigt eine [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)-Visualisierung mithilfe der Dimension [Seite](/help/components/dimensions/page.md) an, wobei der Fokus auf der aktuellen Seite liegt. Die folgenden Metriken für die aktuelle Seite werden auf der linken Seite angezeigt:
 
 * [Seitenansichten](/help/components/metrics/page-views.md)
-* [!UICONTROL &#x200B; % aller Seitenansichten]
+* [!UICONTROL  % aller Seitenansichten]
 * [Eintritt](/help/components/metrics/entries.md) Anzahl
 * [Beenden](/help/components/metrics/exits.md) Anzahl
 * [Einzelseitenbesuche](/help/components/metrics/single-page-visits.md)

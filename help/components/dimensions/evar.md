@@ -3,10 +3,10 @@ title: eVar (Dimension)
 description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 82%
+source-wordcount: '851'
+ht-degree: 77%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 82%
 
 *Auf dieser Hilfeseite wird beschrieben, wie eVars als [Dimension](overview.md) funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
 
-eVars sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsentwurfsdokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als [!UICONTROL eVars] angezeigt. Weitere Informationen finden Sie unter Übersicht [&#128279;](overview.md) Dimensionen .
+eVars sind benutzerdefinierte [Dimensionen](overview.md) die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsentwurfsdokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als [!UICONTROL eVars].
 
-Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. EVar Weitere Informationen zur Funktionsweise der [-Persistenz auf der Adobe-Architektur finden Sie ](#how-evars-tie-to-metrics) den Abschnitten [&#128279;](#how-evars-work)Funktionsweise von eVars“ und Verknüpfung von eVars mit Metriken . Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in den [!UICONTROL Report Suite-Einstellungen] anpassen. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
+Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. Weitere Informationen zur Funktionsweise der [-Persistenz von eVar Adobe in der Architektur von ](#how-evars-work) finden Sie [ den Abschnitten „Funktionsweise von eVars](#how-evars-tie-to-metrics) und „Verbindung von eVars mit“. Sie können ihre Gültigkeit und Zuordnung unter „Konversionsvariablen“ in [Report Suite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)Einstellungen) aktivieren[!UICONTROL  deaktivieren oder ]. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
 
 ![eVar-Beispiele](assets/evars-sample.png)
 
 Die Anzahl der verfügbaren eVars hängt von Ihrem Vertrag mit Adobe ab. Es sind bis zu 250 eVars verfügbar, wenn Ihr Vertrag mit Adobe dies unterstützt.
 
-Die Groß- oder Kleinschreibung, die in Berichten verwendet wird, basiert auf dem ersten Wert, den Sie in einem bestimmten Kalendermonat senden. Die Groß-/Kleinschreibung kann sich je nach Berichtsfenster und dem Fall eines eVar-Werts ändern, der zuerst in diesem Zeitraum erfasst wurde.
+Die Groß- oder Kleinschreibung, die in Berichten verwendet wird, basiert auf dem ersten Wert, den Sie in einem bestimmten Kalendermonat senden. Die Groß-/Kleinschreibung kann sich je nach Berichtsfenster und Fall eines eVar-Werts ändern, der zuerst in diesem Zeitraum erfasst wurde.
 
 ## Füllen von eVars mit Daten
 

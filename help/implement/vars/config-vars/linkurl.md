@@ -4,10 +4,10 @@ description: Überschreibt die automatisch generierte Link-URL, die AppMeasureme
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 37%
+source-wordcount: '204'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 Wenn ein Linktracking-Aufruf an Adobe gesendet wird, erkennt AppMeasurement die angeklickte URL. Diese URL hilft bei der Bestimmung des Link-Typs, z. B. Download-Links und Exitlinks. Verwenden Sie die `linkURL`-Variable, um die erkannte URL zu überschreiben.
 
-Es gibt keine Dimensionen in Analysis Workspace, die Berichte zu dieser Variablen erstellen. Dadurch wird die Spalte `page_event_var1` in [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) ausgefüllt. Wenn Sie die URL eines angeklickten Links verfolgen möchten, empfiehlt Adobe die Verwendung einer benutzerdefinierten Variablen, z. B. [Prop](../page-vars/prop.md).
+Es gibt keine Dimensionen in Analysis Workspace, die Berichte zu dieser Variablen erstellen. Dadurch wird die Spalte `page_event_var1` in [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) ausgefüllt. Wenn Sie die URL eines angeklickten Links verfolgen möchten, empfiehlt Adobe die Verwendung einer benutzerdefinierten Variablen, z. B. [Prop](../page-vars/prop.md). Die Verwendung von [Activity Map](/help/analyze/activity-map/overview.md) kann dazu beitragen, die Datenerfassung für angeklickte Links zu optimieren.
 
 ## Link-URL unter Verwendung der Web-SDK
 

@@ -4,10 +4,10 @@ title: Übersicht über Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '605'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 5%
 
 Adobe Analytics Activity Map ist eine Funktion in Adobe Analytics, die eine visuelle Darstellung der Benutzerinteraktion auf Web-Seiten und in Mobile Apps bietet. Marketing-Experten und Analysten können damit Benutzerinteraktionen wie Klicks und Bildlaufverhalten verfolgen und analysieren. Activity Map generiert Heatmaps und Überlagerungsberichte, die die beliebtesten Elemente auf einer Web-Seite zeigen und Ihnen bei der Optimierung Ihrer digitalen Erlebnisse helfen.
 
-Dieser Abschnitt der Dokumentation konzentriert sich auf die Activity Map-Überlagerung. Es gibt jedoch noch andere wichtige Aspekte bei der Verwendung von Activity Map:
+Activity Map as a umfasst mehrere wichtige Komponenten:
 
-* **Report Suite-Einstellung**: Für eine Report Suite muss Activity Map aktiviert sein. Siehe [Activity Map-](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) in den Report Suite-Einstellungen.
+* **Report Suite-Einstellung**: Für eine Report Suite muss Activity Map aktiviert sein, bevor Sie sie verwenden können. Siehe [Activity Map-](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) in den Report Suite-Einstellungen.
 * **Implementierung**: Die meisten Activity Map-Berichte sind vorkonfiguriert verfügbar. Einige Websites benötigen jedoch möglicherweise zusätzliche Implementierungen, um das Linktracking optimal zu nutzen. Die folgenden Implementierungsvariablen sind verfügbar:
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): Klickdaten nach Link-Namen filtern.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): Klickdaten nach Regionsnamen filtern.
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Ändern des Attributs, das die Dimension Activity Map-Region ausfüllt.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Passen Sie die Logik an, die Activity Map zum Ausfüllen der Dimension &quot;Activity Map Link“ verwendet.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Passen Sie die Logik an, die Activity Map zum Ausfüllen der Dimension Activity Map-Region verwendet.
+* **Überlagerung**: Eine Browser-Erweiterung, mit der Sie Klickdaten auf Ihrer Website überlagert anzeigen können. Weitere Informationen finden Sie unter {[}Activity Map-Erweiterungsschnittstelle.](overlay/overview.md)
 * **Dimensionen**: Zusätzlich zur Überlagerungserweiterung stellt Activity Map mehrere Dimensionen bereit, die Sie in Analysis Workspace verwenden können.
    * [Activity Map-Link](/help/components/dimensions/activity-map-link.md): Der Link-Name, auf den geklickt wurde.
    * [Activity Map-Region](/help/components/dimensions/activity-map-region.md): Der Name der Region, auf die geklickt wurde.
