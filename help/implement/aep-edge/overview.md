@@ -4,10 +4,10 @@ description: Übersicht über die Verwendung von XDM-Daten aus Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 17%
+source-wordcount: '510'
+ht-degree: 16%
 
 ---
 
@@ -17,17 +17,19 @@ Mit Adobe Experience Platform Edge Network können Sie Daten, die für mehrere P
 
 ## Verarbeiten von Edge Network-Daten durch Adobe Analytics
 
+Da die an die Edge Network gesendeten Daten und die Daten von AppMeasurement unterschiedlich funktionieren, bestimmt die Edge Network-Payload, wie Adobe Analytics den Treffer verarbeitet. Weitere Informationen finden Sie unter [Ereignistypen für Edge Network ](hit-types.md) Adobe Analytics.
+
 Daten, die an Adobe Experience Platform Edge Network gesendet werden, können drei Formaten entsprechen **(XDM**, **Datenobjekt** und **Kontextdaten**. Wenn ein Datenstrom Daten an Adobe Analytics weiterleitet, werden sie in ein Format übersetzt, das Adobe Analytics verarbeiten kann.
 
 ## `xdm`
 
-Entsprechen Sie den Schemata, die Sie basierend auf [XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) (Experience-Datenmodell) erstellen. Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Sie ein vordefiniertes Schema verwenden möchten, das speziell für Adobe Analytics gilt, können Sie die Schemafeldgruppe [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) zu Ihrem Schema hinzufügen. Nach dem Hinzufügen können Sie dieses Schema mithilfe des `xdm`-Objekts in der Web-SDK ausfüllen, um Daten an eine Report Suite zu senden. Wenn Daten an der Edge Network eingehen, wird das XDM-Objekt in ein Format übersetzt, das Adobe Analytics versteht.
+Entsprechen Sie den Schemata, die Sie basierend auf [XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) (Experience-Datenmodell) erstellen. Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Sie ein vordefiniertes Schema verwenden möchten, das speziell für Adobe Analytics gilt, können Sie die Schemafeldgruppe [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) zu Ihrem Schema hinzufügen. Nach dem Hinzufügen können Sie dieses Schema mithilfe des `xdm`-Objekts in der Web-SDK ausfüllen, um Daten an eine Report Suite zu senden. Wenn Daten an der Edge Network eingehen, wird das XDM-Objekt in ein Format übersetzt, das Adobe Analytics versteht.
 
 Siehe [XDM-Objektvariablenzuordnung zu Adobe Analytics](xdm-var-mapping.md) für eine vollständige Referenz zu XDM-Feldern und deren Zuordnung zu Analytics-Variablen.
 
 >[!TIP]
 >
->Wenn Sie beabsichtigen, in Zukunft zu [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing) zu wechseln, rät Adobe davon ab, die Schemafeldgruppe von Adobe Analytics zu verwenden. Stattdessen empfiehlt Adobe [Erstellen eines eigenen Schemas](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) und die Verwendung der Datenstromzuordnung, um die gewünschten Analytics-Variablen zu befüllen. Durch diese Strategie werden Sie nicht an ein Schema von Props und eVars gebunden, wenn Sie für den Wechsel zu Customer Journey Analytics bereit sind.
+>Wenn Sie beabsichtigen, in Zukunft zu [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing) zu wechseln, rät Adobe davon ab, die Schemafeldgruppe von Adobe Analytics zu verwenden. Stattdessen empfiehlt Adobe [Erstellen eines eigenen Schemas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) und die Verwendung der Datenstromzuordnung, um die gewünschten Analytics-Variablen zu befüllen. Durch diese Strategie werden Sie nicht an ein Schema von Props und eVars gebunden, wenn Sie für den Wechsel zu Customer Journey Analytics bereit sind.
 
 ## `data`
 
