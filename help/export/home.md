@@ -3,10 +3,10 @@ title: Exportleitfaden für Analytics
 description: In diesem Handbuch werden Möglichkeiten erläutert, wie Daten mithilfe von Daten-Feeds und Data Warehouse aus Adobe Analytics abgerufen werden können.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '179'
-ht-degree: 100%
+source-git-commit: 68114921b40ffebd89e2843ad0f0cf44812cb13b
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 90%
 
 ---
 
@@ -16,10 +16,8 @@ ht-degree: 100%
 
 In diesem Handbuch wird beschrieben, wie Sie Daten aus Adobe Analytics abrufen können. Zu diesem Service gehören:
 
-* **Daten-Feeds:** Hiermit erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein separater Treffer und jede Spalte ist eine Variable. Daten-Feeds werden normalerweise an [Cloud-Ziele](/help/export/analytics-data-feed/create-feed.md) gesendet.
-* **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und von eindeutigen Werten zu unterstützen. Data Warehouse-Anfragen werden normalerweise an [Cloud-Ziele](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) gesendet.
-* **FTP und SFTP:** FTP und SFTP werden zwar unterstützt, jedoch nicht mehr empfohlen. Exportieren Sie Daten stattdessen in Cloud-Ziele.
-
+* **Daten-Feeds:** Hiermit erhalten Sie einen stündlichen oder täglichen Export von Rohdaten. Jede Zeile ist ein separater Treffer und jede Spalte ist eine Variable. Daten-Feeds werden normalerweise an [Cloud-Ziele](/help/export/analytics-data-feed/create-feed.md) gesendet. Alte FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
+* **Data Warehouse:** Verwenden Sie einen Anfrageassistenten, um Daten in Form einer Tabellenausgabe abzurufen. Data Warehouse verwendet eine andere Verarbeitungsarchitektur, um eine beliebige Anzahl von Zeilen und von eindeutigen Werten zu unterstützen. Data Warehouse-Anfragen werden in der Regel an [Cloud-Ziele](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) gesendet. Alte FTP- und SFTP-Konten sind verfügbar, werden jedoch nicht empfohlen.
 
 >[!BEGINSHADEBOX]
 
@@ -32,7 +30,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu 
 
 * [Referenz zur Daten-Feed-Spalte](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * [Data Warehouse](data-warehouse/data-warehouse.md)
-* [Exportieren nach FTP](ftp-and-sftp/ftp-overview.md)
+* [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
 
 ## Weitere Benutzerhandbücher für Analytics
 
@@ -40,7 +38,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu 
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&amp;lang=de#support)
-* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de&lang=de)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&lang=de#support)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/de)
