@@ -4,7 +4,7 @@ description: Erstellen Sie mithilfe von Tags einen Bereich, um die Art der Daten
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 97%
@@ -17,7 +17,7 @@ Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf
 
 ## Voraussetzungen
 
-[Erstellen einer Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Erstellen Sie ein Silo für die zu erfassenden Analytics-Daten.
+[Erstellen einer Report Suite](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): Erstellen Sie ein Silo für die zu erfassenden Analytics-Daten.
 
 ## Erstellen einer Tag-Eigenschaft und Installieren wichtiger Erweiterungen
 

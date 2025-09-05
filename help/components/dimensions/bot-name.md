@@ -3,7 +3,7 @@ title: Bot-Name
 description: Der Name des Bots, der den Bot-Regeln entspricht.
 exl-id: 034dce46-e83c-4053-a062-3998231f8d6b
 feature: Dimensions
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Bot-Name
 
-Die Dimension „Bot-[&quot; ](overview.md) die Namen von Bots an, die mithilfe von [Bot-Regeln“ ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) wurden. Bei diesen Regeln kann es sich um standardmäßige IAB-Regeln oder benutzerdefinierte Bot-Regeln handeln, die von Ihrem Unternehmen konfiguriert werden. Dies ist hilfreich, wenn Sie mehr darüber erfahren möchten, welche Bots Ihre Site besuchen oder welche Bots den meisten Traffic generieren.
+Die Dimension „Bot-[&quot; ](overview.md) die Namen von Bots an, die mithilfe von [Bot-Regeln“ ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) wurden. Bei diesen Regeln kann es sich um standardmäßige IAB-Regeln oder benutzerdefinierte Bot-Regeln handeln, die von Ihrem Unternehmen konfiguriert werden. Dies ist hilfreich, wenn Sie mehr darüber erfahren möchten, welche Bots Ihre Site besuchen oder welche Bots den meisten Traffic generieren.
 
 Treffer, die mit [!UICONTROL Bot-Regeln] übereinstimmen, werden automatisch aus allen Analytics-Berichten gefiltert, mit Ausnahme dieser Dimension, [Bot-Vorfälle](../metrics/bot-occurrences.md) und [Bot-Seitenansichten](../metrics/bot-page-views.md). Sie können diese Dimension und diese beiden Metriken verwenden, um zu sehen, welche Bot-Daten aus dem Rest Ihrer Berichte ausgeschlossen sind.
 
@@ -27,7 +27,7 @@ Die Verwendung einer anderen Dimension oder Metrik mit dieser Dimension gibt kei
 
 ## Füllen dieser Dimension mit Daten
 
-Wenn Sie „Bot[Regeln“ aktiviert haben](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) erfasst diese Dimension automatisch Daten. Wenn Sie „Bot[!UICONTROL Regeln“ noch nicht &#x200B;] haben, wird diese Dimension in Analysis Workspace nicht angezeigt.
+Wenn Sie „Bot[Regeln“ aktiviert haben](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) erfasst diese Dimension automatisch Daten. Wenn Sie „Bot[!UICONTROL Regeln“ noch nicht ] haben, wird diese Dimension in Analysis Workspace nicht angezeigt.
 
 ## Dimensionselemente
 

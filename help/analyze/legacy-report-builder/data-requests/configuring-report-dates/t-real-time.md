@@ -4,9 +4,9 @@ title: Konfigurieren einer Echtzeitanforderung
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 80%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 So konfigurieren Sie Echtzeit-Anfragedaten:
 
-1. Stellen Sie sicher, dass die Echtzeitberichterstellung in den [Admin Tools“ aktiviert ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=de).
+1. Stellen Sie sicher, dass die Echtzeitberichterstellung in den [Admin Tools“ aktiviert ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 1. Klicken Sie im [!UICONTROL Anforderungs-Assistenten, Schritt 1] auf **[!UICONTROL Echtzeitbericht]** > **[!UICONTROL `<report type>`]**
 
    Wählen Sie beispielsweise einen Traffic-Bericht. Wenn Sie einen Echtzeitberichtstyp auswählen, werden die Optionen für die [!UICONTROL Auswahl des Zeitraums] angezeigt.

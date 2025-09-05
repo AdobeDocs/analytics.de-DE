@@ -4,7 +4,7 @@ description: Verwenden Sie die Adobe Experience Platform Edge Network-API, um Da
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 36%
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 Normalerweise verwenden Sie die Experience Platform Edge Network-API , um Daten Server-seitig und nicht Client-seitig zu erfassen, und wenn Sie Daten von Geräten wie IoT-Geräten, Set-Top-Boxen und Desktop-Programmen erfassen. Dann senden Sie diese Daten an das Edge-Netzwerk und an Services wie Adobe Analytics.
 
-Erwägen Sie auch die Edge Network-API, wenn vertrauliche Daten sicher erfasst und über das Netzwerk authentifiziert werden sollen. Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=de)Authentifizierung“.
+Erwägen Sie auch die Edge Network-API, wenn vertrauliche Daten sicher erfasst und über das Netzwerk authentifiziert werden sollen. Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)Authentifizierung“.
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
@@ -30,7 +30,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>1</td>
 <td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -48,7 +48,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>4</td>
 <td><b>Implementieren und testen Sie </b> Datenerfassung mithilfe der APIs für die Erfassung von Einzelereignisdaten und die Batch-Ereignisdatenerfassung.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung für Einzelereignisse</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=de">Batch-Ereignisdatenerfassung</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung für Einzelereignisse</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Batch-Ereignisdatenerfassung</a>
 </tr>
 
 <td>5</td>
@@ -59,5 +59,5 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 </table>
 
-Weitere Informationen finden Sie in der Dokumentation [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) Edge Network-APIs.
+Weitere Informationen finden Sie in der Dokumentation [ Edge Network-APIs.](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de)
 

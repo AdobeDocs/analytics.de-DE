@@ -3,7 +3,7 @@ title: 'Streaming-Mediendienste: Player-Statusverfolgungsmetriken'
 description: Verfügbare Metriken, wenn Sie [!UICONTROL Player-Statusverfolgung] für eine Report Suite aktivieren.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Streaming-Mediendienste und Player-Statusverfolgungsmetriken bieten zusätzliche Berichtsfunktionen für die Datenerfassung über Streaming-Mediendienste-Bibliotheken. Für die Verwendung dieser Metriken ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Wenn Sie **[!UICONTROL Player-Status-Tracking]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Metriken verfügbar:
+Wenn Sie **[!UICONTROL Player-Status-Tracking]** unter [Medienberichte](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Metriken verfügbar:
 
 | Metrikname | Beschreibung | Gesendet mit | Kontextdatenvariable |
 | --- | --- | --- | --- |

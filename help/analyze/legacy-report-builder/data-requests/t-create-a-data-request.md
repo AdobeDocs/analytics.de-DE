@@ -4,10 +4,10 @@ title: Datenanforderung erstellen
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 96%
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Schritte zum Erstellen einer grundlegenden Datenanforderung.
 1. Wählen Sie im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1] eine [Report Suite](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Optional) Wählen Sie ein Segment, auf das Sie die Anforderung anwenden möchten. Wenn Sie eines oder mehrere Segmente ausgewählt haben, werden diese an den Anfang der Liste verschoben.
 
-   Report Builder verwendet Segmente auf dieselbe Weise wie Adobe Analytics. Weitere Informationen finden Sie im [Analytics-Segmentierungshandbuch](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).
+   Report Builder verwendet Segmente auf dieselbe Weise wie Adobe Analytics. Weitere Informationen finden Sie im [Analytics-Segmentierungshandbuch](/help/components/segmentation/seg-home.md).
 1. Wählen Sie einen [Berichtstyp](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md) aus.
 1. Definieren Sie einen [Datumsbereich](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) und eine [Granularität](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md) für den Bericht.
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
@@ -35,6 +35,6 @@ Schritte zum Erstellen einer grundlegenden Datenanforderung.
 1. Doppelklicken Sie auf der Registerkarte [!UICONTROL Metriken] auf Metriken, um sie dem Raster [!UICONTROL Metriken] hinzuzufügen (wahlweise können Sie die Metriken auch in das Raster ziehen).
 1. Doppelklicken Sie auf der Registerkarte [!UICONTROL Dimensionen] auf Dimensionen, um sie dem Raster [!UICONTROL Zeilenbezeichnungen] hinzuzufügen.
 
-   Die in Schritt 2 verfügbaren [Dimensionen](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/layout/filter-dimenson/filter-dimensions.html?lang=de) hängen davon ab, welchen Basisbericht Sie in Schritt 1 gewählt haben und wie Ihre Report Suite konfiguriert ist. Die Dimensionen sind Elemente, die korrelieren, Unterbeziehungen herstellen oder eine Classification der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählten Berichtstypmetrik darstellen. Wenn Sie in Schritt 2 mehr als eine Dimension hinzufügen, wird dadurch eine Aufschlüsselung der Datenanforderung erreicht.
+   Die in Schritt 2 verfügbaren [Dimensionen](/help/analyze/report-builder/filter-dimensions.md) hängen davon ab, welchen Basisbericht Sie in Schritt 1 gewählt haben und wie Ihre Report Suite konfiguriert ist. Die Dimensionen sind Elemente, die korrelieren, Unterbeziehungen herstellen oder eine Classification der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählten Berichtstypmetrik darstellen. Wenn Sie in Schritt 2 mehr als eine Dimension hinzufügen, wird dadurch eine Aufschlüsselung der Datenanforderung erreicht.
 
    Weitere [ finden Sie unter ](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) und Dimensionen hinzufügen .

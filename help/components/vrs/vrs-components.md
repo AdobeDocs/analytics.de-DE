@@ -3,9 +3,9 @@ description: Virtual Report Suites können so zusammengestellt werden, dass Komp
 title: Kuratierung von Komponenten der Virtual Report Suite
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ Virtual Report Suites können so zusammengestellt werden, dass Komponenten in An
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://video.tv.adobe.com/v/3425533?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -77,4 +77,4 @@ Mithilfe von Komponentengruppen können Sie Ihrer Virtual Report Suite stapelwei
 
 ## Workspace-Verhalten {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Weitere Informationen zum Kuratieren in Analysis Workspace finden Sie unter [Kuratieren und Freigeben von Projekten](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
+Weitere Informationen zum Kuratieren in Analysis Workspace finden Sie unter [Kuratieren und Freigeben von Projekten](/help/analyze/analysis-workspace/curate-share/curate.md).

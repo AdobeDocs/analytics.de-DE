@@ -3,7 +3,7 @@ title: Benutzerspezifische Ereignisse
 description: Die Anzahl der Treffer, bei denen ein benutzerspezifisches Ereignis vorhanden ist.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 83%
@@ -18,12 +18,12 @@ Benutzerspezifisches Ereignis [Metriken](overview.md) zeigen die Anzahl der Tref
 
 ## Berechnung dieser Metrik
 
-Benutzerspezifische Ereignisse werden je nach Typ unterschiedlich berechnet. Sie können den Typ eines Ereignisses in den Report Suite-Einstellungen unter [Erfolgsergebnisse](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) überprüfen.
+Benutzerspezifische Ereignisse werden je nach Typ unterschiedlich berechnet. Sie können den Typ eines Ereignisses in den Report Suite-Einstellungen unter [Erfolgsergebnisse](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) überprüfen.
 
 * **Zählerereignisse**: Die Standardeinstellung für Ereignisse. Die meisten Ereignisse sind Zählerereignisse. Zählt die Anzahl der Treffer, bei denen das passende benutzerspezifische Ereignis `event1` – `event1000` in der [`events`](/help/implement/vars/page-vars/events/events-overview.md)-Variablen vorhanden ist.
 * **Numerische Ereignisse**: Summieren den numerischen Wert, der dem Ereignis in der `events`-Variablen zugewiesenen ist.
 * **Währungsereignisse**: Wendet die Währungsumrechnung auf den Wechselkurs dieses Tages an und summiert dann den numerischen Wert, der jedem Treffer in der `events`-Variablen zugewiesen ist.
 
-Die Anzahl der verfügbaren Ereignisse hängt vom Analytics-Vertrag Ihres Unternehmens ab. In den meisten Unternehmen, die nicht über einen Altvertrag verfügen, stehen 1000 benutzerdefinierte Ereignisse zur Verfügung. Wenden Sie sich an Ihr Adobe-Account-Team, wenn Sie sich nicht sicher sind, wie viele benutzerspezifische Ereignisse für Sie verfügbar sind.
+Die Anzahl der verfügbaren Ereignisse hängt vom Analytics-Vertrag Ihres Unternehmens ab. In den meisten Unternehmen, die nicht über einen Altvertrag verfügen, stehen 1000 benutzerdefinierte Ereignisse zur Verfügung. Wenden Sie sich an Ihr Adobe-Accountteam, wenn Sie sich nicht sicher sind, wie viele benutzerdefinierte Events Ihnen zur Verfügung stehen.
 
 Adobe empfiehlt, dass Sie die Verwendung der einzelnen Ereignisse im [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) Ihres Unternehmens erfassen.

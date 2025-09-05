@@ -4,9 +4,9 @@ description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adob
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ In diesem Dokument wird erläutert, wie sich die Tracking-Präventionsmaßnahmen
 ## Wie haben Browser die Verwendung von Cookies eingeschränkt?
 
 >[!NOTE]
->Die [geräteübergreifende Analyse](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=de#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de#comparing-cja-to-traditional-adobe-analytics) können Cookies mithilfe einer Personen-ID (z. B. einer Hash-Anmelde-ID) zuordnen, sofern eine solche ID verfügbar ist.
+>Die [geräteübergreifende Analyse](/help/components/cda/overview.md#cda) und [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de#comparing-cja-to-traditional-adobe-analytics) können Cookies mithilfe einer Personen-ID (z. B. einer Hash-Anmelde-ID) zuordnen, sofern eine solche ID verfügbar ist.
 
 ### Einschränkungen bei Third-Party-Cookies
 
@@ -178,4 +178,4 @@ Wenn Ihr Unternehmen von der ITP-Tracking-Prävention betroffen ist, können Sie
 >[!MORELIKETHIS]
 >
 >[Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies](cookieless.md)
->[Auswirkungen des neuen App Tracking Transparency Framework von Apple auf Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=de)
+>>[Auswirkungen des neuen App Tracking Transparency Framework von Apple auf Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=de)

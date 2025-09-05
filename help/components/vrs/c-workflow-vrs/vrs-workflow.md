@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Virtual Report Suite – Workflow
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 74%
@@ -15,11 +15,11 @@ ht-degree: 74%
 
 Eine Übersicht über die Schritte, die zur Planung der Implementierung einer Virtual Report Suite unternommen werden müssen.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Planung Ihrer Virtual Report Suite-Strategie.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Planung Ihrer Virtual Report Suite-Strategie.
 
 Machen Sie sich mit den [Überlegungen zum globalen/Multisuite-Tagging](/help/components/vrs/vrs-considerations.md) und den häufig gestellten Fragen vertraut, bevor Sie sich für eine Strategie entscheiden.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Erstellen einer Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) durch Anwendung eines oder mehrerer Segmente auf eine übergeordnete Report Suite.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) [Erstellen einer Virtual Report Suite](/help/components/vrs/c-workflow-vrs/vrs-create.md) durch Anwendung eines oder mehrerer Segmente auf eine übergeordnete Report Suite.
 
 Virtual Report Suites werden im Virtual Report Suites Manager erstellt, der über **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]** verfügbar ist.
 
@@ -27,7 +27,7 @@ Nachdem sie erstellt wurde, wird eine Virtual Report Suite auf der Benutzeroberf
 
 Klicken Sie auf das Informationssymbol neben dem Namen der Report Suite, um [Informationen dazu anzuzeigen](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Öffnen Sie ein Projekt oder einen Bericht und wählen Sie eine Virtual Report Suite aus, um eine segmentierte Ansicht der Daten bereitzustellen.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Öffnen Sie ein Projekt oder einen Bericht und wählen Sie eine Virtual Report Suite aus, um eine segmentierte Ansicht der Daten bereitzustellen.
 
 ![](assets/step4_icon.png) [Verwalten](/help/components/vrs/c-workflow-vrs/vrs-manage.md) der Virtual Report Suite.
 

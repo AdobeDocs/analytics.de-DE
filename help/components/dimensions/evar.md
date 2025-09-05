@@ -3,7 +3,7 @@ title: eVar (Dimension)
 description: Eine benutzerdefinierte Dimension, die Sie in Berichten verwenden können.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 77%
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 eVars sind benutzerdefinierte [Dimensionen](overview.md) die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsentwurfsdokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als [!UICONTROL eVars].
 
-Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. Weitere Informationen zur Funktionsweise der [-Persistenz von eVar Adobe in der Architektur von ](#how-evars-work) finden Sie [ den Abschnitten „Funktionsweise von eVars](#how-evars-tie-to-metrics) und „Verbindung von eVars mit“. Sie können ihre Gültigkeit und Zuordnung unter „Konversionsvariablen“ in [Report Suite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)Einstellungen) aktivieren[!UICONTROL &#x200B; deaktivieren oder &#x200B;]. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
+Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. Weitere Informationen zur Funktionsweise der [-Persistenz von eVar Adobe in der Architektur von ](#how-evars-work) finden Sie [ den Abschnitten „Funktionsweise von eVars](#how-evars-tie-to-metrics) und „Verbindung von eVars mit“. Sie können ihre Gültigkeit und Zuordnung unter „Konversionsvariablen“ in [Report Suite](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)Einstellungen) aktivieren[!UICONTROL  deaktivieren oder ]. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
 
 ![eVar-Beispiele](assets/evars-sample.png)
 
@@ -90,7 +90,7 @@ Da Zuordnung und Gültigkeit bestimmen, welche Werte beibehalten werden, sind si
 * Standardmäßig verwendet ein eVar die letzte Zuordnung. Neue Werte überschreiben persistente Werte.
 * Standardmäßig verwendet eine eVar eine Gültigkeit des Besuchs. Sobald ein Besuch endet, werden die Werte nicht mehr von Zeile zu Zeile in der Spalte `post_evar` kopiert.
 
-Sie können die Gültigkeit und Zuordnung von eVars unter [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen ändern.
+Sie können die Gültigkeit und Zuordnung von eVars unter [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in den Report Suite-Einstellungen ändern.
 
 ## Wert von eVars gegenüber Props
 

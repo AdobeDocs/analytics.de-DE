@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 91%
@@ -24,7 +24,7 @@ Sie können dimensionsspezifische Filter setzen, indem Sie einen Filter erstelle
 
 1. Erstellen oder bearbeiten Sie eine Anforderung und gehen Sie zum Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2].
 
-   ![Screenshot mit den Optionen zum Filtern nach: Anwendung, Benutzer und Projekt.](/help/admin/admin/assets/filter.png)
+   ![Screenshot mit den Optionen zum Filtern nach: Anwendung, Benutzer und Projekt.](/help/admin/tools/assets/filter.png)
 
 1. Klicken Sie im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 2] im Raster auf den Link neben der Dimension und wählen Sie dann **[!UICONTROL Filter]**.
 

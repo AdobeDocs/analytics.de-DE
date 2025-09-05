@@ -3,8 +3,8 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -22,14 +22,14 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Treffer | Aggregiert |
 | **Experience Cloud ID (ECID) verfügbar** | Nein | Nein | Ja | Ja | Nein |
 | **Zeitstempel verfügbar** | Nein | Nein | Nein | Ja | Nein |
-| **Verarbeitungsstufe** | Vollständig verarbeitet | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet |
-| **Admin-Bot-Filterdaten enthalten** <br> [Weitere Infos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Nein | Ja - separater Bot-Bericht | Nein | Nein | Nein |
+| **Verarbeitungsstufe** | Vollständig verarbeitet | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet |
+| **Admin-Bot-Filterdaten enthalten** <br> [Weitere Infos](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | Nein | Ja - separater Bot-Bericht | Nein | Nein | Nein |
 | **Geringer Traffic (Individuelle Werte überschritten) wird angezeigt** <br> [Weitere Informationen](/help/technotes/low-traffic.md) | Ja | Ja | Nein | Nein | Ja |
 | **Begrenzung der sichtbaren Zeilen (vor der Paginierung)** | 400 | 50000 | Unbegrenzt | Unbegrenzt | 50000 |
 | **Mehrere Report Suites** | [Ja](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Ja | Nein | Ja | Nein | Ja |
 | **Anzahl der Aufschlüsselungen** | Unbegrenzt | Bis zu 2 | Unbegrenzt | Unbegrenzt | Unbegrenzt, über mehrere Abfragen ausführen |
 | **Segmentierung** <br> [Weitere Informationen](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Ja | Ja | Ja, mit [Einschränkungen](/help/components/segmentation/seg-reference/seg-compatibility.md) | Nein | Ja |
-| **Berechnete Metriken** <br> [Weitere Infos](/help/components/c-calcmetrics/cm-overview.md) | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Ja, mit Attribution | Ja | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Berechnete Metriken** <br> [Weitere Infos](/help/components/calculated-metrics/cm-overview.md) | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Ja, mit Attribution | Ja | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Marketing-Kanäle** <br> [Weitere Infos](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Ja | Ja | Ja | Ja – [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Ja |
 | **Kohortenanalyse** | [Ja](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Ja | Nein | Nein | Nein |
 | **Attribution** | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Begrenzt | Nein | Nein | Ja, mit [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Nein |

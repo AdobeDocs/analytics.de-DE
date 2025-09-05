@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie mehr über Panels und deren Verwendung in Analysis Workspace.
+description: Machen Sie sich mit Panels und deren Verwendung in Analysis Workspace vertraut.
 title: Überblick über Panels
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
-workflow-type: ht
-source-wordcount: '2229'
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+workflow-type: tm+mt
+source-wordcount: '2228'
 ht-degree: 100%
 
 ---
@@ -91,11 +91,11 @@ Sie können ein Panel wie folgt verwalten:
 
 ## Report Suite
 
-Jedes Panel ist mit einer [Report Suite](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) verknüpft, die durch den ![Daten](/help/assets/icons/Data.svg)-**[!UICONTROL *Namen der Report Suite *]**im Dropdown-Menü oben rechts im Panel identifiziert wird.
+Jedes Panel ist mit einer [Report Suite](/help/admin/tools/manage-rs/report-suites-admin.md) verknüpft, die durch den ![Daten](/help/assets/icons/Data.svg)-**[!UICONTROL *Namen der Report Suite *]**im Dropdown-Menü oben rechts im Panel identifiziert wird.
 
 Wenn Sie ein neues Bedienfeld erstellen, basiert die Standard-Report Suite auf dem Bedienfeld, an dem Sie zuletzt im Analysis Workspace-Projekt gearbeitet haben.
 
-In einem Projekt können Sie je nach Anwendungsfällen Ihrer Analyse eine oder [viele Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de) verwenden. 
+In einem Projekt können Sie je nach Anwendungsfällen Ihrer Analyse eine oder [viele Report Suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) verwenden. 
 
 Die Liste der Report Suites ist nach Relevanz sortiert, die Adobe danach definiert, wie kürzlich und häufig die Suite von der aktuellen Person verwendet wurde und wie häufig die Suite innerhalb der Organisation eingesetzt wird.
 
@@ -173,7 +173,7 @@ Komponenten, die keine Segmente sind, können auch direkt in den Ablagebereich g
 
 >[!BEGINSHADEBOX]
 
-Ein Demovideo finden Sie unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dropdown-Segmente](https://video.tv.adobe.com/v/327486?quality=12&learn=on&captions=ger){target="_blank"}.
+Ein Demovideo finden Sie unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dropdown-Segmente](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -284,7 +284,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -348,7 +348,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=de) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie das Bedienfeld „Gleichzeitige Medienbetrach
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1240'
 ht-degree: 95%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Gleichzeitige Medienbetrachter“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Gleichzeitige Medienbetrachter“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Gleichzeitige Medienbetrachter“](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace umfasst die Metrik „Gleichzeitige Betrachter“ die Anza
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel Gleichzeitige Medienbetrachter](https://video.tv.adobe.com/v/343542?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel Gleichzeitige Medienbetrachter](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ Eine Freiformtabelle ist in dieser Ansicht nicht verfügbar.  Um die Datenquelle
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Verbrachte Zeit bei der Medienwiedergabe](media-playback-time-spent.md)
->&#x200B;>[Panel Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md)
+>>[Panel Verbrachte Zeit bei der Medienwiedergabe](media-playback-time-spent.md)
+>>[Panel Medien-Zielgruppendurchschnitt pro Minute](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/343542/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

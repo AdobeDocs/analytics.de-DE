@@ -3,7 +3,7 @@ title: Dimensionen für Videometadaten von Streaming-Mediendiensten
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Videometadaten] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Streaming-Mediendienste und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Sammlungsbibliotheken von Streaming-Mediendiensten. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Wenn Sie **[!UICONTROL Videometadaten]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
+Wenn Sie **[!UICONTROL Videometadaten]** unter [Medienberichte](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
 
 | Name der Dimension | Beschreibung | Gesendet mit | Kontextdatenvariable |
 | --- | --- | --- | --- |

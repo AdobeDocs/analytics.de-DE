@@ -4,7 +4,7 @@ description: Verwenden Sie die Mobile SDK-Erweiterung in der Adobe Experience Pl
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>1</td>
 <td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -45,7 +45,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <td>3</td>
 <td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Mit diesem Service wird gesteuert, ob und wie Daten an Adobe Analytics gesendet werden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
 <tr>
@@ -95,7 +95,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>1</td>
 <td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>

@@ -4,9 +4,9 @@ title: Dimensionen für die Zeitunterteilung
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ Bei der Zeitunterteilung wird der Zeitstempel erfasster Treffer in aussagekräft
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionen für die Zeitunterteilung](https://video.tv.adobe.com/v/41457?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionen für die Zeitunterteilung](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Die Dimensionen für die Zeitunterteilung basieren auf der Zeitzone der Report S
 
 >[!NOTE]
 >
->Die Dimensionen für die Zeitunterteilung sind nur in Analysis Workspace verfügbar. Wenn Sie Dimensionen für die Zeitunterteilung in anderen Analytics-Lösungen verwenden möchten, können Sie das [getTimeParting-Plug-in](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=de) implementieren.
+>Die Dimensionen für die Zeitunterteilung sind nur in Analysis Workspace verfügbar. Wenn Sie Dimensionen für die Zeitunterteilung in anderen Analytics-Lösungen verwenden möchten, können Sie das [getTimeParting-Plug-in](/help/implement/vars/plugins/gettimeparting.md) implementieren.
 
 Zu den Dimensionen für die Zeitunterteilung in Analysis Workspace zählen:
 

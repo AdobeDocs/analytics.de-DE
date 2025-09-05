@@ -3,10 +3,10 @@ title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
 description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die Daten in Adobe Analytics verarbeiten.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -32,12 +32,12 @@ Sobald Daten in Adobe Analytics eingehen, passen die folgenden Funktionen die Da
 
 1. **Suchtabellen**: Dimensionen, die auf Adobe-internen Suchtabellen basieren (z. B. die Dimension [Browser](/help/components/dimensions/browser.md)) werden dem entsprechenden Wert zugeordnet.
 2. [**Dynamische Variablen**](/help/implement/vars/page-vars/dynamic-variables.md): Wenn eine dynamische Variable in einem beliebigen Teil einer Bildanforderung angezeigt wird, wird der Wert kopiert und ab dann als unabhängiger Wert gehandhabt.
-3. [**Bot-Regeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
-4. [**Verarbeitungsregeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md): Benutzerdefinierte Regeln, die von Ihrer Organisation auf Ihre Daten angewendet werden. Umfasst die Zuordnung von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) auf die entsprechende Variable.
+3. [**Bot-Regeln**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
+4. [**Verarbeitungsregeln**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): Benutzerdefinierte Regeln, die von Ihrer Organisation auf Ihre Daten angewendet werden. Umfasst die Zuordnung von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) auf die entsprechende Variable.
 5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einer Person des Adobe-Berater-Teams auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach den Verarbeitungsregeln ausgeführt werden. VISTA-Regeln werden meist nach den Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihr Adobe Account Team , um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
-6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.
+6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.
 7. **Geolokalisierungsdaten**: Dimensionen, die auf der Suche nach IP-Adressen basieren (z. B. die Dimension [Land](/help/components/dimensions/countries.md)), werden befüllt.
-8. [**IP-Verschleierung**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): Wenn sich Ihr Unternehmen dafür entschieden hat, IP-Adressen in Rohdaten zu verschleiern, erfolgt dies, nachdem alle anderen Verarbeitungsfunktionen abgeschlossen sind.
+8. [**IP-Verschleierung**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): Wenn sich Ihr Unternehmen dafür entschieden hat, IP-Adressen in Rohdaten zu verschleiern, erfolgt dies, nachdem alle anderen Verarbeitungsfunktionen abgeschlossen sind.
 
 Zu diesem Zeitpunkt wird der einzelne Treffer in den Report Suite-Datentabellen aufgezeichnet. Nach der standardmäßigen [Latenzzeit](latency.md) ist er in Berichten verfügbar.
 
@@ -46,6 +46,6 @@ Zu diesem Zeitpunkt wird der einzelne Treffer in den Report Suite-Datentabellen 
 Die Daten in Adobe Analytics sind größtenteils unveränderlich. Es gibt jedoch einige Funktionen, die eine selektive Datenanpassung oder -löschung ermöglichen:
 
 * [**Datenreparatur-API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): Bearbeiten Sie bestimmte Spalten oder löschen Sie die gewünschten Datenzeilen.
-* [**Data Governance**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md): Erfüllen Sie Datenschutzanfragen, um Daten dauerhaft zu löschen.
+* [**Data Governance**](/help/technotes/privacy/privacy-overview.md): Erfüllen Sie Datenschutzanfragen, um Daten dauerhaft zu löschen.
 * [**Klassifizierungen**](/help/components/classifications/classifications-overview.md): Erstellen Sie Dimensionen anhand von Regeln oder hochgeladenen Daten, um eine unterschiedliche Organisation der Daten zu ermöglichen. Die zugrunde liegenden Report Suite-Daten werden nicht geändert, sodass Sie Klassifizierungsdaten frei bearbeiten oder überschreiben können.
 * [**Virtual Report Suites**](/help/components/vrs/vrs-about.md): Erstellen Sie eine alternative Report Suite-Ansicht, durch die die maximale Wartezeit bei einem Besuch geändert oder die [geräteübergreifende Analyse](/help/components/cda/overview.md) zugelassen werden kann.

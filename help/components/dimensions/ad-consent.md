@@ -3,7 +3,7 @@ title: Einverständnis für Anzeigenplattform
 description: Siehe die Konfiguration für die Werbezustimmung bei Werbeanbietern von Drittanbietern.
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Die Dimension [Einverständnis zur Anzeigenplattform](overview.md) zeigt an, ob Einverständnis eingeholt wird, um Daten an Drittanbieter von Werbeanbietern wie Google, Meta und andere zu senden.
 
-Derzeit wird diese Dimension nur für Google verwendet. Aufgrund der europäischen Datenschutzbestimmungen, dem Digital Markets Act (DMA), verlangt Google, dass Daten, die an ihre Server gesendet und in Europa erfasst werden, angeben müssen, ob eine Einwilligung eingeholt wird. Einige Analytics-Kunden senden Ereignisdaten per Adobe Advertising als Konversionsereignisse an Google.
+Derzeit wird diese Dimension nur für Google verwendet. Aufgrund der europäischen Datenschutzbestimmungen, dem Digital Markets Act (DMA), verlangt Google, dass Daten, die an ihre Server gesendet und in Europa erfasst werden, angeben müssen, ob eine Einwilligung eingeholt wird. Einige Analytics-Kunden senden Ereignisdaten über Adobe Advertising als Konversionsereignisse an Google.
 
 In Zukunft kann diese Dimension verwendet werden, um die Codierung zusätzlicher Einverständnisinformationen für andere Drittanbieter von Werbung zu unterstützen.
 
@@ -52,10 +52,10 @@ Jenseits des ersten und zweiten Zeichens werden derzeit ignoriert.
 Sie können die erfassten Anzeigeneinverständnisdaten verwenden:
 
 * Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Data Warehouse-Berichte: Die Daten zum Werbeeinverständnis sind über die Dimension **[!UICONTROL Werbeplattformeinverständnis]** verfügbar.
+* Data Warehouse-Berichte: Die Daten zum Anzeigeneinverständnis sind über die Dimension **[!UICONTROL Anzeigenplattformeinverständnis]** verfügbar.
 
 Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariablen. Der Wert bleibt nicht über den Treffer hinaus erhalten, für den er festgelegt wurde. Daher müssen Sie die Kontextdatenvariable auf jeder Seite festlegen.
 
-Wenn Sie Werbedaten von Adobe Analytics per Adobe Advertising als Konversionsereignisse an Google senden, wenden Sie sich bitte an das Adobe Advertising-Team, um bei der Integration zu helfen.
+Wenn Sie Werbedaten von Adobe Analytics über Adobe Advertising als Konversionsereignisse an Google senden, wenden Sie sich an das Adobe Advertising-Team, um Unterstützung bei der Integration zu erhalten.
 
-Weitere Informationen finden Sie unter [Datenschutzberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+Weitere Informationen finden Sie unter [Datenschutzberichte](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md).

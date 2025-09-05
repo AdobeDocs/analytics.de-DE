@@ -3,7 +3,7 @@ title: Referrer-Typ
 description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ Der „Referrer-Typ[ (Dimension](overview.md) zeigt an, welche allgemeinen Kanä
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
+Diese Dimension verweist auf mehrere interne Suchtabellen von Adobe. Jeder Wert basiert auf dem [Referrer](referrer.md) des Treffers, der von [internen URL-Filtern](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) abhängig ist. Vergewissern Sie sich, dass die Dimension „Referrer“ und die internen URL-Filter korrekt konfiguriert sind.
 
 ## Dimensionselemente
 
@@ -35,7 +35,7 @@ Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale 
 
 >[!NOTE]
 >
->Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den [Verarbeitungsregeln für Marketing-Kanäle](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den [Verarbeitungsregeln für Marketing-Kanäle](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

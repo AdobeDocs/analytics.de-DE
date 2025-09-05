@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Ana
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
 # Implementieren von Adobe Analytics mit der Analytics-Erweiterung
 
-Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die derzeit empfohlene Methode für die Adobe ist [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform.
+Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implementierung von Code für die Datenerfassung auf Ihrer Website angeboten. Die derzeit von Adobe empfohlene Methode verwendet [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) in Adobe Experience Platform.
 
 Tags in Adobe Experience Platform ist eine Tag-Management-Lösung, mit der Sie Analytics-Code bereitstellen und weitere Tagging-Vorgaben erfüllen können. Adobe bietet Integrationen mit anderen Lösungen und Produkten und ermöglicht die Bereitstellung von benutzerdefiniertem Code. Alle diese Aufgaben können ausgeführt werden, ohne dass Entwicklungsteams in Ihrer Organisation Code auf Ihrer Website aktualisieren müssen.
 
@@ -34,7 +34,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td> 1</td>
 <td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert haben</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
@@ -47,7 +47,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>3</td>
-<td><b><b>Erstellen Sie eine Tag-Eigenschaft</b>. Eigenschaften sind übergreifende Container, die für Verweise auf Tag-Management-Daten verwendet werden.</td>
+<td><b><b>Erstellen einer Tag-Eigenschaft</b>. Eigenschaften sind übergreifende Container, die zum Verweisen auf Tag-Management-Daten verwendet werden.</td>
 <td><a href="../launch/create-analytics-property.md">Erstellen einer Tag-Eigenschaft in Adobe Analytics</a></td>
 </tr>
 
@@ -65,7 +65,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>6</td> 
 <td><b>Validieren und Veröffentlichen in der Produktionsumgebung</b>. Betten Sie Code ein, um Ihre Tag-Eigenschaft in die Seiten Ihrer Website einzuschließen. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=de#embed-code">Einbettungs-Code</a><br/><a href="./validate-publish-prod.md">Validieren Sie eine Entwicklungsimplementierung und veröffentlichen Sie sie in der Produktionsumgebung</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Einbettungs-Code</a><br/><a href="./validate-publish-prod.md">Validieren Sie eine Entwicklungsimplementierung und veröffentlichen Sie sie in der Produktionsumgebung</a></td>
 </tr>
 
 </table>

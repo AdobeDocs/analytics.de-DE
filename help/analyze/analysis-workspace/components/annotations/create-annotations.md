@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Analysis Workspace Anmerkungen erstellen.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '861'
 ht-degree: 80%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 80%
 Standardmäßig können nur Admins Anmerkungen erstellen. Benutzer haben die Berechtigung, Anmerkungen anzuzeigen, ähnlich wie Benutzer andere Komponenten anzeigen (z. B. Segmente, berechnete Metriken usw.).
 
 
-Admins können jedoch über die [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=de) Benutzenden die Berechtigung zur [!UICONTROL Erstellung von Anmerkungen] (Analytics-Tools) erteilen.
+Admins können jedoch über die [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) Benutzenden die Berechtigung zur [!UICONTROL Erstellung von Anmerkungen] (Analytics-Tools) erteilen.
 
 Sie können Anmerkungen wie folgt erstellen:
 

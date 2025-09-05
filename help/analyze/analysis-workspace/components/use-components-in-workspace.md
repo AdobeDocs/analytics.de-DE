@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie in Analysis Workspace Komponenten in einem Projekt verwenden
+description: Erfahren Sie, wie Sie Komponenten in einem Projekt in Analysis Workspace verwenden.
 title: Verwenden von Komponenten in einem Projekt
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwen
 
 ### Hinzufügen von Dimensionen zu einem Projekt
 
-[Dimensionen](/help/components/dimensions/overview.md) sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Im Gegensatz dazu enthalten [Metriken](/help/components/c-calcmetrics/cm-overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
+[Dimensionen](/help/components/dimensions/overview.md) sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Im Gegensatz dazu enthalten [Metriken](/help/components/calculated-metrics/cm-overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
 1. Fügen Sie zunächst eine Dimension zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben. 
 
@@ -103,7 +103,7 @@ Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwen
 Wenn Sie einer Spalte in einer Freiformtabelle Segmente hinzufügen, werden die Segmente auf alle Inhalte in der Tabellenspalte angewendet. Sie können Segmente auch als Teil einer Fallout-Visualisierung hinzufügen.
 
 * Verwenden von Segmenten in Komponenten
-Wenn Sie Komponenten wie [berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [Anmerkungen](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) oder sogar [Segmente](/help/components/segmentation/segmentation-workflow/seg-build.md) definieren, können Sie Segmente als Teil der Definition verwenden.
+Wenn Sie Komponenten wie [berechnete Metriken](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md), [Anmerkungen](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) oder sogar [Segmente](/help/components/segmentation/segmentation-workflow/seg-build.md) definieren, können Sie Segmente als Teil der Definition verwenden.
 
 
 ### Hinzufügen von Datumsbereichen zu einem Projekt
@@ -245,7 +245,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

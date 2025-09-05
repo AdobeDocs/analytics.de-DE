@@ -5,16 +5,16 @@ title: Kuratieren von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 60%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
 # Kuratieren von Projekten
 
-Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn ein Empfänger das Projekt öffnet, sieht er/sie einen begrenzten Satz von Komponenten, die Sie für ihn kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
+Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente, Datumsbereiche) vor der Freigabe eines Projekts einschränken. Wenn Empfangende das Projekt öffnen, wird ihnen eine begrenzte Anzahl an Komponenten angezeigt, die Sie für sie kuratiert haben. Die Kuratierung ist ein optionaler, aber empfehlenswerter Schritt, bevor Sie ein Projekt freigeben.
 
 >[!NOTE]
 > Produktprofile bestimmen als Hauptmechanismen, welche Komponenten ein Anwender sehen kann. Sie werden über die Adobe Experience Cloud Admin Console verwaltet. Kuratierung ist ein Sekundärfilter.
@@ -22,36 +22,36 @@ Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kuratieren von Projekten](https://video.tv.adobe.com/v/328056?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kuratieren von Projekten](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 ## Anwenden der Projektkuratierung
 
-1. Wählen Sie **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
-Die Komponenten, die im Projekt verwendet werden, werden automatisch hinzugefügt.
+1. Wählen Sie **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]** aus.
+Die im Projekt verwendeten Komponenten werden automatisch hinzugefügt.
 Wenn ein Projekt über mehrere Report Suites verfügt, wird für jede Report Suite im Projekt ein kuratiertes Ablageziel angezeigt.
-1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die Komponenten, die Sie freigeben möchten, aus dem linken Bereich in den Ablagebereich **[!UICONTROL Komponenten kuratieren]** für die Datenansicht.
-1. Wählen Sie **[!UICONTROL Fertig]** aus.
+1. (Optional) Um weitere Komponenten hinzuzufügen, ziehen Sie die freizugebenden Komponenten aus dem linken Panel in den Ablagebereich **[!UICONTROL Komponenten kuratieren]** der Datenansicht.
+1. Wählen Sie **[!UICONTROL Fertig]** aus. 
 
 
 ![](assets/curation-field.png)
 
-Wenn ein Empfänger ein kuratiertes Projekt öffnet, wird ihm nur der von Ihnen definierte kuratierte Komponentensatz angezeigt:
+Wenn Empfangende ein kuratiertes Projekt öffnen, werden ihnen nur die von Ihnen definierten kuratierten Komponenten angezeigt:
 
 
 ## Entfernen der Projektkuratierung
 
 So entfernen Sie die Projektkuratierung und stellen Sie den vollständigen Satz der Komponenten in der linken Leiste wieder her:
 
-1. Wählen Sie **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]**.
-1. Wählen Sie **[!UICONTROL Kuration entfernen]** aus.
+1. Wählen Sie **[!UICONTROL Freigeben]** > **[!UICONTROL Projektdaten kuratieren]** aus.
+1. Wählen Sie **[!UICONTROL Kuratierung entfernen]** aus.
 1. Wählen Sie **[!UICONTROL Fertig]** aus.
 
 ## Kuratierung einer Virtual Report Suite
 
-Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite kuratieren](https://experienceleague.adobe.com/de/docs/analytics/components/virtual-report-suites/vrs-components).
+Um die Kuratierung auf Report Suite-Ebene anzuwenden, sodass sie für viele Projekte gleichzeitig gilt, können Sie Komponenten in einer [Virtual Report Suite kuratieren](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Adobe Analytics mit JavaScript ohne Tag-Manag
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 42%
@@ -26,11 +26,11 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>1</td><td>Stellen Sie sicher<b> dass Sie eine Report Suite definiert haben</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Stellen Sie sicher<b> dass Sie eine Report Suite definiert haben</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Laden Sie den erforderlichen JavaScript-Code für das AppMeasurement</b> vom Code-Manager herunter. Entpacken Sie die Datei.</td><td><a href="../../admin/admin/code-manager-admin.md">Code-Manager</a></td>
+<td>2</td><td><b>Laden Sie den erforderlichen JavaScript-Code für AppMeasurement </b> Code-Manager herunter. Entpacken Sie die Datei.</td><td><a href="../../admin/tools/code-manager-admin.md">Code-Manager</a></td>
 </tr>
 
 <tr>

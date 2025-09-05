@@ -4,21 +4,21 @@ audience: end-user
 user-guide-title: Handbuch zur Analytics-Integration
 breadcrumb-title: Integrationsleitfaden
 user-guide-description: Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager und Advertising Cloud.
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 96%
 
 ---
 
 
 # Handbuch für die Adobe Analytics-Integration {#integration}
 
-+ [Analytics-Integration](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
++ [Analytics-Integrationshandbuch](home.md)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Audience Analytics {#audience-analytics}
    + [Audience Analytics-Übersicht](c-audience-analytics/mc-audiences-aam.md)
-   + Audience Analytics-Workflow {#audience-analytics-workflow}
+   + Audience Analytics-Workflow {#audience-analytics-workflow}
       + [Workflow-Übersicht](c-audience-analytics/c-workflow/audiences-workflow.md)
       + [Analytics-Ziel erstellen – Handbuch für Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=de)
       + [Zielgruppendaten in Analytics verwenden](c-audience-analytics/c-workflow/use-audience-data-analytics.md)

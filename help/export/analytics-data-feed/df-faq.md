@@ -4,9 +4,9 @@ keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Wenn Sie unterschiedliche Schreibweisen desselben Werts zwischen Nicht-Post- und
 
 ## Enthalten Daten-Feeds Bots, die nach Admin Console-Bot-Regeln gefiltert wurden? {#bots}
 
-Daten-Feeds enthalten keine Bots, die nach [Admin Console-Bot-Regeln](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=de) gefiltert wurden.
+Daten-Feeds enthalten keine Bots, die nach [Admin Console-Bot-Regeln](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) gefiltert wurden.
 
 ## Warum werden in der Daten-Feed-Spalte `event_list` oder `post_event_list` mehrere `000`-Werte angezeigt? {#values}
 

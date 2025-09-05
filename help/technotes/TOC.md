@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 100%
 # Technische Hinweise zu Analytics {#technotes}
 
 + [Technische Hinweise zu Analytics](home.md)
-+ Anwender von Adobe Analytics für Google Analytics {#ga-to-aa}
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ Adobe Analytics für Google Analytics-Benutzer {#ga-to-aa}
    + [Hilfe für Anwender von Adobe Analytics für Google Analytics](ga-to-aa/home.md)
    + [Konten und Report Suites](ga-to-aa/accounts.md)
    + [Berichtsansichten anpassen](ga-to-aa/customization.md)
@@ -49,7 +50,13 @@ ht-degree: 100%
 + [Geringer Traffic-Wert](low-traffic.md)
 + [Migrieren von Verarbeitungsregeln für Mobile Services nach Adobe Analytics](migrate-mobile.md)
 + [Unterstützung mehrerer Währungen](multicurrency.md)
-+ [Datenschutzübersicht](privacy-overview.md)
++ Datenschutz {#privacy}
+   + [Datenschutzübersicht](privacy/privacy-overview.md)
+   + [Workflow zum Datenschutz](privacy/privacy-workflow.md)
+   + [Analytics und die DSGVO](privacy/gdpr.md)
+   + [Analytics und CCPA](privacy/ccpa.md)
+   + [Ausnahme für Analytics- und CNIL-Einverständnis](privacy/cnil-consent-exemption.md)
+   + [Häufig gestellte Fragen zum Datenschutz](privacy/faq.md)
 + [Verarbeitungsreihenfolge](processing-order.md)
 + [Progressive Web-Apps](pwa.md)
 + [Umleitungen und Aliasse](redirects.md)

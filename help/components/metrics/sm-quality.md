@@ -3,7 +3,7 @@ title: Qualitätsmetriken für Streaming-Mediendienste
 description: Verfügbare Metriken, wenn Sie [!UICONTROL Medienqualität] für eine Report Suite aktivieren.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Qualitätsmetriken für Streaming-Mediendienste bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Bibliotheken für Streaming-Mediendienste. Für die Verwendung dieser Metriken ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Wenn Sie **[!UICONTROL Medienqualität]** unter [Medienberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Metriken verfügbar:
+Wenn Sie **[!UICONTROL Medienqualität]** unter [Medienberichte](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Metriken verfügbar:
 
 | Metrikname | Beschreibung | Gesendet mit | Kontextdatenvariable |
 | --- | --- | --- | --- |

@@ -4,10 +4,10 @@ title: Segmente - Übersicht
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 43%
 
 ---
 
@@ -20,14 +20,14 @@ Sie können Segmente in Analysis Workspace und Customer Journey Analytics erstel
 | --- | --- | --- | --- |
 | Segment der Komponentenliste | Siehe „Erstellen [ Segments](/help/components/segmentation/segmentation-workflow/seg-create.md). | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
 | Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Kann für Einzelregelsegmente (per Drag-and-Drop) oder zum Hinzufügen/Bearbeiten mehrerer Regeln (durch Klicken auf das Segmentsymbol) verwendet werden |
-| Auf berechneten Metriken basierendes Segment | [Generator für berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=de) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
-| Auf Virtual Report Suite basierendes Segment | [Virtual Report Suite Builder](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer Virtual Report Suite-Definition |
+| Auf berechneten Metriken basierendes Segment | [Generator für berechnete Metriken](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
+| Auf Virtual Report Suite basierendes Segment | [Virtual Report Suite Builder](/help/components/vrs/c-workflow-vrs/vrs-create.md) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer Virtual Report Suite-Definition |
 
 ## Videos
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von Segmenten in Analysis Workspace](https://video.tv.adobe.com/v/41392?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo dazu.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von Segmenten in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo dazu.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace können Sie verschiedene Segmenttypen erstellen:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Weitere Methoden zum Anwenden von Segmenten](https://video.tv.adobe.com/v/33620?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Weitere Methoden zum Anwenden von Segmenten](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Weitere Method
 
 Der Segmentvergleich umfasst die folgenden Funktionen:
 
-* [Bedienfeld „Segmentvergleich“:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) Hiermit können Sie zwei Segmente in das Bedienfeld ziehen und einen umfassenden Bericht anzeigen, der statistisch signifikante Unterschiede und Überschneidungen zwischen den beiden Zielgruppen zeigt.
+* [Panel „Segmentvergleich“:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) Ziehen Sie zwei Segmente in das Panel und zeigen Sie einen umfassenden Bericht an, der statistisch signifikante Unterschiede und Überschneidungen zwischen den beiden Zielgruppen zeigt.
 * [Vergleich von Segmenten hinsichtlich Fallout:](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) Sehen Sie sich einen Vergleich verschiedener Zielgruppen im Kontext einer Fallout-Visualisierung an.
 
 

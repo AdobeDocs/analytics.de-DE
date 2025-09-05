@@ -1,16 +1,16 @@
 ---
-description: Erfahren Sie, wie Sie Segmente mithilfe von Drag-and-Drop von Metriken, Dimensionen, Segmenten und Ereignissen erstellen. Erfahren Sie, wie Sie einfache oder komplexe Segmente erstellen und speichern können, die Besucherattribute und Aktionen über Besuche und Seitentreffer hinweg identifizieren.
-title: Segmente erstellen
+description: Erfahren Sie, wie Sie Segmente mithilfe von Drag-and-Drop von Metriken, Dimensionen, Segmenten und Ereignissen erstellen. Lernen Sie, wie Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
+title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1847'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Aufbauen von Segmenten {#build-segments}
+# Erstellen von Segmenten {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Datenvorschau"
->abstract="Vergleicht die Daten dieses Segments mit den Daten der Report Suite. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl der **letzten 90 Tage**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
+>abstract="Vergleicht die Daten dieses Segments mit den Daten der Report Suite. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl in der Verbindung aus den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
 
 
 Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zum Bearbeiten vorhandener Segmente verwendet. Das Dialogfeld heißt **[!UICONTROL Neues Segment]** oder **[!UICONTROL Segment bearbeiten]** bei Segmenten, die Sie über den [[!UICONTROL Segment-Manager] erstellen oder verwalten](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -47,7 +47,7 @@ Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zu
    | Element | Beschreibung |
    | --- | --- |
    | **[!UICONTROL Report Suite]** | Sie können die Report Suite für das Segment auswählen. |
-   | **[!UICONTROL Projektspezifische Segmente]** | Ein Infofeld, in dem erklärt wird, dass das Segment nur in dem Projekt sichtbar ist, in dem es erstellt wurde. und dass das Segment nicht Ihrer Komponentenliste hinzugefügt wird. Aktivieren Sie **[!UICONTROL Dieses Segment für alle Projekte verfügbar machen und der Komponentenliste hinzufügen]**, um diese Einstellung zu ändern. Dieses Infofeld wird nur angezeigt, wenn Sie ein [Schnellsegment](seg-quick.md) erstellen und dieses mithilfe von **[!UICONTROL Builder öffnen]** in der Oberfläche [!UICONTROL Schnellsegment] in ein reguläres Segment umwandeln. |
+   | **[!UICONTROL Projektspezifische Segmente]** | Ein Infofeld, in dem erklärt wird, dass das Segment nur in dem Projekt sichtbar ist, in dem es erstellt wurde, und dass das Segment nicht Ihrer Komponentenliste hinzugefügt wird. Aktivieren Sie **[!UICONTROL Dieses Segment für alle Projekte verfügbar machen und der Komponentenliste hinzufügen]**, um diese Einstellung zu ändern. Dieses Infofeld wird nur angezeigt, wenn Sie ein [Schnellsegment](seg-quick.md) erstellen und dieses mithilfe von **[!UICONTROL Builder öffnen]** in der Oberfläche [!UICONTROL Schnellsegment] in ein reguläres Segment umwandeln. |
    | **[!UICONTROL Titel]** ![Erforderlich](/help/assets/icons/Required.svg) | Benennen Sie das Segment, beispielsweise mit `Last month mobile visitors`. |
    | **[!UICONTROL Beschreibung]** | Geben Sie eine Beschreibung für das Segment ein, beispielsweise `Segment to define the mobile customers for the last month`. |
    | **[!UICONTROL Tags]** | Organisieren Sie das Segment, indem Sie ein oder mehrere Tags erstellen oder anwenden. Beginnen Sie mit der Eingabe, um nach vorhandenen Tags zu suchen, die Sie auswählen können. Oder drücken Sie die **[!UICONTROL Eingabetaste]**, um ein neues Tag hinzuzufügen. Wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg) aus, um ein Tag zu entfernen. |
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](/help/analyze/report-builder/work-with-segments.md).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Segmentvorlagen {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Segmentvorlagen werden für gängige Anwendungsfälle für die Segmentierung bereitgestellt, z **[!UICONTROL B. „Erstbesuche]** oder &quot;**[!UICONTROL von Mobilgeräten]**. Sie stehen in Workspace-Projekten und im Segment Builder als Bausteine für neue Segmente zur Verfügung.
+Segmentvorlagen werden für gängige Anwendungsfälle der Segmentierung bereitgestellt, z. B. **[!UICONTROL Erstbesuche]** oder **[!UICONTROL Besuche von Mobilgeräten]**. Sie stehen in Workspace-Projekten und im Segment Builder als Bausteine für neue Segmente zur Verfügung.
 
-Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifiziert Vorlagen. Nachfolgend finden Sie ein Beispiel für die verfügbaren Vorlagen:
+Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeichnet Vorlagen. Nachfolgend sind einige der verfügbaren Beispielvorlagen aufgeführt:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,75 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifi
  <tbody> 
   <tr> 
    <td colname="col1"> Warenkorb vorzeitig verlassen </td> 
-   <td colname="col2">Daten zu Besuchern anzeigen, die Elemente zum Warenkorb hinzugefügt, aber nichts bestellt haben. In der Segmentdefinition ist der Container Besuch . </td> 
+   <td colname="col2">Daten zu Besuchern anzeigen, die Elemente zum Warenkorb hinzugefügt, aber nichts bestellt haben. In der Segmentdefinition ist der Container „Besuche“.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erstbesuche </td> 
-   <td colname="col2">Daten zu Besuchern mit maximal einem [1] Besuch anzeigen. In der Segmentdefinition ist der Container Besuch . </p> </td> 
+   <td colname="col2">Daten zu Besuchern mit maximal einem [1] Besuch anzeigen. In der Segmentdefinition ist der Container „Besuche“.  </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Nichtkäufer </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die nicht an einem Bestellereignis teilgenommen haben. </td> 
+   <td colname="col1"> Nichtkaufende </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die nicht zu einem Bestellereignis beitrugen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Nicht-Einzelseitenbesuche (keine Bounces) </td> 
-   <td colname="col2">Daten für Besucher anzeigen, die mehr als einmal besucht haben.</p> </td> 
+   <td colname="col1"> Nicht-Einzelseitenbesuche (Keine Absprünge) </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die mehr als einen Besuch durchgeführt haben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paid Search </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die aus einer gebührenpflichtigen Suche stammen.  </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die über Paid Search kommen.   </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Käufern </td> 
-   <td colname="col2">Zeigen Sie Daten der Besucher an, die an einem Bestellereignis teilgenommen haben.  </td> 
+   <td colname="col1"> Kaufende </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die zu einem Bestellereignis beitrugen.  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Rückkehrende Besucher </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die mindestens einmal besucht haben.  </td> 
+   <td colname="col1"> Rückkehrende Besuchende </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die mindestens einen Besuch durchgeführt haben.   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Einzelseitenbesuche </td> 
-   <td colname="col2"> Daten zu Besuchen anzeigen, bei denen ein Einzelseitenwert vorliegt, auch wenn während des Besuchs mehrere Seitenansichten übermittelt werden. Einzelseitenbesuche mit Exitlink-Ereignissen sind im Segment enthalten.  </td> 
+   <td colname="col2"> Daten zu Besuchen anzeigen, bei denen ein Einzelseitenwert vorliegt, auch wenn während des Besuchs mehrere Seitenansichten übermittelt werden. Einzelseitenbesuche mit Exitlink-Ereignissen werden in das Segment einbezogen.   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Angesehenes Produkt wurde nicht dem Warenkorb hinzugefügt </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die Produkte angesehen haben, aber keine Hinzufügungen zum Warenkorb hatten.  </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Produkte angesehen, aber keine zum Warenkorb hinzugefügt haben.   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Kampagnen </td> 
-   <td colname="col2">Zeigen Sie Daten von Besuchern an, auf die durch Kampagnen verwiesen wird. </td> 
+   <td colname="col2">Daten zu Besuchenden aus Kampagnen anzeigen.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Mobilgeräten </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die Mobilgeräte verwenden. </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Mobilgeräte verwenden.  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Besuche über eine kostenlose Suche </td> 
-   <td colname="col2">Zeigen Sie Daten von Besuchern an, die nicht von einer gebührenpflichtigen Suche stammen.  </td> 
+   <td colname="col1"> Besuche über eine natürliche Suche </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die nicht über Paid Search kommen.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Nicht-Mobilgerät </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die keine Mobilgeräte verwenden. </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die kein Mobilgerät verwenden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Smartphones </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern mit Telefonen an.  </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Smartphones verwenden.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche über Suchmaschinen </td> 
-   <td colname="col2">Zeigen Sie Daten von Besuchern an, auf die von Suchmaschinen verwiesen wird.</td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die über Suchmaschinen kommen.</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Besuche von sozialen Netzwerken aus </td> 
-   <td colname="col2">Zeigen Sie Daten von Besuchern an, auf die durch soziale Websites verwiesen wird.</td> 
+   <td colname="col1"> Besuche von Social Media aus </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die aus Social Media kommen.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Tablets </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern mithilfe von Tablets an.</td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Tablets verwenden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche mit Besucher-ID-Cookie </td> 
-   <td colname="col2">Zeigen Sie Daten der Besucher Ihrer Site an, wenn ein persistentes Cookie erforderlich ist.</td> 
+   <td colname="col2">Daten zu Besuchenden Ihrer Site anzeigen, für die ein persistentes Cookie erforderlich ist.</td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,9 +4,9 @@ short-description: Lernen Sie die wichtigsten Funktionen, gängigen Anwendungsf�
 title: Übersicht zu Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Einführung in
 >[!ENDSHADEBOX]
 
 
-Eine Erörterung, welches Tool verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=de).
+Eine Erörterung, welches Tool verwendet werden sollte, finden Sie unter [Welches Adobe Analytics-Tool sollte ich verwenden?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Mehr erreichen mit Customer Journey Analytics
 
@@ -57,4 +57,4 @@ Im Folgenden sehen Sie einige der Vorteile von Customer Journey Analytics gegen�
 
 * **Report Suite-übergreifende Daten**: Vorhandene Implementierungen aus mehreren Datensätzen können in Platform kombiniert werden.
 
-Weitere Informationen finden Sie unter [Customer Journey Analytics – Übersicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de).
+Weitere Informationen finden Sie unter [Customer Journey Analytics – Übersicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).

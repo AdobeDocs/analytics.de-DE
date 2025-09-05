@@ -4,7 +4,7 @@ description: Hier erfahren Sie mehr über die ersten Schritte mit Adobe Analytic
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 96%
@@ -72,7 +72,7 @@ Informationen zur Vergabe der Rolle von Produktprofil-Administrierenden an Benut
 
 ## Nächste Schritte
 
-[Erstellen einer Report Suite](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Bitten Sie Ihren Analytics-Admininstrator bzw. Ihre Analytics-Administratorin, sich beim Tool anzumelden und eine Report Suite für die Datenerfassung zu erstellen
+[Erstellen einer Report Suite](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): Bitten Sie Ihren Analytics-Admininstrator bzw. Ihre Analytics-Administratorin, sich beim Tool anzumelden und eine Report Suite für die Datenerfassung zu erstellen
 
 [Erstellen einer Analytics-Tag-Eigenschaft](/help/implement/launch/create-analytics-property.md): Bitten Sie Ihren Datenerfassungs-Administrator, sich beim Tool anzumelden und eine Eigenschaft zu erstellen, die auf Ihrer Site implementiert werden soll.
 

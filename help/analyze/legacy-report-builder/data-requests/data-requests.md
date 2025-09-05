@@ -4,9 +4,9 @@ title: 'Datenanforderungen – Anforderungs-Assistent: Schritt 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 92%
 
 ---
@@ -23,7 +23,7 @@ Im Dialogfeld „Anforderungs-Assistent: Schritt 1“ wählen Sie die Report Sui
 
 1. **Bereichsauswahl:** Hier können Sie eine Report Suite-ID aus einer Zelle in Excel auswählen. Siehe [Report Suites auswählen](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment**: Segmente sind benutzerspezifische Teildatensätze oder Daten, die durch eigens erstellte Regeln gefiltert wurden. Segmente basieren auf Treffern, Besuchen und Besuchern. Weitere Informationen zu Segmenten finden Sie im [Analytics-Segmentierungsleitfaden](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de).
+1. **Segment**: Segmente sind benutzerspezifische Daten-Teilmengen oder Daten, die durch eigens erstellte Regeln gefiltert wurden. Segmente basieren auf Treffern, Besuchen und Besuchern. Weitere Informationen zu Segmenten finden Sie im [Analytics-Segmentierungsleitfaden](/help/components/segmentation/seg-home.md).
 
    Beispiel: Sie führen einen [!UICONTROL Seitenbericht] aus und wenden dann das Segment „Erstbesuche“ an.
 

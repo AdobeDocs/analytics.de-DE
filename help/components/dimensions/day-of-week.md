@@ -3,7 +3,7 @@ title: Wochentag
 description: Der Wochentag, unabhängig vom Datumsbereich.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 88%
@@ -20,4 +20,4 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören `Sunday` – `Saturday`, die den Wochentag des Treffers darstellen. Die Reihenfolge der Dimensionselemente berücksichtigt standardmäßig den ersten Wochentag in [Kalender anpassen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md).
+Zu den Dimensionselementen gehören `Sunday` – `Saturday`, die den Wochentag des Treffers darstellen. Die Reihenfolge der Dimensionselemente berücksichtigt standardmäßig den ersten Wochentag in [Kalender anpassen](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md).

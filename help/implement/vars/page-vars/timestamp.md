@@ -4,9 +4,9 @@ description: Setzen Sie den Zeitstempel des Treffers manuell fest.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 81%
 
 ---
@@ -21,7 +21,7 @@ Die `timestamp`-Variable legt den Zeitstempel des Treffers für Report Suites mi
 
 ## Zeitstempel bei Verwendung der Web-SDK
 
-Der Zeitstempel ist [für Adobe Analytics) unter ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=de) XDM-`xdm.timestamp` zugeordnet. Dieses Feld unterstützt nur Unix-Zeit.
+Der Zeitstempel ist [für Adobe Analytics) unter ](/help/implement/aep-edge/xdm-var-mapping.md) XDM-`xdm.timestamp` zugeordnet. Dieses Feld unterstützt nur Unix-Zeit.
 
 ## Zeitstempel bei Verwendung der Adobe Analytics-Erweiterung
 

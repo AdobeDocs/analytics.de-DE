@@ -3,10 +3,10 @@ description: Administrative Schritte zum Einrichten von Echtzeitberichten.
 title: Echtzeitberichte konfigurieren
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 77%
+source-wordcount: '271'
+ht-degree: 74%
 
 ---
 
@@ -22,11 +22,11 @@ Sie können dabei die Report Suite auswählen und bis zu drei Berichte dafür ko
 
    1. Wählen Sie die Report Suite aus der Dropdownliste oben aus:
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report_suite_selector.png)
 
       Wenn Sie versuchen, Echtzeitberichte für eine Report Suite anzuzeigen, die nicht für Echtzeitberichte eingerichtet wurde, wird eine Meldung angezeigt, die Ihnen das Einrichten der Report Suite ermöglicht.
 
-      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/rep_suite_not_set_up.png)
 
 1. Wählen Sie **[!UICONTROL Konfigurieren]** aus, um den [!UICONTROL Report Suite Manager] auszuführen.
 
@@ -37,7 +37,7 @@ Sie können dabei die Report Suite auswählen und bis zu drei Berichte dafür ko
 
    ![](assets/real_time_admin.png)
 
-   Informationen zu unterstützten Echtzeit-Metriken und -Dimensionen finden Sie unter [Unterstützte Metriken und Dimensionen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
+   Informationen zu unterstützten Echtzeit-Metriken und -Dimensionen finden Sie unter [Unterstützte Metriken und Dimensionen](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md).
 
    Falls Sie Classifications erstellt haben, werden sie unter der Dimension angezeigt, für die sie definiert wurden:
 
@@ -51,10 +51,10 @@ Sie können dabei die Report Suite auswählen und bis zu drei Berichte dafür ko
    >
    >Manche Dimensionen wie „Keyword“ oder „Produkt“ sind im Gegensatz zu anderen Funktionsbereichen in Adobe Analytics in Echtzeit nicht persistent. Wenn Sie eine nicht persistente Metrik auswählen, erscheint folgende Warnmeldung:
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
 
 1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und Bericht anzeigen]**.
 
-   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Daraufhin sind die Daten sofort verfügbar. Informationen zum Anzeigen von Echtzeitberichten erhalten Sie unter [Einen Echtzeitbericht ausführen](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=de).
+   Nach diesem ersten Bericht-Setup kann es bis zu 20 Minuten dauern, bis Daten gestreamt werden. Ab diesem Zeitpunkt sind die Daten sofort verfügbar.
 
 1. Standardmäßig haben alle Benutzer Zugriff auf Echtzeitberichte.

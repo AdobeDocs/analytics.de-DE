@@ -4,7 +4,7 @@ keywords: Analytics-Implementierung
 title: Umleitungen und Aliase
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -41,8 +41,8 @@ Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht um
 Umleitungen können dazu führen, dass der Browser die eigentliche verweisende URL ausblendet. Betrachten wir das folgende Szenario:
 
 1. Der Benutzer verweist seinen Browser auf `https://www.google.com`, gibt *Discount-Airline Tickets* in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
-1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaiiforfree.com/]. Diese *Vanity*-Domain ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
-1. Der Benutzer klickt auf den Link `https://www.flytohawaiiforfree.com/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
+1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaii.example/]. Diese *Vanity*-Domain ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
+1. Der Benutzer klickt auf den Link `https://www.flytohawaii.example/` und wird vom Server auf Ihre Hauptseite `https://www.example.com` umgeleitet. Wenn die Weiterleitung erfolgt, gehen die für die Datenerfassung in [!DNL Analytics] wichtigen Daten verloren, da der Browser die verweisende URL löscht. Somit sind die ursprünglichen Suchinformationen nicht mehr vorhanden, die in den [!DNL Analytics]-Berichten (z. B. [!UICONTROL Verweisende Domänen], [!UICONTROL Suchmaschinen], [!UICONTROL Keywords]) verwendet wurden.
 
 ## Umleitungen implementieren {#implement}
 
@@ -52,7 +52,7 @@ Mit Durchführung der folgenden Schritte werden die Informationen erhalten, die 
 
 ## Konfiguration von JavaScript-Code zum Außerkraftsetzen des Verweises {#override}
 
-Der nachstehende Codeabschnitt zeigt zwei JavaScript-Variablen, *`s_referrer`* und *`s_pageURL`*. Dieser Code wird auf der endgültigen Landingpage der Weiterleitung platziert.
+Der nachstehende Codeabschnitt zeigt zwei JavaScript-Variablen, `s.referrer` und `s.pageURL`. Dieser Code wird auf der endgültigen Landingpage der Weiterleitung platziert.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ Für gewöhnlich ruft [!DNL Analytics] die verweisende URL aus der Eigenschaft [
 Daher muss die finale Version der Landingpage den folgenden Code enthalten, damit die Fehler im Szenario „Discount-Airline Tickets“ korrigiert werden können.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Überprüfen des Referrers mit dem Adobe Debugger {#verify}
@@ -135,8 +135,8 @@ Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugg
   </tr> 
   <tr> 
    <td> <p>„Seiten-URL“ </p> </td> 
-   <td> <p> <span class="filepath">https://www.flytohawaiiforfree.com</span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Dieser Wert wird im DigitalPulse-Debugger angezeigt, wenn die Variable <span class="varname"> pageURL</span> verwendet wird. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Dieser Wert wird im DigitalPulse-Debugger angezeigt, wenn die Variable <span class="varname"> pageURL</span> verwendet wird. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Endgültige Landingpage-URL </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

@@ -4,18 +4,18 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
-workflow-type: ht
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
 # Handbuch für die Implementierung von Adobe Analytics {#implementation}
 
-+ [Implementieren von Adobe Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
++ [Analytics-Implementierungshandbuch](home.md)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + [Versionshinweise für AppMeasurement](appmeasurement-updates.md)
 + Analytics-Variablen, -Funktionen und -Methoden {#vars}
    + [Überblick](vars/overview.md)

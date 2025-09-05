@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie mehr über die Verwendung von Daten-Feeds und Data Warehouse zum Abrufen der Ausgabe von Daten.
-source-git-commit: 9131c9ffbcf409620a67b36637367af22733b909
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 95%
+source-wordcount: '255'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # Exportleitfaden für Adobe Analytics {#export}
 
 + [Exportleitfaden für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Analytics-Daten-Feed {#analytics-data-feed}
    + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
    + [Erstellen eines Daten-Feeds](analytics-data-feed/create-feed.md)
@@ -73,6 +73,4 @@ ht-degree: 95%
       + [Adobe-Daten an ein externes FTP-Konto mit SFTP senden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Data Warehouse-Anforderungen an SFTP-Server senden](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbindung zu Adobe über SFTP ohne Kennwort herstellen](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace-Downloads](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=de)
-+ [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/de/docs/analytics/analyze/report-builder/rb-overview)
++ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)

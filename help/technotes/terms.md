@@ -3,7 +3,7 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -16,16 +16,16 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 
 * **Activity Map:** ein Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Siehe [Activity Map](/help/analyze/activity-map/overview.md) im Benutzerhandbuch zu Analysen.
 * **Admin Console:** kann sich auf Folgendes beziehen:
-   * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/admin/c-admin-tools.md) im Administratorhandbuch.
+   * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/tools/c-admin-tools.md) im Administratorhandbuch.
    * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
-* **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
+* **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Analysis Workspace:** Browser-Lösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Siehe [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) im Handbuch zu den Analytics-Tools.
 * **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) im Analytics-Tool-Handbuch.
 * **AppMeasurement:** die Code-Bibliothek, mit der Daten erfasst und an Adobe gesendet werden. Siehe [Startseite](/help/implement/home.md) des Benutzerhandbuchs zu Implementierungen.
 * **ASI-Slot:** Dieser ist nicht mehr vorhanden. In früheren Versionen von Adobe Analytics boten die ASI-Slots einen temporären Report Suite-Container, um segmentierte Daten anzuzeigen. In der aktuellen Version von Adobe Analytics können Segmente sofort auf jeden Bericht angewendet werden.
 * **Aufschlüsselung:** ermöglicht die Anzeige einer Dimension im Kontext einer anderen Dimension. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Handbuch zu den Analytics-Tools.
 * **Absprung:** ein Besuch, der aus einem einzelnen Treffer besteht. Siehe [Absprünge](/help/components/metrics/bounces.md) im Benutzerhandbuch zu Komponenten. Siehe auch „Einzelzugriff“.
-* **Berechnete Metrik:** ermöglicht die Kombination vorhandener Metriken, statistischer Funktionen und Formeln zur Verwendung in Berichten. Siehe [Berechnete Metriken](/help/components/c-calcmetrics/cm-overview.md) im Benutzerhandbuch zu Komponenten.
+* **Berechnete Metrik:** ermöglicht die Kombination vorhandener Metriken, statistischer Funktionen und Formeln zur Verwendung in Berichten. Siehe [Berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Kampagne:** kann sich auf Folgendes beziehen:
    * Die Kampagnenvariable, die die Dimension „Trackingcode“ ausfüllt. Siehe [Kampagne](../implement/vars/page-vars/campaign.md) im Benutzerhandbuch zu Implementierungen.
    * Eine Standard-Classification der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
@@ -56,7 +56,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Ereignis-Serialisierung:** der Prozess der Implementierung von Maßnahmen zur Vermeidung der Erfassung doppelter Ereignisse. Siehe [Ereignis-Serialisierung](../implement/vars/page-vars/events/event-serialization.md) im Benutzerhandbuch zu Implementierungen.
 * **eVar:** Siehe „Konversionsvariable“.
 * **Ereignis:** Siehe „Erfolgsereignis“.
-* **Gültigkeit:** wie lange der Wert im Backend einer Konversionsvariablen erhalten bleibt. Durch diese Persistenz können Ereignisse mit Variablenwerten vor dem Treffer des Ereignisses verknüpft werden. Siehe [Konversionsvariablen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
+* **Gültigkeit:** wie lange der Wert im Backend einer Konversionsvariablen erhalten bleibt. Durch diese Persistenz können Ereignisse mit Variablenwerten vor dem Treffer des Ereignisses verknüpft werden. Siehe [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Fluss:** ein Visualisierungstyp in Analysis Workspace, der zeigt, welche Pfade Anwender auf Ihrer Site genutzt haben. Siehe [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) im Handbuch für Analytics-Tools.
 * **Globale Report Suite:** ein informeller Begriff, der für eine Report Suite bestimmt ist, die Treffer von mehreren Sites erfasst.
 * **H-Code:** ein Vorgänger von AppMeasurement. In früheren Versionen von Adobe Analytics wurden Code-Versionen nach „H-Version“ gemessen, z. B. H.27.5, H.26 usw.
@@ -84,11 +84,11 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Persistenz:** ein abstraktes Konzept für Konversionsvariablen, das die Verknüpfung zwischen einem Variablenwert und einem Ereignis bei separaten Treffern ermöglicht. Siehe auch „Gültigkeit“.
 * **Primärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, handelt es sich bei der ersten Report Suite um einen primären Server-Aufruf und bei den anderen um sekundäre Server-Aufrufe. Diese Regel gilt für alle Treffertypen, einschließlich Seitenansicht und Linktracking. Siehe auch „Sekundäre Server-Aufrufe“.
 * **Verarbeitungsregeln:** kann sich auf Folgendes beziehen:
-   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) im Administratorhandbuch.
-   * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) im Administratorhandbuch.
+   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) im Administratorhandbuch.
+   * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) im Administratorhandbuch.
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
-* **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) im Administratorhandbuch.
+* **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) im Administratorhandbuch.
 * **Report Builder:** Mit dem JavaScript-[Report Builder](/help/analyze/report-builder/rb-overview.md)-Add-in können Sie benutzerdefinierte Anforderungen aus Adobe Analytics-Daten erstellen.
 * **Report Suite:** ein übergeordneter Container, an den Sie Daten senden. Alle Berichte in Adobe Analytics verweisen auf eine Report Suite.
 * **Reports &amp; Analytics:** Dieses Tool wurde [Ende des Lebenszyklus](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=de).

@@ -3,7 +3,7 @@ title: Rangansicht aller Suchseiten
 description: Bestimmen Sie, welche Seite in einer Suchmaschine ein Besucher zu Ihrer Site durchgeklickt hat.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 85%
@@ -12,11 +12,11 @@ ht-degree: 85%
 
 # Rangansicht aller Suchseiten
 
-Der „Rang aller Suchseiten“ [Dimension](overview.md) bietet Einblick in die Seite der Suchergebnisse, durch die ein Besucher auf Ihre Site geklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
+Der „Rang aller Suchseiten“ [Dimension](overview.md) liefert insight, auf welcher Suchergebnisseite ein Besucher auf Ihre Site geklickt hat. Wenn Ihre Site beispielsweise auf der zweiten Seite der Suchergebnisse einer Suchmaschine erscheint, ist das Dimensionselement für diese Variable „Suchseite 2“.
 
 ## Füllen dieser Dimension mit Daten
 
-Damit diese Dimension funktioniert, müssen die [internen URL-Filter](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) in Ihrer Report Suite korrekt eingerichtet sein. AppMeasurement füllt diese Dimension automatisch ohne Änderungen am Implementierungscode.
+Damit diese Dimension funktioniert, müssen die [internen URL-Filter](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) in Ihrer Report Suite korrekt eingerichtet sein. AppMeasurement füllt diese Dimension automatisch ohne Änderungen am Implementierungscode.
 
 ## Dimensionselemente
 

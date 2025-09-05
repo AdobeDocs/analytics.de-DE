@@ -3,7 +3,7 @@ title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -98,7 +98,7 @@ Der Landing-Pages-Bericht zeigt, auf welche Seiten Besucher nach dem Klicken auf
 2. Suchen Sie im Menü „Komponenten“ das Segment **Besuche von sozialen Websites** und ziehen Sie es in den kleinen Bereich namens „Segment hier ablegen“ direkt über der Freiformtabelle.
 3. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-### Social – Conversions
+### Social – Konversionen
 
 Der Konversionsbericht zeigt E-Commerce-Daten im Kontext sozialer Netzwerke an. Zur Verwendung dieser Berichte ist auf beiden Plattformen eine zusätzliche Implementierung erforderlich. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten korrekt für Analysis Workspace konfiguriert sind.
 
@@ -127,7 +127,7 @@ Es ist möglich, UTM-Parameter in Adobe Analytics mithilfe von benutzerspezifisc
 
 ## Kampagnen – Bezahlte Keywords
 
-Der Bericht zu gebührenpflichtigen Keywords zeigt die Leistung der einzelnen Suchbegriffe an, nachdem ein Besucher in einer Suchmaschine auf einen Paid-Search-Link geklickt hat. Die Dimension **Suchbegriffe – Gebührenpflichtig** ist in Analysis Workspace verfügbar, erfordert jedoch eine einmalige Einrichtung der Paid-Search-Erkennung, um Daten zu erfassen. Weitere Informationen zur Einrichtung finden Sie unter [Paid-Search-Erkennung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) im Administratorhandbuch.
+Der Bericht zu gebührenpflichtigen Keywords zeigt die Leistung der einzelnen Suchbegriffe an, nachdem ein Besucher in einer Suchmaschine auf einen Paid-Search-Link geklickt hat. Die Dimension **Suchbegriffe – Gebührenpflichtig** ist in Analysis Workspace verfügbar, erfordert jedoch eine einmalige Einrichtung der Paid-Search-Erkennung, um Daten zu erfassen. Weitere Informationen zur Einrichtung finden Sie unter [Paid-Search-Erkennung](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) im Administratorhandbuch.
 
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Suchbegriff – Gebührenpflichtig** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
@@ -141,4 +141,4 @@ Der Bericht zu kostenlosen Keywords zeigt die Leistung der einzelnen Suchbegriff
 
 ## Kostenanalyse
 
-Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe-Account-Team.
+Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.

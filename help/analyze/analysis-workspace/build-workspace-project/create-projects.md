@@ -1,13 +1,13 @@
 ---
 description: Erfahren Sie, wie Sie ein Projekt in Analysis Workspace erstellen.
-title: Projekte erstellen
+title: Erstellen von Projekten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der
 * Fügen Sie Ihren Visualisierungen [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) hinzu, z. B.:
    * [Dimension](/help/components/dimensions/overview.md) **[!DNL US States]** ➍
    * [Metrik](/help/analyze/analysis-workspace/components/apply-create-metrics.md) **[!DNL Unique Visitors]** ➎
-   * [Berechnete Metrik](/help/components/c-calcmetrics/cm-overview.md) **[!DNL Average Revenue Per Order]** ➏
+   * [Berechnete Metrik](/help/components/calculated-metrics/cm-overview.md) **[!DNL Average Revenue Per Order]** ➏
    * [Segment](/help/components/segmentation/seg-overview.md) **[!DNL Visits from Mobile Devices]** ➐
    * [Datumsbereich](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) **[!DNL Last Month]** ➑
    * [Anmerkung](/help/analyze/analysis-workspace/components/annotations/overview.md) **[!DNL Example]** ➒
@@ -130,7 +130,7 @@ The following sections describe how to create a project and start adding the key
 
 ## Add panels to the project {#panels}
 
-[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=de) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
+[Panels](/help/analyze/analysis-workspace/c-panels/panels.md) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
 
 Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. 
 
@@ -148,7 +148,7 @@ To add a panel:
 
 ## Add visualizations to the project
 
-[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=de) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
+[Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
 
 >[!TIP]
 >

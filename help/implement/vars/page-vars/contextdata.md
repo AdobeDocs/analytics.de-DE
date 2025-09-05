@@ -4,7 +4,7 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 68%
@@ -13,13 +13,13 @@ ht-degree: 68%
 
 # contextData
 
-Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können. Anstatt Analytics-Variablen explizit Werte in Ihrem Code zuzuweisen, können Sie Daten in Kontextdatenvariablen senden. Verarbeitungsregeln nehmen dann Kontextdatenvariablenwerte auf und übergeben sie an die entsprechenden Analytics-Variablen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md).
+Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefinierte Variablen definieren, die Verarbeitungsregeln lesen können. Anstatt Analytics-Variablen explizit Werte in Ihrem Code zuzuweisen, können Sie Daten in Kontextdatenvariablen senden. Verarbeitungsregeln nehmen dann Kontextdatenvariablenwerte auf und übergeben sie an die entsprechenden Analytics-Variablen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md).
 
 Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen, statt in nummerierten Variablen zu erfassen. Anstatt beispielsweise anzufordern, dass Entwicklungsteams den Autor der Seite `eVar10` zuweisen, können Sie sie stattdessen auffordern, ihn `s.contextData["author"]` zuzuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungs-Teams würden sich letztendlich nur um Kontextdatenvariablen kümmern, anstatt um die vielen Seitenvariablen, die Adobe anbietet.
 
 ## Kontextdatenvariablen, die das Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch explizit mithilfe des XDM-Objekts festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden [ unter „Zuordnen anderer XDM-Felder ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) Analytics-Variablen“.
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch explizit mithilfe des XDM-Objekts festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden [ unter „Zuordnen anderer XDM-Felder ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) Analytics-Variablen“.
 
 Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-Die [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) Benutzeroberfläche zeigt `example_variable` und `second_example` in den entsprechenden Dropdown-Menüs an.
+Die [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) Benutzeroberfläche zeigt `example_variable` und `second_example` in den entsprechenden Dropdown-Menüs an.
 
 ## Kontextdatenvariablen, die die Adobe Analytics-Erweiterung verwenden
 

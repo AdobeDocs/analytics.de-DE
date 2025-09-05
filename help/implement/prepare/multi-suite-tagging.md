@@ -4,7 +4,7 @@ title: Implementieren von Multi-Suite-Tagging
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 # Implementieren von Multi-Suite-Tagging
 
-Mit [Multi-Suite-Tagging](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) können Sie Bildanforderungen nicht nur an eine globale Report Suite, sondern auch an einzelne untergeordnete Report Suites senden, damit Sie Untergruppen der globalen Report Suite-Daten Ihres Unternehmens verschiedenen Endbenutzern bereitstellen können.
+Mit [Multi-Suite-Tagging](/help/admin/tools/manage-rs/rollup-report-suite.md) können Sie Bildanforderungen nicht nur an eine globale Report Suite, sondern auch an einzelne untergeordnete Report Suites senden, damit Sie Teilmengen der globalen Report Suite-Daten Ihres Unternehmens verschiedenen Endbenutzern bereitstellen können.
 
 Um Multi-Suite-Tagging zu implementieren, müssen Sie die Report Suite-ID (RSID) für die globale Report Suite sowie die RSIDs für die entsprechenden untergeordneten Report Suites in den Trackingcode für Ihre Webseiten und Apps aufnehmen.
 
@@ -31,7 +31,7 @@ Multi-Suite-Tagging führt zu mehreren Server-Aufrufen für jede Bildanforderung
 
 >[!NOTE]
 >
-> [Virtual Report Suites](/help/components/vrs/vrs-about.md), mit denen Sie auch Untergruppen der globalen Report Suite-Daten Ihres Unternehmens für verschiedene Endbenutzer bereitstellen können, führen nicht zu sekundären Server-Aufrufen.
+> [Virtual Report Suites](/help/components/vrs/vrs-about.md), mit denen Sie auch Teilmengen der globalen Report Suite-Daten Ihres Unternehmens für verschiedene Endbenutzer bereitstellen können, führen nicht zu sekundären Server-Aufrufen.
 
 ## Sollte ich Multi-Suite-Tagging oder Virtual Report Suites implementieren?
 

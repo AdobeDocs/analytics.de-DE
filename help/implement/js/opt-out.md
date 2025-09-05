@@ -6,7 +6,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 hidefromtoc: true
 role: Developer
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,17 +18,17 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>
-> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Siehe [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) um zu steuern, wie Adobe Ihre Informationen verwendet.
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
 
-Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besucherinnen und Besuchern Ihrer Website die Möglichkeit zu geben, sich gegen die Analyse ihrer Informationen zu entscheiden.
+Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchenden Ihrer Website die Möglichkeit zu geben, die Analyse ihrer Informationen abzuwählen.
 
-Opt-out-Links sind eine Möglichkeit, es Besuchenden Ihrer Website zu ermöglichen, ihre Daten aus Analytics-Berichten wegzulassen. Diese Links sind auf AppMeasurement-Implementierungen beschränkt. Adobe empfiehlt stattdessen die Verwendung des [Adobe Experience Cloud-Opt-in-](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) . Der Opt-in-Service ist zuverlässiger und funktioniert für mehrere Adobe Experience Cloud-Produkte, einschließlich Adobe Analytics und AppMeasurement.
+Opt-out-Links sind eine Möglichkeit, es Besuchenden Ihrer Website zu ermöglichen, ihre Daten aus Analytics-Berichten wegzulassen. Diese Links sind auf AppMeasurement-Implementierungen beschränkt. Adobe empfiehlt stattdessen die Verwendung des [Adobe Experience Cloud-Opt-in-](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) . Der Opt-in-Dienst ist robuster und funktioniert für mehrere Adobe Experience Cloud-Produkte, einschließlich Adobe Analytics und AppMeasurement.
 
-Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn ein Benutzer entscheidet, nicht verfolgt zu werden, und ein Opt-out-Cookie gesetzt wird, sendet AppMeasurement weiterhin Daten an Adobe. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
+Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn Benutzende sich dafür entscheiden, nicht verfolgt zu werden, und ein Opt-out-Cookie gesetzt wird, sendet AppMeasurement weiterhin Daten an Adobe. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
 
 >[!TIP]
 >
->Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md).
+>Adobe bietet außerdem Datenschutzeinstellungen pro Report Suite an. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Datenschutzeinstellungen](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md).
 
 ## Opt-out-URL
 
@@ -44,7 +44,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    1. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
    1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].

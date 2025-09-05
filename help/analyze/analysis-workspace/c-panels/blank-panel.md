@@ -4,9 +4,9 @@ title: Leeres Bedienfeld
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: c9299befa63868ce0450af9c63132738474e2371
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das leere Bedienfeld in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Siehe [Leeres Bedienfeld](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/blank-panel) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird das leere Bedienfeld in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Siehe [Leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Sie haben folgende Möglichkeiten:
   | ![123](/help/assets/icons/123.svg) | [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Text](/help/assets/icons/Text.svg) | [Text](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![Konversionstrichter](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
-  | ![Arbeitsablauf](/help/assets/icons/GraphPathing.svg) | [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![Workflow](/help/assets/icons/GraphPathing.svg) | [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
   | ![Stapeldiagramm](/help/assets/icons/GraphAreaStacked.svg) | [Bereiche gestapelt](/help/analyze/analysis-workspace/visualizations/area.md) |
   | ![NummerierterText](/help/assets/icons/TextNumbered.svg) | [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
   | ![Aufzählungspunkte](/help/assets/icons/GraphBullet.svg) | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |

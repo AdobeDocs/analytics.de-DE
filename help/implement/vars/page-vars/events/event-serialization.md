@@ -4,7 +4,7 @@ description: Hilft Ihnen, Metriken auf Ihrer Website zu deduplizieren.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -21,7 +21,7 @@ Bei der Ereignis-Serialisierung werden Maßnahmen implementiert, um zu verhinder
 
 ## Einrichten der Ereignis-Serialisierung
 
-Sie müssen [!UICONTROL Eindeutige Ereignisaufzeichnung] eines Ereignisses zuerst in den Report Suite-Einstellungen auf [!UICONTROL Ereignis-ID verwenden] setzen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Erfolgsereignisse](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+Sie müssen [!UICONTROL Eindeutige Ereignisaufzeichnung] eines Ereignisses zuerst in den Report Suite-Einstellungen auf [!UICONTROL Ereignis-ID verwenden] setzen. Weitere Informationen finden Sie im Admin-Benutzerhandbuch unter [Erfolgsereignisse](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
 Bei Verwendung von Ereignis-IDs erfolgt eine Deduplizierung auf folgenden Ebenen:
 
@@ -49,7 +49,7 @@ Sie können das Feld für die Ereignis-ID entweder beim Konfigurieren der Analyt
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Ereignisse], in dem jedes Ereignis ein Feld [!UICONTROL Ereignis-ID] enthält.
 
 Gültige Werte sind alphanumerische Zeichen bis zu 20 Byte. Wenn Sie einen Wert eingeben, der länger als 20 Byte ist, kürzt das System ihn auf die ersten 20 Byte.

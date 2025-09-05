@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten 
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 84%
 
 ---
@@ -25,13 +25,13 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 Ab Oktober 2022 haben neue Versionen von Chromium-Browsern die in der Benutzeragenten-Zeichenfolge dargestellte Betriebssystemversion „eingefroren“. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
 
-Client-Hinweise werden ab 27. Februar 2023 in den Prozess der Analytics-Gerätesuche integriert, der am 2. März 2023 endet. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Februar nicht für die Gerätesuche verwendet. Wie unten beschrieben, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (mehr dazu [hier](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher und -Besucherinnen betrifft.
+Client-Hinweise werden ab 27. Februar 2023 in den Prozess der Analytics-Gerätesuche integriert, der am 2. März 2023 endet. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Februar nicht für die Gerätesuche verwendet. Wie unten beschrieben, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (mehr dazu [hier](/help/components/dimensions/operating-systems.md)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher und -Besucherinnen betrifft.
 
 >[!NOTE]
 >
-> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de).
+> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](/help/components/dimensions/operating-systems.md).
 
-Adobe Audience Manager erfordert das Erfassen von Hinweisen mit hoher Entropie, um die volle Funktionalität beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
+Adobe Audience Manager erfordert das Erfassen von Hinweisen mit hoher Entropie, um die volle Funktionalität beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
 ## Häufig gestellte Fragen
 
@@ -43,7 +43,7 @@ Dieser [Blogpost von Google](https://web.dev/user-agent-client-hints/) ist eine 
 
 +++**Wie kann ich die Sammlung von Client-Hinweisen aktivieren?**
 
-Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de#enabling-high-entropy-client-hints) und [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=de).
+Hinweise mit niedriger Entropie werden automatisch vom Browser bereitgestellt und zur Ermittlung von Geräte- und Browserinformationen aufgenommen. Neuere Versionen des Web SDK (beginnend mit 2.12.0) und AppMeasurement (beginnend mit 2.23.0) können über ihre jeweiligen Tags-Erweiterungen oder direkt über eine Konfigurationsoption so konfiguriert werden, dass sie Hinweise mit hoher Entropie erfassen. Siehe Anleitungen für [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de#enabling-high-entropy-client-hints) und [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Für beide Bibliotheken ist die Sammlung von Hinweisen mit hoher Entropie **standardmäßig deaktiviert**.
 
@@ -91,15 +91,15 @@ Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in die
 
 Diese Felder werden direkt vom Benutzeragenten abgeleitet, aber der Benutzeragent kann abhängig von den Gerätedetails zur Ableitung von Werten für andere gerätebezogene Felder verwendet werden.
 
-* [Browser](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=de)
-* [Browser-Typ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=de)
-* [Betriebssystem](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=de)
-* [Betriebssystemtypen](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=de)
-* [Mobilgerät und Mobilgerätetyp](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=de)
+* [Browser](/help/components/dimensions/browser.md)
+* [Browser-Typ](/help/components/dimensions/browser-type.md)
+* [Betriebssystem](/help/components/dimensions/operating-systems.md)
+* [Betriebssystemtypen](/help/components/dimensions/operating-system-types.md)
+* [Mobilgerät und Mobilgerätetyp](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**Welche Teile des Benutzeragenten werden „eingefroren“ und wann?**
++++**Welche Teile des Benutzeragenten werden „eingefroren“ und wann?** 
 
 Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Dieser kann sich aber noch ändern.
 
@@ -157,8 +157,8 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 
 +++
 
-+++**Unterstützt die Server-seitige Weiterleitung an Adobe Audience Manager Client-Hinweise?**
++++**Unterstützt die Server-seitige Weiterleitung an Adobe Audience Manager Client-Hinweise?** 
 
-Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass Adobe Audience Manager die Erfassung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=de) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
+Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass Adobe Audience Manager die Erfassung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
 +++

@@ -4,9 +4,9 @@ title: Wie integriere ich Adobe Campaign Standard-Berichte in Adobe Analytics?
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 Weitere Informationen zum Konfigurieren dieser Integrationen finden Sie in der [Adobe Campaign-Dokumentation](https://helpx.adobe.com/de/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Dieser Artikel gilt nur für die Adobe Campaign **Standard**-Berichte. Weitere Informationen zum Hinzufügen von Adobe Campaign **Classic**-Berichten finden Sie [hier](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=de).
+>Dieser Artikel gilt nur für die Adobe Campaign **Standard**-Berichte. Weitere Informationen zum Hinzufügen von Adobe Campaign **Classic**-Berichten finden Sie [hier](/help/integrate/analytics-to-campaign-classic.md).
 
 Mithilfe dieser Integration zwischen Adobe Analytics und Adobe Campaign Standard:
 

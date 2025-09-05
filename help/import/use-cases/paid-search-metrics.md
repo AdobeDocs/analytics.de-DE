@@ -3,9 +3,9 @@ title: Importieren von Paid-Search-Metriken
 description: Schritte zum Konfigurieren von Adobe Analytics zum Tracking Ihrer Paid-Search-Metriken (z. B. Google-Anzeigen, Microsoft Advertising usw.) mithilfe von Datenquellen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1204'
 ht-degree: 90%
 
 ---
@@ -66,7 +66,7 @@ Der [!UICONTROL Datenquellenaktivierungs-Assistent] wird angezeigt:
 1. Klicken Sie auf **[!UICONTROL Weiter]** und benennen Sie Ihre Datenquelle. Dieser Name erscheint im Datenquellen-Manager.
 1. Akzeptieren Sie die Service-Vereinbarung und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie die drei Standardmetriken aus: [!UICONTROL Impressionen], [!UICONTROL Klicks] und [!UICONTROL Gesamtkosten], und klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[ erstellt ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[ erstellt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Zuordnen](assets/data-source-mapping.png)
 
@@ -118,7 +118,7 @@ Gehen Sie zurück zum Datenquellen-Assistenten, um Anweisungen zu erhalten und d
 
 Das Hinzufügen berechneter Metriken ist bei Pay-per-Click-Entscheidungen hilfreich.
 
-Sie können beispielsweise diese [berechnete Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de#calculated-metrics) hinzufügen:
+Sie können beispielsweise diese [berechnete Metriken](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics) hinzufügen:
 
 | Name | Formel | Metriktyp | Beschreibung |
 | --- | --- | --- | --- |

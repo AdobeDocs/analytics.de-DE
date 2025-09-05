@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie das Bedienfeld „Bei Medienwiedergabe verbra
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 90%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Verbrachte Zeit bei der Medienwiedergabe“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Verbrachte Zeit bei der Medienwiedergabe“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Verbrachte Zeit bei der Medienwiedergabe“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Verbrachte Zeit bei der Medienwiedergabe“](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Die Wiedergabedauer kann Ihnen dabei helfen, Folgendes zu verstehen:
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Verbrachte Zeit bei der Medienwiedergabe“](https://video.tv.adobe.com/v/3446709?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Verbrachte Zeit bei der Medienwiedergabe“](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -126,8 +126,8 @@ Die einzige Metrik, die in diesem Panel verwendet werden kann, ist „Wiedergabe
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel „Medien-Zielgruppendurchschnitt pro Minute“](average-minute-audience-panel.md)
->&#x200B;>[Panel „Gleichzeitige Medienbetrachter“](media-concurrent-viewers.md)
+>>[Panel „Medien-Zielgruppendurchschnitt pro Minute“](average-minute-audience-panel.md)
+>>[Panel „Gleichzeitige Medienbetrachter“](media-concurrent-viewers.md)
 >
 
 <!--
@@ -147,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446709?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

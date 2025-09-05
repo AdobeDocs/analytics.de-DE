@@ -3,10 +3,10 @@ title: Richtlinie zur Datenaufbewahrung
 description: Eine Richtlinie zur Datenaufbewahrung bestimmt, wie lange Adobe Ihre Daten speichert.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Sobald die Daten Ihre Datenaufbewahrungsrichtlinie überschreiten, behält Adobe
 
 ## Anzeigen/Verwalten der aktuellen Datenspeicherungsrichtlinie
 
-Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick darüber, welche Report Suites für Data Governance konfiguriert wurden. Es gibt auch an, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob eine Datenaufbewahrungsrichtlinie für diese Report Suite vorhanden ist. [Weitere Infos](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)
+Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick darüber, welche Report Suites für Data Governance konfiguriert wurden. Es gibt auch an, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob eine Richtlinie zur Datenaufbewahrung für diese Report Suite vorhanden ist.
 
 ## Häufig gestellte Fragen
 
@@ -47,7 +47,7 @@ Ihr Unternehmen kann als Datenverantwortlicher Interessengruppen (wie beispielsw
 
 +++ Wie berechne ich das Zeitfenster der Datenspeicherfrist?
 
-In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die Datenaufbewahrung festgelegt, in dem vollständige Daten angezeigt und zur Berichterstellung verwendet werden können. Das Datum des Datenerfassungsbeginns wird durch das aktuelle Datum abzüglich des Datenspeicherungszeitraums bestimmt. Das Enddatum der Datenspeicherung wird vom aktuellen Datum bestimmt. Die Daten fallen in das Zeitfenster für die Datenaufbewahrung, wenn der Zeitstempel der Daten zwischen dem Start- und dem Enddatum liegt.
+In der Datenaufbewahrungsrichtlinie wird ein rollierendes Zeitfenster für die Datenaufbewahrung festgelegt, in dem vollständige Daten angezeigt und zur Berichterstellung verwendet werden können. Das Startdatum der Datenerfassung wird durch das aktuelle Datum abzüglich des Datenspeicherungszeitraums bestimmt. Das Enddatum der Datenspeicherung wird vom aktuellen Datum bestimmt. Die Daten fallen in das Zeitfenster für die Datenaufbewahrung, wenn der Zeitstempel der Daten zwischen dem Start- und dem Enddatum liegt.
 
 +++
 

@@ -3,7 +3,7 @@ description: Informationen zum Verwalten geplanter Projekte.
 title: Geplante Projekte
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ Die ➊ Geplante Projekte enthält Spalten für:
 | **[!UICONTROL Häufigkeit]** | Wie oft dieses geplante Projekt an einen oder mehrere Empfänger gesendet werden soll. |
 | **[!UICONTROL Durchführungszeit]** | Zu welcher Tageszeit dieses geplante Projekt gesendet wird. |
 | **[!UICONTROL Anzahl der Abfragen]** | Die Anzahl der Abfragen für dieses Projekt. |
-| **[!UICONTROL Längster Datumsbereich]** | Der längste für das geplante Projekt definierte Datumsbereich. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [ unter „Reporting ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
-| **[!UICONTROL Anzahl der Abfragen]** | Die Anzahl der für das geplante Projekt ausgeführten Abfragen. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [ unter „Reporting ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
+| **[!UICONTROL Längster Datumsbereich]** | Der längste für das geplante Projekt definierte Datumsbereich. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [ unter „Reporting ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
+| **[!UICONTROL Anzahl der Abfragen]** | Die Anzahl der für das geplante Projekt ausgeführten Abfragen. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [ unter „Reporting ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
 
 
 Sie können mit ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) konfigurieren, welche Spalten angezeigt werden sollen.

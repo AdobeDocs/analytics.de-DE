@@ -3,7 +3,7 @@ description: Verwenden Sie Unterklassifizierungen mit dem Classification Rule Bu
 title: Unterklassifizierungen und der Regel-Builder
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ Beispielschritte, die beschreiben, wie Sie Unterklassifizierungen mit dem Regel-
 
    Beispiel:
 
-   ![Schritt-Info](/help/admin/admin/assets/sub_class_create.png)
+   ![Schritt-Info](/help/admin/tools/assets/sub_class_create.png)
 
 1. Klassifizieren [ im Classifications](/help/components/classifications/crb/classification-rule-builder.md)Regel-Builder den Unterklassifizierungsschlüssel aus dem ursprünglichen Trackingcode.
 
@@ -63,7 +63,7 @@ Beispielschritte, die beschreiben, wie Sie Unterklassifizierungen mit dem Regel-
 
    Beispiel:
 
-   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&Hat;Kampagnentyp | Code einer breiten Kampagne&Hat;Kampagnen-Director | ... |
+   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&amp;Hat;Kampagnentyp | Code einer breiten Kampagne&amp;Hat;Kampagnen-Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marke | Suzanne |  |
    | &#42; |  | 222 | Marke | Frank |  |

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Daten durch Zusammenfügen von Geräteda
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 58%
+source-wordcount: '824'
+ht-degree: 59%
 
 ---
 
@@ -51,8 +51,8 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse funktioniert nicht in allen Report Suites und kombiniert auch keine Daten aus mehreren Report Suites.
 * Adobe Analytics-Report Suites können nicht mit mehr als einer Organisations-ID verknüpft werden. Da die geräteübergreifende Analyse Geräte innerhalb einer bestimmten Report Suite zusammenfügt, kann die geräteübergreifende Analyse nicht verwendet werden, um Daten über mehrere Organisations-IDs hinweg zusammenzufügen.
 * Die geräteübergreifende Analyse verwendet eine komplexe Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Diese Pipeline wird parallel zum Analytics-Basisberichterstellungs-Workflow ausgeführt. Es besteht eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite in Cross-Device Analytics.
-* CDA verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Sie unterstützen etwa derzeit keine Marketing-Kanal-Variablen. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](https://experienceleague.adobe.com/de/docs/analytics/components/virtual-report-suites/vrs-about) und [Berichtszeitverarbeitung](https://experienceleague.adobe.com/de/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
-* Das private Diagramm nutzt dieselben ID-Synchronisierungen wie die ID-Synchronisierungen, die von der Funktion [Kundenattribute](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) in Experience Cloud und Adobe Analytics verwendet werden. Virtual Report Suites in Cross-Device Analytics (unabhängig davon, ob sie auf privatem Diagramm oder feldbasierter Zuordnung basieren) sind jedoch nicht mit dem Rest der Funktion „Kundenattribute“ kompatibel. Mit anderen Worten: Kundenattribute-basierte Dimensionen sind nicht für die Verwendung mit Virtual Report Suites in Cross-Device Analytics verfügbar.
+* CDA verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Sie unterstützen etwa derzeit keine Marketing-Kanal-Variablen. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](/help/components/vrs/vrs-about.md) und [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md).
+* Das private Diagramm nutzt dieselben ID-Synchronisierungen wie die ID-Synchronisierungen, die von der Funktion [Kundenattribute](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) in Experience Cloud und Adobe Analytics verwendet werden. Virtual Report Suites in Cross-Device Analytics (unabhängig davon, ob sie auf privatem Diagramm oder feldbasierter Zuordnung basieren) sind jedoch nicht mit dem Rest der Funktion „Kundenattribute“ kompatibel. Mit anderen Worten: Kundenattribute-basierte Dimensionen sind nicht für die Verwendung mit Virtual Report Suites in Cross-Device Analytics verfügbar.
 * Die geräteübergreifende Analyse ist derzeit nicht mit A4T kompatibel.
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.
 * Die aktive Überwachung des Prozesses der geräteübergreifenden Analyse durch Adobe ist auf Report Suites im Produktionsbetrieb beschränkt.

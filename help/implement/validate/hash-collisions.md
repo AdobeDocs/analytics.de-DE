@@ -4,7 +4,7 @@ description: Beschreibt, was eine Hash-Kollision ist und wie sie sich manifestie
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Adobe Analytics verwendet für die meisten Dimensionen 32-Bit-Hashes, was bedeut
 Die meisten Hash-Kollisionen treten mit zwei ungewöhnlichen Werten auf, die keine bedeutsame Auswirkung auf Berichte haben. Selbst wenn ein Hash mit einem gemeinsamen und einem ungewöhnlichen Wert kollidiert, ist das Ergebnis vernachlässigbar. In seltenen Fällen, in denen zwei beliebte Werte eine Hash-Kollision erleben, ist es jedoch möglich, die Auswirkungen klar zu sehen. Adobe empfiehlt Folgendes, um die Auswirkungen in Berichten zu reduzieren:
 
 * **Ändern des Datumsbereichs**: Hash-Tabellen ändern sich monatlich. Wenn Sie den Datumsbereich so ändern, dass er sich über einen weiteren Monat erstreckt, kann jeder Wert unterschiedliche Hash-Werte erhalten, die nicht kollidieren.
-* **Reduzieren der Anzahl eindeutiger Werte**: Sie können Ihre Implementierung anpassen oder [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) verwenden, um die Anzahl eindeutiger Werte zu reduzieren, die eine Dimension erfasst. Wenn Ihre Dimension beispielsweise eine URL erfasst, können Sie Abfragezeichenfolgen oder Protokolle entfernen.
+* **Reduzieren der Anzahl eindeutiger Werte**: Sie können Ihre Implementierung anpassen oder [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Anzahl eindeutiger Werte zu reduzieren, die eine Dimension erfasst. Wenn Ihre Dimension beispielsweise eine URL erfasst, können Sie Abfragezeichenfolgen oder Protokolle entfernen.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

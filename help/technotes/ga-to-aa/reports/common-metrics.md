@@ -3,7 +3,7 @@ title: Übersetzungshandbuch für häufig verwendete Metriken anderer Plattforme
 description: Erfahren Sie, wie Sie Metrikdaten für viele häufig verwendete Berichte abrufen können, indem Sie Terminologie verwenden, die Google Analytics-Anwendern besser bekannt ist.
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Die **Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weit
 7. Klicken Sie auf „Speichern“, um zu Ihrem Arbeitsbereich zurückzukehren.
 8. Ziehen Sie die neu definierte berechnete Metrik in den Arbeitsbereich.
 
-   Weitere Informationen zu [berechneten Metriken](/help/components/c-calcmetrics/cm-overview.md) finden Sie im Benutzerhandbuch zu Komponenten.
+   Weitere Informationen zu [berechneten Metriken](/help/components/calculated-metrics/cm-overview.md) finden Sie im Benutzerhandbuch zu Komponenten.
 
 **Durchschnittl. Sitzungsdauer** entspricht ungefähr der **Zeit pro Besuch (Sekunden)**. Weitere Informationen zu Metriken der [pro Besuch verbrachten Zeit](/help/components/metrics/time-spent-per-visit.md) finden Sie im Benutzerhandbuch zu Komponenten.
 
@@ -60,7 +60,7 @@ Die **Absprungrate** steht in Analysis Workspace als Metrik zur Verfügung. Weit
 **Zielvorhaben-Conversion-Rate**, **Zielvorhabenabschlüsse** und **Zielvorhabenwert** erfordern eine zusätzliche Implementierung auf beiden Plattformen. Wenn Ihre Implementierung bereits die Produktdimension und das Kaufereignis berücksichtigt, sollten Sie die folgenden Schritte beachten:
 
 1. Ziehen Sie die Metriken **Bestellungen**, **Umsatz** und **Besuche** in den Arbeitsbereich.
-1. Erstellen Sie eine berechnete Metrik aus **Bestellungen pro Besuch**. Halten Sie die Strg- (Windows) oder Befehlstaste (Mac) gedrückt und klicken Sie auf beide Metrikkopfzeilen, um sie zu markieren. Klicken Sie mit der rechten Maustaste auf eine der Kopfzeilen, wählen Sie **Metrik aus Auswahl erstellen** und klicken Sie dann auf **Teilen**. Diese neue Metrik ähnelt der Zielvorhaben-Conversion-Rate.
+1. Erstellen Sie eine berechnete Metrik aus **Bestellungen pro Besuch**. Halten Sie die Strg- (Windows) oder Befehlstaste (Mac) gedrückt und klicken Sie auf beide Metrikkopfzeilen, um sie zu markieren. Klicken Sie mit der rechten Maustaste auf eine der Kopfzeilen, wählen Sie **Metrik aus Auswahl erstellen** und klicken Sie dann auf **Teilen**. Diese neue Metrik ähnelt der Zielvorhaben-Konversionsrate.
 1. Falls Dezimalstellen erforderlich sind, bearbeiten Sie die berechnete Metrik. Klicken Sie auf die Info-Schaltfläche in der Metrikkopfzeile und dann auf das Stiftsymbol. Fügen Sie im Fenster des Builders für berechnete Metriken eine oder zwei Dezimalstellen hinzu und klicken Sie dann auf „Speichern“.
 
    ![Bestellungen pro Besuch](/help/technotes/ga-to-aa/assets/orders_per_visit.png)

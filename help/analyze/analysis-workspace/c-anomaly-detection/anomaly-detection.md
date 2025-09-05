@@ -1,24 +1,24 @@
 ---
 description: Erfahren Sie mehr über die Erkennung von Datenanomalien in Analysis Workspace.
-title: Übersicht über die Anomalieerkennung
+title: Anomalieerkennung – Überblick
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1292'
 ht-degree: 69%
 
 ---
 
-# Übersicht über die Anomalieerkennung
+# Anomalieerkennung – Überblick
 
 Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analysiert werden. Die Beitragsanalyse verwendet die Anomalieerkennung, um den Grund für die Anomalie zu ermitteln.
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomalieerkennung](https://video.tv.adobe.com/v/40727?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomalieerkennung](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Zu Beispielen von Fehlern, die ein Eingreifen Ihrerseits erfordern, zählen:
 * Spitzen in Videopufferereignissen
 * Spitzen in niedrigen Video-Bitraten
 
-Sowohl die Anomalieerkennung als auch die [Beitragsanalyse](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) sind zentrale Workflows in Analysis Workspace. Sie können Beitragsanalysen zu jeder beliebigen täglichen Anomalie ausführen und das Ergebnis in Ihr Analysis Workspace-Projekt einbetten.
+Sowohl die Anomalieerkennung als auch die [Beitragsanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) sind zentrale Workflows in Analysis Workspace. Sie können Beitragsanalysen zu jeder beliebigen täglichen Anomalie ausführen und das Ergebnis in Ihr Analysis Workspace-Projekt einbetten.
 
 Der Algorithmus der Analysis Workspace-Anomalieerkennung umfasst:
 
@@ -61,7 +61,7 @@ für ausgewählte Metriken über konvergente Zielgruppensegmente hinweg.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Beitragsanalyse](https://video.tv.adobe.com/v/40759?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Beitragsanalyse](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Die Anzahl von Ausführungen pro Unternehmen ist durch monatliche Token beschrä
 | Warum hat Adobe Token eingeführt? | Die Beitragsanalyse ist eine der beliebtesten Funktionen in Adobe Analytics. Durch eine geringe Anzahl vollständiger Ausführungen pro Monat (statt nur 3 Dimensionen für einige Analytics-Produkte) können Sie sehen, was die vollständige Beitragsanalyse für Sie leisten kann. |
 | Wie funktionieren Token in der Beitragsanalyse? Kostet es ein Token, ein Projekt mit einer vorhandenen Beitragsanalyse zu laden, oder gilt dies nur für neue Ausführungen? | Jedes Anmeldeunternehmen (nicht jeder Benutzer) erhält eine bestimmte Anzahl an Token pro Monat, mit denen Sie eine „vollständige“ Beitragsanalyse in Analysis Workspace durchführen können.  Jedes Mal, wenn Sie eine neue Beitragsanalyse erstellen, bezahlen Sie ein Token. Das Laden von Projekten mit bereits ausgeführten Beitragsanalysen kostet kein Token. |
 | Was kann ich tun, wenn mein Unternehmen keine Token mehr hat und zusätzliche Beitragsanalysen durchführen möchte? | Sie können ein Upgrade auf ein anderes Adobe Analytics-Produkt durchführen, z. B. von Standard (2 Token/Monat) auf Ultimate (20 Token/Monat). Man kann keine weiteren Token kaufen. Sie müssen das Upgrade innerhalb des vorhandenen Paketierungs-Frameworks durchführen. |
-| Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe in der [Adobe Admin Console](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-console/home) erstellen. Erteilen Sie die Berechtigung zur Verwendung der Beitragsanalyse nur Benutzern, die einen legitimen Grund zu ihrer Verwendung haben und sich darauf verlassen können, dass sie ihren Zugriff nicht missbrauchen. Die Berechtigung lautet [!UICONTROL Beitragsanalyse] unter [!UICONTROL Report Suite-Werkzeuge]. [Weitere Infos](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| Wie kann ich den Zugriff auf die Beitragsanalyse beschränken? | Standardmäßig haben nur Administratoren Zugriff auf die Ausführung von Beitragsanalysen. Administratoren können anderen Benutzern jedoch Zugriff gewähren, indem sie eine Berechtigungsgruppe in der [Adobe Admin Console](/help/admin/admin-console/home.md) erstellen. Erteilen Sie die Berechtigung zur Verwendung der Beitragsanalyse nur Benutzern, die einen legitimen Grund zu ihrer Verwendung haben und sich darauf verlassen können, dass sie ihren Zugriff nicht missbrauchen. Die Berechtigung lautet [!UICONTROL Beitragsanalyse] unter [!UICONTROL Report Suite-Werkzeuge]. [Weitere Infos](/help/admin/admin-console/permissions/report-suite-tools.md) |
 | Wie weiß ich, wie viele Token mein Unternehmen pro Monat erhält und wie viele Token mein Unternehmen im aktuellen Monat verwendet hat? | Gehen Sie zu [!UICONTROL Admin] > [!UICONTROL Alle Administratoren] > [!UICONTROL Unternehmenseinstellungen] > [!UICONTROL Funktionszugriffsebenen anzeigen]. Schauen Sie unter<ul><li>Beitragsanalyse: Anzahl der monatlichen Nutzungs-Token</li><li>Beitragsanalyse: Anzahl der diesen Monat verwendeten Nutzungs-Token</li></ul> |
 
 ## Anomalieerkennung und Beitragsanalyse – Berechtigungen

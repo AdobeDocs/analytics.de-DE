@@ -4,7 +4,7 @@ description: Verwenden Sie gespeicherte Werte aus einem Online-Treffer, um Offli
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ Transaktions-ID-Datenquellen sind eine Variante von Zusammenfassungsdatenquellen
 
 >[!NOTE]
 >
->Bevor Sie Transaktions-ID-Datenquellen verwenden können, müssen Sie sie zunächst in [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) für die gewünschte Report Suite aktivieren.
+>Bevor Sie Transaktions-ID-Datenquellen verwenden können, müssen Sie sie zunächst in [Allgemeine Kontoeinstellungen](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) für die gewünschte Report Suite aktivieren.
 
 ## Funktionsweise
 
@@ -32,7 +32,7 @@ Wenn Sie einen Online-Treffer senden, der die `transactionID` Implementierungsva
 * [Tage bis Erstkauf](/help/components/dimensions/days-before-first-purchase.md)
 * [Tage seit letztem Kauf](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* Funktionsspezifische Dimensionen, die in den [Report Suite-Einstellungen) aktiviert sind ](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) sich ähnlich wie eVars verhalten. Elementspezifische Dimensionen, die sich ähnlich wie Props verhalten, sind nicht enthalten.
+* Funktionsspezifische Dimensionen, die in den [Report Suite-Einstellungen) aktiviert sind ](/help/admin/tools/manage-rs/report-suites-admin.md) sich ähnlich wie eVars verhalten. Elementspezifische Dimensionen, die sich ähnlich wie Props verhalten, sind nicht enthalten.
 * [Listenvariablen](/help/implement/vars/page-vars/list.md)
 * [Marketing-Kanal](/help/components/dimensions/marketing-channel.md)
 * [Details zum Marketing-Kanal](/help/components/dimensions/marketing-detail.md)

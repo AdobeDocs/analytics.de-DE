@@ -4,10 +4,10 @@ title: Metriken
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe bietet verschiedene Arten von Metriken zur Verwendung in Analysis Workspac
 
 * **Standardmetriken**: Die meisten Metriken, die Sie in Projekten verwenden, sind Standardmetriken. Beispiele sind [Seitenansichten](/help/components/metrics/page-views.md), [Umsatz](/help/components/metrics/revenue.md) oder [Benutzerspezifische Ereignisse](/help/components/metrics/custom-events.md). Weitere Informationen finden Sie in der [Übersicht zu Metriken](/help/components/metrics/overview.md) im Komponenten-Benutzerhandbuch.
 
-* **Berechnete Metriken** ![Rechner](/help/assets/icons/Calculator.svg): Benutzerdefinierte Metriken, die auf Standardmetriken, statischen Zahlen oder algorithmischen Funktionen basieren. Bei benutzerdefinierten berechneten Metriken wird in der Liste der verfügbaren Komponenten ein Taschenrechnersymbol angezeigt. Weitere Informationen finden Sie in der [Übersicht zu berechneten Metriken](/help/components/c-calcmetrics/cm-overview.md) im Komponenten-Benutzerhandbuch.
+* **Berechnete Metriken** ![Rechner](/help/assets/icons/Calculator.svg): Benutzerdefinierte Metriken, die auf Standardmetriken, statischen Zahlen oder algorithmischen Funktionen basieren. Bei benutzerdefinierten berechneten Metriken wird in der Liste der verfügbaren Komponenten ein Taschenrechnersymbol angezeigt. Weitere Informationen finden Sie in der [Übersicht zu berechneten Metriken](/help/components/calculated-metrics/cm-overview.md) im Komponenten-Benutzerhandbuch.
 
 * **Vorlagen für berechnete Metriken** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): Von Adobe definierte Metriken, die sich ähnlich wie berechnete Metriken verhalten. Sie können sie unverändert in Workspace-Projekten verwenden oder eine Kopie speichern, um ihre Logik anzupassen. Bei Vorlagen für berechnete Metriken wird in der Liste der verfügbaren Komponenten ein Adobe-Symbol angezeigt.
 
@@ -41,7 +41,7 @@ Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von ](https://video.tv.adobe.com/v/328565?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von ](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Es gibt mehrere Möglichkeiten, berechnete Metriken zu erstellen. Die gewählte 
 
 ### Berechnete Metriken für alle Projekte erstellen
 
-Sie können den [Generator für berechnete Metriken](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) verwenden, um [berechnete Metriken zu erstellen](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). Wenn sie auf diese Weise erstellt werden, sind berechnete Metriken in der Komponentenliste verfügbar und können in Projekten in Ihrer gesamten Organisation verwendet werden.
+Sie können den [Generator für berechnete Metriken](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) verwenden, um [berechnete Metriken zu erstellen](/help/components/calculated-metrics/workflow/cm-workflow.md). Wenn sie auf diese Weise erstellt werden, sind berechnete Metriken in der Komponentenliste verfügbar und können in Projekten in Ihrer gesamten Organisation verwendet werden.
 
 
 ### Erstellen von berechneten Metriken für ein einzelnes Projekt
@@ -79,15 +79,15 @@ Erstellen einer berechneten Metrik für ein einzelnes Projekt:
 
    Wenn eine einzelne Spalte ausgewählt ist, stehen die folgenden Optionen zur Verfügung:
 
-   * [!UICONTROL **Mittel**]: Erstellt eine neue Spalte, die den Mittelwert im Satz der Dimensionselemente für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Mittelwert](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
+   * [!UICONTROL **Mittel**]: Erstellt eine neue Spalte, die den Mittelwert im Satz der Dimensionselemente für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Mittelwert](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Median**]: Erstellt eine neue Spalte, die den Medianwert im Satz der Dimensionselemente für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
+   * [!UICONTROL **Median**]: Erstellt eine neue Spalte, die den Medianwert im Satz der Dimensionselemente für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Median](/help/components/calculated-metrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Spalte max**]: Erstellt eine neue Spalte, die den größten Wert im Satz von Dimensionselementen für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Spaltenmaximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
+   * [!UICONTROL **Spalte max**]: Erstellt eine neue Spalte, die den größten Wert im Satz von Dimensionselementen für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Spaltenmaximum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum).
 
-   * [!UICONTROL **Spalte min**]: Erstellt eine neue Spalte, die den kleinsten Wert im Satz der Dimensionselemente für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Spalten-Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Spalte min**]: Erstellt eine neue Spalte, die den kleinsten Wert im Satz der Dimensionselemente für die Spalte anzeigt. Die Spaltenwerte verwenden die Funktion [Spalten-Minimum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Spaltensumme**]: Erstellt eine neue Spalte, die alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) hinzufügt. Die Spaltenwerte verwenden die Funktion [Spaltensumme](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+   * [!UICONTROL **Spaltensumme**]: Erstellt eine neue Spalte, die alle numerischen Werte für eine Metrik innerhalb einer Spalte (über die Elemente einer Dimension hinweg) hinzufügt. Die Spaltenwerte verwenden die Funktion [Spaltensumme](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum).
 
    Wenn zwei Spalten ausgewählt sind, sind die folgenden Optionen verfügbar:
 
@@ -101,7 +101,7 @@ Erstellen einer berechneten Metrik für ein einzelnes Projekt:
 
    * [!UICONTROL **prozentuale Änderung**]: Erstellt eine neue Spalte, die die prozentuale Änderung zwischen den beiden ausgewählten Spalten anzeigt.
 
-[Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
 
 
 ## Vergleichen von Metriken mit verschiedenen Attributionsmodellen
@@ -119,7 +119,7 @@ Im Folgenden finden Sie ein Video zum Thema:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kumulativer Durchschnitt](https://video.tv.adobe.com/v/35006?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kumulativer Durchschnitt](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie Segmente in Analysis Workspace verwenden.
 title: Segmente verwenden
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Um Segmente in Analysis Workspace zu verwenden, ziehen Sie einfach ein oder mehr
 * Eine Spalte in einer [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace zum Hinzufügen oder Ersetzen einer Spalte oder zum Initiieren eines Filters.
 * Konfigurations-Bedienfelder für Visualisierungen oder Bedienfelder, in denen Segmente abgelegt werden können. Beispielsweise in einem Bedienfeld [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) oder einer [Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md)Zusammenfassungsvisualisierung
 * Der [Definition-Builder für ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), sodass Sie ein Segment in Ihre Segmentdefinition einschließen.
-* Der [Definition-Builder für eine berechnete ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder)), sodass Sie ein Segment in Ihre berechnete Metrikdefinition einbeziehen.
+* Der [Definition-Builder für eine berechnete ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder)), sodass Sie ein Segment in Ihre berechnete Metrikdefinition einbeziehen.
 
 <!--
 How to apply one or more segments to a report from the segment rail.

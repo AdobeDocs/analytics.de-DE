@@ -3,7 +3,7 @@ title: Streaming-Mediendienste und -Dimensionen
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 Streaming-Mediendienste und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediendienste-Bibliotheken. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Wenn Sie **[!UICONTROL Media Ads]** unter [Media-Reporting](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
+Wenn Sie **[!UICONTROL Media Ads]** unter [Media-Reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
 
 | Name der Dimension | Beschreibung | Gesendet mit | Kontextdatenvariable |
 | --- | --- | --- | --- |

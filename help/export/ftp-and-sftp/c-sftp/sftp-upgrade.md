@@ -3,9 +3,9 @@ title: Aktualisierung der SFTP-Services – Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur geplanten Aktualisierung der SFTP-Services
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -24,17 +24,17 @@ Die Verbindungsoptionen, die entfernt werden, werden im Allgemeinen als veraltet
 
 Die folgenden Funktionen bieten eine Option zum Hochladen von Daten in Adobe Analytics mithilfe von SFTP.
 
-* [Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=de)
+* [Klassifizierungen](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
 * [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=de)
 
-* [Daten-Feeds](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=de)
+* [Daten-Feeds](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [Datenquellen](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=de)
+* [Datenquellen](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Von Data Warehouse bereitgestellte Berichte](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=de)
+* [Von Data Warehouse bereitgestellte Berichte](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* Darüber hinaus können einige benutzerdefinierte Implementierungen, die durch [Engineering Services](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=de) erstellt wurden, SFTP zum Datenaustausch mit Adobe verwenden.
+* Darüber hinaus können einige benutzerdefinierte Implementierungen, die durch [Engineering Services](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) erstellt wurden, SFTP zum Datenaustausch mit Adobe verwenden.
 
 ## Welche spezifischen Änderungen werden in dieser Aktualisierung enthalten sein?
 

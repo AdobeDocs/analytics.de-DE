@@ -3,7 +3,7 @@ title: Postleitzahl
 description: Die Postleitzahl des Besuchers.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 79%
@@ -21,7 +21,7 @@ Diese Dimension ist insofern einzigartig, als sie mehrere Möglichkeiten enthäl
 * Legen Sie die Postleitzahl direkt mit der `zip`-Variablen fest. Oder:
 * Konfigurieren Sie es so, dass es aus den Geolokalisierungsdaten abgerufen wird.
 
-Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) steuert, wie Sie diese Dimension füllen möchten.
+Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) steuert, wie Sie diese Dimension füllen möchten.
 
 Wenn Sie eine Option verwenden, die Geo-Zip beinhaltet:
 

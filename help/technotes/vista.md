@@ -3,7 +3,7 @@ title: VISTA-Regeln in Adobe Analytics
 description: Erfahren Sie mehr über VISTA-Regeln und ihre Funktionen.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ VISTA-Regeln sind eine alternative Form der benutzerdefinierten Datenänderung, 
 Typische Anwendungsfälle von VISTA-Regeln sind etwa:
 
 * Kopieren eines Analytics-Treffers zwischen Report Suites mit möglicher Datenänderung in der kopierten Report Suite
-* Benutzerdefinierter IP-Ausschluss, der über die möglichen Anwendungsfälle von [Nach IP ausschließen](/help/admin/admin/exclude-ip.md) hinausgeht
+* Benutzerdefinierter IP-Ausschluss, der über die möglichen Anwendungsfälle von [Nach IP ausschließen](/help/admin/tools/exclude-ip.md) hinausgeht
 * Bedingte oder globale Änderung eines Variablenwerts
 * Duplizieren von Variablenwerten in andere Variablen
 * Hochladen von Dateien auf eine Adobe-FTP-Site mit möglichen Auswirkungen auf Variablenwerte
 
-Viele Anwendungsfälle für VISTA-Regeln werden bereits von [Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [Bot-Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Virtual Report Suites](/help/components/vrs/vrs-about.md) oder einfach durch eine Aktualisierung Ihrer Adobe Analytics-Implementierung abgedeckt. Adobe empfiehlt VISTA-Regeln nur als letztes Mittel.
+Viele Anwendungsfälle für VISTA-Regeln werden bereits von [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [Bot-Regeln](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [Virtual Report Suites](/help/components/vrs/vrs-about.md) oder einfach durch eine Aktualisierung Ihrer Adobe Analytics-Implementierung abgedeckt. Adobe empfiehlt VISTA-Regeln nur als letztes Mittel.
 
 >[!IMPORTANT]
 >

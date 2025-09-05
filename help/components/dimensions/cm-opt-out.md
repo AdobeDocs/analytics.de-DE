@@ -3,7 +3,7 @@ title: Einverständnisverwaltungs-Opt-out
 description: Ermitteln Sie, von welchen Datenschutzeinstellungen sich ein Besucher bzw. eine Besucherin abgemeldet hat.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 93%
@@ -28,6 +28,6 @@ Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariab
 
 Zu den Dimensionselementen gehören die folgenden drei Werte:
 
-* **`SSF`**: Der Besucher bzw. die Besucherin hat sich von der [Server-seitigen Weiterleitung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) abgemeldet. Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `cm.ssf` gleich `1` ist. Weitere Informationen finden Sie im Benutzerhandbuch für Audience Manager im Abschnitt [Datenschutz – Übersicht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=de). Der Treffer wird nicht an Adobe Audience Manager weitergeleitet.
+* **`SSF`**: Der Besucher bzw. die Besucherin hat sich von der [Server-seitigen Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) abgemeldet. Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `cm.ssf` gleich `1` ist. Weitere Informationen finden Sie im Benutzerhandbuch für Audience Manager im Abschnitt [Datenschutz – Übersicht](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=de). Der Treffer wird nicht an Adobe Audience Manager weitergeleitet.
 * **`DMP`**: Der Besucher bzw. die Besucherin hat sich gegen die Freigabe für Datenverwaltungsplattformen entschieden. Dieses Dimensionselement ist vorhanden, wenn die Kontextdatenvariable `opt.dmp` gleich `N` ist. Ähnlich wie `SSF`, der Treffer wird nicht an Adobe Audience Manager weitergeleitet.
 * **`SELL`**: Der Besucher bzw. die Besucherin widersprach der Freigabe oder dem Verkauf der Daten an Dritte. Diese Dimension ist vorhanden, wenn die Kontextdatenvariable `opt.sell` gleich `N` ist.

@@ -4,7 +4,7 @@ keywords: fehlende Daten;langsam
 title: Datenverfügbarkeit und -latenz
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Einige Funktionen von Adobe Experience Cloud verfügen zusätzlich zur standardm
 
 Zur Vermeidung von Latenzzeiten oder Verkürzung der Wiederherstellungsdauer bei eingetretener Latenz gibt es mehrere Strategien:
 
-* **Informieren Sie Adobe über erwartete Traffic-Spitzen:** Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele sind besonders erfolgreiche Phasen während der Feiertagssaison oder kurz nach dem Start einer großen Kampagne. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter [Planen von Traffic-Spitzen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) im Administratorhandbuch.
+* **Informieren Sie Adobe über erwartete Traffic-Spitzen:** Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele sind besonders erfolgreiche Phasen während der Feiertagssaison oder kurz nach dem Start einer großen Kampagne. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter [Planen von Traffic-Spitzen](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) im Administratorhandbuch.
 * **Berücksichtigen Sie beim Aktivieren neuer Funktionen die Verarbeitungslast:** Einige Funktionen sind verarbeitungsintensiver als andere. Je mehr Funktionen für eine Report Suite aktiviert sind, desto schwieriger ist die Wiederherstellung des normalen Betriebs nach dem Auftreten von Latenzzeiten. Beachten Sie beim Aktivieren von Funktionen für eine Report Suite, dass die folgenden Funktionen die zu verarbeitende Datenmenge vergrößern:
 
    * Implementieren von mehr als 20 Ereignissen auf derselben Seite
@@ -50,7 +50,7 @@ Zur Vermeidung von Latenzzeiten oder Verkürzung der Wiederherstellungsdauer bei
    * Mehr als 20 Werte in der Variable products
    * Ereignis-Serialisierung
 
-* Aktivieren Sie die IAB-Bot-Filterung: Durch die [Bot-Filterung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) können Latenzzeiten deutlich reduziert werden, wenn Ihre Report Suite häufig von Bots oder Crawlern besucht wird. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Anwender können in Ergänzung zu den IAB-Regeln eigene Bot-Regeln erstellen.
+* Aktivieren Sie die IAB-Bot-Filterung: Durch die [Bot-Filterung](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) können Latenzzeiten deutlich reduziert werden, wenn Ihre Report Suite häufig von Bots oder Crawlern besucht wird. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Anwender können in Ergänzung zu den IAB-Regeln eigene Bot-Regeln erstellen.
 
 ## Verfahren bei Latenzzeit
 

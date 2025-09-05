@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit mehreren Report Suites in einem Analysis 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Diese Funktion ist nützlich, wenn Sie Folgendes tun möchten:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/36754?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ Sie erkennen das aktive Bedienfeld am hellblauen Rand. Wählen Sie einfach in ei
 
 1. (Optional) Sie können auch andere Komponenten-Builder in Analytics aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die angibt
 
-   * Wo ein Segment erstellt wird: [Segment Builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=de).
-   * Wo eine berechnete Metrik erstellt wird: [Generator für berechnete ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=de)).
-   * Wo ein Warnhinweis erstellt wird: [Warnhinweiserstellung](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=de).
+   * Wo ein Segment erstellt wird: [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Wo eine berechnete Metrik erstellt wird: [Generator für berechnete ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)).
+   * Wo ein Warnhinweis erstellt wird: [Warnhinweiserstellung](/help/components/alerts/alert-builder.md).

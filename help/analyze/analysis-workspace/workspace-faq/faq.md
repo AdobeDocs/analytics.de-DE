@@ -4,10 +4,10 @@ title: Häufig gestellte Fragen
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '552'
+ht-degree: 93%
 
 ---
 
@@ -26,14 +26,14 @@ Da Analysis Workspace ein Berichtswerkzeug ist, hat dies keine Auswirkungen auf 
 +++
 
 +++Wie viele Report Suites können in einem Projekt in Analysis Workspace angezeigt werden?
-Sie können jetzt in Analysis Workspace Projekte mit Daten aus [mehreren Report Suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=de) erstellen.
+Sie können jetzt in Analysis Workspace Projekte mit Daten aus [mehreren Report Suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) erstellen.
 +++
 
-+++Wie wird Analysis Workspace implementiert?
++++Wie wird der Analysis Workspace implementiert?
 Es ist keine spezielle Implementierung erforderlich. Der Analysis Workspace steht allen Unternehmen mit Analytics Standard oder Premium zur Verfügung. Es gelten jedoch die Standardberechtigungen für Inhalte (z. B. Report Suites und Projektkomponenten) und für die Kuratierung und Freigabe von Projekten. Weitere Informationen finden Sie unter [Administrations- und Zugriffsanforderungen](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++Kann ich Analysis Workspace für Data Warehouse verwenden?
++++Kann ich den Analysis Workspace für Data Warehouse verwenden?
 Der Analysis Workspace wird für den Export von Massendaten nicht empfohlen. Es handelt sich um Arbeitsplatz für die Visualisierung, über den dashboardartiger Analyseprojekte erstellt werden können.
 +++
 
@@ -45,7 +45,7 @@ Siehe [Leistungsoptimierung](/help/analyze/analysis-workspace/workspace-faq/opti
 
 +++Wie fließen Daten in Ihr Analysis Workspace-Projekt ein?
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenaufnahme in Analysis Workspace](https://video.tv.adobe.com/v/35893?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenaufnahme in Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 +++
 
@@ -61,7 +61,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Protokoll-Trac
 
 +++
 
-+++Wenn ich eine Metrik per Drag-and-drop ziehe, sehe ich keine tatsächlichen Daten, sondern nur Nullen. Wie kann ich dieses Problem beheben?
++++Wenn ich eine Metrik per Drag-and-Drop ziehe, sehe ich keine tatsächlichen Daten, sondern nur Nullen. Wie kann ich dieses Problem beheben?
 
 Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vorhanden sind, können Sie einige Punkte prüfen:
 
@@ -73,6 +73,6 @@ Wenn Sie einen Workspace-Bericht erfolgreich erstellt haben, aber keine Daten vo
 
 +++
 
-+++Welche Aktionen können schreibgeschützte Benutzende in Analysis Workspace durchführen?
++++Welche Aktionen kann ich als schreibgeschützter Benutzer in Analysis Workspace durchführen?
 Wenn ein Projekt schreibgeschützt freigegeben wird, sind alle Bearbeitungsfunktionen vollständig deaktiviert, und die Empfängerinnen und Empfänger können das Dropdown-Menü nur ändern, um einen Filter auf vordefinierte Weise auf das Panel anzuwenden.
 +++

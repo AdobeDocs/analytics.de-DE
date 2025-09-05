@@ -3,7 +3,7 @@ title: Erste Schritte mit Marketing-Kanälen
 description: Informieren Sie sich über den Workflow für Marketing-Kanäle, zur automatischen Einrichtung und zur Übernahme von Report Suite-Vorlageneinstellungen für mehrere Report Suites.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 97%
@@ -16,7 +16,7 @@ ht-degree: 97%
 >
 >Um die Effektivität von Marketing-Kanälen für Attribution und Customer Journey Analytics zu maximieren, haben wir einige [überarbeitete Best Practices](/help/components/c-marketing-channels/mchannel-best-practices.md) veröffentlicht.
 >
->Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) beschrieben.
+>Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) beschrieben.
 
 Marketing-Kanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können basierend auf den Kanälen, die Sie nachverfolgen möchten, und darauf, wie Sie diese nachverfolgen möchten, eigene Marketingkanal-Verarbeitungsregeln anpassen.
 
@@ -41,9 +41,9 @@ Eine Liste der empfohlenen Kanäle finden Sie unter [Häufig gestellte Fragen un
 
 Nach der Definition der nachverfolgten Kanäle können Sie sie in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** aktivieren.
 
-Wichtige Voraussetzungen und grundlegende Informationen finden Sie unter [Kanäle und Regeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+Wichtige Voraussetzungen und grundlegende Informationen finden Sie unter [Kanäle und Regeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
-Informationen zum Verfahren finden Sie unter [Hinzufügen von Marketing-Kanälen](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+Informationen zum Verfahren finden Sie unter [Hinzufügen von Marketing-Kanälen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Informationen zum Verfahren finden Sie unter [Hinzufügen von Marketing-Kanälen
 
 Konfigurieren Sie nach der Erstellung von Kanälen auf der Seite [!UICONTROL Marketing-Kanal-Manager] die Regeln, damit Kanäle Daten abrufen können und Berichte dazu erstellen können.
 
-Weitere Informationen finden Sie unter [Marketing-Kanal-Verarbeitungsregeln](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+Weitere Informationen finden Sie unter [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 Wenn Kanäle im automatischen Setup erstellt wurden, werden die Regeln in diesen Kanälen definiert. Sie können sie an Ihre Bedürfnisse anpassen.
 
@@ -71,7 +71,7 @@ So führen Sie das automatische Setup für Marketing-Kanäle aus.
 
    >[!NOTE]
    >
-   >Die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] wird automatisch bei Zugriff auf die Kanalkonfigurationsanwendungen in „Admin Tools“ angezeigt. (Siehe [Marketing-Kanal-Manager](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Diese Seite wird nicht angezeigt, wenn Ihre Report Suite einen oder mehrere Marketing-Kanäle enthält. Sie können nur dann erneut auf die Seite zugreifen, wenn Sie eine andere Report Suite ohne Marketingkanäle auswählen.
+   >Die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] wird automatisch bei Zugriff auf die Kanalkonfigurationsanwendungen in „Admin Tools“ angezeigt. (Siehe [Marketing-Kanal-Manager](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Diese Seite wird nicht angezeigt, wenn Ihre Report Suite einen oder mehrere Marketing-Kanäle enthält. Sie können nur dann erneut auf die Seite zugreifen, wenn Sie eine andere Report Suite ohne Marketingkanäle auswählen.
 
 1. Stellen Sie sicher, dass die gewünschten Kanäle ausgewählt sind.
 

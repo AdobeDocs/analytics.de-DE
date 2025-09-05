@@ -3,7 +3,7 @@ description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige
 title: Unterklassifizierungen
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 97%
@@ -18,7 +18,7 @@ Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizier
 
 >[!NOTE]
 >
->Unterklassifizierung bezieht sich auf die Möglichkeit, Klassifizierungen von Klassifizierungen zu erstellen. Das ist allerdings nicht dasselbe wie eine zum Erstellen von [!UICONTROL Hierarchie] berichten verwendete [!UICONTROL Classification-Hierarchie]. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
+>Unterklassifizierung bezieht sich auf die Möglichkeit, Klassifizierungen von Klassifizierungen zu erstellen. Das ist allerdings nicht dasselbe wie eine zum Erstellen von [!UICONTROL Hierarchie] berichten verwendete [!UICONTROL Classification-Hierarchie]. Weitere Informationen zu Klassifizierungshierarchien finden Sie unter [Klassifizierungshierarchien](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md).
 
 Beispiel:
 
@@ -62,7 +62,7 @@ Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, lieg
 
 ## Beispiele
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

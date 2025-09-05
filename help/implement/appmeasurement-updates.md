@@ -4,9 +4,9 @@ description: Gesammelte Versionshinweise für AppMeasurement für JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2729'
 ht-degree: 86%
 
 ---
@@ -71,7 +71,7 @@ Releasedatum: **11. Oktober 2021**
 
 Releasedatum: **7. September 2021**
 
-* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden [ im ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) „Datenschutzberichte“ im Admin-Benutzerhandbuch.
+* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden [ im ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) „Datenschutzberichte“ im Admin-Benutzerhandbuch.
 
 ## Version 2.22.1
 
@@ -313,7 +313,7 @@ Releasedatum: **21. Juli 2016**
 
 * Aufnahme der Visitor API 1.6.0.
 * Es wurde ein Fehler behoben, durch den [!DNL AppMeasurement] die falsche verschleierte Methode in der Benutzer-API aufgerufen hat. (AN-126006)
-* Es wurde ein Problem behoben, durch das der [!DNL JavaScript]-Fehler „Attribut nur gültig für v:image“ ausgelöst wurde. (AN-124009)
+* Es wurde ein Problem behoben, das den [!DNL JavaScript] Fehler verursachte: „Nur Attribut gültig auf v:image&quot;. (AN-124009)
 
 ## Version 1.6.1
 
@@ -442,7 +442,7 @@ Releasedatum: **21. August 2014**
 
 Releasedatum: **19. Juni 2014**
 
-* Die Handhabung der Kennzeichnungen „Fertig“ und „Warten“ für Visitor API-Felder, darunter die veraltete [!DNL Analytics]-Besucher-ID, die Probleme verursachte, wurde korrigiert.
+* Die Handhabung der Kennzeichnungen „Fertig“ und „Warten“ für Visitor API-Felder, darunter die veraltete [!DNL Analytics]-Besucher-ID, die Fehler verursachte, wurde korrigiert.
 * Der Besucher-ID-Dienst 1.3 unterstützt ab sofort neue Funktionen.
 
 ## Version 1.3.1

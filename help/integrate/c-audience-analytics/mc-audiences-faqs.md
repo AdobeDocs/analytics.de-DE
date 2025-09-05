@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 31%
 
 ---
@@ -19,7 +19,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
 
 +++ Woher weiß ich, ob meine Analytics-Daten personenbezogene Daten (PII) enthalten? Und wenn ja, was mache ich dagegen?
 
-Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([ Sie die IP-Verschleierung ein](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=de). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
+Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([ Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
 
 +++
 
@@ -27,7 +27,7 @@ Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie d
 
 Diese gelten nicht für das Senden von Adobe Analytics-Daten an Adobe Audience Manager. Fragen Sie sich:
 
-* Wird ein von Analytics freigegebenes Segment mit einer MCA-Dimension wieder für die Experience Cloud freigegeben?
+* Wird ein von Analytics freigegebenes Segment mit einer MCA-Dimension wieder für Experience Cloud freigegeben?
 
 * Exportieren Sie (z. B. über Datenfeeds) in ein Business Intelligence-System (BI), das für diese Zwecke verwendet wird?
 
@@ -105,7 +105,7 @@ Wahrscheinlich gibt es widersprüchliche Adobe Audience Manager-Datenschutzsteue
 
 +++
 
-+++ Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: Dies wird auch als Zielgruppen-ID = -1 und `::max_audiences_exceeded::` in Data Warehouse dargestellt.)
++++ Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: Dies wird in Data Warehouse auch als Zielgruppen-ID = -1 und `::max_audiences_exceeded::` dargestellt.)
 
 Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle Segmente, für die sich eine Besucherin oder ein Besucher qualifiziert, pro Treffer an Analytics. Wenn ein Besucher zu mehr als 150 Adobe Audience Manager-Segmenten auf einmal gehört, werden die **150 zuletzt qualifizierten Segmente** an Analytics gesendet, während die restliche Liste abgeschnitten wird. Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt.
 
@@ -135,7 +135,7 @@ Ja. Im Adobe Audience Manager-Ziel-Setup werden nur Report Suites angezeigt, fü
 
 Es können nur Suites aktiviert werden, die Ihrer Experience Cloud-Org zugeordnet sind.
 
-Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serverseitigen Weiterleitung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
+Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serverseitigen Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 
@@ -155,7 +155,7 @@ Siehe [Grundlegendes zu Segmenten in Analytics und Audience Manager](/help/integ
 
 +++ Was ist der Unterschied zwischen Kundenattributen und aus Adobe Audience Manager integrierten Kundendaten?
 
-Kundenattribute sind nicht zeitbasiert, sondern gelten rückwirkend und können weiterverwendet werden. Die integrierten Daten von Adobe Audience Manager sind nur zeitbasiert und für die Zukunft vorgesehen. Darüber hinaus sind Kundenattribute eine Suchtabelle für das Experience Cloud von Besucher-IDs, während die Adobe Audience Manager-Integrationsdaten bei jedem Treffer für einen Besucher zugeordnet werden.
+Kundenattribute sind nicht zeitbasiert, sondern gelten rückwirkend und können weiterverwendet werden. Die integrierten Daten von Adobe Audience Manager sind nur zeitbasiert und für die Zukunft vorgesehen. Darüber hinaus sind Kundenattribute eine Suchtabelle für Experience Cloud-Besucher-IDs, während die Adobe Audience Manager-Integrationsdaten in jedem Treffer für einen Besucher zugeordnet sind.
 
 +++
 

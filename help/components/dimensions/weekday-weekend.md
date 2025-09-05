@@ -3,7 +3,7 @@ title: Wochentag/Wochenende
 description: Bestimmt, ob der Treffer an einem Wochentag oder an einem Wochenende stattgefunden hat.
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Wochentag/Wochenende
 
-Die Dimension „Wochentag/Wochenende[ bietet ](overview.md) Einblick, ob der Treffer während eines Wochentags (Montag bis Freitag) oder Wochenendes (Samstag bis Sonntag) stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+Die Dimension „Wochentag/Wochenende[ gibt insight ](overview.md), ob der Treffer an einem Wochentag (Montag bis Freitag) oder am Wochenende (Samstag bis Sonntag) stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Füllen dieser Dimension mit Daten
 

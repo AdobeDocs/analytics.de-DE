@@ -1,13 +1,13 @@
 ---
 description: Erfahren Sie, wie Sie Projekt- und Projektrollen in Workspace freigeben
 keywords: Analysis Workspace-Freigabe
-title: Projekte freigeben
+title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 96%
 
 ---
@@ -41,12 +41,12 @@ Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird bei
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/40031?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Für Benutzende und Gruppen in Ihrer Organisation freigeben {#Add}
+## Freigeben für Benutzende und Gruppen in Ihrer Organisation {#Add}
 
 Sie können ein Projekt für bestehende Analysis Workspace-Benutzende oder -Gruppen in Ihrer Organisation freigeben. Wenn Sie ein Projekt wie in diesem Abschnitt beschrieben freigeben, müssen die Benutzenden, für die Sie es freigeben, bereits über Zugriff auf Adobe Analytics verfügen.
 
@@ -107,7 +107,7 @@ Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projek
 
    Oder
 
-   Wählen Sie **[!UICONTROL Kuratieren und freigeben]**, um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]** aus.) Erfahren Sie mehr über die [Projektkuration](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=de).
+   Wählen Sie **[!UICONTROL Kuratieren und freigeben]**, um die Projektkuratierung automatisch anzuwenden. (Wenn das Projekt bereits freigegeben wurde, wählen Sie **[!UICONTROL Kuratieren und aktualisieren]** aus.) Erfahren Sie mehr über die [Projektkuration](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Freigeben eines Links zu einem Projekt
 
@@ -115,7 +115,7 @@ Beachten Sie bei der Freigabe eines Links, wie in diesem Abschnitt beschrieben, 
 
 * Empfänger und Empfängerinnen, die den Link verwenden, müssen sich bei Adobe Analytics anmelden, bevor sie Zugriff auf das Projekt erhalten.
 
-* Wenn Empfängern oder Empfängerinnen keine Rolle zugewiesen wurde und sie einen &quot;[ Link](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=de) zum Projekt erhalten, wird ihnen standardmäßig eine Rolle zugewiesen. Admins erhalten **[!UICONTROL Original bearbeiten]** und Nicht-Admins erhalten **[!UICONTROL Kopie bearbeiten]**.
+* Wenn Empfängern oder Empfängerinnen keine Rolle zugewiesen wurde und sie einen &quot;[ Link](/help/analyze/analysis-workspace/curate-share/shareable-links.md) zum Projekt erhalten, wird ihnen standardmäßig eine Rolle zugewiesen. Admins erhalten **[!UICONTROL Original bearbeiten]** und Nicht-Admins erhalten **[!UICONTROL Kopie bearbeiten]**.
 
 So geben Sie den Projekt-Link für Personen in Ihrer Organisation frei:
 
@@ -157,7 +157,7 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3452469?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -176,7 +176,7 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
    Beim Auswählen dieser Option wird ein Link zum Projekt erstellt, der für alle freigegeben werden kann. Sie können den Zugriff auf das Projekt jederzeit deaktivieren, indem Sie diese Option deaktivieren.
 
-   Die für das Projekt verantwortliche Person ist auch für diesen Link verantwortlich. Die Link-Verantwortung kann nur dann an andere Benutzende übertragen werden, wenn die Projektverantwortung übertragen wird, wie unter [Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs](/help/admin/admin/user-management2/users-assets.md) im Analytics-Admin-Handbuch beschrieben.
+   Die für das Projekt verantwortliche Person ist auch für diesen Link verantwortlich. Die Link-Verantwortung kann nur dann an andere Benutzende übertragen werden, wenn die Projektverantwortung übertragen wird, wie unter [Übertragen von Benutzer-Assets oder Festlegen des Kontoablaufs](/help/admin/tools/user-management/users-assets.md) im Analytics-Admin-Handbuch beschrieben.
 
 1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihren Analytics-Admins gesteuert werden):
 
@@ -212,7 +212,7 @@ Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sin
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/327497?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

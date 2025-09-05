@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Handbuch für Adobe Analytics-Tools {#analyze}
 
 + [Handbuch für Analytics-Tools](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=de)
++ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Erste Schritte mit Adobe Analytics {#admin-overview}
    + [Übersicht über Analytics](get-started/analytics-overview.md)
    + [Erste Schritte (nach Rolle)](get-started/get-started-by-role.md)
@@ -118,7 +118,7 @@ ht-degree: 98%
       + [Venn](analysis-workspace/visualizations/venn.md)
    + Bedienfelder {#panels}
       + [Überblick](analysis-workspace/c-panels/panels.md)
-      + [Leeres Bedienfeld](analysis-workspace/c-panels/blank-panel.md)
+      + [Leeres Panel](analysis-workspace/c-panels/blank-panel.md)
       + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
       + [Attribution](analysis-workspace/c-panels/attribution.md)
       + [Freiform](analysis-workspace/c-panels/freeform-panel.md)
@@ -141,12 +141,12 @@ ht-degree: 98%
       + [Herunterladen](analysis-workspace/curate-share/download-send.md)
       + [Senden und Planen](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution {#attribution}
-      + [Übersicht über Attribution](analysis-workspace/attribution/overview.md)
+      + [Attribution – Überblick](analysis-workspace/attribution/overview.md)
       + [Modell, Container und Lookback-Fenster](analysis-workspace/attribution/models.md)
       + [Algorithmische Attribution](analysis-workspace/attribution/algorithmic.md)
       + [Best Practices](analysis-workspace/attribution/best-practices.md)
       + [Häufig gestellte Fragen](analysis-workspace/attribution/faq.md)
-   + [Journey-Verwaltung](analysis-workspace/journey-iq.md)
+   + [Journey-Management](analysis-workspace/journey-iq.md)
    + [Segmentvergleich](analysis-workspace/segment-iq.md)
    + Anomalieerkennung {#anomaly-detection}
       + [Überblick](analysis-workspace/c-anomaly-detection/anomaly-detection.md)

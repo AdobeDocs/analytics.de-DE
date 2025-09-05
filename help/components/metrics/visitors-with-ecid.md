@@ -3,7 +3,7 @@ title: Besucher mit Experience Cloud ID
 description: Die Anzahl der Unique Visitors, die den Adobe Experience Cloud ID Service verwenden.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Besucher mit Experience Cloud ID
 
-Die Metrik „Besucher mit Experience Cloud-ID[&#128279;](overview.md) zeigt die Anzahl der Unique Visitors, die durch das Adobe mithilfe des [Experience Cloud-ID-Service identifiziert wurden](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
+Die Metrik „Besucher mit Experience Cloud-ID[ ](overview.md) gibt die Anzahl der Unique Visitors an, die von Adobe mithilfe des [Experience Cloud ID-Service identifiziert wurden](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site den Identity Service verwendet. Wenn ein Großteil der Besucher die Identity Service-Cookies nicht verwendet, kann dies auf ein Problem in Ihrer Implementierung hindeuten.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Ziehen Sie die „Besucher mit Experience Cloud ID“ neben „Unique Visitors�
 
 ![Vergleich der Unique Visitors](assets/metric-mcvid1.png)
 
-Beachten Sie Folgendes: In diesem Beispiel weist jede Seite eine identische Anzahl an Unique Visitors und Besuchern mit Experience Cloud ID auf. Die Gesamtanzahl an Unique Visitors ist dabei größer als die Gesamtanzahl an Besuchern mit Experience Cloud ID. Sie können eine [berechnete Metrik](../c-calcmetrics/cm-overview.md) erstellen, um herauszufinden, welche Seiten den Identity Service nicht einrichten. Sie können die folgende Definition verwenden:
+Beachten Sie Folgendes: In diesem Beispiel weist jede Seite eine identische Anzahl an Unique Visitors und Besuchern mit Experience Cloud ID auf. Die Gesamtanzahl an Unique Visitors ist dabei größer als die Gesamtanzahl an Besuchern mit Experience Cloud ID. Sie können eine [berechnete Metrik](../calculated-metrics/cm-overview.md) erstellen, um herauszufinden, welche Seiten den Identity Service nicht einrichten. Sie können die folgende Definition verwenden:
 
 ![Definition berechneter Metriken](assets/metric-mcvid2.png)
 

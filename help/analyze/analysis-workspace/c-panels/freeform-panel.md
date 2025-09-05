@@ -4,10 +4,10 @@ title: Freiform-Bedienfeld
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 84%
+source-wordcount: '124'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Freiform“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Freiform“](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Freiform“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Freiform“](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ So verwenden Sie das Panel **[!UICONTROL Freiform]**:
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Analytics-Komponentenhandbuch](/help/components/home.md)
->&#x200B;>[Freiformtabellen-Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics-Komponentenhandbuch](/help/components/home.md)
+>>[Freiformtabellen-Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

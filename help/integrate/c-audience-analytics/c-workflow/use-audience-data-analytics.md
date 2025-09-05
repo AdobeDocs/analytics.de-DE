@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Zielgruppendaten in Analytics verwenden
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ In Analysis Workspace werden die Adobe Audience Manager-Segmente als zwei Dimens
 
 ## Segmentvergleich {#compare}
 
-Der [Segmentvergleich](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=de) findet die statistisch relevantesten Unterschiede zwischen zwei Segmenten. Audiences-Daten können im Segmentvergleich auf zwei Arten verwendet werden: 1) als die 2 Segmente, die verglichen werden, und 2) als Elemente in der Tabelle „Top-Dimensionselemente“.
+Der [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) findet die statistisch relevantesten Unterschiede zwischen zwei Segmenten. Zielgruppen-Daten können im Segmentvergleich auf zwei Arten verwendet werden: 1) als die 2 Segmente, die verglichen werden, und 2) als Elemente in der Tabelle „Top-Dimensionselemente“.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene das Bedienfeld **[!UICONTROL Segmentvergleich]** aus.
 
@@ -43,21 +43,21 @@ Der [Segmentvergleich](https://experienceleague.adobe.com/docs/analytics/analyze
 
 ## Customer Journey (Fluss) in Analysis Workspace {#flow}
 
-Adobe Audience Manager-Segmentdaten werden von Treffer zu Treffer an Analytics übergeben und stellen die Zielgruppenzugehörigkeit eines Besuchers zu diesem Zeitpunkt dar. Das bedeutet, dass ein Besucher einem Segment zugehörig sein kann (z. B. „Bewusstsein“) und sich später für ein qualifizierteres Segment qualifizieren könnte (z. B. „Überlegung“). Sie können [Fluss](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) in Analysis Workspace verwenden, um die Customer Journey eines Besuchers zwischen zwei Zielgruppen zu visualisieren.
+Adobe Audience Manager-Segmentdaten werden von Treffer zu Treffer an Analytics übergeben und stellen die Zielgruppenzugehörigkeit eines Besuchers zu diesem Zeitpunkt dar. Das bedeutet, dass ein Besucher einem Segment zugehörig sein kann (z. B. „Bewusstsein“) und sich später für ein qualifizierteres Segment qualifizieren könnte (z. B. „Überlegung“). Sie können [Fluss](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) in Analysis Workspace verwenden, um die Customer Journey eines Besuchers zwischen zwei Zielgruppen zu visualisieren.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Fluss]** aus.
 
 1. Ziehen Sie die Dimension [!UICONTROL Zielgruppenname] in den Flussaufbau.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
-1. (Optional): Ziehen Sie eine beliebige weitere Dimension in die Flussvisualisierung, um einen [interdimensionalen Fluss](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=de) zu erstellen.
+1. (Optional): Ziehen Sie eine beliebige weitere Dimension in die Flussvisualisierung, um einen [interdimensionalen Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) zu erstellen.
 
 ![](assets/flow-aamaudiences.png)
 
-Zielgruppen können außerdem für [Fallout-Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=de) verwendet werden.
+Zielgruppen können außerdem für [Fallout-Visualisierungen](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) verwendet werden.
 
 ## Venn-Visualisierung in Analysis Workspace {#venn}
 
-[Venn-Visualisierungen](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=de) zeigen Überlappungen zwischen bis zu 3 Segmenten.
+[Venn-Visualisierungen](/help/analyze/analysis-workspace/visualizations/venn.md) zeigen Überlappungen zwischen bis zu 3 Segmenten.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Venn]** aus.
 
