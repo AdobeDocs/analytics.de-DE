@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Siehe [Bedienfeld „Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird das Bedienfeld „Quick Insights“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Siehe [Bedienfeld „Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Wenn Sie [!UICONTROL Analysis Workspace] zum ersten Mal verwenden, stellen Sie s
 * Wo werden Filter erstellt?
 * und vieles mehr.
 
-Um Ihnen bei diesen Fragen zu helfen[!UICONTROL  nutzt „Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
+Um Ihnen bei diesen Fragen zu helfen[!UICONTROL &#x200B; nutzt „Quick Insights] einen Algorithmus, der Ihnen die beliebtesten Dimensionen, Metriken, Segmente und Datumsbereiche präsentiert, die Ihr Unternehmen verwendet. Dieser Algorithmus basiert auf der Verwendung von Datenkomponenten durch Ihr eigenes Unternehmen in [!UICONTROL Analysis Workspace]. In der Dropdown-Liste werden Dimensionen, Metriken und Segmente angezeigt, die als [!UICONTROL BELIEBT] gekennzeichnet sind, wie im Folgenden gezeigt:
 
 ![Das Bedienfeld „Quick Insights“.](assets/popular-tag.png)
 

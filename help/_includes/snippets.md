@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>&#x200B;>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >

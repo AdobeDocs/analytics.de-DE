@@ -18,7 +18,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>
-<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
+><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchenden Ihrer Website die Möglichkeit zu geben, die Analyse ihrer Informationen abzuwählen.
 

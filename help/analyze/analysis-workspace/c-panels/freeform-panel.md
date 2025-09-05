@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Freiform“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Freiform“](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Freiform“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Bedienfeld „Freiform“](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ So verwenden Sie das Panel **[!UICONTROL Freiform]**:
 >[!MORELIKETHIS]
 >
 >[Erstellen eines Bedienfelds](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Analytics-Komponentenhandbuch](/help/components/home.md)
->>[Freiformtabellen-Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>&#x200B;>[Analytics-Komponentenhandbuch](/help/components/home.md)
+>&#x200B;>[Freiformtabellen-Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >
