@@ -3,10 +3,10 @@ title: Best Practices für die Implementierung von Adobe Analytics-Marketing-Kan
 description: Aktualisierte Best Practices für die Verwendung von Marketing-Kanälen mit Attribution und Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
@@ -28,15 +28,19 @@ Es wird empfohlen, [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 * Die Konfiguration der Dimensionen „Marketing-Kanal“ und „Marketing-Kanal-Detail“ legt Touchpoints fest, die entsprechend den einzelnen Marketing-Kanal-Instanzen bewertet werden sollen.
 * Die Metrikanalyse sollte Ihr Unternehmen an einem oder mehreren Attributionsmodellen ausrichten. Speichern Sie benutzerdefinierte Metriken mit diesem Modell zur einfachen Wiederverwendung.
-* Standardmäßig werden Daten mithilfe von Letztkontakt und der Einstellung des Besucherinteraktionszeitraums zugeordnet. Attribution-Metrikmodelle bieten eine bessere Kontrolle über die Lookback-Fenster und eine größere Vielfalt, einschließlich [algorithmischer Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.htm?lang=del#analysis-workspace).
+* Standardmäßig werden Daten mithilfe von Letztkontakt und der Einstellung des Besucherinteraktionszeitraums zugeordnet. Attribution-Metrikmodelle bieten eine bessere Kontrolle über die Lookback-Fenster und eine größere Vielfalt, einschließlich [algorithmischer Attribution](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Best Practice 2: Keine Kanaldefinitionen für „Direkt“ und „Sitzungsaktualisierung“
 
 Die Kanäle „Direkt“ und „Intern/Sitzungsaktualisierung“ werden nicht zur Verwendung mit benutzerdefinierten Attributionsmodellen empfohlen.
 
-Was passiert, wenn für Ihr Unternehmen bereits „Direkt“ und „Sitzungsaktualisierung“ konfiguriert ist? In diesem Fall empfehlen wir Ihnen, [eine Klassifizierung](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) für Erstkontakt/Letztkontakt zu erstellen und die Kanäle „Direkt“ und „Sitzungsaktualisierung“ nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert dieselben Attribution-Ergebnisse, als wären diese Kanäle nie konfiguriert worden.
+Was passiert, wenn für Ihr Unternehmen bereits „Direkt“ und „Sitzungsaktualisierung“ konfiguriert ist? In diesem Fall empfiehlt Adobe, [Klassifizierung“ für Erstkontakt/Letztkontakt ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) erstellen und die Kanäle „Direkt“ und „Sitzungsaktualisierung“ nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert Attributionsergebnisse, die dem Fall ähneln, in dem diese Kanäle nie konfiguriert wurden.
 
 ![](assets/direct-session-refresh.png)
+
+Wenn Sie diese Kanäle deaktivieren und ihre Marketing-Kanal-Verarbeitungsregeln entfernen, unterscheiden sich die Ergebnisse geringfügig vom Klassifizierungsansatz. Der Wert `None` steht für Besuche, die keinen Marketing-Kanal-Verarbeitungsregeln entsprachen. Unterschiede können auftreten, wenn ein Besuch, der keinem Kanal entspricht, einem Besuch folgt, der einem Kanal entspricht.
+
+Sie können weiterhin benutzerdefinierte Attributionsmodelle verwenden, um in beiden Fällen Lookback-Fenster und Attributionsmodelle anzuwenden.
 
 ## Best Practice 3: „Last Touch-Kanal außer Kraft setzen“ für alle Kanäle aktivieren
 
