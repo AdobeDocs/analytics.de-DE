@@ -5,10 +5,10 @@ title: Anwendungsfälle für Verarbeitungsregeln
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -27,6 +27,7 @@ Die [!UICONTROL Kontextvariablen] enthält alle Variablen, die in den letzten 30
 Im folgenden Beispiel wird die `search_term` Kontextdatenvariable genommen und ihr Wert in eVar3 platziert:
 
 | Regelsatz | Wert |
+| --- | --- |
 | Bedingung | `search_term` (Kontextdaten) ist festgelegt |
 | Aktion | [!UICONTROL Wert von überschreiben] eVar3 mit `search_term` (Kontextdaten) |
 
@@ -37,6 +38,7 @@ Das obige Beispiel funktioniert hervorragend, wenn nur wenige eVars gefüllt wer
 Im folgenden Beispiel werden mehrere Variablen mit unterschiedlichen Kontextdatenvariablen gefüllt. Eine Aktion enthält auch eine bedingte Anweisung:
 
 | Regelsatz | Wert |
+| --- | --- |
 | Aktion | [!UICONTROL Wert von überschreiben] eVar55 mit `spa.billing_customer_name` (Kontextdaten) |
 | Aktion | [!UICONTROL Wert von überschreiben] Prop7 mit `testhierarchy` (Kontextdaten), wenn `testhierarchy` (Kontextdaten) festgelegt ist |
 | Aktion | [!UICONTROL Wert von überschreiben] eVar8 mit `spa.ims_org` (Kontextdaten) |
@@ -93,7 +95,7 @@ Ereignisse können basierend auf jeder in den Verarbeitungsregeln verfügbaren B
 | Regelsatz | Wert |
 | --- | --- |
 | Bedingung | Wenn [!UICONTROL Seitenname] gleich „Produktübersicht“ ist |
-| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) &#x200B;] auf [!UICONTROL benutzerdefinierter Wert] `1` |
+| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) ] auf [!UICONTROL benutzerdefinierter Wert] `1` |
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der ein bedingt festgelegtes Ereignis angezeigt wird](assets/set-product-view-event.png)
 
