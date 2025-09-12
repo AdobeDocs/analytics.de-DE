@@ -3,18 +3,18 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 247304b6cf3c7c79ff1521d8786ea887a515fdfb
+source-git-commit: e1ae808920490f7d7c0611e45606a3f82b61ccdb
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 81%
+source-wordcount: '1148'
+ht-degree: 79%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Version August 2025)
+# Aktuelle Versionshinweise zu Adobe Analytics (Version September 2025)
 
-**Letzte Aktualisierung**: 13. August 2025
+**Letzte Aktualisierung**: Freitag, 11. September 2025
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom 13. August bis 16. September 2025. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise decken den Veröffentlichungszeitraum von September bis Anfang Oktober 2025 ab. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
