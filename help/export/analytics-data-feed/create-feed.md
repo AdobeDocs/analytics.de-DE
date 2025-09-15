@@ -3,9 +3,9 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie Sie einen Daten-Feed erstellen und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -69,6 +69,8 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    Sie können Feeds direkt an Amazon S3-Behälter senden. Dieser Zieltyp erfordert nur Ihr Amazon S3-Konto und den Speicherort (Bucket).
 
    Adobe Analytics verwendet die kontenübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer Amazon S3-Instanz hochzuladen.
+
+   Bei Verwendung von Amazon S3 mit Daten-Feeds wird nur die SSE-S3-Verschlüsselung unterstützt.
 
    So konfigurieren Sie einen Amazon S3-Bucket als Ziel für einen Daten-Feed:
 

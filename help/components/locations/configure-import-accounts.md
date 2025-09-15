@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und -Exportkonten
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -33,7 +33,7 @@ Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Sta
 So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
-1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standortkonten**] aus.
+1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standortkonten**] aus.
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Konten für alle Benutzer anzeigen**] aktivieren, um Konten anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Konten für alle Benutzer anzeigen](assets/accounts-all-users.png)
 1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**] aus.
@@ -61,7 +61,9 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    **Kontotypen**
 
-   +++Amazon S3-Rollen-ARN
+   +++Amazon S3 Role ARN
+
+   **HINWEIS:** Bei Verwendung von Amazon S3 mit Daten-Feeds und Data Warehouse wird nur die SSE-S3-Verschlüsselung unterstützt.
 
    Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
@@ -99,7 +101,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 
@@ -162,9 +164,9 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto:
 
    Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
-   * s3:GetObject
-   * s3:PutObject
-   * s3:PutObjectAcl
+   * S3:GetObject
+   * S3:PutObject
+   * S3:PutObjectAcl
 
    Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 

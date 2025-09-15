@@ -3,10 +3,10 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d213befd0fd8d530d95b8d3ac3c4f3b808558244
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 83%
+source-wordcount: '1980'
+ht-degree: 82%
 
 ---
 
@@ -72,7 +72,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       | Feld | Funktion |
       |---------|----------|
-      | [!UICONTROL **Speicherort-Kontoname**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Speicherorts angezeigt |
+      | [!UICONTROL **Speicherort-Kontoname**] | Der Name des Standortkontos. Dieser Name wird beim Erstellen eines Speicherorts angezeigt. |
       | [!UICONTROL **Beschreibung des Standortkontos**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
       | [!UICONTROL **Konto für alle Benutzer in Ihrer Organisation verfügbar machen**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrem Unternehmen das Konto verwenden können.<p>Beachten Sie beim Freigeben von Konten Folgendes:</p><ul><li>Die Freigabe von Konten, die Sie freigeben, kann nicht aufgehoben werden.</li><li>Freigegebene Konten können nur vom Kontoinhaber bearbeitet werden.</li><li>Jeder kann einen Speicherort für das freigegebene Konto erstellen.</li></ul> |
       | [!UICONTROL **Kontotyp**] | Wählen Sie Ihren Cloud-Kontotyp aus. Es wird empfohlen, für jeden Kontotyp ein einziges Konto mit mehreren Speicherorten nach Bedarf innerhalb dieses Kontos zu führen.<p>Systemadministratoren können die Kontotypen, die Benutzer erstellen können, einschränken, wie unter [Konfigurieren, ob Benutzer Konten erstellen können](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) beschrieben. Wenn Sie keine Konten wie in diesem Abschnitt beschrieben erstellen können, wenden Sie sich an Ihren Systemadministrator.</p> |
@@ -83,7 +83,9 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       **Kontotypen**
 
-      +++Amazon S3-Rollen-ARN
+      +++Amazon S3 Role ARN
+
+      **HINWEIS:** Bei Verwendung von Amazon S3 mit Data Warehouse wird nur die SSE-S3-Verschlüsselung unterstützt.
 
       Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
@@ -121,7 +123,7 @@ Konfigurieren des Ziels, an das die Data Warehouse-Berichte gesendet werden:
 
       {style="table-layout:auto"}
 
-      +++
+      +++   
 
       +++Azure RBAC
 
@@ -233,9 +235,9 @@ Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp 
 
 Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
-* s3:GetObject
-* s3:PutObject
-* s3:PutObjectAcl
+* S3:GetObject
+* S3:PutObject
+* S3:PutObjectAcl
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 
