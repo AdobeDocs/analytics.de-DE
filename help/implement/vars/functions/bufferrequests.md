@@ -4,7 +4,7 @@ description: Erhöhen Sie die Zuverlässigkeit der Erfassung von Linktracking-An
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ Wenn Sie [`t()`](t-method.md) oder [`tl()`](tl-method.md) auf einer nachfolgende
 
 >[!TIP]
 >
->Der Zeitstempel gepufferter Anfragen wird für die Seite freigegeben, an die Daten gesendet werden. Wenn Sie mehr Präzision in der exakten Sekunde wünschen, in der eine gepufferte Anfrage aufgezeichnet wird, können Sie die [`timestamp`](../page-vars/timestamp.md) Seitenvariable festlegen, bevor Sie die Anfrage puffern. Wenn Sie diese Variable verwenden, stellen Sie sicher, dass [Zeitstempel optional](/help/technotes/timestamps-optional.md) aktiviert ist - andernfalls gehen alle Treffer mit Zeitstempel dauerhaft verloren!
+>Der Zeitstempel gepufferter Anfragen wird für die Seite freigegeben, an die Daten gesendet werden. Wenn Sie mehr Präzision in der exakten Sekunde wünschen, in der eine gepufferte Anfrage aufgezeichnet wird, können Sie die [`timestamp`](../page-vars/timestamp.md) Seitenvariable festlegen, bevor Sie die Anfrage puffern. Wenn Sie diese Variable verwenden, stellen Sie sicher, dass [Zeitstempel optional](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) aktiviert ist - andernfalls gehen alle Treffer mit Zeitstempel dauerhaft verloren!
 
 ## Einschränkungen
 

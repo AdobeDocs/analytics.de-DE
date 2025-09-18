@@ -5,10 +5,10 @@ title: Attribution und Persistenz
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '550'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Attribution im Verlaufsdatensatz nicht geändert.
 
-* Wenn die Variable `s.visitorID` festgelegt ist und bei einem Treffer gesendet wird, sucht Adobe nach allen anderen Besucherprofilen mit einer übereinstimmenden Besucher-ID.
+* Wenn die `visitorID`-Variable festgelegt und bei einem Treffer gesendet wird, sucht Adobe nach allen anderen Besucherprofilen, die über eine entsprechende Besucher-ID verfügen.
 * Wenn ein Profil vorhanden ist, wird ab diesem Punkt das bereits im System vorhandene Besucherprofil genutzt, und das vorherige Besucherprofil wird nicht mehr eingesetzt.
 * Wenn keine übereinstimmende Besucher-ID gefunden werden kann, wird ein neues Profil erstellt.
 
@@ -33,12 +33,12 @@ Im folgenden Beispiel wird gezeigt, wie Daten an Adobe Analytics gesendet werden
 * `eVar16` hat eine Gültigkeit von 1 Tag und `evar17` läuft beim Besuch ab.
 * Die Spalte `post_visitor_id` stellt das von Adobe Analytics verwaltete Profil dar. Post-Spalten werden in der Regel in Daten-Feeds angezeigt. Siehe [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Exportbenutzerhandbuch.
 * Die Spalten `post_evar16` und `post_evar17` zeigen die Persistenz von eVars an.
-* `cust_visid` steht für einen in `s.visitorID` festgelegten Wert.
+* `cust_visid` steht für einen in `visitorID` festgelegten Wert.
 * Jede Zeile ist ein „Treffer“, also eine einzelne Anforderung, die an den Adobe Analytics-Datenerfassungsserver gesendet wird.
 
 ![Geräteübergreifendes Beispiel 1](assets/xdevice_first.jpg)
 
-Bei der ersten Datenverbindung mit einem zuvor unbekannten `s.visitorID`-Wert (`u999` oben) wird ein neues Profil erstellt. Persistente Werte aus dem vorherigen Profil werden an das neue Profil übertragen.
+Bei der ersten Datenverbindung mit einem zuvor unbekannten `visitorID`-Wert (`u999` oben) wird ein neues Profil erstellt. Persistente Werte aus dem vorherigen Profil werden an das neue Profil übertragen.
 
 * eVars, die beim Besuch ablaufen sollen, werden nicht in das authentifizierte Profil kopiert. Beachten Sie, dass der Wert `car` oben nicht beibehalten wird.
 * eVars, die nach anderen Kennzahlen ablaufen sollen, werden in das authentifizierte Profil kopiert. Beachten Sie, dass der Wert `apple` beibehalten wird.

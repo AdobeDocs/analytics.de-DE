@@ -3,10 +3,10 @@ title: Unique Visitors
 description: Die Anzahl der Unique-Visitor-IDs.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Diese Metrik zählt die Anzahl der Unique-Visitor-IDs für ein gegebenes Dimensi
 | --- | --- | --- |
 | 1 | `vid` | Die [`visitorID`](/help/implement/vars/config-vars/visitorid.md)-Variable ist gesetzt. |
 | 2 | `aid` | Der Besucher verfügt über ein vorhandenes [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie. Wird bei Implementierungen ohne oder vor der Implementierung des Besucher-Identity Service gesetzt. |
-| 3 | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie. Wird bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) gesetzt. |
+| 3 | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie. Festlegen bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Adobe empfiehlt, nach Möglichkeit für alle Implementierungen den ID-Service zu verwenden. |
 | 4 | `fid` | Besucher hat ein bestehendes [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie, oder wenn `aid` und `mid` aus irgendeinem Grund nicht gesetzt werden konnten. |
 | 5 | IP-Adresse, Benutzeragent, Gateway-IP-Adresse | Letztes Mittel, einen Unique Visitor zu identifizieren, wenn der Browser des Besuchers keine Cookies akzeptiert. |
 

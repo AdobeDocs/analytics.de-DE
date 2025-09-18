@@ -4,10 +4,10 @@ description: Machen Sie sich mit den Vorteilen und Anforderungen einer globalen 
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Befolgen Sie die folgenden allgemeinen Richtlinien, um die Implementierung einer
    >Achten Sie darauf, dass jede benutzerdefinierte Variable domänenübergreifend gleich verwendet wird. Verwenden Sie nicht dieselbe eVar oder dasselbe Ereignis zu verschiedenen Zwecken auf Ihren Sites.
 1. Stellen Sie sicher, dass jede Domain über eine Datenschicht verfügt, um die Datenerfassung zu vereinfachen. Daten können weiterhin ohne Datenschicht erfasst werden, doch die Zuverlässigkeit und Langlebigkeit Ihrer Implementierung nimmt dann ab, insbesondere wenn Ihre Site neu gestaltet wird.
 1. Verwenden Sie Tags in Adobe Experience Platform, um Analytics zu implementieren. Verschiedene Sites erfordern wahrscheinlich unterschiedliche Datenelemente. Verwenden Sie für jede Domain spezifische Regeln, um sicherzustellen, dass jedes Datenelement korrekt ausgefüllt wird, und weisen Sie diese Datenelemente dann ihren jeweiligen eVars und Ereignissen zu. Siehe [Tags – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
-1. Schließen Sie den [Adobe Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) ein und verwenden Sie die Funktion [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=de). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domain auf eine andere klicken.
+1. Schließen Sie den [Adobe Experience Cloud ID-](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) ein und verwenden Sie die [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=de). Diese Funktion führt Besucherdaten zusammen, wenn Benutzer von einer Domain auf eine andere klicken.
 
 ## Ändern einer bestehenden Implementierung mit einer globalen Report Suite
 
@@ -55,7 +55,7 @@ Der Prozess der Umstellung einer vorhandenen Implementierung über mehrere Sites
 3. Gehen Sie wie oben beschrieben vor (erstellen Sie eine Report Suite, erfassen Sie Reporting-Anforderungen in einem Lösungsdesigndokument und richten Sie auf jeder Site eine Datenschicht ein). Wenn Sie Tags in Adobe Experience Platform implementieren, validieren Sie Ihre Implementierung mithilfe einer Entwicklungsversion Ihrer Website.
 4. Sobald Sie sich vergewissert haben, dass Ihre Implementierung in der Entwicklung funktioniert, veröffentlichen Sie Ihre Tags-Implementierung am Umstellungsdatum.
 
-## Weiterführende Seiten
-
-[Umstellung von Multi-Suite-Tagging zu einer globalen Report Suite und Virtual Report Suites](../../components/vrs/vrs-considerations.md)
-[Vergleich von Datenaggregationen und globalen Report Suites](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[Wechsel vom Multi-Suite-Tagging zu einer globalen Report Suite und zu Virtual Report Suites](../../components/vrs/vrs-considerations.md)
+>>[Vergleichen von Datenaggregationen und globalen Report Suites](../../admin/tools/manage-rs/rollup-report-suite.md)
