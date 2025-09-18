@@ -5,9 +5,9 @@ user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 + [Technische Hinweise zu Analytics](home.md)
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
-+ Adobe Analytics für Google Analytics-Benutzer {#ga-to-aa}
++ Adobe Analytics für Benutzende von Google Analytics {#ga-to-aa}
    + [Hilfe für Anwender von Adobe Analytics für Google Analytics](ga-to-aa/home.md)
    + [Konten und Report Suites](ga-to-aa/accounts.md)
    + [Berichtsansichten anpassen](ga-to-aa/customization.md)
@@ -54,8 +54,8 @@ ht-degree: 90%
    + [Datenschutzübersicht](privacy/privacy-overview.md)
    + [Workflow zum Datenschutz](privacy/privacy-workflow.md)
    + [Analytics und die DSGVO](privacy/gdpr.md)
-   + [Analytics und CCPA](privacy/ccpa.md)
-   + [Ausnahme für Analytics- und CNIL-Einverständnis](privacy/cnil-consent-exemption.md)
+   + [Analytics und der CCPA](privacy/ccpa.md)
+   + [Analytics und die CNIL-Zustimmungsfreistellung](privacy/cnil-consent-exemption.md)
    + [Häufig gestellte Fragen zum Datenschutz](privacy/faq.md)
 + [Verarbeitungsreihenfolge](processing-order.md)
 + [Progressive Web-Apps](pwa.md)
