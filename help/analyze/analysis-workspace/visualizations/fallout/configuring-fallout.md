@@ -4,10 +4,10 @@ title: Fallout-Visualisierung konfigurieren
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 95%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ Sie können Pfade für Dimensionen, Metriken und Segmente erstellen. Beispiel: A
    >
    >Hinweis: Mehrere Segmente werden mit AND verbunden, mehrere Elemente wie Dimensionselemente und Metriken hingegen mit OR.
 
-   ![Die Touchpoints „Page:CamerRoll“ oder „Page: Camera“ sind hervorgehoben.](assets/fallout-or.png)
+   ![Die Seite:CamerRoll oder Seite: Kamera-Touchpoints hervorgehoben.](assets/fallout-or.png)
 
 1. **Einzelne Touchpoints können nun auch auf das nächste Ereignis** (statt *am Ende*) im Pfad eingegrenzt werden. Unter jedem Touchpoint befinden sich die Auswahlmöglichkeiten **[!UICONTROL Endgültiger Pfad]** und **[!UICONTROL Nächstes Ereignis]**:
 
@@ -50,8 +50,8 @@ Sie können Pfade für Dimensionen, Metriken und Segmente erstellen. Beispiel: A
 
    | Option | Beschreibung |
    |---|---|
-   | **[!UICONTROL Endgültiger Pfad]** (Standard) | Es werden die Besuchenden gezählt, die *am Ende* auf der nächsten Seite im Pfad, aber nicht notwendigerweise beim nächsten Ereignis landen. |
-   | **[!UICONTROL Nächstes Ereignis]** | Es werden die Besuchenden gezählt, die auf der nächsten Seite im Pfad genau beim nächsten Ereignis landen. |
+   | **[!UICONTROL Endgültiger Pfad]** (Standard) | Besucher, die (*) auf* nächsten Seite im Pfad, aber nicht unbedingt beim nächsten Ereignis landen, werden gezählt. |
+   | **[!UICONTROL Nächstes Ereignis]** | Besucher, die beim nächsten Ereignis auf der nächsten Seite im Pfad landen, werden gezählt. |
 
 
 ## Einstellungen
@@ -74,14 +74,14 @@ Im Rahmen der Visualisierung sind bestimmte Kontextmenüoptionen verfügbar.
 | **[!UICONTROL Trend-Touchpoint]** | Zeigt Trend-Daten für einen Touchpoint in einem Liniendiagramm mit einigen vorab definierten Anomalieerkennungsdaten an. |
 | **[!UICONTROL Trend-Touchpoint (%)]** | Trend für den gesamten Fallout-Prozentsatz. |
 | **[!UICONTROL Trend aller Touchpoints (%)]** | Trend für alle Touchpoint-Prozentsätze im Fallout (außer **[!UICONTROL Alle Personen]**, falls vorhanden) im selben Diagramm |
-| **[!UICONTROL Aufschlüsselung des Fallthroughs an diesem Touchpoint]** | Zeigt an, was Personen zwischen zwei Touchpoints (diesem und dem nächsten Touchpoint) getan haben, wenn sie sich zum nächsten Touchpoint fortbewegt haben. Diese Option erstellt eine Freiformtabelle, die Ihre Dimensionen enthält. Dimensionen und andere Elemente der Tabelle können Sie austauschen. |
-| **[!UICONTROL Aufschlüsselung des Fallouts an diesem Touchpoint]** | Zeigt an, was Besuchende, die nicht im Trichter verblieben sind, unmittelbar nach dem ausgewählten Schritt getan haben. |
+| **[!UICONTROL Aufschlüsselung des Fallthroughs an diesem Touchpoint]** | Zeigt an, was Besucher zwischen zwei Touchpoints (diesem und dem nächsten Touchpoint) getan haben, wenn sie sich zum nächsten Touchpoint fortbewegt haben. Diese Option erstellt eine Freiformtabelle, die Ihre Dimensionen enthält. Sie können Dimensionen und andere Elemente der Tabelle ersetzen. Beispiel: Eine Tabelle mit der Beschriftung **[!UICONTROL Fallthrough: All Visitors > Page entspricht einem der]** und enthält **[!UICONTROL Page]** als Dimension und **[!UICONTROL Unique Visitors]**, segmentiert nach dem [Nur-Projekt-Schnellsegment](/help/components/segmentation/segmentation-workflow/seg-quick.md)**[!UICONTROL Fallthrough: All Visitors > Page entspricht einem der]** als Metrik. Überprüfen Sie das Segment, um zu verstehen, wie das Fallthrough-Segment bestimmt wird. |
+| **[!UICONTROL Aufschlüsselung des Fallouts an diesem Touchpoint]** | Zeigt an, was Besucherinnen und Besucher, die es nicht über die funnel geschafft haben, unmittelbar nach dem ausgewählten Schritt getan haben. Diese Option erstellt eine Freiformtabelle, die Ihre Dimensionen enthält. Sie können Dimensionen und andere Elemente der Tabelle ersetzen. Beispiel: Eine Tabelle mit der Beschriftung **[!UICONTROL Fallout: Alle Besucher > Seite entspricht einer der]** und enthält **[!UICONTROL Seite]** als Dimension und **[!UICONTROL Unique Visitors]**, segmentiert nach dem [Nur-Projekt-Schnellsegment](/help/components/segmentation/segmentation-workflow/seg-quick.md)**[!UICONTROL Fallthrough: Alle Besucher > Seite entspricht einer der]**, Segment als Metrik. Überprüfen Sie das Segment, um zu verstehen, wie das Fallout-Segment bestimmt wird. |
 | **[!UICONTROL Erstellen von Segmenten aus Touchpoints]** | Erstellen Sie ein neues Segment aus dem ausgewählten Touchpoint. |
 
 >[!MORELIKETHIS]
 >
 >[Hinzufügen einer Visualisierung in einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
