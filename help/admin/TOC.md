@@ -5,9 +5,9 @@ user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
 source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
                + [Allgemeine Bot-Signaturen](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
                + [Bot-Ausschlussmethoden](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
             + [Datenschutzeinstellungen](tools/manage-rs/edit-settings/general/privacy-settings.md)
-            + [Konfiguration von Zeitstempeln](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
+            + [Zeitstempelkonfiguration](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
             + Serverseitige Weiterleitung {#server-side-forwarding}
                + [Übersicht über die Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
                + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)
