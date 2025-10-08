@@ -5,18 +5,22 @@ title: Senden und Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 28%
+source-wordcount: '498'
+ht-degree: 25%
 
 ---
 
 # Senden und Planen von Projekten
 
-Sie können Adobe Analytics-Projekte als Dateien per E-Mail an ausgewählte Benutzer senden. Sie können Dateien ad hoc senden oder Sie können Dateien so konfigurieren, dass sie nach einem Zeitplan gesendet werden. Dateien können im CSV- oder PDF-Format gesendet werden.
+Sie können Adobe Analytics-Projekte als Dateien per E-Mail an ausgewählte Benutzer senden. Sie können Dateien ad hoc senden oder Sie können Dateien so konfigurieren, dass sie nach einem Zeitplan gesendet werden.
 
-Alle auf das Projekt angewendeten Tags werden automatisch auf den Export angewendet.
+Beachten Sie beim Senden von Dateien Folgendes:
+
+* Dateien können im CSV- oder PDF-Format gesendet werden.
+
+* Alle auf das Projekt angewendeten Tags werden automatisch auf den Export angewendet.
 
 Es sind auch andere Methoden zum Exportieren von Adobe Analytics-Daten verfügbar, wie unter [Exportübersicht](/help/export/home.md) beschrieben.
 
@@ -38,7 +42,7 @@ So senden Sie eine Ad-hoc-Datei per E-Mail an Empfänger:
 
 ## Dateiexport planen {#schedule}
 
-So senden Sie eine Datei nach einem Zeitplan per E-Mail an Empfänger
+So senden Sie eine Datei nach einem Zeitplan per E-Mail an Empfänger:
 
 1. Wählen Sie **[!UICONTROL Freigeben] > [!UICONTROL Dateiexport planen]**.
 1. Geben Sie den Dateityp an:
