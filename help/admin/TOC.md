@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
-workflow-type: ht
-source-wordcount: '496'
+source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+workflow-type: tm+mt
+source-wordcount: '491'
 ht-degree: 100%
 
 ---
@@ -160,6 +160,4 @@ ht-degree: 100%
          + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](tools/user-management/user-migration/migrate-enterprise.md)
          + [Deaktivieren von veralteten Anmeldedaten](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [Von der Migration betroffene APIs](tools/user-management/user-migration/developer.md)
-+ [Admin-API](c-admin-api/c-admin-api.md)
-+ [Häufig gestellte Fragen zur Einstellung der Adobe Analytics 1.4-API](c-admin-api/c-admin-14-api-eol.md)
-
++ [Admin-API](https://developer.adobe.com/analytics-apis/docs/2.0/)
