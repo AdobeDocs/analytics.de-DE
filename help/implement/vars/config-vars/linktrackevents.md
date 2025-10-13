@@ -19,7 +19,7 @@ Diese Variable wird nicht für Seitenansichtsaufrufe ([`t()`](../functions/t-met
 
 ## Bestimmen Sie mithilfe der Web-SDK, welche Analytics-Ereignisse in ein XDM-Ereignis eingeschlossen werden sollen
 
-Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den `onBeforeEventSend`-Callback verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an Adobe gesendet werden. Weitere Informationen [&#x200B; Sie in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Web SDK schließt bestimmte Felder für Linktracking-Aufrufe nicht aus. Sie können jedoch den `onBeforeEventSend`-Callback verwenden, um die gewünschten Felder zu löschen oder festzulegen, bevor Daten an Adobe gesendet werden. Weitere Informationen [&#x200B; Sie in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ## Ereignisse in Linktracking-Aufrufen mit der Adobe Analytics-Erweiterung
 

@@ -21,7 +21,7 @@ Wenn **[!UICONTROL Click-Datenerfassung aktivieren]** aktiviert ist, verwenden S
 
 ## Regionskennungsattribut in der Web SDK JavaScript-Bibliothek
 
-Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `clickedElement` überprüfen und die Logik der erfassten Region anpassen.
+Wenn [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) aktiviert ist, verwenden Sie den `filterClickDetails` Callback im `clickCollection`. Innerhalb dieses Callbacks können Sie den Wert von `clickedElement` überprüfen und die Logik der erfassten Region anpassen.
 
 ```js
 alloy("configure", {

@@ -138,7 +138,7 @@ Ja. Aufgrund der Einschränkungen von Virtual Report Suites ist der Live-Modus v
 Die Methode zum Deaktivieren von Activity Map hängt von Ihrem Implementierungstyp ab:
 
 * **Web SDK-Erweiterung**: Deaktivieren Sie in den Erweiterungskonfigurationseinstellungen die Kontrollkästchen **[!UICONTROL Klicks auf interne Links erfassen]**, **[!UICONTROL Klicks auf externe Links erfassen]** und **[!UICONTROL Klicks auf Downloadlinks erfassen]**.
-* **Web SDK JavaScript Library**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) auf `false` setzen.
+* **Web SDK JavaScript Library**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) auf `false` setzen.
 * **Analytics-Erweiterung**: Deaktivieren Sie in den Erweiterungskonfigurationseinstellungen das Kontrollkästchen mit der Bezeichnung **[!UICONTROL Activity Map verwenden]**.
 * **AppMeasurement**: Entfernen Sie das Activity Map-Modul in `AppMeasurement.js` oder kommentieren Sie es aus, oder überschreiben Sie den Modulfunktionsaufruf mit einem leeren Text:
 

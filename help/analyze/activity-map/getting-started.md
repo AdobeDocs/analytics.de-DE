@@ -48,7 +48,7 @@ Die Konfigurationseinstellung **[!UICONTROL Klicken auf]** Datenerfassung“ ver
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weitere [&#x200B; finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
+Weitere [&#x200B; finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
 
 +++
 
@@ -56,7 +56,7 @@ Weitere [&#x200B; finden Sie unter „Konfigurieren der Tag](https://experiencel
 
 Für die Datenerfassung in Activity Map ist die Web-SDK-JavaScript-Bibliothek Version 2.20 oder höher erforderlich. Bibliotheksversionen bis Version 2.15 werden nur eingeschränkt unterstützt. Diese früheren Bibliotheksversionen senden Activity Map-Daten in einem separaten Ereignis vom Rest Ihrer Daten. Dieses zusätzliche Ereignis erhöht die Anzahl der Treffer, die Sie an Adobe Analytics oder Adobe Experience Platform senden.
 
-Die Web SDK-Konfigurationsvariable [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) verarbeitet die automatische Erfassung von Activity Map-Daten. Sie ist standardmäßig aktiviert, es sei denn, sie wird explizit deaktiviert.
+Die Web SDK-Konfigurationsvariable [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) verarbeitet die automatische Erfassung von Activity Map-Daten. Sie ist standardmäßig aktiviert, es sei denn, sie wird explizit deaktiviert.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ Die **[!UICONTROL Activity Map verwenden]** Konfigurationseinstellung verarbeite
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weiterführende Informationen dazu finden Sie in der [&#x200B; zur Adobe Analytics-Erweiterung &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
+Weiterführende Informationen dazu finden Sie in der [&#x200B; zur Adobe Analytics-Erweiterung &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 +++
 

@@ -26,7 +26,7 @@ Hin und wieder stattfindende Code-Aktualisierungen können unbeabsichtigte Auswi
 * Erstellen Sie Dashboards, um stündliche Trend-Ansichten dieser kritischen Metriken und Variablen anzuzeigen (oder richten Sie [Warnhinweise](/help/components/alerts/alerts-overview.md) für jede Metrik ein). Überwachen Sie sie dann ein oder zwei Tage lang, um sicherzustellen, dass Sie die erwarteten Daten erhalten und die Daten korrekt sind. Suchen Sie nach Wendepunkten. Seien Sie bereit, alle wichtigen Probleme sofort zu beheben. Wenn Sie Abweichungen feststellen, sollten Sie sich Ihre Datenschicht, Tag-Manager-Regeln und Verarbeitungsregeln ansehen, um den Grund herauszufinden.
 * Führen Sie [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) erneut aus, um allgemeine Trends Ihrer KPI-Metriken und -Variablen zu überwachen.
 
-*Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ihre Aufgabe ordnungsgemäß erfüllen, finden Sie in [diesen Tipps](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) von der Adobe Analytics-Expertin Sarah Owen.*
+*Weitere Informationen dazu, wie Sie sicherstellen können, dass Ihre Metriken und Variablen ihre Aufgabe ordnungsgemäß erfüllen, finden Sie in [diesen Tipps](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=de) von der Adobe Analytics-Expertin Sarah Owen.*
 
 ## &#x200B;3. Überprüfen Sie sorgfältig die Daten aus dem aktualisierten Abschnitt Ihrer Site
 

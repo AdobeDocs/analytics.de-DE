@@ -31,7 +31,7 @@ return false;
 
 ## Manuelles Senden eines Ereignisses abbrechen, indem die Web-SDK implementiert wird
 
-Verwenden Sie den `onBeforeEventSend` Callback und geben Sie `false` zurück. Weitere Informationen [&#x200B; Sie in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Verwenden Sie den `onBeforeEventSend` Callback und geben Sie `false` zurück. Weitere Informationen [&#x200B; Sie in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ```js
 alloy("configure"), {

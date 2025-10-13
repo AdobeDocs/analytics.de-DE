@@ -66,7 +66,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td> 4</td>
 <td><b>Installieren Sie die vordefinierte eigenständige Version</b>. Sie können direkt auf Ihrer Seite auf die Bibliothek (<code>alloy.js</code>) im CDN verweisen oder sie herunterladen und in Ihrer eigenen Infrastruktur hosten. Alternativ können Sie das NPM-Paket verwenden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Installieren der vordefinierten eigenständigen Version</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Verwenden des NPM-Pakets</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=de">Installieren der vordefinierten eigenständigen Version</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=de">Verwenden des NPM-Pakets</a></td>
 </tr>
 
 <tr>
@@ -77,20 +77,20 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <td>6</td>
 <td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Dieser Service steuert, ob und wie Daten an Adobe Analytics gesendet werden und an welche Report Suite(s).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datenstrom-ID (ehemals Edge-Konfigurations-ID (<code>datastreamId</code>)), der Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen konfiguriert ist. Sicherstellen einer ordnungsgemäßen Zuordnung von Variablen. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Konfigurieren der Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM-Objektvariablenzuordnung</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=de">Konfigurieren der Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM-Objektvariablenzuordnung</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Führen Sie Befehle aus</b> und/oder <b>verfolgen Sie Ereignisse</b>. Nachdem der Basis-Code auf Ihrer Web-Seite implementiert wurde, können Sie mit der Ausführung von Befehlen und dem Nachverfolgen von Ereignissen mit dem SDK beginnen.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Ereignisse senden</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=de">Ereignisse senden</a></td>
 </tr>
 
 <tr>
