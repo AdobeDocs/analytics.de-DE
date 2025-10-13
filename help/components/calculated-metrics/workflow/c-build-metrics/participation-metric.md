@@ -17,9 +17,9 @@ Teilnahmemetriken werden verwendet, um zu quantifizieren, wie einzelne Werte fü
 
 Die folgenden Schritte zeigen, wie Sie eine Teilnahmemetrik erstellen können.
 
-1. [Erstellen Sie eine berechnete ](../cm-workflow.md) und geben Sie der Metrik im [Generator für berechnete ](cm-build-metrics.md)&quot; einen `Orders (Visit Participation)` oder etwas Ähnliches.
+1. [Erstellen Sie eine berechnete &#x200B;](../cm-workflow.md) und geben Sie der Metrik im [Generator für berechnete &#x200B;](cm-build-metrics.md)&quot; einen `Orders (Visit Participation)` oder etwas Ähnliches.
 1. Ziehen Sie eine Metrik, die ein Erfolgsereignis enthält, z. B. [!DNL Online Orders], in den Bereich [!UICONTROL **[!UICONTROL Definition]**].
-1. Wählen Sie ![ Metrik ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)Zahnrad) aus.
+1. Wählen Sie ![&#x200B; Metrik &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)Zahnrad) aus.
 1. Wählen Sie im angezeigten Popup die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**, um das [Attributionsmodell](m-metric-type-alloc.md#attribution-models) dieses Ereignisses für **[!UICONTROL Teilnahme]** zu definieren, und wählen Sie **[!UICONTROL Besuche]** für den [!UICONTROL Container]. Wählen Sie **[!UICONTROL Übernehmen]** zur Bestätigung aus.
 
 

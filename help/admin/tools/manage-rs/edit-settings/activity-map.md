@@ -16,7 +16,7 @@ Ermöglicht die Aktivierung von Dimensionen zur Verwendung mit [Activity Map](/h
 
 **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Report Suite auswählen > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map-Reporting]**
 
-Dieser Abschnitt der Dokumentation konzentriert sich auf die Aktivierung von Dimensionen, die Activity Map verwendet. Weitere Informationen über die Überlagerung, [ Implementierungsvariablen und Dimensionen finden Sie unter ](/help/analyze/activity-map/overview.md)Übersicht über Activity Map .
+Dieser Abschnitt der Dokumentation konzentriert sich auf die Aktivierung von Dimensionen, die Activity Map verwendet. Weitere Informationen über die Überlagerung, [&#x200B; Implementierungsvariablen und Dimensionen finden Sie unter &#x200B;](/help/analyze/activity-map/overview.md)Übersicht über Activity Map .
 
 Wenn Sie auf die Schaltfläche **[!UICONTROL Activity Map-Berichte aktivieren]** klicken, werden die folgenden Dimensionen erstellt:
 

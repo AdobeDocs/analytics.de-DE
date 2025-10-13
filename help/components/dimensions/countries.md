@@ -12,7 +12,7 @@ ht-degree: 60%
 
 # Länder
 
-Die Dimension „Länder[ gibt ](overview.md) Land an, aus dem der Treffer stammt. Diese Dimension ist nützlich, um die beliebtesten Länder zu ermitteln, aus denen die Besucher beim Besuch Ihrer Website stammen. Sie können diese Daten verwenden, um sich auf die Marketing-Maßnahmen in diesen Ländern zu konzentrieren, oder sicherstellen, dass Ihr Site-Erlebnis in Ländern mit unterschiedlichen Primärsprachen optimal ist.
+Die Dimension „Länder[&#x200B; gibt &#x200B;](overview.md) Land an, aus dem der Treffer stammt. Diese Dimension ist nützlich, um die beliebtesten Länder zu ermitteln, aus denen die Besucher beim Besuch Ihrer Website stammen. Sie können diese Daten verwenden, um sich auf die Marketing-Maßnahmen in diesen Ländern zu konzentrieren, oder sicherstellen, dass Ihr Site-Erlebnis in Ländern mit unterschiedlichen Primärsprachen optimal ist.
 
 ## Füllen dieser Dimension mit Daten
 

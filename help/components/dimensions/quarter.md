@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Quartal
 
-Die „Dimension [Quartal“ ](overview.md) das Quartal an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist das erste Quartal im Datumsbereich und das letzte Dimensionselement das letzte Quartal im Datumsbereich. Diese Dimension eignet sich ideal für Trend-Berichte, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
+Die „Dimension [Quartal“ &#x200B;](overview.md) das Quartal an, in dem eine bestimmte Metrik aufgetreten ist. Das erste Dimensionselement ist das erste Quartal im Datumsbereich und das letzte Dimensionselement das letzte Quartal im Datumsbereich. Diese Dimension eignet sich ideal für Trend-Berichte, da sie es Ihnen ermöglicht, Metriken im Zeitverlauf anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

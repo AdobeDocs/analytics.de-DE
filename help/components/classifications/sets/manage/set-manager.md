@@ -30,10 +30,10 @@ Beachten Sie, dass jeweils 1.000 Klassifizierungssätze vorgeladen werden. Die i
 
 Die folgenden Spalten sind im Classification Set Manager verfügbar:
 
-* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes. Wenn Sie auf den Namen eines Klassifizierungssatzes klicken, wird dessen [ (Einstellungen](settings.md) bearbeitet.
+* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes. Wenn Sie auf den Namen eines Klassifizierungssatzes klicken, wird dessen [&#x200B; (Einstellungen](settings.md) bearbeitet.
 * **[!UICONTROL Abonnements]**: Die Anzahl der Abonnements, für die dieser Klassifizierungssatz gilt.
 * **[!UICONTROL Klassifizierungen]**: Die Anzahl der Klassifizierungsdimensionen, die der Klassifizierungssatz enthält.
-* **[!UICONTROL Automated]**: Bestimmt, ob der Klassifizierungssatz so konfiguriert ist, dass Daten automatisch aus einem Cloud-Speicherort importiert werden. Die Automatisierung kann im (Schema) des Klassifizierungssatzes [ werden](schema.md).
+* **[!UICONTROL Automated]**: Bestimmt, ob der Klassifizierungssatz so konfiguriert ist, dass Daten automatisch aus einem Cloud-Speicherort importiert werden. Die Automatisierung kann im (Schema) des Klassifizierungssatzes [&#x200B; werden](schema.md).
 * **[!UICONTROL Zuletzt geändert]**: Datum und Uhrzeit der letzten Änderung des Klassifizierungssatzes.
 
 ## Erstellen oder Bearbeiten von Optionen

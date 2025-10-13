@@ -39,7 +39,7 @@ Trotz aller bisherigen Änderungen und Konfigurationen wurde kein Code veröffen
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
-3. Klicken Sie auf die **[!UICONTROL Veröffentlichungsfluss]** und dann auf **[!UICONTROL Bibliothek hinzufügen]**. Weitere Informationen [ dieser Seite finden Sie ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=de) der Tags-Dokumentation unter „Publishing-Übersicht“.
+3. Klicken Sie auf die **[!UICONTROL Veröffentlichungsfluss]** und dann auf **[!UICONTROL Bibliothek hinzufügen]**. Weitere Informationen [&#x200B; dieser Seite finden Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=de) der Tags-Dokumentation unter „Publishing-Übersicht“.
 4. Benennen Sie die `'Initial changes'` und wählen Sie Ihre Entwicklungsumgebung aus.
 5. Klicken Sie **[!UICONTROL Alle geänderten Ressourcen hinzufügen]**, wodurch Adobe Analytics, Identity Service und Core automatisch aufgelistet werden.
 6. Klicken Sie auf **[!UICONTROL Speichern]**.

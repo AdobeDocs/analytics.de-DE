@@ -48,7 +48,7 @@ Wann sollten Segmente für das gesamte Unternehmen und wann nur für eine Benutz
 
 Im Folgenden finden Sie Best Practices für die Freigabe von Segmenten und für die Freigabe von Segmenten.
 
-* Geben Sie als Administrator ein Segment nur dann für alle frei, wenn Sie überzeugt sind, dass es jemand in Ihrer Organisation mit der Verwendung der Segmente vertraut ist. Sie können auch erwägen, diese Segmente zu bevorzugen. Weitere Informationen [ Sie unter ](t-seg-favorite.md) als Favorit markieren.
+* Geben Sie als Administrator ein Segment nur dann für alle frei, wenn Sie überzeugt sind, dass es jemand in Ihrer Organisation mit der Verwendung der Segmente vertraut ist. Sie können auch erwägen, diese Segmente zu bevorzugen. Weitere Informationen [&#x200B; Sie unter &#x200B;](t-seg-favorite.md) als Favorit markieren.
 
 * Geben Sie als Administrator ein Segment für eine bestimmte Gruppe frei, wenn dieses Segment einen Geschäftswert für die Benutzer dieser Gruppe bietet.
 

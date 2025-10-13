@@ -24,8 +24,8 @@ Wenn Sie versehentlich inkompatible Speicherorte auf dem Arbeitsblatt zuordnen, 
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* [Auswahl eines Zellenbereiches ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Methoden für die Auswahl von Zellen ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Auswahl eines Zellenbereiches &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Methoden für die Auswahl von Zellen &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [Probleme bei der Zuordnung](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Einen Zellenbereich auswählen {#section_1E37FB46DA194FB7A1050B8833A48AC6}

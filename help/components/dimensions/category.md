@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Kategorie
 
-Die „Dimension[ „Kategorie](overview.md) zeigt die Produktkategorie des Treffers an. Dies ist für Implementierungen nützlich, die die `products`-Variable verwenden und Metriken für die Produktkategorie anzeigen möchten, wie am häufigsten verkaufte oder angezeigte Artikel. Diese Dimension kann absichtlich leer sein, wenn Sie keine Produkte auf Ihrer Site haben.
+Die „Dimension[&#x200B; „Kategorie](overview.md) zeigt die Produktkategorie des Treffers an. Dies ist für Implementierungen nützlich, die die `products`-Variable verwenden und Metriken für die Produktkategorie anzeigen möchten, wie am häufigsten verkaufte oder angezeigte Artikel. Diese Dimension kann absichtlich leer sein, wenn Sie keine Produkte auf Ihrer Site haben.
 
 ## Füllen dieser Dimension mit Daten
 

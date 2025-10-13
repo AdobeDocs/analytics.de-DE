@@ -13,7 +13,7 @@ ht-degree: 75%
 
 # transactionID
 
-Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer Dimensionswerte für Daten bereitstellen kann, die über [Transaktions-ID-Datenquellen“ hochgeladen ](/help/import/data-sources/transactionid.md). Diese Variable ist nützlich, wenn Sie Offline-Kanaldaten mit Werten ausfüllen möchten, die aus Online-Kanaldaten erfasst wurden.
+Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer Dimensionswerte für Daten bereitstellen kann, die über [Transaktions-ID-Datenquellen“ hochgeladen &#x200B;](/help/import/data-sources/transactionid.md). Diese Variable ist nützlich, wenn Sie Offline-Kanaldaten mit Werten ausfüllen möchten, die aus Online-Kanaldaten erfasst wurden.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweit
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Transaktions-ID].
 
 Sie können die Transaktions-ID auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.

@@ -39,7 +39,7 @@ Die folgenden Variablen wurden zum Einfügen von Bulk-Daten eingeführt, die zuv
 * **`language`**: Die Dimension [Sprache](/help/components/dimensions/language.md) .
 * **`list1`** - **`list3`**: [Listenvariablen](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: Die Experience Cloud-ID des Besuchers.
-* **`tnta`**: Target-Daten-Payload, die in Integrationen [Analytics for Target“ ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) wird.
+* **`tnta`**: Target-Daten-Payload, die in Integrationen [Analytics for Target“ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) wird.
 * **`trackingServer`**: Die [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * **`transactionID`**: Die [`transactionID`](/help/implement/vars/page-vars/transactionid.md).
 * **`userAgent`**: Die Benutzeragenten-Zeichenfolge des Geräts.

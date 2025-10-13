@@ -35,7 +35,7 @@ Zusätzliche Filteroptionen sind über den Spalten des Auftrags-Managers für Kl
 Die folgenden Spalten sind im Auftrags-Manager für Klassifizierungssätze verfügbar:
 
 * **[!UICONTROL Dateiname]**: Der Name der Datei zum Hoch- oder Herunterladen.
-* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes, für den die Datei gilt. Sie können auf den Namen des Klassifizierungssatzes klicken, um zu den [ des Klassifizierungssatzes zu ](manage/settings.md).
+* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes, für den die Datei gilt. Sie können auf den Namen des Klassifizierungssatzes klicken, um zu den [&#x200B; des Klassifizierungssatzes zu &#x200B;](manage/settings.md).
 * **[!UICONTROL Größe]**: Die Größe der Datei.
 * **[!UICONTROL Status]**: Der Status des Auftrags, der die Datei verarbeitet.
    * **[!UICONTROL Erstellt]**: Der Auftrag wurde eingereicht.

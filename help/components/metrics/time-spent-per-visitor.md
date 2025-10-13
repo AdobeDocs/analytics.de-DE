@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Besuchsdauer pro Besucher (Sekunden)
 
-Die [!UICONTROL Metrik Besuchszeit pro Besucher (Sekunden] [ zeigt ](overview.md) durchschnittliche Zeit an, die Besucherinnen und Besucher während ihrer gesamten Lebensdauer mit einem bestimmten Dimensionselement interagieren.
+Die [!UICONTROL Metrik Besuchszeit pro Besucher (Sekunden] [&#x200B; zeigt &#x200B;](overview.md) durchschnittliche Zeit an, die Besucherinnen und Besucher während ihrer gesamten Lebensdauer mit einem bestimmten Dimensionselement interagieren.
 
 Diese Metrik ist aufgrund ihrer unterschiedlichen Verarbeitungsarchitektur nicht in Data Warehouse verfügbar.
 

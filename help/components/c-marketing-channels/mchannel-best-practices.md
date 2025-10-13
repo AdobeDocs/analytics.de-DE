@@ -34,7 +34,7 @@ Es wird empfohlen, [Attribution](/help/analyze/analysis-workspace/attribution/ov
 
 Die Kanäle „Direkt“ und „Intern/Sitzungsaktualisierung“ werden nicht zur Verwendung mit benutzerdefinierten Attributionsmodellen empfohlen.
 
-Was passiert, wenn für Ihr Unternehmen bereits „Direkt“ und „Sitzungsaktualisierung“ konfiguriert ist? In diesem Fall empfiehlt Adobe, [Klassifizierung“ für Erstkontakt/Letztkontakt ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) erstellen und die Kanäle „Direkt“ und „Sitzungsaktualisierung“ nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert Attributionsergebnisse, die dem Fall ähneln, in dem diese Kanäle nie konfiguriert wurden.
+Was passiert, wenn für Ihr Unternehmen bereits „Direkt“ und „Sitzungsaktualisierung“ konfiguriert ist? In diesem Fall empfiehlt Adobe, [Klassifizierung“ für Erstkontakt/Letztkontakt &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) erstellen und die Kanäle „Direkt“ und „Sitzungsaktualisierung“ nicht klassifiziert zu lassen. Die klassifizierte Dimension liefert Attributionsergebnisse, die dem Fall ähneln, in dem diese Kanäle nie konfiguriert wurden.
 
 ![](assets/direct-session-refresh.png)
 

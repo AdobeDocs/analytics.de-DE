@@ -51,7 +51,7 @@ So aktualisieren oder laden Sie Bot-Regeln hoch:
 
      Es wird empfohlen, mindestens diese Option auszuwählen.
 
-     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[ IAB-Bot-Regeln](#standard-iab-bot-rules).
+     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[&#x200B; IAB-Bot-Regeln](#standard-iab-bot-rules).
 
    * Wählen Sie [!UICONTROL **Regel hinzufügen**] aus, um benutzerdefinierte Bot-Regeln basierend auf Benutzeragenten, IP-Adressen oder IP-Bereichen zu definieren und hinzuzufügen.
 
@@ -59,7 +59,7 @@ So aktualisieren oder laden Sie Bot-Regeln hoch:
 
    * Klicken Sie neben dem Bereich [!UICONTROL **CSV-Bot-Datei zum Importieren auswählen**] auf [!UICONTROL **Datei auswählen**] und wählen Sie dann die CSV-Datei aus, die die Bot-Regeln definiert.
 
-     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[ von Bot-Regeln](#upload-bot-rules).
+     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[&#x200B; von Bot-Regeln](#upload-bot-rules).
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 

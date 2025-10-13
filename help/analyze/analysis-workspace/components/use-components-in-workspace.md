@@ -133,7 +133,7 @@ Sie können den Mauszeiger über eine beliebige Komponente bewegen, um ![weitere
 Je nach Zugriffssteuerung haben Sie folgende Möglichkeiten:
 
 * Aufrufen der ![Lesezeichen](/help/assets/icons/Bookmark.svg) [!UICONTROL Datenwörterbuch]-Definition für die Komponente.
-* Greifen Sie auf ![ Komponenten](/help/assets/icons/Edit.svg)Builder zu, in dem die Komponente definiert ist.
+* Greifen Sie auf ![&#x200B; Komponenten](/help/assets/icons/Edit.svg)Builder zu, in dem die Komponente definiert ist.
 
 
 

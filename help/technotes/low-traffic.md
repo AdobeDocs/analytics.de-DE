@@ -16,31 +16,31 @@ Wenn eine Dimension Millionen eindeutiger Werte enthält, stellt Adobe eine Funk
 
 Mit dem Dimensionselement [!UICONTROL Geringer Traffic] kann Adobe sicherstellen, dass Berichte rechtzeitig zurückgegeben werden, indem übermäßige eindeutige Werte erfasst und in Buckets zusammengefasst werden.
 
-Beachten Sie[!UICONTROL  dass die Logik „Geringer Traffic] am besten mit Dimensionen funktioniert, die Elemente haben, die im Laufe des Monats oft wiederkehren. Wenn Dimensionselemente bei jedem Treffer nahezu oder vollständig eindeutig sind, erreicht die Anzahl der eindeutigen Werte schnell den Schwellenwert, und alle nachfolgenden Werte für den Monat landen im Bereich [!UICONTROL Geringer Traffic].
+Beachten Sie[!UICONTROL &#x200B; dass die Logik „Geringer Traffic] am besten mit Dimensionen funktioniert, die Elemente haben, die im Laufe des Monats oft wiederkehren. Wenn Dimensionselemente bei jedem Treffer nahezu oder vollständig eindeutig sind, erreicht die Anzahl der eindeutigen Werte schnell den Schwellenwert, und alle nachfolgenden Werte für den Monat landen im Bereich [!UICONTROL Geringer Traffic].
 
 ## Eingabe von Werten [!UICONTROL Low-Traffic]
 
-Standardmäßig wird ein Schwellenwert von **2.000.000 eindeutigen Werten** pro Dimension, pro Report Suite und pro Kalendermonat festgelegt. Dimension-Elemente, die diesen eindeutigen Wertschwellenwert überschreiten, werden unter [!UICONTROL Geringer Traffic“ ].
+Standardmäßig wird ein Schwellenwert von **2.000.000 eindeutigen Werten** pro Dimension, pro Report Suite und pro Kalendermonat festgelegt. Dimension-Elemente, die diesen eindeutigen Wertschwellenwert überschreiten, werden unter [!UICONTROL Geringer Traffic“ &#x200B;].
 
 * Dimension-Elemente, die vor Erreichen des Schwellenwerts gesammelt wurden, werden normal berechnet.
-* Dimension-Elemente, die nach Überschreiten des Schwellenwerts gesammelt werden, werden unter [!UICONTROL Geringer Traffic“ ].
+* Dimension-Elemente, die nach Überschreiten des Schwellenwerts gesammelt werden, werden unter [!UICONTROL Geringer Traffic“ &#x200B;].
 
 >[!NOTE]
->Die Dimension [Seite](../components/dimensions/page.md) verwendet mehrere Backend-Spalten, die alle auf den eindeutigen Schwellenwert angerechnet werden, einschließlich `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url` und `click_context`. Diese Backend-Spalten können dazu führen[!UICONTROL  dass Logik vom Typ „Geringer Traffic] angewendet wird, lange bevor die Anzahl der Dimensionselemente „Eindeutige Seite“ in Workspace den Schwellenwert erreicht.
+>Die Dimension [Seite](../components/dimensions/page.md) verwendet mehrere Backend-Spalten, die alle auf den eindeutigen Schwellenwert angerechnet werden, einschließlich `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url` und `click_context`. Diese Backend-Spalten können dazu führen[!UICONTROL &#x200B; dass Logik vom Typ „Geringer Traffic] angewendet wird, lange bevor die Anzahl der Dimensionselemente „Eindeutige Seite“ in Workspace den Schwellenwert erreicht.
 
 Das Limit von 2.000.000 Unique kann für jede Dimension geändert werden. Siehe [Ändern der eindeutigen Grenzwerte](#changing-unique-limit-thresholds) unten. Am Ende eines Kalendermonats wird die Anzahl der verfolgten eindeutigen Werte global zurückgesetzt.
 
-## Wie Werte nach Überschreiten [!UICONTROL  Schwellenwerts mit „Low-Traffic] escapen können
+## Wie Werte nach Überschreiten [!UICONTROL &#x200B; Schwellenwerts mit „Low-Traffic] escapen können
 
 Wenn eine bestimmte Dimension in einem bestimmten Monat mehr als 2.000.000 eindeutige Werte erfasst, können einzelne Dimensionselemente zum Bericht über ihr eigenes Dimensionselement zurückkehren. Der primäre Anwendungsfall dieser Funktion besteht darin, das Reporting von wichtigen Dimensionselementen zu ermöglichen, die möglicherweise Ende des Monats, nachdem der eindeutige Schwellenwert überschritten wurde, einen Popularitätsschub erhalten. Wenn Ihr Unternehmen beispielsweise eine Website mit Millionen von Artikeln betreibt und gegen Ende des Monats ein neuer Artikel beliebt wird, können Sie die Leistung dieses Artikels dennoch analysieren. Mit dieser Logik soll nicht alles, was eine bestimmte Anzahl von Instanzen erhält, aus einem Bucket entfernt werden. Sie bietet vielmehr eine Möglichkeit, Inhalte zu analysieren, die einen Zustrom von Traffic erhalten.
 
 Die Anforderungen an das Entweichen eines einzelnen Dimensionselements [!UICONTROL Low-Traffic] hängen von vielen Faktoren ab, von denen viele die Möglichkeit verhindern, einen genauen Schwellenwert zu berechnen:
 
-* **Anzahl der Server, die Daten für die Report Suite verarbeiten**: Report Suites mit höherem Traffic erfordern mehr Instanzen eines einzelnen Dimensionselements, um [!UICONTROL Geringer Traffic) ].
+* **Anzahl der Server, die Daten für die Report Suite verarbeiten**: Report Suites mit höherem Traffic erfordern mehr Instanzen eines einzelnen Dimensionselements, um [!UICONTROL Geringer Traffic) &#x200B;].
 * **Zeitraum zwischen den einzelnen Dimensionselementinstanzen**: Treffer, die ein über den Tag verteiltes Dimensionselement enthalten, erfordern mehr Instanzen als einen konzentrierten Trefferanstieg.
 * **Anzahl der eindeutigen Werte für die Dimension**: Für jede Dimension ist ein zweiter Schwellenwert standardmäßig auf 2.100.000 eindeutige Werte festgelegt. Wenn die Anzahl der eindeutigen Werte in einer Dimension diesen höheren Schwellenwert überschreitet, wird eine sehr viel aggressivere Filterung angewendet.
 
-Unter Berücksichtigung der oben genannten Faktoren ist davon auszugehen **dass** Hunderte bis Tausende“ Instanzen für ein einzelnes Dimensionselement [!UICONTROL Geringer Traffic) ], wenn nur der erste Schwellenwert überschritten wird. Es wird erwartet **dass (Tausende bis Zehntausende** Instanzen für ein einzelnes Dimensionselement [!UICONTROL Geringer Traffic) ], wenn der höhere Schwellenwert überschritten wird. Adobe garantiert nicht, dass Dimensionselemente zuverlässig dem Bucket [!UICONTROL Geringer Traffic] entweichen. Dieses Konzept ist in der Regel für Dimensionselemente mit ungewöhnlich hohem Volumen am Ende des Monats reserviert.
+Unter Berücksichtigung der oben genannten Faktoren ist davon auszugehen **dass** Hunderte bis Tausende“ Instanzen für ein einzelnes Dimensionselement [!UICONTROL Geringer Traffic) &#x200B;], wenn nur der erste Schwellenwert überschritten wird. Es wird erwartet **dass (Tausende bis Zehntausende** Instanzen für ein einzelnes Dimensionselement [!UICONTROL Geringer Traffic) &#x200B;], wenn der höhere Schwellenwert überschritten wird. Adobe garantiert nicht, dass Dimensionselemente zuverlässig dem Bucket [!UICONTROL Geringer Traffic] entweichen. Dieses Konzept ist in der Regel für Dimensionselemente mit ungewöhnlich hohem Volumen am Ende des Monats reserviert.
 
 Wenn ein Dimensionselement aus dem Bucket [!UICONTROL Geringer Traffic] austritt, bleiben Instanzen, die vor dem Traffic-Zufluss erfasst wurden, unter [!UICONTROL Geringer Traffic].
 

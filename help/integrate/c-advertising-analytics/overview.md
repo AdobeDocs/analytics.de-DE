@@ -28,7 +28,7 @@ Diese Integration zielt auf folgende Zielgruppen ab:
 
 * Advertising Analytics steht nur für die Adobe Analytics-SKUs [Select](https://www.adobe.com/de/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html) und [Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html) zur Verfügung.
 * Diese Funktion steht auch Kunden ohne Advertising Cloud und AMO zur Verfügung.
-* Sie müssen ein Adobe Analytics-Administrator sein, um Zugriff auf Advertising Analytics zu erhalten, oder zu einem Produktprofil gehören, dem Zugriff [ Advertising Analytics ](/help/integrate/c-advertising-analytics/overview.md#permissions) wurde.
+* Sie müssen ein Adobe Analytics-Administrator sein, um Zugriff auf Advertising Analytics zu erhalten, oder zu einem Produktprofil gehören, dem Zugriff [&#x200B; Advertising Analytics &#x200B;](/help/integrate/c-advertising-analytics/overview.md#permissions) wurde.
 * Für jede Report Suite, in der Sie Google Ads- oder Microsoft Advertising-Suchdaten anzeigen möchten, müssen Sie [diese Report Suites für Advertising Analytics aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**).
 * Sie benötigen die Anmeldedaten eines Benutzers mit Bearbeitungsberechtigungen für die Suchkonten, die Sie in Adobe Analytics integrieren möchten wie z. B. Google-Konto-ID und -Passwort.
 * Im Fall von Microsoft Advertising benötigen Sie auch die [[!UICONTROL Konto-ID] und [!UICONTROL Manager-Konto-ID]](c-adanalytics-workflow/aa-locate-account-id.md).

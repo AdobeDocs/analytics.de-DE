@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Treffertiefe
 
-Die Dimension „Treffertiefe[ gibt an](overview.md) wie weit ein bestimmter Treffer in einen Besuch hineinreicht. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Arten von Treffern, einschließlich Seitenansicht-Treffern ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Die Dimension „Treffertiefe[&#x200B; gibt an](overview.md) wie weit ein bestimmter Treffer in einen Besuch hineinreicht. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Arten von Treffern, einschließlich Seitenansicht-Treffern ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Füllen dieser Dimension mit Daten
 

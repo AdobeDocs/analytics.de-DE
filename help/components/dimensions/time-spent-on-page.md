@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Besuchszeit pro Seite
 
-Die Dimension „Auf Seite verbrachte Zeit[ erfasst ](overview.md) Zeit, die eine Besucherin oder ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
+Die Dimension „Auf Seite verbrachte Zeit[&#x200B; erfasst &#x200B;](overview.md) Zeit, die eine Besucherin oder ein Besucher auf der Seite verbracht hat. Zur Berechnung werden die folgenden Schritte verwendet:
 
 1. Sehen Sie sich für einen bestimmten Treffer den Zeitstempel an.
 2. Vergleichen Sie diesen Treffer mit dem Zeitstempel des nächsten Treffers im Besuch. Sowohl Seitenansichts- als auch Linktracking-Treffer werden gezählt.

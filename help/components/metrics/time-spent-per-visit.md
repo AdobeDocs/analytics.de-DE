@@ -14,7 +14,7 @@ ht-degree: 88%
 
 *Auf dieser Hilfeseite wird beschrieben, wie „Zeit pro Besuch“ als Metrik funktioniert. Weitere Informationen finden Sie unter der Dimension [Zeit pro Besuch](../dimensions/time-spent-per-visit.md).*
 
-Die [Metrik „Aufgewendete Zeit pro Besuch (Sekunden)“ ](overview.md) die durchschnittliche Zeit an, die Besucherinnen und Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren.
+Die [Metrik „Aufgewendete Zeit pro Besuch (Sekunden)“ &#x200B;](overview.md) die durchschnittliche Zeit an, die Besucherinnen und Besucher während jedes Besuchs mit einem bestimmten Dimensionselement interagieren.
 
 Diese Metrik ist aufgrund ihrer unterschiedlichen Verarbeitungsarchitektur nicht in Data Warehouse verfügbar.
 

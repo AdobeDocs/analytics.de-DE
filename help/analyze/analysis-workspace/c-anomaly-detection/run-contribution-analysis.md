@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # Ausführen einer Beitragsanalyse
 
-[Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) Damit soll Benutzenden geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysen viel schneller zu identifizieren.
+[Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. &#x200B;](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) Damit soll Benutzenden geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysen viel schneller zu identifizieren.
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ Die Schritte zum Ausführen der Beitragsanalyse sind:
 
    * Visualisierung [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
    * Eine monatliche Trend[Linien](/help/analyze/analysis-workspace/visualizations/line.md)Visualisierung.
-   * Eine **[!UICONTROL Top-Elemente]**[Freiformtabelle), ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) anzeigt, welche Top-Elemente zu dieser Anomalie beitragen, sortiert nach [Beitragsbewertung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis). Die zusätzlichen Spalten zeigen die betreffende Metrik und eine **[!UICONTROL Unique Visitors]**-Metrik zur Bereitstellung des Kontexts.
+   * Eine **[!UICONTROL Top-Elemente]**&#x200B;[Freiformtabelle), &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) anzeigt, welche Top-Elemente zu dieser Anomalie beitragen, sortiert nach [Beitragsbewertung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis). Die zusätzlichen Spalten zeigen die betreffende Metrik und eine **[!UICONTROL Unique Visitors]**-Metrik zur Bereitstellung des Kontexts.
 
-   * Die **[!UICONTROL Generierte Segmente (Cluster der obersten Elemente]** [Freiformtabelle) ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) Zuordnungen der obersten Elemente basierend auf dem Beitragswert, Anomalievorfällen und dem Gesamtprozentsatz, der zur anormalen Metrik beiträgt. Diese Zuordnung wird dann als Zielgruppensegment (Beitragssegment 1, Beitragssegment 2 usw.) erfasst. Wählen Sie ![Info](/help/assets/icons/Info.svg) aus, um die Segmentdefinition anzuzeigen, einschließlich der Elemente, aus denen die Segmente am häufigsten bestehen:
+   * Die **[!UICONTROL Generierte Segmente (Cluster der obersten Elemente]** [Freiformtabelle) &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) Zuordnungen der obersten Elemente basierend auf dem Beitragswert, Anomalievorfällen und dem Gesamtprozentsatz, der zur anormalen Metrik beiträgt. Diese Zuordnung wird dann als Zielgruppensegment (Beitragssegment 1, Beitragssegment 2 usw.) erfasst. Wählen Sie ![Info](/help/assets/icons/Info.svg) aus, um die Segmentdefinition anzuzeigen, einschließlich der Elemente, aus denen die Segmente am häufigsten bestehen:
 
 
 1. Da die Beitragsanalyse jetzt Teil von Analysis Workspace ist, können Sie eine Reihe seiner Funktionen aus einem Freiformtabellen-Kontextmenü nutzen, um Ihre Analyse noch aussagekräftiger zu gestalten, z. B.:

@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Wochentag/Wochenende
 
-Die Dimension „Wochentag/Wochenende[ gibt insight ](overview.md), ob der Treffer an einem Wochentag (Montag bis Freitag) oder am Wochenende (Samstag bis Sonntag) stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
+Die Dimension „Wochentag/Wochenende[&#x200B; gibt insight &#x200B;](overview.md), ob der Treffer an einem Wochentag (Montag bis Freitag) oder am Wochenende (Samstag bis Sonntag) stattgefunden hat. Die Uhrzeit des Treffers basierend auf der [Zeitzone der Report Suite](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Füllen dieser Dimension mit Daten
 

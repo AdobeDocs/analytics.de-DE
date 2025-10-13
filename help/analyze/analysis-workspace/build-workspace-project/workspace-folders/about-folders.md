@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Die Ordner in Workspace unterstützen Sie dabei, Projekte zu organisieren und zu kategorisieren. Mit der Ordnerfunktionalität können Sie Ordner und Unterordner erstellen, um Ihre Projekte zu verwalten.
 
-Ordner in Adobe Analytics sind auf der Workspace-Landingpage verfügbar, wenn Sie die Option &quot;[ und Projekte anzeigen“ ](../freeform-overview.md#show-selector).
+Ordner in Adobe Analytics sind auf der Workspace-Landingpage verfügbar, wenn Sie die Option &quot;[&#x200B; und Projekte anzeigen“ &#x200B;](../freeform-overview.md#show-selector).
 
 In Analysis Workspace gibt es zwei Arten von Ordnern: den Firmenordner und persönliche Ordner. Ein freigegebener Firmenordner ermöglicht es Admins, Inhalte zu erstellen und diese für alle Workspace-Benutzenden freizugeben.
 

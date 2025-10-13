@@ -41,7 +41,7 @@ Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von ](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von &#x200B;](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

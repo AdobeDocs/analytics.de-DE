@@ -79,7 +79,7 @@ Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `clic
 </amp-analytics>
 ```
 
-Das `<amp-analytics>`-Tag unterstützt Variablenersetzungen, damit AMP ihm bekannte Datenwerte bereitstellen kann. Weitere Informationen finden [ unter „In `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) unterstützte Variablen“ auf GitHub.
+Das `<amp-analytics>`-Tag unterstützt Variablenersetzungen, damit AMP ihm bekannte Datenwerte bereitstellen kann. Weitere Informationen finden [&#x200B; unter „In `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) unterstützte Variablen“ auf GitHub.
 
 >[!NOTE]
 >

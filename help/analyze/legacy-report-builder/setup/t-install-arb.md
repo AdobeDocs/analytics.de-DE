@@ -18,7 +18,7 @@ ht-degree: 54%
 
 So installieren Sie Report Builder:
 
-1. Adobe Experience Cloud Klicken Sie auf **[](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
+1. Adobe Experience Cloud Klicken Sie auf **[&#128279;](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Report Builder]**.
 1. Klicken Sie auf **[!UICONTROL Jetzt herunterladen]** zum Herunterladen der 32-Bit- oder 64-Bit-Version (abhängig von Ihrer installierten MS Excel-Version).
 1. Öffnen Sie das heruntergeladene Installationspaket.
 1. Folgen Sie den Anweisungen des Installationsassistenten.

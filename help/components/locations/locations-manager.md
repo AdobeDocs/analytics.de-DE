@@ -42,7 +42,7 @@ Mit dem Standort-Manager können Sie alle von Ihnen erstellten Standorte oder al
 
 ## Konfigurieren von Spalten im Standort-Manager
 
-Die folgenden Spalten sind im Standort-Manager verfügbar. Um die in der Tabelle angezeigten Spalten anzupassen, wählen Sie das Symbol **Tabelle anpassen** (Symbol ![ Tabelle anpassen](assets/customize-table-icon.png).
+Die folgenden Spalten sind im Standort-Manager verfügbar. Um die in der Tabelle angezeigten Spalten anzupassen, wählen Sie das Symbol **Tabelle anpassen** (Symbol ![&#x200B; Tabelle anpassen](assets/customize-table-icon.png).
 
 * **[!UICONTROL Speicherort-Name]**: Der Speicherort-Name. Wählen Sie das Dreipunkt-Menü neben einem Ortsnamen aus, um entweder [den Ort bearbeiten](/help/components/locations/configure-import-locations.md) oder ihn zu löschen.
 * **[!UICONTROL Speicherort-]**: Der mit dem Speicherort verknüpfte Kontotyp.
@@ -102,7 +102,7 @@ Informationen zum Bearbeiten eines Kontos finden Sie unter [Konfigurieren von Cl
 
 ### Kontoschlüssel anzeigen
 
-Nachdem Sie ein Konto erstellt haben, können Sie alle zugehörigen Kontoschlüssel für dieses Konto anzeigen. Möglicherweise müssen Sie diese Informationen anzeigen, wenn Sie die Konfiguration des Kontos mit Ihrem Cloud-Anbieter bei der [ursprünglichen Konfiguration des Kontos) nicht ](/help/components/locations/configure-import-accounts.md) haben.
+Nachdem Sie ein Konto erstellt haben, können Sie alle zugehörigen Kontoschlüssel für dieses Konto anzeigen. Möglicherweise müssen Sie diese Informationen anzeigen, wenn Sie die Konfiguration des Kontos mit Ihrem Cloud-Anbieter bei der [ursprünglichen Konfiguration des Kontos) nicht &#x200B;](/help/components/locations/configure-import-accounts.md) haben.
 
 So zeigen Sie die mit einem Exportkonto verknüpften Schlüssel an:
 
@@ -192,7 +192,7 @@ Löschen von Konten:
 
 1. Löschen Sie die Konten, wie unter [Löschen eines Kontos](#delete-an-account) beschrieben.
 
-1. Fahren Sie mit dem folgenden Abschnitt fort[ „Beschränken Sie die Kontotypen, die Benutzern zur Verfügung stehen](#limit-the-account-types-that-are-available-to-users).
+1. Fahren Sie mit dem folgenden Abschnitt fort[&#x200B; „Beschränken Sie die Kontotypen, die Benutzern zur Verfügung stehen](#limit-the-account-types-that-are-available-to-users).
 
 #### Beschränken Sie die Kontotypen, die Benutzern zur Verfügung stehen
 

@@ -18,7 +18,7 @@ ht-degree: 75%
 Einstiegsdimensionen sind [besuchsbasiert](../metrics/visits.md). Sie zeichnen das erste Dimensionselement auf und behalten es für die gesamte Dauer des Besuchs bei. Einstiegsdimensionen sind für alle Variablen verfügbar, bei denen die Pfadsetzung unter [Traffic-Variablen](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) in den Report Suite-Einstellungen aktiviert ist.
 
 >[!TIP]
->Wenn Sie Daten basierend auf dem ersten Treffer eines Besuchs anstelle des ersten bei einem Besuch angezeigten Werts anzeigen möchten, können Sie ein [Segment](/help/components/segmentation/seg-overview.md) verwenden. Verwenden Sie einen Treffer-Container[ bei dem „Treffertiefe](hit-depth.md) gleich 1 ist, und verwenden Sie dann dieses Segment mit der gewünschten Variablen.
+>Wenn Sie Daten basierend auf dem ersten Treffer eines Besuchs anstelle des ersten bei einem Besuch angezeigten Werts anzeigen möchten, können Sie ein [Segment](/help/components/segmentation/seg-overview.md) verwenden. Verwenden Sie einen Treffer-Container[&#x200B; bei dem „Treffertiefe](hit-depth.md) gleich 1 ist, und verwenden Sie dann dieses Segment mit der gewünschten Variablen.
 
 ## Füllen von Einstiegsdimensionen mit Daten
 

@@ -12,7 +12,7 @@ ht-degree: 79%
 
 # Postleitzahl
 
-Die Dimension „Postleitzahl[ gibt ](overview.md) Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
+Die Dimension „Postleitzahl[&#x200B; gibt &#x200B;](overview.md) Postleitzahl des Besuchers an. Sie können diese Dimension verwenden, um mehr über den Erfolg lokaler Werbung zu erfahren oder zu sehen, wo Ihre Site weltweit am besten abschneidet.
 
 ## Füllen dieser Dimension mit Daten
 

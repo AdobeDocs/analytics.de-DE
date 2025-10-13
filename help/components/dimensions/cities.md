@@ -12,7 +12,7 @@ ht-degree: 73%
 
 # Städte
 
-Die Dimension &quot;[&quot; ](overview.md) die Stadt an, aus der der Treffer stammt. Diese Dimension ist nützlich, um die beliebtesten Städte zu ermitteln, aus denen die Besucher beim Besuch Ihrer Website stammen. Sie könnten diese Daten nutzen, um sich auf lokale Werbung in diesen Städten zu konzentrieren, wie etwa Werbetafeln oder Werbe-Spots.
+Die Dimension &quot;[&quot; &#x200B;](overview.md) die Stadt an, aus der der Treffer stammt. Diese Dimension ist nützlich, um die beliebtesten Städte zu ermitteln, aus denen die Besucher beim Besuch Ihrer Website stammen. Sie könnten diese Daten nutzen, um sich auf lokale Werbung in diesen Städten zu konzentrieren, wie etwa Werbetafeln oder Werbe-Spots.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -29,7 +29,7 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
    | Berichtsname | Zeigt entweder den Namen des Berichtstyps an, der über den Baum in Schritt 1 des Berichtsassistenten ausgewählt wurde (z. B. [!DNL Traffic Report]), oder den im Feld [!DNL Name this Request] eingegebenen Namen. |
    | Filtert Parameter | Zeigt die Dimensionsfilter wie beispielsweise Suchfilter an |
    | Segment | Zeigt die Segmentparameter an |
-   | Datenaktualität | Zeigt die Parameter für Datenaktualität an Beispiel:    Datenaktualität: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten) Weitere Informationen zur aktuellen Datenverarbeitung finden [ unter ](/help/analyze/legacy-report-builder/options.md). |
+   | Datenaktualität | Zeigt die Parameter für Datenaktualität an Beispiel:    Datenaktualität: Seitenansichten (vor 1,5 Stunden), Ausstiege (vor 30 Minuten) Weitere Informationen zur aktuellen Datenverarbeitung finden [&#x200B; unter &#x200B;](/help/analyze/legacy-report-builder/options.md). |
 
    Anzeigereihefolge: Wenn im [!UICONTROL Zeilentitel] (Schritt 2) ein Element enthalten ist, wird dies in der Anforderung zuerst angezeigt. Falls nicht, verwendet das System das erste vorhandene Element im Raster [!UICONTROL Spaltenbezeichnung]. Falls weder Zeilen- oder Spaltenelemente vorhanden sind, wird das erste Element im Raster [!UICONTROL Metriken] angezeigt.
 

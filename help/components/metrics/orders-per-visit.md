@@ -12,7 +12,7 @@ ht-degree: 62%
 
 # Bestellungen pro Besuch
 
-Die Metrik „Bestellungen pro Besuch[ gibt ](overview.md) Verhältnis der Bestellungen an, die Besucherinnen und Besucher im Vergleich zur Gesamtzahl der Besuche auf Ihrer Website getätigt haben. Sie können diese Metrik verwenden, um die Konversionsrate für Ihre Site zu verstehen.
+Die Metrik „Bestellungen pro Besuch[&#x200B; gibt &#x200B;](overview.md) Verhältnis der Bestellungen an, die Besucherinnen und Besucher im Vergleich zur Gesamtzahl der Besuche auf Ihrer Website getätigt haben. Sie können diese Metrik verwenden, um die Konversionsrate für Ihre Site zu verstehen.
 
 ## Berechnung dieser Metrik
 

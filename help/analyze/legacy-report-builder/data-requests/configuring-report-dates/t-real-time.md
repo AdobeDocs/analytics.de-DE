@@ -17,7 +17,7 @@ ht-degree: 80%
 
 So konfigurieren Sie Echtzeit-Anfragedaten:
 
-1. Stellen Sie sicher, dass die Echtzeitberichterstellung in den [Admin Tools“ aktiviert ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
+1. Stellen Sie sicher, dass die Echtzeitberichterstellung in den [Admin Tools“ aktiviert &#x200B;](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 1. Klicken Sie im [!UICONTROL Anforderungs-Assistenten, Schritt 1] auf **[!UICONTROL Echtzeitbericht]** > **[!UICONTROL `<report type>`]**
 
    Wählen Sie beispielsweise einen Traffic-Bericht. Wenn Sie einen Echtzeitberichtstyp auswählen, werden die Optionen für die [!UICONTROL Auswahl des Zeitraums] angezeigt.

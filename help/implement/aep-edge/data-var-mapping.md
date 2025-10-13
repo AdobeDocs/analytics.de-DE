@@ -25,7 +25,7 @@ Einige Datenobjektfelder unterstützen auch ihren jeweiligen [Abfrageparameterwe
 
 ## Datenobjekt-Feldzuordnung
 
-Frühere Aktualisierungen dieser Tabelle finden Sie im „Commit-[ auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie bei AppMeasurement-Variablen wird bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
+Frühere Aktualisierungen dieser Tabelle finden Sie im „Commit-[&#x200B; auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie bei AppMeasurement-Variablen wird bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
 
 | Datenobjekt-Feldpfad | Analytics-Variable und -Beschreibung |
 | --- | --- |
@@ -43,7 +43,7 @@ Frühere Aktualisierungen dieser Tabelle finden Sie im „Commit-[ auf GitHub](h
 | `data.__adobe.analytics.events` | [Benutzerspezifische Ereignisse](../../components/metrics/custom-events.md). Formatieren Sie dieses Feld ähnlich wie die [`events`](../vars/page-vars/events/events-overview.md) Implementierungsvariable. |
 | `data.__adobe.analytics.javaEnabled` | Die Dimension [Java aktiviert](../../components/dimensions/java-enabled.md) . Die `data.__adobe.analytics.v` wird ebenfalls unterstützt. |
 | `data.__adobe.analytics.latitude` | Ermöglicht die Definition der [Standort](../../components/dimensions/lifecycle-dimensions.md) Lebenszyklusdimensionen für Mobilgeräte. Die `data.__adobe.analytics.lat` wird ebenfalls unterstützt. |
-| `data.__adobe.analytics.linkName` | Die Dimension [Benutzerspezifischer ](../../components/dimensions/custom-link.md), [Downloadlink](../../components/dimensions/download-link.md) oder [Exitlink](../../components/dimensions/exit-link.md), je nach dem Wert in `data.__adobe.analytics.linkType`. Die `data.__adobe.analytics.pev2` wird ebenfalls unterstützt. |
+| `data.__adobe.analytics.linkName` | Die Dimension [Benutzerspezifischer &#x200B;](../../components/dimensions/custom-link.md), [Downloadlink](../../components/dimensions/download-link.md) oder [Exitlink](../../components/dimensions/exit-link.md), je nach dem Wert in `data.__adobe.analytics.linkType`. Die `data.__adobe.analytics.pev2` wird ebenfalls unterstützt. |
 | `data.__adobe.analytics.linkURL` | Die [`linkURL`](../vars/config-vars/linkurl.md) Implementierungsvariable. Die `data.__adobe.analytics.pev1` wird ebenfalls unterstützt. |
 | `data.__adobe.analytics.linkType` | Bestimmt den Typ des angeklickten Links. Gültige Werte sind `o` (benutzerspezifische Links), `d` (Downloadlinks) und `e` (Exitlinks). Die `data.__adobe.analytics.pe` wird ebenfalls unterstützt. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | [`list`](/help/implement/vars/page-vars/list.md) Implementierungsvariablen. Die Kurzfelder `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3` werden ebenfalls unterstützt. |

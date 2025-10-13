@@ -26,7 +26,7 @@ Um sich bei Report Builder anzumelden, verwenden Sie Ihr Experience Cloud-Anmeld
 
 Mit der Experience Cloud-Anmeldung können Sie sich mit Ihrer Enterprise ID (E-Mail und Kennwort) bei der Adobe Experience Cloud anmelden.
 
-Klicken Sie auf **[!UICONTROL Anmelden]** > **[!UICONTROL Anmelden mit einer Enterprise ID]**, um zurück zur Single-Sign-On-Seite Ihres Unternehmens geleitet werden. Weitere Informationen zu Enterprise ID finden Sie unter [Bei Ihrem Unternehmens- oder Schulkonto ](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html#whatis).
+Klicken Sie auf **[!UICONTROL Anmelden]** > **[!UICONTROL Anmelden mit einer Enterprise ID]**, um zurück zur Single-Sign-On-Seite Ihres Unternehmens geleitet werden. Weitere Informationen zu Enterprise ID finden Sie unter [Bei Ihrem Unternehmens- oder Schulkonto &#x200B;](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![Screenshot mit dem Fenster &quot;Adobe Experience Cloud-Anmeldung“ mit Optionen für die Anmeldung mit oder ohne Adobe ID](assets/adobe_id_login.png)
 

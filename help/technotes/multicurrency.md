@@ -20,5 +20,5 @@ Sie können die Variable [`currencyCode`](/help/implement/vars/config-vars/curre
 
 ## Report Suite-Ebene
 
-Jede Report Suite verfügt über eine **Basiswährung**. Diese Währung bestimmt den Kontext aller Währungsmetriken (z. B[ „Umsatz](/help/components/metrics/revenue.md)). Alle Währungsdaten werden in der Basiswährung der Report Suite gespeichert.
+Jede Report Suite verfügt über eine **Basiswährung**. Diese Währung bestimmt den Kontext aller Währungsmetriken (z. B[&#x200B; „Umsatz](/help/components/metrics/revenue.md)). Alle Währungsdaten werden in der Basiswährung der Report Suite gespeichert.
 

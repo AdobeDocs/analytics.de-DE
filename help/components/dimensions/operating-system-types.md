@@ -12,7 +12,7 @@ ht-degree: 53%
 
 # Betriebssystemtypen
 
-Die Dimension „Betriebssystemtypen[ zeigt das übergeordnete Betriebssystem an](overview.md) das der Besucher verwendet hat, unabhängig von bestimmten Versionen. Diese Dimension ist nützlich, um nicht nur zu verstehen, welches Betriebssystem und welche Version am häufigsten verwendet werden, sondern auch, welche typischen Besucher der Betriebssystemplattform verwenden.
+Die Dimension „Betriebssystemtypen[&#x200B; zeigt das übergeordnete Betriebssystem an](overview.md) das der Besucher verwendet hat, unabhängig von bestimmten Versionen. Diese Dimension ist nützlich, um nicht nur zu verstehen, welches Betriebssystem und welche Version am häufigsten verwendet werden, sondern auch, welche typischen Besucher der Betriebssystemplattform verwenden.
 
 ## Füllen dieser Dimension mit Daten
 

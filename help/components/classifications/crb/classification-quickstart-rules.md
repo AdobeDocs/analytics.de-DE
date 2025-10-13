@@ -80,7 +80,7 @@ Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben
 
 * Der Schlüssel wurde bereits klassifiziert, und Sie haben nicht die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) ausgewählt.
 
-  Sie können Klassifizierungen überschreiben[ wenn Sie eine Regel hinzufügen ](/help/components/classifications/crb/classification-quickstart-rules.md) aktivieren oder eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
+  Sie können Klassifizierungen überschreiben[&#x200B; wenn Sie eine Regel hinzufügen &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) aktivieren oder eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
 
 * Ein klassifizierter Schlüssel wird beim Überschreiben nach Ablauf eines bestimmten Zeitrahmens auch dann nicht in den Daten sichtbar, wenn Sie die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) aktiviert haben.
 * Der Schlüssel wird nicht klassifiziert, und nach Beginn des Zeitrahmens (vor etwa einem Monat) wurde der Schlüssel auch nicht in [!DNL Adobe Analytics] übergeben.
@@ -133,7 +133,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
+| Regulärer Ausdruck | &Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
 
 **Syntax**
 
@@ -368,7 +368,7 @@ Testen eines Klassifizierungsregelsatzes:
    * Trackingcodes
    * Keywords oder Suchausdrücke
 
-   Informationen [ Testen regulärer Ausdrücke finden Sie ](/help/components/classifications/crb/classification-quickstart-rules.md) „Reguläre Ausdrücke in Klassifizierungsregeln“.
+   Informationen [&#x200B; Testen regulärer Ausdrücke finden Sie &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) „Reguläre Ausdrücke in Klassifizierungsregeln“.
 1. Klicken Sie auf **[!UICONTROL Test ausführen]**.
 
    Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.

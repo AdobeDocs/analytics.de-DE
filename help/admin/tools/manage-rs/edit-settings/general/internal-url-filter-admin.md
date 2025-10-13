@@ -18,7 +18,7 @@ Interne URL-Filter ermöglichen es Ihnen, die Referrer zu identifizieren, die Si
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Interne URL-Filter]**
 
-Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Zu den Dimensionen, die auf internen URL[Filtern basieren, gehören ](/help/components/dimensions/referrer.md)Referrer[ „Referrer Domain](/help/components/dimensions/referring-domain.md), [Marketing-Kanäle](/help/components/dimensions/marketing-channel.md) und andere Dimensionen der Traffic-Quelle.
+Ein Referrer oder eine verweisende Seite ist normalerweise die Seite, von der aus Besucher Ihre Website aufgerufen haben. Um Datenverzerrungen zu vermeiden, können Sie interne Seiten als Referrer herausfiltern. Zu den Dimensionen, die auf internen URL[Filtern basieren, gehören &#x200B;](/help/components/dimensions/referrer.md)Referrer[&#x200B; „Referrer Domain](/help/components/dimensions/referring-domain.md), [Marketing-Kanäle](/help/components/dimensions/marketing-channel.md) und andere Dimensionen der Traffic-Quelle.
 
 [Marketing-Kanal-Verarbeitungsregeln](../marketing-channels/c-rules.md) geben als mögliche Regelkriterien &quot;[!UICONTROL stimmt mit internen URL-Filtern überein] an.
 

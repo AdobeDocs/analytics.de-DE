@@ -40,7 +40,7 @@ Im Folgenden werden die wichtigsten Gründe für beschädigte Visualisierungen n
 >[!IMPORTANT]
 >
 >Report Builder erfordert, dass ein Administrator den Zugriff auf die Ressourcen Ihrer Organisation autorisiert. Wenn Sie Zugriff benötigen, bitten Sie einen Administrator, Ihnen die Berechtigung zu erteilen.
->> Ein Microsoft-Administrator kann die Einstellung *Benutzer können Anwendung registrieren* unter **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen lassen Optionen zu]** überprüfen. Wenn diese Option auf **Nein** gesetzt ist, kann der Administrator diese Anwendungstypen registrieren.
+>&#x200B;> Ein Microsoft-Administrator kann die Einstellung *Benutzer können Anwendung registrieren* unter **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Benutzereinstellungen lassen Optionen zu]** überprüfen. Wenn diese Option auf **Nein** gesetzt ist, kann der Administrator diese Anwendungstypen registrieren.
 
 Benutzer können Zugriff gewähren, indem sie sich bei ihrem [Microsoft Power BI-Konto anmelden](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 

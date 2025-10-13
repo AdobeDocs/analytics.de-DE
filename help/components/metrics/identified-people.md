@@ -12,7 +12,7 @@ ht-degree: 68%
 
 # Identifizierte Personen
 
-Die Metrik „Identifizierte Personen[ ist ](overview.md) Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der Besucher zählt, die durch die geräteübergreifende Analyse identifiziert werden.
+Die Metrik „Identifizierte Personen[&#x200B; ist &#x200B;](overview.md) Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der Besucher zählt, die durch die geräteübergreifende Analyse identifiziert werden.
 
 ## Berechnung dieser Metrik
 

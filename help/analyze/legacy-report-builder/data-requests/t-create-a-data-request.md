@@ -37,4 +37,4 @@ Schritte zum Erstellen einer grundlegenden Datenanforderung.
 
    Die in Schritt 2 verfügbaren [Dimensionen](/help/analyze/report-builder/filter-dimensions.md) hängen davon ab, welchen Basisbericht Sie in Schritt 1 gewählt haben und wie Ihre Report Suite konfiguriert ist. Die Dimensionen sind Elemente, die korrelieren, Unterbeziehungen herstellen oder eine Classification der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählten Berichtstypmetrik darstellen. Wenn Sie in Schritt 2 mehr als eine Dimension hinzufügen, wird dadurch eine Aufschlüsselung der Datenanforderung erreicht.
 
-   Weitere [ finden Sie unter ](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) und Dimensionen hinzufügen .
+   Weitere [&#x200B; finden Sie unter &#x200B;](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) und Dimensionen hinzufügen .

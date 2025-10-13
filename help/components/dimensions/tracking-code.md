@@ -12,7 +12,7 @@ ht-degree: 66%
 
 # Trackingcode
 
-Die Dimension „Trackingcode[ listet ](overview.md) Namen von Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen zu verstehen, welche Links am erfolgreichsten den Traffic zu Ihrer Site geleitet haben.
+Die Dimension „Trackingcode[&#x200B; listet &#x200B;](overview.md) Namen von Trackingcodes auf Ihrer Site auf. Sie können Links mit verschiedenen Abfragezeichenfolgenparameterwerten an verschiedenen Stellen im Internet platzieren. Diese Dimension hilft Ihnen zu verstehen, welche Links am erfolgreichsten den Traffic zu Ihrer Site geleitet haben.
 
 Das Anhängen von Trackingcode-Abfragezeichenfolgen ist in E-Mails, Anzeigen, Social-Media-Posts und anderen Marketing-Maßnahmen Ihres Unternehmens häufig.
 

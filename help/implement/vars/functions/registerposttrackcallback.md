@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Weitere Informationen [ Sie in der Dokumentation zu Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)SDK unter „Umgang mit Antworten von Ereignissen“.
+Weitere Informationen [&#x200B; Sie in der Dokumentation zu Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)SDK unter „Umgang mit Antworten von Ereignissen“.
 
 ## Registrieren von Callback nach Tracking mit der Adobe Analytics-Erweiterung
 

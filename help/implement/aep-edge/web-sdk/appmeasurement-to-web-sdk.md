@@ -55,7 +55,7 @@ Ihr Datenstrom ist jetzt bereit, Daten zu empfangen und an Adobe Analytics weite
 
 +++**2. Installieren Sie die Web SDK JavaScript-Bibliothek**
 
-Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Methodenaufrufe verwendet werden können. Weitere [ und zu verwendende Codeblöcke finden Sie unter „Installieren des Web](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/install/library)SDKs mit der JavaScript-Bibliothek“.
+Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Methodenaufrufe verwendet werden können. Weitere [&#x200B; und zu verwendende Codeblöcke finden Sie unter „Installieren des Web](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/install/library)SDKs mit der JavaScript-Bibliothek“.
 
 +++
 
@@ -128,7 +128,7 @@ Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-
   alloy("sendEvent", dataObj);
   ```
 
-* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im `false`[`configure`-Befehl auf ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) fest.
+* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im `false`[`configure`-Befehl auf &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) fest.
 
 * **Manuelles Linktracking**: Die Web-SDK verfügt nicht über separate Befehle zwischen PageView- und Nicht-PageView-Aufrufen. Geben Sie diese Unterscheidung innerhalb des Payload-Objekts an.
 

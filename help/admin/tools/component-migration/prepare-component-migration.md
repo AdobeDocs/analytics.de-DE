@@ -47,7 +47,7 @@ Bevor Ihre Projekte und die zugehörigen Komponenten für die Migration bereit s
 
 1. Legen Sie als Organisation fest, wie Sie Komponenten zuordnen.
 
-   Weitere Informationen finden Sie im folgenden Abschnitt [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen ](#decide-as-an-organization-how-you-will-map-components).
+   Weitere Informationen finden Sie im folgenden Abschnitt [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen &#x200B;](#decide-as-an-organization-how-you-will-map-components).
 
 ## Was in einer Migration enthalten ist
 
@@ -55,7 +55,7 @@ In den folgenden Tabellen ist aufgeführt, welche Elemente eines Projekts und ei
 
 ### Migrierte Komponentenelemente
 
-Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics&quot; ](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics&quot; &#x200B;](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
 
 Segmente, Datumsbereiche und berechnete Metriken, die noch nicht in Customer Journey Analytics vorhanden sind, werden dort basierend auf den zugeordneten Dimensionen und Metriken neu erstellt.
 

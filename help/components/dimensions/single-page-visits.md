@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Einzelseitenbesuche
 
-*Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als [Dimension“ ](overview.md). Weitere Informationen finden Sie unter der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als [Dimension“ &#x200B;](overview.md). Weitere Informationen finden Sie unter der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md).*
 
 Die Dimension „Einzelseitenbesuche“ gibt die Anzahl der Besuche an, die aus einem einzigen eindeutigen Dimensionselement für [Seite](page.md) bestanden. Es handelt sich um die Dimension, die der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md) entspricht.
 

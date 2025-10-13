@@ -12,11 +12,11 @@ ht-degree: 55%
 
 # Durchschnittliche Klicktiefe
 
-Die „Metrik [ durchschnittliche Seitentiefe“ ](overview.md) an, wie weit ein Dimensionselement sich im Durchschnitt bis zu einem bestimmten Besuch erstreckt. Beispielsweise zeigt Ihre Startseite (die ein Dimensionselement für die Dimension Seite ist) in der Regel eine kleinere durchschnittliche Seitentiefe als Ihre Kaufbestätigungsseite, die wahrscheinlich weiter in einen Besuch hineinreicht. Sie können diese Informationen verwenden, um bestimmte Seiten für neue Besucher zu optimieren, wenn die Seite im Durchschnitt eine niedrige Tiefe aufweist.
+Die „Metrik [&#x200B; durchschnittliche Seitentiefe“ &#x200B;](overview.md) an, wie weit ein Dimensionselement sich im Durchschnitt bis zu einem bestimmten Besuch erstreckt. Beispielsweise zeigt Ihre Startseite (die ein Dimensionselement für die Dimension Seite ist) in der Regel eine kleinere durchschnittliche Seitentiefe als Ihre Kaufbestätigungsseite, die wahrscheinlich weiter in einen Besuch hineinreicht. Sie können diese Informationen verwenden, um bestimmte Seiten für neue Besucher zu optimieren, wenn die Seite im Durchschnitt eine niedrige Tiefe aufweist.
 
 >[!TIP]
 >
->Verwenden Sie diese Metrik zusammen mit einer anderen Metrik, z[ B. „Besuche](visits.md), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie möglicherweise Dimensionselemente mit anormalen Seitentiefen, was in der Regel keine wertvolle insight ist.
+>Verwenden Sie diese Metrik zusammen mit einer anderen Metrik, z[&#x200B; B. „Besuche](visits.md), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie möglicherweise Dimensionselemente mit anormalen Seitentiefen, was in der Regel keine wertvolle insight ist.
 
 ## Berechnung dieser Metrik
 

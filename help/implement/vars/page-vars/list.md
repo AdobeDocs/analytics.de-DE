@@ -27,7 +27,7 @@ Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellung
 
 ## Listenvariablen, die das Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwenden Listenvariablen die zu `xdm._experience.analytics.customDimensions.lists.list1.list[]` XDM-Felder `xdm._experience.analytics.customDimensions.lists.list3.list[]` . Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Datenerfassungs-Server von Adobe erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen“ festgelegt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwenden Listenvariablen die zu `xdm._experience.analytics.customDimensions.lists.list1.list[]` XDM-Felder `xdm._experience.analytics.customDimensions.lists.list3.list[]` . Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Datenerfassungs-Server von Adobe erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen“ festgelegt &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verw
 >
 >Das Adobe-XDM-Schema enthält `key`-Objekte zusätzlich zu `value`-Objekten in jedem `list[]`-Array. Adobe verwendet diese `key`-Objekte nicht beim Senden von Daten an Adobe Analytics.
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` der folgenden AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen“ festgelegt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` der folgenden AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen“ festgelegt &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

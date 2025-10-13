@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Tage bis Erstkauf
 
-Die Dimension „Tage vor dem ersten Kauf[ gibt ](overview.md) Anzahl der Tage an, die vergehen, bevor eine Besucherin oder ein Besucher zum ersten Mal Ihre Website erreicht, und wann sie bzw. er einen Kauf tätigt. Wenn ein Besucher beispielsweise einen Tag nach dem ersten Besuch einen Kauf tätigt, gehören alle nachfolgenden Besuche und Ereignisse zum Dimensionselement „1 Tag“.
+Die Dimension „Tage vor dem ersten Kauf[&#x200B; gibt &#x200B;](overview.md) Anzahl der Tage an, die vergehen, bevor eine Besucherin oder ein Besucher zum ersten Mal Ihre Website erreicht, und wann sie bzw. er einen Kauf tätigt. Wenn ein Besucher beispielsweise einen Tag nach dem ersten Besuch einen Kauf tätigt, gehören alle nachfolgenden Besuche und Ereignisse zum Dimensionselement „1 Tag“.
 
 Nachdem ein Besucher den ersten Kauf getätigt hat, gehören sie für die restliche Cookie-Lebensdauer des Besuchers zum selben Dimensionselement.
 

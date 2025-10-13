@@ -29,7 +29,7 @@ Die [Berechtigungselemente](/help/admin/admin-console/permissions/product-profil
 * **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map Link]**
 * **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map-Seite]**
 
-Weitere [ finden Sie unter „Produktprofilberechtigungen für ](/help/admin/admin-console/permissions/analytics-tools.md) Tools“.
+Weitere [&#x200B; finden Sie unter „Produktprofilberechtigungen für &#x200B;](/help/admin/admin-console/permissions/analytics-tools.md) Tools“.
 
 +++
 

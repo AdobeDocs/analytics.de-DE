@@ -12,7 +12,7 @@ ht-degree: 75%
 
 # Exitlink
 
-Die Dimension „Exitlink[ zeigt ](overview.md) Namen der auf Ihrer Site implementierten Exitlinks an. Diese Dimension ist nützlich, wenn Sie wissen möchten, welche Links am beliebtesten sind und auf Domänen außerhalb Ihrer Site verweisen.
+Die Dimension „Exitlink[&#x200B; zeigt &#x200B;](overview.md) Namen der auf Ihrer Site implementierten Exitlinks an. Diese Dimension ist nützlich, wenn Sie wissen möchten, welche Links am beliebtesten sind und auf Domänen außerhalb Ihrer Site verweisen.
 
 ## Füllen dieser Dimension mit Daten
 

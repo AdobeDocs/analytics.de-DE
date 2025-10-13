@@ -30,7 +30,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen 
 
 
 
-1. Richten Sie die neue Report Builder ein[ indem Sie die folgenden Anweisungen ](/help/analyze/report-builder/report-builder-setup.md).
+1. Richten Sie die neue Report Builder ein[&#x200B; indem Sie die folgenden Anweisungen &#x200B;](/help/analyze/report-builder/report-builder-setup.md).
 
 1. Öffnen Sie Excel und klicken Sie oben rechts auf das Adobe Report Builder-Symbol .
 

@@ -93,7 +93,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
    * Wählen Sie im Kontextmenü in einer Freiformtabelle die Option **[!UICONTROL Visualisieren]** aus. Wählen Sie dann die Visualisierung aus dem Untermenü aus. Basierend auf der aktuellen Auswahl in der Tabelle bestimmt Workspace, welche Visualisierung angeboten werden soll, und interpretiert die Daten, um die angeforderte Visualisierung zu erstellen.
 
-Wenn Sie eine einfache Visualisierung hinzufügen, z. B[ eine ](line.md)-[-](bar.md)-Visualisierung, verwendet die Visualisierung die nächste Freiformtabelle als Datenquelle. Sie können jederzeit die [Datenquelle](#data-source) einer Ihrer Visualisierungen ändern.
+Wenn Sie eine einfache Visualisierung hinzufügen, z. B[&#x200B; eine &#x200B;](line.md)-[-](bar.md)-Visualisierung, verwendet die Visualisierung die nächste Freiformtabelle als Datenquelle. Sie können jederzeit die [Datenquelle](#data-source) einer Ihrer Visualisierungen ändern.
 
 ## Verwalten von Visualisierungen
 
@@ -179,10 +179,10 @@ Verwenden Sie das Kontextmenü (verfügbar über eine alternative Auswahl, z. B
 | --- | --- |
 | **[!UICONTROL Kopierte Visualisierung einfügen]** | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt ein. |
 | **[!UICONTROL Daten in die Zwischenablage kopieren]** | [Kopieren Sie Daten](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
+| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
 | **[!UICONTROL Visualisierung kopieren]** | Kopieren Sie die Visualisierung, sodass Sie sie an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
-| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
+| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
 | **[!UICONTROL Visualisierung duplizieren]** | Erstellen Sie ein exaktes Duplikat der Visualisierung. |
 | **[!UICONTROL Beschreibung bearbeiten]** | Fügen Sie Text zur Beschreibung der Visualisierung hinzu (oder bearbeiten Sie ihn). Siehe [Text](text.md). |
 | **[!UICONTROL Visualisierungs-Link abrufen]** | Kopieren Sie einen Link und teilen Sie ihn direkt in der Visualisierung. Der Link wird im Dialogfeld „Link freigeben“ angezeigt. Wählen Sie „Kopieren“ aus, um den Link in die Zwischenablage zu kopieren. |

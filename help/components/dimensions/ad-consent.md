@@ -29,7 +29,7 @@ Sie füllen die Kontextdatenvariable mit relevanten Werten für die Google-Einve
 * `ad_user_data` (1. Zeichen) und
 * `ad_personalization` (2. Zeichen)
 
-Weitere Informationen finden [ unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
+Weitere Informationen finden [&#x200B; unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
 
 Die möglichen Werte für jedes dieser Felder können sein:
 
@@ -51,7 +51,7 @@ Jenseits des ersten und zweiten Zeichens werden derzeit ignoriert.
 
 Sie können die erfassten Anzeigeneinverständnisdaten verwenden:
 
-* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse-Berichte: Die Daten zum Anzeigeneinverständnis sind über die Dimension **[!UICONTROL Anzeigenplattformeinverständnis]** verfügbar.
 
 Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariablen. Der Wert bleibt nicht über den Treffer hinaus erhalten, für den er festgelegt wurde. Daher müssen Sie die Kontextdatenvariable auf jeder Seite festlegen.

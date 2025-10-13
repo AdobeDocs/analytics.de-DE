@@ -32,7 +32,7 @@ Wenn Sie einen Online-Treffer senden, der die `transactionID` Implementierungsva
 * [Tage bis Erstkauf](/help/components/dimensions/days-before-first-purchase.md)
 * [Tage seit letztem Kauf](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* Funktionsspezifische Dimensionen, die in den [Report Suite-Einstellungen) aktiviert sind ](/help/admin/tools/manage-rs/report-suites-admin.md) sich ähnlich wie eVars verhalten. Elementspezifische Dimensionen, die sich ähnlich wie Props verhalten, sind nicht enthalten.
+* Funktionsspezifische Dimensionen, die in den [Report Suite-Einstellungen) aktiviert sind &#x200B;](/help/admin/tools/manage-rs/report-suites-admin.md) sich ähnlich wie eVars verhalten. Elementspezifische Dimensionen, die sich ähnlich wie Props verhalten, sind nicht enthalten.
 * [Listenvariablen](/help/implement/vars/page-vars/list.md)
 * [Marketing-Kanal](/help/components/dimensions/marketing-channel.md)
 * [Details zum Marketing-Kanal](/help/components/dimensions/marketing-detail.md)

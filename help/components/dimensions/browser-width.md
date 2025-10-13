@@ -12,7 +12,7 @@ ht-degree: 81%
 
 # Browser-Breite
 
-Die Dimension „Browser width - bucketed[ zeigt ](overview.md) Breite des Browser-Fensters an, klassifiziert in vordefinierte Gruppen. Diese Dimension ist nützlich, wenn Sie wissen möchten, wie breit Besuchern Ihr Inhalt angezeigt wird. Wenn Sie die Breite verstehen, in der Ihre Inhalte normalerweise angezeigt werden, können Sie diese Inhalte optimieren.
+Die Dimension „Browser width - bucketed[&#x200B; zeigt &#x200B;](overview.md) Breite des Browser-Fensters an, klassifiziert in vordefinierte Gruppen. Diese Dimension ist nützlich, wenn Sie wissen möchten, wie breit Besuchern Ihr Inhalt angezeigt wird. Wenn Sie die Breite verstehen, in der Ihre Inhalte normalerweise angezeigt werden, können Sie diese Inhalte optimieren.
 
 Diese Dimension unterscheidet sich von der Bildschirmbreite. Die Browser-Breite ist die Anzahl der Pixel im sichtbaren Browser-Bereich, während die Bildschirmbreite die Breite des gesamten Monitors in Pixel darstellt. Wenn Sie den Unterschied zwischen diesen beiden Variablen auf Ihrem Computer sehen möchten, öffnen Sie die Browser-Konsole (F12 bei den meisten Browsern) und kopieren Sie den folgenden Code in die Konsole:
 

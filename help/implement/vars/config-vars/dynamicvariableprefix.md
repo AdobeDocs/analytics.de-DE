@@ -19,7 +19,7 @@ Dynamische Variablen verwenden standardmäßig das Präfix `D=`. Mit der `dynami
 
 ## Präfix dynamischer Variablen unter Verwendung der Web-SDK
 
-Web SDK verwendet keine dynamische Variablenformatierung. Stattdessen können Sie die Datenstromzuordnung verwenden, um mehrere Zielfelder mit einem einzigen Source-Feld auszufüllen. Weitere Informationen finden [ unter „Dynamische Variablen, die die Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)SDK verwenden“.
+Web SDK verwendet keine dynamische Variablenformatierung. Stattdessen können Sie die Datenstromzuordnung verwenden, um mehrere Zielfelder mit einem einzigen Source-Feld auszufüllen. Weitere Informationen finden [&#x200B; unter „Dynamische Variablen, die die Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)SDK verwenden“.
 
 Wenn Sie Daten direkt an Adobe Analytics senden, ohne einem Schema zu entsprechen, wird die folgende Variable verwendet:
 

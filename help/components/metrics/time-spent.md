@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Besuchszeit – Übersicht
 
-Für [!UICONTROL  Adobe Analytics-Produkte ] verschiedene [ (](overview.md)) und Dimensionen zur Verfügung. Auf dieser Seite können Sie die gewünschte Dimension oder Metrik, nach der Sie suchen, leichter identifizieren.
+Für [!UICONTROL &#x200B; Adobe Analytics-Produkte &#x200B;] verschiedene [&#x200B; (](overview.md)) und Dimensionen zur Verfügung. Auf dieser Seite können Sie die gewünschte Dimension oder Metrik, nach der Sie suchen, leichter identifizieren.
 
 ## Besuchszeit-Metriken
 
@@ -69,7 +69,7 @@ Die Metriken „Aufgewendete Zeit“, die auf jede Dimension angewendet werden k
 
 +++Welche Besuchszeitdimension empfiehlt sich am ehesten in Aufschlüsselungen mit anderen Dimensionen?
 
-Die Dimension [[!UICONTROL Besuchszeit pro Seite - ]](../dimensions/time-spent-on-page.md)) ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
+Die Dimension [[!UICONTROL Besuchszeit pro Seite - &#x200B;]](../dimensions/time-spent-on-page.md)) ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
 Im folgenden Beispiel ist der Suchbegriff „classifieds“ mit Trefferzeiten von 54 Sekunden, 59 Sekunden usw. verknüpft, was möglicherweise darauf hinweist, dass Besuchende Zeit damit verbringen, für diesen Begriff zurückgegebene Inhalte zu lesen.
 
 ![Screenshot eines Seitenberichts mit Zeitaufwand](assets/time-spent1.png)

@@ -19,11 +19,11 @@ Sie können diese Schritte ausführen, um Beispieldaten einfach in eine Entwickl
 >
 >Führen Sie diese Schritte mithilfe einer Entwicklungs- oder Test-Report-Suite aus. Daten, die über Datenquellen hochgeladen wurden, sind **dauerhaft**. Das Hochladen in die Produktions-Report-Suite wirkt sich auf die dort hochgeladenen Daten aus.
 
-1. Melden Sie sich über [https://experience.adobe.com bei Adobe Analytics ](https://experience.adobe.com).
+1. Melden Sie sich über [https://experience.adobe.com bei Adobe Analytics &#x200B;](https://experience.adobe.com).
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenquellen]**.
 1. Wählen Sie mithilfe der Dropdown-Liste oben rechts eine Entwicklungs-Report Suite aus.
 1. Klicken Sie oben links **[!UICONTROL die Schaltfläche]** Erstellen“.
-1. Wählen [!UICONTROL  unter &quot;] auswählen“ die Option &quot;[!UICONTROL Generisch]&quot; und wählen Sie unter [!UICONTROL Typ auswählen] die Option &quot;[!UICONTROL Generische Daten-Source (nur Zusammenfassungsdaten)]&quot;.
+1. Wählen [!UICONTROL &#x200B; unter &quot;] auswählen“ die Option &quot;[!UICONTROL Generisch]&quot; und wählen Sie unter [!UICONTROL Typ auswählen] die Option &quot;[!UICONTROL Generische Daten-Source (nur Zusammenfassungsdaten)]&quot;.
 1. Klicken Sie **[!UICONTROL Aktivieren]**. Ein Popup-Fenster mit dem [!UICONTROL Aktivierungsassistenten für Data Source] wird geöffnet.
    1. Schritt 1: Benennen Sie die Datenquelle und aktivieren Sie das Kontrollkästchen „Haftungsausschluss“.
    1. Schritt 2: Dieser Schritt wurde in früheren Versionen von Adobe Analytics häufiger verwendet. Aktivieren Sie ein Kontrollkästchen, und geben Sie dann einen beliebigen Wert in das Textfeld daneben ein.

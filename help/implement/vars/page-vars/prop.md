@@ -27,7 +27,7 @@ Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-d
 
 Props sind den folgenden Variablen zugeordnet:
 
-* [XDM-](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einem [separaten Satz von Feldern) ](#list-props-web-sdk).
+* [XDM-](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einem [separaten Satz von Feldern) &#x200B;](#list-props-web-sdk).
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; oder `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - Listen-Props sind in diesen Feldern enthalten.
 
 ## Props, die die Adobe Analytics-Erweiterung verwenden
@@ -38,7 +38,7 @@ Sie können Props entweder beim Konfigurieren der Analytics-Erweiterung (globale
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Props].
 
 Sie können eine Prop auf einen Wert oder ein Datenelement festlegen. Sie können den Wert auch aus einer anderen Analytics-Variablen kopieren.

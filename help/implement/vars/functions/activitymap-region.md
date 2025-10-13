@@ -33,7 +33,7 @@ Weisen Sie dieser Variablen eine Funktion zu, die:
 * das HTML-Element erhält, auf das geklickt wurde, und
 * Gibt einen Zeichenfolgenwert zurück. Dieser Zeichenfolgenwert ist der endgültige Wert, der für die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md) verwendet wird.
 
-Wenn der Rückgabewert &quot;[&quot; ](https://developer.mozilla.org/de-DE/docs/Glossary/Falsy), werden alle Activity Map-Kontextdatenvariablen gelöscht und es werden keine Linkdaten verfolgt.
+Wenn der Rückgabewert &quot;[&quot; &#x200B;](https://developer.mozilla.org/de-DE/docs/Glossary/Falsy), werden alle Activity Map-Kontextdatenvariablen gelöscht und es werden keine Linkdaten verfolgt.
 
 ## Beispiele
 

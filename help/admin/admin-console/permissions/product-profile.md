@@ -15,7 +15,7 @@ ht-degree: 65%
 
 Produktprofile sind Berechtigungsvorgaben, die Produktadministratoren Benutzern in einer Organisation zuweisen können. Wenn Sie ein Produktprofil erstellen und diesem Produktprofil einen Experience Cloud-Benutzer zuweisen, übernehmen diese die im Produktprofil enthaltenen Berechtigungselemente.
 
-Allgemeine Informationen zu Produktprofilen, einschließlich der Erstellung von Produktprofilen und der Zuweisung von Benutzenden, finden Sie [Verwalten von Produktprofilen für ](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) im Enterprise-Benutzerhandbuch.
+Allgemeine Informationen zu Produktprofilen, einschließlich der Erstellung von Produktprofilen und der Zuweisung von Benutzenden, finden Sie [Verwalten von Produktprofilen für &#x200B;](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) im Enterprise-Benutzerhandbuch.
 
 ## Produktprofiladministratoren
 
@@ -33,7 +33,7 @@ Informationen zur Ernennung von Produktprofil-Administrierenden finden Sie im Ab
 Für den Zugriff auf Adobe Analytics sind mindestens folgende Berechtigungen in einem Produktprofil erforderlich:
 
 * Das Produktprofil muss Zugriff auf mindestens eine Report Suite haben
-* Das Produktprofil muss zum Berechtigungselement für Analytics-Tools **Workspace Project Access}**.
+* Das Produktprofil muss zum Berechtigungselement für Analytics-Tools **Workspace Project Access&rbrace;**.
 
 ### Report Suites
 

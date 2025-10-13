@@ -49,7 +49,7 @@ Im folgenden Beispiel werden mehrere Variablen mit unterschiedlichen Kontextdate
 
 +++Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 
-Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) ](/help/implement/vars/page-vars/contextdata.md).
+Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) &#x200B;](/help/implement/vars/page-vars/contextdata.md).
 
 Die [!UICONTROL Kontextvariablen] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, ihn jedoch nicht an die aktuelle Report Suite gesendet haben, können Sie ihn manuell hinzufügen:
 
@@ -95,7 +95,7 @@ Ereignisse können basierend auf jeder in den Verarbeitungsregeln verfügbaren B
 | Regelsatz | Wert |
 | --- | --- |
 | Bedingung | Wenn [!UICONTROL Seitenname] gleich „Produktübersicht“ ist |
-| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) ] auf [!UICONTROL benutzerdefinierter Wert] `1` |
+| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) &#x200B;] auf [!UICONTROL benutzerdefinierter Wert] `1` |
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der ein bedingt festgelegtes Ereignis angezeigt wird](assets/set-product-view-event.png)
 

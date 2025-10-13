@@ -25,7 +25,7 @@ Es gibt zwei allgemeine Arten von Datenquellen, die Adobe bietet. Alle Datenquel
 * **Zusammenfassungsdatenquelle**: Bietet eine einfache Möglichkeit zum Importieren von allgemeinen Daten in Adobe Analytics. Sie geben den Zeitstempel, den Variablenwert und die zugehörigen Metriken an. Diese Metriken für jedes Dimensionselement werden dann entsprechend erhöht. Dies ist nützlich, wenn Sie Offline- und Online-Daten nebeneinander sehen möchten. Es werden jedoch keine Online- und Offline-Daten miteinander verknüpft.
 * **Transaktions-ID-Datenquelle**: Wenn ein von AppMeasurement gesendeter Treffer und eine Datenquellenzeile übereinstimmende Transaktions-IDs enthalten, hängen die Dimensions- und Metrikwerte in der Datenquelle an diesen Treffer an.
 
-**Datenquellen mit vollständiger Verarbeitung** werden seit dem 25. März 2021 nicht mehr als Datenquellentyp angeboten. Weitere Informationen finden Sie [ Ankündigung ](full-processing-eol.md) Ende der Nutzungsdauer .
+**Datenquellen mit vollständiger Verarbeitung** werden seit dem 25. März 2021 nicht mehr als Datenquellentyp angeboten. Weitere Informationen finden Sie [&#x200B; Ankündigung &#x200B;](full-processing-eol.md) Ende der Nutzungsdauer .
 
 Adobe bietet außerdem die [Datenquellen-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit der Sie Datenquellen erstellen und Daten hochladen können, ohne die Produkt-Benutzeroberfläche oder einen FTP-Speicherort zu verwenden.
 

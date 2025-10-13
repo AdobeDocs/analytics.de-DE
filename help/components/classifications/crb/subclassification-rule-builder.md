@@ -44,7 +44,7 @@ Beispielschritte, die beschreiben, wie Sie Unterklassifizierungen mit dem Regel-
 
    ![Schritt-Info](/help/admin/tools/assets/sub_class_create.png)
 
-1. Klassifizieren [ im Classifications](/help/components/classifications/crb/classification-rule-builder.md)Regel-Builder den Unterklassifizierungsschlüssel aus dem ursprünglichen Trackingcode.
+1. Klassifizieren [&#x200B; im Classifications](/help/components/classifications/crb/classification-rule-builder.md)Regel-Builder den Unterklassifizierungsschlüssel aus dem ursprünglichen Trackingcode.
 
    Verwenden Sie dazu einen regulären Ausdruck. In diesem Beispiel würde die Regel zum Ausfüllen von *`Broad Campaign code`* diesen regulären Ausdruck verwenden:
 
@@ -63,7 +63,7 @@ Beispielschritte, die beschreiben, wie Sie Unterklassifizierungen mit dem Regel-
 
    Beispiel:
 
-   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&amp;Hat;Kampagnentyp | Code einer breiten Kampagne&amp;Hat;Kampagnen-Director | ... |
+   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&Hat;Kampagnentyp | Code einer breiten Kampagne&Hat;Kampagnen-Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marke | Suzanne |  |
    | &#42; |  | 222 | Marke | Frank |  |

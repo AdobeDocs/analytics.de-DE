@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Checkouts
 
-Die „Metrik[ „Checkouts](overview.md) gibt an, wie oft eine Besucherin oder ein Besucher den Checkout-Prozess gestartet hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichters verstehen möchten, in dem Kunden einen Warenkorb mit Produkten haben und bereit sind, diese zu kaufen.
+Die „Metrik[&#x200B; „Checkouts](overview.md) gibt an, wie oft eine Besucherin oder ein Besucher den Checkout-Prozess gestartet hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichters verstehen möchten, in dem Kunden einen Warenkorb mit Produkten haben und bereit sind, diese zu kaufen.
 
 ## Berechnung dieser Metrik
 

@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Tage seit letztem Kauf
 
-Die Dimension „Tage seit dem letzten Kauf[ misst ](overview.md) Zeitspanne zwischen dem aktuellen Treffer der Besucherin oder des Besuchers und ihrem bzw. seinem letzten Kauf zu diesem Zeitpunkt. Diese Dimension hilft Ihnen, das Verhalten der Besucher nach einem Kauf auf Ihrer Website zu verstehen.
+Die Dimension „Tage seit dem letzten Kauf[&#x200B; misst &#x200B;](overview.md) Zeitspanne zwischen dem aktuellen Treffer der Besucherin oder des Besuchers und ihrem bzw. seinem letzten Kauf zu diesem Zeitpunkt. Diese Dimension hilft Ihnen, das Verhalten der Besucher nach einem Kauf auf Ihrer Website zu verstehen.
 
 Besucher, die noch nie etwas gekauft haben, werden in dieser Dimension nicht berücksichtigt. Auch Treffer, die vor dem ersten Kauf eines Besuchers erzielt wurden, sind nicht enthalten. Es werden nur Treffer nach dem ersten Kauf des Besuchers berücksichtigt.
 

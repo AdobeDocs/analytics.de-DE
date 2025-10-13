@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Bot-Seitenansichten
 
-Die Metrik „Bot[Seitenansichten“ ](overview.md) die Anzahl der Seitentreffer an, die mit [Bot-Regeln“ ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).
+Die Metrik „Bot[Seitenansichten“ &#x200B;](overview.md) die Anzahl der Seitentreffer an, die mit [Bot-Regeln“ &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).
 
 Da beide Berichte vom Rest der Report Suite-Daten getrennt sind, funktioniert diese Metrik nur mit den folgenden Dimensionen:
 

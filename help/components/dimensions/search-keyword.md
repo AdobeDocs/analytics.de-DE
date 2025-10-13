@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Suchbegriff
 
-Die Dimension „Suchbegriff[ zeigt die Suchbegriffe an](overview.md) die Besucher verwenden, um zu Ihrer Site zu gelangen.
+Die Dimension „Suchbegriff[&#x200B; zeigt die Suchbegriffe an](overview.md) die Besucher verwenden, um zu Ihrer Site zu gelangen.
 
 >[!IMPORTANT]
 >

@@ -12,7 +12,7 @@ ht-degree: 72%
 
 # Warenkorbansicht
 
-Die Metrik „Warenkorbansichten[ gibt an](overview.md) wie oft eine Besucherin oder ein Besucher ihren bzw. seinen Warenkorb angesehen hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden den Inhalt in ihrem Warenkorb ansehen.
+Die Metrik „Warenkorbansichten[&#x200B; gibt an](overview.md) wie oft eine Besucherin oder ein Besucher ihren bzw. seinen Warenkorb angesehen hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden den Inhalt in ihrem Warenkorb ansehen.
 
 ## Berechnung dieser Metrik
 

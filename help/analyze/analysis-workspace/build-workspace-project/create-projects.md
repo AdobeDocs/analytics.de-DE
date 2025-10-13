@@ -22,7 +22,7 @@ Mit [Projekten](/help/analyze/analysis-workspace/build-workspace-project/freefor
 
 1. Wählen Sie **Leeres Workspace-Projekt** aus, um Ihr Workspace-Projekt mit einem Browser zu erstellen.
 
-   Weitere Informationen [ Erstellen eines mobilen Scorecard](/help/analyze/mobile-app/curator.md)Projekts, das Sie mit einer mobilen App für andere Stakeholder freigeben können, finden Sie unter „Leere mobile Scorecard“.
+   Weitere Informationen [&#x200B; Erstellen eines mobilen Scorecard](/help/analyze/mobile-app/curator.md)Projekts, das Sie mit einer mobilen App für andere Stakeholder freigeben können, finden Sie unter „Leere mobile Scorecard“.
 
 1. Wählen Sie [!UICONTROL **Erstellen**] aus.
 

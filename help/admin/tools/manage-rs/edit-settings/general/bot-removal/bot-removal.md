@@ -63,7 +63,7 @@ Sobald der Data Warehouse-Bericht eintrifft, verfügen Sie über eine Liste der 
 * **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie für die neue deklarierte ID oben angegeben haben.
 * **Bot Flag**: Fügen Sie „Bot Flag“ als Schema-Dimension für Kundenattribute hinzu.
 
-Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [ beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [&#x200B; beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 

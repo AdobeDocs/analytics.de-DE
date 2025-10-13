@@ -12,7 +12,7 @@ ht-degree: 42%
 
 # Betriebssystem
 
-Die Dimension „Betriebssystem[ gibt ](overview.md) Betriebssystem und die Version an, die der Besucher verwendet hat. Wenn Sie in Ihrer Web-Eigenschaft Funktionen haben, die betriebssystemspezifisch sind, hilft Ihnen diese Dimension zu verstehen, welche Betriebssysteme am häufigsten verwendet werden.
+Die Dimension „Betriebssystem[&#x200B; gibt &#x200B;](overview.md) Betriebssystem und die Version an, die der Besucher verwendet hat. Wenn Sie in Ihrer Web-Eigenschaft Funktionen haben, die betriebssystemspezifisch sind, hilft Ihnen diese Dimension zu verstehen, welche Betriebssysteme am häufigsten verwendet werden.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -27,4 +27,4 @@ Zu den Dimensionselementen gehören die Betriebssysteme, die Besucher verwenden.
 
 ## Verfolgen genauer Betriebssystemversionen
 
-Wenn die Branche auf Client-Hinweise zusteuert, werden einige Betriebssystemversionen möglicherweise verschmolzen. Beispielsweise können „Windows 10“ und „Windows 11“ beide unter „Windows 10“ gruppiert werden, wenn Sie keine Client-Hinweise mit hoher Entropie erfassen. Weitere Informationen finden [ unter ](/help/technotes/client-hints.md) im Technote-Handbuch.
+Wenn die Branche auf Client-Hinweise zusteuert, werden einige Betriebssystemversionen möglicherweise verschmolzen. Beispielsweise können „Windows 10“ und „Windows 11“ beide unter „Windows 10“ gruppiert werden, wenn Sie keine Client-Hinweise mit hoher Entropie erfassen. Weitere Informationen finden [&#x200B; unter &#x200B;](/help/technotes/client-hints.md) im Technote-Handbuch.

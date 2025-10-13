@@ -48,7 +48,7 @@ Die Konfigurationseinstellung **[!UICONTROL Klicken auf]** Datenerfassung“ ver
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weitere [ finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
+Weitere [&#x200B; finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
 
 +++
 
@@ -82,7 +82,7 @@ Die **[!UICONTROL Activity Map verwenden]** Konfigurationseinstellung verarbeite
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weiterführende Informationen dazu finden Sie in der [ zur Adobe Analytics-Erweiterung ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
+Weiterführende Informationen dazu finden Sie in der [&#x200B; zur Adobe Analytics-Erweiterung &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 +++
 

@@ -134,7 +134,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Amazon S3-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ &#x200B;](/help/components/locations/locations-manager.md).
 
    +++
 
@@ -208,7 +208,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Azure RBAC-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ &#x200B;](/help/components/locations/locations-manager.md).
 
    +++
 
@@ -283,7 +283,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen Azure SAS-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ &#x200B;](/help/components/locations/locations-manager.md).
 
    +++
 
@@ -353,7 +353,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
          Das Ziel ist jetzt so konfiguriert, dass Daten an den von Ihnen angegebenen GCP-Speicherort gesendet werden.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ ](/help/components/locations/locations-manager.md).
+      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es in der [Standort-Manager“ &#x200B;](/help/components/locations/locations-manager.md).
 
    +++
 
@@ -364,7 +364,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    | [!UICONTROL **Entfernen von Escape-Zeichen**] | Beim Erfassen von Daten können einige Zeichen (z. B. Zeilenumbrüche) Probleme verursachen. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zeichen aus Feed-Dateien entfernt werden sollen. |
    | [!UICONTROL **Komprimierungsformat**] | Der Typ der verwendeten Komprimierung. **Gzip** gibt Dateien im `.tar.gz` Format aus. **Zip** gibt Dateien im `.zip` aus. |
    | [!UICONTROL **Verpackungsart**] | Wählen Sie [!UICONTROL **Mehrere Dateien**] für die meisten Daten-Feeds aus. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Blöcke unterteilt. (Wenn die Option [!UICONTROL **Mehrere Dateien**] ausgewählt ist und die unkomprimierten Daten für das Berichtsfenster weniger als 2 GB betragen, wird eine Datei gesendet.) Wenn Sie **Einzeldatei** auswählen, wird die `hit_data.tsv` in einer einzelnen, potenziell umfangreichen Datei ausgegeben. |
-   | [!UICONTROL **Manifest**] | Bestimmt, ob Adobe eine [Manifestdatei) an ](c-df-contents/datafeeds-contents.md#feed-manifest) Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Manifest**] | Bestimmt, ob Adobe eine [Manifestdatei) an &#x200B;](c-df-contents/datafeeds-contents.md#feed-manifest) Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Spaltenvorlagen**] | Bei der Erstellung vieler Daten-Feeds empfiehlt Adobe die Erstellung einer Spaltenvorlage. Bei Auswahl einer Spaltenvorlage werden automatisch die angegebenen Spalten in der Vorlage eingefügt. Adobe stellt standardmäßig auch mehrere Vorlagen bereit. |
    | [!UICONTROL **Verfügbare Spalten**] | Alle verfügbaren Datenspalten in Adobe Analytics. Klicken Sie auf [!UICONTROL Alle hinzufügen], um alle Spalten in einen Daten-Feed einzubeziehen. |
    | [!UICONTROL **Enthaltene Spalten**] | Die in einen Daten-Feed einzuschließenden Spalten. Klicken Sie auf [!UICONTROL Alle entfernen], um alle Spalten aus einem Daten-Feed zu entfernen. |
@@ -380,7 +380,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
 >[!IMPORTANT]
 >
->Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen beim Erstellen eines Daten-Feeds eines der folgenden Ziele: Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS. Detaillierte [ zu den einzelnen empfohlenen Zielen finden Sie unter](#create-and-configure-a-data-feed) Erstellen und Konfigurieren eines Daten-Feeds .
+>Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen beim Erstellen eines Daten-Feeds eines der folgenden Ziele: Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS. Detaillierte [&#x200B; zu den einzelnen empfohlenen Zielen finden Sie unter](#create-and-configure-a-data-feed) Erstellen und Konfigurieren eines Daten-Feeds .
 
 
 Die folgenden Informationen enthalten Konfigurationsinformationen für die einzelnen veralteten Ziele:

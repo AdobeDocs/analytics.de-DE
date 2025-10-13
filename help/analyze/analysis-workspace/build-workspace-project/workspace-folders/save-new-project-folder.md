@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Speichern eines neuen Projekts in einem Ordner
 
-Weitere Informationen finden [ unter ](../save-projects.md#save)Projekte speichern“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](../save-projects.md#save)Projekte speichern“.
 
 <!-- Not in TOC anymore; irrelevant article
 

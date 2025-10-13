@@ -72,4 +72,4 @@ So erstellen Sie eine errechnete Metrik:
 
 ## Benutzerspezifische Warnungen
 
-Warnungen sind auf beiden Plattformen verfügbar. Verwenden Sie in Adobe Analytics das Navigationsmenü in der Kopfzeile und gehen Sie zu *[!UICONTROL Komponenten]* > *[!UICONTROL Warnhinweise]*. Weitere Informationen finden [ im ](/help/components/alerts/alerts-overview.md) „Warnhinweise - Übersicht“ im Benutzerhandbuch zu Komponenten.
+Warnungen sind auf beiden Plattformen verfügbar. Verwenden Sie in Adobe Analytics das Navigationsmenü in der Kopfzeile und gehen Sie zu *[!UICONTROL Komponenten]* > *[!UICONTROL Warnhinweise]*. Weitere Informationen finden [&#x200B; im &#x200B;](/help/components/alerts/alerts-overview.md) „Warnhinweise - Übersicht“ im Benutzerhandbuch zu Komponenten.

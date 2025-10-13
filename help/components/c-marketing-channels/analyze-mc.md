@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Um die Effektivität von Marketing-Kanälen für Attribution und Adobe Analytics zu maximieren, haben wir einige [überarbeitete Best Practices“ ](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Um die Effektivität von Marketing-Kanälen für Attribution und Adobe Analytics zu maximieren, haben wir einige [überarbeitete Best Practices“ &#x200B;](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) beschrieben.
 

@@ -44,11 +44,11 @@ Zu den beiden primären Anwendungsfällen für Verarbeitungsregeln gehören:
 
   Die Verwendung von Kontextdatenvariablen erleichtert die Kommunikation mit Entwicklern in Ihrer Organisation, um Analytics für eine Eigenschaft zu implementieren. Entwickler können einfach jedes Schlüssel-Wert-Paar einmal implementieren. Dann können Sie als Analytics-Admin sicherstellen, dass die Daten in die richtige Implementierungsvariable gelangen.
 
-* **Daten bei der Erfassung ändern**: Dieser Anwendungsfall kann für eine breite Palette von Anwendungen eingesetzt werden, z. B. zur temporären Behebung der Datenqualität oder zur Schließung von Implementierungslücken. Weitere [ und spezifische Beispiele finden Sie ](pr-use-cases.md) „Anwendungsfälle für Verarbeitungsregeln“.
+* **Daten bei der Erfassung ändern**: Dieser Anwendungsfall kann für eine breite Palette von Anwendungen eingesetzt werden, z. B. zur temporären Behebung der Datenqualität oder zur Schließung von Implementierungslücken. Weitere [&#x200B; und spezifische Beispiele finden Sie &#x200B;](pr-use-cases.md) „Anwendungsfälle für Verarbeitungsregeln“.
 
 ## Berechtigungen
 
-Produktadministratoren haben standardmäßig Zugriff auf Verarbeitungsregeln. Sie können Benutzern ohne Administratorrechte Zugriff auf Verarbeitungsregeln gewähren, indem Sie sie in ein Produktprofil aufnehmen, das das Berechtigungselement **[!UICONTROL Verarbeitungsregeln]** enthält. Weitere [ finden Sie unter „Produktprofilberechtigungen für Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)Tools“.
+Produktadministratoren haben standardmäßig Zugriff auf Verarbeitungsregeln. Sie können Benutzern ohne Administratorrechte Zugriff auf Verarbeitungsregeln gewähren, indem Sie sie in ein Produktprofil aufnehmen, das das Berechtigungselement **[!UICONTROL Verarbeitungsregeln]** enthält. Weitere [&#x200B; finden Sie unter „Produktprofilberechtigungen für Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)Tools“.
 
 ## Überlegungen beim Erstellen oder Bearbeiten von Verarbeitungsregeln
 
@@ -60,7 +60,7 @@ Berücksichtigen Sie beim Erstellen oder Bearbeiten von Verarbeitungsregeln Folg
 * **Verarbeitungsreihenfolge innerhalb der Datenerfassungs-Pipeline**: Unter [Verarbeitungsreihenfolge für Daten in Adobe Analytics](/help/technotes/processing-order.md) erfahren Sie, wo in der gesamten Datenerfassungs-Pipeline Verarbeitungsregeln gelten.
 * **Codierung**: Halten Sie sich in fast allen Fällen an die UTF-8-Codierung.
 * **Groß-/**: Bei Zeichenfolgenvergleichen in Verarbeitungsregeln wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Zeichenfolgenwerte, mit denen Sie Werte überschreiben, verwenden dieselben Regeln wie beim direkten Ausfüllen der Variablen.
-* **Einzelne Report Suite**: Beim Bearbeiten von Verarbeitungsregeln gelten diese nur für eine Report Suite. Wenn Sie im Report Suite Manager mehrere Report Suites auswählen, müssen Sie eine einzelne Report Suite auswählen. Nachdem Sie die gewünschten Verarbeitungsregeln erstellt oder bearbeitet haben, können [ diese Regeln in andere Report Suites kopieren](pr-copy.md).
+* **Einzelne Report Suite**: Beim Bearbeiten von Verarbeitungsregeln gelten diese nur für eine Report Suite. Wenn Sie im Report Suite Manager mehrere Report Suites auswählen, müssen Sie eine einzelne Report Suite auswählen. Nachdem Sie die gewünschten Verarbeitungsregeln erstellt oder bearbeitet haben, können [&#x200B; diese Regeln in andere Report Suites kopieren](pr-copy.md).
 * **Kein Datenausschluss**: Der Ausschluss von Daten ist kein beabsichtigtes Merkmal von Verarbeitungsregeln. Erwägen Sie die Verwendung von [`abort`](/help/implement/vars/config-vars/abort.md) auf Datenerfassungsebene oder verwenden Sie [VISTA-Regeln](/help/technotes/vista.md) nachdem Daten erfasst wurden.
 * **Verfügbare Variablen**: In Verarbeitungsregeln sind nicht alle Dimensionen und Metriken verfügbar. Unter [Für Verarbeitungsregeln verfügbare Dimensionen und Metriken](pr-variables.md) finden Sie eine vollständige Liste der unterstützten Funktionen.
 * **Anzahl der zulässigen Regeln**: Jede Report Suite kann bis zu 150 Regeln enthalten. Jede Regel kann bis zu 30 Bedingungen enthalten.

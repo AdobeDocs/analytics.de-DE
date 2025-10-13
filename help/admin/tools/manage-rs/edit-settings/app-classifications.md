@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # App-Klassifizierungen
 
-Klassifizierungen für Mobilgeräte werden aktiviert, nachdem Sie eine der Funktionen unter „App[Reporting“ aktiviert ](app-reporting.md). Es bietet eine identische Schnittstelle zu [Konversionsklassifizierungen](conversion-var-admin/conversion-classifications.md) oder [Traffic-Klassifizierungen](c-traffic-variables/traffic-classifications.md), aber für App-Reporting-Dimensionen.
+Klassifizierungen für Mobilgeräte werden aktiviert, nachdem Sie eine der Funktionen unter „App[Reporting“ aktiviert &#x200B;](app-reporting.md). Es bietet eine identische Schnittstelle zu [Konversionsklassifizierungen](conversion-var-admin/conversion-classifications.md) oder [Traffic-Klassifizierungen](c-traffic-variables/traffic-classifications.md), aber für App-Reporting-Dimensionen.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL App-Management]** > **[!UICONTROL App-Klassifizierungen]**
 

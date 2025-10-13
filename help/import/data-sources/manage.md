@@ -32,7 +32,7 @@ Die oberste Datenquelle ist immer [!UICONTROL Web Beacon]. Diese Datenquelle wir
 Jede Datenquelle verfügt über die folgenden Optionen:
 
 * **[!UICONTROL Verarbeitung neu starten]**: Startet die Verarbeitung von Datenquellen neu, die zuvor aufgrund von Fehlern angehalten wurde. Die Verarbeitung wird fortgesetzt, bis der nächste Fehler erkannt wird. Datenquellen : Hält die Verarbeitung einer Datenquellendatei nur an, wenn Sie die Option **[!UICONTROL Verarbeitung bei Fehlern anhalten]** auswählen.
-* **[!UICONTROL Vollständige Verarbeitung]**: Nicht mehr verwendet - Diese Schaltfläche wurde nur für „Vollständige [&quot; ](full-processing-eol.md).
+* **[!UICONTROL Vollständige Verarbeitung]**: Nicht mehr verwendet - Diese Schaltfläche wurde nur für „Vollständige [&quot; &#x200B;](full-processing-eol.md).
 * **[!UICONTROL Verarbeitung bei Fehlern anhalten]**: Ein Kontrollkästchen, das den Verarbeitungs-Server anweist, bei einem Fehler anzuhalten. Die Datenquelle nimmt die Verarbeitung erst wieder auf, wenn Sie auf **[!UICONTROL Verarbeitung neu starten]** klicken. Wenn eine Datenquelle auf einen Dateifehler stößt, werden Sie über den Fehler benachrichtigt. Adobe verschiebt die fehlerhafte Datei in einen Ordner namens `files_with_errors` auf dem FTP-Server. Nachdem Sie das Problem behoben haben, senden Sie die Datei erneut zur Verarbeitung.
 * **[!UICONTROL Konfigurieren]**: Ein Link, der Sie durch den Assistenten zur Erstellung von Datenquellen für diese Datenquelle führt. Dieser Assistent ermöglicht es Ihnen, die Datenquelle umzubenennen oder die beim Herunterladen einer Vorlagendatei automatisch eingeschlossenen Variablen neu zu konfigurieren.
 * **[!UICONTROL FTP-]**: Ein Link, der Sie zum letzten Schritt des Assistenten zur Erstellung von Datenquellen führt, in dem FTP-Anmeldeinformationen angezeigt werden.
@@ -55,7 +55,7 @@ Die **[!UICONTROL Erstellen]** gibt Ihnen einen Ausgangspunkt für den Assistent
 Die Kategorie und der Typ der Datenquelle waren in früheren Versionen von Adobe Analytics wertvoller. Sie haben jedoch immer noch eine begrenzte Verwendung:
 
 * Der Datenquellentyp wird auf der Registerkarte [Verwalten](#manage) für die Datenquelle selbst und auf der Registerkarte [Dateiprotokoll](#file-log) für jede einzelne Datei angezeigt.
-* Einige Datenquellentypen enthalten beim Herunterladen der Vorlagendatei automatisch Variablen. Sie können jedoch jede verfügbare Dimension oder Metrik einbeziehen, solange sie dem etablierten [Dateiformat“ ](file-format.md).
+* Einige Datenquellentypen enthalten beim Herunterladen der Vorlagendatei automatisch Variablen. Sie können jedoch jede verfügbare Dimension oder Metrik einbeziehen, solange sie dem etablierten [Dateiformat“ &#x200B;](file-format.md).
 
 Abgesehen von diesen Gründen sind alle Datenquellenkategorien und -typen, die Sie auswählen können, effektiv identisch. Wählen Sie die Kategorie und den Typ aus, die bzw. der Ihren Zweck bei der Verwendung von Datenquellen am besten widerspiegelt.
 

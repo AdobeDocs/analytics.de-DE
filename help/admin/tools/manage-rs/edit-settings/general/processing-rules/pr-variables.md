@@ -28,7 +28,7 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | Attribut | Lese-/Schreibstatus | Beschreibung |
 | --- | --- | --- |
 | **Seiten-URL** | Lesen + Schreiben | Die Dimension [Seiten](/help/components/dimensions/page-url.md)URL. Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht](/help/components/metrics/page-views.md) anstatt als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
-| **Seitenname** | Lesen + Schreiben | Die Dimension [Seite](/help/components/dimensions/page.md) . Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seitenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht“ ](/help/components/metrics/page-views.md) als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
+| **Seitenname** | Lesen + Schreiben | Die Dimension [Seite](/help/components/dimensions/page.md) . Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seitenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht“ &#x200B;](/help/components/metrics/page-views.md) als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
 | **Report Suite-ID** | Schreibgeschützt | Die Report Suite, für die die Verarbeitungsregel ausgeführt wird. Diese Report Suite kann sich von der ursprünglich über AppMeasurement gesendeten Report Suite unterscheiden, z. B. bei Verwendung von VISTA-Regeln. |
 | **AppMeasurement-Code-Version** | Schreibgeschützt | Die AppMeasurement-Bibliotheksversion, die zum Generieren der Bildanforderung verwendet wird. |
 | **IP-Adresse** | Schreibgeschützt | Die IP-Adresse des Besuchers. |
@@ -71,7 +71,7 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 
 ## Kontextvariablen
 
-Alle [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md), die diese Report Suite in den letzten 30 Tagen gesehen hat. Anwendungsbeispiele [ Sie unter Anwendungsfälle ](pr-use-cases.md) Verarbeitungsregeln .
+Alle [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md), die diese Report Suite in den letzten 30 Tagen gesehen hat. Anwendungsbeispiele [&#x200B; Sie unter Anwendungsfälle &#x200B;](pr-use-cases.md) Verarbeitungsregeln .
 
 >[!IMPORTANT]
 >

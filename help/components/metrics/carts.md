@@ -12,7 +12,7 @@ ht-degree: 45%
 
 # Warenkörbe
 
-Die [Metrik „Warenkörbe“ ](overview.md) die Anzahl der Treffer an, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
+Die [Metrik „Warenkörbe“ &#x200B;](overview.md) die Anzahl der Treffer an, bei denen ein Besucher sein erstes Produkt zu einem Warenkorb hinzugefügt hat.
 
 ## Berechnung dieser Metrik
 

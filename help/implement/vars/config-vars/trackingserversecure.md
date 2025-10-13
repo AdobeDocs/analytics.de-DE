@@ -26,7 +26,7 @@ Die Web-SDK verwendet die [!UICONTROL Edge]Domain, um sowohl den Tracking-Server
 1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und wählen Sie dann die Schaltfläche **[!UICONTROL Konfigurieren]** unter [!UICONTROL Adobe Experience Platform Web SDK] aus.
 1. Legen Sie das gewünschte Textfeld **[!UICONTROL Edge Domain]** fest.
 
-Weitere Informationen [ Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
+Weitere Informationen [&#x200B; Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
 
 >[!TIP]
 >
@@ -76,7 +76,7 @@ Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden,
 
 **Wenn Sie nicht am Zertifikatprogramm teilnehmen** setzen Sie den Wert auf eine Subdomain von `data.adobedc.net`. Adobe empfiehlt, aus Konsistenzgründen die Unternehmens-ID Ihres Unternehmens zu verwenden. Beispiel: `example.data.adobedc.net`. Gehen Sie wie folgt vor, um Ihre Unternehmens-ID zu ermitteln:
 
-1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei ](https://experience.adobe.com)experience.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
 1. Drücken Sie an einer beliebigen Stelle in der Experience Cloud-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
 1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
 1. Erweitern Sie die gewünschte IMS-Organisation.
@@ -92,9 +92,9 @@ Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument
 
 ## Auswirkungen der Nichtverwendung des Besucher-ID-Service
 
-Adobe empfiehlt dringend, in allen Implementierungen den [Adobe Experience Cloud Identity ](https://experienceleague.adobe.com/en/docs/id-service/using/home)Service) zu verwenden. Der ID-Service kann auf verschiedene Weise implementiert werden:
+Adobe empfiehlt dringend, in allen Implementierungen den [Adobe Experience Cloud Identity &#x200B;](https://experienceleague.adobe.com/en/docs/id-service/using/home)Service) zu verwenden. Der ID-Service kann auf verschiedene Weise implementiert werden:
 
-* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [ finden Sie unter „Implementieren des Experience Cloud Identity ](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) für Analytics“.
+* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Experience Cloud Identity &#x200B;](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) für Analytics“.
 * Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [Tag-Erweiterung des Adobe Experience Cloud ID-](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
 * Bei Implementierungen, bei denen eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwendet wird, ist der ID-Service bereits nativ integriert. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
 

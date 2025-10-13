@@ -71,7 +71,7 @@ Releasedatum: **11. Oktober 2021**
 
 Releasedatum: **7. September 2021**
 
-* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden [ im ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) „Datenschutzberichte“ im Admin-Benutzerhandbuch.
+* Durch diese Aktualisierung werden `opt.dmp` und `opt.sell` beim Verfolgen von Links immer einbezogen. Weitere Informationen finden [&#x200B; im &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) „Datenschutzberichte“ im Admin-Benutzerhandbuch.
 
 ## Version 2.22.1
 

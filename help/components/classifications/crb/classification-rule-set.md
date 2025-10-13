@@ -14,7 +14,7 @@ ht-degree: 89%
 
 {{classification-rulebuilder-deprecation}}
 
-*Auf dieser Seite werden Klassifizierungsregelsätze als Teil des [Classification Rule Builders“ ](classification-rule-builder.md). Unter [Klassifizierungssätze](../sets/overview.md) finden Sie die aktuelle Methode zur Klassifizierung von Daten in Adobe Analytics.*
+*Auf dieser Seite werden Klassifizierungsregelsätze als Teil des [Classification Rule Builders“ &#x200B;](classification-rule-builder.md). Unter [Klassifizierungssätze](../sets/overview.md) finden Sie die aktuelle Methode zur Klassifizierung von Daten in Adobe Analytics.*
 
 Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Variable. Auf den Regelsatz wird eine Variable angewendet. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden.
 
@@ -78,6 +78,6 @@ Benennen Sie den Klassifizierungsregelsatz, wenden Sie die Variable an und legen
 
    Die Report Suite und die Variablenliste werden mit allen klassifizierten Variablen ausgefüllt, die in allen Report Suites Ihres angemeldeten Unternehmens verfügbar sind. Eine Variable in einer Report Suite kann nur zu jeweils einem einzigen Regelsatz gehören.
 
-   Weitere Informationen finden Sie unter *`Variable`* in den Definitionen [ Seite „Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) .
+   Weitere Informationen finden Sie unter *`Variable`* in den Definitionen [&#x200B; Seite „Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) .
 1. Geben Sie die zu verwendenden Report Suites und Variablen an und klicken Sie auf **[!UICONTROL Speichern]**.
 1. Fahren Sie fort, indem Sie [Classification-Regeln zum Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md).

@@ -43,7 +43,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Der Schlüsselwert für die [dynamische Suche](dynamic-lookups.md) von `carrier.tsv`. | varchar(100) |
 | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
-| **`channel`** | Die [ „Site-](/help/components/dimensions/site-section.md)&quot;. | varchar(100) |
+| **`channel`** | Die [&#x200B; „Site-](/help/components/dimensions/site-section.md)&quot;. | varchar(100) |
 | **`clickmaplink`** | Activity Map-Link | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map-Link nach Region | varchar(255) |
 | **`clickmappage`** | Activity Map-Seite | varchar(255) |
@@ -59,7 +59,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`currency`** | Der Währungscode, der während der Transaktion verwendet wurde. Festlegen mithilfe von [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
 | **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendete Zeitstempel in UNIX®-Zeit. | int |
 | **`cust_visid`** | Die benutzerdefinierte Besucher-ID, wenn sie mithilfe von [`visitorID`](/help/implement/vars/config-vars/visitorid.md) festgelegt wird. | varchar(255) |
-| **`customer_perspective`** | Bestimmt, ob der Treffer ein mobiler Hintergrundtreffer ist. Weitere [ finden Sie unter ](/help/components/vrs/vrs-mobile-visit-processing.md) . | tinyint unsigniert |
+| **`customer_perspective`** | Bestimmt, ob der Treffer ein mobiler Hintergrundtreffer ist. Weitere [&#x200B; finden Sie unter &#x200B;](/help/components/vrs/vrs-mobile-visit-processing.md) . | tinyint unsigniert |
 | **`daily_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
 | **`dataprivacyconsentoptin`** | Die Dimension [Einverständnisverwaltungs-Opt-in](/help/components/dimensions/cm-opt-in.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Die Dimension [Einverständnisverwaltungs-Opt-out](/help/components/dimensions/cm-opt-out.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP` und `SELL`. | varchar(100) |
@@ -70,7 +70,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`duplicate_purchase`** | Eine Markierung, die bestimmt, ob das Kaufereignis für diesen Treffer ignoriert wird, da es ein Duplikat ist. | tinyint unsigniert |
 | **`duplicated_from`** | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, von welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
 | **`ef_id`** | Die in Adobe Advertising-Integrationen verwendete `ef_id`. | varchar(255) |
-| **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Weitere Informationen darüber, wie Ihr Unternehmen die entsprechenden eVars füllt, finden Sie in einem [ für Ihr Unternehmen spezifischen ](/help/implement/prepare/solution-design.md) (Lösungsentwurfsdokument). | varchar(255) |
+| **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Weitere Informationen darüber, wie Ihr Unternehmen die entsprechenden eVars füllt, finden Sie in einem [&#x200B; für Ihr Unternehmen spezifischen &#x200B;](/help/implement/prepare/solution-design.md) (Lösungsentwurfsdokument). | varchar(255) |
 | **`event_list`** | Kommagetrennte Liste numerischer IDs, die beim Treffer ausgelöste Ereignisse darstellen. Umfasst sowohl Standardereignisse als auch [benutzerspezifische Ereignisse 1-1000](/help/components/metrics/custom-events.md). Verwendet die `event.tsv`-Suche. | text |
 | **`exclude_hit`** | Eine Markierung, die bestimmt, ob der Treffer aus dem Reporting ausgeschlossen wird. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
 | **`first_hit_page_url`** | Die allererste URL des Besuchers. | varchar(255) |
@@ -221,7 +221,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`videoname`** | Die Dimension [Inhaltsname (Variable)](/help/components/dimensions/sm-core.md) Streaming-Mediendienste . | varchar(255) |
 | **`videonetwork`** | Die Dimension [Netzwerk](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
 | **`videopath`** | Die Dimension [Medienpfad](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(100) |
-| **`videoplayername`** | Die [ „Name des Content](/help/components/dimensions/sm-core.md)Players“ für Streaming-Mediendienste. | varchar(255) |
+| **`videoplayername`** | Die [&#x200B; „Name des Content](/help/components/dimensions/sm-core.md)Players“ für Streaming-Mediendienste. | varchar(255) |
 | **`videotime`** | Die Metrik [Besuchszeit für Inhalte](/help/components/metrics/sm-core.md) Streaming-Mediendienste. | Ganzzahl |
 | **`videoqoebitrateaverageevar`** | Die Dimension [Durchschnittliche Bitrate](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Die Dimension [Bitratenänderungen](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste . | varchar(255) |
@@ -410,4 +410,4 @@ Die folgende Liste von Spalten ist nicht verwendet, nicht mehr verwendet oder en
 >[!MORELIKETHIS]
 >
 >[XDM-Objektvariablenzuordnung](/help/implement/aep-edge/xdm-var-mapping.md)
->>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)

@@ -29,4 +29,4 @@ Sie können ein Segment wie folgt erstellen:
 
 Um das neue Segment zu definieren, verwenden Sie den [Segment Builder](seg-build.md).
 
-Wenn Sie sich in einem Workspace-Projekt befinden, können Sie mit „Schnellsegment[ auch schnell ein Segment ](seg-quick.md).
+Wenn Sie sich in einem Workspace-Projekt befinden, können Sie mit „Schnellsegment[&#x200B; auch schnell ein Segment &#x200B;](seg-quick.md).

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Prop
 
-*Auf dieser Hilfeseite wird beschrieben, wie Props als [-Dimension ](overview.md). Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Props als [-Dimension &#x200B;](overview.md). Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
 
 Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den von ihnen festgelegten Treffer hinaus bestehen.
 

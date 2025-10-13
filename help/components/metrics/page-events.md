@@ -12,7 +12,7 @@ ht-degree: 33%
 
 # Seitenereignisse
 
-Die Metrik „Seitenereignisse[ ](overview.md) gibt an, wie oft ein Linktracking-Aufruf durchgeführt wurde. Diese Metrik ist hilfreich, wenn Sie wissen möchten, welche Seiten den interessantesten Inhalt haben. Die Messung für diese Metrik ist am nützlichsten, wenn ein Besucher eine Seitenaktion ausführen kann, ohne zu einer neuen Seite zu navigieren.
+Die Metrik „Seitenereignisse[&#x200B; &#x200B;](overview.md) gibt an, wie oft ein Linktracking-Aufruf durchgeführt wurde. Diese Metrik ist hilfreich, wenn Sie wissen möchten, welche Seiten den interessantesten Inhalt haben. Die Messung für diese Metrik ist am nützlichsten, wenn ein Besucher eine Seitenaktion ausführen kann, ohne zu einer neuen Seite zu navigieren.
 
 Auf einer typischen Journey einer eCommerce-Website kann ein Besucher beispielsweise mehrere Interaktionen auf einer Seite haben. Bei einer typischen Analytics-Implementierung sind diese Interaktionen als Linktracking-Aufruf ([`tl()`](/help/implement/vars/functions/tl-method.md)) konfiguriert, während ein Aufruf für die Seitenansicht ([`t()`](/help/implement/vars/functions/t-method.md)) für den anfänglichen Seitenladevorgang reserviert ist. Diese Implementierungsmethode bietet eine erweiterte Ereignisverfolgung, die insight Aufschluss darüber gibt, welche Interaktionen stattfinden, bevor ein Besucher seinen Journey fortsetzt.
 

@@ -17,7 +17,7 @@ Mit Adobe Experience Platform Edge Network können Sie Daten, die für mehrere P
 
 ## Verarbeiten von Edge Network-Daten durch Adobe Analytics
 
-Da die an die Edge Network gesendeten Daten und die Daten von AppMeasurement unterschiedlich funktionieren, bestimmt die Edge Network-Payload, wie Adobe Analytics den Treffer verarbeitet. Weitere Informationen finden Sie unter [Ereignistypen für Edge Network ](hit-types.md) Adobe Analytics.
+Da die an die Edge Network gesendeten Daten und die Daten von AppMeasurement unterschiedlich funktionieren, bestimmt die Edge Network-Payload, wie Adobe Analytics den Treffer verarbeitet. Weitere Informationen finden Sie unter [Ereignistypen für Edge Network &#x200B;](hit-types.md) Adobe Analytics.
 
 Daten, die an Adobe Experience Platform Edge Network gesendet werden, können drei Formaten entsprechen **(XDM**, **Datenobjekt** und **Kontextdaten**. Wenn ein Datenstrom Daten an Adobe Analytics weiterleitet, werden sie in ein Format übersetzt, das Adobe Analytics verarbeiten kann.
 
@@ -39,7 +39,7 @@ Unter [Zuordnung von Datenobjektvariablen zu Adobe Analytics](data-var-mapping.m
 
 ## Kontextdatenvariablen
 
-Senden Sie Daten in einem beliebigen Format an die Edge Network. Alle Felder, die nicht automatisch `xdm`- oder `data` Objektfeldern zugeordnet werden, werden bei [ Weiterleitung an Adobe Analytics als Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) einbezogen. Anschließend müssen Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die gewünschten Felder ihren jeweiligen Analytics-Variablen zuzuordnen.
+Senden Sie Daten in einem beliebigen Format an die Edge Network. Alle Felder, die nicht automatisch `xdm`- oder `data` Objektfeldern zugeordnet werden, werden bei [&#x200B; Weiterleitung an Adobe Analytics als Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) einbezogen. Anschließend müssen Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die gewünschten Felder ihren jeweiligen Analytics-Variablen zuzuordnen.
 
 Angenommen, Sie haben ein benutzerdefiniertes XDM-Schema, das wie folgt aussieht:
 

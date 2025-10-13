@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Entnahme aus Warenkorb
 
-Die Metrik „Warenkorbentnahmen[ gibt an](overview.md) wie oft ein Besucher etwas aus seinem Warenkorb entfernt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden kein Interesse mehr an einem Produkt haben.
+Die Metrik „Warenkorbentnahmen[&#x200B; gibt an](overview.md) wie oft ein Besucher etwas aus seinem Warenkorb entfernt hat. Diese Metrik ist hilfreich, wenn Sie den Teil des Konversionstrichter verstehen möchten, in dem Kunden kein Interesse mehr an einem Produkt haben.
 
 ## Berechnung dieser Metrik
 

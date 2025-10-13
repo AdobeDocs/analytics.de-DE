@@ -12,7 +12,7 @@ ht-degree: 67%
 
 # Browser-Typ
 
-Die Dimension „Browser[Typ“ ](overview.md) die Organisationen auf, die den Browser erstellt haben, den der Besucher verwendet. Diese Dimension ist nützlich, wenn Sie sehen möchten, welche übergeordneten Browser von Besuchern verwendet werden. Sie ist insofern nützlicher als die Dimension „Browser“, als sie verschiedene Versionen desselben Browsers nicht als separate Dimensionselemente auflistet.
+Die Dimension „Browser[Typ“ &#x200B;](overview.md) die Organisationen auf, die den Browser erstellt haben, den der Besucher verwendet. Diese Dimension ist nützlich, wenn Sie sehen möchten, welche übergeordneten Browser von Besuchern verwendet werden. Sie ist insofern nützlicher als die Dimension „Browser“, als sie verschiedene Versionen desselben Browsers nicht als separate Dimensionselemente auflistet.
 
 ## Füllen dieser Dimension mit Daten
 

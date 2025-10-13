@@ -38,7 +38,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 1. Wählen Sie in Schritt 1 des Anforderungs-Assistenten zum Beispiel den Bericht **[!UICONTROL Seite]** aus.
 1. Klicken Sie neben dem Dropdown-Menü **[!UICONTROL Häufig verwendete Datumsangaben]** auf das Symbol **[!UICONTROL Steuerungseinstellungen]**:
 
-   ![Screenshot des Anforderungs-Assistenten, Schritt 1 mit hervorgehobenem Symbol für Kontrolleinstellungen. ](assets/date_range_control.png)
+   ![Screenshot des Anforderungs-Assistenten, Schritt 1 mit hervorgehobenem Symbol für Kontrolleinstellungen. &#x200B;](assets/date_range_control.png)
 
 1. Wählen Sie im Dialogfeld „Steuerungseinstellungen“ alle Datumsbereichselemente aus, die im interaktiven Steuerelement angezeigt werden sollen. Legen Sie außerdem den oberen linken Zellenstandort des Steuerelements fest.
 
