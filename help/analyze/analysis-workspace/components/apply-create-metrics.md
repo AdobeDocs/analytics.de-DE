@@ -41,7 +41,7 @@ Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von ](https://video.tv.adobe.com/v/328565?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von ](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Erstellen einer berechneten Metrik für ein einzelnes Projekt:
 
    * [!UICONTROL **prozentuale Änderung**]: Erstellt eine neue Spalte, die die prozentuale Änderung zwischen den beiden ausgewählten Spalten anzeigt.
 
-[Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
+[Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
 
 
 ## Vergleichen von Metriken mit verschiedenen Attributionsmodellen
@@ -119,7 +119,7 @@ Im Folgenden finden Sie ein Video zum Thema:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kumulativer Durchschnitt](https://video.tv.adobe.com/v/35006?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kumulativer Durchschnitt](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -37,7 +37,7 @@ Die Manifestdatei enthält folgende Details zu den einzelnen Dateien, die Bestan
 * Dateiname
 * Dateigröße
 * MD5-Hash
-* Anzahl der in der Datei enthaltenen Datensätze
+* Anzahl der in der Datei enthaltenen Einträge
 
 Die Manifestdatei hat dasselbe Format wie eine Java-JAR-Manifestdatei.
 

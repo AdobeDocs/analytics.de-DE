@@ -68,8 +68,8 @@ Die Adobe Analytics-Erweiterung verfügt über einen speziellen Ort, um einen Li
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken [!UICONTROL &#x200B; unter &#x200B;]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
-1. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
+1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
+1. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können in der Analytics-Erweiterung keine optionalen Argumente festlegen.

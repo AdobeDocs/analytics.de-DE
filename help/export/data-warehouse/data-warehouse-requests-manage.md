@@ -13,17 +13,17 @@ ht-degree: 4%
 
 # Verwalten von Data Warehouse-Anforderungen
 
-Sie können von Ihnen eingereichte Data Warehouse-Anfragen anzeigen und verwalten. Nur Admins können Anfragen anderer Benutzender in ihrer Organisation anzeigen und verwalten.
+Sie können von Ihnen gestellte Data Warehouse-Anfragen anzeigen und verwalten. Nur Admins können Anfragen anderer Benutzender in ihrer Organisation anzeigen und verwalten.
 
 In den folgenden Abschnitten werden die Aktivitäten beschrieben, die Sie beim Verwalten von Anfragen ausführen können.
 
 ## Anfragen anzeigen
 
-Standardmäßig können Sie nur die von Ihnen erstellten Anfragen anzeigen, es sei denn, die Benutzenden haben ausgewählt, dass ihre Anfragen für andere Personen in der Organisation sichtbar sein sollen (wie in den allgemeinen Einstellungen für Anfragen in [Data Warehouse beschrieben](/help/export/data-warehouse/create-request/dw-general-settings.md)). Systemadministratoren können alle Anforderungen anzeigen.
+Standardmäßig können Sie nur die von Ihnen erstellten Anfragen anzeigen, es sei denn, die Benutzer haben ausgewählt, ihre Anfragen für andere Personen in der Organisation sichtbar zu machen (wie in den allgemeinen Einstellungen für Data Warehouse-Anfragen in [](/help/export/data-warehouse/create-request/dw-general-settings.md) beschrieben). Systemadministratoren können alle Anforderungen anzeigen.
 
 So zeigen Sie Data Warehouse-Anfragen an:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
    Auf der Seite Data Warehouse werden alle von Ihnen gestellten Anfragen angezeigt. Daten werden in jeder Spalte angezeigt. Sie können [konfigurieren, welche Spalten](#configure-columns) sichtbar sind.
 
@@ -49,9 +49,9 @@ Beachten Sie beim Bearbeiten von Anfragen Folgendes:
 
 So bearbeiten Sie eine geplante Anfrage:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
-1. Wählen Sie auf der Seite Data Warehouse die Anfrage aus, die Sie bearbeiten möchten.
+1. Wählen Sie auf der Data Warehouse-Seite die Anfrage aus, die Sie bearbeiten möchten.
 
    ![Verwalten einer Anfrage](assets/dw-manage-request.png)
 
@@ -67,7 +67,7 @@ So bearbeiten Sie eine geplante Anfrage:
 
 Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen anzeigen.
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
 1. Wählen Sie auf der Seite Data Warehouse die Anfrage aus, deren Verlauf Sie anzeigen möchten.
 
@@ -75,7 +75,7 @@ Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen 
 
 1. Wählen Sie [!UICONTROL **Verlauf anzeigen**] aus.
 
-   Auf [!UICONTROL **Seite &quot;Data Warehouse-Anfrage anzeigen**] wird eine Liste der einzelnen Berichtssendungen angezeigt, die mit der Anfrage verknüpft sind.
+   Die [!UICONTROL **Data Warehouse-Anfrage anzeigen**] zeigt eine Liste einzelner Berichtssendungen an, die mit der Anfrage verknüpft sind.
 
    Wählen Sie das Symbol **Spalte konfigurieren** ![Symbol „Spalte konfigurieren“ aus](assets/configure-column-icon.png) um Spalten auszublenden oder anzuzeigen, die nicht standardmäßig angezeigt werden.
 
@@ -92,7 +92,7 @@ Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen 
    | [!UICONTROL **Status**] | Der Status des Berichtversands. Mögliche Status sind:<ul><li>[!UICONTROL **Erstellt**]: Der Bericht wurde erstellt, aber noch nicht verarbeitet.</li><li>[!UICONTROL **Ausstehend**]: Der Bericht wartet auf die Verarbeitung.</li><li>[!UICONTROL **Verarbeitung**]: Der Bericht wird derzeit verarbeitet.</li><li>[!UICONTROL **Abgeschlossen**] Der Bericht wurde abgeschlossen und ist jetzt verfügbar.</li><li>[!UICONTROL **Geplant**]: Der Bericht ist geplant, hat jedoch noch nicht begonnen.</li><li>[!UICONTROL **Abgebrochen**]: Der Bericht wurde vom Benutzer abgebrochen.</li><li>[!UICONTROL **Fehler - Verarbeitung**:] Beim Bericht ist ein Fehler aufgetreten und er konnte nicht verarbeitet werden.</li><li>[!UICONTROL **Fehler - Fehler beim Senden**]: Der Bericht wurde erfolgreich generiert, konnte jedoch nicht bereitgestellt werden. Überprüfen Sie die [Konfiguration Ihres Ziels](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) und senden Sie dann den Bericht erneut.</li></ul>. |
    | [!UICONTROL **Von**] | Das Startdatum des im Bericht enthaltenen Gesamtzeitrahmens.<p>Dies wird in der Zeitzone der Report Suite angezeigt.</p> |
    | [!UICONTROL **Bis**] | Das Enddatum des im Bericht enthaltenen Gesamtzeitrahmens. <p>Dies wird in der Zeitzone der Report Suite angezeigt.</p> |
-   | [!UICONTROL **Legacy-Anfrage-ID**] | Die ID, die zur Identifizierung eines Berichts in der Legacy-Data Warehouse-Benutzeroberfläche verwendet wird. Diese ID kann erforderlich sein, wenn Sie sich an die Kundenunterstützung von Adobe wenden. |
+   | [!UICONTROL **Legacy-Anfrage-ID**] | Die ID, die zur Identifizierung eines Berichts in der veralteten Benutzeroberfläche von Data Warehouse verwendet wird. Diese ID kann erforderlich sein, wenn Sie sich an die Kundenunterstützung von Adobe wenden. |
    | [!UICONTROL **Berichts-ID**] | Die ID, die zur Identifizierung eines Berichts in der aktuellen Data Warehouse-Benutzeroberfläche verwendet wird. Diese ID kann erforderlich sein, wenn Sie sich an die Kundenunterstützung von Adobe wenden. |
 
 
@@ -105,11 +105,11 @@ Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen 
    | [!UICONTROL **Bericht erneut ausführen**] | Führt den Bericht mit den Daten erneut so aus, wie er ursprünglich gesendet wurde. Sie können einen Bericht mit einem der folgenden Status erneut ausführen: [!UICONTROL **Abgebrochen**], [!UICONTROL **Abgeschlossen**], [!UICONTROL **Fehler - Verarbeitung**] oder [!UICONTROL **Fehler - Fehler - Fehler beim Senden**]. |
    | [!UICONTROL **Bericht erneut senden**] | Sendet die zuvor erstellte Berichtsdatei erneut. Sie können einen Bericht mit einem der folgenden Status erneut senden: [!UICONTROL **Abgeschlossen**] oder [!UICONTROL **Fehler - Fehler - Fehler beim Senden**]. |
 
-## Anforderungen kopieren
+## Kopieren von Anforderungen
 
 Wenn Sie eine Anfrage kopieren, werden alle Konfigurationsoptionen aus der ursprünglichen Anfrage kopiert.
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
 1. Wählen Sie auf der Seite Data Warehouse die Anfrage aus, die Sie kopieren möchten.
 
@@ -117,7 +117,7 @@ Wenn Sie eine Anfrage kopieren, werden alle Konfigurationsoptionen aus der urspr
 
 1. Wählen Sie [!UICONTROL **Kopieren**] aus.
 
-   Die Anforderungsseite Data Warehouse kopieren wird angezeigt. Alle Konfigurationsoptionen werden aus der ursprünglichen Anfrage kopiert.
+   Die Seite Data Warehouse-Anfrage kopieren wird angezeigt. Alle Konfigurationsoptionen werden aus der ursprünglichen Anfrage kopiert.
 
 1. Aktualisieren Sie alle Konfigurationsoptionen, die mit der Anfrage verknüpft sind.
 
@@ -131,9 +131,9 @@ Nur Anfragen, die für die Ausführung nach einem Zeitplan konfiguriert sind, k�
 
 So brechen Sie eine geplante Anfrage ab:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
 
-1. Wählen Sie auf der Seite Data Warehouse die Anfrage aus, die Sie bearbeiten möchten.
+1. Wählen Sie auf der Data Warehouse-Seite die Anfrage aus, die Sie bearbeiten möchten.
 
    ![Verwalten einer Anfrage](assets/dw-manage-request.png)
 
@@ -141,11 +141,11 @@ So brechen Sie eine geplante Anfrage ab:
 
    Die Anfrage wird nicht mehr zur geplanten Zeit ausgeführt.
 
-## Spalten konfigurieren
+## Konfigurieren von Spalten
 
 Sie können konfigurieren, welche Informationen für jede Anfrage angezeigt werden, indem Sie Spalten hinzufügen oder entfernen.
 
-1. Wählen Sie **oben rechts auf der Seite Data Warehouse das** „Spalten konfigurieren“ aus.
+1. Wählen Sie **oben rechts auf** Seite Data Warehouse das Symbol „Spalten konfigurieren“ aus.
 
    ![Spalten konfigurieren](assets/dw-configure-columns.png)
 
@@ -165,7 +165,7 @@ Sie können konfigurieren, welche Informationen für jede Anfrage angezeigt werd
 
 ## Anfragen filtern und sortieren
 
-1. Wählen Sie **Symbol** Filtern“ in der linken Leiste auf der Seite Data Warehouse aus.
+1. Wählen Sie **Symbol** Filtern“ in der linken Leiste der Seite &quot;Data Warehouse&quot; aus.
 
    ![Anfragen filtern](assets/dw-filter.png)
 

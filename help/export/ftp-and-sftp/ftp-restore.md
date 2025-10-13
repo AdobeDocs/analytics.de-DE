@@ -15,4 +15,4 @@ ht-degree: 63%
 
 Adobe kann keine Daten wiederherstellen, die aus einem FTP-Konto gelöscht wurden.
 
-Wenn ein FTP-Konto, das Sie verwenden wollten, deaktiviert wurde, wenden Sie sich an Ihr Adobe-Account-Team, das mit Ihnen über zusätzliche Optionen sprechen kann.
+Wenn ein FTP-Konto, das Sie verwenden wollten, deaktiviert wurde, wenden Sie sich an Ihr Adobe-Accountteam, das weitere Optionen mit Ihnen besprechen kann.

@@ -24,7 +24,7 @@ Beachten Sie beim Erstellen von Schnellsegmenten Folgendes:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnellsegmente](https://video.tv.adobe.com/v/3410293?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnellsegmente](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

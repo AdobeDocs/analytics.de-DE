@@ -6,13 +6,13 @@ exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 64%
+ht-degree: 65%
 
 ---
 
 # Besuchszeit – Übersicht
 
-Für [!UICONTROL &#x200B; Adobe Analytics-Produkte &#x200B;] verschiedene [ (](overview.md)) und Dimensionen zur Verfügung. Auf dieser Seite können Sie die gewünschte Dimension oder Metrik, nach der Sie suchen, leichter identifizieren.
+Für [!UICONTROL  Adobe Analytics-Produkte ] verschiedene [ (](overview.md)) und Dimensionen zur Verfügung. Auf dieser Seite können Sie die gewünschte Dimension oder Metrik, nach der Sie suchen, leichter identifizieren.
 
 ## Besuchszeit-Metriken
 
@@ -24,7 +24,7 @@ Für [!UICONTROL &#x200B; Adobe Analytics-Produkte &#x200B;] verschiedene [ (](o
 | [!UICONTROL Verbrachte Zeit/Benutzer (Status)] | Ungefähr *Gesamtbesuchszeit für Mobile Apps/Unique Mobile App Visitors*<br> Gibt die durchschnittliche Zeit an, die Besuchende von Mobile Apps mit einem bestimmten Dimensionselement über die Lebensdauer des Besuchers interagieren (Länge des Cookies). **Hinweis**: Diese Metrik kann nicht unabhängig berechnet werden, da der Nenner dieser Funktion eine interne Metrik ist. | Analysis Workspace |
 | [[!UICONTROL Durchschnittliche Besuchszeit pro Site] (Sekunden)](average-time-on-site.md) | Stellt die gesamte Zeit dar, die Besucher pro Dimensionselement-Sequenz mit einem bestimmten Dimensionselement interagieren. Es ist nicht nur auf „Site“-Durchschnittswerte beschränkt, wie der Name schon sagt. Weitere Informationen über Sequenzen finden Sie im Bereich „Berechnung der Besuchszeit“.<br>**Hinweis**: Diese Metrik unterscheidet sich auf der Dimensionselement-Ebene mit hoher Wahrscheinlichkeit von „Zeit pro Besuch“, da bei der Berechnung ein anderer Nenner verwendet wird. | Analysis Workspace, Report Builder (in Minuten angezeigt) |
 | [[!UICONTROL Durchschnittliche Besuchszeit pro Site]](average-time-on-site.md) | Dies ist dieselbe Metrik wie *Durchschnittliche auf der Site verbrachte Zeit (Sekunden)* mit unterschiedlicher Zeitformatierung (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> empfiehlt Adobe stattdessen die Verwendung von [[!UICONTROL Durchschnittliche Besuchszeit pro Site]](average-time-on-site.md), wenn die durchschnittliche Besuchszeit für ein Dimensionselement erforderlich ist. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |
+| [!UICONTROL Durchschnittliche Besuchszeit pro Site] | Veraltete Metrik.<br> empfiehlt Adobe stattdessen die Verwendung von [[!UICONTROL Durchschnittliche Besuchszeit pro Site]](average-time-on-site.md), wenn die durchschnittliche Zeit für ein Dimensionselement erforderlich ist. | Report Builder (wenn sich eine Dimension in der Anforderung befindet) |
 
 ## Besuchszeit-Dimensionen
 
@@ -67,16 +67,16 @@ Die Metriken „Aufgewendete Zeit“, die auf jede Dimension angewendet werden k
 
 +++
 
-+++Welche Besuchszeitdimension wird am besten bei Aufschlüsselungen mit anderen Dimensionen verwendet?
++++Welche Besuchszeitdimension empfiehlt sich am ehesten in Aufschlüsselungen mit anderen Dimensionen?
 
-Die Dimension [[!UICONTROL Besuchszeit pro Seite - &#x200B;]](../dimensions/time-spent-on-page.md)) ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
+Die Dimension [[!UICONTROL Besuchszeit pro Seite - ]](../dimensions/time-spent-on-page.md)) ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
 Im folgenden Beispiel ist der Suchbegriff „classifieds“ mit Trefferzeiten von 54 Sekunden, 59 Sekunden usw. verknüpft, was möglicherweise darauf hinweist, dass Besuchende Zeit damit verbringen, für diesen Begriff zurückgegebene Inhalte zu lesen.
 
 ![Screenshot eines Seitenberichts mit Zeitaufwand](assets/time-spent1.png)
 
 +++
 
-+++Welche Metrik eignet sich für die Dimension [!UICONTROL Besuchszeit pro Seite - granular]?
++++Welche Metrik ist für die Dimension [!UICONTROL Besuchszeit pro Seite - granular] geeignet?
 
 Jede beliebige Metrik. Die Dimension zeigt die Besuchszeit für den Treffer an, bei dem es zu dem Ereignis kam. Eine längere Besuchszeit bedeutet, dass ein Besucher mehr Zeit auf einer Seite (Treffer) verbracht hat, auf der es zu dem Ereignis kam.
 
@@ -84,7 +84,7 @@ Jede beliebige Metrik. Die Dimension zeigt die Besuchszeit für den Treffer an, 
 
 +++
 
-+++Wie unterscheidet sich [!UICONTROL Durchschnittliche Besuchszeit pro Site] von [!UICONTROL Besuchszeit pro Besuch]?
++++Was ist der Unterschied zwischen [!UICONTROL Durchschnittliche Besuchszeit pro Site] und [!UICONTROL Besuchsdauer pro Besuch]?
 
 Der Unterschied ist der in der Metrik verwendete Nenner:
 
@@ -106,7 +106,7 @@ Betrachten Sie beispielsweise den folgenden Besuch.
 |---|---|---|---|
 | **Besuchszeit in Sekunden** | 30 | 100 | 10 |
 | **Seitenname** | Startseite | Produkt | Startseite |
-| **Datum** | 1. Januar | 1. Januar | 1. Januar |
+| **Datum** | &#x200B;1. Januar | &#x200B;1. Januar | &#x200B;1. Januar |
 
 Bei der Berechnung der Besuchszeit für die Startseite würde die Rechnung (30+10)/2=20 lauten, aber eine Aufschlüsselung nach Tag würde (30+10)/1=40 ergeben, da am 1. Januar ein einziger ununterbrochenen Durchlauf erfolgte.
 

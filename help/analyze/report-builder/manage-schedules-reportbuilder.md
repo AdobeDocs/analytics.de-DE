@@ -5,14 +5,15 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
+source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
 
 ---
 
-# Geplante Arbeitsmappen verwalten
+# Verwalten von geplanten Arbeitsmappen
 
 Sie können eine Arbeitsmappe für die Freigabe per E-Mail oder durch den Export in ein Cloud-Ziel planen, wie in den folgenden Artikeln beschrieben:
 
@@ -72,5 +73,3 @@ Mit ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) können Sie festlegen
    * Ein ![AlertRed](/help/assets/icons/AlertRed.svg) zeigt an, dass ein Fehler aufgetreten ist.
 
 Alternativ können Sie ![Verlauf](/help/assets/icons/History.svg) für eine oder mehrere ausgewählte Arbeitsmappen auf der Registerkarte **[!UICONTROL Arbeitsmappen]** auswählen. Diese Aktion zeigt die Registerkarte **[!UICONTROL Verlauf]** mit einer nach Ihrer Auswahl gefilterten Liste an. Wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg) aus, um einen Filter zu entfernen.
-
-

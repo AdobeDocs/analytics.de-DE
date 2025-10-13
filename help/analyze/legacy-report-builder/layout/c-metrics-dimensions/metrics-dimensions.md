@@ -26,4 +26,4 @@ Metriken sind numerische Werte. Sie enthalten quantitative Informationen über d
 * Beitrag
 * Berechnet
 
-Dimensionen sind nicht numerische Werte und Daten, etwa Geschlecht, Monat, Alter, Loyalität, Monitorauflösung usw. Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die angezeigt und verglichen werden können, z. B. in Detailberichten.
+Dimensionen sind nicht numerische Werte und Daten, etwa Geschlecht, Monat, Alter, Treue, Monitorauflösung usw. Dimensionen sind Beschreibungen oder Eigenschaften metrischer Daten, die angezeigt und verglichen werden können, z. B. in Detailberichten.

@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 85%
+source-wordcount: '712'
+ht-degree: 80%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können die Definition eines Besuchs auf eine andere Zeit als 30 Minuten än
 
 ## Besuche, die eine Datumsgrenze überschreiten
 
-Es wird für jeden betroffenen Zeitraum ein Besuch gezählt. Wenn Sie beispielsweise einen Besucher haben, der am Montag um 23.45 Uhr mit dem Navigieren auf Ihrer Site beginnt und am Dienstag um 00.10 Uhr seine letzte Bildanforderung sendet, wird ein Besuch angezeigt, der sowohl Montag als auch Dienstag zugeordnet ist. Die Gesamtbesuchsmetrik wird jedoch dedupliziert und zeigt einen einzelnen Besuch für den Datumsbereich des Projekts an.
+Es wird für jeden betroffenen Zeitraum ein Besuch gezählt. Wenn beispielsweise ein Besucher Ihre Site am Montag um 23:00 :45 navigiert und dann am Dienstag um 12:00 Uhr seine letzte Bildanforderung sendet, wird :10 Besuch sowohl Montag als auch Dienstag zugeordnet. Die Gesamtbesuchsmetrik wird jedoch dedupliziert und zeigt einen einzelnen Besuch für den Datumsbereich des Projekts an.
 
 ## Besuche innerhalb einer Dimension im Vergleich zur Gesamtanzahl der Besuche
 

@@ -64,10 +64,10 @@ Diese Segmente werden als Segmentvorlagen in den Segment Builder migriert. Vorha
 
 +++ **Was ist mit Experience Cloud (Suite)-Segmenten passiert?**
 
-* Nichtkäufer
-* Käufern
+* Nichtkaufende
+* Kaufende
 * Erstbesuche
-* Besuche von sozialen Netzwerken aus
+* Besuche von Social Media aus
 * Besuche, die länger als 10 Minuten dauern*
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
@@ -90,7 +90,7 @@ Vorhandene Segmente, die eine geänderte Logik wie in diesem Dokument beschriebe
 
 +++
 
-+++ **Was mache ich mit doppelten Segmenten, die denselben Namen und unterschiedliche Definitionen haben?**
++++ **Was mache ich mit doppelten Segmenten, die denselben Namen und unterschiedliche Definitionen haben?** 
 Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Gehen Sie dazu folgendermaßen vor:
 
 * Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
@@ -166,7 +166,7 @@ Folgende Dimensionen wurden in Aufzählungslisten geändert:
 | Mobil-DRM | Verbindungstyp | Geo-Region |
 | Mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
 | Mobilbetriebssystem | Cookie | Geo-DMA |
-| Mobile Java-VM | Kundenloyalität | Persistentes Cookie |
+| Mobile Java-VM | Kundentreue | Persistentes Cookie |
 | Mobile Lesezeichenlänge | Java aktiviert | Paid Search |
 | Mobil URL-Länge | Sprache |  |
 

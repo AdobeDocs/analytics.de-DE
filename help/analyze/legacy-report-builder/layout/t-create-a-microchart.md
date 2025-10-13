@@ -22,4 +22,4 @@ Im benutzerdefinierten Layout können Sie eine Metrik-Spalte in eine Balkengrafi
 1. Klicken Sie mit der rechten Maustaste auf die Spalte mit dem Metrikwert.
 1. Wählen Sie **[!UICONTROL Ausgabeanzeige ändern]** und geben Sie dann den Microchart-Typ ein, der angezeigt werden soll.
 
-   Report Builder ändert die Anzeige in der Spalte so, dass sie Ihrer Auswahl entspricht.
+   Report Builder ändert die Anzeige in der Spalte entsprechend Ihrer Auswahl.

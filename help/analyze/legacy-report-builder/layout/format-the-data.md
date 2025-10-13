@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie Standardformatierungen und eingeschränkte Formatierungen auf Zellbereiche anwenden.
-title: Formatieren des Datums im Report Builder
+title: Formatieren des Datums in Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 {{legacy-arb}}
 
-Zusätzlich zu den standardmäßigen Zellformatierungsoptionen, die über die Excel-Funktion Format > Zellen (Strg+1) verfügbar sind, können Sie für Zellbereiche mit Report Builder eine eingeschränkte Formatierung anwenden. Die möglichen Formatierungen hängen von der gewählten Metrik ab.
+Zusätzlich zu den standardmäßigen Zellformatierungsoptionen, die über die Excel-Funktion Format > Zellen (Strg+1) verfügbar sind, können Sie mit Report Builder eingeschränkte Formatierungen auf Zellbereiche anwenden. Die möglichen Formatierungen hängen von der gewählten Metrik ab.
 
 Nachdem Sie [Dimensionen](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) zum Raster „Zeilenbezeichnungen“ hinzugefügt haben, klicken Sie auf **[!UICONTROL Format]**.
 

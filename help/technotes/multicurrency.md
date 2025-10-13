@@ -12,11 +12,11 @@ ht-degree: 16%
 
 # Unterstützung mehrerer Währungen
 
-Adobe bietet mehrere Ebenen der Währungsumrechnung, sodass Ihr Unternehmen die gewünschte Währung in vielen Berichten erreichen kann. Die Konversion erfolgt auf drei Ebenen:
+Adobe bietet mehrere Ebenen der Währungsumrechnung, damit Ihr Unternehmen die gewünschte Währung in vielen Berichten erreichen kann. Die Konversion erfolgt auf drei Ebenen:
 
 ## Seitenebene
 
-Sie können die Variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) verwenden, um die gewünschte Währung auf jeder Seite festzulegen. Wenn die Währung auf der Seite nicht mit der Ziel-Report Suite-Währung übereinstimmt, führt Adobe eine Währungsumrechnung zur Report Suite-Währung anhand des aktuellen Wechselkurses durch. Die umgerechnete Währung wird erfasst.
+Sie können die Variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) verwenden, um die gewünschte Währung auf jeder Seite festzulegen. Wenn die Währung auf der Seite nicht mit der Ziel-Report Suite-Währung übereinstimmt, führt Adobe eine Währungsumrechnung zur Report Suite-Währung durch, die auf dem Wechselkurs des aktuellen Tages basiert. Die umgerechnete Währung wird erfasst.
 
 ## Report Suite-Ebene
 

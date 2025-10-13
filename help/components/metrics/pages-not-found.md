@@ -14,7 +14,7 @@ ht-degree: 35%
 
 *Auf dieser Hilfeseite wird beschrieben, wie „Seiten nicht gefunden“ als Metrik funktioniert. Weitere Informationen zur Funktionsweise als Dimension finden [ auf ](../dimensions/pages-not-found.md) Dimensionsseite „Seiten nicht gefunden“*
 
-Die Metrik „Seiten nicht gefunden[&#128279;](overview.md) gibt die Anzahl der Treffer an, bei denen eine Dimension zum Zeitpunkt des Fehlers eines Besuchers festgelegt oder beibehalten wurde. Diese Metrik ist nützlich, wenn Sie sehen möchten, welche Seiten oder URLs Fehlermeldungen enthalten (z. B. eine 404). Sie können diese Informationen dann an Ihr Web-Entwicklungs-Team weitergeben, das die Fehlerursache ermitteln und beheben kann.
+Die Metrik „Seiten nicht gefunden[ ](overview.md) gibt die Anzahl der Treffer an, bei denen eine Dimension zum Zeitpunkt des Fehlers eines Besuchers festgelegt oder beibehalten wurde. Diese Metrik ist nützlich, wenn Sie sehen möchten, welche Seiten oder URLs Fehlermeldungen enthalten (z. B. eine 404). Sie können diese Informationen dann an Ihr Web-Entwicklungs-Team weitergeben, das die Fehlerursache ermitteln und beheben kann.
 
 ## Berechnung dieser Metrik
 

@@ -16,7 +16,7 @@ Die „Metrik [ durchschnittliche Seitentiefe“ ](overview.md) an, wie weit ein
 
 >[!TIP]
 >
->Verwenden Sie diese Metrik zusammen mit einer anderen Metrik, z[ B. „Besuche](visits.md), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie möglicherweise Dimensionselemente mit anomalen Seitentiefen, was in der Regel keine wertvolle Erkenntnis ist.
+>Verwenden Sie diese Metrik zusammen mit einer anderen Metrik, z[ B. „Besuche](visits.md), um bessere Einblicke zu erhalten. Wenn Sie diese Metrik allein verwenden, erhalten Sie möglicherweise Dimensionselemente mit anormalen Seitentiefen, was in der Regel keine wertvolle insight ist.
 
 ## Berechnung dieser Metrik
 

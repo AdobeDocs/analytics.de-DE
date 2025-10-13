@@ -16,7 +16,7 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-So erstellen Sie eine Anomalieerkennungsanfrage im Report Builder:
+So erstellen Sie eine Anomalieerkennungsanfrage in Report Builder:
 
 1. Wählen Sie einen Trendbericht aus, z. B. einen Bericht für **[!UICONTROL Site-Metriken]** > **[!UICONTROL Traffic]**.
 1. Wählen Sie im Menü [!UICONTROL Granularität anwenden] den Eintrag **[!UICONTROL Tag]**.

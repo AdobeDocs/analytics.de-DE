@@ -12,6 +12,6 @@ ht-degree: 0%
 
 # Konfigurieren von Data Warehouse-Berichten für Tableau
 
-Data Warehouse kann Berichte im Tableau Data Extract (TDE)-Dateiformat bereitstellen, mit dem Daten visualisiert und in zusätzliche Daten innerhalb von Tableau eingefügt werden können.
+Data Warehouse kann Berichte im Tableau Data Extract (TDE)-Dateiformat bereitstellen, mit dem Daten visualisiert und in zusätzlichen Daten innerhalb von Tableau eingefügt werden können.
 
 Informationen zum Konfigurieren von Data Warehouse-Berichten, die im TDE-Format bereitgestellt werden sollen, finden Sie unter [Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-options.md).

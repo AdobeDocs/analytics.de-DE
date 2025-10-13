@@ -24,7 +24,7 @@ Diese Funktion ist nützlich, wenn Sie Folgendes tun möchten:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/36754?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrere Report Suites](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

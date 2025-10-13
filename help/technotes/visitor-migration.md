@@ -16,7 +16,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->Wenn Sie den Experience Cloud-Besucher-ID-Service bereits implementiert haben, gilt die Übergangsphase nicht für Sie und sollte nicht aktiviert werden.
+>Wenn Sie den Besucher-ID-Service von Experience Cloud bereits implementiert haben, gilt die Übergangsphase nicht für Sie und sollte nicht aktiviert werden.
 
 Bei der Besuchermigration werden die Besucher-ID-Cookies von einer Domain zu einer anderen migriert.
 

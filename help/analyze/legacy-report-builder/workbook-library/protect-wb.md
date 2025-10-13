@@ -20,7 +20,7 @@ Sie können alle Anforderungen in einer Arbeitsmappe davor schützen, dass Anfor
 
 Wenn Sie als Analyst eine Arbeitsmappe sperren, können Sie Ihre Arbeitsmappenanforderungen davor schützen, dass sie von anderen Benutzern in Ihrer Organisation bearbeitet werden. Gleichzeitig können diese Benutzer die Anforderungen in der Arbeitsmappe noch bearbeiten.
 
-Um eine Arbeitsmappe vor der Bearbeitung zu schützen, klicken Sie **[!UICONTROL der Report Builder]** Symbolleiste (![](assets/locked_icon.png)) auf „Gesperrt“.
+Report Builder Um eine Arbeitsmappe vor Bearbeitung zu schützen, klicken Sie in der **[!UICONTROL -Symbolleiste]** Sperren“ (![](assets/locked_icon.png)).
 
 Um den Schutz einer Arbeitsmappe aufzuheben, klicken Sie auf **[!UICONTROL Entsperrt]** ( ![](assets/unlocked_icon.png)).
 

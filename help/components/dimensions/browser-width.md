@@ -30,4 +30,4 @@ Adobe behält die Browser-Breite für einen Besuch bei. Wenn die Browser-Breite 
 
 ## Dimensionselemente
 
-Dimension-Elemente umfassen alle erfassten Browser-Breiten, klassifiziert in vordefinierte Gruppen. Wenn die Browser-Breite eines Treffers beispielsweise `1280` beträgt, wird sie im Dimensionselement `1200 to 1299` gruppiert.
+Dimension-Elemente enthalten alle erfassten Browser-Breiten, die in vordefinierte Gruppen klassifiziert sind. Wenn die Browser-Breite eines Treffers beispielsweise `1280` beträgt, wird sie im Dimensionselement `1200 to 1299` gruppiert.

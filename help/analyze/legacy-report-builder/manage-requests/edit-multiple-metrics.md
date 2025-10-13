@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '591'
 ht-degree: 28%
 
 ---
@@ -22,7 +22,7 @@ Metriken in einer bereits vorhandenen Anfrage oder über eine Gruppe von Anfrage
 Beachten Sie beim Hinzufügen von Metriken die folgenden Richtlinien:
 
 * Metriken können nur zu Pivot-Layout-Anfragen hinzugefügt werden.
-Wenn einige der ausgewählten Anforderungen benutzerdefinierte Layouts sind, können keine Metriken hinzugefügt werden. Wenn das Layout angepasst ist, weiß der Report Builder nicht, wo in der Tabelle die neue Metrik platziert werden soll.
+Wenn einige der ausgewählten Anforderungen benutzerdefinierte Layouts sind, können keine Metriken hinzugefügt werden. Wenn das Layout angepasst ist, weiß Report Builder nicht, wo die neue Metrik in der Tabelle platziert werden soll.
 * Wenn Sie nur benutzerdefinierte Layout-Anfragen auswählen, ist die Option **[!UICONTROL Metriken hinzufügen]** nicht verfügbar.
 * Das Hinzufügen von Metriken erhöht die Größe einer Anfrage und kann dazu führen, dass sie sich mit einer anderen Anfrage überschneidet. Achten Sie darauf, dass Ihre Anforderung rundherum ausreichend Platz zum Hinzufügen von Metriken hat.
 * Wenn die hinzugefügte Metrik bereits in einer der ausgewählten Anfragen vorhanden ist, wird sie dieser Anfrage nicht hinzugefügt.
@@ -40,7 +40,7 @@ So fügen Sie eine oder mehrere Metriken hinzu
 
 Beachten Sie beim Ersetzen von Metriken die folgenden Richtlinien:
 
-* Es sind nur 1:1-Ersetzungen zulässig. 1:viele oder viele:1 sind nicht zulässig.
+* Es :1 nur 1 Ersetzungen zulässig. 1:many oder viele:1 sind nicht zulässig.
 * Wenn die ausgewählte Metrik in einer der ausgewählten Anfragen nicht vorhanden ist, bleibt die Anfrage unverändert.
 * Die neue Metrik wird an derselben Stelle platziert wie die ersetzte Metrik.
 

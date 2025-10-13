@@ -1,6 +1,6 @@
 ---
 title: Auswählen eines Datenbereichs in Report Builder in Adobe Analytics
-description: Beschreibt die Verwendung des Kalenders, rollierender Datumsangaben und benutzerdefinierter Ausdrücke im Report Builder für Adobe Analytics
+description: Beschreibt die Verwendung des Kalenders, rollierender Datumsangaben und benutzerdefinierter Ausdrücke in Report Builder für Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
@@ -36,7 +36,7 @@ Mit **[!UICONTROL Option &quot;]**&quot; können Sie auf Datumsangaben verweisen
 
 Sie können den aktuellen Tag für einen beliebigen Datumsbereich ausschließen.
 
-![Report Builder-Schnellbearbeitungsbereich mit ausgewähltem Kalender und „Heute ausschließen“.](./assets/image17.png)
+![Report Builder-Schnellbearbeitungsbereich mit ausgewähltem Kalender und ausgewähltem „Heute ausschließen“.](./assets/image17.png)
 
 ## Verwenden des Kalenders
 
@@ -62,7 +62,7 @@ So wählen Sie Datumsangaben mithilfe des Kalenders aus
 
 Um einen Datumsbereich rückwärts festzulegen, klicken Sie zuerst auf das Enddatum und dann auf das Startdatum.
 
-Datumsbereich des Report Builders ![mit dem ausgewählten Kalender, dem Enddatum und dem Startdatum.](./assets/image18.png)
+![Report Builder-Datumsbereich, der den ausgewählten Kalender, das Enddatum und das Startdatum anzeigt.](./assets/image18.png)
 
 ### Dropdown-Menü „Voreinstellung“
 
@@ -76,7 +76,7 @@ Mit der Option „Rollierende Datumswerte“ können Sie einen Datumsbereich mit
 
 1. Wählen Sie einen rollierenden Ausdruck für Ihr Start- und Enddatum aus.
 
-   Datumsbereich des ![Report Builders mit ausgewähltem „Rollierende Datumswerte verwenden“ und dem rollierenden Ausdruck.](./assets/image19.png)
+   ![Report Builder-Datumsbereich, der die ausgewählten rollierenden Datumswerte und den rollierenden Ausdruck verwendet.](./assets/image19.png)
 
    **Beginn von** – Ermöglicht die Auswahl des Anfangs eines Tages, einer Woche, eines Monats, eines Quartals oder eines Jahres.
 
@@ -86,11 +86,11 @@ Mit der Option „Rollierende Datumswerte“ können Sie einen Datumsbereich mit
 
 1. Wählen Sie als rollierenden Zeitraum Tag, Woche, Monat, Quartal oder Jahr aus.
 
-   Datumsbereich des ![Report Builders, der den ausgewählten aktuellen Tag anzeigt.](./assets/image20.png)
+   ![Report Builder-Datumsbereich, der den ausgewählten aktuellen Tag anzeigt.](./assets/image20.png)
 
 1. Fügen Sie Tage, Wochen, Monate, Quartale oder Jahre ab dem rollierenden Datum hinzu oder subtrahieren Sie diese.
 
-   ![Datumsbereich des Report Builders, der den aktuellen Tag plus 14 ausgewählte Tage anzeigt.](./assets/image21.png)
+   ![Report Builder-Datumsbereich, der den aktuellen Tag plus 14 ausgewählte Tage anzeigt.](./assets/image21.png)
 
 1. Klicken Sie auf „Weiter“, um den Datenbereich zu definieren.
 
@@ -157,7 +157,7 @@ In der folgenden Tabelle sind Beispiele für Datumsausdrücke aufgeführt.
 | tm-1d | Letzter Tag des vorherigen Monats |
 | td-52w | Derselbe Tag vor 52 Wochen |
 | tm-11m-1d | Letzter Tag des gleichen Monats im letzten Jahr |
-| „2020-09-06“ | 9. Sept. 2020 |
+| „2020-09-06“ | &#x200B;9. Sept. 2020 |
 
 ## Datumsbereich aus Zelle
 

@@ -16,11 +16,11 @@ Die Dimension „Betriebssystemtypen[ zeigt das übergeordnete Betriebssystem an
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um die Suche nach Benutzeragenten und Betriebssystemtyp aufrechtzuerhalten.
+Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert auf der HTTP-Kopfzeile `User-Agent` in den Bildanforderungen. Adobe arbeitet mit [DeviceAtlas](https://deviceatlas.com/) zusammen, um die Suche nach Benutzeragenten und Betriebssystemtyp zu verwalten.
 
 * Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
 * Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Gerätesuche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ## Dimensionselemente
 
-Zu den Dimensionen gehört der Typ des verwendeten Betriebssystems. Beispiele sind `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` und `"Apple iOS"`.
+Dimension-Elemente umfassen den Typ des verwendeten Betriebssystems. Beispiele sind `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` und `"Apple iOS"`.

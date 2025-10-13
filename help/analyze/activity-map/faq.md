@@ -1,33 +1,33 @@
 ---
 title: Activity Map – Häufig gestellte Fragen
-description: Häufig gestellte Fragen zum Activity Map.
+description: Häufig gestellte Fragen zu Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 15%
+ht-degree: 22%
 
 ---
 
 # Activity Map – Häufig gestellte Fragen
 
-Häufig gestellte Fragen zum Activity Map.
+Häufig gestellte Fragen zu Activity Map.
 
 +++Wie erteile ich Berechtigungen für Activity Map?
 
 Berechtigungen zur Verwendung von Activity Map und den zugehörigen Dimensionen werden in der [Adobe Admin Console](/help/admin/admin-console/home.md) behandelt.
 
-Die [Berechtigungselemente](/help/admin/admin-console/permissions/product-profile.md) die für das Activity Map erforderlich sind:
+Die [Berechtigungselemente](/help/admin/admin-console/permissions/product-profile.md) die für Activity Map erforderlich sind:
 
 * **[!UICONTROL Analytics-Tools]** > **[!UICONTROL Activity Map]**
 * **[!UICONTROL Analytics-Tools]** > **[!UICONTROL Segmentveröffentlichung]**
 * **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map Scroll-Reichweite]**
 * **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map-Link nach Region]**
 * **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map-Region]**
-* **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map-Link]**
-* **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map Seite]**
+* **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map Link]**
+* **[!UICONTROL Dimensionen]** > **[!UICONTROL Activity Map-Seite]**
 
 Weitere [ finden Sie unter „Produktprofilberechtigungen für ](/help/admin/admin-console/permissions/analytics-tools.md) Tools“.
 
@@ -35,11 +35,11 @@ Weitere [ finden Sie unter „Produktprofilberechtigungen für ](/help/admin/adm
 
 +++Haben alle Analytics-Kunden Zugriff auf Activity Map?
 
-Unternehmen mit Verträgen für Adobe Analytics Standard, Premium und Ultimate haben Zugriff auf Activity Map. Diese Vertragstypen repräsentieren die Mehrheit der Adobe Analytics-Kunden.
+Organisationen mit Verträgen für Adobe Analytics Standard, Premium und Ultimate haben Zugriff auf Activity Map. Diese Vertragstypen repräsentieren die Mehrheit der Adobe Analytics-Kunden.
 
 +++
 
-+++Wie unterstützt Activity Map Single Page Applications (SPA)?
++++Wie unterstützt Activity Map Single-Page Applications (SPA)?
 
 Alle paar Sekunden scannt Activity Map die Webseite und sucht nach Änderungen. Activity Map findet neuen Inhalt auf der Seite, ohne dass ein Neuladen erforderlich ist. Dieser neue Inhalt wird jedoch immer dem Wert der Dimension „Erste Seite“ zugeordnet.
 
@@ -61,9 +61,9 @@ Activity Map unterstützt die aktuelle Version der gängigsten Browser.
 
 +++
 
-+++Erhöht Activity Map die Anzahl der Server-Aufrufe?
++++Führt Activity Map zu einer Zunahme von Server-Aufrufen?
 
-Activity Map sendet keine Server-Aufrufe von sich aus. Stattdessen werden Activity Map-Kontextdatenvariablen in die Analytics-Seitenansichtsaufrufe auf der nachfolgenden Seite eingeschlossen. Einige frühere Versionen von Activity Map auf dem Web-SDK senden jedoch einen separaten Aufruf für Activity Map-Daten. Wenn Sie die neueste Version von Web SDK verwenden, werden Activity Map-Daten mit dem folgenden Ereignis zusammengeführt.
+Activity Map sendet keine Server-Aufrufe von sich aus. Stattdessen werden Activity Map-Kontextdatenvariablen in die Seitenansichtsaufrufe von Analytics auf der nachfolgenden Seite eingeschlossen. Einige frühere Versionen von Activity Map auf der Web-SDK senden jedoch einen separaten Aufruf für Activity Map-Daten. Wenn Sie die neueste Version von Web SDK verwenden, werden Activity Map-Daten mit dem folgenden Ereignis zusammengeführt.
 
 +++
 
@@ -80,9 +80,9 @@ Einige Links, z. B. in Menüs, werden auf der Seite ausgeblendet. Daher werden d
 
 +++
 
-+++Wie funktioniert das Activity Map mit Seiten, die mehrere Report Suites verwenden?
++++Wie funktioniert Activity Map mit Seiten, die mehrere Report Suites verwenden?
 
-Standardmäßig verwendet Activity Map die Report Suite, die mit dem ersten Tag auf der Seite verknüpft ist. Sie können eine andere Report Suite auf der Registerkarte **[!UICONTROL Activity Map-Einstellungen]** > **[!UICONTROL Sonstige]** auswählen.
+Standardmäßig verwendet Activity Map die Report Suite, die mit dem ersten Tag auf der Seite verknüpft ist. Sie können über die Registerkarte **[!UICONTROL Activity Map-Einstellungen]** > **[!UICONTROL Sonstige]** eine andere Report Suite auswählen.
 
 +++
 
@@ -92,7 +92,7 @@ Activity Map sucht bis zu 20 Sekunden nach Adobe Analytics, nachdem ein „page 
 
 +++
 
-+++Wie verarbeitet Activity Map dynamische Inhalte?
++++Wie behandelt Activity Map dynamischen Inhalte?
 
 Activity Map sucht alle zwei Sekunden nach Statusänderungen der Web-Seite wie:
 
@@ -112,12 +112,12 @@ Alle angezeigten Daten basieren auf Seitenansichten.
 
 +++Kann ich Activity Map-Daten über Daten-Feeds exportieren?
 
-Ja. Activity Map verwendet [Daten-Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)Spalten):
+Ja. Activity Map verwendet [Daten-Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)Spalten) wie folgt:
 
 * Activity Map-Link: `clickmaplink`
 * Activity Map-Seite: `clickmappage`
-* Activity Map-Region: `clickmapregion`
-* Activity Map-Link nach Region: `clickmaplinkbyregion`
+* Region Activity Map: `clickmapregion`
+* Link zu Activity Map nach Region: `clickmaplinkbyregion`
 
 +++
 
@@ -129,7 +129,7 @@ Nein, Segmente funktionieren nicht im Live-Modus.
 
 +++Ist Activity Map mit Virtual Report Suites kompatibel?
 
-Ja. Aufgrund der Einschränkungen von Virtual Report Suites ist der Activity Map-Live-Modus jedoch nicht mit Virtual Report Suites kompatibel.
+Ja. Aufgrund der Einschränkungen von Virtual Report Suites ist der Live-Modus von Activity Map jedoch nicht mit Virtual Report Suites kompatibel.
 
 +++
 
@@ -138,8 +138,8 @@ Ja. Aufgrund der Einschränkungen von Virtual Report Suites ist der Activity Map
 Die Methode zum Deaktivieren von Activity Map hängt von Ihrem Implementierungstyp ab:
 
 * **Web SDK-Erweiterung**: Deaktivieren Sie in den Erweiterungskonfigurationseinstellungen die Kontrollkästchen **[!UICONTROL Klicks auf interne Links erfassen]**, **[!UICONTROL Klicks auf externe Links erfassen]** und **[!UICONTROL Klicks auf Downloadlinks erfassen]**.
-* **Web SDK JavaScript Library**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) auf `false` setzen.
-* **Analytics-Erweiterung**: Deaktivieren Sie in den Erweiterungskonfigurationseinstellungen das Kontrollkästchen **[!UICONTROL Activity Map verwenden]**.
+* **Web SDK JavaScript Library**: [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) auf `false` setzen.
+* **Analytics-Erweiterung**: Deaktivieren Sie in den Erweiterungskonfigurationseinstellungen das Kontrollkästchen mit der Bezeichnung **[!UICONTROL Activity Map verwenden]**.
 * **AppMeasurement**: Entfernen Sie das Activity Map-Modul in `AppMeasurement.js` oder kommentieren Sie es aus, oder überschreiben Sie den Modulfunktionsaufruf mit einem leeren Text:
 
   ```js
@@ -154,18 +154,18 @@ Sie können die neueste Version von Chrome, Edge oder Firefox mit der Activity M
 
 +++
 
-+++Was muss ich beachten, wenn ich Activity Map für persönlich identifizierbare Informationen verwende?
++++Was muss ich bei der Verwendung von Activity Map für persönlich identifizierbare Informationen beachten?
 
-Betrachten Sie die folgenden Szenarien, in denen persönlich identifizierbare Daten mithilfe von Activity Map erfasst werden können:
+Betrachten Sie die folgenden Szenarien, in denen persönlich identifizierbare Daten mit Activity Map erfasst werden können:
 
-* **E-Mail-Links**: Wenn eine E-Mail-Adresse angeklickt werden kann, um den E-Mail-Client des Benutzers zu öffnen, kann Activity Map die angeklickte E-Mail-Adresse erfassen.
-* **Benutzer-ID-Links**: Nach der Anmeldung eines Besuchers kann Activity Map alle Links aufzeichnen, die die Benutzer-ID des Besuchers enthalten.
+* **E-Mail-**: Wenn eine E-Mail-Adresse angeklickt werden kann, um den E-Mail-Client des Benutzers zu öffnen, kann Activity Map die angeklickte E-Mail-Adresse erfassen.
+* **Benutzer-ID-**: Nach der Anmeldung eines Besuchers kann Activity Map alle Links aufzeichnen, die die Benutzer-ID des Besuchers enthalten.
 * **Links zu sensiblen Informationen**: Bei Finanzinstituten können vertrauliche Informationen wie Kontonummern verfolgt werden, wenn es sich um einen Link handelt und die Besucher auf sie klicken.
 * **Links, die personenbezogene Daten enthalten**: Bei Websites des Gesundheitswesens können Links personenbezogene Daten enthalten. Wenn ein Besucher auf diese Links klickt, erfasst Activity Map diesen Link-Text.
 
 +++
 
-+++Welche Daten werden von Activity Map standardmäßig nachverfolgt?
++++Welche Daten verfolgt Activity Map standardmäßig?
 
 Activity Map verfolgt die folgenden Elemente:
 
@@ -177,7 +177,7 @@ Activity Map verfolgt die folgenden Elemente:
 
 +++
 
-+++Was sind einige Beispiele für Links, die von Activity Map automatisch verfolgt werden?
++++Welche Beispiele für Links werden von Activity Map automatisch verfolgt?
 
 Im Folgenden finden Sie einige Beispiele, bei denen Activity Map über alle erforderlichen Informationen zum Nachverfolgen eines Links verfügt.
 
@@ -201,13 +201,13 @@ Im Folgenden finden Sie einige Beispiele, bei denen Activity Map über alle erfo
 
 +++
 
-+++Was sind einige Beispiele für Links, die von Activity Map NICHT automatisch verfolgt werden?
++++Welche Beispiele für Links werden von Activity Map NICHT automatisch verfolgt?
 
 * Anker-Tag hat keine gültige `href`
 * Weder [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) noch [`tl()`](/help/implement/vars/functions/tl-method.md) Methode vorhanden
 * `src` Eigenschaft fehlt in einem Formulareingabeelement
 
-Im Folgenden finden Sie einige Beispiele, bei denen Activity Map Klicks nicht verfolgt:
+Im Folgenden finden Sie einige Beispiele dafür, dass Activity Map Klicks nicht verfolgt:
 
 ```html
 <!-- Anchor tag does not have a valid href -->

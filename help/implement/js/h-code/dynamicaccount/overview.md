@@ -1,6 +1,6 @@
 ---
 title: Übersicht über dynamische Konten
-description: Erfahren Sie, wie Sie eine Report Suite mit H-Code dynamisch auswählen.
+description: Erfahren Sie, wie Sie mit einem Workflow eine Report Suite mit H-Code dynamisch auswählen.
 feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 role: Developer

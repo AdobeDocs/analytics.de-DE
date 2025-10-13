@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über das Data Warehouse und das Filtern der Daten, sodass Sie benutzerdefinierte Berichte erstellen und ausführen können.
-title: Data Warehouse-Übersicht
+description: Erfahren Sie mehr über Data Warehouse und das Filtern der Daten, sodass Sie benutzerdefinierte Berichte erstellen und ausführen können.
+title: Übersicht über Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
@@ -35,7 +35,7 @@ Data Warehouse ZIP-komprimiert automatisch Dateien, die größer als 1 MB sind.
 
 ## Zugriff
 
-Adobe aktiviert Data Warehouse nur für Benutzende auf Administratorebene und nur für bestimmte Report Suites. (Sie kann für globale und untergeordnete Report Suites aktiviert werden, jedoch nicht für Datenaggregations-Report Suites.) Der Administrator kann eine Gruppe erstellen, die Zugriff auf Data Warehouse hat, und dann Benutzer, die nicht der Administratorebene angehören, mit dieser Gruppe verknüpfen.
+Adobe aktiviert Data Warehouse nur für Benutzende auf Administratorebene und nur für bestimmte Report Suites. (Sie kann für globale und untergeordnete Report Suites aktiviert werden, jedoch nicht für Datenaggregations-Report Suites.) Der Administrator kann eine Gruppe erstellen, die Zugriff auf Data Warehouse hat, und dann Benutzer, die keine Administratoren sind, mit dieser Gruppe verknüpfen.
 
 Siehe [Verwalten von Data Warehouse-Berechtigungen](/help/export/data-warehouse/t-dw-group.md).
 

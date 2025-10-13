@@ -63,7 +63,7 @@ Beispielschritte, die beschreiben, wie Sie Unterklassifizierungen mit dem Regel-
 
    Beispiel:
 
-   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&Hat;Kampagnentyp | Code einer breiten Kampagne&Hat;Kampagnen-Director | ... |
+   | Schlüssel | Kanal | Code einer breiten Kampagne | Code einer breiten Kampagne&amp;Hat;Kampagnentyp | Code einer breiten Kampagne&amp;Hat;Kampagnen-Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marke | Suzanne |  |
    | &#42; |  | 222 | Marke | Frank |  |

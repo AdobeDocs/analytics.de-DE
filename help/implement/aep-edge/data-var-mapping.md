@@ -13,9 +13,9 @@ ht-degree: 2%
 
 # Zuordnung von Datenobjektvariablen zu Adobe Analytics
 
-Die folgende Tabelle zeigt die Datenobjektvariablen, die das Adobe Experience Platform-Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese Datenobjekt-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
+Die folgende Tabelle zeigt die Datenobjektvariablen, die Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese Datenobjekt-Feldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
 
-Die Verwendung dieser Felder wird empfohlen, wenn Sie beabsichtigen, in Zukunft Customer Journey Analytics zu verwenden. Mit dieser Implementierungsmethode kann Ihr Unternehmen Daten mithilfe der Web-SDK an Adobe senden, ohne ein XDM-Schema zu erfüllen. Wenn Ihr Unternehmen bereit ist, Daten an Adobe Experience Platform zu senden, können Sie [Datenstromzuordnung](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/data-prep#mapping) verwenden, um Datenobjektfelder auf ihre jeweiligen XDM-Felder zu verweisen.
+Die Verwendung dieser Felder wird empfohlen, wenn Sie Customer Journey Analytics in Zukunft verwenden möchten. Mit dieser Implementierungsmethode kann Ihr Unternehmen Daten mithilfe der Web-SDK an Adobe senden, ohne ein XDM-Schema zu erfüllen. Wenn Ihr Unternehmen bereit ist, Daten an Adobe Experience Platform zu senden, können Sie [Datenstromzuordnung](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) verwenden, um Datenobjektfelder auf ihre jeweiligen XDM-Felder zu verweisen.
 
 ## Wertprioritäten
 
@@ -25,7 +25,7 @@ Einige Datenobjektfelder unterstützen auch ihren jeweiligen [Abfrageparameterwe
 
 ## Datenobjekt-Feldzuordnung
 
-Frühere Aktualisierungen dieser Tabelle finden Sie im „Commit-[ auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie beim AppMeasurement von Variablen wird bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
+Frühere Aktualisierungen dieser Tabelle finden Sie im „Commit-[ auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie bei AppMeasurement-Variablen wird bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
 
 | Datenobjekt-Feldpfad | Analytics-Variable und -Beschreibung |
 | --- | --- |

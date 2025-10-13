@@ -1,5 +1,5 @@
 ---
-description: Felddefinitionen für rollierende Datumswerte im Report Builder.
+description: Felddefinitionen für rollierende Datumswerte in Report Builder.
 title: Definitionen im Anforderungs-Assistenten – Rollierende Datumswerte
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 {{legacy-arb}}
 
-Felddefinitionen für rollierende Datumswerte im Report Builder.
+Felddefinitionen für rollierende Datumswerte in Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

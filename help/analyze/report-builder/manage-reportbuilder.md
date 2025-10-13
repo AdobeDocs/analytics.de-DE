@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Datenblöcken mithilfe von Report Builder
+title: Verwalten von Datenblöcken mit Report Builder
 description: Beschreibt die Verwendung der Verwaltungsfunktion in Report Builder
 role: User
 feature: Report Builder

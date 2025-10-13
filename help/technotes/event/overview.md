@@ -6,7 +6,7 @@ feature: Curate and Share
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -46,10 +46,10 @@ Sobald Sie mit der geplanten Handhabung eines Ereignisses vertraut sind, können
 
 Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysieren und Kommunizieren von Varianten in Ihren Daten](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
-* **0:27**: Daten mithilfe der Segmentierung ausschließen
-* **2:55**: Ereignis mit vorherigen Bereichen vergleichen
-* **8:42**: Daten mithilfe berechneter Metriken ableiten
-* **11:46**: Auswirkungen an Benutzer kommunizieren
+* **0:27**: Ausschließen von Daten mithilfe der Segmentierung
+* **2:55**: Ein Ereignis mit vorherigen Bereichen vergleichen
+* **8:42**: Ableiten von Daten mithilfe berechneter Metriken
+* **11:46**: Auswirkungen für Benutzer kommunizieren
 
 >[!ENDSHADEBOX]
 

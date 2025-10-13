@@ -1,5 +1,5 @@
 ---
-description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzenden, die verschiedenen Komponenten in Analysis Workspace zu katalogisieren und im Auge zu behalten, einschließlich ihres Verwendungszwecks, der genehmigt ist, bei dem es sich um Duplikate handelt usw.
+description: Das Datenwörterbuch in Analysis Workspace ermöglicht es Benutzenden, die verschiedenen Komponenten in Analysis Workspace zu katalogisieren und im Auge zu behalten, einschließlich ihres Verwendungszwecks, welche genehmigt sind, welche Duplikate sind usw.
 title: Einträge im Datenwörterbuch bearbeiten
 feature: Components
 role: Admin
@@ -7,7 +7,7 @@ exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 

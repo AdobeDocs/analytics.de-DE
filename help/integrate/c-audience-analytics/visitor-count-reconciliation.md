@@ -43,7 +43,7 @@ Die Besuchermetriken sind:
  </tbody> 
 </table>
 
-Adobe Audience Manager Real-time Segment Population und Analytics Visitors with Experience Cloud ID used within Audience Analytics reporting will be the most similar. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
+Am ähnlichsten sind Adobe Audience Manager Real-time Segment Population und Analytics Visitors mit Experience Cloud ID, die in Audience Analytics-Berichten verwendet werden. In der nächsten Zeit gibt es dabei jedoch aufgrund verschiedener Faktoren leichte Diskrepanzen. Die Faktoren, die dazu beitragen, sind:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

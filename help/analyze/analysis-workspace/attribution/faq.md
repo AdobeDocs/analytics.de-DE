@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 85%
+source-wordcount: '1192'
+ht-degree: 72%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 85%
 
 Im Folgenden finden Sie Antworten auf häufig gestellte Fragen zur Attribution.
 
-+++## Was ist der Zeileneintrag **[!UICONTROL Keine]** bei Verwendung von Attribution?
++++## Was ist der **[!UICONTROL Keine]** Zeileneintrag bei Verwendung von Attribution?
 
 Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darstellt, die ohne Touchpoints im Lookback-Fenster stattgefunden haben. Um die Anzahl der Konversionen zu reduzieren, die dem Zeileneintrag „Keine“ zugeordnet sind, versuchen Sie, ein benutzerdefiniertes Lookback-Fenster mit einem längeren Lookback-Zeitraum zu verwenden.
 
 +++
 
 
-+++## Warum sehe ich manchmal Daten außerhalb meines Berichtsfensters, wenn ich Attributionsmodelle verwende?
++++## Warum sehe ich bei der Verwendung von Attributionsmodellen manchmal Datumsangaben außerhalb meines Reporting-Fensters?
 
 Einige besuchsbasierte Metriken, wie [Einträge](/help/components/metrics/entries.md) oder [Absprungrate](/help/components/metrics/bounce-rate.md), können Daten einem Zeitraum vor dem Startdatumsbereich des Berichtsfensters zuordnen. Diese Situation ist auf Attributionsmodelle zurückzuführen, die ein Lookback-Fenster verwenden, in dem festgelegt wird, wie weit die Attribution zurückblicken soll, um Metriken anzurechnen. Das häufigste Szenario ist, wenn Besuche über Mitternacht hinausgehen. Beispiel:
 
-1. Ein Benutzer besucht Ihre Homepage am 7. September um 23:55 Uhr.
-1. Er besucht mehrere Seiten, die letzte davon um 0:05 Uhr am 8. September.
+1. Ein Benutzer besucht Ihre Homepage am 7. September um :55 Uhr.
+1. Sie besuchen mehrere Seiten, von denen die letzte um 12 Uhr :05 8. September stattfand.
 1. Eine Woche später führen Sie einen täglichen Trend-Bericht mit dem Datumsbereich vom 8. September bis 14. September aus.
 
 Trefferbasierte Metriken wie [Seitenansichten](/help/components/metrics/page-views.md) würden eine erwartete Ausgabe erzeugen; es gab täglich vom 8. September bis 14. September Daten im Trend. Besuchsbasierte Metriken zeigen jedoch auch den oben genannten Besuch am 7. September an. Der zugewiesene Eintrag des Besuchs fand am 7. September statt, und das Lookback-Fenster erstreckt sich standardmäßig vom 1. September bis 31. September.
@@ -36,8 +36,8 @@ Die Absprungrate zeigt in diesem Beispiel für den 7. September immer 0 % an. Di
 
 Betrachten wir ein anderes ähnliches Beispiel. Der einzige Unterschied zwischen dem folgenden Beispiel und dem obigen Beispiel sind die Datumsangaben:
 
-1. Ein Benutzer besucht Ihre Homepage am 31. August um 23:55 Uhr.
-1. Er besucht mehrere Seiten, die letzte davon um 0:05 Uhr am 1. September.
+1. Ein Benutzer besucht Ihre Homepage am 31. August um :55 Uhr.
+1. Sie besuchen mehrere Seiten, von denen die letzte um 12 Uhr :05 1. September stattfand.
 1. Eine Woche später führen Sie einen täglichen Trend-Bericht mit dem Datumsbereich vom 1. September bis 7. September aus.
 
 In diesem Beispiel würden „Einstiege“ und „Absprungrate“ keine Daten vom 31. August anzeigen. Sowohl das Lookback-Fenster als auch das Berichtsfenster beginnen am 1. September, sodass keine Daten vom 31. August zugeordnet werden können.
@@ -53,21 +53,21 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 -->
 
-+++## Worin unterscheiden sich Props und eVars bei der Verwendung von Attribution?
++++## Wie vergleichen sich Props und eVars bei der Verwendung von Attribution?
 
 Die Attribution wird zur Laufzeit des Berichts neu berechnet. Es gibt also keinen Unterschied zwischen einer Prop oder einer eVar (oder einer anderen Dimension) hinsichtlich des Attributionsmodells. Eigenschaften können mit jedem Lookback-Fenster oder Attributionsmodell bestehen bleiben und die eVar-Zuordnungs-/Ablaufeinstellungen werden ignoriert.
 
 +++
 
 
-+++## Sind Attributionsmodelle in anderen Analytics-Funktionen wie Daten-Feeds oder Data Warehouse verfügbar?
++++## Sind Attributionsmodelle in anderen Analytics-Funktionen verfügbar, z. B. in Daten-Feeds oder Data Warehouse?
 
 Nein. Attributionsmodelle verwenden die Verarbeitung der Berichtszeit, die nur in Analysis Workspace verfügbar ist. Weitere Informationen finden Sie unter [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md).
 
 +++
 
 
-+++## Stehen Attributionsmodelle nur dann zur Verfügung, wenn ich eine Virtual Report Suite mit aktivierter Berichtszeitverarbeitung verwende?
++++## Sind Attributionsmodelle nur verfügbar, wenn ich eine Virtual Report Suite mit aktivierter Berichtszeitverarbeitung verwende?
 
 Attributionsmodelle stehen außerhalb der Virtual Report Suites zur Verfügung. Attributionsmodelle verwenden die Berichtszeitverarbeitung im Backend und stehen sowohl für Standard-Report Suites als auch für Virtual Report Suites zur Verfügung.
 
@@ -112,21 +112,21 @@ Transaktions-ID-Datenquellen werden wie andere Treffer behandelt. Transaktions-I
 
 Wenn möglich, basiert die Attribution auf dem MID-Spaltenwert, der innerhalb eines Ereignisses in der Datenquelle gesendet wird, und nicht auf einem persistenten Wert. Das Attributionsmodell wird ad hoc auf die MID-Spaltenwerte in der Datenquelle angewendet. Wenn Sie beispielsweise die Attribution [Letztkontakt“ verwenden](models.md) beginnt das Modell mit jeder Instanz einer Metrik. und in den Treffern sequenziell rückwärts geht, bis das Modell den letzten in der Spalte MID beobachteten Wert erreicht.
 
-Wenn nicht möglich, wird bei der Attribution der MID-Wert im *vorherigen Datensatz* in der Datenquelle zur Auswertung verwendet. Dieser vorherige Datensatz wird möglicherweise nicht sequenziell nach Zeitstempel geordnet, da AA keine korrupten Daten unterstützt.
+Wenn nicht möglich, wird bei der Attribution der MID-Wert im *vorherigen Datensatz* in der Datenquelle zur Auswertung verwendet. Dieser vorherige Eintrag wird möglicherweise nicht sequenziell nach Zeitstempel geordnet, da AA keine korrupten Daten unterstützt.
 
-Da die Datensätze nicht sequenziell angeordnet werden, können sich die erwarteten Werte aus der Anwendung der Persistenz auf die Zeit auswirken, die zwischen dem Zeitstempel der bereitgestellten Transaktions-ID und der ursprünglichen Transaktion vorhanden ist.
+Da die Einträge nicht sequenziell angeordnet werden, können sich die erwarteten Werte aus der Anwendung der Persistenz auf die Zeit auswirken, die zwischen dem Zeitstempel der bereitgestellten Transaktions-ID und der ursprünglichen Transaktion vorhanden ist.
 
 +++
 
 
-+++##Funktioniert Attribution mit der Advertising Analytics-Integration?
++++## Funktioniert die Attribution mit der Advertising Analytics-Integration?
 
 Metadatendimensionen wie Übereinstimmungstyp und Keyword funktionieren mit Attribution. Metriken (wie Impressions, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung) verwenden jedoch Datenquellen auf Zusammenfassungsebene und sind daher inkompatibel.
 
 +++
 
 
-+++## Wie funktioniert die Attribution bei Marketing-Kanälen?
++++## Wie funktioniert die Attribution mit Marketing-Kanälen?
 
 Als Marketing-Kanäle eingeführt wurden, hatten sie nur die Dimensionen „Erstkontakt“ und „Letztkontakt“. Explizite Dimensionen „Erstkontakt“ und „Letztkontakt“ sind mit der aktuellen Attributionsversion nicht mehr erforderlich. Adobe stellt die generischen Dimensionen [!UICONTROL Marketing-Kanal] und [!UICONTROL Marketing-Kanal-Detail] bereit, die Sie mit Ihrem gewünschten Attributionsmodell verwenden können. Diese allgemeinen Dimensionen verhalten sich identisch mit den Dimensionen des [!UICONTROL Letztkontakt-Kanals], sind jedoch anders gekennzeichnet, um Verwirrung bei der Verwendung von Marketing-Kanälen mit einem anderen Attributionsmodell zu vermeiden.
 
@@ -144,7 +144,7 @@ Wenn die Attribution auf Hits mit mehreren Werten angewendet wird, erhalten alle
 +++
 
 
-+++## Wie funktioniert die Attribution mit Segmentierung?
++++## Wie funktioniert die Attribution bei der Segmentierung?
 
 Die Attribution wird immer vor der Segmentierung ausgeführt und die Segmentierung wird ausgeführt, bevor Berichtsfilter angewendet werden. Dieses Konzept gilt auch für Virtual Report Suites, die Segmente verwenden.
 

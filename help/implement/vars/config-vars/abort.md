@@ -21,8 +21,8 @@ Verwenden Sie das [!UICONTROL Ein-Ereignis vor dem Rückruf] Code-Editor und geb
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
-1. Klicken [!UICONTROL &#x200B; unter „Datenerfassung] auf die Schaltfläche **[!UICONTROL Bearbeiten vor dem Rückruf-Code senden]**.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren[!UICONTROL .]
+1. Klicken [!UICONTROL  unter „Datenerfassung] auf die Schaltfläche **[!UICONTROL Bearbeiten vor dem Rückruf-Code senden]**.
 1. Fügen Sie im Code-Editor den folgenden Code unter einer beliebigen Bedingung ein, unter der Sie das Senden von Daten an Edge abbrechen möchten:
 
 ```js
@@ -31,7 +31,7 @@ return false;
 
 ## Manuelles Senden eines Ereignisses abbrechen, indem die Web-SDK implementiert wird
 
-Verwenden Sie den `onBeforeEventSend` Callback und geben Sie `false` zurück. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Verwenden Sie den `onBeforeEventSend` Callback und geben Sie `false` zurück. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ```js
 alloy("configure"), {

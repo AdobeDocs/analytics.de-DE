@@ -27,7 +27,7 @@ Die **[!UICONTROL Verwalten]** verarbeitet alle Datenquellen, die Ihr Unternehme
 
 ![Verwalten](assets/manage.png)
 
-Die oberste Datenquelle ist immer [!UICONTROL Web Beacon]. Diese Datenquelle verwenden Sie für die typische Datenerfassung durch AppMeasurement. Sie kann nicht bearbeitet oder deaktiviert werden.
+Die oberste Datenquelle ist immer [!UICONTROL Web Beacon]. Diese Datenquelle wird für die typische Datenerfassung über AppMeasurement verwendet. Sie kann nicht bearbeitet oder deaktiviert werden.
 
 Jede Datenquelle verfügt über die folgenden Optionen:
 

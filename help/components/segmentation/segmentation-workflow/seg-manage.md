@@ -68,7 +68,7 @@ Die Filterleiste zeigt ➌ die aktiven Segmente an, die vom Filterbedienfeld auf
 
 ### Panel „Filter“
 
-Sie können die Liste der Segmente mithilfe der ![ des ](/help/assets/icons/Filter.svg)Filtern **&#x200B;**&#x200B;Filtern➍ filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
+Sie können die Liste der Segmente mithilfe der ![ des ](/help/assets/icons/Filter.svg)Filtern **** Filtern➍ filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
 Weitere [ finden Sie unter ](t-seg-filter.md) der Segmentliste .
 
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=de) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

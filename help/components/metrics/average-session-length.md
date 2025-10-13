@@ -16,4 +16,4 @@ Die „Metrik „Durchschnittliche Sitzungslänge (mobil[&quot; ](overview.md) d
 
 ## Berechnung dieser Metrik
 
-Diese Metrik wird mithilfe der `'Total Session length' / ('Launches' - 'First launches'` [Lebenszyklusmetriken](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) berechnet.
+Diese Metrik wird mithilfe der [ ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)Lebenszyklusmetriken`'Total Session length' / ('Launches' - 'First launches'` berechnet.

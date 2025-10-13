@@ -15,7 +15,7 @@ ht-degree: 39%
 
 Offline-Tracking ist eine optionale Methode zur Datenerfassung in Adobe Analytics. Wenn ein Besucher die Verbindung zum Internet trennt, aber weiterhin Ihre Site durchsucht, werden Treffer in einer Offline-Warteschlange gespeichert, bis das Gerät erneut eine Verbindung zum Internet herstellt. Offline-Tracking wird hauptsächlich für mobile Anwendungen verwendet.
 
-Die `offlineHitLimit` Variable legt eine Obergrenze für die Anzahl der Treffer fest, die das Gerät lokal speichert. Diese Variable funktioniert nur, wenn [`trackOffline`](trackoffline.md) aktiviert ist.
+Die `offlineHitLimit` Variable legt eine Begrenzung für die Anzahl der Treffer fest, die das Gerät lokal speichert. Diese Variable funktioniert nur, wenn [`trackOffline`](trackoffline.md) aktiviert ist.
 
 ## Offline-Treffergrenze bei Verwendung der Web-SDK
 

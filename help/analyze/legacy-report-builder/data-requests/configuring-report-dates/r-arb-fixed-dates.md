@@ -22,4 +22,4 @@ Definitionen für feste Datumswerte in Report Builder
 |--- |--- |
 | Diese Report Suite | Hierdurch wird der gespeicherte Datumsbereich nur für die aktuelle Report Suite zur Verfügung gestellt. |
 | Alle Report Suites | Hierdurch steht der gespeicherte Datumsbereich für alle Report Suites zur Verfügung, auf die der angemeldete Benutzer Zugriff hat. |
-| Parameternamen eingeben | Geben Sie einen Namen für das gespeicherte Datum ein. Sie können dieses Datum als Vorlage im Report Builder verwenden. Der Name wird immer dann angezeigt, wenn Sie ein gespeichertes Datum anwenden können. Wenn Sie den Namen der Vorlage ändern, hat dies keine Auswirkungen auf die in vorher erstellten Datenanforderungen verwendete Datumskonfiguration. |
+| Parameternamen eingeben | Geben Sie einen Namen für das gespeicherte Datum ein. Sie können dieses Datum als Vorlage in Report Builder verwenden. Der Name wird immer dann angezeigt, wenn Sie ein gespeichertes Datum anwenden können. Wenn Sie den Namen der Vorlage ändern, hat dies keine Auswirkungen auf die in vorher erstellten Datenanforderungen verwendete Datumskonfiguration. |

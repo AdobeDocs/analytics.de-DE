@@ -12,7 +12,7 @@ ht-degree: 47%
 
 # Report Suite für Advertising Analytics aktivieren
 
-Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Report Suite mit Experience Cloud-Zuordnung für die Advertising Analytics-Berichterstellung konfigurieren.
+Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Report Suite mit Experience Cloud-Zuordnung für Advertising Analytics-Berichte konfigurieren.
 
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 

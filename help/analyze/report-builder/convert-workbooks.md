@@ -9,7 +9,7 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -24,19 +24,19 @@ Im Zuge der Umstellung auf eine neue Report Builder-Technologie können Sie Ihre
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3446191?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 
-1. Richten Sie den neuen Report Builder ein[ indem Sie die folgenden Anweisungen ](/help/analyze/report-builder/report-builder-setup.md).
+1. Richten Sie die neue Report Builder ein[ indem Sie die folgenden Anweisungen ](/help/analyze/report-builder/report-builder-setup.md).
 
 1. Öffnen Sie Excel und klicken Sie oben rechts auf das Adobe Report Builder-Symbol .
 
-1. Klicken Sie **[!UICONTROL Anmelden]** und melden Sie sich beim Report Builder an.
+1. Klicken Sie **[!UICONTROL &quot;]**&quot; und melden Sie sich bei Report Builder an.
 
-1. Das Report Builder-Add-in erkennt, ob diese Arbeitsmappe [Legacy-Report Builder ](/help/analyze/legacy-report-builder/home.md)-Anfragen enthält.
+1. Das Report Builder-Add-in erkennt, ob diese Arbeitsmappe [veraltete Report Builder](/help/analyze/legacy-report-builder/home.md)-Anfragen enthält.
 
    ![Arbeitsmappen-Eingabeaufforderung aktualisieren](assets/upgrade_workbook.png)
 
@@ -62,15 +62,15 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen 
 Sie können [den Datenblock verwalten](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Funktionen älterer Report Builder werden im neuen Report Builder nicht unterstützt {#unsupported}
+## Keine Unterstützung von Funktionen der Vorgängerversion von Report Builder in der neuen Report Builder-Version {#unsupported}
 
-Beim Vergleich der Funktionalität von Legacy-Report Builder mit dem neuen Report Builder-Add-in sind einige Legacy-Funktionen nicht mehr verfügbar:
+Einige Funktionen der Vorgängerversion von Report Builder stehen im neuen Report Builder-Add-in nicht mehr zur Verfügung:
 
 - Echtzeit-Anfragen
 
 - Pfad-/Fallout-Berichte
 
-- FTP-Option für terminierte Berichte
+- FTP-Option für geplante Berichte
 
 - Besuchermetriken. Die folgenden Metriken werden alle in „Unique Visitors“ konvertiert, obwohl das Berichtsergebnis möglicherweise keine exakte Übereinstimmung aufweist: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` und `visitorsyearly`. Dies gilt auch für `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` und `mobilevisitorsyearly`.
 

@@ -16,7 +16,7 @@ Die Dimension „US[Bundesstaat](overview.md) zeigt den Status des Besuchers in 
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um Suchvorgänge zwischen IP-Adresse und Land zu verwalten.
+Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert auf der mit dem Treffer gesendeten IP-Adresse. Adobe arbeitet mit [Digital Element](https://www.digitalelement.com/) zusammen, um Suchvorgänge zwischen IP-Adresse und Land aufrechtzuerhalten.
 
 * Bei AppMeasurement-Implementierungen ist diese Dimension vorkonfiguriert.
 * Aktivieren Sie für Web SDK-Implementierungen [!UICONTROL Geo-Suche] beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).

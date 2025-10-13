@@ -1,11 +1,11 @@
 ---
-description: 'Erstellen und Freigeben von Scorecards in Adobe Analytics '
+description: 'Erstellen und Freigeben von Scorecards in Adobe Analytics-Dashbords '
 title: Erstellen und Freigeben von mobilen Scorecards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Die folgenden Informationen liefern Kuratorinnen und Kuratoren von Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://video.tv.adobe.com/v/38095?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Gehen Sie zur Erstellung der Scorecard wie folgt vor:
 
 ## Zugriff auf die Vorlage für [!UICONTROL leere mobile Scorecards] {#template}
 
-Sie können die Vorlage [!UICONTROL Leere mobile Scorecard] öffnen, indem Sie entweder ein neues Projekt erstellen oder über das Menü „Tools“ zugreifen.
+Sie können die Vorlage [!UICONTROL Leere mobile Scorecard] öffnen, indem Sie entweder ein neues Projekt erstellen oder über das Menü Tools zugreifen.
 
 ### Neues Projekt erstellen {#create}
 
@@ -130,7 +130,7 @@ Die Einstellung ist standardmäßig *an*. Deaktivieren Sie die Option, wenn Sie 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://video.tv.adobe.com/v/3445775?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit no
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://video.tv.adobe.com/v/3422731?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -304,7 +304,7 @@ Sie können die Visualisierung für einzelne Folien in einer Daten-Story ändern
 
 ### Vorschau einer Daten-Story {#preview-data-story}
 
-Nachdem Sie eine Daten-Story erstellt haben, verwenden Sie die Schaltfläche **Vorschau**, um eine Daten-Story so anzuzeigen und mit ihr zu interagieren, als würden Sie eine App nutzen. Informationen zur Vorschau Ihrer Daten-Story finden Sie unter [Vorschau einer Scorecard](#preview).
+Nachdem Sie eine Daten-Story erstellt haben, verwenden Sie die Schaltfläche **Vorschau**, um eine Daten-Story so anzuzeigen und mit ihr zu interagieren, als würden Sie eine App nutzen. Informationen zur Vorschau Ihrer Daten-Story finden Sie unter [Vorschau einer Scorecard](#preview)
 
 ### Navigieren zwischen Kacheln und Folien {#navigate-tiles-slides}
 
@@ -363,7 +363,7 @@ So geben Sie die Scorecard für eine Führungskraft frei:
 
 Nachdem Sie eine Scorecard freigegeben haben, können die Empfänger in den Analytics-Dashboards darauf zugreifen. Wenn Sie in Scorecard Builder nachträgliche Änderungen an der Scorecard vornehmen, werden diese automatisch in der freigegebenen Scorecard aktualisiert. Führungskräfte sehen die Änderungen, nachdem sie die Scorecard in ihrer App aktualisiert haben.
 
-Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die Führungskräfte Zugriff auf diese Änderungen haben.
+Wenn Sie die Scorecard durch Hinzufügen neuer Komponenten aktualisieren, sollten Sie die Scorecard erneut freigeben (und die Option zum **[!UICONTROL Freigeben eingebetteter Komponenten]** aktivieren), um sicherzustellen, dass die ausführenden Benutzer Zugriff auf diese Änderungen haben.
 
 ### Freigeben von Scorecards über einen Freigabe-Link {#shareable-link}
 

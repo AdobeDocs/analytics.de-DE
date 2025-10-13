@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie, wie Sie in Analysis Workspace verfügbare Tastaturinteraktionen, Tastaturbefehle und Point-and-Click-Verhaltensweisen verwenden.
 keywords: Analysis Workspace
-title: Tastaturbefehle
+title: Hotkeys
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
@@ -12,17 +12,17 @@ ht-degree: 89%
 
 ---
 
-# Tastaturbefehle
+# Hotkeys
 
 In Analysis Workspace stehen Tastaturbefehle (Tastaturkürzel) für eine nahtlose Navigation, Analyse und Demokratisierung zur Verfügung.
 
 Beachten Sie, dass auf Ihrer Tastatur möglicherweise die folgenden Symbole verwendet werden:
 
-- **⇧** für die **[!UICONTROL **&#x200B; Umschalttaste &#x200B;**]**
-- **⌘** für die **[!UICONTROL **&#x200B; Befehlstaste &#x200B;**]**.
-- **⌃** für die **[!UICONTROL **&#x200B; Strg-Taste &#x200B;**]**.
-- **⌥** für die **[!UICONTROL **&#x200B; Wahltaste &#x200B;**]**.
-- **⎇** für die **[!UICONTROL **&#x200B; Alt-Taste &#x200B;**]**.
+- **⇧** für die **[!UICONTROL ** Umschalttaste **]**
+- **⌘** für die **[!UICONTROL ** Befehlstaste **]**.
+- **⌃** für die **[!UICONTROL ** Strg-Taste **]**.
+- **⌥** für die **[!UICONTROL ** Wahltaste **]**.
+- **⎇** für die **[!UICONTROL ** Alt-Taste **]**.
 
 ## Navigationsaktionen
 

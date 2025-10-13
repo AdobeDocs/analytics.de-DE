@@ -33,8 +33,8 @@ Die folgenden Variablen wurden zum Einf체gen von Bulk-Daten eingef체hrt, die zuv
 
 * **`aamlh`**: Adobe Audience Manager-Standorthinweis.
 * **`contextData.key`**: [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md).
-* **`customerID`**: Experience Cloud-ID-Dienstvariablen. Umfasst `id`, `authState` und `isMCSeed`.
-* **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
+* **`customerID`**: Experience Cloud ID-Service-Variablen. Umfasst `id`, `authState` und `isMCSeed`.
+* **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
 * **`ipaddress`**: Die IP-Adresse des Besuchers.
 * **`language`**: Die Dimension [Sprache](/help/components/dimensions/language.md) .
 * **`list1`** - **`list3`**: [Listenvariablen](/help/implement/vars/page-vars/list.md).
@@ -48,4 +48,4 @@ Die folgenden Variablen werden durch das Einf체gen von Bulk-Daten nicht unterst�
 
 * **`charSet`**: Die [`charSet`](/help/implement/vars/config-vars/charset.md). Bulk Data Insertion unterst체tzt nur UTF-8.
 * **`timezone`**: Zeitzonenversatz des Besuchers gegen체ber GMT in Stunden.
-* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: Variablen, die beim Activity Map von Datenerfassungen verwendet werden.
+* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: Variablen, die bei der Datenerfassung in Activity Map verwendet werden.

@@ -5,7 +5,7 @@ exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1706'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 Dieser Implementierungspfad beinhaltet einen methodischen Migrationsansatz, um von der Adobe Analytics-Tag-Erweiterung zur Web SDK-Tag-Erweiterung zu wechseln. Andere Implementierungspfade werden auf separaten Seiten behandelt:
 
-* [AppMeasurement zur Web SDK JavaScript Library](appmeasurement-to-web-sdk.md): Ein reibungsloser und methodischer Ansatz für die Migration zur Web SDK, außer es werden keine Tags verwendet. Stattdessen entfernen Sie die Adobe Analytics-Datenerfassungsbibliothek (`AppMeasurement.js`) manuell und ersetzen sie durch die Web SDK JavaScript-Bibliothek (`alloy.js`).
+* [AppMeasurement to Web SDK JavaScript Library](appmeasurement-to-web-sdk.md): Ein reibungsloser und methodischer Ansatz für die Migration zum Web SDK, außer es werden keine Tags verwendet. Stattdessen entfernen Sie die Adobe Analytics-Datenerfassungsbibliothek (`AppMeasurement.js`) manuell und ersetzen sie durch die Web SDK JavaScript-Bibliothek (`alloy.js`).
 * [Web SDK-Tag-Erweiterung](web-sdk-tag-extension.md): Eine neue Web SDK-Installation, bei der Sie die Implementierung mithilfe von Tags in der Adobe Experience Platform-Datenerfassung verwalten. Dazu muss die Adobe Analytics ExperienceEvent-Feldergruppe, die typische Analytics-Variablen enthält, in Ihr XDM-Schema aufgenommen werden.
 * [Web SDK JavaScript Library](web-sdk-javascript-library.md): Eine neue Web SDK-Installation unter Verwendung der Web SDK JavaScript Library (`alloy.js`). Verwalten Sie die Implementierung selbst, anstatt die Tags-Benutzeroberfläche zu verwenden. Dazu muss die Adobe Analytics ExperienceEvent-Feldergruppe, die typische Analytics-Variablen enthält, in Ihr XDM-Schema aufgenommen werden.
 
@@ -27,8 +27,8 @@ Die Verwendung dieses Migrationsansatzes hat sowohl Vor- als auch Nachteile. Wä
 
 Adobe empfiehlt, diesen Implementierungspfad in den folgenden Szenarien zu befolgen:
 
-* Sie haben eine bestehende Implementierung, die die Tag-Erweiterung von Adobe Analytics verwendet. Wenn Sie eine Implementierung mithilfe von AppMeasurement haben, folgen Sie stattdessen [Migrieren von AppMeasurement zur Web-SDK](appmeasurement-to-web-sdk.md).
-* Sie beabsichtigen, in Zukunft Customer Journey Analytics zu verwenden, möchten aber Ihre Analytics-Implementierung nicht von Grund auf durch eine Web SDK-Implementierung ersetzen. Wenn Sie Ihre Implementierung im Web-SDK von Grund auf ersetzen möchten, ist der größte Aufwand erforderlich, bietet aber auch die praktikabelste langfristige Implementierungsarchitektur. Wenn Ihr Unternehmen bereit ist, eine saubere Web-SDK-Implementierung durchzuführen, finden Sie weitere Informationen unter [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) im Customer Journey Analytics-Benutzerhandbuch.
+* Sie haben eine bestehende Implementierung, die die Tag-Erweiterung von Adobe Analytics verwendet. Wenn Sie über eine Implementierung mit AppMeasurement verfügen, folgen Sie stattdessen [Migrieren von AppMeasurement zur Web-SDK](appmeasurement-to-web-sdk.md).
+* Sie beabsichtigen, Customer Journey Analytics in Zukunft zu verwenden, möchten jedoch Ihre Analytics-Implementierung nicht von Grund auf durch eine Web SDK-Implementierung ersetzen. Wenn Sie Ihre Implementierung im Web-SDK von Grund auf ersetzen möchten, ist der größte Aufwand erforderlich, bietet aber auch die praktikabelste langfristige Implementierungsarchitektur. Wenn Ihr Unternehmen bereit ist, eine saubere Web-SDK-Implementierung durchzuführen, finden Sie weitere Informationen unter [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) im Customer Journey Analytics-Benutzerhandbuch.
 
 ## Zur Migration auf die Web-SDK erforderliche Schritte
 
@@ -61,7 +61,7 @@ In diesem Abschnitt wird Ihr Tag auf den Großteil des Migrationsaufwands vorber
 1. Wählen Sie die gewünschte Tag-Eigenschaft aus.
 1. Wählen Sie im linken Navigationsbereich der Tag-Eigenschaft die Option **[!UICONTROL Erweiterungen]** aus.
 1. Wählen Sie **[!UICONTROL Katalog]** oben aus, um eine Liste aller verfügbaren Erweiterungen anzuzeigen.
-1. Suchen Sie nach der Erweiterung **[!UICONTROL Adobe Experience Platform Web SDK]** und wählen Sie sie aus. Klicken Sie dann **rechts auf** Installieren“.
+1. Suchen Sie nach der Erweiterung **[!UICONTROL Adobe Experience Platform Web SDK]** und wählen Sie sie aus. Klicken Sie dann **[!UICONTROL rechts auf]** Installieren“.
 
    ![Katalog](assets/catalog.png) {style="border:1px solid lightslategray"}
 
@@ -116,7 +116,7 @@ Dieser Schritt enthält den Großteil des für die Migration auf die Web-SDK erf
 1. Nachdem die gesamte Regellogik mithilfe der Web-SDK-Erweiterung repliziert wurde, wählen Sie **[!UICONTROL Änderungen beibehalten]**.
 1. Wiederholen Sie diese Schritte für jede Aktionskonfiguration, die die Adobe Analytics-Erweiterung zum Festlegen von Werten verwendet. Dieser Schritt umfasst sowohl Variablen, die mithilfe der Tags-Schnittstelle festgelegt werden, als auch Variablen, die mithilfe von benutzerdefiniertem Code festgelegt werden. Benutzerdefinierte Code-Blöcke können an keiner Stelle auf das `s`-Objekt verweisen.
 
-Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden Schritte ersetzen alle Aktionen, die die [!UICONTROL Aktionskonfiguration“ &#x200B;]Beacon senden.
+Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden Schritte ersetzen alle Aktionen, die die [!UICONTROL Aktionskonfiguration“ ]Beacon senden.
 
 1. Wählen Sie eine Regel aus, die einen Beacon sendet.
 1. Wählen Sie die Aktion **[!UICONTROL Adobe Analytics - Beacon senden]** aus.
@@ -125,7 +125,7 @@ Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden S
    * [!UICONTROL Erweiterung]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Aktionstyp]: [!UICONTROL Ereignis senden]
 1. Ändern Sie auf der rechten Seite die Aktionseinstellungen wie folgt:
-   * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL &#x200B; Konfiguration der Aktion [!UICONTROL Variable aktualisieren] unter „Zusätzliche Eigenschaften] aufgeführt:
+   * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL  Konfiguration der Aktion ]Variable aktualisieren[!UICONTROL  unter „Zusätzliche Eigenschaften] aufgeführt:
       * [Link-Name](../../vars/functions/tl-method.md)
       * [Link-Typ ](../../vars/functions/tl-method.md)
       * [Link-URL](../../vars/config-vars/linkurl.md)
@@ -134,7 +134,7 @@ Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden S
 
 +++
 
-+++**5. Aktualisierte Publish-Regeln**
++++**5. Aktualisierte Regeln veröffentlichen**
 
 Das Veröffentlichen aktualisierter Regeln folgt demselben Workflow wie alle anderen Änderungen an Ihrer Tags-Konfiguration.
 
@@ -147,7 +147,7 @@ Das Veröffentlichen aktualisierter Regeln folgt demselben Workflow wie alle and
 1. Testen Sie die Änderungen in Ihrer Entwicklungsumgebung, um sicherzustellen, dass alle Regeln ordnungsgemäß ausgelöst werden und das Datenobjekt mit erwarteten Werten gefüllt wird.
 1. Wenn Sie bereit sind, senden Sie die Bibliothek zur Genehmigung, erstellen Sie sie für das Staging, genehmigen Sie sie dann letztendlich und veröffentlichen Sie sie in der Produktion.
 
-![Publishing-Ablauf](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+![Veröffentlichungsablauf](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
@@ -163,4 +163,4 @@ Sobald Ihre Tag-Implementierung vollständig in der Web-SDK vorhanden ist, könn
 
 +++
 
-Zu diesem Zeitpunkt befindet sich Ihre Analytics-Implementierung vollständig auf der Web-SDK und ist angemessen darauf vorbereitet, in Zukunft zum Customer Journey Analytics zu wechseln.
+Zu diesem Zeitpunkt befindet sich Ihre Analytics-Implementierung vollständig auf der Web-SDK und ist angemessen darauf vorbereitet, in Zukunft zu Customer Journey Analytics zu wechseln.

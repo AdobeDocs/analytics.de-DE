@@ -18,7 +18,7 @@ ht-degree: 75%
 
 Sie können Anforderungen in allen Arbeitsblättern oder mehrere Anforderungen gleichzeitig aktualisieren.
 
-Um alle Anfragen zu aktualisieren, benötigen Sie Zugriff auf alle in allen Anfragen verwendeten Report Suites. Wenn Ihre Anmeldeangaben nur zum Zugriff auf eine beschränkte Menge aller verwendeter Report Suites berechtigen, wird bei der Anmeldung ein Warnhinweis angezeigt, die Sie darüber informiert, dass einige der Anforderungen nicht aktualisiert werden können. Wenn Sie in diesem Fall alle Anforderungen aktualisieren, werden die Anforderungen, auf die Sie keinen Zugriff haben, nicht aktualisiert.
+Um alle Anfragen zu aktualisieren, benötigen Sie Zugriff auf alle in allen Anfragen verwendeten Report Suites. Wenn Ihre Anmeldeangaben nur zum Zugriff auf eine Teilmenge aller verwendeter Report Suites berechtigen, wird bei der Anmeldung ein Warnhinweis angezeigt, die Sie darüber informiert, dass einige der Anforderungen nicht aktualisiert werden können. Wenn Sie in diesem Fall alle Anforderungen aktualisieren, werden die Anforderungen, auf die Sie keinen Zugriff haben, nicht aktualisiert.
 
 Wenn Sie mehrere Anforderungen aktualisieren, führt das System eine Erfassung und Priorisierung von Anforderungen entsprechend dem Status der Anforderungen (ursprünglich oder abhängig) durch. Das System zeigt Meldungen über den Aktualisierungsvorgang an. Der Aktualisierungsvorgang kann mehrere Minuten in Anspruch nehmen, je nach der Menge der angeforderten Daten.
 

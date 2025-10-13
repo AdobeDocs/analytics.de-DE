@@ -28,7 +28,7 @@ Die Verwendung dieses Migrationsansatzes hat sowohl Vor- als auch Nachteile. Wä
 Adobe empfiehlt, diesen Implementierungspfad in den folgenden Szenarien zu befolgen:
 
 * Sie verfügen über eine vorhandene Implementierung mit der Adobe Analytics AppMeasurement JavaScript-Bibliothek. Wenn Sie über eine Implementierung mit der Adobe Analytics-Tag-Erweiterung verfügen, folgen Sie stattdessen [Migrieren von der Adobe Analytics-Tag-Erweiterung zur Web SDK-Tag-Erweiterung](analytics-extension-to-web-sdk.md) .
-* Sie beabsichtigen, in Zukunft Customer Journey Analytics zu verwenden, möchten aber Ihre Analytics-Implementierung nicht von Grund auf durch eine Web SDK-Implementierung ersetzen. Wenn Sie Ihre Implementierung im Web-SDK von Grund auf ersetzen möchten, ist der größte Aufwand erforderlich, bietet aber auch die praktikabelste langfristige Implementierungsarchitektur. Wenn Ihr Unternehmen bereit ist, eine saubere Web-SDK-Implementierung durchzuführen, finden Sie weitere Informationen unter [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) im Customer Journey Analytics-Benutzerhandbuch.
+* Sie beabsichtigen, Customer Journey Analytics in Zukunft zu verwenden, möchten jedoch Ihre Analytics-Implementierung nicht von Grund auf durch eine Web SDK-Implementierung ersetzen. Wenn Sie Ihre Implementierung im Web-SDK von Grund auf ersetzen möchten, ist der größte Aufwand erforderlich, bietet aber auch die praktikabelste langfristige Implementierungsarchitektur. Wenn Ihr Unternehmen bereit ist, eine saubere Web-SDK-Implementierung durchzuführen, finden Sie weitere Informationen unter [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) im Customer Journey Analytics-Benutzerhandbuch.
 
 ## Zur Migration auf die Web-SDK erforderliche Schritte
 
@@ -61,9 +61,9 @@ Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Met
 
 +++**3. Konfigurieren Sie die Web-SDK**
 
-Richten Sie Ihre Implementierung so ein, dass sie auf den im vorherigen Schritt erstellten Datenstrom verweist, indem Sie den Befehl Web SDK [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview) verwenden. Der `configure`-Befehl muss auf jeder Seite festgelegt werden, damit Sie ihn zusammen mit dem Bibliotheksinstallationscode einfügen können.
+Richten Sie Ihre Implementierung so ein, dass sie auf den im vorherigen Schritt erstellten Datenstrom verweist, indem Sie den Befehl Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) verwenden. Der `configure`-Befehl muss auf jeder Seite festgelegt werden, damit Sie ihn zusammen mit dem Bibliotheksinstallationscode einfügen können.
 
-Verwenden Sie die [`datastreamId`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/datastreamid)- und [`orgId`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/orgid)-Eigenschaften im `configure`-Befehl von Web SDK:
+Verwenden Sie die [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)- und [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)-Eigenschaften im `configure`-Befehl von Web SDK:
 
 * Legen Sie die `datastreamId` auf die Datenstrom-ID fest, die aus dem vorherigen Schritt abgerufen wurde.
 * Legen Sie die `orgId` auf die IMS-Organisation Ihrer Organisation fest.
@@ -75,15 +75,15 @@ alloy("configure", {
 });
 ```
 
-Je nach den Implementierungsanforderungen Ihres Unternehmens können Sie im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl optional andere Eigenschaften festlegen.
+Je nach den Implementierungsanforderungen Ihres Unternehmens können Sie im [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl optional andere Eigenschaften festlegen.
 
 +++
 
 +++**4. Aktualisieren der Code-Logik zur Verwendung einer JSON-Payload**
 
-Ändern Sie Ihre Analytics-Implementierung so, dass sie sich nicht auf `AppMeasurement.js` oder das `s`-Objekt verlässt. Legen Sie die Variablen stattdessen in ein korrekt formatiertes JavaScript-Objekt fest, das beim Senden an Adobe in ein JSON-Objekt konvertiert wird. Eine [Datenschicht](../../prepare/data-layer.md) auf Ihrer Site hilft enorm beim Festlegen von Werten, da Sie weiterhin auf dieselben Werte verweisen können.
+Ändern Sie Ihre Analytics-Implementierung so, dass sie sich nicht auf `AppMeasurement.js` oder das `s`-Objekt verlässt. Legen Sie stattdessen Variablen in ein korrekt formatiertes JavaScript-Objekt fest, das in ein JSON-Objekt konvertiert wird, wenn es an Adobe gesendet wird. Eine [Datenschicht](../../prepare/data-layer.md) auf Ihrer Site hilft enorm beim Festlegen von Werten, da Sie weiterhin auf dieselben Werte verweisen können.
 
-Um Daten an Adobe Analytics zu senden, muss die Web-SDK-Payload `data.__adobe.analytics` mit allen in diesem Objekt festgelegten Analytics-Variablen verwenden. Variablen in diesem Objekt verwenden identische Namen und Formate als ihre Gegenstücke für AppMeasurement-Variablen. Wenn Sie beispielsweise die Variable `products` festlegen, teilen Sie sie nicht in einzelne Objekte auf, wie Sie es bei XDM tun würden. Schließen Sie sie stattdessen als Zeichenfolge ein. Dies ist genau dann der Fall, wenn Sie die `s.products` Variable festlegen:
+Um Daten an Adobe Analytics zu senden, muss die Web-SDK-Payload `data.__adobe.analytics` mit allen in diesem Objekt festgelegten Analytics-Variablen verwenden. Variablen in diesem Objekt verwenden dieselben Namen und Formate wie ihre AppMeasurement-Variablenentsprechungen. Wenn Sie beispielsweise die Variable `products` festlegen, teilen Sie sie nicht in einzelne Objekte auf, wie Sie es bei XDM tun würden. Schließen Sie sie stattdessen als Zeichenfolge ein. Dies ist genau dann der Fall, wenn Sie die `s.products` Variable festlegen:
 
 ```json
 {
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Aktualisieren Sie Methodenaufrufe zur Verwendung der Web-SDK**
 
-Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-method.md) und [`s.tl()`](../../vars/functions/tl-method.md) aufrufen, und ersetzen Sie sie durch den [`sendEvent`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendevent/overview). Es gibt drei Szenarien, die zu berücksichtigen sind:
+Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-method.md) und [`s.tl()`](../../vars/functions/tl-method.md) aufrufen, und ersetzen Sie sie durch den [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Es gibt drei Szenarien, die zu berücksichtigen sind:
 
 * **Seitenansichts-Tracking**: Ersetzen Sie den Seitenansichts-Tracking-Aufruf durch den `sendEvent`-Befehl von Web SDK:
 
@@ -128,7 +128,7 @@ Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-
   alloy("sendEvent", dataObj);
   ```
 
-* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl auf `false` fest.
+* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im `false`[`configure`-Befehl auf ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) fest.
 
 * **Manuelles Linktracking**: Die Web-SDK verfügt nicht über separate Befehle zwischen PageView- und Nicht-PageView-Aufrufen. Geben Sie diese Unterscheidung innerhalb des Payload-Objekts an.
 
@@ -153,4 +153,4 @@ Bei korrekter Migration ist `AppMeasurement.js` auf Ihrer Site nicht mehr erford
 
 +++
 
-Zu diesem Zeitpunkt befindet sich Ihre Analytics-Implementierung vollständig auf der Web-SDK und ist angemessen darauf vorbereitet, in Zukunft zum Customer Journey Analytics zu wechseln.
+Zu diesem Zeitpunkt befindet sich Ihre Analytics-Implementierung vollständig auf der Web-SDK und ist angemessen darauf vorbereitet, in Zukunft zu Customer Journey Analytics zu wechseln.

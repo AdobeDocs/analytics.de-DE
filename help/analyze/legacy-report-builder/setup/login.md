@@ -18,15 +18,15 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Report Builder Version 5.6.47 und höher unterstützt nur die Experience Cloud-Anmeldung und keine älteren Anmeldungen wie Site Catalyst Single Sign-on oder die Standardanmeldung. **Bis zum 22. Juli 2021 müssen alle Report Builder-Benutzer das Report Builder-Add-in auf Version 5.6.47 oder höher aktualisieren, was ein wichtiges Update des Anmeldevorgangs enthält.**
+>Report Builder Version 5.6.47 und höher unterstützt nur die Experience Cloud-Anmeldung und unterstützt keine älteren Anmeldungen wie Site Catalyst Single Sign-on oder die Standardanmeldung. **Bis zum 22. Juli 2021 müssen alle Report Builder-Benutzenden das Report Builder-Add-in auf Version 5.6.47 oder höher aktualisieren, was eine wichtige Aktualisierung des Anmeldevorgangs beinhaltet.**
 
-Um sich beim Report Builder anzumelden, verwenden Sie Ihr Experience Cloud-Anmeldekonto.
+Um sich bei Report Builder anzumelden, verwenden Sie Ihr Experience Cloud-Anmeldekonto.
 
 ## Bei Adobe Experience Cloud anmelden {#section_1FA230F35AB54021A874A7A28DE4C850}
 
 Mit der Experience Cloud-Anmeldung können Sie sich mit Ihrer Enterprise ID (E-Mail und Kennwort) bei der Adobe Experience Cloud anmelden.
 
-Klicken Sie auf **[!UICONTROL Anmelden]** > **[!UICONTROL Anmelden mit einer Enterprise ID]**, um zurück zur Single-Sign-On-Seite Ihres Unternehmens geleitet werden. Weitere Informationen zur Enterprise ID finden Sie unter [Bei Ihrem Unternehmens- oder Schulkonto anmelden](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html#whatis).
+Klicken Sie auf **[!UICONTROL Anmelden]** > **[!UICONTROL Anmelden mit einer Enterprise ID]**, um zurück zur Single-Sign-On-Seite Ihres Unternehmens geleitet werden. Weitere Informationen zu Enterprise ID finden Sie unter [Bei Ihrem Unternehmens- oder Schulkonto ](https://helpx.adobe.com/de/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![Screenshot mit dem Fenster &quot;Adobe Experience Cloud-Anmeldung“ mit Optionen für die Anmeldung mit oder ohne Adobe ID](assets/adobe_id_login.png)
 
@@ -36,7 +36,7 @@ Klicken Sie auf **[!UICONTROL Anmelden]** > **[!UICONTROL Anmelden mit einer Ent
 
 ## Anmelden bei Report Builder
 
-So melden Sie sich beim Report Builder an
+So melden Sie sich bei Report Builder an
 
 1. Klicken Sie in Excel auf **[!UICONTROL Add-Ins]**.
 1. Klicken Sie **[!UICONTROL Anmelden]**. Sie können auch mit den folgenden Methoden signieren:

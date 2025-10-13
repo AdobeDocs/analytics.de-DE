@@ -49,4 +49,4 @@ Sie können mehrere Anforderungen gleichzeitig bearbeiten. Dabei sind die Report
 
 Im Folgenden finden Sie ein Video zum Prozess:
 
-https://video.tv.adobe.com/v/40099/?quality=12&captions=ger
+https://video.tv.adobe.com/v/25445/?quality=12

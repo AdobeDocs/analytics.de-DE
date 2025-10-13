@@ -1,6 +1,6 @@
 ---
 title: Lebenszyklusdimensionen für Mobile
-description: Dimensionen, die auf Daten basieren, die mit der Mobile SDK erfasst wurden.
+description: Dimensionen, die auf Daten basieren, die mit der Mobile SDK erfasst werden.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5

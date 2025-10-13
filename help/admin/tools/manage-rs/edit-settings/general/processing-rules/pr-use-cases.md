@@ -95,7 +95,7 @@ Ereignisse können basierend auf jeder in den Verarbeitungsregeln verfügbaren B
 | Regelsatz | Wert |
 | --- | --- |
 | Bedingung | Wenn [!UICONTROL Seitenname] gleich „Produktübersicht“ ist |
-| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) &#x200B;] auf [!UICONTROL benutzerdefinierter Wert] `1` |
+| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) ] auf [!UICONTROL benutzerdefinierter Wert] `1` |
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der ein bedingt festgelegtes Ereignis angezeigt wird](assets/set-product-view-event.png)
 

@@ -17,7 +17,7 @@ ht-degree: 71%
 
 Mit interaktiven Steuerelementen können Sie direkt im Arbeitsblatt Segmente und Datumsbereiche für eine oder mehrere Anforderungen bearbeiten. Dadurch erhalten Sie mehr Flexibilität bei der Aktualisierung von Report Builder-Anfragen.
 
-Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow erstellt, bei dem Analysten Arbeitsmappen erstellen und diese mit der Marketingorganisation teilen. Interaktive Steuerelemente bieten Marketing-Experten die Möglichkeit, Anfragen zu ändern und zu aktualisieren, ohne über fundierte Kenntnisse der Funktionsweise von Report Builder verfügen zu müssen. (Beachten Sie, dass der Arbeitsmappen-Empfänger ein Report Builder sein muss, um eine Anfrage aktualisieren zu können.) Diese Steuerelemente funktionieren in geplanten Arbeitsmappen. Derzeit sind zwei Arten interaktiver Steuerelemente verfügbar:
+Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow erstellt, bei dem Analysten Arbeitsmappen erstellen und diese mit der Marketingorganisation teilen. Interaktive Steuerelemente bieten Marketing-Experten die Möglichkeit, Anfragen zu ändern und zu aktualisieren, ohne über fundierte Kenntnisse der Funktionsweise von Report Builder verfügen zu müssen. (Beachten Sie, dass der Arbeitsmappen-Empfänger ein Report Builder-Benutzer sein muss, um eine Anfrage aktualisieren zu können.) Diese Steuerelemente funktionieren in geplanten Arbeitsmappen. Derzeit sind zwei Arten interaktiver Steuerelemente verfügbar:
 
 * Rollierender Datumsbereich
 * Segmente
@@ -25,7 +25,7 @@ Interaktive Steuerelemente wurden als Antwort auf einen gemeinsamen Workflow ers
 >[!IMPORTANT]
 >
 >Damit die interaktiven Steuerelemente funktionieren, muss Report Builder v5.0 installiert sein. >
->* Wenn Sie Microsoft Excel unter Windows ausführen, aber eine niedrigere Version von Report Builder ausführen oder wenn Sie keinen installierten Report Builder haben, können Sie den Wert im interaktiven Steuerelement ändern. Die zugehörige Anfrage wird jedoch nicht aktualisiert und die zugehörigen Parameter der Anfrage werden nicht aktualisiert.
+>* Wenn Sie Microsoft Excel unter Windows ausführen, aber eine niedrigere Version von Report Builder ausführen, oder wenn Report Builder nicht installiert ist: Sie können den Wert im interaktiven Steuerelement ändern, aber es wird weder die zugehörige Anfrage aktualisieren noch die zugehörigen Parameter der Anfrage aktualisieren.
 >* Wenn Sie Excel auf einem Mac ausführen, wird die folgende Nachricht angezeigt, wenn Sie den Wert im Steuerelement ändern: „Das Makro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; kann nicht gefunden werden.“
 >
 

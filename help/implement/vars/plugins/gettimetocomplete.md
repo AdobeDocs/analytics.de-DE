@@ -15,7 +15,7 @@ ht-degree: 89%
 
 {{plug-in}}
 
-Das `getTimeToComplete`-Plug-in verfolgt die Zeit, die ein Benutzer zum Ausführen eines Prozesses auf einer Website benötigt. Die Zeiterfassung beginnt mit dem Aufruf der `start`-Aktion und endet mit dem Aufruf der `stop`-Aktion. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn es auf der Website einen Workflow gibt, der einige Zeit in Anspruch nimmt, und Sie wissen möchten, wie viel Zeit die Besucher benötigen, um ihn abzuschließen. Es ist nicht erforderlich, dieses Plug-in zu verwenden, wenn der Arbeitsablauf auf Ihrer Website eine kurze Zeitspanne (weniger als 3 Sekunden) in Anspruch nimmt, da die Granularität auf die volle Sekunde begrenzt ist.
+Das `getTimeToComplete`-Plug-in verfolgt die Zeit, die ein Benutzer zum Ausführen eines Prozesses auf einer Website benötigt. Die Zeiterfassung beginnt mit dem Aufruf der `start`-Aktion und endet mit dem Aufruf der `stop`-Aktion. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn es auf der Website einen Workflow gibt, der einige Zeit in Anspruch nimmt, und Sie wissen möchten, wie viel Zeit die Besucher benötigen, um ihn abzuschließen. Es ist nicht erforderlich, dieses Plug-in zu verwenden, wenn der Workflow auf Ihrer Website eine kurze Zeitspanne (weniger als 3 Sekunden) in Anspruch nimmt, da die Granularität auf die volle Sekunde begrenzt ist.
 
 ## Installieren des Plug-ins über die Web SDK- oder Web SDK-Erweiterung
 

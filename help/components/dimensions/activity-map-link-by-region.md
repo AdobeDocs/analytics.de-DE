@@ -21,4 +21,4 @@ Diese Dimension ruft Daten aus den [Kontextdatenvariablen](/help/implement/vars/
 
 ## Dimensionselemente
 
-Dimension-Elemente enthalten Werte aus [Activity Map-Link](activity-map-link.md) und [Activity Map-Region](activity-map-link-by-region.md). Die Site-Struktur und Implementierung Ihres Unternehmens bestimmt die erfassten Werte.
+Dimension-Elemente enthalten Werte aus [Activity Map Link](activity-map-link.md) und [Activity Map Region](activity-map-link-by-region.md). Die Site-Struktur und Implementierung Ihres Unternehmens bestimmt die erfassten Werte.

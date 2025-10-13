@@ -63,7 +63,7 @@ So sortieren Sie eine Anfrage nach Metrik
 1. Klicken Sie auf die Metrikbeschriftung.
 1. Dimensionen hinzufügen. Fügen Sie Dimensionen auf die gleiche Weise hinzu wie Metriken. Siehe Schritte 1 und 2 oben.
 
-   Auf der Registerkarte [!UICONTROL Dimensionen &#x200B;] zeigt das System Dimensionen an, die aufgeschlüsselt sind oder eine Klassifizierung eines Basisberichts darstellen, den Sie unter [!UICONTROL Anforderungs-Assistent: Schritt 1] und in Bezug auf die Konfiguration der Report Suite auswählen. Wenn Sie eine Dimension in die Layout-Raster ablegen, wird sie aus der Strukturansicht entfernt und berechnet die Liste der verbleibenden verfügbaren Dimensionen neu.
+   Auf der Registerkarte [!UICONTROL Dimensionen] zeigt das System Dimensionen an, die aufgeschlüsselt sind oder eine Klassifizierung eines Basisberichts darstellen, den Sie unter [!UICONTROL Anforderungs-Assistent: Schritt 1] und über die Konfiguration der Report Suite auswählen. Wenn Sie eine Dimension in die Layout-Raster ablegen, wird sie aus der Strukturansicht entfernt und berechnet die Liste der verbleibenden verfügbaren Dimensionen neu.
 
    Die Dimension [!UICONTROL Datum] wird automatisch hinzugefügt. Die verfügbaren Datumsdimensionen hängen von der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] gewählten Granularität ab. Gültige Werte sind:
 

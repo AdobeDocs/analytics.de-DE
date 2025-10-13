@@ -58,7 +58,7 @@ Dynamische und statische Zeilen verhalten sich in der Freiform-Gesamtzeile unter
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Neuanordnen von statischen Zeilen](https://video.tv.adobe.com/v/33607?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Neuanordnen von statischen Zeilen](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

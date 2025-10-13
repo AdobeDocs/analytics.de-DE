@@ -1,6 +1,6 @@
 ---
-title: Filtern von Dimensionen im Report Builder
-description: Beschreibt die Verwendung von Filterdimensionen im Report Builder
+title: Filtern von Dimensionen in Report Builder
+description: Beschreibt die Verwendung von Filterdimensionen in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
@@ -51,7 +51,7 @@ Es gibt zwei Möglichkeiten, Dimensionselemente zu filtern: „Am beliebtesten�
 
 ## Am beliebtesten
 
-Mit [!UICONTROL &#x200B; Option &#x200B;]Am beliebtesten“ können Sie Dimensionselemente basierend auf Metrikwerten dynamisch filtern. [!UICONTROL Am beliebtesten] gibt die Filterung die am höchsten bewerteten Dimensionselemente basierend auf Metrikwerten zurück. Standardmäßig werden die ersten 10 Dimensionselemente aufgelistet, sortiert nach der ersten Metrik, die zum Datenblock hinzugefügt wurde.
+Mit [!UICONTROL  Option ]Am beliebtesten“ können Sie Dimensionselemente basierend auf Metrikwerten dynamisch filtern. [!UICONTROL Am beliebtesten] gibt die Filterung die am höchsten bewerteten Dimensionselemente basierend auf Metrikwerten zurück. Standardmäßig werden die ersten 10 Dimensionselemente aufgelistet, sortiert nach der ersten Metrik, die zum Datenblock hinzugefügt wurde.
 
 ![Die beliebteste Option.](./assets/image29.png)
 
@@ -143,7 +143,7 @@ Mit der Option „Spezifisch“ können Sie für jede Dimension eine feste Liste
 
    ![Die Elemente aus der Liste der letzten 6 Monate anzeigen.](./assets/image34.png)
 
-   Nachdem die Daten der letzten 6 Monate geladen wurden, aktualisiert der Report Builder den Link zu **[!UICONTROL Elemente für die letzten 18 Monate anzeigen]**.
+   Nachdem die Daten der letzten 6 Monate geladen wurden, aktualisiert Report Builder den Link zu **[!UICONTROL Elemente für die letzten 18 Monate anzeigen]**.
 
 1. Wählen Sie ein Dimensionselement aus.
 
@@ -179,6 +179,6 @@ Ihre Auswahl kann leere Zellen oder Zellen mit Werten enthalten, die nicht mit e
 
 Klicken Sie auf der Registerkarte **[!UICONTROL Dimensionen]** auf das Pfeilsymbol neben einem Dimensionsnamen, um die Liste der Dimensionselemente anzuzeigen.
 
-![Die Registerkarte &quot;Dimensionen&quot; und die Liste der Dimensionen.](./assets/dimensions_chevron.png)
+![Die Registerkarte „Dimensionen“ und die Liste der Dimensionen.](./assets/dimensions_chevron.png)
 
 Sie können Elemente per Drag &amp; Drop in die **[!UICONTROL Tabelle]** ziehen oder auf einen Elementnamen doppelklicken, um ihn zum **[!UICONTROL Tabellen]**-Builder hinzuzufügen.

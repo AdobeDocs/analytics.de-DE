@@ -22,7 +22,7 @@ Die [!UICONTROL Arbeitsmappen-Bibliothek] ermöglicht das Hochladen einer Excel-
 
 >[!NOTE]
 >
->Nur Arbeitsmappen mit Report Builder-Anforderungen können hochgeladen werden. Außerdem können Sie Report Builder-Berichte an Personen verteilen, die nicht mit Report Builder arbeiten. (Es ist keine Anmeldung erforderlich, um die Daten anzuzeigen.)
+>Nur Arbeitsmappen mit Report Builder-Anfragen können hochgeladen werden. Außerdem können Sie Report Builder-Berichte an Personen verteilen, die nicht mit Report Builder arbeiten. (Es ist keine Anmeldung erforderlich, um die Daten anzuzeigen.)
 
 1. Erstellen Sie eine Anforderung und führen Sie sie aus.
 1. Klicken Sie nach dem Speichern des Berichts auf **[!UICONTROL Freigabe]**.

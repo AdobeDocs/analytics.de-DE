@@ -25,7 +25,7 @@ Bei Verwendung von SFTP ist es unter bestimmten Bedingungen möglich, private Sc
 
 1. FTP-Konto erstellen (Adobe).
 
-   Ein Adobe-Support-Mitarbeiter kann ein FTP-Konto erstellen, falls noch keines vorhanden ist. Wenden Sie sich an Ihr Adobe-Kundenbetreuungsteam oder die Adobe-Kundenunterstützung, um ein Konto erstellen zu lassen.
+   Ein Adobe-Support-Mitarbeiter kann ein FTP-Konto erstellen, falls noch keines vorhanden ist. Wenden Sie sich an Ihr Adobe-Accountteam oder die Adobe-Kundenunterstützung, um ein Konto erstellen zu lassen.
 1. Öffentlichen/privaten Schlüssel erstellen (Kunde).
 
    Erstellen Sie eine Kombination aus öffentlichem und privatem Schlüssel. Der private Schlüssel ist eine Datei, die sich auf Ihrem Computer/Server befindet. Der öffentliche Schlüssel muss in das Adobe-Konto hochgeladen werden. Wenn dies der Fall ist, können Sie eine Verbindung ohne Kennwortauthentifizierung herstellen. Die öffentliche Schlüsseldatei bei Adobe passt zu der privaten Schlüsseldatei auf Ihrem Computer/Server und wird auf diese Weise authentifiziert.

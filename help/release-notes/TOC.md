@@ -5,9 +5,9 @@ user-guide-title: Versionshinweise zu Analytics
 breadcrumb-title: Versionshinweise
 user-guide-description: Erfahren Sie mehr über neue Funktionen und Fehlerbehebungen in Adobe Analytics.
 source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

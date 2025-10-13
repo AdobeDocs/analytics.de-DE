@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Segmenten in Report Builder in Adobe Analytics
-description: Beschreibt die Verwendung von Segmenten im Report Builder für Adobe Analytics
+description: Beschreibt die Verwendung von Segmenten in Report Builder für Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation

@@ -12,7 +12,7 @@ ht-degree: 52%
 
 # Domain
 
-Die Dimension „Domain[&#128279;](overview.md) zeigt die Zugriffspunkte an, die Besucherinnen und Besucher für den Internetzugang verwenden.
+Die Dimension „Domain[ ](overview.md) zeigt die Zugriffspunkte an, die Besucherinnen und Besucher für den Internetzugang verwenden.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -67,4 +67,4 @@ Berücksichtigen Sie beim Erstellen oder Bearbeiten von Verarbeitungsregeln Folg
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ordnen Sie Kontextdatenvariablen Props und eVars mit Verarbeitungsregeln zu](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ordnen Sie Kontextdatenvariablen Props und eVars mit Verarbeitungsregeln zu](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}

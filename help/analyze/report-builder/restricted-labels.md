@@ -17,7 +17,7 @@ ht-degree: 49%
 
 Im Allgemeinen werden die Einstellungen für die Data Governance in Adobe Analytics von Adobe Experience Platform übernommen. Die Integration zwischen Adobe Analytics und Adobe Experience Platform Data Governance ermöglicht die Kennzeichnung sensibler Adobe Analytics-Daten und die Durchsetzung von Datenschutzrichtlinien.
 
-Datenschutzbeschriftungen und -richtlinien, die für vom Experience Platform genutzte Datensätze erstellt wurden, können im Workflow von Adobe Analytics Report Suites angezeigt werden. Diese Beschriftungen stoppen oder warnen Benutzer, die Metriken und/oder Dimensionen aus sensiblen Feldern erstellen. Weiterführende Informationen über Datensätze finden Sie in der [Datensatzübersicht](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de)
+Datenschutzbeschriftungen und -richtlinien, die für von Experience Platform genutzte Datensätze erstellt wurden, können im Workflow von Adobe Analytics Report Suites angezeigt werden. Diese Beschriftungen stoppen oder warnen Benutzer, die Metriken und/oder Dimensionen aus sensiblen Feldern erstellen. Weiterführende Informationen über Datensätze finden Sie in der [Datensatzübersicht](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de)
 
 Darüber hinaus werden beim Exportieren von Daten aus Adobe Analytics (über Reporting, Export, API usw.) Warnhinweise oder Beschriftungen hinzugefügt, die Benutzer darauf hinweisen, dass ein Bericht sensible Informationen enthält, die auf bestimmte Weise behandelt werden müssen.
 
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter [Adobe Analytics und Data Governance](htt
 
 ## Anzeigen eingeschränkter Daten in Report Builder
 
-In Adobe Analytics werden zwei Adobe-definierte Richtlinien angezeigt, die sich auf die Berichterstellung, den Download und die Freigabe auswirken:
+In Adobe Analytics werden zwei von Adobe definierte Richtlinien angezeigt, die sich auf die Berichterstellung, den Download und die Freigabe auswirken:
 
 * Analytics erzwingen-Richtlinie
 * Download erzwingen-Richtlinie

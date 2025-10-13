@@ -65,7 +65,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>6</td> 
 <td><b>Validieren und Veröffentlichen in der Produktionsumgebung</b>. Betten Sie Code ein, um Ihre Tag-Eigenschaft in die Seiten Ihrer Website einzuschließen. Verwenden Sie dann Datenelemente, Regeln usw., um Ihre Implementierung anzupassen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=de#embed-code">Einbettungs-Code</a><br/><a href="./validate-publish-prod.md">Validieren Sie eine Entwicklungsimplementierung und veröffentlichen Sie sie in der Produktionsumgebung</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Einbettungs-Code</a><br/><a href="./validate-publish-prod.md">Validieren Sie eine Entwicklungsimplementierung und veröffentlichen Sie sie in der Produktionsumgebung</a></td>
 </tr>
 
 </table>

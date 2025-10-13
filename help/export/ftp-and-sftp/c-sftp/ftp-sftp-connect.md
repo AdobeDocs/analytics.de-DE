@@ -15,7 +15,7 @@ ht-degree: 58%
 
 So richten Sie eine sichere Übertragung mit FTP ein:
 
-1. (Bedingt) Wenn Sie eine sichere Übertragung mit Adobe-FTP-Servern einrichten möchten:
+1. (Bedingt) Wenn Sie eine sichere Übertragung mit Adobe FTP-Servern einrichten möchten:
 
    1. Von Adobe gehostetes FTP-Konto anfordern (max. 50 MB)
 

@@ -15,7 +15,7 @@ ht-degree: 40%
 
 Vorausgesetzt, dass die richtige Browser-Erweiterung [installiert](../getting-started.md) ist, können Sie Activity Map direkt von Ihrer Web-Seite aus starten.
 
-**Google Chrome** ist der einzige Browser, der die aktuelle Activity Map-Version unterstützt. Unterstützung für andere Browser ist geplant.
+**Google Chrome** ist der einzige Browser, der die aktuelle Version von Activity Map unterstützt. Unterstützung für andere Browser ist geplant.
 
 >[!IMPORTANT]
 >Stellen Sie sicher, dass Sie die neueste Version der Erweiterung installiert haben. Frühere Versionen der Erweiterung funktionieren aufgrund von Änderungen an der Browser-Erweiterungsrichtlinie nicht mehr.

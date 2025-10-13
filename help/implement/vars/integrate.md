@@ -19,7 +19,7 @@ Mit dem Integrationsmodul können Adobe-Partner ihre Datenerfassung mit Ihrem Un
 >
 >Das Anfordern von Partnerdaten in Ihrer Implementierung kann zu Verzögerungen zwischen dem Laden der Seite und den an die Adobe-Datenerfassungs-Server gesendeten Daten führen. Wenn ein Besucher eine neue Seite lädt, bevor Daten gesendet werden, wird diese Seite nicht aufgezeichnet.
 
-## Arbeitsablauf für Integrationsmodule
+## Workflow für Integrationsmodule
 
 1. Ein Besucher Ihrer Site lädt eine Seite, die eine `get`-Anforderung von Partnerdaten auslöst.
 2. Der Adobe-Partner erhält die `get`-Anforderung und packt die entsprechenden Variablen in ein JSON-Objekt. Das JSON-Objekt wird zurückgegeben.

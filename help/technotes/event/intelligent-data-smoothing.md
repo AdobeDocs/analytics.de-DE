@@ -29,7 +29,7 @@ Intelligente Datenausgleichung ist ein Prototyp in [Analytics Labs](/help/analyz
    ![Datumsbereich](assets/date-range.png)
 1. Klicken Sie in der Freiformtabelle auf das Zahnradsymbol für die Metrik.
    ![Zahnradsymbol](assets/gear-icon.png)
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] die Option [!UICONTROL Datenausgleichung] aus.
+1. Wählen [!UICONTROL  unter ] die Option [!UICONTROL Datenausgleichung] aus.
    ![Datenglättung](assets/column-setting.png)
 1. Wählen Sie das Datum/den Datumsbereich für das Ereignis aus und klicken Sie auf [!UICONTROL Anwenden].
 Stellen Sie sicher, dass der Datenbereich für die Datenausgleichung eine Teilmenge des für das Bedienfeld ausgewählten Datumsbereichs ist. Die Metriken in der Tabelle und im Diagramm werden durch die prognostizierten Werte ersetzt.

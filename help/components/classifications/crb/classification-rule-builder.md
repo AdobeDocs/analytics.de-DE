@@ -18,7 +18,7 @@ Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzula
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification Rule Builder](https://video.tv.adobe.com/v/3434378?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification Rule Builder](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

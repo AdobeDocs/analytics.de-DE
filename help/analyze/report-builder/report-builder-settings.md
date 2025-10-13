@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Einstellungen für den Report Builder in Adobe Analytics
+title: Konfigurieren von Einstellungen für Report Builder in Adobe Analytics
 description: Beschreibt, wie Einstellungen für Offline-Modus, Sprache, Datum und Fehlerbehebung festgelegt werden.
 role: Admin
 feature: Report Builder
@@ -51,7 +51,7 @@ So wählen Sie die in der UI von Report Builder verwendete Sprache aus
 
 1. Wählen Sie eine Sprache aus dem Dropdown-Menü **[!UICONTROL Sprache]** aus.
 
-   Datumsbereich des Report Builders ![mit Sprachliste und ausgewähltem Englisch.](./assets/image39.png)
+   ![Report Builder-Datumsbereich, der die Sprachliste mit ausgewähltem Englisch anzeigt.](./assets/image39.png)
 
 1. Klicken Sie **[!UICONTROL Apply].**
 

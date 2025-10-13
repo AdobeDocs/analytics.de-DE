@@ -31,7 +31,7 @@ Sie können Komponenten in einer Report Suite Beschreibungen hinzufügen.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/39719?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Allgemeine Informationen zum Datenwörterbuch finden Sie unter [Datenwörterbuch
 >[!MORELIKETHIS]
 >
 >[Einstellungen der Berichtskomponente](/help/components/vrs/vrs-components.md)
->&#x200B;>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Komponenteneinträge für Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

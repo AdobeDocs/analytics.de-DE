@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie Microsoft Excel mit Report Builder-Funktionen verwenden, ohne auf die Report Builder-Benutzeroberfläche zuzugreifen.
+description: Erfahren Sie, wie Sie Microsoft Excel mit Report Builder-Funktionen verwenden, ohne auf die Benutzeroberfläche von Report Builder zuzugreifen.
 title: Erfahren Sie, wie Sie Microsoft Excel mit Report Builder-Funktionen verwenden
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 41%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 41%
 
 Sie können Report Builder-Funktionen verwenden, um auf Funktionen zuzugreifen, ohne auf die Report Builder-Benutzeroberfläche zuzugreifen.
 
-Um beispielsweise Report Builder-Anforderungen automatisch mit Eingabefiltern zu aktualisieren, die auf Daten basieren, die aus anderen Quellen in Excel abgerufen wurden, verwenden Sie die Funktion „RefreshRequestsInCellsRange(..)“ als Zeichenfolge. Alle Aufrufe sind asynchron und werden sofort zurückgegeben. Sie warten nicht auf die vollständige Ausführung.
+Um beispielsweise Report Builder-Anfragen automatisch mit Eingabefiltern zu aktualisieren, die auf Daten aus anderen Quellen basieren, verwenden Sie die Funktion „RefreshRequestsInCellsRange(..)“ als Zeichenfolge. Alle Aufrufe sind asynchron und werden sofort zurückgegeben. Sie warten nicht auf die vollständige Ausführung.
 
 **Anforderungen**
 
@@ -29,14 +29,14 @@ In der folgenden Tabelle sind die verfügbar gemachten Funktionen aufgeführt.
 | Name der Funktion | Typ | Beschreibung |
 |:---| --- | ---|
 | AsyncRefreshAll() | string | Aktualisiert alle in einer Arbeitsmappe vorhandenen Report Builder-Anforderungen. |
-| AsyncRefreshRange(string rangeAddressInA1Format) | string | Aktualisiert alle Report Builder-Anforderungen in der angegebenen Zellenbereichsadresse (ein Zeichenfolgenausdruck, der einen Zellenbereich im A1-Format darstellt, z. B. „Sheet1!A2:A10“). |
+| AsyncRefreshRange(string rangeAddressInA1Format) | string | Aktualisiert alle Report Builder-Anforderungen in der angegebenen Zellbereichsadresse (ein Zeichenfolgenausdruck, der einen Zellbereich im A1-Format darstellt, z. B. „Sheet1!A2:A10„). |
 | AsyncRefreshRangeAltTextParam() | string | Aktualisiert alle Report Builder-Anforderungen, die im angegebenen, über den Alternativtext des MS-Formularsteuerelements weitergeleiteten Zellenbereich vorhanden sind. |
 | AsyncRefreshActiveWorksheet() | string | Aktualisiert alle im aktiven Arbeitsblatt vorhandenen Report Builder-Anforderungen. |
 | AsyncRefreshWorksheet(string worksheetName) | string | Aktualisiert alle im angegebenen Arbeitsblatt vorhandenen Report Builder-Anforderungen (der Arbeitsblattname, wie er auf der Registerkarte angezeigt wird.) |
 | AsyncRefreshWorksheetAltTextParam(); | string | Aktualisiert alle Report Builder-Anforderungen, die im angegebenen, über den Alternativtext des MS-Formularsteuerelements weitergeleiteten Arbeitsblattnamen vorhanden sind. |
 | String GetLastRunStatus() | string | Gibt eine Zeichenfolge zurück, die den Status der letzten Ausführung beschreibt. |
 
-Um auf die Funktionen des Report Builders zuzugreifen, gehen Sie zu **[!UICONTROL Formeln]** > **[!UICONTROL Funktion einfügen]**. Verwenden Sie das Suchfeld, um nach einer Funktion zu suchen, oder wählen Sie eine Kategorie aus, um die Funktionen in dieser Kategorie aufzulisten.
+Um auf die Report Builder-Funktionen zuzugreifen, gehen Sie zu **[!UICONTROL Formeln]** > **[!UICONTROL Funktion einfügen]**. Verwenden Sie das Suchfeld, um nach einer Funktion zu suchen, oder wählen Sie eine Kategorie aus, um die Funktionen in dieser Kategorie aufzulisten.
 
 ![Screenshot des Fensters „Funktion einfügen“ mit erweiterter Kategorieliste.](assets/arb_functions.png)
 
@@ -54,7 +54,7 @@ Sie können einem von Ihnen erstellten Steuerelement ein Makro zuweisen. Dieses 
 
 1. Legen Sie den Makro-Parameter fest.
 1. Klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie **[!UICONTROL Makro zuweisen]** aus.
-1. Den Namen der Parameterfunktion eingeben (keine Report Builder oder Klammern).
+1. Geben Sie den Report Builder-Funktionsnamen ein (keine Parameter oder Klammern).
 
 ![Screenshot mit dem Fenster „Makro zuweisen“.](assets/assign_macro.png)
 

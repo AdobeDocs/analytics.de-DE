@@ -29,7 +29,7 @@ Jede Zeile, die mit &quot;`#`&quot; beginnt, ist ein Kommentar. Beim Herunterlad
 * Der erste Kommentar gibt den Typ der Vorlage an, die Sie für die Datenquelle konfiguriert haben, die Backend-Benutzer-ID, die die Datenquelle erstellt hat, und die Datenquellen-ID.
 * Der zweite Kommentar liefert benutzerfreundliche Namen für jede der Kopfzeilen, die in der Vorlagendatei enthalten sind.
 
-Alle Kommentarzeilen werden von Adobe ignoriert, wenn die Datei verarbeitet wird, sodass Sie die Vorlagenkommentare entfernen oder eigene in der gesamten Datei hinzufügen können. Es können nur vollständige Zeilen kommentiert werden. Einzelne Felder oder Teilzeilen können nicht auskommentiert werden.
+Alle Kommentarzeilen werden von Adobe bei der Verarbeitung der Datei ignoriert, sodass Sie die Vorlagenkommentare entfernen oder eigene in der gesamten Datei hinzufügen können. Es können nur vollständige Zeilen kommentiert werden. Einzelne Felder oder Teilzeilen können nicht auskommentiert werden.
 
 ## Kopfzeilen
 
@@ -81,12 +81,12 @@ Wenn Sie die Stunden/Minuten/Sekunden auslassen, wird der Zeitstempel automatisc
 
 Eine einzelne Datenquellendatei unterstützt bis zu 90 eindeutige Tage. Wenn Sie mehr als 90 eindeutige Tage in einen Upload einbeziehen möchten, teilen Sie Ihre Daten in mehrere Dateien auf.
 
-## Daten zu Dimensionen und Metriken
+## Dimension- und Metrikdaten
 
 Nachfolgende Werte nach dem Datum in jeder Zeile enthalten die Daten, die Sie hochladen möchten. Jede Zeile entspricht diesem entsprechenden Zeitstempel. Stellen Sie sicher, dass in jeder Zeile dieselbe Anzahl von Registerkarten vorhanden ist. Die Spalten können in beliebiger Reihenfolge angeordnet werden. Stellen Sie sicher, dass die Daten in jeder Zeile mit den Kopfzeilen oben ausgerichtet sind. Die maximale Datenmenge, die eine einzelne Zeile haben kann, beträgt 4096 Byte.
 
-Daten in Dimension dürfen keine Semikolons (`;`) enthalten. Zeilen mit Semikolons werden übersprungen.
+Dimension-Daten dürfen keine Semikolons (`;`) enthalten. Zeilen mit Semikolons werden übersprungen.
 
 ## Nächste Schritte
 
-[Datei-Upload](file-upload.md): Erfahren Sie, wie Sie eine Datenquellendatei zur Aufnahme per Adobe hochladen.
+[Datei-Upload](file-upload.md): Erfahren Sie, wie Sie eine Datenquellendatei zur Aufnahme durch Adobe hochladen.

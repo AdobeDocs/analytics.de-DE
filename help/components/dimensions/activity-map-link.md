@@ -14,13 +14,13 @@ ht-degree: 8%
 
 # Activity Map-Link
 
-Die Dimension &quot;Activity Map-Link[ zeigt ](overview.md) beliebtesten Links an, auf die geklickt wurde. Mithilfe dieser Dimension können Sie vergleichen, welche Links auf Ihrer Site am häufigsten verwendet werden, unabhängig davon, wo auf die Links geklickt wurde.
+Die Dimension &quot;Activity Map-[&quot; ](overview.md) die beliebtesten Links an, auf die geklickt wurde. Mithilfe dieser Dimension können Sie vergleichen, welche Links auf Ihrer Site am häufigsten verwendet werden, unabhängig davon, wo auf die Links geklickt wurde.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ruft Daten aus der `c.a.activitymap.link` [Kontextdatenvariable](/help/implement/vars/page-vars/contextdata.md) ab. Wenn Ihre Implementierung [Activity Map](/help/analyze/activity-map/overview.md) verwendet, erfasst diese Kontextdatenvariable beim Klicken auf Links automatisch Daten.
+Diese Dimension ruft Daten aus der [ ](/help/implement/vars/page-vars/contextdata.md)Kontextdatenvariable`c.a.activitymap.link` ab. Wenn Ihre Implementierung [Activity Map](/help/analyze/activity-map/overview.md) verwendet, erfasst diese Kontextdatenvariable beim Klicken auf Links automatisch Daten.
 
-Für einen bestimmten Link, auf den geklickt wurde, sucht Activity Map nach Folgendem (in der richtigen Reihenfolge):
+Für einen bestimmten Link, auf den geklickt wurde, sucht Activity Map nach folgenden Elementen (in der richtigen Reihenfolge):
 
 1. Die `s_objectID` Variable
 1. Der innere Text des Links
@@ -33,4 +33,4 @@ Wenn das angeklickte Element keines der oben genannten Kriterien enthält, erfas
 
 ## Dimensionselemente
 
-Zu den Elementen der Dimension gehören der Link-Text oder andere Link-Attribute, auf die Besucher klicken. Die Site-Struktur und Implementierung Ihres Unternehmens bestimmt die erfassten Werte.
+Dimension-Elemente enthalten den Link-Text oder andere Link-Attribute, auf die Besucher klicken. Die Site-Struktur und Implementierung Ihres Unternehmens bestimmt die erfassten Werte.

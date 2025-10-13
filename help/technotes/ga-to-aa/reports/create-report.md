@@ -26,7 +26,7 @@ Da Analysis Workspace eher wie eine Arbeitsfläche als ein vorgefertigter Berich
 * **Komponenten** werden in einer Visualisierung platziert, um Daten zurückzugeben. Komponenten können auf viele verschiedene Arten gemischt werden, um Berichtsanforderungen zu erfüllen.
    * **Dimensionen** sind Variablenwerte, die normalerweise Text enthalten. Beispiele sind der Seitenname, der Referrer und das Land. Sie werden meist als Zeilen in einer Tabelle aufgeführt.
    * **Metriken** bezeichnen normalerweise ein Ereignis oder eine Konversion beliebiger Art. Beispiele sind häufig auftretende Ereignisse wie Seitenansichten oder etwas Wichtigeres wie ein Kauf oder eine Registrierung. Sie werden meist als Spalten in Tabellen angezeigt, um darzustellen, wie oft das Ereignis pro Dimension aufgetreten ist.
-   * **Segmente** sind eine Untergruppe Ihrer Daten und verhalten sich ähnlich wie Segmente in Google Analytics. Mit ihnen können Sie benutzerspezifische Filter erstellen, um sich auf einen bestimmten Teil Ihrer Daten konzentrieren zu können.
+   * **Segmente** sind eine Teilmenge Ihrer Daten und verhalten sich ähnlich wie Segmente in Google Analytics. Mit ihnen können Sie benutzerspezifische Filter erstellen, um sich auf einen bestimmten Teil Ihrer Daten konzentrieren zu können.
    * **Datumsbereiche** bieten Ihnen die Möglichkeit, Daten nach dem Zeitpunkt eines Ereignisses zu organisieren. Sie sind das Fundament der Trend-Anzeige im Zeitverlauf und werden normalerweise mit einer Metrik gekoppelt.
 
 ## Basisbericht in Workspace erstellen

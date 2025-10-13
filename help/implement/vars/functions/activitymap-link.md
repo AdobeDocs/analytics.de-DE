@@ -20,7 +20,7 @@ Mit der Variablen `ActivityMap.link` können Sie die Logik überschreiben, die A
 
 ## Überschreiben von Linkwerten mit der Web-SDK
 
-Sie können [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) Callback verwenden, um die Web-SDK-Payload zu ändern oder den Versand von Daten abzubrechen.
+Sie können [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) Callback verwenden, um die Web-SDK-Payload zu ändern oder den Versand von Daten abzubrechen.
 
 ## Link-Überschreibung mit der Adobe Analytics-Erweiterung
 
@@ -78,6 +78,6 @@ Anstatt die Standardverknüpfungslogik vollständig zu ersetzen, können Sie sie
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. Wenn `linkName` übergeben wird, wurde die Methode von `tl()` aufgerufen. Gibt zurück, was als `linkName` übergeben `tl()`.
+1. Wenn `linkName` übergeben wird, wurde die Methode von `tl()` aufgerufen. Gibt zurück, was als `tl()` übergeben `linkName`.
 2. Beim Aufruf von Activity Map wird ein `linkName` nie übergeben. Rufen Sie daher `customFunction()` mit dem Link-Element auf. Sie können jede benutzerdefinierte Funktion verwenden, die Sie als Wert zurückgeben möchten.
 3. Wenn keiner der oben genannten Werte zurückgibt, verwenden Sie den Link-Namen, der normalerweise als Fallback erfasst wird.

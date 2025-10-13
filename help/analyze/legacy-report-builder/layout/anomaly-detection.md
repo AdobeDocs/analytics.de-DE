@@ -62,7 +62,7 @@ Report Builder wendet diese Werte auf ausgewählte Metriken an. Wenn Sie beispie
 
 **Berechnung der Anomalieerkennung**
 
-Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. Im Report Builder sind 30 Tage frei.
+Die Anomalieerkennung nutzt einen Schulungszeitraum zum Berechnen, Erlernen und Berichten von Prognoseintervalldaten pro Tag. Der Schulungszeitraum ist der Verlaufszeitraum, der bestimmt, was als normal bzw. abweichend betrachtet wird, und wendet an, was im Berichtzeitraum gelernt wurde. In Marketing-Berichten sind Schulungszeiträume von 30, 60 und 90 Tagen verfügbar. In Report Builder sind 30 Tage verfügbar.
 
 Der Schulungszeitraum ist nicht notwendigerweise mit dem ausgewählten Berichtzeitraum identisch. Eine Berichtsgrafik zeigt den Datumsbereich an, den Sie im Kalender angegeben haben.
 
@@ -82,5 +82,5 @@ Wenn Sie beispielsweise einen Bericht für den 1. bis 14. Januar und dann einen
 
 | Berichtszeitraum | Schulungszeitraum |
 |--- |--- |
-| 1. bis 14. Januar | 27. November bis 31. Dezember |
-| 7. bis 21. Januar | 4. Dezember bis 6. Januar |
+| &#x200B;1. bis 14. Januar | 27. November bis 31. Dezember |
+| &#x200B;7. bis 21. Januar | 4. Dezember bis 6. Januar |

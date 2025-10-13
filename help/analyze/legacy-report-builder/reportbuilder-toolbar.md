@@ -34,7 +34,7 @@ Starten Sie Excel nach der Installation Report Builder und klicken Sie auf **[!U
 
 **Plan:** Zur Planung von Berichten entsprechend der von Ihnen festgelegten Datums- und Dateiformate. Siehe [Berichtanforderungen planen](/help/analyze/legacy-report-builder/schedule-report-requests.md).
 
-**Library:** Startet die [!UICONTROL Arbeitsmappen-Bibliothek], damit Sie eine Excel-Arbeitsmappe in Report Builder hochladen können, die Sie freigeben möchten. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Siehe [Nutzung der Arbeitsmappen-Bibliothek](/help/analyze/legacy-report-builder/workbook-library/t-upload-a-workbook.md)
+**Bibliothek:** Startet die [!UICONTROL Arbeitsmappen-]&quot;, damit Sie eine Report Builder Excel-Arbeitsmappe hochladen können, die Sie freigeben möchten. Sie können außerdem freigegebene Arbeitsmappen herunterladen und bearbeiten. Siehe [Nutzung der Arbeitsmappen-Bibliothek](/help/analyze/legacy-report-builder/workbook-library/t-upload-a-workbook.md)
 
 **Optionen:** Hier können Sie angeben, ob beim Aktualisieren von Daten nach dem **[!UICONTROL Ausführungsdatum]** gefragt werden soll. Außerdem kann die Protokollierung zu Fehlerbehebungszwecken aktiviert werden. Siehe [Optionen](/help/analyze/legacy-report-builder/options.md).
 

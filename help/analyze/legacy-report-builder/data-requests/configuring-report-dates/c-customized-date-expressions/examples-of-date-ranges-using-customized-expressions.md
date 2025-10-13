@@ -23,12 +23,12 @@ In der Tabelle wird als heutiges Datum Montag, der 10. November 2011 im Gregoria
 | Beispiel | Datumsbereich | Ausdruck anpassen | Datumsbereich des Berichts |
 |---|---|---|---|
 |  | | **Von** | **Bis** | |
-| 1 | Vor zwei Wochen | cw-2w | cw-1w-1d | 26. Okt. bis 1. Nov. |
-| 2 | Die ersten 3 Tage des fünften Monats des letzten Jahres | cy-1y+4m | cy-1y+4m+2d | 1. Mai bis 3. Mai 2010 |
-| 3 | Eine ganze Woche, ab dem Datum vor vier Wochen | cw-4w | cw-3w-1d | 12. Okt. bis 18. Okt. |
-| 4 | Die letzte Woche des vergangenen Jahres | cw-53w | cw-52w-1d | 1. Nov. bis 9. Nov. 2010 |
-| 5 | Ein Monat ab dem Datum vor zwei Monaten | cm-2m | cm-1m-1d | 1. Sept. bis 30. Sept. |
-| 6 | Vor 12 Monaten im vergangenen Jahr | cm-12m | cm-11m-1d | 1. Nov. bis 30. Nov. 2010 |
+| 1 | Vor zwei Wochen | cw-2w | cw-1w-1d | &#x200B;26. Okt. bis 1. Nov. |
+| 2 | Die ersten 3 Tage des fünften Monats des letzten Jahres | cy-1y+4m | cy-1y+4m+2d | &#x200B;1. Mai bis 3. Mai 2010 |
+| 3 | Eine ganze Woche, ab dem Datum vor vier Wochen | cw-4w | cw-3w-1d | &#x200B;12. Okt. bis 18. Okt. |
+| 4 | Die letzte Woche des vergangenen Jahres | cw-53w | cw-52w-1d | &#x200B;1. Nov. bis 9. Nov. 2010 |
+| 5 | Ein Monat ab dem Datum vor zwei Monaten | cm-2m | cm-1m-1d | &#x200B;1. Sept. bis 30. Sept. |
+| 6 | Vor 12 Monaten im vergangenen Jahr | cm-12m | cm-11m-1d | &#x200B;1. Nov. bis 30. Nov. 2010 |
 
 ## Hinweise zu Beispielen {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 

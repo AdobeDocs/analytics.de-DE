@@ -17,6 +17,6 @@ ht-degree: 37%
 >
 >Die folgenden Informationen beziehen sich auf FTP- und SFTP-Zieltypen. FTP und SFTP sind alte Zieltypen. Beim Konfigurieren eines Daten-Feeds sollten Sie einen Cloud-Zieltyp verwenden, der sicherer ist. Weitere Informationen zum Konfigurieren von Cloud-Zieltypen für einen Daten-Feed finden Sie unter [Erstellen eines Daten-Feeds](/help/export/analytics-data-feed/create-feed.md).
 
-Sie können Adobe-Daten konfigurieren, die über SFTP an ein externes FTP-Konto gesendet werden.
+Sie können Adobe-Daten konfigurieren, die mithilfe von SFTP an ein externes FTP-Konto gesendet werden.
 
 Weitere Informationen finden Sie unter [Erstellen eines Daten-Feeds](/help/export/analytics-data-feed/create-feed.md).

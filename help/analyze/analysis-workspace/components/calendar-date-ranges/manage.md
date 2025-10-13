@@ -92,7 +92,7 @@ Sie können einen Datumsbereich auf zwei Arten bearbeiten:
 
 * Verwenden Sie in einem Workspace-Projekt das Symbol [Komponenteninformationen](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) aus.
 
-* Wählen Sie in [[!UICONTROL &#x200B; Liste &#x200B;]Datumsbereiche](#date-ranges-list) den Titel des Datumsbereichs aus.
+* Wählen Sie in [[!UICONTROL  Liste ]Datumsbereiche](#date-ranges-list) den Titel des Datumsbereichs aus.
 
 Sie verwenden den [Generator für Datumsbereiche](create.md#date-range-builder), um den Datumsbereich zu bearbeiten.
 

@@ -30,4 +30,4 @@ Adobe behält die Browser-Höhe für einen Besuch bei. Wenn die Browser-Höhe w�
 
 ## Dimensionselemente
 
-Zu den Elementen der Dimension gehören alle erfassten Browser-Höhen, die in vordefinierte Gruppen klassifiziert sind. Wenn die Browser-Höhe eines Treffers beispielsweise `720` beträgt, wird sie im Dimensionselement `700 to 799` gruppiert.
+Dimension-Elemente enthalten alle erfassten Browser-Höhen, die in vordefinierte Gruppen klassifiziert sind. Wenn die Browser-Höhe eines Treffers beispielsweise `720` beträgt, wird sie im Dimensionselement `700 to 799` gruppiert.

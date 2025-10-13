@@ -16,7 +16,7 @@ ht-degree: 77%
 
 eVars sind benutzerdefinierte [Dimensionen](overview.md) die Sie beliebig verwenden können. Wenn Sie über ein [Lösungsentwurfsdokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihr Unternehmen spezifischen Dimensionen als [!UICONTROL eVars].
 
-Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. Weitere Informationen zur Funktionsweise der [-Persistenz von eVar Adobe in der Architektur von ](#how-evars-work) finden Sie [ den Abschnitten „Funktionsweise von eVars](#how-evars-tie-to-metrics) und „Verbindung von eVars mit“. Sie können ihre Gültigkeit und Zuordnung unter „Konversionsvariablen“ in [Report Suite](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)Einstellungen) aktivieren[!UICONTROL &#x200B; deaktivieren oder &#x200B;]. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
+Standardmäßig bleiben eVars über den Treffer hinaus bestehen, für den sie festgelegt wurden. Weitere Informationen zur Funktionsweise der [-Persistenz von eVar Adobe in der Architektur von ](#how-evars-work) finden Sie [ den Abschnitten „Funktionsweise von eVars](#how-evars-tie-to-metrics) und „Verbindung von eVars mit“. Sie können ihre Gültigkeit und Zuordnung unter „Konversionsvariablen“ in [Report Suite](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)Einstellungen) aktivieren[!UICONTROL  deaktivieren oder ]. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche „Konversionsvariablen“:
 
 ![eVar-Beispiele](assets/evars-sample.png)
 

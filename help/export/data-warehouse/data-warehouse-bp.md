@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über Richtlinien, die Ihnen helfen, die Zeit für das Abrufen von Daten vom Data Warehouse zu reduzieren.
+description: Lernen Sie die Richtlinien kennen, die Ihnen helfen, die Zeit für das Abrufen von Daten aus Data Warehouse zu reduzieren.
 keywords: Best Practices;Fehler;Zeitüberschreitung;Fehlerbehebung
 title: Best Practices für Data Warehouse
 feature: Data Warehouse

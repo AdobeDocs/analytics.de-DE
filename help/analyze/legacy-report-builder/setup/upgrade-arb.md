@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie Report Builder aktualisieren.
-title: Upgrade des Report Builders
+title: Upgrade von Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
@@ -24,7 +24,7 @@ Beachten Sie beim Upgrade von Report Builder die folgenden Richtlinien:
 
 * Alle persönlichen Einstellungen, einschließlich der Authentifizierungseinstellungen, funktionieren weiterhin.
 
-So aktualisieren Sie den Report Builder
+So aktualisieren Sie Report Builder
 
 1. Melden Sie sich bei der aktuellen Version von Report Builder an.
 1. Navigieren Sie zum Menü **[!UICONTROL Optionen]**, um ein Upgrade auf die neueste Version durchzuführen. Ihre aktuelle Versionsnummer wird neben der Schaltfläche des Dialogfelds „Option“ angezeigt.
@@ -40,9 +40,9 @@ So aktualisieren Sie den Report Builder
 1. (Optional) Aktivieren Sie das **[!UICONTROL Aktualisieren, wenn eine neue Version verfügbar ist]**. Auf diese Weise wird in Zukunft die Aktualisierung automatisch gestartet, sobald eine neue Version verfügbar ist.
 1. Wenn der Setup-Bildschirm angezeigt wird, klicken Sie auf **[!UICONTROL Weiter >]**.
 
-   ![Screenshot mit dem Bildschirm &quot;Report Builder-Setup“.](assets/setup.png)
+   ![Screenshot mit dem Report Builder-Installationsbildschirm.](assets/setup.png)
 
-1. Melden Sie sich nach Abschluss des Upgrades wieder beim Report Builder an.
+1. Melden Sie sich nach Abschluss des Upgrades wieder bei Report Builder an.
 
 ## Anleitung zur manuellen Aktualisierung {#section_27A0200010DC4747A718F1A65B180599}
 

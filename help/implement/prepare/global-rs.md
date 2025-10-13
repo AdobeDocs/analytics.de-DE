@@ -58,4 +58,4 @@ Der Prozess der Umstellung einer vorhandenen Implementierung über mehrere Sites
 >[!MORELIKETHIS]
 >
 >[Wechsel vom Multi-Suite-Tagging zu einer globalen Report Suite und zu Virtual Report Suites](../../components/vrs/vrs-considerations.md)
->&#x200B;>[Vergleichen von Datenaggregationen und globalen Report Suites](../../admin/tools/manage-rs/rollup-report-suite.md)
+>>[Vergleichen von Datenaggregationen und globalen Report Suites](../../admin/tools/manage-rs/rollup-report-suite.md)

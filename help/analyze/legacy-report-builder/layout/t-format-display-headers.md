@@ -35,15 +35,15 @@ Sie können Ihrem Bericht einen Namen geben und konfigurieren, wie die Zeilen- u
 
    **Zeilen- und Spaltenüberschriften anzeigen:** Fügt eine Zeile und Spalte zur Anzeige dieser Elemente hinzu.
 
-   In Version 3.11 konnte man eine Überschrift für jedes einzelne Element anzeigen. In Version 4 werden diese Elemente entweder alle oder gar nicht angezeigt. Wenn Sie eine Anfrage in Version 3.11 erstellt und in Version 4.x geöffnet haben, fordert Sie der Report Builder in Schritt 2 auf, den Bereich für Elemente, denen eine Kopfzeile fehlt, um eine Zelle zu aktualisieren.
+   In Version 3.11 konnte man eine Überschrift für jedes einzelne Element anzeigen. In Version 4 werden diese Elemente entweder alle oder gar nicht angezeigt. Wenn Sie eine Anfrage in Version 3.11 erstellt und in Version 4.x geöffnet haben, fordert Report Builder Sie in Schritt 2 auf, den Bereich für Elemente, denen eine Kopfzeile fehlt, um eine Zelle zu aktualisieren.
 
-   **Überschriften in automatische Filterung von Excel ändern:** Nur verfügbar, wenn Zeilen- und Spaltenüberschriften angezeigt werden. Diese Einstellung erstellt einen automatischen Excel-Filter und hängt ihn an den Daten-Report Builder an, der für diese Anfrage zurückgibt.
+   **Überschriften in automatische Filterung von Excel ändern:** Nur verfügbar, wenn Zeilen- und Spaltenüberschriften angezeigt werden. Diese Einstellung erstellt einen automatischen Excel-Filter und hängt ihn an die Daten an, die Report Builder für diese Anfrage zurückgibt.
 
    >[!NOTE]
    >
    >Excel unterstützt nur einen einzigen automatischen Filter pro Arbeitsblatt. Wenn Sie einen neuen automatischen Filter in einem Arbeitsblatt erstellen, das bereits einen automatischen Filter enthält, gibt Excel keine Warnung aus, dass der vorhandene automatische Filter ersetzt wird.
 
-   **Automatische Kontur durchführen:** Wandelt das vom Report Builder zurückgegebene Datum von einer Listenansicht in eine Baumstrukturansicht um.
+   **Automatische Konturierung durchführen:** Wandelt das von Report Builder zurückgegebene Datum von einer Listenansicht in eine Baumstrukturansicht um.
 
    **Diese Anforderung benennen:** Hier können Sie einen benutzerdefinierten Namen für die Anforderung eingeben oder den in Schritt 1 ausgewählten Standardnamen verwenden. Dieser Name wird als [!UICONTROL Berichtname] im [!UICONTROL Anforderungs-Manager] angezeigt. Siehe [Benennen einer Anfrage](/help/analyze/legacy-report-builder/layout/name-a-request.md).
 

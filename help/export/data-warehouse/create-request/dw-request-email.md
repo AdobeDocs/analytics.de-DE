@@ -35,6 +35,6 @@ So konfigurieren Sie eine Benachrichtigungs-E-Mail für eine Data Warehouse-Anfr
 
    {style="table-layout:auto"}
 
-1. Wählen Sie [!UICONTROL **Anfrage speichern**], um die Data Warehouse-Berichtsanfrage zu speichern.
+1. Wählen [!UICONTROL **Anfrage speichern**], um die Data Warehouse-Berichtsanfrage zu speichern.
 
    Sie können jetzt Daten an das -Konto und den Speicherort exportieren, die Sie konfiguriert haben.

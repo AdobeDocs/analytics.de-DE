@@ -10,7 +10,7 @@ ht-degree: 33%
 
 ---
 
-# Zeitplanoptionen für eine Data Warehouse-Anfrage konfigurieren
+# Konfigurieren von Planungsoptionen für eine Data Warehouse-Anfrage
 
 Beim Erstellen einer Data Warehouse-Anfrage stehen verschiedene Konfigurationsoptionen zur Verfügung. Die folgenden Informationen beschreiben, wie Sie Planungsoptionen für die Anfrage konfigurieren.
 

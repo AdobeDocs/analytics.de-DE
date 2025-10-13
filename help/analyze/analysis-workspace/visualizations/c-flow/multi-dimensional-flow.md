@@ -18,7 +18,7 @@ Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über versch
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Interdimensionale Flüsse](https://video.tv.adobe.com/v/327471?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Interdimensionale Flüsse](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -410,4 +410,4 @@ Die folgende Liste von Spalten ist nicht verwendet, nicht mehr verwendet oder en
 >[!MORELIKETHIS]
 >
 >[XDM-Objektvariablenzuordnung](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)
+>>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)

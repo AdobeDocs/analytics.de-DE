@@ -17,7 +17,7 @@ Virtual Report Suites können so zusammengestellt werden, dass Komponenten in An
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://video.tv.adobe.com/v/3425533?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

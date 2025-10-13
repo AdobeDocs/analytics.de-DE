@@ -50,7 +50,7 @@ In diesem Beispiel werden Pfade für Sitebereiche verwendet.
 
    ![](assets/select_a_pattern.png)
 
-   Einige dieser Muster beziehen sich ausschließlich auf den Report Builder: Muster für das nächste Element im Einstiegspfad, Muster für das vorherige Element im Ausstiegspfad, Muster für das nächste Element im Einstiegspfad.
+   Einige dieser Muster sind Report Builder-spezifisch: Muster für nächste Elemente im Einstiegspfad, Muster für vorherige Elemente im Ausstiegspfad, Muster für nächste Elemente im Ausstiegspfad.
 
 ## So bearbeiten Sie ein vordefiniertes Muster
 

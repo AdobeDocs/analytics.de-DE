@@ -20,7 +20,7 @@ Diese Metrik zählt die Anzahl der Treffer, bei denen `scOpen` in der [`events`]
 
 ## Unterschied zwischen „Warenkörben“, „Warenkorbansichten“ und „Hinzufügungen zum Warenkorb“
 
-Da es sich bei „Warenkörbe“, „Warenkorbansichten“ und „Hinzufügungen zum Warenkorb“ um Ereignisse handelt, die implementiert werden müssen, entscheidet Ihr Unternehmen über den genauen Unterschied zwischen diesen Metriken. Adobe entwarf diese Metriken jedoch für die folgende Logik:
+Da es sich bei „Warenkörbe“, „Warenkorbansichten“ und „Hinzufügungen zum Warenkorb“ um Ereignisse handelt, die implementiert werden müssen, entscheidet Ihr Unternehmen über den genauen Unterschied zwischen diesen Metriken. Adobe hat diese Metriken jedoch für die folgende Logik entwickelt:
 
 * „Warenkorb“ wird nur einmal pro Kauf ausgelöst, wenn ein Besucher sein erstes Produkt in den Warenkorb legt.
 * „Warenkorbansichten“ zeigen Trigger jedes Mal an, wenn eine Besucherin oder ein Besucher ihren bzw. seinen Warenkorb anzeigt.

@@ -39,7 +39,7 @@ Nachdem Sie überprüft haben, ob Daten angezeigt werden, können Sie Ihre Imple
 1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek (jetzt in der Spalte „Gesendet„) und wählen Sie **[!UICONTROL Für Staging erstellen]**.
 1. Nach einigen Augenblicken wird das gelbe Licht der Bibliothek grün, was auf eine erfolgreiche Erstellung hinweist.
 1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek und wählen Sie **[!UICONTROL Für Veröffentlichung genehmigen]**.
-1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt] und wählen Sie **[!UICONTROL Erstellen und Publish in Produktion]**.
+1. Klicken Sie erneut auf die Dropdown-Liste der Bibliothek (jetzt in der Spalte [!UICONTROL Genehmigt] und wählen Sie **[!UICONTROL Erstellen und in Produktion veröffentlichen]**.
 1. Klicken Sie auf der Registerkarte „Umgebungen“ auf **[!UICONTROL Produktionsumgebung]**.
 1. Kopieren Sie den Produktions-Installations-Code und stellen Sie ihn Ihren Website-Inhabern bereit. Fordern Sie an, diesen Code in der Produktionsumgebung Ihrer Site zu implementieren.
 
@@ -59,7 +59,7 @@ Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beg
 * Es gibt keine JavaScript-Fehler in der Konsole. Wenden Sie sich an die Website-Inhaber Ihres Unternehmens, um sicherzustellen, dass alle JS-Fehler behoben sind.
 * Der Kopfzeilencode ist ordnungsgemäß implementiert: Stellen Sie sicher, dass sich der Kopfzeilencode innerhalb des `<head>`-Tags befindet und dass die Datei vorhanden ist.
 * AppMeasurement-Bibliothek vorhanden: Navigieren Sie direkt zur JS-Quelle, um sicherzustellen, dass die JS-Datei Code enthält. Ist dies nicht der Fall, stellen Sie sicher, dass jede Umgebung erstellt und die Bibliothek in der entsprechenden Umgebung veröffentlicht wurde.
-* Überlagernde Erweiterungen: Einige Erweiterungen, wie z. B. Anzeigenblocker, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die das Senden von Daten an Adobe verhindern.
+* Überlagernde Erweiterungen: Einige Erweiterungen, wie z. B. Anzeigenblocker, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die das Senden von Daten an Adobe verhindern könnten.
 
 ## Nächste Schritte
 

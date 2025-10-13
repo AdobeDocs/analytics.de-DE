@@ -44,7 +44,7 @@ Report Builder für Adobe Analytics wird von den folgenden Betriebssystemen und 
 
 ## Report Builder Excel-Add-in
 
-Sie müssen das Excel-Add-in für Report Builder installieren, um Report Builder für Adobe Analytics verwenden zu können. Nachdem Sie das Excel-Add-in für Report Builder installiert haben, können Sie über eine geöffnete Excel-Arbeitsmappe auf Report Builder zugreifen.
+Sie müssen das Report Builder Excel-Add-in installieren, um Report Builder für Adobe Analytics verwenden zu können. Nachdem Sie das Excel-Add-in für Report Builder installiert haben, können Sie über eine geöffnete Excel-Arbeitsmappe auf Report Builder zugreifen.
 
 ### Herunterladen und Installieren des Report Builder-Add-ins
 

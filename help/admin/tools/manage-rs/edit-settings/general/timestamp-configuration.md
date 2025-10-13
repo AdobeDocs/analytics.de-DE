@@ -1,6 +1,6 @@
 ---
 description: Kombinieren Sie sowohl Daten mit als auch ohne Zeitstempel in einer einzigen Report Suite.
-title: Konfiguration von Zeitstempeln
+title: Zeitstempelkonfiguration
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
@@ -8,11 +8,11 @@ role: Admin
 source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Konfiguration von Zeitstempeln
+# Zeitstempelkonfiguration
 
 Auf der [!UICONTROL Konfiguration von Zeitstempeln] können Sie **[!UICONTROL Zeitstempel optional]** für eine oder mehrere Report Suites aktivieren. Mit dieser Einstellung können Sie Daten mit und ohne Zeitstempel in einer einzigen Report Suite kombinieren.
 

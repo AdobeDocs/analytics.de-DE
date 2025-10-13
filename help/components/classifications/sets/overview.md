@@ -24,7 +24,7 @@ Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, 
 
 * Verkürzte Verarbeitungszeit (72 Stunden → 24 Stunden)
 * Eine neu gestaltete Benutzeroberfläche zum Verwalten von Klassifizierungen
-* Die Option, Klassifizierungsdaten in Adobe Experience Platform künftig über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/classifications) zu verwenden
+* Die Option, Klassifizierungsdaten in Adobe Experience Platform künftig über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications) zu verwenden
 
 Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, enthält auch einige wichtige Änderungen:
 

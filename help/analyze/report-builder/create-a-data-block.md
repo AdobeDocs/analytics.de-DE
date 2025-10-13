@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines Datenblocks mit dem Report Builder
+title: Erstellen eines Datenblocks mit Report Builder
 description: Beschreibt, wie ein Datenblock erstellt wird.
 role: User
 feature: Report Builder

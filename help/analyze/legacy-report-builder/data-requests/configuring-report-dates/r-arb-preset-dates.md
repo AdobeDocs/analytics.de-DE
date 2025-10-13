@@ -28,7 +28,7 @@ Mit Hilfe der Funktion „Vordefinierte Datumswerte“ können Sie häufig verwe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Häufig verwendete Datumsangaben </p> </td> 
-   <td colname="col2"> <p>Hier werden die am häufigsten verwendeten Datumsbereiche angezeigt. Diese Einstellung ist standardmäßig bei der Erstellung einer neuen Anforderung aktiviert. Wenn die Arbeitsmappe mindestens eine Anforderung enthält, verwendet der Report Builder das Datum der vorhandenen Anforderung als Standardeinstellung. </p> </td> 
+   <td colname="col2"> <p>Hier werden die am häufigsten verwendeten Datumsbereiche angezeigt. Diese Einstellung ist standardmäßig bei der Erstellung einer neuen Anforderung aktiviert. Wenn die Arbeitsmappe mindestens eine Anforderung enthält, verwendet Report Builder das Datum der vorhandenen Anforderung als Standardeinstellung. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Vorlagen für das Speichern von Datumswerten </p> </td> 

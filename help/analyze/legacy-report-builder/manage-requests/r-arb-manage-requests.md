@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über die Feldbeschreibungen für „Anfragen verwalten“ in Report Builder.
-title: Verwalten von Anfragen im Report Builder
+title: Verwalten von Anfragen in Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
@@ -16,13 +16,13 @@ ht-degree: 74%
 
 {{legacy-arb}}
 
-Zeigen Sie Details eines Anfragestatus an und verwenden Sie die Feldbeschreibungen, um Anfragen im Report Builder zu verwalten.
+Zeigen Sie Details eines Anfragestatus an und verwenden Sie die Feldbeschreibungen, um Anfragen in Report Builder zu verwalten.
 
 ## Überblick {#section_75C288C945FA4781A4EDF806711A5660}
 
 Der [!UICONTROL Anforderungs-Manager] bietet eine detaillierte Ansicht des Status aller Anforderungen, die Sie für alle Arbeitsblätter oder nur für ein Blatt der aktiven Arbeitsmappe erstellt haben. Sie können auch eine Anfrage hinzufügen, bearbeiten, aktualisieren und löschen. Diese Funktionen sind in der Regel mit dem [!UICONTROL Anforderungs-]) und [!UICONTROL Anforderungs-Manager] verknüpft, wenn Sie mit der rechten Maustaste auf eine verfügbare Zelle in der Excel-Tabelle klicken, die frühere Anforderungen enthält.
 
-Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in der Report Builder **[!UICONTROL Symbolleiste auf]** Verwalten![](assets/edit_request.gif) klicken.
+Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in **[!UICONTROL Report Builder-Symbolleiste]** Verwalten![](assets/edit_request.gif) klicken.
 
 >[!NOTE]
 >

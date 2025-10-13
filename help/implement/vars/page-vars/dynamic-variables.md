@@ -33,7 +33,7 @@ Verwenden Sie die Datenstromzuordnung , um Daten von einem einzelnen XDM-Feld an
 1. Klicken Sie **[!UICONTROL der linken Leiste auf]** Datenströme“.
 1. Klicken Sie auf den gewünschten Datenstrom.
 1. Klicken **[!UICONTROL rechts auf]** Zuordnung bearbeiten“.
-1. Ordnen Sie das gewünschte [!UICONTROL Source]Feld dem gewünschten [!UICONTROL Target-Feld“ &#x200B;]. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
+1. Ordnen Sie das gewünschte [!UICONTROL Source]Feld dem gewünschten [!UICONTROL Target-Feld“ ]. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
 
 ## Dynamische Variablen, die die Adobe Analytics-Erweiterung verwenden
 
@@ -43,7 +43,7 @@ Sie können dynamische Variablen in jedem Dimensionsfeld verwenden, das eine Zei
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf eine bestehende Aktion [!UICONTROL Adobe Analytics – Variablen festlegen] oder klicken Sie auf das Pluszeichen.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie das gewünschte Dimensionselement.
 
 Platzieren Sie das Präfix der dynamischen Variablen in das Textfeld, gefolgt vom Abfragezeichenfolgenparameter oder dem HTTP-Header, auf den Sie verweisen möchten. Standardmäßig ist das dynamische Variablenpräfix `D=`.

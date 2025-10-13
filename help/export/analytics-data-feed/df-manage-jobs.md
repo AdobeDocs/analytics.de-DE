@@ -6,7 +6,7 @@ exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -65,4 +65,4 @@ Jeder Auftrag zeigt mehrere Spalten mit Informationen an. Klicken Sie auf eine S
    * Warten auf Export: Die Daten für das Berichtsfenster wurden noch nicht vollständig verarbeitet.
    * Keine Daten: Die Report Suite enthält für das angeforderte Berichtsfenster keine Daten.
 * **Abschlusszeit**: Der Zeitpunkt, zu dem der Auftrag abgeschlossen wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Verschiebung angezeigt.
-* **Angefordertes Datum**: Das Berichtsfenster der Datei. Tägliche Feeds zeigen in der Regel 00:00–23:59 mit einer GMT-Verschiebung an, was einem vollständigen Tag basierend auf der Zeitzone der Report Suite entspricht. Stündliche Feeds zeigen die jeweilige Stunde an, für die der Auftrag ausgeführt wird.
+* **Angefordertes Datum**: Das Berichtsfenster der Datei. Tägliche Feeds zeigen in der Regel 00:00 bis 23 :59 mit einem GMT-Offset an, was einen ganzen Tag basierend auf der Zeitzone der Report Suite angibt. Stündliche Feeds zeigen die jeweilige Stunde an, für die der Auftrag ausgeführt wird.

@@ -22,7 +22,7 @@ So erstellen Sie einen Bericht für eine Data Warehouse-Anfrage:
 
    Weitere Informationen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen Sie auf der Seite Neue Data Warehouse-Anfrage die Registerkarte [!UICONTROL **Bericht erstellen**] aus.
+1. Wählen Sie auf der Seite Neue Data Warehouse-Anfrage die [!UICONTROL **Bericht erstellen**] aus.
 
    ![Registerkarte Bericht erstellen](assets/build-report.png)
 
@@ -30,7 +30,7 @@ So erstellen Sie einen Bericht für eine Data Warehouse-Anfrage:
 
    Nicht alle im Segmentaufbau erstellten Segmente sind mit Data Warehouse kompatibel. Wenn Sie eine Virtual Report Suite auswählen, die inkompatible Segmente enthält, wird ein Fehler angezeigt.
 
-   Eine Liste der unterstützten Funktionen innerhalb eines Segments finden Sie unter [Data Warehouse-Segmentkompatibilität](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Eine Liste der unterstützten Funktionen innerhalb eines Segments finden Sie unter [Segmentkompatibilität mit Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Ziehen Sie beliebige Segmente, Metriken und Dimensionen in den Builder. Der von Ihnen erstellte Bericht bestimmt, welche Daten in der Data Warehouse-Anfrage enthalten sind.
 

@@ -108,6 +108,6 @@ Sie können die Arbeitsmappe auch nur ein einziges Mal versenden.
 
 1. Klicken Sie auf **Jetzt senden**.
 
-## Geplante Arbeitsmappen verwalten
+## Verwalten von geplanten Arbeitsmappen
 
 Informationen zum Verwalten von bereits geplanten Arbeitsmappen finden Sie unter [Verwalten geplanter Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

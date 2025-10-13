@@ -133,7 +133,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
+| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
 
 **Syntax**
 

@@ -12,7 +12,7 @@ ht-degree: 73%
 
 # Eindeutige Geräte
 
-Die Metrik „Eindeutige Geräte[&#128279;](overview.md) ist eine Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der eindeutigen nicht identifizierten Geräte und der eindeutigen virtuellen Geräte zählt. Nicht identifizierte Geräte sind Geräte, die anonyme Treffer erzeugen. Eindeutige virtuelle Geräte sind Einzelpersonen, die pro Gerät identifiziert werden.
+Die Metrik „Eindeutige Geräte[ ](overview.md) ist eine Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der eindeutigen nicht identifizierten Geräte und der eindeutigen virtuellen Geräte zählt. Nicht identifizierte Geräte sind Geräte, die anonyme Treffer erzeugen. Eindeutige virtuelle Geräte sind Einzelpersonen, die pro Gerät identifiziert werden.
 
 ## Berechnung dieser Metrik
 

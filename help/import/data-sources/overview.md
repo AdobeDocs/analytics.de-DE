@@ -17,13 +17,13 @@ Mit Adobe Analytics-Datenquellen können Sie zusätzliche Online- oder Offline-D
 
 1. Ihr Unternehmen erfasst Daten aus anderen Quellen. Beispiele sind Daten vor einem Klick, Callcenter-Daten oder Informationen über Transaktionen, die außerhalb Ihrer Site stattgefunden haben.
 1. Die Daten werden so formatiert, dass Adobe Analytics sie mithilfe einer durch Tabulatoren getrennten Textdatei versteht.
-1. Sie laden die Textdatei zusammen mit einer zugehörigen `.fin` auf eine FTP-Site-Adobe hoch.
+1. Sie laden die Textdatei zusammen mit einer zugehörigen `.fin` auf eine von Adobe bereitgestellte FTP-Site hoch.
 1. Adobe nimmt die Textdatei auf und zeigt diese Daten zusammen mit den auf Ihrer Site erfassten Dimensionen und Metriken an.
 
-Es gibt zwei allgemeine Arten von Datenquellen, die Adobe anbietet. Alle Datenquellenvorlagen basieren auf einem der beiden folgenden Typen:
+Es gibt zwei allgemeine Arten von Datenquellen, die Adobe bietet. Alle Datenquellenvorlagen basieren auf einem der beiden folgenden Typen:
 
 * **Zusammenfassungsdatenquelle**: Bietet eine einfache Möglichkeit zum Importieren von allgemeinen Daten in Adobe Analytics. Sie geben den Zeitstempel, den Variablenwert und die zugehörigen Metriken an. Diese Metriken für jedes Dimensionselement werden dann entsprechend erhöht. Dies ist nützlich, wenn Sie Offline- und Online-Daten nebeneinander sehen möchten. Es werden jedoch keine Online- und Offline-Daten miteinander verknüpft.
-* **Transaktions-ID-Datenquelle**: Wenn ein vom AppMeasurement gesendeter Treffer und eine Datenquellenzeile übereinstimmende Transaktions-IDs enthalten, hängen die Dimensions- und Metrikwerte in der Datenquelle an diesen Treffer an.
+* **Transaktions-ID-Datenquelle**: Wenn ein von AppMeasurement gesendeter Treffer und eine Datenquellenzeile übereinstimmende Transaktions-IDs enthalten, hängen die Dimensions- und Metrikwerte in der Datenquelle an diesen Treffer an.
 
 **Datenquellen mit vollständiger Verarbeitung** werden seit dem 25. März 2021 nicht mehr als Datenquellentyp angeboten. Weitere Informationen finden Sie [ Ankündigung ](full-processing-eol.md) Ende der Nutzungsdauer .
 

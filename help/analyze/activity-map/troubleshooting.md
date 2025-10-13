@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung bei der Activity Map-Datenerfassung
-description: Ermitteln Sie, warum Sie keine Activity Map-Daten in Bildanforderungen sehen können.
+description: Bestimmen Sie, warum Activity Map-Daten nicht in Bildanforderungen angezeigt werden.
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
@@ -13,25 +13,25 @@ ht-degree: 15%
 
 # Fehlerbehebung bei der Activity Map-Datenerfassung
 
-Wenn keine Daten für Activity Map-Dimensionen angezeigt werden, können Sie auf dieser Seite ermitteln, warum.
+Wenn keine Daten für Activity Map-Dimensionen angezeigt werden, ermitteln Sie auf dieser Seite die Gründe dafür.
 
 ## Bestätigen der Datenerfassung mit dem Debugger
 
-Stellen Sie zunächst sicher, dass AppMeasurement die Activity Map-Daten korrekt erfasst.
+Stellen Sie zunächst sicher, dass AppMeasurement Activity Map-Daten korrekt erfasst.
 
-1. Herunterladen und Installieren der [Adobe Experience Cloud Debugger Chrome-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home).
+1. Herunterladen und Installieren der [Adobe Experience Cloud Debugger Chrome-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home).
 2. Navigieren Sie zu Ihrer Web-Seite und klicken Sie auf einen Link.
-3. Öffnen Sie den Debugger, wenn die nachfolgende Seite geladen wird. Überprüfen Sie, ob Sie Activity Map-Kontextdatenvariablen sehen, die zwischen `activitymap.` und `.activitymap` eingeschlossen sind:
+3. Öffnen Sie den Debugger, wenn die nachfolgende Seite geladen wird. Überprüfen Sie, ob Activity Map-Kontextdatenvariablen zwischen `activitymap.` und `.activitymap` eingefügt werden:
 
-## Mögliche Gründe, warum keine Activity Map-Daten vorhanden sind
+## Mögliche Gründe, warum Activity Map-Daten nicht vorhanden sind
 
-Überprüfen Sie die folgenden Komponenten, um sicherzustellen, dass Activity Map-Komponenten vorhanden sind:
+Überprüfen Sie jeden der folgenden Punkte, um sicherzustellen, dass Activity Map-Komponenten vorhanden sind:
 
-* **AppMeasurement-Version**: Activity Map wird ab Version 1.6 unterstützt. Viele Probleme mit Edge-Fällen werden behoben, wenn Sie auf die neueste stabile Version von AppMeasurement aktualisieren.
-* **Activity Map-Modul**: Überprüfen Sie, ob das `AppMeasurement_Module_Activity_Map` in Ihrer `AppMeasurement.js` vorhanden ist. Wenn Ihre Implementierung Adobe Experience Platform zur Datenerfassung verwendet, stellen Sie sicher, dass **[!UICONTROL ClickMap aktivieren]** beim Konfigurieren der Analytics-Erweiterung unter &quot;**[!UICONTROL -Tracking“]** ist.
-* **Das `s_sq`-**: Activity Map hängt vom `s_sq`-Cookie für die Datenerfassung ab.
+* **AppMeasurement-**: Activity Map wird ab Version 1.6 unterstützt. Viele Probleme mit Edge-Fällen werden behoben, wenn Sie auf die neueste stabile Version von AppMeasurement aktualisieren.
+* **Activity Map-**: Überprüfen Sie, ob das `AppMeasurement_Module_Activity_Map` in Ihrer `AppMeasurement.js` vorhanden ist. Wenn Ihre Implementierung Adobe Experience Platform zur Datenerfassung verwendet, stellen Sie sicher, dass **[!UICONTROL ClickMap aktivieren]** beim Konfigurieren der Analytics-Erweiterung unter **[!UICONTROL Linktracking“]** ist.
+* **Das `s_sq`-**: Activity Map hängt für die Datenerfassung vom `s_sq`-Cookie ab.
    * Stellen Sie sicher, dass die `cookieDomainPeriods`-Variable korrekt festgelegt ist, insbesondere für regionale Domains wie `*.co.uk` oder `*.co.jp`.
-   * Stellen Sie sicher, dass die `linkInternalFilters` auf die gewünschten Werte eingestellt ist. Wenn ein angeklickter Link nicht mit internen Filtern übereinstimmt, betrachtet Activity Map ihn als Exitlink und erfasst keine Daten.
+   * Stellen Sie sicher, dass die `linkInternalFilters` auf die gewünschten Werte eingestellt ist. Wenn ein geklickter Link nicht mit internen Filtern übereinstimmt, betrachtet Activity Map ihn als Exitlink und erfasst keine Daten.
 * **Activity Map-Überlagerung läuft**: AppMeasurement verfolgt keine Klickdaten für Ihre Web-Seite, wenn die Activity Map-Überlagerung aktiviert ist.
 
 Führt die Browserparameter auf, die nicht mit der Verwendung von Activity Map kompatibel sind. Adobe empfiehlt, diese Einstellungen zu deaktivieren.

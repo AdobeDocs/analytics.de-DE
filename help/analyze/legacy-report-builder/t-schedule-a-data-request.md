@@ -27,7 +27,7 @@ Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen 
 >[!NOTE]
 >
 >Der vom Benutzer eingegebene Wert „Zeitpunkt der Auslieferung“/„Uhrzeit“ gibt den Zeitpunkt an, zu dem die Verarbeitung der Arbeitsmappe beginnt, und nicht den Zeitpunkt, zu dem sie tatsächlich bereitgestellt wird. Die tatsächliche Bereitstellungszeit der Arbeitsmappe hängt in erster Linie davon ab, wie lange die Verarbeitung dauert (bei komplexen und großen Arbeitsmappen dauert die Verarbeitung länger als bei einfacheren Arbeitsmappen). Wenn die Verarbeitung einer Arbeitsmappe z. B. 15 Minuten dauert, ist die tatsächliche Auslieferungszeit frühestens 15 Minuten nach dem ursprünglich angegebenen „Zeitpunkt der Auslieferung“/„Uhrzeit“.
->Darüber hinaus gibt es weitere Faktoren, die die Verzögerung vor der tatsächlichen Auslieferung der Arbeitsmappe weiter erhöhen können:
+>>Darüber hinaus gibt es weitere Faktoren, die die Verzögerung vor der tatsächlichen Auslieferung der Arbeitsmappe weiter erhöhen können:
 >
 > * **Das gleichzeitige Ausführen vieler verschiedener Zeitpläne desselben Typs** kann das System überlasten. Das Planungssystem erlaubt nur die gleichzeitige Ausführung einiger (5–10) Arbeitsmappen eines Typs. Wenn also mehr als 5–10 gleichzeitig geplant sind, müssen einige warten, bis andere Arbeitsmappen fertig sind, bevor mit deren Verarbeitung begonnen werden kann. Dieses Problem kann behoben werden, indem die Arbeitsmappen eines Unternehmens über den ganzen Tag oder eine Stunde hinweg gestaffelt und nicht gleichzeitig ausgeführt werden.
 > * Neben dem Arbeitsmappentyp liegen Arbeitsmappen auch dann in der Warteschlange, wenn das Unternehmen **mehr als 15–20 Arbeitsmappen einer Art gleichzeitig geplant hat (alle Arbeitsmappentypen)**. Dieses Problem kann durch gestaffelte Zeitpläne gelöst werden, sodass nicht viele gleichzeitig ausgeführt werden.
@@ -66,7 +66,7 @@ Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen 
 | Registerkarte **Zeitplan** |  |
 | Zeitpunkt der Bereitstellung | Hier können Sie eine sofortige oder spätere Auslieferung der Arbeitsmappe planen. Die Uhrzeit entspricht der Zeitzoneneinstellung auf Ihrem Computer. |
 | Wiederholungsmuster | Hiermit wird die Arbeitsmappe entsprechend Ihrer Auswahl gesendet. |
-| Bereich der Wiederholung | Hier geben Sie an, wann der Empfang der Arbeitsmappe beginnen und enden soll.   Hinweis: Wenn Sie eine Arbeitsmappe für den ersten Tag eines bestimmten Zeitraums (Woche, Monat, Quartal oder Jahr) planen, werden nur Daten für den ersten Tag zurückgegeben. |
+| Bereich der Wiederholung | Hier geben Sie an, wann der Empfang der Arbeitsmappe beginnen und stoppen soll.   Hinweis: Wenn Sie eine Arbeitsmappe für den ersten Tag eines bestimmten Zeitraums (Woche, Monat, Quartal oder Jahr) planen, werden nur Daten für den ersten Tag zurückgegeben. |
 | Registerkarte **Dateioptionen** |  |
 | Dateiformat | Hier können Sie als Bereitstellungsformat Excel 2007 (.xlsx) oder 2003 (.xls), .pdf, .csv, .mht, .txt oder .xml auswählen. |
 | Dateiziel | Hier wird die E-Mail- oder FTP-Adresse angegeben. Die verfügbaren Optionen wechseln ja nach der bisherigen Auswahl. Für FTP müssen Sie sicherstellen, dass der Host extern verfügbar ist. |

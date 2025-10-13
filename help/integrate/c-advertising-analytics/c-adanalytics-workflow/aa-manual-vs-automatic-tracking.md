@@ -18,11 +18,11 @@ Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmasc
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/37472/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
-Es werden zwei Tracking-Modi unterstützt[!UICONTROL &#x200B; „Auto] und [!UICONTROL Manuell].
+Es werden zwei Tracking-Modi unterstützt[!UICONTROL  „Auto] und [!UICONTROL Manuell].
 
 ## [!UICONTROL Auto]-Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
@@ -37,7 +37,7 @@ Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/de/docs/id-service/using/reference/csp) hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) hinzufügen sollten.
 
 ## Manuelles Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ Die Zeichenfolge, die Ihrem Microsoft Advertising-Konto hinzugefügt werden muss
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
 **Tracking-Zeichenfolge für Kampagnen:**
 

@@ -83,7 +83,7 @@ Das `<amp-analytics>`-Tag unterstützt Variablenersetzungen, damit AMP ihm bekan
 
 >[!NOTE]
 >
->Bildanfragen, die mit dieser Methode an den Adobe gesendet werden, enthalten keine Daten für viele Standardberichte (beispielsweise Browser, Bildschirmgröße oder Referrer). Wenn Sie diese Informationen in Treffer einbeziehen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge der Bildanforderung enthalten sind. Siehe [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md) für eine vollständige Liste der Bildanforderungsparameter und der zugehörigen Variablen.
+>Bildanfragen, die mit dieser Methode an Adobe gesendet werden, enthalten keine Daten für viele Standardberichte (beispielsweise Browser, Bildschirmgröße oder Referrer). Wenn Sie diese Informationen in Treffer einbeziehen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge der Bildanforderung enthalten sind. Siehe [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md) für eine vollständige Liste der Bildanforderungsparameter und der zugehörigen Variablen.
 
 Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist eindeutig für jede andere ID, die von Adobe Analytics festgelegt wird. Für jedes CDN, von dem ein Besucher Inhalte abruft, wird ein anderer Unique Visitor gezählt, wodurch sich die Unique Visitor-Anzahl erhöhen kann. Die Verwendung einer separaten Report Suite für AMP-Seiten wird dringend empfohlen, da AMP Unique Visitors identifiziert. Der Adobe Experience Cloud ID-Dienst wird nicht unterstützt.
 

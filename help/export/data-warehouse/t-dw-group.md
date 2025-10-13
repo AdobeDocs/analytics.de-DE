@@ -1,5 +1,5 @@
 ---
-description: Lernen Sie die Schritte kennen, die beschreiben, wie Admins Benutzenden den Zugriff auf Data Warehouse-Berichte ermöglichen können.
+description: Lernen Sie die Schritte kennen, die beschreiben, wie Admins Benutzenden Zugriff auf Data Warehouse-Berichte ermöglichen können.
 title: Verwalten von Data Warehouse-Berechtigungen
 feature: Data Warehouse
 solution: Analytics

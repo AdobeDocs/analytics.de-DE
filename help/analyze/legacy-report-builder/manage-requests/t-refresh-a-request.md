@@ -27,7 +27,7 @@ Wenn Sie den Datumsbereich einer Anfrage erhöhen und dann die Anfrage aktualisi
 
    **Datum für „Jetzt“:** Das Datum für die Aktualisierung der Anforderung. Auch [!UICONTROL Ausführungsdatum] genannt.
 
-   **Auf aktuelles Datum für zukünftige Aktualisierungsaktionen festlegen** Wenn diese Option aktiviert ist, verwendet der Report Builder immer das aktuelle Datum [!UICONTROL Jetzt] (oder [!UICONTROL Ab]). Sie können diese Einstellung wieder ändern, indem Sie in der Symbolleiste auf [!UICONTROL Optionen] klicken.
+   **Auf aktuelles Datum für zukünftige Aktualisierungsaktionen festlegen** Wenn diese Option aktiviert ist, verwendet Report Builder immer das aktuelle Datum als [!UICONTROL Jetzt] (oder [!UICONTROL Ab]). Sie können diese Einstellung wieder ändern, indem Sie in der Symbolleiste auf [!UICONTROL Optionen] klicken.
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
    Eine erfolgreich abgeschlossene Aktualisierung wird durch ein grünes Symbol im [!UICONTROL Anforderungs-Manager] gekennzeichnet.

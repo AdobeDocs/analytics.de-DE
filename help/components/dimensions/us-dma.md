@@ -23,7 +23,7 @@ Diese Dimension verweist auf interne Suchregeln von Adobe. Der Suchwert basiert 
 
 ## Dimensionselemente
 
-Zu den Elementen der Dimension gehören der DMA- und der DMA-Code des Besuchers. Der dreistellige Code ist keine Postleitzahl, sondern der DMA-Code von Nielsen. Zu den Beispielwerten gehören `"Dallas-Ft. Worth (623)"`, `"New York (501)"` oder `"Los Angeles (803)"`. Das Dimensionselement `"No Metro (0)"` umfasst den gesamten internationalen Traffic außerhalb der Vereinigten Staaten.
+Zu den Dimension-Elementen gehören der DMA- und der DMA-Code des Besuchers. Der dreistellige Code ist keine Postleitzahl, sondern der DMA-Code von Nielsen. Zu den Beispielwerten gehören `"Dallas-Ft. Worth (623)"`, `"New York (501)"` oder `"Los Angeles (803)"`. Das Dimensionselement `"No Metro (0)"` umfasst den gesamten internationalen Traffic außerhalb der Vereinigten Staaten.
 
 ## Unterschiede zwischen gemeldetem und tatsächlichem Standort
 

@@ -21,17 +21,17 @@ Nachdem Sie eine Tag-Eigenschaft erstellt und konfiguriert haben, können die Bi
 
 ## Erstellen von Adaptern und Umgebungen
 
-Tags ermöglichen durch die Bereitstellung von Code zahlreiche betriebliche Arbeitsabläufe. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Tag-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Arbeitsablauf für die Bereitstellung von Adobe-Lösungen einrichten.
+Tags ermöglichen durch die Bereitstellung von Code zahlreiche betriebliche Workflows. Führen Sie die folgenden Schritte aus, um die erforderlichen Mindestkomponenten für eine Analytics-Implementierung zu erstellen. Als Tag-Administrator können Sie innerhalb Ihres Unternehmens den richtigen Workflow für die Bereitstellung von Adobe-Lösungen einrichten.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) an.
 2. Klicken Sie auf die Tag-Eigenschaft, die Sie auf Ihrer Site implementieren möchten.
 3. Klicken Sie auf **[!UICONTROL Hosts]** und dann auf **[!UICONTROL Host hinzufügen]**.
 4. Benennen Sie ihn `"Adobe managed"` und wählen Sie **[!UICONTROL Verwaltet von Adobe]** in der Dropdown-Liste Typ aus. Klicken Sie auf „Speichern“.
 5. Navigieren Sie zu **[!UICONTROL Umgebungen]** und klicken Sie dann auf **[!UICONTROL Umgebung hinzufügen]**.
-6. Wählen Sie **[!UICONTROL Entwicklung]**, benennen Sie es `"Dev Environment"`, und wählen Sie dann den verwalteten Adobe-Host aus der Dropdown-Liste aus. Klicken Sie auf **[!UICONTROL Speichern]**.
+6. Wählen Sie **[!UICONTROL Entwicklung]**, benennen Sie ihn `"Dev Environment"`, und wählen Sie dann den verwalteten Adobe-Host aus der Dropdown-Liste aus. Klicken Sie auf **[!UICONTROL Speichern]**.
 7. Ein modales Fenster mit Web-Installationsanweisungen wird angezeigt. Wir werden zu einem späteren Zeitpunkt zu diesem Fenster zurückkehren. Klicken Sie **[!UICONTROL auf]**.
 8. Klicken Sie auf **[!UICONTROL Umgebung hinzufügen]**, wählen Sie **[!UICONTROL Staging]** aus, benennen Sie sie `"Staging Environment"` und wählen Sie dann den von Adobe verwalteten Host aus. Klicken Sie **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
-9. Klicken Sie erneut **[!UICONTROL Umgebung hinzufügen]**, wählen Sie **[!UICONTROL Produktion]**, nennen Sie es `"Production Environment"` und wählen Sie dann den verwalteten Adobe-Host aus. Klicken Sie **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
+9. Klicken Sie erneut **[!UICONTROL Umgebung hinzufügen]**, wählen Sie **[!UICONTROL Produktion]**, benennen Sie sie `"Production Environment"` und wählen Sie dann den von Adobe verwalteten Host aus. Klicken Sie **[!UICONTROL Erstellen]** und schließen Sie dann das modale Fenster mit den Installationsanweisungen.
 
 ## Erstellen einer Dev-Bibliothek
 

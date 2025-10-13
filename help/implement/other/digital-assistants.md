@@ -6,8 +6,8 @@ exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 98%
+source-wordcount: '1256'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Diese Seite bietet einen Überblick darüber, wie Sie Adobe Analytics am besten 
 
 ## Übersicht über die digitale Erfahrungsarchitektur
 
-![Arbeitsablauf im digitalen Assistenten](assets/Digital-Assitants.png)
+![Workflow im digitalen Assistenten](assets/Digital-Assitants.png)
 
 Derzeit basieren die meisten digitalen Assistenten auf einer ähnlichen allgemeinen Architektur:
 
@@ -93,9 +93,9 @@ Da digitale Assistenten auf Konversationen basieren, sind sie häufig mit dem Ko
 
 **Google:**: „Sicher. Für welche Uhrzeit?“
 
-**Verbraucher:** „20:30 Uhr.“
+**Verbraucher:** „8:30pm&quot;
 
-**Google**: „Klingt gut, der Fahrer ist um 20:30 Uhr hier.“
+**Google:** „Hört sich gut an, der Fahrer ist um 8 Uhr :30pm&quot;
 
 Sitzungen sind wichtig, um den Kontext zu wahren und mehr Details zu sammeln, um den digitalen Assistenten natürlicher zu machen. Wenn Sie Analytics für eine Konversation implementieren, sollten Sie zweierlei tun, sobald eine neue Sitzung gestartet wird:
 
