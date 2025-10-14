@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + [Häufig gestellte Fragen](ga-to-aa/faq.md)
    + [Verarbeitungsunterschiede zwischen Plattformen](ga-to-aa/processing-differences.md)
    + [Vergleichen von Daten mit Produkten von Drittanbietern](ga-to-aa/compare-data.md)
++ [Analysieren von KI-Traffic](/help/technotes/ai-traffic.md)
 + Analyse der von Ereignissen betroffenen Daten {#event}
    + [Analyse der von Ereignissen betroffenen Daten – Übersicht](event/overview.md)
    + [Fehlerbehebung bei Datenspitzen/Datenrückgängen](event/spikes-drops.md)
