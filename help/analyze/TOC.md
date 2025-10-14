@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 99%
 
 ---
 
@@ -81,12 +81,13 @@ ht-degree: 100%
       + Freiformtabelle {#freeform-table}
          + [Überblick](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Erstellen von Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Trend-Daten anzeigen](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filtern und Sortieren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Gesamt](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Spalten- und Zeileneinstellungen {#column-row-settings}
             + [Spalteneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Zeileneinstellungen](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische und statische Elemente](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtern und Sortieren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Gesamt](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Kohortentabelle {#cohort-table}
          + [Überblick](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Konfigurieren](analysis-workspace/visualizations/cohort-table/t-cohort.md)
