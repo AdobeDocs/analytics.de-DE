@@ -20,7 +20,7 @@ Wenn Ihr Unternehmen die Performance und die Clickthrough-Rate der Marketing-Ma�
 1. [Einrichten oder Anpassen Ihrer Adobe Analytics-Implementierung zum Einschließen von Trackingcode-Daten](#include-campaign-variables-in-your-implementation)
 1. [Anzeigen von Berichten in Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) kann zur Vereinfachung dieser Schritte beitragen, damit Sie Ihre Marketing-Maßnahmen optimal nutzen können. Wenden Sie sich an Ihren Adobe-Vertriebskontakt, um weitere Informationen zu erhalten.
+[Adobe Campaign](https://business.adobe.com/de/products/campaign/adobe-campaign.html) kann zur Vereinfachung dieser Schritte beitragen, damit Sie Ihre Marketing-Maßnahmen optimal nutzen können. Wenden Sie sich an Ihren Adobe-Vertriebskontakt, um weitere Informationen zu erhalten.
 
 ## Einrichten eines Prozesses für die Trackingcode-Generierung
 

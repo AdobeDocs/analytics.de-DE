@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Im Folgenden finden Sie einige der wichtigsten Möglichkeiten, wie Adobe Analytics Unternehmen dabei unterstützt, wichtige Erkenntnisse zu gewinnen, damit sie ihren Kundinnen und Kunden besser dienen können.
 
-Weitere Informationen zu den Vorteilen, die Adobe Analytics bietet, finden Sie auf der [Produktseite von Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html?lang=de).
+Weitere Informationen zu den Vorteilen, die Adobe Analytics bietet, finden Sie auf der [Produktseite von Adobe Analytics](https://business.adobe.com/de/products/analytics/adobe-analytics.html?lang=de).
 
 ## Web-Analyse
 
