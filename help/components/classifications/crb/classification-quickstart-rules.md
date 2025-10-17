@@ -1,12 +1,12 @@
 ---
-description: Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
+description: Klassifizierungsregeln suchen regelmäßig nach nicht klassifizierten Begriffen. Wenn eine Regelübereinstimmung gefunden wird, fügen die Regeln die Begriffe automatisch zu Ihren Klassifizierungsdatentabellen hinzu. Sie können auch Klassifizierungsregeln verwenden, um vorhandene Schlüssel zu überschreiben.
 title: Klassifizierungsregeln
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 90%
+ht-degree: 59%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 90%
 
 {{classification-rulebuilder-deprecation}}
 
-Classification-Regeln suchen nach nicht klassifizierten Begriffen. Wird eine Regelübereinstimmung gefunden, so fügen die Regeln die Begriffe automatisch den Classification-Datentabellen hinzu. Mit Classification-Regeln können Sie außerdem vorhandene Schlüssel überschreiben.
+Klassifizierungsregeln suchen regelmäßig nach nicht klassifizierten Begriffen. Wenn eine Regelübereinstimmung gefunden wird, fügen die Regeln die Begriffe automatisch zu Ihren Klassifizierungsdatentabellen hinzu. Sie können auch Klassifizierungsregeln verwenden, um vorhandene Schlüssel zu überschreiben.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-Mit dem Rule Builder können Sie einen *Classification-Regelsatz* erstellen – eine Liste von *Classification-Regeln*. Eine Regel überprüft, ob eine Übereinstimmung mit den angegebenen Kriterien vorliegt, und führt dann eine Aktion durch.
+Mit dem Rule Builder können Sie einen *Classification-Regelsatz* erstellen – eine Liste von *Classification-Regeln*. Eine Regel entspricht den von Ihnen angegebenen Kriterien und führt dann eine Aktion aus.
 
-Classification-Regeln eignen sich für Folgendes:
+Klassifizierungsregeln sind praktisch für:
 
 * **E-Mail-** und **Display-Anzeigen:** Erstellen Sie Klassifizierungsregeln, die die einzelnen Display-Anzeigekampagnen gruppieren, sodass ersichtlich wird, wie die Display-Kampagnen im Vergleich zu den E-Mail-Kampagnen abschneiden.
 
@@ -36,12 +36,12 @@ Sie können drei Regeln in einem Regelsatz festlegen, die die Teile der Zeichenf
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
 | Beginnt mit | em: | Kanal | E-Mail |
-| Endet mit | Ausverkauf | Typ | Ausverkauf |
+| Endet mit | Verkauf | Typ | Verkauf |
 | Enthält | 20XX | Jahr | 20XX |
 
 ## Verarbeitung der Regeln {#how-rules-are-processed}
 
-Wichtige Informationen zu den Verfahren, wie Classification-Regeln verarbeitet werden.
+Wichtige Informationen zur Verarbeitung von Klassifizierungsregeln.
 
 <!-- 
 
@@ -50,7 +50,7 @@ about_classification_rules.xml
  -->
 
 * [Wichtige Informationen zu Regeln](/help/components/classifications/crb/classification-rule-builder.md)
-* [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](/help/components/classifications/crb/classification-rule-builder.md)
+* [Wann klassifizieren Regeln keine Schlüssel?](/help/components/classifications/crb/classification-rule-builder.md)
 * [Informationen zur Regelpriorität](/help/components/classifications/crb/classification-quickstart-rules.md)
 
 >[!NOTE]
@@ -61,28 +61,28 @@ about_classification_rules.xml
 
 * **Reguläre Ausdrücke**: Hilfe finden Sie unter [Reguläre Ausdrücke in Classification-Regeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-* **Report Suites:** Sie können erst dann eine Classification auswählen, wenn Sie mindestens eine Report Suite ausgewählt haben. Die Report Suite kann erst dann angewendet werden, wenn Sie den Regelsatz erstellt und eine Variable zugewiesen haben.
+* **Report Suites**: Sie können erst dann eine Klassifizierung auswählen, wenn mindestens eine Report Suite ausgewählt ist. Sie können die Report Suite erst anwenden, nachdem Sie den Regelsatz erstellt und eine Variable zugewiesen haben.
 
-  Beim Testen des Regelsatzes verwenden Sie Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu prüfen, wie sich der Regelsatz auf diese Schlüssel auswirkt. (Der [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) ist die Variable, die klassifiziert wird, oder die erste Spalte in der Tabelle zum Hochladen von Klassifizierungen.)
+  Verwenden Sie beim Testen des Regelsatzes Schlüssel (die zu klassifizierende Variable) aus dem Bericht, um zu sehen, wie sich der Regelsatz auf sie auswirkt. (Der [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md) ist die Variable, die klassifiziert wird, oder die erste Spalte in der Tabelle zum Hochladen von Klassifizierungen.)
 
-* **Regelpriorität:** Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification festlegen (in der Spalte [!UICONTROL Classification auswählen]), wird die jeweils letzte mit der Classification übereinstimmende Regel verwendet. Siehe [Über die Regelpriorität](/help/components/classifications/crb/classification-quickstart-rules.md).
+* **Regelpriorität**: Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Klassifizierung festlegen (in der Spalte [!UICONTROL Klassifizierung festlegen] wird die letzte Regel verwendet, die der Klassifizierung entspricht. Siehe [Über die Regelpriorität](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-* **Beschränkungen hinsichtlich der Regelanzahl:** Für die Anzahl der erstellbaren Regeln gelten keine Einschränkungen. Eine große Regelanzahl kann jedoch die Browserleistung beeinträchtigen.
-* **Verarbeitung**: Regeln werden in kurzen Intervallen verarbeitet, die sich nach Ihrem Classification-Bezogenen Trafficvolumen richten.
+* **Begrenzung der Anzahl von Regeln**: Für die Anzahl der Regeln, die Sie erstellen können, gibt es keine feste Begrenzung. Eine große Anzahl von Regeln kann sich jedoch auf die Browser-Leistung auswirken.
+* **Verarbeitung**: Regeln werden in regelmäßigen Abständen verarbeitet, je nach dem Volumen des klassifizierungsbezogenen Traffics.
 
-  Aktive Regeln werden alle vier Stunden verarbeitet, wobei die zu untersuchenden Classification-Daten in der Regel einen Monat zurückgehen. Die Regeln suchen automatisch nach neuen Werten und laden die Classification mit dem Importeur hoch.
+  Aktive Regeln werden alle vier Stunden verarbeitet und untersuchen Klassifizierungsdaten, die in der Regel einen Monat zurückgehen. Die Regeln überprüfen automatisch auf neue Werte und laden die Klassifizierungen mit dem Import-Tool hoch.
 
 * **Überschreiben von vorhandenen Classifications:** Siehe [In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?](/help/components/classifications/crb/classification-quickstart-rules.md) Bei Bedarf können Sie vorhandene Klassifizierungen mithilfe des Imports löschen oder entfernen.
 
-## In welchen Fällen werden Schlüssel nicht durch Regeln klassifiziert?
+## Wann klassifizieren Regeln keine Schlüssel?
 
-Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben. In den folgenden Situationen klassifiziert eine Klassifizierungsregel keinen [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md)(Variable), wenn:
+Wenn Sie Regeln aktivieren, können Sie vorhandene Klassifizierungen überschreiben. In den folgenden Situationen klassifiziert eine Klassifizierungsregel keinen [Schlüssel](/help/components/classifications/importer/c-saint-data-files.md)(Variable), wenn:
 
 * Der Schlüssel wurde bereits klassifiziert, und Sie haben nicht die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) ausgewählt.
 
-  Sie können Klassifizierungen überschreiben[&#x200B; wenn Sie eine Regel hinzufügen &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) aktivieren oder eine Data Connectors-Integration aktivieren. (Regeln für Data Connectors werden von Partnern im Entwicklungszentrum erstellt und im [!UICONTROL Classification Rule Builder] angezeigt.)
+  Sie können Klassifizierungen überschreiben[ wenn Sie eine Regel hinzufügen ](/help/components/classifications/crb/classification-quickstart-rules.md) aktivieren oder eine Data Connectors-Integration aktivieren. (Für Daten-Connectoren werden Regeln von Partnern im Dev Center erstellt und im [!UICONTROL Classification Rule Builder) ].
 
-* Ein klassifizierter Schlüssel wird beim Überschreiben nach Ablauf eines bestimmten Zeitrahmens auch dann nicht in den Daten sichtbar, wenn Sie die Option [Überschreiben von Classifications für](/help/components/classifications/crb/classification-rule-definitions.md) aktiviert haben.
+* Nach einem Zeitrahmen, der beim Überschreiben eines Schlüssels angegeben wurde, wird kein klassifizierter Schlüssel in den Daten angezeigt, auch wenn Sie die Option [Klassifizierungen überschreiben](/help/components/classifications/crb/classification-rule-definitions.md) aktivieren.
 * Der Schlüssel wird nicht klassifiziert, und nach Beginn des Zeitrahmens (vor etwa einem Monat) wurde der Schlüssel auch nicht in [!DNL Adobe Analytics] übergeben.
 
   >[!NOTE]
@@ -93,7 +93,7 @@ Beim Aktivieren von Regeln können Sie vorhandene Classifications überschreiben
 
 ## Reguläre Ausdrücke in Klassifizierungsregeln {#regex-in-classification-rules}
 
-Mithilfe von regulären Ausdrücken gleichen Sie konsistent formatierte Zeichenfolgenwerte mit einer Classification ab. So können Sie beispielsweise eine Classification anhand bestimmter Zeichen in einem Trackingcode erstellen. Sie können bestimmte Zeichen, Wörter oder Zeichenmuster abgleichen.
+Verwenden Sie reguläre Ausdrücke, um konsistent formatierte Zeichenfolgenwerte mit einer Klassifizierung abzugleichen. Sie können beispielsweise eine Classification aus bestimmten Zeichen in einem Trackingcode erstellen. Sie können bestimmte Zeichen, Wörter oder Zeichenmuster zuordnen.
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Die folgenden Teile des Trackingcodes sind zu klassifizieren:
 
 Regulärer Ausdruck: `^(.+)\:(.+)\:(.+)$`
 
-Zusammenhang zwischen dem regulären Ausdruck und der Kampagnen-ID:
+Korrelation zwischen regulärem Ausdruck und Kampagnen-ID:
 
 ![](assets/regex.png)
 
@@ -133,20 +133,20 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 | Regeltyp auswählen | Übereinstimmungskriterien eingeben | Classification auswählen | Hierzu |
 |---|---|---|---|
-| Regulärer Ausdruck | &Hat;(.+)\:(.+)\:(.+)$ | Kampagnendatum | 3$ |
+| Regulärer Ausdruck | &amp;Hat;(.+)\:(.+)\:(.+) $ | Kampagnendatum | 3$ |
 
 **Syntax**
 
-| Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Zugehörige Übereinstimmungsgruppen |
+| Regulärer Ausdruck | Zeichenfolge oder Übereinstimmungsergebnis | Entsprechende Übereinstimmungsgruppen |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: Juni`$3`: 20XX0601 |
-| Aufbauen der Syntax | `^` = Beginn einer Zeile () = gruppiert Zeichen und ermöglicht das Extrahieren von übereinstimmenden Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) Zeichen und ( + ) beliebige mehr \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. |
+| Aufbauen der Syntax | `^` = Beginn einer Zeile () = gruppiert Zeichen und ermöglicht das Extrahieren von übereinstimmenden Zeichen in den Klammern.  `(.+)` = erfasst ein ( . ) Zeichen und ( + ) beliebige mehr \ = Beginn einer Zeichenfolge.  `$` = gibt an, dass das vorhergehende Zeichen (oder die vorhergehende Zeichengruppe) das letzte Element in der Zeile ist. | |
 
 Weitere Informationen zur Bedeutung der Zeichen in einem regulären Ausdruck finden Sie unter [Reguläre Ausdrücke – Referenztabelle](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Regulärer Ausdruck – Klassifizieren eines bestimmten Zeichens  {#section_5D300C03FA484BADACBFCA983E738ACF}
 
-Mit einem regulären Ausdruck können Sie beispielsweise ein bestimmes Zeichen in einer Zeichenfolge klassifizieren. Angenommen, der folgende Trackingcode enthält zwei wichtige Zeichen:
+Ein regulärer Ausdruck kann verwendet werden, indem ein bestimmtes Zeichen in einer Zeichenfolge klassifiziert wird. Angenommen, der folgende Trackingcode enthält zwei wichtige Zeichen:
 
 Beispielschlüssel: `4s3234`
 
@@ -166,7 +166,7 @@ Konfigurieren Sie die Regel im [!UICONTROL Regel-Builder] wie folgt:
 
 ## Reguläre Ausdrücke – Abgleichen von Trackingcodes unterschiedlicher Länge {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-Dieses Beispiel zeigt, wie Sie bestimmte Zeichen zwischen Doppelpunkten als Trennzeichen erkennen, wenn Sie Trackingcodes mit unterschiedlicher Länge nutzen. Adobe empfiehlt die Verwendung von je einem regulären Ausdruck pro Trackingcode.
+Dieses Beispiel zeigt, wie Sie zwischen Doppelpunkt-Trennzeichen bestimmte Zeichen identifizieren, wenn Sie Trackingcodes mit unterschiedlichen Längen haben. Adobe empfiehlt, für jeden Trackingcode einen regulären Ausdruck zu verwenden.
 
 Beispielschlüssel:
 
@@ -210,7 +210,7 @@ c:d:xoxo
 c:d:yoyo
 ```
 
-Übereinstimmungsergebnisse:
+Übereinstimmende Ergebnisse:
 
 ```
 a:b:
@@ -224,7 +224,7 @@ In diesem Ergebnis zeigt `a:b:1313` keine Übereinstimmung an.
 
 | Ausdruck | Beschreibung |
 |---|---|
-| `(?ms)` | Der gesamte reguläre Ausdruck wird mit einer mehrzeiligen Eingabe abgeglichen, sodass das . -Platzhalterzeichen mit allen Zeilenumbruchzeichen abgeglichen wird |
+| `(?ms)` | Sucht den gesamten regulären Ausdruck nach einer mehrzeiligen Eingabe und ermöglicht so das . Platzhalter für alle Zeilenumbruchzeichen |
 | (`?i`) | Regulären Ausdrücke sind nicht mehr von der Schreibweise abhängig |
 | [`abc`] | Beliebiges einzelnes Zeichen aus: a, b oder c |
 | [`^abc`] | Beliebiges einzelnes Zeichen, außer: a, b oder c |
@@ -255,7 +255,7 @@ In diesem Ergebnis zeigt `a:b:1313` keine Übereinstimmung an.
 
 ## Informationen zur Regelpriorität
 
-Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification-Spalte festlegen (wie in der Spalte [!UICONTROL Classification auswählen] angegeben), wird die jeweils letzte Regel verwendet. Weisen Sie daher der wichtigsten Regel die letzte Stelle im Regelsatz zu.
+Wenn ein Schlüssel mit mehreren Regeln übereinstimmt, die dieselbe Classification-Spalte festlegen (wie in der Spalte [!UICONTROL Classification auswählen] angegeben), wird die jeweils letzte Regel verwendet. Daher empfiehlt es sich, das Wichtigste in Ihrem Regelsatz nach hinten zu ordnen.
 
 <!-- 
 
@@ -263,21 +263,21 @@ rule_priority.xml
 
  -->
 
-Wenn Sie mehrere Regeln erstellen, die nicht dieselbe Classification nutzen, ist die Verarbeitungsreihenfolge nicht von Bedeutung.
+Wenn Sie mehrere Regeln erstellen, die nicht dieselbe Klassifizierung verwenden, spielt die Verarbeitungsreihenfolge keine Rolle.
 
-Im folgenden Beispiel für eine Suchbegriffregel werden Suchtypen für Sportler klassifiziert:
+Im Folgenden finden Sie ein Beispiel für eine Suchbegriffregel, die Suchtypen für einen Athleten klassifiziert:
 
-| Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
+| Nummer der Regel | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
 | 1 | Enthält | Cowboys | Suchtyp | Team |
-| 2 | Enthält | Fantasy | Suchtyp | Fantasy |
-| 3 | Enthält | Romo | Suchtyp | Spieler |
+| 2 | Enthält | Einbildung | Suchtyp | Einbildung |
+| 3 | Enthält | Zimmer | Suchtyp | Player |
 
 Wenn ein(e) Benutzende(r) nach *`Cowboys fantasy Tony Romo`* sucht, wird der Begriff *`Player`* klassifiziert, da er mit der zuletzt in der Spalte Klassifizierungssatz angezeigten Klassifizierung übereinstimmt.
 
-Ein weiteres Beispiel. Angenommen, Sie legen zwei Regeln in einem Regelsatz für die folgenden Suchbegriffe fest:
+Angenommen, Sie richten zwei Regeln in einem Satz für die folgenden Suchbegriffe ein:
 
-| Regelnummer | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
+| Nummer der Regel | Regeltyp | Übereinstimmung | Classification auswählen | Hierzu |
 |---|---|---|---|---|
 | 1 | Enthält | Cowboys | Stadt | Dallas |
 | 2 | Enthält | Broncos | Stadt | Denver |
@@ -321,9 +321,9 @@ So können Sie eine Klassifizierungsregel hinzufügen oder bearbeiten:
 
 1. Festlegen, ob vorhandene Werte überschrieben werden sollen:
 
-   | **Regeln überschreiben alle vorhandenen Werte.** | (Standardeinstellung) Vorhandene Classification-Schlüssel werden immer überschrieben, einschließlich Classifications, die über das Importtool (SAINT) hochgeladen wurden. |
+   | **Regeln überschreiben vorhandene Werte** | (Standardeinstellung) Überschreiben Sie immer vorhandene Klassifizierungsschlüssel, einschließlich der über das Importtool (SAINT) hochgeladenen Klassifizierungen. |
    |---|---|
-   | **Regeln überschreiben nur nicht festgelegte Werte.** | Es werden nur leere (nicht festgelegte) Zellen ausgefüllt. Vorhandene Classifications werden nicht geändert. |
+   | **Regeln überschreiben nur nicht eingestellte Werte** | Nur leere (nicht aktivierte) Zellen ausfüllen. Bestehende Klassifizierungen werden nicht geändert. |
 
 1. [Definieren Sie die Regel(n)](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
@@ -363,12 +363,12 @@ Testen eines Klassifizierungsregelsatzes:
 
 1. Geben oder fügen Sie Testschlüssel in das Feld [!UICONTROL Beispielschlüssel] ein.
 
-   Beispielschlüssel umfassen Folgendes:
+   Zu den Beispielschlüsseln gehören:
 
    * Trackingcodes
-   * Keywords oder Suchausdrücke
+   * Keywords oder Phrasen suchen
 
-   Informationen [&#x200B; Testen regulärer Ausdrücke finden Sie &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) „Reguläre Ausdrücke in Klassifizierungsregeln“.
+   Informationen [ Testen regulärer Ausdrücke finden Sie ](/help/components/classifications/crb/classification-quickstart-rules.md) „Reguläre Ausdrücke in Klassifizierungsregeln“.
 1. Klicken Sie auf **[!UICONTROL Test ausführen]**.
 
    Passende Regeln werden in der [!UICONTROL Ergebnistabelle] angezeigt.
@@ -393,6 +393,6 @@ So validieren und aktivieren Sie Klassifizierungsregeln:
 
 1. (Optional) Um Klassifikationen zu überschreiben, aktivieren Sie **[!UICONTROL Überschreiben von Klassifikationen für]** &lt;*Auswahl*>.
 
-   Mit dieser Option können Sie bestehende Classifications für die betroffenen Schlüssel überschreiben.
+   Mit dieser Option können Sie vorhandene Klassifizierungen für betroffene Schlüssel überschreiben.
 
-   Eine Definition dieser Option finden Sie auf der [Seite „Regeln“](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
+   Eine [ dieser Option finden ](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) unter „Regelseite“.
