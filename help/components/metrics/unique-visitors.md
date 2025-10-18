@@ -22,4 +22,4 @@ Analysis Workspace behandelt Unique Visitors auf Grundlage der Granularität des
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt die Anzahl der Unique-Visitor-IDs für ein bestimmtes Dimensionselement. Weitere Informationen [ Identifizieren von Unique Visitors durch Adobe Analytics finden ](/help/implement/id/overview.md) unter „Übersicht über die Besucheridentifizierung“ .
+Diese Metrik zählt die Anzahl der Unique-Visitor-IDs für ein bestimmtes Dimensionselement. Weitere Informationen [&#x200B; Identifizieren von Unique Visitors durch Adobe Analytics finden &#x200B;](/help/implement/id/overview.md) unter „Übersicht über die Besucheridentifizierung“ .
