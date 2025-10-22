@@ -1,9 +1,9 @@
 ---
 title: Besucheridentifizierung mit AppMeasurement
 description: Identifizieren Sie Besuchende bei der Implementierung von Adobe Analytics mithilfe von AppMeasurement korrekt.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Stellen Sie sicher, dass Sie mit Folgendem vorbereitet sind:
 * Eine Entwicklungs[Report Suite-ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Die gewünschte Edge-Domain für [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Ihre IMS-Organisations-ID:
-   1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
+   1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei ](https://experience.adobe.com)experience.adobe.com) an.
    1. Drücken Sie an einer beliebigen Stelle in der Experience Cloud-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
    1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
    1. Erweitern Sie die gewünschte IMS-Organisation.
@@ -64,9 +64,9 @@ Sobald Sie über die oben genannten Ressourcen verfügen, enthält die folgende 
 >
 >Adobe rät davon ab, diese Methode zur Besucheridentifizierung zu verwenden.
 
-Wenn Ihr Unternehmen den Besucher-ID-Service nicht verwendet, verwendet AppMeasurement eine eigene Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Bibliothek nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird auf den Domain-Matching-[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (für HTTPS) oder [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (für HTTP) gesetzt.
+Wenn Ihr Unternehmen den Besucher-ID-Service nicht verwendet, verwendet AppMeasurement eine eigene Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Bibliothek nach einem [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird auf den Domain-Matching-[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (für HTTPS) oder [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (für HTTP) gesetzt.
 
-* Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
+* Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
 * Wenn Sie nicht am verwalteten Zertifikatprogramm teilnehmen, ist der Tracking-Server normalerweise eine Subdomain von `adobedc.net`, `omtrdc.net` oder `2o7.net`, wodurch das `s_vi`-Cookie zu einem Drittanbieter-Cookie wird. Aufgrund der modernen Datenschutzstandards von Browsern werden Drittanbieter-Cookies von den meisten Browsern abgelehnt. Nach der Ablehnung versucht AppMeasurement stattdessen, ein First-Party-Ausweich-Cookie (`fid`) festzulegen.
 
 Wenn Sie `trackingServerSecure` richtig eingestellt haben, sind keine weiteren Maßnahmen zur Besucheridentifizierung erforderlich.
@@ -82,7 +82,7 @@ Die Verwendung der [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 
 * Jeder Treffer muss denselben `visitorID` enthalten, damit er als einzelner Besucher gezählt wird.
    * Bei Treffern, bei denen nicht angegeben wird, `visitorID` automatisch versucht wird, eine andere Besucheridentifizierungsmethode zu verwenden, und diese Treffer als separate Besucherin bzw. separater Besucher behandelt werden.
    * Treffer, die einen anderen `visitorID` als der vorherige Treffer enthalten, werden als separater Besucher behandelt.
-   * Adobe bietet keine Möglichkeit, Treffer mithilfe verschiedener Besucher-IDs zusammenzufügen.
+   * Adobe bietet keine Möglichkeit, Treffer mithilfe verschiedener Besucher-IDs in Adobe Analytics zusammenzufügen.
 * Freigegebene Zielgruppen, Analytics for Target und Kundenattribute werden nicht für Besucher unterstützt, die mithilfe von `visitorID` identifiziert wurden.
 
 Siehe [`visitorID`](/help/implement/vars/config-vars/visitorid.md) für Implementierungsanweisungen unter Verwendung dieser Variablen.

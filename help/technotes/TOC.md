@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '205'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +66,4 @@ ht-degree: 98%
 + [Fehlerbehebung für das Anmelden](troubleshoot-login.md)
 + [Fehlerbehebung für das Abmelden](troubleshoot-sessions.md)
 + [„Nicht angegeben“, „Sonstige“ und „Nicht bekannt“](unspecified.md)
-+ [Besuchermigration](visitor-migration.md)
 + [VISTA-Regeln](vista.md)

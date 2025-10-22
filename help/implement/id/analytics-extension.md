@@ -1,9 +1,9 @@
 ---
 title: Besucheridentifizierung mit der Tag-Erweiterung "Adobe Analytics"
 description: Identifizieren Sie Besuchende beim Implementieren der Adobe Analytics-Tag-Erweiterung korrekt.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Die Tag-Erweiterung von Adobe Analytics bietet die Möglichkeit, AppMeasurement 
 
 Um den Besucher-ID-Dienst mit der Adobe Analytics-Tag-Erweiterung zu verwenden, fügen Sie die Tag-Erweiterung &quot;Experience Cloud ID Service“ in Ihre Tag-Eigenschaft ein.
 
-1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei ](https://experience.adobe.com)experience.adobe.com) an.
 1. Navigieren Sie **[!UICONTROL Datenerfassung]** > **[!UICONTROL Tags]**.
 1. Suchen Sie die gewünschte Tag-Eigenschaft.
 1. Navigieren Sie zu **[!UICONTROL Erweiterungen]** und wählen Sie dann die Registerkarte **[!UICONTROL Katalog]** aus.
@@ -30,9 +30,9 @@ Die Tag-Erweiterung ruft automatisch Ihre IMS-Organisations-ID ab, sodass keine 
 >
 >Adobe rät davon ab, diese Methode zur Besucheridentifizierung zu verwenden.
 
-Wenn Ihr Unternehmen die Tag-Erweiterung „Visitor ID Service“ nicht verwendet, verwendet die Tag-Erweiterung von Adobe Analytics eine eigene Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Erweiterung nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird bei der Konfiguration der Tag **[!UICONTROL Erweiterung auf die Domain gesetzt, die mit SSL-Tracking-Server]** (für HTTPS) oder **[!UICONTROL Tracking-Server]** (für HTTP[&#x200B; übereinstimmt](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview).
+Wenn Ihr Unternehmen die Tag-Erweiterung „Visitor ID Service“ nicht verwendet, verwendet die Tag-Erweiterung von Adobe Analytics eine eigene Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Erweiterung nach einem [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird bei der Konfiguration der Tag **[!UICONTROL Erweiterung auf die Domain gesetzt, die mit SSL-Tracking-Server]** (für HTTPS) oder **[!UICONTROL Tracking-Server]** (für HTTP[ übereinstimmt](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
-* Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
+* Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
 * Wenn Sie nicht am Programm für verwaltete Zertifikate teilnehmen, ist der Tracking-Server normalerweise eine Subdomain von `adobedc.net`, `omtrdc.net` oder `2o7.net`, wodurch das `s_vi`-Cookie zu einem Drittanbieter-Cookie wird. Aufgrund der modernen Datenschutzstandards von Browsern werden Drittanbieter-Cookies von den meisten Browsern abgelehnt. Nach der Ablehnung versucht AppMeasurement stattdessen, ein First-Party-Ausweich-Cookie (`fid`) festzulegen.
 
 Wenn Sie [!UICONTROL SSL-Tracking-Server] richtig eingestellt haben, sind keine weiteren Maßnahmen zur Besucheridentifizierung erforderlich.
@@ -48,7 +48,7 @@ Die Verwendung der **[!UICONTROL Besucher-ID]**-Variablen ermöglicht Ihrem Unte
 * Jeder Treffer muss denselben Wert [!UICONTROL Besucher-ID] enthalten, damit er als einzelner Besucher gezählt wird.
    * Bei Treffern, bei denen das [!UICONTROL Besucher-ID]-Datenelement ausgelassen wird, wird automatisch versucht, eine andere Besucheridentifizierungsmethode zu verwenden, wobei sie als separater Besucher behandelt werden.
    * Treffer, die einen anderen [!UICONTROL Besucher-ID]-Wert als ein vorheriger Treffer enthalten, werden als separater Besucher behandelt.
-   * Adobe bietet keine Möglichkeit, Treffer mithilfe verschiedener Besucher-IDs zusammenzufügen.
+   * Adobe bietet keine Möglichkeit, Treffer mithilfe verschiedener Besucher-IDs in Adobe Analytics zusammenzufügen.
 * Freigegebene Zielgruppen, Analytics for Target und Kundenattribute werden nicht für Besucher unterstützt, die mit der [!UICONTROL Besucher-ID] identifiziert wurden.
 
 Siehe [`visitorID`](/help/implement/vars/config-vars/visitorid.md) für Implementierungsanweisungen unter Verwendung dieser Variablen.
