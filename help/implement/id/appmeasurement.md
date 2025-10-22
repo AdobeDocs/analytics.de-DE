@@ -20,7 +20,7 @@ Stellen Sie sicher, dass Sie mit Folgendem vorbereitet sind:
 * Eine Entwicklungs[Report Suite-ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Die gewünschte Edge-Domain für [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Ihre IMS-Organisations-ID:
-   1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei ](https://experience.adobe.com)experience.adobe.com) an.
+   1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
    1. Drücken Sie an einer beliebigen Stelle in der Experience Cloud-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
    1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
    1. Erweitern Sie die gewünschte IMS-Organisation.

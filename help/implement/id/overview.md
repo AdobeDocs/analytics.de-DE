@@ -42,7 +42,7 @@ Unique-Visitor-IDs werden in der Regel in einem Browser-Cookie gespeichert. Ein 
 * Besucht Ihre Site auf verschiedenen Geräten. Pro Gerät wird ein Unique Visitor gezählt.
 * Besucht Ihre Site nach mehr als 13 Monaten Inaktivität.
 
-Erwägen Sie [ Verwendung von ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/stitching/overview) in Customer Journey Analytics, um dieselbe Person mithilfe mehrerer Browser oder Geräte zu identifizieren.
+Erwägen Sie [&#x200B; Verwendung von &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/stitching/overview) in Customer Journey Analytics, um dieselbe Person mithilfe mehrerer Browser oder Geräte zu identifizieren.
 
 ## Verhalten, das sich nicht auf die Anzahl der Unique Visitors auswirkt
 
