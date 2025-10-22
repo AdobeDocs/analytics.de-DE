@@ -19,7 +19,7 @@ Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrun
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kontextsensitive Sitzungen](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kontextsensitive Sitzungen](https://video.tv.adobe.com/v/3428471?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
