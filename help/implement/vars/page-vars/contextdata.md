@@ -21,7 +21,7 @@ Die maximale Größe aller kombinierten Kontextdatenvariablen (einschließlich S
 
 ## Kontextdatenvariablen, die das Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch explizit mithilfe des XDM-Objekts festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden [ unter „Zuordnen anderer XDM-Felder ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) Analytics-Variablen“.
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch explizit mithilfe des XDM-Objekts festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden [&#x200B; unter „Zuordnen anderer XDM-Felder &#x200B;](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) Analytics-Variablen“.
 
 Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
 
