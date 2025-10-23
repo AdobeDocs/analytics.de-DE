@@ -4,10 +4,10 @@ description: Übersicht über die Verwendung von XDM-Daten aus Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 16%
+source-wordcount: '550'
+ht-degree: 15%
 
 ---
 
@@ -17,19 +17,19 @@ Mit Adobe Experience Platform Edge Network können Sie Daten, die für mehrere P
 
 ## Verarbeiten von Edge Network-Daten durch Adobe Analytics
 
-Da die an die Edge Network gesendeten Daten und die Daten von AppMeasurement unterschiedlich funktionieren, bestimmt die Edge Network-Payload, wie Adobe Analytics den Treffer verarbeitet. Weitere Informationen finden Sie unter [Ereignistypen für Edge Network &#x200B;](hit-types.md) Adobe Analytics.
+Da die an die Edge Network gesendeten Daten und die Daten von AppMeasurement unterschiedlich funktionieren, bestimmt die Edge Network-Payload, wie Adobe Analytics den Treffer verarbeitet. Weitere Informationen finden Sie unter [Ereignistypen für Edge Network ](hit-types.md) Adobe Analytics.
 
 Daten, die an Adobe Experience Platform Edge Network gesendet werden, können drei Formaten entsprechen **(XDM**, **Datenobjekt** und **Kontextdaten**. Wenn ein Datenstrom Daten an Adobe Analytics weiterleitet, werden sie in ein Format übersetzt, das Adobe Analytics verarbeiten kann.
 
 ## `xdm`
 
-Entsprechen Sie den Schemata, die Sie basierend auf [XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) (Experience-Datenmodell) erstellen. Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Sie ein vordefiniertes Schema verwenden möchten, das speziell für Adobe Analytics gilt, können Sie die Schemafeldgruppe [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) zu Ihrem Schema hinzufügen. Nach dem Hinzufügen können Sie dieses Schema mithilfe des `xdm`-Objekts in der Web-SDK ausfüllen, um Daten an eine Report Suite zu senden. Wenn Daten an der Edge Network eingehen, wird das XDM-Objekt in ein Format übersetzt, das Adobe Analytics versteht.
+Entsprechen Sie den Schemata, die Sie basierend auf [XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) (Experience-Datenmodell) erstellen. Mit XDM können Sie flexibel bestimmen, welche Felder als Teil von Ereignissen definiert werden. Wenn Sie ein vordefiniertes Schema verwenden möchten, das speziell für Adobe Analytics gilt, können Sie die Schemafeldgruppe [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) zu Ihrem Schema hinzufügen. Nach dem Hinzufügen können Sie dieses Schema mithilfe des `xdm`-Objekts in der Web-SDK ausfüllen, um Daten an eine Report Suite zu senden. Wenn Daten an der Edge Network eingehen, wird das XDM-Objekt in ein Format übersetzt, das Adobe Analytics versteht.
 
 Siehe [XDM-Objektvariablenzuordnung zu Adobe Analytics](xdm-var-mapping.md) für eine vollständige Referenz zu XDM-Feldern und deren Zuordnung zu Analytics-Variablen.
 
 >[!TIP]
 >
->Wenn Sie beabsichtigen, in Zukunft zu [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing) zu wechseln, rät Adobe davon ab, die Schemafeldgruppe von Adobe Analytics zu verwenden. Stattdessen empfiehlt Adobe [Erstellen eines eigenen Schemas](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) und die Verwendung der Datenstromzuordnung, um die gewünschten Analytics-Variablen zu befüllen. Durch diese Strategie werden Sie nicht an ein Schema von Props und eVars gebunden, wenn Sie für den Wechsel zu Customer Journey Analytics bereit sind.
+>Wenn Sie beabsichtigen, in Zukunft zu [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing) zu wechseln, rät Adobe davon ab, die Schemafeldgruppe von Adobe Analytics zu verwenden. Stattdessen empfiehlt Adobe [Erstellen eines eigenen Schemas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) und die Verwendung der Datenstromzuordnung, um die gewünschten Analytics-Variablen zu befüllen. Durch diese Strategie werden Sie nicht an ein Schema von Props und eVars gebunden, wenn Sie für den Wechsel zu Customer Journey Analytics bereit sind.
 
 ## `data`
 
@@ -39,7 +39,7 @@ Unter [Zuordnung von Datenobjektvariablen zu Adobe Analytics](data-var-mapping.m
 
 ## Kontextdatenvariablen
 
-Senden Sie Daten in einem beliebigen Format an die Edge Network. Alle Felder, die nicht automatisch `xdm`- oder `data` Objektfeldern zugeordnet werden, werden bei [&#x200B; Weiterleitung an Adobe Analytics als Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) einbezogen. Anschließend müssen Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die gewünschten Felder ihren jeweiligen Analytics-Variablen zuzuordnen.
+Senden Sie Daten in einem beliebigen Format an die Edge Network. Alle Felder, die nicht automatisch `xdm`- oder `data` Objektfeldern zugeordnet werden, werden bei [ Weiterleitung an Adobe Analytics als Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) einbezogen. Anschließend müssen Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die gewünschten Felder ihren jeweiligen Analytics-Variablen zuzuordnen.
 
 Angenommen, Sie haben ein benutzerdefiniertes XDM-Schema, das wie folgt aussieht:
 
@@ -78,3 +78,5 @@ a.x.objectarray.0.ad1 // 300x200
 a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
+
+Die maximale Größe für eine bestimmte Kontextdatenvariablen-Payload (einschließlich Schlüssel und Werte) beträgt 32 KB. Sie können die Größe dieser Payload reduzieren, indem Sie die entsprechenden Felder so anpassen, dass sie von Adobe Analytics in den [`xdm`](xdm-var-mapping.md)- oder [`data`](data-var-mapping.md)-Objekten erkannt werden.

@@ -4,10 +4,10 @@ description: Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benu
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 68%
+source-wordcount: '595'
+ht-degree: 64%
 
 ---
 
@@ -17,9 +17,11 @@ Mithilfe von Kontextdatenvariablen können Sie auf jeder Seite benutzerdefiniert
 
 Kontextdatenvariablen sind für Entwicklungsteams hilfreich, um Daten in benannten Elementen, statt in nummerierten Variablen zu erfassen. Anstatt beispielsweise anzufordern, dass Entwicklungsteams den Autor der Seite `eVar10` zuweisen, können Sie sie stattdessen auffordern, ihn `s.contextData["author"]` zuzuweisen. Ein Analytics-Administrator in Ihrem Unternehmen kann dann Verarbeitungsregeln erstellen, um Kontextdatenvariablen Analysevariablen für die Berichterstellung zuzuordnen. Entwicklungs-Teams würden sich letztendlich nur um Kontextdatenvariablen kümmern, anstatt um die vielen Seitenvariablen, die Adobe anbietet.
 
+Die maximale Größe aller kombinierten Kontextdatenvariablen (einschließlich Schlüssel und Werte) beträgt 32 KB.
+
 ## Kontextdatenvariablen, die das Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch explizit mithilfe des XDM-Objekts festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden [&#x200B; unter „Zuordnen anderer XDM-Felder &#x200B;](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) Analytics-Variablen“.
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden alle Felder, die keiner Adobe Analytics-Variablen zugeordnet sind, automatisch als Kontextdatenvariable eingefügt. Sie können Kontextdaten auch explizit mithilfe des XDM-Objekts festlegen. Anschließend können Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Kontextdatenvariable der gewünschten Analytics-Variablen zuzuweisen.  Weitere Informationen finden [ unter „Zuordnen anderer XDM-Felder ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) Analytics-Variablen“.
 
 Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) befinden sich alle Kontextdatenvariablen in `data.__adobe.analytics.contextData` als Schlüssel-Wert-Paare:
 
@@ -54,7 +56,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Gültige Kontextdatenvariablen enthalten nur alphanumerische Zeichen, Unterstriche und Punkte. Adobe garantiert die Datenerfassung in den Verarbeitungsregeln nicht, wenn Sie andere Zeichen, wie z. B. Bindestriche, einfügen.
-* Starten Sie Kontextdatenvariablen nicht mit `"a."`. Dieses Präfix ist reserviert und wird von Adobe verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
+* Starten Sie keine Kontextdatenvariablen mit dem Präfix `"a."`. Dieses Präfix ist reserviert und wird von Adobe verwendet. Verwenden Sie zum Beispiel nicht `s.contextData["a.InstallEvent"]`.
 * Bei Kontextdatenvariablen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Variablen `s.contextData["example"]` und `s.contextData["EXAMPLE"]` sind identisch.
 * Ein einzelner Schlüssel kann nicht mehr als einen Wert enthalten. Wenn Sie Kontextdatenvariablen für Variablen mit mehreren Werten verwenden möchten, verketten Sie alle Werte mithilfe eines Trennzeichens (normalerweise ein Komma) und übergeben Sie sie entweder in eine [Listen-Prop](prop.md#list-props) oder eine [Listenvariable](list.md) mithilfe von Verarbeitungsregeln.
 
