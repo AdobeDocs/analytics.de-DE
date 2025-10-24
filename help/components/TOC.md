@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + Klassifizierungssätze {#sets}
       + [Überblick](classifications/sets/overview.md)
       + [Datendateien](classifications/sets/data-files.md)
-      + Verwalten von Klassifizierungssätzen {#manage}
-         + [Klassifizierungssatz-Manager](classifications/sets/manage/set-manager.md)
-         + [Erstellen eines Klassifizierungssatzes](classifications/sets/manage/create.md)
-         + [Klassifizierungssatz-Einstellungen](classifications/sets/manage/settings.md)
-         + [Klassifizierungssatz-Schema](classifications/sets/manage/schema.md)
-         + [Klassifizierungssatz-Regeln](classifications/sets/manage/rules.md)
-      + [Auftrags-Manager für Klassifizierungssätze](classifications/sets/job-manager.md)
-      + Klassifizierungssatz-Konsolidierungen {#consolidations}
-         + [Konsolidierungs-Manager](classifications/sets/consolidations/manage.md)
-         + [Konsolidierungsprozess](classifications/sets/consolidations/process.md)
+      + Klassifizierungssätze {#manage}
+         + [Verwalten](classifications/sets/manage/set-manager.md)
+         + [Erstellen und bearbeiten](classifications/sets/manage/create.md)
+         + [Einstellungen](classifications/sets/manage/settings.md)
+         + [Schema](classifications/sets/manage/schema.md)
+         + [Regeln](classifications/sets/manage/rules.md)
+      + [Klassifizierungsaufträge](classifications/sets/job-manager.md)
+      + Klassifizierungskonsolidierungen {#consolidations}
+         + [Verwalten](classifications/sets/consolidations/manage.md)
+         + [Erstellen und bearbeiten](classifications/sets/consolidations/process.md)
    + Classification Rule Builder (veraltet){#classifications-rulebuilder}
       + [Überblick](classifications/crb/classification-rule-builder.md)
       + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)

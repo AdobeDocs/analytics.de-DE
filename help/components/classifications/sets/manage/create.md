@@ -1,30 +1,82 @@
 ---
-title: Erstellen eines Klassifizierungssatzes
-description: Verfügbare Felder und Beschreibungen beim Erstellen eines Klassifizierungssatzes.
+title: Erstellen von Klassifizierungssätzen
+description: Erfahren Sie, wie Sie verfügbare Felder und Beschreibungen beim Erstellen eines Klassifizierungssatzes erstellen können.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 8%
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
-# Erstellen eines Klassifizierungssatzes
+# Erstellen und Bearbeiten von Klassifizierungssätzen
 
-Sie können den Classification Set Manager verwenden, um einen Klassifizierungssatz zu erstellen.
+Über [ Manager für Klassifizierungssätze ](#create-a-classification-set) Sie [ Klassifizierungssätze erstellen und ](#edit-a-classification-set) bearbeiten.
 
-**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]** > **[!UICONTROL Hinzufügen]**
+## Erstellen eines Klassifizierungssatzes
 
-Beim Erstellen eines Klassifizierungssatzes sind die folgenden Felder verfügbar.
+So erstellen Sie einen Klassifizierungssatz in der Hauptbenutzeroberfläche:
 
-* **[!UICONTROL Name]**: Ein Textfeld, mit dem der Klassifizierungssatz identifiziert wird. Dieses Feld kann bei seiner Erstellung nicht bearbeitet werden, kann aber später umbenannt werden.
-* **[!UICONTROL Spaltenname]**: Der Name der ersten Klassifizierungsdimension, die Sie erstellen möchten. Dieses Feld ist der in Analysis Workspace verwendete Dimensionsname und der Spaltenname beim Exportieren von Klassifizierungsdaten. Sie können weitere Spaltennamen hinzufügen, nachdem der Klassifizierungssatz erstellt wurde.
-* **[!UICONTROL Type]**: Optionsfelder, die den Typ der Klassifizierung angeben.
-   * **[!UICONTROL Primär]**: Auf in Analytics erfasste Dimensionen anwenden. Sie bieten die Möglichkeit, granulare Dimensionswerte in aussagekräftigere Datenebenen zu gruppieren (zu klassifizieren). Beispielsweise können Sie interne Suchbegriffe in internen Suchkategorien gruppieren, um Themen in Ihren Suchdaten besser zu verstehen.
-   * **[!UICONTROL Lookup]**: Eine Lookup-Tabelle, häufig als untergeordnete Klassifizierungen oder Unterklassifizierungen bezeichnet, ist eine Klassifizierung einer primären Klassifizierung. Es handelt sich um Metadaten über einen Klassifizierungswert und nicht um die ursprüngliche Dimension. Die Variable „Product“ könnte beispielsweise die primäre Classification „Farbcode“ aufweisen. Eine Lookup-Tabelle mit „Farbname“ könnte dann an „Farbcode“ angehängt werden, um die Bedeutung der einzelnen Codes näher zu erklären.
-* **[!UICONTROL Abonnements]** Die Report Suites und Dimensionen, für die dieser Klassifizierungssatz gilt. Sie können mehrere Report Suite- und Dimensionskombinationen zu einem Klassifizierungssatz hinzufügen.
+1. Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Klassifizierungssätze]**.
+1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
+1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
+1. Im Dialogfeld **[!UICONTROL Neuen Klassifizierungssatz hinzufügen]**:
 
-![Erstellen eines Klassifizierungssatzes](../../assets/classification-set-create.png)
+   ![Klassifizierungssätze - Neuen Klassifizierungssatz hinzufügen](assets/classifications-sets-new.png)
 
-Wenn für eine bestimmte Report Suite und Variable ein Klassifizierungssatz vorhanden ist, wird stattdessen die Klassifizierung zum Schema hinzugefügt. Eine bestimmte Kombination aus Report Suite und Variable kann nicht zu mehreren Klassifizierungssätzen gehören.
+   1. Geben Sie einen &quot;**[!UICONTROL &quot;]**. Beispiel: `Classification Set Example`.
+   1. Geben Sie eine **[!UICONTROL Beschreibung (optional)]** ein. Zum Beispiel `Example classification set`.
+   1. Geben Sie eine oder mehrere E-Mail-Adressen (durch Kommata getrennt) in **[!UICONTROL Bei Problemen]**. Diese Benutzer erhalten bei Problemen eine E-Mail-Benachrichtigung.
+   1. Wählen Sie **[!UICONTROL Klassifizierungssatz]** Typ“ aus. Mögliche Typen sind:
+      * **[!UICONTROL Primär]**. Ein primärer Klassifizierungssatz gilt für Dimensionen, die in Adobe Analytics erfasst wurden. Primäre Klassifizierungen sind eine Möglichkeit, granulare Dimensionswerte in aussagekräftigere Datenebenen zu gruppieren (klassifizieren). Beispielsweise können Sie interne Suchbegriffe in internen Suchkategorien gruppieren, um Designs in Ihren Suchdaten zu verstehen. Oder klassifizieren Sie Produkt-SKUs nach Farbe oder Kategorie.
+         * Geben Sie ein oder mehrere **[!UICONTROL Abonnements]** ein.  Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
+
+         * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
+
+        Wenn Sie eine Kombination aus **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** hinzufügen, die bereits in einem anderen Klassifizierungssatz vorhanden ist, wird unter der Kombination ein roter Warnhinweis angezeigt. Sie können auf **[!UICONTROL Zu vorhandenem hinzufügen]** klicken, um den anderen Klassifizierungssatz zu öffnen und [Klassifizierungen zum Schema hinzufügen](schema.md) für diesen anderen Klassifizierungssatz oder die Dimension ändern.
+      * **[!UICONTROL Suche]**. Eine Lookup-Tabelle wird häufig als untergeordnete Klassifizierung oder Unterklassifizierung bezeichnet und ist eine Klassifizierung einer primären Klassifizierung. Bei einer Suche handelt es sich um Metadaten über einen Klassifizierungswert und nicht um die ursprüngliche Dimension. Beispielsweise könnte eine Dimension *Produkt* über eine primäre Classification mit *Farbcode* verfügen. Eine Lookup-Tabelle mit *Farbname* kann dann an den *Farbcode“ angehängt werden* um jeden Farbcode zu erklären.
+1. Wählen **[!UICONTROL Speichern]**, um den Klassifizierungssatz zu speichern. Wählen Sie **[!UICONTROL Abbrechen]**, um die Definition aufzuheben.
+1. Um das Schema für den Klassifizierungssatz zu definieren, wählen Sie den neu erstellten Klassifizierungssatz aus dem Manager **[!UICONTROL Klassifizierungssätze]** aus, um [Klassifizierungssatz zu bearbeiten](#edit-a-classification-set).
+
+
+## Bearbeiten eines Klassifizierungssatzes
+
+So bearbeiten Sie einen Klassifizierungssatz in der Hauptbenutzeroberfläche:
+
+1. Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Klassifizierungssätze]**.
+1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
+1. Wählen Sie den Titel Ihres Klassifizierungssatzes aus.
+1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatztitel_]**können Sie die [Einstellungen](settings.md) und das [Schema](schema.md) für den Klassifizierungssatz definieren.
+1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
+
+
+<!--
+
+
+### Schema
+
+In the Schema tab 
+
+
+
+
+
+You can use the Classification set manager to create a classification set.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
+
+When creating a classification set, the following fields are available.
+
+* **[!UICONTROL Name]**: A text field used to identify the classification set. This field cannot be edited upon creation, but can be renamed later.
+* **[!UICONTROL Column Name]**: The name of the first classification dimension that you want to create. This field is the dimension name used in Analysis Workspace, and the column name when exporting classification data. You can add more column names after the classification set is created.
+* **[!UICONTROL Type]**: Radio buttons that indicate the type of classification.
+  * **[!UICONTROL Primary]**: Apply to dimensions collected in Analytics. They are a way to group (classify) granular dimension values into more meaningful levels of data. For example, you might want to group internal search keywords into internal search categories, to better understand themes in your search data.
+  * **[!UICONTROL Lookup]**: Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. It is metadata about a classification value, rather than the original dimension. For example, the Product variable might have a primary classification of 'Color code'. A lookup table of 'Color name' could then be attached to 'Color code' to further explain what each code means.
+* **[!UICONTROL Subscriptions]** The report suites and dimensions that this classification set applies to. You can add multiple report suite and dimension combinations to a classification set.
+
+![Create a Classification set](../../assets/classification-set-create.png)
+
+If a classification set exists for a given report suite + variable, the classification is added to the schema instead. A given report suite + variable combination cannot belong to multiple classification sets.
+
+-->

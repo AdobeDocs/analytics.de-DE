@@ -1,28 +1,49 @@
 ---
-title: Klassifizierungssatz-Einstellungen
-description: Erstellen oder bearbeiten Sie einen Klassifizierungssatz.
+title: Einstellungen für Klassifizierungssätze
+description: Erfahren Sie, wie Sie einen Klassifizierungssatz erstellen oder bearbeiten.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 97%
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 
 # Klassifizierungssatz-Einstellungen
 
-Konfigurieren Sie die Einstellungen eines Klassifizierungssatzes.
+Sie können die anfänglichen Einstellungen eines Klassifizierungssatzes bearbeiten.
 
-**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sätze]** > auf den Namen des gewünschten Klassifizierungssatzes klicken > **[!UICONTROL Einstellungen]**
+Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie die Einstellungen bearbeiten möchten.
 
-![Klassifizierungssatz-Einstellungen](../../assets/classification-set-settings.png)
+Auf der Registerkarte **[!UICONTROL Einstellungen]** des Dialogfelds **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatztitel_]**, falls zutreffend:
 
-Die folgenden Felder sind auf dieser Registerkarte verfügbar:
+![Klassifizierungssätze - Einstellungen](assets/classification-sets-settings.png)
 
-* **[!UICONTROL Name]**: Der Name des Klassifizierungssatzes.
-* **[!UICONTROL Beschreibung]**: Die Beschreibung für den Klassifizierungssatz.
-* **[!UICONTROL Benachrichtigung bei Problemen]**: Eine kommagetrennte Liste von E-Mail-Adressen, die bei Problemen mit diesem Klassifizierungssatz benachrichtigt werden.
-* **[!UICONTROL Tags]**: Fügen Sie dem ausgewählten Klassifizierungssatz ein oder mehrere Tags hinzu. Mit Tags können Sie Klassifizierungssätze organisieren oder gruppieren, damit sie in Zukunft einfacher zu finden sind.
-* **[!UICONTROL Typ]**: Der Typ der Klassifizierung, entweder [!UICONTROL Primär] oder [!UICONTROL Lookup]. Normalerweise werden primäre Klassifizierungen verwendet. Der Typ eines Klassifizierungssatzes kann nach seiner Erstellung nicht mehr geändert werden.
-* **[!UICONTROL Abonnements]** Die Kombinationen aus Report Suite und Dimensionen, für die dieser Klassifizierungssatz gilt.
+1. Bearbeiten Sie den **[!UICONTROL Name]**.
+1. Bearbeiten Sie eine **[!UICONTROL Beschreibung (optional)]**.
+1. Bearbeiten Sie die Liste der E-Mail-Adressen (Kommatrennzeichen) in **[!UICONTROL Bei Problemen benachrichtigen]**. Diese Benutzer werden per E-Mail über Probleme benachrichtigt.
+1. Fügen Sie ein oder **[!UICONTROL Tags (optional]** zum Klassifizierungssatz hinzu. Wählen Sie ein vorhandenes Tag aus dem **[!UICONTROL Tags]**-Dropdown-Menü aus oder geben Sie ein neues Tag ein. Verwenden Sie ![CrossSize100](/help/assets/icons/CrossSize100.svg), um ein Tag zu entfernen.
+1. Bearbeiten Sie die **[!UICONTROL Abonnements]**.
+   * Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
+   * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
+
+
+<!--
+
+Configure a classification set's settings.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
+
+![classification set settings](../../assets/classification-set-settings.png)
+
+The following fields are available in this tab:
+
+* **[!UICONTROL Name]**: The classification set name.
+* **[!UICONTROL Description]**: The description for the classification set.
+* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this classification set.
+* **[!UICONTROL Tags]**: Add one or more tags to the selected classification set. Tags allow you to organize or group classification sets so that it is easier to locate them in the future.
+* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used. You cannot alter a classification set's type after it is created.
+* **[!UICONTROL Subscriptions]**: The report suite and dimension combinations that the classification set applies to.
+
+-->

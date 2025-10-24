@@ -1,53 +1,128 @@
 ---
-title: Klassifizierungssatz-Manager
+title: Verwalten von Klassifizierungssätzen
 description: Verwalten Sie Klassifizierungssätze in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 015a5556b4de38c142e1f7f861b73eae3d186ada
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 7%
+source-wordcount: '615'
+ht-degree: 5%
 
 ---
 
-# Klassifizierungssatz-Manager
+# Verwalten von Klassifizierungssätzen
 
-Mit dem Classification Set Manager können Sie Klassifizierungssätze erstellen, bearbeiten oder löschen.
+Sie können Klassifizierungssätze in der Verwaltungsoberfläche für Klassifizierungssätze erstellen, umbenennen, bearbeiten, konsolidieren, löschen und taggen. Sie können auch nach bestimmten Klassifizierungssätzen filtern und diese suchen.
 
-**[!UICONTROL Komponenten]** > **[!UICONTROL Klassifizierungssätze]** > **[!UICONTROL Sets]**
+So verwalten Sie Klassifizierungssätze:
 
-Klassifizierungssätze bestehen aus **Abonnements** (Kombinationen aus Report Suite und Dimension) und **Klassifizierungsnamen** (Dimensionen, die Klassifizierungsdaten enthalten). Abonnements werden unter [Einstellungen](settings.md) konfiguriert, während Klassifizierungsnamen unter [Schema](schema.md) konfiguriert werden.
+1. Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Klassifizierungssätze]**.
+1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 
-## Filtern von Klassifizierungssätzen
+## Classification Sets Manager
 
-Auf der linken Seite des Classification Set Manager finden Sie Filtereinstellungen, um den gewünschten Klassifizierungssatz zu finden. Durch Klicken auf das Filtersymbol wird die Sichtbarkeit der Filtereinstellungen ein-/ausgeblendet. Sie können Klassifizierungssätze nach **[!UICONTROL Tags]** oder **[!UICONTROL Report Suite)]**.
+Der **[!UICONTROL Classification Sets]**-Manager verfügt über die folgenden Elemente der Benutzeroberfläche:
 
-![Klassifizierungssatzfilter](../../assets/classification-set-filters.png)
+![Classification Sets Manager](assets/classification-sets-manage.png)
 
-Beachten Sie, dass jeweils 1.000 Klassifizierungssätze vorgeladen werden. Die in der linken Leiste angezeigten Filter spiegeln die Optionen für die Sätze wider, die vorgeladen werden.
 
-## Classification Set Manager-Spalten
+### Liste der Klassifizierungssätze
 
-Die folgenden Spalten sind im Classification Set Manager verfügbar:
+Die **[!UICONTROL Klassifizierungssätze]** Liste ➊ zeigt alle Klassifizierungssätze an. Die Liste umfasst die folgenden Spalten:
 
-* **[!UICONTROL Klassifizierungssatz]**: Der Name des Klassifizierungssatzes. Wenn Sie auf den Namen eines Klassifizierungssatzes klicken, wird dessen [&#x200B; (Einstellungen](settings.md) bearbeitet.
-* **[!UICONTROL Abonnements]**: Die Anzahl der Abonnements, für die dieser Klassifizierungssatz gilt.
-* **[!UICONTROL Klassifizierungen]**: Die Anzahl der Klassifizierungsdimensionen, die der Klassifizierungssatz enthält.
-* **[!UICONTROL Automated]**: Bestimmt, ob der Klassifizierungssatz so konfiguriert ist, dass Daten automatisch aus einem Cloud-Speicherort importiert werden. Die Automatisierung kann im (Schema) des Klassifizierungssatzes [&#x200B; werden](schema.md).
-* **[!UICONTROL Zuletzt geändert]**: Datum und Uhrzeit der letzten Änderung des Klassifizierungssatzes.
+| Spalte | Beschreibung |
+|---|---|
+| **[!UICONTROL Klassifizierungssatz]** | Der Titel des Klassifizierungssatzes. Wählen Sie den Titel aus[ um den Klassifizierungssatz zu ](create.md#edit-a-classification-set). |
+| **[!UICONTROL Abonnements]** | Die Anzahl der Abonnements, für die der Klassifizierungssatz gilt. |
+| **[!UICONTROL Klassifizierungen]** | Die Anzahl der Klassifizierungsdimensionen, die der Klassifizierungssatz enthält. |
+| **[!UICONTROL Automated]** | Ist der Klassifizierungssatz so konfiguriert, dass Daten automatisch aus einem Cloud-Speicherort importiert werden oder nicht? Diese Automatisierung kann als Teil des Schemas [Klassifizierungssätze“ konfiguriert ](schema.md). |
+| **[!UICONTROL Zuletzt geändert]** | Der Zeitstempel der letzten Änderung des Klassifizierungssatzes. |
 
-## Erstellen oder Bearbeiten von Optionen
+So ändern Sie die Größe einer Spalte in der Liste der Klassifizierungssätze:
 
-Die folgenden Schaltflächen sind im Classification Set Manager verfügbar:
+* Bewegen Sie den Mauszeiger über das Spaltentrennzeichen und ziehen Sie das Spaltentrennzeichen auf die gewünschte Spaltenbreite.
+* Wählen Sie ![ChevronDown](/help/assets/icons/ChevronDown.svg) und wählen Sie **[!UICONTROL Spaltengröße ändern]**. Mit einer vertikalen Linie mit der Schaltfläche Größe ändern können Sie die Größe der Spalte in das gewünschte Format ändern.
 
-* **[!UICONTROL Hinzufügen]**: [Erstellen](create.md) eines Klassifizierungssatzes.
-* **[!UICONTROL Suche nach Titel]**: Suchen nach Klassifizierungssätzen nach Namen.
-* **[!UICONTROL Mehr laden]**: Der Classification Set Manager zeigt zunächst bis zu 1000 Klassifizierungssätze an. Mit dieser Schaltfläche werden 1000 weitere Klassifizierungssätze geladen.
-* **Spalten ein-/ausblenden**: Ein-/Ausschalten der Sichtbarkeit für eine beliebige Spalte außer [!UICONTROL Klassifizierungssatz].
+So sortieren Sie eine Spalte in der Liste der Klassifizierungssätze
 
-Wählen Sie einen oder mehrere Klassifizierungssätze aus, indem Sie auf das Kontrollkästchen neben dem gewünschten Klassifizierungssatz klicken. Bei Auswahl eines Klassifizierungssatzes werden die folgenden Optionen angezeigt:
+* Wählen Sie ![ChevronDown](/help/assets/icons/ChevronDown.svg) und wählen Sie **[!UICONTROL Aufsteigend sortieren]** oder **[!UICONTROL Absteigend sortieren]**. Ein Pfeil (↑↓) gibt an, welche Spalte sortiert ist.
 
-* **[!UICONTROL Tag]**: Fügen Sie ein oder mehrere Tags zu den ausgewählten Klassifizierungssätzen hinzu, um Klassifizierungssätze zu organisieren oder zu gruppieren, damit sie später leichter zu finden sind.
-* **[!UICONTROL Löschen]**: Löscht den Klassifizierungssatz. Klassifizierungsdimensionen, die auf diesem Klassifizierungssatz basieren, sind nicht mehr verfügbar. Geplante Projekte, die den gelöschten Klassifizierungssatz verwenden, verwenden weiterhin abhängige Dimensionen, bis das geplante Projekt erneut gespeichert wird.
-* **[!UICONTROL Konsolidieren]**: Beginnen Sie eine neue [Konsolidierung](../consolidations/process.md).
-* **[!UICONTROL Umbenennen]**: Umbenennen des ausgewählten Klassifizierungssatzes.
+### Suchen und Schaltflächen
+
+Im Bereich ➋ oben in der Liste der Klassifizierungssätze haben Sie folgende Möglichkeiten:
+
+* Suchen ![Suchen](/help/assets/icons/Search.svg) nach Klassifizierungssätzen. Die Ergebnisse werden in der Liste der Klassifizierungssätze angezeigt. Wählen ![CrossSize200](/help/assets/icons/CrossSize200.svg) aus, um die Suche zu löschen.
+* Entfernen Sie alle Filter, die auf die Liste der Klassifizierungssätze angewendet werden. Wählen Sie ![CrossSize100](/help/assets/icons/CrossSize100.svg) aus, um einen Filter zu entfernen.
+* Wählen Sie ![MoreCircle](/help/assets/icons/MoreCircle.svg) aus, um weitere 1000 Klassifizierungssätze zu laden. Zunächst werden in der Liste der Klassifizierungssätze bis zu 1000 Klassifizierungssätze angezeigt.
+* Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]** aus, [einen neuen Klassifizierungssatz zu erstellen](create.md#create-a-classification-set).
+* Definieren Sie die Spalten der Klassifizierungssatzliste. Wählen Sie ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) aus und wählen Sie im Dialogfeld **[!UICONTROL Tabelle anpassen]** die Spalten aus, die unter **[!UICONTROL Select columns to show]**. Wählen Sie **[!UICONTROL Anwenden]** aus, um die Spalteneinstellungen anzuwenden.
+
+
+### Aktionsleiste
+
+Wenn Sie einen oder mehrere Klassifizierungssätze in der Klassifizierungssatz-Liste auswählen, wird eine blaue Aktionsleiste ➌. Die folgenden Aktionen sind in der Aktionsleiste verfügbar:
+
+| Symbol | Aktion | Beschreibung |
+|---|---|---|
+| ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Bearbeiten]** | [Bearbeiten Sie den Klassifizierungssatz](create.md#edit-a-classification-set) im Classification Set Builder. |
+| ![Umbenennen](/help/assets/icons/Rename.svg) | **[!UICONTROL Umbenennen]** | Benennen Sie einen Klassifizierungssatz um.<br/>Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: _Klassifizierungssatz_]**einen neuen Namen ein und wählen Sie **[!UICONTROL Umbenennen]**. |
+| ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL Konsolidieren]** | [Konsolidieren Sie Klassifizierungssätze](/help/components/classifications/sets/consolidations/manage.md). |
+| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löschen eines Klassifizierungssatzes.<br/>Der **[!UICONTROL Löschen _Klassifizierungssatz_?]** Dialogfeld wird angezeigt. Das Löschen eines Klassifizierungssatzes kann nicht rückgängig gemacht werden. Alle geplanten Projekte oder Konsolidierungen, die diesen Klassifizierungssatz verwenden, verwenden weiterhin die Definition dieses Klassifizierungssatzes, bis Sie die geplanten Projekte erneut speichern oder die geplanten Konsolidierungen erneut überprüfen. Wählen Sie **[!UICONTROL Löschen]** aus, um den Klassifizierungssatz zu löschen. |
+| ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Kennzeichnen Sie den Klassifizierungssatz.<br/>Wählen Sie im Dialogfeld **[!UICONTROL Tag: _Klassifizierungssatz_]**ein oder mehrere Tags aus dem Dropdown-Menü&#x200B;**[!UICONTROL Tags]**aus, um Tags hinzuzufügen. Oder geben Sie ein oder mehrere neue Tags ein. Verwenden Sie ![CrossSize100](/help/assets/icons/CrossSize100.svg), um ein Tag zu entfernen. <br/>Wählen Sie **[!UICONTROL Speichern]**, um die Tags zu speichern. |
+
+
+### Panel „Filter“
+
+Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die ➍ des Filterbedienfelds anzuzeigen, mit der Sie die Klassifizierungssatzliste filtern können. Sie können nach folgenden Kriterien filtern:
+
+* **[!UICONTROL Tags]**: Wählen Sie ein oder mehrere Tags aus, um die Liste der Klassifizierungssätze nach Tags zu filtern.
+* **[!UICONTROL Report Suite]**. Wählen Sie eine oder mehrere Report Suites aus, um die Liste der Klassifizierungssätze nach Report Suites zu filtern.
+
+Wählen Sie ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter ausblenden]** aus, um das Bedienfeld „Filter“ auszublenden.
+
+Beachten Sie, dass die im Bedienfeld Filter angezeigten Filter die Optionen für die vorab geladenen Klassifizierungssätze widerspiegeln.
+
+
+<!-- old content
+
+The Classification set manager allows you to create, edit, or delete classification sets.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]**
+
+Classification sets consist of **Subscriptions** (report suite and dimension combinations) and **Classification names** (dimensions containing classification data). Subscriptions are configured under [Settings](settings.md), while classification names are configured under [Schema](schema.md).
+
+## Filter classification sets
+
+The left side of the Classification set manager provides filter settings to locate the desired classification set. Clicking the filter icon toggles the filter settings visibility. You can filter classification sets by **[!UICONTROL Tags]** or **[!UICONTROL Report suite]**.
+
+![Classification set filters](../../assets/classification-set-filters.png)
+
+Note that 1,000 classification sets are preloaded at a time. The filters shown in the left rail reflect the options for the sets that are preloaded.
+
+## Classification set manager columns
+
+The following columns are available in the Classification set manager:
+
+* **[!UICONTROL Classification set]**: The classification set name. Clicking a classification set name edits its [settings](settings.md).
+* **[!UICONTROL Subscriptions]**: The number of subscriptions that this classification set applies to.
+* **[!UICONTROL Classifications]**: The number of classification dimensions that the classification set contains.
+* **[!UICONTROL Automated]**: Determines if the classification set is configured to automatically import data from a cloud location. Automation can be configured in the classification set's [schema](schema.md).
+* **[!UICONTROL Last Modified]**: The date and time that the classification set was last modified.
+
+## Create or edit options
+
+The following buttons are available in the Classification set manager:
+
+* **[!UICONTROL Add]**: [Create](create.md) a classification set.
+* **[!UICONTROL Search by title]**: Search for classification sets by name.
+* **[!UICONTROL Load more]**: The Classification set manager initially displays up to 1000 classification sets. This button loads 1000 more classification sets.
+* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Classification set].
+
+Select one or more classification sets by clicking the checkbox next to the desired classification set. Selecting a classification set reveals the following options:
+
+* **[!UICONTROL Tag]**: Add one or more tags to the selected classification sets, which allows you to organize or group classification sets to make them easier to locate in the future.
+* **[!UICONTROL Delete]**: Deletes the classification set. Classification dimensions based on this classification set are no longer available. Scheduled projects using the deleted classification set continue using dependent dimensions until you resave the scheduled project.
+* **[!UICONTROL Consolidate]**: Start a new [consolidation](../consolidations/process.md).
+* **[!UICONTROL Rename]**: Rename the selected classification set.
+
+-->

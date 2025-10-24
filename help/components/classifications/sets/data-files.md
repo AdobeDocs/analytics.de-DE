@@ -1,23 +1,23 @@
 ---
-description: Von Klassifizierungssätzen unterstützte Dateiformate
+description: Machen Sie sich mit den verschiedenen Dateiformaten vertraut, die Klassifizierungssätze unterstützen
 title: Dateiformate für Klassifizierungssätze
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: c642664ecca24d9fc555944fb2b449f30eac879d
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
 
 # Dateiformate für Klassifizierungssätze
 
-Klassifizierungssätze unterstützen mehrere Dateiformate für das Massen-Hochladen von Klassifizierungsdaten. Für jedes Format gelten spezifische Anforderungen für erfolgreiche Daten-Uploads.
+Klassifizierungssätze unterstützen verschiedene Dateiformate zum Hochladen von Klassifizierungsdaten. Für jedes Format gelten spezifische Anforderungen für erfolgreiche Daten-Uploads.
 
-Sobald Ihre Datei ordnungsgemäß gemäß diesen Spezifikationen formatiert ist, können Sie sie über die Oberfläche der Klassifizierungssätze oder die API hochladen. Detaillierte Upload-Anweisungen finden Sie unter:
+Sobald Ihre Datei entsprechend diesen Spezifikationen formatiert ist, können Sie die Daten über die Oberfläche der Klassifizierungssätze oder die -API hochladen. Detaillierte Upload-Anweisungen finden Sie unter:
 
-* **Browser-Upload**: Siehe [Schema](manage/schema.md)
-* **API-Upload**: Siehe [Analytics Classifications API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
+* **Browser-Upload**: Siehe [Hochladen](manage/schema.md#upload) in der [Schema](manage/schema.md)-Oberfläche für einen Klassifizierungssatz.
+* **API-Upload**: Siehe die [Analytics Classifications-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
 
 Klassifizierungssätze unterstützen die folgenden Dateiformate:
 
@@ -33,7 +33,7 @@ Alle Dateiformate müssen die folgenden Anforderungen erfüllen:
 * **Zeichenbeschränkungen**: Einzelne Classification-Werte haben eine Obergrenze von 255 Byte.
 * **Schlüsselanforderungen**: Schlüsselwerte dürfen nicht leer sein oder nur Leerzeichen enthalten. Wenn doppelte Schlüssel vorhanden sind, wird das letzte Vorkommen verwendet.
 
-+++**Details im JSON-Format**
++++ Details zum JSON-Format
 
 Das JSON-Dateiformat folgt den Konventionen für JSON-Zeilen (JSON). Die Datei muss ein JSON-Objekt pro Zeile enthalten, wobei jedes Objekt einen einzelnen Klassifizierungseintrag darstellt.
 
@@ -77,7 +77,7 @@ Bei allen JSON-Feldnamen (`key`, `data`, `action`, `enc`) wird zwischen Groß- u
 {"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
 ```
 
-**Gesamten Schlüssel löschen:**
+**Löschen eines gesamten Schlüssels:**
 
 ```json
 {"key": "product999", "action": "delete-key"}
@@ -93,7 +93,7 @@ Bei allen JSON-Feldnamen (`key`, `data`, `action`, `enc`) wird zwischen Groß- u
 
 +++
 
-+++**Details zum CSV-Format**
++++ CSV-Formatdetails
 
 CSV-Dateien (kommagetrennte Werte) verwenden Kommas, um Klassifizierungsdatenfelder zu trennen.
 
@@ -115,7 +115,7 @@ product456,"Running Shoes",Brand B,Sports,79.99
 product789,"Winter Jacket",Brand C,Clothing,149.99
 ```
 
-**Gesamten Schlüssel löschen:**
+**Löschen eines gesamten Schlüssels:**
 
 ```csv
 Key,Product Name,Brand,Category,Price
@@ -132,31 +132,32 @@ product456,,~empty~,~empty~,79.99
 
 ### CSV-Formatierungsregeln
 
-* Felder mit Kommas müssen in doppelte Anführungszeichen gesetzt werden
-* Felder, die doppelte Anführungszeichen enthalten, müssen Anführungszeichen umgehen, indem sie sie verdoppeln (`""`)
-* Leere Felder stellen Null-Werte für diese Klassifizierung dar
-* Führende und nachfolgende Leerzeichen um Felder werden automatisch abgeschnitten
-* Sonderzeichen (Tabulatoren, Zeilenumbrüche) in Anführungszeichen werden beibehalten
+* Felder, die Kommas enthalten, müssen in doppelte Anführungszeichen gesetzt werden.
+* Felder, die doppelte Anführungszeichen enthalten, müssen die Anführungszeichen durch Verdoppelung umgehen (`""`).
+* Leere Felder stellen Null-Werte für diese Klassifizierung dar.
+* Führende und nachfolgende Leerzeichen um Felder werden automatisch abgeschnitten.
+* Sonderzeichen (Tabulatoren, Zeilenumbrüche) in Anführungszeichen werden beibehalten.
 
 **Löschvorgänge:**
+
 * Verwenden Sie `~deletekey~` in einem beliebigen Feld, um den gesamten Schlüssel und alle zugehörigen Klassifizierungsdaten zu löschen
 * Verwenden Sie `~empty~` in bestimmten Feldern, um nur diese Classification-Werte zu löschen (andere Felder bleiben intakt)
 * Bei Verwendung von `~empty~` können Sie Löschungen mit Aktualisierungen in derselben Datei kombinieren
 
 +++
 
-+++**Details zum TSV/TAB-Format**
++++ Details zum TSV- und TAB-Format
 
 TSV- (Tabulatorgetrennte Werte) und TAB-Dateien verwenden Tabulatorzeichen, um Klassifizierungsdatenfelder zu trennen.
 
-### TSV/TAB-Struktur
+### TSV- und TAB-Struktur
 
 * **Kopfzeile**: Die erste Zeile muss Spaltenüberschriften enthalten, und die erste Spalte muss die Schlüsselspalte sein. Die nachfolgenden Spalten sollten mit den Namen Ihres Klassifizierungssatz-Schemas übereinstimmen.
-* **Datenzeilen**: Jede nachfolgende Zeile enthält Klassifizierungsdaten
-* **Trennzeichen**: Felder werden durch Tabulatorzeichen getrennt (`\t`)
-* **Anführungszeichen**: Im Allgemeinen ist keine Anführungszeichen erforderlich, aber einige Implementierungen unterstützen zitierte Felder
+* **Datenzeilen**: Jede nachfolgende Zeile enthält Klassifizierungsdaten.
+* **Trennzeichen**: Felder werden durch Tabulatorzeichen (`\t`) getrennt.
+* **Anführungszeichen**: Im Allgemeinen ist keine Anführungszeichen erforderlich, aber einige Implementierungen unterstützen zitierte Felder.
 
-### TSV/TAB-Beispiele
+### TSV- und TAB-Beispiele
 
 **Grundlegende Klassifizierungsdaten:**
 
@@ -167,7 +168,7 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Gesamten Schlüssel löschen:**
+**Löschen eines gesamten Schlüssels:**
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -184,16 +185,17 @@ product456        ~empty~    ~empty~    79.99
 
 ### TSV/TAB-Formatierungsregeln
 
-* Felder werden durch einzelne Tabulatorzeichen getrennt
-* Leere Felder (aufeinander folgende Registerkarten) stellen Null-Werte dar
-* Normalerweise ist kein spezielles Angebot erforderlich
-* Leerzeichen am Anfang und Ende bleiben erhalten
-* Zeilenumbrüche innerhalb von Feldern sollten vermieden werden
+* Felder werden durch einzelne Tabulatorzeichen getrennt.
+* Leere Felder (aufeinander folgende Registerkarten) stellen Null-Werte dar.
+* Normalerweise ist kein spezielles Angebot erforderlich.
+* Leerzeichen am Anfang und Ende bleiben erhalten.
+* Zeilenumbrüche innerhalb von Feldern sollten vermieden werden.
 
 **Löschvorgänge:**
-* Verwenden Sie `~deletekey~` in einem beliebigen Feld, um den gesamten Schlüssel und alle zugehörigen Klassifizierungsdaten zu löschen
-* Verwenden Sie `~empty~` in bestimmten Feldern, um nur diese Classification-Werte zu löschen (andere Felder bleiben intakt)
-* Bei Verwendung von `~empty~` können Sie Löschungen mit Aktualisierungen in derselben Datei kombinieren
+
+* Verwenden Sie `~deletekey~` in einem beliebigen Feld, um den gesamten Schlüssel und alle zugehörigen Klassifizierungsdaten zu löschen.
+* Verwenden Sie `~empty~` in bestimmten Feldern, um nur diese Classification-Werte zu löschen (andere Felder bleiben intakt).
+* Bei Verwendung von `~empty~` können Sie Löschungen mit Aktualisierungen in derselben Datei mischen.
 
 +++
 
@@ -203,31 +205,31 @@ Häufige Upload-Probleme und -Lösungen:
 
 ### Allgemeine Dateiformatfehler
 
-* **Ungültiges Dateiformat**: Stellen Sie sicher, dass Ihre Dateierweiterung dem Inhaltsformat (.json, .csv, .tsv oder .tab) entspricht.
-* **„Unbekannter Header“**: Spaltennamen müssen mit Ihrem Klassifizierungssatz-Schema übereinstimmen (gilt für alle Formate).
+* **Ungültiges Dateiformat**: Stellen Sie sicher, dass Ihre Dateierweiterung dem Inhaltsformat (`.json`, `.csv`, `.tsv` oder `.tab`) entspricht.
+* **Unbekannter Header**: Spaltennamen müssen mit Ihrem Klassifizierungssatz-Schema übereinstimmen (gilt für alle Formate).
 
-### CSV-/TSV-spezifische Fehler
+### CSV- und TSV-spezifische Fehler
 
-* **„Die erste Spalte muss der Schlüssel sein“**: Stellen Sie sicher, dass Ihre CSV-/TSV-Datei über eine geeignete Kopfzeile mit der ersten Schlüsselspalte verfügt.
-* **„Mindestens zwei Kopfzeilenelemente sind erforderlich“**: CSV-/TSV-Dateien müssen mindestens eine Spalte „Schlüssel“ und eine Classification-Spalte aufweisen.
-* **„Die erste Kopfzeilenspalte muss &#39;Schlüssel&#39; heißen“**: Die erste Spaltenüberschrift muss genau &#39;Schlüssel&#39; sein (Groß-/Kleinschreibung beachten).
-* **„Leere Kopfzeilen sind nicht zulässig“**: Alle CSV/TSV-Spaltenüberschriften müssen Namen haben.
-* **„Die Anzahl der Spalten stimmte nicht mit den Kopfzeilen überein“**: Jede CSV-/TSV-Datenzeile muss dieselbe Anzahl von Feldern enthalten wie die Kopfzeile.
-* **„Fehlerhaftes Dokument“**: CSV-Anführungszeichen überprüfen, ordnungsgemäße Tab-Trennung in TSV-Dateien usw.
+* **Die erste Spalte muss der Schlüssel sein**: Stellen Sie sicher, dass Ihre CSV- oder TSV-Datei über eine geeignete Kopfzeile mit der ersten Schlüsselspalte verfügt.
+* **Mindestens zwei Kopfzeilenelemente sind erforderlich**: CSV- oder TSV-Dateien müssen mindestens eine `Key` und eine Classification-Spalte aufweisen.
+* **Die erste Kopfzeilenspalte muss „Schlüssel“ heißen** Die erste Spaltenüberschrift muss genau `Key` sein (`K`, Groß-/Kleinschreibung beachten).
+* **Leere Kopfzeilen sind nicht zulässig**: Alle CSV/TSV-Spaltenkopfzeilen müssen Namen haben.
+* **Die Anzahl der Spalten stimmte nicht mit den Kopfzeilen überein**: Jede CSV- oder TSV-Datenzeile muss dieselbe Anzahl von Feldern enthalten wie die Kopfzeile.
+* **Falsch formatiertes Dokument**: Überprüfen Sie CSV-Anführungszeichen, ordnungsgemäße Tab-Trennung in TSV-Dateien und mehr.
 
 ### JSON-spezifische Fehler
 
-* **„Schlüssel ist ein erforderliches Feld“**: Alle JSON-Datensätze müssen über ein nicht leeres `"key"`-Feld verfügen (Groß-/Kleinschreibung beachten).
-* **„Daten sind ein erforderliches Feld bei Verwendung von action=update“**: JSON-Aktualisierungsaktionen müssen ein `"data"` Feld enthalten.
-* **„Daten sind ein erforderliches Feld bei Verwendung von action=delete-field“**: JSON-Löschfeld-Aktionen müssen angeben, welche Felder im `"data"` Feld gelöscht werden sollen.
-* **„Bei Verwendung von action=delete-key dürfen keine Daten vorhanden sein“**: Aktionen mit JSON-Löschschlüsseln können kein `"data"` enthalten.
-* **„Nicht unterstützte Kodierung“**: Verwenden Sie nur unterstützte Kodierungswerte im `"enc"` (utf8, UTF8, latin1, LATIN1).
+* **Schlüssel ist ein erforderliches Feld**: Alle JSON-Datensätze müssen über ein nicht leeres `"key"`-Feld verfügen (bei Kleinbuchstaben wird zwischen Groß- und Kleinschreibung unterschieden).
+* **Daten sind ein erforderliches Feld bei Verwendung von action=update**: JSON-Aktualisierungsaktionen müssen ein `"data"` Feld enthalten.
+* **Daten sind ein erforderliches Feld bei Verwendung von action=delete-field**: Bei JSON-Löschfeldaktionen muss angegeben werden, welche Felder im `"data"` Feld gelöscht werden sollen.
+* **Bei Verwendung von action=delete-key dürfen keine Daten vorhanden sein** JSON-Löschschlüsselaktionen können kein `"data"`-Feld enthalten.
+* **Nicht unterstützte Kodierung**: Verwenden Sie nur unterstützte Kodierungswerte im `"enc"` (`utf8`, `UTF8`, `latin1`, `LATIN1`).
 * **Ungültige JSON-Syntax**: Stellen Sie sicher, dass die JSON-Datei gemäß den JSONL-Konventionen korrekt formatiert ist. Überprüfen Sie auch auf allgemeine JSON-Formatierung, fehlende Anführungszeichen, Kommas, Klammern usw.
 
 ### Fehler bei der Größenbeschränkung
 
-* **„Key exceeded maximum size“**: Einzelne Schlüssel dürfen 255 Byte nicht überschreiten.
-* **„Spaltenwert überschreitet die maximale Größe“**: Einzelne Classification-Werte dürfen 255 Byte nicht überschreiten.
+* **Schlüssel überschreitet die maximale**: Einzelne Schlüssel dürfen 255 Byte nicht überschreiten.
+* **Spaltenwert überschreitet die maximale Größe**: Einzelne Classification-Werte dürfen 255 Byte nicht überschreiten.
 
 ## Best Practices
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
+source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
 workflow-type: tm+mt
-source-wordcount: '2997'
+source-wordcount: '2999'
 ht-degree: 87%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->&#x200B;>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 
 >[!WARNING]
 >
->Der Classification Rule Builder wird nicht mehr unterstützt und ist nach dem 31. **2026 nicht mehr**. Wechseln Sie zum Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um den Fortbestand der Funktionalität sicherzustellen.
+>Der Classification Rule Builder wird nicht mehr unterstützt und ist nach dem 31. **2026 nicht mehr**. Wechseln Sie zum Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), sobald verfügbar, um eine kontinuierliche Funktionalität sicherzustellen.
 >
 
