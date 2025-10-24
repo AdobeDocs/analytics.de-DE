@@ -1,5 +1,5 @@
 ---
-source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
+source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->&#x200B;>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -113,9 +113,9 @@ Je nach Attributionsmodell erhalten Container und Kanäle unterschiedliche Gewic
 
 | Modell | Container | Lookback-Fenster | Erklärung |
 |---|---|---|---|
-| Erstkontakt | Besuch | 30 Tage | Die Attribution untersucht nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs in Höhe von 50 Euro zugeschrieben werden. |
+| Erstkontakt | Besuch | Reporting-Fenster | Die Attribution untersucht nur den dritten Besuch. E-Mail kam vor Display-Anzeige, sodass E-Mail 100 % des Kaufs in Höhe von 50 Euro zugeschrieben werden. |
 | Erstkontakt | Besucher | 30 Tage | Die Attribution untersucht alle drei Besuche. Paid Search kam zuerst, sodass Paid Search 100 % des Kaufs in Höhe von 50 Euro zugeschrieben werden. |
-| Linear | Besuch | 30 Tage | Die Gewichtung wird zwischen E-Mail und Display-Anzeige aufgeteilt. Beiden Kanälen werden jeweils 25 Euro zugeschrieben. |
+| Linear | Besuch | Reporting-Fenster | Die Gewichtung wird zwischen E-Mail und Display-Anzeige aufgeteilt. Beiden Kanälen werden jeweils 25 Euro zugeschrieben. |
 | Linear | Besucher | 30 Tage | Die Gewichtung wird zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt. Jedem Kanal werden für diesen Kauf 12,50 Euro zugeschrieben. |
 | J-förmig | Besucher | 30 Tage | Die Gewichtung wird zwischen Paid Search, Social Media, E-Mail und Display-Anzeige aufgeteilt.<ul><li>Der Display-Anzeige werden 60 %, also 30 Euro, zugeschrieben.</li><li>Paid Search werden 20 %, also 10 Euro, zugeschrieben.</li><li>Die restlichen 20 % werden zwischen Social Media und E-Mail aufgeteilt (jeweils 5 Euro).</li></ul> |
 | Zeitverfall | Besucher | 30 Tage | <ul><li>Abstand von null Tagen zwischen Display-Touchpoint und Konversion. `2^(-0/7) = 1`</li><li>Abstand von null Tagen zwischen E-Mail-Touchpoint und Konversion. `2^(-0/7) = 1`</li><li>Abstand von sechs Tagen zwischen Social Media-Touchpoint und Konversion. `2^(-6/7) = 0.552`</li><li>Abstand von 9 Tagen zwischen Paid Search-Touchpoint und Konversion. `2^(-9/7) = 0.41`</li>Die Normalisierung dieser Werte führt zu Folgendem:<ul><li>Display-Anzeige: 33,8 %, 16,88 Euro</li><li>E-Mail: 33,8 %, 16,88 Euro</li><li>Social Media: 18,6 %, 9,32 Euro</li><li>Paid Search: 13,8 %, 6,92 Euro</li></ul></li></ul> |
