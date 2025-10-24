@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Klassifizierungssätze unterstützen noch keine Regeln. Die Regelfunktionalität wird zur Oberfläche für Klassifizierungssätze hinzugefügt, bevor die alte Regel-Builder-Funktion nicht mehr verfügbar ist.
->>Wenn Sie Regeln für Klassifizierungen benötigen, verwenden Sie weiterhin den [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md).
+>&#x200B;>Wenn Sie Regeln für Klassifizierungen benötigen, verwenden Sie weiterhin den [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md).
 
 
 <!--
