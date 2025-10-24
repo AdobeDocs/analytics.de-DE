@@ -3,7 +3,7 @@ title: Schema des Klassifizierungssatzes
 description: Erfahren Sie, wie Sie das Schema für einen einzelnen Klassifizierungssatz anzeigen und bearbeiten.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 4%
@@ -14,10 +14,10 @@ ht-degree: 4%
 
 Das Schema ist die Liste von Klassifizierungen, die Sie auf die Schlüsseldimensionen anwenden möchten, die Sie für den Klassifizierungssatz definiert haben. Wenn Sie beispielsweise Produkt als Schlüsseldimension definiert haben und dieses Feld eine Produkt-SKU enthält, verwenden Sie das Schema, um Klassifizierungen wie Produktname, Produktfarbe, Produktgröße und mehr hinzuzufügen.
 
-So definieren Sie das Schema für einen Klassifizierungssatz:
+So bearbeiten Sie das Schema für einen Klassifizierungssatz:
 
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(_]**) die Registerkarte Schema aus. Diese Registerkarte besteht aus den folgenden Elementen der Benutzeroberfläche:
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(_]**) die Registerkarte **[!UICONTROL Schema]**aus. Diese Registerkarte besteht aus den folgenden Elementen der Benutzeroberfläche:
 
    ![Klassifizierungssätze - Schema](assets/classification-sets-schema.png)
 
@@ -61,7 +61,7 @@ Um eine neue Klassifizierung hinzuzufügen, wählen Sie ![Hinzufügen](/help/ass
 
 ![Klassifizierungssätze - Hinzufügen einer Klassifizierung zu einem Schema](assets/classification-sets-schema-add-classification.png)
 
-Geben **[!UICONTROL im Dialogfeld _Neue Klassifizierung für Klassifizierungssatz hinzufügen_]**&#x200B;den **[!UICONTROL Klassifizierungsnamen]**&#x200B;ein und wählen Sie **[!UICONTROL Hinzufügen]**. Die Klassifizierung wird der Liste hinzugefügt.
+Geben **[!UICONTROL im Dialogfeld _Neue Klassifizierung für Klassifizierungssatz hinzufügen_]**den **[!UICONTROL Klassifizierungsnamen]**ein und wählen Sie **[!UICONTROL Hinzufügen]**. Die Klassifizierung wird der Liste hinzugefügt.
 
 
 
@@ -154,7 +154,7 @@ Um die Aufnahme der Klassifizierung zu automatisieren, wählen Sie ![Zahnrad](/h
 
 Im Dialogfeld **[!UICONTROL Aufnahme-Speicherort zuordnen/aktualisieren _Klassifizierungssatz_]**:
 
-1. Um einen Cloud-Speicherort auszuwählen, wählen Sie eine Option aus **[!UICONTROL Speicherort-Konto]**. Es [&#x200B; nur (Speicherort-Konten unterstützter Kontotypen angezeigt, die den Import von Klassifizierungsdaten &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts). Um ein neues Konto zu erstellen, wählen Sie **[!UICONTROL Neues Konto]** aus.
+1. Um einen Cloud-Speicherort auszuwählen, wählen Sie eine Option aus **[!UICONTROL Speicherort-Konto]**. Es [ nur (Speicherort-Konten unterstützter Kontotypen angezeigt, die den Import von Klassifizierungsdaten ](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts). Um ein neues Konto zu erstellen, wählen Sie **[!UICONTROL Neues Konto]** aus.
 1. Um einen Speicherort auszuwählen, wählen Sie eine Option aus **[!UICONTROL Speicherort]**. Es werden nur die Standorte der ausgewählten Kontotypen für den Import von Klassifizierungsdaten angezeigt. Um einen neuen Speicherort zu erstellen, wählen Sie **[!UICONTROL Neuer Speicherort]**.
 1. Um ein Trennzeichen auszuwählen, wählen Sie eine Option aus **[!UICONTROL Listentrennzeichen]**. Die Optionen sind:
    * **[!UICONTROL Komma ,]**
@@ -170,7 +170,7 @@ Im Dialogfeld **[!UICONTROL Aufnahme-Speicherort zuordnen/aktualisieren _Klassif
 
 1. Um Benutzer über den Abschluss von Aufnahmevorgängen zu benachrichtigen, geben Sie E-Mail-Adressen ein, durch Kommata getrennt, **[!UICONTROL E-Mail(s), die benachrichtigt werden sollen, wenn Aufnahmevorgänge abgeschlossen sind (durch Kommata getrennt)]**.
 1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiert.
-1. Wenn die Validierung erfolgreich war, wird eine Popup-Meldung angezeigt, in der die ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)Location **[!UICONTROL Validierung erfolgreich angezeigt wird. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie&#x200B;**[!UICONTROL &#x200B; Speichern &#x200B;]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls&#x200B;**[!UICONTROL &#x200B; Aktualisieren &#x200B;]**&#x200B;aus. Oder wählen Sie&#x200B;**[!UICONTROL &#x200B; Abbrechen &#x200B;]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
+1. Wenn die Validierung erfolgreich war, wird eine Popup-Meldung angezeigt, in der die ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)Location **[!UICONTROL Validierung erfolgreich angezeigt wird. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie**[!UICONTROL  Speichern ]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls**[!UICONTROL  Aktualisieren ]**aus. Oder wählen Sie**[!UICONTROL  Abbrechen ]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
 
 
 ## Aktionsleiste
@@ -180,9 +180,9 @@ In der Aktionsleiste werden die Aktionen angezeigt, die für den ausgewählten K
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Durchsuchen](/help/assets/icons/Browse.svg) | **[!UICONTROL Suche hinzufügen]** | Fügen Sie einen Klassifizierungssatz als Suche hinzu (Unterklassifizierung).<br/>In der **[!UICONTROL Lookup anhängen]**-Tabelle: <ol><li>Wählen Sie im Dropdown-Menü **[!UICONTROL Klassifizierungsname]** eine Suchklassifizierung aus.</li><li>Wählen Sie **[!UICONTROL Hinzufügen]** aus.</li></ol>Die Lookup-Klassifizierung wird zur Klassifizierung hinzugefügt und in der Spalte **[!UICONTROL Klassifiziert nach]** mit der internen ID aufgeführt. |
-| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Suche entfernen]** | Entfernen Sie einen Klassifizierungssatz als Suche. Um die Suche dauerhaft aus der Klassifizierung zu löschen, klicken Sie im Bestätigungsdialogfeld **[!UICONTROL _Klassifizierungssatz entfernen_ aus _Klassifizierung_]**&#x200B;auf **[!UICONTROL Löschen]**. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Suche entfernen]** | Entfernen Sie einen Klassifizierungssatz als Suche. Um die Suche dauerhaft aus der Klassifizierung zu löschen, klicken Sie im Bestätigungsdialogfeld **[!UICONTROL _Klassifizierungssatz entfernen_ aus _Klassifizierung_]**auf **[!UICONTROL Löschen]**. |
 | ![Umbenennen](/help/assets/icons/Rename.svg) | **[!UICONTROL Umbenennen]** | Benennen Sie eine Klassifizierung um. Geben **[!UICONTROL im Dialogfeld &quot;_:_]**&quot; einen neuen Namen ein und wählen Sie **[!UICONTROL Umbenennen]**. |
-| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löschen eines Klassifizierungssatzes. Das **[!UICONTROL Löschen _Klassifizierung_]**&#x200B;wird angezeigt. Wählen Sie **[!UICONTROL Löschen]**&#x200B;aus, um den Klassifizierungssatz zu löschen. |
+| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löschen eines Klassifizierungssatzes. Das **[!UICONTROL Löschen _Klassifizierung_]**wird angezeigt. Wählen Sie **[!UICONTROL Löschen]**aus, um den Klassifizierungssatz zu löschen. |
 
 
 <!--
