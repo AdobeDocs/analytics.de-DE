@@ -42,7 +42,7 @@ Das Bedienfeld Segmentvergleich erkennt die meisten statistisch signifikanten Un
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentvergleich](https://video.tv.adobe.com/v/37520?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
