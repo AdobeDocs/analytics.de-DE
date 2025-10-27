@@ -40,7 +40,7 @@ Die ➊ zeigt Klassifizierungskonsolidierungen an, die erstellt und validiert wu
 |---|---|
 | **[!UICONTROL Konsolidierungsname]** | Der Name der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Aktueller Auftrag]** | Der mit der Konsolidierung der Klassifizierungssätze verknüpfte Vorgang. |
-| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Konsolidierung]**, **[!UICONTROL Übergeben]**, ****, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]****[!UICONTROL ,]******, **[!UICONTROL Validierung]** **** ****, |
+| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Konsolidierung]**, **[!UICONTROL Übergeben]**, **&#x200B;**, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]**&#x200B;**[!UICONTROL ,]**&#x200B;**&#x200B;**, **[!UICONTROL Validierung]** **&#x200B;**&#x200B;**&#x200B;**, |
 | **[!UICONTROL Erstellungszeit]** | Die Erstellungszeit der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Abschlusszeit]** | Die Abschlusszeit der Klassifizierungskonsolidierungen. |
 
@@ -71,7 +71,7 @@ Wenn Sie einen oder mehrere Klassifizierungssätze in der Klassifizierungssatz-L
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Bearbeiten]** | [Bearbeiten Sie die Konsolidierung der Klassifizierungssätze](process.md#edit-a-consolidation) |
-| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [ Konsolidierung ](process.md#approve) oder [abbrechen](process.md#cancel). |
+| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [&#x200B; Konsolidierung &#x200B;](process.md#approve) oder [abbrechen](process.md#cancel). |
 
 
 ### Panel „Filter“
