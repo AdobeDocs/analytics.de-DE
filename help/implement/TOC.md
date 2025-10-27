@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren kö
 source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,10 +134,10 @@ ht-degree: 95%
 + Besucheridentifizierung {#id}
    + [Überblick](id/overview.md)
    + [Verwenden der Web SDK-Erweiterung](id/web-sdk-extension.md)
-   + [Verwenden von Web SDK (Legierung)](id/alloy.md)
+   + [Verwenden von Web SDK (Alloy)](id/alloy.md)
    + [Verwenden der Analytics-Erweiterung](id/analytics-extension.md)
    + [Verwenden von AppMeasurement](id/appmeasurement.md)
-   + [Migration zum Besucher-ID-Service](id/migration.md)
+   + [Migrieren zum Besucher-ID-Service](id/migration.md)
    + [Tracking über verschiedene Implementierungstypen hinweg](id/cross-type-implementation.md)
 + Vorbereitungen für die Implementierung von Adobe Analytics {#prepare}
    + [Erstellen einer Datenschicht](prepare/data-layer.md)
@@ -195,7 +195,7 @@ ht-degree: 95%
    + [Analytics auf Facebook Instant Articles implementieren](other/fb-instant-articles.md)
 + [Analytics auf Mobilgeräten implementieren](mobile-device-sdk.md)
 + Anwendungsfälle der Implementierung {#use-cases}
-   + [„AppMeasurement“ mit iFrames verwenden](use-cases/iframe.md)
+   + [AppMeasurement mit iFrames verwenden](use-cases/iframe.md)
    + [Kampagnen-Tracking-Workflow](use-cases/campaign-tracking.md)
 + Validieren der Implementierung {#validate}
    + [Legacy Adobe Experience Cloud-Debugger](validate/debugger.md)
