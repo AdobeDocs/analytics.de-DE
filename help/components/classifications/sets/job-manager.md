@@ -3,9 +3,9 @@ title: Classification Jobs Manager
 description: Erfahren Sie, wie Sie aktuelle und abgeschlossene Klassifizierungsaufträge anzeigen, die aus Klassifizierungssätzen generiert wurden.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,8 @@ Der Classification Jobs Manager zeigt aktuelle und abgeschlossene Klassifizierun
 
 So zeigen Sie Klassifizierungsaufträge an und führen Aktionen für sie durch:
 
-1. Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Klassifizierungssätze]**.
+
+1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Vorgänge]** aus.
 
 ## Classification Jobs Manager
@@ -36,7 +37,7 @@ Die **[!UICONTROL Klassifizierungsaufträge]** Liste ➊ zeigt Klassifizierungsa
 | **[!UICONTROL Vorgangs-ID]** | Die Kennung des Klassifizierungsauftrags. |
 | **[!UICONTROL Klassifizierungssatz]** | Der Klassifizierungssatz, der mit dem Klassifizierungsvorgang verknüpft ist. |
 | **[!UICONTROL size]** | Die Größe der Datei, die als Teil des Klassifizierungsauftrags exportiert oder importiert wurde. |
-| **[!UICONTROL Status]** | Der Status des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL In Warteschlange]**, **[!UICONTROL Validiert]**, **[!UICONTROL Fehlgeschlagene Validierung]**, **[!UICONTROL Verarbeitung]**, **[!UICONTROL Fertig Verarbeitung]**, **[!UICONTROL Fehlgeschlagene Verarbeitung]**, **[!UICONTROL Abgeschlossen]** oder **[!UICONTROL Fortschritt]**. |
+| **[!UICONTROL Status]** | Der Status des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL In Warteschlange]**, **[!UICONTROL Validiert]**, **[!UICONTROL Fehlgeschlagene Validierung]**, **[!UICONTROL Verarbeitung]**, **[!UICONTROL Verarbeitung]**, **[!UICONTROL Fehlgeschlagene Verarbeitung]** , **[!UICONTROL Abgeschlossen]** oder **[!UICONTROL Fortschritt]**. Bewegen Sie gegebenenfalls den Mauszeiger über den Warnhinweis ![Warnhinweis](/help/assets/icons/Alert.svg), um zusätzliche Informationen anzuzeigen. |
 | **[!UICONTROL Dateiname]** | Gibt den Namen oder die Funktion an, die zum Importieren oder Exportieren der Datei als Teil des Klassifizierungsauftrags verwendet wird. Mögliche Werte sind: <ul><li>*kein Wert*</li><li>Der Name der Datei, die als Teil des Klassifizierungsauftrags verarbeitet wird.</li><li>**[!UICONTROL SAINT-Export]**: Der Vorgang ist ein Export aus der [Legacy-Klassifizierungsschnittstelle](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL Export für _Klassifizierungssatz_ bei _Zeitstempel_]**: Der Auftrag ist ein Download aus der [schema](manage/schema.md#download)-Oberfläche.</li></ul> |
 | **[!UICONTROL Vorgangstyp]** | Der Typ des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Import]** oder **[!UICONTROL Export]**. |
 | **[!UICONTROL Quelle]** | Die Quelle des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Web-API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** oder **[!UICONTROL Unknown]**. |

@@ -3,22 +3,22 @@ title: Erstellen von Klassifizierungssätzen
 description: Erfahren Sie, wie Sie verfügbare Felder und Beschreibungen beim Erstellen eines Klassifizierungssatzes erstellen können.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
 
 # Erstellen und Bearbeiten von Klassifizierungssätzen
 
-Über [&#x200B; Manager für Klassifizierungssätze &#x200B;](#create-a-classification-set) Sie [&#x200B; Klassifizierungssätze erstellen und &#x200B;](#edit-a-classification-set) bearbeiten.
+Über [ Manager für Klassifizierungssätze ](#create-a-classification-set) Sie [ Klassifizierungssätze erstellen und ](#edit-a-classification-set) bearbeiten.
 
 ## Erstellen eines Klassifizierungssatzes
 
-So erstellen Sie einen Klassifizierungssatz in der Hauptbenutzeroberfläche:
+So erstellen Sie einen Klassifizierungssatz:
 
-1. Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Klassifizierungssätze]**.
+1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
 1. Im Dialogfeld **[!UICONTROL Neuen Klassifizierungssatz hinzufügen]**:
@@ -42,12 +42,12 @@ So erstellen Sie einen Klassifizierungssatz in der Hauptbenutzeroberfläche:
 
 ## Bearbeiten eines Klassifizierungssatzes
 
-So bearbeiten Sie einen Klassifizierungssatz in der Hauptbenutzeroberfläche:
+So bearbeiten Sie einen Klassifizierungssatz:
 
-1. Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Klassifizierungssätze]**.
+1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen Sie den Titel Ihres Klassifizierungssatzes aus.
-1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatztitel_]**&#x200B;können Sie die [Einstellungen](settings.md) und das [Schema](schema.md) für den Klassifizierungssatz definieren.
+1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatztitel_]**können Sie die [Einstellungen](settings.md) und das [Schema](schema.md) für den Klassifizierungssatz definieren.
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
 

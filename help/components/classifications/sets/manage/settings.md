@@ -3,9 +3,9 @@ title: Einstellungen für Klassifizierungssätze
 description: Erfahren Sie, wie Sie einen Klassifizierungssatz erstellen oder bearbeiten.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
@@ -16,8 +16,11 @@ Sie können die anfänglichen Einstellungen eines Klassifizierungssatzes bearbei
 
 So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
 
+
+1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
+1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(_]**) die Registerkarte **[!UICONTROL Einstellungen]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(_]**) die Registerkarte **[!UICONTROL Einstellungen]**aus.
 
 1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatz_]**, falls zutreffend:
 
@@ -31,7 +34,7 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
       * Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
       * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
 
-      Weitere [&#x200B; finden Sie unter &#x200B;](create.md) eines Klassifizierungssatzes .
+      Weitere [ finden Sie unter ](create.md) eines Klassifizierungssatzes .
 
    1. Klicken Sie **[!UICONTROL Speichern]**, um die Einstellungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
