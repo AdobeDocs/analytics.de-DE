@@ -3,7 +3,7 @@ title: Verwalten von Klassifizierungssätzen
 description: Verwalten Sie Klassifizierungssätze in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -32,10 +32,10 @@ Die **[!UICONTROL Klassifizierungssätze]** Liste ➊ zeigt alle Klassifizierung
 
 | Spalte | Beschreibung |
 |---|---|
-| **[!UICONTROL Klassifizierungssatz]** | Der Titel des Klassifizierungssatzes. Wählen Sie den Titel aus[&#x200B; um den Klassifizierungssatz zu &#x200B;](create.md#edit-a-classification-set). |
+| **[!UICONTROL Klassifizierungssatz]** | Der Name des Klassifizierungssatzes. Wählen Sie den Namen aus[ um den Klassifizierungssatz zu ](create.md#edit-a-classification-set). |
 | **[!UICONTROL Abonnements]** | Die Anzahl der Abonnements, für die der Klassifizierungssatz gilt. |
 | **[!UICONTROL Klassifizierungen]** | Die Anzahl der Klassifizierungsdimensionen, die der Klassifizierungssatz enthält. |
-| **[!UICONTROL Automated]** | Ist der Klassifizierungssatz so konfiguriert, dass Daten automatisch aus einem Cloud-Speicherort importiert werden oder nicht? Diese Automatisierung kann als Teil des Schemas [Klassifizierungssätze“ konfiguriert &#x200B;](schema.md). |
+| **[!UICONTROL Automated]** | Ist der Klassifizierungssatz so konfiguriert, dass Daten automatisch aus einem Cloud-Speicherort importiert werden oder nicht? Diese Automatisierung kann als Teil des Schemas [Klassifizierungssätze“ konfiguriert ](schema.md). |
 | **[!UICONTROL Zuletzt geändert]** | Der Zeitstempel der letzten Änderung des Klassifizierungssatzes. |
 
 So ändern Sie die Größe einer Spalte in der Liste der Klassifizierungssätze:
@@ -65,10 +65,10 @@ Wenn Sie einen oder mehrere Klassifizierungssätze in der Klassifizierungssatz-L
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Bearbeiten]** | [Bearbeiten Sie den Klassifizierungssatz](create.md#edit-a-classification-set) im Classification Set Builder. |
-| ![Umbenennen](/help/assets/icons/Rename.svg) | **[!UICONTROL Umbenennen]** | Benennen Sie einen Klassifizierungssatz um.<br/>Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: _Klassifizierungssatz_]**&#x200B;einen neuen Namen ein und wählen Sie **[!UICONTROL Umbenennen]**. |
+| ![Umbenennen](/help/assets/icons/Rename.svg) | **[!UICONTROL Umbenennen]** | Benennen Sie einen Klassifizierungssatz um.<br/>Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: _Klassifizierungssatz_]**einen neuen Namen ein und wählen Sie **[!UICONTROL Umbenennen]**. |
 | ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL Konsolidieren]** | [Konsolidieren Sie Klassifizierungssätze](/help/components/classifications/sets/consolidations/manage.md). |
 | ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löschen eines Klassifizierungssatzes.<br/>Der **[!UICONTROL Löschen _Klassifizierungssatz_?]** Dialogfeld wird angezeigt. Das Löschen eines Klassifizierungssatzes kann nicht rückgängig gemacht werden. Alle geplanten Projekte oder Konsolidierungen, die diesen Klassifizierungssatz verwenden, verwenden weiterhin die Definition dieses Klassifizierungssatzes, bis Sie die geplanten Projekte erneut speichern oder die geplanten Konsolidierungen erneut überprüfen. Wählen Sie **[!UICONTROL Löschen]** aus, um den Klassifizierungssatz zu löschen. |
-| ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Kennzeichnen Sie den Klassifizierungssatz.<br/>Wählen Sie im Dialogfeld **[!UICONTROL Tag: _Klassifizierungssatz_]**&#x200B;ein oder mehrere Tags aus dem Dropdown-Menü&#x200B;**[!UICONTROL Tags]**&#x200B;aus, um Tags hinzuzufügen. Oder geben Sie ein oder mehrere neue Tags ein. Verwenden Sie ![CrossSize100](/help/assets/icons/CrossSize100.svg), um ein Tag zu entfernen. <br/>Wählen Sie **[!UICONTROL Speichern]**, um die Tags zu speichern. |
+| ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Kennzeichnen Sie den Klassifizierungssatz.<br/>Wählen Sie im Dialogfeld **[!UICONTROL Tag: _Klassifizierungssatz_]**ein oder mehrere Tags aus dem Dropdown-Menü&#x200B;**[!UICONTROL Tags]**aus, um Tags hinzuzufügen. Oder geben Sie ein oder mehrere neue Tags ein. Verwenden Sie ![CrossSize100](/help/assets/icons/CrossSize100.svg), um ein Tag zu entfernen. <br/>Wählen Sie **[!UICONTROL Speichern]**, um die Tags zu speichern. |
 
 
 ### Panel „Filter“
