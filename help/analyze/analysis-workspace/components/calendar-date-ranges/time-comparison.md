@@ -4,10 +4,10 @@ title: Datumsvergleich
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: 27ec105290ea4d093251fc6cf537d57a94015403
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 86%
 
 ---
 
@@ -20,6 +20,11 @@ Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die 
 Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum geliefert wird. Beispielsweise ist *Wie viel besser/schlechter geht es uns im Vergleich zu diesem Zeitpunkt letztes Jahr?* eine zentrale Frage, um Ihr Geschäft zu verstehen. Der Datumsvergleich enthält automatisch eine Spalte *Differenz*, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
 
 1. Erstellen Sie eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mit beliebigen Dimensionen und Metriken, die Sie mit einem bestimmten Zeitraum vergleichen möchten.
+1. Legen Sie den Zeitraum auf dem Bedienfeld oder der Spalte fest, um den Vergleichszeitrahmen zu bestimmen und um festzulegen, ob es sich um einen rollierenden oder einen festen Zeitvergleich handelt.
+
+   Um einen rollierenden Zeitvergleich zu erstellen, legen Sie den Datumsbereich des Bedienfelds oder der Spalte auf einen rollierenden Datumsbereich fest (z. B. **[!UICONTROL Letzte 7 Tage]**, **[!UICONTROL Letzte 30]** usw.).
+
+   Um einen festen Zeitvergleich zu erstellen, legen Sie für den Datumsbereich des Bedienfelds oder der Spalte einen benutzerdefinierten Datumsbereich fest.
 1. Öffnen Sie das Kontextmenü für eine Tabellenzeile und wählen Sie **[!UICONTROL Zeiträume vergleichen]** aus.
 
    ![Tabellenzeile mit ausgewählter Option „Zeiträume vergleichen“](assets/compare-time.png)
@@ -28,7 +33,7 @@ Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum ge
    >
    >Diese Kontextmenüoption ist für Metrikzeilen, Datumsbereichzeilen und Zeitdimensionszeilen deaktiviert.
 
-1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen die folgenden Optionen zum Vergleich zur Verfügung:
+1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen Ihnen die folgenden Vergleichsoptionen zur Verfügung:
 
    | Option | Beschreibung |
    |---|---|
@@ -54,7 +59,7 @@ Sie können jetzt allen Spalten in einer Tabelle Zeiträume hinzufügen. So kön
 
    ![](assets/add-time-period-column.png)
 
-1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen die folgenden Optionen zum Vergleich zur Verfügung:
+1. Je nachdem, wie Sie den Datumsbereich der Tabelle festgelegt haben, stehen Ihnen die folgenden Vergleichsoptionen zur Verfügung:
 
    | Option | Beschreibung |
    |---|---|
@@ -101,7 +106,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/33712?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
