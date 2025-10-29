@@ -33,7 +33,7 @@ Jede Regel enthält eine Bedingung und eine Zuweisung:
 
 * **[!UICONTROL Wenn Folgendes zutrifft:]** Sie einer einzelnen Regel mehrere Bedingungen hinzufügen, können Sie bestimmen, ob alle Bedingungen erfüllt sein müssen oder eine der Bedingungen erfüllt sein muss, um den Kanal und den zugehörigen Wert festzulegen.
 * **Regelbedingungen**: Geben Sie eine oder mehrere Regelbedingungen an, die erfüllt werden müssen. Normalerweise geben Sie eine Dimension an, mit der ein Treffer übereinstimmen muss, damit er für den Marketing-Kanal qualifiziert werden kann.
-* **[!UICONTROL Gehen Sie dann wie folgt vor]**: Wenn die Regelbedingungen übereinstimmen, setzen Sie [Marketing-Kanal](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifizieren Sie den Kanal als]) und [Marketing-Kanal-Detail](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Legen Sie den Kanalwert ]).
+* **[!UICONTROL Gehen Sie dann wie folgt vor]**: Wenn die Regelbedingungen übereinstimmen, setzen Sie [Marketing-Kanal](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifizieren Sie den Kanal als]) und [Marketing-Kanal-Detail](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Legen Sie den Kanalwert &#x200B;]).
 
 ## Regelbedingungen
 
