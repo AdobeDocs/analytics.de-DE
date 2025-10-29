@@ -4,7 +4,7 @@ description: Häufig gestellte Fragen zu Datenquellen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -24,19 +24,19 @@ Datenquellen verfügen über keine Attribution oder Gültigkeit.
 +++
 
 +++Wie wirken sich Datenquellen auf Metriken wie Seitenansichten, Besuche oder Unique Visitors aus?
-Daten, die über Datenquellen hochgeladen wurden[&#x200B; wirken sich in keiner Weise auf &#x200B;](/help/components/metrics/page-views.md)Seitenansichten[&#x200B; (](/help/components/metrics/visits.md)) oder [Unique Visitors](/help/components/metrics/unique-visitors.md) aus. Die einzige Standardmetrik, auf die sie sich auswirken, umfasst [Vorfälle](/help/components/metrics/occurrences.md).
+Daten, die über Datenquellen hochgeladen wurden[ wirken sich in keiner Weise auf ](/help/components/metrics/page-views.md)Seitenansichten[ (](/help/components/metrics/visits.md)) oder [Unique Visitors](/help/components/metrics/unique-visitors.md) aus. Die einzige Standardmetrik, auf die sie sich auswirken, umfasst [Vorfälle](/help/components/metrics/occurrences.md).
 +++
 
 +++Werden Daten, die über Datenquellen hochgeladen wurden, durch zusätzliche Verarbeitungsregeln wie Verarbeitungsregeln verarbeitet?
 Nein. Daten, die über Datenquellen hochgeladen wurden:
 
 * Durchläuft nicht [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* Durchläuft nicht [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+* Durchläuft nicht [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
 * Durchläuft nicht [VISTA-Regeln](/help/technotes/vista.md)
 +++
 
 +++Kann ich Daten löschen, die mit Datenquellen importiert wurden?
-Ja. Sie können diese Daten mithilfe der [Data Repair API“ &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe empfiehlt dringend, Datenquellendaten in eine Test-Report-Suite hochzuladen, bevor Sie sie in eine Produktions-Report-Suite hochladen, um die Notwendigkeit zum Entfernen von Daten zu verringern.
+Ja. Sie können diese Daten mithilfe der [Data Repair API“ ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe empfiehlt dringend, Datenquellendaten in eine Test-Report-Suite hochzuladen, bevor Sie sie in eine Produktions-Report-Suite hochladen, um die Notwendigkeit zum Entfernen von Daten zu verringern.
 +++
 
 +++Wie viele Daten kann ich gleichzeitig importieren?

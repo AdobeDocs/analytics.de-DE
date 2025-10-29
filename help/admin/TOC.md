@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
 user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [Merchandising-eVars](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + Marketing-Kanäle {#marketing-channels}
             + [Marketing-Kanal-Manager](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [Marketing-Kanal-Verarbeitungsregeln](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [Marketing-Kanal-Verarbeitungsregeln](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [Klassifizierungen von Marketing-Kanälen](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [Ablauf von Marketing-Kanälen](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + Traffic-Management {#traffic-management}

@@ -3,7 +3,7 @@ title: Verarbeitungsreihenfolge für Daten in Adobe Analytics
 description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die Daten in Adobe Analytics verarbeiten.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 90%
@@ -35,7 +35,7 @@ Sobald Daten in Adobe Analytics eingehen, passen die folgenden Funktionen die Da
 3. [**Bot-Regeln**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): Verwenden Sie standardmäßige oder benutzerdefinierte Bot-Filter, um diese Daten aus dem Reporting auszuschließen.
 4. [**Verarbeitungsregeln**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): Benutzerdefinierte Regeln, die von Ihrer Organisation auf Ihre Daten angewendet werden. Umfasst die Zuordnung von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) auf die entsprechende Variable.
 5. **VISTA-Regeln**: Benutzerdefinierte flexible Regeln, die von einer Person des Adobe-Berater-Teams auf Ihre Daten angewendet werden. VISTA-Regeln können je nach den Anforderungen Ihres Unternehmens vor oder nach den Verarbeitungsregeln ausgeführt werden. VISTA-Regeln werden meist nach den Verarbeitungsregeln ausgeführt, aber jede Organisation ist anders eingerichtet. Wenden Sie sich an Ihr Adobe Account Team , um weitere Informationen zu bestehenden VISTA-Regeln zu erhalten.
-6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): Sie können [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.
+6. [**Marketing-Kanal-Verarbeitungsregeln**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md): Sie können [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um Daten für die Verwendung in Marketing-Kanal-Verarbeitungsregeln vorzubereiten.
 7. **Geolokalisierungsdaten**: Dimensionen, die auf der Suche nach IP-Adressen basieren (z. B. die Dimension [Land](/help/components/dimensions/countries.md)), werden befüllt.
 8. [**IP-Verschleierung**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): Wenn sich Ihr Unternehmen dafür entschieden hat, IP-Adressen in Rohdaten zu verschleiern, erfolgt dies, nachdem alle anderen Verarbeitungsfunktionen abgeschlossen sind.
 

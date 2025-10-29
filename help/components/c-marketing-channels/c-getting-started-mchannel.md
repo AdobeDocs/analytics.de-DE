@@ -3,10 +3,10 @@ title: Erste Schritte mit Marketing-Kanälen
 description: Informieren Sie sich über den Workflow für Marketing-Kanäle, zur automatischen Einrichtung und zur Übernahme von Report Suite-Vorlageneinstellungen für mehrere Report Suites.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 62%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 >
 >Analytics-Admins können Marketing-Kanäle für ihre Organisationen verwalten, wie unter [Verwalten von Marketing-Kanälen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) beschrieben.
 
-Marketing-Kanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können basierend auf den Kanälen, die Sie nachverfolgen möchten, und darauf, wie Sie diese nachverfolgen möchten, eigene Marketingkanal-Verarbeitungsregeln anpassen.
+Marketing-Kanäle geben Aufschluss darüber, wie Besucher auf Ihre Site gelangen. Sie können Ihre Marketing-Kanal-Verarbeitungsregeln basierend darauf anpassen, welche Kanäle Sie verfolgen möchten und wie Sie sie verfolgen möchten.
 
 Marketingkanäle kreisen um First- und Last-Touch-Metriken, die Komponenten von standardmäßigen Konversionsmetriken sind.
 
@@ -26,14 +26,14 @@ Marketingkanäle kreisen um First- und Last-Touch-Metriken, die Komponenten von 
 
 ![](assets/step1_icon.png) Definieren jedes Kanals auf Grundlage Ihrer Geschäftsanforderungen.
 
-Das Definieren der von Ihnen verwendeten Kanäle ist eine der wichtigsten Komponenten der Marketingkanäle. Das Definieren der Kanäle kann die Zusammenarbeit mehrerer Einzelpersonen in Ihrer Organisation erfordern. Im Folgenden finden Sie einige zu berücksichtigende Fragen:
+Die Definition der von Ihnen verwendeten Kanäle ist eine der wichtigsten Komponenten von Marketing-Kanälen. Die Definition der Kanäle kann die Zusammenarbeit zwischen mehreren Personen in Ihrer Organisation erfordern. Im Folgenden sind einige Fragen aufgeführt, die zu berücksichtigen sind:
 
-* Nutzen Sie eine gebührenpflichtige Suche?
-* Nutzen Sie E-Mail-Kampagnen? Nutzen Sie mehrere E-Mail-Kampagnen, die Sie getrennt nachverfolgen möchten?
-* Haben Sie Affiliates, die den Datenverkehr an Ihre Website weiterleiten? Sind Affiliates vorhanden, die Sie einzeln nachverfolgen möchten?
-* Sind externe Kampagnen vorhanden, für die eine getrennte Nachverfolgung vorteilhaft wäre?
-* Möchten Sie alle Websites mit sozialen Netzwerken zusammenfassen, oder gibt es soziale Netzwerke, die Sie einzeln nachverfolgen möchten?
-* Sind andere Kanäle vorhanden, die möglicherweise die Konversion beeinflussen, die Sie nachverfolgen möchten?
+* Benutzen Sie eine Paid Search?
+* Verwenden Sie E-Mail-Kampagnen? Verwenden Sie mehrere E-Mail-Kampagnen, die Sie separat verfolgen möchten?
+* Haben Sie Partner, die den Traffic auf Ihre Website leiten? Gibt es Affiliates, die Sie einzeln verfolgen möchten?
+* Gibt es externe Kampagnen, die für ein separates Tracking vorteilhaft wären?
+* Möchten Sie alle Social-Networking-Websites aggregieren oder gibt es welche, die Sie einzeln verfolgen möchten?
+* Gibt es andere Kanäle, die sich auf die Konversion auswirken könnten und die Sie verfolgen möchten?
 
 Eine Liste der empfohlenen Kanäle finden Sie unter [Häufig gestellte Fragen und Beispiele](/help/components/c-marketing-channels/c-faq.md). Erstellen Sie eine Liste der Kanäle, die Sie nutzen möchten, um die Aktivierung und Definition beim Erstellen von Kanälen zu vereinfachen.
 
@@ -47,19 +47,19 @@ Informationen zum Verfahren finden Sie unter [Hinzufügen von Marketing-Kanälen
 
 >[!NOTE]
 >
->Wenn Marketing-Kanäle noch nicht konfiguriert wurden, wird das [automatische Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) angezeigt. Dieses Setup stellt mehrere vorkonfigurierte Kanäle bereit, die Sie anpassen können. Adobe empfiehlt, dass Sie diese Regeln als Vorlage verwenden. Wenn Sie jedoch bereits über zuverlässige Kanaldefinitionen verfügen, können Sie das automatische Setup überspringen.
+>Wenn Marketing-Kanäle noch nicht konfiguriert wurden, wird das [automatische Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md) angezeigt. Dieses Setup bietet mehrere vorkonfigurierte Kanäle, die Sie anpassen können. Adobe empfiehlt, diese Regeln als Vorlage zu verwenden. Wenn Sie jedoch bereits über solide Kanaldefinitionen verfügen, können Sie das automatische Setup überspringen.
 
 ![](assets/step3_icon.png) Konfigurieren oder grenzen Sie die Regeln jedes Kanals auf der Seite [!UICONTROL Marketingkanal-Verarbeitungsregeln] ein.
 
 Konfigurieren Sie nach der Erstellung von Kanälen auf der Seite [!UICONTROL Marketing-Kanal-Manager] die Regeln, damit Kanäle Daten abrufen können und Berichte dazu erstellen können.
 
-Weitere Informationen finden Sie unter [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+Weitere Informationen finden Sie unter [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
-Wenn Kanäle im automatischen Setup erstellt wurden, werden die Regeln in diesen Kanälen definiert. Sie können sie an Ihre Bedürfnisse anpassen.
+Wenn Kanäle beim automatischen Setup erstellt wurden, werden die Regeln für diese Kanäle definiert. Sie können sie an Ihre Anforderungen anpassen.
 
 ## Automatische Einrichtung für Marketing-Kanäle {#run-auto-setup}
 
-Der Marketing-Kanal-Bericht bietet zum Einstieg eine einmalige Setup-Seite. Hier finden Sie eine Vielzahl an Marketing-Kanälen, die Sie zur Nachverfolgung nutzen können. Wenn Sie mit der Erstellung von Kanälen und Regeln vertraut sind, können Sie dieses Setup überspringen. Adobe empfiehlt jedoch, dass Sie den Assistent zur Erstellung der Kanäle nutzen. Durch das automatische Setup sehen Sie, wie Regeln erstellt werden. Darüber hinaus haben Sie die Möglichkeit, diese individuell anzupassen. Sie können die vordefinierten Kanäle jederzeit deaktivieren oder löschen.
+Der Marketing-Kanal-Bericht bietet zum Einstieg eine einmalige Setup-Seite. Hier finden Sie eine Vielzahl an Marketing-Kanälen, die Sie zur Nachverfolgung nutzen können. Wenn Sie mit der Erstellung von Kanälen und Regeln vertraut sind, können Sie dieses Setup überspringen. Adobe empfiehlt jedoch, dem Assistenten die Erstellung der Kanäle zu ermöglichen. Bei der automatischen Einrichtung können Sie sehen, wie Regeln erstellt werden, oder sie für Ihre eigenen Zwecke bearbeiten. Sie können die vordefinierten Kanäle jederzeit deaktivieren oder löschen.
 
 So führen Sie das automatische Setup für Marketing-Kanäle aus.
 
@@ -71,7 +71,7 @@ So führen Sie das automatische Setup für Marketing-Kanäle aus.
 
    >[!NOTE]
    >
-   >Die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] wird automatisch bei Zugriff auf die Kanalkonfigurationsanwendungen in „Admin Tools“ angezeigt. (Siehe [Marketing-Kanal-Manager](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Diese Seite wird nicht angezeigt, wenn Ihre Report Suite einen oder mehrere Marketing-Kanäle enthält. Sie können nur dann erneut auf die Seite zugreifen, wenn Sie eine andere Report Suite ohne Marketingkanäle auswählen.
+   >Die Seite [!UICONTROL Marketing-Kanäle: Automatisches Setup] wird automatisch bei Zugriff auf die Kanalkonfigurationsanwendungen in „Admin Tools“ angezeigt. (Siehe [Marketing-Kanal-Manager](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Diese Seite wird nicht angezeigt, wenn Ihre Report Suite einen oder mehrere Marketing-Kanäle enthält. Sie können nicht erneut auf diese Seite zugreifen, es sei denn, Sie wählen eine andere Report Suite aus, die keine Marketing-Kanäle enthält.
 
 1. Stellen Sie sicher, dass die gewünschten Kanäle ausgewählt sind.
 
@@ -81,7 +81,7 @@ So führen Sie das automatische Setup für Marketing-Kanäle aus.
 
 ## Übernehmen von Report Suite-Vorlageneinstellungen für mehrere Report Suites
 
-So verwenden Sie eine Master-Report Suite als Vorlage, um Ihre Marketingkanalkonfiguration zu testen. Diese Vorlage kann zur Zeitersparnis in einer Massenaktualisierung für eine oder mehrere Produktions-Report Suites übernommen werden. Diese Aufgabe muss separat für Kanäle und Regelsätze erfolgen.
+Verwendung einer Master-Report Suite als Vorlage zum Testen der Konfiguration Ihres Marketing-Kanals. Diese Vorlage kann zur Zeitersparnis in einer Massenaktualisierung für eine oder mehrere Produktions-Report Suites übernommen werden. Diese Aufgabe wird für Kanäle und Regelsätze separat ausgeführt.
 
 >[!NOTE]
 >

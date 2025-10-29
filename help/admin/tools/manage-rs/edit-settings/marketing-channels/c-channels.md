@@ -1,14 +1,14 @@
 ---
-description: Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
+description: Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketing-Kanäle können Sie bei einer automatischen Einrichtung mehrere Kanäle und die zugehörigen Regeln erstellen. Sie können vordefinierte Kanäle nach Bedarf bearbeiten oder eigene Kanäle erstellen (bis zu insgesamt 25).
 subtopic: Marketing channels
 title: Marketing-Kanäle verwalten
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 64%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Marketing-Kanal-Manager]**.
 
-Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketingkanäle können Sie mit einem automatischen Setup mehrere Kanäle und deren Regeln erstellen. Sie können die vordefinierten Kanäle an Ihren Bedarf anpassen oder neue erstellen (bis insgesamt 25).
+Fügen Sie im Marketing-Kanal-Manager Marketingkanäle hinzu oder aktivieren Sie sie. Für Report Suites ohne Marketing-Kanäle können Sie bei einer automatischen Einrichtung mehrere Kanäle und die zugehörigen Regeln erstellen. Sie können vordefinierte Kanäle nach Bedarf bearbeiten oder eigene Kanäle erstellen (bis zu insgesamt 25).
 
-Der Zusatz von Kanälen in der [!UICONTROL Marketingkanal]-Seite erfolgt separat von der Regelerstellung in der Seite der [Marketingkanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md). Bei der Regelerstellung verbinden Sie Regeln mit Kanälen.
+Das Hinzufügen von Kanälen zur [!UICONTROL Marketing]Kanal-Seite erfolgt unabhängig von der Erstellung von Regeln auf der [Marketing-Kanal-](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). Sie verknüpfen Regeln mit Kanälen beim Erstellen der Regel.
 
-Beachten Sie bei der Erstellung von Kanälen die folgenden Richtlinien:
+Im Folgenden finden Sie Richtlinien zum Erstellen von Kanälen:
 
-* Richten Sie in der Vorbereitung eine Liste aller Kanäle ein, so dass alle Besucherzugriffe in die richtigen Kanäle eingeordnet werden.
-* Schließen Sie Kanäle für die Kategorien [interner](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) Treffer ein.
+* Planen Sie im Voraus, indem Sie eine Liste aller Kanäle erstellen, sodass alle Ihre Besuchertreffer in den richtigen Kanal kategorisiert werden.
+* Schließen Sie Kanäle für die Kategorien [interner](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) Treffer ein.
 * Schließen Sie einen Kanal „Sonstige Kampagnen“ ein, der nach den bezahlten Kanälen und vor den organischen Kanälen platziert wird.
 
 
@@ -65,7 +65,7 @@ Fügen Sie im Marketing-Kanal-Manager Marketing-Kanäle hinzu.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie zur Regelkonfiguration für den Kanal auf **[!UICONTROL Marketing-Kanal-Verarbeitungsregeln]**.
 
-   Weitere Informationen finden Sie unter [Einrichten von Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+   Weitere Informationen finden Sie unter [Einrichten von Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 ## Anwenden der Kanaleinstellungen {#mktg-channel-mgr}
 
@@ -73,11 +73,11 @@ Es gibt verschiedene Einstellungen, die für jeden Kanal auf der Seite [!UICONTR
 
 | Feld | Definition |
 |--- |--- |
-| Aktiviert | Aktiviert oder deaktiviert den Marketingkanal. |
-| Kanalname | Benutzerfreundlicher Name des Marketingkanals. |
-| Last Touch-Kanal außer Kraft setzen | Ermöglicht Ihnen, je nach Bedarf einen vorhandenen, beständigen Last Touch-Kanal durch den gewählten Kanal außer Kraft zu setzen. Wenn Sie diese Option auswählen, könnte jeder beliebige Kanal (einschließlich Direkt und Intern) einen vorhandenen Last Touch-Kanal außer Kraft setzen. Dies führt dazu, dass Konversionen den falschen Kanälen gutgeschrieben werden. Diese Option kann beispielsweise sicherstellen, dass dem direkten Kanal keine Konversionen gutgeschrieben werden, wenn der Benutzer zuvor über den Kanal Kostenlose Suche angeworben wurde. |
-| Kanalinseln | Ermöglicht die Unterteilung des Kanals nach diesem Wert. Sie können mögliche Kanalunterteilungen (Sub-Kanäle) bei der Erstellung von [Marketing-Kanalklassifizierungen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) hinzufügen. |
-| Typ | Zeigt an, wie der Benutzer zu Ihrer Site gelangt ist. Sie können „Online“ oder „Offline“ auswählen. Online-Kanäle lassen sich z. B. für Besucher einsetzen, die über eine Suchmaschine oder E-Mail-Kampagne zu Ihrer Site gelangten. Offline-Kanäle gelten beispielsweise für Besucher, die Ihre Site durch Anzeigen in Zeitungen oder Zeitschriften fanden. Offline-Kanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. Siehe [Data Sources](/help/import/data-sources/overview.md). Weitere Informationen finden Sie unter [Hinzufügen von Offline-Daten](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| Aktiviert | Aktiviert oder deaktiviert diesen Marketing-Kanal. |
+| Kanalname | Der Anzeigename des Marketing-Kanals. |
+| Last Touch-Kanal überschreiben | Hier können Sie auswählen, ob ein vorhandener, persistenter Letztkontakt-Kanal mit dem ausgewählten Kanal überschrieben werden soll. Wenn Sie dieses Kontrollkästchen aktivieren, überschreibt jeder Kanal (einschließlich „Direkt“ und „Intern„) einen vorhandenen Letztkontakt-Kanal. Dies führt dazu, dass Konversionen den falschen Kanälen gutgeschrieben werden. Beispielsweise kann diese Option sicherstellen, dass der Direktkanal keine Konversionsgutschrift erhält, wenn der Benutzer zuvor über den Kanal für die natürliche Suche akquiriert wurde. |
+| Kanalaufschlüsselung | Ermöglicht die Unterteilung eines Kanals anhand dieses Werts. Sie können mögliche Kanalunterteilungen (Sub-Kanäle) bei der Erstellung von [Marketing-Kanalklassifizierungen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) hinzufügen. |
+| Typ | Gibt an, wie der Benutzer zu Ihrer Site gekommen ist. Sie können „Online“ oder „Offline“ auswählen. Verwenden Sie Online-Kanäle für Besucher, die über eine Suchmaschine oder E-Mail-Kampagne kommen. Offline-Kanäle gelten für Besucher, die Ihre Website durch Zeitungs-Coupons oder Zeitschriftenanzeigen gefunden haben. Offline-Kanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. Siehe [Data Sources](/help/import/data-sources/overview.md). Weitere Informationen finden Sie unter [Hinzufügen von Offline-Daten](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 
 ### Überschreiben von Best Practices
 
@@ -89,7 +89,7 @@ Es empfiehlt sich, die Option zum Außerkraftsetzen des Letztkontakts für die K
 
 Bevor Kanäle und ihre Daten im Bericht angezeigt werden, müssen Sie die Kanäle und die zur Datenverarbeitung erforderlichen Regeln einrichten. Sie können auch angeben, wie lange der [Besucherinteraktionszeitraum](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md) dauern soll.
 
-Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb der [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) definieren.
+Adobe stellt während eines [automatischen Setups](/help/components/c-marketing-channels/c-getting-started-mchannel.md) mehrere vordefinierte Kanäle zur Verfügung, die Sie nach Ihren Bedürfnissen bearbeiten können. Darüber hinaus können Sie dieses Setup ändern und benutzerdefinierte Regeln innerhalb der [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) definieren.
 
 >[!NOTE]
 >

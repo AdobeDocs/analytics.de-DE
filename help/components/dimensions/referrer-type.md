@@ -3,7 +3,7 @@ title: Referrer-Typ
 description: Der Typ des Referrers, je nachdem, woher der Besucher stammt.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 88%
@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Referrer-Typ
 
-Der „Referrer-Typ[&#x200B; (Dimension](overview.md) zeigt an, welche allgemeinen Kanäle Besucher durchgeklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
+Der „Referrer-Typ[ (Dimension](overview.md) zeigt an, welche allgemeinen Kanäle Besucher durchgeklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -59,7 +59,7 @@ Die folgende Liste verweist auf die von Adobe verwendete Suchtabelle „Soziale 
 
 >[!NOTE]
 >
->Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den [Verarbeitungsregeln für Marketing-Kanäle](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+>Diese Liste unterscheidet sich von der standardmäßigen Liste von sozialen Netzwerken in den [Verarbeitungsregeln für Marketing-Kanäle](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`
