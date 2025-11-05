@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
 workflow-type: tm+mt
-source-wordcount: '3686'
-ht-degree: 66%
+source-wordcount: '3680'
+ht-degree: 63%
 
 ---
 
@@ -43,7 +43,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`carrier`** | Variable der Adobe Advertising-Integration. Gibt den Mobilnetzbetreiber an. Der Schlüsselwert für die [dynamische Suche](dynamic-lookups.md) von `carrier.tsv`. | varchar(100) |
 | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
-| **`channel`** | Die [&#x200B; „Site-](/help/components/dimensions/site-section.md)&quot;. | varchar(100) |
+| **`channel`** | Die [ „Site-](/help/components/dimensions/site-section.md)&quot;. | varchar(100) |
 | **`clickmaplink`** | Activity Map-Link | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map-Link nach Region | varchar(255) |
 | **`clickmappage`** | Activity Map-Seite | varchar(255) |
@@ -55,11 +55,11 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`country`** | Eine numerische ID, die das Land des Besuchers darstellt. Verweist auf die Suchtabelle `country.tsv`. | smallint unsigniert |
 | **`ct_connect_type`** | Verknüpft mit der Spalte `connection_type`. Die gebräuchlichsten Werte sind LAN/WiFi, Mobilnetzbetreiber und Modem. | char(20) |
 | **`curr_factor`** | Bestimmt die Dezimalstelle für die Währung und wird zur Währungsumrechnung verwendet. Beispiel: In USD werden zwei Dezimalstellen verwendet, sodass dieser Spaltenwert `2` würde. | tinyint |
-| **`curr_rate`** | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den aktuellen Wechselkurs zu bestimmen. | Dezimalzahl(24,12) |
+| **`curr_rate`** | Der Wechselkurs zum Zeitpunkt der Transaktion. Adobe arbeitet mit XE zusammen, um den Wechselkurs des aktuellen Tages zu bestimmen. | DECIMAL(24,12) |
 | **`currency`** | Der Währungscode, der während der Transaktion verwendet wurde. Festlegen mithilfe von [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
 | **`cust_hit_time_gmt`** | Nur für Report Suites mit aktiviertem Zeitstempel. Der mit dem Treffer gesendete Zeitstempel in UNIX®-Zeit. | int |
 | **`cust_visid`** | Die benutzerdefinierte Besucher-ID, wenn sie mithilfe von [`visitorID`](/help/implement/vars/config-vars/visitorid.md) festgelegt wird. | varchar(255) |
-| **`customer_perspective`** | Bestimmt, ob der Treffer ein mobiler Hintergrundtreffer ist. Weitere [&#x200B; finden Sie unter &#x200B;](/help/components/vrs/vrs-mobile-visit-processing.md) . | tinyint unsigniert |
+| **`customer_perspective`** | Bestimmt, ob der Treffer ein mobiler Hintergrundtreffer ist. Weitere [ finden Sie unter ](/help/components/vrs/vrs-mobile-visit-processing.md) . | tinyint unsigniert |
 | **`daily_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer täglicher Besucher ist. | tinyint unsigniert |
 | **`dataprivacyconsentoptin`** | Die Dimension [Einverständnisverwaltungs-Opt-in](/help/components/dimensions/cm-opt-in.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `DMP` und `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Die Dimension [Einverständnisverwaltungs-Opt-out](/help/components/dimensions/cm-opt-out.md) . Pro Treffer können mehrere Werte vorhanden sein, getrennt durch einen senkrechten Strich (`\|`). Gültige Werte sind `SSF`, `DMP` und `SELL`. | varchar(100) |
@@ -70,7 +70,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`duplicate_purchase`** | Eine Markierung, die bestimmt, ob das Kaufereignis für diesen Treffer ignoriert wird, da es ein Duplikat ist. | tinyint unsigniert |
 | **`duplicated_from`** | Wird nur in Report Suites mit VISTA-Regeln zur Trefferkopie verwendet. Gibt an, von welcher Report Suite der Treffer kopiert wurde. | varchar(40) |
 | **`ef_id`** | Die in Adobe Advertising-Integrationen verwendete `ef_id`. | varchar(255) |
-| **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Weitere Informationen darüber, wie Ihr Unternehmen die entsprechenden eVars füllt, finden Sie in einem [&#x200B; für Ihr Unternehmen spezifischen &#x200B;](/help/implement/prepare/solution-design.md) (Lösungsentwurfsdokument). | varchar(255) |
+| **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Weitere Informationen darüber, wie Ihr Unternehmen die entsprechenden eVars füllt, finden Sie in einem [ für Ihr Unternehmen spezifischen ](/help/implement/prepare/solution-design.md) (Lösungsentwurfsdokument). | varchar(255) |
 | **`event_list`** | Kommagetrennte Liste numerischer IDs, die beim Treffer ausgelöste Ereignisse darstellen. Umfasst sowohl Standardereignisse als auch [benutzerspezifische Ereignisse 1-1000](/help/components/metrics/custom-events.md). Verwendet die `event.tsv`-Suche. | text |
 | **`exclude_hit`** | Eine Markierung, die bestimmt, ob der Treffer aus dem Reporting ausgeschlossen wird. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigniert |
 | **`first_hit_page_url`** | Die allererste URL des Besuchers. | varchar(255) |
@@ -102,7 +102,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`latlon23`** | Standort (bis 100 m) | varchar(255) |
 | **`latlon45`** | Standort (bis 1 m) | varchar(255) |
 | **`mc_audiences`** | Liste der Segment-IDs von Audience Manager, zu denen der Besucher gehört. Die Spalte `post_mc_audiences` ändert das Trennzeichen in `--**--`. | text |
-| **`mcvisid`** | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
+| **`mcvisid`** | Experience Cloud-Besucher-ID. 128-Bit-Zahl bestehend aus zwei verketteten 64-Bit-Zahlen verteilt auf 19 Ziffern. | varchar(255) |
 | **`mobile_id`** | Die numerische Geräte-ID, wenn die Person ein Mobilgerät verwendet. Der Schlüsselwert für die `mobile_attributes.tsv` [dynamische Suche](dynamic-lookups.md). | int |
 | **`mobileaction`** | Mobile Aktion. Wird automatisch erfasst, wenn `trackAction` in mobilen Implementierungen aufgerufen wird. Ermöglicht automatisches Action Pathing in der App. | varchar(100) |
 | **`mobileappid`** | ID der Mobile App. Speichert den Namen und die Version der App im folgenden Format: `[AppName] [BundleVersion]`.  | varchar(255) |
@@ -122,7 +122,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`mobiledayssincefirstuse`** | Anzahl der Tage, die seit dem ersten Ausführen der App vergangen sind. | varchar(255) |
 | **`mobiledayssincelastuse`** | Anzahl der Tage, die vergangen sind, seitdem die App das letzte Mal ausgeführt wurde. | varchar(255) |
 | **`mobiledeeplinkid`** | Erfasst mit der Kontextdatenvariablen `a.deeplink.id`. Wird in Akquise-Berichten als Identifikator für mobilen Akquise-Link verwendet. | varchar(255) |
-| **`mobiledevice`** | Mobilgerätname. Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert. Die erste Zahl gibt die Gerätegeneration an und die zweite die Gerätefamilie. | varchar(255) |
+| **`mobiledevice`** | Mobilgerätname. Unter iOS als kommagetrennte 2-Ziffern-Zeichenfolge gespeichert. Die erste Zahl steht für die Gerätegeneration, die zweite Zahl steht für die Gerätefamilie. | varchar(255) |
 | **`mobilehourofday`** | Gibt die Stunde des Tages an, zu der die App gestartet wurde. Angaben im 24-Stunden-Format. | varchar(255) |
 | **`mobileinstalldate`** | Installationsdatum der Mobile App. Stellt das Datum zur Verfügung, an dem eine Person die Mobile App erstmalig geöffnet hat. | varchar(255) |
 | **`mobilelaunchnumber`** | Wird immer dann erhöht, wenn die Mobile App gestartet wird. | varchar(255) |
@@ -159,13 +159,13 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`persistent_cookie`** | Wird in der Dimension [Unterstützung persistenter Cookies](/help/components/dimensions/persistent-cookie-support.md) verwendet. Gibt an, ob der Benutzer Cookies unterstützt, die nicht nach jedem Treffer gelöscht werden. | char(1) |
 | **`pointofinterest`** | Name des Mobile Services-Zielpunkts | varchar(255) |
 | **`pointofinterestdistance`** | Entfernung der Mobile Services zur Zielpunktmitte | varchar(255) |
-| **`post_`**-Spalten | Enthält den in diesen Berichten ultimativ verwendeten Wert. Jede Post-Spalte wird nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln gefüllt. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. | Vgl. entsprechende non-post-Spalte |
+| **`post_`**-Spalten | Enthält den in diesen Berichten ultimativ verwendeten Wert. Jede Post-Spalte wird nach Server-seitiger Logik, Verarbeitungsregeln und VISTA-Regeln ausgefüllt. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. | Siehe entsprechende Nicht-Post-Spalte |
 | **`product_list`** | Die [`products`](/help/implement/vars/page-vars/products.md) Seitenvariable. Hilft beim Ausfüllen mehrerer Dimensionen und Metriken, einschließlich [Kategorie](/help/components/dimensions/category.md), [Produkt](/help/components/dimensions/product.md), [Einheiten](/help/components/metrics/units.md) und [Umsatz](/help/components/metrics/revenue.md). | text |
 | **`prop1`** – `prop75` | Benutzerdefinierte Traffic-Variablen 1 bis 75. Wird in den Dimensionen [Prop](/help/components/dimensions/prop.md) verwendet. | varchar(100) |
 | **`purchaseid`** | Eindeutige Kennung für einen Kauf, so wie durch das Festlegen der Variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) bestimmt. Von der Spalte `duplicate_purchase` verwendet. | char(20) |
 | **`quarterly_visitor`** | Eine Markierung, die bestimmt, ob der Treffer ein neuer vierteljährlicher Besucher ist. | tinyint unsigniert |
 | **`ref_domain`** | Die Dimension [Verweisende Domain](/help/components/dimensions/referring-domain.md) . Basiert auf der Spalte `referrer` . | varchar(100) |
-| **`ref_type`** | Eine numerische ID, die den Typ der Empfehlung für den Treffer darstellt. In der Dimension [Referrer-Typ](/help/components/dimensions/referrer-type.md) verwendet. <br>1: Auf Ihrer Site<br>2: Andere Websites <br>3: Suchmaschinen <br>4: Festplatte <br>5: USENET <br>6: Eingegeben/mit Lesezeichen versehen (kein Referrer) <br>7: E-Mail <br>8: Kein JavaScript <br>9: Soziale Netzwerke | tinyint unsigniert |
+| **`ref_type`** | Eine numerische ID, die den Typ der Empfehlung für den Treffer darstellt. Wird in der Dimension [Referrer-Typ](/help/components/dimensions/referrer-type.md) verwendet. <ul><li>Auf Ihrer Site</li><li>Andere Websites</li> <li>Suchmaschinen</li> <li> Konversationelle KI-Tools</li><li>Festplatte</li> <li>USENET</li> <li>Eingegeben/Mit Lesezeichen versehen (kein Referrer)</li> <li>E-Mail</li> <li>Keine JavaScript</li> <li>Soziale Netzwerke </li></ul> | tinyint unsigniert |
 | **`referrer`** | Die Dimension [Referrer](/help/components/dimensions/referrer.md). Beachten Sie, dass während `referrer` einen Datentyp von varchar(255) verwendet, `post_referrer` einen Datentyp von varchar(244) verwendet. | varchar(255) |
 | **`resolution`** | Eine numerische ID, die für die Auflösung des Monitors steht. In der Dimension [Bildschirmauflösung](/help/components/dimensions/monitor-resolution.md) verwendet. Verwendet die Suchtabelle `resolution.tsv`. | smallint unsigniert |
 | **`s_kwcid`** | Die Keyword-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
@@ -175,7 +175,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`secondary_hit`** | Eine Markierung, die bestimmt, ob der Treffer ein sekundärer Treffer ist. Dieses Flag stammt in der Regel von Multi-Suite-Tagging und VISTA-Regeln, die Treffer kopieren. | tinyint unsigniert |
 | **`sourceid`** | Quell-ID | int unsigniert |
 | **`state`** | Statusvariable. | varchar(50) |
-| **`stats_server`** | Wird nicht verwendet. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
+| **`stats_server`** | Nicht von Nutzen. Interner Adobe-Server, der den Treffer verarbeitet hat. | char(30) |
 | **`t_time_info`** | Lokale Zeit des Besuchers. Das Format ist: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die er derzeit qualifiziert ist. Das Format ist: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
 | **`tnt_action`** | Wird in Adobe Target-Integrationen verwendet. Stellt alle Tests dar, für die der Treffer qualifiziert ist. | text |
@@ -183,9 +183,9 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`transactionid`** | Eine eindeutige Kennung, bei der später verschiedene Datenpunkte via Datenquellen hochgeladen werden können. Erfasst mithilfe der Variablen [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | **`truncated_hit`** | Eine Markierung, die anzeigt, dass die Bildanforderung abgeschnitten wurde. Zeigt den Erhalt eines teilweisen Treffers an. <br>Y: Treffer abgeschnitten; Teiltreffer erhalten <br>N: Treffer nicht abgeschnitten; vollständigen Treffer erhalten | char(1) |
 | **`user_agent`** | Die Benutzeragenten-Zeichenfolge, die im HTTP-Header der Bildanforderung gesendet wird. | text |
-| **`user_hash`** | Wird nicht verwendet. Doppelkreuz in der Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
+| **`user_hash`** | Nicht von Nutzen. Hash zur Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
 | **`user_server`** | Verwendet in der Dimension [Server](/help/components/dimensions/server.md). | varchar(100) |
-| **`userid`** | Wird nicht verwendet. Die numerische ID für die Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
+| **`userid`** | Nicht von Nutzen. Die numerische ID für die Report Suite-ID. Verwenden Sie stattdessen `username`. | int unsigniert |
 | **`username`** | Die Report Suite-ID für den Treffer. | char(40) |
 | **`va_closer_detail`** | Die Dimension [Detail des Letztkontakts](/help/components/dimensions/last-touch-detail.md). | varchar(255) |
 | **`va_closer_id`** | Eine numerische ID, die die Dimension [Letztkontaktkanal](/help/components/dimensions/last-touch-channel.md) identifiziert. Die Suche nach dieser ID finden Sie im Marketing-Kanal-Manager. | tinyint unsigniert |
@@ -221,7 +221,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`videoname`** | Die Dimension [Inhaltsname (Variable)](/help/components/dimensions/sm-core.md) Streaming-Mediendienste . | varchar(255) |
 | **`videonetwork`** | Die Dimension [Netzwerk](/help/components/dimensions/sm-video-metadata.md) Streaming-Mediendienste . | varchar(255) |
 | **`videopath`** | Die Dimension [Medienpfad](/help/components/dimensions/sm-core.md) Streaming-Mediendienste. | varchar(100) |
-| **`videoplayername`** | Die [&#x200B; „Name des Content](/help/components/dimensions/sm-core.md)Players“ für Streaming-Mediendienste. | varchar(255) |
+| **`videoplayername`** | Die [ „Name des Content](/help/components/dimensions/sm-core.md)Players“ für Streaming-Mediendienste. | varchar(255) |
 | **`videotime`** | Die Metrik [Besuchszeit für Inhalte](/help/components/metrics/sm-core.md) Streaming-Mediendienste. | Ganzzahl |
 | **`videoqoebitrateaverageevar`** | Die Dimension [Durchschnittliche Bitrate](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste. | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Die Dimension [Bitratenänderungen](/help/components/dimensions/sm-quality.md) Streaming-Mediendienste . | varchar(255) |
@@ -410,4 +410,4 @@ Die folgende Liste von Spalten ist nicht verwendet, nicht mehr verwendet oder en
 >[!MORELIKETHIS]
 >
 >[XDM-Objektvariablenzuordnung](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)
+>[Zuordnung von Datenobjektvariablen](/help/implement/aep-edge/data-var-mapping.md)
