@@ -23,7 +23,7 @@ Die meisten XDM-Objektfelder in dieser Tabelle entsprechen einem [Datenobjektfel
 
 ## XDM-Objektfeldzuordnung
 
-Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
+Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.de-DE/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
 
 | XDM-Feldpfad | Analytics-Variable und -Beschreibung |
 | --- | --- |
