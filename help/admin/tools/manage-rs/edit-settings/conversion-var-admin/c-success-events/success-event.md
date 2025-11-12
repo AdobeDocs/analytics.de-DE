@@ -16,7 +16,7 @@ ht-degree: 26%
 
 Erfolgsereignisse (auch Konversionsereignisse oder benutzerdefinierte Ereignisse genannt) sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Wenn eine Besucherin oder ein Besucher beispielsweise einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden.
 
-Eine Videoübersicht über Erfolgsereignisse finden Sie unter [Einführung in Konversionsereignisse](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) im Handbuch Analytics-Tutorials .
+Eine Videoübersicht über Erfolgsereignisse finden Sie unter [Einführung in Konversionsereignisse](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) im Handbuch Analytics-Tutorials .
 
 ## Beispiele für Erfolgsereignisse
 
