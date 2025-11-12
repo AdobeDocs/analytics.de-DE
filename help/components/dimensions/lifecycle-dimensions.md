@@ -3,10 +3,10 @@ title: Lebenszyklusdimensionen für Mobile
 description: Dimensionen, die auf Daten basieren, die mit der Mobile SDK erfasst werden.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 26%
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 | Name der Lebenszyklusdimension | Beschreibung | Kontextdatenvariable |
 | --- | --- | --- |
-| [!UICONTROL Erstes Startdatum] | | TBD |
+| [!UICONTROL Erstes Startdatum] | | |
 | [!UICONTROL Gerätename (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Betriebssystemversion (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Resolution (SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 26%
 | [!UICONTROL Entfernung zum Zentrum des Zielpunkts] | | `a.loc.dist` |
 | [!UICONTROL Startanzahl] | | `a.Launches` |
 | [!UICONTROL Tage seit der ersten Verwendung] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL Aktionsname] | | TBD |
+| [!UICONTROL Aktionsname] | | |
 | [!UICONTROL Lebenszeitwert (eVar)] | | `a.ltv.amount` |
-| [!UICONTROL Beacon Major] | | TBD |
-| [!UICONTROL Beacon-Minor] | | TBD |
-| [!UICONTROL Beacon-UUID] | | TBD |
-| [!UICONTROL Beacon-Nähe] | | TBD |
+| [!UICONTROL Beacon Major] | | |
+| [!UICONTROL Beacon-Minor] | | |
+| [!UICONTROL Beacon-UUID] | | |
+| [!UICONTROL Beacon-Nähe] | | |
 | [!UICONTROL Tage seit der letzten Verwendung] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Stunde des Tages (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Wochentag (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL Point of Interest-ID] | | TBD |
+| [!UICONTROL Point of Interest-ID] | | |
 
 {style="table-layout:auto"}
 

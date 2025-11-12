@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über erweiterte Funktionen berechneter Metriken.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '5020'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können auf diese Funktionen zugreifen, indem Sie die Option **[!UICONTROL A
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen
 
-Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
+Eine Tabellenfunktion ist eine Funktion, bei der die Ausgabe für jede Zeile der Tabelle gleich ist. Eine Zeilenfunktion ist eine Funktion, bei der die Ausgabe für jede Zeile der Tabelle unterschiedlich ist.
 
 Gegebenenfalls wird einer Funktion eine Anmerkung mit dem Typ der Funktion hinzugefügt: [!BADGE Tabelle]{type="Neutral"} oder [!BADGE Zeile]{type="Neutral"}.
 
@@ -1474,9 +1474,9 @@ Gibt den Tangens des gegebenen Winkels zurück. Wenn der Winkel in Grad angegebe
 | metric | Die Metrik, für die der z-Wert angezeigt werden soll |
 | include_zeros | Gibt an, ob Nullwerte in die Berechnungen einbezogen werden sollen oder nicht |
 
-Ein z-Wert von 0 (null) gibt an, dass der Wert mit dem arithmetischen Mittel identisch ist. Eine z-Transformation kann positiv oder negativ sein, abhängig davon, ob sie über oder unter dem arithmetischen Mittel liegt und um wie viele Standardabweichungen es sich handelt.
+Ein z-Wert von 0 (null) gibt an, dass der Wert mit dem arithmetischen Mittel identisch ist. Ein Z-Score kann positiv oder negativ sein und angeben, ob er über oder unter dem Mittelwert liegt und um wie viele Standardabweichungen es sich handelt.
 
-Die Gleichung für z-Transformation lautet:
+Die Gleichung für den Z-Score lautet:
 
 ![](assets/z_score.png)
 
@@ -1538,7 +1538,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Approximate Count Distinct (dimension)
 
-Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts. It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)

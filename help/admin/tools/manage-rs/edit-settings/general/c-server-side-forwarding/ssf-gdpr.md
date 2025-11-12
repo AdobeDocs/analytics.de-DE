@@ -4,10 +4,10 @@ title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -25,22 +25,22 @@ Die Server-seitige Weiterleitung erfolgt bidirektional, d. h. wenn sie auf einen
 
 ## Implementierungsdetails {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-Befolgen Sie abhängig von Ihrer Implementierungsmethode die folgenden Schritte.
+Führen Sie je nach Implementierungsmethode die folgenden Schritte aus.
 
 | Implementierungsmethode | Schritte |
 |--- |--- |
-| Tags in Adobe Experience Platform | Wenn Sie die Adobe Analytics-Erweiterung installiert haben, fügen Sie dem benutzerdefinierten Code-Editor innerhalb der Aktionskonfiguration einer Regel die folgende Definition für Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die `contextdata`-Variable den Wert *0* für Kunden fest, die gezieltem Marketing zugestimmt haben. |
-| AppMeasurement | Fügen Sie der Datei &quot;AppMeasurement.js“ die Definition der Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und setzen Sie sie auf 1, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
+| Tags in Adobe Experience Platform | Wenn Sie die Adobe Analytics-Erweiterung installiert haben, fügen Sie dem benutzerdefinierten Code-Editor innerhalb der Aktionskonfiguration einer Regel die folgende Definition für Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf'] = '1'` <br/> Hinweis: Definieren Sie die Kontextdatenvariable und legen Sie dafür den Wert „1“ fest, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die `contextdata`-Variable den Wert *0* für Kunden fest, die gezieltem Marketing zugestimmt haben. |
+| AppMeasurement | Fügen Sie der Datei &quot;AppMeasurement.js“ die Definition der Kontextdatenvariablen hinzu: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Hinweis: Definieren Sie die Kontextdatenvariable und setzen Sie sie auf 1, wenn ein Kunde gezieltem Marketing nicht zustimmt. Legen Sie für die Kontextdatenvariable den Wert „0“ für Kunden fest, die gezieltem Marketing zugestimmt haben. |
 
 ## Reporting (optional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 Sie können Adobe Analytics verwenden, um zu berichten, wie viel Ihres Traffics auf Einverständnis basiert und infolgedessen Server-seitig weitergeleitet wurde, im Vergleich dazu, wie viel Ihres Traffics nicht auf Einverständnis basiert und nicht an Adobe Audience Manager weitergeleitet wurde.
 
-Um diese Art der Berichterstellung zu konfigurieren, weisen Sie die neue Kontextvariable über Verarbeitungsregeln einer benutzerdefinierten Traffic-Variable (Eigenschaft) hinzu. Gehen Sie dazu wie folgt vor
+Um diesen Berichtstyp zu konfigurieren, ordnen Sie die neue Kontextvariable über Verarbeitungsregeln einer Custom Traffic Variable (Prop) zu. Gehen Sie dazu wie folgt vor
 
 1. Implementieren Sie die Variable „cm.ssf“ (wie oben dargestellt.)
-1. [Aktivieren Sie die Eigenschaft.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
-1. Weisen Sie die Kontextvariable über Verarbeitungsregeln der Eigenschaft hinzu.
+1. [Aktivieren der Eigenschaft.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. Verwenden Sie Verarbeitungsregeln, um die Kontextvariable der Eigenschaft zuzuordnen.
 
    1. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Wählen Sie dann eine Report Suite aus.
    1. Klicken Sie auf **[!UICONTROL Report Suite bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Verarbeitungsregeln]**.
