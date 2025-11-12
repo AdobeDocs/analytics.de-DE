@@ -4,10 +4,10 @@ title: Beschriftungsbeispiele
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 ## Beispiel für Trefferdaten {#hit}
 
-Angenommen, es liegen die folgenden Trefferdaten vor:
+Angenommen, Sie verfügen über die folgenden Trefferdaten:
 
-* Die erste Zeile enthält die Beschriftungen für die einzelnen Variablen.
-* Die zweite Zeile entspricht dem Namen der Variable. Wenn sie eine ID-Beschriftung aufweist, enthält sie den zugewiesenen Namespace in Klammern.
-* Die Trefferdaten beginnen in der dritten Reihe.
+* Die erste Zeile enthält die Bezeichnungen für jede Variable.
+* Die zweite Zeile ist der Name der Variablen. Wenn sie eine ID-Kennzeichnung hat, enthält sie den zugewiesenen Namespace in Klammern.
+* Trefferdaten beginnen in der dritten Zeile.
 
 | Bezeichnungen | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
@@ -42,12 +42,13 @@ Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabe
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API-Werte</th>
-    <th rowspan="2">Typ der<br/>zurückgegebenen<br/>Zusammenfassungsdatei</th>
+    <th>Typ der<br/>zurückgegebenen<br/>Zusammenfassungsdatei</th>
     <th colspan="5" style="text-align:center">Daten in der Zusammenfassungsdatei für den Zugriff</th>
   </tr>
   <tr>
     <th>Namensraum/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>Besucher-ID</th>
     <th>MyEvar1</th>
@@ -97,7 +98,7 @@ Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabe
   <tr>
     <td>Gerät</td>
     <td>nicht vorhanden</td>
-    <td>77, 88</td>
+    <td>77 88</td>
     <td>A,B,C</td>
     <td>N, P</td>
     <td>U, W</td>
@@ -125,7 +126,7 @@ Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabe
     <td>false (falsch)</td>
     <td>Gerät</td>
     <td>nicht vorhanden</td>
-    <td>55, 77</td>
+    <td>55 77</td>
     <td>nicht vorhanden</td>
     <td>M, R</td>
     <td>X</td>
@@ -135,7 +136,7 @@ Für unser Beispiel enthält die Zusammenfassungsdatei die in der folgenden Tabe
     <td>true (wahr)</td>
     <td>Gerät</td>
     <td>nicht vorhanden</td>
-    <td>55, 77</td>
+    <td>55 77</td>
     <td>nicht vorhanden</td>
     <td>M, P, R</td>
     <td>W, X</td>

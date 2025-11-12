@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten 
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -64,14 +64,14 @@ Hinweis: fullVersionList wird derzeit nicht erfasst, da die Hauptversion des Bro
 In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
 | Hinweis | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | Browser und Hauptversion | Niedrig | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
 | Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
 | Architektur | Architektur der Site | Hoch | `"arm"` |
 | Bitness | Bitness der Architektur | Hoch | `"64"` |
 | fullVersionList | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| model | Gerätemodell | Hoch | `"Pixel 3"` |
+| Modell | Gerätemodell | Hoch | `"Pixel 3"` |
 | platformVersion | Betriebssystem/Platform-Version | Hoch | `"10"` |
 
 * Über den Anfrage-Header werden Hinweise mit geringer Entropie erfasst.

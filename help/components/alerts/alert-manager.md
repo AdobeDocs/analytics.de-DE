@@ -3,10 +3,10 @@ description: Informationen zum Verwalten von Warnhinweisen.
 title: Verwalten von Warnhinweisen
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 22%
 # Verwalten von Warnhinweisen
 
 
-Sie können Warnhinweise über eine zentrale Verwaltungsoberfläche von [!UICONTROL Warnhinweise“ filtern, taggen, löschen, umbenennen, kopieren, aktivieren, deaktivieren, erneuern &#x200B;] exportieren. Warnhinweise verwalten:
+Sie können Warnhinweise über eine zentrale Verwaltungsoberfläche von [!UICONTROL Warnhinweise“ filtern, taggen, löschen, umbenennen, kopieren, aktivieren, deaktivieren, erneuern ] exportieren. So verwalten Sie Warnhinweise:
 
 * Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ und dann **[!UICONTROL Warnhinweise]** aus.
 
@@ -33,8 +33,8 @@ Die ➊ Warnhinweisliste zeigt alle Warnhinweise an, die Ihnen gehören, die War
 
 | Spalte | Beschreibung |
 |---|---|
-| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![&#x200B; um einen Warnhinweis &#x200B;](/help/assets/icons/Star.svg)Star“ oder ![StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen. |
-| **[!UICONTROL Titel und Beschreibung]** | Um den Warnhinweis zu bearbeiten, klicken Sie auf den Titel-Link, über den der [Warnhinweiserstellung“ geöffnet &#x200B;](alert-builder.md#alert-builder). |
+| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![ um einen Warnhinweis ](/help/assets/icons/Star.svg)Star“ oder ![StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen. |
+| **[!UICONTROL Titel und Beschreibung]** | Um den Warnhinweis zu bearbeiten, klicken Sie auf den Titel-Link, über den der [Warnhinweiserstellung“ geöffnet ](alert-builder.md#alert-builder). |
 | **[!UICONTROL Typ]** | Der Typ des Warnhinweises: ein Adobe Analytics-Datenwarnhinweis oder ein Warnhinweis zur Nutzung von Server-Aufrufen. |
 | **[!UICONTROL Aktiviert]** | Der Warnhinweis ist aktiviert oder deaktiviert. |
 | **[!UICONTROL Report Suite]** | Die Report Suites, für die diese Warnung gilt. |
@@ -57,7 +57,7 @@ Sie können Aktionen für Warnhinweise mithilfe der Aktionsleiste ➋. Die Aktio
 
 | Symbol | Aktion | Beschreibung |
 |:---:|---|---|
-| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie mithilfe der [Warnhinweiserstellung“ einen weiteren &#x200B;](alert-builder.md#alert-builder) hinzu. |
+| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie mithilfe der [Warnhinweiserstellung“ einen weiteren ](alert-builder.md#alert-builder) hinzu. |
 | ![Durchsuchen](/help/assets/icons/Search.svg) | [!UICONTROL *Nach Titel suchen*] | Wenn kein Warnhinweis in der Liste ausgewählt ist, suchen Sie mithilfe dieses Suchfelds nach Warnhinweisen. |
 | ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Markieren Sie die ausgewählten Warnhinweise. Wählen Sie im **[!UICONTROL Warnhinweis]**-Dialogfeld die Tags für die ausgewählten Warnhinweise aus bzw. heben Sie die Auswahl auf. Klicken Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten Warnhinweise zu speichern. |
 | ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löscht die ausgewählten Warnhinweise. Sie werden zur Bestätigung aufgefordert. |
@@ -75,7 +75,7 @@ Die Filterleiste zeigt ➌ die aktiven Filter an, die vom Filterbereich auf die 
 
 ### Panel „Filter“
 
-Sie können die Liste der Warnhinweise mithilfe der ![&#x200B; &#x200B;](/help/assets/icons/Filter.svg)Filter **&#x200B;**&#x200B;Filter➍ im linken Bereich filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Warnhinweise an, die den spezifischen Filter berücksichtigen.
+Sie können die Liste der Warnhinweise mithilfe der ![ ](/help/assets/icons/Filter.svg)Filter **** Filter➍ im linken Bereich filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Warnhinweise an, die den spezifischen Filter berücksichtigen.
 
 
 1. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um das Bedienfeld „Filter“ zu öffnen. Wenn Sie mehr Platz für die Liste „Warnhinweise“ benötigen, können Sie erneut ![Filtern](/help/assets/icons/Filter.svg) auswählen, um das Bedienfeld zu schließen.
@@ -117,7 +117,7 @@ Sie können die Liste der Warnhinweise mithilfe der ![&#x200B; &#x200B;](/help/a
 
 Sie können einen Warnhinweis bearbeiten
 
-* Wählen Sie in [[!UICONTROL &#x200B; Liste &#x200B;]Warnhinweis](#alerts-list) den Titel des Warnhinweises aus.
+* Wählen Sie in [[!UICONTROL  Liste ]Warnhinweis](#alerts-list) den Titel des Warnhinweises aus.
 
 Verwenden Sie die [Warnhinweiserstellung](alert-builder.md#alert-builder), um den Warnhinweis zu bearbeiten.
 
@@ -178,10 +178,10 @@ To manage existing alerts in the Alerts manager:
 
 1. In the action bar, select any of the following options:
 
-   | Action | Function | 
+   | Action | Function |
    |---------|----------|
-   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
-   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. |
+   | [!UICONTROL **Delete**] | Deletes the alert. |
    | [!UICONTROL **Rename**] | Renames the alert. |
    | [!UICONTROL **Approve**] | Mark the alert as Approved. |
    | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
@@ -230,7 +230,7 @@ To configure the visible columns in the Alerts manager:
    | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
    | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
    | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
-   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Enabled | Shows whether the alert is currently enabled or disabled. |
    | Report suite | Indicates in which report suite the alert was last saved.  |
    | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
    | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |

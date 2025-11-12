@@ -4,7 +4,7 @@ title: Segmente - Übersicht
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 43%
@@ -18,7 +18,7 @@ Sie können Segmente in Analysis Workspace und Customer Journey Analytics erstel
 
 | Segmenttyp | Dabei wird | Wird wo angewendet? | Verwendungsbereiche |
 | --- | --- | --- | --- |
-| Segment der Komponentenliste | Siehe „Erstellen [&#x200B; Segments](/help/components/segmentation/segmentation-workflow/seg-create.md). | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
+| Segment der Komponentenliste | Siehe „Erstellen [ Segments](/help/components/segmentation/segmentation-workflow/seg-create.md). | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
 | Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Kann für Einzelregelsegmente (per Drag-and-Drop) oder zum Hinzufügen/Bearbeiten mehrerer Regeln (durch Klicken auf das Segmentsymbol) verwendet werden |
 | Auf berechneten Metriken basierendes Segment | [Generator für berechnete Metriken](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | Auf Virtual Report Suite basierendes Segment | [Virtual Report Suite Builder](/help/components/vrs/c-workflow-vrs/vrs-create.md) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer Virtual Report Suite-Definition |
@@ -27,7 +27,7 @@ Sie können Segmente in Analysis Workspace und Customer Journey Analytics erstel
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von Segmenten in Analysis Workspace](https://video.tv.adobe.com/v/41392?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo dazu.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von Segmenten in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo dazu.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace können Sie verschiedene Segmenttypen erstellen:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Weitere Methoden zum Anwenden von Segmenten](https://video.tv.adobe.com/v/33620?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Weitere Methoden zum Anwenden von Segmenten](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

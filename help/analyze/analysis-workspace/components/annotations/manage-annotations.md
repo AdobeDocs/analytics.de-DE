@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Anmerkungen in Analysis Workspace verwalten.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 88%
@@ -34,7 +34,7 @@ Der Anmerkungs-Manager verfügt über die folgenden Benutzeroberflächenelemente
 Die ➊ der Anmerkungsliste zeigt alle Anmerkungen an, die Ihnen gehören, die Anmerkungen, die für alle Ihre Projekte gelten, und die Anmerkungen, die für Sie freigegeben wurden. Die Liste umfasst die folgenden Spalten:
 
 | Spalte | Beschreibung |
-| --- | --- | 
+| --- | --- |
 | ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie diese Option aus, um eine Anmerkung als Favoriten zu markieren ![Stern](/help/assets/icons/Star.svg) oder aus den Favoriten zu entfernen ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg). |
 | **[!UICONTROL Titel und Beschreibung]** | Werden durch den Anmerkungsgenerator bereitgestellt. Um den Titel und die Beschreibung zu bearbeiten, wählen Sie den Titel-Link aus. Dadurch wird das Dialogfeld [Anmerkungserstellung](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) geöffnet. Eine freigegebene Anmerkung wird mit dem Symbol ![Freigabe](/help/assets/icons/ShareAlt.svg) gekennzeichnet. |
 | **[!UICONTROL Report Suite]** | Die Report Suites, für die diese Anmerkung gilt. |
@@ -129,9 +129,9 @@ The [!UICONTROL Annotations manager] shows you all of the annotations that you o
 ![](assets/annotation-mgr.png)
 
 | UI Element | Description |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL Title and Description] | Provided in the Annotations Builder. To edit the title and description, click the title link - this takes you back to the Annotations Builder.  |
-| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  | 
+| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  |
 | [!UICONTROL Owner] | Indicates who owns the annotation. As a non-Admin, you can see only annotations that you own or those that were shared with you. |
 | [!UICONTROL Applied Date Range] | The date or date range that this annotation applies to. |
 | [!UICONTROL Shared with] | Lists how many individuals or groups that you shared the annotation with. Click for more detail. |

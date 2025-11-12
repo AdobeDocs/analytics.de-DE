@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die grundlegenden Funktionen berechneter Me
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1868'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Mit dem [Generator für berechnete Metriken](/help/components/calculated-metrics
 
 ## Vergleich zwischen Tabellenfunktionen und Zeilenfunktionen
 
-Bei einer Tabellenfunktion ist die Ausgabe für jede Tabellenzeile gleich. Bei einer Zeilenfunktion ist die Ausgabe für jede Tabellenzeile unterschiedlich.
+Eine Tabellenfunktion ist eine Funktion, bei der die Ausgabe für jede Zeile der Tabelle gleich ist. Eine Zeilenfunktion ist eine Funktion, bei der die Ausgabe für jede Zeile der Tabelle unterschiedlich ist.
 
 Gegebenenfalls wird einer Funktion eine Anmerkung mit dem Typ der Funktion hinzugefügt: [!BADGE Tabelle]{type="Neutral"} oder [!BADGE Zeile]{type="Neutral"}.
 
@@ -499,7 +499,7 @@ Zur Berechnung einer Varianz wird eine gesamte Spalte von Zahlen betrachtet. Aus
 
 1. Fügen Sie diesen Wert zum Gesamtergebnis hinzu.
 
-Sobald Sie die gesamte Spalte durchlaufen haben, erhalten Sie ein einziges Gesamtergebnis. Teilen Sie dann dieses Gesamtergebnis durch die Anzahl der Elemente in der Spalte. Die resultierende Zahl ist die Varianz für die Spalte. Es handelt sich dabei um eine einzige Zahl. Allerdings wird der Wert in Form einer Spalte mit Zahlen angezeigt.
+Sobald Sie die gesamte Spalte durchlaufen haben, erhalten Sie ein einziges Gesamtergebnis. Dieser Gesamtbetrag wird dann durch die Anzahl der Elemente in der Spalte geteilt. Diese Zahl ist die Varianz für die Spalte. Es ist eine einzelne Zahl. Sie wird jedoch als Zahlenspalte angezeigt.
 
 Im Beispiel der folgenden Spalte mit drei Elementen:
 

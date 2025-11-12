@@ -5,10 +5,10 @@ title: Übersicht über Erfolgsereignisse
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 54%
+ht-degree: 26%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 54%
 
 Erfolgsereignisse (auch Konversionsereignisse oder benutzerdefinierte Ereignisse genannt) sind Aktionen, die verfolgt werden können. Sie legen fest, was ein Erfolgsereignis ist. Wenn eine Besucherin oder ein Besucher beispielsweise einen Artikel kauft, kann das Kaufereignis als Erfolgsereignis betrachtet werden.
 
-Eine Videoübersicht über Erfolgsereignisse finden Sie unter [Einführung in Konversionsereignisse](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) im Handbuch Analytics-Tutorials .
+Eine Videoübersicht über Erfolgsereignisse finden Sie unter [Einführung in Konversionsereignisse](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) im Handbuch Analytics-Tutorials .
 
 ## Beispiele für Erfolgsereignisse
 
-Es gibt, je nach Ihrem Websitetyp, viele Arten von Erfolgsereignissen. Zu diesen Arten zählen beispielsweise:
+Je nach Website-Typ gibt es viele Arten von Erfolgsereignissen. Einige Beispiele:
 
-* **Einzelhandel**: Produktaufruf, Checkout, Kauf
-* **Medien**: Abonnement, Wettbewerbsanmeldung, Seitenaufruf, Videoaufruf
-* **Finanzen**: Applikationseinreichung, Anmeldung, Nutzung von Self-Service-Tools
-* **Reisen**: Reservierung (Kauf), interne Kampagne (Clickthrough), Suche (Preisberechnung)
-* **Telekommunikation**: Kauf, Leads, Nutzung von Self-Service-Tools
-* **High Tech**: Download von White Papers, Gebotsanfragen, Formularausfüllung, Supportanfragen
-* **Automotive**: Leadeinsendung, Preisanfrage, Download von Broschüren
+* **Einzelhandel**: Produktansicht, Checkout, Kauf
+* **Media**: Abonnement, Wettbewerbsregistrierung, Seitenansicht, Videoansicht
+* **Finanzen**: Anwendungsübermittlung, Anmeldung, Verwendung von Self-Service-Tools
+* **Reisen**: Buchung (Kauf), interne Kampagne (Clickthrough), Suche (Preisfindungs-Reiseroute)
+* **Telekommunikation**: Kauf, Leads, Verwendung von Self-Service-Tools
+* **High Tech**: Whitepaper-Download, RFP, Formularausfüllung, Support-Anfragen
+* **Automotive**: Lead-Übermittlung, Angebot anfordern, Broschüre herunterladen
 
-Die Variable [s.events](/help/implement/vars/page-vars/events/event-serialization.md) definiert ein Erfolgsereignis.
+Die [s.events](/help/implement/vars/page-vars/events/event-serialization.md)-Variable definiert ein Erfolgsereignis.
 
 ## Konfigurieren von Erfolgsereignissen
 
@@ -48,19 +48,19 @@ So konfigurieren Sie Erfolgsereignisse:
 
 1. Aktivieren Sie in **[!UICONTROL Spalte &quot;]**&quot; das Kontrollkästchen neben dem Element, dessen Bearbeitung aktiviert werden soll, und geben Sie dann den gewünschten Namen an.
 
-   Verwenden Sie aussagekräftige Namen für die auf Ihrer Website genutzten Erfolgsereignisse. Wenn beispielsweise Ereignis1 zur Nachverfolgung von Registrierungen verwendet wird, können Sie hier den Namen ändern, damit es in sämtlichen Konversionsberichten als „Registrierungen“ angezeigt wird.
+   Geben Sie Erfolgsereignissen, die auf Ihrer Site verwendet werden, aussagekräftige Namen. Wenn beispielsweise event1 zum Nachverfolgen von Registrierungen verwendet wird, ändern Sie den Namen hier, sodass event1 in allen Konversionsberichten als Metrik „Registrierungen“ dargestellt wird.
 
 1. Aktivieren Sie in **[!UICONTROL Spalte]** Typ“ das Kontrollkästchen neben dem Element, um die Dropdown-Liste zu aktivieren, und wählen Sie dann den gewünschten Typ aus.
 
    >[!IMPORTANT]
    >
-   >Beachten Sie beim Ändern des Ereignistyps Folgendes:<ul><li>Sie können den Ereignistyp zwischen Zähler und numerischen Werten ändern, ohne den Zugriff auf zuvor erfasste Daten zu verlieren.</li><li>Beim Ändern von Ereignistypen in oder von einem Währungsereignis wird eine Meldung angezeigt, die besagt, dass historische Daten im Reporting nicht verfügbar sind. Die unterschiedlichen Ereignistypen verwenden separate Datentabellen, die nicht gleichzeitig genutzt werden können. Beim Wiederherstellen des bisherigen Ereignistyps kann ein Teil der historischen Daten unter Umständen wiederhergestellt werden. Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht verfügbar.</li></ul>
+   >Beachten Sie beim Ändern des Ereignistyps Folgendes:<ul><li>Sie können den Ereignistyp zwischen Zähler und numerischen Werten ändern, ohne den Zugriff auf zuvor erfasste Daten zu verlieren.</li><li>Beim Ändern von Ereignistypen in oder von einem Währungsereignis wird eine Meldung angezeigt, die besagt, dass historische Daten im Reporting nicht verfügbar sind. Verschiedene Ereignistypen verwenden separate Datentabellen und können nicht gleichzeitig verwendet werden. Einige historische Daten können wiederhergestellt werden, wenn der Benutzer den Ereignistyp zurücksetzt. Daten, die nach der ersten Änderung erfasst wurden, sind jedoch nicht verfügbar.</li></ul>
 
-   Der ausgewählte Typ bestimmt, ob das Ereignis ein Zähler- (Standard-), numerisches oder ein Währungsereignis ist. <p>Zählerereignisse werden verwendet, um ein Ereignis in der Zeit aufzuzeichnen.</p><p>Numerische Ereignisse werden für Berichte zu nicht währungsbezogenen Zahlen verwendet, z. B. die Anzahl der Coupons, die in einer Bestellung verwendet werden.</p> <p>Währungsereignisse zeichnen eine Dezimalzahl auf, z. B. Steuer oder Versand. Der in die Währungsereignisse einfließende Wert wird bei Eingang von der Seitenwährung in die Basiswährung der Report Suite konvertiert. Währungsereignisse werden zur Nachverfolgung von Steuern und Versandkosten verwendet. Weitere Informationen zur Verwendung von Währungsereignissen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.<p>Bei numerischen Ereignissen und Währungsereignissen können die Metriken um einen anderen Wert als 1 erhöht werden.</p><p>Ereignisse im Standardtyp von „Data Sources“ müssen numerische oder Währungsereignisse sein.</p>
+   Der ausgewählte Typ bestimmt, ob das Ereignis ein Zähler- (Standard-), numerisches oder ein Währungsereignis ist. <p>Zählerereignisse werden verwendet, um ein Ereignis in der Zeit aufzuzeichnen.</p><p>Numerische Ereignisse werden für Berichte zu nicht währungsbezogenen Zahlen verwendet, z. B. die Anzahl der Coupons, die in einer Bestellung verwendet werden.</p> <p>Währungsereignisse zeichnen eine Dezimalzahl auf, z. B. Steuer oder Versand. Der an Währungsereignisse übergebene Wert wird bei Erhalt von der Seitenwährung in die Basiswährung der Report Suite umgerechnet. Währungsereignisse werden zur Verfolgung von Steuer- und Versandkosten verwendet. Weitere Informationen zur Verwendung von Währungsereignissen erhalten Sie von einem Adobe-Support-Mitarbeiter.<p>Mit numerischen und Währungsereignissen können Sie Metriken um mehr als ein Inkrement erhöhen.</p><p>Ereignisse, die im Standardtyp von Datenquellen verwendet werden, müssen numerische oder Währungsereignisse sein.</p>
 
 1. Aktivieren Sie in **[!UICONTROL Spalte]** Polarität“ das Kontrollkästchen und wählen Sie dann aus dem Dropdown-Menü aus, ob für diese Metrik ein Aufwärts-Trend gut oder schlecht ist.
 
-   Auf diese Weise können Sie angeben, ob Adobe Analytics es als gut oder schlecht erachten sollte, wenn ein bestimmtes benutzerspezifisches Ereignis (eine Metrik) aufsteigt. Sie aktiviert Richtungsindikatoren (Pfeile) für verschiedene Metriken, um Kontext hinzuzufügen (z. B. wochenweise Vergleiche).  Beispiele: Wenn die Metrik „Übermittelte Bugs“ über mehrere Wochen ansteigt, soll Adobe Analytics dies als positiv oder negativ interpretieren? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich positiv. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität angewendet auf: bedingte Formatierung der Freiformtabelle, Visualisierungen von Änderungen an der Zusammenfassung und das positive/negative Farbschema der Kartenvisualisierung.
+   Auf diese Weise können Sie angeben, ob Adobe Analytics es als gut oder schlecht erachten sollte, wenn ein bestimmtes benutzerspezifisches Ereignis (eine Metrik) aufsteigt. Sie aktiviert Richtungsindikatoren (Pfeile) für verschiedene Metriken, um Kontext hinzuzufügen (z. B. wochenweise Vergleiche).  Beispiele: Wenn „Bugs Submitted“ von Woche zu Woche ansteigt, sollte Adobe Analytics das als gut oder schlecht ansehen? Ein Anstieg der E-Mail-Registrierungen ist wahrscheinlich gut. Ein Anstieg bei den Übermittlungsfehlern für Formulare ist hingegen möglicherweise negativ.  In Analysis Workspace wird die Polarität auf Folgendes angewendet: bedingte Formatierung von Freiformtabellen, Visualisierungen von Zusammenfassungsänderungen und das Farbschema der Positiv-/Negativ-Kartenvisualisierung.
 
 1. Aktivieren Sie in der Spalte **[!UICONTROL Sichtbarkeit]** das Kontrollkästchen und wählen Sie dann aus dem Dropdown-Menü aus, ob Standardmetriken (integriert), benutzerdefinierte Ereignisse und integrierte Ereignisse im Menü, Metrikselektoren, Generator für berechnete Metriken und Segment Builder ausgeblendet werden sollen.
 
@@ -71,7 +71,7 @@ So konfigurieren Sie Erfolgsereignisse:
    | Einstellung | Sichtbar in | Nicht sichtbar in |
    |---------|----------|---------|
    | [!UICONTROL **Überall eingeblendet**] | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
-   | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Builder**] | <ul><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **Überall ausgeblendet**] | k. A. | <ul><li>Analysis Workspace</li><li>Segmentaufbau</li><li>Aufbau berechneter Metriken</li></ul> |
 
 1. Aktivieren Sie in [!UICONTROL **Spalte**] Beschreibung“ das Kontrollkästchen und geben Sie dann eine Beschreibung ein.

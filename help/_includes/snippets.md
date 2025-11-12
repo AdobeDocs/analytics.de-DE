@@ -1,5 +1,5 @@
 ---
-source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '2999'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->&#x200B;>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Ein Attributions-Container definiert den gewünschten Umfang für die Attributio
 
 Ein Lookback-Fenster ist der Zeitraum, der für eine Konversion rückblickend bei der Erfassung von Touchpoints berücksichtigt werden sollte. Wenn ein Dimensionselement außerhalb des Lookback-Fensters festgelegt wird, wird der Wert in keine Attributionsberechnungen einbezogen.
 
-* **[!UICONTROL Reporting-Fenster]**: Sucht nach dem Beginn des Reporting-Fensters zum Zeitpunkt der Konvertierung.
+* **[!UICONTROL Reporting-Fenster]**: Blickt nach dem Beginn des Reporting-Fensters zum Zeitpunkt der Konvertierung zurück.
 * **14 Tage**: Blickt bis zu 14 Tage nach dem Zeitpunkt zurück, an dem die Konversion stattgefunden hat.
 * **30 Tage**: Blickt bis zu 30 Tage nach dem Zeitpunkt zurück, an dem die Konversion stattgefunden hat.
 * **60 Tage**: Blickt bis zu 60 Tage nach dem Zeitpunkt zurück, an dem die Konversion stattgefunden hat.

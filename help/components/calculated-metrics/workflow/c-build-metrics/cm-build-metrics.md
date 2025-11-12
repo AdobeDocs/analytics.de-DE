@@ -3,7 +3,7 @@ description: 'Erhalten Sie weitere Informationen zum Generator für berechnete M
 title: Erstellen von Metriken
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -186,7 +186,7 @@ Wählen Sie zum Löschen eines Containers ![Close](/help/assets/icons/Close.svg)
 >[!MORELIKETHIS]
 >
 >[Funktionen verwenden](cm-using-functions.md)
->>[Segmente](/help/components/segmentation/seg-overview.md)
+>[Segmente](/help/components/segmentation/seg-overview.md)
 >
 
 

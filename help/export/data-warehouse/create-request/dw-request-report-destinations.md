@@ -3,7 +3,7 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 82%
@@ -245,7 +245,7 @@ Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfa
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-south-1
+* ap-South-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2

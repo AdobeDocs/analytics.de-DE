@@ -3,10 +3,10 @@ description: Erläutert die erforderlichen Vorbereitungen zur Vorbereitung der M
 title: Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -27,27 +27,27 @@ Bevor Ihre Projekte und die zugehörigen Komponenten für die Migration bereit s
 
    * Um den Adobe Analytics-Quell-Connector zu verwenden, müssen Sie:
 
-      1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [Aufnehmen und Verwenden der Daten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=de)
 
    * Um das WebSDK zu verwenden, müssen Sie:
 
-      1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=de)
+      1. [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Erstellen Sie [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=de) und [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den aufgenommenen Daten.
+1. Erstellen Sie [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) und [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den aufgenommenen Daten.
 
 1. Stellen Sie sicher, dass Benutzende in Customer Journey Analytics für die Datenansichten bereitgestellt werden, in denen Daten zugeordnet werden.
 
-   Weitere Informationen finden Sie unter [Customer Journey Analytics-Berechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=de#customer-journey-analytics-permissions-in-admin-console) in der [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=de).
+   Weitere Informationen finden Sie unter [Customer Journey Analytics-Berechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in der [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    Die Registerkarte Berechtigungen ist Teil jedes Produktprofils in Admin Console. Benutzende können zu bestimmten Produktprofilen hinzugefügt werden. Anschließend weisen Sie bestimmten Datenansichten Rechte zu und geben an, welche Berechtigungen die Benutzer in einem Produktprofil haben.
 
 1. Legen Sie als Organisation fest, wie Sie Komponenten zuordnen.
 
-   Weitere Informationen finden Sie im folgenden Abschnitt [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen &#x200B;](#decide-as-an-organization-how-you-will-map-components).
+   Weitere Informationen finden Sie im folgenden Abschnitt [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen ](#decide-as-an-organization-how-you-will-map-components).
 
 ## Was in einer Migration enthalten ist
 
@@ -55,14 +55,14 @@ In den folgenden Tabellen ist aufgeführt, welche Elemente eines Projekts und ei
 
 ### Migrierte Komponentenelemente
 
-Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics&quot; &#x200B;](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics&quot; ](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
 
 Segmente, Datumsbereiche und berechnete Metriken, die noch nicht in Customer Journey Analytics vorhanden sind, werden dort basierend auf den zugeordneten Dimensionen und Metriken neu erstellt.
 
-|  | „Migriert“ |
+|  | Migriert |
 |---------|---------|
 | **[Inhabende](/help/components/calculated-metrics/workflow/cm-manager.md)** | Dimensionen und Metriken: Nein<p>Segmente und Datumsbereiche: ![Häkchen](assets/Smock_Checkmark_18_N.svg)</p> |
-| **[Freigeben](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: Nein<p>Segmente und Datumsbereiche: Nein</p> |
+| **[Freigabe](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: Nein<p>Segmente und Datumsbereiche: Nein</p> |
 | **[Beschreibungen](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionen und Metriken: Nein<p>Segmente und Datumsbereiche: ![Häkchen](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[Tags](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionen und Metriken: Nein<p>Segmente und Datumsbereiche: Nein</p> |
 | **[Attribution (auf Dimensionen)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionen und Metriken: Nein<p>Segmente und Datumsbereiche: Nein</p> |
@@ -71,7 +71,7 @@ Segmente, Datumsbereiche und berechnete Metriken, die noch nicht in Customer Jou
 
 ### Migrierte Projektelemente
 
-|  | „Migriert“ |
+|  | Migriert |
 |---------|----------|
 | **[Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Segmente](/help/components/segmentation/seg-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
@@ -82,7 +82,7 @@ Segmente, Datumsbereiche und berechnete Metriken, die noch nicht in Customer Jou
 | **[Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
 | **[Inhabende](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) Wird von der Person definiert, die die Migration durchführt |
 | **[Kuratierung](/help/analyze/analysis-workspace/curate-share/curate.md)** | Nein |
-| **[Freigeben](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nein |
+| **[Freigabe](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Nein |
 | **[Anmerkungen](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Nein |
 | **[Ordnerstruktur](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Nein |
 | **[Beschreibungen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![Häkchen](assets/Smock_Checkmark_18_N.svg) |
@@ -128,36 +128,36 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 
 ### Dimensionen, die manuell zugeordnet werden müssen
 
-* averagepagetime
+* averagePageTime
 * pagetimeseconds
-* singlepagevisits
+* singlePageVisits
 * visitnumber
-* timeprior
-* timespent
-* category
-* connectiontype
-* customerloyalty
-* customlink
-* downloadlink
+* timePrior
+* TimeSpent
+* Kategorie
+* connectionType
+* Kundentreue
+* Benutzerspezifischer Link
+* Downloadlink
 * Exitlink
-* hitdepth
-* hittype
+* Treffertiefe
+* HitType
 * pathlength
-* daysbeforefirstpurchase
-* dayssincelastpurchase
+* daysBeforeFirstPurchase
+* daysSinceLastPurchase
 * daysSinceLastVisit
 * Bezeichnerstaat
-* optoutreason
-* persistentcookie
-* returnfrequency
-* searchenginenatural
-* searchenginenaturalkeyword
-* mobilecarrier
-* monitorresolution
-* surveybase
-* mcaudiences
+* Opportunismus
+* persistentes Cookie
+* Rücklauffrequenz
+* searchennaturural
+* searchEngineNaturalKeyword
+* Mobilnetzbetreiber
+* Bildschirmauflösung
+* Vermessungsgrundlage
+* Zielgruppen
 * tntbase
-* targetraw
+* Zielschleppnetz
 
 
 ### Metriken, die manuell zugeordnet werden müssen
@@ -165,7 +165,7 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 * timespentvisit
 * timespentvisitor
 * Neuladungen
-* Absprünge
+* Bounces
 * zurückprallen
 * pageEvents
 * pageviewspervisit
@@ -176,16 +176,16 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 * customLinkInstances
 * downloadLinkInstances
 * DarkVisitors
-* singlepagevisits
+* singlePageVisits
 * singleValueVisits
 * VisitorHomepage
 * visitorsMCVISID
-* pagesnotfound
+* pagesNotFound
 * Neue Interaktionen
 * time_granularity
 * concurrent_viewers_visitors
 * concurrent_viewers_currences
-* Geräten auf
+* Geräte
 * estimatedPeople
 * player_time_spent_seconds
 * player_time_spent_minutes

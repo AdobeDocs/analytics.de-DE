@@ -4,10 +4,10 @@ description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 78%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ In dieser Tabelle sind alle Berechtigungselemente unter „Report Suite-Tools“
 | Berechtigungselement der Report Suite-Tools | Beschreibung |
 |------|------|
 | [!UICONTROL Kontozusammenfassung] | Gewährt Zugriff auf „Allgemein > Allgemeine Kontoeinstellungen“ im Report Suite Manager. |
-| [!UICONTROL Advertising Analytics-Konfiguration] | Ermöglicht Benutzern die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. |
+| [!UICONTROL Advertising Analytics-Konfiguration] | Ermöglicht Benutzenden die Konfiguration von Report Suites, die für Advertising Analytics bereitgestellt werden sollen. |
 | [!UICONTROL Anomalieerkennung] | Gewährt Zugriff auf die Anomalieerkennung bei Analysis Workspace. |
 | [!UICONTROL Bot-Seiten] | Nicht verwendet. |
 | [!UICONTROL Bots] | Nicht verwendet. |
