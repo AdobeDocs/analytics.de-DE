@@ -19,9 +19,9 @@ Sie können Adobe Analytics-Arbeitsmappen aus Report Builder an Cloud-Anbieter w
 
 Alternativ können Sie Arbeitsmappen mithilfe von E-Mails für andere freigeben, wie unter [Arbeitsmappen für die Freigabe per E-Mail planen](/help/analyze/report-builder/schedule-reportbuilder.md) beschrieben.
 
-[Der Export von Berichten aus Report Builder in die Cloud bietet ](#advantages-of-exporting-to-the-cloud) die Möglichkeit, Berichte in Tools von Drittanbietern zu verwenden oder sie mit externen Daten zu kombinieren.
+[Der Export von Berichten aus Report Builder in die Cloud bietet &#x200B;](#advantages-of-exporting-to-the-cloud) die Möglichkeit, Berichte in Tools von Drittanbietern zu verwenden oder sie mit externen Daten zu kombinieren.
 
-Bevor Sie Arbeitsmappen aus Report Builder in ein Cloud-Ziel exportieren, stellen Sie sicher, dass Ihre Datenblöcke, Ihre Umgebung und Ihre Berechtigungen die [Exportanforderungen“ ](#export-requirements).
+Bevor Sie Arbeitsmappen aus Report Builder in ein Cloud-Ziel exportieren, stellen Sie sicher, dass Ihre Datenblöcke, Ihre Umgebung und Ihre Berechtigungen die [Exportanforderungen“ &#x200B;](#export-requirements).
 
 ## Grundlegendes zum Exportprozess
 
@@ -37,7 +37,7 @@ Verwenden Sie den folgenden Prozess beim Exportieren von Arbeitsmappen aus Repor
 
 >[!NOTE]
 >
->Bevor Sie Daten exportieren, wie in diesem Abschnitt beschrieben, erfahren Sie [ Abschnitt über den ](#understand-the-export-process) .
+>Bevor Sie Daten exportieren, wie in diesem Abschnitt beschrieben, erfahren Sie [&#x200B; Abschnitt über den &#x200B;](#understand-the-export-process) .
 
 So exportieren Sie Berichte aus Report Builder:
 
@@ -57,7 +57,7 @@ So exportieren Sie Berichte aus Report Builder:
 
    Um die Arbeitsmappe nach einem Zeitplan zu exportieren, den Sie bereits erstellt haben, wählen Sie den Zeitplan aus der Liste der Zeitpläne aus und klicken Sie auf **[!UICONTROL Planmäßig senden]**.
 
-1. Geben Sie im rechten Bedienfeld [!UICONTROL **0}Adobe Report Builder&quot; die folgenden Informationen an, um mit der Erstellung eines neuen Zeitplans fortzufahren:**]
+1. Geben Sie im rechten Bedienfeld [!UICONTROL **0&rbrace;Adobe Report Builder&quot; die folgenden Informationen an, um mit der Erstellung eines neuen Zeitplans fortzufahren:**]
 
    | Feldname | Funktion |
    |---------|----------|

@@ -19,7 +19,7 @@ In den folgenden Abschnitten werden die Aktivitäten beschrieben, die Sie beim V
 
 ## Anfragen anzeigen
 
-Standardmäßig können Sie nur die von Ihnen erstellten Anfragen anzeigen, es sei denn, die Benutzer haben ausgewählt, ihre Anfragen für andere Personen in der Organisation sichtbar zu machen (wie in den allgemeinen Einstellungen für Data Warehouse-Anfragen in [](/help/export/data-warehouse/create-request/dw-general-settings.md) beschrieben). Systemadministratoren können alle Anforderungen anzeigen.
+Standardmäßig können Sie nur die von Ihnen erstellten Anfragen anzeigen, es sei denn, die Benutzer haben ausgewählt, ihre Anfragen für andere Personen in der Organisation sichtbar zu machen (wie in den allgemeinen Einstellungen für Data Warehouse-Anfragen in [&#128279;](/help/export/data-warehouse/create-request/dw-general-settings.md) beschrieben). Systemadministratoren können alle Anforderungen anzeigen.
 
 So zeigen Sie Data Warehouse-Anfragen an:
 

@@ -18,7 +18,7 @@ Sie können Segmente in Analysis Workspace und Customer Journey Analytics erstel
 
 | Segmenttyp | Dabei wird | Wird wo angewendet? | Verwendungsbereiche |
 | --- | --- | --- | --- |
-| Segment der Komponentenliste | Siehe „Erstellen [ Segments](/help/components/segmentation/segmentation-workflow/seg-create.md). | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
+| Segment der Komponentenliste | Siehe „Erstellen [&#x200B; Segments](/help/components/segmentation/segmentation-workflow/seg-create.md). | Alle Workspace-Projekte | Für komplexere Segmente, sequenzielle Segmente |
 | Schnellsegment | [Quick Segment Builder](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nur Projekt, aber Speichern und Hinzufügen in Ihrer Segmentliste möglich. | Kann für Einzelregelsegmente (per Drag-and-Drop) oder zum Hinzufügen/Bearbeiten mehrerer Regeln (durch Klicken auf das Segmentsymbol) verwendet werden |
 | Auf berechneten Metriken basierendes Segment | [Generator für berechnete Metriken](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | Einzeln berechnete Metriken | Anwenden von Segmenten in Ihrer Metrikdefinition |
 | Auf Virtual Report Suite basierendes Segment | [Virtual Report Suite Builder](/help/components/vrs/c-workflow-vrs/vrs-create.md) | Einzelne Virtual Report Suite | Anwenden von Segmenten in Ihrer Virtual Report Suite-Definition |

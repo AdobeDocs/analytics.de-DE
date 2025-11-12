@@ -113,7 +113,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
    Einige Dimensionen und Metriken in Adobe Analytics können nicht automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet werden.
 
-   Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben der Abschnittsüberschrift [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] ein orangefarbener Zähler angezeigt, der die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird neben jeder Dimension ![ Metrik, ](assets/schema-warning.png) manuell zugeordnet werden muss, ein Warnsymbol (Warnsymbol) angezeigt.
+   Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben der Abschnittsüberschrift [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] ein orangefarbener Zähler angezeigt, der die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird neben jeder Dimension ![&#x200B; Metrik, &#x200B;](assets/schema-warning.png) manuell zugeordnet werden muss, ein Warnsymbol (Warnsymbol) angezeigt.
 
    Darüber hinaus lautet die Spalte [!UICONTROL **Status**] &quot;[!UICONTROL **zugeordnet**].
 
@@ -129,7 +129,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
    Wiederholen Sie diesen Vorgang für jede Dimension oder Metrik, die das Warnsymbol enthält.
 
-   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite einer Dimension oder Metrik in der Customer Journey Analytics Report Suite zugeordnet wurden, wird neben dem Namen der Report Suite ![ grünes Häkchen (](assets/report-suite-check.png)) im Abschnitt [!UICONTROL **Zuordnungsschema für Report Suites**] angezeigt.
+   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite einer Dimension oder Metrik in der Customer Journey Analytics Report Suite zugeordnet wurden, wird neben dem Namen der Report Suite ![&#x200B; grünes Häkchen (](assets/report-suite-check.png)) im Abschnitt [!UICONTROL **Zuordnungsschema für Report Suites**] angezeigt.
 
 1. (Bedingt) Wenn die Projekte, die Sie migrieren, mehr als eine Report Suite enthalten, wählen Sie im Abschnitt [!UICONTROL **Zuordnungsschema für Report Suites**] eine andere Report Suite aus und wiederholen Sie dann Schritt 6 bis Schritt 10. <!-- double-check that the step numbers are still correct -->
 
@@ -141,7 +141,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
    Nach Abschluss der Migration [!UICONTROL **auf der Seite**] Migrationsstatus“ eine Zusammenfassung der migrierten Elemente.
 
-   Wenn die Migration fehlschlägt, finden Sie [ Abschnitt „Wiederholen einer fehlgeschlagenen Migration](#retry-a-failed-migration) weiter unten weitere Informationen.
+   Wenn die Migration fehlschlägt, finden Sie [&#x200B; Abschnitt „Wiederholen einer fehlgeschlagenen Migration](#retry-a-failed-migration) weiter unten weitere Informationen.
 
 1. (Optional) Nach der Migration von Projekten können Sie den Besitz der Projekte an einen beliebigen Benutzer in Customer Journey Analytics übertragen. Weitere Informationen finden Sie unter [Assets übertragen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) im Customer Journey Analytics-Handbuch.
 
@@ -185,7 +185,7 @@ Sie können nach den folgenden Kriterien filtern:
 | [!UICONTROL **Tags**] | Wählen Sie beliebige Tags in der Liste der Tags aus. Es werden nur Projekte angezeigt, auf die die ausgewählten Tags angewendet wurden. |
 | [!UICONTROL **Report Suite**] | Wählen Sie eine beliebige Report Suite in der Liste der Report Suites aus. Es werden nur Projekte angezeigt, die die ausgewählten Report Suites verwenden. |
 | [!UICONTROL **Inhaberinnen oder Inhaber**] | Wählen Sie einen beliebigen Eigentümer in der Liste der Eigentümer aus. Es werden nur Projekte angezeigt, die den von Ihnen ausgewählten Benutzern gehören. |
-| [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Meine**]: Zeigt nur Projekte an, bei denen Sie als Besitzer festgelegt sind.</li><li>[!UICONTROL **Für mich freigegeben**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favoriten markiert sind. (Sie können ein Projekt auf der [Projekt-Landingpage“ als Favorit ](/help/analyze/landing.md).)</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
+| [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Meine**]: Zeigt nur Projekte an, bei denen Sie als Besitzer festgelegt sind.</li><li>[!UICONTROL **Für mich freigegeben**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favoriten markiert sind. (Sie können ein Projekt auf der [Projekt-Landingpage“ als Favorit &#x200B;](/help/analyze/landing.md).)</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
 
 {style="table-layout:auto"}
 

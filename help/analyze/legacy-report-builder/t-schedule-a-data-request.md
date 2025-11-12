@@ -53,7 +53,7 @@ Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen 
 | Anpassen | Ermöglicht die Anpassung des Datumsformats. |
 | An | Zeigt Ihr Outlook-Adressbuch an, falls zutreffend. |
 | Senden an: E-Mail | Die E-Mail-Adresse des Empfängers der Arbeitsmappe. |
-| Power BI | Weitere [ finden Sie unter „Veröffentlichen von Arbeitsmappen ](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) Microsoft Power BI&quot;. |
+| Power BI | Weitere [&#x200B; finden Sie unter „Veröffentlichen von Arbeitsmappen &#x200B;](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) Microsoft Power BI&quot;. |
 | Betreff | Eine benutzerdefinierte Beschreibung. |
 | Zeitplan | Hier können Sie angeben, wann die Arbeitsmappe gesendet werden soll (sofort, stündlich, täglich, wöchentlich oder jährlich). |
 
