@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Kerndimensionen der Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Verfügbare Metriken finden Sie [Kernmetriken ](../metrics/sm-core.md) Streaming-Mediendienste“.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Verfügbare Metriken finden Sie [Kernmetriken &#x200B;](../metrics/sm-core.md) Streaming-Mediendienste“.*
 
 Die Kerndimensionen der Streaming-Mediendienste bieten grundlegende Reporting-Funktionen für Daten, die über Bibliotheken der Streaming-Mediendienste erfasst werden. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 

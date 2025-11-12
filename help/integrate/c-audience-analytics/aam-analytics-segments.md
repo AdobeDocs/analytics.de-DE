@@ -45,4 +45,4 @@ Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. D
 
   Umgekehrt werden Besucher in Analytics basierend auf dem Berichtsdatumsbereich in ein Segment eingeschlossen oder aus einem Segment ausgeschlossen. Beispielsweise tätigte ein einzelner Besucher im letzten Monat einen Kauf. In Adobe Audience Manager würde dieser Besucher unabhängig vom Datumsbereich in ein Segment „Käufer“ aufgenommen. In Analytics würde ein Bericht, der auf diesem Monat basiert, den Besucher nicht in das Segment einschließen. Ein Bericht, der auf diesem Monat und dem letzten Monat basiert, würde den Besucher jedoch in das Segment einschließen.
 
-Weitere Informationen finden [ im Analytics](/help/components/segmentation/seg-home.md)Segmentierungshandbuch .
+Weitere Informationen finden [&#x200B; im Analytics](/help/components/segmentation/seg-home.md)Segmentierungshandbuch .

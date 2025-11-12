@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Streaming-Mediendienste und -metriken
 
-*Auf dieser Seite werden die verfügbaren Metriken beschrieben, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren. Verfügbare Dimensionen finden [ unter &quot;](../dimensions/sm-ads.md)-Dimensionen für Streaming-Mediendienste“*
+*Auf dieser Seite werden die verfügbaren Metriken beschrieben, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren. Verfügbare Dimensionen finden [&#x200B; unter &quot;](../dimensions/sm-ads.md)-Dimensionen für Streaming-Mediendienste“*
 
 Streaming-Mediendienste und -Metriken bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediendienste-Bibliotheken. Für die Verwendung dieser Metriken ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 

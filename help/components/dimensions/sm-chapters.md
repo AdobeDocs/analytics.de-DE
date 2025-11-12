@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Kapiteldimensionen für Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienkapitel] für eine Report Suite aktivieren. Verfügbare Metriken finden [ unter ](../metrics/sm-chapters.md)Metriken zu Streaming-Mediendiensten“.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienkapitel] für eine Report Suite aktivieren. Verfügbare Metriken finden [&#x200B; unter &#x200B;](../metrics/sm-chapters.md)Metriken zu Streaming-Mediendiensten“.*
 
 Die Kapiteldimensionen für Streaming-Mediendienste bieten zusätzliche Berichtsfunktionen für die Datenerfassung über Streaming-Mediendienstbibliotheken. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
