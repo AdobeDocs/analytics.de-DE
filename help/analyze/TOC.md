@@ -7,7 +7,7 @@ user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschlie
 source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 99%
       + Freiformtabelle {#freeform-table}
          + [Überblick](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Erstellen von Hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
-         + [Trend-Daten anzeigen](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Anzeigen von Trend-Daten](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
          + [Filtern und Sortieren](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Gesamt](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Spalten- und Zeileneinstellungen {#column-row-settings}

@@ -5,7 +5,7 @@ user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
 source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
 
