@@ -3,7 +3,7 @@ title: Klassifizierungssätze – Übersicht
 description: Erfahren Sie, wie Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten verwenden. Erfahren Sie, wie sich Klassifizierungssätze von veralteten Klassifizierungen unterscheiden.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 11%
@@ -49,16 +49,16 @@ Der Workflow für Klassifizierungssätze umfasst normalerweise die folgenden Sch
    | Report Suite 1 | Produkt-ID |
    | Report Suite 2 | Produkt-SKU |
 
-1. [Fügen Sie die Klassifizierungen &#x200B;](/help/components/classifications/sets/manage/schema.md#add), die Sie dem Klassifizierungssatz-Schema zugeordnet haben. Zum Beispiel:
+1. [Fügen Sie die Klassifizierungen ](/help/components/classifications/sets/manage/schema.md#add), die Sie dem Klassifizierungssatz-Schema zugeordnet haben. Zum Beispiel:
 
    | Klassifizierungsname | Identitätsname |
    |---|---|
    | Kategorie | Kategorie |
    | Farbe | color |
 
-1. Erstellen Sie manuell eine Datei, die Klassifizierungsdaten enthält. [Verwenden Sie eine &#x200B;](/help/components/classifications/sets/manage/schema.md#template), um sicherzustellen, dass Sie das [unterstützte Dateiformat](data-files.md#classification-set-file-formats) und die Spalten für die Datei verwenden. Fügen Sie dann die Daten zur Vorlagendatei hinzu.
+1. Erstellen Sie manuell eine Datei, die Klassifizierungsdaten enthält. [Verwenden Sie eine ](/help/components/classifications/sets/manage/schema.md#template), um sicherzustellen, dass Sie das [unterstützte Dateiformat](data-files.md#classification-set-file-formats) und die Spalten für die Datei verwenden. Fügen Sie dann die Daten zur Vorlagendatei hinzu.
 
-   Alternativ können Sie Daten direkt aus Ihrem Produktkatalog in den [unterstützten Dateiformaten“ mit &#x200B;](data-files.md#classification-set-file-formats) exportieren, die der Vorlage entsprechen. Beispiel: eine CSV-Datei wie:
+   Alternativ können Sie Daten direkt aus Ihrem Produktkatalog in den [unterstützten Dateiformaten“ mit ](data-files.md#classification-set-file-formats) exportieren, die der Vorlage entsprechen. Beispiel: eine CSV-Datei wie:
 
    ```
    Key,Category,Color
@@ -77,13 +77,13 @@ Der Workflow für Klassifizierungssätze umfasst normalerweise die folgenden Sch
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-In der Classification-Datendatei verweisen Sie mithilfe von **[!UICONTROL auf die Schlüsseldimension für jede Report Suite (z. B]** „Produkt **[!UICONTROL ID“ und]** Produkt`Key`SKU). Und Sie verweisen auf jede Klassifizierung mithilfe des **[!UICONTROL Klassifizierungsnamens]** (z. B. `Category` oder `Color`).
+   In der Classification-Datendatei verweisen Sie mithilfe von **[!UICONTROL auf die Schlüsseldimension für jede Report Suite (z. B]** „Produkt **[!UICONTROL ID“ und]** Produkt`Key`SKU). Und Sie verweisen auf jede Klassifizierung mithilfe des **[!UICONTROL Klassifizierungsnamens]** (z. B. `Category` oder `Color`).
 
 1. [Hochladen](/help/components/classifications/sets/manage/schema.md#upload) Die Datei, die die Klassifizierungsdaten enthält, in das Klassifizierungssatzschema.
 
 1. [Automatisieren](/help/components/classifications/sets/manage/schema.md#automate) Sie den Prozess der Aktualisierungen Ihres Produktkatalogs, die durch die Verwendung eines Cloud-Speicherorts in den Klassifizierungsdaten angezeigt werden sollen.
 
-1. [Laden Sie &#x200B;](/help/components/classifications/sets/manage/schema.md#download) Klassifizierungsdaten herunter, um den Inhalt zu validieren.
+1. [Laden Sie ](/help/components/classifications/sets/manage/schema.md#download) Klassifizierungsdaten herunter, um den Inhalt zu validieren.
 
 1. [Überprüfen Sie den Vorgangsverlauf](/help/components/classifications/sets/job-manager.md) um die Ergebnisse Ihrer Aktionen (Hochladen, Herunterladen, Vorlage und mehr) zu Klassifizierungen anzuzeigen.
 1. Wenn Sie mehrere ähnliche Klassifizierungssätze infolge einer Migration aus der alten Klassifizierungsfunktion haben, [konsolidieren](consolidations/manage.md) diese Klassifizierungssätze.
@@ -96,7 +96,7 @@ Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, 
 
 * Verkürzte Verarbeitungszeit (von 72 Stunden zurück auf 24 Stunden).
 * Eine neu gestaltete Benutzeroberfläche zum Verwalten von Klassifizierungen.
-* Die Option, Klassifizierungsdaten in Adobe Experience Platform über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten zu &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Die Option, Klassifizierungsdaten in Adobe Experience Platform über den [Adobe Analytics-Quell-Connector für Klassifizierungsdaten zu ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, enthält auch mehrere Änderungen:
 
