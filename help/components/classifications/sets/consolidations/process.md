@@ -3,9 +3,9 @@ title: Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 description: Erläutert, wie Klassifizierungskonsolidierungen erstellt, validiert, ausgeführt, genehmigt und abgebrochen werden.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
+source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '982'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Eine Konsolidierung von Klassifizierungssätzen ermöglicht es Ihnen, Klassifizi
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Priorität des Klassifizierungssatzes"
->abstract="Der ![Schlüssel](/help/assets/icons/Key.svg) *Klassifizierungssatz* ist der Basisklassifizierungssatz und definiert das Gesamtschema und hat bei Zusammenführungskonflikten Vorrang. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
+>abstract="Der ![Schlüssel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *Klassifizierungssatz* ist der Basisklassifizierungssatz und definiert das Gesamtschema und hat bei Zusammenführungskonflikten Vorrang. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
 
 
 So erstellen Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hauptbenutzeroberfläche:
@@ -50,7 +50,7 @@ Nach dem Speichern wird eine Klassifizierungskonsolidierung automatisch für die
 
 Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 
-* [Überprüfen Sie &#x200B;](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
+* [Überprüfen Sie ](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
 * [Ausführen](#run) der Klassifizierungskonsolidierung.
 * [Genehmigen](#approve) die Klassifizierungskonsolidierung.
 
@@ -84,7 +84,7 @@ So bearbeiten Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hau
 1. Wählen **[!UICONTROL Klassifizierungssätze]** im Menü **[!UICONTROL Komponenten]** aus.
 1. Wählen **[!UICONTROL Manager „Klassifizierungssätze]** die Registerkarte **[!UICONTROL Konsolidierungen]** aus.
 1. Im **[!UICONTROL Konsolidierungs-Manager für Klassifizierungssätze]**:
-   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**&#x200B;wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
+   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
 
       | Verfügbare Aktionen | Beschreibung |
       |---|---|
