@@ -3,18 +3,25 @@ title: Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 description: Erläutert, wie Klassifizierungskonsolidierungen erstellt, validiert, ausgeführt, genehmigt und abgebrochen werden.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 2%
+source-wordcount: '981'
+ht-degree: 1%
 
 ---
 
 # Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 
-Klassifizierungssätze-Konsolidierungen ermöglichen es Ihnen, Klassifizierungen aus mehreren Datensätzen zu nehmen und zu einem zusammenzufassen. Verwenden Sie diese Schnittstelle, um eine Klassifizierungssatz-Konsolidierung von Anfang bis Ende zu erstellen. Diese Benutzeroberfläche ist besonders nützlich für Unternehmen, die von alten Klassifizierungen zu Klassifizierungssätzen wechseln. Die meisten Unternehmen, die bereits Klassifizierungssätze verwenden, müssen diesen Konsolidierungs-Workflow höchstwahrscheinlich nicht verwenden.
+Eine Konsolidierung von Klassifizierungssätzen ermöglicht es Ihnen, Klassifizierungen aus mehreren Klassifizierungssätzen zu nehmen und zu einem zusammenzufassen. Verwenden Sie diese Schnittstelle, um eine Klassifizierungssatz-Konsolidierung von Anfang bis Ende zu erstellen. Diese Benutzeroberfläche ist besonders nützlich für Unternehmen, die von alten Klassifizierungen zu Klassifizierungssätzen wechseln. Organisationen, die Klassifizierungssätze verwenden, müssen diesen Konsolidierungs-Workflow bereits nicht verwenden.
 
-## Erstellen einer Konsolidierung
+## Erstellen einer Konsolidierung {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="Priorität des Klassifizierungssatzes"
+>abstract="Der ![Schlüssel](/help/assets/icons/Key.svg) *Klassifizierungssatz* ist der Basisklassifizierungssatz und definiert das Gesamtschema und hat bei Zusammenführungskonflikten Vorrang. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
+
 
 So erstellen Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hauptbenutzeroberfläche:
 
@@ -29,11 +36,13 @@ So erstellen Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Haup
    1. Geben Sie eine oder mehrere E-Mail-Adressen (durch Kommata getrennt) in **[!UICONTROL Bei Problemen]**. Diese Benutzer erhalten bei Problemen eine E-Mail-Benachrichtigung.
    1. Wählen Sie einen Klassifizierungssatz aus dem Dropdown **[!UICONTROL Menü „Klassifizierungssatz]** Übereinstimmung“ aus.
 
-      Die linke Liste **[!UICONTROL Source]** Klassifizierungssatz“ enthält Klassifizierungssätze, die der ausgewählten Klassifizierungsliste ähnlich sind und für die Konsolidierung verfügbar sind.
+      Die linke Liste **[!UICONTROL Source]** Klassifizierungssatz“ enthält Klassifizierungssätze, die der ausgewählten Klassifizierungsliste ähnlich sind und für die Konsolidierung verfügbar sind. Die rechte Liste wird automatisch mit dem ausgewählten Klassifizierungssatz ![Schlüssel](/help/assets/icons/Key.svg) gefüllt. Dieser Basissatz definiert das Gesamtschema und hat bei Zusammenführungskonflikten immer Vorrang.
 
-   1. Wählen Sie die zu konsolidierenden Klassifizierungssätze aus der linken Liste aus und legen Sie die ausgewählten Sätze in der rechten Liste unter dem ausgewählten ![Schlüssel](/help/assets/icons/Key.svg) **[!UICONTROL _Klassifizierungssatz_]** ab.
+   1. Wählen Sie die Klassifizierungssätze, die Sie in der linken Liste zusammenfassen möchten, und legen Sie die ausgewählten Sätze in der rechten Liste unter dem ausgewählten ![Schlüssel](/help/assets/icons/Key.svg) Basis-**[!UICONTROL _Klassifizierungssatz_]** ab.
 
-      Sie können einzelne und ausgewählte Klassifizierungssätze in der Liste verschieben. Sie können den Klassifizierungssatz ![Schlüssel](/help/assets/icons/Key.svg) **[!UICONTROL _auch_]** einen ausgewählten Klassifizierungssatz durch Drag-and-Drop ersetzen.
+      Die zusätzlichen Klassifizierungssätze werden bei der Konsolidierung in aufsteigender Reihenfolge konsolidiert. Wenn ein Schlüssel in mehreren zusätzlichen Sätzen vorhanden ist, wird der Wert für den Schlüssel aus dem obersten Klassifizierungssatz genommen. Wenn sowohl im Basissatz ![Schlüssel](/help/assets/icons/Key.svg) als auch in einem zusätzlichen Satz ein Schlüssel vorhanden ist, wird der Wert aus dem Basissatz verwendet.
+
+      Um zu verwalten, welche Werte für Schlüssel verwendet werden, verschieben Sie einzelne und ausgewählte Klassifizierungssätze in der Liste per Drag-and-Drop. Sie können den Klassifizierungssatz ![Schlüssel](/help/assets/icons/Key.svg) **[!UICONTROL _auch_]** einen ausgewählten Klassifizierungssatz durch Drag-and-Drop ersetzen.
 
    1. Wählen Sie **[!UICONTROL Speichern]**, um die Klassifizierungskonsolidierung zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
@@ -41,7 +50,7 @@ Nach dem Speichern wird eine Klassifizierungskonsolidierung automatisch für die
 
 Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 
-* [Überprüfen Sie &#x200B;](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
+* [Überprüfen Sie ](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
 * [Ausführen](#run) der Klassifizierungskonsolidierung.
 * [Genehmigen](#approve) die Klassifizierungskonsolidierung.
 
@@ -75,7 +84,7 @@ So bearbeiten Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hau
 1. Wählen **[!UICONTROL Klassifizierungssätze]** im Menü **[!UICONTROL Komponenten]** aus.
 1. Wählen **[!UICONTROL Manager „Klassifizierungssätze]** die Registerkarte **[!UICONTROL Konsolidierungen]** aus.
 1. Im **[!UICONTROL Konsolidierungs-Manager für Klassifizierungssätze]**:
-   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**&#x200B;wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
+   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
 
       | Verfügbare Aktionen | Beschreibung |
       |---|---|
@@ -96,7 +105,7 @@ So validieren Sie die Klassifizierungskonsolidierung erneut:
 
 1. Konfigurieren Sie die Konsolidierung erneut mit derselben Drag-and-Drop-Oberfläche, die Sie zum Erstellen der Konsolidierung verwendet haben.
 1. Wählen ![Häkchen](/help/assets/icons/Checkmark.svg) **[!UICONTROL Erneut überprüfen]** aus. Die Validierung stellt sicher, dass jeder einzelne Klassifizierungssatz für diese Konsolidierung gültig ist. Bei Erfolg wird eine Popup-Meldung angezeigt: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Erfolgreich gesendete Konsolidierung zur Validierung!]**
-1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um das Dialogfeld zu schließen. Oder wählen Sie ![Play](/help/assets/icons/Play.svg) Run , um die Konsolidierung auszuführen, oder ![Cancel](/help/assets/icons/Cancel.svg), um die Klassifizierung abzubrechen.
+1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um das Dialogfeld zu schließen. Oder wählen Sie ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Run]**, um die Konsolidierung auszuführen, oder ![Cancel](/help/assets/icons/Cancel.svg) **[!UICONTROL Cancel]**, um die Klassifizierung abzubrechen.
 
 
 
@@ -115,9 +124,20 @@ So führen Sie eine Klassifizierungskonsolidierung durch:
 1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um das Dialogfeld zu schließen.
 
 
-### Genehmigen
+### Genehmigen {#approve}
 
-Sobald eine Klassifizierungskonsolidierung erfolgreich ausgeführt wurde, lautet der Konsolidierungsstatus **[!UICONTROL Warten auf Genehmigung]**. Die Genehmigung einer Klassifizierungskonsolidierung ersetzt die einzelnen Klassifizierungssätze durch den konsolidierten Klassifizierungssatz und die einzelnen Klassifizierungssätze werden entfernt.
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Keine Übereinstimmung"
+>abstract="Der Prozentsatz der nicht übereinstimmenden Schlüssel, wenn der Wert im konsolidierten Klassifizierungssatz nicht mit dem Quellklassifizierungssatz übereinstimmt."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Abwesend"
+>abstract="Der Prozentsatz der Schlüssel im konsolidierten Klassifizierungssatz, aber nicht im Quellklassifizierungssatz."
+
+Sobald eine Klassifizierungskonsolidierung erfolgreich ausgeführt wurde, lautet der Konsolidierungsstatus ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Wartet auf Genehmigung]**. Die Genehmigung einer Klassifizierungskonsolidierung ersetzt die einzelnen Klassifizierungssätze durch den konsolidierten Klassifizierungssatz und die einzelnen Klassifizierungssätze werden entfernt.
 
 ![Klassifizierungssätze - Konsolidierung wartet auf Genehmigung](assets/classifications-sets-consolidations-waitingforapproval.png)
 
