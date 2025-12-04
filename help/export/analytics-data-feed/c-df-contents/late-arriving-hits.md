@@ -3,16 +3,25 @@ title: Verspätete Treffer
 description: Erfahren Sie, wie Daten-Feeds verspätete Treffer handhaben.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# Verspätete Treffer
+# Verspätete Treffer {#late-arriving-hits}
 
-Historische Daten können eingehen, nachdem die Verarbeitung eines Daten-Feed-Vorgangs für eine bestimmte Stunde oder einen bestimmten Tag beendet wurde, z. B. über Treffer mit Zeitstempeln oder Datenquellen. Bei verspäteten Treffern handelt es sich um eine Backend-Einstellung durch Adobe, damit diese Daten in Daten-Feeds einbezogen werden können.
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="Verspätete Treffer zulassen"
+>abstract="Wählen Sie diese Option aus, um Daten einzuschließen, die nach Abschluss der Datenverarbeitung im Datenfeed-Auftrag innerhalb der festgelegten Reporting-Häufigkeit (täglich, stündlich oder alle 15 Minuten) eingingen. Wenn diese Option aktiviert ist, untersucht ein Daten-Feed bei der Verarbeitung von Daten alle spät eingetroffenen Treffer und stapelt sie mit der nächsten gesendeten Daten-Feed-Datei."
+
+<!-- markdownlint-enable MD034 -->
+
+Historische Daten können eingehen, nachdem die Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag beendet wurde, z. B. über Treffer mit Zeitstempeln oder Datenquellen. Bei verspäteten Treffern handelt es sich um eine Backend-Einstellung durch Adobe, damit diese Daten in Daten-Feeds einbezogen werden können.
 
 ## Funktionsweise verspäteter Treffer
 
