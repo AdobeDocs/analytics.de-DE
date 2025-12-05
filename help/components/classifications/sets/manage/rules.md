@@ -3,7 +3,7 @@ title: Klassifizierungssatzregeln
 description: Erfahren Sie, wie Sie Regeln für einen Klassifizierungssatz anzeigen und bearbeiten.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Klassifizierungssätze unterstützen noch keine Regeln. Die Regelfunktionalität wird zur Oberfläche für Klassifizierungssätze hinzugefügt, bevor die alte Regel-Builder-Funktion nicht mehr verfügbar ist.
->&#x200B;>Wenn Sie Regeln für Klassifizierungen benötigen, verwenden Sie weiterhin den [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md).
-
+>Wenn Sie Regeln für Klassifizierungen benötigen, verwenden Sie weiterhin den [Classifications rule builder](/help/components/classifications/crb/classification-rule-builder.md).
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
