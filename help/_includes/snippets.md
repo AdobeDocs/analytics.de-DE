@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2991'
 ht-degree: 87%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) wurde am 16. Oktober 2024 veröffentlicht. Es wird in Mac, Windows und Webbrowsern unterstützt.
->Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 
 >[!WARNING]
 >
->Das Classification Importer wird nicht mehr unterstützt und ist nach dem 31. **2026 nicht mehr**. Wechseln Sie zum Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um den Fortbestand der Funktionalität sicherzustellen.
+>Das Classification Importer-Tool wird am **31. August 2026)**. Wechseln Sie zur Verwendung des Erlebnisses [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um den Fortbestand der Funktionalität sicherzustellen.
 >
 
 
@@ -203,6 +203,6 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 
 >[!WARNING]
 >
->Der Classification Rule Builder wird nicht mehr unterstützt und ist nach dem 31. **2026 nicht mehr**. Wechseln Sie zum Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), sobald verfügbar, um eine kontinuierliche Funktionalität sicherzustellen.
+>Der Classification Rule Builder wird seit dem 31. **2026 nicht mehr**. Wechseln Sie zur Verwendung [Klassifizierungssatzregeln](/help/components/classifications/sets/manage/rules.md) Erlebnisses, sobald verfügbar, um eine kontinuierliche Funktionalität sicherzustellen.
 >
 

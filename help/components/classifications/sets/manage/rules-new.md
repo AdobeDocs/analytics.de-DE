@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Klassifizierungssätze-Regeln verwenden, um R
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1578'
 ht-degree: 11%
 
 ---
@@ -24,14 +24,14 @@ So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie die Regeln definieren möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**&#x200B;die Registerkarte **[!UICONTROL Regeln]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**die Registerkarte **[!UICONTROL Regeln]**aus.
 
    * Wenn Sie zum ersten Mal auf die **[!UICONTROL Rules]**-Schnittstelle für einen Klassifizierungssatz zugreifen oder sich bisher entschieden haben, weiterhin die alte Rule Builder-Schnittstelle zu verwenden, wird ein Dialogfeld angezeigt, in dem Sie auswählen können, wie Sie beginnen möchten. Die Optionen sind:
 
       * **Migrieren vorhandener Regeln**. Importieren Sie Ihre aktuellen Klassifizierungsregeln und arbeiten Sie weiterhin mit diesen Regeln in der neuen Benutzeroberfläche. Ihre vorhandenen Regeln werden beibehalten und in das neue Format konvertiert.
          * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um fortzufahren.
          * Lesen Sie **[!UICONTROL Dialogfeld &quot;]** bestätigen“ die Auswirkungen der Migration.
-            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), &#x200B;](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
+            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), ](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
             * Wählen Sie **[!UICONTROL Abbrechen]**, um die Migration abzubrechen
 
       * **Neu starten**. Erstellen Sie neue Klassifizierungsregeln mithilfe des neuen Regel-Builders von Grund auf. Wählen Sie diese Option aus, wenn Sie Ihre Klassifizierungslogik neu entwerfen oder mit neuen Klassifizierungsregeln neu beginnen möchten.
@@ -57,7 +57,7 @@ Beim Erstellen oder Bearbeiten von Regeln verwenden Sie die Benutzeroberfläche 
 | | Name | Beschreibung |
 |---|---|---|
 | 1 | **[!UICONTROL Funktionen]** | Im Bereich **[!UICONTROL Funktionen]** können Sie Ihre Funktionen auswählen und per Drag-and-Drop in den Regelsatz-Builder ziehen. |
-| 2 | **Rule Set Builder** | Sie erstellen Ihren Regelsatz mit einer oder mehreren Regeln. Eine Regel ist die Implementierung einer Funktion, die immer nur einer Funktion zugeordnet ist. Eine Funktion kann über mehrere Operatoren verfügen. Sie erstellen eine Regel, indem Sie eine Funktion per Drag-and-Drop in den Regelsatz-Builder ziehen. Der Funktionstyp definiert die Schnittstelle der Regel. <br/>Weitere Informationen finden Sie in [&#128279;](#rule-interface)Regelschnittstelle).<br/>Funktionen können an jeder beliebigen Stelle eingefügt werden. Die Funktionen werden nacheinander ausgeführt, um die endgültigen Werte für die Klassifizierungen zu bestimmen.<br/>Mit **[!UICONTROL Alle reduzieren]** reduzieren Sie alle Regeln und verwenden Sie **[!UICONTROL Alle erweitern]**, um alle Regeln zu erweitern. |
+| 2 | **Rule Set Builder** | Sie erstellen Ihren Regelsatz mit einer oder mehreren Regeln. Eine Regel ist die Implementierung einer Funktion, die immer nur einer Funktion zugeordnet ist. Eine Funktion kann über mehrere Operatoren verfügen. Sie erstellen eine Regel, indem Sie eine Funktion per Drag-and-Drop in den Regelsatz-Builder ziehen. Der Funktionstyp definiert die Schnittstelle der Regel. <br/>Weitere Informationen finden Sie in [](#rule-interface)Regelschnittstelle).<br/>Funktionen können an jeder beliebigen Stelle eingefügt werden. Die Funktionen werden nacheinander ausgeführt, um die endgültigen Werte für die Klassifizierungen zu bestimmen.<br/>Mit **[!UICONTROL Alle reduzieren]** reduzieren Sie alle Regeln und verwenden Sie **[!UICONTROL Alle erweitern]**, um alle Regeln zu erweitern. |
 | 3 | **[!UICONTROL Status]** | Zeigt Status und Datum der letzten Änderung des Regelsatzes an. <br/>Wählen Sie **[!UICONTROL Aktivieren]** aus, um den Regelsatz zu aktivieren. <br/>Wählen Sie **[!UICONTROL Deaktivieren]** aus, um den Regelsatz zu deaktivieren. |
 | 4 | **[!UICONTROL Lookback]** | Geben Sie das Lookback-Fenster für den Regelsatz an.<br/>Wählen Sie eine Option (von 1 Monat bis 6 Monate) aus dem Dropdown-Menü aus.<br/>Wählen Sie **[!UICONTROL Lookback durchführen]** aus, um einen Lookback unter Verwendung des ausgewählten Lookback-Zeitraums durchzuführen. |
 | 5 | **[!UICONTROL Testoptionen]** | Verwenden Sie Beispiel-Schlüsseldimensionswerte, um die Klassifizierungen zu testen: <ul><li>Fügen Sie Werte im Textbereich **[!UICONTROL Beispielschlüssel“ hinzu]** fügen Sie sie ein.<br/>Überprüfen Sie **[!UICONTROL Beispielschlüssel speichern]**, um sicherzustellen, dass Beispielschlüssel in verschiedenen Verwendungsbereichen der Regelsatzschnittstelle bestehen bleiben.</li><li>Wählen **[!UICONTROL Regelsatz testen]**, um den Regelsatz zu testen.</li></ul> |
@@ -96,7 +96,17 @@ Geben Sie einen Wert für **[!UICONTROL Beginnt mit“]**. Beispiel: `em`.
 
 Sie möchten eine Regel definieren, um `Email` automatisch als Wert für die Klassifizierung **[!UICONTROL Kanal]** zuzuweisen, wenn der Wert für die Schlüsseldimension Interne Kampagne mit `em` beginnt (z. B.: `em:FY2025:Summer Sale`).
 
+>[!BEGINTABS]
+
+>[!TAB Regel]
+
 ![Regel - Beginnt mit](assets/rule-startswith.png)
+
+>[!TAB Testergebnisse]
+
+![Regel - Beginnt mit Testergebnissen](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ Legt eine Klassifizierung basierend auf einem bestimmten Wert fest, mit dem die 
 
 #### Erforderliche Eingabe
 
-Geben Sie einen Wert für **[!UICONTROL Endet mit]** ein. Beispiel: `Sale`.
+Geben Sie einen Wert für **[!UICONTROL Endet mit]** ein. Beispiel: `2025`.
 
 #### Anwendungsfall
 
-Sie möchten eine Regel definieren, die `Sale` automatisch als Wert der Klassifizierung **[!UICONTROL Typ]** zuweist, wenn der Wert für die Schlüsseldimension Interne Kampagne `Sale` enthält (z. B.: `em:FY2025:Summer Sale`).
+Sie möchten eine Regel definieren, die `2025` automatisch als Wert der Klassifizierung **[!UICONTROL Jahr]** zuweist, wenn der Wert für die Schlüsseldimension Interne Kampagne `2025` enthält (z. B.: `em:Summer Sale:FY2025`).
+
+>[!BEGINTABS]
+
+>[!TAB Regel]
 
 ![rule - endet mit](assets/rule-endswith.png)
+
+>[!TAB Testergebnisse]
+
+![Regel - Endet mit Testergebnissen](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ Legt eine Klassifizierung basierend auf einem bestimmten Wert fest, den die Schl
 
 #### Erforderliche Eingabe
 
-Geben Sie einen Wert für **[!UICONTROL Enthält]** ein. Beispiel: `2025`.
+Geben Sie einen Wert für **[!UICONTROL Enthält]** ein. Beispiel: `Winter`.
 
 #### Anwendungsfall
 
-Sie möchten eine Regel definieren, die `2025` automatisch als Wert zur Klassifizierung **[!UICONTROL Jahr]** zuweist, wenn der Wert für die Schlüsseldimension Interne Kampagne mit `2025` endet (z. B.: `em:FY2025:Summer Sale`).
+Sie möchten eine Regel definieren, die `Winter Sale` automatisch als Wert für die Klassifizierung **[!UICONTROL Typ]** zuweist, wenn der Wert für die Schlüsseldimension Interne Kampagne mit `Winter` enthält (z. B.: `fb:Winter:FY2024`).
+
+
+>[!BEGINTABS]
+
+>[!TAB Regel]
 
 ![Regel - Enthält](assets/rule-contains.png)
+
+>[!TAB Testergebnisse]
+
+![Regel - Enthält Ergebnisse](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ Geben Sie einen Wert für **[!UICONTROL Übereinstimmung]** ein. Beispiel: `em:F
 
 #### Anwendungsfall
 
-Sie möchten eine Regel definieren, die `2025 Summer Email` automatisch als Wert für die Klassifizierung **[!UICONTROL Typ]** zuweist, wenn der Wert für die Schlüsseldimension Interne Kampagne `em:FY2025:Summer` entspricht.
+Sie möchten eine Regel definieren, um `Email` automatisch als Wert zur Klassifizierung **[!UICONTROL Kanal]**, `Summer Sale`als Wert zur Klassifizierung **[!UICONTROL Typ]** und `2025` zur Klassifizierung **[!UICONTROL Jahr]** zuzuweisen, wenn der Wert für die Schlüsseldimension Interne Kampagne `em:FY2025:Summer`.
+
+
+>[!BEGINTABS]
+
+>[!TAB Regel]
 
 ![Regel - stimmt überein](assets/rule-match.png)
+
+>[!TAB Testergebnisse]
+
+![Regel - stimmt überein](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ Legt eine oder mehrere Klassifizierungen basierend auf einem regulären Ausdruck
 
 #### Erforderliche Eingabe
 
-Geben Sie einen Wert für **[!UICONTROL Regulärer Ausdruck]** ein. Beispiel: `^(.+)\:(.+)\:(.+)$`.
+Geben Sie einen Wert für **[!UICONTROL Regulärer Ausdruck]** ein. Beispiel: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Anwendungsfall
 
-Sie möchten eine Regel definieren, um den Klassifizierungen **[!UICONTROL Kanal]**, **[!UICONTROL Typ]** und **[!UICONTROL Jahr]** automatisch Werte zuzuweisen, indem Sie die `^(.+)\:(.+)\:(.+)$` des regulären Ausdrucks anwenden und Übereinstimmungsgruppen (`$1`, `$2` und `$3`) auf die Werte für die Schlüsseldimension Interne Kampagne verwenden.
+Sie möchten eine Regel definieren, um den Klassifizierungen **[!UICONTROL Kanal]**, **[!UICONTROL Typ]** und **[!UICONTROL Jahr]** automatisch Werte zuzuweisen, indem Sie die `^(.+)\:(.+)\:FY(.+)$` des regulären Ausdrucks anwenden und Übereinstimmungsgruppen (`$1`, `$2` und `$3`) auf die Werte für die Schlüsseldimension Interne Kampagne verwenden.
+
+>[!BEGINTABS]
+
+>[!TAB Regel]
 
 ![Regel - Regulärer Ausdruck](assets/rule-regex.png)
+
+>[!TAB Testergebnisse]
+
+![Regel - Testergebnisse für reguläre Ausdrücke](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### Referenztabelle {#section_0211DCB1760042099CCD3ED7A665D716}
