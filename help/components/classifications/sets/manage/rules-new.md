@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Klassifizierungssätze-Regeln verwenden, um R
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1661'
 ht-degree: 10%
 
 ---
@@ -24,14 +24,14 @@ So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie die Regeln definieren möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**&#x200B;die Registerkarte **[!UICONTROL Regeln]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**die Registerkarte **[!UICONTROL Regeln]**aus.
 
    * Wenn Sie zum ersten Mal auf die **[!UICONTROL Rules]**-Schnittstelle für einen Klassifizierungssatz zugreifen oder sich bisher entschieden haben, weiterhin die alte Rule Builder-Schnittstelle zu verwenden, wird ein Dialogfeld angezeigt, in dem Sie auswählen können, wie Sie beginnen möchten. Die Optionen sind:
 
       * **Migrieren vorhandener Regeln**. Importieren Sie Ihre aktuellen Klassifizierungsregeln und arbeiten Sie weiterhin mit diesen Regeln in der neuen Benutzeroberfläche. Ihre vorhandenen Regeln werden beibehalten und in das neue Format konvertiert.
          * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um fortzufahren.
          * Lesen Sie **[!UICONTROL Dialogfeld &quot;]** bestätigen“ die Auswirkungen der Migration.
-            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), &#x200B;](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
+            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), ](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
             * Wählen Sie **[!UICONTROL Abbrechen]**, um die Migration abzubrechen
 
       * **Neu starten**. Erstellen Sie neue Klassifizierungsregeln mithilfe des neuen Regel-Builders von Grund auf. Wählen Sie diese Option aus, wenn Sie Ihre Klassifizierungslogik neu entwerfen oder mit neuen Klassifizierungsregeln neu beginnen möchten.
@@ -63,7 +63,7 @@ Verwenden Sie zum Erstellen oder Bearbeiten von Regeln die Benutzeroberfläche �
 | | Name | Beschreibung |
 |---|---|---|
 | 1 | **[!UICONTROL Funktionen]** | Im Bereich **[!UICONTROL Funktionen]** können Sie Ihre Funktionen auswählen und per Drag-and-Drop in den Regelsatz-Builder ziehen. |
-| 2 | **Rule Set Builder** | Sie erstellen Ihren Regelsatz mit einer oder mehreren Regeln. Eine Regel ist die Implementierung einer Funktion, die immer nur einer Funktion zugeordnet ist. Eine Funktion kann über mehrere Operatoren verfügen. Sie erstellen eine Regel, indem Sie eine Funktion per Drag-and-Drop in den Regelsatz-Builder ziehen. Der Funktionstyp definiert die Schnittstelle der Regel. <br/>Weitere Informationen finden Sie in [&#128279;](#rule-interface)Regelschnittstelle).<br/>Funktionen können an jeder beliebigen Stelle eingefügt werden. Die Funktionen werden nacheinander ausgeführt, um die endgültigen Werte für die Klassifizierungen zu bestimmen.<br/>Mit **[!UICONTROL Alle reduzieren]** reduzieren Sie alle Regeln und verwenden Sie **[!UICONTROL Alle erweitern]**, um alle Regeln zu erweitern. |
+| 2 | **Rule Set Builder** | Sie erstellen Ihren Regelsatz mit einer oder mehreren Regeln. Eine Regel ist die Implementierung einer Funktion, die immer nur einer Funktion zugeordnet ist. Eine Funktion kann über mehrere Operatoren verfügen. Sie erstellen eine Regel, indem Sie eine Funktion per Drag-and-Drop in den Regelsatz-Builder ziehen. Der Funktionstyp definiert die Schnittstelle der Regel. <br/>Weitere Informationen finden Sie in [](#rule-interface)Regelschnittstelle).<br/>Funktionen können an jeder beliebigen Stelle eingefügt werden. Die Funktionen werden nacheinander ausgeführt, um die endgültigen Werte für die Klassifizierungen zu bestimmen.<br/>Mit **[!UICONTROL Alle reduzieren]** reduzieren Sie alle Regeln und verwenden Sie **[!UICONTROL Alle erweitern]**, um alle Regeln zu erweitern. |
 | 3 | **[!UICONTROL Status]** | Zeigt Status und Datum der letzten Änderung des Regelsatzes an. <br/>Wählen Sie **[!UICONTROL Aktivieren]** aus, um den Regelsatz zu aktivieren. <br/>Wählen Sie **[!UICONTROL Deaktivieren]** aus, um den Regelsatz zu deaktivieren. |
 | 4 | **[!UICONTROL Lookback]** | Geben Sie das Lookback-Fenster für den Regelsatz an.<br/>Wählen Sie eine Option (von 1 Monat bis 6 Monate) aus dem Dropdown-Menü aus.<br/>Wählen Sie **[!UICONTROL Lookback durchführen]** aus, um einen Lookback unter Verwendung des ausgewählten Lookback-Zeitraums durchzuführen. |
 | 5 | **[!UICONTROL Testoptionen]** | Verwenden Sie Beispiel-Schlüsseldimensionswerte, um die Klassifizierungen zu testen: <ul><li>Fügen Sie Werte im Textbereich **[!UICONTROL Beispielschlüssel“ hinzu]** fügen Sie sie ein.<br/>Überprüfen Sie **[!UICONTROL Beispielschlüssel speichern]** um sicherzustellen, dass Beispielschlüssel in verschiedenen Verwendungsbereichen der Regelsatzschnittstelle bestehen bleiben.</li><li>Wählen **[!UICONTROL Regelsatz testen]**, um den Regelsatz zu testen.</li></ul> |
@@ -296,7 +296,6 @@ Sie möchten eine Regel definieren, die die Werte für die Schlüsseldimension I
 | `a{3,}` | 3 oder mehr von a |
 | `a{3,6}` | Zwischen 3 und 6 von a |
 
-+++
 
 
 ## Regelpriorität
@@ -313,11 +312,22 @@ Wenn Sie mehrere Regeln erstellen, die nicht denselben Vorgang **[!UICONTROL Kla
 
 ### Beispiel
 
-Sie möchten mit der Klassifizierung (**[!UICONTROL ) klassifizieren]** wie Benutzer mithilfe der Suchzeichenfolge als Schlüsseldimension nach einem Sportler suchen. Verwenden Sie beispielsweise diesen Regelsatz:
+Sie möchten mit der Klassifizierung (**[!UICONTROL ) klassifizieren]** wie Benutzer nach einem Team, einem generischen Typ oder Player suchen, indem Sie die Suchzeichenfolge als Schlüsseldimension verwenden. Beispielsweise durch die Verwendung dieses Regelsatzes:
 
-![Regelpriorität](assets/rule-priority.png)
++++ Details
 
-* Wenn ein(e) Benutzende(r) nach `Cowboys Fantasy Tony Romo` sucht, wird `Romo` als &quot;**[!UICONTROL &quot;]**.
-* Wenn ein(e) Benutzende(r) nach `Cowboys Fantasy Tony Romeo` sucht`Fantasy` wird als **[!UICONTROL Typ]** klassifiziert.
-* Wenn ein(e) Benutzende(r) nach `Cowboys vs. Broncos` sucht`Team` wird als **[!UICONTROL Typ]** klassifiziert.
+
+>[!BEGINTABS]
+
+>[!TAB Regel]
+
+![Regel - Priorität](assets/rule-priority.png)
+
+>[!TAB Testergebnisse]
+
+![Regel - Prioritätstestergebnisse](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
