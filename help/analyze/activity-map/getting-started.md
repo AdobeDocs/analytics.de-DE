@@ -4,9 +4,9 @@ description: Erste Schritte mit der Activity Map-Überlagerung und -Dimensionen.
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Activity Map in Adobe Analytics umfasst vier Hauptelemente:
 * **Report Suite-**: Sie müssen Activity Map in den Report Suite-Einstellungen aktivieren. Nach der Aktivierung erstellt die Report Suite mehrere reservierte Variablen für Activity Map-Dimensionen und -Metriken.
 * **Implementierung**: Erfassen Sie Activity Map-Daten auf Ihrer Website oder Eigenschaft. Durch die Anpassung der Art der Datenerfassung können die Qualität und das Erlebnis von Berichten verbessert werden.
 * **Workspace-Dimensionen und -**: Wenn Ihre Implementierung korrekt konfiguriert ist, können Sie Activity Map-Dimensionen und -Metriken in Analysis Workspace verwenden.
-* **Überlagerung**: Adobe bietet eine Browser-Erweiterung, um Activity Map-Daten im Kontext Ihrer Website anzuzeigen.
+* **Überlagerung**: Adobe bietet eine Browser-Erweiterung, um Activity Map-Daten im Kontext Ihrer Website anzuzeigen. Diese Funktion ist nicht für Web SDK-Implementierungen verfügbar.
 
 ## Report Suite-Einstellungen aktivieren
 
@@ -30,7 +30,7 @@ Durch die Aktivierung von Activity Map-Berichten werden mehrere reservierte Back
 
 ## Code-Installation
 
-Ihre Implementierung muss ordnungsgemäß konfiguriert sein, um Activity Map-Daten an Adobe zu senden.
+Ihre Implementierung muss ordnungsgemäß konfiguriert sein, um Activity Map-Daten an Adobe zu senden. Die Browser-Erweiterung „Überlagerung“ ist nicht verfügbar, wenn Adobe Analytics mit der Web-SDK implementiert ist.
 
 +++Web SDK-Tag-Erweiterung
 
@@ -48,7 +48,7 @@ Die Konfigurationseinstellung **[!UICONTROL Klicken auf]** Datenerfassung“ ver
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weitere [&#x200B; finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
+Weitere [ finden Sie unter „Konfigurieren der Tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)Erweiterung für Web SDK&quot;.
 
 +++
 
@@ -56,7 +56,7 @@ Weitere [&#x200B; finden Sie unter „Konfigurieren der Tag](https://experiencel
 
 Für die Datenerfassung in Activity Map ist die Web-SDK-JavaScript-Bibliothek Version 2.20 oder höher erforderlich. Bibliotheksversionen bis Version 2.15 werden nur eingeschränkt unterstützt. Diese früheren Bibliotheksversionen senden Activity Map-Daten in einem separaten Ereignis vom Rest Ihrer Daten. Dieses zusätzliche Ereignis erhöht die Anzahl der Treffer, die Sie an Adobe Analytics oder Adobe Experience Platform senden.
 
-Die Web SDK-Konfigurationsvariable [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) verarbeitet die automatische Erfassung von Activity Map-Daten. Sie ist standardmäßig aktiviert, es sei denn, sie wird explizit deaktiviert.
+Die Web SDK-Konfigurationsvariable [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) verarbeitet die automatische Erfassung von Activity Map-Daten. Sie ist standardmäßig aktiviert, es sei denn, sie wird explizit deaktiviert.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ Die **[!UICONTROL Activity Map verwenden]** Konfigurationseinstellung verarbeite
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Erstellen Sie bei Bedarf Ihre Änderungen in einer Bibliothek und veröffentlichen Sie Ihre Änderungen in der Produktionsumgebung.
 
-Weiterführende Informationen dazu finden Sie in der [&#x200B; zur Adobe Analytics-Erweiterung &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview).
+Weiterführende Informationen dazu finden Sie in der [ zur Adobe Analytics-Erweiterung ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 +++
 

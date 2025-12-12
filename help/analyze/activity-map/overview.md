@@ -4,9 +4,9 @@ title: Übersicht über Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Activity Map as a umfasst mehrere wichtige Komponenten:
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Ändern des Attributs, das die Dimension Activity Map-Region ausfüllt.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Passen Sie die Logik an, die Activity Map zum Ausfüllen der Dimension &quot;Activity Map Link“ verwendet.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Passen Sie die Logik an, die Activity Map zum Ausfüllen der Dimension Activity Map-Region verwendet.
-* **Überlagerung**: Eine Browser-Erweiterung, mit der Sie Klickdaten auf Ihrer Website überlagert anzeigen können. Weitere Informationen finden Sie unter {[}Activity Map-Erweiterungsschnittstelle.](overlay/overview.md)
+* **Überlagerung**: Eine Browser-Erweiterung, mit der Sie Klickdaten auf Ihrer Website überlagert anzeigen können. Weitere Informationen finden Sie unter {[}Activity Map-Erweiterungsschnittstelle. ](overlay/overview.md) Diese Funktion ist nicht für Web SDK-Implementierungen verfügbar.
 * **Dimensionen**: Zusätzlich zur Überlagerungserweiterung stellt Activity Map mehrere Dimensionen bereit, die Sie in Analysis Workspace verwenden können.
    * [Activity Map-Link](/help/components/dimensions/activity-map-link.md): Der Link-Name, auf den geklickt wurde.
    * [Activity Map-Region](/help/components/dimensions/activity-map-region.md): Der Name der Region, auf die geklickt wurde.
@@ -37,7 +37,7 @@ Activity Map as a umfasst mehrere wichtige Komponenten:
 
 * **Heatmaps**: Activity Map generiert Heatmaps, die die am häufigsten angeklickten oder interagierten Bereiche einer Web-Seite anzeigen. Heatmaps verwenden eine Farbcodierung, um den Grad der Interaktion darzustellen, sodass Sie Hotspots identifizieren und die Aufmerksamkeit auf Bereiche mit starken Auswirkungen konzentrieren können. Diese Informationen können für die Optimierung von call-to-action-Schaltflächen, Links, Formularen oder anderen interaktiven Elementen nützlich sein.
 
-* **Überlagerungsberichte**: Überlagerungsberichte in Activity Map bieten detaillierte Klickmetriken für bestimmte Elemente auf einer Web-Seite. Indem Sie die Clickthrough-Raten und Interaktionsstufen einzelner Elemente verstehen, können Sie Ihre Design- und Inhaltsstrategien optimieren, um Benutzererlebnisse zu verbessern.
+* **Überlagerungsberichte**: Überlagerungsberichte in Activity Map bieten detaillierte Klickmetriken für bestimmte Elemente auf einer Web-Seite. Indem Sie die Clickthrough-Raten und Interaktionsstufen einzelner Elemente verstehen, können Sie Ihre Design- und Inhaltsstrategien optimieren, um Benutzererlebnisse zu verbessern. Diese Funktion ist nicht für Web SDK-Implementierungen verfügbar.
 
 * **Segmentanalyse**: Sie können das Benutzerverhalten basierend auf verschiedenen Segmenten analysieren, z. B. Traffic-Quellen, Demografie oder Personas. Durch die Segmentierung der Daten können Sie wertvolle Einblicke in bestimmte Benutzergruppen gewinnen, was personalisierte Erlebnisse und zielgerichtete Marketing-Strategien ermöglicht.
 
