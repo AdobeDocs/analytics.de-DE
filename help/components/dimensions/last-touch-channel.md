@@ -3,16 +3,16 @@ title: Letztkontakt-Kanal
 description: Der neueste Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
 # Letztkontakt-Kanal
 
-Der „Letztkontakt-Kanal[&#x200B; (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
+Der „Letztkontakt-Kanal[ (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -25,6 +25,10 @@ Führen Sie die folgenden Schritte aus, um diese Dimension auf einen bestimmten 
 * Legen Sie das gewünschte Dimensionselement als Kanal im Marketing-Kanal-Manager unter den Report Suite-Einstellungen fest.
 * Legen Sie eine Marketing-Kanalverarbeitungsregel fest, die die gewünschten Kriterien für den Treffer enthält.
 * Der Treffer des Besuchers auf Ihrer Site muss den Kriterien entsprechen, die in der Marketing-Kanalverarbeitungsregel beschrieben sind.
+
+>[!TIP]
+>
+>Die Verwendung dieser Dimension mit Metriken, die [Partizipationsattribution](/help/analyze/analysis-workspace/attribution/models.md) verwenden, kann `None` eine Gewichtung zuordnen, wenn andere Attributionsmodelle dies nicht tun. Teilnahmemetriken erfordern für eine Gutschrift einen Marketing[Kanal (](../metrics/instances.md)) innerhalb des Berichtsfensters. Wenn der Marketing-Kanal ursprünglich außerhalb des Reporting-Fensters festgelegt wurde und nur der persistierte Wert innerhalb des Reporting-Fensters vorhanden ist, weisen Teilnahmemetriken dem `None` eine Gutschrift zu. Andere Attributionsmodelle schreiben dem persistenten Wert eine Gutschrift zu. Wenn Sie in diesem Szenario eine Attribution an `None` vermeiden möchten, sollten Sie ein Nicht-Teilnahme-Attributionsmodell verwenden.
 
 ## Dimensionselemente
 
