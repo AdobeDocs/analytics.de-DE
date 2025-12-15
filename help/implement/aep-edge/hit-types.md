@@ -15,7 +15,7 @@ ht-degree: 20%
 
 In Adobe Analytics werden Treffer je nachdem, welche Funktionen Sie in AppMeasurement aufrufen, unterschiedlich behandelt. Beispielsweise schließen [`s.t`](/help/implement/vars/functions/t-method.md) und [`s.tl`](/help/implement/vars/functions/tl-method.md) bestimmte Dimensionen ein oder lassen sie aus und erhöhen [Seitenansichten](/help/components/metrics/page-views.md) unterschiedlich. Adobe Experience Platform enthält nur den [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview). Spezifische Eigenschaften innerhalb der [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm)- oder [`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data)-Payload bestimmen, wie diese Daten in Adobe Analytics interpretiert werden.
 
-Die Edge Network verwendet die folgende Logik, um Adobe Analytics-[ (Seitenansichten](/help/components/metrics/page-views.md) und [Link-Ereignisse](/help/components/metrics/page-events.md) zu bestimmen:
+Die Edge Network verwendet die folgende Logik, um Adobe Analytics-[&#x200B; (Seitenansichten](/help/components/metrics/page-views.md) und [Link-Ereignisse](/help/components/metrics/page-events.md) zu bestimmen:
 
 ## Seitenansichten und Verknüpfen von Ereignissen mithilfe des `xdm`
 
