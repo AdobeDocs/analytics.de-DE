@@ -156,14 +156,14 @@ Im Dialogfeld **[!UICONTROL Vorlage für Klassifizierungssatz _herunterladen_]**
 >id="classificationsets_schema_automate_locationaccount"
 >title="Standortkonto"
 >abstract="Liste der Speicherort-Konten von Kontotypen, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neues Konto]** aus, um ein neues Speicherort-Konto zu erstellen."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Konfigurieren von Cloud-Import- und -Exportkonten"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=de" text="Konfigurieren von Cloud-Import- und -Exportkonten"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Standort"
 >abstract="Liste der Standorte am ausgewählten Speicherort-Konto, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neuer Speicherort]**, um einen neuen Speicherort zu erstellen."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Konfigurieren von Cloud-Import- und -Exportspeicherorten"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=de" text="Konfigurieren von Cloud-Import- und -Exportspeicherorten"
 
 
 Um die Aufnahme der Klassifizierung zu automatisieren, wählen Sie ![Zahnrad](/help/assets/icons/Gear.svg) **[!UICONTROL Automatisieren]**.
