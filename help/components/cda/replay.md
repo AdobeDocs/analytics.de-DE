@@ -4,10 +4,10 @@ description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübe
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ Cross-Device Analytics führt in einer virtuellen Report Suite zwei Durchgänge 
 
 ## Beispieltabelle
 
-Die folgenden Tabellen veranschaulichen, wie beide CDA-Methoden ([Feldbasiertes Stitching](field-based-stitching.md) und [Gerätediagramm](device-graph.md)) die Anzahl der eindeutigen Personen berechnen:
+Die folgenden Tabellen veranschaulichen, wie [feldbasierte Zuordnung](field-based-stitching.md) die Anzahl der eindeutigen Personen berechnet:
 
 ### Live-Stitching
 
@@ -30,27 +30,19 @@ Sobald ein Treffer erfasst wird, versucht die geräteübergreifende Analyse, ihn
 
 *Daten, wie sie am Tag der Erfassung erscheinen:*
 
-| Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Metrik „Personen“ (kumulativ) mit Gerätediagramm | Metrik „Personen“ (kumulativ) mit feldbasiertem Stitching |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (246) | `1` (246) |
-| `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an. | `1` (246) | `2` (246 und Bob) |
+| Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Personenmetrik (kumulativ) unter Verwendung der feldbasierten Zuordnung |
+| --- | --- | --- | --- | --- | 
+| `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (246) |
+| `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an. | `2` (246 und Bob) |
 | `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `2` (246 und 3579) | `3` (246, Bob und 3579) |
-| `4` | `3579` | `Bob` | Bob meldet sich auf einem Mobilgerät an | `2` (246 und 3579) | `3` (246, Bob und 3579) |
-| `5` | `246` | – | Bob greift erneut auf Ihre Site auf dem Desktop zu, nicht authentifiziert | `2` (246 und 3579) | `3` (246, Bob und 3579) |
-| `6` | `246` | `Bob` | Bob meldet sich erneut auf seinem Desktop an | `2` (246 und 3579) | `3` (246, Bob und 3579) |
-| `7` | `3579` | – | Bob ruft Ihre Site erneut auf einem Mobilgerät auf | `2` (246 und 3579) | `3` (246, Bob und 3579) |
-| `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `2` (246 und 3579) | `3` (246, Bob und 3579) |
+| `4` | `3579` | `Bob` | Bob meldet sich auf einem Mobilgerät an | `3` (246, Bob und 3579) |
+| `5` | `246` | – | Bob greift erneut auf Ihre Site auf dem Desktop zu, nicht authentifiziert | | `3` (246, Bob und 3579) |
+| `6` | `246` | `Bob` | Bob meldet sich erneut auf seinem Desktop an | `3` (246, Bob und 3579) |
+| `7` | `3579` | – | Bob ruft Ihre Site erneut auf einem Mobilgerät auf | `3` (246, Bob und 3579) |
+| `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `3` (246, Bob und 3579) |
 
 Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Geräten werden (vorübergehend) als separate Personen gezählt.
-
-* **Wenn Sie das Gerätediagramm verwenden**, werden nicht authentifizierte Treffer auf erkannten Geräten live zugeordnet, sobald ein Cluster vom Gerätediagramm veröffentlicht wird. Die Veröffentlichung von Clustern dauert zwischen drei Stunden und zwei Wochen.
-
-  Eine dritte kumulative Person wird ebenfalls hinzugefügt, wenn ein Cluster veröffentlicht wird. Diese dritte Person repräsentiert den Cluster selbst, zusätzlich zu den einzelnen Geräten. Diese dritte „Person“ bleibt bestehen, bis die Daten wiedergegeben werden.
-
-  Die Zuordnung funktioniert geräteübergreifend erst nach der Veröffentlichung eines Clusters, und selbst dann wird erst ab diesem Zeitpunkt live zugeordnet. Im obigen Beispiel werden noch keine Treffer geräteübergreifend zugeordnet. Die geräteübergreifende Attribution bei vorhandenen Treffern funktioniert erst nach der Wiederholungszuordnung.
-* **Wenn feldbasiertes Stitching verwendet wird**, werden nicht authentifizierte Treffer auf erkannten Geräten von diesem Punkt an live zugeordnet.
-
-  Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Wiederholungszuordnung.
+Nicht authentifizierte Treffer auf erkannten Geräten werden ab diesem Zeitpunkt live zugeordnet. Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Wiederholungszuordnung.
 
 >[!NOTE]
 >
@@ -67,13 +59,13 @@ Wenn ein Gerät Daten anfänglich sendet, ohne authentifiziert zu sein, und sich
 
 *Dieselben Daten nach der Wiederholung:*
 
-| Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Metrik „Personen“ (kumulativ) mit Gerätediagramm | Metrik „Personen“ (kumulativ) mit feldbasiertem Stitching |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (Cluster1) | `1` (Bob) |
-| `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an. | `1` (Cluster1) | `1` (Bob) |
-| `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `1` (Cluster1) | `1` (Bob) |
-| `4` | `3579` | `Bob` | Bob meldet sich auf einem Mobilgerät an | `1` (Cluster1) | `1` (Bob) |
-| `5` | `246` | – | Bob greift erneut auf Ihre Site auf dem Desktop zu, nicht authentifiziert | `1` (Cluster1) | `1` (Bob) |
-| `6` | `246` | `Bob` | Bob meldet sich erneut auf seinem Desktop an | `1` (Cluster1) | `1` (Bob) |
-| `7` | `3579` | – | Bob ruft Ihre Site erneut auf einem Mobilgerät auf | `1` (Cluster1) | `1` (Bob) |
-| `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `1` (Cluster1) | `1` (Bob) |
+| Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Personenmetrik (kumulativ) unter Verwendung der feldbasierten Zuordnung |
+| --- | --- | --- | --- | --- |
+| `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (Bob) |
+| `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an. | `1` (Bob) |
+| `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob meldet sich auf einem Mobilgerät an | `1` (Bob) |
+| `5` | `246` | – | Bob greift erneut auf Ihre Site auf dem Desktop zu, nicht authentifiziert | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob meldet sich erneut auf seinem Desktop an | `1` (Bob) |
+| `7` | `3579` | – | Bob ruft Ihre Site erneut auf einem Mobilgerät auf | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `1` (Bob) |

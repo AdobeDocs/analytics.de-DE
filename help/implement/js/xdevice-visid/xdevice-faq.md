@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen zur geräteübergreifenden Besucheridentif
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 90%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Häufig gestellte Fragen zur geräteübergreifenden Besucheridentifizierung.
 +++Was ist der Unterschied zwischen geräteübergreifender Besucheridentifizierung und geräteübergreifender Analyse?
 Bei der geräteübergreifenden Besucheridentifizierung wird die `visitorID`-Variable verwendet, um Geräte miteinander zu verbinden. Dabei gibt es einige wesentliche Einschränkungen. Eine der größten Einschränkungen dieser Identifizierungsmethode besteht darin, dass nicht authentifizierte Treffer isoliert werden, es sei denn, das Gerät wurde bereits erkannt. Diese nicht authentifizierten Treffer können die Zahl der Unique Visitors überhöhen.
 
-Cross-Device Analytics ist die neueste Methode zur geräteübergreifenden Besucheridentifizierung von Adobe. Sie verwendet den Experience Cloud ID-Dienst und das Gerätediagramm, um Besuche von verschiedenen Geräten rückwirkend zu verbinden. CDA erfordert die Verwendung der `setCustomerIDs`-Funktion, um zu ermitteln, welche Geräte von demselben Besucher verwendet werden.
+Cross-Device Analytics ist die neueste Methode zur geräteübergreifenden Besucheridentifizierung von Adobe. Dabei werden der Experience Cloud ID-Service und das feldbasierte Stitching verwendet, um Besuche von verschiedenen Geräten rückwirkend zusammenzufügen. CDA erfordert die Verwendung der `setCustomerIDs`-Funktion, um zu ermitteln, welche Geräte von demselben Besucher verwendet werden.
 +++
 
 +++Wie behandelt die geräteübergreifende Besucheridentifizierung Segmente?

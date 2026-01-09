@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen zur geräteübergreifenden Analyse
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 98%
+source-wordcount: '1699'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,6 @@ Die geräteübergreifende Zuordnung der Cross-Device-Analyse erfolgt in zwei gle
 
 * Der zweite Prozess ist die sogenannte „Wiederholung“. Während der Wiederholung geht die Cross-Device-Analyse in der Zeit zurück und ordnet soweit möglich historische Daten innerhalb eines bestimmten Rückblickfensters neu zu. Dieses Rückblickfenster dauert je nach Konfiguration der Cross-Device-Analyse entweder 1 Tag oder 7 Tage. Während der Wiederholung versucht die Cross-Device-Analyse, Treffer neu darzustellen, bei denen die Person vorher unbekannt war.
 
-* **Bei Verwendung eines Gerätediagramms** speichert Adobe die Gerätediagramm-Zuordnungen für etwa 6 Monate. Eine ECID, die länger als sechs Monate keine Aktivität aufweist, wird aus dem Diagramm entfernt. Bereits in CDA zugeordnete Daten sind davon nicht betroffen, aber nachfolgende Treffer für diese ECID werden als neue Person behandelt.
 
 +++
 
@@ -65,20 +64,12 @@ Kunden, die bereits eine benutzerdefinierte Besucher-ID verwenden, können auf C
 
 +++
 
-+++ Wie behandelt das Gerätediagramm gemeinsam genutzte Geräte?
 
-In einigen Situationen ist es möglich, dass sich mehrere Personen von demselben Gerät aus anmelden. Beispiele dafür sind freigegebene Geräte zu Hause, freigegebene PCs in einer Bibliothek oder ein Terminal in einem Einzelhandelsgeschäft.
-
-* **Bei Verwendung eines Gerätediagramms** ist die Handhabung gemeinsam genutzter Geräte eingeschränkt. Das Gerätediagramm verwendet einen Algorithmus, um die Eigentümerschaft eines „Clusters“ zu bestimmen, und kann sich bei jeder Veröffentlichung dieses Clusters ändern. Benutzer des gemeinsam genutzten Geräts unterliegen dem Cluster, zu dem sie gehören.
-* **Bei der Verwendung des feldbasierten Stitching** überschreibt die Prop oder eVar, die Sie zur Identifizierung der angemeldeten Benutzer verwenden, andere Kennungen. Gemeinsam genutzte Geräte werden als separate Personen betrachtet, auch wenn sie vom gleichen Gerät stammen.
-
-+++
 
 +++ Wie behandelt die geräteübergreifende Analyse Situationen, in denen eine einzelne Person über VIELE Geräte/ECIDs verfügt?
 
 In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl von ECIDs verknüpft sein. Dies kann vorkommen, wenn der Benutzer eine Vielzahl von Browsern oder Apps verwendet, vor allem dann, wenn er häufig Cookies löscht oder den privaten oder Inkognito-Modus des Browsers verwendet.
 
-* **Bei der Verwendung eines Gerätediagramms** wird die Anzahl der ECIDs, die mit einer bestimmten Benutzer-ID verknüpft sind, auf 50 begrenzt. Wenn eine Benutzer-ID mit zu vielen ECIDs verknüpft ist, geht das Gerätediagramm davon aus, dass die Benutzer-ID ungültig ist, und entfernt den mit dieser Benutzer-ID verknüpften Cluster. Die Benutzer-ID wird dann auf eine Blockierungsliste gesetzt, um zu verhindern, dass sie in Zukunft in ein Cluster aufgenommen wird. Das Ergebnis in der Berichterstellung ist, dass diese Benutzer-ID nicht geräteübergreifend zugeordnet wird.
 * **Bei der Verwendung des feldbasierten Stitching** ist die Anzahl der Geräte für die Prop/eVar, die Sie zur Identifizierung der angemeldeten Benutzer verwenden, irrelevant. Ein einzelner Benutzer kann zu einer beliebigen Anzahl von Geräten gehören, ohne dass sich dies auf die Fähigkeit der CDA auswirkt, Geräte zuzuordnen.
 
 +++
@@ -112,7 +103,7 @@ Ja. Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufor
 
 +++ Geräteübergreifende Analysen können Unique Visitors einander zuordnen. Können durch diese Metrik Besuche einander zugeordnet werden?
 
-Ja. Wenn eine Person innerhalb des Besuchszeitlimits Ihrer Virtual Report Suite (standardmäßig 30 Minuten) Treffer von zwei verschiedenen Geräten sendet, werden sie demselben Besuch zugeordnet.
+Ja. Wenn eine Person innerhalb des Besuchs-Timeouts Ihrer Virtual Report Suite (standardmäßig 30 Minuten) Treffer von zwei verschiedenen Geräten sendet, werden sie demselben Besuch zugeordnet.
 
 +++
 

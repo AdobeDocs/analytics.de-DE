@@ -4,10 +4,10 @@ description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergre
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 
 >[!IMPORTANT]
 >
->Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Siehe die [Übersichtsseite](overview.md) und die gewünschte Stitching-Methode ([feldbasiertes Stitching](field-based-stitching.md) oder [Gerätediagramm](device-graph.md)) für Voraussetzungen und Einschränkungen.
+>Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Informationen [ Voraussetzungen und Einschränkungen finden Sie ](overview.md) der Seite „Übersicht[ und der gewünschten ](field-based-stitching.md) (Feldbasiertes Stitching) .
 
 ## &#x200B;1. Eröffnen Sie ein Ticket bei der Kundenunterstützung, um die geräteübergreifende Report Suite mit geräteübergreifender Analyse zu versorgen
 
@@ -27,7 +27,7 @@ CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering be
 
 * Ihre Adobe Experience Cloud-Organisations-ID (eine alphanumerische Zeichenfolge, die mit @AdobeOrg endet)
 * Die Report Suite-ID für die geräteübergreifende Report Suite, die mit CDA zu aktivieren ist
-* Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching oder Adobe-Gerätediagramm)
+* Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching)
 * Wenn Sie die feldbasierte Zuordnung nutzen möchten, verwenden Sie die Prop oder die eVar, die die Benutzer-ID enthält
 * Ihre Voreinstellung für die Häufigkeit der Wiederholungen und die Lookback-Länge. Zu den verfügbaren Optionen gehören eine Wiederholung pro Woche mit einem 7-tägigen Lookback-Fenster oder eine tägliche Wiederholung mit einem 1-tägigen Lookback-Fenster.
 Die Standardeinstellung ist eine wöchentliche Wiederholung mit einem 7-tägigen Lookback-Fenster. In diesem Fall können sich die Daten der letzten Woche ändern (da sie nach und nach zugeordnet und aktualisiert werden).
