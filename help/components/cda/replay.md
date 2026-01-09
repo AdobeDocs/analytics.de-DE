@@ -4,9 +4,9 @@ description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübe
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 89%
 
 ---
@@ -34,9 +34,9 @@ Sobald ein Treffer erfasst wird, versucht die geräteübergreifende Analyse, ihn
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (246) |
 | `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an. | `2` (246 und Bob) |
-| `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `2` (246 und 3579) | `3` (246, Bob und 3579) |
+| `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `3` (246, Bob und 3579) |
 | `4` | `3579` | `Bob` | Bob meldet sich auf einem Mobilgerät an | `3` (246, Bob und 3579) |
-| `5` | `246` | – | Bob greift erneut auf Ihre Site auf dem Desktop zu, nicht authentifiziert | | `3` (246, Bob und 3579) |
+| `5` | `246` | – | Bob greift erneut auf Ihre Site auf dem Desktop zu, nicht authentifiziert | `3` (246, Bob und 3579) |
 | `6` | `246` | `Bob` | Bob meldet sich erneut auf seinem Desktop an | `3` (246, Bob und 3579) |
 | `7` | `3579` | – | Bob ruft Ihre Site erneut auf einem Mobilgerät auf | `3` (246, Bob und 3579) |
 | `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `3` (246, Bob und 3579) |
