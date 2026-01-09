@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Visualisierung der Zusammenfassung der Schlüsselmetriken in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Zusammenfassung der Schlüsselmetriken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_In diesem Artikel wird die Visualisierung der Zusammenfassung der Schlüsselmetriken in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Zusammenfassung der Schlüsselmetriken](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ Im Rahmen der Visualisierungseinstellungen sind spezifische Einstellungen für d
 
 Nachdem Sie die Visualisierung erstellt haben, können Sie die ursprüngliche Konfiguration bearbeiten.
 
-1. Wählen ![ oben ](/help/assets/icons/Edit.svg) der Visualisierung „Bearbeiten“ aus.
+1. Wählen ![&#x200B; oben &#x200B;](/help/assets/icons/Edit.svg) der Visualisierung „Bearbeiten“ aus.
 
 
    Sie gelangen nun zurück zur ursprünglichen [Konfigurationsansicht](#configure).
