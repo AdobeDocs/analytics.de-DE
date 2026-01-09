@@ -37,7 +37,7 @@ Beim Zuordnen von Geräten wird die variable Persistenz über Geräte hinweg üb
 
 
 
-Weitere [ zu den Funktionen und Leistungsmerkmalen der geräteübergreifenden Analyse finden ](https://express.adobe.com/page/8ZpjsX6Lp5XTM/) auf der Seite „Cross-Device Analytics Spark“.
+Weitere [&#x200B; zu den Funktionen und Leistungsmerkmalen der geräteübergreifenden Analyse finden &#x200B;](https://express.adobe.com/page/8ZpjsX6Lp5XTM/) auf der Seite „Cross-Device Analytics Spark“.
 
 ## Voraussetzungen
 
@@ -59,7 +59,7 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse ist derzeit nicht mit A4T kompatibel.
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.
 * Die aktive Überwachung des Prozesses der geräteübergreifenden Analyse durch Adobe ist auf Report Suites im Produktionsbetrieb beschränkt.
-* Die geräteübergreifende Analyse ist derzeit nicht mit der Adobe Analytics (Data [ API) ](https://developer.adobe.com/analytics-apis/docs/2.0/)
+* Die geräteübergreifende Analyse ist derzeit nicht mit der Adobe Analytics (Data [&#x200B; API) &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)
 * Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
 * Zugeordnete Daten haben eine Latenz von 8 bis 12 Stunden.
 * Die Zuordnung von Verlaufsdaten für ein bestimmtes Gerät wird für bis zu einem Jahr gespeichert.
