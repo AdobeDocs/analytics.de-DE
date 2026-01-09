@@ -22,7 +22,7 @@ Mit der Kuratierung können Sie die Komponenten (Dimensionen, Metriken, Segmente
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kuratieren von Projekten](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kuratieren von Projekten](https://video.tv.adobe.com/v/328056?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
