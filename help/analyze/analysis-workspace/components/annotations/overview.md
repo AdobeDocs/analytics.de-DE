@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Anmerkungen können für Folgendes gelten:
 
 * das Projekt, in dem Anmerkungen erstellt werden (Standard), oder alle Projekte.
 
-* die Datenansicht, in der Anmerkungen erstellt werden (Standard), oder alle Datenansichten.
+* Die Report Suite, in der Anmerkungen erstellt werden (Standard), oder alle Report Suites.
 
 Unter [Erstellen von Anmerkungen](create-annotations.md) finden Sie die verschiedenen Optionen zum Erstellen von Anmerkungen. Anschließend erstellen, ändern und speichern Sie Anmerkungen im Rahmen der [Anmerkungserstellung](create-annotations.md#annotation-builder).
 
