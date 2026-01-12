@@ -182,7 +182,7 @@ Sehen Sie sich die folgenden Videos an, um Ihre Onboarding-Journey von Adobe Adm
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Steigen Sie in [Adobe Experience League](https://experienceleague.adobe.com/?lang=de) ein, um auf [Dokumentation](https://experienceleague.adobe.com/de/docs/analytics), [Tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview) und mehr zuzugreifen, die Ihnen zum Erfolg verhelfen.
+Steigen Sie in [Adobe Experience League](https://experienceleague.adobe.com/de?lang=de) ein, um auf [Dokumentation](https://experienceleague.adobe.com/de/docs/analytics), [Tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview) und mehr zuzugreifen, die Ihnen zum Erfolg verhelfen.
 
 
 ## Adobe Admin Console
@@ -201,7 +201,7 @@ Einführung in das [Adobe Admin Console User Management](https://adminconsole.ad
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Gehen Sie zu Adobe Experience League, um [einen Support-Fall zu stellen und aktive und frühere Fälle zu überprüfen](https://experienceleague.adobe.com/home#support).
+Gehen Sie zu Adobe Experience League, um [einen Support-Fall zu stellen und aktive und frühere Fälle zu überprüfen](https://experienceleague.adobe.com/home?lang=de#support).
 
 
 ## Adobe Analytics
@@ -214,7 +214,7 @@ Ihre Adobe Analytics-Journey beginnt mit dem Onboarding der richtigen Konfigurat
 
 Nach Abschluss des Onboardings bei Adobe Analytics und den zugehörigen Plattformen sollten Sie die folgenden Ressourcen erkunden, um Ihr Verständnis zu vertiefen und Ihre Kenntnisse zu erweitern:
 
-1. [Einführung in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Report Suites verstehen und erstellen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Einführung in Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Report Suites verstehen und erstellen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Dokumentation zu Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics)
 4. [Adobe Analytics-Tutorials und -Videos](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview)
