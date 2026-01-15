@@ -3,9 +3,9 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6bbaf402199d3fadbfad0729533b4668bb7035e3
+source-git-commit: 69aa42b1949944b59740222073635be72c4bd6ab
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1225'
 ht-degree: 49%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 49%
 
 **Letzte Aktualisierung:** Donnerstag, 14. Januar 2026
 
-Diese Versionshinweise decken den Veröffentlichungszeitraum vom Januar 2026 ab. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Januar 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
