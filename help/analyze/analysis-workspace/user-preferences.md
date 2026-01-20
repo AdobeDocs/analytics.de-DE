@@ -100,7 +100,7 @@ Klicken Sie auf die verlinkten Voreinstellungstitel, um weitere Informationen un
 
 >[!IMPORTANT]
 >
->Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt.
+>Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt.
 >
 
 | Abschnitt | Voreinstellung | Optionen |
