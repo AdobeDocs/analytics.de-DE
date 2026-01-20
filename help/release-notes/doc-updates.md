@@ -33,7 +33,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Januar 2026** | |
-| Benutzereinstellungen: Zahlenformat | Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt. |
+| Benutzereinstellungen: Zahlenformat | Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt. |
 | **November 2025** | |
 | Wichtige Überlegungen zu VISTA-Regeln | Die wichtigen Überlegungen zu [VISTA-Regeln](/help/technotes/vista.md) wurden aktualisiert. |
 | Datenspalten-ID für konversationale KI-Tools hinzugefügt | Die Spalte [Datenspaltenreferenz-ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) für konversationale KI-Tools wurde in der Spalte ref_type hinzugefügt. |
