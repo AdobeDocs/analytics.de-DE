@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
+source-git-commit: af4a592d4c73d000d1fede72148dc1617de52fec
 workflow-type: tm+mt
-source-wordcount: '6626'
+source-wordcount: '6624'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 98%
 Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 * Informationen zu [!UICONTROL Customer Journey Analytics] finden Sie unter [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de).
-* Informationen zu Streaming-Mediendiensten finden Sie unter [Messen von Audio und Video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de).
+* Informationen zu Streaming-Mediendiensten finden Sie unter [Messen von Audio und Video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## Details zu wichtigen Aktualisierungen der Dokumentation
 
@@ -26,14 +26,13 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Januar 2026** | |
+| Benutzereinstellungen: Zahlenformat | Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt. |
 | Gerätediagramm | Verweise auf die Funktion [Eingestellte Gerätediagramm-Funktion](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) wurden entfernt. |
 
 ### 2025 {#year2025}
 
 | Funktion | Beschreibung |
 | --- | --- |
-| **Januar 2026** | |
-| Benutzereinstellungen: Zahlenformat | Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt. |
 | **November 2025** | |
 | Wichtige Überlegungen zu VISTA-Regeln | Die wichtigen Überlegungen zu [VISTA-Regeln](/help/technotes/vista.md) wurden aktualisiert. |
 | Datenspalten-ID für konversationale KI-Tools hinzugefügt | Die Spalte [Datenspaltenreferenz-ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) für konversationale KI-Tools wurde in der Spalte ref_type hinzugefügt. |
@@ -138,7 +137,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Inhalte zur Verwaltung terminierter Projekte verschoben | Es wurde ein neuer Artikel mit dem Titel [Terminierte Projekte](/help/components/scheduled-projects-manager.md) im Handbuch zu den Analytics-Komponenten hinzugefügt. Diese Inhalte befanden sich zuvor im Artikel [Planen von Projekten](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) im Handbuch zu Analytics-Tools. |
 | Vergleich von Implementierungsmethoden | Die Dokumentation zum Vergleich verschiedener Implementierungsmethoden wurde aktualisiert. [Weitere Informationen](../implement/prepare/comparison.md) |
 | Es wurde klargestellt, dass die Konfiguration von SFTP für Daten-Feeds keine Adobe-Kundenunterstützung erfordert | Es wurde in [Senden von Adobe-Daten an ein externes FTP-Konto mit SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) klargestellt, dass Kundinnen und Kunden sich nicht an die Kundenunterstützung von Adobe wenden müssen, um SFTP für Daten-Feeds zu konfigurieren. <p>Außerdem wurde ein Hinweis hinzugefügt, dass SFTP nicht mehr empfohlen wird und Kundinnen und Kunden beim Konfigurieren von Daten-Feeds ein Cloud-Ziel verwenden sollten.</p> |
-| Verbesserungen an der Dokumentation für die Streaming-Mediensammlung | Es wurden die folgenden Verbesserungen an der Dokumentation für die Streaming-Mediensammlung vorgenommen: <ul><li>Der [allgemeine Übersicht](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=de) wurde aktualisiert, um mehr Klarheit zu schaffen und Informationen in Bezug auf Customer Journey Analytics aufzunehmen.</li><li>Die [Implementierungsübersicht](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=de) wurde aktualisiert, um deutlich zwischen Edge-Implementierungen und reinen Analytics-Implementierungen zu unterscheiden. Es wurden außerdem Diagramme zur Veranschaulichung der verschiedenen Implementierungsmethoden hinzugefügt.</li><li>Es wurden spezifische Voraussetzungen für [Edge-Implementierungen](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=de) und [reine Analytics-Implementierungen](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=de) hinzugefügt. Außerdem wurden die [allgemeinen Voraussetzungen](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=de) aktualisiert.</li><li>Es wurden Tabellen im Artikel [Abrufen von Medien-SDKs, Erweiterungen mithilfe von Tags und OTT-SDKs](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=de) aktualisiert, indem neue Spalten für *unterstützte Lösungen* und *Implementierungsmethode* aufgenommen wurden.</li><li>Inhalt und Organisation von Artikeln im Bereich [Implementierung](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=de) der Dokumentation wurden optimiert. Dazu gehörte die Kategorisierung von Implementierungen nach Edge-Implementierungen und reinen Analytics-Implementierungen.</li><li>Eine zusätzliche Hierarchieebene wurde entfernt, die unter [Tracking](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=de) nicht benötigt wurde, und in diesem Abschnitt wurden Umleitungen für geänderte URLs hinzugefügt.</li><ul> |
+| Verbesserungen an der Dokumentation für die Streaming-Mediensammlung | Es wurden die folgenden Verbesserungen an der Dokumentation für die Streaming-Mediensammlung vorgenommen: <ul><li>Der [allgemeine Übersicht](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) wurde aktualisiert, um mehr Klarheit zu schaffen und Informationen in Bezug auf Customer Journey Analytics aufzunehmen.</li><li>Die [Implementierungsübersicht](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) wurde aktualisiert, um deutlich zwischen Edge-Implementierungen und reinen Analytics-Implementierungen zu unterscheiden. Es wurden außerdem Diagramme zur Veranschaulichung der verschiedenen Implementierungsmethoden hinzugefügt.</li><li>Es wurden spezifische Voraussetzungen für [Edge-Implementierungen](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html) und [reine Analytics-Implementierungen](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html) hinzugefügt. Außerdem wurden die [allgemeinen Voraussetzungen](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html) aktualisiert.</li><li>Es wurden Tabellen im Artikel [Abrufen von Medien-SDKs, Erweiterungen mithilfe von Tags und OTT-SDKs](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) aktualisiert, indem neue Spalten für *unterstützte Lösungen* und *Implementierungsmethode* aufgenommen wurden.</li><li>Inhalt und Organisation von Artikeln im Bereich [Implementierung](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) der Dokumentation wurden optimiert. Dazu gehörte die Kategorisierung von Implementierungen nach Edge-Implementierungen und reinen Analytics-Implementierungen.</li><li>Eine zusätzliche Hierarchieebene wurde entfernt, die unter [Tracking](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html) nicht benötigt wurde, und in diesem Abschnitt wurden Umleitungen für geänderte URLs hinzugefügt.</li><ul> |
 | **Juli 2023** | |
 | Adobe Experience Platform Edge Network-API | Es wurde umfassendere Dokumentation hinzugefügt, in der beschrieben wird, wann und wie die Datenerfassung mit Adobe Analytics mithilfe des [Adobe Experience Platform Edge Network-APIs](../implement/aep-edge/api/overview.md) implementiert werden kann. Beispielsweise bei der Implementierung der Datenerfassung mit Adobe Analytics in Desktop-Programmen, Geräten im Internet der Dinge und Set-Top-Boxen. |
 | Globale Unternehmens-ID | Es wurde dokumentiert, [wie die globale Unternehmens-ID](../admin/tools/company/web-services-admin.md) für das Analytics-Unternehmen zu finden ist, bei dem Sie angemeldet sind. Diese ID ist für Analytics 2.0-APIs erforderlich. |
@@ -195,7 +194,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Variablen der Einverständnisverwaltung | Dedizierte Seiten für [Opt-in zur Einverständnisverwaltung](/help/components/dimensions/cm-opt-in.md) und [Opt-out zur Einverständnisverwaltung](/help/components/dimensions/cm-opt-out.md). |
 | Aktualisierung in Bezug auf mehrere Währungen | Seiten im Zusammenhang mit der [Unterstützung mehrerer Währungen](/help/implement/vars/config-vars/currencycode.md) wurden aktualisiert. |
 | **Oktober 2022** |  |
-| Data Workbench | [Mitteilung zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=de) |
+| Data Workbench | [Mitteilung zum Ende der Nutzungsdauer](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | Client-Hinweise | Neue [Übersicht und häufig gestellte Fragen](/help/technotes/client-hints.md). |
 | Zusammenfassung einer Schlüsselmetrik | Neuer Artikel zur Visualisierung der [Zusammenfassung einer Schlüsselmetrik](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Klassifizierungssätze | Das neue Benutzererlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md) bietet eine zentrale Schnittstelle zur Verwaltung von Klassifizierungen und Regeln und verbessert die Sichtbarkeit der kundeneigenen Klassifizierungsdaten. |
