@@ -2,9 +2,9 @@
 title: Regeln für Klassifizierungssätze
 description: Erfahren Sie, wie Sie Klassifizierungssätze-Regeln verwenden, um Regeln für Klassifizierungsdaten zu definieren.
 feature: Classifications
-source-git-commit: 685110ea30be8b87f63a8d944902669544516667
+source-git-commit: 1a07d14d11e3353c5f45fb26463168a75fe11ddf
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1683'
 ht-degree: 13%
 
 ---
@@ -12,9 +12,11 @@ ht-degree: 13%
 
 # Regeln für Klassifizierungssätze
 
-Sie verwenden Regeln, um automatische Klassifizierungen in Szenarien zu unterstützen, in denen sich Ihre Schlüsseldimension ständig ändert. Die Aktualisierung von Klassifizierungen durch Upload oder Automatisierung wird zu einem umständlichen Prozess oder verzögert die korrekte Klassifizierung für neue Dimensionswerte. Beispielsweise interne Kampagnen, Trackingcodes oder Produkt-SKUs. Die Dimension muss Werte enthalten, mit denen Sie eine oder mehrere Regeln anwenden können, damit Sie Klassifizierungsdaten aus den Werten ableiten können.
+Sie verwenden Regeln, um automatische Klassifizierungen in Szenarien zu unterstützen, in denen sich Ihre Schlüsseldimension ständig ändert. Die Aktualisierung von Klassifizierungen durch [Upload](/help/components/classifications/sets/manage/schema.md#upload) oder [Automatisierung](/help/components/classifications/sets/manage/schema.md#automate) wird zu einem umständlichen Prozess oder verzögert die ordnungsgemäße Klassifizierung für neue Dimensionswerte. Beispielsweise interne Kampagnen, Trackingcodes oder Produkt-SKUs.
 
-Sie definieren Regeln im Kontext eines Klassifizierungssatzes. Dieser Kontext bedeutet, dass Regeln (wenn aktiviert) auf alle Report Suite- und Schlüssel-Dimensionskombinationen angewendet werden, die für den Klassifizierungssatz abonniert wurden. Diese Implementierung unterscheidet sich etwas von der Funktionsweise des alten Classification Rule Builders. Definieren Sie im Classification Rule Builder eine oder mehrere Regeln als Teil eines Regelsatzes separat und verknüpfen Sie dann den Regelsatz mit einer oder mehreren Report Suites. In der neuen Benutzeroberfläche werden die Regeln innerhalb des Klassifizierungssatzes auch als Regelsatz bezeichnet. Die Regelsätze werden jedoch in derselben Benutzeroberfläche definiert, in der Sie andere Klassifizierungssatzattribute konfigurieren.
+Die Dimension muss Werte enthalten, mit denen Sie eine oder mehrere Regeln anwenden können, damit Sie Klassifizierungsdaten aus den Dimensionswerten ableiten können.
+
+Sie definieren Regeln im Kontext eines Klassifizierungssatzes. Dieser Kontext bedeutet, dass Regeln (wenn aktiviert) auf alle Report Suite- und Schlüssel-Dimensionskombinationen angewendet werden, die für den Klassifizierungssatz abonniert wurden. Diese Implementierung unterscheidet sich von der Funktionsweise des alten Classification Rule Builders. Im Classification Rule Builder definieren Sie eine oder mehrere Regeln separat als Teil eines Regelsatzes und verknüpfen den Regelsatz dann mit einer oder mehreren Report Suites. In der neuen Benutzeroberfläche werden die Regeln innerhalb des Klassifizierungssatzes auch als Regelsatz bezeichnet. Die Regelsätze werden jedoch in derselben Benutzeroberfläche definiert, in der Sie andere Klassifizierungssatzattribute konfigurieren.
 
 
 So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
@@ -22,14 +24,14 @@ So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie die Regeln definieren möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**&#x200B;die Registerkarte **[!UICONTROL Regeln]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**die Registerkarte **[!UICONTROL Regeln]**aus.
 
    * Wenn Sie zum ersten Mal auf die **[!UICONTROL Rules]**-Schnittstelle für einen Klassifizierungssatz zugreifen oder sich bisher entschieden haben, weiterhin die alte Rule Builder-Schnittstelle zu verwenden, wird ein Dialogfeld angezeigt, in dem Sie auswählen können, wie Sie beginnen möchten. Die Optionen sind:
 
       * **Migrieren vorhandener Regeln**. Importieren Sie Ihre aktuellen Klassifizierungsregeln und arbeiten Sie weiterhin mit diesen Regeln in der neuen Benutzeroberfläche. Ihre vorhandenen Regeln werden beibehalten und in das neue Format konvertiert.
          * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um fortzufahren.
          * Lesen Sie **[!UICONTROL Dialogfeld &quot;]** bestätigen“ die Auswirkungen der Migration.
-            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), &#x200B;](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
+            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), ](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
             * Wählen Sie **[!UICONTROL Abbrechen]**, um die Migration abzubrechen
 
       * **Neu starten**. Erstellen Sie neue Klassifizierungsregeln von Grund auf mit dem neuen Regel-Builder. Wählen Sie diese Option aus, wenn Sie Ihre Klassifizierungslogik umgestalten oder mit neuen Klassifizierungsregeln neu starten möchten.
@@ -61,7 +63,7 @@ Verwenden Sie zum Erstellen oder Bearbeiten von Regeln die Benutzeroberfläche �
 | | Name | Beschreibung |
 |---|---|---|
 | 1 | **[!UICONTROL Funktionen]** | Im Bereich **[!UICONTROL Funktionen]** können Sie Ihre Funktionen auswählen und per Drag-and-Drop in den Regelsatz-Builder ziehen. |
-| 2 | **Rule Set Builder** | Sie erstellen Ihren Regelsatz mit einer oder mehreren Regeln. Eine Regel ist die Implementierung einer Funktion, die immer nur einer Funktion zugeordnet ist. Eine Funktion kann über mehrere Operatoren verfügen. Sie erstellen eine Regel, indem Sie eine Funktion per Drag-and-Drop in den Regelsatz-Builder ziehen. Der Funktionstyp definiert die Schnittstelle der Regel. <br/>Weitere Informationen finden Sie in [&#128279;](#rule-interface)Regelschnittstelle).<br/>Funktionen können an jeder beliebigen Stelle eingefügt werden. Die Funktionen werden nacheinander ausgeführt, um die endgültigen Werte für die Klassifizierungen zu bestimmen.<br/>Mit **[!UICONTROL Alle reduzieren]** reduzieren Sie alle Regeln und verwenden Sie **[!UICONTROL Alle erweitern]**, um alle Regeln zu erweitern. |
+| 2 | **Rule Set Builder** | Sie erstellen Ihren Regelsatz mit einer oder mehreren Regeln. Eine Regel ist die Implementierung einer Funktion, die immer nur einer Funktion zugeordnet ist. Eine Funktion kann über mehrere Operatoren verfügen. Sie erstellen eine Regel, indem Sie eine Funktion per Drag-and-Drop in den Regelsatz-Builder ziehen. Der Funktionstyp definiert die Schnittstelle der Regel. <br/>Weitere Informationen finden Sie in [](#rule-interface)Regelschnittstelle).<br/>Funktionen können an jeder beliebigen Stelle eingefügt werden. Die Funktionen werden nacheinander ausgeführt, um die endgültigen Werte für die Klassifizierungen zu bestimmen.<br/>Mit **[!UICONTROL Alle reduzieren]** reduzieren Sie alle Regeln und verwenden Sie **[!UICONTROL Alle erweitern]**, um alle Regeln zu erweitern. |
 | 3 | **[!UICONTROL Status]** | Zeigt Status und Datum der letzten Änderung des Regelsatzes an. <br/>Wählen Sie **[!UICONTROL Aktivieren]** aus, um den Regelsatz zu aktivieren. <br/>Wählen Sie **[!UICONTROL Deaktivieren]** aus, um den Regelsatz zu deaktivieren. |
 | 4 | **[!UICONTROL Lookback]** | Geben Sie das Lookback-Fenster für den Regelsatz an.<br/>Wählen Sie eine Option (von 1 Monat bis 6 Monate) aus dem Dropdown-Menü aus.<br/>Wählen Sie **[!UICONTROL Lookback durchführen]** aus, um einen Lookback unter Verwendung des ausgewählten Lookback-Zeitraums durchzuführen. |
 | 5 | **[!UICONTROL Testoptionen]** | Verwenden Sie Beispiel-Schlüsseldimensionswerte, um die Klassifizierungen zu testen: <ul><li>Fügen Sie Werte im Textbereich **[!UICONTROL Beispielschlüssel“ hinzu]** fügen Sie sie ein.<br/>Überprüfen Sie **[!UICONTROL Beispielschlüssel speichern]** um sicherzustellen, dass Beispielschlüssel in verschiedenen Verwendungsbereichen der Regelsatzschnittstelle bestehen bleiben.</li><li>Wählen **[!UICONTROL Regelsatz testen]**, um den Regelsatz zu testen.</li></ul> |
