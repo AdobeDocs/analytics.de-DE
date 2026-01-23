@@ -27,7 +27,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **Januar 2026** | |
 | Rule Builder für Klassifizierungssätze | Dokumentation für die neue Funktion [Regel-Builder“ in Klassifizierungssätzen](/help/components/classifications/sets/manage/rules.md). |
-| Benutzereinstellungen: Zahlenformat | Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt. |
+| Benutzereinstellungen: Zahlenformat | Sie können das Zahlenformat nicht mehr im Abschnitt **[!UICONTROL Projekt und Analysen]** > **[!UICONTROL Daten]** von **[!UICONTROL Benutzereinstellungen]**. Das Zahlenformat wird automatisch durch die [Standardsprache) &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) angemeldeten Benutzers bestimmt. |
 | Gerätediagramm | Verweise auf die Funktion [Eingestellte Gerätediagramm-Funktion](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) wurden entfernt. |
 
 ### 2025 {#year2025}
