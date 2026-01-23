@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 99%
+source-wordcount: '748'
+ht-degree: 100%
 
 ---
 
@@ -233,7 +233,7 @@ ht-degree: 99%
       + [Berechnete Metriken insgesamt](calculated-metrics/cm-totals.md)
       + [Standardmäßige berechnete Metriken](calculated-metrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
-   + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
+   + [Virtual Report Suites – Überblick](vrs/vrs-about.md)
    + [Virtual Report Suite – Kuratierung von Komponenten](vrs/vrs-components.md)
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
    + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
@@ -258,7 +258,7 @@ ht-degree: 99%
    + [Überblick](alerts/alerts-overview.md)
    + [Erstellen von Warnhinweisen](alerts/alert-builder.md)
    + [Verwalten von Warnhinweisen](alerts/alert-manager.md)
-   + [Anwendungsbeispiele](alerts/alerts-use-cases.md)
+   + [Anwendungsfälle](alerts/alerts-use-cases.md)
 + Klassifizierungen {#classifications}
    + [Übersicht über Klassifizierungen](classifications/classifications-overview.md)
    + Klassifizierungssätze {#sets}
@@ -270,7 +270,6 @@ ht-degree: 99%
          + [Einstellungen](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
          + [Regeln](classifications/sets/manage/rules.md)
-         + [Neue Regeln](classifications/sets/manage/rules-new.md)
       + [Klassifizierungsaufträge](classifications/sets/job-manager.md)
       + Klassifizierungskonsolidierungen {#consolidations}
          + [Verwalten](classifications/sets/consolidations/manage.md)
