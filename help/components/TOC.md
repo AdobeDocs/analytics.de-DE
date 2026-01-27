@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -264,9 +264,9 @@ ht-degree: 100%
    + Klassifizierungssätze {#sets}
       + [Überblick](classifications/sets/overview.md)
       + [Datendateien](classifications/sets/data-files.md)
-      + Klassifizierungssätze {#manage}
-         + [Verwalten](classifications/sets/manage/set-manager.md)
-         + [Erstellen und bearbeiten](classifications/sets/manage/create.md)
+      + [Erstellen und bearbeiten](classifications/sets/manage/create.md)
+      + [Verwalten](classifications/sets/manage/set-manager.md)
+      + Klassifizierungssatz {#set}
          + [Einstellungen](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
          + [Regeln](classifications/sets/manage/rules.md)
@@ -274,25 +274,26 @@ ht-degree: 100%
       + Klassifizierungskonsolidierungen {#consolidations}
          + [Verwalten](classifications/sets/consolidations/manage.md)
          + [Erstellen und bearbeiten](classifications/sets/consolidations/process.md)
-   + Classification Rule Builder (veraltet){#classifications-rulebuilder}
-      + [Überblick](classifications/crb/classification-rule-builder.md)
-      + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
-      + [Klassifizierungsregeln](classifications/crb/classification-quickstart-rules.md)
-      + [Klassifizierungsregel – Definitionen](classifications/crb/classification-rule-definitions.md)
-      + [Unterklassifizierungen und der Regel-Builder](classifications/crb/subclassification-rule-builder.md)
-   + Classification Importer (veraltet){#classifications-importer}
-      + [Classification Importer – Überblick](classifications/importer/c-working-with-saint.md)
-      + [Klassifizierungsdatendateien](classifications/importer/c-saint-data-files.md)
-      + [Löschen von Classification-Daten](classifications/importer/t-delete-classification-data.md)
-      + [Klassifizierungsvorlage](classifications/importer/c-download-saint-data.md)
-      + [Browser-Import](classifications/importer/browser-import.md)
-      + [Browser-Export](classifications/importer/browser-export.md)
-      + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTP-Export](classifications/importer/ftp-export.md)
-      + [Verarbeitungszeit](classifications/importer/processing-time.md)
-      + [Unterklassifizierungen](classifications/importer/subclassifications.md)
-      + [Fehlerbehebung](classifications/importer/troubleshooting.md)
-      + [Häufig gestellte Fragen](classifications/importer/importer-faq.md)
+   + Alte Klassifizierungen {#legacy-classifications}
+      + Classification Rule Builder {#classifications-rulebuilder}
+         + [Überblick](classifications/crb/classification-rule-builder.md)
+         + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
+         + [Klassifizierungsregeln](classifications/crb/classification-quickstart-rules.md)
+         + [Klassifizierungsregel – Definitionen](classifications/crb/classification-rule-definitions.md)
+         + [Unterklassifizierungen und der Regel-Builder](classifications/crb/subclassification-rule-builder.md)
+      + Klassifizierungsimport {#classifications-importer}
+         + [Classification Importer – Überblick](classifications/importer/c-working-with-saint.md)
+         + [Klassifizierungsdatendateien](classifications/importer/c-saint-data-files.md)
+         + [Löschen von Classification-Daten](classifications/importer/t-delete-classification-data.md)
+         + [Klassifizierungsvorlage](classifications/importer/c-download-saint-data.md)
+         + [Browser-Import](classifications/importer/browser-import.md)
+         + [Browser-Export](classifications/importer/browser-export.md)
+         + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+         + [FTP-Export](classifications/importer/ftp-export.md)
+         + [Verarbeitungszeit](classifications/importer/processing-time.md)
+         + [Unterklassifizierungen](classifications/importer/subclassifications.md)
+         + [Fehlerbehebung](classifications/importer/troubleshooting.md)
+         + [Häufig gestellte Fragen](classifications/importer/importer-faq.md)
 + Standorte {#locations}
    + [Standorte-Manager](/help/components/locations/locations-manager.md)
    + [Cloud-Importkonten](/help/components/locations/configure-import-accounts.md)
@@ -309,3 +310,4 @@ ht-degree: 100%
    + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
    + [Berechtigungen für Marketing-Kanäle](c-marketing-channels/c-channel-report-access.md)
    + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)
+
