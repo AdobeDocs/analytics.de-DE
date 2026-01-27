@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
+source-git-commit: dd0bf6090f0886c770d39ec7c2b9f8f6f27577db
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -310,4 +310,3 @@ ht-degree: 99%
    + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
    + [Berechtigungen für Marketing-Kanäle](c-marketing-channels/c-channel-report-access.md)
    + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)
-
