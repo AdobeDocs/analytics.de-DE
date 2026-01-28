@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 99%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -284,7 +284,7 @@ ht-degree: 99%
       + Klassifizierungsimport {#classifications-importer}
          + [Überblick](classifications/importer/c-working-with-saint.md)
          + [Datendateien](classifications/importer/c-saint-data-files.md)
-         + [Löschen von Classification-Daten](classifications/importer/t-delete-classification-data.md)
+         + [Daten löschen](classifications/importer/t-delete-classification-data.md)
          + [Vorlage](classifications/importer/c-download-saint-data.md)
          + [Browser-Import](classifications/importer/browser-import.md)
          + [Browser-Export](classifications/importer/browser-export.md)
