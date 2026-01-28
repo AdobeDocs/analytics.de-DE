@@ -3,7 +3,7 @@ title: Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 description: Erläutert, wie Klassifizierungskonsolidierungen erstellt, validiert, ausgeführt, genehmigt und abgebrochen werden.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -50,7 +50,7 @@ Nach dem Speichern wird eine Klassifizierungskonsolidierung automatisch für die
 
 Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 
-* [Überprüfen Sie &#x200B;](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
+* [Überprüfen Sie ](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
 * [Ausführen](#run) der Klassifizierungskonsolidierung.
 * [Genehmigen](#approve) die Klassifizierungskonsolidierung.
 
@@ -77,14 +77,24 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## Bearbeiten einer Konsolidierung
+## Bearbeiten einer Konsolidierung {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Keine Übereinstimmung"
+>abstract="Der Prozentsatz der nicht übereinstimmenden Schlüssel, wenn der Wert im konsolidierten Klassifizierungssatz nicht mit dem Quellklassifizierungssatz übereinstimmt."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Abwesend"
+>abstract="Der Prozentsatz der Schlüssel im konsolidierten Klassifizierungssatz, aber nicht im Quellklassifizierungssatz."
 
 So bearbeiten Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hauptbenutzeroberfläche:
 
 1. Wählen **[!UICONTROL Klassifizierungssätze]** im Menü **[!UICONTROL Komponenten]** aus.
 1. Wählen **[!UICONTROL Manager „Klassifizierungssätze]** die Registerkarte **[!UICONTROL Konsolidierungen]** aus.
 1. Im **[!UICONTROL Konsolidierungs-Manager für Klassifizierungssätze]**:
-   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**&#x200B;wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
+   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
 
       | Verfügbare Aktionen | Beschreibung |
       |---|---|
@@ -124,18 +134,7 @@ So führen Sie eine Klassifizierungskonsolidierung durch:
 1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um das Dialogfeld zu schließen.
 
 
-### Genehmigen {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Keine Übereinstimmung"
->abstract="Der Prozentsatz der nicht übereinstimmenden Schlüssel, wenn der Wert im konsolidierten Klassifizierungssatz nicht mit dem Quellklassifizierungssatz übereinstimmt."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Abwesend"
->abstract="Der Prozentsatz der Schlüssel im konsolidierten Klassifizierungssatz, aber nicht im Quellklassifizierungssatz."
+### Genehmigen
 
 Sobald eine Klassifizierungskonsolidierung erfolgreich ausgeführt wurde, lautet der Konsolidierungsstatus ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Wartet auf Genehmigung]**. Die Genehmigung einer Klassifizierungskonsolidierung ersetzt die einzelnen Klassifizierungssätze durch den konsolidierten Klassifizierungssatz und die einzelnen Klassifizierungssätze werden entfernt.
 

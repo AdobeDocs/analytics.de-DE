@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -272,8 +272,8 @@ ht-degree: 99%
          + [Regeln](classifications/sets/manage/rules.md)
       + [Klassifizierungsaufträge](classifications/sets/job-manager.md)
       + Klassifizierungskonsolidierungen {#consolidations}
-         + [Verwalten](classifications/sets/consolidations/manage.md)
          + [Erstellen und bearbeiten](classifications/sets/consolidations/process.md)
+         + [Verwalten](classifications/sets/consolidations/manage.md)
    + Alte Klassifizierungen {#legacy-classifications}
       + Classification Rule Builder {#classifications-rulebuilder}
          + [Überblick](classifications/crb/classification-rule-builder.md)
