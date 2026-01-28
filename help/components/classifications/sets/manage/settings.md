@@ -3,7 +3,7 @@ title: Einstellungen für Klassifizierungssätze
 description: Erfahren Sie, wie Sie einen Klassifizierungssatz erstellen oder bearbeiten.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 7e966bc91bb774ade739bd27cfe04447f6542746
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,7 +20,7 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(_]**) die Registerkarte **[!UICONTROL Einstellungen]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(_]**) die Registerkarte **[!UICONTROL Einstellungen]**aus.
 
 1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatz_]**, falls zutreffend:
 
@@ -34,26 +34,6 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
       * Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
       * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
 
-      Weitere [&#x200B; finden Sie unter &#x200B;](/help/components/classifications/sets/create.md) eines Klassifizierungssatzes .
+      Weitere [ finden Sie unter ](/help/components/classifications/sets/create.md) eines Klassifizierungssatzes .
 
    1. Klicken Sie **[!UICONTROL Speichern]**, um die Einstellungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
-
-
-<!--
-
-Configure a classification set's settings.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
-
-![classification set settings](../../assets/classification-set-settings.png)
-
-The following fields are available in this tab:
-
-* **[!UICONTROL Name]**: The classification set name.
-* **[!UICONTROL Description]**: The description for the classification set.
-* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this classification set.
-* **[!UICONTROL Tags]**: Add one or more tags to the selected classification set. Tags allow you to organize or group classification sets so that it is easier to locate them in the future.
-* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used. You cannot alter a classification set's type after it is created.
-* **[!UICONTROL Subscriptions]**: The report suite and dimension combinations that the classification set applies to.
-
--->

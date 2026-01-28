@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -277,15 +277,15 @@ ht-degree: 99%
    + Alte Klassifizierungen {#legacy-classifications}
       + Classification Rule Builder {#classifications-rulebuilder}
          + [Überblick](classifications/crb/classification-rule-builder.md)
-         + [Klassifizierungsregelsätze](classifications/crb/classification-rule-set.md)
-         + [Klassifizierungsregeln](classifications/crb/classification-quickstart-rules.md)
-         + [Klassifizierungsregel – Definitionen](classifications/crb/classification-rule-definitions.md)
-         + [Unterklassifizierungen und der Regel-Builder](classifications/crb/subclassification-rule-builder.md)
+         + [Regelsätze](classifications/crb/classification-rule-set.md)
+         + [Regeln](classifications/crb/classification-quickstart-rules.md)
+         + [Regeldefinitionen](classifications/crb/classification-rule-definitions.md)
+         + [Unterklassifizierungen](classifications/crb/subclassification-rule-builder.md)
       + Klassifizierungsimport {#classifications-importer}
-         + [Classification Importer – Überblick](classifications/importer/c-working-with-saint.md)
-         + [Klassifizierungsdatendateien](classifications/importer/c-saint-data-files.md)
+         + [Überblick](classifications/importer/c-working-with-saint.md)
+         + [Datendateien](classifications/importer/c-saint-data-files.md)
          + [Löschen von Classification-Daten](classifications/importer/t-delete-classification-data.md)
-         + [Klassifizierungsvorlage](classifications/importer/c-download-saint-data.md)
+         + [Vorlage](classifications/importer/c-download-saint-data.md)
          + [Browser-Import](classifications/importer/browser-import.md)
          + [Browser-Export](classifications/importer/browser-export.md)
          + [FTP-Import](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -310,3 +310,4 @@ ht-degree: 99%
    + [Analysieren von Marketing-Kanälen](c-marketing-channels/analyze-mc.md)
    + [Berechtigungen für Marketing-Kanäle](c-marketing-channels/c-channel-report-access.md)
    + [Häufig gestellte Fragen und Beispiele zu Marketing-Kanälen](c-marketing-channels/c-faq.md)
+

@@ -3,7 +3,7 @@ title: Verwalten von Konsolidierung von Klassifizierungssätzen
 description: Erfahren Sie, wie Sie einen oder mehrere Klassifizierungssätze zu einem einzigen Klassifizierungssatz zusammenfassen.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Die ➊ zeigt Klassifizierungskonsolidierungen an, die erstellt und validiert wu
 |---|---|
 | **[!UICONTROL Konsolidierungsname]** | Der Name der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Aktueller Auftrag]** | Der mit der Konsolidierung der Klassifizierungssätze verknüpfte Vorgang. |
-| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Konsolidierung]**, **[!UICONTROL Übergeben]**, **&#x200B;**, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]**&#x200B;**[!UICONTROL ,]**&#x200B;**&#x200B;**, **[!UICONTROL Validierung]** **&#x200B;**&#x200B;**&#x200B;**, |
+| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Konsolidierung]**, **[!UICONTROL Übergeben]**, ****, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]****[!UICONTROL ,]******, **[!UICONTROL Validierung]** **** ****, |
 | **[!UICONTROL Erstellungszeit]** | Die Erstellungszeit der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Abschlusszeit]** | Die Abschlusszeit der Klassifizierungskonsolidierungen. |
 
@@ -71,7 +71,7 @@ Wenn Sie einen oder mehrere Klassifizierungssätze in der Klassifizierungssatz-L
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Bearbeiten]** | [Bearbeiten Sie die Konsolidierung der Klassifizierungssätze](process.md#edit-a-consolidation) |
-| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [&#x200B; Konsolidierung &#x200B;](process.md#approve) oder [abbrechen](process.md#cancel). |
+| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [ Konsolidierung ](process.md#approve) oder [abbrechen](process.md#cancel). |
 
 
 ### Panel „Filter“
@@ -86,33 +86,3 @@ Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die ➍ des Filterb
 Wählen Sie ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter ausblenden]** aus, um das Bedienfeld „Filter“ auszublenden.
 
 Beachten Sie, dass die im Bedienfeld Filter angezeigten Filter die Optionen für die vorab geladenen Klassifizierungskonsolidierungen widerspiegeln.
-
-
-<!--
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
-
-Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
-
-## Filter classification sets
-
-The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
-
-![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
-
-Additional filter options are available above the Classification set consolidation manager columns:
-
-* **[!UICONTROL Search by title]**: Search for consolidations by name.
-* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
-
-## Classification set consolidation manager columns
-
-The following columns are available in the Classification set consolidation manager:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Current job]**: The current job. 
-* **[!UICONTROL Status]**: The status of the consolidation. 
-* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
-* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
-
--->
