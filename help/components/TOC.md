@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 5109dc297f1b930258e4cffa8ca4325cf369ca6e
+source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 98%
    + [Lebenszyklusmetriken für Mobile](metrics/lifecycle-metrics.md)
    + [Mobilansichten](metrics/mobile-views.md)
    + [Neue Interaktionen](metrics/new-engagements.md)
-   + [Vorfälle](metrics/occurrences.md)
+   + [Vorkommen](metrics/occurrences.md)
    + [Bestellungen pro Besuch](metrics/orders-per-visit.md)
    + [Bestellungen](metrics/orders.md)
    + [Seitenereignisse](metrics/page-events.md)
@@ -233,7 +233,7 @@ ht-degree: 98%
       + [Berechnete Metriken insgesamt](calculated-metrics/cm-totals.md)
       + [Standardmäßige berechnete Metriken](calculated-metrics/cm-reference/default-calcmetrics.md)
 + Virtual Report Suites {#virtual-report-suites}
-   + [Virtual Report Suites – Überblick](vrs/vrs-about.md)
+   + [Virtual Report Suites – Übersicht](vrs/vrs-about.md)
    + [Virtual Report Suite – Kuratierung von Komponenten](vrs/vrs-components.md)
    + [Kontextbezogene Sitzungen](vrs/vrs-mobile-visit-processing.md)
    + [Berichtszeitverarbeitung](vrs/vrs-report-time-processing.md)
@@ -258,14 +258,14 @@ ht-degree: 98%
    + [Überblick](alerts/alerts-overview.md)
    + [Erstellen von Warnhinweisen](alerts/alert-builder.md)
    + [Verwalten von Warnhinweisen](alerts/alert-manager.md)
-   + [Anwendungsfälle](alerts/alerts-use-cases.md)
+   + [Anwendungsbeispiele](alerts/alerts-use-cases.md)
 + Klassifizierungen {#classifications}
    + [Übersicht über Klassifizierungen](classifications/classifications-overview.md)
    + Klassifizierungssätze {#sets}
       + [Überblick](classifications/sets/overview.md)
       + [Datendateien](classifications/sets/data-files.md)
-      + [Erstellen und bearbeiten](/help/components/classifications/sets/create.md)
-      + [Verwalten](/help/components/classifications/sets/set-manager.md)
+      + [Erstellen und bearbeiten](/help/components/classifications/sets/create-set.md)
+      + [Verwalten](/help/components/classifications/sets/manage-sets.md)
       + Klassifizierungssatz {#set}
          + [Einstellungen](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
@@ -274,7 +274,7 @@ ht-degree: 98%
       + Klassifizierungskonsolidierungen {#consolidations}
          + [Erstellen und bearbeiten](classifications/sets/consolidations/process.md)
          + [Verwalten](classifications/sets/consolidations/manage.md)
-   + Alte Klassifizierungen {#legacy-classifications}
+   + Veraltete Klassifizierungen {#legacy-classifications}
       + Classification Rule Builder {#classifications-rulebuilder}
          + [Überblick](classifications/crb/classification-rule-builder.md)
          + [Regelsätze](classifications/crb/classification-rule-set.md)
