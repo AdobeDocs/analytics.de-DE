@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Erste Schritte mit Adobe Analytics {#admin-overview}
    + [Übersicht über Analytics](get-started/analytics-overview.md)
-   + [Einstieg](get-started/onboard.md)
+   + [Onboarding](get-started/onboard.md)
    + [Erste Schritte (nach Rolle)](get-started/get-started-by-role.md)
    + [Grundlagen der Analytics-Oberfläche](get-started/analytics-interface.md)
    + [Anwendungsfälle](get-started/use-cases.md)
@@ -26,7 +26,7 @@ ht-degree: 100%
    + [Systemanforderungen](get-started/sys-reqs.md)
 + [Landingpage](landing.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace – Überblick](analysis-workspace/home.md)
+   + [Überblick über Analysis Workspace](analysis-workspace/home.md)
    + Projekte {#build-workspace-project}
       + [Überblick](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Schneller Projektstart](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -177,7 +177,6 @@ ht-degree: 100%
    + [Planen von Arbeitsmappen für E-Mails](report-builder/schedule-reportbuilder.md)
    + [Planen von Arbeitsmappen für Cloud-Exporte](/help/analyze/report-builder/report-builder-export.md)
    + [Verwalten von geplanten Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [Eingeschränkte Beschriftungen](report-builder/restricted-labels.md)
    + [Report Builder-Einstellungen](report-builder/report-builder-settings.md)
 + Vorgängerversion von Report Builder {#legacy-report-builder}
    + [Hilfe zur Vorgängerversion von Adobe Report Builder](legacy-report-builder/home.md)

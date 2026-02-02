@@ -1,15 +1,15 @@
 ---
-title: Verwalten geplanter Arbeitsmappen in Report Builder in Adobe Analytics
-description: Erfahren Sie, wie Sie geplante Arbeitsmappen in Report Builder verwalten
+title: Verwalten geplanter Arbeitsmappen in Report Builder
+description: Erfahren Sie, wie Sie geplante Arbeitsmappen in Report Builder verwalten.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 3%
+source-wordcount: '326'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ Mit ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) können Sie festlegen
    |---|---|
    | ![Bearbeiten](/help/assets/icons/Edit.svg) | Bearbeiten Sie den Zeitplan für eine ausgewählte Arbeitsmappe. |
    | ![Verlauf](/help/assets/icons/History.svg) | Zeigt den Verlauf der ausgewählten Arbeitsmappen an. |
-   | ![Pause](/help/assets/icons/Pause.svg) | Aussetzen des Zeitplans ausgewählter Arbeitsmappen. |
+   | ![Aussetzen](/help/assets/icons/Pause.svg) | Aussetzen des Zeitplans ausgewählter Arbeitsmappen. |
    | ![Play](/help/assets/icons/Play.svg) | Setzt den Zeitplan der ausgewählten Arbeitsmappen fort. |
    | ![Herunterladen](/help/assets/icons/Download.svg) | Die ausgewählte Arbeitsmappe in eine neue Arbeitsmappe herunterladen. |
    | ![Löschen](/help/assets/icons/Delete.svg) | Löscht den Zeitplan der ausgewählten Arbeitsmappen. |
