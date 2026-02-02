@@ -42,7 +42,7 @@ Um eine ältere Arbeitsmappe zu öffnen, haben Sie folgende Möglichkeiten:
 
    1. Wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der Excel-Multifunktionsleiste aus.
    1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
-   1. Konvertieren [ dann die alte Arbeitsmappe](#convert-a-workbook).
+   1. Konvertieren [&#x200B; dann die alte Arbeitsmappe](#convert-a-workbook).
 
 * Öffnen Sie eine geplante ältere Arbeitsmappe auf der **[!UICONTROL Zeitplan]** im [Report Builder-Hub](report-builder-hub.md). Gehen Sie dazu wie folgt vor:
 

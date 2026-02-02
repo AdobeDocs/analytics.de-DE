@@ -52,7 +52,7 @@ Sie können weiterhin beide Versionen von Report Builder verwenden, wobei die fo
 
 ### Alte Report Builder-Funktionen werden nicht unterstützt
 
-Einige [ (Funktionen der veralteten Report Builder werden nicht unterstützt](convert-workbooks.md#legacy-report-builder-features-not-supported) in dieser Report Builder.
+Einige [&#x200B; (Funktionen der veralteten Report Builder werden nicht unterstützt](convert-workbooks.md#legacy-report-builder-features-not-supported) in dieser Report Builder.
 
 
 ## Häufige Anwendungsfälle
