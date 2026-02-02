@@ -24,7 +24,7 @@ Im Rahmen der Umstellung auf eine neue Report Builder-Funktion können Sie Ihre 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3446191?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
