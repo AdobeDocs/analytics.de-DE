@@ -3,10 +3,10 @@ title: Klassifizierungssätze – Überblick
 description: Erfahren Sie, wie Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten verwenden. Erfahren Sie, wie sich Klassifizierungssätze von veralteten Klassifizierungen unterscheiden.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '895'
+ht-degree: 100%
 
 ---
 
@@ -123,8 +123,3 @@ Die Backend-Architektur, die mit Klassifizierungssätzen veröffentlicht wurde, 
 >[!IMPORTANT]
 >
 >Die Leistung von Klassifizierungssätzen hängt hauptsächlich von der Anzahl der eindeutigen Schlüsselwerte ab, die Daten enthalten. Gehen Sie mit Sorgfalt vor, wenn Sie Variablen haben, die eine große Anzahl eindeutiger Werte enthalten. Dies gilt insbesondere dann, wenn Sie solche Variablen aus mehreren Report Suites und Dimensionen in einem einzigen Klassifizierungssatz kombinieren.
-
-## Einschränkungen
-
-* Klassifizierungssätze unterstützen noch keine Regeln. Die Regelfunktionalität wird zur Benutzeroberfläche für Klassifizierungssätze hinzugefügt, bevor die Funktionalität des alten [Regel-Builders](/help/components/classifications/crb/classification-rule-builder.md) nicht mehr verfügbar ist.
-* Es erfolgt keine Migration von alten Klassifizierungsregeln und -konfigurationen zu Klassifizierungssätzen. Ein Migrationsdienstprogramm wird zur Schnittstelle für Klassifizierungssätze hinzugefügt, bevor die veraltete Klassifizierungsfunktion nicht mehr verfügbar ist.
