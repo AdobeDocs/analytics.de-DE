@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über erweiterte Funktionen berechneter Metriken.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 98%
 
 ---
@@ -116,7 +116,7 @@ Ein gängiger Anwendungsfall für diese Funktion ist, wenn Sie eine ungefähre A
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Zeile &#x200B;]{type="Neutral"} Gibt den Arkussinus (die Umkehrung des Sinus) einer Zahl zurück. Der Arcussinus ist der Winkel, dessen Sinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI().
+[!BADGE Zeile ]{type="Neutral"} Gibt den Arkussinus (die Umkehrung des Sinus) einer Zahl zurück. Der Arcussinus ist der Winkel, dessen Sinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI().
 
 
 | Argument | Beschreibung |
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | metric | Die Metrik, die gerundet werden soll |
 
 
-## Konfidenz {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="Konfidenz"
->abstract="Berechnet die jederzeit gültige Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben."
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
-<!-- markdownlint-enable MD034 -->
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-Berechnet die jederzeit gültige Konfidenz mithilfe der WASKR-Methode, wie in [Zeiteinheitlicher zentraler Grenzwertsatz und asymptotische Konfidenzintervalle (Time-uniform central limit theory and asymptotic confidence sequences)](https://arxiv.org/pdf/2103.06476) beschrieben.
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
-Konfidenz ist ein Maß dafür, wie hoch die Wahrscheinlichkeit ist, dass eine bestimmte Variante mit der Kontrollvariante identisch ist. Bei einer höheren Konfidenz deutet weniger darauf hin, dass die Annahme stimmt, dass die Kontroll- und Nicht-Kontrollvariante die gleiche Performance aufweisen.
-
-| Argument | Beschreibung |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
-| success-metric | Die Metrik oder Metriken, die eine Benutzerin bzw. ein Benutzer verwendet. |
-| control | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
-| significance-threshold | Der Schwellenwert in dieser Funktion ist auf den Standardwert 95 % eingestellt. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## Confidence (Lower) {#confidence-lower}
@@ -673,7 +673,7 @@ Größer als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 | Argument | Beschreibung |
 |---|---|
-| logical_test | Erforderlich. Wert, der als TRUE oder FALSE ausgewertet werden kann. |
+| logical_test | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
 | value_if_true | Der Wert, der ausgegeben werden soll, wenn das Argument des Logiktests also TRUE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
 | value_if_false | Der Wert, der ausgegeben werden soll, wenn das logical_test-Argument als FALSE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
 
@@ -728,25 +728,24 @@ Kleiner als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
 ## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="Anstieg"
->abstract="Der Lift (Anstieg) des Verhältnisses im Vergleich zum Kontrollwert."
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
-| Argument | Beschreibung |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | Die Grundlage (Personen, Sitzungen oder Ereignisse) für die Ausführung eines Tests. |
-| success-metric | Die Metrik oder Metriken, die eine Benutzerin bzw. ein Benutzer verwendet. |
-| control | Die Variante, mit der alle anderen Varianten im Experiment verglichen werden. Geben Sie den Namen des Dimensionselements der Kontrollvariante ein. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## Lineare Regression: Korrelationskoeffizient {#linear-regression-correlation-coefficient}
 
