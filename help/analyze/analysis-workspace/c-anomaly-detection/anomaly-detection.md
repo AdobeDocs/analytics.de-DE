@@ -119,17 +119,17 @@ Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Ano
    <td colname="col3" colsep="1"> <p>Keine Token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?lang=depromoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/de/products/analytics/compare-adobe-analytics-packages.html?lang=depromoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>Nur tägliche Granularität </p> </td> 
    <td colname="col3"> <p>Keine Token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?lang=depromoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/de/products/analytics/compare-adobe-analytics-packages.html?lang=depromoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>10 Token pro Monat </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?lang=depromoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/de/products/analytics/compare-adobe-analytics-packages.html?lang=depromoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>20 Token pro Monat </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Weiter unten finden Sie eine ausführliche Liste der Berechtigungen für die Ano
    <td colname="col3"> <p>2 Token pro Monat </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html?lang=de"  >Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/de/products/analytics/predictive-analytics.html?lang=de"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Ja </p> </td> 
    <td colname="col3"> <p>Unbegrenzte Token </p> </td> 
   </tr> 

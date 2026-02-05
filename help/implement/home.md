@@ -91,7 +91,7 @@ Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&lang=de#support)
-* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?lang=de)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&lang=de#support)
+* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de&lang=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Neueste Versionshinweise](../release-notes/latest.md)
