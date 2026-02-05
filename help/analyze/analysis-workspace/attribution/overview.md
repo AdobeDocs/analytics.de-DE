@@ -1,13 +1,13 @@
 ---
-title: Übersicht über Attribution
-description: Erfahren Sie, wie Sie einem Erfolgsereignis mehrere Dimensionselemente zuordnen können.
+title: Attribution – Überblick
+description: Erfahren Sie mehr über das Konzept, Erfolgsereignisse mehreren Dimensionselementen zuzuschreiben.
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Mit Attribution können Analysten anpassen, wie Erfolgsereignisse Dimensionselem
 
 In einigen Berichten möchten Sie die Bestellung eventuell Paid Search zuordnen. In anderen Berichten möchten Sie die Bestellung eventuell Social Media zuordnen. Mithilfe von Attribution können Sie diesen Aspekt des Berichts steuern. Die Funktion steht allen Unternehmen mit Adobe Analytics Ultimate, Prime, Select und Foundation zur Verfügung. Wenden Sie sich an das Adobe-Accountteam Ihres Unternehmens, wenn Sie sich nicht sicher sind, welche Art von Vertrag Sie mit Adobe abgeschlossen haben.
 
-## Wert der Attribution
+## Bedeutung der Attribution
 
 Eine Customer Journey ist nie linear und oft unvorhersehbar. Jeder Kunde hat sein eigenes Tempo. Häufig zögert er, bricht ab, startet neu oder zeigt ein anderes nicht-lineares Verhalten. Diese organischen Aktionen machen es schwer nachvollziehen, wie sich Marketing-Maßnahmen auf die gesamte Customer Journey auswirken. Außerdem werden die Bemühungen zur Verknüpfung mehrerer Datenkanäle behindert.
 
@@ -53,32 +53,32 @@ Attribution umfasst die folgenden Funktionen:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/37474?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten &#x200B;](https://video.tv.adobe.com/v/41478?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten Metriken](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Attributionsbedienfelds](https://video.tv.adobe.com/v/37477?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Bedienfelds „Attribution“](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von nebeneinander angezeigten Vergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/327794?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von Direktvergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics-Tools, die die Attribution nicht unterstützen
+## Adobe Analytics-Tools, die Attribution nicht unterstützen
 
-Alle Tools, die die Analytics 2.0-API nicht unterstützen, wie [Legacy-Report Builder](/help/analyze/legacy-report-builder/home.md), unterstützen nicht die Attribution.
+Tools, die das Analytics 2.0-API nicht unterstützen, wie z. B. [die Vorgängerversion von Report Builder](/help/analyze/legacy-report-builder/home.md), unterstützen auch keine Attribution.

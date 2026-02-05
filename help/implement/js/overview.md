@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>1</td><td>Stellen Sie sicher<b> dass Sie eine Report Suite definiert haben</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
+<td>1</td><td>Stellen Sie sicher, dass Sie <b>eine Report Suite definiert</b> haben</td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Report Suite Manager</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Laden Sie den erforderlichen JavaScript-Code für AppMeasurement </b> Code-Manager herunter. Entpacken Sie die Datei.</td><td><a href="../../admin/tools/code-manager-admin.md">Code-Manager</a></td>
+<td>2</td><td><b>Laden Sie den erforderlichen JavaScript-Code für AppMeasurement</b> aus dem Code-Manager herunter. Dekomprimieren Sie die Datei.</td><td><a href="../../admin/tools/code-manager-admin.md">Code-Manager</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Fügen Sie <code>AppMeasurement.js</code> zur Vorlagendatei Ihrer Website hinzu</b>. Der Code enthält die Bibliotheken, die zum Senden von Daten an Adobe erforderlich sind.
+<td>3</td><td><b>Fügen Sie <code>AppMeasurement.js</code> zur Vorlagendatei Ihrer Website hinzu</b>. Dieser Code enthält die Bibliotheken, die zum Senden von Daten an Adobe erforderlich sind.
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 </tr>
 
 <tr>
-<td>4</td><td><b>Definieren von Konfigurationsvariablen in <code>AppMeasurement.js</code></b>. Wenn das Analytics-Objekt instanziiert wird, stellen diese Variablen sicher, dass die Datenerfassungseinstellungen korrekt sind.
+<td>4</td><td><b>Definieren Sie Konfigurationsvariablen in <code>AppMeasurement.js</code></b>. Wenn das Analytics-Objekt instanziiert wird, stellen diese Variablen sicher, dass die Datenerfassungseinstellungen korrekt sind.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Definieren Sie Variablen auf Seitenebene im Seiten-Code Ihrer Site</b>. Diese Variablen bestimmen spezifische Dimensionen und Metriken, die an Adobe gesendet werden.
+<td>5</td><td><b>Definieren Sie Variablen auf Seitenebene im Seiten-Code Ihrer Website</b>. Diese Variablen bestimmen die spezifischen Dimensionen und Metriken, die an Adobe gesendet werden.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Senden der Daten an Adobe mithilfe der <code>t()</code>-Methode</b> wenn alle Seitenvariablen definiert sind.
+<td>6</td><td><b>Senden Sie die Daten mithilfe der <code>t()</code>-Methode</b> an Adobe, sobald alle Seitenvariablen definiert sind.
 
 ```js
 s.t();
@@ -91,4 +91,4 @@ s.t();
 
 ## Zusätzliche Ressourcen
 
-- [Übersicht über Variablen, Funktionen, Methoden und Plug-ins](../vars/overview.md)
+- [Überblick über Variablen, Funktionen, Methoden und Plug-ins](../vars/overview.md)

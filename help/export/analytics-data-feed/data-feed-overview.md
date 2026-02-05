@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie mit Daten-Feeds Rohdaten aus Adobe Analytics abrufen können. Erfahren Sie mehr über die Voraussetzungen für die Verwendung von Daten-Feeds und darüber, was Sie als Nächstes tun können.
+description: Erfahren Sie, wie Sie mit Daten-Feeds Rohdaten aus Adobe Analytics abrufen können. Erfahren Sie mehr über die Voraussetzungen für die Verwendung von Daten-Feeds und die nächsten Schritte.
 keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
-title: Analytics-Daten-Feed - Übersicht
+title: Überblick über Analytics-Daten-Feed
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Die folgenden Ressourcen helfen Ihnen dabei, den grundlegenden Workflow beim Abr
 * [Best Practices für Daten-Feeds](/help/export/analytics-data-feed/data-feeds-best-practices.md): Best Practices zum Erstellen und Verwalten von Daten-Feeds.
 * [Erstellen von Daten-Feeds](create-feed.md): Technische Details zum Erstellen eines Daten-Feed, detaillierte Erläuterungen einzelner Felder
 * [Verwalten von Daten-Feeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Daten-Feed-Benutzeroberfläche
-* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Verstehen Sie, was sich in der komprimierten Datei befindet<!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Erfahren Sie mehr über den Inhalt der komprimierten Datei <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in der Daten-Feed-](https://video.tv.adobe.com/v/3428560?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in der Daten-Feed-Oberfläche](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln der Daten-Feed-](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln Ihrer Daten-Feed-ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]

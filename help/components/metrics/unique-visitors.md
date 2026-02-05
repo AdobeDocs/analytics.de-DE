@@ -4,9 +4,9 @@ description: Die Anzahl der Unique-Visitor-IDs.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: f26f406848ab26092738089aac64ed9b4fc08019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Analysis Workspace behandelt Unique Visitors auf Grundlage der Granularität des
 
 ## Berechnung dieser Metrik
 
-Diese Metrik zählt die Anzahl der Unique-Visitor-IDs für ein bestimmtes Dimensionselement. Weitere Informationen [&#x200B; Identifizieren von Unique Visitors durch Adobe Analytics finden &#x200B;](/help/implement/id/overview.md) unter „Übersicht über die Besucheridentifizierung“ .
+Diese Metrik zählt die Anzahl der Unique-Visitor-IDs für ein gegebenes Dimensionselement. Weitere Informationen darüber, wie Adobe Analytics Unique Visitors identifiziert, finden Sie unter [Überblick über Besucheridentifizierung](/help/implement/id/overview.md).

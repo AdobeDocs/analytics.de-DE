@@ -6,29 +6,29 @@ title: Daten-Feed-Inhalte – Übersicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Daten-Feed-Inhalte - Übersicht
+# Daten-Feed-Inhalte – Überblick
 
-In den folgenden Abschnitten wird beschrieben, wie Sie auf die Dateien in einem Daten-Feed-Versand zugreifen und diese verstehen können.
+In den folgenden Abschnitten wird beschrieben, wie Sie auf die Dateien in einer Daten-Feed-Bereitstellung zugreifen und diese verstehen können.
 
 ## Zugreifen auf Daten-Feed-Inhalte
 
 So greifen Sie auf die Inhalte eines Daten-Feeds zu:
 
-1. Melden Sie sich bei der Ziel-Site des Daten-Feeds an.
+1. Melden Sie sich bei der Zielseite des Daten-Feeds an.
 
-   Dies ist die Ziel-Site, die Sie beim Erstellen des Daten-Feeds eingerichtet haben, z. B. einen Amazon S3- oder Google Cloud Platform-Bucket.
+   Dies ist die Zielseite, die Sie beim Erstellen des Daten-Feeds eingerichtet haben, wie beispielsweise ein Amazon S3- oder Google Cloud Platform-Bucket.
 
 1. Laden Sie die komprimierte Daten-Feed-Datei auf Ihren lokalen Computer herunter.
 
 1. Dekomprimieren Sie die komprimierte Datei mit einem Programm, das `.tar.gz`-Dateierweiterungen unterstützt.
 
-1. Öffnen Sie die `hit_data.tsv`-Datei in einer Tabelle oder in einer Datenbankanwendung Ihrer Wahl, um die Rohdaten für diesen Tag anzuzeigen. —>
+1. Öffnen Sie die Datei `hit_data.tsv` in der Tabellenkalkulations- oder Datenbankanwendung Ihrer Wahl, um die Rohdaten für diesen Tag anzuzeigen. -->
 
 ## Manifestdatei {#feed-manifest}
 
@@ -41,13 +41,13 @@ Die Manifestdatei enthält folgende Details zu den einzelnen Dateien, die Bestan
 
 Die Manifestdatei hat dasselbe Format wie eine Java-JAR-Manifestdatei.
 
-Die Manifestdatei wird immer abschließend in Form einer separaten `.txt`-Datei gesendet. Mit der Manifestdatei wird signalisiert, dass der vollständige Datensatz für den Anforderungszeitraum ausgeliefert wurde. Manifestdateien werden nach folgendem Muster benannt:
+Die Manifestdatei wird immer abschließend in Form einer separaten `.txt`-Datei gesendet. Mit der Manifestdatei wird signalisiert, dass der vollständige Datensatz für den Anforderungszeitraum ausgeliefert wurde. Manifestdateien werden wie folgt benannt:
 
 ```text
 [rsid]_[YYYY-mm-dd].txt
 ```
 
-Eine typische Manifestdatei enthält Daten, die folgendem Schema entsprechen:
+Eine typische Manifestdatei enthält Daten wie die folgenden:
 
 ```text
 Datafeed-Manifest-Version: 1.0
@@ -65,9 +65,9 @@ Datafeed-Manifest-Version: 1.0
  Record-Count: 611
 ```
 
-Jede Manifestdatei enthält eine Kopfzeile, in der die Gesamtanzahl der Lookup-Dateien, Datendateien sowie die Gesamtanzahl der Datensätze in allen Datendateien angegeben sind. Nach dieser Kopfzeile folgen verschiedene Abschnitte mit Informationen zu den einzelnen Dateien, die in der Datenfeedauslieferung enthalten sind.
+Jede Manifestdatei enthält einen Header, der die Gesamtzahl der Lookup-Dateien, der Datendateien sowie die Gesamtzahl der Datensätze in allen Datendateien angibt. Auf diesen Header folgen mehrere Abschnitte mit Informationen zu jeder Datei, die in der Daten-Feed-Bereitstellung enthalten ist.
 
-Einige Feeds sind so konfiguriert, dass sie eine `.fin`-Datei anstelle einer `.txt`-Manifestdatei erhalten. Die `.fin` gibt an, dass der Upload abgeschlossen ist, die darin enthaltenen Metadaten jedoch in einem älteren Format.
+Einige Feeds sind so konfiguriert, dass sie eine `.fin`-Datei anstelle einer `.txt`-Manifestdatei erhalten. `.fin` gibt an, dass der Upload abgeschlossen ist, die darin enthaltenen Metadaten jedoch in einem älteren Format vorliegen.
 
 ## Lookup-Dateien
 
@@ -81,24 +81,24 @@ Lookup-Dateien werden in einer komprimierten ZIP-Datei bereitgestellt, die nach 
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: Eine einzelne Zeile, die die Spaltenüberschriften für die `hit_data.tsv` enthält.
-* **`browser.tsv`**: Ordnet die Browser-ID (die `browser` Feed-Spalte) dem Anzeigenamen des Browsers zu.
-* **`browser_type.tsv`**: Ordnet die Browser-ID (die Spalte &quot;`browser` Feed„) dem Browser-Typ zu.
-* **`color_depth.tsv`**: Ordnet die Farbtiefe-ID (die Spalte für den `color`-Feed) der Farbtiefe zu.
-* **`connection_type.tsv`**: Ordnet die Verbindungstyp-ID (die Spalte &quot;`connection_type` Feed„) dem Verbindungstyp zu.
-* **`country.tsv`**: Ordnet die Länder-ID (die `country` Feed-Spalte) dem Ländernamen zu.
-* **`javascript_version.tsv`**: Ordnet die JavaScript-Versions-ID (die `javascript` Feed-Spalte) der JavaScript-Version zu.
-* **`languages.tsv`**: Ordnet die Sprach-ID (die `language` Feed-Spalte) der Sprache zu.
-* **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID (die Spalte &quot;`os` Feed„) dem Betriebssystemnamen zu.
-* **`plugins.tsv`**: Ordnet die Plug-in-IDs (die Spalte &quot;`plugin` Feed„) den jeweiligen Plug-in-Namen zu.
-* **`resolution.tsv`**: Ordnet die Auflösungs-ID (die `resolution` Feed-Spalte) der Monitorauflösung zu.
-* **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID (die Spalte &quot;`ref_type` Feed„) dem Referrer-Typ zu.
-* **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (die Spalte &quot;`search_engine` Feed„) dem Suchmaschinennamen zu.
-* **`event.tsv`**: Ordnet jede Ereignis-ID (die `event_list` Feed-Spalte) dem entsprechenden Ereignisnamen zu.
+* **`column_headers.tsv`**: Eine einzelne Zeile, die die Spaltenköpfe für `hit_data.tsv` enthält.
+* **`browser.tsv`**: Ordnet die Browser-ID (Feed-Spalte `browser`) dem Anzeigenamen des Browsers zu.
+* **`browser_type.tsv`**: Ordnet die Browser-ID (Feed-Spalte `browser`) dem Browser-Typ zu.
+* **`color_depth.tsv`**: Ordnet die Farbtiefe-ID (Feed-Spalte `color`) der Farbtiefe zu.
+* **`connection_type.tsv`**: Ordnet die Verbindungstyp-ID (Feed-Spalte `connection_type`) dem Verbindungstyp zu.
+* **`country.tsv`**: Ordnet die Länder-ID (Feed-Spalte `country`) dem Ländernamen zu.
+* **`javascript_version.tsv`**: Ordnet die JavaScript-Versions-ID (Feed-Spalte `javascript`) der JavaScript-Version zu.
+* **`languages.tsv`**: Ordnet die Sprach-ID (Feed-Spalte `language`) der Sprache zu.
+* **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID (Feed-Spalte `os`) dem Namen des Betriebssystems zu.
+* **`plugins.tsv`**: Ordnet die Plug-in-ID (Feed-Spalte `plugin`) den jeweiligen Plug-in-Namen zu.
+* **`resolution.tsv`**: Ordnet die Auflösungs-ID (Feed-Spalte `resolution`) der Monitorauflösung zu.
+* **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID (Feed-Spalte `ref_type`) dem Referrer-Typ zu.
+* **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (Feed-Spalte `search_engine`) dem Namen der Suchmaschine zu.
+* **`event.tsv`**: Ordnet jede Ereignis-ID (Feed-Spalte `event_list`) dem entsprechenden Ereignisnamen zu.
 
 ## Trefferdatendateien
 
-Die Trefferdaten werden in der Datei `hit_data.tsv` bereitgestellt. Die Menge an Daten in dieser Datei richtet sich nach dem Auslieferungsformat (stündlich oder täglich sowie danach, ob die Auslieferung in einer oder in mehreren Dateien erfolgt). Diese Datei enthält nur die Trefferdaten. Die Spaltenkopfzeilen werden separat mit den Lookup-Dateien geliefert. Jede Zeile in dieser Datei entspricht einem einzelnen Server-Aufruf.
+Die Trefferdaten werden in der Datei `hit_data.tsv` bereitgestellt. Die Datenmenge in dieser Datei wird durch das Bereitstellungsformat bestimmt (stündlich oder täglich sowie einzelne oder mehrere Dateien). Diese Datei enthält nur Trefferdaten. Die Spaltenköpfe werden separat mit den Lookup-Dateien bereitgestellt. Jede Zeile in dieser Datei enthält einen einzelnen Server-Aufruf.
 
 Die von Adobe bereitgestellten Dateien variieren je nach Art des konfigurierten Daten-Feeds. Alle Dateien sind ISO-8859-1-kodiert.
 
@@ -107,7 +107,7 @@ Die von Adobe bereitgestellten Dateien variieren je nach Art des konfigurierten 
 * `[YYYY-mm-dd]` bezeichnet den Starttag des Daten-Feed.
 * `[HHMMSS]` wird nur in stündlichen Feeds verwendet und bezeichnet den Startzeitpunkt des Daten-Feed.
 * `[compression_suffix]` bezeichnet die Art der verwendeten Komprimierung. Normalerweise werden Daten-Feeds in `tar.gz`- oder `zip`-Dateien komprimiert.
-* `[format_suffix]` bezieht sich auf den Typ des Dateiformats. Normalerweise ist das Format der Daten-Feed-Datei `.tsv`.
+* `[format_suffix]` bezieht sich auf den Typ des Dateiformats. Normalerweise ist das Dateiformat des Daten-Feeds `.tsv`.
 
 ### Täglich; einzelne Datei
 
@@ -135,11 +135,11 @@ Nach dem Extrahieren enthält die Datendatei eine einzelne `hit_data.tsv`-Datei,
 
 ### Stündlich; mehrere Dateien
 
-Nachdem die Daten eine Stunde lang erfasst wurden, erhalten Sie eine oder mehrere komprimierte Datendateien und eine Manifestdatei. Die Datendateien werden folgendermaßen benannt:
+Nachdem die Daten eine Stunde lang erfasst wurden, erhalten Sie eine oder mehrere komprimierte Datendateien und eine Manifestdatei. Die Datendateien werden wie folgt benannt:
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Nach der Extraktion enthält jede Datendatei eine einzelne `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]`, die etwa 2 GB unkomprimierte Daten enthält, sowie Lookup-Dateien für alle erforderlichen Spalten.
+Nach dem Extrahieren enthält jede Datendatei eine einzelne Datei `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` mit etwa 2 GB unkomprimierten Daten sowie Lookup-Dateien für alle erforderlichen Spalten.
 
 ## Größe der Datendatei
 

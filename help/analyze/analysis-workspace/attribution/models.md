@@ -5,19 +5,19 @@ feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # Attributionskomponenten
 
-Das Attributionskonzept in Adobe Analytics umfasst drei Komponenten:
+Das Attributionskonzept in Adobe Analytics erfordert drei Komponenten:
 
-* **Attributionsmodell:** Das [modell](#attribution-model) beschreibt die Verteilung der Konversionen auf die Treffer in einer Gruppe. Zum Beispiel Erstkontakt oder Letztkontakt.
-* **Container**: Der [Container](#container) definiert den Umfang der Attribution oder die Gruppierung der Treffer für jedes Modell.
-* **Attributions-Lookback-Fenster** Das [Lookback-Fenster](#lookback-window) beschreibt die Anzahl der Tage für das Lookback für das ausgewählte Modell.
+* **Attributionsmodell:** Das [Modell](#attribution-model) beschreibt die Verteilung der Konversionen auf die Treffer in einer Gruppe. Zum Beispiel Erstkontakt oder Letztkontakt.
+* **Container**: Der [Container](#container) definiert den Umfang der Attribution oder wie die Treffer für das jeweilige Modell gruppiert werden.
+* **Lookback-Fenster für Attributionen** Das [Lookback-Fenster](#lookback-window) beschreibt die Anzahl der Tage, die für das gewählte Modell rückwirkend betrachtet werden.
 
 
 ## Attributionsmodell
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40039?quality=12&learn=on&captions=ger){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

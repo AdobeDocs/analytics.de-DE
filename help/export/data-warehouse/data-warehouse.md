@@ -1,17 +1,17 @@
 ---
-description: Erfahren Sie mehr über Data Warehouse und das Filtern der Daten, sodass Sie benutzerdefinierte Berichte erstellen und ausführen können.
-title: Übersicht über Data Warehouse
+description: Erfahren Sie mehr über Data Warehouse und wie Sie Daten filtern, um benutzerdefinierte Berichte zu erstellen und auszuführen.
+title: Überblick über Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Data Warehouse-Übersicht
+# Überblick über Data Warehouse
 
 Mit Data Warehouse können Sie Adobe Analytics-Daten für das Speichern und Erstellen benutzerdefinierter Berichte kopieren, die Sie durch Filtern der Daten ausführen können.
 
@@ -31,11 +31,11 @@ Data Warehouse-Berichte können erweiterte Datenbeziehungen aus Rohdaten basier
 
 Data Warehouse-Berichte werden per E-Mail an einen Cloud-Speicherplatzanbieter verschickt oder gesendet. Die Verarbeitung kann bis zu 72 Stunden dauern. Die Verarbeitungsdauer ist abhängig von der Komplexität der Abfrage und der Menge der angeforderten Daten.
 
-Data Warehouse ZIP-komprimiert automatisch Dateien, die größer als 1 MB sind. Die Maximalgröße für E-Mail-Anhänge beträgt 10 MB.
+Data Warehouse komprimiert automatisch alle Dateien, die eine Größe von 1 MB überschreiten. Die maximale Größe für E-Mail-Anhänge beträgt 10 MB.
 
 ## Zugriff
 
-Adobe aktiviert Data Warehouse nur für Benutzende auf Administratorebene und nur für bestimmte Report Suites. (Sie kann für globale und untergeordnete Report Suites aktiviert werden, jedoch nicht für Datenaggregations-Report Suites.) Der Administrator kann eine Gruppe erstellen, die Zugriff auf Data Warehouse hat, und dann Benutzer, die keine Administratoren sind, mit dieser Gruppe verknüpfen.
+Adobe aktiviert Data Warehouse nur für Benutzende auf Administratorebene und nur für bestimmte Report Suites. (Es kann für globale und untergeordnete Report Suites aktiviert werden, jedoch nicht für Datenaggregations-Report Suites.) Admins können eine Gruppe mit Zugriff auf Data Warehouse erstellen und dieser Gruppe dann Benutzer ohne Admin-Status zuordnen.
 
 Siehe [Verwalten von Data Warehouse-Berechtigungen](/help/export/data-warehouse/t-dw-group.md).
 

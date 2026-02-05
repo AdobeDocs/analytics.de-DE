@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -21,14 +21,14 @@ Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigensch
 
 ## Produkte, die Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden Produkte den folgenden Variablen zugeordnet:
+Bei Verwendung des [**XDM-Objekts**](/help/implement/aep-edge/xdm-var-mapping.md) werden Produkte den folgenden Variablen zugeordnet:
 
-* Kategorie wird `xdm.productListItems[].productCategories[].categoryID` zugeordnet. Dabei wird das erste Element im `productCategories[]`-Array verwendet. `lineItemId` auch korrekt zugeordnet, Adobe empfiehlt jedoch `categoryID`, da es sich um Standard-XDM handelt. Wenn beide XDM-Felder vorhanden sind, hat `lineItemId` Vorrang.
-* Produkt wird `xdm.productListItems[].SKU` oder `xdm.productListItems[].name` zugeordnet. Wenn beide XDM-Felder vorhanden sind, wird `xdm.productListItems[].SKU` verwendet.
+* Die Kategorie wird `xdm.productListItems[].productCategories[].categoryID` zugeordnet. Dabei wird das erste Element im Array `productCategories[]` verwendet. `lineItemId` wird ebenfalls korrekt zugeordnet, Adobe empfiehlt jedoch `categoryID`, da dies dem XDM-Standard entspricht. Wenn beide XDM-Felder vorhanden sind, hat `lineItemId` Vorrang.
+* Das Produkt wird `xdm.productListItems[].SKU` oder `xdm.productListItems[].name` zugeordnet. Wenn beide XDM-Felder vorhanden sind, wird `xdm.productListItems[].SKU` verwendet.
 * Die Menge wird `xdm.productListItems[].quantity` zugeordnet.
 * Der Preis wird `xdm.productListItems[].priceTotal` zugeordnet.
 * Merchandising-eVars werden `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` bis `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250` zugeordnet, je nachdem, welche eVar Sie an ein Produkt binden möchten.
-* Merchandising-Ereignisse werden `xdm.productListItems[]._experience.analytics.event1to100.event1.value` bis `xdm.productListItems._experience.analytics.event901to1000.event1000.value` zugeordnet, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [event“-](events/events-overview.md) eingefügt, die an Adobe Analytics gesendet wird.
+* Merchandising-Ereignisse werden `xdm.productListItems[]._experience.analytics.event1to100.event1.value` bis `xdm.productListItems._experience.analytics.event901to1000.event1000.value` zugeordnet, je nachdem, welches Ereignis Sie an ein Produkt binden möchten. Wenn Sie ein Ereignis in einem dieser Felder festlegen, wird es automatisch in die [Ereigniszeichenfolge](events/events-overview.md) aufgenommen, die an Adobe Analytics gesendet wird.
 
 ```json
 {
@@ -53,7 +53,7 @@ Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werd
 }
 ```
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet die Variable „products“ `data.__adobe.analytics.products` folgende AppMeasurement-Syntax. Wenn Sie dieses Feld festlegen, werden alle Produkte, die im XDM-Objekt festgelegt sind, überschrieben und nicht an Adobe Analytics gesendet.
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwendet die Produktvariable `data.__adobe.analytics.products` die folgende AppMeasurement-Syntax. Wenn Sie dieses Feld festlegen, werden alle im XDM-Objekt festgelegten Produkte überschrieben und nicht an Adobe Analytics gesendet.
 
 ```json
 {
@@ -67,9 +67,9 @@ Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.
 }
 ```
 
-## Produkte, die die Adobe Analytics-Erweiterung verwenden
+## Props, die die Adobe Analytics-Erweiterung verwenden
 
-Es gibt kein eigenes Feld in der Adobe Experience Platform-Datenerfassung, um diese Variable festzulegen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, die dabei helfen können.
+In der Adobe Experience Platform-Datenerfassung gibt es kein eigenes Feld, um diese Variable festzulegen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, die dabei helfen können.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
@@ -94,7 +94,7 @@ Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pr
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte `products` beträgt 64 KB. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
+Diese Variable unterstützt mehrere Produkte im selben Treffer. Sie ist beim Warenkorb und bei Käufen mit mehreren Produkten hilfreich. Die maximale Länge für die gesamte Zeichenfolge `products` beträgt 64 KB. Trennen Sie jedes Produkt durch ein Komma (`,`) in der Zeichenfolge.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
