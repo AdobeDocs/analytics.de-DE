@@ -18,7 +18,7 @@ Datenanomalien können kontextbezogen in Analysis Workspace angezeigt und analy
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomalieerkennung](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomalieerkennung](https://video.tv.adobe.com/v/40727?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lass
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Beitragsanalyse](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Beitragsanalyse](https://video.tv.adobe.com/v/40759?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

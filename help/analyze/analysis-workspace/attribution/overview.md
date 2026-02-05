@@ -53,28 +53,28 @@ Attribution umfasst die folgenden Funktionen:
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in Freiformtabellen](https://video.tv.adobe.com/v/37474?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten Metriken](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in berechneten Metriken](https://video.tv.adobe.com/v/41478?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Bedienfelds „Attribution“](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des Bedienfelds „Attribution“](https://video.tv.adobe.com/v/37477?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von Direktvergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von Direktvergleichen von Attributionsmodellen](https://video.tv.adobe.com/v/327794?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
