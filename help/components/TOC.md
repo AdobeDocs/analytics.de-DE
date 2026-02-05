@@ -7,7 +7,7 @@ user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umge
 source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -264,7 +264,7 @@ ht-degree: 98%
    + Klassifizierungssätze {#sets}
       + [Überblick](classifications/sets/overview.md)
       + [Datendateien](classifications/sets/data-files.md)
-      + [Erstellen und bearbeiten](/help/components/classifications/sets/create-set.md)
+      + [Erstellen und Bearbeiten](/help/components/classifications/sets/create-set.md)
       + [Verwalten](/help/components/classifications/sets/manage-sets.md)
       + Klassifizierungssatz {#set}
          + [Einstellungen](classifications/sets/manage/settings.md)
@@ -272,7 +272,7 @@ ht-degree: 98%
          + [Regeln](classifications/sets/manage/rules.md)
       + [Klassifizierungsaufträge](classifications/sets/job-manager.md)
       + Klassifizierungskonsolidierungen {#consolidations}
-         + [Erstellen und bearbeiten](classifications/sets/consolidations/process.md)
+         + [Erstellen und Bearbeiten](classifications/sets/consolidations/process.md)
          + [Verwalten](classifications/sets/consolidations/manage.md)
    + Veraltete Klassifizierungen {#legacy-classifications}
       + Classification Rule Builder {#classifications-rulebuilder}
@@ -284,7 +284,7 @@ ht-degree: 98%
       + Klassifizierungsimport {#classifications-importer}
          + [Überblick](classifications/importer/c-working-with-saint.md)
          + [Datendateien](classifications/importer/c-saint-data-files.md)
-         + [Daten löschen](classifications/importer/t-delete-classification-data.md)
+         + [Löschen von Daten](classifications/importer/t-delete-classification-data.md)
          + [Vorlage](classifications/importer/c-download-saint-data.md)
          + [Browser-Import](classifications/importer/browser-import.md)
          + [Browser-Export](classifications/importer/browser-export.md)

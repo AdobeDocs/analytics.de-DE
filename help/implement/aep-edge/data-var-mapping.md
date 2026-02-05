@@ -25,7 +25,7 @@ Einige Datenobjektfelder unterstützen auch den jeweiligen [Abfrageparameterwert
 
 ## Zuordnen von Datenobjektfeldern
 
-Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.de-DE/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie bei AppMeasurement-Variablen wird auch bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
+Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Ähnlich wie bei AppMeasurement-Variablen wird auch bei allen Datenobjektfeldern zwischen Groß- und Kleinschreibung unterschieden.
 
 | Datenobjektfeldpfade | Analytics-Variable und Beschreibung |
 | --- | --- |
