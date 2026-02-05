@@ -3,10 +3,10 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie ein Daten-Feed erstellt wird und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ee29f837d72cf3243e92230dbee5b379d1c6c415
+source-git-commit: d0e3a81a9b38468602b7c2b0f573425013ef78c7
 workflow-type: tm+mt
-source-wordcount: '4257'
-ht-degree: 99%
+source-wordcount: '2114'
+ht-degree: 26%
 
 ---
 
@@ -35,7 +35,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="Manifest"
->abstract="Wählen Sie aus, ob bei jeder Daten-Feed-Bereitstellung eine Manifestdatei enthalten sein soll. Manifestdateien enthalten Informationen für jede im Daten-Feed enthaltene Datei. Beim Senden von Daten-Feed-Daten in einem einzelnen Paket können Sie auch eine Finish-Datei einschließen. Manifestdateien werden jedoch empfohlen. "
+>abstract="Wählen Sie aus, ob bei jeder Daten-Feed-Bereitstellung eine Manifestdatei enthalten sein soll. Manifestdateien enthalten Informationen für jede Datei, die im Daten-Feed enthalten ist. Beim Senden von Daten-Feed-Daten in einem einzelnen Paket können Sie auch eine Finish-Datei einschließen. Manifestdateien werden jedoch empfohlen. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -48,34 +48,77 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- added help for Dynamic lookups to this page: help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md -->
+
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
+
 1. Wählen Sie oben rechts das 9-Quadrat-Symbol und dann [!UICONTROL **Analytics**] aus.
+
 1. Navigieren Sie in der oberen Navigationsleiste zu [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
-1. Wählen Sie [!UICONTROL **Hinzufügen**] aus.
 
-   ![Hinzufügen eines Daten-Feeds](assets/datafeed-add.png)
+1. Wählen [!UICONTROL **Daten-Feed erstellen**] aus.
 
-   Eine Seite mit drei Hauptkategorien wird angezeigt: [!UICONTROL **Feed-Informationen**], [!UICONTROL **Ziel**] und [!UICONTROL **Datenspaltendefinitionen**].
-1. Füllen Sie im Abschnitt [!UICONTROL **Feed-Informationen**] die folgenden Felder aus:
+   Eine Seite wird mit den folgenden Kategorien angezeigt: [!UICONTROL **Details**], [!UICONTROL **Datenformatierung**], [!UICONTROL **Datenstruktur**], [!UICONTROL **Zeitplan**] und [!UICONTROL **Ziel**].
+
+   ![Neue Daten-Feed-Seite](assets/data-feed-new.png)
+
+1. Füllen Sie [!UICONTROL **Abschnitt**] Details“ die folgenden Felder aus:
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Name**] | Der Name des Daten-Feeds. Muss innerhalb der ausgewählten Report Suite eindeutig sein und kann bis zu 255 Zeichen enthalten. [Weitere Informationen](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **Report Suite**] | Die Report Suite, auf der der Daten-Feed basiert. Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, müssen sie unterschiedliche Spaltendefinitionen haben. Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt. |
-   | [!UICONTROL **E-Mail nach Abschluss**] | Die E-Mail-Adresse, die benachrichtigt werden soll, wenn die Verarbeitung eines Feeds abgeschlossen ist. Die E-Mail-Adresse muss korrekt formatiert sein. |
-   | [!UICONTROL **Feed-Intervall**] | Wählen Sie **Täglich** für Aufstockung oder historische Daten aus. Tägliche Feeds enthalten die Daten eines gesamten Tages, von Mitternacht bis Mitternacht in der Zeitzone der Report Suite. Wählen Sie **Stündlich** für fortlaufende Daten aus („Täglich“ ist für fortlaufende Feeds ebenfalls verfügbar, falls Sie dies bevorzugen). Stündliche Feeds enthalten die Daten einer einzelnen Stunde. |
-   | [!UICONTROL **Verarbeitung verzögern**] | Warten Sie eine bestimmte Zeitspanne, bevor Sie eine Daten-Feed-Datei verarbeiten. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Ein Feed kann um bis zu 120 Minuten verzögert werden. |
-   | [!UICONTROL **Start- und Enddaten**] | Das Startdatum gibt das Datum an, an dem der Daten-Feed beginnen soll. Um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen, setzen Sie dieses Datum auf ein beliebiges Datum in der Vergangenheit, an dem Daten erfasst wurden. Start- und Enddatum basieren auf der Zeitzone der Report Suite. |
-   | [!UICONTROL **Fortlaufender Feed**] | Mit diesem Kontrollkästchen wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Sobald die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
+   | [!UICONTROL **Name**] | Der Name des Daten-Feeds. Namen müssen innerhalb der ausgewählten Report Suite eindeutig sein und können bis zu 255 Zeichen lang sein. [Weitere Informationen](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **Tags**] | Wenden Sie beliebige Tags auf den Daten-Feed an, um die Kategorisierung zu erleichtern. Sie können nach Tags filtern, wie unter [Filtern und Durchsuchen der Liste von Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) in [Verwalten von Daten-Feeds](/help/export/analytics-data-feed/df-manage-feeds.md) beschrieben. |
+   | [!UICONTROL **Beschreibung**] | Geben Sie eine Beschreibung für den Daten-Feed an. Die von Ihnen hinzugefügte Beschreibung ist beim Bearbeiten des Daten-Feeds sichtbar. |
 
-1. Wählen Sie im Abschnitt [!UICONTROL **Ziel**] im Dropdown-Menü [!UICONTROL **Typ**] das Ziel aus, an das die Daten gesendet werden sollen.
+1. Geben [!UICONTROL **im Abschnitt**] Datenformatierung“ die folgenden Informationen an:
+
+   | Feld | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Komprimierungsformat**] | Der verwendete Komprimierungstyp. **Gzip** gibt Dateien im Format `.tar.gz` aus. **Zip** gibt Dateien im Format `.zip` aus. |
+   | [!UICONTROL **Verpackungstyp**] | Wählen Sie für die meisten Daten-Feeds [!UICONTROL **Mehrere Dateien**] aus. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Chunks unterteilt. (Wenn die Option [!UICONTROL **Mehrere Dateien**] ausgewählt ist und die unkomprimierten Daten für das Reporting-Fenster weniger als 2 GB betragen, wird eine einzelne Datei gesendet.) Die Auswahl von **Einzeldatei** gibt die Datei `hit_data.tsv` in einer einzelnen, potenziell riesigen Datei aus. |
+   | [!UICONTROL **Manifestdatei**] | Wählen Sie aus, ob bei jedem Daten-Feed-Versand eine Manifestdatei enthalten sein soll. <p>Sie können aus den folgenden Optionen wählen:</p><ul><li>**[!UICONTROL Manifestdatei]**: Enthält Informationen für jede Datei, die im Daten-Feed enthalten ist.</li><li>**[!UICONTROL Datei beenden (alt)]**: Gibt an, dass der Daten-Feed erfolgreich abgeschlossen wurde. Es sind keine weiteren Informationen enthalten. Diese Option eignet sich für bestehende Feeds, die diese Option ursprünglich verwendet haben und erneut verarbeitet werden müssen. Sie ist nur verfügbar, wenn Daten-Feed-Daten in einem einzigen Paket gesendet werden. </li><li>**[!UICONTROL None]**: Keine Datei enthalten</li></ul> |
+   | [!UICONTROL **Manifest senden, auch wenn keine Daten vorhanden sind**] | Bestimmt, ob Adobe eine [Manifestdatei](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Ersetzen Sie Betriebssystemzeichenfolgen**] | Beim Erfassen von Daten können einige Zeichen (z. B. neue Zeilen) Probleme verursachen. Wählen Sie diese Option, um diese Zeichen aus den Feed-Dateien zu entfernen.<p>Diese Option erkennt die folgenden in Kundendaten eingebetteten Zeichenfolgensequenzen und ersetzt sie durch ein Leerzeichen:</p> <ul><li>**Windows:** CRLF, CR oder TAB</li><li>**Mac und Linux:** \n, \r oder \t</li></ul> |
+   | [!UICONTROL **Dynamische Suchen aktivieren**] | Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li> **Betreibername**</li><li>**Attribute für Mobilgeräte**</li><li>**Betriebssystemtyp**</li></ul><p>Weitere Informationen finden Sie unter [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
+   | **Zulassen von verspäteten Treffern** | Historische Daten können nach Abschluss der Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag eingehen, z. B. über Treffer mit Zeitstempel oder Datenquellen.<p>Wählen Sie diese Option aus, um Daten einzubeziehen, die nach Abschluss der Datenverarbeitung im festgelegten Berichtszeitraum (normalerweise täglich oder stündlich) eingingen. Wenn diese Option aktiviert ist, untersucht ein Daten-Feed bei der Verarbeitung von Daten alle spät eingetroffenen Treffer und stapelt sie mit der nächsten gesendeten Daten-Feed-Datei.</p><p>Weitere Informationen finden Sie unter [Verspätete Treffer](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **Lookback-Fenster** (für verspätete Treffer) | Diese Option wird angezeigt, wenn **[!UICONTROL Option „Späte Treffer zulassen]** aktiviert ist. Wählen Sie das Lookback-Fenster aus, um den Zeitrahmen der enthaltenen späten Treffer zu begrenzen. Wählen Sie **[!UICONTROL Unbegrenzt]** aus, wenn Sie alle verspäteten Treffer unabhängig von der Verspätung zulassen möchten. Sie können ein voreingestelltes Intervall auswählen, z. B. **[!UICONTROL 1 Stunde]**, **[!UICONTROL 2 Stunden]**, **[!UICONTROL 1 Woche]**, **[!UICONTROL 2 Wochen]** usw. Oder wählen Sie **[!UICONTROL Benutzerdefiniertes Lookback-Fenster]** und geben Sie dann im Feld **[!UICONTROL Benutzerdefiniertes Lookback]** ein Lookback-Fenster mit bis zu 26.280 Stunden an. |
+
+1. Wählen [!UICONTROL **Abschnitt &quot;**]&quot; im Feld **[!UICONTROL Report Suite]** die Quell-Report Suite aus, die die zu exportierenden Daten enthält. <p>Beachten Sie bei der Auswahl einer Report Suite Folgendes:</p> <ul><li>Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, muss jeder Daten-Feed unterschiedliche Spaltendefinitionen haben.</li><li>Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt.</li><li>Die Liste der verfügbaren Spalten hängt vom Anmeldeunternehmen ab, zu dem die ausgewählte Report Suite gehört. Wenn Sie die Report Suite ändern, kann sich die Liste der verfügbaren Spalten ändern. </li></ul>
+
+1. Verwenden Sie eine oder beide der folgenden Methoden, um zu bestimmen, welche Datenspalten in den Feed aufgenommen werden sollen:
+
+   * **Spalten einzeln hinzufügen:** Wählen Sie im Abschnitt **[!UICONTROL Verfügbar]** auf der linken Seite alle Spalten aus, die Sie einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Einschließen]**. Alle Datenspalten in Adobe Analytics sind verfügbar. Sie können mehrere Spalten auswählen, indem Sie **[!UICONTROL Umschalt]** gedrückt halten oder **[!UICONTROL Befehl]** (in macOS) oder **[!UICONTROL Strg]** (in Windows) gedrückt halten. Klicken Sie auf **[!UICONTROL Alle hinzufügen]**, um alle Spalten in einen Daten-Feed einzubeziehen.
+
+     Hinzugefügte Spalten werden im Abschnitt **[!UICONTROL Enthalten]** auf der rechten Seite angezeigt.
+
+   * **Spaltenvorlage hinzufügen:** Wählen Sie im Feld **[!UICONTROL Spaltenvorlagen]** eine hinzuzufügende Spaltenvorlage aus. Eine Spaltenvorlage ist eine vordefinierte Gruppe von Spalten, und Adobe bietet standardmäßig mehrere Spalten.
+
+     Alle in der Vorlage enthaltenen Spalten werden im Bereich **[!UICONTROL Enthalten]** auf der rechten Seite angezeigt.
+
+1. (Optional) Um eine Spaltenvorlage zu erstellen, die auf dem aktuell erstellten Daten-Feed basiert, wählen Sie **[!UICONTROL Als Vorlage speichern]**, geben Sie einen Namen für die Vorlage an und klicken Sie auf **[!UICONTROL Speichern]**. Diese Option ist nützlich, wenn Sie zusätzliche Daten-Feeds mit denselben Spalten erstellen möchten.
+
+   ![Erstellen einer Spaltenvorlage beim Erstellen eines Daten-Feeds](assets/data-feed-template-create2.png)
+
+1. (Optional) Um eine Liste der enthaltenen Spalten im CSV-Format herunterzuladen, wählen Sie **[!UICONTROL Spalten herunterladen]** aus. Diese Option kann für Daten-Feeds mit einer großen Anzahl von Spalten nützlich sein.
+
+1. Geben [!UICONTROL **im Abschnitt &quot;**]&quot; die folgenden Informationen an:
+
+   | Feld | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Häufigkeit**] | Legen Sie fest, wie oft der Daten-Feed gesendet werden soll. Die verfügbaren Optionen werden basierend auf Ihrer Report Suite-Konfiguration dynamisch ausgefüllt. <p>Die folgenden Optionen sind häufig verfügbar:</p><ul><li>**Täglich**: Feeds enthalten Daten eines ganzen Tages von Mitternacht bis Mitternacht in der Zeitzone der Report Suite. Verwenden Sie diese Option für die Aufstockung oder Verlaufsdaten oder für weitere Feeds.</li><li>**Stündlich**: Feeds enthalten Daten für eine einzige Stunde. Verwenden Sie diese Option für weitere Feeds.</li></ul><p>Ein 15-minütiger Exportintervall ist möglich, aber standardmäßig nicht verfügbar. Damit diese Option in Ihrer Umgebung verfügbar ist, müssen Sie sich zunächst an die Adobe-Kundenunterstützung wenden und anfordern, dass Ihre Report Suite für die Unterstützung von 15-Minuten-Exporten konfiguriert wird.</p> |
+   | [!UICONTROL **Verarbeitungsverzögerung**] | Wählen Sie aus, ob eine bestimmte Zeitdauer gewartet werden soll, bevor eine Daten-Feed-Datei verarbeitet wird. Eine Verzögerung kann nützlich sein, um mobilen Implementierungen die Möglichkeit zu geben, dass Offlinegeräte online gehen und Daten senden können. Sie kann auch verwendet werden, um die serverseitigen Prozesse Ihrer Organisation bei der Verwaltung zuvor verarbeiteter Dateien zu berücksichtigen. In den meisten Fällen ist keine Verzögerung erforderlich. Sie können einen Feed um bis zu 8 Stunden (480 Minuten) oder sogar länger verzögern, wenn Sie einen benutzerdefinierten Zeitraum auswählen (9.999 Minuten Verzögerung oder etwa 1 Woche). |
+   | [!UICONTROL **Fortlaufender Feed**] | Wenn diese Option ausgewählt ist, wird das Enddatum entfernt, sodass ein Feed unbegrenzt ausgeführt werden kann. Wenn ein Feed die Verarbeitung historischer Daten abschließt, wartet er, bis die Datenerfassung für die jeweilige Stunde bzw. dem jeweiligen Tag abgeschlossen ist. Wenn die aktuelle Stunde oder der aktuelle Tag abgeschlossen ist, beginnt die Verarbeitung nach der angegebenen Verzögerung. |
+   | [!UICONTROL **Startdatum**] | Geben Sie das Datum an, an dem der Daten-Feed beginnen soll. Um sofort mit der Verarbeitung von Daten-Feeds für historische Daten zu beginnen, setzen Sie dieses Datum auf ein beliebiges Datum in der Vergangenheit, an dem Daten erfasst wurden. Das Startdatum basiert auf der Zeitzone der Report Suite. |
+   | [!UICONTROL **Enddatum**] | Geben Sie das Datum an, an dem der Daten-Feed beendet werden soll. Das Enddatum basiert auf der Zeitzone der Report Suite. |
+
+1. Konfigurieren Sie [!UICONTROL **Abschnitt**] Ziel“ das Ziel, an das die Daten gesendet werden sollen.
 
    >[!NOTE]
    >
    >Beachten Sie bei der Konfiguration eines Berichtsziels Folgendes:
    >
-   >* Es wird empfohlen, ein Cloud-Konto für Ihr Berichtsziel zu verwenden. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
-   >* Alle von Ihnen zuvor konfigurierten Cloud-Konten stehen für die Verwendung mit Daten-Feeds zur Verfügung. Sie können Cloud-Konten wie folgt konfigurieren:
+   >* Adobe empfiehlt die Verwendung eines Cloud-Kontos für Ihr Berichtsziel. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
+   >* Alle zuvor konfigurierten Cloud-Konten stehen für Daten-Feeds zur Verfügung. Sie können Cloud-Konten wie folgt konfigurieren:
    >
    >   * Beim Konfigurieren von Cloud-Konten für [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
@@ -83,371 +126,472 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    >   
    >   * Über den Speicherort-Manager unter [Komponenten > Speicherorte](/help/components/locations/configure-import-accounts.md)
    >
-   >* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzende können die von Ihnen konfigurierten Cloud-Konten nicht verwenden oder anzeigen.
+   >* Cloud-Konten sind mit Ihrem Adobe Analytics-Benutzerkonto verknüpft. Andere Benutzer können von Ihnen konfigurierte Cloud-Konten nur verwenden oder anzeigen, wenn Sie sie für alle Benutzer in Ihrer Organisation verfügbar machen.
    >
    >* Sie können alle über den Speicherort-Manager erstellten Speicherorte unter [Komponenten > Speicherorte](/help/components/locations/configure-import-accounts.md) bearbeiten.
 
-   ![Dropdown-Menü für das Daten-Feed-Ziel](assets/datafeed-destinations-dropdown.png)
+   Füllen Sie die folgenden Felder aus:
 
-   Verwenden Sie beim Erstellen eines Daten-Feeds einen der folgenden Zieltypen. Erweitern Sie den Zieltyp, um Konfigurationsanweisungen anzuzeigen. (Zusätzliche [alte Ziele](#legacy-destinations) sind ebenfalls verfügbar, werden jedoch nicht empfohlen.)
+   | Feld | Funktion |
+   |---------|----------|
+   | [!UICONTROL **Konto**] | Führen Sie einen der folgenden Schritte aus:<ul><li>**Vorhandenes Konto verwenden:** Wählen Sie das Dropdown-Menü neben dem Feld **[!UICONTROL Konto]** aus. Oder geben Sie den Kontonamen ein und wählen Sie ihn dann aus dem Dropdown-Menü aus. <p>Konten stehen Ihnen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, der Sie angehören.</p></li><li>**Neues Konto erstellen:** Wählen Sie **[!UICONTROL Neu hinzufügen]** unter dem Feld **[!UICONTROL Konto]** aus. Informationen zum Konfigurieren des Kontos finden Sie unter [Konfigurieren eines Standortkontos](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).</li></ul> |
+   | [!UICONTROL **Ort**] | Führen Sie einen der folgenden Schritte aus:<ul><li>**Vorhandenen Speicherort verwenden:** Wählen Sie das Dropdown-Menü neben dem Feld **[!UICONTROL Speicherort]** aus. Oder geben Sie den Ortsnamen ein und wählen Sie ihn dann aus dem Dropdown-Menü aus.</li><li>**Neuen Speicherort erstellen:** Wählen Sie **[!UICONTROL Neu hinzufügen]** unter dem Feld **[!UICONTROL Speicherort]** aus. Weitere Informationen zum Konfigurieren des Speicherorts finden Sie unter [Konfigurieren eines Speicherorts](/help/components/locations/configure-import-locations.md#configure-a-location) in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Nach Abschluss benachrichtigen**] | Geben Sie eine oder mehrere E-Mail-Adressen an, an die eine Benachrichtigung gesendet werden soll, nachdem der Daten-Feed erfolgreich gesendet wurde oder nicht gesendet werden kann. Mehrere E-Mail-Adressen müssen durch ein Komma getrennt werden. |
+
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
+
+## Spaltenvorlagen verwalten
+
+Mit Vorlagen können Sie dieselben Spalten für zukünftige Daten-Feeds wiederverwenden, die Sie erstellen.
+
+Bei der Verwaltung von Vorlagen können Sie neue Vorlagen erstellen, bereits erstellte Vorlagen verwenden, Vorlagen kopieren, Vorlagen bearbeiten und Vorlagen löschen.
+
+[!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] > **[!UICONTROL Vorlagen verwalten]**
+
+![Spaltenvorlagen verwalten](assets/data-feed-template-manage.png)
+
+### Erstellen einer Spaltenvorlage
+
+Beim Erstellen mehrerer Daten-Feeds, die dieselben Spalten verwenden, empfiehlt Adobe die Erstellung von Spaltenvorlagen. Alle Spaltenvorlagen, die Sie erstellen, können von jedem Benutzer in Ihrer Organisation verwendet werden.
+
+So erstellen Sie eine Spaltenvorlage:
+
+1. Navigieren Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] > **[!UICONTROL Vorlagen verwalten]**.
+
+1. Wählen Sie **[!UICONTROL Neue Vorlage erstellen]** aus, um eine neue Spaltenvorlage zu erstellen.
+
+   ![Spaltenvorlage erstellen](assets/data-feed-template-create.png)
+
+1. Geben Sie im Feld **[!UICONTROL Vorlagenname]** einen Namen für die Vorlage an.
+
+1. Wählen **[!UICONTROL im Abschnitt &quot;]**&quot; auf der linken Seite alle Spalten aus, die Sie einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Einschließen]**. Alle verfügbaren Datenspalten in Adobe Analytics sind verfügbar. Sie können mehrere Spalten auswählen, indem Sie **[!UICONTROL Umschalt]** gedrückt halten oder **[!UICONTROL Befehl]** (in macOS) oder **[!UICONTROL Strg]** (in Windows) gedrückt halten. Klicken Sie auf **[!UICONTROL Alle hinzufügen]**, um alle Spalten in einen Daten-Feed einzubeziehen.
+
+   Hinzugefügte Spalten werden im Abschnitt **[!UICONTROL Enthalten]** auf der rechten Seite angezeigt.
+
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
+
+### Bearbeiten einer Spaltenvorlage
+
+1. Navigieren Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] > **[!UICONTROL Vorlagen verwalten]**.
+
+1. Wählen Sie die Vorlage aus, die Sie bearbeiten möchten, und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
+
+1. Nehmen Sie beliebige Änderungen vor und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+### Kopieren einer Spaltenvorlage
+
+1. Navigieren Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] > **[!UICONTROL Vorlagen verwalten]**.
+
+1. Wählen Sie die Vorlage aus, die Sie kopieren möchten, und klicken Sie dann auf **[!UICONTROL Kopieren]**.
+
+1. Geben Sie im Feld **[!UICONTROL Vorlagenname]** einen Namen für die Vorlage an.
+
+1. Nehmen Sie alle weiteren Änderungen vor und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+### Spaltenvorlagen löschen
+
+1. Navigieren Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] > **[!UICONTROL Vorlagen verwalten]**.
+
+1. Wählen Sie mindestens eine Vorlage aus, die Sie löschen möchten, und klicken Sie auf **[!UICONTROL Löschen]**.
+
+
+<!-- why would you want to do this? -->
+
+
+<!-- I don't think we need anything after this, but saving here just in case:
+
+1. In the [!UICONTROL **Feed Information**] section, complete the following fields:
+   
+   | Field | Function |
+   |---------|----------|
+   | [!UICONTROL **Name**] | The name of the data feed. Must be unique within the selected report suite, and can be up to 255 characters in length. [Learn more](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **Report suite**] | The report suite that the data feed is based on. If multiple data feeds are created for the same report suite, they must have different column definitions. Only source report suites support data feeds; virtual report suites are not supported. |
+   | [!UICONTROL **Email when complete**] | The email address to be notified when a feed finishes processing. The email address must be properly formatted. |
+   | [!UICONTROL **Feed interval**] | Select **Daily** for backfill or historical data. Daily feeds contain a full day's worth of data, from midnight to midnight in the report suite's time zone. Select **Hourly** for continuing data (Daily is also available for continuing feeds if you prefer). Hourly feeds contain a single hour's worth of data. |
+   | [!UICONTROL **Delay processing**] | Wait a given amount of time before processing a data feed file. A delay can be useful to give mobile implementations an opportunity for offline devices to come online and send data. It can also be used to accommodate your organization's server-side processes in managing previously processed files. In most cases, no delay is needed. A feed can be delayed by up to 120 minutes. |
+   | [!UICONTROL **Start & end dates**] | The start date indicates the date when you want the data feed to begin. To immediately begin processing data feeds for historical data, set this date to any date in the past when data is being collected. The start and end dates are based on the report suite's time zone. |
+   | [!UICONTROL **Continuous feed**] | This checkbox removes the end date, allowing a feed to run indefinitely. When a feed finishes processing historical data, a feed waits for data to finish collecting for a given hour or day. Once the current hour or day concludes, processing begins after the specified delay. |
+   
+1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select the destination where you want the data to be sent. 
+
+   >[!NOTE]
+   >
+   >Consider the following when configuring a report destination:
+   >
+   >* We recommend using a cloud account for your report destination. [Legacy FTP and SFTP accounts](#legacy-destinations) are available, but are not recommended.
+   >* Any cloud accounts that you previously configured are available to use for Data Feeds. You can configure cloud accounts in any of the following ways:
+   >
+   >   * When configuring cloud accounts for [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 
+   >   
+   >   * When [importing Adobe Analytics classification data](/help/components/locations/locations-manager.md) (Any locations that are configured for importing classification data cannot be used.)
+   >   
+   >   * From the Locations manager, in [Components > Locations](/help/components/locations/configure-import-accounts.md) 
+   >
+   >* Cloud accounts are associated with your Adobe Analytics user account. Other users cannot use or view cloud accounts that you configure.
+   >
+   >* You can edit any locations that you create from the Locations manager in [Components > Locations](/help/components/locations/configure-import-accounts.md)
+
+   ![Data feed destination drop-down menu](assets/datafeed-destinations-dropdown.png)
+
+   Use any of the following destination types when creating a data feed. For configuration instructions, expand the destination type. (Additional [legacy destinations](#legacy-destinations) are also available, but are not recommended.)
 
    +++Amazon S3
 
-   Sie können Feeds direkt an Amazon S3-Buckets senden. Dieser Zieltyp erfordert nur Ihr Amazon S3-Konto und den Speicherort (Bucket).
+   You can send feeds directly to Amazon S3 buckets. This destination type requires only your Amazon S3 account and the location (bucket). 
 
-   Adobe Analytics verwendet die kontoübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer Amazon S3-Instanz hochzuladen.
+   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your Amazon S3 instance.
 
-   Bei der Verwendung von Amazon S3 mit Daten-Feeds wird nur die SSE-S3-Verschlüsselung unterstützt.
+   When using Amazon S3 with Data Feeds, only SSE-S3 encryption is supported.
 
-   So konfigurieren Sie einen Amazon S3-Bucket als Ziel für einen Daten-Feed:
+   To configure an Amazon S3 bucket as the destination for a data feed:
 
-   1. Beginnen Sie mit dem Erstellen eines Daten-Feeds wie unter [Erstellen und Konfigurieren eines Daten-Feeds](#create-and-configure-a-data-feed) beschrieben.
+   1. Begin creating a data feed as described in [Create and configure a data feed](#create-and-configure-a-data-feed).
+   
+   1. In the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Amazon S3**].
 
-   1. Wählen Sie im Abschnitt [!UICONTROL **Ziel**] im Dropdown-Menü [!UICONTROL **Typ**] die Option [!UICONTROL **Amazon S3**] aus.
+      ![Amazon S3 destination](assets/datafeed-destination-amazons3.png)
 
-      ![Amazon S3-Ziel](assets/datafeed-destination-amazons3.png)
+   1. Select [!UICONTROL **Select location**].
 
-   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
+      The Amazon S3 Export Locations page is displayed.
 
-      Die Seite für Amazon S3-Exportspeicherorte wird angezeigt.
-
-   1. (Bedingt) Wenn ein Amazon S3-Konto (und ein Speicherort in diesem Konto) bereits in Adobe Analytics konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
+   1. (Conditional) If an Amazon S3 account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >Konten stehen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, zu der Sie gehören.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
+         Any cloud accounts that were configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-         Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, sind für die Verwendung verfügbar:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
+   
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-         * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-           Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+      The destination is now configured to send data to the Amazon S3 location that you specified.
+   
+   1. (Conditional) If you have not previously added an Amazon S3 account:
 
-         * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
-
-      1. Wählen Sie den Speicherort aus dem Dropdown-Menü [!UICONTROL **Speicherort auswählen**] aus.
-
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
-
-      Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Amazon S3-Speicherort gesendet werden.
-
-   1. (Bedingt) Wenn Sie noch kein Amazon S3-Konto hinzugefügt haben:
-
-      1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Der Name des Kontos. Dabei kann es sich um einen beliebigen Namen handeln. |
-         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung des Kontos. |
-         | [!UICONTROL **Rollen-ARN**] | Sie müssen einen Rollen-ARN (Amazon Resource Name) bereitstellen, den Adobe verwenden kann, um Zugriff auf das Amazon S3-Konto zu erhalten. Erstellen Sie hierfür eine IAM-Berechtigungsrichtlinie für das Quellkonto, hängen Sie die Richtlinie an eine Benutzerin oder einen Benutzer an und erstellen Sie dann eine Rolle für das Zielkonto. Spezifische Informationen finden Sie in [dieser AWS-Dokumentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **Benutzer-ARN**] | Der Benutzer-ARN (Amazon Resource Name) wird von Adobe bereitgestellt. Sie müssen diese Benutzerin oder diesen Benutzer an die von Ihnen erstellte Richtlinie anhängen. |
+         | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the account. |
+         | [!UICONTROL **Role ARN**] | You must provide a Role ARN (Amazon Resource Name) that Adobe can use to gain access to the Amazon S3 account. To do this, you create an IAM permission policy for the source account, attach the policy to a user, and then create a role for the destination account. For specific information, see [this AWS documentation](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **User ARN**] | The User ARN (Amazon Resource Name) is provided by Adobe. You must attach this user to the policy you created. |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add location**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Name**] | Der Name des Kontos. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung des Kontos. |
-         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. Diese Berechtigung ermöglicht es dem Benutzer-ARN, ursprüngliche Dateien hochzuladen und Dateien für nachfolgende Uploads zu überschreiben.</p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-         | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
+         | [!UICONTROL **Name**] | A name for the account.  |
+         | [!UICONTROL **Description**] | A description for the account. |
+         | [!UICONTROL **Bucket**] | The bucket within your Amazon S3 account where you want Adobe Analytics data to be sent. <p>Ensure that the User ARN that was provided by Adobe has the `S3:PutObject` permission in order to upload files to this bucket. This permission allows the User ARN to upload initial files and overwrite files for subsequent uploads.</p><p>Bucket names must meet specific naming rules. For example, they must be between 3 to 63 characters long, can consist only of lowercase letters, numbers, dots (.), and hyphens (-), and must begin and end with a letter or number. [A complete list of naming rules are available in the AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Amazon S3-Speicherort gesendet werden.
+         The destination is now configured to send data to the Amazon S3 location that you specified.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Speicherort-Manager](/help/components/locations/locations-manager.md) verfügbar.
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
    +++Azure RBAC
 
-   Mithilfe der RBAC-Authentifizierung können Sie Feeds direkt an einen Azure-Container senden. Dieser Zieltyp erfordert eine Anwendungs-ID, eine Mandanten-ID und ein Geheimnis.
+   You can send feeds directly to an Azure container by using RBAC authentication. This destination type requires an Application ID, Tenant ID, and Secret. 
 
-   So konfigurieren Sie ein Azure RBAC-Konto als Ziel für einen Daten-Feed:
+   To configure an Azure RBAC account as the destination for a data feed:
 
-   1. Falls Sie dies noch nicht getan haben, erstellen Sie eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann, und gewähren Sie dann Zugriffsberechtigungen in der Zugriffssteuerung (IAM).
+   1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication, then grant access permissions in access control (IAM). 
+   
+      For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
+   
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, in the [!UICONTROL **Type**] drop-down menu, select [!UICONTROL **Azure RBAC**].
 
-      Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Erstellen einer Azure Active Directory-Anwendung](https://learn.microsoft.com/de-de/azure/active-directory/develop/howto-create-service-principal-portal).
+      ![Azure RBAC destination](assets/datafeed-destination-azurerbac.png)
 
-   1. Wählen Sie in der Admin Console von Adobe Analytics im Dropdown-Menü [!UICONTROL **Typ**] im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Azure RBAC**] aus.
+   1. Select [!UICONTROL **Select location**].
 
-      ![Azure RBAC-Ziel](assets/datafeed-destination-azurerbac.png)
+      The Azure RBAC Export Locations page is displayed.
 
-   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
-
-      Die Seite für Azure RBAC-Exportspeicherorte wird angezeigt.
-
-   1. (Bedingt) Wenn ein Azure RBAC-Konto (und ein Speicherort in diesem Konto) bereits in Adobe Analytics konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
+   1. (Conditional) If an Azure RBAC account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >Konten stehen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, zu der Sie gehören.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
+      Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-      Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-      * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-        Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-      * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
+         The destination is now configured to send data to the Azure RBAC location that you specified.
 
-      1. Wählen Sie den Speicherort aus dem Dropdown-Menü [!UICONTROL **Speicherort auswählen**] aus.
+   1. (Conditional) If you have not previously added an Azure RBAC account:
 
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
-
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Azure RBAC-Speicherort gesendet werden.
-
-   1. (Bedingt) Wenn Sie noch kein Azure RBAC-Konto hinzugefügt haben:
-
-      1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Der Name für das Azure RBAC-Konto. Dieser Name wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure RBAC-Konto. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Account name**] | A name for the Azure RBAC account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the Azure RBAC account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose.  |
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add location**], then specify the following information: 
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Name**] | Der Name des Speicherorts. Dieser Name wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Speicherort. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Konto**] | Das Azure-Speicherkonto. |
-         | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. Stellen Sie sicher, dass Sie Berechtigungen zum Hochladen von Dateien in die Azure-Anwendung erteilen, die Sie zuvor erstellt haben. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass die Anwendungs-ID, die Sie beim Konfigurieren des Azure RBAC-Kontos angegeben haben, der Rolle `Storage Blob Data Contributor` zugeteilt wurde, damit der Zugriff auf den Container (Ordner) möglich ist.</p> <p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p> |
+         | [!UICONTROL **Name**] | A name for the location. This name displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Description**] | A description for the location. This description displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Account**] | The Azure storage account. |
+         | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. Ensure that you grant permissions to upload files to the Azure application that you created earlier. |
+         | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/`<p>Make sure the Application ID that you specified when configuring the Azure RBAC account has been granted the `Storage Blob Data Contributor` role in order to access the container (folder).</p> <p>For more information, see [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Azure RBAC-Speicherort gesendet werden.
+         The destination is now configured to send data to the Azure RBAC location that you specified.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Speicherort-Manager](/help/components/locations/locations-manager.md) verfügbar.
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
    +++Azure SAS
 
-   Mithilfe der SAS-Authentifizierung können Sie Feeds direkt an einen Azure-Container senden. Dieser Zieltyp erfordert eine Anwendungs-ID, eine Mandanten-ID, einen Key Vault-URI, einen Key Vault-Geheimnisnamen und ein Geheimnis.
+   You can send feeds directly to an Azure container by using SAS authentication. This destination type requires an Application ID, Tenant ID, Key vault URI, Key vault secret name, and secret. 
 
-   So konfigurieren Sie Azure SAS als Ziel für einen Daten-Feed:
+   To configure Azure SAS as the destination for a data feed:
 
-   1. Falls Sie dies noch nicht getan haben, erstellen Sie eine Azure-Anwendung, die Adobe Analytics für die Authentifizierung verwenden kann.
+   1. If you haven't already, create an Azure application that Adobe Analytics can use for authentication. 
+   
+      For information, refer to the [Microsoft Azure documentation about how to create an Azure Active Directory application](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal). 
+   
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Azure SAS**].
 
-      Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Erstellen einer Azure Active Directory-Anwendung](https://learn.microsoft.com/de-de/azure/active-directory/develop/howto-create-service-principal-portal).
+      ![Azure SAS destination](assets/datafeed-destination-azuresas.png)
 
-   1. Wählen Sie in der Admin Console von Adobe Analytics im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Azure SAS**] aus.
+   1. Select [!UICONTROL **Select location**].
 
-      ![Azure SAS-Ziel](assets/datafeed-destination-azuresas.png)
+      The Azure SAS Export Locations page is displayed.
 
-   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
-
-      Die Seite für Azure SAS-Exportspeicherorte wird angezeigt.
-
-   1. (Bedingt) Wenn ein Azure SAS-Konto (und ein Speicherort in diesem Konto) bereits in Adobe Analytics konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
+   1. (Conditional) If an Azure SAS account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >Konten stehen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, zu der Sie gehören.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-         Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-         * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-           Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
+         The destination is now configured to send data to the Azure SAS location that you specified.
+   
+   1. (Conditional) If you have not previously added an Azure SAS account:
 
-      1. Wählen Sie den Speicherort aus dem Dropdown-Menü [!UICONTROL **Speicherort auswählen**] aus.
-
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
-
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Azure SAS-Speicherort gesendet werden.
-
-   1. (Bedingt) Wenn Sie noch kein Azure SAS-Konto hinzugefügt haben:
-
-      1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Der Name für das Azure SAS-Konto. Dieser Name wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung für das Azure SAS-Konto. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Konto auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-URI im Azure Key Vault. Um Azure SAS zu konfigurieren, müssen Sie einen SAS-URI mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem die Key Vault-URI erstellt wurde:<ul><li>Fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu erteilen.<p>Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Zuweisen einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Oder</p><p>Wenn Sie eine Zugriffsrolle direkt gewähren möchten, ohne eine Zugriffsrichtlinie zu erstellen, finden Sie weitere Informationen in der [Microsoft Azure-Dokumentation zum Zuweisen von Azure-Rollen mithilfe des Azure-Portals](https://learn.microsoft.com/de-de/azure/role-based-access-control/role-assignments-portal). Dies fügt die Rollenzuweisung für die Anwendungs-ID hinzu, um den Zugriff auf den Key Vault-URI zu ermöglichen. </p></li><li>Stellen Sie sicher, dass der Anwendungs-ID die `Key Vault Certificate User` integrierte Rolle für den Zugriff auf den URI des Key Vault zugewiesen wurde.</br><p>Weitere Informationen finden Sie unter [Integrierte Azure-Rollen](https://learn.microsoft.com/de-de/azure/role-based-access-control/built-in-roles).</p></li></ul> |
-         | [!UICONTROL **Key Vault-Geheimnisname**] | Der Geheimnisname, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf den **Key Vault**-Einstellungsseiten. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **Geheimnis**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Account name**] | A name for the Azure SAS account. This name displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the Azure SAS account. This description displays in the [!UICONTROL **Select account**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Application ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Tenant ID**] | Copy this ID from the Azure application that you created. In Microsoft Azure, this information is located on the **Overview** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Key vault URI**] | <p>The path to the SAS URI in Azure Key Vault. To configure Azure SAS, you need to store an SAS URI as a secret using Azure Key Vault. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>After the key vault URI is created:<ul><li>Add an access policy on the Key Vault in order to grant permission to the Azure application that you created.<p>For information, see the [Microsoft Azure documentation about how to assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Or</p><p>If you want to grant an access role directly without creating an access policy, see the [Microsoft Azure documentation about how to assign Azure roles using Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). This adds the role assignment for the application ID to access the key vault URI. </p></li><li>Make sure the Application ID has been granted the `Key Vault Certificate User` built-in role in order to access the key vault URI.</br><p>For more information, see [Azure built-in roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul> |
+         | [!UICONTROL **Key vault secret name**] | The secret name you created when adding the secret to Azure Key Vault. In Microsoft Azure, this information is located in the Key Vault you created, on the **Key Vault** settings pages. For information, see the [Microsoft Azure documentation about how to set and retrieve a secret from Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **Secret**] | Copy the secret from the Azure application that you created. In Microsoft Azure, this information is located on the **Certificates & secrets** tab within your application. For more information, see the [Microsoft Azure documentation about how to register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add location**], then specify the following information: 
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Name**] | Der Name des Speicherorts. Dieser Name wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung für den Speicherort. Diese Beschreibung wird im Dropdown-Feld [!UICONTROL **Speicherort auswählen**] angezeigt und kann ein beliebiger Name sein. |
-         | [!UICONTROL **Container**] | Der Container innerhalb des von Ihnen angegebenen Kontos, an den Adobe Analytics-Daten gesendet werden sollen. |
-         | [!UICONTROL **Präfix**] | Der Ordner im Container, in dem Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/`<p>Stellen Sie sicher, dass der SAS-URI-Speicher, den Sie bei der Konfiguration des Azure SAS-Kontos im Feld „Key Vault-Geheimnisname“ angegeben haben, über die `Write`-Berechtigung verfügt. Dadurch kann der SAS-URI Dateien in Ihrem Azure-Container erstellen. <p>Wenn Sie möchten, dass der SAS-URI auch Dateien überschreibt, stellen Sie sicher, dass der SAS-URI-Speicher die `Delete`-Berechtigung besitzt.</p><p>Weitere Informationen finden Sie in der Azure Blob Storage-Dokumentation unter [Blob Storage-Ressourcen](https://learn.microsoft.com/de-de/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources).</p> |
+         | [!UICONTROL **Name**] | A name for the location. This name displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Description**] | A description for the location. This description displays in the [!UICONTROL **Select location**] drop-down field and can be any name you choose. |
+         | [!UICONTROL **Container**] | The container within the account you specified where you want Adobe Analytics data to be sent. |
+         | [!UICONTROL **Prefix**] | The folder within the container where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/`<p>Make sure that the SAS URI store that you specified in the Key Vault secret name field when configuring the Azure SAS account has the `Write` permission. This allows the SAS URI to create files in your Azure container. <p>If you want the SAS URI to also overwrite files, make sure that the SAS URI store has the `Delete` permission.</p><p>For more information, see [Blob storage resources](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) in the Azure Blob Storage documentation.</p> |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Azure SAS-Speicherort gesendet werden.
+         The destination is now configured to send data to the Azure SAS location that you specified.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Speicherort-Manager](/help/components/locations/locations-manager.md) verfügbar.
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
    +++Google Cloud Platform
 
-   Sie können Feeds direkt an Google Cloud Platform (GCP)-Buckets senden. Dieser Zieltyp erfordert nur Ihren GCP-Kontonamen und den Namen des Speicherorts (Bucket).
+   You can send feeds directly to Google Cloud Platform (GCP) buckets. This destination type requires only your GCP account name and the location (bucket) name. 
+   
+   Adobe Analytics uses cross-account authentication to upload files from Adobe Analytics to the specified location in your GCP instance.
 
-   Adobe Analytics verwendet die kontoübergreifende Authentifizierung, um Dateien von Adobe Analytics an den angegebenen Speicherort in Ihrer GCP-Instanz hochzuladen.
+   To configure a GCP bucket as the destination for a data feed:
 
-   So konfigurieren Sie einen GCP-Bucket als Ziel für einen Daten-Feed:
+   1. In the Adobe Analytics admin console, in the [!UICONTROL **Destination**] section, select [!UICONTROL **Google Cloud Platform**].
 
-   1. Wählen Sie in der Admin Console von Adobe Analytics im Abschnitt [!UICONTROL **Ziel**] die Option [!UICONTROL **Google Cloud Platform**] aus.
+      ![Google Cloud Platform destination](assets/datafeed-destination-gcp.png)
 
-      ![Google Cloud Platform-Ziel](assets/datafeed-destination-gcp.png)
+   1. Select [!UICONTROL **Select location**].
 
-   1. Wählen Sie [!UICONTROL **Speicherort auswählen**] aus.
+      The GCP Export Locations page is displayed.
 
-      Die Seite für GCP-Exportspeicherorte wird angezeigt.
-
-   1. (Bedingt) Wenn ein Google Cloud Platform-Konto (und ein Ziel in diesem Konto) bereits in Adobe Analytics konfiguriert wurde, können Sie es als Daten-Feed-Ziel verwenden:
+   1. (Conditional) If a Google Cloud Platform account (and a location on that account) has already been configured in Adobe Analytics, you can use it as your data feed destination: 
 
       >[!NOTE]
       >
-      >Konten stehen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, zu der Sie gehören.
+      >Accounts are available to you only if you configured them or if they were shared with an organization you are a part of.
+   
+      1. Select the account from the [!UICONTROL **Select account**] drop-down menu.
 
-      1. Wählen Sie das Konto aus dem Dropdown-Menü [!UICONTROL **Konto auswählen**] aus.
+         Any cloud accounts that you configured in any of the following areas of Adobe Analytics are available to use:
+      
+         * When importing Adobe Analytics classification data, as described in [Schema](/help/components/classifications/sets/manage/schema.md).
+      
+           However, any locations that are configured for importing classification data cannot be used. Instead, add a new destination as described below.
 
-         Alle Cloud-Konten, die Sie in einem der folgenden Bereiche von Adobe Analytics konfiguriert haben, stehen zur Verwendung zur Verfügung:
+         * When configuring accounts and locations in the Locations area, as described in [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md) and [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md).
 
-         * Wenn Sie Adobe Analytics-Klassifizierungsdaten importieren, wie unter [Schema](/help/components/classifications/sets/manage/schema.md) beschrieben.
+      1. Select the location from the [!UICONTROL **Select location**] drop-down menu.
 
-           Es können jedoch keine Speicherorte verwendet werden, die für den Import von Klassifizierungsdaten konfiguriert sind. Fügen Sie stattdessen ein neues Ziel wie unten beschrieben hinzu.
+      1. Select [!UICONTROL **Save**] > [!UICONTROL **Save**].
 
-         * Wenn Sie Konten und Speicherorte im Bereich „Speicherorte“ konfigurieren, wie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben.
+         The destination is now configured to send data to the Google Cloud Platform location that you specified.
+   
+   1. (Conditional) If you have not previously added a GCP account:
 
-      1. Wählen Sie den Speicherort aus dem Dropdown-Menü [!UICONTROL **Speicherort auswählen**] aus.
-
-      1. Wählen Sie [!UICONTROL **Speichern**] > [!UICONTROL **Speichern**] aus.
-
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen Google Cloud Platform-Speicherort gesendet werden.
-
-   1. (Bedingt) Wenn Sie noch kein GCP-Konto hinzugefügt haben:
-
-      1. Wählen Sie [!UICONTROL **Konto hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add account**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Kontoname**] | Der Name des Kontos. Dabei kann es sich um einen beliebigen Namen handeln. |
-         | [!UICONTROL **Kontobeschreibung**] | Eine Beschreibung des Kontos. |
-         | [!UICONTROL **Projekt-ID**] | Ihre Google Cloud-Projekt-ID. Siehe [Dokumentation zu Google Cloud zum Abrufen einer Projekt-ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+         | [!UICONTROL **Account name**] | A name for the account. This can be any name you choose. |
+         | [!UICONTROL **Account description**] | A description for the account. |
+         | [!UICONTROL **Project ID**] | Your Google Cloud project ID. See the [Google Cloud documentation about getting a project ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Speicherort hinzufügen**] aus und geben Sie dann die folgenden Informationen an:
-
-         | Feld | Funktion |
+      1. Select [!UICONTROL **Add location**], then specify the following information:
+   
+         |Field | Function |
          |---------|----------|
-         | [!UICONTROL **Prinzipal**] | Der Prinzipal wird von Adobe bereitgestellt. Sie müssen diesem Prinzipal die Berechtigung zum Empfang von Feeds erteilen. |
-         | [!UICONTROL **Name**] | Der Name des Kontos. |
-         | [!UICONTROL **Beschreibung**] | Eine Beschreibung des Kontos. |
-         | [!UICONTROL **Bucket**] | Der Bucket in Ihrem GCP-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Vergewissern Sie sich, dass Sie dem durch Adobe bereitgestellten Prinzipal eine der folgenden Berechtigungen erteilt haben: (Informationen zum Gewähren von Berechtigungen finden Sie unter [Prinzipal zu einer Richtlinie auf Bucket-Ebene hinzufügen](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in der Dokumentation zu Google Cloud.)<ul><li>`roles/storage.objectCreator`: Verwenden Sie diese Berechtigung, wenn Sie den Prinzipal so einschränken möchten, dass nur Dateien in Ihrem GCP-Konto erstellt werden. </br>**Wichtig:** Wenn Sie diese Berechtigung mit geplanten Berichten einsetzen, müssen Sie für jeden neuen geplanten Export einen eindeutigen Dateinamen verwenden. Andernfalls schlägt die Berichterstellung fehl, da der Prinzipal nicht berechtigt ist, vorhandene Dateien zu überschreiben.</li><li>(Empfohlen) `roles/storage.objectUser`: Verwenden Sie diese Berechtigung, wenn der Prinzipal berechtigt sein soll, Dateien in Ihrem GCP-Konto anzuzeigen, aufzulisten, zu aktualisieren und zu löschen.</br>Mit dieser Berechtigung kann der Prinzipal vorhandene Dateien bei nachfolgenden Uploads überschreiben, ohne dass für jeden neuen geplanten Export automatisch eindeutige Dateinamen generiert werden müssen.</li></ul><p>Wenn Ihre Organisation [Organisationsrichtlinieneinschränkungen](https://cloud.google.com/storage/docs/org-policy-constraints) verwendet, um nur das Google Cloud Platform-Konto in Ihrer Zulassungsliste zuzulassen, benötigen Sie die folgende Adobe-eigene Organisations-ID für Google Cloud Platform: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
-         | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. Beispiel: `folder_name/` |
+         | [!UICONTROL **Principal**] | The Principal is provided by Adobe. You must grant permission to receive feeds to this principal. |
+         | [!UICONTROL **Name**] | A name for the account.  |
+         | [!UICONTROL **Description**] | A description for the account. |
+         | [!UICONTROL **Bucket**] | The bucket within your GCP account where you want Adobe Analytics data to be sent. <p>Ensure that you have granted either of the following permissions to the Principal provided by Adobe: (For information about granting permissions, see [Add a principal to a bucket-level policy](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) in the Google Cloud documentation.)<ul><li>`roles/storage.objectCreator`: Use this permission if you  want to limit the Principal to only create files in your GCP account. </br>**Important:** If you use this permission with scheduled reporting, you must use a unique file name for each new scheduled export. Otherwise, the report generation will fail because the Principal does not have access to overwrite existing files.</li><li>(Recommended) `roles/storage.objectUser`: Use this permission if you want the Principal to have access to view, list, update, and delete files in your GCP account.</br>This permission allows the Principal to overwrite existing files for subsequent uploads, without the need to auto-generate unique file names for each new scheduled export.</li></ul><p>If your organization is using [Organization policy constraints](https://cloud.google.com/storage/docs/org-policy-constraints) to allow only the Google Cloud Platform account in your allow list, you need the following Adobe-owned Google Cloud Platform organization ID: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+         | [!UICONTROL **Prefix**] | The folder within the bucket where you want to put the data. Specify a folder name, then add a backslash after the name to create the folder. For example, `folder_name/` |
 
          {style="table-layout:auto"}
 
-      1. Wählen Sie [!UICONTROL **Erstellen**] > [!UICONTROL **Speichern**] aus.
+      1. Select [!UICONTROL **Create**] > [!UICONTROL **Save**].
 
-         Das Ziel ist nun so konfiguriert, dass Daten an den von Ihnen angegebenen GCP-Speicherort gesendet werden.
+         The destination is now configured to send data to the GCP location that you specified.
 
-      1. (Bedingt) Wenn Sie das soeben erstellte Ziel (Konto und Speicherort) verwalten müssen, ist es im [Speicherort-Manager](/help/components/locations/locations-manager.md) verfügbar.
-
+      1. (Conditional) If you need to manage the destination (account and location) that you just created, it is available in the [Locations manager](/help/components/locations/locations-manager.md).
+   
    +++
 
-1. Wählen Sie im Abschnitt [!UICONTROL **Definitionen für Datenspalten**] die neueste Vorlage [!UICONTROL **Alle Adobe-Spalten**] im Dropdown-Menü aus und füllen Sie dann die folgenden Felder aus:
-
-   | Feld | Funktion |
+1. In the  [!UICONTROL **Data Column Definitions**] section, select the latest [!UICONTROL **All Adobe Columns**] template in the drop-down menu, then complete the following fields:
+   
+   |Field | Function |
    |---------|----------|
-   | [!UICONTROL **Escape-Zeichen entfernen**] | Beim Erfassen von Daten können einige Zeichen (wie z. B. Zeilenumbrüche) Probleme verursachen. Aktivieren Sie dieses Kontrollkästchen, wenn diese Zeichen aus Feed-Dateien entfernt werden sollen. |
-   | [!UICONTROL **Komprimierungsformat**] | Der verwendete Komprimierungstyp. **Gzip** gibt Dateien im Format `.tar.gz` aus. **Zip** gibt Dateien im Format `.zip` aus. |
-   | [!UICONTROL **Verpackungstyp**] | Wählen Sie für die meisten Daten-Feeds [!UICONTROL **Mehrere Dateien**] aus. Mit dieser Option werden Ihre Daten in unkomprimierte 2-GB-Chunks unterteilt. (Wenn die Option [!UICONTROL **Mehrere Dateien**] ausgewählt ist und die unkomprimierten Daten für das Reporting-Fenster weniger als 2 GB betragen, wird eine einzelne Datei gesendet.) Die Auswahl von **Einzeldatei** gibt die Datei `hit_data.tsv` in einer einzelnen, potenziell riesigen Datei aus. |
-   | [!UICONTROL **Manifestdatei**] | Bestimmt, ob Adobe eine [Manifestdatei](c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **Spaltenvorlagen**] | Beim Erstellen vieler Daten-Feeds empfiehlt Adobe die Erstellung einer Spaltenvorlage. Bei Auswahl einer Spaltenvorlage werden automatisch die angegebenen Spalten in der Vorlage eingefügt. Adobe stellt standardmäßig auch mehrere Vorlagen bereit. |
-   | [!UICONTROL **Verfügbare Spalten**] | Alle in Adobe Analytics verfügbaren Datenspalten. Klicken Sie auf [!UICONTROL Alle hinzufügen], um alle Spalten in einen Daten-Feed einzubeziehen. |
-   | [!UICONTROL **Eingeschlossene Spalten**] | Die in einen Daten-Feed einzuschließenden Spalten. Klicken Sie auf [!UICONTROL Alle entfernen], um alle Spalten aus einem Daten-Feed zu entfernen. |
-   | [!UICONTROL **CSV herunterladen**] | Lädt eine CSV-Datei herunter, die alle eingeschlossenen Spalten enthält. |
+   | [!UICONTROL **Remove escaped characters**] | When collecting data, some characters (such as newlines) can cause issues. Check this box if you would like these characters removed from feed files. |
+   | [!UICONTROL **Compression format**] | The type of compression used. **Gzip** outputs files in `.tar.gz` format. **Zip** outputs files in `.zip` format. |
+   | [!UICONTROL **Packaging type**] | Select [!UICONTROL **Multiple files**] for most data feeds. This option paginates your data into uncompressed 2GB chunks. (If the [!UICONTROL **Multiple files**] option is selected and uncompressed data for the reporting window is less than 2GB, one file is sent.) Selecting **Single file** outputs the `hit_data.tsv` file in a single, potentially massive file. |
+   | [!UICONTROL **Manifest**] | Determines whether Adobe should deliver a [manifest file](c-df-contents/datafeeds-contents.md#feed-manifest) to the destination when no data is collected for a feed interval. If you select **Manifest File**, you receive a manifest file similar to the following when no data is collected:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Column templates**] | When creating many data feeds, Adobe recommends creating a column template. Selecting a column template automatically includes the specified columns in the template. Adobe also provides several templates by default. |
+   | [!UICONTROL **Available columns**] | All available data columns in Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed. |
+   | [!UICONTROL **Included columns**] | The columns to include in a data feed. Click [!UICONTROL Remove all] to remove all columns from a data feed. |
+   | [!UICONTROL **Download CSV**] | Downloads a CSV file containing all included columns. |
 
-1. Klicken Sie oben rechts auf [!UICONTROL **Speichern**].
+1. Select [!UICONTROL **Save**] in the top-right.
 
-   Die Verarbeitung historischer Daten beginnt sofort. Sobald die Datenverarbeitung für einen Tag abgeschlossen ist, wird die Datei an das von Ihnen konfigurierte Ziel gesendet.
+    Historical data processing begins immediately. When data finishes processing for a day, the file is sent to the destination that you configured.
 
-   Informationen zum Zugriff auf den Daten-Feed und zum besseren Verständnis seiner Inhalte finden Sie unter [Daten-Feed-Inhalte –Überblick](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
+    For information about how to access the data feed and to get a better understanding of its contents, see [Data feed contents - overview](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md).
 
-## Veraltete Ziele
+## Legacy destinations
 
 >[!IMPORTANT]
 >
->Die in diesem Abschnitt beschriebenen Ziele sind veraltet und werden nicht empfohlen. Verwenden Sie stattdessen eines der folgenden Ziele beim Erstellen eines Daten-Feeds: Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS. Ausführliche Informationen zu jedem dieser empfohlenen Ziele finden Sie unter [Erstellen und Konfigurieren eines Daten-Feeds](#create-and-configure-a-data-feed).
+>The destinations described in this section are legacy, and are not recommended. Instead, use one of the following destinations when creating a data feed: Amazon S3, Google Cloud Platform, Azure RBAC, or Azure SAS. See [Create and configure a data feed](#create-and-configure-a-data-feed) for detailed information about each of these recommended destinations. 
 
 
-Die folgenden Informationen enthalten Konfigurationsinformationen für die einzelnen veralteten Ziele:
+The following information provides configuration information for each of the legacy destinations:
 
 ### FTP
 
-Daten aus Daten-Feeds können für einen von Adobe oder auf Kundenseite gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
+Data feed data can be delivered to an Adobe or customer-hosted FTP location. Requires an FTP host, username, and password. Use the path field to place feed files in a folder. Folders must already exist; feeds throw an error if the specified path does not exist.
 
-Verwenden Sie beim Ausfüllen der verfügbaren Felder die folgenden Informationen:
+Use the following information when completing the available fields:
 
-* [!UICONTROL **Host**]: Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp://ftp.omniture.com`.
-* [!UICONTROL **Pfad**]: Kann leer bleiben
-* [!UICONTROL **Benutzername**]: Geben Sie den Benutzernamen ein, um sich bei der FTP-Site anzumelden.
-* [!UICONTROL **Kennwort und Kennwort bestätigen**]: Geben Sie das Kennwort ein, um sich bei der FTP-Site anzumelden.
+* [!UICONTROL **Host**]: Enter the desired FTP destination URL. For example, `ftp://ftp.omniture.com`.
+* [!UICONTROL **Path**]: Can be left blank
+* [!UICONTROL **Username**]: Enter the username to log in to the FTP site.
+* [!UICONTROL **Password and confirm password**]: Enter the password to log in to the FTP site.
 
 ### SFTP
 
-SFTP-Unterstützung für Daten-Feeds ist verfügbar. Erfordert einen SFTP-Host und Benutzernamen. Außerdem muss die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
+SFTP support for data feeds is available. Requires an SFTP host, username, and the destination site to contain a valid RSA or DSA public key. You can download the appropriate public key when creating the feed.
 
 ### S3
 
-Sie können Feeds direkt an Amazon S3-Buckets senden. Dieser Zieltyp erfordert einen Behälternamen, eine Zugriffsschlüssel-ID und einen geheimen Schlüssel. Weitere Informationen finden Sie unter [Benennungsanforderungen für Amazon S3-Behälter](https://docs.aws.amazon.com/de_de/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) in der Amazon S3-Dokumentation.
+You can send feeds directly to Amazon S3 buckets. This destination type requires a Bucket name, an Access Key ID, and a Secret Key. See [Amazon S3 bucket naming requirements](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) within the Amazon S3 docs for more information.
 
-Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Daten-Feeds angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
+The user you provide for uploading data feeds must have the following [permissions](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
-* S3:GetObject
+* s3:GetObject
 * s3:PutObject
-* S3:PutObjectAcl
+* s3:PutObjectAcl
 
   >[!NOTE]
   >
-  >Bei jedem Upload in einen Amazon S3-Bucket fügt [!DNL Analytics] den Inhaber des Buckets zur ACL „BucketOwnerFullControl“ hinzu, unabhängig davon, ob der Bucket über eine Richtlinie verfügt, die dies erfordert. Weitere Informationen finden Sie unter [Was ist die Einstellung „BucketOwnerFullControl“ für Amazon S3-Daten-Feeds?](df-faq.md#BucketOwnerFullControl)
+  >For each upload to an Amazon S3 bucket, [!DNL Analytics] adds the bucket owner to the BucketOwnerFullControl ACL, regardless of whether the bucket has a policy that requires it. For more information, see "[What is the BucketOwnerFullControl setting for Amazon S3 data feeds?](df-faq.md#BucketOwnerFullControl)"
 
-Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
+The following 16 standard AWS regions are supported (using the appropriate signature algorithm where necessary):
 
 * us-east-2
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-South-1
+* ap-south-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2
@@ -462,12 +606,14 @@ Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfa
 
 >[!NOTE]
 >
->Die Region „cn-north-1“ wird nicht unterstützt.
+>The cn-north-1 region is not supported.
 
 ### Azure Blob
 
-Daten-Feeds unterstützen Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Amazon verschlüsselt die Daten automatisch während der Ruhezeit. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
+Data feeds support Azure Blob destinations. Requires a container, account, and a key. Amazon automatically encrypts the data at rest. When you download the data, it gets decrypted automatically. See [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) within the Microsoft Azure docs for more information.
 
 >[!NOTE]
 >
->Sie müssen Ihren eigenen Prozess implementieren, um Speicherplatz auf dem Feed-Ziel zu verwalten. Adobe löscht keine Daten vom Server.
+>You must implement your own process to manage disk space on the feed destination. Adobe does not delete any data from the server.
+
+-->

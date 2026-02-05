@@ -3,10 +3,10 @@ title: Verwalten von Daten-Feeds
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren. Erfahren Sie, wie Sie einen Daten-Feed erstellen, bearbeiten und anzeigen.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1257'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstel
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://video.tv.adobe.com/v/3428560?quality=12&learn=on&captions=ger){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -25,16 +25,16 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](h
 ## Anzeigen von Daten-Feeds
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) an.
-1. Klicken Sie oben rechts auf das 9-Quadrat-Symbol und dann auf [!UICONTROL **Analytics**].
+1. Wählen Sie oben rechts das 9-Quadrat-Symbol und dann [!UICONTROL **Analytics**] aus.
 1. Navigieren Sie in der oberen Navigationsleiste zu [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
 
    Es werden Daten-Feeds für alle Report Suites angezeigt, auf die Sie Zugriff haben. Wenn keine Feeds konfiguriert wurden, zeigt die Seite die Schaltfläche [!UICONTROL Neuen Daten-Feed erstellen] an.
 
-   ![Daten-Feeds](assets/feeds.png)
+   ![Daten-Feed-Manager](assets/data-feed-manager.png)
 
 ## Erstellen eines Daten-Feeds
 
-Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Hinzufügen“ können Sie einen neuen Feed erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](create-feed.md) Daten-Feeds“.
+Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [ finden Sie unter „Erstellen ](create-feed.md) Daten-Feeds“.
 
 ## Bearbeiten eines Daten-Feeds
 
@@ -45,6 +45,8 @@ Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Hinzufügen“ können Sie einen
 1. Wählen Sie den Daten-Feed in der Spalte [!UICONTROL **Feed-Name**] aus.
 
 1. Nehmen Sie die gewünschten Änderungen am Daten-Feed vor.
+
+   Weitere Informationen zu den Daten-Feed-Optionen finden Sie [Erstellen und Konfigurieren eines Daten-Feeds](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) unter [Erstellen eines Daten-Feeds](/help/export/analytics-data-feed/create-feed.md).
 
    Beim Aktualisieren des [!UICONTROL **Ziel**]-Abschnitts für einen Daten-Feed, den Sie bearbeiten, können Sie in den Dropdown-Feldern [!UICONTROL **Konto**] und [!UICONTROL **Speicherort**] ein anderes Konto und einen anderen Speicherort für den neuen Daten-Feed auswählen.
 
@@ -62,9 +64,9 @@ Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Hinzufügen“ können Sie einen
 
    * Geben Sie im Suchfeld den Namen eines Feeds ein. In der Liste der verfügbaren Feeds werden nur die Feeds angezeigt, die dem entsprechen.
 
-   * Klicken Sie ganz links auf das Filtersymbol, um die Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie geordnet. Sie können Filterkategorien ein- oder ausblenden. Aktivieren Sie das Kontrollkästchen neben jedem Filter, den Sie anwenden möchten.
+   * Wählen Sie ganz links das Filtersymbol aus, um Filteroptionen ein- oder auszublenden. Filter sind nach Kategorie organisiert, einschließlich **[!UICONTROL Report Suites]**, **[!UICONTROL Inhaber]**, **[!UICONTROL Status]** und **[!UICONTROL Tags]**. Sie können Filterkategorien ein- oder ausblenden. Aktivieren Sie das Kontrollkästchen neben jedem Filter, den Sie anwenden möchten.
 
-![Filter](assets/filters.png)
+     ![Filter](assets/filters.png)
 
 ## Anzeigen von Daten-Feed-Aufträgen
 
@@ -122,7 +124,7 @@ So aktivieren Sie einen Daten-Feed:
 
 ## Löschen eines Daten-Feeds
 
-Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; &#x200B;]. Daten-Feeds müssen den Status Aktiv haben, bevor sie gelöscht werden können.
+Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; ]. Daten-Feeds müssen den Status Aktiv haben, bevor sie gelöscht werden können.
 
 Löschen eines Daten-Feeds:
 
@@ -153,7 +155,7 @@ Die folgenden Spalten sind verfügbar:
    * Gelöscht: Der Feed wurde gelöscht.
    * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
    * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-   * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
+   * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [ unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
 * **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
 * **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
 * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie, wie Sie mit Daten-Feeds und Data Warehouse die Ausgabe von Daten abrufen.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 
