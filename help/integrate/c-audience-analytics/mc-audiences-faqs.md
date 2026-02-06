@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 31%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
 
 +++ Woher weiß ich, ob meine Analytics-Daten personenbezogene Daten (PII) enthalten? Und wenn ja, was mache ich dagegen?
 
-Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([&#x200B; Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
+Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([ Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
 
 +++
 
@@ -29,7 +29,7 @@ Diese gelten nicht für das Senden von Adobe Analytics-Daten an Adobe Audience M
 
 * Wird ein von Analytics freigegebenes Segment mit einer MCA-Dimension wieder für Experience Cloud freigegeben?
 
-* Exportieren Sie (z. B. über Datenfeeds) in ein Business Intelligence-System (BI), das für diese Zwecke verwendet wird?
+* Exportieren Sie (z. B. über Daten-Feeds) in ein Business Intelligence (BI)-System, das für diese Zwecke verwendet wird?
 
 +++
 
@@ -43,37 +43,37 @@ Siehe [Konfigurieren eines Analytics-Ziels in Adobe Audience Manager](https://ex
 
 +++ Wie lange dauert es nach dem Erstellen und Speichern eines Analytics-Ziels, bis die Daten in meinen ausgewählten Report Suites angezeigt werden?
 
-Es kann einige Stunden dauern, Ihre Report Suites mit neuen Daten zu füllen.
+Es kann mehrere Stunden dauern, bis Ihre Report Suites mit neuen Daten gefüllt sind.
 
 +++
 
 +++ Ich habe ein neues Analytics-Ziel erstellt, sehe es jedoch nicht im Abschnitt „Zielzuordnungen“ meiner verfügbaren Segmente. Wo ist dieses Ziel hingegangen oder wie finde ich es?
 
-Ein Analytics-Ziel verschwindet aus dem Abschnitt „Zielzuordnungen“ eines Segments, wenn Sie die Option **[!UICONTROL Alle aktuellen und zukünftigen Segmente automatisch zuordnen]** in &quot;**[!UICONTROL &quot;]**. Um das zu vermeiden, wählen Sie statt der automatischen Option **[!UICONTROL Segmente manuell zuweisen]** aus.
+Ein Analytics-Ziel verschwindet aus dem Abschnitt „Zielzuordnungen“ eines Segments, wenn Sie die Option **[!UICONTROL Alle aktuellen und zukünftigen Segmente automatisch zuordnen]** in &quot;**[!UICONTROL &quot;]**. Um dies zu verhindern, wählen Sie **[!UICONTROL Segmente manuell zuordnen]** anstelle der Option Automatisch aus.
 
 +++
 
-Erhalte ich dadurch alle Informationen aus Adobe Audience Manager, in Analytics?
++++ Erhalte ich dadurch alle Informationen aus Adobe Audience Manager, in Analytics?
 
-Nein, nur Daten, die sich auf Personen beziehen, die während oder nach der Aktivierung von Audience Manager-Zielgruppen und während oder nach der Qualifizierung des Segments auf Ihre Site kommen.
+Nein, nur Daten, die sich auf Personen beziehen, die während oder nach der Aktivierung von Audience Manager Audiences und während/nach der Segmentqualifikation auf Ihre Site kommen.
 
 +++
 
 +++ Erhalte ich so eine für jedes Segment adressierbare Zielgruppe?
 
-Nicht ganz. Sie erfahren die Anzahl der Besucher in diesem Segment, die während oder nach der Qualifizierung des Segments auf Ihre Site kamen.
+Nicht wirklich. Sie enthält Informationen zur Anzahl der Besucher in diesem Segment, die während oder nach der Segmentqualifikation zu Ihrer Site kamen.
 
 +++
 
 +++ Wie unterscheidet sich dies vom alten Cookie-Ziel von Analytics?
 
-Segmente werden für qualifiziert und in Echtzeit zurückgegeben - zum selben Treffer. Die Anzeigenamen werden automatisch angezeigt.
+Segmente werden für qualifiziert und in Echtzeit zurückgegeben - zum selben Treffer. Anzeigenamen werden automatisch angezeigt.
 
 +++
 
 +++ Was passiert, wenn einige meiner Report Suites personenbezogene Daten enthalten und andere nicht?&lt;
 
-Tipp: Erstellen Sie zwei Ziele – Fügen Sie die Report Suites mit persönlichen Daten zu einem Ziel hinzu und die Report Suites ohne persönliche Daten zum anderen.
+Tipp: Erstellen Sie zwei Ziele - fügen Sie die Report Suites für personenbezogene Daten einem Ziel und die Report Suites für nicht personenbezogene Daten dem anderen hinzu.
 
 +++
 
@@ -113,13 +113,13 @@ Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffe
 
 * Option 1: Lassen Sie die Integration weiterhin im vorkonfigurierten Zustand funktionieren, indem Sie die 150 zuletzt qualifizierten Segmente für einen bestimmten Besucher senden.
 
-* Option 2: Wählen Sie in Adobe Audience Manager die 150 Segmente aus, die für Ihr Unternehmen bei der Integration am wichtigsten sind. Adobe Audience Manager vergleicht dann Besucher nur mit diesen 150 Segmenten. Der Nachteil dieser Vorgehensweise ist, dass Sie bei allen Besuchern nur noch diese 150 Segmente erhalten. Dahingegen liefert die Vorgehensweise in Option 1 dadurch, dass die Integration pro Treffer Segmente sendet, eine unbegrenzte Anzahl an Segmenten.
+* Option 2: Wählen Sie in Adobe Audience Manager die 150 Segmente aus, die für Ihr Unternehmen bei der Integration am wichtigsten sind. Adobe Audience Manager vergleicht dann Besucher nur mit diesen 150 Segmenten. Der Nachteil dieses Ansatzes besteht darin, dass Sie nur diese 150 Segmente über alle Besucher hinweg erhalten. Andererseits kann der Ansatz von Option 1 aufgrund der pro Treffer erfolgenden Integration unbegrenzte Segmente bereitstellen.
 
 +++
 
 +++ Werden für diese Integration zusätzliche Server-Aufrufe an Analytics in Rechnung gestellt?
 
-Nein. Adobe Audience Manager-Zielgruppen werden Server-seitig in den Analytics-Treffer integriert. Dabei fallen keine zusätzlichen Server-Aufrufe für Analytics an (primär oder sekundär).
+Nein. Adobe Audience Manager-Zielgruppen werden Server-seitig in den Analytics-Treffer integriert. Dadurch werden keine zusätzlichen Server-Aufrufe an Analytics (primär oder sekundär) getätigt.
 
 +++
 
@@ -161,6 +161,6 @@ Kundenattribute sind nicht zeitbasiert, sondern gelten rückwirkend und können 
 
 +++ Was ist mit alten Ansätzen zu diesem Problem, z. B. den alten Beta- oder Consulting-Plug-in-Cookie-Zielen?
 
-Wir empfehlen Ihnen, die neue Integration zu implementieren und alte Ziele zu entfernen.
+Es wird empfohlen, die neue Integration zu implementieren und alte Ziele zu entfernen.
 
 +++
