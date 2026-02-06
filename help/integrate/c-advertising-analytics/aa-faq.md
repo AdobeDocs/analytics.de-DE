@@ -3,10 +3,10 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Advertising Analytics
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 35%
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 35%
 
 Nein, diese Funktion ist für Kunden, die nicht zu Advertising Cloud gehören, und für Kunden, die keine AMO sind, verfügbar.
 
-AMO-Kunden können die bestehende Analytics-AMO-Integration nutzen, jedoch nicht Advertising Analytics verwenden.
+AMO-Kunden können die vorhandene Analytics-AMO-Integration nutzen. Sie werden Ad Analytics nicht verwenden können.
 
 +++
 
@@ -48,13 +48,13 @@ Nein, Advertising Analytics verwendet einen speziellen Datenquellentyp, der kein
 
 +++ Kann ich trotzdem die Advertising Analytics-Funktion verwenden, wenn ich Advertising Cloud/AMO bereits verwende?
 
-Jedes kompatible Suchmaschinenkonto wird an Advertising Analytics übergeben und als schreibgeschützt angezeigt. Sämtliche Bearbeitungen oder Aktualisierungen müssen in Advertising Cloud/AMO vorgenommen werden.
+Jedes kompatible Suchmaschinenkonto wird an Advertising Analytics übergeben und als schreibgeschützt angezeigt. Alle Änderungen oder Aktualisierungen sollten in Advertising Cloud/AMO vorgenommen werden.
 
 +++
 
 +++ Ich besitze die richtige SKU, kann aber nicht auf Advertising Analytics zugreifen. Warum ist das so? 
 
-Advertising Analytics ist nur für Adobe Analytics-Administratoren verfügbar. Administratoren können jedoch Benutzern ohne Administratorrechte Zugriff gewähren. Wenden Sie sich also an Ihren Administrator, um Zugriffsrechte zu erhalten.
+Advertising Analytics ist nur für Adobe Analytics-Administratoren verfügbar. Administratoren können jedoch Benutzern ohne Administratorrechte Zugriff gewähren. Wenden Sie sich an Ihren Administrator, um Zugriffsrechte zu erhalten.
 
 +++
 
@@ -93,12 +93,14 @@ Sie erhalten
 
 +++ Kann ich meine Advertising Analytics-Daten nach anderen Analytics-Daten (Metriken/Dimensionen) aufschlüsseln? 
 
-Nein, die Rohsuchdaten werden als unabhängiger Datensatz angezeigt. Es gibt jedoch eine Instanzenversion der Klickdaten, die nach anderen Analytics-Daten aufgeschlüsselt werden kann.
+Nein, die Rohsuchdaten werden als unabhängiger Datensatz angezeigt. Es gibt jedoch eine Instanzversion der Klickdaten, die von anderen Analytics-Daten aufgeschlüsselt werden kann.
+
++++
 
 +++ Wie sind die verschiedenen Statusindikatoren für meine Konten definiert (ausstehend, aktiv, angehalten usw.)? Jeder dieser Statusindikatoren identifiziert die Lebenszyklusphase jedes Suchmaschinenkontos. 
 
 * [!UICONTROL Ausstehend]
-* [!UICONTROL Angehalten] bedeutet, dass das Konto zuvor eingerichtet wurde, aber inaktiv ist.
+* [!UICONTROL Ausgesetzt] bedeutet, dass das Konto zuvor eingerichtet wurde, sich jedoch in einem inaktiven Status befindet.
 * [!UICONTROL Aktiv] bedeutet, dass das Konto vollständig eingerichtet wurde und Suchdaten abruft.
 
 +++
@@ -122,23 +124,23 @@ Nein, sie sind nicht im Bericht Marketing-Kanäle enthalten.
 
 +++
 
-+++ F: Wann werden die Suchdaten in Analytics abgerufen? 
++++ Wann werden die Suchdaten in Analytics übernommen? 
 
 Die Suchdaten werden um ca. 6:06 Uhr :00 in der Zeitzone Ihres Analytics-Rechenzentrums von den Suchmaschinen abgerufen. Zu diesem Zeitpunkt werden die AMO-Daten erfasst und in die Report Suite eingefügt. Diese Daten werden dann im Rahmen ihrer Einfügung in Analytics in die Report Suite-Zeitzonen umgewandelt.
 
 +++
 
-+++ Was kann *vor dem Klick erfasst*? Werden Impressionen, Kosten, durchschnittliche Position usw. auch ohne Klick erfasst?
++++ Was kann *vor dem Klick erfasst*? Bringen wir Eindrücke, Kosten, durchschnittliche Position, etc. Auch ohne Klick?
 
-Die AMO-ID erfasst die Suchmaschinenmetriken: Impressionen, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung. Sind keine Klicks aber Impressionen vorhanden, werden die Daten zu Impression/Position/Qualität dennoch an Analytics gesendet. In der Regel entstehen keine Kosten, wenn keine Klicks vorhanden sind.
+Die AMO-ID erfasst die Suchmaschinenmetriken: Impressionen, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung. Wenn keine Klicks, aber Impressionen vorhanden sind, werden die Impressions-/Positions-/Qualitätsbewertungsdaten weiterhin an Analytics gesendet. In der Regel fallen auch keine Kosten an, wenn keine Klicks erfolgen.
 
 +++
 
 +++ Auf welcher Ebene werden diese Daten erfasst? *Besucher? Treffer?* 
 
-Die Suchmaschinenmetriken werden auf Trefferebene erfasst und mit der AMO ID (und deren Klassifizierungen) verbunden. Dabei handelt es sich um Daten der Zusammenfassungsebene, die nicht mit Besuchen/Besuchern verbunden sind. Daher können die Suchmaschinen-Metriken nur in Segmenten verwendet werden, die sich im Umfang der Trefferebene befinden und die auf der AMO-ID (oder zugehörigen Klassifizierungen) basieren.
+Die Suchmaschinenmetriken werden auf Trefferebene erfasst und mit der AMO ID (und deren Klassifizierungen) verbunden. Es handelt sich um Daten auf Zusammenfassungsebene, die nicht mit Besuchen/Besuchern verbunden sind. Daher können Suchmaschinenmetriken nur in Segmenten verwendet werden, die im Bereich der Trefferebene liegen und auf der AMO-ID (oder ihren Klassifizierungen) basieren.
 
-Die AMO-ID wird auch auf der Landingpage im Treffer für die betreffende Seite (über die die Verbindung zum Besuch/Besucher hergestellt wird) erfasst. Sie bleibt in der absteigenden Hierarchie bestehen, um für andere Analytics-Metriken berücksichtigt zu werden (bis sie abläuft oder durch eine neue AMO-ID überschrieben wird). Sie ist wie jede andere eVar vollständig in den Datensatz integriert.
+Die AMO ID wird auch auf der Landingpage im Treffer für diese Seite erfasst (wodurch sie mit dem Besuch/Besucher verbunden wird) und bleibt nachgelagert bestehen, um Gutschriften für andere Analytics-Metriken zu erhalten (bis sie abläuft oder durch eine neue AMO ID überschrieben wird). Sie ist wie jede andere eVar vollständig in den Datensatz integriert.
 
 +++
 
@@ -148,9 +150,9 @@ Die Anzeigenplattform-Klassifizierung erfasst diese Werte: &quot;Google AdWords�
 
 +++
 
-+++ Die Metrik „AMO-Kosten“ entspricht den von der Suchmaschine für jedes Keyword/jede Anzeige angegebenen Kosten. Handelt es sich hierbei um Netto- oder Bruttokosten? 
++++ Die Metrik „AMO-Kosten“ entspricht den von der Suchmaschine für jedes Keyword/jede Anzeige angegebenen Kosten. Sind dies Nettokosten oder Bruttokosten? 
 
-„AMO-Kosten“ sind nur die Kosten, die an die Suchmaschinen gezahlt werden. Sie enthalten keinerlei Gebühren für Agenturen oder Suchoptimierungs-/Verwaltungsplattformen.
+„AMO-Kosten“ sind nur die Kosten, die an die Suchmaschinen gezahlt werden. Es sind keine Gebühren für Agenturen oder Suchoptimierungs-/Verwaltungsplattformen enthalten.
 
 +++
 
@@ -163,18 +165,18 @@ Nein, derzeit haben wir keine Pläne für diese anderen Kanäle auf der Roadmap.
 
 ## Automatisches Tracking im Vergleich zu manuellem Tracking {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Bei der Einrichtung meines Advertising-Kontos wird angegeben, dass *automatisches Tracking* zu unbeabsichtigten Folgen führen kann. Welche Art von Folgen sind hier gemeint? 
++++ Bei der Einrichtung meines Advertising-Kontos wird angegeben, dass *automatisches Tracking* zu unbeabsichtigten Folgen führen kann. Welche Folgen können auftreten? 
 
-Im Auto-Modus wird versucht, URL-Parameter im korrekten Format an das Ende der Tracking-Vorlagen/Ziel-URLs anzuhängen. Sie müssen jedoch sicherstellen, dass die hinzugefügten URL-Parameter ordnungsgemäß auf der endgültigen Landingpage bestehen bleiben. Der Auto-Modus kann Keywords in die Landing-URL einfügen, die möglicherweise Sonderzeichen enthalten, die Ihr Webserver nicht unterstützt.
+Im Auto-Modus wird versucht, URL-Parameter im korrekten Format an das Ende der Tracking-Vorlagen/Ziel-URLs anzuhängen. Sie müssen jedoch sicherstellen, dass die hinzugefügten URL-Parameter ordnungsgemäß auf der endgültigen Landingpage bestehen bleiben. Der Auto-Modus kann Schlüsselwörter in die Ziel-URL einfügen, und Ihr Webserver unterstützt möglicherweise keine Schlüsselwörter mit Sonderzeichen.
 
 +++
 
-+++ Kann ich, wenn ich das manuelle oder automatische Tracking anfänglich eingerichtet habe, später in den anderen Tracking-Modus wechseln? Was sind die Auswirkungen? 
++++ Kann ich, wenn ich das manuelle oder automatische Tracking anfänglich eingerichtet habe, später in den anderen Tracking-Modus wechseln? Was sind die Implikationen? 
 
-Ja, Sie können Tracking-Modi wechseln, aber Sie müssen die alte Tracking-Logik entfernen, bevor Sie den Wechsel vornehmen. Dies kann zu Ausfallzeiten beim Tracking am Tag des Wechsels führen (insbesondere beim Wechsel vom manuellen zum automatischen Tracking). Daher empfehlen wir, nur dann zu wechseln, wenn dies unbedingt erforderlich ist.
+Ja, Sie können Tracking-Modi wechseln, aber Sie müssen die alte Tracking-Logik entfernen, bevor Sie den Wechsel vornehmen. Dies kann am Tag des Wechsels zu Ausfallzeiten des Trackings führen (insbesondere beim Wechsel von manuell zu automatisch). Daher empfehlen wir, nur dann zu wechseln, wenn dies unbedingt erforderlich ist.
 
 * Wechseln von Manuell zu Automatisch: Entfernen Sie die manuellen Ergänzungen der Tracking-Vorlagen und wechseln Sie dann in der Advertising Analytics-Benutzeroberfläche den Umschalter von Manuell zu Automatisch und speichern Sie die Einstellung. Beachten Sie, dass es mehrere Stunden dauern kann, bis das System die automatischen Trackingcodes ausfüllt.
 
-* Wechseln von „Automatisch“ zu „Manuell“: Aktualisieren Sie den Umschalter von „Manuell“ zu „Automatisch“ in der Advertising Analytics-Setup-Benutzeroberfläche und stellen Sie dann die manuellen Trackingcodes so schnell wie möglich bereit. Wenn Sie während der Bereitstellung der manuellen Trackingcodes die automatischen Trackingcodes in den Tracking-Vorlagen der Suchmaschine sehen, entfernen Sie sie.
+* Wechseln von „Automatisch“ zu „Manuell“: Aktualisieren Sie den Umschalter von „Manuell“ zu „Automatisch“ in der Advertising Analytics-Setup-Benutzeroberfläche und stellen Sie dann die manuellen Trackingcodes so schnell wie möglich bereit. Wenn Sie bei der Bereitstellung der manuellen Trackingcodes die automatischen Trackingcodes in den Suchmaschinen-Trackingvorlagen sehen, entfernen Sie diese.
 
 +++

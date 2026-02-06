@@ -4,7 +4,7 @@ description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübe
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ Sobald ein Treffer erfasst wird, versucht die geräteübergreifende Analyse, ihn
 *Daten, wie sie am Tag der Erfassung erscheinen:*
 
 | Zeitstempel | ECID | eVar1 oder CustomerID | Erläuterung des Treffers | Personenmetrik (kumulativ) unter Verwendung der feldbasierten Zuordnung |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | – | Bob auf seinem Desktop-Computer, nicht authentifiziert | `1` (246) |
 | `2` | `246` | `Bob` | Bob meldet sich auf seinem Desktop an. | `2` (246 und Bob) |
 | `3` | `3579` | – | Bob auf seinem Mobilgerät, nicht authentifiziert | `3` (246, Bob und 3579) |
