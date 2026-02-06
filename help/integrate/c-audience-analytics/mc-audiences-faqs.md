@@ -19,7 +19,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
 
 +++ Woher weiß ich, ob meine Analytics-Daten personenbezogene Daten (PII) enthalten? Und wenn ja, was mache ich dagegen?
 
-Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([ Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
+Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([&#x200B; Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
 
 +++
 
