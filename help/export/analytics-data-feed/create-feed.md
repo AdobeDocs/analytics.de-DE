@@ -3,9 +3,9 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie ein Daten-Feed erstellt wird und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2137'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 26%
 Stellen Sie Adobe beim Erstellen eines Daten-Feeds Folgendes zur Verfügung:
 
 * Informationen über das Ziel, an das Rohdatendateien gesendet werden sollen
+
 * Die Daten, die in jede Datei aufgenommen werden sollen
+
+* Die Häufigkeit, mit der der Daten-Feed gesendet werden soll (einschließlich des Lookback-Fensters, wenn Sie verspätete Treffer einbeziehen möchten)
 
 Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse zu Daten-Feeds verfügen und sicherstellen, dass Sie alle Voraussetzungen erfüllen. Weitere Informationen finden Sie unter [Datenfeeds – Überblick](data-feed-overview.md).
 
@@ -81,7 +84,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    | [!UICONTROL **Ersetzen Sie Betriebssystemzeichenfolgen**] | Beim Erfassen von Daten können einige Zeichen (z. B. neue Zeilen) Probleme verursachen. Wählen Sie diese Option, um diese Zeichen aus den Feed-Dateien zu entfernen.<p>Diese Option erkennt die folgenden in Kundendaten eingebetteten Zeichenfolgensequenzen und ersetzt sie durch ein Leerzeichen:</p> <ul><li>**Windows:** CRLF, CR oder TAB</li><li>**Mac und Linux:** \n, \r oder \t</li></ul> |
    | [!UICONTROL **Dynamische Suchen aktivieren**] | Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li> **Betreibername**</li><li>**Attribute für Mobilgeräte**</li><li>**Betriebssystemtyp**</li></ul><p>Weitere Informationen finden Sie unter [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
    | **Zulassen von verspäteten Treffern** | Historische Daten können nach Abschluss der Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag eingehen, z. B. über Treffer mit Zeitstempel oder Datenquellen.<p>Wählen Sie diese Option aus, um Daten einzubeziehen, die nach Abschluss der Datenverarbeitung im festgelegten Berichtszeitraum (normalerweise täglich oder stündlich) eingingen. Wenn diese Option aktiviert ist, untersucht ein Daten-Feed bei der Verarbeitung von Daten alle spät eingetroffenen Treffer und stapelt sie mit der nächsten gesendeten Daten-Feed-Datei.</p><p>Weitere Informationen finden Sie unter [Verspätete Treffer](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
-   | **Lookback-Fenster** (für verspätete Treffer) | Diese Option wird angezeigt, wenn **[!UICONTROL Option „Späte Treffer zulassen]** aktiviert ist. Wählen Sie das Lookback-Fenster aus, um den Zeitrahmen der enthaltenen späten Treffer zu begrenzen. Wählen Sie **[!UICONTROL Unbegrenzt]** aus, wenn Sie alle verspäteten Treffer unabhängig von der Verspätung zulassen möchten. Sie können ein voreingestelltes Intervall auswählen, z. B. **[!UICONTROL 1 Stunde]**, **[!UICONTROL 2 Stunden]**, **[!UICONTROL 1 Woche]**, **[!UICONTROL 2 Wochen]** usw. Oder wählen Sie **[!UICONTROL Benutzerdefiniertes Lookback-Fenster]** und geben Sie dann im Feld **[!UICONTROL Benutzerdefiniertes Lookback]** ein Lookback-Fenster mit bis zu 26.280 Stunden an. |
+   | **Lookback-Fenster** (für verspätete Treffer) | Diese Option wird angezeigt, wenn die Option **[!UICONTROL Verspätete Treffer zulassen]** aktiviert ist. Wählen Sie das Lookback-Fenster aus, um den Zeitrahmen der enthaltenen späten Treffer zu begrenzen. Wählen Sie **[!UICONTROL Unbegrenzt]** aus, wenn Sie alle verspäteten Treffer unabhängig von der Verspätung zulassen möchten. Sie können ein voreingestelltes Intervall auswählen, z. B. **[!UICONTROL 1 Stunde]**, **[!UICONTROL 2 Stunden]**, **[!UICONTROL 1 Woche]**, **[!UICONTROL 2 Wochen]** usw. Oder wählen Sie **[!UICONTROL Benutzerdefiniertes Lookback-Fenster]** und geben Sie dann im Feld **[!UICONTROL Benutzerdefiniertes Lookback]** ein Lookback-Fenster mit bis zu 26.280 Stunden an. |
 
 1. Wählen [!UICONTROL **Abschnitt &quot;**]&quot; im Feld **[!UICONTROL Report Suite]** die Quell-Report Suite aus, die die zu exportierenden Daten enthält. <p>Beachten Sie bei der Auswahl einer Report Suite Folgendes:</p> <ul><li>Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, muss jeder Daten-Feed unterschiedliche Spaltendefinitionen haben.</li><li>Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt.</li><li>Die Liste der verfügbaren Spalten hängt vom Anmeldeunternehmen ab, zu dem die ausgewählte Report Suite gehört. Wenn Sie die Report Suite ändern, kann sich die Liste der verfügbaren Spalten ändern. </li></ul>
 
@@ -135,7 +138,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    | Feld | Funktion |
    |---------|----------|
    | [!UICONTROL **Konto**] | Führen Sie einen der folgenden Schritte aus:<ul><li>**Vorhandenes Konto verwenden:** Wählen Sie das Dropdown-Menü neben dem Feld **[!UICONTROL Konto]** aus. Oder geben Sie den Kontonamen ein und wählen Sie ihn dann aus dem Dropdown-Menü aus. <p>Konten stehen Ihnen nur zur Verfügung, wenn Sie sie konfiguriert haben oder wenn sie für eine Organisation freigegeben wurden, der Sie angehören.</p></li><li>**Neues Konto erstellen:** Wählen Sie **[!UICONTROL Neu hinzufügen]** unter dem Feld **[!UICONTROL Konto]** aus. Informationen zum Konfigurieren des Kontos finden Sie unter [Konfigurieren eines Standortkontos](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Ort**] | Führen Sie einen der folgenden Schritte aus:<ul><li>**Vorhandenen Speicherort verwenden:** Wählen Sie das Dropdown-Menü neben dem Feld **[!UICONTROL Speicherort]** aus. Oder geben Sie den Ortsnamen ein und wählen Sie ihn dann aus dem Dropdown-Menü aus.</li><li>**Neuen Speicherort erstellen:** Wählen Sie **[!UICONTROL Neu hinzufügen]** unter dem Feld **[!UICONTROL Speicherort]** aus. Weitere Informationen zum Konfigurieren des Speicherorts finden Sie unter [Konfigurieren eines Speicherorts](/help/components/locations/configure-import-locations.md#configure-a-location) in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Ort**] | Führen Sie einen der folgenden Schritte aus:<ul><li>**Vorhandenen Speicherort verwenden:** Wählen Sie das Dropdown-Menü neben dem Feld **[!UICONTROL Speicherort]** aus. Oder geben Sie den Ortsnamen ein und wählen Sie ihn dann aus dem Dropdown-Menü aus.</li><li>**Neuen Speicherort erstellen:** Wählen Sie **[!UICONTROL Neu hinzufügen]** unter dem Feld **[!UICONTROL Speicherort]** aus. Weitere Informationen zum Konfigurieren des Speicherorts finden Sie unter [Konfigurieren eines Speicherorts](/help/components/locations/configure-import-locations.md#configure-a-location) in [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Nach Abschluss benachrichtigen**] | Geben Sie eine oder mehrere E-Mail-Adressen an, an die eine Benachrichtigung gesendet werden soll, nachdem der Daten-Feed erfolgreich gesendet wurde oder nicht gesendet werden kann. Mehrere E-Mail-Adressen müssen durch ein Komma getrennt werden. |
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
@@ -146,13 +149,13 @@ Mit Vorlagen können Sie dieselben Spalten für zukünftige Daten-Feeds wiederve
 
 Bei der Verwaltung von Vorlagen können Sie neue Vorlagen erstellen, bereits erstellte Vorlagen verwenden, Vorlagen kopieren, Vorlagen bearbeiten und Vorlagen löschen.
 
-[!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] > **[!UICONTROL Vorlagen verwalten]**
+**[!UICONTROL Admin]** > **[!UICONTROL Daten-Feeds]** > **[!UICONTROL Vorlagen verwalten]**
 
 ![Spaltenvorlagen verwalten](assets/data-feed-template-manage.png)
 
 ### Erstellen einer Spaltenvorlage
 
-Beim Erstellen mehrerer Daten-Feeds, die dieselben Spalten verwenden, empfiehlt Adobe die Erstellung von Spaltenvorlagen. Alle Spaltenvorlagen, die Sie erstellen, können von jedem Benutzer in Ihrer Organisation verwendet werden.
+Beim Erstellen mehrerer Daten-Feeds, die dieselben Spalten verwenden, empfiehlt Adobe die Erstellung von Spaltenvorlagen. Alle von Ihnen erstellten Spaltenvorlagen stehen allen Personen in Ihrem Unternehmen zur Verfügung.
 
 So erstellen Sie eine Spaltenvorlage:
 
