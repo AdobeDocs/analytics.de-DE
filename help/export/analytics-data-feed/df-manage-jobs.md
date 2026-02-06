@@ -54,7 +54,7 @@ Spaltenüberschrift auswählen, um sie in aufsteigender Reihenfolge zu sortieren
 
 So passen Sie die sichtbaren Spalten in der Tabelle an:
 
-1. Wählen Sie oben ![ das Spaltensymbol ](assets/customize-columns-icon.png)Spaltensymbol) aus.
+1. Wählen Sie oben ![&#x200B; das Spaltensymbol &#x200B;](assets/customize-columns-icon.png)Spaltensymbol) aus.
 
 1. Wählen Sie im Dialogfeld Tabelle anpassen jede Spalte aus, die Sie anzeigen möchten, und heben Sie die Auswahl für jede Spalte auf, die Sie ausblenden möchten.
 
