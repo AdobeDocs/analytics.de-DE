@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Im Rahmen der Umstellung auf eine neue Report Builder-Funktion können Sie Ihre 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3446191?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen 
 
 Um eine ältere Arbeitsmappe zu öffnen, haben Sie folgende Möglichkeiten:
 
-* Öffnen Sie eine ältere Arbeitsmappe direkt auf Ihrem lokalen Computer oder Netzwerk. Wenn die alte Arbeitsmappe in Excel geöffnet ist:
-
-   1. Wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der Excel-Multifunktionsleiste aus.
-   1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
-   1. Konvertieren [&#x200B; dann die alte Arbeitsmappe](#convert-a-workbook).
-
-* Öffnen Sie eine geplante ältere Arbeitsmappe auf der **[!UICONTROL Zeitplan]** im [Report Builder-Hub](report-builder-hub.md). Gehen Sie dazu wie folgt vor:
+* Öffnen Sie eine geplante ältere Arbeitsmappe auf der **[!UICONTROL Zeitplan]** im [Report Builder-Hub](report-builder-hub.md). Dies ist die bevorzugte Methode für geplante ältere Arbeitsmappen. Sie haben die Möglichkeit, den mit der alten Arbeitsmappe verknüpften Zeitplan zu verwenden, sobald Sie [die konvertierte alte Arbeitsmappe planen](#schedule-a-converted-legacy-workbook).
 
    1. Öffnen Sie Excel und wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der Excel-Multifunktionsleiste aus.
 
@@ -56,6 +50,13 @@ Um eine ältere Arbeitsmappe zu öffnen, haben Sie folgende Möglichkeiten:
       ![Alte Arbeitsmappen](assets/upgrade-legacy-schedule.png)
 
    1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) die geplante Arbeitsmappe aus, die Sie konvertieren möchten, und klicken Sie auf ![Herunterladen](/help/assets/icons/Download.svg). Die Arbeitsmappe wird heruntergeladen und in einem neuen Fenster in Excel geöffnet. Sie können jetzt [die alte Report Builder-Arbeitsmappe konvertieren](#convert-a--workbook).
+
+
+* Öffnen Sie eine ältere Arbeitsmappe direkt auf Ihrem lokalen Computer oder Netzwerk. Wenn Sie diese Methode verwenden, wird nicht angeboten, den Zeitplan zu verwenden, der möglicherweise mit der alten Arbeitsmappe verknüpft ist. <br/>Wenn die alte Arbeitsmappe in Excel geöffnet ist:
+
+   1. Wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der Excel-Multifunktionsleiste aus.
+   1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
+   1. Konvertieren [ dann die alte Arbeitsmappe](#convert-a-workbook).
 
 
 ## Alte Arbeitsmappe konvertieren
@@ -89,14 +90,14 @@ So konvertieren Sie eine veraltete Arbeitsmappe:
 
      ![Excel Report Builder Upgrade Report-Arbeitsmappe](assets/upgrade-report.png)
 
-Sie können [den Datenblock verwalten](/help/analyze/report-builder/manage-reportbuilder.md).
+Sie können [ Datenblöcke in ](/help/analyze/report-builder/manage-reportbuilder.md) Arbeitsmappe verwalten. Diese Datenblöcke sind das Ergebnis des Upgrades und ersetzen Ihre veralteten Report Builder-Anfragen.
 
 
 ## Planen einer konvertierten Legacy-Arbeitsmappe
 
 Sie haben die Möglichkeit, die Zeitplandetails aus der alten Arbeitsmappe zu verwenden, die Sie heruntergeladen und auf der Registerkarte **[!UICONTROL Zeitplan]** im Report Builder-Hub geöffnet haben. Diese Option ist nicht für ältere Arbeitsmappen mit Zeitplandetails verfügbar, die Sie über Ihren lokalen Computer oder Ihr Netzwerk öffnen.
 
-1. Arbeitsmappe planen. So planen Sie eine konvertierte veraltete Arbeitsmappe mit einem veralteten Zeitplan:
+1. So planen Sie eine konvertierte veraltete Arbeitsmappe mit einem veralteten Zeitplan:
 
    * Wählen Sie **[!UICONTROL Arbeitsmappe senden]** über den Report Builder-Hub aus oder
    * Wählen Sie **[!UICONTROL Arbeitsmappe planen]** auf der Registerkarte **[!UICONTROL Arbeitsmappen]** aus, die auf der Registerkarte **[!UICONTROL Zeitpläne]** in Report Builder verfügbar ist.
