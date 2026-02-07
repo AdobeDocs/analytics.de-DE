@@ -4,10 +4,10 @@ keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 470ab0dfa76681d73f847ba9c2aecaf64804540c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 84%
+source-wordcount: '1488'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Um zu verhindern, dass Daten-Feed-Dateien überschrieben werden, empfehlen wir, 
 
 Daten-Feed-Dateinamen bestehen aus den folgenden Daten-Feed-Merkmalen:
 
-* Report Suite-ID (RSID)
+* Report Suite-ID (RSID)
 
 * Exportdatum
 
@@ -31,13 +31,13 @@ Zwei Feeds, die für dieselbe RSID und dasselbe Datum konfiguriert sind, haben d
 
 Um das Überschreiben einer Datei zu verhindern, sollten Sie die folgenden Problemumgehungen in Betracht ziehen:
 
-* Bereitstellungspfad ändern
-* Termine ändern, falls möglich
-* Report Suite ändern, falls möglich
+* Versandpfad ändern
+* Ändern Sie nach Möglichkeit die Daten.
+* Ändern der Report Suite, sofern möglich
 
 ## Wann werden die Daten verarbeitet? {#processed}
 
-Bevor stündliche oder tägliche Daten verarbeitet werden, warten die Daten-Feeds, bis alle Treffer, die innerhalb des Zeitrahmens (Tag oder Stunde) in die Datenerfassung eingehen, in Data Warehouse geschrieben wurden. Anschließend erfassen die Daten-Feeds die Daten mit Zeitstempeln, die in diesen Zeitrahmen fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Daten normalerweise innerhalb von 15 bis 30 Minuten nach Ablauf der entsprechenden Stunde aus dem Data Warehouse geschrieben, es gibt jedoch keinen festgelegten Zeitraum. Wenn es keine Daten mit Zeitstempeln gibt, die in diesen Zeitrahmen passen, erfolgt der Prozess im nächsten Zeitrahmen erneut. Der aktuelle Daten-Feed-Prozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
+Bevor stündliche oder tägliche Daten verarbeitet werden, warten die Daten-Feeds, bis alle Treffer, die innerhalb des Zeitrahmens (Tag oder Stunde) in die Datenerfassung eingehen, in Data Warehouse geschrieben wurden. Anschließend erfassen die Daten-Feeds die Daten mit Zeitstempeln, die in diesen Zeitrahmen fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Dateien normalerweise innerhalb von 15-30 Minuten nach der vollen Stunde in Data Warehouse geschrieben. Es gibt jedoch keinen festgelegten Zeitraum. Wenn keine Daten mit Zeitstempeln vorhanden waren, die in den Zeitrahmen fallen, versucht der Prozess es im nächsten Zeitrahmen erneut. Der aktuelle Daten-Feed-Prozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
 
 ## Was ist der Unterschied zwischen Spalten mit `post_`-Präfix und Spalten ohne `post_`-Präfix? {#post}
 
@@ -67,21 +67,21 @@ In fast allen Fällen kennzeichnet die Verkettung von `hitid_high` und `hitid_lo
 
 ## Warum fehlen bei einigen Betreibern Informationen in der Spalte „Domain“? {#domain}
 
-Einige Mobilnetzbetreiber (wie T-Mobile und O1) bieten keine Domänen mehr für Reverse-DNS-Lookups an. Daher sind die Daten nicht für die Domänenberichterstellung verfügbar.
+Einige Mobilnetzbetreiber (z. B. T-Mobile und O1) bieten keine Domain-Informationen mehr für Reverse-DNS-Suchen. Daher sind diese Daten nicht für das Domain-Reporting verfügbar.
 
-## Warum kann ich aus Daten, die älter als sieben Tage sind, keine „Stündlich“-Dateien extrahieren? {#hourly}
+## Warum kann ich für ältere Datumsangaben keine stündlichen Dateien zuverlässig extrahieren? {#hourly}
 
-Bei Daten, die älter als sieben Tage sind, werden die „Stündlich“-Dateien eines Tages zu einer einzigen „Täglich“-Datei zusammengefasst.
+Um die Speicherung und Verarbeitung zu optimieren, konsolidiert Adobe regelmäßig stündliche Exporte in tägliche Dateien. Aufgrund dessen, wie und wann diese Konsolidierungen ausgeführt werden, ist die stündliche Ausgabe für Datumsangaben, die älter als 10 Tage sind, nicht vorhersehbar. Für ein bestimmtes Datum ist es möglich, eine Mischung aus stündlichen Dateien für einige Stunden und einer konsolidierten täglichen Datei für andere anzuzeigen. In eine tägliche Datei konsolidierte Daten werden in der Regel Stunden-`00` zugewiesen, sodass andere Stunden leer bleiben können, wenn diese Stunden direkt angefordert werden.
 
-Beispiel: Am 9. März 2021 wird ein neuer Daten-Feed erstellt. Die Daten vom 1. Januar 2021 bis zum 9. März werden als „Stündlich“ bereitgestellt. Die „Stündlich“-Dateien, die vor dem 2. März 2021 vorlagen, werden jedoch in einer einzigen „Täglich“-Datei zusammengefasst. Sie können „Stündlich“-Dateien nur aus Daten extrahieren, die weniger als sieben Tage ab Erstellungsdatum alt sind. In diesem Fall vom 2. März bis 9. März.
+Bei Aufstockungen, die älter als 10 Tage sind, empfiehlt Adobe dringend, die tägliche Granularität zu verwenden, um vollständige und vorhersehbare Ergebnisse sicherzustellen. Wenn Sie für ältere Tage eine stündliche Granularität anfordern müssen, schließen Sie in Ihrer Anfrage immer `00` ein, um zu vermeiden, dass konsolidierte stündliche Daten fehlen.
 
 ## Welche Auswirkungen hat die Sommerzeit auf stündliche Daten-Feeds? {#dst}
 
-Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (in der Regel um 2 :00 Uhr morgens).
+Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung stattfindet (in der Regel :00 Uhr morgens).
 
-Bei der Umstellung von Normalzeit auf Sommerzeit (im Frühling) erhält der Kunde nur 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn die Umstellung beispielsweise um 2 Uhr morgens erfolgt, erhalten sie eine Datei für die :00 Stunde und eine Datei für die 3:00 Stunde. Es gibt keine 2:00-Datei, da sie bei 2:00 STD zu 3:00 DST wird.
+Bei der Umstellung von Normalzeit auf Sommerzeit erhalten Sie 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn die Umstellung beispielsweise um 2 Uhr morgens erfolgt, erhalten Sie eine Datei für die :00 Stunde und eine Datei für die 3:00 Stunde. Es gibt keine 2:00-Datei, da sie bei 2:00 STD zu 3:00 DST wird.
 
-Bei der Umstellung von Sommerzeit auf Normalzeit (im Herbst) erhält der Kunde 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt zwei Stunden. Wenn die Umstellung beispielsweise um 2:00 :00 erfolgt, wird die Datei für 1::00 um eine Stunde verzögert, sie enthält jedoch Daten für zwei Stunden. Es enthält Daten von 1:00 DST bis 2:00 STD (was 3:00 DST gewesen wäre). Die nächste Datei beginnt um 2:00 STD.
+Bei der Umstellung von Sommerzeit auf Normalzeit (Fallback) erhalten Sie 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt zwei Stunden. Wenn die Umstellung beispielsweise um 2:00 :00 erfolgt, wird die Datei für 1::00 um eine Stunde verzögert, sie enthält jedoch Daten für zwei Stunden. Es enthält Daten von 1:00 DST bis 2:00 STD (was 3:00 DST gewesen wäre). Die nächste Datei beginnt um 2:00 STD.
 
 ## Wie behandelt Analytics FTP-Übertragungsfehler? {#ftp-failure}
 
@@ -91,9 +91,9 @@ Wenn eine Übertragung fehlschlägt, können Sie einen Auftrag erneut ausführen
 
 Wenn Sie Probleme haben, einen Daten-Feed auf Ihrer FTP-Site anzuzeigen, finden Sie weitere Informationen unter [Fehlerbehebung bei Daten-Feeds](troubleshooting.md).
 
-## Wie sende ich einen Vorgang erneut? {#resend}
+## Wie sende ich einen Auftrag erneut? {#resend}
 
-Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, führen Sie den Vorgang erneut aus, um die Dateien abzurufen.
+Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, führen Sie den Auftrag erneut aus, um die Dateien abzurufen.
 
 ## Was ist die BucketOwnerFullControl-Einstellung für Amazon S3-Daten-Feeds? {#BucketOwnerFullControl}
 
