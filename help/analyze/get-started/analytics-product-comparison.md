@@ -3,10 +3,10 @@ description: Systemanforderungen und ein Vergleich von Analysis Workspace, Repor
 title: Analytics – Produktvergleich und Voraussetzungen
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Geplanter Versand** | Ja | Ja | Ja | Ja | Nein |
 | **Versandziele** | E-Mail | E-Mail, FTP, SFTP, [Veröffentlichung auf Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC und E-Mail | Amazon S3, Azure RBAC, Azure SAS und Google Cloud Platform | – |
 | **Berichtszeitverarbeitung von Virtual Report Suite** <br> [Weitere Informationen](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nein | Nein | Nein | Ja |
+| **Geo- und Technologieberichte** | Ja <p>Verwendet Mid-Werte statt Post-Felder. Die Logik für den Erstbesuch basiert auf `post_cust_hit_time_gmt` statt auf `visit_page_num=1`. Die Ergebnisse können von anderen Tools abweichen, wenn sich die IP-Adresse während des Besuchs ändert, Treffer nicht in der richtigen Reihenfolge eingehen oder Besuche monatlich erfolgen.</p> | Ja <p>Verwendet Mid-Werte statt Post-Felder. Die Logik für den Erstbesuch basiert auf `post_cust_hit_time_gmt` statt auf `visit_page_num=1`. Die Ergebnisse können von anderen Tools abweichen, wenn sich die IP-Adresse während des Besuchs ändert, Treffer nicht in der richtigen Reihenfolge eingehen oder Besuche monatlich erfolgen.</p> | Ja <p>Verwendet POST-Werte und -`visit_page_num=1`, um den ersten Treffer des Besuchs zu bestimmen. Wendet für diese Dimensionen den Wert aus dem ersten Treffer auf alle Treffer im Besuch an.</p> | Ja <p>Verwendet POST-Werte und -`visit_page_num=1`, um den ersten Treffer des Besuchs zu bestimmen. Wendet für diese Dimensionen den Wert aus dem ersten Treffer auf alle Treffer im Besuch an.</p> | Ja <p>Verwendet Mid-Werte statt Post-Felder. Die Logik für den Erstbesuch basiert auf `post_cust_hit_time_gmt` statt auf `visit_page_num=1`. Die Ergebnisse können von anderen Tools abweichen, wenn sich die IP-Adresse während des Besuchs ändert, Treffer nicht in der richtigen Reihenfolge eingehen oder Besuche monatlich erfolgen.</p> |
