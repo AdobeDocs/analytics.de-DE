@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die grundlegenden Funktionen berechneter Me
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 49%
 
 ---
@@ -93,7 +93,7 @@ Gibt den größten Wert in einem Satz aus Dimensionselementen für eine Metriksp
 
 >[!TIP]
 >
->Verwenden Sie eine [IF](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung hervorzuheben, das die beste Leistung erzielt.
+>Verwenden Sie eine [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung hervorzuheben, das die beste Leistung erzielt.
 >
 
 ## Spaltenminimum {#column-minimum}
@@ -123,7 +123,7 @@ Gibt den kleinsten Wert in einem Satz aus Dimensionselementen für eine Metriksp
 
 >[!TIP]
 >
->Verwenden Sie eine [IF](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung mit der niedrigsten Leistung hervorzuheben.
+>Verwenden Sie eine [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung mit der niedrigsten Leistung hervorzuheben.
 >
 
 
@@ -205,9 +205,9 @@ Addiert alle numerischen Werte für eine Metrik innerhalb einer Spalte (über di
 |---|---|
 | metric | Die Exponentialfunktion mit Basis „e“. |
 
-**Anwendungsfall**: Erhöhen einer Zahl oder Metrik auf eine bestimmte Potenz, z. B. Quadrierung eines Werts oder Anwendung eines exponentiellen Wachstumsfaktors. Dies ist nützlich bei der Modellierung von Wachstumstrends oder der exponentiellen Skalierung einer Metrik.
+**Anwendungsfall**: Hebt *e* auf die Potenz einer bestimmten Zahl oder Metrik auf. Dies ist nützlich bei der Modellierung von Wachstumstrends oder der exponentiellen Skalierung einer Metrik.
 
-**Im Generator für berechnete Metriken**: Verwenden Sie **Exponent** mit einer Metrik und einem Leistungswert. Beispiel: **Exponent**(*Besuche*, 2) quadriert die Metrik *Besuche*.
+**Im Generator für berechnete Metriken**: Verwenden Sie **Exponent** mit einer Metrik. Beispiel: **Exponent**(*Besuche*) erhöht *e* auf die Metrik *Besuche*.
 
 >[!TIP]
 >
@@ -468,7 +468,7 @@ Gibt die Anzahl der Zeilen in einer bestimmten Spalte zurück (die Anzahl der in
 
 **Anwendungsfall** Zählen Sie die Gesamtzahl der in einer Aufschlüsselung oder einem Datensatz zurückgegebenen Zeilen, z. B. die Anzahl der Tage, Kampagnen oder Produkte, die in einem Bericht enthalten sind. Auf diese Weise lässt sich erkennen, wie viele Elemente zu Ihrer Analyse beitragen.
 
-**Im Generator für berechnete Metriken**: Wenden Sie **Zeilenanzahl** an, um die Gesamtzahl der Zeilen in der aktuellen Aufschlüsselung oder im aktuellen Segment zurückzugeben. Wenn Sie beispielsweise „Umsatz **&#x200B; nach *Produkt*, &#x200B;** Zeilenanzahl** anzeigen, wird die Anzahl der angezeigten Produkte zurückgegeben.
+**Im Generator für berechnete Metriken**: Wenden Sie **Zeilenanzahl** an, um die Gesamtzahl der Zeilen in der aktuellen Aufschlüsselung oder im aktuellen Segment zurückzugeben. Wenn Sie beispielsweise „Umsatz ** nach *Produkt*, **Zeilenanzahl** anzeigen, wird die Anzahl der angezeigten Produkte zurückgegeben.
 
 >[!TIP]
 >
