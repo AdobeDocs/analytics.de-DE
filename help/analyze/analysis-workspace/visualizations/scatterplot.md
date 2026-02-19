@@ -1,13 +1,12 @@
 ---
 title: Streuung
-description: Verwenden Sie die Streuvisualisierung, um die Beziehung zwischen bis zu drei Metriken anzuzeigen.
-feature: Visualizations
+description: Erfahren Sie, wie Sie in Analysis Workspace Streuvisualisierungen erstellen und interpretieren, um Beziehungen zwischen Dimensionselementen und bis zu drei Metriken zu analysieren.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 92%
+source-wordcount: '236'
+ht-degree: 63%
 
 ---
 
@@ -25,12 +24,12 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Streuungsvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Streuung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird die Streuungsvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Streuung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
 
-Die ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Streuungsvisualisierung]** zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken an. Die Visualisierung drei Komponenten und unterstützt die Visualisierung von bis zu vier Komponenten.
+Die Visualisierung ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** hilft Ihnen, Korrelationen und Muster zwischen verschiedenen Metriken in Ihren Daten zu identifizieren. Die Visualisierung zeigt die Beziehung zwischen Dimensionselementen und bis zu drei Metriken. Die Visualisierung drei Komponenten und unterstützt die Visualisierung von bis zu vier Komponenten.
 
 * Die Zeilenkomponente (normalerweise eine Dimension) stellt jeden Punkt im Diagramm dar. Verschiedene Zeilen werden als verschiedenfarbige Punkte angezeigt.
 * Die Spalte ganz links (normalerweise eine Metrik) stellt die Position des Punkts auf der Y-Achse (vertikal) dar.
@@ -38,7 +37,7 @@ Die ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Streuungs
 * Die dritte Spalte bestimmt den Radius des Punkts.
 * Alle nachfolgenden Spalten in einer Freiform-Tabelle werden von der Streudiagramm-Visualisierung ignoriert.
 
-![Streudiagramm-Beispiel mit mehreren Dimensionselementen &#x200B;](assets/scatter.png)
+![Streudiagramm-Beispiel mit mehreren Dimensionselementen ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
@@ -48,9 +47,14 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung
 >[!ENDSHADEBOX]
 
 
+>[!NOTE]
+>
+>Wenn Sie [Legende so konfigurieren, dass sie sichtbar ist]&#x200B;(/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings), wird die Legende nur angezeigt, wenn die Datenquelle eine begrenzte Anzahl von (ausgewählten) Dimensionselementen enthält.
+
+
 >[!MORELIKETHIS]
 >
 >[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
