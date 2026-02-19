@@ -24,7 +24,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Streuungsvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Streuung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_In diesem Artikel wird die Streuungsvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Streuung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Die Visualisierung ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 * Die dritte Spalte bestimmt den Radius des Punkts.
 * Alle nachfolgenden Spalten in einer Freiform-Tabelle werden von der Streudiagramm-Visualisierung ignoriert.
 
-![Streudiagramm-Beispiel mit mehreren Dimensionselementen ](assets/scatter.png)
+![Streudiagramm-Beispiel mit mehreren Dimensionselementen &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
