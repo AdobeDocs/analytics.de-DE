@@ -72,5 +72,5 @@ Sie erkennen das aktive Bedienfeld am hellblauen Rand. Wählen Sie einfach in ei
 1. (Optional) Sie können auch andere Komponenten-Builder in Analytics aufrufen und sicherstellen, dass ihnen nun eine Report Suite-Bezeichnung angezeigt wird, die angibt
 
    * Wo ein Segment erstellt wird: [Segment Builder](/help/components/segmentation/segmentation-workflow/seg-build.md).
-   * Wo eine berechnete Metrik erstellt wird: [Generator für berechnete ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)).
+   * Wo eine berechnete Metrik erstellt wird: [Generator für berechnete &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)).
    * Wo ein Warnhinweis erstellt wird: [Warnhinweiserstellung](/help/components/alerts/alert-builder.md).

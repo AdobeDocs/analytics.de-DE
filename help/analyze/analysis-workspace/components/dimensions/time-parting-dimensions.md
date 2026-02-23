@@ -32,7 +32,7 @@ Zeitunterteilungsdimensionen basieren auf der Zeitzone der Report Suite oder Vir
 
 >[!NOTE]
 >
->Die Dimensionen für die Zeitunterteilung sind nur in Analysis Workspace verfügbar. Um Zeitunterteilungsdimensionen in anderen Analytics-Lösungen zu verwenden, können Sie das Plug-in [getTimeParting“ ](/help/implement/vars/plugins/gettimeparting.md).
+>Die Dimensionen für die Zeitunterteilung sind nur in Analysis Workspace verfügbar. Um Zeitunterteilungsdimensionen in anderen Analytics-Lösungen zu verwenden, können Sie das Plug-in [getTimeParting“ &#x200B;](/help/implement/vars/plugins/gettimeparting.md).
 
 Zu den Zeitunterteilungsdimensionen in Analysis Workspace gehören:
 
