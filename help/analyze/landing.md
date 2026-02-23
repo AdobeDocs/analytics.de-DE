@@ -17,7 +17,7 @@ Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] al
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Landingpage von Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Landingpage von Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

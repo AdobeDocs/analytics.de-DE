@@ -31,7 +31,7 @@ Sie können Komponenten in einer Report Suite Beschreibungen hinzufügen.
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenbeschreibungen hinzufügen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

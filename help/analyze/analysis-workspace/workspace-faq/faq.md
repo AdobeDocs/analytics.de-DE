@@ -45,13 +45,13 @@ Siehe [Leistungsoptimierung](/help/analyze/analysis-workspace/workspace-faq/opti
 
 +++Wie fließen Daten in Ihr Analysis Workspace-Projekt ein?
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenaufnahme in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datenaufnahme in Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} finden Sie ein Demovideo.
 
 +++
 
 +++Wie kann ich die Workspace-Nutzung nachverfolgen?
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Protokoll-Tracking](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Protokoll-Tracking](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
 
 +++
 

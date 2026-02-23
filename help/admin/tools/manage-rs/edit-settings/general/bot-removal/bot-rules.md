@@ -34,7 +34,7 @@ Traffic-Daten von Bots werden in einem separaten Repository gespeichert, um sie 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Konfigurieren von Bot-Regeln](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Konfigurieren von Bot-Regeln](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

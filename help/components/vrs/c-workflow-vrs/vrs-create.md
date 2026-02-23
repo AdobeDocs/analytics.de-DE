@@ -46,7 +46,7 @@ Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einste
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anpassen einer Besuchsdefinition](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anpassen einer Besuchsdefinition](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

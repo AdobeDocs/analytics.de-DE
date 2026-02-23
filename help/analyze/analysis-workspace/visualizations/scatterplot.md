@@ -42,7 +42,7 @@ Die Visualisierung ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung „Streudiagramm“](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung „Streudiagramm“](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

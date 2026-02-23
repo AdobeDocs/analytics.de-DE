@@ -17,7 +17,7 @@ Virtual Report Suites können so kuratiert werden, dass Komponenten in Analysis 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Komponentenkuratierung](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

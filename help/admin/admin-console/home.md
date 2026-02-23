@@ -27,4 +27,4 @@ In diesem Kapitel werden Konzepte erläutert, die Sie bezüglich der Analytics-s
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie einen Administrator bzw. eine Administratorin in Adobe Analytics hinzufügen:
 
-[Hinzufügen eines Administrators bzw. einer Administratorin in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Hinzufügen eines Administrators bzw. einer Administratorin in Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

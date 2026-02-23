@@ -46,7 +46,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Zuordnungsvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Siehe [Map](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Zuordnungsvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Siehe [Map](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/map) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Die ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Zuordnungsvisualisierun
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Um Einstellungen für die Visualisierung zu definieren, wählen Sie ![Setting](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

@@ -18,7 +18,7 @@ Bei der Zeitunterteilung wird der Zeitstempel erfasster Treffer in aussagekräft
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionen für die Zeitunterteilung](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionen für die Zeitunterteilung](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

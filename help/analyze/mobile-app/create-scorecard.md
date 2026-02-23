@@ -25,7 +25,7 @@ Die folgenden Informationen liefern Kuratorinnen und Kuratoren von Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Die Einstellung ist standardmäßig *an*. Deaktivieren Sie die Option, wenn Sie 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit no
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Wenn Sie sich beispielsweise auf den Webtraffic konzentrieren, können Besuche I
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen von Daten-Storys](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen von Daten-Storys](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

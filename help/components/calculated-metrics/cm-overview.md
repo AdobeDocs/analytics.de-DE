@@ -59,13 +59,13 @@ Einige Funktionen von [!DNL Analytics] erlauben die Verwendung von berechneten M
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

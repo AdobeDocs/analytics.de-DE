@@ -40,7 +40,7 @@ Mit einer Baumkarte können Sie Muster sehen, die auf andere Weise schwer zu erk
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung „Baumkarte“](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung „Baumkarte“](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

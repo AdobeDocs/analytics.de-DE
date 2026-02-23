@@ -41,7 +41,7 @@ Metriken können in Analysis Workspace auf verschiedene Arten verwendet werden. 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden von &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Erstellen einer berechneten Metrik für ein einzelnes Projekt:
 
    * [!UICONTROL **prozentuale Änderung**]: Erstellt eine neue Spalte, die die prozentuale Änderung zwischen den beiden ausgewählten Spalten anzeigt.
 
-[Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
+[Berechnete Metriken: implementierungslose Metriken](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3 :42)
 
 
 ## Vergleichen von Metriken mit verschiedenen Attributionsmodellen
@@ -119,7 +119,7 @@ Im Folgenden finden Sie ein Video zum Thema:
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kumulativer Durchschnitt](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kumulativer Durchschnitt](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
