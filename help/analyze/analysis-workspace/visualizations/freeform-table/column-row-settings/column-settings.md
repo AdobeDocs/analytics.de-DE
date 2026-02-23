@@ -130,7 +130,7 @@ So verwenden Sie ein nicht standardmäßiges Attributionsmodell für eine Metrik
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dynamische Spalten](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dynamische Spalten](https://video.tv.adobe.com/v/38350?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
