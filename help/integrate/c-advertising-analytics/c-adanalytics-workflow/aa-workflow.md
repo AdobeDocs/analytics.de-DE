@@ -3,7 +3,7 @@ description: Übersicht über den Workflow in Advertising Analytics
 title: Workflow-Übersicht
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 41%
@@ -15,7 +15,7 @@ ht-degree: 41%
 Der Workflow zum Konfigurieren von Advertising Analytics umfasst die folgenden Schritte:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/38354/?quality=12&captions=ger)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [Advertising Analytics-Reporting pro Report Suite aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Aktiviert das Reporting in [!UICONTROL Advertising Analytics] für Experience Cloud-fähige Report Suites.

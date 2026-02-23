@@ -4,10 +4,10 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites erstellen
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 62%
+source-wordcount: '675'
+ht-degree: 50%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 62%
 Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
 
 * Benutzende ohne Administratorrechte können den Virtual Report Suites-Manager nicht sehen.
-* Virtual Report Suites können nicht freigegeben werden. Die Freigabe erfolgt über Gruppen/Berechtigungen.
+* Virtual Report Suites können nicht freigegeben werden. „Freigabe“ erfolgt über Gruppen/Berechtigungen.
 * Im Virtual Report Suites-Manager können Sie nur Ihre eigenen Virtual Report Suites sehen. Sie müssen auf „Alle anzeigen“ klicken, um die aller anderen anzuzeigen.
 
 1. Navigieren Sie zu **[!UICONTROL Komponenten]** > **[!UICONTROL Virtual Report Suites]**.
@@ -30,10 +30,10 @@ Definieren Sie auf der Registerkarte [!UICONTROL Einstellungen] diese Einstellun
 
 | Element | Beschreibung |
 | --- |--- |
-| Name | Der Name der Virtual Report Suite wird nicht von der übergeordneten Report Suite geerbt und sollte eindeutig vergeben werden. |
-| Beschreibung | Fügen Sie eine gute Beschreibung der Vorteile für Ihre geschäftlichen Benutzer hinzu. |
+| Name | Der Name der Virtual Report Suite wird nicht von der übergeordneten Report Suite übernommen und sollte sich von diesem unterscheiden. |
+| Beschreibung | Fügen Sie eine gute Beschreibung hinzu, die den Benutzern Ihres Unternehmens zugutekommt. |
 | Tags | Sie können Tags hinzufügen, um Ihre Report Suites zu organisieren. |
-| Quelle | Die Report Suite, von der diese Virtual Report Suite die folgenden Einstellungen erbt. Die meisten Service-Levels und Funktionen (z. B. eVar-Einstellungen, Verarbeitungsregeln, Classifications usw.) werden vererbt. Um Änderungen an diesen geerbten Einstellungen in einer Virtual Report Suite vorzunehmen, müssen Sie die übergeordnete Report Suite bearbeiten (Admin > Report Suites). |
+| Quelle | Die Report Suite, von der diese Virtual Report Suite die folgenden Einstellungen erbt. Die meisten Service-Levels und Funktionen (z. B. eVar-Einstellungen, Verarbeitungsregeln, Klassifizierungen usw.) werden vererbt. Um Änderungen an diesen geerbten Einstellungen in einer Virtual Report Suite vorzunehmen, müssen Sie die übergeordnete Report Suite bearbeiten (Admin > Report Suites). |
 | Zeitzone | Die Auswahl einer Zeitzone ist optional. Wenn Sie eine Zeitzone auswählen, wird diese zusammen mit der Virtual Report Suite gespeichert. Wenn Sie keine Zeitzone auswählen, wird die Zeitzone der übergeordneten Report Suite verwendet.  Beim Bearbeiten einer Virtual Report Suite wird die mit der Virtual Report Suite gespeicherte Zeitzone in der Dropdown-Auswahl angezeigt. Wenn die Virtual Report Suite erstellt wurde, bevor die Zeitzonenunterstützung hinzugefügt wurde, wird die Zeitzone der übergeordneten Report Suite in der Dropdown-Auswahl angezeigt. |
 | Segmente | Sie können nur ein Segment hinzufügen oder Sie können Segmente stapeln.   Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine OR-Anweisung geändert werden. Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. |
 
@@ -46,7 +46,7 @@ Definieren Sie auf der Registerkarte [!UICONTROL Besuchsdefinition] diese Einste
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anpassen einer Besuchsdefinition](https://video.tv.adobe.com/v/3428471?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anpassen einer Besuchsdefinition](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

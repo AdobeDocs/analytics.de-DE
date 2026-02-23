@@ -4,10 +4,10 @@ title: Verstehen und Konfigurieren von Bot-Regeln
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 68%
+source-wordcount: '1669'
+ht-degree: 40%
 
 ---
 
@@ -17,7 +17,7 @@ Mit Bot-Regeln können Sie Traffic aus Ihrer Report Suite entfernen, der von bek
 
 Nach der Definition von Bot-Regeln wird aller eingehender Traffic mit den definierten Regeln abgeglichen. Traffic, der mit einer dieser Regeln übereinstimmt, wird nicht in der Report Suite erfasst und ist nicht in Traffic-Metriken enthalten.
 
-Mit der Entfernung von Bot-Traffic werden das Traffic-Volumen und die Konversionsmetriken vermindert. Viele Kunden stellen fest, dass die Entfernung von Bot-Traffic zu höheren Konversionsraten und Steigerungen bei anderen Nutzungsmetriken führt.
+Durch das Entfernen von Bot-Traffic wird in der Regel das Traffic-Volumen und die Konversionsmetriken reduziert. Viele Kunden stellen fest, dass die Entfernung von Bot-Traffic zu höheren Konversionsraten und Steigerungen bei anderen Nutzungsmetriken führt.
 
 Traffic-Daten von Bots werden in einem separaten Repository gespeichert, um sie in den Berichten „Bots“ und „Bot-Seiten“ anzuzeigen.
 
@@ -29,12 +29,12 @@ Traffic-Daten von Bots werden in einem separaten Repository gespeichert, um sie 
 
 >[!IMPORTANT]
 >
->Bevor Sie den Bot-Traffic entfernen, machen Sie Stakeholder darauf aufmerksam, damit diese die im Zuge der Änderung notwendigen Anpassungen an wichtige Kennzahlen vornehmen können. Wenn möglich, empfehlen wir, zunächst den Bot-Traffic aus einer kleinen Report Suite zu entfernen, um die potenziellen Auswirkungen abschätzen zu können.
+>Bevor Sie Bot-Traffic entfernen, kommunizieren Sie mit den Stakeholdern, um sicherzustellen, dass sie infolge dieser Änderung die erforderlichen Anpassungen an wichtigen Leistungsindikatoren vornehmen können. Wenn möglich, empfehlen wir, zunächst den Bot-Traffic aus einer kleinen Report Suite zu entfernen, um die potenziellen Auswirkungen abschätzen zu können.
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Konfigurieren von Bot-Regeln](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Konfigurieren von Bot-Regeln](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ So aktualisieren oder laden Sie Bot-Regeln hoch:
 
      Es wird empfohlen, mindestens diese Option auszuwählen.
 
-     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[&#x200B; IAB-Bot-Regeln](#standard-iab-bot-rules).
+     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[ IAB-Bot-Regeln](#standard-iab-bot-rules).
 
    * Wählen Sie [!UICONTROL **Regel hinzufügen**] aus, um benutzerdefinierte Bot-Regeln basierend auf Benutzeragenten, IP-Adressen oder IP-Bereichen zu definieren und hinzuzufügen.
 
@@ -59,7 +59,7 @@ So aktualisieren oder laden Sie Bot-Regeln hoch:
 
    * Klicken Sie neben dem Bereich [!UICONTROL **CSV-Bot-Datei zum Importieren auswählen**] auf [!UICONTROL **Datei auswählen**] und wählen Sie dann die CSV-Datei aus, die die Bot-Regeln definiert.
 
-     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[&#x200B; von Bot-Regeln](#upload-bot-rules).
+     Weitere Informationen finden Sie im folgenden Abschnitt &quot;[ von Bot-Regeln](#upload-bot-rules).
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
@@ -81,21 +81,21 @@ Informationen zum Aktivieren von standardmäßigen IAB-Bot-Regeln in einer Repor
 
 Mit benutzerdefinierten Bot-Regeln können Sie Traffic-Bedingungen filtern, die Sie definieren. Informationen dazu, wie Sie benutzerdefinierte Bot-Regeln in einer Report Suite aktivieren, finden Sie unter [Aktualisieren oder Hochladen von Bot-Regeln](#update-or-upload-bot-rules).
 
-Benutzerspezifische Bot-Regeln werden mithilfe der folgenden Bedingungstypen definiert:
+Benutzerdefinierte Bot-Regeln werden mithilfe der folgenden Bedingungstypen definiert:
 
 * Benutzeragent
 * IP-Adresse
 * IP-Bereich
 
-Für eine einzige Regel können mehrere Bedingungen definiert werden. Mehrere Bedingungen werden mithilfe des „oder“-Befehls zugewiesen. Wenn Sie beispielsweise einen Wert für Benutzeragent und IP-Adresse bereitstellen, wird der Traffic als Bot-Traffic gewertet, wenn eine dieser beiden Bedingungen erfüllt ist.
+Für eine einzelne Regel können mehrere Bedingungen definiert werden. Mehrere Bedingungen werden mit „oder“ abgeglichen. Wenn Sie beispielsweise einen Wert für Benutzeragent und IP-Adresse angeben, wird der Traffic als Traffic betrachtet, wenn eine der Bedingungen erfüllt ist.
 
 ### Benutzeragent
 
 Eine Benutzeragent-Bedingung prüft den Benutzeragentenwert, um zu sehen, ob dieser mit der angegebenen Zeichenfolge **[!UICONTROL beginnt]** oder diese **[!UICONTROL enthält]**. Wenn **[!UICONTROL enthält]** ausgewählt wurde, wird die Unter-Zeichenfolge zugewiesen, wenn sie an einer beliebigen Stelle im Benutzeragenten auftaucht.
 
-Optionale Werte können in die Liste **[!UICONTROL enthält nicht]** aufgenommen werden, um Werte zu definieren, die der Benutzeragent für eine erfolgreiche Übereinstimmung nicht enthalten darf. Sie können mehrere Werte spezifizieren, indem Sie einen Wert pro Zeile aufnehmen. Wenn der Benutzeragent die in der Übereinstimmungszeichenfolge spezifizierten Kriterien erfüllt, aber auch eine Zeichenfolge enthält, die auf der „enthält nicht“-Liste steht, wird er nicht als Übereinstimmung gewertet.
+Optionale Werte können in die Liste **[!UICONTROL enthält nicht]** aufgenommen werden, um Werte zu definieren, die der Benutzeragent für eine erfolgreiche Übereinstimmung nicht enthalten darf. Mehrere Werte können angegeben werden, indem ein Wert pro Zeile eingeschlossen wird. Erfüllt der Benutzeragent die in der Übereinstimmungszeichenfolge angegebenen Kriterien, enthält aber auch eine Zeichenfolge in der Liste Enthält nicht , wird er nicht als Übereinstimmung betrachtet.
 
-Das Feld **[!UICONTROL enthält]** ist auf 100 Zeichen begrenzt. Die „enthält nicht“-Liste ist auf 255 Zeichen abzüglich eines Trennzeichens für jede neue Zeile begrenzt. (Dies entspricht der Anzahl der Zeichenfolgen – 1. Wenn Sie 4 angeben *enthält nicht* Zeichenfolgen, sind 3 Trennzeichen erforderlich.) Bei allen Zeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+Das Feld **[!UICONTROL enthält]** ist auf 100 Zeichen begrenzt. Die Liste Enthält nicht ist auf 255 Zeichen minus einem Trennzeichen für jede neue Zeile beschränkt. (Dies entspricht der Anzahl der Zeichenfolgen - 1. Wenn Sie 4 angeben *enthält nicht* Zeichenfolgen, sind 3 Trennzeichen erforderlich.) Bei allen Zeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
 ### IP-Adresse (inklusive Wildcard-Übereinstimmungen)
 
@@ -118,7 +118,7 @@ Geben Sie die Start- und Endbereiche der zuzuweisenden IP-Adressen an. Ersetzen 
 
 ## Hochladen von Bot-Regeln
 
-Für einen Massenimport von Bot-Regeln können Sie eine CSV-Datei hochladen, in der die Regeln definiert sind.
+Um Bot-Regeln stapelweise zu importieren, können Sie eine CSV-Datei hochladen, die die Regeln definiert.
 
 1. Informationen zum Starten des Uploads von Bot-Regeln in eine Report Suite finden Sie unter [Aktualisieren oder Hochladen von Bot-Regeln](#update-or-upload-bot-rules).
 
@@ -141,11 +141,11 @@ Für einen Massenimport von Bot-Regeln können Sie eine CSV-Datei hochladen, in 
    >   Um eine Übereinstimmung für einen Bot mithilfe einer OR-Kombination aus Regeln zu finden (z. B. Benutzeragent ODER IP-Adresse), geben Sie einen identischen Namen für alle Regeln an, die Sie in dem Bot-Namensfeld kombinieren möchten. AND-Übereinstimmungen werden nicht unterstützt.
 
 
-   * **Benutzeragent enthält oder beginnt mit:** Geben Sie eine einzige Benutzeragent-Zeichenfolge zur Übereinstimmung in der Spalte „Agent einschließlich“ ein. Legen Sie den gewünschten Übereinstimmungstyp fest, indem Sie im Feld zur Agent-Übereinstimmungsregel den Vermerk *enthält* oder *beginnt mit* platzieren. Ein optionaler Wert kann in die Spalte „Agent ausschließlich“ aufgenommen werden, der eine oder mehrere längsstrichgetrennte (`|`) Zeichenketten definiert, die der Agent nicht enthalten darf. Bei Zeichenfolgen-Übereinstimmungen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Sowohl die Spalte „IP-Start“ als auch „IP-Ende“ müssen leer sein.
+   * **Benutzeragent enthält oder beginnt mit**: Geben Sie eine einzelne Benutzeragenten-Zeichenfolge an, die in der Spalte „Agent einschließen“ abgeglichen werden soll. Geben Sie den Typ der Übereinstimmung an, die ausgeführt werden soll, indem Sie *enthält* oder *beginnt mit* im Feld Agentenübereinstimmungsregel platzieren. Ein optionaler Wert kann in die Spalte „Agent ausschließlich“ aufgenommen werden, der eine oder mehrere längsstrichgetrennte (`|`) Zeichenketten definiert, die der Agent nicht enthalten darf. Bei Zeichenfolgenübereinstimmungen wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Spalten IP-Start und IP-Ende müssen leer sein.
 
    * **Einzelne IP-Adresse oder Wildcard-Übereinstimmung**: Um eine Übereinstimmung mit einer einzelnen IP-Adresse (`10.10.10.1`) oder einer Platzhalter-IP-Adresse (`10.10.*.*`) herzustellen, platzieren Sie denselben Wert in den Spalten „IP-Start“ und „IP-Ende“. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
-   * **IP-Bereichs-Übereinstimmung**: Definieren Sie einen Bereich von IP-Adressen mithilfe der Spalten „IP-Start“ und „IP-Ende“. Sie können Platzhalter nutzen, um Übereinstimmungen für IP-Bereiche zu finden, z. B. `10.10.10.*` bis `10.10.20.*`. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
+   * **IP-Bereichsübereinstimmung**: Definieren Sie einen Bereich von IP-Adressen mithilfe der Spalten IP-Start und IP-Ende . Sie können Platzhalter nutzen, um Übereinstimmungen für IP-Bereiche zu finden, z. B. `10.10.10.*` bis `10.10.20.*`. „Übereinstimmungsregel“, „Agent einschließlich“ und „Agent ausschließlich“ müssen leer sein.
 
 1. Klicken Sie auf der Seite „Bot-Regeln“ in Report Suite Manager neben dem Bereich [!UICONTROL **CSV-Bot-Datei zum Importieren auswählen**] auf [!UICONTROL **Datei auswählen**] und wählen Sie dann die CSV-Datei aus, die die zu importierenden Bot-Regeln definiert.
 
@@ -173,7 +173,7 @@ Bot-Regeln gelten für alle Analysedaten. Mithilfe von Bot-Regeln entfernte Date
 
 VISTA-Regeln werden nach Bot-Regeln angewendet. Weitere Informationen finden Sie im Technote-Benutzerhandbuch unter [Verarbeitungsreihenfolge](/help/technotes/processing-order.md).
 
-**Verarbeitung von Besuchen mit hoher Hit-Zahl:** Wenn mehr als 100 Hits in einem Besuch auftreten, wird bei der Berichterstellung ermittelt, ob der Zeitraum des Besuchs (in Sekunden) kleiner oder gleich der Anzahl der Hits bei diesem Besuch ist. In dieser Situation beginnt die Berichterstellung mit dem nächsten Besuch neu, da die Verarbeitung langer, intensiver Besuche hohe Kosten verursacht. Besuche mit hoher Hit-Zahl werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen von Besuchern.
+**Verarbeitung von Besuchen mit hoher Trefferrate:** Wenn bei einem Besuch mehr als 100 Treffer auftreten, bestimmt das Reporting, ob die Besuchszeit in Sekunden kleiner oder gleich der Anzahl der Treffer im Besuch ist. In diesem Fall beginnt das Reporting aufgrund der Kosten für die Verarbeitung langer, intensiver Besuche mit einem neuen Besuch. Besuche mit hohen Treffern werden in der Regel durch Bot-Angriffe verursacht und gelten nicht als normales Browsen durch Besucher.
 
 >[!NOTE]
 >
@@ -181,8 +181,8 @@ VISTA-Regeln werden nach Bot-Regeln angewendet. Weitere Informationen finden Sie
 
 ## Auswirkung der IP-Verschleierung auf die Bot-Filterung {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
-Die IAB-Bot-Liste basiert lediglich auf dem Benutzeragenten, so dass das Filtern auf der Basis dieser Liste nicht durch die IP-Verschleierungseinstellungen beeinträchtigt wird. Bei Nicht-IAB-Bot-Filterung (benutzerdefinierte Regeln) kann die IP Bestandteil der Filterkriterien sein. Beim Filtern von Bots mithilfe von IP erfolgt die Bot-Filterung nach Entfernung des letzten Oktetts, sofern diese Einstellung aktiviert ist, jedoch vor den anderen IP-Verschleierungseinstellungen wie z. B. dem Löschen der gesamten IP oder dem Austausch durch eine eindeutige ID.
+Die IAB-Bot-Liste basiert ausschließlich auf dem Benutzeragenten. Daher ist das Filtern auf der Grundlage dieser Liste von den Einstellungen für die IP-Verschleierung nicht betroffen. Bei der Nicht-IAB-Bot-Filterung (benutzerdefinierte Regeln) kann IP Teil der Filterkriterien sein. Wenn Bots über IP gefiltert werden, erfolgt die Bot-Filterung, nachdem das letzte Oktett entfernt wurde, sofern diese Einstellung aktiviert ist, aber vor den anderen IP-Verschleierungsoptionen, z. B. vor dem Löschen der gesamten IP oder dem Ersetzen durch eine eindeutige ID.
 
-Wenn die IP-Verschleierung aktiviert ist, wird der IP-Ausschluss durchgeführt, bevor die IP verschleiert wird. Kunden müssen also keine Änderungen vornehmen, wenn sie die IP-Verschleierung aktivieren.
+Wenn die IP-Verschleierung aktiviert ist, erfolgt der IP-Ausschluss, bevor die IP-Adresse verschleiert wird, sodass Kunden nichts ändern müssen, wenn sie die IP-Verschleierung aktivieren.
 
 Wenn das letzte Oktett entfernt wird, geschieht dies vor der IP-Filterung. Dabei wird das letzte Oktett mit „0“ ersetzt und die Regeln für den IP-Ausschluss sollten aktualisiert werden, sodass sie IP-Adressen mit einer Null am Ende berücksichtigen. Übereinstimmende &#42; sollten 0 entsprechen.

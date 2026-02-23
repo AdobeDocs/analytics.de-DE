@@ -4,10 +4,10 @@ keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
 title: Überblick über Analytics-Daten-Feed
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Die folgenden Ressourcen helfen Ihnen dabei, den grundlegenden Workflow beim Abr
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in der Daten-Feed-Oberfläche](https://video.tv.adobe.com/v/3428560?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in der Daten-Feed-Oberfläche](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln Ihrer Daten-Feed-ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln Ihrer Daten-Feed-ID](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]

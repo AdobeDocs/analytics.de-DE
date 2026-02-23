@@ -5,7 +5,7 @@ title: Visualisierungen - Übersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: b2e6b10fb468d5661f65b31c60d4d16b93dc9139
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 86%
@@ -24,7 +24,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 | Symbol | Name | Beschreibung |
 | :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [Bereich](/help/analyze/analysis-workspace/visualizations/area.md) | Eine Flächendiagramm-Visualisierung. Wie ein Liniendiagramm, aber mit einem farbigen Bereich unterhalb der Linie. Verwenden Sie ein Flächendiagramm, wenn Sie mehrere Metriken darstellen und den Bereich visualisieren möchten, der durch die Schnittmenge von zwei oder mehr Metriken gebildet wird. |
-| ![VertikaleGrafikbalken](/help/assets/icons/GraphBarVertical.svg) | [Balken](/help/analyze/analysis-workspace/visualizations/bar.md) | Eine Visualisierung „Balkendiagramm“ mit vertikalen Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Balken](/help/analyze/analysis-workspace/visualizations/bar.md) | Eine Visualisierung „Balkendiagramm“ mit vertikalen Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Balken gestapelt](/help/analyze/analysis-workspace/visualizations/bar.md) | Eine Diagrammvisualisierung vom Typ „Balken gestapelt“ mit vertikalen Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen. |
 | ![Aufzählungspunkte](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Eine Visualisierung „Bullet-Diagramm“, die zeigt, wie ein Wert, der Sie interessiert, im Vergleich zu anderen Leistungsbereichen (Zielen) liegt oder ausfällt. |
 | ![NummerierterText](/help/assets/icons/TextNumbered.svg) | [Kohortentabelle](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Eine Visualisierung „Kohorte“ ist eine Personengruppe mit gemeinsamen Merkmalen innerhalb eines vorgegebenen Zeitraums. Eine Kohortentabelle ist nützlich für die Analyse von Verweildauer, Abwanderung oder Latenz. |
@@ -93,7 +93,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
    * Wählen Sie im Kontextmenü in einer Freiformtabelle die Option **[!UICONTROL Visualisieren]** aus. Wählen Sie dann die Visualisierung aus dem Untermenü aus. Basierend auf der aktuellen Auswahl in der Tabelle bestimmt Workspace, welche Visualisierung angeboten werden soll, und interpretiert die Daten, um die angeforderte Visualisierung zu erstellen.
 
-Wenn Sie eine einfache Visualisierung hinzufügen, z. B[&#x200B; eine &#x200B;](line.md)-[-](bar.md)-Visualisierung, verwendet die Visualisierung die nächste Freiformtabelle als Datenquelle. Sie können jederzeit die [Datenquelle](#data-source) einer Ihrer Visualisierungen ändern.
+Wenn Sie eine einfache Visualisierung hinzufügen, z. B[ eine ](line.md)-[-](bar.md)-Visualisierung, verwendet die Visualisierung die nächste Freiformtabelle als Datenquelle. Sie können jederzeit die [Datenquelle](#data-source) einer Ihrer Visualisierungen ändern.
 
 ## Verwalten von Visualisierungen
 
@@ -179,10 +179,10 @@ Verwenden Sie das Kontextmenü (verfügbar über eine alternative Auswahl, z. B
 | --- | --- |
 | **[!UICONTROL Kopierte Visualisierung einfügen]** | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt ein. |
 | **[!UICONTROL Daten in die Zwischenablage kopieren]** | [Kopieren Sie Daten](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
+| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
 | **[!UICONTROL Visualisierung kopieren]** | Kopieren Sie die Visualisierung, sodass Sie sie an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
-| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
+| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
 | **[!UICONTROL Visualisierung duplizieren]** | Erstellen Sie ein exaktes Duplikat der Visualisierung. |
 | **[!UICONTROL Beschreibung bearbeiten]** | Fügen Sie Text zur Beschreibung der Visualisierung hinzu (oder bearbeiten Sie ihn). Siehe [Text](text.md). |
 | **[!UICONTROL Visualisierungs-Link abrufen]** | Kopieren Sie einen Link und teilen Sie ihn direkt in der Visualisierung. Der Link wird im Dialogfeld „Link freigeben“ angezeigt. Wählen Sie „Kopieren“ aus, um den Link in die Zwischenablage zu kopieren. |
@@ -200,69 +200,3 @@ Einige Visualisierungen (z. B. „Kohortentabelle“, „Fallout“, „Fluss�
 Wenn Sie sich nicht sicher sind, welche Visualisierung Sie auswählen sollen, bewegen Sie den Mauszeiger über eine beliebige Freiformtabellenzeile und klicken Sie auf das dann erscheinende Symbol ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL Visualisieren]**. Dies ist die schnellste Möglichkeit, eine Visualisierung hinzuzufügen. Analysis Workspace sucht nach der Visualisierung, die aufgrund der vorhandenen Fakten am besten zu Ihren Daten passt. Wenn Sie beispielsweise eine einzelne Zeile ausgewählt haben, wird ein Trend-[Liniendiagramm](line.md) erstellt. Wenn Sie drei Filterzeilen ausgewählt haben, wird ein [Venn](venn.md)-Diagramm erstellt.
 
 ![Schnellvisualisierung](assets/quick-viz.png)
-
-
-<!--
-## Settings {#settings}
-
-![](assets/settings.png)
-
-| Setting | Description |
-| --- | --- |
-| Visualization Type | Change the type of visual used to depict the data. |
-| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
-| Percentages | Displays values in percentages. |
-| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
-| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
-| Limit Max Items | Lets you limit the number of items that a visualization displays. |
-| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
-| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
-| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
-| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
-
-## Legend {#legend}
-
-A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
-
-Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
-
-To edit a legend label:
-
-1. Right-click one of the legend labels.
-1. Click **[!UICONTROL Edit Label]**.
-
-   ![](assets/edit-label.png)
-
-1. Enter the new label text.
-1. Press **[!UICONTROL Enter]** to save.
-
-## Right-click menu {#right-click}
-
-Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
-
-![](assets/right-click.png)
-
-| Setting | Description |
-| --- | --- |
-| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
-| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-data) | Download visualization data source as a CSV. |
-| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
-| Edit Description | Add (or edit) a text description for the visualization. |
-| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
-| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
-
-## Create Visual icon {#quick-viz}
-
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
-
-![](assets/quick-viz.png)
-
-## Change the scale axis on visualizations
-
-Here is a video overview:
-
->[!VIDEO](https://video.tv.adobe.com/v/41447/?captions=ger&quality=12)
-
--->

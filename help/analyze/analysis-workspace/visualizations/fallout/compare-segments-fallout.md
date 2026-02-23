@@ -5,10 +5,10 @@ title: Segmente in Fallout-Analyse anwenden
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 37%
 
 ---
 
@@ -31,11 +31,11 @@ Sie können in Analysis Workspace Segmente aus einem Touchpoint erstellen, Segme
 
    ![](assets/fallout-createsegment.png)
 
-   Der Segment Builder wird geöffnet und enthält das vorab erstellte sequenzielle Segment, das zu dem von Ihnen ausgewählten Touchpoint passt:
+   Der Segment Builder wird geöffnet und enthält bereits das vorkonfigurierte sequenzielle Segment, das dem von Ihnen ausgewählten Touchpoint entspricht:
 
    ![](assets/fallout-definesegment.png)
 
-1. Geben Sie einen Titel und eine Beschreibung für das Segment ein, und speichern Sie es.
+1. Geben Sie dem Segment einen Titel und eine Beschreibung und speichern Sie es.
 
    Dieses Segment kann jetzt in jedem gewünschten Projekt verwendet werden.
 
@@ -51,12 +51,6 @@ Sie können auch einen UND-Touchpoint erstellen, indem Sie das Segment Mobile-Ap
 
 In der Fallout-Visualisierung können Sie eine unbegrenzte Anzahl von Segmenten vergleichen. (Beachten Sie, dass Sie im folgenden Video bis zu drei Segmente vergleichen können, was falsch ist.)
 
-
->[!BEGINSHADEBOX]
-
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente in einer Fallout-Visualisierung vergleichen](https://video.tv.adobe.com/v/328032?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
-
->[!ENDSHADEBOX]
 
 
 1. Wählen Sie die zu vergleichenden Segmente aus dem Bedienfeld [!UICONTROL Segment] auf der linken Seite aus. Im Beispiel sind zwei Segmente ausgewählt: **[!UICONTROL iOS]** und **[!UICONTROL Android]**.

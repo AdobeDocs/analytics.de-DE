@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 68%
+source-wordcount: '1320'
+ht-degree: 43%
 
 ---
 
@@ -20,30 +20,30 @@ ht-degree: 68%
 
 ![Herkömmliche Verarbeitungs-Pipeline](assets/google1.jpg)
 
-Während der Datenverarbeitung in Analytics fließen die Daten durch die Datenerfassungspipeline und einen Vorverarbeitungsschritt, indem die Daten für die Berichterstellung vorbereitet werden. In diesem Schritt der Vorverarbeitung werden die Besuchsablauflogik und eVar-Persistenzlogik (unter anderem) auf die Daten angewendet, während sie erfasst werden. Der primäre Nachteil dieses Vorverarbeitungsmodells besteht darin, dass jegliche Konfiguration vorab erfolgen muss, noch bevor die Daten erfasst werden. Das heißt, dass die an den Vorverarbeitungseinstellungen vorgenommen Änderungen nur ab diesem Zeitpunkt und für neue Daten gelten. Dies ist problematisch, wenn defekte Daten eingehen oder wenn Einstellungen falsch konfiguriert wurden.
+Während der Analytics-Datenverarbeitung fließen Daten durch die Datenerfassungs-Pipeline und in einen Vorverarbeitungsschritt, der Daten für das Reporting vorbereitet. In diesem Vorverarbeitungsschritt werden die Besuchsgültigkeitslogik und die eVar-Persistenzlogik (unter anderem) auf die Daten zum Zeitpunkt ihrer Erfassung angewendet. Der Hauptnachteil dieses Vorverarbeitungsmodells besteht darin, dass vor der Datenerfassung jede Konfiguration vorgenommen werden muss. Das bedeutet, dass Änderungen an den Vorverarbeitungseinstellungen nur für neue Daten ab diesem Zeitpunkt gelten. Dies ist problematisch, wenn die Daten nicht in der richtigen Reihenfolge eingehen oder die Einstellungen falsch konfiguriert waren.
 
 [!UICONTROL Berichtszeitverarbeitung] ist eine völlig andere Methode zur Verarbeitung von Analytics-Daten für die Berichterstellung. Anstatt vor dem Erfassen von Daten die Verarbeitungslogik vorab zu bestimmen, ignoriert Analytics die während des Vorverarbeitungsschritts festgelegten Daten und wendet diese Logik bei jeder Berichtsausführung an:
 
 ![Pipeline zur Berichtszeitverarbeitung](assets/google2.jpg)
 
-Diese Verarbeitungsarchitektur ermöglicht weit flexiblere Berichterstellungsoptionen. Sie können beispielsweise die Zeitüberschreitungsdauer für Besuche zerstörungsfrei auf eine beliebige Zeitdauer ändern. Diese Änderungen werden in Ihren eVar-Persistenz- und Segment-Containern für den gesamten Berichtszeitraum übernommen. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
+Diese Verarbeitungsarchitektur ermöglicht deutlich flexiblere Berichtsoptionen. Sie können beispielsweise die Zeitüberschreitungsdauer für Besuche zerstörungsfrei auf eine beliebige Zeitdauer ändern. Diese Änderungen werden in Ihren eVar-Persistenz- und Segment-Containern für den gesamten Berichtszeitraum übernommen. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-Mit [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden, und der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de&lange=de) kann bei jedem Auslösen eines Startereignisses einer Mobile App einen neuen Besuch starten.
+Mit [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden, und der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) kann bei jedem Auslösen eines Startereignisses einer Mobile App einen neuen Besuch starten.
 
 ## Konfigurationsoptionen
 
 Die folgenden Konfigurationsoptionen sind derzeit für Virtual Report Suites mit aktivierter Berichtszeitverarbeitung verfügbar:
 
-* **[!UICONTROL Maximale Wartezeit für Besuch]:** Mit dieser Einstellung wird die Dauer der Inaktivität eines Unique Visitor definiert, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchstimeout auf 15 Minuten festlegen, wird für jede Sequenz mit erfassten Treffern eine neue Besuchsgruppierung erstellt, die nach 15 Minuten Inaktivität separiert ist. Diese Einstellung beeinflusst nicht nur Ihre Besuchszahlen, sondern auch die Art und Weise der Evaluierung von Besuchssegmentcontainern und die Besuchsablauflogik für eVars, die bei einem Besuch ablaufen. Durch eine Verringerung des Besuchstimeouts erhöht sich wahrscheinlich die Gesamtzahl der Besuche in der Berichterstellung, während eine Erhöhung des Besuchstimeouts wahrscheinlich zu einer Reduzierung der Gesamtbesuche in der Berichterstellung führt.
-* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lang=de&lange=de) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind nicht destruktiv und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Sie haben keinen Einfluss auf Daten, die außerhalb der Mobile SDKs erfasst wurden.
+* **[!UICONTROL Timeout für Besuch]:** Mit dieser Einstellung wird die Dauer der Inaktivität eines Unique Visitor definiert, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchs-Timeout auf 15 Minuten festlegen, wird für jede erfasste Sequenz von Treffern eine neue Besuchergruppe erstellt, getrennt durch 15 Minuten Inaktivität. Diese Einstellung wirkt sich nicht nur auf die Anzahl Ihrer Besuche aus, sondern auch darauf, wie Besuchssegment-Container ausgewertet werden und wie die Logik des Besuchsablaufs für alle eVars funktioniert, die beim Besuch ablaufen. Wenn Sie die maximale Wartezeit für Besuche verringern, wird sich wahrscheinlich die Gesamtzahl der Besuche in Ihren Berichten erhöhen, während eine Erhöhung der maximalen Wartezeit für Besuche wahrscheinlich die Gesamtzahl der Besuche in Ihren Berichten verringert.
+* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lange=de) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind zerstörungsfrei und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Diese Einstellungen haben keine Auswirkungen auf Daten, die außerhalb der Mobile SDK erfasst werden.
 * **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn sich die Mobile App in einem Hintergrundzustand befindet.
-* **[!UICONTROL Bei jedem Anwendungsstart einen neuen Besuch starten]:** Zusätzlich zur maximalen Wartezeit für Besuche können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein Startereignis einer Mobile App aufgezeichnet wurde. Die Inaktivitätsdauer ist dabei unerheblich. Diese Einstellung hat einen Einfluss auf die Besuchsmetrik und den Besuchssegment-Container sowie die Besuchsgültigkeitslogik für eVars.
-* **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist oder nicht. Zur neuen Sitzung gehört auch das Ereignis, das sie ausgelöst hat. Zudem können Sie mehrere Ereignisse nutzen, um eine Sitzung zu starten, und eine neue Sitzung wird dann begonnen, wenn beliebige dieser Ereignisse in den Daten auftreten. Diese Einstellung wirkt sich auf Ihre Besuchszählung, den Besuchssegmentierungs-Container sowie die Besuchsablauflogik von eVars aus.
+* **[!UICONTROL Bei jedem Anwendungsstart einen neuen Besuch starten]:** Zusätzlich zum Timeout für Besuche können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein Startereignis einer App aufgezeichnet wurde. Die Inaktivitätsdauer ist dabei unerheblich. Diese Einstellung hat einen Einfluss auf die Besuchsmetrik und den Besuchssegment-Container sowie die Besuchsgültigkeitslogik für eVars.
+* **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist oder nicht. Die neu erstellte Sitzung enthält das Ereignis, mit dem sie gestartet wurde. Darüber hinaus können Sie mehrere Ereignisse verwenden, um eine Sitzung zu starten. Eine neue Sitzung wird ausgelöst, wenn eines dieser Ereignisse in den Daten beobachtet wird. Diese Einstellung wirkt sich auf die Anzahl der Besuche, den Besuchssegmentierungs-Container und die Logik des Besuchsablaufs für eVars aus.
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines neuen Besuchs mit einem Ereignis](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines neuen Besuchs mit einem Ereignis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -53,7 +53,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines 
 
 Die Berichtszeitverarbeitung unterstützt nicht alle Metriken und Dimensionen, die in der herkömmlichen Analytics-Berichterstellung verfügbar sind. Auf Virtual Report Suites mit Berichtszeitverarbeitung kann nur über Analysis Workspace zugegriffen werden, nicht aber über Data Warehouse, Report Builder, Daten-Feeds oder der Reporting-API.
 
-Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus dem Datumsbereich der Berichterstellung stammen (nachfolgend als „Datumsfenster“ bezeichnet). Demnach bleiben auf „laufen nie ab“ festgelegte eVar-Werte für einen Besucher vor dem Datumsbereich der Berichterstellung in den Berichterstellungsfenstern nicht erhalten, und sie erscheinen nicht in Berichten. Das heißt auch, dass Kundenloyalitätsmessungen ausschließlich auf den im Berichterstellungsdatumsbereich vorhandenen Daten und nicht auf dem gesamten Verlauf vor dem Berichterstellungsdatumsbereich basieren.
+Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus dem Datumsbereich der Berichterstellung stammen (nachfolgend als „Datumsfenster“ bezeichnet). Das bedeutet, dass eVar-Werte, die für eine Besucherin oder einen Besucher vor dem Berichtsdatumsbereich auf „läuft nie ab“ festgelegt wurden, nicht in den Berichtsfenstern beibehalten werden und nicht in Berichten angezeigt werden. Dies bedeutet auch, dass die Messungen der Kundentreue ausschließlich auf den im Datumsbereich des Berichts vorhandenen Daten basieren und nicht auf dem gesamten Verlauf vor dem Datumsbereich des Berichts.
 
 Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung nicht unterstützt:
 
@@ -68,7 +68,7 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 * **Vars auflisten**
 * [**Marketing-Kanal-Dimensionen**](/help/components/dimensions/marketing-channel.md)
 * [**Ursprünglich verweisende Domain**](/help/components/dimensions/original-referring-domain.md)
-* [**Häufigkeit der &#x200B;**](/help/components/dimensions/return-frequency.md)
+* [**Häufigkeit der **](/help/components/dimensions/return-frequency.md)
 * [**Einzelzugriff**](/help/components/metrics/single-access.md)
 * **Transaktions-ID-Datenquellen**
 * [**Besuchsnummer**](/help/components/dimensions/visit-number.md)

@@ -3,10 +3,10 @@ description: Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung 
 title: Tracking-Typ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
@@ -18,11 +18,11 @@ Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmasc
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/37472/?quality=12&captions=ger)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
-Es werden zwei Tracking-Modi unterstützt[!UICONTROL &#x200B; „Auto] und [!UICONTROL Manuell].
+Es werden zwei Tracking-Modi unterstützt[!UICONTROL  „Auto] und [!UICONTROL Manuell].
 
 ## [!UICONTROL Auto]-Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
@@ -33,11 +33,11 @@ Daher müssen Sie bei Auswahl von „Automatisch“ ein Bestätigungs-Kontrollk�
 Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!UICONTROL Auto]**-Typ für die folgenden Aktionen verantwortlich sind:
 
 * Der `s_kwcid` und der Wert werden zu den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. Dieser Parameter und Wert werden am Ende der URL eingefügt. Möglicherweise sind zusätzliche Aktionen Ihrerseits erforderlich, wenn Ihr Webserver ein bestimmtes `key=value` am Ende der URL benötigt. Oder eine Aktualisierung zur Unterstützung jedes neuen `key=value` in der URL. Sie müssen sicherstellen, dass die hinzugefügten URL-Parameter korrekt auf der endgültigen Landingpage bestehen bleiben.
-* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Wenn sie Sonderzeichen oder Symbole enthalten, überprüfen Sie bitte, ob Ihr Webserver diese Zeichen unterstützen kann. Beispielsweise wird ein gängiges Sonderzeichen `+`, das in Schlüsselwörtern vom Typ „Broad Match Modified“ verwendet wird.
+* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Falls sie Sonderzeichen oder Symbole enthalten, bestätigen Sie bitte, dass Ihr Webserver diese Zeichen unterstützen kann. Beispielsweise wird ein gängiges Sonderzeichen `+`, das in Schlüsselwörtern vom Typ „Broad Match Modified“ verwendet wird.
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/de/docs/id-service/using/reference/csp) hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) hinzufügen sollten.
 
 ## Manuelles Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -51,7 +51,7 @@ Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Google-Konto hinzugefügt
 >
 >Der Wert *`<Advertising Analytics ID>`* (unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen** müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt [!UICONTROL Tracking] abrufen.
 
-**Tracking-Zeichenfolge für Kampagnen:**
+**Tracking-String für Kampagnen:**
 
 ```
 s_kwcid=AL! 
@@ -98,9 +98,9 @@ Die Zeichenfolge, die Ihrem Microsoft Advertising-Konto hinzugefügt werden muss
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
-**Tracking-Zeichenfolge für Kampagnen:**
+**Tracking-String für Kampagnen:**
 
 ```
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 

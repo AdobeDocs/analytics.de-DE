@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Im Rahmen der Umstellung auf eine neue Report Builder-Funktion können Sie Ihre 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://video.tv.adobe.com/v/3446191?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeitsmappen konvertieren](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Um eine ältere Arbeitsmappe zu öffnen, haben Sie folgende Möglichkeiten:
 
    1. Wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der Excel-Multifunktionsleiste aus.
    1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
-   1. Konvertieren [&#x200B; dann die alte Arbeitsmappe](#convert-a-workbook).
+   1. Konvertieren [ dann die alte Arbeitsmappe](#convert-a-workbook).
 
 
 ## Alte Arbeitsmappe konvertieren
@@ -90,7 +90,7 @@ So konvertieren Sie eine veraltete Arbeitsmappe:
 
      ![Excel Report Builder Upgrade Report-Arbeitsmappe](assets/upgrade-report.png)
 
-Sie können [&#x200B; Datenblöcke in &#x200B;](/help/analyze/report-builder/manage-reportbuilder.md) Arbeitsmappe verwalten. Diese Datenblöcke sind das Ergebnis des Upgrades und ersetzen Ihre veralteten Report Builder-Anfragen.
+Sie können [ Datenblöcke in ](/help/analyze/report-builder/manage-reportbuilder.md) Arbeitsmappe verwalten. Diese Datenblöcke sind das Ergebnis des Upgrades und ersetzen Ihre veralteten Report Builder-Anfragen.
 
 
 ## Planen einer konvertierten Legacy-Arbeitsmappe

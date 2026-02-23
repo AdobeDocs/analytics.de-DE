@@ -4,10 +4,10 @@ title: Interdimensionaler Fallout
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,11 @@ Mit Fallout in Analysis Workspace können Sie Dimensionen und Metriken als Touch
 
 Beispielsweise können Sie zusätzlich zu einer Seitendimension weitere Dimensionselemente (wie einen bestimmten Gerätenamen aus der Dimension Gerätename) zu einer Fallout-Visualisierung hinzufügen. Durch Kombinieren von Dimensionen können Sie visualisieren, wie Seiten und bestimmte Aktionen in den Pfaden der Kunden interagieren.
 
->[!BEGINSHADEBOX]
-
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mehrdimensionaler Fallout](https://video.tv.adobe.com/v/327466?quality=12&learn=on&captions=ger){target="_blank"} für ein Demovideo.
-
->[!ENDSHADEBOX]
-
 Beispielsweise können Sie zusätzlich zu einer Seitendimension weitere Dimensionselemente (wie einen bestimmten Gerätenamen aus der Dimension Gerätename) zu einer Fallout-Visualisierung hinzufügen. Durch Kombinieren von Dimensionen können Sie visualisieren, wie Seiten und bestimmte Aktionen in den Pfaden der Kunden interagieren.
 
 ![Die Ansicht „Alle Besuche“, die mehrere Dimensionen als Touchpoints anzeigt.](assets/fallout-otherdimension.png)
 
-Der Fallout wird dynamisch aktualisiert und zeigt Ihnen den Fallout über mehrere Dimensionen hinweg an.
+Der Fallout wird dynamisch aktualisiert und ermöglicht die Anzeige von Fallout über mehrere Dimensionen hinweg.
 
 Sie können auch Metriken hinzufügen. Sie können beispielsweise die Metrik Aufruf hinzufügen, um nur Pfade für Benutzer anzuzeigen, für die Anrufe vorhanden sind und die sich an das Callcenter gewandt haben:
 

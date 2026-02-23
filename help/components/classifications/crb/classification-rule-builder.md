@@ -3,9 +3,9 @@ description: Statt Classifications bei jeder Trackingcode-Änderung zu verwalten
 title: Classification Rule Builder-Workflow
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 76%
 
 ---
@@ -18,7 +18,7 @@ Statt Classifications bei jeder Trackingcode-Änderung zu verwalten und hochzula
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification Rule Builder](https://video.tv.adobe.com/v/3434378?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Classification Rule Builder](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3564'
 ht-degree: 84%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Ein Segment legt Bedingungen fest, um einen Besucher basierend auf den Attributen des Besuchers oder den Interaktionen mit Ihrer Site zu filtern. Um Bedingungen in einem Segment festzulegen, legen Sie Regeln fest, um Besucher nach Besuchermerkmalen und/oder Navigationseigenschaften zu filtern. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
 
-Die im Segmentaufbau verwendete Container[Architektur definiert &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md):
+Die im Segmentaufbau verwendete Container[Architektur definiert ](/help/components/segmentation/segmentation-workflow/seg-build.md):
 
 - ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Besucher]** als äußerster Container, der übergreifende Daten enthält, die für den Besucher über Besuche und Seitenansichten hinweg spezifisch sind.
 - ![Besuch](/help/assets/icons/Visit.svg) Mit einem verschachtelten Container **[!UICONTROL Besuch]** können Sie Regeln festlegen, um die Besucherdaten auf der Grundlage von Besuchen aufzuschlüsseln, und
@@ -47,7 +47,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://video.tv.adobe.com/v/3429106?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
