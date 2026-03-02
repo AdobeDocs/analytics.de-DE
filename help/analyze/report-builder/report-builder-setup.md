@@ -74,7 +74,7 @@ So laden Sie das Report Builder-Add-in herunter und installieren es
 
   ![Die Registerkarte „Admin Managed“ im Dialogfeld „Office-Add-Ins“.](./assets/image1.png)
 
-- Alternativ können Sie die [Manifestdatei) manuell abrufen ](https://reportbuilder.an.adobe.com/manifest.xml) die Datei in Ihrer eigenen IT-Infrastruktur hosten. <br/>Anweisungen zum Installieren einer Excel-Manifestdatei, die nicht [ Microsoft Store bereitgestellt wird, finden Sie in der Dokumentation zu Microsoft Office ](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish)Online).
+- Alternativ können Sie die [Manifestdatei) manuell abrufen &#x200B;](https://reportbuilder.an.adobe.com/manifest.xml) die Datei in Ihrer eigenen IT-Infrastruktur hosten. <br/>Anweisungen zum Installieren einer Excel-Manifestdatei, die nicht [&#x200B; Microsoft Store bereitgestellt wird, finden Sie in der Dokumentation zu Microsoft Office &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish)Online).
 
 Nach der Installation des Report Builder-Add-ins wird das Report Builder-Symbol im [!DNL Excel] unter der Registerkarte Startseite angezeigt.
 
