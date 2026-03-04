@@ -3,23 +3,32 @@ title: Verwalten von Daten-Feeds
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren. Erfahren Sie, wie Sie einen Daten-Feed erstellen, bearbeiten und anzeigen.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# Verwalten von Daten-Feeds
+# Verwalten von Daten-Feeds {#manage-data-feeds}
 
 Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstellen, bearbeiten und löschen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Verwalten von Daten-Feeds"
+>abstract="Auf dieser Seite können Sie Daten-Feeds anzeigen, erstellen und verwalten. Suchen Sie nach Feeds anhand des Namens oder der ID oder klicken Sie auf das Filtersymbol, um die verfügbaren Filter anzuzeigen."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## Anzeigen von Daten-Feeds
@@ -34,7 +43,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](h
 
 ## Erstellen eines Daten-Feeds
 
-Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](create-feed.md) Daten-Feeds“.
+Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [ finden Sie unter „Erstellen ](create-feed.md) Daten-Feeds“.
 
 ## Bearbeiten eines Daten-Feeds
 
@@ -62,7 +71,7 @@ Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen F
 
 1. Verwenden Sie die Suche oder Filter, um einen bestimmten Feed zu finden.
 
-   * Geben Sie im Suchfeld den Namen eines Feeds ein. In der Liste der verfügbaren Feeds werden nur die Feeds angezeigt, die dem entsprechen.
+   * Geben Sie im Suchfeld den Namen oder die ID eines Feeds ein. In der Liste der verfügbaren Feeds werden nur die Feeds angezeigt, die dem entsprechen.
 
      ![Durchsuchen](assets/search.png)
 
@@ -124,7 +133,7 @@ So aktivieren Sie einen Daten-Feed:
 
 ## Löschen eines Daten-Feeds
 
-Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; &#x200B;]. Daten-Feeds müssen den Status &quot;[!UICONTROL &quot; aufweisen] bevor sie gelöscht werden können.
+Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; ]. Daten-Feeds müssen den Status &quot;[!UICONTROL &quot; aufweisen] bevor sie gelöscht werden können.
 
 Löschen eines Daten-Feeds:
 
@@ -144,7 +153,7 @@ Spaltenüberschrift auswählen, um sie in aufsteigender Reihenfolge zu sortieren
 
 So passen Sie die sichtbaren Spalten in der Tabelle an:
 
-1. Wählen Sie oben ![&#x200B; das Spaltensymbol &#x200B;](assets/customize-columns-icon.png)Spaltensymbol) aus.
+1. Wählen Sie oben ![ das Spaltensymbol ](assets/customize-columns-icon.png)Spaltensymbol) aus.
 
 1. Wählen Sie im Dialogfeld Tabelle anpassen jede Spalte aus, die Sie anzeigen möchten, und heben Sie die Auswahl für jede Spalte auf, die Sie ausblenden möchten.
 
@@ -164,7 +173,7 @@ So passen Sie die sichtbaren Spalten in der Tabelle an:
       * Gelöscht: Der Feed wurde gelöscht.
       * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
       * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-      * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
+      * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [ unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
    * **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.
