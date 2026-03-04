@@ -4,10 +4,10 @@ title: Filtern und Sortieren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -137,7 +137,7 @@ Standardmäßig werden Dimensionen in aufsteigender Reihenfolge und Metriken in 
 
 ## Sortieren von Tabellen nach einer Spalte
 
-Wenn Sie Daten für eine einzelne Spalte sortieren, wie in diesem Abschnitt beschrieben, werden alle [erweiterten &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting)) entfernt, die auf die Tabelle angewendet werden.
+Wenn Sie Daten für eine einzelne Spalte sortieren, wie in diesem Abschnitt beschrieben, werden alle [erweiterten ](#sort-tables-by-multiple-columns-advanced-sorting)) entfernt, die auf die Tabelle angewendet werden.
 
 So sortieren Sie Daten in Tabellen nach einer Spalte:
 
@@ -150,8 +150,6 @@ So sortieren Sie Daten in Tabellen nach einer Spalte:
    Das Sortiersymbol bleibt sichtbar, wenn die Sortierung auf die Spalte angewendet wird. Ein Pfeil gibt an, wie die Daten sortiert werden (![Sortieren](/help/assets/icons/SortOrderUp.svg) für aufsteigend oder ![Sortieren](/help/assets/icons/SortOrderDown.svg) für absteigend).
 
 ## Sortieren von Tabellen nach mehreren Spalten (erweiterte Sortierung)
-
-{{release-limited-testing-section}}
 
 ### Sortierung auf mehrere Spalten anwenden
 
@@ -169,7 +167,7 @@ So sortieren Sie Daten in Tabellen nach mehreren Spalten:
 
    * Fügen Sie Spalten hinzu, die noch nicht sortiert werden, indem Sie die Schaltfläche **[!UICONTROL Sortierspalte hinzufügen]** auswählen.
 
-   * Entfernen Sie Spalten, die Sie nicht mehr sortieren möchten, indem Sie das Symbol **Entfernen** (![) &#x200B;](/help/assets/icons/Close.svg).
+   * Entfernen Sie Spalten, die Sie nicht mehr sortieren möchten, indem Sie das Symbol **Entfernen** (![) ](/help/assets/icons/Close.svg).
 
    * Ziehen Sie Spalten in der Liste nach oben oder unten, um die Sortierpriorität anzupassen.
 

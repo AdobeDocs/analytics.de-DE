@@ -4,7 +4,7 @@ description: Erfahren Sie, welche Komponenten Adobe Analytics anbietet und wie S
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
@@ -110,8 +110,6 @@ Sie können die Komponentenliste im linken Bedienfeld von Analysis Workspace dur
 4. Sie können optional die Komponentenliste sortieren, wie unter [Sortieren der Komponentenliste](#sort-the-component-list) beschrieben.
 
 ### Sortieren
-
-<!-- {{release-limited-testing-section}}-->
 
 1. (Optional) Wenden Sie alle Filter auf die Komponentenliste an, wie unter [Filtern der Komponentenliste](#filter-the-component-list) beschrieben.
 
