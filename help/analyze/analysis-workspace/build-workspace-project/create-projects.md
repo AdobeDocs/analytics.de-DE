@@ -7,7 +7,7 @@ exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 93%
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Mit [Projekten](/help/analyze/analysis-workspace/build-workspace-project/freefor
 
 1. Wählen Sie **Leeres Workspace-Projekt** aus, um Ihr Workspace-Projekt mit einem Browser zu erstellen.
 
-   Weitere Informationen [&#x200B; Erstellen eines mobilen Scorecard](/help/analyze/mobile-app/curator.md)Projekts, das Sie mit einer mobilen App für andere Stakeholder freigeben können, finden Sie unter „Leere mobile Scorecard“.
+   Weitere Informationen [ Erstellen eines mobilen Scorecard](/help/analyze/mobile-app/curator.md)Projekts, das Sie mit einer mobilen App für andere Stakeholder freigeben können, finden Sie unter „Leere mobile Scorecard“.
 
 1. Wählen Sie [!UICONTROL **Erstellen**] aus.
 
@@ -74,9 +74,9 @@ Zu den Einstellungen gehören:
 |---|---|
 | Projektname | Der Name des Projekts. Sie können auf den Namen doppelklicken, um ihn zu bearbeiten. |
 | Besitzer | Name des Projektbesitzer. |
-| Zuletzt geändert | Das Datum, an dem die letzte Änderung an dem Projekt vorgenommen wurde. |
-| Tags | Zeigt eine Liste aller Tags an, die auf ein Projekt angewendet wurden, um die Kategorisierung zu vereinfachen. |
-| Beschreibung | Eine Beschreibung hilft, den Zweck eines Projekts anzugeben. Sie können auf die Beschreibung doppelklicken, um sie zu bearbeiten. |
+| Zuletzt geändert | Datum der letzten Änderung am Projekt. |
+| Tags | Listet alle Tags auf, die auf ein Projekt angewendet werden, um die Kategorisierung zu erleichtern. |
+| Beschreibung | Eine Beschreibung ist nützlich, um den Zweck eines Projekts zu verdeutlichen. Sie können auf die Beschreibung doppelklicken, um sie zu bearbeiten. |
 | Wiederholungsinstanzen zählen | Diese Einstellung legt fest, ob Wiederholungsinstanzen in Berichten gezählt werden sollen. Hinweis: Diese Einstellung gilt nicht für Fluss- oder Fallout-Visualisierungen. |
 | Anmerkungen anzeigen | Legen Sie fest, ob Anmerkungen für dieses Projekt angezeigt werden sollen. |
 | [Projekt-Farbpalette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Sie können die in Workspace verwendete Farbpalette für Kategorien ändern, indem Sie aus den vordefinierten Paletten wählen, die für die Farbenblindheit optimiert wurden, oder indem Sie eine benutzerdefinierte Palette angeben. Diese Funktion betrifft vieles in Workspace, einschließlich der meisten Visualisierungen. |
