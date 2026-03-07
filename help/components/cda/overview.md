@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->Das Gerätediagramm in der geräteübergreifenden Analyse ist [veraltet](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) und ab dem 31. **2025 nicht mehr**. Wechseln Sie alle aktuellen für Gerätediagramme aktivierten Virtual Report Suites in die [feldbasierte Methode](/help/components/cda/field-based-stitching.md).
+>Das Gerätediagramm in der geräteübergreifenden Analyse ist [veraltet](https://experienceleague.adobe.com/de/docs/discontinued/using/device-graph) und ab dem 31. **2025 nicht mehr**. Wechseln Sie alle aktuellen für Gerätediagramme aktivierten Virtual Report Suites in die [feldbasierte Methode](/help/components/cda/field-based-stitching.md).
 >
 
 
