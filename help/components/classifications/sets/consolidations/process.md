@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -19,8 +19,8 @@ Eine Konsolidierung von Klassifizierungssätzen ermöglicht es Ihnen, Klassifizi
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
->title="Priorität des Klassifizierungssatzes"
->abstract="Der ![Schlüssel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *Klassifizierungssatz* ist der Basisklassifizierungssatz und definiert das Gesamtschema und hat bei Zusammenführungskonflikten Vorrang. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
+>title="Priorität des Klassifizierungsatzes"
+>abstract="Der *Klassifizierungssatz* ![Schlüssel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) ist der Basisklassifizierungssatz, der das Gesamtschema definiert und bei Zusammenführungskonflikten Vorrang hat. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
 
 
 So erstellen Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hauptbenutzeroberfläche:
@@ -50,7 +50,7 @@ Nach dem Speichern wird eine Klassifizierungskonsolidierung automatisch für die
 
 Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 
-* [Überprüfen Sie &#x200B;](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
+* [Überprüfen Sie ](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
 * [Ausführen](#run) der Klassifizierungskonsolidierung.
 * [Genehmigen](#approve) die Klassifizierungskonsolidierung.
 
@@ -61,19 +61,19 @@ Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Keine Übereinstimmung"
->abstract="Der Prozentsatz der nicht übereinstimmenden Schlüssel, wenn der Wert im konsolidierten Klassifizierungssatz nicht mit dem Quellklassifizierungssatz übereinstimmt."
+>abstract="Dies ist der Prozentsatz der nicht übereinstimmenden Schlüssel, wenn der Wert im konsolidierten Klassifizierungssatz nicht dem Quellklassifizierungssatz entspricht."
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="Abwesend"
->abstract="Der Prozentsatz der Schlüssel im konsolidierten Klassifizierungssatz, aber nicht im Quellklassifizierungssatz."
+>abstract="Dies ist der Prozentsatz der Schlüssel, die im konsolidierten Klassifizierungssatz, jedoch nicht im Quellklassifizierungssatz vorhanden sind."
 
 So bearbeiten Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hauptbenutzeroberfläche:
 
 1. Wählen **[!UICONTROL Klassifizierungssätze]** im Menü **[!UICONTROL Komponenten]** aus.
 1. Wählen **[!UICONTROL Manager „Klassifizierungssätze]** die Registerkarte **[!UICONTROL Konsolidierungen]** aus.
 1. Im **[!UICONTROL Konsolidierungs-Manager für Klassifizierungssätze]**:
-   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**&#x200B;wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
+   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
 
       | Verfügbare Aktionen | Beschreibung |
       |---|---|

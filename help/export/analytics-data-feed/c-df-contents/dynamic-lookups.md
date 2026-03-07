@@ -6,7 +6,7 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -18,14 +18,14 @@ Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten
 * **Mobile-Attribute**: Bietet zusätzlichen Kontext für die Spalte &quot;`mobile_id`&quot;, einschließlich aller für jedes Mobilgerät verfolgten Funktionen. Der eingeschlossene Dateiname lautet `mobile_attributes.tsv`.
 * **Betriebssystemtyp**: Bietet einen alternativen Kontext für die `os`. Sowohl `operating_systems.tsv` als auch `operating_system_type.tsv` verwenden die `os` als Schlüssel. Nur `operating_system_type.tsv` ist eine dynamische Suche.
 
-## Dynamische Suchen aktivieren {#enable-dynamic-lookups}
+## Aktivieren dynamischer Suchen {#enable-dynamic-lookups}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
->title="Dynamische Suchen aktivieren"
->abstract="Wählen Sie diese Option, um zusätzliche Lookup-Dateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li>Betreibername</li><li>Mobile Attribute</li><li>Betriebssystemtyp</li></ul>"
+>title="Aktivieren dynamischer Suchen"
+>abstract="Wählen Sie diese Option aus, um zusätzliche Lookup-Dateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li>Betreibername</li><li>Mobile Attribute</li><li>Betriebssystemtyp</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

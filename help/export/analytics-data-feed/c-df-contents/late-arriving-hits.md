@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="Verspätete Treffer zulassen"
->abstract="Wählen Sie diese Option aus, um Daten einzubeziehen, die nach Abschluss der Datenverarbeitung im festgelegten Berichtszeitraum (normalerweise täglich oder stündlich) eingingen. Wenn diese Option aktiviert ist, untersucht ein Daten-Feed bei der Verarbeitung von Daten alle spät eingetroffenen Treffer und stapelt sie mit der nächsten gesendeten Daten-Feed-Datei."
+>title="Zulassen verspätet eingehender Treffer"
+>abstract="Wählen Sie diese Option aus, um Daten einzuschließen, die nach Abschluss des Daten-Feed-Auftrags innerhalb der festgelegten Reporting-Frequenz (in der Regel täglich oder stündlich) eingegangen sind. Wenn diese Option aktiviert ist, prüft das System bei jeder Verarbeitung eines Daten-Feeds alle eingegangenen verspäteten Treffer und bündelt diese mit der nächsten gesendeten Daten-Feed-Datei."
 
 <!-- markdownlint-enable MD034 -->
 

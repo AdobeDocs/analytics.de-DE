@@ -6,7 +6,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
 source-wordcount: '2137'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -38,7 +38,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="Manifest"
->abstract="Wählen Sie aus, ob bei jeder Daten-Feed-Bereitstellung eine Manifestdatei enthalten sein soll. Manifestdateien enthalten Informationen für jede Datei, die im Daten-Feed enthalten ist. Beim Senden von Daten-Feed-Daten in einem einzelnen Paket können Sie auch eine Finish-Datei einschließen. Manifestdateien werden jedoch empfohlen. "
+>abstract="Wählen Sie aus, ob bei jeder Daten-Feed-Bereitstellung eine Manifestdatei enthalten sein soll. Manifestdateien enthalten Informationen für jede im Daten-Feed enthaltene Datei. Beim Senden von Daten-Feed-Daten in einem einzelnen Paket können Sie auch eine Finish-Datei einschließen. Manifestdateien werden jedoch empfohlen. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,8 +46,8 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_notify"
->title="Nach Abschluss benachrichtigen"
->abstract="Geben Sie eine oder mehrere E-Mail-Adressen an, an die eine Benachrichtigung gesendet werden soll, nachdem der Daten-Feed gesendet wurde. Mehrere E-Mail-Adressen müssen durch ein Komma getrennt werden."
+>title="Benachrichtigen bei Abschluss"
+>abstract="Geben Sie eine oder mehrere E-Mail-Adressen an, an die nach dem Versenden des Daten-Feeds eine Benachrichtigung gesendet werden soll. Mehrere E-Mail-Adressen müssen durch ein Komma getrennt werden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -83,7 +83,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    | [!UICONTROL **Manifest senden, auch wenn keine Daten vorhanden sind**] | Bestimmt, ob Adobe eine [Manifestdatei](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) an das Ziel senden soll, wenn für ein Feed-Intervall keine Daten erfasst wurden. Wenn Sie **Manifestdatei** auswählen, erhalten Sie eine Manifestdatei ähnlich der folgenden, wenn keine Daten erfasst werden:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Ersetzen Sie Betriebssystemzeichenfolgen**] | Beim Erfassen von Daten können einige Zeichen (z. B. neue Zeilen) Probleme verursachen. Wählen Sie diese Option, um diese Zeichen aus den Feed-Dateien zu entfernen.<p>Diese Option erkennt die folgenden in Kundendaten eingebetteten Zeichenfolgensequenzen und ersetzt sie durch ein Leerzeichen:</p> <ul><li>**Windows:** CRLF, CR oder TAB</li><li>**Mac und Linux:** \n, \r oder \t</li></ul> |
    | [!UICONTROL **Dynamische Suchen aktivieren**] | Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li> **Betreibername**</li><li>**Attribute für Mobilgeräte**</li><li>**Betriebssystemtyp**</li></ul><p>Weitere Informationen finden Sie unter [Dynamische Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
-   | **Zulassen von verspäteten Treffern** | Historische Daten können nach Abschluss der Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag eingehen, z. B. über Treffer mit Zeitstempel oder Datenquellen.<p>Wählen Sie diese Option aus, um Daten einzubeziehen, die nach Abschluss der Datenverarbeitung im festgelegten Berichtszeitraum (normalerweise täglich oder stündlich) eingingen. Wenn diese Option aktiviert ist, untersucht ein Daten-Feed bei der Verarbeitung von Daten alle spät eingetroffenen Treffer und stapelt sie mit der nächsten gesendeten Daten-Feed-Datei.</p><p>Weitere Informationen finden Sie unter [Verspätete Treffer](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **Zulassen von verspäteten Treffern** | Historische Daten können nach Abschluss der Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag eingehen, z. B. über Treffer mit Zeitstempel oder Datenquellen.<p>Wählen Sie diese Option aus, um Daten einzuschließen, die nach Abschluss des Daten-Feed-Auftrags innerhalb der festgelegten Reporting-Frequenz (in der Regel täglich oder stündlich) eingegangen sind. Wenn diese Option aktiviert ist, prüft das System bei jeder Verarbeitung eines Daten-Feeds alle eingegangenen verspäteten Treffer und bündelt diese mit der nächsten gesendeten Daten-Feed-Datei.</p><p>Weitere Informationen finden Sie unter [Verspätete Treffer](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
    | **Lookback-Fenster** (für verspätete Treffer) | Diese Option wird angezeigt, wenn die Option **[!UICONTROL Verspätete Treffer zulassen]** aktiviert ist. Wählen Sie das Lookback-Fenster aus, um den Zeitrahmen der enthaltenen späten Treffer zu begrenzen. Wählen Sie **[!UICONTROL Unbegrenzt]** aus, wenn Sie alle verspäteten Treffer unabhängig von der Verspätung zulassen möchten. Sie können ein voreingestelltes Intervall auswählen, z. B. **[!UICONTROL 1 Stunde]**, **[!UICONTROL 2 Stunden]**, **[!UICONTROL 1 Woche]**, **[!UICONTROL 2 Wochen]** usw. Oder wählen Sie **[!UICONTROL Benutzerdefiniertes Lookback-Fenster]** und geben Sie dann im Feld **[!UICONTROL Benutzerdefiniertes Lookback]** ein Lookback-Fenster mit bis zu 26.280 Stunden an. |
 
 1. Wählen [!UICONTROL **Abschnitt &quot;**]&quot; im Feld **[!UICONTROL Report Suite]** die Quell-Report Suite aus, die die zu exportierenden Daten enthält. <p>Beachten Sie bei der Auswahl einer Report Suite Folgendes:</p> <ul><li>Wenn mehrere Daten-Feeds für dieselbe Report Suite erstellt werden, muss jeder Daten-Feed unterschiedliche Spaltendefinitionen haben.</li><li>Nur Quell-Report Suites unterstützen Daten-Feeds. Virtual Report Suites werden nicht unterstützt.</li><li>Die Liste der verfügbaren Spalten hängt vom Anmeldeunternehmen ab, zu dem die ausgewählte Report Suite gehört. Wenn Sie die Report Suite ändern, kann sich die Liste der verfügbaren Spalten ändern. </li></ul>
