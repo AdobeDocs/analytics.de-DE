@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 4%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -29,14 +29,19 @@ Sie können alle geplanten Arbeitsmappen auf der Registerkarte „Arbeitsmappen 
 
 1. Wählen Sie **[!UICONTROL Zeitplan]** im Report Builder-Hub aus.
 
-1. Wählen Sie die **[!UICONTROL Arbeitsmappen]** aus. Es wird eine Liste aller geplanten Arbeitsmappen angezeigt.
+1. Wählen Sie die **[!UICONTROL Arbeitsmappen]** aus. Es wird eine Liste aller geplanten Arbeitsmappen angezeigt. (Sie können auch die Registerkarte **[!UICONTROL Legacy]** auswählen, um eine Liste der Legacy-Arbeitsmappen anzuzeigen, die in den neuen Report Builder migriert werden müssen.)
 
    ![Geplante Arbeitsmappe](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   Sie können den Mauszeiger über das Symbol bewegen, um den Status einer geplanten Arbeitsmappe anzuzeigen.
+1. Führen Sie einen der folgenden Schritte aus:
 
-   Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um nach bestimmten geplanten Arbeitsmappen zu suchen.
-Mit ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) können Sie festlegen, welche Spalten angezeigt werden sollen.
+   * Bewegen Sie den Mauszeiger über das Symbol, um den Status einer geplanten Arbeitsmappe anzuzeigen.
+
+   * Suchen Sie im Suchfeld ![Suche](/help/assets/icons/Search.svg) nach bestimmten geplanten Arbeitsmappen.
+
+   * Wählen Sie das Spaltensymbol ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) aus, um zu definieren, welche Spalten angezeigt werden sollen.
+
+   * Wählen Sie das Filtersymbol ![Filtersymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) und dann [!UICONTROL **Alle anzeigen**], um alle geplanten Arbeitsmappen für eine bestimmte Organisation anzuzeigen.
 
 1. Eine oder mehrere Arbeitsmappen auswählen.
 
