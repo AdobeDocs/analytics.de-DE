@@ -4,7 +4,7 @@ title: Globale Report Suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 95%
@@ -33,7 +33,8 @@ Mit den Methoden *Multi-Suite-Tagging* und *Virtual Report Suite* können Sie Te
 
 Die Verwendung von Virtual Report Suites anstelle von Multi-Suite-Tagging ist oft empfehlenswert, aber Virtual Report Suites weisen einige Einschränkungen auf. Siehe [Virtual Report Suites und Überlegungen zum Multi-Suite-Tagging](/help/components/vrs/vrs-considerations.md), um zu bestimmen, welcher Report Suite-Ansatz für Ihre Geschäftsanforderungen am besten geeignet ist. Einen detaillierten Vergleich der Funktionen von Virtual Report Suites und Multi-Suite-Tagging finden Sie unter [Virtual Report Suites vs. Multi-Suite-Tagging](/help/components/vrs/vrs-about.md).
 
-<!---## Rollup reports
+<!--
+## Rollup reports
 
 >[!NOTE]
 >
@@ -73,4 +74,4 @@ Limitations of Rollup Reports {#limitations-rollups}
 
 **Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.-->

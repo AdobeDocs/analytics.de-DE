@@ -3,7 +3,8 @@ title: Adobe Analytics-Onboarding
 description: Willkommen bei der Onboarding-Serie für digitale Erlebnisse in Adobe Analytics! Einführung in die wichtigsten Adobe-Plattformen, die Adobe Analytics unterstützen, damit Sie und Ihr Unternehmen erfolgreich sein können.
 role: Admin
 feature: Analytics Basics
-source-git-commit: 2c614ec00f9e79a392e677fbcbccc25116d8e880
+exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 9%
@@ -20,14 +21,15 @@ Ihre Adobe Analytics-Journey beginnt mit dem Onboarding der richtigen Konfigurat
 
 Sehen Sie sich die folgenden Videos an, um Ihre Onboarding-Journey von Adobe Admin Console für die Einrichtung von Benutzer und Zugriff auf Adobe Experience League für Dokumentation und Support und schließlich Adobe Analytics selbst abzuschließen.
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./onboard.md
   {title = Adobe Experience League}
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476893/?captions=ger&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -57,6 +59,7 @@ Sehen Sie sich die folgenden Videos an, um Ihre Onboarding-Journey von Adobe Adm
   {url = #adobe-analytics}
   {image = https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891}
 -->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience League">
@@ -64,7 +67,7 @@ Sehen Sie sich die folgenden Videos an, um Ihre Onboarding-Journey von Adobe Adm
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476893/?captions=ger&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,9 +183,9 @@ Sehen Sie sich die folgenden Videos an, um Ihre Onboarding-Journey von Adobe Adm
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476893/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Steigen Sie in [Adobe Experience League](https://experienceleague.adobe.com/de?lang=de) ein, um auf [Dokumentation](https://experienceleague.adobe.com/de/docs/analytics), [Tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview) und mehr zuzugreifen, die Ihnen zum Erfolg verhelfen.
+Steigen Sie in [Adobe Experience League](https://experienceleague.adobe.com/?lang=de) ein, um auf [Dokumentation](https://experienceleague.adobe.com/de/docs/analytics), [Tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview) und mehr zuzugreifen, die Ihnen zum Erfolg verhelfen.
 
 
 ## Adobe Admin Console
@@ -201,7 +204,7 @@ Einführung in das [Adobe Admin Console User Management](https://adminconsole.ad
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Gehen Sie zu Adobe Experience League, um [einen Support-Fall zu stellen und aktive und frühere Fälle zu überprüfen](https://experienceleague.adobe.com/home?lang=de#support).
+Gehen Sie zu Adobe Experience League, um [einen Support-Fall zu stellen und aktive und frühere Fälle zu überprüfen](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -214,7 +217,7 @@ Ihre Adobe Analytics-Journey beginnt mit dem Onboarding der richtigen Konfigurat
 
 Nach Abschluss des Onboardings bei Adobe Analytics und den zugehörigen Plattformen sollten Sie die folgenden Ressourcen erkunden, um Ihr Verständnis zu vertiefen und Ihre Kenntnisse zu erweitern:
 
-1. [Einführung in Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Report Suites verstehen und erstellen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Einführung in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Report Suites verstehen und erstellen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Dokumentation zu Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics)
 4. [Adobe Analytics-Tutorials und -Videos](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview)
