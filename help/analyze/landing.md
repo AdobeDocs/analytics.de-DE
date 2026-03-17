@@ -4,42 +4,50 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 99%
+source-wordcount: '1488'
+ht-degree: 87%
 
 ---
 
 # Neue Landingpage von Adobe Analytics
 
-Die Landingpage für Adobe Analytics vereint sowohl [!DNL Analysis Workspace] als auch [!DNL Reports & Analytics] (eingestellt) in einer einzigen Oberfläche und einem Zugangspunkt unter dem Dach von [!DNL Workspace]. Sie enthält eine Startseite für das Projekt-Management, einen Vorlagenbereich und einen Lernbereich, der Ihnen dabei hilft, die ersten Schritte effektiver zu bewältigen.
+Die Adobe Analytics-Landingpage enthält die folgenden Unterregisterkarten:
+
+**[!UICONTROL Projekte]**: Benutzerdefinierte Entwürfe, die Datenkomponenten, Tabellen und Visualisierungen enthalten, die von Ihnen erstellt oder die von einer anderen Person erstellt und für Sie freigegeben wurden. [!UICONTROL Projekte] beziehen sich auch auf leere Projekte und leere mobile Scorecards.
+
+**[!UICONTROL Vorlagen]**: Enthält von Adobe bereitgestellte Vorlagen und alle für Ihr Unternehmen spezifischen Vorlagen.
+
+**[!UICONTROL Lernen]**: Enthält praktische Videoführungen, Tutorials und Links zur Dokumentation.
+
+![Linke Leiste der Landingpage von AA](assets/aa-landing-page-left-rail.png)
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Landingpage von Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Landingpage von Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
+## Projekte {#navigate-projects}
 
+Der **[!UICONTROL Projekte]** in der linken Leiste dient als Startseite für die Registerkarte [!UICONTROL **Workspace**].
 
-Die Adobe Analytics-Landingpage besteht aus den folgenden Unterregisterkarten: „Projekte“, „Vorlagen“ und „Lernen“.
+Zugreifen auf Projekte in Adobe Analytics:
+
+1. Wählen Sie die Registerkarte [!UICONTROL **Arbeitsbereich**] aus.
+
+1. Wählen [!UICONTROL **Projekte**] in der linken Leiste aus.
+
+Im Abschnitt Projekte werden der Unternehmensordner, alle von Ihnen erstellten persönlichen Ordner, Ihre Workspace-Projekte und mobile Scorecards angezeigt. Auf dieser Seite können Sie Ordner, Projekte und mobile Scorecards anzeigen, erstellen und ändern. Weitere Informationen finden Sie unter [Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 **[!UICONTROL Projekte]** sind benutzerdefinierte Entwürfe, die aus Datenkomponenten, Tabellen und Visualisierungen bestehen, die von Ihnen erstellt oder einer anderen Person für Sie erstellt und freigegeben wurden. [!UICONTROL Projekte] beziehen sich auch auf leere Projekte und leere mobile Scorecards.
 
-**[!UICONTROL Vorlagen]** enthält sowohl von Adobe bereitgestellte als auch für Ihr Unternehmen spezifische Vorlagen.
-
-Die Registarkarte **[!UICONTROL Lernen]** enthält praktische Video-Touren und Tutorials sowie Links zur Dokumentation.
-
-## Navigieren Sie zur Registerkarte [!UICONTROL Projekte] {#navigate-projects}
-
-Die Registerkarte [!UICONTROL Projekte] fungiert als Startseite von [!UICONTROL Arbeitsbereich]. Dort werden der Unternehmensordner, alle von Ihnen erstellten Ordner, Ihre Projekte und mobile Scorecards angezeigt. Auf dieser Seite können Sie Ordner, Projekte und mobile Scorecards anzeigen, erstellen und ändern. Weitere Informationen finden Sie unter [Über Ordner in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
-
-![Landing (alle)](assets/landing-all2.png)
-
 >[!NOTE]
 >
->Einige der folgenden Einstellungen bleiben während der Sitzung und sitzungsübergreifend bestehen. Hierzu zählen die Registerkarte, die Filter und die Spalten, die ausgewählt wurden, sowie die Sortierrichtung der Spalte. Suchergebnisse sind nicht persistent.
+>Einige der folgenden Einstellungen bleiben sitzungsübergreifend bestehen. Hierzu zählen beispielsweise die ausgewählte Registerkarte, die ausgewählten Segmente, die ausgewählten Spalten und die Sortierrichtung der Spalte. Suchergebnisse bleiben nicht erhalten.
+
+Weitere Informationen finden Sie unter [Projekte](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ### Anpassen von Tabellenspalten
 
@@ -89,9 +97,15 @@ Die verfügbaren Spalten sind:
 | ANZEIGEN: Ordner und Projekte oder alle Projekte | Ändert die Anzeigeeinstellung der Tabelle, sodass Ordner und Projekte entsprechend Ihrer Ordnerorganisation **oder** alle Projekte in einer ungeordneten Liste angezeigt werden. |
 | &lt; (Schaltfläche „Zurück“) | Hiermit gelangen Sie in einem Analysis Workspace-Projekt oder einem Bericht zu Ihrer letzten Landingpage-Konfiguration zurück. Die Seitenkonfiguration, die Sie beim Verlassen der Landingpage hatten, bleibt bis zur Rückkehr erhalten. |
 
-## Navigieren auf der Registerkarte [!UICONTROL Vorlagen] {#navigate-reports}
+## Vorlagen {#navigate-reports}
 
-Informationen zur Verwendung von Vorlagen in Adobe Analytics finden Sie in den folgenden Ressourcen:
+So greifen Sie auf Vorlagen in Adobe Analytics zu:
+
+1. Wählen Sie die Registerkarte [!UICONTROL **Arbeitsbereich**] aus.
+
+1. Im Abschnitt [!UICONTROL **Vorlagen**] in der linken Leiste können Sie entweder Adobe-Vorlagen oder Unternehmensvorlagen auswählen.
+
+Informationen zur Verwendung von Vorlagen finden Sie in den folgenden Ressourcen:
 
 * [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md)
 
@@ -101,7 +115,7 @@ Informationen zur Verwendung von Vorlagen in Adobe Analytics finden Sie in den f
 
 Die Seite „Lernen“ enthält praktische Videoführungen und Tutorials sowie Links zur Dokumentation.
 
-Verwenden Sie die Seite „Lernen“ in Adobe Analytics, um Funktionen für Anfängerinnen bzw. Anfänger, ein mittleres Niveau oder für Fortgeschrittene sowie Anwendungsfälle in Adobe Analytics zu erfahren.
+Verwenden Sie die Seite „Lernen“ in Adobe Analytics, um Anfänger-, Zwischen- oder erweiterte Funktionen und Anwendungsfälle in Adobe Analytics zu erlernen.
 
 ### Zugreifen auf die Seite „Lernen“
 
@@ -120,8 +134,8 @@ Verwenden Sie die Seite „Lernen“ in Adobe Analytics, um Funktionen für Anf�
 
 Benutzer können ihre bevorzugte Landingpage festlegen.
 
-1. Gehen Sie zu Analytics > [!UICONTROL Komponenten] > [!UICONTROL Voreinstellungen] > [!UICONTROL Allgemein].
-1. Überprüfen Sie, welche Landingpage Sie bevorzugen:
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Voreinstellungen**] > [!UICONTROL **Allgemein**].
+1. Wählen Sie die bevorzugte Landingpage aus.
 
    ![Landingpage festlegen](assets/landing-pref.png)
 
