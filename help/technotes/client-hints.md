@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten 
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8861dc27f9353d00ef3cf62568822c74d6e70d25
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 83%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -25,11 +25,7 @@ Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinwei
 
 Ab Oktober 2022 haben neue Versionen von Chromium-Browsern die in der Benutzeragenten-Zeichenfolge dargestellte Betriebssystemversion „eingefroren“. Die Version des Betriebssystems ist ein Hinweis mit hoher Entropie. Um die Genauigkeit der Betriebssystemversion in Ihren Berichten zu gewährleisten, muss die Bibliothek Ihrer Sammlungen so konfiguriert werden, dass diese Hinweise mit hoher Entropie erfasst werden. Im Laufe der Zeit werden andere Geräteinformationen des Benutzeragenten eingefroren, sodass Client-Hinweise die Genauigkeit der Geräteberichte gewährleisten müssen.
 
-Client-Hinweise werden ab 27. Februar 2023 in den Prozess der Analytics-Gerätesuche integriert, der am 2. März 2023 endet. Sowohl AppMeasurement als auch Web SDK unterstützen derzeit die Erfassung von Hinweisdaten, diese werden jedoch bis Mitte Februar nicht für die Gerätesuche verwendet. Wie unten beschrieben, wurde die Betriebssystemversion ab Oktober eingefroren, aber aufgrund eines schrittweisen Rollouts und der Tatsache, dass viele Benutzeragenten bereits eine eingefrorene Betriebssystemversion bereitstellen (mehr dazu [hier](/help/components/dimensions/operating-systems.md)), schätzen wir, dass dies weniger als 3 % der Chrome-Besucher und -Besucherinnen betrifft.
-
->[!NOTE]
->
-> Seit Januar 2023 werden einige Versionen von Mac- und Windows-Betriebssystemen im Benutzeragenten falsch, aber in Client-Hinweisen mit hoher Entropie korrekt dargestellt. Weitere Informationen dazu finden Sie unter [Betriebssystem](/help/components/dimensions/operating-systems.md).
+Client-Hinweise wurden am 2. März 2023 in den Prozess der Analytics-Gerätesuche integriert. Diese Änderung gilt sowohl für AppMeasurement- als auch für Web SDK-Implementierungen.
 
 Adobe Audience Manager erfordert das Erfassen von Hinweisen mit hoher Entropie, um die volle Funktionalität beizubehalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
@@ -162,3 +158,10 @@ Siehe [Schemadokumentation](https://github.com/adobe/xdm/blob/master/components/
 Ja. Client-Hinweise werden in die an Adobe Audience Manager weitergeleiteten Daten aufgenommen. Beachten Sie, dass Adobe Audience Manager die Erfassung von Hinweisen mit hoher Entropie erfordert, um die volle Funktionalität zu erhalten. Wenn Sie die [Server-seitige Weiterleitung an Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) verwenden, sollten Sie die Erfassung von Hinweisen mit hoher Entropie aktivieren.
 
 +++
+
++++**Warum sehe ich die Browser-Versionsnummer 999.99?**
+
+Kunden führen gelegentlich Tests mit ungültigen Versionsnummern von Browser- oder Gerätebetriebssystemen durch, die eine beliebige Zahl über 100.000 sein können. Um zu vermeiden, dass es an einem bestimmten Tag zu einer großen Anzahl von ungültigen Browser- oder Gerätebetriebssystem-Versionsnummern kommt, werden alle Versionsnummern, die über 100.000 liegen, in Buckets zusammengefasst und an die Versionsnummer 999.99 angeheftet.
+
++++
+
