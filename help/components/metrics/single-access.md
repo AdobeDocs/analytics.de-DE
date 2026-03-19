@@ -12,16 +12,16 @@ ht-degree: 15%
 
 # Einzelzugriff
 
-Die **[!UICONTROL Einzelzugriff]** [Metrik) ](overview.md) die Anzahl der Besuche an, bei denen die entsprechende Berichtsdimension nur einen einzigen Wert für einen gesamten Besuch enthielt. Es handelt sich um die breitere, dimensionsspezifische Version von [[!UICONTROL Einzelseitenbesuche]](single-page-visits.md). Diese Metrik ist hilfreich im Kontext jeder Dimension, bei der Sie den Wert einer Dimension sehen möchten, wenn er während eines Besuchs nur einmal festgelegt wurde.
+Die **[!UICONTROL Einzelzugriff]** [Metrik) &#x200B;](overview.md) die Anzahl der Besuche an, bei denen die entsprechende Berichtsdimension nur einen einzigen Wert für einen gesamten Besuch enthielt. Es handelt sich um die breitere, dimensionsspezifische Version von [[!UICONTROL Einzelseitenbesuche]](single-page-visits.md). Diese Metrik ist hilfreich im Kontext jeder Dimension, bei der Sie den Wert einer Dimension sehen möchten, wenn er während eines Besuchs nur einmal festgelegt wurde.
 
 ## Berechnung dieser Metrik
 
-Die Definition dieser Metrik hängt von der Projekteinstellung von „Wiederholte Instanzen zählen[[!UICONTROL  ab]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings):
+Die Definition dieser Metrik hängt von der Projekteinstellung von „Wiederholte Instanzen zählen[[!UICONTROL &#x200B; ab]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings):
 
 * **Wiederholte Instanzen zählen aktiviert**: Zählt Besuche, bei denen die Dimension genau einen Wert pro Besuch enthält. Wenn die Dimension bestehen bleibt, wird sie nicht mehr als einzelner Zugriff qualifiziert.
 * **Wiederholte Instanzen zählen deaktiviert**: Zählt Besuche, bei denen die Dimension einen einzelnen eindeutigen Wert enthält. Sie können das Dimensionselement mehrmals auf denselben Wert setzen oder ihn beibehalten lassen, sodass er weiterhin als einzelner Zugriff gezählt wird.
 
-Unabhängig von &quot;[!UICONTROL  wiederholte Instanzen zählen] ist der Besuch nicht mehr als einzelner Zugriff qualifiziert, wenn die Dimension in einen zweiten eindeutigen Wert geändert wird. Linktracking-Aufrufe sind in dieser Berechnung enthalten, wenn die Dimension in ihnen festgelegt ist.
+Unabhängig von &quot;[!UICONTROL &#x200B; wiederholte Instanzen zählen] ist der Besuch nicht mehr als einzelner Zugriff qualifiziert, wenn die Dimension in einen zweiten eindeutigen Wert geändert wird. Linktracking-Aufrufe sind in dieser Berechnung enthalten, wenn die Dimension in ihnen festgelegt ist.
 
 ## Unterschied zwischen &quot;[!UICONTROL Einzelzugriff] und &quot;[!UICONTROL Einzelseitenbesuch]&quot;
 

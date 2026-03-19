@@ -46,7 +46,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
 | **`post_`** | **`clickmaplink`** | Die Dimension [Activity Map](/help/components/dimensions/activity-map-link.md)Link. | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | Die Dimension [Activity Map-Link nach ](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | Die Dimension [Activity Map-Link nach &#x200B;](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
 | **`post_`** | **`clickmappage`** | Die Dimension [Activity Map](/help/components/dimensions/activity-map-page.md)Seite | varchar(255) |
 | **`post_`** | **`clickmapregion`** | Die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | API- oder Client SDK-Version, die für das Kompilieren und Senden der Bildanforderung verwendet wird. | char(16) |

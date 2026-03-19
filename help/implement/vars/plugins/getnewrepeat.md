@@ -15,7 +15,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-Mit dem `getNewRepeat`-Plug-in können Sie innerhalb einer gewünschten Anzahl von Tagen feststellen, ob es sich bei einem Besucher um einen neuen Besucher oder einen wiederkehrenden Besucher handelt. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie Besucher anhand einer benutzerdefinierten Anzahl von Tagen als „neu“ identifizieren möchten. Dieses Plug-in ist nicht erforderlich, wenn die Segmente &quot;[!UICONTROL  Visitors] und &quot;[!UICONTROL Repeat Visitors] in Analysis Workspace die Anforderungen Ihres Unternehmens erfüllen.
+Mit dem `getNewRepeat`-Plug-in können Sie innerhalb einer gewünschten Anzahl von Tagen feststellen, ob es sich bei einem Besucher um einen neuen Besucher oder einen wiederkehrenden Besucher handelt. Adobe empfiehlt die Verwendung dieses Plug-ins, wenn Sie Besucher anhand einer benutzerdefinierten Anzahl von Tagen als „neu“ identifizieren möchten. Dieses Plug-in ist nicht erforderlich, wenn die Segmente &quot;[!UICONTROL &#x200B; Visitors] und &quot;[!UICONTROL Repeat Visitors] in Analysis Workspace die Anforderungen Ihres Unternehmens erfüllen.
 
 ## Installieren des Plug-ins mithilfe der Web SDK-Erweiterung
 
