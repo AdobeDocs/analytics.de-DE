@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Advertising-Metriken
 
-Diese Metriken werden automatisch erstellt, wenn die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) aktiviert wird. Weitere Informationen finden Sie unter [Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)Metriken in Analysis Workspace in der Adobe Advertising-Dokumentation.
+Diese Metriken werden automatisch erstellt, wenn die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/overview) aktiviert wird. Weitere Informationen finden Sie unter [Adobe Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)Metriken in Analysis Workspace in der Adobe Advertising-Dokumentation.
 
 | Metrik | Beschreibung |
 | --- | --- |
