@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 99%
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
    + [Activity Map-Region](dimensions/activity-map-region.md)
    + [Einverständnis für Anzeigenplattform](dimensions/ad-consent.md)
    + [Rangansicht aller Suchseiten](dimensions/all-search-page-rank.md)
+   + [AMO-ID](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [AMO Meta Ads Klick-ID](dimensions/amo-meta-id.md)
    + [Vormittag/Nachmittag](dimensions/am-pm.md)
    + [Bot-Name](dimensions/bot-name.md)
    + [Browser-Höhe](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 99%
    + [Postleitzahl](dimensions/zip-code.md)
 + Metriken {#metrics}
    + [Metriken – Übersicht](metrics/overview.md)
-   + [Wiederholte Instanzen zählen](metrics/count-repeat-instances.md)
+   + [Advertising-Metriken](metrics/amo-metrics.md)
    + [Durchschnittliche Klicktiefe](metrics/average-page-depth.md)
    + [Durchschnittliche Seitenansichten pro Besuch](metrics/average-page-views-per-visit.md)
    + [Durchschnittliche Sitzungslänge](metrics/average-session-length.md)

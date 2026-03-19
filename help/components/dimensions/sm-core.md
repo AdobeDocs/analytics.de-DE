@@ -3,16 +3,16 @@ title: Kerndimensionen der Streaming-Mediendienste
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '437'
 ht-degree: 7%
 
 ---
 
 # Kerndimensionen der Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Verfügbare Metriken finden Sie [Kernmetriken &#x200B;](../metrics/sm-core.md) Streaming-Mediendienste“.*
+*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Core] für eine Report Suite aktivieren. Verfügbare Metriken finden Sie [Kernmetriken ](../metrics/sm-core.md) Streaming-Mediendienste“.*
 
 Die Kerndimensionen der Streaming-Mediendienste bieten grundlegende Reporting-Funktionen für Daten, die über Bibliotheken der Streaming-Mediendienste erfasst werden. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
@@ -28,6 +28,7 @@ Wenn Sie **[!UICONTROL Media Core]** unter [Medienberichte](/help/admin/tools/ma
 | **[!UICONTROL Inhaltssegment]** | Das Intervall in Minuten, das den angezeigten Teil des Inhalts beschreibt. Das Segment wird als Mindest- und Höchstwert der Werte der Abspielleiste bei einer Wiedergabesitzung berechnet. | Schließen von Medien | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL Content-Typ]** | Der Inhaltstyp. Gültige Werte sind `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD` oder ein benutzerdefinierter Wert. | Medienstart, Medienschluss | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL Medienpfad]** | Der Pfad, über den der Besucher zum Inhalt gelangte. | Medienstart | `a.media.path` | |
+| **[!UICONTROL Mediensitzungs-ID]** | Identifiziert eine Instanz eines Inhalts-Streams, die für die jeweilige Wiedergabe eindeutig ist. | Medienstart, Medienschluss | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL Stream-Typ]** | Der Stream-Typ. Gültige Werte sind `audio` und `video`. | Medienstart, Medienschluss | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 Zusätzlich zu den oben genannten Dimensionen erstellt Adobe automatisch die folgenden Klassifizierungsdimensionen. Sie müssen Klassifizierungsdaten hochladen, um Berichte anzuzeigen, die diese Dimensionen verwenden.
