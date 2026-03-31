@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0900b9adb801bec4d433c57d83ac117efbe78168
+source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 52%
+source-wordcount: '1318'
+ht-degree: 51%
 
 ---
 
@@ -20,6 +20,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Mär
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
+| **Panel-Aufschlüsselung**<br/> Der Ablagebereich für ein Bedienfeld bietet jetzt die zusätzliche Funktion, [ ein Bedienfeld basierend auf einer Dimension (](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) statt Segment) aufzuschlüsseln. | Mittwoch, 31. März 2026 | Mittwoch, 31. März 2026 |
 | **Sortieren von Tabellen nach mehreren Spalten** <br/>Sie können jetzt die Daten einer Freiformtabelle in Analysis Workspace nach mehreren Spalten sortieren, unabhängig davon, ob es sich um Dimensionen oder Metriken handelt.<p>Wenn Sie Daten für mehrere Spalten sortieren, werden die Daten nach der Priorität sortiert, die Sie jeder Spalte zuweisen. Die Prioritätsnummerierung wird neben dem Sortiersymbol angezeigt.</p><p>Weitere Informationen finden Sie unter [Filtern und Sortieren von Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).</p> | Donnerstag, 28. Januar 2026 | Donnerstag, 4. März 2026 <p>(Ursprünglich für den 18. Februar 2026 geplant)</p> |
 | **Report Builder: Administratorsichtbarkeit für alle geplanten Arbeitsmappen**<br/> Das Report Builder Excel-Add-in enthält eine neue Filteroption, mit der Administratoren alle geplanten Arbeitsmappen für eine bestimmte Organisation anzeigen können, unabhängig davon, wer sie geplant hat. Diese Filteroption ist nur für Analytics-Admins verfügbar. Er ist sowohl auf der Registerkarte „Arbeitsmappe“ als auch auf der Registerkarte „Legacy“ verfügbar, wenn geplante Arbeitsmappen angezeigt werden.<p>Die Möglichkeit, alle geplanten Arbeitsmappen anzuzeigen, ist besonders bei der Migration von Arbeitsmappen über verteilte Teams hinweg nützlich, da Admins dadurch alle alten Arbeitsmappen vor der Migration leicht finden können.</p><p>Zuvor konnten Admins nur die von ihnen geplanten Arbeitsmappen sehen, nicht die von anderen Benutzern geplanten.</p><p>Weitere Informationen finden Sie unter [Verwaltete geplante Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md).</p> | | Mittwoch, 10. März 2026 |
 | **Aktualisierung zur Funktion „Ungefährer Distinct Count**<br/> Der HLL-probabilistische Algorithmus, der in der Funktion „Ungefährer Distinct Count“ verwendet wird, wird bald aktualisiert. Die resultierende Ausgabe für Zahlen, die diese Funktion verwenden, kann sich wie folgt geringfügig von historischen Zahlen unterscheiden:</p><ul><li>Beim Zählen sehr kleiner Mengen eindeutiger Werte werden die Ergebnisse dahingehend verbessert, dass genaue Zählungen anstelle von Schätzungen verwendet werden.</li><li>Wenn Sie etwas Größeres zählen, behalten Zählschätzungen dieselbe Genauigkeit wie vor dieser Aktualisierung bei (Schätzungen sind innerhalb von 5 Prozent der exakten Zahl genau, 95 Prozent der Zeit).</li></ul><p>Weitere Informationen zur Funktion Ungefährer Distinct Count finden Sie unter [Ungefährer Distinct Count](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct) unter [Erweiterte Funktionen](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | Mittwoch, 10. März 2026 |
