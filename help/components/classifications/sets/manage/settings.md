@@ -19,7 +19,7 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** den Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatz_]**die Registerkarte **[!UICONTROL Einstellungen]**aus, um die Einstellungen zu bearbeiten:
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatz_]**&#x200B;die Registerkarte **[!UICONTROL Einstellungen]**&#x200B;aus, um die Einstellungen zu bearbeiten:
 
    ![Klassifizierungssätze - Einstellungen](assets/classification-sets-settings.png)
 
@@ -37,5 +37,5 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
       * Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
       * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
 
-      Weitere [ finden Sie unter ](/help/components/classifications/sets/manage-sets.md) eines Klassifizierungssatzes .
+      Weitere [&#x200B; finden Sie unter &#x200B;](/help/components/classifications/sets/manage-sets.md) eines Klassifizierungssatzes .
    1. Klicken Sie **[!UICONTROL Speichern]**, um die Einstellungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
