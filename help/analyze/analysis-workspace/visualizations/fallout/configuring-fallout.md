@@ -52,7 +52,7 @@ Sie können Pfade für Dimensionen, Metriken und Segmente erstellen. Beispiel: A
 
    * Einschränken einzelner Touchpoints auf das nächste Ereignis (im Gegensatz zu *letztendlich*) im Pfad. Unter jedem Touchpoint gibt es einen Selektor mit den Optionen **[!UICONTROL Eventueller Pfad]** und **[!UICONTROL Nächstes Ereignis]**, wie hier gezeigt:
 
-     ![Die Ansicht „Alle Besuche“ mit hervorgehobener Option „Endgültiger Pfad“. ](assets/fallout-nexthit.png)
+     ![Die Ansicht „Alle Besuche“ mit hervorgehobener Option „Endgültiger Pfad“. &#x200B;](assets/fallout-nexthit.png)
 
      | Option | Beschreibung |
      |---|---|
