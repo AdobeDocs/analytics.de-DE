@@ -20,7 +20,7 @@ Adobe Analytics verwendet mehrere Authentifizierungsmethoden bei der Anmeldung:
 
 **Wenn Sie regelmäßig auf Analytics zugreifen und gelegentlich Probleme bei der Anmeldung auftreten, können Sie die meisten Probleme beheben, indem Sie die Cookies und den Cache Ihres Browsers löschen.**
 
-In einigen Fällen können Probleme mit der Verfügbarkeit die Möglichkeit zur Anmeldung beeinträchtigen. Überprüfen Sie [status.adobe.com](https://status.adobe.com) auf offene Fälle. Verwenden Sie andernfalls den entsprechenden Abschnitt je nach der Authentifizierungsmethode Ihres Unternehmens.
+In einigen Fällen können Probleme mit der Verfügbarkeit die Möglichkeit zur Anmeldung beeinträchtigen. Überprüfen Sie [status.adobe.com](https://status.adobe.com/de-de) auf offene Fälle. Verwenden Sie andernfalls den entsprechenden Abschnitt je nach der Authentifizierungsmethode Ihres Unternehmens.
 
 ## Adobe ID
 

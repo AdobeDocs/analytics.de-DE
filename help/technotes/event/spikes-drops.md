@@ -25,7 +25,7 @@ Traffic-Rückgänge werden in zwei Abschnitte kategorisiert: Teil der Daten und 
 * **Report Suite-Latenz**: Gelegentlich kann es bei einer Report Suite aufgrund einer Reihe von Faktoren zu einer [Latenz](../latency.md) kommen. Viele Latenzprobleme können innerhalb von Stunden behoben werden. Wenden Sie sich bei Problemen mit einer bestimmten Report Suite an die Adobe-Kundenunterstützung.
 * **Entfernung der Implementierung**: Manchmal wird die Neuimplementierung von Analytics übersehen, wenn eine Organisation Änderungen an der Implementierung vornimmt oder ihre Site neu strukturiert. Arbeiten Sie mit Entwicklern in Ihrem Unternehmen zusammen, um den Code auf Ihrer Site neu zu implementieren.
 * **Problem mit der Analytics-Oberfläche/dem Caching**: In seltenen Fällen enthält der Cache eines Browsers ungültige Daten, die dazu führen, dass alle Berichte Nullen zurückgeben. Löschen Sie die Cookies und den Cache des Browsers, um das Problem zu beheben. Wenn das Löschen Ihrer Cookies/des Cache nicht funktioniert, wenden Sie sich mit dem fehlenden Bericht und dem Datumsbereich an die Kundenunterstützung. Diese kann das Problem duplizieren und zusätzliche Informationen bereitstellen.
-* **Verfügbarkeit von Analytics**: Überprüfen Sie [status.adobe.com](https://status.adobe.com/products/1173/de) auf Probleme bei der Datenerfassung oder -verarbeitung.
+* **Verfügbarkeit von Analytics**: Überprüfen Sie [status.adobe.com](https://status.adobe.com/de/products/1173/de) auf Probleme bei der Datenerfassung oder -verarbeitung.
 
 ### Mögliche Ursachen für teilweise fehlende Daten oder verringerten Traffic
 
