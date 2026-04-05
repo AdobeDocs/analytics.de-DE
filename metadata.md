@@ -2,12 +2,14 @@
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
+landing-page-name: analytics
+landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.de-DE
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
@@ -17,7 +19,7 @@ ht-degree: 100%
 
 # Metadaten für die interne Verwendung
 
-Die Datei metadata.md enthält Metadaten auf Repo-Ebene, die an die TOC.md-Dateien des Benutzerhandbuchs im Repo weitergegeben werden. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen TOC.md-Datei.
+Die Datei „metadata.md“ enthält Metadaten auf Repository-Ebene, die an die im Repository enthaltenen Dateien „TOC.md“ des Benutzerhandbuchs weitergegeben werden. Wenn Sie den Inhalt von „metadata.md“ für ein Benutzerhandbuch ändern möchten, verwenden Sie dazu eine beliebige Datei „TOC.md“.
 
 | metadata | was es macht |
 |--- |--- |
