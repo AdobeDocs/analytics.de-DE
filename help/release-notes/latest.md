@@ -3,45 +3,44 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
+source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 46%
+source-wordcount: '1086'
+ht-degree: 60%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (Märzi 2026)
+# Aktuelle Adobe Analytics-Versionshinweise (April 2026)
 
-**Letztes Update**: Donnerstag, 11. März 2026
+**Letztes Update**: Freitag, 9. April 2026
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom März 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals monatlich aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom April 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals monatlich aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Panel-Aufschlüsselung**<br/> Der Ablagebereich für ein Bedienfeld bietet jetzt die zusätzliche Funktion, [&#x200B; ein Bedienfeld basierend auf einer Dimension (](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) statt Segment) aufzuschlüsseln. | Mittwoch, 31. März 2026 | Mittwoch, 31. März 2026 |
-| **Sortieren von Tabellen nach mehreren Spalten** <br/>Sie können jetzt die Daten einer Freiformtabelle in Analysis Workspace nach mehreren Spalten sortieren, unabhängig davon, ob es sich um Dimensionen oder Metriken handelt.<p>Wenn Sie Daten für mehrere Spalten sortieren, werden die Daten nach der Priorität sortiert, die Sie jeder Spalte zuweisen. Die Prioritätsnummerierung wird neben dem Sortiersymbol angezeigt.</p><p>Weitere Informationen finden Sie unter [Filtern und Sortieren von Freiformtabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).</p> | Donnerstag, 28. Januar 2026 | Donnerstag, 4. März 2026 <p>(Ursprünglich für den 18. Februar 2026 geplant)</p> |
-| **Report Builder: Administratorsichtbarkeit für alle geplanten Arbeitsmappen**<br/> Das Report Builder Excel-Add-in enthält eine neue Filteroption, mit der Administratoren alle geplanten Arbeitsmappen für eine bestimmte Organisation anzeigen können, unabhängig davon, wer sie geplant hat. Diese Filteroption ist nur für Analytics-Admins verfügbar. Er ist sowohl auf der Registerkarte „Arbeitsmappe“ als auch auf der Registerkarte „Legacy“ verfügbar, wenn geplante Arbeitsmappen angezeigt werden.<p>Die Möglichkeit, alle geplanten Arbeitsmappen anzuzeigen, ist besonders bei der Migration von Arbeitsmappen über verteilte Teams hinweg nützlich, da Admins dadurch alle alten Arbeitsmappen vor der Migration leicht finden können.</p><p>Zuvor konnten Admins nur die von ihnen geplanten Arbeitsmappen sehen, nicht die von anderen Benutzern geplanten.</p><p>Weitere Informationen finden Sie unter [Verwaltete geplante Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md).</p> | | Mittwoch, 10. März 2026 |
-| **Aktualisierung zur Funktion „Ungefährer Distinct Count**<br/> Der HLL-probabilistische Algorithmus, der in der Funktion „Ungefährer Distinct Count“ verwendet wird, wird bald aktualisiert. Die resultierende Ausgabe für Zahlen, die diese Funktion verwenden, kann sich wie folgt geringfügig von historischen Zahlen unterscheiden:</p><ul><li>Beim Zählen sehr kleiner Mengen eindeutiger Werte werden die Ergebnisse dahingehend verbessert, dass genaue Zählungen anstelle von Schätzungen verwendet werden.</li><li>Wenn Sie etwas Größeres zählen, behalten Zählschätzungen dieselbe Genauigkeit wie vor dieser Aktualisierung bei (Schätzungen sind innerhalb von 5 Prozent der exakten Zahl genau, 95 Prozent der Zeit).</li></ul><p>Weitere Informationen zur Funktion Ungefährer Distinct Count finden Sie unter [Ungefährer Distinct Count](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md#approximate-count-distinct) unter [Erweiterte Funktionen](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)</p> | | Mittwoch, 10. März 2026 |
-| **Praktisches Tutorial für Analysis Workspace**<br/> Ein neues praktisches Tutorial, das neue Benutzende durch die Grundlagen der Verwendung von Bedienfeldern, Visualisierungen und Komponenten in Analysis Workspace führt, ist jetzt verfügbar. <p>Weitere Informationen finden Sie unter [Adobe Analytics-Landingpage](/help/analyze/landing.md).</p> | | Donnerstag, 18. März 2026 |
-| **Verbesserungen der Fallout**<br/> Visualisierung Die Fallout -Visualisierung umfasst die folgenden Verbesserungen:<ul><li>Ein verbessertes Drag-and-Drop-Erlebnis.<br/>Bewegen Sie einfach den Mauszeiger über einen Touchpoint und ziehen Sie ihn an eine neue Position in der Visualisierung.<br/>Zuvor mussten Sie auf das Symbol „Bearbeiten“ auf dem Touchpoint klicken, bevor Sie ihn ziehen konnten.</li><li>Klarere Sprache bei der Kombination von Touchpoints per Drag-and-Drop.<br/>Wenn Sie einen Touchpoint auf einen anderen Touchpoint ziehen, wird der Text „Kombinieren“ angezeigt, was bedeutet, dass die beiden Touchpoints kombiniert werden.<br/> Zuvor wurde Text „Hinzufügen“ angezeigt, unabhängig davon, ob der Touchpoint an eine neue Position in der Visualisierung verschoben oder mit einem anderen Touchpoint kombiniert wurde.</li><li>Neu gestaltete QuickInfos.<br/>Die QuickInfos, die angezeigt werden, wenn Sie den Mauszeiger über einen Touchpoint bewegen, sind intuitiver und besser lesbar.</li><li>Ein besser auffindbares Kontextmenü.<br/>QuickInfos enthalten eine neue Option „Zum Analysieren klicken“, die einen bequemen Zugriff auf das Kontextmenü des Touchpoints bietet.<br/>Zuvor war das Kontextmenü nur verfügbar, wenn mit der rechten Maustaste auf einen Touchpoint geklickt wurde.</li></ul><p>Weitere Informationen finden Sie unter [Fallout-Visualisierung konfigurieren](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md).</p> | | Donnerstag, 25. März 2026 |
-| **Aufschlüsselung auf ein Bedienfeld anwenden**<br/> Sie können jetzt eine Aufschlüsselung auf ein Bedienfeld anwenden. Wenn Sie eine Aufschlüsselung auf Bedienfeldebene anwenden, wird die Aufschlüsselung auf alle Spalten in allen Freiformtabellen innerhalb des Bedienfelds angewendet. | März 2026 | Mai 2026 |
+| **Activity Map-Verbesserungen**<br/> Activity Map umfasst die folgenden Verbesserungen:</p><ul><li>Unterstützung für die Activity Map Overlay-Erweiterung mit Web SDK-Implementierungen von Adobe Analytics.</li><li>Unterstützung für das WebSDK-Tracking (wenn das Tracking zu Analytics erfolgt).</li><li>Aktualisierter Stil in der gesamten Benutzeroberfläche.</li></ul><p>(Link zur Dokumentation folgt.)</p> | | April 2026 |
+| **MCP-Server für** <br/>Sie können Adobe Analytics jetzt mithilfe von MCP (Model Context Protocol) in Ihre bestehenden Agent-Workflows einbinden. Sie können Berichte und Einblicke in natürlicher Sprache anfordern.<p>(Link zur Dokumentation folgt.)</p> | | Ende April 2026 |
 | **Streaming-Medien-Services: Unterstützung von Zeitplandaten** <br/>Sie können jetzt geplante Daten vergangener Live-Streaming-Medien-Inhalte hochladen, um die Zuschauerzahlen einfacher und genauer zu verfolgen.<p>Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:</p><ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul><p>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen für bestimmte Themen oder Programmsegmente erfassen.</p><p>Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.</p><p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen.</p><p>Weitere Informationen finden Sie unter [Hochladen von Zeitplandaten zum Nachverfolgen von Live-Inhalten](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | &#x200B;29. Oktober 2025 | Erstes Halbjahr 2026<p>(Veröffentlichung ursprünglich für den 29. Oktober 2025 geplant)</p> |
+| **Zusätzliche API-Datumsbereichsformatierung**<br/> Für die Angabe von Datumsbereichen in Berichtsanfragen der Analytics 2.0-API werden jetzt zwei neue Formate unterstützt. Dazu gehören eine Datumsformel und ein gemischtes Format. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | März 2026 |
+| **Optionale Dimension in API-Berichtsanfragen**<br/> Ein Dimensionsobjekt ist in Report API-Anfragen nicht erforderlich. Wenn keine Dimension angegeben ist, zeigt die Antwort Daten für einen Bericht „Gesamtwerte“ an. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | März 2026 |
+| **Bericht zur erweiterten API mit Datumstrends**<br/> Handbuch zum neuen Adobe Analytics 2.0-API-Bericht mit Datumstrend. Erstellen Sie erweiterte API-Berichte mit Datumstrends mithilfe von Datumsbereichsvergleichen und Segmenten. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | März 2026 |
 
 ## Fehlerbehebungen in Adobe Analytics
 
 **Activity Map**:
-**Analysis Workspace**: AN-440336, AN-440216, AN-440121, AN-438445, AN-438216, AN-437856, AN-437776, AN-437765, AN-437365, AN-432793, AN-431557, AN-431200, AN-429621, AN-429424, AN-432094, AN-427973, AN-426089, AN-425883, AN-424359
-**Klassifizierungen**: AN-440143, AN-439891, AN-439844, AN-438994, AN-438057, AN-438052, AN-437986, AN-437896, AN-435387, AN-435335, AN-435150, AN-433050, AN-432062, AN-431873, AN-429642
-**Daten-Feeds und Data Warehouse**: AN-439441, AN-437086, AN-433064, AN-432121, AN-431755, AN-428239, AN-427049, AN-425036, AN-424972, AN-423509, AN-335417, AN-283958, AN-256948
-**Migration**:
-**Exporte**: AN-432030
-**Report Builder**: AN-437895, AN-437083, AN-434288, AN-434209, AN-433224, AN-430622
-**Reporting**: AN-434545, AN-431206, AN-428043
+**Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**CLASSIFICATIONS**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441333, AN-441302, AN-441149, AN-441085, AN-441807, AN-441048 440846 440727 440716 440511 440496 432100, AN-441671, AN-AN-441132, AN-AN-AND, AN-AN-IL
+**Daten-Feeds und Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**Migration**: AN-442467, AN-440380, AN-440357
+**Exporte**:
+**Report Builder**: AN-441136, AN-438147, AN-425150
+**Reporting**: AN-441506, AN-440919, AN-440545, AN-440300
+**Report Suites**: AN-439429, AN-439423, AN-430988
 **Terminierte Berichte**:
 **Segmentierung**:
-**Sonstige**: AN-440076, AN-434783, AN-434542, AN-434233, AN-433368, AN-432138, AN-431322, AN-431012, AN-429067, AN-423285
+**Sonstige**: AN-423359, AN-406242, AN-397985
 
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
