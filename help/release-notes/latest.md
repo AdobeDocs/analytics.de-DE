@@ -3,10 +3,10 @@ title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
+source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 60%
+source-wordcount: '1041'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,6 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Apri
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map-Verbesserungen**<br/> Activity Map umfasst die folgenden Verbesserungen:</p><ul><li>Unterstützung für die Activity Map Overlay-Erweiterung mit Web SDK-Implementierungen von Adobe Analytics.</li><li>Unterstützung für das WebSDK-Tracking (wenn das Tracking zu Analytics erfolgt).</li><li>Aktualisierter Stil in der gesamten Benutzeroberfläche.</li></ul><p>(Link zur Dokumentation folgt.)</p> | | April 2026 |
 | **MCP-Server für** <br/>Sie können Adobe Analytics jetzt mithilfe von MCP (Model Context Protocol) in Ihre bestehenden Agent-Workflows einbinden. Sie können Berichte und Einblicke in natürlicher Sprache anfordern.<p>(Link zur Dokumentation folgt.)</p> | | Ende April 2026 |
 | **Streaming-Medien-Services: Unterstützung von Zeitplandaten** <br/>Sie können jetzt geplante Daten vergangener Live-Streaming-Medien-Inhalte hochladen, um die Zuschauerzahlen einfacher und genauer zu verfolgen.<p>Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:</p><ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul><p>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen für bestimmte Themen oder Programmsegmente erfassen.</p><p>Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.</p><p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen.</p><p>Weitere Informationen finden Sie unter [Hochladen von Zeitplandaten zum Nachverfolgen von Live-Inhalten](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | &#x200B;29. Oktober 2025 | Erstes Halbjahr 2026<p>(Veröffentlichung ursprünglich für den 29. Oktober 2025 geplant)</p> |
 | **Zusätzliche API-Datumsbereichsformatierung**<br/> Für die Angabe von Datumsbereichen in Berichtsanfragen der Analytics 2.0-API werden jetzt zwei neue Formate unterstützt. Dazu gehören eine Datumsformel und ein gemischtes Format. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | März 2026 |
