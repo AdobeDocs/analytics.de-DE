@@ -4,9 +4,8 @@ description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website 
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
-hidefromtoc: true
 role: Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,7 +17,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
+> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchenden Ihrer Website die Möglichkeit zu geben, die Analyse ihrer Informationen abzuwählen.
 
@@ -44,7 +43,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    1. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
    1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
