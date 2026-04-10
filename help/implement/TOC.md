@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Implementieren von Analytics mit JavaScript {#js}
    + [JavaScript-Übersicht](js/overview.md)
-   + [Implementieren von Ausschluss-Links](js/opt-out.md)
+   + {hide-from-toc}[Implementieren von Ausschluss-Links](js/opt-out.md)
    + [Variablenüberschreibungen](js/overrides.md)
    + [Aus H-Code migrieren](js/migrate-from-hcode.md)
    + H-Code {#h-code}
