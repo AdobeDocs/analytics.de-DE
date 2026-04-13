@@ -1,8 +1,8 @@
 ---
 source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3047'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 # Snippets
@@ -11,14 +11,14 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) ist seit dem 16. Oktober 2024 verfügbar. Diese Report Builder wird in macOS, Windows und Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden.
->Diese alte Add-In-Version von Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>Seit dem 16. Oktober 2024 ist ein neuer und optimierter [Report Builder](/help/analyze/report-builder/rb-overview.md) verfügbar. Dieser Report Builder wird unter macOS, Windows und in Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden.
+>Diese Vorgängerversion des Report Builder-Add-ins funktioniert weiterhin. Sie können [Ihre alten Arbeitsmappen](/help/analyze/report-builder/convert-workbooks.md) für den neuen Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->Mit **17. Januar 2024** Adobe Reports &amp; Analytics und die zugehörigen Berichte und Funktionen eingestellt. Zu diesem Zeitpunkt funktionierten Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Weitere Informationen finden Sie unter [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md).
+>Adobe hat Reports &amp; Analytics und die zugehörigen Berichte und Funktionen zum **17. Januar 2024** eingestellt. Seit diesem Zeitpunkt funktionieren Reports &amp; Analytics und alle zugehörigen Berichte und Zeitpläne nicht mehr. Die Berichte, Visualisierungen und zugrunde liegenden Technologien von Reports &amp; Analytics entsprechen nicht mehr den technologischen Standards von Adobe. Die meisten Reports &amp; Analytics-Funktionen sind in Analysis Workspace verfügbar. Weitere Informationen finden Sie unter [Verwenden von Vorlagen](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Seit der Veröffentlichung von Analysis Workspace im Jahr 2015 wurden die Funktionen und Leistungsmerkmale von Reports &amp; Analytics in Analysis Workspace verschoben, und es wurde ein Schwellenwert für die Workflow-Parität erreicht. In dieser Mitteilung wird der End-of-Life-Prozess erläutert.
 >
@@ -54,16 +54,16 @@ ht-degree: 86%
 >Dieses Plug-in wird von Adobe Consulting bereitgestellt, damit Sie die Vorteile von Adobe Analytics besser nutzen können. Die Adobe-Kundenunterstützung bietet keine Unterstützung für dieses Plug-in, einschließlich Installation und Fehlerbehebung. Wenn Sie Hilfe bei diesem Plug-in benötigen, wenden Sie sich an das für Ihr Unternehmen zuständige Adobe-Kunden-Team. Sie können ein Treffen mit einer Beraterin oder einem Berater zur Unterstützung arrangieren.
 
 
-## Nur für Bestandskunden verfügbar {#available-existing-customers}
+## Nur für Bestandskundschaft verfügbar {#available-existing-customers}
 
 >[!AVAILABILITY]
 >
->Die in diesem Abschnitt beschriebene Funktion steht nur Bestandskunden zur Verfügung, die bereits über eine Lizenz für die Funktion verfügen. Die Funktion wird bestehenden oder neuen Kunden nicht mehr als zusätzliches Add-on angeboten.
+>Die in diesem Abschnitt beschriebene Funktion steht nur bestehenden Kundinnen und Kunden zur Verfügung, die bereits über eine Lizenz für die Funktion verfügen. Die Funktion wird bestehender oder neuer Kundschaft nicht mehr als zusätzliches Add-on angeboten.
 >
 
-## Videodemonstration Customer Journey Analytics {#videocja}
+## Videodemo von Customer Journey Analytics {#videocja}
 
-In diesem Video werden die Funktionen von mit Customer Journey Analytics veranschaulicht. Die Funktion ist jedoch in ähnlicher Weise in Adobe Analytics verfügbar. Achten Sie auf die terminologischen Unterschiede zwischen Adobe Analytics und Customer Journey Analytics (z. B. *Besuche* und *Sitzungen*).
+In diesem Video wird die Funktionalität von Customer Journey Analytics veranschaulicht. Die Funktionalität ist jedoch in ähnlicher Weise in Adobe Analytics verfügbar. Achten Sie auf die terminologischen Unterschiede zwischen Adobe Analytics und Customer Journey Analytics (z. B. *Besuche* und *Sitzungen*).
 
 
 ## Attributionsmodelle {#attribution-models-details}
@@ -90,8 +90,8 @@ Ein Attributionsmodell bestimmt, welchen Dimensionselementen eine Metrik zugesch
 
 Ein Attributions-Container definiert den gewünschten Umfang für die Attribution. Mögliche Optionen sind:
 
-* **Besuch**: Betrachtet Konversionen aus dem Umfang des Besuchs-Containers. Wenn **[!UICONTROL Besuch]** ausgewählt ist, wird das [Attributions-Lookback-Fenster](#atribution-lookback-window) automatisch auf **[!UICONTROL Reporting-Fenster]** festgelegt und kann nicht geändert werden.
-* **Besucher**: Betrachtet Konversionen aus dem Umfang des Besucher-Containers.
+* **Besuch**: Untersucht Konversionen ausgehend vom Umfang des Besuch-Containers. Wenn **[!UICONTROL Besuch]** ausgewählt ist, wird das [Attributions-Lookback-Fenster](#atribution-lookback-window) automatisch auf **[!UICONTROL Reporting-Fenster]** festgelegt und kann nicht geändert werden.
+* **Person**: Untersucht Konversionen ausgehend vom Umfang des Person-Containers.
 
 ## Attributions-Lookback-Fenster {#attribution-lookback-window}
 
@@ -133,9 +133,9 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 
 | Funktion | Journey-Arbeitsfläche | Fallout | Fluss |
 |---------|----------|---------|---------|
-| **Vordefinierte Seitensequenz** | Ja</br>Kombiniert vordefinierte und explorative Analysen. Der endgültige Pfad wird bei Verwendung vordefinierter Knoten auf dem Pfad verwendet (Besuchende werden gezählt, solange sie schließlich von einem vordefinierten Knoten zum anderen wechseln). Die unmittelbar (nicht letztendlich) nächsten Knoten können ebenfalls angezeigt werden. | Ja</br>Der Pfad kann ein endgültiger Pfad oder auf den nächsten Touchpoint beschränkt sein | Nein |
-| **Explorative Sequenz von Seiten (Ad-hoc-Analyse)** | Ja</br>Kombiniert vordefinierte und explorative Analysen. Der endgültige Pfad wird bei Verwendung vordefinierter Knoten auf dem Pfad verwendet (Besuchende werden gezählt, solange sie schließlich von einem vordefinierten Knoten zum anderen wechseln). Die unmittelbar (nicht letztendlich) nächsten Knoten können ebenfalls angezeigt werden. | Eingeschränkt</br>Ermöglicht es Ihnen, mit der rechten Maustaste auf einen sofortigen Fallout in einer Freiformtabelle zu klicken und ihn anzuzeigen. | Ja</br>Nur explorative Analysen. Immer innerhalb einer Dimensionsinstanz zwischen Knoten. Das bedeutet, dass jeder Knoten den sofortigen (nicht endgültigen) nächsten Touchpoint entlang des Pfads anzeigt. |
-| **Zeigt an, wo Personen eine Site verlassen haben und wo sie passiert sind (d. h., wo sie verblieben sind).** | Ja</br>Wird sowohl für vordefinierte als auch für explorative Journey angezeigt | Ja</br>Zeigt vordefinierte Journeys an | Ja</br>Zeigt explorative Journeys an |
+| **Vordefinierte Seitensequenz** | Ja</br>Kombiniert vordefinierte und explorative Analysen. Der endgültige Pfad wird bei Verwendung vordefinierter Knoten auf dem Pfad verwendet (Besuchende werden gezählt, solange sie schließlich von einem vordefinierten Knoten zum anderen wechseln). Die unmittelbar (nicht endgültigen) nächsten Knoten können auch angezeigt werden. | Ja</br>Der Pfad kann ein endgültiger Pfad oder auf den nächsten Touchpoint beschränkt sein | Nein |
+| **Explorative Sequenz von Seiten (Ad-hoc-Analyse)** | Ja</br>Kombiniert vordefinierte und explorative Analysen. Der endgültige Pfad wird bei Verwendung vordefinierter Knoten auf dem Pfad verwendet (Besuchende werden gezählt, solange sie schließlich von einem vordefinierten Knoten zum anderen wechseln). Die unmittelbar (nicht endgültigen) nächsten Knoten können auch angezeigt werden. | Eingeschränkt</br>Ermöglicht es Ihnen, mit der rechten Maustaste auf einen sofortigen Fallout in einer Freiformtabelle zu klicken und ihn anzuzeigen. | Ja</br>Nur explorative Analysen. Immer innerhalb einer Dimensionsinstanz zwischen Knoten. Das bedeutet, dass jeder Knoten den sofortigen (nicht endgültigen) nächsten Touchpoint entlang des Pfads anzeigt. |
+| **Zeigt an, wo Personen eine Site verlassen haben und wo sie passiert sind (d. h., wo sie verblieben sind).** | Ja</br>Zeigt sowohl vordefinierte als auch explorative Journeys an. | Ja</br>Zeigt vordefinierte Journeys an | Ja</br>Zeigt explorative Journeys an |
 | **Lineare Journeys** | Ja | Ja | Nein |
 | **Nichtlineare Journeys mit mehreren Einstiegspunkten und Pfaden** | Ja | Nein | Ja |
 | **Primäre Metrik** | Jede Metrik, einschließlich berechneter Metriken | Nur Sitzung oder Person | Nur Vorkommnisse (Pfadansichten) |
@@ -143,7 +143,7 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 | **Komponentenunterstützung in Knoten oder Touchpoints** | Metriken, Dimensionselemente, Filter und Datumsbereiche. | Metriken, Dimensionselemente, Filter und Datumsbereiche. | Nur Dimensionselemente (mit Ausnahme des Start- und End-Touchpoints) |
 | **Filter vergleichen** | Nein | Ja<p>Eine Gegenüberstellung zweier verschiedener Filter im gleichen Bericht vornehmen.</p> | Nein |
 | **Drag-and-Drop-Komponenteninteraktion** | Ja | Ja | Nein |
-| **Adobe Journey Optimizer-Journeys** | Ja</br>Öffnen Sie Journey von Journey Optimizer aus, um sie gründlicher zu analysieren und anzupassen. | Nein | Nein |
+| **Adobe Journey Optimizer-Journeys** | Ja</br>Öffnen Sie Journeys aus Journey Optimizer, um sie gründlicher zu analysieren und anzupassen | Nein | Nein |
 
 {style="table-layout:auto"}
 
@@ -156,11 +156,11 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 | ![Tags](/help/assets/filter-tag.png){width="300"} | Im Abschnitt **[!UICONTROL Tags]** können Sie nach Tags filtern. <ul><li>Mit ![Suchen](/help/assets/icons/Search.svg) *Tags suchen* können Sie nach Tags suchen, die Sie zum Filtern verwenden können.</li><li>Sie können auch mehr als ein Tag auswählen. Die verfügbaren Tags hängen von der Auswahl ab, die in anderen Abschnitten im Panel „Filter“ vorgenommen wurde.</li><li>Die Zahlen geben Folgendes an:<ul><li>**(1)**: Die Anzahl der ausgewählten Tags (wenn mindestens ein Tag ausgewählt ist).</li><li>**2︎⃣**: Die Anzahl der Tags, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li><li>7︎⃣: Die Anzahl der Elemente, die mit dem jeweiligen Tag verknüpft sind.</li></ul></li></ul> |
 
 
-## Report Suite-Filterabschnitt {#reportsuitefiltersection}
+## Abschnitt zu Report Suite-Filtern {#reportsuitefiltersection}
 
 | Report Suite | Beschreibung |
 |---|---|
-| ![Repost Suite](/help/assets/filter-reportsuite.png){width="300"} | Im **[!UICONTROL Report Suite]** können Sie nach Report Suites filtern. <ul><li>Sie können ![Suche](/help/assets/icons/Search.svg) *Report Suites durchsuchen* um nach Report Suites zu suchen, die Sie zum Filtern verwenden können.</li><li>Sie können mehrere Report Suites auswählen. Die verfügbaren Report Suites hängen von der Auswahl ab, die in anderen Abschnitten im Filterbedienfeld vorgenommen wurde.</li><li>Die Zahlen geben Folgendes an:<ul><li>**(2)**: Die Anzahl der ausgewählten Report Suites (wenn eine oder mehrere Report Suites ausgewählt sind).</li><li>**3︎⃣**: Die Anzahl der Report Suites, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li><li>4︎⃣: Die Anzahl der Elemente, die mit der bestimmten Report Suite verknüpft sind.</li></ul></li></ul> |
+| ![Report Suite](/help/assets/filter-reportsuite.png){width="300"} | Im Abschnitt **[!UICONTROL Report Suite]** können Sie nach Report Suites filtern. <ul><li>Mit ![Suchen](/help/assets/icons/Search.svg) *Report Suites suchen* können Sie nach Report Suites suchen, die Sie zum Filtern verwenden können.</li><li>Sie können mehrere Report Suites auswählen. Die verfügbaren Report Suites hängen von der Auswahl ab, die in anderen Abschnitten im Panel „Filter“ vorgenommen wurde.</li><li>Die Zahlen geben Folgendes an:<ul><li>**(2)**: Die Anzahl der ausgewählten Report Suites (wenn mindestens eine Report Suite ausgewählt ist).</li><li>**3︎⃣**: Die Anzahl der Report Suites, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li><li>4︎⃣: Die Anzahl der Elemente, die mit der jeweiligen Report Suite verknüpft sind.</li></ul></li></ul> |
 
 ## Abschnitt zu Filtern nach aktivierten Status {#enabledstatusfiltersection}
 
@@ -193,20 +193,20 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 | ![Datumsbereich](/help/assets/filter-daterange.png){width="300"} | Im Abschnitt „Angewendeter Datumsbereich“ können Sie nach einem Datumsbereich filtern, der auf die Elemente anwendbar ist.<ol><li>Wählen Sie einen Datumsbereich aus.</li><li>Definieren Sie im Kalender-Popup einen Datumsbereich oder wählen Sie eine der verfügbaren Voreinstellungen aus.<br>Alternativ können Sie einen Datumsbereich auch direkt im Abschnitt „Datumsbereich“ des Panels „Filter“ angeben.</li></ol><ul><li>Die Zahlen geben Folgendes an:<ul><li>**(1)**: Die Anzahl der geänderten Datumsbereiche, die von den Standardvorgaben geändert wurden.</li><li>**5︎⃣**: Die Anzahl der Datumsbereiche, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li></ul> |
 
 
-## Einstellung des Classification Importers {#classification-importer-deprecation}
+## Einstellung von Klassifizierungsimport {#classification-importer-deprecation}
 
 >[!WARNING]
 >
->Das Classification Importer-Tool wird am **31. August 2026)**. Wechseln Sie zur Verwendung des Erlebnisses [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um den Fortbestand der Funktionalität sicherzustellen.
+>Klassifizierungsimport wird ab dem **31. August 2026** eingestellt. Verwenden Sie stattdessen das Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/overview.md), um die weitere Funktionalität sicherzustellen.
 >
 
 
 
-## Einstellung des Classification Rule Builders {#classification-rulebuilder-deprecation}
+## Einstellung von Classification Rule Builder {#classification-rulebuilder-deprecation}
 
 >[!WARNING]
 >
->Der Classification Rule Builder wird seit dem **. Februar 2027 nicht mehr**. Wechseln Sie zur Verwendung des Erlebnisses [Klassifizierungssätze - Regeln](/help/components/classifications/sets/manage/rules.md), sobald verfügbar, um eine kontinuierliche Funktionalität sicherzustellen.
+>Classification Rule Builder wird ab dem **28. Februar 2027** eingestellt. Verwenden Sie stattdessen das Erlebnis [Klassifizierungssätze](/help/components/classifications/sets/manage/rules.md), sobald dies verfügbar ist, um die weitere Funktionalität sicherzustellen.
 >
 
 

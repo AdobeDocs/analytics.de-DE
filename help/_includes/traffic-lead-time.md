@@ -1,10 +1,10 @@
 ---
-description: Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenz sowie mögliche negative Auswirkungen auf das gesamte System zu minimieren.
+description: Adobe benötigt eine vorherige Ankündigung bei Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Hardware muss im Voraus zugewiesen werden, um die Latenz und mögliche negative Auswirkungen auf das Gesamtsystem zu minimieren.
 title: Erforderliche Vorlaufzeit für Traffic-Zunahme
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -12,15 +12,15 @@ ht-degree: 100%
 
 # Erforderliche Vorlaufzeit für Traffic-Zunahme
 
-Adobe benötigt eine vorherige Benachrichtigung bei der Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Die Hardware muss vorab zugeordnet werden, um Latenz sowie mögliche negative Auswirkungen auf das gesamte System zu minimieren.
+Adobe benötigt eine vorherige Ankündigung bei Einrichtung neuer Konten, Traffic-Spitzen und Traffic-Zunahmen. Hardware muss im Voraus zugewiesen werden, um die Latenz und mögliche negative Auswirkungen auf das Gesamtsystem zu minimieren.
 
 >[!IMPORTANT]
 >
 >Adobe kann keine Traffic-Änderungsanfragen für „Platzhalter“ berücksichtigen. Sofern nicht anders angegeben, halten Sie die vorgeschlagene Vorlaufzeit so gut wie möglich ein. Senden Sie wenn möglich auch keinen Warnhinweis zu früh.
 
-Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Verkehrswarnhinweis übermitteln müssen:
+Ermitteln Sie anhand der folgenden Richtlinien, wie weit im Voraus Sie einen Traffic-Warnhinweis übermitteln müssen:
 
-## Vorlaufzeiten Hardware-Zuordnung
+## Vorlaufzeiten für Hardware-Zuweisung
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -52,14 +52,14 @@ Ermitteln Sie anhand der folgenden Richtlinien, wie lange im Voraus Sie einen Ve
 
 Was Sie außerdem noch beachten müssen:
 
-* Wenn Sie mehrere Report Suites einrichten oder erweitern, sodass die oben aufgeführten Zahlen erreicht werden, gilt die Vorlaufzeit für den zusammengefassten Traffic für alle diese Report Suites.
-* Um eine Traffic-Änderung zu übermitteln, benötigen Sie die folgenden Informationen:
+* Wenn Sie mehrere Report Suites in Betrieb nehmen oder hinzufügen, die die oben angegebenen Zahlen erhöhen, gilt als Vorlaufzeit die Summe des für jede Report Suite erwarteten Traffics.
+* Halten Sie die folgenden Informationen bereit, um eine Traffic-Änderung zu übermitteln:
 
    * Report Suite-ID
-   * Geschätzte Trefferanzahl pro Tag
-   * Aufschaltdatum
+   * Geschätzte Treffer pro Tag
+   * Tag der Live-Schaltung
 
-* Client-Warnhinweise werden auch benötigt, wenn der Datenverkehr nachlässt oder eine Report Suite veraltet ist.
+* Client-Warnhinweise sind auch erforderlich, wenn der Traffic abnimmt oder eine Report Suite außer Betrieb genommen wird.
 
 ## Aufhebung der Hardware-Zuordnung aufgrund von nicht realisiertem Traffic
 
