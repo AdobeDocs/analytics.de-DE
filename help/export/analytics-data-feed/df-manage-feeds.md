@@ -61,7 +61,7 @@ Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen F
 
    Konten und Speicherorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Die Bearbeitung eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder diesem Standort verknüpft sind.
 
-   In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feed-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
+   In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure-Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feed-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
@@ -101,7 +101,7 @@ Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen F
 
    Konten und Speicherorte können wie in [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) und [Konfigurieren von Cloud-Import- und -Exportspeicherorten](/help/components/locations/configure-import-locations.md) beschrieben bearbeitet werden. Die Bearbeitung eines Kontos oder Standorts wirkt sich auf alle Elemente aus, die mit diesem Konto oder diesem Standort verknüpft sind.
 
-   In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feed-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
+   In früheren Versionen des Daten-Feed-Managers konnten Sie FTP-, SFTP-, S3- und Azure-Blob-Ziele erstellen. Ziele, die in diesen früheren Versionen des Daten-Feed-Managers erstellt wurden, können nicht bearbeitet oder kopiert werden.
 
 ## Anhalten eines Daten-Feeds
 
