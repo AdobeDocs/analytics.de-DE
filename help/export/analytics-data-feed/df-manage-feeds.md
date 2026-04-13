@@ -17,7 +17,7 @@ Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstel
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
