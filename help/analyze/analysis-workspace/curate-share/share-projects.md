@@ -41,7 +41,7 @@ Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird bei
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -115,7 +115,7 @@ Beachten Sie bei der Freigabe eines Links, wie in diesem Abschnitt beschrieben, 
 
 * Empfänger und Empfängerinnen, die den Link verwenden, müssen sich bei Adobe Analytics anmelden, bevor sie Zugriff auf das Projekt erhalten.
 
-* Wenn Empfängern oder Empfängerinnen keine Rolle zugewiesen wurde und sie einen &quot;[&#x200B; Link](/help/analyze/analysis-workspace/curate-share/shareable-links.md) zum Projekt erhalten, wird ihnen standardmäßig eine Rolle zugewiesen. Admins erhalten **[!UICONTROL Original bearbeiten]** und Nicht-Admins erhalten **[!UICONTROL Kopie bearbeiten]**.
+* Wenn Empfängern oder Empfängerinnen keine Rolle zugewiesen wurde und sie einen &quot;[ Link](/help/analyze/analysis-workspace/curate-share/shareable-links.md) zum Projekt erhalten, wird ihnen standardmäßig eine Rolle zugewiesen. Admins erhalten **[!UICONTROL Original bearbeiten]** und Nicht-Admins erhalten **[!UICONTROL Kopie bearbeiten]**.
 
 So geben Sie den Projekt-Link für Personen in Ihrer Organisation frei:
 
@@ -157,7 +157,7 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sin
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/327497?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 

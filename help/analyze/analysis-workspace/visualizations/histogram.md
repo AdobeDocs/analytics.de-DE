@@ -8,7 +8,7 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 89%
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Histogrammvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Histogramm](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/histogram) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird die Histogrammvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Histogramm](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/histogram) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -52,9 +52,9 @@ Im Rahmen der Visualisierung sind bestimmte Histogrammeinstellungen verfügbar.
 
 | Histogrammeinstellungen | Beschreibung |
 |---|---|
-| **[!UICONTROL Anfangs-Bucket]** | Bestimmt, mit welchem Paket das Histogramm beginnt. Die Standardeinstellung lautet 1. Sie können Startwerte von null bis unendlich festlegen, jedoch keine negativen Zahlen. |
+| **[!UICONTROL Anfangs-Bucket]** | Bestimmt, mit welchem Bucket das Histogramm beginnt. „1“ ist der Standardwert. Sie können Anfangszahlen von 0 bis unendlich festlegen (keine negativen Zahlen). |
 | **[!UICONTROL Metrik-Buckets]** | Hiermit können Sie die Anzahl der Datenbereiche (Buckets) erhöhen/verringern. Die maximale Anzahl von Buckets ist 50. |
-| **[!UICONTROL Metrik-Bucket-Größe]** | Hiermit können Sie die Größe der einzelnen Behälter festlegen. So könnten Sie zum Beispiel die Behältergröße von 1 Seitenansicht zu 2 Seitenansichten ändern. |
+| **[!UICONTROL Metrik-Bucket-Größe]** | Hier können Sie die Größe der einzelnen Behälter festlegen. Sie können beispielsweise die Größe des Buckets von einer Seitenansicht in zwei Seitenansichten ändern. |
 | **[!UICONTROL Zählmethode]** | Treffen Sie eine Auswahl aus **[!UICONTROL Person]**, **[!UICONTROL Sitzung]** oder **[!UICONTROL Ereignis]**, z. B. Seitenansichten pro Sitzung, Seitenansichten pro Person oder Seitenansichten pro Ereignis. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
@@ -69,7 +69,7 @@ Im Rahmen der Visualisierung sind bestimmte Histogrammeinstellungen verfügbar.
 >[!MORELIKETHIS]
 >
 >[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->&#x200B;>[Verwenden von Histogrammen zur Identifizierung unerwarteter Datenwerte](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=de)
+>[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Verwenden von Histogrammen zur Identifizierung unerwarteter Datenwerte](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=de)
 

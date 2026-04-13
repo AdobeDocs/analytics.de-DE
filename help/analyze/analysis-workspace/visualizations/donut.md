@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Ringdiagramm-Visualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Ringdiagramm](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/donut) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird die Ringdiagramm-Visualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** beschrieben._<br/>_Unter [Ringdiagramm](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/donut) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ _In diesem Artikel wird die Ringdiagramm-Visualisierung in_ ![AdobeAnalytics](/h
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen einer Visualisierung Ringdiagramm](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen einer Visualisierung Ringdiagramm](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-donut-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
