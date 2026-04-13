@@ -5,7 +5,7 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -43,7 +43,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    1. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
    1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
