@@ -1,17 +1,17 @@
 ---
 description: Konfigurieren Sie das Cloud-Importkonto und den Speicherort, an den Klassifizierungsdaten hochgeladen werden können
 keywords: Analysis Workspace
-title: Konfigurieren von Cloud-Import- und -Exportspeicherorten
+title: Konfigurieren von Cloud-Import und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
 
 ---
 
-# Konfigurieren von Cloud-Import- und -Exportspeicherorten
+# Konfigurieren von Cloud-Import und -Exportspeicherorten
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -34,7 +34,7 @@ Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unte
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
 
-1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standorte**] aus.
+1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standorte**] aus.
 
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Standorte für alle Benutzer anzeigen**] aktivieren, um Standorte anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Standorte für alle Benutzer anzeigen](assets/locations-all-users.png)
@@ -78,7 +78,7 @@ Um einen ARN-Speicherort für die Amazon S3-Rolle zu konfigurieren, geben Sie di
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -102,7 +102,7 @@ Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speiche
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -126,7 +126,7 @@ Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konf
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -151,7 +151,7 @@ Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu kon
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -174,11 +174,11 @@ Geben Sie die folgenden Informationen an, um einen E-Mail-Speicherort zu konfigu
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten in das -Konto und den Speicherort exportieren, die Sie bei der Verwendung von [Daten-Feeds) &#x200B;](/help/export/analytics-data-feed/create-feed.md) haben. (E-Mail-Speicherorte werden von [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) nicht unterstützt.
+   Sie können jetzt Daten in das -Konto und den Speicherort exportieren, die Sie bei der Verwendung von [Daten-Feeds) ](/help/export/analytics-data-feed/create-feed.md) haben. (E-Mail-Speicherorte werden von [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) nicht unterstützt.
 
 ### Alte Kontotypen
 
-Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht &#x200B;](/help/components/classifications/sets/manage/schema.md).
+Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht ](/help/components/classifications/sets/manage/schema.md).
 
 +++FTP
 
@@ -241,7 +241,7 @@ Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfa
 
 +++Azure Blob
 
-Data Warehouse unterstützt Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Amazon verschlüsselt die Daten automatisch während der Ruhezeit. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
+Data Warehouse unterstützt Azure Blob-Ziele. Erfordert einen Container, ein Konto und einen Schlüssel. Azure verschlüsselt die Daten im Ruhezustand automatisch. Wenn Sie die Daten herunterladen, werden sie automatisch entschlüsselt. Weitere Informationen finden Sie unter [Erstellen eines Speicherkontos](https://docs.microsoft.com/de-de/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) in der Dokumentation zu Microsoft Azure.
 
 >[!NOTE]
 >
