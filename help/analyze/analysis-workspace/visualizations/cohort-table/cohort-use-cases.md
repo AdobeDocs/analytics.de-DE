@@ -1,67 +1,97 @@
 ---
-description: Erfahren Sie mehr über einige Anwendungsbeispiele für die Kohortenanalyse.
+description: Erfahren Sie mehr über typische Anwendungsfälle für Kohortentabellen in Analysis Workspace, einschließlich App-Interaktion, Abonnementanalyse, Kampagnen-Stickiness und Produktstarts.
 keywords: Analysis Workspace
 title: Anwendungsfälle für die Kohortenanalyse
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 544502d98995134383291724b3c04d0b6acad728
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+source-wordcount: '1004'
+ht-degree: 3%
 
 ---
 
 # Anwendungsfälle für die Kohortenanalyse
 
-Anwendungsfälle für die [!UICONTROL Kohortenanalyse].
+In diesem Artikel werden mehrere typische Anwendungsfälle besprochen, für die Kohortentabellen hilfreich sind, um nützliche Einblicke in die Durchführung nächster Aktionen zu erhalten.
 
-## Anwendungsfall: Mobile-App-Interaktion
+## App-Interaktion
 
-Angenommen Sie möchten herausfinden, wie Benutzer, die Ihre Anwendung installieren, im Laufe der Zeit damit interagieren. Installieren sie die Anwendung, benutzen sie aber nie? Benutzen sie die Anwendung eine Zeit lang und hören dann auf? Oder bleiben Sie die ganze Zeit dabei?
+Angenommen, Sie möchten analysieren, wie Benutzer, die Ihre App installieren, im Laufe der Zeit mit der App interagieren. Installieren Benutzende die App und verwenden sie danach nie mehr? Oder nutzen sie die App eine Weile und hören dann auf, sie zu verwenden? Oder bleiben die Nutzer im Laufe der Zeit aktiv?
 
-Sie können eine Kohortenanalyse über sechs Monate erstellen.
+Sie können eine sechsmonatige Kohortenanalyse erstellen. Besucher werden in den folgenden Monaten nicht als *`engaged`* gezählt, es sei denn, diese Benutzer haben eine Sitzung oder starten die App. Die [!UICONTROL Kohortenanalyse] zeigt Ihnen dann Nutzungsmuster, bei denen *`App Install`* immer in Monat 0 auftritt. Sie werden möglicherweise feststellen, dass die Nutzung in Monat 2 einbricht, unabhängig davon, wann Benutzer die App installiert haben. Mit dieser Analyse können Sie im zweiten Monat nach der Installation der App eine E-Mail oder eine Push-Nachricht an alle Benutzer senden, um sie an die Verwendung der App zu erinnern.
 
-**Granularität**: Monatlich, von Januar 2015 bis Juni 2015
++++ Beispielvisualisierung einer Kohortentabelle
 
-**Aufnahmemetrik**: Anwendungsinstallationen
+![Anwendungsfall für App-Interaktion](assets/app-engagement.png)
 
-**Rückkehrmetrik**: Sitzungen oder Starts
++++
 
-Besuchende zählen in nachfolgenden Monaten nicht als *`engaged`*, sofern nicht eine Sitzung stattgefunden hat oder sie zumindest die App gestartet haben. Die [!UICONTROL Kohortenanalyse] zeigt Ihnen dann Nutzungsmuster, bei denen *`App Install`* immer in Monat 0 auftritt. Vielleicht stellen Sie fest, dass die Verwendung im zweiten Monat zurückgeht, unabhängig vom Zeitpunkt der Installation der Anwendung durch die Benutzer. (Für diejenigen, die die Anwendung im Januar 2015 installiert haben, ist der zweite Monat der März 2015. Für diejenigen, die die App im Februar 2015 installiert haben, ist Monat 2 der April 2015 usw.) Mit dieser Analyse können Sie im zweiten Monat nach der Installation der App eine E-Mail oder eine Push-Nachricht an alle Benutzenden senden, um sie an die Verwendung der App zu erinnern.
+## Abonnement
 
-## Anwendungsfall: Abonnement
+Sie arbeiten unter Adobe.com und bieten ein kostenloses Creative Cloud-Abonnement an. Ziel ist es, dass Benutzer von der kostenlosen Version auf die 30-Tage-Testversion oder letztendlich auf die kostenpflichtige Version aktualisieren.
 
-Sie arbeiten bei Adobe.com und bieten ein kostenloses Creative Cloud-Abonnement an. Das Ziel besteht darin, dass die Benutzer ein Upgrade von der kostenlosen Version auf das 30-tägige Probe-Abo oder letztlich auf die zahlungspflichtige Version durchführen.
+Verwenden Sie [!UICONTROL Kohortenanalyse] um beispielsweise zu verstehen, dass im ersten Monat nach der Installation zwischen 8 % und 10 % der kostenlosen Creative Cloud-Benutzer unabhängig vom Installationszeitpunkt ein Upgrade durchführen. Dann Upgrade von 12-15 % im zweiten Monat der Nutzung. Danach fällt das Upgrade deutlich ab: 4-5 % in Monat drei, 3-4 % in Monat vier und 1-2 % in Monat fünf.
 
-**Granularität**: Monatlich
+Da Sie im dritten Monat keine potenziellen Kunden verlieren möchten, richten Sie eine E-Mail-Kampagne ein, die Mitte des dritten Monats an eine Stichprobe von Benutzern gesendet werden soll. In dieser Kampagne bieten Sie Benutzern, die noch kein Upgrade durchgeführt haben, einen Gutschein im Wert von 50 $ an.
 
-**Aufnahmemetrik**: Download-Link
+Sehen Sie sich einige Monate später Ihre Kohortenanalyse an. Bei Kohorten, die nach dem Start der Kampagne gebildet wurden, ist die Konversionsrate auf bezahlte Creative Cloud-Abonnements im dritten Monat von 4-5% auf 13-14% gestiegen. Die Konversion resultiert in hunderttausenden von Dollar pro Kohorte, für jede monatliche Kohorte, die ab diesem Zeitpunkt drei Monate erreicht.
 
-**Rückkehrmetrik**: Kauf der zahlungspflichtigen Creative Cloud
++++ Beispielvisualisierung einer Kohortentabelle
 
-Mithilfe dieser [!UICONTROL Kohortenanalyse] könnten Sie z. B. sehen, dass zwischen 8 % und 10 % der Benutzer der kostenlosen Creative Cloud-Version im ersten Monat nach der Installation ein Upgrade durchführen, unabhängig vom Zeitpunkt der Installation. 12–15 % führen im zweiten Monat der Verwendung ein Upgrade durch. Danach lassen die Upgrades merklich nach: 4–5 % im dritten Monat, 3–4 % im vierten Monat und 1–2 % im fünften Monat.
+![Anwendungsfall für Abonnements](assets/subscription-use-case.png)
 
-Da deutlich wird, dass Sie im dritten Monat keine potenziellen Kunden verlieren sollten, richten Sie eine E-Mail-Kampagne ein, die in der Mitte des dritten Monats an eine Stichprobe der Benutzer herausgeht und Benutzern, die noch kein Upgrade durchgeführt haben, einen Gutschein über 50 $ anbietet.
++++
 
-Einige Monate später erstellen Sie erneut einen Kohortenanalysebericht. Für Kohorten, die nach dem Start der Kampagne gebildet wurden, ist die Konversion zu zahlungspflichtigen Creative Cloud-Abonnements von 4–5 % auf 13–14 % gestiegen, was pro Kohorte für mehrere hunderttausend Dollar steht, für alle monatlichen Kohorten, die ab diesem Punkt den dritten Monat erreichen.
+## Komplexe Kohortensegmente
 
-## Anwendungsfall für komplexe Kohortensegmente
+Sie führen eine Analyse für eine große Hotelkette durch, die mehrere Kundengruppen für Werbeaktionen anspricht und die Kundengruppen im Vergleich zur Leistung verfolgt. Um die besten Gruppen von Benutzerkohorten zu identifizieren, die angesprochen werden sollen, sollten Sie sehr spezifische Kohortengruppen erstellen. Verwenden Sie die erweiterten [!UICONTROL Einschluss]- und [!UICONTROL Rückgabe]-Kriterien in [!UICONTROL Kohorten]-Tabellen, um genau die richtigen Kohortengruppierungen mit mehreren Metriken und Segmenten zu definieren. Diese Analyse hilft Ihnen, Kundengruppen zu identifizieren, die unterdurchschnittlich gut abschneiden, sodass Sie sie gezielt mit Werbeaktionen und Angeboten ansprechen können, um die Buchungen zu steigern.
 
-Eine große Hotelkette zielt auf mehrere Kundengruppen für Promotionen ab und verfolgt sie auf Grundlage der Leistung nach. Um die besten Gruppen von Benutzerkohorten für die Zielgruppe zu identifizieren, sollen sehr spezifische Kohortengruppen gebildet werden. Mithilfe der erweiterten [!UICONTROL Aufnahme]- und [!UICONTROL Rückkehrkriterien] innerhalb der Kohortentabellen können genau die richtigen [!UICONTROL Kohortengruppierungen] mit mehreren Kennzahlen und Segmenten definiert werden, um leistungsschwache Kundengruppen zu identifizieren und diese mit Promotionen und Angeboten zur Steigerung der Buchungen anzusprechen.
++++ Beispielvisualisierung einer Kohortentabelle
 
-## Anwendungsfall zur Annahme der App-Version
+![Anwendungsfall: Komplexe Kohortensegmente](assets/complex-cohort-segments.png)
 
-Bei einem großen Versicherungsunternehmen wird ein großer Teil der Kundeninteraktion über die Nutzung der mobilen Anwendung gefördert. Da jedoch immer wieder neue Funktionen zur App hinzugefügt werden, ist es wichtig, dass die Kunden eine Aktualisierung auf die neueste App-Version durchführen. Sie können alle App-Versionen mithilfe der Kohorte [!UICONTROL Benutzerspezifische Dimension] gegeneinander analysieren und miteinander vergleichen, um zu sehen, auf welche Kunden mit welcher App-Version abgezielt werden sollte. Darüber hinaus können sowohl die Bindung als auch die Abwanderung verfolgt werden, um festzustellen, ob bestimmte App-Versionen Kunden davon abhalten, die App im Laufe der Zeit zu nutzen. Durch mobiles Messaging kann eine erneute Interaktion mit solchen Benutzern stattfinden, damit diese eine Aktualisierung auf die neueste Version durchführen, um die Vorteile der neuesten Funktionen nutzen zu können.
++++
 
-## Anwendungsfall zur Kampagnentreue
+## App-Versionsübernahme
 
-Ein internationales Medienunternehmen verwendet Zielgruppen-Kampagnen, um Benutzer auf die verschiedenen Plattformen zu leiten und so die Interaktion zu fördern. Die Werbeausgaben pro Plattform basieren auf der Kundeninteraktion und -bindung, daher sind erfolgreiche Kampagnen entscheidend für den Erfolg des Unternehmens. Unsere neue Funktion für die Kohorte [!UICONTROL Benutzerspezifische Dimension] in [!UICONTROL Kohortentabellen] wird verwendet, um verschiedene Kampagnen nebeneinander zu vergleichen und herauszufinden, welche Kampagnen am effektivsten sind, um Benutzer zu gewinnen und zu binden und so die Interaktion zu fördern. Anschließend kann festgestellt werden, welche Aspekte zum Erfolg einer Kampagne beitragen. Diese Erkenntnisse können dann auf andere Kampagnen angewendet werden, um die Interaktion auf den verschiedenen Plattformen zu fördern.
+Sie sind der Analyst für ein großes Versicherungsunternehmen, das die Kundeninteraktion durch die Verwendung seiner mobilen App vorantreibt. Wenn der App neue Funktionen hinzugefügt werden, sollten Kunden ein Upgrade auf die neueste App-Version durchführen. Sie können App-Versionen mithilfe der [!UICONTROL benutzerdefinierten Dimension-Kohorte nebeneinander analysieren und vergleichen] um zu ermitteln, welche Kunden welche App-Version als Ziel haben. Darüber hinaus können Sie die Kundenbindung und Abwanderung verfolgen, um zu sehen, ob bestimmte Mobile-App-Versionen Kunden im Laufe der Zeit davon abhalten, die Mobile App zu verwenden. Durch die Bemühungen um mobile Nachrichten können Sie erneut mit diesen Benutzern interagieren, sodass die Benutzer auf die neueste Version aktualisieren, um die neuesten Funktionen zu nutzen.
 
-## Anwendungsfall einer Produkteinführung
++++ Beispielvisualisierung einer Kohortentabelle
 
-Ein großer Kleidungseinzelhändler verfügt über viele spezifische Kundensegmente, durch die große Teile des Unternehmensumsatzes gefördert werden. Für jedes Segment werden spezifische Produkte unter Berücksichtigung des jeweiligen Segments entwickelt und hergestellt. Mit jedem Produkt-Launch soll identifiziert werden, wie das neue Produkt im Laufe der Zeit den Verkauf in verschiedenen Kohorten gefördert hat. Mit der neuen Einstellung [!UICONTROL Latenztabelle] in der [!UICONTROL Kohortenanalyse] können das Verhalten und der Umsatz eines bestimmten Kundensegments vor und nach der Markteinführung analysiert werden. Anhand dieser Informationen kann festgestellt werden, durch welche Produkte neue Umsätze generiert werden und welche bei der Kundschaft weniger beliebt sind.
+![Anwendungsfall App versus Akzeptanz](assets/app-versus-adoption.png)
 
-## Anwendungsfall „Individuelle Treue – die meisten treuen Benutzenden“
++++
 
-Bei einer großen Fluggesellschaft hängt der Erfolg und Umsatz zu einem großen Teil von wiederkehrenden und treuen Kunden ab. In vielen Fällen machen treue Reisende den Großteil des Umsatzes aus und die Bindung dieser Kunden ist entscheidend für den langfristigen Erfolg. Oft kann es sich schwierig gestalten herauszufinden, welche die treuesten und beständigsten Kunden sind. Mit der neuen Einstellung [!UICONTROL Rollierende Berechnung] in der [!UICONTROL Kohortenanalyse] konnten jedoch Segmente treuer Kunden analysiert und Monat für Monat bestimmt werden, welche Reisenden erneut Kunden waren. So konnten diese Reisenden dann mit Vorteilen und Vergünstigungen für ihre Treue belohnt werden. Darüber hinaus konnte durch die Umstellung des Kohortentyps von Bindung auf Abwanderung auch Monat für Monat festgestellt werden, welche Reisenden nicht erneut Kunden waren, um diese Segmente mit Promotionen anzusprechen, die Interaktion mit diesen Kunden so wieder herzustellen und sicherzustellen, dass sie auch in Zukunft treue Kunden bleiben.
+## Kampagnen-Stickiness
+
+Sie sind der Analyst eines multinationalen Medienunternehmens, das mithilfe zielgerichteter Kampagnen Benutzer zu ihren verschiedenen Plattformen bringt, um die Interaktion zu fördern. Die Werbeausgaben pro Plattform basieren auf der Kundeninteraktion und Kundenbindung. Erfolgreiche Kampagnen sind für den Erfolg des Unternehmens von entscheidender Bedeutung. Mit der neuen Funktion [!UICONTROL Benutzerdefinierte Dimension] Kohortentabellen in [!UICONTROL Kohortentabellen] können Sie verschiedene Kampagnen nebeneinander vergleichen, um zu ermitteln, welche Kampagnen am effektivsten Benutzende gewinnen und binden, um die Interaktion zu steigern. Anschließend können Sie ermitteln, welche Aspekte eine Kampagne erfolgreich machen, und dieses Wissen auf andere Kampagnen anwenden, um die Interaktion über verschiedene Plattformen hinweg zu steigern.
+
++++ Beispielvisualisierung einer Kohortentabelle
+
+![Anwendungsfall für Campaign Stickiness](assets/campaign-stickiness.png)
+
++++
+
+## Produkteinführung
+
+Sie sind der Analyst für eine große Bekleidungs-retailer, die viele spezifische Kundensegmente hat, die große Teile des Umsatzes für ihr Unternehmen antreiben. Für jedes Segment werden spezifische Produkte unter Berücksichtigung des jeweiligen Segments entwickelt und hergestellt. Bei jeder Produkteinführung möchten Sie wissen, wie das neue Produkt im Laufe der Zeit die Umsätze in verschiedenen Kohorten gesteigert hat. Mit der neuen Einstellung [!UICONTROL Latenztabelle] in [!UICONTROL Kohortenanalyse] können Sie das Verhalten und den Umsatz eines bestimmten Kundensegments vor und nach der Markteinführung analysieren. Anhand dieser Informationen können Sie feststellen, welche Produkte neue Umsätze generieren und welche nicht mit den Kunden interagieren.
+
++++ Beispielvisualisierung einer Kohortentabelle
+
+![Anwendungsfall für die Produkteinführung](assets/product-launch.png)
+
++++
+
+## Individuelle Klebrigkeit - die meisten treuen Benutzer
+
+Sie sind der Analyst einer großen Fluggesellschaft, die den größten Teil ihres Erfolgs und Umsatzes von wiederkehrenden und treuen Kunden erzielt. In vielen Fällen machen treue Reisende den Großteil des Umsatzes aus und die Bindung dieser Kunden ist entscheidend für den langfristigen Erfolg. Es kann oft schwierig sein, die treuesten und konsistentesten Kunden zu identifizieren. Mit der neuen Einstellung [!UICONTROL Rollierende Berechnung] in der [!UICONTROL Kohortenanalyse] können Sie jedoch treue Kundensegmente analysieren und herausfinden, welche Reisenden Monat für Monat zu Wiederholungskäufern wurden. Anschließend können Sie diese Reisenden mit Prämien und Vergünstigungen für ihre Treue belohnen. Darüber hinaus können Sie durch den Wechsel des Kohortentyps von Bindung zu Abwanderung auch erkennen, welche Kunden Monat für Monat keine Wiederholungskäufer waren. Anschließend können Sie diese Segmente mit Werbeaktionen ansprechen, um erneut mit diesen Kunden zu interagieren, sodass diese auch in Zukunft treu bleiben.
+
++++ Beispielvisualisierungen von Kohortentabellen
+
+![Anwendungsfall für individuelle Klebrigkeit - Aufbewahrung](assets/individual-stickiness-1.png)
+
+![Anwendungsfall für individuelle Klebrigkeit - Abwanderung](assets/individual-stickiness-2.png)
+
++++
