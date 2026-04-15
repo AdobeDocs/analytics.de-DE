@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
+source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1711'
 ht-degree: 33%
 
 ---
@@ -55,7 +55,7 @@ Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unte
    |---------|----------|
    | [!UICONTROL **Name**] | Der Name des Speicherorts. |
    | [!UICONTROL **Beschreibung**] | Geben Sie eine kurze Beschreibung des Kontos ein, um es von anderen Konten desselben Kontotyps zu unterscheiden. |
-   | [!UICONTROL **Verwendung mit**] | Wählen Sie aus, ob Sie diesen Speicherort mit [!UICONTROL **Daten-Feeds**] [!UICONTROL **Data Warehouse**], [!UICONTROL **Klassifizierungssätzen**] oder **[!UICONTROL Report Builder]** möchten. <p>Beachten Sie bei einer Auswahl Folgendes:</p><ul><li>Ein einzelner Speicherort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse oder Klassifizierungssätze verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Speicherorts zu vermeiden, ändern Sie den Wert des Felds [!UICONTROL **Verwenden mit**] nicht, nachdem der Speicherort verwendet wurde.</li><li>Wenn Sie einen Speicherort für ein E-Mail-Konto erstellen, wählen Sie [!UICONTROL **Data Warehouse**] in diesem Feld. E-Mail-Speicherorte werden von Daten-Feeds und Klassifizierungssätzen nicht unterstützt.</li></ul> |
+   | [!UICONTROL **Verwendung mit**] | Wählen Sie aus, ob Sie diesen Speicherort mit [!UICONTROL **Daten-Feeds**] [!UICONTROL **Data Warehouse**], [!UICONTROL **Klassifizierungssätzen**] oder **[!UICONTROL Report Builder]** möchten. <p>Beachten Sie bei einer Auswahl Folgendes:</p><ul><li>Ein einzelner Speicherort kann nicht für mehrere Zwecke verwendet werden. Beispielsweise kann ein Speicherort, der für Daten-Feeds verwendet wird, nicht auch für Data Warehouse oder Klassifizierungssätze verwendet werden.</li><li>Um Dateikonflikte innerhalb eines Speicherorts zu vermeiden, ändern Sie den Wert des Felds [!UICONTROL **Verwenden mit**] nicht, nachdem der Speicherort verwendet wurde.</li><li>Wenn Sie einen Speicherort für ein E-Mail-Konto erstellen, wählen Sie [!UICONTROL **Data Warehouse**] in diesem Feld. E-Mail-Speicherorte werden mit Daten-Feeds und Klassifizierungssätzen nicht unterstützt.</li></ul> |
    | [!UICONTROL **Den Speicherort für alle Benutzer in Ihrer Organisation verfügbar machen**] | Aktivieren Sie diese Option, damit andere Benutzer in Ihrem Unternehmen den Speicherort verwenden können.<p>Beachten Sie beim Freigeben von Speicherorten Folgendes:</p><ul><li>Die Freigabe von Speicherorten, die Sie freigeben, kann nicht aufgehoben werden.</li><li>Freigegebene Speicherorte können nur vom Eigentümer des Speicherorts bearbeitet werden.</li><li>Standorte können nur freigegeben werden, wenn das Konto, mit dem der Standort verknüpft ist, auch freigegeben ist.</li></ul> |
    | [!UICONTROL **Standortkonto**] | Speicherort-Konto auswählen, in dem dieser Speicherort erstellt werden soll. Informationen zum Erstellen eines Kontos finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md). |
 
@@ -78,7 +78,7 @@ Um einen ARN-Speicherort für die Amazon S3-Rolle zu konfigurieren, geben Sie di
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -102,7 +102,7 @@ Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speiche
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -126,7 +126,7 @@ Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konf
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -151,7 +151,7 @@ Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu kon
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Um Daten zu exportieren, verwenden [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
