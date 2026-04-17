@@ -3,7 +3,7 @@ title: Erstellen eines Daten-Feeds
 description: Erfahren Sie, wie ein Daten-Feed erstellt wird und welche Dateiinformationen Adobe zur Verfügung gestellt werden müssen.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 32%
@@ -120,7 +120,7 @@ Bevor Sie einen Daten-Feed erstellen, müssen Sie über grundlegende Kenntnisse 
    >
    >Beachten Sie bei der Konfiguration eines Berichtsziels Folgendes:
    >
-   >* Adobe empfiehlt die Verwendung eines Cloud-Kontos für Ihr Berichtsziel. [Alte FTP- und SFTP-Konten](#legacy-destinations) sind verfügbar, werden jedoch nicht empfohlen.
+   >* Adobe empfiehlt die Verwendung eines Cloud-Kontos für Ihr Berichtsziel. [Alte FTP- und SFTP-Konten](/help/components/locations/configure-import-accounts.md) sind verfügbar, werden jedoch nicht empfohlen.
    >* Alle zuvor konfigurierten Cloud-Konten stehen für Daten-Feeds zur Verfügung. Sie können Cloud-Konten wie folgt konfigurieren:
    >
    >   * Beim Konfigurieren von Cloud-Konten für [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)

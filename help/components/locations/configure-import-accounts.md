@@ -1,17 +1,17 @@
 ---
 description: Konfigurieren Sie das Cloud-Importkonto und den Speicherort, an den Klassifizierungsdaten hochgeladen werden können
 keywords: Analysis Workspace
-title: Konfigurieren von Cloud-Import- und -Exportkonten
+title: Konfigurieren von Cloud-Import- und Exportkonten
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
-# Konfigurieren von Cloud-Import- und -Exportkonten
+# Konfigurieren von Cloud-Import- und Exportkonten
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -145,14 +145,19 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    +++FTP
 
-   Daten aus Daten-Feeds können für einen von Adobe oder auf Kundenseite gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort. Verwenden Sie das Pfadfeld, um Feed-Dateien in einem Ordner zu platzieren. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist.
+   >[!IMPORTANT]
+   >
+   >FTP sollte nicht verwendet werden, da die Daten im Klartext über das Internet fließen.
+
+
+   Daten aus Daten-Feeds können für einen von Adobe oder auf Kundenseite gehosteten FTP-Speicherort bereitgestellt werden. Erfordert einen FTP-Host, einen Benutzernamen und ein Kennwort.
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Host**] | Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.adobe.com`. |
-   | [!UICONTROL **Path**] | Kann leer gelassen werden. |
+   | [!UICONTROL **Hostname**] | Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.adobe.com`. |
+   | [!UICONTROL **Port**] | Kann leer gelassen werden. Verwenden Sie dieses Feld, um Feed-Dateien in einem Ordner abzulegen. Ordner müssen bereits vorhanden sein. Wenn der angegebene Port nicht vorhanden ist, wird bei -Feeds ein Fehler ausgegeben. |
    | [!UICONTROL **Benutzername**] | Geben Sie den Benutzernamen für die Anmeldung bei der FTP-Site ein. |
-   | [!UICONTROL **Passwort und Passwort bestätigen**] | Geben Sie das Passwort für die Anmeldung bei der FTP-Site ein. |
+   | [!UICONTROL **Geheimnis des Speicherort-Kontos**] | Geben Sie das Passwort (Geheimnis) ein, um sich bei der FTP-Site anzumelden. |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    +++SFTP
 
-   SFTP-Unterstützung für Daten-Feeds ist verfügbar. Dazu müssen ein SFTP-Host, ein Benutzername und die Ziel-Site einen gültigen öffentlichen RSA- oder DSA-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
+   SFTP-Unterstützung für Daten-Feeds ist verfügbar. Dazu ist ein SFTP-Host, ein Benutzername und die Ziel-Site erforderlich, die einen gültigen öffentlichen RSA- oder 25519-Schlüssel enthalten. Sie können den entsprechenden öffentlichen Schlüssel beim Erstellen des Feeds herunterladen.
 
-   Führen Sie beim Herunterladen des öffentlichen RSA- oder DSA-Schlüssels für Daten-Feeds einen der folgenden Schritte aus:
+   Führen Sie beim Herunterladen von RSA oder 25519 öffentlichen Schlüssel für Daten-Feeds einen der folgenden Schritte aus:
 
    * Benennen Sie die heruntergeladene Datei mit dem öffentlichen Schlüssel in `authorized_keys` um und laden Sie die Datei dann in Ihren `.ssh` Ordner auf Ihrem SFTP-Server hoch.
 
