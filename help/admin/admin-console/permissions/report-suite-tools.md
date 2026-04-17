@@ -46,7 +46,7 @@ In dieser Tabelle sind alle Berechtigungselemente unter „Report Suite-Tools“
 | [!UICONTROL Echtzeitbericht] | Gewährt Zugriff auf „Interaktion > Echtzeit“ in Adobe-Vorlagen. |
 | [!UICONTROL Reporting Activity Manager-Administratoren] | Nicht verwendet. |
 | [!UICONTROL Reporting Activity Manager-Zugriff] | Nicht verwendet. |
-| [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf den Report Suite Manager. Ermöglicht die Erstellung von Report Suites, gewährt jedoch keinen Zugriff auf Elemente unter &quot;[!UICONTROL  bearbeiten]. Siehe auch [[!UICONTROL Zugriff auf die Admin-Benutzeroberfläche von Report Suites]](analytics-tools.md). |
+| [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf den Report Suite Manager. Ermöglicht die Erstellung von Report Suites, gewährt jedoch keinen Zugriff auf Elemente unter &quot;[!UICONTROL &#x200B; bearbeiten]. Siehe auch [[!UICONTROL Zugriff auf die Admin-Benutzeroberfläche von Report Suites]](analytics-tools.md). |
 | [!UICONTROL Rückkehrende Besucher] | Nicht verwendet. |
 | [!UICONTROL R&amp;A Dashboard Company Summary Reportlet] | Nicht verwendet. |
 | [!UICONTROL Externes Reportlet des R&amp;A-Dashboards] | Nicht verwendet. |

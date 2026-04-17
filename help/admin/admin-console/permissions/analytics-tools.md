@@ -43,7 +43,7 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen i
 | [!UICONTROL Mobile App-Admin] | Nicht verwendet. |
 | [!UICONTROL Ausstehende Aktionen] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Ausstehende Aktionen“. |
 | [!UICONTROL Voreinstellungen] | Nicht verwendet. |
-| [!UICONTROL Zugriff auf die Admin-Benutzeroberfläche von Report Suites] | Gewährt Zugriff auf „Admin“ > „Report Suites“, erlaubt jedoch nicht die Bearbeitung von Einstellungen oder das Erstellen von Report Suites. Verwenden Sie [ Berechtigungselemente ](report-suite-tools.md)Report Suite-Tools), damit Benutzer Report Suite-Einstellungen selektiv bearbeiten können. |
+| [!UICONTROL Zugriff auf die Admin-Benutzeroberfläche von Report Suites] | Gewährt Zugriff auf „Admin“ > „Report Suites“, erlaubt jedoch nicht die Bearbeitung von Einstellungen oder das Erstellen von Report Suites. Verwenden Sie [&#x200B; Berechtigungselemente &#x200B;](report-suite-tools.md)Report Suite-Tools), damit Benutzer Report Suite-Einstellungen selektiv bearbeiten können. |
 | [!UICONTROL Zugriff auf die Reporting Activity Manager-Benutzeroberfläche] | Gewährt Zugriff auf „Admin“ > „Reporting Activity Manager“. |
 | [!UICONTROL Zugriff auf Reports &amp; Analytics] | Nicht verwendet. |
 | [!UICONTROL Sicherheit] | Gewährt Zugriff auf „Admin“ > „Alle Administratoren“ > „Unternehmenseinstellungen“ > „Sicherheits-Manager“. |
