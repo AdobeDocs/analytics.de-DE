@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
 + [Progressive Web-Apps](pwa.md)
 + [Umleitungen und Aliasse](redirects.md)
 + [Sicherheitsressourcen](security.md)
++ [Sicherheit für FTP und SFTP](sftp-password-rotation.md)
 + [Verwendete Begriffe (Glossar)](terms.md)
 + [Fehlerbehebung für das Anmelden](troubleshoot-login.md)
 + [Fehlerbehebung für das Abmelden](troubleshoot-sessions.md)
