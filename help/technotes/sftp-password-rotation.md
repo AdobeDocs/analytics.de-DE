@@ -32,7 +32,7 @@ Auf dieser Seite werden die Sicherheitsanforderungen für bestehende FTP- und SF
 >FTP und SFTP sind alte Zieltypen. Anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu drehen, wie in diesem Artikel beschrieben, empfiehlt Adobe, zu einem modernen Cloud-Zieltyp (z. B. Amazon S3, Google Cloud Platform oder Azure) zu wechseln. Diese Cloud-Ziele bieten ein höheres Sicherheitsniveau. Weitere Informationen finden Sie unter [Konfigurieren von Cloud-Import- und -](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Wenn FTP- und SFTP-Konten ausschließlich für Klassifizierungen verwendet werden, migrieren Sie zu Klassifizierungssätzen.**
->Wenn Ihr FTP- oder SFTP-Konto ausschließlich für Klassifizierungen verwendet wird, sollten Sie vom **Klassifizierungs-Importer** zu **Klassifizierungssätze** migrieren, anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben. Das Classification Importer wird eingestellt und ist nach dem 31. **2026 nicht mehr**. Weitere Informationen finden Sie unter [Übersicht über Klassifizierungssätze](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
+>Wenn Ihr FTP- oder SFTP-Konto ausschließlich für Klassifizierungen verwendet wird, sollten Sie vom **Klassifizierungs-Importer** zu **Klassifizierungssätze** migrieren, anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben. Das Classification Importer wird eingestellt und ist nach dem 31. **2026 nicht mehr**. Weitere Informationen finden Sie unter [Übersicht über Klassifizierungssätze](https://experienceleague.adobe.com/de/docs/analytics/components/classifications/sets/overview).
 
 ## Voraussetzungen
 
@@ -289,11 +289,11 @@ To ensure uninterrupted reception of data, follow the steps in [Prepare to rotat
  
 ### Transition from FTP to a cloud destination 
  
-FTP and SFTP are legacy destination types. Rather than rotating FTP account secrets, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure), which provide a higher level of security. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
+FTP and SFTP are legacy destination types. Rather than rotating FTP account secrets, Adobe recommends moving to a modern cloud destination type (such as Amazon S3, Google Cloud Platform, or Azure), which provide a higher level of security. For more information, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts). 
  
 ### Transition from the Classifications importer to Classification sets 
  
-If your FTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than rotating your FTP account secrets. The Classification importer will be deprecated and no longer accessible after **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview). 
+If your FTP account is used exclusively for Classifications, you should migrate from the **Classifications importer** to **Classification sets**, rather than rotating your FTP account secrets. The Classification importer will be deprecated and no longer accessible after **August 31, 2026**. For more information, see [Classification sets overview](https://experienceleague.adobe.com/de/docs/analytics/components/classifications/sets/overview). 
 
 ## Prepare to rotate account secrets 
  
@@ -347,7 +347,7 @@ When creating the new FTP accounts, you must use the same hostname, username, an
  
 Repeat this process for each FTP account. 
  
-For detailed instructions, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts). 
+For detailed instructions, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts). 
  
 #### Add a location within the account 
  
@@ -363,7 +363,7 @@ For detailed instructions, see [Configure cloud import and export accounts](http
  
 Repeat this process for each location. 
  
-For detailed instructions, see [Configure cloud import and export locations](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations). 
+For detailed instructions, see [Configure cloud import and export locations](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-locations). 
  
 ### Step 4: Reference the new FTP cloud accounts from any scheduled Data Feeds and Data Warehouse requests 
  
@@ -428,7 +428,7 @@ Update the FTP account secret in any tool, script, or automated process that con
  
 Repeat this process for each account that was reset. 
 
-For more detailed information about this process, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).
+For more detailed information about this process, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).
  
 ### Step 3: Test your connections 
  
@@ -443,7 +443,7 @@ Verify that your Data Feeds or Data Warehouse requests that use the FTP account 
  
 If something goes wrong after the account secret is rotated and you cannot restore connectivity, you can create a new FTP account. After the new account is set up, point your Data Feed or Data Warehouse request to the new account and update your cloud location accordingly. 
 
-For information about how to create an FTP account, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts).
+For information about how to create an FTP account, see [Configure cloud import and export accounts](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).
 
 To set up secure transfer with your FTP server: 
 
