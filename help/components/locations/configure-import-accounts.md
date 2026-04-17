@@ -33,7 +33,7 @@ Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Sta
 ## Erstellen oder Bearbeiten eines Kontos über die Seite Konten .
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
-1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standortkonten**] aus.
+1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standortkonten**] aus.
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Konten für alle Benutzer anzeigen**] aktivieren, um Konten anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Konten für alle Benutzer anzeigen](assets/accounts-all-users.png)
 1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**] aus.
@@ -127,7 +127,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    >[!NOTE]
    >
-   >E-Mail-Konten können nur mit [Data Warehouse verwendet ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
+   >E-Mail-Konten können nur mit [Data Warehouse verwendet &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
 
    Geben Sie die folgenden Informationen an, um ein Azure RBAC-Konto zu konfigurieren:
 
@@ -141,7 +141,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    **Legacy-Kontotypen**
 
-   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht ](/help/components/classifications/sets/manage/schema.md).
+   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht &#x200B;](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
