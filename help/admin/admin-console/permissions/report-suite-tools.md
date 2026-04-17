@@ -4,10 +4,10 @@ description: Machen Sie sich mit den einzelnen Berechtigungselementen der Report
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 76%
+source-wordcount: '622'
+ht-degree: 72%
 
 ---
 
@@ -46,7 +46,7 @@ In dieser Tabelle sind alle Berechtigungselemente unter „Report Suite-Tools“
 | [!UICONTROL Echtzeitbericht] | Gewährt Zugriff auf „Interaktion > Echtzeit“ in Adobe-Vorlagen. |
 | [!UICONTROL Reporting Activity Manager-Administratoren] | Nicht verwendet. |
 | [!UICONTROL Reporting Activity Manager-Zugriff] | Nicht verwendet. |
-| [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf Report Suite Manager, erlaubt jedoch keine Änderungen. |
+| [!UICONTROL Report Suite-Verwaltung] | Gewährt Zugriff auf den Report Suite Manager. Ermöglicht die Erstellung von Report Suites, gewährt jedoch keinen Zugriff auf Elemente unter &quot;[!UICONTROL  bearbeiten]. Siehe auch [[!UICONTROL Zugriff auf die Admin-Benutzeroberfläche von Report Suites]](analytics-tools.md). |
 | [!UICONTROL Rückkehrende Besucher] | Nicht verwendet. |
 | [!UICONTROL R&amp;A Dashboard Company Summary Reportlet] | Nicht verwendet. |
 | [!UICONTROL Externes Reportlet des R&amp;A-Dashboards] | Nicht verwendet. |
@@ -60,5 +60,3 @@ In dieser Tabelle sind alle Berechtigungselemente unter „Report Suite-Tools“
 | [!UICONTROL Traffic-Variablen] | Gewährt Zugriff auf „Traffic > Traffic-Variablen“ im Report Suite Manager. |
 | [!UICONTROL Unique Visitor] | Gewährt Zugriff auf „Konversion > Unique-Visitor-Variable“. Wird typischerweise nicht in modernen Implementierungen verwendet. |
 | [!UICONTROL URL-Filter] | Ermöglicht Zugriff auf „Allgemein > Interne URL-Filter“ im Report Suite Manager. |
-
-{style="table-layout:auto"}

@@ -4,16 +4,14 @@ title: Überblick über den Reporting Activity Manager
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # Überblick über den Reporting Activity Manager
-
-Der [!UICONTROL Reporting Activity Manager] steht Admins zur Verfügung.
 
 Wenn sich die Berichtsleistung Ihrer Organisation bei Spitzen während der Berichterstellung verschlechtert, können Sie Kapazitätsprobleme mit dem Reporting Activity Manager selber einer Diagnose unterziehen und beheben, ohne dass hierzu die Kundenunterstützung von Adobe eingreifen muss. Sie können Berichtswarteschlangen einfach in einer einzigen Oberfläche verwalten und sofort handeln, um das Benutzererlebnis zu verbessern.
 
