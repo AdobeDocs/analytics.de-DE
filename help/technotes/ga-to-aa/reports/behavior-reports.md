@@ -3,10 +3,10 @@ title: Verhaltensberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Verhaltensberichte in Adobe Analytics erstellen.
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 98%
+source-wordcount: '802'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ Als Alternative bietet Adobe mehrere vordefinierte Arbeitsbereiche, die als Vorl
 
 Mit dem Content-Drilldown-Bericht können Sie sich den Seiten-Traffic nach URL-Struktur ansehen. Für die Verwendung in Analysis Workspace ist eine zusätzliche Implementierung erforderlich. Adobe empfiehlt, mit einem Implementierungsberater zusammenzuarbeiten, um sicherzustellen, dass diese Daten korrekt erfasst werden.
 
-## Site-Content – Landing-Pages
+## Site-Content – Landingpages
 
 Der Bericht zu Zielseiten zeigt die führenden Landingpages Ihrer Site an. Landingpages sind in Analysis Workspace als Dimension **Entrypage** verfügbar.
 
@@ -87,4 +87,4 @@ Da für diese Funktion Implementierungsänderungen erforderlich sind, empfiehlt 
 
 ## Publisher-Berichte
 
-Ähnlich wie auch Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.
+Ähnlich wie Google eine Verbindung mit Google Ad Manager erfordert, bietet Adobe ein dediziertes Produkt zur Bereitstellung von insight namens Adobe Advertising an. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.

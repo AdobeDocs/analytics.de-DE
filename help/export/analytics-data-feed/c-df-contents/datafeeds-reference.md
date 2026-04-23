@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten s
 >
 >Die meisten Spalten enthalten eine ähnliche Spalte mit dem Präfix `post_`. Post-Spalten enthalten Werte nach der serverseitigen Logik, den Verarbeitungsregeln und den VISTA-Regeln. Adobe empfiehlt in den meisten Fällen die Verwendung von Post-Spalten. Weitere Informationen finden Sie in den [häufig gestellten Fragen zu Daten-Feeds](../df-faq.md).
 
-Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.de-DE/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verlauf auf GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | POST | Spaltenname | Spaltenbeschreibung | Datentyp |
 | ---: | :--- | --- | --- |
@@ -46,7 +46,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | | **`ch_hdr`** | Client-Hinweise, die über die Kopfzeile der HTTP-Anfrage erfasst werden. | Text |
 | | **`ch_js`** | Client-Hinweise, die über die JavaScript-API für Client-Hinweise von Benutzeragenten erfasst werden. | Text |
 | **`post_`** | **`clickmaplink`** | Die Dimension [Activity Map](/help/components/dimensions/activity-map-link.md)Link. | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | Die Dimension [Activity Map-Link nach &#x200B;](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | Die Dimension [Activity Map-Link nach ](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
 | **`post_`** | **`clickmappage`** | Die Dimension [Activity Map](/help/components/dimensions/activity-map-page.md)Seite | varchar(255) |
 | **`post_`** | **`clickmapregion`** | Die Dimension [Activity Map Region](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | API- oder Client SDK-Version, die für das Kompilieren und Senden der Bildanforderung verwendet wird. | char(16) |
@@ -73,7 +73,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`post_`** | **`ef_id`** | Die EF-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Die beste Anlaufstelle für weitere Informationen darüber, wie Ihre Organisation die jeweiligen eVars ausfüllt, ist ein für Ihre Organisation spezifisches [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md). | varchar(255) |
 | **`post_`** | **`event_list`** | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Umfasst sowohl Commerce-Ereignisse als [benutzerspezifische Ereignisse 1-1000](/help/components/metrics/custom-events.md). Verwendet die `event.tsv`-Suche. | Text |
-| | **`exclude_hit`** | Markierung, die bestimmt, ob der Treffer aus dem Reporting ausgeschlossen wird. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Advertising Cloud-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigned |
+| | **`exclude_hit`** | Markierung, die bestimmt, ob der Treffer aus dem Reporting ausgeschlossen wird. Die Spalte `visit_num` wird bei ausgenommenen Hits nicht erhöht.<br>1: Nicht verwendet. Teil einer veralteten Funktion.<br>2: Nicht verwendet. Teil einer veralteten Funktion.<br>3: Wird nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternativer kontospezifischer Ausschluss.<br>9: Nicht verwendet. Teil einer veralteten Funktion.<br>10: Ungültiger Währungscode<br>11: Treffer, bei dem ein Zeitstempel für eine Report Suite mit Zeitstempel fehlt, oder ein Treffer, der einen Zeitstempel in einer Report Suite ohne Zeitstempel aufweist<br>12: Nicht verwendet. Teil einer veralteten Funktion.<br>13: Nicht verwendet. Teil einer veralteten Funktion.<br>14: Target-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte<br>15: Derzeit nicht verwendet.<br>16: Adobe Advertising-Treffer, der nicht mit einem Analytics-Treffer übereinstimmte | tinyint unsigned |
 | | **`first_hit_pagename`** | Die Dimension [Ursprüngliche Einstiegsseite](/help/components/dimensions/entry-dimensions.md). Der Name der ursprünglichen Entrypage des Besuchers. | varchar(100) |
 | | **`first_hit_page_url`** | Die allererste URL des Besuchers. | varchar(255) |
 | | **`first_hit_referrer`** | Die allererste verweisende URL des Besuchers. | varchar(255) |
