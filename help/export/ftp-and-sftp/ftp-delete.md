@@ -1,29 +1,27 @@
 ---
 description: Die Adobe-FTP-Richtlinie deaktiviert automatisch den Zugriff auf FTP-Konten, die an 90 aufeinanderfolgenden Tagen ungenutzt bleiben.
 keywords: ftp;sftp
-title: FTP-Daten und FTP-Konten löschen
+title: Löschen von FTP- und SFTP-Konten und -Daten
 feature: FTP Export
 exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 8%
 
 ---
 
-# FTP-Daten und FTP-Konten löschen
+# Löschen von FTP- und SFTP-Konten und -Daten
 
-Die Adobe-FTP-Richtlinie deaktiviert automatisch den Zugriff auf FTP-Konten, die an 90 aufeinanderfolgenden Tagen ungenutzt bleiben.
+Die Adobe-FTP- und -SFTP-Richtlinie kann den Zugriff auf FTP- und SFTP-Konten deaktivieren, die an 90 aufeinander folgenden Tagen inaktiv bleiben.
 
-Nach einer Frist von weiteren 90 Tagen entfernt Adobe dann deaktivierte FTP-Konten (und löscht alle darin enthaltenen Daten permanent). So wird z. B. ein FTP-Konto, das 90 Tage nicht genutzt wurde (vom 5. Juli 2012 bis zum 2. Oktober 2012), am 3. Oktober 2012 deaktiviert. Am 2. Januar 2013 wird es dann vollständig entfernt.
+Adobe kann dann nach einer zusätzlichen 90-tägigen Übergangsphase deaktivierte FTP- und SFTP-Konten entfernen (und alle in diesen Konten gespeicherten Daten dauerhaft entfernen). Beispielsweise wird ein SFTP-Konto, das 90 Tage lang inaktiv bleibt (vom 5. Juli 2025 bis zum 2. Oktober 2025), am 3. Oktober 2025 deaktiviert. Am 2. Januar 2026 wird sie dann vollständig entfernt.
 
-Vor dem 5. Oktober 2012 werden keine Konten deaktiviert und vor dem 2. Januar 2013 werden keine Konten gelöscht.
+Vor dem 5. Oktober 2025 wurden keine Konten deaktiviert und vor dem 2. Januar 2026 wurden keine Konten entfernt.
 
-Adobe entfernt außerdem fortlaufend alte Daten aus aktiven Konten, wenn darauf 90 Tage lang kein Zugriff erfolgt ist.
+Adobe kann alte Daten in aktiven Konten auch dauerhaft entfernen, wenn auf diese Daten seit 90 Tagen nicht zugegriffen wurde.
 
-Diese Richtlinien bleiben für alle FTP-Konten ab dem 5. Juli 2012 in Kraft.
+Um uns bei diesem Prozess zu unterstützen und sicherzustellen, dass die FTP- oder SFTP-Umgebung weiterhin eine sichere und zuverlässige Datenübertragung für unsere Kunden bietet, bitten wir unsere Kunden, Folgendes zu tun:
 
-Um uns bei diesem Prozess zu unterstützen und sicherzustellen, dass die verbesserte FTP-Umgebung weiterhin einen sicheren und zuverlässigen Datentransfer für Kunden gewährleistet, bitten wir unsere Kunden wie folgt zu verfahren:
-
-* Entfernen Sie Daten aus dem FTP-System, nachdem diese erfolgreich in Ihre interne Umgebung übertragen wurden. Adobe erkennt und entfernt alle Dateien, die sich seit 90 Tagen im System befinden.
-* Benachrichtigen Sie Adobe, wenn FTP-Konten nicht mehr benötigt werden und deaktiviert und entfernt werden können.
+* Entfernen Sie ausgehende Daten aus FTP- und SFTP-Systemen, nachdem diese Daten erfolgreich in Ihre interne Umgebung übertragen wurden. Adobe kann alle im System verbleibenden Dateien nach 90 Tagen identifizieren und entfernen.
+* Adobe benachrichtigen, wenn FTP- und SFTP-Konten nicht mehr benötigt werden, damit sie deaktiviert und entfernt werden können.
