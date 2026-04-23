@@ -1,14 +1,15 @@
 ---
 title: Schema des Klassifizierungssatzes
-description: Erfahren Sie, wie Sie das Schema für einen einzelnen Klassifizierungssatz anzeigen und bearbeiten.
+description: Erfahren Sie, wie Sie das Schema für einen Klassifizierungssatz in Adobe Analytics anzeigen und bearbeiten. Klassifizierungsdaten mithilfe von Cloud-Speicherorten hinzufügen, hochladen, herunterladen oder automatisieren.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1618'
 ht-degree: 7%
 
 ---
+
 
 # Klassifizierungssatz-Schema
 
@@ -36,7 +37,7 @@ Die Liste der Klassifizierungen enthält die folgenden Spalten:
 | Spalte | Beschreibung |
 |---|---|
 | **[!UICONTROL Klassifizierungsname]** | Der von Ihnen für die Klassifizierung angegebene Name. |
-| **[!UICONTROL Identitätsname]** | Der abgeleitete Name durch das System für die Klassifizierung. Dieser Name ist schreibgeschützt und Sie können den Identitätsnamen verwenden |
+| **[!UICONTROL Identitätsname]** | Der vom System generierte Name für die Klassifizierung. Dieser Name ist schreibgeschützt und Sie können den Identitätsnamen verwenden. |
 | **[!UICONTROL Klassifiziert nach]** | Falls verwendet, einen Link zum Such-Klassifizierungssatz, der zur Klassifizierung dieser Klassifizierung verwendet wird. |
 
 
@@ -65,8 +66,6 @@ Um eine neue Klassifizierung hinzuzufügen, wählen Sie ![Hinzufügen](/help/ass
 ![Klassifizierungssätze - Hinzufügen einer Klassifizierung zu einem Schema](assets/classification-sets-schema-add-classification.png)
 
 Geben **[!UICONTROL im Dialogfeld Neue Klassifizierung für _Klassifizierungssatzname_]**&#x200B;den **[!UICONTROL Klassifizierungsnamen]**&#x200B;ein und wählen Sie **[!UICONTROL Hinzufügen]**. Die Klassifizierung wird der Liste hinzugefügt.
-
-
 
 ### Hochladen
 
@@ -119,7 +118,7 @@ Im Dialogfeld **[!UICONTROL Daten für Klassifizierungssatz _Name des Klassifizi
    * **[!UICONTROL Kommagetrennte Werte]** (CSV)
    * **[!UICONTROL Tabulatorgetrennte Werte für Excel]** (TSV oder TAB).
 
-1. Wählen Sie die Option [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) aus, sodass beim Herunterladen der Datei 2 angezeigt wird. Um die [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) beim Herunterladen der Datei auszuwählen, wählen Sie eine Option aus dem Dropdown-Menü Dateicodierung aus. Die Optionen sind:
+1. Um die [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) beim Herunterladen der Datei auszuwählen, wählen Sie eine Option aus dem Dropdown-Menü **[!UICONTROL Dateicodierung]** aus. Die Optionen sind:
 
    * **[!UICONTROL UTF-8]**
    * **[!UICONTROL Latin-1]**.
@@ -141,7 +140,7 @@ Im Dialogfeld **[!UICONTROL Vorlage für Klassifizierungssatz _herunterladen_]**
    * **[!UICONTROL Kommagetrennte Werte]**.
    * **[!UICONTROL Tabulatorgetrennte Werte für Excel]**.
 
-1. Um die [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) zu wählen, wenn die Datei heruntergeladen wird, wählen Sie eine Option aus dem Dropdown-Menü Dateicodierung aus. Die Optionen sind:
+1. Um die [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) beim Herunterladen der Datei auszuwählen, wählen Sie eine Option aus dem Dropdown-Menü **[!UICONTROL Dateicodierung]** aus. Die Optionen sind:
 
    * **[!UICONTROL UTF-8]**
    * **[!UICONTROL Latin-1]**.
@@ -204,7 +203,7 @@ Im Dialogfeld **[!UICONTROL Aufnahme-Speicherort zuordnen/aktualisieren _Klassif
    * **[!UICONTROL Latin-1]**.
 
 1. Um Benutzer über den Abschluss von Aufnahmevorgängen zu benachrichtigen, geben Sie E-Mail-Adressen ein, durch Kommata getrennt, **[!UICONTROL E-Mail(s), die benachrichtigt werden sollen, wenn Aufnahmevorgänge abgeschlossen sind (durch Kommata getrennt)]**.
-1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiertWenn die Validierung erfolgreich ist, wird eine Popup-Meldung mit der Meldung ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) angezeigt **[!UICONTROL Standortvalidierung erfolgreich. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie&#x200B;**[!UICONTROL &#x200B; Speichern &#x200B;]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls&#x200B;**[!UICONTROL &#x200B; Aktualisieren &#x200B;]**&#x200B;aus. Oder wählen Sie&#x200B;**[!UICONTROL &#x200B; Abbrechen &#x200B;]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
+1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiert. Wenn die Validierung erfolgreich war, wird eine Popup-Meldung mit der Meldung ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)Location validation successful **[!UICONTROL angezeigt. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie&#x200B;**[!UICONTROL &#x200B; Speichern &#x200B;]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls&#x200B;**[!UICONTROL &#x200B; Aktualisieren &#x200B;]**&#x200B;aus. Oder wählen Sie&#x200B;**[!UICONTROL &#x200B; Abbrechen &#x200B;]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
 
 Wenn Sie Dateien in den Cloud-Speicherort hochladen, wird die Datei innerhalb von 15 Minuten erkannt und als Importvorgang übermittelt. Das Ergebnis dieses Importvorgangs wird im [Classifications Job Manager“ &#x200B;](/help/components/classifications/sets/job-manager.md). Wenn Sie der Liste der Benutzer hinzugefügt werden, um über den Abschluss von Aufnahmevorgängen zu informieren, erhalten Sie auch E-Mail-Nachrichten.
 
