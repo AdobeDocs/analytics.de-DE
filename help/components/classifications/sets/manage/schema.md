@@ -3,9 +3,9 @@ title: Schema des Klassifizierungssatzes
 description: Erfahren Sie, wie Sie das Schema für einen einzelnen Klassifizierungssatz anzeigen und bearbeiten.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
@@ -214,7 +214,7 @@ Zum Beispiel:
 
 >[!IMPORTANT]
 >
->Entfernen Sie Dateien manuell oder mithilfe einer Dateirotation aus dem Cloud-Speicherort, sobald die Dateien erfolgreich importiert und verarbeitet wurden. Andernfalls werden die Dateien beim nächsten Importvorgang erneut importiert und verarbeitet.
+>Entfernen Sie Dateien manuell oder mithilfe einer Dateirotationsrichtlinie aus dem Cloud-Speicherort, sobald die Dateien erfolgreich importiert und verarbeitet wurden. Andernfalls werden die Dateien beim nächsten Importvorgang erneut importiert und verarbeitet.
 
 
 
