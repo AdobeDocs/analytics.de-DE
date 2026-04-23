@@ -3,16 +3,16 @@ title: Schema des Klassifizierungssatzes
 description: Erfahren Sie, wie Sie das Schema für einen einzelnen Klassifizierungssatz anzeigen und bearbeiten.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1616'
 ht-degree: 7%
 
 ---
 
 # Klassifizierungssatz-Schema
 
-Das Schema ist die Liste von Klassifizierungen, die Sie auf die Schlüsseldimensionen anwenden möchten, die Sie für den Klassifizierungssatz definiert haben. Wenn Sie beispielsweise Produkt als Schlüsseldimension definiert haben und dieses Feld eine Produkt-SKU enthält, verwenden Sie das Schema, um Klassifizierungen wie Produktname, Produktfarbe, Produktgröße und mehr hinzuzufügen.
+Das Schema ist die Liste von Klassifizierungen, die Sie auf die Schlüsseldimensionen anwenden möchten, die Sie für den Klassifizierungssatz definiert haben. Wenn Sie beispielsweise Produkt als Schlüsseldimension definiert haben und dieses Feld eine Produkt-SKU enthält, verwenden Sie das Schema, um Klassifizierungen wie Produktname, Farbe und Größe hinzuzufügen.
 
 So bearbeiten Sie das Schema für einen Klassifizierungssatz:
 
@@ -107,7 +107,7 @@ Um Klassifizierungsdaten herunterzuladen, wählen Sie ![Herunterladen](/help/ass
 Im Dialogfeld **[!UICONTROL Daten für Klassifizierungssatz _Name des Klassifizierungssatzes_]**&#x200B;herunterladen:
 
 1. Geben Sie die Anzahl **[!UICONTROL Zeilen]** ein, die Sie herunterladen möchten. Beispiel: `10000`.
-1. Um den Zeitraum auszuwählen, für den Sie Classification-Datenzeilen herunterladen möchten, geben Sie Start- und Enddaten für &quot;**[!UICONTROL Zeilen herunterladen, die zwischen empfangen wurden]** ein. Oder verwenden Sie ![Kalender](/help/assets/icons/Calendar.svg), um ein Kalender-Popup zur Auswahl des Zeitraums zu verwenden.
+1. Um den Zeitraum auszuwählen, für den Sie Classification-Datenzeilen herunterladen möchten, geben Sie ein Start- und Enddatum für &quot;**[!UICONTROL Zeilen herunterladen zwischen“]**. Oder verwenden Sie ![Kalender](/help/assets/icons/Calendar.svg), um ein Kalender-Popup zur Auswahl des Zeitraums zu verwenden.
 1. Um auszuwählen, welche Daten zurückgegeben werden sollen, wählen Sie eine Option unter **[!UICONTROL Daten zurückgegeben]** aus.
 
    * **[!UICONTROL Alle Werte]** gibt alle Werte für die aktuellen Klassifizierungsdaten zurück.
@@ -119,7 +119,7 @@ Im Dialogfeld **[!UICONTROL Daten für Klassifizierungssatz _Name des Klassifizi
    * **[!UICONTROL Kommagetrennte Werte]** (CSV)
    * **[!UICONTROL Tabulatorgetrennte Werte für Excel]** (TSV oder TAB).
 
-1. Um die [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) zu wählen, wenn die Datei heruntergeladen wird, wählen Sie eine Option aus dem Dropdown-Menü Dateicodierung aus. Die Optionen sind:
+1. Wählen Sie die Option [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) aus, sodass beim Herunterladen der Datei 2 angezeigt wird. Um die [Dateicodierung](/help/components/classifications/sets/data-files.md#general-file-requirements) beim Herunterladen der Datei auszuwählen, wählen Sie eine Option aus dem Dropdown-Menü Dateicodierung aus. Die Optionen sind:
 
    * **[!UICONTROL UTF-8]**
    * **[!UICONTROL Latin-1]**.
@@ -146,7 +146,7 @@ Im Dialogfeld **[!UICONTROL Vorlage für Klassifizierungssatz _herunterladen_]**
    * **[!UICONTROL UTF-8]**
    * **[!UICONTROL Latin-1]**.
 
-1. Wählen Sie **[!UICONTROL Herunterladen]** aus, um die Klassifizierungsdatenvorlage herunterzuladen. Sie finden die heruntergeladene Datei im Standard-Download-Verzeichnis Ihres Browsers mit dem Titel <code><i>Klassifizierungssatz</i>.<i>CSV</i>|<i>TSV</i></code>  Wenn die Datei bereits vorhanden ist, eine Sequenznummer <code>(<i>x</i>)</code> wird dem Dateinamen hinzugefügt.
+1. Wählen Sie **[!UICONTROL Herunterladen]** aus, um die Klassifizierungsdatenvorlage herunterzuladen. Sie finden die heruntergeladene Datei im Standard-Download-Verzeichnis Ihres Browsers. Die Datei heißt <code><i>Klassifizierungssatz</i>.<i>CSV</i>|<i>TSV</i></code>  Wenn die Datei bereits vorhanden ist, eine Sequenznummer <code>(<i>x</i>)</code> wird dem Dateinamen hinzugefügt.
 
 
 ### Automatisieren {#automate}
@@ -166,8 +166,6 @@ Im Dialogfeld **[!UICONTROL Vorlage für Klassifizierungssatz _herunterladen_]**
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=de" text="Konfigurieren von Cloud-Import und -Exportspeicherorten"
 
 Sie können die Aufnahme von Klassifizierungsdaten durch die Konfiguration und Verwendung von Cloud-Konto- und Cloud-Standorten automatisieren.
-
-
 
 >[!IMPORTANT]
 >Die Automatisierung der Klassifizierungsaufnahme über Cloud-Konten erfordert, dass Sie (oder Ihr Netzwerkadministrator) IP-Adressbereiche angeben, damit Daten in Ihr Netzwerk aufgenommen werden können. Konfigurieren Sie einen oder mehrere IP-Adressbereiche je nach dem Standort der von Ihnen verwendeten Analytics-Rechenzentren.
@@ -206,14 +204,18 @@ Im Dialogfeld **[!UICONTROL Aufnahme-Speicherort zuordnen/aktualisieren _Klassif
    * **[!UICONTROL Latin-1]**.
 
 1. Um Benutzer über den Abschluss von Aufnahmevorgängen zu benachrichtigen, geben Sie E-Mail-Adressen ein, durch Kommata getrennt, **[!UICONTROL E-Mail(s), die benachrichtigt werden sollen, wenn Aufnahmevorgänge abgeschlossen sind (durch Kommata getrennt)]**.
-1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiert.
-1. Wenn die Validierung erfolgreich war, wird eine Popup-Meldung angezeigt, in der die ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)Location **[!UICONTROL Validierung erfolgreich angezeigt wird. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie&#x200B;**[!UICONTROL &#x200B; Speichern &#x200B;]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls&#x200B;**[!UICONTROL &#x200B; Aktualisieren &#x200B;]**&#x200B;aus. Oder wählen Sie&#x200B;**[!UICONTROL &#x200B; Abbrechen &#x200B;]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
+1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiertWenn die Validierung erfolgreich ist, wird eine Popup-Meldung mit der Meldung ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) angezeigt **[!UICONTROL Standortvalidierung erfolgreich. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie&#x200B;**[!UICONTROL &#x200B; Speichern &#x200B;]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls&#x200B;**[!UICONTROL &#x200B; Aktualisieren &#x200B;]**&#x200B;aus. Oder wählen Sie&#x200B;**[!UICONTROL &#x200B; Abbrechen &#x200B;]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
 
 Wenn Sie Dateien in den Cloud-Speicherort hochladen, wird die Datei innerhalb von 15 Minuten erkannt und als Importvorgang übermittelt. Das Ergebnis dieses Importvorgangs wird im [Classifications Job Manager“ &#x200B;](/help/components/classifications/sets/job-manager.md). Wenn Sie der Liste der Benutzer hinzugefügt werden, um über den Abschluss von Aufnahmevorgängen zu informieren, erhalten Sie auch E-Mail-Nachrichten.
 
 Zum Beispiel:
 
 ![Klassifizierungssätze - E-Mail zur Auftragsvalidierung](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>Entfernen Sie Dateien manuell oder mithilfe einer Dateirotation aus dem Cloud-Speicherort, sobald die Dateien erfolgreich importiert und verarbeitet wurden. Andernfalls werden die Dateien beim nächsten Importvorgang erneut importiert und verarbeitet.
+
 
 
 ## Aktionsleiste
