@@ -3,16 +3,16 @@ description: Konfigurieren Sie eine Report Suite, die Experience Cloud zugeordne
 title: Report Suite für Advertising Analytics aktivieren
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 47%
+source-wordcount: '267'
+ht-degree: 27%
 
 ---
 
 # Report Suite für Advertising Analytics aktivieren
 
-Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Report Suite mit Experience Cloud-Zuordnung für Advertising Analytics-Berichte konfigurieren.
+To see any Advertising Analytics search data in Analytics, you need to configure each Experience Cloud-mapped report suite for Advertising Analytics reporting.
 
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
@@ -21,17 +21,13 @@ Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Rep
 
    ![Berichterstellung](assets/aa-reporting.png)
 
-   >[!IMPORTANT]
-   >
-   >AMO-ID bezieht sich auf die Adobe Advertising Cloud-Variable (auch als Adobe Media Optimizer bezeichnet), in die die Suchdaten eingefügt werden.
+1. Select **[!UICONTROL Unfamiliar with Advertising Analytics? Click here to learn more]** for more information on Advertising Analytics.
 
-1. Wählen Sie **[!UICONTROL Mit Advertising Analytics nicht vertraut? Klicken Sie hier, um mehr zu erfahren]** um weitere Informationen zu Advertising Analytics zu erhalten.
-
-1. Legen Sie die Variablenzuordnung und den Gültigkeitszeitraum fest, die die AMO ID-Variable verwenden soll. Konversionsvariablen (eVars) ermöglichen es Adobe Analytics, Erfolgsereignisse spezifischen Variablenwerten zuzuordnen. Manchmal weisen Variablen mehrere Werte auf, bevor sich ein Erfolgsereignis einstellt. In diesen Fällen wird durch die Zuordnung festgelegt, auf welchen Variablenwert das Ereignis zurückgeführt wird.
+1. Set the variable allocation and expiration that you want the AMO ID variable to use. Conversion variables (eVars) allow Adobe Analytics to attribute success events to specific variable values. Sometimes, variables encounter more than one value before hitting a success event. For these cases, allocation determines which variable value gets credit for the event.
 
    | Einstellung | Definition |
    |--- |--- |
-   | **[!UICONTROL Zuordnung]** | Auswählen zwischen:<br/> **[!UICONTROL Ausgangswert (Erste)]**: Der erste angezeigte Wert erhält eine vollständige Zuordnung, unabhängig davon, welche nachfolgenden Werte für diese Variable sind. <br/>**[!UICONTROL Zuletzt verwendet (Letzte)]**: Der zuletzt angezeigte Wert erhält die volle Zuordnung für das Erfolgsereignis, unabhängig davon, welche Variablen zuvor ausgelöst wurden. |
-   | **[!UICONTROL Läuft ab nach]** | Hier können Sie einen Zeitraum oder ein Ereignis angeben, nach dem der eVar-Wert abläuft (d. h. nicht mehr für Erfolgsereignisse angerechnet wird).  Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. |
+   | **[!UICONTROL Zuordnung]** | Select between:<br/> **[!UICONTROL Original Value (First)]**: The first value seen gets full allocation credit, no matter what subsequent values for that variable are. <br/>**[!UICONTROL Most Recent (Last)]**: The last value seen gets full allocation credit for the success event, no matter what variables were fired before it. |
+   | **[!UICONTROL Läuft ab nach]** | Lets you specify a time period, or event, after which the eVar value expires (that is, no longer receives credit for success events).  Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. |
 
-1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (beim ersten Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (bei darauffolgenden Malen). Ihre Report Suite kann jetzt Advertising Analytics-Suchdaten empfangen. Sie können jetzt &quot;[&#x200B; Advertising-Konten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). Your report suite is now ready to receive Advertising Analytics Search data. You are now ready to [create Advertising Accounts](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

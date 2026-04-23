@@ -4,10 +4,10 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '3758'
-ht-degree: 100%
+source-wordcount: '3757'
+ht-degree: 79%
 
 ---
 
@@ -29,10 +29,10 @@ Die Adobe Analytics-Datenschutzimplementierung unterstützt folgende Beschriftun
 
 Die Kennzeichnung für Identitätsdaten („I“) wird verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann.
 
-| Beschriftung | Definition | Weitere Anforderungen |
+| Beschriftung | Definition | Sonstige Anforderungen |
 | --- | --- | --- |
 | I1 | Direkt identifizierbar: Daten, die zur Identifikation von oder direkten Kontaktaufnahme mit Personen genutzt werden können, wie z. B. Name oder E-Mail-Adresse | <ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></ul> |
-| I2 | Indirekt identifizierbar: Daten, die in Kombination mit beliebigen anderen Daten dazu verwendet werden können, eine Person oder ein Gerät zu identifizieren oder direkt zu kontaktieren.  Ermöglicht nicht die direkte Identifikation einer Person, sondern muss mit anderen Informationen (ob in Ihrem Besitz oder nicht) kombiniert werden, um die Person zu bestimmen. Hierzu zählen beispielsweise Kundentreue- oder im Unternehmens-CRM-System verwendete IDs, die für jeden Kunden eindeutig sind. | <ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></ul> |
+| I2 | Indirekt identifizierbar: Daten, die in Kombination mit beliebigen anderen Daten dazu verwendet werden können, eine Person oder ein Gerät zu identifizieren oder direkt zu kontaktieren.  Ermöglicht nicht die Identifizierung einer Person selbst, kann aber mit anderen Informationen (die sich in Ihrem Besitz befinden oder nicht) kombiniert werden, um eine Person zu identifizieren. Beispiele sind eine Kundenloyalitätsnummer oder eine vom CRM-System eines Unternehmens verwendete ID, die für jeden Kunden eindeutig ist. | <ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -42,8 +42,8 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 
 | Beschriftung | Definition |
 | --- | --- |
-| S1 | Präzise Geostandortdaten mit Längen- und Breitengrad, die verwendet werden können, um den genauen Standort eines Geräts zu ermitteln (mit einer Abweichung von 100 Metern oder weniger). |
-| S2 | Geostandortdaten, die verwendet werden können, um weit gefasste Geofencing-Bereiche zu bestimmen. |
+| S1 | Präzise Standortdaten in Bezug auf Breiten- und Längengrad, die zur Bestimmung des genauen Standorts eines Geräts (innerhalb von 100 Metern oder weniger) verwendet werden können. |
+| S2 | Geolokalisierungsdaten, die zur Bestimmung eines grob definierten Geofencing-Gebiets verwendet werden können. |
 
 {style="table-layout:auto"}
 
@@ -53,7 +53,7 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 
 ### Datenschutz – Auskunftskennzeichnungen {#access}
 
-| Beschriftung | Definition | Weitere Anforderungen |
+| Beschriftung | Definition | Sonstige Anforderungen |
 | --- | --- | --- |
 | Keine | Wählen Sie diese Option aus, wenn diese Variable keine Daten enthält, die im Rahmen einer Datenschutz-Auskunftsanfrage in die an die betroffene Person zurückzugebenden Daten eingefügt werden müssen. | |
 | ACC-ALL | Werte in diesem Feld sollten in allen Datenschutzanfragen enthalten sein. Wenn dieser Hit von einem Gerät stammt, das von mehreren Personen genutzt wird, können Sie als Datenverantwortlicher über diese Beschriftung festlegen, dass es zulässig ist, die Daten in diesem Feld an Personen mit Zugriff auf das gemeinsam genutzte Gerät zu übermitteln. | Felder mit dieser Beschriftung werden bei allen Datenschutzanfragen zurückgegeben. |
@@ -69,20 +69,20 @@ Im Gegensatz zu anderen Beschriftungen schließen sich diese Löschbeschriftunge
 
 Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). Andere personenbezogene Daten (Favoriten, Browser-/Kaufverlauf, Gesundheitszustand usw.) müssen nicht gelöscht werden, da die Zuordnung zur betroffenen Person aufgehoben wird.
 
-| Beschriftung | Definition | Weitere Anforderungen |
+| Beschriftung | Definition | Sonstige Anforderungen |
 | --- | --- | --- |
-| DEL-DEVICE | Bei Datenschutz-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-DEVICE im Treffer vorhanden ist.  Wenn derselbe Wert in anderen Treffern auftritt, die nicht gelöscht werden, werden diese Instanzen nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Auf gemeinsam genutzten Geräten werden hierdurch möglicherweise IDs von anderen als nur der betroffenen Person entfernt.  Die Werte ändern sich nicht, wenn dieses Feld eine ID-DEVICE-Beschriftung enthält und der Wert in diesem Feld als ID für eine Datenschutzanfrage verwendet wurde. | <ul><li>Erfordert auch eine I1- oder I2-/S1-Beschriftung</li><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></li><li>Kann nicht für Classifications festgelegt werden</li><li>Sie müssen Anfragen mit einer ID-DEVICE-Beschriftung senden oder „expandIDs“ auf „true“ festlegen. Andernfalls wird diese Beschriftung nie angewendet.</li></ul> |
-| DEL-PERSON | Bei Datenschutz-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-PERSON im Treffer vorhanden ist.  Wenn derselbe Wert in anderen Treffern auftritt, die nicht gelöscht werden, werden diese Werte nicht geändert. Dies führt zu einer Änderung von Anzahlen bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Die Werte ändern sich nicht, wenn dieses Feld eine ID-PERSON-Beschriftung enthält und der Wert in diesem Feld als ID für eine Datenschutzanfrage verwendet wurde. | <ul><li>Erfordert auch eine I1- oder I2-/S1-Beschriftung</li><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></li><li>Kann nicht für Classifications festgelegt werden</li><li>Sie müssen Anfragen übermitteln, die eine ID-PERSON-Kennzeichnung verwenden, die in einer Variablen innerhalb dieser Report Suite festgelegt ist, und Anfragen unter Verwendung dieser ID übermitteln, sonst wird diese Kennzeichnung nie angewendet.</li></ul> |
+| DEL-DEVICE | Bei Datenschutz-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-DEVICE im Treffer vorhanden ist.  Wenn derselbe Wert in anderen Treffern auftritt, die nicht gelöscht werden, werden diese Instanzen nicht geändert. So ändern sich die Werte bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Auf gemeinsam genutzten Geräten werden hierdurch möglicherweise IDs von anderen als nur der betroffenen Person entfernt.  Die Werte ändern sich nicht, wenn dieses Feld eine ID-DEVICE-Beschriftung enthält und der Wert in diesem Feld als ID für eine Datenschutzanfrage verwendet wurde. | <ul><li>Erfordert auch eine I1- oder I2-/S1-Beschriftung</li><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></li><li>Kann nicht für Klassifizierungen festgelegt werden</li><li>Sie müssen Anfragen mit einer ID-DEVICE senden oder expandIDs auf „true“ setzen, da diese Kennzeichnung sonst nie angewendet wird.</li></ul> |
+| DEL-PERSON | Bei Datenschutz-Löschanfragen sollten Werte in diesem Feld nur bei Anfragen anonymisiert werden, bei denen eine bestimmte ID-PERSON im Treffer vorhanden ist.  Wenn derselbe Wert in anderen Treffern auftritt, die nicht gelöscht werden, werden diese Werte nicht geändert. Dies führt zu einer Änderung von Anzahlen bei Berichten, die eindeutige Anzahlen in diesem Feld berechnen. Die Werte ändern sich nicht, wenn dieses Feld eine ID-PERSON-Beschriftung enthält und der Wert in diesem Feld als ID für eine Datenschutzanfrage verwendet wurde. | <ul><li>Erfordert auch eine I1- oder I2-/S1-Beschriftung</li><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li></li><li>Kann nicht für Klassifizierungen festgelegt werden</li><li>Sie müssen Anfragen übermitteln, die eine ID-PERSON-Kennzeichnung verwenden, die in einer Variablen innerhalb dieser Report Suite festgelegt ist, und Anfragen unter Verwendung dieser ID übermitteln, sonst wird diese Kennzeichnung nie angewendet.</li></ul> |
 
 {style="table-layout:auto"}
 
 ### Datenschutz-Identitätskennzeichnungen {#identity}
 
-| Beschriftung | Definition | Weitere Anforderungen |
+| Beschriftung | Definition | Sonstige Anforderungen |
 | --- | --- | --- |
 | Keine | Diese Variable enthält keine ID, die für Datenschutzanfragen verwendet wird. | Sie müssen eine dieser anderen Kennzeichnungen nur dann festlegen, wenn dieses Feld eine ID enthält, die Sie bei der Übermittlung von Zugriffs- oder Löschanfragen über die [Privacy Service-API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de) oder die Benutzeroberfläche verwenden werden. |
-| ID-DEVICE | Dieses Feld enthält eine ID, die Sie zur Identifizierung eines Geräts für eine Datenschutzanfrage verwenden können. Sie kann jedoch nicht zwischen den verschiedenen Benutzern eines gemeinsam genutzten Geräts unterscheiden.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | Erfordert auch eine I1- oder I2-Beschriftung.<ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Classifications festgelegt werden</li></ul> |
-| ID-PERSON | Dieses Feld enthält eine ID, die verwendet werden kann, um einen authentifizierten Benutzer (eine bestimmte Person) für eine Datenschutzanfrage zu identifizieren.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | <ul><li>Erfordert auch eine I1- oder I2-Beschriftung.</li><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Classifications festgelegt werden</li></ul> |
+| ID-DEVICE | Dieses Feld enthält eine ID, die Sie zur Identifizierung eines Geräts für eine Datenschutzanfrage verwenden können. Sie kann jedoch nicht zwischen den verschiedenen Benutzern eines gemeinsam genutzten Geräts unterscheiden.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | Erfordert auch eine I1- oder I2-Beschriftung.<ul><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Klassifizierungen festgelegt werden</li></ul> |
+| ID-PERSON | Dieses Feld enthält eine ID, die verwendet werden kann, um einen authentifizierten Benutzer (eine bestimmte Person) für eine Datenschutzanfrage zu identifizieren.  Sie müssen diese Beschriftung nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Beschriftungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. | <ul><li>Erfordert auch eine I1- oder I2-Beschriftung.</li><li>Kann nicht für Ereignisse festgelegt werden</li><li>Kann nicht für Merchandising-eVars festgelegt werden</li><li>Kann nicht für Klassifizierungen festgelegt werden</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -92,7 +92,7 @@ Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum 
 
 ### Verwenden eines zuvor definierten Namespace {#previously-defined}
 
-Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmeldeunternehmen eine ID-Beschriftung zugewiesen haben, können Sie einen dieser vorhandenen Namespaces auswählen. Sie sollten den Namespace wiederverwenden, wenn diese Variable denselben ID-Typ enthält wie andere Variablen, die bereits mit diesem Namespace beschriftet sind, und Sie beim Senden einer Anfrage alle Variablen durchsuchen wollen.
+Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmeldeunternehmen eine ID-Beschriftung zugewiesen haben, können Sie einen dieser vorhandenen Namespaces auswählen. Sie sollten den Namespace wiederverwenden, wenn diese Variable denselben ID-Typ wie andere Variablen enthält, die bereits mit diesem Namespace gekennzeichnet sind, und Sie alle durchsuchen möchten, wenn Sie eine Anfrage senden.
 
 1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und wählen Sie einen der vorhandenen Namespaces aus.
    ![](assets/namespace.png)
@@ -101,7 +101,7 @@ Wenn Sie zuvor anderen Variablen in einer beliebigen Report Suite in Ihrem Anmel
 
 ### Definieren eines neuen Namespace {#define}
 
-Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-Zeichenfolgen auf alphanumerische Zeichen sowie Unterstriche, Bindestriche und Leerzeichen zu beschränken. Alle Zeichen werden in Kleinschreibung konvertiert.
+Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-Zeichenfolgen auf alphanumerische Zeichen sowie Unterstriche, Bindestriche und Leerzeichen zu beschränken. Sie werden in Kleinbuchstaben umgewandelt.
 
 1. Klicken Sie auf **[!UICONTROL Namespace auswählen]**, und geben Sie den Namespace-Titel ein.
 
@@ -112,7 +112,7 @@ Sie können auch einen neuen Namespace definieren. Es wird empfohlen, Namespace-
 
 Die von Ihnen als Namespace angegebene Zeichenfolge ist dieselbe Zeichenfolge, die Sie beim Senden von Anfragen über die Datenschutz-API als Wert des Parameters „namespace“ verwenden sollten. Aufgrund der Anfrage durchsucht Adobe Analytics anschließend alle Variablen in allen Report Suites, in denen dieser Namespace verwendet wird, nach der ID, die Sie in der Anfrage angegeben haben.
 
-Sie müssen die Kennzeichnungen ID-DEVICE oder ID-PERSON nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Kennzeichnungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. Beispiel: eVar1 kann eine E-Mail-Adresse enthalten, während eVar2 einen Benutzernamen für die Anmeldung beinhaltet. Sie senden jedoch Anfragen ausschließlich mithilfe des Benutzernamens. In diesem Fall können Sie eVar1 als I1, ACC-PERSON, DEL-PERSON und eVar2 als I2, ACC-PERSON, DEL-PERSON, ID-PERSON mit dem Namespace „user name“ beschriften. Anschließend können Sie eine Anfrage mit einem JSON-Block für den Benutzerabschnitt senden, z. B.:
+Sie müssen die Kennzeichnungen ID-DEVICE oder ID-PERSON nicht für alle Variablen angeben, die IDs enthalten (dazu dienen die I1/I2-Kennzeichnungen). Verwenden Sie diese Beschriftung, wenn Sie mithilfe von in dieser Variablen gespeicherten IDs Datenschutzanfragen senden und wenn Sie diese Variable für die angegebene ID suchen möchten. Beispiel: eVar1 kann eine E-Mail-Adresse enthalten, während eVar2 einen Benutzernamen für die Anmeldung beinhaltet. Sie senden jedoch Anfragen ausschließlich mithilfe des Benutzernamens. In diesem Fall können Sie eVar1 als I1, ACC-PERSON, DEL-PERSON und eVar2 als I2, ACC-PERSON, DEL-PERSON, ID-PERSON mit dem Namespace „user name“ beschriften. Sie können dann eine Anfrage mit einem JSON-Block für Benutzerabschnitte senden, z. B.:
 
 ```
 {
@@ -122,7 +122,7 @@ Sie müssen die Kennzeichnungen ID-DEVICE oder ID-PERSON nicht für alle Variabl
 }
 ```
 
-Sie können denselben Namespace für verschiedene Variablen innerhalb derselben Report Suite verwenden. Bei einigen benutzerdefinierten Implementierungen wird beispielsweise eine CRM-ID in einem Prop- und einem eVar-Objekt gespeichert. Wenn die CRM-ID immer in einer der Variablen auftritt (z. B. in der eVar) und nur gelegentlich in der anderen (Prop) enthalten ist bzw. niemals in der Prop enthalten ist, wenn sie auch nicht in der eVar vorkommt, ist nur für das eVar-Objekt eine ID-Kennzeichnung und ein Namespace erforderlich, da Adobe nur diese eVar nach der ID durchsuchen kann. Wenn jedoch die CRM-ID manchmal in einer Variablen und manchmal in der anderen auftritt, sollten beide denselben Namespace haben. Adobe durchsucht dann beide Variablen nach Vorkommen der ID, die im Rahmen einer Datenschutzanfrage mit diesem Namespace angegeben wird. Sie sollten weiterhin DEL-Beschriftungen für all diese Variablen festlegen, damit der Wert anonymisiert wird, egal, wo er auftritt.
+Sie können denselben Namespace für verschiedene Variablen innerhalb derselben Report Suite verwenden. Bei einigen benutzerdefinierten Implementierungen wird beispielsweise eine CRM-ID in einem Prop- und einem eVar-Objekt gespeichert. Wenn die CRM-ID immer in einer der Variablen auftritt (z. B. in der eVar) und nur gelegentlich in der anderen (Prop) enthalten ist bzw. niemals in der Prop enthalten ist, wenn sie auch nicht in der eVar vorkommt, ist nur für das eVar-Objekt eine ID-Kennzeichnung und ein Namespace erforderlich, da Adobe nur diese eVar nach der ID durchsuchen kann. Wenn jedoch die CRM-ID manchmal in einer Variablen und manchmal in der anderen auftritt, sollten beide denselben Namespace haben. Adobe durchsucht dann beide Variablen nach Vorkommen der ID, die im Rahmen einer Datenschutzanfrage mit diesem Namespace angegeben wird. Alle diese Variablen sollten weiterhin DEL-Kennzeichnungen aufweisen, damit der Wert anonymisiert wird, unabhängig davon, wo er auftritt.
 
 Als weiteres Beispiel dient der Fall, in dem Sie eine CRM-ID verwenden, die manchmal via eVar1 und manchmal via prop7 gesendet wird. Mithilfe einer Verarbeitungsregel wird der Wert auf eVar1 (sofern vorhanden) in eVar3 kopiert. Andernfalls wird der Wert von prop7 in eVar3 kopiert. In diesem Szenario enthält eVar3 immer die CRM-ID (sofern sie bekannt ist), sodass nur für eVar3 eine ID-PERSON-Kennzeichnung erforderlich ist.
 
@@ -134,11 +134,11 @@ Als weiteres Beispiel dient der Fall, in dem Sie eine CRM-ID verwenden, die manc
 
 Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen aus. Nicht alle Variablen unterstützen alle Kennzeichnungen. Die folgende Tabelle zeigt, welche Variablen welche Kennzeichnungen unterstützen bzw. nicht unterstützen.
 
-| Variablentyp | Unterstützte Beschriftungen | Nicht unterstützte Beschriftungen |
+| Variablentyp | Unterstützte Kennzeichnungen | Nicht unterstützte Kennzeichnungen |
 |--- |--- |--- |
-| <ul><li>Benutzerspezifische Erfolgsereignisse</li><li>Merchandising-eVars</li><li>Mehrwertige Variablen (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
-| Classifications | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
-| <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Beschriftungen | – |
+| <ul><li>Custom Success Events</li><li>Merchandising-eVars</li><li>Variablen mit mehreren Werten (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| Klassifizierungen | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Labels | – |
 | Die meisten anderen Variablen (*Ausnahmen siehe Tabelle unten*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
@@ -150,7 +150,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
   <tr> 
    <th colname="col1" class="entry"> Gruppe </th> 
    <th colname="col2" class="entry"> Variablen </th> 
-   <th colname="col3" class="entry"> Änderbare Beschriftungen </th> 
+   <th colname="col3" class="entry"> Veränderliche Kennzeichnungen </th> 
    <th colname="col4" class="entry"> Kommentar </th> 
   </tr>
  </thead>
@@ -158,10 +158,10 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
   <tr> 
    <td colname="col1" morerows="1"> 
     <ul id="ul_62FA1BAA3B9245909509566D8C03F900"> 
-     <li id="li_38F7C4E18ECB42C292370713F502B8EB">Konversion-Dimensionen </li> 
-     <li id="li_41CB61F927CB4402AAB4A62E219CD153">Benutzerspezifische Traffic-Dimensionen </li> 
+     <li id="li_38F7C4E18ECB42C292370713F502B8EB">Konversionsdimensionen </li> 
+     <li id="li_41CB61F927CB4402AAB4A62E219CD153">Benutzerdefinierte Traffic-Dimensionen </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Alle außer Classifications </p> </td> 
+   <td colname="col2"> <p>Alle, außer Klassifizierungen </p> </td> 
    <td colname="col3"> <p>Alle </p> </td> 
    <td colname="col4"> </td> 
   </tr>
@@ -172,8 +172,8 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
    <td colname="col4"> <p>Listen-Props können mehrere Werte enthalten und sind nicht als Datenschutzkennungen zulässig.</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Classifications </p> </td> 
-   <td colname="col3"> <p>None/I1/I2 </p> <p>None/S1/S2 </p> </td> 
+   <td colname="col2"> <p>Klassifizierungen </p> </td> 
+   <td colname="col3"> <p>Keine/i1/i2 </p> <p>None/S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -185,8 +185,8 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
   <tr> 
    <td colname="col1"> <p>Lösungsdimensionen und Ereignisse </p> </td> 
    <td colname="col2"> <p>Activity Map-Link, </p> <p>Activity Map-Seite </p> </td> 
-   <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Variablen können URL-Parameter enthalten, die möglicherweise direkt oder indirekt identifizierbare Daten beinhalten. Wenn Ihre Implementierung keine direkt oder indirekt identifizierbaren Daten in diesen Variablen erfasst, benötigen sie keine Identitäts- oder Löschkennzeichnungen. </p> <p>Hinweis: Beim Löschen werden die URL-Parameter entfernt, aber die Basis-URL wird beibehalten. </p> </td> 
+   <td colname="col3"> <p>Keine/i1/i2 </p> <p>none / DEL-DEVICE / DEL-PERSON </p> </td> 
+   <td colname="col4"> <p>Variablen können URL-Parameter enthalten, die direkt oder indirekt identifizierbare Daten enthalten können. Wenn Ihre Implementierung keine direkt oder indirekt identifizierbaren Daten in diesen Variablen erfasst, benötigen sie keine Identitäts- oder Löschkennzeichnungen. </p> <p>Hinweis: Beim Löschen werden die URL-Parameter entfernt, aber die Basis-URL wird beibehalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datenverarbeitungsdimensionen </p> </td> 
@@ -197,17 +197,17 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
   <tr> 
    <td colname="col1" morerows="1"> 
     <ul id="ul_5EB0193732D44A20AEA08CE9DFE01DBD"> 
-     <li id="li_F70D969F83314A94BD8567449968EE2F">Standarddimensionen </li> 
+     <li id="li_F70D969F83314A94BD8567449968EE2F">Standardabmessungen </li> 
      <li id="li_6046764B19FF4679B51E55671C2C0ADB">Datenverarbeitungsdimensionen </li> 
     </ul> </td> 
    <td colname="col2"> <p>IP-Adresse </p> <p>IP-Adresse 2 </p> </td> 
    <td colname="col3"> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Sie können die DEL-Beschriftung zwar nicht ändern, Sie können sie jedoch zu DEL-DEVICE oder DEL-PERSON oder beidem ändern. </p> </td> 
+   <td colname="col4"> <p>You cannot remove the DEL label, but you can change it to be either DEL-DEVICE or DEL-PERSON, or both. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>ClickMap-Aktion (Legacy), </p> <p>ClickMap-Kontext (Legacy), </p> <p>Seite, </p> <p>Seiten-URL, </p> <p>URL der ursprünglichen Entrypage, </p> <p>Verweisende Stelle, </p> <p>Besuchen der Startseiten-URL </p> </td> 
-   <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Variablen können URL-Parameter enthalten, die möglicherweise direkt oder indirekt identifizierbare Daten beinhalten. Wenn Ihre Implementierung keine direkt oder indirekt identifizierbaren Daten in diesen Variablen erfasst, benötigen sie keine Identitäts- oder Löschkennzeichnungen. </p> <p>Hinweis: Beim Löschen werden die URL-Parameter entfernt, aber die Basis-URL wird beibehalten. </p> </td> 
+   <td colname="col3"> <p>Keine/i1/i2 </p> <p>none / DEL-DEVICE / DEL-PERSON </p> </td> 
+   <td colname="col4"> <p>Variablen können URL-Parameter enthalten, die direkt oder indirekt identifizierbare Daten enthalten können. Wenn Ihre Implementierung keine direkt oder indirekt identifizierbaren Daten in diesen Variablen erfasst, benötigen sie keine Identitäts- oder Löschkennzeichnungen. </p> <p>Hinweis: Beim Löschen werden die URL-Parameter entfernt, aber die Basis-URL wird beibehalten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -216,15 +216,15 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
 
 Die Adobe Analytics-Unterstützung für Datenschutz-Löschanfragen soll die Auswirkungen auf das Reporting minimieren. In den meisten Fällen sollten sich die in Berichten angezeigten Metriken nicht ändern. Ein Verlaufsbericht, der vor der Datenschutzlöschung ausgeführt wurde, stimmt mit dem Bericht nach der Löschung überein. Dies wird erreicht, indem die gelöschten Daten vollständig von der betroffenen Person getrennt werden, während nicht identifizierbare Daten beibehalten werden, damit die berichteten Werte konsistent bleiben.
 
-Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. Die Liste ist nicht vollständig.
+Die folgende Tabelle zeigt, wie verschiedene Variablen „gelöscht“ werden. Dies ist keine vollständige Liste.
 
 | Variablen | Löschmethode |
 | --- | --- |
-| <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (eVars)</li></ul> | Der bestehende Wert wird durch einen neuen Wert der Form „Datenschutz-356396D55C4F9C7AB3FBB2F2FA223482“ ersetzt, wobei der 32-stellige Hexadezimalwert nach dem Präfix „Datenschutz-“ eine kryptografisch starke 128-Bit-Pseudozufallszahl ist.<p>Da der Wert im Wesentlichen durch eine zufällige Zeichenfolge ersetzt wird, gibt es keine Möglichkeit, den ursprünglichen Wert aus diesem neuen Wert zu bestimmen, und keine Möglichkeit, den neuen Wert abzuleiten, wenn der ursprüngliche Wert bekannt ist.  Wenn bei einer Variablen der ersetzte Wert auch in anderen Treffern auftritt, die im Rahmen derselben Datenschutzanfrage ebenfalls gelöscht werden, werden alle Instanzen dieses Werts durch den neuen Wert ersetzt.<p>Wenn einige Instanzen eines Werts mit einer Löschanfrage ersetzt werden und im Rahmen einer späteren Anfrage andere (neue) Instanzen des ursprünglichen Werts gelöscht werden, unterscheidet sich der neue Ersatzwert vom ursprünglichen Ersatzwert. |
-| Kauf-ID | Der bestehende Wert wird durch einen neuen Wert der Form „G-7588FCD8642718EC50“ ersetzt, wobei der 18-stellige Hexadezimalwert nach dem Präfix „G-“ den ersten 18 Stellen einer kryptografisch starken 128-Bit-Pseudozufallszahl entspricht. Alle Kommentare, die sich auf das Löschen von Traffic- und Commerce-Variablen beziehen, gelten auch hier.<p>Die Kauf-ID ist eine Transaktions-ID, die primär sicherstellen soll, dass ein Kauf nicht zweimal berechnet wird, z. B. wenn jemand die Bestätigungsseite aktualisiert. Die ID selbst kann den Kauf mit einer Zeile in Ihrer eigenen Datenbank verknüpfen, wo der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird.<p>Wenn Sie nach der Datenschutz-Löschanfrage Ihrer eigenen Daten den Kauf noch an einen Benutzer binden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer gebunden werden können. |
-| Besucher-ID | Der Wert ist eine 128-Bit-Ganzzahl und wird durch einen kryptographisch starken 128-Bit-Pseudozufallswert ersetzt. |
+| <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (eVars)</li></ul> | Der bestehende Wert wird durch einen neuen Wert der Form „Datenschutz-356396D55C4F9C7AB3FBB2F2FA223482“ ersetzt, wobei der 32-stellige Hexadezimalwert nach dem Präfix „Datenschutz-“ eine kryptografisch starke 128-Bit-Pseudozufallszahl ist.<p>Da der Wert im Wesentlichen durch eine zufällige Zeichenfolge ersetzt wird, gibt es keine Möglichkeit, den ursprünglichen Wert aus diesem neuen Wert zu bestimmen, und keine Möglichkeit, den neuen Wert abzuleiten, wenn der ursprüngliche Wert bekannt ist.  Wenn bei einer Variablen der ersetzte Wert auch in anderen Treffern auftritt, die im Rahmen derselben Datenschutzanfrage ebenfalls gelöscht werden, werden alle Instanzen dieses Werts durch den neuen Wert ersetzt.<p>Wenn einige Instanzen eines Werts durch eine Löschanfrage ersetzt werden und eine spätere Anfrage andere (neue) Instanzen des ursprünglichen Werts löscht, unterscheidet sich der neue Ersetzungswert vom ursprünglichen Ersetzungswert. |
+| Kauf-ID | Der bestehende Wert wird durch einen neuen Wert der Form „G-7588FCD8642718EC50“ ersetzt, wobei der 18-stellige Hexadezimalwert nach dem Präfix „G-“ den ersten 18 Stellen einer kryptografisch starken 128-Bit-Pseudozufallszahl entspricht. Alle Kommentare, die für das Löschen von Traffic- und Commerce-Variablen gelten, gelten auch hier.<p>Die Kauf-ID ist eine Transaktions-ID, deren Hauptzweck darin besteht sicherzustellen, dass ein Kauf nicht zweimal gutgeschrieben wird, z. B. wenn jemand seine Kaufbestätigungsseite aktualisiert. Die ID selbst kann den Kauf an eine Zeile in Ihrer eigenen Datenbank binden, in der der Kauf aufgezeichnet wird. In den meisten Fällen ist es nicht notwendig, diese ID zu löschen, sodass sie standardmäßig nicht gelöscht wird.<p>Wenn Sie nach der Datenschutz-Löschanfrage Ihrer eigenen Daten den Kauf noch an einen Benutzer binden können, müssen Sie dieses Feld möglicherweise löschen, damit die Analytics-Daten für diesen Besucher nicht an den Käufer gebunden werden können. |
+| Besucher-ID | Der Wert ist eine 128-Bit-Ganzzahl und wird durch einen kryptografisch starken 128-Bit-Pseudozufallswert ersetzt. |
 | <ul><li>MCID</li><li>Benutzerspezifische Besucher-ID</li><li>IP-Adresse</li><li>IP-Adresse 2 | Der Wert wird gelöscht (d. h. je nach Variablentyp entweder durch eine leere Zeichenfolge oder „0“ ersetzt). |
-| <ul><li>ClickMap-Aktion (Legacy)</li><li>ClickMap-Kontext (Legacy)</li><li>Seite</li><li>Seiten-URL</li><li>URL der ursprünglichen Entrypage</li><li>Referrer</li><li>Besuchen der Startseiten-URL</li></ul> | Die URL-Parameter werden gelöscht/entfernt. Wenn der Wert nicht wie eine URL aussieht, wird der Wert gelöscht (auf die leere Zeichenfolge gesetzt). |
+| <ul><li>ClickMap-Aktion (Legacy)</li><li>ClickMap-Kontext (Legacy)</li><li>Seite</li><li>Seiten-URL</li><li>URL der ursprünglichen Entrypage</li><li>Referrer</li><li>Besuchen der Startseiten-URL</li></ul> | URL-Parameter werden gelöscht/entfernt. Wenn der Wert nicht wie eine URL aussieht, wird er gelöscht (auf die leere Zeichenfolge gesetzt). |
 | <ul><li>Breitengrad</li><li>Längengrad</li></ul> | Die Genauigkeit wird auf maximal einen Kilometer reduziert. |
 
 {style="table-layout:auto"}
@@ -237,14 +237,14 @@ Es ist wichtig zu verstehen, welche Datentypen in den einzelnen Variablen enthal
 
 | Variable | Kommentare |
 | --- | --- |
-| [!UICONTROL Neue Besucher-ID] | „Neue Besucher-ID“ ist ein boolescher Wert, der beim ersten Auftreten der entsprechenden Besucher-ID „true“ lautet. Sie müssen den Wert nicht löschen, nachdem die Besucher-ID anonymisiert wurde. Nach der Anonymisierung entspricht der Wert dem ersten Auftritt der anonymisierten ID. |
-| [!UICONTROL Postleitzahl]<p>[!UICONTROL Geo-Postleitzahl] | Postleitzahlen werden nur für Hits aus den USA festgelegt. Für Hits aus der EU werden sie nicht verwendet. Selbst wenn sie festgelegt werden, beschreiben sie nur einen breiten geografischen Bereich, der die Identifizierung der betroffenen Person schwierig gestaltet. |
-| [!UICONTROL Geo-Breitengrad]<p>[!UICONTROL Geo-Längengrad] | Diese bieten einen ungefähren Standort, der aus der IP-Adresse abgeleitet wird. Die Genauigkeit ist im Allgemeinen ähnlich wie bei einer Postleitzahl, also einige Dutzend Kilometer vom tatsächlichen Standort. |
+| [!UICONTROL Neue Besucher-ID] | „Neue Besucher-ID“ ist ein boolescher Wert, der beim ersten Auftreten der entsprechenden Besucher-ID „true“ lautet. Sie müssen sie nicht löschen, sobald die Besucher-ID anonymisiert ist. Nach der Anonymisierung entspricht dies dem ersten Mal, dass wir diese anonymisierte ID gesehen haben. |
+| [!UICONTROL Postleitzahl]<p>[!UICONTROL Geo-Postleitzahl] | Postleitzahlen werden nur für Treffer mit Ursprung in den USA festgelegt. Sie sind nicht auf Treffer aus der EU ausgelegt. Selbst wenn sie festgelegt werden, beschreiben sie nur einen breiten geografischen Bereich, der die Identifizierung der betroffenen Person schwierig gestaltet. |
+| [!UICONTROL Geo-Breitengrad]<p>[!UICONTROL Geo-Längengrad] | Diese liefern eine grobe Position, die von der IP-Adresse abgeleitet wird. Die Genauigkeit entspricht im Allgemeinen der einer Postleitzahl, innerhalb von wenigen Dutzend Kilometern des tatsächlichen Ortes. |
 | [!UICONTROL Benutzeragent] | Der Benutzeragent identifiziert die Version des verwendeten Browsers. |
 | [!UICONTROL Benutzer-ID] | Gibt die Analytics Report Suite (als Nummer) an, die die Daten enthält. |
 | [!UICONTROL Report Suite-ID] | Gibt den Namen der Analytics Report Suite an, die die Daten enthält. |
 | [!UICONTROL Besucher-ID]<p>[!UICONTROL MCID]/[!UICONTROL ECID] | Diese IDs haben eine DEL-DEVICE-Beschriftung, aber die DEL-PERSON-Beschriftung kann nicht hinzugefügt werden. Wenn Sie diese Cookie-IDs in Treffern anonymisieren möchten, die eine übereinstimmende ID in einer Prop oder eVar enthalten, können Sie diese Beschriftungsbeschränkung umgehen, indem Sie der Prop oder eVar eine ID-DEVICE-Beschriftung hinzufügen, selbst wenn sie eigentlich eine Person identifiziert (darüber hinaus müssen alle DEL-PERSON-Beschriftungen in DEL-DEVICE-Beschriftung geändert werden). Da in diesem Fall nur einige Instanzen der Besucher-ID oder ECID anonymisiert werden, ändern sich die Zahlen der Unique Visitors im Verlaufsbericht. |
-| [!UICONTROL AMO-ID] | Die Adobe Advertising Cloud ID ist eine Lösungsvariable, die über eine unveränderliche [!UICONTROL DEL-DEVICE]-Kennzeichnung verfügt. Sie wird über ein Cookie festgelegt, genau wie die Besucher-ID und die MCID. Sie sollte aus Hits gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Informationen finden Sie in den Beschreibungen der entsprechenden Variablen. |
+| [!UICONTROL AMO-ID] | Die Adobe Advertising ID ist eine Lösungsvariable, die über eine unveränderliche [!UICONTROL DEL-DEVICE]-Kennzeichnung verfügt. Es wird genau wie die Besucher-ID und die ECID von einem Cookie gefüllt. Sie sollte aus Treffern gelöscht werden, wenn diese anderen IDs gelöscht werden. Weitere Einzelheiten finden Sie in der Beschreibung dieser Variablen. |
 
 {style="table-layout:auto"}
 
@@ -254,11 +254,11 @@ Es gibt fünf Standardvariablen, die Zeitstempel enthalten:
 
 | Zeitstempel | Definition |
 | --- | --- |
-| Hit Time UTC | Der Zeitpunkt, zu dem der Treffer von Adobe Analytics empfangen wurde. |
-| Custom Hit Time UTC | Der Zeitpunkt, zu dem der Treffer stattgefunden hat, der bei einigen mobilen Apps und anderen Implementierungen vor dem Zeitpunkt liegen kann, zu dem der Treffer empfangen wurde. Wenn beispielsweise eine Netzwerkverbindung zum Zeitpunkt des Auftretens nicht verfügbar war, kann die App den Treffer halten und übermitteln, wenn eine Verbindung verfügbar wird. |
-| Date Time | Derselbe Wert wie „Custom Hit Time UTC“, jedoch in der Zeitzone der Report Suite und nicht in GMT. |
-| First Hit Time GMT | Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den Besucher-ID-Wert für diesen Treffer empfangen wurde. |
-| Visit Start Time UTC | Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den aktuellen Besuch für diese Besucher-ID empfangen wurde. |
+| Zeitpunkt des Treffers (UTC) | Die Zeit, in der Adobe Analytics den Treffer erhielt. |
+| Benutzerdefinierter Zeitpunkt des Treffers (UTC) | Der Zeitpunkt, zu dem der Treffer aufgetreten ist, was bei einigen Mobile Apps und anderen Implementierungen vor dem Zeitpunkt liegen kann, zu dem er empfangen wurde. Wenn beispielsweise zum Zeitpunkt der Verbindungsherstellung keine Netzwerkverbindung verfügbar war, kann die App den Treffer speichern und senden, sobald eine Verbindung verfügbar wird. |
+| Datum/Zeit | Derselbe Wert wie „Custom Hit Time UTC“, jedoch in der Zeitzone der Report Suite und nicht in GMT. |
+| First Hit Time GMT | Der UTC-Wert der benutzerdefinierten Trefferzeit für den ersten Treffer, der für den Besucher-ID-Wert für diesen Treffer empfangen wurde. |
+| Beginn des Besuchs (UTC) | Der „Custom Hit Time UTC“-Wert für den ersten Treffer, der für den aktuellen Besuch für diese Besucher-ID empfangen wurde. |
 
 {style="table-layout:auto"}
 

@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handbuch zur Analytics-Integration
 breadcrumb-title: Integrationsleitfaden
-user-guide-description: Konfiguration von Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager und Advertising Cloud.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+user-guide-description: Konfigurieren Sie Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager und Advertising.
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
       + [Werbekonten verwalten](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Problembehebung in Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Häufig gestellte Fragen](c-advertising-analytics/aa-faq.md)
-+ [Adobe Analytics für Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=de)
++ [Adobe Analytics für Advertising](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=de)
 + [Adobe Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 + [Adobe Campaign-Reporting in Adobe Analytics](adobe-campaign.md)
 + [Integration von Adobe Analytics-Daten mit Adobe Campaign Classic](analytics-to-campaign-classic.md)

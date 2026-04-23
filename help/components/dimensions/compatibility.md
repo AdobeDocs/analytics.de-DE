@@ -3,10 +3,10 @@ title: Kompatibilität von Analytics-Dimensionen
 description: Referenz zu Analytics-Dimensionen und -Berichten.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 60%
+source-wordcount: '894'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,7 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 
 ## In Analysis Workspace unterstützte Dimensionen
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |---|---|
 | Analytics for Target | `targetraw` |
 | Zielgruppen-ID | `mcaudiences` |
@@ -87,7 +87,7 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 | [Ranking aller Suchseiten](all-search-page-rank.md) | `searchenginepagerank` |
 | [Server](server.md) | `server` |
 | [Einzelseitenbesuche](single-page-visits.md) | `singlepagevisits` |
-| [Sitebereich](site-section.md) | `sitesections` |
+| [Site-Bereich](site-section.md) | `sitesections` |
 | [Besuchszeit pro Besuch - granular](time-spent-per-visit.md) | `sitetime` |
 | [Trackingcode](tracking-code.md) | `campaign` |
 | [US-DMA](us-dma.md) | `geodma` |
@@ -146,10 +146,10 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 
 ## Inhaltsorientierte Dimensionen, die nur in Analysis Workspace unterstützt werden
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
-| Activity Map XY | `clickmapxy` |
-| Mediensitzungs-ID | `videosessionid` |
+| ACTIVITY MAP XY | `clickmapxy` |
+| Mediensession-ID | `videosessionid` |
 | Nielsen-Zugriffsmethode | `nielsenaccmethod` |
 | Nielsen-App-ID | `nielsenappid` |
 | Nielsen-Kanal-Asset | `nielsenchannelasset` |
@@ -159,43 +159,43 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 
 ### Video (Streaming-Mediendienste)
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
 | [Inhalt](sm-core.md) | `video` |
 | [Inhaltssegment](sm-core.md) | `videosegment` |
 | [Content-Typ](sm-core.md) | `videocontenttype` |
-| [Name des Anzeigenplayers](sm-ads.md) | `videoadplayername` |
-| [Anzeigenposition innerhalb der Werbeunterbrechung](sm-ads.md) | `videoadinpod` |
+| [Anzeigenplayer-Name](sm-ads.md) | `videoadplayername` |
+| [Anzeige in Position Pod](sm-ads.md) | `videoadinpod` |
 | [Dropped Frames](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [Fehler](sm-quality.md) | `videoqoeerrorcountevar` |
 | [Durchschnittliche Bitrate](sm-quality.md) | `videoqoebitrateaverageevar` |
 | [Bitratenänderungen](sm-quality.md) | `videoqoebitratechangecountevar` |
-| [Gesamtpufferdauer](sm-quality.md) | `videoqoebuffertimeevar` |
+| [Gesamtdauer des Puffers](sm-quality.md) | `videoqoebuffertimeevar` |
 | [Pufferereignisse](sm-quality.md) | `videoqoebuffercountevar` |
-| [Zeit bis Start](sm-quality.md) | `videoqoetimetostartevar` |
-| [Anzeigen-Pod](sm-ads.md) | `videoadpod` |
+| [Zeit bis zum Start](sm-quality.md) | `videoqoetimetostartevar` |
+| [Werbeblock](sm-ads.md) | `videoadpod` |
 | [Medienpfad](sm-core.md) | `videopath` |
-| [Werbung](sm-ads.md) | `videoad` |
-| [Inhalts-Player-Name](sm-core.md) | `videoplayername` |
+| [Anzeige](sm-ads.md) | `videoad` |
+| [Name des Inhalts-Players](sm-core.md) | `videoplayername` |
 | [Inhaltskanal](sm-core.md) | `videochannel` |
 | [Kapitel](sm-chapters.md) | `videochapter` |
 | [Inhaltsname (Variable)](sm-core.md) | `videoname` |
-| [Inhaltsdauer (Variable)](sm-core.md) | `videolength` |
+| [Inhaltslänge (variabel)](sm-core.md) | `videolength` |
 | [Anzeigename (Variable)](sm-ads.md) | `videoadname` |
 | [Anzeigenlänge (variabel)](sm-ads.md) | `videoadlength` |
-| [Serie](sm-video-metadata.md) | `videoshow` |
+| [Anzeigen](sm-video-metadata.md) | `videoshow` |
 | [Staffel](sm-video-metadata.md) | `videoseason` |
-| [Episode](sm-video-metadata.md) | `videoepisode` |
+| [Folge](sm-video-metadata.md) | `videoepisode` |
 | [Netzwerk](sm-video-metadata.md) | `videonetwork` |
-| [Serientyp](sm-video-metadata.md) | `videoshowtype` |
+| [Sendungstyp](sm-video-metadata.md) | `videoshowtype` |
 | [Anzeigenladevorgänge](sm-ads.md) | `videoadload` |
 | [MVPD](sm-video-metadata.md) | `videomvpd` |
-| [Tagesteil](sm-video-metadata.md) | `videodaypart` |
+| [Day Part](sm-video-metadata.md) | `videodaypart` |
 | [Advertiser](sm-ads.md) | `videoadadvertiser` |
 | [Kampagnen-ID](sm-ads.md) | `videoadcampaign` |
 | [Genre](sm-video-metadata.md) | `videogenre` |
-| [Streamtyp](sm-core.md) | `videostreamtype` |
-| [Player SDK Fehler-IDs](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [Stream-Typ](sm-core.md) | `videostreamtype` |
+| [Player SDK-Fehler-IDs](sm-quality.md) | `videoqoeplayersdkerrors` |
 | [Externe Fehler-IDs](sm-quality.md) | `videoqoeextneralerrors` |
 | [Medien-Feed-Typ](sm-video-metadata.md) | `videofeedtype` |
 | [Medieneinstiegspfad](entry-dimensions.md) | `entryvideopath` |
@@ -211,7 +211,7 @@ Auf dieser Seite werden [Dimensionen](overview.md) aufgeführt, die in ihren jew
 
 Adobe Social ist eingestellt.
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
 | Begriffe | `socialterm` |
 | Soziale Plattformen/Eigenschaften | `socialcontentprovider` |
@@ -233,7 +233,7 @@ Adobe Social ist eingestellt.
 
 ### Mobile SDK
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
 | [Erstes Startdatum](lifecycle-dimensions.md) | `mobileinstalldate` |
 | [App-ID](lifecycle-dimensions.md) | `mobileappid` |
@@ -268,16 +268,16 @@ Adobe Social ist eingestellt.
 | [Nähe des Beacons](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
 | [Beacon-Nähe beenden](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
 | AMO EF ID | `amo_ef_id` |
 | AMO-ID | `amo_cid` |
 
 ### Activity Map
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
 | [Activity Map-Link nach Region](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Activity Map-Region](activity-map-region.md) | `clickmapregion` |
@@ -288,9 +288,9 @@ Adobe Social ist eingestellt.
 
 Weitere Informationen zur Implementierung dieser Integration finden Sie unter [Nielsen-Erweiterung](https://exchange.adobe.com/apps/ec/101361) auf der Adobe Exchange.
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
-| Nielsen-Anzeigenmodell | `nielsenadmodel` |
+| Nielsen Ad Model | `nielsenadmodel` |
 | Nielsen-Segment C | `nielsensegmentc` |
 | Nielsen-Segment B | `nielsensegmentb` |
 | Nielsen-Segment A | `nielsensegmenta` |
@@ -309,7 +309,7 @@ Weitere Informationen zur Implementierung dieser Integration finden Sie unter [N
 
 ### Adobe Experience Manager (AEM)
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
 | Element-ID | `aemassetid` |
 | Asset-Quelle | `aemassetsource` |
@@ -319,6 +319,6 @@ Weitere Informationen zur Implementierung dieser Integration finden Sie unter [N
 
 ### Adobe Campaign
 
-| Dimensionsname (in Analytics-UI sichtbar) | Dimensionen-ID (verwendet in API-Requests) |
+| Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
-| Adobe Campaign – ID der ausgeführten Bereitstellung | `ac_delivery_internal_name` |
+| ID des von Adobe Campaign ausgeführten Versands | `ac_delivery_internal_name` |

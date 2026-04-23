@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 43%
 
 ---
@@ -58,12 +58,12 @@ Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus d
 Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung nicht unterstützt:
 
 * **Analytics for Target**
-* **Analytics für Advertising Cloud-Dimensionen/-**
+* [**Advertising-Dimensionen/-Metriken**](/help/components/dimensions/amo-id.md)
 * **Zähler-eVars**
 * [**Tage vor dem ersten Kauf**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Tage seit letztem Kauf**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Tage seit letztem Besuch**](/help/components/dimensions/days-since-last-visit.md)
-* **Einstiegsseite Original**
+* [**Einstiegsseite Original**](/help/components/dimensions/entry-dimensions.md)
 * **Lineare Zuordnungs-eVars**
 * **Vars auflisten**
 * [**Marketing-Kanal-Dimensionen**](/help/components/dimensions/marketing-channel.md)

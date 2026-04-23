@@ -3,10 +3,10 @@ title: Akquiseberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie mit Analysis Workspace akquisebasierte Berichte erstellen.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 99%
+source-wordcount: '1574'
+ht-degree: 98%
 
 ---
 
@@ -90,9 +90,9 @@ Der Bericht zu Netzwerkverweisen zeigt an, welche Domänen von sozialen Netzwerk
 2. Suchen Sie im Menü „Komponenten“ das Segment **Besuche von sozialen Websites** und ziehen Sie es in den kleinen Bereich namens „Segment hier ablegen“ direkt über der Freiformtabelle.
 3. Ziehen Sie die gewünschten Metriken in den Arbeitsbereich neben die automatisch erstellte Metrik **Vorfälle**. Einzelheiten zum Abrufen der jeweiligen Metrik finden Sie im [Handbuch zur Metrikübersetzung](common-metrics.md).
 
-### Social – Landing-Pages
+### Social – Landingpages
 
-Der Landing-Pages-Bericht zeigt, auf welche Seiten Besucher nach dem Klicken auf einen Link in einem sozialen Netzwerk gelangt sind. Diese Daten sind in Analysis Workspace unter Verwendung der Dimension **Entrypage** und des Segments **Besuche von sozialen Websites** verfügbar.
+Der Landingpages-Bericht zeigt, auf welche Seiten Besucher nach dem Klicken auf einen Link in einem sozialen Netzwerk gelangt sind. Diese Daten sind in Analysis Workspace unter Verwendung der Dimension **Entrypage** und des Segments **Besuche von sozialen Websites** verfügbar.
 
 1. Suchen Sie im Menü „Komponenten“ die Dimension **Entrypage** und ziehen Sie sie in den großen Freiformtabellenbereich mit der Bezeichnung „Dimension hier ablegen“.
 2. Suchen Sie im Menü „Komponenten“ das Segment **Besuche von sozialen Websites** und ziehen Sie es in den kleinen Bereich namens „Segment hier ablegen“ direkt über der Freiformtabelle.
@@ -141,4 +141,4 @@ Der Bericht zu kostenlosen Keywords zeigt die Leistung der einzelnen Suchbegriff
 
 ## Kostenanalyse
 
-Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe bietet ein spezielles Produkt zur Bereitstellung von Einblicken: Adobe Advertising Cloud. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.
+Dieser Bericht zeigt Daten zur Besuchs-, Kosten- und Umsatzleistung Ihrer gebührenpflichtigen Marketing-Kanäle an. Adobe Advertising ist ein separates Produkt, das diese Funktion bietet. Wenn Ihr Unternehmen an der Verwendung dieses Produkts interessiert ist, wenden Sie sich an Ihr Adobe Account Team.

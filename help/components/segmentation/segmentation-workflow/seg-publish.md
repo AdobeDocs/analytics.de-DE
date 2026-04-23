@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Segmente für Marketing-Aktivitäten in Audie
 title: Segmente veröffentlichen
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 47%
+source-wordcount: '1349'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 47%
 >abstract="In der Zielgruppenbibliothek erstellte Segmente sind sofort verfügbar und nicht von Analytics-Aktualisierungen abhängig."
 
 
-Sie können ein Adobe Analytics-Segment in Experience Cloud veröffentlichen. Sie können das Segment also für Marketing-Aktivitäten in [!DNL Audience Manager] und in anderen Aktivierungskanälen verwenden, einschließlich [!DNL Advertising Cloud], [!DNL Target] und [!DNL Campaign].
+Sie können ein Adobe Analytics-Segment in Experience Cloud veröffentlichen. Sie können das Segment also für Marketing-Aktivitäten in Audience Manager und in anderen Aktivierungskanälen verwenden, einschließlich Advertising, Target und Campaign.
 
 Sie können Analytics-Segmente in weniger als acht Stunden in Experience Cloud veröffentlichen. Verwenden Sie diese Segmente, um Zielgruppen-Manager in Audience Manager für alle nachfolgenden Ziele zu aktivieren.
 
@@ -93,7 +93,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente verö
 
 >[!NOTE]
 >
->Sie können die Veröffentlichung eines Segments **nicht** rückgängig machen, das aktuell von einer der folgenden Adobe-Lösungen verwendet wird: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (für Kunden von [!DNL Core Service] und [!DNL Audience Manager]) und alle anderen externen Partner (für Kunden von [!DNL Audience Manager]). Die Veröffentlichung eines Segments, das von [!DNL Target] verwendet wird, **kann** rückgängig gemacht werden.
+>Sie **die Veröffentlichung** Segments, das derzeit von einer der folgenden Adobe-Lösungen verwendet wird, nicht aufheben: Analytics (in Audience Analytics), Campaign, Advertising (für Kunden von Core Service und Audience Manager) und alle anderen externen Partner (für Kunden von Audience Manager). Sie **können** die Veröffentlichung eines Segments aufheben, das von Target verwendet wird.
 
 ## Anzeigen des Veröffentlichungsstatus von Segmenten
 
