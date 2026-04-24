@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 100%
 # Handbuch für Adobe Analytics-Tools {#analyze}
 
 + [Handbuch für Analytics-Tools](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Erste Schritte mit Adobe Analytics {#admin-overview}
    + [Übersicht über Analytics](get-started/analytics-overview.md)
    + [Onboarding](get-started/onboard.md)
@@ -174,8 +175,8 @@ ht-degree: 100%
    + [Arbeiten mit Segmenten](report-builder/work-with-segments.md)
    + [Filtern von Dimensionen](report-builder/filter-dimensions.md)
    + [Verwalten von Datenblöcken](report-builder/manage-reportbuilder.md)
-   + [Planen von Arbeitsmappen für E-Mails](report-builder/schedule-reportbuilder.md)
-   + [Planen von Arbeitsmappen für Cloud-Exporte](/help/analyze/report-builder/report-builder-export.md)
+   + [Arbeitsmappen für E-Mails planen](report-builder/schedule-reportbuilder.md)
+   + [Arbeitsmappen für Cloud-Exporte planen](/help/analyze/report-builder/report-builder-export.md)
    + [Verwalten von geplanten Arbeitsmappen](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Report Builder-Einstellungen](report-builder/report-builder-settings.md)
 + Vorgängerversion von Report Builder {#legacy-report-builder}
@@ -303,6 +304,6 @@ ht-degree: 100%
    + [Übersicht über Adobe Analytics-Dashboards](mobile-app/home.md)
    + [Einleitung für Kuratoren](mobile-app/curator.md)
    + [Mobile-Scorecard erstellen](mobile-app/create-scorecard.md)
-   + [Führungskräften die Nutzung von Dashboards ermöglichen](mobile-app/set-up-execs.md)
+   + [Einrichten von Führungskräften für die Verwendung von Dashboards](mobile-app/set-up-execs.md)
    + [Schnellstarthandbuch für ausführende Benutzer](mobile-app/executive.md)
 + [Labs](labs.md)
