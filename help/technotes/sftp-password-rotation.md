@@ -3,10 +3,10 @@ title: Sicherheitsanforderungen für FTP- und SFTP-Server
 description: Erfahren Sie mehr über die Sicherheitsanforderungen für FTP- und SFTP-Server.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 9067b57a7436656b6776de08e8411ee0a87f2b20
+source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 2%
+source-wordcount: '1933'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Auf dieser Seite werden die Sicherheitsanforderungen für bestehende FTP- und SF
 
   Alternativ können Sie für ein höheres Sicherheitsniveau zu einem modernen Cloud-Ziel wechseln. (Weitere Informationen finden Sie unter [Konfigurieren von Cloud-Import- und -Exportkonten](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).)
 
-* **Vorhandene SFTP-Server (und neu aktualisierte SFTP-Server)**: Alte Kennwörter müssen rotiert werden, wie im folgenden Abschnitt beschrieben: &quot;[&#x200B; des SFTP-Kennworts](#rotate-your-sftp-password).
+* **Vorhandene SFTP-Server (und neu aktualisierte SFTP-Server)**: Alte Kennwörter müssen rotiert werden, wie im folgenden Abschnitt beschrieben: &quot;[ des SFTP-Kennworts](#rotate-your-sftp-password).
 
   Das regelmäßige Rotieren des SFTP-Kennworts ist eine Best Practice für die Sicherheit, die zum Schutz Ihrer Daten beiträgt.
 
@@ -28,11 +28,11 @@ Auf dieser Seite werden die Sicherheitsanforderungen für bestehende FTP- und SF
 >
 >Beachten Sie die folgenden Situationen, bevor Sie die Schritte in diesem Artikel abschließen.
 >
->* **Adobe empfiehlt, nach Möglichkeit nicht auf SFTP, sondern auf ein modernes Cloud-Ziel umzustellen.**
+>* **Adobe empfiehlt, wenn möglich zu einem modernen Cloud-Ziel zu wechseln, anstatt ein Upgrade auf SFTP durchzuführen.**
 >FTP und SFTP sind alte Zieltypen. Anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu drehen, wie in diesem Artikel beschrieben, empfiehlt Adobe, zu einem modernen Cloud-Zieltyp (z. B. Amazon S3, Google Cloud Platform oder Azure) zu wechseln. Diese Cloud-Ziele bieten ein höheres Sicherheitsniveau. Weitere Informationen finden Sie unter [Konfigurieren von Cloud-Import- und -](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Wenn FTP- und SFTP-Konten ausschließlich für Klassifizierungen verwendet werden, migrieren Sie zu Klassifizierungssätzen.**
->Wenn Ihr FTP- oder SFTP-Konto ausschließlich für Klassifizierungen verwendet wird, sollten Sie vom **Klassifizierungs-Importer** zu **Klassifizierungssätze** migrieren, anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben. Das Classification Importer wird eingestellt und ist nach dem 31. **2026 nicht mehr**. Weitere Informationen finden Sie unter [Übersicht über Klassifizierungssätze](https://experienceleague.adobe.com/de/docs/analytics/components/classifications/sets/overview).
+>Wenn Ihr FTP- oder SFTP-Konto ausschließlich für Klassifizierungen verwendet wird, sollten Sie vom **Klassifizierungs-Importer** zu **Klassifizierungssätze** migrieren, anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben. Das Classification Importer wird eingestellt und ist nach dem 31. **2026 nicht mehr**. Weitere Informationen finden Sie unter [Übersicht über Klassifizierungssätze](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
 
 ## Voraussetzungen
 
@@ -40,7 +40,7 @@ Auf dieser Seite werden die Sicherheitsanforderungen für bestehende FTP- und SF
 
 Sie müssen die SFTP-Upgrade-Schritte auf dieser Seite für jede FTP-Site ausführen, die mit Daten-Feeds oder Data Warehouse verwendet wird.
 
-Daher müssen Sie alle FTP-Konten identifizieren, die Daten für Daten-Feeds oder Data Warehouse empfangen. Diese Informationen werden in Ihren FTP-Konfigurationseinstellungen angezeigt, wie im Abschnitt [Ältere &#x200B;](/help/components/locations/configure-import-accounts.md#configure-a-location-account)) des Artikels [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben.
+Daher müssen Sie alle FTP-Konten identifizieren, die Daten für Daten-Feeds oder Data Warehouse empfangen. Diese Informationen werden in Ihren FTP-Konfigurationseinstellungen angezeigt, wie im Abschnitt [Ältere ](/help/components/locations/configure-import-accounts.md#configure-a-location-account)) des Artikels [Konfigurieren von Cloud-Import- und -Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben.
 
 Sammeln Sie für jedes Konto die folgenden Informationen:
 
@@ -159,7 +159,7 @@ Dabei kann es sich um einen von Adobe gehosteten FTP-Server oder einen eigenen F
 
 1. Testen Sie die Verbindung, indem Sie sich mit Ihrem SFTP-Client beim Server anmelden.
 
-1. Wiederholen Sie diesen Vorgang für jedes SFTP-Konto, das Sie im vorherigen Abschnitt (Erstellen [&#x200B; SFTP-Kontos) erstellt &#x200B;](#create-the-sftp-account).
+1. Wiederholen Sie diesen Vorgang für jedes SFTP-Konto, das Sie im vorherigen Abschnitt (Erstellen [ SFTP-Kontos) erstellt ](#create-the-sftp-account).
 
 1. Fahren Sie mit dem folgenden Abschnitt fort: [Hinzufügen einer Position innerhalb des Kontos](#add-a-location-within-the-account).
 
@@ -177,7 +177,7 @@ Dabei kann es sich um einen von Adobe gehosteten FTP-Server oder einen eigenen F
 
 1. Wiederholen Sie diesen Vorgang für jedes von Ihnen erstellte SFTP-Konto.
 
-Detaillierte Anweisungen finden Sie unter [Konfigurieren von Cloud-Import- und -Exportspeicherorten](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-locations).
+Detaillierte Anweisungen finden Sie unter [Konfigurieren von Cloud-Import- und -Exportspeicherorten](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
 
 ### Schritt 3: Bearbeiten von Daten-Feeds und Data Warehouse-Anfragen zur Verwendung des neuen SFTP-Ziels
 
@@ -211,7 +211,7 @@ Bearbeiten Sie jede geplante Data Warehouse-Anfrage, die mit dem alten FTP-Ziel 
 
 1. Wählen Sie auf der Data Warehouse-Seite die Anfrage aus, die Sie bearbeiten möchten.
 
-   ![Verwalten einer Anfrage](assets/dw-manage-request.png)
+   ![Verwalten einer Anfrage](/help/technotes/assets/dw-manage-request.png)
 
 1. Wählen Sie [!UICONTROL **Bearbeiten**] aus.
 
@@ -241,7 +241,7 @@ Warten Sie nach der Aktualisierung aller vorhandenen Daten-Feeds und Data Wareho
 
 ### Schritt 6: Drehen des Kennworts auf dem aktualisierten SFTP-Server
 
-Nach dem Upgrade eines FTP-Servers auf SFTP müssen Sie auch das SFTP-Kennwort rotieren lassen, wie im folgenden Abschnitt &quot;[&#x200B; des SFTP-Kennworts](#rotate-your-sftp-password) beschrieben.
+Nach dem Upgrade eines FTP-Servers auf SFTP müssen Sie auch das SFTP-Kennwort rotieren lassen, wie im folgenden Abschnitt &quot;[ des SFTP-Kennworts](#rotate-your-sftp-password) beschrieben.
 
 ## Drehen des SFTP-Kennworts
 
