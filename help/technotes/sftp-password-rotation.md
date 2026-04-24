@@ -3,7 +3,7 @@ title: Sicherheitsanforderungen für FTP- und SFTP-Server
 description: Erfahren Sie mehr über die Sicherheitsanforderungen für FTP- und SFTP-Server.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 3%
@@ -211,7 +211,7 @@ Bearbeiten Sie jede geplante Data Warehouse-Anfrage, die mit dem alten FTP-Ziel 
 
 1. Wählen Sie auf der Data Warehouse-Seite die Anfrage aus, die Sie bearbeiten möchten.
 
-   ![Verwalten einer Anfrage](/help/technotes/assets/dw-manage-request.png)
+   ![Verwalten einer Anfrage](assets/dw-manage-request.png)
 
 1. Wählen Sie [!UICONTROL **Bearbeiten**] aus.
 
