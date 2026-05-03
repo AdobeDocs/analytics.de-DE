@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 8%
+source-wordcount: '545'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können den Vorgangsverlauf für jeden Daten-Feed anzeigen, Vorgänge erneut
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="Verlauf der Daten-Feed-Aufträge"
->abstract="Auf dieser Seite können Sie eine Liste der Daten-Feed-Aufträge für einen bestimmten Daten-Feed anzeigen. Nach Aufträgen nach Anforderungs-ID oder Anfangsdatum des Anforderungszeitraums suchen. Informationen zu jedem Auftrag werden in den verfügbaren Spalten angezeigt. Sie können auch einen Auftrag mit denselben Daten erneut senden oder die Quelldaten eines Auftrags erneut verarbeiten, bevor Sie ihn erneut senden."
+>abstract="Auf dieser Seite können Sie eine Liste der Daten-Feed-Aufträge für einen bestimmten Daten-Feed anzeigen. Suchen Sie anhand der Anfrage-ID oder des Anfangsdatums des Anfragezeitraums nach Aufträgen. Informationen zu jedem Auftrag werden in den verfügbaren Spalten angezeigt. Sie können auch einen Auftrag mit denselben Daten erneut senden oder die Quelldaten eines Auftrags erneut verarbeiten, bevor Sie ihn erneut senden."
 
 <!-- markdownlint-enable MD034 -->
 
