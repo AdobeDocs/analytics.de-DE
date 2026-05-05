@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Analytics-Tools
 breadcrumb-title: Werkzeugleitfaden
 user-guide-description: Erfahren Sie, wie Sie Analyse-Tools verwenden, einschließlich Analysis Workspace, Analytics-Dashboards, Report Builder, der Vorgängerversion von Report Builder und Activity Map.
 index: true
-source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
+source-git-commit: 24c05a7f323198716486519e2de6ef70fa19fc10
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -103,6 +103,10 @@ ht-degree: 100%
          + [Überblick](analysis-workspace/visualizations/c-flow/flow.md)
          + [Konfigurieren](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Interdimensionale Flüsse](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + Journey-Arbeitsfläche {#journey-canvas}
+         + {hide-from-toc}[Überblick](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + {hide-from-toc}[Konfigurieren](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + {hide-from-toc}[Fehlerbehebung](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [Bereich (gestapelt)](analysis-workspace/visualizations/area.md)
       + [Balken (gestapelt)](analysis-workspace/visualizations/bar.md)
       + [Bullet](analysis-workspace/visualizations/bullet-graph.md)
