@@ -12,11 +12,11 @@ ht-degree: 21%
 
 # Benutzerspezifischer Link
 
-Die Dimension „Benutzerspezifischer [&quot; ](overview.md) die Namen der auf Ihrer Site implementierten benutzerspezifischen Links an. Benutzerdefinierte Links sind ein flexibler Tracking-Mechanismus für alle Interaktionen, bei denen es sich nicht um einen Dateidownload oder eine ausgehende Navigation handelt. Häufige Beispiele sind Klicks auf Schaltflächen, interne Navigation oder Formularinteraktionen. Diese Dimension ist nützlich, wenn Sie verstehen möchten, mit welchen dieser Interaktionen Besucherinnen und Besucher am meisten interagieren.
+Die Dimension „Benutzerspezifischer [&quot; &#x200B;](overview.md) die Namen der auf Ihrer Site implementierten benutzerspezifischen Links an. Benutzerdefinierte Links sind ein flexibler Tracking-Mechanismus für alle Interaktionen, bei denen es sich nicht um einen Dateidownload oder eine ausgehende Navigation handelt. Häufige Beispiele sind Klicks auf Schaltflächen, interne Navigation oder Formularinteraktionen. Diese Dimension ist nützlich, wenn Sie verstehen möchten, mit welchen dieser Interaktionen Besucherinnen und Besucher am meisten interagieren.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der [`pev2` Abfragezeichenfolge ](/help/implement/validate/query-parameters.md) Bildanforderungen in Abhängigkeit vom Wert in der `pe` Abfragezeichenfolge. Die `pe` Abfragezeichenfolge bestimmt, welche Link-Dimension den `pev2` erhält:
+Diese Dimension erfasst Daten aus der [`pev2` Abfragezeichenfolge &#x200B;](/help/implement/validate/query-parameters.md) Bildanforderungen in Abhängigkeit vom Wert in der `pe` Abfragezeichenfolge. Die `pe` Abfragezeichenfolge bestimmt, welche Link-Dimension den `pev2` erhält:
 
 * **Benutzerspezifischer Link** (diese Seite): `lnk_o`
 * **[Downloadlink](download-link.md)**: `lnk_d`

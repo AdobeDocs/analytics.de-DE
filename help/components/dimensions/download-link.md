@@ -12,7 +12,7 @@ ht-degree: 28%
 
 # Downloadlink
 
-Die Dimension „Downloadlink[ gibt ](overview.md) Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
+Die Dimension „Downloadlink[&#x200B; gibt &#x200B;](overview.md) Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
 
 * Welche Dateien werden am häufigsten von Ihrer Website heruntergeladen?
 * Ob bestimmte Dateien während bestimmter Zeiträume häufiger heruntergeladen werden.
@@ -20,7 +20,7 @@ Die Dimension „Downloadlink[ gibt ](overview.md) Namen der auf Ihrer Site impl
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der [`pev2` Abfragezeichenfolge ](/help/implement/validate/query-parameters.md) Bildanforderungen in Abhängigkeit vom Wert in der `pe` Abfragezeichenfolge. Die `pe` Abfragezeichenfolge bestimmt, welche Link-Dimension den `pev2` erhält:
+Diese Dimension erfasst Daten aus der [`pev2` Abfragezeichenfolge &#x200B;](/help/implement/validate/query-parameters.md) Bildanforderungen in Abhängigkeit vom Wert in der `pe` Abfragezeichenfolge. Die `pe` Abfragezeichenfolge bestimmt, welche Link-Dimension den `pev2` erhält:
 
 * **[Benutzerspezifischer Link](custom-link.md)**: `lnk_o`
 * **Downloadlink** (diese Seite): `lnk_d`
