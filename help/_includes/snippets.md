@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: ht
-source-wordcount: '3047'
-ht-degree: 100%
+source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+workflow-type: tm+mt
+source-wordcount: '3044'
+ht-degree: 98%
 
 ---
 # Snippets
@@ -14,7 +14,7 @@ ht-degree: 100%
 >Seit dem 16. Oktober 2024 ist ein neuer und optimierter [Report Builder](/help/analyze/report-builder/rb-overview.md) verfügbar. Dieser Report Builder wird unter macOS, Windows und in Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden.
 >Diese Vorgängerversion des Report Builder-Add-ins funktioniert weiterhin. Sie können [Ihre alten Arbeitsmappen](/help/analyze/report-builder/convert-workbooks.md) für den neuen Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-## Eingeschränkte Testphase der Version {#release-limited-testing}
+## Eingeschränkte Testphase der Veröffentlichung {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
@@ -82,7 +82,7 @@ Ein Attributionsmodell bestimmt, welchen Dimensionselementen eine Metrik zugesch
 | ![Umgekehrtes J](/help/assets/icons/AttributeInverseJ.svg) | Umgekehrtes J | Der ersten Interaktion werden 60 % zugeschrieben, der letzten Interaktion 20 %. Die verbleibenden 20 % werden auf alle dazwischen liegenden Touchpoints aufgeteilt. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Konversionen mit zwei Touchpoints werden der ersten Interaktion 75 % zugeschrieben und der letzten 25 %. Ähnlich wie „J-Form“ begünstigt dieses Attributionsmodell die erste und die letzte Interaktion, wobei die erste Interaktion stark bevorzugt wird. |
 | ![Zeitverfall](/help/assets/icons/AttributeTimeDecay.svg) | Zeitverfall | Folgt einem exponentiellen Abfall mit einem benutzerdefinierten Parameter für die Halbwertszeit, wobei der Standardwert 7 Tage ist. Die Gewichtung der einzelnen Kanäle hängt von der Zeit ab, die zwischen dem Beginn des Touchpoints und der letztendlichen Konversion verstrichen ist. Die Formel, die zur Bestimmung der Gewichtung verwendet wird, lautet `2^(-t/halflife)`, wobei `t` die Zeit zwischen einem Touchpoint und einer Konversion ist. Alle Touchpoints werden dann auf 100 % normalisiert. Ideal für Szenarien, in denen die Attribution anhand eines bestimmten und bedeutenden Ereignisses gemessen werden soll. Je später eine Konversion nach einem Marketing-Ereignis erfolgt, desto geringer ist die zugeschriebene Gewichtung. |
 | ![Benutzerspezifisch](/help/assets/icons/AttributeCustom.svg) | Anpassen | Ermöglicht Ihnen die Angabe der Gewichtungen, die Sie für den ersten Touchpoint, den letzten Touchpoint und dazwischen liegende Touchpoints festlegen möchten. Die angegebenen Werte werden auf 100 % normalisiert, selbst wenn die eingegebenen benutzerdefinierten Zahlen zusammen nicht 100 ergeben. Bei Konversionen mit einem einzigen Touchpoint werden diesem 100 % zugeschrieben. Bei Interaktionen mit zwei Touchpoints wird der mittlere Parameter ignoriert. Die ersten und letzten Touchpoints werden dann auf 100 % normalisiert und die Gewichtung wird entsprechend zugeschrieben. Dieses Modell ist ideal für Analystinnen und Analysten, die eine vollständige Kontrolle über ihr Attributionsmodell wünschen und spezielle Bedürfnisse haben, die andere Zuordnungsmodelle nicht erfüllen. |
-| ![Algorithmisch](/help/assets/icons/AttributeAlgorithmic.svg) | Algorithmisch | Verwendet statistische Verfahren, um die optimale Zuordnung für die ausgewählte Metrik dynamisch zu bestimmen. Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi-Dividende aus der kooperativen Spieltheorie. Die Harsanyi-Dividende ist eine Verallgemeinerung der Shapley-Wertlösung (die nach Lloyd Shapley, einem Nobelpreisträger für Ökonomie, benannt wurde) zur Verteilung von Gutschriften unter den Spielern in einem Spiel mit ungleichen Beiträgen zum Ergebnis.<br>Auf hoher Ebene wird die Attribution als eine Koalition von Spielenden berechnet, an die ein Überschuss gerecht verteilt werden muss. Die Überschusshöhe jeder Koalition wird nach dem Überschuss bestimmt, der zuvor von jeder Unterkoalition (oder zuvor teilnehmenden Dimensionselementen) rekursiv erzeugt wurde. Weitere Informationen finden Sie in John Harsanyis und Lloyd Shapleys Originaldokumenten: <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
+| ![Algorithmisch](/help/assets/icons/AttributeAlgorithmic.svg) | Algorithmisch | Verwendet statistische Verfahren, um die optimale Zuordnung für die ausgewählte Metrik dynamisch zu bestimmen. Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi-Dividende aus der kooperativen Spieltheorie. Die Harsanyi-Dividende ist eine Verallgemeinerung der Shapley-Wertlösung (die nach Lloyd Shapley, einem Nobelpreisträger für Ökonomie, benannt wurde) zur Verteilung von Gutschriften unter den Spielern in einem Spiel mit ungleichen Beiträgen zum Ergebnis.<br>Auf hoher Ebene wird die Attribution als eine Koalition von Spielenden berechnet, an die ein Überschuss gerecht verteilt werden muss. Die Überschusshöhe jeder Koalition wird nach dem Überschuss bestimmt, der zuvor von jeder Unterkoalition (oder zuvor teilnehmenden Dimensionselementen) rekursiv erzeugt wurde. Weitere Einzelheiten finden Sie in John Harsanyis und Lloyd Shapleys Originaldokumenten: <br>Shapley, Lloyd S. (1953). A value for n-person games. *Beiträge zur Spieltheorie, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 
@@ -143,7 +143,6 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 | **Komponentenunterstützung in Knoten oder Touchpoints** | Metriken, Dimensionselemente, Filter und Datumsbereiche. | Metriken, Dimensionselemente, Filter und Datumsbereiche. | Nur Dimensionselemente (mit Ausnahme des Start- und End-Touchpoints) |
 | **Filter vergleichen** | Nein | Ja<p>Eine Gegenüberstellung zweier verschiedener Filter im gleichen Bericht vornehmen.</p> | Nein |
 | **Drag-and-Drop-Komponenteninteraktion** | Ja | Ja | Nein |
-| **Adobe Journey Optimizer-Journeys** | Ja</br>Öffnen Sie Journeys aus Journey Optimizer, um sie gründlicher zu analysieren und anzupassen | Nein | Nein |
 
 {style="table-layout:auto"}
 
@@ -190,7 +189,7 @@ Verwenden Sie die folgenden Informationen, um die Visualisierung auszuwählen, d
 
 | Angewendeter Datumsbereich | Beschreibung |
 |---|---|
-| ![Datumsbereich](/help/assets/filter-daterange.png){width="300"} | Im Abschnitt „Angewendeter Datumsbereich“ können Sie nach einem Datumsbereich filtern, der auf die Elemente anwendbar ist.<ol><li>Wählen Sie einen Datumsbereich aus.</li><li>Definieren Sie im Kalender-Popup einen Datumsbereich oder wählen Sie eine der verfügbaren Voreinstellungen aus.<br>Alternativ können Sie einen Datumsbereich auch direkt im Abschnitt „Datumsbereich“ des Panels „Filter“ angeben.</li></ol><ul><li>Die Zahlen geben Folgendes an:<ul><li>**(1)**: Die Anzahl der geänderten Datumsbereiche, die von den Standardvorgaben geändert wurden.</li><li>**5︎⃣**: Die Anzahl der Datumsbereiche, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li></ul> |
+| ![Datumsbereich](/help/assets/filter-daterange.png){width="300"} | Im Abschnitt „Angewendeter Datumsbereich“ können Sie nach einem Datumsbereich filtern, der auf die Elemente anwendbar ist.<ol><li>Wählen Sie einen Datumsbereich aus.</li><li>Definieren Sie im Popup-Fenster des Kalenders einen Datumsbereich oder wählen Sie eine der verfügbaren Vorgaben aus<br>Alternativ können Sie auch einen Datumsbereich direkt im Abschnitt Datumsbereich des Bedienfelds Filter angeben.</li></ol><ul><li>Die Zahlen geben Folgendes an:<ul><li>**(1)**: Die Anzahl der geänderten Datumsbereiche, die von den Standardvorgaben geändert wurden.</li><li>**5︎⃣**: Die Anzahl der Datumsbereiche, die für die aus dem aktuellen Filter resultierenden Elemente verfügbar sind.</li></ul> |
 
 
 ## Einstellung von Klassifizierungsimport {#classification-importer-deprecation}
