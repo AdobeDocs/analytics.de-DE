@@ -55,7 +55,7 @@ _In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAna
 
 >[!ENDSHADEBOX]
 
-Die Visualisierung „Journey-Arbeitsflächen“ hilft Ihnen, die Journey zu analysieren und tiefgreifende Erkenntnisse zu gewinnen, die Sie Ihren Benutzenden sowie Kundinnen und Kunden bereitstellen können. Damit können Sie eine Journey definieren und dann sehen, wie Personen die Journey verlassen (ausgefallen) oder durch sie weitergerissen (gefallen) haben.
+Die Journey-Arbeitsflächenvisualisierung hilft Ihnen, die Journey zu analysieren und tiefgreifende Erkenntnisse zu gewinnen, die Sie Ihren Benutzenden sowie Kundinnen und Kunden bereitstellen können. Damit können Sie eine Journey definieren und dann sehen, wie Personen die Journey verlassen (ausgefallen) oder durch sie weitergerissen (gefallen) haben.
 
 Sie können [Analysen von Benutzer-Journeys erstellen](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md), indem Sie eine beliebige Kombination aus Ereignissen, Dimensionselementen, Filtern und Datumsbereichen verwenden, um Journey-Knoten zu erstellen. Verbinden Sie die Knoten, um den Journey-Fluss zu erstellen, und schließen Sie mehrere Pfade und Entscheidungspunkte ein. Ziehen Sie Knoten auf die Arbeitsfläche, um die Ereignisse und Bedingungen der Journey neu anzuordnen. Daten werden bei Änderungen in Echtzeit aktualisiert.
 
