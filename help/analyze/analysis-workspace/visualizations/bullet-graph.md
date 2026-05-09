@@ -4,10 +4,10 @@ title: Bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 90%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Visualisierung mit horizontalen Säulendiagrammen in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Horizontales Säulendiagramm](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird die Aufzählungsvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Aufzählungszeichen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
-Die Visualisierung mit ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL horizontalen Säulendiagrammen]** zeigt an, wie eine Metrik gegenüber Leistungsbereichen (Zielen) abschneidet.
+Die Visualisierung ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** zeigt an, wie eine Metrik gegenüber Leistungsbereichen (Zielen) abschneidet.
 
 ![Visualisierung Bullet-Diagramm](assets/bullet.png)
 
@@ -60,8 +60,8 @@ Sie können bestimmte Einstellungen für eine Visualisierung vom Typ [!UICONTROL
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Einstellungen der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

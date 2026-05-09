@@ -4,10 +4,10 @@ title: Bedienfeld „Seitenzusammenfassung“
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Seitenzusammenfassung“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Es gibt kein vergleichbares Bedienfeld in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld Seitenzusammenfassung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Es gibt kein vergleichbares Bedienfeld in_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,7 @@ Sie können auf das Bedienfeld über [!UICONTROL Berichte] oder [!UICONTROL Work
 | Zugriffspunkt | Beschreibung |
 | --- | --- |
 | [!UICONTROL Berichte] | <ul><li>Das Bedienfeld ist bereits in einem Projekt abgelegt.</li><li>Die linke Leiste ist reduziert.</li><li>Es wird nur die Seitendimension unterstützt.</li><li>Eine Standardeinstellung wurde bereits angewendet: in diesem Fall die am häufigsten besuchte Seite für die [!UICONTROL Seitendimension]. Sie können diese Einstellung ändern.</li></ul> |
-| Workspace | Erstellen Sie ein neues Projekt und wählen Sie in der linken Leiste das Bedienfeldsymbol aus. Ziehen Sie das Bedienfeld [!UICONTROL Seitenzusammenfassung] über die Freiformtabelle. Beachten Sie, dass das Feld mit dem [!UICONTROL Seiten-Dimensionselement] leer gelassen wird. Wählen Sie ein Dimensionselement aus der Dropdown-Liste aus.  |
+| Workspace | Erstellen Sie ein neues Projekt und wählen Sie in der linken Leiste das Bedienfeldsymbol aus. Ziehen Sie das Bedienfeld [!UICONTROL Seitenzusammenfassung] über die Freiformtabelle. Beachten Sie, dass das Feld mit dem [!UICONTROL Seiten-Dimensionselement] leer gelassen wird. Wählen Sie ein Dimensionselement aus der Dropdown-Liste aus. |
 
 ### Bedienfeldeingabe {#panel-input}
 
@@ -74,7 +74,7 @@ Sie können das Bedienfeld [!UICONTROL Seitenzusammenfassung] mithilfe der folge
 
 Wählen Sie **[!UICONTROL Erstellen]** aus, um das Panel zu erstellen.
 
-### Bedienfeldausgabe {#panel-output}
+### Panel-Ausgabe {#panel-output}
 
 Das Bedienfeld [!UICONTROL Seitenzusammenfassung] gibt eine Vielzahl von Metrikdaten und Visualisierungen zurück, die Ihnen helfen, Statistiken zu bestimmten Seiten besser zu verstehen.
 
@@ -90,8 +90,8 @@ Das Bedienfeld [!UICONTROL Seitenzusammenfassung] gibt eine Vielzahl von Metrikd
 | **[!UICONTROL Besuchszeit pro Seite]** | Eine [Horizontalbalken](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)-Visualisierung, die die auf dieser Seite verbrachte Zeit anzeigt. |
 | **[!UICONTROL Einzelseitenbesuche]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die die Anzahl der Seitenansichten anzeigt, bei denen nur diese Seite besucht wurde. |
 | **[!UICONTROL Neuladungen]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein Dimensionselement während einer Neuladung vorhanden war. Das Aktualisieren des Browsers durch eine Besucherin oder einen Besucher ist die häufigste Art, wie ein erneutes Laden ausgelöst wird. |
-| **[!UICONTROL Einträge]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird.  |
-| **[!UICONTROL Ausstiege]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein bestimmtes Dimensionselement als letzter Wert bei einem Besuch erfasst wird.  |
+| **[!UICONTROL Einträge]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. |
+| **[!UICONTROL Ausstiege]** | Eine [Zusammenfassungszahl](/help/analyze/analysis-workspace/visualizations/summary-number-change.md), die anzeigt, wie oft ein bestimmtes Dimensionselement als letzter Wert bei einem Besuch erfasst wird. |
 | **[!UICONTROL Fluss]** | Eine [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) mit der ausgewählten Seite als Fokus. Wie bei jeder anderen [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) können Sie sich die Daten genauer ansehen. |
 
 {style="table-layout:auto"}

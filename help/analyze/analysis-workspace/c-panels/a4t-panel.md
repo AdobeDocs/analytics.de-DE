@@ -4,10 +4,10 @@ title: Bedienfeld „Analytics for Target“
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 97%
+source-wordcount: '1287'
+ht-degree: 93%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Analytics for Target-Bedienfeld"
->abstract="Analysieren Sie Target-Aktivitäten und Erlebnisse in Analysis Workspace.<br/><br>**Parameter &#x200B;**<br/>**Target-Aktivität**: Die Target-Aktivität, die analysiert wird.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
+>abstract="Analysieren von Target-Aktivitäten und -Erlebnissen in Analysis Workspace <br/><br>**Parameter &#x200B;**<br/>**Target-Aktivität**: Die analysierte Target-Aktivität.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Experimentier-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) finden Sie weitere Informationen dazu, wie verschiedene Varianten von Anwendererlebnissen, Marketing oder Messaging in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** miteinander verglichen werden können._
+_In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Experimentier-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)_ für Informationen zum Vergleich verschiedener Benutzererlebnisse, Marketing- oder Messaging-Variationen in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -69,9 +69,9 @@ Sie können das Bedienfeld „Analytics for Target“ mithilfe der folgenden Ein
 | **[!UICONTROL Normalisierungsmetrik]** | Wählen Sie Besuchende, Besuche oder Impressionen aus. Für die meisten Anwendungsfälle der Analyse wird [!UICONTROL Besucher] empfohlen. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird. |
 | **[!UICONTROL Erfolgsmetriken]** | Wählen Sie bis zu drei standardmäßige (nicht berechnete) Erfolgsereignisse aus dem Dropdown-Menü aus oder ziehen Sie Metriken per Drag-and-Drop aus „Metriken“ der Leiste „Komponenten“. Jede Metrik verfügt über eine eigene Tabelle und Visualisierung im gerenderten Bedienfeld. |
 
-Wählen Sie **[!UICONTROL Erstellen]** aus, um das Bedienfeld zu erstellen.
+Wählen Sie **[!UICONTROL Erstellen]** aus, um das Panel zu erstellen.
 
-### Bedienfeldausgabe {#panel-output}
+### Panel-Ausgabe {#panel-output}
 
 Das Bedienfeld „Analytics for Target“ enthält umfangreiche Daten und Visualisierungen, die Ihnen helfen, die Leistung Ihrer Adobe Target-Aktivität und -Erlebnisse besser zu verstehen. Oben im Bedienfeld wird eine Zusammenfassungszeile angezeigt, die Sie an die ausgewählten Bedienfeldeinstellungen erinnert. Für jede ausgewählte Erfolgsmetrik wird eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) und eine [Linienvisualisierung](/help/analyze/analysis-workspace/visualizations/line.md) mit dem Konversionsraten-Trend anzeigt:
 

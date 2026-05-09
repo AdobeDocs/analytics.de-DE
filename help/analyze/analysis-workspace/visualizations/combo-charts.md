@@ -4,10 +4,10 @@ title: Kombination
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '618'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ _Unter [Kombination](https://experienceleague.adobe.com/de/docs/analytics-platfo
 >[!ENDSHADEBOX]
 
 
-Mit der Visualisierung ![Kombinationsdiagramm](/help/assets/icons/ComboChart.svg)**[!UICONTROL Kombination]** können Sie schnell und einfach eine Vergleichsvisualisierung erstellen, ohne zuerst eine Tabelle erstellen zu müssen. Sie können Trends in Ihren Daten einfach in einer Kombination aus Linien- und Balkendiagramm anzeigen.
+Mit der Visualisierung ![Combo chart](/help/assets/icons/ComboChart.svg) **[!UICONTROL Kombination]** können Sie schnell und einfach eine Vergleichsvisualisierung erstellen, ohne zuerst eine Tabelle erstellen zu müssen. Sie können Trends in Ihren Daten einfach in einer Kombination aus Linien- und Balkendiagramm anzeigen.
 
 Sie können eine [!UICONTROL Kombination] für Folgendes verwenden:
 
@@ -98,7 +98,7 @@ Im Folgenden finden Sie ein Beispiel für ein Kombinationsdiagramm mit den Funkt
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung zu einem Panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisierungseinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Einstellungen der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

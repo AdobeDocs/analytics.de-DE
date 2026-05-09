@@ -4,10 +4,10 @@ title: Leeres Panel
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 88%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das leere Bedienfeld in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Siehe [Leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird das leere Bedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Sie haben folgende Möglichkeiten:
   | ![Typ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) |
   | ![Baumdiagramm](/help/assets/icons/GraphTree.svg) | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) |
 
-* Wählen Sie das Symbol ![Hinzufügen](/help/assets/icons/AddCircle.svg) **außerhalb** eines Bedienfelds aus, um ein weiteres leeres Bedienfeld hinzuzufügen. 
+* Wählen Sie das Symbol ![Hinzufügen](/help/assets/icons/AddCircle.svg) **außerhalb** eines Bedienfelds aus, um ein weiteres leeres Bedienfeld hinzuzufügen.
 
 
 >[!MORELIKETHIS]

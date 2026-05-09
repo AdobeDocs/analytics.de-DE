@@ -4,10 +4,10 @@ title: Analytics-Inventar
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 19%
+source-wordcount: '1224'
+ht-degree: 22%
 
 ---
 
@@ -108,7 +108,7 @@ Die Antworten auf diese Fragen geben Ihnen eine gute Vorstellung davon, welche R
    | Element | Beschreibung |
    | --- | --- |
    | Name | Der Name der Report Suite |
-   | ID | Die Report Suite-ID (RSID). Gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach ihrer Erstellung nicht mehr geändert werden. Adobe legt das erforderliche ID-Präfix fest und kann ebenfalls nicht geändert werden. |
+   | ID | Die Report Suite-ID (RSID). Gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach ihrer Erstellung nicht mehr geändert werden. Adobe legt das erforderliche ID-Präfix fest, das ebenfalls nicht geändert werden kann. |
    | Vorkommnisse (letzte 90 Tage) | Die Metrik „Vorfälle“ zeigt die Anzahl der Treffer an, bei denen eine bestimmte Dimension festgelegt oder beibehalten wurde. Wie viele Treffer hat diese Report Suite in den letzten 90 Tagen erhalten? |
    | Metriken | Wie viele Metriken sind in dieser Report Suite definiert? |
    | Dimensionen | Wie viele Dimensionen sind in dieser Report Suite definiert? |

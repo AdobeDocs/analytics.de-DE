@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Analysis Workspace Anmerkungen erstellen.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 80%
+source-wordcount: '862'
+ht-degree: 73%
 
 ---
 
@@ -22,10 +22,10 @@ Sie können Anmerkungen wie folgt erstellen:
 
 ![Erstellen einer Anmerkung](assets/create-annotation.png)
 
-* **A**. Wählen Sie in der Hauptbenutzeroberfläche die Option **[!UICONTROL Komponenten]** und dann **[!UICONTROL Anmerkungen]** aus. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Hinzufügen]**] im [[!UICONTROL Anmerkungs]-Manager](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md) aus.
-* **B**. Wählen Sie in einem Workspace-Projekt aus dem Kontextmenü einer Visualisierung die Option **[!UICONTROL Anmerkung aus Auswahl erstellen]** aus.
-* **C**. Wählen Sie in einem Workspace-Projekt aus dem Kontextmenü eines Liniendiagramms die Option **[!UICONTROL Auswahl mit Anmerkungen versehen]** aus.
-* **D**. Wählen Sie in einem Workspace-Projekt aus dem Menü die Option **[!UICONTROL Komponenten]** und dann **[!UICONTROL Anmerkung erstellen]** aus.
+* **A**. Wählen Sie in der Hauptbenutzeroberfläche **[!UICONTROL Komponenten]** und anschließend &quot;**[!UICONTROL &quot;]**. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Hinzufügen]**] im [[!UICONTROL Anmerkungs]-Manager](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md) aus.
+* **B**. Wählen Sie in einem Workspace-Projekt im Kontextmenü in einer Visualisierung die Option **[!UICONTROL Anmerkung aus Auswahl erstellen]** aus.
+* **C**. Wählen Sie in einem Workspace-Projekt im Kontextmenü in einem Liniendiagramm die Option **[!UICONTROL Anmerkungsauswahl]** aus.
+* **D**. Wählen Sie in einem Workspace-Projekt **[!UICONTROL Komponenten]** aus dem Menü aus und klicken Sie auf **[!UICONTROL Anmerkung erstellen]**.
 * **E**.  Verwenden Sie in einem Workspace-Projekt den Tastaturbefehl **[!UICONTROL Strg+Umschalt+O]** (Windows) bzw. **[!UICONTROL Umschalt+Befehlstaste+O]** (macOS).
 
 Um die Anmerkung zu definieren, verwenden Sie den [[!UICONTROL Anmerkungsgenerator]](#annotation-builder).
@@ -37,7 +37,7 @@ Um die Anmerkung zu definieren, verwenden Sie den [[!UICONTROL Anmerkungsgenerat
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Anmerkungsdetails"
->abstract="Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv übermitteln. Durch sie können Sie Kalenderereignisse an bestimmte Dimensionen/Metriken binden. "
+>abstract="Mit Anmerkungen können Sie Ihrer Organisation kontextbezogene Datennuancen und Einblicke effektiv übermitteln. Durch sie können Sie Kalenderereignisse an bestimmte Dimensionen/Metriken binden."
 
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"

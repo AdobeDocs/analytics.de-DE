@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Segmente für Marketing-Aktivitäten in Audie
 title: Segmente veröffentlichen
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 43%
+source-wordcount: '1408'
+ht-degree: 41%
 
 ---
 
@@ -78,7 +78,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente verö
 
 | Element | Beschreibung |
 |---|---|
-| **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]** | Wenn diese Option aktiviert ist, werden der Segmenttitel und die Segmentdefinition sofort für Experience Cloud freigegeben, während die Segmentzugehörigkeit alle 4 Stunden ausgewertet und freigegeben wird. <br> Wenn die Zielgruppe einer Aktivität beispielsweise in [!DNL Target] zugewiesen wird, beginnt [!DNL Analytics] damit, IDs für Besucher zu senden, die sich für diese Experience Cloud- und [!DNL Target]-Zielgruppe qualifizieren. Ab diesem Zeitpunkt werden der Zielgruppenname und die zugehörigen Daten auf der [!DNL Audience Library] in Experience Cloud angezeigt. </br> |
+| **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]** | Wenn diese Option aktiviert ist, werden der Segmenttitel und die Segmentdefinition sofort für Experience Cloud freigegeben, während die Segmentzugehörigkeit alle 4 Stunden ausgewertet und freigegeben wird. <br> Wenn diese Zielgruppe beispielsweise mit einer Aktivität in [!DNL Target] verknüpft ist, sendet [!DNL Analytics] IDs für Besucher, die sich für diese Experience Cloud- und [!DNL Target]-Zielgruppe qualifizieren. Ab diesem Zeitpunkt werden der Zielgruppenname und die zugehörigen Daten auf der [!DNL Audience Library] in Experience Cloud angezeigt. </br> |
 | **[!UICONTROL Fenster für die Zielgruppenerstellung]** | Der ausgewählte Zeitrahmen wird verwendet, um die Zielgruppe auf rollierender Kalenderbasis zu erstellen. Beispielsweise umfasst **[!UICONTROL Letzte 30 Tage]** (Standard) Besucher, die sich in den letzten 30 Tagen ab dem heutigen Datum für die Zielgruppe qualifiziert haben (NICHT ab dem ursprünglichen Datum, an dem das Segment erstellt wurde). |
 | **[!UICONTROL In Zielgruppenbibliothek erstellen]** | Die Segmente, die Sie erstellen und veröffentlichen, können ohne Latenz auf der [!DNL Audience Library] in Experience Cloud verfügbar gemacht werden. Sie sind nicht von Analytics-Aktualisierungen abhängig. Diese Segmente werden nicht Ihrer Beschränkung auf 75 veröffentlichte Segmente angerechnet. |
 | **[!UICONTROL x von 75 veröffentlicht]** | Die Anzahl der Segmente, die Sie in Experience Cloud veröffentlicht haben. Klicken Sie auf den Link, um eine Liste der veröffentlichten Segmente mit zugehöriger Report Suite und Eigentümer anzuzeigen. |
