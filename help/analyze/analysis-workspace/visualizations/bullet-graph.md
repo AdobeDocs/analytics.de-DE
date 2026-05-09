@@ -33,7 +33,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Aufzählungsvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Aufzählungszeichen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird die Aufzählungsvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Aufzählungszeichen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Sie können bestimmte Einstellungen für eine Visualisierung vom Typ [!UICONTROL
 
 | Einstellung | Beschreibung |
 |---|---|
-| **[!UICONTROL Aufzählungsoptionen]** | Geben Sie Werte für **[!UICONTROL Hohes Ziel]**, **[!UICONTROL Mittleres Ziel]** und **[!UICONTROL Niedriges Ziel]** in der Visualisierung [!UICONTROL Bullet] an. <br/>**[!UICONTROL Hohes Ziel ]**entspricht dem angestrebten Hauptziel. Mit**[!UICONTROL  Niedriges Ziel ]**und**[!UICONTROL  Mittleres Ziel ]**werden Bereiche unterhalb des Zielwerts Hohes Ziel erstellt. Hinweis: Wenn die Option**[!UICONTROL  Prozentsatz ]**aktiviert ist, geben Sie Ziele als Ganzzahlen ein, z. B. `20`, wenn Ihr Ziel zwanzig Prozent ist. |
+| **[!UICONTROL Aufzählungsoptionen]** | Geben Sie Werte für **[!UICONTROL Hohes Ziel]**, **[!UICONTROL Mittleres Ziel]** und **[!UICONTROL Niedriges Ziel]** in der Visualisierung [!UICONTROL Bullet] an. <br/>**[!UICONTROL Hohes Ziel &#x200B;]**&#x200B;entspricht dem angestrebten Hauptziel. Mit&#x200B;**[!UICONTROL &#x200B; Niedriges Ziel &#x200B;]**&#x200B;und&#x200B;**[!UICONTROL &#x200B; Mittleres Ziel &#x200B;]**&#x200B;werden Bereiche unterhalb des Zielwerts Hohes Ziel erstellt. Hinweis: Wenn die Option&#x200B;**[!UICONTROL &#x200B; Prozentsatz &#x200B;]**&#x200B;aktiviert ist, geben Sie Ziele als Ganzzahlen ein, z. B. `20`, wenn Ihr Ziel zwanzig Prozent ist. |
 
 >[!MORELIKETHIS]
 >

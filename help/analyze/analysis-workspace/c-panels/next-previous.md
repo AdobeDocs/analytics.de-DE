@@ -25,7 +25,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld für das nächste oder vorherige Element in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Bedienfeld für das nächste oder vorherige Element](/help/analyze/analysis-workspace/c-panels/next-previous.md) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird das Bedienfeld für das nächste oder vorherige Element in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Bedienfeld für das nächste oder vorherige Element](/help/analyze/analysis-workspace/c-panels/next-previous.md) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 

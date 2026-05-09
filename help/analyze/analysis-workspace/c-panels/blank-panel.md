@@ -26,7 +26,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das leere Bedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird das leere Bedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Leeres Bedienfeld](/help/analyze/analysis-workspace/c-panels/blank-panel.md) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 

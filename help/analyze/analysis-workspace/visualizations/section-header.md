@@ -25,7 +25,7 @@ ht-degree: 58%
 >[!BEGINSHADEBOX]
 
 
-_In diesem Artikel wird die Visualisierung der Abschnittskopfzeile in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Abschnittskopfzeile](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/section-header) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird die Visualisierung der Abschnittskopfzeile in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Abschnittskopfzeile](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/section-header) für die_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 

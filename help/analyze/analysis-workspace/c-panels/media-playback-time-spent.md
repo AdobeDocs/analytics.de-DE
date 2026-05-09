@@ -34,7 +34,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die verbrachte Zeit bei der Medienwiedergabe in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird die verbrachte Zeit bei der Medienwiedergabe in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
