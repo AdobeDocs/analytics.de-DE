@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über erweiterte Funktionen berechneter Metriken.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '4799'
-ht-degree: 97%
+source-wordcount: '4863'
+ht-degree: 94%
 
 ---
 
@@ -116,7 +116,7 @@ Ein gängiger Anwendungsfall für diese Funktion ist, wenn Sie eine ungefähre A
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE Zeile &#x200B;]{type="Neutral"} Gibt den Arkussinus (die Umkehrung des Sinus) einer Zahl zurück. Der Arcussinus ist der Winkel, dessen Sinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI().
+[!BADGE Zeile ]{type="Neutral"} Gibt den Arkussinus (die Umkehrung des Sinus) einer Zahl zurück. Der Arcussinus ist der Winkel, dessen Sinus eine gegebene Zahl ist. Der zurückgegebene Winkel wird in Radiant im Bereich -pi/2 bis pi/2 angegeben. Um den Arkussinus in Grad auszudrücken, multiplizieren Sie das Ergebnis mit 180/PI().
 
 
 | Argument | Beschreibung |
@@ -352,13 +352,13 @@ Gibt die positive Kubikwurzel einer Zahl zurück. Die Kubikwurzel einer Zahl ist
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="Kumulativ"
->abstract="Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert."
+>abstract="Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente oder x summiert. Wenn n &lt; 0, werden alle vorhergehenden Elemente summiert."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE(number, metric)]**
 
-Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert.
+Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente oder x summiert. Wenn n &lt; 0, werden alle vorhergehenden Elemente summiert.
 
 | Argument | Beschreibung |
 | --- | --- |
@@ -381,13 +381,13 @@ Gibt die Summe der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werd
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
 >title="Cumulative (Average)"
->abstract="Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert."
+>abstract="Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente oder x summiert. Wenn n &lt; 0, werden alle vorhergehenden Elemente summiert."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
 
-Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente von x addiert. Wenn n &lt; 0 ist, werden die vorangehenden n Elemente addiert.
+Gibt den Durchschnitt der letzten n Elemente der Spalte x zurück. Wenn n > 0 ist, werden die letzten n Elemente oder x summiert. Wenn n &lt; 0, werden alle vorhergehenden Elemente summiert.
 
 | Argument | Beschreibung |
 | --- | --- |
@@ -673,8 +673,8 @@ Größer als oder gleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 | Argument | Beschreibung |
 |---|---|
 | logical_test | Erforderlich. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
-| value_if_true | Der Wert, der ausgegeben werden soll, wenn das Argument des Logiktests also TRUE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
-| value_if_false | Der Wert, der ausgegeben werden soll, wenn das logical_test-Argument als FALSE ausgewertet wird. (Dieses Argument wird automatisch auf 0 gesetzt, wenn es nicht eingesetzt wurde.) |
+| value_if_true | Der Wert, der zurückgegeben werden soll, wenn das logical_test-Argument als TRUE ausgewertet wird. (Dieses Argument ist standardmäßig auf 0 gesetzt, wenn es nicht enthalten ist.) |
+| value_if_false | Der Wert, der zurückgegeben werden soll, wenn das logical_test-Argument FALSE ergibt. (Dieses Argument ist standardmäßig auf 0 gesetzt, wenn es nicht enthalten ist.) |
 
 
 ## Weniger als {#less-than}
@@ -761,7 +761,7 @@ Only available in CJA
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt den Korrelationskoeffizienten zurück.
+[!BADGE Tabelle]{type="Neutral"} Lineare Regression: Y = a X + b.  Gibt den Korrelationskoeffizienten zurück.
 
 
 | Argument | Beschreibung |
@@ -811,7 +811,7 @@ Only available in CJA
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Zeile]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt Y zurück.
+[!BADGE Reihe]{type="Neutral"} Lineare Regression: Y = a X + b. Gibt Y zurück.
 
 
 | Argument | Beschreibung |
@@ -873,13 +873,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Logarithmische Regression: Korrelationskoeffizient"
->abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt den Korrelationskoeffizienten zurück."
+>abstract="Logistische Regression: Y = a ln(X) + b. Gibt den Korrelationskoeffizienten zurück."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt den Korrelationskoeffizienten zurück.
+[!BADGE Tabelle]{type="Neutral"} Log-Regression: Y = a ln(X) + b. Gibt den Korrelationskoeffizienten zurück.
 
 | Argument | Beschreibung |
 |---|---|
@@ -895,13 +895,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
 >title="Logarithmische Regression: Schnittpunkt"
->abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt b zurück."
+>abstract="Logistische Regression: Y = a ln(X) + b. Gibt b zurück."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt b zurück.
+[!BADGE Tabelle]{type="Neutral"} Log-Regression: Y = a ln(X) + b. Gibt b zurück.
 
 | Argument | Beschreibung |
 |---|---|
@@ -918,13 +918,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
 >title="Logarithmische Regression: Vorhersage für Y"
->abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt Y zurück."
+>abstract="Logistische Regression: Y = a ln(X) + b. Gibt Y zurück."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt Y zurück.
+[!BADGE Zeile]{type="Neutral"} Protokollregression: Y = a ln(X) + b. Gibt Y zurück.
 
 | Argument | Beschreibung |
 |---|---|
@@ -941,13 +941,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
 >title="Logistische Regression: Steigung"
->abstract="Logarithmische Regression: Y = a ln(X) + b. Gibt a zurück."
+>abstract="Logistische Regression: Y = a ln(X) + b. Gibt a zurück."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"} Logarithmische Regression: Y = a ln(X) + b. Gibt a zurück.
+[!BADGE Tabelle]{type="Neutral"} Log-Regression: Y = a ln(X) + b. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|
@@ -995,7 +995,7 @@ Negation als boolescher Wert. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 | Argument | Beschreibung |
 |---|---|
-| logical | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| logical | Erforderlich. Ein Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
 
 
 
@@ -1045,7 +1045,7 @@ Ungleich. Die Ausgabe ist entweder 0 (False) oder 1 (True).
 
 | Argument | Beschreibung |
 |---|---|
-| logical_test | Erfordert mindestens einen Parameter, kann jedoch eine beliebige Anzahl von Parametern annehmen. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann. |
+| logical_test | Erfordert mindestens einen Parameter, kann jedoch eine beliebige Anzahl Parameter annehmen. Jeder Wert oder Ausdruck, der als TRUE oder FALSE ausgewertet werden kann |
 
 
 >[!NOTE]
@@ -1082,7 +1082,7 @@ Gibt Pi zurück: 3,14159...
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt den Korrelationskoeffizienten zurück.
+[!BADGE Tabelle]{type="Neutral"} Leistungsregression: Y = b X ^ a. Gibt den Korrelationskoeffizienten zurück.
 
 | Argument | Beschreibung |
 |---|---|
@@ -1106,7 +1106,7 @@ Gibt Pi zurück: 3,14159...
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabelle]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt b zurück.
+[!BADGE Tabelle]{type="Neutral"} Leistungsregression: Y = b X ^ a. Gibt b zurück.
 
 
 | Argument | Beschreibung |
@@ -1129,7 +1129,7 @@ Gibt Pi zurück: 3,14159...
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Zeile]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt Y zurück.
+[!BADGE Reihe]{type="Neutral"} Leistungsregression: Y = b X ^ a. Gibt Y zurück.
 
 | Argument | Beschreibung |
 |---|---|
@@ -1152,7 +1152,7 @@ Gibt Pi zurück: 3,14159...
 
 ![Effekt](/help/assets/icons/Effect.svg) **[!UICONTROL POWER REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabelle]{type="Neutral"} Potenzregression: Y = b X ^ a. Gibt a zurück.
+[!BADGE Tabelle]{type="Neutral"} Leistungsregression: Y = b X ^ a. Gibt a zurück.
 
 | Argument | Beschreibung |
 |---|---|

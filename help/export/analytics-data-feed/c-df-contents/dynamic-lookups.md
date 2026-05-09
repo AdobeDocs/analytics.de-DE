@@ -3,7 +3,7 @@ title: Dynamische Suchen
 description: Erfahren Sie, was dynamische Suchen sind und wie Sie sie aktivieren. Umfasst Provider, Attribute für Mobilgeräte und Betriebssystemtypen.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 20%
@@ -25,7 +25,7 @@ Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Aktivieren dynamischer Suchen"
->abstract="Wählen Sie diese Option aus, um zusätzliche Lookup-Dateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li>Betreibername</li><li>Mobile Attribute</li><li>Betriebssystemtyp</li></ul>"
+>abstract="Wählen Sie diese Option aus, um zusätzliche Lookup-Dateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li>Betreibername</li><li>Mobilattribute</li><li>Betriebssystemtyp</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

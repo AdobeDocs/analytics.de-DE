@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 83%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Textvisualisierung in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** beschrieben._<br/>_Unter [Text](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/text) finden Sie die Version dieses Artikels für_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird die Textvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Text](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/text)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
-Sie haben folgende Möglichkeiten:
-Um Ihrem Workspace-Projekt benutzerdefinierten Rich-Text hinzuzufügen, können Sie eine ![Text](/help/assets/icons/Text.svg) **[!UICONTROL Textvisualisierung]** oder Beschreibungen für eine Visualisierung und ein Bedienfeld verwenden.
+Sie können
+Um Ihrem Workspace-Projekt benutzerdefinierten Rich-Text hinzuzufügen, können Sie eine ![Text](/help/assets/icons/Text.svg) Visualisierung **[!UICONTROL Text]** oder Beschreibungen für eine Visualisierung und ein Panel verwenden.
 
 ## Verwenden
 

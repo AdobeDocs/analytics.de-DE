@@ -3,10 +3,10 @@ title: Verspätete Treffer
 description: Erfahren Sie, wie Daten-Feeds verspätete Treffer behandeln.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 41%
+source-wordcount: '317'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 ## Verstehen von spät eintreffenden Treffern
 
-Historische Daten können nach Abschluss der Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag eingehen, z. B. über Treffer mit Zeitstempel oder Datenquellen.
+Historische Daten können eingehen, nachdem die Verarbeitung eines Daten-Feed-Auftrags für eine bestimmte Stunde oder einen bestimmten Tag beendet wurde, z. B. über Treffer mit Zeitstempeln oder Datenquellen.
 
 Normalerweise werden bei der Datenverarbeitung eines Daten-Feeds nur Daten innerhalb des Berichtsfensters (in der Regel die letzte Stunde oder der letzte Tag) beachtet. Wenn Daten nach der Verarbeitung innerhalb dieses Berichtsfensters durch einen Feed eingehen, werden diese Daten in keinen Daten-Feed mehr aufgenommen.
 

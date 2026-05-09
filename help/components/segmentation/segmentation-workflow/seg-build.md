@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Segmente mithilfe von Drag-and-Drop von Metri
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 98%
+source-wordcount: '1870'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Produktkompatibilität"
->abstract="Eine geringe Anzahl der verfügbaren Segmentkriterien ist nicht mit allen Adobe Analytics-Tools kompatibel. Tools, die mit dem Segment kompatibel sind, werden in dieser Liste aufgeführt. Bearbeiten Sie die Kriterien, um ein Segment mit allen Adobe Analytics-Tools kompatibel zu machen."
+>abstract="Einige wenige verfügbare Segmentkriterien sind nicht mit allen Adobe Analytics-Tools kompatibel. Tools, die mit dem Segment kompatibel sind, sind in dieser Liste aufgeführt. Bearbeiten Sie die Kriterien, um ein Segment mit allen Adobe Analytics-Tools kompatibel zu machen."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -130,7 +130,7 @@ Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. So kö
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -319,7 +319,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -376,11 +376,11 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
  <tbody> 
   <tr> 
    <td colname="col1"> Warenkorb verlassen </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die Artikel zu ihrem Warenkorb hinzugefügt, aber nichts bestellt haben. In der Segmentdefinition ist der Container „Besuche“.  </td> 
+   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die Artikel zu ihrem Warenkorb hinzugefügt, aber nichts bestellt haben. In der Segmentdefinition ist der Container „Besuche“. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erstbesuche </td> 
-   <td colname="col2">Zeigen Sie Daten von Besuchern an, die maximal einmal [1] Mal besucht haben. In der Segmentdefinition ist der Container „Besuche“.  </p> </td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchern an, die maximal einmal [1] Mal besucht haben. In der Segmentdefinition ist der Container „Besuche“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nichtkaufende </td> 
@@ -388,11 +388,11 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
   </tr> 
   <tr> 
    <td colname="col1"> Nicht-Einzelseitenbesuche (Keine Absprünge) </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die mehr als einen Besuch durchgeführt haben. </p> </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die mehr als einen Besuch durchgeführt haben.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paid Search </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die über Paid Search kommen.   </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die über Paid Search kommen.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Kaufende </td> 
@@ -400,23 +400,23 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
   </tr> 
   <tr> 
    <td colname="col1"> Rückkehrende Besuchende </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die mindestens einen Besuch durchgeführt haben.   </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die mindestens einen Besuch durchgeführt haben.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Einzelseitenbesuche </td> 
-   <td colname="col2"> Daten zu Besuchen anzeigen, bei denen ein Einzelseitenwert vorliegt, auch wenn während des Besuchs mehrere Seitenansichten übermittelt werden. Einzelseitenbesuche mit Exitlink-Ereignissen werden in das Segment einbezogen.   </td> 
+   <td colname="col2"> Daten zu Besuchen anzeigen, bei denen ein Einzelseitenwert vorliegt, auch wenn während des Besuchs mehrere Seitenansichten übermittelt werden. Einzelseitenbesuche mit Exitlink-Ereignissen werden in das Segment einbezogen.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Angesehenes Produkt wurde nicht dem Warenkorb hinzugefügt </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Produkte angesehen, aber keine zum Warenkorb hinzugefügt haben.   </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Produkte angesehen, aber keine zum Warenkorb hinzugefügt haben.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Kampagnen </td> 
-   <td colname="col2">Daten zu Besuchenden aus Kampagnen anzeigen.  </td> 
+   <td colname="col2">Daten zu Besuchenden aus Kampagnen anzeigen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Mobilgeräten </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Mobilgeräte verwenden.  </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Mobilgeräte verwenden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche über eine natürliche Suche </td> 
@@ -440,7 +440,7 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Tablets </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Tablets verwenden. </td> 
+   <td colname="col2">Daten zu Besuchenden anzeigen, die Tablets verwenden.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche mit Besucher-ID-Cookie </td> 

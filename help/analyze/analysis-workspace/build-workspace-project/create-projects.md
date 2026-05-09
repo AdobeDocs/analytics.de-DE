@@ -4,10 +4,10 @@ title: Erstellen von Projekten
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 81%
+source-wordcount: '408'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Mit [Projekten](/help/analyze/analysis-workspace/build-workspace-project/freefor
 
 1. Wählen Sie **Leeres Workspace-Projekt** aus, um Ihr Workspace-Projekt mit einem Browser zu erstellen.
 
-   Weitere Informationen [&#x200B; Erstellen eines mobilen Scorecard](/help/analyze/mobile-app/curator.md)Projekts, das Sie mit einer mobilen App für andere Stakeholder freigeben können, finden Sie unter „Leere mobile Scorecard“.
+   Weitere Informationen zum Erstellen eines mobilen Scorecard-Projekts, das per App mit anderen Stakeholderinnen und Stakeholdern geteilt werden kann, finden Sie unter [Leere mobile Scorecard](/help/analyze/mobile-app/curator.md).
 
 1. Wählen Sie [!UICONTROL **Erstellen**] aus.
 
@@ -50,12 +50,12 @@ Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="Wiederholungsinstanzen zählen"
->abstract="Diese Einstellung legt fest, ob wiederholte Instanzen in Berichten gezählt werden sollen.<br/><br/>Hinweis: Diese Einstellung gilt nicht für Fluss- oder Fallout-Visualisierungen."
+>abstract="Gibt an, ob wiederholte Instanzen in Berichten gezählt werden.<br/><br/>Hinweis: Diese Einstellung gilt nicht für Fluss- oder Fallout-Visualisierungen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Wiederholungsinstanzen zählen"
->abstract="Diese Einstellung legt fest, ob wiederholte Instanzen in Berichten gezählt werden sollen.<br/>Hinweis: Diese Einstellung gilt nicht für Fluss- oder Fallout-Visualisierungen."
+>abstract="Gibt an, ob wiederholte Instanzen in Berichten gezählt werden.<br/>Hinweis: Diese Einstellung gilt nicht für Fluss- oder Fallout-Visualisierungen."
 
 
 >[!CONTEXTUALHELP]

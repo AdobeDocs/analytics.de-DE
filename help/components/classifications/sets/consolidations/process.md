@@ -3,9 +3,9 @@ title: Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 description: Erläutert, wie Klassifizierungskonsolidierungen erstellt, validiert, ausgeführt, genehmigt und abgebrochen werden.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '998'
 ht-degree: 10%
 
 ---
@@ -50,7 +50,7 @@ Nach dem Speichern wird eine Klassifizierungskonsolidierung automatisch für die
 
 Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 
-* [Überprüfen Sie &#x200B;](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
+* [Überprüfen Sie ](#re-validate) Klassifizierungskonsolidierung erneut, wenn Sie Änderungen an der ursprünglichen Konfiguration vorgenommen haben.
 * [Ausführen](#run) der Klassifizierungskonsolidierung.
 * [Genehmigen](#approve) die Klassifizierungskonsolidierung.
 
@@ -73,7 +73,7 @@ So bearbeiten Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hau
 1. Wählen **[!UICONTROL Klassifizierungssätze]** im Menü **[!UICONTROL Komponenten]** aus.
 1. Wählen **[!UICONTROL Manager „Klassifizierungssätze]** die Registerkarte **[!UICONTROL Konsolidierungen]** aus.
 1. Im **[!UICONTROL Konsolidierungs-Manager für Klassifizierungssätze]**:
-   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**&#x200B;wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
+   1. Wählen Sie den Namen Ihrer Klassifizierungskonsolidierung aus. Das **[!UICONTROL Konsolidierung: _Klassifizierungskonsolidierungsname_]**wird angezeigt. Das Erscheinungsbild und die verfügbaren Aktionen hängen vom aktuellen Status der Konsolidierung ab und davon, ob Sie noch die Möglichkeit haben, die Klassifizierungskonsolidierung zu ändern.
 
       | Verfügbare Aktionen | Beschreibung |
       |---|---|
@@ -127,7 +127,7 @@ So validieren Sie einen Klassifizierungssatz:
    * **[!UICONTROL Nicht]**: Der Prozentsatz der Zeilen, in denen die Schlüsselwerte nicht mit dem Quellklassifizierungssatz übereinstimmen. Wenn der Prozentsatz der Nicht-Übereinstimmung hoch ist, kann die Nicht-Übereinstimmung ein Hinweis darauf sein, dass die Klassifizierungsdaten zu unterschiedlich sind. Überprüfen Sie, ob die ausgewählten Klassifizierungssätze ähnliche Klassifizierungsdaten aufweisen.
    * **[!UICONTROL Absent]**: Der Prozentsatz der Zeilen, in denen sich Schlüsselwerte im Klassifizierungssatz ![Schlüssel](/help/assets/icons/Key.svg), aber nicht im Quellklassifizierungssatz befinden. Alle fehlenden Zeilen werden dem konsolidierten Klassifizierungssatz hinzugefügt.
 
-1. Wenn die Klassifizierungskonsolidierung zur Genehmigung bereit ist, wählen Sie ![Häkchen](/help/assets/icons/Checkmark.svg) **[!UICONTROL Genehmigen]**. Eine **[!UICONTROL Konsolidierung genehmigen?]** Dialogfeld fordert Sie zur Bestätigung auf. Wählen **[!UICONTROL Genehmigen]**, um die Konsolidierung zu genehmigen. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
+1. Wenn die Klassifizierungskonsolidierung zur Genehmigung bereit ist, wählen Sie ![Häkchen](/help/assets/icons/Checkmark.svg) **[!UICONTROL Genehmigen]**. Eine **[!UICONTROL Konsolidierung genehmigen?]** Das Dialogfeld fordert zur Bestätigung auf. Wählen **[!UICONTROL Genehmigen]**, um die Konsolidierung zu genehmigen. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
 Nach der Genehmigung wird der konsolidierte Klassifizierungssatz erstellt. Der Status ist auf &quot;**[!UICONTROL &quot;]**.
 
