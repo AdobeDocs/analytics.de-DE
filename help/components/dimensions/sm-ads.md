@@ -3,42 +3,48 @@ title: Streaming-Mediendienste und -Dimensionen
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/5d5RQ-2dkRD-R5U0iVyApP7WdCH2O1Rsk-qlPLYJm9c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 4%
+source-wordcount: 353
+ht-degree: 2%
 
 ---
 
 # Streaming-Mediendienste und -Dimensionen
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren. Unter [Metriken für Streaming-](../metrics/sm-ads.md)-Anzeigen“ finden Sie verfügbare Metriken.*
+Streaming-Medien-Services und -Dimensionen bieten zusätzliche Reporting-Funktionen für Daten, die über Streaming-Mediensammlungsbibliotheken erfasst werden. Für diese Dimensionen ist das **[!UICONTROL Add-on Adobe Analytics for Streaming Media]** erforderlich. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Streaming-Mediendienste und -Dimensionen bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediendienste-Bibliotheken. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+Um diese Dimensionen zu verwenden, aktivieren Sie **[!UICONTROL Media Ads]** unter [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) für die Report Suite.
 
-Wenn Sie **[!UICONTROL Media Ads]** unter [Media-Reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
+Die folgenden Dimensionen sind verfügbar:
 
-| Name der Dimension | Beschreibung | Gesendet mit | Kontextdatenvariable | XDM-Feld |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Anzeige]** | Die eindeutige Kennung der Anzeige. | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`name` | `xdm.mediaCollection.`<br>`advertisingDetails.name`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.name` |
-| **[!UICONTROL Anzeigename (Variable)]** | Der Anzeigename der Anzeige. Eine Classification-Dimension mit dem Namen [!UICONTROL Anzeigename] ist ebenfalls verfügbar und hat einen ähnlichen Zweck. Diese Dimension und die Klassifizierung werden als zwei verschiedene Dimensionen behandelt. | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`advertisingDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.friendlyName` |
-| **[!UICONTROL Player-Namen hinzufügen]** | Der Name des Players, der die Anzeige rendert. | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`playerName` | `xdm.mediaCollection.`<br>`advertisingDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.playerName` |
-| **[!UICONTROL Anzeigenlänge (variabel)]** | Die Länge der Videoanzeige in Sekunden. | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`length` | `xdm.mediaCollection.`<br>`advertisingDetails.length`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.length` |
-| **[!UICONTROL Anzeigen-Pod]** | Die eindeutige Kennung für den Anzeigen-Pod. | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`pod` | |
-| **[!UICONTROL Anzeige in Pod-Position]** | Die Indexposition der Anzeige innerhalb der übergeordneten Anzeigenunterbrechung (0-indiziert). | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`podPosition` | `xdm.mediaCollection.`<br>`advertisingDetails.podPosition`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.podPosition` |
-| **[!UICONTROL Advertiser]** | Das Unternehmen oder die Marke, die in der Anzeige zu sehen ist. | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`advertiser` | `xdm.mediaCollection.`<br>`advertisingDetails.advertiser`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.advertiser` |
-| **[!UICONTROL Kampagnen-ID]** | Die ID der Anzeigenkampagne | Anzeigenstart, Anzeigenschluss | `a.media.ad.`<br>`campaign` | `xdm.mediaCollection.`<br>`advertisingDetails.campaignID`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.campaignID` |
+* [[!UICONTROL Anzeige]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
+* [[!UICONTROL Anzeige in Pod-Position]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL Anzeigenlänge (variabel)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL Anzeigename (Variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL Player-Namen hinzufügen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL Anzeigen-Pod]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL Advertiser]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
+* [[!UICONTROL Kampagnen-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
 Zusätzlich zu den oben genannten Dimensionen erstellt Adobe automatisch die folgenden Klassifizierungsdimensionen. Sie müssen Klassifizierungsdaten hochladen, um Berichte anzuzeigen, die diese Dimensionen verwenden.
 
-| Klassifizierungsname | Übergeordnete Dimension | Beschreibung |
-| --- | --- | --- |
-| **[!UICONTROL Asset-ID]** | [[!UICONTROL Inhalt]](sm-core.md) | Die eindeutige Kennung für den Inhalt des Medien-Assets. Beispiele sind die Kennung der Fernsehserie, die Kennung des Film-Assets oder die Kennung des Live-Ereignisses. Diese IDs werden normalerweise von Metadatenbehörden wie EIDR, TMS/Gracenote, Rovi oder von anderen proprietären oder internen Systemen abgeleitet. |
-| **[!UICONTROL Inhaltsbewertung]** | [[!UICONTROL Inhalt]](sm-core.md) | Die Bewertung gemäß den Richtlinien für Eltern von TV. |
-| **[!UICONTROL Datum der Erstausstrahlung]** | [[!UICONTROL Inhalt]](sm-core.md) | Das Datum, an dem der Inhalt erstmals im Fernsehen ausgestrahlt wurde. Da es sich bei dieser Klassifizierungsdimension um eine Zeichenfolge handelt, ist jedes Datumsformat zulässig. Adobe empfiehlt die Verwendung eines konsistenten Datumsformats, z. B. `YYYY-MM-DD`. |
-| **[!UICONTROL Erstes digitales Datum]** | [[!UICONTROL Inhalt]](sm-core.md) | Das Datum, an dem der Inhalt auf einem digitalen Kanal oder einer digitalen Plattform erstmals ausgestrahlt wurde. Da es sich bei dieser Klassifizierungsdimension um eine Zeichenfolge handelt, ist jedes Datumsformat zulässig. Adobe empfiehlt die Verwendung eines konsistenten Datumsformats, z. B. `YYYY-MM-DD`. |
-| **[!UICONTROL Anzeigenlänge]** | [!UICONTROL Anzeige] | Die Länge der Videoanzeige in Sekunden. |
-| **[!UICONTROL Anzeigename]** | [!UICONTROL Anzeige] | Der Anzeigename der Anzeige. Dies entspricht der Klassifizierung von &quot;[!UICONTROL Anzeigename (Variable)]. |
-| **[!UICONTROL Creative-ID]** | [!UICONTROL Anzeige] | Die ID des Kreativinhalts der Anzeige. |
-| **[!UICONTROL Pod-Name]** | [!UICONTROL Anzeigen-Pod] | Der Anzeigename des Anzeigen-Pods. |
-| **[!UICONTROL Position des Pods]** | [!UICONTROL Anzeigen-Pod] | Der Versatz der Werbeunterbrechung innerhalb des Inhalts in Sekunden. |
+| Klassifizierungsname | Übergeordnete Dimension |
+| --- | --- |
+| [[!UICONTROL Asset-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Inhaltsbewertung]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Datum der Erstausstrahlung]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Erstes digitales Datum]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Anzeigenlänge]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Anzeige] |
+| [[!UICONTROL Anzeigename]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Anzeige] |
+| [[!UICONTROL Creative-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Anzeige] |
+| [[!UICONTROL Pod-Name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL Anzeigen-Pod] |
+| [[!UICONTROL Position des Pods]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL Anzeigen-Pod] |
+
+Siehe [Metriken für Streaming-Mediendienste und -](../metrics/sm-ads.md)) für die entsprechenden Metriken.

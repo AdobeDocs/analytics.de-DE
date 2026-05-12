@@ -3,21 +3,27 @@ title: Metadatenmetriken für Streaming-Mediendienste
 description: Verfügbare Metriken, wenn Sie [!UICONTROL Videometadaten] für eine Report Suite aktivieren.
 feature: Metrics
 exl-id: b2f60a34-e139-4498-bf71-74d291759ef2
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/AlgNtsbx-sVMyahYiZ9Nfqq-oUB91k5fRT5fj3jqiWY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 7%
+source-wordcount: 99
+ht-degree: 1%
 
 ---
 
 # Metadatenmetriken für Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Metriken beschrieben, wenn Sie [!UICONTROL Videometadaten] für eine Report Suite aktivieren. Siehe [Dimensionen für Streaming-Medien-Services](../dimensions/sm-video-metadata.md) für Videometadaten für verfügbare Dimensionen.*
+Metadatenmetriken für Streaming-Mediendienste bieten zusätzliche Berichtsfunktionen für Daten, die über Streaming-Mediensammlungsbibliotheken erfasst werden. Für diese Metriken ist das **[!UICONTROL Add-on Adobe Analytics for Streaming Media“]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Metadaten von Streaming-Mediendiensten bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediendienstbibliotheken. Für die Verwendung dieser Metriken ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+Um diese Metriken zu verwenden, aktivieren **[!UICONTROL Videometadaten]** unter [[!UICONTROL Medienberichte]](/help/admin/tools/manage-rs/edit-settings/media-management.md) für die Report Suite.
 
-Wenn Sie **[!UICONTROL Videometadaten]** unter [Medienberichte](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, ist die folgende Metrik verfügbar:
+Die folgende Metrik ist verfügbar:
 
-| Metrikname | Beschreibung | Gesendet mit | Kontextdatenvariable | XDM-Feld |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Autorisiert]** | Ein boolescher Wert, der Trigger wird, wenn der Benutzer über die Adobe-Authentifizierung autorisiert wird. | Medienstart, Medienschluss | `a.media.pass.auth` | `xdm.mediaCollection.`<br>`sessionDetails.authorized`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.authorized` |
+* [[!UICONTROL Autorisiert]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+
+Entsprechende Dimensionen finden [ unter ](../dimensions/sm-video-metadata.md) von Videometadaten für Streaming-Mediendienste .

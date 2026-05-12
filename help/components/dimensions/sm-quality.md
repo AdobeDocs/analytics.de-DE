@@ -3,29 +3,35 @@ title: Qualitätsdimensionen der Streaming-Mediendienste
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Medienqualität] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/AChqO3g-kV5i4h4nmYjFjEG68nFNhwDEs-fD77dDNrQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: 210
+ht-degree: 0%
 
 ---
 
 # Qualitätsdimensionen der Streaming-Mediendienste
 
-*Auf dieser Seite werden die verfügbaren Dimensionen beschrieben, wenn Sie [!UICONTROL Medienqualität] für eine Report Suite aktivieren. Unter [Qualitätsmetriken für Streaming](../metrics/sm-quality.md)Mediendienste) finden Sie verfügbare Metriken.*
+Qualitätsdimensionen von Streaming-Mediendiensten bieten Berichte in Bezug auf die Qualität der Inhalte, die der Besucher konsumiert. Für diese Dimensionen ist das **[!UICONTROL Add-on Adobe Analytics for Streaming Media]** erforderlich. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Qualitätsdimensionen von Streaming-Mediendiensten bieten Berichte in Bezug auf die Qualität der Inhalte, die der Besucher konsumiert. Für die Verwendung dieser Dimensionen ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+Um diese Dimensionen zu verwenden, aktivieren **[!UICONTROL Medienqualität]** unter [[!UICONTROL Medienberichte]](/help/admin/tools/manage-rs/edit-settings/media-management.md) für die Report Suite.
 
-Wenn Sie **[!UICONTROL Medienqualität]** unter [Medienberichte](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Dimensionen verfügbar:
+Die folgenden Dimensionen sind verfügbar:
 
-| Dimensionsname | Beschreibung | Gesendet mit | Kontextdatenvariable | XDM-Feld |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Durchschnittliche Bitrate]** | Die durchschnittliche Bitrate in Bucket-Intervallen von 100 Kbit/s. Er wird als gewichteter Durchschnitt aller Bitratenwerte in Bezug auf die Wiedergabedauer für eine bestimmte Wiedergabesitzung berechnet. | Schließen von Medien | `a.media.qoe.`<br>`bitrateAverageBucket` | `xdm.mediaCollection.`<br>`qoeDataDetails.`<br>`bitrate`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`bitrateAverageBucket` |
-| **[!UICONTROL Bitratenänderungen]** | Die Anzahl der Bitratenänderungen, die während einer Wiedergabesitzung aufgetreten sind. | Schließen von Medien | `a.media.qoe.`<br>`bitrateChangeCount` | `xdm.mediaCollection.`<br>`qoeDataDetails.`<br>`bitrateChangeCount`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`bitrateChangeCount` |
-| **[!UICONTROL Pufferereignisse]** | Die Häufigkeit, mit der der Media Player während einer Wiedergabesitzung in einen Pufferstatus übergegangen ist. | Schließen von Medien | `a.media.qoe.`<br>`bufferCount` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`bufferCount` |
-| **[!UICONTROL Gesamtdauer des Puffers]** | Die Gesamtdauer der Pufferung in Sekunden. | Schließen von Medien | `a.media.qoe.`<br>`bufferTime` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`bufferTime` |
-| **[!UICONTROL Dropped Frames]** | Die Gesamtzahl der ausgelassenen Frames, die während einer Wiedergabesitzung aufgetreten sind. | Schließen von Medien | `a.media.qoe.`<br>`droppedFrameCount` | `xdm.mediaCollection.`<br>`qoeDataDetails.`<br>`droppedFrames`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`droppedFrames` |
-| **[!UICONTROL Fehler]** | Die Gesamtzahl der Fehler, die während einer Wiedergabesitzung aufgetreten sind. | Schließen von Medien | `a.media.qoe.`<br>`errorCount` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`errorCount` |
-| **[!UICONTROL Externe Fehler-IDs]** | Alle eindeutigen Fehler-IDs von einer externen Quelle, z. B. CDN-Fehler. Sie müssen die gewünschten Fehler-Codes oder IDs angeben. Mehrere Fehler-IDs sind zulässig. | Schließen von Medien | `a.media.qoe.`<br>`externalErrors` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`externalErrors` |
-| **[!UICONTROL Player SDK-Fehler-IDs]** | Alle eindeutigen Fehler-IDs, die vom Content Player SDK generiert werden. Sie müssen die gewünschten Fehler-Codes oder IDs angeben. Mehrere Fehler-IDs sind zulässig. | Schließen von Medien | `a.media.qoe.`<br>`playerSdkErrors` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`playerSdkErrors` |
-| **[!UICONTROL Zeit bis zum Start]** | Dieser Wert ist standardmäßig auf `0` festgelegt, wenn er nicht über das QoSObject festgelegt wird. Legen Sie den Wert in Millisekunden fest. Analysis Workspace meldet diese Dimension in Sekunden. | Medienstart, Medienschluss | `a.media.qoe.`<br>`timeToStart` | `xdm.mediaCollection.`<br>`qoeDataDetails.`<br>`timeToStart`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`timeToStart` |
+* [[!UICONTROL Durchschnittliche Bitrate]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
+* [[!UICONTROL Bitratenänderungen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
+* [[!UICONTROL Pufferereignisse]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
+* [[!UICONTROL Gesamtdauer des Puffers]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
+* [[!UICONTROL Dropped Frames]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
+* [[!UICONTROL Fehler]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)
+* [[!UICONTROL Externe Fehler-IDs]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)
+* [[!UICONTROL Player SDK-Fehler-IDs]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
+* [[!UICONTROL Zeit bis zum Start]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)
+
+Siehe [Qualitätsmetriken für Streaming](../metrics/sm-quality.md)Mediendienste) für die entsprechenden Metriken.

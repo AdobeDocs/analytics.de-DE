@@ -3,24 +3,30 @@ title: Streaming-Mediendienste und -metriken
 description: Verfügbare Metriken bei Aktivierung von [!UICONTROL Media Ads] für eine Report Suite.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/I4CXBdLXx-dS1lZAVSfno-rbEkLKWxNccLwP58HSNzk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 6%
+source-wordcount: 140
+ht-degree: 0%
 
 ---
 
 # Streaming-Mediendienste und -metriken
 
-*Auf dieser Seite werden die verfügbaren Metriken beschrieben, wenn Sie [!UICONTROL Media Ads] für eine Report Suite aktivieren. Verfügbare Dimensionen finden [&#x200B; unter &quot;](../dimensions/sm-ads.md)-Dimensionen für Streaming-Mediendienste“*
+Streaming-Medien-Services und -Metriken bieten zusätzliche Reporting-Funktionen für Daten, die über Streaming-Mediensammlungsbibliotheken erfasst werden. Für diese Metriken ist das **[!UICONTROL Add-on Adobe Analytics for Streaming Media“]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
-Streaming-Mediendienste und -Metriken bieten zusätzliche Reporting-Funktionen für die Datenerfassung über Streaming-Mediendienste-Bibliotheken. Für die Verwendung dieser Metriken ist das Add **[!UICONTROL on Adobe Analytics for Streaming Media erforderlich]**. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+Um diese Metriken zu verwenden, aktivieren **[!UICONTROL Media Ads]** unter [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) für die Report Suite.
 
-Wenn Sie **[!UICONTROL Media Ads]** unter [Media-Reporting](/help/admin/tools/manage-rs/edit-settings/media-management.md) aktivieren, sind die folgenden Metriken verfügbar:
+Die folgenden Metriken sind verfügbar:
 
-| Metrikname | Beschreibung | Gesendet mit | Kontextdatenvariable | XDM-Feld |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Anzeige abgeschlossen]** | Wird ausgelöst, wenn eine Videoanzeige abgeschlossen wird. | Schließen hinzufügen | `a.media.ad.complete` | `xdm.mediaReporting.`<br>`advertisingDetails.isCompleted` |
-| **[!UICONTROL Anzeigenstarts]** | Wird ausgelöst, wenn eine Videoanzeige beginnt. | Werbung gestartet | `a.media.ad.view` | `xdm.mediaReporting.`<br>`advertisingDetails.isStarted` |
-| **[!UICONTROL Besuchszeit für Anzeige]** | Die Gesamtzeit in Sekunden, die mit dem Ansehen der Anzeige verbracht wurde. | Schließen hinzufügen | `a.media.ad.timePlayed` | `xdm.mediaReporting.`<br>`advertisingDetails.timePlayed` |
-| **[!UICONTROL Besuchszeit für Medien]** | Addiert die Ereignisdauer für alle &quot;[!UICONTROL &quot;-] (Haupt- und Anzeigeninhalte) in Sekunden. | Schließen von Medien | `a.media.totalTimePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.totalTimePlayed` |
+* [[!UICONTROL Anzeige abgeschlossen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL Anzeigenstarts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL Besuchszeit für Anzeige]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL Besuchszeit für Medien]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+
+Siehe [Dimensionen für Streaming](../dimensions/sm-ads.md)Mediendienste und Dimensionen“.

@@ -3,10 +3,15 @@ description: Adobe bietet verschiedene berechnete Metriken, die Sie verwenden k�
 title: Standardmäßige berechnete Metriken
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: 779
+ht-degree: 96%
 
 ---
 
@@ -22,7 +27,7 @@ Im Folgenden finden Sie eine Liste aller berechneten Metriken, die von Adobe ber
 >
 >Sie haben folgende Möglichkeiten:
 >
-> * Fügen Sie standardmäßige berechnete Metriken für Streaming-Mediendienste hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/calculated-metrics) beschrieben.
+> * Fügen Sie standardmäßige berechnete Metriken für Streaming-Mediendienste hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics) beschrieben.
 > * Erstellen Sie benutzerdefinierte berechnete Metriken aus vorhandenen Metriken, wie in [Berechnete und erweiterte berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) beschrieben.
 >
 
@@ -40,12 +45,12 @@ Im Folgenden finden Sie eine Liste aller berechneten Metriken, die von Adobe ber
 | App-Benutzende | Die Gesamtzahl der Personen, die eine mobile App verwenden. | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
 | Durchschnittliche Sitzungslänge (Mobil) | Die durchschnittliche Zeit, die Besuchende während einer einzelnen Sitzung auf der Site verbringen. | Leer |
 | Durchschnittliche Zeit auf der Site | Die durchschnittliche Zeit, die eine Person auf der Website verbringt, bevor sie die Website verlässt. | `[Average Time Spent on Site (Seconds)]` |
-| Absprungrate | Das Verhältnis der Besuche, die genau einen Treffer enthielten, im Vergleich zur Anzahl der Besuche auf dieser Seite. Diese Metrik kann Ihnen dabei helfen, zu verstehen, welche Dimensionselemente die höchste Bounce-Rate aufweisen, oder um eine aggregierte Gesamt-Bounce-Rate Ihrer Site im Laufe der Zeit anzuzeigen.  | `[Bounces] / [Entries]` |
+| Absprungrate | Das Verhältnis der Besuche, die genau einen Treffer enthielten, im Vergleich zur Anzahl der Besuche auf dieser Seite. Diese Metrik kann Ihnen dabei helfen, zu verstehen, welche Dimensionselemente die höchste Bounce-Rate aufweisen, oder um eine aggregierte Gesamt-Bounce-Rate Ihrer Site im Laufe der Zeit anzuzeigen. | `[Bounces] / [Entries]` |
 | Verhältnis von Bot-Seitenansichten | Das Verhältnis der Bot-Seitenansichten im Vergleich zur Gesamtzahl der Seitenansichten. | `[Bot Page Views] / [Page Views]` |
 | Inhaltsgeschwindigkeit | Die Geschwindigkeit, mit der neue Inhalte auf der Website erstellt und veröffentlicht werden, und wie schnell dadurch Benutzerinteraktionen generiert werden. | `[Page Views] / [Visits]` |
 | Konversionsrate | Der Prozentsatz der Besucherinnen und Besucher, die eine gewünschte Aktion durchgeführt haben, z. B. einen Kauf getätigt haben. | `[Orders] / [Visits]` |
 | Einstiegsrate | Der Prozentsatz der Besucherinnen und Besucher, die die Website über eine bestimmte Seite aufgerufen haben, verglichen mit der Gesamtzahl der Sitzungen auf der Website. | `[Entries] / [Visits]` |
-| Geschätzte Unique Visitors (ITP 2.1) | Teilen Sie bei ITP-Besucherinnen und -Besuchern (mit Safari-Browsern) die Unique Visitors durch 2 oder weniger. Bei dieser berechneten Metrik wird davon ausgegangen, dass Sie Cookies mithilfe von Client-seitigem JavaScript setzen (nicht mithilfe einer CNAME-Implementierung). Implementierungen, die Cookies mithilfe von Client-seitigem JavaScript setzen, waren ab ITP 2.1 betroffen. Weitere Informationen hierzu finden Sie unter [Intelligente Verfolgungsvermeidung](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Geschätzte Unique Visitors (ITP 2.1) | Teilen Sie bei ITP-Besucherinnen und -Besuchern (mit Safari-Browsern) die Unique Visitors durch 2 oder weniger. Bei dieser berechneten Metrik wird davon ausgegangen, dass Sie Cookies mithilfe von Client-seitigem JavaScript setzen (nicht mithilfe einer CNAME-Implementierung). Implementierungen, die Cookies mithilfe der Client-seitigen JavaScript setzen, waren ab ITP 2.1 betroffen. Einzelheiten finden [ unter „Intelligente Tracking](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)Prävention“. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID-Abdeckung | Die Anzahl der Besucherinnen und Besucher mit einer Experience Cloud-ID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Ausstiegsrate | Der Prozentsatz der Besucherinnen und Besucher, die die Website nach dem Anzeigen einer bestimmten Seite verlassen. | `[Exits] / [Visits]` |
 | Unique Visitors (ITP 2.1) / Unique Visitors | Der Prozentsatz der Unique Visitors, die einen Browser verwenden, der von den Einschränkungen der ITP 2.1-Cookies betroffen ist. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
