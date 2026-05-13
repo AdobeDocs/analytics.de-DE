@@ -5,10 +5,15 @@ title: Dimensionen aufschlüsseln
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/GJZSzrey1b6zlmZzO9weS-BimDXtIuWcBV4L6zJEoiY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 55%
+source-wordcount: 595
+ht-degree: 58%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 55%
 
 Sie können Ihre Daten in Analysis Workspace für Ihre spezifischen Anforderungen unbegrenzt aufschlüsseln. Erstellen Sie Abfragen mithilfe relevanter Metriken, Dimensionen, Segmente, Zeitachsen und anderer Aufschlüsselungswerte für die Analyse.
 
-1. Wählen [&#x200B; in einer &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) aus dem Kontextmenü einer oder mehrerer ausgewählter Zeilen **[!UICONTROL Aufschlüsselung]** ![ChevronRight](/help/assets/icons/ChevronRight.svg).
+1. Wählen [ in einer ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) aus dem Kontextmenü einer oder mehrerer ausgewählter Zeilen **[!UICONTROL Aufschlüsselung]** ![ChevronRight](/help/assets/icons/ChevronRight.svg).
 
    ![Schrittergebnis, das die Option Warnhinweis aus Auswahl erstellen anzeigt.](assets/breakdown.png)
 
@@ -30,9 +35,9 @@ Sie können Metriken nach Dimensionselementen oder Zielgruppensegmenten über au
 
 ## Aufschlüsselung nach Position
 
-Standardmäßig sind Aufschlüsselungen an statische Zeilenelemente gebunden. Angenommen, Sie schlüsseln die drei oberen Elemente der Dimension „Seite“ (Startseite, Suchergebnisse, Checkout) nach Marketing-Kanälen auf. Dann verlassen Sie das Projekt und kehren zwei Wochen später zurück. Beim erneuten Öffnen des Projekts haben sich die drei oberen Seiten geändert, und jetzt sind Startseite, Suchergebnisse und Checkout stattdessen die oberen Seiten vier bis sechs. Standardmäßig werden Ihre Aufschlüsselungen des Marketing-Kanals weiterhin unter Startseite, Suchergebnisse und Checkout angezeigt, auch wenn sie sich jetzt in den Zeilen 4-6 befinden.
+Standardmäßig sind Aufschlüsselungen an statische Zeilenelemente gebunden. Angenommen, Sie schlüsseln die drei oberen Elemente der Dimension „Seite“ (Startseite, Suchergebnisse, Checkout) nach Marketing-Kanälen auf. Dann verlassen Sie das Projekt und kehren zwei Wochen später zurück. Beim erneuten Öffnen des Projekts haben sich die drei oberen Seiten geändert, und jetzt sind Startseite, Suchergebnisse und Checkout stattdessen die oberen Seiten vier bis sechs. Standardmäßig werden Ihre Aufschlüsselungen der Marketing-Kanäle weiterhin unter „Startseite“, „Suchergebnisse“ und „Checkout“ angezeigt, auch wenn sie sich jetzt in den Zeilen 4–6 befinden.
 
-Im Gegensatz dazu werden **Aufschlüsselung nach Position** immer die drei obersten Elemente aufgeschlüsselt, unabhängig davon, was diese Elemente sind. Wenn Sie auf das Beispiel zurückgreifen, werden die Aufschlüsselungen des Marketing-Kanals beim erneuten Öffnen des Projekts an die drei obersten Seiten der Tabelle gebunden. Und nicht zu Homepage, Suchergebnissen und Checkout, die sich jetzt in den Zeilen 4-6 befinden. Siehe [Zeileneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) wie Sie diese Einstellung konfigurieren.
+Im Gegensatz dazu werden **Aufschlüsselung nach Position** immer die drei obersten Elemente aufgeschlüsselt, unabhängig davon, was diese Elemente sind. Wenn Sie auf das Beispiel zurückgreifen, werden die Aufschlüsselungen des Marketing-Kanals beim erneuten Öffnen des Projekts an die drei obersten Seiten der Tabelle gebunden. Und nicht an „Startseite“, „Suchergebnisse“ und „Checkout“, die sich jetzt in den Zeilen 4–6 befinden. Siehe [Zeileneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) wie Sie diese Einstellung konfigurieren.
 
 
 
@@ -52,7 +57,7 @@ Dies ist das erwartete Verhalten, wenn Attributionsmodelle auf Aufschlüsselunge
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/41371?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 
 >[!ENDSHADEBOX]
@@ -60,7 +65,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in A
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aufschlüsselungen nach Dimension](https://video.tv.adobe.com/v/327336?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aufschlüsselungen nach Dimension](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 
 >[!ENDSHADEBOX]
@@ -68,7 +73,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aufschlüsselu
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von Dimensionen und &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen von Dimensionen und ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}) für ein Demovideo.
 
 
 >[!ENDSHADEBOX]
@@ -76,7 +81,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hinzufügen vo
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeiten mit Dimensionen in einer Freiformtabelle](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeiten mit Dimensionen in einer Freiformtabelle](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} für ein Demovideo.
 
 
 >[!ENDSHADEBOX]
@@ -84,7 +89,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Arbeiten mit D
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aufschlüsselung der Dimension nach Position](https://video.tv.adobe.com/v/327411?captions=ger){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aufschlüsselung der Dimension nach Position](https://video.tv.adobe.com/v/24033){target="_blank"} für ein Demovideo.
 
 
 >[!ENDSHADEBOX]
@@ -128,7 +133,7 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -136,14 +141,14 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimension
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/327411?captions=ger&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

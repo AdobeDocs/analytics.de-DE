@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und Exportkonten
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
+TQID: https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 66%
+source-wordcount: 1763
+ht-degree: 69%
 
 ---
 
@@ -33,7 +38,7 @@ Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Sta
 ## Erstellen oder Bearbeiten eines Kontos über die Seite Konten .
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
-1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standortkonten**] aus.
+1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standortkonten**] aus.
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Konten für alle Benutzer anzeigen**] aktivieren, um Konten anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Konten für alle Benutzer anzeigen](assets/accounts-all-users.png)
 1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**] aus.
@@ -67,7 +72,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    **Kontotypen**
 
-   +++Amazon S3 Role ARN
+   +++Amazon S3-Rollen-ARN
 
    **HINWEIS:** Bei Verwendung von Amazon S3 mit Daten-Feeds und Data Warehouse wird nur die SSE-S3-Verschlüsselung unterstützt.
 
@@ -101,7 +106,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
    |---------|----------|
    | [!UICONTROL **Anwendungs-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **Mandanten-ID**] | Kopieren Sie diese ID aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Übersicht** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Key Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu gewähren. Weitere Informationen finden Sie unter [Microsoft Azure-Dokumentation für die Zuweisung einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **Key Vault-URI**] | <p>Der Pfad zum SAS-Token im Azure Key Vault.  Um Azure SAS zu konfigurieren, müssen Sie ein SAS-Token mithilfe des Azure Key Vault als Geheimnis speichern. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Nachdem der Key Vault-URI erstellt wurde, fügen Sie im Key Vault eine Zugriffsrichtlinie hinzu, um der von Ihnen erstellten Azure-Anwendung Berechtigungen zu gewähren. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Zuweisen einer Key Vault-Zugriffsrichtlinie](https://learn.microsoft.com/de-de/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
    | [!UICONTROL **Key Vault-Geheimnisname**] | Der Geheimnisname, den Sie beim Hinzufügen des Geheimnisses zum Azure Key Vault erstellt haben. In Microsoft Azure befinden sich diese Informationen im von Ihnen erstellten Key Vault auf den **Key Vault**-Einstellungsseiten. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zum Einrichten und Abrufen eines Geheimnisses aus Azure Key Vault](https://learn.microsoft.com/de-de/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Geheimnis des Speicherort-Kontos**] | Kopieren Sie das Geheimnis aus der von Ihnen erstellten Azure-Anwendung. In Microsoft Azure befinden sich diese Informationen auf der Registerkarte **Zertifikate und Geheimnisse** in Ihrer Anwendung. Weitere Informationen finden Sie in der [Microsoft Azure-Dokumentation zur Registrierung einer Anwendung bei der Microsoft Identity Platform](https://learn.microsoft.com/de-de/azure/active-directory/develop/quickstart-register-app). |
 
@@ -127,7 +132,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    >[!NOTE]
    >
-   >E-Mail-Konten können nur mit [Data Warehouse verwendet &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
+   >E-Mail-Konten können nur mit [Data Warehouse verwendet ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
 
    Geben Sie die folgenden Informationen an, um ein Azure RBAC-Konto zu konfigurieren:
 
@@ -141,7 +146,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    **Legacy-Kontotypen**
 
-   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht &#x200B;](/help/components/classifications/sets/manage/schema.md).
+   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht ](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
@@ -182,9 +187,9 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
-   * s3:GetObject
-   * s3:PutObject
-   * s3:PutObjectAcl
+   * S3:GetObject
+   * S3:PutObject
+   * S3:PutObjectAcl
 
    Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 

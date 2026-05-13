@@ -1,9 +1,16 @@
 ---
 title: Überlegungen zur Migration des Besucher-ID-Service für Adobe Analytics
 description: Ein Überblick darüber, wie Adobe Analytics mit dem Besucher-ID-Service verbunden ist.
-source-git-commit: f682f9c8533536e9b33f320f2a420055c6f4e397
+exl-id: da1f9917-5254-41fb-9e2c-c94f66a22360
+TQID: https://experienceleague.adobe.com/NnZ-Vv2M5cWkfekbVX1B-dFesdtxy50fMdTlwPYviYQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ Wenn Ihr Unternehmen plant, mit einer bestehenden Analytics-Implementierung zum 
 Da AppMeasurement über eine eigene Methode zur Besucheridentifizierung verfügt, verfügen manche Besucher möglicherweise über veraltete Analytics-Cookies, wenn ein Unternehmen den Besucher-ID-Dienst bereitstellt. In der folgenden Liste wird beschrieben, wie ein Besucher unter verschiedenen Umständen identifiziert wird.
 
 * **Keine Besucher-Cookies vorhanden**: Der ID-Service weist eine Experience Cloud-ID zu (`mid`).
-* **Ein `s_vi` Cookie ist vorhanden**: Der ID-Service schreibt zusätzlich zu einer Experience Cloud-ID (`aid`) die vorhandene veraltete Analytics-ID (`AMCV`) in das `mid`-Cookie. Da `aid` in der Reihenfolge [&#x200B; Vorgänge höher liegt, &#x200B;](overview.md) die alte Analytics-ID die Besucherkennung, bis das `AMCV`-Cookie abläuft oder gelöscht wird. Wenn eine Nachfrist aktiviert ist, enthält der ID-Service in seiner Antwort sowohl die `mid` als auch die `aid`.
+* **Ein `s_vi` Cookie ist vorhanden**: Der ID-Service schreibt zusätzlich zu einer Experience Cloud-ID (`mid`) die vorhandene veraltete Analytics-ID (`aid`) in das `AMCV`-Cookie. Da `aid` in der Reihenfolge [ Vorgänge höher liegt, ](overview.md) die alte Analytics-ID die Besucherkennung, bis das `AMCV`-Cookie abläuft oder gelöscht wird. Wenn eine Nachfrist aktiviert ist, enthält der ID-Service in seiner Antwort sowohl die `mid` als auch die `aid`.
 * **Es ist ein Ausweich-Cookie vorhanden**: Der ID-Service schreibt das Ausweich-Cookie (`fid`) nicht in das `AMCV`-Cookie. Stattdessen erhalten Besuchende eine Experience Cloud-ID (`mid`), als ob sie neue Besuchende wären.
 
 ## Übergangsphase für den Besucher-ID-Service
@@ -34,8 +41,8 @@ Wenn Sie die Bereitstellung des Besucher-ID-Service für alle Bereiche Ihrer Sit
 
 Einige ältere Implementierungen der Analytics-Besucher-ID verwenden möglicherweise „benutzerfreundliche Drittanbieter-Cookies“, bei denen zwei Domains dasselbe Besucher-Cookie in einer gemeinsamen Domain wie `data.example.com` teilen. Da es sich bei benutzerfreundlichen Third-Party-Cookies weiterhin um Third-Party-Cookies handelt, werden sie von vielen modernen Browsern zurückgewiesen, sodass Analytics zur Besucheridentifizierung eine Fallback-ID (`fid`) verwenden muss. Der Wechsel zum ID-Service ermöglicht es allen Domains, das `AMCV`-Cookie in einem First-Party-Kontext zu setzen, was ihre Lebensfähigkeit zur Beibehaltung einer Besucher-ID erhöht.
 
-Während der Besucher-ID-Dienst versucht, ein Drittanbieter-Cookie für domänenübergreifendes Tracking (das [`demdex`-Cookie) &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/intro/cookies) setzen, wird es von modernen Browsern häufig abgelehnt. Erwägen Sie die Verwendung der [`appendVisitorIDsTo`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/appendvisitorid)-Methode, um die Experience Cloud-ID (`mid`) eines Besuchers zwischen Domains zu übergeben, deren Inhaber Sie sind.
+Während der Besucher-ID-Dienst versucht, ein Drittanbieter-Cookie für domänenübergreifendes Tracking (das [`demdex`-Cookie) ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies) setzen, wird es von modernen Browsern häufig abgelehnt. Erwägen Sie die Verwendung der [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid)-Methode, um die Experience Cloud-ID (`mid`) eines Besuchers zwischen Domains zu übergeben, deren Inhaber Sie sind.
 
 ## Server-seitiges Tracking
 
-Sie können [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getmcvid) aufrufen, um die Experience Cloud-ID (`mid`) und [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid), um die Legacy-Analytics-ID (`aid`) zu erhalten. Adobe empfiehlt, nach beiden zu suchen, um die Logik der Besucheridentifizierung beizubehalten.
+Sie können [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) aufrufen, um die Experience Cloud-ID (`mid`) und [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid), um die Legacy-Analytics-ID (`aid`) zu erhalten. Adobe empfiehlt, nach beiden zu suchen, um die Logik der Besucheridentifizierung beizubehalten.

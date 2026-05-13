@@ -3,9 +3,14 @@ description: Erfahren Sie, wie Sie einzelne Metriken segmentieren, sodass Sie Me
 title: Segmentierte Metriken
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/t1HtjinGP02YSBQk1Z95t6wIQ0OhuFb14GKfpd8Y9Eg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: 463
 ht-degree: 1%
 
 ---
@@ -29,8 +34,8 @@ In den folgenden Abschnitten erfahren Sie, wie Sie mithilfe segmentierter Metrik
 
 ## Beliebte Seiten
 
-1. [Erstellen Sie eine berechnete &#x200B;](../cm-workflow.md) aus einem Workspace-Projekt namens `Germany`.
-1. Erstellen Sie im [Generator für berechnete &#x200B;](cm-build-metrics.md) [&#x200B; ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
+1. [Erstellen Sie eine berechnete ](../cm-workflow.md) aus einem Workspace-Projekt namens `Germany`.
+1. Erstellen Sie im [Generator für berechnete ](cm-build-metrics.md)[ ein Segment](/help/components/segmentation/segmentation-workflow/seg-build.md) mit dem Titel &quot;`Germany`&quot;, das das Feld „Länder“ verwendet.
 
    >[!TIP]
    >

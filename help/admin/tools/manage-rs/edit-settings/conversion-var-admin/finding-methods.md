@@ -1,19 +1,24 @@
 ---
-description: Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
+description: Auf der Seite „Suchmethoden“ wird angegeben, wie verschiedenen Suchmethodenberichten Konversionserfolgsereignisse auf Ihrer Site angerechnet werden. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Website verweist, der einen Kauf tätigt, geben die Suchmethoden an, wie die Suchmaschine die Gutschrift für die Empfehlung erhält.
 title: Suchmethoden
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 48%
 
 ---
 
 # Suchmethoden
 
-Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-Berichte Gutschriften für Konversionserfolgsereignisse auf Ihrer Site erhalten. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Site lotst und der Besucher auf Ihrer Site einen Einkauf tätigt, ist unter „Suchmethoden“ festgelegt, wie der Suchmaschine der Verweis gutgeschrieben wird.
+Auf der Seite „Suchmethoden“ wird angegeben, wie verschiedenen Suchmethodenberichten Konversionserfolgsereignisse auf Ihrer Site angerechnet werden. Wenn beispielsweise eine Suchmaschine einen Besucher auf Ihre Website verweist, der einen Kauf tätigt, geben die Suchmethoden an, wie die Suchmaschine die Gutschrift für die Empfehlung erhält.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Konversion]** > **[!UICONTROL Suchmethoden]**
 
@@ -29,11 +34,11 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
  <tbody> 
   <tr> 
    <td colname="col1"> Name </td> 
-   <td colname="col2"> Die zu ändernde Suchmethode </td> 
+   <td colname="col2"> Die Suchmethode, die Sie ändern möchten </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Zuordnung </td> 
-   <td colname="col2"> Gibt an, wie eine Gutschrift für einen Verweis angewendet werden soll. Die unterstützten Optionen für die Zuordnung umfassen: <p> <span class="uicontrol"> Zuletzt verwendet (Letzter):</span> Alle Gutschriften gehen an die letzte verweisende Stelle (Standard). </p> <p> <span class="uicontrol"> Ausgangswert:</span> Alle Gutschriften gehen an die erste verweisende Stelle. </p> <p> <span class="uicontrol"> Linear:</span> Gutschriften werden gleichberechtigt an alle verweisenden Stellen verteilt. </p> </td> 
+   <td colname="col2"> Gibt an, wie eine Gutschrift für eine Empfehlung zugewiesen wird. Zu den unterstützten Zuordnungsoptionen gehören: <p> <span class="uicontrol"> Zuletzt verwendet (Letzter):</span> Alle Gutschriften gehen an die letzte verweisende Stelle (Standard). </p> <p> <span class="uicontrol"> Ausgangswert:</span> Alle Gutschriften gehen an die erste verweisende Stelle. </p> <p> <span class="uicontrol"> Linear:</span> Gutschriften werden gleichberechtigt an alle verweisenden Stellen verteilt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Läuft ab nach </td> 
@@ -56,4 +61,4 @@ Auf der Seite „Suchmethoden“ wird ermittelt, wie verschiedene Suchmethoden-B
 
 >[!NOTE]
 >
->Alle Suchmethoden laufen mit dem Ende des Besuchs ab. Wenn Sie für „Läuft ab nach“ ein anderes Ereignis auswählen (z. B. „Warenkorb zur Kasse“), läuft die Suchmethode ab, wenn dieses Ereignis während des Besuchs erfolgt. Wenn „Warenkorb zur Kasse“ nicht während des Besuchs erfolgt, läuft die Suchmethode trotzdem mit dem Besuch ab.
+>Alle Suchmethoden laufen mit dem Ende des Besuchs ab. Wenn Sie sich für einen Ablauf nach einem anderen Ereignis entscheiden (z. B. Warenkorb-Checkout), läuft die Suchmethode ab, wenn der Warenkorb-Checkout während des Besuchs stattfindet. Wenn während des Besuchs kein Warenkorb-Checkout erfolgt, läuft die Suchmethode dennoch ab, wenn der Besuch endet.

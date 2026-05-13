@@ -4,9 +4,13 @@ title: Filtern und Sortieren
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: 1585
 ht-degree: 51%
 
 ---
@@ -139,7 +143,7 @@ Standardmäßig werden Dimensionen in aufsteigender Reihenfolge und Metriken in 
 
 ## Sortieren von Tabellen nach einer Spalte
 
-Wenn Sie Daten für eine einzelne Spalte sortieren, wie in diesem Abschnitt beschrieben, werden alle [erweiterten &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting)) entfernt, die auf die Tabelle angewendet werden.
+Wenn Sie Daten für eine einzelne Spalte sortieren, wie in diesem Abschnitt beschrieben, werden alle [erweiterten ](#sort-tables-by-multiple-columns-advanced-sorting)) entfernt, die auf die Tabelle angewendet werden.
 
 So sortieren Sie Daten in Tabellen nach einer Spalte:
 
@@ -169,7 +173,7 @@ So sortieren Sie Daten in Tabellen nach mehreren Spalten:
 
    * Fügen Sie Spalten hinzu, die noch nicht sortiert werden, indem Sie die Schaltfläche **[!UICONTROL Sortierspalte hinzufügen]** auswählen.
 
-   * Entfernen Sie Spalten, die Sie nicht mehr sortieren möchten, indem Sie das Symbol **Entfernen** (![) &#x200B;](/help/assets/icons/Close.svg).
+   * Entfernen Sie Spalten, die Sie nicht mehr sortieren möchten, indem Sie das Symbol **Entfernen** (![) ](/help/assets/icons/Close.svg).
 
    * Ziehen Sie Spalten in der Liste nach oben oder unten, um die Sortierpriorität anzupassen.
 

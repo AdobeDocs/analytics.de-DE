@@ -3,10 +3,16 @@ description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige
 title: Unterklassifizierungen
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 97%
+source-wordcount: 682
+ht-degree: 40%
 
 ---
 
@@ -24,7 +30,7 @@ Beispiel:
 
 ![](../assets/single-level-popup-C.png)
 
-Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen Unterbericht für die ausgewählte Berichterstellungsvariable. Darüber hinaus stellt jede Classification eine Datenspalte in der Datendatei dar, wobei der Classification-Name als Spaltenüberschrift dient. Beispiel:
+Jede Klassifizierung in diesem Modell ist unabhängig und entspricht einem neuen Unterbericht für die ausgewählte Berichtsvariable. Darüber hinaus stellt jede Klassifizierung eine Datenspalte in der Datendatei dar, wobei der Klassifizierungsname als Spaltenüberschrift dient. Beispiel:
 
 | SCHLÜSSEL | EIGENSCHAFT 1 | EIGENSCHAFT 2 |
 |---|---|---|
@@ -33,15 +39,15 @@ Jede Classification in diesem Modell ist unabhängig und entspricht einem neuen 
 
 Weitere Informationen zum Datendateiformat finden Sie unter [Klassifizierungsdatendateien](/help/components/classifications/importer/c-saint-data-files.md).
 
-Mehrstufige Classifications bestehen aus über- und untergeordneten Classifications. Beispiel:
+Klassifizierungen auf mehreren Ebenen bestehen aus übergeordneten und untergeordneten Klassifizierungen. Beispiel:
 
 ![](../assets/Multi-Level-Class-popup.png)
 
 **Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Classification kann gleichzeitig über- und untergeordnet sein. Die übergeordneten Klassifizierungen der obersten Ebene entsprechen einstufigen Klassifizierungen.
 
-**Untergeordnete Classifications:** Als untergeordnete Classification gilt jede Classification, der eine andere Classification anstelle der Variablen übergeordnet ist. Untergeordnete Classifications enthalten zusätzliche Informationen über ihre übergeordnete Classification. Beispielsweise könnte einer [!UICONTROL Kampagnen]-Classification eine Kampagnenverantwortlichen-Classification untergeordnet sein. [!UICONTROL Nummerische] Classifications fungieren auch als Metriken in Classification-Berichten.
+**Untergeordnete Classifications:** Als untergeordnete Classification gilt jede Classification, der eine andere Classification anstelle der Variablen übergeordnet ist. Untergeordnete Klassifizierungen bieten zusätzliche Informationen zu ihrer übergeordneten Klassifizierung. Beispielsweise könnte eine Klassifizierung [!UICONTROL Kampagnen] eine untergeordnete Klassifizierung Kampagnenverantwortlicher enthalten. [!UICONTROL Numerisch] Classifications fungieren auch als Metriken in Classification-Berichten.
 
-Jede Classification, ob über- oder untergeordnet, stellt eine Datenspalte in der Datendatei dar. Die Spaltenüberschrift für eine untergeordnete Classification nutzt das folgende Namensformat.
+Jede Klassifizierung, ob übergeordnet oder untergeordnet, bildet eine Datenspalte in der Datendatei. Die Spaltenüberschrift für eine untergeordnete Classification, die das folgende Benennungsformat verwendet:
 
 `<parent_name>^<child_name>`
 
@@ -54,7 +60,7 @@ Beispiel:
 | 123 | ABC | Grün | Klein | A12B |
 | 456 | DEF | Rot | Groß | C3D4 |
 
-Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, liegt der Vorteil mehrstufiger Classifications darin, dass einzelne Stufen als einzelne Dateien hochgeladen werden können. Dieser Ansatz sorgt für eine Minimierung der Datenmenge, die regelmäßig hochgeladen werden muss (täglich, wöchentlich usw.), indem Daten in Classification-Stufen gruppiert werden, die sich mit der Zeit ändern, im Gegensatz zu solchen, die das nicht tun.
+Obwohl die Dateivorlage für eine mehrstufige Klassifizierung komplexer ist, bieten mehrstufige Klassifizierungen die Möglichkeit, separate Ebenen als separate Dateien hochzuladen. Dieser Ansatz kann verwendet werden, um die Datenmenge zu minimieren, die regelmäßig (täglich, wöchentlich usw.) hochgeladen werden muss, indem Daten in Klassifizierungsebenen gruppiert werden, die sich im Laufe der Zeit ändern, im Vergleich zu denen, die dies nicht tun.
 
 >[!NOTE]
 >
@@ -66,30 +72,30 @@ Obwohl die Dateivorlage für eine mehrstufige Classification komplexer ist, lieg
 
 >[!NOTE]
 >
->Die Produkt-Classification-Daten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten sind nicht darauf beschränkt, wie die Produkte kategorisiert sind oder auf der Website zum Verkauf angeboten werden. Datenelemente wie Verkaufskategorien, Website-Browserknoten oder Verkaufselemente sind keine Produkt-Classification-Daten. Diese Elemente werden stattdessen in Berichtskonversionsvariablen erfasst.
+>Die Produkt-Classification-Daten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten beschränken sich nicht auf die Kategorisierung oder den Verkauf der Produkte auf der Website. Datenelemente wie Verkaufskategorien, Site-Browse-Knoten oder Verkaufsartikel sind keine Produktklassifizierungsdaten. Stattdessen werden diese Elemente in Berichtskonversionsvariablen erfasst.
 
-Beim Hochladen von Datendateien für diese Produkt-Classification können Sie die Classification-Daten wahlweise als einzelne Datei oder in mehreren Dateien hochladen (siehe unten). Durch das Aufteilen des Farbcodes in Datei 1 und des Farbnamens in Datei 2 müssen die Farbnamensdaten (die möglicherweise nur ein paar Zeilen umfassen) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dies schließt das Farbnamenfeld (CODE^FARBE) aus der häufiger aktualisierten Datei 1 aus und verringert damit Dateigröße und Komplexität beim Generieren der Datendatei.
+Beim Hochladen von Datendateien für diese Produktklassifizierung können Sie die Klassifizierungsdaten als einzelne Datei oder als mehrere Dateien hochladen (siehe unten). Durch die Trennung des Farbcodes in Datei 1 vom Farbnamen in Datei 2 müssen die Farbnamendaten (die nur einige Zeilen umfassen können) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dadurch wird das Feld „Farbname (CODE^COLOR)“ aus der häufiger aktualisierten Datei 1 entfernt und die Dateigröße und -komplexität bei der Erstellung der Datendatei reduziert.
 
 ### Produkt-Classification – Einzeldatei {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE | CODE^FARBE |
+| SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE | CODE^COLOR |
 |---|---|---|---|---|---|---|
-| 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | M | M | 01 | Stein |
-| 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 | Heather |
-| 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 | Aqua |
+| 410390013 | POLO-SS | Herren Poloshirt, Kurzarm (M,01) | M | M | 01 | Stein |
+| 410390014 | POLO-SS | Herren Poloshirt, Kurzarm (L,03) | M | L | 03 | Heide |
+| 410390015 | Polo-LS | Poloshirt für Damen, Langarm (S,23) | F | S | 23 | Aqua |
 
 ### Produkt-Classification – Mehrere Dateien (Datei 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE |
 |---|---|---|---|---|---|
-| 410390013 | Polo-SS | Herren-Poloshirt – Kurzarm (M,01) | M | M | 01 |
-| 410390014 | Polo-SS | Herren-Poloshirt – Kurzarm (L,03) | M | L | 03 |
-| 410390015 | Polo-LS | Damen-Poloshirt – Langarm (S,23) | F | S | 23 |
+| 410390013 | POLO-SS | Herren Poloshirt, Kurzarm (M,01) | M | M | 01 |
+| 410390014 | POLO-SS | Herren Poloshirt, Kurzarm (L,03) | M | L | 03 |
+| 410390015 | Polo-LS | Poloshirt für Damen, Langarm (S,23) | F | S | 23 |
 
 ### Produkt-Classification – Mehrere Dateien (Datei 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| SCHLÜSSEL | CODE | CODE^FARBE |
+| SCHLÜSSEL | CODE | CODE^COLOR |
 |---|---|---|
 | &#42; | 01 | Stein |
-| &#42; | 03 | Heather |
+| &#42; | 03 | Heide |
 | &#42; | 23 | Aqua |

@@ -4,10 +4,15 @@ title: Anomalien anzeigen
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/FFrOBGUYdaBiIzutrZNlcKcLD8jUiT2aCpGd252rVlU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 49%
+source-wordcount: 448
+ht-degree: 45%
 
 ---
 
@@ -27,7 +32,7 @@ Sie können Anomalien in einer Freiformtabelle für Zeitreihen anzeigen.
 
    Ein ◥ wird in der oberen rechten Ecke jeder Zeile angezeigt, in der eine Datenanomalie erkannt wird.
 
-   Die **farbige senkrechte Linie** in jeder Zeile zeigt ➋ den erwarteten Wert an. Der **farbig schattierte Bereich** in jeder Zeile zeigt ➊ den tatsächlichen Wert an. Der Vergleich der Linie (erwarteter Wert) mit dem schattierten Bereich (tatsächlicher Wert) bestimmt, ob eine Anomalie vorliegt. (Eine Anomalie wird durch die fortschrittlichen statistischen Verfahren festgestellt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren“ beschrieben &#x200B;](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
+   Die **farbige senkrechte Linie** in jeder Zeile zeigt ➋ den erwarteten Wert an. Der **farbig schattierte Bereich** in jeder Zeile zeigt ➊ den tatsächlichen Wert an. Der Vergleich der Linie (erwarteter Wert) mit dem schattierten Bereich (tatsächlicher Wert) bestimmt, ob eine Anomalie vorliegt. (Eine Anomalie wird durch die fortschrittlichen statistischen Verfahren festgestellt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren“ beschrieben ](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
 
 1. Wählen Sie ◥ in der oberen rechten Ecke einer Zeile aus, um Details zur Anomalie anzuzeigen. Angezeigt wird das Ausmaß (in Prozent), in dem der tatsächliche Wert über oder unter dem erwarteten Wert liegt.
 1. Wählen [Beitragsanalyse öffnen](run-contribution-analysis.md), um die Beitragsanalyse zu starten.
@@ -48,7 +53,7 @@ So stellen Sie Anomalien in einem Liniendiagramm dar:
 
    ![Anomalieerkennung für Linienvisualisierung](assets/anomaly-detected-line.gif)
 
-   Ein **weißer Punkt** auf der Linie bedeutet, dass an dieser Stelle eine Datenanomalie erkannt wurde. (Eine Anomalie wird durch die fortschrittlichen statistischen Verfahren festgestellt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren“ beschrieben &#x200B;](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
+   Ein **weißer Punkt** auf der Linie bedeutet, dass an dieser Stelle eine Datenanomalie erkannt wurde. (Eine Anomalie wird durch die fortschrittlichen statistischen Verfahren festgestellt, die im Abschnitt [In der Anomalieerkennung verwendete statistische Verfahren“ beschrieben ](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
 
    Der **hell schattierte Bereich** ist das Konfidenzband bzw. der erwartete Bereich, in dem Werte auftreten sollten. Jeder Wert, der außerhalb dieses erwarteten Bereichs liegt, ist eine Anomalie.
 
@@ -62,7 +67,7 @@ So stellen Sie Anomalien in einem Liniendiagramm dar:
 
    * Der Rohwert der Anomalie.
 
-   * Der Prozentwert über oder unter dem erwarteten Wert, der durch eine durchgezogene grüne Linie dargestellt wird.
+   * Der Prozentwert über oder unter dem erwarteten Wert, der durch die durchgezogene grüne Linie dargestellt wird.
 
    * Der **[!UICONTROL Analysieren]**-Link, um die Beitragsanalyse zu starten
 

@@ -4,10 +4,16 @@ description: Löscht Werte aus dem Instanzobjekt.
 feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/oZOgS1REUIwiLCwM1URlDy7rkpmeM59hrkOX7DBVVcE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 67%
+source-wordcount: 191
+ht-degree: 68%
 
 ---
 
@@ -42,7 +48,7 @@ Legen Sie beim Konfigurieren einer Regel die Aktion „Variablen löschen“ fes
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
 4. Klicken Sie unter [!UICONTROL Aktionen] auf das Symbol „+“.
-5. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen löschen] fest.
+5. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf Adobe Analytics und den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen löschen] fest.
 
 ## s.clearVars() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 

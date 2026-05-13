@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Client-Hinweise schrittweise den Benutzeragenten 
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 8861dc27f9353d00ef3cf62568822c74d6e70d25
+TQID: https://experienceleague.adobe.com/ewlZMmg1l8tPyF-mrTttQcXgk3Ms4QUwBhSemCgjg90
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 77%
+source-wordcount: 1283
+ht-degree: 78%
 
 ---
 
@@ -61,9 +66,9 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
 | Hinweis | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
 | --- | --- | --- | --- |
-| Sec-CH-UA | Browser und Hauptversion | Niedrig | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
-| Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
+| Sec-CH-UA | Browser und Hauptversion | Gering | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Gering | `true` |
+| Sec-CH-UA-Platform | Betriebssystem/Plattform | Gering | `"Android"` |
 | Architektur | Architektur der Site | Hoch | `"arm"` |
 | Bitness | Bitness der Architektur | Hoch | `"64"` |
 | fullVersionList | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |

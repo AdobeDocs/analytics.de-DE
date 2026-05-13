@@ -4,10 +4,15 @@ title: Neue Landingpage von Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
+TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 87%
+source-wordcount: 1511
+ht-degree: 86%
 
 ---
 
@@ -25,7 +30,7 @@ Die Adobe Analytics-Landingpage enthält die folgenden Unterregisterkarten:
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Landingpage von Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Landingpage von Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +40,7 @@ Der **[!UICONTROL Projekte]** in der linken Leiste dient als Startseite für die
 
 Zugreifen auf Projekte in Adobe Analytics:
 
-1. Wählen Sie die Registerkarte [!UICONTROL **Arbeitsbereich**] aus.
+1. Wählen Sie die Registerkarte [!UICONTROL **Workspace**] aus.
 
 1. Wählen [!UICONTROL **Projekte**] in der linken Leiste aus.
 
@@ -101,7 +106,7 @@ Die verfügbaren Spalten sind:
 
 So greifen Sie auf Vorlagen in Adobe Analytics zu:
 
-1. Wählen Sie die Registerkarte [!UICONTROL **Arbeitsbereich**] aus.
+1. Wählen Sie die Registerkarte [!UICONTROL **Workspace**] aus.
 
 1. Im Abschnitt [!UICONTROL **Vorlagen**] in der linken Leiste können Sie entweder Adobe-Vorlagen oder Unternehmensvorlagen auswählen.
 
@@ -126,7 +131,7 @@ Verwenden Sie die Seite „Lernen“ in Adobe Analytics, um Anfänger-, Zwischen
 * **Inhalt filtern:** Mit dem Filtersymbol in der linken Leiste können Sie Lerninhalte nach Erlebnisebene („Anfängerinnen und Anfänger“, „Mittleres Niveau“ oder „Fortgeschrittene“) und nach Inhaltstyp („Dokument“, „Video“ oder „Touren und Tutorials“) filtern.
 * **Fortschritt verfolgen:** Nachdem Sie ein Inhaltselement ausgewählt haben, wird das Tag **[!UICONTROL Angesehen]** angezeigt. Mit diesem Tag können Sie Ihren Fortschritt durch den Lerninhalt verfolgen. Sie können das Tag **[!UICONTROL Angesehen]** auswählen, um es aus einem Inhaltselement zu entfernen.
 * **Zusätzliche Inhalte anzeigen:** Wählen Sie beim Anzeigen eines Videos die Schaltfläche **[!UICONTROL Weitere Informationen]** aus, um zugehörige Dokumentationsinhalte zu Experience League anzuzeigen. Wählen Sie auf der Seite „Lernen“ eine der folgenden Optionen aus, um weitere Inhalte anzuzeigen:
-   * **[!UICONTROL YouTube besuchen]:** Sehen Sie die vollständige YouTube-Playlist von Analysis Workspace.
+   * **[!UICONTROL YouTube besuchen]:** Zeigen Sie die vollständige YouTube-Wiedergabeliste von Analysis Workspace an.
    * [!UICONTROL **Experience League besuchen**]: Sehen Sie die vollständige Adobe Analytics-Dokumentation in Experience League.
 * **Grundlagen für neue Benutzer:** Die Tour [!UICONTROL Workspace-Grundlagen] wird für neue Benutzerinnen und Benutzer empfohlen. Diese Tour führt Sie direkt zu Workspace und durch die gängigsten Aktionen. Diese Tour kann auch jederzeit in Workspace über das QuickInfo-Popup in der Kopfzeile des Bedienfelds neu gestartet werden.
 

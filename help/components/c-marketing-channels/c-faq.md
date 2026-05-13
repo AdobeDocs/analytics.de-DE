@@ -3,10 +3,16 @@ title: Häufig gestellte Fragen zu Marketing-Kanälen
 description: Häufig gestellte Fragen zu Marketing-Kanälen.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 100%
+source-wordcount: 1524
+ht-degree: 85%
 
 ---
 
@@ -22,26 +28,26 @@ Häufig gestellte Fragen zu Marketing-Kanälen.
 
 ## Meine Trackingcodes sind alle verschieden, und für meinen Affiliates-Kanal muss ich Tausende dieser Codes angeben.
 
-* Sortieren Sie aus, was Sie nicht brauchen. Wenn Ihre E-Mail- und Affiliates-Kanäle denselben Abfragezeichenfolgenparameter verwenden, aber nur wenig E-Mail-Trackingcodes vorliegen, können Sie die E-Mail-Trackingcodes in einem Regelsatz zu „email“ angeben. Klassifizieren Sie dann alle weiteren Trackingcodes als *`affiliates.`*
+* Sortieren Sie aus, was Sie nicht brauchen. Wenn Ihre E-Mail- und Affiliates-Kanäle denselben Abfragezeichenfolgenparameter verwenden, Sie jedoch nur über einige E-Mail-Trackingcodes verfügen, können Sie die E-Mail-Trackingcodes in einem Regelsatz angeben, der E-Mail definiert. Klassifizieren Sie dann alle weiteren Trackingcodes als *`affiliates.`*
 * Fügen Sie allen Landingpage-URLs in Ihrem E-Mail-System einen Abfragezeichenfolgenparameter hinzu, z. B. *`&ch=eml`*. Erstellen Sie einen Regelsatz, der erkennt, ob der „ch“-Abfrageparameter gleich *`eml`*. Wenn er *`eml`* nicht enthält, ist er ein Affiliate.
 
 ## Referrer-Domänen enthalten mehr Daten als erwartet.
 
-Verweisende Domänen stehen in der Liste der Verarbeitungsregeln eventuell zu weit oben. Da die Verarbeitungsreihenfolge wichtig ist, sollte dies einer der letzten bzw. der letzte Regelsatz sein.
+Verweisende Domains können in der Liste der Verarbeitungsregeln zu hoch sein. Es sollte einer der letzten (oder letzten) Regelsätze sein, da die Verarbeitungsreihenfolge wichtig ist.
 
 ## Ich habe eine Regel erstellt, die mit einem Abfragezeichenfolgenparameter übereinstimmt aber nicht funktioniert.
 
-Vergewissern Sie sich, dass der Parametername in den Feldern des Abfragenzeichenfolgenparameters angegeben ist (gewöhnlich ein alphanummerischer Wert). Vergewissern Sie sich zudem, dass der Parameterwert nach dem Operator steht, wie in folgendem Beispiel einer E-Mail-Regel dargestellt.
+Stellen Sie sicher, dass der Parametername in den Parametern der Abfragezeichenfolge angegeben ist (normalerweise ein alphanumerischer Wert). Stellen Sie außerdem sicher, dass der Parameterwert nach dem Operator angegeben wird, wie im folgenden Beispiel einer E-Mail-Regel gezeigt.
 
 ![](assets/example_email.png)
 
 ## Warum wird der gesamte Letztkontakt-Traffic einer internen Domain zugeschrieben?
 
-Sie verwenden eine Regel, die internem Traffic entspricht. Denken Sie daran, dass diese Regeln für jeden Treffer auf Ihrer Site verarbeitet werden, nicht nur beim Erstbesuch. Wenn Sie eine Regel wie *`Page URL exists`* ohne weitere Kriterien verwenden, wird dieser Kanal bei jedem nachfolgenden Treffer auf Ihrer Site abgeglichen, da die Seiten-URL immer vorhanden ist.
+Sie haben eine Regel, die dem internen Traffic entspricht. Denken Sie daran, dass diese Regeln für jeden Treffer auf Ihrer Site verarbeitet werden, nicht nur beim Erstbesuch. Wenn Sie eine Regel wie *`Page URL exists`* ohne weitere Kriterien verwenden, wird dieser Kanal bei jedem nachfolgenden Treffer auf Ihrer Site abgeglichen, da die Seiten-URL immer vorhanden ist.
 
 ## Wie behebe ich Traffic-Fehler, die im Bericht als „Kein Kanal identifiziert“ auftreten?
 
-Regeln werden der Reihe nach verarbeitet. Wenn keine Übereinstimmung mit den spezifischen Kriterien vorliegt, fallen die Treffer in eine von drei Kategorien:
+Regeln werden der Reihe nach verarbeitet. Wenn keine bestimmten Kriterien zutreffen, werden Treffer in eine von drei Kategorien eingeteilt:
 
 1. Kein Verweis (ein Direktbesuch).
 
@@ -49,7 +55,7 @@ Regeln werden der Reihe nach verarbeitet. Wenn keine Übereinstimmung mit den sp
 
 3. Ein Verarbeitungsfehler auf der Seite.
 
-Stellen Sie sicher, dass Sie einen Kanal für diese drei Möglichkeiten haben. Erstellen Sie beispielsweise diese Regeln:
+Stellen Sie sicher, dass Sie einen Kanal für diese drei Möglichkeiten haben. Erstellen Sie beispielsweise Regeln, die Folgendes beinhalten:
 
 1. **[!UICONTROL Verweisende Stelle]** und **[!UICONTROL Nicht vorhanden]** und **[!UICONTROL Ist erste Seite des Besuchs]**. (Siehe [Direct.](/help/components/c-marketing-channels/c-faq.md))
 
@@ -67,9 +73,9 @@ Um die Interaktion zwischen den veralteten Erstkontakt- und Letztkontaktdimensio
 
 Die Schnittmenge, bei der Erstkontakt gleich Letztkontakt ist, ist die Diagonale der Tabelle. Sowohl „Direkt“ als auch „Sitzungsaktualisierung“ erhalten nur dann eine Letztkontakt-Gutschrift, wenn sie auch der Erstkontaktkanal sind, da sie keine Gutschrift von anderen persistenten Kanälen erhalten können (hervorgehobene Zeilen).
 
-## Gründe für „Kein Kanal erkannt“  {#no-channel-identified}
+## Gründe für „Kein Kanal erkannt“ {#no-channel-identified}
 
-Wenn Ihre Regeln keine Daten erfassen oder die Regeln nicht korrekt konfiguriert sind, zeigt der Bericht die Daten in der Zeile [!UICONTROL Kein Kanal identifiziert] im Bericht an. Sie können beispielsweise am Ende der Verarbeitungsreihenfolge einen Regelsatz mit dem Namen *Sonstige* einrichten, der internen Traffic auch wie folgt identifiziert:
+Wenn Ihre Regeln keine Daten erfassen oder die Regeln nicht korrekt konfiguriert sind, zeigt der Bericht die Daten in der Zeile [!UICONTROL Kein Kanal identifiziert] im Bericht an. Sie können einen Regelsatz mit dem Namen *Sonstige* erstellen, z. B. am Ende Ihrer Verarbeitungsreihenfolge, der auch den internen Traffic identifiziert.
 
 ![](assets/example_other.png)
 
@@ -77,7 +83,7 @@ Diese Art von Regel dient als Auffangbehälter, um zu gewährleisten, dass Kanal
 
 >[!NOTE]
 >
->Es kann dennoch vorkommen, dass Kanal-Traffic teilweise in die Kategorie „Kein Kanal identifiziert“ fällt. Beispiel: Ein Besucher öffnet die Site und versieht eine Seite mit einem Lesezeichen. Beim gleichen Besuch kehrt dieser Besucher über das Lesezeichen zur Seite zurück. Da es sich dabei nicht um die erste Seite des Besuchs handelt, wird es weder dem direkten Kanal noch einem anderen Kanal zugeordnet, da keine Referrer-Domäne vorliegt.
+>Es kann dennoch vorkommen, dass Kanal-Traffic teilweise in die Kategorie „Kein Kanal identifiziert“ fällt. Beispiel: Ein Besucher kommt auf die Website und markiert eine Seite, und beim selben Besuch kommt er über das Lesezeichen wieder auf die Seite zurück. Da dies nicht die erste Seite des Besuchs ist, erfolgt er weder im direkten noch im anderen Kanal, da keine verweisende Domain vorhanden ist.
 
 ## Gründe für „Intern“ (Sitzungsaktualisierung) {#internal}
 

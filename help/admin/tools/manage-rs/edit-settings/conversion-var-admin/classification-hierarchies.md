@@ -5,10 +5,15 @@ title: Klassifizierungshierarchien
 feature: Classifications
 role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/GWTGMWRF8q0jaqolSi67YOvv727bC9ter5k8rXu6AV4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 97%
+source-wordcount: 307
+ht-degree: 38%
 
 ---
 
@@ -20,15 +25,15 @@ Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierar
 
 ## Klassifizierungshierarchien {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
-Auf der Seite [!UICONTROL Classification-Hierarchien] können Sie Classification-Hierarchien definieren, auf deren Grundlage Sie [!UICONTROL Hierarchie]-Berichte mit dem gleichen Namen erstellen können.
+Auf [!UICONTROL  Seite „Klassifizierungshierarchien] können Sie Klassifizierungshierarchien definieren, mit denen Sie [!UICONTROL Hierarchie]-Berichte mit demselben Namen erstellen können.
 
-In einem [!UICONTROL Hierarchie]-Bericht können Sie gestützt auf die Classification-Hierarchie ein Drilldown zu differenzierteren Datensätzen durchführen, um Datenbeziehungen leichter anzuzeigen.
+Mit [!UICONTROL Hierarchie]-Bericht können Sie basierend auf der Klassifizierungshierarchie zunehmend verfeinerte Datensätze aufschlüsseln, sodass Sie Datenbeziehungen leichter anzeigen können.
 
-Sie können Classification-Hierarchien für Webseiten, Kampagnen, Produkte oder beliebige andere Berichtsvariablen erstellen. Im Hierarchiebericht werden Einheiten, Bestellungen und Umsatz für jede Variablen-Classification in der Hierarchie angezeigt.
+Sie können Klassifizierungshierarchien für Web-Seiten, Kampagnen, Produkte oder jede andere Berichtsvariable erstellen. Der Hierarchiebericht zeigt Einheiten, Bestellungen und Umsatz für jede der Variablenklassifizierungen in der Hierarchie an.
 
-Angenommen, eine Produkthierarchie sieht wie folgt aus: Bekleidung > Herrenbekleidung > Hemden > Polohemden > XL-Polohemden. In diesem Fall werden im Hierarchiebericht Vertriebsdaten für die Classification „Bekleidung“ angezeigt. Anschließend können Sie per Drilldown weitere Informationen zu Herrenbekleidung, Hemden, Polohemden und XL-Polohemden abrufen. Durch die Classification-Hierarchie können Sie schnell feststellen, wie jede der Classifications in der Hierarchie zur Performance der Classification „Bekleidung“ beiträgt.
+Beispiel: Wenn eine Produkthierarchie Bekleidung > Herrenbekleidung > Hemden > Polohemden > XL-Polohemden enthält, zeigt der Hierarchiebericht Verkaufsdaten für die Bekleidungsklassifizierung an. Sie können dann einen Drilldown durchführen, um Daten über Herrenbekleidung, Hemden, Polohemden und XL-Polohemden anzuzeigen. Mithilfe von Klassifizierungshierarchien können Sie schnell ermitteln, wie jede Klassifizierung in der Hierarchie zur Bekleidungsleistung beiträgt.
 
-Erstellen Sie die Classifications, bevor Sie sie einer Hierarchie hinzufügen.
+Erstellen Sie die Klassifizierungen, bevor Sie sie einer Hierarchie hinzufügen.
 
 ## Erstellen einer Klassifizierungshierarchie {#task_3805EBCACC844261A7125D63D772CCDF}
 
@@ -40,5 +45,5 @@ Erstellen Sie die Classifications, bevor Sie sie einer Hierarchie hinzufügen.
    In der Classification-List werden die verfügbaren Classifications für die ausgewählte Variable automatisch angezeigt.
 1. Ziehen Sie eine Classification in das Feld **[!UICONTROL Neue Hierarchie-Root hierher ziehen]**, um sie in die Classification-Hierarchie aufzunehmen.
 
-   Ziehen Sie die Classifications in der Reihenfolge in die Hierarchie, in der sie angezeigt werden sollen. Die erste Classification bildet den Hierarchiestamm, die zweite Classification ist die erste Unter-Classification und so weiter.
+   Ziehen Sie Klassifizierungen in die Hierarchie in der Reihenfolge, in der sie in der Hierarchie erscheinen sollen. Die erste Klassifizierung ist der Hierarchie-Stamm, die zweite Klassifizierung die erste Unterklassifizierung usw.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

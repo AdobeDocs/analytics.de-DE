@@ -1,13 +1,17 @@
 ---
-description: ReportBuilder verwendet den benutzerdefinierten Kalender von Analytics. Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung.
+description: Report Builder verwendet den benutzerdefinierten Analytics-Kalender. Sie können den Kalender verwenden, um den ersten Wochentag und das erste Jahr zu definieren, oder einen anderen Einzelhandelskalenderstil verwenden. Die Kalenderformate werden für verschiedene Zwecke verwendet, einschließlich Verkaufsvergleich und Prognosestandardisierung, Lohnkostenanalyse oder Regulierung der Inventuranzahl.
 title: Benutzerdefinierter Kalender
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/At3YiOPV0jx5WXwe-VvA05n3yIEmiAJIRzoOoeISeA4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 95%
+source-wordcount: 409
+ht-degree: 15%
 
 ---
 
@@ -15,9 +19,9 @@ ht-degree: 95%
 
 {{legacy-arb}}
 
-ReportBuilder verwendet den benutzerdefinierten Kalender von Analytics. Sie können den Kalender nutzen, um den ersten Tag der Woche und des Jahres zu definieren oder einen anderen Einzelhandelskalender-Stil verwenden. Die verschiedenen Kalenderformate dienen unterschiedlichen Zwecken, z. B. dem Vergleich von Verkaufszahlen und der Standardisierung von Prognosen, der Personalkostenanalyse oder der Inventurzahlenregulierung.
+Report Builder verwendet den benutzerdefinierten Analytics-Kalender. Sie können den Kalender verwenden, um den ersten Wochentag und das erste Jahr zu definieren, oder einen anderen Einzelhandelskalenderstil verwenden. Die Kalenderformate werden für verschiedene Zwecke verwendet, einschließlich Verkaufsvergleich und Prognosestandardisierung, Lohnkostenanalyse oder Regulierung der Inventuranzahl.
 
-Die einzelnen Kalenderformate werden im Folgenden beschrieben.
+Nachfolgend werden die einzelnen Kalenderformate beschrieben.
 
 <table id="table_E609632569EB499184E56618C2CEF742"> 
  <thead> 
@@ -29,23 +33,23 @@ Die einzelnen Kalenderformate werden im Folgenden beschrieben.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gregorianischer Kalender </p> </td> 
-   <td colname="col2"> <p> Hier gilt das traditionelle Kalenderformat (Januar bis Dezember mit 30 bis 31 Tagen und einer variablen Anzahl von Wochen je Monat). </p> </td> 
+   <td colname="col2"> <p> Verwendet das herkömmliche Kalenderformat (Januar bis Dezember, mit 30 oder 31 Tagen und einer variablen Anzahl von Wochen pro Monat). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifizierter gregorianischer Kalender </p> </td> 
-   <td colname="col2"> <p> Basiert auf dem traditionellen Gregorianischen Kalender, ermöglicht jedoch die Auswahl des ersten Monats des Jahres und des ersten Tages der Woche. </p> </td> 
+   <td colname="col2"> <p> Verwendet den traditionellen gregorianischen Kalender, ermöglicht jedoch die Auswahl des ersten Monats des Jahres und des ersten Wochentags. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4-5-4-Einzelhandelskalender </p> </td> 
-   <td colname="col2"> <p> Hier werden Monate auf eine bestimmte Zahl Wochen reduziert. Das bedeutet, der Januar hat vier Wochen usw. Der Nationale Einzelhandelsverband (USA) verwendet das Kalenderformat 4-5-4. </p> </td> 
+   <td colname="col1"> <p>4-5-4 Einzelhandelskalender </p> </td> 
+   <td colname="col2"> <p> Schlüsselt jeden Monat nach der Anzahl der Wochen im Monat auf. Der Januar hat also vier Wochen und so weiter. Die National Retail Federation verwendet das Kalenderformat 4-5-4. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerdefinierter Kalender </p> </td> 
-   <td colname="col2"> <p> Bietet drei Formate, basierend auf der Anzahl der Wochen je Monat. Die Anzahl der Wochen in jedem Monat hängt vom ausgewählten ersten Tag des Jahres ab. </p> <p>Ein Jahr hat 52 Wochen. Bei einer Aufteilung in vier Quartale kommen 13 Wochen pro Quartal heraus. Doch in einem Quartal sind drei Monate enthalten. Die Zahl 13 ist nicht durch 3 teilbar. Folglich muss die restliche Woche aus Konsistenzgründen zu einem der Monate hinzugefügt werden. 5-4-4 bedeutet, dass die übrig gebliebene Woche im 1. Monat des Quartals ist. 4-5-4 bedeutet, dass sie im 2. Monat ist, usw. Im 5-4-4-Kalender wird die 53. Woche dem letzten Quartal des Jahres hinzugefügt. </p> 
+   <td colname="col2"> <p> Bietet drei Formate, die auf der Anzahl der Wochen in jedem Monat basieren. Die Anzahl der Wochen in jedem Monat hängt vom ausgewählten ersten Tag des Jahres ab. </p> <p>Ein Jahr hat 52 Wochen. Teilen Sie das auf 4 Quartale auf und Sie bekommen 13 Wochen pro Quartal. Aber es gibt drei Monate in einem Quartal. Die Zahl 13 ist nicht durch 3 teilbar. Folglich muss die restliche Woche aus Konsistenzgründen zu einem der Monate hinzugefügt werden. 5/4/4 bedeutet, dass der 1. Monat des Quartals die zusätzliche Woche hat. 4/5/4 bedeutet, dass der 2. Monat die zusätzliche Woche hat usw. Im Kalender 5-4-4 wird die 53. Woche zum letzten Quartal des Jahres hinzugefügt. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
-     <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: Januar hat vier Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
-     <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: Januar hat vier Wochen, Februar hat vier Wochen, März hat fünf Wochen usw. </li> 
-     <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: Januar hat fünf Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
+     <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-</b>:Januar hat vier Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
+     <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-</b>: Januar hat vier Wochen, Februar hat vier Wochen, März hat fünf Wochen usw. </li> 
+     <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-</b>: Januar hat fünf Wochen, Februar hat fünf Wochen, März hat vier Wochen usw. </li> 
     </ul> <p>Hinweis: Diese Kalenderoption wird in allen Adobe Analytics-Tools unterstützt: Analysis Workspace, Report Builder und Activity Map. Die Ausnahme ist Data Warehouse, wo benutzerdefinierte Kalender nicht unterstützt werden. </p> </td> 
   </tr> 
  </tbody> 

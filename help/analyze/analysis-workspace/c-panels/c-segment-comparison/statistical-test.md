@@ -5,10 +5,15 @@ title: Im Segmentvergleich verwendete statistische Tests
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/49kZ6LC9OMizQvqxE2PCq1LtqhUHtf5iKQUgpgqSmmE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 43%
+source-wordcount: 451
+ht-degree: 9%
 
 ---
 
@@ -23,12 +28,12 @@ Ein Score von 0 bedeutet, dass es keinen Unterschied zwischen den beiden Segment
 
 ## Differenzwert der Top-Metriken
 
-In der Tabelle Top-Metriken verwendet das Tool für den Segmentvergleich einen Mann-Whitney-Benutzeroberflächentest mit zwei Beispielen. Dieser Test ist ein nichtparametrischer Gleichheitstest, mit dem die eindimensionalen Wahrscheinlichkeitsverteilungen jeder Metrik für jedes berücksichtigte Segment verglichen werden. Der Differenzwert in der Tabelle der Metriken ist eine Kombination aus dem p-Wert der berechneten U-Statistik (der angibt, wie stochastisch unterschiedlich die beiden Segmente innerhalb einer bestimmten Metrik verteilt sind) und der relativen Größenordnung der beobachteten Differenz. Ein hoher Differenzwert (nahe 1) bedeutet, dass die jeweilige Metrik einen großen relativen Unterschied sowie eine hohe statistische Konfidenz aufweist, dass die Segmente unterschiedlich sind.
+In der Tabelle Top-Metriken verwendet das Tool für den Segmentvergleich einen Mann-Whitney-Benutzeroberflächentest mit zwei Beispielen. Dieser Test ist ein nichtparametrischer Gleichheitstest, mit dem die eindimensionalen Wahrscheinlichkeitsverteilungen jeder Metrik für jedes berücksichtigte Segment verglichen werden. Der Differenzwert in der Metriktabelle ist eine Kombination aus dem p-Wert aus der berechneten U-Statistik (die darstellt, wie stochastisch unterschiedlich die beiden Segmente über eine bestimmte Metrik verteilt sind) und der relativen Größe der beobachteten Differenz. Ein hoher Differenzwert (nahe 1) bedeutet, dass die jeweilige Metrik einen großen relativen Unterschied sowie eine hohe statistische Konfidenz aufweist, dass die Segmente unterschiedlich sind.
 
 ## Differenzwerte für Top-Dimensionselemente und Top-Segmente
 
-Für die Berechnung des Differenzwerts der Tabelle der Top-Dimensionselemente und der Top-Segmente wird ein relativer Risikodifferenz-Algorithmus verwendet (vergleichbar mit dem Risikoverhältnis, auch wenn anstelle eines Verhältnisses eine Differenz verwendet wird). Eine Risikodifferenz wird durch Subtraktion der kumulierten Häufigkeiten eines Dimensionselements (oder der Überschneidung mit einem Segment der Segmenttabelle) eines ausgewählten Segments von der eines anderen berechnet. Ein hoher Differenzwert (nahe 1) bedeutet, dass das bestimmte Dimensionselement oder tertiäre Segment in einem der ausgewählten Segmente sehr prominent war und nicht im anderen.
+Zur Berechnung der Differenzbewertung in den Dimension-Top-Elementen und den Differenztabellen des obersten Segments wird ein relativer Risikodifferenzierungsalgorithmus verwendet (ähnlich dem Risikoverhältnis, jedoch mit einer Differenz anstelle eines Verhältnisses). Eine Risikodifferenz wird berechnet, indem die kumulativen Inzidenzen eines Dimensionselements (oder der Überschneidung mit einem Segment aus der Segmenttabelle) eines ausgewählten Segments von dem anderen abgezogen werden. Ein hoher Differenzwert (nahe 1) bedeutet, dass das bestimmte Dimensionselement oder tertiäre Segment in einem der ausgewählten Segmente sehr prominent war und nicht im anderen.
 
 >[!NOTE]
 >
->In allen drei Tabellen basiert die Differenzstatistik auf einer geeigneten Stichprobe von Besuchern, damit der Prozess schnellstmöglich ausgeführt werden kann, während er dennoch statistisch genau bleibt. Während der Differenzwert auf einer Stichprobe basiert, handelt es sich bei den in der Tabelle angezeigten Ergebnissen nicht um eine Stichprobe. Damit die statistische Bedeutung sichergestellt ist, basiert jeder statistische Test auf einem dynamischen Zuteilungsalgorithmus, sodass das kleinere Segment eine Stichprobengröße enthält, die eine Fehlergrenze von unter 3 % gewährleistet. Wenn ein Segment nur sehr wenige Besucher (weniger als 1.000) enthält, werden alle verfügbaren Daten anstelle von Beispieldaten verwendet, um die Differenzbewertung zu berechnen.
+>In allen drei Tabellen basiert die Differenzstatistik auf einer geeigneten Stichprobe von Besuchern, damit der Prozess schnellstmöglich ausgeführt werden kann, während er dennoch statistisch genau bleibt. Während der Differenzwert auf einer Stichprobe basiert, werden die in der Tabelle dargestellten Ergebnisse nicht berechnet. Um die statistische Signifikanz sicherzustellen, stützt sich jeder statistische Test auf einen dynamischen Zuordnungsalgorithmus, sodass das kleinere Segment eine Stichprobengröße enthält, die weniger als 3 % Fehlermarge bietet. Wenn ein Segment nur sehr wenige Besucher (weniger als 1.000) enthält, werden alle verfügbaren Daten anstelle von Beispieldaten verwendet, um die Differenzbewertung zu berechnen.

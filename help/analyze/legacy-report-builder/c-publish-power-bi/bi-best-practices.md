@@ -4,10 +4,14 @@ title: Best Practices
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/WXvRDft1TRz5qM9R8Psz-Yp2qY-AL-SrrXgXWRx55N0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: 139
+ht-degree: 55%
 
 ---
 
@@ -17,10 +21,10 @@ ht-degree: 100%
 
 ## Beibehalten von Referenzen in Power BI-Visualisierungen
 
-Wenn Sie eine Anforderung erstellen, besitzt diese Anforderung immer die gleiche Referenz in Power BI. Wenn Sie jedoch eine Anforderung löschen, wird die Referenz von einer neuen Anforderung verwendet, die Sie für die gleiche Dimension erstellen.
+Nachdem Sie eine Anfrage erstellt haben, hat diese Anfrage in Power BI immer denselben Verweis. Wenn Sie jedoch eine Anfrage löschen, wird die Referenz von einer neuen Anfrage verwendet, die Sie für dieselbe Dimension erstellen.
 
 Wenn Sie eine Anfrage in Ihrer Arbeitsmappe löschen, stellen Sie sicher, dass in Power BI keine Visualisierung auf diese Anfrage verweist, da die Visualisierung dadurch beschädigt wird.
 
 * Sofern möglich, löschen Sie keine Anforderungen, die Sie in Report Builder erstellt haben.
 * Wenn Sie Anforderungen in Report Builder löschen müssen, löschen Sie auch die entsprechenden Visualisierungen in Power BI.
-* Wenn Sie nicht sicher sind, löschen Sie die Anforderungen, die Sie nicht mehr benötigen, führen Sie eine erneute Veröffentlichung durch und wechseln Sie zu Power BI, um festzustellen, welche Visualisierungen beschädigt wurden.
+* Wenn Sie sich nicht sicher sind, ob Sie Löschanfragen benötigen, veröffentlichen Sie erneut und gehen Sie zu Power BI, um zu sehen, welche Visualisierungen fehlerhaft sind

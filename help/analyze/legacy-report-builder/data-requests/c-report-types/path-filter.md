@@ -4,10 +4,14 @@ title: Pfadbericht mit dem Anforderungs-Assistenten filtern
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 62%
+source-wordcount: 427
+ht-degree: 57%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 62%
 
 Beschreibt die Schritte, die beim Anwenden von Filtern bei Pfadsetzungsberichten durchgeführt werden müssen.
 
-In diesem Beispiel werden Pfade für Sitebereiche verwendet.
+In diesem Beispiel werden Site-Abschnittspfade verwendet.
 
 1. Klicken Sie in Adobe Report Builder auf **[!UICONTROL Erstellen]**, um den Anforderungs-Assistenten zu öffnen.
 1. Wählen Sie die richtige Report Suite aus.
@@ -56,19 +60,19 @@ In diesem Beispiel werden Pfade für Sitebereiche verwendet.
 
 Sie können ein vordefiniertes Muster bearbeiten, nachdem Sie ein Muster ausgewählt haben.
 
-1. Wählen Sie anschließend wie oben beschrieben das Muster aus. Wählen Sie zum Beispiel das **[!UICONTROL Muster für Ausstiegssite]** aus:
+1. Wählen Sie anschließend wie oben beschrieben das Muster aus. Wählen Sie beispielsweise das **[!UICONTROL Exitsite-Muster]**:
 
    ![Screenshot zur Hervorhebung des ausgewählten Musters.](assets/exited_site_pattern.png)
 
 1. Definieren Sie den Site-Abschnittspfad, dem der Benutzer vor dem Beenden folgt. Klicken Sie auf **[!UICONTROL Bestimmte Elemente: 0 ausgewählt]**. Sie können diesen Pfad definieren, indem Sie aus einem Zellenbereich auswählen, wenn Sie eine vorhandene Anfrage bearbeiten, oder indem Sie aus einer Liste von Abschnitten auswählen.
 
-1. Um aus einem Zellenbereich einer vorherigen Anforderung auszuwählen, wählen Sie **[!UICONTROL Aus Zellenbereich]** und klicken Sie auf das Symbol für die Zellenauswahl. Wählen Sie dann aus dem Bericht die Zellen aus.
+1. Um aus einem Zellenbereich einer vorherigen Anforderung auszuwählen, wählen Sie **[!UICONTROL Aus Zellenbereich]** und klicken Sie auf das Symbol für die Zellenauswahl. Wählen Sie dann die Zellen aus dem Bericht aus.
 
    ![Screenshot mit den Optionen für die Auswahl aus einem Zellenbereich oder aus einer Liste.](assets/choose_site_section_paths.png)
 
 1. Um aus einer Liste mit Sitebereichen auszuwählen, wählen Sie **[!UICONTROL Aus Liste]** aus und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-1. Verschieben Sie Elemente aus der Spalte **[!UICONTROL Verfügbare Elemente]** in die Spalte **[!UICONTROL Ausgewählte Elemente]**, indem Sie sie auswählen und auf den orangefarbenen Pfeil klicken. Klicken Sie anschließend auf **[!UICONTROL OK]**.
+1. Verschieben Sie Elemente aus der Spalte **[!UICONTROL Verfügbare Elemente]** in die Spalte **[!UICONTROL Ausgewählte Elemente]**, indem Sie sie auswählen und auf den orangefarbenen Pfeil klicken. Klicken Sie auf **[!UICONTROL OK]**.
 
    ![Screenshot mit den verfügbaren Elementen und den ausgewählten Elementen.](assets/move_site_section_elements.png)
 

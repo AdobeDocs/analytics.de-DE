@@ -3,10 +3,15 @@ description: Erfahren Sie, wie die Sortierung nach Metrik die Interpretation und
 title: Nach Metrik sortieren
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+TQID: https://experienceleague.adobe.com/YPqL6i9RWACubLdf2ywm8xuPyeQkZ30L6rO6FAbhpJI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 92%
+source-wordcount: 337
+ht-degree: 21%
 
 ---
 
@@ -14,20 +19,20 @@ ht-degree: 92%
 
 Bietet nach Rang geordnet Detailberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind.
 
-Die Sortierung nach Metrik erleichtert die Interpretation von Data Warehouse-Berichten und den Vergleich mit anderen Ansichten von Analytics-Aufschlüsselungsberichten.
+Die Sortierung nach Metrik erleichtert die Interpretation von Data Warehouse-Berichten und die Vergleichbarkeit dieser Berichte mit anderen Analytics-Aufschlüsselungs-Reporting-Ansichten.
 
-Im Folgenden sehen Sie, wie die Option „Sortieren von Metriken“ die Zeilen in einem Data Warehouse-Bericht neu sortiert.
+Im Folgenden wird gezeigt, wie bei Aktivierung der Option „Metriken sortieren“ die Zeilen in einem Data Warehouse-Bericht neu angeordnet werden.
 
-Es gibt vier verschiedene Möglichkeiten, um Data Warehouse-Berichte mit „Sortieren von Metriken“ zu organisieren, die darauf basieren, wie die Datengranularität, Berichtsdimensionen oder Metriken konfiguriert sind und ob die maximale Zeilenzahl festgelegt ist:
+Es gibt vier mögliche Methoden, Data Warehouse-Berichte mit „Metriken sortieren“ zu organisieren, je nachdem, wie Datumsgranularität, Berichtsdimensionen oder Metriken konfiguriert sind und ob „Maximale Zeilen“ festgelegt ist:
 
-* **Layout 1**: Zeileneinträge werden in Wörterbuchreihenfolge sortiert (Standard). Wenn die maximale Zeilenzahl festgelegt ist, werden nur die ersten N Zeilen in den Bericht einbezogen.
-* **Layout 2**: Data Warehouse wendet eine Metriksortierung auf alle Zeilen im Bericht an. Beziehungen im ersten Metrikwert werden durch die zweite Metrik aufgelöst, dann durch die dritte und so weiter. Wenn alle Metriken verbunden sind, wird die standardmäßige Wörterbuchreihenfolge des aufgeschlüsselten Zeileneintrags angewendet.
-* **Layout 3**: Wie Layout 2, jedoch werden nur die ersten N Zeilen (d. h. der für die maximale Zeilenzahl festgelegte Wert) im Bericht ausgegeben.
-* **Layout 4**: Wie Layout 2, außer dass Zeileneinträge für die einzelnen Granularitätszeiträume gruppiert und innerhalb des jeweiligen Zeitraums sortiert werden.
+* **Layout 1**: Zeileneinträge werden in der Reihenfolge des Wörterbuchs sortiert (Standard). Wenn „Max. Zeilen“ festgelegt ist, werden nur die ersten N Zeilen im Bericht bereitgestellt.
+* **Layout 2**: Data Warehouse wendet eine Metriksortierung auf alle Zeilen im Bericht an. Die Verbindungen im ersten Metrikwert werden durch die zweite Metrik unterbrochen, dann durch die dritte und so weiter. Wenn alle Metriken verknüpft sind, wird die standardmäßige Wörterbuchreihenfolge der Aufschlüsselungszeilenelemente angewendet.
+* **Layout 3**: Wie Layout 2, wobei nur die obersten N Zeilen (d. h. die in „Max. Zeilen“ festgelegte Zahl) im Bericht ausgegeben werden.
+* **Layout 4**: Als Layout 2, mit der Ausnahme, dass Zeilenelemente für jeden Datumsgranularitätzeitraum gruppiert und innerhalb dieses entsprechenden Zeitbereichs sortiert werden.
 
-In der Spalte „Berichtslayout“ sehen Sie, wie „Sortieren von Metriken“ mit anderen Berichterstellungsoptionen von Data Warehouse interagiert.
+Die Spalte „Berichtslayout“ in dieser Tabelle sollte herangezogen werden, um zu bestimmen, wie „Metriksortierung“ mit anderen Data Warehouse-Berichtsoptionen interagiert.
 
-| Nach Metrik sortieren? | Metriken vorhanden? | Aufschlüsselungen vorhanden? | Datumsgranularität? | Maximale Zeilenzahl festgelegt? | Berichtslayout |
+| Nach Metrik sortieren? | Hat Metriken? | Hat Pannen? | Datumsgranularität? | Max. Zeilen festgelegt? | Bericht-Layout |
 |---|---|---|---|---|---|
 | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |
 | Ja | Nein | Ja oder Nein | Ja oder Nein | Ja oder Nein | 1 |

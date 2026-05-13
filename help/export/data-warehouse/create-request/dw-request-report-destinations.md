@@ -3,9 +3,13 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
-workflow-type: ht
-source-wordcount: '1980'
+TQID: https://experienceleague.adobe.com/Afs4vP-j7tHMr2yx8Evojy-el6insIxLa4VRq0f9OSo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 2160
 ht-degree: 100%
 
 ---
@@ -235,8 +239,8 @@ Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp 
 
 Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
-* s3:GetObject
-* s3:PutObject
+* S3:GetObject
+* S3:PutObject
 * s3:PutObjectAcl
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):

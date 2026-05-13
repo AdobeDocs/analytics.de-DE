@@ -3,16 +3,22 @@ title: Erstellen und Bearbeiten von Klassifizierungssätzen
 description: Erfahren Sie, wie Sie in Adobe Analytics Klassifizierungssätze erstellen und bearbeiten, einschließlich Primär- und Lookup-Klassifizierungstypen, Abonnements und Auftragsbenachrichtigungen.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 9feefd318d5239812f62afd727836e8aa203a4b2
+TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 502
 ht-degree: 2%
 
 ---
 
 # Erstellen und Bearbeiten von Klassifizierungssätzen
 
-Über [&#x200B; Manager für Klassifizierungssätze &#x200B;](#create-a-classification-set) Sie [&#x200B; Klassifizierungssätze erstellen und &#x200B;](#edit-a-classification-set) bearbeiten.
+Über [ Manager für Klassifizierungssätze ](#create-a-classification-set) Sie ](#edit-a-classification-set) Klassifizierungssätze erstellen und [ bearbeiten.
 
 ## Erstellen eines Klassifizierungssatzes
 
@@ -57,5 +63,5 @@ So bearbeiten Sie einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen Sie den Namen Ihres Klassifizierungssatzes aus.
-1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatzname_]**&#x200B;können Sie die [Einstellungen](manage/settings.md) und das [Schema](manage/schema.md) für den Klassifizierungssatz definieren.
+1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatzname_]**können Sie die [Einstellungen](manage/settings.md) und das [Schema](manage/schema.md) für den Klassifizierungssatz definieren.
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.

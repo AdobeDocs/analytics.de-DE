@@ -4,9 +4,14 @@ keywords: Daten-Feed;Best Practices;Traffic-Spitze;stündlich;FTP
 title: Best Practice und allgemeine Informationen
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/-8EoregiCONFrXywjKP5zMdypH-FM67ij1nVfxupBdY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 289
 ht-degree: 84%
 
 ---
@@ -21,7 +26,7 @@ Nachstehend sind einige Best-Practice-Methoden für die Verarbeitung und Bereits
 
 * Stündliche Feeds mit der Bereitstellung mehrerer Dateien werden am schnellsten verarbeitet. Erwägen Sie die Verwendung stündlicher Feeds mit mehreren Dateien, wenn eine rechtzeitige Bereitstellung für Ihre Organisation hohe Priorität hat.
 
-* Wenn Sie Ihren Feed-Erfassungsvorgang automatisieren, sollten Sie die Möglichkeit in Betracht ziehen, dass Treffer und Dateien mehrmals übertragen werden können. Ihr Feed-Erfassungsvorgang muss doppelte Treffer und doppelte Dateien verarbeiten, ohne Fehler zu verursachen oder Daten zu duplizieren. Es wird empfohlen, die Spalten `hitid_high` und `hitid_low` zur eindeutigen Identifizierung eines Treffers zu verwenden.
+* Wenn Sie Ihren Feed-Aufnahmevorgang automatisieren, sollten Sie die Möglichkeit in Betracht ziehen, dass Treffer und Dateien mehrmals übertragen werden können. Ihr Feed-Aufnahmevorgang muss doppelte Treffer und doppelte Dateien verarbeiten, ohne Fehler zu verursachen oder Daten zu duplizieren. Es wird empfohlen, die Spalten `hitid_high` und `hitid_low` zur eindeutigen Identifizierung eines Treffers zu verwenden.
 
   In seltenen Fällen werden möglicherweise doppelte Werte für `hitid_high` und `hitid_low` angezeigt. Bestätigen Sie in diesem Fall, dass die Datei noch nicht gesendet und verarbeitet wurde. Wenn nur einige Zeilen in einer Datei dupliziert sind, sollten Sie `visit_num` und `visit_page_num` hinzufügen, um die Eindeutigkeit zu ermitteln.
 

@@ -5,10 +5,14 @@ title: Senden und Planen von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
+TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 25%
+source-wordcount: 502
+ht-degree: 26%
 
 ---
 
@@ -36,8 +40,8 @@ So senden Sie eine Ad-hoc-Datei per E-Mail an Empfänger:
    * [!UICONTROL **PDF**]: Wählen Sie diese Option, wenn die heruntergeladene Datei alle angezeigten (sichtbaren) Tabellen und Visualisierungen im Projekt enthalten soll.
 1. (Optional) Verwenden Sie **[!UICONTROL Beschreibung]** um eine Beschreibung hinzuzufügen, die in die E-Mail aufgenommen werden soll.
 1. Fügen Sie Empfänger oder Gruppen hinzu. Sie können auch E-Mail-Adressen eingeben.
-1. (Optional) Wählen Sie **[!UICONTROL Planungsoptionen anzeigen]** aus, um [einen Dateiexport zu &#x200B;](#schedule-file-export).
-1. Klicken Sie **[!UICONTROL Jetzt senden]**. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
+1. (Optional) Wählen Sie **[!UICONTROL Planungsoptionen anzeigen]** aus, um [einen Dateiexport zu ](#schedule-file-export).
+1. Klicken Sie auf **[!UICONTROL Jetzt senden]**. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
 
 ## Dateiexport planen {#schedule}

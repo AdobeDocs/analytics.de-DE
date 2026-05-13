@@ -1,21 +1,26 @@
 ---
-description: Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deaktivieren können.
+description: Erfahren Sie, wie Sie veraltete Anmeldedaten für Analytics-Benutzer deaktivieren.
 title: Deaktivieren von veralteten Anmeldedaten
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/xwLXKuaeoKB5-TSVC7FLQXdUsBEeOg-zuITMa8Z3OIo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: 185
+ht-degree: 52%
 
 ---
 
 # Deaktivieren von veralteten Anmeldedaten
 
-Erfahren Sie, wie Sie vormalige Logins für Analytics-Benutzer deaktivieren können.
+Erfahren Sie, wie Sie veraltete Anmeldedaten für Analytics-Benutzer deaktivieren.
 
-Nachdem Ihre Benutzer von dem bisherigen Analytics User Management-System zur Adobe Admin Console migriert wurden, können Sie deren bisherige Anmeldedaten deaktivieren. Das Deaktivieren von bisherigen Logins leitet Benutzer zum Experience Cloud-Login um, wenn sie versuchen, das bisherige Login zu verwenden.
+Nachdem Ihre Benutzerinnen und Benutzer vom bisherigen Analytics-Benutzerverwaltungssystem zum Adobe Admin Console migriert haben, können Sie ihre bisherigen Anmeldedaten deaktivieren. Durch Deaktivieren von veralteten Anmeldungen werden Benutzer zur Experience Cloud-Anmeldung weitergeleitet, wenn sie versuchen, die veraltete Anmeldung zu verwenden.
 
 1. Öffnen Sie das Migrationstool in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzer-ID-Migration]**.
 1. Suchen Sie im Abschnitt „[!DNL User Information]“ nach der Domain mit den Benutzern, mit denen Sie arbeiten möchten, und klicken Sie dann auf **[!UICONTROL Benutzer auswählen]**.
@@ -28,4 +33,4 @@ Nachdem Ihre Benutzer von dem bisherigen Analytics User Management-System zur Ad
 
    „Bisherige Anmeldedaten deaktivieren“ gibt an, welcher Ihrer Benutzer seinen alten [!DNL my.omniture.com]-Benutzernamen und sein Passwort weiterhin verwenden kann.
 
-   Sie können bisherige Logins für einen Benutzer, der noch nicht migriert wurde, nicht deaktivieren. Nach der Deaktivierung muss sich der Benutzer mit seiner Experience Cloud ID anmelden und auf Analytics zugreifen.
+   Sie können keine veralteten Anmeldedaten für Benutzende deaktivieren, die noch migriert werden müssen. Nach der Deaktivierung müssen sich Benutzende mit ihrer Experience Cloud-ID anmelden und auf Analytics zugreifen.

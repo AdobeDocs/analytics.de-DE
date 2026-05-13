@@ -3,10 +3,16 @@ description: Häufig gestellte Fragen zu Advertising Analytics.
 title: Häufig gestellte Fragen zu Advertising Analytics
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/HC9F-en-nLFRkxsaY6Szdtb3jR5NgdpsbjSAX6kTBlQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 10%
+source-wordcount: 1298
+ht-degree: 11%
 
 ---
 
@@ -105,7 +111,7 @@ Nein, die Rohsuchdaten werden als unabhängiger Datensatz angezeigt. Es gibt jed
 
 +++ Ich versuche, meine Advertising Analytics-Konten einer bestimmten Report Suite zuzuordnen, aber dies ist nicht im Report Suite-Modal verfügbar. Warum? 
 
-Bevor Sie eine Report Suite einem Advertising Analytics-Konto zuweisen können, muss die gewünschte Report Suite bereitgestellt [für Advertising Analytics-Berichte](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Bevor Sie eine Report Suite einem Advertising Analytics-Konto zuweisen können, muss die gewünschte Report Suite [ Advertising Analytics-Reporting bereitgestellt werden](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Dies erfolgt über eine separate Admin-Seite, auf die über Admin > Report Suites > `[select report suite]` > Einstellungen bearbeiten > Advertising Analytics-Konfiguration zugegriffen werden kann.
 
 +++
@@ -128,7 +134,7 @@ Die Suchdaten werden um ca. 6:06 Uhr :00 in der Zeitzone Ihres Analytics-Rechenz
 
 +++
 
-+++ Was kann *vor dem Klick erfasst*? Bringen wir Eindrücke, Kosten, durchschnittliche Position, etc. Auch ohne Klick?
++++ Was kann *vor dem Klick erfasst*? Bringen wir auch ohne Klick Impressionen, Kosten, durchschnittliche Position usw. mit?
 
 Die AMO-ID erfasst die Suchmaschinenmetriken: Impressionen, Kosten, Klicks, durchschnittliche Position und durchschnittliche Qualitätsbewertung. Wenn keine Klicks, aber Impressionen vorhanden sind, werden die Impressions-/Positions-/Qualitätsbewertungsdaten weiterhin an Analytics gesendet. In der Regel fallen auch keine Kosten an, wenn keine Klicks erfolgen.
 

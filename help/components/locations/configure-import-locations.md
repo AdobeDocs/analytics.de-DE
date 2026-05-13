@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import und -Exportspeicherorten
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
+TQID: https://experienceleague.adobe.com/Q0cJR470jmLkrurcF20vP72mJyJ18Kd6DWICWVLp5ws
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 33%
+source-wordcount: 1769
+ht-degree: 38%
 
 ---
 
@@ -34,7 +39,7 @@ Informationen zum Anzeigen und Löschen vorhandener Speicherorte finden Sie unte
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
 
-1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standorte**] aus.
+1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standorte**] aus.
 
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Standorte für alle Benutzer anzeigen**] aktivieren, um Standorte anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Standorte für alle Benutzer anzeigen](assets/locations-all-users.png)
@@ -71,14 +76,14 @@ Um einen ARN-Speicherort für die Amazon S3-Rolle zu konfigurieren, geben Sie di
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die Berechtigung `S3:PutObject` verfügt, um Dateien in diesen Bucket hochzuladen. </p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Bucket**] | Der Bucket in Ihrem Amazon S3-Konto, an den Adobe Analytics-Daten gesendet werden sollen. <p>Stellen Sie sicher, dass der von Adobe bereitgestellte Benutzer-ARN über die `S3:PutObject`-Berechtigung verfügt, um Dateien in diesen Bucket hochzuladen. </p><p>Bucket-Namen müssen bestimmten Benennungsregeln entsprechen. Bucket-Namen müssen etwa zwischen 3 und 63 Zeichen lang sein, dürfen nur aus Kleinbuchstaben, Zahlen, Punkten (.) und Bindestrichen (-) bestehen und müssen mit einem Buchstaben oder einer Zahl beginnen und enden. [Eine vollständige Liste der Benennungsregeln finden Sie in der AWS-Dokumentation.](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Präfix**] | Der Ordner im Bucket, in den Sie die Daten ablegen möchten. Geben Sie einen Ordnernamen an und fügen Sie dann einen umgekehrten Schrägstrich nach dem Namen hinzu, um den Ordner zu erstellen. (Beispiel: Ordnername/) |
 
    {style="table-layout:auto"}
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [ Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -102,7 +107,7 @@ Geben Sie die folgenden Informationen an, um einen Google Cloud Platform-Speiche
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [ Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -126,7 +131,7 @@ Geben Sie die folgenden Informationen an, um einen Azure SAS-Speicherort zu konf
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [ Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -151,7 +156,7 @@ Geben Sie die folgenden Informationen an, um einen Azure RBAC-Speicherort zu kon
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [&#x200B; Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [&#x200B; Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
+   Sie können jetzt Daten zu dem von Ihnen konfigurierten Konto und Speicherort importieren bzw. daraus exportieren. Verwenden Sie zum Exportieren [ Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) oder [Report Builder](/help/analyze/report-builder/report-builder-export.md). Verwenden Sie zum Importieren [ Daten „Klassifizierungssätze](/help/components/classifications/sets/overview.md).
 
    Importierte Daten werden nach dem Import nicht aus dem Cloud-Ziel gelöscht.
 
@@ -174,11 +179,11 @@ Geben Sie die folgenden Informationen an, um einen E-Mail-Speicherort zu konfigu
 
 1. Wählen Sie [!UICONTROL **Speichern**] aus.
 
-   Sie können jetzt Daten in das -Konto und den Speicherort exportieren, die Sie bei der Verwendung von [Daten-Feeds) &#x200B;](/help/export/analytics-data-feed/create-feed.md) haben. (E-Mail-Speicherorte werden von [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) nicht unterstützt.
+   Sie können jetzt Daten in das -Konto und den Speicherort exportieren, die Sie bei der Verwendung von [Daten-Feeds) ](/help/export/analytics-data-feed/create-feed.md) haben. (E-Mail-Speicherorte werden von [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) nicht unterstützt.
 
 ### Alte Kontotypen
 
-Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht &#x200B;](/help/components/classifications/sets/manage/schema.md).
+Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht ](/help/components/classifications/sets/manage/schema.md).
 
 +++FTP
 
@@ -186,7 +191,7 @@ Daten aus Daten-Feeds können für einen von Adobe oder auf Kundenseite gehostet
 
 | Feld | Funktion |
 |---------|----------|
-| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Wenn der angegebene Pfad nicht vorhanden ist, wird bei Feeds ein Fehler ausgegeben. </br>Zum Beispiel `/folder_name/folder_name`. |
+| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Zum Beispiel `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -198,7 +203,7 @@ Daten-Feed-Daten können an einen Adobe- oder von Kunden gehosteten SFTP-Speiche
 
 | Feld | Funktion |
 |---------|----------|
-| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein. Wenn der angegebene Pfad nicht vorhanden ist, wird bei Feeds ein Fehler ausgegeben. </br>Zum Beispiel `/folder_name/folder_name`. |
+| [!UICONTROL **Verzeichnispfad**] | Geben Sie den Pfad zum Verzeichnis auf dem FTP-Server ein. Ordner müssen bereits vorhanden sein; Feeds geben einen Fehler aus, wenn der angegebene Pfad nicht vorhanden ist. </br>Zum Beispiel `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -210,9 +215,9 @@ Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp 
 
 Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
-* s3:GetObject
-* s3:PutObject
-* s3:PutObjectAcl
+* S3:GetObject
+* S3:PutObject
+* S3:PutObjectAcl
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
 

@@ -3,10 +3,16 @@ description: Definiert allgemeine Einstellungen für eine Website, die Inhalte z
 title: Aggregatorportal
 feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/rH1TSHrMMKxFtMlv0GR-UKF-OJk8SBbt1pq92DYhgVk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 69%
 
 ---
 
@@ -16,23 +22,23 @@ Definiert allgemeine Einstellungen für eine Website, die Inhalte zusammenträgt
 
 | Konversionsvariablen | Typ | Subrelationen | Zuordnung | Gültigkeit | `s_code`-Variable |
 |---|---|---|---|---|---|
-| Interne Kampagne | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
-| Interne Suchbegriffe | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
-| Referrer-Kategorie | Zeichenfolge | Basis | Zuletzt verwendet (Letzter) | Besuch | `evar3` |
+| Interne Kampagne | Zeichenfolge | Einfach | Zuletzt verwendet (Letzter) | Besuch | `evar1` |
+| Interne Suchbegriff | Zeichenfolge | Einfach | Zuletzt verwendet (Letzter) | Besuch | `evar2` |
+| Empfehlungskategorie | Zeichenfolge | Einfach | Zuletzt verwendet (Letzter) | Besuch | `evar3` |
 
 | Erfolgsereignisse | Typ | `s_code`-Variable |
 |---|---|---|
-| Anmelden | Zähler (keine Subrelationen) | `event1` |
-| Referrer-Ansicht | Zähler (keine Subrelationen) | `event2` |
-| Referrer-Klicks | Zähler (keine Subrelationen) | `event3` |
+| Anmelden | Zähler (keine untergeordneten Beziehungen) | `event1` |
+| Empfehlungsansicht | Zähler (keine untergeordneten Beziehungen) | `event2` |
+| Klicks auf Empfehlung | Zähler (keine untergeordneten Beziehungen) | `event3` |
 
 | Benutzerdefinierte Insight-Variablen | `s_code`-Variable |
 |---|---|
 | Traffic-Eigenschaft 1-5 | `prop1, prop2, prop3, prop4, prop5` |
 
-Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die Anfangskonfiguration für diese Ereignisse ist in allen Report Suite-Vorlagen gleich. Ereignisse mit einer N/A Variablen „s_code“ müssen nicht eingestellt werden, da sie automatisch bereitgestellt werden.
+Die folgende Tabelle enthält eine Liste der Standard-Commerce-Ereignisse. Die Erstkonfiguration für diese Ereignisse ist in allen Report Suite-Vorlagen identisch. Ereignisse mit der Variablen s_code vom Typ N/A müssen nicht festgelegt werden, sondern werden automatisch bereitgestellt.
 
-| Standard-Verkaufsereignisse | Typ | `s_code`-Variable |
+| Commerce-Standardereignisse | Typ | `s_code`-Variable |
 |---|---|---|
 | Umsatz | Zähler | `purchase` |
 | Bestellungen | Zähler | `purchase` |
@@ -43,7 +49,7 @@ Die folgende Tabelle enthält eine Liste der Standard-Verkaufsereignisse. Die An
 | Checkouts | Zähler | `scCheckout` |
 | Zusatz zum Warenkorb | Zähler | `scAdd` |
 | Entnahme aus Warenkorb | Zähler | `scRemove` |
-| Besuche | Zähler (keine Subrelationen) | nicht angegeben |
-| Seitenansichten | Zähler (keine Subrelationen) | nicht angegeben |
-| Unique Visitors pro Tag | Zähler (keine Subrelationen) | nicht angegeben |
-| Unique Visitors | Zähler (keine Subrelationen) | nicht angegeben |
+| Besuche | Zähler (keine untergeordneten Beziehungen) | nicht angegeben |
+| Seitenansichten | Zähler (keine untergeordneten Beziehungen) | nicht angegeben |
+| Unique Visitors pro Tag | Zähler (keine untergeordneten Beziehungen) | nicht angegeben |
+| Unique Visitors | Zähler (keine untergeordneten Beziehungen) | nicht angegeben |

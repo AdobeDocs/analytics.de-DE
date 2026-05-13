@@ -5,10 +5,15 @@ feature: Workspace Basics
 title: Projekt-Debugger
 role: User
 exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
-source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
+TQID: https://experienceleague.adobe.com/-A6Q0J2-zNTdnl-DamTjPURbBU5epwoPsAqdPoDtuvc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 3%
+source-wordcount: 466
+ht-degree: 4%
 
 ---
 
@@ -31,7 +36,7 @@ Der Projekt-Debugger unterstützt Sie und den Adobe-Support bei der Fehlerbehebu
 So aktivieren Sie den Debugger:
 
 1. Wählen **[!UICONTROL Hilfe]** > **[!UICONTROL Debugger aktivieren]** aus dem Analysis Workspace-Projektmenü.
-1. Wählen **&#x200B;**&#x200B;im Dialogfeld **[!UICONTROL Debugger aktivieren]** die Option OK aus.
+1. Wählen **** im Dialogfeld **[!UICONTROL Debugger aktivieren]** die Option OK aus.
 1. Bestätigen Sie, wenn der Browser Sie auffordert, die Seite oder Site neu zu laden.
 
 
@@ -41,7 +46,7 @@ Wenn Sie den Debugger aktiviert haben, verfügen alle Visualisierungen in Ihrem 
 
 So verwenden Sie den Debugger für eine bestimmte Visualisierung:
 
-1. Wählen ![&#x200B; oben &#x200B;](/help/assets/icons/Bug.svg) der Visualisierung „Bug“ aus.
+1. Wählen ![ oben ](/help/assets/icons/Bug.svg) der Visualisierung „Bug“ aus.
 
    ![Debugger-Kontextmenü](assets/debugger-context-menu.png)
 
@@ -94,5 +99,5 @@ Wiederholen Sie die obigen Schritte für jede andere Visualisierung, die Sie beh
 Deaktivieren des Debuggers:
 
 1. Wählen **[!UICONTROL Hilfe]** > **[!UICONTROL Debugger deaktivieren]** aus dem Analysis Workspace-Projektmenü aus.
-1. Wählen **&#x200B;**&#x200B;im Dialogfeld **[!UICONTROL Debugger deaktivieren]** die Option OK aus.
+1. Wählen **** im Dialogfeld **[!UICONTROL Debugger deaktivieren]** die Option OK aus.
 1. Bestätigen Sie, wenn der Browser Sie auffordert, die Seite oder Site neu zu laden.

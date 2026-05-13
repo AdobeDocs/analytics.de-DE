@@ -4,10 +4,14 @@ keywords: ftp;sftp
 title: Datenquellen – Übersicht
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+TQID: https://experienceleague.adobe.com/Mq4r5p1872tIxfjts7HOq50XWky12Oy4fTi9ajzbAsc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 96%
+source-wordcount: 455
+ht-degree: 58%
 
 ---
 
@@ -15,11 +19,11 @@ ht-degree: 96%
 
 Sie können Analytics nutzen, um FTP-basierte Datenquellen zu erstellen und zu verwalten, wodurch die FTP-Dateiübertragung genutzt werden kann, um Offline- oder historische Daten in Experience Cloud zu importieren.
 
-Nach der Erstellung der Data Sources-Instanz stellt das Tool einen FTP-Speicherort bereit, den Sie zum Hochladen von Data Sources-Dateien verwenden können. Data Sources erkennt und verarbeitet die Dateien nach dem Hochladen automatisch. Nach der Verarbeitung der Dateien stehen die Daten für Analytics-Berichte zur Verfügung.
+Nachdem Sie eine Data Sources-Instanz erstellt haben, stellt das Tool einen FTP-Speicherort bereit, mit dem Sie Data Sources-Dateien hochladen können. Nach dem Hochladen werden sie von Data Sources automatisch gefunden und verarbeitet. Nachdem die Dateien verarbeitet wurden, stehen die Daten für das Analytics-Reporting zur Verfügung.
 
-Auf dem Register [!UICONTROL Erstellen] können Sie im Data Sources Manager eine neue Data Sources-Instanz für die ausgewählte Report Suite konfigurieren. Der [!UICONTROL Data Sources-Assistent] führt Sie durch den Erstellungsvorgang einer Data Sources-Vorlage und legt einen FTP-Speicherort zum Hochladen der Daten an.
+Auf [!UICONTROL  Registerkarte ]Erstellen“ im Datenquellen-Manager können Sie eine neue Datenquelleninstanz für die ausgewählte Report Suite konfigurieren. Der [!UICONTROL Datenquellen-Assistent] führt Sie durch den Prozess der Erstellung einer Datenquellenvorlage und erstellt einen FTP-Speicherort für das Hochladen von Daten.
 
-Suchen Sie im Fenster [!UICONTROL Data Sources verwalten] nach Ihrer Datenquelle und wählen Sie den Link zu den FTP-Informationen aus. Ihre FTP-Anmeldedaten werden im Fenster [!UICONTROL Eine Datenquelle aktivieren] im Abschnitt [!UICONTROL Hochladen/FTP-Info] angezeigt.
+Suchen Sie im Fenster [!UICONTROL Datenquellen verwalten] Ihre Datenquelle und klicken Sie auf den Link FTP-Informationen . Ihre FTP-Anmeldeinformationen werden im Fenster [!UICONTROL Aktivieren einer Data Source] im Abschnitt [!UICONTROL Hochladen/FTP-Informationen] angezeigt.
 
 Informationen zu FTP-Beschränkungen und zur Datenaufbewahrung finden Sie unter [FTP-Beschränkungen und Datenaufbewahrung](/help/export/ftp-and-sftp/ftp-limits.md).
 
@@ -30,6 +34,6 @@ Importdatei: [!DNL Classifications.tab]
 
 Finish-Datei: [!DNL Classifications.fin]
 
-Wenn Sie Ihre Datenquellen- oder SAINT-Datei ohne zugehörige [!DNL .fin]-Datei hochladen, fügt Adobe Ihre Datei nicht zur Verarbeitungswarteschlange hinzu. Die Datei bleibt im FTP-Konto und wird nicht auf Ihre Daten in der [!UICONTROL Experience Cloud] angewendet. Sie werden hierüber nur dann benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] der Berichterstellung angegeben haben. Wenn hier keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
+Wenn Sie Ihre Datenquellen- oder SAINT-Datei ohne zugehörige [!DNL .fin]-Datei hochladen, fügt Adobe Ihre Datei nicht zur Verarbeitungswarteschlange hinzu. Die Datei bleibt im FTP-Konto und wird nicht auf Ihre Daten in der [!UICONTROL Experience Cloud] angewendet. Sie werden nur benachrichtigt, wenn Sie Ihre E-Mail-Adresse als [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] des Berichts eingegeben haben. Wenn keine E-Mail-Adresse in dieses Feld eingegeben wird, wird keine Benachrichtigung gesendet.
 
-Wenn Sie Ihre Datei zusammen mit einer [!DNL .fin]-Datei hochgeladen haben, die Datei jedoch fehlerhaft ist, wird sie zur Verarbeitung gesendet. Der Fehler sorgt dann dafür, dass die Verarbeitung abgebrochen und die Datei an einen Fehlerordner gesendet wird. In diesem Fall wird eine Benachrichtigung an die im Feld [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] angegebene E-Mail-Adresse gesendet. Wenn keine E-Mail-Adresse angegeben ist, wird keine Benachrichtigung gesendet.
+Wenn Sie Ihre Datei zusammen mit einer [!DNL .fin]-Datei hochgeladen haben, die Datei jedoch fehlerhaft ist, wird sie zur Verarbeitung gesendet. Der Fehler sorgt dann dafür, dass die Verarbeitung abgebrochen und die Datei an einen Fehlerordner gesendet wird. In diesem Fall wird eine Benachrichtigung an die im Feld [!UICONTROL Benachrichtigungsempfänger] im Fenster [!UICONTROL FTP-Konto erstellen] angegebene E-Mail-Adresse gesendet. Wenn keine E-Mail-Adresse eingegeben wird, wird keine Benachrichtigung gesendet.

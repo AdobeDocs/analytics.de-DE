@@ -4,10 +4,16 @@ description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in 
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/OLSxdEz9--Xe8bCRH6-TimsPloUUdesg4-wrBNL3uPU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 97%
+source-wordcount: 698
+ht-degree: 76%
 
 ---
 
@@ -21,20 +27,20 @@ Ein Dokument zum Lösungsentwurf (auch als Referenz zum Lösungsentwurf oder als
 
 ## Eigentum und Speicherort des Entwurfspapiers
 
-* **Stellen Sie fest, wer in Ihrem Unternehmen für die Verwaltung des Lösungsentwurfsdokuments verantwortlich ist.** Diese Rolle kann entweder eine Einzelperson oder ein Team innehaben. Stellen Sie sicher, dass der Lösungsentwurf auch durch Rollenänderungen oder Organisationsänderungen erhalten bleibt. Es handelt sich um ein lebendiges Dokument, das ordnungsgemäß aufbewahrt werden muss.
-* **Stellen Sie fest, wo sich Ihr Lösungsdokument befindet.** Es gibt keinen einzigen idealen Ort, an dem sich Lösungsdesigndokumente befinden, aber sie befinden sich normalerweise an einem gut zugänglichen internen Ort. Beispiele sind eine freigegebene Tabelle oder ein gemeinsamer Arbeitsbereich wie SharePoint oder ein internes Wiki. Sie müssen nicht für jeden bearbeitbar sein, aber es ist hilfreich, wenn zumindest die Anzeige möglich ist,
+* **Legen Sie fest, wer in Ihrem Unternehmen für die Pflege des Lösungs-Design-Dokuments verantwortlich ist.** Diese Rolle kann entweder eine Einzelperson oder ein Team sein. Stellen Sie sicher, dass der Lösungsentwurf auch durch Rollenänderungen oder Organisationsänderungen erhalten bleibt. Es handelt sich um ein lebendiges Dokument, das ordnungsgemäß aufbewahrt werden muss.
+* **Bestimmen Sie, wo sich Ihr Lösungsdokument befinden wird.** Es gibt keinen optimalen Ort für Lösungs-Design-Dokumente, aber sie leben normalerweise an einem weit zugänglichen internen Ort. Beispiele sind eine freigegebene Tabelle oder ein gemeinsamer Arbeitsbereich wie SharePoint oder ein internes Wiki. Sie müssen nicht für jeden bearbeitbar sein, aber es ist hilfreich, wenn zumindest die Anzeige möglich ist,
 
 ## Geschäftsanforderungen definieren
 
 Bei der Ermittlung der zu erfassenden Daten ist es leicht, „alles“ zu sagen, was jedoch schnell schwer zu handhaben sein kann und sogar weniger Wert bieten kann als die Erfassung präziserer Datenmengen.
 
-1. **Bestimmen Sie die wichtigen Leistungsindikatoren.** Was sollen die Besucher letztendlich tun? Die Antwort auf diese Frage variiert je nach Branche und kann mehrere Dinge umfassen. Beispiele sind Käufe, Registrierungen oder Anzeigenklicks.
-1. **Ermittlung der wichtigsten zu erfassenden Daten.** Stellen Sie Geschäftsfragen, auf die Sie spezifische Antworten erhalten möchten. Antworten auf diese Fragen würden Einblicke in die Verbesserung der KPIs geben.
-1. **Nehmen Sie diese Fragen auf und bestimmen Sie, was Sie für das Tracking benötigen.** Gruppieren Sie sie in Dimensionen und Metriken.
+1. **Bestimmen der wichtigsten Leistungsindikatoren.** Was möchten Sie letztendlich von den Besuchern? Die Antwort auf diese Frage variiert je nach Branche und kann mehrere Dinge umfassen. Beispiele sind Käufe, Registrierungen oder Anzeigenklicks.
+1. **Finden Sie die wichtigsten zu erfassenden Daten heraus.** Stellen Sie Geschäftsfragen, auf die Sie spezifische Antworten wünschen. Antworten auf diese Fragen würden Einblicke in die Verbesserung der KPIs geben.
+1. **Stellen Sie sich diese Fragen und ermitteln Sie Ihre Tracking-Anforderungen.** Gruppieren Sie sie in Dimensionen und Metriken.
    * Dimensionen sind Variablen, die Text enthalten. Beispiele wären der interne Suchbegriff, die Produktkategorie oder der Name eines Bereichs, auf den ein Besucher geklickt hat.
    * Metriken sind spezifische Ereignisse, die ein Besucher ausführen soll - wenn er eine gewünschte Aktion durchführt, steigt die Zahl um 1. Beispiele wären das Senden einer Bestellung, das Abonnieren eines Newsletters oder das Senden einer Umfrageantwort.
-1. **Ordnen Sie Dimensionen und Metriken einer Seite oder Tabelle zu.** Diese Seite oder Tabelle wird letztendlich zu Ihrem Lösungsdesigndokument. Einige hilfreiche Spalten oder Aufzählungspunkte, die eingeschlossen werden sollen:
-   * Implementierungsstatus: Geplant, aktiv, inaktiv, Probleme usw. Dadurch werden die Betrachter über den Status des Dokuments informiert, wenn die Variable implementiert wurde oder Probleme mit der Datenerfassung auftreten.
+1. **Ordnen Sie Dimensionen und Metriken einer Seite oder einem Arbeitsblatt zu.** Diese Seite oder Tabelle wird letztendlich zu Ihrem Lösungs-Design-Dokument. Einige hilfreiche Spalten oder Aufzählungspunkte, die eingeschlossen werden sollen:
+   * Implementierungsstatus: Geplant, aktiv, inaktiv, Probleme usw. Dies würde die Betrachter des Dokuments über den Status der Variablen informieren, wenn sie implementiert wurde oder Probleme mit der Datenerfassung auftreten.
    * Variablenname: Beispiel: „Interne Suchbegriffe“. Dieser Wert ist der Wert, den Analysten bei der Arbeit in Analytics sehen.
    * Zugeordnete Analytics-Variable: welcher standardmäßigen oder benutzerdefinierten Analytics-Variable Werte zugewiesen werden sollen. Dimensionen fallen normalerweise unter eVars, während Metriken unter Ereignisse fallen.
    * Logik: Eine Beschreibung, wie die Variable festgelegt wird und was deren Wert bestimmt. Beispiel: „Nur auf internen Suchseiten eingestellt. Übernimmt den Wert des Abfragezeichenfolgenparameters q.“

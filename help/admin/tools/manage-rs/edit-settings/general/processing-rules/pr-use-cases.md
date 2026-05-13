@@ -5,10 +5,15 @@ title: Anwendungsfälle für Verarbeitungsregeln
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
+TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 24%
+source-wordcount: 832
+ht-degree: 21%
 
 ---
 
@@ -49,7 +54,7 @@ Im folgenden Beispiel werden mehrere Variablen mit unterschiedlichen Kontextdate
 
 +++Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 
-Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) &#x200B;](/help/implement/vars/page-vars/contextdata.md).
+Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) ](/help/implement/vars/page-vars/contextdata.md).
 
 Die [!UICONTROL Kontextvariablen] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, ihn jedoch nicht an die aktuelle Report Suite gesendet haben, können Sie ihn manuell hinzufügen:
 
@@ -68,7 +73,7 @@ Die folgende Regeldefinition legt für jeden Treffer, der eine bestimmte Kontext
 
 +++Füllen einer Variablen mithilfe eines Abfragezeichenfolgenparameters
 
-Sie können eine Variable mithilfe eines Abfragezeichenfolgenparameters auffüllen. In den meisten Fällen würden Sie Ihre Implementierung normalerweise anpassen, um die gewünschten Werte für die Abfragezeichenfolge zu erhalten. Wenn Sie Ihre Implementierung jedoch nicht einfach anpassen können, um diese Daten zu erfassen, sind Verarbeitungsregeln eine geeignete Alternative. Wenn das Auffüllen aufgrund eines Schreibfehlers oder einer vergleichbaren Ursache fehlschlägt, können Sie die Variable mit Hilfe von Verarbeitungsregeln auffüllen.
+Sie können eine Variable mithilfe eines Abfragezeichenfolgenparameters auffüllen. In den meisten Fällen würden Sie Ihre Implementierung normalerweise anpassen, um die gewünschten Werte für die Abfragezeichenfolge zu erhalten. Wenn Sie Ihre Implementierung jedoch nicht einfach anpassen können, um diese Daten zu erfassen, sind Verarbeitungsregeln eine geeignete Alternative. Wenn ein Tippfehler oder ein ähnliches Problem verhindert, dass der Wert ausgefüllt wird, können Sie die Variable mithilfe von Verarbeitungsregeln ausfüllen.
 
 Überprüfen Sie immer, ob ein Wert leer ist oder den erwarteten Wert enthält, bevor Sie ihn überschreiben.
 
@@ -95,7 +100,7 @@ Ereignisse können basierend auf jeder in den Verarbeitungsregeln verfügbaren B
 | Regelsatz | Wert |
 | --- | --- |
 | Bedingung | Wenn [!UICONTROL Seitenname] gleich „Produktübersicht“ ist |
-| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) &#x200B;] auf [!UICONTROL benutzerdefinierter Wert] `1` |
+| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) ] auf [!UICONTROL benutzerdefinierter Wert] `1` |
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der ein bedingt festgelegtes Ereignis angezeigt wird](assets/set-product-view-event.png)
 
@@ -134,7 +139,7 @@ Adobe empfiehlt, die restriktivste Abgleichoption zu verwenden, um unerwünschte
 Sie können ein bestimmtes Ereignis aus einem Treffer mithilfe von Verarbeitungsregeln entfernen oder verwerfen, ohne Ihre Implementierung zu ändern. Wenn Sie für das Ereignis den benutzerdefinierten `0` festlegen, wird das Ereignis nicht gezählt.
 
 | Regelsatz | Wert |
-| Bedingung | Keine (immer ausführen) |
+| Bedingung | Keine (immer ausgeführt) |
 | Aktion | [!UICONTROL Ereignis festlegen] Event1 auf [!UICONTROL Benutzerdefinierter Wert] `0` |
 
 ![Screenshot der Oberfläche für Verarbeitungsregeln, auf der zu sehen ist, wie ein Ereignis entfernt wird](assets/remove_event.png)

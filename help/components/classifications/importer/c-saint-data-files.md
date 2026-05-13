@@ -1,12 +1,18 @@
 ---
-description: Mit dem Importeur können Sie Classification-Daten in großen Mengen in Form einer Classification-Datendatei in die Analytics-Berichterstellung hochladen. Für den Import ist ein besonderes Dateiformat erforderlich, damit die Daten erfolgreich hochgeladen werden.
+description: Mit dem Import-Tool können Sie Classification-Daten in einer -Datei stapelweise in Analytics Reporting hochladen. Der Import erfordert ein bestimmtes Dateiformat für erfolgreiche Datenuploads.
 title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 90%
+source-wordcount: 1045
+ht-degree: 39%
 
 ---
 
@@ -14,9 +20,9 @@ ht-degree: 90%
 
 {{classification-importer-deprecation}}
 
-Mit dem Importeur können Sie Classification-Daten in großen Mengen in Form einer Classification-Datendatei in die Analytics-Berichterstellung hochladen. Für den Import ist ein besonderes Dateiformat erforderlich, damit die Daten erfolgreich hochgeladen werden.
+Mit dem Import-Tool können Sie Classification-Daten in einer -Datei stapelweise in Analytics Reporting hochladen. Der Import erfordert ein bestimmtes Dateiformat für erfolgreiche Datenuploads.
 
-Zum Erstellen gültiger Datendateien können Sie eine Vorlage herunterladen, die Ihnen eine Dateistruktur zur Verfügung stellt, in die Sie die Classification-Daten einfügen können. Weitere Informationen finden Sie unter [Klassifizierungsvorlage herunterladen](/help/components/classifications/importer/c-download-saint-data.md).
+Um Ihnen beim Erstellen gültiger Datendateien zu helfen, können Sie eine Vorlagendatei herunterladen, die eine Dateistruktur bereitstellt, in die Sie die Klassifizierungsdaten einfügen können. Weitere Informationen finden Sie unter [Klassifizierungsvorlage herunterladen](/help/components/classifications/importer/c-download-saint-data.md).
 
 Weitere Informationen zu Zeichenbeschränkungen in Klassifizierungen finden Sie unter [Allgemeine Dateistruktur](/help/components/classifications/importer/c-saint-data-files.md).
 
@@ -26,12 +32,12 @@ Die folgende Abbildung zeigt eine Beispieldatendatei:
 
 ![](assets/completed-saint-file.png)
 
-Eine Datendatei muss den folgenden Strukturregeln entsprechen:
+Eine Datendatei muss die folgenden Strukturregeln einhalten:
 
-* Der Wert von Classifications darf nicht 0 (null) sein.
+* Klassifizierungen dürfen keinen Wert von 0 (null) haben.
 * Adobe empfiehlt, die Anzahl der Spalten für den Import und Export auf 30 zu begrenzen.
-* Hochgeladene Dateien sollten die Zeichenkodierung UTF-8 ohne BOM verwenden.
-* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [auskommentiert](/help/components/classifications/importer/importer-faq.md) ist. Sonderzeichen umfassen:
+* Hochgeladene Dateien sollten UTF-8 ohne BOM-Zeichenkodierung verwenden.
+* Sonderzeichen wie Tabulatoren, Zeilenumbrüche und Anführungszeichen können in eine Zelle eingebettet werden, wenn das v2.1-Dateiformat angegeben und die Zelle ordnungsgemäß [auskommentiert](/help/components/classifications/importer/importer-faq.md) ist. Zu den Sonderzeichen gehören:
 
   ```text
   \t     tab character 
@@ -43,23 +49,23 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
   Das Komma ist kein Sonderzeichen.
 
 * Klassifizierungsnamen dürfen kein Caret (^) enthalten, da dieses Zeichen eine Unterklassifizierung bezeichnet.
-* Vorsicht bei der Verwendung von Bindestrichen. Wenn Sie beispielsweise einen Bindestrich (-) in einem sozialem Begriff verwenden, erkennt Social ihn als [!DNL Not]-Operator (Minuszeichen). Wenn Sie beispielsweise mit dem Import *`fragrance-free`* als Begriff angeben, interpretiert Social den Begriff folgendermaßen: Parfüm *`minus`* frei. Dadurch werden Wortlaute mit den Begriffen *`fragrance`*, jedoch nicht *`free`* erfasst.
+* Seien Sie vorsichtig, wenn Sie einen Bindestrich verwenden. Wenn Sie beispielsweise einen Bindestrich (-) in einem sozialem Begriff verwenden, erkennt Social ihn als [!DNL Not]-Operator (Minuszeichen). Wenn Sie beispielsweise mit dem Import *`fragrance-free`* als Begriff angeben, interpretiert Social den Begriff folgendermaßen: Parfüm *`minus`* frei. Dadurch werden Wortlaute mit den Begriffen *`fragrance`*, jedoch nicht *`free`* erfasst.
 * Zeichenbeschränkungen werden erzwungen, um Berichtdaten zu klassifizieren. Wenn Sie beispielsweise eine Klassifizierungstextdatei für Produkte (*`s.products`*) mit Produktnamen mit mehr als 100 Zeichen (Byte) hochladen, werden die Produkte nicht in den Berichten angezeigt. Für Trackingcodes und für alle benutzerdefinierten Konversionsvariablen (eVars) sind jeweils 255 Byte zulässig. Diese Richtlinie erstreckt sich auch auf Spaltenwerte für Klassifizierungs- und Unterklassifizierungen, für die dieselbe Beschränkung von 255 Byte gilt.
 * Tabulatorgetrennte Datendatei (Sie können die Vorlagendatei mit jeder Tabellenkalkulationsanwendung oder einem Texteditor erstellen).
 * Die Dateierweiterung muss entweder `.tab` oder `.txt` lauten.
-* Ein Rautenzeichen (#) kennzeichnet eine Zeile als Benutzerkommentar. Sämtliche mit # beginnenden Zeilen werden von Adobe ignoriert.
+* Ein Rautenzeichen (#) kennzeichnet die Zeile als Benutzerkommentar. Adobe ignoriert alle Zeilen, die mit # beginnen.
 * Ein Doppelpfund-Zeichen gefolgt von SC (`## SC`) kennzeichnet die Zeile als Vorab-Header-Kommentar, der vom Reporting verwendet wird. Löschen Sie diese Zeilen nicht.
-* Classification-Exporte können aufgrund von Zeilenumbruchzeichen im Schlüssel doppelte Schlüssel aufweisen. Bei einem FTP- oder Browser-Export können Sie dies vermeiden, indem Sie Anführungszeichen für das FTP-Konto aktivieren. Dadurch wird jeder Schlüssel mit Zeilenumbruchzeichen in Anführungszeichen gesetzt.
-* Die Zelle C1 in der ersten Zeile der Importdatei enthält eine Versionskennung, die festlegt, wie Classifications die Verwendung von Anführungszeichen im Rest der Datei handhaben.
+* Klassifizierungsexporte können aufgrund der Zeilenumbruchzeichen im Schlüssel doppelte Schlüssel aufweisen. In einem FTP- oder Browser-Export kann dies behoben werden, indem Anführungszeichen für das FTP-Konto aktiviert werden. Dadurch werden alle Schlüssel mit Zeilenumbrüchen in Anführungszeichen gesetzt.
+* Zelle C1 in der ersten Zeile der Importdatei enthält eine Versionskennung, die bestimmt, wie Klassifizierungen die Verwendung von Anführungszeichen im Rest der Datei handhaben.
 
-   * v2.0 ignoriert Anführungszeichen und nimmt an, dass sie alle Bestandteil der angegebenen Schlüssel und Werte sind. Beachten Sie z. B. diesen Wert: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;. v2.0 würde dies wörtlich wie folgt interpretieren: &quot;Dies ist &quot;&quot;irgendein Wert&quot;&quot;&quot;.
-   * v2.1 teilt Classifications mit, dass sie Anführungszeichen als Bestandteil der in Excel-Dateien verwendeten Dateiformatierungen betrachten sollen. Daher würde v2.1 das obenstehende Beispiel wie folgt umformatieren: Dies ist &quot;irgendein Wert&quot;.
-   * Es kann zu Problemen kommen, wenn in der Datei v2.1 angegeben ist, jedoch tatsächlich v2.0 gewünscht wurde – und zwar, wenn Anführungszeichen auf eine Weise verwendet werden, die bei Excel-Formatierung nicht zulässig wäre. Z. B., wenn folgender Wert vorliegt: „VP NO REPS“ S/l Dress w/ Overlay. Im Fall von v2.1 ist diese Formatierung nicht korrekt (der Wert sollte von öffnenden und schließenden Anführungszeichen eingeschlossen sein, und Anführungszeichen, die Bestandteil des eigentlichen Werts sind, müssen von Anführungszeichen umgeben sein), und Classifications funktionieren über diesen Punkt hinaus nicht.
+   * v2.0 ignoriert Anführungszeichen und geht davon aus, dass sie alle Teil der angegebenen Schlüssel und Werte sind. Betrachten Sie beispielsweise diesen Wert: „Dies ist „ein Wert“. v2.0 würde dies wörtlich interpretieren als: „Dies ist „ein gewisser Wert“.
+   * v2.1 weist Klassifizierungen an anzunehmen, dass Anführungszeichen Teil der in Excel-Dateien verwendeten Dateiformatierung sind. Daher würde v2.1 das obige Beispiel wie folgt formatieren: Dies ist „ein Wert“.
+   * Probleme können auftreten, wenn v2.1 in der Datei angegeben ist, aber was tatsächlich gewünscht wird, ist v2.0 - d. h. wenn Anführungszeichen in einer Weise verwendet werden, die unter Excel-Formatierung unzulässig ist. Beispiel: Sie haben den Wert: „VP NO REPS“ S/l Dress w/ Overlay. In Version 2.1 ist dies eine falsche Formatierung (der Wert sollte von öffnenden und schließenden Anführungszeichen umgeben sein und Anführungszeichen, die Teil des tatsächlichen Werts sind, sollten in Anführungszeichen gesetzt werden), und Klassifizierungen funktionieren über diesen Punkt hinaus nicht.
    * Vergewissern Sie sich, dass Sie eine der folgenden Aktionen durchführen: Ändern Sie das Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den Dateien ändern, die Sie hochladen, ODER setzen Sie die Anführungszeichen für Excel in allen Ihren Dateien korrekt um.
 
-* Die erste (Nicht-Kommentar)-Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Für Spaltenüberschriften ist im Importeur ein bestimmtes Format erforderlich. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/classifications/importer/c-saint-data-files.md).
-* Unmittelbar auf die Überschriftenzeile in einer Datendatei folgen die Datenzeilen. Jede Zeile mit Daten sollte ein Datenfeld für jede Spaltenüberschrift enthalten.
-* Die Datendatei unterstützt die folgenden Steuercodes, die von Adobe genutzt werden, um die Datei zu strukturieren und Classification-Daten korrekt zu importieren:
+* Die erste (Nicht-Kommentar)-Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Das Import-Tool erfordert ein bestimmtes Format für Spaltenüberschriften. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/classifications/importer/c-saint-data-files.md).
+* Unmittelbar nach der Kopfzeile in einer Datendatei befinden sich die Datenzeilen. Jede Datenzeile sollte ein Datenfeld für jede Spaltenüberschrift enthalten.
+* Die Datendatei unterstützt die folgenden Steuercodes, mit denen Adobe die Datei strukturiert und Klassifizierungsdaten korrekt importiert:
 
 <table id="table_0548F2E58B6644208147434EB9B3C21B"> 
  <thead> 
@@ -71,22 +77,22 @@ Eine Datendatei muss den folgenden Strukturregeln entsprechen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>&lt;Neue Zeile&gt; </p> </td> 
-   <td colname="col2"> <p>Ein Neue-Zeile-Zeichen ist das einzig unterstützte Trennzeichen zwischen Datenzeilen/Datensätzen in der Datendatei. In der Regel müssen Sie diese Zeichen nur spezifisch einfügen, wenn Sie ein Programm zur automatischen Erzeugung von Datendateien schreiben. </p> </td> 
+   <td colname="col2"> <p>Ein neues Zeilenzeichen ist das einzige unterstützte Trennzeichen zwischen Datenzeilen/Datensätzen in der Datendatei. Normalerweise müssen Sie diese Zeichen nur speziell einfügen, wenn Sie ein Programm schreiben, um automatisch Datendateien zu generieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Fordert an, dass Adobe automatisch eine eindeutige ID für dieses Element erzeugt. </p> <p>In Zusammenhang mit Kampagnen weist dieser Steuercode Adobe an, jedem kreativen Element eine Kennzeichnung zuzuweisen. Weitere Informationen finden Sie unter <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Schlüssel</a>. </p> </td> 
+   <td colname="col2"> <p>Fordert Adobe an, automatisch eine eindeutige ID für dieses Element zu generieren. </p> <p>Im Kampagnenkontext weist dieser Kontrollwert Adobe an, jedem Kreativelement eine Kennung zuzuweisen. Weitere Informationen finden Sie unter <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Schlüssel</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Zeigt an, dass die Datenspalte den dem Element zugeordneten Datenbereich widerspiegelt. Weitere Informationen finden Sie unter <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Datum</a>. </p> </td> 
+   <td colname="col1"> <p>~Zeitraum~ </p> </td> 
+   <td colname="col2"> <p>Gibt an, dass die Datenspalte den mit dem Element verknüpften Datumsbereich darstellt. Weitere Informationen finden Sie unter <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Datum</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Leeres Feld </p> </td> 
-   <td colname="col2"> <p>Repräsentiert einen NULL-Wert für das aktuelle Feld. Verwenden Sie dies, wenn eine bestimmte Datenspalte nicht für den aktuellen Datensatz einbezogen werden soll. </p> </td> 
+   <td colname="col2"> <p>Stellt einen NULL-Wert für das aktuelle Feld dar. Verwenden Sie dies, wenn eine bestimmte Datenspalte nicht auf den aktuellen Datensatz anwendbar ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>PRO-Modifizierer </p> </td> 
+   <td colname="col1"> <p>PER-Modifikatoren </p> </td> 
    <td colname="col2"> <p>Zeigt an, dass die Datenspalte <span class="wintitle">PER-Modifizierer</span>-Felder repräsentiert. Weitere Informationen finden Sie unter <a href="/help/components/classifications/importer/c-saint-data-files.md"  >PER-Modifizierer-Überschriften</a>. </p> </td> 
   </tr> 
  </tbody> 

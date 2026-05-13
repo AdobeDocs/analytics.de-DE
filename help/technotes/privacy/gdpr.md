@@ -1,19 +1,24 @@
 ---
-description: Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
+description: In diesem Dokument wird beschrieben, was Sie in Adobe Analytics tun müssen, um die DSGVO-Zugriffs- und -Löschberechtigungen Ihrer betroffenen Personen zu unterstützen.
 title: Adobe Analytics und die DSGVO
 feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: 480
+ht-degree: 79%
 
 ---
 
 # Adobe Analytics und die DSGVO
 
-Dieses Dokument beschreibt, welche Schritte Sie in Adobe Analytics durchführen müssen, um DSGVO-Zugriffs- und -Löschberechtigungen von Datensubjekten zu unterstützen.
+In diesem Dokument wird beschrieben, was Sie in Adobe Analytics tun müssen, um die DSGVO-Zugriffs- und -Löschberechtigungen Ihrer betroffenen Personen zu unterstützen.
 
 >[!IMPORTANT]
 >
@@ -37,6 +42,6 @@ Machen Sie sich mit der [DSGVO-Verarbeitung in Adobe Analytics](https://www.adob
 
 Wir wissen, dass Sie die individuellen Daten Ihrer Report Suites am besten kennen. Deshalb bietet Adobe Ihnen die Möglichkeit, Ihre Data-Governance-Einstellungen und -Präferenzen selbst zu definieren.
 
-Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz festlegen, die direkt oder indirekt identifizierbare Daten enthalten, damit Sie Zugriffs- und Löschanfragen zu diesen Daten einreichen können. Bei jeder Anfrage werden die in der Analytics Data Governance-Benutzeroberfläche definierten Beschriftungen für die spezifische ID, die mit der Anfrage übereinstimmt, berücksichtigt.
+Hierzu umfasst Adobe Analytics eine Data-Governance-Benutzeroberfläche, über die Sie als Datenverantwortlicher [Datenschutzbeschriftungen](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels) zu Ihren Analytics Report Suites sowie allen Dimensionen und Metriken in diesen Report Suites festlegen können. Sie können die Spalten in Ihrem Datensatz identifizieren, die direkt identifizierbare Daten oder indirekt identifizierbare Daten enthalten, damit Sie Ihre Zugriffs- und Löschanfragen für diese Daten senden können. Für jede Anfrage werden die in der Data Governance-Benutzeroberfläche von Analytics definierten Kennzeichnungen für die spezifische Kennung berücksichtigt, die dieser Anfrage entspricht.
 
 Weitere Informationen zum Festlegen von Beschriftungen finden Sie unter [Kennzeichnen von Report Suite-Daten](/help/admin/tools/privacy-labeling/labeling-overview.md).

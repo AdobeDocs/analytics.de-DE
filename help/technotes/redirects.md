@@ -1,31 +1,36 @@
 ---
-description: Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
+description: Leitet den Browser an einen neuen Speicherort ohne Benutzerinteraktion weiter. Sie werden entweder im Webbrowser (Client-seitige Weiterleitung) oder auf dem Webserver (Server-seitige Weiterleitung) ausgeführt.
 keywords: Analytics-Implementierung
 title: Umleitungen und Aliase
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 69%
 
 ---
 
 # Umleitungen und Aliase
 
-Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
+Leitet den Browser an einen neuen Speicherort ohne Benutzerinteraktion weiter. Sie werden entweder im Webbrowser (Client-seitige Weiterleitung) oder auf dem Webserver (Server-seitige Weiterleitung) ausgeführt.
 
 ## Umleitungen und Aliase {#aliases}
 
-Weiterleitungen verweisen den Browser ohne Benutzerinteraktion zu einem neuen Standort. Sie werden entweder auf Webbrowser-Ebene (clientseitige Umleitungen) oder Webserver-Ebene (serverseitige Umleitungen) durchgeführt.
+Leitet den Browser an einen neuen Speicherort ohne Benutzerinteraktion weiter. Sie werden entweder im Webbrowser (Client-seitige Weiterleitung) oder auf dem Webserver (Server-seitige Weiterleitung) ausgeführt.
 
-Da bei Umleitungen keine Interaktion des Benutzers erforderlich ist, werden Umleitungen häufig durchgeführt, ohne dass der Benutzer dies bemerkt. Der einzige Hinweis auf eine Umleitung findet sich in der Adressleiste des Browsers. Die Adressleiste zeigt eine URL an, die sich von dem ursprünglich im Browser angefragten Link unterscheidet.
+Da Umleitungen keine Benutzerinteraktion erfordern, werden Umleitungen oft ausgeführt, ohne dass der Benutzer es bemerkt. Das einzige, was darauf hinweist, dass eine Umleitung stattgefunden hat, ist die Adressleiste des Browsers. In der Adressleiste wird eine URL angezeigt, die sich von dem Link unterscheidet, den der Browser ursprünglich angefordert hat.
 
-Obwohl es nur zwei Typen von Umleitungen gibt, können sie auf verschiedene Arten implementiert werden. Clientseitige Umleitungen können beispielsweise auftreten, da die Webseite, auf die ein Benutzer seinen Browser verwiesen hat, Scripting oder einen speziellen HTML-Code enthält, der den Browser auf eine andere URL verweist. Serverseitige Umleitungen können auftreten, da die Seite serverseitiges Scripting enthält oder da der Webserver zum Verweisen des Benutzers auf eine andere URL konfiguriert wurde.
+Es gibt zwar nur zwei Arten von Umleitungen, sie können jedoch auf verschiedene Arten implementiert werden. Client-seitige Weiterleitungen können beispielsweise auftreten, weil die Web-Seite, auf die ein Benutzer verwiesen hat, Skripte oder speziellen HTML-Code enthält, der den Browser zu einer anderen URL umleitet. Server-seitige Weiterleitungen können auftreten, weil die Seite Server-seitige Skripterstellung enthält oder weil der Webserver so konfiguriert wurde, dass der Benutzer auf eine andere URL verweist.
 
 ## Analytics und Umleitungen {#aa-redirects}
 
-[!DNL Analytics] erfasst einige Daten aus dem Browser und ist auf bestimmte Browsereigenschaften angewiesen. Zwei dieser Eigenschaften, die „Verweisende URL“ (oder „Verweis“) und die „Aktuelle URL“, können durch eine serverseitige Umleitung geändert werden. Da der Browser erkennt, dass eine URL abgefragt wurde, jedoch eine andere URL zurückgegeben wurde, wird die verweisende URL entfernt. Demzufolge ist die verweisende URL leer, und [!DNL Analytics] würde dann melden, dass zu der Seite kein Referrer vorhanden wäre.
+[!DNL Analytics] erfasst einige Daten aus dem Browser und ist auf bestimmte Browsereigenschaften angewiesen. Zwei dieser Eigenschaften, die „verweisende URL“ (oder „verweisende URL„) und die „aktuelle URL“ können durch eine Server-seitige Umleitung geändert werden. Da der Browser erkennt, dass eine URL angefordert, aber eine andere URL zurückgegeben wurde, wird die verweisende URL gelöscht. Demzufolge ist die verweisende URL leer, und [!DNL Analytics] würde dann melden, dass zu der Seite kein Referrer vorhanden wäre.
 
 ## Beispiel: Browsen ohne Umleitungen {#browse-without}
 
@@ -38,7 +43,7 @@ Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht um
 
 ## Beispiel: Browsen mit Umleitungen {#browse-with}
 
-Umleitungen können dazu führen, dass der Browser die eigentliche verweisende URL ausblendet. Betrachten wir das folgende Szenario:
+Umleitungen können dazu führen, dass der Browser die wahre verweisende URL ausblendet. Betrachten wir das folgende Szenario:
 
 1. Der Benutzer verweist seinen Browser auf `https://www.google.com`, gibt *Discount-Airline Tickets* in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
 1. Die Adressleiste des Browser-Fensters zeigt die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` an. Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen. Der Browser zeigt auch eine Seite an, die die Suchergebnisse einschließlich einem Link zu einem Ihrer Domänennamen enthält: [!DNL https://www.flytohawaii.example/]. Diese *Vanity*-Domain ist konfiguriert, um den Benutzer auf `https://www.example.com/` / umzuleiten.
@@ -90,7 +95,7 @@ if(tempVar)
 
 ## Ändern des Weiterleitungsmechanismus {#modify}
 
-Da der Browser die verweisende URL abdeckt, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung durchführt (zum Beispiel den Webserver, den serverseitigen Code, den clientseitigen Code), um die Informationen zum ursprünglichen Verweis weiterzugeben. Wenn Sie auch die Link-URL des Alias aufzeichnen möchten, muss dies auch auf die endgültige Landingpage übertragen werden. Verwenden Sie die Variable *`s_pageURL`* , um die aktuelle URL zu überschreiben.
+Da der Browser die verweisende URL abschneidet, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung verarbeitet (z. B. Webserver, Server-seitiger Code, Client-seitiger Code), um die ursprünglichen Verweisinformationen weiterzugeben. Wenn Sie auch die URL des Alias-Links aufzeichnen möchten, muss diese ebenfalls an die endgültige Landingpage weitergeleitet werden. Verwenden Sie die Variable *`s_pageURL`* , um die aktuelle URL zu überschreiben.
 
 Da viele Möglichkeiten zur Implementierung einer Weiterleitung bestehen, müssen Sie ggf. mit Ihrer Web Operations-Gruppe oder Ihrem Online-Werbepartner die spezifischen Mechanismen bestimmen, die Weiterleitungen auf Ihrer Website ausführen.
 
@@ -123,18 +128,18 @@ Diese Variablen werden durch die folgenden Parameter im [Experience Cloud-Debugg
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> <b>URL oder Query String-Wert</b> </th> 
-   <th class="entry"> <b>Im DigitalPulse-Debugger angezeigter Wert</b> </th> 
+   <th class="entry"> <b>URL- oder Abfragezeichenfolgenwert</b> </th> 
+   <th class="entry"> <b>Wert wie im DigitalPulse Debugger gezeigt</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>Ursprünglich verweisende Stelle </p> </td> 
+   <td> <p>Ursprünglicher Referrer </p> </td> 
    <td> <p> <span class="filepath">https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Ddiscount%2Bairline%2Btickets</span> </p> </td> 
    <td> <p> <span class="filepath"> r=https:/ref=www.google.com/search?hl=en&amp;ie=UTF -8&amp;q=discount+airline+tickets </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>„Seiten-URL“ </p> </td> 
+   <td> <p>Seiten-URL </p> </td> 
    <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
    <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Dieser Wert wird im DigitalPulse-Debugger angezeigt, wenn die Variable <span class="varname"> pageURL</span> verwendet wird. </p> </td> 
   </tr> 

@@ -4,10 +4,14 @@ title: Einschränkungen und Spezifikationen
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/L3R3ufcclrTpw-fKoFLD8Y-v56rTm4tXlXqjaTdmdoQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: 631
+ht-degree: 34%
 
 ---
 
@@ -22,8 +26,8 @@ ht-degree: 100%
 >Diese Einschränkungen gelten nur für die Option „Report Builder-Anforderungen als Power BI-Datensatztabellen veröffentlichen“.
 
 * Maximal 100 Report Builder-Anforderungen pro Arbeitsmappe können nach Power BI exportiert werden.
-* Dieser Planungsvorgang beendet den Export, sobald die 101. Anforderung erreicht ist.
-* Pro Report Builder-Anforderung werden nur die Analytics-Daten in den ersten 10.000 Zeilen an Power BI gesendet. Die restlichen Zeilen werden ignoriert.
+* Der Planungsprozess stoppt den Export von Anfragen, wenn die 101. Anfrage erreicht ist.
+* Pro Report Builder-Anforderung werden nur die Analytics-Daten in den ersten 10.000 Zeilen an Power BI gesendet. Die verbleibenden Zeilen werden ignoriert.
 
 ## Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
@@ -33,42 +37,42 @@ ht-degree: 100%
 
 Bearbeiten einer Report Builder-Anforderung nach der Veröffentlichung in Power BI kann zu Problemen führen.
 
-* **Fall 1**: Sie veröffentlichen eine Arbeitsmappe in Power BI und erstellen eine Visualisierung basierend auf den darin enthaltenen Daten. Als Nächstes ändern Sie die Arbeitsmappe, indem Sie eine der Spalten aus dem referenzierten Datensatz ausblenden. Dann veröffentlichen Sie sie erneut. Dadurch wird die Visualisierung in Power BI beschädigt.
+* **1.**: Sie veröffentlichen eine Arbeitsmappe in Power BI und erstellen eine Visualisierung basierend auf ihren Daten. Als Nächstes nehmen Sie Änderungen an der Arbeitsmappe vor, wodurch eine der Spalten des Datensatzes, auf den sie verweist, verschwindet. Dann wird erneut veröffentlicht. Dadurch wird die Visualisierung in Power BI unterbrochen.
 
-  **Beispiel für eine Bearbeitung MIT Beschädigung der Visualisierung:**
-
-   1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
-   2. Planen Sie die Veröffentlichung dieser Anforderung in Power BI.
-   3. Erstellen Sie in Power BI eine Visualisierung für „Seite“ und „Seitenansichten“.
-   4. Bearbeiten Sie die Arbeitsmappe, indem Sie „Seitenansichten“ aus der Anforderung entfernen.
-   5. Bearbeiten Sie den Plan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anforderung für Power BI erneut.
-   6. Nachdem die neue Arbeitsmappe an Power BI gesendet wurde, gehen Sie wie folgt vor:
-
-      1. Vergewissern Sie sich, dass der bei Ihrer ersten Veröffentlichung erstellte Datensatz überschrieben wurde.
-      2. Stellen Sie sicher, dass die Tabelle für Seite 1 ordnungsgemäß mit den Spalten „Seite“ und „Besuche“ aktualisiert wurde.
-      3. Prüfen Sie, ob die Visualisierung beschädigt ist, da sie die Spalte „Seitenansichten“ referenziert, die nicht mehr in der Tabelle für Seite 1 enthalten ist.
-
-  **Beispiel für eine Bearbeitung OHNE Beschädigung der Visualisierung:**
+  **Hier ist ein Beispiel dafür, wie die Visualisierung funktioniert:**
 
    1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
    2. Planen Sie die Veröffentlichung dieser Anforderung in Power BI.
-   3. Erstellen Sie in Power BI eine Visualisierung für „Seite“ und „Seitenansichten“.
+   3. Erstellen Sie in Power BI eine Visualisierung für Seiten- und Seitenansichten.
+   4. Bearbeiten Sie nun die Arbeitsmappe, indem Sie Seitenansichten aus der Anfrage entfernen.
+   5. Bearbeiten Sie den Zeitplan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anfrage erneut in Power BI.
+   6. Sobald die neue Arbeitsmappe an Power BI gesendet wurde
+
+      1. Stellen Sie sicher, dass der vorhandene Datensatz, der bei der ersten Veröffentlichung erstellt wurde, überschrieben wurde.
+      2. Überprüfen Sie, ob die Tabelle page_1 ordnungsgemäß mit den Spalten Seite und Besuche aktualisiert wurde.
+      3. Stellen Sie sicher, dass Ihre Visualisierung fehlerhaft ist, da sie auf die Spalte Seitenansichten verweist, die nicht mehr in der Tabelle page_1 vorhanden ist.
+
+  **Im Folgenden finden Sie ein Beispiel dafür, wie die Visualisierung NICHT beschädigt wird:**
+
+   1. Erstellen Sie in Report Builder eine Arbeitsmappe mit einer Anforderung, indem Sie die Dimension „Seite“ und die Metrik „Seitenansichten“ verwenden.
+   2. Planen Sie die Veröffentlichung dieser Anforderung in Power BI.
+   3. Erstellen Sie in Power BI eine Visualisierung für Seiten- und Seitenansichten.
    4. Bearbeiten Sie die Arbeitsmappe in Report Builder, indem Sie die Metrik für Besuche hinzufügen und „Seite“ sowie „Seitenansichten“ beibehalten.
-   5. Bearbeiten Sie den Plan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anforderung für Power BI erneut.
-   6. Nachdem die neue Arbeitsmappe an Power BI gesendet wurde, gehen Sie wie folgt vor:
+   5. Bearbeiten Sie den Zeitplan mit der aktualisierten Arbeitsmappe und veröffentlichen Sie die Anfrage erneut in Power BI.
+   6. Sobald die neue Arbeitsmappe an Power BI gesendet wurde
 
-      1. Vergewissern Sie sich, dass der bei Ihrer ersten Veröffentlichung erstellte Datensatz überschrieben wurde.
-      2. Stellen Sie sicher, dass die Tabelle für Seite 1 ordnungsgemäß mit den Spalten „Seite“, „Seitenansichten“ und „Besuche“ aktualisiert wurde.
-      3. Prüfen Sie, ob Ihre Visualisierung weiterhin korrekt funktioniert, da sie zwei Spalten referenziert, die sich noch immer in der Tabelle für Seite 1 befinden.
+      1. Stellen Sie sicher, dass der vorhandene Datensatz, der bei der ersten Veröffentlichung erstellt wurde, überschrieben wurde.
+      2. Überprüfen Sie, ob die Tabelle page_1 ordnungsgemäß mit den Spalten Seite, Seitenansichten und Besuche aktualisiert wurde.
+      3. Stellen Sie sicher, dass Ihre Visualisierung weiterhin ordnungsgemäß funktioniert, da sie auf zwei Spalten verweist, die noch in der Tabelle page_1 vorhanden sind.
 
-* **Fall 2**: Heften Sie einen Abschnitt Ihrer Arbeitsmappe an ein Dashboard in Power BI an und entfernen Sie diesen angehefteten Abschnitt (beispielsweise ein Diagramm oder eine Tabelle) später aus der Arbeitsmappe. Dadurch wird die Visualisierung beschädigt.
+* **Fall 2**: Sie heften einen Abschnitt Ihrer Arbeitsmappe an ein Dashboard in Power BI und entfernen später diesen angehefteten Abschnitt (z. B. ein Diagramm oder eine Tabelle) aus der Arbeitsmappe. Dadurch wird die Visualisierung unterbrochen.
 
 ## Ändern des Namens eines Power BI-Berichts {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
-Standardmäßig wird der Name aus dem Dateinamen der Arbeitsmappe abgeleitet (ohne die Erweiterung „.xlsx“), wobei Leerzeichen durch Unterstriche ersetzt werden.
+Standardmäßig wird der Name aus dem Dateinamen der Arbeitsmappe (ohne die Erweiterung .xlsx) gefüllt, mit der Ausnahme, dass Leerzeichen durch Unterstriche ersetzt werden.
 
 Bedenken Sie Folgendes
 
-* Die Bezeichnung darf keine Kombination aus Buchstaben und Zahlen sein, die mit einer Zeilen- und Spaltenadresse verwechselt werden kann. Beispielsweise darf die Bezeichnung nicht A100 lauten, da dies die Adresse einer Zelle in einem Arbeitsblatt ist.
+* Bei der Bezeichnung darf es sich nicht um eine Kombination aus Buchstaben und Zahlen handeln, die mit einer Zeilen- und Spaltenadresse verwechselt werden könnte. Beispielsweise kann A100 keine Beschriftung sein, da es sich um die Adresse einer Zelle in einem Arbeitsblatt handelt.
 * Die folgenden Zeichen sind für eine Bezeichnung nicht gültig: `'#', '@', '!', '$', '^', '&', '&#42;', '` und `'~', ' '` . Sie werden durch einen Unterstrich ersetzt.
-* Wenn Sie einen ungültigen Namen eingeben, wird eine Warnmeldung angezeigt, in der ein automatisch generierter Name vorgeschlagen wird. Wenn Sie auf **[!UICONTROL Ja]** klicken, wird dieser Name verwendet. Wenn Sie auf **[!UICONTROL Nein]** klicken, können Sie im erweiterten Assistenten einen neuen Namen eingeben.
+* Wenn Sie einen ungültigen Namen eingeben, wird eine Warnmeldung angezeigt, die einen automatisch generierten Namen vorschlägt. Wenn Sie auf **[!UICONTROL Ja]** klicken, wird dieser Name verwendet. Wenn Sie auf **[!UICONTROL Nein]** klicken, können Sie in der Benutzeroberfläche des erweiterten Assistenten den neuen Namen eingeben.

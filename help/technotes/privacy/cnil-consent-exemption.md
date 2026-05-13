@@ -4,10 +4,15 @@ title: Was sind die CNIL-Richtlinien für Cookies und die Zustimmung der Benutze
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: 769
+ht-degree: 94%
 
 ---
 
@@ -19,7 +24,7 @@ Die Leitlinien sehen eine begrenzte Freistellung von der Zustimmungspflicht vor 
 
 * Maximale Datenaufbewahrung über 25 Monate.  Sie können Ihre aktuellen Einstellungen für die Datenaufbewahrung unter [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Data Governance] überprüfen.  [Datenaufbewahrung](/help/technotes/data-retention.md)
 * Deaktivieren Sie Drittanbieter-Cookies in Experience Cloud Identifier. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=de#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=de#id-service-api) und [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=de#id-service-api)
-* Cookie-Beschränkung auf 13 Monate. Mit der Variablen `cookieLifetime` können Sie den Ablauf Ihres Analytics-Cookies überschreiben. Experience Cloud-Cookies, einschließlich Analytics und ECID, verlängern das Cookie-Ablaufdatum mit jedem Besuch. Um einen statischen, nicht rollierenden Cookie-Ablauf festzulegen, haben Sie folgende Möglichkeiten: (1) Schreiben Sie benutzerdefinierten Code, um ein Datum festzulegen, an dem das Cookie gelöscht werden soll, oder (2) verwenden Sie Ihre CMP, um das Zurücksetzdatum des Cookies zu steuern. [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) und [Experience Cloud-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=de#ec-cookies)
+* Cookie-Beschränkung auf 13 Monate.  Mit der Variablen `cookieLifetime` können Sie den Ablauf Ihres Analytics-Cookies überschreiben. Experience Cloud-Cookies, einschließlich Analytics und ECID, verlängern das Cookie-Ablaufdatum mit jedem Besuch.  Um einen statischen, nicht rollierenden Cookie-Ablauf festzulegen, haben Sie folgende Möglichkeiten: (1) Schreiben Sie benutzerdefinierten Code, um ein Datum festzulegen, an dem das Cookie gelöscht werden soll, oder (2) verwenden Sie Ihre CMP, um das Datum des Zurücksetzens des Cookies zu steuern.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) und [Experience Cloud-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=de#ec-cookies)
 * Eingeschränkter Umfang. Der Umfang des Cookies muss auf eine einzelne Site oder Anwendung beschränkt sein. [Browsercookies](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anonymisierung. Anonymisieren des letzten Oktetts der IP-Adresse. [Allgemeine Kontoeinstellungen](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Besucher-ID aus Berichten ausblenden.  Die Besucher-IDs sind in Adobe Workspace und Adobe Reports &amp; Analytics standardmäßig nicht sichtbar.  Besucher-IDs stehen in Daten-Feeds und Data Warehouse zur Verfügung.  Der Zugriff auf Daten-Feeds und Data Warehouse kann durch [Zugriffsberechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=de) und die [Daten-Feed-Spaltenreferenz](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) beschränkt werden

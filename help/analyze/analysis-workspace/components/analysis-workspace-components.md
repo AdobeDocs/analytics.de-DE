@@ -4,9 +4,15 @@ description: Erfahren Sie, welche Komponenten Adobe Analytics anbietet und wie S
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+TQID: https://experienceleague.adobe.com/JSXJRs6kWPgiKkG2Gp0ElMAb9fnEFxAQ9jyigwUZssQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 941
 ht-degree: 100%
 
 ---
@@ -27,7 +33,7 @@ Sie können die folgenden Komponenten verwalten:
 * [Datumsbereiche](calendar-date-ranges/custom-date-ranges.md): Passen Sie die von Analysis Workspace vorgeschlagenen Datumsbereiche an und präzisieren Sie diese.
 * [Geplante Projekte](../curate-share/t-schedule-report.md): Verwalten Sie Ihre geplanten Projekte.
 * [Standorte](../../../components/locations/locations-manager.md): Verwalten Sie die Standorte, an die Ihre Projekte exportiert werden sollen.
-* [Warnhinweise](/help/components/alerts/alerts-overview.md): Ermöglichen es Ihnen, sich über geänderte Prozentsätze oder bestimmte Datenpunkte benachrichtigen zu lassen. 
+* [Warnhinweise](/help/components/alerts/alerts-overview.md): Ermöglichen es Ihnen, sich über geänderte Prozentsätze oder bestimmte Datenpunkte benachrichtigen zu lassen.
 * [Anmerkungen](annotations/overview.md): Informieren Sie andere Benutzerinnen und Benutzer in Ihrem Unternehmen über die kontextbezogene Bedeutung von Daten und Erkenntnissen.
 * [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md): Verwalten Sie die Voreinstellungen für Analysis Workspace.
 
@@ -66,7 +72,7 @@ Sie können Komponenten verwalten, entweder einzeln oder durch Auswahl mehrerer 
    |--- |--- |
    | ![Label](/help/assets/icons/Label.svg) [!UICONTROL **Tag**] | Organisieren oder verwalten Sie Komponenten, indem Sie Tags darauf anwenden. Sie können dann im linken Bedienfeld nach Tags suchen, indem Sie den ![Filter](/help/assets/icons/Filter.svg) Filter auswählen oder `#` eingeben. Tags fungieren auch als Filter in den Komponenten-Managern. |
    | ![Stern](/help/assets/icons/Star.svg) [!UICONTROL **Zu Favoriten hinzufügen**] | Fügen Sie die Komponente zu Ihrer Favoritenliste hinzu. Genauso wie nach Tags können Sie im linken Bedienfeld auch nach Favoriten suchen und diese in den Komponenten-Managern als Filter verwenden. |
-   | ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) **[!UICONTROL Aus Favoriten entfernen]** | Entfernen Sie die Komponente aus Ihrer Favoritenliste.  |
+   | ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) **[!UICONTROL Aus Favoriten entfernen]** | Entfernen Sie die Komponente aus Ihrer Favoritenliste. |
    | ![Häkchen](/help/assets/icons/Checkmark.svg) [!UICONTROL **Genehmigen**] | Markieren Sie Komponenten als „Genehmigt“, um Ihren Benutzerinnen und Benutzern zu signalisieren, dass die Komponente vom Unternehmen genehmigt ist. Wie Tags können Sie im linken Bedienfeld anhand des Status „Genehmigt“ suchen und filtern. Mit einem ![Häkchen](/help/assets/icons/Checkmark.svg) werden genehmigte Komponenten gekennzeichnet. |
    | ![Freigeben](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Freigeben**] | Freigeben von Komponenten für Benutzer in Ihrer Organisation. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
    | ![Löschen](/help/assets/icons/Delete.svg) [!UICONTROL **Löschen**] | Löschen Sie Komponenten, die Sie nicht mehr benötigen. Diese Option steht nur für benutzerdefinierte Komponenten zur Verfügung, beispielsweise für Segmente oder berechnete Metriken. |
@@ -83,7 +89,7 @@ Sie können die Komponentenliste im linken Bedienfeld von Analysis Workspace dur
 
 2. Geben Sie im Suchfeld den Namen der Komponente ein, die Sie in Ihrem Projekt verwenden möchten.
 
-   Der jeweilige Komponententyp ist farblich und mit einem Symbol gekennzeichnet. **Dimensionen** ![Dimensionsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sind orange, **Segmente** ![Segmentsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sind blau, **Datumsbereiche** ![Datumsbereichsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sind violett und **Metriken** ![Metriksymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sind grün. <br/>Das Adobe-Symbol ![Adobe-Logo](/help/assets/icons/AdobeLogoSmall.svg) steht entweder für eine Vorlage für berechnete Metriken oder eine Segmentvorlage. Das Taschenrechnersymbol ![Taschenrechnersymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) gibt an, dass es sich um eine berechnete Metrik handelt, die administratorseitig in Ihrer Organisation erstellt wurde.
+   Der jeweilige Komponententyp ist farblich und mit einem Symbol gekennzeichnet. **Dimensionen** ![Dimensionsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sind orange, **Segmente** ![Segmentsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sind blau, **Datumsbereiche** ![Datumsbereichsymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sind violett und **Metriken** ![Metriksymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sind grün.<br/>Das Adobe-Symbol ![Adobe-Logo](/help/assets/icons/AdobeLogoSmall.svg) steht entweder für eine Vorlage für berechnete Metriken oder eine Segmentvorlage. Das Taschenrechnersymbol ![Taschenrechnersymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) gibt an, dass es sich um eine berechnete Metrik handelt, die administratorseitig in Ihrer Organisation erstellt wurde.
 
 3. Wählen Sie aus dem Dropdown-Menü die gewünschte Komponente aus.
 
@@ -101,8 +107,8 @@ Sie können die Komponentenliste im linken Bedienfeld von Analysis Workspace dur
    | ![Stern](/help/assets/icons/Star.svg) | **[!UICONTROL Favoriten]** | Nur Komponenten anzeigen, die sich in Ihrer Favoritenliste befinden. <br/>Weitere Informationen zum Hinzufügen von Komponenten zu Ihrer Favoritenliste finden Sie unter [Verwalten von Komponenten](#manage-components). |
    | ![Dimensionen](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensionen]** | Nur Komponenten anzeigen, die Dimensionen sind. |
    | ![Ereignis](/help/assets/icons/Event.svg) | **[!UICONTROL Metriken]** | Nur Komponenten anzeigen, die Metriken sind. |
-   | ![Segmentierung](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmente]** | Nur Komponenten anzeigen, die Segmente sind.  |
-   | ![Kalender](/help/assets/icons/Calendar.svg) | **[!UICONTROL Datumsbereiche]** | Nur Komponenten anzeigen, die Datumsbereiche sind.  |
+   | ![Segmentierung](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmente]** | Nur Komponenten anzeigen, die Segmente sind. |
+   | ![Kalender](/help/assets/icons/Calendar.svg) | **[!UICONTROL Datumsbereiche]** | Nur Komponenten anzeigen, die Datumsbereiche sind. |
    | ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL *Tag-Name *]** | Nur Komponenten mit den jeweilig ausgewählten Tags anzeigen. Für Adobe-Vorlagen, bei denen es sich um die [standardmäßig berechneten Metriken](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md) von Adobe handelt, ist ein dediziertes Tag verfügbar. |
 
    Wählen Sie ![XGröße75](/help/assets/icons/CrossSize75.svg) in einem Filter aus, um den Filter zu entfernen.

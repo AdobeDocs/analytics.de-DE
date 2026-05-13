@@ -1,12 +1,18 @@
 ---
 title: Importieren von Paid-Search-Metriken
-description: Schritte zum Konfigurieren von Adobe Analytics zum Tracking Ihrer Paid-Search-Metriken (z. B. Google-Anzeigen, Microsoft Advertising usw.) mithilfe von Datenquellen.
+description: Schritte zum Konfigurieren von Adobe Analytics zur Verfolgung Ihrer Paid Search-Metriken (z. B. Google Ads, Microsoft Advertising usw.) mithilfe von Datenquellen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 90%
+source-wordcount: 1216
+ht-degree: 79%
 
 ---
 
@@ -66,12 +72,12 @@ Der [!UICONTROL Datenquellenaktivierungs-Assistent] wird angezeigt:
 1. Klicken Sie auf **[!UICONTROL Weiter]** und benennen Sie Ihre Datenquelle. Dieser Name erscheint im Datenquellen-Manager.
 1. Akzeptieren Sie die Service-Vereinbarung und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie die drei Standardmetriken aus: [!UICONTROL Impressionen], [!UICONTROL Klicks] und [!UICONTROL Gesamtkosten], und klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[&#x200B; erstellt &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
+1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[ erstellt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Zuordnen](assets/data-source-mapping.png)
 
-1. Auswählen der Datendimensionen 
-Aktivieren Sie das Kontrollkästchen neben „Trackingcodes“ und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Auswählen von Datendimensionen
+Aktivieren Sie das Kontrollkästchen neben Trackingcodes und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Zuordnen der Datendimensionen.
 Ordnen Sie die importierte Datendimension (Attribut) dem Adobe Analytics-Attribut zu, in dem Sie sie speichern möchten. Dies kann eine Standarddimension oder eine eVar sein. Nachdem Sie auf **[!UICONTROL Weiter]** geklickt haben, werden die resultierenden Zuordnungen in der Zusammenfassung angezeigt:
 
@@ -98,13 +104,13 @@ Stellen Sie sicher, dass der Export die folgenden Felder enthält: Datum, Ziel-U
 
 1. Löschen Sie in Microsoft Excel alle anderen Spalten als die oben genannten.
 1. Löschen Sie alle zusätzlichen Zeilen oben.
-1. So isolieren Sie die Trackingcodes von den Ziel-URLs: 
+1. So isolieren Sie die Trackingcodes von den Ziel-URLs:
 a. Kopieren Sie Daten aus allen Spalten und fügen Sie sie ein.
-b. Klicken Sie auf **[!UICONTROL Daten > Text in Spalten]**.
+b. Klicken Sie **[!UICONTROL Daten > Text in Spalten]**.
 c. Stellen Sie in Schritt 1 des Assistenten sicher, dass **[!UICONTROL Getrennt]** ausgewählt ist, und klicken Sie auf **[!UICONTROL Weiter]**.
 d. Geben Sie in Schritt 2 des Assistenten das Trennzeichen an, je nachdem, wie Sie Ihre URLs erstellt haben (entweder ? oder &amp;) und klicken Sie auf **[!UICONTROL Weiter]**.
-e. Zeigen Sie in Schritt 3 des Assistenten Ihre Daten in der Vorschau an und stellen Sie sicher, dass eine der Spalten „trackingcodename=trackingcode“ lautet. Wenn Sie zusätzliche Variablen haben, wiederholen Sie diese Schritte (mithilfe von &amp; als Trennzeichen).
-f. Löschen Sie alle Spalten außer Trackingcodes, Impressionen, Klicks und Kosten. Fügen Sie eine neue Spalte mit dem Namen Datum hinzu und organisieren Sie Ihre Spalten in der folgenden Reihenfolge: Datum :: Trackingcode :: Impressionen :: Klicks :: Kosten.
+E. Zeigen Sie in Schritt 3 des Assistenten Ihre Daten in der Vorschau an und stellen Sie sicher, dass eine der Spalten „trackingcodename=trackingcode“ lautet. Wenn Sie zusätzliche Variablen haben, wiederholen Sie diese Schritte (mithilfe von &amp; als Trennzeichen).
+F. Löschen Sie alle Spalten außer Trackingcodes, Impressionen, Klicks und Kosten. Fügen Sie eine neue Spalte mit dem Namen Datum hinzu und organisieren Sie Ihre Spalten in der folgenden Reihenfolge: Datum :: Trackingcode :: Impressionen :: Klicks :: Kosten.
 1. Fügen Sie diese Daten zu der Vorlage hinzu, die Sie oben im Abschnitt „Einrichten von Datenquellen“ heruntergeladen haben.
 Jetzt können Sie die Datei hochladen.
 
@@ -122,7 +128,7 @@ Sie können beispielsweise diese [berechnete Metriken](/help/components/calculat
 
 | Name | Formel | Metriktyp | Beschreibung |
 | --- | --- | --- | --- |
-| Seitenansichten pro Besuch | Seitenansichten/Besuche | Numerisch | Wenn auf Site-Ebene angewandt: Zeigt die durchschnittliche Anzahl von Seiten pro Besuch. Wenn im Bericht „Bevorzugte Seiten“ angewandt: Zeigt, wie oft eine bestimmte Seite im Durchschnitt pro Besuch angezeigt wird. |
+| Seitenansichten pro Besuch | Seitenansichten/Besuche | Numerisch | Wenn auf Site-Ebene angewandt: Zeigt die durchschnittliche Anzahl von Seiten pro Besuch. Bei Anwendung im Bericht „Bevorzugte Seiten“: Zeigt die durchschnittliche Anzahl der Aufrufe einer bestimmten Seite pro Besuch an. |
 | Durchschnittlicher Bestellwert | Umsatz/Bestellungen | Währung | Zeigt den durchschnittlichen Umsatz pro Bestellung. |
 | Umsatz pro Besuch | Umsatz/Besuch | Währung | Zeigt den durchschnittlichen Umsatz pro Besuch. |
 | Clickthrough-Rate (CTR) | Klicks/Impressionen | Numerisch | Misst das Verhältnis von Klicks zu Impressionen einer Online-Werbe- oder E-Mail-Marketing-Kampagne. |

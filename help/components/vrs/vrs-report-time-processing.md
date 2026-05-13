@@ -5,10 +5,16 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 43%
+source-wordcount: 1354
+ht-degree: 44%
 
 ---
 
@@ -28,14 +34,14 @@ Während der Analytics-Datenverarbeitung fließen Daten durch die Datenerfassung
 
 Diese Verarbeitungsarchitektur ermöglicht deutlich flexiblere Berichtsoptionen. Sie können beispielsweise die Zeitüberschreitungsdauer für Besuche zerstörungsfrei auf eine beliebige Zeitdauer ändern. Diese Änderungen werden in Ihren eVar-Persistenz- und Segment-Containern für den gesamten Berichtszeitraum übernommen. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-Mit [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden, und der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de&lange=de) kann bei jedem Auslösen eines Startereignisses einer Mobile App einen neuen Besuch starten.
+Mit [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden, und der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) kann bei jedem Auslösen eines Startereignisses einer Mobile App einen neuen Besuch starten.
 
 ## Konfigurationsoptionen
 
 Die folgenden Konfigurationsoptionen sind derzeit für Virtual Report Suites mit aktivierter Berichtszeitverarbeitung verfügbar:
 
 * **[!UICONTROL Timeout für Besuch]:** Mit dieser Einstellung wird die Dauer der Inaktivität eines Unique Visitor definiert, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchs-Timeout auf 15 Minuten festlegen, wird für jede erfasste Sequenz von Treffern eine neue Besuchergruppe erstellt, getrennt durch 15 Minuten Inaktivität. Diese Einstellung wirkt sich nicht nur auf die Anzahl Ihrer Besuche aus, sondern auch darauf, wie Besuchssegment-Container ausgewertet werden und wie die Logik des Besuchsablaufs für alle eVars funktioniert, die beim Besuch ablaufen. Wenn Sie die maximale Wartezeit für Besuche verringern, wird sich wahrscheinlich die Gesamtzahl der Besuche in Ihren Berichten erhöhen, während eine Erhöhung der maximalen Wartezeit für Besuche wahrscheinlich die Gesamtzahl der Besuche in Ihren Berichten verringert.
-* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lang=de&lange=de) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind zerstörungsfrei und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Diese Einstellungen haben keine Auswirkungen auf Daten, die außerhalb der Mobile SDK erfasst werden.
+* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lange=de) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind zerstörungsfrei und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Diese Einstellungen haben keine Auswirkungen auf Daten, die außerhalb der Mobile SDK erfasst werden.
 * **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn sich die Mobile App in einem Hintergrundzustand befindet.
 * **[!UICONTROL Bei jedem Anwendungsstart einen neuen Besuch starten]:** Zusätzlich zum Timeout für Besuche können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein Startereignis einer App aufgezeichnet wurde. Die Inaktivitätsdauer ist dabei unerheblich. Diese Einstellung hat einen Einfluss auf die Besuchsmetrik und den Besuchssegment-Container sowie die Besuchsgültigkeitslogik für eVars.
 * **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist oder nicht. Die neu erstellte Sitzung enthält das Ereignis, mit dem sie gestartet wurde. Darüber hinaus können Sie mehrere Ereignisse verwenden, um eine Sitzung zu starten. Eine neue Sitzung wird ausgelöst, wenn eines dieser Ereignisse in den Daten beobachtet wird. Diese Einstellung wirkt sich auf die Anzahl der Besuche, den Besuchssegmentierungs-Container und die Logik des Besuchsablaufs für eVars aus.
@@ -43,7 +49,7 @@ Die folgenden Konfigurationsoptionen sind derzeit für Virtual Report Suites m
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines neuen Besuchs mit einem Ereignis](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines neuen Besuchs mit einem Ereignis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -58,20 +64,20 @@ Zudem werden bei „Berichtszeitverarbeitung“ nur Daten verarbeitet, die aus d
 Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung nicht unterstützt:
 
 * **Analytics for Target**
-* [**Advertising-Dimensionen/-Metriken**](/help/components/dimensions/amo-id.md)
+* [**Advertising-Dimensionen/-**](/help/components/dimensions/amo-id.md)
 * **Zähler-eVars**
-* [**Tage vor dem ersten Kauf**](/help/components/dimensions/days-before-first-purchase.md)
+* [**Tage bis Erstkauf**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Tage seit letztem Kauf**](/help/components/dimensions/days-since-last-purchase.md)
-* [**Tage seit letztem Besuch**](/help/components/dimensions/days-since-last-visit.md)
+* [**Tage seit dem letzten Besuch**](/help/components/dimensions/days-since-last-visit.md)
 * [**Einstiegsseite Original**](/help/components/dimensions/entry-dimensions.md)
 * **Lineare Zuordnungs-eVars**
 * **Vars auflisten**
 * [**Marketing-Kanal-Dimensionen**](/help/components/dimensions/marketing-channel.md)
 * [**Ursprünglich verweisende Domain**](/help/components/dimensions/original-referring-domain.md)
-* [**Häufigkeit der &#x200B;**](/help/components/dimensions/return-frequency.md)
+* [**Rückkehrhäufigkeit**](/help/components/dimensions/return-frequency.md)
 * [**Einzelzugriff**](/help/components/metrics/single-access.md)
 * **Transaktions-ID-Datenquellen**
-* [**Besuchsnummer**](/help/components/dimensions/visit-number.md)
+* [**Besuchnummer**](/help/components/dimensions/visit-number.md)
 
 ## Betroffene Dimensionen und Metriken
 

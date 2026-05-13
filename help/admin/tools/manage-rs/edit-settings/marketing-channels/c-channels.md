@@ -5,10 +5,14 @@ title: Marketing-Kanäle verwalten
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/o-l-xrW6JQDjwjD5SZU-ZIX6sgo3unB5byiFnn1xyug
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 64%
+source-wordcount: 746
+ht-degree: 65%
 
 ---
 
@@ -75,7 +79,7 @@ Es gibt verschiedene Einstellungen, die für jeden Kanal auf der Seite [!UICONTR
 |--- |--- |
 | Aktiviert | Aktiviert oder deaktiviert diesen Marketing-Kanal. |
 | Kanalname | Der Anzeigename des Marketing-Kanals. |
-| Last Touch-Kanal überschreiben | Hier können Sie auswählen, ob ein vorhandener, persistenter Letztkontakt-Kanal mit dem ausgewählten Kanal überschrieben werden soll. Wenn Sie dieses Kontrollkästchen aktivieren, überschreibt jeder Kanal (einschließlich „Direkt“ und „Intern„) einen vorhandenen Letztkontakt-Kanal. Dies führt dazu, dass Konversionen den falschen Kanälen gutgeschrieben werden. Beispielsweise kann diese Option sicherstellen, dass der Direktkanal keine Konversionsgutschrift erhält, wenn der Benutzer zuvor über den Kanal für die natürliche Suche akquiriert wurde. |
+| Last Touch-Kanal außer Kraft setzen | Hier können Sie auswählen, ob ein vorhandener, persistenter Letztkontakt-Kanal mit dem ausgewählten Kanal überschrieben werden soll. Wenn Sie dieses Kontrollkästchen aktivieren, überschreibt jeder Kanal (einschließlich „Direkt“ und „Intern„) einen vorhandenen Letztkontakt-Kanal. Dies führt dazu, dass Konversionen den falschen Kanälen gutgeschrieben werden. Beispielsweise kann diese Option sicherstellen, dass der Direktkanal keine Konversionsgutschrift erhält, wenn der Benutzer zuvor über den Kanal für die natürliche Suche akquiriert wurde. |
 | Kanalaufschlüsselung | Ermöglicht die Unterteilung eines Kanals anhand dieses Werts. Sie können mögliche Kanalunterteilungen (Sub-Kanäle) bei der Erstellung von [Marketing-Kanalklassifizierungen](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) hinzufügen. |
 | Typ | Gibt an, wie der Benutzer zu Ihrer Site gekommen ist. Sie können „Online“ oder „Offline“ auswählen. Verwenden Sie Online-Kanäle für Besucher, die über eine Suchmaschine oder E-Mail-Kampagne kommen. Offline-Kanäle gelten für Besucher, die Ihre Website durch Zeitungs-Coupons oder Zeitschriftenanzeigen gefunden haben. Offline-Kanäle beinhalten in der Regel Daten, die über Berichterstellungs-Data Sources importiert wurden. Siehe [Data Sources](/help/import/data-sources/overview.md). Weitere Informationen finden Sie unter [Hinzufügen von Offline-Daten](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 

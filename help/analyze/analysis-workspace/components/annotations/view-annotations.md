@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Sie Anmerkungen in Analysis Workspace anzeigen k�
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+TQID: https://experienceleague.adobe.com/ygnFKygSc1tTf-oH8qiMEBtGrMUZDhp3qxZCZr8okhc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 84%
+source-wordcount: 211
+ht-degree: 83%
 
 ---
 
@@ -19,8 +24,8 @@ Anmerkungen werden je nachdem, wo sie angezeigt werden und ob sie sich über ein
 
 | Visualisierungs-<br/>typ | Beschreibung |
 | --- | --- |
-| **Linie &#x200B;**<br/>**Einzeltag** | Wenn Sie in einer Linienvisualisierung ![Anmerken](/help/assets/icons/Annotate.svg) auswählen, wird ein Popup mit den Anmerkungsdetails angezeigt.<br/>![Anmerkung Einzeltag](assets/annotation-single-day.png)<br/>Wählen Sie zum Bearbeiten der Anmerkung unter [Anmerkungserstellung](create-annotations.md#annotation-builder) die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus. Um die Anmerkung zu entfernen, wählen Sie ![Löschen](/help/assets/icons/Delete.svg) aus. |
-| **Linie &#x200B;**<br/>**Datumsbereich** | Wenn Sie ![Anmerkungsbereich](/help/assets/icons/AnnotateRange.svg) auswählen, werden ein Popup mit den Anmerkungsdetails und unten eine Linie angezeigt, die den Datumsbereich angibt.<br/>![Anmerkungsbereich](assets/annotation-range.png)Wählen Sie zum Bearbeiten der Anmerkung unter [Anmerkungserstellung](create-annotations.md#annotation-builder) die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus. Um die Anmerkung zu entfernen, wählen Sie ![Löschen](/help/assets/icons/Delete.svg) aus. |
+| **Linie **<br/>**Einzeltag** | Wenn Sie in einer Linienvisualisierung ![Anmerken](/help/assets/icons/Annotate.svg) auswählen, wird ein Popup mit den Anmerkungsdetails angezeigt.<br/>![Anmerkung Einzeltag](assets/annotation-single-day.png)<br/>Wählen Sie zum Bearbeiten der Anmerkung unter [Anmerkungserstellung](create-annotations.md#annotation-builder) die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus. Um die Anmerkung zu entfernen, wählen Sie ![Löschen](/help/assets/icons/Delete.svg) aus. |
+| **Linie **<br/>**Datumsbereich** | Wenn Sie ![Anmerkungsbereich](/help/assets/icons/AnnotateRange.svg) auswählen, werden ein Popup mit den Anmerkungsdetails und unten eine Linie angezeigt, die den Datumsbereich angibt.<br/>![Anmerkungsbereich](assets/annotation-range.png)Wählen Sie zum Bearbeiten der Anmerkung unter [Anmerkungserstellung](create-annotations.md#annotation-builder) die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus. Um die Anmerkung zu entfernen, wählen Sie ![Löschen](/help/assets/icons/Delete.svg) aus. |
 | **Freiformtabelle** | In einer Freiformtabelle können Sie über die Schaltfläche „Anmerkungen“ oben rechts in der Visualisierung auf alle Anmerkungen zugreifen. Wählen Sie ![Anmerken](/help/assets/icons/Annotate.svg) aus, um eine Bildlaufliste aller Anmerkungen anzuzeigen.<br/>![Anmerkungstabelle](assets/annotations-table.png)<br/>Sie können für jede Anmerkung die Option ![Bearbeiten](/help/assets/icons/Edit.svg) auswählen, um die Anmerkung unter [Anmerkungserstellung](create-annotations.md#annotation-builder) zu bearbeiten, und mit ![Löschen](/help/assets/icons/Delete.svg) die Anmerkung entfernen. |
 
 {style="table-layout:auto"}

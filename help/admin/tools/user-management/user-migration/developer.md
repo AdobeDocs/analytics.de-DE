@@ -4,10 +4,15 @@ title: Von der Benutzermigration betroffene APIs
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/vrfYIoa98hEoUVW17cwOLWTPk-3MIRS2wwLPB-ZB5DA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 95%
+source-wordcount: 232
+ht-degree: 44%
 
 ---
 
@@ -17,12 +22,12 @@ Adobe migriert alle Analytics-Anmeldeunternehmen weg von [!DNL my.omniture.com] 
 
 ## Betroffene API-Methoden {#methods}
 
-Die folgenden API-Methoden in den Versionen v1.3 und v1.4 der Admin-API werden nach Beginn der Benutzermigration nicht mehr unterstützt:
+Die folgenden API-Methoden in v1.3 und v1.4 der Admin-API werden nicht mehr unterstützt, sobald Sie mit der Benutzermigration beginnen:
 
 * Company.GetLoginKey
 * Permissions.AddLogin
-* Permissions.Authenticate
-* Permissions.DeleteGroup
+* permissions.authenticate
+* permissions.deleteGroup
 * Permissions.DeleteLogin
 * Permissions.GetGroup
 * Permissions.GetGroups
@@ -31,17 +36,17 @@ Die folgenden API-Methoden in den Versionen v1.3 und v1.4 der Admin-API werden n
 * Permissions.GetReportSuiteGroups
 * Permissions.RemoveLoginSegment
 * Permissions.SaveGroup
-* Permissions.SaveLogin
+* permissions.saveLogin
 * Permissions.GetLoginSegment
 
 ## Maßnahmen, die Sie ergreifen können {#actions}
 
-Sollte Ihr Unternehmen diese Methoden derzeit verwenden, erhalten Sie nach dem 31. März 2018 eine Migrationsbenachrichtigung. Die Benachrichtigung erfolgt mindestens 30 Tage vor Beginn der Migration Ihres Unternehmens auf die Experience Cloud-Authentifizierung. Ab diesem Zeitpunkt werden diese Methoden nicht mehr unterstützt.
+Wenn Ihr Unternehmen derzeit diese Methoden verwendet, suchen Sie ab dem 31. März 2018 nach einer Benachrichtigung vor der Migration. Die Benachrichtigung wird mindestens 30 Tage vor Beginn der Migration Ihres Unternehmens zur Experience Cloud-Authentifizierung gesendet. Zu diesem Zeitpunkt werden diese Methoden nicht mehr unterstützt.
 
-Wenn Ihr Unternehmen keine dieser Methoden verwendet, ist keine weitere Aktion erforderlich, außer sicherzustellen, dass Sie diese Methoden nicht verwenden.
+Wenn Ihr Unternehmen keine dieser Methoden verwendet, sind keine anderen Maßnahmen erforderlich als sicherzustellen, dass Sie nicht mit der Verwendung dieser Methoden beginnen.
 
-Weitere Informationen:
+Für weitere Informationen:
 
-* [Allgemeines User Management – Start](https://helpx.adobe.com/de/enterprise/help/users.html)
-* [User Managements-API-Forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
+* [Allgemeine Informationen zur Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/help/users.html)
+* [User Management-API-Forum](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migration von Analytics User Access and Management zu Experience Cloud](/help/admin/tools/user-management/user-migration/c-migration-tool.md)

@@ -4,9 +4,14 @@ description: Erfahren Sie mehr über die grundlegenden Funktionen berechneter Me
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/0IC-0OshuRgClzQ56xAGIZhsCeCrFH9b5ZIo-s5iv-c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: 3642
 ht-degree: 49%
 
 ---
@@ -93,7 +98,7 @@ Gibt den größten Wert in einem Satz aus Dimensionselementen für eine Metriksp
 
 >[!TIP]
 >
->Verwenden Sie eine [IF](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung hervorzuheben, das die beste Leistung erzielt.
+>Verwenden Sie eine [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung hervorzuheben, das die beste Leistung erzielt.
 >
 
 ## Spaltenminimum {#column-minimum}
@@ -123,7 +128,7 @@ Gibt den kleinsten Wert in einem Satz aus Dimensionselementen für eine Metriksp
 
 >[!TIP]
 >
->Verwenden Sie eine [IF](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung mit der niedrigsten Leistung hervorzuheben.
+>Verwenden Sie eine [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)-Anweisung wie **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0), um das Element in Ihrer Aufschlüsselung mit der niedrigsten Leistung hervorzuheben.
 >
 
 
@@ -468,7 +473,7 @@ Gibt die Anzahl der Zeilen in einer bestimmten Spalte zurück (die Anzahl der in
 
 **Anwendungsfall** Zählen Sie die Gesamtzahl der in einer Aufschlüsselung oder einem Datensatz zurückgegebenen Zeilen, z. B. die Anzahl der Tage, Kampagnen oder Produkte, die in einem Bericht enthalten sind. Auf diese Weise lässt sich erkennen, wie viele Elemente zu Ihrer Analyse beitragen.
 
-**Im Generator für berechnete Metriken**: Wenden Sie **Zeilenanzahl** an, um die Gesamtzahl der Zeilen in der aktuellen Aufschlüsselung oder im aktuellen Segment zurückzugeben. Wenn Sie beispielsweise „Umsatz **&#x200B; nach *Produkt*, &#x200B;** Zeilenanzahl** anzeigen, wird die Anzahl der angezeigten Produkte zurückgegeben.
+**Im Generator für berechnete Metriken**: Wenden Sie **Zeilenanzahl** an, um die Gesamtzahl der Zeilen in der aktuellen Aufschlüsselung oder im aktuellen Segment zurückzugeben. Wenn Sie beispielsweise „Umsatz ** nach *Produkt*, **Zeilenanzahl** anzeigen, wird die Anzahl der angezeigten Produkte zurückgegeben.
 
 >[!TIP]
 >

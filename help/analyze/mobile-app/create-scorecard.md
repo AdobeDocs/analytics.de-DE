@@ -4,9 +4,15 @@ title: Erstellen und Freigeben von mobilen Scorecards
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/fnZHje0EEPxVHPI0PROI6P-FGmuXc6GlvoTDzRhqrr4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: 2614
 ht-degree: 97%
 
 ---
@@ -25,7 +31,7 @@ Die folgenden Informationen liefern Kuratorinnen und Kuratoren von Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mobile Scorecard Builder](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +136,7 @@ Die Einstellung ist standardmäßig *an*. Deaktivieren Sie die Option, wenn Sie 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierungen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +212,7 @@ Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit no
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +254,7 @@ Wenn Sie sich beispielsweise auf den Webtraffic konzentrieren, können Besuche I
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen von Daten-Storys](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Erstellen von Daten-Storys](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

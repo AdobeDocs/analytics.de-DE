@@ -4,19 +4,24 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3564'
-ht-degree: 84%
+source-wordcount: 3545
+ht-degree: 85%
 
 ---
-
 
 # Segment-Container
 
 Ein Segment legt Bedingungen fest, um einen Besucher basierend auf den Attributen des Besuchers oder den Interaktionen mit Ihrer Site zu filtern. Um Bedingungen in einem Segment festzulegen, legen Sie Regeln fest, um Besucher nach Besuchermerkmalen und/oder Navigationseigenschaften zu filtern. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
 
-Die im Segmentaufbau verwendete Container[Architektur definiert &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md):
+Die im Segmentaufbau verwendete Container[Architektur definiert ](/help/components/segmentation/segmentation-workflow/seg-build.md):
 
 - ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Besucher]** als äußerster Container, der übergreifende Daten enthält, die für den Besucher über Besuche und Seitenansichten hinweg spezifisch sind.
 - ![Besuch](/help/assets/icons/Visit.svg) Mit einem verschachtelten Container **[!UICONTROL Besuch]** können Sie Regeln festlegen, um die Besucherdaten auf der Grundlage von Besuchen aufzuschlüsseln, und
@@ -47,7 +52,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +81,7 @@ Besuchs-Container enthalten Werte, die auf dem Auftreten pro Besuch basieren:
 
 ## Treffer-Container
 
-Der Treffer-Container definiert, welche Seitenbesuche von einem Segment einbezogen oder ausgeschlossen werden sollen. Der Treffer-Container ist der engste der verfügbaren Container, mit dem Sie bestimmte Klicks und Seitenansichten identifizieren können, bei denen eine Bedingung wahr ist. Sie können einen einzelnen Trackingcode anzeigen oder das Verhalten innerhalb eines bestimmten Bereichs Ihrer Site isolieren. Möglicherweise möchten Sie auch einen bestimmten Wert bestimmen, wenn eine Aktion auftritt, z. B. den Marketing-Kanal, wenn eine Bestellung aufgegeben wurde.
+Der Treffer-Container definiert, welche Seitenbesuche von einem Segment einbezogen oder ausgeschlossen werden sollen. Der Treffer-Container ist der engste der verfügbaren Container, mit dem Sie bestimmte Klicks und Seitenansichten identifizieren können, bei denen eine Bedingung wahr ist. Sie können einen einzelnen Trackingcode anzeigen oder das Verhalten innerhalb eines bestimmten Bereichs Ihrer Site isolieren. Sie können auch einen bestimmten Wert erkennen, wenn eine Aktion stattfindet, z. B. den Marketing-Kanal, wenn etwas bestellt wurde.
 
 Treffer-Container enthalten Werte, die auf den Aufschlüsselungen einzelner Seiten basieren:
 
@@ -264,7 +269,7 @@ Der Bericht zeigt basierend auf dem ausgewählten Container unterschiedliche Erg
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Startseite </td>
+<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Startseite</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterjacke</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Kauf 100 USD</td>
@@ -306,7 +311,7 @@ Bei Berichten aus dem Treffer-Container können Sie sehen, wie sich Berichte aus
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
-| | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **69.252** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **19 %**<br/>**40 %**<br/>**56 %** |
+| | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **69.252** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **19 %**<br/>**40 %**<br/>**56 %** |
 
 
 <!--![](assets/container_report_PV.png)-->
@@ -321,7 +326,7 @@ Wenn sich dieselbe Bedingung in einem Besuchs-Container befindet, listet der Ber
 
 | Seite | Seitenansichten |
 |---|--:|
-| Startseite  | 1 |
+| Startseite | 1 |
 | Produkt | 1 |
 | Winterjacke | 1 |
 | Kauf | 1 |
@@ -332,7 +337,7 @@ In den Segmentwerten aus dem Besuchs-Container sehen Sie, dass die Anzahl der Se
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
-| | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **226.193** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **64 %**<br/>**40 %**<br/>**56 %** |
+| | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **226.193** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **64 %**<br/>**40 %**<br/>**56 %** |
 
 <!--![](assets/container_report_Visit.png)-->
 
@@ -342,7 +347,7 @@ Wenn sich dieselbe Bedingung in einem Besucher-Container befindet, listet der Be
 
 | Besuch 1<br/>Seite | <br/>Seitenansichten |
 |---|--:|
-| Startseite  | 1 |
+| Startseite | 1 |
 | Winterkleidung | 1 |
 | Winterjacke | 1 |
 | Kauf | 1 |
@@ -356,7 +361,7 @@ Wenn sich dieselbe Bedingung in einem Besucher-Container befindet, listet der Be
 | Besuch 1 + Besuch 2<br/>Seite | <br/>Seitenansichten |
 |---|--:|
 | Winterkleidung | 3 |
-| Startseite  | 1 |
+| Startseite | 1 |
 | Winterjacke | 1 |
 | Kauf | 1 |
 | Winterstiefel | 1 |
@@ -368,7 +373,7 @@ Beim Anzeigen von Segmenten aus dem Besucher-Container können Sie sehen, dass d
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
-| | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **240.094** von 351.292 <br/>**83.823** von 165.175 <br/>**63.541** von 113.169 | **68 %**<br/>**50 %**<br/>**56 %** |
+| | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **240.094** von 351.292 <br/>**83.823** von 165.175 <br/>**63.541** von 113.169 | **68 %**<br/>**50 %**<br/>**56 %** |
 
 <!--![](assets/container_report_Visitor.png)-->
 
@@ -428,7 +433,7 @@ Das Segment `Referring Domain equals aol.com` unten wird auf den **Seitenbericht
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Startseite </td>
+<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Startseite</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterjacke</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Kauf 100 USD</td>
@@ -463,7 +468,7 @@ Da allen in demselben Besuch enthaltenen Seitensichten derselbe Wert für die Re
 
 | Referrer-Domain ist gleich „aol.com“ | Seitenansichten |
 |----|---:|
-| Startseite  | 1 |
+| Startseite | 1 |
 | Winterkleidung | 1 |
 | Winterjacke | 1 |
 | Kauf | 1 |
@@ -474,7 +479,7 @@ Bei der Anzeige der Daten aus dem Treffer-Container, wurden über 92.000 Seitena
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
-| | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
+| | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_PV.png)-->
 
@@ -484,7 +489,7 @@ Wenn dieselbe Bedingung für einen Seitenbericht im Besuchs-Container gefiltert 
 
 | Referrer-Domain ist gleich „aol.com“ | Seitenansichten |
 |----|---:|
-| Startseite  | 1 |
+| Startseite | 1 |
 | Winterkleidung | 1 |
 | Winterjacke | 1 |
 | Kauf | 1 |
@@ -495,7 +500,7 @@ Da alle Seiten basierend auf dem Besuch denselben Wert für die Referrer-Domain 
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
-| | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
+| | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_Visit.png)-->
 
@@ -507,7 +512,7 @@ In einem Bericht „Referrer-Domain“ ist `Referring Domain equals 'aol.com'` b
 
 | Besuch 1<br/>Referrer-Domain gleich „aol.com“ | <br/>Seitenansichten |
 |----|---:|
-| Startseite  | 1 |
+| Startseite | 1 |
 | Winterkleidung | 1 |
 | Winterjacke | 1 |
 | Kauf | 1 |
@@ -535,7 +540,7 @@ Beachten Sie, dass bei der Anzeige der Daten aus dem Besucher-Container die Seit
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
-| | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **112.925** von 351.165 <br/>**43.448** von 165.173 <br/>**32.269** von 113.110 | **32 %**<br/>**26 %**<br/>**28 %** |
+| | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **112.925** von 351.165 <br/>**43.448** von 165.173 <br/>**32.269** von 113.110 | **32 %**<br/>**26 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_Visitor.png)-->
 

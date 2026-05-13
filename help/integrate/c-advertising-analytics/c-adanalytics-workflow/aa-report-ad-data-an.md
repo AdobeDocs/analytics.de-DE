@@ -3,10 +3,16 @@ description: Details zur Analysis Workspace-Vorlage und zum Reporting in Report 
 title: Berichte zu Werbedaten in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/BOly6gaT1ybHWDppJzhi9ILClvJ9UoLzkGFua1gS1lo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 4%
+source-wordcount: 350
+ht-degree: 9%
 
 ---
 
@@ -30,19 +36,19 @@ Dieser Bericht ermöglicht allen Personen, die die Suchmaschinenintegration impl
 
 | Tabelle/Visualisierung | Beschreibung |
 |--- |--- |
-| Advertising-Trends | Tägliche Trend-Übersicht für AMO-Impressionen, AMO-Klicks und AMO-Kosten. |
+| Werbetrends | Tägliche Trend-Übersicht für AMO-Impressionen, AMO-Klicks und AMO-Kosten. |
 | Werbeplattformen | Ringdiagramm für die Kosten der zwei wichtigsten Plattformen (Google Ads, Microsoft Advertising). |
-| Anzeigenplattform insgesamt | Freiformtabelle der Top-Plattformen, aufgeschlüsselt nach AMO-Impressionen, AMO-Klicks, AMO-Kosten, AMO-Durchschnitt. Position, AMO-Durchschnitt Qualitätsbewertung. |
+| Anzeigenplattform gesamt | Freiformtabelle der Top-Plattformen, aufgeschlüsselt nach AMO-Impressionen, AMO-Klicks, AMO-Kosten, AMO-Durchschnitt. Position, AMO-Durchschnitt Qualitätsbewertung. |
 | Konten | Gestapelter Kostenbereich. |
-| Kontosummen | Freiformtabelle der Top-Konten, aufgeschlüsselt nach den zugehörigen Metriken. |
+| Konto gesamt: | Freiformtabelle der Top-Konten, aufgeschlüsselt nach den zugehörigen Metriken. |
 | Kampagnen | Balkendiagramm der Kampagnenkosten. |
-| Kampagnensummen | Freiformtabelle der Top-Kampagnen, aufgeschlüsselt nach den zugehörigen Metriken. |
+| Kampagne gesamt | Freiformtabelle der Top-Kampagnen, aufgeschlüsselt nach den zugehörigen Metriken. |
 | Gruppen | Baumdiagramm der Kosten. |
-| Gruppensummen | Freiformtabelle der Top-Werbegruppen, aufgeschlüsselt nach den zugehörigen Metriken. |
+| Gruppe gesamt | Freiformtabelle der Top-Werbegruppen, aufgeschlüsselt nach den zugehörigen Metriken. |
 | Werbeanzeigen | Horizontales Balkendiagramm mit Impressionen, Klicks und Kosten. |
-| Anzeigensummen | Freiformtabelle der Top-Anzeigen, unterteilt nach den zugehörigen Metriken. |
+| Anzeige gesamt: | Freiformtabelle der Top-Anzeigen, unterteilt nach den zugehörigen Metriken. |
 | Suchbegriffe | Streudiagramm der Impressionen, Klicks und Kosten für alle Keyword-/Übereinstimmungstyp-Kombinationen. |
-| Keyword-Summen | Freiformtabelle der wichtigsten Kombinationen aus Keyword- und Übereinstimmungstyp, aufgeschlüsselt nach den zugehörigen Metriken. |
+| Keywords gesamt | Freiformtabelle der wichtigsten Kombinationen aus Keyword- und Übereinstimmungstyp, aufgeschlüsselt nach den zugehörigen Metriken. |
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

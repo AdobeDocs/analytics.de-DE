@@ -4,10 +4,15 @@ description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergre
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: 547
+ht-degree: 85%
 
 ---
 
@@ -19,9 +24,9 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 
 >[!IMPORTANT]
 >
->Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Informationen [&#x200B; Voraussetzungen und Einschränkungen finden Sie &#x200B;](overview.md) der Seite „Übersicht[&#x200B; und der gewünschten &#x200B;](field-based-stitching.md) (Feldbasiertes Stitching) .
+>Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Informationen [ Voraussetzungen und Einschränkungen finden Sie ](overview.md) der Seite „Übersicht[ und der gewünschten ](field-based-stitching.md) (Feldbasiertes Stitching) .
 
-## &#x200B;1. Eröffnen Sie ein Ticket bei der Kundenunterstützung, um die geräteübergreifende Report Suite mit geräteübergreifender Analyse zu versorgen
+## &#x200B;1. Ticket bei der Kundenunterstützung öffnen, um die geräteübergreifende Report Suite mit geräteübergreifender Analyse zu versorgen
 
 CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering bereitgestellt. Wenden Sie sich zunächst an die Kundenunterstützung und stellen Sie folgende Informationen bereit:
 
@@ -34,7 +39,7 @@ Die Standardeinstellung ist eine wöchentliche Wiederholung mit einem 7-tägigen
 
 Sobald Sie der Kundenunterstützung diese Informationen zur Verfügung gestellt haben, kann diese mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die geräteübergreifende Analyse zu aktivieren.
 
-## &#x200B;2. Erstellen Sie eine geräteübergreifende Virtual Report Suite, um die geräteübergreifende Ansicht anzuzeigen
+## &#x200B;2. Erstellen einer geräteübergreifenden Virtual Report Suite , um die geräteübergreifende Ansicht anzuzeigen
 
 Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Suites für die geräteübergreifende Analyse wie folgt erstellen:
 

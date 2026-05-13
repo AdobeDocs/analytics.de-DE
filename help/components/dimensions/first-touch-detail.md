@@ -3,16 +3,21 @@ title: Erstkontakt-Kanaldetail
 description: Details zum ersten Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/duNfZhq3nb1kAjVkbUEUkuFPixk-FaTZX3-TA25AifQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 83%
+source-wordcount: 362
+ht-degree: 82%
 
 ---
 
 # Erstkontakt-Kanaldetail
 
-Die Dimension „Detail des Erstkontaktkanals[&#x200B; zeigt Details &#x200B;](overview.md) ersten Marketing-Kanals an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, was dazu beigetragen hat, dass der Treffer einem Marketing-Kanal entsprach. Wenn beispielsweise ein Besucher zu Ihrer Site gelangt ist und mit dem Marketing-Kanal „Paid Search“ übereinstimmt, können Sie anhand des Kanaldetails sehen, welche Suchmaschine verwendet wurde oder nach welchem Schlüsselwort er gesucht hat.
+Die Dimension „Detail des Erstkontaktkanals[ zeigt Details ](overview.md) ersten Marketing-Kanals an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, was dazu beigetragen hat, dass der Treffer einem Marketing-Kanal entsprach. Wenn beispielsweise ein Besucher zu Ihrer Site gelangt ist und mit dem Marketing-Kanal „Paid Search“ übereinstimmt, können Sie anhand des Kanaldetails sehen, welche Suchmaschine verwendet wurde oder nach welchem Schlüsselwort er gesucht hat.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -22,7 +27,7 @@ Führen Sie die folgenden Schritte aus, um diese Dimension auf einen bestimmten 
 
 * Achten Sie darauf, dass sich das gewünschte Dimensionselement in einem Trefferattribut oder einer benutzerdefinierten Variable befindet.
 * Legen Sie eine Marketing-Kanalverarbeitungsregel fest, die die gewünschten Kriterien für den Treffer enthält.
-* Wählen Sie in der Marketing-Kanal[!UICONTROL Verarbeitungsregel den gewünschten Dropdown-Wert unter &#x200B;]Kanalwert festlegen) aus.
+* Wählen Sie in der Marketing-Kanal[!UICONTROL Verarbeitungsregel den gewünschten Dropdown-Wert unter ]Kanalwert festlegen) aus.
 * Der Treffer des Besuchers auf Ihrer Site muss den Kriterien entsprechen, die in der Marketing-Kanalverarbeitungsregel beschrieben sind, _und_ der erste Marketing-Kanalwert sein, auf den dies im Interaktionszeitraum des Besuchers zutrifft.
 
 Wenn ein nachfolgender Treffer Kriterien unter einem anderen Marketing-Kanal erfüllt, wird diese Dimension nicht mit dem neuen Marketing-Kanal überschrieben.

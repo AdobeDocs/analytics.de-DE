@@ -4,10 +4,14 @@ title: DSGVO/ePrivacy – Einhaltung und serverseitige Weiterleitung
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 48%
+source-wordcount: 585
+ht-degree: 50%
 
 ---
 
@@ -17,7 +21,7 @@ In diesem Abschnitt werden Optimierungen an der Server-seitigen Weiterleitung er
 
 Die serverseitige Weiterleitung wird verwendet, um Daten in Echtzeit von Adobe Analytics zu anderen [!DNL Experience Cloud Solutions] wie Audience Manager zu übertragen. Bei entsprechender Aktivierung ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
 
-Zuvor gab es bei der Server-seitigen Weiterleitung keine Möglichkeit zur Unterscheidung zwischen Ereignissen/Treffern vor und nach einer erfolgten Zustimmung. Seit dem 1. November 2018 haben Sie als Datenverantwortlicher (Adobe Analytics-Kunde) die Möglichkeit, Daten vor einer Zustimmung auf Adobe Analytics zu beschränken und die Weiterleitung an Adobe Audience Manager zu verhindern. Eine neue Variable im Implementierungskontext ermöglicht es, die Treffer zu kennzeichnen, bei denen noch keine Zustimmung erfolgt ist. Wenn die Variable festgelegt ist, verhindert sie, dass diese Treffer an Adobe Audience Manager gesendet werden, bis das Einverständnis eingeholt wurde.
+Zuvor gab es bei der Server-seitigen Weiterleitung keine Möglichkeit zur Unterscheidung zwischen Ereignissen/Treffern vor und nach einer erfolgten Zustimmung. Seit dem 1. November 2018 haben Sie als Datenverantwortlicher (Adobe Analytics-Kunde) die Möglichkeit, Daten vor einer Zustimmung auf Adobe Analytics zu beschränken und die Weiterleitung an Adobe Audience Manager zu verhindern. Eine neue Variable im Implementierungskontext ermöglicht es, die Treffer zu kennzeichnen, bei denen noch keine Zustimmung erfolgt ist. Diese Variable verhindert, sofern festgelegt, dass diese Treffer vor einer Einwilligung an Adobe Audience Manager weitergeleitet werden.
 
 Wenn diese neue Kontextvariable `cm.ssf=1` in einem Treffer vorhanden ist, wird dieser Treffer markiert und nicht Server-seitig an Adobe Audience Manager weitergeleitet. Wenn diese Zeichenfolge jedoch nicht in einem Treffer angezeigt wird, wird der Treffer an Adobe Audience Manager weitergeleitet.
 

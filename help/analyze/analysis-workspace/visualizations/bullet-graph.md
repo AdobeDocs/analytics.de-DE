@@ -4,9 +4,13 @@ title: Bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 295
 ht-degree: 77%
 
 ---
@@ -33,7 +37,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Aufzählungsvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Aufzählungszeichen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird die Aufzählungsvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Aufzählungszeichen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +49,7 @@ Das Lineardiagramm enthält einen einzigen primären Messwert (z. B. aktueller U
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung Bullet-Diagramm](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung Bullet-Diagramm](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +60,7 @@ Sie können bestimmte Einstellungen für eine Visualisierung vom Typ [!UICONTROL
 
 | Einstellung | Beschreibung |
 |---|---|
-| **[!UICONTROL Aufzählungsoptionen]** | Geben Sie Werte für **[!UICONTROL Hohes Ziel]**, **[!UICONTROL Mittleres Ziel]** und **[!UICONTROL Niedriges Ziel]** in der Visualisierung [!UICONTROL Bullet] an. <br/>**[!UICONTROL Hohes Ziel &#x200B;]**&#x200B;entspricht dem angestrebten Hauptziel. Mit&#x200B;**[!UICONTROL &#x200B; Niedriges Ziel &#x200B;]**&#x200B;und&#x200B;**[!UICONTROL &#x200B; Mittleres Ziel &#x200B;]**&#x200B;werden Bereiche unterhalb des Zielwerts Hohes Ziel erstellt. Hinweis: Wenn die Option&#x200B;**[!UICONTROL &#x200B; Prozentsatz &#x200B;]**&#x200B;aktiviert ist, geben Sie Ziele als Ganzzahlen ein, z. B. `20`, wenn Ihr Ziel zwanzig Prozent ist. |
+| **[!UICONTROL Aufzählungsoptionen]** | Geben Sie Werte für **[!UICONTROL Hohes Ziel]**, **[!UICONTROL Mittleres Ziel]** und **[!UICONTROL Niedriges Ziel]** in der Visualisierung [!UICONTROL Bullet] an. <br/>**[!UICONTROL Hohes Ziel ]**entspricht dem angestrebten Hauptziel. Mit**[!UICONTROL  Niedriges Ziel ]**und**[!UICONTROL  Mittleres Ziel ]**werden Bereiche unterhalb des Zielwerts Hohes Ziel erstellt. Hinweis: Wenn die Option**[!UICONTROL  Prozentsatz ]**aktiviert ist, geben Sie Ziele als Ganzzahlen ein, z. B. `20`, wenn Ihr Ziel zwanzig Prozent ist. |
 
 >[!MORELIKETHIS]
 >

@@ -4,10 +4,14 @@ title: Anzeigen der aktuellen Nutzung der Server-Aufrufe
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/IXKYPEZ0Kk6UWG7RlBGYDhxoLRHBj4UkBFi4YVt-EpI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: 293
+ht-degree: 54%
 
 ---
 
@@ -19,27 +23,27 @@ ht-degree: 100%
 >
 >Sämtliche Nutzungs- und Zusagedaten, die Sie dort sehen, beziehen sich zusammengenommen auf alle Anmeldeunternehmen und Report Suites.
 
-Das Dashboard für aktuelle Nutzung:
+Das Dashboard zur aktuellen Nutzung
 
-* Zeigt eine Aufschlüsselung Ihrer Server-Aufruf-Nutzung und -Zusagen, verteilt auf die verschiedenen Arten von Server-Aufrufen. Diese Ansicht kann sich von Kunde zu Kunde unterscheiden und stimmt mit dem überein, was Ihr Vertrag umfasst. Zum Beispiel haben Sie sich für 4 verschiedene Arten von Server-Aufrufen angemeldet: primäre und sekundäre Aufrufe per Web und primäre und sekundäre Aufrufe per Mobilgerät. In diesem Fall sollte diese Ansicht 4 Reiter umfassen – einen für jede Art. Innerhalb jedes Reiters können Sie sich die Nutzung für die aktuelle Nutzungsperiode ansehen.
-* Vergleicht die aktuelle Nutzung (grüne Linie) mit dem Nutzungslimit gemäß Vertrag (rote Linie).
+* Zeigt eine Aufschlüsselung Ihrer Server-Aufruf-Nutzung und -Zusagen, verteilt auf die verschiedenen Arten von Server-Aufrufen. Diese Ansicht kann sich von Kunde zu Kunde unterscheiden und stimmt mit dem überein, was Ihr Vertrag umfasst. Zum Beispiel haben Sie sich für 4 verschiedene Arten von Server-Aufrufen angemeldet: primäre und sekundäre Aufrufe per Web und primäre und sekundäre Aufrufe per Mobilgerät. In diesem Fall sollte diese Ansicht 4 Reiter umfassen – einen für jede Art. Innerhalb jeder Registerkarte können Sie den Verbrauch für den aktuellen Nutzungszeitraum anzeigen.
+* Vergleicht die aktuelle Nutzung (grüne Linie) mit der vertraglichen Nutzungsbeschränkung (rote Linie).
 
   ![](/help/admin/tools/server-call-usage/assets/current_period.png)
 
-* Vergleicht Ihre aktuelle Nutzungsperiode mit der Nutzung im letzten Jahr (blaue Linie). Natürlich wird die blaue Linie nur angezeigt, wenn für Ihr Unternehmen Daten zu den Server-Aufrufen im letzten Jahr vorliegen.
+* Vergleicht Ihre aktuelle Nutzungsperiode mit der Nutzung im letzten Jahr (blaue Linie). Die blaue Linie wird natürlich nur angezeigt, wenn Ihr Unternehmen über die Nutzungsdaten der Server-Aufrufe aus dem Vorjahr verfügt.
 
   >[!NOTE]
   >
   >Wenn Sie die Nutzung für einen früheren Zeitraum anzeigen möchten, gehen Sie zur Registerkarte [Nutzung der Report Suite](/help/admin/tools/server-call-usage/report-suite-usage.md) und laden Sie die Gebrauchsdaten für einen früheren Zeitraum herunter.
 
-* Listet den Anteil an genutzten Aufrufen (in Prozent und in unverarbeiteten Daten) und den Anteil der bereits abgelaufenen Nutzungsperiode (in Prozent und in unverarbeiteten Daten) auf.
-* Wird standardmäßig täglich mit einer Verarbeitungsverzögerung von 5 Tagen aktualisiert.
-* Ermöglicht es Ihnen, alle Reportlets ein- und auszuklappen.
+* Listet den Prozentsatz der verwendeten Aufrufe (in Prozent und Rohdaten) und den Prozentsatz des Verwendungszeitraums (in Prozent und Rohdaten) auf.
+* Standardmäßig wird täglich mit einer Verarbeitungslatenz von 5 Tagen aktualisiert.
+* Ermöglicht das Reduzieren und Erweitern aller Reportlets.
 
 ![](/help/admin/tools/server-call-usage/assets/server_call_dashboard.png)
 
 | Begriff der Benutzeroberfläche | Definition |
 | --- | --- |
-| Nutzung der aktuellen Nutzungsperiode (grün) | Der aktuelle Zeitraum basiert auf der [Nutzungsperiode](/help/admin/tools/server-call-usage/overage-overview.md). |
-| Nutzung der vorherigen Nutzungsperiode (blau) | Der vorherige Zeitraum wird als aktuelle Nutzungsperiode minus 1 Jahr definiert. |
-| Nutzungslimit (rot) | Ihr vertraglich festgelegtes Nutzungslimit für diese Nutzungsperiode. |
+| Nutzung des aktuellen Zeitraums (grün) | Der aktuelle Zeitraum basiert auf dem [Nutzungszeitraum](/help/admin/tools/server-call-usage/overage-overview.md). |
+| Nutzung des vorherigen Zeitraums (blau) | Der vorherige Zeitraum wird definiert als der aktuelle Nutzungszeitraum abzüglich 1 Jahr. |
+| Nutzungsbeschränkung (rot) | Ihre vertragliche Nutzungsbeschränkung für diesen Nutzungszeitraum. |

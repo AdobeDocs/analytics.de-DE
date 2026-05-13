@@ -3,10 +3,15 @@ description: In diesen Schritten wird beschrieben, wie Sie Classification-Daten 
 title: Löschen von Classification-Daten
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/NZhXTXSwpA-E-6JaGRInMf3TMwHp5A1uMSjaAU1whts
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 96%
+source-wordcount: 366
+ht-degree: 88%
 
 ---
 
@@ -57,5 +62,5 @@ Durch Verwendung von `~deletekey~` unter der Classification „Inventarkategorie
 * Bei der Verwendung von `~deletekey~` benötigen Sie nur eine Zeile in einer Classification-Datei.
 * `~empty~` und `~deletekey~` müssen *exakt* übereinstimmen. Leerzeichen oder Groß-/Kleinschreibung sind nicht zulässig.
 * Werte in der Schlüsselspalte können nicht gelöscht werden. Diese Werte werden direkt in die Variable übergeben und sind dauerhaft.
-* Wenn Sie einen Klassifizierungswert entfernen, der Unterklassifizierungen enthält, werden diese Unterklassifizierungen ebenfalls entfernt. Classifications können nicht ohne Schlüsselwert bestehen, und die übergeordnete Classification ist der Schlüsselwert für eine Unter-Classification.
-* Sie können die Unter-Classificationsdaten entfernen, wobei die übergeordnete Classification intakt bleibt.
+* Wenn Sie einen Klassifizierungswert entfernen, der Unterklassifizierungen enthält, werden diese Unterklassifizierungen ebenfalls entfernt. Klassifizierungen können nicht ohne Schlüsselwert vorhanden sein, und das übergeordnete Element einer Unterklassifizierung ist ihr Schlüsselwert.
+* Es ist möglich, Unterklassifizierungsdaten zu entfernen, während die übergeordnete Klassifizierung intakt bleibt.

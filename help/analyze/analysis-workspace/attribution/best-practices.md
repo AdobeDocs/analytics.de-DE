@@ -3,10 +3,13 @@ title: Best Practices für die Attribution
 description: Machen Sie sich mit den Best Practices vertraut, um zu entscheiden, welches Attributionsmodell verwendet werden soll.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 66%
+source-wordcount: 444
+ht-degree: 64%
 
 ---
 
@@ -63,4 +66,4 @@ Wenn Sie noch kein Attributionsmodell haben, das alle Ihre Fragen zufriedenstell
 
 * Möglicherweise sollten Sie ergänzend zu Analysis Workspace einen Datenwissenschaftler hinzuziehen.
 * Sie können sich auf Rohdaten verlassen, wie in Daten-Feeds von Adobe.
-* Erwägen Sie beispielsweise die Verwendung von [&#128279;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)Customer Journey Analytics), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.
+* Erwägen Sie beispielsweise die Verwendung von [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)Customer Journey Analytics), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.

@@ -3,10 +3,16 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 89%
+source-wordcount: 2640
+ht-degree: 88%
 
 ---
 
@@ -95,7 +101,7 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Rollierender Datumsbereich:** ein Typ des relativen Datumsbereichs, der sich im Zeitverlauf ändert. Ein Bericht mit den letzten sieben Tagen kann beispielsweise als rollierender Datumsbereich betrachtet werden. Siehe auch „Statischer Datumsbereich“.
 * **RSID:** Abkürzung für Report Suite-ID. Eine Report Suite verfügt sowohl über einen benutzerfreundlichen Namen als auch über eine Report Suite-ID.
 * **s.t():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.track()`. Siehe [t](../implement/vars/functions/t-method.md) im Benutzerhandbuch zu Implementierungen.
-* **s<span>.</span>tl():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für das Linktracking sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.trackLink()`. Siehe [tl](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen.
+* **s<span>.</span>tl():** Der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für das Linktracking sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.trackLink()`. Siehe [tl](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen.
 * **s_code.js:** der Name der JavaScript-Datei, die in alten Versionen von Adobe Analytics verwendet wird. Der aktuelle Name der verwendeten JavaScript-Datei ist „AppMeasurement.js“.
 * **Sekundärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, sind alle Report Suites nach dem ersten aufgelisteten Aufruf sekundäre Server-Aufrufe. Siehe auch „Primäre Server-Aufrufe“.
 * **Segment:** Hiermit können Sie sich auf eine bestimmte Teilmenge Ihrer Daten konzentrieren. Siehe [Segmentierung](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.

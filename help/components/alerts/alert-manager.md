@@ -3,18 +3,23 @@ description: Informationen zum Verwalten von Warnhinweisen.
 title: Verwalten von Warnhinweisen
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/ch83E4k1pJ3CpnAn54buMAqFLAHCVMBC8HZkHvGRlmU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 599
 ht-degree: 21%
 
 ---
 
-
 # Verwalten von Warnhinweisen
 
 
-Sie können Warnhinweise über eine zentrale Verwaltungsoberfläche von [!UICONTROL Warnhinweise“ filtern, taggen, löschen, umbenennen, kopieren, aktivieren, deaktivieren, erneuern &#x200B;] exportieren. So verwalten Sie Warnhinweise:
+Sie können Warnhinweise über eine zentrale Verwaltungsoberfläche von [!UICONTROL Warnhinweise“ filtern, taggen, löschen, umbenennen, kopieren, aktivieren, deaktivieren, erneuern ] exportieren. So verwalten Sie Warnhinweise:
 
 * Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ und dann **[!UICONTROL Warnhinweise]** aus.
 
@@ -33,8 +38,8 @@ Die ➊ Warnhinweisliste zeigt alle Warnhinweise an, die Ihnen gehören, die War
 
 | Spalte | Beschreibung |
 |---|---|
-| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![&#x200B; um einen Warnhinweis &#x200B;](/help/assets/icons/Star.svg)Star“ oder ![StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen. |
-| **[!UICONTROL Titel und Beschreibung]** | Um den Warnhinweis zu bearbeiten, klicken Sie auf den Titel-Link, über den der [Warnhinweiserstellung“ geöffnet &#x200B;](alert-builder.md#alert-builder). |
+| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![ um einen Warnhinweis ](/help/assets/icons/Star.svg)Star“ oder ![StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen. |
+| **[!UICONTROL Titel und Beschreibung]** | Um den Warnhinweis zu bearbeiten, klicken Sie auf den Titel-Link, über den der [Warnhinweiserstellung“ geöffnet ](alert-builder.md#alert-builder). |
 | **[!UICONTROL Typ]** | Der Typ des Warnhinweises: ein Adobe Analytics-Datenwarnhinweis oder ein Warnhinweis zur Nutzung von Server-Aufrufen. |
 | **[!UICONTROL Aktiviert]** | Der Warnhinweis ist aktiviert oder deaktiviert. |
 | **[!UICONTROL Report Suite]** | Die Report Suites, für die diese Warnung gilt. |
@@ -57,7 +62,7 @@ Sie können Aktionen für Warnhinweise mithilfe der Aktionsleiste ➋. Die Aktio
 
 | Symbol | Aktion | Beschreibung |
 |:---:|---|---|
-| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie mithilfe der [Warnhinweiserstellung“ einen weiteren &#x200B;](alert-builder.md#alert-builder) hinzu. |
+| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie mithilfe der [Warnhinweiserstellung“ einen weiteren ](alert-builder.md#alert-builder) hinzu. |
 | ![Durchsuchen](/help/assets/icons/Search.svg) | [!UICONTROL *Nach Titel suchen*] | Wenn kein Warnhinweis in der Liste ausgewählt ist, suchen Sie mithilfe dieses Suchfelds nach Warnhinweisen. |
 | ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Markieren Sie die ausgewählten Warnhinweise. Wählen Sie im **[!UICONTROL Warnhinweis]**-Dialogfeld die Tags für die ausgewählten Warnhinweise aus bzw. heben Sie die Auswahl auf. Klicken Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten Warnhinweise zu speichern. |
 | ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löscht die ausgewählten Warnhinweise. Sie werden zur Bestätigung aufgefordert. |
@@ -75,7 +80,7 @@ Die Filterleiste zeigt ➌ die aktiven Filter an, die vom Filterbereich auf die 
 
 ### Panel „Filter“
 
-Sie können die Liste der Warnhinweise mithilfe der ![&#x200B; &#x200B;](/help/assets/icons/Filter.svg)Filter **&#x200B;**&#x200B;Filter➍ im linken Bereich filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Warnhinweise an, die den spezifischen Filter berücksichtigen.
+Sie können die Liste der Warnhinweise mithilfe der ➍ ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** im linken Bereich filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Warnhinweise an, die den spezifischen Filter berücksichtigen.
 
 
 1. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um das Bedienfeld „Filter“ zu öffnen. Wenn Sie mehr Platz für die Liste „Warnhinweise“ benötigen, können Sie erneut ![Filtern](/help/assets/icons/Filter.svg) auswählen, um das Bedienfeld zu schließen.
@@ -117,7 +122,7 @@ Sie können die Liste der Warnhinweise mithilfe der ![&#x200B; &#x200B;](/help/a
 
 Sie können einen Warnhinweis bearbeiten
 
-* Wählen Sie in [[!UICONTROL &#x200B; Liste &#x200B;]Warnhinweis](#alerts-list) den Titel des Warnhinweises aus.
+* Wählen Sie in [[!UICONTROL  Liste ]Warnhinweis](#alerts-list) den Titel des Warnhinweises aus.
 
 Verwenden Sie die [Warnhinweiserstellung](alert-builder.md#alert-builder), um den Warnhinweis zu bearbeiten.
 

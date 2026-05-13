@@ -3,10 +3,16 @@ description: Aktivieren von Dimensionen und Metriken zur Verwendung beim Trackin
 title: App-Berichterstellung
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/oF-tETs2-MWjSLoo5bVUmrr2nS4N1o2shD4DkMDAVLU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c77ba355-6681-41fe-b719-563d3f507fdbid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 13%
+source-wordcount: 543
+ht-degree: 11%
 
 ---
 
@@ -50,7 +56,7 @@ Wenn Sie [!UICONTROL App-Berichte] aktivieren, sind die folgenden Dimensionen ve
 * [!UICONTROL Betriebssystemversion (SDK)]
 * [!UICONTROL Resolution (SDK)]
 
-Die folgenden Metriken stehen zur Auswahl:
+Die folgenden Metriken sind verfügbar:
 
 * [!UICONTROL Aktionsdauer in Anwendung]
 * [!UICONTROL Aktionsdauer insgesamt]
@@ -67,7 +73,7 @@ Die folgenden Metriken stehen zur Auswahl:
 
 * Breiten- und Längengraddaten verfolgen
 * Identifizieren, Erstellen und Visualisieren bestimmter Points of Interest. POIs müssen in der Mobile-SDK-Konfigurationsdatei definiert werden.
-* Bluetooth-Beacons (UUID, Major-Wert, Minor-Wert und Nähe) verfolgen.
+* Verfolgen Sie Bluetooth-Beacons (UUID, Major, Minor und Proximity).
 
 Wenn Sie [!UICONTROL Standortverfolgung] aktivieren, sind die folgenden Dimensionen verfügbar:
 
@@ -89,7 +95,7 @@ Wenn Sie [!UICONTROL Standortverfolgung] aktivieren, sind die folgenden Dimensio
 * **Lebenszyklus**: Grundlegende Reporting-Ebene für jede App, z. B. Anzahl der Launches und Plattformtyp.
 * **Konversationen** Misst Absichten, Antworten und andere Metriken und Dimensionen im Zusammenhang mit der Konversation.
 
-Wenn Sie &quot;[!UICONTROL &#x200B; und Chatbots] aktivieren, sind die folgenden Dimensionen verfügbar:
+Wenn Sie &quot;[!UICONTROL  und Chatbots] aktivieren, sind die folgenden Dimensionen verfügbar:
 
 * [!UICONTROL Sprachgerätefunktionen] (mit den Dimensionen [Einstieg](/help/components/dimensions/entry-dimensions.md) und [Ausstieg](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Sprachauthentifizierung]
@@ -98,13 +104,13 @@ Wenn Sie &quot;[!UICONTROL &#x200B; und Chatbots] aktivieren, sind die folgenden
 * [!UICONTROL Voice-App-Antwort]
 * [!UICONTROL Sprache]
 
-Die folgenden Metriken stehen zur Auswahl:
+Die folgenden Metriken sind verfügbar:
 
 * [!UICONTROL Voice-Endsitzung]
 * [!UICONTROL Sprachfehler]
 * [!UICONTROL Äußerungen]
 
-## Altes Reporting und Attribution für Hintergrundtreffer
+## Ältere Berichterstellung und Zuordnung für Hintergrundtreffer
 
 Legacy-Berichte bedeuten, dass Treffer, die generiert werden, wenn eine App im Hintergrund läuft, als reguläre Vordergrundtreffer behandelt werden. Sie werden in Berichten angezeigt und beeinflussen die Attribution. Diese ältere Konfiguration ist in der Regel wünschenswert, um die Konsistenz mit älteren Implementierungen zu gewährleisten.
 

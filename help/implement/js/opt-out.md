@@ -5,10 +5,16 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
+TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 67%
+source-wordcount: 638
+ht-degree: 68%
 
 ---
 
@@ -16,8 +22,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>
-> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
+> Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchenden Ihrer Website die Möglichkeit zu geben, die Analyse ihrer Informationen abzuwählen.
 
@@ -43,7 +48,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
+* Mithilfe des [Adobe Experience Cloud-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    1. Öffnen Sie den Experience Cloud-Debugger und gehen Sie dann zur Registerkarte [!UICONTROL Netzwerk].
    1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].

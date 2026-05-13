@@ -1,26 +1,31 @@
 ---
-description: Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Diese Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
+description: Um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist, müssen Sie die HTTP-Antwort aus der Analytics-Tracking-Anfrage überprüfen. Diese Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
 solution: Analytics
 title: Überprüfen der Server-seitigen Weiterleitungsimplementierung
 feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FpB4dk9D87gc24t5KG6WRJ-r8GFOvOEUlRTTjc6XFYI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 86%
+source-wordcount: 246
+ht-degree: 33%
 
 ---
 
 # Überprüfen der serverseitigen Weiterleitungsimplementierung
 
-Zum Überprüfen der ordnungsgemäßen Aktivierung der serverseitigen Weiterleitung müssen Sie die HTTP-Antwort aus der Analytics-Verfolgungsanfrage inspizieren. Dazu können Sie die Entwicklertools eines Browsers oder ein Proxy-Tool wie Charles Web Debugger verwenden. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
+Um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist, müssen Sie die HTTP-Antwort aus der Analytics-Tracking-Anfrage überprüfen. Dies kann mit den Entwickler-Tools eines Browsers oder mit einem Proxy-Tool wie Charles Web Debugger erfolgen. Die folgenden Anweisungen veranschaulichen, welche Indikatoren vorhanden sein müssen, um sicherzustellen, dass die Server-seitige Weiterleitung ordnungsgemäß aktiviert ist.
 
-So überprüfen Sie den Status der serverseitigen Weiterleitung:
+So überprüfen Sie den Status der Server-seitigen Weiterleitung:
 
-1. Laden Sie eine Testseite mit aktualisiertem AppMeasurement-Code.
-1. Überprüfen Sie in den Debugging-Tools Ihres Browsers oder mithilfe Ihrer Proxy-Software die HTTP-Antwort von der Analytics-Verfolgungsanfrage (Sie können ganz einfach danach filtern, indem Sie einen beliebigen Pfad mit „b/ss“ auswählen).
-1. Überprüfen Sie die HTTP-Antwort. Wenn die Antwort Audience Manager-Daten enthält (wie unten dargestellt), funktioniert die serverseitige Weiterleitung.
+1. Laden Sie eine Testseite, die aktualisierten AppMeasurement-Code enthält.
+1. Überprüfen Sie in den Debugging-Tools Ihres Browsers oder mithilfe Ihrer Proxy-Software die HTTP-Antwort aus der Tracking-Anfrage von Analytics (Sie können diese einfach filtern, indem Sie einen beliebigen Pfad auswählen, der „b/ss“ enthält).
+1. Überprüfen Sie die HTTP-Antwort. Wenn die Antwort Audience Manager-Daten enthält (wie unten dargestellt), funktioniert die Server-seitige Weiterleitung.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/ssf-succeed.png)
 

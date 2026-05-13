@@ -3,10 +3,15 @@ description: Erfahren Sie, wie Sie eine Teilnahmemetrik erstellen.
 title: Beitragsmetrik
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/KATQCXbw-92hpWIzjMMl8K6WCB4ePASY0fZ7g0zRYtc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 2%
+source-wordcount: 191
+ht-degree: 5%
 
 ---
 
@@ -17,9 +22,9 @@ Teilnahmemetriken werden verwendet, um zu quantifizieren, wie einzelne Werte fü
 
 Die folgenden Schritte zeigen, wie Sie eine Teilnahmemetrik erstellen können.
 
-1. [Erstellen Sie eine berechnete &#x200B;](../cm-workflow.md) und geben Sie der Metrik im [Generator für berechnete &#x200B;](cm-build-metrics.md)&quot; einen `Orders (Visit Participation)` oder etwas Ähnliches.
+1. [Erstellen Sie eine berechnete ](../cm-workflow.md) und geben Sie der Metrik im [Generator für berechnete ](cm-build-metrics.md)&quot; einen `Orders (Visit Participation)` oder etwas Ähnliches.
 1. Ziehen Sie eine Metrik, die ein Erfolgsereignis enthält, z. B. [!DNL Online Orders], in den Bereich [!UICONTROL **[!UICONTROL Definition]**].
-1. Wählen Sie ![&#x200B; Metrik &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)Zahnrad) aus.
+1. Wählen Sie ![ Metrik ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)Zahnrad) aus.
 1. Wählen Sie im angezeigten Popup die Option **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**, um das [Attributionsmodell](m-metric-type-alloc.md#attribution-models) dieses Ereignisses für **[!UICONTROL Teilnahme]** zu definieren, und wählen Sie **[!UICONTROL Besuche]** für den [!UICONTROL Container]. Wählen Sie **[!UICONTROL Übernehmen]** zur Bestätigung aus.
 
 

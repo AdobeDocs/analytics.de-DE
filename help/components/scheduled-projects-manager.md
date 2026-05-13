@@ -3,9 +3,15 @@ description: Informationen zum Verwalten geplanter Projekte.
 title: Geplante Projekte
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/yLFSPLIjDENmo92-l64bKxb7C6U-UFs75W6BNcQaRwk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+industry_v2: id: f1f252c9-6b50-4b00-a024-2a4326e7992d
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: 793
 ht-degree: 41%
 
 ---
@@ -25,7 +31,7 @@ Die ➊ Geplante Projekte enthält Spalten für:
 | Spalte | Beschreibung |
 | --- | --- |
 | ![SelectBox](/help/assets/icons/SelectBox.svg) | Wenn ein oder mehrere geplante Projekte ausgewählt werden, wird unten in der Benutzeroberfläche Geplante Projekte eine blaue Aktionsleiste angezeigt. Weitere Informationen finden Sie unter [Aktionen](#actions). |
-| ![Stern](/help/assets/icons/Star.svg) | Wählen Sie aus![&#x200B; um ein geplantes Projekt &#x200B;](/help/assets/icons/Star.svg)![&#x200B; StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen oder zu deaktivieren. |
+| ![Stern](/help/assets/icons/Star.svg) | Wählen Sie aus![ um ein geplantes Projekt ](/help/assets/icons/Star.svg)![ StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen oder zu deaktivieren. |
 | **[!UICONTROL Zeitplan-ID]** | Eine ID, die hauptsächlich zum Debuggen verwendet wird. |
 | **[!UICONTROL Name]** | Name dieses Projekts.<br/>Wählen Sie ![InfoOutline](/help/assets/icons/InfoOutline.svg) aus, um weitere Details für das geplante Projekt anzuzeigen.<br/>Wählen Sie ![Mehr](/help/assets/icons/More.svg), um ein Kontextmenü zu öffnen. In diesem Menü haben Sie folgende Möglichkeiten:<ul><li>![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Löschen]** eines geplanten Projekts.</li><li>![Labels](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]** ein geplantes Projekt.</li><li>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Genehmigen]** ein geplantes Projekt.</li><li>![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV exportieren]**: Exportieren eines geplanten Projekts in eine CSV-Datei.</li></ul> |
 | **[!UICONTROL Inhabende]** | Die Person, die das Projekt erstellt hat und dafür verantwortlich ist. |
@@ -35,13 +41,13 @@ Die ➊ Geplante Projekte enthält Spalten für:
 | **[!UICONTROL Häufigkeit]** | Wie oft dieses geplante Projekt an einen oder mehrere Empfänger gesendet werden soll. |
 | **[!UICONTROL Durchführungszeit]** | Zu welcher Tageszeit dieses geplante Projekt gesendet wird. |
 | **[!UICONTROL Anzahl der Abfragen]** | Die Anzahl der Abfragen für dieses Projekt. |
-| **[!UICONTROL Längster Datumsbereich]** | Der längste für das geplante Projekt definierte Datumsbereich. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [&#x200B; unter „Reporting &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
-| **[!UICONTROL Anzahl der Abfragen]** | Die Anzahl der für das geplante Projekt ausgeführten Abfragen. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [&#x200B; unter „Reporting &#x200B;](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
+| **[!UICONTROL Längster Datumsbereich]** | Der längste für das geplante Projekt definierte Datumsbereich. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [ unter „Reporting ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
+| **[!UICONTROL Anzahl der Abfragen]** | Die Anzahl der für das geplante Projekt ausgeführten Abfragen. Dieser Wert kann für die Untersuchung von Leistungsproblemen relevant sein. Weitere Informationen finden [ unter „Reporting ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) Manager“. |
 
 
 Sie können mit ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) konfigurieren, welche Spalten angezeigt werden sollen.
 
-Suchen Sie mithilfe von „Suchen![&#x200B; nach einem geplanten Projekt](/help/assets/icons/Search.svg). Sie können auch im Bedienfeld Filter sehen, ob Filter angewendet werden. Um einen Filter zu entfernen, wählen Sie ![CrossSize](/help/assets/icons/CrossSize75.svg) für einen Filter aus. Um alle Filter zu entfernen, wählen Sie **[!UICONTROL Alle löschen]** aus.
+Suchen Sie mithilfe von „Suchen![ nach einem geplanten Projekt](/help/assets/icons/Search.svg). Sie können auch im Bedienfeld Filter sehen, ob Filter angewendet werden. Um einen Filter zu entfernen, wählen Sie ![CrossSize](/help/assets/icons/CrossSize75.svg) für einen Filter aus. Um alle Filter zu entfernen, wählen Sie **[!UICONTROL Alle löschen]** aus.
 
 Um ein geplantes Projekt zu bearbeiten, wählen Sie den Titel des geplanten Projekts aus. Aktualisieren Sie die Zeitplandetails **[!UICONTROL Dialogfeld „Geplantes Projekt]** bearbeiten“. Siehe [Senden von Dateien an andere](../analyze/analysis-workspace/curate-share/t-schedule-report.md) für weitere Details.
 

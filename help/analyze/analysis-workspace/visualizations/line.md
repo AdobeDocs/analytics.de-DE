@@ -5,9 +5,14 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/fr9BZmHM5U2plQ8OsZJSh4sLa-fsNkoPfS-g5tmqZc0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 546
 ht-degree: 84%
 
 ---
@@ -26,7 +31,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Linienvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Line](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/line) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Linienvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Line](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/line) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +47,7 @@ Im Rahmen der [Visualisierungseinstellungen](freeform-analysis-visualizations.md
 | Einstellung | Beschreibung |
 |---|---|
 | **[!UICONTROL Granularität]** | Wählen Sie aus der Dropdown-Liste Granularität eine Trend-Visualisierung von täglich über wöchentlich bis monatlich usw. aus. Die Granularität wird auch in der Datenquellentabelle aktualisiert. |
-| **[!UICONTROL Min. zeigen]** <br/>**[!UICONTROL Max. zeigen &#x200B;]** | Sie können eine Beschriftung für Minimal- und Maximalwerte überlagern, um die Mindest- und Maximalwerte in einer Metrik hervorzuheben. Die Minimal bzw. Maximalwerte werden aus den sichtbaren Datenpunkten in der Visualisierung abgeleitet, nicht aus dem vollständigen Satz von Werten innerhalb einer Dimension.<br/>![Eine Überlagerung mit der Beschriftung für den Minimal- und Maximalwert](assets/min-max-labels.png) |
+| **[!UICONTROL Min. zeigen]** <br/>**[!UICONTROL Max. zeigen ]** | Sie können eine Beschriftung für Minimal- und Maximalwerte überlagern, um die Mindest- und Maximalwerte in einer Metrik hervorzuheben. Die Minimal bzw. Maximalwerte werden aus den sichtbaren Datenpunkten in der Visualisierung abgeleitet, nicht aus dem vollständigen Satz von Werten innerhalb einer Dimension.<br/>![Eine Überlagerung mit der Beschriftung für den Minimal- und Maximalwert](assets/min-max-labels.png) |
 | **[!UICONTROL Trendlinie anzeigen]** | Sie können eine Trend-Linie für eine Regression oder einen gleitenden Mittelwert zu Ihrer Linienserie hinzufügen. Trend-Linien helfen, ein Muster in den Daten besser darzustellen. Wählen Sie anschließend ein Modell aus der Liste aus. Unter [Modelle](#models) finden Sie einen Überblick und eine Beschreibung der verfügbaren Modelle.<br/>![Lineare Trend-Linie](assets/show-linear-trendline.png).<p>**TIPP** Es wird empfohlen, Trendlinien auf Daten anzuwenden, die weder das aktuelle Datum (partielle Daten) noch zukünftige Daten enthalten. Das aktuelle Datum oder zukünftige Daten verzerren die Trend-Linie. Wenn Sie jedoch zukünftige Datumsangaben einbeziehen müssen, entfernen Sie Nullen aus den Daten, um eine Verfälschung für diese Tage zu vermeiden. Gehen Sie zur Datenquellentabelle der Visualisierung, wählen Sie Ihre Metrikspalte aus und aktivieren Sie dann **[!UICONTROL Spalteneinstellungen]** > **[!UICONTROL Null als kein Wert auswerten]**.</p> |
 
 ### Modelle

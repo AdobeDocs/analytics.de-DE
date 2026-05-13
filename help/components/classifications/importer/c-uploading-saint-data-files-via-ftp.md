@@ -3,10 +3,16 @@ description: Hochladen von Datendateien über FTP.
 title: FTP-Import
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 72%
+source-wordcount: 727
+ht-degree: 39%
 
 ---
 
@@ -36,17 +42,17 @@ Die folgenden empfohlenen Grenzwerte sind wichtig.
 >
 >Zu viele kleine Dateien oder einzelne große Dateien können zu unnötiger Verarbeitungslast auf den Verarbeitungs-Servern führen. Adobe empfiehlt, große Dateien in Blöcke von 50 MB aufzuteilen und kleine Dateien miteinander zu kombinieren.
 
-Bei der anfänglichen Einrichtung wird die Classification-Datenbank mit einer großen Menge an Originaldaten gefüllt oder die Classifications werden neu strukturiert; es werden also nicht nur einige wenige Reihen neu klassifiziert oder hinzugefügt.
+Bei der Ersteinrichtung wird die Klassifizierungsdatenbank mit einem großen Satz Originaldaten ausgefüllt oder die Klassifizierungen werden neu strukturiert, anstatt einige Zeilen neu zu klassifizieren oder Zeilen hinzuzufügen.
 
-Adobe empfiehlt, nach einem ersten Upload in eine Report Suite (für eine gegebene Variable oder einen Bericht) in den darauffolgenden Importen nur neue und aktualisierte Zeilen zu importieren. Zeilen, die nicht geändert werden, sollten bei zukünftigen Uploads ausgeklammert werden.
+Nach einem ersten Upload in eine Report Suite (für eine bestimmte Variable oder einen bestimmten Bericht) empfiehlt Adobe, in nachfolgenden Importen nur neue und aktualisierte Zeilen hochzuladen. Zeilen, die nicht geändert werden, sollten in zukünftigen Uploads weggelassen werden.
 
-Jeder neue Schlüsselwert, den Sie hochladen, zählt als eindeutige Classification der entsprechenden Variable für den Monat.
+Jeder neue Schlüsselwert, den Sie hochladen, wird anhand Ihrer eindeutigen Werte für diese Variable für den Monat gezählt.
 
-Wenn Sie die Zahl eindeutiger Classifications für den Monat überschritten haben, werden Ihnen für die über dem Grenzwert liegenden Classifications in den Berichten nicht die zugehörigen Classification-Daten angezeigt. Sie können diese Klassifizierungen in Data Warehouse sehen.
+Wenn Sie Ihre eindeutigen Werte für den Monat überschritten haben, werden die entsprechenden Klassifizierungsdaten für die eindeutigen Werte überschritten im Bericht nicht angezeigt. Sie können diese Klassifizierungen in Data Warehouse sehen.
 
 >[!NOTE]
 >
->Die erforderliche Verarbeitungszeit für eine Klassifizierungsdatendatei hängt von der Dateigröße und der aktuellen Anzahl der Dateien ab, die zu dem Zeitpunkt auf den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien nimmt in der Regel nicht mehr als 72 Stunden in Anspruch.
+>Die erforderliche Verarbeitungszeit für eine Klassifizierungsdatendatei hängt von der Dateigröße und der aktuellen Anzahl der Dateien ab, die zu dem Zeitpunkt auf den Adobe-Servern verarbeitet werden. Die Verarbeitung von Datendateien dauert in der Regel nicht länger als 72 Stunden.
 
 ## Erstellen Sie ein FTP-Konto
 
@@ -61,13 +67,13 @@ Weitere Details zu Adobe FTP-Servern finden Sie unter [FTP und sFTP](/help/expor
 
    | Element | Beschreibung |
    |---|---|
-   | **Name** | Der Name des FTP-Kontos. |
-   | **Datensatz, der klassifiziert werden soll** | Wählen Sie in der Dropdown-Liste den zu klassifizierenden Datensatz (Marketing-Berichtsvariable) aus. |
-   | **Report Suites auswählen** | Wählen Sie die Report Suites aus, in denen Sie den ausgewählten Datensatz klassifizieren möchten. Zur Auswahl mehrerer Report Suites müssen die Classifications für jede ausgewählte Report Suite identisch sein. |
-   | **Daten bei Konflikten überschreiben** | Mit dieser Option werden doppelte Daten überschrieben. Diese Option ist hilfreich, wenn Sie bestehende Classifications aktualisieren. Wenn Sie die [neueste Klassifizierungsarchitektur](../sets/overview.md) verwenden, ist diese Einstellung immer aktiviert. |
+   | **Name** | Der FTP-Kontoname. |
+   | **Datensatz, der klassifiziert werden soll** | Wählen Sie aus der Dropdown-Liste den Datensatz (Marketing-Berichtsvariable) aus, den Sie klassifizieren möchten. |
+   | **Report Suites auswählen** | Wählen Sie die Report Suites aus, in denen Sie den ausgewählten Datensatz klassifizieren möchten. Um mehrere Report Suites auszuwählen, müssen die Klassifizierungen für jede der ausgewählten Report Suites identisch sein. |
+   | **Daten bei Konflikten überschreiben** | Wählen Sie diese Option, um doppelte Daten zu überschreiben. Diese Option ist nützlich, wenn Sie vorhandene Klassifizierungen aktualisieren. Wenn Sie die [neueste Klassifizierungsarchitektur](../sets/overview.md) verwenden, ist diese Einstellung immer aktiviert. |
    | **Nach Abschluss des Imports** | Wählen Sie diese Option aus, um den aktualisierten Datensatz automatisch in dasselbe FTP-Konto zu exportieren, sobald Sie die E-Mail-Adresse angeben, an die nach Abschluss des Imports Benachrichtigungen über dieses FTP-Konto gesendet werden sollen. Wenn Sie die [neueste Klassifizierungsarchitektur](../sets/overview.md) verwenden, ist diese Option nicht verfügbar. |
    | **Benachrichtigungsempfänger** | Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen zu diesem FTP-Konto gesendet werden sollen. |
-   | **Autorisieren** | (Erforderlich) Berechtigt Adobe zum automatischen Importieren aller an das neue FTP-Konto gesendeten Datendateien. |
+   | **Autorisieren** | (Erforderlich) Autorisiert Adobe, alle Datendateien, die an das neue FTP-Konto gesendet werden, automatisch zu importieren. |
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -92,6 +98,6 @@ So importieren Sie Klassifizierungen über FTP:
 
    Die FIN-Datei ist eine leere Datei mit demselben Namen wie Ihre Datendatei, nur mit der Dateierweiterung `.fin`. Wenn Ihre Datendatei also `classdata1.tab` heißt, lautet der Name der FIN-Datei `classdata1.fin`.
 
-Adobe ruft in regelmäßigen Abständen die hochgeladenen Datendateien mit zugewiesener FIN-Datei ab. Diese werden dann von Adobe in die Report Suites und Datensätze importiert, die bei der Konfiguration des FTP-Kontos angegeben wurden.
+In regelmäßigen Abständen ruft Adobe hochgeladene Datendateien mit einer zugehörigen FIN-Datei ab. Adobe importiert sie in die Report Suites und Datensätze, die in der FTP-Kontokonfiguration angegeben sind.
 
 Nachdem Adobe Analytics in den FTP-Ordner hochgeladene Dateien gelesen und verarbeitet hat, werden die Dateien automatisch von der FTP-Site entfernt.

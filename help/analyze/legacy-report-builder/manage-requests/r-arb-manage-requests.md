@@ -5,10 +5,15 @@ uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/ZAVAW4NN9WCHCdj-ZPXDOflV4oC0-WPbClzkdlrf3JM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 74%
+source-wordcount: 563
+ht-degree: 38%
 
 ---
 
@@ -40,55 +45,55 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in **[!UICONTROL 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alle Blätter </p> </td> 
-   <td colname="col2"> <p>Die Anforderungen aus allen Arbeitsblättern der aktiven Arbeitsmappe werden angezeigt. Wenn Sie Anforderungen aus bestimmten Arbeitsblättern anzeigen möchten, müssen Sie diese Option deaktivieren. Wenn Sie diese Option deaktivieren, müssen Sie auf die Registerkarte für ein Arbeitsblatt am unteren Rand des Excel-Berichts klicken, um die zugehörigen Anforderungen im <span class="wintitle">Anforderungs-Manager</span> anzuzeigen. Der Bezeichnung neben dem Kontrollkästchen können Sie entnehmen, welches Arbeitsblatt der Arbeitsmappe aktuell im Fokus ist. </p> </td> 
+   <td colname="col2"> <p>Die Anforderungen aus allen Arbeitsblättern der aktiven Arbeitsmappe werden angezeigt. Wenn Sie Anforderungen aus bestimmten Arbeitsblättern anzeigen möchten, müssen Sie diese Option deaktivieren. Wenn Sie diese Option deaktivieren, müssen Sie auf die Registerkarte für ein Arbeitsblatt am unteren Rand des Excel-Berichts klicken, um die zugehörigen Anforderungen im <span class="wintitle">Anforderungs-Manager</span> anzuzeigen. Die Beschriftung neben dem Kontrollkästchen gibt an, auf welches Blatt der Arbeitsmappe sich derzeit der Fokus befindet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Blatt </p> </td> 
-   <td colname="col2"> <p>Der Name der Arbeitsblätter in der Arbeitsmappe wird angezeigt. </p> </td> 
+   <td colname="col2"> <p>Zeigt den Namen der Blätter in der Arbeitsmappe an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Suite </p> </td> 
-   <td colname="col2"> <p>Der Name der Report Suite wird angezeigt. </p> </td> 
+   <td colname="col2"> <p>Zeigt den Namen der Report Suite an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datumsbereich </p> </td> 
-   <td colname="col2"> <p>Der für den Bericht angegebene Datumsbereich wird angezeigt. </p> </td> 
+   <td colname="col2"> <p>Zeigt den angegebenen Datumsbereich des Berichts an. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Granularität </p> </td> 
-   <td colname="col2"> <p>Die Granularität des Berichts wird angezeigt. </p> </td> 
+   <td colname="col2"> <p>Gibt die Granularität der Anfrage an. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Letzter Lauf </p> </td> 
+   <td colname="col1"> <p> Letzte Ausführung </p> </td> 
    <td colname="col2"> <p>Es wird das Datum angezeigt, an dem die Anforderung zuletzt von Report Builder verarbeitet wurde. In dieser Tabelle werden in der Spalte <span class="wintitle">Letzte Ausführung</span> auch gegebenenfalls erforderliche diagnostische Meldungen angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Fügen Sie </p> </td> 
-   <td colname="col2"> <p>Hierdurch wird der Anforderungs-Assistent angezeigt. Siehe <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Erstellen einer Datenanfrage</a>. </p> </td> 
+   <td colname="col1"> <p>Hinzufügen </p> </td> 
+   <td colname="col2"> <p>Zeigt das Dialogfeld Anforderungs-Assistent an. Siehe <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Erstellen einer Datenanfrage</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Vorlage </p> </td> 
-   <td colname="col2"> <p> (bzw. Mehrere Anforderungen bearbeiten) Eine ausgewählte Anforderung wird bearbeitet. Das System zeigt den <span class="wintitle">Anforderungs-Assistenten</span> an. Siehe <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   > Mehrere Anforderungen bearbeiten</a>. </p> </td> 
+   <td colname="col1"> <p>Bearbeiten </p> </td> 
+   <td colname="col2"> <p> (Oder mehrere bearbeiten) Bearbeitet eine ausgewählte Anfrage. Das System zeigt den <span class="wintitle">Anforderungs-Assistenten</span> an. Siehe <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   > Mehrere Anforderungen bearbeiten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Löschen </p> </td> 
-   <td colname="col2"> <p>Zum Löschen von Anforderungen. Sie können mehrere Anforderungen gleichzeitig löschen. Sie können außerdem eine Anforderung in der Liste löschen, indem Sie die Anforderung auswählen und auf die Löschtaste auf der Tastatur drücken. </p> </td> 
+   <td colname="col2"> <p>Löscht Anfragen. Sie können mehrere Anforderungen gleichzeitig löschen. Sie können eine Anforderung in der Liste auch löschen, indem Sie die Anforderung auswählen und Löschen auf der Tastatur drücken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Alle auswählen </p> </td> 
-   <td colname="col2"> <p>Es werden alle Anforderungen ausgewählt. Die Anzahl der von Ihnen ausgewählten Anforderungen wird im <span class="wintitle">Anforderungs-Manager</span> am unteren Ende der Anforderungsliste angezeigt. </p> </td> 
+   <td colname="col2"> <p>Wählen Sie alle Anforderungen aus. Die Anzahl der von Ihnen ausgewählten Anforderungen wird im <span class="wintitle">Anforderungs-Manager</span> am unteren Ende der Anforderungsliste angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Von Zelle </p> </td> 
-   <td colname="col2"> <p>Ruft Daten für eine Anforderung aus dem Arbeitsblatt ab. Wenn die Anforderung mit der aktuell ausgewählten Zelle im aktiven Arbeitsblatt verknüpft ist, wird die zugehörige Anforderung in der Anforderungsliste hervorgehoben dargestellt. </p> </td> 
+   <td colname="col2"> <p>Ruft Daten für eine Anfrage aus dem Arbeitsblatt ab. Wenn eine Anfrage mit der aktuell ausgewählten Zelle im aktiven Arbeitsblatt verknüpft ist, wird die zugehörige Anfrage in der Liste ausgewählt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Aktualisieren </p> </td> 
-   <td colname="col2"> <p>Aktualisierung einer einzelnen Anforderung oder einer Auswahl von Anforderungen. (Siehe <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Aktualisieren einer Anfrage</a>.) </p> </td> 
+   <td colname="col2"> <p>Aktualisiert eine einzelne Anfrage oder eine Auswahl von Anfragen (Siehe <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Aktualisieren einer Anfrage</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Liste aktualisieren </p> </td> 
-   <td colname="col2"> <p>Alle angezeigten Anforderungen werden aktualisiert. Die Aktualisierung aller Anforderungen in Ihren Bericht mit den Daten vom Server nimmt um so mehr Zeit in Anspruch, je komplexer die Anforderungen in dem Bericht sind. Bei sehr großen Berichten kann die Aktualisierung aller Anforderungen mehrere Minuten in Anspruch nehmen. Aus diesem Grund könnte es von Vorteil sein, dringende Anforderungen möglichst einzeln zu aktualisieren und <span class="wintitle">Alle aktualisieren</span> erst zu einem späteren Zeitpunkt zu wählen, wenn keine Dringlichkeit geboten ist. </p> <p> <p>Hinweis: Es wird empfohlen, dass Sie bei der Aktualisierung einer Arbeitsmappe mit mehreren Anforderungen die Ergebnisse öfter im <span class="wintitle">Anforderungs-Manager</span> überprüfen. Wenn es bei einer Anforderung zu einem Fehler kommt, hilft Ihnen die Fehlermeldung in der Spalte mit den diagnostischen Meldungen dabei, die Ursache näher einzugrenzen. Wenn eine Anforderung nicht ausgeführt werden kann, wird in der Regel eine Fehlermeldung ausgegeben, dies kann aber gelegentlich auch nicht der Fall sein. Möglicherweise fällt Ihnen auf, dass die Daten in einer Zelle, die einen Verweis enthält, sich bei einer Aktualisierung nicht ändern oder dass die Daten in einer Zelle durch eine Aktualisierung verschwinden. </p> </p> </td> 
+   <td colname="col2"> <p>Aktualisiert alle angezeigten Anforderungen. Die Aktualisierung aller Anforderungen in Ihren Bericht mit den Daten vom Server nimmt um so mehr Zeit in Anspruch, je komplexer die Anforderungen in dem Bericht sind. Bei sehr großen Berichten kann die Aktualisierung aller Anforderungen mehrere Minuten in Anspruch nehmen. Aus diesem Grund könnte es von Vorteil sein, dringende Anforderungen möglichst einzeln zu aktualisieren und <span class="wintitle">Alle aktualisieren</span> erst zu einem späteren Zeitpunkt zu wählen, wenn keine Dringlichkeit geboten ist. </p> <p> <p>Hinweis: Es wird empfohlen, dass Sie bei der Aktualisierung einer Arbeitsmappe mit mehreren Anforderungen die Ergebnisse öfter im <span class="wintitle">Anforderungs-Manager</span> überprüfen. Wenn eine Anfrage fehlschlägt, hilft Ihnen die Fehlermeldung in der Spalte Diagnose , die Ursache des Fehlers zu identifizieren. Während in den meisten Fällen eine Fehlermeldung angezeigt wird, wenn eine Anfrage fehlschlägt, beachten Sie, dass gelegentlich keine Fehlermeldung generiert wird. Sie werden möglicherweise feststellen, dass bei einer Aktualisierung die Daten in einer Zelle, die einen Verweis enthält, nicht aktualisiert werden oder dass bei einer Aktualisierung die Daten aus der Zelle entfernt werden. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

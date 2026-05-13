@@ -3,16 +3,22 @@ title: Bot-Name
 description: Der Name des Bots, der den Bot-Regeln entspricht.
 exl-id: 034dce46-e83c-4053-a062-3998231f8d6b
 feature: Dimensions
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/lJn65s1JtcJf7WobPEeouvwlk7G5qd8XtgxvGLY-zu8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 218
 ht-degree: 7%
 
 ---
 
 # Bot-Name
 
-Die Dimension „Bot-[&quot; &#x200B;](overview.md) die Namen von Bots an, die mithilfe von [Bot-Regeln“ &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) wurden. Bei diesen Regeln kann es sich um standardmäßige IAB-Regeln oder benutzerdefinierte Bot-Regeln handeln, die von Ihrem Unternehmen konfiguriert werden. Dies ist hilfreich, wenn Sie mehr darüber erfahren möchten, welche Bots Ihre Site besuchen oder welche Bots den meisten Traffic generieren.
+Die Dimension „Bot-[&quot; ](overview.md) die Namen von Bots an, die mithilfe von [Bot-Regeln“ ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) wurden. Bei diesen Regeln kann es sich um standardmäßige IAB-Regeln oder benutzerdefinierte Bot-Regeln handeln, die von Ihrem Unternehmen konfiguriert werden. Dies ist hilfreich, wenn Sie mehr darüber erfahren möchten, welche Bots Ihre Site besuchen oder welche Bots den meisten Traffic generieren.
 
 Treffer, die mit [!UICONTROL Bot-Regeln] übereinstimmen, werden automatisch aus allen Analytics-Berichten gefiltert, mit Ausnahme dieser Dimension, [Bot-Vorfälle](../metrics/bot-occurrences.md) und [Bot-Seitenansichten](../metrics/bot-page-views.md). Sie können diese Dimension und diese beiden Metriken verwenden, um zu sehen, welche Bot-Daten aus dem Rest Ihrer Berichte ausgeschlossen sind.
 
@@ -27,7 +33,7 @@ Die Verwendung einer anderen Dimension oder Metrik mit dieser Dimension gibt kei
 
 ## Füllen dieser Dimension mit Daten
 
-Wenn Sie „Bot[Regeln“ aktiviert haben](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) erfasst diese Dimension automatisch Daten. Wenn Sie „Bot[!UICONTROL Regeln“ noch nicht &#x200B;] haben, wird diese Dimension in Analysis Workspace nicht angezeigt.
+Wenn Sie „Bot[Regeln“ aktiviert haben](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) erfasst diese Dimension automatisch Daten. Wenn Sie „Bot[!UICONTROL Regeln“ noch nicht ] haben, wird diese Dimension in Analysis Workspace nicht angezeigt.
 
 ## Dimensionselemente
 

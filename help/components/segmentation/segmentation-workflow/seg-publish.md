@@ -3,9 +3,15 @@ description: Erfahren Sie, wie Sie Segmente für Marketing-Aktivitäten in Audie
 title: Segmente veröffentlichen
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: 1408
 ht-degree: 41%
 
 ---
@@ -30,7 +36,7 @@ Sie können Analytics-Segmente in weniger als acht Stunden in Experience Cloud v
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -127,14 +133,14 @@ Die folgenden Screenshots zeigen Ihnen, wie Sie die Adobe Audience Manager-UUID 
 
 1. Starten Sie Chrome Developer Tools vor dem Laden einer Seite.
 1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die Adobe Audience Manager-UUID sollte im Drittanbieter festgelegt werden
-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/de/docs/audience-manager/user-guide/reference/demdex-calls) im folgenden Beispiel). Das Feld demdex ist der Adobe Audience Manager UUID-Satz
+Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) im folgenden Beispiel). Das Feld demdex ist der Adobe Audience Manager UUID-Satz
 im Browser (`35721780439475290181087231320657663953` im folgenden Beispiel).
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Verwenden des Audience Manager-[!UICONTROL Besucherprofil-Betrachters]
 
-Die Adobe Audience Manager-UUID im Browser wird standardmäßig angezeigt, wenn [!UICONTROL Besucherprofil-Viewer] geladen wird. Wenn Sie die Realisierung von Eigenschaften für andere Benutzer überprüfen möchten, geben Sie eine UUID in das UUID-Feld ein und klicken Sie auf [!UICONTROL Aktualisieren]. Weitere Informationen finden Sie unter [Besucherprofil-Betrachter](https://experienceleague.adobe.com/de/docs/audience-manager/user-guide/features/visitor-profile-viewer).
+Die Adobe Audience Manager-UUID im Browser wird standardmäßig angezeigt, wenn [!UICONTROL Besucherprofil-Viewer] geladen wird. Wenn Sie die Realisierung von Eigenschaften für andere Benutzer überprüfen möchten, geben Sie eine UUID in das UUID-Feld ein und klicken Sie auf [!UICONTROL Aktualisieren]. Weitere Informationen finden Sie unter [Besucherprofil-Betrachter](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer).
 
 ## Anzeigen von Segmenteigenschaften in [!DNL Audience Manager]
 

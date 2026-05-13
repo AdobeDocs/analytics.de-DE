@@ -5,9 +5,15 @@ title: Visualisierungen - Übersicht
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b2e6b10fb468d5661f65b31c60d4d16b93dc9139
+TQID: https://experienceleague.adobe.com/5a9a3HwQ5kwfnE7Co55yPS4rIGJho4yXmWJb4Kv46bs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: 1725
 ht-degree: 86%
 
 ---
@@ -73,7 +79,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
 -->
 
-## Hinzufügen von Visualisierungen zu einem Bedienfeld
+## Hinzufügen von Visualisierungen zu einem Panel
 
 1. Öffnen Sie das Analysis Workspace-Projekt, zu dem Sie eine Visualisierung hinzufügen möchten.
 
@@ -93,7 +99,7 @@ Die folgenden Visualisierungstypen sind in Analysis Workspace verfügbar:
 
    * Wählen Sie im Kontextmenü in einer Freiformtabelle die Option **[!UICONTROL Visualisieren]** aus. Wählen Sie dann die Visualisierung aus dem Untermenü aus. Basierend auf der aktuellen Auswahl in der Tabelle bestimmt Workspace, welche Visualisierung angeboten werden soll, und interpretiert die Daten, um die angeforderte Visualisierung zu erstellen.
 
-Wenn Sie eine einfache Visualisierung hinzufügen, z. B[&#x200B; eine &#x200B;](line.md)-[-](bar.md)-Visualisierung, verwendet die Visualisierung die nächste Freiformtabelle als Datenquelle. Sie können jederzeit die [Datenquelle](#data-source) einer Ihrer Visualisierungen ändern.
+Wenn Sie eine einfache Visualisierung hinzufügen, z. B[ eine ](line.md)-[-](bar.md)-Visualisierung, verwendet die Visualisierung die nächste Freiformtabelle als Datenquelle. Sie können jederzeit die [Datenquelle](#data-source) einer Ihrer Visualisierungen ändern.
 
 ## Verwalten von Visualisierungen
 
@@ -179,10 +185,10 @@ Verwenden Sie das Kontextmenü (verfügbar über eine alternative Auswahl, z. B
 | --- | --- |
 | **[!UICONTROL Kopierte Visualisierung einfügen]** | Fügen Sie eine kopierte Visualisierung an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt ein. |
 | **[!UICONTROL Daten in die Zwischenablage kopieren]** | [Kopieren Sie Daten](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
-| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
+| **[!UICONTROL Auswahl in die Zwischenablage kopieren]** | [Kopieren Sie die ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) aus der Visualisierung in die Zwischenablage. |
+| **[!UICONTROL Objekte als CSV herunterladen (*Dimensionsname*)]** | [Laden Sie die Dimensionselemente ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) (bis zu maximal 50.000) der Visualisierung auf Ihr lokales Gerät herunter. Maximal 50.000 Dimensionselemente für die ausgewählte Dimension. |
 | **[!UICONTROL Visualisierung kopieren]** | Kopieren Sie die Visualisierung, sodass Sie sie an einer anderen Stelle innerhalb des Projekts oder in ein ganz anderes Projekt einfügen können. |
-| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
+| **[!UICONTROL Daten als CSV herunterladen]** | [Laden Sie die angezeigten Daten ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) Visualisierung auf Ihr lokales Gerät herunter. |
 | **[!UICONTROL Visualisierung duplizieren]** | Erstellen Sie ein exaktes Duplikat der Visualisierung. |
 | **[!UICONTROL Beschreibung bearbeiten]** | Fügen Sie Text zur Beschreibung der Visualisierung hinzu (oder bearbeiten Sie ihn). Siehe [Text](text.md). |
 | **[!UICONTROL Visualisierungs-Link abrufen]** | Kopieren Sie einen Link und teilen Sie ihn direkt in der Visualisierung. Der Link wird im Dialogfeld „Link freigeben“ angezeigt. Wählen Sie „Kopieren“ aus, um den Link in die Zwischenablage zu kopieren. |

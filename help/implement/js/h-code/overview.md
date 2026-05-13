@@ -4,10 +4,14 @@ description: Erfahren Sie mehr über den Workflow zur Implementierung von H-Code
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/tcREdTxSH3L5XcCcu3W1aEQySJSDyAzrlQgyrutcUds
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: 388
+ht-degree: 80%
 
 ---
 
@@ -37,7 +41,7 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
 
 ## Caching
 
-Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und in der Regel nur ein Mal pro Sitzung heruntergeladen. Die Datei wird nicht für jede Seite erneut heruntergeladen, selbst wenn sie auf jeder Seite der Website verwendet wird. Auf den meisten Websites rufen Benutzer im Durchschnitt mehr als nur ein paar Seitenansichten pro Sitzung auf. Somit kann durch die Übertragung von mehrfach verwendetem JavaScript in diese Datei die insgesamt heruntergeladene Datenmenge reduziert werden.
+Die JavaScript-Datei wird nach dem ersten Laden im Browser des Besuchers zwischengespeichert und normalerweise nicht mehr als einmal pro Sitzung heruntergeladen. Die Datei wird nicht auf jeder Seite heruntergeladen, auch wenn sie von jeder Seite der Website verwendet wird. Auf den meisten Websites haben Benutzer im Durchschnitt mehr als nur wenige Seitenansichten pro Sitzung. Daher kann die Übertragung von JavaScript, das mehrmals in dieser Datei verwendet wird, insgesamt zu weniger heruntergeladenen Daten führen.
 
 ## H-Code-Komprimierung
 

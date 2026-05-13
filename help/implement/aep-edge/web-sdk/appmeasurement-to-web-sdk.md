@@ -2,10 +2,14 @@
 title: Migrieren von AppMeasurement zur Web-SDK
 description: Aktualisieren Sie Ihre Adobe Analytics-Implementierung von der AppMeasurement JavaScript-Bibliothek auf die Web SDK JavaScript-Bibliothek.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
+TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 7%
+source-wordcount: 1432
+ht-degree: 9%
 
 ---
 
@@ -55,15 +59,15 @@ Ihr Datenstrom ist jetzt bereit, Daten zu empfangen und an Adobe Analytics weite
 
 +++**2. Installieren Sie die Web SDK JavaScript-Bibliothek**
 
-Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Methodenaufrufe verwendet werden können. Weitere [&#x200B; und zu verwendende Codeblöcke finden Sie unter „Installieren des Web](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/install/library)SDKs mit der JavaScript-Bibliothek“.
+Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Methodenaufrufe verwendet werden können. Weitere [ und zu verwendende Codeblöcke finden Sie unter „Installieren des Web](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/install/library)SDKs mit der JavaScript-Bibliothek“.
 
 +++
 
 +++**3. Konfigurieren Sie die Web-SDK**
 
-Richten Sie Ihre Implementierung so ein, dass sie auf den im vorherigen Schritt erstellten Datenstrom verweist, indem Sie den Befehl Web SDK [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview) verwenden. Der `configure`-Befehl muss auf jeder Seite festgelegt werden, damit Sie ihn zusammen mit dem Bibliotheksinstallationscode einfügen können.
+Richten Sie Ihre Implementierung so ein, dass sie auf den im vorherigen Schritt erstellten Datenstrom verweist, indem Sie den Befehl Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) verwenden. Der `configure`-Befehl muss auf jeder Seite festgelegt werden, damit Sie ihn zusammen mit dem Bibliotheksinstallationscode einfügen können.
 
-Verwenden Sie die [`datastreamId`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/datastreamid)- und [`orgId`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/orgid)-Eigenschaften im `configure`-Befehl von Web SDK:
+Verwenden Sie die [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)- und [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)-Eigenschaften im `configure`-Befehl von Web SDK:
 
 * Legen Sie die `datastreamId` auf die Datenstrom-ID fest, die aus dem vorherigen Schritt abgerufen wurde.
 * Legen Sie die `orgId` auf die IMS-Organisation Ihrer Organisation fest.
@@ -75,7 +79,7 @@ alloy("configure", {
 });
 ```
 
-Je nach den Implementierungsanforderungen Ihres Unternehmens können Sie im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl optional andere Eigenschaften festlegen.
+Je nach den Implementierungsanforderungen Ihres Unternehmens können Sie im [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl optional andere Eigenschaften festlegen.
 
 +++
 
@@ -116,7 +120,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Aktualisieren Sie Methodenaufrufe zur Verwendung der Web-SDK**
 
-Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-method.md) und [`s.tl()`](../../vars/functions/tl-method.md) aufrufen, und ersetzen Sie sie durch den [`sendEvent`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendevent/overview). Es gibt drei Szenarien, die zu berücksichtigen sind:
+Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-method.md) und [`s.tl()`](../../vars/functions/tl-method.md) aufrufen, und ersetzen Sie sie durch den [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Es gibt drei Szenarien, die zu berücksichtigen sind:
 
 * **Seitenansichts-Tracking**: Ersetzen Sie den Seitenansichts-Tracking-Aufruf durch den `sendEvent`-Befehl von Web SDK:
 
@@ -128,7 +132,7 @@ Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-
   alloy("sendEvent", dataObj);
   ```
 
-* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im `false`[`configure`-Befehl auf &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview) fest.
+* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl auf `false` fest.
 
 * **Manuelles Linktracking**: Die Web-SDK verfügt nicht über separate Befehle zwischen PageView- und Nicht-PageView-Aufrufen. Geben Sie diese Unterscheidung innerhalb des Payload-Objekts an.
 

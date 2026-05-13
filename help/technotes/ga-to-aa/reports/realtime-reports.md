@@ -3,10 +3,16 @@ title: Echtzeitberichte in Adobe Analytics
 description: Erfahren Sie, wie Sie Echtzeitberichte in Adobe Analytics abrufen, die auf Anwender ausgerichtet sind, die mit Google Analytics besser vertraut sind.
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
+TQID: https://experienceleague.adobe.com/wmxzxGKSbeiMfdV09krfIQlmG1doEnPxOGp-Tusgjyg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 94%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
@@ -20,7 +26,7 @@ Echtzeitberichte sind eine der wenigen Funktionen, die noch nicht in Analysis Wo
 
 So rufen Sie die Seite zur Konfiguration von Echtzeitberichten auf (Administratorberechtigungen erforderlich):
 
-1. Klicken Sie in der **[!UICONTROL Navigationsleiste oben in Adobe Analytics auf]** Workspace.
+1. Klicken Sie in der ]**Navigationsleiste oben in Adobe Analytics auf**[!UICONTROL  Workspace.
 1. Wählen **[!UICONTROL Berichte]** über die linke Navigationsleiste aus.
 1. Wählen Sie **[!UICONTROL Interaktion]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Echtzeit]** aus. Sie können auch ![Suchen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) nach Echtzeit suchen.
 1. Wenn für die Report Suite die Echtzeit-Funktion noch nicht aktiviert ist, wird eine Meldung mit einem Link zur Konfiguration der Report Suite angezeigt.

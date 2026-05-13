@@ -3,9 +3,14 @@ title: Fehlerbehebung bei Datenspitzen und Datenrückgängen
 description: Informieren Sie sich über mögliche Gründe, warum Sie in Trend-Berichten dramatische Zu- oder Abnahmen feststellen können.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: 856
 ht-degree: 100%
 
 ---
@@ -25,7 +30,7 @@ Traffic-Rückgänge werden in zwei Abschnitte kategorisiert: Teil der Daten und 
 * **Report Suite-Latenz**: Gelegentlich kann es bei einer Report Suite aufgrund einer Reihe von Faktoren zu einer [Latenz](../latency.md) kommen. Viele Latenzprobleme können innerhalb von Stunden behoben werden. Wenden Sie sich bei Problemen mit einer bestimmten Report Suite an die Adobe-Kundenunterstützung.
 * **Entfernung der Implementierung**: Manchmal wird die Neuimplementierung von Analytics übersehen, wenn eine Organisation Änderungen an der Implementierung vornimmt oder ihre Site neu strukturiert. Arbeiten Sie mit Entwicklern in Ihrem Unternehmen zusammen, um den Code auf Ihrer Site neu zu implementieren.
 * **Problem mit der Analytics-Oberfläche/dem Caching**: In seltenen Fällen enthält der Cache eines Browsers ungültige Daten, die dazu führen, dass alle Berichte Nullen zurückgeben. Löschen Sie die Cookies und den Cache des Browsers, um das Problem zu beheben. Wenn das Löschen Ihrer Cookies/des Cache nicht funktioniert, wenden Sie sich mit dem fehlenden Bericht und dem Datumsbereich an die Kundenunterstützung. Diese kann das Problem duplizieren und zusätzliche Informationen bereitstellen.
-* **Verfügbarkeit von Analytics**: Überprüfen Sie [status.adobe.com](https://status.adobe.com/de/products/1173/de) auf Probleme bei der Datenerfassung oder -verarbeitung.
+* **Verfügbarkeit von Analytics**: Überprüfen Sie [status.adobe.com](https://status.adobe.com/products/1173/de) auf Probleme bei der Datenerfassung oder -verarbeitung.
 
 ### Mögliche Ursachen für teilweise fehlende Daten oder verringerten Traffic
 

@@ -5,10 +5,16 @@ title: Attribution und Persistenz
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+TQID: https://experienceleague.adobe.com/rEt9Nkt-c4sU08h-iYozgQmc1-N7RKWGNHzc-MOWja4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 95%
+source-wordcount: 558
+ht-degree: 62%
 
 ---
 
@@ -21,10 +27,10 @@ ht-degree: 95%
 Wenn Besucherprofile zusammengeführt werden, nachdem sie zur gleichen Besucher-ID-Variablen zugehörig erkannt wurden, wird die Attribution im Verlaufsdatensatz nicht geändert.
 
 * Wenn die `visitorID`-Variable festgelegt und bei einem Treffer gesendet wird, sucht Adobe nach allen anderen Besucherprofilen, die über eine entsprechende Besucher-ID verfügen.
-* Wenn ein Profil vorhanden ist, wird ab diesem Punkt das bereits im System vorhandene Besucherprofil genutzt, und das vorherige Besucherprofil wird nicht mehr eingesetzt.
-* Wenn keine übereinstimmende Besucher-ID gefunden werden kann, wird ein neues Profil erstellt.
+* Wenn ein Profil vorhanden ist, wird das bereits im System vorhandene Besucherprofil ab diesem Zeitpunkt verwendet und das vorherige Besucherprofil wird nicht mehr verwendet.
+* Wenn keine übereinstimmende Besucher-ID gefunden wird, wird ein neues Profil erstellt.
 
-Wenn ein nicht authentifizierter Kunde Ihre Site zum ersten Mal besucht, wird diesem Kunden von Adobe Analytics ein Besucherprofil zugewiesen. Bei der Erstellung des neuen Profils endet ein Besuch und ein neuer Besuch beginnt.
+Wenn ein nicht authentifizierter Kunde zum ersten Mal auf Ihrer Site eintrifft, wird diesem Kunden von Adobe Analytics ein Besucherprofil zugewiesen. Bei der Erstellung des neuen Profils endet ein Besuch und ein neuer Besuch beginnt.
 
 ## Beispiel 1
 
@@ -38,11 +44,11 @@ Im folgenden Beispiel wird gezeigt, wie Daten an Adobe Analytics gesendet werden
 
 ![Geräteübergreifendes Beispiel 1](assets/xdevice_first.jpg)
 
-Bei der ersten Datenverbindung mit einem zuvor unbekannten `visitorID`-Wert (`u999` oben) wird ein neues Profil erstellt. Persistente Werte aus dem vorherigen Profil werden an das neue Profil übertragen.
+Bei der ersten Datenverbindung mit einem zuvor unbekannten `visitorID`-Wert (`u999` oben) wird ein neues Profil erstellt. Persistente Werte aus dem vorherigen Profil werden in das neue Profil übertragen.
 
-* eVars, die beim Besuch ablaufen sollen, werden nicht in das authentifizierte Profil kopiert. Beachten Sie, dass der Wert `car` oben nicht beibehalten wird.
+* eVars, die beim Besuch ablaufen, werden nicht in das authentifizierte Profil kopiert. Beachten Sie, dass der Wert `car` oben nicht beibehalten wird.
 * eVars, die nach anderen Kennzahlen ablaufen sollen, werden in das authentifizierte Profil kopiert. Beachten Sie, dass der Wert `apple` beibehalten wird.
-* Für die beibehaltenen eVars wird keine Instanzmetrik aufgezeichnet. Bei der Verwendung von geräteübergreifender Besucheridentifizierung können also Berichte erscheinen, bei denen die Metrik für Unique Visits für einen eVar-Wert größer als die Instanzmetrik ist.
+* Für die persistierten eVars wird keine Instanzmetrik aufgezeichnet. Das bedeutet, dass bei Verwendung der geräteübergreifenden Besucheridentifizierung Berichte angezeigt werden können, in denen die Metrik Eindeutige Besuche für einen eVar-Wert größer als die Metrik Instanz ist.
 
 >[!NOTE]
 >
@@ -56,6 +62,6 @@ Im folgenden Beispiel wird gezeigt, wie Daten an Adobe Analytics gesendet werden
 
 Wenn sich der Kunde authentifiziert, wird er dem vorherigen „authentifizierten“ Profil zugeordnet – `2947539300`. Das zu Beginn dieses Besuchs verwendete Profil (`5477766334477`) wird nicht mehr verwendet, und es werden keine Daten aus der Datei beibehalten.
 
-* Geo-Segmentdaten werden auf der Grundlage des ersten Treffers des Besuchs vermerkt und bei einem einzelnen Besuch nicht geändert, wobei es keine Rolle spielt, welches Gerät verwendet wird. Daher werden Geo-Segmentdaten bei einer nachfolgenden Datenverbindung mit einem neuen Gerät im Allgemeinen nicht aufgenommen.
-* Technologiespalten, wie Browser, Betriebssystem und Farbtiefe, werden beim ersten Treffer eines Besuchs aufgezeichnet. Wie Geo-Segmentdatenwerte werden auch diese Werte nicht in das authentifizierte Profil kopiert.
+* Die Geo-Segmentierungsdaten werden basierend auf dem ersten Treffer des Besuchs aufgezeichnet und ändern sich für einen einzelnen Besuch unabhängig vom verwendeten Gerät nicht. Das bedeutet, dass bei einer nachfolgenden Datenverbindung auf einem neuen Gerät Geo-Segmentierungsdaten im Allgemeinen nicht enthalten sind.
+* Technologiespalten wie Browser, Betriebssystem und Farbtiefe werden beim ersten Treffer eines Besuchs aufgezeichnet. Wie Geo-Segmentdatenwerte werden auch diese Werte nicht in das authentifizierte Profil kopiert.
 * Marketing-Kanäle überschreiben andere Kanäle bei einer nachfolgenden Datenverbindung, die eine erste Authentifizierung für dieses Gerät enthält.

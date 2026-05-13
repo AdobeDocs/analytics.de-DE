@@ -3,10 +3,15 @@ description: Erfahren Sie mehr über Beispiele für gefilterte und gewichtete Me
 title: Gefilterte und gewichtete Metriken
 feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/Euk3sI0-AYtfmpEbL-8gfWU4HcFE6kGO6QGgctZbvig
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 63%
+source-wordcount: 158
+ht-degree: 9%
 
 ---
 
@@ -16,11 +21,11 @@ Dieser Artikel zeigt Beispiele für gefilterte und gewichtete Metriken.
 
 ## Gefilterte Bounce-Rate
 
-Mit dieser einfachen Metrik wird die Absprungrate nur für die Seiten mit mehr als 100 Besuchen angezeigt:
+Diese einfache gefilterte Metrik zeigt die Absprungrate nur für Seiten mit mehr als 100 Besuchen an:
 
 ![Gefilterte Bounce-Rate](assets/filtered-bounce-rate.png){zoomable="yes"}
 
-Denken Sie daran, dass diese Formel von einem konsistenten Zeitraum abhängig ist. Wenn Sie einen Bericht für einen Tag ausführen, lohnt es sich, jede Seite mit mehr als 20 Besuchen zu betrachten. Wenn der Bericht für einen Monat ausgeführt wird, sollte der Filter mehr Besuche umfassen.
+Beachten Sie, dass diese Formel von einem konsistenten Zeitraum abhängt. Wenn Sie einen Bericht für einen einzelnen Tag ausführen, lohnt es sich, jede Seite mit mehr als 20 Besuchen anzusehen. Wenn der Filter einen Monat lang ausgeführt wird, sollte er möglicherweise weitere Besuche enthalten.
 
 ## Gefilterte Absprungrate mit Perzentil
 
@@ -30,6 +35,6 @@ Dieser Filter zeigt die Absprungrate für die 30 Prozent der häufigsten Seiten 
 
 ## Gewichtete Absprungrate
 
-Beispiel: Sie möchten nach Absprungrate im Allgemeinen sortieren, aber Seiten mit mehr Besuchen weiter oben in der Liste anzeigen. Dazu könnten Sie eine gewichtete Absprungrate erstellen, die in etwa wie folgt aussieht:
+Angenommen, Sie möchten die Seite nach der Absprungrate im Allgemeinen sortieren, Seiten mit höheren Besuchen sollten jedoch höher auf der Liste stehen. Dazu könnten Sie eine gewichtete Absprungrate erstellen, die in etwa wie folgt aussieht:
 
 ![](assets/weighted-bounce-rate.png)

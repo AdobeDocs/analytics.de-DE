@@ -3,10 +3,15 @@ title: Analytics-Integration
 description: Erfahren Sie, wie Sie Daten von anderen Speicherorten in Adobe Analytics integrieren können.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/C7KEHvXqzmtw8K-yPQ8Mp-nz-5oht37MYk33Wjj1be0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 72%
+source-wordcount: 218
+ht-degree: 65%
 
 ---
 
@@ -21,7 +26,7 @@ In diesem Handbuch wird die Integration mehrerer Adobe Experience Cloud-Lösunge
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +54,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Übersicht zu 
 
 ## Wichtige Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&lang=de#support)
-* [Adobe Analytics-Community auf Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de&lang=de)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&lang=de#support)
+* [Adobe Analytics-Community in Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/de)

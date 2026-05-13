@@ -1,27 +1,31 @@
 ---
-description: Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie die nativ erfassten Daten behandelt und verarbeitet werden.
+description: Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie Daten behandelt und verarbeitet werden, die nativ erfasst wurden.
 title: Datenquellen für Admins
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/I2ctYeeq-rbgLkrlqIjHk99hLCToQ-paDoNteP9M-Kw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 97%
+source-wordcount: 160
+ht-degree: 18%
 
 ---
 
-
 # Datenquellen
 
-Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie die nativ erfassten Daten behandelt und verarbeitet werden.
+Mit der Funktion „Data Sources“ können Sie Daten aus Offline-Quellen in Analytics importieren. Nach dem Import können diese Daten ähnlich wie Daten behandelt und verarbeitet werden, die nativ erfasst wurden.
 
-Data Sources werden zu folgenden Zwecken verwendet:
+Verwenden von Datenquellen für:
 
-* Integrieren von Offlinedaten mit den über die Website erfassten Daten.
-* Erfassen von Daten über Webserver, Call Center oder andere Systeme. Sie können die Daten dann in die Experience Cloud importieren, um Konversionen aus allen Bereichen des Unternehmens anzuzeigen.
-* Optimieren des Keyword-Bid-Managements über SearchCenter auf der Grundlage der offline zufriedengestellten Leads.
+* Integrieren von Offline-Daten mit Daten, die von Ihrer Website erfasst werden.
+* Erfassen Sie Daten von Webservern, Callcentern oder anderen Systemen. Importieren Sie sie dann in Experience Cloud, um die Konversion von allen Möglichkeiten Ihres Unternehmens zu sehen.
+* Optimieren Sie die Keyword-Angebotsverwaltung basierend auf der Offline-Lead-Erfüllung über SearchCenter.
 
-Wenn die Data Sources für eine Report Suite aktiviert sind, wird ein FTP-Speicherort bereitgestellt, damit die Dateien für die Integration in die Berichte hochgeladen werden können. Nachdem sie hochgeladen wurden, werden sie von den Adobe-Servern automatisch verarbeitet und in die Report Suite integriert.
+Wenn Datenquellen für eine Report Suite aktiviert sind, wird ein FTP-Speicherort angegeben, damit Sie Dateien hochladen können, die in das Reporting integriert werden sollen. Nach dem Hochladen verarbeiten Adobe-Server die Daten automatisch und integrieren sie in Ihre Report Suite.
 
-Siehe [Hilfe zu Data Sources](/help/import/data-sources/overview.md)
+Siehe [Hilfe zu Datenquellen](/help/import/data-sources/overview.md).
