@@ -62,7 +62,7 @@ Beurteilen Sie die Situation und erstellen Sie einen Plan zur Berichtigung der D
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überprüfen der Implementierung](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überprüfen der Implementierung](https://video.tv.adobe.com/v/3440178?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

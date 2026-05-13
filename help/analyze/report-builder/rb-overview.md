@@ -91,7 +91,7 @@ Einige [&#x200B; (Funktionen der veralteten Report Builder werden nicht unterst�
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Überblick über Report Builder](https://video.tv.adobe.com/v/3452589?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
