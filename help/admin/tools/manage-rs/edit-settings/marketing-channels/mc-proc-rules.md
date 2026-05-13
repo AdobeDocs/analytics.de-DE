@@ -5,10 +5,15 @@ feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
 TQID: https://experienceleague.adobe.com/3SrvkrKhoEvtanhB-bFKl2IAQ6wQzb1vpnC5kXivuu0
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 822
@@ -38,7 +43,7 @@ Jede Regel enthält eine Bedingung und eine Zuweisung:
 
 * **[!UICONTROL Wenn Folgendes zutrifft:]** Sie einer einzelnen Regel mehrere Bedingungen hinzufügen, können Sie bestimmen, ob alle Bedingungen erfüllt sein müssen oder eine der Bedingungen erfüllt sein muss, um den Kanal und den zugehörigen Wert festzulegen.
 * **Regelbedingungen**: Geben Sie eine oder mehrere Regelbedingungen an, die erfüllt werden müssen. Normalerweise geben Sie eine Dimension an, mit der ein Treffer übereinstimmen muss, damit er für den Marketing-Kanal qualifiziert werden kann.
-* **[!UICONTROL Gehen Sie dann wie folgt vor]**: Wenn die Regelbedingungen übereinstimmen, setzen Sie [Marketing-Kanal](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifizieren Sie den Kanal als]) und [Marketing-Kanal-Detail](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Legen Sie den Kanalwert ]).
+* **[!UICONTROL Gehen Sie dann wie folgt vor]**: Wenn die Regelbedingungen übereinstimmen, setzen Sie [Marketing-Kanal](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifizieren Sie den Kanal als]) und [Marketing-Kanal-Detail](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Legen Sie den Kanalwert &#x200B;]).
 
 ## Regelbedingungen
 

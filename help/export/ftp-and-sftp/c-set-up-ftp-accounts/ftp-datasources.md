@@ -5,9 +5,13 @@ title: Datenquellen – Übersicht
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 TQID: https://experienceleague.adobe.com/Mq4r5p1872tIxfjts7HOq50XWky12Oy4fTi9ajzbAsc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 455
@@ -21,7 +25,7 @@ Sie können Analytics nutzen, um FTP-basierte Datenquellen zu erstellen und zu v
 
 Nachdem Sie eine Data Sources-Instanz erstellt haben, stellt das Tool einen FTP-Speicherort bereit, mit dem Sie Data Sources-Dateien hochladen können. Nach dem Hochladen werden sie von Data Sources automatisch gefunden und verarbeitet. Nachdem die Dateien verarbeitet wurden, stehen die Daten für das Analytics-Reporting zur Verfügung.
 
-Auf [!UICONTROL  Registerkarte ]Erstellen“ im Datenquellen-Manager können Sie eine neue Datenquelleninstanz für die ausgewählte Report Suite konfigurieren. Der [!UICONTROL Datenquellen-Assistent] führt Sie durch den Prozess der Erstellung einer Datenquellenvorlage und erstellt einen FTP-Speicherort für das Hochladen von Daten.
+Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Erstellen“ im Datenquellen-Manager können Sie eine neue Datenquelleninstanz für die ausgewählte Report Suite konfigurieren. Der [!UICONTROL Datenquellen-Assistent] führt Sie durch den Prozess der Erstellung einer Datenquellenvorlage und erstellt einen FTP-Speicherort für das Hochladen von Daten.
 
 Suchen Sie im Fenster [!UICONTROL Datenquellen verwalten] Ihre Datenquelle und klicken Sie auf den Link FTP-Informationen . Ihre FTP-Anmeldeinformationen werden im Fenster [!UICONTROL Aktivieren einer Data Source] im Abschnitt [!UICONTROL Hochladen/FTP-Informationen] angezeigt.
 

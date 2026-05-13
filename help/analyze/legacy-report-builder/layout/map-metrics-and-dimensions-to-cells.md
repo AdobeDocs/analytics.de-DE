@@ -6,11 +6,19 @@ feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 TQID: https://experienceleague.adobe.com/yeU4gugMR2nSKwjo4LuX79spXIaD4UtuaTQ52bZwGrU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 676
@@ -24,14 +32,14 @@ ht-degree: 26%
 
 Bevor Sie damit beginnen, einem Arbeitsblatt Elemente zuzuordnen, stellen Sie sicher, dass das Arbeitsblatt nicht schreibgeschützt ist. Wenn ein bestehender Schutz für das Arbeitsblatt die Benutzerinteraktion verhindert, können Sie keine Zellen darin auswählen. Heben Sie zunächst den Schutz des Arbeitsblatts auf und fügen Sie dann Zellenzuordnungen hinzu.
 
-Die Anzahl der Bereiche und Zellen, die zugeordnet werden sollen, hängt von der ausgewählten Metrik, der Granularität, dem Datumsbereich und den von Ihnen festgelegten Filtern ab. Wenn Sie beispielsweise [!UICONTROL Site-Metrik] > [!UICONTROL Traffic-Bericht] auswählen, die [!UICONTROL Woche]-Granularität festlegen und den Datumsbereich für die [!UICONTROL Letzte 2 Wochen] festlegen, werden Sie aufgefordert, drei Zellen (bei Verwendung von [!UICONTROL Benutzerdefiniertes Layout]) im [!UICONTROL -Anforderungs-Assistenten zuzuordnen: Schritt 2]. Die Anfrage ruft Daten für die erste Woche und Daten für die zweite Woche ab, wobei jeder Datenpunktwert dem Wert einer Seitenansicht entspricht. Die dritte Zelle dient als Zeilenüberschrift, die Sie mit „Formatoptionen[!UICONTROL  konfigurieren ].
+Die Anzahl der Bereiche und Zellen, die zugeordnet werden sollen, hängt von der ausgewählten Metrik, der Granularität, dem Datumsbereich und den von Ihnen festgelegten Filtern ab. Wenn Sie beispielsweise [!UICONTROL Site-Metrik] > [!UICONTROL Traffic-Bericht] auswählen, die [!UICONTROL Woche]-Granularität festlegen und den Datumsbereich für die [!UICONTROL Letzte 2 Wochen] festlegen, werden Sie aufgefordert, drei Zellen (bei Verwendung von [!UICONTROL Benutzerdefiniertes Layout]) im [!UICONTROL -Anforderungs-Assistenten zuzuordnen: Schritt 2]. Die Anfrage ruft Daten für die erste Woche und Daten für die zweite Woche ab, wobei jeder Datenpunktwert dem Wert einer Seitenansicht entspricht. Die dritte Zelle dient als Zeilenüberschrift, die Sie mit „Formatoptionen[!UICONTROL &#x200B; konfigurieren &#x200B;].
 
 Wenn Sie versehentlich inkompatible Speicherorte auf dem Arbeitsblatt zuordnen, gibt Report Builder einen Fehler aus.
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* [Auswahl eines Zellenbereiches ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Methoden für die Auswahl von Zellen ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Auswahl eines Zellenbereiches &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Methoden für die Auswahl von Zellen &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [Probleme beim Zuordnen](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Einen Zellenbereich auswählen {#section_1E37FB46DA194FB7A1050B8833A48AC6}
@@ -61,7 +69,7 @@ Um einzelne Zeilen in einer Anfrage zuzuordnen, verwenden Sie die [!UICONTROL St
 
 ![](assets/map4.png)
 
-Nachdem Sie Zellen ausgewählt haben, klicken Sie auf die **[!UICONTROL Bereichsauswahl]** erneut auf dem Formular [!UICONTROL Bereichsauswahl], um zum [!UICONTROL Anforderungs-Assistenten: Schritt 2) ].
+Nachdem Sie Zellen ausgewählt haben, klicken Sie auf die **[!UICONTROL Bereichsauswahl]** erneut auf dem Formular [!UICONTROL Bereichsauswahl], um zum [!UICONTROL Anforderungs-Assistenten: Schritt 2) &#x200B;].
 
 ## Fehlerbehebung bei Zuordnungsproblemen{#section_CC1BCF841291447EB3A994EB08F3A099}
 

@@ -4,10 +4,21 @@ description: Erfahren Sie mehr zur Reihenfolge der Komponenten und Services, die
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1106
@@ -68,7 +79,7 @@ Bis zu diesem Zeitpunkt hat ein bestimmter Treffer keine Kenntnis oder keinen Ko
 1. [**Besuchsnummer**](/help/components/dimensions/visit-number.md): Basierend auf anderen Besuchen für den identifizierten Besucher wird die Besuchsnummer berechnet.
 1. **Ereignisdeduplizierung**: Wenn der Treffer eine doppelte [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) oder [Ereignis-Serialisierung](/help/implement/vars/page-vars/events/event-serialization.md) enthält, werden diese IDs überprüft bzw. gekennzeichnet.
 1. [**Verarbeitungsregeln für Marketing-Kanäle auf Besuchsebene**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md): Jeder Treffer wird durch Verarbeitungsregeln für Marketing-Kanäle ausgeführt, und die Details für Kanal und Kanal werden bestimmt, wenn der Treffer mit einer Regel übereinstimmt. Mit diesen Regeln werden die Dimensionen [Marketing-](/help/components/dimensions/marketing-channel.md)) und [Marketing-Kanal-Details](/help/components/dimensions/marketing-detail.md) ausgefüllt, die in Analysis Workspace verfügbar sind.
-1. **Variablenpersistenz**: Für Dimensionen mit Persistenz (z. B[ eVars](/help/components/dimensions/evar.md)) wird dieser Wert in diesem Schritt bestimmt. Im Allgemeinen werden hier die meisten `post` festgelegt.
+1. **Variablenpersistenz**: Für Dimensionen mit Persistenz (z. B[&#x200B; eVars](/help/components/dimensions/evar.md)) wird dieser Wert in diesem Schritt bestimmt. Im Allgemeinen werden hier die meisten `post` festgelegt.
 1. **Transaktions-**: Wenn der Treffer einen neuen [`transactionID`](/help/implement/vars/page-vars/transactionid.md) enthält, wird eine „Momentaufnahme“ aller unterstützten Werte gespeichert. Wenn ein Datenquellen-Upload eine übereinstimmende Transaktions-ID enthält, sind alle unterstützten Werte aus diesem Snapshot in dieser Datenquellenzeile enthalten.
 1. [**IP-Verschleierung (IP entfernen)**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): Wenn Ihre Report Suite so konfiguriert ist, dass eine IP-Adresse vollständig verschleiert wird, wird diese Verschleierung hier angewendet, nachdem alle anderen Verarbeitungsschritte abgeschlossen sind.
 

@@ -7,11 +7,21 @@ type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -62,7 +72,7 @@ Um eine ältere Arbeitsmappe zu öffnen, haben Sie folgende Möglichkeiten:
 
    1. Wählen Sie ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der [!DNL Excel] Multifunktionsleiste aus.
    1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
-   1. Konvertieren [ dann die alte Arbeitsmappe](#convert-a-workbook).
+   1. Konvertieren [&#x200B; dann die alte Arbeitsmappe](#convert-a-workbook).
 
 
 ## Alte Arbeitsmappe konvertieren
@@ -96,7 +106,7 @@ So konvertieren Sie eine veraltete Arbeitsmappe:
 
      ![Screenshot des [!DNL Excel] Report Builder-Upgrade-Berichts mit dem Migrationsbericht](assets/upgrade-report.png)
 
-Sie können [ Datenblöcke in ](/help/analyze/report-builder/manage-reportbuilder.md) Arbeitsmappe verwalten. Diese Datenblöcke sind das Ergebnis des Upgrades und ersetzen Ihre veralteten Report Builder-Anfragen.
+Sie können [&#x200B; Datenblöcke in &#x200B;](/help/analyze/report-builder/manage-reportbuilder.md) Arbeitsmappe verwalten. Diese Datenblöcke sind das Ergebnis des Upgrades und ersetzen Ihre veralteten Report Builder-Anfragen.
 
 
 ## Planen einer konvertierten Legacy-Arbeitsmappe

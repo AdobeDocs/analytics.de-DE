@@ -4,10 +4,15 @@ description: Die Häufigkeit, mit der sich ein Dimensionselement bei einem Besuc
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
 TQID: https://experienceleague.adobe.com/9rDXvGopDNEhkh6cA-JmkwazYWagbMDo1g7yZ2n-gLI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 484
@@ -17,16 +22,16 @@ ht-degree: 19%
 
 # Einzelzugriff
 
-Die **[!UICONTROL Einzelzugriff]** [Metrik) ](overview.md) die Anzahl der Besuche an, bei denen die entsprechende Berichtsdimension nur einen einzigen Wert für einen gesamten Besuch enthielt. Es handelt sich um die breitere, dimensionsspezifische Version von [[!UICONTROL Einzelseitenbesuche]](single-page-visits.md). Diese Metrik ist hilfreich im Kontext jeder Dimension, bei der Sie den Wert einer Dimension sehen möchten, wenn er während eines Besuchs nur einmal festgelegt wurde.
+Die **[!UICONTROL Einzelzugriff]** [Metrik) &#x200B;](overview.md) die Anzahl der Besuche an, bei denen die entsprechende Berichtsdimension nur einen einzigen Wert für einen gesamten Besuch enthielt. Es handelt sich um die breitere, dimensionsspezifische Version von [[!UICONTROL Einzelseitenbesuche]](single-page-visits.md). Diese Metrik ist hilfreich im Kontext jeder Dimension, bei der Sie den Wert einer Dimension sehen möchten, wenn er während eines Besuchs nur einmal festgelegt wurde.
 
 ## Berechnung dieser Metrik
 
-Die Definition dieser Metrik hängt von der Projekteinstellung von „Wiederholte Instanzen zählen[[!UICONTROL  ab]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings):
+Die Definition dieser Metrik hängt von der Projekteinstellung von „Wiederholte Instanzen zählen[[!UICONTROL &#x200B; ab]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings):
 
 * **Wiederholte Instanzen zählen aktiviert**: Zählt Besuche, bei denen die Dimension genau einen Wert pro Besuch enthält. Wenn die Dimension bestehen bleibt, wird sie nicht mehr als einzelner Zugriff qualifiziert.
 * **Wiederholte Instanzen zählen deaktiviert**: Zählt Besuche, bei denen die Dimension einen einzelnen eindeutigen Wert enthält. Sie können das Dimensionselement mehrmals auf denselben Wert setzen oder ihn beibehalten lassen, sodass er weiterhin als einzelner Zugriff gezählt wird.
 
-Unabhängig von &quot;[!UICONTROL  wiederholte Instanzen zählen] ist der Besuch nicht mehr als einzelner Zugriff qualifiziert, wenn die Dimension in einen zweiten eindeutigen Wert geändert wird. Linktracking-Aufrufe sind in dieser Berechnung enthalten, wenn die Dimension in ihnen festgelegt ist.
+Unabhängig von &quot;[!UICONTROL &#x200B; wiederholte Instanzen zählen] ist der Besuch nicht mehr als einzelner Zugriff qualifiziert, wenn die Dimension in einen zweiten eindeutigen Wert geändert wird. Linktracking-Aufrufe sind in dieser Berechnung enthalten, wenn die Dimension in ihnen festgelegt ist.
 
 ## Unterschied zwischen &quot;[!UICONTROL Einzelzugriff] und &quot;[!UICONTROL Einzelseitenbesuch]&quot;
 

@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Sie einen oder mehrere Klassifizierungssätze zu 
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
 TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 597
@@ -45,7 +50,7 @@ Die ➊ zeigt Klassifizierungskonsolidierungen an, die erstellt und validiert wu
 |---|---|
 | **[!UICONTROL Konsolidierungsname]** | Der Name der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Aktueller Auftrag]** | Der mit der Konsolidierung der Klassifizierungssätze verknüpfte Vorgang. |
-| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich**[!UICONTROL , ]**Konsolidierung**[!UICONTROL , ]**Übergeben]**, ****, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]****[!UICONTROL ,]******, **[!UICONTROL Validierung]** **** ****, |
+| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich**&#x200B;[!UICONTROL , &#x200B;]&#x200B;**Konsolidierung**&#x200B;[!UICONTROL , &#x200B;]&#x200B;**Übergeben]**, **&#x200B;**, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]**&#x200B;**[!UICONTROL ,]**&#x200B;**&#x200B;**, **[!UICONTROL Validierung]** **&#x200B;**&#x200B;**&#x200B;**, |
 | **[!UICONTROL Erstellungszeit]** | Die Erstellungszeit der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Abschlusszeit]** | Die Abschlusszeit der Klassifizierungskonsolidierungen. |
 
@@ -76,7 +81,7 @@ Wenn Sie einen oder mehrere Klassifizierungssätze in der Klassifizierungssatz-L
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Bearbeiten]** | [Bearbeiten Sie die Konsolidierung der Klassifizierungssätze](process.md#edit-a-consolidation) |
-| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [ Konsolidierung ](process.md#approve) oder [abbrechen](process.md#cancel). |
+| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [&#x200B; Konsolidierung &#x200B;](process.md#approve) oder [abbrechen](process.md#cancel). |
 
 
 ### Panel „Filter“
