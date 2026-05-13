@@ -45,7 +45,7 @@ Sie können Analytics-Segmente in weniger als acht Stunden in Experience Cloud v
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente veröffentlichen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -142,7 +142,7 @@ Die folgenden Screenshots zeigen Ihnen, wie Sie die Adobe Audience Manager-UUID 
 
 1. Starten Sie Chrome Developer Tools vor dem Laden einer Seite.
 1. Laden Sie die Seite und aktivieren Sie „Anwendungen“ > „Cookies“. Die Adobe Audience Manager-UUID sollte im Drittanbieter festgelegt werden
-Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) im folgenden Beispiel). Das Feld demdex ist der Adobe Audience Manager UUID-Satz
+Demdex-Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/de/docs/audience-manager/user-guide/reference/demdex-calls) im folgenden Beispiel). Das Feld demdex ist der Adobe Audience Manager UUID-Satz
 im Browser (`35721780439475290181087231320657663953` im folgenden Beispiel).
 
    ![Chrome Developer Tools](assets/devtools.png)

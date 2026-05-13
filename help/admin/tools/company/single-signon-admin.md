@@ -22,4 +22,4 @@ ht-degree: 90%
 
 Single Sign-On ist in Adobe Experience Cloud über die Admin Console implementiert.
 
-Hilfe erhalten Sie im [Benutzerhandbuch für Administratoren](https://www.adobe.com/go/analytics_sso_en).
+Hilfe erhalten Sie im [Benutzerhandbuch für Administratoren](https://www.adobe.com/go/analytics_sso_de).
