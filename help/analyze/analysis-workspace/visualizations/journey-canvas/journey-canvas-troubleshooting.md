@@ -2,9 +2,8 @@
 description: Erfahren Sie, wie Sie die Journey-Arbeitsflächen-Visualisierung in Analysis Workspace verwenden, um Benutzer-Journey, Fallout und Multi-Path-Konversionen zu analysieren.
 title: Fehlerbehebung für die Journey-Arbeitsfläche
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -15,7 +14,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Siehe [Übersicht über das Journey-Arbeitsflächen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) für die _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Siehe [Übersicht über das Journey-Arbeitsflächen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) für die _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
