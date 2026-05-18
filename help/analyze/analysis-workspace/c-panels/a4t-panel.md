@@ -5,29 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1287
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -47,13 +33,13 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Analytics for Target-Bedienfeld"
->abstract="Analysieren von Target-Aktivitäten und -Erlebnissen in Analysis Workspace <br/><br>**Parameter &#x200B;**<br/>**Target-Aktivität**: Die analysierte Target-Aktivität.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
+>abstract="Analysieren Sie Target-Aktivitäten und -Erlebnisse in Analysis Workspace.<br/><br>**Parameter **<br/>**Target-Aktivität**: Die Target-Aktivität, die analysiert wird.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Experimentier-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)_ für Informationen zum Vergleich verschiedener Benutzererlebnisse, Marketing- oder Messaging-Variationen in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Experimentier-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)_ für Informationen zum Vergleich verschiedener Benutzererlebnisse, Marketing- oder Messaging-Variationen in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +48,7 @@ Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitä
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Analytics for Target“](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Analytics for Target“](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -105,10 +91,10 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 | **[!UICONTROL Erfolgsmetrik]** | Die im Eingabebedienfeld ausgewählte Erfolgsmetrik. |
 | **[!UICONTROL Konversionsrate]** | Die Erfolgsmetrik/Normalisierungsmetrik. |
 | **[!UICONTROL Steigerung]** | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis. Hinweis: Steigerung ist eine *gesperrte Metrik* für „Target-Erlebnisse“. Sie kann nicht aufgeschlüsselt oder mit anderen Dimensionen verwendet werden. |
-| **[!UICONTROL Steigerung (Mindestwert)]** | Dieser Wert stellt die schlechteste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de). |
-| **[!UICONTROL Steigerung (mittlerer Wert)]** | Dieser Wert stellt die mittlere Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. <br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de). |
-| **[!UICONTROL Steigerung (Maximalwert)]** | Dieser Wert stellt die beste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de). |
-| **[!UICONTROL Konfidenz]** | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de). |
+| **[!UICONTROL Steigerung (Mindestwert)]** | Dieser Wert stellt die schlechteste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
+| **[!UICONTROL Steigerung (mittlerer Wert)]** | Dieser Wert stellt die mittlere Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. <br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
+| **[!UICONTROL Steigerung (Maximalwert)]** | Dieser Wert stellt die beste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
+| **[!UICONTROL Konfidenz]** | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
 
 Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen. Sie können ein Segment auch entweder auf Panel-Ebene oder innerhalb der Freiformtabelle anwenden. Beachten Sie, dass Sie beim Hinzufügen in der Freiformtabelle eine Überlagerung über die gesamte Tabelle durchführen müssen, um die Steigerungs- und Konfidenzberechnungen beizubehalten. Segmente auf Spaltenebene werden derzeit nicht unterstützt.
 
