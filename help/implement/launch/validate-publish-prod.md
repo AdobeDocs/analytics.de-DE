@@ -4,10 +4,25 @@ description: Hier erfahren Sie, wie Sie Tags in Adobe Experience Platform verwen
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: 635
+ht-degree: 65%
 
 ---
 
@@ -19,13 +34,13 @@ Sobald Ihre Tag-Bibliothek in die Produktion verschoben wurde, kann Ihr Unterneh
 
 [Stellen Sie Ihre Analytics-Implementierung in Ihrer Entwicklungsumgebung bereit](deploy-dev.md): Eine Analytics-Implementierung muss in Ihrer Entwicklungsumgebung veröffentlicht werden, um dieser Seite zu folgen.
 
-## Überprüfung der Dev-Implementierung mit dem Experience Cloud-Debugger
+## Validieren der Entwicklungsimplementierung mit dem CX Enterprise-Debugger
 
-Der Experience Cloud-Debugger ist eine Erweiterung, die alle auf einer Seite vorhandenen Experience Cloud-Tags anzeigt.
+Der CX Enterprise-Debugger ist eine Erweiterung, die alle auf einer Seite vorhandenen CX Enterprise-Tags anzeigt.
 
 1. Installieren Sie die Erweiterung für [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder Firefox.
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
-3. Klicken Sie in Ihrem Browser auf das Symbol &quot;Adobe Experience Cloud-Debugger“.
+3. Klicken Sie in Ihrem Browser auf das Symbol Adobe CX Enterprise Debugger .
 4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und der Besucher-ID-Dienst von Adobe Experience Cloud angezeigt werden.
 
 ## Bereitstellen der Dev-Implementierung für Staging/Produktion.
@@ -47,7 +62,7 @@ Nachdem Sie überprüft haben, ob Daten angezeigt werden, können Sie Ihre Imple
 
 Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beginnen Sie mit der offiziellen Datenerfassung für Adobe Analytics.
 
-1. Nachdem Sie sich von Ihren Website-Verantwortlichen bestätigen haben lassen, dass diese den Tag-Code in die Produktion verschoben haben, navigieren Sie in Chrome zur Homepage Ihrer Website und öffnen Sie den [!UICONTROL Adobe Experience Cloud-Debugger].
+1. Nachdem Sie sich von Ihren Website-Verantwortlichen bestätigen haben lassen, dass diese den Tag-Code in die Produktionsumgebung verschoben haben, navigieren Sie in Chrome zur Homepage Ihrer Website und öffnen Sie den Adobe CX Enterprise-Debugger.
 2. Wenn alles funktioniert, sollten Sie ähnliche Daten wie Ihre Tests in Ihrer Entwicklungsumgebung sehen. Zu diesem Zeitpunkt erfassen Sie jetzt Daten auf Ihrer Site und können nun Adobe Analytics für die Berichterstellung verwenden.
 
 ## Fehlerbehebung

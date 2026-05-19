@@ -1,12 +1,26 @@
 ---
-description: (Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
+description: (Optional) Vor dem Import von Klassifizierungen in Marketing-Berichte können Sie eine Vorlage herunterladen, mit der Sie eine Klassifizierungsdatendatei erstellen können. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
 title: Klassifizierungsvorlage
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/OR9THCLd93iUl58npPiinO4yAsK8KG3FU8qmBILHioY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 99%
+source-wordcount: 355
+ht-degree: 61%
 
 ---
 
@@ -18,19 +32,19 @@ ht-degree: 99%
 
 ## Klassifizierungsvorlage {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
-(Optional) Vor dem Importieren von Classifications in Marketingberichte können Sie eine Vorlage herunterladen, mit der Sie eine Classification-Datendatei erstellen. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
+(Optional) Vor dem Import von Klassifizierungen in Marketing-Berichte können Sie eine Vorlage herunterladen, mit der Sie eine Klassifizierungsdatendatei erstellen können. Die Datendatei verwendet Ihre gewünschten Klassifizierungen als Spaltenüberschriften und organisiert dann den Berichtsdatensatz unter den entsprechenden Klassifizierungs-Überschriften.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 | Element | Beschreibung |
 | --- | ---|
-| Report Suite auswählen | Wählen Sie die Report Suite aus, die in der Vorlage genutzt werden soll. Report Suite und Datensatz müssen übereinstimmen. |
-| Datensatz, der klassifiziert werden soll | Wählen Sie den Typ der Daten für die Datendatei aus. Das Menü enthält alle Berichte aus Ihren Report Suites, die für Classifications konfiguriert sind. |
+| Report Suite auswählen | Die in der Vorlage zu verwendende Report Suite auswählen. Report Suite und Datensatz müssen übereinstimmen. |
+| Datensatz, der klassifiziert werden soll | Wählen Sie den Datentyp für die Datendatei aus. Das Menü enthält alle Berichte in Ihren Report Suites, die für Klassifizierungen konfiguriert sind. |
 | Export von Numerisch 2 | **Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
-| Codierung | Wählen Sie die Zeichencodierung für die Datendatei aus. Standardmäßig wird das Kodierungsformat UTF-8 verwendet.<br>**Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
+| Codierung | Wählen Sie die Zeichencodierung für die Datendatei aus. Das Standardcodierungsformat ist UTF-8.<br>**Wichtig**: Diese Option ist nicht für Report Suites verfügbar, die für die neue Klassifizierungsarchitektur aktiviert sind. |
 | Download | Lädt die Vorlagendatei herunter. |
 
-Die Vorlage beinhaltet die aktuell definierten Classifications (Spaltenüberschriften) eines spezifischen Datensatzes ohne die jeder Classification zugeordneten Daten.
+Die Vorlage enthält die derzeit definierten Klassifizierungen (Spaltenüberschriften) eines bestimmten Datensatzes, ohne die mit den einzelnen Klassifizierungen verknüpften Daten einzubeziehen.
 
 >[!NOTE]
 >

@@ -3,10 +3,10 @@ description: Allgemeine Übersichtsinformationen zu Adobe Analytics, einschließ
 title: Grundlagen der Analytics-Oberfläche
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 95%
+source-wordcount: '1993'
+ht-degree: 93%
 
 ---
 
@@ -45,8 +45,8 @@ Die Registerkarte [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ih
 
    | Produktfunktion | Funktion | Weitere Informationen |
    |---------|----------|----------|
-   | Segmente  | Mit Adobe Analytics können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten Berichte zu erstellen. | [Analytics-Segmentierung](/help/components/segmentation/seg-home.md) |
-   | Berechnete Metriken  | Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.  Damit können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten die Daten abfragen, ohne die Adobe Analytics-Implementierung ändern zu müssen. | [Berechnete und erweiterte berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) |
+   | Segmente | Mit Adobe Analytics können Sie mit Analysefunktionen, Adobe CX Enterprise, Adobe Target und anderen integrierten Adobe-Produkten leistungsstarke, zielgerichtete Zielgruppensegmente erstellen, verwalten, freigeben und auf Ihre Berichte anwenden. | [Analytics-Segmentierung](/help/components/segmentation/seg-home.md) |
+   | Berechnete Metriken | Berechnete und erweiterte berechnete (abgeleitete) Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können.  Damit können Marketing-Fachleute, Produkt-Managerinnen und -Manager sowie Analystinnen und Analysten die Daten abfragen, ohne die Adobe Analytics-Implementierung ändern zu müssen. | [Berechnete und erweiterte berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) |
    | Datumsbereiche | Analysis Workspace enthält eine Liste von Standarddatumsbereichen, die Benutzerinnen und Benutzer beim Erstellen von Analysen verwenden können. Darüber hinaus können Sie benutzerdefinierte Datumsbereiche erstellen und sie für Benutzerinnen und Benutzer in Analysis Workspace verfügbar machen. | [Erstellen von benutzerdefinierten Datumsbereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Virtual Report Suites | Virtual Report Suites segmentieren die Adobe Analytics-Daten, sodass der Zugriff auf die einzelnen Segmente gesteuert werden kann. | [Virtual Report Suites – Übersicht](/help/components/vrs/vrs-about.md) |
    | Warnhinweise | Warnhinweise ermöglichen eine feiner abgestufte Kontrolle über Warnhinweise und integrieren die Anomalieerkennung in das Warnhinweissystem. | [Übersicht über Warnhinweise](/help/components/alerts/alerts-overview.md) |
@@ -104,7 +104,7 @@ Die Registerkarte „Admin“ enthält Funktionen und Konfigurationsoptionen fü
    | Analytics-Benutzende und -Assets | Die Verwaltung von Benutzenden und Assets wurde in die Adobe Admin Console verschoben. Verwenden Sie die Adobe Admin Console, um mit der Verwaltung von Benutzerberechtigungen für Adobe Analytics-Benutzerinnen und -Benutzern zu beginnen. | [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Klassifizierungsimport | Mit dem Klassifizierungsimport laden Sie Klassifizierungen in Adobe Analytics hoch. Darüber hinaus können Sie die Daten zum Aktualisieren vor dem Import exportieren. | [Klassifizierungsimport – Übersicht](/help/components/classifications/importer/c-working-with-saint.md) |
    | Classification Rule Builder | Statt Klassifizierungen bei jeder Trackingcode-Änderung zu verwalten und hochzuladen, können Sie automatische, regelbasierte Klassifizierungen erstellen und diese auf mehrere Report Suites anwenden. | [Classification Rule Builder-Workflow](/help/components/classifications/crb/classification-rule-builder.md) |
-   | Datenquellen  | Verwenden Sie den Datenquellen-Manager, um Datenquellen zu erstellen, zu bearbeiten oder zu deaktivieren. Sie können diese Benutzeroberfläche auch verwenden, um den Status von Dateien zu verfolgen, die zu FTP-Speicherorten für Datenquellen hochgeladen wurden. | [Datenquellen verwalten](/help/import/data-sources/manage.md) |
+   | Datenquellen | Verwenden Sie den Datenquellen-Manager, um Datenquellen zu erstellen, zu bearbeiten oder zu deaktivieren. Sie können diese Benutzeroberfläche auch verwenden, um den Status von Dateien zu verfolgen, die zu FTP-Speicherorten für Datenquellen hochgeladen wurden. | [Datenquellen verwalten](/help/import/data-sources/manage.md) |
    | Code-Manager | Mithilfe des Code-Managers können Sie Datenerfassungs-Code für Web- und Mobile-Plattformen herunterladen | [Code-Manager](/help/admin/tools/code-manager-admin.md) |
    | Traffic-Management | Auf der Seite Traffic-Management können Sie die erwarteten Änderungen des Traffic-Volumens angeben. Mit diesen Einstellungen kann Adobe die entsprechenden Ressourcen zuweisen, um sicherzustellen, dass Ihr Traffic rechtzeitig verfolgt und verarbeitet werden kann. | [Traffic-Management – Übersicht](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
    | Nutzung von Server-Aufrufen | Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Es ist ein Dashboard zur Nutzung von Server-Aufrufen verfügbar, das Ihre Verbrauchsdaten bezüglich Server-Aufrufen verfolgt und mit Ihrem vertraglich festgelegten Limit vergleicht. Sie können Warnhinweise einrichten, um Überschüsse zu vermeiden. | [Nutzung von Server-Aufrufen – Übersicht](/help/admin/tools/server-call-usage/overage-overview.md) |
@@ -118,7 +118,7 @@ Die Registerkarte „Admin“ enthält Funktionen und Konfigurationsoptionen fü
    | Sicherheits-Manager | Mit dem Sicherheits-Manager können Sie den Zugriff auf Berichtsdaten kontrollieren. Zu den Optionen gehören sichere Passwörter, Passwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. | [Sicherheits-Manager](/help/admin/tools/company/security-manager.md) |
    | Web-Services | Die Web-Services-APIs bieten programmgesteuerten Zugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die über die Analytics-Schnittstelle verfügbaren Funktionen duplizieren und erweitern können. | [Web-Services](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder-Berichte | Verwalten von Lizenzen, die Report Builder-Benutzern zugewiesen wurden. | [Report Builder-Berichte](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | Single-Sign-On-Service | Single Sign-On ist in Adobe Experience Cloud über die Admin Console implementiert. | [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Single-Sign-On-Service | Single Sign-on in Adobe CX Enterprise wird über die Admin Console implementiert. | [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Ausblenden von Report Suites | Ermöglicht das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics, wenn Sie nicht mehr möchten, dass eine Report Suite für Sie und Ihre Benutzerinnen und Benutzer verfügbar ist. | [Ausblenden von Report Suites](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}
@@ -131,11 +131,11 @@ Das folgende Bild und die zugehörige Tabelle erläutern einige der Hauptbereich
 
 Einen detaillierteren Überblick über Analysis Workspace finden Sie unter [Analysis Workspace – Übersicht](/help/analyze/analysis-workspace/home.md).
 
-![Analysis Workspace – Übersicht](assets/analysis-workspace-overvew.png)
+![Analysis Workspace – Überblick](assets/analysis-workspace-overvew.png)
 
 | Position im Bild | Name und Funktion |
 |---------|----------|
-| A  | **Ganz linke Leiste:** Enthält Registerkarten zum Hinzufügen von Bedienfeldern, Visualisierungen und Komponenten zu Analysis Workspace. Enthält außerdem das Datenwörterbuchsymbol, mit dem das Datenwörterbuch geöffnet wird. |
+| A | **Ganz linke Leiste:** Enthält Registerkarten zum Hinzufügen von Bedienfeldern, Visualisierungen und Komponenten zu Analysis Workspace. Enthält außerdem das Datenwörterbuchsymbol, mit dem das Datenwörterbuch geöffnet wird. |
 | B | **Linke Leiste:** Je nachdem, welche Registerkarte in der linken Leiste ausgewählt ist, enthält dieser Bereich einzelne Bedienfelder, Visualisierungen oder Komponenten. |
-| C  | **Arbeitsfläche:** Dies ist der Hauptbereich, in den Sie Inhalte aus den linken Leisten ziehen, um Ihr Projekt zu erstellen. Das Projekt wird dynamisch aktualisiert, wenn Sie Bereiche, Visualisierungen und Komponenten zur Arbeitsfläche hinzufügen. |
+| C | **Arbeitsfläche:** Dies ist der Hauptbereich, in den Sie Inhalte aus den linken Leisten ziehen, um Ihr Projekt zu erstellen. Das Projekt wird dynamisch aktualisiert, wenn Sie Bereiche, Visualisierungen und Komponenten zur Arbeitsfläche hinzufügen. |
 | D | **Dropdown-Menü „Report Suite“:** Für jedes Bedienfeld in Analysis Workspace können Sie im Dropdown-Menü „Report Suite“ die Report Suite auswählen, die Sie als Datenquelle verwenden möchten. |

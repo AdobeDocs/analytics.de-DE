@@ -4,10 +4,26 @@ description: Die Domain, die zum Senden von Daten über HTTPS an Adobe verwendet
 feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7918b18e73618368543a996ca121b64b7afb33ab
+TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 13%
+source-wordcount: 830
+ht-degree: 17%
 
 ---
 
@@ -76,8 +92,8 @@ Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden,
 
 **Wenn Sie nicht am Zertifikatprogramm teilnehmen** setzen Sie den Wert auf eine Subdomain von `data.adobedc.net`. Adobe empfiehlt, aus Konsistenzgründen die Unternehmens-ID Ihres Unternehmens zu verwenden. Beispiel: `example.data.adobedc.net`. Gehen Sie wie folgt vor, um Ihre Unternehmens-ID zu ermitteln:
 
-1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
-1. Drücken Sie an einer beliebigen Stelle in der Experience Cloud-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
+1. Drücken Sie an einer beliebigen Stelle in der CX Enterprise-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
 1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
 1. Erweitern Sie die gewünschte IMS-Organisation.
 1. Suchen Sie das Feld **[!UICONTROL Mandant]** . Dieser Wert ist die empfohlene Subdomain von `data.adobedc.net`.

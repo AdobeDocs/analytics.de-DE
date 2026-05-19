@@ -1,13 +1,28 @@
 ---
 description: Adobe Audience Manager (Adobe Audience Manager) ist eine leistungsstarke Datenverwaltungsplattform, mit der Sie eindeutige Zielgruppenprofile aus Datenintegrationen von Erstanbietern, Zweitanbietern/Partnern und Drittanbietern erstellen können. Für Werbetreibende tragen diese Zielgruppenprofile dazu bei, die wertvollsten Segmente zu definieren, die für alle digitalen Kanäle verwendet werden können.
-solution: Experience Cloud
+solution: Analytics
 title: Audience Analytics-Übersicht
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 9%
+source-wordcount: 522
+ht-degree: 11%
 
 ---
 
@@ -25,7 +40,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analy
 >[!ENDSHADEBOX]
 
 
-## Wesentliche Vorteile  {#benefits}
+## Wesentliche Vorteile {#benefits}
 
 Die Audience Analytics-Integration bietet die folgenden Hauptvorteile:
 
@@ -54,7 +69,7 @@ Stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 * Sie sind sowohl Kunde von Audience Manager als auch von Adobe Analytics.
 * Sie sind ein Audience Manager-Administrator.
 * Sie verwenden den Identitätsdienst v1.5 oder höher.
-* Adobe Audience Manager und Adobe Analytics Report Suites sind derselben Experience Cloud-Organisation zugeordnet.
+* Adobe Audience Manager und Adobe Analytics Report Suites sind derselben CX Enterprise-Organisation zugeordnet.
 * Sie nutzen [die serverseitige Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) und haben das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) AppMeasurement 1.5 oder höher (kein DIL-Code) implementiert.
 
 Diese Voraussetzungen werden im [Audience Analytics-Workflow](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md) beschrieben.

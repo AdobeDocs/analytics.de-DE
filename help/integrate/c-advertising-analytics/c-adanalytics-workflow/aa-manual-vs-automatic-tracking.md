@@ -1,16 +1,31 @@
 ---
 description: Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß um Suchmaschinendaten zu erweitern.
-title: Tracking Type
+title: Tracking-Typ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/QKLoFYVeGTZyOPsFKWPVUtmQ7oyYTnw05s47XIn6n8c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 584
 ht-degree: 25%
 
 ---
 
-# Tracking Type
+# Tracking-Typ
 
 Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß um Suchmaschinendaten zu erweitern.
 
@@ -32,8 +47,8 @@ Daher müssen Sie bei Auswahl von „Automatisch“ ein Bestätigungs-Kontrollk�
 
 Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!UICONTROL Auto]**-Typ für die folgenden Aktionen verantwortlich sind:
 
-* Der `s_kwcid` und der Wert werden zu den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. This parameter and value is inserted at the end of the URL. Möglicherweise sind zusätzliche Aktionen Ihrerseits erforderlich, wenn Ihr Webserver ein bestimmtes `key=value` am Ende der URL benötigt. Or an update to support any new `key=value` pair in the URL. It is your responsibility to ensure that the added URL parameters persist correctly to the final landing page.
-* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. If they contain special characters or symbols, please confirm that your web server can support these characters. Beispielsweise wird ein gängiges Sonderzeichen `+`, das in Schlüsselwörtern vom Typ „Broad Match Modified“ verwendet wird.
+* Der `s_kwcid` und der Wert werden zu den Konto-Tracking-Vorlagen oder Landingpage-URLs im hinzugefügten Konto hinzugefügt. Dieser Parameter und Wert werden am Ende der URL eingefügt. Möglicherweise sind zusätzliche Aktionen Ihrerseits erforderlich, wenn Ihr Webserver ein bestimmtes `key=value` am Ende der URL benötigt. Oder eine Aktualisierung zur Unterstützung jedes neuen `key=value` in der URL. Sie müssen sicherstellen, dass die hinzugefügten URL-Parameter korrekt auf der endgültigen Landingpage bestehen bleiben.
+* Darüber hinaus können Keywords als Teil des Wertes `s_kwcid` in die Landingpage-URL eingefügt werden. Falls sie Sonderzeichen oder Symbole enthalten, bestätigen Sie bitte, dass Ihr Webserver diese Zeichen unterstützen kann. Beispielsweise wird ein gängiges Sonderzeichen `+`, das in Schlüsselwörtern vom Typ „Broad Match Modified“ verwendet wird.
 
 >[!IMPORTANT]
 >
@@ -98,7 +113,7 @@ Die Zeichenfolge, die Ihrem Microsoft Advertising-Konto hinzugefügt werden muss
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. You can get your specific account ID string from the account screen under the &quot;Tracking&quot; section.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
 **Tracking-String für Kampagnen:**
 

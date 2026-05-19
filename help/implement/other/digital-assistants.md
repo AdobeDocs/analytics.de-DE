@@ -4,20 +4,31 @@ description: Implementieren Sie Adobe Analytics für digitale Assistenten, wie A
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/7OjV45T7dNKjgFkjdq8C-y4kISqd4kycvVDk5RyLF0s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 97%
+source-wordcount: 1284
+ht-degree: 78%
 
 ---
 
 # Implementieren von Analytics für digitale Assistenten
 
-Aufgrund der jüngsten Fortschritte in den Bereichen Cloud Computing, maschinelles Lernen und natürliche Sprachverarbeitung werden digitale Assistenten immer mehr zu einem Teil des täglichen Lebens. Verbraucher beginnen damit, mit ihren Geräten zu sprechen, und erwarten, dass sie Menschen verstehen und auf sie reagieren. Indem sich diese Plattformen zunehmend etablieren, können Marken ihre Dienste den Verbrauchern auf die gleiche natürliche Art präsentieren. Beispielsweise können Verbraucher Fragen wie die folgenden stellen:
+Aufgrund der jüngsten Fortschritte in den Bereichen Cloud Computing, maschinelles Lernen und natürliche Sprachverarbeitung werden digitale Assistenten immer mehr zu einem Teil des täglichen Lebens. Verbraucher beginnen damit, mit ihren Geräten zu sprechen, und erwarten, dass sie Menschen verstehen und auf sie reagieren. Mit zunehmender Etablierung dieser Plattformen können Marken ihre Dienstleistungen den Verbrauchern auf die gleiche realistische und realistische Weise präsentieren. So können Verbraucher beispielsweise folgende Fragen stellen:
 
-* „Alexa, frage mein Auto, ob es einen Ölwechsel braucht.“
-* „Cortana, wie viel Geld ist noch auf meinem Girokonto?“
-* „Siri, sende John über meine Bank-App 20 $ für das Abendessen gestern.“
+* „Alexa, frag mein Auto, wann es einen Ölwechsel braucht.“
+* „Cortana, wie hoch ist mein Girokonto?“
+* „Siri, sende John 20 $ für das Abendessen gestern Abend aus meiner Bank-App.“
 
 Diese Seite bietet einen Überblick darüber, wie Sie Adobe Analytics am besten nutzen können, um diese Art von Erfahrungen zu messen und zu optimieren.
 
@@ -28,12 +39,12 @@ Diese Seite bietet einen Überblick darüber, wie Sie Adobe Analytics am besten 
 Derzeit basieren die meisten digitalen Assistenten auf einer ähnlichen allgemeinen Architektur:
 
 1. **Gerät**: Ein Gerät (wie Amazon Echo oder ein Telefon) mit einem Mikrofon, über das der Benutzer eine Frage stellen kann.
-1. **Digitaler Assistent**: Das Gerät interagiert mit dem Service, der den digitalen Assistenten steuert. Dort wird die Sprache in maschinenverständliche „Intents“ (Absichten) umgewandelt, und die Details der Anfrage werden analysiert. Sobald die Absicht des Benutzers verstanden wurde, leitet der digitale Assistent den Intent und Details der Anfrage an die App weiter, die die Anfrage bearbeitet.
-1. **„App“**: Bei der App kann es sich entweder um eine Telefon- oder um eine Sprach-App handeln. Die App ist für die Beantwortung der Anfrage verantwortlich. Sie antwortet dem digitalen Assistenten, und der digitale Assistent antwortet dann dem Benutzer.
+1. **Digitaler Assistent**: Das Gerät interagiert mit dem Service, der den digitalen Assistenten steuert. Dort wird die Sprache in maschinenverständliche Absichten umgewandelt und die Details der Anfrage werden analysiert. Sobald die Absicht des Benutzers verstanden wurde, übergibt der digitale Assistent den Zweck und die Details der Anfrage an die App, die die Anfrage verarbeitet.
+1. **„App“**: Bei der App kann es sich entweder um eine Telefon- oder um eine Sprach-App handeln. Die App ist für die Beantwortung der Anfrage verantwortlich. Er antwortet auf den digitalen Assistenten und der digitale Assistent antwortet dann auf den Benutzer.
 
 ## Wo kann Analytics implementiert werden?
 
-Am besten implementieren Sie Analytics in der App. Die App empfängt den Intent und die Details vom digitalen Assistenten. Anschließend bestimmt die App, wie sie reagiert.
+Einer der besten Orte für die Implementierung von Analytics ist die -App. Die App empfängt den Intent und die Details vom digitalen Assistenten. Anschließend bestimmt die App, wie sie reagiert.
 
 Während einer Anfrage kann es an zwei Stellen hilfreich sein, Daten an Adobe Analytics zu senden.
 
@@ -87,11 +98,11 @@ Cache-Control: no-cache
 
 ## Sitzungen
 
-Da digitale Assistenten auf Konversationen basieren, sind sie häufig mit dem Konzept einer Sitzung verbunden. Beispiel:
+Da digitale Assistenten sich in Gesprächen befinden, haben sie oft das Konzept einer Sitzung. Beispiel:
 
-**Verbraucher:** „Okay Google, rufe mir ein Taxi.“
+**Verbraucher:** „Ok Google, ruf ein Taxi für mich“
 
-**Google:**: „Sicher. Für welche Uhrzeit?“
+**Google:**: „Sicher, um wie viel Uhr möchten Sie?“
 
 **Verbraucher:** „8:30pm&quot;
 
@@ -110,7 +121,7 @@ Cache-Control: no-cache
 
 ## Intents
 
-Jeder digitale Assistent verfügt über Algorithmen, die Intents erkennen und dann den Intent an die „App“ weitergeben, damit die App weiß, was zu tun ist. Diese Intents entsprechen einer Kurzdarstellung der Anfrage.
+Jeder der digitalen Assistenten verfügt über Algorithmen, die Absichten erkennen und dann die Absicht an die „App“ weitergeben, damit die App weiß, was zu tun ist. Diese Absichten sind eine kurze Darstellung der Anfrage.
 
 Wenn ein Benutzer beispielsweise sagt: „Siri, sende John 20 $ für das Abendessen gestern über meine Bank-App“, dann könnte der Intent etwa *sendMoney* sein.
 
@@ -136,7 +147,7 @@ Zusätzlich zu einem Intent haben digitale Assistenten oft mehrere Schlüsselwer
 
 * Wer = John
 * Betrag = 20
-* Grund = Essen
+* Warum = Abendessen
 
 Normalerweise verfügt Ihre App über eine begrenzte Anzahl dieser Werte. Um diese Werte in Analytics zu verfolgen, senden Sie sie in Kontextdatenvariablen und ordnen Sie jeden Parameter einer eVar zu.
 
@@ -160,7 +171,7 @@ Cache-Control: no-cache
 
 ## Gerätefunktionen
 
-Die meisten Plattformen legen zwar das Gerät, mit dem der Benutzer gesprochen hat, nicht offen, aber dennoch die Funktionen des Geräts. Zum Beispiel Audio, Bildschirm, Video usw. Dies sind nützliche Informationen, da sie die Inhaltstypen definieren, die bei der Interaktion mit Ihren Benutzern verwendet werden können. Beim Messen der Gerätefunktionen ist es am besten, sie zu verketten (in alphabetischer Reihenfolge).
+Die meisten Plattformen legen zwar das Gerät, mit dem der Benutzer gesprochen hat, nicht offen, aber dennoch die Funktionen des Geräts. Zum Beispiel Audio, Bildschirm, Video usw. Diese Informationen sind nützlich, da sie die Inhaltstypen definieren, die bei der Interaktion mit Ihren Benutzenden verwendet werden können. Beim Messen der Gerätefunktionen ist es am besten, sie zu verketten (in alphabetischer Reihenfolge).
 
 Beispiel: `":Audio:Camera:Screen:Video:"`
 

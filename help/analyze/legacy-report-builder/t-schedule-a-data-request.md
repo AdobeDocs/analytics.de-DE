@@ -5,10 +5,25 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/CPg94k8G-tLWRvgdYHLz1UP2p1gJ7ad1g39rFtMWAG4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 81%
+source-wordcount: 972
+ht-degree: 77%
 
 ---
 
@@ -49,7 +64,7 @@ Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen 
 | Feld | Beschreibung |
 |--- |--- |
 | Bericht auswählen | Der Name der Arbeitsmappe. Bei neuen terminierten Berichten wird dieses Feld mit dem Namen der aktiven Arbeitsmappe ausgefüllt. |
-| Auswählen | Hierdurch wird die Seite „Bericht auswählen“ angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie eine Arbeitsmappe von der lokalen Festplatte im .xls-Format auswählen, wandelt das System sie in eine .xlsx-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die ausgewählte Arbeitsmappe für den terminierten Bericht denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System die lokale Datei anstelle der zuvor hochgeladenen Datei aus. Wenn Sie einen Bericht aus dem Repository der terminierten Berichte wählen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt und deren Dateiname um „1“ erweitert. Der neu terminierte Bericht verwendet die kopierte Arbeitsmappe. |
+| Auswählen | Hierdurch wird die Seite „Bericht auswählen“ angezeigt. Sie können einen Bericht vom Server (wo alle früher geplanten Arbeitsmappen gespeichert sind) oder von Ihrem lokalen Computer auswählen. Wenn Sie eine Arbeitsmappe von der lokalen Festplatte im .xls-Format auswählen, wandelt das System sie in eine .xlsx-Datei um. Im Rahmen der Konversion wird die Datei in Excel geöffnet und aktiviert. Wenn die ausgewählte Arbeitsmappe für den terminierten Bericht denselben Dateinamen wie die derzeit in Excel geöffnete Arbeitsmappe hat, wählt das System die lokale Datei anstelle der zuvor hochgeladenen Datei aus. Wenn Sie einen Bericht aus dem Zeitplan-Repository auswählen, wird eine Kopie der Arbeitsmappe auf dem Server erstellt, wobei ihr Dateiname mit 1 aktualisiert wird. Der neu erstellte terminierte Bericht verwendet die kopierte Arbeitsmappe. |
 | Anpassen | Ermöglicht die Anpassung des Datumsformats. |
 | An | Zeigt Ihr Outlook-Adressbuch an, falls zutreffend. |
 | Senden an: E-Mail | Die E-Mail-Adresse des Empfängers der Arbeitsmappe. |
@@ -66,7 +81,7 @@ Beispielsweise können Sie unter [!DNL Advanced Delivery Options] Arbeitsmappen 
 | Registerkarte **Zeitplan** |  |
 | Zeitpunkt der Bereitstellung | Hier können Sie eine sofortige oder spätere Auslieferung der Arbeitsmappe planen. Die Tageszeit bezieht sich auf die auf dem Computer angegebene Zeitzone. |
 | Wiederholungsmuster | Hiermit wird die Arbeitsmappe entsprechend Ihrer Auswahl gesendet. |
-| Bereich der Wiederholung | Hier geben Sie an, wann der Empfang der Arbeitsmappe beginnen und stoppen soll.   Hinweis: Wenn Sie eine Arbeitsmappe für den ersten Tag eines bestimmten Zeitraums (Woche, Monat, Quartal oder Jahr) planen, werden nur Daten für den ersten Tag zurückgegeben. |
+| Bereich des Intervalls | Hier geben Sie an, wann der Empfang der Arbeitsmappe beginnen und stoppen soll.   Hinweis: Wenn Sie eine Arbeitsmappe für den ersten Tag eines bestimmten Zeitraums (Woche, Monat, Quartal oder Jahr) planen, werden nur Daten für den ersten Tag zurückgegeben. |
 | Registerkarte **Dateioptionen** |  |
 | Dateiformat | Hier können Sie als Bereitstellungsformat Excel 2007 (.xlsx) oder 2003 (.xls), .pdf, .csv, .mht, .txt oder .xml auswählen. |
 | Dateiziel | Gibt E-Mail oder FTP an. Die verfügbaren Optionen wechseln ja nach der bisherigen Auswahl. Bei FTP müssen Sie sicherstellen, dass der Host extern verfügbar ist. |

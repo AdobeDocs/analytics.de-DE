@@ -4,10 +4,25 @@ title: Einrichten von Benutzern für das Programm
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 755
+ht-degree: 96%
 
 ---
 
@@ -17,7 +32,7 @@ In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätz
 
 ## Sicherstellen, dass Mobile-App-Benutzer Zugriff auf Adobe Analytics haben
 
-1. Richten Sie neue Benutzer in der [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md) ein.
+1. Einrichten neuer Benutzer in der [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
 
 1. Um Scorecards freigeben zu können, müssen Sie Mobile-App-Benutzern Berechtigungen für den Zugriff auf Scorecard-Komponenten wie Analysis Workspace, die Report Suites, auf denen Scorecards basieren, sowie Segmente, Metriken und Dimensionen gewähren.
 
@@ -54,7 +69,7 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
 
    Der Bildschirm **[!UICONTROL Unternehmen auswählen]** wird angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann.
 
-1. Fordern Sie sie auf, den Namen der Unternehmensanmeldung oder die Experience Cloud-Organisation für die von Ihnen freigegebene Scorecard anzutippen.
+1. Fordern Sie sie auf, den Namen des Anmeldeunternehmens oder die CX Enterprise-Organisation anzutippen, der bzw. die für die von Ihnen freigegebene Scorecard gilt.
 
    Die Scorecard-Liste zeigt alle Scorecards an, die für den ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
 

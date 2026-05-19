@@ -2,10 +2,20 @@
 title: Migrieren von der Adobe Analytics-Tag-Erweiterung zur Web-Tag-Erweiterung für SDK
 description: Aktualisieren Sie Ihre Analytics-Implementierung in den Datenerfassungs-Tags von Adobe Experience Platform, um die Web SDK-Erweiterung zu verwenden.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 6%
+source-wordcount: 1731
+ht-degree: 7%
 
 ---
 
@@ -38,7 +48,7 @@ Die folgenden Schritte enthalten konkrete Ziele, auf die Sie hinarbeiten müssen
 
 Erstellen eines Datenstroms in der Adobe Experience Platform-Datenerfassung. Wenn Sie Daten an diesen Datenstrom senden, leitet er Daten an Adobe Analytics weiter. In Zukunft leitet derselbe Datenstrom Daten an Customer Journey Analytics weiter.
 
-1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich mit Ihren Anmeldedaten an.
+1. Navigieren Sie zu [Adobe CX Enterprise](https://experience.adobe.com) und melden Sie sich mit Ihren Anmeldedaten an.
 1. Navigieren Sie über die Startseite oder den Produktselektor oben rechts zu **[!UICONTROL Datenerfassung]**.
 1. Wählen Sie in der linken Navigation **[!UICONTROL Datenströme]** aus.
 1. Wählen Sie **[!UICONTROL Neuer Datenstrom]** aus.
@@ -61,7 +71,7 @@ In diesem Abschnitt wird Ihr Tag auf den Großteil des Migrationsaufwands vorber
 1. Wählen Sie die gewünschte Tag-Eigenschaft aus.
 1. Wählen Sie im linken Navigationsbereich der Tag-Eigenschaft die Option **[!UICONTROL Erweiterungen]** aus.
 1. Wählen Sie **[!UICONTROL Katalog]** oben aus, um eine Liste aller verfügbaren Erweiterungen anzuzeigen.
-1. Suchen Sie nach der Erweiterung **[!UICONTROL Adobe Experience Platform Web SDK]** und wählen Sie sie aus. Klicken Sie dann **[!UICONTROL rechts auf]** Installieren“.
+1. Suchen Sie nach der Erweiterung **[!UICONTROL Adobe Experience Platform Web SDK]** und wählen Sie sie aus. Klicken Sie dann **rechts auf** Installieren“.
 
    ![Katalog](assets/catalog.png) {style="border:1px solid lightslategray"}
 
@@ -125,9 +135,9 @@ Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden S
    * [!UICONTROL Erweiterung]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Aktionstyp]: [!UICONTROL Ereignis senden]
 1. Ändern Sie auf der rechten Seite die Aktionseinstellungen wie folgt:
-   * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL &#x200B; Konfiguration der Aktion &#x200B;]Variable aktualisieren[!UICONTROL &#x200B; unter „Zusätzliche Eigenschaften] aufgeführt:
+   * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL &#x200B; Konfiguration der Aktion [!UICONTROL Variable aktualisieren] unter „Zusätzliche Eigenschaften] aufgeführt:
       * [Link-Name](../../vars/functions/tl-method.md)
-      * [Link-Typ &#x200B;](../../vars/functions/tl-method.md)
+      * [Link-Typ](../../vars/functions/tl-method.md)
       * [Link-URL](../../vars/config-vars/linkurl.md)
 1. Wählen Sie **[!UICONTROL Änderungen beibehalten]** aus.
 1. Wiederholen Sie diese Schritte für jede Aktionskonfiguration, die Adobe Analytics zum Senden eines Beacons verwendet.

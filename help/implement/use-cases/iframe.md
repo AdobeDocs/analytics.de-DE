@@ -4,10 +4,22 @@ description: Greifen Sie auf Adobe Analytics-Variablen innerhalb eines IFrame od
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/og9yeHUn5BJVm8-22V2l1frcpluXdlI-f0LnyjFacnk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: 319
+ht-degree: 95%
 
 ---
 
@@ -67,5 +79,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Wie bei anderen JavaScript-Codes können iFrames nur dann kommunizieren, wenn Domains und Protokolle übereinstimmen. Diese Beispiele funktionieren nicht, wenn sich der IFrame-Inhalt in einer anderen Domain als die übergeordnete Domain befindet.
 * Wenn sich „AppMeasurement“ in einem IFrame befindet, wird die [`referrer`](../vars/page-vars/referrer.md)-Variable auf die übergeordnete URL festgelegt und nicht auf die tatsächlich verweisende URL. Sie können zur Lösung dieses Problems die `referrer`-Variable manuell festlegen.
-* Der [Adobe Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) erkennt keine Bildanforderungen, die innerhalb von iFrames ausgelöst werden.
+* Der [Adobe CX Enterprise-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) erkennt keine Bildanforderungen, die innerhalb von iFrames ausgelöst werden.
 * Activity Map zeigt die Heatmap nicht über Links an, auf die innerhalb von iFrames geklickt wurde. Stattdessen wird der gesamte IFrame hervorgehoben.

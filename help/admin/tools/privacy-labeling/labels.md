@@ -4,9 +4,28 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3757'
+source-wordcount: 3848
 ht-degree: 79%
 
 ---
@@ -43,7 +62,7 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 | Beschriftung | Definition |
 | --- | --- |
 | S1 | Präzise Standortdaten in Bezug auf Breiten- und Längengrad, die zur Bestimmung des genauen Standorts eines Geräts (innerhalb von 100 Metern oder weniger) verwendet werden können. |
-| S2 | Geolokalisierungsdaten, die zur Bestimmung eines grob definierten Geofencing-Gebiets verwendet werden können. |
+| S2 | Standortdaten, die zur Festlegung eines allgemein definierten Geo-Fence-Bereichs verwendet werden können. |
 
 {style="table-layout:auto"}
 
@@ -67,7 +86,7 @@ Obwohl nur wenige Variablen andere Kennzeichnungen erhalten werden, ist davon au
 
 Im Gegensatz zu anderen Beschriftungen schließen sich diese Löschbeschriftungen nicht gegenseitig aus. Sie können eine von ihnen, beide oder keine auswählen. Eine separate [!UICONTROL None]-Beschriftung ist nicht erforderlich, da [!UICONTROL None] einfach dadurch angezeigt wird, dass keine der Löschoptionen aktiviert wird.
 
-Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). Andere personenbezogene Daten (Favoriten, Browser-/Kaufverlauf, Gesundheitszustand usw.) müssen nicht gelöscht werden, da die Zuordnung zur betroffenen Person aufgehoben wird.
+Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). Andere persönliche Daten (Favoriten, Browser-/Kaufverlauf, Gesundheitszustand usw.) muss nicht gelöscht werden, da die Zuordnung zur betroffenen Person aufgehoben wird.
 
 | Beschriftung | Definition | Sonstige Anforderungen |
 | --- | --- | --- |
@@ -136,7 +155,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
 
 | Variablentyp | Unterstützte Kennzeichnungen | Nicht unterstützte Kennzeichnungen |
 |--- |--- |--- |
-| <ul><li>Custom Success Events</li><li>Merchandising-eVars</li><li>Variablen mit mehreren Werten (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>Benutzerspezifische Erfolgsereignisse</li><li>Merchandising-eVars</li><li>Variablen mit mehreren Werten (mvVars)</li><li>Hierarchievariablen</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Klassifizierungen | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Traffic-Variablen (Props)</li><li>Commerce-Variablen (Nicht-Merchandising-eVars)</li></ul> | Alle Labels | – |
 | Die meisten anderen Variablen (*Ausnahmen siehe Tabelle unten*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
@@ -202,7 +221,7 @@ Datenschutzkennzeichnungen wirken sich auf vier Klassen von Analytics-Variablen 
     </ul> </td> 
    <td colname="col2"> <p>IP-Adresse </p> <p>IP-Adresse 2 </p> </td> 
    <td colname="col3"> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>You cannot remove the DEL label, but you can change it to be either DEL-DEVICE or DEL-PERSON, or both. </p> </td> 
+   <td colname="col4"> <p>Sie können die DEL-Kennzeichnung nicht entfernen, sie jedoch in DEL-DEVICE oder DEL-PERSON oder beides ändern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>ClickMap-Aktion (Legacy), </p> <p>ClickMap-Kontext (Legacy), </p> <p>Seite, </p> <p>Seiten-URL, </p> <p>URL der ursprünglichen Entrypage, </p> <p>Verweisende Stelle, </p> <p>Besuchen der Startseiten-URL </p> </td> 

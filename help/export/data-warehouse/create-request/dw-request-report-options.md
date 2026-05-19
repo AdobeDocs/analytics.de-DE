@@ -3,10 +3,22 @@ description: In diesen Schritten wird beschrieben, wie Sie eine Data Warehouse-A
 title: Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 17%
+source-wordcount: 454
+ht-degree: 19%
 
 ---
 
@@ -37,7 +49,7 @@ So konfigurieren Sie Berichtsoptionen für eine Data Warehouse-Anfrage:
    | [!UICONTROL **Bericht als komprimierte Datei (ZIP) senden**] | Berichte werden im komprimierten (ZIP-)Dateiformat bereitgestellt. Es wird empfohlen, diese Option zu aktivieren, wenn E-Mail als [Berichtsziel“ verwendet &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Alle Zeilen zurückgeben**] | Wenn diese Option aktiviert ist, werden alle Zeilen in den Bericht aufgenommen. Deaktivieren Sie diese Option, um die Anzahl der einzuschließenden Zeilen anzugeben. |
    | [!UICONTROL **Beginn der Berichtskommentare**] | Fügen Sie alle Kommentare hinzu, die in den Bericht aufgenommen werden sollen. Kommentare erscheinen am Anfang des Berichts. |
-   | [!UICONTROL **Nach Metriken sortieren**] | Stellt Rangaufschlüsselungsberichte in Data Warehouse bereit, sortiert nach absteigendem Metrikwert. Die Sortierung nach Metrik erleichtert die Interpretation von Data Warehouse-Berichten und die Vergleichbarkeit dieser Berichte mit anderen Analytics-Aufschlüsselungs-Reporting-Ansichten.<p>Weitere Informationen finden Sie unter [Nach Metrik sortieren](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Nach Metriken sortieren**] | Bietet nach Rang geordnet Detailberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind. Die Sortierung nach Metrik erleichtert die Interpretation von Data Warehouse-Berichten und die Vergleichbarkeit dieser Berichte mit anderen Analytics-Aufschlüsselungs-Reporting-Ansichten.<p>Weitere Informationen finden Sie unter [Nach Metrik sortieren](/help/export/data-warehouse/sorting-by-metric.md).</p> |
    | [!UICONTROL **Manifestdatei senden**] | Enthält Metadaten zu den im Bericht enthaltenen Dateien.<!-- What kind of metadata is included in the manifest file? --> |
    | [!UICONTROL **Senden einer digitalen Signaturdatei**] | Ermöglicht es Berichtsempfängern, zu überprüfen, ob die Datei von Adobe stammt und nicht verändert wurde. |
    | [!UICONTROL **Senden Sie eine leere Datei, wenn der Bericht keine Daten enthält**] | Sendet einen Bericht, selbst wenn der Bericht keine Daten enthält. |

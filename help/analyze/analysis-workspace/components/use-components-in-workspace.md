@@ -4,10 +4,29 @@ title: Verwenden von Komponenten in einem Projekt
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 82%
+source-wordcount: 954
+ht-degree: 77%
 
 ---
 
@@ -48,7 +67,7 @@ Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwen
 
 [Dimensionen](/help/components/dimensions/overview.md) sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Im Gegensatz dazu enthalten [Metriken](/help/components/calculated-metrics/cm-overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
 
-1. Fügen Sie zunächst eine Dimension zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben. 
+1. Fügen Sie zunächst eine Dimension zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben.
 
 1. Wählen Sie eine der folgenden Methoden, um Dimensionen hinzuzufügen, und bestimmen Sie den Datentyp, der analysiert werden soll:
 
@@ -95,11 +114,11 @@ Mit [Segmenten](/help/components/segmentation/seg-overview.md) können Sie Teilm
 
 Sie können Segmente in Analysis Workspace auf eine der folgenden Arten verwenden:
 
-* Segmente zu einem Panel hinzufügen
-Wenn Sie Segmente zu einem Panel hinzufügen, gelten die Segmente für alle Inhalte im Panel.
+* Segmente zu einem Bedienfeld hinzufügen
+Wenn Sie Segmente zu einem Bedienfeld hinzufügen, gelten die Segmente für alle Inhalte im Bedienfeld.
 Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwenden können, um Ihr Bedienfeld zu segmentieren, finden Sie unter [Ablagebereich](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Bedienfelder - Übersicht](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-* Segmente zu einer Visualisierung hinzufügen
+* Hinzufügen von Segmenten zu einer Visualisierung
 Wenn Sie einer Spalte in einer Freiformtabelle Segmente hinzufügen, werden die Segmente auf alle Inhalte in der Tabellenspalte angewendet. Sie können Segmente auch als Teil einer Fallout-Visualisierung hinzufügen.
 
 * Verwenden von Segmenten in Komponenten
@@ -112,7 +131,7 @@ Wenn Sie Komponenten wie [berechnete Metriken](/help/components/calculated-metri
 
 Jedes Panel enthält standardmäßig einen Datumsbereich. Es gibt mehrere Möglichkeiten, einen Datumsbereich für ein Panel zu aktualisieren. Eine Möglichkeit zum Aktualisieren eines Datumsbereichs für ein Panel in Analysis Workspace besteht darin, eine Datumsbereichskomponente aus dem linken Panel zu ziehen:
 
-1. Fügen Sie optional Panels zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben. 
+1. Fügen Sie optional Panels zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben.
 
 1. Ziehen Sie per Drag-and-Drop einen Datumsbereich aus dem linken Panel auf:
 

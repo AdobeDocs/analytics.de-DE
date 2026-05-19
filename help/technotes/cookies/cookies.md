@@ -4,10 +4,30 @@ description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adob
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 100%
+source-wordcount: 2106
+ht-degree: 99%
 
 ---
 
@@ -40,7 +60,7 @@ Die First-Party-Cookies von Adobe laufen n ach 7 Tagen ab. Bei Clickthroughs, d
 
 Derzeit gelten ITP-Richtlinien für alle von Adobe gesetzten First-Party-Cookies, unabhängig davon, ob Sie den Besucher-ID-Dienst oder ältere Analytics-ID (Cookie „s_vi“) verwenden. Diese Richtlinien galten früher nur für Cookies, die Client-seitig gesetzt wurden, und nicht für Cookies, die Server-seitig über eine CNAME-Implementierung gesetzt wurden. Im November 2020 wurde ITP jedoch aktualisiert und gilt nun auch für CNAME-Implementierungen.
 
-#### Zeitlicher Ablauf der wichtigsten Änderungen an der ITP-Richtlinie {#ITP-timeline}
+#### Timeline der wichtigsten Änderungen an der ITP-Richtlinie {#ITP-timeline}
 
 * Februar 2019 mit [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/): Client-seitige Cookies wurden auf einen siebentägigen Ablauf beschränkt
 * April 2019 mit [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/): Client-seitige Cookies wurden auf 24 Stunden für Anzeigenklicks beschränkt, wenn die Referrer-Domain a) an Site-übergreifendem Tracking beteiligt war und b) die endgültige URL eine Abfragezeichenfolge und/oder eine Fragmentkennung enthielt.
@@ -145,7 +165,7 @@ Adobe empfiehlt Kunden, die Auswirkungen innerhalb ihres eigenen Unternehmens zu
 
       >[!NOTE]
       >
-      >Welche spezifischen Browser von ITP betroffen sind, hängt davon ab, ob Sie eine CNAME-Implementierung verwendet haben. Weitere Informationen finden Sie unter „[Zeitlicher Ablauf der wichtigsten Änderungen an der ITP-Richtlinie](#ITP-timeline)“.
+      >Welche spezifischen Browser von ITP betroffen sind, hängt davon ab, ob Sie eine CNAME-Implementierung verwendet haben. Weitere Informationen finden Sie unter „[Timeline der wichtigsten Änderungen an der ITP-Richtlinie](#ITP-timeline)“.
 
       ![Segment für ITP-Besucher](/help/technotes/assets/itp-visitor-segment.png)
 
@@ -178,4 +198,4 @@ Wenn Ihr Unternehmen von der ITP-Tracking-Prävention betroffen ist, können Sie
 >[!MORELIKETHIS]
 >
 >[Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies](cookieless.md)
->>[Auswirkungen des neuen App Tracking Transparency Framework von Apple auf Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=de)
+>[Auswirkungen des neuen App Tracking Transparency Framework von Apple auf Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=de)

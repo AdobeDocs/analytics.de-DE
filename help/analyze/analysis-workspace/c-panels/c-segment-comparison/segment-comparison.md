@@ -5,10 +5,22 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/pxCyOu8rrZ4Qe7NnK9bTndVbtYxSU29qyMBHy3kSZhE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 65%
+source-wordcount: 601
+ht-degree: 69%
 
 ---
 
@@ -28,7 +40,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Bedienfeld „Segmentvergleich“"
->abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um relevante Unterschiede automatisch zu finden.<br/><br/>**Parameter &#x200B;**<br/>**Segment hinzufügen**: Das erste Segment, das Sie analysieren möchten.<br/>**Vergleichen mit**: Das zweite Segment, mit dem ein Vergleich durchgeführt werden soll, das automatisch mit *Alle anderen* ausgefüllt wird (die Umkehrung des ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
+>abstract="Vergleichen Sie schnell zwei Segmente über alle Datenpunkte hinweg, um automatisch relevante Unterschiede zu ermitteln.<br/><br/>**Parameter &#x200B;**<br/>**Segment hinzufügen**: Das erste Segment, das analysiert werden soll.<br/>**Vergleichen mit**: Das zweite Segment, mit dem ein Vergleich durchgeführt werden soll, das automatisch mit *Alle anderen* ausgefüllt wird (die Umkehrung des ersten Segments). Sie können *Alle anderen* bei Bedarf durch ein anderes Segment ersetzen.<br/>**Erweiterte Einstellungen**: Die Möglichkeit, Komponenten von der Analyse im Rahmen des Segmentvergleichs auszuschließen."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

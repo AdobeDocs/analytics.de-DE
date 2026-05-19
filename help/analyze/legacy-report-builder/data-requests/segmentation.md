@@ -4,10 +4,22 @@ title: Segmente verwalten (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 30%
+source-wordcount: 988
+ht-degree: 31%
 
 ---
 
@@ -52,7 +64,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 1. Kehren Sie zu Report Builder zurück und klicken Sie auf das Aktualisierungssymbol, um die Segmentliste zu aktualisieren.
 1. Sie können dieses Segment jetzt anwenden.
 
-## Segmente suchen und anwenden 
+## Segmente suchen und anwenden
 
 In dieser Segmentliste werden alle Segmente angezeigt, die in Reports &amp; Analytics (jetzt eingestellt), Report Builder oder Data Warehouse erstellt wurden. Um die Liste zu aktualisieren, klicken Sie auf das Aktualisierungssymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
@@ -105,7 +117,7 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
    ![Screenshot, der das Dropdown-Feld Segment auswählen zeigt.](assets/seg_control2.png)
 
-## Segmentliste aktualisieren  {#refresh}
+## Segmentliste aktualisieren {#refresh}
 
 Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Aktualisierungssymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) klicken, um die zwischengespeicherte Segmentliste zu aktualisieren.
 

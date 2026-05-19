@@ -1,27 +1,39 @@
 ---
-description: Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
+description: Jeder ID, nach der Sie suchen möchten, wird ein Namespace zugewiesen, bei dem es sich um eine benutzerdefinierte Zeichenfolge handelt, die diese ID in jeder Variablen identifiziert, in der sie in allen Ihren Report Suites verwendet wird.
 title: Namespaces
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: 942
+ht-degree: 67%
 
 ---
 
 # Namespaces
 
-Jeder ID, nach der Sie suchen können möchten, wird ein Namespace zugewiesen. Hierbei handelt es sich um eine benutzerspezifische Zeichenfolge, die die entsprechende ID über alle Report Suites hinweg in jeder Variablen, in der sie verwendet wird, identifiziert.
+Jeder ID, nach der Sie suchen möchten, wird ein Namespace zugewiesen, bei dem es sich um eine benutzerdefinierte Zeichenfolge handelt, die diese ID in jeder Variablen identifiziert, in der sie in allen Ihren Report Suites verwendet wird.
 
-Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage eingereicht wird, enthält die Anfrage einen JSON-Abschnitt, in dem die für die Anfrage zu verwendenden IDs der betroffenen Personen angegeben sind. Mehrere IDs können als Teil einer einzigen Anfrage für eine betroffene Person angegeben werden. Dieser JSON-Abschnitt enthält Folgendes:
+Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereitstellung einer ID im Rahmen einer Datenschutzanfrage durchsucht werden sollen. Wenn eine Datenschutzanfrage eingereicht wird, enthält die Anfrage einen JSON-Abschnitt, in dem die für die Anfrage zu verwendenden IDs der betroffenen Personen angegeben sind. Mehrere IDs können als Teil einer einzigen Anfrage für eine betroffene Person angegeben werden. Die JSON-Datei enthält:
 
-* ein Feld „namespace“ mit der Namespace-Zeichenfolge
-* ein Feld „type“, das bei den meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält
-* ein Feld „value“, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen all Ihrer Report Suites suchen soll
+* Ein „namespace“-Feld, das die Namespace-Zeichenfolge enthält.
+* Ein Feld „Typ“, das für die meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält.
+* Ein „Wert“-Feld, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen jeder Ihrer Report Suites suchen sollte.
 
-Weitere Informationen und eine [Liste standardmäßiger Identity-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix#standard-namespaces) finden Sie in der [Dokumentation zum Datenschutz-API von Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de). Eine Beispielanfrage finden Sie unter [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/privacy-jobs#access-delete).
+Weitere Informationen und eine [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)Liste der Standard[Identity-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix#standard-namespaces) finden Sie in der Dokumentation &#x200B;CX Enterprise Data Privacy API. Eine Beispielanfrage finden Sie unter [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/privacy-jobs#access-delete).
 
 ## Cookie-ID
 
@@ -35,7 +47,7 @@ Legacy-Analytics-Tracking-Cookie, auch bekannt als Adobe Analytics-ID (AAID):
 }
 ```
 
-Der Wert muss in Form von zwei Hexadezimalzahlen, getrennt durch einen Bindestrich, angegeben werden. Alle Hexadezimalzahlen, die alphabetische Zeichen sind, müssen in Großbuchstaben angegeben werden. Die Hexadezimalwerte sollte keine vorangestellten Nullen enthalten. (Beachten Sie die Differenz zum gleichen Wert, der in der veralteten Form angegeben ist, bei der vorangestellte Nullen erforderlich sind.)
+Der Wert muss als zwei Hexadezimalzahlen angegeben werden, die durch einen Bindestrich getrennt sind. Alle Hexadezimalziffern, bei denen es sich um alphabetische Zeichen handelt, müssen in Großbuchstaben angegeben werden. Die Hexadezimalwerte sollten keine führenden Nullen aufweisen (beachten Sie den Unterschied zu demselben Wert, der in der verworfenen Form angegeben ist, in der die führenden Nullen erforderlich sind).
 
 Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"namespace": "AAID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
@@ -49,7 +61,7 @@ Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"nam
 }
 ```
 
-Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, Unterstrich oder Doppelpunkt getrennt sein. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
+Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, einen Unterstrich oder einen Doppelpunkt getrennt werden. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
 
 ## Identity Service-Cookie
 
@@ -87,7 +99,7 @@ Der JavaScript-Code füllt den JSON-Abschnitt mit anderen Schlüssel-Wert-Paaren
 }
 ```
 
-Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
+Der Namespace ist auch für die benutzerdefinierte Besucher-ID vordefiniert.
 
 ## IDs in benutzerspezifischen Variablen
 
@@ -106,7 +118,7 @@ Auch für die benutzerspezifische Besucher-ID wird der Namespace vordefiniert.
 
 Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Kennzeichnung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
 
-Sie können auch die Namespaces einsehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben und diese wiederverwenden. So können Sie einfach einen Namespace für all Ihre Report Suites verwenden, die diesen ID-Typ enthalten. Darüber hinaus ist es möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Manche Kunden speichern beispielsweise eine CRM-ID in einer Traffic- oder Konversionsvariablen (je nach Seite, manchmal auch beide). Sie können den Namespace „CRM-ID“ beiden Variablen zuweisen.
+Sie können auch Namespaces sehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben, und einen dieser Namespaces wiederverwenden, sodass derselbe Namespace problemlos für alle Ihre Report Suites verwendet werden kann, die diesen ID-Typ speichern. Es ist auch möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Einige Kunden speichern beispielsweise eine CRM-ID in einer Traffic-Variablen und eine Konversionsvariable (je nach Seite ist sie manchmal in der einen oder der anderen oder in beiden) und können den Namespace „CRM-ID“ beiden Variablen zuweisen.
 
 >[!TIP]
 >

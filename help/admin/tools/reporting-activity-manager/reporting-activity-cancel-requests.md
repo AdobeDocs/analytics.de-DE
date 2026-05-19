@@ -1,12 +1,28 @@
 ---
-description: Erfahren Sie, wie Sie mit dem Reporting Activity Manager Kapazitätsprobleme bei Spitzen während der Berichterstellung diagnostizieren und beheben können.
+description: Erfahren Sie, wie Sie Kapazitätsprobleme bei Spitzen während der Berichterstellung mit Reporting Activity Manager diagnostizieren und beheben können.
 title: Abbrechen von Berichtsanfragen im Reporting Activity Manager
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/zMNTnhG6SP-SAIWBOAWm-etPHvBOykscB90n4UIgdrA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: 1438
 ht-degree: 100%
 
 ---
@@ -17,7 +33,7 @@ Der [!UICONTROL Reporting Activity Manager] ermöglicht Admins das schnelle Diag
 
 Beachten Sie beim Abbrechen von Berichtsanfragen Folgendes:
 
-* Sie können bestimmte Anfragen abbrechen, alle Anfragen einer bestimmten Person abbrechen oder alle Anfragen im Zusammenhang mit einem bestimmten Projekt abbrechen.
+* Sie können bestimmte Anfragen abbrechen, alle Anfragen einer bestimmten Benutezrin bzw. eines bestimmten Benutzers abbrechen oder alle Anfragen im Zusammenhang mit einem bestimmten Projekt abbrechen.
 
   Wenn Sie eine Anfrage abbrechen, wird die Aktion in den [Protokollen](/help/admin/tools/logs.md) dokumentiert. Die Spalte [!UICONTROL **Ereignistyp**] wird als [!UICONTROL **Admin-Aktion**] angezeigt, und eine Beschreibung des Abbruchs ist in der Spalte [!UICONTROL **Ereignis**] verfügbar.
 
@@ -33,7 +49,7 @@ Weitere Informationen zum Reporting Activity Manager, einschließlich der wichti
 
 Sie können einzelne Anfragen abbrechen, die eine große Menge an Berichtskapazität beanspruchen.
 
-1. Navigieren Sie dazu in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
 1. Wählen Sie die Report Suite aus, in der Sie die Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
@@ -51,7 +67,7 @@ Sie können einzelne Anfragen abbrechen, die eine große Menge an Berichtskapazi
 
 1. (Optional) So beschränken Sie zukünftige Anfragen für einen bestimmten Zeitraum:
 
-   1. Aktivieren Sie die Option [!UICONTROL **Nachfolgende Anfragen einschränken**].
+   1. Aktivieren Sie die Option [!UICONTROL **Nachfolgende Anfragen einschränken**]
 
       ![Nachfolgende Anfragen einschränken](assets/restrict-subsequent-requests.png)
 
@@ -74,7 +90,7 @@ Sie können einzelne Anfragen abbrechen, die eine große Menge an Berichtskapazi
 
 Sie können alle Anfragen abbrechen, die mit einer Benutzerin bzw. einem Benutzer oder mehreren Benutzenden verknüpft sind.
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie dazu in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
 1. Wählen Sie die Report Suite aus, in der Sie die Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
@@ -115,7 +131,7 @@ Sie können alle Anfragen abbrechen, die mit einer Benutzerin bzw. einem Benutze
 
 Sie können alle Anfragen abbrechen, die mit einem oder mehreren Projekten verknüpft sind.
 
-1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
+1. Navigieren Sie dazu in Adobe Analytics zu **[!UICONTROL Admin]** > **[!UICONTROL Reporting Activity Manager]**.
 
 1. Wählen Sie die Report Suite aus, in der Sie die Berichtsanfragen abbrechen möchten. <!--double-check this step-->
 
@@ -141,7 +157,7 @@ Sie können alle Anfragen abbrechen, die mit einem oder mehreren Projekten verkn
 
       | Option | Funktion |
       |---------|----------|
-      | [!UICONTROL **Benutzende und Projekt**] | Die ausgewählten Projekte werden vorübergehend von allen Berichtsanfragen der verknüpften Benutzenden ausgeschlossen. |
+      | [!UICONTROL **Benutzende und Projekt**] | Ausgewählte Projekte werden vorübergehend von allen Berichtsanfragen der verknüpften Benutzenden ausgeschlossen. |
       | [!UICONTROL **Benutzende**] | Benutzende, die mit den ausgewählten Projekten verknüpft sind, können vorübergehend keine weiteren Berichtsanfragen stellen. |
       | [!UICONTROL **Projekt**] | Ausgewählte Projekte werden vorübergehend von jeder Berichtsanfrage von beliebigen Benutzenden ausgeschlossen. |
       | [!UICONTROL **Eingeschränkt für**] | Wählen Sie aus, wie lange Anforderungen eingeschränkt werden sollen. Sie können zwischen 1 Minute (Standard), 5 Minuten, 10 Minuten, 15 Minuten oder 30 Minuten wählen. <!--double-check this--> <p>Nachdem eine Einschränkung festgelegt wurde, können Sie sie nicht sofort wieder entfernen.</p> |
@@ -187,7 +203,7 @@ So brechen Sie Anfragen nach Anwendung ab:
 
 1. (Optional) So beschränken Sie zukünftige Anfragen für einen bestimmten Zeitraum:
 
-   1. Aktivieren Sie die Option [!UICONTROL **Nachfolgende Anfragen einschränken**].
+   1. Aktivieren Sie die Option [!UICONTROL **Nachfolgende Anfragen einschränken**]
 
       ![Nachfolgende Anfragen nach Anwendung einschränken](assets/restrict-subsequent-requests-application.png)
 

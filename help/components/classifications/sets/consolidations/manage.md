@@ -3,9 +3,19 @@ title: Verwalten von Konsolidierung von Klassifizierungssätzen
 description: Erfahren Sie, wie Sie einen oder mehrere Klassifizierungssätze zu einem einzigen Klassifizierungssatz zusammenfassen.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 597
 ht-degree: 3%
 
 ---
@@ -40,7 +50,7 @@ Die ➊ zeigt Klassifizierungskonsolidierungen an, die erstellt und validiert wu
 |---|---|
 | **[!UICONTROL Konsolidierungsname]** | Der Name der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Aktueller Auftrag]** | Der mit der Konsolidierung der Klassifizierungssätze verknüpfte Vorgang. |
-| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Konsolidierung]**, **[!UICONTROL Übergeben]**, **&#x200B;**, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]**&#x200B;**[!UICONTROL ,]**&#x200B;**&#x200B;**, **[!UICONTROL Validierung]** **&#x200B;**&#x200B;**&#x200B;**, |
+| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich**&#x200B;[!UICONTROL , &#x200B;]&#x200B;**Konsolidierung**&#x200B;[!UICONTROL , &#x200B;]&#x200B;**Übergeben]**, **&#x200B;**, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]**&#x200B;**[!UICONTROL ,]**&#x200B;**&#x200B;**, **[!UICONTROL Validierung]** **&#x200B;**&#x200B;**&#x200B;**, |
 | **[!UICONTROL Erstellungszeit]** | Die Erstellungszeit der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Abschlusszeit]** | Die Abschlusszeit der Klassifizierungskonsolidierungen. |
 

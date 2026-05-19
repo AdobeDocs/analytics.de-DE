@@ -4,10 +4,31 @@ description: Erfahren Sie, wie Sie allgemeine Voreinstellungen und Projektvorein
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/ay8-2uOuI5cJpQc7Yn9aZAKZasw4WFo7qumDyyXhq8g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 97%
+source-wordcount: 3534
+ht-degree: 92%
 
 ---
 
@@ -54,8 +75,8 @@ Sie können die allgemeinen Voreinstellungen für alle neuen Projekte anpassen, 
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
->title="Experience Cloud-Authentifizierung verlangen"
->abstract="Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten haben, mit ihren Anmeldedaten von Experience Cloud authentifizieren."
+>title="CX Enterprise-Authentifizierung verlangen"
+>abstract="Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten, mit ihren CX Enterprise-Anmeldeinformationen authentifizieren."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -71,7 +92,7 @@ Sie können Unternehmensvoreinstellungen aktualisieren, die für alle Benutzerin
 |  | Registerkarte „Vorlagen“ ausblenden | Blendet die Registerkarte „Vorlagen“ für alle Benutzerinnen und Benutzer in Ihrer Organisation aus. |
 | **Projektfreigabe** | | |
 | | Freigabe nur für Workspace-Benutzende zulassen | Wenn diese Option aktiviert ist, können Benutzende in Ihrer Organisation im Menü **[!UICONTROL Freigeben]** die Option **[!UICONTROL Für alle freigeben]** nicht sehen. Benutzer können keine Projekte für Personen freigeben, die kein Analysis Workspace-Konto in Ihrem Unternehmen haben, wie in [Freigeben eines Projekts für alle (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) beschrieben.<br/>Diese Option ist standardmäßig für alle Unternehmen deaktiviert, mit Ausnahme von Kunden, die Healthcare Shield lizenziert haben. <p>Beachten Sie beim Aktivieren oder Deaktivieren dieser Option Folgendes:<ul><li>Wenn Sie diese Option aktivieren, können Personen, die zuvor über die Freigabeoption **[!UICONTROL Für alle freigeben]** Zugriff auf ein Projekt erhalten haben, nicht mehr auf das Projekt zugreifen.</li><li>Wenn diese Option aktiviert ist (um die Freigabe nur für Workspace-Benutzende zuzulassen) und später deaktiviert wird (um die Freigabe für andere zuzulassen), erhalten Personen, die zuvor über die Freigabeoption **[!UICONTROL Für alle freigeben]** Zugriff auf ein Projekt erhalten hatten, nicht automatisch wieder Zugriff auf das Projekt. In diesem Fall muss die Person, die das Projekt freigegeben hat, die Option [!UICONTROL **Link ist aktiv**] aktivieren, die beim Freigeben eines Projekts für alle verfügbar ist **([!UICONTROL Freigeben]** > **[!UICONTROL Für alle freigeben]**), wie unter [Freigeben eines Projekts für alle (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) beschrieben.</li><li>**Für Kundinnen und Kunden, die Healthcare Shield lizenzieren:** Diese Option ist standardmäßig aktiviert und kann nicht deaktiviert werden. Bevor Sie diese Option deaktivieren können, damit die Benutzenden die Freigabeoption **[!UICONTROL Für alle freigeben]** verwenden können, müssen Sie zunächst in der Adobe Admin Console die Berechtigung [!UICONTROL Projekt-Links für alle freigeben] (unter [!UICONTROL Reporting-Tools]) hinzufügen. Nachdem die Berechtigung hinzugefügt wurde, können Sie diese Option deaktivieren und dann den resultierenden rechtlichen Hinweis akzeptieren. Informationen zum Hinzufügen einer Berechtigung zur Admin Console finden Sie unter [Verwalten von Produktberechtigungen in der Admin Console](https://helpx.adobe.com/de/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Experience Cloud-Authentifizierung verlangen | Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten haben, mit ihren Anmeldeinformationen von Experience Cloud authentifizieren.<p>Wenn diese Option aktiviert ist, wird jedes Mal, wenn eine Person ein Projekt mithilfe der Freigabeoption **[!UICONTROL Für alle freigeben]** teilt, die Option **[!UICONTROL Experience Cloud-Authentifizierung verlangen]** im Freigabedialogfeld aktiviert und kann von der Person, die das Projekt freigegeben hat, nicht deaktiviert werden. Informationen dazu, wie Benutzerinnen und Benutzer Projekte für alle freigeben können, finden Sie unter [Freigeben eines Projekts für alle (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Beachten Sie beim Aktivieren dieser Option Folgendes: <ul><li>Wenn Sie diese Option aktivieren, werden alle Projekte, die zuvor mit der Freigabeoption **[!UICONTROL Für alle freigeben]** freigegeben wurden und für die die Option [!UICONTROL Experience Cloud-Authentifizierung verlangen] nicht aktiviert ist, deaktiviert.<p>Wenn diese Option aktiviert ist (d. h., eine Experience Cloud-Authentifizierung erforderlich ist) und später deaktiviert wird (damit alle Benutzenden mit dem Link auf das Projekt zugreifen können), können Personen, die zuvor über die Freigabeoption **[!UICONTROL Für alle freigeben]** Zugriff auf ein Projekt erhalten haben, nicht automatisch wieder auf das Projekt zugreifen. In diesem Fall muss die Person, die das Projekt freigegeben hat, die Option [!UICONTROL Link ist aktiv] aktivieren, die beim Freigeben eines Projekts für alle verfügbar ist **([!UICONTROL Freigeben]** > **[!UICONTROL Für alle freigeben]** > **[!UICONTROL Link ist aktiv]**), wie unter [Freigeben eines Projekts für alle (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) beschrieben.</li><li>Diese Option ist nur verfügbar, wenn SSO in Ihrem Unternehmen implementiert ist. Informationen dazu, wie System-Admins SSO für Ihre Organisation aktivieren können, finden Sie unter [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html).</p><p>Wenn SSO für Ihre Organisation konfiguriert ist, überprüfen Sie, ob in der Konsole eine automatische Kontoerstellung implementiert ist. Normalerweise richten System-Admins dies ein, wie unter [Aktivieren der automatischen Kontoerstellung](https://helpx.adobe.com/de/enterprise/using/automatic-account-creation.html) beschrieben wird.</li><li>Wenn Ihre Organisation eine Lizenz für Healthcare Shield besitzt, ist diese Option standardmäßig aktiviert und kann nicht deaktiviert werden.</li></ul> |
+| | CX Enterprise-Authentifizierung verlangen | Wenn diese Option aktiviert ist, müssen sich Personen, die über die Option **[!UICONTROL Für alle freigeben]** in Analysis Workspace Zugriff auf ein Projekt erhalten, mit ihren CX Enterprise-Anmeldeinformationen authentifizieren.<p>Sobald diese Option aktiviert ist, ist bei jeder Freigabe eines Projekts durch einen Benutzer mithilfe der Option **[!UICONTROL Für alle freigeben]** die Option **[!UICONTROL CX Enterprise-Authentifizierung erforderlich]** im Dialogfeld „Freigeben“ aktiviert und kann von dem Benutzer, der das Projekt freigibt, nicht deaktiviert werden. Informationen dazu, wie Benutzerinnen und Benutzer Projekte für alle freigeben können, finden Sie unter [Freigeben eines Projekts für alle (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Beachten Sie beim Aktivieren dieser Option Folgendes: <ul><li>Wenn Sie diese Option aktivieren, werden alle Projekte deaktiviert, die zuvor für die Option **[!UICONTROL Für alle freigeben]** freigegeben wurden und für die die Option [!UICONTROL CX Enterprise-Authentifizierung &#x200B;] erforderlich“ nicht aktiviert ist.<p>Wenn diese Option aktiviert ist (um die CX Enterprise-Authentifizierung zu verlangen) und später deaktiviert wird (um allen Personen mit dem Link Zugriff auf das Projekt zu ermöglichen), erhalten Personen, die zuvor über die Option **[!UICONTROL Für alle freigeben]** Zugriff auf ein Projekt erhalten haben, nicht automatisch ihren Zugriff auf das Projekt zurück. In diesem Fall muss die Person, die das Projekt freigegeben hat, die Option [!UICONTROL Link ist aktiv] aktivieren, die beim Freigeben eines Projekts für alle verfügbar ist **([!UICONTROL Freigeben]** > **[!UICONTROL Für alle freigeben]** > **[!UICONTROL Link ist aktiv]**), wie unter [Freigeben eines Projekts für alle (keine Anmeldung erforderlich)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) beschrieben.</li><li>Diese Option ist nur verfügbar, wenn SSO in Ihrem Unternehmen implementiert ist. Informationen dazu, wie System-Admins SSO für Ihre Organisation aktivieren können, finden Sie unter [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html).</p><p>Wenn SSO für Ihre Organisation konfiguriert ist, überprüfen Sie, ob in der Konsole eine automatische Kontoerstellung implementiert ist. Normalerweise richten System-Admins dies ein, wie unter [Aktivieren der automatischen Kontoerstellung](https://helpx.adobe.com/de/enterprise/using/automatic-account-creation.html) beschrieben wird.</li><li>Wenn Ihre Organisation eine Lizenz für Healthcare Shield besitzt, ist diese Option standardmäßig aktiviert und kann nicht deaktiviert werden.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -268,7 +289,7 @@ Sie können alle Ihre Benutzervoreinstellungen auf die Systemstandardwerte zurü
 
 Wenn Sie einen dunklen Hintergrund für Ihre Customer Journey Analytics-Benutzeroberfläche bevorzugen, können Sie zu [!UICONTROL Dunkles Thema] wechseln.
 
-1. Wählen Sie oben rechts das Experience Cloud-Benutzersymbol aus.
+1. Wählen Sie oben rechts das CX Enterprise-Benutzersymbol aus.
 
    ![dark-theme](assets/dark-theme.png)
 

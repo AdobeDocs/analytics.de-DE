@@ -4,10 +4,24 @@ title: Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: 815
+ht-degree: 90%
 
 ---
 
@@ -17,7 +31,7 @@ Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** 
 
 ## Anzeigen von Datenschutzkennzeichnungen {#view-privacy}
 
-1. Melden Sie sich bei Adobe Experience Cloud an.
+1. Anmelden bei Adobe CX Enterprise.
 2. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
@@ -55,7 +69,7 @@ Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwen
 
    >[!IMPORTANT]
    >
-   >Denken Sie daran, dass alle ausgewählten Report Suites Ihrer Experience Cloud-Organisation zugeordnet sein müssen.
+   >Beachten Sie, dass alle von Ihnen ausgewählten Report Suites Ihrer CX Enterprise-Organisation zugeordnet werden müssen.
 
    Wenn Sie die Kennzeichnungen für eine Variable oder Variablengruppe in eine andere Report Suite kopieren, wird die Kopie an der entsprechenden Stelle in der Ziel-Report Suite abgelegt. Bei Standardkomponenten, Listenvariablen und Erfolgsereignissen werden die Kennzeichnungen in die **gleichnamige Variable** in der Ziel-Report-Suite kopiert.
 
@@ -74,7 +88,7 @@ Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwen
 
 ## Exportieren in eine CSV-Datei {#export-csv}
 
-Sie können eine CSV-Datei herunterladen, die alle aktuellen Kennzeichnungsdefinitionen für alle Variablen der ausgewählten Report Suite(s) enthält. Es wird empfohlen, dass Ihre Rechtsabteilung Ihre Kennzeichnungen überprüft, und diese Option erleichtert diese Überprüfung. Auf diese Weise müssen die Prüfenden zur Überprüfung nicht in der Data-Governance-Benutzeroberfläche angemeldet sein. Stattdessen können Sie ihnen einfach die CSV-Datei zusenden.
+Sie können eine CSV-Datei herunterladen, die alle aktuellen Kennzeichnungsdefinitionen für alle Variablen der ausgewählten Report Suite(s) enthält. Wir empfehlen, dass Ihre Rechtsabteilung Ihre Etikettierungsoptionen überprüft, und diese Option erleichtert diese Überprüfung. Auf diese Weise müssen die Prüfenden zur Überprüfung nicht in der Data-Governance-Benutzeroberfläche angemeldet sein. Stattdessen können Sie ihnen einfach die CSV-Datei zusenden.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL CSV exportieren]**. Daraufhin wird dieses Dialogfeld angezeigt:
 

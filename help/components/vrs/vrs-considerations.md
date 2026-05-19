@@ -4,10 +4,31 @@ keywords: Virtual Report Suite
 title: Virtual Report Suites und Multisuite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 79%
+source-wordcount: 1657
+ht-degree: 72%
 
 ---
 
@@ -17,7 +38,7 @@ Mit Virtual Report Suites können Sie Daten aus einer Report Suite anzeigen, die
 
 In vielen Fällen können Sie Virtual Report Suites verwenden, um Multi-Suite-Tagging zu ersetzen. Durch den Wechsel zu Virtual Report Suites kann die Notwendigkeit [sekundärer Server-Aufrufe](/help/admin/tools/server-call-usage/overage-overview.md) effektiv beseitigt werden. Ihre Organisation verfügt beispielsweise über 6 verschiedene Websites, von denen jede Daten an ihre eigene Report Suite sowie eine kombinierte globale Report Suite sendet. Jede Site erhält einen sekundären Server-Aufruf, einen an die Report Suite der jeweiligen Marken und einen zweiten an die globale Report Suite. Stattdessen können Sie Daten von allen Sites ausschließlich an die globale Report Suite senden und dann mehrere Virtual Report Suites verwenden, um die Marken voneinander zu trennen.
 
-Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suite ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und den Verbrauch an Server-Aufrufen reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen, die bei Virtual Report Suites zu berücksichtigen sind. Die folgenden Richtlinien sollen Ihnen bei der Entscheidung helfen, ob auf einer globalen Report Suite erstellte Virtual Report Suites der richtige Ansatz für Sie sind.
+Wenn Sie Multi-Suite-Tagging durch eine globale Report Suite und Virtual Report Suite ersetzen, können Sie Ihre Adobe Analytics-Implementierung vereinfachen und den Verbrauch an Server-Aufrufen reduzieren. Dies wird als Best Practice empfohlen. Es gibt jedoch einige wichtige Einschränkungen, die bei Virtual Report Suites zu berücksichtigen sind. Die folgenden Richtlinien helfen Ihnen bei der Entscheidung, ob die Implementierung von Virtual Report Suites, die auf einer globalen Report Suite basieren, der richtige Ansatz für Sie ist.
 
 ## Richtlinien
 
@@ -25,11 +46,11 @@ Wenn Sie sich nicht sicher sind, ob die beschriebenen Anwendungsfälle auf Sie u
 
 Berücksichtigen Sie bei der Entscheidung, ob Sie Multi-Suite-Tagging oder Virtual Report Suites verwenden sollten, folgende Aspekte:
 
-### Veröffentlichen von Segmenten in der Adobe Experience Cloud
+### Veröffentlichen von Segmenten in Adobe CX Enterprise
 
-Für Virtual Report Suites wird die Freigabe von Segmenten in Adobe Experience Cloud derzeit nicht unterstützt. Benutzer, die ein Segment für die Experience Cloud freigeben möchten, müssen Zugriff auf die Quell-Report Suite haben.
+Die Freigabe von Segmenten für Adobe CX Enterprise wird für Virtual Report Suites nicht unterstützt. Benutzer, die ein Segment für CX Enterprise freigeben möchten, müssen Zugriff auf die Quell-Report Suite haben.
 
-Segmente aus einer Virtual Report Suite können noch nicht für die Personalisierung und das Targeting in Adobe Experience Cloud veröffentlicht werden. Alle Benutzer, die Segmente veröffentlichen, benötigen zu diesem Zweck Zugriff auf die Quell-Report Suite. Nehmen wir an, Sie möchten, dass Ihre Benutzer ausschließlich Zugriff auf Virtual Report Suites in ihrer geografischen Region haben. Sie möchten aber, dass sie auch Segmente aus Adobe Analytics erstellen und für das Targeting mit Adobe Target in Adobe Experience Cloud freigeben können. In diesem Fall empfiehlt Adobe die Verwendung von Multi-Suite-Tagging. Wenn es Sie nicht stört, dass Benutzer Zugriff auf die globale Report Suite haben, oder keine Segmente veröffentlichen müssen, um sie in anderen Lösungen zu verwenden, können Virtual Report Suites verwendet werden.
+Segmente können noch nicht von einer Virtual Report Suite aus in Adobe CX Enterprise veröffentlicht werden, um sie zu personalisieren und anzusprechen. Alle Benutzer, die Segmente veröffentlichen, benötigen zu diesem Zweck Zugriff auf die Quell-Report Suite. Beispielsweise möchten Sie, dass Benutzende nur Zugriff auf Daten für ihre geografischen Regionen haben, aber Sie möchten, dass sie Segmente von Adobe Analytics für das Targeting in Adobe Target erstellen und für Adobe CX Enterprise freigeben können. In diesem Fall empfiehlt Adobe die Verwendung von Multi-Suite-Tagging. Wenn es Sie nicht stört, dass Benutzer Zugriff auf die globale Report Suite haben, oder keine Segmente veröffentlichen müssen, um sie in anderen Lösungen zu verwenden, können Virtual Report Suites verwendet werden.
 
 ### Eindeutige Beschränkungen (Geringer Traffic)
 
@@ -61,7 +82,7 @@ Sie haben beispielsweise zwei Websites, A und B, die beide Daten an eine globale
 
 Virtual Report Suites können nur die Währung der Report Suite anzeigen, auf der sie basieren. Adobe Analytics ermöglicht zwar die Konvertierung der Währung bei der Erstellung von Berichten. Der Wechselkurs ist jedoch der des aktuellen Tages (auch wenn es sich um historische Daten handelt).
 
-Wenn Ihre Organisation ihre Analyse in einer einheitlichen Währung durchführt, ist dies kein Problem. Wenn Sie jedoch einen erheblichen geschäftlichen Bedarf an verschiedenen regionalen Teams haben, die den Umsatz in ihrer eigenen Landeswährung anzeigen müssen, sollten Sie die Verwendung von Multi-Suite-Tagging in Betracht ziehen.
+Wenn Ihre Organisation ihre Analyse in einer einheitlichen Währung durchführt, ist dies kein Problem. Wenn Sie jedoch erhebliche geschäftliche Anforderungen an verschiedenen regionalen Teams haben, die den Umsatz in ihrer eigenen Landeswährung anzeigen müssen, sollten Sie die Verwendung von Multi-Suite-Tagging in Betracht ziehen.
 
 ### Datenfeeds
 

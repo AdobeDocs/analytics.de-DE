@@ -5,10 +5,23 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+TQID: https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: 567
+ht-degree: 2%
 
 ---
 
@@ -51,6 +64,6 @@ Einstellungen für die Standardansicht anpassen.
 ## Live-Einstellungen
 
 * **[!UICONTROL Oben anzeigen]**: Zeigt die höchste Anzahl von Gewinnern oder Verlierern basierend auf der numerischen Dropdown-Liste auf der linken Seite an.
-* **[!UICONTROL Unterste ausschließen (%)]**: Filtern Sie den untersten Prozentsatz der Link-Änderungen heraus, um nur die Links mit ausreichend Daten anzuzeigen, um relevante Gewinne oder Verluste anzuzeigen. Der Prozentsatz wird anhand der Anzahl der Links auf der Seite berechnet. Wenn Sie beispielsweise die unteren 10 % einer Liste mit 200 Links herausfiltern, werden die unteren 20 Links herausgefiltert.
+* **[!UICONTROL Unterste ausschließen (%)]**: Filtern Sie den untersten Prozentsatz der Link-Änderungen heraus, um nur die Links mit ausreichend Daten anzuzeigen, um relevante Gewinne oder Verluste anzuzeigen. Der Prozentsatz wird anhand der Anzahl der Links auf dieser Seite berechnet. Wenn Sie beispielsweise die unteren 10 % einer Liste mit 200 Links herausfiltern, werden die unteren 20 Links herausgefiltert.
 * **[!UICONTROL Daten automatisch aktualisieren]**: Bestimmt, ob die in der Überlagerung angezeigten Analytics-Daten automatisch aktualisiert werden, wenn ein neuer Zeitraum berechnet wird.
 * **[!UICONTROL Zeitraum für automatische Aktualisierung]**: Wenn diese Option aktiviert ist, wird die Seite bei jedem neuen Datenabruf aktualisiert, damit die Links auf der Seite enger mit den erfassten Daten synchronisiert werden.

@@ -5,10 +5,19 @@ uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/9HsICf4VKtAaDlime8Y9RAJjEPCra-KvMpIhUedBpWc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 87%
+source-wordcount: 144
+ht-degree: 52%
 
 ---
 
@@ -18,6 +27,6 @@ ht-degree: 87%
 
 Sie können Zellen, die mehr als einer Anforderung zugeordnet sind, kopieren und den Inhalt in einen leeren, ausgewählten Bereich des Arbeitsblatts einfügen.
 
-Nachdem Sie Zellen kopiert haben, berechnen Report Builder und Excel den Bereich, der für das Einfügen der Mindestanzahl von Kopien erforderlich ist. Ist dieser Bereich groß genug, wird durch das Einfügen eine Kopie aller Anforderungen erstellt, wobei jede eingefügte Anforderung dieselbe räumliche Anordnung und dieselbe Formatierung aufweist wie die ursprüngliche Anforderung.
+Nachdem Sie Zellen kopiert haben, berechnen Report Builder und Excel den Bereich, der für das Einfügen der Mindestanzahl von Kopien erforderlich ist. Wenn der Bereich groß genug ist, wird beim Einfügen eine Kopie aller Anfragen erstellt, wobei jede eingefügte Anfrage dieselbe räumliche Anordnung und Formatierung wie in den ursprünglichen Anfragen aufweist.
 
-Dies wird als Propagierung der Anforderung bezeichnet. Auf diese Weise kann auf einfache und schnelle Weise ein langer Bericht erstellt werden. Report Builder propagiert die Anforderungen zunächst durch Einfügen aller Anforderungen in die Zellen des Zielbereichs zum Einfügen und aktualisiert dann die Zellen auf der Grundlage der für die Anforderungen eingerichteten Berichtdatumswerte.
+Dies wird als Propagieren der Anfrage bezeichnet. Dies ist eine einfache und schnelle Möglichkeit, einen langen Bericht zu erstellen. Report Builder propagiert die Anforderungen zunächst durch Einfügen aller Anforderungen in die Zellen des Zielbereichs zum Einfügen und aktualisiert dann die Zellen auf der Grundlage der für die Anforderungen eingerichteten Berichtdatumswerte.

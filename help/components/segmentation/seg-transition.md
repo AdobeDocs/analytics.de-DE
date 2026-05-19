@@ -3,10 +3,28 @@ description: Erfahren Sie, wie Sie veraltete Segmente verwalten.
 title: Häufig gestellte Fragen zu Legacy-Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 57%
+source-wordcount: 1440
+ht-degree: 23%
 
 ---
 
@@ -20,7 +38,7 @@ In diesem Artikel werden häufig gestellte Fragen zu Best Practices für die Ver
 
 Die vorhandenen Segmente funktionieren weiterhin wie zuvor. Alle Berichte, auf die diese Segmente angewendet werden, funktionieren weiterhin ordnungsgemäß.
 
-Die meisten vorherigen vordefinierten Segmente und Suite-Segmente werden als Segmentvorlagen in Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gemeinsamen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können aber problemlos in einem benutzerdefinierten Segment gespeichert werden.
+Die meisten vorherigen vordefinierten Segmente und Suite-Segmente werden als Segmentvorlagen in Segment Builder migriert. Segmentvorlagen werden verwendet, um schnell benutzerdefinierte Segmente mit gemeinsamen Zielgruppen zu erstellen. Segmentvorlagen können nicht direkt auf einen Bericht angewendet werden, sie können jedoch einfach in einem benutzerdefinierten Segment gespeichert werden.
 
 Segmentvorlagen sind im Segment Builder mit einem speziellen Symbol ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) gekennzeichnet.
 
@@ -30,11 +48,11 @@ Segmentvorlagen sind im Segment Builder mit einem speziellen Symbol ![AdobeLogoS
 
 +++ **Was ist mit terminierten Berichten passiert, auf die Segmente angewendet sind?**
 
-Terminierte Berichte werden weiterhin fehlerfrei mit den von Ihnen definierten Segmenten ausgeführt.
+Terminierte Berichte werden weiterhin ordnungsgemäß mit den von Ihnen definierten Segmenten ausgeführt.
 
-Wenn Sie ein Segment löschen, funktionieren terminierte Berichte und Dashboards, auf die dieses Segment angewendet wird, weiter normal, d. h., das Segment bzw. das Dashboard verwendet weiterhin das gelöschte Segment.
+Wenn Sie ein Segment löschen, funktionieren terminierte Berichte und Dashboards, auf die dieses Segment angewendet wird, weiterhin normal. Das Segment oder Dashboard verwendet also weiterhin das gelöschte Segment.
 
-Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselben Namen aktualisieren. Ein Beispiel: Angenommen, Sie haben 2 Segmente mit demselben Namen in unterschiedlichen Report Suites:
+Terminierte Berichte werden nicht aktualisiert, wenn Sie ein Segment mit demselben Namen bearbeiten. Im Folgenden finden Sie ein Beispiel: Angenommen, Sie haben zwei Segmente mit demselben Namen in verschiedenen Report Suites:
 
 ![](assets/duplicate_seg_names.png)
 
@@ -46,7 +64,7 @@ Sie verfügen über eine Visualisierung, die auf das Segment für die Report Sui
 
 Alle vorhandenen Data Warehouse-Segmente funktionieren weiterhin in Data Warehouse. Die meisten Data Warehouse-Segmente funktionieren auch in anderen Komponenten wie Analysis Workspace.
 
-Sie können neue Data Warehouse-Segmente im Segment Builder/Segment-Manager erstellen oder bearbeiten. Der Produktkompatibilitätsmechanismus in Segment Builder bestimmt automatisch, ob ein Segment mit Data Warehouse kompatibel ist.
+Sie können neue Data Warehouse-Segmente im Segment Builder/Manager erstellen oder bearbeiten. Der Produktkompatibilitätsmechanismus in Segment Builder bestimmt automatisch, ob ein Segment mit Data Warehouse kompatibel ist.
 
 +++
 
@@ -62,13 +80,13 @@ Diese Segmente werden als Segmentvorlagen in den Segment Builder migriert. Vorha
 
 +++
 
-+++ **Was ist mit Experience Cloud (Suite)-Segmenten passiert?**
++++ **Was ist mit CX Enterprise (Suite)-Segmenten passiert:**
 
 * Nichtkaufende
 * Kaufende
 * Erstbesuche
 * Besuche von Social Media aus
-* Besuche, die länger als 10 Minuten dauern*
+* Besuche von mehr als 10 Minuten*
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
@@ -84,26 +102,26 @@ Vorhandene Berichte, auf die diese Segmente angewendet wurden, funktionieren wei
 
 Der Eigentümer dieser Segmente wird auf den Administrator mit dem ältesten Konto von Admin-Benutzern festgelegt. Alle Administratoren können diese Segmente jedoch löschen, bearbeiten und freigeben.
 
-Die Segmentverwaltungsoberfläche der Admin Console, über die Administratoren diese globalen Segmente erstellen und verwalten konnten, gibt es nicht mehr. Administratoren sollten jetzt den neuen Segmentaufbau verwenden, um Segmente zu erstellen und für geeignete Gruppen, für alle oder für einzelne Personen freizugeben.
+Die Benutzeroberfläche für das Segmentmanagement in der Admin Console, in der Administratoren diese globalen Segmente erstellt und verwaltet haben, ist nicht mehr verfügbar. Administratoren sollten jetzt den neuen Segment Builder verwenden, um Segmente zu erstellen und sie für entsprechende Gruppen oder Einzelpersonen oder für alle freizugeben.
 
 Vorhandene Segmente, die eine geänderte Logik wie in diesem Dokument beschrieben verwenden, funktionieren weiterhin ordnungsgemäß, obwohl die Segmente aktualisiert werden müssen, bevor sie erneut gespeichert werden können. Wenn Sie beispielsweise über ein vorhandenes Segment verfügen, in dem **[!UICONTROL US]** **[!UICONTROL enthält]** `New York`, funktioniert dieses Segment weiterhin ordnungsgemäß. Wenn Sie das nächste Mal das Segment bearbeiten, müssen Sie das Segment aktualisieren, um den Aufzählungstyp mit einer **[!UICONTROL gleich]**-Bedingung zu verwenden.
 
 +++
 
-+++ **Was mache ich mit doppelten Segmenten, die denselben Namen und unterschiedliche Definitionen haben?** 
-Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Gehen Sie dazu folgendermaßen vor:
++++ **Was sollte ich mit doppelten Segmenten tun, die denselben Namen, aber möglicherweise unterschiedliche Definitionen haben?** 
+Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden können, kann es vorkommen, dass Sie mehrere Segmente mit demselben Namen haben. Sie sollten:
 
-* Benennen Sie Segmente um, die denselben Namen, aber unterschiedliche Definitionen haben, oder
-* Löschen Sie Segmente, die Sie nicht mehr benötigen.
+* Segmente umbenennen, die denselben Namen, aber unterschiedliche Definitionen aufweisen, oder
+* Segmente löschen, die nicht mehr benötigt werden.
 
 +++
 
 +++ **Was empfiehlt Adobe im Hinblick auf die Bereinigung von Segmenten?**
 
-* Markieren Sie alle alten Segmente mit einem Tag.
-* Überprüfen Sie all Ihre Segmente.
-* Fügen Sie Ihre Segmente gegebenenfalls zu einer Segmentbibliothek hinzu.
-* Genehmigen Sie vorschriftsmäßige Segmente.
+* Taggen Sie alle Segmente mit dem Legacy-Tag.
+* Überprüfen Sie die vorhandenen Segmente.
+* Fügen Sie sie gegebenenfalls zur Segmentbibliothek hinzu.
+* Genehmigen von kanonischen Segmenten.
 * Markieren Sie Segmente gemäß den [Best Practices](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
@@ -123,27 +141,27 @@ Die folgende Tabelle enthält eine Liste der Dimensionen, die in Segment Builder
 
 | Neuer Dimensionsname | Vorheriger Name | Hinweise |
 |--- |--- |--- |
-| Betriebssystemtypen | Neu | Hinzugefügt im Frühling 2015. |
-| Browser-Breite – zusammengefasst | Browser-Breite | Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, verwenden Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
-| Browser-Höhe – zusammengefasst | Browser-Höhe | Diese Dimension ist mit allen Benutzeroberflächen kompatibel und wird in eine Liste aufgezählter Bereiche, anstelle bestimmter Ganzzahlwerte unterteilt. Wenn Sie bestimmte Werte segmentieren müssen, verwenden Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
-| Browserbreite – Granular | Browser-Breite | Diese Dimension wurde umbenannt und ist jetzt nur noch mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserbreite – Zusammengefasst“. |
-| Browserhöhe – Granular | Browser-Höhe | Diese Dimension wurde umbenannt und ist jetzt nur noch mit Data Warehouse kompatibel. Wenn Sie Segmente definieren wollen, die mit allen Benutzeroberflächen kompatibel sind, benutzen Sie den Aufzählungstyp „Browserhöhe – Zusammengefasst“. |
+| Betriebssystemtypen | Neu | Im Frühjahr 2015 hinzugefügt. |
+| Browser-Breite – zusammengefasst | Browser-Breite | Diese Dimension ist mit allen Schnittstellen kompatibel und wird in eine Aufzählungsliste von Bereichen anstelle von bestimmten ganzzahligen Werten aufgeteilt. Wenn Sie bestimmte Werte segmentieren müssen, verwenden Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
+| Browser-Höhe – zusammengefasst | Browser-Höhe | Diese Dimension ist mit allen Schnittstellen kompatibel und wird in eine Aufzählungsliste von Bereichen anstelle von bestimmten ganzzahligen Werten aufgeteilt. Wenn Sie bestimmte Werte segmentieren müssen, verwenden Sie die granulare Version dieser Dimension in einem Data Warehouse-Segment. |
+| Browser-Breite – Präzise | Browser-Breite | Diese Dimension wurde umbenannt und ist jetzt nur noch mit Data Warehouse kompatibel. Verwenden Sie beim Definieren von Segmenten, die mit allen Schnittstellen kompatibel sind, den Aufzählungstyp „Browser Width - Bucketed“. |
+| Browser-Höhe – Präzise | Browser-Höhe | Diese Dimension wurde umbenannt und ist jetzt nur noch mit Data Warehouse kompatibel. Verwenden Sie beim Definieren von Segmenten, die mit allen Schnittstellen kompatibel sind, den Aufzählungstyp „Browser Height - Bucketed“. |
 | Cookie-Unterstützung | Cookies | – |
 | Farbtiefe | Bildschirmfarbtiefe | – |
-| – | „App - *“ | Die „App -“-Präfixe wurden aus einigen Dimensionstypen entfernt. Da mobile App-Daten in der Regel in einer Report Suite erfasst werden, die keine Webdaten enthält, waren diese Präfixe nicht erforderlich. |
+| – | „Programm - *&quot; | Die Präfixe „App -&quot; wurden aus einer Reihe von Dimensionstypen entfernt. Da Mobile-App-Daten normalerweise in einer Report Suite erfasst werden, die keine Web-Daten enthält, waren diese Präfixe nicht erforderlich. |
 | Ursprüngliche Entrypage | Ursprüngliche Einstiegsseite | – |
 | Java aktiviert | Java | – |
 | Maximale mobile Browser-URL-Länge | Länge der mobilen Browser-URL | – |
 | Mobilgerät – Mail-Design | Mobile Design-Mail-Unterstützung | – |
-| Mobilgerät | Mobilgerätname | – |
+| Mobilgerät | Mobilgerätename | – |
 | Maximale mobile Lesezeichenlänge | Mobil Max. Lesezeichen URL-Länge | – |
 | Maximale mobile E-Mail-Länge | Mobil Max. Mail URL-Länge | – |
-| Mobiles Betriebssystem (Veraltet) | Mobilbetriebssystem | Benutzen Sie die Betriebssystem-Dimension und wenden Sie stattdessen Besuche von Mobilgerätesegmenten an. |
+| Betriebssystem für Mobilgeräte (veraltet) | Mobilbetriebssystem | Verwenden Sie stattdessen die Dimension Betriebssystem und wenden Sie Besuche von Segmenten mobiler Geräte an. |
 | Mobiles PTT | Mobile PTT | – |
-| Umfrageansichten | Umfrageansichten insgesamt | – |
-| Umfrageantworten | Umfrageantworten insgesamt | – |
+| Umfrageansichten | Gesamtaufrufe der Umfrage | – |
+| Umfrageantworten | Gesamtzahl der Umfrageantworten | – |
 | Besuchstiefe | Path Length | – |
-| Postleitzahl | Postleitzahl | – |
+| Postleitzahl | Postleitzahl | - |
 
 {style="table-layout:auto"}
 
@@ -151,29 +169,29 @@ Die folgende Tabelle enthält eine Liste der Dimensionen, die in Segment Builder
 
 Zeichenfolgenbasierte Dimensionen mit einem bekannten Wertesatz wurden in Aufzählungstypen geändert. Beim Erstellen eines Segments mit diesen Dimensionen wird die Liste mit allen bekannten Werten vorab ausgefüllt und der einzige unterstützte Operator ist **[!UICONTROL Gleich]**. Mit dieser Wertepopulation können Sie die gesuchten Werte schnell segmentieren, ohne unbeabsichtigte Werte bei weniger restriktiven Übereinstimmungen auszuwählen.
 
-Folgende Dimensionen wurden in Aufzählungslisten geändert:
+Die folgenden Dimensionen wurden in Aufzählungslisten geändert:
 
 | Name der Dimension | Name der Dimension | Name der Dimension |
 | --- | --- | --- |
-| Mobilgerätehersteller | Mobile E-Mail-Länge | Farbtiefe |
-| Mobilgerät – Bildschirmgröße | Mobilgerätenummer | Bildschirmauflösung |
-| Mobilgerät – Bildschirmhöhe | Gebührenpflichtige Suche | Plugin |
-| Mobilgerät – Cookie-Unterstützung | Mobilgerät – Mail-Design | Betriebssystem |
-| Mobilgerät – Bildunterstützung | Mobile Informationsdienste | Referrer-Typ |
-| Mobilgerät – Farbtiefe | Mobilgerätetyp | Suchmaschine |
+| Mobilgerätehersteller | Länge der mobilen E-Mail | Farbtiefe |
+| Mobilgerät - Bildschirmgröße | Mobilgerätenummer | Bildschirmauflösung |
+| Mobilgerät - Bildschirmhöhe | Gebührenpflichtige Suche | Plug-in |
+| Unterstützung mobiler Cookies | Mobile-Mail-Dekoration | Betriebssystem |
+| Bildunterstützung für Mobilgeräte | Mobile Informationsdienste | Empfehlungstyp |
+| Mobilgerät - Farbtiefe | Mobilgerätetyp | Suchmaschine |
 | Mobilgerät – Audio-Unterstützung | Browser-Typ | state |
 | Mobilgerät – Video-Unterstützung | browser | Geo-Land |
-| Mobil-DRM | Verbindungstyp | Geo-Region |
-| Mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
-| Mobilbetriebssystem | Cookie | Geo-DMA |
+| Mobiles DRM | Verbindungstyp | Geo-Region |
+| mobile Netzprotokolle | Mobilnetzbetreiber | Geo-Stadt |
+| Mobile Betriebssystem | Cookie | Geo-DMA |
 | Mobile Java-VM | Kundentreue | Persistentes Cookie |
-| Mobile Lesezeichenlänge | Java aktiviert | Paid Search |
-| Mobil URL-Länge | Sprache |  |
+| Länge des mobilen Lesezeichens | Java aktiviert | Paid Search |
+| Länge der mobilen URL | Sprache |  |
 
 ## Änderungen an auf Ganzzahlen basierenden Dimensionen mit bekannten Werten {#integer-based-dims}
 
-Ganzzahlige Dimensionen (z. B. die Browser-Breite) mit einem bekannten Satz von Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten erhalten nach dem Namen der Dimension den Zusatz „– Zusammengefasst“. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segment Builder-Oberfläche segmentiert werden:
+Ganzzahlige Dimensionen (z. B. die Browser-Breite) mit einem bekannten Satz von Werten werden in Aufzählungsbereiche aufgeteilt, sodass Sie schnell Segmente für einen bestimmten Bereich definieren können. Diese Aufzählungslisten werden mit &quot;- Bucketed“ nach dem Dimensionsnamen angehängt. Der folgende Bildschirm zeigt, wie diese Dimensionen mit der früheren und der neuen Segment Builder-Oberfläche segmentiert werden:
 
 ![](assets/seg_browser_dimension.png)
 
-Die Operatoren „kleiner als“, „größer als“ und vergleichbare Operatoren sind jetzt nur noch mit Data Warehouse-Segmenten kompatibel. Segmente, die mit allen Reporting-Schnittstellen kompatibel sein sollen, sollten die „Bucketed“-Version der Metrik mit dem Operator **[!UICONTROL Gleich]** verwenden.
+Die Operatoren „kleiner als“, „größer als“ und „ähnlich“ sind jetzt nur noch mit Data Warehouse-Segmenten kompatibel. Segmente, die mit allen Reporting-Schnittstellen kompatibel sein sollen, sollten die „Bucketed“-Version der Metrik mit dem Operator **[!UICONTROL Gleich]** verwenden.

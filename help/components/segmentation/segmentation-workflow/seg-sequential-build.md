@@ -3,10 +3,22 @@ description: Erfahren Sie mehr über sequenzielle Segmente, die den THEN-Operato
 title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/Wvy6Kl84IzHS1VpA0k0H2rUIGMgpDIhEuG4kK-qAwt4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 3%
+source-wordcount: 2424
+ht-degree: 4%
 
 ---
 
@@ -88,7 +100,7 @@ In der folgenden Tabelle werden die Zeitbeschränkungsoperatoren genauer erläut
 |--- |--- |
 | **[!UICONTROL nachher]** | Der [!UICONTROL After]-Operator wird verwendet, um eine Mindestgrenze für den Zeitraum zwischen zwei Checkpoints anzugeben. Beim Festlegen der After-Werte beginnt das Zeitlimit mit der Anwendung des Segments. Wenn beispielsweise der Operator [!UICONTROL After] auf einem Container festgelegt ist, um Besucher zu identifizieren, die Seite A besuchen, aber erst nach einem Tag zu Seite B zurückkehren, beginnt dieser Tag, wenn der Besucher Seite A verlässt.  Damit der Besucher in das Segment aufgenommen werden kann, muss nach dem Verlassen von Seite A zur Ansicht von Seite B mindestens 1440 Minuten (ein Tag) erkennbar sein. |
 | **[!UICONTROL Innerhalb]** | Der [!UICONTROL Within]-Operator wird verwendet, um eine maximale Zeitspanne zwischen zwei Checkpoints anzugeben. Wenn beispielsweise der Operator [!UICONTROL Innerhalb] auf einem Container festgelegt ist, um Besucher zu identifizieren, die Seite A besuchen, und dann innerhalb eines Tages zu Seite B zurückkehren, beginnt dieser Tag, wenn der Besucher Seite A verlässt. Um in das Segment aufgenommen zu werden, hat der Besucher maximal einen Tag Zeit, bevor er Seite B öffnet. Damit der Besucher in das Segment aufgenommen werden kann, muss das Öffnen von Seite B innerhalb von maximal 1440 Minuten (einen Tag) nach dem Verlassen von Seite A erfolgen, um Seite B anzuzeigen. |
-| **[!UICONTROL nach, aber innerhalb von]** | Bei Verwendung der Operatoren [!UICONTROL After] und [!UICONTROL Within] beginnen und enden beide parallel, nicht sequenziell. <br/>Sie erstellen beispielsweise ein Segment, für das der Container auf `After = 1 Week(s) and Within = 2 Week(s)` festgelegt ist.<br/>Die Bedingungen zur Identifizierung von Besuchern in diesem Segment sind nur zwischen einer und zwei Wochen erfüllt. Beide Bedingungen werden ab dem Zeitpunkt der ersten Seitenansicht erzwungen. |
+| **[!UICONTROL nach, aber innerhalb von]** | Bei Verwendung der Operatoren [!UICONTROL After] und [!UICONTROL Within] beginnen und enden beide parallel, nicht sequenziell. <br/>Sie erstellen beispielsweise ein Segment, in dem der Container auf Folgendes festgelegt ist: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Die Bedingungen zur Identifizierung von Besuchern in diesem Segment sind nur zwischen einer und zwei Wochen erfüllt. Beide Bedingungen werden ab dem Zeitpunkt der ersten Seitenansicht erzwungen. |
 
 
 #### Beispiele
@@ -97,27 +109,27 @@ Einige Beispiele für die Verwendung der Zeitbeschränkungen.
 
 ##### [!UICONTROL After]-Operator
 
-Besucherinnen und Besucher identifizieren, die erst nach zwei Wochen eine Seite und dann eine weitere Seite besucht haben. Dies könnten beispielsweise Besucher sein, die die -Startseite, aber die -Frauen besucht haben | Schuhe Seite erst nach zwei Wochen.
+Besucherinnen und Besucher identifizieren, die erst nach zwei Wochen eine Seite und dann eine weitere Seite besucht haben. Dies könnten beispielsweise Besucher sein, die die -Startseite, aber die Seite Women | Shoes erst nach zwei Wochen besucht haben.
 
 ![Sequenz nach](assets/sequence-after.png)
 
-Wenn am 1. Juni 2024 um 00 Uhr eine Seitenansicht für die Startseite :01, erfolgt eine Seitenansicht auf der Seite Frauen . | Die Schuhe stimmen überein, solange diese Seitenansicht nach dem 15. Juni 2024 00:01 erfolgt.
+Wenn am 1. Juni 2024 um 00::01 eine Seitenansicht für die Startseite erfolgt, stimmt eine Seitenansicht für die Seite Women | Shoes überein, solange diese Seitenansicht nach dem 15. Juni 2024 00::01 erfolgt.
 
 ##### [!UICONTROL Within]-Operator
 
-Besucherinnen und Besucher identifizieren, die innerhalb von fünf Minuten eine Seite und dann eine andere Seite besucht haben. Dies könnten beispielsweise Besucher sein, die erst die Startseite und dann die Seite „Frauen“ besucht haben | Schuhe Seite innerhalb von 5 Minuten.
+Besucherinnen und Besucher identifizieren, die innerhalb von fünf Minuten eine Seite und dann eine andere Seite besucht haben. Dies könnten beispielsweise Besucher sein, die innerhalb von 5 Minuten die Homepage und dann die Seite „Damen | Schuhe“ besucht haben.
 
 ![Sequenz innerhalb von](assets/sequence-within.png)
 
-Wenn am 1. Juni 2024 um 12 Uhr eine Seitenansicht für die Startseite :01, erfolgt eine Seitenansicht auf der Seite Frauen . | Die Schuhe stimmen überein, solange diese Seitenansicht vor dem 15. Juni 2024 12 Uhr :16.
+Wenn eine Seitenansicht für die Startseite am 1. Juni 2024 um 12 :01 stattfindet, stimmt eine Seitenansicht für die Seite Women | Shoes überein, solange diese Seitenansicht vor dem 15. Juni 2024 um 12 :16 stattfindet.
 
 ##### [!UICONTROL After] but [!UICONTROL Within]-Operator
 
-Besucher identifizieren, die eine Seite besucht und nach zwei Wochen, aber innerhalb eines Monats, eine andere Seite besucht haben. Dies können beispielsweise Besucherinnen und Besucher sein, die die Startseite und dann nach zwei Wochen und innerhalb eines Monats die Seite Frauen besucht haben | Seite Schuhe.
+Besucher identifizieren, die eine Seite besucht und nach zwei Wochen, aber innerhalb eines Monats, eine andere Seite besucht haben. Dies können beispielsweise Besucher sein, die die Homepage und dann nach zwei Wochen und innerhalb eines Monats die Seite „Damen | Schuhe“ besucht haben.
 
 ![Sequenz nach, aber innerhalb von](assets/sequence-afterbutwithin.png)
 
-Alle Besucherinnen und Besucher, die am 1. Juni 2024 auf die Startseite gelangen und wieder zu den Frauen zurückkehren | Schuhseite nach dem 15. Juni 2019 00:01, aber vor dem 1. Juli 2019 qualifiziert für das Segment.
+Alle Besucherinnen und Besucher, die am 1. Juni 2024 die Startseite besuchen und nach dem 15. Juni 2019 00:01, aber vor dem 1. Juli 2019, zurückkehren, um die Seite „Damen | Schuhe“ zu besuchen, qualifizieren sich für das Segment.
 
 
 ### [!UICONTROL Treffer], [!UICONTROL Besuch] und [!UICONTROL Dimension]Beschränkungen
@@ -126,7 +138,7 @@ Mit den Begrenzungen ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]
 
 #### Beispiel
 
-Nachfolgend finden Sie ein Beispiel für ein sequenzielles Segment, das nach Besuchern sucht, die eine Produktkategorieseite (Frauen) besucht haben | Schuhe), gefolgt von einer Checkout-Seite (Checkout | Vielen Dank) innerhalb einer Seite.
+Nachstehend finden Sie ein Beispiel für ein sequenzielles Segment, das nach Besuchern sucht, die eine Produktkategorieseite (Frauen | Schuhe) besucht haben, gefolgt von einer Checkout-Seite (Checkout | Vielen Dank) auf einer Seite.
 
 ![Segment innerhalb von sequenzieren](assets/sequence-filter-within.png)
 
@@ -145,7 +157,7 @@ Sie können angeben, welche Daten in Ihr sequenzielles Segment oder in einen seq
 
 Um ein sequenzielles Segment zu erstellen, das alle umfasst, wählen Sie die Option ![Benutzergruppe](/help/assets/icons/UserGroup.svg) **[!UICONTROL Alle einschließen]**.
 
-Das sequenzielle Segment identifiziert Daten, die dem angegebenen Muster als Ganzes entsprechen.  Nachfolgend finden Sie ein Beispiel für ein einfaches Sequenzsegment, das nach Besuchern sucht, die eine Produktkategorieseite (Frauen) besucht haben | Schuhe), gefolgt von einer Checkout-Seite (Checkout | Vielen Dank). Das Segment ist auf ![UserGroup](/help/assets/icons/UserGroup.svg) (Include **[!UICONTROL everyone]** festgelegt.
+Das sequenzielle Segment identifiziert Daten, die dem angegebenen Muster als Ganzes entsprechen.  Nachfolgend finden Sie ein Beispiel für ein einfaches Sequenzsegment, das nach Besuchern sucht, die eine Produktkategorieseite (Frauen | Schuhe) besucht haben, gefolgt von einer Checkout-Seite (Checkout | Vielen Dank). Das Segment ist auf ![UserGroup](/help/assets/icons/UserGroup.svg) (Include **[!UICONTROL everyone]** festgelegt.
 
 ![Sequenzielles Segment umfasst alle](assets/sequence-include-everyone.png)
 
@@ -167,7 +179,7 @@ Die Optionen ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONT
 Nehmen wir eine Definition, die eine Sequenz einer Komponente mit Kriterien spezifiziert, die durch B identifiziert wurden, gefolgt von einer Komponente mit Kriterien, die durch D identifiziert wurden (Then). Die drei Optionen würden Daten wie folgt identifizieren:
 
 
-| B dann D | A  | B | C | D | E | F |
+| B dann D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | Alle einschließen | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Nur vor Sequenz | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
@@ -175,7 +187,7 @@ Nehmen wir eine Definition, die eine Sequenz einer Komponente mit Kriterien spez
 
 
 
-| B Dann D (tritt mehrmals auf) | A  | B | C | D | B | C | D | E |
+| B Dann D (tritt mehrmals auf) | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Alle einschließen | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Nur vor Sequenz | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
@@ -267,7 +279,7 @@ Sie können die [!UICONTROL logische Gruppe] verwenden, um die Erstellung dieses
 
 #### Erstes Spiel
 
-Besucherinnen und Besucher identifizieren, die eine Seite oder eine andere Seite und dann noch eine andere Seite besucht haben. Besucherinnen und Besucher, die beispielsweise die Seiten „Frauen“ oder „Männer“ und anschließend die Kasse besucht haben | Dankeseite.
+Besucherinnen und Besucher identifizieren, die eine Seite oder eine andere Seite und dann noch eine andere Seite besucht haben. Besucherinnen und Besucher, die beispielsweise die Seite „Frauen“ oder die Seite „Männer“ besucht und dann die Seite Checkout | Vielen Dank besucht haben.
 
 ![Beispiel bei Verwendung der ersten Übereinstimmung mit der logischen Gruppe](assets/logicgroup-example-firstmatch.png)
 

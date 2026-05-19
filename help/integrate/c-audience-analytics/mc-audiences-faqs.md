@@ -1,12 +1,12 @@
 ---
 description: Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audience Analytics haben.
-solution: Experience Cloud
+solution: Analytics
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1120'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,7 @@ Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie d
 
 Diese gelten nicht für das Senden von Adobe Analytics-Daten an Adobe Audience Manager. Fragen Sie sich:
 
-* Wird ein von Analytics freigegebenes Segment mit einer MCA-Dimension wieder für Experience Cloud freigegeben?
+* Wird ein von Analytics freigegebenes Segment mit einer MCA-Dimension wieder für CX Enterprise freigegeben?
 
 * Exportieren Sie (z. B. über Daten-Feeds) in ein Business Intelligence (BI)-System, das für diese Zwecke verwendet wird?
 
@@ -133,7 +133,7 @@ Ja. Im Adobe Audience Manager-Ziel-Setup werden nur Report Suites angezeigt, fü
 
 +++ Warum kann ich bestimmte Report Suites für SSF nicht in Analytics Admin aktivieren?
 
-Es können nur Suites aktiviert werden, die Ihrer Experience Cloud-Org zugeordnet sind.
+Es können nur Suites aktiviert werden, die Ihrer CX Enterprise-Organisation zugeordnet sind.
 
 Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serverseitigen Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
@@ -155,7 +155,7 @@ Siehe [Grundlegendes zu Segmenten in Analytics und Audience Manager](/help/integ
 
 +++ Was ist der Unterschied zwischen Kundenattributen und aus Adobe Audience Manager integrierten Kundendaten?
 
-Kundenattribute sind nicht zeitbasiert, sondern gelten rückwirkend und können weiterverwendet werden. Die integrierten Daten von Adobe Audience Manager sind nur zeitbasiert und für die Zukunft vorgesehen. Darüber hinaus sind Kundenattribute eine Suchtabelle für Experience Cloud-Besucher-IDs, während die Adobe Audience Manager-Integrationsdaten in jedem Treffer für einen Besucher zugeordnet sind.
+Kundenattribute sind nicht zeitbasiert, sondern gelten rückwirkend und können weiterverwendet werden. Die integrierten Daten von Adobe Audience Manager sind nur zeitbasiert und für die Zukunft vorgesehen. Darüber hinaus sind Kundenattribute eine Suchtabelle für CX Enterprise-Besucher-IDs, während die Adobe Audience Manager-Integrationsdaten bei jedem Treffer für einen Besucher zugeordnet werden.
 
 +++
 

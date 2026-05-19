@@ -1,23 +1,35 @@
 ---
-title: Legacy Adobe Experience Cloud-Debugger
-description: Installieren Sie den Legacy Adobe Experience Cloud-Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising, Identity Service und Datenerfassung.
+title: Legacy-Debugger
+description: Installieren Sie den Legacy-Debugger. Dieser Debugger überprüft Tags für Analytics, Target, Advertising, Identity Service und Datenerfassung.
 feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/igbKBwN0NmXCPRi9Rc1UtG7Ty1ffpd0rwyWEOTWPWdk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 97%
+source-wordcount: 681
+ht-degree: 75%
 
 ---
 
-# Legacy Adobe Experience Cloud-Debugger
+# Legacy-Debugger
 
 >[!IMPORTANT]
 >
->Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Chrome-Erweiterung [Adobe Experience Cloud-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de).
+>Dieses Debugging-Tool wird nicht mehr unterstützt. Adobe empfiehlt stattdessen die Verwendung der [Adobe CX Enterprise Debugger-Chrome-Erweiterung](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de).
 
-Der [!UICONTROL Legacy-Debugger] prüft Tags für die meisten Adobe Experience Cloud-Dienste. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
+Der [!UICONTROL Legacy-Debugger] überprüft Tags für die meisten Adobe CX Enterprise-Services. Mithilfe des Debuggers können Sie sehen, welche Daten auf einer bestimmten Seite Ihrer Site an Adobe gesendet werden. Anhand dieser Informationen können Sie die Implementierung Ihrer Organisation reparieren oder validieren.
 
 ## Installieren des Legacy-Debuggers
 
@@ -41,14 +53,14 @@ Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://experienceleague.adob
 
 1. Klicken Sie auf die drei Punkte oben rechts und gehen Sie dann zu „Lesezeichen“ > „Lesezeichen-Manager“. Sie können auch die Tastenkombination `Ctrl` + `Shift` + `O` (Windows) oder `Cmd` + `Shift` + `O` (Mac) drücken.
 2. Klicken Sie oben rechts im Lesezeichen-Manager auf die drei Punkte und dann auf „Neues Lesezeichen hinzufügen“.
-3. Geben Sie im Feld „Name“ die Bezeichnung „Adobe Experience Cloud-Debugger“ ein und fügen Sie den Codeausschnitt in das Feld „URL“ ein.
+3. Beschriften Sie ihn im Feld Name mit „Legacy Debugger“ und fügen Sie den Code-Ausschnitt in das URL-Feld ein.
 4. Verwenden Sie den Lesezeichen-Manager, um Ihr neues Lesezeichen an der gewünschten Stelle zu platzieren.
 
 #### Firefox
 
 1. Klicken Sie auf die drei Zeilen oben rechts und gehen Sie dann zu „Bibliothek“ > „Lesezeichen“ > „Alle Lesezeichen anzeigen“. Sie können auch die Tastenkombination `Ctrl` + `Shift` + `B` (Windows) oder `Cmd` + `Shift` + `B` (Mac) drücken.
 2. Klicken Sie auf „Organisieren“ > „Neues Lesezeichen“.
-3. Geben Sie im Feld „Name“ die Bezeichnung „Adobe Experience Cloud-Debugger“ ein und fügen Sie den Codeausschnitt in das Feld „Speicherort“ ein. Die Felder „Tags“ und „Keyword“ sind nicht erforderlich.
+3. Beschriften Sie ihn mit „Legacy-Debugger“ im Feld Name und fügen Sie den Code-Ausschnitt in das Feld Speicherort ein. Die Felder „Tags“ und „Keyword“ sind nicht erforderlich.
 4. Verwenden Sie das Bibliotheksfenster, um Ihr neues Lesezeichen an der gewünschten Stelle zu platzieren.
 
 #### Edge
@@ -56,7 +68,7 @@ Wenn Sie darauf bestehen, die [Chrome-Erweiterung](https://experienceleague.adob
 In Edge können Sie Lesezeichen nicht manuell erstellen, jedoch können Sie eine Lesezeichen-URL in ein Lesezeichen umwandeln.
 
 1. Klicken Sie auf das Sternsymbol rechts neben dem Feld „URL“, um die aktuelle Seite mit einem Lesezeichen zu versehen.
-2. Nennen Sie das Lesezeichen „Adobe Experience Cloud-Debugger“ und speichern Sie es am gewünschten Speicherort.
+2. Benennen Sie das Lesezeichen „Legacy Debugger“ und speichern Sie es am gewünschten Speicherort.
 3. Klicken Sie auf das Sternsymbol mit Linien, um die Favoritenleiste zu öffnen.
 4. Klicken Sie mit der rechten Maustaste auf das neu erstellte Lesezeichen und wählen Sie „URL bearbeiten“.
 5. Fügen Sie den Codeausschnitt in das Textfeld ein und drücken Sie die Eingabetaste.
@@ -66,7 +78,7 @@ In Edge können Sie Lesezeichen nicht manuell erstellen, jedoch können Sie eine
 In Safari können Sie Lesezeichen nicht manuell erstellen, jedoch können Sie eine Lesezeichen-URL in ein Lesezeichen umwandeln.
 
 1. Klicken Sie oben rechts auf das Symbol „Freigeben“, um ein modales Lesezeichen-Fenster zu öffnen.
-2. Nennen Sie das Lesezeichen „Adobe Experience Cloud-Debugger“ und speichern Sie es am gewünschten Speicherort.
+2. Benennen Sie das Lesezeichen „Legacy Debugger“ und speichern Sie es am gewünschten Speicherort.
 3. Klicken Sie auf „Lesezeichen“ > „Lesezeichen bearbeiten“ und suchen Sie das neu erstellte Lesezeichen.
 4. Klicken Sie mit der rechten Maustaste, wählen Sie „Adresse bearbeiten“ und fügen Sie dann den Codeausschnitt in das Textfeld ein.
 
@@ -80,9 +92,9 @@ Navigieren Sie zur gewünschten Seite auf Ihrer Website und klicken Sie dann auf
 
 Für den Debugger stehen verschiedene Optionen zur Verfügung, mit denen die Anzeige der Daten angepasst wird. Keine dieser Optionen wirkt sich auf die Datenerfassung aus.
 
-* **Angezeigte Experience Cloud-Produkte:** Blendet Bildanforderungen für die einzelnen Experience Cloud-Produkte ein oder aus.
-* **URL-Dekodierung:** Die URL dekodiert die Bildanforderung entsprechend der Anzeige im Reporting. Adobe empfiehlt, dieses Kontrollkästchen zu aktivieren.
-* **Automatisch aktualisieren:** Aktualisiert das Popup alle paar Sekunden automatisch, um nach weiteren Bildanforderungen auf der Seite zu suchen. Wenn Sie Inhalte im Debugger kopieren/einfügen müssen, deaktivieren Sie die automatische Aktualisierung, damit die Auswahl erhalten bleibt.
-* **Benutzerfreundliches Format:** Schaltet das Anzeigeformat zwischen hilfreichen Beschriftungen und Rohabfragezeichenfolgen in einer Bildanforderung um. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](query-parameters.md).
+* **[!UICONTROL Angezeigte Experience Cloud-Produkte]**: Blendet Bildanforderungen für die jeweiligen CX Enterprise-Produkte ein oder aus.
+* **[!UICONTROL URL-Decodierung]**: URL decodiert die Bildanforderung, sodass sie mit dem übereinstimmt, was im Bericht angezeigt wird. Adobe empfiehlt, dieses Kontrollkästchen zu aktivieren.
+* **[!UICONTROL Auto Refresh]**: aktualisiert das Popup-Fenster automatisch alle paar Sekunden, um auf weitere Bildanforderungen auf der Seite zu prüfen. Wenn Sie Inhalte im Debugger kopieren/einfügen müssen, deaktivieren Sie die automatische Aktualisierung, damit die Auswahl erhalten bleibt.
+* **[!UICONTROL Benutzerfreundliches Format]**: Schaltet das Anzeigeformat zwischen hilfreichen Beschriftungen und rohen Abfragezeichenfolgen in einer Bildanforderung um. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](query-parameters.md).
 
 Um standardmäßige Anzeigeoptionen für den Debugger zu speichern, klicken Sie mit der rechten Maustaste auf den Link „Adobe Debugger“ in der oberen rechten Ecke und kopieren Sie dann die Linkadresse. Bearbeiten Sie das aktuelle Debugger-Lesezeichen und fügen Sie den aktualisierten Codeausschnitt in das Feld „URL“ ein.

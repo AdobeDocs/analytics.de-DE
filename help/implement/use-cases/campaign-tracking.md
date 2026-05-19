@@ -4,10 +4,26 @@ description: Verwenden Sie Adobe Analytics, um Ihre Marketing-Maßnahmen nachzuv
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: 583
+ht-degree: 98%
 
 ---
 
@@ -53,7 +69,7 @@ Wenn Ihr Unternehmen `utm`-Abfragezeichenfolgen erfasst, können Sie zwischen fo
 
 Nachdem Sie Ihre Implementierung zur Erfassung von Trackingcode-Daten ordnungsgemäß eingerichtet haben, können Sie Berichte in Analysis Workspace anzeigen.
 
-1. Melden Sie sich bei [Adobe Experience Cloud](https://experience.adobe.com) an und wählen Sie [!UICONTROL Adobe Analytics] aus.
+1. Melden Sie sich bei [Adobe CX Enterprise](https://experience.adobe.com) an und wählen Sie [!UICONTROL Adobe Analytics] aus.
 1. Erstellen Sie ein [Workspace-Projekt](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. Ziehen Sie in der Liste der Komponenten auf der linken Seite die [Trackingcode](/help/components/dimensions/tracking-code.md)-Dimension in die Arbeitsfläche.
 1. Ziehen Sie die gewünschte Metrik, beispielsweise [Besuche](/help/components/metrics/visits.md) oder [Bestellungen](/help/components/metrics/orders.md), rechts neben die Arbeitsfläche.

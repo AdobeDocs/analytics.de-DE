@@ -1,9 +1,27 @@
 ---
 title: Besucheridentifizierung mit AppMeasurement
 description: Identifizieren Sie Besuchende bei der Implementierung von Adobe Analytics mithilfe von AppMeasurement korrekt.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: 38797ca5-dc53-431e-95df-3c9e68aead94
+TQID: https://experienceleague.adobe.com/vWLzF0HXreytCKr01H4-gKzNlO36ySHA2vbcHvT3cIw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -20,8 +38,8 @@ Stellen Sie sicher, dass Sie mit Folgendem vorbereitet sind:
 * Eine Entwicklungs[Report Suite-ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Die gewünschte Edge-Domain für [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Ihre IMS-Organisations-ID:
-   1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
-   1. Drücken Sie an einer beliebigen Stelle in der Experience Cloud-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
+   1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
+   1. Drücken Sie an einer beliebigen Stelle in der CX Enterprise-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
    1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
    1. Erweitern Sie die gewünschte IMS-Organisation.
    1. Suchen Sie das Feld **[!UICONTROL ID]**.

@@ -4,10 +4,17 @@ title: Anzeigen der Nutzung der Report Suite
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 93%
+source-wordcount: 436
+ht-degree: 49%
 
 ---
 
@@ -19,14 +26,14 @@ Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-N
 
 >[!IMPORTANT]
 >
->Falls eine Report Suite nicht mit einer Experience Cloud-Organisation verbunden ist, werden ihre Nutzungsdaten nicht im Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Experience Cloud-Organisationen verknüpft sein. Es besteht nicht immer eine 1::1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID.
+>Wenn eine Report Suite nicht mit einer CX Enterprise-Organisation verknüpft ist, werden ihre Nutzungsdaten nicht in diesem Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren CX Enterprise-Organisationen verknüpft sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID.
 
-Das Dashboard zur Nutzung der Report Suite
+Das Report Suite-Nutzungs-Dashboard
 
-* Zeigt die Nutzung der Server-Aufrufe für die aktuelle Nutzungsperiode (alle Aufrufe, primär, sekundär, primär mobil, sekundär mobil) für alle Report Suits innerhalb Ihrer Experience Cloud-Organisation an.
-* Zeigt den Anteil der Gesamtnutzung pro Server-Aufruf-Kategorie an.
+* Zeigt die Nutzung der Server-Aufrufe durch den aktuellen Nutzungszeitraum (alle Aufrufe, Primär, Sekundär, mobil, Primär, mobil Sekundär) für jede Report Suite in Ihrem CX Enterprise-Unternehmen.
+* Zeigt den Prozentsatz der Gesamtauslastung pro Server-Aufrufkategorie.
 * Wird täglich aktualisiert.
-* Kann heruntergeladen werden.
+* Ist herunterladbar.
 * Lässt Sie auf die Benutzeroberfläche **[!UICONTROL Warnhinweise verwalten]** zugreifen.
 
 ![](/help/admin/tools/server-call-usage/assets/report-suite-usage.png)
@@ -35,20 +42,20 @@ Das Dashboard zur Nutzung der Report Suite
 
 | Spalte | Definition |
 |--- |--- |
-| Name der Report Suite | Anzeigename der Report Suite |
-| Alle Aufrufe (% der Gesamtzahl) | Alle Server-Aufrufe, die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
-| Primäre Aufrufe (%) | Alle primären Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
-| Sekundäre Aufrufe (%) | Alle sekundären Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
-| Primäre mobile Aufrufe (%) | Alle primären mobilen Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
-| Sekundäre mobile Aufrufe (%) | Alle sekundären mobilen Server-Aufrufe (und ihr Anteil an der Gesamtzahl), die innerhalb der aktuellen Nutzungsperiode erfolgt sind. |
+| Report Suite-Name | Anzeigename der Report Suite |
+| Alle Aufrufe (% der Gesamtheit) | Alle Server-Aufrufe, die im aktuellen Nutzungszeitraum anfallen. |
+| Primäre Aufrufe (%) | Alle primären Server-Aufrufe (und ihr Prozentsatz der Gesamtheit), die im aktuellen Nutzungszeitraum getätigt wurden. |
+| Sekundäre Aufrufe (%) | Alle sekundären Server-Aufrufe (und ihr Prozentsatz der Gesamtheit), die im aktuellen Nutzungszeitraum getätigt wurden. |
+| Primär für Mobilgeräte (%) | Alle im aktuellen Nutzungszeitraum angefallenen mobilen primären Server-Aufrufe (und deren Prozentsatz an der Gesamtsumme). |
+| Sekundär für Mobilgeräte (%) | Alle im aktuellen Nutzungszeitraum angefallenen sekundären Server-Aufrufe für Mobilgeräte (und ihr Prozentsatz an der Gesamtsumme). |
 
 {style="table-layout:auto"}
 
 ## Nutzungsbericht herunterladen {#download}
 
-Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der aktuellen Nutzungsperiode herunterladen (bis Januar 2015). Der Bericht wird als .csv-Datei heruntergeladen.
+Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der aktuellen Nutzungsperiode herunterladen (bis Januar 2015). Der Bericht wird als CSV-Datei heruntergeladen.
 
-1. Wählen Sie mindestens eine Report Suite aus.
+1. Wählen Sie mindestens eine Report Suite.
 1. Klicken Sie auf **[!UICONTROL Bericht herunterladen]**.
 
    ![](/help/admin/tools/server-call-usage/assets/download_report.png)
@@ -56,8 +63,8 @@ Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der ak
 | Berichtselement | Beschreibung |
 |--- |--- |
 | Dateiname | Hartkodierter Name: Gebrauchsbericht `day and time of report creation.csv` |
-| Enthaltene Report Suites | Diese Liste enthält jegliche Report Suites, die Sie auf der „Nutzung der Report Suite“-Seite ausgewählt haben. |
-| Enthaltene Aufrufarten | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Primär mobil, Sekundär mobil. |
+| Enthaltene Report Suites | Alle Report Suites, die Sie auf der Seite Nutzung des Berichtsservers ausgewählt haben, sind in dieser Liste enthalten. |
+| Enthaltene Aufruftypen | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Primär mobil, Sekundär mobil. |
 | Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder selbst einen Zeitraum definieren.  Wenn Sie selbst einen Zeitraum definieren möchten, dann geben Sie bitte einen Beginn des Zeitraums und ein Ende des Zeitraums ein. <br>**Hinweis:** Sie können keine Nutzungsdaten herunterladen, die vor Januar 2015 aufgezeichnet wurden</br>. |
 
 {style="table-layout:auto"}

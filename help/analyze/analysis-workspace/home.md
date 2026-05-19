@@ -4,10 +4,29 @@ description: Erfahren Sie mehr über Analysis Workspace, das führende Analyse-T
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 99%
+source-wordcount: 1422
+ht-degree: 96%
 
 ---
 
@@ -29,7 +48,7 @@ Das folgende Bild und die zugehörige Tabelle erläutern die Hauptelemente der B
 
 | Standort | Name und Funktion |
 |:---------:|----------|
-| A  | Enthält den Projektnamen, eine Menüstruktur für den Zugriff auf die Funktionen, eine Schaltfläche ![Zurück-Schaltfläche](/help/assets/icons/ChevronLeft.svg) zum Zurückkehren zur Projektliste und eine Schaltfläche **[!UICONTROL Freigabe]** zum [Freigeben Ihres Workspace-Projekts](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/>Sie können jederzeit den Namen Ihres Projekts (z. B. „Neues Projekt“) auswählen, um den Namen zu ändern. <br/>Wählen Sie ![Favorisierung aufheben](/help/assets/icons/StarOutline.svg) aus, um Ihr Projekt als bevorzugtes Projekt ![Favorisieren](/help/assets/icons/Star.svg) zu markieren. |
+| A | Enthält den Projektnamen, eine Menüstruktur für den Zugriff auf die Funktionen, eine Schaltfläche ![Zurück-Schaltfläche](/help/assets/icons/ChevronLeft.svg) zum Zurückkehren zur Projektliste und eine Schaltfläche **[!UICONTROL Freigabe]** zum [Freigeben Ihres Workspace-Projekts](/help/analyze/analysis-workspace/curate-share/share-projects.md). <br/>Sie können jederzeit den Namen Ihres Projekts (z. B. „Neues Projekt“) auswählen, um den Namen zu ändern. <br/>Wählen Sie ![Favorisierung aufheben](/help/assets/icons/StarOutline.svg) aus, um Ihr Projekt als bevorzugtes Projekt ![Favorisieren](/help/assets/icons/Star.svg) zu markieren. |
 | B | **Schaltflächen-Panel**: Enthält Schaltflächen für den Zugriff auf die wichtigsten [Funktionen](#features) von Analysis Workspace:<ul><li>![Web-Seite](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analyze/analysis-workspace/c-panels/panels.md)</li><li>![VertikaleGrafikbalken](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualisierungen]](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![Kuratieren](/help/assets/icons/Curate.svg) [[!UICONTROL Komponenten]](/help/components/home.md)</li><li>![Ansichtsliste](/help/assets/icons/ViewList.svg) [[!UICONTROL Inhaltsverzeichnis]](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![Lesezeichen](/help/assets/icons/Bookmark.svg) [[!UICONTROL Datenwörterbuch]](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **Linkes Bedienfeld:** Dieser Bereich enthält einzelne Bedienfelder, Visualisierungen, Komponenten oder Listen. Der Inhalt hängt von der im Schaltflächenbedienfeld ausgewählten Schaltfläche ab. |
 | D | **Arbeitsfläche:** Der Hauptbereich, in den Sie Inhalte aus dem linken Bedienfeld ziehen, um Ihr Projekt zu erstellen. Das Projekt wird dynamisch aktualisiert, wenn Sie Bedienfelder hinzufügen, Visualisierungen zu Bedienfeldern hinzufügen und Komponenten zu Visualisierungen hinzufügen. Sie können mehrere Bedienfelder erstellen und in jedem Bedienfeld können Sie mehrere Visualisierungen erstellen.<br/>Jedes Panel basiert auf einer ausgewählten Report Suite. Die ausgewählte Report Suite bestimmt verfügbare Komponenten wie Metriken und Dimensionen. Weitere Informationen finden Sie unter [Panels – Report Suite](/help/analyze/analysis-workspace/c-panels/panels.md#report-suite). |
@@ -119,7 +138,7 @@ Eine Übersicht über die verfügbaren Menüs finden Sie in den nachfolgenden Ta
 | Hilfe | Beschreibung |
 |---|---|
 | **[!UICONTROL Videos]** | Öffnen Sie den YouTube-Kanal von Customer Journey Analytics in einer neuen Browser-Registerkarte. |
-| **[!UICONTROL Hilfedokumentation]** | Öffnen Sie die Dokumentation (die Sie gerade lesen …) in einer neuen Browser-Registerkarte. |
+| **[!UICONTROL Hilfedokumentation]** | Öffnen Sie die -Dokumentation (Sie lesen tatsächlich gerade…) in einer neuen Browser-Registerkarte. |
 | **[!UICONTROL Hilfeforum]** | Öffnen Sie das Communitys-Forum von Adobe Analytics Experience League in einer neuen Browser-Registerkarte. |
 | **[!UICONTROL Tastaturbefehle]** | Anzeigen einer Übersicht der Hotkeys (Tastaturbefehle), die Sie in Workspace verwenden können. |
 | **[!UICONTROL Debugger aktivieren]** | Aktivieren des Debuggers. Ihr Projekt wird neu geladen. |
@@ -136,7 +155,7 @@ Durch Synchronisieren von Visualisierungen können Sie kontrollieren, welche Dat
 
 So verwenden Sie Analysis Workspace:
 
-1. Melden Sie sich bei [Adobe Experience Cloud](https://experience.adobe.com) an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
 1. Wählen Sie **[!UICONTROL Customer Journey Analytics]** im App-Umschalter ![App](/help/assets/icons/Apps.svg) oben rechts in der Benutzeroberfläche aus.
 1. Standardmäßig wird die Seite **[!UICONTROL Projekte]** von Analysis Workspace angezeigt. Wenn ein bestimmtes Projekt für Sie ausgewählt wurde oder Sie kürzlich daran gearbeitet haben, wird dieses Projekt standardmäßig angezeigt.
 
@@ -157,4 +176,4 @@ Wenn Sie das Projekt fertiggestellt haben und es konkrete Erkenntnisse liefert, 
 ## Zusätzliche Ressourcen {#resources}
 
 - Adobe bietet Hunderte von [Analytics-Video-Tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview).
-- Für neue Funktionen siehe [Versionshinweise zu Adobe Experience Cloud](https://experienceleague.adobe.com/de/docs/release-notes/experience-cloud/current).
+- Siehe [Versionshinweise zu Adobe CX Enterprise](https://experienceleague.adobe.com/de/docs/release-notes/experience-cloud/current) für Aktualisierungen zu neuen Funktionen.

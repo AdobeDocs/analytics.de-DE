@@ -4,10 +4,20 @@ title: Datenanforderung erstellen
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/w-oiIfs1qFMoQbaN8YrNIn1TRNHeN97lQOlkLeXdLb0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 97%
+source-wordcount: 284
+ht-degree: 50%
 
 ---
 
@@ -29,12 +39,12 @@ Schritte zum Erstellen einer grundlegenden Datenanforderung.
 
    | Element | Beschreibung |
    |---|---|
-   | Pivot-Layout | Stellt ein Zeilen-, Spalten- und Metrik-Raster für das Layout zur Verfügung, das Excel-Standardtabellen ähnelt. Mithilfe dieses Layouts können Sie Aufschlüsselungsanforderungen innerhalb der ursprünglichen Anforderung hinzufügen. |
-   | Benutzerdefiniertes Layout | Gleicht im Wesentlichen dem [!UICONTROL Pivot-Layout], Sie können jedoch festlegen, an welcher Position des Arbeitsblatts sich die einzelnen Elemente des Rasters befinden sollen. Dieses Layout bietet die Flexibilität, die von früheren Versionen bekannt ist. |
+   | Pivot-Layout | Stellt ein Zeilen-, Spalten- und Metrikraster für das Layout bereit, das den standardmäßigen Excel-Tabellen ähnelt. Mit diesem Layout können Sie Aufschlüsselungsanfragen innerhalb einer ursprünglichen Anfrage hinzufügen. |
+   | Benutzerdefiniertes Layout | Bietet den Großteil der Funktionalität des [!UICONTROL Pivot-Layouts] ermöglicht jedoch die Auswahl, wo jedes Element im Raster in der Tabelle platziert werden soll. Dieses Layout bietet die Flexibilität, die in früheren Versionen verfügbar war. |
 
 1. Doppelklicken Sie auf der Registerkarte [!UICONTROL Metriken] auf Metriken, um sie dem Raster [!UICONTROL Metriken] hinzuzufügen (wahlweise können Sie die Metriken auch in das Raster ziehen).
 1. Doppelklicken Sie auf der Registerkarte [!UICONTROL Dimensionen] auf Dimensionen, um sie dem Raster [!UICONTROL Zeilenbezeichnungen] hinzuzufügen.
 
-   Die in Schritt 2 verfügbaren [Dimensionen](/help/analyze/report-builder/filter-dimensions.md) hängen davon ab, welchen Basisbericht Sie in Schritt 1 gewählt haben und wie Ihre Report Suite konfiguriert ist. Die Dimensionen sind Elemente, die korrelieren, Unterbeziehungen herstellen oder eine Classification der im Dialogfeld [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählten Berichtstypmetrik darstellen. Wenn Sie in Schritt 2 mehr als eine Dimension hinzufügen, wird dadurch eine Aufschlüsselung der Datenanforderung erreicht.
+   Die [Dimensionen](/help/analyze/report-builder/filter-dimensions.md) die in Schritt 2 verfügbar sind, hängen vom in Schritt 1 ausgewählten Basisbericht und von der Konfiguration Ihrer Report Suite ab. Die Dimensionen sind Elemente, die korrelieren, untergeordnete Beziehungen herstellen oder eine Klassifizierung der ursprünglichen Berichtsmetrik darstellen, die Sie im Fenster [!UICONTROL Anforderungs-Assistent: Schritt 1] ausgewählt haben. Durch Hinzufügen mehrerer Dimensionen in Schritt 2 wird eine Aufschlüsselung in Ihrer Datenanfrage erstellt.
 
    Weitere [&#x200B; finden Sie unter &#x200B;](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) und Dimensionen hinzufügen .

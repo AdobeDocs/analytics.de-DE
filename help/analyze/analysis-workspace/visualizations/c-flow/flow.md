@@ -5,10 +5,21 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/G-DKqcAi8FY0wuIw67vThLnZ0iHUr4Do8YHPI67CFaM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 58%
+source-wordcount: 334
+ht-degree: 75%
 
 ---
 
@@ -24,7 +35,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Fluss"
->abstract="Analysieren Sie den Fluss der Besuche oder Besucher von einem Touchpoint zum nächsten.<br/><br/>**Parameter &#x200B;**<br/>**Beginnt mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die Kontaktpunkte anzuzeigen, die nach dem Auftreten der ausgewählten Komponente am häufigsten vorkommen.<br/>**Enthält**: Fügen Sie eine Dimension oder ein Dimensionselement hinzu, um die Kontaktpunkte anzuzeigen, die vor und nach dem Auftreten der ausgewählten Komponente am häufigsten vorkommen.<br/>**Endet mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten auftretenden Touchpoints vor dem Auftreten der ausgewählten Komponente anzuzeigen.<br/>**Pfaddimension**: Fügen Sie eine Dimension hinzu, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von dieser weg führt."
+>abstract="Analysieren Sie den Besuchs- oder Besucherfluss von einem Touchpoint zum nächsten.<br/><br/>**Parameter &#x200B;**<br/>**Beginnt mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten vorkommenden Touchpoints nach dem Vorkommen der ausgewählten Komponente anzuzeigen.<br/>**Enthält**: Fügen Sie eine Dimension oder ein Dimensionselement hinzu, um die am häufigsten vorkommenden Touchpoints vor und nach dem Vorkommen der ausgewählten Komponente anzuzeigen.<br/>**Endet mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten auftretenden Touchpoints vor dem Auftreten der ausgewählten Komponente anzuzeigen.<br/>**Pfaddimension**: Fügen Sie eine Dimension hinzu, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von dieser weg führt."
 
 <!-- markdownlint-enable MD034 -->
 

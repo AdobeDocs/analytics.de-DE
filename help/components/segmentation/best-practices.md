@@ -3,9 +3,20 @@ title: Best Practices
 description: Lernen Sie einige Best Practices für die Segmentierung kennen.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 304
 ht-degree: 60%
 
 ---
@@ -22,7 +33,7 @@ Wenn ein **[!UICONTROL Enthält]**-Operator in einem Segment eine große Anzahl 
 
 ## Verwenden Sie Klassifizierungen zum Gruppieren von Dimensionselementen.
 
-Wenn Sie viele Segmentbedingungen haben, können diese die Segmentleistung schnell beeinträchtigen. Beispiel: **[!UICONTROL Seite]** **[!UICONTROL gleich]** `X` **[!UICONTROL ODER]** Seite **&#x200B;**&#x200B;gleich **&#x200B;**`Y` ODER **&#x200B;**&#x200B;**[!UICONTROL Seite]**&#x200B;**&#x200B;** gleich`Z` mit Hunderten von verschiedenen Werten wiederholt. Anstatt diese Hunderte von Bedingungen aufzuschreiben, klassifizieren Sie alle gewünschten Werte in ein Segment und verwenden Sie dann den klassifizierten Wert in einem Segment.
+Wenn Sie viele Segmentbedingungen haben, können diese die Segmentleistung schnell beeinträchtigen. Beispiel: **[!UICONTROL Seite]** **[!UICONTROL gleich]** `X` **[!UICONTROL ODER**&#x200B;[!UICONTROL &#x200B; Seite **&#x200B;**&#x200B;gleich &#x200B;]&#x200B;**&#x200B;**&#x200B;**ODER**&#x200B;**]** Seite **&#x200B;**&#x200B;`Y`gleich`Z` mit Hunderten von verschiedenen Werten wiederholt. Anstatt diese Hunderte von Bedingungen aufzuschreiben, klassifizieren Sie alle gewünschten Werte in ein Segment und verwenden Sie dann den klassifizierten Wert in einem Segment.
 
 1. Erstellen Sie eine Classification für die Variable, mit der Sie arbeiten.
 2. Laden Sie die Classification-Vorlage herunter und öffnen Sie sie in der gewünschten Tabelle oder im Texteditor.

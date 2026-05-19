@@ -4,10 +4,21 @@ description: Erfahren Sie, wie Sie Adobe Analytics mithilfe von Tags und der Ana
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 79%
+source-wordcount: 396
+ht-degree: 69%
 
 ---
 
@@ -17,7 +28,7 @@ Seit dem Bestehen von Adobe Analytics hat Adobe verschiedene Methoden zur Implem
 
 Tags in Adobe Experience Platform ist eine Tag-Management-Lösung, mit der Sie Analytics-Code bereitstellen und weitere Tagging-Vorgaben erfüllen können. Adobe bietet Integrationen mit anderen Lösungen und Produkten und ermöglicht die Bereitstellung von benutzerdefiniertem Code. Alle diese Aufgaben können ausgeführt werden, ohne dass Entwicklungsteams in Ihrer Organisation Code auf Ihrer Website aktualisieren müssen.
 
-Alle Kunden mit einem aktiven Adobe Experience Cloud-Vertrag können Tags verwenden. Wenn Sie sich wissen, ob Sie Zugriff haben, wenden Sie sich an einen Systemadministrator bzw. eine Systemadministratorin für Experience Cloud in Ihrem Unternehmen.
+Alle Kunden mit einem aktiven Adobe CX Enterprise-Vertrag können Tags verwenden. Wenn Sie sich nicht sicher sind, ob Sie Zugriff haben, wenden Sie sich an einen Systemadministrator bzw. eine Systemadministratorin für CX Enterprise.
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
@@ -58,7 +69,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <tr>
 <td>5</td>
-<td><b>Bereitstellung in einer Entwicklungsumgebung</b>. Verwenden Sie eine Umgebung, in der Sie die Entwicklung von Tags iterieren können.</td>
+<td><b>Bereitstellung in einer Entwicklungsumgebung</b>. Nutzen Sie eine Umgebung, in der Sie die Entwicklung von Tags iterieren können.</td>
 <td><a href="./deploy-dev.md">Analytics-Implementierung in einer Entwicklungsumgebung bereitstellen</td>
 </tr>
 

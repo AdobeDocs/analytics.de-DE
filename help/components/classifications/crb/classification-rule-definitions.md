@@ -3,10 +3,21 @@ description: Definitionen der Elemente auf den Seiten im Classification Rule Bui
 title: Klassifizierungsregeln – Definitionen
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: 861
+ht-degree: 56%
 
 ---
 
@@ -16,7 +27,7 @@ ht-degree: 94%
 
 Definitionen der Elemente auf den Seiten im Classification Rule Builder.
 
-## Seite „Regeln“ 
+## Seite „Regeln“
 
 Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
 
@@ -34,27 +45,27 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Report Suites und Variablen auswählen </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, auf die der Regelsatz angewendet wird. </p> <p><b>Variable</b> </p> <p>Beim Erstellen eines Classification-Regelsatzes können Sie nur eine einzelne Variable anwenden. Sollen mehrere Regelsätze für eine einzelne Variable erstellt werden, so müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Traffic-Classifications</a> und <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Konversion-Classifications</a>. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Die Report Suites, für die der Regelsatz gilt. </p> <p><b>Variable</b> </p> <p>Sie können beim Erstellen eines Klassifizierungsregelsatzes nur eine Variable anwenden. Wenn Sie mehrere Regelsätze für eine Variable erstellen möchten, müssen Sie jeden Regelsatz auf mehrere Report Suites anwenden. </p> <p>Hinweis: Sie können nur die Variablen verwenden, auf die Sie in Ihren Report Suites Zugriff haben. Variablen werden erst im Bereich <span class="wintitle">Neuer Regelsatz</span> angezeigt, nachdem mindestens eine Classification für diese Variable definiert wurde. </p> <p> Sie können Classifications für eine Variable unter <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Traffic</span> &gt; <span class="uicontrol">Traffic-Classifications</span> (oder <span class="uicontrol">Konversion</span> &gt; <span class="uicontrol">Konversion-Classifications</span>) erstellen. Wählen Sie dann die Variable aus und klicken Sie auf <span class="uicontrol">Classification hinzufügen</span>. </p> <p>Weitere Informationen finden Sie in der Admin-Hilfe unter <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Traffic-Classifications</a> und <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Konversion-Classifications</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aktivieren</span> </p> </td> 
-   <td colname="col2"> <p>Validiert und aktiviert eine Regel. Aktive Regeln werden täglich verarbeitet, wobei die zu untersuchenden Classification-Daten in der Regel einen Monat zurückgehen. Die Regeln suchen automatisch nach neuen Werten und laden die Classifications hoch. </p> </td> 
+   <td colname="col2"> <p>Validiert und aktiviert eine Regel. Aktive Regeln werden täglich verarbeitet und untersuchen Klassifizierungsdaten, die in der Regel einen Monat zurückgehen. Die Regeln überprüfen automatisch auf neue Werte und laden die Klassifizierungen hoch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Deaktivieren</span> </p> </td> 
    <td colname="col2"> <p>Deaktiviert die Regeln, so dass Sie sie bearbeiten und testen können. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Report Suites und Variablen konfigurieren </p> </td> 
+   <td colname="col1"> <p>Konfigurieren von Report Suites und Variablen </p> </td> 
    <td colname="col2"> <p>Zeigt die Seite <span class="wintitle">Verfügbare Report Suites</span> an, auf der Sie verfügbare Report Suites auswählen können, die für alle Regelsätze verwendet werden sollen. (Diese Seite wird auch angezeigt, wenn Sie den <span class="wintitle">Classification Rule Builder</span> zum ersten Mal ausführen.) </p> <p>Mit dieser Funktion soll die Ladezeit für Report Suites reduziert werden, falls Hunderte Report Suites verfügbar sind. </p> <p>Die hier gewählten Report Suites werden auf Regelebene verfügbar gemacht, wenn Sie auf <span class="uicontrol">Suites hinzufügen</span> klicken, während Sie eine Regel erstellen. </p> <p>Hinweis: Eine Report Suite steht <span class="term"> nur</span> zur Verfügung, wenn in den Report Suites mindestens eine Classification für die Variable in den <span class="wintitle"> Admin Tools</span> definiert ist. <p>(Eine Erläuterung zu dieser Voraussetzung finden Sie unter <span class="term">Variable</span> unter <a href="/help/components/classifications/crb/classification-rule-set.md"  >Klassifizierungsregelsätze</a>.) </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Regeln überschreiben alle vorhandenen Werte </p> </td> 
-   <td colname="col2"> <p> (Standardeinstellung) Vorhandene Classification-Schlüssel werden immer überschrieben, einschließlich Classifications, die über das Importtool (SAINT) hochgeladen wurden. </p> </td> 
+   <td colname="col1"> <p>Regeln überschreiben alle vorhandenen Werte. </p> </td> 
+   <td colname="col2"> <p> (Standardeinstellung) Überschreiben Sie immer vorhandene Klassifizierungsschlüssel, einschließlich der über das Importtool (SAINT) hochgeladenen Klassifizierungen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Regeln überschreiben nur nicht festgelegte Werte. </p> </td> 
-   <td colname="col2"> <p>Es werden nur leere (nicht festgelegte) Zellen ausgefüllt. Vorhandene Classifications werden nicht geändert. </p> </td> 
+   <td colname="col2"> <p>Nur leere (nicht aktivierte) Zellen ausfüllen. Bestehende Klassifizierungen werden nicht geändert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lookback-Fenster </p> </td> 
@@ -66,7 +77,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Entwurf</span> </td> 
-   <td colname="col2"> Hier legen Sie eine Regel fest, die sich im Entwurfsmodus befindet. Im Entwurfsmodus können Sie eine Regel vor dem Ausführen testen. </td> 
+   <td colname="col2"> Hier können Sie angeben, dass sich eine Regel im Entwurfsmodus befindet. Mit dem Entwurfsstatus können Sie die Regel testen, bevor Sie sie ausführen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Duplizieren</span> </td> 
@@ -82,7 +93,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Classification-Aktion</span> </td> 
-   <td colname="col2"> <p>Bestimmt die Aktion, die ausgeführt werden soll, wenn die übereinstimmende Bedingung eintritt. </p> <p>Wenn Sie beispielsweise $2 für den Kampagnennamen festlegen, wird entsprechend die zweite Position in einem Trackingcode als Kampagnenname verwendet. </p> </td> 
+   <td colname="col2"> <p>Gibt die Aktion an, die bei Auftreten der Übereinstimmungsbedingung ausgeführt werden soll. </p> <p>Sie legen beispielsweise einen Kampagnennamen auf $2 fest, wodurch Position 2 in einem Trackingcode als Kampagnenname identifiziert wird. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
@@ -90,7 +101,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Regeltyp auswählen</span> </td> 
-   <td colname="col2"> <p>Jeder Regelsatz gilt für eine bestimmte Variable. Folgende Auswahlen sind gültig: </p> 
+   <td colname="col2"> <p>Jeder Regelsatz gilt für eine bestimmte Variable. Gültige Auswahlen sind: </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Beginnt mit </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Endet mit </li> 
@@ -100,7 +111,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Übereinstimmungskriterien eingeben</span> </td> 
-   <td colname="col2"> Das Textmuster, nach dem in einem Schlüssel gesucht werden soll. Diese Kriterien können beispielsweise aus Begriffen, Zeichen oder regulären Ausdrücken bestehen. </td> 
+   <td colname="col2"> Das gesuchte Textmuster in einer Taste. Bei diesen Kriterien kann es sich um Suchbegriffe, Zeichen oder reguläre Ausdrücke handeln. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Classification auswählen</span> </td> 
@@ -108,18 +119,18 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Hierzu</span> </td> 
-   <td colname="col2"> Der Wert, der für die ausgewählte Classification-Spalte festgelegt werden soll, wenn die Übereinstimmungskriterien erfüllt sind. </td> 
+   <td colname="col2"> Der Wert, den Sie für die ausgewählte Classification-Spalte angeben möchten, wenn die Übereinstimmungskriterien erfüllt sind. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Filter </td> 
-   <td colname="col2"> Hier können Sie nach Regeln suchen. </td> 
+   <td colname="col2"> Ermöglicht die Suche nach Regeln. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Seite Regulärer Ausdruck {#section_C932A5469E774841B2229965A154163C}
 
-Auf der Seite [!UICONTROL Regulärer Ausdruck] können Sie reguläre Ausdrücke bearbeiten.
+Sie können reguläre Ausdrücke auf der Seite &quot;[!UICONTROL &quot; &#x200B;].
 
 ![](assets/regex_tracking_code.png)
 
@@ -127,19 +138,19 @@ Auf der Seite [!UICONTROL Regulärer Ausdruck] können Sie reguläre Ausdrücke 
 
 | Element | Beschreibung |
 |---|---|
-| Beispielschlüssel | Die zu verwendende Testzeichenfolge. So können Sie beispielsweise eine Classification anhand bestimmter Zeichen in einem Trackingcode erstellen. Sie können bestimmte Zeichen, Wörter oder Zeichenmuster abgleichen. |
-| Übereinstimmungsgruppen | Zeigt, wie der reguläre Ausdruck den Zeichen der Kampagnen-ID entspricht, so dass Sie eine Position in der Kampagnen-ID klassifizieren können. |
-| Übereinstimmungsergebnis | Zeigt die Teile einer Zeichenfolge an, die mit dem regulären Ausdruck übereinstimmt. |
+| Beispielschlüssel | Die zu verwendende Testzeichenfolge. Sie können beispielsweise eine Classification aus bestimmten Zeichen in einem Trackingcode erstellen. Sie können bestimmte Zeichen, Wörter oder Zeichenmuster zuordnen. |
+| Übereinstimmungsgruppen | Zeigt, wie der reguläre Ausdruck den Kampagnen-ID-Zeichen entspricht, damit Sie eine Position in der Kampagnen-ID klassifizieren können. |
+| Übereinstimmungsergebnis | Zeigt die Teile einer Zeichenfolge an, die dem regulären Ausdruck erfolgreich entsprechen. |
 
 Siehe [Reguläre Ausdrücke in Klassifizierungsregeln](/help/components/classifications/crb/classification-quickstart-rules.md).
 
-## Seite „Tests“  {#section_EC926F97901C4E65901413F9683AA70A}
+## Seite „Tests“ {#section_EC926F97901C4E65901413F9683AA70A}
 
-Auf dieser Seite können Sie die Regeln in einem Regelsatz testen.
+Auf dieser Seite können Sie Regeln in einem Satz testen.
 
 **Definitionen**
 
 | Element | Beschreibung |
 |---|---|
-| Test ausführen | Beim Testen des Regelsatzes verwenden Sie Schlüssel aus dem Bericht, und es wird ermittelt, wie sich der Regelsatz auf diese Schlüssel auswirkt. |
-| Filter | Filtert die Werte im Bereich [!UICONTROL Ergebnisse]. |
+| Test ausführen | Verwenden Sie beim Testen des Regelsatzes die Schlüssel des Berichts, um zu sehen, wie sich der Regelsatz auf sie auswirkt. |
+| Filter | Filtert die Werte im Bedienfeld [!UICONTROL Ergebnisse]. |

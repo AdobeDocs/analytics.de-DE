@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: '7326'
 ht-degree: 95%
 
 ---
@@ -321,7 +321,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | &#x200B;28. April 2020 | Eine Dokumentation zur Metrik für [Content-Geschwindigkeit](/help/components/metrics/content-velocity.md) wurde hinzugefügt. |
 | &#x200B;16. April 2020 | Dokumentation zum automatischen Erstellen von [!UICONTROL Freiformtabellen] in einem leeren Projekt. Zuvor war es nicht möglich, Komponenten direkt in ein leeres Projekt oder ein leeres Bedienfeld zu ziehen. Zuerst musste eine Freiform-Tabelle hinzugefügt werden. Jetzt können Sie Komponenten direkt in einem leeren Projekt oder Bedienfeld ablegen. Eine Freiformtabelle wird automatisch im empfohlenen Format erstellt. Darüber hinaus wurde die Handhabung von gemischten Komponententypen (z. B. Dimensionen und Metriken) verbessert, wenn sie zusammen in einer leeren [!UICONTROL Freiformtabelle] abgelegt werden. |
 | **März 2020** |  |
-| 12. März 2020 | Es wurden Aktualisierungen zum [Veröffentlichen von Segmenten in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) hinzugefügt. |
+| 12. März 2020 | Es wurden Aktualisierungen zu [Segmente in CX Enterprise veröffentlichen](/help/components/segmentation/segmentation-workflow/seg-publish.md) hinzugefügt. |
 | 12. März 2020 | Aktualisierungen der CDA-Stitching-Latenz. |
 | 12. März 2020 | Unterstützung mehrerer Report Suites in Arbeitsbereich. Sie können jetzt Daten aus mehreren Report Suites in ein gemeinsames Projekt bringen und sie nebeneinander darstellen. [Weitere Informationen ...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 12. März 2020 | Vorlage für Training-Tutorials in Arbeitsbereich. Diese neue Standardvorlage führt Sie durch die gängige Terminologie und die Schritte zum Aufbau Ihrer ersten Analyse in Arbeitsbereich. Sie ist als Standardvorlage unter „Neues Projekt“ enthalten und ersetzt das Beispielprojekt, das bislang neuen Anwendern angeboten wurde, die keine anderen Projekte in ihrer Liste haben. [Weitere Informationen ...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

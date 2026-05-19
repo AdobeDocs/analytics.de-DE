@@ -3,9 +3,17 @@ description: Erfahren Sie, wie Sie mit dem Segment-Manager Segmente verwalten k�
 title: Segmente verwalten
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: 567
 ht-degree: 16%
 
 ---
@@ -13,7 +21,7 @@ ht-degree: 16%
 # Verwalten von Segmenten
 
 
-Sie können [Freigeben](t-seg-share.md), [Segment](t-seg-filter.md), [Tag](seg-tag.md), [Genehmigen](seg-approve.md), umbenennen [Kopieren](seg-copy.md), Segmente löschen, exportieren und Segmente über eine zentrale [Segment](t-seg-favorite.md)Verwaltungsoberfläche als [!UICONTROL Favorit] markieren. So verwalten Sie Segmente:
+Sie können [Freigeben](t-seg-share.md), [Segment](t-seg-filter.md), [Tag](seg-tag.md), [Genehmigen](seg-approve.md), umbenennen [Kopieren](seg-copy.md), Segmente löschen, exportieren und Segmente über eine zentrale [!UICONTROL Segment]Verwaltungsoberfläche als [Favorit](t-seg-favorite.md) markieren. So verwalten Sie Segmente:
 
 * Wählen Sie **[!UICONTROL Hauptbenutzeroberfläche]** Komponenten“ aus und klicken Sie auf **[!UICONTROL Segmente]**.
 
@@ -41,7 +49,7 @@ In der ➊ „Segmentliste“ werden alle Segmente angezeigt, deren Inhaber Sie 
 | **[!UICONTROL Inhabende]** | Der Inhaber des Segments. Als Benutzer sehen Sie nur die Segmente, deren Inhaber Sie sind, oder die Anmerkungen, die für Sie freigegeben wurden. |
 | **[!UICONTROL Tags]** | Die Tags für dieses Segment. |
 | **[!UICONTROL Freigegeben für]** | Wie viele Einzelpersonen oder Gruppen Sie das Segment freigegeben haben. Wählen Sie diese Option aus, um das Dialogfeld **[!UICONTROL Komponente freigeben]** zu öffnen. Weitere Informationen finden [&#x200B; unter &#x200B;](t-seg-share.md) von Segmenten . |
-| **[!UICONTROL Veröffentlicht]** | Ob das [Segment veröffentlicht](seg-publish.md) in Experience Cloud veröffentlicht wird. |
+| **[!UICONTROL Veröffentlicht]** | Ob das [Segment veröffentlicht](seg-publish.md) in CX Enterprise veröffentlicht wird. |
 | **[!UICONTROL Änderungsdatum]** | Datum und Uhrzeit der letzten Änderung des Segments. |
 
 Verwenden Sie ![Spalteneinstellung](/help/assets/icons/ColumnSetting.svg), um die anzuzeigenden Spalten anzugeben.
@@ -68,7 +76,7 @@ Die Filterleiste zeigt ➌ die aktiven Segmente an, die vom Filterbedienfeld auf
 
 ### Panel „Filter“
 
-Sie können die Liste der Segmente mithilfe der ![&#x200B; des &#x200B;](/help/assets/icons/Filter.svg)Filtern **&#x200B;**&#x200B;Filtern➍ filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
+Sie können die Liste der Segmente mithilfe der ➍ des ![Filtern](/help/assets/icons/Filter.svg) **[!UICONTROL Filtern]** filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
 Weitere [&#x200B; finden Sie unter &#x200B;](t-seg-filter.md) der Segmentliste .
 

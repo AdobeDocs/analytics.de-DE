@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Handbuch zur Analytics-Integration
 breadcrumb-title: Integrationsleitfaden
-user-guide-description: Konfigurieren Sie Integrationen mit anderen Adobe Experience Cloud-Lösungen wie Audience Manager und Advertising.
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+user-guide-description: Konfigurieren Sie Integrationen mit anderen Adobe CX Enterprise-Lösungen wie Audience Manager und Advertising.
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 88%
+source-wordcount: '186'
+ht-degree: 82%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 88%
 # Handbuch für die Adobe Analytics-Integration {#integration}
 
 + [Handbuch zur Analytics-Integration](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Audience Analytics {#audience-analytics}
    + [Audience Analytics – Überblick](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics-Workflow {#audience-analytics-workflow}
       + [Workflow-Überblick](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Analytics-Ziel erstellen – Handbuch für Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=de)
+      + [Analytics-Ziel erstellen - Adobe Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=de)
       + [Zielgruppendaten in Analytics verwenden](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Anwendungsfälle für Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Häufig gestellte Fragen](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,7 +39,7 @@ ht-degree: 88%
       + [Problembehebung in Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Häufig gestellte Fragen](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics für Advertising](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=de)
-+ [Adobe Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 + [Adobe Campaign-Reporting in Adobe Analytics](adobe-campaign.md)
 + [Integration von Adobe Analytics-Daten mit Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Berichterstellung für AEM Assets](aem-assets-reporting.md)

@@ -1,13 +1,26 @@
 ---
 title: Klassifizierungen in Marketing-Kanälen
-description: Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
+description: Verwenden Sie Klassifizierungen, um Werte in verwandte Gruppen zu kategorisieren und auf Gruppenebene Berichte zu erstellen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Anschließend können Sie einen Bericht über den Erfolg dieser Kategorie anhand von Metriken wie Instanzen (oder Clickthroughs) erstellen.
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/cCpJd0drkr-y-9YsDQqICBkEIj4uGRd40gYBWz9u9bo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: 312
+ht-degree: 74%
 
 ---
 
@@ -21,7 +34,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Marketing-Kanäle]** > **[!UICONTROL Marketing-Kanal-Klassifizierungen]**.
 
-Classifications werden verwendet, um Werte in Gruppen zu kategorisieren und auf Gruppenebene zu erfassen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Den Erfolg dieser Kategorie können Sie dann in Bezug zu Metriken wie „Instanzen“ (auch „Clickthrough-Raten“ genannt) im Bericht erfassen.
+Verwenden Sie Klassifizierungen, um Werte in verwandte Gruppen zu kategorisieren und auf Gruppenebene Berichte zu erstellen. Sie können beispielsweise alle gebührenpflichtigen Suchkampagnen in eine Kategorie wie Videoadapter kategorisieren. Anschließend können Sie einen Bericht über den Erfolg dieser Kategorie anhand von Metriken wie Instanzen (oder Clickthroughs) erstellen.
 
 Klassifizierungen, die Sie in diesem Vorgang hinzufügen, werden im [!UICONTROL Marketing-Kanal-Übersichtsbericht] als [!UICONTROL Kanalwerte] angezeigt. Kanalwerte sind nicht klassifizierte Werte in den Kanaldetails.
 
@@ -33,7 +46,7 @@ Klassifizierungen, die Sie in diesem Vorgang hinzufügen, werden im [!UICONTROL 
 
 | Begriff | Definition |
 |--- |--- |
-| Text-Classifications | Gibt den Typ der Classification an, mit der Sie unterschiedliche Daten zu Berichtzwecken gruppieren können. |
+| Text-Classifications | Gibt den Typ der Klassifizierungskategorie an, mit der Sie Variablendaten zu Berichtszwecken gruppieren können. |
 | Name | Name der Classification. Die hinzugefügte Classification erscheint als Kanalunterteilungsoption im Marketing-Kanal-Manager. |
 | Optionen | Name der Classification. Die hinzugefügte Classification erscheint als Kanalunterteilungsoption im Marketing-Kanal-Manager. |
 

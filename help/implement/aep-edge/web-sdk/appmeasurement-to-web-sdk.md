@@ -2,10 +2,20 @@
 title: Migrieren von AppMeasurement zur Web-SDK
 description: Aktualisieren Sie Ihre Adobe Analytics-Implementierung von der AppMeasurement JavaScript-Bibliothek auf die Web SDK JavaScript-Bibliothek.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
+TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 7%
+source-wordcount: 1434
+ht-degree: 9%
 
 ---
 
@@ -38,7 +48,7 @@ Die folgenden Schritte enthalten konkrete Ziele, auf die Sie hinarbeiten müssen
 
 Erstellen eines Datenstroms in der Adobe Experience Platform-Datenerfassung. Wenn Sie Daten an diesen Datenstrom senden, leitet er Daten an Adobe Analytics weiter. In Zukunft leitet derselbe Datenstrom Daten an Customer Journey Analytics weiter.
 
-1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com) und melden Sie sich mit Ihren Anmeldedaten an.
+1. Navigieren Sie zu [Adobe CX Enterprise](https://experience.adobe.com) und melden Sie sich mit Ihren Anmeldedaten an.
 1. Navigieren Sie über die Startseite oder den Produktselektor oben rechts zu **[!UICONTROL Datenerfassung]**.
 1. Wählen Sie in der linken Navigation **[!UICONTROL Datenströme]** aus.
 1. Wählen Sie **[!UICONTROL Neuer Datenstrom]** aus.
@@ -128,7 +138,7 @@ Aktualisieren Sie alle Instanzen, in denen Sie [`s.t()`](../../vars/functions/t-
   alloy("sendEvent", dataObj);
   ```
 
-* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im `false`[`configure`-Befehl auf &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview) fest.
+* **Automatisches Linktracking**: Die [`clickCollectionEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) Konfigurationseigenschaft ist standardmäßig aktiviert. Es werden automatisch die richtigen Linktracking-Variablen zum Senden von Daten an Adobe Analytics festgelegt. Wenn Sie die automatische Linkverfolgung deaktivieren möchten, legen Sie diese Eigenschaft im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview)-Befehl auf `false` fest.
 
 * **Manuelles Linktracking**: Die Web-SDK verfügt nicht über separate Befehle zwischen PageView- und Nicht-PageView-Aufrufen. Geben Sie diese Unterscheidung innerhalb des Payload-Objekts an.
 

@@ -4,10 +4,16 @@ keywords: ftp;sftp
 title: Data Warehouse-Anforderungen an SFTP-Server senden
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+TQID: https://experienceleague.adobe.com/nBerOKEbILwAK5OyayVgdBPN8vq24kk-DXY6XMT50wg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 52%
+source-wordcount: 258
+ht-degree: 35%
 
 ---
 
@@ -20,12 +26,12 @@ Folgende Aufgaben müssen abgeschlossen sein:
 * Bei der Anforderung eines Data Warehouse-Berichts wird nur Port 22 verwendet.
 * Die `authorized_keys`-Datei von Adobe befindet sich im `.ssh`-Ordner im Stammverzeichnis des Benutzers, mit dem Sie sich anmelden.
 * Das Ziel darf nicht `ftp.omniture.com` sein. Das SFTP-Protokoll wird zwischen den internen Servern von Adobe nicht unterstützt.
-* Das Ziel unterstützt eine Ein-Faktor-Authentifizierung (PKI). Falls eine Zwei-Faktor-Authentifizierung erforderlich ist, schlägt die Bereitstellung des Berichts fehl. Stellen Sie sicher, dass der Server nicht so konfiguriert ist, dass er versucht, eine Zwei-Faktor-Authentifizierung durchzuführen. Für Adobe Analytics ist es erforderlich, dass ausschließlich der Schlüssel für die Anmeldung verwendet wird.
-* Adobe unterstützt eine SSHv2-Verschlüsselung und führt ein Fallback auf SSHv1 aus (nur RSA-Schlüssel).
+* Das -Ziel unterstützt die One-Factor-Authentifizierung (PKI). Wenn es eine zweistufige Herausforderung gibt, schlägt die Bereitstellung des Berichts fehl. Stellen Sie sicher, dass der Server nicht so konfiguriert ist, dass er versucht, eine Zwei-Faktor-Authentifizierung durchzuführen. Adobe Analytics erfordert, dass nur der -Schlüssel und nichts anderes zum Anmelden verwendet wird.
+* Adobe unterstützt SSHv2-Verschlüsselung und greift auf SSHv1 zurück (nur RSA-Schlüssel).
 
 So senden Sie eine Data Warehouse-Anfrage erfolgreich über SFTP:
 
-1. Führen Sie die Schritte aus[&#x200B; die im Artikel &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp)Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage[&#x200B; beschrieben sind, &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) das Herunterladen des öffentlichen Schlüssels.
+1. Führen Sie die Schritte aus[&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)&#x200B; die im Artikel [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) beschrieben sind, &#x200B; das Herunterladen des öffentlichen Schlüssels.
 1. Melden Sie sich bei der SFTP-Site mit den Anmeldedaten an, die für die Data Warehouse-Anfrage verwendet werden.
 1. Navigieren Sie im Stammverzeichnis zu dem Ordner `.ssh` (erstellen Sie diesen, falls er nicht vorhanden ist) und legen Sie dort die Datei `authorized_keys` ab.
 

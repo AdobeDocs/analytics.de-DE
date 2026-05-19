@@ -3,10 +3,20 @@ title: Fehlerbehebung bei der Anmeldung in Adobe Analytics
 description: Schritte für den Fall, dass Sie sich nicht bei Adobe Analytics anmelden können.
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: 607
+ht-degree: 88%
 
 ---
 
@@ -14,7 +24,7 @@ ht-degree: 100%
 
 Adobe Analytics verwendet mehrere Authentifizierungsmethoden bei der Anmeldung:
 
-* Adobe ID durch Experience Cloud
+* Adobe ID durch CX Enterprise
 * Alte Analytics ID
 * Single Sign-on
 
@@ -24,9 +34,9 @@ In einigen Fällen können Probleme mit der Verfügbarkeit die Möglichkeit zur 
 
 ## Adobe ID
 
-Beheben Sie Probleme bei der Anmeldung bei Adobe Analytics mit Experience Cloud.
+Beheben Sie Probleme bei der Anmeldung bei Adobe Analytics mithilfe von CX Enterprise.
 
-1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com). Wenn Sie nicht auf diese Site zugreifen können, wird diese Domain von Ihrem Unternehmen möglicherweise nicht durch Ihre Firewall gelassen. Wenden Sie sich an das IT-Team Ihres Unternehmens, um dies zuzulassen. Unter [IPs und Domains, die in Adobe Experience Cloud verwendet werden](https://helpx.adobe.com/de/analytics/kb/adobe-ip-addresses.html) finden Sie hilfreiche Informationen für Ihr IT-Team.
+1. Navigieren Sie zu [Adobe CX Enterprise](https://experience.adobe.com). Wenn Sie nicht auf diese Site zugreifen können, wird diese Domain von Ihrem Unternehmen möglicherweise nicht durch Ihre Firewall gelassen. Wenden Sie sich an das IT-Team Ihres Unternehmens, um dies zuzulassen. Unter [Von Adobe Analytics verwendete IP-Adressen](/help/technotes/ip-addresses.md) finden Sie hilfreiche Informationen für Ihr IT-Team.
 
 2. Authentifizierung mit Adobe ID: Klicken Sie auf **[!UICONTROL Anmelden mit einer Adobe ID]**. Wenn Sie sich nicht anmelden können, überprüfen Sie erneut, ob Ihre E-Mail-Adresse korrekt eingegeben wurde. Klicken Sie andernfalls auf **[!UICONTROL Passwort zurücksetzen]** und befolgen Sie die Anweisungen zum Zurücksetzen des Adobe ID-Passworts.
 
@@ -42,7 +52,7 @@ Wenn das Problem nicht durch Löschen der Cookies/des Cache des Browsers behoben
 
 >[!IMPORTANT]
 >
->Die folgenden Schritte zum Zurücksetzen des Passworts eines Benutzers gelten nur für alte Analytics IDs, nicht für Adobe IDs. Wenn Ihr Unternehmen Adobe IDs verwendet, können Sie Benutzerkonten unter [adminconsole.adobe.com](https://adminconsole.adobe.com) verwalten.
+>Die folgenden Schritte zum Zurücksetzen des Passworts eines Benutzers gelten nur für alte Analytics IDs, nicht für Adobe ID. Wenn Ihr Unternehmen Adobe ID verwendet, können Sie Benutzerkonten unter [adminconsole.adobe.com](https://adminconsole.adobe.com) verwalten.
 
 1. Melden Sie sich bei Adobe Analytics mit einem Konto an, das über Administratorrechte verfügt.
 2. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Benutzerverwaltung]**.

@@ -3,10 +3,20 @@ description: Erfahren Sie, wie Sie berechnete Metriken erstellen.
 title: Erstellen von berechneten Metriken
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/KuWD2kus9wcFW7yULWbLwfj4hfVHJgTjDeCJzEWwKFU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 21%
+source-wordcount: 367
+ht-degree: 15%
 
 ---
 
@@ -31,12 +41,12 @@ Um die neue berechnete Metrik zu definieren, verwenden Sie den [Generator für b
 
 Bevor Sie berechnete Metriken erstellen, beachten Sie den folgenden Workflow:
 
-| Aufgabe des Arbeitsablaufs | Beschreibung |
+| Workflow-Aufgabe | Beschreibung |
 | --- | --- |
 | Berechnete Metriken planen | Insbesondere für Metriken, die offiziell genehmigt werden sollen, ist es sinnvoll zu planen, welche berechneten Metriken weit verbreitet sind und wie sie definiert werden. |
 | [Erstellen](c-build-metrics/cm-build-metrics.md) Berechnete Metriken | Erstellen und bearbeiten Sie berechnete und erweiterte berechnete Metriken in [!DNL Analytics]-Komponenten.  Sehen Sie sich [Beispiele](c-build-metrics/cm-build-metrics.md) für die Erstellung von berechneten Metriken an. |
 | [Tag](cm-tagging.md) berechnete Metriken | Taggen Sie berechnete Metriken, um die Organisation und Freigabe zu erleichtern. Erhalten Sie Informationen zum Planen und Zuweisen von Tags für einfache und erweiterte Suchvorgänge und für die Organisation. |
-| [Genehmigen](cm-approving.md) berechnete Metriken | Genehmigen Sie berechnete Metriken, um sie als autorisiert zu kennzeichnen. |
+| [Genehmigen](cm-approving.md) berechnete Metriken | Genehmigen Sie berechnete Metriken, um sie kanonisch zu machen. |
 | Berechnete Metriken verwenden | Verwenden Sie die berechneten Metriken in Ihren Projekten. |
 | [Freigeben](cm-sharing.md) berechnete Metriken | Geben Sie Ihre berechneten Metriken für andere Personen, Gruppen oder Organisationen frei. |
 | [Filter](cm-filter.md) berechnete Metriken | Filtern Sie berechnete Metriken nach Tags, Eigentümern und anderen Filtern (Alle anzeigen, Meine, Für mich freigegeben, Favoriten und Genehmigt). |

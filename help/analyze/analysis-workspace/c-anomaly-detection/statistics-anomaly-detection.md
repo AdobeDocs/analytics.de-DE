@@ -4,10 +4,23 @@ title: In der Anomalieerkennung verwendete statistische Verfahren
 feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/4DIICc89-1ppuJWmUpJBrDrOU7MH78dYBTCHTqkBE2E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 70%
+source-wordcount: 1101
+ht-degree: 37%
 
 ---
 
@@ -17,28 +30,28 @@ Die Anomalieerkennung in Analysis Workspace setzt eine Reihe statistischer Verfa
 
 Je nach der im Bericht verwendeten Datumsgranularität werden 3 verschiedene statistische Verfahren eingesetzt – für stündliche, tägliche, wöchentliche/monatliche Anomalieerkennung. Die statistischen Verfahren werden nachfolgend beschrieben.
 
-## Anomalieerkennung für Granularität „Täglich“ 
+## Anomalieerkennung für Granularität „Täglich“
 
 Für Berichte mit täglicher Granularität berücksichtigt der Algorithmus verschiedene wichtige Faktoren, um Ergebnisse mit höchstmöglicher Genauigkeit bereitzustellen. Zunächst bestimmt der Algorithmus anhand der verfügbaren Daten, welche Modellart angewendet werden soll, und wählt dabei eine von zwei Klassen aus: ein zeitreihenbasiertes Modell oder ein Modell zur Ausreißererkennung (funktionale Filterung genannt).
 
-Die Entscheidung für das zeitreihenbasierte Modell beruht auf den folgenden Kombinationen für den Typ ETS (Error, Trend and Seasonality = Fehler, Trend und Saisonabhängigkeit), wie von [Hyndman und Kollegen (2008)](https://link.springer.com/book/10.1007/978-3-540-71918-2) beschrieben. Dabei versucht der Algorithmus insbesondere die folgenden Kombinationen:
+Die Entscheidung für das zeitreihenbasierte Modell beruht auf den folgenden Kombinationen für den Typ ETS (Error, Trend and Seasonality = Fehler, Trend und Saisonabhängigkeit), wie von [Hyndman und Kollegen (2008)](https://link.springer.com/book/10.1007/978-3-540-71918-2). Insbesondere versucht der Algorithmus die folgenden Kombinationen:
 
-1. ANA (Additive error, No trend, Additive seasonality = Additiver Fehler, Kein Trend, Additive Saisonabhängigkeit)
-1. AAA (Additive error, Additive trend, Additive seasonality = Additiver Fehler, Additiver Trend, Additive Saisonabhängigkeit)
-1. MNM (Multiplicative error, No trend, Multiplicative seasonality = Multiplikativer Fehler, Kein Trend, Multiplikative Saisonabhängigkeit)
-1. MNA (Multiplicative error, No trend, Additive seasonality = Multiplikativer Fehler, Kein Trend, Additive Saisonabhängigkeit)
-1. AAN (Additive error, Additive trend, No seasonality = Additiver Fehler, Additiver Trend, Keine Saisonabhängigkeit)
+1. ANA (additiver Fehler, kein Trend, additive Saisonabhängigkeit)
+1. AAA (additiver Fehler, additiver Trend, additive Saisonabhängigkeit)
+1. MNM (multiplikativer Fehler, kein Trend, multiplikative Saisonabhängigkeit)
+1. MNA (multiplikativer Fehler, kein Trend, additive Saisonabhängigkeit)
+1. AAN (additiver Fehler, additiver Trend, keine Saisonabhängigkeit)
 
-Der Algorithmus testet die Eignung jeder der Kombinationen, indem er die Kombination mit dem besten mittleren absoluten Prozentfehler (MAPE) auswählt. Liegt jedoch der MAPE-Wert des besten Zeitreihenmodells über 15 %, wird funktionale Filterung angewendet. In der Regel passen Daten mit einem hohen Wiederholungsgrad (z. B. Woche über Woche oder Monat über Monat) am besten zu einem Zeitreihenmodell.
+Der Algorithmus testet die Eignung jeder der Kombinationen, indem er die Kombination mit dem besten mittleren absoluten Prozentfehler (MAPE) auswählt. Wenn der MAPE-Wert des besten Zeitreihenmodells jedoch größer als 15 % ist, wird eine funktionale Filterung angewendet. In der Regel passen Daten mit einem hohen Wiederholungsgrad (z. B. Woche über Woche oder Monat über Monat) am besten zu einem Zeitreihenmodell.
 
-Nach Auswahl des Modells passt der Algorithmus die Ergebnisse basierend auf Feiertagen und jährlicher Saisonalität an. Für Feiertage überprüft der Algorithmus, ob einer der folgenden Feiertage im Datumsbereich des Berichts vorhanden ist:
+Nach der Modellauswahl passt der Algorithmus die Ergebnisse dann an Feiertagen und der Saisonabhängigkeit von einem Jahr zum anderen an. Für Feiertage prüft der Algorithmus, ob einer der folgenden Feiertage im Datumsbereich des Berichts vorhanden ist:
 
-* Memorial Day (nur USA)
+* Gedenktag
 * &#x200B;4. Juli
-* Thanksgiving (nur USA)
-* Black Friday (nur USA)
-* Cyber Monday (nur USA)
-* 24.–26. Dezember
+* Erntedankfest
+* Black Friday
+* Cyber Monday
+* &#x200B;24. bis 26. Dezember
 * &#x200B;1. Januar
 * &#x200B;31. Dezember
 
@@ -48,34 +61,34 @@ Nach Auswahl des Modells und der Identifizierung der im Berichtszeitraum befindl
 
 1. Konstruiert den Referenzzeitraum der Anomalie. Dieser Zeitraum umfasst bis zu 35 Tage vor dem Berichtsdatumsbereich und einen übereinstimmenden Datumsbereich 1 Jahr davor. und berücksichtigt Schalttage, sofern erforderlich, und alle anwendbaren Feiertage, die an einem anderen Kalendertag im Vorjahr stattgefunden haben könnten.
 1. Er testet, ob im aktuellen Zeitraum (außer dem Vorjahr) Feiertage vorhanden sind, die laut den aktuellsten Daten eine Anomalität darstellen.
-1. Wenn der Feiertag im aktuellen Datumsbereich als anormal betrachtet wird, passt der Algorithmus den erwarteten Wert und das Konfidenzintervall des aktuellen Feiertags an die Werte des Feiertags aus dem vergangenen Jahr an (unter Betrachtung von zwei Tagen vorher und nachher). Die Korrektur für den aktuellen Feiertag erfolgt auf Grundlage des niedrigsten MAPE-Wertes von:
+1. Wenn der Feiertag im aktuellen Datumsbereich als anormal betrachtet wird, passt der Algorithmus den erwarteten Wert und das Konfidenzintervall des aktuellen Feiertags an die Werte des Feiertags aus dem vergangenen Jahr an (unter Betrachtung von zwei Tagen vorher und nachher). Die Korrektur für den aktuellen Feiertag basiert auf dem niedrigsten absoluten Mittelwert des Fehlers in Prozent von:
 
-   1. Additive Effekte
+   1. Additive Wirkungen
    1. Multiplikative Effekte
-   1. Differenz zum Vorjahr
+   1. Differenz gegenüber dem Vorjahr
 
 Beachten Sie im folgenden Beispiel die deutliche Verbesserung der Performance an Weihnachten und Neujahr:
 
 ![](assets/anomaly_statistics.png)
 
-## Anomalieerkennung für Granularität „Stündlich“ 
+## Anomalieerkennung für Granularität „Stündlich“
 
-Stündliche Daten basieren auf der gleichen Vorgehensweise des zeitreihenbasierten Algorithmus wie beim Algorithmus für tägliche Granularität: Allerdings setzt der Algorithmus hier primär auf zwei Trendmuster: den 24-Stunden-Zyklus sowie den Wochenende-Wochentag-Zyklus. Um diese beiden saisonalen Effekte zu erfassen, erstellt der stündliche Algorithmus zwei separate Modelle (für ein Wochenende und einen Wochentag), wobei er auf die gleiche Weise wie oben beschrieben vorgeht.
+Stündliche Daten basieren auf demselben Zeitreihen-Algorithmus wie der tägliche Granularitätsalgorithmus. Sie beruht jedoch stark auf zwei Trendmustern: dem 24-Stunden-Zyklus sowie dem Wochenende-/Wochentagszyklus. Um diese beiden saisonalen Effekte zu erfassen, erstellt der stündliche Algorithmus mithilfe des oben beschriebenen Ansatzes zwei separate Modelle für ein Wochenende und einen Wochentag.
 
-Das Trainingfenster für stündliche Trends basiert auf einem 336-Stunden rückwärts gerichteten Fenster.
+Die Schulungsfenster für stündliche Trends basieren auf einem 336-Stunden-Lookback-Fenster.
 
-## Anomalieerkennung für die Granularitäten „Wöchentlich“ und „Monatlich“ 
+## Anomalieerkennung für die Granularitäten „Wöchentlich“ und „Monatlich“
 
-Da wöchentliche und monatliche Trends nicht die gleichen wöchentlichen oder täglichen Trends wie bei täglicher oder stündlicher Granularität aufweisen, wird ein separater Algorithmus verwendet. Bei wöchentlichen und monatlichen Tests wird ein zweistufiger Ansatz zur Erkennung von Ausreißern als Generalized Extreme Studentized Deviate (GESD) Test bezeichnet. Dieser Test betrachtet die maximale Anzahl der zu erwartenden Anomalien kombiniert mit dem angepassten Box-Plot-Ansatz (ein nichtparametrisches Verfahren zur Erkennung von Ausreißern), um die maximale Anzahl von Ausreißern zu ermitteln. Die beiden Schritte sehen wie folgt aus:
+Wöchentliche und monatliche Trends weisen nicht dieselben wöchentlichen oder täglichen Trends auf, die bei täglichen oder stündlichen Granularitäten gefunden werden, sodass ein solcher separater Algorithmus verwendet wird. Bei wöchentlichen und monatlichen Tests wird ein zweistufiger Ansatz zur Erkennung von Ausreißern als Generalized Extreme Studentized Deviate (GESD) Test bezeichnet. Dieser Test berücksichtigt die maximale Anzahl erwarteter Anomalien in Kombination mit dem angepassten Boxplot-Plot-Ansatz (eine nicht parametrische Methode zur Ausreißererkennung), um die maximale Anzahl von Ausreißern zu bestimmen. Die beiden Schritte sind:
 
-1. Angepasste Box-Plot-Funktion: Diese Funktion ermittelt die maximale Anzahl von Anomalien aus den eingegebenen Daten.
-1. GESD-Funktion: Wird mit der Ausgabe aus Schritt 1 auf die eingegebenen Daten angewendet.
+1. Angepasste Boxplot-Plot-Funktion: Diese Funktion bestimmt die maximale Anzahl von Anomalien bei den Eingabedaten.
+1. GESD-Funktion: wird auf die Eingabedaten mit der Ausgabe aus Schritt 1 angewendet.
 
 Der Schritt zur Anomalieerkennung für Feiertag und Jahreszeit zieht dann die Daten des letzten Jahres von den diesjährigen Daten ab. Anschließend werden die Daten erneut mithilfe des oben beschriebenen zweistufigen Prozesses iteriert, um zu überprüfen, ob Anomalien saisonal relevant sind. Jede dieser Datumsgranularitäten verwendet ein 15 Zeiträume zurückliegendes Zeitfenster, in dem der für den Bericht ausgewählte Datumsbereich liegt (entweder 15 Monate oder 15 Wochen), sowie einen entsprechenden Datumsbereich, der 1 Jahr vor dem Trainingszeitraum liegt.
 
 ## In der Beitragsanalyse verwendete statistische Verfahren
 
-Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, der helfen soll, Aspekte zu erkennen, die zu einer in Adobe Analytics festgestellten Anomalie mit beigetragen haben. Damit soll Benutzenden geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysen viel schneller zu identifizieren.
+Die Beitragsanalyse ist ein intensiver maschineller Lernprozess, mit dem Beitragende zu einer in Adobe Analytics beobachteten Anomalie aufgedeckt werden sollen. Damit soll Benutzenden geholfen werden, lohnenswerte Bereiche oder Gelegenheiten für weitere Analysen viel schneller zu identifizieren.
 
 Die Beitragsanalyse führt einen zweiteiligen Algorithmus für jedes einzelne Dimensionselement durch, das für den Bericht zur Beitragsanalyse des Benutzers verfügbar ist. Dabei geht der Algorithmus in der folgenden Reihenfolge vor:
 
@@ -87,13 +100,13 @@ Die Beitragsanalyse führt einen zweiteiligen Algorithmus für jedes einzelne Di
 
    ![](assets/cramers-v.png)
 
-1. Für jedes Dimensionselement wird der PR-Wert (Pearson-Residuum) verwendet, um den Zusammenhang zwischen der anormalen Metrik und jedem Dimensionselement zu messen. Da der PR-Wert einer gewöhnlichen Normalverteilung folgt, kann der Algorithmus die PRs von zwei zufälligen Variablen miteinander vergleichen, selbst wenn die Abweichungen nicht vergleichbar sind. In der Praxis ist der Fehler nicht bekannt und wird mittels finiter Stichprobenkorrektur abgeschätzt.
+1. Für jedes Dimensionselement wird der PR-Wert (Pearson-Residuum) verwendet, um den Zusammenhang zwischen der anormalen Metrik und jedem Dimensionselement zu messen. PR folgt einer Standardnormalverteilung, die es dem Algorithmus ermöglicht, die PRs zweier Zufallsvariablen zu vergleichen, selbst wenn die Abweichungen nicht vergleichbar sind. In der Praxis ist der Fehler nicht bekannt und wird durch endliche Probenkorrektur geschätzt.
 
    Im vorherigen Beispiel in Tabelle 1 wird der PR mit endlicher Stichprobenkorrektur für Land i und Zeitraum 2 wie folgt angegeben:
 
    ![](assets/persons-residual.png)
 
-   wo
+   wobei
 
    ![](assets/pr-example.png)
 

@@ -4,10 +4,28 @@ title: Anomalieerkennung – Überblick
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/T-nuWxaknY3q4iWyjhODAgKyK4V1Vdrd-AKTCEqDNeI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 99%
+source-wordcount: 1367
+ht-degree: 96%
 
 ---
 
@@ -30,7 +48,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anomalieerkenn
 
 Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat.
 
-Die Anomalieerkennung ermöglicht es Ihnen, „echte Signale“ von „Rauschen“ zu trennen und potenzielle Faktoren zu identifizieren, die zu diesen Signalen oder Anomalien beigetragen haben. Mit anderen Worten, sie hilft Ihnen zu unterscheiden, welche statistischen Schwankungen relevant sind und welche nicht. So können Sie dann die Ursache einer echten Anomalie identifizieren. Darüber hinaus können Sie zuverlässige Prognosen für Ihre Metrik (KPI) erhalten.
+Die Anomalieerkennung ermöglicht es Ihnen, „echte Signale“ von „Rauschen“ zu trennen und potenzielle Faktoren zu identifizieren, die zu diesen Signalen oder Anomalien beigetragen haben. Mit anderen Worten, es lässt Sie erkennen, welche statistischen Schwankungen von Bedeutung sind und welche nicht. Anschließend können Sie die Grundursache einer echten Anomalie identifizieren. Darüber hinaus können Sie zuverlässige Prognosen für Ihre Metrik (KPI) erhalten.
 
 Beispiele für Anomalien, die Sie untersuchen können:
 

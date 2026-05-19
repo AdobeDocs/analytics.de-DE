@@ -3,10 +3,31 @@ description: Erfahren Sie, wie Sie mit Segmenten Besucherteilmengen anhand von M
 title: Informationen zu Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 99%
+source-wordcount: 1005
+ht-degree: 94%
 
 ---
 
@@ -14,7 +35,7 @@ ht-degree: 99%
 
 Mit Segmenten können Besucherteilmengen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als Zielgruppenerkenntnisse ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
 
-Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Treffer]-Ebenenhierachie, wobei ein verschachteltes Container-Modell verwendet wird. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können erstellt, genehmigt, freigegeben, gespeichert und über viele Produkte und Funktionen in der [!DNL Adobe Experience Cloud] hinweg ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
+Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Treffer]-Ebenenhierachie, wobei ein verschachteltes Container-Modell verwendet wird. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können in Adobe CX Enterprise erstellt, genehmigt, freigegeben, gespeichert und für mehrere Produkte und Funktionen ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
 Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in [!UICONTROL Analysis Workspace]) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
@@ -257,7 +278,7 @@ Admins können jedes Segment bearbeiten und Segmente für Gruppen und alle Mitgl
 
 +++ **Kann ich alle in meinem Unternehmen vorhandenen Segmente sehen?**
 
-Ja, Admins können alle Segmente innerhalb der Benutzeroberfläche von [!DNL Analysis Workspace] sehen.
+Ja, Administratoren können alle Segmente in der Benutzeroberfläche von Analysis Workspace sehen.
 
 Report Builder zeigt Segmente an, die sich in Ihrem Besitz befinden, sowie Segmente, die für Sie freigegeben wurden.
 
@@ -275,6 +296,6 @@ Report Builder zeigt nur von Ihnen erstellte Segmente oder Segmente, die für Si
 
 +++ **Warum kann ich ein Segment nicht löschen?**
 
-Wenn das Segment [in Experience Cloud veröffentlicht wurde](/help/components/segmentation/segmentation-workflow/seg-workflow.md), können Sie es weder löschen noch bearbeiten. Sie können das Segment jedoch kopieren und die kopierte Version bearbeiten.
+Wenn das Segment [veröffentlicht in CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md) wurde, können Sie das Segment nicht löschen oder bearbeiten. Sie können das Segment jedoch kopieren und die kopierte Version bearbeiten.
 
 +++

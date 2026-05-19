@@ -4,10 +4,22 @@ description: Hier erfahren Sie mehr über die ersten Schritte mit Adobe Analytic
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 96%
+source-wordcount: 1155
+ht-degree: 90%
 
 ---
 
@@ -17,10 +29,10 @@ In Adobe Analytics gibt es verschiedene Arten von Administrierenden. Adobe Analy
 
 >[!NOTE]
 >
->Bevor Benutzenden in Adobe Analytics Benutzerrollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in Experience Cloud zugewiesen werden. Der erste Administrator bzw. die erste Administratorin kann dann Benutzenden in der Organisation wie in diesem Artikel beschrieben andere Rollen zuweisen. Weitere Informationen zum ersten Administrator bzw. zur ersten Administratorin finden Sie unter [Adobe Analytics-Handbuch für erste Administratoren](/help/admin/admin-console/first-admin-guide.md).
+>Bevor Benutzenden in Adobe Analytics Rollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in CX Enterprise zugewiesen werden. Der erste Administrator bzw. die erste Administratorin kann dann Benutzenden in der Organisation wie in diesem Artikel beschrieben andere Rollen zuweisen. Weitere Informationen zum ersten Administrator bzw. zur ersten Administratorin finden Sie unter [Adobe Analytics-Handbuch für erste Administratoren](/help/admin/admin-console/first-admin-guide.md).
 
 
-## Schlüsselrollen in Experience Cloud und Adobe Analytics
+## Schlüsselrollen in CX Enterprise und Adobe Analytics
 
 Beachten Sie bei der Verwendung von Adobe Analytics die folgenden Schlüsselrollen:
 
@@ -76,9 +88,9 @@ Informationen zur Vergabe der Rolle von Produktprofil-Administrierenden an Benut
 
 [Erstellen einer Analytics-Tag-Eigenschaft](/help/implement/launch/create-analytics-property.md): Bitten Sie Ihren Datenerfassungs-Administrator, sich beim Tool anzumelden und eine Eigenschaft zu erstellen, die auf Ihrer Site implementiert werden soll.
 
-Bevor Benutzenden in Adobe Analytics Benutzerrollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in Experience Cloud zugewiesen werden. Der erste Administrator bzw. die erste Administratorin kann dann Benutzenden in der Organisation wie in diesem Artikel beschrieben andere Rollen zuweisen.
+Bevor Benutzenden in Adobe Analytics Rollen zugewiesen werden können, muss ein Benutzer bzw. eine Benutzerin als erster Administrator bzw. erste Administratorin in CX Enterprise zugewiesen werden. Der erste Administrator bzw. die erste Administratorin kann dann Benutzenden in der Organisation wie in diesem Artikel beschrieben andere Rollen zuweisen.
 
-Ein erster Administrator bzw. eine erste Administratorin ist der erste Schritt, um dem Rest der Organisation die Verwendung der einzelnen Experience Cloud-Lösungen zu ermöglichen.
+Ein erster Administrator bzw. eine erste Administratorin ist der erste Schritt, um dem Rest der Organisation die Verwendung jeder CX Enterprise-Lösung zu ermöglichen.
 
 Nach Vertragsunterzeichnung
 

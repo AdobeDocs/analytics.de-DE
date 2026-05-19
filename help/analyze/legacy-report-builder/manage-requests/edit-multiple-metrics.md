@@ -4,10 +4,20 @@ title: Bearbeiten von Metriken über mehrere Anfragen hinweg
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 28%
+source-wordcount: 598
+ht-degree: 18%
 
 ---
 
@@ -24,7 +34,7 @@ Beachten Sie beim Hinzufügen von Metriken die folgenden Richtlinien:
 * Metriken können nur zu Pivot-Layout-Anfragen hinzugefügt werden.
 Wenn einige der ausgewählten Anforderungen benutzerdefinierte Layouts sind, können keine Metriken hinzugefügt werden. Wenn das Layout angepasst ist, weiß Report Builder nicht, wo die neue Metrik in der Tabelle platziert werden soll.
 * Wenn Sie nur benutzerdefinierte Layout-Anfragen auswählen, ist die Option **[!UICONTROL Metriken hinzufügen]** nicht verfügbar.
-* Das Hinzufügen von Metriken erhöht die Größe einer Anfrage und kann dazu führen, dass sie sich mit einer anderen Anfrage überschneidet. Achten Sie darauf, dass Ihre Anforderung rundherum ausreichend Platz zum Hinzufügen von Metriken hat.
+* Das Hinzufügen von Metriken erhöht die Größe einer Anfrage und kann dazu führen, dass sie sich mit einer anderen Anfrage überschneidet. Stellen Sie sicher, dass Ihre Anfrage rundherum ausreichend Platz zum Hinzufügen von Metriken hat.
 * Wenn die hinzugefügte Metrik bereits in einer der ausgewählten Anfragen vorhanden ist, wird sie dieser Anfrage nicht hinzugefügt.
 
 So fügen Sie eine oder mehrere Metriken hinzu
@@ -47,9 +57,9 @@ Beachten Sie beim Ersetzen von Metriken die folgenden Richtlinien:
    * **Wenn in einem Pivot** Layout eine Pivot-Layout-Anfrage Datum, Besuch, Besucher, tägliche Unique Visitors und *Visitors* durch *Umsatz* ersetzt, lautet das aktualisierte Anfrage-Layout: Datum, Besuch, Umsatz und täglich eindeutig.
    * **Wenn bei einem benutzerdefinierten Layout** die Metrik *Besucher* in Zelle F11 ausgegeben wurde, zeigt das aktualisierte Anfrage-Layout *Umsatz* in derselben Zelle F11 an.
 
-* Wenn auf die ersetzte Metrik eine Operation angewendet wird (Durchschnitt, pre-pended text, post-pended text, microcharting), wird diese Operation auch auf die neue Metrik angewendet.
+* Wenn auf die ersetzte Metrik ein Vorgang angewendet wurde (durchschnittlicher, vorangestellter Text, Text nach dem Anfügen, Microchart), werden diese Vorgänge auch auf die neue Metrik angewendet.
 
-So ersetzen Sie eine Metrik:
+So ersetzen Sie eine Metrik
 
 1. Wählen Sie mindestens eine Anforderung in Excel aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **[!UICONTROL Metriken bearbeiten]** aus. Alternativ können Sie auf **[!UICONTROL Verwalten]** > **[!UICONTROL Mehrere bearbeiten]** > **`<choose metric>`** > **[!UICONTROL Gruppe bearbeiten]** klicken, um die Gruppe der zu ändernden Anfragen auszuwählen.
 
@@ -75,5 +85,5 @@ So entfernen Sie Metriken
 
    ![Screenshot, der die ausgewählte Option „Gruppe bearbeiten“ und „Metrik(en) entfernen“ zeigt.](assets/remove_metric.png)
 
-1. Wählen Sie mindestens eine Metrik aus, die aus der Anforderung entfernt werden soll.
-1. Aktualisieren Sie die Anforderung. Die Offline-Daten werden so lange angezeigt, bis Sie eine Aktualisierung durchführen.
+1. Wählen Sie eine oder mehrere Metriken aus, die aus der Anfrage entfernt werden sollen.
+1. Aktualisieren Sie die Anforderung. Bis zur Aktualisierung werden Offline-Daten angezeigt.

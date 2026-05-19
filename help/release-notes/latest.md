@@ -21,43 +21,44 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 2be38df3df510c4e460497be8c085ed2a26b4760
 workflow-type: tm+mt
-source-wordcount: 1241
-ht-degree: 79%
+source-wordcount: 1365
+ht-degree: 60%
 
 ---
 
-# Aktuelle Adobe Analytics-Versionshinweise (April 2026)
+# Aktuelle Versionshinweise zu Adobe Analytics (Mai 2026)
 
-**Letzte Aktualisierung**: 22. April 2026
+**Letzte Aktualisierung**: 13. Mai 2026
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom April 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Mai 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
 | **MCP-Server für Adobe Analytics** <br/>Die Analytics MCP-Server (Model Context Protocol) ermöglichen es Ihnen, einen unterstützten MCP-Client mit Adobe Analytics zu verbinden. Sobald die Verbindung hergestellt ist, kann Ihr MCP-Client produktspezifische Tools aufrufen, um Daten abzurufen, Abfragen auszuführen oder unterstützte Vorgänge als Teil eines LLM- oder Agent-Workflows durchzuführen. Weitere Informationen finden Sie unter [Analytics-MCP-Server](https://developer.adobe.com/analytics-mcp/docs/).<p>Wenn Sie diese MCP-Server während der Beta-Phase verwendet haben, beachten Sie, dass es unterschiedliche URLs zwischen der Beta-Phase und den Produktionsendpunkten gibt. Stellen Sie sicher, dass alle während der Beta-Phase erstellten Agent-Workflows so aktualisiert werden, dass sie die Produktions-Endpunkte vor dem 31. Mai verwenden.</p> | | &#x200B;5. Mai 2026 |
+| **Journey-Arbeitsfläche in Adobe Analytics** Die <br/>Journey-Arbeitsfläche ist eine Visualisierung in Analysis Workspace, mit der Sie detaillierte Einblicke in eine definierte Benutzer-Journey erhalten, indem Sie analysieren, wie Personen die Journey durchlaufen oder aus ihr herausfallen. Damit können Sie ein flexibles Diagramm von Knoten und Pfeilen erstellen, die eine beliebige Kombination von Ereignissen, Dimensionselementen und Segmenten darstellen, die im Journey enthalten sind. Datenaktualisierungen, während Sie Knoten auf die Arbeitsfläche ziehen oder die Ereignisse und Bedingungen des Journey neu anordnen.<p>Journey Canvas war bisher nur für Customer Journey Analytics verfügbar.</p><p>Weitere Informationen zur Journey-Arbeitsfläche in Adobe Analytics finden Sie unter [Journey-Arbeitsfläche - Übersicht](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Informationen zum Erstellen einer Journey-Arbeitsflächen-Visualisierung in Adobe Analytics finden Sie unter [Konfigurieren der Journey-Arbeitsfläche](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | &#x200B;18. Mai 2026 | &#x200B;5. Juni 2026 |
+| **Attributionsmodell API-Reporting** Handbuch<br/> Ein neues Adobe Analytics 2.0 API-Attributionsmodell-Berichtshandbuch ist verfügbar. In diesem Handbuch wird beschrieben, wie Sie Attributionsmodell-Objektdaten in Dimension-API-Berichte einschließen.<p>Weitere Informationen finden Sie unter [Dimension-API-Attributionsmodelle](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | Mai 2026 |
 | **Streaming-Mediendienste: Unterstützung von Zeitplandaten** <br/>Sie können jetzt Zeitplandaten von früheren Live-Inhalten von Streaming-Medien hochladen, um Zuschauerzahlen einfacher und genauer zu verfolgen.<p>Im Folgenden finden Sie Beispiele für Live-Inhalte, die mit dem Upload von Zeitplandaten unterstützt werden:</p><ul><li>FAST-Plattformen (Free Ad Supported TV)</li><li>Lokale Datenströme</li><li>Live-Sportübertragungen</li></ul><p>Durch das Hochladen von Zeitplandaten können Sie die Zuschauerzahlen für einzelne Programme verfolgen, die in dem von Ihnen in der Upload-Datei angegebenen Zeitraum gelaufen sind. Sie können sogar Zuschauerzahlen für bestimmte Themen oder Programmsegmente erfassen.</p><p>Diese Funktionen sind unabhängig davon verfügbar, wie Sie die Erfassung von Streaming-Medien implementiert haben.</p><p>Zuvor war es bei der Analyse von Live-Inhalten schwierig, eine bestimmte Sitzung genau mit bestimmten Programmen zu verknüpfen, und es war nicht möglich, eine bestimmte Sitzung mit einzelnen Themen oder Programmsegmenten zu verknüpfen.</p><p>Weitere Informationen finden Sie unter [Hochladen von Zeitplandaten zum Nachverfolgen von Live-Inhalten](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | &#x200B;29. Oktober 2025 | Erstes Halbjahr 2026<p>(Veröffentlichung ursprünglich für den 29. Oktober 2025 geplant)</p> |
-| **Zusätzliche API-Datumsbereichsformatierung**<br/> Für die Angabe von Datumsbereichen in Analytics 2.0-API-Berichtsanfragen werden jetzt zwei neue Formate unterstützt. Dazu gehören eine Datumsformel und ein gemischtes Format. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | März 2026 |
-| **Optionale Dimension in API-Berichtsanfragen**<br/> Ein Dimensionsobjekt ist in API-Berichtsanfragen nicht erforderlich. Wenn keine Dimension angegeben ist, werden in der Antwort Daten für einen Bericht mit Gesamtwerten angezeigt. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | März 2026 |
-| **Erweiterter API-Bericht mit Datumstrends**<br/> Neuer erweiterter Bericht mit Datumstrends für die Adobe Analytics 2.0 API. Erstellen Sie erweiterte API-Berichte mit Datumstrends mithilfe von Datumsbereichsvergleichen und Segmenten. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced/) | | März 2026 |
+
+{style="table-layout:auto"}
 
 ## Fehlerbehebungen in Adobe Analytics
 
 **Activity Map**:
-**Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
-**CLASSIFICATIONS**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441333, AN-441302, AN-441149, AN-441085, AN-441807, AN-441048 440846 440727 440716 440511 440496 432100, AN-441671, AN-AN-441132, AN-AN-AND, AN-AN-IL
-**Daten-Feeds und Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-439797, AN-440919, AN-434855, AN-429777, AN-440599, AN-429048, AN-425215, AN-428892, AN-428189, AN-, AN-, AN-, AN-, AN-
+**Klassifizierungen**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-443507, AN-442232, AN-444428, AN-444332, AN-442207, AN-442133, AN-442906, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440496, AN-440429, AN-432100
+**Daten-Feeds und Data Warehouse**: AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
 **Migration**: AN-442467, AN-440380, AN-440357
 **Exporte**:
-**Report Builder**: AN-441136, AN-438147, AN-425150
-**Reporting**: AN-441506, AN-440919, AN-440545, AN-440300
-**Report Suites**: AN-439429, AN-439423, AN-430988
+**Report Builder**: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
+**Reporting**: AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440511, AN-440300, AN-440545, AN-431409, AN-423359, AN-406242
+**Report**:
 **Terminierte Berichte**:
 **Segmentierung**:
-**Sonstige**: AN-423359, AN-406242, AN-397985
+**Sonstige**: AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
 
 
 ## Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
@@ -81,4 +82,4 @@ Die neuesten Aktualisierungen zu AppMeasurement-Versionen finden Sie in den [Ver
 * [Frühere Versionshinweise für 2025](/help/release-notes/2025.md)
 * [Versionshinweise zu Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=de)
 * [Versionshinweise zu Streaming Media Services](https://experienceleague.adobe.com/de/docs/media-analytics/using/release-notes/release-notes)
-* Die neuesten Versions-Updates für [Adobe Experience Cloud-Produkte](https://business.adobe.com/de/products/adobe-experience-cloud-products.html)
+* Die neuesten Versions-Updates für [Adobe CX Enterprise-Produkte](https://business.adobe.com/de/products/adobe-experience-cloud-products.html)

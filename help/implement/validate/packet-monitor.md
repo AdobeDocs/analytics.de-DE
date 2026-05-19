@@ -5,10 +5,24 @@ keywords: Paket-Sniffer, http-Status, 200, 302, Charles
 feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 99%
+source-wordcount: 679
+ht-degree: 67%
 
 ---
 
@@ -16,16 +30,16 @@ ht-degree: 99%
 
 Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
 
-Ähnlich dem Adobe Experience Cloud-Debugger zeigen Paketmonitore an, welche Datenparameter bei einer Bildanforderung übertragen werden. Paketmonitore bieten jedoch zusätzliche Funktionen:
+Ähnlich wie beim Adobe CX Enterprise-Debugger zeigt ein Paketmonitor an, welche Datenparameter in einer Bildanforderung übergeben werden. Paketmonitore bieten jedoch zusätzliche Funktionen:
 
 * Anzeige von Bildanforderungen aus benutzerspezifischen Linktracking
 * Anzeige von Bildanforderungen mit anderen Implementierungsmethoden als JavaScript (wie z. B. fest programmierte Bildanforderungen oder [!DNL Appmeasurement])
 
 Zur Anzeige von Analytics-Anforderungen müssen Sie ausgehende Anforderungen mit „b/ss“ filtern.
 
-In sehr seltenen Fällen meldet der Debugger eine Bildanforderung, obwohl keine solche Anforderung bei den [!DNL Analytics]-Verarbeitungsserver von Adobe einging. Mit einem Paketmonitor können Sie sich hundertprozentig sicher sein, dass eine bestimmte Bildanforderung erfolgreich veranlasst wird.
+In sehr seltenen Fällen meldet der Debugger eine Bildanforderung, obwohl keine solche Anforderung bei den [!DNL Analytics]-Verarbeitungsserver von Adobe einging. Die Verwendung eines Paketmonitors ist eine hervorragende Möglichkeit, um zu 100 % sicher zu sein, dass eine bestimmte Bildanforderung erfolgreich ausgelöst wird.
 
-Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine große Auswahl im Internet. Nachfolgend sind einige brauchbare Paketmonitore aufgeführt.
+Adobe bietet zwar keinen offiziellen Paketmonitor an, im Internet gibt es jedoch eine große Auswahl davon. Im Folgenden finden Sie einige Paket-Monitore, die andere für nützlich befunden haben.
 
 >[!TIP]
 >
@@ -35,7 +49,7 @@ Adobe stellt zwar keinen offiziellen Paketmonitor bereit, jedoch finden Sie eine
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (Tag-Viewer) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (Tag-Viewer) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.telerik.com/fiddler) |
-| [Tamper Data](https://addons.mozilla.org/de-DE/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
+| [Daten manipulieren](https://addons.mozilla.org/de-DE/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
@@ -57,8 +71,8 @@ Wenn AppMeasurement Daten an die Datenerfassungs-Server der Adobe sendet, antwor
 
 Der Grund für diese Nachricht liegt darin, dass die zur Linktracking dienende Bildanforderung es dem Browser erlauben soll, zur nächsten Seite zu wechseln, ohne auf eine Antwort von den Datenerfassungs-Servern von Adobe warten zu müssen.
 
-Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]** oder **[!UICONTROL NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei den Servern von Adobe angekommen sind. Dann besteht kein Grund mehr, die Seite noch länger warten zu lassen.
+Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]** oder **[!UICONTROL NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei den Servern von Adobe angekommen sind. Es ist nicht erforderlich, dass die Seite länger wartet.
 
-Für Paketmonitore, die als Plug-in integriert sind, ist selten die vollständige Antwort sichtbar. Monitore neigen dazu, die Anforderung als abgebrochen zu betrachten, da die vollständige Antwort nicht erhalten wurde. Diese Monitore machen außerdem sehr selten die Unterscheidung, ob die Anforderung oder die Antwort abgebrochen wurde. Eigenständige Paketmonitore verfügen dagegen meist über detailliertere Informationen und melden daher den Status exakter. Beispiel: Ein Benutzer erhält in *Charles* eine Meldung, die besagt, dass der Client die Verbindung abgebrochen hat, bevor eine vollständige Antwort erhalten wurde. Das bedeutet, die Daten haben unsere Server erreicht, aber der Browser ist bereits auf der nächsten Seite, bevor das 1x1-Pixel erhalten wurde.
+Paketmonitore, die als Plug-in integriert sind, zeigen nur selten die volle Antwort an. Sie sehen die Anfrage in der Regel als abgebrochen, da keine vollständige Antwort empfangen wurde. Diese Monitore unterscheiden auch selten zwischen der Frage, ob die Anfrage oder die Antwort abgebrochen wurde. Ein eigenständiger Paketmonitor verfügt in der Regel über detailliertere Meldungen und zeigt den Status genauer an. Beispielsweise erhält ein Benutzer möglicherweise eine Nachricht in „Charles *mit der* „Client hat die Verbindung geschlossen, bevor er die gesamte Antwort erhält“. Das bedeutet, dass die Daten unsere Server erreicht haben, nur der Browser ist auf die nächste Seite gegangen, bevor das 1x1 Pixel empfangen wurde.
 
 Wenn ein externer Paketmonitor meldet, dass die Datenerfassungsanforderung abgebrochen wurde (anstatt der Antwort), stellt dies ein Problem dar. Adobe [!DNL Customer Care] kann Ihnen hier bei der Fehlerbehebung helfen.

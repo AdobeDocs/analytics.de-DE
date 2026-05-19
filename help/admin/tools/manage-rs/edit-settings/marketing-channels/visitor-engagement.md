@@ -5,10 +5,17 @@ title: Ablauf von Marketing-Kanälen
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Og6HFSObiTqFg-HRqVzQWWnaGP0J--cJ9N8wvfuKsJc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: 393
+ht-degree: 82%
 
 ---
 
@@ -40,9 +47,9 @@ Die Ablaufeinstellungen umfassen Folgendes:
 
 | Feld | Definition |
 |--- |--- |
-| Tage der Inaktivität | Diese Anzahl von Tagen muss verstreichen, bevor die First Touch-Interaktion des Besuchers abläuft. Der Standardwert lautet 30. |
-| Nie | Die Zeit der Besucherinteraktion läuft nie ab. |
-| Kanal zurücksetzen | Lässt alle Besucherinteraktionszeiträume ablaufen.  Wenn Sie alle Marketingkanaldaten zurücksetzen müssen, können Sie die Besucherinteraktionszeiträume ablaufen lassen. Sie müssen möglicherweise Daten zurücksetzen, wenn die Verarbeitungsregeln zuvor falsch konfiguriert wurden. Alle Erst- und Letztkontaktkanalwerte laufen sofort ab und werden bei der Rückkehr der Besucher zurückgesetzt. |
+| Tage der Inaktivität | Die Anzahl der Tage, die vergehen müssen, bevor das Erstkontakt-Engagement eines Besuchers abläuft. Der Standardwert lautet 30. |
+| Nie | Der Interaktionszeitraum des Besuchers läuft nicht ab. |
+| Zurücksetzen des Kanals | Lässt alle Besucherinteraktionszeiträume ablaufen.  Wenn Sie alle Marketing-Kanaldaten zurücksetzen müssen, können Sie alle Besucherinteraktionszeiträume ablaufen lassen. Möglicherweise müssen Sie Daten zurücksetzen, wenn Ihre Verarbeitungsregeln zuvor falsch konfiguriert waren. Alle Werte für den Erstkontakt- und den Letztkontakt-Kanal laufen sofort ab und werden zurückgesetzt, wenn Besucher zurückkehren. |
 
 ## Definieren der Marketing-Kanalgültigkeit {#define-expiration}
 

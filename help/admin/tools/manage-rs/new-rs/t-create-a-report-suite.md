@@ -3,10 +3,25 @@ description: Erstellen eines einfachen Containers für die Datenerfassung in Ado
 title: Erstellen einer Report Suite
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 98%
+source-wordcount: 312
+ht-degree: 87%
 
 ---
 
@@ -18,7 +33,7 @@ Dieser Artikel wurde für Administratoren oder Adobe Analytics-Administratoren a
 
 ## Voraussetzungen
 
-[Adobe Analytics-Handbuch für erste Administratoren](/help/admin/admin-console/first-admin-guide.md): Vergewissern Sie sich, dass Ihnen ein Systemadministrator über die Admin Console von Experience Cloud Zugriff auf Adobe Analytics gewährt hat.
+[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Vergewissern Sie sich, dass Ihnen ein Systemadministrator über die CX Enterprise Admin Console Zugriff auf Adobe Analytics gewährt hat.
 
 ## Erstellen einer Report Suite {#create-report-suite}
 
@@ -37,7 +52,7 @@ Eine Report Suite-ID hat eine maximale Länge von 40 Byte. Ein benutzerfreundlic
 
 ## Fehlerbehebung
 
-**Nach der Anmeldung bei Experience Cloud ist das Analytics-Symbol grau ausgeblendet.**
+**Nach der Anmeldung bei CX Enterprise ist das Analytics-Symbol ausgegraut.**
 
 Das bedeutet, dass Ihrem Konto nicht die richtigen Berechtigungen für Analytics erteilt wurden. Arbeiten Sie mit einem Administrator auf Systemebene in Ihrer Organisation zusammen, um sicherzustellen, dass Sie zu einem Profil gehören, das über ausreichende Zugriffsberechtigungen für Adobe Analytics verfügt.
 

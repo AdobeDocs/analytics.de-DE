@@ -4,10 +4,23 @@ description: Navigieren Sie in der -Benutzeroberfläche, um Verarbeitungsregeln 
 feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 0%
+source-wordcount: 476
+ht-degree: 1%
 
 ---
 
@@ -36,7 +49,7 @@ Jede Verarbeitungsregel enthält die folgenden Abschnitte:
 
 * **Regeltitel**: Der Titel der Regel. Dies wirkt sich nicht auf die Verarbeitungsregellogik aus, ist aber nützlich, um zu verfolgen, was die Regel tut.
 * **Bedingung** wird als Text &quot;[!UICONTROL Wenn eines/alle der folgenden zutrifft]&quot; angezeigt. Wenn Sie keine Bedingung einschließen, wird die Regel immer bei jedem Treffer ausgeführt.
-* **Aktion**: Wenn keine Bedingung vorhanden ist, wird der Text als &quot;[!UICONTROL Immer ausführen] angezeigt. Wenn eine Bedingung vorhanden ist, wird der Text als &quot;[!UICONTROL Dann gehen Sie folgendermaßen vor]&quot; angezeigt. Wenn die obige Bedingung als `true` ausgewertet wird, wird möglicherweise jede in diesem Abschnitt aufgeführte Aktion ausgeführt. Zusätzlich zur Bedingung einer Regel können Sie _auch) Bedingungen_ einzelnen Aktionen anhängen. Die folgenden Aktionen sind verfügbar:
+* **Aktion**: Wenn keine Bedingung vorhanden ist, wird der Text als &quot;[!UICONTROL Immer ausführen] angezeigt. Wenn eine Bedingung vorhanden ist, wird der Text als &quot;[!UICONTROL Dann gehen Sie folgendermaßen vor]&quot; angezeigt. Wenn die obige Bedingung als `true` ausgewertet wird, wird möglicherweise jede in diesem Abschnitt aufgeführte Aktion ausgeführt. Zusätzlich zur Bedingung einer Regel können Sie _auch) Bedingungen_ einzelnen Aktionen anhängen. Folgende Aktionen stehen zur Verfügung:
    * **[!UICONTROL Wert überschreiben von]**: Überschreibt die gewünschte Variable mit einer anderen Variablen, einem statischen Wert oder einem verketteten Wert.
    * **[!UICONTROL Wert löschen von]**: Löscht den gewünschten Variablenwert für diesen Treffer.
    * **[!UICONTROL Ereignis festlegen]**: Trigger des gewünschten Ereignisses. Normalerweise würden Sie Ereignisse auf den benutzerdefinierten Wert `1` festlegen. Das Festlegen von Ereignissen auf andere Werte als `1` oder sogar das Festlegen auf Werte, die in Kontextdatenvariablen festgelegt sind, ist ebenfalls zulässig.

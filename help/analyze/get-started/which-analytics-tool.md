@@ -1,25 +1,49 @@
 ---
-description: Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
+description: Auf dieser Hilfeseite finden Sie empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Tools sollten in der Reihenfolge berücksichtigt werden, in der sie aufgeführt sind. Wenn ein bestimmtes Tool nicht den Anforderungen entspricht, wechseln Sie zum nächsten Tool, um weitere Informationen zu erhalten.
 title: Welches Adobe Analytics-Tool sollte ich verwenden?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+TQID: https://experienceleague.adobe.com/xk485fKU7Q2DeZIYaTtN-a4JKnyVamAygW03z7ffAOk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 100%
+source-wordcount: 1175
+ht-degree: 67%
 
 ---
 
 # Welches Adobe Analytics-Tool sollte ich verwenden?
 
-Diese Hilfeseite enthält empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Die Tools sollten in der Reihenfolge der Liste verwendet werden. Wenn ein bestimmtes Tool Ihren Anforderungen nicht gerecht wird, wählen Sie stattdessen das nächste in der Liste aus.
+Auf dieser Hilfeseite finden Sie empfohlene Anwendungsfälle für jedes Adobe Analytics-Tool. Tools sollten in der Reihenfolge berücksichtigt werden, in der sie aufgeführt sind. Wenn ein bestimmtes Tool nicht den Anforderungen entspricht, wechseln Sie zum nächsten Tool, um weitere Informationen zu erhalten.
 
 Weitere Informationen zu Adobe Analytics-Produktvergleichen finden Sie unter [Analytics-Produktvergleich](/help/analyze/get-started/analytics-product-comparison.md).
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vergleich von Tools](https://video.tv.adobe.com/v/30167?quality=12&learn=on&captions=ger){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vergleich von Tools](https://video.tv.adobe.com/v/30167?captions=ger&quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -63,20 +87,20 @@ Das **[Data Insertion API (veraltet)](/help/import/c-data-insertion-api/c-data-i
 
 **[Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de)** sollten verwendet werden:
 
-* Wenn Sie Unternehmenskundendaten in einer Datenbank für Customer Relationship Management (CRM) speichern und die Daten in die Experience Cloud hochladen möchten.
-* Wenn Sie CRM-Daten für tiefgreifende Analysen in Analytics oder als Targeting-Kriterien in Adobe Target verwenden möchten.
+* Wenn Sie Enterprise-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen und diese Daten in CX Enterprise hochladen möchten.
+* Wenn Sie CRM-Daten für eine tiefer gehende Analyse in Analytics oder als Targeting-Kriterien in Adobe Target verwenden möchten.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** sollte verwendet werden:
 
 * Wenn Sie Zielgruppendaten von Adobe Audience Manager – wie beispielsweise demografische Daten (z. B. Geschlecht oder Einkommensniveau), psychografische Informationen (z. B. Interessen und Hobbys), CRM-Daten oder Ad-Impression-Daten – in einen beliebigen Analytics-Workflow einbetten möchten.
-* Wenn Sie möchten, dass hochgeladene CRM-Daten zeitbasiert sind, da diese Integration für jeden Treffer Daten an Analytics übermittelt.
+* Wenn hochgeladene CRM-Daten zeitbasiert sein sollen, da diese Integration neue Informationen per Treffer an Analytics sendet.
 
 ## Exportieren von Daten aus Adobe Analytics {#export}
 
 **[Report Builder](/help/analyze/report-builder/rb-overview.md)** sollte verwendet werden:
 
-* Wenn die individuellen Layoutoptionen von Workspace zu sehr einschränken (in Report Builder sind sämtliche Optionen möglich, die Excel bietet).
-* Zur lockeren Verknüpfung von Benutzereingaben oder Offline-Datenquellen (Impressionen, Kosten) mit Adobe-Daten. Eine dauerhaftere Lösung für das Einbinden von Daten sind Datenquellen (siehe „Importieren von Daten in Analytics“).
+* Wenn die angepassten Layout-Optionen von Workspace begrenzt sind (alles ist in Report Builder möglich, innerhalb der Grenzen von Excel).
+* So binden Sie Benutzereingaben oder Offline-Datenquellen (Impressions, Kosten) lose an Adobe-Daten an. Eine dauerhaftere Lösung für das Einbinden von Daten sind Datenquellen (siehe „Importieren von Daten in Analytics“).
 * Zum Zusammenführen von Daten aus verschiedenen dimensionalen Berichten (z. B. Kombination eines Berichts über Promo-Impressionen mit einem Bericht über den Klick-zu-Konversion-Verlauf bei einer Promo).
 * Zum Zusammenführen von Daten aus verschiedenen Report Suites, entweder durch Zusammenfassen oder durch paralleles Anzeigen in derselben Tabelle.
 * Wenn bei der Planung Automatisierung gewünscht wird (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
@@ -91,25 +115,25 @@ Das **[Data Insertion API (veraltet)](/help/import/c-data-insertion-api/c-data-i
 
 **[Analytics-Daten-Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** sollte verwendet werden:
 
-* Zur Nutzung des granularsten Daten-Feeds, der möglich ist (Besucher-ID, Treffer).
-* Wenn der Kunde Adobe-Dateien in einer clientseitigen Datenbank und so granular wie möglich speichern möchte.
-* Wenn der Kunde ein Business Intelligence-Tool entwickeln oder Adobe-Daten auf Trefferebene in ein Drittanbieter-Tool importieren möchte.
+* Um den detailliertesten Daten-Feed zu nutzen, den wir bereitstellen können (Besucher-ID, Treffer).
+* Wenn der Client Adobe-Daten in einer Client-seitigen Datenbank speichern möchte, können wir sie auf der detailliertesten Ebene senden.
+* Wenn der Client ein Business Intelligence-Tool (BI) entwickeln oder Adobe-Daten auf Trefferebene in ein Tool eines Drittanbieters eingeben möchte.
 
-**[Reporting-APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** sollten verwendet werden, wenn die anderen Visualisierungsoptionen Ihren Anforderungen nicht gerecht werden. Die 3 API-Optionen sind:
+**[Reporting-APIs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** sollten verwendet werden, wenn die anderen Visualisierungsoptionen Ihren Anforderungen nicht gerecht werden. Zu den drei API-Optionen gehören:
 
-* **Vollständig verarbeitet:** Wenn Sie umfangreiche Daten präsentieren möchten (einschließlich Besuchen, Besuchern und Segmenten). Dabei handelt es sich üblicherweise um in der Analytics-Benutzeroberfläche zusammengefasste Daten, die innerhalb von etwa 30–90 Minuten verfügbar sind. Die Verwendung ist überall im Report Builder möglich.
-* **Echtzeit:** Wenn Sie einige Metriken und Dimensionen mit nur wenigen Sekunden Latenz anzeigen möchten. Hierbei handelt es sich um begrenzte, teilweise verarbeitete, zusammengefasste Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Umfasst eindeutige Algorithmen für die beliebtesten Elemente, Gewinner und Verlierer. Die Verwendung ist überall im Report Builder möglich.
-* **[!UICONTROL Livestream]**: Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Hierbei handelt es sich um teilweise verarbeitete Daten, die innerhalb von etwa 30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Benötigt eine Option zur Visualisierung der Daten, üblicherweise mithilfe von Engineering Services.
+* **Vollständig verarbeitet**: wenn Sie funktionsreiche Daten benötigen (einschließlich Besuche, Besucher und Segmente). Dies sind in der Regel zusammengefasste Daten der Analytics-Benutzeroberfläche, die in ~30-90 Minuten verfügbar sind. Kann über Report Builder verwendet werden.
+* **Echtzeit**: wenn Sie einige Metriken und Dimensionen mit einer Latenz von Sekunden anzeigen möchten. Dies sind begrenzte, teilweise verarbeitete, zusammengefasste Daten, die innerhalb von ~30 Sekunden verfügbar sind. Enthält eindeutige Algorithmen der beliebtesten, Gewinner und Verlierer. Kann über Report Builder verwendet werden.
+* **[!UICONTROL Livestream]**: Wenn Sie einen Stream mit teilweise verarbeiteten Analytics-Daten auf Trefferebene innerhalb von Sekunden nach deren Erfassung benötigen. Dies sind teilweise verarbeitete Daten, die innerhalb von ~30 Sekunden verfügbar sind. Nur für Analytics Premium verfügbar. Erfordert eine Möglichkeit zur Visualisierung der Daten, normalerweise durch eine Engineering Services-Interaktion.
 
 ## Individuelle Lösungen {#custom-solutions}
 
 Engineering Services sollten in folgenden Fällen verwendet werden:
 
 * Die anderen Adobe-Tools entsprechen nicht Ihren Anforderungen.
-* Sie benötigen ein individuelles Erlebnis.
-* Sie benötigen eine vollständig automatisierte Lösung.
-* Sie möchten viele Geräte erreichen.
-* Sie verfügen über mehrere Datenquellen.
-* Sie haben komplizierte Daten-ETL-Anforderungen (Anforderungen für Extraktion, Transformation und Laden).
-* Sie benötigen individuelles Branding.
-* Sie möchten [!UICONTROL Analytics-Live-Stream] visualisieren.
+* Sie möchten ein benutzerdefiniertes Erlebnis.
+* Sie wollen eine vollautomatisierte Lösung.
+* Man will viele Geräte erreichen.
+* Es gibt mehrere Datenquellen.
+* Sie haben komplexe ETL-Anforderungen (Extract-Transform-Load) für Daten.
+* Sie möchten benutzerdefiniertes Branding.
+* Sie möchten &quot;[!UICONTROL &#x200B; Live Stream“ &#x200B;].

@@ -3,10 +3,26 @@ title: Richtlinie zur Datenaufbewahrung
 description: Eine Richtlinie zur Datenaufbewahrung bestimmt, wie lange Adobe Ihre Daten speichert.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 95%
+source-wordcount: 617
+ht-degree: 92%
 
 ---
 
@@ -14,7 +30,7 @@ ht-degree: 95%
 
 Von Adobe Analytics gesammelte Daten werden über einen bestimmten Zeitraum gespeichert. Der Zeitraum, über den Adobe diese Daten speichert, ist von Vertrag zu Vertrag unterschiedlich und wird in der Richtlinie zur Datenaufbewahrung des jeweiligen Unternehmens beschrieben. Diese Richtlinie gilt für die Daten selbst, was bedeutet, dass sie alle Analytics-Reporting-Funktionen (Analysis Workspace, Reporting-API usw.) betrifft.
 
-**Die Standardrichtlinie zur Datenspeicherung für Adobe Analytics ist auf einen Zeitraum von 25 Monaten festgelegt.** Die Aufbewahrungsrichtlinien Ihres Unternehmens können je nach Vertrag anders ausfallen.
+**Die standardmäßige Datenaufbewahrungsrichtlinie für Adobe Analytics beträgt 25 Monate.** Die Aufbewahrungsrichtlinie Ihres Unternehmens kann je nach Vertrag unterschiedlich sein.
 
 Die gespeicherten Daten basieren auf dem aktuellen Datum und dem Datum/der Uhrzeit der Verlaufsdaten. Datum und Uhrzeit, die bei Treffern aufgezeichnet werden, kann sich Datum und Uhrzeit der Treffer bei Adobe unterscheiden.
 
@@ -35,7 +51,7 @@ Sobald die Daten Ihre Datenaufbewahrungsrichtlinie überschreiten, behält Adobe
 
 ## Anzeigen/Verwalten der aktuellen Datenspeicherungsrichtlinie
 
-Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick darüber, welche Report Suites für Data Governance konfiguriert wurden. Es gibt auch an, ob sie einer Experience Cloud-Organisation zugeordnet wurden und ob eine Richtlinie zur Datenaufbewahrung für diese Report Suite vorhanden ist.
+Der Data Governance-Dialog in [!UICONTROL Admin] Tools bietet einen Überblick darüber, welche Report Suites für Data Governance konfiguriert wurden. Es gibt auch an, ob sie einer CX Enterprise-Organisation zugeordnet wurden und ob eine Datenaufbewahrungsrichtlinie für diese Report Suite vorhanden ist.
 
 ## Häufig gestellte Fragen
 

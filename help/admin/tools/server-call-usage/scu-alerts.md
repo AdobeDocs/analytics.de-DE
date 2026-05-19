@@ -4,10 +4,21 @@ title: Warnhinweise zur Nutzung von Server-Aufrufen
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: 517
+ht-degree: 49%
 
 ---
 
@@ -19,13 +30,13 @@ Warnhinweise zur Nutzung von Server-Aufrufen sind Teil der Benutzeroberfläche [
 
 Diese Kategorie enthält **standardmäßig einen Warnhinweis**, der innerhalb jedes Anmeldeunternehmens auftaucht, das Zugriff auf die Funktion „Nutzung der Server-Aufrufe“ hat. Dieser Warnhinweis löst eine Benachrichtigung an alle Administratoren des Anmeldeunternehmen aus, wenn eines der folgenden Kriterien erfüllt ist:
 
-* „Beliebige“ Nutzung der Server-Aufrufe, die bei „über oder gleich“ 100 % irgendeiner Art von Server-Aufrufen liegt, zu denen sie berechtigt sind, ODER
-* „Beliebige“ Nutzung der Server-Aufrufe, die bei „über oder gleich“ 90 % irgendeiner Art von Server-Aufrufen liegt, zu denen sie berechtigt sind, ODER
-* „Beliebige“ Nutzung der Server-Aufrufe, die bei „über oder gleich“ 75 % irgendeiner Art von Server-Aufrufen liegt, zu denen sie berechtigt sind, UND „Verbrauchte Nutzungsperiode“ liegt bei „unter oder gleich“ 75 % der Nutzungsperiode.
+* „Beliebige“ Nutzung der Server-Aufrufe, die 100 % über oder gleich für jeden Server-Aufruftyp ist, zu dem Sie berechtigt sind, ODER
+* „Beliebige“ Nutzung der Server-Aufrufe, die für jeden Server-Aufruftyp, zu dem Sie berechtigt sind, „größer oder gleich“ 90 % ist, ODER
+* „Jede“ Nutzung von Server-Aufrufen, die „über oder gleich“ 75 % für jeden Server-Aufruftyp beträgt, zu dem Sie berechtigt sind, UND „Verwendeter Zeitraum“ „ist unter oder gleich“ 75 % des Verwendungszeitraums.
 
 ![](/help/admin/tools/server-call-usage/assets/alerts.png)
 
-Sie können mithilfe von zwei Methoden auf die Warnhinweise zur Nutzung von Server-Aufrufen zugreifen:
+Sie können auf zwei Arten auf Warnhinweise zur Nutzung von Server-Aufrufen zugreifen:
 
 * Klicken Sie auf **[!UICONTROL Warnhinweise verwalten]** in der oberen rechten Ecke der Registerkarte „Aktuelle Nutzung“ oder der Registerkarte „Nutzung der Report Suite“; oder
 * Navigieren Sie in Adobe Analytics zu **[!UICONTROL Komponenten]** > **[!UICONTROL Warnhinweise]**.
@@ -43,17 +54,17 @@ Um zusätzliche Warnhinweise zu erstellen:
    ![](/help/admin/tools/server-call-usage/assets/sc_alert.png)
 
    * **Titel** Geben Sie einen beschreibenden Namen ein. Sie können einen Warnhinweis nicht ohne Namen speichern.
-   * **Zeitgranularität**: Bestimmt, wie oft der Warnhinweis überprüft wird. *Momentan unterstützen wir nur eine wöchentliche Granularität.* Das bedeutet, dass der Warnhinweis wöchentlich überprüft wird. Dabei werden die Daten der aktuellen Nutzungsperiode berücksichtigt.
+   * **Zeitgranularität**: Bestimmt, wie oft der Warnhinweis überprüft wird. *Derzeit wird nur die wöchentliche Granularität unterstützt.* Das bedeutet, dass der Warnhinweis wöchentlich überprüft wird und auf die Daten aus dem aktuellen Nutzungszeitraum zurückblickt.
    * **Empfänger**: Bestimmen Sie beliebige Personen aus der Organisation, die eine E-Mail erhalten sollen, wenn der Warnhinweis den festgelegten Schwellenwert überschreitet.
    * **Ablaufdatum**: Standardmäßig liegt das Ablaufdatum ein Jahr nach dem Erstellungsdatum des Warnhinweises.
    * **Warnhinweis senden, wenn**:
 
-      * eine dieser Metriken auslöst
-Fügen Sie hinzu, welche Art von Server-Aufruf(en) als Metrik dienen soll und legen Sie den Schwellenwert des Warnhinweises fest, indem Sie den Modifikator und den Schwellenwert auswählen:
+      * Trigger einer dieser Metriken
+Fügen Sie den Typ der Server-Aufrufe als Metrik hinzu und geben Sie den Warnschwellenwert an, indem Sie den Modifikator und den Schwellenwert auswählen:
          * ist größer oder gleich
          * ist kleiner oder gleich
-      * mit
-Legen Sie den Schwellenwert und die Bedingung (ist höher oder gleich oder niedriger oder gleich) für die verbrauchte Nutzungsperiode fest.
+      * Mit
+Geben Sie den Schwellenwert und die Bedingung (ist über oder gleich oder ist unter oder gleich) für den Verwendungszeitraum an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -61,20 +72,20 @@ Legen Sie den Schwellenwert und die Bedingung (ist höher oder gleich oder niedr
 
 ![](/help/admin/tools/server-call-usage/assets/alert_mgmt.png)
 
-Warnhinweise verwalten:
+So verwalten Sie Warnhinweise:
 
-1. Wählen Sie das Kästchen neben einem oder mehreren Warnhinweisen aus. Oben werden die Verwaltungsoptionen für Warnhinweise angezeigt.
-1. Führen Sie eine oder mehrere dieser Aktionen durch:
+1. Wählen Sie das Kästchen neben einem oder mehreren Warnhinweisen aus. Die Warnungsverwaltungsaktionen werden oben angezeigt.
+1. Führen Sie eine oder mehrere der folgenden Aktionen aus:
 
    | Aktion | Definition |
    |--- |--- |
    | + Hinzufügen | Die [Warnhinweiserstellung](/help/admin/tools/server-call-usage/scu-alerts.md) per Klick auf [!UICONTROL + Hinzufügen] öffnen. |
-   | Tag | Markieren Sie Warnhinweise, um sie leichter zu verwenden. |
-   | Löschen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises löschen. |
-   | Umbenennen | Sie können alle Warnhinweise mit Ausnahme des standardmäßigen Warnhinweises umbenennen. |
-   | Genehmigen | Genehmigen Sie Warnhinweise, um sie „offiziell“ zu machen. |
-   | Aktivieren/deaktivieren | Sie können alle Warnhinweise mit Ausnahme der standardmäßigen Warnhinweise aktivieren oder deaktivieren. |
-   | Verlängern | Wenn ein oder mehrere Warnhinweise ausgewählt sind, können sie verlängert werden. Dadurch wird ihr Ablaufdatum auf ein Jahr nach dem Tag, an dem auf [!UICONTROL Verlängern] geklickt wurde, verlängert, ungeachtet des ursprünglichen Ablaufdatums. |
+   | Tag | Markieren Sie Warnhinweise, um sie benutzerfreundlicher zu organisieren. |
+   | Löschen | Sie können alle Warnhinweise mit Ausnahme der Standardwarnhinweise löschen. |
+   | Umbenennen | Sie können alle Warnhinweise außer den Standardwarnhinweisen umbenennen. |
+   | Genehmigen | Genehmigen von Warnhinweisen, um sie „offiziell“ zu machen. |
+   | Aktivieren/Deaktivieren | Sie können alle Warnhinweise aktivieren oder deaktivieren, auch die Standardwarnhinweise. |
+   | Verlängern | Wenn ein oder mehrere Warnhinweise ausgewählt sind, können sie verlängert werden. Dadurch wird das Ablaufdatum unabhängig vom ursprünglichen Ablaufdatum auf 1 Jahr ab dem Tag [!UICONTROL Verlängern] verlängert. |
    | In CSV exportieren | Siehe [Nutzungsbericht herunterladen](/help/admin/tools/server-call-usage/report-suite-usage.md) |
 
    {style="table-layout:auto"}

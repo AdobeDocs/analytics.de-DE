@@ -4,10 +4,20 @@ description: Verwenden Sie Regeln, um zu bestimmen, zu welchem Marketing-Kanal e
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/3SrvkrKhoEvtanhB-bFKl2IAQ6wQzb1vpnC5kXivuu0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 3%
+source-wordcount: 822
+ht-degree: 4%
 
 ---
 
@@ -73,7 +83,7 @@ Beim Festlegen von Regelbedingungen sind die folgenden Optionen verfügbar.
 | **[!UICONTROL Verweisender Parameter]** | Ein Abfragezeichenfolgenparameter im Referrer. |
 | **[!UICONTROL Verweisende Stammdomäne]** | Die verweisende Stamm-Domain. |
 | **[!UICONTROL Suchmaschine]** | Die Dimension [Suchmaschine](/help/components/dimensions/search-engine.md) . |
-| **[!UICONTROL Suchbegriff(e)]** | Die Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md) . |
+| **[!UICONTROL Suchbegriff(e)]** | Die Dimension [Suchbegriff](/help/components/dimensions/search-keyword.md). |
 | **[!UICONTROL Suchmaschine + Suchbegriff(e)]** | Eine Verkettung aus Suchmaschine und Suchbegriff. |
 | **[!UICONTROL AMO-ID]** | Der von den Adobe Advertising- und Advertising Analytics-Integrationen verwendete primäre Trackingcode. Wenn eine dieser Integrationen aktiviert ist, kann das Trackingcode-Präfix verwendet werden, um Advertising-spezifische Kanäle zu identifizieren. Werte, die mit „AL“ beginnen, sind für Suche und Social. Werte, die mit „AC“ beginnen, sind für die Anzeige vorgesehen. Wenn die AMO-ID in Marketing-Kanälen verwendet wird, können Klick-/Kosten-/Impressionsmetriken dem richtigen Kanal zugeordnet werden. |
 | **[!UICONTROL AMO EF ID]** | Der von Adobe Advertising verwendete sekundäre Trackingcode. Dient als Schlüssel zum Zurücksenden von Daten an Advertising. Er kann verwendet werden, um Display-Clickthroughs und Display-Viewthroughs als zwei separate Marketing-Kanäle zu identifizieren. Legen Sie dazu fest, dass die Marketing-Kanal-Logik für „AMO EF ID“ mit `:d` für Display-Clickthroughs endet, oder „AMO EF ID“ mit `:i` für Display-View-Throughs. Wenn die Anzeige nicht in zwei Kanäle aufgeteilt werden soll, verwenden Sie stattdessen die AMO ID-Dimension. |

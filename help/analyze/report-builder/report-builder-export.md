@@ -6,9 +6,25 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: da7b4568fcdb03ff97437879e84a1ed45749494d
+TQID: https://experienceleague.adobe.com/GQb-eyhHPlUC3rweaoprqj6LO34gSymgC1buu2gl9iw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: 1263
 ht-degree: 33%
 
 ---
@@ -46,7 +62,7 @@ So exportieren Sie Berichte aus Report Builder:
 
 1. Falls noch nicht geschehen, konfigurieren Sie ein Exportkonto und einen Speicherort, wie unter [Konfigurieren von Cloud-Exportkonten](/help/components/locations/configure-import-accounts.md) beschrieben.
 
-1. Öffnen Sie in der Excel-Tabelle, die die zu exportierenden Daten enthält, das rechte Bedienfeld {**[!UICONTROL }Adobe Report Builder.]**
+1. Öffnen Sie in der Excel-Tabelle, die die zu exportierenden Daten enthält, das rechte Bedienfeld {**}Adobe Report Builder.**
 
 1. Wählen Sie [!UICONTROL **Zeitplan**] aus.
 
@@ -56,7 +72,7 @@ So exportieren Sie Berichte aus Report Builder:
 
    Um die Arbeitsmappe nach einem Zeitplan zu exportieren, den Sie bereits erstellt haben, wählen Sie den Zeitplan aus der Liste der Zeitpläne aus und klicken Sie auf **[!UICONTROL Planmäßig senden]**.
 
-1. Geben Sie im rechten Bedienfeld [!UICONTROL **0&rbrace;Adobe Report Builder&quot; die folgenden Informationen an, um mit der Erstellung eines neuen Zeitplans fortzufahren:**]
+1. Geben Sie im rechten Bedienfeld **0&rbrace;Adobe Report Builder&quot; die folgenden Informationen an, um mit der Erstellung eines neuen Zeitplans fortzufahren:**
 
    ![Registerkarte Report Builder-Zeitpläne](assets/report-builder-schedule-cloud.png)
 
@@ -98,7 +114,7 @@ Das Exportieren von Adobe Analytics-Daten in die Cloud ermöglicht Ihnen Folgend
 
 * Strukturieren Sie die Datenausgabe als verkettete Werte.
 
-* Einmalige oder geplante Exporte
+* Exportieren Sie einmalig oder gemäß einem Zeitplan.
 
 * Exportieren Sie Dateien im Excel-, PDF- oder CSV-Format.
 

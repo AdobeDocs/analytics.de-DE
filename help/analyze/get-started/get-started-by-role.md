@@ -38,10 +38,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 99%
+source-wordcount: 1699
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ Analytics-Admins sollten die folgenden Aufgaben ausführen, bevor sie Adobe Anal
 | Verwalten von Komponenten | Verwenden Sie das Datenwörterbuch und die Verwaltungsbereiche für jeden Komponententyp, um zu definieren, welche Komponenten in Ihrer Analytics-Implementierung verfügbar sind und welche für Ihr Unternehmen genehmigt sind.<p>Dies sollte eine fortlaufende Aktivität sein, um sicherzustellen, dass Komponenten in Ihrem Unternehmen effektiv verwendet werden. </p> | <ul><li>[Datenwörterbuch – Überblick](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Manager für berechnete Metriken](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Verwalten von Segmenten](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Erstellen von benutzerdefinierten Datumsbereichen](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | Anomalieerkennung | Die Anomalieerkennung bietet eine statistische Methode, mit der festgestellt wird, wie sich eine bestimmte Metrik in Bezug auf frühere Daten verändert hat. | [Übersicht über die Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Beitragsanalyse | Die Beitragsanalyse erkennt versteckte Muster, mit denen sich statistische Anomalien erklären und Korrelationen für nicht erwartete Kundenaktionen, Wertbereichsüberschreitungen und plötzliche Anstiege oder Rückgänge für ausgewählte Metriken in konvergenten Zielgruppensegmenten feststellen lassen. | [Übersicht über die Beitragsanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Analytics-Segmentierung | Damit können Sie leistungsstarke, fokussierte Zielgruppensegmente erstellen, verwalten, freigeben und anwenden, um mithilfe von Analytics-Funktionen, Adobe Experience Cloud, Adobe Target und anderen integrierten Adobe-Produkten Berichte zu erstellen. | [Analytics-Segmentierung](/help/components/segmentation/seg-home.md) |
+| Analytics-Segmentierung | Mit können Sie mit Analysefunktionen, Adobe CX Enterprise, Adobe Target und anderen integrierten Adobe-Produkten leistungsstarke, zielgerichtete Zielgruppensegmente erstellen, verwalten, freigeben und auf Ihre Berichte anwenden. | [Analytics-Segmentierung](/help/components/segmentation/seg-home.md) |
 | Veröffentlichen von Zielgruppen in Audience Manager | Adobe Audience Manager ist eine leistungsfähige Datenverwaltungsplattform, mit deren Hilfe Sie eindeutige Zielgruppenprofile durch Integration von Daten aus erster, zweiter (Partner) und dritter Hand aufbauen können. | [Audience Analytics-Übersicht](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | Integrationen | Sie können Informationen aus anderen Anwendungen in Adobe Analytics anzeigen lassen. <p>Im Folgenden finden Sie einige gängige Integrationen:</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview">Streaming-Mediendienste</a></li> | [Analytics-Integration](/help/integrate/home.md) |
 

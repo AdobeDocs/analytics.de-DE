@@ -5,10 +5,28 @@ title: Freigeben von Projekten
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 94%
+source-wordcount: 2059
+ht-degree: 88%
 
 ---
 
@@ -60,9 +78,9 @@ Sie können eine bestimmte Rolle für Benutzende oder Gruppen freigeben oder ein
 
 Beachten Sie beim Freigeben einer bestimmten Projektrolle für Benutzende und Gruppen in Ihrer Organisation Folgendes:
 
-* Projektrollen (**[!UICONTROL Original bearbeiten]**, **[!UICONTROL Kopie bearbeiten]** und **[!UICONTROL Schreibgeschützt]**) sind an die Benutzenden und die spezifische Projekt-ID gebunden. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) verwaltet werden.
+* Projektrollen (**[!UICONTROL Original bearbeiten]**, **[!UICONTROL Kopie bearbeiten]** und **[!UICONTROL Schreibgeschützt]**) sind an die Benutzenden und die spezifische Projekt-ID gebunden. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe CX Enterprise Admin Console verwaltet &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
 
-* In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) definiert. Die von Administrierenden durchgeführte Freigabe ist für jede Gruppe möglich, einschließlich „Alle“. Nichtadministrierende können Freigaben für Gruppen durchführen, denen sie angehören (mit Ausnahme von „Alle“).
+* In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) definiert. Die von Administrierenden durchgeführte Freigabe ist für jede Gruppe möglich, einschließlich „Alle“. Nichtadministrierende können Freigaben für Gruppen durchführen, denen sie angehören (mit Ausnahme von „Alle“).
 
 * Benutzende, denen mehrere Rollen zugewiesen sind, erhalten immer die maximale Berechtigung. Dies kann vorkommen, wenn Benutzende sowohl als Einzelpersonen als auch als Gruppenmitglieder hinzugefügt werden. Wenn Benutzenden beispielsweise die Rolle **[!UICONTROL Original bearbeiten]** als Einzelpersonen und die Rolle **[!UICONTROL Schreibgeschützt]** als Gruppenmitgliedern zugewiesen wird, erhalten sie die Projektberechtigung **[!UICONTROL Original bearbeiten]**.
 
@@ -131,8 +149,8 @@ So geben Sie den Projekt-Link für Personen in Ihrer Organisation frei:
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Experience Cloud-Authentifizierung verlangen"
->abstract="Ihr Unternehmen verlangt, dass sich Benutzende bei Experience Cloud anmelden, um diesen Link verwenden zu können."
+>title="CX Enterprise-Authentifizierung verlangen"
+>abstract="Ihr Unternehmen verlangt, dass sich Benutzer bei CX Enterprise anmelden, um diesen Link verwenden zu können."
 
 Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) auf Analysis Workspace-Projekte für Personen freischalten, die keinen Zugriff auf Adobe Analytics haben. Dazu können gehören:
 
@@ -180,15 +198,15 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
 1. Wählen Sie aus, ob die folgende Sicherheitsoption aktiviert werden soll (diese Option kann von Ihren Analytics-Admins gesteuert werden):
 
-   * **[!UICONTROL Experience Cloud-Authentifizierung verlangen]:**
+   * **[!UICONTROL CX Enterprise-Authentifizierung erforderlich]:**
 
-     Wenn diese Option aktiviert ist, können nur Personen auf das Projekt zugreifen, die sich bei der Adobe Experience Cloud-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Für Benutzende, für die Sie es freigeben, ist jedoch kein Zugriff auf Adobe Analytics erforderlich.
+     Wenn diese Option aktiviert ist, können nur diejenigen Benutzer auf das Projekt zugreifen, die sich bei der Adobe CX Enterprise-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Für Benutzende, für die Sie es freigeben, ist jedoch kein Zugriff auf Adobe Analytics erforderlich.
 
      Analytics-Admins können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md) beschrieben. Je nachdem, wie die Admins diese Option konfiguriert haben, können die folgenden Szenarien auftreten:
 
       * Wenn diese Option nicht angezeigt wird, haben Ihre Analytics-Admins diese Funktion nicht aktiviert.
 
-      * Wenn diese Option aktiviert und abgeblendet ist, benötigen Ihre Analytics-Admins eine Experience Cloud-Authentifizierung für alle, die auf Analysis Workspace-Projekte zugreifen.
+      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator für alle, die auf Analysis Workspace-Projekte zugreifen, die CX Enterprise-Authentifizierung.
 
 1. Klicken Sie neben dem Feld **[!UICONTROL Für alle freigeben (keine Anmeldung erforderlich)]** auf das Symbol **Link kopieren** ![Symbol „Link kopieren“](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg), um den Link in die Zwischenablage Ihres Systems zu kopieren.
 
