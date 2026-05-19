@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
-user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. das Verwalten von Benutzern und Produkten in der Experience Cloud Admin Console, das Konfigurieren von Report Suites und mehr.
-source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
+user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. die Verwaltung von Benutzenden und Produkten in der CX Enterprise Admin Console, die Konfiguration von Report Suites und mehr.
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Administratorhandbuch für Adobe Analytics {#admin}
 
 + [Administratorhandbuch für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Adobe Admin Console {#admin-console}
    + [Überblick](admin-console/home.md)
    + [Adobe Analytics-Handbuch für erste Administratoren](admin-console/first-admin-guide.md)

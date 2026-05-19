@@ -5,24 +5,19 @@ feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/x3NtfziIBWYyzUcbWk6QUjLjgTJBhdmyNl5KqfLXkdg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 97%
+source-wordcount: 520
+ht-degree: 91%
 
 ---
 
 # Erstellen einer Tag-Eigenschaft in Adobe Analytics
 
-Mit Tags in Adobe Experience Platform können Sie Experience Cloud-Lösungen auf Ihrer Website integrieren (einschließlich Analytics). Auf dieser Seite wird erläutert, wie ein Tag-Administrator eine grundlegende Adobe Analytics-Implementierung ordnungsgemäß konfigurieren kann.
+Mit Tags in Adobe Experience Platform können Sie CX Enterprise-Lösungen auf Ihrer Website integrieren (einschließlich Analytics). Auf dieser Seite wird erläutert, wie ein Tag-Administrator eine grundlegende Adobe Analytics-Implementierung ordnungsgemäß konfigurieren kann.
 
 ## Voraussetzungen
 
@@ -38,7 +33,7 @@ Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verw
 1. Klicken Sie auf die neu erstellte Tag-Eigenschaft, um deren Einstellungen einzugeben.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Erweiterungen]** und dann auf **[!UICONTROL Katalog]**.
 1. Suchen Sie nach „Experience Cloud-ID-Dienst“ und klicken Sie auf **[!UICONTROL Installieren]**.
-1. Alle Einstellungen, einschließlich Experience Cloud-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Alle Einstellungen, einschließlich der CX Enterprise Organization ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf **[!UICONTROL Installieren]**.
 
 Weitere Informationen finden Sie in der vollständigen Dokumentation zur [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de).

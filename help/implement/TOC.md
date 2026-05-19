@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Handbuch für die Implementierung von Adobe Analytics {#implementation}
 
 + [Implementierungshandbuch für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + [Versionshinweise für AppMeasurement](appmeasurement-updates.md)
 + Analytics-Variablen, -Funktionen und -Methoden {#vars}
    + [Überblick](vars/overview.md)
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins   {#plugins}
+   + Plug-ins {#plugins}
       + [Übersicht über Plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [Zuordnen von Tag-Datenelementen zu Analytics-Variablen](launch/elements-to-variable.md)
 + Implementieren von Analytics mit JavaScript {#js}
    + [JavaScript-Übersicht](js/overview.md)
-   + {hide-from-toc}[Implementieren von Ausschluss-Links](js/opt-out.md)
+   + {hide-from-toc}[Implementieren von Opt-out-Links](js/opt-out.md)
    + [Variablenüberschreibungen](js/overrides.md)
    + [Aus H-Code migrieren](js/migrate-from-hcode.md)
    + H-Code {#h-code}
@@ -198,7 +198,7 @@ ht-degree: 100%
    + [AppMeasurement mit iFrames verwenden](use-cases/iframe.md)
    + [Kampagnen-Tracking-Workflow](use-cases/campaign-tracking.md)
 + Validieren der Implementierung {#validate}
-   + [Legacy Adobe Experience Cloud-Debugger](validate/debugger.md)
+   + [Legacy-Debugger](validate/debugger.md)
    + [Datenerfassungs-Abfrageparameter](validate/query-parameters.md)
    + [Paketmonitore](validate/packet-monitor.md)
    + [Hash-Kollisionen](validate/hash-collisions.md)

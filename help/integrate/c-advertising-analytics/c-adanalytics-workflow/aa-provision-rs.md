@@ -1,32 +1,27 @@
 ---
-description: Konfigurieren Sie eine Report Suite, die Experience Cloud zugeordnet ist, für die Verwendung in Advertising Analytics.
+description: Konfigurieren einer zugeordneten Report Suite von CX Enterprise für die Verwendung in Advertising Analytics.
 title: Report Suite für Advertising Analytics aktivieren
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 TQID: https://experienceleague.adobe.com/sGEXiz2RiDhf9p-2df76o-XxBERTKPB-O-rZeIb4BBI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
 source-wordcount: 268
-ht-degree: 27%
+ht-degree: 18%
 
 ---
 
 # Report Suite für Advertising Analytics aktivieren
 
-Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Report Suite mit Experience Cloud-Zuordnung für Advertising Analytics-Berichte konfigurieren.
+Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede von CX Enterprise zugeordnete Report Suite für das Reporting in Advertising Analytics konfigurieren.
 
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Wählen Sie die Report Suite aus, die Ihrer Experience Cloud-Organisation zugeordnet ist.
+1. Wählen Sie die Report Suite aus, die Ihrer CX Enterprise-Organisation zugeordnet ist.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**.
 
    ![Berichterstellung](assets/aa-reporting.png)
@@ -40,4 +35,4 @@ Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Rep
    | **[!UICONTROL Zuordnung]** | Auswählen zwischen:<br/> **[!UICONTROL Ausgangswert (Erste)]**: Der erste angezeigte Wert erhält eine vollständige Zuordnung, unabhängig davon, welche nachfolgenden Werte für diese Variable sind. <br/>**[!UICONTROL Zuletzt verwendet (Letzte)]**: Der zuletzt angezeigte Wert erhält die volle Zuordnung für das Erfolgsereignis, unabhängig davon, welche Variablen zuvor ausgelöst wurden. |
    | **[!UICONTROL Läuft ab nach]** | Hier können Sie einen Zeitraum oder ein Ereignis angeben, nach dem der eVar-Wert abläuft (d. h. nicht mehr für Erfolgsereignisse angerechnet wird).  Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. |
 
-1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (erstes Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (nachfolgende Male). Ihre Report Suite ist jetzt für den Empfang von Advertising Analytics-Suchdaten bereit. Sie können jetzt &quot;[&#x200B; Advertising-Konten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (erstes Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (nachfolgende Male). Ihre Report Suite ist jetzt für den Empfang von Advertising Analytics-Suchdaten bereit. Sie können jetzt &quot;[ Advertising-Konten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

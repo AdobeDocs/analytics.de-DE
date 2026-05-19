@@ -5,20 +5,15 @@ feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 role: Admin
 TQID: https://experienceleague.adobe.com/bD-qiEI3KbDBNe4aO01-MqzjoZ-OMcGAnd9vnMTBmZs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 78%
+source-wordcount: 405
+ht-degree: 72%
 
 ---
 
@@ -28,7 +23,7 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
 
 >[!NOTE]
 >
->Versuchen Admins, die nicht über die Experience Cloud angemeldet sind, auf das Benutzer-ID-Migrations-Tool zuzugreifen, werden sie zur Experience Cloud-Anmeldeseite weitergeleitet.
+>Wenn ein Administrator, der nicht bei CX Enterprise angemeldet ist, versucht, auf das Tool für die Benutzer-ID-Migration zuzugreifen, wird er zur Anmeldeseite von CX Enterprise weitergeleitet.
 
 1. Navigieren Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Benutzer-ID-Migration]**.
 
@@ -52,7 +47,7 @@ Migrieren Sie Benutzer aus dem vormaligen Analytics User Management-System in di
    </tr> 
    <tr> 
       <td colname="col1"> <p>Legacy-Anmeldung deaktiviert </p> </td> 
-      <td colname="col2"> <p>Ältere Anmeldedaten mit einer Unternehmens-ID sind deaktiviert. Benutzende greifen nun mit ihrer Adobe ID oder Enterprise ID auf die Experience Cloud zu. Wenn alle Benutzer diese Phase erreicht haben, ist die Migration abgeschlossen. </p> <p>Bei der Migration ist die bisherige Anmeldung deaktiviert. Benutzer werden zu <span class="filepath">experiencecloud.adobe.com</span> umgeleitet und müssen sich mit der Adobe ID oder Enterprise ID anmelden. </p> </td> 
+      <td colname="col2"> <p>Ältere Anmeldedaten mit einer Unternehmens-ID sind deaktiviert. Anwender greifen jetzt über ihre Adobe ID oder Enterprise ID auf CX Enterprise zu. Wenn alle Benutzer diese Phase erreicht haben, ist die Migration abgeschlossen. </p> <p>Bei der Migration ist die bisherige Anmeldung deaktiviert. Benutzer werden zu <span class="filepath">experiencecloud.adobe.com</span> umgeleitet und müssen sich mit der Adobe ID oder Enterprise ID anmelden. </p> </td> 
    </tr> 
    </tbody> 
    </table>

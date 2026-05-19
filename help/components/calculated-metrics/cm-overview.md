@@ -5,18 +5,11 @@ title: Berechnete Metriken – Überblick
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 317
 ht-degree: 75%
@@ -29,7 +22,7 @@ Berechnete Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Me
 
 Berechnete Metriken sind benutzerdefinierte Metriken, die Sie aus vorhandenen Metriken erstellen können. Berechnete Metriken bieten eine flexible Möglichkeit zum Erstellen, Verwalten und Kuratieren benutzerdefinierter Metriken, mit denen Sie Ihre Daten analysieren können, ohne Ihre Implementierung ändern zu müssen.
 
-Berechnete Metriken sind in jedem [!DNL Analytics] verfügbar, das Adobe Analytics Foundation Pack für Experience Cloud ist jedoch auf grundlegende berechnete Metriken beschränkt, einschließlich [Formattypen (Dezimal, Zeit, Prozent, Währung)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [Zuordnungsänderungen (Standard, Linear, Teilnahme usw.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [Metriktypen (Standard, Gesamt)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) und [Grundoperatoren](workflow/c-build-metrics/cm-build-metrics.md#operators) (Hinzufügen, Subtrahieren, Multiplizieren und Dividieren).
+Berechnete Metriken sind in jedem [!DNL Analytics] verfügbar. Das Adobe Analytics Foundation Pack für CX Enterprise ist jedoch auf grundlegende berechnete Metriken beschränkt, einschließlich [Formattypen (Dezimal, Zeit, Prozent, Währung)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [Zuordnungsänderungen (Standard, Linear, Teilnahme usw.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [Metriktypen (Standard, Gesamt)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) und [Grundoperatoren](workflow/c-build-metrics/cm-build-metrics.md#operators) (hinzufügen, subtrahieren, multiplizieren und teilen).
 
 
 Weitere Informationen finden Sie in der [Produktbeschreibung für Adobe Analytics](https://helpx.adobe.com/de/legal/product-descriptions/adobe-analytics.html).
@@ -71,13 +64,13 @@ Einige Funktionen von [!DNL Analytics] erlauben die Verwendung von berechneten M
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Berechnete Metriken](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} finden Sie ein Demovideo.
+Unter ![Videosymbol](/help/assets/icons/VideoCheckedOut.svg) [Segmentierte berechnete Metriken in Segmenten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

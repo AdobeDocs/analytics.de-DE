@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie, wie Sie mit Daten-Feeds und Data Warehouse die Ausgabe von Daten abrufen.
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 # Exportleitfaden für Adobe Analytics {#export}
 
 + [Exportleitfaden für Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Analytics-Daten-Feed {#analytics-data-feed}
    + [Daten-Feed-Übersicht](analytics-data-feed/data-feed-overview.md)
    + [Erstellen eines Daten-Feeds](analytics-data-feed/create-feed.md)
@@ -51,7 +51,7 @@ ht-degree: 99%
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
    + [Best Practices für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
-   + [Verwenden von FTP und SFTP mit der Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+   + [FTP und SFTP mit Adobe CX Enterprise verwenden](ftp-and-sftp/ftp-overview.md)
    + Einrichten von durch Adobe gehostete FTP-Konten {#set-up-ftp-accounts}
       + [FTP-Konten einrichten – Übersicht](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Klassifizierungen](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
@@ -73,4 +73,4 @@ ht-degree: 99%
       + [Adobe-Daten an ein externes FTP-Konto mit SFTP senden](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Data Warehouse-Anforderungen an SFTP-Server senden](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Verbindung zu Adobe über SFTP ohne Kennwort herstellen](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [Adobe Analytics-API](https://developer.adobe.com/analytics-apis/docs/2.0/)

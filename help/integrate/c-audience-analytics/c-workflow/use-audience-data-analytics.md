@@ -1,18 +1,14 @@
 ---
 description: Sie können die Adobe Audience Manager-Zielgruppendimensionen in Analytics verwenden. Die integrierten Segmente sind neue Analytics-Dimensionen namens Zielgruppen-ID und Zielgruppenname und können wie jede andere Dimension verwendet werden, die von Analytics erfasst wird. In Daten-Feeds werden die Zielgruppen-IDs in der Spalte „mc_audiences“ gespeichert. Diese Dimensionen sind derzeit nicht in Data Workbench oder Livestream verfügbar. Nachfolgend finden Sie einige Beispiele dafür, wie die Zielgruppen-Dimensionen verwendet werden können
-solution: Experience Cloud
+solution: Analytics
 title: Zielgruppendaten in Analytics verwenden
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 TQID: https://experienceleague.adobe.com/HrTqqIUJD3KivNI331cWjeyWSPA3ZT2k05KZJulAhDs
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
 source-wordcount: 570
 ht-degree: 54%
@@ -69,7 +65,7 @@ Zielgruppen können außerdem für [Fallout-Visualisierungen](/help/analyze/anal
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Venn]** aus.
 
-1. Suchen Sie [!UICONTROL &#x200B; Komponentenmenü nach &#x200B;]Zielgruppenname“.
+1. Suchen Sie [!UICONTROL  Komponentenmenü nach ]Zielgruppenname“.
 1. Öffnen Sie [!UICONTROL Zielgruppenname], damit die zugehörigen Dimensionselemente angezeigt werden.
 1. Ziehen Sie die Zielgruppen, die Sie vergleichen möchten, in den Venn Builder.
 1. (Optional): Sie können auch andere Dimensionselemente oder Segmente einbringen; bis zu 3 können verglichen werden.

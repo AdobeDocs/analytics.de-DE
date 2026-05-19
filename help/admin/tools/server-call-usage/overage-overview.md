@@ -5,23 +5,15 @@ feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 43%
+source-wordcount: 1013
+ht-degree: 39%
 
 ---
 
@@ -60,7 +52,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abrechnungsunternehmen (Abrechnungs-ID) </p> </td> 
-   <td colname="col2"> <p>Die rechtliche Organisation, der die Server-Aufrufe in Rechnung gestellt werden. Zum Beispiel adobe.com. Jede Abrechnungsunternehmen hat eine Abrechnungs-ID, die verwendet wird, um den Abrechnungskunden eindeutig zu identifizieren. Eine Abrechnungs-ID kann mit mehreren Experience Cloud-Organisationen verknüpft sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID. </p> </td> 
+   <td colname="col2"> <p>Die rechtliche Organisation, der die Server-Aufrufe in Rechnung gestellt werden. Zum Beispiel adobe.com. Jede Abrechnungsunternehmen hat eine Abrechnungs-ID, die verwendet wird, um den Abrechnungskunden eindeutig zu identifizieren. Eine Abrechnungs-ID kann mit mehreren CX Enterprise-Organisationen verknüpft sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anmeldeunternehmen </p> </td> 
@@ -73,8 +65,8 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
     </ul> <p>Hinweis: Die Nutzungsdaten von Server-Aufrufen für <u>alle</u> Report Suites innerhalb eines Abrechnungsunternehmens sind für alle Benutzer mit der entsprechenden <a href="/help/admin/tools/server-call-usage/overage-overview.md">Berechtigung</a> einsehbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud-Organisation </p> </td> 
-   <td colname="col2"> <p>Eine Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. </p> <p>Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. </p> </td> 
+   <td colname="col1"> <p>CX Enterprise-Organisation </p> </td> 
+   <td colname="col2"> <p>Eine Organisation ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern. Die Organisation agiert als Login-Unternehmen, das alle CX Enterprise-Produkte und -Lösungen umfasst. </p> <p>Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbindlichkeit für Server-Aufrufe </p> </td> 
@@ -104,7 +96,7 @@ Die Berechtigung zur Nutzung von Server-Aufrufen wird automatisch Analytics-Admi
   <tr> 
    <th colname="col1" class="entry"> Berechtigungsname </th> 
    <th colname="col3" class="entry"> Berechtigung erteilen, wenn Sie bei Adobe Analytics angemeldet sind (veraltete Anmeldung) </th> 
-   <th colname="col4" class="entry"> Berechtigung erteilen, wenn Sie bei Adobe Experience Cloud angemeldet sind </th> 
+   <th colname="col4" class="entry"> Berechtigung erteilen, wenn Sie bei Adobe CX Enterprise angemeldet sind </th> 
   </tr> 
  </thead>
  <tbody> 

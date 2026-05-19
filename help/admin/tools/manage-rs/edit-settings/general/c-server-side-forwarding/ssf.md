@@ -1,36 +1,29 @@
 ---
-description: Die Server-seitige Weiterleitung wurde für Kunden entwickelt, die Daten aus Analytics in Echtzeit für andere Experience Cloud-Lösungen freigeben möchten. Bei entsprechender Aktivierung ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
+description: Die Server-seitige Weiterleitung wurde für Kunden entwickelt, die Daten aus Analytics in Echtzeit für andere CX Enterprise-Lösungen freigeben möchten. Wenn diese Option aktiviert ist, ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Pushen von Daten an andere CX Enterprise-Lösungen und diese Lösungen das Pushen von Daten an Analytics.
 solution: Analytics
 title: Übersicht über die Server-seitige Weiterleitung
 feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
 TQID: https://experienceleague.adobe.com/O03-5Ovxy3Lq-LZjPOseTpOlCXaS1kwD8n2ZM1yJuxY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 69%
+ht-degree: 60%
 
 ---
 
 # Übersicht über die Server-seitige Weiterleitung
 
-Die Server-seitige Weiterleitung wurde für Kunden entwickelt, die Daten aus Analytics in Echtzeit für andere Experience Cloud-Lösungen freigeben möchten. Bei entsprechender Aktivierung ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Übergeben von Daten an andere Experience Cloud-Lösungen und diesen Lösungen das Übergeben von Daten an Analytics.
+Die Server-seitige Weiterleitung wurde für Kunden entwickelt, die Daten aus Analytics in Echtzeit für andere CX Enterprise-Lösungen freigeben möchten. Wenn diese Option aktiviert ist, ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Pushen von Daten an andere CX Enterprise-Lösungen und diese Lösungen das Pushen von Daten an Analytics.
 
 Die Server-seitige Weiterleitung verbessert die Datenerfassung, da sie:
 
 * Reduziert Aufrufe von der Seite. Mit der serverseitigen Weiterleitung müssen Kunden von [!DNL Audience Manager] für die Datenerfassung nicht mehr DIL verwenden, weil die Weiterleitung über Analytics erfolgt. Das Entfernen von DIL bedeutet, einen `"/event"`-Aufruf zu entfernen. Weniger Aufrufe helfen, die Seitenladezeiten zu verbessern, was zu einem besseren Kundenerlebnis auf Ihrer Site führt.
-* Ermöglicht die gemeinsame Nutzung von Daten durch Experience Cloud-Lösungen.
+* Ermöglicht die gemeinsame Nutzung von Daten zwischen CX Enterprise-Lösungen.
 * Konformität mit unseren Best Practices für die Implementierung und Bereitstellung von Audience Manager-Code.
 
 >[!TIP]
@@ -82,4 +75,4 @@ Gehen Sie zu **Analytics** > **Admin** > **Report Suites** > (**Report Suites** 
 
 >[!NOTE]
 >
->In anderen Experience Cloud-Lösungen wie [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de) oder [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) werden erst Daten angezeigt, nachdem alle drei Schritte abgeschlossen wurden. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
+>Daten werden erst dann in anderen CX Enterprise-Lösungen wie [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=de) oder [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) angezeigt, wenn alle drei Schritte abgeschlossen sind. Nach der Aktivierung dauert es mehrere Stunden, bis diese Einstellungen wirksam werden.
