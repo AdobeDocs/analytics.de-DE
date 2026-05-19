@@ -4,9 +4,13 @@ title: Segmente verwalten
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 567
@@ -39,12 +43,12 @@ In der ➊ „Segmentliste“ werden alle Segmente angezeigt, deren Inhaber Sie 
 
 | Spalte | Beschreibung |
 | --- | --- |
-| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus, ![ ein Segment ](/help/assets/icons/Star.svg)StarOutline![ zu bevorzugen oder ](/help/assets/icons/StarOutline.svg). Siehe [Segment als Favorit markieren](t-seg-favorite.md) |
-| **[!UICONTROL Titel und Beschreibung]** | Um das Segment zu bearbeiten, klicken Sie auf den Titel-Link, der den [Segment Builder“ ](seg-build.md). Ein freigegebenes Segment wird mit &quot;![&quot; ](/help/assets/icons/ShareAlt.svg). |
+| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus, ![&#x200B; ein Segment &#x200B;](/help/assets/icons/Star.svg)StarOutline![&#x200B; zu bevorzugen oder &#x200B;](/help/assets/icons/StarOutline.svg). Siehe [Segment als Favorit markieren](t-seg-favorite.md) |
+| **[!UICONTROL Titel und Beschreibung]** | Um das Segment zu bearbeiten, klicken Sie auf den Titel-Link, der den [Segment Builder“ &#x200B;](seg-build.md). Ein freigegebenes Segment wird mit &quot;![&quot; &#x200B;](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Report Suites]** | Die Report Suite, für die dieses Segment gilt. |
 | **[!UICONTROL Inhabende]** | Der Inhaber des Segments. Als Benutzer sehen Sie nur die Segmente, deren Inhaber Sie sind, oder die Anmerkungen, die für Sie freigegeben wurden. |
 | **[!UICONTROL Tags]** | Die Tags für dieses Segment. |
-| **[!UICONTROL Freigegeben für]** | Wie viele Einzelpersonen oder Gruppen Sie das Segment freigegeben haben. Wählen Sie diese Option aus, um das Dialogfeld **[!UICONTROL Komponente freigeben]** zu öffnen. Weitere Informationen finden [ unter ](t-seg-share.md) von Segmenten . |
+| **[!UICONTROL Freigegeben für]** | Wie viele Einzelpersonen oder Gruppen Sie das Segment freigegeben haben. Wählen Sie diese Option aus, um das Dialogfeld **[!UICONTROL Komponente freigeben]** zu öffnen. Weitere Informationen finden [&#x200B; unter &#x200B;](t-seg-share.md) von Segmenten . |
 | **[!UICONTROL Veröffentlicht]** | Ob das [Segment veröffentlicht](seg-publish.md) in CX Enterprise veröffentlicht wird. |
 | **[!UICONTROL Änderungsdatum]** | Datum und Uhrzeit der letzten Änderung des Segments. |
 
@@ -56,13 +60,13 @@ Sie können Aktionen für Segmente mithilfe der Aktionsleiste ➋. Die Aktionsle
 
 | Aktion | Beschreibung |
 |---|---|
-| ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** | Fügen Sie mit dem [Segment Builder“ ein weiteres Segment ](seg-build.md). |
+| ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** | Fügen Sie mit dem [Segment Builder“ ein weiteres Segment &#x200B;](seg-build.md). |
 | ![Suchen](/help/assets/icons/Search.svg) [!UICONTROL *Nach Titel suchen*] | Wenn kein Segment in der Liste ausgewählt ist, suchen Sie mithilfe dieses Suchfelds nach Segmenten. |
-| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tagging der ausgewählten Segmente. Wählen Sie im **[!UICONTROL Segment]**-Dialogfeld die Tags für die ausgewählten Segmente aus bzw. heben Sie die Auswahl auf. Wählen Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten Segmente zu speichern. Weitere Informationen finden [ unter ](seg-tag.md) von Segmenten . |
-| ![Freigeben](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Freigeben]** | Freigeben der ausgewählten Segmente. Im Dialogfeld **[!UICONTROL Segment freigeben]** können Sie ![Suchen](/help/assets/icons/Search.svg) *(Einzelpersonen oder Gruppen* oder **[!UICONTROL Organisation]** oder **[!UICONTROL Gruppen]**. Wählen Sie **[!UICONTROL Speichern]**, um Freigabedetails für die ausgewählten Segmente zu speichern. Weitere Informationen finden [ unter ](t-seg-share.md) von Segmenten . |
+| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL Tag]** | Tagging der ausgewählten Segmente. Wählen Sie im **[!UICONTROL Segment]**-Dialogfeld die Tags für die ausgewählten Segmente aus bzw. heben Sie die Auswahl auf. Wählen Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten Segmente zu speichern. Weitere Informationen finden [&#x200B; unter &#x200B;](seg-tag.md) von Segmenten . |
+| ![Freigeben](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Freigeben]** | Freigeben der ausgewählten Segmente. Im Dialogfeld **[!UICONTROL Segment freigeben]** können Sie ![Suchen](/help/assets/icons/Search.svg) *(Einzelpersonen oder Gruppen* oder **[!UICONTROL Organisation]** oder **[!UICONTROL Gruppen]**. Wählen Sie **[!UICONTROL Speichern]**, um Freigabedetails für die ausgewählten Segmente zu speichern. Weitere Informationen finden [&#x200B; unter &#x200B;](t-seg-share.md) von Segmenten . |
 | ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Löschen]** | Löscht die ausgewählten Segmente. Sie werden zur Bestätigung aufgefordert. |
 | ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Umbenennen]** | Ein einzelnes ausgewähltes Segment umbenennen. Wenn diese Option aktiviert ist, können Sie das Segment inline umbenennen. |
-| ![Häkchen](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten Segmente. Weitere Informationen finden [ unter ](seg-approve.md) von Segmenten. |
+| ![Häkchen](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten Segmente. Weitere Informationen finden [&#x200B; unter &#x200B;](seg-approve.md) von Segmenten. |
 | ![Kopieren](/help/assets/icons/Copy.svg) **[!UICONTROL Kopieren]** | Kopiert das ausgewählte Segment. Neue Segmente werden mit demselben Namen und derselben `(Copy)` erstellt. |
 | ![CSV-Datei](/help/assets/icons/FileCSV.svg) **[!UICONTROL In CSV exportieren]** | Exportieren Sie die Segmente in eine `Segments List.csv`. |
 
@@ -74,7 +78,7 @@ Die Filterleiste zeigt ➌ die aktiven Segmente an, die vom Filterbedienfeld auf
 
 Sie können die Liste der Segmente mithilfe der ➍ des ![Filtern](/help/assets/icons/Filter.svg) **[!UICONTROL Filtern]** filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Segmente an, die den spezifischen Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
-Weitere [ finden Sie unter ](t-seg-filter.md) der Segmentliste .
+Weitere [&#x200B; finden Sie unter &#x200B;](t-seg-filter.md) der Segmentliste .
 
 
 <!--

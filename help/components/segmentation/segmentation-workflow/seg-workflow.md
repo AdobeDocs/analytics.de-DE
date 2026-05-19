@@ -4,10 +4,15 @@ title: Übersicht über den Segmentierungs-Workflow
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 265
@@ -22,7 +27,7 @@ In diesem Artikel wird ein empfohlener Workflow zum Erstellen von Segmenten mit 
 
 | Schritt | Aktion | Details |
 |:--:|---|---|
-| 1 | [Segmente planen](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Haben Sie alle richtigen Fragen gestellt, bevor Sie Segmente erstellen und eine Segmentverwaltungsumgebung einrichten? Haben Sie das Segment für den vorgesehenen Zweck und für eine bestimmte Verwendung entworfen? <br/>Hilfe bei [ Planung und Organisation Ihrer Segmente finden Sie ](seg-plan.md) der Checkliste für die Segmentplanung . |
+| 1 | [Segmente planen](/help/components/segmentation/segmentation-workflow/seg-plan.md) | Haben Sie alle richtigen Fragen gestellt, bevor Sie Segmente erstellen und eine Segmentverwaltungsumgebung einrichten? Haben Sie das Segment für den vorgesehenen Zweck und für eine bestimmte Verwendung entworfen? <br/>Hilfe bei [&#x200B; Planung und Organisation Ihrer Segmente finden Sie &#x200B;](seg-plan.md) der Checkliste für die Segmentplanung . |
 | 2 | [Erstellen von Segmenten](seg-create.md) | Verwenden Sie die verschiedenen verfügbaren Optionen, um ein neues Segment zu erstellen. |
 | 3 | [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md) | Erstellen und bearbeiten Sie Segmente zur Verwendung in allen Analytics-Funktionen. <br/>Siehe [Erstellen sequenzieller Segmente](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) für Informationen zum Erstellen von Segmenten mit dem THEN-Operator. |
 | 4 | [Segmente taggen](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Taggen Sie Segmente, um die Organisation und Freigabe zu erleichtern. Erhalten Sie Informationen zum Planen und Zuweisen von Tags für einfache und erweiterte Suchvorgänge und für die Organisation. |
