@@ -22,4 +22,4 @@ ht-degree: 28%
 
 Single Sign-on in Adobe CX Enterprise wird über die Admin Console implementiert.
 
-Hilfe erhalten Sie im [Benutzerhandbuch für Administratoren](https://www.adobe.com/go/analytics_sso_en).
+Hilfe erhalten Sie im [Benutzerhandbuch für Administratoren](https://www.adobe.com/go/analytics_sso_de).

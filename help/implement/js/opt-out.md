@@ -58,7 +58,7 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServer`](..
    1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
    1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Verwenden von [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+* Verwenden von [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
    1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
    1. Öffnen Sie den CX Enterprise Debugger und navigieren Sie zur Registerkarte [!UICONTROL Netzwerk].
    1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
