@@ -4,18 +4,13 @@ description: Häufig gestellte Fragen zu Datenquellen.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-TQID: https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 430
 ht-degree: 9%
@@ -35,7 +30,7 @@ Datenquellen verfügen über keine Attribution oder Gültigkeit.
 +++
 
 +++Wie wirken sich Datenquellen auf Metriken wie Seitenansichten, Besuche oder Unique Visitors aus?
-Daten, die über Datenquellen hochgeladen wurden[&#x200B; wirken sich in keiner Weise auf &#x200B;](/help/components/metrics/page-views.md)Seitenansichten[&#x200B; (](/help/components/metrics/visits.md)) oder [Unique Visitors](/help/components/metrics/unique-visitors.md) aus. Die einzige Standardmetrik, auf die sie sich auswirken, umfasst [Vorfälle](/help/components/metrics/occurrences.md).
+Daten, die über Datenquellen hochgeladen wurden[ wirken sich in keiner Weise auf ](/help/components/metrics/page-views.md)Seitenansichten[ (](/help/components/metrics/visits.md)) oder [Unique Visitors](/help/components/metrics/unique-visitors.md) aus. Die einzige Standardmetrik, auf die sie sich auswirken, umfasst [Vorfälle](/help/components/metrics/occurrences.md).
 +++
 
 +++Werden Daten, die über Datenquellen hochgeladen wurden, durch zusätzliche Verarbeitungsregeln wie Verarbeitungsregeln verarbeitet?
@@ -47,7 +42,7 @@ Nein. Daten, die über Datenquellen hochgeladen wurden:
 +++
 
 +++Kann ich Daten löschen, die mit Datenquellen importiert wurden?
-Ja. Sie können diese Daten mithilfe der [Data Repair API“ &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe empfiehlt dringend, Datenquellendaten in eine Test-Report-Suite hochzuladen, bevor Sie sie in eine Produktions-Report-Suite hochladen, um die Notwendigkeit zum Entfernen von Daten zu verringern.
+Ja. Sie können diese Daten mithilfe der [Data Repair API“ ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe empfiehlt dringend, Datenquellendaten in eine Test-Report-Suite hochzuladen, bevor Sie sie in eine Produktions-Report-Suite hochladen, um die Notwendigkeit zum Entfernen von Daten zu verringern.
 +++
 
 +++Wie viele Daten kann ich gleichzeitig importieren?

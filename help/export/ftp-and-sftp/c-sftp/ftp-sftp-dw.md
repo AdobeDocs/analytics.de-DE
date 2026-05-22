@@ -4,13 +4,12 @@ keywords: ftp;sftp
 title: Data Warehouse-Anforderungen an SFTP-Server senden
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
-TQID: https://experienceleague.adobe.com/nBerOKEbILwAK5OyayVgdBPN8vq24kk-DXY6XMT50wg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/gZvqhVFN2WKnk0hs2t8R5fcg5g8Tts1jKZPvMqeGcy4'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 35%
@@ -19,7 +18,7 @@ ht-degree: 35%
 
 # Data Warehouse-Anforderungen an SFTP-Server senden
 
-Adobe unterstützt den Export von Data Warehouse-Anfragen an SFTP-Server, wie unter [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) im Artikel „Konfigurieren [&#x200B; Berichtsziels für eine Data Warehouse-Anfrage“ &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+Adobe unterstützt den Export von Data Warehouse-Anfragen an SFTP-Server, wie unter [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) im Artikel „Konfigurieren [ Berichtsziels für eine Data Warehouse-Anfrage“ ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 Folgende Aufgaben müssen abgeschlossen sein:
 
@@ -31,7 +30,7 @@ Folgende Aufgaben müssen abgeschlossen sein:
 
 So senden Sie eine Data Warehouse-Anfrage erfolgreich über SFTP:
 
-1. Führen Sie die Schritte aus[&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)&#x200B; die im Artikel [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) beschrieben sind, &#x200B; das Herunterladen des öffentlichen Schlüssels.
+1. Führen Sie die Schritte aus[ die im Artikel [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) beschrieben sind, ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) das Herunterladen des öffentlichen Schlüssels.
 1. Melden Sie sich bei der SFTP-Site mit den Anmeldedaten an, die für die Data Warehouse-Anfrage verwendet werden.
 1. Navigieren Sie im Stammverzeichnis zu dem Ordner `.ssh` (erstellen Sie diesen, falls er nicht vorhanden ist) und legen Sie dort die Datei `authorized_keys` ab.
 

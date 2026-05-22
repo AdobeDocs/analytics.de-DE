@@ -3,17 +3,15 @@ title: Verwalten von Daten-Feeds
 description: Erfahren Sie, wie Sie in der Daten-Feed-Oberfläche navigieren. Erfahren Sie, wie Sie einen Daten-Feed erstellen, bearbeiten und anzeigen.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-TQID: https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -50,13 +48,13 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](h
 
 ## Erstellen eines Daten-Feeds
 
-Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](create-feed.md) Daten-Feeds“.
+Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [ finden Sie unter „Erstellen ](create-feed.md) Daten-Feeds“.
 
 ## Bearbeiten eines Daten-Feeds
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
-1. Suchen Sie den Daten-Feed, den Sie bearbeiten möchten. Um einen Daten-Feed zu finden, können [die Liste der Daten-Feeds filtern und durchsuchen](#filter-and-search-the-list-of-data-feeds).
+1. Suchen Sie den Daten-Feed, den Sie bearbeiten möchten. Um einen Daten-Feed zu finden, können Sie [die Liste der Daten-Feeds filtern und durchsuchen](#filter-and-search-the-list-of-data-feeds).
 
 1. Wählen Sie den Daten-Feed in der Spalte [!UICONTROL **Feed-Name**] aus.
 
@@ -74,7 +72,7 @@ Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen F
 
 ## Filtern und Durchsuchen der Liste von Daten-Feeds
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Verwenden Sie die Suche oder Filter, um einen bestimmten Feed zu finden.
 
@@ -88,7 +86,7 @@ Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen F
 
 ## Anzeigen von Daten-Feed-Aufträgen
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Wählen Sie die [!UICONTROL **Aufträge**], um einzelne Aufträge anzuzeigen, die von den einzelnen Feeds erstellt werden.
 
@@ -98,7 +96,7 @@ Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen F
 
 ## Kopieren eines Daten-Feeds
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, den Sie kopieren möchten, und klicken Sie dann auf [!UICONTROL **Kopieren**].
 
@@ -118,7 +116,7 @@ Wenn Sie den Feed nach dem Anhalten erneut aktivieren, werden die Daten während
 
 So pausieren Sie einen Daten-Feed:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, den Sie anhalten möchten, und klicken Sie dann auf [!UICONTROL **Pause**].
 
@@ -134,17 +132,17 @@ Wenn ein Feed erneut aktiviert wird, werden Daten möglicherweise nicht automati
 
 So aktivieren Sie einen Daten-Feed:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem inaktiven Daten-Feed, den Sie aktivieren möchten, und wählen Sie dann [!UICONTROL **Aktivieren**] aus.
 
 ## Löschen eines Daten-Feeds
 
-Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; &#x200B;]. Daten-Feeds müssen den Status &quot;[!UICONTROL &quot; aufweisen] bevor sie gelöscht werden können.
+Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; ]. Daten-Feeds müssen den Status &quot;[!UICONTROL &quot; aufweisen] bevor sie gelöscht werden können.
 
 Löschen eines Daten-Feeds:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, den Sie löschen möchten, und klicken Sie dann auf [!UICONTROL **Löschen**].
 
@@ -160,7 +158,7 @@ Spaltenüberschrift auswählen, um sie in aufsteigender Reihenfolge zu sortieren
 
 So passen Sie die sichtbaren Spalten in der Tabelle an:
 
-1. Wählen Sie oben ![&#x200B; das Spaltensymbol &#x200B;](assets/customize-columns-icon.png)Spaltensymbol) aus.
+1. Wählen Sie oben ![ das Spaltensymbol ](assets/customize-columns-icon.png)Spaltensymbol) aus.
 
 1. Wählen Sie im Dialogfeld Tabelle anpassen jede Spalte aus, die Sie anzeigen möchten, und heben Sie die Auswahl für jede Spalte auf, die Sie ausblenden möchten.
 
@@ -180,7 +178,7 @@ So passen Sie die sichtbaren Spalten in der Tabelle an:
       * Gelöscht: Der Feed wurde gelöscht.
       * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
       * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-      * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
+      * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [ unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
    * **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.

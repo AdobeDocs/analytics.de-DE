@@ -4,24 +4,13 @@ keywords: Privatsphäre
 title: Datenschutzübersicht
 feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-TQID: https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1004
 ht-degree: 88%
@@ -30,7 +19,7 @@ ht-degree: 88%
 
 # Datenschutzübersicht
 
-Adobe möchte Ihr Unternehmen in die Lage versetzen, die geltenden Gesetze und Vorschriften einzuhalten. Weitere Informationen finden Sie unter &lbrace;0[&#128279;](https://www.adobe.com/de/privacy/experience-cloud.html){target=_blank} Adobe CX Enterprise-Datenschutz. Zwischen Adobe Analytics und Ihrer Organisation agiert Adobe als „Auftragsverarbeiter“ und Sie sind der oder die „Datenverantwortliche“ (oder ein Äquivalent gemäß den geltenden Gesetzen zum Schutz der Privatsphäre und des Datenschutzes). Es ist Sache Ihrer Organisation, ob sie offenlegen möchte, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Lösungen implementiert werden. Bei der Verwendung von Adobe Analytics ist Ihre Organisation für die Einhaltung Ihrer eigenen Datenschutzrichtlinie, Ihrer Service-Vereinbarung mit Adobe und aller geltenden Gesetze verantwortlich.
+Adobe möchte Ihr Unternehmen in die Lage versetzen, die geltenden Gesetze und Vorschriften einzuhalten. Weitere Informationen finden Sie unter {0](https://www.adobe.com/de/privacy/experience-cloud.html){target=_blank} Adobe CX Enterprise-Datenschutz. [Zwischen Adobe Analytics und Ihrer Organisation agiert Adobe als „Auftragsverarbeiter“ und Sie sind der oder die „Datenverantwortliche“ (oder ein Äquivalent gemäß den geltenden Gesetzen zum Schutz der Privatsphäre und des Datenschutzes). Es ist Sache Ihrer Organisation, ob sie offenlegen möchte, wie Sie die Adobe-Produkte und -Dienste verwenden. Denn nur Ihre Organisation hat die Kontrolle darüber, wie die Adobe-Lösungen implementiert werden. Bei der Verwendung von Adobe Analytics ist Ihre Organisation für die Einhaltung Ihrer eigenen Datenschutzrichtlinie, Ihrer Service-Vereinbarung mit Adobe und aller geltenden Gesetze verantwortlich.
 
 Adobe empfiehlt dringend die Einhaltung der folgenden übergreifenden Konzepte:
 
@@ -70,4 +59,4 @@ Weitere Variablen, unter denen Adobe potenziell Daten sammeln kann, finden Sie i
 
 ## Standorte für die Datenverarbeitung
 
-Adobe besitzt drei Standorte für die Datenverarbeitung für Adobe Analytics. Diese Sites empfangen Rohdaten und verarbeiten sie in einer Report Suite, die für Datenspeicherung und Berichtsabruf optimiert ist. Diese Standorte für die Datenverarbeitung befinden sich derzeit in den USA (Oregon), Großbritannien (London) und Singapur. Weitere Informationen finden Sie unter &lbrace;0[&#128279;](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} Adobe Analytics-Sicherheitsübersicht.
+Adobe besitzt drei Standorte für die Datenverarbeitung für Adobe Analytics. Diese Sites empfangen Rohdaten und verarbeiten sie in einer Report Suite, die für Datenspeicherung und Berichtsabruf optimiert ist. Diese Standorte für die Datenverarbeitung befinden sich derzeit in den USA (Oregon), Großbritannien (London) und Singapur. Weitere Informationen finden Sie unter {0](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} Adobe Analytics-Sicherheitsübersicht.[

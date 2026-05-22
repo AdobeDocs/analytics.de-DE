@@ -4,16 +4,13 @@ description: Aktivieren oder deaktivieren Sie die doPlugins()-Funktion.
 feature: Appmeasurement Implementation
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/nv3QjXjcqA6WZhF6GxsGxoHTcvH-2pl4Xd7EY4cIlzA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/7ofbF5EloAUlvCmGv-CaTFxxZELX0wydJ8HzmU2f6EQ'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 187
 ht-degree: 32%
@@ -26,11 +23,11 @@ Wenn `usePlugins` aktiviert ist, wird die [`doPlugins()`](../functions/doplugins
 
 ## Verwenden des `onBeforeEventSend` Callbacks mithilfe der Web-SDK
 
-Web SDK verfügt zwar über keinen booleschen Wert, der die Ausführung zusätzlicher Logik handhabt, bevor Daten an Adobe gesendet werden, Sie können jedoch den `onBeforeEventSend`-Callback registrieren, um Daten zu ändern. Weitere Informationen [&#x200B; Sie in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=de#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
+Web SDK verfügt zwar über keinen booleschen Wert, der die Ausführung zusätzlicher Logik handhabt, bevor Daten an Adobe gesendet werden, Sie können jedoch den `onBeforeEventSend`-Callback registrieren, um Daten zu ändern. Weitere Informationen [ Sie in der ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) zu Web SDK unter „Globales Ändern von Ereignissen“.
 
 ## Verwenden von Plug-ins mit der Adobe Analytics-Erweiterung
 
-Adobe bietet eine Erweiterung mit der Bezeichnung „Common Analytics Plugins“, mit der Sie die meisten [Plug-ins“ &#x200B;](../plugins/impl-plugins.md) können. Installieren Sie die Erweiterung und rufen Sie das gewünschte Plug-in in einer Regel auf.
+Adobe bietet eine Erweiterung mit der Bezeichnung „Common Analytics Plugins“, mit der Sie die meisten [Plug-ins“ ](../plugins/impl-plugins.md) können. Installieren Sie die Erweiterung und rufen Sie das gewünschte Plug-in in einer Regel auf.
 
 Wenn das gewünschte Plug-in nicht in der Adobe-Erweiterung enthalten ist, verwenden Sie den Editor für benutzerspezifischen Code entsprechend der AppMeasurement-Syntax.
 

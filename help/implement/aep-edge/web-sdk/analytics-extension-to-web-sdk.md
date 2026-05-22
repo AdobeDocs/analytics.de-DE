@@ -2,17 +2,13 @@
 title: Migrieren von der Adobe Analytics-Tag-Erweiterung zur Web-Tag-Erweiterung für SDK
 description: Aktualisieren Sie Ihre Analytics-Implementierung in den Datenerfassungs-Tags von Adobe Experience Platform, um die Web SDK-Erweiterung zu verwenden.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1731
 ht-degree: 7%
@@ -71,7 +67,7 @@ In diesem Abschnitt wird Ihr Tag auf den Großteil des Migrationsaufwands vorber
 1. Wählen Sie die gewünschte Tag-Eigenschaft aus.
 1. Wählen Sie im linken Navigationsbereich der Tag-Eigenschaft die Option **[!UICONTROL Erweiterungen]** aus.
 1. Wählen Sie **[!UICONTROL Katalog]** oben aus, um eine Liste aller verfügbaren Erweiterungen anzuzeigen.
-1. Suchen Sie nach der Erweiterung **[!UICONTROL Adobe Experience Platform Web SDK]** und wählen Sie sie aus. Klicken Sie dann **rechts auf** Installieren“.
+1. Suchen Sie nach der Erweiterung **[!UICONTROL Adobe Experience Platform Web SDK]** und wählen Sie sie aus. Klicken Sie dann ]**rechts auf**[!UICONTROL  Installieren“.
 
    ![Katalog](assets/catalog.png) {style="border:1px solid lightslategray"}
 
@@ -126,7 +122,7 @@ Dieser Schritt enthält den Großteil des für die Migration auf die Web-SDK erf
 1. Nachdem die gesamte Regellogik mithilfe der Web-SDK-Erweiterung repliziert wurde, wählen Sie **[!UICONTROL Änderungen beibehalten]**.
 1. Wiederholen Sie diese Schritte für jede Aktionskonfiguration, die die Adobe Analytics-Erweiterung zum Festlegen von Werten verwendet. Dieser Schritt umfasst sowohl Variablen, die mithilfe der Tags-Schnittstelle festgelegt werden, als auch Variablen, die mithilfe von benutzerdefiniertem Code festgelegt werden. Benutzerdefinierte Code-Blöcke können an keiner Stelle auf das `s`-Objekt verweisen.
 
-Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden Schritte ersetzen alle Aktionen, die die [!UICONTROL Aktionskonfiguration“ &#x200B;]Beacon senden.
+Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden Schritte ersetzen alle Aktionen, die die [!UICONTROL Aktionskonfiguration“ ]Beacon senden.
 
 1. Wählen Sie eine Regel aus, die einen Beacon sendet.
 1. Wählen Sie die Aktion **[!UICONTROL Adobe Analytics - Beacon senden]** aus.
@@ -135,7 +131,7 @@ Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden S
    * [!UICONTROL Erweiterung]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Aktionstyp]: [!UICONTROL Ereignis senden]
 1. Ändern Sie auf der rechten Seite die Aktionseinstellungen wie folgt:
-   * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL &#x200B; Konfiguration der Aktion [!UICONTROL Variable aktualisieren] unter „Zusätzliche Eigenschaften] aufgeführt:
+   * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL  Konfiguration der Aktion [!UICONTROL Variable aktualisieren] unter „Zusätzliche Eigenschaften] aufgeführt:
       * [Link-Name](../../vars/functions/tl-method.md)
       * [Link-Typ](../../vars/functions/tl-method.md)
       * [Link-URL](../../vars/config-vars/linkurl.md)

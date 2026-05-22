@@ -5,17 +5,13 @@ title: Anwendungsfälle für Verarbeitungsregeln
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 832
 ht-degree: 21%
@@ -59,7 +55,7 @@ Im folgenden Beispiel werden mehrere Variablen mit unterschiedlichen Kontextdate
 
 +++Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 
-Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) &#x200B;](/help/implement/vars/page-vars/contextdata.md).
+Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) ](/help/implement/vars/page-vars/contextdata.md).
 
 Die [!UICONTROL Kontextvariablen] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, ihn jedoch nicht an die aktuelle Report Suite gesendet haben, können Sie ihn manuell hinzufügen:
 
@@ -105,7 +101,7 @@ Ereignisse können basierend auf jeder in den Verarbeitungsregeln verfügbaren B
 | Regelsatz | Wert |
 | --- | --- |
 | Bedingung | Wenn [!UICONTROL Seitenname] gleich „Produktübersicht“ ist |
-| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) &#x200B;] auf [!UICONTROL benutzerdefinierter Wert] `1` |
+| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) ] auf [!UICONTROL benutzerdefinierter Wert] `1` |
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der ein bedingt festgelegtes Ereignis angezeigt wird](assets/set-product-view-event.png)
 

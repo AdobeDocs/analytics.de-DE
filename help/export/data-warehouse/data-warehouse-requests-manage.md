@@ -4,18 +4,15 @@ title: Verwalten von Data Warehouse-Anforderungen
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-TQID: https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1150
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -27,11 +24,11 @@ In den folgenden Abschnitten werden die Aktivitäten beschrieben, die Sie beim V
 
 ## Anfragen anzeigen
 
-Standardmäßig können Sie nur die von Ihnen erstellten Anfragen anzeigen, es sei denn, die Benutzer haben ausgewählt, ihre Anfragen für andere Personen in der Organisation sichtbar zu machen (wie in den allgemeinen Einstellungen für Data Warehouse-Anfragen in [&#128279;](/help/export/data-warehouse/create-request/dw-general-settings.md) beschrieben). Systemadministratoren können alle Anforderungen anzeigen.
+Standardmäßig können Sie nur die von Ihnen erstellten Anfragen anzeigen, es sei denn, die Benutzer haben ausgewählt, ihre Anfragen für andere Personen in der Organisation sichtbar zu machen (wie in den allgemeinen Einstellungen für Data Warehouse-Anfragen in [](/help/export/data-warehouse/create-request/dw-general-settings.md) beschrieben). Systemadministratoren können alle Anforderungen anzeigen.
 
 So zeigen Sie Data Warehouse-Anfragen an:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
 
    Auf der Seite Data Warehouse werden alle von Ihnen gestellten Anfragen angezeigt. Daten werden in jeder Spalte angezeigt. Sie können [konfigurieren, welche Spalten](#configure-columns) sichtbar sind.
 
@@ -57,9 +54,9 @@ Beachten Sie beim Bearbeiten von Anfragen Folgendes:
 
 So bearbeiten Sie eine geplante Anfrage:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
 
-1. Wählen Sie auf der Data Warehouse-Seite die Anfrage aus, die Sie bearbeiten möchten.
+1. Wählen Sie auf der Seite „Data Warehouse“ die Anfrage aus, die Sie bearbeiten möchten.
 
    ![Verwalten einer Anfrage](assets/dw-manage-request.png)
 
@@ -69,13 +66,13 @@ So bearbeiten Sie eine geplante Anfrage:
 
    Informationen zu den einzelnen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen [!UICONTROL **Änderungen speichern**].
+1. Wählen Sie [!UICONTROL **Änderungen speichern**] aus.
 
 ## Anzeigen des Verlaufs einer Anfrage
 
 Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen anzeigen.
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
 
 1. Wählen Sie auf der Seite Data Warehouse die Anfrage aus, deren Verlauf Sie anzeigen möchten.
 
@@ -117,7 +114,7 @@ Sie können den Verlauf aller von Ihnen durchgeführten Data Warehouse-Anfragen 
 
 Wenn Sie eine Anfrage kopieren, werden alle Konfigurationsoptionen aus der ursprünglichen Anfrage kopiert.
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
 
 1. Wählen Sie auf der Seite Data Warehouse die Anfrage aus, die Sie kopieren möchten.
 
@@ -131,7 +128,7 @@ Wenn Sie eine Anfrage kopieren, werden alle Konfigurationsoptionen aus der urspr
 
    Informationen zu den einzelnen Konfigurationsoptionen finden Sie unter [Erstellen einer Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Wählen [!UICONTROL **Änderungen speichern**].
+1. Wählen Sie [!UICONTROL **Änderungen speichern**] aus.
 
 ## Anfragen abbrechen
 
@@ -139,9 +136,9 @@ Nur Anfragen, die für die Ausführung nach einem Zeitplan konfiguriert sind, k�
 
 So brechen Sie eine geplante Anfrage ab:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Tools**] > [!UICONTROL **Data Warehouse**] aus.
 
-1. Wählen Sie auf der Data Warehouse-Seite die Anfrage aus, die Sie bearbeiten möchten.
+1. Wählen Sie auf der Seite „Data Warehouse“ die Anfrage aus, die Sie bearbeiten möchten.
 
    ![Verwalten einer Anfrage](assets/dw-manage-request.png)
 

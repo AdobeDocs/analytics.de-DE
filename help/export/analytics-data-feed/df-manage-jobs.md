@@ -3,19 +3,15 @@ title: Verwalten von Daten-Feed-Aufträgen
 description: Erfahren Sie, wie Sie einzelne Aufträge in Daten-Feeds verwalten. Navigieren Sie in der -Benutzeroberfläche, verwenden Sie Filter und suchen Sie nach Spaltendefinitionen.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-TQID: https://experienceleague.adobe.com/gbbWfT4BTiEfr41Og6ICrB5qfQVJGUmaZaf85ZcB6ww
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/4ACex-y-w3ppGhC1tRX8qH4WeU1NT9ubcJBlhSh9sY0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -82,7 +78,7 @@ Wenn Sie einen Daten-Feed-Auftrag erneut senden, sendet er die Daten-Feed-Datei 
 
 So senden Sie einen oder mehrere Daten-Feed-Aufträge erneut:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, der die Aufträge enthält, die Sie erneut senden möchten, und wählen Sie dann [!UICONTROL **Auftragsverlauf**] aus.
 
@@ -98,7 +94,7 @@ Wenn Sie einen Daten-Feed-Auftrag erneut verarbeiten, verarbeitet er die Quellda
 
 Neuverarbeitung eines oder mehrerer Daten-Feed-Aufträge:
 
-1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**].
+1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
 1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, der die Aufträge enthält, die Sie erneut verarbeiten möchten, und wählen Sie dann [!UICONTROL **Auftragsverlauf**] aus.
 
