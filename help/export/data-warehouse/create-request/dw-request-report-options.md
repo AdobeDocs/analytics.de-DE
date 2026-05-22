@@ -4,11 +4,20 @@ title: Konfigurieren von Berichtsoptionen für eine Data Warehouse-Anfrage
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
 TQID: 'https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 454
@@ -36,11 +45,11 @@ So konfigurieren Sie Berichtsoptionen für eine Data Warehouse-Anfrage:
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **Dateiname**] | Identifiziert den Bericht. <p>Wenn eines der folgenden Sonderzeichen im Dateinamen verwendet wird, kann die Anfrage nicht gespeichert werden: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Das Zeichen % kann nur verwendet werden, wenn auf es „R“, „rsid“ oder „id“ folgt: <code>%R</code>, <code>%rsid</code>und <code>%id</code>.</p> |
+   | [!UICONTROL **Dateiname**] | Identifiziert den Bericht. <p>Wenn eines der folgenden Sonderzeichen im Dateinamen verwendet wird, kann die Anfrage nicht gespeichert werden: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>Das Zeichen % kann nur verwendet werden, wenn auf es „R“, „rsid“ oder „id“ folgt: <code>%R</code>, <code>%rsid</code>und <code>%id</code>.</p> |
    | [!UICONTROL **Berichtsdatumsbereich an Dateinamen anhängen**] | Fügt den Datumsbereich zum Namen der Berichtsdatei hinzu. <p>Wenn Sie beispielsweise Daten vom 1. Mai 2024 bis zum 7. Mai 2024 anfordern, enthält der Dateiname den Datumsbereich 20240501 bis 20240507.</p> |
    | [!UICONTROL **CSV**] | Stellt Berichte im CSV-Dateiformat bereit, um Daten in einer Tabelle anzuzeigen. |
    | [!UICONTROL **Tableau (TDE)**] | Stellt Berichte im Tableau-Datenextraktionsdateiformat (TDE) bereit, mit dem Daten visualisiert und in zusätzlichen Daten innerhalb von Tableau eingefügt werden können. |
-   | [!UICONTROL **Bericht als komprimierte Datei (ZIP) senden**] | Berichte werden im komprimierten (ZIP-)Dateiformat bereitgestellt. Es wird empfohlen, diese Option zu aktivieren, wenn E-Mail als [Berichtsziel“ verwendet ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Bericht als komprimierte Datei (ZIP) senden**] | Berichte werden im komprimierten (ZIP-)Dateiformat bereitgestellt. Es wird empfohlen, diese Option zu aktivieren, wenn E-Mail als [Berichtsziel“ verwendet &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Alle Zeilen zurückgeben**] | Wenn diese Option aktiviert ist, werden alle Zeilen in den Bericht aufgenommen. Deaktivieren Sie diese Option, um die Anzahl der einzuschließenden Zeilen anzugeben. |
    | [!UICONTROL **Beginn der Berichtskommentare**] | Fügen Sie alle Kommentare hinzu, die in den Bericht aufgenommen werden sollen. Kommentare erscheinen am Anfang des Berichts. |
    | [!UICONTROL **Nach Metriken sortieren**] | Bietet nach Rang geordnet Detailberichte in Data Warehouse, die nach absteigendem Metrikwert sortiert sind. Die Sortierung nach Metrik erleichtert die Interpretation von Data Warehouse-Berichten und die Vergleichbarkeit dieser Berichte mit anderen Analytics-Aufschlüsselungs-Reporting-Ansichten.<p>Weitere Informationen finden Sie unter [Nach Metrik sortieren](/help/export/data-warehouse/sorting-by-metric.md).</p> |

@@ -6,11 +6,20 @@ feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 TQID: 'https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 681
@@ -41,10 +50,10 @@ Es bietet die folgenden Einstellungen:
 * **Standard-/Live-**: Schaltet zwischen Standard- und Live-Ansicht um.
    * Standardansicht: Zeigt die Überlagerung basierend auf historischen Daten an.
    * Live-Ansicht: Zeigt die Überlagerung basierend auf Live-Daten an. Die Datumsauswahl wird zu einem Dropdown-Menü, über das Sie die Granularität von Live-Daten ändern können.
-* **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL  Live-Ansicht ausgewählt ], sind nur Link-Klicks verfügbar.
+* **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL &#x200B; Live-Ansicht ausgewählt &#x200B;], sind nur Link-Klicks verfügbar.
 * **Segmentauswahl**: Ermöglicht die Auswahl eines [Segments](/help/components/segmentation/seg-overview.md), wobei eine Teilmenge der Daten in Ihrer Überlagerung angezeigt wird. Segmente sind in der Live-Ansicht nicht verfügbar.
 * **Visualisierungstyp „Überlagerung**: Ermöglicht es Ihnen zu ändern, wie die Überlagerung das Ranking von Links visualisiert.
-   * **[!UICONTROL Bubble]**: Top-Links erhalten eine grüne Blase, die ihren numerischen Rang während des Berichtszeitraums anzeigt. Sie können die Sprechblasenfarbe in „Einstellungen[ ändern](settings.md).
+   * **[!UICONTROL Bubble]**: Top-Links erhalten eine grüne Blase, die ihren numerischen Rang während des Berichtszeitraums anzeigt. Sie können die Sprechblasenfarbe in „Einstellungen[&#x200B; ändern](settings.md).
    * **[!UICONTROL Verlauf]**: Top-Links werden schattiert in transparentem Rot angezeigt. Die beliebtesten Links sind die dunkelsten rot. Sie können die Farbe des Farbverlaufs in [Einstellungen](settings.md) ändern.
    * **[!UICONTROL Aus]**: Deaktivieren von Linküberlagerungen.
 * **Datumsauswahl**: Ermöglicht die Änderung des Berichtszeitraums.
@@ -91,7 +100,7 @@ Der **[!UICONTROL Links auf Seite]** Bericht zeigt einen grundlegenden Arbeitsbe
 Der **[!UICONTROL Seitendetails]**-Bericht zeigt eine [Fluss](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)-Visualisierung mithilfe der Dimension [Seite](/help/components/dimensions/page.md) an, wobei der Fokus auf der aktuellen Seite liegt. Die folgenden Metriken für die aktuelle Seite werden auf der linken Seite angezeigt:
 
 * [Seitenansichten](/help/components/metrics/page-views.md)
-* [!UICONTROL  % aller Seitenansichten]
+* [!UICONTROL &#x200B; % aller Seitenansichten]
 * [Eintritt](/help/components/metrics/entries.md) Anzahl
 * [Beenden](/help/components/metrics/exits.md) Anzahl
 * [Einzelseitenbesuche](/help/components/metrics/single-page-visits.md)

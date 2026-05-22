@@ -4,10 +4,15 @@ title: Segmente in Analytics und Audience Manager – Grundlagen
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 747
@@ -50,4 +55,4 @@ Ein Analytics-Segment ist ein Filtermechanismus für Daten in Ihren Berichten. D
 
   Umgekehrt werden Besucher in Analytics basierend auf dem Berichtsdatumsbereich in ein Segment eingeschlossen oder aus einem Segment ausgeschlossen. Beispielsweise tätigte ein einzelner Besucher im letzten Monat einen Kauf. In Adobe Audience Manager würde dieser Besucher unabhängig vom Datumsbereich in ein Segment „Käufer“ aufgenommen. In Analytics würde ein Bericht, der auf diesem Monat basiert, den Besucher nicht in das Segment einschließen. Ein Bericht, der auf diesem Monat und dem letzten Monat basiert, würde den Besucher jedoch in das Segment einschließen.
 
-Weitere Informationen finden [ im Analytics](/help/components/segmentation/seg-home.md)Segmentierungshandbuch .
+Weitere Informationen finden [&#x200B; im Analytics](/help/components/segmentation/seg-home.md)Segmentierungshandbuch .

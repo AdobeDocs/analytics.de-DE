@@ -6,11 +6,21 @@ feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 TQID: 'https://experienceleague.adobe.com/fiWUPrFezgDFX-mx-ogHH1wXYgtUF9vAgLjay9z6vsU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 661
@@ -50,11 +60,11 @@ Zu den beiden primären Anwendungsfällen für Verarbeitungsregeln gehören:
 
   Die Verwendung von Kontextdatenvariablen erleichtert die Kommunikation mit Entwicklern in Ihrer Organisation, um Analytics für eine Eigenschaft zu implementieren. Entwickler können einfach jedes Schlüssel-Wert-Paar einmal implementieren. Dann können Sie als Analytics-Admin sicherstellen, dass die Daten in die richtige Implementierungsvariable gelangen.
 
-* **Daten bei der Erfassung ändern**: Dieser Anwendungsfall kann für eine breite Palette von Anwendungen eingesetzt werden, z. B. zur temporären Behebung der Datenqualität oder zur Schließung von Implementierungslücken. Weitere [ und spezifische Beispiele finden Sie ](pr-use-cases.md) „Anwendungsfälle für Verarbeitungsregeln“.
+* **Daten bei der Erfassung ändern**: Dieser Anwendungsfall kann für eine breite Palette von Anwendungen eingesetzt werden, z. B. zur temporären Behebung der Datenqualität oder zur Schließung von Implementierungslücken. Weitere [&#x200B; und spezifische Beispiele finden Sie &#x200B;](pr-use-cases.md) „Anwendungsfälle für Verarbeitungsregeln“.
 
 ## Berechtigungen
 
-Produktadministratoren haben standardmäßig Zugriff auf Verarbeitungsregeln. Sie können Benutzern ohne Administratorrechte Zugriff auf Verarbeitungsregeln gewähren, indem Sie sie in ein Produktprofil aufnehmen, das das Berechtigungselement **[!UICONTROL Verarbeitungsregeln]** enthält. Weitere [ finden Sie unter „Produktprofilberechtigungen für Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)Tools“.
+Produktadministratoren haben standardmäßig Zugriff auf Verarbeitungsregeln. Sie können Benutzern ohne Administratorrechte Zugriff auf Verarbeitungsregeln gewähren, indem Sie sie in ein Produktprofil aufnehmen, das das Berechtigungselement **[!UICONTROL Verarbeitungsregeln]** enthält. Weitere [&#x200B; finden Sie unter „Produktprofilberechtigungen für Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)Tools“.
 
 ## Überlegungen beim Erstellen oder Bearbeiten von Verarbeitungsregeln
 
@@ -66,7 +76,7 @@ Berücksichtigen Sie beim Erstellen oder Bearbeiten von Verarbeitungsregeln Folg
 * **Verarbeitungsreihenfolge innerhalb der Datenerfassungs-Pipeline**: Unter [Verarbeitungsreihenfolge für Daten in Adobe Analytics](/help/technotes/processing-order.md) erfahren Sie, wo in der gesamten Datenerfassungs-Pipeline Verarbeitungsregeln gelten.
 * **Codierung**: Halten Sie sich in fast allen Fällen an die UTF-8-Codierung.
 * **Groß-/**: Bei Zeichenfolgenvergleichen in Verarbeitungsregeln wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die Zeichenfolgenwerte, mit denen Sie Werte überschreiben, verwenden dieselben Regeln wie beim direkten Ausfüllen der Variablen.
-* **Einzelne Report Suite**: Beim Bearbeiten von Verarbeitungsregeln gelten diese nur für eine Report Suite. Wenn Sie im Report Suite Manager mehrere Report Suites auswählen, müssen Sie eine einzelne Report Suite auswählen. Nachdem Sie die gewünschten Verarbeitungsregeln erstellt oder bearbeitet haben, können [ diese Regeln in andere Report Suites kopieren](pr-copy.md).
+* **Einzelne Report Suite**: Beim Bearbeiten von Verarbeitungsregeln gelten diese nur für eine Report Suite. Wenn Sie im Report Suite Manager mehrere Report Suites auswählen, müssen Sie eine einzelne Report Suite auswählen. Nachdem Sie die gewünschten Verarbeitungsregeln erstellt oder bearbeitet haben, können [&#x200B; diese Regeln in andere Report Suites kopieren](pr-copy.md).
 * **Kein Datenausschluss**: Der Ausschluss von Daten ist kein beabsichtigtes Merkmal von Verarbeitungsregeln. Erwägen Sie die Verwendung von [`abort`](/help/implement/vars/config-vars/abort.md) auf Datenerfassungsebene oder verwenden Sie [VISTA-Regeln](/help/technotes/vista.md) nachdem Daten erfasst wurden.
 * **Verfügbare Variablen**: In Verarbeitungsregeln sind nicht alle Dimensionen und Metriken verfügbar. Unter [Für Verarbeitungsregeln verfügbare Dimensionen und Metriken](pr-variables.md) finden Sie eine vollständige Liste der unterstützten Funktionen.
 * **Anzahl der zulässigen Regeln**: Jede Report Suite kann bis zu 150 Regeln enthalten. Jede Regel kann bis zu 30 Bedingungen enthalten.
