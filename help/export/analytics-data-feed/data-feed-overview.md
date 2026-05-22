@@ -54,6 +54,6 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigieren in 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln Ihrer Daten-Feed-ID](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ermitteln Ihrer Daten-Feed-ID](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
