@@ -3,21 +3,11 @@ title: Senden von Daten an Adobe Analytics mithilfe der Web SDK JavaScript-Bibli
 description: Beginnen Sie mit einer sauberen Web-SDK-Implementierung, um Daten mithilfe der JavaScript-Bibliothek an Adobe Analytics zu senden.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
 TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1129
@@ -82,7 +72,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td> 4</td>
 <td><b>Installieren Sie die vordefinierte eigenständige Version</b>. Sie können direkt auf Ihrer Seite auf die Bibliothek (<code>alloy.js</code>) im CDN verweisen oder sie herunterladen und in Ihrer eigenen Infrastruktur hosten. Alternativ können Sie das NPM-Paket verwenden.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=de">Installieren der vordefinierten eigenständigen Version</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=de">Verwenden des NPM-Pakets</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Installieren der vordefinierten eigenständigen Version</a> und <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Verwenden des NPM-Pakets</a></td>
 </tr>
 
 <tr>
@@ -93,20 +83,20 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 <td>6</td>
 <td><b>Fügen Sie einen Adobe Analytics-Service</b> in Ihrem Datenstrom hinzu. Dieser Service steuert, ob und wie Daten an Adobe Analytics gesendet werden und an welche Report Suite(s).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Hinzufügen des Adobe Analytics-Service zu einem Datenstrom</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Konfigurieren des Web SDKs</b>. Stellen Sie sicher, dass die Bibliothek, die Sie in Schritt 4 installiert haben, ordnungsgemäß mit der Datenstrom-ID (ehemals Edge-Konfigurations-ID (<code>datastreamId</code>)), der Organisations-ID (<code>orgId</code>) und anderen verfügbaren Optionen konfiguriert ist. Sicherstellen einer ordnungsgemäßen Zuordnung von Variablen. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=de">Konfigurieren der Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM-Objektvariablenzuordnung</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Konfigurieren der Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM-Objektvariablenzuordnung</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Führen Sie Befehle aus</b> und/oder <b>verfolgen Sie Ereignisse</b>. Nachdem der Basis-Code auf Ihrer Web-Seite implementiert wurde, können Sie mit der Ausführung von Befehlen und dem Nachverfolgen von Ereignissen mit dem SDK beginnen.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=de">Ereignisse senden</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Ereignisse senden</a></td>
 </tr>
 
 <tr>
