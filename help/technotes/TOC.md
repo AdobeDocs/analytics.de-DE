@@ -5,9 +5,9 @@ user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
 source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Technische Hinweise zu Analytics {#technotes}
 
 + [Technische Hinweise zu Analytics](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Adobe Analytics für Benutzende von Google Analytics {#ga-to-aa}
    + [Hilfe für Anwender von Adobe Analytics für Google Analytics](ga-to-aa/home.md)
    + [Konten und Report Suites](ga-to-aa/accounts.md)
