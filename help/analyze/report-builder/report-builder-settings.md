@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 285
 ht-degree: 24%
@@ -69,3 +69,4 @@ Mithilfe der Fehlerbehebung und der Behebung von Support-Tickets können Sie Rep
 
 1. Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) aus.
 1. Wählen Sie **[!UICONTROL Datenblock/Datenblöcke der Report Builder-Anfrage in Web-Konsole protokollieren]**. <br/>Anfragen werden an Ihre Webbrowser-Konsole gesendet. Weitere Informationen finden Sie in der Dokumentation Ihres Webbrowsers zum Öffnen des Konsolenprotokolls als Teil der Entwickler-Tools für Webbrowser.
+

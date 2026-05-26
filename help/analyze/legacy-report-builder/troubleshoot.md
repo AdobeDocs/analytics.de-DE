@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 42%
@@ -109,3 +109,4 @@ Um Anfragen zur Fehlerbehebung zu protokollieren, verwenden Sie im alten Report 
 
 1. Wählen Sie **[!UICONTROL Optionen]**
 1. Wählen Sie **[!UICONTROL Report Builder-Anforderung in lokaler Datei protokollieren (zur Fehlerbehebung)]**.<br/>Anforderungen werden in einer Datei mit lokalem Datumsstempel in einem **[!UICONTROL ReportBuilderLogs]**-Verzeichnis im Ordner **[!UICONTROL Documents]** gespeichert.
+
