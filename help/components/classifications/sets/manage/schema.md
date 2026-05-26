@@ -3,17 +3,18 @@ title: Schema des Klassifizierungssatzes
 description: Erfahren Sie, wie Sie das Schema für einen Klassifizierungssatz in Adobe Analytics anzeigen und bearbeiten. Klassifizierungsdaten mithilfe von Cloud-Speicherorten hinzufügen, hochladen, herunterladen oder automatisieren.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-TQID: https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI
+TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
 subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9472de919011402123603b0383e9e1f4404c5016
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -181,8 +182,8 @@ Sie können die Aufnahme von Klassifizierungsdaten durch die Konfiguration und V
 >| Speicherort des Analytics-Rechenzentrums | Hinzufügen dieses IP-Adressbereichs zu einer Netzwerkverbindung |
 >|---|---:|
 >| Pazifischer Nordwesten | `52.254.104.0/22` |
->| London | `51.138.16.0/22` |
->| Singapur | `20.40.0.0/14 ` |
+>| London | `51.138.0.0/19` |
+>| Singapur | `20.32.0.0/11 ` |
 >
 
 Um die Aufnahme der Klassifizierung zu automatisieren, wählen Sie ![Zahnrad](/help/assets/icons/Gear.svg) **[!UICONTROL Automatisieren]**.
