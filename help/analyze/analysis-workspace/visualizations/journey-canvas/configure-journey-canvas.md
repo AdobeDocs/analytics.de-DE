@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Siehe [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) für die ![_CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;Version dieses Artikels._
+_In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Siehe [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) für die ![_CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Weitere Informationen zur Journey-Arbeitsfläche finden Sie unter [Journey-Arbei
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_percentage_value"
 >title="Berechnung der Prozentsätze wählen"
->abstract="Die Prozentsätze, die für jeden Knoten angezeigt werden, basieren auf der primären und der sekundären Metrik, die Sie konfigurieren. Sie können auswählen, ob die Prozentsätze sich auf den Startknoten, den vorherigen Knoten oder auf alle Daten in der Report Suite beziehen sollen."
+>abstract="Die Prozentwerte, die für die einzelnen Knoten angezeigt werden, basieren auf der primären und der sekundären Metrik, die Sie konfigurieren. Sie können festlegen, ob sich die Prozentwerte auf den Startknoten, den vorherigen Knoten oder auf alle Daten in der Report Suite beziehen sollen."
 
 <!-- markdownlint-enable MD034 -->
 
