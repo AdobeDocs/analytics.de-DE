@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 43%
+source-wordcount: 1471
+ht-degree: 42%
 
 ---
 
@@ -102,3 +102,10 @@ Dieser Abschnitt enthält eine Beispielliste von Fehlermeldungen, die bei der Ve
    4. Komprimieren Sie den Inhalt erneut und ändern Sie die Dateierweiterung wieder zurück in `.xlsx`.
    5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anfragen.
 * **Excel-Zellen, die mit den Eingangsfiltern oder dem Ausgangsbereich verbunden sind, wurden möglicherweise gelöscht**: Report Builder verwendet Excel-Namen, um Datenanforderungen an Zellen anzuhängen. Wenn Sie Excel-Namen aus Names Manager löschen, kann dieser Fehler auftreten. Anfragen können nicht wiederhergestellt werden, wenn Excel-Namen gelöscht werden. Wenn die Arbeitsmappe eingeplant war, können Sie entweder eine Kopie vom Zeitplan-Manager herunterladen oder zuvor bereitgestellte Kopien der Arbeitsmappe öffnen.
+
+## Anfragen protokollieren
+
+Um Anfragen zur Fehlerbehebung zu protokollieren, verwenden Sie im alten Report Builder-Add-in Folgendes:
+
+1. Wählen Sie **[!UICONTROL Optionen]**
+1. Wählen Sie **[!UICONTROL Report Builder-Anforderung in lokaler Datei protokollieren (zur Fehlerbehebung)]**.<br/>Anforderungen werden in einer Datei mit lokalem Datumsstempel in einem **[!UICONTROL ReportBuilderLogs]**-Verzeichnis im Ordner **[!UICONTROL Documents]** gespeichert.
