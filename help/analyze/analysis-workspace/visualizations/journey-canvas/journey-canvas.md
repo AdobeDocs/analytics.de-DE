@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="Journey-Arbeitsfläche"
->abstract="Zeigt, wie Personen eine Reihe von Touchpoints durchlaufen oder aus ihr aussteigen. Verwenden Sie für Journey mit mehreren Einstiegspunkten und Pfaden."
+>abstract="Zeigt, wie Personen eine Reihe von Touchpoints durchlaufen oder aus ihr aussteigen. Verwenden Sie die Journey-Arbeitsfläche für Journeys mit mehreren Einstiegspunkten und Pfaden."
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Journey-Arbeitsfläche"
->abstract="Zeigt, wie Personen eine Reihe von Touchpoints durchlaufen oder aus ihr aussteigen. Verwenden Sie für Journey mit mehreren Einstiegspunkten und Pfaden."
+>abstract="Zeigt, wie Personen eine Reihe von Touchpoints durchlaufen oder aus ihr aussteigen. Verwenden Sie die Journey-Arbeitsfläche für Journeys mit mehreren Einstiegspunkten und Pfaden."
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"

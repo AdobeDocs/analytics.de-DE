@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="Primäre Komponente freigeben"
->abstract="Wenn diese Option ausgewählt ist, wird die primäre Komponente für alle Benutzer freigegeben, die Zugriff auf die doppelten Komponenten haben (sowohl für die Eigentümer als auch für alle anderen Benutzer, für die die Komponenten freigegeben sind). Diese Benutzer können dann die primäre Komponente für zukünftige Projekte aus der Komponentenliste auswählen. Sie können die Komponente jedoch nicht bearbeiten, selbst wenn sie Besitzer einer doppelten, konsolidierten Komponente waren. <br/>Diese Option ist nur verfügbar, wenn die primäre Komponente ein Segment, eine berechnete Metrik oder ein Datumsbereich ist. Metriken und Dimensionen sind immer für alle Benutzenden verfügbar."
+>abstract="Wenn diese Option ausgewählt ist, wird die primäre Komponente für alle Benutzenden freigegeben, die Zugriff auf die duplizierten Komponenten haben (sowohl für die Verantwortlichen als auch für alle anderen Benutzenden, für die die Komponenten freigegeben sind). Diese Benutzenden können die primäre Komponente dann für zukünftige Projekte aus der Komponentenliste auswählen. Sie können die Komponente jedoch nicht bearbeiten, selbst wenn sie die Verantwortlichen einer duplizierten Komponente waren, die konsolidiert wurde. <br/>Diese Option ist nur verfügbar, wenn die primäre Komponente ein Segment, eine berechnete Metrik oder ein Datumsbereich ist. Metriken und Dimensionen sind stets für alle Benutzenden verfügbar.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
@@ -40,7 +40,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_delete_duplicates"
 >title="Ersetzte Duplikate löschen"
->abstract="Wenn diese Option ausgewählt ist, stehen konsolidierte Duplikate nicht mehr zur Verwendung zur Verfügung. Deaktivieren Sie diese Option, wenn weiterhin Duplikate verfügbar sein sollen."
+>abstract="Wenn diese Option ausgewählt ist, stehen konsolidierte Duplikate nicht mehr zur Verwendung zur Verfügung. Deaktivieren Sie diese Option, wenn Duplikate weiterhin verfügbar sein sollen."
 
 <!-- markdownlint-enable MD034 -->
 
