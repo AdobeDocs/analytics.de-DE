@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1764
 ht-degree: 69%
 
 ---
@@ -85,7 +85,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    +++Amazon S3-Rollen-ARN
 
-   **HINWEIS:** Bei Verwendung von Amazon S3 mit Daten-Feeds und Data Warehouse wird nur die SSE-S3-Verschlüsselung unterstützt.
+   **HINWEIS:** Bei Verwendung von Amazon S3 mit Daten-Feeds, Data Warehouse und Klassifizierungen wird nur die SSE-S3-Verschlüsselung unterstützt.
 
    Geben Sie die folgenden Informationen an, um ein Amazon S3-Rollen-ARN-Konto zu konfigurieren:
 
@@ -170,7 +170,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    | Feld | Funktion |
    |---------|----------|
-   | [!UICONTROL **Hostname**] | Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.adobe.com`. |
+   | [!UICONTROL **Host-Name**] | Geben Sie die gewünschte FTP-Ziel-URL ein. Zum Beispiel `ftp.adobe.com`. |
    | [!UICONTROL **Port**] | Kann leer gelassen werden. Verwenden Sie dieses Feld, um Feed-Dateien in einem Ordner abzulegen. Ordner müssen bereits vorhanden sein. Wenn der angegebene Port nicht vorhanden ist, wird bei -Feeds ein Fehler ausgegeben. |
    | [!UICONTROL **Benutzername**] | Geben Sie den Benutzernamen für die Anmeldung bei der FTP-Site ein. |
    | [!UICONTROL **Geheimnis des Speicherort-Kontos**] | Geben Sie das Passwort (Geheimnis) ein, um sich bei der FTP-Site anzumelden. |
@@ -199,7 +199,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
    Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
    * S3:GetObject
-   * S3:PutObject
+   * s3:PutObject
    * S3:PutObjectAcl
 
    Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):
