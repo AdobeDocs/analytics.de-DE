@@ -33,27 +33,27 @@ Um diese Dimensionen zu verwenden, aktivieren Sie **[!UICONTROL Media Ads]** unt
 
 Die folgenden Dimensionen sind verfügbar:
 
-* [[!UICONTROL Anzeige]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
-* [[!UICONTROL Anzeige in Pod-Position]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
-* [[!UICONTROL Anzeigenlänge (variabel)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
-* [[!UICONTROL Anzeigename (Variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
-* [[!UICONTROL Player-Namen hinzufügen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
-* [[!UICONTROL Anzeigen-Pod]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
-* [[!UICONTROL Advertiser]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
-* [[!UICONTROL Kampagnen-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
+* [[!UICONTROL Anzeige]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad)
+* [[!UICONTROL Anzeige in Pod-Position]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL Anzeigenlänge (variabel)]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL Anzeigename (Variable)]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL Player-Namen hinzufügen]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL Anzeigen-Pod]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL Advertiser]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/advertiser)
+* [[!UICONTROL Kampagnen-ID]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
 Zusätzlich zu den oben genannten Dimensionen erstellt Adobe automatisch die folgenden Klassifizierungsdimensionen. Sie müssen Klassifizierungsdaten hochladen, um Berichte anzuzeigen, die diese Dimensionen verwenden.
 
 | Klassifizierungsname | Übergeordnete Dimension |
 | --- | --- |
-| [[!UICONTROL Asset-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL Inhalt]](sm-core.md) |
-| [[!UICONTROL Inhaltsbewertung]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL Inhalt]](sm-core.md) |
-| [[!UICONTROL Datum der Erstausstrahlung]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL Inhalt]](sm-core.md) |
-| [[!UICONTROL Erstes digitales Datum]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL Inhalt]](sm-core.md) |
-| [[!UICONTROL Anzeigenlänge]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Anzeige] |
-| [[!UICONTROL Anzeigename]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Anzeige] |
-| [[!UICONTROL Creative-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Anzeige] |
-| [[!UICONTROL Pod-Name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL Anzeigen-Pod] |
-| [[!UICONTROL Position des Pods]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL Anzeigen-Pod] |
+| [[!UICONTROL Asset-ID]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Inhaltsbewertung]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Datum der Erstausstrahlung]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Erstes digitales Datum]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL Inhalt]](sm-core.md) |
+| [[!UICONTROL Anzeigenlänge]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Anzeige] |
+| [[!UICONTROL Anzeigename]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Anzeige] |
+| [[!UICONTROL Creative-ID]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Anzeige] |
+| [[!UICONTROL Pod-Name]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL Anzeigen-Pod] |
+| [[!UICONTROL Position des Pods]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL Anzeigen-Pod] |
 
 Siehe [Metriken für Streaming-Mediendienste und -](../metrics/sm-ads.md)) für die entsprechenden Metriken.

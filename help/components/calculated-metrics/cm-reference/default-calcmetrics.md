@@ -36,7 +36,7 @@ Im Folgenden finden Sie eine Liste aller berechneten Metriken, die von Adobe ber
 >
 >Sie haben folgende Möglichkeiten:
 >
-> * Fügen Sie standardmäßige berechnete Metriken für Streaming-Mediendienste hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics) beschrieben.
+> * Fügen Sie standardmäßige berechnete Metriken für Streaming-Mediendienste hinzu, wie unter [Berechnete Metriken](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/calculated-metrics) beschrieben.
 > * Erstellen Sie benutzerdefinierte berechnete Metriken aus vorhandenen Metriken, wie in [Berechnete und erweiterte berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) beschrieben.
 >
 

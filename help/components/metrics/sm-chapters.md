@@ -31,8 +31,8 @@ Um diese Metriken zu verwenden, aktivieren Sie **[!UICONTROL Medienkapitel]** un
 
 Die folgenden Metriken sind verfügbar:
 
-* [[!UICONTROL Kapitel abgeschlossen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
-* [[!UICONTROL Kapitelstarts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
-* [[!UICONTROL Besuchszeit für Kapitel]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+* [[!UICONTROL Kapitel abgeschlossen]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL Kapitelstarts]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL Besuchszeit für Kapitel]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
 
 Entsprechende Dimensionen finden [&#x200B; im Kapitel &#x200B;](../dimensions/sm-chapters.md)Dimensionen für Streaming-Mediendienste“.
