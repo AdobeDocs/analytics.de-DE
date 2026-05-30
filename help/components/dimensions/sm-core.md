@@ -31,22 +31,22 @@ Um diese Dimensionen zu verwenden, aktivieren Sie **[!UICONTROL Media Core]** un
 
 Die folgenden Dimensionen sind verfügbar:
 
-* [[!UICONTROL Inhalt]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
-* [[!UICONTROL Inhaltskanal]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
-* [[!UICONTROL Inhaltslänge (variabel)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
-* [[!UICONTROL Inhaltsname (Variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
-* [[!UICONTROL Name des Inhalts-Players]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
-* [[!UICONTROL Inhaltssegment]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
-* [[!UICONTROL Content-Typ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
-* [[!UICONTROL Medienpfad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
-* [[!UICONTROL Mediensitzungs-ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
-* [[!UICONTROL Stream-Typ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
+* [[!UICONTROL Inhalt]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL Inhaltskanal]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL Inhaltslänge (variabel)]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL Inhaltsname (Variable)]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL Name des Inhalts-Players]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL Inhaltssegment]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL Content-Typ]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL Medienpfad]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL Mediensitzungs-ID]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL Stream-Typ]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 Zusätzlich zu den oben genannten Dimensionen erstellt Adobe automatisch die folgenden Klassifizierungsdimensionen. Sie müssen Klassifizierungsdaten hochladen, um Berichte anzuzeigen, die diese Dimensionen verwenden.
 
 | Klassifizierungsname | Übergeordnete Dimension |
 | --- | --- |
-| [[!UICONTROL Videolänge]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Inhalt] |
-| [[!UICONTROL Videoname]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Inhalt] |
+| [[!UICONTROL Videolänge]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Inhalt] |
+| [[!UICONTROL Videoname]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Inhalt] |
 
 Entsprechende Metriken finden [&#x200B; unter &#x200B;](../metrics/sm-core.md) von Streaming-Mediendiensten .

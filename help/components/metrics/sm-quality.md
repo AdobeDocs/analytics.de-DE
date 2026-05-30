@@ -32,17 +32,17 @@ Um diese Metriken zu verwenden, aktivieren **[!UICONTROL Medienqualität]** unte
 
 Die folgenden Metriken sind verfügbar:
 
-* [[!UICONTROL Durchschnittliche Bitrate]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
-* [[!UICONTROL Von Bitratenänderung betroffene Streams]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
-* [[!UICONTROL Bitratenänderungen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
-* [[!UICONTROL Vom Puffer betroffene Streams]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
-* [[!UICONTROL Pufferereignisse]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
-* [[!UICONTROL Gesamtdauer des Puffers]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
-* [[!UICONTROL Drops vor dem Start]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
-* [[!UICONTROL Dropped Frames]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
-* [[!UICONTROL Von Dropped Frames betroffene Streams]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
-* [[!UICONTROL Von Fehlern betroffene Streams]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
-* [[!UICONTROL Fehlerereignisse]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
-* [[!UICONTROL Zeit bis zum Start]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+* [[!UICONTROL Durchschnittliche Bitrate]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL Von Bitratenänderung betroffene Streams]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL Bitratenänderungen]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL Vom Puffer betroffene Streams]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL Pufferereignisse]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL Gesamtdauer des Puffers]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL Drops vor dem Start]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL Dropped Frames]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL Von Dropped Frames betroffene Streams]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL Von Fehlern betroffene Streams]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL Fehlerereignisse]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL Zeit bis zum Start]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/time-to-start)
 
 Siehe [Qualitätsdimensionen von Streaming](../dimensions/sm-quality.md)Mediendiensten) für die entsprechenden Dimensionen.
