@@ -71,7 +71,7 @@ Jede Spalte kann eine andere Dimension aufweisen. Ziehen Sie einen Dimension per
 
 >[!MORELIKETHIS]
 >
->[Konfigurieren einer Visualisierung „Fluss“](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Konfigurieren einer Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 

@@ -25,7 +25,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: 2046
 ht-degree: 88%
 
 ---
@@ -100,7 +100,7 @@ So geben Sie eine bestimmte Projektrolle für Benutzende oder Gruppen in Ihrer O
 
    Oder
 
-   Wenn Sie nur ein einzelnes Projekt freigeben möchten, können Sie das freizugebende Projekt öffnen und dann **[!UICONTROL Freigeben]** > **[!UICONTROL Für Arbeitsbereich-Benutzende freigeben]** auswählen.
+   Um nur ein einzelnes Projekt freizugeben, können Sie das Projekt öffnen, das Sie freigeben möchten, und dann **[!UICONTROL Freigeben]** > **[!UICONTROL Für Workspace-Benutzer freigeben]**.
 Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projekt zuerst zu speichern.
 
    Das Dialogfeld „Freigeben“ wird angezeigt. Die Abschnitte [!UICONTROL **Über Link freigeben**] und [!UICONTROL **Einstellungen**] des Dialogfelds sind nur sichtbar, wenn ein einzelnes Projekt freigegeben wird.
@@ -149,8 +149,8 @@ So geben Sie den Projekt-Link für Personen in Ihrer Organisation frei:
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="CX Enterprise-Authentifizierung verlangen"
->abstract="Ihr Unternehmen verlangt, dass sich Benutzer bei CX Enterprise anmelden, um diesen Link verwenden zu können."
+>title="CX Enterprise-Authentifizierung erforderlich"
+>abstract="Ihre Organisation verlangt, dass sich Benutzende bei CX Enterprise anmelden, um diesen Link zu verwenden."
 
 Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) auf Analysis Workspace-Projekte für Personen freischalten, die keinen Zugriff auf Adobe Analytics haben. Dazu können gehören:
 

@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="CX Enterprise-Publishing"
+>title="CX Enterprise-Veröffentlichung"
 >abstract="Sie können die Zielgruppe in der Zielgruppenbibliothek veröffentlichen, wo sie für Marketing-Aktivitäten in Target und anderen CX Enterprise-Lösungen verwendet werden kann."
 
 >[!CONTEXTUALHELP]
