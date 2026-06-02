@@ -11,7 +11,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->Die alte Report Builder-Version wurde im Juni 2026 eingestellt. Ab dem 1. Juli 2026 werden Arbeitsmappen, die mit der veralteten Report Builder geplant sind, nicht mehr bereitgestellt. <ul><li>Sie haben bis zum 12. August 2026 Zeit, um Ihre Arbeitsmappen von der veralteten Report Builder auf die neue Report Builder zu migrieren. Detaillierte Informationen finden [ unter „Alte ](/help/analyze/report-builder/convert-workbooks.md) konvertieren“.</li><li>Mit dem Auslaufen der Adobe Analytics 1.4-APIs steht das alte Report Builder-Add-in nicht mehr zum Download zur Verfügung.</li><li>Nach dem 12. August 2026 müssen sich Kunden mit Arbeitsmappen, die migriert werden müssen, an den Kunden-Support wenden, um die ursprünglichen Arbeitsmappen zu erhalten. Diese Arbeitsmappen müssen migriert werden, wie in dokumentiert[ „Alte Arbeitsmappen konvertieren](/help/analyze/report-builder/convert-workbooks.md).</li></ul> Seit dem 16. Oktober 2024 ist ein neuer und optimierter [Report Builder](/help/analyze/report-builder/rb-overview.md) verfügbar. Dieser Report Builder wird unter macOS, Windows und in Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden. Geplante Exporte auf einen FTP-Server und Power BI werden in Report Builder nicht mehr unterstützt. Kundinnen und Kunden, die diese Funktionen in der alten Report Builder verwenden, müssen ein [Cloud-Ziel für den Export](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) in Report Builder verwenden.
+>Die alte Report Builder-Version wurde im Juni 2026 eingestellt. Ab dem 1. Juli 2026 werden Arbeitsmappen, die mit der veralteten Report Builder geplant sind, nicht mehr bereitgestellt. <ul><li>Sie haben bis zum 12. August 2026 Zeit, um Ihre Arbeitsmappen von der veralteten Report Builder auf die neue Report Builder zu migrieren. Detaillierte Informationen finden [&#x200B; unter „Alte &#x200B;](/help/analyze/report-builder/convert-workbooks.md) konvertieren“.</li><li>Mit dem Auslaufen der Adobe Analytics 1.4-APIs steht das alte Report Builder-Add-in nicht mehr zum Download zur Verfügung.</li><li>Nach dem 12. August 2026 müssen sich Kunden mit Arbeitsmappen, die migriert werden müssen, an den Kunden-Support wenden, um die ursprünglichen Arbeitsmappen zu erhalten. Diese Arbeitsmappen müssen migriert werden, wie in dokumentiert[&#x200B; „Alte Arbeitsmappen konvertieren](/help/analyze/report-builder/convert-workbooks.md).</li></ul> Seit dem 16. Oktober 2024 ist ein neuer und optimierter [Report Builder](/help/analyze/report-builder/rb-overview.md) verfügbar. Dieser Report Builder wird unter macOS, Windows und in Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden. Geplante Exporte auf einen FTP-Server und Power BI werden in Report Builder nicht mehr unterstützt. Kundinnen und Kunden, die diese Funktionen in der alten Report Builder verwenden, müssen ein [Cloud-Ziel für den Export](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) in Report Builder verwenden.
 
 
 ## Vorgängerversion von Report Builder {#legacy-arb-old}
@@ -19,9 +19,9 @@ ht-degree: 93%
 >[!IMPORTANT]
 >
 >Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) ist seit dem 16. Oktober 2024 verfügbar. Diese Report Builder wird in macOS, Windows und Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden.
->Diese alte Add-In-Version für Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in ](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>Diese alte Add-In-Version für Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
 
-## Mitteilung zum Ende der Nutzungsdauer von Reports &amp; Analytics {#ra-eol}
+## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
