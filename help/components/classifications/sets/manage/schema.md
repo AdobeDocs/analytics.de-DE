@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
+source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: 1676
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ Die Liste der Klassifizierungen enthält die folgenden Spalten:
 | Spalte | Beschreibung |
 |---|---|
 | **[!UICONTROL Klassifizierungsname]** | Der von Ihnen für die Klassifizierung angegebene Name. |
-| **[!UICONTROL Identitätsname]** | Der vom System generierte Name für die Klassifizierung. Dieser Name ist schreibgeschützt und Sie können den Identitätsnamen verwenden. |
+| **[!UICONTROL Identitätsname]** | Der vom System generierte Name für die Klassifizierung. Dieser Name ist schreibgeschützt und wird vom ursprünglichen Klassifizierungsnamen abgeleitet. Der Identitätsname wird intern verwendet, um die Klassifizierung beizubehalten, als ID der berichtspflichtigen Dimension zu fungieren und kann nicht geändert werden. |
 | **[!UICONTROL Klassifiziert nach]** | Falls verwendet, einen Link zum Such-Klassifizierungssatz, der zur Klassifizierung dieser Klassifizierung verwendet wird. |
 
 
