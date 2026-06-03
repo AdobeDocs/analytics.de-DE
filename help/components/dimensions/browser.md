@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ Diese Dimension verweist auf eine interne Tabelle von Adobe. Der Wert basiert au
 Zu den Dimensionselementen gehören die verwendeten Browsernamen und -versionen. Verschiedene Versionen desselben Browsers sind separate Dimensionselemente.
 
 Einige Dimensionselemente enthalten `"(unknown version)"` anstelle ihrer Versionsnummer. Dieses Dimensionselement verweist auf eine neuere Browser-Version, die Adobe noch nicht zu ihren Lookup-Tabellen hinzugefügt hat. Da Browser häufig aktualisiert werden, ist `"(unknown version)"` für einen bestimmten Browser üblich und vorübergehend. Adobe aktualisiert die Suchtabellen in der Regel während der monatlichen Wartungsversionen.
+
+Einige Dimensionselemente enthalten `.999` als Nebenversionsnummer, z. B. `"Chrome 148.999"`. Dieser Wert zeigt an, dass Adobe die Nebenversion des Browsers nicht zuverlässig ermitteln konnte. Wenn Chrome- oder Edge-Browser Anfragen ohne [Client-Hinweise](/help/technotes/client-hints.md) senden, wird die Nebenversion in der Benutzeragenten-Zeichenfolge als nicht vertrauenswürdig eingestuft. Anstatt Dimensionselemente mit potenziell ungenauen Nebenversionen aufzublähen, ersetzt Adobe diese Nebenversionen durch `.999`. Wenn ein Browser eine ungewöhnlich hohe Versionsnummer (über 99999) meldet, normalisiert Adobe diese auf `999.999`.
