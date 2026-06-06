@@ -35,7 +35,7 @@ Dynamische Suchen ermöglichen es Ihnen, zusätzliche Suchdateien in Ihrem Daten
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Aktivieren dynamischer Suchen"
->abstract="Wählen Sie diese Option aus, um zusätzliche Lookup-Dateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li>Betreibername</li><li>Mobilattribute</li><li>Betriebssystemtyp</li></ul>"
+>abstract="Wählen Sie diese Option aus, um zusätzliche Lookup-Dateien in Ihrem Daten-Feed zu erhalten, die sonst nicht verfügbar sind. Mit dieser Einstellung können die folgenden Lookup-Tabellen mit jeder Daten-Feed-Datei gesendet werden:<ul><li>Betreibername</li><li>Mobile Attribute</li><li>Betriebssystemtyp</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 
