@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie die Journey-Arbeitsflächen-Visualisierung in
 title: Fehlerbehebung für die Journey-Arbeitsfläche
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -17,8 +17,6 @@ ht-degree: 91%
 _In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Siehe [Übersicht über das Journey-Arbeitsflächen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) für die _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 Die Journey-Arbeitsflächenvisualisierung hilft Ihnen, die Journey zu analysieren und tiefgreifende Erkenntnisse zu gewinnen, die Sie Ihren Benutzenden sowie Kundinnen und Kunden bereitstellen können.
 
