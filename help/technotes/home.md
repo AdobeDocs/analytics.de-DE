@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 440
 ht-degree: 97%
 
 ---
@@ -49,11 +49,6 @@ Zu den Hauptfunktionen von Adobe Analytics gehören:
 * Berichterstellung: Die Plattform bietet eine Reihe von Berichtsoptionen, einschließlich terminierter Berichte, Ad-hoc-Berichte und anpassbarer Dashboards, die es Unternehmen ermöglichen, Einblicke mit Stakeholdern zu teilen und bei datengesteuerten Entscheidungen zusammenzuarbeiten.
 
 Um es zusammenzufassen: Adobe Analytics ist eine leistungsstarke Web-Analyselösung, die Unternehmen die Tools zur Messung, Analyse und Optimierung ihrer digitalen Marketing-Aktivitäten bietet. Mit Echtzeitdaten, erweiterten Analysen und Attributionsmodellen können Unternehmen datengesteuerte Entscheidungen treffen, die die digitale Transformation fördern und den ROI verbessern.
-
-
-## Wichtige Technote-Artikel
-
-* [Umstieg von einer Drittanbieter-Analyseplattform auf Adobe Analytics](ga-to-aa/home.md)
 
 ## Weitere Benutzerhandbücher für Analytics
 

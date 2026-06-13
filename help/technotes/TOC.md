@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Technische Hinweise zu Analytics
 breadcrumb-title: Technische Hinweise
 user-guide-description: Durchsuchen Sie eine Wissensdatenbank mit hilfreichen Artikeln, die nicht zu einem bestimmten Analytics-Tool oder einer Komponente gehören.
-source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: ht
-source-wordcount: '221'
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,6 @@ ht-degree: 100%
 
 + [Technische Hinweise zu Analytics](home.md)
 + [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
-+ Adobe Analytics für Benutzende von Google Analytics {#ga-to-aa}
-   + [Hilfe für Anwender von Adobe Analytics für Google Analytics](ga-to-aa/home.md)
-   + [Konten und Report Suites](ga-to-aa/accounts.md)
-   + [Berichtsansichten anpassen](ga-to-aa/customization.md)
-   + Google Analytics-Berichte {#reports}
-      + [Erstellen eines Basisberichts in Analysis Workspace für GA-Anwender](ga-to-aa/reports/create-report.md)
-      + [Gängige Metriken, die auf anderen Analytics-Plattformen verwendet werden](ga-to-aa/reports/common-metrics.md)
-      + [Echtzeit](ga-to-aa/reports/realtime-reports.md)
-      + [Zielgruppe](ga-to-aa/reports/audience-reports.md)
-      + [Akquise](ga-to-aa/reports/acquisition-reports.md)
-      + [Verhalten](ga-to-aa/reports/behavior-reports.md)
-      + [Konversionen](ga-to-aa/reports/conversions-reports.md)
-   + [Häufig gestellte Fragen](ga-to-aa/faq.md)
-   + [Verarbeitungsunterschiede zwischen Plattformen](ga-to-aa/processing-differences.md)
-   + [Vergleichen von Daten mit Produkten von Drittanbietern](ga-to-aa/compare-data.md)
 + [Analysieren von KI-Traffic](/help/technotes/ai-traffic.md)
 + Analyse der von Ereignissen betroffenen Daten {#event}
    + [Analyse der von Ereignissen betroffenen Daten – Übersicht](event/overview.md)
