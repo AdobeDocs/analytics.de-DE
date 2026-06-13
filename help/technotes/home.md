@@ -4,24 +4,14 @@ description: Dieses Handbuch enthält nützliche Informationen zu Themen, die ni
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
 TQID: https://experienceleague.adobe.com/FL2bY4bWuO8V8RCwqXmqYYkv0O1l63kVKuqJTIPvBqc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 440
 ht-degree: 97%
 
 ---
@@ -50,18 +40,13 @@ Zu den Hauptfunktionen von Adobe Analytics gehören:
 
 Um es zusammenzufassen: Adobe Analytics ist eine leistungsstarke Web-Analyselösung, die Unternehmen die Tools zur Messung, Analyse und Optimierung ihrer digitalen Marketing-Aktivitäten bietet. Mit Echtzeitdaten, erweiterten Analysen und Attributionsmodellen können Unternehmen datengesteuerte Entscheidungen treffen, die die digitale Transformation fördern und den ROI verbessern.
 
-
-## Wichtige Technote-Artikel
-
-* [Umstieg von einer Drittanbieter-Analyseplattform auf Adobe Analytics](ga-to-aa/home.md)
-
 ## Weitere Benutzerhandbücher für Analytics
 
 [Analytics-Benutzerhandbücher](https://experienceleague.adobe.com/docs/analytics.html?lang=de)
 
 ## Andere Analytics-Ressourcen
 
-* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/de?support-solution=Analytics&lang=de#support)
+* [Kundenunterstützung kontaktieren](https://experienceleague.adobe.com/?support-solution=Analytics&lang=de#support)
 * [Adobe Analytics-Community in Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=de)
 * [Adobe Analytics-Ressourcen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=de)
 * [Experience League](https://experienceleague.adobe.com/de)
