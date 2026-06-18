@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 941
 ht-degree: 100%
@@ -65,7 +65,7 @@ Um auf das Bedienfeld „Komponenten“ zuzugreifen, wählen Sie im Schaltfläch
 Informationen über die Verwendung von Komponenten in einem Projekt finden Sie unter [Erstellen eines Projekts](/help/analyze/analysis-workspace/home.md).
 
 
-## Verwalten von Komponenten {#actions}
+## Verwalten von Komponenten
 
 Mithilfe des Menüs **[!UICONTROL Komponenten]** in Analysis Workspace können Sie schnell eine neue Komponente erstellen. Weitere Informationen finden Sie im [Menü „Analysis Workspace“](/help/analyze/analysis-workspace/home.md#menu).
 
@@ -197,7 +197,7 @@ Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICO
 ![](assets/date-ranges.png)
 
 
-## Manage components {#actions}
+## Manage components
 
 You can manage components directly in the left rail. 
 
