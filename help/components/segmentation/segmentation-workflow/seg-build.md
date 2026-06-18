@@ -4,10 +4,18 @@ title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1869
@@ -61,7 +69,7 @@ Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zu
    {style="table-layout:auto"}
 
 1. Um zu überprüfen, ob Ihre Segmentdefinition korrekt ist, verwenden Sie die ständig aktualisierte Vorschau der Ergebnisse des Segments oben rechts.
-1. Um Ihr Segment in CX Enterprise zu veröffentlichen, wählen **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere [ finden Sie unter „Veröffentlichen von Segmenten ](/help/components/segmentation/segmentation-workflow/seg-publish.md) CX Enterprise“.
+1. Um Ihr Segment in CX Enterprise zu veröffentlichen, wählen **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere [&#x200B; finden Sie unter „Veröffentlichen von Segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) CX Enterprise“.
 1. Wählen Sie Folgendes aus:
    * **[!UICONTROL Speichern]**: Speichert das Segment.
    * **[!UICONTROL Speichern unter]**: Speichert eine Kopie des Segments.
