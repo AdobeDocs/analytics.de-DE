@@ -30,9 +30,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 2885
+source-wordcount: 2881
 ht-degree: 56%
 
 ---
@@ -57,7 +57,7 @@ Releasedatum: **Dienstag, 12. August 2024**
 
 Releasedatum: **Dienstag, 4. März 2024**
 
-* AppMeasurement erkennt und verwendet automatisch die Stamm-Domain für Länder-Code-Domains auf oberster Ebene, für die zuvor bestimmte Cookie-Domain-Konfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben. Weitere Informationen finden Sie unter [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) .
+* AppMeasurement erkennt und verwendet automatisch die Stamm-Domain für Länder-Code-Domains auf oberster Ebene, für die zuvor bestimmte Cookie-Domain-Konfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben.
 * Die Verteilung umfasst die Identity Service-Bibliothek 5.5.0 und Data Integration Library 9.6.
 
 ## Version 2.25.0
@@ -205,7 +205,7 @@ Releasedatum: **24. Mai 2018**
 
 >[!NOTE]
 >
->Kunden, die den Experience Cloud ID-Service verwenden, benötigen die Besucher-API 3.0 oder höher. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden (`at.js`, `AppMeasurement.js` usw.)
+>Die Besucher-API 3.0 oder höher ist für Kunden erforderlich, die den Experience Cloud ID-Service verwenden. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden (`at.js`, `AppMeasurement.js` usw.)
 
 * AppMeasurement wurde aktualisiert und verwendet jetzt die aktualisierte Benutzeroberfläche zum Anfordern von IDs. (AN-151483)
 * Es wurde ein Problem behoben, durch das nach der Deaktivierung von Linktracking weiterhin ein Linktracking-Cookie erstellt wurde. (AN-156332)

@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 47%
 
 ---
 
@@ -37,3 +37,10 @@ Die folgende Liste enthält die häufig in Implementierungen verwendeten Variabl
 * [`campaign`](campaign.md): Legen Sie diese Variable auf einen Abfragezeichenfolge-Parameter zum Tracken von Kampagnen fest.
 * [`events`](events/events-overview.md): Füllen Sie Metriken zur Verwendung in Berichten.
 * [`products`](products.md): Wenn Sie eine E-Commerce-Site haben, legen Sie diese Variable fest, wenn ein Besucher ein Produkt ansieht oder kauft.
+
+## Eingestellte Seitenvariablen
+
+Die folgenden Seitenvariablen werden eingestellt. Sie werden hier als Referenz dokumentiert, wenn Sie sie in einer Legacy-Implementierung feststellen.
+
+* **`hier`**: Hierarchievariablen implementiert (`hier1`-`hier5`), um die Struktur einer Site für das Reporting zu erfassen. Sie ist veraltet und keine verfügbare Dimension mehr in Analysis Workspace. Verwenden Sie stattdessen [eVars](evar.md) und Klassifizierungen.
+* **`state`**: Erfasst den US-Bundesstaat, in den ein Besucher eingetreten ist, normalerweise über ein Versand- oder Rechnungsformular. Verwenden Sie stattdessen [[!UICONTROL &#x200B; Dimension &#x200B;]](/help/components/dimensions/us-states.md)US-Bundesstaaten“, mit der Adobe automatisch vom geografischen Standort des Besuchers ausfüllt.

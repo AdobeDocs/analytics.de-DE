@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 65%
+source-wordcount: 385
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung 
 
 Bei Implementierungen, die die Web SDK-Erweiterung oder Analytics-Erweiterung verwenden, befinden sich Konfigurationsvariablen normalerweise in den Einstellungen der Erweiterung:
 
-1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com/data-collection) Adobe Experience Platform-Datenerfassung an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf [!UICONTROL Erweiterungen] und dann unter der Erweiterung auf [!UICONTROL Konfigurieren].
 
@@ -44,3 +44,18 @@ Bei JavaScript-Implementierungen mit `AppMeasurement.js` werden die Konfiguratio
 >[!IMPORTANT]
 >
 >Stellen Sie sicher, dass alle Konfigurationsvariablen festgelegt sind, bevor Sie eine Tracking-Methode aufrufen ([`t()`](../functions/t-method.md) oder [`tl()`](../functions/tl-method.md)). Vermeiden Sie das Festlegen von Konfigurationsvariablen in der [`doPlugins()`](../functions/doplugins.md)-Funktion.
+
+## Eingestellte Konfigurationsvariablen
+
+Die folgenden Konfigurationsvariablen werden eingestellt. Sie werden hier als Referenz dokumentiert, wenn Sie sie in einer Legacy-Implementierung feststellen.
+
+* **`account`**: Die Report Suite ermittelt, an die Daten gesendet wurden. Die Report Suite wird jetzt durch die Instanziierung von Tracking-Objekten (die [`s_gi()`](../functions/s-gi.md)-Methode) verarbeitet. Verwenden Sie die [`s.sa()`](../functions/sa-method.md)-Methode, wenn Sie die Report Suite nach der Instanziierung des Tracking-Objekts ändern müssen.
+* **`cookieDomain`**: Die Domain bestimmt, in der AppMeasurement Cookies setzt. Aktuelle Versionen von AppMeasurement erkennen automatisch die richtige Cookie-Domain, wodurch diese Variable überholt ist.
+* **`cookieDomainPeriods`**: Hilft AppMeasurement zu bestimmen, wo Cookies gespeichert werden sollen, wenn eine Domain mehrere Punkte enthält. Aktuelle Versionen von AppMeasurement erkennen automatisch die richtige Domain, sodass diese Variable veraltet ist.
+* **`fpCookieDomainPeriods`**: Die Erstanbieter-Entsprechung von `cookieDomainPeriods`, mit der Cookies an der richtigen Stelle gesetzt werden, wenn das Suffix einer Erstanbieter-Domain einen zusätzlichen Punkt enthielt (z. B. `example.co.uk`). Aktuelle Versionen von AppMeasurement erkennen automatisch die richtige Domain, sodass diese Variable veraltet ist.
+* **`trackingServer`**: Gibt die Domain an, die zum Senden von Daten an Adobe über HTTP verwendet wird. Sie wird zugunsten einer sicheren Datenerfassung über HTTPS nicht mehr unterstützt. Verwenden Sie stattdessen [`trackingServerSecure`](trackingserversecure.md).
+* **`trackInlineStats`**: Frühere Versionen von [Activity Map aktiviert oder deaktiviert](/help/analyze/activity-map/overview.md).
+* **`visitorMigrationKey`**: Schlüssel für die Migration von Besuchern von Drittanbieter-Cookies zu Erstanbieter-Cookies. Sie wird eingestellt, da moderne Bibliotheken ein First-Party-Ausweich-Cookie (`fid`) setzen und für ihre Identität auf den Experience Cloud ID-Service angewiesen sind.
+* **`visitorMigrationServer`**: Gibt den Server an, der während der Migration von Drittanbieter- zu Erstanbieter-Cookies verwendet wird.
+* **`visitorMigrationServerSecure`**: Das HTTPS-Äquivalent von `visitorMigrationServer`.
+* **`visitorNameSpace`**: Hilft bei der Bestimmung der Drittanbieter-Cookie-Domain. Er wurde zugunsten der Verwendung der [`trackingServerSecure`](trackingserversecure.md)-Variablen für Implementierungen eingestellt, die den Experience Cloud ID-Service nicht verwenden.

@@ -11,10 +11,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 42%
+source-wordcount: 251
+ht-degree: 39%
 
 ---
 
@@ -38,9 +38,11 @@ So erstellen Sie einen Bericht für eine Data Warehouse-Anfrage:
 
    Nicht alle in Segment Builder erstellten Segmente sind mit Data Warehouse kompatibel. Wenn Sie eine Virtual Report Suite auswählen, die inkompatible Segmente enthält, wird ein Fehler angezeigt.
 
-   Eine Liste der unterstützten Funktionen innerhalb eines Segments finden Sie unter [Segmentkompatibilität mit Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Die in einem Data Warehouse-Segment unterstützten Segmentstrukturen und Dimensionen finden Sie unter [Segmentkompatibilität mit Data Warehouse](/help/export/data-warehouse/segment-compatibility.md).
 
 1. Ziehen Sie beliebige Segmente, Metriken und Dimensionen in den Builder. Der von Ihnen erstellte Bericht bestimmt, welche Daten in der Data Warehouse-Anfrage enthalten sind.
+
+   Die in einer Anfrage verfügbaren Dimensionen und Metriken finden Sie unter [Komponentenunterstützung in Data Warehouse](/help/export/data-warehouse/component-support.md).
 
 1. Fahren Sie mit der Konfiguration Ihrer Data Warehouse-Anfrage auf der Registerkarte [!UICONTROL **Berichtsziel**] fort. Weitere Informationen finden Sie unter [Konfigurieren eines Berichtsziels für eine Data Warehouse-Anfrage](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

@@ -22,21 +22,21 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 164
-ht-degree: 84%
+ht-degree: 34%
 
 ---
 
 # Treffertyp
 
-Der „Treffertyp“ [Dimension](overview.md) bestimmt, ob sich eine Mobile App im Vorder- oder Hintergrund befand, als der Treffer an die Datenerfassungs-Server von Adobe gesendet wurde. Diese Dimension ist nur für Report Suites relevant, die Daten für mobile Apps enthalten. Über AppMeasurement erfasste Browser-Daten melden den Treffer immer als „Vordergrund“.
+Der „Treffertyp“ [Dimension](overview.md) bestimmt, ob sich eine Mobile App im Vorder- oder Hintergrund befand, als der Treffer an die Datenerfassungs-Server von Adobe gesendet wurde. Diese Dimension ist nur für Report Suites relevant, die Daten für mobile Apps enthalten. Über AppMeasurement erfasste Browser-Daten melden den Treffer immer als `"Foreground"`.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension funktioniert bei allen Mobile SDK-Implementierungen ab Version 4.13.6 standardmäßig. Wenn Sie das Mobile SDK nicht verwenden, werden alle Treffer unter dem Dimensionselement „Vordergrund“ aufgelistet. Wenn „Ältere Berichterstellung und Attribution deaktivieren, um Hintergrundtreffer zu erhalten“ ausgewählt wird, werden Hintergrundtreffer nur in [Virtual Report Suites](../vrs/vrs-mobile-visit-processing.md) angezeigt.
+Diese Dimension funktioniert bei allen Mobile SDK-Implementierungen ab Version 4.13.6 standardmäßig. Mobile SDK legt die [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md)-Variable (den `cp` Abfrageparameter) fest, um anzugeben, ob jeder Treffer im Vordergrund oder im Hintergrund aufgetreten ist. Wenn Sie die mobile SDK nicht verwenden, werden alle Treffer unter `"Foreground"` aufgelistet. Wenn **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]** bei der Konfiguration einer [Virtual Report Suite](../vrs/vrs-mobile-visit-processing.md) ausgewählt wird, werden durch Hintergrundtreffer [[!UICONTROL Besuche]](../metrics/visits.md) und [[!UICONTROL Unique Visitors]](../metrics/unique-visitors.md).
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören `"Foreground"` und `"Background"`. Jeder Treffer, der nicht im Hintergrund einer mobilen App gesendet wurde, gehört zum Dimensionselement `"Foreground"`. Jeder Treffer, der gesendet wird, wenn die mobile App im Hintergrund war, gehört zum Dimensionselement `"Background"`.
+Zu den Dimensionselementen gehören `"Foreground"` und `"Background"`. Hintergrundtreffer treten nur auf Mobilgeräten auf, auf denen sich die verfolgte Anwendung im Hintergrund befindet.

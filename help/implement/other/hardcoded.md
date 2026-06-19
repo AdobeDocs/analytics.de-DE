@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 100%
@@ -44,7 +44,7 @@ Im Folgenden finden Sie ein Beispiel für eine fest programmierte Bildanforderun
 ```
 
 * `https://` bezeichnet das Protokoll. Stimmen Sie das in der Bildanforderung verwendete Protokoll mit dem Protokoll ab, das der Rest Ihrer Website verwendet.
-* `example.data.adobedc.net` ist der in der [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)-Variablen enthaltene Wert.
+* `example.data.adobedc.net` ist der in der [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)-Variablen enthaltene Wert.
 * `/b/ss/` ist in allen Bildanforderungen enthalten. Dabei handelt es sich um einen Teil der Dateistruktur für Bilder, die auf Adobe-Datenerfassungs-Servern gespeichert werden.
 * `examplersid` ist die Report Suite-ID, an die Sie Daten senden möchten. Trennen Sie die IDs bei mehreren Report Suites durch Kommas und ohne Leerzeichen (z. B. `examplersid1,examplersid2` usw.).
 * `/1/` ist die Trefferquelle. Siehe `hit_source` unter [Datenspaltenreferenz](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) im Exportbenutzerhandbuch. Steuert die Reihenfolge, in der Cookies und andere Methoden Besucher identifizieren.

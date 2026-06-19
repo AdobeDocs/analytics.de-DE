@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 8%
@@ -51,12 +51,12 @@ Die folgenden Variablen wurden zum Einfügen von Bulk-Daten eingeführt, die zuv
 * **`contextData.key`**: [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Experience Cloud ID-Service-Variablen. Umfasst `id`, `authState` und `isMCSeed`.
 * **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
-* **`ipaddress`**: Die IP-Adresse des Besuchers.
+* **`ipaddress`**: Die Dimension [IP-Adresse](/help/components/dimensions/ip-address.md) .
 * **`language`**: Die Dimension [Sprache](/help/components/dimensions/language.md) .
 * **`list1`** - **`list3`**: [Listenvariablen](/help/implement/vars/page-vars/list.md).
 * **`marketingCloudVisitorID`**: Die Experience Cloud-ID des Besuchers.
 * **`tnta`**: Target-Daten-Payload, die in Integrationen [Analytics for Target“ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) wird.
-* **`trackingServer`**: Die [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
+* **`trackingServer`**: Die [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md).
 * **`transactionID`**: Die [`transactionID`](/help/implement/vars/page-vars/transactionid.md).
 * **`userAgent`**: Die Benutzeragenten-Zeichenfolge des Geräts.
 

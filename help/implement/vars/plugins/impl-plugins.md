@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 96%
+source-wordcount: 410
+ht-degree: 79%
 
 ---
 
@@ -53,3 +53,9 @@ Jedes Unternehmen hat unterschiedliche Implementierungsanforderungen, sodass Sie
 4. Validieren Sie Ihre Implementierung und veröffentlichen Sie sie.
 
 Viele Unternehmen rufen Plug-ins über die [`doPlugins`](../functions/doplugins.md)-Funktion auf. Diese Funktion ist zwar nicht erforderlich, Adobe hält sie jedoch für eine Best Practice. AppMeasurement ruft diese Funktion kurz vor dem Kompilieren und Senden einer Bildanforderung auf. Dies ist ideal, da mehrere Plug-ins von anderen Analytics-Variablen abhängen.
+
+## Eingestellte Plug-ins
+
+Die folgenden Plug-ins wurden eingestellt. Sie werden hier als Referenz dokumentiert, wenn Sie sie in einer Legacy-Implementierung feststellen.
+
+* **`getPageLoadTime`**: Die Zeit, die das vollständige Laden einer Seite dauerte, wurde mit dem JavaScript-Leistungsobjekt gemessen. Es wird nicht mehr unterstützt, da sein Code auf der [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)-Schnittstelle basiert, die in den meisten modernen Browsern veraltet ist. Es gibt keinen direkten Austausch, und Installationsanweisungen und Plug-in-Code sind nicht mehr verfügbar.

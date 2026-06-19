@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Exportleitfaden für Analytics
 breadcrumb-title: Exportleitfaden
 user-guide-description: Erfahren Sie, wie Sie mit Daten-Feeds und Data Warehouse die Ausgabe von Daten abrufen.
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 94%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 94%
    + [Nach Metrik sortieren](data-warehouse/sorting-by-metric.md)
    + [Verwalten von Data Warehouse-Anforderungen](data-warehouse/data-warehouse-requests-manage.md)
    + [In Data Warehouse unterstützte Komponenten](data-warehouse/component-support.md)
+   + [Data Warehouse-Segmentkompatibilität](data-warehouse/segment-compatibility.md)
    + [Best Practices für Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP und SFTP {#ftp-and-sftp}
    + [FTP und SFTP mit Adobe CX Enterprise verwenden](ftp-and-sftp/ftp-overview.md)
