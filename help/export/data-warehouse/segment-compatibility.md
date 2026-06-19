@@ -4,11 +4,20 @@ description: Erfahren Sie, welche Segmentdefinitionen in Data Warehouse gültig 
 feature: Data Warehouse
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 TQID: https://experienceleague.adobe.com/7CrArNYD-8ZXVpfO86d1l42ySkTuv8V04PWJFeNWx3s
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 456
@@ -18,7 +27,7 @@ ht-degree: 9%
 
 # Data Warehouse-Segmentkompatibilität
 
-Nicht alle in Segment Builder erstellten Segmente können in Data Warehouse verwendet werden. Auf dieser Seite erfahren Sie, welche Segmentdefinitionen mit Data Warehouse kompatibel sind, sodass sie bei der Erstellung [ Data Warehouse-Anfrage ausgewählt werden ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Nicht alle in Segment Builder erstellten Segmente können in Data Warehouse verwendet werden. Auf dieser Seite erfahren Sie, welche Segmentdefinitionen mit Data Warehouse kompatibel sind, sodass sie bei der Erstellung [&#x200B; Data Warehouse-Anfrage ausgewählt werden &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Ein Segment ist nur dann mit Data Warehouse kompatibel **wenn** der folgenden Bedingungen erfüllt sind:
 
@@ -31,7 +40,7 @@ Wenn eine der Bedingungen nicht erfüllt ist, wird das Segment beim Erstellen ei
 
 Da ein Segment anhand derselben Daten ausgewertet wird wie die Anfrage, auf die es angewendet wird **wird (jede Komponente, die in einer Data Warehouse-Anfrage nicht unterstützt wird, wird auch in einem Segment nicht unterstützt.** Eine vollständige Liste der Dimensionen und Metriken, die Data Warehouse nicht unterstützt, finden Sie unter [Komponentenunterstützung in Data Warehouse](component-support.md).
 
-Zusätzlich zu den unter [Komponentenunterstützung](component-support.md) aufgelisteten Dimensionen und Metriken sind in einer Data Warehouse-Anfrage verfügbar ** können **jedoch nicht in einer Segmentdefinition verwendet werden**:
+Zusätzlich zu den unter [Komponentenunterstützung](component-support.md) aufgelisteten Dimensionen und Metriken sind in einer Data Warehouse-Anfrage verfügbar **&#x200B; können &#x200B;** jedoch nicht in einer Segmentdefinition verwendet werden**:
 
 * [[!UICONTROL Tag des Monats]](/help/components/dimensions/day-of-month.md)
 * [[!UICONTROL Wochentag]](/help/components/dimensions/day-of-week.md)

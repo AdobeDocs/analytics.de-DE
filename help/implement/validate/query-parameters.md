@@ -5,11 +5,25 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 1079
@@ -80,7 +94,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `pl` | [`products`](../vars/page-vars/products.md) | Kurzschreibweise für den `products`. |
 | `products` | [`products`](../vars/page-vars/products.md) | Variable „products“ (Produktvariable). Wird in den Dimensionen [[!UICONTROL Produkt]](/help/components/dimensions/product.md) und [[!UICONTROL Kategorie]](/help/components/dimensions/category.md) verwendet. |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | Wird in der Dimension [[!UICONTROL Kauf-ID]](/help/components/dimensions/purchase-id.md) verwendet. |
-| `r` | [`referrer`](../vars/page-vars/referrer.md) | Referrer-URL des Treffers. Wird in Traffic-Quellendimensionen wie &quot;[[!UICONTROL &quot; ]](/help/components/dimensions/referrer.md) &quot;[[!UICONTROL &quot; ]](/help/components/dimensions/referring-domain.md). |
+| `r` | [`referrer`](../vars/page-vars/referrer.md) | Referrer-URL des Treffers. Wird in Traffic-Quellendimensionen wie &quot;[[!UICONTROL &quot; &#x200B;]](/help/components/dimensions/referrer.md) &quot;[[!UICONTROL &quot; &#x200B;]](/help/components/dimensions/referring-domain.md). |
 | `s` | Keine | Bildschirmauflösung in `width x height`. Wird in der Dimension [[!UICONTROL Bildschirmauflösungen]](/help/components/dimensions/monitor-resolution.md) verwendet. |
 | `sdid` | Keine | Zusätzliche Daten-ID. Verknüpft mehrere Treffer, die dasselbe Ereignis beschreiben, z. B. Analytics- und Target-Treffer in einer [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t.html)-Integration. |
 | `server` | [`server`](../vars/page-vars/server.md) | Verwendet in der Dimension [[!UICONTROL Server]](/help/components/dimensions/server.md). |
