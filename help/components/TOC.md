@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '774'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 # [!DNL Adobe Analytics]-Komponentenleitfaden {#components}
 
 + [Analytics-Komponentenhandbuch](home.md)
-+ [Versionshinweise zu Analytics](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
++ [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Dimensionen {#dimensions}
    + [Dimensionen – Überblick](dimensions/overview.md)
    + [Kompatibilität der Dimensionen](dimensions/compatibility.md)
@@ -27,7 +27,7 @@ ht-degree: 98%
    + [Rangansicht aller Suchseiten](dimensions/all-search-page-rank.md)
    + [AMO-ID](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [AMO Meta Ads Klick-ID](dimensions/amo-meta-id.md)
+   + [AMO Meta Ads Click ID](dimensions/amo-meta-id.md)
    + [Vormittag/Nachmittag](dimensions/am-pm.md)
    + [Bot-Name](dimensions/bot-name.md)
    + [Browser-Höhe](dimensions/browser-height.md)
@@ -59,14 +59,15 @@ ht-degree: 98%
    + [eVar (Merchandising)](dimensions/evar-merchandising.md)
    + [Ausstiegsdimensionen](dimensions/exit-dimensions.md)
    + [Exitlink](dimensions/exit-link.md)
+   + [Experience Cloud-Besucher-ID](dimensions/experience-cloud-visitor-id.md)
    + [Erstkontakt-Kanal](dimensions/first-touch-channel.md)
    + [Erstkontakt-Kanaldetail](dimensions/first-touch-detail.md)
-   + [Hierarchie](dimensions/hierarchy.md)
    + [Treffertiefe](dimensions/hit-depth.md)
    + [Treffertyp](dimensions/hit-type.md)
    + [Stunde des Tages](dimensions/hour-of-day.md)
    + [Stunde](dimensions/hour.md)
    + [Identifizierter Status](dimensions/identified-state.md)
+   + [IP-Adresse](dimensions/ip-address.md)
    + [Java aktiviert](dimensions/java-enabled.md)
    + [Sprache](dimensions/language.md)
    + [Letztkontakt-Kanal](dimensions/last-touch-channel.md)
@@ -89,6 +90,7 @@ ht-degree: 98%
    + [Unterstützung beständiger Cookies](dimensions/persistent-cookie-support.md)
    + [Produkt](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [Kauf-ID](dimensions/purchase-id.md)
    + [Quartal des Jahres](dimensions/quarter-of-year.md)
    + [Quartal](dimensions/quarter.md)
    + [Referrer-Typ](dimensions/referrer-type.md)
@@ -117,6 +119,7 @@ ht-degree: 98%
    + [Sprachdimensionen](dimensions/voice-dimensions.md)
    + [Besuchstiefe](dimensions/visit-depth.md)
    + [Besuchsnummer](dimensions/visit-number.md)
+   + [Besucher-ID](dimensions/visitor-id.md)
    + [Woche](dimensions/week.md)
    + [Wochentag/Wochenende](dimensions/weekday-weekend.md)
    + [Jahr](dimensions/year.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [Verwenden von Segmenten](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referenz {#segment-reference}
       + [Operatoren](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse-Segmentkompatibilität](segmentation/seg-reference/seg-compatibility.md)
       + [Segmentberechtigungen nach Rolle](segmentation/seg-reference/seg-rights.md)
       + [Fehlerbehebung](segmentation/seg-reference/c-troubleshooting.md)
    + [Häufig gestellte Fragen zu veralteten Segmenten](segmentation/seg-transition.md)

@@ -5,17 +5,12 @@ feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 385
 ht-degree: 73%
 
 ---
@@ -33,8 +28,8 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
 >Sie müssen bereits über eine vorhandene Kopie von `s_code.js` verfügen, um diese Anweisungen zu befolgen. Adobe bietet keine Möglichkeit mehr, H-Code im Code-Manager herunterzuladen.
 
 1. **JS-Hauptdateivariablen aktualisieren**: Bearbeiten Sie die `s_code.js`-Datei und stellen Sie sicher, dass die folgenden Variablen aktualisiert werden:
-   * `s_account` enthält die Report Suite-ID, an die Sie Daten senden möchten. Siehe
-   * `s.trackingServer` enthält die Stelle, an der Cookies gespeichert werden. Siehe [trackingServer](../../vars/config-vars/trackingserver.md).
+   * `s_account` enthält die Report Suite-ID, an die Sie Daten senden möchten.
+   * `s.trackingServerSecure` enthält die Stelle, an der Cookies gespeichert werden.
 1. **Hosten Sie die `s_code.js`-Datei auf Ihrer Website**: Diese Datei befindet sich normalerweise zusammen mit anderen Skripten auf Ihrem Webserver.
 1. **`s_code.js` auf allen Seiten referenzieren**: Stellen Sie sicher, dass alle einzelnen Seiten die JavaScript-Hauptdatei aufrufen, und zwar im HTML-`<body>`-Tag (nicht im `<head>`-Tag).
 
@@ -42,7 +37,7 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
    >
    >H-Code erfordert, dass das `s_code.js`-Skript innerhalb des `<body>`-Tags aufgerufen wird. Dies unterscheidet sich von anderen Implementierungsmethoden, bei denen die meisten Skriptverweise im `<head>`-Tag enthalten sein müssen.
 1. **Seitenspezifische Variablen auf jeder Seite definieren**: Für jede Seite sollten einzelne Variablen definiert sein, z. B. Seitenname oder eVars. Einzelne Variablen werden normalerweise auf jeder Seite mit einem Inline-`<script>`-Tag definiert.
-1. **Verwenden Sie den Debugger, um die Datenerfassung zu überprüfen**: Laden Sie den [CX Enterprise-Debugger herunter und installieren Sie &#x200B;](../../validate/debugger.md), um sicherzustellen, dass Daten an Adobe gesendet und Seitenvariablen korrekt definiert werden.
+1. **Verwenden Sie den Debugger, um die Datenerfassung zu überprüfen**: Laden Sie den [CX Enterprise-Debugger herunter und installieren Sie ](../../validate/debugger.md), um sicherzustellen, dass Daten an Adobe gesendet und Seitenvariablen korrekt definiert werden.
 
 ## Caching
 

@@ -6,22 +6,15 @@ feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -41,7 +34,7 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | Attribut | Lese-/Schreibstatus | Beschreibung |
 | --- | --- | --- |
 | **Seiten-URL** | Lesen + Schreiben | Die Dimension [Seiten-URL](/help/components/dimensions/page-url.md). Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seiten-URL-Wert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht](/help/components/metrics/page-views.md) anstatt als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
-| **Seitenname** | Lesen + Schreiben | Die Dimension [Seite](/help/components/dimensions/page.md). Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seitenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht“ &#x200B;](/help/components/metrics/page-views.md) als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
+| **Seitenname** | Lesen + Schreiben | Die Dimension [Seite](/help/components/dimensions/page.md). Linktracking-Treffer entfernen diese Dimension, bevor Verarbeitungsregeln erreicht werden. Wenn Sie einen Seitenwert mithilfe von Verarbeitungsregeln erneut einfügen, wird der Treffer als [Seitenansicht“ ](/help/components/metrics/page-views.md) als [Seitenereignis](/help/components/metrics/page-events.md) betrachtet. Adobe empfiehlt, in der Seitendimension nach einem Wert zu suchen, bevor Sie ihn ändern. |
 | **Report Suite-ID** | Schreibgeschützt | Die Report Suite, für die die Verarbeitungsregel ausgeführt wird. Diese Report Suite kann sich von der ursprünglich über AppMeasurement gesendeten Report Suite unterscheiden, z. B. bei Verwendung von VISTA-Regeln. |
 | **AppMeasurement-Code-Version** | Schreibgeschützt | Die AppMeasurement-Bibliotheksversion, die zum Generieren der Bildanforderung verwendet wird. |
 | **IP-Adresse** | Schreibgeschützt | Die IP-Adresse des Besuchers. |
@@ -64,27 +57,27 @@ Die verfügbaren Dimensionen und Metriken, die Sie mithilfe von Verarbeitungsreg
 | --- | --- | --- |
 | **eVar 1-250** | Lesen + Schreiben | [eVar](/help/components/dimensions/evar.md)-Dimensionen. |
 | **Kampagne** | Lesen + Schreiben | Die Dimension [Trackingcode](/help/components/dimensions/tracking-code.md). |
-| **Kauf-ID** | Lesen + Schreiben | Implementierungsvariable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
-| **Bundesland** | Lesen + Schreiben | (Retired) Die [`state`](/help/implement/vars/page-vars/state.md) Implementierungsvariable. |
+| **Kauf-ID** | Lesen + Schreiben | Die [Kauf-ID](/help/components/dimensions/purchase-id.md)-Dimension. |
+| **Bundesland** | Lesen + Schreiben | (Eingestellt) Die Dimension [Besucherstatus](/help/components/dimensions/overview.md#retired-dimensions) . |
 | **Zip** | Lesen + Schreiben | Die Dimension [Postleitzahl](/help/components/dimensions/zip-code.md). |
 | **Währungscode** | Lesen + Schreiben | Implementierungsvariable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). WICHTIG: Wenn Sie diese Variable auf einen ungültigen Wert setzen, wird der Treffer verworfen. |
 | **Transaktions-ID** | Lesen + Schreiben | Implementierungsvariable [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->Adobe unterstützt nicht das Festlegen der [`products`](/help/implement/vars/page-vars/products.md) Implementierungsvariable mithilfe von Verarbeitungsregeln.
+>Adobe unterstützt nicht das Festlegen der Dimension [Produkt](/help/components/dimensions/product.md) mithilfe von Verarbeitungsregeln.
 
 ## Traffic-Variablen
 
 | Variable | Lese-/Schreibstatus | Beschreibung |
 | --- | --- | --- |
 | **prop 1-75** | Lesen + Schreiben | Die Dimension [Prop](/help/components/dimensions/prop.md). |
-| **Hierarchie 1-5** | Lesen + Schreiben | (Eingestellt) [Hierarchie](/help/components/dimensions/hierarchy.md) Dimensionen. |
+| **Hierarchie 1-5** | Lesen + Schreiben | (Eingestellt) [Hierarchie](/help/components/dimensions/overview.md#retired-dimensions) Dimensionen. |
 | **Server** | Lesen + Schreiben | Die Dimension [Server](/help/components/dimensions/server.md). |
 | **Kanal** | Lesen + Schreiben | Die Dimension [Site-Bereich](/help/components/dimensions/site-section.md). |
 
 ## Kontextvariablen
 
-Alle [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md), die diese Report Suite in den letzten 30 Tagen gesehen hat. Anwendungsbeispiele [&#x200B; Sie unter Anwendungsfälle &#x200B;](pr-use-cases.md) Verarbeitungsregeln .
+Alle [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md), die diese Report Suite in den letzten 30 Tagen gesehen hat. Anwendungsbeispiele [ Sie unter Anwendungsfälle ](pr-use-cases.md) Verarbeitungsregeln .
 
 >[!IMPORTANT]
 >
