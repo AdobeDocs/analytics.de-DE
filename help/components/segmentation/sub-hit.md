@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
+source-git-commit: 68469e0359deed0d642b1d00d55259c33c410fd4
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -28,7 +28,7 @@ In der Analyse von Untertreffern verhält sich die Ausschlusslogik anders als de
 
 Sie möchten nur den Online-Umsatz aus der Kategorie „Männer“ messen. Ohne Analyse der untergeordneten Treffer umfasst das Anwenden eines Segments für Männer den Umsatz aus jedem Produkt in jeder Bestellung (Treffer), das mindestens ein Produkt mit der Kategorie Männer enthält. Mit der Analyse von Untertreffern können Sie den Filter auf die Produktebene beschränken und nur den Umsatz für Produkte der Kategorie „Männer“ zurückgeben.
 
-Sie möchten auch den Online-Umsatz aller anderen Kategorien mit Ausnahme der Männer-Kategorie messen.
+Sie möchten auch den Online-Umsatz aller anderen Kategorien mit Ausnahme der Kategorie „Männer“ messen.
 
 >[!BEGINTABS]
 
