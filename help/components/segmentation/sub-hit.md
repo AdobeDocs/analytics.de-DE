@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: f56d4b675d55608d4049fcebaf2de549aca40a5c
+source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -17,7 +17,6 @@ ht-degree: 0%
 # Analyse der untergeordneten Treffer
 
 Mit der Analyse untergeordneter Treffer können Sie Produktdaten auf einer Ebene analysieren, die detaillierter ist als die Trefferebene. Anstatt nach ganzen Treffern zu filtern, können Sie innerhalb von Treffern nach einzelnen Produkten segmentieren. Beispielsweise die Segmentierung nach einer bestimmten Produktkategorie ohne Einbeziehung aller anderen in derselben Bestellung gekauften Produkte.
-
 
 In Adobe Analytics kann die [Variable „Produkte](/help/components/dimensions/product.md) mehrere Produkte in einem Treffer erfassen. Ohne Analyse von Untertreffern gibt die Segmentierung nach einem Produktattribut alle Treffer zurück, bei denen ein beliebiges Produkt innerhalb eines Treffers mit dem Produktattribut übereinstimmt. Das Ergebnis ist eine falsche Attribution und überhöhte Umsatzmetriken. Die Analyse untergeordneter Treffer erfasst den Filter auf einzelne Produktzeilen innerhalb eines Treffers und löst diese Probleme.
 
