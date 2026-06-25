@@ -3,16 +3,15 @@ title: Analyse der untergeordneten Treffer
 description: Erfahren Sie, wie Sie mit der Analyse von Teiltreffern einzelne Produkte innerhalb eines Treffers in Adobe Analytics filtern können, wodurch der Attributionsblutungen in Produktberichten vermieden wird.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
 
 ---
+
 
 # Analyse der untergeordneten Treffer
 
@@ -33,25 +32,25 @@ Sie möchten auch den Online-Umsatz aller anderen Kategorien mit Ausnahme der M�
 
 >[!TAB Trefferanalyse]
 
-Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** geben Sie an, **[!UICONTROL **[!UICONTROL &#x200B; Dimension &#x200B;]**&#x200B;**[!UICONTROL &#x200B; Einzelhandel: Mode-Produktkategorie &#x200B;]**&#x200B;**&#x200B;**&#x200B;gleich&#x200B;**&#x200B;**&#x200B;Men] **&#x200B; im &#x200B;** [!UICONTROL Hits]**-Container einzuschließen.
+Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** geben Sie an, **[!UICONTROL **[!UICONTROL  Dimension ]****[!UICONTROL  Einzelhandel: Mode-Produktkategorie ]******gleich****Men]** im **[!UICONTROL Hits]**-Container einzuschließen.
 
 ![Bedienfeld, das die Segmentierung auf Trefferebene für die Menüs der Produktkategorie anzeigt](./assets/product-category-segmentation-hits.png)
 
-Infolgedessen werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Männer]**&#x200B;**[!UICONTROL Einzelhandel: Mode]** Produktkategorie enthalten, und der Umsatz aus anderen Produkten in diesen Bestellungen wird in die Metrik **[!UICONTROL Online-Umsatz]** einbezogen.
+Infolgedessen werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Männer]****[!UICONTROL Einzelhandel: Mode]** Produktkategorie enthalten, und der Umsatz aus anderen Produkten in diesen Bestellungen wird in die Metrik **[!UICONTROL Online-Umsatz]** einbezogen.
 Wenn Sie Berichte zu Kategorien erstellen, werden alle anderen Werte für **[!UICONTROL Einzelhandel: Modeproduktkategorie]** gemeldet, die Teil einer Bestellung waren, die ein Produkt in der **[!UICONTROL Herren]**-**[!UICONTROL Einzelhandel: Modeproduktkategorie]** enthielt.
 
 >[!TAB Analyse von Untertreffern]
 
-Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** geben Sie an, **[!UICONTROL **[!UICONTROL &#x200B; Dimension &#x200B;]**&#x200B;**[!UICONTROL &#x200B; Einzelhandel: Mode-Produktkategorie &#x200B;]**&#x200B;**&#x200B;**&#x200B;gleich&#x200B;**&#x200B;**&#x200B;Men] **&#x200B; im &#x200B;** [!UICONTROL Products]**-Container einzuschließen.
+Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** geben Sie an, **[!UICONTROL **[!UICONTROL  Dimension ]****[!UICONTROL  Einzelhandel: Mode-Produktkategorie ]******gleich****Men]** im **[!UICONTROL Products]**-Container einzuschließen.
 
 ![Bedienfeld, das die Segmentierung auf der Ebene untergeordneter Treffer für die Menüs der Produktkategorie anzeigt](./assets/product-category-segmentation-sub-hits.png)
 
-Daher werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** enthalten, und nur der Umsatz von Produkten, die zur **[!UICONTROL Men]**&#x200B;**[!UICONTROL Retail: Fashion Product Category]** gehören, wird in die **[!UICONTROL Online Revenue]**-Metrik einbezogen.
+Daher werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** enthalten, und nur der Umsatz von Produkten, die zur **[!UICONTROL Men]****[!UICONTROL Retail: Fashion Product Category]** gehören, wird in die **[!UICONTROL Online Revenue]**-Metrik einbezogen.
 Wenn Sie Berichte zu Kategorien erstellen, wird nur die Kategorie **[!UICONTROL Männer]** **[!UICONTROL Einzelhandel: Mode]** angezeigt.
 
 >[!TAB Analyse der Untertreffer (ausschließen)]
 
-Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** geben Sie an, **[!UICONTROL **&#x200B;**Dimension]** **[!UICONTROL Einzelhandel: Mode-Produktkategorie]** gleich **[!UICONTROL **&#x200B;**&#x200B;Men] **&#x200B; im &#x200B;** [!UICONTROL Products]**-Container auszuschließen.
+Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** geben Sie an, **[!UICONTROL ****Dimension]** **[!UICONTROL Einzelhandel: Mode-Produktkategorie]** gleich **[!UICONTROL ****Men]** im **[!UICONTROL Products]**-Container auszuschließen.
 
 ![Bedienfeld, das die Segmentierung auf der Ebene untergeordneter Treffer anzeigt, um die Produktkategoriemänner auszuschließen](./assets/product-category-segmentation-sub-hits-exclude.png)
 
