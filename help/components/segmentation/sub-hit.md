@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -86,3 +86,4 @@ Segment Builder enthält in der linken Leiste eine neue Filteroption, mit der nu
 Die Histogrammvisualisierung enthält ein neues Dropdown-Menü für Untertreffer-Container . Auf diese Weise können Sie Metrikwerte auf Produktebene zusammenfassen. Beispielsweise die Zählung von Produktintervalenzen pro Bestellung und nicht pro Treffer.
 
 Das Histogramm ist die einzige Visualisierung, die eine Auswahl von Unter-Treffer-Containern erfordert. Alle anderen Bedienfelder und Visualisierungen können ohne zusätzliche Konfiguration mit Analysedaten von Teiltreffern verwendet werden.
+
