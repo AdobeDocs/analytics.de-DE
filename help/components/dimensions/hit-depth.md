@@ -18,16 +18,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 94%
+source-wordcount: 314
+ht-degree: 74%
 
 ---
 
 # Treffertiefe
 
-Die Dimension „Treffertiefe[&#x200B; gibt an](overview.md) wie weit ein bestimmter Treffer in einen Besuch hineinreicht. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Arten von Treffern, einschließlich Seitenansicht-Treffern ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Die Dimension „Treffertiefe[&#x200B; gibt an](overview.md) wie weit ein bestimmter Treffer in einen Besuch hineinreicht. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Treffertypen, einschließlich Seitenansichten ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Füllen dieser Dimension mit Daten
 
@@ -36,6 +36,10 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 ## Dimensionselemente
 
 Zu den Dimensionselementen zählen die Zeichenfolge `"Hit Depth"`, gefolgt von einer Zahl, die die Anzahl der Treffer im Besuch darstellt. Das Dimensionselement von `"Hit Depth 1"` steht für den ersten Treffer des Besuchs, während das Dimensionselement `"Hit Depth 8"` den achten Treffer des Besuchs darstellt.
+
+>[!NOTE]
+>
+>Adobe Analytics zeichnet Zeitstempel nur mit der Genauigkeit der zweiten Ebene auf. Bei Treffern, die denselben zweiten Zeitstempel aufweisen, kann Adobe nicht garantieren, dass die in Berichten dargestellte Reihenfolge mit der Reihenfolge der Treffer übereinstimmt. Wenn die Genauigkeit auf Millisekunden-Ebene für Ihr Unternehmen eine Priorität darstellt, sollten Sie Customer Journey Analytics verwenden.
 
 ## Vergleich mit Besuchstiefe
 
