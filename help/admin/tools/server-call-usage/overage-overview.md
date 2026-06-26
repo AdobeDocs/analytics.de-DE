@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 39%
+source-wordcount: 887
+ht-degree: 42%
 
 ---
 
@@ -39,8 +39,7 @@ Zu den wichtigsten Vorteilen der Nutzung von Server-Aufrufen gehören:
 
 ## Voraussetzungen {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Berechtigungen:** Um auf das Dashboard zur Nutzung von Server-Aufrufen und die Warnhinweiserstellung oder den Warnhinweis-Manager zugreifen zu können, müssen Sie ein Adobe Analytics-Administrator sein.
-* **Berechtigungen:** Administratoren können Benutzern ohne Administratorrechte Zugriff gewähren: Die Berechtigung lautet **[!UICONTROL Nutzung der Server-Aufrufe]**. Siehe [Berechtigung zur Nutzung von Server-Aufrufen](#server-call-usage-permission).
+* **Berechtigungen:** Sie müssen entweder über Adobe Analytics-Administratorzugriff oder das Berechtigungselement [Nutzung der Server-Aufrufe](/help/admin/admin-console/permissions/analytics-tools.md) in der Adobe Admin Console verfügen. Admins können dieses Berechtigungselement über ein Produktprofil Nicht-Admins zuweisen.
 
 ## Wichtige Terminologie {#terminology}
 
@@ -70,7 +69,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Hinweis: Die Nutzungsdaten von Server-Aufrufen für <u>alle</u> Report Suites innerhalb eines Abrechnungsunternehmens sind für alle Benutzer mit der entsprechenden <a href="/help/admin/tools/server-call-usage/overage-overview.md">Berechtigung</a> einsehbar. </p> </td> 
+    </ul> <p>Hinweis: Die Nutzungsdaten von Server-Aufrufen für <u>alle</u> Report Suites innerhalb eines Abrechnungsunternehmens sind für alle Benutzer mit der entsprechenden <a href="/help/admin/admin-console/permissions/analytics-tools.md">Berechtigung</a> einsehbar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Enterprise-Organisation </p> </td> 
@@ -87,40 +86,6 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
   <tr> 
    <td colname="col1"> <p>Vertragslaufzeit </p> </td> 
    <td colname="col2"> <p>Die Vertragsdauer kann mehrere Jahre betragen. Nehmen wir an, dass Ihr Unternehmen eine Zusage für Server-Aufrufe von 6 Millionen Aufrufen während einer Vertragsdauer von 3 Jahren erhalten hat. Um die Nutzung der Server-Aufrufe besser überwachen zu können, wird dieser Zeitraum von 3 Jahren in kleinere Nutzungsperioden aufgeteilt, um so einfacher Jahresvergleiche durchzuführen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Berechtigung zur Nutzung von Server-Aufrufen {#permission}
-
-Die Berechtigung zur Nutzung von Server-Aufrufen wird automatisch Analytics-Administrierenden erteilt. Damit können Nutzer das Dashboard einsehen und Warnhinweise zu Server-Aufrufen erstellen. Administratoren können Benutzern ohne Administratorrechte diese Berechtigung erteilen.
-
->[!NOTE]
->
->Ihr Unternehmen kann auswählen, welche Anmeldeunternehmen Zugriff auf die Nutzung von Server-Aufrufen haben.
-
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Berechtigungsname </th> 
-   <th colname="col3" class="entry"> Berechtigung erteilen, wenn Sie bei Adobe Analytics angemeldet sind (veraltete Anmeldung) </th> 
-   <th colname="col4" class="entry"> Berechtigung erteilen, wenn Sie bei Adobe CX Enterprise angemeldet sind </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Nutzung von Server-Aufrufen </p> </td> 
-   <td colname="col3"> 
-    <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
-     <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Melden Sie sich über sc.omniture.com bei Analytics an. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Alle </span> &gt; <span class="uicontrol"> User Management </span> &gt; <span class="uicontrol"> Gruppen </span> &gt; <span class="uicontrol"> Alle Berichtzugriffe bearbeiten </span> &gt; <span class="uicontrol"> Analytics-Tools </span> &gt; <span class="uicontrol"> </span> anpassen &gt; <span class="uicontrol"> Server-Aufruf </span> </span> </li> 
-    </ol> </td> 
-   <td colname="col4"> 
-    <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Melden Sie sich bei login.experiencecloud.adobe.com an.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Klicken Sie auf <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Navigieren Sie zu <span class="ignoretag"> <span class="uicontrol"> Produkte </span> &gt; <span class="uicontrol"> Produktprofil </span> &gt; <span class="uicontrol"> Berechtigungen </span> &gt; <span class="uicontrol"> Analytics-Tools </span> &gt; <span class="uicontrol"> Server-Aufruf-Nutzung </span> </span> </li> 
-    </ol> </td> 
   </tr> 
  </tbody> 
 </table>
