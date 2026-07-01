@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+source-git-commit: e681610c8238aa4940053a28ee60ea54492cba8b
 workflow-type: tm+mt
 source-wordcount: 686
 ht-degree: 62%
@@ -77,6 +77,6 @@ Die Berechtigungselemente der Analytics-Tools gewähren Zugriff auf Funktionen, 
 
 ## Produktprofilentwickler
 
-Entwickler sind ähnlich wie Benutzer, mit der Ausnahme, dass sie die Möglichkeit haben, die CX Enterprise-API auf Adobe Developer zu verwenden. Weitere Informationen finden Sie im Enterprise-Benutzerhandbuch unter [Verwalten von Entwicklern und Entwicklerinnen](https://helpx.adobe.com/de/enterprise/using/manage-developers.html). Wenn einem Benutzer Entwicklerzugriff für ein beliebiges Profil gewährt wird, kann er auf die Dev-Konsole (console.adobe.io) zugreifen und Adobe Analytics-Integrationen bearbeiten. Die für den Benutzer autorisierten Aufrufe und Antworten der Analytics-API hängen von den Nettoberechtigungen aller Profile ab, auf die der Entwicklerzugriff besteht.
+Entwickler sind mit Benutzenden vergleichbar, allerdings können sie die Experience Cloud-APIs in Adobe Developer verwenden. Weitere Informationen finden Sie im Enterprise-Benutzerhandbuch unter [Verwalten von Entwicklern und Entwicklerinnen](https://helpx.adobe.com/de/enterprise/using/manage-developers.html). Wenn einem Benutzer Entwicklerzugriff für ein beliebiges Profil gewährt wird, kann er auf die Dev-Konsole (console.adobe.io) zugreifen und Adobe Analytics-Integrationen bearbeiten. Die für den Benutzer autorisierten Aufrufe und Antworten der Analytics-API hängen von den Nettoberechtigungen aller Profile ab, auf die der Entwicklerzugriff besteht.
 
 Beispielsweise kann ein Entwickler mit Profilberechtigungen, die alle Metriken, alle Dimensionen und eine Report Suite enthalten, API-Aufrufe durchführen, die für jede Komponente innerhalb dieser Report Suite relevant sind. Wenn das Berechtigungselement zur Anomalieerkennung hinzugefügt wird, können API-Antworten Anomaliedaten enthalten. Als Faustregel gilt: Wenn ein Profil Zugriff auf ein Szenario in der Adobe Analytics-Benutzeroberfläche gewährt, ermöglicht der Entwicklerzugriff auf ein ähnlich definiertes Profil entsprechende API-Aufrufe und -Antworten.
