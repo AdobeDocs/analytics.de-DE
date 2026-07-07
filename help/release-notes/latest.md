@@ -2,46 +2,35 @@
 title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# Aktuelle Versionshinweise zu Adobe Analytics (Juni 2026)
+# Aktuelle Versionshinweise zu Adobe Analytics (Juli 2026)
 
-**Letzte Aktualisierung**: 25. Juni 2026
+**Letzte Aktualisierung**: 8. Juli 2026
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Juni 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Juli 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Journey-Arbeitsfläche in Adobe Analytics** <br/>Die Journey-Arbeitsfläche ist eine Visualisierung in Analysis Workspace, mit der Sie umfassendere Erkenntnisse zu einer definierten Benutzer-Journey gewinnen können, indem Sie analysieren, wie Benutzende eine Journey durchlaufen oder aus dieser aussteigen. Damit können Sie ein flexibles Diagramm von Knoten und Pfeilen erstellen, die eine beliebige Kombination von Ereignissen, Dimensionselementen und Segmenten darstellen, die in der Journey enthalten sind. Daten werden aktualisiert, wenn Sie Knoten auf die Arbeitsfläche ziehen oder Ereignisse und Bedingungen einer Journey neu anordnen.<p>Die Journey-Arbeitsfläche war bisher nur für Customer Journey Analytics verfügbar.</p><p>Weitere Informationen zur Journey-Arbeitsfläche finden Sie unter [Journey-Arbeitsfläche – Überblick](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Weitere Informationen zum Erstellen einer Journey-Arbeitsflächen-Visualisierung in Adobe Analytics finden Sie unter [Konfigurieren einer Journey-Arbeitsfläche](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18. Mai 2026 | 5. Juni 2026 |
+| **Analyse von Untertreffern** Mit <br/> Analyse von Untertreffern können Sie Produktdaten auf einer Ebene analysieren, die detaillierter ist als die Trefferebene. Anstatt nach ganzen Treffern zu filtern, können Sie innerhalb von Treffern nach einzelnen Produkten segmentieren. Beispielsweise die Segmentierung nach einer bestimmten Produktkategorie ohne Einbeziehung aller anderen in derselben Bestellung gekauften Produkte. | &#x200B;8. Juli | Ende Juli 2026 |
+| **Handbuch zu den API-Suchfunktionen** AA 2.0<br/> Verwenden Sie Suchfunktionen, um [eine Untergruppe von Dimensionselementen in Berichten zurückzugeben](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | &#x200B;1. Juli 2026 |
+| **Automatisieren von wiederkehrenden Berichten mit AA** APIs<br/> Richten Sie automatische, wiederkehrende Analytics-Berichte für Ihre Daten-Pipeline mit neuen Metriken auf einem Zeitplan mit der [Report API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) ein. | | &#x200B;1. Juli 2026 |
+| **Neue Erweiterungsparameter für AA** <br/>Verwenden Sie neue Dimension-API-Erweiterungsparameter, um eVar-Konfigurationsfelder für Zuordnungstypen, Gültigkeiten, Datentypen und Merchandising abzurufen. <p>Weitere Informationen finden Sie unter [API-Referenz](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) und [Endpunkthandbuch zu Dimensionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | &#x200B;1. Juli 2026 |
 
 ### Fehlerbehebungen in Adobe Analytics
 
