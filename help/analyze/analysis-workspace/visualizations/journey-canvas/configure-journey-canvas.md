@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie eine Journey-Arbeitsflächenvisualisierung ko
 title: Konfigurieren einer Journey-Arbeitsflächenvisualisierung
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Siehe [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) für die ![_CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;Version dieses Artikels._
+_In diesem Artikel wird die Journey-Arbeitsflächen-Visualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Siehe [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) für die ![_CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -583,5 +583,4 @@ Sie können innerhalb einer Journey einen Pfeil oder mehrere Pfeile gleichzeitig
 So löschen Sie Pfeile zwischen Knoten in der Journey-Arbeitsfläche:
 
 1. Wählen Sie in einer Journey-Arbeitsflächenvisualisierung einen oder mehrere zu löschende Pfeile zwischen zwei Knoten aus, und klicken Sie dann mit der rechten Maustaste auf einen der ausgewählten Pfeile.
-
 1. Wählen Sie [!UICONTROL **Löschen**] aus.
