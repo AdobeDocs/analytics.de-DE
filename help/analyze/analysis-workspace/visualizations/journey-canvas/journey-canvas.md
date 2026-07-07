@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie die Journey-Arbeitsfläche in Analysis Worksp
 title: Journey-Arbeitsfläche – Überblick
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 89%
@@ -145,4 +145,3 @@ Sie können Analysen auf der Journey-Arbeitsfläche erstellen, die auf beliebige
 >[!MORELIKETHIS]
 >
 > * [Anleitung zur Visualisierung „Journey-Arbeitsfläche“ in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=de)
-
