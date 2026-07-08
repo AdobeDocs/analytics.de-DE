@@ -2,7 +2,6 @@
 title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
+source-git-commit: 13d4b15d7069a52f4953a49aa0f1f5b7cb16ae77
 workflow-type: tm+mt
-source-wordcount: 998
-ht-degree: 56%
+source-wordcount: 890
+ht-degree: 63%
 
 ---
 
@@ -42,25 +41,25 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Juli
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Analyse von Untertreffern** Mit <br/> Analyse von Untertreffern können Sie Produktdaten auf einer Ebene analysieren, die detaillierter ist als die Trefferebene. Anstatt nach ganzen Treffern zu filtern, können Sie innerhalb von Treffern nach einzelnen Produkten segmentieren. Beispielsweise die Segmentierung nach einer bestimmten Produktkategorie ohne Einbeziehung aller anderen in derselben Bestellung gekauften Produkte. | &#x200B;8. Juli | Ende Juli 2026 |
-| **Handbuch zu den API-Suchfunktionen** AA 2.0<br/> Verwenden Sie Suchfunktionen, um [eine Untergruppe von Dimensionselementen in Berichten zurückzugeben](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | &#x200B;1. Juli 2026 |
-| **Automatisieren von wiederkehrenden Berichten mit AA** APIs<br/> Richten Sie automatische, wiederkehrende Analytics-Berichte für Ihre Daten-Pipeline mit neuen Metriken auf einem Zeitplan mit der [Report API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) ein. | | &#x200B;1. Juli 2026 |
-| **Neue Erweiterungsparameter für AA** <br/>Verwenden Sie neue Dimension-API-Erweiterungsparameter, um eVar-Konfigurationsfelder für Zuordnungstypen, Gültigkeiten, Datentypen und Merchandising abzurufen. <p>Weitere Informationen finden Sie unter [API-Referenz](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) und [Endpunkthandbuch zu Dimensionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | &#x200B;1. Juli 2026 |
+| **Analyse von Untertreffern** Mit <br/> Analyse von Untertreffern können Sie Produktdaten auf einer Ebene analysieren, die detaillierter ist als die Trefferebene. Anstatt nach ganzen Treffern zu filtern, können Sie innerhalb von Treffern nach einzelnen Produkten segmentieren. <p>Sie können beispielsweise eine Segmentierung für eine bestimmte Produktkategorie durchführen, ohne alle anderen in derselben Bestellung gekauften Produkte einzubeziehen.</p><p>Weitere Informationen finden Sie [Analyse von Untertreffern](/help/components/segmentation/sub-hit.md).</p> | &#x200B;8. Juli | Ende Juli 2026 |
+| **Handbuch zu den API-Suchfunktionen** AA 2.0<br/> Verwenden Sie Suchfunktionen, um [eine Untergruppe von Dimensionselementen in Berichten zurückzugeben](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Weitere Informationen finden Sie unter [Suchfunktionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) im Handbuch zum Reports-Endpunkt in Adobe Developer. | | &#x200B;1. Juli 2026 |
+| **Automatisieren von wiederkehrenden Berichten mit AA** APIs<br/> Richten Sie automatische, wiederkehrende Adobe Analytics-Berichte für Ihre Daten-Pipeline mit neuen Metriken in einem Zeitplan mit der Report API ein. <p>Weitere Informationen finden Sie im [Endpunkthandbuch Automatisieren wiederkehrender Analytics-Berichte](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) auf Adobe Developer.</p> | | &#x200B;1. Juli 2026 |
+| **Neue Erweiterungsparameter für AA** <br/>Verwenden Sie neue Dimension-API-Erweiterungsparameter, um eVar-Konfigurationsfelder für Zuordnungstypen, Gültigkeiten, Datentypen und Merchandising abzurufen. <p>Weitere Informationen finden Sie im [API-Verweis](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) und [Endpunkthandbuch zu Dimensionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) auf Adobe Developer.</p> | | &#x200B;1. Juli 2026 |
 
 ### Fehlerbehebungen in Adobe Analytics
 
 **Activity Map**:
-**Analysis Workspace**: AN-452009, AN-450375, AN-449870, AN-450814, AN-450698, AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454145, AN-453793, AN-452921, AN-454999, AN-452009, AN-451958, AN-454170, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-449890, AN-443594, AN-434416, AN-, AN-
-**CLASSIFICATIONS**: AN-457122, AN-455828, AN-455515, AN-455501, AN-454540, AN-454466, AN-454410, AN-454251, AN-454166, AN-452547, AN-451812, AN-451181, AN-448974, AN-448567, AN-453180, AN-444098, AN-443336
-**Daten-Feeds und Data Warehouse**: N-457045, AN-456993, AN-456945, AN-456455, AN-456015, AN-455709, AN-454359, AN-451546
-**Migration**: AN-453136, AN-451330
-**Exporte**: AN-452006
-**Report Builder**: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451731, AN-451497, AN-451463, AN-451190, AN-449813, AN-451974, AN-451735, AN-AN-447173, AN-AN, AN-AN, AN-AN, AN-AN-447139 446184 445794 445354 442819, AN-AN
-**Reporting**: AN-423516, AN-454517, AN-453982, AN-451822, AN-451259, AN-451215, AN-447692
-**Report Suites**: AN-455684, AN-455684, AN-454975, AN-430988
-**Terminierte Berichte**: AN-451980, AN-451882, AN-450715
+**Analysis Workspace**: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
+**Klassifizierungen**: AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
+**Daten-Feeds und Data Warehouse**: AN-456945, AN-460700
+**Migration**:
+**Exporte**:
+**Report Builder**: AN-457533, AN-453683
+**Reporting**: AN-447692, AN-451259, AN-455713
+**Report Suites**:
+**Terminierte Berichte**: AN-450715
 **Segmentierung**:
-**Sonstige**: AN-454140, AN-453937, AN-453825, AN-452296, AN-451783, AN-451781, AN-451243, AN-450974, AN-449726, AN-448964, AN-388832
+**Sonstige**: AN-453982, AN-455771
 
 ### Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
 
