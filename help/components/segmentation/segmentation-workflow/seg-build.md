@@ -4,10 +4,18 @@ title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
 source-wordcount: 2004
@@ -61,7 +69,7 @@ Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zu
    {style="table-layout:auto"}
 
 1. Um zu überprüfen, ob Ihre Segmentdefinition korrekt ist, verwenden Sie die ständig aktualisierte Vorschau der Ergebnisse des Segments oben rechts.
-1. Um Ihr Segment in CX Enterprise zu veröffentlichen, wählen **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere [ finden Sie unter „Veröffentlichen von Segmenten ](/help/components/segmentation/segmentation-workflow/seg-publish.md) CX Enterprise“.
+1. Um Ihr Segment in CX Enterprise zu veröffentlichen, wählen **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere [&#x200B; finden Sie unter „Veröffentlichen von Segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) CX Enterprise“.
 1. Wählen Sie Folgendes aus:
    * **[!UICONTROL Speichern]**: Speichert das Segment.
    * **[!UICONTROL Speichern unter]**: Speichert eine Kopie des Segments.
@@ -90,7 +98,7 @@ So fügen Sie eine Komponente hinzu:
 
 1. Ziehen Sie eine Komponente aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Segmente und/oder Dimensionen mittels Drag-and-Drop hier]**.
    * Sie können ![Suchen](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
-   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]**, ![Dimensionen**[!UICONTROL , ](/help/assets/icons/Checkmark.svg)Metriken ]**, ![](/help/assets/icons/Segmentation.svg)****![ ](/help/assets/icons/Calendar.svg)****![ ](/help/assets/icons/Layer.svg)****Segmentierung**[!UICONTROL , ](/help/assets/icons2/DataDimension.svg)**** ![ ](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) ](/help/assets/icons/Label.svg) filtern.
+   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]&#x200B;**, ![Dimensionen**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons/Checkmark.svg)Metriken ]&#x200B;**, ![](/help/assets/icons/Segmentation.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Calendar.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Layer.svg)**&#x200B;**Segmentierung**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons2/DataDimension.svg)**&#x200B;** ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) &#x200B;](/help/assets/icons/Label.svg) filtern.
 1. Geben Sie Details für die Komponente an. Wählen Sie beispielsweise einen Wert über **[!UICONTROL Wert auswählen]** aus. Oder geben Sie einen Wert ein. Wie Sie einen oder mehrere Werte und welche Werte Sie angeben können, hängt von der Komponente und dem Operator ab.
 1. Ändern Sie optional den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
