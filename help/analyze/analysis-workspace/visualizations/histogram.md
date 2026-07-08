@@ -15,10 +15,10 @@ subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 66%
+source-wordcount: 375
+ht-degree: 58%
 
 ---
 
@@ -52,7 +52,7 @@ So erstellen Sie ein Histogramm:
 >
 >Histogramme unterstützen nur Standardmetriken, keine berechneten Metriken.
 
-Im folgenden Beispiel wird ein Histogramm für das Bucketing von Sitzungen für die Anzahl der Personen verwendet. Das Histogramm zeigt, dass für die meisten Personen für den ausgewählten Datumsbereich zwischen 16 und 21 Sitzungen vorliegen.
+Im folgenden Beispiel wird ein Histogramm für das Bucketing von Sitzungen für die Anzahl der Personen verwendet. Das Histogramm zeigt, dass für die meisten Personen für den ausgewählten Datumsbereich zwischen 16 und 21 Sitzungen vorliegen.
 
 ![](assets/histogram.png)
 
@@ -65,7 +65,7 @@ Im Rahmen der Visualisierung sind bestimmte Histogrammeinstellungen verfügbar.
 | **[!UICONTROL Anfangs-Bucket]** | Bestimmt, mit welchem Bucket das Histogramm beginnt. „1“ ist der Standardwert. Sie können Anfangszahlen von 0 bis unendlich festlegen (keine negativen Zahlen). |
 | **[!UICONTROL Metrik-Buckets]** | Ermöglicht das Erhöhen/Verringern der Anzahl der Datenbereiche (Buckets). Maximal 50 Buckets sind möglich. |
 | **[!UICONTROL Metrik-Bucket-Größe]** | Hier können Sie die Größe der einzelnen Behälter festlegen. Sie können beispielsweise die Größe des Buckets von einer Seitenansicht in zwei Seitenansichten ändern. |
-| **[!UICONTROL Zählmethode]** | Treffen Sie eine Auswahl aus **[!UICONTROL Person]**, **[!UICONTROL Sitzung]** oder **[!UICONTROL Ereignis]**, z. B. Seitenansichten pro Sitzung, Seitenansichten pro Person oder Seitenansichten pro Ereignis. |
+| **[!UICONTROL Zählmethode]** | Wählen Sie aus **[!UICONTROL Person]**, **[!UICONTROL Sitzung]**, **[!UICONTROL Ereignis]** oder **[!UICONTROL Produkte]** (für [Subhit-Analyse](/help/components/segmentation/sub-hit.md)). Zum Beispiel Seitenansichten pro Sitzung oder Seitenansichten pro Person, Seitenansichten pro Ereignis oder Seitenansicht pro Produkt. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -78,8 +78,5 @@ Im Rahmen der Visualisierung sind bestimmte Histogrammeinstellungen verfügbar.
 
 >[!MORELIKETHIS]
 >
->[Hinzufügen einer Visualisierung zu einem Bedienfeld](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Einstellungen der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Kontextmenü der Visualisierung](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[Verwenden von Histogrammen zur Identifizierung unerwarteter Datenwerte](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=de)
+>[Hinzufügen einer Visualisierung zu einem BedienfeldEinstellungen der VisualisierungKontextmenü der VisualisierungVerwenden von Histogrammen zur Identifizierung unerwarteter Datenwerte](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=de)
 

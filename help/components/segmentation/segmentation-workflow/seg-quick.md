@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 19%
+source-wordcount: 1292
+ht-degree: 17%
 
 ---
 
@@ -91,9 +91,9 @@ Der Kopfzeilenbereich bestimmt den Namen, den Typ und den Umfang des Schnellsegm
 | Element | Beschreibung |
 |---|---|
 | **[!UICONTROL Name]** | Der Name wird automatisch aus der Schnellsegmentdefinition abgeleitet. |
-| **[!UICONTROL Personen]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Vorschau der visuellen Daten, die aus dem Schnellsegment resultieren. Ein Balken und ein Prozentwert geben insight an, wie viel der Gesamtdaten Teil des Ergebnisses des Schnellsegments ist. Ein ![Warnhinweis](/help/assets/icons/AlertRed.svg) signalisiert, dass das Schnellsegment keine Daten zurückgibt. |
+| **[!UICONTROL _Metric_]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Vorschau der visuellen Metrikdaten, die aus dem Schnellsegment resultieren. Ein Balken und ein Prozentwert geben insight an, wie viel der Gesamtdaten Teil des Ergebnisses des Schnellsegments ist. Ein ![Warnhinweis](/help/assets/icons/AlertRed.svg) signalisiert, dass das Schnellsegment keine Daten zurückgibt. |
 | **[!UICONTROL Einbeziehen]**<br/>**[!UICONTROL Ausschließen]** | Wählen Sie aus der Dropdown![Liste ChevronDown](/help/assets/icons/ChevronDown.svg) aus, ob Sie die Ergebnisse des Schnellsegments aus den Daten im Bedienfeld ein- oder ausschließen möchten. |
-| **[!UICONTROL Ereignis]**<br/>**[!UICONTROL Sitzung]**<br/>**[!UICONTROL Person]** | Wählen Sie aus dem Dropdown-![&#x200B; (ChevronDown](/help/assets/icons/ChevronDown.svg) den Umfang des Schnellsegments aus. |
+| **[!UICONTROL event]**<br/>**[!UICONTROL session]**<br/>**[!UICONTROL person]**<br/>**[!UICONTROL products]** | Wählen Sie aus dem Dropdown-![&#x200B; (ChevronDown](/help/assets/icons/ChevronDown.svg) den Umfang des Schnellsegments aus. Verwenden Sie **[!UICONTROL Produkte]** für [Analyse von Teiltreffern](/help/components/segmentation/sub-hit.md) Anwendungsfälle.<ul><li>Wenn Sie eine Produktdimension oder Produktmetrik in das Bedienfeld „Schnellsegment“ ziehen, wählt das System automatisch den **[!UICONTROL Produkte]**-Container aus und verwendet nicht den standardmäßigen **[!UICONTROL Treffer]**-Container. Dadurch wird das Segment auf einzelne Produkte und nicht auf den gesamten Treffer beschränkt.</li><li>Wenn Sie sowohl Komponenten auf Produktebene als auch auf Trefferebene in eine einzelne Segmentregel ziehen, verwendet das System den **[!UICONTROL Treffer]**-Container, den höchsten (am wenigsten granularen) freigegebenen Container. Wenn alle Komponenten, die Teil einer Segmentregel sind, die Produktebene sind, wird der **[!UICONTROL Produkte]**-Container verwendet.</li></ul> |
 
 ### Bedingungsbereich
 
