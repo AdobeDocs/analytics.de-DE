@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: 6c65d675050e0e05fcf364faee2d00dcb23dfd22
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
@@ -184,7 +184,7 @@ ht-degree: 97%
    + [Informationen zu Segmenten](segmentation/seg-overview.md)
    + [Informationen zu Segment-Containern](segmentation/seg-containers.md)
    + [Segmentierungsfunktionen in Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + {hide-from-toc}[Analyse von Untertreffern](segmentation/sub-hit.md)
+   + [Analyse der untergeordneten Treffer](segmentation/sub-hit.md)
    + Workflow {#segmentation-workflow}
       + [Überblick](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planen von Segmenten](segmentation/segmentation-workflow/seg-plan.md)
