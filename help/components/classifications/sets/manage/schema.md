@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a183524bd5eeaa089e40772e0f7d39b13c672bc7
+source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
 workflow-type: tm+mt
-source-wordcount: 1893
+source-wordcount: 1895
 ht-degree: 9%
 
 ---
@@ -235,11 +235,11 @@ Eine Importdatei mit dem Namen `import.csv` wird am 5/1/2026 erstellt und hochge
 | 5/1/26 | Eine Datei mit dem Titel `import.csv` wird in den Cloud-Speicher hochgeladen. |
 | 5/1/26 | Die Datei wird verarbeitet (die Datei ist weniger als 30 Tage alt und wurde noch nicht verarbeitet). |
 | 5/28/26 | Die Datei **nicht** verarbeitet (die Datei ist weniger als 30 Tage alt, wurde aber in den letzten 30 Tagen verarbeitet). |
-| 6/15/26 | Die Datei wird **nicht** verarbeitet (die Datei liegt mehr als 30 Tage seit dem Datum der letzten Änderung/des Uploads zurück). |
+| 6/15/26 | Die Datei wird **nicht** verarbeitet (die Datei ist älter als 30 Tage seit dem letzten Änderungsdatum/Upload-Datum). |
 | 6/16/26 | Dieselbe Datei wird mit dem Titel `import.csv` aktualisiert und in den Cloud-Speicher hochgeladen. |
 | 6/16/26 | Die aktualisierte Datei wird verarbeitet (die aktualisierte Datei ist weniger als 30 Tage alt und die aktualisierte Datei wurde noch nicht verarbeitet). |
 | 6/30/26 | Die aktualisierte Datei **nicht** verarbeitet (die aktualisierte Datei ist weniger als 30 Tage alt, wurde aber in den letzten 30 Tagen verarbeitet). |
-| 7/31/26 | Die aktualisierte Datei wird **nicht** verarbeitet (die aktualisierte Datei liegt mehr als 30 Tage seit dem Datum der letzten Änderung/des letzten Uploads zurück). |
+| 7/31/26 | Die aktualisierte Datei wird **nicht** verarbeitet (die aktualisierte Datei ist mehr als 30 Tage seit dem Datum der letzten Änderung/des letzten Uploads alt). |
 
 
 
