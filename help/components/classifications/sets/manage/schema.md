@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
+source-git-commit: a183524bd5eeaa089e40772e0f7d39b13c672bc7
 workflow-type: tm+mt
-source-wordcount: 1676
+source-wordcount: 1893
 ht-degree: 9%
 
 ---
@@ -223,7 +223,23 @@ Zum Beispiel:
 
 >[!IMPORTANT]
 >
->Entfernen Sie Dateien manuell oder mithilfe einer Dateirotationsrichtlinie aus dem Cloud-Speicherort, sobald die Dateien erfolgreich importiert und verarbeitet wurden. Andernfalls werden die Dateien beim nächsten Importvorgang erneut importiert und verarbeitet.
+>Entfernen Sie Dateien manuell oder mithilfe einer Dateirotationsrichtlinie aus dem Cloud-Speicherort, sobald die Dateien erfolgreich importiert und verarbeitet wurden. Andernfalls werden die Dateien basierend auf dem Datum der letzten Änderung der Datei und unter Verwendung eines 30-Tage-Protokolls erneut importiert und verarbeitet. Siehe das Beispiel unten.
+>
+
+### Beispiel
+
+Eine Importdatei mit dem Namen `import.csv` wird am 5/1/2026 erstellt und hochgeladen und am 6/16/2026 aktualisiert und hochgeladen. Wenn die Datei nicht entfernt wird, am:
+
+| Datum | Aktion |
+|---:|---|
+| 5/1/26 | Eine Datei mit dem Titel `import.csv` wird in den Cloud-Speicher hochgeladen. |
+| 5/1/26 | Die Datei wird verarbeitet (die Datei ist weniger als 30 Tage alt und wurde noch nicht verarbeitet). |
+| 5/28/26 | Die Datei **nicht** verarbeitet (die Datei ist weniger als 30 Tage alt, wurde aber in den letzten 30 Tagen verarbeitet). |
+| 6/15/26 | Die Datei wird **nicht** verarbeitet (die Datei liegt mehr als 30 Tage seit dem Datum der letzten Änderung/des Uploads zurück). |
+| 6/16/26 | Dieselbe Datei wird mit dem Titel `import.csv` aktualisiert und in den Cloud-Speicher hochgeladen. |
+| 6/16/26 | Die aktualisierte Datei wird verarbeitet (die aktualisierte Datei ist weniger als 30 Tage alt und die aktualisierte Datei wurde noch nicht verarbeitet). |
+| 6/30/26 | Die aktualisierte Datei **nicht** verarbeitet (die aktualisierte Datei ist weniger als 30 Tage alt, wurde aber in den letzten 30 Tagen verarbeitet). |
+| 7/31/26 | Die aktualisierte Datei wird **nicht** verarbeitet (die aktualisierte Datei liegt mehr als 30 Tage seit dem Datum der letzten Änderung/des letzten Uploads zurück). |
 
 
 

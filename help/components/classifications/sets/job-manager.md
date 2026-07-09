@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Die **[!UICONTROL Klassifizierungsaufträge]** Liste ➊ zeigt Klassifizierungsa
 | **[!UICONTROL Status]** | Der Status des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL In Warteschlange]**, **[!UICONTROL Validiert]**, **[!UICONTROL Fehlgeschlagene Validierung]**, **[!UICONTROL Verarbeitung]**, **[!UICONTROL Verarbeitung]**, **[!UICONTROL Fehlgeschlagene Verarbeitung]** , **[!UICONTROL Abgeschlossen]** oder **[!UICONTROL Fortschritt]**. Bewegen Sie gegebenenfalls den Mauszeiger über den Warnhinweis ![Warnhinweis](/help/assets/icons/Alert.svg), um zusätzliche Informationen anzuzeigen. |
 | **[!UICONTROL Dateiname]** | Gibt den Namen oder die Funktion an, die zum Importieren oder Exportieren der Datei als Teil des Klassifizierungsauftrags verwendet wird. Mögliche Werte sind: <ul><li>*kein Wert*</li><li>Der Name der Datei, die als Teil des Klassifizierungsauftrags verarbeitet wird.</li><li>**[!UICONTROL SAINT-Export]**: Der Vorgang ist ein Export aus der [Legacy-Klassifizierungsschnittstelle](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL Export für _Klassifizierungssatz_ bei _Zeitstempel_]**: Der Auftrag ist ein Download aus der [schema](manage/schema.md#download)-Oberfläche.</li></ul> |
 | **[!UICONTROL Vorgangstyp]** | Der Typ des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Import]** oder **[!UICONTROL Export]**. |
-| **[!UICONTROL Quelle]** | Die Quelle des Klassifizierungsauftrags. Mögliche Werte sind: **[!UICONTROL Web-API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** oder **[!UICONTROL Unknown]**. |
+| **[!UICONTROL Quelle]** | Die Quelle des Klassifizierungsauftrags. Siehe [Filterbedienfeld](#filter-panel) für Details zu möglichen Quellen. |
 | **[!UICONTROL Geänderte Zeilen]** | Die Anzahl der geänderten Zeilen, die der Klassifizierungsauftrag geändert hat. |
 | **[!UICONTROL Zeilen insgesamt]** | Die Anzahl der Zeilen insgesamt, die der Klassifizierungsvorgang verarbeitet hat. |
 | **[!UICONTROL Abschlusszeit]** | Die Abschlusszeit des Klassifizierungsauftrags. |
@@ -88,6 +88,21 @@ Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die ➌ des Filterb
 * **[!UICONTROL Status]**. Wählen Sie einen der möglichen Werte aus, um die Liste der Klassifizierungsaufträge nach Status zu filtern.
 * **[!UICONTROL Vorgangstyp]**. Wählen Sie einen der möglichen Werte aus, um die Liste der Klassifizierungsaufträge nach Auftragstyp zu filtern.
 * **[!UICONTROL Source]**. Wählen Sie einen der möglichen Werte aus, um die Liste der Klassifizierungsaufträge nach der Quelle zu filtern.
+
+  Mögliche Werte für **[!UICONTROL Source]** sind:
+
+  | Quelle | Erklärung |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Von Adobe im Rahmen eines internen Prozesses erstellte Vorgänge. Zum Beispiel Konsolidierungen. |
+  | **[!UICONTROL Backend]** | Durch den veralteten FTP-Importprozess erstellte Vorgänge. |
+  | **[!UICONTROL Cloud-Aufnahme]** | Aufträge, die das Ergebnis des Imports von Klassifizierungsdaten aus einem Cloud-Speicherort sind. |
+  | **[!UICONTROL Direkter API-Export]** | Aufträge, die das Ergebnis der Verwendung der Adobe Analytics 2.0-API zum Exportieren von Klassifizierungsdaten sind. |
+  | **[!UICONTROL Direkter API-Upload]** | Aufträge, die das Ergebnis der Verwendung der Adobe Analytics 2.0-API zum Hochladen von Klassifizierungsdaten sind. |
+  | **[!UICONTROL Neu veröffentlichen]** | Aufträge, die das Ergebnis einer erneuten Veröffentlichung sind. |
+  | **[!UICONTROL Regelbasierte Klassifizierungen]** | Aufträge, die das Ergebnis regelbasierter Klassifizierungen sind. |
+  | **[!UICONTROL SAINT]** | Aufträge, die das Ergebnis veralteter regelbasierter Klassifizierungen sind. |
+  | **[!UICONTROL Web-API]** | Vorgänge, die das Ergebnis der Verwendung der Web-API zum Exportieren oder Hochladen von Klassifizierungsdaten sind. |
+  | **[!UICONTROL Unbekannt]** | Vorgänge, deren Quelle unbekannt ist. |
 
 
 Wählen Sie ![Filter](/help/assets/icons/Filter.svg) **[!UICONTROL Filter ausblenden]** aus, um das Bedienfeld „Filter“ auszublenden.
