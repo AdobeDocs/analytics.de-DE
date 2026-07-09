@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
+source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
 workflow-type: tm+mt
 source-wordcount: 1895
 ht-degree: 9%
@@ -226,7 +226,7 @@ Zum Beispiel:
 >Entfernen Sie Dateien manuell oder mithilfe einer Dateirotationsrichtlinie aus dem Cloud-Speicherort, sobald die Dateien erfolgreich importiert und verarbeitet wurden. Andernfalls werden die Dateien basierend auf dem Datum der letzten Änderung der Datei und unter Verwendung eines 30-Tage-Protokolls erneut importiert und verarbeitet. Siehe das Beispiel unten.
 >
 
-### Beispiel
+#### Beispiel
 
 Eine Importdatei mit dem Namen `import.csv` wird am 5/1/2026 erstellt und hochgeladen und am 6/16/2026 aktualisiert und hochgeladen. Wenn die Datei nicht entfernt wird, am:
 
