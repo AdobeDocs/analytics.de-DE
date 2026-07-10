@@ -73,8 +73,8 @@ ITP-Richtlinien werden häufig weiterentwickelt. Die neuesten Richtlinien finden
 Alle von Adobe gesetzten First-Party-Cookies und die zugehörigen JavaScript-Bibliotheken sind von ITP-Richtlinien betroffen:
 
 * [AMCV-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), die von der Bibliothek des Besucher-ID-Diensts von Adobe Experience Cloud (ECID) festgelegt werden
-* Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
-* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
+* Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
+* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
 
 #### Wie wirkt sich ITP auf Safari auf Analytics aus?
 
