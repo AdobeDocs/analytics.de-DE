@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 617
-ht-degree: 12%
+source-wordcount: 652
+ht-degree: 9%
 
 ---
 
@@ -41,8 +41,8 @@ Wenn Adobe einen Treffer erhält, werden die folgenden Prüfungen der Reihe nach
 | Verwendete Reihenfolge | Abfrageparameter | Vorhanden, wenn |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | Die [`visitorID`](/help/implement/vars/config-vars/visitorid.md)-Variable ist gesetzt. |
-| **2<sup>nd</sup>** | `aid` | Der Besucher verfügt über ein vorhandenes [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie. Wird bei Implementierungen ohne oder vor der Implementierung des Besucher-Identity Service gesetzt. |
-| **3<sup>rd</sup>** | `mid` | Der Besucher verfügt über ein vorhandenes [`s_ecid`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie. Festlegen bei Implementierungen mit dem [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Adobe empfiehlt, nach Möglichkeit für alle Implementierungen den ID-Service zu verwenden. |
+| **2<sup>nd</sup>** | `aid` | Der Besucher verfügt über ein vorhandenes [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie. Wird bei Implementierungen ohne oder vor der Implementierung des Besucher-ID-Service festgelegt. |
+| **3<sup>rd</sup>** | `mid` | Bei AppMeasurement-basierten Implementierungen (einschließlich der Analytics-Tag-Erweiterung), die den [Besucher-ID-Dienst](https://experienceleague.adobe.com/de/docs/id-service/using/home) verwenden, verfügt der Besucher über ein [`s_ecid`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) oder ein `AMCV` Cookie. Bei Web SDK-basierten Implementierungen verfügt der Besucher über ein [`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/web-sdk)- oder `AMCV`-Cookie. Adobe empfiehlt, nach Möglichkeit ECID als primäre Form der Besucheridentifizierung für alle Implementierungen zu verwenden. |
 | **4<sup>th</sup>** | `fid` | Der Besucher verfügt über ein vorhandenes [`s_fid`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie. AppMeasurement generiert automatisch eine Fallback-ID, wenn `aid` und `mid` aus irgendeinem Grund nicht festgelegt werden können. |
 | **5<sup>th</sup>** | IP-Adresse + Benutzeragent | Wird als letztes Mittel verwendet, um einen Unique Visitor zu identifizieren, wenn der Browser des Besuchers keine Cookies akzeptiert. Eine Hash-Besucher-ID wird vor [IP-Verschleierung](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) generiert. Wenn keine IP-Adresse verfügbar ist, werden stattdessen andere IP-Details (wie Gateway-IP) verwendet. |
 

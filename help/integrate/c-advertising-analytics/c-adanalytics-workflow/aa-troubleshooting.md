@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 177
 ht-degree: 15%
 
 ---
@@ -42,7 +42,7 @@ Sie versuchen, [ein neues Advertising-Konto einzurichten](/help/integrate/c-adve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. Die Report Suite ist nicht der CX Enterprise-Organisations-ID des angemeldeten Benutzers zugeordnet. </p> </td> 
+   <td colname="col1"> <p>1. Die Report Suite ist nicht der IMS-Organisations-ID des angemeldeten Benutzers zugeordnet. </p> </td> 
    <td colname="col2"> <p>Wenden Sie sich an die Kundenunterstützung , um die Report Suite einer Organisations-ID zuzuordnen.</p> </td> 
   </tr> 
   <tr> 

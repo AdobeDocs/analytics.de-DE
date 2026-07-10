@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe verwendet mehrere verschiedene Methoden zum [Identifizieren von Besuchern]
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+>Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den Besucher-ID-Dienst [&#128279;](https://experienceleague.adobe.com/de/docs/id-service/using/home)Adobe.
 
 ## Verwendung von `visitorID` durch Analytics
 

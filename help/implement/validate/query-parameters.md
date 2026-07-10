@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +37,8 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 
 | Parameter | Analytics-Implementierungsvariable | Beschreibung |
 | --- | --- | --- |
-| `aamlh` | Keine | Audience Manager-Standorthinweis. Identifiziert das regionale Rechenzentrum, das für die Audience Manager ID-Synchronisierung über den Experience Cloud ID-Service verwendet wird. |
-| `aamb` | Keine | Audience Manager Blob. Kodierte Audience Manager-Profildaten, die während der ID-Synchronisierung durch den Experience Cloud ID-Service übergeben werden. |
+| `aamlh` | Keine | Audience Manager-Standorthinweis. Identifiziert das regionale Rechenzentrum, das für die Audience Manager ID-Synchronisierung über den Besucher-ID-Service verwendet wird. |
+| `aamb` | Keine | Audience Manager Blob. Kodierte Audience Manager-Profildaten, die während der ID-Synchronisierung durch den Besucher-ID-Service übergeben werden. |
 | `aid` | Keine | Die ältere Analytics-Besucher-ID, die im `s_vi`-Cookie gespeichert ist. Wird in modernen Implementierungen durch den `mid`-Parameter ersetzt. |
 | `AQB` | Keine | Zeigt den Anfang einer Abfragezeichenfolge für Bildanforderungen an. |
 | `AQE` | Keine | Zeigt das Ende einer Bildanforderung an (d. h., dass die Anforderung nicht abgeschnitten wurde). |
@@ -71,7 +71,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `lat` | Keine | **Wird nicht mehr verwendet.** Breitengrad Wird durch veraltete mobile SDK-Implementierungen festgelegt. Aktuelle mobile Implementierungen senden die Geolokalisierung über Datenströme. |
 | `lon` | Keine | **Wird nicht mehr verwendet.** Längengrad Wird durch veraltete mobile SDK-Implementierungen festgelegt. Aktuelle mobile Implementierungen senden die Geolokalisierung über Datenströme. |
 | `lrt` | Keine | Die „Dauer der letzten Anfrage“, d. h. die Roundtrip-Zeit für die letzte Anfrage in Millisekunden. Sie wird nur gesendet, wenn mehr als eine Anfrage von einer einzelnen Seite gesendet wird, z. B. in einer Single Page Application (SPA). |
-| `mcorgid` | Keine | Die Experience Cloud-Organisations-ID , die die Organisation gegenüber dem Experience Cloud ID-Service identifiziert. |
+| `mcorgid` | Keine | Die IMS-Organisations-ID, die die Organisation für den Besucher-ID-Service identifiziert. |
 | `mid` | Keine | Wird in der Dimension [[!UICONTROL Experience Cloud-Besucher-ID]](/help/components/dimensions/experience-cloud-visitor-id.md) verwendet. |
 | `ms_a` | Keine | Wird von Media SDK auf `1` festgelegt, wenn es sich bei den verfolgten Streaming-Medien um Audio- und nicht um Videomedien handelt. |
 | `ndh` | Keine | Wird von AppMeasurement zu jeder von ihm generierten Bildanforderung hinzugefügt. Da bei hartcodierten Anforderungen in der Regel keine Daten vorhanden sind, deutet das Vorhandensein darauf hin, dass der Treffer von AppMeasurement stammt. |

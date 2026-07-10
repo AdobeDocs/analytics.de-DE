@@ -19,16 +19,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 0%
+source-wordcount: 519
+ht-degree: 1%
 
 ---
 
 # Besucheridentifizierung mit AppMeasurement
 
-AppMeasurement ist die alte JavaScript-Bibliothek von Adobe Analytics für die Datenerfassung. Während AppMeasurement allein eine native Möglichkeit bietet, Besuchende zu identifizieren, lehnen viele moderne Browser die Drittanbieter-Cookies ab, die es zu setzen versucht. Adobe empfiehlt dringend, in allen Implementierungen den Besucher-ID-Service von Adobe Experience Cloud zu verwenden, um modernen Datenschutzstandards für Browser zu entsprechen. Alle Versionen von AppMeasurement sind im Lieferumfang von `VisitorAPI.js` enthalten, der JavaScript-Bibliothek, die zur Implementierung des Besucher-ID-Service verwendet wird.
+AppMeasurement ist die alte JavaScript-Bibliothek von Adobe Analytics für die Datenerfassung. Während AppMeasurement allein eine native Möglichkeit bietet, Besuchende zu identifizieren, lehnen viele moderne Browser die Drittanbieter-Cookies ab, die es zu setzen versucht. Adobe empfiehlt dringend, in allen Implementierungen den [Besucher-ID](https://experienceleague.adobe.com/de/docs/id-service/using/home)Service von Adobe zu verwenden, um modernen Datenschutzstandards für Browser zu entsprechen. Alle Versionen von AppMeasurement sind im Lieferumfang von `VisitorAPI.js` enthalten, der JavaScript-Bibliothek, die zur Implementierung des Besucher-ID-Service verwendet wird.
 
 ## Identifizieren von Besuchern mithilfe des Besucher-ID-Service (empfohlen)
 
@@ -82,7 +82,7 @@ Sobald Sie über die oben genannten Ressourcen verfügen, enthält die folgende 
 >
 >Adobe rät davon ab, diese Methode zur Besucheridentifizierung zu verwenden.
 
-Wenn Ihr Unternehmen den Besucher-ID-Service nicht verwendet, verwendet AppMeasurement eine eigene Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Bibliothek nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird auf den Domain-Matching-[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (für HTTPS) oder `trackingServer` (für HTTP) gesetzt.
+Wenn Ihr Unternehmen den Besucher-ID-Dienst (`VisitorAPI.js`) nicht verwendet, verwendet AppMeasurement eine eigene Legacy-Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Bibliothek nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird auf den Domain-Matching-[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (für HTTPS) oder `trackingServer` (für HTTP) gesetzt.
 
 * Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
 * Wenn Sie nicht am verwalteten Zertifikatprogramm teilnehmen, ist der Tracking-Server normalerweise eine Subdomain von `adobedc.net`, `omtrdc.net` oder `2o7.net`, wodurch das `s_vi`-Cookie zu einem Drittanbieter-Cookie wird. Aufgrund der modernen Datenschutzstandards von Browsern werden Drittanbieter-Cookies von den meisten Browsern abgelehnt. Nach der Ablehnung versucht AppMeasurement stattdessen, ein First-Party-Ausweich-Cookie (`fid`) festzulegen.

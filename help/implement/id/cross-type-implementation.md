@@ -22,10 +22,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 61%
+source-wordcount: 612
+ht-degree: 47%
 
 ---
 
@@ -39,12 +39,16 @@ Wenn Sie mehr als einen Implementierungstyp verwenden (z. B. AppMeasurement und 
 
 >[!NOTE]
 >
->Alle Implementierungstypen müssen denselben Besucheridentifizierungstyp verwenden (veraltete Analytics-ID oder Besucher-ID-Service). Adobe empfiehlt, nach Möglichkeit den Besucher-ID-Service in allen Implementierungen zu verwenden.
+>Alle Implementierungstypen müssen denselben Besucheridentifizierungstyp verwenden (alte Analytics-ID, Besucher-ID-Service oder Experience Platform Identity Service). Adobe empfiehlt, nach Möglichkeit in allen Implementierungen eine ECID zu verwenden.
 
 | Variable | Web SDK-Tag-Erweiterung | Web SDK (Legierung) | Analytics-Erweiterung | AppMeasurement | Fest programmierte Bildanforderung |
 |---|---|---|---|---|---|
 | Report Suite-ID | Hinzufügen von Adobe Analytics als Dienst beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) | Hinzufügen von Adobe Analytics als Dienst beim [Konfigurieren eines Datenstroms](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) | [!UICONTROL Report Suites] im Abschnitt [!UICONTROL Bibliotheksverwaltung] beim [Konfigurieren der Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview) | Zeichenfolgenargument in [`s_gi`](../vars/functions/s-gi.md) | Teil des `pathname` der URL (nach `/b/ss/`) |
-| ID-Service von Experience Cloud | [Nativ enthalten](web-sdk-extension.md) | [Nativ enthalten](alloy.md) | Verwenden Sie die [Experience Cloud ID Service-Erweiterung](analytics-extension.md) | Implementierung [`VisitorAPI.js`](appmeasurement.md) | Führen Sie einen [separaten Aufruf an den ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/direct-integration) aus, um die gewünschte ID abzurufen und die `mid` in die Abfragezeichenfolge aufzunehmen |
+| Besucher-ID-Service | enthält nativ den [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home); erfordert, dass [`idMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) Cookies des Besucher-ID-Diensts lesen | enthält nativ den [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home); erfordert [[!UICONTROL Migrieren von ECID von VisitorAPI zur Web-SDK]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity), um Besucher-ID-Service-Cookies zu lesen | Verwenden Sie die Tag[Erweiterung [!UICONTROL Experience Cloud ID Service], &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview) den [Besucher-ID-Service) &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/home) | Implementieren des [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) (`VisitorAPI.js`) | Führen Sie einen [separaten Aufruf an den Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/direct-integration) durch, um die gewünschte ID zu erhalten und den `mid` in die Abfragezeichenfolge aufzunehmen |
 | Edge-Domain | Das Feld [!UICONTROL Edge Domain] beim [Konfigurieren der Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | Die Eigenschaft `edgeDomain` beim [Konfigurieren des Web-SDK](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview) | [!UICONTROL SSL-Tracking] im Abschnitt [!UICONTROL Allgemein] beim [Konfigurieren der Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview) | Die [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) Variable | Der `hostname` der Bildanfrage-URL |
 
-Wenn eine dieser Variablen nicht für jeden Implementierungstyp konsistent ist, werden sie von Adobe wahrscheinlich als separate Besucherinnen und Besucher betrachtet. Wenn Besucherinnen und Besucher nicht nahtlos über Implementierungstypen auf Ihrer Site hinweg verfolgt werden, besteht der häufigste Grund darin, dass der ID-Service falsch konfiguriert ist. Stellen Sie sicher, dass jeder Implementierungstyp auf Ihrer Site korrekt dieselbe Experience Cloud ID (`mid`) erhält.
+>[!NOTE]
+>
+>AppMeasurement-basierte Implementierungen (einschließlich der Analytics-Tag-Erweiterung) sind nicht mit dem [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) kompatibel. Sie müssen die Besucheridentifizierung auf dem kleinsten gemeinsamen Nenner verwenden, um über Implementierungstypen hinweg zu synchronisieren, normalerweise der [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) (`VisitorAPI.js`).
+
+Wenn eine dieser Variablen nicht für jeden Implementierungstyp konsistent ist, werden sie von Adobe wahrscheinlich als separate Besucherinnen und Besucher betrachtet. Wenn Besuchende nicht nahtlos über Implementierungstypen auf Ihrer Site hinweg verfolgt werden, besteht der häufigste Grund darin, dass die Besucheridentifizierung falsch konfiguriert ist. Stellen Sie sicher, dass jeder Implementierungstyp auf Ihrer Site korrekt dieselbe ECID (`mid` [Abfragezeichenfolge](/help/implement/validate/query-parameters.md)) erhält.

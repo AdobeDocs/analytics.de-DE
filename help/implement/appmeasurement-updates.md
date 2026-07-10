@@ -30,10 +30,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2881
-ht-degree: 56%
+source-wordcount: 2880
+ht-degree: 55%
 
 ---
 
@@ -58,7 +58,7 @@ Releasedatum: **Dienstag, 12. August 2024**
 Releasedatum: **Dienstag, 4. März 2024**
 
 * AppMeasurement erkennt und verwendet automatisch die Stamm-Domain für Länder-Code-Domains auf oberster Ebene, für die zuvor bestimmte Cookie-Domain-Konfigurationen erforderlich waren. Die Aktualisierung kann aufgrund dieser automatischen Erkennung Auswirkungen haben.
-* Die Verteilung umfasst die Identity Service-Bibliothek 5.5.0 und Data Integration Library 9.6.
+* Die Verteilung umfasst die Visitor ID Service-Bibliothek 5.5.0 und Data Integration Library 9.6.
 
 ## Version 2.25.0
 
@@ -178,7 +178,7 @@ Releasedatum: **22. Februar 2019**
 
 * Aktualisiertes Zielgruppen-Management-Modul auf DIL 9.1. (AN-175255)
 * GTM-Sicherheitsrichtlinie lässt Activity Map-Modul nicht zu. (AN-174679)
-* Verbessertes AppMeasurement berücksichtigt Abmeldungen (Opt-out), auch wenn der Identitätsdienst bei der Anmeldung nicht genehmigt wurde. (AN-175259)
+* AppMeasurement wurde verbessert, um das Opt-out zu berücksichtigen, wenn der Besucher-ID-Service beim Opt-in nicht genehmigt wird. (AN-175259)
 
 ## Version 2.11.0
 
@@ -205,7 +205,7 @@ Releasedatum: **24. Mai 2018**
 
 >[!NOTE]
 >
->Die Besucher-API 3.0 oder höher ist für Kunden erforderlich, die den Experience Cloud ID-Service verwenden. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden (`at.js`, `AppMeasurement.js` usw.)
+>Für Kunden, die den Besucher-ID-Dienst verwenden, ist die Besucher-API 3.0 oder höher erforderlich. Adobe empfiehlt, ein Upgrade auf die aktuelle Visitor API durchzuführen, wenn die verbundenen Codebibliotheken aktualisiert werden (`at.js`, `AppMeasurement.js` usw.)
 
 * AppMeasurement wurde aktualisiert und verwendet jetzt die aktualisierte Benutzeroberfläche zum Anfordern von IDs. (AN-151483)
 * Es wurde ein Problem behoben, durch das nach der Deaktivierung von Linktracking weiterhin ein Linktracking-Cookie erstellt wurde. (AN-156332)
@@ -321,7 +321,7 @@ Aktualisiert: **18. August 2016**
 
 >[!NOTE]
 >
->Siehe auch die folgenden Versionshinweise für JavaScript Version 1.6.3, die aktualisierte Anforderungen für den Experience Cloud ID-Service enthält.
+>Siehe auch die folgenden Versionshinweise für JavaScript Version 1.6.3, die aktualisierte Anforderungen für den Besucher-ID-Service enthält.
 
 ## Version 1.6.3
 
@@ -331,7 +331,7 @@ Aktualisiert: **4. August 2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 des Experience Cloud ID-Service *erfordert* AppMeasurement für JavaScript Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des ID-Services von Experience Cloud aktualisieren möchten, stellen Sie sicher, dass Sie AppMeasurement 1.6.3 oder höher verwenden.
+>Version 1.6.0 des Besucher-ID-Service *erfordert* AppMeasurement für JavaScript Version 1.6.3 oder höher. Wenn Sie auf Version 1.6.0 des Besucher-ID-Service aktualisieren möchten, stellen Sie sicher, dass Sie AppMeasurement 1.6.3 oder höher verwenden.
 
 ## Version 1.6.2
 
@@ -469,7 +469,7 @@ Releasedatum: **21. August 2014**
 Releasedatum: **19. Juni 2014**
 
 * Fehlerkorrektur - Die Handhabung von Flags „Fertig“ und „Warten“ für Besucher-API-Felder wie die veraltete Analytics-Besucher-ID wurde korrigiert, was zu Fehlern führte.
-* Der Besucher-ID-Dienst 1.3 unterstützt ab sofort neue Funktionen.
+* Unterstützung neuer Funktionen in Visitor ID Service 1.3.
 
 ## Version 1.3.1
 
@@ -481,7 +481,7 @@ Releasedatum: **22. Mai 2014**
 
 Releasedatum: **17. April 2014**
 
-* Unterstützung für den [CX Enterprise Visitor ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+* Unterstützung für den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home).
 
 ## Version 1.2.4
 
@@ -512,7 +512,7 @@ Releasedatum: **15. November 2013**
 Releasedatum: **14. November 2013**
 
 * Unterstützung für [Heartbeat-Videomessungen](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview) hinzugefügt.
-* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) zu unterstützen.
+* `VisitorAPI.js` wurde hinzugefügt, um den [Besucher-ID-Dienst](https://experienceleague.adobe.com/de/docs/id-service/using/home) zu unterstützen.
 
 ## Version 1.1.1
 

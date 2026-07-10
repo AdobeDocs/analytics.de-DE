@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 18%
+source-wordcount: 383
+ht-degree: 19%
 
 ---
 
@@ -55,7 +55,7 @@ Die folgenden Konfigurationsvariablen werden eingestellt. Sie werden hier als Re
 * **`fpCookieDomainPeriods`**: Die Erstanbieter-Entsprechung von `cookieDomainPeriods`, mit der Cookies an der richtigen Stelle gesetzt werden, wenn das Suffix einer Erstanbieter-Domain einen zusätzlichen Punkt enthielt (z. B. `example.co.uk`). Aktuelle Versionen von AppMeasurement erkennen automatisch die richtige Domain, sodass diese Variable veraltet ist.
 * **`trackingServer`**: Gibt die Domain an, die zum Senden von Daten an Adobe über HTTP verwendet wird. Sie wird zugunsten einer sicheren Datenerfassung über HTTPS nicht mehr unterstützt. Verwenden Sie stattdessen [`trackingServerSecure`](trackingserversecure.md).
 * **`trackInlineStats`**: Frühere Versionen von [Activity Map aktiviert oder deaktiviert](/help/analyze/activity-map/overview.md).
-* **`visitorMigrationKey`**: Schlüssel für die Migration von Besuchern von Drittanbieter-Cookies zu Erstanbieter-Cookies. Sie wird eingestellt, da moderne Bibliotheken ein First-Party-Ausweich-Cookie (`fid`) setzen und für ihre Identität auf den Experience Cloud ID-Service angewiesen sind.
+* **`visitorMigrationKey`**: Schlüssel für die Migration von Besuchern von Drittanbieter-Cookies zu Erstanbieter-Cookies. Sie wird eingestellt, da moderne Bibliotheken ein First-Party-Ausweich-Cookie (`fid`) setzen und zur Identitätsfindung auf den Besucher-ID-Service angewiesen sind.
 * **`visitorMigrationServer`**: Gibt den Server an, der während der Migration von Drittanbieter- zu Erstanbieter-Cookies verwendet wird.
 * **`visitorMigrationServerSecure`**: Das HTTPS-Äquivalent von `visitorMigrationServer`.
-* **`visitorNameSpace`**: Hilft bei der Bestimmung der Drittanbieter-Cookie-Domain. Er wurde zugunsten der Verwendung der [`trackingServerSecure`](trackingserversecure.md)-Variablen für Implementierungen eingestellt, die den Experience Cloud ID-Service nicht verwenden.
+* **`visitorNameSpace`**: Hilft bei der Bestimmung der Drittanbieter-Cookie-Domain. Sie wird zugunsten der Verwendung der [`trackingServerSecure`](trackingserversecure.md)-Variablen für Implementierungen außer Kraft gesetzt, die den Besucher-ID-Service nicht verwenden.

@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 91%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Eigenschaften sind übergreifende Container, die Sie zum Verwalten von Tags verw
 1. Klicken Sie auf die neu erstellte Tag-Eigenschaft, um deren Einstellungen einzugeben.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Erweiterungen]** und dann auf **[!UICONTROL Katalog]**.
 1. Suchen Sie nach „Experience Cloud-ID-Dienst“ und klicken Sie auf **[!UICONTROL Installieren]**.
-1. Alle Einstellungen, einschließlich der CX Enterprise Organization ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Alle Einstellungen, einschließlich der IMS-Organisations-ID, sollten bereits ausgefüllt sein. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Suchen Sie im Erweiterungskatalog nach Adobe Analytics und klicken Sie auf **[!UICONTROL Installieren]**.
 
 Weitere Informationen finden Sie in der vollständigen Dokumentation zur [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=de).

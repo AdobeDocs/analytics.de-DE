@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 93%
 
 ---
@@ -58,7 +58,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Mai 2026** | |
 | Dimensionen und Metriken für Streaming-Medien | Wesentliche Aktualisierungen der Dokumentation zu Streaming-Medien. Links zu Beispielen umfassen [Kerndimensionen von Streaming](/help/components/dimensions/sm-core.md)Mediendiensten und [Kernmetriken von Streaming-Mediendiensten](/help/components/metrics/sm-core.md). |
 | **März 2026** | |
-| Aufschlüsseln eines Bedienfelds | Die Dokumentation um den [Ablagebereich für ein Bedienfeld“ wurde neu strukturiert](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) um die neue Funktion [Aufschlüsselung](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) zu unterstützen. |
+| Aufschlüsseln eines Panels | Die Dokumentation um den [Ablagebereich für ein Panel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) wurde neu strukturiert, um die neue Funktion [Aufschlüsseln](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) zu unterstützen. |
 | Es wurde die Standardoption für IP-Verschleierung für neue Report Suites identifiziert | Informationen wurden hinzugefügt, die darauf hinweisen **dass „IP** Adresse entfernen“ die standardmäßige [IP-Verschleierungsoption für neue Report Suites](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) ist. |
 | Überarbeitung der Verarbeitungsreihenfolge | Wesentliche Verbesserungen der [Verarbeitungsreihenfolge in Adobe Analytics](/help/technotes/processing-order.md). |
 | Adobe Advertising-Integration | Hinzufügungen von Adobe Advertising-Integrationsdimensionen und -metriken, einschließlich [AMO-ID](/help/components/dimensions/amo-id.md). |
@@ -217,7 +217,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Workspace-Kalender und Datumsbereiche | Inhalt aktualisiert, um relative Datumsbereiche, Aktualisierungen der Formelberechnung und Änderungen an der Kalenderbenutzeroberfläche zu beschreiben. Siehe [Über relative Bedienfelddatumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Mobile Scorecards | Neuer Dokumentationsabschnitt, um zu beschreiben, wie Sie Vergleichsdatumsbereiche ein- und ausblenden. Siehe [Anzeigen von Vergleichsdatumsbereichen](/help/analyze/mobile-app/create-scorecard.md) in Customer Journey Analytics. |
 | 1.4 API | Die [Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/) wurde vollständig umgestaltet und ist jetzt in Adobe Developer veröffentlicht. |
-| Tracking über verschiedene Implementierungstypen hinweg | Anwendungsfall zum [Tracking über verschiedene Implementierungstypen hinweg](../implement/id/cross-type-implementation.md) aktualisiert, um den Experience Cloud-ID-Service zu berücksichtigen. |
+| Tracking über verschiedene Implementierungstypen hinweg | Der Anwendungsfall „Verfolgen [&#x200B; verschiedenen Implementierungstypen“ wurde aktualisiert](../implement/id/cross-type-implementation.md) um den Besucher-ID-Service zu berücksichtigen. |
 | **Januar 2023** | |
 | Filtern und Sortieren von Tabellen | Inhalt (einschließlich des Hinzufügens von Verfahren und der Erläuterung der verfügbaren Optionen) im Artikel [Filtern und Sortieren von Tabellen](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) aktualisiert. Dieser Artikel wurde von „Paginierung, Filterung und Sortierung von Tabellen“ umbenannt. |
 | Ordner | Eigene Seiten für [Ordnerverwaltung](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

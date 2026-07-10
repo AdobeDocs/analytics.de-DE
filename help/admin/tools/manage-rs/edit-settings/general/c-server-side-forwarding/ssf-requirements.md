@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: 326
 ht-degree: 57%
 
 ---
@@ -37,7 +37,7 @@ Die serverseitige Weiterleitung funktioniert mit [Analytics](https://www.adobe.c
 
 ## Dienstanforderungen
 
-Die serverseitige Weiterleitung erfordert den [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). Der Identity Service bietet eine universelle ID, mit der Website-Besucher über alle Lösungen in CX Enterprise hinweg identifiziert werden können. Sie müssen den ID-Dienst implementieren, bevor die serverseitige Weiterleitung funktioniert.
+Die serverseitige Weiterleitung erfordert den [Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home). Der Identity Service bietet eine universelle ID, mit der Website-Besucher über alle Lösungen in CX Enterprise hinweg identifiziert werden können. Sie müssen den ID-Dienst implementieren, bevor die serverseitige Weiterleitung funktioniert.
 
 ## Codeversionen
 

@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 16%
+source-wordcount: 870
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ Die `trackingServerSecure` bestimmt die Domain, die AppMeasurement verwendet, um
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) ist eine eingestellte Variante dieser Variablen. Sie spezifizierte die Domain für über HTTP gesendete Daten. Da HTTPS weit verbreitet ist, sollte stattdessen `trackingServerSecure` verwendet werden. Wenn `s.trackingServerSecure` leer ist, kehrt AppMeasurement auf den `s.trackingServer` Wert zurück.
 
-Vor der [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) bestimmte diese Variable auch, wo Drittanbieter-Cookies gesetzt wurden. Adobe empfiehlt dringend, nach Möglichkeit den ID-Service in allen Implementierungen zu verwenden.
+Vor dem [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) von Adobe (`VisitorAPI.js`) bestimmte diese Variable auch, wo Drittanbieter-Cookies gesetzt wurden. Adobe empfiehlt dringend, nach Möglichkeit in allen Implementierungen den Besucher-ID-Service zu verwenden.
 
 ## Edge-Domain unter Verwendung der Web-SDK-Erweiterung
 
@@ -90,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden, hängt von mehreren Faktoren ab:
 
 * Ihre Teilnahme am [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Wenn Sie den [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) implementiert und ordnungsgemäß eingerichtet haben
+* Wenn Sie den Besucher-ID-Dienst [Adobe implementiert &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/home) ordnungsgemäß eingerichtet haben
 
 **Wenn Ihr Unternehmen am Adobe-Managed Certificate Program teilnimmt** setzen Sie den Wert auf die Erstanbieter-Domain, die beim Einrichten des Zertifikats ausgewählt wurde. Normalerweise ist dieser Wert eine Subdomain, die Ihrem Unternehmen gehört. Beispiel: `data.example.com`. CNAME-Datensätze in Ihrem Unternehmen leiten diese Daten an Adobe weiter.
 
@@ -110,15 +110,15 @@ Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden,
 
 Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument](../../prepare/solution-design.md) zu speichern, um die Konsistenz in Ihrem gesamten Unternehmen zu gewährleisten.
 
-## Auswirkungen der Nichtverwendung des Besucher-ID-Service
+## Auswirkungen der Nichtverwendung des Besucher-ID-Service oder Experience Platform Identity Services
 
-Adobe empfiehlt dringend die Verwendung von [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) in allen Implementierungen. Der ID-Service kann auf verschiedene Weise implementiert werden:
+Adobe empfiehlt dringend, in allen Implementierungen ECID als primäre Form der Besucheridentität zu verwenden. Die Erfassung von ECIDs kann je nach Implementierungstyp auf verschiedene Arten implementiert werden:
 
-* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Experience Cloud Identity &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/setup-analytics) für Analytics“.
-* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [Adobe Experience Cloud ID-Service-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview). Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
-* Bei Implementierungen, bei denen eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwendet wird, ist der ID-Service bereits nativ integriert. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
+* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
+* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
+* Implementierungen, die eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwenden, schließen automatisch den Experience Platform Identity Service ein. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
 
-**Wenn Ihre Implementierung den Identity Service nicht verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
+**Wenn Ihre Implementierung keine ECIDs verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
 
-* Wenn der Identity Service nicht verwendet wird, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
+* Wenn Sie den Besucher-ID-Dienst oder Experience Platform Identity Service nicht verwenden, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
 * Internes Linktracking und Activity Map sind möglicherweise weniger zuverlässig.

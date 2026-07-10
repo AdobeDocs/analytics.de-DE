@@ -13,20 +13,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 85%
+source-wordcount: 151
+ht-degree: 58%
 
 ---
 
 # Personen mit Experience Cloud ID
 
-„Personen mit Experience Cloud-ID“ ist eine Metrik der [geräteübergreifenden Analyse](../cda/overview.md), die die Anzahl der [Personen](people.md) anzeigt, die von Adobe mithilfe des [Experience Cloud ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) identifiziert wurden.
+„Personen mit Experience Cloud-ID“ ist eine Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der [Personen“ anzeigt, &#x200B;](people.md) von Adobe mithilfe des [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home).
 
 ## Berechnung dieser Metrik
 
-Bei jedem [Personen](people.md) (identifiziert oder nicht identifiziert) erhöht sich diese [Metrik](overview.md), wenn der Treffer die `mid` Abfragezeichenfolge enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de)-Cookie).
+Bei jedem [Personen](people.md) (identifiziert oder nicht identifiziert) erhöht sich diese [Metrik](overview.md), wenn der Treffer die `mid` Abfragezeichenfolge enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie).
 
 Sie können die berechnete Metrik `[People with ECID] ÷ [People]` erstellen, um mithilfe des ID-Service den Prozentsatz der Besucher Ihrer Site festzustellen.
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 88%
+source-wordcount: 468
+ht-degree: 89%
 
 ---
 
@@ -107,4 +107,4 @@ Das folgende Beispiel zeigt mehrere benutzerdefinierte Variablen, die in einer A
 
 ## Facebook Instant Articles und Datenschutz
 
-Wenn die Analytics HTML-Seite auf Ihrem Webserver gehostet wird, unterstützt Adobe Ihre vorhandenen Datenschutzrichtlinien in allen Facebook Instant Articles. Wenn ein Benutzer das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren Facebook Instant Articles ebenfalls deaktiviert. Die Service-Seite unterstützt auch den Adobe Experience Cloud Identity Service, damit Sie Facebook Instant-Article-Daten in den Rest von CX Enterprise integrieren können.
+Wenn die Analytics HTML-Seite auf Ihrem Webserver gehostet wird, unterstützt Adobe Ihre vorhandenen Datenschutzrichtlinien in allen Facebook Instant Articles. Wenn ein Benutzer das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren Facebook Instant Articles ebenfalls deaktiviert. Die Service-Seite unterstützt auch den Besucher-ID-Dienst, damit Sie Facebook-Instant-Article-Daten in den Rest von CX Enterprise integrieren können.

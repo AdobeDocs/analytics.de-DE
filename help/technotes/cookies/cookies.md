@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 99%
+source-wordcount: 2104
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Darüber hinaus lässt Chrome derzeit die Funktion von Cookies in einem Third-Pa
 
 #### Welche Third-Party-Cookies von Adobe sind betroffen?
 
-Der Besucher-ID-Dienst verwendet das Cookie „[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de)“, um eine beständige ID für Besucher über verschiedene Kundendomänen hinweg bereitzustellen. Beim älteren Analytics-ID-Dienst wird das Cookie „s_vi“ als Third-Party-Cookie für Implementierungen festgelegt, die keine benutzerdefinierte CNAME-Erfassungsdomäne verwenden.
+Der Besucher-ID-Dienst verwendet das Cookie &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), um eine beständige ID für Besucher über verschiedene Kundendomänen hinweg bereitzustellen. Beim älteren Analytics-ID-Dienst wird das Cookie „s_vi“ als Third-Party-Cookie für Implementierungen festgelegt, die keine benutzerdefinierte CNAME-Erfassungsdomäne verwenden.
 
 Bei Browsern, in denen Third-Party-Cookies blockiert werden, ist kein domänenübergreifendes Tracking verfügbar.
 
@@ -58,7 +58,7 @@ First-Party-Cookies sind in allen gängigen Browsern zulässig. Apple beschränk
 
 Die First-Party-Cookies von Adobe laufen n ach 7 Tagen ab. Bei Clickthroughs, die Apple als von Trackern gesendet erkennt, sogar schon nach 24 Stunden. Bei einer Lebensdauer von sieben Tagen wird das Ablaufdatum des Cookies um weitere sieben Tage verlängert, wenn ein Besucher Ihrer Site innerhalb von sieben Tagen zurückkehrt Wenn ein Besucher jedoch erst nach acht Tagen zurückkehrt, wird er beim zweiten Besuch als neuer Benutzer behandelt.
 
-Derzeit gelten ITP-Richtlinien für alle von Adobe gesetzten First-Party-Cookies, unabhängig davon, ob Sie den Besucher-ID-Dienst oder ältere Analytics-ID (Cookie „s_vi“) verwenden. Diese Richtlinien galten früher nur für Cookies, die Client-seitig gesetzt wurden, und nicht für Cookies, die Server-seitig über eine CNAME-Implementierung gesetzt wurden. Im November 2020 wurde ITP jedoch aktualisiert und gilt nun auch für CNAME-Implementierungen.
+Derzeit gelten ITP-Richtlinien für alle von Adobe gesetzten Erstanbieter-Cookies, unabhängig davon, ob Sie den Besucher-ID-Service oder die ältere Analytics-ID (Cookie „s_vi„) verwenden. Diese Richtlinien galten früher nur für Cookies, die Client-seitig gesetzt wurden, und nicht für Cookies, die Server-seitig über eine CNAME-Implementierung gesetzt wurden. Im November 2020 wurde ITP jedoch aktualisiert und gilt nun auch für CNAME-Implementierungen.
 
 #### Timeline der wichtigsten Änderungen an der ITP-Richtlinie {#ITP-timeline}
 
@@ -73,8 +73,8 @@ ITP-Richtlinien werden häufig weiterentwickelt. Die neuesten Richtlinien finden
 Alle von Adobe gesetzten First-Party-Cookies und die zugehörigen JavaScript-Bibliotheken sind von ITP-Richtlinien betroffen:
 
 * [AMCV-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), die von der Bibliothek des Besucher-ID-Diensts von Adobe Experience Cloud (ECID) festgelegt werden
-* Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
-* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=de), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
+* Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
+* Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
 
 #### Wie wirkt sich ITP auf Safari auf Analytics aus?
 
@@ -95,7 +95,7 @@ Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 Third-Party-Cookies werden nicht von den Websites erstellt, die Anwender besuchen.
 
-Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Drittanbieter-Cookies einer Kundin oder eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Drittanbieter-Cookie ab, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Drittanbieter-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Drittanbieter-Cookies einer Kundin oder eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Drittanbieter-Cookie ab, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Drittanbieter-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und der Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
 
 In Analytics-Implementierungen werden Third-Party-Cookies für Domain-übergreifendes Tracking und für Werbeanwendungen wie Retargeting-Anzeigen verwendet. Mit Third-Party-Cookies können Sie Besucher identifizieren, die verschiedene Domains besuchen, deren Inhaber Sie sind, oder denen Anzeigen auf Sites präsentiert werden, deren Inhaber Sie nicht sind.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -143,13 +143,13 @@ Die folgende Tabelle fasst die SameSite-Attribute für Analytics-Cookies zusamme
 
 Vergewissern Sie sich, dass Ihre JavaScript-Konfiguration HTTPS für alle Aufrufe an Adobe-Dienste verwendet.
 
-Wenn Ihre Site den Besucher-ID-Dienst von Experience Cloud verwendet, leitet der Service HTTP-Aufrufe von Drittanbietern an den HTTPS-Endpunkt weiter, was die Latenz erhöhen kann, aber auch bedeutet, dass Sie Ihre Konfiguration nicht ändern müssen.
+Wenn Ihre Site den Besucher-ID-Service verwendet, leitet der Service HTTP-Aufrufe von Drittanbietern an den HTTPS-Endpunkt weiter, was die Latenz erhöhen kann, aber auch bedeutet, dass Sie Ihre Konfiguration nicht ändern müssen.
 
 #### Ändern des SameSite-Werts bei Verwendung eines CNAME für mehrere Domains {#samesite-one-cname}
 
 >[!NOTE]
 >
->Die folgenden Informationen beziehen sich nur auf Sites, die nicht den Besucher-ID-Dienst von Experience Cloud verwenden.
+>Die folgenden Informationen beziehen sich nur auf Sites, die den Besucher-ID-Service nicht verwenden.
 
 Wenn Sie über eine CNAME-Implementierung in derselben Domain wie Ihre Website verfügen, wird das Cookie in einem First-Party-Kontext erzeugt und Sie müssen keine Änderungen vornehmen.
 
@@ -197,5 +197,4 @@ Wenn Ihr Unternehmen von der ITP-Tracking-Prävention betroffen ist, können Sie
 
 >[!MORELIKETHIS]
 >
->[Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-Cookies](cookieless.md)
->[Auswirkungen des neuen App Tracking Transparency Framework von Apple auf Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=de)
+>[Optionen zum Abmildern der Auswirkungen von Beschränkungen für Browser-CookiesAuswirkungen des neuen App Tracking Transparency Framework von Apple auf Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=de)

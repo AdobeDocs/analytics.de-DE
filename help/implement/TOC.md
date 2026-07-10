@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '445'
 ht-degree: 98%
 
 ---
@@ -172,11 +172,6 @@ ht-degree: 98%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Fehlerbehebung bei H-Code](js/h-code/troubleshooting.md)
-   + Veraltete geräteübergreifende Identifizierung {#xdevice-visid}
-      + [Übersicht über das geräteübergreifende Verbinden von Benutzern](js/xdevice-visid/xdevice-connecting.md)
-      + [Variablenpersistenz](js/xdevice-visid/variable-persistence.md)
-      + [Besuchsbeispiel](js/xdevice-visid/visit-example.md)
-      + [Häufig gestellte Fragen zu veralteten geräteübergreifenden Themen](js/xdevice-visid/xdevice-faq.md)
    + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
 + Implementieren von Analytics auf anderen Plattformen {#other}
    + [Implementieren von Analytics mit fest programmierten Bildanforderungen](other/hardcoded.md)

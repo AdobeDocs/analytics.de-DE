@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 94%
+source-wordcount: 686
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,7 @@ Diese beiden Variablenwerte werden in Adobe Analytics getrennt betrachtet. Das L
 
 Bei Implementierungen, die viele Variablen mit langen Werten füllen, kann es manchmal zu abgeschnittenen Bildanforderungen kommen. Einige ältere Browser, wie z. B. Internet Explorer, legen für Bildanforderungs-URLs eine Beschränkung von 2083 Zeichen fest. Wenn Ihr Unternehmen mit sehr langen Bildanforderungen konfrontiert ist, versuchen Sie Folgendes:
 
-* **Experience Cloud Identity Service verwenden**: AppMeasurement-Bibliotheken 1.4.1 und höher senden Bildanforderungen automatisch über HTTP-POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten. Weitere Informationen finden Sie unter [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+* **Verwenden Sie die neueste Version von AppMeasurement**: AppMeasurement-Bibliotheken 1.4.1 und höher senden Bildanforderungen automatisch über HTTP POST, wenn sie zu lang sind. Daten, die mit dieser Methode gesendet werden, werden unabhängig von der Länge nicht abgeschnitten.
 * **Verarbeitungsregeln verwenden**: [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode erspart Ihnen das Festlegen des gleichen Werts in mehreren Variablen. Beispiel:
 
   Immer ausführen:<br>

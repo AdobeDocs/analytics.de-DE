@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: 198
 ht-degree: 2%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 2%
 
 Die Adobe Experience Platform Web SDK JavaScript Library (`alloy.js`) bietet einen einheitlichen, modernen Ansatz für die Datenerfassung für alle Adobe CX Enterprise-Anwendungen, einschließlich Adobe Analytics. Während die meisten Kundinnen und Kunden normalerweise die [Web SDK-Tag-Erweiterung](web-sdk-extension.md) implementieren, können Sie die Web SDK JavaScript-Bibliothek allein oder in einem Drittanbieter-Tag-Management-System verwenden. Unter [Alloy](https://github.com/adobe/alloy) auf GitHub finden Sie Informationen zum Herunterladen der neuesten Version der Bibliothek.
 
-Identitätsdaten können mithilfe der `identityMap` von XDM erweitert werden, um benutzerdefinierte IDs und mehrere Namespaces zu unterstützen. Adobe empfiehlt die Verwendung des Adobe Experience Cloud ID-Service als primäre Kennung für Analytics sowie die Verwendung anderer Identitätsverwaltungsoptionen für erweiterte Szenarien.
+Identitätsdaten können mithilfe der [`identityMap`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/identity-map) von XDM erweitert werden, um benutzerdefinierte IDs und mehrere Namespaces zu unterstützen. Adobe empfiehlt die Verwendung von ECID als primäre Kennung für Analytics sowie die Verwendung anderer Identitätsverwaltungsoptionen für erweiterte Szenarien.
 
-Wenn Ihr Unternehmen die Web SDK JavaScript-Bibliothek verwendet, um Daten an Adobe Analytics zu senden, ist eine Mindestkonfiguration für die Besucheridentifizierung erforderlich. Der Besucher-ID-Dienst ist nativ in der Bibliothek integriert. Sie müssen lediglich **[!UICONTROL Edge Domain]** im `configure` festlegen. Wenn dieses Feld auf den gewünschten Wert eingestellt ist, funktioniert die Besucheridentifizierung ohne zusätzliche Konfiguration.
+Wenn Ihr Unternehmen die Web SDK JavaScript-Bibliothek verwendet, um Daten an Adobe Analytics zu senden, ist eine Mindestkonfiguration für die Besucheridentifizierung erforderlich. Der Experience Platform Identity Service wird nativ in die Bibliothek eingebettet. Sie müssen lediglich **[!UICONTROL Edge Domain]** im `configure` festlegen. Wenn dieses Feld auf den gewünschten Wert eingestellt ist, funktioniert die Besucheridentifizierung ohne zusätzliche Konfiguration.

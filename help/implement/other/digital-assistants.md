@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -87,11 +87,11 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## Benutzer-/Besucheridentifizierung
+## Besucheridentifizierung
 
-Adobe Analytics verwendet den [Adobe Experience Cloud-Identitätsdienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de), um Interaktionen über einen bestimmten Zeitraum hinweg mit derselben Person zu verknüpfen. Die meisten digitalen Assistenten geben eine `userID` zurück, mit der Sie die Aktivität für verschiedene Benutzer speichern können. In den meisten Fällen können Sie diesen Wert als eindeutige Kennung weitergeben. Einige Plattformen geben eine Kennung zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, dass Sie die eindeutige Kennung mithilfe eines standardmäßigen Hashing-Algorithmus wie MD5 oder Sha1 auf einen Wert mit fester Länge hashen.
+Adobe Analytics verwendet den [Besucher-ID-Service von Adobe](https://experienceleague.adobe.com/de/docs/id-service/using/home) um Interaktionen über Zeiträume hinweg mit derselben Person zu verknüpfen. Die meisten digitalen Assistenten geben eine `userID` zurück, mit der Sie die Aktivität für verschiedene Benutzer speichern können. In den meisten Fällen können Sie diesen Wert als eindeutige Kennung weitergeben. Einige Plattformen geben eine Kennung zurück, der länger als die zulässigen 100 Zeichen ist. In diesen Fällen empfiehlt Adobe, die eindeutige Kennung mithilfe eines standardmäßigen Hash-Algorithmus wie MD5 oder SHA1 auf einen festen Längenwert zu hashen.
 
-Die Verwendung des ID-Service bietet den größten Nutzen, wenn Sie ECIDs über verschiedene Geräte (z. B. Web-to-Digital-Assistant) hinweg zuordnen. Wenn es sich bei Ihrer App um eine mobile App handelt, verwenden Sie die Experience Platform-SDKs unverändert und senden Sie die Benutzer-ID mit der `setCustomerID`-Methode. Wenn Ihre App jedoch ein Service ist, verwenden Sie die vom Service als ECID bereitgestellte Benutzer-ID und legen Sie sie in der `setCustomerID` fest.
+Die Verwendung des Besucher-ID-Service bietet den meisten Nutzen, wenn Sie ECIDs auf verschiedenen Geräten zuordnen (z. B. Web zu digitalem Assistenten). Wenn es sich bei Ihrer App um eine mobile App handelt, verwenden Sie die Experience Platform-SDKs unverändert und senden Sie die Benutzer-ID mit der `setCustomerID`-Methode. Wenn Ihre App jedoch ein Service ist, verwenden Sie die vom Service als ECID bereitgestellte Benutzer-ID und legen Sie sie in der `setCustomerID` fest.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1

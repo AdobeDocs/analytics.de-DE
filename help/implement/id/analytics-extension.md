@@ -17,26 +17,26 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 505
 ht-degree: 2%
 
 ---
 
 # Besucheridentifizierung mit der Tag-Erweiterung &quot;Adobe Analytics&quot;
 
-Die Tag-Erweiterung von Adobe Analytics bietet die Möglichkeit, AppMeasurement mithilfe einer Tag-Management-Oberfläche zu implementieren. Da es sich bei dieser Tag-Erweiterung im Wesentlichen um AppMeasurement handelt, bietet sie ähnliche Methoden zum Identifizieren von Besuchern und erfordert eine separate Tag-Erweiterung für den Besucher-ID-Service.
+Die Tag-Erweiterung von Adobe Analytics bietet die Möglichkeit, AppMeasurement mithilfe einer Tag-Management-Oberfläche zu implementieren. Da es sich bei dieser Tag-Erweiterung im Wesentlichen um AppMeasurement handelt, bietet sie ähnliche Methoden zum Identifizieren von Besuchern und erfordert eine separate Tag-Erweiterung, um ECID zu erfassen.
 
 ## Identifizieren von Besuchern mithilfe des Besucher-ID-Service (empfohlen)
 
-Um den Besucher-ID-Dienst mit der Adobe Analytics-Tag-Erweiterung zu verwenden, fügen Sie die Tag-Erweiterung &quot;Experience Cloud ID Service“ in Ihre Tag-Eigenschaft ein.
+Um den Besucher-ID-Dienst mit der Adobe Analytics-Tag-Erweiterung zu verwenden, fügen Sie die Tag-Erweiterung [!UICONTROL Experience Cloud-ID-]) (die den Besucher-ID-Dienst implementiert) in Ihre Tag-Eigenschaft ein.
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
 1. Navigieren Sie **[!UICONTROL Datenerfassung]** > **[!UICONTROL Tags]**.
 1. Suchen Sie die gewünschte Tag-Eigenschaft.
 1. Navigieren Sie zu **[!UICONTROL Erweiterungen]** und wählen Sie dann die Registerkarte **[!UICONTROL Katalog]** aus.
-1. Suchen Sie nach der Erweiterung **[!UICONTROL Experience Cloud ID Service]** und wählen Sie **[!UICONTROL Installieren]** aus.
+1. Suchen Sie nach der **[!UICONTROL Experience Cloud ID Service]**-Erweiterung und wählen Sie **[!UICONTROL Installieren]** aus.
 
 Die Tag-Erweiterung ruft automatisch Ihre IMS-Organisations-ID ab, sodass keine zusätzliche Konfiguration erforderlich ist.
 
@@ -46,14 +46,14 @@ Die Tag-Erweiterung ruft automatisch Ihre IMS-Organisations-ID ab, sodass keine 
 >
 >Adobe rät davon ab, diese Methode zur Besucheridentifizierung zu verwenden.
 
-Wenn Ihr Unternehmen die Tag-Erweiterung „Visitor ID Service“ nicht verwendet, verwendet die Tag-Erweiterung von Adobe Analytics eine eigene Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Erweiterung nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird bei der Konfiguration der Tag **[!UICONTROL Erweiterung auf die Domain gesetzt, die mit SSL-Tracking-Server]** (für HTTPS) oder **[!UICONTROL Tracking-Server]** (für HTTP[&#x200B; übereinstimmt](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview).
+Wenn Ihr Unternehmen nicht die Tag[!UICONTROL Erweiterung „Experience Cloud ID Service] verwendet, verwendet die Adobe Analytics-Tag-Erweiterung eine eigene Legacy-Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Erweiterung nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird bei der Konfiguration der Tag **[!UICONTROL Erweiterung auf die Domain gesetzt, die mit SSL-Tracking-Server]** (für HTTPS) oder **[!UICONTROL Tracking-Server]** (für HTTP[&#x200B; übereinstimmt](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 * Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
 * Wenn Sie nicht am Programm für verwaltete Zertifikate teilnehmen, ist der Tracking-Server normalerweise eine Subdomain von `adobedc.net`, `omtrdc.net` oder `2o7.net`, wodurch das `s_vi`-Cookie zu einem Drittanbieter-Cookie wird. Aufgrund der modernen Datenschutzstandards von Browsern werden Drittanbieter-Cookies von den meisten Browsern abgelehnt. Nach der Ablehnung versucht AppMeasurement stattdessen, ein First-Party-Ausweich-Cookie (`fid`) festzulegen.
 
 Wenn Sie [!UICONTROL SSL-Tracking-Server] richtig eingestellt haben, sind keine weiteren Maßnahmen zur Besucheridentifizierung erforderlich.
 
-## Besucheridentifizierung mit `visitorID` (nicht empfohlen)
+## Besucherinnen und Besucher mit `visitorID` identifizieren (nicht empfohlen)
 
 >[!IMPORTANT]
 >
