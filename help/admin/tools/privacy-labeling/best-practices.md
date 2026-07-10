@@ -5,27 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2340
+source-wordcount: 2341
 ht-degree: 65%
 
 ---
@@ -68,7 +55,7 @@ Anhand dieser Tabelle können Sie die ID-Typen bestimmen, mit deren Hilfe Sie Da
    <td colname="col1"> <p>Cookie-IDs </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=de">Analytics-Cookie (Legacy)</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de">Identity Service-Cookie</a> (ECID), zuvor als Marketing Cloud ID (MCID) bezeichnet </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/de/docs/id-service/using/home">Identity Service-Cookie</a> (ECID), zuvor als Marketing Cloud ID (MCID) bezeichnet </li> 
     </ul> </td> 
    <td colname="col2"> <p>Diese Cookies identifizieren ein Gerät oder genauer gesagt einen Browser für einen Benutzer eines Geräts. Bei einem gemeinsam genutzten Gerät, auf dem eine gemeinsame Anmeldung verwendet wird, kann diese ID für alle/jeden Benutzer des Geräts gelten. Adobe hat <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> einheitlichen JavaScript-Code</a> entwickelt, den Sie in Ihre Website einfügen können, um diese Cookies zu erfassen, sofern Sie sie für Datenschutzanfragen zulassen möchten. </p> <p>Benutzer des mobilen Adobe Analytics-SDK verfügen auch über eine Experience Cloud ID (ECID). Im SDK sind API-Aufrufe enthalten, die diese ID auslesen. So können Sie Ihre App so erweitern, dass sie die ID für Datenschutzanfragen erfasst. </p> <p>Viele Unternehmen behandeln Browsercookie-IDs wie IDs gemeinsam genutzter Geräte. Daher könnten sie nach Rücksprache mit ihrer Rechtsabteilung beschließen, diese IDs nicht als zulässige IDs für Datenschutzanfragen zu verwenden. Alternativ könnten sie sich dafür entscheiden, bei Verwendung dieser IDs nur eine sehr begrenzte Menge an Daten zurückzugeben oder sie nur für Löschanfragen zu akzeptieren. </p> <p>Diese Cookies haben eine ID-DEVICE-Kennzeichnung, die nicht geändert werden kann (sowie I2- und DEL-DEVICE-Kennzeichnungen). Die standardmäßige Adobe Analytics-Konfiguration gibt nur allgemeine Informationen über das Gerät zurück, z. B. Gerätetyp, Betriebssystem, Browser usw. sowie die Zeit/das Datum, zu der/dem Ihre Website bei der Verwendung dieser IDs besucht wurde. Wenn Sie diese IDs jedoch wie unten erläutert für Datenschutzanfragen unterstützen möchten, können Sie ACC-ALL-Beschriftungen hinzufügen oder entfernen, um genau die Felder zu konfigurieren, die bei einer Datenschutz-Zugriffsanfrage zurückgegeben werden sollen. </p> <p>Wenn die Report Suite mit einer mobilen App verknüpft ist, die eine Anmeldung erfordert, könnten Sie die Experience Cloud-ID für das Gerät einem bestimmten Benutzenden zuweisen. In diesem Fall ist es empfehlenswert, zusätzliche Felder mit der Kennzeichnung ACC-ALL zu versehen, einschließlich der Namen der besuchten Seiten, der angezeigten Produkte usw. </p> </td> 
   </tr> 

@@ -5,25 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 16%
+source-wordcount: 870
+ht-degree: 15%
 
 ---
 
@@ -35,7 +25,7 @@ Die `trackingServerSecure` bestimmt die Domain, die AppMeasurement verwendet, um
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) ist eine eingestellte Variante dieser Variablen. Sie spezifizierte die Domain für über HTTP gesendete Daten. Da HTTPS weit verbreitet ist, sollte stattdessen `trackingServerSecure` verwendet werden. Wenn `s.trackingServerSecure` leer ist, kehrt AppMeasurement auf den `s.trackingServer` Wert zurück.
 
-Vor der [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) bestimmte diese Variable auch, wo Drittanbieter-Cookies gesetzt wurden. Adobe empfiehlt dringend, nach Möglichkeit den ID-Service in allen Implementierungen zu verwenden.
+Vor dem [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) von Adobe (`VisitorAPI.js`) bestimmte diese Variable auch, wo Drittanbieter-Cookies gesetzt wurden. Adobe empfiehlt dringend, nach Möglichkeit in allen Implementierungen den Besucher-ID-Service zu verwenden.
 
 ## Edge-Domain unter Verwendung der Web-SDK-Erweiterung
 
@@ -46,7 +36,7 @@ Die Web-SDK verwendet die [!UICONTROL Edge]Domain, um sowohl den Tracking-Server
 1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und wählen Sie dann die Schaltfläche **[!UICONTROL Konfigurieren]** unter [!UICONTROL Adobe Experience Platform Web SDK] aus.
 1. Legen Sie das gewünschte Textfeld **[!UICONTROL Edge Domain]** fest.
 
-Weitere Informationen [&#x200B; Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
+Weitere Informationen [ Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
 
 >[!TIP]
 >
@@ -54,7 +44,7 @@ Weitere Informationen [&#x200B; Sie in der Web](https://experienceleague.adobe.c
 
 ## Edge-Domain - Manuelle Implementierung der Web-SDK
 
-Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
+Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
 
 ```json
 alloy("configure", {
@@ -89,14 +79,14 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden, hängt von mehreren Faktoren ab:
 
-* Ihre Teilnahme am [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Wenn Sie den [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) implementiert und ordnungsgemäß eingerichtet haben
+* Ihre Teilnahme am [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
+* Wenn Sie den Besucher-ID-Dienst [Adobe implementiert ](https://experienceleague.adobe.com/de/docs/id-service/using/home) ordnungsgemäß eingerichtet haben
 
 **Wenn Ihr Unternehmen am Adobe-Managed Certificate Program teilnimmt** setzen Sie den Wert auf die Erstanbieter-Domain, die beim Einrichten des Zertifikats ausgewählt wurde. Normalerweise ist dieser Wert eine Subdomain, die Ihrem Unternehmen gehört. Beispiel: `data.example.com`. CNAME-Datensätze in Ihrem Unternehmen leiten diese Daten an Adobe weiter.
 
 **Wenn Sie nicht am Zertifikatprogramm teilnehmen** setzen Sie den Wert auf eine Subdomain von `data.adobedc.net`. Adobe empfiehlt, aus Konsistenzgründen die Unternehmens-ID Ihres Unternehmens zu verwenden. Beispiel: `example.data.adobedc.net`. Gehen Sie wie folgt vor, um Ihre Unternehmens-ID zu ermitteln:
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com)[Adobe CX Enterprise an.
 1. Drücken Sie an einer beliebigen Stelle in der CX Enterprise-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
 1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
 1. Erweitern Sie die gewünschte IMS-Organisation.
@@ -110,15 +100,15 @@ Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden,
 
 Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument](../../prepare/solution-design.md) zu speichern, um die Konsistenz in Ihrem gesamten Unternehmen zu gewährleisten.
 
-## Auswirkungen der Nichtverwendung des Besucher-ID-Service
+## Auswirkungen der Nichtverwendung des Besucher-ID-Service oder Experience Platform Identity Services
 
-Adobe empfiehlt dringend die Verwendung von [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) in allen Implementierungen. Der ID-Service kann auf verschiedene Weise implementiert werden:
+Adobe empfiehlt dringend, in allen Implementierungen ECID als primäre Form der Besucheridentität zu verwenden. Die Erfassung von ECIDs kann je nach Implementierungstyp auf verschiedene Arten implementiert werden:
 
-* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Experience Cloud Identity &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/setup-analytics) für Analytics“.
-* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [Adobe Experience Cloud ID-Service-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview). Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
-* Bei Implementierungen, bei denen eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwendet wird, ist der ID-Service bereits nativ integriert. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
+* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [ finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
+* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
+* Implementierungen, die eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwenden, schließen automatisch den Experience Platform Identity Service ein. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
 
-**Wenn Ihre Implementierung den Identity Service nicht verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
+**Wenn Ihre Implementierung keine ECIDs verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
 
-* Wenn der Identity Service nicht verwendet wird, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
+* Wenn Sie den Besucher-ID-Dienst oder Experience Platform Identity Service nicht verwenden, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
 * Internes Linktracking und Activity Map sind möglicherweise weniger zuverlässig.

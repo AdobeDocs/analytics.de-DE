@@ -5,27 +5,15 @@ feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 67%
+source-wordcount: 939
+ht-degree: 66%
 
 ---
 
@@ -49,7 +37,7 @@ In der folgenden Tabelle werden die beiden Methoden verglichen:
 | Besucher-/Besuchsanzahlen in bestehender Report Suite | Hohe Inflation | Minimale Inflation |
 | Separate Report Suite verwenden | Empfohlen | Nicht erforderlich |
 | Neue und wiederkehrende Besucher | Nicht unterstützt | Unterstützt |
-| Besucher-ID-Dienst | Nicht unterstützt | Unterstützt |
+| Besucher-ID-Dienst (`VisitorAPI.js`) | Nicht unterstützt | Unterstützt |
 | Video- und Linktracking | Teilweise unterstützt | Noch nicht unterstützt |
 | Schwierigkeiten bei der Umsetzung | diffizil | Relativ einfach |
 | Adobe CX Enterprise-Integrationen | Nicht unterstützt | Teilweise unterstützt |
@@ -97,13 +85,13 @@ Im folgenden Code-Beispiel wurden zwei Auslöser definiert: `pageLoad` und `clic
 </amp-analytics>
 ```
 
-Das `<amp-analytics>`-Tag unterstützt Variablenersetzungen, damit AMP ihm bekannte Datenwerte bereitstellen kann. Weitere Informationen finden [&#x200B; unter „In `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) unterstützte Variablen“ auf GitHub.
+Das `<amp-analytics>`-Tag unterstützt Variablenersetzungen, damit AMP ihm bekannte Datenwerte bereitstellen kann. Weitere Informationen finden [ unter „In `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) unterstützte Variablen“ auf GitHub.
 
 >[!NOTE]
 >
 >Bildanfragen, die mit dieser Methode an Adobe gesendet werden, enthalten keine Daten für viele Standardberichte (beispielsweise Browser, Bildschirmgröße oder Referrer). Wenn Sie diese Informationen in Treffer einbeziehen möchten, stellen Sie sicher, dass sie als Teil der Abfragezeichenfolge der Bildanforderung enthalten sind. Siehe [Datenerfassungs-Abfrageparameter](../validate/query-parameters.md) für eine vollständige Liste der Bildanforderungsparameter und der zugehörigen Variablen.
 
-Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist eindeutig für jede andere ID, die von Adobe Analytics festgelegt wird. Für jedes CDN, von dem ein Besucher Inhalte abruft, wird ein anderer Unique Visitor gezählt, wodurch sich die Unique Visitor-Anzahl erhöhen kann. Die Verwendung einer separaten Report Suite für AMP-Seiten wird dringend empfohlen, da AMP Unique Visitors identifiziert. Der Adobe Experience Cloud ID-Dienst wird nicht unterstützt.
+Adobe identifiziert Besucher mithilfe einer integrierten AMP-Funktion und setzt das `adobe_amp_id`-Cookie. Diese Besucher-ID ist eindeutig für jede andere ID, die von Adobe Analytics festgelegt wird. Für jedes CDN, von dem ein Besucher Inhalte abruft, wird ein anderer Unique Visitor gezählt, wodurch sich die Unique Visitor-Anzahl erhöhen kann. Die Verwendung einer separaten Report Suite für AMP-Seiten wird dringend empfohlen, da AMP Unique Visitors identifiziert. Der Besucher-ID-Dienst von Adobe wird nicht unterstützt.
 
 Bei dieser Lösung muss der von Ihnen in der `host`-Eigenschaft festgelegte Trackingserver dem Trackingserver auf Ihrer Haupt-Website entsprechen, damit Ihre Datenschutzrichtlinien eingehalten werden. Andernfalls erstellen Sie eine separate Datenschutzrichtlinie für Seiten, die AMP verwenden.
 
@@ -171,7 +159,7 @@ Die `"adobeanalytics_nativeConfig"` fügt auch Abfragezeichenfolgenparameter hin
 >
 >Ihre `stats.html`-Seite muss in einer anderen Unterdomäne als der Domain gehostet werden, in der AMP selbst gehostet wird. Das AMP-Framework lässt keine iFrames aus derselben Unterdomäne zu, in der sich die AMP-Seite selbst befindet. Wenn Ihr AMP beispielsweise auf `amp.example.com` gehostet wird, hosten Sie Ihre `stats.html`-Seite in einer anderen Unterdomäne wie `ampmetrics.example.com`.
 
-Wenn ein Benutzer bei dieser Methode das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren AMPs ebenfalls deaktiviert. Bei Verwendung dieser Dienstprogrammseite kann AMP auch den Adobe Experience Cloud ID-Dienst unterstützen. Eine separate Report Suite ist nicht erforderlich.
+Wenn ein Benutzer bei dieser Methode das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren AMPs ebenfalls deaktiviert. Die Verwendung dieser Service-Seite bedeutet auch, dass AMP den Besucher-ID-Service von Adobe unterstützen kann. Eine separate Report Suite ist nicht erforderlich.
 
 Mit dieser Methode können Linktracking und die Video-Tracking nicht verwendet werden. Das `iframeMessage`-Tag in AMP kann nur einmal pro Seite geladen werden, sodass Sie keine anderen Bildanforderungen senden können, nachdem der Frame geladen wurde. Diese Methode erfordert auch mehr Verarbeitungsressourcen, was sich auf die Bildlaufleistung auswirken kann. Diese Methode hat keine Auswirkungen auf die Seitenladezeit, da alle Ressourcen asynchron geladen werden.
 

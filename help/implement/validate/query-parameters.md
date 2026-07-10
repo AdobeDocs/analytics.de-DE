@@ -5,29 +5,15 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +23,8 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 
 | Parameter | Analytics-Implementierungsvariable | Beschreibung |
 | --- | --- | --- |
-| `aamlh` | Keine | Audience Manager-Standorthinweis. Identifiziert das regionale Rechenzentrum, das für die Audience Manager ID-Synchronisierung über den Experience Cloud ID-Service verwendet wird. |
-| `aamb` | Keine | Audience Manager Blob. Kodierte Audience Manager-Profildaten, die während der ID-Synchronisierung durch den Experience Cloud ID-Service übergeben werden. |
+| `aamlh` | Keine | Audience Manager-Standorthinweis. Identifiziert das regionale Rechenzentrum, das für die Audience Manager ID-Synchronisierung über den Besucher-ID-Service verwendet wird. |
+| `aamb` | Keine | Audience Manager Blob. Kodierte Audience Manager-Profildaten, die während der ID-Synchronisierung durch den Besucher-ID-Service übergeben werden. |
 | `aid` | Keine | Die ältere Analytics-Besucher-ID, die im `s_vi`-Cookie gespeichert ist. Wird in modernen Implementierungen durch den `mid`-Parameter ersetzt. |
 | `AQB` | Keine | Zeigt den Anfang einer Abfragezeichenfolge für Bildanforderungen an. |
 | `AQE` | Keine | Zeigt das Ende einer Bildanforderung an (d. h., dass die Anforderung nicht abgeschnitten wurde). |
@@ -71,7 +57,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `lat` | Keine | **Wird nicht mehr verwendet.** Breitengrad Wird durch veraltete mobile SDK-Implementierungen festgelegt. Aktuelle mobile Implementierungen senden die Geolokalisierung über Datenströme. |
 | `lon` | Keine | **Wird nicht mehr verwendet.** Längengrad Wird durch veraltete mobile SDK-Implementierungen festgelegt. Aktuelle mobile Implementierungen senden die Geolokalisierung über Datenströme. |
 | `lrt` | Keine | Die „Dauer der letzten Anfrage“, d. h. die Roundtrip-Zeit für die letzte Anfrage in Millisekunden. Sie wird nur gesendet, wenn mehr als eine Anfrage von einer einzelnen Seite gesendet wird, z. B. in einer Single Page Application (SPA). |
-| `mcorgid` | Keine | Die Experience Cloud-Organisations-ID , die die Organisation gegenüber dem Experience Cloud ID-Service identifiziert. |
+| `mcorgid` | Keine | Die IMS-Organisations-ID, die die Organisation für den Besucher-ID-Service identifiziert. |
 | `mid` | Keine | Wird in der Dimension [[!UICONTROL Experience Cloud-Besucher-ID]](/help/components/dimensions/experience-cloud-visitor-id.md) verwendet. |
 | `ms_a` | Keine | Wird von Media SDK auf `1` festgelegt, wenn es sich bei den verfolgten Streaming-Medien um Audio- und nicht um Videomedien handelt. |
 | `ndh` | Keine | Wird von AppMeasurement zu jeder von ihm generierten Bildanforderung hinzugefügt. Da bei hartcodierten Anforderungen in der Regel keine Daten vorhanden sind, deutet das Vorhandensein darauf hin, dass der Treffer von AppMeasurement stammt. |
@@ -94,7 +80,7 @@ In der folgenden Tabelle sind alle Abfragezeichenfolgenparameter aufgeführt, di
 | `pl` | [`products`](../vars/page-vars/products.md) | Kurzschreibweise für den `products`. |
 | `products` | [`products`](../vars/page-vars/products.md) | Variable „products“ (Produktvariable). Wird in den Dimensionen [[!UICONTROL Produkt]](/help/components/dimensions/product.md) und [[!UICONTROL Kategorie]](/help/components/dimensions/category.md) verwendet. |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | Wird in der Dimension [[!UICONTROL Kauf-ID]](/help/components/dimensions/purchase-id.md) verwendet. |
-| `r` | [`referrer`](../vars/page-vars/referrer.md) | Referrer-URL des Treffers. Wird in Traffic-Quellendimensionen wie &quot;[[!UICONTROL &quot; &#x200B;]](/help/components/dimensions/referrer.md) &quot;[[!UICONTROL &quot; &#x200B;]](/help/components/dimensions/referring-domain.md). |
+| `r` | [`referrer`](../vars/page-vars/referrer.md) | Referrer-URL des Treffers. Wird in Traffic-Quellendimensionen wie &quot;[[!UICONTROL &quot; ]](/help/components/dimensions/referrer.md) &quot;[[!UICONTROL &quot; ]](/help/components/dimensions/referring-domain.md). |
 | `s` | Keine | Bildschirmauflösung in `width x height`. Wird in der Dimension [[!UICONTROL Bildschirmauflösungen]](/help/components/dimensions/monitor-resolution.md) verwendet. |
 | `sdid` | Keine | Zusätzliche Daten-ID. Verknüpft mehrere Treffer, die dasselbe Ereignis beschreiben, z. B. Analytics- und Target-Treffer in einer [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t.html)-Integration. |
 | `server` | [`server`](../vars/page-vars/server.md) | Verwendet in der Dimension [[!UICONTROL Server]](/help/components/dimensions/server.md). |
