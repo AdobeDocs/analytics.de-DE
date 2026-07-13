@@ -4,30 +4,15 @@ description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +27,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Juli
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
 | **Analyse von Untertreffern** Mit <br/> Analyse von Untertreffern können Sie Produktdaten auf einer Ebene analysieren, die detaillierter ist als die Trefferebene. Anstatt nach ganzen Treffern zu filtern, können Sie innerhalb von Treffern nach einzelnen Produkten segmentieren. <p>Sie können beispielsweise eine Segmentierung für eine bestimmte Produktkategorie durchführen, ohne alle anderen in derselben Bestellung gekauften Produkte einzubeziehen.</p><p>Weitere Informationen finden Sie [Analyse von Untertreffern](/help/components/segmentation/sub-hit.md).</p> | &#x200B;8. Juli | Ende Juli 2026 |
-| **Activity Map-Erweiterung: Web SDK-Unterstützung und UI-Aktualisierung** <br/>Web SDK-Implementierungen von Adobe Analytics können jetzt die Activity Map-Überlagerungserweiterung verwenden, um auf ihren Websites überlagerte Klickdaten anzuzeigen.<p>Zuvor war die Activity Map-Überlagerungserweiterung nur für AppMeasurement-Implementierungen verfügbar.</p> <p>Zusätzlich zur Web SDK-Unterstützung bietet die Activity Map-Überlagerungserweiterung ein aktualisiertes Erscheinungsbild.</p><p>(Link zur Dokumentation folgt.)</p> | | Ende Juli 2026 |
+| **Activity Map-Erweiterung: UI** Aktualisierung<br/>Die Activity Map-Überlagerungserweiterung weist ein aktualisiertes Erscheinungsbild sowie zugrunde liegende Verbesserungen auf, die bevorstehende Verbesserungen unterstützen.<p>(Link zur Dokumentation folgt.)</p> | | Ende Juli 2026 |
 | **Handbuch zu den API-Suchfunktionen** AA 2.0<br/> Verwenden Sie Suchfunktionen, um [eine Untergruppe von Dimensionselementen in Berichten zurückzugeben](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Weitere Informationen finden Sie unter [Suchfunktionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) im Handbuch zum Reports-Endpunkt in Adobe Developer. | | &#x200B;1. Juli 2026 |
 | **Automatisieren von wiederkehrenden Berichten mit AA** APIs<br/> Richten Sie automatische, wiederkehrende Adobe Analytics-Berichte für Ihre Daten-Pipeline mit neuen Metriken in einem Zeitplan mit der Report API ein. <p>Weitere Informationen finden Sie im [Endpunkthandbuch Automatisieren wiederkehrender Analytics-Berichte](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) auf Adobe Developer.</p> | | &#x200B;1. Juli 2026 |
 | **Neue Erweiterungsparameter für AA** <br/>Verwenden Sie neue Dimension-API-Erweiterungsparameter, um eVar-Konfigurationsfelder für Zuordnungstypen, Gültigkeiten, Datentypen und Merchandising abzurufen. <p>Weitere Informationen finden Sie im [API-Verweis](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) und [Endpunkthandbuch zu Dimensionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) auf Adobe Developer.</p> | | &#x200B;1. Juli 2026 |
