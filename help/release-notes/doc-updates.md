@@ -54,7 +54,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Juni 2026** | |
 | Aktualisierung der Abfragezeichenfolgen-Referenz | Wesentliche Änderungen [Datenerfassungs-Abfrageparameter](/help/implement/validate/query-parameters.md). |
 | Segmente in Data Warehouse | Die [Segmentkompatibilität von Data Warehouse wurde &#x200B;](/help/export/data-warehouse/segment-compatibility.md). |
-| GA-Handbuch zu AA ersetzt | Der Leitfaden für GA zu AA verweist auf Universal Analytics, das 2023 eingestellt wurde. An ihre Stelle ist ein neues Handbuch getreten [Wechsel von Google Analytics 4 zu Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
+| GA-Handbuch zu AA ersetzt | Der Leitfaden für GA zu AA verweist auf Universal Analytics, das 2023 eingestellt wurde. An ihre Stelle ist ein neues Handbuch getreten [Wechsel von Google Analytics 4 zu Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mai 2026** | |
 | Dimensionen und Metriken für Streaming-Medien | Wesentliche Aktualisierungen der Dokumentation zu Streaming-Medien. Links zu Beispielen umfassen [Kerndimensionen von Streaming](/help/components/dimensions/sm-core.md)Mediendiensten und [Kernmetriken von Streaming-Mediendiensten](/help/components/metrics/sm-core.md). |
 | **März 2026** | |
