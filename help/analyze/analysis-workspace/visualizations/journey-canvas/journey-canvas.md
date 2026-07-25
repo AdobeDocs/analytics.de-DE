@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie die Journey-Arbeitsfläche in Analysis Worksp
 title: Journey-Arbeitsfläche – Überblick
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -49,6 +49,10 @@ Sie können [Analysen von Benutzer-Journeys erstellen](/help/analyze/analysis-wo
 [Knoten sind &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) „Eventueller Pfad“ verbunden, d. h. Besucher werden gezählt, solange sie letztendlich von einem Knoten zum anderen wechseln, unabhängig von Ereignissen, die zwischen den beiden Knoten auftreten. Die Zeit, die Benutzenden für das Fortbewegen auf dem Pfad zugeteilt wird, wird durch die Container-Einstellung bestimmt.
 
 ![Journey-Arbeitsfläche](assets/journey-canvas.png)
+
+## Zugriffsanforderungen
+
+Die Journey-Arbeitsfläche ist für Kunden von Adobe Analytics [Prime](https://www.adobe.com/de/data-analytics-cloud/analytics/prime.html) und [Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html) verfügbar.
 
 ## Wichtigste Funktionen
 
