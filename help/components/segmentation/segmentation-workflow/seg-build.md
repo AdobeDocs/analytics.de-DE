@@ -4,22 +4,14 @@ title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 86%
+source-wordcount: 1963
+ht-degree: 74%
 
 ---
 
@@ -28,7 +20,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Produktkompatibilität"
->abstract="Einige wenige verfügbare Segmentkriterien sind nicht mit allen Adobe Analytics-Tools kompatibel. Tools, die mit dem Segment kompatibel sind, sind in dieser Liste aufgeführt. Bearbeiten Sie die Kriterien, um ein Segment mit allen Adobe Analytics-Tools kompatibel zu machen."
+>abstract="Einige Segmentkriterien sind mit bestimmten Adobe Analytics-Tools nicht kompatibel. Kompatible Tools sind in dieser Liste aufgeführt. Kriterien bearbeiten, um Kompatibilität zu gewährleisten"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +30,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Datenvorschau"
->abstract="Vergleicht die Daten dieses Segments mit den Daten der Report Suite. Der Prozentsatz der Vorschau basiert auf der Gesamtzahl in der Verbindung aus den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung möglicherweise noch aufgestockt."
+>abstract="Vergleicht Segmentdaten mit Report Suite-Daten. Der Vorschauprozentsatz basiert auf den **letzten 90 Tage**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung aufgestockt."
 
 
 Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zum Bearbeiten vorhandener Segmente verwendet. Das Dialogfeld heißt **[!UICONTROL Neues Segment]** oder **[!UICONTROL Segment bearbeiten]** bei Segmenten, die Sie über den [[!UICONTROL Segment-Manager] erstellen oder verwalten](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -69,7 +61,7 @@ Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zu
    {style="table-layout:auto"}
 
 1. Um zu überprüfen, ob Ihre Segmentdefinition korrekt ist, verwenden Sie die ständig aktualisierte Vorschau der Ergebnisse des Segments oben rechts.
-1. Um Ihr Segment in CX Enterprise zu veröffentlichen, wählen **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere [&#x200B; finden Sie unter „Veröffentlichen von Segmenten &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) CX Enterprise“.
+1. Um Ihr Segment in CX Enterprise zu veröffentlichen, wählen **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**. Weitere Informationen finden Sie unter [Segmente in CX Enterprise veröffentlichen](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Wählen Sie Folgendes aus:
    * **[!UICONTROL Speichern]**: Speichert das Segment.
    * **[!UICONTROL Speichern unter]**: Speichert eine Kopie des Segments.
@@ -83,7 +75,7 @@ Mit dem Definition Builder erstellen Sie Ihre Segmentdefinition. Dabei verwenden
 
 Sie können den Typ und den Umfang Ihrer Definition konfigurieren:
 
-1. Um den Typ Ihrer Definition anzugeben, geben Sie an, ob Sie eine Ein- oder Ausschlussdefinition erstellen möchten. Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Optionen]** und aus dem Dropdown-Menü **[!UICONTROL Einbeziehen]** oder **[!UICONTROL Ausschließen]** aus.
+1. Um den Typ Ihrer Definition anzugeben, geben Sie an, ob Sie eine Ein- oder eine Ausschlussdefinition erstellen möchten. Wählen Sie ![Einstellung](/help/assets/icons/Setting.svg) **[!UICONTROL Optionen]** und aus dem Dropdown-Menü **[!UICONTROL Einbeziehen]** oder **[!UICONTROL Ausschließen]** aus.
 1. Um den Umfang Ihrer Definition anzugeben, wählen Sie aus dem Dropdown-Menü **[!UICONTROL Einschließen]** oder **[!UICONTROL Ausschließen]** aus, ob der Umfang der Definition **[!UICONTROL Treffer]**, **[!UICONTROL Besuche]**, **[!UICONTROL Besucher]** oder **[!UICONTROL Produkte]** sein soll. Sie verwenden **[!UICONTROL Produkte]** für [Analyse von Untertreffern](/help/components/segmentation/sub-hit.md) Anwendungsfälle.
 
 Sie können diese Einstellungen später jederzeit ändern.
@@ -98,7 +90,7 @@ So fügen Sie eine Komponente hinzu:
 
 1. Ziehen Sie eine Komponente aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Segmente und/oder Dimensionen mittels Drag-and-Drop hier]**.
    * Sie können ![Suchen](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
-   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]&#x200B;**, ![Dimensionen**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons/Checkmark.svg)Metriken ]&#x200B;**, ![](/help/assets/icons/Segmentation.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Calendar.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Layer.svg)**&#x200B;**Segmentierung**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons2/DataDimension.svg)**&#x200B;** ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) &#x200B;](/help/assets/icons/Label.svg) filtern.
+   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]**, ![Dimensionen**[!UICONTROL , ](/help/assets/icons/Checkmark.svg)Metriken ]**, ![](/help/assets/icons/Segmentation.svg)****![ ](/help/assets/icons/Calendar.svg)****![ ](/help/assets/icons/Layer.svg)****Segmentierung**[!UICONTROL , ](/help/assets/icons2/DataDimension.svg)**** ![ ](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) ](/help/assets/icons/Label.svg) filtern.
 1. Geben Sie Details für die Komponente an. Wählen Sie beispielsweise einen Wert über **[!UICONTROL Wert auswählen]** aus. Oder geben Sie einen Wert ein. Wie Sie einen oder mehrere Werte und welche Werte Sie angeben können, hängt von der Komponente und dem Operator ab.
 1. Ändern Sie optional den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
@@ -122,7 +114,7 @@ Sie können mehrere Komponenten in einem oder mehreren Containern gruppieren und
 * Um eine vorhandene Komponente zum Container hinzuzufügen, ziehen Sie die Komponente per Drag-and-Drop in den Container.
 * Um dem Container eine weitere Komponente hinzuzufügen, ziehen Sie eine Komponente per Drag-and-Drop aus dem Panel „Komponente“ in den Container. Verwenden Sie die blaue Linie zum Einfügen als Orientierung.
 * Um eine weitere Komponente außerhalb des Containers hinzuzufügen, ziehen Sie eine Komponente per Drag-and-Drop aus dem Panel „Komponente“ außerhalb des Containers, aber innerhalb des Containers für die Hauptdefinition. Verwenden Sie die blaue Linie zum Einfügen als Orientierung.
-* Um die Logik zwischen Komponenten in einem Container, zwischen Containern oder zwischen einem Container und einer Komponente zu ändern, wählen Sie die entsprechende Option **[!UICONTROL Und]**, **[!UICONTROL Oder]**, **[!UICONTROL Dann]**. Wenn Sie **[!UICONTROL Dann]** auswählen, wandeln Sie das Segment in ein sequenzielles Segment um. Weitere Informationen finden Sie unter [Erstellen eines sequenziellen Segments](seg-sequential-build.md).
+* Um die Logik für Komponenten, Container oder ihre Kombinationen zu ändern, wählen Sie die entsprechenden **[!UICONTROL Und]**, **[!UICONTROL Oder]**, **[!UICONTROL Dann]**. Wenn Sie **[!UICONTROL Dann]** auswählen, wandeln Sie das Segment in ein sequenzielles Segment um. Weitere Informationen finden Sie unter [Erstellen eines sequenziellen Segments](seg-sequential-build.md).
 * Um die Container-Ebene zu wechseln, wählen ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]**, ![User](/help/assets/icons/User.svg) **[!UICONTROL Visitors]** oder ![](/help/assets/icons/ShowAllLayer.svg) ShowAllLayer **[!UICONTROL Products]**.
 
 Sie können ![Einstellung](/help/assets/icons/Setting.svg) in einem Container für die folgenden Aktionen verwenden:
@@ -141,14 +133,14 @@ Wenn Sie sowohl Komponenten auf Produktebene als auch auf Trefferebene in eine e
 
 ## Datumsbereiche
 
-Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. So können Sie Fragen zu laufenden Kampagnen oder Ereignissen beantworten. Sie können beispielsweise ein Segment erstellen, das *alle Personen, die in den vergangenen 60 Tagen Online-Käufe getätigt haben*, einschließt.
+Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. So können Sie Fragen zu laufenden Kampagnen oder Ereignissen beantworten. Sie können beispielsweise ein Segment erstellen, das *alle Personen, die in den letzten 60 Tagen einen Online-Kauf getätigt haben* enthält.
 
 ![Segment mit rollierendem Datumsbereich](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -157,11 +149,11 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Da
 
 Sie können ein Segment mithilfe von Segmenten erstellen. Wenn Sie Segmente in einem Segment verwenden, können Sie Ihr Segment optimieren und die Komplexität reduzieren.
 
-Angenommen, Sie möchten nach der Kombination aus Interaktionskanal (5) und US-Bundesstaaten (50) segmentieren. Sie können entweder 250 Segmente erstellen, d. h. jeweils eine eindeutige Kombination aus Gerätetyp (Mobiltelefon oder Tablet) und US-Bundesstaat. Um die Tablet-Benutzenden aus Kalifornien abzurufen, würden Sie dann eines der 250 Segmente verwenden:
+Stellen Sie sich ein Szenario vor, in dem Sie eine Segmentierung anhand der Kombination aus Interaktionskanal (5) und US-Status (50) vornehmen möchten. Sie können entweder 250 Segmente erstellen, d. h. jeweils eine eindeutige Kombination aus Gerätetyp (Mobiltelefon oder Tablet) und US-Bundesstaat. Um die Tablet-Benutzer in Kalifornien zu erhalten, verwenden Sie eines der 250 Segmente:
 
 ![Einfaches Segment für Kalifornien und Tablet](assets/segment-ca-tablet-single.png)
 
-Oder Sie können 55 Segmente definieren, d. h. 50 Segmente für die US-Bundesstaaten und 5 für die möglichen Interaktionskanäle. Stapeln Sie dann die Segmente, um die gleichen Ergebnisse zu erhalten. Um die App-Benutzenden aus Kalifornien abzurufen, würden Sie zwei Segmente stapeln:
+Oder definieren Sie 55 Segmente: 50 Segmente für die US-Bundesstaaten und 5 für die möglichen Interaktionskanäle. Um dieselben Ergebnisse zu erhalten, stapeln Sie die Segmente. Um die Benutzer der Mobile App von Kalifornien abzurufen, stapeln Sie zwei Segmente:
 
 ![Gestapeltes Segment für Kalifornien und Tablet](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +180,7 @@ Oder Sie können 55 Segmente definieren, d. h. 50 Segmente für die US-Bundes
 
 
 
-Wenn Sie eine Dimension im Segment Builder verwenden, können Sie das Attributionsmodell für diese Dimension angeben. Das von Ihnen ausgewählte Attributionsmodell bestimmt, ob die Daten für die Bedingung qualifiziert sind, die Sie für die Dimensionskomponente angegeben haben.
+Wenn Sie eine Dimension in Segment Builder verwenden, haben Sie die Möglichkeit, das Attributionsmodell für diese Dimension anzugeben. Das von Ihnen ausgewählte Attributionsmodell bestimmt, ob die Daten für die Bedingung qualifiziert sind, die Sie für die Dimensionskomponente angegeben haben.
 
 Wählen Sie in der Dimensionskomponente das Symbol ![Setting](/help/assets/icons/Setting.svg) und dann eines der Attributionsmodelle aus dem Popup aus:
 
@@ -196,7 +188,7 @@ Wählen Sie in der Dimensionskomponente das Symbol ![Setting](/help/assets/icons
 |---|---|
 | **[!UICONTROL Sich wiederholendes Modell (Standard)]** | Schließen Sie die Instanz und persistierten Werte für die Dimension ein, um die Qualifizierung zu bestimmen. |
 | **[!UICONTROL Instanz]** | Schließen Sie nur Instanzwerte für die Dimension ein, um die Qualifizierung zu bestimmen. |
-| **[!UICONTROL Sich nicht wiederholende Instanz]** | Schließen Sie eindeutige (sich nicht wiederholende) Instanzwerte für die Dimension ein, um die Qualifizierung zu bestimmen. |
+| **[!UICONTROL Sich nicht wiederholende Instanz]** | Schließen Sie eindeutige (sich nicht wiederholende) Instanzwerte für die Dimension ein, um die Qualifizierung zu bestimmen. Eine nicht wiederholende Instanz ist das Modell, das im Fluss angewendet wird, wenn wiederholte Instanzen ausgeschlossen werden. |
 
 
 ![Attributionsmodell für Dimension beim Erstellen eines Segments](assets/segment-dimension-attribution.png)
@@ -213,16 +205,11 @@ Als Teil einer Segmentdefinition haben Sie die folgende Bedingung angegeben: Sei
 In der folgenden Tabelle wird für jedes Attributionsmodell angegeben, welche eingehenden Ereignisse für diese Bedingung qualifiziert ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) sind.
 
 
-| „Frauen“-Seite – Attribution – <br/>*Attributionsmodell* | Ereignis 1:<br/>Seitenname ist gleich<br/>Frauen | Ereignis 2:<br/>Seitenname ist gleich<br/>Männer | Ereignis 3:<br/>Seitenname ist gleich<br/>Frauen | Ereignis 4:<br/>Seitenname ist gleich<br/>Frauen<br/>(persistiert) | Ereignis 5:<br/>Seitenname ist gleich<br/>Checkout | Ereignis 6:<br/>Seitenname ist gleich<br/>Frauen | Ereignis 7:<br/>Seitenname ist gleich<br/>Startseite |
+| „Frauen“-Seite – Attribution – <br/>*Attributionsmodell* | Ereignis 1:<br/>Seitenname ist gleich<br/>Frauen | Ereignis 2:<br/>Seitenname ist gleich<br/>Männer | Ereignis 3:<br/>Seitenname ist gleich<br/>Frauen | Ereignis 4:<br/>Seitenname ist gleich<br/>Frauen<br/>(persistiert) | Ereignis 5:<br/>Seitenname ist gleich<br/>Checkout | Ereignis 6:<br/>Seitenname ist gleich<br/>Frauen | Ereignis 7:<br/>Seitenname ist gleich<br/>Frau (explizit festgelegt) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Wiederholung (Standard) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) |
-| Instanz | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) |
+| Wiederholung (Standard) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Instanz | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Sich nicht wiederholende Instanz | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![Entfernen](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Entfernen](/help/assets/icons/Remove.svg) |
-
-Ein Beispielbericht zu Ereignissen, die die drei Segmente verwenden, sieht wie folgt aus:
-
-![Ergebnisse für Segment-Attributionsmodell](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -276,7 +263,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -337,7 +324,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -380,7 +367,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Segmentvorlagen {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Segmentvorlagen werden für gängige Anwendungsfälle der Segmentierung bereitgestellt, z. B. **[!UICONTROL Erstbesuche]** oder **[!UICONTROL Besuche von Mobilgeräten]**. Sie stehen in Workspace-Projekten und im Segment Builder als Bausteine für neue Segmente zur Verfügung.
+Segmentvorlagen werden für gängige Anwendungsfälle der Segmentierung bereitgestellt, z. B. **[!UICONTROL Erstbesuche]** oder **[!UICONTROL Besuche von Mobilgeräten]**. Sie sind in Workspace-Projekten und Segment Builder als Bausteine für neue Segmente verfügbar.
 
 Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeichnet Vorlagen. Nachfolgend sind einige der verfügbaren Beispielvorlagen aufgeführt:
 
