@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # Alte Report Builder-Arbeitsmappen konvertieren
 
-Die alte Report Builder-Version wurde im Juni 2026 eingestellt. Sie sollten Ihre Arbeitsmappen von der alten Report Builder zur neuen Report Builder migrieren. Die neue Report Builder bietet eine praktische Möglichkeit, mit der veralteten Report Builder erstellte Arbeitsmappen schnell zu migrieren.
+Die alte Report Builder-Version wurde im Juni 2026 eingestellt. Migrieren von Arbeitsmappen aus der alten Report Builder in die neue Report Builder. Die neue Report Builder bietet eine praktische Möglichkeit, mit der veralteten Report Builder erstellte Arbeitsmappen schnell zu migrieren.
 
 >[!IMPORTANT]
 >
->Duplizieren Sie jede Arbeitsmappe und benennen Sie eine Version um, bevor Sie die alte Arbeitsmappe konvertieren. Dadurch wird sichergestellt, dass Sie immer eine Kopie der ursprünglichen alten Arbeitsmappe haben, falls Sie sie benötigen.
+>Duplizieren Sie jede Arbeitsmappe und benennen Sie eine Version um, bevor Sie die alte Arbeitsmappe konvertieren. Dadurch wird sichergestellt, dass Sie bei Bedarf immer eine Kopie der ursprünglichen alten Arbeitsmappe haben.
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +56,23 @@ Um eine ältere Arbeitsmappe zu öffnen, haben Sie folgende Möglichkeiten:
 
 * Öffnen Sie eine geplante ältere Arbeitsmappe auf der **[!UICONTROL Zeitplan]** im [Report Builder-Hub](report-builder-hub.md). Diese Aktion ist die bevorzugte Methode für geplante ältere Arbeitsmappen. Sie haben die Möglichkeit, den mit der alten Arbeitsmappe verknüpften Zeitplan zu verwenden, sobald Sie [die konvertierte alte Arbeitsmappe planen](#schedule-a-converted-legacy-workbook).
 
-   1. Öffnen Sie [!DNL Excel] und wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der [!DNL Excel] aus.
+  1. Öffnen Sie [!DNL Excel] und wählen Sie ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der [!DNL Excel] aus.
 
-   1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
+  1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
 
-   1. Wählen Sie **[!UICONTROL Zeitplan]** im [Report Builder-Hub](report-builder-hub.md).
-   1. Wählen Sie die Registerkarte **[!UICONTROL Legacy]** aus. Auf der Registerkarte werden die von Ihnen erstellten Legacy-Report Builder-basierten geplanten Arbeitsmappen aufgelistet.
+  1. Wählen Sie **[!UICONTROL Zeitplan]** im [Report Builder-Hub](report-builder-hub.md).
+  1. Wählen Sie die Registerkarte **[!UICONTROL Legacy]** aus. Auf der Registerkarte werden die von Ihnen erstellten Legacy-Report Builder-basierten geplanten Arbeitsmappen aufgelistet.
 
-      ![Alte Arbeitsmappen](assets/upgrade-legacy-schedule.png)
+     ![Alte Arbeitsmappen](assets/upgrade-legacy-schedule.png)
 
-   1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) die geplante Arbeitsmappe aus, die Sie konvertieren möchten, und klicken Sie auf ![Herunterladen](/help/assets/icons/Download.svg). Die Arbeitsmappe wird heruntergeladen und in einem neuen Fenster in [!DNL Excel] geöffnet. Sie können jetzt [die alte Report Builder-Arbeitsmappe konvertieren](#convert-a--workbook).
+  1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) die geplante Arbeitsmappe aus, die Sie konvertieren möchten, und klicken Sie auf ![Herunterladen](/help/assets/icons/Download.svg). Die Arbeitsmappe wird heruntergeladen und in einem neuen [!DNL Excel] geöffnet. Sie können jetzt [die alte Report Builder-Arbeitsmappe konvertieren](#convert-a--workbook).
 
 
-* Öffnen Sie eine ältere Arbeitsmappe direkt auf Ihrem lokalen Computer oder Netzwerk. Wenn Sie diese Methode verwenden, wird nicht angeboten, den Zeitplan zu verwenden, der möglicherweise mit der alten Arbeitsmappe verknüpft ist. <br/>Wenn die alte Arbeitsmappe in [!DNL Excel] geöffnet ist:
+* Öffnen Sie eine ältere Arbeitsmappe direkt auf Ihrem lokalen Computer oder Netzwerk. Wenn Sie diese Methode verwenden, erhalten Sie nicht den Zeitplan, der mit der veralteten Arbeitsmappe verknüpft ist. <br/>Wenn die alte Arbeitsmappe in [!DNL Excel] geöffnet ist:
 
-   1. Wählen Sie ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der [!DNL Excel] Multifunktionsleiste aus.
-   1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
-   1. Konvertieren [&#x200B; dann die alte Arbeitsmappe](#convert-a-workbook).
+  1. Wählen Sie ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** in der [!DNL Excel] Multifunktionsleiste aus.
+  1. Wählen Sie **[!UICONTROL Anmelden]** aus und melden Sie sich bei Report Builder an.
+  1. Konvertieren [&#x200B; dann die alte Arbeitsmappe](#convert-a-workbook).
 
 
 ## Alte Arbeitsmappe konvertieren
@@ -116,17 +116,17 @@ Sie haben die Möglichkeit, die Zeitplandetails aus der alten Arbeitsmappe zu ve
 1. So planen Sie eine konvertierte veraltete Arbeitsmappe mit einem veralteten Zeitplan:
 
    * Wählen Sie **[!UICONTROL Arbeitsmappe senden]** über den Report Builder-Hub aus oder
-   * Wählen Sie **[!UICONTROL Arbeitsmappe planen]** auf der Registerkarte **[!UICONTROL Arbeitsmappen]** aus, die auf der Registerkarte **[!UICONTROL Zeitpläne]** in Report Builder verfügbar ist.
+   * Wählen Sie **[!UICONTROL Arbeitsmappe planen]** auf der Registerkarte **[!UICONTROL Arbeitsmappen]** der Registerkarte **[!UICONTROL Zeitpläne]** von Report Builder aus.
 
 1. Sie erhalten die Möglichkeit, die Zeitplandetails aus der alten Arbeitsmappe als Standardzeitplaneinstellungen zu verwenden.
 
    ![Screenshot der [!DNL Excel] Optionen für ältere Report Builder-Zeitplaneinstellungen](assets/upgrade-legacy-schedule-convert.png)
 
    * Wählen Sie **[!UICONTROL Verwenden]** aus, um die Details des alten Zeitplans zu verwenden. Die Zeitplandetails werden vorab in der Benutzeroberfläche [Arbeitsmappe senden](schedule-reportbuilder.md#schedule-a-workbook) ausgefüllt.
-   * Wählen Sie **[!UICONTROL Nicht verwenden]** aus, um nicht die Details des alten Zeitplans zu verwenden.
+   * Wählen Sie **[!UICONTROL Nicht verwenden]** aus, um zu vermeiden, dass die Details des alten Zeitplans verwendet werden.
    * Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
-   Wählen Sie **[!UICONTROL Alte Metadaten aus der zukünftigen Verwendung entfernen]** aus, um die Details des alten Zeitplans für diese Arbeitsmappe in Zukunft nicht zu verwenden.
+   Wählen Sie **[!UICONTROL Alte Metadaten aus der zukünftigen Verwendung entfernen]**, um in Zukunft nicht die Details des alten Zeitplans für diese Arbeitsmappe zu verwenden.
 
 
 ## Migration von Legacy Report Builder
@@ -141,24 +141,25 @@ Einige Funktionen der alten Report Builder werden in Report Builder nicht unters
 
 * **Option Arbeitsmappe in [!DNL Power BI] veröffentlichen für terminierte Berichte**. Die Option zum Planen von Berichten für [!DNL Power BI] ist nicht mehr verfügbar.
 
-* **Besuchermetriken**. Die folgenden Metriken werden in *konvertierten veralteten Arbeitsmappe in* Unique Visitors“ konvertiert, auch wenn das Berichtsergebnis möglicherweise keine exakte Übereinstimmung aufweist: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` und `visitorsyearly`. Diese Konversion gilt auch für `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` und `mobilevisitorsyearly`.
+* **Besuchermetriken**. Die folgenden Metriken werden in *konvertierten veralteten Arbeitsmappe in* Unique Visitors“ konvertiert, obwohl das Berichtsergebnis keine exakte Übereinstimmung ist: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` und `visitorsyearly`. Diese Konversion gilt auch für `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` und `mobilevisitorsyearly`.
 
+* **Granularität**: Report Builder bietet keine spezielle Option für die Granularität wie Legacy-Report Builder. Um einen Granularitätsgrad in Ihrem Bericht anzuwenden, verwenden Sie Datumsdimensionen in Ihrer Anfrage.
 * **Automatische erneute**. Wenn Sie eine neue [!DNL Excel] öffnen, müssen Sie sich explizit erneut authentifizieren. Diese erneute Authentifizierung ist eine Sicherheitsfunktion [!DNL Office Add-ins] Funktionalität.
 
 * **Kopieren Sie ein Arbeitsblatt mit einer Gruppe von Datenblöcken**. So unterstützen Sie die Kopie eines Arbeitsblatts, das mehr als einen Datenblock enthält:
 
-   1. Wählen Sie die Registerkarte Arbeitsblatt in der [!DNL Excel] Arbeitsmappe aus, die Sie kopieren möchten.
-   1. Wählen Sie im Kontextmenü der Registerkarte die Option **[!UICONTROL Verschieben oder Kopieren…]**
-   1. Im Dialogfeld **[!UICONTROL Verschieben oder Kopieren]**:
-      1. Wählen Sie aus, wohin das kopierte Arbeitsblatt kopiert werden soll.
-      1. Stellen Sie sicher, **[!UICONTROL Sie „Kopie erstellen]** aktivieren.
-      1. Klicken Sie **[!UICONTROL OK]**.
-   1. Aus dem Quellarbeitsblatt:
-      1. Wählen Sie den Zellenbereich aus, der alle Datenblöcke umfasst.
-      1. Wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) **[!UICONTROL Datenblock kopieren]** aus dem [Report Builder-Hub](/help/analyze/report-builder/report-builder-hub.md).
-   1. Im Zielarbeitsblatt:
-      1. Wählen Sie die Zelle aus, in die der kopierte Zellbereich eingefügt werden soll.
-      1. Wählen Sie ![Einfügen](/help/assets/icons/Paste.svg) **[!UICONTROL Datenblock einfügen]** aus dem [Report Builder-Hub](/help/analyze/report-builder/report-builder-hub.md).
+  1. Wählen Sie die Registerkarte Arbeitsblatt in der [!DNL Excel] Arbeitsmappe aus, die Sie kopieren möchten.
+  1. Wählen Sie im Kontextmenü der Registerkarte die Option **[!UICONTROL Verschieben oder Kopieren…]**
+  1. Im Dialogfeld **[!UICONTROL Verschieben oder Kopieren]**:
+     1. Wählen Sie aus, wohin das kopierte Arbeitsblatt kopiert werden soll.
+     1. Stellen Sie sicher, **[!UICONTROL Sie „Kopie erstellen]** aktivieren.
+     1. Klicken Sie **[!UICONTROL OK]**.
+  1. Aus dem Quellarbeitsblatt:
+     1. Wählen Sie den Zellenbereich aus, der alle Datenblöcke umfasst.
+     1. Wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) **[!UICONTROL Datenblock kopieren]** aus dem [Report Builder-Hub](/help/analyze/report-builder/report-builder-hub.md).
+  1. Im Zielarbeitsblatt:
+     1. Wählen Sie die Zelle aus, in die der kopierte Zellbereich eingefügt werden soll.
+     1. Wählen Sie ![Einfügen](/help/assets/icons/Paste.svg) **[!UICONTROL Datenblock einfügen]** aus dem [Report Builder-Hub](/help/analyze/report-builder/report-builder-hub.md).
 
 * **Datumsbereich**. Report Builder migriert die Formatierungsoptionen für Datumsbereiche (Anfangs- und Endperiode anzeigen **[!UICONTROL ) nicht]** einer Zeilenbeschriftung für einen Datumsbereich in der veralteten Report Builder.
 

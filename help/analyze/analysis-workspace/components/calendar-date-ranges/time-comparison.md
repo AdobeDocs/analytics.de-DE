@@ -17,23 +17,23 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
-source-wordcount: 768
-ht-degree: 95%
+source-wordcount: 804
+ht-degree: 71%
 
 ---
 
 # Datumsvergleich
 
-Mit dem Datumsvergleich in Analysis Workspace können Sie mit einer Spalte, die einen Datumsbereich enthält, einen allgemeinen Datumsvergleich erstellen, z. B. Jahres-, Quartals-, Monatsvergleich usw.
+Mit dem Datumsvergleich in Analysis Workspace können Sie eine beliebige Spalte mit einem Datumsbereich verwenden und einen allgemeinen Datumsvergleich erstellen, z. B. Jahres-, Quartals- oder Monatsvergleich.
 
 ## Zeiträume vergleichen
 
-Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum geliefert wird. Zum Beispiel die Frage *Wie viel besser oder schlechter geht es Ihnen jetzt im Vergleich zu dieser Zeit im letzten Jahr?* ist grundlegend für das Verständnis Ihres Unternehmens. Der Datumsvergleich enthält automatisch eine Spalte *Differenz*, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
+Für Analysen ist ein Kontext erforderlich, den häufig ein vorheriger Zeitraum bietet. Zum Beispiel die Frage *Wie viel besser oder schlechter geht es Ihnen jetzt im Vergleich zu dieser Zeit im letzten Jahr?* ist wichtig, um Ihr Unternehmen zu verstehen. Der Datumsvergleich enthält automatisch eine Spalte *Differenz*, die die prozentuale Veränderung im Vergleich zu einem bestimmten Zeitraum angibt.
 
 1. Erstellen Sie eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) mit beliebigen Dimensionen und Metriken, die Sie mit einem bestimmten Zeitraum vergleichen möchten.
-1. Legen Sie den Zeitraum im Panel oder in der Spalte fest, um den Vergleichszeitrahmen zu bestimmen und um anzugeben, ob es sich um einen rollierenden oder einen festen Zeitvergleich handelt.
+1. Um den Vergleichszeitrahmen zu bestimmen und festzustellen, ob es sich um einen rollierenden oder festen Zeitvergleich handelt, stellen Sie den Zeitraum auf dem Bedienfeld oder in der Spalte ein.
 
    Zum Erstellen eines rollierenden Zeitvergleichs legen Sie für den Datumsbereich des Bedienfelds oder der Spalte einen rollierenden Datumsbereich fest (z. B. **[!UICONTROL Letzte 7 Tage]**, **[!UICONTROL Letzte 30 Tage]** usw.).
 
@@ -66,7 +66,7 @@ Für Analysen wird Kontext benötigt, der oft durch einen vorherigen Zeitraum ge
 
 ## Hinzufügen einer Zeitraumspalte zum Vergleich
 
-Sie können jetzt allen Spalten in einer Tabelle Zeiträume hinzufügen. So können Sie einen Zeitraum hinzufügen, der von dem abweicht, auf den Ihr Kalender eingestellt ist.
+Sie können jeder Spalte in einer Tabelle jetzt einen Zeitraum hinzufügen. Auf diese Weise können Sie einen Zeitraum hinzufügen, der sich von dem unterscheidet, auf den Ihr Kalender festgelegt ist.
 
 1. Klicken Sie mit der rechten Maustaste auf eine Spalte in der Tabelle und wählen Sie **[!UICONTROL Spalte für Zeitraum hinzufügen]** aus
 
@@ -96,20 +96,21 @@ Sie können jetzt allen Spalten in einer Tabelle Zeiträume hinzufügen. So kön
 
 Sie können die Daten in den einzelnen Spalten so ausrichten, dass sie alle in derselben Zeile beginnen.
 
-Sie führen beispielsweise einen Tagesvergleich für die letzte Woche (bis zum 5. Oktober 2024) und die vorherige Woche durch. Standardmäßig beginnt die linke Spalte am 22. September und die rechte Spalte am 29. September.
+Sie führen beispielsweise einen Tagesvergleich für die letzte Woche (bis zum 5. Oktober 2024) und die vorherige Woche durch. Standardmäßig beginnt die linke Spalte mit dem 22. September und die rechte Spalte mit dem 29. September.
 
 ![Nicht abgestimmte Daten](assets/not-align-dates.png)
 
-Sie können unter [Einstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) für die Freiformtabellen-Visualisierung die Option **[!UICONTROL Datum in allen Spalten ausrichten, sodass es in derselben Zeile beginnt]** aktivieren, um Spaltendaten so anzuordnen, dass sie in derselben Zeile beginnen.
+Sie können unter [Einstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) für die Freiformtabellen-Visualisierung die Option **[!UICONTROL Datum in allen Spalten ausrichten, sodass es in derselben Zeile beginnt]** aktivieren, um Spaltendaten so anzuordnen, dass sie in derselben Zeile beginnen. Die erste Spalte wird für diese Ausrichtung verwendet.
 
 ![](assets/align-dates.png)
 
 Beachten Sie beim Verwenden dieser Option Folgendes:
 
-* Diese Einstellung ist standardmäßig für alle neuen Projekte aktiviert.
+* Das System aktiviert diese Einstellung standardmäßig für alle neuen Projekte.
 
 * Diese Einstellung gilt für die gesamte Tabelle. Wenn Sie diese Einstellung beispielsweise für eine Aufschlüsselung innerhalb der Tabelle ändern, wird die Einstellung auf die gesamte Tabelle angewendet.
 
+* Wenn diese Einstellung aktiviert ist, erscheinen kleine Datumsbeschriftungen in der oberen rechten Ecke aller Spaltenzellen, um der Zelle das entsprechende Datum (und die entsprechende Uhrzeit, falls zutreffend) hinzuzufügen.
 
 <!--
 # Date comparison
