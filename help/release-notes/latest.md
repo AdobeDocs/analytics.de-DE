@@ -2,65 +2,50 @@
 title: Aktuelle Adobe Analytics-Versionshinweise
 description: Aktuelle Versionshinweise zu Adobe Analytics anzeigen
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2eae8a2c631717f67abba1c17a4f61975bb99a18
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 61%
+source-wordcount: 897
+ht-degree: 64%
 
 ---
 
-# Aktuelle Versionshinweise zu Adobe Analytics (Juli 2026)
+# Aktuelle Adobe Analytics-Versionshinweise (August 2026)
 
-**Letzte Aktualisierung**: 8. Juli 2026
+**Letzte Aktualisierung**: 4. August 2026
 
-Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Juli 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom August 2026. Die Versionen von Adobe Analytics basieren auf einem [Modell der kontinuierlichen Bereitstellung](releases.md), das einen besser skalierbaren Schritt-für-Schritt-Ansatz für die Implementierung von Funktionen ermöglicht. Dementsprechend werden diese Versionshinweise mehrmals im Monat aktualisiert. Bitte überprüfen Sie sie regelmäßig.
 
 ## Neue Funktionen oder Verbesserungen {#features}
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Analyse von Untertreffern** Mit <br/> Analyse von Untertreffern können Sie Produktdaten auf einer Ebene analysieren, die detaillierter ist als die Trefferebene. Anstatt nach ganzen Treffern zu filtern, können Sie innerhalb von Treffern nach einzelnen Produkten segmentieren. <p>Sie können beispielsweise eine Segmentierung für eine bestimmte Produktkategorie durchführen, ohne alle anderen in derselben Bestellung gekauften Produkte einzubeziehen.</p><p>Weitere Informationen finden Sie [Analyse von Untertreffern](/help/components/segmentation/sub-hit.md).</p> | &#x200B;8. Juli | Ende Juli 2026 |
-| **Activity Map-Erweiterung: UI** Aktualisierung<br/>Die Activity Map-Überlagerungserweiterung weist ein aktualisiertes Erscheinungsbild sowie zugrunde liegende Verbesserungen auf, die bevorstehende Verbesserungen unterstützen.<p>(Link zur Dokumentation folgt.)</p> | | Ende Juli 2026 |
-| **Handbuch zu den API-Suchfunktionen** AA 2.0<br/> Verwenden Sie Suchfunktionen, um [eine Untergruppe von Dimensionselementen in Berichten zurückzugeben](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Weitere Informationen finden Sie unter [Suchfunktionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) im Handbuch zum Reports-Endpunkt in Adobe Developer. | | &#x200B;1. Juli 2026 |
-| **Automatisieren von wiederkehrenden Berichten mit AA** APIs<br/> Richten Sie automatische, wiederkehrende Adobe Analytics-Berichte für Ihre Daten-Pipeline mit neuen Metriken in einem Zeitplan mit der Report API ein. <p>Weitere Informationen finden Sie im [Endpunkthandbuch Automatisieren wiederkehrender Analytics-Berichte](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) auf Adobe Developer.</p> | | &#x200B;1. Juli 2026 |
-| **Neue Erweiterungsparameter für AA** <br/>Verwenden Sie neue Dimension-API-Erweiterungsparameter, um eVar-Konfigurationsfelder für Zuordnungstypen, Gültigkeiten, Datentypen und Merchandising abzurufen. <p>Weitere Informationen finden Sie im [API-Verweis](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) und [Endpunkthandbuch zu Dimensionen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) auf Adobe Developer.</p> | | &#x200B;1. Juli 2026 |
+| **Verwenden Sie Analytics-Daten in LLM Optimizer**<br> Verbinden Sie LLM Optimizer mit den Customer Journey Analytics-Daten Ihres Unternehmens, damit Sie messen können, wie sich die KI-gesteuerte Erkennung in echte Website-Interaktion und Geschäftsergebnisse niederschlägt.<p>(Link zur Dokumentation folgt.)</p> | | &#x200B;14. August 2026 |
+| **Verbesserungen der Journey**<br> Arbeitsfläche: Die folgenden Verbesserungen der Journey-Arbeitsfläche sind jetzt verfügbar:<ul><li>Vergleichen Sie die Journey mit einem früheren Zeitrahmen. Vergleichen Sie die aktuelle Journey mit der Journey 4 Wochen vorher, 2 Quartale vorher, 1 Jahr vorher oder mit einem benutzerdefinierten Datumsbereich.</li><li>Zeigen Sie für einen ausgewählten Knoten die obersten Dimensionselemente an, die zu einem beliebigen Zeitpunkt im Journey nach dem ausgewählten Knoten stehen. Verwenden Sie dies, wenn der ausgewählte Knoten das Schlüsselereignis in Ihrer Analyse ist und Sie sehen möchten, was die Benutzer zu einem späteren Zeitpunkt tun.<p>Zuvor konnten nur die unmittelbar am häufigsten angezeigten Knoten vor oder nach dem ausgewählten Knoten angezeigt werden. </p></li><li>Ändern Sie die Form und den Stil der Pfeile zwischen den Knoten. Ziehen Sie die Pfeile zwischen Knoten, um die Form (Krümmung) des Pfeils zu ändern, und klicken Sie mit der rechten Maustaste auf einen Pfeil, um seinen Stil in eine der folgenden Optionen zu ändern: Volumenkörper, Gestrichelt, Punkte, Gestrichelt-Punkt oder Animiert.</li></ul><p></p>Weitere Informationen finden Sie unter [Konfigurieren einer Visualisierung „Journey-Arbeitsfläche“](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | &#x200B;18. August 2026 |
+| **Activity Map-Erweiterung: UI** Aktualisierung<br/>Die Activity Map-Überlagerungserweiterung weist ein aktualisiertes Erscheinungsbild sowie zugrunde liegende Verbesserungen auf, die bevorstehende Verbesserungen unterstützen.<p>(Link zur Dokumentation folgt.)</p> | | August 2026<p>(Ursprünglich für Ende Juli geplant)</p> |
+| **Migrationsplaner: Adobe Analytics zu Customer Journey Analytics**<br> Der Migrationsplaner bietet einen Migrationsassistenten, der einige der komplexesten und zeitaufwendigsten Aufgaben im Zusammenhang mit einem Upgrade von Adobe Analytics auf Customer Journey Analytics automatisiert, einschließlich der Erstellung von XDM-Schemata und der Migration von AppMeasurement oder der Analytics-Erweiterung (Tags) zu Experience Platform Web SDK. <p>(Link zur Dokumentation folgt.)</p> | | Ende August oder September 2026 |
 
 ### Fehlerbehebungen in Adobe Analytics
 
 **Activity Map**:
-**Analysis Workspace**: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
-**Klassifizierungen**: AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
-**Daten-Feeds und Data Warehouse**: AN-456945, AN-460700
+**Analysis Workspace**:
+**Klassifizierungen**:
+**Daten-Feeds und Data Warehouse**:
 **Migration**:
 **Exporte**:
-**Report Builder**: AN-457533, AN-453683
-**Reporting**: AN-447692, AN-451259, AN-455713
+**Report Builder**:
+**Reporting**:
 **Report Suites**:
-**Terminierte Berichte**: AN-450715
+**Geplante Berichte**:
 **Segmentierung**:
-**Sonstige**: AN-453982, AN-455771
+**Sonstige**:
 
 ### Mitteilungen über das Ende der Nutzungsdauer (EOL) {#eol}
 
