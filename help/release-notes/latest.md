@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 27661f5ca52e35b03d0d7eff8c39491b0a198aea
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3516dded61a29a1137a554a5f3ebf46f7c81903f
 workflow-type: tm+mt
-source-wordcount: 907
-ht-degree: 63%
+source-wordcount: 1016
+ht-degree: 56%
 
 ---
 
@@ -46,6 +31,9 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Augu
 | **Verwenden Sie Analytics-Daten in LLM Optimizer**<br> Verbinden Sie LLM Optimizer mit den Customer Journey Analytics-Daten Ihres Unternehmens, damit Sie messen können, wie sich die KI-gesteuerte Erkennung in echte Website-Interaktion und Geschäftsergebnisse niederschlägt.<p>(Link zur Dokumentation folgt.)</p> | | &#x200B;14. August 2026 |
 | **Verbesserungen der Journey**<br> Arbeitsfläche: Die folgenden Verbesserungen der Journey-Arbeitsfläche sind jetzt verfügbar:<ul><li>Vergleichen Sie die Journey mit einem früheren Zeitrahmen. Vergleichen Sie die aktuelle Journey mit der Journey 4 Wochen vorher, 2 Quartale vorher, 1 Jahr vorher oder mit einem benutzerdefinierten Datumsbereich.</li><li>Zeigen Sie für einen ausgewählten Knoten die obersten Dimensionselemente an, die zu einem beliebigen Zeitpunkt im Journey nach dem ausgewählten Knoten stehen. Verwenden Sie dies, wenn der ausgewählte Knoten das Schlüsselereignis in Ihrer Analyse ist und Sie sehen möchten, was die Benutzer zu einem späteren Zeitpunkt tun.<p>Zuvor konnten nur die unmittelbar am häufigsten angezeigten Knoten vor oder nach dem ausgewählten Knoten angezeigt werden. </p></li><li>Ändern Sie die Form und den Stil der Pfeile zwischen den Knoten. Ziehen Sie die Pfeile zwischen Knoten, um die Form (Krümmung) des Pfeils zu ändern, und klicken Sie mit der rechten Maustaste auf einen Pfeil, um seinen Stil in eine der folgenden Optionen zu ändern: Volumenkörper, Gestrichelt, Punkte, Gestrichelt-Punkt oder Animiert.</li></ul><p></p>Weitere Informationen finden Sie unter [Konfigurieren einer Visualisierung „Journey-Arbeitsfläche“](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | &#x200B;18. August 2026 |
 | **Migrationsplaner: Adobe Analytics zu Customer Journey Analytics**<br> Der Migrationsplaner bietet einen Migrationsassistenten, der einige der komplexesten und zeitaufwendigsten Aufgaben im Zusammenhang mit einem Upgrade von Adobe Analytics auf Customer Journey Analytics automatisiert, einschließlich der Erstellung von XDM-Schemata und der Migration von AppMeasurement oder der Analytics-Erweiterung (Tags) zu Experience Platform Web SDK. <p>(Link zur Dokumentation folgt.)</p> | | Ende August oder September 2026 |
+| **Referenz zu Analytics-API**<br/> Marketing-KanälenVerwenden Sie die Referenz zu Adobe Analytics 2.0-API-Marketing-Kanälen , um Informationen zu Analytics-Marketing-Kanälen abzurufen. Siehe die [Analytics-API Marketing-Kanal-Referenz](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | &#x200B;1. August 2026 |
+| **Handbuch zu Analytics-API-Marketing**<br/> Kanälen-EndpunktDas Handbuch zum Adobe Analytics 2.0-API-Marketing-Kanal-Endpunkt enthält Anweisungen und Beispiele für die Verwendung des Endpunkts. Siehe das [Handbuch für Marketing-Kanäle der Analytics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | &#x200B;1. August 2026 |
+| **Häufig gestellte Fragen zum Ende der Nutzungsdauer der Analytics 1.4-API**<br/> Kunden-FAQ zum Ende der Nutzungsdauer der Analytics 1.4-APIs enthalten Informationen zur neuesten 2.0-API-Entwicklung, die Kunden beim Verlassen von 1.4-APIs helfen soll. | | &#x200B;10. August 2026 |
 
 ### Fehlerbehebungen in Adobe Analytics
 
