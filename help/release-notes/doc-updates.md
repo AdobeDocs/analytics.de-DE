@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
-source-wordcount: 7390
+source-wordcount: 7421
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **August 2026** | |
+| Neue Konversations-KI-Tools wurden zur Dimension Referrer-Typ hinzugefügt | Die Dimension „Referrer-Typ“ enthält jetzt die folgenden zusätzlichen [Konversations-KI-Tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools) in der von Adobe verwendeten Lookup-Tabelle:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Juni 2026** | |
 | Aktualisierung der Abfragezeichenfolgen-Referenz | Wesentliche Änderungen [Datenerfassungs-Abfrageparameter](/help/implement/validate/query-parameters.md). |
 | Segmente in Data Warehouse | Die [Segmentkompatibilität von Data Warehouse wurde &#x200B;](/help/export/data-warehouse/segment-compatibility.md). |
