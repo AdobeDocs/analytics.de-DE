@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie eine Journey-Arbeitsflächenvisualisierung ko
 title: Konfigurieren einer Journey-Arbeitsflächenvisualisierung
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5783'
-ht-degree: 90%
+source-wordcount: '5926'
+ht-degree: 88%
 
 ---
 
@@ -69,6 +69,33 @@ Weitere Informationen zur Journey-Arbeitsfläche finden Sie unter [Journey-Arbei
 >id="aa_journeycanvas_percentage_value"
 >title="Berechnung der Prozentsätze wählen"
 >abstract="Die Prozentwerte, die für die einzelnen Knoten angezeigt werden, basieren auf der primären und der sekundären Metrik, die Sie konfigurieren. Sie können festlegen, ob sich die Prozentwerte auf den Startknoten, den vorherigen Knoten oder auf alle Daten in der Report Suite beziehen sollen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="Pfeil-Einstellungen"
+>abstract="Auswählen, ob Beschriftungen auf der Arbeitsfläche ein- oder ausgeblendet werden sollen. Beschriftungen sind benutzerdefinierte Namen, die in der Journey-Arbeitsfläche erstellt werden."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="Fallout anzeigen"
+>abstract="Fallout-Daten zeigen den Prozentsatz und die Anzahl der Personen oder Sitzungen auf jedem Knoten der Journey an, die nie den nächsten Knoten der Journey erreicht haben. Möglicherweise haben sie andere Aktionen auf der Site durchgeführt, aber sie erfüllten nie die Kriterien, die durch den nächsten Knoten in der Journey definiert wurden.<br/>Fallout-Daten zeigen entweder Personen oder Sitzungen an (unabhängig von der ausgewählten primären Metrik) und basieren auf der Einstellung Journey Canvas Container ."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="Vergleichen mit"
+>abstract="Der Datumsbereich, der zum Vergleich aktueller Journey-Daten mit einem früheren Zeitraum verwendet wird. Wenn Sie einen Vergleichsdatumsbereich auswählen, zeigt jeder Knoten in der Journey die prozentuale Änderung zwischen dem aktuellen Datumsbereich und dem ausgewählten Vergleichsdatumsbereich basierend auf der primären Metrik an. "
 
 <!-- markdownlint-enable MD034 -->
 
