@@ -54,7 +54,7 @@ Weitere Informationen [&#x200B; Sie in der Web](https://experienceleague.adobe.c
 
 ## Edge-Domain - Manuelle Implementierung der Web-SDK
 
-Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
+Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
 
 ```json
 alloy("configure", {
@@ -89,7 +89,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden, hängt von mehreren Faktoren ab:
 
-* Ihre Teilnahme am [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
+* Ihre Teilnahme am [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert)
 * Wenn Sie den Besucher-ID-Dienst [Adobe implementiert &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/home) ordnungsgemäß eingerichtet haben
 
 **Wenn Ihr Unternehmen am Adobe-Managed Certificate Program teilnimmt** setzen Sie den Wert auf die Erstanbieter-Domain, die beim Einrichten des Zertifikats ausgewählt wurde. Normalerweise ist dieser Wert eine Subdomain, die Ihrem Unternehmen gehört. Beispiel: `data.example.com`. CNAME-Datensätze in Ihrem Unternehmen leiten diese Daten an Adobe weiter.
@@ -114,8 +114,8 @@ Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument
 
 Adobe empfiehlt dringend, in allen Implementierungen ECID als primäre Form der Besucheridentität zu verwenden. Die Erfassung von ECIDs kann je nach Implementierungstyp auf verschiedene Arten implementiert werden:
 
-* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
-* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
+* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
+* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
 * Implementierungen, die eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwenden, schließen automatisch den Experience Platform Identity Service ein. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
 
 **Wenn Ihre Implementierung keine ECIDs verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
