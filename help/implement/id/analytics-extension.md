@@ -62,9 +62,9 @@ Wenn Sie [!UICONTROL SSL-Tracking-Server] richtig eingestellt haben, sind keine 
 Die Verwendung der **[!UICONTROL Besucher-ID]**-Variablen ermöglicht Ihrem Unternehmen die vollständige unabhängige Kontrolle bei der Identifizierung von Besuchern. Wenn Sie [!UICONTROL Besucher-ID] mithilfe eines Datenelements festlegen, beachten Sie die folgenden Einschränkungen:
 
 * Jeder Treffer muss denselben Wert [!UICONTROL Besucher-ID] enthalten, damit er als einzelner Besucher gezählt wird.
-   * Bei Treffern, bei denen das [!UICONTROL Besucher-ID]-Datenelement ausgelassen wird, wird automatisch versucht, eine andere Besucheridentifizierungsmethode zu verwenden, wobei sie als separater Besucher behandelt werden.
-   * Treffer, die einen anderen [!UICONTROL Besucher-ID]-Wert als ein vorheriger Treffer enthalten, werden als separater Besucher behandelt.
-   * Adobe bietet keine Möglichkeit, Treffer mithilfe verschiedener Besucher-IDs in Adobe Analytics zusammenzufügen.
+  * Bei Treffern, bei denen das [!UICONTROL Besucher-ID]-Datenelement ausgelassen wird, wird automatisch versucht, eine andere Besucheridentifizierungsmethode zu verwenden, wobei sie als separater Besucher behandelt werden.
+  * Treffer, die einen anderen [!UICONTROL Besucher-ID]-Wert als ein vorheriger Treffer enthalten, werden als separater Besucher behandelt.
+  * Adobe bietet keine Möglichkeit, Treffer mithilfe verschiedener Besucher-IDs in Adobe Analytics zusammenzufügen.
 * Freigegebene Zielgruppen, Analytics for Target und Kundenattribute werden nicht für Besucher unterstützt, die mit der [!UICONTROL Besucher-ID] identifiziert wurden.
 
 Siehe [`visitorID`](/help/implement/vars/config-vars/visitorid.md) für Implementierungsanweisungen unter Verwendung dieser Variablen.

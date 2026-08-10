@@ -76,9 +76,9 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
 | Hinweis | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
 | --- | --- | --- | --- |
-| Sec-CH-UA | Browser und Hauptversion | Gering | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Gering | `true` |
-| Sec-CH-UA-Platform | Betriebssystem/Plattform | Gering | `"Android"` |
+| Sec-CH-UA | Browser und Hauptversion | Niedrig | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
+| Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
 | Architektur | Architektur der Site | Hoch | `"arm"` |
 | Bitness | Bitness der Architektur | Hoch | `"64"` |
 | fullVersionList | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
