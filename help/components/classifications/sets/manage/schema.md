@@ -4,33 +4,27 @@ description: Erfahren Sie, wie Sie das Schema für einen Klassifizierungssatz in
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bceid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # Klassifizierungssatz-Schema
 
-Das Schema ist die Liste von Klassifizierungen, die Sie auf die Schlüsseldimensionen anwenden möchten, die Sie für den Klassifizierungssatz definiert haben. Wenn Sie beispielsweise Produkt als Schlüsseldimension definiert haben und dieses Feld eine Produkt-SKU enthält, verwenden Sie das Schema, um Klassifizierungen wie Produktname, Farbe und Größe hinzuzufügen.
+Das Schema ist die Liste von Klassifizierungen, die Sie auf die Schlüsseldimensionen anwenden möchten, die Sie für den Klassifizierungssatz definiert haben. Wenn beispielsweise Produkt die Schlüsseldimension ist, verwenden Sie das Schema , um Klassifizierungen wie Produktname, Farbe und Größe hinzuzufügen.
 
 So bearbeiten Sie das Schema für einen Klassifizierungssatz:
 
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
-1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**&#x200B;die Registerkarte **[!UICONTROL Schema]**&#x200B;aus. Diese Registerkarte besteht aus den folgenden Elementen der Benutzeroberfläche:
+1. Wählen **[!UICONTROL Manager „Klassifizierungssätze]** den Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**die Registerkarte **[!UICONTROL Schema]**aus. Diese Registerkarte besteht aus den folgenden Elementen der Benutzeroberfläche:
 
    ![Klassifizierungssätze - Schema](assets/classification-sets-schema.png)
 
@@ -74,7 +68,7 @@ Um eine neue Klassifizierung hinzuzufügen, wählen Sie ![Hinzufügen](/help/ass
 
 ![Klassifizierungssätze - Hinzufügen einer Klassifizierung zu einem Schema](assets/classification-sets-schema-add-classification.png)
 
-Geben **[!UICONTROL im Dialogfeld Neue Klassifizierung für _Klassifizierungssatzname_]**&#x200B;den **[!UICONTROL Klassifizierungsnamen]**&#x200B;ein und wählen Sie **[!UICONTROL Hinzufügen]**. Die Klassifizierung wird der Liste hinzugefügt.
+Geben **[!UICONTROL im Dialogfeld Neue Klassifizierung für _Klassifizierungssatzname_]**den **[!UICONTROL Klassifizierungsnamen]**ein und wählen Sie **[!UICONTROL Hinzufügen]**. Die Klassifizierung wird der Liste hinzugefügt.
 
 ### Hochladen
 
@@ -92,7 +86,7 @@ Um Klassifizierungsdaten in das Schema für eine Klassifizierung zu importieren,
 
    Wenn im Klassifizierungssatz für eine Spalte keine Klassifizierung definiert ist, wird ein Warnhinweis ![Warnhinweis](/help/assets/icons/Alert.svg) angezeigt. Der Warnhinweis erklärt, dass im vorhandenen Klassifizierungsschemasatz keine Klassifizierung vorhanden ist und beim Import erstellt wird.
 
-1. Wählen Sie **[!UICONTROL Daten bei Konflikt überschreiben?]** wenn Sie die aktuellen Klassifizierungsdaten mit den neuen importierten überschreiben möchten. Zum Beispiel:
+1. Wählen Sie **[!UICONTROL Daten bei Konflikt überschreiben?]** wenn Sie die aktuellen Klassifizierungsdaten mit den neuen importierten Daten überschreiben möchten. Zum Beispiel:
 
    | | Schlüssel | Aktuelle Produktfarbe | Datei importieren | Neue Produktfarbe |
    |---|---|---|---|---|
@@ -112,7 +106,7 @@ Um Klassifizierungsdaten herunterzuladen, wählen Sie ![Herunterladen](/help/ass
 
 ![Klassifizierungssätze - Herunterladen von Klassifizierungsdaten durch Schemas](assets/classification-sets-schema-download-file.png)
 
-Im Dialogfeld **[!UICONTROL Daten für Klassifizierungssatz _Name des Klassifizierungssatzes_]**&#x200B;herunterladen:
+Im Dialogfeld **[!UICONTROL Daten für Klassifizierungssatz _Name des Klassifizierungssatzes_]**herunterladen:
 
 1. Geben Sie die Anzahl **[!UICONTROL Zeilen]** ein, die Sie herunterladen möchten. Beispiel: `10000`.
 1. Um den Zeitraum auszuwählen, für den Sie Classification-Datenzeilen herunterladen möchten, geben Sie ein Start- und Enddatum für &quot;**[!UICONTROL Zeilen herunterladen zwischen“]**. Oder verwenden Sie ![Kalender](/help/assets/icons/Calendar.svg), um ein Kalender-Popup zur Auswahl des Zeitraums zu verwenden.
@@ -133,7 +127,7 @@ Im Dialogfeld **[!UICONTROL Daten für Klassifizierungssatz _Name des Klassifizi
    * **[!UICONTROL Latin-1]**.
 
 
-1. Wählen Sie **[!UICONTROL Herunterladen]** aus, um die Klassifizierungsdaten herunterzuladen. Sie finden die heruntergeladene Datei im Standard-Download-Verzeichnis Ihres Browsers und die Datei trägt den Titel <code><i>Klassifizierungssatz</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Wenn die Datei bereits vorhanden ist, eine Sequenznummer <code>(<i>x</i>)</code> wird dem Dateinamen hinzugefügt.<br/>Wenn Sie Optionen angegeben haben, die keine Daten zurückgeben, wird ein Dialogfeld **[!UICONTROL Hinweis]** angezeigt, in dem Sie darüber informiert werden, die Optionen für den Datumsbereich und die zurückgegebenen Daten zu ändern.
+1. Wählen Sie **[!UICONTROL Herunterladen]** aus, um die Klassifizierungsdaten herunterzuladen. Sie finden die heruntergeladene Datei im Standard-Download-Verzeichnis Ihres Browsers und die Datei trägt den Titel <code><i>Klassifizierungssatz</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Wenn die Datei vorhanden ist, eine Sequenznummer <code>(<i>x</i>)</code> wird dem Dateinamen hinzugefügt.<br/>Wenn keine Daten zurückgegeben werden, werden Sie in einem **[!UICONTROL Hinweis]**-Dialogfeld aufgefordert, den Datumsbereich oder die Datenoptionen anzupassen.
 
 
 ### Vorlage
@@ -164,19 +158,19 @@ Im Dialogfeld **[!UICONTROL Vorlage für Klassifizierungssatz _herunterladen_]**
 >id="classificationsets_schema_automate_locationaccount"
 >title="Standortkonto"
 >abstract="Liste der Speicherort-Konten von Kontotypen, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neues Konto]** aus, um ein neues Speicherort-Konto zu erstellen."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=de" text="Konfigurieren von Cloud-Import- und Exportkonten"
+>additional-url="https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts" text="Konfigurieren von Cloud-Import- und Exportkonten"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Standort"
 >abstract="Liste der Speicherorte im ausgewählten Speicherort-Konto, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neuer Speicherort]** aus, um einen neuen Speicherort zu erstellen."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=de" text="Konfigurieren von Cloud-Import und -Exportspeicherorten"
+>additional-url="https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-locations" text="Konfigurieren von Cloud-Import und -Exportspeicherorten"
 
-Sie können die Aufnahme von Klassifizierungsdaten durch die Konfiguration und Verwendung von Cloud-Konto- und Cloud-Standorten automatisieren.
+Sie können die Aufnahme von Klassifizierungsdaten automatisieren, indem Sie Cloud-Konten und Cloud-Standorte konfigurieren und verwenden.
 
 >[!IMPORTANT]
->Die Automatisierung der Klassifizierungsaufnahme über Cloud-Konten erfordert, dass Sie (oder Ihr Netzwerkadministrator) IP-Adressbereiche angeben, damit Daten in Ihr Netzwerk aufgenommen werden können. Konfigurieren Sie einen oder mehrere IP-Adressbereiche je nach dem Standort der von Ihnen verwendeten Analytics-Rechenzentren.
+>Die automatische Klassifizierungsaufnahme von Cloud-Konten erfordert, dass Sie (oder Ihr Netzwerkadministrator) IP-Adressbereiche angeben, um die Aufnahme von Daten in Ihr Netzwerk zu ermöglichen. Konfigurieren Sie einen oder mehrere IP-Adressbereiche je nach dem Standort der von Ihnen verwendeten Analytics-Rechenzentren.
 >
 >| Speicherort des Analytics-Rechenzentrums | Hinzufügen dieses IP-Adressbereichs zu einer Netzwerkverbindung |
 >|---|---:|
@@ -192,7 +186,7 @@ Um die Aufnahme der Klassifizierung zu automatisieren, wählen Sie ![Zahnrad](/h
 
 Im Dialogfeld **[!UICONTROL Aufnahme-Speicherort zuordnen/aktualisieren _Klassifizierungssatzname_]**:
 
-1. Um einen Cloud-Speicherort auszuwählen, wählen Sie eine Option aus **[!UICONTROL Speicherort-Konto]**. Es [&#x200B; nur (Speicherort-Konten unterstützter Kontotypen angezeigt, die den Import von Klassifizierungsdaten &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts). Um ein neues Konto zu erstellen, wählen Sie **[!UICONTROL Neues Konto]** aus.
+1. Um einen Cloud-Speicherort auszuwählen, wählen Sie eine Option aus **[!UICONTROL Speicherort-Konto]**. Es [ nur (Speicherort-Konten unterstützter Kontotypen angezeigt, die den Import von Klassifizierungsdaten ](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts). Um ein neues Konto zu erstellen, wählen Sie **[!UICONTROL Neues Konto]** aus.
 1. Um einen Speicherort auszuwählen, wählen Sie eine Option aus **[!UICONTROL Speicherort]**. Es werden nur die Standorte der ausgewählten Kontotypen für den Import von Klassifizierungsdaten angezeigt. Um einen neuen Speicherort zu erstellen, wählen Sie **[!UICONTROL Neuer Speicherort]**.
 
    >[!IMPORTANT]
@@ -213,9 +207,9 @@ Im Dialogfeld **[!UICONTROL Aufnahme-Speicherort zuordnen/aktualisieren _Klassif
    * **[!UICONTROL Latin-1]**.
 
 1. Um Benutzer über den Abschluss von Aufnahmevorgängen zu benachrichtigen, geben Sie E-Mail-Adressen ein, durch Kommata getrennt, **[!UICONTROL E-Mail(s), die benachrichtigt werden sollen, wenn Aufnahmevorgänge abgeschlossen sind (durch Kommata getrennt)]**.
-1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiert. Wenn die Validierung erfolgreich war, wird eine Popup-Meldung mit der Meldung ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)Location validation successful **[!UICONTROL angezeigt. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie&#x200B;**[!UICONTROL &#x200B; Speichern &#x200B;]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls&#x200B;**[!UICONTROL &#x200B; Aktualisieren &#x200B;]**&#x200B;aus. Oder wählen Sie&#x200B;**[!UICONTROL &#x200B; Abbrechen &#x200B;]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
+1. Wählen Sie **[!UICONTROL Validieren]** aus. Die Verbindung zum Cloud-Speicherort wird validiert. Wenn die Validierung erfolgreich war, wird eine Popup-Meldung mit der Meldung ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)Location validation successful **[!UICONTROL angezeigt. Verbindung mit Cloud-Speicher verifiziert.]**<br/>Wählen Sie**[!UICONTROL  Speichern ]**, wenn Sie die Verbindung zur Cloud-Verbindung erstellt haben. Wählen Sie andernfalls**[!UICONTROL  Aktualisieren ]**aus. Oder wählen Sie**[!UICONTROL  Abbrechen ]**, um die Konfiguration des Cloud-Speicherorts abzubrechen.
 
-Wenn Sie Dateien in den Cloud-Speicherort hochladen, wird die Datei innerhalb von 15 Minuten erkannt und als Importvorgang übermittelt. Das Ergebnis dieses Importvorgangs wird im [Classifications Job Manager“ &#x200B;](/help/components/classifications/sets/job-manager.md). Wenn Sie der Liste der Benutzer hinzugefügt werden, um über den Abschluss von Aufnahmevorgängen zu informieren, erhalten Sie auch E-Mail-Nachrichten.
+Wenn Sie Dateien in den Cloud-Speicherort hochladen, wird die Datei innerhalb von 15 Minuten erkannt und als Importvorgang übermittelt. Das Ergebnis dieses Importvorgangs wird im [Classifications Job Manager“ ](/help/components/classifications/sets/job-manager.md). Wenn Sie der Liste der Benutzer hinzugefügt werden, um über den Abschluss von Aufnahmevorgängen zu informieren, erhalten Sie auch E-Mail-Nachrichten.
 
 Zum Beispiel:
 
@@ -250,6 +244,33 @@ In der Aktionsleiste werden die für die ausgewählte Klassifizierung verfügbar
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Durchsuchen](/help/assets/icons/Browse.svg) | **[!UICONTROL Suche hinzufügen]** | Fügen Sie einen Klassifizierungssatz als Suche (Unterklassifizierung) hinzu<br/>In der Tabelle **[!UICONTROL Suche anhängen]**: <ol><li>Wählen Sie im Dropdown-Menü **[!UICONTROL Klassifizierungsname]** eine Suchklassifizierung aus.</li><li>Wählen Sie **[!UICONTROL Hinzufügen]** aus.</li></ol>Die Lookup-Klassifizierung wird zur Klassifizierung hinzugefügt und in der Spalte **[!UICONTROL Klassifiziert nach]** mit der internen ID aufgeführt. |
-| ![Löschsymbol](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Suche entfernen]** | Entfernen Sie einen Klassifizierungssatz als Suche. Um die Suche dauerhaft aus der Klassifizierung zu löschen, klicken Sie im Bestätigungsdialogfeld **[!UICONTROL _Klassifizierungssatz entfernen_ aus _Klassifizierung_]**&#x200B;auf **[!UICONTROL Löschen]**. |
-| ![Umbenennen](/help/assets/icons/Rename.svg) | **[!UICONTROL Umbenennen]** | Benennen Sie **[!UICONTROL Klassifizierungsname]** einer Klassifizierung um. Geben **[!UICONTROL im Dialogfeld &quot;_: (Klassifizierungsname_]**&#x200B;einen neuen Namen ein und wählen Sie **[!UICONTROL Umbenennen]**. |
-| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löschen einer Klassifizierung. Das **[!UICONTROL Löschen _Klassifizierungsname_]**&#x200B;wird angezeigt. Wählen Sie **[!UICONTROL Löschen]**&#x200B;aus, um die Klassifizierung zu löschen. |
+| ![Löschsymbol](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Suche entfernen]** | Entfernen Sie einen Klassifizierungssatz als Suche. Um die Suche dauerhaft aus der Klassifizierung zu löschen, klicken Sie im Bestätigungsdialogfeld **[!UICONTROL _Klassifizierungssatz entfernen_ aus _Klassifizierung_]**auf **[!UICONTROL Löschen]**. |
+| ![Umbenennen](/help/assets/icons/Rename.svg) | **[!UICONTROL Umbenennen]** | Benennen Sie **[!UICONTROL Klassifizierungsname]** einer Klassifizierung um. Geben **[!UICONTROL im Dialogfeld &quot;_: (Klassifizierungsname_]**einen neuen Namen ein und wählen Sie **[!UICONTROL Umbenennen]**. |
+| ![Löschen](/help/assets/icons/Delete.svg) | **[!UICONTROL Löschen]** | Löschen einer Klassifizierung. Das **[!UICONTROL Löschen _Klassifizierungsname_]**wird angezeigt. Wählen Sie **[!UICONTROL Löschen]**aus, um die Klassifizierung zu löschen. |
+
+
+## Nicht klassifizierte Daten
+
+Wenn nicht klassifizierte Daten nach einem Import auftreten, der in Ihren Berichten als `none` angezeigt wird, können Sie den `None` Classification-Schlüssel umbenennen.
+
+1. [Herunterladen](#download) Die Klassifizierungen in eine lokale Datei.
+1. Fügen Sie der lokalen Datei eine Zeile hinzu und geben Sie in der Spalte Schlüssel `~none~` ein. Geben Sie die beschreibenden Klassifizierungsnamen in die entsprechenden Spalten ein.
+
+   Beispiel:
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV:
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [Hochladen](#upload) Die Daten zurück in Adobe Analytics.
