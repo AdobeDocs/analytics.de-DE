@@ -4,15 +4,12 @@ description: Erfahren Sie mehr über die Sicherheitsanforderungen für FTP- und 
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: 1985
 ht-degree: 100%
 
 ---
@@ -158,7 +155,7 @@ So fügen Sie den öffentlichen SSH-Schlüssel von Adobe zur Datei [!DNL `author
 1. Laden Sie die Datei [!DNL `authorized_keys`] auf den FTP-Server hoch:
 
    1. Stellen Sie eine Verbindung zum FTP-Server her und melden Sie sich mit Ihrem Benutzernamen und Kennwort an.
-Dabei kann es sich um einen von Adobe gehosteten FTP-Server oder einen eigenen FTP-Server handeln.
+      Dabei kann es sich um einen von Adobe gehosteten FTP-Server oder einen eigenen FTP-Server handeln.
    1. Das Verzeichnis [!DNL .ssh] erstellen (sofern es noch nicht vorhanden ist).
    1. Die Datei [!DNL `authorized_keys`] in das Verzeichnis [!DNL .ssh] hochladen.
 

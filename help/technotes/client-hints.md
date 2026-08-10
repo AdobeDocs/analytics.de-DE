@@ -5,20 +5,10 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1283
@@ -76,9 +66,9 @@ In der folgenden Tabelle werden die Client-Hinweise ab Oktober 2022 beschrieben.
 
 | Hinweis | Beschreibung | Hohe oder niedrige Entropie | Beispiel |
 | --- | --- | --- | --- |
-| Sec-CH-UA | Browser und Hauptversion | Gering | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Gering | `true` |
-| Sec-CH-UA-Platform | Betriebssystem/Plattform | Gering | `"Android"` |
+| Sec-CH-UA | Browser und Hauptversion | Niedrig | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Mobilgerät (true oder false) | Niedrig | `true` |
+| Sec-CH-UA-Platform | Betriebssystem/Plattform | Niedrig | `"Android"` |
 | Architektur | Architektur der Site | Hoch | `"arm"` |
 | Bitness | Bitness der Architektur | Hoch | `"64"` |
 | fullVersionList | Liste der Marken mit ihrer Version | Hoch | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
