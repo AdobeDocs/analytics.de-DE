@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: aa88b03fa4a562be585e3637ab3999cddf64e8dc
+source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 44%
+source-wordcount: 1167
+ht-degree: 46%
 
 ---
 
@@ -43,7 +43,6 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Augu
 | ----------- | ---------- | ---- |
 | **Activity Map-Erweiterung: UI** Aktualisierung<br/>Die Activity Map-Überlagerungserweiterung weist ein aktualisiertes Erscheinungsbild sowie zugrunde liegende Verbesserungen auf, die bevorstehende Verbesserungen unterstützen.<p>Informationen zur Activity Map-Überlagerungserweiterung finden Sie unter [Benutzeroberfläche für die Activity Map-Erweiterung](/help/analyze/activity-map/overlay/overview.md).</p> | | &#x200B;5. August 2026<p>(Ursprünglich für Ende Juli geplant)</p> |
 | **Verbesserungen der Journey**<br> Arbeitsfläche: Die folgenden Verbesserungen der Journey-Arbeitsfläche sind jetzt verfügbar:<ul><li>Vergleichen Sie die Journey mit einem früheren Zeitrahmen. Vergleichen Sie die aktuelle Journey mit der Journey 4 Wochen vorher, 2 Quartale vorher, 1 Jahr vorher oder mit einem benutzerdefinierten Datumsbereich.</li><li>Zeigen Sie für einen ausgewählten Knoten die obersten Dimensionselemente an, die zu einem beliebigen Zeitpunkt im Journey nach dem ausgewählten Knoten stehen. Verwenden Sie dies, wenn der ausgewählte Knoten das Schlüsselereignis in Ihrer Analyse ist und Sie sehen möchten, was die Benutzer zu einem späteren Zeitpunkt tun.<p>Zuvor konnten nur die unmittelbar am häufigsten angezeigten Knoten vor oder nach dem ausgewählten Knoten angezeigt werden. </p></li><li>Ändern Sie die Form und den Stil der Pfeile zwischen den Knoten. Ziehen Sie die Pfeile zwischen Knoten, um die Form (Krümmung) des Pfeils zu ändern, und klicken Sie mit der rechten Maustaste auf einen Pfeil, um seinen Stil in eine der folgenden Optionen zu ändern: Volumenkörper, Gestrichelt, Punkte, Gestrichelt-Punkt oder Animiert.</li></ul><p></p>Weitere Informationen finden Sie unter [Konfigurieren einer Visualisierung „Journey-Arbeitsfläche“](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | &#x200B;18. August 2026 |
-| **Migrationsplaner: Adobe Analytics zu Customer Journey Analytics**<br> Der Migrationsplaner bietet einen Migrationsassistenten, der einige der komplexesten und zeitaufwendigsten Aufgaben im Zusammenhang mit einem Upgrade von Adobe Analytics auf Customer Journey Analytics automatisiert, einschließlich der Erstellung von XDM-Schemata und der Migration von AppMeasurement oder der Analytics-Erweiterung (Tags) zu Experience Platform Web SDK. <p>(Link zur Dokumentation folgt.)</p> | | Ende August oder September 2026 |
 | **Referenz zu Analytics-API**<br/> Marketing-KanälenVerwenden Sie die Referenz zu Adobe Analytics 2.0-API-Marketing-Kanälen , um Informationen zu Analytics-Marketing-Kanälen abzurufen. Siehe die [Analytics-API Marketing-Kanal-Referenz](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | &#x200B;1. August 2026 |
 | **Handbuch zu Analytics-API-Marketing**<br/> Kanälen-EndpunktDas Handbuch zum Adobe Analytics 2.0-API-Marketing-Kanal-Endpunkt enthält Anweisungen und Beispiele für die Verwendung des Endpunkts. Siehe das [Handbuch für Marketing-Kanäle der Analytics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | &#x200B;1. August 2026 |
 | **Häufig gestellte Fragen zum Ende der Nutzungsdauer der Analytics 1.4-API**<br/> Kunden-FAQ zum Ende der Nutzungsdauer der Analytics 1.4-APIs enthalten Informationen zur neuesten 2.0-API-Entwicklung, die Kunden beim Verlassen von 1.4-APIs helfen soll. | | &#x200B;10. August 2026 |
