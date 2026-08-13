@@ -5,11 +5,23 @@ feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1224
@@ -46,11 +58,11 @@ Das Ziel des Analytics-Inventars besteht darin, Ihnen bei der Beantwortung der f
 
 ## Berechtigungen
 
-Das Analytics-Inventar steht Benutzenden mit Adobe Analytics-Produktadministratorrechten in [Adobe Admin Console zur ](/help/admin/admin-console/admin-roles-in-analytics.md).
+Das Analytics-Inventar steht Benutzenden mit Adobe Analytics-Produktadministratorrechten in [Adobe Admin Console zur &#x200B;](/help/admin/admin-console/admin-roles-in-analytics.md).
 
 ## Zugriff auf Analytics-Inventar
 
-1. Klicken Sie **** Menü **[!UICONTROL Admin]** auf Analytics-Inventar. Oder gehen Sie zu **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Analytics-Inventar]**.
+1. Klicken Sie **&#x200B;**&#x200B;Menü **[!UICONTROL Admin]** auf Analytics-Inventar. Oder gehen Sie zu **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Analytics-Inventar]**.
 
 ![analytics-inventory-menu](assets/an-inventory-menu.png)
 
@@ -118,8 +130,8 @@ Die Antworten auf diese Fragen geben Ihnen eine gute Vorstellung davon, welche R
    | Vorkommnisse (letzte 90 Tage) | Die Metrik „Vorfälle“ zeigt die Anzahl der Treffer an, bei denen eine bestimmte Dimension festgelegt oder beibehalten wurde. Wie viele Treffer hat diese Report Suite in den letzten 90 Tagen erhalten? |
    | Metriken | Wie viele Metriken sind in dieser Report Suite definiert? |
    | Dimensionen | Wie viele Dimensionen sind in dieser Report Suite definiert? |
-   | Analytics for Target (A4T) aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für &quot;[ for Target“ ](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
-   | Marketing-Kanäle aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für (Marketing[Kanäle) ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
+   | Analytics for Target (A4T) aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für &quot;[&#x200B; for Target“ &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Marketing-Kanäle aktiviert | [Standardmäßig ausgeblendet] Ist diese Report Suite für (Marketing[Kanäle) &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Quell-Connector aktiviert | Ist diese Report Suite für den [Adobe Analytics Source-Connector für Report Suite-Daten](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform aktiviert? Anders ausgedrückt: Kann diese Report Suite mithilfe des Analytics Source Connectors nach Customer Journey Analytics migriert werden? |
    | Kalendertyp | [Standardmäßig ausgeblendet] Weitere Informationen finden Sie unter [Benutzerdefinierte Kalender](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
 

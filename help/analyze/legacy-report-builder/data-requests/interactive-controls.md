@@ -5,9 +5,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 TQID: https://experienceleague.adobe.com/I1Lw6gp33QByF6J9SZRgTdn30CpdhJH3yWZ5XwOkBqc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 603
@@ -42,7 +47,7 @@ Interaktive Steuerelemente wurden als Reaktion auf einen allgemeinen Workflow er
 1. Wählen Sie in Schritt 1 des Anforderungs-Assistenten zum Beispiel den Bericht **[!UICONTROL Seite]** aus.
 1. Klicken Sie neben dem Dropdown-Menü **[!UICONTROL Häufig verwendete Datumsangaben]** auf das Symbol **[!UICONTROL Steuerungseinstellungen]**:
 
-   ![Screenshot des Anforderungs-Assistenten, Schritt 1 mit hervorgehobenem Symbol für Kontrolleinstellungen. ](assets/date_range_control.png)
+   ![Screenshot des Anforderungs-Assistenten, Schritt 1 mit hervorgehobenem Symbol für Kontrolleinstellungen. &#x200B;](assets/date_range_control.png)
 
 1. Wählen Sie im Dialogfeld Steuerelementeinstellungen alle Datumsbereichselemente aus, die im interaktiven Steuerelement angezeigt werden sollen. Geben Sie außerdem die obere linke Zellenposition des Steuerelements an.
 
