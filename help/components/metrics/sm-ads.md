@@ -32,9 +32,9 @@ Um diese Metriken zu verwenden, aktivieren **[!UICONTROL Media Ads]** unter [[!U
 
 Die folgenden Metriken sind verfügbar:
 
-* [[!UICONTROL Anzeige abgeschlossen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL Anzeigenstarts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL Besuchszeit für Anzeige]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL Besuchszeit für Medien]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL Anzeige abgeschlossen]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL Anzeigenstarts]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL Besuchszeit für Anzeige]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL Besuchszeit für Medien]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 Siehe [Dimensionen für Streaming](../dimensions/sm-ads.md)Mediendienste und Dimensionen“.
