@@ -5,16 +5,10 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
 TQID: https://experienceleague.adobe.com/AOjXIFy8Vdjzay-aka5rFhLZIyvwlvF-PGOr1iycypw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1621
@@ -55,8 +49,8 @@ Beachten Sie beim Erstellen von Hyperlinks für ein oder mehrere Dimensionseleme
 
 * URLs werden beim Erstellen des Hyperlinks nicht auf ihre Gültigkeit überprüft. Wenn Sie
 
-   * einen Hyperlink mit einer ungültigen URL erstellen oder
-   * einen Hyperlink erstellen, der auf ein Dimensionselement ohne URL-Wert verweist (indem Sie entweder direkt auf das Dimensionselement verweisen oder die Variablen `$value` oder `$breakdown` verwenden),
+  * einen Hyperlink mit einer ungültigen URL erstellen oder
+  * einen Hyperlink erstellen, der auf ein Dimensionselement ohne URL-Wert verweist (indem Sie entweder direkt auf das Dimensionselement verweisen oder die Variablen `$value` oder `$breakdown` verwenden),
 
   dann wird Benutzenden, die auf den Hyperlink klicken, eine Fehlermeldung mit dem Hinweis angezeigt, dass die URL ungültig ist.
 
@@ -70,23 +64,23 @@ So erstellen Sie Hyperlinks für ein oder mehrere Dimensionselemente:
 
    * **Einen Hyperlink für ein einzelnes Dimensionselement erstellen:** Klicken Sie mit der rechten Maustaste auf das Dimensionselement in der Tabelle, für die Sie den Hyperlink erstellen möchten, und wählen Sie dann [!UICONTROL **Hyperlink erstellen**].
 
-      1. Öffnen Sie das Kontextmenü für das Dimensionselement.
-      1. Wählen Sie [!UICONTROL **Hyperlink erstellen**] im Kontextmenü aus.
+     1. Öffnen Sie das Kontextmenü für das Dimensionselement.
+     1. Wählen Sie [!UICONTROL **Hyperlink erstellen**] im Kontextmenü aus.
 
-         Das Dialogfeld [!UICONTROL **Hyperlink erstellen**] wird angezeigt. Der Name des Dimensionselements, für das Sie einen Hyperlink erstellen, wird im Dialogfeld angezeigt.
+        Das Dialogfeld [!UICONTROL **Hyperlink erstellen**] wird angezeigt. Der Name des Dimensionselements, für das Sie einen Hyperlink erstellen, wird im Dialogfeld angezeigt.
 
-         ![Erstellen eines Hyperlinks für ein Dialogfeld mit einem Element](assets/hyperlink-dialog-single.png)
+        ![Erstellen eines Hyperlinks für ein Dialogfeld mit einem Element](assets/hyperlink-dialog-single.png)
 
    * **Hyperlinks für alle Dimensionselemente in einer Dimensionsspalte erstellen:** Klicken Sie mit der rechten Maustaste auf den Dimensionsnamen im Header der Dimensionsspalte und wählen Sie [!UICONTROL **Hyperlinks für alle Dimensionselemente erstellen**].
 
-      1. Öffnen Sie das Kontextmenü über den Header der Dimensionsspalte.
-      1. Wählen Sie [!UICONTROL **Hyperlink für alle Dimensionselemente erstellen**] im Kontextmenü aus.
+     1. Öffnen Sie das Kontextmenü über den Header der Dimensionsspalte.
+     1. Wählen Sie [!UICONTROL **Hyperlink für alle Dimensionselemente erstellen**] im Kontextmenü aus.
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         Das Dialogfeld [!UICONTROL **Hyperlinks für alle Dimensionselemente erstellen**] wird angezeigt. Der Name der Dimension, für die Sie Hyperlinks erstellen, wird im Dialogfeld angezeigt.
+        Das Dialogfeld [!UICONTROL **Hyperlinks für alle Dimensionselemente erstellen**] wird angezeigt. Der Name der Dimension, für die Sie Hyperlinks erstellen, wird im Dialogfeld angezeigt.
 
-         ![Dialogfeld Hyperlinks erstellen](assets/hyperlink-dialog-multiple.png)
+        ![Dialogfeld Hyperlinks erstellen](assets/hyperlink-dialog-multiple.png)
 
 1. Wählen Sie aus den folgenden Optionen:
 
@@ -123,15 +117,15 @@ Sie können Hyperlinks bearbeiten, die für Dimensionen oder Dimensionselemente 
 
    * **Bearbeiten eines Hyperlinks für ein einzelnes Dimensionselement:**
 
-      1. Öffnen Sie das Kontextmenü für das Dimensionselement.
-      1. Wählen Sie im Kontextmenü die Option [!UICONTROL **Hyperlink bearbeiten**] aus.
+     1. Öffnen Sie das Kontextmenü für das Dimensionselement.
+     1. Wählen Sie im Kontextmenü die Option [!UICONTROL **Hyperlink bearbeiten**] aus.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **Bearbeiten von Hyperlinks für alle Dimensionselemente in einer Dimensionsspalte:**
 
-      1. Öffnen Sie das Kontextmenü über den Header der Dimensionsspalte.
-      1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Hyperlinks für alle Dimensionselemente bearbeiten]** aus.
+     1. Öffnen Sie das Kontextmenü über den Header der Dimensionsspalte.
+     1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Hyperlinks für alle Dimensionselemente bearbeiten]** aus.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -157,14 +151,14 @@ So entfernen Sie Hyperlinks aus Dimensionselementen:
 
    * **Einen Hyperlink aus einem einzelnen Dimensionselement entfernen:**
 
-      1. Öffnen Sie das Kontextmenü für das Dimensionselement.
-      1. Wählen [!UICONTROL **Hyperlink entfernen**] im Kontextmenü aus.
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. Öffnen Sie das Kontextmenü für das Dimensionselement.
+     1. Wählen [!UICONTROL **Hyperlink entfernen**] im Kontextmenü aus.
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **Hyperlinks aus allen Dimensionselementen in einer Dimensionsspalte entfernen:**
 
-      1. Öffnen Sie das Kontextmenü über den Header der Dimensionsspalte.
-      1. Wählen Sie **[!UICONTROL Hyperlink für alle Dimensionselemente entfernen]** im Kontextmenü aus.
+     1. Öffnen Sie das Kontextmenü über den Header der Dimensionsspalte.
+     1. Wählen Sie **[!UICONTROL Hyperlink für alle Dimensionselemente entfernen]** im Kontextmenü aus.
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

@@ -5,18 +5,12 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 18%
 
 ---
@@ -50,12 +44,12 @@ So fügen Sie eine oder mehrere Metriken hinzu
 
 Beachten Sie beim Ersetzen von Metriken die folgenden Richtlinien:
 
-* Es :1 nur 1 Ersetzungen zulässig. 1:many oder viele:1 sind nicht zulässig.
+* Es sind nur 1:1-Ersetzungen zulässig. 1:many oder viele:1 sind nicht zulässig.
 * Wenn die ausgewählte Metrik in einer der ausgewählten Anfragen nicht vorhanden ist, bleibt die Anfrage unverändert.
 * Die neue Metrik wird an derselben Stelle platziert wie die ersetzte Metrik.
 
-   * **Wenn in einem Pivot** Layout eine Pivot-Layout-Anfrage Datum, Besuch, Besucher, tägliche Unique Visitors und *Visitors* durch *Umsatz* ersetzt, lautet das aktualisierte Anfrage-Layout: Datum, Besuch, Umsatz und täglich eindeutig.
-   * **Wenn bei einem benutzerdefinierten Layout** die Metrik *Besucher* in Zelle F11 ausgegeben wurde, zeigt das aktualisierte Anfrage-Layout *Umsatz* in derselben Zelle F11 an.
+  * **Wenn in einem Pivot** Layout eine Pivot-Layout-Anfrage Datum, Besuch, Besucher, tägliche Unique Visitors und *Visitors* durch *Umsatz* ersetzt, lautet das aktualisierte Anfrage-Layout: Datum, Besuch, Umsatz und täglich eindeutig.
+  * **Wenn bei einem benutzerdefinierten Layout** die Metrik *Besucher* in Zelle F11 ausgegeben wurde, zeigt das aktualisierte Anfrage-Layout *Umsatz* in derselben Zelle F11 an.
 
 * Wenn auf die ersetzte Metrik ein Vorgang angewendet wurde (durchschnittlicher, vorangestellter Text, Text nach dem Anfügen, Microchart), werden diese Vorgänge auch auf die neue Metrik angewendet.
 
