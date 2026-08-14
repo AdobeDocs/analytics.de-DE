@@ -39,16 +39,16 @@ Im Einstellungsbedienfeld von Activity Map können Sie die Einstellungen und Eig
 * **[!UICONTROL Seitenname:]** den Namen der aktuellen Seite an.
 * **[!UICONTROL Language]**: Ändert die Sprache für Activity Map-Erweiterungsbeschriftungen. Diese Einstellung ändert weder den Inhalt Ihrer Website noch die Link-Namen in Berichten. Zu den unterstützten Sprachen gehören Englisch, Französisch, Chinesisch (vereinfacht), Chinesisch (traditionell), Deutsch, Japanisch, Koreanisch, Spanisch und Portugiesisch.
 * **[!UICONTROL Überlagerungen beschriften mit]**: Bestimmt, was der Blasen- oder Verlaufstext ist. Die Standardeinstellung ist [!UICONTROL Rang]. Zu den Optionen zählen:
-   * **[!UICONTROL Keine Beschriftung]**: Kein Text innerhalb der Beschriftungen, wodurch sie zu farbigen Feldern werden
-   * **[!UICONTROL Wert]**: Zeigt die Anzahl der Link-Klicks ([Vorfälle](/help/components/metrics/occurrences.md))
-   * **[!UICONTROL Prozent]**: Zeigt den Anteil der Link-Klicks im Vergleich zur Gesamtzahl der Link-Klicks auf der Seite an
-   * **[!UICONTROL Rank]**: Der numerische Rang des Links nach der Anzahl der Link-Klicks.
+  * **[!UICONTROL Keine Beschriftung]**: Kein Text innerhalb der Beschriftungen, wodurch sie zu farbigen Feldern werden
+  * **[!UICONTROL Wert]**: Zeigt die Anzahl der Link-Klicks ([Vorfälle](/help/components/metrics/occurrences.md))
+  * **[!UICONTROL Prozent]**: Zeigt den Anteil der Link-Klicks im Vergleich zur Gesamtzahl der Link-Klicks auf der Seite an
+  * **[!UICONTROL Rank]**: Der numerische Rang des Links nach der Anzahl der Link-Klicks.
 * **[!UICONTROL Schriftgröße der Beschriftung]**: Bestimmt die Größe des Textes innerhalb der Blase oder des Verlaufs.
 * **[!UICONTROL Verlaufsfarbe]**: Ermöglicht das Ändern der Verlaufsfarbe, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;].
 * **[!UICONTROL Sprechblasenfarbe]**: Ermöglicht das Ändern der Sprechblasenfarbe, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;].
 * **[!UICONTROL Farbverlauf basierend auf]**: Bestimmt, auf welcher Metrik die Farbintensität einer Relation basiert, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;].
-   * **[!UICONTROL Top 30-Rangfolgen]**: Die Farbintensität für die 30 wichtigsten Links wird normalisiert.
-   * **[!UICONTROL Absoluter Metrikwert]**: Die Farbintensität ist eine Funktion des absoluten Metrikwerts.
+  * **[!UICONTROL Top 30-Rangfolgen]**: Die Farbintensität für die 30 wichtigsten Links wird normalisiert.
+  * **[!UICONTROL Absoluter Metrikwert]**: Die Farbintensität ist eine Funktion des absoluten Metrikwerts.
 * **[!UICONTROL Verlaufstransparenz]**: Bestimmt die Transparenz von Verlaufsüberlagerungen, wenn der Visualisierungstyp &quot;[!UICONTROL &quot; &#x200B;]. Mit diesem Schieberegler können Sie die Farbüberlagerung vollständig transparent, vollständig deckend oder irgendwo dazwischen machen.
 
 ## Standardeinstellungen
@@ -56,9 +56,9 @@ Im Einstellungsbedienfeld von Activity Map können Sie die Einstellungen und Eig
 Einstellungen für die Standardansicht anpassen.
 
 * **[!UICONTROL Dynamische Datenfilterung]**: Ermöglicht es Ihnen zu ändern, welche Links angezeigt werden.
-   * **[!UICONTROL Top]**: Zeigt die beliebtesten Links an. Verwenden Sie die numerische Dropdown-Liste auf der rechten Seite, um die Anzahl der anzuzeigenden Top-Links zu bestimmen. Die Optionen umfassen 1, 10, 50 und 100.
-   * **[!UICONTROL Unten]**: Zeigt die am wenigsten beliebten Links basierend auf der Dropdown-Liste Zahl an. Verwenden Sie die numerische Dropdown-Liste auf der rechten Seite, um die Anzahl der anzuzeigenden untersten Links zu bestimmen. Die Optionen umfassen 1, 10, 50 und 100.
-   * **[!UICONTROL Alle Links]**: Wendet keine dynamische Datenfilterung an. Die numerische Dropdown-Liste gilt nicht, wenn diese Option ausgewählt ist.
+  * **[!UICONTROL Top]**: Zeigt die beliebtesten Links an. Verwenden Sie die numerische Dropdown-Liste auf der rechten Seite, um die Anzahl der anzuzeigenden Top-Links zu bestimmen. Die Optionen umfassen 1, 10, 50 und 100.
+  * **[!UICONTROL Unten]**: Zeigt die am wenigsten beliebten Links basierend auf der Dropdown-Liste Zahl an. Verwenden Sie die numerische Dropdown-Liste auf der rechten Seite, um die Anzahl der anzuzeigenden untersten Links zu bestimmen. Die Optionen umfassen 1, 10, 50 und 100.
+  * **[!UICONTROL Alle Links]**: Wendet keine dynamische Datenfilterung an. Die numerische Dropdown-Liste gilt nicht, wenn diese Option ausgewählt ist.
 * **[!UICONTROL Überlagerungen für Links ausblenden, die keine Treffer erhalten haben]**: Links auf der Seite mit null Link-Klicks zeigen keine Überlagerung an. Diese Links sind von der dynamischen Datenfilterung ausgeschlossen.
 
 ## Live-Einstellungen

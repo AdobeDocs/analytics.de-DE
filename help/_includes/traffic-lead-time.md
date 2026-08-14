@@ -58,9 +58,9 @@ Was Sie außerdem noch beachten müssen:
 * Wenn Sie mehrere Report Suites in Betrieb nehmen oder hinzufügen, die die oben angegebenen Zahlen erhöhen, gilt als Vorlaufzeit die Summe des für jede Report Suite erwarteten Traffics.
 * Halten Sie die folgenden Informationen bereit, um eine Traffic-Änderung zu übermitteln:
 
-   * Report Suite-ID
-   * Geschätzte Treffer pro Tag
-   * Tag der Live-Schaltung
+  * Report Suite-ID
+  * Geschätzte Treffer pro Tag
+  * Tag der Live-Schaltung
 
 * Client-Warnhinweise sind auch erforderlich, wenn der Traffic abnimmt oder eine Report Suite außer Betrieb genommen wird.
 

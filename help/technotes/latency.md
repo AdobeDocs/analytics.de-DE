@@ -58,10 +58,10 @@ Zur Vermeidung von Latenzzeiten oder Verkürzung der Wiederherstellungsdauer bei
 * **Informieren Sie Adobe über erwartete Traffic-Spitzen:** Es ist zwar nicht möglich, jede Traffic-Spitze Ihrer Site vorherzusehen, es kann jedoch vorkommen, dass Sie einen erheblichen Traffic-Anstieg erwarten. Beispiele sind besonders erfolgreiche Phasen während der Feiertagssaison oder kurz nach dem Start einer großen Kampagne. In diesen Situationen stellt Adobe eine Möglichkeit bereit, wie Ihre Firma uns über erwartete Trafficzunahmen informieren kann, damit wir Ihrer Report Suite zusätzliche Verarbeitungsressourcen zuweisen können. Weitere Informationen zur Benachrichtigung von Adobe über erhöhten Traffic finden Sie unter [Planen von Traffic-Spitzen](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) im Administratorhandbuch.
 * **Berücksichtigen Sie beim Aktivieren neuer Funktionen die Verarbeitungslast:** Einige Funktionen sind verarbeitungsintensiver als andere. Je mehr Funktionen in einer Report Suite aktiviert sind, desto schwieriger ist es, die Latenz zu überwinden. Beachten Sie beim Aktivieren von Funktionen für eine Report Suite die folgenden Funktionen, die die zu verarbeitende Datenmenge erhöhen:
 
-   * Implementieren von mehr als 20 Ereignissen auf derselben Seite
-   * Komplexe VISTA-Regeln
-   * Mehr als 20 Werte in der Variablen „products“
-   * Ereignis-Serialisierung
+  * Implementieren von mehr als 20 Ereignissen auf derselben Seite
+  * Komplexe VISTA-Regeln
+  * Mehr als 20 Werte in der Variablen „products“
+  * Ereignis-Serialisierung
 
 * Aktivieren Sie die IAB-Bot-Filterung: Durch die [Bot-Filterung](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) können Latenzzeiten deutlich reduziert werden, wenn Ihre Report Suite häufig von Bots oder Crawlern besucht wird. Verwenden Sie die IAB-Botliste, da diese vom [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) aktualisiert und gewartet wird. Anwender können in Ergänzung zu den IAB-Regeln eigene Bot-Regeln erstellen.
 

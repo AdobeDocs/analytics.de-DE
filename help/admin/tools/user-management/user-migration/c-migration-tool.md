@@ -55,7 +55,7 @@ Vorteile der Verwendung der Adobe Admin Console sind unter anderem:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Single Sign-on </p> </td> 
+   <td colname="col1"> <p>Single Sign-On </p> </td> 
    <td colname="col2"> <p>Analytics-Anwender können sich mit ihrem Adobe ID oder Enterprise ID bei CX Enterprise und allen Lösungen anmelden. Diese Anmeldung ermöglicht den Zugriff auf integrierte Lösungen und zentrale Services in CX Enterprise. </p> <p>Nach der Migration werden Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden (<span class="filepath">my.omniture.com</span> und <span class="filepath">sc.omniture.com</span>), an <span class="filepath">experiencecloud.adobe.com</span> weitergeleitet. </p> </td> 
   </tr> 
   <tr> 

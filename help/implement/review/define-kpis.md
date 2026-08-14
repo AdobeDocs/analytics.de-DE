@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 319
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ Beginnen Sie damit, dass Sie zunächst einmal Ihre Geschäftsziele verstehen, so
 
 ## &#x200B;2. Stellen Sie die entscheidende Frage
 
-Fragen Sie sich Folgendes: Wenn Ihre CEO auf einer Insel festsitzen würde und Sie ihr nur 5 Dinge über den Status des Unternehmen erzählen könnten, was wären diese Dinge? Wenn du ihr sagtest, dass die durchschnittliche Besuchszeit auf einer Seite 1:30 beträgt, würde ihr das überhaupt nicht helfen. Wenn Sie ihr jedoch mitteilen, dass Ihr durchschnittlicher Umsatz pro Besuch 2,00 USD betrug und Ihre Seite 2 Millionen Mal besucht wurde, hat sie dadurch wirklich eine Vorstellung vom geschäftlichen Erfolg.
+Fragen Sie sich Folgendes: Wenn Ihre CEO auf einer Insel festsitzen würde und Sie ihr nur 5 Dinge über den Status des Unternehmen erzählen könnten, was wären diese Dinge? Wenn du ihr sagtest, dass die durchschnittliche Besuchszeit auf einer Seite 1:30 wäre, würde ihr das überhaupt nicht helfen. Wenn Sie ihr jedoch mitteilen, dass Ihr durchschnittlicher Umsatz pro Besuch 2,00 USD betrug und Ihre Seite 2 Millionen Mal besucht wurde, hat sie dadurch wirklich eine Vorstellung vom geschäftlichen Erfolg.
 
 ## &#x200B;3. Denken Sie daran, was KPIs sind und was sie nicht sind
 

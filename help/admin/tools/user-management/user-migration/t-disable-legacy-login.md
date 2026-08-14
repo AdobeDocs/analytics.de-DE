@@ -39,4 +39,4 @@ Nachdem Ihre Benutzerinnen und Benutzer vom bisherigen Analytics-Benutzerverwalt
 
    „Bisherige Anmeldedaten deaktivieren“ gibt an, welcher Ihrer Benutzer seinen alten [!DNL my.omniture.com]-Benutzernamen und sein Passwort weiterhin verwenden kann.
 
-   Sie können keine veralteten Anmeldedaten für Benutzende deaktivieren, die noch migriert werden müssen. Nach der Deaktivierung müssen sich Benutzende mit ihrer Experience Cloud-ID anmelden und auf Analytics zugreifen.
+   Sie können keine veralteten Anmeldedaten für Benutzende deaktivieren, die noch migriert werden müssen. Nach der Deaktivierung muss der Benutzer seine Experience Cloud-ID verwenden, um sich anzumelden und auf Analytics zuzugreifen.

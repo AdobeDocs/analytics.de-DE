@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 147
 ht-degree: 76%
 
 ---
@@ -35,4 +35,4 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 ## Dimensionselemente
 
-Die Dimensionelemente enthalten eine bestimmte Minute innerhalb des Datumsbereichs eines Berichts und deren Datum. Sie sind als `HH:MM YYYY-MM-DD` formatiert. Dimension-Elemente, die mit `00:00` beginnen, entsprechen an diesem Tag Mitternacht, während Werte, die mit `23:59` beginnen, :59 23 Uhr für diesen Tag entsprechen.
+Die Dimensionelemente enthalten eine bestimmte Minute innerhalb des Datumsbereichs eines Berichts und deren Datum. Sie sind als `HH:MM YYYY-MM-DD` formatiert. Dimension-Elemente, die mit `00:00` beginnen, entsprechen an diesem Tag Mitternacht, während Werte, die mit `23:59` beginnen, 23:59 Uhr für diesen Tag entsprechen.

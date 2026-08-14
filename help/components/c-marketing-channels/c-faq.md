@@ -121,19 +121,19 @@ Manchmal sind die Verarbeitungsregeln für Marketing-Kanäle falsch eingerichtet
 
 * **Marketing-Kanaldaten werden in Echtzeit erfasst**: Marketing-Kanaldaten werden bei der Datenerfassung verarbeitet und sind zu 100 % permanent. Geänderte Verarbeitungsregeln wirken sich nicht rückwirkend auf die Daten aus.
 * **Änderungen der Verarbeitungsregeln wirken sich nicht unmittelbar auf die Erstkontakt-Daten aus**: Beispiel:
-   1. Ein Benutzer kommt über Ihren E-Mail-Kanal herein, da sie falsch eingerichtet waren, und verlässt dann Ihre Website.
-   2. Am nächsten Tag ändern Sie Ihre E-Mail-Verarbeitungsregel, um sie zu korrigieren.
-   3. Dieser Benutzer kommt einige Tage später über die kostenlose Suche zurück und tätigt einen Kauf.
-   4. Der E-Mail-Kanal erhält die Erstkontakt-Gutschrift und die kostenlose Suche erhält die Letztkontakt-Gutschrift.
+  1. Ein Benutzer kommt über Ihren E-Mail-Kanal herein, da sie falsch eingerichtet waren, und verlässt dann Ihre Website.
+  2. Am nächsten Tag ändern Sie Ihre E-Mail-Verarbeitungsregel, um sie zu korrigieren.
+  3. Dieser Benutzer kommt einige Tage später über die kostenlose Suche zurück und tätigt einen Kauf.
+  4. Der E-Mail-Kanal erhält die Erstkontakt-Gutschrift und die kostenlose Suche erhält die Letztkontakt-Gutschrift.
 
   Auch mehrere Tage nach Änderung der Verarbeitungsregeln können Daten im falschen Erstkontakt-Kanal erfasst werden. Erstkontakt-Daten werden kontinuierlich im falschen Kanal erfasst, bis die Benutzerinteraktion abläuft.
 
 Der beste Weg, um diese Unstimmigkeiten zu beheben, besteht darin, eine oder beide der folgenden Aktionen auszuführen:
 
 * **Alle Besucherinteraktionszeiträume manuell ablaufen lassen**: Mit dieser Einstellung laufen alle Erstkontakt- und Letztkontakt-Kanäle über alle Besucher hinweg sofort ab:
-   1. Gehen Sie zu „Admin Tools“ > „Report Suites“.
-   2. Bewegen Sie den Mauszeiger über „Einstellungen bearbeiten“> „Marketing-Kanäle“> „Besucherinteraktionsablauf“.
-   3. Klicken Sie auf „Alle ablaufen lassen“.
-   4. Klicken Sie im Popup-Fenster mit der Warnung auf „OK“, um zu bestätigen, dass Sie verstanden haben, was passieren wird.
+  1. Gehen Sie zu „Admin Tools“ > „Report Suites“.
+  2. Bewegen Sie den Mauszeiger über „Einstellungen bearbeiten“> „Marketing-Kanäle“> „Besucherinteraktionsablauf“.
+  3. Klicken Sie auf „Alle ablaufen lassen“.
+  4. Klicken Sie im Popup-Fenster mit der Warnung auf „OK“, um zu bestätigen, dass Sie verstanden haben, was passieren wird.
 
 * **Ab dem Zeitpunkt, zu dem Sie Ihre Regeln korrigiert haben, nur Letztkontakt-Metriken anzeigen**: Letztkontakt-Metriken folgen immer dem aktuellen Regelsatz. Ab dem Zeitpunkt, zu dem Sie die Verarbeitungsregeln geändert haben, werden die aktuellsten Verarbeitungsregeln angezeigt.

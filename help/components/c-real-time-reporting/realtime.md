@@ -62,10 +62,10 @@ Als Administrator haben Sie folgende Möglichkeiten
 * Verwenden Sie ein benutzerdefiniertes Ereignis, ein Warenkorbereignis oder eine Instanz.
 * Zeigen Sie bis zu 2 Stunden historische Echtzeitdaten an und ändern Sie diese Einstellung:
 
-   * Letzte 15 Minuten: Granularität von 1 Minute
-   * Letzte 30 Minuten: Granularität von 1 Minute
-   * Letzte Stunde: Granularität von 2 Minuten
-   * Letzte 2 Stunden: Granularität von 4 Minuten
+  * Letzte 15 Minuten: Granularität von 1 Minute
+  * Letzte 30 Minuten: Granularität von 1 Minute
+  * Letzte Stunde: Granularität von 2 Minuten
+  * Letzte 2 Stunden: Granularität von 4 Minuten
 
 * Vergleichen Sie beispielsweise die Werte der letzten Woche mit den Werten des letzten Jahres (sowie mit dem heutigen Gesamtwert).
 

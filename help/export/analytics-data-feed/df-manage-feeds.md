@@ -177,12 +177,12 @@ So passen Sie die sichtbaren Spalten in der Tabelle an:
    * **Ziel**: Der Speicherort, an dem die Datei platziert wird.
    * **Inhaber**: Das Benutzerkonto, über das der Feed erstellt wurde.
    * **Status:** Der Status des Feeds.
-      * Aktiv: Der Feed ist betriebsfähig.
-      * Genehmigung ausstehend: Unter bestimmten Umständen muss ein Feed von Adobe genehmigt werden, bevor er Aufträge generieren kann.
-      * Gelöscht: Der Feed wurde gelöscht.
-      * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
-      * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-      * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
+     * Aktiv: Der Feed ist betriebsfähig.
+     * Genehmigung ausstehend: Unter bestimmten Umständen muss ein Feed von Adobe genehmigt werden, bevor er Aufträge generieren kann.
+     * Gelöscht: Der Feed wurde gelöscht.
+     * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
+     * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
+     * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
    * **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.

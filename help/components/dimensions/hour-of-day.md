@@ -20,8 +20,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 82%
+source-wordcount: 364
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 82%
 
 Die „Stunde des Tages“ [Dimension](overview.md) zeigt die numerische Stunde eines bestimmten Tages als Dimensionselement an. Wenn Sie beispielsweise einen Bericht haben, der sich vom 1. Januar bis zum 7. Januar erstreckt, wird die erste Stunde jedes Tages in dasselbe Dimensionselement gruppiert. Dieser Bericht ist nützlich, wenn Sie einen Bericht nach relativer Tageszeit aufschlüsseln möchten, aber keine statischen Stunden als Dimensionselemente wünschen. Er ist besonders nützlich als Dimension in terminierten Berichten, da diese Dimension mit dem ausgewählten Datumsbereich rolliert.
 
-Diese Dimension basiert auf der Zeitzone der Report Suite und nicht auf der lokalen Zeitzone des Besuchers. Wenn sich Ihre Report Suite beispielsweise in Mountain Time befindet und ein Besucher in Kalifornien um 10 Uhr :00 Ihre Site besucht, werden die Treffer unter dem Dimensionselement `11:00 AM` gruppiert. Wenn Sie eine Dimension wünschen, die die Zeit des lokalen Besuchers erfasst, empfiehlt Adobe die Verwendung des Plug-Ins [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
+Diese Dimension basiert auf der Zeitzone der Report Suite und nicht auf der lokalen Zeitzone des Besuchers. Wenn sich Ihre Report Suite beispielsweise in der Mountain-Zeit befindet und ein Besucher in Kalifornien um 10:00 Uhr Pacific-Zeit Ihre Site besucht, werden die Treffer unter dem Dimensionselement `11:00 AM` gruppiert. Wenn Sie eine Dimension wünschen, die die Zeit des lokalen Besuchers erfasst, empfiehlt Adobe die Verwendung des Plug-Ins [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 ## Füllen dieser Dimension mit Daten
 
@@ -37,7 +37,7 @@ Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Repor
 
 ## Dimensionselemente
 
-Zu den Dimensionselementen gehören `12:00 AM` – `11:00 PM`, die die Stunde des Tages darstellen, in der der Treffer auftrat (abgerundet). Wenn beispielsweise um 15 Uhr ein Treffer generiert wurde:58 wird er unter dem Dimensionselement `3:00 PM` gruppiert.
+Zu den Dimensionselementen gehören `12:00 AM` – `11:00 PM`, die die Stunde des Tages darstellen, in der der Treffer auftrat (abgerundet). Wenn beispielsweise ein Treffer um 15:58 Uhr generiert wurde, wird er unter dem Dimensionselement `3:00 PM` gruppiert.
 
 ## Sommerzeit
 

@@ -48,14 +48,14 @@ Das obere Bedienfeld enthält die grundlegenden Steuerelemente für die Activity
 Es bietet die folgenden Einstellungen:
 
 * **Standard-/Live-**: Schaltet zwischen Standard- und Live-Ansicht um.
-   * Standardansicht: Zeigt die Überlagerung basierend auf historischen Daten an.
-   * Live-Ansicht: Zeigt die Überlagerung basierend auf Live-Daten an. Die Datumsauswahl wird zu einem Dropdown-Menü, über das Sie die Granularität von Live-Daten ändern können.
+  * Standardansicht: Zeigt die Überlagerung basierend auf historischen Daten an.
+  * Live-Ansicht: Zeigt die Überlagerung basierend auf Live-Daten an. Die Datumsauswahl wird zu einem Dropdown-Menü, über das Sie die Granularität von Live-Daten ändern können.
 * **Metrikauswahl**: Ermöglicht das Ändern der Metrik, die von der Überlagerung gemeldet wird. Wenn [!UICONTROL &#x200B; Live-Ansicht ausgewählt &#x200B;], sind nur Link-Klicks verfügbar.
 * **Segmentauswahl**: Ermöglicht die Auswahl eines [Segments](/help/components/segmentation/seg-overview.md), wobei eine Teilmenge der Daten in Ihrer Überlagerung angezeigt wird. Segmente sind in der Live-Ansicht nicht verfügbar.
 * **Visualisierungstyp „Überlagerung**: Ermöglicht es Ihnen zu ändern, wie die Überlagerung das Ranking von Links visualisiert.
-   * **[!UICONTROL Bubble]**: Top-Links erhalten eine grüne Blase, die ihren numerischen Rang während des Berichtszeitraums anzeigt. Sie können die Sprechblasenfarbe in „Einstellungen[&#x200B; ändern](settings.md).
-   * **[!UICONTROL Verlauf]**: Top-Links werden schattiert in transparentem Rot angezeigt. Die beliebtesten Links sind die dunkelsten rot. Sie können die Farbe des Farbverlaufs in [Einstellungen](settings.md) ändern.
-   * **[!UICONTROL Aus]**: Deaktivieren von Linküberlagerungen.
+  * **[!UICONTROL Bubble]**: Top-Links erhalten eine grüne Blase, die ihren numerischen Rang während des Berichtszeitraums anzeigt. Sie können die Sprechblasenfarbe in „Einstellungen[&#x200B; ändern](settings.md).
+  * **[!UICONTROL Verlauf]**: Top-Links werden schattiert in transparentem Rot angezeigt. Die beliebtesten Links sind die dunkelsten rot. Sie können die Farbe des Farbverlaufs in [Einstellungen](settings.md) ändern.
+  * **[!UICONTROL Aus]**: Deaktivieren von Linküberlagerungen.
 * **Datumsauswahl**: Ermöglicht die Änderung des Berichtszeitraums.
 
 Die Kopfzeile dieses Bedienfelds enthält die folgenden Einstellungen:
@@ -63,11 +63,11 @@ Die Kopfzeile dieses Bedienfelds enthält die folgenden Einstellungen:
 * **Oberes Bedienfeld ein-/ausblenden**: Blendet das obere Bedienfeld ein oder aus, um Einstellungen horizontal oder vertikal anzuzeigen (Doppelpfeil-Symbol).
 * **[!UICONTROL Seitendetails ein/]**: Unteres Bedienfeld ein- oder ausblenden (Augensymbol).
 * **[!UICONTROL Einstellungen anzeigen]**: Öffnet ein Menü für Einstellungen, die Sie ändern können (Zahnradsymbol):
-   * **[!UICONTROL Einstellungen]**: Öffnet die Erweiterung &quot;[Einstellungen](settings.md).
-   * **[!UICONTROL Hilfe]**: Öffnet die Dokumentation zu Experience League (auf dieser Seite).
-   * **[!UICONTROL Adobe-]**: Öffnet die [Experience League-](https://experienceleaguecommunities.adobe.com/?profile.language=de).
-   * **[!UICONTROL Info]**: Zeigt die Erweiterungsversion an.
-   * **[!UICONTROL Abmelden]**: Meldet Sie von der Erweiterung ab und muss sich erneut anmelden.
+  * **[!UICONTROL Einstellungen]**: Öffnet die Erweiterung &quot;[Einstellungen](settings.md).
+  * **[!UICONTROL Hilfe]**: Öffnet die Dokumentation zu Experience League (auf dieser Seite).
+  * **[!UICONTROL Adobe-]**: Öffnet die [Experience League-](https://experienceleaguecommunities.adobe.com/?profile.language=de).
+  * **[!UICONTROL Info]**: Zeigt die Erweiterungsversion an.
+  * **[!UICONTROL Abmelden]**: Meldet Sie von der Erweiterung ab und muss sich erneut anmelden.
 * **[!UICONTROL Activity Map beenden]**: Schließt alle Überlagerungen für die Erweiterung (Symbol X).
 
 ## Seitenüberlagerung

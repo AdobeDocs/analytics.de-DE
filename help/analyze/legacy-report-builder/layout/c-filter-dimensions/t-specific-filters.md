@@ -44,8 +44,8 @@ Sie können dimensionsspezifische Filter setzen, indem Sie einen Filter erstelle
 1. Aktivieren Sie eine der folgenden spezifischen Optionen:
 
    * **Aus Zellenbereich:** Hier können Sie Daten aus Zellen auswählen. Folgende Optionen stehen zur Auswahl:
-      * **Alle Zellen im Bereich:** Hier können Sie jede Zelle für den Bereich zuordnen. Eine Textbeschreibung erläutert, wie viele Gruppen von Zellen Sie auswählen müssen. Um mehr als eine Zellengruppe zuzuordnen, drücken Sie die Strg-Taste, während Sie aufeinander folgende Auswahlen vornehmen. Wenn der zuzuordnende Bereich nur eine Zelle enthält, ist dies die einzige verfügbare Option
-      * **Erste Zelle des Bereichs** Sie müssen nur die obere linke Zelle des Bereichs auswählen und dann eine Richtung für die Daten auswählen. Wenn die Anforderung mehrere Perioden umfasst, wählen Sie außerdem die Richtung der Perioden aus und legen fest, ob eine bestimmte Anzahl von Zellen zwischen den Perioden übersprungen werden soll.
+     * **Alle Zellen im Bereich:** Hier können Sie jede Zelle für den Bereich zuordnen. Eine Textbeschreibung erläutert, wie viele Gruppen von Zellen Sie auswählen müssen. Um mehr als eine Zellengruppe zuzuordnen, drücken Sie die Strg-Taste, während Sie aufeinander folgende Auswahlen vornehmen. Wenn der zuzuordnende Bereich nur eine Zelle enthält, ist dies die einzige verfügbare Option
+     * **Erste Zelle des Bereichs** Sie müssen nur die obere linke Zelle des Bereichs auswählen und dann eine Richtung für die Daten auswählen. Wenn die Anforderung mehrere Perioden umfasst, wählen Sie außerdem die Richtung der Perioden aus und legen fest, ob eine bestimmte Anzahl von Zellen zwischen den Perioden übersprungen werden soll.
    * **Aus Liste** Ermöglicht die Auswahl von Daten aus einer Liste, der Sie Daten hinzufügen können.
 1. Wenn Sie die Option **[!UICONTROL Aus Liste]** aktivieren, können Sie aus den verfügbaren aufgelisteten Elementen auswählen oder auf **[!UICONTROL Hinzufügen]** klicken.
 

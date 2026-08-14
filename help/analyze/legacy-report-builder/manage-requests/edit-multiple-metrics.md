@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 18%
 
 ---
@@ -50,12 +50,12 @@ So fügen Sie eine oder mehrere Metriken hinzu
 
 Beachten Sie beim Ersetzen von Metriken die folgenden Richtlinien:
 
-* Es :1 nur 1 Ersetzungen zulässig. 1:many oder viele:1 sind nicht zulässig.
+* Es sind nur 1:1-Ersetzungen zulässig. 1:many oder viele:1 sind nicht zulässig.
 * Wenn die ausgewählte Metrik in einer der ausgewählten Anfragen nicht vorhanden ist, bleibt die Anfrage unverändert.
 * Die neue Metrik wird an derselben Stelle platziert wie die ersetzte Metrik.
 
-   * **Wenn in einem Pivot** Layout eine Pivot-Layout-Anfrage Datum, Besuch, Besucher, tägliche Unique Visitors und *Visitors* durch *Umsatz* ersetzt, lautet das aktualisierte Anfrage-Layout: Datum, Besuch, Umsatz und täglich eindeutig.
-   * **Wenn bei einem benutzerdefinierten Layout** die Metrik *Besucher* in Zelle F11 ausgegeben wurde, zeigt das aktualisierte Anfrage-Layout *Umsatz* in derselben Zelle F11 an.
+  * **Wenn in einem Pivot** Layout eine Pivot-Layout-Anfrage Datum, Besuch, Besucher, tägliche Unique Visitors und *Visitors* durch *Umsatz* ersetzt, lautet das aktualisierte Anfrage-Layout: Datum, Besuch, Umsatz und täglich eindeutig.
+  * **Wenn bei einem benutzerdefinierten Layout** die Metrik *Besucher* in Zelle F11 ausgegeben wurde, zeigt das aktualisierte Anfrage-Layout *Umsatz* in derselben Zelle F11 an.
 
 * Wenn auf die ersetzte Metrik ein Vorgang angewendet wurde (durchschnittlicher, vorangestellter Text, Text nach dem Anfügen, Microchart), werden diese Vorgänge auch auf die neue Metrik angewendet.
 

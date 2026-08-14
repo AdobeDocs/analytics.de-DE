@@ -59,12 +59,12 @@ Um zusätzliche Warnhinweise zu erstellen:
    * **Ablaufdatum**: Standardmäßig liegt das Ablaufdatum ein Jahr nach dem Erstellungsdatum des Warnhinweises.
    * **Warnhinweis senden, wenn**:
 
-      * Trigger einer dieser Metriken
-Fügen Sie den Typ der Server-Aufrufe als Metrik hinzu und geben Sie den Warnschwellenwert an, indem Sie den Modifikator und den Schwellenwert auswählen:
-         * ist größer oder gleich
-         * ist kleiner oder gleich
-      * Mit
-Geben Sie den Schwellenwert und die Bedingung (ist über oder gleich oder ist unter oder gleich) für den Verwendungszeitraum an.
+     * Trigger einer dieser Metriken
+       Fügen Sie den Typ der Server-Aufrufe als Metrik hinzu und geben Sie den Warnschwellenwert an, indem Sie den Modifikator und den Schwellenwert auswählen:
+       * ist größer oder gleich
+       * ist kleiner oder gleich
+     * Mit
+       Geben Sie den Schwellenwert und die Bedingung (ist über oder gleich oder ist unter oder gleich) für den Verwendungszeitraum an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

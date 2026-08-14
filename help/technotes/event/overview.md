@@ -22,8 +22,8 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 91%
+source-wordcount: 408
+ht-degree: 90%
 
 ---
 
@@ -63,10 +63,10 @@ Sobald Sie mit der geplanten Handhabung eines Ereignisses vertraut sind, können
 
 Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysieren und Kommunizieren von Varianten in Ihren Daten](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} finden Sie ein Demovideo.
 
-* **0:27**: Ausschließen von Daten mithilfe der Segmentierung
-* **2:55**: Ein Ereignis mit vorherigen Bereichen vergleichen
-* **8:42**: Ableiten von Daten mithilfe berechneter Metriken
-* **11:46**: Auswirkungen für Benutzer kommunizieren
+* **0:**: Ausschließen von Daten mithilfe der Segmentierung
+* **2:**: Vergleichen eines Ereignisses mit vorherigen Bereichen
+* **8:**: Ableiten von Daten mithilfe berechneter Metriken
+* **11:**: Kommunizieren der Auswirkungen für Benutzer
 
 >[!ENDSHADEBOX]
 

@@ -43,15 +43,15 @@ Bevor Ihre Projekte und die zugehörigen Komponenten für die Migration bereit s
 
    * Um den Adobe Analytics-Quell-Connector zu verwenden, müssen Sie:
 
-      1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Aufnehmen und Verwenden der Daten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=de)
+     1. [Aufnehmen und Verwenden der Daten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=de)
 
    * Um das WebSDK zu verwenden, müssen Sie:
 
-      1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=de)
+     1. [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=de)
 
 1. Erstellen Sie [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=de) und [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den aufgenommenen Daten.
 

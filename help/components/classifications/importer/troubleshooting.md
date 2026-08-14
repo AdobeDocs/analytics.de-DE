@@ -33,8 +33,8 @@ Die häufigsten Probleme beim Hochladen von Classification-Daten in Adobe.
 Klassifizierungen erfordern einen bestimmten Dateityp und ein bestimmtes Dateiformat, damit sie erfolgreich hochgeladen werden können. Wenn sie nicht im richtigen Format gespeichert wurden, verursacht dies einen Fehler und es werden keine Zeilen verarbeitet. Der zurückgegebene Fehler lautet häufig *„Die erste Spalte muss der Schlüssel sein“*. Es kann sich aber um eine beliebige Anzahl von Fehlern handeln. Überprüfen Sie Folgendes:
 
 * **Hochladen einer Tabelle (.xlsx) anstelle einer tab- oder txt-Datei**: Beim Hochladen von Klassifizierungsdateien in einem falschen Format erhalten Sie die Fehlermeldung *„Die erste Spalte muss der Schlüssel sein“*. Der Klassifizierungs-Importer kann keine xls- oder xlsx-Dateien verarbeiten. Stellen Sie im Excel-Dialogfeld „Speichern unter“ den richtigen Dateityp ein:
-   * Verwenden Sie unter Windows das Dateiformat `Text (Tab delimited) (*.txt)`.
-   * Verwenden Sie unter Mac das Dateiformat `Windows Formatted Text`.
+  * Verwenden Sie unter Windows das Dateiformat `Text (Tab delimited) (*.txt)`.
+  * Verwenden Sie unter Mac das Dateiformat `Windows Formatted Text`.
 * **Sie haben die Erweiterung des Dateinamens nach dem Speichern als Arbeitsmappe geändert**: Beim Versuch, eine Dateierweiterung direkt umzubenennen, wird eine ungültige Arbeitsmappe generiert. Verwenden Sie ausschließlich die Excel-Funktion „Speichern unter“ oder nutzen Sie einen Texteditor wie Notepad++.
 * **Sie haben Erweiterungen in Großbuchstaben verwendet**: Erweiterungen in Großbuchstaben (z. B. dateiupload.`fileupload.TXT`) funktionieren nicht. Benennen Sie die Datei in eine kleingeschriebene Erweiterung um (`fileupload.txt`).
 * **Nicht übereinstimmende Zeichenkodierung**: Stellen Sie sicher, dass die Kodierung des gespeicherten Classification-Uploads mit der ursprünglichen Kodierung beim Herunterladen der Vorlage übereinstimmt. Wenn Sie eine UTF-16-Datei hochladen, obwohl sie ursprünglich in UTF-8 kodiert war, führen Uploads zu unerwarteten Ergebnissen. Adobe empfiehlt das Hochladen von Dateien im UTF-8-Format ohne Byte-Reihenfolge-Markierungen.
@@ -50,8 +50,8 @@ Wenn Ihre Upload-Datei korrekt formatiert ist, versucht der Uploader, so viele g
 * **Zusätzliche Tabulatoren in der hochgeladenen Datei**: Manchmal werden beim Bearbeiten von Classification-Dateien versehentlich zusätzliche Tabs hinzugefügt. Jede Zeile erfordert eine identische Anzahl von Tabulatoren, damit sie richtig verarbeitet werden kann. Um zu überprüfen, ob die Datei über zusätzliche Tabulatoren verfügt, markieren Sie den gesamten Text in einem Texteditor und stellen Sie sicher, dass keine Zeilen Leerzeichen am Ende haben.
 * **Doppelte Schlüsselwerte in der Datei**: Jeder Schlüsselwert darf nur eine Classification pro Spalte aufweisen. Wenn Sie versuchen, denselben Wert mehrmals zu klassifizieren, gibt der Importer einen Fehler aus.
 * **Unterklassifizierungen sind vorhanden und falsch konfiguriert**: Wenn Unterklassifizierungen vorhanden sind, überprüfen Sie Folgendes:
-   * Alle Unterklassifizierungswerte haben einen übergeordneten Classification-Wert
-   * Keine zwei Unterklassifizierungen verweisen auf denselben übergeordneten Classification-Wert
+  * Alle Unterklassifizierungswerte haben einen übergeordneten Classification-Wert
+  * Keine zwei Unterklassifizierungen verweisen auf denselben übergeordneten Classification-Wert
 * **Spaltenabweichung**: Sie können die Fehlermeldung *„Der Schlüssel in der Zeile hat zu viele Spalten“* erhalten, wenn eine Zeile eine ungültige Spaltenanzahl enthält. Das ist beispielsweise der Fall, wenn Sie 3 Spalten in Ihrem Klassifizierungs-Upload haben, die Variable jedoch nur über eine einzelne Klassifizierung verfügt. Überprüfen Sie Ihre Upload-Datei, um sicherzustellen, dass die Anzahl der Spalten nicht größer ist als die Anzahl der für diese Variable konfigurierten Klassifizierungen.
 
 ## Fehlerbehebung bei FTP-Importen

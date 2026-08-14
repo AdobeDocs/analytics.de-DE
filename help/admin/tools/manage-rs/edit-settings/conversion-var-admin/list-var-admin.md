@@ -39,15 +39,15 @@ Erstellen und konfigurieren Sie Listenvariablen für die Verwendung in Berichten
 * **[!UICONTROL Wertetrennzeichen]**: Das Zeichen, das zum Trennen von Werten innerhalb der Listenvariablen verwendet wird. Meistens handelt es sich dabei um Zeichen wie Kommas, Doppelpunkte, senkrechte Striche oder Ähnliches. Multi-Byte-Zeichen werden in Listenvariablen nicht als Trennzeichen unterstützt.
 
 * **[!UICONTROL Läuft ab nach]**: Dieses Feld bestimmt ähnlich wie die eVar-Gültigkeit die Zeit, die zwischen der Listenvariablen und dem Konversionsereignis vergehen kann, damit sie miteinander in Beziehung gesetzt werden.
-   * **Auf Seitenansichts- oder Besuchsebene**: Erfolgsereignisse, die über die Seitenansicht oder den Besuch hinausgehen, werden nicht mit Werten innerhalb der Listenvariablen verknüpft.
-   * **Basierend auf einem Zeitraum, z. B. Tag, Woche, Monat usw**: Erfolgsereignisse, die über den angegebenen Zeitraum hinausgehen, werden nicht auf Werte innerhalb der Listenvariablen zurückgeführt. Es kann auch eine benutzerdefinierte Anzahl von Tagen definiert werden.
-   * **Spezifische Konversionsereignisse**: Alle anderen Erfolgsereignisse, die nach dem angegebenen spezifischen Ereignis ausgelöst werden, werden nicht auf Werte innerhalb der Listenvariablen zurückgeführt.
-   * **Nie**: Zwischen der Listenvariablen und dem Erfolgsereignis kann ein beliebiger Zeitraum verstreichen.
+  * **Auf Seitenansichts- oder Besuchsebene**: Erfolgsereignisse, die über die Seitenansicht oder den Besuch hinausgehen, werden nicht mit Werten innerhalb der Listenvariablen verknüpft.
+  * **Basierend auf einem Zeitraum, z. B. Tag, Woche, Monat usw**: Erfolgsereignisse, die über den angegebenen Zeitraum hinausgehen, werden nicht auf Werte innerhalb der Listenvariablen zurückgeführt. Es kann auch eine benutzerdefinierte Anzahl von Tagen definiert werden.
+  * **Spezifische Konversionsereignisse**: Alle anderen Erfolgsereignisse, die nach dem angegebenen spezifischen Ereignis ausgelöst werden, werden nicht auf Werte innerhalb der Listenvariablen zurückgeführt.
+  * **Nie**: Zwischen der Listenvariablen und dem Erfolgsereignis kann ein beliebiger Zeitraum verstreichen.
 
 * **[!UICONTROL Zuordnung]**: Diese Einstellung bestimmt, wie Erfolgsereignisse die Gutschrift auf verschiedene Werte aufteilen:
-   * **Full**: Alle Variablenwerte, die vor dem Ablauf der Variablen definiert wurden, werden für Erfolgsereignisse vollständig angerechnet.
-   * **Linear**: Alle Variablenwerte, die vor dem Ablauf der Variablen definiert wurden, erhalten eine geteilte Gutschrift für Konversionsereignisse.
-   * Variablenwerte werden nie überschrieben, sondern stattdessen zu den Werten hinzugefügt, die bei Erfolgsereignissen angerechnet werden.
+  * **Full**: Alle Variablenwerte, die vor dem Ablauf der Variablen definiert wurden, werden für Erfolgsereignisse vollständig angerechnet.
+  * **Linear**: Alle Variablenwerte, die vor dem Ablauf der Variablen definiert wurden, erhalten eine geteilte Gutschrift für Konversionsereignisse.
+  * Variablenwerte werden nie überschrieben, sondern stattdessen zu den Werten hinzugefügt, die bei Erfolgsereignissen angerechnet werden.
 
 * **[!UICONTROL Beschreibung]**: Eine Beschreibung, wie Ihr Unternehmen die Listenvariable verwendet.
 

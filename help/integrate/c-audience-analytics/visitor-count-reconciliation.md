@@ -50,8 +50,8 @@ Die Besuchermetriken sind:
    <td colname="col3"> <p>Zeigt die Anzahl der Unique Visitors, die Ihre Eigenschaften während des Berichtszeitraums erreicht haben. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Besucher mit Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Zeigt die Anzahl der Unique Visitors mit einer Experience Cloud ID an, die Ihre Eigenschaften während des Berichtszeitraums erreicht haben. </p> </td> 
+   <td colname="col2"> <p>Analytics: Besucher mit Experience Cloud-ID </p> </td> 
+   <td colname="col3"> <p>Zeigt die Anzahl der Unique Visitors mit Experience Cloud ID an, die Ihre Eigenschaften während des Berichtszeitraums erreicht haben. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Am ähnlichsten sind Adobe Audience Manager Real-time Segment Population und Ana
   <tr> 
    <th colname="col1" class="entry"> Faktor </th> 
    <th colname="col2" class="entry"> Adobe Audience Manager: Echtzeit-Segmentpopulation </th> 
-   <th colname="col3" class="entry"> Analytics: Besucher mit Experience Cloud ID </th> 
+   <th colname="col3" class="entry"> Analytics: Besucher mit Experience Cloud-ID </th> 
   </tr>
  </thead>
  <tbody> 

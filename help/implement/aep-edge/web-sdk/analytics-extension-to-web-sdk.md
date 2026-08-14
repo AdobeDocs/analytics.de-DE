@@ -141,9 +141,9 @@ Die obigen Schritte gelten nur für Regeln, die Werte festlegen. Die folgenden S
    * [!UICONTROL Aktionstyp]: [!UICONTROL Ereignis senden]
 1. Ändern Sie auf der rechten Seite die Aktionseinstellungen wie folgt:
    * [!UICONTROL type]: Verwenden Sie `s.t()` &quot;**[!UICONTROL -Seitenansichten“]**. Verwenden Sie `s.tl()` „WebInteraction **[!UICONTROL Link-Klicks]**. Wenn Sie [`s.tl()`](../../vars/functions/tl-method.md) verwenden, müssen Sie auch die folgenden Felder in Ihr Datenobjekt einbeziehen. Diese Felder werden bei [!UICONTROL &#x200B; Konfiguration der Aktion [!UICONTROL Variable aktualisieren] unter „Zusätzliche Eigenschaften] aufgeführt:
-      * [Link-Name](../../vars/functions/tl-method.md)
-      * [Link-Typ](../../vars/functions/tl-method.md)
-      * [Link-URL](../../vars/config-vars/linkurl.md)
+     * [Link-Name](../../vars/functions/tl-method.md)
+     * [Link-Typ](../../vars/functions/tl-method.md)
+     * [Link-URL](../../vars/config-vars/linkurl.md)
 1. Wählen Sie **[!UICONTROL Änderungen beibehalten]** aus.
 1. Wiederholen Sie diese Schritte für jede Aktionskonfiguration, die Adobe Analytics zum Senden eines Beacons verwendet.
 

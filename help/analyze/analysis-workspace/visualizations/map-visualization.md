@@ -110,9 +110,9 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisu
    * **Vergleichen** Sie zwei oder mehr Kartenvisualisierungen im selben Projekt, indem Sie sie nebeneinander platzieren.
    * **Vergleiche von Zeiträumen (z. B. Jahr-über-Jahr) anzeigen**:
 
-      * Negative Zahlen anzeigen: Wenn Sie beispielsweise eine Metrik im Jahresvergleich darstellen, kann die Karte -33 % über New York anzeigen.
-      * Mit Metriken des Typs *Prozent* werden die Prozentanzeigen mit Durchschnitten gebündelt.
-      * Ein grün/rot Farbschema: positiv/negativ
+     * Negative Zahlen anzeigen: Wenn Sie beispielsweise eine Metrik im Jahresvergleich darstellen, kann die Karte -33 % über New York anzeigen.
+     * Mit Metriken des Typs *Prozent* werden die Prozentanzeigen mit Durchschnitten gebündelt.
+     * Ein grün/rot Farbschema: positiv/negativ
 
    * **Drehen** Sie die Karte in 2D oder 3D, indem Sie die [!UICONTROL Strg]-Taste gedrückt halten und die Karte verschieben.
 

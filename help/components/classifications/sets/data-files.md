@@ -63,12 +63,12 @@ Jedes JSON-Objekt muss Folgendes enthalten:
 * `key` (erforderlich): Die eindeutige Kennung für den Klassifizierungsdatensatz
 * `data` (für Aktualisierungen erforderlich): Ein Objekt, das Klassifizierungsspaltennamen und deren Werte enthält
 * `action` (optional): Die auszuführende Aktion. Folgende Werte werden unterstützt:
-   * `update` (die Standardaktion, wenn keine Aktion angegeben ist)
-   * `delete-field`
-   * `delete-key`
+  * `update` (die Standardaktion, wenn keine Aktion angegeben ist)
+  * `delete-field`
+  * `delete-key`
 * `enc` (optional): Datenkodierungsspezifikation. Folgende Werte werden unterstützt:
-   * `utf8` oder `UTF8` (Standard)
-   * `latin1` oder `LATIN1`
+  * `utf8` oder `UTF8` (Standard)
+  * `latin1` oder `LATIN1`
 
 Bei allen JSON-Feldnamen (`key`, `data`, `action`, `enc`) wird zwischen Groß- und Kleinschreibung unterschieden.
 

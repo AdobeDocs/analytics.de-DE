@@ -63,8 +63,8 @@ Schwellenwerte können manchmal auf Basis einzelner Dimensionen geändert werden
 * Die Report Suite-ID
 * Die Dimension, für die Sie den Schwellenwert erhöhen möchten
 * Sowohl der erste als auch der zweite Schwellenwert sind erwünscht:
-   * Der erste Schwellenwert (anfängliches Bucketing) ist standardmäßig auf **2.000.000** festgelegt.
-   * Der zweite Schwellenwert (aggressivere Filterung) ist standardmäßig auf **2.100.000** festgelegt.
+  * Der erste Schwellenwert (anfängliches Bucketing) ist standardmäßig auf **2.000.000** festgelegt.
+  * Der zweite Schwellenwert (aggressivere Filterung) ist standardmäßig auf **2.100.000** festgelegt.
 
 >[!IMPORTANT]
 >
@@ -79,5 +79,5 @@ Verschiedene Funktionen behandeln [!UICONTROL Low-Traffic]-Werte unterschiedlich
 * **Data Warehouse:** In den meisten Fällen gibt es keine Begrenzung für die Anzahl der eindeutigen Werte in Data Warehouse-Berichten. Seine eindeutige Architektur ermöglicht die Berichterstellung einer beliebigen Anzahl eindeutiger Werte. Werte [!UICONTROL Geringer Traffic] können jedoch in einigen eingeschränkten Szenarien weiterhin angezeigt werden. Beispiele sind Listenvariablen, Listen-Props, Merchandising-eVars und Marketing-Kanal-Detaildimensionen.
 * **Segmentierung:** Wenn die Segmentkriterien eine Dimension mit einer hohen Anzahl eindeutiger Werte enthalten, werden Werte, die unter [!UICONTROL Geringer Traffic] erfasst werden, nicht einbezogen.
 * **Klassifizierungen:** Auch Klassifizierungsberichte unterliegen eindeutigen Beschränkungen. Wenn das übergeordnete Dimensionselement einer Klassifizierung unter „Geringer [!UICONTROL &quot; enthalten ist] wird der Wert nicht klassifiziert.
-   * [!UICONTROL Geringer Datenverkehr] Werte, die über den Importer klassifiziert werden, können in Data Warehouse angezeigt werden. <!-- AN-115871 -->
-   * [!UICONTROL Geringer Traffic]-Werte, die über den Regel-Builder klassifiziert *können* in Data Warehouse angezeigt werden. <!-- AN-122872 -->
+  * [!UICONTROL Geringer Datenverkehr] Werte, die über den Importer klassifiziert werden, können in Data Warehouse angezeigt werden. <!-- AN-115871 -->
+  * [!UICONTROL Geringer Traffic]-Werte, die über den Regel-Builder klassifiziert *können* in Data Warehouse angezeigt werden. <!-- AN-122872 -->

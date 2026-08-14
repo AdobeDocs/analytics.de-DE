@@ -227,7 +227,7 @@ Sie können Warehouse-Daten direkt an Amazon S3-Buckets senden. Dieser Zieltyp 
 Die Benutzerin oder der Benutzer, die bzw. den Sie zum Hochladen von Data Warehouse-Daten angeben, muss über die folgenden [Berechtigungen](https://docs.aws.amazon.com/de_de/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) verfügen:
 
 * S3:GetObject
-* S3:PutObject
+* s3:PutObject
 * S3:PutObjectAcl
 
 Die folgenden 16 standardmäßigen AWS-Regionen werden unterstützt (gegebenenfalls unter Verwendung des entsprechenden Signaturalgorithmus):

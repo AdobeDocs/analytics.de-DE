@@ -34,14 +34,14 @@ So benennen Sie Ordner in Workspace um:
 
 * Wählen Sie in der [Projektliste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) einen Ordner aus, den Sie umbenennen möchten.
 
-   1. Wählen Sie im Kontextmenü ![Mehr](/help/assets/icons/More.svg) des ausgewählten Ordners oder auf der blauen Aktionsleiste unter den verfügbaren [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) die Option **[!UICONTROL Umbenennen]** aus.
-   1. Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: *Ordnername *]**&#x200B;einen neuen Namen ein und wählen Sie&#x200B;**[!UICONTROL Speichern &#x200B;]**&#x200B;aus.
+  1. Wählen Sie im Kontextmenü ![Mehr](/help/assets/icons/More.svg) des ausgewählten Ordners oder auf der blauen Aktionsleiste unter den verfügbaren [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) die Option **[!UICONTROL Umbenennen]** aus.
+  1. Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: *Ordnername *]**&#x200B;einen neuen Namen ein und wählen Sie&#x200B;**[!UICONTROL Speichern &#x200B;]**&#x200B;aus.
 
 * Innerhalb des Ordners, den Sie umbenennen möchten.
 
-   1. Wählen Sie im [Titelbereich](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) über ![Mehr](/help/assets/icons/More.svg) die Option **[!UICONTROL Ordner umbenennen]** aus.
+  1. Wählen Sie im [Titelbereich](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) über ![Mehr](/help/assets/icons/More.svg) die Option **[!UICONTROL Ordner umbenennen]** aus.
 
-   1. Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: *Ordnername *]**&#x200B;einen neuen Namen ein und wählen Sie&#x200B;**[!UICONTROL Speichern &#x200B;]**&#x200B;aus.
+  1. Geben Sie im Dialogfeld **[!UICONTROL Umbenennen: *Ordnername *]**&#x200B;einen neuen Namen ein und wählen Sie&#x200B;**[!UICONTROL Speichern &#x200B;]**&#x200B;aus.
 
 
 ## Verschieben von Ordnern
@@ -52,18 +52,18 @@ So verschieben Sie Ordner in Workspace:
 
 * Wählen Sie in der [Projektliste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) einen Ordner aus, den Sie verschieben möchten.
 
-   1. Wählen Sie im Kontextmenü ![Mehr](/help/assets/icons/More.svg) des ausgewählten Ordners oder auf der blauen Aktionsleiste unter den verfügbaren [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) die Option **[!UICONTROL Verschieben nach]** aus.
-   1. Wählen **[!UICONTROL im Dialogfeld &quot;]** auswählen“ einen Ordner aus dem Dropdown-Menü **[!UICONTROL Ordner]** aus, in den der Ordner verschoben werden soll.
+  1. Wählen Sie im Kontextmenü ![Mehr](/help/assets/icons/More.svg) des ausgewählten Ordners oder auf der blauen Aktionsleiste unter den verfügbaren [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) die Option **[!UICONTROL Verschieben nach]** aus.
+  1. Wählen **[!UICONTROL im Dialogfeld &quot;]** auswählen“ einen Ordner aus dem Dropdown-Menü **[!UICONTROL Ordner]** aus, in den der Ordner verschoben werden soll.
 
-   1. Wählen Sie **[!UICONTROL Verschieben]** aus.
+  1. Wählen Sie **[!UICONTROL Verschieben]** aus.
 
 * Innerhalb des Ordners, den Sie verschieben möchten.
 
-   1. Wählen Sie im [Titelbereich](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) die Option ![Mehr](/help/assets/icons/More.svg) und dann **[!UICONTROL Ordner verschieben]** aus.
+  1. Wählen Sie im [Titelbereich](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) die Option ![Mehr](/help/assets/icons/More.svg) und dann **[!UICONTROL Ordner verschieben]** aus.
 
-   1. Wählen **[!UICONTROL im Dialogfeld &quot;]** auswählen“ einen Ordner aus dem Dropdown-Menü **[!UICONTROL Ordner]** aus, in den der Ordner verschoben werden soll.
+  1. Wählen **[!UICONTROL im Dialogfeld &quot;]** auswählen“ einen Ordner aus dem Dropdown-Menü **[!UICONTROL Ordner]** aus, in den der Ordner verschoben werden soll.
 
-   1. Wählen Sie **[!UICONTROL Verschieben]** aus.
+  1. Wählen Sie **[!UICONTROL Verschieben]** aus.
 
 
 ## Löschen von Ordnern
@@ -79,15 +79,15 @@ So löschen Sie Ordner in Workspace
 
 * Wählen Sie in der [Projektliste](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) einen oder mehrere Ordner aus, den bzw. die Sie löschen möchten.
 
-   1. Wählen Sie im Kontextmenü ![Mehr](/help/assets/icons/More.svg) des ausgewählten Ordners oder auf der blauen Aktionsleiste unter den verfügbaren [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) die Option **[!UICONTROL Löschen]** aus.
+  1. Wählen Sie im Kontextmenü ![Mehr](/help/assets/icons/More.svg) des ausgewählten Ordners oder auf der blauen Aktionsleiste unter den verfügbaren [Aktionen](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) die Option **[!UICONTROL Löschen]** aus.
 
-   1. Im **[!UICONTROL Sind Sie sicher?]** klicken Sie auf **[!UICONTROL OK]**, um die Ordner zu löschen.
+  1. Im **[!UICONTROL Sind Sie sicher?]** klicken Sie auf **[!UICONTROL OK]**, um die Ordner zu löschen.
 
 * Innerhalb des Ordners, den Sie löschen möchten.
 
-   1. Wählen Sie im [Titelbereich](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) die Option ![Mehr](/help/assets/icons/More.svg) und dann **[!UICONTROL Ordner löschen]** aus.
+  1. Wählen Sie im [Titelbereich](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) die Option ![Mehr](/help/assets/icons/More.svg) und dann **[!UICONTROL Ordner löschen]** aus.
 
-   1. Im Ordner **[!UICONTROL Löschen *name*?]** wählen Sie im Dialogfeld **[!UICONTROL OK]**.
+  1. Im Ordner **[!UICONTROL Löschen *name*?]** wählen Sie im Dialogfeld **[!UICONTROL OK]**.
 
 
 <!-- 

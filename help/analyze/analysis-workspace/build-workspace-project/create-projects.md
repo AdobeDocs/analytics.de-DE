@@ -51,15 +51,15 @@ Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der
 * Fügen Sie dem Projekt [Bedienfelder](/help/analyze/analysis-workspace/c-panels/panels.md) hinzu, Zum Beispiel das **[!DNL Example Panel]** ➊.
 
 * Fügen Sie Ihren Bedienfeldern [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) hinzu, z. B.:
-   * Visualisierung [Linie](/help/analyze/analysis-workspace/visualizations/line.md) **[!DNL Line]** ➋
-   * Visualisierung [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) **[!DNL US States]** ➌
+  * Visualisierung [Linie](/help/analyze/analysis-workspace/visualizations/line.md) **[!DNL Line]** ➋
+  * Visualisierung [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) **[!DNL US States]** ➌
 * Fügen Sie Ihren Visualisierungen [Komponenten](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) hinzu, z. B.:
-   * [Dimension](/help/components/dimensions/overview.md) **[!DNL US States]** ➍
-   * [Metrik](/help/analyze/analysis-workspace/components/apply-create-metrics.md) **[!DNL Unique Visitors]** ➎
-   * [Berechnete Metrik](/help/components/calculated-metrics/cm-overview.md) **[!DNL Average Revenue Per Order]** ➏
-   * [Segment](/help/components/segmentation/seg-overview.md) **[!DNL Visits from Mobile Devices]** ➐
-   * [Datumsbereich](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) **[!DNL Last Month]** ➑
-   * [Anmerkung](/help/analyze/analysis-workspace/components/annotations/overview.md) **[!DNL Example]** ➒
+  * [Dimension](/help/components/dimensions/overview.md) **[!DNL US States]** ➍
+  * [Metrik](/help/analyze/analysis-workspace/components/apply-create-metrics.md) **[!DNL Unique Visitors]** ➎
+  * [Berechnete Metrik](/help/components/calculated-metrics/cm-overview.md) **[!DNL Average Revenue Per Order]** ➏
+  * [Segment](/help/components/segmentation/seg-overview.md) **[!DNL Visits from Mobile Devices]** ➐
+  * [Datumsbereich](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) **[!DNL Last Month]** ➑
+  * [Anmerkung](/help/analyze/analysis-workspace/components/annotations/overview.md) **[!DNL Example]** ➒
 
 
 ## Projektinfo und Einstellungen {#project-info-settings}

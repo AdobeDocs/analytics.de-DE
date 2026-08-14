@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 91%
+source-wordcount: '1671'
+ht-degree: 92%
 
 ---
 
@@ -65,7 +65,7 @@ Die Projektliste ➋ zeigt alle Projekte, die Ihnen gehören bzw. die für Sie f
 | **[!UICONTROL Zuletzt geöffnet]** | Datum und Zeitpunkt der letzten Öffnung des Projekts. |
 | **[!UICONTROL Komponenten-ID]** | Die ID der Komponente. |
 | **[!UICONTROL Längster Datumsbereich]** | Der längste Datumsbereich von allen Panels oder Visualisierungen im Projekt. |
-| **[!UICONTROL Anzahl der Abfragen]** | Die Gesamtzahl der im Projekt enthaltenen Abfragen.  |
+| **[!UICONTROL Anzahl der Abfragen]** | Die Gesamtzahl der im Projekt enthaltenen Abfragen. |
 | **[!UICONTROL Ort]** | Der Ordner, in dem sich das Projekt befindet. |
 
 Bewegen Sie den Mauszeiger über eine beliebige Spaltenüberschrift, um ![ChevronDown](/help/assets/icons/ChevronDown.svg) anzuzeigen, und wählen Sie Folgendes aus dem Kontextmenü aus:
@@ -121,7 +121,7 @@ Das Panel „Filter“ besteht aus den folgenden Abschnitten.
 
 | Report Suites | Beschreibung |
 |---|---|
-| ![Report Suite](assets/projects-filters-reportsuites.png){width="300"} | Im **[!UICONTROL Report]**&quot; können Sie nach Report Suites filtern. <ul><li>Sie verwenden ![Suche](/help/assets/icons/Search.svg) *Report Suites durchsuchen* um nach Report Suites zu suchen, die Sie zum Filtern verwenden möchten.</li><li>Sie können mehrere Report Suites auswählen. Die verfügbaren Report Suites hängen von der Auswahl ab, die in anderen Abschnitten im Filterbedienfeld vorgenommen wurde.</li><li>Die Zahlen geben Folgendes an:<ul><li>**3︎⃣**: Die Anzahl der Report Suites, die für die aus dem aktuellen Filter resultierenden Projekte verfügbar sind.</li><li>4︎⃣: Die Anzahl der Projekte, die der jeweiligen Report Suite zugeordnet sind.</li></ul></li></ul> |
+| ![Report Suite](assets/projects-filters-reportsuites.png){width="300"} | Im **[!UICONTROL Report]**&quot; können Sie nach Report Suites filtern. <ul><li>Sie verwenden ![Suche](/help/assets/icons/Search.svg) *Report Suites durchsuchen* um nach Report Suites zu suchen, die Sie zum Filtern verwenden möchten.</li><li>Sie können mehrere Report Suites auswählen. Die verfügbaren Report Suites hängen von der Auswahl ab, die in anderen Abschnitten im Panel „Filter“ vorgenommen wurde.</li><li>Die Zahlen geben Folgendes an:<ul><li>**3︎⃣**: Die Anzahl der Report Suites, die für die aus dem aktuellen Filter resultierenden Projekte verfügbar sind.</li><li>4︎⃣: Die Anzahl der Projekte, die der jeweiligen Report Suite zugeordnet sind.</li></ul></li></ul> |
 
 
 ### Inhaberinnen oder Inhaber
@@ -157,6 +157,6 @@ Wenn der Platz für die Anzeige der einzelnen Filter begrenzt ist, sehen Sie **[
 
 * So entfernen Sie einen Filter:
 
-   1. Verwenden Sie **[!UICONTROL *x *Filter]**![ChevronDown](/help/assets/icons/ChevronDown.svg), um ein Kontextmenü mit einer Liste der Filtertypen und der einzelnen Filter zu öffnen.
-   1. Wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg) aus, um einen Filter zu entfernen.
+  1. Verwenden Sie **[!UICONTROL *x *Filter]**![ChevronDown](/help/assets/icons/ChevronDown.svg), um ein Kontextmenü mit einer Liste der Filtertypen und der einzelnen Filter zu öffnen.
+  1. Wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg) aus, um einen Filter zu entfernen.
 

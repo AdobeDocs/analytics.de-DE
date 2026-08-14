@@ -93,8 +93,8 @@ So konfigurieren Sie Erfolgsereignisse:
    | Einstellung | Sichtbar in | Nicht sichtbar in |
    |---------|----------|---------|
    | [!UICONTROL **Überall eingeblendet**] | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Aufbau berechneter Metriken</li></ul> | nicht angegeben |
-   | [!UICONTROL **Builder**] | <ul><li>Segment Builder</li><li>Generator für berechnete Metriken</li><li>Analysis Workspace</li></ul> |  |
-   | [!UICONTROL **Überall ausgeblendet**] | nicht angegeben | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Aufbau berechneter Metriken</li></ul> |
+   | [!UICONTROL **Builder**] | <ul><li>Segment Builder</li><li>Aufbau berechneter Metriken</li><li>Analysis Workspace</li></ul> |  |
+   | [!UICONTROL **Überall ausgeblendet**] | k. A. | <ul><li>Analysis Workspace</li><li>Segment Builder</li><li>Aufbau berechneter Metriken</li></ul> |
 
 1. Aktivieren Sie in [!UICONTROL **Spalte**] Beschreibung“ das Kontrollkästchen und geben Sie dann eine Beschreibung ein.
 1. Aktivieren Sie in [!UICONTROL **Spalte &quot;**] Ereignisaufzeichnung“ das Kontrollkästchen und wählen Sie dann aus dem Dropdown-Menü aus, ob das Ereignis immer aufgezeichnet werden soll.

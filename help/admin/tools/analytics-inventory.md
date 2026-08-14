@@ -48,13 +48,13 @@ Das Ziel des Analytics-Inventars besteht darin, Ihnen bei der Beantwortung der f
 
 * Nachdem Sie ermittelt haben, welche Assets migriert werden müssen:
 
-   * Sollten Sie vor diesem Upgrade eine Bereinigung der Assets durchführen?
+  * Sollten Sie vor diesem Upgrade eine Bereinigung der Assets durchführen?
 
-   * Sollten Sie im Rahmen dieses Prozesses eine Asset-Konsolidierung durchführen?
+  * Sollten Sie im Rahmen dieses Prozesses eine Asset-Konsolidierung durchführen?
 
-   * Wie sollte die Upgrade-Sequenz für Ihre Assets lauten?
+  * Wie sollte die Upgrade-Sequenz für Ihre Assets lauten?
 
-   * Welche Report Suites sollten zuerst oder zuletzt aktualisiert werden?
+  * Welche Report Suites sollten zuerst oder zuletzt aktualisiert werden?
 
 ## Berechtigungen
 

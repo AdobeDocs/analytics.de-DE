@@ -44,9 +44,9 @@ Report Builder für Adobe Analytics wird von den folgenden Betriebssystemen und 
 
   Alle Benutzer von Windows Desktop [!DNL Excel] müssen Microsoft Edge Webview2 installieren, um das Add-In verwenden zu können. So installieren Sie den Controller:
 
-   1. Öffnen von <https://aka.ms/webview2installer>.
-   1. Wählen Sie das Evergreen Standalone-Installationsprogramm aus und laden Sie es herunter.
-   1. Folgen Sie den Anweisungen bei der Installation.
+  1. Öffnen von <https://aka.ms/webview2installer>.
+  1. Wählen Sie das Evergreen Standalone-Installationsprogramm aus und laden Sie es herunter.
+  1. Folgen Sie den Anweisungen bei der Installation.
 
 ### Web Office
 
