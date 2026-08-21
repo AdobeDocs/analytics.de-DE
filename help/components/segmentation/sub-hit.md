@@ -6,9 +6,9 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ In Adobe Analytics gilt die Analyse von Untertreffern speziell für die Variable
 
 In Adobe Analytics kann die [Variable „Produkte](/help/components/dimensions/product.md) mehrere Produkte in einem Treffer erfassen. Ohne Analyse von Untertreffern gibt die Segmentierung nach einem Produktattribut alle Treffer zurück, bei denen ein beliebiges Produkt innerhalb eines Treffers mit dem Produktattribut übereinstimmt. Das Ergebnis ist eine falsche Attribution und überhöhte Umsatzmetriken. Die Analyse untergeordneter Treffer erfasst den Filter auf einzelne Produktzeilen innerhalb eines Treffers und löst diese Probleme.
 
-In der Analyse von Untertreffern verhält sich die Ausschlusslogik anders als der standardmäßige Ausschluss auf Trefferebene bei der Variablen „products“. Wenn Sie Produktattribute im [!UICONTROL Produkte]-Container ausschließen, gibt das Segment Treffer zurück, die **Produkte haben** aber nicht Ihren Ausschlusskriterien entsprechen. Das Segment gibt keine Treffer ohne Produkte zurück.
+In der Analyse von Untertreffern verhält sich die Ausschlusslogik anders als der standardmäßige Ausschluss auf Trefferebene bei der Variablen „products“. Wenn Sie Produktattribute im [!UICONTROL Produkte]-Container ausschließen, gibt das Segment Treffer zurück, die **Produkte haben** aber nicht Ihren Ausschlusskriterien entsprechen.
+
+In Adobe Analytics enthält jeder Treffer Produktlistenelemente, selbst wenn der Treffer keine Produkt-ID hat. Infolgedessen gibt die Ausschlusslogik für die Analyse von untergeordneten Treffern Treffer ohne Produkte zurück.
 
 ## Beispiel
 
@@ -39,7 +41,8 @@ Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** g
 
 ![Bedienfeld, das die Segmentierung auf Trefferebene für die Menüs der Produktkategorie anzeigt](./assets/product-category-segmentation-hits.png)
 
-Infolgedessen werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Männer]**&#x200B;**[!UICONTROL Einzelhandel: Mode]** Produktkategorie enthalten, und der Umsatz aus anderen Produkten in diesen Bestellungen wird in die Metrik **[!UICONTROL Online-Umsatz]** einbezogen.Wenn Sie Berichte zu Kategorien erstellen, werden alle anderen Werte für **[!UICONTROL Einzelhandel: Modeproduktkategorie]** gemeldet, die Teil einer Bestellung waren, die ein Produkt in der **[!UICONTROL Herren]**-**[!UICONTROL Einzelhandel: Modeproduktkategorie]** enthielt.
+Infolgedessen werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Männer]**&#x200B;**[!UICONTROL Einzelhandel: Mode]** Produktkategorie enthalten, und der Umsatz aus anderen Produkten in diesen Bestellungen wird in die Metrik **[!UICONTROL Online-Umsatz]** einbezogen.
+Wenn Sie Berichte zu Kategorien erstellen, werden alle anderen Werte für **[!UICONTROL Einzelhandel: Modeproduktkategorie]** gemeldet, die Teil einer Bestellung waren, die ein Produkt in der **[!UICONTROL Herren]**-**[!UICONTROL Einzelhandel: Modeproduktkategorie]** enthielt.
 
 >[!TAB Analyse von Untertreffern]
 
@@ -47,7 +50,8 @@ Im Segmentierungs-Builder oder als Teil eines **[!UICONTROL Schnellsegments]** g
 
 ![Bedienfeld, das die Segmentierung auf der Ebene untergeordneter Treffer für die Menüs der Produktkategorie anzeigt](./assets/product-category-segmentation-sub-hits.png)
 
-Daher werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** enthalten, und nur der Umsatz von Produkten, die zur **[!UICONTROL Men]**&#x200B;**[!UICONTROL Retail: Fashion Product Category]** gehören, wird in die **[!UICONTROL Online Revenue]**-Metrik einbezogen.Wenn Sie Berichte zu Kategorien erstellen, wird nur die Kategorie **[!UICONTROL Männer]** **[!UICONTROL Einzelhandel: Mode]** angezeigt.
+Daher werden alle Bestellungen berücksichtigt, die mindestens eine **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** enthalten, und nur der Umsatz von Produkten, die zur **[!UICONTROL Men]**&#x200B;**[!UICONTROL Retail: Fashion Product Category]** gehören, wird in die **[!UICONTROL Online Revenue]**-Metrik einbezogen.
+Wenn Sie Berichte zu Kategorien erstellen, wird nur die Kategorie **[!UICONTROL Männer]** **[!UICONTROL Einzelhandel: Mode]** angezeigt.
 
 >[!TAB Analyse der Untertreffer (ausschließen)]
 
