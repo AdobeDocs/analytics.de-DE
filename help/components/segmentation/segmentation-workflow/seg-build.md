@@ -4,22 +4,14 @@ title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 74%
+source-wordcount: 2082
+ht-degree: 70%
 
 ---
 
@@ -98,9 +90,20 @@ So fügen Sie eine Komponente hinzu:
 
 1. Ziehen Sie eine Komponente aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Segmente und/oder Dimensionen mittels Drag-and-Drop hier]**.
    * Sie können ![Suchen](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
-   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]&#x200B;**, ![Dimensionen**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons/Checkmark.svg)Metriken ]&#x200B;**, ![](/help/assets/icons/Segmentation.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Calendar.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Layer.svg)**&#x200B;**Segmentierung**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons2/DataDimension.svg)**&#x200B;** ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) &#x200B;](/help/assets/icons/Label.svg) filtern.
+   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]**, ![Dimensionen**[!UICONTROL , ](/help/assets/icons/Checkmark.svg)Metriken ]**, ![](/help/assets/icons/Segmentation.svg)****![ ](/help/assets/icons/Calendar.svg)****![ ](/help/assets/icons/Layer.svg)****Segmentierung**[!UICONTROL , ](/help/assets/icons2/DataDimension.svg)**** ![ ](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) ](/help/assets/icons/Label.svg) filtern.
 1. Geben Sie Details für die Komponente an. Wählen Sie beispielsweise einen Wert über **[!UICONTROL Wert auswählen]** aus. Oder geben Sie einen Wert ein. Wie Sie einen oder mehrere Werte und welche Werte Sie angeben können, hängt von der Komponente und dem Operator ab.
-1. Ändern Sie optional den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
+
+1. (Optional) Aktivieren Sie die Option [!UICONTROL **Ergebnisse auf den Datumsbereich des Berichts beschränken**].
+
+   Daten in einem Workspace-Bericht können über den Datumsbereich des Berichts hinausgehen, wenn Ihr Segment Datumsbereichskomponenten enthält.
+
+   Aktivieren Sie diese Option, um die Ergebnisse auf den Datumsbereich des Berichts zu beschränken, unabhängig von Datumskomponenten, die im Segment enthalten sind.
+
+   Diese Option wird nur angezeigt, wenn [!UICONTROL **Person**] als Umfang (Container) Ihrer Definition im **[!UICONTROL -Menü]** Einschließen oder **[!UICONTROL Ausschließen]** ausgewählt ist.
+
+   **HINWEIS**: Diese Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Customer Journey Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+
+1. (Optional) Ändern Sie den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
 So bearbeiten Sie eine Komponente:
 
@@ -148,7 +151,7 @@ Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. So kö
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -271,7 +274,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +335,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
