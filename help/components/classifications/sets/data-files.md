@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,8 @@ Klassifizierungssätze unterstützen die folgenden Dateiformate:
 
 * **JSON**: JavaScript Object Notation-Dateien mit strukturierten Daten
 * **CSV**: Dateien mit kommagetrennten Werten
-* **TSV oder TAB**: Dateien mit tabulatorgetrennten Werten
+* **TSV**: Dateien mit tabulatorgetrennten Werten
+* **TAB**: Dateien mit tabulatorgetrennten Werten mit der Erweiterung &quot;`.tab`&quot; (nur Browser-Upload; nicht von der API unterstützt)
 
 ## Allgemeine Dateianforderungen
 
@@ -167,6 +168,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ Details zum TSV- und TAB-Format
+
+>[!NOTE]
+>
+>Dateien mit der `.tab`-Erweiterung werden nur für Browser-Uploads unterstützt. Die [Klassifizierungs](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)API akzeptiert nicht den `.tab` Dateityp, auch wenn der Dateiinhalt tabulatorgetrennt ist. Verwenden Sie für API-Uploads stattdessen die `.tsv`-Erweiterung (oder `.json` oder `.csv`).
 
 TSV- (Tabulatorgetrennte Werte) und TAB-Dateien verwenden Tabulatorzeichen, um Klassifizierungsdatenfelder zu trennen.
 
