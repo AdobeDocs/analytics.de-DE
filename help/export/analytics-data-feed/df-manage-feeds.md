@@ -12,16 +12,16 @@ subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
 # Verwalten von Daten-Feeds {#manage-data-feeds}
 
-Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihre Organisation erstellen, bearbeiten und löschen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
+Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihr Unternehmen erstellen, bearbeiten und abbrechen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
 
 
 >[!BEGINSHADEBOX]
@@ -140,15 +140,15 @@ So aktivieren Sie einen Daten-Feed:
 
 1. Aktivieren Sie das Kontrollkästchen neben dem inaktiven Daten-Feed, den Sie aktivieren möchten, und wählen Sie dann [!UICONTROL **Aktivieren**] aus.
 
-## Löschen eines Daten-Feeds
+## Abbrechen eines Daten-Feeds
 
-Wenn Sie einen Daten-Feed löschen, wird sein Status auf &quot;[!UICONTROL &quot; &#x200B;]. Daten-Feeds müssen den Status &quot;[!UICONTROL &quot; aufweisen] bevor sie gelöscht werden können.
+Wenn Sie einen Daten-Feed abbrechen, wird sein Status auf [!UICONTROL Abgebrochen] gesetzt. Daten-Feeds müssen den Status &quot;[!UICONTROL &quot; aufweisen] bevor sie abgebrochen werden können.
 
-Löschen eines Daten-Feeds:
+Abbrechen eines Daten-Feeds:
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Admin**] > [!UICONTROL **Daten-Feeds**] aus.
 
-1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, den Sie löschen möchten, und klicken Sie dann auf [!UICONTROL **Löschen**].
+1. Aktivieren Sie das Kontrollkästchen neben dem Daten-Feed, den Sie abbrechen möchten, und klicken Sie dann auf [!UICONTROL **Abbrechen**].
 
 ## Sortieren und Anpassen von Spalten im Daten-Feed-Manager
 
@@ -179,7 +179,7 @@ So passen Sie die sichtbaren Spalten in der Tabelle an:
    * **Status:** Der Status des Feeds.
      * Aktiv: Der Feed ist betriebsfähig.
      * Genehmigung ausstehend: Unter bestimmten Umständen muss ein Feed von Adobe genehmigt werden, bevor er Aufträge generieren kann.
-     * Gelöscht: Der Feed wurde gelöscht.
+     * Abgebrochen: Der Feed wurde abgebrochen.
      * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
      * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
      * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).

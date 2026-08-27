@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 74%
+source-wordcount: 2082
+ht-degree: 70%
 
 ---
 
@@ -100,7 +100,18 @@ So fügen Sie eine Komponente hinzu:
    * Sie können ![Suchen](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
    * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]&#x200B;**, ![Dimensionen**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons/Checkmark.svg)Metriken ]&#x200B;**, ![](/help/assets/icons/Segmentation.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Calendar.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Layer.svg)**&#x200B;**Segmentierung**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons2/DataDimension.svg)**&#x200B;** ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) &#x200B;](/help/assets/icons/Label.svg) filtern.
 1. Geben Sie Details für die Komponente an. Wählen Sie beispielsweise einen Wert über **[!UICONTROL Wert auswählen]** aus. Oder geben Sie einen Wert ein. Wie Sie einen oder mehrere Werte und welche Werte Sie angeben können, hängt von der Komponente und dem Operator ab.
-1. Ändern Sie optional den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
+
+1. (Optional) Aktivieren Sie die Option [!UICONTROL **Ergebnisse auf den Datumsbereich des Berichts beschränken**].
+
+   Daten in einem Workspace-Bericht können über den Datumsbereich des Berichts hinausgehen, wenn Ihr Segment Datumsbereichskomponenten enthält.
+
+   Aktivieren Sie diese Option, um die Ergebnisse auf den Datumsbereich des Berichts zu beschränken, unabhängig von Datumskomponenten, die im Segment enthalten sind.
+
+   Diese Option wird nur angezeigt, wenn [!UICONTROL **Person**] als Umfang (Container) Ihrer Definition im **[!UICONTROL -Menü]** Einschließen oder **[!UICONTROL Ausschließen]** ausgewählt ist.
+
+   **HINWEIS**: Diese Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Customer Journey Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+
+1. (Optional) Ändern Sie den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
 So bearbeiten Sie eine Komponente:
 
