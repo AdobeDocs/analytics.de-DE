@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 33%
+source-wordcount: 1297
+ht-degree: 32%
 
 ---
 
@@ -53,10 +53,6 @@ Verwenden Sie den folgenden Prozess beim Exportieren von Arbeitsmappen aus Repor
 ![Der in den Schritten 1 bis 4 beschriebene Exportvorgang](assets/report-builder-export-process.png)
 
 ## Exportieren eines Berichts aus Report Builder
-
->[!NOTE]
->
->Bevor Sie Daten exportieren, wie in diesem Abschnitt beschrieben, erfahren Sie [&#x200B; Abschnitt über den &#x200B;](#understand-the-export-process) .
 
 So exportieren Sie Berichte aus Report Builder:
 
@@ -99,6 +95,9 @@ So exportieren Sie Berichte aus Report Builder:
 
    Die Daten werden mit der von Ihnen angegebenen Häufigkeit an das von Ihnen angegebene Cloud-Konto gesendet.
 
+>[!NOTE]
+>
+>Ein Zeitplan exportiert die Version der Arbeitsmappe, die bei der Erstellung des Zeitplans vorhanden war. Wenn Sie die Arbeitsmappe später ändern und speichern, übernimmt der vorhandene Zeitplan diese Änderungen nicht und exportiert weiterhin die Originalversion. Um eine aktualisierte Arbeitsmappe zu exportieren, erstellen Sie einen neuen Zeitplan, nachdem Sie Ihre Änderungen gespeichert haben.
 
 ## Vorteile des Exports in die Cloud
 

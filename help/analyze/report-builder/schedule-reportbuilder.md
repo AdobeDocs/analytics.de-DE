@@ -16,25 +16,26 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 26%
+source-wordcount: 964
+ht-degree: 23%
 
 ---
 
 # Arbeitsmappen durch Freigabe per E-Mail planen
 
->[!NOTE]
->
->Zusätzlich zur Planung von Arbeitsmappen für die Freigabe per E-Mail, wie in diesem Abschnitt beschrieben, können Sie Arbeitsmappen für den Export in Cloud-Ziele planen, wie in [Arbeitsmappen für den Export in Cloud-Ziele planen](/help/analyze/report-builder/report-builder-export.md) beschrieben.
-
 Nachdem Sie Ihre Arbeitsmappe gespeichert und Ihre Analyse abgeschlossen haben, können Sie die Arbeitsmappe mithilfe der Zeitplanfunktion für andere in Ihrem Team freigeben. Mit der Zeitplanfunktion können Sie einen Zeitplan erstellen, anhand dessen die Daten in der Arbeitsmappe automatisch aktualisiert werden und die Excel-Arbeitsmappe (.xlsx) als E-Mail-Anhang an Ihre ausgewählte Zielgruppe gesendet wird. Durch die Einrichtung eines Zeitplans erhalten die Empfänger und Empfängerinnen automatisch regelmäßige Aktualisierungen. Sie können die Zeitplanfunktion auch verwenden, um die Arbeitsmappe nur einmal zu senden, ohne automatische Aktualisierungen festzulegen.
 
 Für eine Arbeitsmappe können mehrere Zeitpläne erstellt werden. So können Sie beispielsweise eine Arbeitsmappe täglich an Ihr Team und einmal wöchentlich an Ihren Vorgesetzten senden, indem Sie zwei verschiedene Zeitpläne erstellen.
 
-Außerdem können Sie mit der Zeitplanfunktion einen Passwortschutz für eine Arbeitsmappe einrichten und zuvor geplante Arbeitsmappen bearbeiten.
+Zusätzlich zur Planung von Arbeitsmappen für die Freigabe per E-Mail, wie in diesem Abschnitt beschrieben, können Sie Arbeitsmappen für den Export in Cloud-Ziele planen, wie in [Arbeitsmappen für den Export in Cloud-Ziele planen](/help/analyze/report-builder/report-builder-export.md) beschrieben.
 
+Mit der Zeitplanfunktion können Sie auch einen Passwortschutz für eine Arbeitsmappe einrichten und den Zeitplan für zuvor geplante Arbeitsmappen bearbeiten.
+
+>[!NOTE]
+>
+>Ein Zeitplan sendet die Version der Arbeitsmappe, die bei der Erstellung des Zeitplans vorhanden war. Wenn Sie die Arbeitsmappe später ändern und speichern, werden diese Änderungen im vorhandenen Zeitplan nicht übernommen und weiterhin die Originalversion gesendet. Um eine aktualisierte Arbeitsmappe zu verteilen, erstellen Sie einen neuen Zeitplan, nachdem Sie Ihre Änderungen gespeichert haben.
 
 >[!BEGINSHADEBOX]
 
