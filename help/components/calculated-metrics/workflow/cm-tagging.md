@@ -4,10 +4,15 @@ title: Berechnete Metriken taggen
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
 TQID: https://experienceleague.adobe.com/GcufWZx6B2e-vv8MFhMsaW34nqfr2XdEK1bQ931HzRk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 170
@@ -18,11 +23,11 @@ ht-degree: 4%
 # Berechnete Metriken taggen
 
 
-Im [Manager für berechnete ](cm-manager.md)&quot; können Sie Tags verwenden, um berechnete Metriken zu organisieren. Admins können alle berechneten Metriken taggen. Nicht-Admins können nur die berechneten Metriken taggen, die sie erstellen oder die für sie freigegeben wurden.
+Im [Manager für berechnete &#x200B;](cm-manager.md)&quot; können Sie Tags verwenden, um berechnete Metriken zu organisieren. Admins können alle berechneten Metriken taggen. Nicht-Admins können nur die berechneten Metriken taggen, die sie erstellen oder die für sie freigegeben wurden.
 
 So kennzeichnen Sie eine oder mehrere berechnete Metriken:
 
-1. Wählen [ im Manager für ](cm-manager.md) berechnete Metriken mindestens eine der berechneten Metriken aus, die Sie taggen möchten.
+1. Wählen [&#x200B; im Manager für &#x200B;](cm-manager.md) berechnete Metriken mindestens eine der berechneten Metriken aus, die Sie taggen möchten.
 1. Wählen Sie in der Aktionsleiste ![Kennzeichnungen](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]** aus.
 1. Im Dialogfeld **[!UICONTROL Berechnete Metriken taggen]**
 

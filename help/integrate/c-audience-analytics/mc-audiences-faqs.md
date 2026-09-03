@@ -5,9 +5,14 @@ title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1120
@@ -23,7 +28,7 @@ Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audie
 
 +++ Woher weiß ich, ob meine Analytics-Daten personenbezogene Daten (PII) enthalten? Und wenn ja, was mache ich dagegen?
 
-Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([ Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
+Wenn E-Mails/Adressen/etc. in einer Prop oder eVar vorhanden sind, sollten Sie die Daten während der Erfassung hashen. Wenn Ihr Land IP-Adressen als personenbezogene Daten einstuft ([&#x200B; Sie die IP-Verschleierung ein](/help/admin/tools/exclude-ip.md). Wenden Sie sich an Ihren Analytics-Administrator, um zu erfahren, was Sie erfassen. Sprechen Sie mit Ihrer Rechtsabteilung, um zu erfahren, was sie als personenbezogene Daten erachtet.
 
 +++
 

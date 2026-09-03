@@ -20,7 +20,7 @@ In diesem Artikel wird ein komplexeres Beispiel für eine berechnete Metrik erl�
 
 1. Wählen Sie die Metrik **[!UICONTROL Online-Bestellungen]** aus den Komponenten **[!UICONTROL Metriken]** und ziehen Sie die Metrik in den Bereich **[!UICONTROL Definition]**.
 
-   1. Wählen Sie ![ Metrik ](/help/assets/icons/Setting.svg)Einstellung“ aus.
+   1. Wählen Sie ![&#x200B; Metrik &#x200B;](/help/assets/icons/Setting.svg)Einstellung“ aus.
    1. Wählen Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]** aus.
    1. Passen Sie das Attributionsmodell im **[!UICONTROL Spalten-Attributionsmodell]** an.
       1. Wählen Sie **[!UICONTROL Benutzerdefiniert]** für **[!UICONTROL Modell]** aus. Legen Sie **[!UICONTROL Starter]** auf `0`, **[!UICONTROL Player]** auf `100` und **[!UICONTROL Closer]** auf `0` fest.

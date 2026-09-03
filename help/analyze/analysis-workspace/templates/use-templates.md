@@ -5,11 +5,36 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e7d92df1-c5ba-4e93-85df-f83171b889beid: e9cb007b-c8b7-4975-bc81-11a788c535faid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18746
@@ -265,7 +290,7 @@ So greifen Sie auf alle verfügbaren vorkonfigurierten Vorlagen zu:
 
 Die folgenden Vorlagen sind verfügbar:
 
-| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Anleitungsvideo**] | Erfahren Sie mehr über die gängige Terminologie und die Schritte zum Erstellen Ihrer ersten Analyse in Analysis Workspace |
 | [!UICONTROL **Seiten**] | <!--duplicated in Engagement section--> Identifizieren Sie die beliebtesten und unbeliebtesten Seiten. <p>**Dies kann Ihnen helfen**, Ihre Zielgruppe und die Art von Informationen, die sie am meisten interessiert, besser zu verstehen.</p><p>**Basierend auf dem, was Sie erfahren, können Sie** eine Reihe von Schritten ausführen, z. B. Seitenmetadaten anpassen, um die Sichtbarkeit auf seltener angezeigten Seiten zu erhöhen, oder Zeit in die Verbesserung des Inhalts Ihrer am häufigsten angezeigten Seiten investieren.</p><p>Diese Vorlage verwendet die [Dimension „Seite“](/help/components/dimensions/page.md) und die [Metrik „Seitenansichten“](/help/components/metrics/page-views.md).</p> |
@@ -490,7 +515,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 Die folgenden Vorlagen sind verfügbar:
 
-| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Schlüsselmetriken**] | <!--duplicated in Most popular section--> Zeigen Sie einen Bericht an, der die Metriken „Seitenansichten“, „Besuche“ und „Unique Visitors“ nebeneinander anzeigt. Die Daten werden für einen bestimmten Zeitraum angezeigt und mit früheren Zeiträumen verglichen. <p>**Dies kann Ihnen helfen**, diese wichtigen Metriken zu vergleichen, um ein vollständigeres Bild über die Anzahl der Unique Visitors auf der Site, die Anzahl der Seitenbesuche und die Anzahl der Sitzungen zu erhalten.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die durchschnittliche Anzahl der Seiten bewerten, die jede Person während eines Besuchs auf der Site in einer bestimmten Woche oder in einem bestimmten Monat angesehen hat, und ermitteln, wie sich dies während bestimmter Zeiten des Jahres oder vor/nach der Durchführung von Marketing-Kampagnen verändert hat. </p><p>Diese Vorlage verwendet die [Dimension „Tag“](/help/components/dimensions/day.md), die [Metrik „Seitenansichten“](/help/components/metrics/page-views.md), die [Metrik „Besuche“](/help/components/metrics/visits.md) und die [Metrik „Unique Visitors“](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Seitenansichten**] | <!--duplicated in Most popular section-->Zeigen Sie die Gesamtanzahl der Seitenansichten an. Die Daten werden für einen bestimmten Zeitraum angezeigt und mit früheren Zeiträumen verglichen. <p>**Dies kann Ihnen helfen**, besser zu verstehen, wie der Traffic auf Ihrer Site im Laufe der Zeit möglicherweise zu- oder abnimmt.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Effektivität einer kürzlich gestarteten Marketing-Kampagne bewerten, indem Sie den Sitetraffic vor und nach dem Start der Kampagne vergleichen. Oder Sie vergleichen den jährlichen Feiertags-Traffic.</p><p>Diese Vorlage verwendet die [Dimension „Tag“](/help/components/dimensions/day.md) und die [Metrik „Seitenansichten“](/help/components/metrics/page-views.md).</p> |
@@ -618,7 +643,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 Die folgenden Vorlagen sind verfügbar:
 
-| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Produktkonversionstrichter**] | Zeigen Sie die Produktkonversion in einer Trichtervisualisierung mit Warenkörben, Checkouts und Bestellungen an. Sie können auch Konversionsprozentsätze sowie Durchschnittswerte von Umsätzen, Einheiten und Bestellungen anzeigen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wie Personen den Konversionsvorgang durchlaufen und daraus aussteigen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Ihre Website verbessern und so reibungslosere Checkouts ermöglichen.</p> |
 | **Produkte** | Zeigen Sie an, welche Produkte für Schlüsselmetriken verantwortlich sind, z. B. am häufigsten verkaufte oder angezeigte Produkte. <p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Produkte am erfolgreichsten sind.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Finanzierung für erfolgreiche Produkte erhöhen und für weniger erfolgreiche Produkte verringern.</p><p>Diese Vorlage verwendet die Metrik „Bestellungen“ und die Dimension „Produkt“. |
@@ -987,7 +1012,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 Die folgenden Vorlagen sind verfügbar:
 
-| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Metrik „Personen“**] | Zeigen Sie die Anzahl der Personen an, die mit Ihrer Marke interagieren. <p>**Dies kann Ihnen helfen**, die Nutzungs-Trends auf Ihrer Site besser zu verstehen.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. die Effektivität der letzten Marketing-Maßnahmen beim Generieren von neuen Besuchenden auf Ihrer Site messen.</p> |
 | **Besucherprofil** > **Standortübersicht** | Zeigen Sie eine Übersicht der Besuchsstandorte in einer Kartenvisualisierung an.<p>**Dies kann Ihnen helfen**, besser zu verstehen, wo sich die Personen, die Ihre Site besuchen, befinden. </p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Ressourcen auf die Standorte konzentrieren, wo Sie das größte Interesse und die meisten Chancen sehen.</p><!-- This template uses the --> |
@@ -1207,7 +1232,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 Die folgenden Vorlagen sind verfügbar:
 
-| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Marketing-Kanäle**] > [!UICONTROL **Kanalübersichtsbericht**] | Bei Verwendung der benutzerdefinierten Attribution zeigt diese Vorlage, wie Besuchende auf Ihre Site gelangen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Ihrer Marketing-Kanäle am effektivsten sind.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. intensiver in effektive Marketing-Kanäle investieren und weniger effektive Marketing-Kanäle aufgeben.</p><p>Diese Vorlage verwendet die Dimension „ID(variables/marketingchannel)“ und die Metrik „Umsatz“.</p> |
 | [!UICONTROL **Marketing-Kanäle**] > [!UICONTROL **Erstkontaktkanal**] | Zeigen Sie die ersten Marketing-Kanäle an, zu denen Besuchende während ihres Interaktionszeitraums (standardmäßig 30 Tage) passen. <p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Marketing-Kanäle den anfänglichen Traffic zu Ihrer Site leiten.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Marketing-Maßnahmen auf Bereiche konzentrieren, die am effektivsten sind.</p><p>Diese Vorlage verwendet die Dimension „Erstkontaktkanal“.</p> |
@@ -1272,7 +1297,7 @@ Die folgenden Vorlagen sind verfügbar:
 
 Die folgenden Vorlagen sind verfügbar:
 
-| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| Vorlagenname | Warum diese Vorlage verwenden?<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Mobilnetzbetreiber**] | Zeigen Sie das Telekommunikationsunternehmen an, das Mobilfunkverbindungen mit den Mobilgeräten bereitstellt, mit denen Benutzende auf Ihre Site zugreifen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Mobilnetzbetreiber bei Ihrer Benutzerbasis am beliebtesten sind.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. Ihre Inhaltsbereitstellung auf Grundlage der Netzwerkfunktionen verschiedener Betreiber anpassen, um ein reibungsloses Anwendererlebnis zu gewährleisten.</p><p>Diese Vorlage verwendet die Dimension „Mobilnetzbetreiber“.</p> |
 | **Geräte** | Zeigen Sie die Marke und das Modell von Mobilgeräten an, mit denen Benutzende auf Ihre Site zugreifen.<p>**Dies kann Ihnen helfen**, besser zu verstehen, welche Mobilgeräte bei Ihrer Benutzerbasis am beliebtesten sind.</p><p>**Basierend auf Ihren Erkenntnissen können Sie** eine Reihe von Schritten ausführen, z. B. das Rendering Ihrer Site für die gängigsten Mobilgeräte optimieren.</p><p>Diese Vorlage verwendet die Dimension „Mobilgerätename“.</p> |

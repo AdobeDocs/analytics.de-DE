@@ -6,9 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 TQID: https://experienceleague.adobe.com/TLo2RytIM7ZQlpFMqXsTdoz7vFAXnwqoTJGHDG7gWLg
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -22,7 +28,7 @@ ht-degree: 56%
 
 Rangordnung und bedingte Filter, die Sie mit UND/ODER-Suchausdrücken entsprechend Boolscher Logik konfigurieren.
 
-Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedingungen der Boolschen Logik konfigurieren, beispielsweise [!UICONTROL Seite enthält nicht ]*`<product name>`* mit Bedingungen oder Gruppen von Bedingungen wie [!UICONTROL Alle eingeschlossen], [!UICONTROL Beliebige eingeschlossen] oder [!UICONTROL Alle ausgeschlossen]. Sie können die Ausdrücke [speichern](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md), um sie in anderen Anforderungen in der aktuellen oder anderen Arbeitsmappen zu verwenden.
+Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedingungen der Boolschen Logik konfigurieren, beispielsweise [!UICONTROL Seite enthält nicht &#x200B;]*`<product name>`* mit Bedingungen oder Gruppen von Bedingungen wie [!UICONTROL Alle eingeschlossen], [!UICONTROL Beliebige eingeschlossen] oder [!UICONTROL Alle ausgeschlossen]. Sie können die Ausdrücke [speichern](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md), um sie in anderen Anforderungen in der aktuellen oder anderen Arbeitsmappen zu verwenden.
 
 **So erstellen Sie am meisten bevorzugte Filter**
 
@@ -42,7 +48,7 @@ Am meisten bevorzugte Filter sind Ausdrucksfilter, die Sie mit den UND/ODER-Bedi
 
    >[!NOTE]
    >
-   >Wenn Sie Filter auf bestehende Anforderungen anwenden, ändern sich die angezeigten Daten. Angenommen, Sie haben die zehn wichtigsten [!UICONTROL Seiten] den Zellen $A$1 bis $A$10 zugeordnet, mit 1 für [!UICONTROL Starting Rank] und 10 für [!UICONTROL Number of Entries]. Wenn Sie diese Werte ändern, sodass 1 für &quot;[!UICONTROL  Rang] und nur 3 für &quot;[!UICONTROL  der Einträge] angezeigt werden, werden die Daten, die zuvor die Zellen $A$4 bis $A$10 gefüllt haben, nicht mehr angezeigt.
+   >Wenn Sie Filter auf bestehende Anforderungen anwenden, ändern sich die angezeigten Daten. Angenommen, Sie haben die zehn wichtigsten [!UICONTROL Seiten] den Zellen $A$1 bis $A$10 zugeordnet, mit 1 für [!UICONTROL Starting Rank] und 10 für [!UICONTROL Number of Entries]. Wenn Sie diese Werte ändern, sodass 1 für &quot;[!UICONTROL &#x200B; Rang] und nur 3 für &quot;[!UICONTROL &#x200B; der Einträge] angezeigt werden, werden die Daten, die zuvor die Zellen $A$4 bis $A$10 gefüllt haben, nicht mehr angezeigt.
 
 1. Um einen Suchausdruck zu erstellen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 

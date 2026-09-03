@@ -5,11 +5,21 @@ feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/LpUX55ZGYgm7Z2-P4uAwH-rV88JMbi2661i4f9RYd-Q
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 503
@@ -33,7 +43,7 @@ Stellen Sie sicher, dass Sie jede Listenvariable in den Report Suite-Einstellung
 
 ## Listenvariablen, die das Web SDK verwenden
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwenden Listenvariablen die zu `xdm._experience.analytics.customDimensions.lists.list3.list[]` XDM-Felder `xdm._experience.analytics.customDimensions.lists.list1.list[]` . Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Datenerfassungs-Server von Adobe erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen“ festgelegt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verwenden Listenvariablen die zu `xdm._experience.analytics.customDimensions.lists.list3.list[]` XDM-Felder `xdm._experience.analytics.customDimensions.lists.list1.list[]` . Jedes Array-Element enthält ein `"value"`-Objekt, das jede Zeichenfolge enthält. Es ist nicht erforderlich, ein Trennzeichen anzugeben. Datenerfassungs-Server von Adobe erkennen automatisch das richtige Trennzeichen, das in den [Report Suite-Einstellungen“ festgelegt &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -65,7 +75,7 @@ Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) verw
 >
 >Das Adobe-XDM-Schema enthält `key`-Objekte zusätzlich zu `value`-Objekten in jedem `list[]`-Array. Adobe verwendet diese `key`-Objekte nicht beim Senden von Daten an Adobe Analytics.
 
-Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` der folgenden AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen“ festgelegt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
+Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listenvariablen `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` der folgenden AppMeasurement-Syntax. Stellen Sie sicher, dass Sie das richtige Trennzeichen verwenden, das in [Report Suite-Einstellungen“ festgelegt &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

@@ -5,11 +5,20 @@ exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
 role: Admin
 TQID: 'https://experienceleague.adobe.com/AOl1PUYf4TL0FrYB8eHL-JLiWvz6ixJYKUPpIZEFqj8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 327
@@ -31,7 +40,7 @@ Es gibt zwei allgemeine Arten von Datenquellen, die Adobe bietet. Alle Datenquel
 * **Zusammenfassungsdatenquelle**: Bietet eine einfache Möglichkeit zum Importieren von allgemeinen Daten in Adobe Analytics. Sie geben den Zeitstempel, den Variablenwert und die zugehörigen Metriken an. Diese Metriken für jedes Dimensionselement werden dann entsprechend erhöht. Dies ist nützlich, wenn Sie Offline- und Online-Daten nebeneinander sehen möchten. Es werden jedoch keine Online- und Offline-Daten miteinander verknüpft.
 * **Transaktions-ID-Datenquelle**: Wenn ein von AppMeasurement gesendeter Treffer und eine Datenquellenzeile übereinstimmende Transaktions-IDs enthalten, hängen die Dimensions- und Metrikwerte in der Datenquelle an diesen Treffer an.
 
-**Datenquellen mit vollständiger Verarbeitung** werden seit dem 25. März 2021 nicht mehr als Datenquellentyp angeboten. Weitere Informationen finden Sie [ Ankündigung ](full-processing-eol.md) Ende der Nutzungsdauer .
+**Datenquellen mit vollständiger Verarbeitung** werden seit dem 25. März 2021 nicht mehr als Datenquellentyp angeboten. Weitere Informationen finden Sie [&#x200B; Ankündigung &#x200B;](full-processing-eol.md) Ende der Nutzungsdauer .
 
 Adobe bietet außerdem die [Datenquellen-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), mit der Sie Datenquellen erstellen und Daten hochladen können, ohne die Produkt-Benutzeroberfläche oder einen FTP-Speicherort zu verwenden.
 
