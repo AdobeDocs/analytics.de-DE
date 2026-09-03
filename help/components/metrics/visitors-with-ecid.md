@@ -35,7 +35,7 @@ Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview
 
 ## Berechnung dieser Metrik
 
-Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit der Ausnahme, dass sie nur die mit der `mid`-Abfragezeichenfolge identifizierten Personen enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)-Cookie).
+Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit der Ausnahme, dass sie nur die mit der `mid`-Abfragezeichenfolge identifizierten Personen enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie).
 
 ## Debuggen des ECID-Setups
 

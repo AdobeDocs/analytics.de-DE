@@ -40,10 +40,10 @@ Einige Firewall-Konfigurationen blockieren Domains, auf die Adobe Analytics für
 
 ## Adobe CX Unternehmens-Domains
 
-Zusätzlich zu den oben genannten Domains stellt Adobe CX Enterprise für die Datenerfassung und den Export von Berichten mehrere Domains zur Verfügung. Siehe [Von CX Enterprise verwendete Domains](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) für diese Liste.
+Zusätzlich zu den oben genannten Domains stellt Adobe CX Enterprise für die Datenerfassung und den Export von Berichten mehrere Domains zur Verfügung. Siehe [Von CX Enterprise verwendete Domains](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/domains) für diese Liste.
 
 >[!MORELIKETHIS]
 >
 >[Von Adobe Analytics verwendete IP-Adressen](ip-addresses.md)
 >
->[Von CX Enterprise verwendete Domains](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Von CX Enterprise verwendete Domains](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/domains)

@@ -79,4 +79,4 @@ Im Folgenden sehen Sie einige der Vorteile von Customer Journey Analytics gegen�
 
 * **Report Suite-übergreifende Daten**: Vorhandene Implementierungen aus mehreren Datensätzen können in Platform kombiniert werden.
 
-Weitere Informationen finden Sie unter [Customer Journey Analytics – Übersicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html).
+Weitere Informationen finden Sie unter [Customer Journey Analytics – Übersicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de).

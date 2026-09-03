@@ -34,7 +34,7 @@ Mit der Variablen `ActivityMap.region` können Sie die Logik überschreiben, die
 
 ## Überschreiben von Regionswerten mit der Web-SDK
 
-Sie können [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) Callback verwenden, um die Web-SDK-Payload zu ändern oder den Versand von Daten abzubrechen.
+Sie können [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) Callback verwenden, um die Web-SDK-Payload zu ändern oder den Versand von Daten abzubrechen.
 
 ## Überschreiben von Regionen mithilfe der Adobe Analytics-Erweiterung
 
