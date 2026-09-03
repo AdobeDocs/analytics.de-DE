@@ -44,17 +44,17 @@ So erstellen Sie einen Klassifizierungssatz:
       * **[!UICONTROL Suche]**. Eine Lookup-Tabelle wird häufig als untergeordnete Klassifizierung oder Unterklassifizierung bezeichnet und ist eine Klassifizierung einer primären Klassifizierung. Bei einer Suche handelt es sich um Metadaten über einen Klassifizierungswert und nicht um die ursprüngliche Dimension. Beispielsweise könnte eine Dimension *Produkt* über eine primäre Classification mit *Farbcode* verfügen. Eine Lookup-Tabelle mit *Farbname* kann dann an den *Farbcode“ angehängt werden* um jeden Farbcode zu erklären.
 1. Wählen **[!UICONTROL im Abschnitt]** Auftragsbenachrichtigungen“ aus, wen Sie über einen Fehler oder Erfolg der Klassifizierungssatz-Aufträge benachrichtigen möchten.
    * So benachrichtigen Sie Benutzer über einen Fehler:
-      1. Aktivieren **[!UICONTROL Bei Fehler benachrichtigen]**.
-      1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; eine oder mehrere kommagetrennte E-Mail-Adressen]**.
+     1. Aktivieren **[!UICONTROL Bei Fehler benachrichtigen]**.
+     1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; eine oder mehrere kommagetrennte E-Mail-Adressen]**.
    * So benachrichtigen Sie Benutzer über den Erfolg:
-      1. Aktivieren Sie **[!UICONTROL Bei Erfolg benachrichtigen]**.
-      1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; mindestens eine kommagetrennte E-Mail-Adresse]**.
+     1. Aktivieren Sie **[!UICONTROL Bei Erfolg benachrichtigen]**.
+     1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; mindestens eine kommagetrennte E-Mail-Adresse]**.
 1. Geben **[!UICONTROL im Abschnitt]** Abonnements“, falls Sie **[!UICONTROL Primär]** ausgewählt haben, ein oder mehrere &quot;**[!UICONTROL &quot;]**.  Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
 
    * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
 
    Wenn Sie eine Kombination aus **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** hinzufügen, die bereits in einem anderen Klassifizierungssatz vorhanden ist, wird eine rote Meldung angezeigt.
-Sie haben folgende Möglichkeiten:
+   Sie haben folgende Möglichkeiten:
    * Wählen Sie **[!UICONTROL Zu vorhandenem hinzufügen]** aus, um den anderen Klassifizierungssatz zu öffnen und [Klassifizierungen zum Schema hinzufügen](manage/schema.md) für diesen anderen Klassifizierungssatz.
    * Ändern Sie **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** in eine Kombination, die noch nicht für einen anderen Klassifizierungssatz abonniert wurde.
 1. Wählen **[!UICONTROL Speichern]**, um den Klassifizierungssatz zu speichern. Wählen Sie **[!UICONTROL Abbrechen]**, um die Definition aufzuheben.

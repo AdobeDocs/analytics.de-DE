@@ -107,9 +107,9 @@ Bei Implementierungen, die viele Variablen mit langen Werten füllen, kann es ma
 * **Verarbeitungsregeln verwenden**: [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) können Werte von einer Variablen in eine andere kopieren. Diese Methode erspart Ihnen das Festlegen des gleichen Werts in mehreren Variablen. Beispiel:
 
   Immer ausführen:<br>
-Wert von prop1 mit eVar1 überschreiben<br>
-Wert von eVar2 mit eVar1 überschreiben<br>
-Wert von prop2 mit eVar1 überschreiben<br>
+  Wert von prop1 mit eVar1 überschreiben<br>
+  Wert von eVar2 mit eVar1 überschreiben<br>
+  Wert von prop2 mit eVar1 überschreiben<br>
 
   Legen Sie dann eVar1 in Ihrer Implementierung fest:
 

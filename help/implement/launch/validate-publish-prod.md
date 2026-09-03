@@ -44,7 +44,7 @@ Der CX Enterprise-Debugger ist eine Erweiterung, die alle auf einer Seite vorhan
 1. Installieren Sie die Erweiterung für [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) oder Firefox.
 2. Navigieren Sie zu Ihrer Entwicklungs-Website, auf der Sie Tags implementiert haben.
 3. Klicken Sie in Ihrem Browser auf das Symbol Adobe CX Enterprise Debugger .
-4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und der Besucher-ID-Dienst von Adobe Experience Cloud angezeigt werden.
+4. Wenn alles ordnungsgemäß implementiert ist, sollten Inhalte in Adobe Analytics, Tags und der Besucher-ID-Service von Adobe Experience Cloud angezeigt werden.
 
 ## Bereitstellen der Dev-Implementierung für Staging/Produktion.
 

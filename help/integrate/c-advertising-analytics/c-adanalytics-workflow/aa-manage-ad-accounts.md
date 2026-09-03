@@ -45,8 +45,8 @@ Die Tabelle besteht aus den folgenden Spalten:
 - So suchen Sie mithilfe des Suchfelds ![Suche](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) nach Ihrem Werbekonto.
 - Um aktive Konten in der Tabelle auszuwählen, aktivieren Sie **[!UICONTROL Aktive Konten]**.
 - Um zu definieren, welche Spalten für die Tabelle angezeigt werden sollen, wählen Sie ![Spalteneinstellungen](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) aus. <br/>Im Dialogfeld **[!UICONTROL Tabelle anpassen]**:
-   - Wählen Sie die Spalten aus, die angezeigt werden sollen.
-   - Wählen Sie **[!UICONTROL Anwenden]** aus.
+  - Wählen Sie die Spalten aus, die angezeigt werden sollen.
+  - Wählen Sie **[!UICONTROL Anwenden]** aus.
 
 Wenn Sie ein oder mehrere Werbekonten auswählen, ermöglicht Ihnen eine blaue Aktionsleiste, basierend auf dem Status der ausgewählten Konten, ![Bearbeiten](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Umbenennen]**, ![Aktualisieren](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Zuordnen von Report Suites]**, ![Play](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Aktivieren]** oder ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) Pause **[!UICONTROL Pause]** Werbekonten.
 

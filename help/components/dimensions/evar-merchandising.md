@@ -64,9 +64,9 @@ Die Metrik [Instanzen](../metrics/instances.md) wird für die Verwendung für Me
 
 * Bei Merchandising-Variablen mit Produktsyntax werden Instanzen überhaupt nicht inkrementiert.
 * Bei Merchandising-Variablen mit Konversionsvariablensyntax werden Instanzen jedes Mal gezählt, wenn die eVar eingestellt wird. Er wird jedoch dem Dimensionselement `"None"` zugeschrieben, es sei denn, die folgenden Punkte treffen alle auf denselben Treffer zu:
-   * Die Merchandising-eVar wird mit einem Wert eingestellt.
-   * Die `products`-Variable wird mit einem Wert definiert.
-   * Ein Binding-Ereignis wird gesetzt.
+  * Die Merchandising-eVar wird mit einem Wert eingestellt.
+  * Die `products`-Variable wird mit einem Wert definiert.
+  * Ein Binding-Ereignis wird gesetzt.
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.

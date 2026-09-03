@@ -38,11 +38,11 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
    1. Fügen Sie ein oder **[!UICONTROL Tags (optional]** zum Klassifizierungssatz hinzu. Wählen Sie ein vorhandenes Tag aus dem **[!UICONTROL Tags]**-Dropdown-Menü aus oder geben Sie ein neues Tag ein. Verwenden Sie ![CrossSize100](/help/assets/icons/CrossSize100.svg), um ein Tag zu entfernen.
    1. Wählen **[!UICONTROL im Abschnitt]** Auftragsbenachrichtigungen“ aus, wen Sie über einen Fehler oder Erfolg der Klassifizierungssatz-Aufträge benachrichtigen möchten.
       * So benachrichtigen Sie Benutzer über einen Fehler:
-         1. &quot;**[!UICONTROL bei Fehler]** aktivieren.
-         1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; eine oder mehrere kommagetrennte E-Mail-Adressen]**.
+        1. &quot;**[!UICONTROL bei Fehler]** aktivieren.
+        1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; eine oder mehrere kommagetrennte E-Mail-Adressen]**.
       * So benachrichtigen Sie Benutzer über den Erfolg:
-         1. Aktivieren Sie **[!UICONTROL Bei Erfolg benachrichtigen]**.
-         1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; mindestens eine kommagetrennte E-Mail-Adresse]**.
+        1. Aktivieren Sie **[!UICONTROL Bei Erfolg benachrichtigen]**.
+        1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; mindestens eine kommagetrennte E-Mail-Adresse]**.
    1. Bearbeiten Sie die **[!UICONTROL Abonnements]**.
       * Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
       * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.

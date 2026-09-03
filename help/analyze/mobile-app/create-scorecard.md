@@ -149,7 +149,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisierung
 >[!ENDSHADEBOX]
 
 
-Analytics-Dashboards bieten vier Visualisierungen, die Ihnen einen umfassenden Einblick in Dimensionselemente und Metriken bieten. Wenn Sie eine andere Visualisierung anwenden möchten, ändern Sie den [!UICONTROL Diagrammtyp] in den [!UICONTROL Eigenschaften] einer Kachel. Wählen Sie einfach die rechte Kachel aus und ändern Sie dann den Diagrammtyp.
+Analytics-Dashboards verfügen über vier Visualisierungen, die Ihnen einen nützlichen Einblick in Dimensionselemente und -metriken bieten. Wenn Sie eine andere Visualisierung anwenden möchten, ändern Sie den [!UICONTROL Diagrammtyp] in den [!UICONTROL Eigenschaften] einer Kachel. Wählen Sie einfach die rechte Kachel aus und ändern Sie dann den Diagrammtyp.
 
 ![Kacheleigenschaften](assets/properties.png)
 
@@ -220,7 +220,7 @@ Benutzerdefinierte Detailansichten ermöglichen es Ihnen, Ihre Zielgruppe mit no
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Benutzerdefinierte Detailansichten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

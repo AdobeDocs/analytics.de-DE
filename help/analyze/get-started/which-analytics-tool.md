@@ -70,8 +70,8 @@ Die **[Activity Map](/help/analyze/activity-map/overview.md)** ist eine Funktion
 
 * Wenn Offline-Daten vorliegen, die dauerhaft in Adobe Analytics geschrieben werden sollen.
 * Optionen:
-   * Zusammenfassung: einfache Datenuploads nach Tag oder anhand von begrenzten Dimensionen.
-   * Transaktions-ID: Datenuploads, die einen Online-Endpunkt mit Offlinedaten verknüpfen und importierte Daten vollständig einem online erstellten Besucher-Schnappschuss zuordnen (z. B. online abgeschlossene Bestellungen, die offline zurückgegeben werden).
+  * Zusammenfassung: einfache Datenuploads nach Tag oder anhand von begrenzten Dimensionen.
+  * Transaktions-ID: Datenuploads, die einen Online-Endpunkt mit Offlinedaten verknüpfen und importierte Daten vollständig einem online erstellten Besucher-Schnappschuss zuordnen (z. B. online abgeschlossene Bestellungen, die offline zurückgegeben werden).
 
 **[Adobe Exchange-Integrationen](https://www.adobeexchange.com/experiencecloud.html)** sollten verwendet werden:
 

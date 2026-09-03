@@ -28,9 +28,9 @@ In diesem Kapitel werden Konzepte erläutert, die Sie bezüglich der Analytics-s
 
 * Zugriffsberechtigung
 
-   * [Produktprofile für Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Produktprofilberechtigungen für Analytics-Werkzeuge](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Produktprofile für Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+  * [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Produktprofilberechtigungen für Analytics-Werkzeuge](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Hinzufügen eines Administrators in Adobe Analytics
 

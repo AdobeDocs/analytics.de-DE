@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 822
 ht-degree: 76%
 
 ---
@@ -96,9 +96,9 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 Die `getVisitNum`-Funktion verwendet die folgenden Argumente:
 
 * **`rp`** (optional, Ganzzahl ODER Zeichenfolge): Die Anzahl der Tage, bevor der Besuchsnummerzähler zurückgesetzt wird.  Die Standardeinstellung ist `365`, wenn nicht festgelegt.
-   * Wenn dieses Argument `"w"` wird, wird der Zähler am Ende der Woche (diesen Samstag um 23 :59) zurückgesetzt
-   * Wenn dieses Argument `"m"` ist, wird der Zähler am Ende des Monats (am letzten Tag dieses Monats) zurückgesetzt
-   * Wenn dieses Argument `"y"` ist, wird der Zähler am Ende des Jahres (am 31. Dezember) zurückgesetzt
+  * Wenn dieses Argument `"w"` wird, wird der Zähler am Ende der Woche zurückgesetzt (diesen Samstag um 23:59 Uhr)
+  * Wenn dieses Argument `"m"` ist, wird der Zähler am Ende des Monats (am letzten Tag dieses Monats) zurückgesetzt
+  * Wenn dieses Argument `"y"` ist, wird der Zähler am Ende des Jahres (am 31. Dezember) zurückgesetzt
 * **`erp`** (optional, boolesch): Wenn das `rp`-Argument eine Zahl ist, bestimmt dieses Argument, ob die Gültigkeit der Besuchsnummer verlängert werden soll. Wenn der Wert auf `true` gesetzt wird, wird der Besuchsnummernzähler durch nachfolgende Treffer auf Ihrer Website zurückgesetzt. Wenn der Wert auf `false` gesetzt wird, werden nachfolgende Treffer auf Ihrer Website nicht verlängert, wenn der Zähler für die Besuchsnummer zurückgesetzt wird. Die Standardeinstellung ist `true`. Dieses Argument ist nicht gültig, wenn das `rp`-Argument eine Zeichenfolge ist.
 
 Die Anzahl der Besuche wird erhöht, wenn der Besucher nach 30 Minuten Inaktivität zu Ihrer Website zurückkehrt. Der Aufruf dieser Funktion gibt eine Ganzzahl zurück, die die aktuelle Besuchsnummer des Besuchers angibt.

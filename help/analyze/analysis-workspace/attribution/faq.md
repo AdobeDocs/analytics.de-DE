@@ -17,7 +17,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1214
 ht-degree: 71%
 
 ---
@@ -37,8 +37,8 @@ Das Zeilenelement „Keine“ ist ein Sammelobjekt, der alle Konversionen darste
 
 Einige besuchsbasierte Metriken, wie [Einträge](/help/components/metrics/entries.md) oder [Absprungrate](/help/components/metrics/bounce-rate.md), können Daten einem Zeitraum vor dem Startdatumsbereich des Berichtsfensters zuordnen. Diese Situation ist auf Attributionsmodelle zurückzuführen, die ein Lookback-Fenster verwenden, in dem festgelegt wird, wie weit die Attribution zurückblicken soll, um Metriken anzurechnen. Das häufigste Szenario ist, wenn Besuche über Mitternacht hinausgehen. Beispiel:
 
-1. Ein Benutzer besucht Ihre Homepage am 7. September um :55 Uhr.
-1. Sie besuchen mehrere Seiten, von denen die letzte um 12 Uhr :05 8. September stattfand.
+1. Ein Benutzer besucht Ihre Homepage am 7. September um 23:55 Uhr.
+1. Sie besuchen mehrere Seiten, von denen die letzte um 00:05 Uhr am 8. September stattfand.
 1. Eine Woche später führen Sie einen täglichen Trend-Bericht mit dem Datumsbereich vom 8. September bis 14. September aus.
 
 Trefferbasierte Metriken wie [Seitenansichten](/help/components/metrics/page-views.md) würden eine erwartete Ausgabe erzeugen; es gab täglich vom 8. September bis 14. September Daten im Trend. Besuchsbasierte Metriken zeigen jedoch auch den oben genannten Besuch am 7. September an. Der zugewiesene Eintrag des Besuchs fand am 7. September statt, und das Lookback-Fenster erstreckt sich standardmäßig vom 1. September bis 31. September.
@@ -47,8 +47,8 @@ Die Absprungrate zeigt in diesem Beispiel für den 7. September immer 0 % an. Di
 
 Betrachten wir ein anderes ähnliches Beispiel. Der einzige Unterschied zwischen dem folgenden Beispiel und dem obigen Beispiel sind die Datumsangaben:
 
-1. Ein Benutzer besucht Ihre Homepage am 31. August um :55 Uhr.
-1. Sie besuchen mehrere Seiten, von denen die letzte um 12 Uhr :05 1. September stattfand.
+1. Ein Benutzer besucht Ihre Homepage am 31. August um 23:55 Uhr.
+1. Sie besuchen mehrere Seiten, von denen die letzte um 00:05 Uhr am 1. September stattfand.
 1. Eine Woche später führen Sie einen täglichen Trend-Bericht mit dem Datumsbereich vom 1. September bis 7. September aus.
 
 In diesem Beispiel würden „Einstiege“ und „Absprungrate“ keine Daten vom 31. August anzeigen. Sowohl das Lookback-Fenster als auch das Berichtsfenster beginnen am 1. September, sodass keine Daten vom 31. August zugeordnet werden können.

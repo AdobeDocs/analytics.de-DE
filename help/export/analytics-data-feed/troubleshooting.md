@@ -32,9 +32,9 @@ Wenn Sie über einen Daten-Feed verfügen, der normalerweise stündlich oder tä
 * Stellen Sie sicher, dass auf der FTP-Site ausreichend Speicherplatz zur Verfügung steht. Falls der FTP-Site der Speicherplatz ausgeht, löschen Sie einige Dateien vom Server, um Platz für neue Dateien zu schaffen.
 * Wenn keine bekannten Probleme vorliegen und die FTP-Site über ausreichend Speicherplatz verfügt, können Sie den Daten-Feed erneut senden.
 
-   1. Melden Sie sich bei Adobe Analytics an und navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Daten-Feeds]**.
-   2. Suchen Sie die gewünschten Daten-Feeds und klicken Sie auf das jeweilige Kontrollkästchen neben jedem Feed, den Sie erneut ausführen möchten.
-   3. Klicken Sie auf **[!UICONTROL Erneut ausführen]**.
+  1. Melden Sie sich bei Adobe Analytics an und navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Daten-Feeds]**.
+  2. Suchen Sie die gewünschten Daten-Feeds und klicken Sie auf das jeweilige Kontrollkästchen neben jedem Feed, den Sie erneut ausführen möchten.
+  3. Klicken Sie auf **[!UICONTROL Erneut ausführen]**.
 
   ![Erneut ausführen](assets/rerun.png)
 

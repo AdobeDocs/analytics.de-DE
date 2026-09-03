@@ -46,7 +46,7 @@ Sie können mehrere Anfragen gleichzeitig ändern, basierend auf der Report Suit
    * **Nach Report Suite:** Gruppiert die Anzeige der Anforderungen nach Report Suite.
    * **Nach Segment**: Gruppiert die Anfragen basierend auf dem Segmentnamen.
 
-      * **Segment auswählen**: Wird angezeigt, wenn keine Segmente für die Anforderungen vorhanden sind. Um Segmente hinzuzufügen, klicken Sie auf **[!UICONTROL Gruppe bearbeiten]** und wählen Sie ein Segment im Bedienfeld [!UICONTROL Gruppe bearbeiten] aus.
+     * **Segment auswählen**: Wird angezeigt, wenn keine Segmente für die Anforderungen vorhanden sind. Um Segmente hinzuzufügen, klicken Sie auf **[!UICONTROL Gruppe bearbeiten]** und wählen Sie ein Segment im Bedienfeld [!UICONTROL Gruppe bearbeiten] aus.
 
    * **Nach Metrik:** Siehe [Metriken mit Mehrfachanforderungen bearbeiten](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 

@@ -50,8 +50,8 @@ Außerdem bewirkt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classificat
 Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist eine Authentifizierung erforderlich. Manchmal gibt es Probleme bei der Anmeldung bei Report Builder, abhängig von Ihren Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk.
 
 * **Ungültige Unternehmensanmeldung** Dieser Fehler tritt am häufigsten auf, wenn die Unternehmensanmeldung nicht korrekt eingegeben wurde oder Probleme mit der Netzwerkaktivität auftreten. Gehen Sie folgendermaßen vor:
-   * Überprüfen Sie die Schreibweise des Anmeldeunternehmens, um sicherzustellen, dass weder ein Tippfehler noch ein fehlerhaftes Leerzeichen auftritt.
-   * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
+  * Überprüfen Sie die Schreibweise des Anmeldeunternehmens, um sicherzustellen, dass weder ein Tippfehler noch ein fehlerhaftes Leerzeichen auftritt.
+  * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
 * **Firewall**: Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports über die Firewall Ihres Unternehmens zugelassen sind. Siehe auch Interne IP-Adressen von Adobe für zusätzliche Firewall-Ausschlüsse.
 
 ## Empfehlungen für die Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -96,11 +96,11 @@ Dieser Abschnitt enthält eine Beispielliste von Fehlermeldungen, die bei der Ve
 * **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**: Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich auch im Bearbeitungsmodus in einer Excel-Zelle, wenn Sie direkt in die Leiste [!UICONTROL Formel] oder in das Feld [!UICONTROL Name] oben in Excel eingeben.
 * **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Bitte die Auswahl ändern.**: Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
 * **Reparaturen an Arbeitsmappen (entfernte Einträge: Formel aus dem Teil /xl/calcChain.xml)**: Manchmal werden die Formeln einer Arbeitsmappe beim Speichern oder Übertragen beschädigt. Wenn die Datei geöffnet wird, versucht Excel diese Formeln auszuführen und schlägt damit fehl. Sie können dieses Problem beheben, indem Sie `calcChain.xml` aus der Tabelle entfernen, was Excel zwingt, die Formelberechnungen zu aktualisieren.
-   1. Benennen Sie die Dateierweiterung der Arbeitsmappe von `.xlsx` in `.zip` um.
-   2. Dekomprimieren Sie dann den Inhalt und öffnen Sie den Ordner `/xl/`.
-   3. Löschen `calcChain.xml`.
-   4. Komprimieren Sie den Inhalt erneut und ändern Sie die Dateierweiterung wieder zurück in `.xlsx`.
-   5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anfragen.
+  1. Benennen Sie die Dateierweiterung der Arbeitsmappe von `.xlsx` in `.zip` um.
+  2. Dekomprimieren Sie dann den Inhalt und öffnen Sie den Ordner `/xl/`.
+  3. Löschen `calcChain.xml`.
+  4. Komprimieren Sie den Inhalt erneut und ändern Sie die Dateierweiterung wieder zurück in `.xlsx`.
+  5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anfragen.
 * **Excel-Zellen, die mit den Eingangsfiltern oder dem Ausgangsbereich verbunden sind, wurden möglicherweise gelöscht**: Report Builder verwendet Excel-Namen, um Datenanforderungen an Zellen anzuhängen. Wenn Sie Excel-Namen aus Names Manager löschen, kann dieser Fehler auftreten. Anfragen können nicht wiederhergestellt werden, wenn Excel-Namen gelöscht werden. Wenn die Arbeitsmappe eingeplant war, können Sie entweder eine Kopie vom Zeitplan-Manager herunterladen oder zuvor bereitgestellte Kopien der Arbeitsmappe öffnen.
 
 ## Anfragen protokollieren

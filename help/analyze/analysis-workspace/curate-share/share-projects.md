@@ -25,8 +25,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 2046
-ht-degree: 88%
+source-wordcount: 2059
+ht-degree: 89%
 
 ---
 
@@ -100,8 +100,8 @@ So geben Sie eine bestimmte Projektrolle für Benutzende oder Gruppen in Ihrer O
 
    Oder
 
-   Um nur ein einzelnes Projekt freizugeben, können Sie das Projekt öffnen, das Sie freigeben möchten, und dann **[!UICONTROL Freigeben]** > **[!UICONTROL Für Workspace-Benutzer freigeben]**.
-Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projekt zuerst zu speichern.
+   Wenn Sie nur ein einzelnes Projekt freigeben möchten, können Sie das freizugebende Projekt öffnen und dann **[!UICONTROL Freigeben]** > **[!UICONTROL Für Arbeitsbereich-Benutzende freigeben]** auswählen.
+   Wenn es nicht gespeicherte Änderungen gibt, werden Sie aufgefordert, das Projekt zuerst zu speichern.
 
    Das Dialogfeld „Freigeben“ wird angezeigt. Die Abschnitte [!UICONTROL **Über Link freigeben**] und [!UICONTROL **Einstellungen**] des Dialogfelds sind nur sichtbar, wenn ein einzelnes Projekt freigegeben wird.
 
@@ -204,9 +204,9 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
      Analytics-Admins können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md) beschrieben. Je nachdem, wie die Admins diese Option konfiguriert haben, können die folgenden Szenarien auftreten:
 
-      * Wenn diese Option nicht angezeigt wird, haben Ihre Analytics-Admins diese Funktion nicht aktiviert.
+     * Wenn diese Option nicht angezeigt wird, haben Ihre Analytics-Admins diese Funktion nicht aktiviert.
 
-      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator für alle, die auf Analysis Workspace-Projekte zugreifen, die CX Enterprise-Authentifizierung.
+     * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator für alle, die auf Analysis Workspace-Projekte zugreifen, die CX Enterprise-Authentifizierung.
 
 1. Klicken Sie neben dem Feld **[!UICONTROL Für alle freigeben (keine Anmeldung erforderlich)]** auf das Symbol **Link kopieren** ![Symbol „Link kopieren“](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg), um den Link in die Zwischenablage Ihres Systems zu kopieren.
 

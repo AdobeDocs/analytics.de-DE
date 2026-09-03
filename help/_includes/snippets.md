@@ -1,7 +1,7 @@
 ---
 source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3236'
 ht-degree: 93%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Eine neue und optimierte [Report Builder](/help/analyze/report-builder/rb-overview.md) ist seit dem 16. Oktober 2024 verfügbar. Diese Report Builder wird in macOS, Windows und Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden.
->Diese alte Add-In-Version für Report Builder funktioniert weiterhin. Sie können [alte Arbeitsmappen) in &#x200B;](/help/analyze/report-builder/convert-workbooks.md) neue Report Builder konvertieren.
+>Seit dem 16. Oktober 2024 ist ein neuer und optimierter [Report Builder](/help/analyze/report-builder/rb-overview.md) verfügbar. Dieser Report Builder wird unter macOS, Windows und in Webbrowsern unterstützt und kann mit Adobe Analytics und Customer Journey Analytics verwendet werden.
+>Diese Vorgängerversion des Report Builder-Add-ins funktioniert weiterhin. Sie können [Ihre alten Arbeitsmappen](/help/analyze/report-builder/convert-workbooks.md) für den neuen Report Builder konvertieren.
 
 ## Mitteilung zum Ende der Nutzungsdauer von Reports & Analytics {#ra-eol}
 

@@ -23,7 +23,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 11%
 
 ---
@@ -142,7 +142,7 @@ Nein, sie sind nicht im Bericht Marketing-Kanäle enthalten.
 
 +++ Wann werden die Suchdaten in Analytics übernommen? 
 
-Die Suchdaten werden um ca. 6:06 Uhr :00 in der Zeitzone Ihres Analytics-Rechenzentrums von den Suchmaschinen abgerufen. Zu diesem Zeitpunkt werden die AMO-Daten erfasst und in die Report Suite eingefügt. Diese Daten werden dann im Rahmen ihrer Einfügung in Analytics in die Report Suite-Zeitzonen umgewandelt.
+Die Suchdaten werden um ca. 6:00 Uhr morgens in der Zeitzone Ihres Analytics-Rechenzentrums von den Suchmaschinen abgerufen. Zu diesem Zeitpunkt werden die AMO-Daten erfasst und in die Report Suite eingefügt. Diese Daten werden dann im Rahmen ihrer Einfügung in Analytics in die Report Suite-Zeitzonen umgewandelt.
 
 +++
 

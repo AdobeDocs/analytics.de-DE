@@ -33,7 +33,7 @@ Diese kurzen Videos bieten einen Überblick darüber, wie Sie die Verwendung der
 
 >[!BEGINSHADEBOX]
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnelle berechnete Metriken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=de){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Schnelle berechnete Metriken in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metric Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=de){target="_blank"}
 

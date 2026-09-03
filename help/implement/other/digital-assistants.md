@@ -20,7 +20,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1286
 ht-degree: 73%
 
 ---
@@ -107,9 +107,9 @@ Da digitale Assistenten sich in Gesprächen befinden, haben sie oft das Konzept 
 
 **Google:**: „Sicher, um wie viel Uhr möchten Sie?“
 
-**Verbraucher:** „8:30pm&quot;
+**Verbraucher:** „20:30“
 
-**Google:** „Hört sich gut an, der Fahrer ist um 8 Uhr :30pm&quot;
+**Google:** „Klingt gut, der Fahrer ist um 20:30 Uhr da.“
 
 Sitzungen sind wichtig, um den Kontext zu wahren und mehr Details zu sammeln, um den digitalen Assistenten natürlicher zu machen. Wenn Sie Analytics für eine Konversation implementieren, sollten Sie zweierlei tun, sobald eine neue Sitzung gestartet wird:
 

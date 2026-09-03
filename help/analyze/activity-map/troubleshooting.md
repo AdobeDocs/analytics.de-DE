@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +47,8 @@ Stellen Sie zunächst sicher, dass AppMeasurement Activity Map-Daten korrekt erf
 * **AppMeasurement-**: Activity Map wird ab Version 1.6 unterstützt. Viele Probleme mit Edge-Fällen werden behoben, wenn Sie auf die neueste stabile Version von AppMeasurement aktualisieren.
 * **Activity Map-**: Überprüfen Sie, ob das `AppMeasurement_Module_Activity_Map` in Ihrer `AppMeasurement.js` vorhanden ist. Wenn Ihre Implementierung Adobe Experience Platform zur Datenerfassung verwendet, stellen Sie sicher, dass **[!UICONTROL ClickMap aktivieren]** beim Konfigurieren der Analytics-Erweiterung unter **[!UICONTROL Linktracking“]** ist.
 * **Das `s_sq`-**: Activity Map hängt für die Datenerfassung vom `s_sq`-Cookie ab.
-   * Stellen Sie sicher, dass die `cookieDomainPeriods`-Variable korrekt festgelegt ist, insbesondere für regionale Domains wie `*.co.uk` oder `*.co.jp`.
-   * Stellen Sie sicher, dass die `linkInternalFilters` auf die gewünschten Werte eingestellt ist. Wenn ein geklickter Link nicht mit internen Filtern übereinstimmt, betrachtet Activity Map ihn als Exitlink und erfasst keine Daten.
+  * Stellen Sie sicher, dass die `cookieDomainPeriods`-Variable korrekt festgelegt ist, insbesondere für regionale Domains wie `*.co.uk` oder `*.co.jp`.
+  * Stellen Sie sicher, dass die `linkInternalFilters` auf die gewünschten Werte eingestellt ist. Wenn ein geklickter Link nicht mit internen Filtern übereinstimmt, betrachtet Activity Map ihn als Exitlink und erfasst keine Daten.
 * **Activity Map-Überlagerung läuft**: AppMeasurement verfolgt keine Klickdaten für Ihre Web-Seite, wenn die Activity Map-Überlagerung aktiviert ist.
 
 Führt die Browserparameter auf, die nicht mit der Verwendung von Activity Map kompatibel sind. Adobe empfiehlt, diese Einstellungen zu deaktivieren.

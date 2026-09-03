@@ -66,12 +66,12 @@ Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festg
 * **&quot;status&quot;:&quot;SUCCESS&quot;**: Das Zielgruppen-Management-Modul ist zwar implementiert, die serverseitige Weiterleitung ist jedoch nicht ordnungsgemäß konfiguriert. Fahren Sie mit Schritt 3 fort.
 * Ein **2 x 2-Bild**: Sie haben keine Server-seitige Weiterleitung oder das Audience Management-Modul implementiert. So korrigieren Sie dies:
 
-   * **Adobe Audience Manager-Kundinnen und -Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
+  * **Adobe Audience Manager-Kundinnen und -Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
 
-      1. Entfernen Sie den DIL-Code und installieren Sie den [Audience Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de)-Seitencode.
-      1. Aktivieren Sie die Server-seitige Weiterleitung in der Admin-Benutzeroberfläche von Analytics, wie in Schritt 3 beschrieben. Wenn Sie diese Einstellung vor dem Entfernen des DIL-Codes aktivieren, werden Daten dupliziert und zusätzliche in Rechnung gestellte Server-Aufrufe an Audience Manager erstellt.
+    1. Entfernen Sie den DIL-Code und installieren Sie den [Audience Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de)-Seitencode.
+    1. Aktivieren Sie die Server-seitige Weiterleitung in der Admin-Benutzeroberfläche von Analytics, wie in Schritt 3 beschrieben. Wenn Sie diese Einstellung vor dem Entfernen des DIL-Codes aktivieren, werden Daten dupliziert und zusätzliche in Rechnung gestellte Server-Aufrufe an Audience Manager erstellt.
 
-   * **Neue Adobe Audience Manager-Kundinnen und -Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die Server-seitige Weiterleitung in Schritt 3 aktiviert wurde.
+  * **Neue Adobe Audience Manager-Kundinnen und -Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die Server-seitige Weiterleitung in Schritt 3 aktiviert wurde.
 
 ## ![Grafik step3_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Implementierung der serverseitigen Weiterleitung der Report Suite überprüfen
 

@@ -67,9 +67,9 @@ Dimension-Elemente enthalten Ad-Click-Kennungen, die von unterstützten Werbenet
 * **`amovid`**: Die Adobe Advertising-Besucher-ID, auch als Surfer-ID bezeichnet.
 * **`ts`**: Der von Adobe Advertising generierte Zeitstempel.
 * **`channel`**: Der für das Klicken oder Belichten verantwortliche Kanaltyp:
-   * **`d`**: Ein Klick auf eine DSP-Anzeige (Display-Clickthrough).
-   * **`i`**: Eine Impression auf einer DSP-Display-Anzeige (Durchsicht der Anzeige).
-   * **`s`**: Ein Klick auf eine Suchanzeige (Such-Clickthrough).
+  * **`d`**: Ein Klick auf eine DSP-Anzeige (Display-Clickthrough).
+  * **`i`**: Eine Impression auf einer DSP-Display-Anzeige (Durchsicht der Anzeige).
+  * **`s`**: Ein Klick auf eine Suchanzeige (Such-Clickthrough).
 
 ### Beispiele
 

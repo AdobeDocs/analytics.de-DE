@@ -103,7 +103,7 @@ Lookup-Dateien werden in einer komprimierten ZIP-Datei bereitgestellt, die nach 
 * **`languages.tsv`**: Ordnet die Sprach-ID (Feed-Spalte `language`) der Sprache zu.
 * **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID (Feed-Spalte `os`) dem Namen des Betriebssystems zu.
 * **`plugins.tsv`**: Ordnet die Plug-in-ID (Feed-Spalte `plugin`) den jeweiligen Plug-in-Namen zu.
-* **`resolution.tsv`**: Ordnet die Auflösungs-ID (Feed-Spalte `resolution`) der Monitorauflösung zu.
+* **`resolution.tsv`**: Ordnet die Auflösungs-ID (Feed-Spalte `resolution`) der Bildschirmauflösung zu.
 * **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID (Feed-Spalte `ref_type`) dem Referrer-Typ zu.
 * **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (Feed-Spalte `search_engine`) dem Namen der Suchmaschine zu.
 * **`event.tsv`**: Ordnet jede Ereignis-ID (Feed-Spalte `event_list`) dem entsprechenden Ereignisnamen zu.

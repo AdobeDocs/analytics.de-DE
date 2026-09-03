@@ -37,21 +37,21 @@ So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
 
    * Wenn Sie zum ersten Mal auf die **[!UICONTROL Rules]**-Schnittstelle für einen Klassifizierungssatz zugreifen oder sich bisher entschieden haben, weiterhin die alte Rule Builder-Schnittstelle zu verwenden, wird ein Dialogfeld angezeigt, in dem Sie auswählen können, wie Sie beginnen möchten. Die Optionen sind:
 
-      * **Migrieren vorhandener Regeln**. Importieren Sie Ihre aktuellen Klassifizierungsregeln und arbeiten Sie weiterhin mit diesen Regeln in der neuen Benutzeroberfläche. Ihre vorhandenen Regeln werden beibehalten und in das neue Format konvertiert.
-         * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um fortzufahren.
-         * Lesen Sie **[!UICONTROL Dialogfeld &quot;]** bestätigen“ die Auswirkungen der Migration.
-            * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), &#x200B;](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
-            * Wählen Sie **[!UICONTROL Abbrechen]**, um die Migration abzubrechen
+     * **Migrieren vorhandener Regeln**. Importieren Sie Ihre aktuellen Klassifizierungsregeln und arbeiten Sie weiterhin mit diesen Regeln in der neuen Benutzeroberfläche. Ihre vorhandenen Regeln werden beibehalten und in das neue Format konvertiert.
+       * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um fortzufahren.
+       * Lesen Sie **[!UICONTROL Dialogfeld &quot;]** bestätigen“ die Auswirkungen der Migration.
+         * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), &#x200B;](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
+         * Wählen Sie **[!UICONTROL Abbrechen]**, um die Migration abzubrechen
 
-      * **Neu starten**. Erstellen Sie neue Klassifizierungsregeln mithilfe des neuen Regel-Builders von Grund auf. Wählen Sie diese Option aus, wenn Sie Ihre Klassifizierungslogik neu entwerfen oder mit neuen Klassifizierungsregeln neu beginnen möchten.
-         * Wählen Sie **[!UICONTROL Neue Regeln erstellen]** aus, um fortzufahren.
-         * Lesen Sie **[!UICONTROL Dialogfeld „Neuen]** bestätigen“ die Auswirkungen eines Neustarts.
-            * Wählen Sie **[!UICONTROL Neu starten]**, um einen Neustart zu bestätigen und vorhandene Regeln zu verwerfen. Verwenden Sie die [Regelsatzschnittstelle](#rule-set-interface) um neue Regeln zu erstellen.
-            * Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
+     * **Neu starten**. Erstellen Sie neue Klassifizierungsregeln mithilfe des neuen Regel-Builders von Grund auf. Wählen Sie diese Option aus, wenn Sie Ihre Klassifizierungslogik neu entwerfen oder mit neuen Klassifizierungsregeln neu beginnen möchten.
+       * Wählen Sie **[!UICONTROL Neue Regeln erstellen]** aus, um fortzufahren.
+       * Lesen Sie **[!UICONTROL Dialogfeld „Neuen]** bestätigen“ die Auswirkungen eines Neustarts.
+         * Wählen Sie **[!UICONTROL Neu starten]**, um einen Neustart zu bestätigen und vorhandene Regeln zu verwerfen. Verwenden Sie die [Regelsatzschnittstelle](#rule-set-interface) um neue Regeln zu erstellen.
+         * Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
 
 
-      * **Alte Benutzeroberfläche**. Verwenden Sie weiterhin die vorherige Benutzeroberfläche des Regel-Builders. Sie können jederzeit zum neuen Erlebnis migrieren, wenn Sie bereit sind.
-         * Wählen Sie **[!UICONTROL Zur alten Benutzeroberfläche wechseln]** aus, um fortzufahren. Sie werden zur veralteten Benutzeroberfläche **[!UICONTROL Classification Rule Builder]**.
+     * **Alte Benutzeroberfläche**. Verwenden Sie weiterhin die vorherige Benutzeroberfläche des Regel-Builders. Sie können jederzeit zum neuen Erlebnis migrieren, wenn Sie bereit sind.
+       * Wählen Sie **[!UICONTROL Zur alten Benutzeroberfläche wechseln]** aus, um fortzufahren. Sie werden zur veralteten Benutzeroberfläche **[!UICONTROL Classification Rule Builder]**.
 
    * Wenn Sie bereits Regeln migriert oder neue Regeln für einen Klassifizierungssatz erstellt haben, landen Sie direkt in der Benutzeroberfläche des Regelsatzes.
 

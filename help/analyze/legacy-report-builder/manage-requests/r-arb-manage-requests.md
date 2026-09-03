@@ -75,7 +75,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in **[!UICONTROL 
    <td colname="col2"> <p>Es wird das Datum angezeigt, an dem die Anforderung zuletzt von Report Builder verarbeitet wurde. In dieser Tabelle werden in der Spalte <span class="wintitle">Letzte Ausführung</span> auch gegebenenfalls erforderliche diagnostische Meldungen angezeigt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hinzufügen </p> </td> 
+   <td colname="col1"> <p>Fügen Sie </p> </td> 
    <td colname="col2"> <p>Zeigt das Dialogfeld Anforderungs-Assistent an. Siehe <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Erstellen einer Datenanfrage</a>. </p> </td> 
   </tr> 
   <tr> 

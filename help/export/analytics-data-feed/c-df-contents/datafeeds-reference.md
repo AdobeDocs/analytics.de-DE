@@ -39,7 +39,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
-source-wordcount: 4148
+source-wordcount: 4163
 ht-degree: 78%
 
 ---
@@ -177,7 +177,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`post_`** | **`mobileresolution`** | Auflösung des Mobilgeräts. `[Width] x [Height]` in Pixel. | varchar(255) |
 | | **`mobile_id`** | Die numerische Geräte-ID, wenn die Person ein Mobilgerät verwendet. Der Schlüsselwert für die `mobile_attributes.tsv` [dynamische Suche](dynamic-lookups.md). | int |
 | | **`monthly_visitor`** | Markierung, die bestimmt, ob die Besucherin oder der Besucher im aktuellen Monat eindeutig ist. | tinyint unsigned |
-| **`post_`** | **`mvvar1`** – **`mvvar3`** | Werte für [Listenvariablen](/help/implement/vars/page-vars/list.md). Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | Text |
+| **`post_`** | **`mvvar1`** - **`mvvar3`** | Werte für [Listenvariablen](/help/implement/vars/page-vars/list.md). Enthält eine durch Trennzeichen getrennte Liste benutzerdefinierter Werte in Abhängigkeit von der Implementierung. Die Spalten `post_mvvar1` - `post_mvvar3` ersetzen das ursprüngliche Trennzeichen durch `--**--`. | Text |
 | **`post_`** | **`mvvar1_instances`** – **`mvvar3_instances`** | Die Werte der Listenvariablen, die beim aktuellen Treffer festgelegt wurden. Ersetzt das ursprüngliche Trennzeichen durch `--**--`. Die Spalten `post` enthalten normalerweise keine Daten. | Text |
 | | **`new_visit`** | Markierung, die bestimmt, ob es sich bei dem aktuellen Treffer um einen neuen Besuch handelt. Wird von Adobe nach 30-minütiger Inaktivität während eines Besuchs festgelegt. | tinyint unsigned |
 | | **`os`** | Numerische ID, die das Betriebssystem der oder des Besuchenden darstellt. Basierend auf der Spalte `user_agent`. Der Schlüsselwert für `operating_system.tsv` Standardsuche und `operating_system_type.tsv` [Dynamische Suche](dynamic-lookups.md). | int unsigned |
@@ -300,7 +300,7 @@ Die folgenden Spalten werden nicht verwendet, wurden eingestellt oder sind für 
 | | `click_sourceid` |
 | | `click_tag` |
 | | `dataprivacydmaconsent` |
-| `post_` | `hier1` – `hier5` |
+| `post_` | `hier1` - `hier5` |
 | | `homepage` |
 | | `ip2` |
 | | `mobileacquisitionclicks` |

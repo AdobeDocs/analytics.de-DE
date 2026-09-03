@@ -58,24 +58,24 @@ Unterstützt:
 
 * SFTP-Protokoll mac-Algorithmen:
 
-   * Wir werden die folgenden nicht mehr unterstützen: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
+  * Wir werden die folgenden nicht mehr unterstützen: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
 
-   * Wir werden nur die folgenden unterstützen: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
+  * Wir werden nur die folgenden unterstützen: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
 
 * Algorithmus zur Verschlüsselung des SFTP-Protokolls:
 
-   * Wir werden die folgenden nicht mehr unterstützen: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
+  * Wir werden die folgenden nicht mehr unterstützen: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
 
-   * Wir werden nur die folgenden unterstützen: aes128-ctr, aes192-ctr, aes256-ctr
+  * Wir werden nur die folgenden unterstützen: aes128-ctr, aes192-ctr, aes256-ctr
 
 * Vom SFTP-Protokoll unterstützte Verbindungen:
 
-   * Die Verwendung von SCP- und Rsync-Befehlen oder Verbindungen über das SFTP-Protokoll wird nicht mehr unterstützt
+  * Die Verwendung von SCP- und Rsync-Befehlen oder Verbindungen über das SFTP-Protokoll wird nicht mehr unterstützt
 
-   * Wir unterstützen nur reine SFTP-Protokollverbindungen
+  * Wir unterstützen nur reine SFTP-Protokollverbindungen
 
 * Unterstützte FTP-/SFTP-Clients/-Protokolle:
 
-   * FTP: vsftpd Version 3.0.2-25 oder höher
+  * FTP: vsftpd Version 3.0.2-25 oder höher
 
-   * SFTP: openssh Version 7.4p1-21 oder höher
+  * SFTP: openssh Version 7.4p1-21 oder höher

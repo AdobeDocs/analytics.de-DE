@@ -306,7 +306,7 @@ Adobe Social ist eingestellt.
 
 ### Nielsen-Integration
 
-Weitere Informationen zur Implementierung dieser Integration finden Sie unter [Nielsen-Erweiterung](https://exchange.adobe.com/apps/ec/101361) auf der Adobe Exchange.
+Weitere Informationen zur Implementierung dieser Integration finden Sie in der [Nielsen-Erweiterung](https://exchange.adobe.com/apps/ec/101361) auf der Adobe Exchange.
 
 | Dimensionsname (in Analytics-UI sichtbar) | Dimension-ID (in API-Anfragen verwendet) |
 |--- |--- |
@@ -315,7 +315,7 @@ Weitere Informationen zur Implementierung dieser Integration finden Sie unter [N
 | Nielsen-Segment B | `nielsensegmentb` |
 | Nielsen-Segment A | `nielsensegmenta` |
 | Nielsen-Inhalts-ID | `nielsencontentid` |
-| Nielsen Asset / Programm | `nielsenasset` |
+| Nielsen-Asset/-Programm | `nielsenasset` |
 | Nielsen-VCID | `nielsenvcid` |
 | Nielsen Opt-out | `nielsenoptout` |
 | Nielsen-Client-ID und -VCID | `nielsenclientidvcid` |

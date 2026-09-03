@@ -40,8 +40,8 @@ Wenn diese Option aktiviert ist, verwendet AppMeasurement den folgenden Prozess 
 * Beim Kompilieren einer Bildanforderung wird ein Abfragezeichenfolgenparameter für Zeitstempel eingefügt.
 * Wenn das Gerät nicht auf Adobe-Datenerfassungs-Server zugreifen kann, wird der Treffer lokal auf dem Gerät gespeichert.
 * Bei jedem nachfolgenden Treffer versucht AppMeasurement, eine Bildanforderung an Adobe zu senden.
-   * Wenn nicht auf Adobe-Datenerfassungs-Server zugegriffen werden kann, wird der Treffer Warteschlange auf dem Gerät hinzugefügt.
-   * Wenn auf Adobe-Datenerfassungs-Server zugegriffen werden kann, werden der Treffer und die Warteschlange der Treffer gesendet, während das Gerät offline war.
+  * Wenn nicht auf Adobe-Datenerfassungs-Server zugegriffen werden kann, wird der Treffer Warteschlange auf dem Gerät hinzugefügt.
+  * Wenn auf Adobe-Datenerfassungs-Server zugegriffen werden kann, werden der Treffer und die Warteschlange der Treffer gesendet, während das Gerät offline war.
 
 ## Offline-Tracking mit der Web-SDK
 

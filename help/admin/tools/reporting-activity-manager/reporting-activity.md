@@ -166,11 +166,11 @@ Berücksichtigen Sie beim Anzeigen einer Tabelle Folgendes:
 
 * Sie können die Liste der Verbindungen durchsuchen oder filtern:
 
-   * Wenn Sie nach einer bestimmten Verbindung suchen möchten, verwenden Sie das Suchfeld. Beginnen Sie mit der Eingabe des Namens oder der ID der Verbindung. Die Liste der Verbindungen wird während der Eingabe aktualisiert.
+  * Wenn Sie nach einer bestimmten Verbindung suchen möchten, verwenden Sie das Suchfeld. Beginnen Sie mit der Eingabe des Namens oder der ID der Verbindung. Die Liste der Verbindungen wird während der Eingabe aktualisiert.
 
-   * Wählen Sie das [!UICONTROL **Filter**]-Symbol ![Filtersymbol](assets/filter-icon.png) aus, um die Liste der Filteroptionen zu erweitern. Sie können nach [!UICONTROL **Status**], [!UICONTROL **Komplexität**], [!UICONTROL **Anwendung**], [!UICONTROL **Benutzer**] oder [!UICONTROL **Projekt**] filtern.
+  * Wählen Sie das [!UICONTROL **Filter**]-Symbol ![Filtersymbol](assets/filter-icon.png) aus, um die Liste der Filteroptionen zu erweitern. Sie können nach [!UICONTROL **Status**], [!UICONTROL **Komplexität**], [!UICONTROL **Anwendung**], [!UICONTROL **Benutzer**] oder [!UICONTROL **Projekt**] filtern.
 
-   * Sie können [!UICONTROL **Diagramme ausblenden**] auswählen, um nur die Tabelle anzuzeigen.
+  * Sie können [!UICONTROL **Diagramme ausblenden**] auswählen, um nur die Tabelle anzuzeigen.
 
 ![Tabellenregisterkarten](assets/report-activity-tabs.png)
 

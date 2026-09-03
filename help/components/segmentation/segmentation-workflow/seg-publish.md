@@ -84,7 +84,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente verö
 1. Wählen Sie **[!UICONTROL Hinzufügen]** aus, um ein neues Segment zu erstellen.
    ![Veröffentlichung von CX Enterprise](assets/publish-ec.png)
 1. Geben Sie einen Titel und eine Beschreibung für das Segment an. Diese Felder sind erforderlich, bevor Sie das Segment speichern können.
-1. Wählen Sie im Abschnitt **[!UICONTROL Experience Cloud-]** die Option **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
+1. Wählen Sie im **[!UICONTROL Experience Cloud-]**) die Option **[!UICONTROL Dieses Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmente verö
 
 >[!CAUTION]
 >
->Um ein Segment zu löschen, das in CX Enterprise veröffentlicht wurde, müssen Sie die Veröffentlichung des Segments zunächst aufheben. Um die Veröffentlichung eines Segments aufzuheben, heben Sie einfach die Auswahl von **[!UICONTROL Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
+>Um ein Segment zu löschen, das in CX Enterprise veröffentlicht wurde, müssen Sie die Veröffentlichung des Segments zunächst aufheben. Um die Veröffentlichung eines Segments aufzuheben, heben Sie einfach die Auswahl **[!UICONTROL Segment in Experience Cloud veröffentlichen (für *Report Suite*)]**.
 
 
 >[!NOTE]

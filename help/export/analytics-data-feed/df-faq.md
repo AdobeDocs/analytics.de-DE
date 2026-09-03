@@ -16,7 +16,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1508
 ht-degree: 68%
 
 ---
@@ -87,11 +87,11 @@ Bei Aufstockungen, die älter als 10 Tage sind, empfiehlt Adobe dringend, die t�
 
 ## Welche Auswirkungen hat die Sommerzeit auf stündliche Daten-Feeds? {#dst}
 
-Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der für die Report Suite gewählten Zeitzone jedoch die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung stattfindet (in der Regel :00 Uhr morgens).
+Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der Zeitzone der Report Suite die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (normalerweise um 2:00 Uhr morgens).
 
-Bei der Umstellung von Normalzeit auf Sommerzeit erhalten Sie 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn die Umstellung beispielsweise um 2 Uhr morgens erfolgt, erhalten Sie eine Datei für die :00 Stunde und eine Datei für die 3:00 Stunde. Es gibt keine 2:00-Datei, da sie bei 2:00 STD zu 3:00 DST wird.
+Bei der Umstellung von Normalzeit auf Sommerzeit erhalten Sie 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn die Umstellung beispielsweise um 2 Uhr morgens erfolgt, erhalten Sie eine Datei für 1:00 Uhr und eine Datei für 3:00 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit 3:00 Uhr Normalzeit entspricht.
 
-Bei der Umstellung von Sommerzeit auf Normalzeit (Fallback) erhalten Sie 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt zwei Stunden. Wenn die Umstellung beispielsweise um 2:00 :00 erfolgt, wird die Datei für 1::00 um eine Stunde verzögert, sie enthält jedoch Daten für zwei Stunden. Es enthält Daten von 1:00 DST bis 2:00 STD (was 3:00 DST gewesen wäre). Die nächste Datei beginnt um 2:00 STD.
+Bei der Umstellung von Sommerzeit auf Normalzeit (Fallback) erhalten Sie 24 Dateien. Die Stunde der Zeitumstellung enthält dabei Daten für insgesamt zwei Stunden. Wenn die Umstellung beispielsweise um 2:00 Uhr erfolgt, wird die Datei um 1:00 Uhr um eine Stunde verzögert, sie enthält jedoch Daten für zwei Stunden. Es enthält Daten von 1:00 Uhr Sommerzeit bis 2:00 Uhr Normalzeit (was 3:00 Uhr Sommerzeit gewesen wäre). Die nächste Datei beginnt um 2:00 Uhr Normalzeit.
 
 ## Wie behandelt Analytics FTP-Übertragungsfehler? {#ftp-failure}
 

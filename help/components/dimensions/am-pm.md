@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 121
-ht-degree: 64%
+source-wordcount: 125
+ht-degree: 62%
 
 ---
 
@@ -30,4 +30,4 @@ Diese Dimension ist vorkonfiguriert. Sie hat keine zu ändernden Einstellungen. 
 
 ## Dimensionselemente
 
-Diese Dimension enthält immer genau zwei Dimensionselemente: `"AM"` und `"PM"`. Das Dimensionselement `"AM"` gilt für alle Treffer von 12 :00 bis 11 :59 Uhr, während das Dimensionselement `"PM"` für alle Treffer von 12 :00 bis 23 :59 gilt.
+Diese Dimension enthält immer genau zwei Dimensionselemente: `"AM"` und `"PM"`. Das Dimensionselement `"AM"` gilt für alle Treffer von 12:00 bis 11:59 Uhr, während das Dimensionselement `"PM"` für alle Treffer von 12:00 bis 23:59 Uhr gilt.

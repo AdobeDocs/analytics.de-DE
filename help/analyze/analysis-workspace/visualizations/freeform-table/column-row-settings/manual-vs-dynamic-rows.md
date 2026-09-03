@@ -66,7 +66,7 @@ Dimensionselemente aus verschiedenen Dimensionen können derselben Tabelle hinzu
 Dynamische und statische Zeilen verhalten sich in der Freiform-Gesamtzeile unterschiedlich. Standardmäßig:
 
 * Dynamische Zeilen werden Server-seitig summiert und deduplizieren Metriken wie „Sitzungen“ oder „Personen“.
-* Statische Zeilen werden Client-seitig summiert und deduplizieren **keine** Metriken. Um die Gesamtzeile Server-seitig zu berechnen, ändern Sie die Zeileneinstellung auf **Gesamtsumme anzeigen**. [Weitere Informationen](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+* Statische Zeilen werden Client-seitig summiert und deduplizieren **keine** Metriken. Um die Gesamtzeile Server-seitig zu berechnen, ändern Sie die Zeileneinstellung auf **Gesamtsumme anzeigen**. [Weitere Infos](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)
 
 
 >[!BEGINSHADEBOX]

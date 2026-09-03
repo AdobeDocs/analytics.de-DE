@@ -45,4 +45,4 @@ Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z.
 
 ## Dimensionselemente
 
-Die Dimensionselemente umfassen alle erfassten Monitorauflösungen. Zu den Beispielwerten gehören `1920 x 1080`, `1366 x 768` und `1280 x 720`.
+Die Dimensionselemente umfassen alle erfassten Bildschirmauflösungen. Zu den Beispielwerten gehören `1920 x 1080`, `1366 x 768` und `1280 x 720`.

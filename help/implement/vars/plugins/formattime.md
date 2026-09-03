@@ -79,10 +79,10 @@ Die `formatTime`-Funktion verwendet die folgenden Argumente:
 
 * **`ns`** (erforderlich, Ganzzahl): Die Anzahl der Sekunden, die konvertiert oder formatiert werden sollen
 * **`tf`** (optional, Zeichenfolge): Der Formattyp, in dem die Sekunden zurückgegeben werden; standardmäßig auf Sekunden gesetzt
-   * Legen Sie diese Einstellung auf `"d"` fest, wenn Sie die Zeit in Tagen wünschen (standardmäßig auf den nächsten 1/4-Tage-Benchmark gerundet)
-   * Legen Sie diese Einstellung auf `"h"` fest, wenn Sie die Zeit in Stunden wünschen (standardmäßig auf den nächsten 1/4-Stunden-Benchmark gerundet)
-   * Legen Sie diese Einstellung auf `"m"` fest, wenn Sie die Zeit in Minuten wünschen (standardmäßig auf den nächsten 1/2-Minuten-Benchmark gerundet)
-   * Legen Sie diese Einstellung auf `"s"` fest, wenn Sie die Zeit in Sekunden wünschen (standardmäßig auf den nächsten 5-Sekunden-Benchmark gerundet)
+  * Legen Sie diese Einstellung auf `"d"` fest, wenn Sie die Zeit in Tagen wünschen (standardmäßig auf den nächsten 1/4-Tage-Benchmark gerundet)
+  * Legen Sie diese Einstellung auf `"h"` fest, wenn Sie die Zeit in Stunden wünschen (standardmäßig auf den nächsten 1/4-Stunden-Benchmark gerundet)
+  * Legen Sie diese Einstellung auf `"m"` fest, wenn Sie die Zeit in Minuten wünschen (standardmäßig auf den nächsten 1/2-Minuten-Benchmark gerundet)
+  * Legen Sie diese Einstellung auf `"s"` fest, wenn Sie die Zeit in Sekunden wünschen (standardmäßig auf den nächsten 5-Sekunden-Benchmark gerundet)
 * **`bml`** (optional, Zahl): Die Länge der Rundungs-Benchmarks. Standardmäßig auf die im `tf`-Argument aufgeführten Benchmarks gesetzt
 
 Die Funktion gibt die Anzahl der Sekunden zurück, wobei mit der im `tf`-Argument angegebenen Einheit formatiert wird. Wenn das `tf`-Argument nicht festgelegt ist:
