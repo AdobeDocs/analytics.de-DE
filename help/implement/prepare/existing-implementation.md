@@ -33,7 +33,7 @@ Sehen Sie sich diese Tipps von Sarah Owen an, ebenfalls eine technisch Verantwor
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des übernommenen Implementierungs-](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Verwenden des übernommenen Implementierungs-](https://video.tv.adobe.com/v/3438773?captions=ger&quality=12&learn=on){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
