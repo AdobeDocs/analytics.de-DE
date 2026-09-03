@@ -6,17 +6,11 @@ title: Daten-Feed-Inhalte – Übersicht
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 TQID: 'https://experienceleague.adobe.com/Kz7pQS0KRjABbAx84Q16K1cA5zEB28Zx9lDoOTGSKAE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1004
@@ -103,7 +97,7 @@ Lookup-Dateien werden in einer komprimierten ZIP-Datei bereitgestellt, die nach 
 * **`languages.tsv`**: Ordnet die Sprach-ID (Feed-Spalte `language`) der Sprache zu.
 * **`operating_systems.tsv`**: Ordnet die Betriebssystem-ID (Feed-Spalte `os`) dem Namen des Betriebssystems zu.
 * **`plugins.tsv`**: Ordnet die Plug-in-ID (Feed-Spalte `plugin`) den jeweiligen Plug-in-Namen zu.
-* **`resolution.tsv`**: Ordnet die Auflösungs-ID (Feed-Spalte `resolution`) der Monitorauflösung zu.
+* **`resolution.tsv`**: Ordnet die Auflösungs-ID (Feed-Spalte `resolution`) der Bildschirmauflösung zu.
 * **`referrer_type.tsv`**: Ordnet die Referrer-Typ-ID (Feed-Spalte `ref_type`) dem Referrer-Typ zu.
 * **`search_engines.tsv`**: Ordnet die Suchmaschinen-ID (Feed-Spalte `search_engine`) dem Namen der Suchmaschine zu.
 * **`event.tsv`**: Ordnet jede Ereignis-ID (Feed-Spalte `event_list`) dem entsprechenden Ereignisnamen zu.

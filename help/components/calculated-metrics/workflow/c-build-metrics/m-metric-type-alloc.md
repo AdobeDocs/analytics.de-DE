@@ -4,19 +4,11 @@ title: Metriktyp und Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 TQID: https://experienceleague.adobe.com/ZfZZhXUrpGIzpfmIatSmbRAy1UJ-B6dDmZDeC1YSMjU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 615
@@ -42,16 +34,16 @@ Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für
 
    * Geben Sie die **[!UICONTROL Attribution]** an.
 
-      1. Sie haben folgende Möglichkeiten:
+     1. Sie haben folgende Möglichkeiten:
 
-         * Deaktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**, um das standardmäßige Spalten-Attributionsmodell Letztkontakt mit einem Lookback-Fenster von 30 Tagen zu verwenden.
-         * Aktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**. Im Dialogfeld **[!UICONTROL Attributionsmodell mit Spalten]**
+        * Deaktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**, um das standardmäßige Spalten-Attributionsmodell Letztkontakt mit einem Lookback-Fenster von 30 Tagen zu verwenden.
+        * Aktivieren Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]**. Im Dialogfeld **[!UICONTROL Attributionsmodell mit Spalten]**
 
-            * Wählen Sie ein **[!UICONTROL Modell]** aus den [Attributionsmodellen](#attribution-models) aus.
-            * Wählen Sie einen **[!UICONTROL Container]** aus den Optionen für [Container](#container) aus.
-            * Wählen Sie ein **[!UICONTROL Lookback-Fenster]** aus den Optionen für [Lookback-Fenster](#lookback-window) aus. Wenn Sie **[!UICONTROL Benutzerdefinierte Zeit]** auswählen, können Sie den Zeitraum in **[!UICONTROL Minuten]** bis zu **[!UICONTROL Quartalen]** festlegen.
+          * Wählen Sie ein **[!UICONTROL Modell]** aus den [Attributionsmodellen](#attribution-models) aus.
+          * Wählen Sie einen **[!UICONTROL Container]** aus den Optionen für [Container](#container) aus.
+          * Wählen Sie ein **[!UICONTROL Lookback-Fenster]** aus den Optionen für [Lookback-Fenster](#lookback-window) aus. Wenn Sie **[!UICONTROL Benutzerdefinierte Zeit]** auswählen, können Sie den Zeitraum in **[!UICONTROL Minuten]** bis zu **[!UICONTROL Quartalen]** festlegen.
 
-      1. Wählen Sie **[!UICONTROL Anwenden]**, um das nicht standardmäßige Attributionsmodell anzuwenden. Wählen Sie zum Abbrechen die Option „Abbrechen“ aus.
+     1. Wählen Sie **[!UICONTROL Anwenden]**, um das nicht standardmäßige Attributionsmodell anzuwenden. Wählen Sie zum Abbrechen die Option „Abbrechen“ aus.
 
      Wenn Sie bereits ein nicht standardmäßiges Attributionsmodell definiert haben, wählen Sie **[!UICONTROL Bearbeiten]** aus, um die Auswahl zu ändern.
 

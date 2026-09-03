@@ -4,18 +4,10 @@ description: Eine aggregierte Seite mit Dimensionen und Metriken zur Besuchszeit
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1659
@@ -25,7 +17,7 @@ ht-degree: 53%
 
 # Besuchszeit – Übersicht
 
-Für [!UICONTROL &#x200B; Adobe Analytics-Produkte &#x200B;] verschiedene [&#x200B; (](overview.md)) und Dimensionen zur Verfügung. Auf dieser Seite können Sie die gewünschte Dimension oder Metrik, nach der Sie suchen, leichter identifizieren.
+Für [!UICONTROL  Adobe Analytics-Produkte ] verschiedene [ (](overview.md)) und Dimensionen zur Verfügung. Auf dieser Seite können Sie die gewünschte Dimension oder Metrik, nach der Sie suchen, leichter identifizieren.
 
 ## Besuchszeit-Metriken
 
@@ -46,7 +38,7 @@ Für [!UICONTROL &#x200B; Adobe Analytics-Produkte &#x200B;] verschiedene [&#x20
 | [[!UICONTROL Zeit pro Besuch – präzise]](../dimensions/time-spent-per-visit.md) | Die gesamte bei einem Besuch verbrachte Zeit, die auf die nächste Sekunde gekürzt und auf alle Treffer angewendet wird, die Teil des Besuchs waren. Es handelt sich um eine Dimension auf Besuchsebene. | Analysis Workspace |
 | [[!UICONTROL Zeit pro Besuch – zusammengefasst]](../dimensions/time-spent-per-visit.md) | Die granulare Dimension wurde in 9 verschiedene Bereiche aufgeteilt. Es handelt sich um eine Dimension auf Besuchsebene. Zu den Bereichen gehören:<ul><li>Weniger als 1 Minute</li><li>1–5 Minuten</li><li>5–10 Minuten</li><li>10–30 Minuten</li><li>30–60 Minuten</li><li>1–2 Stunden</li><li>2–5 Stunden</li><li>5–10 Stunden</li><li>10–15 Stunden</li></ul>**Anmerkung**: Längere Zeiträume können nicht erfasst werden, da ein Besuch nach einer Aktivitätsdauer von 12 Stunden abläuft. | Analysis Workspace, Report Builder |
 | [[!UICONTROL Besuchszeit pro Seite – präzise]](../dimensions/time-spent-on-page.md) | Die gesamte bei einem Treffer verbrachte Zeit, gekürzt auf die letzte ganze Sekunde. Hierbei handelt es sich um eine Dimension auf Trefferebene, die sowohl Seitenansichten als auch Verknüpfungs-Ereignisse enthält. Trotz seines Namens ist er nicht auf die Dimension „Seite“ beschränkt. | Analysis Workspace |
-| [[!UICONTROL Besuchszeit pro Seite – zusammengefasst]](../dimensions/time-spent-on-page.md) | Die granulare Dimension wird in 10 verschiedene Bereiche gepackt. Die Dimension mit Buckets zählt jedoch nur Seitenansichten (und schließt Link-Ereignisse aus). Dies ist eine Dimension auf Trefferebene. Zu den Bereichen gehören:<ul><li>weniger als 15 Sekunden</li><li>15 bis 29 Sekunden</li><li>30 bis 59 Sekunden</li><li>1 bis 3 Minuten</li><li>3 bis 5 Minuten</li><li>5 bis 10 Minuten</li><li>10 bis 15 Minuten</li><li>15 bis 20 Minuten</li><li>20 bis 30 Minuten</li><li>mehr als 30 Minuten</li></ul> | Analysis Workspace |
+| [[!UICONTROL Besuchszeit pro Seite – zusammengefasst]](../dimensions/time-spent-on-page.md) | Die granulare Dimension wird in 10 verschiedene Bereiche gepackt. Die Dimension mit Buckets zählt jedoch nur Seitenansichten (und schließt Link-Ereignisse aus). Dies ist eine Dimension auf Trefferebene. Zu den Bereichen gehören:<ul><li>weniger als 15 Sekunden</li><li>15–29 Sekunden</li><li>30–59 Sekunden</li><li>1 bis 3 Minuten</li><li>3 bis 5 Minuten</li><li>5 bis 10 Minuten</li><li>10 bis 15 Minuten</li><li>15 bis 20 Minuten</li><li>20 bis 30 Minuten</li><li>mehr als 30 Minuten</li></ul> | Analysis Workspace |
 
 ## Berechnung der Besuchszeit
 
@@ -82,7 +74,7 @@ Die Metriken „Aufgewendete Zeit“, die auf jede Dimension angewendet werden k
 
 +++Welche Besuchszeitdimension wird am besten bei Aufschlüsselungen mit anderen Dimensionen verwendet?
 
-Die Dimension [[!UICONTROL Besuchszeit pro Seite - &#x200B;]](../dimensions/time-spent-on-page.md)) ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
+Die Dimension [[!UICONTROL Besuchszeit pro Seite - ]](../dimensions/time-spent-on-page.md)) ist eine Dimension auf Trefferebene. Wenn Sie diese Dimension anhand einer anderen Dimension aufschlüsseln, können Sie die Sekunden ermitteln, über die sich ein Treffer erstreckt hat, von dem auch die Aufschlüsselungsdimension betroffen war.
 Im folgenden Beispiel ist der Suchbegriff „classifieds“ mit Trefferzeiten von 54 Sekunden, 59 Sekunden usw. verknüpft, was möglicherweise darauf hinweist, dass Besuchende Zeit damit verbringen, für diesen Begriff zurückgegebene Inhalte zu lesen.
 
 ![Screenshot eines Seitenberichts mit Zeitaufwand](assets/time-spent1.png)
@@ -170,6 +162,6 @@ Einige zusätzliche Hinweise, um das Beispiel deutlicher zu machen:
 
 * Eine „Sequenz“ ist ein aufeinander folgender Satz von Treffern, bei denen eine bestimmte Variable denselben Wert enthält (sei es durch Festlegung, Ausdehnung nach vorne oder durch Beibehaltung). Beispiel: prop1 „A“ hat zwei Sequenzen: Treffer 1 und 2 und Treffer 6. Bei Werten beim letzten Treffer des Besuchs wird keine neue Sequenz gestartet, da beim letzten Treffer keine Zeit verbracht wurde. Die durchschnittliche Besuchszeit pro Site verwendet Sequenzen im Nenner.
 
-   * Nur für die Zwecke der aufgewendeten Zeit werden Props von Seitenaufrufen zu nachfolgenden Linktreffern „vorwärts gestreut“, wie oben für prop1 auf Treffer 2 gezeigt. Dadurch kann der Wert, der für prop1 bei Treffer 1 („A„) festgelegt wurde, die bei Treffer 2 verbrachte Zeit kumulieren.
+  * Nur für die Zwecke der aufgewendeten Zeit werden Props von Seitenaufrufen zu nachfolgenden Linktreffern „vorwärts gestreut“, wie oben für prop1 auf Treffer 2 gezeigt. Dadurch kann der Wert, der für prop1 bei Treffer 1 („A„) festgelegt wurde, die bei Treffer 2 verbrachte Zeit kumulieren.
 
-   * eVars sammeln die Besuchszeit für jeden Treffer, bei dem der eVar festgelegt oder permanent gespeichert ist. Die eVar-Persistenz wird durch die eVar-Einstellungen unter „Analytics > „Admin“ definiert.
+  * eVars sammeln die Besuchszeit für jeden Treffer, bei dem der eVar festgelegt oder permanent gespeichert ist. Die eVar-Persistenz wird durch die eVar-Einstellungen unter „Analytics > „Admin“ definiert.

@@ -4,19 +4,10 @@ title: Echtzeitberichte
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 TQID: https://experienceleague.adobe.com/SqFAddRYrXCrQyB-LjgsaLWoEQXMLc7hkdgcAcgUdsM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 611
@@ -51,10 +42,10 @@ Als Administrator haben Sie folgende Möglichkeiten
 * Verwenden Sie ein benutzerdefiniertes Ereignis, ein Warenkorbereignis oder eine Instanz.
 * Zeigen Sie bis zu 2 Stunden historische Echtzeitdaten an und ändern Sie diese Einstellung:
 
-   * Letzte 15 Minuten: Granularität von 1 Minute
-   * Letzte 30 Minuten: Granularität von 1 Minute
-   * Letzte Stunde: Granularität von 2 Minuten
-   * Letzte 2 Stunden: Granularität von 4 Minuten
+  * Letzte 15 Minuten: Granularität von 1 Minute
+  * Letzte 30 Minuten: Granularität von 1 Minute
+  * Letzte Stunde: Granularität von 2 Minuten
+  * Letzte 2 Stunden: Granularität von 4 Minuten
 
 * Vergleichen Sie beispielsweise die Werte der letzten Woche mit den Werten des letzten Jahres (sowie mit dem heutigen Gesamtwert).
 

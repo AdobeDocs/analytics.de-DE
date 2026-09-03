@@ -4,37 +4,11 @@ description: Glossar für Adobe Analytics, das häufig verwendete Begriffe defin
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 2638
@@ -48,8 +22,8 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 
 * **Activity Map:** ein Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Siehe [Activity Map](/help/analyze/activity-map/overview.md) im Benutzerhandbuch zu Analysen.
 * **Admin Console:** kann sich auf Folgendes beziehen:
-   * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/tools/c-admin-tools.md) im Administratorhandbuch.
-   * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
+  * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/tools/c-admin-tools.md) im Administratorhandbuch.
+  * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
 * **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Analysis Workspace:** Browser-Lösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Siehe [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) im Handbuch zu den Analytics-Tools.
 * **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) im Analytics-Tool-Handbuch.
@@ -59,12 +33,12 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Absprung:** ein Besuch, der aus einem einzelnen Treffer besteht. Siehe [Absprünge](/help/components/metrics/bounces.md) im Benutzerhandbuch zu Komponenten. Siehe auch „Einzelzugriff“.
 * **Berechnete Metrik:** ermöglicht die Kombination vorhandener Metriken, statistischer Funktionen und Formeln zur Verwendung in Berichten. Siehe [Berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Kampagne:** kann sich auf Folgendes beziehen:
-   * Die Kampagnenvariable, die die Dimension „Trackingcode“ ausfüllt. Siehe [Kampagne](../implement/vars/page-vars/campaign.md) im Benutzerhandbuch zu Implementierungen.
-   * Eine Standard-Classification der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
-   * Adobe Campaign, Teil von Adobe CX Enterprise. Weitere Informationen finden Sie auf [Adobe.com](https://www.adobe.com/de/marketing/campaign.html).
+  * Die Kampagnenvariable, die die Dimension „Trackingcode“ ausfüllt. Siehe [Kampagne](../implement/vars/page-vars/campaign.md) im Benutzerhandbuch zu Implementierungen.
+  * Eine Standard-Classification der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
+  * Adobe Campaign, Teil von Adobe CX Enterprise. Weitere Informationen finden Sie auf [Adobe.com](https://www.adobe.com/de/marketing/campaign.html).
 * **Kanal:** kann sich auf Folgendes beziehen:
-   * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
-   * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
+  * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
+  * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
 * **Klassifizierung:** eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionselementen ermöglicht. Siehe [Klassifizierungen](/help/components/classifications/classifications-overview.md) im Benutzerhandbuch zu Komponenten.
 * **ClickMap:** wird nicht mehr verwendet. Ein veraltetes Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
 * **Clickstream-Feed:** Siehe „Daten-Feed“.
@@ -95,8 +69,8 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Treffer:** eine Bildanforderung, die an Adobe-Datenerfassungs-Server gesendet wird. Seitenansichten und benutzerspezifische Links können beide als Treffer bezeichnet werden.
 * **Bildanforderung:** ein transparentes 1x1-Pixelbild, das zur Kommunikation mit Adobe-Datenerfassungs-Servern verwendet wird. Eine Website fordert dieses unsichtbare Bild mit einer langen Abfragezeichenfolge voller Daten an. Adobe gibt das unsichtbare Bild zurück und analysiert die empfangene Abfragezeichenfolge.
 * **Insight:** kann sich auf Folgendes beziehen:
-   * Der frühere Name von Data Workbench.
-   * Custom Insight, ein alter Name für benutzerspezifische Traffic-Variablen.
+  * Der frühere Name von Data Workbench.
+  * Custom Insight, ein alter Name für benutzerspezifische Traffic-Variablen.
 * **KPI:** Abkürzung für Key Performance Indicator. Metriken, die einem Unternehmen helfen, die Leistung seiner Site zu verstehen. Jede Organisation verfügt über unterschiedliche KPIs, die verschiedene Aspekte ihres Geschäfts messen. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Latenz:** die Verzögerung zwischen der Datenerfassung und der Verfügbarkeit in Berichten. Die typische Latenz in einer Report Suite beträgt 30 bis 90 Minuten. Siehe [Latenz](/help/technotes/latency.md) im Benutzerhandbuch zu technischen Informationen.
 * **Launch:** Wird nicht mehr als Begriff verwendet. Er ist der gekürzte frühere Name von Tags in Adobe Experience Platform, der aktuellen Implementierungslösung von Adobe. Siehe [Tags-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform.
@@ -116,8 +90,8 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Persistenz:** ein abstraktes Konzept für Konversionsvariablen, das die Verknüpfung zwischen einem Variablenwert und einem Ereignis bei separaten Treffern ermöglicht. Siehe auch „Gültigkeit“.
 * **Primärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, handelt es sich bei der ersten Report Suite um einen primären Server-Aufruf und bei den anderen um sekundäre Server-Aufrufe. Diese Regel gilt für alle Treffertypen, einschließlich Seitenansicht und Linktracking. Siehe auch „Sekundäre Server-Aufrufe“.
 * **Verarbeitungsregeln:** kann sich auf Folgendes beziehen:
-   * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) im Administratorhandbuch.
-   * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) im Administratorhandbuch.
+  * Verarbeitungsregeln, um die Datenerfassung mithilfe bestimmter Regeln in der Admin Console zu ändern. Siehe [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) im Administratorhandbuch.
+  * Marketing-Kanal-Verarbeitungsregeln, ein Regelsatz, der bestimmt, zu welchem Marketing-Kanal ein Treffer gehört. Siehe [Marketing-Kanal-Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) im Administratorhandbuch.
 * **Prop:** Siehe „Traffic-Variable“.
 * **Rangbericht:** ein Berichtsformat, das normalerweise einer Dimension mit einer Metrik folgt. Mit diesem Berichtstyp können Sie die wichtigsten Elemente anzeigen, wie z. B. die am häufigsten angezeigten Seiten Ihrer Site. Siehe auch „Trend-Bericht“.
 * **Echtzeit:** zeigt konfigurierte Variablen an, sobald sie mit wenig bis gar keiner Latenz erfasst werden. Siehe [Echtzeitberichte](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) im Administratorhandbuch.

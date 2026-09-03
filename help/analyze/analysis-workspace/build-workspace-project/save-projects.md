@@ -5,14 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 TQID: https://experienceleague.adobe.com/pw-VxFevFMNZ25B4-7KzpIasfnhELjtG-5k3FV2CxQk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 860
@@ -46,15 +41,15 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
 
   ![Projekt speichern](assets/save-project.png)
 
-   1. Geben Sie Folgendes an:
+  1. Geben Sie Folgendes an:
 
-      * **[!UICONTROL Name]** (erforderlich): Name Ihres Projekts.
-      * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts.
-      * **[!UICONTROL Tags]**: Suchen Sie im Feld [!UICONTROL *Tags suchen*] nach Tags oder fügen Sie neue Tags mit **[!UICONTROL ENTER]** hinzu.
-      * **[!UICONTROL Ordner]**: Wählen Sie einen Ordner aus [!UICONTROL *Dropdown-Menü*] Ordner auswählen“ aus. Wenn Sie keinen Ordner angeben, wird das Projekt im aktuellen Ordner gespeichert, aus dem Sie ein neues Projekt erstellt haben.
-      * **[!UICONTROL Versionshinweise]**. Fügen Sie Versionshinweise im Textbereich *Hinweise hinzufügen* hinzu.
+     * **[!UICONTROL Name]** (erforderlich): Name Ihres Projekts.
+     * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts.
+     * **[!UICONTROL Tags]**: Suchen Sie im Feld [!UICONTROL *Tags suchen*] nach Tags oder fügen Sie neue Tags mit **[!UICONTROL ENTER]** hinzu.
+     * **[!UICONTROL Ordner]**: Wählen Sie einen Ordner aus [!UICONTROL *Dropdown-Menü*] Ordner auswählen“ aus. Wenn Sie keinen Ordner angeben, wird das Projekt im aktuellen Ordner gespeichert, aus dem Sie ein neues Projekt erstellt haben.
+     * **[!UICONTROL Versionshinweise]**. Fügen Sie Versionshinweise im Textbereich *Hinweise hinzufügen* hinzu.
 
-   1. Wählen Sie **[!UICONTROL Speichern]** aus, um Ihr Projekt zu speichern.
+  1. Wählen Sie **[!UICONTROL Speichern]** aus, um Ihr Projekt zu speichern.
 
   Beim Speichern des Projekts wird eine Version des Projekts für 90 Tage gespeichert.
 
@@ -62,8 +57,8 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
 
   ![Freigegebens Projekt speichern](assets/save-project-shared.png)
 
-   * Wählen Sie **[!UICONTROL Speichern]** aus, um das Projekt zu speichern.
-   * Wählen Sie **[!UICONTROL Speichern unter]**, um das Projekt als doppeltes Projektduplikat mit einem neuen Namen zu speichern.
+  * Wählen Sie **[!UICONTROL Speichern]** aus, um das Projekt zu speichern.
+  * Wählen Sie **[!UICONTROL Speichern unter]**, um das Projekt als doppeltes Projektduplikat mit einem neuen Namen zu speichern.
 
 
 * **[!UICONTROL Mit Hinweisen speichern]**
@@ -72,8 +67,8 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
 
   Wenn Sie Ihr Projekt speichern, fügen Sie Notizen zu den Änderungen im Projekt hinzu. Im Dialogfeld „Versionshinweise speichern“:
 
-   1. Geben Sie Ihre **[!UICONTROL Versionshinweise]** im Textbereich **[!UICONTROL Hinweise hinzufügen]** ein.
-   1. Wählen Sie **[!UICONTROL Speichern]** aus.
+  1. Geben Sie Ihre **[!UICONTROL Versionshinweise]** im Textbereich **[!UICONTROL Hinweise hinzufügen]** ein.
+  1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
   Notizen werden mit der Projektversion gespeichert und sind beim [Öffnen einer früheren Version](open-projects.md#open-previous-version) des Projekts verfügbar. Eine mit Hinweisen gespeicherte Version wird automatisch für ein Jahr gespeichert.
 
@@ -83,15 +78,15 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
 
   Erstellen Sie ein Duplikat Ihres Projekts mit einem neuen Namen. Das Dialogfeld „Speichern unter“ wird angezeigt.
 
-   1. Geben Sie Folgendes an:
+  1. Geben Sie Folgendes an:
 
-      * **[!UICONTROL Name]** (erforderlich): Name Ihres Projekts.
-      * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts.
-      * **[!UICONTROL Tags]**: Suchen Sie im Feld [!UICONTROL *Tags suchen*] nach Tags oder fügen Sie neue Tags mit **[!UICONTROL ENTER]** hinzu.
-      * **[!UICONTROL Ordner]**: Wählen Sie einen Ordner aus [!UICONTROL *Dropdown-Menü*] Ordner auswählen“ aus. Wenn Sie keinen Ordner angeben, wird das Projekt im aktuellen Ordner gespeichert, aus dem Sie ein neues Projekt erstellt haben.
-      * **[!UICONTROL Versionshinweise]**. Fügen Sie Versionshinweise im Textbereich *Hinweise hinzufügen* hinzu.
+     * **[!UICONTROL Name]** (erforderlich): Name Ihres Projekts.
+     * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts.
+     * **[!UICONTROL Tags]**: Suchen Sie im Feld [!UICONTROL *Tags suchen*] nach Tags oder fügen Sie neue Tags mit **[!UICONTROL ENTER]** hinzu.
+     * **[!UICONTROL Ordner]**: Wählen Sie einen Ordner aus [!UICONTROL *Dropdown-Menü*] Ordner auswählen“ aus. Wenn Sie keinen Ordner angeben, wird das Projekt im aktuellen Ordner gespeichert, aus dem Sie ein neues Projekt erstellt haben.
+     * **[!UICONTROL Versionshinweise]**. Fügen Sie Versionshinweise im Textbereich *Hinweise hinzufügen* hinzu.
 
-   1. Wählen Sie **[!UICONTROL Speichern]** aus, um Ihr Projekt zu speichern.
+  1. Wählen Sie **[!UICONTROL Speichern]** aus, um Ihr Projekt zu speichern.
 
   Sie können das Projekt in einem anderen Ordner speichern. Das ursprüngliche Projekt bleibt davon unberührt.
 

@@ -6,27 +6,11 @@ solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1354
@@ -50,14 +34,14 @@ Während der Analytics-Datenverarbeitung fließen Daten durch die Datenerfassung
 
 Diese Verarbeitungsarchitektur ermöglicht deutlich flexiblere Berichtsoptionen. Sie können beispielsweise die Zeitüberschreitungsdauer für Besuche zerstörungsfrei auf eine beliebige Zeitdauer ändern. Diese Änderungen werden in Ihren eVar-Persistenz- und Segment-Containern für den gesamten Berichtszeitraum übernommen. Zudem können Sie eine beliebige Anzahl von Virtual Report Suites mit jeweils unterschiedlichen Optionen zu Berichtszeitverarbeitung generieren, die auf derselben zugrunde liegenden Report Suite basieren, ohne Daten in der zugrunde liegenden Report Suite zu ändern.
 
-Mit [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden, und der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=de&lange=de) kann bei jedem Auslösen eines Startereignisses einer Mobile App einen neuen Besuch starten.
+Mit [!UICONTROL Berichtszeitverarbeitung] kann in Analytics verhindert werden, dass durch Hintergrundtreffer neue Besuche gestartet werden, und der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lange=de) kann bei jedem Auslösen eines Startereignisses einer Mobile App einen neuen Besuch starten.
 
 ## Konfigurationsoptionen
 
 Die folgenden Konfigurationsoptionen sind derzeit für Virtual Report Suites mit aktivierter Berichtszeitverarbeitung verfügbar:
 
 * **[!UICONTROL Timeout für Besuch]:** Mit dieser Einstellung wird die Dauer der Inaktivität eines Unique Visitor definiert, bevor automatisch ein neuer Besuch gestartet wird. Die Standardeinstellung lautet 30 Minuten. Wenn Sie beispielsweise das Besuchs-Timeout auf 15 Minuten festlegen, wird für jede erfasste Sequenz von Treffern eine neue Besuchergruppe erstellt, getrennt durch 15 Minuten Inaktivität. Diese Einstellung wirkt sich nicht nur auf die Anzahl Ihrer Besuche aus, sondern auch darauf, wie Besuchssegment-Container ausgewertet werden und wie die Logik des Besuchsablaufs für alle eVars funktioniert, die beim Besuch ablaufen. Wenn Sie die maximale Wartezeit für Besuche verringern, wird sich wahrscheinlich die Gesamtzahl der Besuche in Ihren Berichten erhöhen, während eine Erhöhung der maximalen Wartezeit für Besuche wahrscheinlich die Gesamtzahl der Besuche in Ihren Berichten verringert.
-* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lang=de&lange=de) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind zerstörungsfrei und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Diese Einstellungen haben keine Auswirkungen auf Daten, die außerhalb der Mobile SDK erfasst werden.
+* **[!UICONTROL Besuchseinstellungen für Mobile Apps]:** Für Report Suites mit Daten, die von Mobile Apps über die [Adobe Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lange=de) generiert wurden, sind zusätzliche Besuchseinstellungen verfügbar. Diese Einstellungen sind zerstörungsfrei und betreffen nur Treffer, die über die Mobile SDKs erfasst wurden. Diese Einstellungen haben keine Auswirkungen auf Daten, die außerhalb der Mobile SDK erfasst werden.
 * **[!UICONTROL Starten neuer Besuche durch Hintergrundtreffer verhindern]:** Hintergrundtreffer werden von den Mobile SDKs erfasst, wenn sich die Mobile App in einem Hintergrundzustand befindet.
 * **[!UICONTROL Bei jedem Anwendungsstart einen neuen Besuch starten]:** Zusätzlich zum Timeout für Besuche können Sie immer dann den Beginn eines Besuchs erzwingen, wenn von den Mobile SDKs ein Startereignis einer App aufgezeichnet wurde. Die Inaktivitätsdauer ist dabei unerheblich. Diese Einstellung hat einen Einfluss auf die Besuchsmetrik und den Besuchssegment-Container sowie die Besuchsgültigkeitslogik für eVars.
 * **[!UICONTROL Neuen Besuch mit Ereignis starten]:** Eine neue Sitzung beginnt dann, wenn ein Ereignis ausgelöst wird – unabhängig davon, ob bei einer Sitzung eine Zeitüberschreitung aufgetreten ist oder nicht. Die neu erstellte Sitzung enthält das Ereignis, mit dem sie gestartet wurde. Darüber hinaus können Sie mehrere Ereignisse verwenden, um eine Sitzung zu starten. Eine neue Sitzung wird ausgelöst, wenn eines dieser Ereignisse in den Daten beobachtet wird. Diese Einstellung wirkt sich auf die Anzahl der Besuche, den Besuchssegmentierungs-Container und die Logik des Besuchsablaufs für eVars aus.
@@ -65,7 +49,7 @@ Die folgenden Konfigurationsoptionen sind derzeit für Virtual Report Suites m
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines neuen Besuchs mit einem Ereignis](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starten eines neuen Besuchs mit einem Ereignis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -100,12 +84,12 @@ Die folgenden Dimensionen und Metriken werden bei der Berichtszeitverarbeitung n
 Nachstehend finden Sie eine Liste mit Dimensionen und Metriken, die je nach den ausgewählten Einstellungen für „Berichtszeitverarbeitung“ betroffen sind:
 
 * Wenn „Starten neuer Besuche durch Hintergrundtreffer verhindern“ aktiviert ist, treten die folgenden Änderungen ein. Weitere Informationen finden Sie unter [kontextbezogene Sitzungserstellung](vrs-mobile-visit-processing.md).
-   * [**Bounces**](/help/components/metrics/bounces.md)/[**Bounce-Rate:**](/help/components/metrics/bounce-rate.md) Hintergrundtreffer, auf die kein Vordergrundtreffer folgt, werden nicht als Bounce-Treffer betrachtet und tragen nicht zur Bounce-Rate bei.
-   * [**Zeit pro Besuch in Sekunden:**](/help/components/metrics/time-spent-per-visit.md) Nur Besuche mit Treffern im Vordergrund tragen zu dieser Metrik bei.
-   * **Zeit pro Besuch:** Nur Besuche, die Treffer im Vordergrund enthalten, tragen zu dieser Metrik bei.
-   * [**Einstiegsmetrik**](/help/components/metrics/entries.md)/[**Ausstiegsmetrik:**](/help/components/metrics/exits.md) In dieser Dimension werden nur Ein- und Ausstiege aus Besuchen mit Vordergrundtreffern angezeigt.
-   * [**Einstiegsdimension**](/help/components/dimensions/entry-dimensions.md) / [**Ausstiegsdimensionen:**](/help/components/dimensions/exit-dimensions.md) In dieser Dimension werden nur Ein- und Ausstiege aus Besuchen mit Vordergrundtreffern angezeigt.
-   * [**Metrik „Unique Visitors“**](/help/components/metrics/unique-visitors.md) „Unique Visitors“ umfasst keine Besucher, die im Datumsbereich der Berichterstellung nur Hintergrundtreffer hatten.
+  * [**Bounces**](/help/components/metrics/bounces.md)/[**Bounce-Rate:**](/help/components/metrics/bounce-rate.md) Hintergrundtreffer, auf die kein Vordergrundtreffer folgt, werden nicht als Bounce-Treffer betrachtet und tragen nicht zur Bounce-Rate bei.
+  * [**Zeit pro Besuch in Sekunden:**](/help/components/metrics/time-spent-per-visit.md) Nur Besuche mit Treffern im Vordergrund tragen zu dieser Metrik bei.
+  * **Zeit pro Besuch:** Nur Besuche, die Treffer im Vordergrund enthalten, tragen zu dieser Metrik bei.
+  * [**Einstiegsmetrik**](/help/components/metrics/entries.md)/[**Ausstiegsmetrik:**](/help/components/metrics/exits.md) In dieser Dimension werden nur Ein- und Ausstiege aus Besuchen mit Vordergrundtreffern angezeigt.
+  * [**Einstiegsdimension**](/help/components/dimensions/entry-dimensions.md) / [**Ausstiegsdimensionen:**](/help/components/dimensions/exit-dimensions.md) In dieser Dimension werden nur Ein- und Ausstiege aus Besuchen mit Vordergrundtreffern angezeigt.
+  * [**Metrik „Unique Visitors“**](/help/components/metrics/unique-visitors.md) „Unique Visitors“ umfasst keine Besucher, die im Datumsbereich der Berichterstellung nur Hintergrundtreffer hatten.
 * [**Besuche:**](/help/components/metrics/visits.md) Besuche spiegeln die konfigurierten Einstellungen der Virtual Report Suite wider, die sich von der zugrunde liegenden Report Suite unterscheiden können.
 * **Serialisierte Ereignisse mit Ereignis-ID:** Ereignisse, die die Ereignisserialisierung mit einer Ereignis-ID verwenden, werden nur für Ereignisse dedupliziert, die innerhalb des Datumsbereichs der Berichterstellung für einen Besucher auftreten. Diese Ereignisse werden aufgrund des Datumsfensters für die Berichtszeitverarbeitung nicht global für alle Daten oder Besucher dedupliziert.
 * **Bestellungen** / [**Umsatz**](/help/components/metrics/revenue.md) / [**Bestellungen**](/help/components/metrics/orders.md) / [**Einheiten:**](/help/components/metrics/units.md) Wenn die Kauf-ID verwendet wird, werden diese Metriken nur für doppelte Kauf-IDs dedupliziert, die innerhalb des Berichtsdatumsbereichs für einen Besucher auftreten, und nicht für alle Datumsangaben oder Besucher global aufgrund des Fensters Berichtszeitverarbeitung .

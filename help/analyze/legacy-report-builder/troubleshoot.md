@@ -6,18 +6,10 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
@@ -50,8 +42,8 @@ Außerdem bewirkt das Öffnen einer ARB Version 5.1-Arbeitsmappe mit Classificat
 Zur Erstellung von Datenanforderungen aus Report Suites durch Report Builder ist eine Authentifizierung erforderlich. Manchmal gibt es Probleme bei der Anmeldung bei Report Builder, abhängig von Ihren Einstellungen in [!DNL Analytics] oder Ihrem Netzwerk.
 
 * **Ungültige Unternehmensanmeldung** Dieser Fehler tritt am häufigsten auf, wenn die Unternehmensanmeldung nicht korrekt eingegeben wurde oder Probleme mit der Netzwerkaktivität auftreten. Gehen Sie folgendermaßen vor:
-   * Überprüfen Sie die Schreibweise des Anmeldeunternehmens, um sicherzustellen, dass weder ein Tippfehler noch ein fehlerhaftes Leerzeichen auftritt.
-   * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
+  * Überprüfen Sie die Schreibweise des Anmeldeunternehmens, um sicherzustellen, dass weder ein Tippfehler noch ein fehlerhaftes Leerzeichen auftritt.
+  * Melden Sie sich mit demselben Firmennamen bei Analytics an, um sicherzustellen, dass die Angaben korrekt sind. Wenn Sie sich mit diesen Benutzerdaten nicht anmelden können, wenden Sie sich an einen Administrator in Ihrem Unternehmen und fordern Sie die korrekten Daten an.
 * **Firewall**: Report Builder verwendet die Ports 80 und 443. Stellen Sie sicher, dass diese Ports über die Firewall Ihres Unternehmens zugelassen sind. Siehe auch Interne IP-Adressen von Adobe für zusätzliche Firewall-Ausschlüsse.
 
 ## Empfehlungen für die Anforderungsoptimierung {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -91,16 +83,16 @@ Dieser Abschnitt enthält eine Beispielliste von Fehlermeldungen, die bei der Ve
 
 * **Diese Funktion kann nur auf eine geöffnete Arbeitsmappe angewendet werden.**: Wenn in Excel keine Arbeitsmappen (Kalkulationstabellen) geöffnet sind und Sie auf eines der Symbole in der Report Builder-Symbolleiste klicken, wird diese Meldung angezeigt. Darüber hinaus wird die Symbolleiste deaktiviert, bis Sie eine Arbeitsmappe öffnen. Sie können jedoch auf das Online-Hilfesymbol klicken, während die Symbolleiste noch aktiviert ist, ohne diesen Fehler zu verursachen.
 * **Sie müssen zunächst den [!UICONTROL Anforderungs-Assistenten] beenden, bevor Sie den [!UICONTROL Anforderungs-Manager] aktivieren.**: Obwohl [!UICONTROL Anforderungs-Manager] und der [!UICONTROL Anforderungs-Assistent] funktional verknüpft sind, ist es nicht möglich, mit dem [!UICONTROL Anforderungs-Manager] zu arbeiten, bevor Sie im [!UICONTROL Anforderungs-Assistenten] durchgeführte Aktionen abbrechen oder abschließen.
-* **Diesem Bereich ist keine Anforderung zugeordnet.**: Diese Fehlermeldung wird angezeigt, wenn Sie im [!UICONTROL Anforderungs-Manager auf die Schaltfläche [!UICONTROL Aus Blatt] klicken] wenn eine Tabellenzelle keine Anforderungen enthält. Um zu ermitteln, welche Zellen im Arbeitsblatt Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen, die in der Tabelle im [!UICONTROL Anforderungs-Manager“ aufgeführt &#x200B;]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
+* **Diesem Bereich ist keine Anforderung zugeordnet.**: Diese Fehlermeldung wird angezeigt, wenn Sie im [!UICONTROL Anforderungs-Manager auf die Schaltfläche [!UICONTROL Aus Blatt] klicken] wenn eine Tabellenzelle keine Anforderungen enthält. Um zu ermitteln, welche Zellen im Arbeitsblatt Anforderungen enthalten, klicken Sie auf die einzelnen Anforderungen, die in der Tabelle im [!UICONTROL Anforderungs-Manager“ aufgeführt ]. Wenn eine Anforderung mit Zellen verknüpft ist, werden die Zellen bei Auswahl der Anforderung in der Liste markiert dargestellt.
 * **Der ausgewählte Bereich ist ungültig. Bitte einen anderen Bereich auswählen.**: Dieser Fehler tritt auf, wenn eine Zelle des Arbeitsblatts ausgewählt wird, der bereits eine Anforderung zugeordnet ist. Löschen Sie entweder die der Zelle zugeordnete Anforderung oder wählen Sie einen anderen Zellenbereich für die Verknüpfung aus. Wenn Sie Zellen löschen möchten, müssen Sie unbedingt Zellen vorher ermitteln, welche Zellen Anforderungen enthalten und die Anforderung löschen, bevor Sie die Zellen löschen (indem Sie Zeilen oder Spalten entfernen).
 * **Verlassen Sie die Excel-Zelle, während diese ausgewählt ist, um diese Funktion zu verwenden.**: Wenn Sie sich im *Bearbeitungsmodus* in einer Excel-Zelle befinden und auf eines der Report Builder-Symbole klicken, wird diese Fehlermeldung angezeigt. Unter Bearbeitungsmodus für eine Excel-Zelle ist zu verstehen, dass die Zelle ausgewählt ist und der Cursor sich in der Zelle befindet. Sie befinden sich auch im Bearbeitungsmodus in einer Excel-Zelle, wenn Sie direkt in die Leiste [!UICONTROL Formel] oder in das Feld [!UICONTROL Name] oben in Excel eingeben.
 * **Der ausgewählte Bereich überschneidet sich mit dem Bereich einer anderen Anforderung. Bitte die Auswahl ändern.**: Wenn Sie bereits eine Gruppe von Zellen mit dem Arbeitsblatt verknüpft haben, wird diese Fehlermeldung angezeigt.
 * **Reparaturen an Arbeitsmappen (entfernte Einträge: Formel aus dem Teil /xl/calcChain.xml)**: Manchmal werden die Formeln einer Arbeitsmappe beim Speichern oder Übertragen beschädigt. Wenn die Datei geöffnet wird, versucht Excel diese Formeln auszuführen und schlägt damit fehl. Sie können dieses Problem beheben, indem Sie `calcChain.xml` aus der Tabelle entfernen, was Excel zwingt, die Formelberechnungen zu aktualisieren.
-   1. Benennen Sie die Dateierweiterung der Arbeitsmappe von `.xlsx` in `.zip` um.
-   2. Dekomprimieren Sie dann den Inhalt und öffnen Sie den Ordner `/xl/`.
-   3. Löschen `calcChain.xml`.
-   4. Komprimieren Sie den Inhalt erneut und ändern Sie die Dateierweiterung wieder zurück in `.xlsx`.
-   5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anfragen.
+  1. Benennen Sie die Dateierweiterung der Arbeitsmappe von `.xlsx` in `.zip` um.
+  2. Dekomprimieren Sie dann den Inhalt und öffnen Sie den Ordner `/xl/`.
+  3. Löschen `calcChain.xml`.
+  4. Komprimieren Sie den Inhalt erneut und ändern Sie die Dateierweiterung wieder zurück in `.xlsx`.
+  5. Öffnen Sie die Arbeitsmappe in Excel und aktualisieren Sie alle Report Builder-Anfragen.
 * **Excel-Zellen, die mit den Eingangsfiltern oder dem Ausgangsbereich verbunden sind, wurden möglicherweise gelöscht**: Report Builder verwendet Excel-Namen, um Datenanforderungen an Zellen anzuhängen. Wenn Sie Excel-Namen aus Names Manager löschen, kann dieser Fehler auftreten. Anfragen können nicht wiederhergestellt werden, wenn Excel-Namen gelöscht werden. Wenn die Arbeitsmappe eingeplant war, können Sie entweder eine Kopie vom Zeitplan-Manager herunterladen oder zuvor bereitgestellte Kopien der Arbeitsmappe öffnen.
 
 ## Anfragen protokollieren

@@ -6,21 +6,11 @@ feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 679
@@ -65,8 +55,8 @@ Wenn AppMeasurement Daten an die Datenerfassungs-Server der Adobe sendet, antwor
 
 * **200 OK**: Die häufigste Antwort von Datenerfassungs-Servern. Die Bildanforderung wurde erfolgreich empfangen und ein transparentes Bild zurückgegeben.
 * **302 FOUND**: Es gibt mehrere mögliche Gründe, warum Sie diese Antwort erhalten:
-   * Die erste Bildanforderung eines Besuchers: Eine Umleitung tritt auf, wenn ein Benutzer Ihre Site zum ersten Mal besucht. Diese Umleitung dient zum Abrufen eines Besucher-Cookies. Die Datenerfassung wird dadurch nicht beeinflusst.
-   * Integration zwischen Comscore und Adobe: Wenn Ihr Unternehmen eine Comscore-/Analytics-Integration verwendet, ergibt jede Bildanforderung immer eine 302-Antwort.
+  * Die erste Bildanforderung eines Besuchers: Eine Umleitung tritt auf, wenn ein Benutzer Ihre Site zum ersten Mal besucht. Diese Umleitung dient zum Abrufen eines Besucher-Cookies. Die Datenerfassung wird dadurch nicht beeinflusst.
+  * Integration zwischen Comscore und Adobe: Wenn Ihr Unternehmen eine Comscore-/Analytics-Integration verwendet, ergibt jede Bildanforderung immer eine 302-Antwort.
 * **404 NOT FOUND**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungs-Server von Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Person oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
 
 ## NS_BINDING_ABORTED in Antwortcodes

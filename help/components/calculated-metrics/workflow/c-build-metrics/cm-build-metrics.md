@@ -4,20 +4,13 @@ title: Erstellen von Metriken
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 TQID: https://experienceleague.adobe.com/ds8aD51DynOEJ7uYZ5Id-kTng2JPN4nZYuMTaKj-ZvE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1489
+source-wordcount: 1495
 ht-degree: 99%
 
 ---
@@ -135,22 +128,22 @@ Sie verwenden das Konzept eines Segment-Containers, um eine [segmentierte Metrik
 
 * So fügen Sie einen Segment-Container aus einer Dimension hinzu:
 
-   1. Ziehen Sie eine Komponente des Typs ![Dimensionen](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensionen]** aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Dimensionen, Dimensionselemente, Segmente und/oder Funktionen mittels Drag-and-Drop hier]**. Sie können die ![Suche](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
-   1. Definieren Sie im Popup **[!UICONTROL Segment aus Dimension erstellen]** die Bedingung für das Segment. Wählen Sie in der Liste der Operatoren einen Wert aus oder geben Sie einen Wert ein, z. B. **[!UICONTROL Monat]** **[!UICONTROL gleich]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
-   1. Wählen Sie **[!UICONTROL Fertig]** aus. Ein Segment-Container wird der **[!UICONTROL Definition]** hinzugefügt.
+  1. Ziehen Sie eine Komponente des Typs ![Dimensionen](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensionen]** aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Dimensionen, Dimensionselemente, Segmente und/oder Funktionen mittels Drag-and-Drop hier]**. Sie können die ![Suche](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
+  1. Definieren Sie im Popup **[!UICONTROL Segment aus Dimension erstellen]** die Bedingung für das Segment. Wählen Sie in der Liste der Operatoren einen Wert aus oder geben Sie einen Wert ein, z. B. **[!UICONTROL Monat]** **[!UICONTROL gleich]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+  1. Wählen Sie **[!UICONTROL Fertig]** aus. Ein Segment-Container wird der **[!UICONTROL Definition]** hinzugefügt.
 
 
 * Um einen Segment-Container aus einem Segment hinzuzufügen, können Sie wie folgt vorgehen:
 
-   * Ziehen Sie eine Komponente des Typs ![Segmentierung](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmente]** aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Dimensionen, Dimensionselemente, Segmente und/oder Funktionen mittels Drag-and-Drop hier]**. Sie können die ![Suche](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Segmenten zu suchen.
-Der **[!UICONTROL Definition]** wird automatisch ein Segment-Container mit dem Namen des Segments hinzugefügt.
+  * Ziehen Sie eine Komponente des Typs ![Segmentierung](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmente]** aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Dimensionen, Dimensionselemente, Segmente und/oder Funktionen mittels Drag-and-Drop hier]**. Sie können die ![Suche](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Segmenten zu suchen.
+    Der **[!UICONTROL Definition]** wird automatisch ein Segment-Container mit dem Namen des Segments hinzugefügt.
 
-   * Ziehen Sie eine Komponente des Typs ![Segmentierung](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** aus dem Panel „Komponenten“ in einen generischen Container. Der Container wird in einen Segment-Container geändert.
+  * Ziehen Sie eine Komponente des Typs ![Segmentierung](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** aus dem Panel „Komponenten“ in einen generischen Container. Der Container wird in einen Segment-Container geändert.
 
-   * Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** in einem Container aus:
+  * Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** in einem Container aus:
 
-      1. Wählen Sie **[!UICONTROL Segment]** aus. Der **[!UICONTROL Definition]** wird ein Segment-Container hinzugefügt.
-      1. Wählen Sie im neuen Segment-Container ein Segment aus dem Dropdown-Menü [!UICONTROL *Auswählen…*] aus.
+    1. Wählen Sie **[!UICONTROL Segment]** aus. Der **[!UICONTROL Definition]** wird ein Segment-Container hinzugefügt.
+    1. Wählen Sie im neuen Segment-Container ein Segment aus dem Dropdown-Menü [!UICONTROL *Auswählen…*] aus.
 
   >[!TIP]
   >
@@ -170,13 +163,13 @@ Um einen Funktions-Container hinzuzufügen, können Sie wie folgt vorgehen:
 
 * Verwenden Sie die Drag-and-Drop-Funktion:
 
-   1. Ziehen Sie eine Komponente des Typs ![Funktion](/help/assets/icons/Effect.svg) **[!UICONTROL Funktionen]** aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Dimensionen, Dimensionselemente, Segmente und/oder Funktionen mittels Drag-and-Drop hier]**. Sie können ![Search](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Funktionen zu suchen.
-   1. Der **[!UICONTROL Definition]** wird automatisch ein Funktions-Container mit dem Namen der Funktion hinzugefügt.
+  1. Ziehen Sie eine Komponente des Typs ![Funktion](/help/assets/icons/Effect.svg) **[!UICONTROL Funktionen]** aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Dimensionen, Dimensionselemente, Segmente und/oder Funktionen mittels Drag-and-Drop hier]**. Sie können ![Search](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Funktionen zu suchen.
+  1. Der **[!UICONTROL Definition]** wird automatisch ein Funktions-Container mit dem Namen der Funktion hinzugefügt.
 
 * Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** in einem Container aus:
 
-   1. Wählen Sie **[!UICONTROL Funktion]**.
-   1. Wählen Sie im Container eine Funktion aus dem Dropdown-Menü [!UICONTROL *Auswählen…*] aus.
+  1. Wählen Sie **[!UICONTROL Funktion]**.
+  1. Wählen Sie im Container eine Funktion aus dem Dropdown-Menü [!UICONTROL *Auswählen…*] aus.
 
 Der Funktions-Container ist nach der Funktionskomponente benannt. Beispiel: ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Wählen Sie ![InfoOutline](/help/assets/icons/InfoOutline.svg) aus, um ein Popup mit weiteren Details zur Funktion anzuzeigen. Wählen Sie **[!UICONTROL Weitere Informationen]** aus, um weitere Informationen zur Funktion zu erhalten.
 

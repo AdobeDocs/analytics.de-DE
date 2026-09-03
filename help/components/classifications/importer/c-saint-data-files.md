@@ -4,18 +4,11 @@ title: Klassifizierungsdatendateien
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 TQID: https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1045
@@ -65,10 +58,10 @@ Eine Datendatei muss die folgenden Strukturregeln einhalten:
 * Klassifizierungsexporte können aufgrund der Zeilenumbruchzeichen im Schlüssel doppelte Schlüssel aufweisen. In einem FTP- oder Browser-Export kann dies behoben werden, indem Anführungszeichen für das FTP-Konto aktiviert werden. Dadurch werden alle Schlüssel mit Zeilenumbrüchen in Anführungszeichen gesetzt.
 * Zelle C1 in der ersten Zeile der Importdatei enthält eine Versionskennung, die bestimmt, wie Klassifizierungen die Verwendung von Anführungszeichen im Rest der Datei handhaben.
 
-   * v2.0 ignoriert Anführungszeichen und geht davon aus, dass sie alle Teil der angegebenen Schlüssel und Werte sind. Betrachten Sie beispielsweise diesen Wert: „Dies ist „ein Wert“. v2.0 würde dies wörtlich interpretieren als: „Dies ist „ein gewisser Wert“.
-   * v2.1 weist Klassifizierungen an anzunehmen, dass Anführungszeichen Teil der in Excel-Dateien verwendeten Dateiformatierung sind. Daher würde v2.1 das obige Beispiel wie folgt formatieren: Dies ist „ein Wert“.
-   * Probleme können auftreten, wenn v2.1 in der Datei angegeben ist, aber was tatsächlich gewünscht wird, ist v2.0 - d. h. wenn Anführungszeichen in einer Weise verwendet werden, die unter Excel-Formatierung unzulässig ist. Beispiel: Sie haben den Wert: „VP NO REPS“ S/l Dress w/ Overlay. In Version 2.1 ist dies eine falsche Formatierung (der Wert sollte von öffnenden und schließenden Anführungszeichen umgeben sein und Anführungszeichen, die Teil des tatsächlichen Werts sind, sollten in Anführungszeichen gesetzt werden), und Klassifizierungen funktionieren über diesen Punkt hinaus nicht.
-   * Vergewissern Sie sich, dass Sie eine der folgenden Aktionen durchführen: Ändern Sie das Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den Dateien ändern, die Sie hochladen, ODER setzen Sie die Anführungszeichen für Excel in allen Ihren Dateien korrekt um.
+  * v2.0 ignoriert Anführungszeichen und geht davon aus, dass sie alle Teil der angegebenen Schlüssel und Werte sind. Betrachten Sie beispielsweise diesen Wert: „Dies ist „ein Wert“. v2.0 würde dies wörtlich interpretieren als: „Dies ist „ein gewisser Wert“.
+  * v2.1 weist Klassifizierungen an anzunehmen, dass Anführungszeichen Teil der in Excel-Dateien verwendeten Dateiformatierung sind. Daher würde v2.1 das obige Beispiel wie folgt formatieren: Dies ist „ein Wert“.
+  * Probleme können auftreten, wenn v2.1 in der Datei angegeben ist, aber was tatsächlich gewünscht wird, ist v2.0 - d. h. wenn Anführungszeichen in einer Weise verwendet werden, die unter Excel-Formatierung unzulässig ist. Beispiel: Sie haben den Wert: „VP NO REPS“ S/l Dress w/ Overlay. In Version 2.1 ist dies eine falsche Formatierung (der Wert sollte von öffnenden und schließenden Anführungszeichen umgeben sein und Anführungszeichen, die Teil des tatsächlichen Werts sind, sollten in Anführungszeichen gesetzt werden), und Klassifizierungen funktionieren über diesen Punkt hinaus nicht.
+  * Vergewissern Sie sich, dass Sie eine der folgenden Aktionen durchführen: Ändern Sie das Dateiformat in v2.0, indem Sie die Kopfzeile (Zelle C1) in den Dateien ändern, die Sie hochladen, ODER setzen Sie die Anführungszeichen für Excel in allen Ihren Dateien korrekt um.
 
 * Die erste (Nicht-Kommentar)-Zeile der Datendatei enthält die Spaltenüberschriften, die die Classification-Daten in der Spalte bezeichnen. Das Import-Tool erfordert ein bestimmtes Format für Spaltenüberschriften. Weitere Informationen finden Sie unter [Format der Spaltenüberschrift](/help/components/classifications/importer/c-saint-data-files.md).
 * Unmittelbar nach der Kopfzeile in einer Datendatei befinden sich die Datenzeilen. Jede Datenzeile sollte ein Datenfeld für jede Spaltenüberschrift enthalten.

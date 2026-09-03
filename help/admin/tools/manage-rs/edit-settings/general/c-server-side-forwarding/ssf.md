@@ -6,21 +6,11 @@ feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c354699e-6555-4397-8706-1a9a89984069
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c354699e-6555-4397-8706-1a9a89984069
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 887
@@ -66,12 +56,12 @@ Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festg
 * **&quot;status&quot;:&quot;SUCCESS&quot;**: Das Zielgruppen-Management-Modul ist zwar implementiert, die serverseitige Weiterleitung ist jedoch nicht ordnungsgemäß konfiguriert. Fahren Sie mit Schritt 3 fort.
 * Ein **2 x 2-Bild**: Sie haben keine Server-seitige Weiterleitung oder das Audience Management-Modul implementiert. So korrigieren Sie dies:
 
-   * **Adobe Audience Manager-Kundinnen und -Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
+  * **Adobe Audience Manager-Kundinnen und -Kunden mit DIL**: Koordinieren Sie die folgenden beiden Elemente in enger Verbindung:
 
-      1. Entfernen Sie den DIL-Code und installieren Sie den [Audience Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de)-Seitencode.
-      1. Aktivieren Sie die Server-seitige Weiterleitung in der Admin-Benutzeroberfläche von Analytics, wie in Schritt 3 beschrieben. Wenn Sie diese Einstellung vor dem Entfernen des DIL-Codes aktivieren, werden Daten dupliziert und zusätzliche in Rechnung gestellte Server-Aufrufe an Audience Manager erstellt.
+    1. Entfernen Sie den DIL-Code und installieren Sie den [Audience Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de)-Seitencode.
+    1. Aktivieren Sie die Server-seitige Weiterleitung in der Admin-Benutzeroberfläche von Analytics, wie in Schritt 3 beschrieben. Wenn Sie diese Einstellung vor dem Entfernen des DIL-Codes aktivieren, werden Daten dupliziert und zusätzliche in Rechnung gestellte Server-Aufrufe an Audience Manager erstellt.
 
-   * **Neue Adobe Audience Manager-Kundinnen und -Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die Server-seitige Weiterleitung in Schritt 3 aktiviert wurde.
+  * **Neue Adobe Audience Manager-Kundinnen und -Kunden**: Installieren Sie den Seiten-Code für das [Zielgruppen-Management-Modul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=de) und fahren Sie mit Schritt 3 fort. Es werden erst Daten an Audience Manager gesendet, nachdem die Server-seitige Weiterleitung in Schritt 3 aktiviert wurde.
 
 ## ![Grafik step3_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Implementierung der serverseitigen Weiterleitung der Report Suite überprüfen
 

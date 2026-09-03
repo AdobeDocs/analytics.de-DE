@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 3%
 
 ---
 
@@ -20,8 +20,8 @@ In diesem Artikel wird ein komplexeres Beispiel für eine berechnete Metrik erl�
 
 1. Wählen Sie die Metrik **[!UICONTROL Online-Bestellungen]** aus den Komponenten **[!UICONTROL Metriken]** und ziehen Sie die Metrik in den Bereich **[!UICONTROL Definition]**.
 
-   1. Wählen Sie ![&#x200B; Metrik &#x200B;](/help/assets/icons/Setting.svg)Einstellung“ aus.
-   1. Wählen **[!UICONTROL Nicht-standardmäßiges Attributionsmodell verwenden]**.
+   1. Wählen Sie ![ Metrik ](/help/assets/icons/Setting.svg)Einstellung“ aus.
+   1. Wählen Sie **[!UICONTROL Nicht standardmäßiges Zuordnungsmodell verwenden]** aus.
    1. Passen Sie das Attributionsmodell im **[!UICONTROL Spalten-Attributionsmodell]** an.
       1. Wählen Sie **[!UICONTROL Benutzerdefiniert]** für **[!UICONTROL Modell]** aus. Legen Sie **[!UICONTROL Starter]** auf `0`, **[!UICONTROL Player]** auf `100` und **[!UICONTROL Closer]** auf `0` fest.
       1. Wählen Sie **[!UICONTROL Besucher]** für **[!UICONTROL Container]** aus.
@@ -41,4 +41,4 @@ So verwenden Sie die berechnete Metrik:
 
 1. (Optional) Geben Sie die Metrik für andere Benutzer in Ihrer Organisation frei, wie unter [Freigeben berechneter Metriken](/help/components/calculated-metrics/workflow/cm-sharing.md) beschrieben.
 
-Dies ist eine einfache Möglichkeit, um festzustellen, welche Marketing-Kanäle zur Erhöhung der Bestellungen beigetragen haben. Alternativ können Sie in einer Freiformtabelle eine beliebige Metrik auswählen und im Kontextmenü das Attributionsmodell direkt in der Tabelle anpassen.
+Auf diese Weise lässt sich leicht erkennen, welche Marketing-Kanäle bei Fahrerbestellungen geholfen haben. Alternativ können Sie in einer Freiformtabelle eine beliebige Metrik auswählen und im Kontextmenü das Attributionsmodell direkt in der Tabelle anpassen.

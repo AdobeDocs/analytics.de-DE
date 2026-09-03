@@ -4,17 +4,11 @@ description: Erfahren Sie, wie Sie in Adobe Analytics Klassifizierungssätze ers
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
 TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 502
@@ -24,7 +18,7 @@ ht-degree: 2%
 
 # Erstellen und Bearbeiten von Klassifizierungssätzen
 
-Über [&#x200B; Manager für Klassifizierungssätze &#x200B;](#create-a-classification-set) Sie [&#128279;](#edit-a-classification-set) Klassifizierungssätze erstellen und  bearbeiten.
+Über [ Manager für Klassifizierungssätze ](#create-a-classification-set) Sie ](#edit-a-classification-set) Klassifizierungssätze erstellen und [ bearbeiten.
 
 ## Erstellen eines Klassifizierungssatzes
 
@@ -44,17 +38,17 @@ So erstellen Sie einen Klassifizierungssatz:
       * **[!UICONTROL Suche]**. Eine Lookup-Tabelle wird häufig als untergeordnete Klassifizierung oder Unterklassifizierung bezeichnet und ist eine Klassifizierung einer primären Klassifizierung. Bei einer Suche handelt es sich um Metadaten über einen Klassifizierungswert und nicht um die ursprüngliche Dimension. Beispielsweise könnte eine Dimension *Produkt* über eine primäre Classification mit *Farbcode* verfügen. Eine Lookup-Tabelle mit *Farbname* kann dann an den *Farbcode“ angehängt werden* um jeden Farbcode zu erklären.
 1. Wählen **[!UICONTROL im Abschnitt]** Auftragsbenachrichtigungen“ aus, wen Sie über einen Fehler oder Erfolg der Klassifizierungssatz-Aufträge benachrichtigen möchten.
    * So benachrichtigen Sie Benutzer über einen Fehler:
-      1. Aktivieren **[!UICONTROL Bei Fehler benachrichtigen]**.
-      1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; eine oder mehrere kommagetrennte E-Mail-Adressen]**.
+     1. Aktivieren **[!UICONTROL Bei Fehler benachrichtigen]**.
+     1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; eine oder mehrere kommagetrennte E-Mail-Adressen]**.
    * So benachrichtigen Sie Benutzer über den Erfolg:
-      1. Aktivieren Sie **[!UICONTROL Bei Erfolg benachrichtigen]**.
-      1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; mindestens eine kommagetrennte E-Mail-Adresse]**.
+     1. Aktivieren Sie **[!UICONTROL Bei Erfolg benachrichtigen]**.
+     1. Geben Sie unter „E-Mail-Empfänger mit **[!UICONTROL &quot; mindestens eine kommagetrennte E-Mail-Adresse]**.
 1. Geben **[!UICONTROL im Abschnitt]** Abonnements“, falls Sie **[!UICONTROL Primär]** ausgewählt haben, ein oder mehrere &quot;**[!UICONTROL &quot;]**.  Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
 
    * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
 
    Wenn Sie eine Kombination aus **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** hinzufügen, die bereits in einem anderen Klassifizierungssatz vorhanden ist, wird eine rote Meldung angezeigt.
-Sie haben folgende Möglichkeiten:
+   Sie haben folgende Möglichkeiten:
    * Wählen Sie **[!UICONTROL Zu vorhandenem hinzufügen]** aus, um den anderen Klassifizierungssatz zu öffnen und [Klassifizierungen zum Schema hinzufügen](manage/schema.md) für diesen anderen Klassifizierungssatz.
    * Ändern Sie **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** in eine Kombination, die noch nicht für einen anderen Klassifizierungssatz abonniert wurde.
 1. Wählen **[!UICONTROL Speichern]**, um den Klassifizierungssatz zu speichern. Wählen Sie **[!UICONTROL Abbrechen]**, um die Definition aufzuheben.
@@ -69,5 +63,5 @@ So bearbeiten Sie einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen Sie den Namen Ihres Klassifizierungssatzes aus.
-1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatzname_]**&#x200B;können Sie die [Einstellungen](manage/settings.md) und das [Schema](manage/schema.md) für den Klassifizierungssatz definieren.
+1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatzname_]**können Sie die [Einstellungen](manage/settings.md) und das [Schema](manage/schema.md) für den Klassifizierungssatz definieren.
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.
