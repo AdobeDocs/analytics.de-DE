@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8645907799594d2eb2d6bcf56f93ac1cc42578f8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 50%
+source-wordcount: 1096
+ht-degree: 47%
 
 ---
 
@@ -42,8 +27,8 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Sept
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Segmente auf den Berichtsdatumsbereich beschränken**<br/> Daten in einem Workspace-Bericht können über den Berichtsdatumsbereich hinaus erweitert werden, wenn ein Segment Datumsbereichskomponenten enthält.<p>Es ist jetzt eine neue Option verfügbar, mit der Sie die Ergebnisse auf den Datumsbereich des Berichts beschränken können, unabhängig von etwaigen im Segment enthaltenen Datumskomponenten. <p>Diese Option ist beim Erstellen oder Ändern eines Segments verfügbar, dessen Container der obersten Ebene „Besucher“ ist.</p><p>Weitere Informationen finden Sie unter [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | &#x200B;26. August 2026 | &#x200B;9. September 2026 |
-| **Aktualisierungen der Bot**<br/> Erkennung: Bei Verwendung der Edge-Datenerfassung mit der Web-SDK sind die folgenden Aktualisierungen der Bot-Erkennung verfügbar:<ul><li>Sie können jetzt Regeln für die Bot-Erkennung erstellen, um Ausnahmen im Traffic zu identifizieren, die andernfalls als von Bots generiert behandelt würden. Bestehende und zukünftige Regeln werden weiterhin standardmäßig darauf festgelegt, übereinstimmenden Traffic als Bot-generiert zu markieren.</li><li>Benutzerdefinierte Bot-Regeln werden jetzt vor den IAB-Bot-Erkennungsregeln ausgeführt. Diese Änderung wirkt sich nicht auf die Bot-Scores aus, aber die Namen der Bot-Regeln, die mit einem Ereignis verknüpft sind, können sich ändern.</li></ul><p>Hinweis: Dieses Update gilt nur für Edge-Datenerfassungsimplementierungen, die die Web-SDK verwenden. Dies gilt nicht für ältere Bibliotheken wie AppMeasurement.</p></p><p>(Link zur Dokumentation folgt.)</p> | | Anfang September 2026 |
+| **Segmente auf den Berichtsdatumsbereich beschränken**<br/> Daten in einem Workspace-Bericht können über den Berichtsdatumsbereich hinaus erweitert werden, wenn ein Segment Datumsbereichskomponenten enthält.<p>Es ist jetzt eine neue Option verfügbar, mit der Sie die Ergebnisse auf den Datumsbereich des Berichts beschränken können, unabhängig von etwaigen im Segment enthaltenen Datumskomponenten.</p><p>Diese Option ist beim Erstellen oder Ändern eines Segments verfügbar, dessen Container der obersten Ebene „Besucher“ ist.</p><p>Weitere Informationen finden Sie unter [Segmente erstellen](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | &#x200B;26. August 2026 | &#x200B;9. September 2026 |
+| **Aktualisierungen der Bot**<br/> Erkennung: Bei Verwendung der Edge-Datenerfassung mit der Web-SDK sind die folgenden Aktualisierungen der Bot-Erkennung verfügbar:<ul><li>Sie können jetzt Regeln für die Bot-Erkennung erstellen, um Ausnahmen im Traffic zu identifizieren, die andernfalls als von Bots generiert behandelt würden. Bestehende und zukünftige Regeln werden weiterhin standardmäßig darauf festgelegt, übereinstimmenden Traffic als Bot-generiert zu markieren.</li><li>Benutzerdefinierte Bot-Regeln werden jetzt vor den IAB-Bot-Erkennungsregeln ausgeführt. Diese Änderung wirkt sich nicht auf die Bot-Scores aus, aber die Namen der Bot-Regeln, die mit einem Ereignis verknüpft sind, können sich ändern.</li></ul><p>Hinweis: Dieses Update gilt nur für Edge-Datenerfassungsimplementierungen, die die Web-SDK verwenden. Dies gilt nicht für ältere Bibliotheken wie AppMeasurement.</p><p>(Link zur Dokumentation folgt.)</p> | | Anfang September 2026 |
 | **Adobe Brand Visibility-Integration**<br/> Verbinden Sie Adobe Brand Visibility mit den Adobe Analytics-Daten Ihres Unternehmens, damit Sie messen können, wie sich die KI-gesteuerte Erkennung in echte Website-Interaktion und Geschäftsergebnisse niederschlägt.<p>(Link zur Dokumentation folgt.)</p> | | September 2026 |
 | **Aktualisierungen der Klassifizierungssätze-**<br/>: Die Dokumentation zur Klassifizierungssätze-API enthält jetzt aktualisierte Endpunkt- und Parameterinformationen zum Konfigurieren von Klassifizierungssätze-API-Anfragen.<p>Weitere Informationen finden Sie im [Classifications-Endpunkthandbuch](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | &#x200B;5. September 2026 | &#x200B;30. September 2026 |
 | **Anleitung zur Kodierung von Datumselementen in den 2.0-API**<br/> BerichtshandbüchernDie Datumstrends-Berichtshandbücher zur Adobe Analytics 2.0-API enthalten jetzt neue Abschnitte, in denen erläutert wird, wie `itemId` und -werte kodiert werden. Dies kann Ihnen bei der Konfiguration und Migration zu 2.0-API-Services aus den jetzt nicht mehr unterstützten 1.4-APIs helfen.<p>Weitere Informationen finden Sie im [KPI-Berichtshandbuch](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) und im [erweiterten Berichtshandbuch](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | &#x200B;5. September 2026 | &#x200B;30. September 2026 |
@@ -68,7 +53,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Sept
 | Ende der Nutzungsdauer eines Produkts oder einer Funktion | Datum hinzugefügt oder aktualisiert | Beschreibung |
 | --- | --- | --- |
 | **Vorgängerversion von Report Builder** | 18. Juni 2025 | Die Vorgängerversion des Report Builder-Add-ins wird im Juni 2026 eingestellt. Alle Benutzenden sollten mit dem Upgrade ihrer Arbeitsmappen der Vorgängerversion auf den [neuen Report Builder](/help/analyze/report-builder/rb-overview.md) beginnen. Der neue Report Builder ist sowohl für Adobe Analytics- als auch für Customer Journey Analytics-Kundschaft verfügbar. Er bietet [nahezu die gleichen Funktionen](/help/analyze/report-builder/convert-workbooks.md#unsupported) sowie viele neue, praktische Funktionen und Verbesserungen der Benutzeroberfläche. Um den Upgrade-Prozess zu vereinfachen, enthält der neue Report Builder eine Funktion zur einfachen Arbeitsmappenkonvertierung. Der neue Report Builder ist nur als Add-in über den Microsoft Store verfügbar. Viele Organisationen benötigen einen internen Genehmigungsprozess, bevor das Add-in Benutzenden zur Verfügung gestellt werden kann. Planen Sie Zeit für diesen Prozess ein und arbeiten Sie jetzt mit Ihrer Organisation, um vor dem Ende der Nutzungsdauer genügend Zeit für ein Upgrade Ihrer Arbeitsmappen zu haben. |
-| **Adobe Analytics-API (Version 1.4)** | 17. Juli 2024 | Ab **12. August 2026** werden die folgenden veralteten Analytics-API-Dienste nicht mehr unterstützt und beendet. Aktuelle Integrationen, die mit diesen Diensten erstellt wurden, funktionieren dann nicht mehr:<ul><li>Adobe Analytics-API (Version 1.4)</li><li>WSSE-Authentifizierung von Adobe Analytics</li></ul><p>Integrationen, die die Adobe Analytics-API (Version 1.4) verwenden, müssen zur [Adobe Analytics 2.0-API](https://developer.adobe.com/analytics-apis/docs/2.0/) migrieren, während WSSE-Integrationen zu einem OAuth-basierten Authentifizierungsprotokoll in der [Adobe Developer Console](https://developer.adobe.com/console) migrieren müssen.</p><p>Antworten auf häufig gestellte Fragen und weitere Anleitungen finden Sie in den [häufig gestellten Fragen zum Ende der Nutzungsdauer der Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/).</p> |
+| **Adobe Analytics-API (Version 1.4)** | 17. Juli 2024 | Am **31. August** haben die folgenden Analytics Legacy-API-Services ihr Ende erreicht und wurden eingestellt, und alle Integrationen, die mit diesen Services erstellt wurden, funktionieren nicht mehr:<ul><li>Adobe Analytics-API (Version 1.4)</li><li>WSSE-Authentifizierung von Adobe Analytics</li></ul><p>Integrationen, die die Adobe Analytics-API (Version 1.4) verwenden, müssen zur [Adobe Analytics 2.0-API](https://developer.adobe.com/analytics-apis/docs/2.0/) migrieren, während WSSE-Integrationen zu einem OAuth-basierten Authentifizierungsprotokoll in der [Adobe Developer Console](https://developer.adobe.com/console) migrieren müssen.</p><p>Antworten auf häufig gestellte Fragen und weitere Anleitungen finden Sie in den [häufig gestellten Fragen zum Ende der Nutzungsdauer der Adobe Analytics 1.4-API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/).</p> |
 
 ## AppMeasurement
 
