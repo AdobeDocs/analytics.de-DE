@@ -4,15 +4,15 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 98%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
 
-# Handbuch für die Implementierung von Adobe Analytics {#implementation}
+# Implementierungshandbuch zu Adobe Analytics {#implementation}
 
 + [Implementierungshandbuch für Analytics](home.md)
 + [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
@@ -144,6 +144,8 @@ ht-degree: 98%
   + [Edge Network-Ereignistypen](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Übersicht über Web SDK](aep-edge/web-sdk/overview.md)
+    + Migrationsplaner {#planner}
+      + [Planer - Übersicht](aep-edge/web-sdk/planner/overview.md)
     + [Migrieren zum Web SDK mithilfe von Tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrieren zum Web SDK mithilfe von JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [Neue Implementierung mithilfe von Tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -151,7 +153,7 @@ ht-degree: 98%
   + Mobile SDK {#mobile-sdk}
     + [Übersicht über Mobile SDK](aep-edge/mobile-sdk/overview.md)
   + Edge Network-API {#api}
-    + [Übersicht über das Edge Network-API](aep-edge/api/overview.md)
+    + [Überblick über Edge Network API](aep-edge/api/overview.md)
 + Implementieren von Analytics mit der Adobe Analytics-Erweiterung {#launch}
   + [Übersicht über Tags](launch/overview.md)
   + [Erstellen einer Tag-Eigenschaft in Adobe Analytics](launch/create-analytics-property.md)
@@ -175,8 +177,8 @@ ht-degree: 98%
   + [Fehlerbehebung bei AppMeasurement](js/troubleshooting.md)
 + Implementieren von Analytics auf anderen Plattformen {#other}
   + [Implementieren von Analytics mit fest programmierten Bildanforderungen](other/hardcoded.md)
-  + [Analytics auf Ajax implementieren](other/ajax.md)
-  + [Analytics auf AMP implementieren](other/amp.md)
+  + [Implementieren von Analytics auf Ajax](other/ajax.md)
+  + [Implementieren von Analytics auf AMP](other/amp.md)
   + [Analytics auf digitalen Assistenten implementieren](other/digital-assistants.md)
   + [Analytics auf Facebook Instant Articles implementieren](other/fb-instant-articles.md)
 + [Analytics auf Mobilgeräten implementieren](mobile-device-sdk.md)
@@ -192,4 +194,4 @@ ht-degree: 98%
 + Überprüfen der Implementierung {#review}
   + [Gezielte Prüfung (nach jeder Website-Veröffentlichung)](review/focused-review.md)
   + [Vollständige Prüfung (alle 6 Monate)](review/full-review.md)
-  + [Definieren Ihrer fünf wichtigsten KPIs](review/define-kpis.md)
+  + [Definieren Ihrer Top-5-KPIs](review/define-kpis.md)
