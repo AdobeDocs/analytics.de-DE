@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -91,6 +91,17 @@ Beachten Sie, dass auf Ihrer Tastatur möglicherweise die folgenden Symbole verw
 | --- | --- | --- |
 | Bereich nach oben verschieben | **[!UICONTROL *Befehl + Opt + Up *]** | **[!UICONTROL *Alt+Strg+Nach oben *]** |
 | Bereich nach unten verschieben | **[!UICONTROL *Befehl + Opt + Down *]** | **[!UICONTROL *Alt + Strg + Nach unten *]** |
+
+## Größe des Bedienfelds für Visualisierungsaktionen ändern
+
+| Aktion | Mac-Tastaturbefehl | Windows-Tastaturbefehl |
+| --- | --- | --- |
+| Größer ändern | **[!UICONTROL *Befehlstaste + Wahltaste + Umschalttaste + Rechts *]** | **[!UICONTROL *Strg+Alt+Umsch+Rechts *]** |
+| Engere Größe ändern | **[!UICONTROL *Befehl + Wahl + Umsch + Links *]** | **[!UICONTROL *Strg+Alt+Umsch+Links *]** |
+| Größe ändern höher | **[!UICONTROL *Befehlstaste + Wahltaste + Umschalttaste + Nach unten *]** | **[!UICONTROL *Strg+Alt+Umsch+Nach-unten *]** |
+| Kürzere Größe ändern | **[!UICONTROL *Befehlstaste + Wahltaste + Umschalttaste + Nach oben *]** | **[!UICONTROL *Strg+Alt+Umsch+Nach oben *]** |
+
+Die Breite wird in Schritten einer Rasterspalte und die Höhe in Schritten einer Rasterzelle geändert (etwa 25 Pixel).
 
 ## Demokratisierungaktionen
 
