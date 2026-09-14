@@ -54,14 +54,14 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Panel „Attribution“"
->abstract="Vergleichen und visualisieren Sie im Handumdrehen eine beliebige Anzahl von Attributionsmodellen unter Verwendung verschiedener Dimensionen und Konversionsmetriken.<br/><br/>**Parameter **<br/>**Kanal**<br/> Die Dimension für die Attribution. Dabei kann es sich um Marketing-Kanäle, Kampagnen oder beliebige andere Dimensionen handeln.<br/>**Modelle**<br/> Das Modell legt fest, wie Touchpoints Credits zugewiesen werden.<br/>**Lookback-Fenster**<br/> Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion gilt."
+>abstract="Vergleichen und visualisieren Sie im Handumdrehen eine beliebige Anzahl von Attributionsmodellen unter Verwendung verschiedener Dimensionen und Konversionsmetriken.<br/><br/>**Parameter &#x200B;**<br/>**Kanal**<br/> Die Dimension für die Attribution. Dabei kann es sich um Marketing-Kanäle, Kampagnen oder beliebige andere Dimensionen handeln.<br/>**Modelle**<br/> Das Modell legt fest, wie Touchpoints Credits zugewiesen werden.<br/>**Lookback-Fenster**<br/> Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion gilt."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ-Bedienfeld"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Attributionsbedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution)_ für die![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird das Attributionsbedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution)_ für die![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ Sie können das Panel „Attribution“ mithilfe der folgenden Eingabeeinstellun
 
    ![Das Fenster des Panels „Attribution“ mit mehreren ausgewählten Dimensionen und Metriken.](assets/attribution-panel.png)
 
-1. Wählen Sie ein oder [ (](#attribution-models)) aus **[!UICONTROL Enthaltene Modelle]**, den [Container](#container) aus **[!UICONTROL Container]** und ein [Lookback-Fenster](#lookback-window) aus **[!UICONTROL Lookback-Fenster]**, das Sie für den Vergleich verwenden möchten.
+1. Wählen Sie ein oder [&#x200B; (](#attribution-models)) aus **[!UICONTROL Enthaltene Modelle]**, den [Container](#container) aus **[!UICONTROL Container]** und ein [Lookback-Fenster](#lookback-window) aus **[!UICONTROL Lookback-Fenster]**, das Sie für den Vergleich verwenden möchten.
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus, um die Visualisierungen im Panel zu erstellen.
 
