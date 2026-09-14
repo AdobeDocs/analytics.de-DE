@@ -1,34 +1,40 @@
 ---
-description: Erfahren Sie, wie Sie Segmente mithilfe von Drag-and-Drop von Metriken, Dimensionen, Segmenten und Ereignissen erstellen. Lernen Sie, wie Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
+description: Erfahren Sie, wie Sie Segmente mithilfe von Drag-and-Drop von Metrik, Dimensionen, Segmenten und Ereignissen aufbauen. Lernen Sie, wie Sie einfache oder komplexe Segmente erstellen und speichern, mit deren Hilfe Besucherattribute und Aktionen bei Besuchen und Seitentreffern identifiziert werden.
 title: Erstellen von Segmenten
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 2082
-ht-degree: 70%
-
+source-wordcount: '2082'
+ht-degree: 73%
 ---
-
 # Erstellen von Segmenten
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Produktkompatibilität"
->abstract="Einige Segmentkriterien sind mit bestimmten Adobe Analytics-Tools nicht kompatibel. Kompatible Tools sind in dieser Liste aufgeführt. Kriterien bearbeiten, um Kompatibilität zu gewährleisten"
+>abstract="Einige Segmentkriterien sind mit bestimmten Adobe Analytics-Tools nicht kompatibel. Kompatible Tools sind in dieser Liste aufgeführt. Bearbeiten Sie Ihre Kriterien, um Kompatibilität zu gewährleisten."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +44,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Datenvorschau"
->abstract="Vergleicht Segmentdaten mit Report Suite-Daten. Der Vorschauprozentsatz basiert auf den **letzten 90 Tage**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung aufgestockt."
+>abstract="Vergleicht Segmentdaten mit Report Suite-Daten. Der Vorschauprozentsatz basiert auf den **letzten 90 Tagen**.<br><br/>Wenn die Vorschau nicht geladen wird, wird Ihre Verbindung gerade aufgestockt."
 
 
 Das Dialogfeld **[!UICONTROL Segment Builder]** wird zum Erstellen neuer oder zum Bearbeiten vorhandener Segmente verwendet. Das Dialogfeld heißt **[!UICONTROL Neues Segment]** oder **[!UICONTROL Segment bearbeiten]** bei Segmenten, die Sie über den [[!UICONTROL Segment-Manager] erstellen oder verwalten](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -98,7 +104,7 @@ So fügen Sie eine Komponente hinzu:
 
 1. Ziehen Sie eine Komponente aus dem Panel „Komponenten“ auf **[!UICONTROL Platzieren Sie Metriken, Segmente und/oder Dimensionen mittels Drag-and-Drop hier]**.
    * Sie können ![Suchen](/help/assets/icons/Search.svg) in der Komponentenleiste verwenden, um nach bestimmten Komponenten zu suchen.
-   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]&#x200B;**, ![Dimensionen**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons/Checkmark.svg)Metriken ]&#x200B;**, ![](/help/assets/icons/Segmentation.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Calendar.svg)**&#x200B;**![&#x200B; &#x200B;](/help/assets/icons/Layer.svg)**&#x200B;**Segmentierung**&#x200B;[[!UICONTROL , &#x200B;]](/help/assets/icons2/DataDimension.svg)**&#x200B;** ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) &#x200B;](/help/assets/icons/Label.svg) filtern.
+   * Sie können ![Filter](/help/assets/icons/Filter.svg) in der Komponentenleiste verwenden, um nach ![Häkchen **[!UICONTROL Genehmigt]**, ![Stern](/help/assets/icons/Star.svg)Favoriten ]**, ![Dimensionen**[!UICONTROL , ](/help/assets/icons/Checkmark.svg)Metriken ]**, ![](/help/assets/icons/Segmentation.svg)****![ ](/help/assets/icons/Calendar.svg)****![ ](/help/assets/icons/Layer.svg)****Segmentierung**[!UICONTROL , ](/help/assets/icons2/DataDimension.svg)**** ![ ](/help/assets/icons/Event.svg) DatumsbereicheundLayerzu filtern. Sie können auch nach (![) ](/help/assets/icons/Label.svg) filtern.
 1. Geben Sie Details für die Komponente an. Wählen Sie beispielsweise einen Wert über **[!UICONTROL Wert auswählen]** aus. Oder geben Sie einen Wert ein. Wie Sie einen oder mehrere Werte und welche Werte Sie angeben können, hängt von der Komponente und dem Operator ab.
 
 1. (Optional) Aktivieren Sie die Option [!UICONTROL **Ergebnisse auf den Datumsbereich des Berichts beschränken**].
@@ -109,7 +115,7 @@ So fügen Sie eine Komponente hinzu:
 
    Diese Option wird nur angezeigt, wenn [!UICONTROL **Person**] als Umfang (Container) Ihrer Definition im **[!UICONTROL -Menü]** Einschließen oder **[!UICONTROL Ausschließen]** ausgewählt ist.
 
-   **HINWEIS**: Diese Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Customer Journey Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
+   **HINWEIS**: Diese Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktionen allgemein verfügbar sind. Informationen zum Customer Journey Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 1. (Optional) Ändern Sie den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
@@ -143,7 +149,7 @@ Sie können ![Einstellung](/help/assets/icons/Setting.svg) in einem Container f�
 | **[!UICONTROL Behälter hinzufügen]** | Fügen Sie dem Container einen verschachtelten Container hinzu. |
 | **[!UICONTROL Ausschließen]** | Schließen Sie das Ergebnis aus dem Container in der Segmentdefinition aus. Ein dünner roter Balken auf der linken Seite kennzeichnet einen Container „Ausschließen.“ |
 | **[!UICONTROL Einschließlich]** | Beziehen Sie das Ergebnis aus dem Container in die Segmentdefinition ein. Die Standardeinstellung lautet „Einbeziehen“. Ein dünner grauer Balken auf der linken Seite kennzeichnet einen Container „Einbeziehen“. |
-| **[!UICONTROL Container benennen]** | Benennen Sie den Container ausgehend von seiner Standardbeschreibung um. Geben Sie einen Namen in das Textfeld ein. Wenn Sie keine Eingabe vornehmen, wird die Standardbeschreibung verwendet. |
+| **[!UICONTROL Container benennen]** | Benennen Sie den Container ausgehend von seiner Standardbeschreibung um. Geben Sie einen Namen in das Feld ein. Wenn Sie keine Eingabe vornehmen, wird die Standardbeschreibung verwendet. |
 | **[!UICONTROL Container löschen]** | Löschen Sie den Container aus der Definition. |
 
 Wenn Sie eine Produktdimension oder -metrik in Segment Builder ziehen, wählt das System automatisch den **[!UICONTROL Produkt]**-Container aus und verwendet nicht den standardmäßigen **[!UICONTROL Treffer]**-Container. Dadurch wird das Segment auf einzelne Produkte und nicht auf den gesamten Treffer beschränkt.
@@ -152,23 +158,23 @@ Wenn Sie sowohl Komponenten auf Produktebene als auch auf Trefferebene in eine e
 
 ## Datumsbereiche
 
-Sie können Segmente erstellen, die rollierende Datumsbereiche enthalten. So können Sie Fragen zu laufenden Kampagnen oder Ereignissen beantworten. Sie können beispielsweise ein Segment erstellen, das *alle Personen, die in den letzten 60 Tagen einen Online-Kauf getätigt haben* enthält.
+Sie können Segmente aufbauen, die rollierende Datumsbereiche enthalten. So können Sie Fragen zu laufenden Kampagnen oder Ereignissen beantworten. Sie können beispielsweise ein Segment erstellen, das *alle Personen, die in den letzten 60 Tagen einen Online-Kauf getätigt haben* enthält.
 
 ![Segment mit rollierendem Datumsbereich](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rollierende Datumsbereiche in Segmenten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 ## Stapeln von Segmenten {#stack}
 
-Sie können ein Segment mithilfe von Segmenten erstellen. Wenn Sie Segmente in einem Segment verwenden, können Sie Ihr Segment optimieren und die Komplexität reduzieren.
+Sie können ein Segment mithilfe von Segmenten aufbauen. Wenn Sie Segmente in einem Segment verwenden, können Sie Ihr Segment optimieren und die Komplexität reduzieren.
 
-Stellen Sie sich ein Szenario vor, in dem Sie eine Segmentierung anhand der Kombination aus Interaktionskanal (5) und US-Status (50) vornehmen möchten. Sie können entweder 250 Segmente erstellen, d. h. jeweils eine eindeutige Kombination aus Gerätetyp (Mobiltelefon oder Tablet) und US-Bundesstaat. Um die Tablet-Benutzer in Kalifornien zu erhalten, verwenden Sie eines der 250 Segmente:
+Stellen Sie sich ein Szenario vor, in dem Sie eine Segmentierung anhand der Kombination aus Interaktionskanal (5) und US-Status (50) vornehmen möchten. Sie können entweder 250 Segmente aufbauen, jeweils für die eindeutige Kombination aus Gerätetyp (Mobiltelefon oder Tablet) und US-Bundesstaat. Um die Tablet-Benutzer in Kalifornien zu erhalten, verwenden Sie eines der 250 Segmente:
 
 ![Einfaches Segment für Kalifornien und Tablet](assets/segment-ca-tablet-single.png)
 
@@ -194,7 +200,7 @@ Oder definieren Sie 55 Segmente: 50 Segmente für die US-Bundesstaaten und 5 fü
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="Sich nicht wiederholende Instanz"
->abstract="Umfasst einzigartige (sich nicht wiederholende) Instanzen für die Dimension."
+>abstract="Umfasst eindeutige (sich nicht wiederholende) Instanzen für die Dimension."
 
 
 
@@ -217,8 +223,8 @@ Wählen Sie in der Dimensionskomponente das Symbol ![Setting](/help/assets/icons
 Als Teil einer Segmentdefinition haben Sie die folgende Bedingung angegeben: Seitenname ist gleich Frauen. Dies ist ähnlich wie im obigen Beispiel. Sie wiederholen diese Segmentdefinition mit den beiden anderen Attributionsmodellen. Sie haben also drei Segmente mit jeweils einem eigenen Attributionsmodell:
 
 * „Frauen“-Seite – Attribution – Wiederholung (Standard)
-* „Frauen“-Seite – Attribution – Instanz
-* „Frauen“-Seite – Attribution – Sich nicht wiederholende Instanz
+* Frauen-Seite – Attribution – Instanz
+* Frauen-Seite – Attribution – nicht wiederholende Instanz
 
 
 In der folgenden Tabelle wird für jedes Attributionsmodell angegeben, welche eingehenden Ereignisse für diese Bedingung qualifiziert ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) sind.
@@ -282,7 +288,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -343,7 +349,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -400,11 +406,11 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
  <tbody> 
   <tr> 
    <td colname="col1"> Warenkorb verlassen </td> 
-   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die Artikel zu ihrem Warenkorb hinzugefügt, aber nichts bestellt haben. In der Segmentdefinition ist der Container „Besuche“. </td> 
+   <td colname="col2">Zeigen Sie Daten von Besucherinnen und Besuchern an, die Artikel zu ihrem Warenkorb hinzugefügt, aber nichts bestellt haben. In der Segmentdefinition ist der Container „Besuch“. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erstbesuche </td> 
-   <td colname="col2">Zeigen Sie Daten von Besuchern an, die maximal einmal [1] Mal besucht haben. In der Segmentdefinition ist der Container „Besuche“. </p> </td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchern an, die maximal einmal [1] Mal besucht haben. In der Segmentdefinition ist der Container „Besuch“. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nichtkaufende </td> 
@@ -412,11 +418,11 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
   </tr> 
   <tr> 
    <td colname="col1"> Nicht-Einzelseitenbesuche (Keine Absprünge) </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die mehr als einen Besuch durchgeführt haben.</p> </td> 
+   <td colname="col2">Zeigen Sie Daten zu Besuchenden an, die mehr als einen Besuch durchgeführt haben.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Paid Search </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die über Paid Search kommen.  </td> 
+   <td colname="col2">Zeigen Sie Daten zu Besuchenden an, die über Paid Search kommen.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Kaufende </td> 
@@ -424,51 +430,51 @@ Ein Adobe-Logo ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) kennzeic
   </tr> 
   <tr> 
    <td colname="col1"> Rückkehrende Besuchende </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die mindestens einen Besuch durchgeführt haben.  </td> 
+   <td colname="col2">Zeigen Sie Daten zu Besuchenden an, die mindestens einen Besuch durchgeführt haben.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Einzelseitenbesuche </td> 
-   <td colname="col2"> Daten zu Besuchen anzeigen, bei denen ein Einzelseitenwert vorliegt, auch wenn während des Besuchs mehrere Seitenansichten übermittelt werden. Einzelseitenbesuche mit Exitlink-Ereignissen werden in das Segment einbezogen.  </td> 
+   <td colname="col2"> Zeigen Sie Daten zu Besuchen an, bei denen ein Einzelseitenwert vorliegt, auch wenn während des Besuchs mehrere Seitenansichten übermittelt werden. Einzelseitenbesuche mit Exitlink-Ereignissen werden in das Segment einbezogen.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Angesehenes Produkt wurde nicht dem Warenkorb hinzugefügt </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Produkte angesehen, aber keine zum Warenkorb hinzugefügt haben.  </td> 
+   <td colname="col2">Zeigen Sie Daten zu Besuchenden an, die Produkte angesehen, aber keine zum Warenkorb hinzugefügt haben.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Kampagnen </td> 
-   <td colname="col2">Daten zu Besuchenden aus Kampagnen anzeigen. </td> 
+   <td colname="col2">Zeigen Sie Daten zu Besuchenden an, die über Kampagnen vermittelt wurden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Mobilgeräten </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Mobilgeräte verwenden. </td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden an, die mobile Geräte verwenden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche über eine natürliche Suche </td> 
    <td colname="col2">Daten zu Besuchenden anzeigen, die nicht über Paid Search kommen.  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Besuche von Nicht-Mobilgerät </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die kein Mobilgerät verwenden. </td> 
+   <td colname="col1"> Besuche von Nicht-Mobilgeräten </td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden an, die keine Mobilgeräte verwenden. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Smartphones </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Smartphones verwenden.  </td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden an, die Smartphones verwenden.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche über Suchmaschinen </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die über Suchmaschinen kommen.</td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden an, die über Suchmaschinen auf Ihre Site gelangen.</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Besuche von Social Media aus </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die aus Social Media kommen.</td> 
+   <td colname="col1"> Besuche von Social Sites </td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden an, die über Social-Media-Sites auf Ihre Site gelangen.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche von Tablets </td> 
-   <td colname="col2">Daten zu Besuchenden anzeigen, die Tablets verwenden.</td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden an, die Tablets verwenden.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Besuche mit Besucher-ID-Cookie </td> 
-   <td colname="col2">Daten zu Besuchenden Ihrer Site anzeigen, für die ein persistentes Cookie erforderlich ist.</td> 
+   <td colname="col2">Zeigen Sie Daten von Besuchenden Ihrer Site an, für die ein persistentes Cookie erforderlich ist.</td> 
   </tr> 
  </tbody> 
 </table>
