@@ -7,30 +7,42 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: '1287'
 ht-degree: 94%
-
 ---
-
 # Analytics for Target-Bedienfeld {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -121,7 +133,7 @@ Verwenden Sie ![Bearbeiten](/help/assets/icons/Edit.svg), um das Bedienfeld neu 
 | Welche Aktivitätstypen werden in Analytics for Target unterstützt? | [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) darüber, welche Aktivitäten unterstützt werden. |
 | Werden berechnete Metriken bei Steigerungs- und Konfidenzberechnungen unterstützt? | Nein. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) darüber, warum berechnete Metriken bei Steigerung und Konfidenz nicht unterstützt werden. Berechnete Metriken können jedoch außerhalb dieser Metriken in Analytics for Target-Berichten verwendet werden. |
 | Warum unterscheiden sich Unique Visitors zwischen Target und Analytics? | [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) über die Unterschiede zwischen Unique Visitors in den Produkten. |
-| Warum werden nicht verwendete Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Hit-Segment für eine bestimmte Target-Aktivität anwende? | Die Analytics for Target-Dimension ist eine Listenvariable, d. h., sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Weitere Infos](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
+| Warum werden nicht verwendete Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Treffersegment für eine bestimmte Target-Aktivität anwende? | Die Analytics for Target-Dimension ist eine Listenvariable, d. h., sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Weitere Infos](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
 | Berücksichtigt die Konfidenzmetrik extreme Bestellungen oder wendet sie eine Bonferroni-Korrektur für mehrere Bestellungen an? | Nein. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) darüber, wie Analytics Konfidenz berechnet. |
 | Können Steigerungs- und Konfidenzmetriken mit anderen Dimensionen oder Aufschlüsselungen verwendet werden? | Steigerung und Konfidenz sind „gesperrte Metriken“ für die Dimension „Target-Erlebnisse“, da sie ein Kontrollerlebnis und ein Variantenerlebnis für die Berechnung erfordern. Sie können daher nicht aufgeschlüsselt oder mit anderen Dimensionen verwendet werden. |
 | Wann werden Steigerung und Konfidenz neu berechnet? | Steigerung und Konfidenz werden bei jeder Erstellung des Bedienfelds, bei einer Änderung des Datumsbereichs des Bedienfelds oder bei Anwendung eines Segments auf das Bedienfeld oder die Tabelle neu berechnet. Wenn Sie einen Segmentfilter auf die Freiformtabelle anwenden, muss das Segment über alle Spalten hinweg angewendet werden. Andernfalls wird die Steigerung oder Konfidenz nicht korrekt aktualisiert. Segmente auf Spaltenebene werden nicht unterstützt. |

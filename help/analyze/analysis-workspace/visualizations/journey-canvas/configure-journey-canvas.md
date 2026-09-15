@@ -6,10 +6,8 @@ role: User, Admin
 source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
 workflow-type: tm+mt
 source-wordcount: '6557'
-ht-degree: 78%
-
+ht-degree: 81%
 ---
-
 # Konfigurieren einer Journey-Arbeitsflächenvisualisierung {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
@@ -76,8 +74,8 @@ Weitere Informationen zur Journey-Arbeitsfläche finden Sie unter [Journey-Arbei
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_arrow_settings"
->title="Pfeil-Einstellungen"
->abstract="Auswählen, ob Beschriftungen auf der Arbeitsfläche ein- oder ausgeblendet werden sollen. Beschriftungen sind benutzerdefinierte Namen, die in der Journey-Arbeitsfläche erstellt werden."
+>title="Pfeileinstellungen"
+>abstract="Wählen Sie aus, ob Labels auf der Arbeitsfläche ein- oder ausgeblendet werden sollen. Labels sind benutzerdefinierte Namen, die in der Journey-Arbeitsfläche erstellt werden."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,8 +83,8 @@ Weitere Informationen zur Journey-Arbeitsfläche finden Sie unter [Journey-Arbei
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_show_fallout"
->title="Fallout anzeigen"
->abstract="Fallout-Daten zeigen den Prozentsatz und die Anzahl der Personen oder Sitzungen auf jedem Knoten der Journey an, die nie den nächsten Knoten der Journey erreicht haben. Möglicherweise haben sie andere Aktionen auf der Site durchgeführt, aber sie erfüllten nie die Kriterien, die durch den nächsten Knoten in der Journey definiert wurden.<br/>Fallout-Daten zeigen entweder Personen oder Sitzungen an (unabhängig von der ausgewählten primären Metrik) und basieren auf der Einstellung Journey Canvas Container ."
+>title="Anzeigen von Fallout"
+>abstract="Fallout-Daten zeigen den Prozentsatz und die Anzahl der Personen oder Sitzungen an jedem Knoten der Journey an, die nie beim nächsten Knoten der Journey angekommen sind. Sie haben möglicherweise andere Aktionen auf der Site durchgeführt, erfüllten jedoch nie die Kriterien des nächsten Knotens in der Journey.<br/>Fallout-Daten zeigen entweder Personen oder Sitzungen an (unabhängig von der ausgewählten primären Metrik) und basieren auf der Container-Einstellung der Journey-Arbeitsfläche."
 
 <!-- markdownlint-enable MD034 -->
 
