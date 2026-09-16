@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # Regeln für Klassifizierungssätze
 
-Sie verwenden Regeln, um automatische Klassifizierungen in Szenarien zu unterstützen, in denen sich Ihre Schlüsseldimension ständig ändert. Die Aktualisierung von Klassifizierungen durch [Upload](/help/components/classifications/sets/manage/schema.md#upload) oder [Automatisierung](/help/components/classifications/sets/manage/schema.md#automate) wird zu einem umständlichen Prozess oder verzögert die ordnungsgemäße Klassifizierung für neue Dimensionswerte. Beispielsweise interne Kampagnen, Trackingcodes oder Produkt-SKUs.
+Sie verwenden Regeln, um automatische Klassifizierungen in Szenarien zu unterstützen, in denen sich Ihre Schlüsseldimension ständig ändert. Die Aktualisierung von Klassifizierungen durch [Upload](/help/components/classifications/sets/manage/schema.md#upload) oder [Automatisierung](/help/components/classifications/sets/manage/schema.md#automate) wird zu einem umständlichen Prozess oder es fehlt eine ordnungsgemäße Klassifizierung für neue Dimensionswerte. Beispielsweise interne Kampagnen, Trackingcodes oder Produkt-SKUs.
 
 Die Dimension muss Werte enthalten, mit denen Sie eine oder mehrere Regeln anwenden können, damit Sie Klassifizierungsdaten aus den Dimensionswerten ableiten können.
 
 Sie definieren Regeln im Kontext eines Klassifizierungssatzes. Dieser Kontext bedeutet, dass Regeln (wenn aktiviert) auf alle Report Suite- und Schlüssel-Dimensionskombinationen angewendet werden, die für den Klassifizierungssatz abonniert wurden. Diese Implementierung unterscheidet sich von der Funktionsweise des alten Classification Rule Builders. Im Classification Rule Builder definieren Sie eine oder mehrere Regeln separat als Teil eines Regelsatzes und verknüpfen den Regelsatz dann mit einer oder mehreren Report Suites. In der neuen Benutzeroberfläche werden die Regeln innerhalb des Klassifizierungssatzes auch als Regelsatz bezeichnet. Die Regelsätze werden jedoch in derselben Benutzeroberfläche definiert, in der Sie andere Klassifizierungssatzattribute konfigurieren.
+
+>[!IMPORTANT]
+>
+>Der andere Kontext, den der neue Regel-Builder verwendet, impliziert, dass Unterklassifizierungen anhand des Werts der direkt übergeordneten Classification-Spalte und nicht anhand des ursprünglichen Stamm-Dimensionswerts ausgewertet werden.
+
 
 
 So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
@@ -33,14 +40,14 @@ So definieren Sie einen Regelsatz für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** Klassifizierungssatz aus, für den Sie die Regeln definieren möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**&#x200B;die Registerkarte **[!UICONTROL Regeln]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatzname_]**die Registerkarte **[!UICONTROL Regeln]**aus.
 
-   * Wenn Sie zum ersten Mal auf die **[!UICONTROL Rules]**-Schnittstelle für einen Klassifizierungssatz zugreifen oder sich bisher entschieden haben, weiterhin die alte Rule Builder-Schnittstelle zu verwenden, wird ein Dialogfeld angezeigt, in dem Sie auswählen können, wie Sie beginnen möchten. Die Optionen sind:
+   * Beim erstmaligen Zugriff auf **[!UICONTROL Rules]**-Oberfläche oder bei Verwendung des Legacy-Builders wird ein Dialogfeld angezeigt, das Ihnen bei den ersten Schritten hilft. Die Optionen sind:
 
      * **Migrieren vorhandener Regeln**. Importieren Sie Ihre aktuellen Klassifizierungsregeln und arbeiten Sie weiterhin mit diesen Regeln in der neuen Benutzeroberfläche. Ihre vorhandenen Regeln werden beibehalten und in das neue Format konvertiert.
        * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um fortzufahren.
        * Lesen Sie **[!UICONTROL Dialogfeld &quot;]** bestätigen“ die Auswirkungen der Migration.
-         * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), &#x200B;](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
+         * Wählen Sie **[!UICONTROL Regeln migrieren]** aus, um die Migration zu bestätigen. Verwenden Sie nach Abschluss der Migration die [Regelsatzschnittstelle), ](#rule-set-interface) neue Regeln zu erstellen und Ihre vorhandenen migrierten Regeln zu bearbeiten.
          * Wählen Sie **[!UICONTROL Abbrechen]**, um die Migration abzubrechen
 
      * **Neu starten**. Erstellen Sie neue Klassifizierungsregeln mithilfe des neuen Regel-Builders von Grund auf. Wählen Sie diese Option aus, wenn Sie Ihre Klassifizierungslogik neu entwerfen oder mit neuen Klassifizierungsregeln neu beginnen möchten.
@@ -168,7 +175,7 @@ Geben Sie einen Wert für **[!UICONTROL Enthält]** ein. Beispiel: `Winter`.
 
 #### Anwendungsfall
 
-Sie möchten eine Regel definieren, um der Klassifizierung **[!UICONTROL Typ“ `Winter Sale` als Wert zuzuweisen]** wenn der Wert für die Schlüsseldimension Interne Kampagne mit `Winter` enthält (z. B.: `fb:Winter:FY2024`).
+Sie möchten eine Regel definieren, um der Klassifizierung **[!UICONTROL Typ“ `Winter Sale` als Wert zuzuweisen]** wenn der Wert für die Schlüsseldimension Interne Kampagne `Winter` enthält (z. B.: `fb:Winter:FY2024`).
 
 
 >[!BEGINTABS]
@@ -228,7 +235,7 @@ Geben Sie einen Wert für **[!UICONTROL Regulärer Ausdruck]** ein. Beispiel: `^
 
 #### Anwendungsfall
 
-Sie möchten eine Regel definieren, um den Klassifizierungen **[!UICONTROL Channel]**, **[!UICONTROL Type]** und **[!UICONTROL Year]** Werte zuzuweisen, indem Sie die `^(.+)\:(.+)\:FY(.+)$` des regulären Ausdrucks anwenden und Übereinstimmungsgruppen (`$1`, `$2` und `$3`) auf die Werte für die Schlüsseldimension Interne Kampagne verwenden.
+Definieren Sie eine Regel, um den Klassifizierungen **[!UICONTROL Kanal]**, **[!UICONTROL Typ]** und **[!UICONTROL Jahr]** Werte zuzuweisen, indem Sie die `^(.+)\:(.+)\:FY(.+)$` des regulären Ausdrucks anwenden und Übereinstimmungsgruppen (`$1`, `$2` und `$3`) zur Dimension Interner Kampagnenschlüssel verwenden.
 
 >[!BEGINTABS]
 
@@ -256,7 +263,7 @@ Unten finden Sie eine Referenztabelle mit regulären Ausdrücken.
 | `[^abc]` | Beliebiges einzelnes Zeichen, außer: a, b oder c |
 | `[a-z]` | Beliebiges einzelnes Zeichen im Bereich a-z |
 | `[a-zA-Z]` | Beliebiges einzelnes Zeichen im Bereich a-z oder A-Z |
-| `^` | Zeilenanfang (Übereinstimmung mit dem Zeilenanfang) |
+| `^` | Start der Zeile (Übereinstimmung mit dem Zeilenanfang) |
 | `$` | Am Ende der Zeile (oder vor dem Zeilenumbruch am Ende) anpassen |
 | `\A` | Beginn der Zeichenfolge |
 | `\z` | Ende der Zeichenfolge |
@@ -315,7 +322,7 @@ Die letzte Regel bestimmt den Wert für die Klassifizierung, wenn:
 * Ein Schlüssel-Dimensionswert wird mehreren Regeln zugeordnet.
 * Der Regelsatz enthält Regeln mit demselben Vorgang **[!UICONTROL Klassifizierung festlegen]**.
 
-Daher sollten Sie den wichtigsten Vorgang **[!UICONTROL Klassifizierung von]**) als Teil der letzten Regel in Ihrem Regelsatz bewerten.
+Ordnen Sie den wichtigsten Vorgang **[!UICONTROL Klassifizierung festlegen]** als Teil der letzten Regel in Ihrem Regelsatz ein.
 
 Wenn Sie mehrere Regeln erstellen, die nicht denselben Vorgang **[!UICONTROL Klassifizierung festlegen]** verwenden, spielt die Verarbeitungsreihenfolge keine Rolle.
 
