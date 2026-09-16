@@ -29,7 +29,7 @@ KI ist zu einem primären Erkennungskanal geworden. Agenten für große Sprachmo
 >
 >Im Rahmen dieser Integration findet in den Vereinigten Staaten eine zeitweilige Verarbeitung von Markensichtbarkeit-Daten statt. Die Daten werden letztendlich in der von Ihnen festgelegten Region gespeichert, wie in Ihrem Adobe Analytics-Vertrag konfiguriert.
 
-Wenn Sie Customer Journey Analytics als separate, umfassendere eingehende Integration verwenden, landet dieselben zugrunde liegenden CDN-Traffic-Daten über Adobe Experience Platform in Customer Journey Analytics. Diese Integration ist heute verfügbar. Siehe Integration von [Markensichtbarkeit mit Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv). Wenn Sie über Customer Journey Analytics verfügen, überprüfen Sie zunächst diese Integration, da sie mehr Felder verfügbar macht und die Verknüpfung von Markensichtbarkeit-Daten mit anderen Datensätzen unterstützt. Die in diesem Handbuch beschriebene Analytics-Integration wurde für Kunden entwickelt, die Adobe Analytics verwenden, ohne Zugriff auf oder eine Lizenz für Customer Journey Analytics zu haben.
+Wenn Sie Customer Journey Analytics als separate, umfassendere eingehende Integration verwenden, landet dieselben zugrunde liegenden CDN-Traffic-Daten über Adobe Experience Platform in Customer Journey Analytics. Diese Integration ist heute verfügbar. Siehe Integration von [Markensichtbarkeit mit Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/integrations/bv). Wenn Sie über Customer Journey Analytics verfügen, überprüfen Sie zunächst diese Integration, da sie mehr Felder verfügbar macht und die Verknüpfung von Markensichtbarkeit-Daten mit anderen Datensätzen unterstützt. Die in diesem Handbuch beschriebene Analytics-Integration wurde für Kunden entwickelt, die Adobe Analytics verwenden, ohne Zugriff auf oder eine Lizenz für Customer Journey Analytics zu haben.
 
 
 ## Anwendungsfälle
@@ -74,7 +74,7 @@ Der eingehende Adobe Analytics-Connector wird für jede Report Suite über den *
 >
 >Die BYOCDN-Protokollweiterleitung stellt die Server-seitigen CDN-Anfragedaten bereit, die für die Analyse von Agent-Traffic verwendet werden. Die Daten hängen nicht von JavaScript-Tags ab, die in einem Browser ausgeführt werden. Ohne den erforderlichen CDN-Protokoll-Feed verfügt der Connector über keine Traffic-Daten, die in Ihre Report Suite eingebracht werden können.
 >
->Weitere Informationen finden [&#x200B; unter „BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)Protokollweiterleitungsreferenz“.
+>Weitere Informationen finden [&#x200B; unter „BYOCDN](https://experienceleague.adobe.com/de/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)Protokollweiterleitungsreferenz“.
 
 
 >[!IMPORTANT]
@@ -232,8 +232,8 @@ Informationen zu den folgenden Problemen und deren Behebung finden Sie unter.
 
 >[!MORELIKETHIS]
 >
->[Markensichtbarkeit/LLMO-Integrationsreferenz](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
->[Referenz zur BYOCDN-Protokollweiterleitung](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[Markensichtbarkeit/LLMO-Integrationsreferenz](https://experienceleague.adobe.com/de/docs/analytics-platform/using/integrations/bv)
+>[Referenz zur BYOCDN-Protokollweiterleitung](https://experienceleague.adobe.com/de/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 &#x200B;---
 
@@ -253,4 +253,4 @@ Dieser Abschnitt dient der internen Überprüfung und sollte vor der Veröffentl
 
 ## Ausgehende Integration
 
-Dieses Handbuch behandelt nur die Integration eingehender Markensichtbarkeit, durch die Traffic-Daten von Bots und automatisierten Agenten zu einer Analytics Report Suite hinzugefügt werden. In der veröffentlichten Integrationsdokumentation wird auch eine Richtung für den Ausgang beschrieben, in der Analytics-Leistungsdaten für das Markensichtbarkeit innerhalb des Markensichtbarkeit-Produkts verfügbar gemacht werden. Diese Richtung liegt außerhalb des Rahmens dieses Handbuchs. Weitere Informationen zur ausgehenden Integration finden [&#128279;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) in der Markensichtbarkeit-Dokumentation.
+Dieses Handbuch behandelt nur die Integration eingehender Markensichtbarkeit, durch die Traffic-Daten von Bots und automatisierten Agenten zu einer Analytics Report Suite hinzugefügt werden. In der veröffentlichten Integrationsdokumentation wird auch eine Richtung für den Ausgang beschrieben, in der Analytics-Leistungsdaten für das Markensichtbarkeit innerhalb des Markensichtbarkeit-Produkts verfügbar gemacht werden. Diese Richtung liegt außerhalb des Rahmens dieses Handbuchs. Weitere Informationen zur ausgehenden Integration finden [&#128279;](https://experienceleague.adobe.com/de/docs/brand-visibility/using/resources/adobe-analytics-integration) in der Markensichtbarkeit-Dokumentation.
