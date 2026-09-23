@@ -6,39 +6,57 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 TQID: https://experienceleague.adobe.com/id82CsXfjfKjzNiM36Ny97bcZ8a-TR7QDq5-mx7xP7w
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 854
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 93%
 ---
-
 # eVar
+
+>[!BEGINSHADEBOX]
 
 *Auf dieser Hilfeseite wird beschrieben, wie eVars als [Dimension](overview.md) funktionieren. Weitere Informationen zur Implementierung von eVars finden Sie unter [eVars](/help/implement/vars/page-vars/evar.md) im Implementierungs-Benutzerhandbuch.*
 
+>[!ENDSHADEBOX]
+
 eVars sind benutzerdefinierte [Dimensionen](overview.md), die Sie beliebig verwenden können. Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md) verfügen, werden die meisten für Ihre Organisation spezifischen Dimensionen als [!UICONTROL eVars] angelegt.
 
-Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. Weitere Informationen zur Funktionsweise von eVar-Persistenz in der Adobe-Architektur finden Sie in den Abschnitten [Funktionsweise von eVars](#how-evars-work) und ](#how-evars-tie-to-metrics)Verknüpfung von eVars mit Metriken[ weiter unten. Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in den [!UICONTROL Report Suite-Einstellungen] aktivieren, deaktivieren oder anpassen. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche für Konversionsvariablen:
+Standardmäßig bleiben eVars über den Treffer hinaus bestehen, auf den sie gesetzt wurden. Weitere Informationen zur Funktionsweise von eVar-Persistenz in der Adobe-Architektur finden Sie in den Abschnitten [Funktionsweise von eVars](#how-evars-work) und [&#128279;](#how-evars-tie-to-metrics)Verknüpfung von eVars mit Metriken weiter unten. Sie können ihre Gültigkeit und Zuordnung unter [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) in den [!UICONTROL Report Suite-Einstellungen] aktivieren, deaktivieren oder anpassen. Die folgende Abbildung zeigt ein Beispiel für eVar-Definitionen in der Benutzeroberfläche für Konversionsvariablen:
 
 ![eVar-Beispiele](assets/evars-sample.png)
 
@@ -48,9 +66,16 @@ Die in Berichten verwendete Groß- oder Kleinschreibung basiert auf dem ersten W
 
 ## Füllen von eVars mit Daten
 
-Jede eVar erfasst Daten aus der [`v1` – `v250`-Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen. Beispielsweise erfasst der Abfragezeichenfolgenparameter `v1` Daten für eVar1, während der Abfragezeichenfolgenparameter `v222` Daten für eVar222 erfasst.
+Legen Sie eVars explizit in Ihrer -Implementierung fest. Werte bleiben bestehen und sind mit Metriken verknüpft, die auf Zuordnung und Gültigkeit basieren - siehe [Funktionsweise von eVars](#how-evars-work) unten.
 
-AppMeasurement, das JavaScript-Variablen in eine Bildanforderung für die Datenerfassung kompiliert, verwendet die Variablen `eVar1` – `eVar250`. Die Implementierungsrichtlinien finden Sie unter [eVar](/help/implement/vars/page-vars/evar.md) im Benutzerhandbuch zu Implementierungen.
+| Eigenschaft | Wert |
+| --- | --- |
+| **AppMeasurement-Variable** | [`eVar1` - `eVar250`](/help/implement/vars/page-vars/evar.md) |
+| **Feld Web SDK/XDM** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Abfrageparameter** | [`v1` - `v250`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML-Tag** | [`<eVar1>` - `<eVar250>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte-Grenze** | 255 Byte |
+| **Persistenz** | Konfigurierbar |
 
 ## Dimensionselemente
 

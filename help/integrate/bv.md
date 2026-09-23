@@ -1,9 +1,8 @@
 ---
 title: Markensichtbarkeit-Integration
 description: Integrieren von Markensichtbarkeit mit Adobe Analytics
-feature:
 role: User
-source-git-commit: 841b09d487fb965fb2a5fce4a39a7480a5b01012
+source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -106,10 +105,10 @@ Die CJA Inbound-Integration basiert auf einem umfassenderen CDN-Anfrage-Zusammen
 
 #### Wichtige Einschränkungen
 
-&#x200B;- Es sind keine Besucher-ID, ECID, Besuche oder Unique-User-Daten enthalten. Dies sind aggregierte, nicht besuchergebundene Zusammenfassungsdaten.
-&#x200B;- Die reservierten Variablen unterstützen keine Einstellungen für den Zuordnungstyp oder den Ablauftyp, da sie nicht an einen Besucher gebunden sind.
-&#x200B;- Daten können nicht auf dieselbe Weise mit anderen Analytics-Datensätzen oder -Dimensionen verbunden werden wie in Customer Journey Analytics.
-&#x200B;- Verwenden Sie die Metrik **Anfragen**, um das sowohl- als auch das agentische Traffic-Volumen zu messen. Verwenden Sie sie nicht austauschbar mit besuchs- oder trefferbasierten Metriken an anderer Stelle in Ihrer Report Suite.
+- Es sind keine Besucher-ID, ECID, Besuche oder Unique-User-Daten enthalten. Dies sind aggregierte, nicht besuchergebundene Zusammenfassungsdaten.
+- Die reservierten Variablen unterstützen keine Einstellungen für den Zuordnungstyp oder den Ablauftyp, da sie nicht an einen Besucher gebunden sind.
+- Daten können nicht auf dieselbe Weise mit anderen Analytics-Datensätzen oder -Dimensionen verbunden werden wie in Customer Journey Analytics.
+- Verwenden Sie die Metrik **Anfragen**, um das sowohl- als auch das agentische Traffic-Volumen zu messen. Verwenden Sie sie nicht austauschbar mit besuchs- oder trefferbasierten Metriken an anderer Stelle in Ihrer Report Suite.
 
 Der genaue Satz der verfügbaren Felder sollte hinsichtlich der Variablenkonfiguration Ihrer Report Suite bestätigt werden, nachdem der Connector aktiviert wurde.
 
@@ -135,10 +134,10 @@ Die Einrichtung und Konfiguration des eingehenden Connectors geht mit Zuständig
 
 Bestätigen Sie Folgendes, bevor Sie den Connector aktivieren:
 
-&#x200B;- Sie haben das Adobe Brand Visibility-Onboarding für die Site abgeschlossen, zu der Sie eine Verbindung herstellen möchten.
-&#x200B;- Die BYOCDN-Protokollweiterleitung ist für diese Website eingerichtet und bestätigt (siehe [Voraussetzungen](#inbound-integration)).
-&#x200B;- Daten werden in Ihrem Adobe Brand Visibility Agent Traffic-Dashboard für diese Website angezeigt.
-&#x200B;- Sie wissen, mit welcher Report Suite Sie die Site verbinden möchten.
+- Sie haben das Adobe Brand Visibility-Onboarding für die Site abgeschlossen, zu der Sie eine Verbindung herstellen möchten.
+- Die BYOCDN-Protokollweiterleitung ist für diese Website eingerichtet und bestätigt (siehe [Voraussetzungen](#inbound-integration)).
+- Daten werden in Ihrem Adobe Brand Visibility Agent Traffic-Dashboard für diese Website angezeigt.
+- Sie wissen, mit welcher Report Suite Sie die Site verbinden möchten.
 
 Jede Adobe Brand Visibility-Site ist mit genau einer Report Suite verbunden. Wenn Sie Daten für mehr als eine Markensichtbarkeit-Site importieren möchten, verbinden Sie jede Site mit einer separaten Report Suite.
 
@@ -226,7 +225,7 @@ Informationen zu den folgenden Problemen und deren Behebung finden Sie unter.
 
 | Problem | Fehlerbehebung |
 |---|---|
-| Der Connector wird nicht aktiviert oder die Site-Liste ist leer. | Prüfen, ob:<ul><li>Das Onboarding von Adobe Brand Visibility für die Site ist abgeschlossen.</li><li>Die BYOCDN-Protokollweiterleitung ist für die Site konfiguriert und bestätigt.</li><li>Sie arbeiten mit der richtigen Report Suite.</li><ul> |
+| Der Connector wird nicht aktiviert oder die Site-Liste ist leer. | Prüfen, ob:<ul><li>Das Onboarding von Adobe Brand Visibility für die Site ist abgeschlossen.</li><li>Die BYOCDN-Protokollweiterleitung ist für die Site konfiguriert und bestätigt.</li><li>Sie arbeiten mit der richtigen Report Suite.</li></ul> |
 | Der Connector ist aktiviert, es werden jedoch keine Daten angezeigt. | Prüfen, ob: <ul><li>Daten werden im Dashboard des Agentenverkehrs für die verbundene Website angezeigt (andernfalls liegt das Problem vor Analytics).</li><li>Es ist genügend Zeit für die anfängliche 90-tägige Aufstockung und mindestens eine stündliche Synchronisierung verstrichen.</li><li>- Der ausgewählte Datumsbereich in Ihrem Bericht enthält einen Zeitraum, nach dem der Connector aktiviert wurde.</li></ul> |
 | Die Daten erscheinen unvollständig oder unerwartet. | Prüfen, ob: <ul><li>Es wird nicht erwartet, dass die Report Suite Daten für eine andere Markensichtbarkeit-Site erhält (jede Report Suite stellt eine Verbindung zu genau einer Site her).</li><li>Sie lesen die Metrik **Anfragen** anstatt Zeilen oder Treffer an anderer Stelle in der Report Suite zu zählen.</li><li>Die angezeigten Dimensionen entsprechen der Liste in Abschnitt 4. Nicht verwandte eVars oder Ereignisse in derselben Report Suite sind nicht Teil dieser Integration.</li></ul> |
 
@@ -235,20 +234,18 @@ Informationen zu den folgenden Problemen und deren Behebung finden Sie unter.
 >[Markensichtbarkeit/LLMO-Integrationsreferenz](https://experienceleague.adobe.com/de/docs/analytics-platform/using/integrations/bv)
 >[Referenz zur BYOCDN-Protokollweiterleitung](https://experienceleague.adobe.com/de/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
-&#x200B;---
-
 ## Entwurfsnotizen für Dokumente (nicht zu veröffentlichen)
 
 Dieser Abschnitt dient der internen Überprüfung und sollte vor der Veröffentlichung entfernt werden.
 
-&#x200B;- **Verwendete Source der Wahrheit:** Feldnamen, die Liste der reservierten Variablen und der Report Suite Manager-Workflow stammen aus [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, Status Neu ab 2026-08-28), das aktueller und spezifischer ist als die ursprüngliche Dokumentationsanfrage [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, Status Neu). Die Seitenkopie für die Bildschirme „Bereitstellung/Aufhebung der Bereitstellung“ enthält die Wortverfeinerungen aus der internen Überprüfung 2026-08-28 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), die die Abkürzung „ABV“ des unformatierten Tickets im kundenorientierten Text durch &quot;Adobe Brand Visibility&quot; ersetzt hat.
-&#x200B;- **Feldsatzdiskrepanz, die vor der Veröffentlichung abgeglichen werden muss:** Die ursprüngliche Dimensionsliste von AN-449989 war Host, URL/Seitenpfad, CDN-Provider, Benutzeragent und LLM-Bot-Typ mit einer einzigen Metrik für die Anzahl der Agentenanfragen. Die tatsächliche Liste der reservierten Variablen von AN-468884 ist URL, Bot-Typ, Benutzeragent, Status und Referer mit einem einzigen Anforderungsereignis. Host und CDN-Anbieter sind in AN-468884 nicht als separate reservierte Variablen vorhanden. Status ist neu. Dieser Entwurf folgt an-468884 als autoritär gemäß dem eng-Ticket, aber die beiden sollten mit Aaron Kern / David Wardell abgestimmt werden, bevor dies finalisiert wird, da die Feldnamen, die Kunden sehen, möglicherweise nicht mit dem übereinstimmen, was Account-Teams in der älteren AN-449989-Sprache beschrieben haben.
-&#x200B;- **Noch nicht bestätigt, geben Sie in der veröffentlichten Version nicht als Tatsache an:**
-  &#x200B;- Exaktes GA-Datum. AN-431416 verfügt über FixVersion H2 2026 (Versionsfenster 2026-11-30) und befindet sich ab dem 01.09.2026 im Ausführungsstatus. AN-468884 (die Implementierung der reservierten Variablen) und AN-449989 (dieses Dokument) sind beide noch neu. Veröffentlichen Sie erst, wenn es ausgeliefert wird.
-  &#x200B;- Ob Zuordnungstyp/Ablauftyp für die reservierten eVars in der Produktion vollständig unterdrückt sind. Die Überprüfung 2026-08-28 hat ergeben, dass eine Test-Report-Suite diese eVars derzeit anzeigt, wobei die Zuordnung auf „Zuletzt verwendet (Letzte)“ festgelegt ist. Dies kann eine Standardeinstellung sein, die gelöscht werden muss, anstatt das endgültige Verhalten zu bestätigen.
-  &#x200B;- Der LLMO-API-Endpunkt für die Auflistung von ABV-Sites nach IMS-Organisation (füllt das Dropdown-Menü zur Site-Auswahl aus) und die API zum Aufheben der Bereitstellung/Deaktivieren standen zum Zeitpunkt des Ticketkommentars 2026/08/26 noch aus.
-  &#x200B;- Der exakte Vergleich der Anzahl der CJA-Felder. Das ursprüngliche Ticket von AN-449989 besagt, dass CJA „9 zusätzliche Dimensionen“ und „5 zusätzliche Metriken“ hat, aber einige davon (LLM-Sitzungs-Bucket, LLM-Anzahl eindeutiger Sitzungen, LLM-Anzahl der Anforderungsduplikate) wurden zum Zeitpunkt der Überprüfung 2026-06-18 nicht bestätigt, dass sie in der Feldergruppe der bereitgestellten `cdn-requests-summary` vorhanden sind. In diesem Entwurf wird aus diesem Grund bewusst vermieden, bestimmte Zählungen im CJA-Vergleich anzugeben.
-  &#x200B;- Die Synchronisierungskadenz für diesen AA-Pfad wird hier als stündlich angegeben, entsprechend der Ticketsprache von AN-468884 („stündliche Synchronisierungen ausführen“ / „stündlicher Synchronisierungsprozess„). Dies wurde nicht unabhängig anhand des Verhaltens von Data Sources in Produktions-AA auf die gleiche Weise wie die CJA-Kadenz validiert.
+- **Verwendete Source der Wahrheit:** Feldnamen, die Liste der reservierten Variablen und der Report Suite Manager-Workflow stammen aus [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, Status Neu ab 2026-08-28), das aktueller und spezifischer ist als die ursprüngliche Dokumentationsanfrage [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, Status Neu). Die Seitenkopie für die Bildschirme „Bereitstellung/Aufhebung der Bereitstellung“ enthält die Wortverfeinerungen aus der internen Überprüfung 2026-08-28 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), die die Abkürzung „ABV“ des unformatierten Tickets im kundenorientierten Text durch &quot;Adobe Brand Visibility&quot; ersetzt hat.
+- **Feldsatzdiskrepanz, die vor der Veröffentlichung abgeglichen werden muss:** Die ursprüngliche Dimensionsliste von AN-449989 war Host, URL/Seitenpfad, CDN-Provider, Benutzeragent und LLM-Bot-Typ mit einer einzigen Metrik für die Anzahl der Agentenanfragen. Die tatsächliche Liste der reservierten Variablen von AN-468884 ist URL, Bot-Typ, Benutzeragent, Status und Referer mit einem einzigen Anforderungsereignis. Host und CDN-Anbieter sind in AN-468884 nicht als separate reservierte Variablen vorhanden. Status ist neu. Dieser Entwurf folgt an-468884 als autoritär gemäß dem eng-Ticket, aber die beiden sollten mit Aaron Kern / David Wardell abgestimmt werden, bevor dies finalisiert wird, da die Feldnamen, die Kunden sehen, möglicherweise nicht mit dem übereinstimmen, was Account-Teams in der älteren AN-449989-Sprache beschrieben haben.
+- **Noch nicht bestätigt, geben Sie in der veröffentlichten Version nicht als Tatsache an:**
+  - Exaktes GA-Datum. AN-431416 verfügt über FixVersion H2 2026 (Versionsfenster 2026-11-30) und befindet sich ab dem 01.09.2026 im Ausführungsstatus. AN-468884 (die Implementierung der reservierten Variablen) und AN-449989 (dieses Dokument) sind beide noch neu. Veröffentlichen Sie erst, wenn es ausgeliefert wird.
+  - Ob Zuordnungstyp/Ablauftyp für die reservierten eVars in der Produktion vollständig unterdrückt sind. Die Überprüfung 2026-08-28 hat ergeben, dass eine Test-Report-Suite diese eVars derzeit anzeigt, wobei die Zuordnung auf „Zuletzt verwendet (Letzte)“ festgelegt ist. Dies kann eine Standardeinstellung sein, die gelöscht werden muss, anstatt das endgültige Verhalten zu bestätigen.
+  - Der LLMO-API-Endpunkt für die Auflistung von ABV-Sites nach IMS-Organisation (füllt das Dropdown-Menü zur Site-Auswahl aus) und die API zum Aufheben der Bereitstellung/Deaktivieren standen zum Zeitpunkt des Ticketkommentars 2026/08/26 noch aus.
+  - Der exakte Vergleich der Anzahl der CJA-Felder. Das ursprüngliche Ticket von AN-449989 besagt, dass CJA „9 zusätzliche Dimensionen“ und „5 zusätzliche Metriken“ hat, aber einige davon (LLM-Sitzungs-Bucket, LLM-Anzahl eindeutiger Sitzungen, LLM-Anzahl der Anforderungsduplikate) wurden zum Zeitpunkt der Überprüfung 2026-06-18 nicht bestätigt, dass sie in der Feldergruppe der bereitgestellten `cdn-requests-summary` vorhanden sind. In diesem Entwurf wird aus diesem Grund bewusst vermieden, bestimmte Zählungen im CJA-Vergleich anzugeben.
+  - Die Synchronisierungskadenz für diesen AA-Pfad wird hier als stündlich angegeben, entsprechend der Ticketsprache von AN-468884 („stündliche Synchronisierungen ausführen“ / „stündlicher Synchronisierungsprozess„). Dies wurde nicht unabhängig anhand des Verhaltens von Data Sources in Produktions-AA auf die gleiche Weise wie die CJA-Kadenz validiert.
 
 
 ## Ausgehende Integration

@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Verarbeitungsreihenfolge für Daten in Adobe Analytics
 
 Adobe bietet viele Möglichkeiten, Daten zu verändern oder zu bearbeiten, bevor sie in Berichten angezeigt werden. Auf dieser Seite wird die Reihenfolge angezeigt, in der verschiedene Funktionen von Adobe Analytics Daten verarbeiten. Sie können diese Liste verwenden, um Dateninkonsistenzen zu beheben oder die beste Funktion zu bestimmen, die bei notwendigen Datenanpassungen verwendet werden sollte.
@@ -34,12 +43,12 @@ Adobe bietet viele Möglichkeiten, Daten zu verändern oder zu bearbeiten, bevor
 
 ## Daten vor ihrem Senden an Adobe
 
-Bevor Daten an Adobe gesendet werden, werden sie normalerweise Client-seitig mit einer der folgenden Methoden kompiliert:
+Bevor Daten an Adobe gesendet werden, werden sie normalerweise Client-seitig mit einer der folgenden Methoden zusammengeführt:
 
 * **AppMeasurement**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden direkt an Adobe Analytics gesendet.
 * **Adobe Experience Platform Web SDK**: Eine auf Ihrer Site gehostete und auf jeder Seite referenzierte JavaScript-Datei. Daten werden an die Adobe Experience Platform Edge Network gesendet.
-* **Tags in der Adobe Experience Platform-Datenerfassung**: Eine auf jeder Seite referenzierte JavaScript-Datei mit Regeln, die in der Datenerfassungs-Benutzeroberfläche erstellt wurden. Die Adobe Analytics-Erweiterung bietet eine einfachere Möglichkeit der Implementierung von AppMeasurement. Die Web SDK-Erweiterung bietet eine einfachere Möglichkeit, das Web SDK zu implementieren.
-* **API**: Sowohl AppMeasurement als auch Edge Network bieten programmgesteuerte Methoden zum Senden von Daten an Adobe. AppMeasurement bietet die [Dateneinfüge-](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)) und die [Bulk-Dateneinfüge-](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)); Edge Network bietet die [Datenerfassungs-API](https://developer.adobe.com/data-collection-apis/docs/).
+* **Tags in der Adobe Experience Platform-Datenerfassung**: Eine auf jeder Seite referenzierte JavaScript-Datei mit Regeln, die in der Datenerfassungs-Benutzeroberfläche erstellt wurden. Die Adobe Analytics-Erweiterung bietet eine einfachere Möglichkeit, AppMeasurement zu implementieren. Die Web SDK-Erweiterung bietet eine einfachere Möglichkeit, das Web SDK zu implementieren.
+* **API**: Sowohl AppMeasurement als auch Edge Network bieten programmgesteuerte Methoden zum Senden von Daten an Adobe. AppMeasurement bietet die [Dateneinfüge-](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)) und die [Bulk-Dateneinfüge-](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)); Edge Network bietet die [Datenerfassungs-API](https://developer.adobe.com/data-collection-apis/docs/).
 
 Wenn Sie Daten an Edge Network senden, können Sie diese so konfigurieren, dass Daten an Adobe Analytics (sowie an viele andere Adobe CX Enterprise-Lösungen) weitergeleitet werden. Unabhängig von der Implementierungsmethode gelangen die erfassten Trefferdaten schließlich in einem Format an die Adobe Analytics-Verarbeitungs-Server, das sie analysieren können.
 

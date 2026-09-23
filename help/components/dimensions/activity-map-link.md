@@ -8,22 +8,26 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 TQID: https://experienceleague.adobe.com/A5HaPb0TghRKVykJ9V2UMJ0mlsYElLkCyBwxzTd6VII
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 8%
-
+source-wordcount: '196'
+ht-degree: 11%
 ---
-
 # Activity Map-Link
 
 Die Dimension &quot;Activity Map-[&quot; &#x200B;](overview.md) die beliebtesten Links an, auf die geklickt wurde. Mithilfe dieser Dimension können Sie vergleichen, welche Links auf Ihrer Site am häufigsten verwendet werden, unabhängig davon, wo auf die Links geklickt wurde.
@@ -31,6 +35,15 @@ Die Dimension &quot;Activity Map-[&quot; &#x200B;](overview.md) die beliebtesten
 ## Füllen dieser Dimension mit Daten
 
 Diese Dimension ruft Daten aus der `c.a.activitymap.link` [Kontextdatenvariable](/help/implement/vars/page-vars/contextdata.md) ab. Wenn Ihre Implementierung [Activity Map](/help/analyze/activity-map/overview.md) verwendet, erfasst diese Kontextdatenvariable beim Klicken auf Links automatisch Daten.
+
+| Eigenschaft | Wert |
+| --- | --- |
+| **AppMeasurement-Variable** | Keine (vom Modul [Activity Map](/help/analyze/activity-map/overview.md) erfasst) |
+| **Feld Web SDK/XDM** | Keine (vom Modul [Activity Map](/help/analyze/activity-map/overview.md) erfasst) |
+| **Abfrageparameter** | k. A. |
+| **XML-Tag** | k. A. |
+| **Byte-Grenze** | 255 Byte |
+| **Persistenz** | k. A. |
 
 Für einen bestimmten Link, auf den geklickt wurde, sucht Activity Map nach folgenden Elementen (in der richtigen Reihenfolge):
 

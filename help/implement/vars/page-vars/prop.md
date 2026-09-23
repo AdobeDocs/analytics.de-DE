@@ -7,33 +7,47 @@ role: Admin, Developer
 TQID: https://experienceleague.adobe.com/m1zwGOg7Fw26KdnqjqrOSekG8AehjIVsLKWMeaJfPY0
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: '623'
 ht-degree: 87%
-
 ---
-
 # prop
+
+>[!BEGINSHADEBOX]
 
 *Auf dieser Hilfeseite wird die Implementierung von Props beschrieben. Informationen dazu, wie Props als Dimension funktionieren, finden Sie unter [Props](/help/components/dimensions/prop.md) im Komponenten-Benutzerhandbuch.*
 
-Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie bleiben nicht über den von ihnen festgelegten Treffer hinaus bestehen.
+>[!ENDSHADEBOX]
+
+Props sind benutzerdefinierte Variablen, die Sie beliebig verwenden können. Sie bleiben nur für den Treffer bestehen, in dem sie festgelegt werden.
 
 >[!TIP]
 >
@@ -83,13 +97,13 @@ Aktivieren Sie Listen-Props in [Traffic-Variablen](/help/admin/tools/manage-rs/e
 
 ### Festlegen von Listen-Props mit dem Web SDK {#list-props-web-sdk}
 
-Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden Listen-Props `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]` zugeordnet. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite-Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
+Bei Verwendung des [**XDM-**](/help/implement/aep-edge/xdm-var-mapping.md)) werden Listen-Props `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]` zugeordnet. Das Web SDK verwendet automatisch das richtige Trennzeichen, das unter den Report Suite Einstellungen aufgeführt ist. Wenn Sie das Trennzeichen im XDM-Feld festlegen (z. B. `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), wird das Trennzeichen überschrieben, das automatisch aus den Report Suite-Einstellungen abgerufen wird, was zu einer falschen Analyse der Listen-Prop-Zeichenfolge führen kann.
 
 Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.md) verwenden Listen-Props dieselben Felder wie Standard-Props und folgen der AppMeasurement-Syntax.
 
 ### Festlegen von Listen-Props mit der Adobe Analytics-Erweiterung und AppMeasurement
 
-Sobald Sie Listen-Props in den Report Suite-Einstellungen mit dem gewünschten Trennzeichen konfigurieren, gibt es außer der Verwendung des Trennzeichens keine weiteren Implementierungsunterschiede.
+Sobald Sie Listen-Props in den Report Suite Einstellungen mit dem gewünschten Trennzeichen konfigurieren, gibt es außer der Verwendung des Trennzeichens keine weiteren Implementierungsunterschiede.
 
 ```js
 // List prop delimited with a comma

@@ -6,25 +6,39 @@ exl-id: 129b0235-9b00-4d75-8b02-0443dfdef091
 TQID: 'https://experienceleague.adobe.com/gye9CwGtFwPppmrTbpB5CErZjIdKeAtSPr6VPUtPod4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 299
-ht-degree: 4%
-
+source-wordcount: '361'
+ht-degree: 6%
 ---
-
 # AMO EF ID
 
 Die **[!UICONTROL AMO EF ID]** ist eine Anzeigenklickkennung, die in Adobe Advertising-Integrationen verwendet wird. Es handelt sich dabei um ein eindeutiges Token, das Adobe Advertising verwendet, um Aktivitäten mit einem Online-Klick oder einer Anzeigenexposition auf Besucherebene zu verknüpfen. Die Dimension wird automatisch erstellt, wenn die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/overview) aktiviert wird.
 
 ## Füllen dieser Dimension mit Daten
+
+Diese Dimension wird automatisch durch die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/overview) ausgefüllt. Es gibt keine Variable zum Festlegen.
+
+| Eigenschaft | Wert |
+| --- | --- |
+| **AppMeasurement-Variable** | Keine (wird durch die Adobe Advertising-Integration aufgefüllt) |
+| **Feld Web SDK/XDM** | Keine (wird durch die Adobe Advertising-Integration aufgefüllt) |
+| **Abfrageparameter** | k. A. |
+| **XML-Tag** | k. A. |
+| **Byte-Grenze** | k. A. |
+| **Persistenz** | k. A. |
 
 Diese Dimension erfasst ihre Werte auf verschiedene Weise:
 

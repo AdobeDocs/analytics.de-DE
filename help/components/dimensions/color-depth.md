@@ -6,33 +6,50 @@ exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 TQID: https://experienceleague.adobe.com/JLxm06wch2r7RslhdKx-gFLBLhMSXuWkb-0EYM7nT5s
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 94%
-
+source-wordcount: '255'
+ht-degree: 52%
 ---
-
 # Farbtiefe
 
 Die Dimension „Farbtiefe[&#x200B; gibt an](overview.md) wie viele Farben das Gerät unterstützt. Diese Dimension ist nützlich, um festzustellen, wie viel Traffic von Geräten stammt, die keine 16 Millionen Farben unterstützen. Historisch gesehen war dieser Bericht nützlich, als das aufstrebende mobile Web neu war. Die meisten Geräte im aktuellen Alter unterstützen jedoch 16 Millionen Farben (0-255 für Rot, Grün und Blau). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension verweist auf eine Suchtabelle und übersetzt den Bitwert in ein lesbareres Format. Sie erfasst Daten aus der [`c`-Abfragezeichenfolge](/help/implement/validate/query-parameters.md) in den Bildanforderungen. AppMeasurement verwendet die `screen.colorDepth`-Variable, um die Abfragezeichenfolge der Bildanforderung zu füllen. Wenn Sie AppMeasurement verwenden (z. B. über Tags in Adobe Experience Platform), ist diese Dimension vorkonfiguriert. Wenn Sie eine Datenerfassungsmethode außerhalb von AppMeasurement verwenden (z. B. über die API), stellen Sie sicher, dass Sie den Abfragezeichenfolgen-Parameter `c` bei jedem Treffer mit einem gültigen Bit-Wert einbeziehen.
+Die Farbtiefe wird automatisch Client-seitig aus der `screen.colorDepth`-Eigenschaft des Browsers erfasst, die Adobe durch eine Suchtabelle in ein lesbares Format übersetzt. Dies funktioniert standardmäßig in jeder AppMeasurement- oder Web SDK (Tags)-Implementierung - es gibt keine Variable zum Festlegen. Wenn Sie Daten außerhalb von AppMeasurement oder der Web-SDK erfassen (z. B. über die API), senden Sie bei jedem Treffer einen gültigen Bit-Wert.
+
+| Eigenschaft | Wert |
+| --- | --- |
+| **AppMeasurement-Variable** | Keine (automatisch erfasst) |
+| **Feld Web SDK/XDM** | Keine (automatisch erfasst) |
+| **Abfrageparameter** | [`c`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML-Tag** | [`<colorDepth>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Byte-Grenze** | 20 Byte |
+| **Persistenz** | nicht angegeben |
 
 ## Dimensionselemente
 

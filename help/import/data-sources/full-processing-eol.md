@@ -7,29 +7,37 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 8%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # Ende der Nutzungsdauer für Datenquellen mit vollständiger Verarbeitung
 
-Datenquellen mit vollständiger Verarbeitung haben es Unternehmen bisher ermöglicht, Daten auf Trefferebene an Adobe Analytics zu senden. Diese Daten wurden auf die gleiche Weise verarbeitet wie Daten, die über herkömmliche Datenerfassungsmittel wie AppMeasurement erfasst wurden. Im Jahr 2020 veröffentlichte Adobe die [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), die dieselben Funktionen wie Full Processing Data Sources ausführt, jedoch mit zusätzlichen Funktionen. Auf dieser Seite finden Sie Details zu zusätzlichen Funktionen, die von der Bulk Data Insertion-API bereitgestellt werden, und beschreiben Unterschiede in Dateiformaten.
+Datenquellen mit vollständiger Verarbeitung haben es Unternehmen bisher ermöglicht, Daten auf Trefferebene an Adobe Analytics zu senden. Diese Daten wurden auf die gleiche Weise verarbeitet wie Daten, die über herkömmliche Datenerfassungsmittel wie AppMeasurement erfasst wurden. Im Jahr 2020 veröffentlichte Adobe die [Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), die dieselben Funktionen wie Full Processing Data Sources ausführt, jedoch mit zusätzlichen Funktionen. Auf dieser Seite finden Sie Details zu zusätzlichen Funktionen, die von der Bulk Data Insertion-API bereitgestellt werden, und beschreiben Unterschiede in Dateiformaten.
 
 Am 25. März 2021 verhinderte Adobe die Erstellung neuer Verbindungen mit Full Processing Data Sources. Am 31. Januar 2022 wurden alle Full Processing Data Services deaktiviert.
 
@@ -39,7 +47,7 @@ Am 25. März 2021 verhinderte Adobe die Erstellung neuer Verbindungen mit Full P
 * Bulk Data Insertion verfügt über Datenvalidierungs- und Fehlerbehandlungsfunktionen, wodurch ein Teil der Verwaltungsarbeit beim Senden von Trefferdaten entfällt.
 * Bulk Data Insertion unterstützt mehrere Methoden zur Besucher-ID-Identifizierung.
 * Bulk Data Insertion verfügt über einige zusätzliche erforderliche Felder: eine Besucheridentifizierungsspalte, eine `pageName` (oder ein Link-Äquivalent), `reportSuiteID`, `timestamp` und `userAgent`.
-* Um die Besucherkontinuität und -zuordnung sicherzustellen, erfordert das Einfügen von Massendaten, dass Zeilen innerhalb von Dateien in chronologischer Reihenfolge sortiert werden. Weitere Informationen zur dateiübergreifenden Sortierung von Besucheraktivitäten finden Sie unter [Besuchergruppen](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/).
+* Um die Besucherkontinuität und -zuordnung sicherzustellen, erfordert das Einfügen von Massendaten, dass Zeilen innerhalb von Dateien in chronologischer Reihenfolge sortiert werden. Weitere Informationen zur dateiübergreifenden Sortierung von Besucheraktivitäten finden Sie unter [Besuchergruppen](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/).
 * Bulk Data Insertion erfordert, dass die Dateien im .gzip-Format .csv-komprimiert sind.
 * BDIA verwendet `timestamp` anstelle von `date`.
 

@@ -7,23 +7,28 @@ exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 78%
-
+source-wordcount: '636'
+ht-degree: 77%
 ---
-
 # Datenobjekt-Feldzuordnung zu Adobe Analytics
 
 Die folgende Tabelle zeigt das Datenobjektfeld, das Adobe Experience Platform Edge Network automatisch Adobe Analytics zuordnet. Wenn Sie diese Datenobjektfeldpfade verwenden, ist keine zusätzliche Konfiguration erforderlich, um Daten an Adobe Analytics zu senden.
@@ -34,7 +39,7 @@ Die Verwendung dieser Felder wird empfohlen, wenn Sie in Zukunft Customer Journe
 
 Die meisten Datenobjektfelder in dieser Tabelle entsprechen einem [zugeordneten XDM-Feld](xdm-var-mapping.md). Während der Adobe Analytics-Aufnahme werden Werte zunächst von XDM Analytics-Variablen zugeordnet. Erkannte Datenobjektfelder werden dann zugeordnet und überschreiben alle zuvor festgelegten Werte, wenn sie derselben Analytics-Variablen zugeordnet werden. Wenn beispielsweise `data.__adobe.analytics.events` vorhanden ist, ersetzt sie den gesamten Satz von Ereignissen, die andernfalls von XDM abgeleitet würden. Ereignisse werden nicht über beide Quellen hinweg kombiniert. Eine leere Zeichenfolge (`""`) in einem Datenobjektfeld blendet die zugeordnete Analytics-Variable für den Treffer aus, auch wenn das entsprechende XDM-Feld einen Wert enthält.
 
-Einige Datenobjektfelder unterstützen auch den jeweiligen [Abfrageparameterwert](../validate/query-parameters.md) als Kurzschreibweise. Sie können standardmäßige Datenobjektfelder und Datenobjektfelder in Kurzschreibweise austauschbar verwenden, solange diese jeweils für eindeutige Variablen stehen. Vermeiden Sie es, gleichzeitig ein standardmäßiges Datenobjektfeld und das entsprechende Datenobjektfeld in Kurzschreibweise festzulegen. Adobe kann nicht garantieren, welches Feld Priorität hat.
+Einige Datenobjektfelder unterstützen auch den jeweiligen [Abfrageparameterwert](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) als Kurzschreibweise. Sie können standardmäßige Datenobjektfelder und Datenobjektfelder in Kurzschreibweise austauschbar verwenden, solange diese jeweils für eindeutige Variablen stehen. Vermeiden Sie es, gleichzeitig ein standardmäßiges Datenobjektfeld und das entsprechende Datenobjektfeld in Kurzschreibweise festzulegen. Adobe kann nicht garantieren, welches Feld Priorität hat.
 
 ## Zuordnen von Datenobjektfeldern
 
