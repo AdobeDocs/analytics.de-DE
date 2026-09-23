@@ -47,7 +47,7 @@ Legen Sie die [`pageName`](/help/implement/vars/page-vars/pagename.md) Variable 
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Feld Web SDK/XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Feld Web SDK/XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Abfrageparameter** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 100 Byte |

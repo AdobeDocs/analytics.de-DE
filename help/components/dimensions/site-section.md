@@ -41,7 +41,7 @@ AppMeasurement erfasst diese Daten mit der [`channel`](/help/implement/vars/pag
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`channel`](/help/implement/vars/page-vars/channel.md) |
-| **Feld Web SDK/XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Feld Web SDK/XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Abfrageparameter** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 100 Byte |

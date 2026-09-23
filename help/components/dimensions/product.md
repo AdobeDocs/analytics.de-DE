@@ -41,7 +41,7 @@ Diese Dimension verweist auf den Produktnamen in der [`products`](/help/implemen
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Feld Web SDK/XDM** | [`productListItems[].name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Feld Web SDK/XDM** | [`productListItems[].name`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Abfrageparameter** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 100 Byte |

@@ -41,7 +41,7 @@ AppMeasurement erfasst diese Daten mithilfe der [`server`](/help/implement/vars/
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`server`](/help/implement/vars/page-vars/server.md) |
-| **Feld Web SDK/XDM** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Feld Web SDK/XDM** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Abfrageparameter** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 100 Byte |

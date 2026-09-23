@@ -50,7 +50,7 @@ Die [!UICONTROL Postleitzahlenoption] unter [Allgemeine Kontoeinstellungen](/hel
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **Feld Web SDK/XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Feld Web SDK/XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/data-types/geo) |
 | **Abfrageparameter** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 50 Byte |

@@ -41,7 +41,7 @@ AppMeasurement erfasst diese Daten mit der [`campaign`](/help/implement/vars/pa
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Feld Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Feld Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **Abfrageparameter** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 255 Byte |

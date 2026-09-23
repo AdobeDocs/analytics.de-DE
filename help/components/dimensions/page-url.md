@@ -43,7 +43,7 @@ AppMeasurement erfasst die Seiten-URL automatisch bei jedem [Seitenaufruf (`t()`
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **Feld Web SDK/XDM** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Feld Web SDK/XDM** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Abfrageparameter** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 255 Byte (kein festes Limit bei Überlauf) |
