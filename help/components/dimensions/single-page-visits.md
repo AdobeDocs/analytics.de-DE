@@ -34,7 +34,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als [Dimension“ ](overview.md). Weitere Informationen finden Sie unter der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie „Einzelseitenbesuche“ als [Dimension“ &#x200B;](overview.md). Weitere Informationen finden Sie unter der Metrik [Einzelseitenbesuche](../metrics/single-page-visits.md).*
 
 >[!ENDSHADEBOX]
 

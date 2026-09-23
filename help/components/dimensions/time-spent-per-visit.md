@@ -34,7 +34,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Hilfeseite wird beschrieben, wie die „pro Besuch verbrachte Zeit“ als ihre jeweiligen [Dimensionen“ ](overview.md). Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
+*Auf dieser Hilfeseite wird beschrieben, wie die „pro Besuch verbrachte Zeit“ als ihre jeweiligen [Dimensionen“ &#x200B;](overview.md). Weitere Informationen finden Sie unter der Metrik [Zeit pro Besuch](../metrics/time-spent-per-visit.md).*
 
 >[!ENDSHADEBOX]
 

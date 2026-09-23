@@ -47,7 +47,7 @@ AppMeasurement erfasst die IP-Adresse automatisch aus dem HTTP-Header jeder Bild
 | **Byte-Grenze** | k. A. |
 | **Persistenz** | k. A. |
 
-Wenn [!UICONTROL IP-Verschleierung] in den allgemeinen Kontoeinstellungen [ Report Suite aktiviert ist](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) werden IP-Adressen überall in Analytics, einschließlich Data Warehouse, verschleiert oder entfernt.
+Wenn [!UICONTROL IP-Verschleierung] in den allgemeinen Kontoeinstellungen [&#x200B; Report Suite aktiviert ist](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) werden IP-Adressen überall in Analytics, einschließlich Data Warehouse, verschleiert oder entfernt.
 
 ## Dimensionselemente
 

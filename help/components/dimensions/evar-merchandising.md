@@ -32,7 +32,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als [Dimension“ ](overview.md). Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als [Dimension“ &#x200B;](overview.md). Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zu Implementierungen.*
 
 >[!ENDSHADEBOX]
 

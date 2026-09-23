@@ -30,7 +30,7 @@ ht-degree: 52%
 ---
 # Seiten-URL
 
-Die Dimension „Seiten-URL[ führt ](overview.md) URLs auf Ihrer Site auf.
+Die Dimension „Seiten-URL[&#x200B; führt &#x200B;](overview.md) URLs auf Ihrer Site auf.
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ Die Dimension „Seiten-URL[ führt ](overview.md) URLs auf Ihrer Site auf.
 
 ## Füllen dieser Dimension mit Daten
 
-AppMeasurement erfasst die Seiten-URL automatisch bei jedem [Seitenaufruf (`t()`)](/help/implement/vars/functions/t-method.md). Sie können den erfassten Wert mithilfe der Variablen [`pageURL`](/help/implement/vars/page-vars/pageurl.md) überschreiben. Wenn eine URL länger als 255 Byte ist, wird der Überlauf im `-g` Abfragezeichenfolgenparameter gespeichert. Protokoll- und Abfragezeichenfolgen sind in der URL enthalten. [Linktracking-Aufrufe (`tl()`) entfernen ](/help/implement/vars/functions/tl-method.md) immer diese Dimension, auch wenn der URL-Wert vorhanden ist.
+AppMeasurement erfasst die Seiten-URL automatisch bei jedem [Seitenaufruf (`t()`)](/help/implement/vars/functions/t-method.md). Sie können den erfassten Wert mithilfe der Variablen [`pageURL`](/help/implement/vars/page-vars/pageurl.md) überschreiben. Wenn eine URL länger als 255 Byte ist, wird der Überlauf im `-g` Abfragezeichenfolgenparameter gespeichert. Protokoll- und Abfragezeichenfolgen sind in der URL enthalten. [Linktracking-Aufrufe (`tl()`) entfernen &#x200B;](/help/implement/vars/functions/tl-method.md) immer diese Dimension, auch wenn der URL-Wert vorhanden ist.
 
 | Eigenschaft | Wert |
 | --- | --- |

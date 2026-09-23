@@ -30,7 +30,7 @@ ht-degree: 66%
 ---
 # Website-Bereich
 
-Die Dimension „Site-Bereich[ ](overview.md) listet die Namen der Site-Bereiche auf Ihrer Site auf. Bei großen Sites ist es hilfreich, Seiten in Abschnitte zu gruppieren. Diese Dimension ist nützlich, um die am meisten angezeigten oder leistungsstärksten Site-Abschnitte anzuzeigen.
+Die Dimension „Site-Bereich[&#x200B; &#x200B;](overview.md) listet die Namen der Site-Bereiche auf Ihrer Site auf. Bei großen Sites ist es hilfreich, Seiten in Abschnitte zu gruppieren. Diese Dimension ist nützlich, um die am meisten angezeigten oder leistungsstärksten Site-Abschnitte anzuzeigen.
 
 Diese Dimension hängt mit den Dimensionen [Seite](page.md) und [Server](server.md) zusammen. „Seite“ ist am detailliertesten, „Server“ am wenigsten detailliert und „Site-Abschnitt“ befindet sich zwischen den beiden.
 

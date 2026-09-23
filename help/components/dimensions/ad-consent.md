@@ -46,7 +46,7 @@ In Zukunft kann diese Dimension verwendet werden, um die Codierung zusätzlicher
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der `contextData.['adConsent']` [Kontextdatenvariable](/help/implement/vars/page-vars/contextdata.md). Sie füllen diese Variable mit den entsprechenden Google-Einverständnisfeldwerten: `ad_user_data` (erstes Zeichen) und `ad_personalization` (zweites Zeichen). Weitere Informationen finden [ unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
+Diese Dimension erfasst Daten aus der `contextData.['adConsent']` [Kontextdatenvariable](/help/implement/vars/page-vars/contextdata.md). Sie füllen diese Variable mit den entsprechenden Google-Einverständnisfeldwerten: `ad_user_data` (erstes Zeichen) und `ad_personalization` (zweites Zeichen). Weitere Informationen finden [&#x200B; unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
 
 | Eigenschaft | Wert |
 | --- | --- |
@@ -77,7 +77,7 @@ Jenseits des ersten und zweiten Zeichens werden derzeit ignoriert.
 
 Sie können die erfassten Anzeigeneinverständnisdaten verwenden:
 
-* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse-Berichte: Die Daten zum Anzeigeneinverständnis sind über die Dimension **[!UICONTROL Anzeigenplattformeinverständnis]** verfügbar.
 
 Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariablen. Der Wert bleibt nicht über den Treffer hinaus erhalten, für den er festgelegt wurde. Daher müssen Sie die Kontextdatenvariable auf jeder Seite festlegen.

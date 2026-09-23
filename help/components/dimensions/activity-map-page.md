@@ -29,7 +29,7 @@ ht-degree: 9%
 ---
 # Activity Map-Seite
 
-Die Dimension &quot;Activity Map[ zeigt ](overview.md) Seite an, auf der sich ein Besucher befand, als auf einen Link geklickt wurde. Mithilfe dieser Dimension können Sie bestimmen, welche Seiten Links enthalten, auf die am häufigsten geklickt wird. Diese Dimension wird auch von der Activity Map-Überlagerung verwendet, um zu bestimmen, welche Links angezeigt werden sollen.
+Die Dimension &quot;Activity Map[&#x200B; zeigt &#x200B;](overview.md) Seite an, auf der sich ein Besucher befand, als auf einen Link geklickt wurde. Mithilfe dieser Dimension können Sie bestimmen, welche Seiten Links enthalten, auf die am häufigsten geklickt wird. Diese Dimension wird auch von der Activity Map-Überlagerung verwendet, um zu bestimmen, welche Links angezeigt werden sollen.
 
 ## Füllen dieser Dimension mit Daten
 

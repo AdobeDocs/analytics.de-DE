@@ -28,7 +28,7 @@ ht-degree: 18%
 ---
 # Besucher-ID
 
-Die Dimension „Besucher[ID“ ](overview.md) die eindeutige Kennung für jeden Besucher an.
+Die Dimension „Besucher[ID“ &#x200B;](overview.md) die eindeutige Kennung für jeden Besucher an.
 
 >[!IMPORTANT]
 >

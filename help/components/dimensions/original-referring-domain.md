@@ -36,7 +36,7 @@ ht-degree: 72%
 ---
 # Ursprüngliche Referrer-Domain
 
-Die Dimension „Ursprüngliche Referrer[ gibt die erste Referrer](overview.md)Domain an, auf die sich ein Besucher geklickt hat, um zu Ihrer Site zu gelangen. Sobald sie festgelegt wurde, enthält sie denselben Wert für die gesamte Lebensdauer dieser Besucher-ID. Diese Dimension ist nützlich, um zu verstehen, welche Drittanbieter-Websites ursprünglich Traffic auf Ihre Site bringen.
+Die Dimension „Ursprüngliche Referrer[&#x200B; gibt die erste Referrer](overview.md)Domain an, auf die sich ein Besucher geklickt hat, um zu Ihrer Site zu gelangen. Sobald sie festgelegt wurde, enthält sie denselben Wert für die gesamte Lebensdauer dieser Besucher-ID. Diese Dimension ist nützlich, um zu verstehen, welche Drittanbieter-Websites ursprünglich Traffic auf Ihre Site bringen.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Die Dimension „Ursprüngliche Referrer[ gibt die erste Referrer](overview.md)D
 
 ## Füllen dieser Dimension mit Daten
 
-Adobe leitet diese Dimension vom ersten Referrer des Besuchers [, indem ](referrer.md) Domain-Teil dieser Referrer-URL verwendet wird. Es gibt keine Variable zum Festlegen. Sie müssen die „Internen URL[Filter“ Ihrer Report Suite konfigurieren](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) Andernfalls können interne Domains einbezogen oder das Auftreten externer Domains verhindert werden.
+Adobe leitet diese Dimension vom ersten Referrer des Besuchers [, indem &#x200B;](referrer.md) Domain-Teil dieser Referrer-URL verwendet wird. Es gibt keine Variable zum Festlegen. Sie müssen die „Internen URL[Filter“ Ihrer Report Suite konfigurieren](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) Andernfalls können interne Domains einbezogen oder das Auftreten externer Domains verhindert werden.
 
 | Eigenschaft | Wert |
 | --- | --- |

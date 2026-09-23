@@ -38,11 +38,11 @@ ht-degree: 31%
 ---
 # Domain
 
-Die Dimension „Domain[ ](overview.md) zeigt die Zugriffspunkte an, die Besucherinnen und Besucher für den Internetzugang verwenden.
+Die Dimension „Domain[&#x200B; &#x200B;](overview.md) zeigt die Zugriffspunkte an, die Besucherinnen und Besucher für den Internetzugang verwenden.
 
 >[!NOTE]
 >
->Data Warehouse enthält die Dimension &quot;[!UICONTROL Domains“ ]Plural), die ähnliche Informationen ausgibt. Adobe empfiehlt, diese Dimension &quot;[!UICONTROL Domain] (Singular)“ zu verwenden, um Konsistenz zu gewährleisten.
+>Data Warehouse enthält die Dimension &quot;[!UICONTROL Domains“ &#x200B;]Plural), die ähnliche Informationen ausgibt. Adobe empfiehlt, diese Dimension &quot;[!UICONTROL Domain] (Singular)“ zu verwenden, um Konsistenz zu gewährleisten.
 
 ## Füllen dieser Dimension mit Daten
 

@@ -42,7 +42,7 @@ Diese Dimension hängt mit den Dimensionen [Website-Bereich](site-section.md) un
 
 ## Füllen dieser Dimension mit Daten
 
-Legen Sie die [`pageName`](/help/implement/vars/page-vars/pagename.md) Variable in [Seitenansichtsaufrufe (`t()`) ](/help/implement/vars/functions/t-method.md). Wenn die Variable `pageName` nicht festgelegt ist, wird diese Dimension auf die Verwendung der Variablen [`pageURL`](/help/implement/vars/page-vars/pageurl.md) zurückgesetzt. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn der `pageName` vorhanden ist.
+Legen Sie die [`pageName`](/help/implement/vars/page-vars/pagename.md) Variable in [Seitenansichtsaufrufe (`t()`) &#x200B;](/help/implement/vars/functions/t-method.md). Wenn die Variable `pageName` nicht festgelegt ist, wird diese Dimension auf die Verwendung der Variablen [`pageURL`](/help/implement/vars/page-vars/pageurl.md) zurückgesetzt. [Linktracking-Aufrufe (`tl()`)](/help/implement/vars/functions/tl-method.md) entfernen diese Dimension immer, auch wenn der `pageName` vorhanden ist.
 
 | Eigenschaft | Wert |
 | --- | --- |

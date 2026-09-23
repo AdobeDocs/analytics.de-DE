@@ -34,7 +34,7 @@ ht-degree: 27%
 ---
 # Downloadlink
 
-Die Dimension „Downloadlink[ gibt ](overview.md) Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
+Die Dimension „Downloadlink[&#x200B; gibt &#x200B;](overview.md) Namen der auf Ihrer Site implementierten Downloadlinks an. Diese Dimension ist nützlich, wenn Sie mehr über das Verhalten von Besuchern bei Downloadlinks erfahren möchten, z. B. um:
 
 * Welche Dateien werden am häufigsten von Ihrer Website heruntergeladen?
 * Ob bestimmte Dateien während bestimmter Zeiträume häufiger heruntergeladen werden.
@@ -42,7 +42,7 @@ Die Dimension „Downloadlink[ gibt ](overview.md) Namen der auf Ihrer Site impl
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension wird durch [Linktracking-Aufrufe (`tl()`) ](/help/implement/vars/functions/tl-method.md). Es gibt keine dedizierte Variable zum Festlegen. Senden Sie stattdessen eine `tl()` Bildanforderung mit dem Argument des Typs „Link“ von `"d"` und legen Sie das Argument des Typs „Link-Name“ auf den gewünschten Wert fest. Die `pe` Abfragezeichenfolge leitet den Link-Namen an die richtige Link-Dimension weiter (`lnk_o` für [benutzerspezifische Links](custom-link.md), `lnk_d` für [Downloadlinks](download-link.md) und `lnk_e` für [Exitlinks](exit-link.md)). Wenn kein Link-Name angegeben wird, wird stattdessen die Link-URL als Dimensionswert verwendet, und von der URL abgeleitete Werte unterliegen nicht der Byte-Beschränkung.
+Diese Dimension wird durch [Linktracking-Aufrufe (`tl()`) &#x200B;](/help/implement/vars/functions/tl-method.md). Es gibt keine dedizierte Variable zum Festlegen. Senden Sie stattdessen eine `tl()` Bildanforderung mit dem Argument des Typs „Link“ von `"d"` und legen Sie das Argument des Typs „Link-Name“ auf den gewünschten Wert fest. Die `pe` Abfragezeichenfolge leitet den Link-Namen an die richtige Link-Dimension weiter (`lnk_o` für [benutzerspezifische Links](custom-link.md), `lnk_d` für [Downloadlinks](download-link.md) und `lnk_e` für [Exitlinks](exit-link.md)). Wenn kein Link-Name angegeben wird, wird stattdessen die Link-URL als Dimensionswert verwendet, und von der URL abgeleitete Werte unterliegen nicht der Byte-Beschränkung.
 
 ```js
 s.tl(true,"d","Example download link");

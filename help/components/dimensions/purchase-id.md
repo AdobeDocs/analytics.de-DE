@@ -28,7 +28,7 @@ ht-degree: 18%
 ---
 # Kauf-ID
 
-Die „Kauf-ID[ (Dimension](overview.md) stellt die eindeutige Kennung für einen Kauf bereit.
+Die „Kauf-ID[&#x200B; (Dimension](overview.md) stellt die eindeutige Kennung für einen Kauf bereit.
 
 >[!IMPORTANT]
 >

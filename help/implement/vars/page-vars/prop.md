@@ -59,7 +59,7 @@ Wenn Sie über ein [Lösungs-Design-Dokument](/help/implement/prepare/solution-d
 
 Props sind den folgenden Variablen zugeordnet:
 
-* [XDM-](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einem [separaten Satz von Feldern) ](#list-props-web-sdk).
+* [XDM-](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Listen-Props werden in einem [separaten Satz von Feldern) &#x200B;](#list-props-web-sdk).
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; oder `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - Listen-Props sind in diesen Feldern enthalten.
 
 ## Props, die die Adobe Analytics-Erweiterung verwenden

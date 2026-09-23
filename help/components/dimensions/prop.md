@@ -42,7 +42,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Hilfeseite wird beschrieben, wie Props als [-Dimension ](overview.md). Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Props als [-Dimension &#x200B;](overview.md). Weitere Informationen zur Implementierung von Props finden Sie unter [Props](/help/implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.*
 
 >[!ENDSHADEBOX]
 

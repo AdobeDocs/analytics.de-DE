@@ -38,7 +38,7 @@ Der „Erstkontaktkanal“ [Dimension](overview.md) zeigt den ersten Marketing-K
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension wird durch Verarbeitungsregeln für Marketing-Kanäle abgeleitet. Sie verweist direkt auf Kanalnamen, die Sie im [Marketing-Kanal-Manager“ definiert ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Jeder Treffer durchläuft die Verarbeitungsregeln Ihrer Report Suite für den Marketing-Kanal in numerischer Reihenfolge, bis er eine Übereinstimmung findet, die diesen Marketing-Kanal mit dem Treffer verknüpft. Es gibt keine Variable zum Festlegen.
+Diese Dimension wird durch Verarbeitungsregeln für Marketing-Kanäle abgeleitet. Sie verweist direkt auf Kanalnamen, die Sie im [Marketing-Kanal-Manager“ definiert &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Jeder Treffer durchläuft die Verarbeitungsregeln Ihrer Report Suite für den Marketing-Kanal in numerischer Reihenfolge, bis er eine Übereinstimmung findet, die diesen Marketing-Kanal mit dem Treffer verknüpft. Es gibt keine Variable zum Festlegen.
 
 | Eigenschaft | Wert |
 | --- | --- |

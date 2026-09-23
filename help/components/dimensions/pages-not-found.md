@@ -32,7 +32,7 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Hilfeseite wird beschrieben, wie „Seiten nicht gefunden“ als [Dimension“ ](overview.md). Weitere Informationen [ Funktionsweise als Metrik finden Sie ](../metrics/pages-not-found.md) Metrikseite „Seiten nicht gefunden“*
+*Auf dieser Hilfeseite wird beschrieben, wie „Seiten nicht gefunden“ als [Dimension“ &#x200B;](overview.md). Weitere Informationen [&#x200B; Funktionsweise als Metrik finden Sie &#x200B;](../metrics/pages-not-found.md) Metrikseite „Seiten nicht gefunden“*
 
 >[!ENDSHADEBOX]
 

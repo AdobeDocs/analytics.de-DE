@@ -32,7 +32,7 @@ ht-degree: 83%
 ---
 # Einverständnisverwaltungs-Opt-out
 
-Die Dimension „Einverständnisverwaltungs-Opt[ zeigt an](overview.md) welche Datenschutzeinstellungen ein Besucher ausdrücklich abgelehnt hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-out anzuzeigen.
+Die Dimension „Einverständnisverwaltungs-Opt[&#x200B; zeigt an](overview.md) welche Datenschutzeinstellungen ein Besucher ausdrücklich abgelehnt hat. Sie können diese Dimension verwenden, um Daten basierend auf Datenschutzeinstellungen zu filtern oder die häufigsten Gründe für ein Datenschutz-Opt-out anzuzeigen.
 
 ## Füllen dieser Dimension mit Daten
 

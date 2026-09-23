@@ -53,7 +53,7 @@ Verwenden Sie die Datenstromzuordnung , um Daten von einem einzelnen XDM-Feld an
 1. Klicken Sie **[!UICONTROL der linken Leiste auf]** Datenströme“.
 1. Klicken Sie auf den gewünschten Datenstrom.
 1. Klicken **[!UICONTROL rechts auf]** Zuordnung bearbeiten“.
-1. Ordnen Sie das gewünschte [!UICONTROL Source]Feld dem gewünschten [!UICONTROL Target-Feld“ ]. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
+1. Ordnen Sie das gewünschte [!UICONTROL Source]Feld dem gewünschten [!UICONTROL Target-Feld“ &#x200B;]. Ein einzelnes Quellfeld kann einer beliebigen Anzahl von Zielfeldern zugeordnet werden.
 
 ## Dynamische Variablen, die die Adobe Analytics-Erweiterung verwenden
 

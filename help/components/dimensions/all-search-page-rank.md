@@ -34,7 +34,7 @@ Der „Rang aller Suchseiten“ [Dimension](overview.md) liefert insight, auf we
 
 ## Füllen dieser Dimension mit Daten
 
-Adobe leitet diese Dimension von der Suchmaschine (Referrer[ jedes Treffers ](referrer.md) und bestimmt, durch welche Seite mit Suchergebnissen der Besucher klickte. Es gibt keine Variable zum Festlegen. Damit diese Dimension funktioniert, müssen die [internen URL-Filter](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) in Ihrer Report Suite korrekt eingerichtet sein.
+Adobe leitet diese Dimension von der Suchmaschine (Referrer[&#x200B; jedes Treffers &#x200B;](referrer.md) und bestimmt, durch welche Seite mit Suchergebnissen der Besucher klickte. Es gibt keine Variable zum Festlegen. Damit diese Dimension funktioniert, müssen die [internen URL-Filter](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) in Ihrer Report Suite korrekt eingerichtet sein.
 
 | Eigenschaft | Wert |
 | --- | --- |

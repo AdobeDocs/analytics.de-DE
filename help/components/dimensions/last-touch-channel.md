@@ -36,11 +36,11 @@ ht-degree: 49%
 ---
 # Letztkontakt-Kanal
 
-Der „Letztkontakt-Kanal[ (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
+Der „Letztkontakt-Kanal[&#x200B; (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension wird durch Verarbeitungsregeln für Marketing-Kanäle abgeleitet. Sie verweist direkt auf Kanalnamen, die Sie im [Marketing-Kanal-Manager“ definiert ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Jeder Treffer durchläuft die Verarbeitungsregeln Ihrer Report Suite für den Marketing-Kanal in numerischer Reihenfolge, bis er eine Übereinstimmung findet, die diesen Marketing-Kanal mit dem Treffer verknüpft. Es gibt keine Variable zum Festlegen.
+Diese Dimension wird durch Verarbeitungsregeln für Marketing-Kanäle abgeleitet. Sie verweist direkt auf Kanalnamen, die Sie im [Marketing-Kanal-Manager“ definiert &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Jeder Treffer durchläuft die Verarbeitungsregeln Ihrer Report Suite für den Marketing-Kanal in numerischer Reihenfolge, bis er eine Übereinstimmung findet, die diesen Marketing-Kanal mit dem Treffer verknüpft. Es gibt keine Variable zum Festlegen.
 
 | Eigenschaft | Wert |
 | --- | --- |

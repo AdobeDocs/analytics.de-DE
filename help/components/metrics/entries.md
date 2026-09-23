@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!ENDSHADEBOX]
 
-Die „Metrik[ „Einträge](overview.md) gibt an, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über die ersten Impressionen erfahren möchten, die Besucher auf Ihrer Website haben. Wenn Sie die ersten Werte einer Dimension anzeigen, können Sie das Erlebnis eines neuen Besuchers besser verstehen und optimieren.
+Die „Metrik[&#x200B; „Einträge](overview.md) gibt an, wie oft ein bestimmtes Dimensionselement als erster Wert bei einem Besuch erfasst wird. Diese Metrik ist hilfreich, wenn Sie mehr über die ersten Impressionen erfahren möchten, die Besucher auf Ihrer Website haben. Wenn Sie die ersten Werte einer Dimension anzeigen, können Sie das Erlebnis eines neuen Besuchers besser verstehen und optimieren.
 
 ## Berechnung dieser Metrik
 

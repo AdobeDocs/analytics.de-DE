@@ -34,11 +34,11 @@ ht-degree: 20%
 ---
 # Benutzerspezifischer Link
 
-Die Dimension „Benutzerspezifischer [&quot; ](overview.md) die Namen der auf Ihrer Site implementierten benutzerspezifischen Links an. Benutzerdefinierte Links sind ein flexibler Tracking-Mechanismus für alle Interaktionen, bei denen es sich nicht um einen Dateidownload oder eine ausgehende Navigation handelt. Häufige Beispiele sind Klicks auf Schaltflächen, interne Navigation oder Formularinteraktionen. Diese Dimension ist nützlich, wenn Sie verstehen möchten, mit welchen dieser Interaktionen Besucherinnen und Besucher am meisten interagieren.
+Die Dimension „Benutzerspezifischer [&quot; &#x200B;](overview.md) die Namen der auf Ihrer Site implementierten benutzerspezifischen Links an. Benutzerdefinierte Links sind ein flexibler Tracking-Mechanismus für alle Interaktionen, bei denen es sich nicht um einen Dateidownload oder eine ausgehende Navigation handelt. Häufige Beispiele sind Klicks auf Schaltflächen, interne Navigation oder Formularinteraktionen. Diese Dimension ist nützlich, wenn Sie verstehen möchten, mit welchen dieser Interaktionen Besucherinnen und Besucher am meisten interagieren.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension wird durch [Linktracking-Aufrufe (`tl()`) ](/help/implement/vars/functions/tl-method.md). Es gibt keine dedizierte Variable zum Festlegen. Senden Sie stattdessen eine `tl()` Bildanforderung mit dem Argument des Typs „Link“ von `"o"` und legen Sie das Argument des Typs „Link-Name“ auf den gewünschten Wert fest. Die `pe` Abfragezeichenfolge leitet den Link-Namen an die richtige Link-Dimension weiter (`lnk_o` für [benutzerspezifische Links](custom-link.md), `lnk_d` für [Downloadlinks](download-link.md) und `lnk_e` für [Exitlinks](exit-link.md)). Wenn kein Link-Name angegeben wird, wird stattdessen die Link-URL als Dimensionswert verwendet, und von der URL abgeleitete Werte unterliegen nicht der Byte-Beschränkung.
+Diese Dimension wird durch [Linktracking-Aufrufe (`tl()`) &#x200B;](/help/implement/vars/functions/tl-method.md). Es gibt keine dedizierte Variable zum Festlegen. Senden Sie stattdessen eine `tl()` Bildanforderung mit dem Argument des Typs „Link“ von `"o"` und legen Sie das Argument des Typs „Link-Name“ auf den gewünschten Wert fest. Die `pe` Abfragezeichenfolge leitet den Link-Namen an die richtige Link-Dimension weiter (`lnk_o` für [benutzerspezifische Links](custom-link.md), `lnk_d` für [Downloadlinks](download-link.md) und `lnk_e` für [Exitlinks](exit-link.md)). Wenn kein Link-Name angegeben wird, wird stattdessen die Link-URL als Dimensionswert verwendet, und von der URL abgeleitete Werte unterliegen nicht der Byte-Beschränkung.
 
 ```js
 s.tl(true,"o","Example custom link");
