@@ -6,32 +6,48 @@ exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 TQID: https://experienceleague.adobe.com/dH1ItdXZTw9vcqvej3VOQDM-J9FFA38f4bq8HTJbKMo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 74%
-
+source-wordcount: '355'
+ht-degree: 63%
 ---
-
 # Treffertiefe
 
-Die Dimension „Treffertiefe[&#x200B; gibt an](overview.md) wie weit ein bestimmter Treffer in einen Besuch hineinreicht. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Treffertypen, einschließlich Seitenansichten ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Die Dimension „Treffertiefe[ gibt an](overview.md) wie weit ein bestimmter Treffer in einen Besuch hineinreicht. Diese Dimension ist hilfreich, um zu verstehen, wie weit innerhalb eines Besuchs die Besucher Aktionen auf Ihrer Site ausführen. Die Treffertiefe zählt alle Treffertypen, einschließlich Seitenansichten ([`t()`](/help/implement/vars/functions/t-method.md)) und Linktracking-Treffern ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ist bei allen Implementierungen vorkonfiguriert. Wenn eine Report Suite Daten enthält, funktioniert diese Dimension.
+Adobe berechnet diese Dimension Server-seitig aus der Sequenz der Treffer bei jedem Besuch. Es gibt keine Variable zum Festlegen. Dies ist bei allen Implementierungen vorkonfiguriert.
+
+| Eigenschaft | Wert |
+| --- | --- |
+| **AppMeasurement-Variable** | Keine (berechnet von Adobe) |
+| **Feld Web SDK/XDM** | Keine (berechnet von Adobe) |
+| **Abfrageparameter** | k. A. |
+| **XML-Tag** | k. A. |
+| **Byte-Grenze** | k. A. |
+| **Persistenz** | nicht angegeben |
 
 ## Dimensionselemente
 

@@ -7,24 +7,31 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # Legacy-Debugger
 
 >[!IMPORTANT]
@@ -94,9 +101,9 @@ Navigieren Sie zur gewünschten Seite auf Ihrer Website und klicken Sie dann auf
 
 Für den Debugger stehen verschiedene Optionen zur Verfügung, mit denen die Anzeige der Daten angepasst wird. Keine dieser Optionen wirkt sich auf die Datenerfassung aus.
 
-* **[!UICONTROL Angezeigte Experience Cloud-Produkte]**: Blendet Bildanforderungen für die jeweiligen CX Enterprise-Produkte ein oder aus.
+* **[!UICONTROL Angezeigte Experience Cloud-Produkte]**: Blendet Bildanforderungen für die einzelnen CX Enterprise-Produkte ein oder aus.
 * **[!UICONTROL URL-Decodierung]**: URL decodiert die Bildanforderung, sodass sie mit dem übereinstimmt, was im Bericht angezeigt wird. Adobe empfiehlt, dieses Kontrollkästchen zu aktivieren.
 * **[!UICONTROL Auto Refresh]**: aktualisiert das Popup-Fenster automatisch alle paar Sekunden, um auf weitere Bildanforderungen auf der Seite zu prüfen. Wenn Sie Inhalte im Debugger kopieren/einfügen müssen, deaktivieren Sie die automatische Aktualisierung, damit die Auswahl erhalten bleibt.
-* **[!UICONTROL Benutzerfreundliches Format]**: Schaltet das Anzeigeformat zwischen hilfreichen Beschriftungen und rohen Abfragezeichenfolgen in einer Bildanforderung um. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](query-parameters.md).
+* **[!UICONTROL Benutzerfreundliches Format]**: Schaltet das Anzeigeformat zwischen hilfreichen Beschriftungen und rohen Abfragezeichenfolgen in einer Bildanforderung um. Weitere Informationen finden Sie unter [Datenerfassungs-Abfrageparameter](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference).
 
 Um standardmäßige Anzeigeoptionen für den Debugger zu speichern, klicken Sie mit der rechten Maustaste auf den Link „Adobe Debugger“ in der oberen rechten Ecke und kopieren Sie dann die Linkadresse. Bearbeiten Sie das aktuelle Debugger-Lesezeichen und fügen Sie den aktualisierten Codeausschnitt in das Feld „URL“ ein.
