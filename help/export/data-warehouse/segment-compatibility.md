@@ -38,7 +38,7 @@ ht-degree: 9%
 ---
 # Data Warehouse-Segmentkompatibilität
 
-Nicht alle in Segment Builder erstellten Segmente können in Data Warehouse verwendet werden. Auf dieser Seite erfahren Sie, welche Segmentdefinitionen mit Data Warehouse kompatibel sind, sodass sie bei der Erstellung [ Data Warehouse-Anfrage ausgewählt werden ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Nicht alle in Segment Builder erstellten Segmente können in Data Warehouse verwendet werden. Auf dieser Seite erfahren Sie, welche Segmentdefinitionen mit Data Warehouse kompatibel sind, sodass sie bei der Erstellung [&#x200B; Data Warehouse-Anfrage ausgewählt werden &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Ein Segment ist nur dann mit Data Warehouse kompatibel **wenn** der folgenden Bedingungen erfüllt sind:
 
@@ -51,7 +51,7 @@ Wenn eine der Bedingungen nicht erfüllt ist, wird das Segment beim Erstellen ei
 
 Da ein Segment anhand derselben Daten ausgewertet wird wie die Anfrage, auf die es angewendet wird **wird (jede Komponente, die in einer Data Warehouse-Anfrage nicht unterstützt wird, wird auch in einem Segment nicht unterstützt.** Eine vollständige Liste der Dimensionen und Metriken, die Data Warehouse nicht unterstützt, finden Sie unter [Komponentenunterstützung in Data Warehouse](component-support.md).
 
-Zusätzlich zu den unter [Komponentenunterstützung](component-support.md) aufgelisteten Dimensionen und Metriken sind in einer Data Warehouse-Anfrage verfügbar ** können **jedoch nicht in einer Segmentdefinition verwendet werden**:
+Zusätzlich zu den unter [Komponentenunterstützung](component-support.md) aufgelisteten Dimensionen und Metriken sind in einer Data Warehouse-Anfrage verfügbar **&#x200B; können &#x200B;** jedoch nicht in einer Segmentdefinition verwendet werden**:
 
 * [[!UICONTROL Tag des Monats]](/help/components/dimensions/day-of-month.md)
 * [[!UICONTROL Wochentag]](/help/components/dimensions/day-of-week.md)

@@ -39,7 +39,7 @@ Adobe verwendet mehrere verschiedene Methoden zum [Identifizieren von Besuchern]
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den Besucher-ID-Dienst [](https://experienceleague.adobe.com/de/docs/id-service/using/home)Adobe.
+>Adobe empfiehlt, diese Variable nicht zu verwenden. Verwenden Sie stattdessen den Besucher-ID-Dienst [&#128279;](https://experienceleague.adobe.com/de/docs/id-service/using/home)Adobe.
 
 ## Verwendung von `visitorID` durch Analytics
 
@@ -80,4 +80,4 @@ s.visitorID = "abc123";
 
 ## Besucher-ID bei Verwendung der Web-SDK
 
-Mit Adobe Experience Platform Edge Network können Sie mehrere Kennungen mithilfe der XDM-Identitätszuordnung [Identity Map) ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Jede Identität in einer Identitätszuordnung hat einen anderen Namespace. Sie können angeben, welcher Namespace für die Besucher-ID als Teil der [Datenstromkonfiguration“ verwendet werden ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Nachdem dieses Feld konfiguriert wurde, wird es automatisch als Besucher-ID in Analytics verwendet, wenn Sie ein Ereignis senden, für das ein Wert für diesen Namespace angegeben ist.
+Mit Adobe Experience Platform Edge Network können Sie mehrere Kennungen mithilfe der XDM-Identitätszuordnung [Identity Map) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). Jede Identität in einer Identitätszuordnung hat einen anderen Namespace. Sie können angeben, welcher Namespace für die Besucher-ID als Teil der [Datenstromkonfiguration“ verwendet werden &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Nachdem dieses Feld konfiguriert wurde, wird es automatisch als Besucher-ID in Analytics verwendet, wenn Sie ein Ereignis senden, für das ein Wert für diesen Namespace angegeben ist.

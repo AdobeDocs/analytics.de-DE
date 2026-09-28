@@ -58,4 +58,4 @@ Zusätzlich zu den oben genannten Dimensionen erstellt Adobe automatisch die fol
 | [[!UICONTROL Videolänge]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Inhalt] |
 | [[!UICONTROL Videoname]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Inhalt] |
 
-Entsprechende Metriken finden [ unter ](../metrics/sm-core.md) von Streaming-Mediendiensten .
+Entsprechende Metriken finden [&#x200B; unter &#x200B;](../metrics/sm-core.md) von Streaming-Mediendiensten .

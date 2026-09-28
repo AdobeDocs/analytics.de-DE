@@ -54,4 +54,4 @@ Zusätzlich zur obigen Dimension erstellt Adobe automatisch die folgenden Klassi
 | [[!UICONTROL Kapitelversatz]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Kapitel] |
 | [[!UICONTROL Kapitelposition]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL Kapitel] |
 
-Die [ Metriken finden Sie ](../metrics/sm-chapters.md) Kapitel Metriken zu Streaming Mediendiensten .
+Die [&#x200B; Metriken finden Sie &#x200B;](../metrics/sm-chapters.md) Kapitel Metriken zu Streaming Mediendiensten .

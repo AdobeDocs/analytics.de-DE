@@ -45,7 +45,7 @@ Konfigurationsvariablen bestimmen darüber, wie Daten bei der Berichterstellung 
 
 Bei Implementierungen, die die Web SDK-Erweiterung oder Analytics-Erweiterung verwenden, befinden sich Konfigurationsvariablen normalerweise in den Einstellungen der Erweiterung:
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com/data-collection) [Adobe Experience Platform-Datenerfassung an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com/data-collection) Adobe Experience Platform-Datenerfassung an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Klicken Sie auf [!UICONTROL Erweiterungen] und dann unter der Erweiterung auf [!UICONTROL Konfigurieren].
 

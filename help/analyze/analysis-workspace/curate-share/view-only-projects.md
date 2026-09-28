@@ -38,7 +38,7 @@ ht-degree: 52%
 ---
 # Schreibgeschützte Projekte
 
-Sie können Projekte über die Funktion [Freigeben“ schreibgeschützt für Empfänger ](share-projects.md). Empfänger mit der Rolle **[!UICONTROL Schreibgeschützt]** erhalten ein eingeschränkteres Projekterlebnis.
+Sie können Projekte über die Funktion [Freigeben“ schreibgeschützt für Empfänger &#x200B;](share-projects.md). Empfänger mit der Rolle **[!UICONTROL Schreibgeschützt]** erhalten ein eingeschränkteres Projekterlebnis.
 
 Dies kann wünschenswert sein, wenn Sie ein Projekt für Benutzende freigeben, die mit der Datenstruktur Ihres Unternehmens, Analysis Workspace oder Adobe Analytics im Allgemeinen weniger vertraut sind, aber dennoch Daten und Einblicke in einer sicheren Umgebung einsehen sollen.
 
@@ -53,7 +53,7 @@ Die Interaktionen für schreibgeschützte Empfänger sind begrenzt.
 Zu den deaktivierten Interaktionen in einem schreibgeschützten Projekt gehören:
 
 * Ausgeblendeter linker Bereich
-* Datumsbereich des Panel-Kalenders. Hinweis: Wenn Sie Empfängern die Kalenderkontrolle gewähren möchten, fügen Sie ein [Dropdown-Segment mit Datumsbereichen“ ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de).
+* Datumsbereich des Panel-Kalenders. Hinweis: Wenn Sie Empfängern die Kalenderkontrolle gewähren möchten, fügen Sie ein [Dropdown-Segment mit Datumsbereichen“ &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=de).
 * Freiformsegmentierung
 * Freiform – Anzahl der sichtbaren Zeilen
 * Freiformzeilen-, Spalten- oder Visualisierungseinstellungen

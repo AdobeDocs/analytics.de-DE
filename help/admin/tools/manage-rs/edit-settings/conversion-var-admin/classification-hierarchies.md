@@ -38,7 +38,7 @@ Auf der Seite „Classification-Hierarchien“ können Sie Classification-Hierar
 
 ## Klassifizierungshierarchien {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
-Auf [!UICONTROL  Seite „Klassifizierungshierarchien] können Sie Klassifizierungshierarchien definieren, mit denen Sie [!UICONTROL Hierarchie]-Berichte mit demselben Namen erstellen können.
+Auf [!UICONTROL &#x200B; Seite „Klassifizierungshierarchien] können Sie Klassifizierungshierarchien definieren, mit denen Sie [!UICONTROL Hierarchie]-Berichte mit demselben Namen erstellen können.
 
 Mit [!UICONTROL Hierarchie]-Bericht können Sie basierend auf der Klassifizierungshierarchie zunehmend verfeinerte Datensätze aufschlüsseln, sodass Sie Datenbeziehungen leichter anzeigen können.
 

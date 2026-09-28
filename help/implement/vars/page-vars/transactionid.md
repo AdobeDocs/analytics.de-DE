@@ -35,7 +35,7 @@ ht-degree: 79%
 ---
 # transactionID
 
-Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer Dimensionswerte für Daten bereitstellen kann, die über [Transaktions-ID-Datenquellen“ hochgeladen ](/help/import/data-sources/transactionid.md). Diese Variable ist nützlich, wenn Sie Offline-Kanaldaten mit Werten ausfüllen möchten, die aus Online-Kanaldaten erfasst wurden.
+Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer Dimensionswerte für Daten bereitstellen kann, die über [Transaktions-ID-Datenquellen“ hochgeladen &#x200B;](/help/import/data-sources/transactionid.md). Diese Variable ist nützlich, wenn Sie Offline-Kanaldaten mit Werten ausfüllen möchten, die aus Online-Kanaldaten erfasst wurden.
 
 >[!NOTE]
 >

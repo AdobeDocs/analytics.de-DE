@@ -80,7 +80,7 @@ Für die Datenerfassung in Activity Map ist die **[!UICONTROL Adobe Experience P
 
 Die Konfigurationseinstellung **[!UICONTROL Klickdatenerfassung]** verarbeitet die Activity Map-Datenerfassung und ist in der Regel standardmäßig aktiviert. Sie können überprüfen, ob sie in den Konfigurationseinstellungen der Erweiterung aktiviert ist:
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com)[Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
 1. Wählen Sie **[!UICONTROL Datenerfassung]** im Schnellzugriffsmenü oder über die Produktauswahl oben rechts aus.
 1. Wählen Sie im linken Navigationsmenü **[!UICONTROL Tags]** aus.
 1. Wählen Sie das gewünschte Tag aus, das Sie bearbeiten möchten.
@@ -114,7 +114,7 @@ alloy("configure", {
 
 Die Konfigurationseinstellung **[!UICONTROL Activity Map verwenden]** verarbeitet die Activity Map-Datenerfassung und ist in der Regel standardmäßig aktiviert. Sie ist für alle Tag-Erweiterungen der Version 1.9.0 oder höher verfügbar. Sie können überprüfen, ob sie in den Konfigurationseinstellungen der Erweiterung aktiviert ist:
 
-1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei ](https://experience.adobe.com)[Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
 1. Wählen Sie **[!UICONTROL Datenerfassung]** im Schnellzugriffsmenü oder über die Produktauswahl oben rechts aus.
 1. Wählen Sie im linken Navigationsmenü **[!UICONTROL Tags]** aus.
 1. Wählen Sie das gewünschte Tag aus, das Sie bearbeiten möchten.

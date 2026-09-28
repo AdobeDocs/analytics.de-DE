@@ -30,7 +30,7 @@ ht-degree: 2%
 ---
 # Erstellen und Bearbeiten von Klassifizierungssätzen
 
-Über [ Manager für Klassifizierungssätze ](#create-a-classification-set) Sie ](#edit-a-classification-set) Klassifizierungssätze erstellen und [ bearbeiten.
+Über [&#x200B; Manager für Klassifizierungssätze &#x200B;](#create-a-classification-set) Sie [&#128279;](#edit-a-classification-set) Klassifizierungssätze erstellen und  bearbeiten.
 
 ## Erstellen eines Klassifizierungssatzes
 
@@ -75,5 +75,5 @@ So bearbeiten Sie einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen Sie den Namen Ihres Klassifizierungssatzes aus.
-1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatzname_]**können Sie die [Einstellungen](manage/settings.md) und das [Schema](manage/schema.md) für den Klassifizierungssatz definieren.
+1. Im Dialogfeld **[!UICONTROL Klassifizierungssatz: _Klassifizierungssatzname_]**&#x200B;können Sie die [Einstellungen](manage/settings.md) und das [Schema](manage/schema.md) für den Klassifizierungssatz definieren.
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.

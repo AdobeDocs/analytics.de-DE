@@ -49,4 +49,4 @@ Adobe Mobile SDK (Version 4.13.6 und höher) legt `customerPerspective` automati
 Die Unterscheidung zwischen Vordergrund und Hintergrund wirkt sich auf die Verarbeitung von Besuchen aus:
 
 * Besuche werden nur gezählt, wenn sie mindestens einen Vordergrundtreffer enthalten.
-* Hintergrundtreffer können nach wie vor Konversionsereignissen zugeordnet und über [ kontextbezogene Sitzungen in Virtual Report ](/help/components/vrs/vrs-mobile-visit-processing.md) analysiert werden. Dieses Verhalten ist nützlich, wenn Sie die Effektivität von Push-Benachrichtigungen messen.
+* Hintergrundtreffer können nach wie vor Konversionsereignissen zugeordnet und über [&#x200B; kontextbezogene Sitzungen in Virtual Report &#x200B;](/help/components/vrs/vrs-mobile-visit-processing.md) analysiert werden. Dieses Verhalten ist nützlich, wenn Sie die Effektivität von Push-Benachrichtigungen messen.

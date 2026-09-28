@@ -64,4 +64,4 @@ Die folgenden Dimensionen wurden eingestellt. Bei den meisten handelte es sich u
 * **Zeitzone**: Die Zeitzone des Besuchers, abgeleitet vom Zeitstempelversatz in AppMeasurement-Bildanforderungen. Web SDK erfasst die Zeitzone mithilfe von [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Domain auf oberster Ebene**: Die Domain auf oberster Ebene des Zugriffspunkts des Besuchers. Ein veralteter Reports &amp; Analytics-Bericht; verwenden Sie stattdessen die Dimension [Domain](domain.md) .
 * **Besuchsnummer**: Die Seitennummer innerhalb eines Besuchs. Ein alter Reports &amp; Analytics-Bericht; verwenden Sie stattdessen die Dimension [Treffertiefe](hit-depth.md) .
-* **Besucherstatus**: Gibt den US-Bundesstaat aus der `s.state`-Variablen an. Sie wird zugunsten der Dimension [US-Bundesstaaten“ ](us-states.md), die Geosegmentierung verwendet.
+* **Besucherstatus**: Gibt den US-Bundesstaat aus der `s.state`-Variablen an. Sie wird zugunsten der Dimension [US-Bundesstaaten“ &#x200B;](us-states.md), die Geosegmentierung verwendet.

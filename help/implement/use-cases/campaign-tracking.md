@@ -81,7 +81,7 @@ Wenn Ihr Unternehmen `utm`-Abfragezeichenfolgen erfasst, können Sie zwischen fo
 
 Nachdem Sie Ihre Implementierung zur Erfassung von Trackingcode-Daten ordnungsgemäß eingerichtet haben, können Sie Berichte in Analysis Workspace anzeigen.
 
-1. Melden Sie sich bei der [Adobe CX Enterprise an ](https://experience.adobe.com) wählen Sie [!UICONTROL Adobe Analytics] aus.
+1. Melden Sie sich bei der [Adobe CX Enterprise an &#x200B;](https://experience.adobe.com) wählen Sie [!UICONTROL Adobe Analytics] aus.
 1. Erstellen Sie ein [Workspace-Projekt](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. Ziehen Sie in der Liste der Komponenten auf der linken Seite die [Trackingcode](/help/components/dimensions/tracking-code.md)-Dimension in die Arbeitsfläche.
 1. Ziehen Sie die gewünschte Metrik, beispielsweise [Besuche](/help/components/metrics/visits.md) oder [Bestellungen](/help/components/metrics/orders.md), rechts neben die Arbeitsfläche.

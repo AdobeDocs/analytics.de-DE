@@ -136,7 +136,7 @@ Auf dieser Seite werden die Regeln in einem Regelsatz angezeigt.
 
 ## Seite Regulärer Ausdruck {#section_C932A5469E774841B2229965A154163C}
 
-Sie können reguläre Ausdrücke auf der Seite &quot;[!UICONTROL &quot; ].
+Sie können reguläre Ausdrücke auf der Seite &quot;[!UICONTROL &quot; &#x200B;].
 
 ![](assets/regex_tracking_code.png)
 

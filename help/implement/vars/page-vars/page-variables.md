@@ -53,4 +53,4 @@ Die folgende Liste enthält die häufig in Implementierungen verwendeten Variabl
 Die folgenden Seitenvariablen werden eingestellt. Sie werden hier als Referenz dokumentiert, wenn Sie sie in einer Legacy-Implementierung feststellen.
 
 * **`hier`**: Hierarchievariablen implementiert (`hier1`-`hier5`), um die Struktur einer Site für das Reporting zu erfassen. Sie ist veraltet und keine verfügbare Dimension mehr in Analysis Workspace. Verwenden Sie stattdessen [eVars](evar.md) und Klassifizierungen.
-* **`state`**: Erfasst den US-Bundesstaat, in den ein Besucher eingetreten ist, normalerweise über ein Versand- oder Rechnungsformular. Verwenden Sie stattdessen [[!UICONTROL  Dimension ]](/help/components/dimensions/us-states.md)US-Bundesstaaten“, mit der Adobe automatisch vom geografischen Standort des Besuchers ausfüllt.
+* **`state`**: Erfasst den US-Bundesstaat, in den ein Besucher eingetreten ist, normalerweise über ein Versand- oder Rechnungsformular. Verwenden Sie stattdessen [[!UICONTROL &#x200B; Dimension &#x200B;]](/help/components/dimensions/us-states.md)US-Bundesstaaten“, mit der Adobe automatisch vom geografischen Standort des Besuchers ausfüllt.

@@ -46,8 +46,8 @@ In der ➊ Datumsbereiche werden alle Datumsbereiche angezeigt. Die Liste umfass
 
 | Spalte | Beschreibung |
 | --- | --- |
-| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![ um einen Datumsbereich ](/help/assets/icons/Star.svg)Star“ oder ![StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen. |
-| **[!UICONTROL Titel und Beschreibung]** | Um den Titel und die Beschreibung zu bearbeiten, klicken Sie auf den Titel-Link, der den [Generator für Datumsbereiche“ ](create.md#date-range-builder). |
+| ![UnausgefüllterStern](/help/assets/icons/StarOutline.svg) | Wählen Sie aus![&#x200B; um einen Datumsbereich &#x200B;](/help/assets/icons/Star.svg)Star“ oder ![StarOutline](/help/assets/icons/StarOutline.svg) zu bevorzugen. |
+| **[!UICONTROL Titel und Beschreibung]** | Um den Titel und die Beschreibung zu bearbeiten, klicken Sie auf den Titel-Link, der den [Generator für Datumsbereiche“ &#x200B;](create.md#date-range-builder). |
 | **[!UICONTROL Inhabende]** | Der Inhaber des Datumsbereichs. |
 | **[!UICONTROL Tags]** | Die Tags für diesen Datumsbereich. |
 | **[!UICONTROL Freigegeben für]** | Die Einzelpersonen oder Gruppen, für die Sie den Datumsbereich freigegeben haben. Wählen Sie aus, um das Dialogfeld **[!UICONTROL Datumsbereich freigeben]** zu öffnen. |
@@ -63,7 +63,7 @@ Sie können Aktionen für Datumsbereiche mithilfe der Aktionsleiste ➋. Die Akt
 
 | Symbol | Aktion | Beschreibung |
 |:---:|---|---|
-| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie mithilfe des Datumsbereichserstellers [ weiteren ](create.md#date-range-builder) hinzu. |
+| ![Hinzufügen](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Hinzufügen]** | Fügen Sie mithilfe des Datumsbereichserstellers [&#x200B; weiteren &#x200B;](create.md#date-range-builder) hinzu. |
 | ![Durchsuchen](/help/assets/icons/Search.svg) | [!UICONTROL *Nach Titel suchen*] | Wenn kein Datumsbereich in der Liste ausgewählt ist, suchen Sie mithilfe dieses Suchfelds nach Datumsbereichen. |
 | ![Beschriftung](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Markieren Sie die ausgewählten Datumsbereiche. Wählen Sie im **[!UICONTROL Datumsbereich des Tags]** die Tags für die ausgewählten Datumsbereiche aus bzw. heben Sie die Auswahl auf. Klicken Sie **[!UICONTROL Speichern]**, um die Tags für die ausgewählten Datumsbereiche zu speichern. |
 | ![Freigeben](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Freigeben]** | Freigeben der ausgewählten Datumsbereiche. Im Dialogfeld **[!UICONTROL Datumsbereich freigeben]** können Sie ![Suchen](/help/assets/icons/Search.svg)*Einzelpersonen oder Gruppen suchen* oder **[!UICONTROL Organisation]** oder **[!UICONTROL Gruppen]**. Wählen Sie **[!UICONTROL Speichern]**, um Freigabedetails für die ausgewählten Datumsbereiche zu speichern. |
@@ -79,7 +79,7 @@ Die Filterleiste zeigt ➌ die aktiven Filter an (falls vorhanden). Mit ![XGrö�
 
 ### Panel „Filter“
 
-Sie können Datumsbereiche mithilfe der ➍ des ]**Bedienfelds**[!UICONTROL  Filter filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Datumsbereiche an, die den Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
+Sie können Datumsbereiche mithilfe der ➍ des **Bedienfelds** Filter filtern. Das Bedienfeld „Filter“ zeigt den Filtertyp und die Anzahl der Datumsbereiche an, die den Filter berücksichtigen. Wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus, um die Anzeige des Bedienfelds „Filter“ umzuschalten.
 
 So filtern Sie die Filterliste:
 
@@ -88,7 +88,7 @@ So filtern Sie die Filterliste:
 
    >[!INFO]
    >
-   >*Elemente* beziehen sich auf die Datumsbereichselemente, die in der [Datumsbereichsliste“ angezeigt ](#date-ranges-list).
+   >*Elemente* beziehen sich auf die Datumsbereichselemente, die in der [Datumsbereichsliste“ angezeigt &#x200B;](#date-ranges-list).
    > 
 
 #### Filterabschnitte
@@ -107,7 +107,7 @@ Sie können einen Datumsbereich auf zwei Arten bearbeiten:
 
 * Verwenden Sie in einem Workspace-Projekt das Symbol [Komponenteninformationen](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) aus.
 
-* Wählen Sie in [[!UICONTROL  Liste ]Datumsbereiche](#date-ranges-list) den Titel des Datumsbereichs aus.
+* Wählen Sie in [[!UICONTROL &#x200B; Liste &#x200B;]Datumsbereiche](#date-ranges-list) den Titel des Datumsbereichs aus.
 
 Sie verwenden den [Generator für Datumsbereiche](create.md#date-range-builder), um den Datumsbereich zu bearbeiten.
 
