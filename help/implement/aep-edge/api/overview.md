@@ -7,30 +7,41 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/lvnplKx6dPwmmbZWgSShGvZXD2TtUoigi-HNiKutZSg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b3e5f43e-2e2f-43c0-810a-044a5f91e31a
+    internal-label: Experience Platform Edge integration
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 43%
-
 ---
-
 # Implementieren von Adobe Analytics mit der Adobe Experience Platform Edge Network-API
 
 Normalerweise verwenden Sie die Experience Platform Edge Network-API , um Daten Server-seitig und nicht Client-seitig zu erfassen, und wenn Sie Daten von Geräten wie IoT-Geräten, Set-Top-Boxen und Desktop-Programmen erfassen. Dann senden Sie diese Daten an das Edge-Netzwerk und an Services wie Adobe Analytics.
 
-Erwägen Sie auch die Edge Network-API, wenn vertrauliche Daten sicher erfasst und über das Netzwerk authentifiziert werden sollen. Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)Authentifizierung“.
+Erwägen Sie auch die Edge Network-API, wenn vertrauliche Daten sicher erfasst und über das Netzwerk authentifiziert werden sollen. Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)Authentifizierung“.
 
 Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
@@ -63,7 +74,7 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 <tr>
 <td>4</td>
 <td><b>Implementieren und testen Sie </b> Datenerfassung mithilfe der APIs für die Erfassung von Einzelereignisdaten und die Batch-Ereignisdatenerfassung.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung für Einzelereignisse</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=de">Batch-Ereignisdatenerfassung</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de">Datenerfassung für Einzelereignisse</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Batch-Ereignisdatenerfassung</a>
 </tr>
 
 <td>5</td>
@@ -74,5 +85,5 @@ Ein allgemeiner Überblick über die Implementierungsaufgaben:
 
 </table>
 
-Weitere Informationen finden Sie in der Dokumentation [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) Edge Network-APIs.
+Weitere Informationen finden Sie in der Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de) Edge Network-APIs.[
 

@@ -3,27 +3,37 @@ title: Dimensionen für Audio-Metadaten von Streaming-Mediendiensten
 description: Verfügbare Dimensionen, wenn Sie [!UICONTROL Audio-Metadaten] für eine Report Suite aktivieren.
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
-TQID: https://experienceleague.adobe.com/DcCpObIU6RCnFgbBKEp4CyrXmfW-hmdAeH6sO8cLZdg
+TQID: 'https://experienceleague.adobe.com/DcCpObIU6RCnFgbBKEp4CyrXmfW-hmdAeH6sO8cLZdg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: '144'
 ht-degree: 1%
-
 ---
-
 # Dimensionen für Audio-Metadaten von Streaming-Mediendiensten
 
 Metadatendimensionen von Streaming-Mediendiensten bieten zusätzliche Berichtsfunktionen für Daten, die über Streaming-Mediensammlungsbibliotheken erfasst werden. Für diese Dimensionen ist das **[!UICONTROL Add-on Adobe Analytics for Streaming Media]** erforderlich. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
@@ -32,9 +42,9 @@ Um diese Dimensionen zu verwenden, aktivieren Sie **[!UICONTROL Audio-]**) unter
 
 Die folgenden Dimensionen sind verfügbar:
 
-* [[!UICONTROL Album]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL Künstler]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/artist)
-* [[!UICONTROL author]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/author)
-* [[!UICONTROL Beschriftung]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/label)
-* [[!UICONTROL Veröffentlicher]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/publisher)
-* [[!UICONTROL Station]](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/station)
+* [[!UICONTROL Album]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL Künstler]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL author]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL Beschriftung]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL Veröffentlicher]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL Station]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)

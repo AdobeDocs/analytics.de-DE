@@ -7,27 +7,35 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/vpopS2WlO27GSPIGw5sn-Zm-X7UsGq5P-My-n9tGmG0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '410'
 ht-degree: 79%
-
 ---
-
 # transactionID
 
-Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer Dimensionswerte für Daten bereitstellen kann, die über [Transaktions-ID-Datenquellen“ hochgeladen &#x200B;](/help/import/data-sources/transactionid.md). Diese Variable ist nützlich, wenn Sie Offline-Kanaldaten mit Werten ausfüllen möchten, die aus Online-Kanaldaten erfasst wurden.
+Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass der Treffer Dimensionswerte für Daten bereitstellen kann, die über [Transaktions-ID-Datenquellen“ hochgeladen ](/help/import/data-sources/transactionid.md). Diese Variable ist nützlich, wenn Sie Offline-Kanaldaten mit Werten ausfüllen möchten, die aus Online-Kanaldaten erfasst wurden.
 
 >[!NOTE]
 >
@@ -35,14 +43,14 @@ Die Variable `transactionID` identifiziert eine Transaktion eindeutig, sodass de
 
 Wenn Sie `transactionID` für einen Treffer festlegen, erstellt Adobe einen „Schnappschuss“ aller zu diesem Zeitpunkt festgelegten oder beibehaltenen Analytics-Variablen. Siehe [Transaktions-ID-Datenquellen](/help/import/data-sources/transactionid.md) für die Liste der im Snapshot enthaltenen Dimensionen. Adobe speichert alle Transaktions-ID-Werte (verknüpft und nicht verknüpft) für bis zu 25 Monate.
 
-## Transaktions-ID unter Verwendung des Web SDK
+## Transaktions-ID mit dem Web SDK
 
 Die Transaktions-ID ist den folgenden Variablen zugeordnet:
 
 * [XDM-Objekt](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID` oder `xdm.commerce.order.payments.transactionID`
 * [Datenobjekt](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` oder `data.__adobe.analytics.xact`
 
-## Transaktions-ID unter Verwendung der Adobe Analytics-Erweiterung
+## Transaktions-ID mit der Adobe Analytics-Erweiterung
 
 Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
@@ -53,9 +61,9 @@ Sie können die Transaktions-ID entweder beim Konfigurieren der Analytics-Erweit
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und legen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Transaktions-ID].
 
-Sie können die Transaktions-ID auf einen beliebigen Zeichenfolgenwert einstellen, einschließlich Datenelementen.
+Sie können die Transaktions-ID auf eine beliebige Zeichenfolge festlegen, einschließlich Datenelementen.
 
-## s.transactionID in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
+## s.transactionID in AppMeasurement und im Editor für benutzerdefinierten Code der Analytics-Erweiterung
 
 Die `s.transactionID`-Variable ist eine Zeichenfolge, die eine eindeutige Kennung für eine Transaktion enthält. Gültige Werte sind alphanumerische Zeichen bis zu 100 Byte. Der Standardwert ist eine leere Zeichenfolge.
 
@@ -71,4 +79,4 @@ s.transactionID = "ABC123,XYZ456";
 
 >[!TIP]
 >
->Wenn Sie mit dieser Variablen mehrere Offline-Kanäle integrieren, stellen Sie sicher, dass sich die Transaktions-IDs nicht in verschiedenen Kanälen überschneiden. Wenn Sie beispielsweise eine Call-Center-Transaktions-ID mit dem Wert `1234` und eine Verkaufs-Lead-Transaktions-ID mit dem Wert `1234` haben, können sie miteinander in Konflikt geraten und unerwartete Ergebnisse verursachen. Stellen Sie sicher, dass Transaktions-IDs eindeutige Formate pro Offline-Kanal enthalten, und unterscheiden Sie diese bei Bedarf. Setzen Sie z. B. Ihre Call-Center-Transaktions-ID `call_1234` und Ihre Verkaufs-Lead-Transaktions-ID `lead_1234` sowohl in Data Sources als auch in AppMeasurement.
+>Wenn Sie mit dieser Variablen mehrere Offline-Kanäle integrieren, stellen Sie sicher, dass sich die Transaktions-IDs der einzelnen Kanäle nicht überschneiden. Wenn Sie beispielsweise eine Call-Center-Transaktions-ID mit dem Wert `1234` und eine Verkaufs-Lead-Transaktions-ID mit dem Wert `1234` haben, können sie miteinander in Konflikt geraten und unerwartete Ergebnisse verursachen. Stellen Sie sicher, dass Transaktions-IDs eindeutige Formate pro Offline-Kanal enthalten, und unterscheiden Sie diese bei Bedarf. Setzen Sie z. B. Ihre Call-Center-Transaktions-ID `call_1234` und Ihre Verkaufs-Lead-Transaktions-ID `lead_1234` sowohl in Data Sources als auch in AppMeasurement.

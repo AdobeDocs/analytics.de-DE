@@ -1,25 +1,31 @@
 ---
 title: Geräteübergreifende Analyse einrichten
-description: Konfigurieren Sie eine Virtual Report Suite, um die geräteübergreifende Analyse (CDA) zu aktivieren.
+description: Konfigurieren Sie eine Virtual Report Suite, um die CDA zu aktivieren.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
+TQID: 'https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 82%
-
 ---
-
 # Geräteübergreifende Analyse einrichten
 
 {{available-existing-customers}}
@@ -28,40 +34,40 @@ Wenn alle Voraussetzungen erfüllt sind, aktivieren Sie die geräteübergreifend
 
 >[!IMPORTANT]
 >
->Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Informationen [&#x200B; Voraussetzungen und Einschränkungen finden Sie &#x200B;](overview.md) der Seite „Übersicht[&#x200B; und der gewünschten &#x200B;](field-based-stitching.md) (Feldbasiertes Stitching) .
+>Alle Voraussetzungen müssen erfüllt sein, bevor Sie diese Schritte durchführen. Wenn nicht alle Voraussetzungen erfüllt sind, ist die Funktion nicht verfügbar oder sie funktioniert nicht. Informationen [ Voraussetzungen und Einschränkungen finden Sie ](overview.md) der Seite „Übersicht[ und der gewünschten ](field-based-stitching.md) (Feldbasiertes Stitching) .
 
 ## &#x200B;1. Ticket bei der Kundenunterstützung öffnen, um die geräteübergreifende Report Suite mit geräteübergreifender Analyse zu versorgen
 
-CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering bereitgestellt. Wenden Sie sich zunächst an die Kundenunterstützung und stellen Sie folgende Informationen bereit:
+CDA wird für Ihre geräteübergreifende Report Suite durch Adobe Engineering bereitgestellt. Um diesen Prozess zu starten, wenden Sie sich an die Kundenunterstützung und halten Sie die folgenden Informationen bereit:
 
 * Ihre IMS-Organisations-ID (eine alphanumerische Zeichenfolge, die mit @AdobeOrg endet)
 * Die Report Suite-ID für die geräteübergreifende Report Suite, die mit CDA zu aktivieren ist
 * Welche CDA-Methode Sie verwenden möchten (feldbasiertes Stitching)
-* Wenn Sie die feldbasierte Zuordnung nutzen möchten, verwenden Sie die Prop oder die eVar, die die Benutzer-ID enthält
+* Wenn Sie die feldbasierte Zuordnung nutzen möchten, geben Sie die Prop oder die eVar an, die die Benutzer-ID enthält.
 * Ihre Voreinstellung für die Häufigkeit der Wiederholungen und die Lookback-Länge. Zu den verfügbaren Optionen gehören eine Wiederholung pro Woche mit einem 7-tägigen Lookback-Fenster oder eine tägliche Wiederholung mit einem 1-tägigen Lookback-Fenster.
 Die Standardeinstellung ist eine wöchentliche Wiederholung mit einem 7-tägigen Lookback-Fenster. In diesem Fall können sich die Daten der letzten Woche ändern (da sie nach und nach zugeordnet und aktualisiert werden).
 
-Sobald Sie der Kundenunterstützung diese Informationen zur Verfügung gestellt haben, kann diese mit Adobe Engineering zusammenarbeiten, um Ihre ausgewählte Report Suite für die geräteübergreifende Analyse zu aktivieren.
+Sobald Sie die Kundenunterstützung diese Informationen zur Verfügung gestellt haben, arbeitet dieses Team mit Adobe Engineering zusammen, um Ihre ausgewählte Report Suite für die CDA-Verarbeitung zu aktivieren.
 
 ## &#x200B;2. Erstellen einer geräteübergreifenden Virtual Report Suite , um die geräteübergreifende Ansicht anzuzeigen
 
-Administratoren mit Zugriff auf Virtual Report Suites können Virtual Report Suites für die geräteübergreifende Analyse wie folgt erstellen:
+Admins mit Zugriff auf Virtual Report Suites können CDA Virtual Report Suites wie folgt erstellen:
 
 1. Navigieren Sie zu [experiencecloud.adobe.com](https://experiencecloud.adobe.com) und melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie oben auf das 9-Raster-Symbol und dann auf Analytics.
 3. Bewegen Sie den Mauszeiger **[!UICONTROL Komponenten]** oben und klicken Sie dann auf **[!UICONTROL Virtual Report Suites]**.
 4. Klicken Sie auf Hinzufügen.
 5. Geben Sie einen Namen für Ihre Virtual Report Suite ein und stellen Sie sicher, dass die für die geräteübergreifende Analyse aktivierte Report Suite ausgewählt ist.
-6. (Optional) Wenden Sie ein Segment auf die Virtual Report Suite an. Sie können beispielsweise ein Segment anwenden, das die Virtual Report Suite auf Daten beschränkt, die nach dem Datum liegen, an dem die geräteübergreifende Analyse aktiviert wurde und die Suche begonnen hat. Mit diesem Segment können Benutzende nur zugeordnete Datumsbereiche innerhalb der Virtual Report Suite sehen.
-7. Aktivieren Sie das Kontrollkästchen „Berichtszeitverarbeitung aktivieren“, wodurch mehrere weitere Optionen, einschließlich der geräteübergreifenden Analyse, aktiviert werden.
+6. (Optional) Wenden Sie ein Segment auf die Virtual Report Suite an. Sie können beispielsweise ein Segment anwenden, das die Virtual Report Suite auf Daten beschränkt, die nach dem Zeitpunkt liegen, an dem CDA aktiviert wurde und die Zuordnung begonnen hat. Mit diesem Segment können Benutzende nur zugeordnete Datumsbereiche innerhalb der Virtual Report Suite sehen.
+7. Aktivieren Sie das Kontrollkästchen „Berichtszeitverarbeitung aktivieren“, wodurch mehrere weitere Optionen, einschließlich geräteübergreifende Analyse, aktiviert werden.
 8. Aktivieren Sie das Kontrollkästchen „Besuche von Benutzern geräteübergreifend zuordnen“.
-9. Klicken Sie auf „Weiter“, konfigurieren Sie die Virtual Report Suite und klicken Sie dann auf „Speichern“.
+9. Klicken Sie auf „Weiter“, schließen Sie die Konfiguration der Virtual Report Suite ab und klicken Sie dann auf „Speichern“.
 
 ![Kontrollkästchen „Geräteübergreifende Analyse“](assets/cda-checkbox.png)
 
-## Hinzufügungen und Änderungen an geräteübergreifenden Virtual Report Suites
+## Ergänzungen und Änderungen an geräteübergreifenden Virtual Report Suites
 
-Wenn die geräteübergreifende Analyse für eine Virtual Report Suite aktiviert ist, beachten Sie die folgenden Änderungen:
+Wenn geräteübergreifende Analyse für eine Virtual Report Suite aktiviert ist, beachten Sie die folgenden Änderungen:
 
 * Neben dem Namen der Virtual Report Suite wird ein neues geräteübergreifendes Symbol angezeigt. Dieses Symbol ist ausschließlich für geräteübergreifende Virtual Report Suites vorgesehen.
 * Eine neue Dimension mit der Bezeichnung [Identifizierter Status](../dimensions/identified-state.md) ist verfügbar.

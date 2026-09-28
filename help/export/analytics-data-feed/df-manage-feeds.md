@@ -6,19 +6,23 @@ exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1329
+source-wordcount: '1329'
 ht-degree: 22%
-
 ---
-
 # Verwalten von Daten-Feeds {#manage-data-feeds}
 
 Mit dem Daten-Feed-Manager können Sie Daten-Feeds für Ihr Unternehmen erstellen, bearbeiten und abbrechen. Wenn Sie berechtigt sind, auf den Daten-Feed-Manager zuzugreifen, können Sie Daten-Feeds für alle Report Suites verwalten, die für Sie sichtbar sind.
@@ -52,7 +56,7 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Daten-Feed-](h
 
 ## Erstellen eines Daten-Feeds
 
-Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](create-feed.md) Daten-Feeds“.
+Mit **[!UICONTROL Schaltfläche „Daten-Feed]**&quot; können Sie einen neuen Feed erstellen. Weitere [ finden Sie unter „Erstellen ](create-feed.md) Daten-Feeds“.
 
 ## Bearbeiten eines Daten-Feeds
 
@@ -162,7 +166,7 @@ Spaltenüberschrift auswählen, um sie in aufsteigender Reihenfolge zu sortieren
 
 So passen Sie die sichtbaren Spalten in der Tabelle an:
 
-1. Wählen Sie oben ![&#x200B; das Spaltensymbol &#x200B;](assets/customize-columns-icon.png)Spaltensymbol) aus.
+1. Wählen Sie oben ![ das Spaltensymbol ](assets/customize-columns-icon.png)Spaltensymbol) aus.
 
 1. Wählen Sie im Dialogfeld Tabelle anpassen jede Spalte aus, die Sie anzeigen möchten, und heben Sie die Auswahl für jede Spalte auf, die Sie ausblenden möchten.
 
@@ -182,7 +186,7 @@ So passen Sie die sichtbaren Spalten in der Tabelle an:
      * Abgebrochen: Der Feed wurde abgebrochen.
      * Abgeschlossen: Die Verarbeitung des Feeds wurde abgeschlossen. Ein abgeschlossener Feed kann bearbeitet, zurückgestellt oder abgebrochen werden.
      * Ausstehend: Der Feed wurde erstellt, ist aber noch nicht aktiv. Feeds bleiben für eine kurze Übergangszeit in diesem Zustand.
-     * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [&#x200B; unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
+     * Inaktiv: Entspricht einem Status „angehalten“. Weitere Informationen dazu, was mit Aufstockungs-Feeds und Live-Feeds passiert, wenn ein inaktiver Feed erneut aktiviert wird, finden [ unter „Aktivieren eines Daten-Feeds](#activate-a-data-feed).
    * **Zuletzt geändert**: Das Datum, an dem der Feed zuletzt geändert wurde. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Startdatum**: Das Datum des ersten Auftrags für diesen Feed. Datum und Uhrzeit werden in der Zeitzone der Report Suite mit GMT-Offset angezeigt.
    * **Enddatum**: Das Datum des letzten Auftrags für diesen Feed. Laufende Daten-Feeds haben kein Enddatum.

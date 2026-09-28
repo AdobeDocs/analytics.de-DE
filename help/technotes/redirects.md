@@ -4,25 +4,35 @@ keywords: Analytics-Implementierung
 title: Umleitungen und Aliase
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+TQID: 'https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 68%
-
 ---
-
 # Umleitungen und Aliase
 
 Leitet den Browser an einen neuen Speicherort ohne Benutzerinteraktion weiter. Sie werden entweder im Webbrowser (Client-seitige Weiterleitung) oder auf dem Webserver (Server-seitige Weiterleitung) ausgeführt.
@@ -41,7 +51,7 @@ Es gibt zwar nur zwei Arten von Umleitungen, sie können jedoch auf verschiedene
 
 ## Beispiel: Browsen ohne Umleitungen {#browse-without}
 
-Betrachten wir das folgende hypothetische Szenario, in dem der Benutzer nicht umgeleitet wird:
+Betrachten wir das folgende hypothetische Szenario, in dem die Benutzerin bzw. der Benutzer keine Umleitung erfährt:
 
 1. Der Benutzer verweist seinen Browser auf `www.google.com`, gibt „Discount-Airline Tickets“ in das Suchfeld ein und klickt anschließend auf die Schaltfläche **[!UICONTROL Suchen]**.
 1. Der Browser zeigt die Suchergebnisse einschließlich einem Link zu Ihrer Site [!DNL https://www.example.com/] / an. Nach der Anzeige der Suchergebnisse zeigt die Adressleiste des Browsers die vom Benutzer ins Suchfeld eingegebenen Suchbegriffe an ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Beachten Sie, dass die Suchbegriffe in die URL-Abfragestringparameter einbezogen werden, die auf `https://www.google.com/search?` ? folgen.
@@ -62,7 +72,7 @@ Damit [!DNL Analytics] Daten aus Weiterleitungen erfasst werden können, müssen
 
 Mit Durchführung der folgenden Schritte werden die Informationen erhalten, die der ursprüngliche Verweis (zum Beispiel `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` im obigen Szenario) an Ihre Site weitergibt:
 
-## Konfiguration von JavaScript-Code zum Außerkraftsetzen des Verweises {#override}
+## Konfigurieren von JavaScript-Code zum Überschreiben des Referrers {#override}
 
 Der nachstehende Codeabschnitt zeigt zwei JavaScript-Variablen, `s.referrer` und `s.pageURL`. Dieser Code wird auf der endgültigen Landingpage der Weiterleitung platziert.
 
@@ -100,13 +110,13 @@ if(tempVar)
   s.referrer=tempVar;
 ```
 
-## Ändern des Weiterleitungsmechanismus {#modify}
+## Ändern des Umleitungsmechanismus {#modify}
 
 Da der Browser die verweisende URL abschneidet, müssen Sie den Mechanismus konfigurieren, der die Weiterleitung verarbeitet (z. B. Webserver, Server-seitiger Code, Client-seitiger Code), um die ursprünglichen Verweisinformationen weiterzugeben. Wenn Sie auch die URL des Alias-Links aufzeichnen möchten, muss diese ebenfalls an die endgültige Landingpage weitergeleitet werden. Verwenden Sie die Variable *`s_pageURL`* , um die aktuelle URL zu überschreiben.
 
 Da viele Möglichkeiten zur Implementierung einer Weiterleitung bestehen, müssen Sie ggf. mit Ihrer Web Operations-Gruppe oder Ihrem Online-Werbepartner die spezifischen Mechanismen bestimmen, die Weiterleitungen auf Ihrer Website ausführen.
 
-## Erfassung der ursprünglich verweisenden Stelle {#original}
+## Erfassen des ursprünglichen Referrers {#original}
 
 Für gewöhnlich ruft [!DNL Analytics] die verweisende URL aus der Eigenschaft [!UICONTROL document.referrer] und die aktuelle URL aus der Eigenschaft [!UICONTROL document.location] des Browsers ab. Durch Übergabe von Werten an die Variablen *`referrer`* und *`pageURL`* können Sie die Standardverarbeitung überschreiben. Durch Übergabe eines Werts an die Variable „referrer“ teilen Sie [!DNL Analytics] mit, dass die Referrer-Information in der Eigenschaft [!UICONTROL document.referrer] ignoriert und stattdessen ein anderer, von Ihnen definierter Wert verwendet werden soll.
 
@@ -129,7 +139,7 @@ s.pageURL="https://www.flytohawaii.example"
 
 Führen Sie einen Test durch, um zu überprüfen, dass die verweisende Stelle, die Quell-URL (*`s_server`*) und die Kampagnenvariablen erfasst werden.
 
-Diese Variablen werden im [CX Enterprise Debugger) als die folgenden Parameter &#x200B;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de).
+Diese Variablen werden im [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) als folgende Parameter angezeigt.
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -151,7 +161,7 @@ Diese Variablen werden im [CX Enterprise Debugger) als die folgenden Parameter &
    <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Dieser Wert wird im DigitalPulse-Debugger angezeigt, wenn die Variable <span class="varname"> pageURL</span> verwendet wird. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Endgültige Landingpage-URL </p> </td> 
+   <td> <p>Ultimate-Landingpage-URL </p> </td> 
    <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Dieser Wert wird NICHT im DigitalPulse-Debugger angezeigt, wenn die Variable <span class="varname">pageURL</span> verwendet wird. </p> </td> 
   </tr> 

@@ -3,7 +3,7 @@ title: Nachverfolgen des Abmeldegrunds
 description: Sie können in einer Vorschau anzeigen, welche Daten ausgeschlossen werden, wenn Sie die Datenschutzeinstellungen aktivieren.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-TQID: https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY
+TQID: 'https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 13%
@@ -42,13 +46,13 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-Die Dimension „Tracking-Opt-out-Grund“ dient als Vorschau auf Daten, die bei Aktivierung der Datenschutzeinstellungen ausgeschlossen würden. Diese Dimension wird in erster Linie verwendet, um zu bestimmen, ob Ihre Implementierung negativ beeinflusst würde, wenn Sie [Datenschutzeinstellungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=de) unter Report Suite-Einstellungen aktivieren.
+Die Dimension „Tracking-Opt-out-Grund“ dient als Vorschau auf Daten, die bei Aktivierung der Datenschutzeinstellungen ausgeschlossen würden. Diese Dimension wird in erster Linie verwendet, um zu bestimmen, ob Ihre Implementierung negativ beeinflusst würde, wenn Sie [Datenschutzeinstellungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) unter Report Suite-Einstellungen aktivieren.
 
 Bei typischen Implementierungen wird bis zu 1 % des gesamten Traffics der Report Suite unter dieser Dimension angezeigt, wenn die Datenschutzeinstellungen noch nicht aktiviert wurden. Prozentsätze über 1 % des gesamten Traffics deuten auf ein potenzielles Implementierungsproblem hin, das AppMeasurement daran hindert, Erstanbieter-Cookies zu setzen.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension ist für alle Implementierungen vorkonfiguriert, die noch nicht aktiviert sind [Datenschutzeinstellungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=de). Wenn Ihr Unternehmen die Einstellung **[!UICONTROL Benutzer entfernen, die alle Cookies blockiert haben]** sowohl für Desktop- als auch für mobile Browser bereits aktiviert hat, enthält diese Dimension keine Daten.
+Diese Dimension ist für alle Implementierungen vorkonfiguriert, die noch nicht aktiviert sind [Datenschutzeinstellungen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Wenn Ihr Unternehmen die Einstellung **[!UICONTROL Benutzer entfernen, die alle Cookies blockiert haben]** sowohl für Desktop- als auch für mobile Browser bereits aktiviert hat, enthält diese Dimension keine Daten.
 
 | Eigenschaft | Wert |
 | --- | --- |

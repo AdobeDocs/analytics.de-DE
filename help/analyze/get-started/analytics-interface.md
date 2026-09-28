@@ -6,32 +6,52 @@ exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1993
+source-wordcount: '1993'
 ht-degree: 93%
-
 ---
-
 # Grundlagen der Analytics-Oberfläche
 
 Die Benutzeroberfläche von Adobe Analytics umfasst die folgenden Schlüsselbereiche, einschließlich Registerkarten für die Projektverwaltung in Analysis Workspace, die Verwaltung von Komponenten, Tools und Admin-Funktionen.
@@ -96,7 +116,7 @@ Die Registerkarte [!UICONTROL Komponenten] enthält Funktionen, mit denen Sie Ih
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse bezeichnet die Kopie von Analytics-Daten für Speicherberichte und benutzerdefinierte Berichte, die Sie durch Filtern der Daten ausführen können. <p>Der Anforderungs-Manager ermöglicht es Ihnen, Anforderungen anzuzeigen, zu duplizieren und neu zu priorisieren.</p> | [Verwalten von Data Warehouse-Anfragen](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map dient dazu, der Link-Aktivität mithilfe von visuellen Überlagerungen einen Rang zuzuweisen und ein Real-Time-Analytics-Dashboard bereitzustellen, um die Interaktion der Zielgruppe mit Ihren Web-Seiten zu überwachen. Activity Map ermöglicht Ihnen, verschiedene Ansichten einzurichten, um eine beschleunigte Kundenaktivität zu erkennen, Marketing-Initiativen zu quantifizieren und auf die Bedürfnisse und das Verhalten der Zielgruppe zu reagieren. | [Übersicht über Activity Map](/help/analyze/activity-map/overview.md) |
-   | Recommendations Classic | Recommendations ist eine Adobe Target-Funktion, mit der automatisch Produkte, Dienste oder Inhalte angezeigt werden, die basierend auf früheren Benutzeraktivitäten, Voreinstellungen oder anderen Kriterien für Ihre Besucherinnen und Besucher interessant sein könnten. | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=de) |
+   | Recommendations Classic | Recommendations ist eine Adobe Target-Funktion, mit der automatisch Produkte, Dienste oder Inhalte angezeigt werden, die basierend auf früheren Benutzeraktivitäten, Voreinstellungen oder anderen Kriterien für Ihre Besucherinnen und Besucher interessant sein könnten. | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search&amp;Promote | Diese Funktion wird nicht mehr unterstützt. |  |
    | Mobile Services | Diese Funktion wird nicht mehr unterstützt. |  |
    | Analytics-Dashboards (Mobile App) | Die Adobe Analytics-Dashboards-App liefert jederzeit und überall Erkenntnisse aus Adobe Analytics. Über die App können Benutzerinnen und Benutzer intuitive Scorecards anzeigen, die Sie mithilfe der Desktop-Benutzeroberfläche von Adobe Analytics erstellen. | Die Adobe Analytics-Dashboards-App im iOS App Store oder im Google Play-Store |
@@ -140,7 +160,7 @@ Die Registerkarte „Admin“ enthält Funktionen und Konfigurationsoptionen fü
    | Sicherheits-Manager | Mit dem Sicherheits-Manager können Sie den Zugriff auf Berichtsdaten kontrollieren. Zu den Optionen gehören sichere Passwörter, Passwortablauf, IP-Anmeldebeschränkungen und E-Mail-Domänenbeschränkungen. | [Sicherheits-Manager](/help/admin/tools/company/security-manager.md) |
    | Web-Services | Die Web-Services-APIs bieten programmgesteuerten Zugriff auf Marketing-Berichte und andere Suite-Services, mit denen Sie die über die Analytics-Schnittstelle verfügbaren Funktionen duplizieren und erweitern können. | [Web-Services](/help/admin/tools/company/web-services-admin.md) |
    | Report Builder-Berichte | Verwalten von Lizenzen, die Report Builder-Benutzern zugewiesen wurden. | [Report Builder-Berichte](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | Single-Sign-On-Service | Single Sign-on in Adobe CX Enterprise wird über die Admin Console implementiert. | [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Single-Sign-On-Service | Single Sign-on wird in Adobe CX Enterprise über die Admin Console implementiert. | [Analytics in der Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Ausblenden von Report Suites | Ermöglicht das Ausblenden von Report Suites in der Benutzeroberfläche von Adobe Analytics, wenn Sie nicht mehr möchten, dass eine Report Suite für Sie und Ihre Benutzerinnen und Benutzer verfügbar ist. | [Ausblenden von Report Suites](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}

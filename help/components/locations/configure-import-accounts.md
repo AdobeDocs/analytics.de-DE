@@ -4,29 +4,40 @@ keywords: Analysis Workspace
 title: Konfigurieren von Cloud-Import- und Exportkonten
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-TQID: https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw
+TQID: 'https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1764
+source-wordcount: '1764'
 ht-degree: 69%
-
 ---
-
 # Konfigurieren von Cloud-Import- und Exportkonten
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
@@ -49,7 +60,7 @@ Informationen zum Anzeigen und Löschen vorhandener Konten finden Sie unter [Sta
 ## Erstellen oder Bearbeiten eines Kontos über die Seite Konten .
 
 1. Wählen Sie in Adobe Analytics [!UICONTROL **Komponenten**] > [!UICONTROL **Standorte**] aus.
-1. Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] die Registerkarte [!UICONTROL **Standortkonten**] aus.
+1. Wählen Sie auf [!UICONTROL  Seite ] die Registerkarte [!UICONTROL **Standortkonten**] aus.
 1. (Bedingt) Wenn Sie Systemadministrator sind, können Sie die Option [!UICONTROL **Konten für alle Benutzer anzeigen**] aktivieren, um Konten anzuzeigen, die von allen Benutzern in Ihrer Organisation erstellt wurden.
    ![Konten für alle Benutzer anzeigen](assets/accounts-all-users.png)
 1. Um ein neues Konto zu erstellen, wählen Sie [!UICONTROL **Konto hinzufügen**] aus.
@@ -143,7 +154,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    >[!NOTE]
    >
-   >E-Mail-Konten können nur mit [Data Warehouse verwendet &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
+   >E-Mail-Konten können nur mit [Data Warehouse verwendet ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (E-Mail-Konten werden nicht mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) oder [Klassifizierungssätzen](/help/components/classifications/sets/overview.md) unterstützt.
 
    Geben Sie die folgenden Informationen an, um ein Azure RBAC-Konto zu konfigurieren:
 
@@ -157,7 +168,7 @@ So konfigurieren Sie ein Cloud-Import- oder -Exportkonto, nachdem Sie mit der Er
 
    **Legacy-Kontotypen**
 
-   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht &#x200B;](/help/components/classifications/sets/manage/schema.md).
+   Diese Legacy-Kontotypen sind nur beim Exportieren von Daten mit [Daten-Feeds](/help/export/analytics-data-feed/create-feed.md) und [Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md). Diese Optionen sind beim Importieren von Daten mit &quot;[&quot; nicht ](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 

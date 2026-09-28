@@ -6,17 +6,21 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Security
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1985
+source-wordcount: '1985'
 ht-degree: 100%
-
 ---
-
 # Sicherheitsanforderungen für FTP- und SFTP-Server
 
 Auf dieser Seite werden die Sicherheitsanforderungen für bestehende FTP- und SFTP-Server behandelt, die Daten empfangen, die von Adobe Analytics Daten-Feeds oder Data Warehouse bereitgestellt werden.
@@ -36,14 +40,14 @@ Auf dieser Seite werden die Sicherheitsanforderungen für bestehende FTP- und SF
 >Bedenken Sie folgende Situationen, bevor Sie die Schritte in diesem Artikel abschließen.
 >
 >* **Adobe empfiehlt, nach Möglichkeit zu einem modernen Cloud-Ziel zu wechseln, anstatt ein Upgrade auf SFTP durchzuführen.**
->FTP und SFTP sind veralte Zieltypen. Anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben, empfiehlt Adobe, zu einem modernen Cloud-Zieltyp zu wechseln (z. B. Amazon S3, Google Cloud Platform oder Azure). Diese Cloud-Ziele bieten ein höheres Sicherheitsniveau. Weitere Informationen finden Sie unter [Konfigurieren von Cloud-Import- und Exportkonten](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).
+>FTP und SFTP sind veraltete Zieltypen. Anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben, empfiehlt Adobe, zu einem modernen Cloud-Zieltyp zu wechseln (z. B. Amazon S3, Google Cloud Platform oder Azure). Diese Cloud-Ziele bieten ein höheres Sicherheitsniveau. Weitere Informationen finden Sie unter [Konfigurieren von Cloud-Import- und Exportkonten](https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Wenn FTP- und SFTP-Konten ausschließlich für Klassifizierungen verwendet werden, migrieren Sie zu Klassifizierungssätzen.**
 >Wenn Ihr FTP- oder SFTP-Konto ausschließlich für Klassifizierungen verwendet wird, sollten Sie vom **Classification Importer** zu **Klassifizierungssätzen** migrieren, anstatt FTP-Konten auf SFTP zu aktualisieren und SFTP-Kennwörter zu rotieren, wie in diesem Artikel beschrieben. Der Classification Importer wird eingestellt und ist nach dem **31. August 2026** nicht mehr verfügbar. Weitere Informationen finden Sie unter [Klassifizierungssätze – Überblick](https://experienceleague.adobe.com/de/docs/analytics/components/classifications/sets/overview).
 
 ## Voraussetzungen
 
-### Inventarisieren der FTP-Konten
+### Inventarisieren Ihrer FTP-Konten
 
 Sie müssen die SFTP-Upgrade-Schritte auf dieser Seite für jede FTP-Site ausführen, die mit Daten-Feeds oder Data Warehouse verwendet wird.
 
@@ -59,9 +63,9 @@ Erfassen Sie für jedes Konto die folgenden Informationen:
 
 * **Geheimnis des Standortkontos**: Das aktuelle Kontogeheimnis für das Konto. Dies ist das Kontogeheimnis (Kennwort), das Sie derzeit beim Herunterladen von Daten verwenden, die an Ihren FTP-Speicherort gesendet werden. Diese Informationen sind nicht über die Benutzeroberfläche von Adobe Analytics verfügbar.
 
-### Bestätigen, dass Sie die Anmeldeinformationen in Ihren Tools aktualisieren können
+### Stellen Sie sicher, dass Sie die Anmeldedaten in Ihren Tools aktualisieren können.
 
-Stellen Sie sicher, dass Sie die SFTP-Kennwörter in jedem Tool oder Skript aktualisieren können, mit dem Sie eine Verbindung zur SFTP-Site herstellen (z. B. SFTP-Client, automatisches Skript oder Plattform eines Drittanbieters).
+Stellen Sie sicher, dass Sie die SFTP-Kennwörter in jedem Tool oder Skript aktualisieren können, mit dem Sie eine Verbindung zur SFTP-Site herstellen (z. B. SFTP-Client, automatisches Skript oder Drittanbieterplattform).
 
 Alle Clients sollten eine Verbindung über SFTP mit einem Kennwort als Fallback-Option herstellen.
 
@@ -85,7 +89,7 @@ So richten Sie eine sichere Übertragung für das Herunterladen von Daten von Ih
 
 1. Generieren Sie ein Schlüsselpaar aus öffentlichem/privatem Schlüssel, das für die sichere Übertragung verwendet werden soll.
 
-   Bei Verwendung eines von Adobe gehosteten SFTP-Servers unterstützt Adobe RSA- und ed25519-Schlüssel.
+   Bei Verwendung eines von Adobe gehosteten SFTP Servers unterstützt Adobe RSA- und ed25519-Schlüssel.
 
    * **In einer Linux-Umgebung:** Führen Sie den folgenden Befehl aus, um das ed25519-Schlüsselpaar zu generieren:
 
@@ -246,11 +250,11 @@ Sie sollten auch alte FTP-spezifische Regeln entfernen, z. B. das Zulassen eing
 
 Warten Sie nach der Aktualisierung aller vorhandenen Daten-Feeds und Data Warehouse-Anfragen für die Verwendung des neuen SFTP-Kontos und -Speicherorts auf den nächsten geplanten Versand. Stellen Sie sicher, dass die Daten wie erwartet am neuen Ziel eintreffen.
 
-### Schritt 6: Rotieren des Kennworts auf dem aktualisierten SFTP-Server
+### Schritt 6: Rotieren des Kennworts auf dem aktualisierten SFTP-Server
 
 Nach dem Upgrade eines FTP-Servers auf SFTP müssen Sie auch das SFTP-Kennwort rotieren, wie im folgenden Abschnitt [Rotieren des SFTP-Kennworts](#rotate-your-sftp-password) beschrieben.
 
-## Rotieren des SFTP-Kennworts
+## Rotieren Ihres SFTP-Kennworts
 
 Ein SFTP-Kennwort dient als Fallback-Authentifizierungsmethode, wenn die schlüsselbasierte Authentifizierung fehlschlägt.
 

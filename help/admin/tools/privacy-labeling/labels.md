@@ -4,32 +4,47 @@ title: Datenschutzbezeichnungen für Analytics-Variablen
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 79%
-
 ---
-
 # Datenschutzbezeichnungen für Analytics-Variablen
 
 Die Kundinnen und Kunden von Adobe müssen als Datenverantwortliche sicherstellen, dass geltende Datenschutzgesetze wie die Datenschutz-Grundverordnung (DSGVO) und der California Consumer Privacy Act (CCPA) eingehalten werden. Sie sollten sich daher mit ihrer eigenen Rechtsabteilung beraten, um zu bestimmen, wie ihre Daten im Einklang mit den Datenschutzgesetzen verarbeitet werden sollen. Adobe weiß, dass jede Kundin und jeder Kunde individuelle Datenschutzanforderungen hat. Deshalb ermöglicht Adobe es auch, die gewünschten Datenschutzeinstellungen für die Datenverarbeitung anzupassen. So kann jeder Unique Customer Datenschutzanfragen so verarbeiten, wie es für seine Marke und seine Datensätze am sinnvollsten ist.
@@ -75,7 +90,7 @@ Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. 
 | Beschriftung | Definition | Sonstige Anforderungen |
 | --- | --- | --- |
 | Keine | Wählen Sie diese Option aus, wenn diese Variable keine Daten enthält, die im Rahmen einer Datenschutz-Auskunftsanfrage in die an die betroffene Person zurückzugebenden Daten eingefügt werden müssen. | |
-| ACC-ALL | Werte in diesem Feld sollten in allen Datenschutzanfragen enthalten sein. Wenn dieser Hit von einem Gerät stammt, das von mehreren Personen genutzt wird, können Sie als Datenverantwortlicher über diese Beschriftung festlegen, dass es zulässig ist, die Daten in diesem Feld an Personen mit Zugriff auf das gemeinsam genutzte Gerät zu übermitteln. | Felder mit dieser Beschriftung werden bei allen Datenschutzanfragen zurückgegeben. |
+| ACC-ALL | Werte in diesem Feld sollten in allen Datenschutzanfragen enthalten sein. Wenn dieser Treffer von einem Gerät stammt, das von mehreren Personen genutzt wird, können Sie als Datenverantwortlicher über diese Beschriftung festlegen, dass es zulässig ist, die Daten in diesem Feld an Personen mit Zugriff auf das gemeinsam genutzte Gerät zu übermitteln. | Felder mit dieser Beschriftung werden bei allen Datenschutzanfragen zurückgegeben. |
 | ACC-PERSON | Werte in diesem Feld sollten nur zu Datenschutzanfragen hinzugefügt werden, wenn Sie sich ausreichend sicher sind, dass der Treffer von der betroffenen Person stammt. Dies gilt, wenn die ID einer Datenschutzanfrage mit dem Wert im Feld ID-PERSON übereinstimmt. | Sie müssen auch eine ID-PERSON-Beschriftung in einer Variablen innerhalb dieser Report Suite festgelegt haben und Anfragen mit der entsprechenden ID übermitteln. Andernfalls wird diese Beschriftung nie angewendet. |
 
 {style="table-layout:auto"}

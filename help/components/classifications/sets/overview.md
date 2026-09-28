@@ -3,24 +3,30 @@ title: Klassifizierungssätze – Überblick
 description: Erfahren Sie, wie Sie Klassifizierungssätze zum Verwalten von Klassifizierungsdaten verwenden. Erfahren Sie, wie sich Klassifizierungssätze von veralteten Klassifizierungen unterscheiden.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-TQID: https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM
+TQID: 'https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: '905'
 ht-degree: 100%
-
 ---
-
 # Klassifizierungssätze – Überblick
 
 Klassifizierungssätze bieten eine einzige Oberfläche zum Verwalten von Klassifizierungen und Regeln. Dieser Workflow kombiniert die Erstellung von Klassifizierungen in [Report Suite-Einstellungen](/help/admin/tools/manage-rs/report-suites-admin.md) mit dem [Classification Importer](/help/components/classifications/sets/manage-sets.md). Das Ergebnis ist eine einzige, intuitive Benutzeroberfläche zum Erstellen und Verwalten von Klassifizierungsdaten.
@@ -66,7 +72,7 @@ Klassifizierungssätze bestehen aus drei Funktionsbereichen:
 
 Der Workflow für Klassifizierungssätze umfasst normalerweise die folgenden Schritte:
 
-1. Überlegen Sie, für welche Kombinationen aus Report Suite und Dimension Sie einen Klassifizierungssatz erstellen möchten. Ein Beispiel hierfür ist die Definition eines Produktklassifizierungssatzes, den Sie für jede Report Suite erstellen, für die Sie Produkte mit weiteren Details klassifizieren möchten. Dies können z. B. Details wie Kategorie und Farbe sein.
+1. Überlegen Sie, für welche Kombinationen aus Report Suite und Dimensionen Sie einen Klassifizierungssatz erstellen möchten. Ein Beispiel hierfür ist die Definition eines Produktklassifizierungssatzes, den Sie für jede Report Suite erstellen, für die Sie Produkte mit weiteren Details klassifizieren möchten. Dies können z. B. Details wie Kategorie und Farbe sein.
 1. [Erstellen Sie einen Klassifizierungssatz](/help/components/classifications/sets/create-set.md) mit Abonnements für eine oder mehrere Kombinationen aus Report Suite und Schlüsseldimension, die Produkte identifizieren. Zum Beispiel:
 
    | Report Suite | Schlüsseldimension |
@@ -83,7 +89,7 @@ Der Workflow für Klassifizierungssätze umfasst normalerweise die folgenden Sch
 
 1. Erstellen Sie manuell eine Datei, die Klassifizierungsdaten enthält. [Verwenden Sie eine Vorlage](/help/components/classifications/sets/manage/schema.md#template), um sicherzustellen, dass Sie das [unterstützte Dateiformat](data-files.md#classification-set-file-formats) und die Spalten für die Datei verwenden. Fügen Sie dann die Daten zur Vorlagendatei hinzu.
 
-   Alternativ können Sie Daten in den [unterstützten Dateiformaten](data-files.md#classification-set-file-formats) direkt aus Ihrem Produktkatalog exportieren, wobei die Spalten der Vorlage entsprechen müssen. Beispielweise eine CSV-Datei wie:
+   Alternativ können Sie Daten in den [unterstützten Dateiformaten](data-files.md#classification-set-file-formats) direkt aus Ihrem Produktkatalog exportieren, wobei die Spalten der Vorlage entsprechen müssen. Beispielsweise eine CSV-Datei wie:
 
    ```
    Key,Category,Color

@@ -3,23 +3,28 @@ title: Einstellungen für Klassifizierungssätze
 description: Erfahren Sie, wie Sie den Namen, die Beschreibung, Tags, Auftragsbenachrichtigungen und Abonnements eines bestehenden Klassifizierungssatzes in Adobe Analytics bearbeiten.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-TQID: https://experienceleague.adobe.com/D-6P27NSFWF5tHze-wopbkHrDMpMUQWA-zlEbZbzSzk
+TQID: 'https://experienceleague.adobe.com/D-6P27NSFWF5tHze-wopbkHrDMpMUQWA-zlEbZbzSzk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 253
+source-wordcount: '253'
 ht-degree: 2%
-
 ---
-
 # Klassifizierungssatz-Einstellungen
 
 Sie können die Einstellungen eines Klassifizierungssatzes bearbeiten, einschließlich Name, Beschreibung, der zu benachrichtigenden Personen und der Abonnements.
@@ -29,7 +34,7 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
 1. Wählen Sie **[!UICONTROL Komponenten]** in der oberen Menüleiste von Adobe Analytics aus und wählen Sie dann **[!UICONTROL Klassifizierungssätze]**.
 1. Wählen **[!UICONTROL unter]** die Registerkarte **[!UICONTROL Klassifizierungssätze]** aus.
 1. Wählen **[!UICONTROL Manager Klassifizierungssätze]** den Klassifizierungssatz aus, für den Sie das Schema bearbeiten möchten.
-1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatz_]**&#x200B;die Registerkarte **[!UICONTROL Einstellungen]**&#x200B;aus, um die Einstellungen zu bearbeiten:
+1. Wählen Sie **[!UICONTROL Dialogfeld „Klassifizierungssatz _(Klassifizierungssatz_]**die Registerkarte **[!UICONTROL Einstellungen]**aus, um die Einstellungen zu bearbeiten:
 
    ![Klassifizierungssätze - Einstellungen](assets/classification-sets-settings.png)
 
@@ -47,5 +52,5 @@ So bearbeiten Sie die Einstellungen für einen Klassifizierungssatz:
       * Sie können mehrere **[!UICONTROL Report Suite]**- und **[!UICONTROL Dimension]**-Kombinationen zu einem Klassifizierungssatz definieren.
       * Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um eine Kombination **[!UICONTROL Report Suite]** und **[!UICONTROL Key Dimension]** zu löschen.
 
-      Weitere [&#x200B; finden Sie unter &#x200B;](/help/components/classifications/sets/manage-sets.md) eines Klassifizierungssatzes .
+      Weitere [ finden Sie unter ](/help/components/classifications/sets/manage-sets.md) eines Klassifizierungssatzes .
    1. Klicken Sie **[!UICONTROL Speichern]**, um die Einstellungen zu speichern. Wählen Sie zum Abbrechen **[!UICONTROL Abbrechen]** aus.

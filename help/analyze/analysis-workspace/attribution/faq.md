@@ -7,21 +7,30 @@ exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 71%
-
 ---
-
 # Häufig gestellte Fragen
 
 Im Folgenden finden Sie Antworten auf häufig gestellte Fragen zur Attribution.
@@ -149,9 +158,9 @@ Da die Marketing-Kanal-Dimensionen von einer traditionellen Besuchsdefinition ab
 
 +++## Wie funktioniert die Attribution mit Variablen mit mehreren Werten, wie z. B. Listenvariablen?
 
-Einige Dimensionen in Analytics können bei einem einzelnen Hit mehrere Werte enthalten. Häufige Beispiele sind Listenvariablen und die Produktvariable.
+Einige Dimensionen in Analytics können bei einem einzelnen Treffer mehrere Werte enthalten. Häufige Beispiele sind Listenvariablen und die Produktvariable.
 
-Wenn die Attribution auf Hits mit mehreren Werten angewendet wird, erhalten alle Werte im selben Hit dieselbe Gewichtung. Da viele Werte diese Gewichtung erhalten können, kann sich die Berichtssumme von der Summe der einzelnen Zeileneinträge unterscheiden. Die Berichtssumme wird dedupliziert, während jedes einzelne Dimensionselement korrekt gewichtet wird.
+Wenn die Attribution auf Treffer mit mehreren Werten angewendet wird, erhalten alle Werte im selben Treffer dieselbe Gewichtung. Da viele Werte diese Gewichtung erhalten können, kann sich die Berichtssumme von der Summe der einzelnen Zeileneinträge unterscheiden. Die Berichtssumme wird dedupliziert, während jedes einzelne Dimensionselement korrekt gewichtet wird.
 
 +++
 
@@ -160,7 +169,7 @@ Wenn die Attribution auf Hits mit mehreren Werten angewendet wird, erhalten alle
 
 Die Attribution wird immer vor der Segmentierung ausgeführt und die Segmentierung wird ausgeführt, bevor Berichtsfilter angewendet werden. Dieses Konzept gilt auch für Virtual Report Suites, die Segmente verwenden.
 
-Wenn Sie z. B. eine Virtual Report Suite mit angewendetem Segment „Hits anzeigen“ erstellen, können Sie mithilfe einiger Attributionsmodelle andere Kanäle in einer Tabelle sehen.
+Wenn Sie z. B. eine Virtual Report Suite mit angewendetem Segment „Treffer anzeigen“ erstellen, können Sie mithilfe einiger Attributionsmodelle andere Kanäle in einer Tabelle sehen.
 
 ![Schreibgeschützte Virtual Report Suite](assets/vrs-aiq-example.png)
 

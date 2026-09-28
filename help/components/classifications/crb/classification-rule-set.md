@@ -3,13 +3,15 @@ description: Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine b
 title: Klassifizierungsregelsätze
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
+TQID: 'https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
@@ -18,7 +20,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 49%
@@ -29,7 +31,7 @@ ht-degree: 49%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Seite werden Klassifizierungsregelsätze als Teil des [Classification Rule Builders“ &#x200B;](classification-rule-builder.md). Unter [Klassifizierungssätze](../sets/overview.md) finden Sie die aktuelle Methode zur Klassifizierung von Daten in Adobe Analytics.*
+*Auf dieser Seite werden Klassifizierungsregelsätze als Teil des [Classification Rule Builders“ ](classification-rule-builder.md). Unter [Klassifizierungssätze](../sets/overview.md) finden Sie die aktuelle Methode zur Klassifizierung von Daten in Adobe Analytics.*
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +41,7 @@ Ein Regelsatz ist eine Gruppe von Classification-Regeln für eine bestimmte Vari
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-Die folgenden Felder und Optionen sind im [!UICONTROL Classifications Rule Builder“ &#x200B;].
+Die folgenden Felder und Optionen sind im [!UICONTROL Classifications Rule Builder“ ].
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -95,6 +97,6 @@ Benennen Sie den Klassifizierungsregelsatz, wenden Sie die Variable an und legen
 
    Die Report Suite und Variablenliste wird mit allen klassifizierten Variablen gefüllt, die in allen Report Suites Ihres Anmeldeunternehmens verfügbar sind. Eine einzelne Variable in einer Report Suite kann nur zu einem Regelsatz gehören.
 
-   Weitere Informationen finden Sie unter *`Variable`* in den Definitionen [&#x200B; Seite „Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) .
+   Weitere Informationen finden Sie unter *`Variable`* in den Definitionen [ Seite „Classification Rule Builder](/help/components/classifications/crb/classification-rule-definitions.md) .
 1. Geben Sie die zu verwendenden Report Suites und Variablen an und klicken Sie auf **[!UICONTROL Speichern]**.
 1. Fahren Sie fort, indem Sie [Classification-Regeln zum Regelsatz hinzufügen](/help/components/classifications/crb/classification-rule-set.md).

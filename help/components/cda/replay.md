@@ -4,22 +4,28 @@ description: Verstehen Sie das Konzept der „Wiederholung“ in der geräteübe
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/UuIRVpQJxJDKTYBg7hlNMlVG4PgGMAoD0NLdJfeQydA
+TQID: 'https://experienceleague.adobe.com/UuIRVpQJxJDKTYBg7hlNMlVG4PgGMAoD0NLdJfeQydA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 89%
-
 ---
-
 # Funktionsweise der Wiederholung
 
 {{available-existing-customers}}
@@ -27,7 +33,7 @@ ht-degree: 89%
 Cross-Device Analytics führt in einer virtuellen Report Suite zwei Durchgänge an Daten durch:
 
 * **Live-Stitching**: die geräteübergreifende Analyse versucht, jeden Treffer beim Eintreten zu zuzuordnen. Neue Geräte in der Report Suite, die sich noch nie angemeldet haben, werden in der Regel nicht auf dieser Ebene zugeordnet. Bereits erkannte Geräte werden sofort zugeordnet.
-* **Wiederholung**: Ungefähr einmal pro Woche „wiederholt“ die geräteübergreifende Analyse die Daten anhand der gelernten eindeutigen Kennungen. In dieser Phase werden neue Geräte in der Report Suite zugeordnet.
+* **Wiederholung**: Ungefähr einmal pro Woche „wiederholt“ die geräteübergreifende Analyse die Daten anhand der gelernten eindeutigen Kennungen. In diesem Schritt werden neue Geräte in der Report Suite zugeordnet.
 
 ## Beispieltabelle
 
@@ -35,7 +41,7 @@ Die folgenden Tabellen veranschaulichen, wie [feldbasierte Zuordnung](field-base
 
 ### Live-Stitching
 
-Sobald ein Treffer erfasst wird, versucht die geräteübergreifende Analyse, ihn bekannten Geräten zuzuordnen. Betrachten wir das folgende Beispiel, in dem Bob zwei Geräte verwendet.
+Sobald ein Treffer erfasst wird, versucht CDA, ihn bekannten Geräten zuzuordnen. Betrachten wir das folgende Beispiel, in dem Bob zwei Geräte verwendet.
 
 *Daten, wie sie am Tag der Erfassung erscheinen:*
 
@@ -51,20 +57,20 @@ Sobald ein Treffer erfasst wird, versucht die geräteübergreifende Analyse, ihn
 | `8` | `3579` | `Bob` | Bob meldet sich erneut auf einem Mobilgerät an | `3` (246, Bob und 3579) |
 
 Sowohl nicht authentifizierte als auch authentifizierte Treffer auf neuen Geräten werden (vorübergehend) als separate Personen gezählt.
-Nicht authentifizierte Treffer auf erkannten Geräten werden ab diesem Zeitpunkt live zugeordnet. Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Wiederholungszuordnung.
+Nicht authentifizierte Treffer auf erkannten Geräten werden ab diesem Zeitpunkt live zugeordnet. Die Attribution funktioniert, sobald die identifizierende benutzerdefinierte Variable mit einem Gerät verknüpft ist. Im obigen Beispiel werden alle Treffer mit Ausnahme der Treffer 1 und 3 live zugeordnet (sie verwenden alle die Kennung `Bob`). Die Attribution funktioniert bei Treffern 1 und 3 nach der Replay-Zuordnung.
 
 >[!NOTE]
 >
->Treffer mit Zeitstempel, die älter als 12 Stunden sind, werden im Live-Fluss nicht zugeordnet. Diese Treffer sind jedoch in der Wiederholungszuordnung enthalten, solange sie in das Lookback-Fenster für die Wiederholung fallen.
+>Treffer mit Zeitstempel, die älter als 12 Stunden sind, werden im Live-Prozess nicht zugeordnet. Diese Treffer sind jedoch in der Replay-Zuordnung enthalten, solange sie in das Lookback-Fenster für die Wiederholung fallen.
 
 ### Wiederholungszuordnung
 
-Die Wiederholung wird entweder täglich oder wöchentlich durchgeführt, je nachdem, wie Sie die Cross-Device-Analyse konfiguriert haben. Während der Wiederholung versucht die Cross-Device-Analyse, historische Daten in einem definierten Rückblickfenster neu darzustellen:
+Die Wiederholung erfolgt entweder täglich oder wöchentlich, abhängig davon, wie Sie CDA konfiguriert haben. Während der Wiederholung versucht CDA, historische Daten in einem definierten Lookback-Fenster neu darzustellen:
 
 * Bei der täglichen Wiederholung entspricht das Rückblickfenster 1 Tag.
 * Bei wöchentlicher Wiederholung wird ein Rückblickfenster von 7 Tagen verwendet.
 
-Wenn ein Gerät Daten anfänglich sendet, ohne authentifiziert zu sein, und sich dann anmeldet, verknüpft die geräteübergreifende Analyse diese nicht authentifizierten Treffer mit der richtigen Person. Die folgende Tabelle stellt dieselben Daten wie oben dar, zeigt jedoch unterschiedliche Zahlen basierend auf der Wiederholung der Daten.
+Wenn ein Gerät zunächst Daten sendet, ohne authentifiziert zu sein, und sich dann anmeldet, verknüpft CDA diese nicht authentifizierten Treffer mit der richtigen Person. Die folgende Tabelle stellt dieselben Daten wie oben dar, zeigt jedoch unterschiedliche Zahlen basierend auf der Wiederholung der Daten.
 
 *Dieselben Daten nach der Wiederholung:*
 

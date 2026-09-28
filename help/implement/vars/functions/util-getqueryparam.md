@@ -7,49 +7,57 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/99nBiI23QwY6J6qEVKKz901Bertmkxf21YeJdKTmWbo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 79%
-
 ---
-
 # Util.getQueryParam
 
-Abfragezeichenfolgenparameter in einer Browser-URL enthalten häufig wichtige Daten für Analytics. Verwenden Sie die `Util.getQueryParam()`-Methode, um Daten aus der Abfragezeichenfolge abzurufen.
+Abfragezeichenfolgen in einer Browser-URL enthalten häufig wichtige Daten für Analytics. Verwenden Sie die `Util.getQueryParam()`-Methode, um Daten aus der Abfragezeichenfolge abzurufen.
 
 ## Abrufen von Abfragezeichenfolgenparameterdaten mithilfe der Adobe Analytics-Erweiterung und der Web SDK-Erweiterung
 
-Sie können Abfragezeichenfolgenparameterdaten abrufen, indem Sie Werte in Datenelementen festlegen.
+Sie können Daten aus Abfragezeichenfolgenparametern abrufen, indem Sie Werte in Datenelementen festlegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 3. Gehen Sie zur Registerkarte [!UICONTROL Datenelemente] und klicken Sie dann auf das gewünschte Datenelement (oder erstellen Sie ein Datenelement).
-4. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Core]** und den [!UICONTROL Datenelementtyp] auf **[!UICONTROL Abfragezeichenfolgenparameter]**.
+4. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Core]** und den [!UICONTROL Datenelementtyp] auf **[!UICONTROL Abfragezeichenfolgenparameter]**.
 5. Geben Sie den Abfragezeichenfolgenparameter in das Textfeld ein.
 
 Der Wert des Abfragezeichenfolgenparameters wird im Datenelement gespeichert. Anschließend können Sie das Datenelement in Regeln referenzieren, um die gewünschten Variablen zuzuweisen.
 
 ## s.Util.getQueryParam() in AppMeasurement und im benutzerdefinierten Code-Editor der Analytics-Erweiterung
 
-Rufen Sie die `s.Util.getQueryParam()`-Methode auf, um einen Abfragezeichenfolgenwert aus der Browser-URL abzurufen. Das Zeichenfolgenargument, das einen Abfragezeichenfolgenparameter enthält, ist erforderlich. Diese Methode gibt eine Zeichenfolge zurück, die Sie Analytics-Variablen zuweisen können:
+Rufen Sie die `s.Util.getQueryParam()`-Methode auf, um einen Abfragezeichenfolgenwert aus der Browser-URL abzurufen. Das Zeichenfolgenargument, das einen Parameter der Abfragezeichenfolge enthält, ist erforderlich. Diese Methode gibt eine Zeichenfolge zurück, die Sie Analytics-Variablen zuweisen können:
 
 ```js
 s.eVar1 = s.Util.getQueryParam("cid");
 ```
 
-Ein zweites optionales Argument ermöglicht es Ihnen, die Zeichenfolge anzugeben, die auf Abfragezeichenfolgenparameter überprüft werden soll. Standardmäßig überprüft das Dienstprogramm die Browser-URL.
+Ein zweites optionales Argument ermöglicht es Ihnen, die Zeichenfolge anzugeben, die auf Parameter der Abfragezeichenfolge überprüft werden soll. Standardmäßig überprüft das Dienstprogramm die Browser-URL.
 
 ```js
 // Search a custom string for query string parameter

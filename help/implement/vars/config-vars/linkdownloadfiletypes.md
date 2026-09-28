@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Qt6o34l2I96kZhsuK6zh3L8OsP7vJI4QiEUYeH6SeP4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 57%
-
 ---
-
 # linkDownloadFileTypes
 
 Wenn [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) oder [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) aktiviert ist und ein Besucher auf einen Link klickt, prüft AppMeasurement die URL des Links auf Dateityperweiterungen. Wenn die Link-URL einen übereinstimmenden Dateityp enthält, wird automatisch eine Bildanforderung für einen Download-Link gesendet.
@@ -50,8 +58,8 @@ Das Textfeld [!UICONTROL Downloadlink]Qualifizierer“ verwendet Regex, um zu be
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter &lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren.
-1. Legen [!UICONTROL &#x200B; unter „Datenerfassung] den gewünschten Wert im Textfeld **[!UICONTROL Link-Qualifizierer herunterladen]** fest.
+1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter {4 **[!UICONTROL Adobe Experience Platform Web SDK]** auf die Schaltfläche Konfigurieren].[!UICONTROL 
+1. Legen [!UICONTROL  unter „Datenerfassung] den gewünschten Wert im Textfeld **[!UICONTROL Link-Qualifizierer herunterladen]** fest.
 
 ## Download-Link-Qualifizierer bei der manuellen Implementierung der Web-SDK
 

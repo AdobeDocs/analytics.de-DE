@@ -6,20 +6,26 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '471'
 ht-degree: 95%
-
 ---
-
 # Fehlerbehebung bei Daten-Feeds
 
 Ermitteln Sie potenzielle Gründe, aus denen ein Auftrag möglicherweise nicht verarbeitet oder bereitgestellt werden kann.
@@ -38,7 +44,7 @@ Wenn Sie über einen Daten-Feed verfügen, der normalerweise stündlich oder tä
 
   ![Erneut ausführen](assets/rerun.png)
 
-Wenn Sie die Daten-Feed-Dateien nach der erneuten Ausführung immer noch nicht erhalten, wenden Sie sich an die Kundenunterstützung.
+Wenn Sie die Daten-Feed-Dateien nach der erneuten Ausführung immer noch nicht erhalten, wenden Sie sich an die Kundenbetreuung.
 
 ## Fehlerbehebung bei einem neuen Daten-Feed
 
@@ -48,8 +54,8 @@ Wenn ein neuer Daten-Feed einen Fehler ausgibt, beheben Sie das Problem, indem S
 
    ![Datei-Explorer](assets/file_explorer.png)
 
-2. Ein Fenster wird angezeigt, in dem Sie nach dem Benutzernamen und Kennwort gefragt werden. Geben Sie Ihre Authentifizierungsdaten ein. Wenn die Anmeldeinformationen akzeptiert werden, wird im Fenster der aktuelle Inhalt auf der FTP-Site angezeigt. Wenn die Anmeldeinformationen nicht akzeptiert werden, wenden Sie sich an den FTP-Verantwortlichen, um zu prüfen, ob der Benutzername und das Kennwort korrekt sind. Wenn Sie SFTP verwenden, stellen Sie sicher, dass Sie jeden Schritt im [SFTP-Handbuch](../ftp-and-sftp/c-sftp/ftp-sftp.md) befolgen. Beachten Sie, dass Adobe nicht alle SFTP-Anwendungsfälle unterstützt.
-3. Laden Sie eine Datei auf die FTP-Site hoch, indem Sie sie in das authentifizierte Fenster ziehen. Dafür kann jedes Bild- oder Textdokument verwendet werden. Wenn Sie einen Fehler erhalten, wenn Sie versuchen, eine Datei auf die FTP-Site zu laden, erkundigen Sie sich beim FTP-Eigentümer, ob genügend Speicherplatz vorhanden ist und ob der Benutzername Schreibberechtigungen für die FTP-Site besitzt.
+2. Ein Fenster wird angezeigt, in dem Sie nach dem Benutzernamen und Kennwort gefragt werden. Geben Sie Ihre Authentifizierungsdaten ein. Wenn die Anmeldedaten akzeptiert werden, wird im Fenster der aktuelle Inhalt auf der FTP-Site angezeigt. Wenn die Anmeldeinformationen nicht akzeptiert werden, wenden Sie sich an den FTP-Verantwortlichen, um zu prüfen, ob der Benutzername und das Kennwort korrekt sind. Wenn Sie SFTP verwenden, stellen Sie sicher, dass Sie jeden Schritt im [SFTP-Handbuch](../ftp-and-sftp/c-sftp/ftp-sftp.md) befolgen. Beachten Sie, dass Adobe nicht alle SFTP-Anwendungsfälle unterstützt.
+3. Laden Sie eine Datei auf die FTP-Site hoch, indem Sie sie in das authentifizierte Fenster ziehen. Dafür kann jedes Bild- oder Textdokument verwendet werden. Wenn Sie einen Fehler erhalten, wenn Sie versuchen, eine Datei auf die FTP-Site zu laden, arbeiten Sie mit der FTP-Inhaberin bzw. dem FTP-Inhaber zusammen, um zu überprüfen, ob genügend Speicherplatz vorhanden ist und ob der Benutzername Schreibberechtigungen für die FTP-Site besitzt.
 4. Nachdem Sie bestätigt haben, dass sich die Datei auf der FTP-Site befindet, können Sie die im vorherigen Schritt hochgeladene Datei löschen.
 
-Wenn alle oben genannten Schritte funktionieren und Sie dennoch weiterhin einen FTP-Fehler erhalten, wenden Sie sich an die Kundenunterstützung.
+Wenn alle oben genannten Schritte funktionieren und Sie dennoch weiterhin einen FTP-Fehler erhalten, wenden Sie sich an die Kundenbetreuung.

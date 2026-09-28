@@ -7,29 +7,42 @@ exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 TQID: 'https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 91%
-
 ---
-
 # CNIL-Zustimmungsfreistellung
 
 Am 1. Oktober 2020 veröffentlichte die französische Datenschutzbehörde (im Folgenden „CNIL“) eine überarbeitete Fassung ihrer Cookie-Leitlinien (im Folgenden „Leitlinien“) und ihrer abschließenden Empfehlungen zur Einholung der Zustimmung der Benutzenden zum Speichern oder Lesen nicht unerlässlicher Cookies und ähnlicher Technologien auf Geräten oder Browsern der Benutzenden (im Folgenden „Empfehlungen“).
@@ -54,7 +67,7 @@ Es gelten zusätzlich folgende Überlegungen:
 * Adobe Analytics betreibt Datenverarbeitungszentren in den USA, Großbritannien und Singapur, um der gesamten Kundschaft Flexibilität bei der Erfassung, Verarbeitung und Speicherung ihrer Daten auf regionaler Ebene zu bieten. Bei der Konfiguration der erstmaligen Einrichtung von Adobe Analytics können Kundinnen und Kunden den gewünschten Standort des Rechenzentrums auswählen. Die Daten der Kundinnen und Kunden werden letztendlich in ihrer ausgewählten Region für das Analytics-Hauptprodukt gespeichert.
 * Ziehen Sie in Erwägung, den Opt-in-Status in einer Analytics-Variablen zu erfassen, um Opt-in-Daten und Opt-out-Daten bei der Segmentierung oder bei Virtual Report Suites zu trennen oder zu separaten Endpunkten weiterzuleiten.
 * Keine Messung außerhalb der Site oder App ohne vorherige Zustimmung, z. B. keine Offsite-Kampagnen, E-Mail-Kampagnen oder iFrames.
-* Die Erfassung personenbezogener Daten in Variablen ist ohne Zustimmung nicht gestattet. [Steuern von CX Enterprise-Aktivitäten auf Basis des Benutzereinverständnisses](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de#implementing-opt-in-on-the-page)
+* Die Erfassung personenbezogener Daten in Variablen ist ohne Zustimmung nicht gestattet. [Steuern von CX Enterprise-Aktivitäten auf Grundlage des Benutzereinverständnisses](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de#implementing-opt-in-on-the-page)
 * Daten dürfen nur zur Erstellung anonymer Statistiken verwendet werden, wobei sie nicht mit anderen Daten kombiniert werden dürfen.
 * Die Daten werden nicht für Querverweisaktionen verwendet.
 * GPS-Geopositionsdaten werden nicht erfasst.

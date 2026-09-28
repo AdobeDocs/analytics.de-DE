@@ -3,28 +3,39 @@ description: Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie A
 title: Kontextbezogene Sitzungen
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-TQID: https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw
+TQID: 'https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 29%
-
 ---
-
 # Kontextbezogene Sitzungen
 
 Kontextbezogene Sitzungen in Virtual Report Suites ändern, wie Adobe Analytics Besuche von jedem Gerät aus berechnet. In diesem Artikel werden auch die Verarbeitungsauswirkungen von Hintergrundtreffern und App-Startereignissen (beide vom Mobile SDK festgelegt) auf die Definition mobiler Besuche beschrieben.
@@ -34,7 +45,7 @@ Sie können einen Besuch auf beliebige Art und Weise definieren, ohne die zugrun
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kontextsensitive Sitzungen](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kontextsensitive Sitzungen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +77,7 @@ Wenn der Hintergrundtreffer mehr als 30 Minuten vor den Vordergrundtreffern auft
 
 Die folgenden Beispiele veranschaulichen das Verhalten von Hintergrundtreffern, wenn diese Funktion aktiviert ist.
 
-Beispiel 1: Ein Hintergrundtreffer tritt eine gewisse Zeitspanne (t) vor einer Reihe von Vordergrundtreffern auf.
+Beispiel 1: Ein Hintergrundtreffer tritt einen gewissen Zeitraum (t) vor einer Reihe von Vordergrundtreffern auf.
 
 ![](assets/nogoodexample1.jpg)
 
@@ -124,13 +135,13 @@ Wenn *t1* größer als die maximale Wartezeit und *t2* kleiner als die maximale 
 
 ![](assets/nogoodexample3-4.jpg)
 
-Beispiel 4: In Szenarien mit einer Reihe von Hintergrundtreffern im Zeitraum des Besuchstimeouts der Virtual Report Suite bilden die Treffer einen nicht sichtbaren „Hintergrundbesuch“, der nicht zu der Besuchsanzahl zählt und der nicht mithilfe eines Besuchssegmentierungscontainers zugänglich ist.
+Beispiel 4: In Szenarien mit einer Reihe von Hintergrundtreffern innerhalb des Besuchs-Timeouts der Virtual Report Suite bilden die Treffer einen nicht sichtbaren „Hintergrundbesuch“, der nicht zur Besuchsanzahl zählt und der nicht mithilfe eines Besuchssegmentierungs-Containers zugänglich ist.
 
 ![](assets/nogoodexample4.jpg)
 
-Obwohl dies nicht als Besuch gilt, behalten festgelegte eVars mit Besuchsablauf ihre Werte für die anderen Hintergrundtreffer in diesem „Hintergrundbesuch“.
+Obwohl dies nicht als Besuch gilt, behalten festgelegte eVars mit Besuchsgültigkeit ihre Werte für die anderen Hintergrundtreffer in diesem „Hintergrundbesuch“ bei.
 
-Beispiel 5: In Szenarien, in denen mehrere Hintergrundtreffer nacheinander im Anschluss an eine Reihe von Vordergrundtreffern auftreten, ist es möglich (je nach Timeouteinstellung), dass die Hintergrundtreffer einen Besuch länger aufrecht erhalten als für die Zeitspanne des Besuchstimeouts. Wenn beispielsweise *t1* und *t2* zusammen größer sind als die maximale Wartezeit bei einem Besuch der Virtual Report Suite, aber einzeln kleiner als die maximale Wartezeit, würde der Besuch weiterhin auf beide Hintergrundtreffer erweitert:
+Beispiel 5: In Szenarien, in denen mehrere Hintergrundtreffer nacheinander im Anschluss an eine Reihe von Vordergrundtreffern auftreten, ist es möglich (je nach Timeout-Einstellung), dass die Hintergrundtreffer einen Besuch länger aufrechterhalten, als es das Besuchs-Timeout vorsieht. Wenn beispielsweise *t1* und *t2* zusammen größer sind als die maximale Wartezeit bei einem Besuch der Virtual Report Suite, aber einzeln kleiner als die maximale Wartezeit, würde der Besuch weiterhin auf beide Hintergrundtreffer erweitert:
 
 ![](assets/nogoodexample5.jpg)
 
@@ -144,13 +155,13 @@ Hintergrundtreffer verhalten sich auf diese Weise, um Attributionseffekte aus eV
 
 Die Anzahl der Besuche basiert ausschließlich auf der Anzahl der Besuche, die mindestens einen Vordergrundtreffer enthalten. Das bedeutet, dass verwaiste Hintergrundtreffer oder „Hintergrundbesuche“ nicht für die Besuchsmetrik gezählt werden.
 
-## Zeit pro Besuch – Metrikverhalten
+## Verhalten der Metrik „Zeit pro Besuch“
 
 Die Besuchszeit wird dennoch analog zur Zeit ohne Hintergrundtreffer berechnet, indem die Zeit zwischen den Treffern verwendet wird. Wenn ein Besuch Hintergrundtreffer enthält (weil diese nahe genug an Vordergrundtreffern aufgetreten sind), werden diese Treffer in die Berechnung der pro Besuch verbrachten Zeit einbezogen, als ob sie ein Vordergrundtreffer wären.
 
 ## Einstellungen zur Verarbeitung von Treffern im Hintergrund
 
-Weil die Hintergrundtrefferverarbeitung nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, wobei die Funktion „Berichtszeitverarbeitung“ nicht verwendet wird. Um auf diese Einstellung zuzugreifen, gehen Sie zu den Adobe Analytics Admin Tools, gehen Sie zu den Einstellungen der entsprechenden zugrunde liegenden Report Suite und navigieren Sie dann zum Menü „Mobile Management“ und dann zum Untermenü „Berichte über Mobile Apps“.
+Da die Verarbeitung von Hintergrundtreffern nur für Virtual Report Suites mit Berichtszeitverarbeitung verfügbar ist, unterstützt Adobe Analytics zwei Methoden zur Verarbeitung von Hintergrundtreffern, um die Anzahl der Besuche in der zugrunde liegenden Report Suite beizubehalten, die keine Berichtszeitverarbeitung verwendet. Um auf diese Einstellung zuzugreifen, gehen Sie zu den Adobe Analytics Admin Tools, gehen Sie zu den Einstellungen der entsprechenden zugrunde liegenden Report Suite und navigieren Sie dann zum Menü „Mobile Management“ und dann zum Untermenü „Berichte über Mobile Apps“.
 
 1. „Legacy-Verarbeitung eingeschaltet“: Dies ist die Standardeinstellung für alle Report Suites. Überlassen Sie die veraltete Verarbeitung bei Hintergrundprozessen als normale Treffer in unserer Verarbeitungs-Pipeline, soweit die Report Suite der Nicht-Berichtszeitzuordnung betroffen ist. Das bedeutet, dass alle Hintergrundtreffer, die in der zugrunde liegenden Report Suite angezeigt werden, die Besuche als normalen Treffer erhöhen. Wenn in Ihrer zugrunde liegenden Report Suite keine Hintergrundtreffer angezeigt werden sollen, ändern Sie diese Einstellung in „Aus“.
 1. „Legacy-Verarbeitung Aus“: Wenn die Legacy-Verarbeitung für Hintergrundtreffer aus ist, werden an die zugrunde liegende Report Suite gesendete Hintergrundtreffer von der zugrunde liegenden Report Suite ignoriert, und sie sind nur zugänglich, wenn eine in dieser zugrunde liegenden Report Suite erstellte Virtual Report Suite für die Verwendung der Funktion „Berichtszeitverarbeitung“ konfiguriert ist. Demnach werden von den Hintergrundtreffern erfasste Daten, die an diese zugrunde liegende Report Suite gesendet werden, nur in einer Virtual Report Suite mit aktivierter Funktion „Berichtszeitverarbeitung“ angezeigt.

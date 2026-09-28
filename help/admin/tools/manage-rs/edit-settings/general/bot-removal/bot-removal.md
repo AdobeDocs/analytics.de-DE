@@ -4,27 +4,37 @@ description: Entfernen von Bots in Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
+TQID: 'https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 784
+source-wordcount: '784'
 ht-degree: 56%
-
 ---
-
 # Entfernen von Bots in Adobe Analytics
 
 Adobe Analytics bietet mehrere Optionen zum Entfernen von Bot-Traffic aus Berichten:
@@ -77,7 +87,7 @@ Sobald der Data Warehouse-Bericht eintrifft, verfügen Sie über eine Liste der 
 * **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie für die neue deklarierte ID oben angegeben haben.
 * **Bot Flag**: Fügen Sie „Bot Flag“ als Schema-Dimension für Kundenattribute hinzu.
 
-Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [&#x200B; beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [ beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 
@@ -101,7 +111,7 @@ Legen Sie mindestens eine monatliche Erinnerung fest, um neue Bots zu identifizi
 
 >[!MORELIKETHIS]
 >
->* [Bessere Bot-Blockierung (Teil 1): Die Grundlagen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=de)
->* [Better Bot Blocking (Teil 2): Identifizieren von Bots und Nutzung von CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=de)
->* [Bessere Bot-Blockierung (Teil 3): Der Trefferregler](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=de)
+>* [Bessere Bot-Blockierung (Teil 1): Die Grundlagen](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Better Bot Blocking (Teil 2): Identifizieren von Bots und Nutzung von CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Bessere Bot-Blockierung (Teil 3): Der Trefferregler](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

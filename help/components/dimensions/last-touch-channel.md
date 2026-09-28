@@ -3,7 +3,7 @@ title: Letztkontakt-Kanal
 description: Der neueste Marketing-Kanal innerhalb des Interaktionsablaufs des Besuchers.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-TQID: https://experienceleague.adobe.com/wUNsv-0snBfk6EE6yeCEuT8-hGvBu9U8tjKDfxhVRA0
+TQID: 'https://experienceleague.adobe.com/wUNsv-0snBfk6EE6yeCEuT8-hGvBu9U8tjKDfxhVRA0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
     internal-label: Marketing Channels
@@ -19,6 +21,8 @@ subfeature_v2:
     internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
     internal-label: Report Suite settings
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,18 +33,18 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 49%
 ---
 # Letztkontakt-Kanal
 
-Der „Letztkontakt-Kanal[&#x200B; (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
+Der „Letztkontakt-Kanal[ (Dimension](overview.md) zeigt den neuesten Marketing-Kanal an, dem ein Besucher während des Interaktionszeitraums dieses Besuchers entspricht (standardmäßig 30 Tage). Diese Dimension ist nützlich, um zu verstehen, welche Marketing-Kanäle den Traffic zu Ihrer Site leiten, der zu Konversionen führt, sodass Sie Ihre Marketing-Bemühungen auf Bereiche konzentrieren können, die am effektivsten sind.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension wird durch Verarbeitungsregeln für Marketing-Kanäle abgeleitet. Sie verweist direkt auf Kanalnamen, die Sie im [Marketing-Kanal-Manager“ definiert &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Jeder Treffer durchläuft die Verarbeitungsregeln Ihrer Report Suite für den Marketing-Kanal in numerischer Reihenfolge, bis er eine Übereinstimmung findet, die diesen Marketing-Kanal mit dem Treffer verknüpft. Es gibt keine Variable zum Festlegen.
+Diese Dimension wird durch Verarbeitungsregeln für Marketing-Kanäle abgeleitet. Sie verweist direkt auf Kanalnamen, die Sie im [Marketing-Kanal-Manager“ definiert ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md). Jeder Treffer durchläuft die Verarbeitungsregeln Ihrer Report Suite für den Marketing-Kanal in numerischer Reihenfolge, bis er eine Übereinstimmung findet, die diesen Marketing-Kanal mit dem Treffer verknüpft. Es gibt keine Variable zum Festlegen.
 
 | Eigenschaft | Wert |
 | --- | --- |

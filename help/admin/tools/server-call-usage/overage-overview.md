@@ -1,30 +1,40 @@
 ---
-description: Überblick über die Funktionen von Adobe Analytics zur Nutzung von Server-Aufrufen.
-title: Übersicht zur Nutzung von Server-Aufrufen
+description: Überblick über die Adobe Analytics-Funktionen zur Nutzung von Server-Aufrufen.
+title: Überblick zur Nutzung von Server-Aufrufen
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 42%
-
 ---
-
 # Nutzung von Server-Aufrufen
 
 Die Nutzung von Adobe Analytics-Server-Aufrufen adressiert Ihre Anfragen zur Transparenz der Nutzungsdaten von Browser- und Mobile-Server-Aufrufen. Damit können Sie auf Folgendes zugreifen:
@@ -55,7 +65,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server-Aufruf </p> </td> 
-   <td colname="col2"> <p>Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Der häufigste Server-Aufruf ist eine Seitenansicht. Bei einem Seitenaufruf betrachtet der Besucher eine Seite Ihrer Website. Es wird dann ein Server-Aufruf an Adobe generiert, wobei Informationen erfasst, verarbeitet und in Ihre Berichtsmetriken aufgenommen werden. </p> <p>Weitere Typen von Server-Aufrufen sind Exitlinks und Dateidownloads, bei denen Daten für eine Verarbeitung an Adobe gesendet werden. Diese Daten werden aber nicht als neuer Seitenaufruf aufgezeichnet. Selbst „ausgeschlossene“ Seitenansichten (die beispielsweise aufgrund eines von Ihnen konfigurierten IP-Adressbereichs aus Ihren Berichten ausgeschlossen sind) sind Server-Aufrufe, da sie von Adobe empfangen und verarbeitet, aber nie in Ihren Berichten angezeigt werden. </p> <p><b>Primärer Server-Aufruf</b>: Anforderungen, die direkt von den Browsern der Website-Besucher oder von der Dateneinfüge-API empfangen werden. Umfasst Primäre Treffer (Seitenansichten), Primäre benutzerspezifische Ereignisse, Primäre Download-Ereignisse und Primäre Exit-Ereignisse. </p> <p><b>Sekundärer Server-Aufruf</b>: Kopien von Primärserver-Aufrufen, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, werden die kumulierten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p><b>Mobile Primäre Server-</b> </p> <p>Anforderungen, die direkt von einem der Mobile-SDKs empfangen wurden. Beinhaltet trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Sekundärer mobiler Server-Aufruf</b> </p> <p>Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, werden die kumulierten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p>Hinweis: Falls Ihr Unternehmen vertraglich nur zu mobilen Server-Aufrufen (primär oder sekundär) berechtigt ist, werden sowohl die Web- als auch die Mobilnutzung gegen Ihre Mobilzusage aufgerechnet. </p> </td> 
+   <td colname="col2"> <p>Ein Server-Aufruf, auch als „Treffer“ oder „Bildanforderung“ bezeichnet, ist eine Instanz, in der Daten zur Verarbeitung an Adobe-Server gesendet werden. Der häufigste Server-Aufruf ist eine Seitenansicht. Bei einem Seitenaufruf betrachtet der Besucher eine Seite Ihrer Website. Es wird dann ein Server-Aufruf an Adobe generiert, wobei Informationen erfasst, verarbeitet und in Ihre Berichtsmetriken aufgenommen werden. </p> <p>Weitere Typen von Server-Aufrufen sind Exitlinks und Datei-Downloads, bei denen Daten zur Verarbeitung an Adobe gesendet werden. Diese Daten werden aber nicht als neue Seitenansicht aufgezeichnet. Selbst „ausgeschlossene“ Seitenansichten (die beispielsweise aufgrund eines von Ihnen konfigurierten IP-Adressbereichs aus Ihren Berichten ausgeschlossen sind) sind Server-Aufrufe, da sie von Adobe empfangen und verarbeitet, aber nie in Ihren Berichten angezeigt werden. </p> <p><b>Primärer Server-Aufruf</b>: Anforderungen, die direkt von den Browsern der Website-Besucher oder von der Dateneinfüge-API empfangen werden. Umfasst Primäre Treffer (Seitenansichten), Primäre benutzerspezifische Ereignisse, Primäre Download-Ereignisse und Primäre Exit-Ereignisse. </p> <p><b>Sekundärer Server-Aufruf</b>: Kopien von Primärserver-Aufrufen, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, werden die kumulierten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p><b>Mobile Primäre Server-</b> </p> <p>Anforderungen, die direkt von einem der Mobile-SDKs empfangen wurden. Beinhaltet trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Sekundärer mobiler Server-Aufruf</b> </p> <p>Kopien der primären Server-Aufrufe, die von Multi-Suite-Tags erstellt oder von einer VISTA-Regel kopiert/verschoben wurden. Wenn ein sekundärer Server-Aufruf durch eine VISTA-Regel in eine andere Report Suite verschoben (nicht kopiert) wurde, werden die kumulierten sekundären Aufrufe von den primären Server-Aufrufen abgezogen. </p> <p>Hinweis: Falls Ihr Unternehmen vertraglich nur zu mobilen Server-Aufrufen (primär oder sekundär) berechtigt ist, werden sowohl die Web- als auch die Mobilnutzung gegen Ihre Mobilzusage aufgerechnet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abrechnungsunternehmen (Abrechnungs-ID) </p> </td> 
@@ -73,7 +83,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Enterprise-Organisation </p> </td> 
-   <td colname="col2"> <p>Eine Organisation ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern. Die Organisation agiert als Login-Unternehmen, das alle CX Enterprise-Produkte und -Lösungen umfasst. </p> <p>Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. </p> </td> 
+   <td colname="col2"> <p>Eine Organisation ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern. Das Unternehmen agiert als Anmeldeunternehmen, das alle CX Enterprise-Produkte und -Lösungen umfasst. </p> <p>Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbindlichkeit für Server-Aufrufe </p> </td> 
@@ -85,7 +95,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertragslaufzeit </p> </td> 
-   <td colname="col2"> <p>Die Vertragsdauer kann mehrere Jahre betragen. Nehmen wir an, dass Ihr Unternehmen eine Zusage für Server-Aufrufe von 6 Millionen Aufrufen während einer Vertragsdauer von 3 Jahren erhalten hat. Um die Nutzung der Server-Aufrufe besser überwachen zu können, wird dieser Zeitraum von 3 Jahren in kleinere Nutzungsperioden aufgeteilt, um so einfacher Jahresvergleiche durchzuführen. </p> </td> 
+   <td colname="col2"> <p>Die Vertragsdauer kann mehrere Jahre betragen. Nehmen wir an, dass Ihr Unternehmen eine Vereinbarung über 6 Millionen Server-Aufrufe für eine Vertragslaufzeit von 3 Jahren hat. Um die Nutzung der Server-Aufrufe besser überwachen zu können, wird dieser Zeitraum von 3 Jahren in kleinere Nutzungsperioden aufgeteilt, um so einfacher Jahresvergleiche durchzuführen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

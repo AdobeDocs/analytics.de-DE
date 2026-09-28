@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/fmbMByXfPMR4C0gUmt3HIAoY1vwIXqTVzE97o9F1rK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '873'
 ht-degree: 62%
-
 ---
-
 # tl
 
 Die `tl()`-Methode ist eine wichtige Kernkomponente von Adobe Analytics. Sie nimmt alle auf der Seite definierten Analytics-Variablen, kompiliert sie in eine Bildanforderung und sendet diese Daten an die Adobe-Datenerfassungs-Server. Sie funktioniert ähnlich wie die [`t()`](t-method.md)-Methode, allerdings inkrementiert diese Methode keine Seitenansichten. Sie ist nützlich, um Links und andere Elemente zu verfolgen, die nicht als vollständige Seitenladung betrachtet werden.
 
-Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackExternalLinks`](../config-vars/trackexternallinks.md) aktiviert ist, ruft AppMeasurement automatisch die `tl()`-Methode auf, um Download- und Exitlinktracking-Daten zu senden. Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten haben möchte, können Sie die `tl()`-Methode manuell aufrufen. Benutzerspezifische Links können nur manuell verfolgt werden.
+Wenn [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) oder [`trackExternalLinks`](../config-vars/trackexternallinks.md) aktiviert ist, ruft AppMeasurement automatisch die `tl()`-Methode auf, um Download- und Exitlinktracking-Daten zu senden. Wenn Ihr Unternehmen mehr Kontrolle über die zu verfolgenden Links und deren Verhalten haben möchte, können Sie die `tl()`-Methode manuell aufrufen. Benutzerspezifische Links können nur manuell getrackt werden.
 
 ## Linktracking mit der Web-SDK
 
@@ -82,8 +90,8 @@ Die Adobe Analytics-Erweiterung verfügt über einen speziellen Ort, um einen Li
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
 1. Gehen Sie zur Registerkarte „[!UICONTROL Regeln]“ und klicken Sie dann auf die gewünschte Regel (oder erstellen Sie eine Regel).
-1. Klicken [!UICONTROL &#x200B; unter &#x200B;]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
-1. Legen Sie [!UICONTROL &#x200B; Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
+1. Klicken [!UICONTROL  unter ]Aktionen“ auf die gewünschte Aktion oder klicken Sie auf das Symbol **&#39;+&#39;**, um eine Aktion hinzuzufügen.
+1. Legen Sie [!UICONTROL  Dropdown]Liste „Erweiterung“ auf **[!UICONTROL Adobe Analytics]** und den [!UICONTROL Aktionstyp] auf **[!UICONTROL Beacon senden]** fest.
 1. Klicken Sie auf die Optionsschaltfläche `s.tl()`.
 
 Sie können in der Analytics-Erweiterung keine optionalen Argumente festlegen.

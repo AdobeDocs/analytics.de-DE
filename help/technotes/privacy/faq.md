@@ -4,30 +4,43 @@ title: Häufig gestellte Fragen zu Data Governance
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+TQID: 'https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2101
+source-wordcount: '2101'
 ht-degree: 86%
-
 ---
-
 # Häufig gestellte Fragen zum Datenschutz in Adobe Analytics
 
 +++ **Wie unterstützt Adobe Analytics Zugriffs- und Löschanfragen für Endbenutzenden (Datensubjekte), die von Kundinnen und Kunden (Datenverantwortlichen) validiert wurden?**
@@ -94,7 +107,7 @@ Eine schrittweise Anleitung zur Vorbereitung auf die Datenschutzregeln finden Si
 
 DSGVO und CCPA bieten gute Möglichkeiten, Ihre Strategie und Ihre Vorgehensweisen für die Einverständnisverwaltung zu überdenken. Dazu gehört, zu bestimmen, wann eine Einwilligung erforderlich ist, und über das Wertversprechen für die Benutzenden nachzudenken. Denken Sie über das Wertversprechen bezüglich des Datenschutzes von Kundinnen und Kunden nach. Dies kann auch für Konversionen und die Kundentreue förderlich sein. Der Bereich der Einverständnisverwaltung (z. B. Tools, Standards, Best Practices) entwickelt sich schnell weiter und sollte im Auge behalten werden. Um die Auswirkungen auf die Benutzerinteraktion zu minimieren, sollten die Verantwortlichen sowohl mit Anbietern in diesem Bereich als auch mit ihrem Rechtsbeistand zusammenarbeiten, um sicherzustellen, dass sie die neuen Gesetze und Richtlinien zu Einverständnis und Cookies befolgen. Ein auf Erfahrungen beruhender Datenschutz mithilfe eines markenbezogenen, kontextabhängigen relevanten Erlebnisses, das das Wertversprechen Ihrer Datenerfassung zum Ausdruck bringt, ist eine gute Strategie.
 
-Als Datenverantwortliche sind Sie dafür zuständig, die ausdrückliche Einwilligung von den betroffenen Personen einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Opt-out-Mechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) zu implementieren. Auf diese Weise können betroffene Personen die zukünftige Datenerfassung in Adobe CX Enterprise deaktivieren.
+Als Datenverantwortliche sind Sie dafür zuständig, die ausdrückliche Einwilligung von den betroffenen Personen einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Opt-out-Mechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) zu implementieren. Dadurch können betroffene Personen die zukünftige Datenerfassung durch Adobe CX Enterprise deaktivieren.
 
 +++
 

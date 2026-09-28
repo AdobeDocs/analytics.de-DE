@@ -3,7 +3,7 @@ title: Einverständnis für Anzeigenplattform
 description: Siehe die Konfiguration für die Werbezustimmung bei Werbeanbietern von Drittanbietern.
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-TQID: https://experienceleague.adobe.com/Ou6-B5pFx-ku9H2iEqLN0Ly6-t01CzQUODo0poMk8Bs
+TQID: 'https://experienceleague.adobe.com/Ou6-B5pFx-ku9H2iEqLN0Ly6-t01CzQUODo0poMk8Bs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +35,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 5%
@@ -46,7 +50,7 @@ In Zukunft kann diese Dimension verwendet werden, um die Codierung zusätzlicher
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfasst Daten aus der `contextData.['adConsent']` [Kontextdatenvariable](/help/implement/vars/page-vars/contextdata.md). Sie füllen diese Variable mit den entsprechenden Google-Einverständnisfeldwerten: `ad_user_data` (erstes Zeichen) und `ad_personalization` (zweites Zeichen). Weitere Informationen finden [&#x200B; unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
+Diese Dimension erfasst Daten aus der `contextData.['adConsent']` [Kontextdatenvariable](/help/implement/vars/page-vars/contextdata.md). Sie füllen diese Variable mit den entsprechenden Google-Einverständnisfeldwerten: `ad_user_data` (erstes Zeichen) und `ad_personalization` (zweites Zeichen). Weitere Informationen finden [ unter „Einverständnis“ in der Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)API-Referenz.
 
 | Eigenschaft | Wert |
 | --- | --- |
@@ -77,7 +81,7 @@ Jenseits des ersten und zweiten Zeichens werden derzeit ignoriert.
 
 Sie können die erfassten Anzeigeneinverständnisdaten verwenden:
 
-* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* Daten-Feeds: Die Daten zum Werbeeinverständnis sind über die `dataprivacydmaconsent` ([) ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse-Berichte: Die Daten zum Anzeigeneinverständnis sind über die Dimension **[!UICONTROL Anzeigenplattformeinverständnis]** verfügbar.
 
 Ihr Unternehmen bestimmt die Logik zur Implementierung dieser Kontextdatenvariablen. Der Wert bleibt nicht über den Treffer hinaus erhalten, für den er festgelegt wurde. Daher müssen Sie die Kontextdatenvariable auf jeder Seite festlegen.

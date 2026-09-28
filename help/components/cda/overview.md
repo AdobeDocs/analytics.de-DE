@@ -4,35 +4,46 @@ description: Erfahren Sie, wie Sie Ihre Daten durch Zusammenfügen von Geräteda
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
+TQID: 'https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 55%
-
 ---
-
 # Geräteübergreifende Analyse
 
 {{available-existing-customers}}
 
 >[!WARNING]
 >
->Das Gerätediagramm in der geräteübergreifenden Analyse ist [veraltet](https://experienceleague.adobe.com/de/docs/discontinued/using/device-graph) und ab dem 31. **2025 nicht mehr**. Wechseln Sie alle aktuellen für Gerätediagramme aktivierten Virtual Report Suites in die [feldbasierte Methode](/help/components/cda/field-based-stitching.md).
+>Das Gerätediagramm in der geräteübergreifenden Analyse ist [veraltet](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) und ab dem 31. **2025 nicht mehr**. Wechseln Sie alle aktuellen für Gerätediagramme aktivierten Virtual Report Suites in die [feldbasierte Methode](/help/components/cda/field-based-stitching.md).
 >
 
 
@@ -40,7 +51,7 @@ Die geräteübergreifende Analyse (CDA) ist eine Funktion, mit der Analytics von
 Mit der feldbasierten Zuordnung können Sie eine Analytics-Variable als Basis für die geräteübergreifende Zuordnung in einer Virtual Report Suite auswählen.
 
 
-Mithilfe der geräteübergreifenden Analyse können Sie Fragen beantworten wie z. B.:
+Mithilfe von CDA können Sie Fragen beantworten wie z. B.:
 
 * Wie viele Menschen interagieren mit meiner Marke? Wie viele und welche Gerätetypen verwenden sie? Wie überschneiden sich diese?
 * Wie oft beginnen Personen mit einer Aufgabe auf einem Mobilgerät und wechseln dann zu einem Desktop-PC, um die Aufgabe abzuschließen? Führen Kampagnen-Clickthroughs auf einem Gerät zur Konversion auf einem anderen Gerät?
@@ -52,13 +63,13 @@ Beim Zuordnen von Geräten wird die variable Persistenz über Geräte hinweg üb
 
 
 
-Weitere [&#x200B; zu den Funktionen und Leistungsmerkmalen der geräteübergreifenden Analyse finden &#x200B;](https://express.adobe.com/page/8ZpjsX6Lp5XTM/) auf der Seite „Cross-Device Analytics Spark“.
+Weitere [ zu den Funktionen und Leistungsmerkmalen der geräteübergreifenden Analyse finden ](https://express.adobe.com/page/8ZpjsX6Lp5XTM/) auf der Seite „Cross-Device Analytics Spark“.
 
 ## Voraussetzungen
 
 Die Verwendung der geräteübergreifenden Analyse erfordert [feldbasiertes Stitching](field-based-stitching.md).
 
-* Es muss ein Vertrag bei Adobe mit Adobe Analytics Ultimate abgeschlossen werden.
+* Es muss ein Vertrag mit Adobe unterzeichnet werden, der Adobe Analytics Ultimate enthält.
 * Ihre Organisation wählt die Report Suites aus, die CDA aktivieren sollen. Adobe empfiehlt Report Suites, die geräteübergreifende Daten enthalten, d. h. Daten von mehreren Geräten/Browsern/App-Typen. Einige Unternehmen bezeichnen dieses Konzept als „globale“ Report Suite, obwohl die geräteübergreifende Analyse aus geografischer Sicht nicht unbedingt global sein muss.
 
 ## Einschränkungen
@@ -66,7 +77,7 @@ Die Verwendung der geräteübergreifenden Analyse erfordert [feldbasiertes Stitc
 Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion, die jedoch Einschränkungen hinsichtlich ihrer Verwendung aufweist. [Feldbasiertes Stitching](field-based-stitching.md) weist auch eigene spezifische Einschränkungen auf.
 
 * Die geräteübergreifende Analyse ist nur über Analysis Workspace verfügbar.
-* Die geräteübergreifende Analyse funktioniert nicht in allen Report Suites und kombiniert auch keine Daten aus mehreren Report Suites.
+* Die geräteübergreifende Analyse funktioniert nicht über mehrere Report Suites hinweg und kombiniert auch keine Daten aus mehreren Report Suites.
 * Adobe Analytics-Report Suites können nicht mit mehr als einer Organisations-ID verknüpft werden. Da die geräteübergreifende Analyse Geräte innerhalb einer bestimmten Report Suite zusammenfügt, kann die geräteübergreifende Analyse nicht verwendet werden, um Daten über mehrere Organisations-IDs hinweg zusammenzufügen.
 * Die geräteübergreifende Analyse verwendet eine komplexe Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Diese Pipeline wird parallel zum Analytics-Basisberichterstellungs-Workflow ausgeführt. Es besteht eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite in Cross-Device Analytics.
 * CDA verwendet eine Virtual Report Suite und eine Berichtszeitverarbeitung, die ihre eigenen Einschränkungen haben. Sie unterstützen etwa derzeit keine Marketing-Kanal-Variablen. Weitere Informationen zu diesen Einschränkungen finden Sie unter [Virtual Report Suites](/help/components/vrs/vrs-about.md) und [Berichtszeitverarbeitung](/help/components/vrs/vrs-report-time-processing.md).
@@ -74,8 +85,8 @@ Die geräteübergreifende Analyse ist eine innovative und zuverlässige Funktion
 * Die geräteübergreifende Analyse ist derzeit nicht mit A4T kompatibel.
 * Die 1.4 API wird nicht unterstützt. Power BI-Connectoren und Report Builder basieren beide auf der 1.4 API und sind daher nicht mit der geräteübergreifenden Analyse kompatibel.
 * Die aktive Überwachung des Prozesses der geräteübergreifenden Analyse durch Adobe ist auf Report Suites im Produktionsbetrieb beschränkt.
-* Die geräteübergreifende Analyse ist derzeit nicht mit der Adobe Analytics (Data [&#x200B; API) &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)
-* Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten von Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
+* Die geräteübergreifende Analyse ist derzeit nicht mit der Adobe Analytics (Data [ API) ](https://developer.adobe.com/analytics-apis/docs/2.0/)
+* Historische Daten in der Virtual Report Suite ändern sich je nach Erkennung und Zuordnung von Geräten durch Adobe. Die Daten in der Quell-Report Suite bleiben unverändert.
 * Zugeordnete Daten haben eine Latenz von 8 bis 12 Stunden.
 * Die Zuordnung von Verlaufsdaten für ein bestimmtes Gerät wird für bis zu einem Jahr gespeichert.
 * Wenn ein Gerät innerhalb eines Jahres eine sehr hohe Anzahl von Zuordnungsverlaufseinträgen erreicht, wird der Zuordnungsverlauf gekürzt. Das genaue Limit hängt von der verwendeten Stitching-Option ab.

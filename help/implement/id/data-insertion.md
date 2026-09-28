@@ -11,16 +11,22 @@ feature_v2:
     internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
     internal-label: Functions
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -28,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fcd738b7eb13c13d5f9f23d625287988c803220
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -47,20 +53,20 @@ Adobe identifiziert einen Besucher anhand der standardmäßigen [Reihenfolge der
 
 Die ECID (als `mid` gesendet) ist die moderne, lösungsübergreifende Besucherkennung, die für Adobe Analytics, Adobe Target und Adobe Audience Manager freigegeben ist. Adobe empfiehlt, sie nach Möglichkeit zu verwenden.
 
-Abrufen der ECID mit dem [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) (`VisitorAPI.js`). Initialisieren Sie in einem Browser den Service mit Ihrer IMS-Organisations-ID mithilfe von [`getInstance`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getinstance) und lesen Sie dann die ECID mit [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getmcvid):
+Abrufen der ECID mit dem [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) (`VisitorAPI.js`). Initialisieren Sie in einem Browser den Service mit Ihrer IMS-Organisations-ID mithilfe von [`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance) und lesen Sie dann die ECID mit [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid):
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-Senden Sie diesen Wert bei jedem Treffer als `mid` Abfrageparameter zusammen mit Ihrer IMS-Organisations-ID als `mcorgid`, damit die ECID korrekt aufgelöst wird. Wenn Ihre Daten an Audience Manager weitergeleitet werden, senden Sie als `aamlh` auch die Region von [`getLocationHint`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getlocationhint). Um Ihre eigenen Kundenkennungen mit dem Besucher zu verknüpfen, verwenden Sie [`setCustomerIDs`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/setcustomerids).
+Senden Sie diesen Wert bei jedem Treffer als `mid` Abfrageparameter zusammen mit Ihrer IMS-Organisations-ID als `mcorgid`, damit die ECID korrekt aufgelöst wird. Wenn Ihre Daten an Audience Manager weitergeleitet werden, senden Sie als `aamlh` auch die Region von [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint). Um Ihre eigenen Kundenkennungen mit dem Besucher zu verknüpfen, verwenden Sie [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-Für die Server-seitige Erfassung rufen Sie die ECID auf dem Client ab und leiten Sie sie an Ihren Server weiter, um sie bei jedem Treffer zu senden. Um eine ECID vollständig Server-seitig ohne Client zu generieren, verwenden Sie die [direkte Integration](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/direct-integration) des ID-Service.
+Für die Server-seitige Erfassung rufen Sie die ECID auf dem Client ab und leiten Sie sie an Ihren Server weiter, um sie bei jedem Treffer zu senden. Um eine ECID vollständig Server-seitig ohne Client zu generieren, verwenden Sie die [direkte Integration](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration) des ID-Service.
 
 ## Verwenden der Analytics-Besucher-ID
 
-Die Analytics-Besucher-ID (`aid`) wird im [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie gespeichert. Wenn ein Treffer ohne Kennung eingeht, weist der Erfassungsserver eine `aid` zu und versucht, ein Cookie zu setzen, das diese Kennung enthält. Einige [Antworttypen](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) schließen diese Kennung auch in den Antworttext ein.
+Die Analytics-Besucher-ID (`aid`) wird im [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)-Cookie gespeichert. Wenn ein Treffer ohne Kennung eingeht, weist der Erfassungsserver eine `aid` zu und versucht, ein Cookie zu setzen, das diese Kennung enthält. Einige [Antworttypen](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) schließen diese Kennung auch in den Antworttext ein.
 
 * **Client-seitig (direkte Bildanforderungen).** Der Browser speichert das vom Server zurückgegebene `s_vi`-Cookie und sendet es bei jeder späteren Anforderung an dieselbe Sammlungsdomäne. Der Besucher wird dann automatisch erkannt, ohne dass er sich selbst festlegen `aid`. Da dieses Modell von Cookies abhängig ist, unterliegt es denselben Dauerhaltbarkeitsbeschränkungen wie jede andere Cookie-basierte Identität. Unter [Besucheridentifizierung mit AppMeasurement](appmeasurement.md) finden Sie Informationen zum Verhalten von Erstanbieter- und Drittanbieter-Cookies und zur [Reihenfolge der Vorgänge](overview.md), wie Adobe die zu verwendende Kennung auswählt. Adobe empfiehlt die Verwendung einer ECID für eine dauerhafte Identität.
 

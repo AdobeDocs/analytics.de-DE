@@ -4,38 +4,48 @@ keywords: Segmentierung;Segmente
 title: Segment-Container
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+TQID: 'https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3545
+source-wordcount: '3545'
 ht-degree: 85%
-
 ---
-
 # Segment-Container
 
 Ein Segment legt Bedingungen fest, um einen Besucher basierend auf den Attributen des Besuchers oder den Interaktionen mit Ihrer Site zu filtern. Um Bedingungen in einem Segment festzulegen, legen Sie Regeln fest, um Besucher nach Besuchermerkmalen und/oder Navigationseigenschaften zu filtern. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
 
-Die im Segmentaufbau verwendete Container[Architektur definiert &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md):
+Die im Segmentaufbau verwendete Container[Architektur definiert ](/help/components/segmentation/segmentation-workflow/seg-build.md):
 
 - ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Besucher]** als äußerster Container, der übergreifende Daten enthält, die für den Besucher über Besuche und Seitenansichten hinweg spezifisch sind.
 - ![Besuch](/help/assets/icons/Visit.svg) Mit einem verschachtelten Container **[!UICONTROL Besuch]** können Sie Regeln festlegen, um die Besucherdaten auf der Grundlage von Besuchen aufzuschlüsseln, und
 - ![WebPage](/help/assets/icons/WebPage.svg) ein verschachtelter **[!UICONTROL Treffer]**-Container ermöglicht die Aufschlüsselung der Besucherinformationen anhand der einzelnen Seitenansichten.
 
-Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Besuch aufgeschlüsselte Interaktionen oder aufgeschlüsselte einzelne Treffer.
+Jeder Container ermöglicht es Ihnen, Berichte über den Verlauf einer Besucherin bzw. eines Besuchers zu erstellen, Interaktionen nach Besuchen aufzuschlüsseln oder einzelne Treffer aufzuschlüsseln.
 
 <table style="table-layout: fixed; border: none;">
 
@@ -60,7 +70,7 @@ Jeder Container ermöglicht Berichte über den Verlauf von Besuchenden, nach Bes
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -77,9 +87,9 @@ Besucher-Container können Werte enthalten, die auf dem Gesamtverlauf eines Besu
 
 ## Besuchs-Container
 
-Mit dem Besuchs-Container können Seiteninteraktionen, Kampagnen oder Konversionen für eine bestimmte Web-Sitzung identifiziert werden. Ein Segment auf der Besuchsebene gibt die Seite zurück, die die Bedingung erfüllt, sowie alle anderen Seiten, die von Besuchenden angesehen wurden (und dies nur durch definierte Datumsbereiche beschränkt). Der Besuchs-Container ist der am häufigsten verwendete Container, da er das Verhalten für die gesamte Besuchssitzung erfasst, sobald die Regel erfüllt ist. Mit dem Besuchs-Container können Sie definieren, welche Besuche beim Erstellen und Anwenden eines Segments ein- oder ausgeschlossen werden sollen. Er kann Ihnen bei der Beantwortung der Frage helfen, wie viele Besucher bei demselben Besuch den Bereich „News und Sport“ angesehen haben. Oder Seiten, die einer erfolgreichen Konversion zu einem Verkauf zugeschrieben wurden?
+Mit dem Besuchs-Container können Sie Seiteninteraktionen, Kampagnen oder Konversionen für eine bestimmte Web-Sitzung identifizieren. Ein Segment auf der Besuchsebene gibt die Seite zurück, die die Bedingung erfüllt, sowie alle anderen Seiten, die von Besuchenden angesehen wurden (und dies nur durch definierte Datumsbereiche beschränkt). Der Besuchs-Container ist der am häufigsten verwendete Container, da er das Verhalten für die gesamte Besuchssitzung erfasst, sobald die Regel erfüllt ist. Mit dem Besuchs-Container können Sie definieren, welche Besuche beim Erstellen und Anwenden eines Segments ein- oder ausgeschlossen werden sollen. Er kann Ihnen bei der Beantwortung der Frage helfen, wie viele Besuchende bei demselben Besuch den Abschnitt zu News und Sport angesehen haben. Oder Seiten, die einer erfolgreichen Konversion zu einem Verkauf zugeschrieben wurden?
 
-Besuchs-Container enthalten Werte, die auf dem Auftreten pro Besuch basieren:
+Besuchs-Container enthalten Werte, die auf dem Vorkommen pro Besuch basieren:
 
 - Besuchsnummer
 - Einstiegsseite
@@ -89,9 +99,9 @@ Besuchs-Container enthalten Werte, die auf dem Auftreten pro Besuch basieren:
 
 ## Treffer-Container
 
-Der Treffer-Container definiert, welche Seitenbesuche von einem Segment einbezogen oder ausgeschlossen werden sollen. Der Treffer-Container ist der engste der verfügbaren Container, mit dem Sie bestimmte Klicks und Seitenansichten identifizieren können, bei denen eine Bedingung wahr ist. Sie können einen einzelnen Trackingcode anzeigen oder das Verhalten innerhalb eines bestimmten Bereichs Ihrer Site isolieren. Sie können auch einen bestimmten Wert erkennen, wenn eine Aktion stattfindet, z. B. den Marketing-Kanal, wenn etwas bestellt wurde.
+Der Treffer-Container definiert, welche Seitentreffer Sie in einem Segment ein- oder ausschließen möchten. Der Treffer-Container ist der engste der verfügbaren Container, mit dem Sie bestimmte Klicks und Seitenansichten identifizieren können, bei denen eine Bedingung wahr ist. Sie können einen einzelnen Trackingcode anzeigen oder das Verhalten innerhalb eines bestimmten Abschnitts Ihrer Site isolieren. Sie können auch einen bestimmten Wert erkennen, wenn eine Aktion stattfindet, z. B. den Marketing-Kanal, wenn etwas bestellt wurde.
 
-Treffer-Container enthalten Werte, die auf den Aufschlüsselungen einzelner Seiten basieren:
+Treffer-Container enthalten Werte, die auf der Aufschlüsselung einzelner Seiten basieren:
 
 - Produkte
 - Listen-Props
@@ -100,17 +110,17 @@ Treffer-Container enthalten Werte, die auf den Aufschlüsselungen einzelner Seit
 
   >[!NOTE]
   >
-  >Wenn Sie diesen Container mit einem persistenten Wert verwenden, z. B. einem eVar, wird jeder Treffer ausgelesen, in dem der Wert persistent ist. Im Fall eines Trackingcodes, der nach einer Woche abläuft, kann dieser Wert über mehrere Besuche hinweg persistent sein.
+  >Wenn Sie diesen Container für einen persistenten Wert verwenden, z. B. einen eVar, werden alle Treffer einbezogen, in denen dieser Wert fortbesteht. Im Fall eines Trackingcodes, der nach einer Woche abläuft, kann dieser Wert über mehrere Besuche hinweg persistent sein.
 
 ## Logischer Gruppen-Container
 
-Mit dem logischen Gruppen-Container können Sie einen separaten Container innerhalb der Segmentregeln bereitstellen, um Entitäten zu filtern, die nicht hierarchiebasiert sind. Beispielsweise können Sie einen Container bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucher-Container auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchenden zu filtern. Siehe [Beispiele für logische Gruppen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) als ergänzende Information.
+Mit dem Logikgruppen-Container können Sie einen separaten Container innerhalb der Segmentregeln verwenden, um Entitäten zu filtern, die nicht auf einer Hierarchie basieren. Beispielsweise können Sie einen Container bereitstellen, der innerhalb des Segments verschachtelt ist, das besucherbasiert filtert. Dieser Logiktyp erfordert es, dass Sie die Hierarchie unterbrechen (da Sie bereits über einen Besucher-Container auf der obersten Ebene verfügen), um nur nach ausgewählten Besuchenden zu filtern. Siehe [Beispiele für logische Gruppen](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) als ergänzende Information.
 
 ## Verschachteln von Containern {#nest-containers}
 
 Wenn Sie Segment-Container innerhalb anderer Container erstellen, erstellen Sie im Grunde ein Segment in einem Segment. Bei verschachtelten Containern wird die folgende Logik angewendet:
 
-1. Bestimmen, welche Daten enthalten sind, indem der äußerste Container verwendet wird. Alle Daten, die nicht mit dieser äußeren Regel übereinstimmen, werden im segmentierten Bericht verworfen.
+1. Bestimmen Sie mithilfe des äußersten Containers, welche Daten einbezogen werden. Alle Daten, die nicht mit dieser äußeren Regel übereinstimmen, werden im segmentierten Bericht verworfen.
 1. Wenden Sie die verschachtelte Regel auf die verbleibenden Daten an. Die verschachtelte Regel gilt NICHT für Treffer, die die erste Regel auslöst.
 1. Wiederholen, bis alle verschachtelten Container-Regeln berechnet wurden. Die verbleibenden Daten werden dann in den resultierenden Bericht aufgenommen.
 
@@ -127,9 +137,9 @@ Sie können die Verschachtelung zwischen Containern und zwischen Regeln in einem
 | Besucher. | Besuchs-Container, Treffer-Container, Ereignisse |
 | logische Gruppe | Besucher-Container, Besuchs-Container, Treffer-Container |
 
-### Einbeziehen mehrerer Behälter in eine einzelne Definition
+### Einbeziehen mehrerer Container in eine einzelne Definition
 
-Durch die Einbeziehung mehrerer Segmente in ein neues zusammengesetztes Segment können Sie Daten noch weiter verfeinern. Das Zusammenziehen von zwei vorhandenen Segmenten agiert beim Filtern der Besucher als OR-Anweisung. Alle Container auf der Arbeitsfläche werden gegen alle Daten geprüft und alle Daten, die mit einem der Container übereinstimmen, werden in den Bericht einbezogen.
+Durch die Einbeziehung mehrerer Segmente in ein neues zusammengesetztes Segment können Sie Daten noch weiter verfeinern. Das Zusammenziehen von zwei vorhandenen Segmenten wirkt beim Filtern der Besuchenden als „ODER“-Bedingung. Alle Container auf der Arbeitsfläche werden gegen alle Daten geprüft und alle Daten, die mit einem der Container übereinstimmen, werden in den Bericht einbezogen.
 
 Wenn Sie z. B. einen Besuchs-Container, in dem gilt „Land = Vereinigte Staaten“ mit einem Besuchs-Container zusammenziehen, in dem „Auftrag = wahr“ ist,
 
@@ -140,7 +150,7 @@ Country = United States + Order = True
 wird ein Segment erstellt, das sich wie folgt verhält:
 
 1. Dieses Segment bezieht sich zunächst auf Ihre gesamten Daten und identifiziert alle Besuchenden in den Vereinigten Staaten.
-2. Das Segment bezieht sich dann erneut auf Ihre gesamten Daten und prüft, ob Besuchende einen Auftrag erteilt haben.
+2. Das Segment betrachtet dann erneut Ihre gesamten Daten und prüft, ob Besuchende eine Bestellung aufgegeben haben.
 3. Beide Datensätze werden dann auf den Bericht angewendet.
 
 ## Container für sequenzielle Segmente {#containers-sequential}
@@ -255,7 +265,7 @@ Die einzige Ausnahme für diese Container-Hierarchie besteht in der Verwendung d
 
 Mit Containern können Sie unterschiedliche Daten auf der Grundlage von Berichtswerten unterschiedlich filtern, wenn Segmente aufgeschlüsselt und auf Berichte angewendet werden.
 
-Daten, die auf den einzelnen Ebenen der Hierarchie der Container Besucher > Besuch > Treffer erfasst werden, beeinflussen, wie Sie Ihre Segmente erstellen. Wenn Sie dasselbe Segment auf denselben Bericht anwenden und dabei denselben Datensatz verwenden, erhalten Sie unterschiedliche Werte, die vom Container abhängen, von dem aus Sie den Bericht erzeugen. Faktoren wie die Container-Berichtsebene und die Persistenz von Werten über Treffer hinweg können wesentliche Veränderungen der Berichtsgenauigkeit verursachen.
+Daten, die auf den einzelnen Ebenen der Hierarchie der Container Besucherin bzw. Besucher > Besuch > Treffer erfasst werden, beeinflussen, wie Sie Ihre Segmente aufbauen. Wenn Sie dasselbe Segment auf denselben Bericht mit demselben Datensatz anwenden, erhalten Sie unterschiedliche Werte – abhängig davon, aus welchem Container Sie das Reporting erzeugen. Faktoren wie das Reporting auf Container-Ebene und die Persistenz von Werten über Treffer hinweg können wesentliche Veränderungen der Genauigkeit Ihres Reportings verursachen.
 
 ### Grundlagen der Containerdaten {#container-data}
 
@@ -264,7 +274,7 @@ Der unten abgebildete Besucher hat beispielsweise beim ersten Besuch eine Websit
 Das Segment `Pages equals Winter Coat` unten wird auf den **Seitenbericht** angewendet.
 
 
-Der Bericht zeigt basierend auf dem ausgewählten Container unterschiedliche Ergebnisse für die folgenden Besuche und Seitenansichten einer Besucherin oder eines Besuchers an.
+Der Bericht zeigt basierend auf dem ausgewählten Container unterschiedliche Ergebnisse für die folgenden Besuche und Seitenansichten einer Besucherin bzw. eines Besuchers an.
 
 <table style="table-layout:auto; border: 0;">
 
@@ -315,7 +325,7 @@ Wenn sich diese Bedingung in einem Treffer-Container befindet, listet der Berich
 
 <!--![](assets/container_overview_PV.png)-->
 
-Bei Berichten aus dem Treffer-Container können Sie sehen, wie sich Berichte aus unterschiedlichen Containern auf die gesamten Berichtswerte auswirken. Beachten Sie beim Anzeigen des Segmentberichts, dass die Seitenansichten ungefähr den Besuchenden entsprechen (rund 2.000 Besuchende haben bei einem Besuch doppelte Seiten gesehen, was zur Gesamtzahl der Seitenansichten addiert wird). Und Unique Visitors entsprechen ungefähr der Anzahl der Besuche (etwa 2.000 Unique Visitors haben die Seite mehr als einmal besucht).
+Bei Berichten aus dem Treffer-Container können Sie sehen, wie sich Berichte aus unterschiedlichen Containern auf die gesamten Berichtswerte auswirken. Beachten Sie beim Anzeigen des Segmentberichts, dass die Seitenansichten ungefähr den Besuchen entsprechen (rund 2.000 Besuchende haben während eines Besuchs doppelte Seitenaufrufe gesehen, was zur Gesamtzahl der Seitenansichten addiert wird). Und Unique Visitors entsprechen ungefähr der Anzahl der Besuche (etwa 2.000 eindeutige Besuchende haben die Seite mehr als einmal besucht).
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
@@ -326,7 +336,7 @@ Bei Berichten aus dem Treffer-Container können Sie sehen, wie sich Berichte aus
 
 >[!IMPORTANT]
 >
->Unabhängig davon, wie Sie die Daten anzeigen (über den Treffer-, Besuchs- oder Besucher-Container), haben in diesem Beispiel alle dieselbe Anzahl von 63.541 Besuchenden. Die ursprüngliche Besucherbedingung (Besuchende, die die Winterjacken-Seite angesehen haben) bleibt unabhängig davon intakt, wie Sie den Bericht erzeugen. Dies ist die Teilmenge der Daten, mit denen Sie auf den verschiedenen Ebenen Berichte erstellen.
+>Unabhängig davon, wie Sie die Daten anzeigen (aus dem Treffer-, Besuchs- oder Besucher-Container), haben in diesem Beispiel alle dieselbe Anzahl von Besuchenden, 63.541. Die ursprüngliche Bedingung für Besuchende (Besuchende, die die Seite „Winterjacken“ angesehen haben) bleibt unabhängig davon intakt, wie Sie den Bericht erzeugen. Dies ist die Teilmenge der Daten, aus der Sie auf den verschiedenen Ebenen berichten.
 
 ### Reporting aus dem Besuchs-Container
 
@@ -351,7 +361,7 @@ In den Segmentwerten aus dem Besuchs-Container sehen Sie, dass die Anzahl der Se
 
 ### Reporting aus dem Besucher-Container
 
-Wenn sich dieselbe Bedingung in einem Besucher-Container befindet, listet der Bericht alle von einem Besucher angesehenen Seiten auf, für die *Seite gleich Winterjacke* wahr ist. Diese Bedingung bedeutet, dass, wenn eine Besucherin oder ein Besucher die Winterjacken-Seite angesehen hat, alle Seiten im Besucher-Container aufgelistet werden (einschließlich der Seitenansichten aus anderen Besuchen). Folglich werden im Bericht auch Seiten gelistet, die die Bedingung nicht erfüllen, weil die Besucherin oder der Besucher diese zu einem vorherigen Zeitpunkt gesehen hat. Alle im Besucher-Container enthaltenen Seiten werden im Bericht aufgeführt. Dies betrifft auch Seiten, die vorher aufgetaucht sind und die Bedingungen nicht spezifisch erfüllen.
+Wenn sich dieselbe Bedingung in einem Besucher-Container befindet, listet der Bericht alle von einem Besucher angesehenen Seiten auf, für die *Seite gleich Winterjacke* wahr ist. Diese Bedingung bedeutet, dass, wenn eine Besucherin oder ein Besucher die Winterjacken-Seite angesehen hat, alle Seiten im Besucher-Container aufgelistet werden (einschließlich der Seitenansichten aus anderen Besuchen). Folglich werden im Bericht auch Seiten gelistet, die die Bedingung nicht erfüllen, weil die Besucherin oder der Besucher diese zu einem vorherigen Zeitpunkt gesehen hat. Alle im Besucher-Container enthaltenen Seiten werden im Bericht aufgeführt, selbst wenn sie zuvor aufgetreten sind und die Bedingungen nicht ausdrücklich erfüllen.
 
 | Besuch 1<br/>Seite | <br/>Seitenansichten |
 |---|--:|
@@ -385,7 +395,7 @@ Beim Anzeigen von Segmenten aus dem Besucher-Container können Sie sehen, dass d
 
 <!--![](assets/container_report_Visitor.png)-->
 
-Zusammenfassend wird deutlich, dass das Wissen darüber, wie die Segmentierung bei unterschiedlichen Aufschlüsselungen von Daten funktioniert, bei der Interpretation der gelieferten Daten von entscheidender Bedeutung ist.
+Zusammenfassend ist das Verständnis darüber, wie die Segmentierung bei unterschiedlichen Datenaufschlüsselungen funktioniert, entscheidend für die Interpretation der zurückgelieferten Daten.
 
 ## Auf dem Container basierende Berichte {#reporting}
 
@@ -395,15 +405,15 @@ Am Beispiel des Segments `Page equals Winter Coats` sind unten Beispiele für di
 
 ### Auf übereinstimmender Segmentregel basierender Segment-Container
 
-Das Anwenden des Segment-Containers auf einen normalen Datenbereich bringt die erwarteten Ergebnisse, in denen die Linienelemente mit der Segmentregel übereinstimmen.
+Das Anwenden des Segment-Containers auf einen natürlichen Datenumfang bringt die erwarteten Ergebnisse, bei denen die Zeileneinträge mit der Segmentregel übereinstimmen.
 
-- **Treffer-Container, bei dem Seite gleich „Wintermantel“**: Ein *Seitenbericht* mit diesem Segment liefert nur die Werte, die mit „Wintermantel“ übereinstimmen. Alle anderen Seiten werden aus dem Bericht ausgeschlossen.
+- **Treffer-Container, bei dem Seite gleich „Wintermantel“**: Ein *Seitenbericht* mit diesem Segment liefert nur die Werte, die mit „Wintermantel“ übereinstimmen. Alle anderen Seiten werden aus dem Reporting ausgeschlossen.
 - **Besuchs-Container, bei dem Einstiegsseite gleich „Winterkleidung“**: Ein *Einstiegsseiten*-Bericht mit diesem Segment liefert nur den zweiten Besuch, weil dessen Einstiegsseite mit der Segmentregel übereinstimmt.
 - **Besuchs-Container, bei dem Besuchsnummer gleich 1**: Alle Seitenansichten des ersten Besuchs sind im Bericht enthalten, weil er mit der Segmentregel übereinstimmt.
 
 ### Seitenansichten auf der Besuchs-Container-Ebene
 
-Viele Segmentregeln identifizieren Seitenansichten pro Besuch. Wenn diese Identifizierung eintritt, wird der gesamte Besucher-Container angewendet, wenn nur ein einzelner Treffer mit der Regel übereinstimmt. Dieser Segmentbericht ist besonders nützlich, da Seitenansichten, die auf Besuchen basieren, insight bereitstellen, die auf Seitenansichten pro Besuch basieren.
+Viele Segment-Regeln identifizieren Seitenansichten pro Besuch. Wenn diese Identifizierung eintritt, wird der gesamte Besucher-Container angewendet, selbst wenn nur ein einzelner Treffer mit der Regel übereinstimmt. Dieser Segmentbericht ist besonders nützlich, da Seitenansichten, die auf Besuchen basieren, insight bereitstellen, die auf Seitenansichten pro Besuch basieren.
 
 - **Besuchs-Container, bei dem Seite gleich Seite „Wintermantel“**: In einem Seitenbericht auf der Besucher-Container-Ebene werden alle Seitenansichten gezeigt, die eine Ansicht der Seite „Winterkleidung“ enthalten. Wenn eine Seite mit der Segmentregel übereinstimmt, werden alle mit diesem Besuch verknüpften Seitenansichten in den Bericht aufgenommen.
 - **Besuchs-Behälter, bei dem Seite gleich „Startseite“ ist**: In einem Seitenbericht mit diesem Segment werden nur Daten aus dem ersten Besuch angezeigt, da die Besucherin oder der Besucher beim zweiten Besuch keine „Startseite“ angesehen hat.
@@ -411,18 +421,18 @@ Viele Segmentregeln identifizieren Seitenansichten pro Besuch. Wenn diese Identi
 
 ### Segment-Container, der Treffer identifiziert, die kleiner als Seitenansichten sind
 
-Die Verwendung des Segments mit einem Container, der kleiner als der Aufschlüsselungsbereich ist, liefert überraschende Daten. Bei einer kleineren Aufschlüsselung werden weiterhin alle Treffer aus diesem Datenbereich einbezogen.
+Die Verwendung dieses Segments mit einem Container, der kleiner ist als der Aufschlüsselungsumfang, liefert unerwartete Daten. Bei einer kleineren Aufschlüsselung werden weiterhin alle Treffer aus diesem Datenbereich einbezogen.
 
-- **Treffer-Container, bei dem Einstiegsseite gleich „Produkt“**: Alle Seiten sind mit der Einstiegsseite des Besuchs verknüpft, wodurch eine besuchsbasierte Aufschlüsselung erfolgt. Bei Verwendung dieses Segments wird nicht nur die Einstiegsseite „Produktseite“ einbezogen, sondern auch alle Treffer in dem entsprechenden Besuch.
-- **Treffer-Container, bei dem Listenvariable 1 WertA enthält**: Wenn mehrere Werte für denselben Treffer als Listenvariablen definiert sind, werden alle Variablenwerte in das Segment einbezogen. Es ist nicht möglich, Werte zu separieren, die in derselben Seitenansicht auftreten, da der Treffer-Container der kleinste Segment-Container für das Aufschlüsseln von Treffern ist.
+- **Treffer-Container, bei dem Einstiegsseite gleich „Produkt“**: Alle Seiten sind mit der Einstiegsseite des Besuchs verknüpft, wodurch eine besuchsbasierte Aufschlüsselung erfolgt. Bei Verwendung dieses Segments wird nicht nur die Einstiegsseite „Produktseite“ einbezogen, sondern auch alle Treffer in diesem Besuch.
+- **Treffer-Container, bei dem Listenvariable 1 WertA enthält**: Wenn mehrere Werte für denselben Treffer als Listenvariablen definiert sind, werden alle Variablenwerte in das Segment einbezogen. Es ist nicht möglich, Werte zu trennen, die in derselben Seitenansicht auftreten, da der Treffer-Container der kleinste Segment-Container für das Aufschlüsseln von Treffern ist.
 - **Treffer-Container, bei dem Seite gleich „Kauf“**: Bei der Verwendung von Seitenansichten als Metrik wird nur die Kaufseite angezeigt (erwartungsgemäß). Bei Verwendung eines Berichts über den Umsatzbeitrag erhalten alle Seiten des ersten Besuchs 100 USD, da die Teilnahmemetriken besuchsbasiert sind.
-- **Treffer-Container, bei dem Seite gleich „Wintermantel“**: Bei der Verwendung von Seitenansichten als Metrik wird nur die Wintermantel-Seite angezeigt (erwartungsgemäß). Bei Verwendung eines Berichts über die Umsatzbeteiligung erhalten keine Seiten eine Gutschrift, da diese Dimension eine persistente Dimension erfordert. Die Seitenansicht, auf der der Kauf tatsächlich stattfand (die Kaufseite) ist nicht im Treffer-Container enthalten, weshalb kein Element einen Umsatzbeitrag erhält. Bei einem über den Besuchs-Container ausgeführten Bericht wären jedoch alle Seitenansichten dieses Besuchs enthalten und der Umsatzbeitrag (100 $) würde über alle in der Sitzung gesehenen Seiten verteilt.
+- **Treffer-Container, bei dem Seite gleich „Wintermantel“**: Bei der Verwendung von Seitenansichten als Metrik wird nur die Wintermantel-Seite angezeigt (erwartungsgemäß). Bei Verwendung eines Berichts über die Umsatzbeteiligung erhalten keine Seiten eine Gutschrift, da diese Dimension eine persistente Dimension erfordert. Die Seitenansicht, auf der der Kauf tatsächlich stattfand (die Kaufseite), ist nicht im Treffer-Container enthalten, sodass kein Element eine Umsatzbeteiligung erhält. Bei einem über den Besuchs-Container ausgeführten Bericht wären jedoch alle Seitenansichten dieses Besuchs enthalten und der Umsatzbeitrag (100 $) würde über alle in der Sitzung gesehenen Seiten verteilt.
 
 ## Persistenz über Container hinweg {#persistence}
 
-Die Filterung nach Dimensionen, die über einen Seitenbereich persistent sind, z. B. ein Kampagnen-eVar oder eine Referrer-Dimension, wirkt sich auf die auf Container-Ebene gesammelten Daten aus und muss im Hinblick auf die Berichtsgenauigkeit nachvollzogen werden.
+Die Filterung nach Dimensionen, die über einen Seitenbereich fortbestehen, z. B. eine Kampagnen-eVar oder eine Referring-Dimension, wirkt sich auf die auf Container-Ebene gesammelten Daten aus und muss im Hinblick auf die Genauigkeit der Berichte verstanden werden.
 
-Segmentdaten können je nach Persistenz einer Dimension oder einer angewendeten Variablen auf ausgewählten Seiten variieren. Einige Dimensionen, z. B. die Seitendimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Treffer-Container gefiltert. (Siehe als Beispiel [Auf Container-Daten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrer-Domain“, sind für einen Besuch über mehrere Seiten hinweg persistent. Beispiel: `Referring Domain equals aol.com`. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf eines Besuchers.
+Segmentdaten können je nach Persistenz einer Dimension oder einer angewendeten Variablen auf ausgewählten Seiten variieren. Einige Dimensionen, z. B. die Seiten-Dimension, bieten auf Seitenebene eindeutige Werte und werden auf der Grundlage von Daten aus dem Treffer-Container gefiltert. (Siehe als Beispiel [Auf Container-Daten basierende Berichte](/help/components/segmentation/seg-overview.md)). Andere Dimensionen, z. B. die Dimension „Referrer-Domain“, bestehen für einen Besuch über mehrere Seiten hinweg fort. Beispiel: `Referring Domain equals aol.com`. Einige Dimensionen oder angewendete Variablen, z. B. die Besuchsdauer, erstrecken sich über den gesamten Verlauf eines Besuchers.
 
 <!--![](assets/RefDomain_aol.png)-->
 
@@ -483,7 +493,7 @@ Da allen in demselben Besuch enthaltenen Seitensichten derselbe Wert für die Re
 
 <!--![](assets/container_overview_persist_Visit.png)-->
 
-Bei der Anzeige der Daten aus dem Treffer-Container, wurden über 92.000 Seitenansichten bei über 33.000 Besuchen durch nur etwas mehr als 32.000 Besucher erzeugt. Im Durchschnitt gab es drei Seitenansichten bei jedem Besuch, und fast alle Besuche wurden von Unique Visitors durchgeführt.
+Bei der Anzeige der Daten aus dem Treffer-Container wurden über 92.000 Seitenaufrufe in über 33.000 Besuchen von nur etwas mehr als 32.000 Besuchenden erzeugt. Im Durchschnitt gab es drei Seitenansichten bei jedem Besuch, und fast alle Besuche wurden von Unique Visitors durchgeführt.
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
@@ -514,7 +524,7 @@ Da alle Seiten basierend auf dem Besuch denselben Wert für die Referrer-Domain 
 
 ### Reporting aus dem Besucher-Container
 
-Aus dem Besucher-Container listet der Seitenbericht alle Seiten auf, die von einer Besucherin oder einem Besucher angesehen wurden, bei denen `Referring Domain equals 'aol.com'` wahr ist. Wenn daher eine Besucherin oder ein Besucher irgendwann (innerhalb des definierten Zeitraums) im Verlauf *„aol.com“* als Referrer-Domain hatte, werden alle Seiten im Besucher-Container aufgeführt (einschließlich der Seitenansichten bei anderen Besuchen). Auch Seiten, die nicht der primären Bedingung entsprechen, werden im Bericht aufgeführt, da diese Seiten im Besucher-Container enthalten sind. Alle im Besucher-Container enthaltenen Seiten werden im Bericht aufgeführt. Dies betrifft auch Seiten, die vorher aufgetaucht sind und die Bedingungen nicht spezifisch erfüllen.
+Aus dem Besucher-Container listet der Seitenbericht alle Seiten auf, die von einer Besucherin oder einem Besucher angesehen wurden, bei denen `Referring Domain equals 'aol.com'` wahr ist. Wenn daher eine Besucherin oder ein Besucher irgendwann (innerhalb des definierten Zeitraums) im Verlauf *„aol.com“* als Referrer-Domain hatte, werden alle Seiten im Besucher-Container aufgeführt (einschließlich der Seitenansichten bei anderen Besuchen). Auch Seiten, die nicht der primären Bedingung entsprechen, werden im Bericht aufgeführt, da diese Seiten im Besucher-Container enthalten sind. Alle im Besucher-Container enthaltenen Seiten werden im Bericht aufgeführt, auch Seiten, die zuvor aufgetaucht sind und die Bedingungen nicht spezifisch erfüllen.
 
 In einem Bericht „Referrer-Domain“ ist `Referring Domain equals 'aol.com'` bei vier Seitenansichten wahr, bei den anderen Seiten des Besucherzugriffs ist jedoch `Referring Domain equals "weather.com"` wahr. Aus dem Besucher-Container erhalten Sie eine Liste der Besuchenden, bei denen „aol.com“ wahr ist. Sie erhalten jedoch auch Seiten, auf denen die Referrer-Domain „weather.com“ ist, und nicht der Wert, der Ihrer ursprünglichen Anfrage im Segment entsprach.
 
@@ -544,7 +554,7 @@ In einem Bericht „Referrer-Domain“ ist `Referring Domain equals 'aol.com'` b
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
 
-Beachten Sie, dass bei der Anzeige der Daten aus dem Besucher-Container die Seitenansichten signifikant angestiegen sind (von 98.248 auf 112.925). Dieser Anstieg hat den Grund, dass alle Seitenansichten der Besucherin oder des Besuchers (einschließlich der Seiten mit anderen Werten für die Referrer-Domain, die auf Besucher-Container-Ebene gespeichert sind) aufgelistet wurden. Und die zusätzlichen Besuche dieser Besucherin oder dieses Besuchers, die die Besuche von 33.203 auf 43.448 erhöhten.
+Wenn Sie sich die Daten aus dem Besucher-Container ansehen, stellen Sie fest, dass die Seitenansichten signifikant angestiegen sind (von 98.248 auf 112.925). Dieser Anstieg liegt daran, dass alle Seitenansichten der Besucherin bzw. des Besuchers (einschließlich der Seiten mit anderen Werten für die Referrer-Domain, die auf Besucher-Container-Ebene gespeichert sind) aufgelistet wurden. Und die zusätzlichen Besuche dieser Besucherin bzw. dieses Besuchers, die die Besuche von 33.203 auf 43.448 erhöhten.
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
@@ -556,4 +566,4 @@ Beachten Sie, dass bei der Anzeige der Daten aus dem Besucher-Container die Seit
 
 - Der Besucher-Container gibt alle von einer Besucherin oder einem Besucher gesehenen Seiten zurück, von denen mindestens eine Seite den Kriterien entspricht. Wenn daher eine Seite nur bei Besuch 1 an Tag 1 gesehen wurde, werden alle bei mehreren Besuchen von der Besucherin oder dem Besucher gesehenen Seiten in die Daten einbezogen.
 - Der Besuchs-Container gibt alle Seiten zurück, die in einem Besuch gesehen wurden und von denen mindestens eine Seite die Kriterien erfüllt. Wenn daher eine Seite nur bei Besuch 1 an Tag 1 gesehen wurde, werden alle während des gesamten Besuchs gesehenen Seiten in die Daten einbezogen.
-- Achten Sie darauf, die Bedingungen, die Sie für die Segmentierung verwenden, auf einer eVar oder einem anderen Typ einer persistenten Variablen basieren zu lassen. Sie könnten z. B. die Bedingung „Wenn Kampagne E-Mail enthält“ verwenden, die nach sieben Tagen abläuft. Wenn die Kampagne daher auf den ersten Besuch gesetzt wird, ist sie anschließend sieben weitere Tage persistent. Jeder Besuch wird einbezogen, auch wenn die Kampagne nur für den ersten Besuch aktiviert war. Auch die anderen Besuche werden einbezogen (solange sie innerhalb des Datumsbereichs des Berichts liegen). Wenn Sie ausschließen möchten, dass persistente Werte einbezogen werden, können Sie entweder das Ereignis „Instanz von“ oder, sofern verfügbar, eine entsprechende Eigenschaftsvariable verwenden.
+- Achten Sie darauf, dass die für die Segmentierung verwendete Bedingung auf einer eVar oder einem anderen Typ einer persistenten Variablen basiert. Sie könnten z. B. die Bedingung „Wenn Kampagne E-Mail enthält“ verwenden, die nach sieben Tagen abläuft. Wenn die Kampagne daher auf den ersten Besuch gesetzt wird, ist sie anschließend sieben weitere Tage persistent. Jeder Besuch wird einbezogen, auch wenn die Kampagne nur für den ersten Besuch aktiviert war. Auch die anderen Besuche werden einbezogen (solange sie innerhalb des Datumsbereichs des Berichts liegen). Wenn Sie ausschließen möchten, dass persistente Werte einbezogen werden, können Sie entweder das Ereignis „Instanz von“ oder, sofern verfügbar, eine entsprechende Eigenschaftsvariable verwenden.

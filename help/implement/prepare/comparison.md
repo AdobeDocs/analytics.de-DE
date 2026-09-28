@@ -4,26 +4,37 @@ description: Erfahren Sie mehr über die Vorteile jeder Methode zum Datenversand
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Tx3YIRJv4Qztv-Bsa9XJFMFVE0PW9SnvgrYeMmrULiA
+TQID: 'https://experienceleague.adobe.com/Tx3YIRJv4Qztv-Bsa9XJFMFVE0PW9SnvgrYeMmrULiA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '500'
 ht-degree: 41%
-
 ---
-
 # Vergleich von Implementierungsmethoden
 
 Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics. Mithilfe dieser Tabellen können Sie für Ihr Unternehmen die optimale Methode zum Senden von Daten an Adobe ermitteln. Klicken Sie auf die einzelnen Spalten, um genauere Informationen anzuzeigen.
@@ -44,7 +55,7 @@ Hier finden Sie einen Vergleich der Implementierungsmethoden von Adobe Analytics
 
 >[!CAUTION]
 >
->Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den Häufig gestellten Fragen zum Ende der Nutzungsdauer [&#128279;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=de) Adobe Mobile Services .
+>Die Unterstützung für Mobile SDKs Version 4 endete am 31. August 2021. Weitere Informationen finden Sie in den Häufig gestellten Fragen zum Ende der Nutzungsdauer ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=de) Adobe Mobile Services .[
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Edge Network-API](/help/implement/aep-edge/api/overview.md) |

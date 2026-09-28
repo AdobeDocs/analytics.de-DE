@@ -7,24 +7,32 @@ exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 TQID: 'https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 55%
-
 ---
-
 # Adobe Analytics und die DSGVO
 
 In diesem Dokument wird beschrieben, was Sie in Adobe Analytics tun müssen, um die DSGVO-Zugriffs- und -Löschberechtigungen Ihrer betroffenen Personen zu unterstützen.
@@ -43,9 +51,9 @@ Als Datenverantwortlicher legen Sie fest, welche personenbezogenen Daten Adobe i
 
 ## So verarbeitet Adobe DSGVO-Daten
 
-Adobe CX Enterprise bietet eine integrierte Lösung, die die Data Governance-Infrastruktur Ihrer Marke mit den Adobe-Tools verbindet, die zum Erstellen und Verwalten von Kundenerlebnissen verwendet werden. Die Data Governance-Funktionen von Adobe CX Enterprise ermöglichen eine direkte Verknüpfung der Data Governance-Richtlinien mit der Datennutzung.
+Adobe CX Enterprise bietet eine integrierte Lösung, die die Data-Governance-Infrastruktur Ihrer Marke mit den Adobe-Tools verbindet, die zum Erstellen und Verwalten von Kundenerlebnissen verwendet werden. Die Data Governance-Funktionen von Adobe CX Enterprise ermöglichen eine direkte Verknüpfung der Data Governance-Richtlinien mit der Datennutzung.
 
-Machen Sie sich mit dem Thema [Handhabung der DSGVO durch Adobe Analytics](https://www.adobe.com/de/data-analytics-cloud/analytics/general-data-protection-regulation.html) vertraut, in dem die Schritte zur Einhaltung der DSGVO und zur Integration mit der DSGVO-API für Adobe CX Enterprise erläutert werden.
+Machen Sie sich mit dem Thema [Handhabung der DSGVO durch Adobe Analytics](https://www.adobe.com/de/data-analytics-cloud/analytics/general-data-protection-regulation.html) vertraut, in dem die Schritte zur Einhaltung der DSGVO und zur Integration mit der Adobe CX Enterprise-DSGVO-API erläutert werden.
 
 ## DSGVO-Bereitschaft und Ihre Adobe Analytics-Daten
 

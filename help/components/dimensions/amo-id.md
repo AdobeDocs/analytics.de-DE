@@ -17,6 +17,11 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -24,18 +29,18 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 4%
 ---
 # AMO-ID
 
-Die **[!UICONTROL AMO ID]** ist eine Sammlung verketteter Kennungen, die in Adobe Advertising-Integrationen verwendet werden. Die in dieser Dimension gespeicherten Werte werden zur Verwendung in Analytics-Berichten automatisch in separate, für Menschen besser lesbare Klassifizierungsdimensionen unterteilt. Die Dimension wird automatisch erstellt, wenn die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/overview) aktiviert wird.
+Die **[!UICONTROL AMO ID]** ist eine Sammlung verketteter Kennungen, die in Adobe Advertising-Integrationen verwendet werden. Die in dieser Dimension gespeicherten Werte werden zur Verwendung in Analytics-Berichten automatisch in separate, für Menschen besser lesbare Klassifizierungsdimensionen unterteilt. Die Dimension wird automatisch erstellt, wenn die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) aktiviert wird.
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension wird automatisch durch die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/overview) ausgefüllt. Es gibt keine Variable zum Festlegen.
+Diese Dimension wird automatisch durch die Integration von [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) ausgefüllt. Es gibt keine Variable zum Festlegen.
 
 | Eigenschaft | Wert |
 | --- | --- |
@@ -164,30 +169,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Klassifizierungen
 
-Bei Aktivierung der [Analytics for Advertising](https://experienceleague.adobe.com/de/docs/advertising/integrations/analytics/overview)-Integration werden automatisch die folgenden Klassifizierungen erstellt. Klassifizierungswerte werden automatisch von der Integration verwaltet.
+Bei Aktivierung der [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)-Integration werden automatisch die folgenden Klassifizierungen erstellt. Klassifizierungswerte werden automatisch von der Integration verwaltet.
 
 | Klassifizierung | Beschreibung | DSP | Suche,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Konto]** | Der Kontoname. | &check; | &check; |
-| **[!UICONTROL Anzeige-URL]** | Die in der Anzeige angezeigte URL. | | &check; |
-| **[!UICONTROL Anzeigenbeschreibung]** | Die Anzeigenbeschreibung (DSP) oder der Anzeigenhauptteil (Suche, Social und Commerce). | &check; | &check; |
-| **[!UICONTROL Werbeziel-URL]** | Die Ziel-URL für die Anzeige. | | &check; |
-| **[!UICONTROL Anzeigengruppe]** | Der Name der Anzeigengruppe. | | &check; |
-| **[!UICONTROL Anzeigenplattform]** | Der Name der Advertising DSP oder Suchmaschine. | &check; | &check; |
-| **[!UICONTROL Anzeigentitel]** | Der Anzeigentyp (DSP) oder Anzeigentitel (Suche, Social und Commerce). | &check; | &check; |
-| **[!UICONTROL Ad Type]** | Der Anzeigentyp, z. B. `text`, `video`, `display` oder `native`. | &check; | &check; |
-| **[!UICONTROL AdCloud-Attribut 1]** -<br>**[!UICONTROL AdCloud-Attribut 5 &#x200B;]** | Platzhalterklassifizierungen, die für zukünftige benutzerdefinierte Attribute reserviert sind. Wird derzeit nicht verwendet. | | |
-| **[!UICONTROL Kampagne]** | Der Kampagnenname. | &check; | &check; |
-| **[!UICONTROL Creative Experience Name]** | Name des Kreativerlebnisses, das mit der Anzeigeninteraktion verknüpft ist und eine Gruppe kreativer Varianten darstellt, die beim Testen oder bei der Personalisierung verwendet werden. | &check; | |
-| **[!UICONTROL Name der Creative-Verzweigung]** | Name der Verzweigung innerhalb eines kreativen Erlebnisses, die eine bestimmte Variante oder einen bestimmten Pfad im kreativen Experiment darstellt. | &check; | |
-| **[!UICONTROL Creative-Verzweigungs-ID]** | Eindeutige Kennung, die einer kreativen Verzweigung innerhalb eines kreativen Erlebnisses zugewiesen ist. | &check; | |
-| **[!UICONTROL Creative-Name]** | Name des spezifischen und kreativen Assets, das dem Benutzer bereitgestellt wurde. | &check; | |
-| **[!UICONTROL Creative-Variantenname]** | Name der spezifischen Variante eines Kreativprodukts, das in einem Kreativerlebnis oder einer Kreativverzweigung verwendet wird. | &check; | |
-| **[!UICONTROL Keyword]** | Das Keyword . | | &check; |
-| **[!UICONTROL Übereinstimmungstyp des Keywords]** | Das Keyword und der Übereinstimmungstyp. | | &check; |
-| **[!UICONTROL Landing Type]** | Ob es sich bei dem Einstiegsseiteneintrag um eine Durchsicht oder einen Clickthrough handelte. | &check; | &check; |
-| **[!UICONTROL Übereinstimmungstyp]** | Der Suchtyp. | | &check; |
-| **[!UICONTROL Netzwerk]** | RTB (DSP) oder der Name des Werbenetzwerks (Search, Social und Commerce). | &check; | &check; |
-| **[!UICONTROL Optimierung]** | Der Paketname (DSP) oder Portfolioname (Search, Social und Commerce). | &check; | &check; |
-| **[!UICONTROL Platzierung]** | Der Name der Platzierung. | &check; | |
-| **[!UICONTROL Produktzielgruppe]** | Die Produktzielgruppe für eine Produktlistenanzeige. | | &check; |
+| **[!UICONTROL Konto]** | Der Kontoname. | &amp;check; | &amp;check; |
+| **[!UICONTROL Anzeige-URL]** | Die in der Anzeige angezeigte URL. | | &amp;check; |
+| **[!UICONTROL Anzeigenbeschreibung]** | Die Anzeigenbeschreibung (DSP) oder der Anzeigenhauptteil (Suche, Social und Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Werbeziel-URL]** | Die Ziel-URL für die Anzeige. | | &amp;check; |
+| **[!UICONTROL Anzeigengruppe]** | Der Name der Anzeigengruppe. | | &amp;check; |
+| **[!UICONTROL Anzeigenplattform]** | Der Name der Advertising DSP oder Suchmaschine. | &amp;check; | &amp;check; |
+| **[!UICONTROL Anzeigentitel]** | Der Anzeigentyp (DSP) oder Anzeigentitel (Suche, Social und Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Ad Type]** | Der Anzeigentyp, z. B. `text`, `video`, `display` oder `native`. | &amp;check; | &amp;check; |
+| **[!UICONTROL AdCloud-Attribut 1]** -<br>**[!UICONTROL AdCloud-Attribut 5 ]** | Platzhalterklassifizierungen, die für zukünftige benutzerdefinierte Attribute reserviert sind. Wird derzeit nicht verwendet. | | |
+| **[!UICONTROL Kampagne]** | Der Kampagnenname. | &amp;check; | &amp;check; |
+| **[!UICONTROL Creative Experience Name]** | Name des Kreativerlebnisses, das mit der Anzeigeninteraktion verknüpft ist und eine Gruppe kreativer Varianten darstellt, die beim Testen oder bei der Personalisierung verwendet werden. | &amp;check; | |
+| **[!UICONTROL Name der Creative-Verzweigung]** | Name der Verzweigung innerhalb eines kreativen Erlebnisses, die eine bestimmte Variante oder einen bestimmten Pfad im kreativen Experiment darstellt. | &amp;check; | |
+| **[!UICONTROL Creative-Verzweigungs-ID]** | Eindeutige Kennung, die einer kreativen Verzweigung innerhalb eines kreativen Erlebnisses zugewiesen ist. | &amp;check; | |
+| **[!UICONTROL Creative-Name]** | Name des spezifischen und kreativen Assets, das dem Benutzer bereitgestellt wurde. | &amp;check; | |
+| **[!UICONTROL Creative-Variantenname]** | Name der spezifischen Variante eines Kreativprodukts, das in einem Kreativerlebnis oder einer Kreativverzweigung verwendet wird. | &amp;check; | |
+| **[!UICONTROL Keyword]** | Das Keyword . | | &amp;check; |
+| **[!UICONTROL Übereinstimmungstyp des Keywords]** | Das Keyword und der Übereinstimmungstyp. | | &amp;check; |
+| **[!UICONTROL Landing Type]** | Ob es sich bei dem Einstiegsseiteneintrag um eine Durchsicht oder einen Clickthrough handelte. | &amp;check; | &amp;check; |
+| **[!UICONTROL Übereinstimmungstyp]** | Der Suchtyp. | | &amp;check; |
+| **[!UICONTROL Netzwerk]** | RTB (DSP) oder der Name des Werbenetzwerks (Search, Social und Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Optimierung]** | Der Paketname (DSP) oder Portfolioname (Search, Social und Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Platzierung]** | Der Name der Platzierung. | &amp;check; | |
+| **[!UICONTROL Produktzielgruppe]** | Die Produktzielgruppe für eine Produktlistenanzeige. | | &amp;check; |

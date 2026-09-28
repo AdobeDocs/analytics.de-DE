@@ -3,36 +3,48 @@ title: Importieren von Paid-Search-Metriken
 description: Schritte zum Konfigurieren von Adobe Analytics zur Verfolgung Ihrer Paid Search-Metriken (z. B. Google Ads, Microsoft Advertising usw.) mithilfe von Datenquellen.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+TQID: 'https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 80%
-
 ---
-
 # Importieren von [!UICONTROL Paid Search]-Metriken mithilfe von [!UICONTROL Datenquellen]
 
 Für viele Marketing-Unternehmen ist Paid Search eine der wertvollsten und zuverlässigsten Methoden, um sowohl neue Kunden zu erreichen als auch bestehende zu binden. Die [!UICONTROL Datenquellen] in Adobe Analytics erleichtert den Import von erweiterten Paid-Search-Daten von digitalen Werbeplattformen wie Google Ads. Sie können sie zusammen mit den Verhaltensdaten und Kundenattributen auf der Site in den Rest Ihrer Marketing-Daten integrieren, um Ihnen bessere Einblicke in die Paid Search-Bemühungen Ihres Unternehmens zu ermöglichen.
 
 Diese Schritte zeigen Ihnen, wie Sie eine Integration mit Ads konfigurieren können, um Keyword-Daten sowie Metriken wie Impressionen, Klicks, Kosten pro Klick und mehr zu importieren.
 
-In den Schritten wird beschrieben, wie Sie einen einmaligen Import von Pay-per-Click-Daten einrichten. Allerdings ermöglicht [!UICONTROL Datenquellen] den fortlaufenden Import von Daten unter Verwendung des hier beschriebenen Dateiformats. Abhängig von Ihrer Paid-Search-Plattform können Sie unter Umständen regelmäßige Exporte planen (täglich, monatlich usw.), automatisierte Prozesse einrichten, um diese Exporte in das von Adobe Analytics benötigte Dateiformat umzuwandeln, und diese Dateien in Adobe Analytics hochladen, um Berichte zur Paid-Search-Integration zu erstellen.
+In den Schritten wird beschrieben, wie Sie einen einmaligen Import von Pay-per-Click-Daten einrichten. Allerdings ermöglicht [!UICONTROL Datenquellen] den fortlaufenden Import von Daten unter Verwendung des hier beschriebenen Dateiformats. Abhängig von Ihrer Paid-Search-Plattform können Sie unter Umständen regelmäßige Exporte planen (täglich, monatlich usw.), automatisierte Prozesse einrichten, um diese Exporte in das von Adobe Analytics benötigte Dateiformat umzuwandeln, und diese Dateien in Adobe Analytics hochladen, um eine fortlaufende Berichterstellung zur Paid-Search-Integration zu ermöglichen.
 
 ## Voraussetzungen
 
@@ -82,7 +94,7 @@ Der [!UICONTROL Datenquellenaktivierungs-Assistent] wird angezeigt:
 1. Klicken Sie auf **[!UICONTROL Weiter]** und benennen Sie Ihre Datenquelle. Dieser Name erscheint im Datenquellen-Manager.
 1. Akzeptieren Sie die Service-Vereinbarung und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie die drei Standardmetriken aus: [!UICONTROL Impressionen], [!UICONTROL Klicks] und [!UICONTROL Gesamtkosten], und klicken Sie dann auf **[!UICONTROL Weiter]**.
-1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[&#x200B; erstellt &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
+1. Ordnen Sie nun diese neue Datenquelle den benutzerdefinierten Ereignissen zu, die wir in „Erfolgsereignisse[ erstellt ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Zuordnen](assets/data-source-mapping.png)
 
@@ -106,7 +118,7 @@ Diese Schritte funktionieren für Google Ads, Microsoft Advertising und andere P
 ### Exportieren von Daten
 
 1. Melden Sie sich bei Ihrem PPC-Konto an und erstellen Sie einen neuen Bericht oder Export.
-Stellen Sie sicher, dass der Export die folgenden Felder enthält: Datum, Ziel-URL (Landingpage), Impressionen, Klicks und Kosten. Der Export kann andere Felder enthalten, diese werden jedoch wie unten beschrieben gelöscht.
+Stellen Sie sicher, dass der Export die folgenden Felder enthält: Datum, Ziel-URL (Landingpage), Impressions, Klicks und Kosten. Der Export kann andere Felder enthalten, diese werden jedoch wie unten beschrieben gelöscht.
 1. Wenn möglich, speichern Sie den Bericht als `.csv` oder tabulatorgetrennte Datei. Dies erleichtert die Arbeit in den folgenden Schritten.
 1. Öffnen Sie die Datei in Microsoft Excel.
 
@@ -126,7 +138,7 @@ Jetzt können Sie die Datei hochladen.
 
 ### Hochladen der Datei über FTP in Adobe Analytics
 
-Gehen Sie zurück zum Datenquellen-Assistenten, um Anweisungen zu erhalten und die Datei via FTP hochzuladen:
+Gehen Sie zurück zum Datenquellen-Assistenten, um Anweisungen zu erhalten und die Datei per FTP hochzuladen:
 
 ![Hochladen über FTP](assets/upload-ftp.png)
 
@@ -148,7 +160,7 @@ Sie können beispielsweise diese [berechnete Metriken](/help/components/calculat
 
 ## Konfigurieren und Ausführen von Berichten
 
-Der letzte Schritt besteht darin, die Datenquellenmetriken und alle berechneten Metriken zum Trackingcode-Bericht hinzuzufügen und einen Drilldown in eine Kampagne durchzuführen, um einen sofortigen Überblick über die Leistung jeder Anzeigengruppe zu erhalten.
+Der letzte Schritt besteht darin, die Metriken der Datenquelle und alle berechneten Metriken zum Trackingcode-Bericht hinzuzufügen und einen Drilldown in eine Kampagne durchzuführen, um einen sofortigen Überblick über die Leistung jeder Anzeigengruppe zu erhalten.
 
 1. Wählen Sie in **[!UICONTROL Adobe Analytics > Berichte]** die Report Suite aus, in die Sie Datenquellen importiert haben.
 1. Navigieren Sie zu **[!UICONTROL Berichte > Kampagnen > Trackingcode > Trackingcode]**.

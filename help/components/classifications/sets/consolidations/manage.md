@@ -3,23 +3,28 @@ title: Verwalten von Konsolidierung von Klassifizierungssätzen
 description: Erfahren Sie, wie Sie einen oder mehrere Klassifizierungssätze zu einem einzigen Klassifizierungssatz zusammenfassen.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+TQID: 'https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 597
+source-wordcount: '597'
 ht-degree: 3%
-
 ---
-
 # Verwalten von Klassifizierungskonsolidierungen
 
 Wenn Sie über mehrere Klassifizierungssätze verfügen, die ähnliche Klassifizierungsdaten enthalten, können Sie diese zu einem einzigen Klassifizierungssatz zusammenfassen. Wenn Sie zwei oder mehr Klassifizierungssätze zusammenfassen, generiert Adobe einen neuen Klassifizierungssatz, der alle Klassifizierungsdaten aus jedem einzelnen Klassifizierungssatz enthält. Konsolidierungen sind nützlich, wenn Sie Daten in viele Report Suites hochgeladen haben. Oder wenn Sie Dimensionen haben, die dieselben Klassifizierungsdaten enthalten, und sie zu einem einzigen Workflow zusammenführen möchten.
@@ -50,7 +55,7 @@ Die ➊ zeigt Klassifizierungskonsolidierungen an, die erstellt und validiert wu
 |---|---|
 | **[!UICONTROL Konsolidierungsname]** | Der Name der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Aktueller Auftrag]** | Der mit der Konsolidierung der Klassifizierungssätze verknüpfte Vorgang. |
-| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich**&#x200B;[!UICONTROL , &#x200B;]&#x200B;**Konsolidierung**&#x200B;[!UICONTROL , &#x200B;]&#x200B;**Übergeben]**, **&#x200B;**, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]**&#x200B;**[!UICONTROL ,]**&#x200B;**&#x200B;**, **[!UICONTROL Validierung]** **&#x200B;**&#x200B;**&#x200B;**, |
+| **[!UICONTROL Status]** | Der Status der Konsolidierung der Klassifizierungssätze. Mögliche Werte sind: **[!UICONTROL Erstellt]**, **[!UICONTROL Abgebrochen]**, **[!UICONTROL Abbruch]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validierung]**, **[!UICONTROL Validiert]**, **[!UICONTROL Vergleich]**, **[!UICONTROL Vergleich**[!UICONTROL , ]**Konsolidierung**[!UICONTROL , ]**Übergeben]**, ****, Konsolidierung fehlgeschlagen **[!UICONTROL ,Konsolidierung]****[!UICONTROL ,]******, **[!UICONTROL Validierung]** **** ****, |
 | **[!UICONTROL Erstellungszeit]** | Die Erstellungszeit der Konsolidierung der Klassifizierungssätze. |
 | **[!UICONTROL Abschlusszeit]** | Die Abschlusszeit der Klassifizierungskonsolidierungen. |
 
@@ -81,7 +86,7 @@ Wenn Sie einen oder mehrere Klassifizierungssätze in der Klassifizierungssatz-L
 | Symbol | Aktion | Beschreibung |
 |---|---|---|
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Bearbeiten]** | [Bearbeiten Sie die Konsolidierung der Klassifizierungssätze](process.md#edit-a-consolidation) |
-| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [&#x200B; Konsolidierung &#x200B;](process.md#approve) oder [abbrechen](process.md#cancel). |
+| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL Ansicht]** | Details zur Konsolidierung des Klassifizierungssatzes anzeigen. Je nach Status können Sie [ Konsolidierung ](process.md#approve) oder [abbrechen](process.md#cancel). |
 
 
 ### Panel „Filter“

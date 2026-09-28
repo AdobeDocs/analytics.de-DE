@@ -3,7 +3,7 @@ title: Suchmaschine
 description: Die Suchmaschine, mit der der Besucher Ihre Site erreichte.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-TQID: https://experienceleague.adobe.com/fOk6ypu24XzT6aypOHUAE-RYSW39wyrzkyt-lvOKy7Y
+TQID: 'https://experienceleague.adobe.com/fOk6ypu24XzT6aypOHUAE-RYSW39wyrzkyt-lvOKy7Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,14 +27,14 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 69%
 ---
 # Suchmaschine
 
-Die Dimension „Suchmaschine[&#x200B; zeigt die Suchmaschinen an](overview.md) die Besucher verwenden, um zu Ihrer Site zu gelangen. Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchmaschine klassifiziert zu werden:
+Die Dimension „Suchmaschine[ zeigt die Suchmaschinen an](overview.md) die Besucher verwenden, um zu Ihrer Site zu gelangen. Ein Referrer muss die beiden folgenden Kriterien erfüllen, um als Suchmaschine klassifiziert zu werden:
 
 * Die Referrer-Domain wird von Adobe als gültige Suchmaschine erkannt.
 * In der Referrer-URL ist ein Keyword-Abfragezeichenfolge-Parameter vorhanden. Der Abfragezeichenfolge-Parameter kann leer sein (wie dies bei mehreren Suchmaschinen aufgrund von Datenschutzpraktiken der Fall ist).

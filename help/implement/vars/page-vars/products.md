@@ -4,28 +4,39 @@ description: Senden Sie Daten darüber, welche Produkte angezeigt werden oder si
 feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
+TQID: 'https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: '663'
 ht-degree: 100%
-
 ---
-
 # products
 
 Die `products`-Variable verfolgt Produkte und die mit ihnen verbundenen Eigenschaften. Diese Variable wird normalerweise auf einzelnen Produktseiten, Warenkorbseiten und Kaufbestätigungsseiten eingestellt. Es handelt sich um eine mehrwertige Variable, d. h. Sie können mehrere Produkte mit demselben Treffer senden, und Adobe parst den Wert in separate Dimensionselemente.
@@ -82,7 +93,7 @@ Bei Verwendung des [**Datenobjekts**](/help/implement/aep-edge/data-var-mapping.
 }
 ```
 
-## Props, die die Adobe Analytics-Erweiterung verwenden
+## Produkte, die die Adobe Analytics-Erweiterung verwenden
 
 In der Adobe Experience Platform-Datenerfassung gibt es kein eigenes Feld, um diese Variable festzulegen. Es gibt jedoch mehrere Erweiterungen von Drittanbietern, die dabei helfen können.
 
@@ -100,7 +111,7 @@ Die `s.products`-Variable ist eine Zeichenfolge, die mehrere getrennte Felder pr
 * **Kategorie** (optional): Die Produktkategorie. Die maximale Länge für dieses Feld beträgt 100 Byte.
 * **Produktname** (erforderlich): Der Name des Produkts. Die maximale Länge für dieses Feld beträgt 100 Byte.
 * **Menge** (optional): Die Anzahl dieser Produkte im Warenkorb. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
-* **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Menge größer als 1, setzen Sie den Preis auf den Gesamtpreis und nicht auf den Einzelproduktpreis. Stellen Sie sicher, dass die Währung dieses Werts mit der [`currencyCode`](../config-vars/currencycode.md)-Variablen übereinstimmt. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
+* **Preis** (optional): Der Gesamtpreis des Produkts als Dezimalzahl. Ist die Anzahl größer als 1, legen Sie den Preis auf den Gesamtpreis fest und nicht auf den Preis für ein einzelnes Produkt. Stellen Sie sicher, dass die Währung dieses Werts mit der [`currencyCode`](../config-vars/currencycode.md)-Variablen übereinstimmt. Fügen Sie in diesem Feld nicht das Währungssymbol ein. Dieses Feld gilt nur für Treffer mit dem Kaufereignis.
 * **Ereignisse** (optional): Ereignisse, die mit dem Produkt verknüpft sind. Trennen Sie mehrere Ereignisse mit einem senkrechten Strich (`|`). Weitere Informationen finden Sie unter [Ereignisse](events/events-overview.md).
 * **eVars** (optional): Merchandising-eVars, die mit dem Produkt verknüpft sind. Trennen Sie mehrere Merchandising-eVars mit einem senkrechten Strich (`|`). Weitere Informationen finden Sie unter [Merchandising eVars](evar-merchandising.md).
 
@@ -118,7 +129,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->Entfernen Sie alle Semikolons, Kommas und senkrechte Striche aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, analysiert AppMeasurement es als Beginn eines neuen Produkts. Durch dieses fehlerhafte Parsing wird der Rest der Produktzeichenfolge falsch analysiert. Das führt zu fehlerhaften Daten in Dimensionen und Berichten.
+>Entfernen Sie alle Semikolons, Kommas und senkrechte Striche aus Produktnamen, Kategorien und Merchandising-eVar-Werten. Wenn ein Produktname ein Komma enthält, interpretiert AppMeasurement dieses als Beginn eines neuen Produkts. Durch dieses fehlerhafte Parsing wird der Rest der Produktzeichenfolge falsch analysiert. Das führt zu fehlerhaften Daten in Dimensionen und Berichten.
 
 ## Beispiele
 

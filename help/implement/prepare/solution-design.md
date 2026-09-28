@@ -4,31 +4,42 @@ description: Erfahren Sie, was ein Lösungsdesigndokument ist und wie Sie es in 
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/OLSxdEz9--Xe8bCRH6-TimsPloUUdesg4-wrBNL3uPU
+TQID: 'https://experienceleague.adobe.com/OLSxdEz9--Xe8bCRH6-TimsPloUUdesg4-wrBNL3uPU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 76%
-
 ---
-
 # Lösungsdesigndokument erstellen
 
-Ein Dokument zum Lösungsentwurf (auch als Referenz zum Lösungsentwurf oder als Dokument zu Geschäftsanforderungen bezeichnet) ist im Wesentlichen der Entwurf Ihrer Analytics-Implementierung. Es definiert Kriterien, die von Interessenträgern in Ihrer gesamten Organisation identifiziert werden, und übersetzt diese in Variablen in Adobe Analytics. Ohne eine Lösung haben Unternehmen Schwierigkeiten, die Berichtserfordernisse zu koordinieren, und neigen dazu, das Erfassen wichtiger Daten zu übersehen.
+Ein Lösungs-Design-Dokument (auch als Lösungs-Design-Referenz oder Geschäftsanforderungsdokument bezeichnet) ist im Wesentlichen der Blueprint Ihrer Analytics-Implementierung. Es definiert Kriterien, die von Interessenträgern in Ihrer gesamten Organisation identifiziert werden, und übersetzt diese in Variablen in Adobe Analytics. Ohne ein solches Dokument haben Unternehmen Schwierigkeiten, ihre Reporting-Anforderungen zu koordinieren und verpassen häufig die Erfassung wichtiger Daten.
 
 ## Voraussetzungen
 
@@ -50,19 +61,19 @@ Bei der Ermittlung der zu erfassenden Daten ist es leicht, „alles“ zu sagen,
    * Metriken sind spezifische Ereignisse, die ein Besucher ausführen soll - wenn er eine gewünschte Aktion durchführt, steigt die Zahl um 1. Beispiele wären das Senden einer Bestellung, das Abonnieren eines Newsletters oder das Senden einer Umfrageantwort.
 1. **Ordnen Sie Dimensionen und Metriken einer Seite oder einem Arbeitsblatt zu.** Diese Seite oder Tabelle wird letztendlich zu Ihrem Lösungs-Design-Dokument. Einige hilfreiche Spalten oder Aufzählungspunkte, die eingeschlossen werden sollen:
    * Implementierungsstatus: Geplant, aktiv, inaktiv, Probleme usw. Dies würde die Betrachter des Dokuments über den Status der Variablen informieren, wenn sie implementiert wurde oder Probleme mit der Datenerfassung auftreten.
-   * Variablenname: Beispiel: „Interne Suchbegriffe“. Dieser Wert ist der Wert, den Analysten bei der Arbeit in Analytics sehen.
-   * Zugeordnete Analytics-Variable: welcher standardmäßigen oder benutzerdefinierten Analytics-Variable Werte zugewiesen werden sollen. Dimensionen fallen normalerweise unter eVars, während Metriken unter Ereignisse fallen.
-   * Logik: Eine Beschreibung, wie die Variable festgelegt wird und was deren Wert bestimmt. Beispiel: „Nur auf internen Suchseiten eingestellt. Übernimmt den Wert des Abfragezeichenfolgenparameters q.“
+   * Variablenname: Beispiel: „Interne Suchbegriffe“. Dies ist der Wert, den Analystinnen und Analysten bei der Arbeit in Analytics sehen.
+   * Zugeordnete Analytics-Variable: welcher standardmäßigen oder benutzerdefinierten Analytics-Variable Werte zugewiesen werden sollen. Dimensionen werden normalerweise eVars zugeordnet, während Metriken Ereignissen zugeordnet werden.
+   * Logik: Eine Beschreibung, wie die Variable gesetzt wird und was ihren Wert bestimmt. Zum Beispiel: „Nur auf internen Suchseiten gesetzt.“ Übernimmt den Wert des Abfragezeichenfolgenparameters q.“
    * Sonstige Hinweise zur Variablen.
 
 ## Zusätzliche Ressourcen
 
-Die Definition eines Lösungsdesigndokuments ist ein ziemlich komplexes Projekt, besonders für Unternehmen, die noch kein Projekt erstellt haben. Wenn Sie weitere Unterstützung benötigen, bietet Adobe eine spezielle Beratung an, um Ihr Unternehmen bei der Einführung von Adobe Analytics zu unterstützen. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie professionelle Services von Adobe in Anspruch nehmen möchten. Es kann ein [technischer Fragenkatalog](assets/technical-pre-implementation-questionnaire.pdf) zur Implementierung ausgefüllt werden, damit Adobe anhand der Anforderungen Ihres Unternehmens genau weiß, wie Sie dabei unterstützt werden können.
+Das Definieren eines Lösungs-Design-Dokuments ist ein ziemlich komplexes Projekt, besonders für Unternehmen, die noch kein solches Dokument erstellt haben. Wenn Sie weitere Unterstützung benötigen, bietet Adobe eine spezielle Beratung an, um Ihr Unternehmen bei der Einführung von Adobe Analytics zu unterstützen. Wenden Sie sich an Ihr Adobe Account Team, wenn Sie professionelle Services von Adobe in Anspruch nehmen möchten. Es kann ein [technischer Fragenkatalog](assets/technical-pre-implementation-questionnaire.pdf) zur Implementierung ausgefüllt werden, damit Adobe anhand der Anforderungen Ihres Unternehmens genau weiß, wie Sie dabei unterstützt werden können.
 
 Es gibt auch mehrere Adobe-Partner, die sich auf die Unterstützung bei der Erstellung eines Lösungsdesigndokuments sowie die Implementierung von Adobe Analytics auf Ihrer Site spezialisiert haben.
 
 ## Nächste Schritte
 
-Implementieren Sie die Variablen in Ihr Lösungsdesigndokument.
+Implementieren Sie die Variablen in Ihrem Lösungs-Design-Dokument.
 
 [Erstellen Sie eine Datenschicht](data-layer.md): Übersetzen Sie Variablen in Ihrem Design-Dokument in JavaScript-Variablen auf Ihrer Site.

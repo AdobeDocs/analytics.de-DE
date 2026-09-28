@@ -4,29 +4,41 @@ description: Informieren Sie sich über häufige Probleme und Best Practices zur
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-TQID: https://experienceleague.adobe.com/U97L94cxnWYpnqsJ3FJh7EBbdIHpFHxfJP7uqoqrGgU
+TQID: 'https://experienceleague.adobe.com/U97L94cxnWYpnqsJ3FJh7EBbdIHpFHxfJP7uqoqrGgU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: '686'
 ht-degree: 91%
-
 ---
-
 # Fehlerbehebung bei der JavaScript-Implementierung
 
 Im Folgenden werden einige Gründe erläutert, aus denen Ihr Unternehmen Probleme haben könnte, Daten korrekt in Adobe Analytics einzugeben.
@@ -37,7 +49,7 @@ Die meisten Variablen, die an Adobe gesendet werden, sind Zeichenfolgen. In Java
 
 ### Mischen von Anführungszeichen bei der Definition einer Variablen
 
-Es empfiehlt sich, sicherzustellen, dass Sie mit den verwendeten Angebotstypen übereinstimmen. Wenn ein einzelnes Anführungszeichen den Anfang einer Zeichenfolge angibt, muss ein einfaches Anführungszeichen zum Schließen verwendet werden.
+Es empfiehlt sich, sicherzustellen, dass Sie mit den verwendeten Angebotstypen übereinstimmen. Wenn ein einzelnes Anführungszeichen den Beginn einer Zeichenfolge angibt, muss ein einzelnes Anführungszeichen zum Schließen verwendet werden.
 
 Zum Beispiel sind `s.eVar1 = 'Value'` und `s.eVar1 = "Value"` beide gültig. `s.eVar1 = 'Value"` ist nicht gültig.
 
@@ -52,7 +64,7 @@ Manchmal ist es wünschenswert, ein einfaches oder doppeltes Anführungszeichen 
 
 Einige Programme konvertieren neutrale Anführungszeichen (`"..."` und `'...'`) automatisch in typographische Anführungszeichen (`"..."` und `'...'`). Vermeiden Sie den Einsatz von Dokumenteditoren (z. B. Microsoft Word) oder das Senden von Codefragmenten per E-Mail. Typographische Anführungszeichen können in JavaScript nicht verwendet werden.
 
-## Analytics-Objekts referenzieren
+## Referenzieren des Analytics-Objekt
 
 Alle an Adobe gesendeten Variablen verwenden das Analytics-Objekt. Die meisten Implementierungen verwenden das `s`-Objekt. Achten Sie darauf, dass Sie beim Referenzieren von Variablen das Analytics-Objekt in Ihre Referenz aufnehmen.
 
@@ -68,11 +80,11 @@ Einige Variablen verwenden Großbuchstaben. Bei JavaScript-Variablen wird zwisch
 
 ## Plug-ins
 
-Einige Unternehmen verwenden Plug-ins, um ihre Implementierung von Adobe Analytics zu verbessern. Vergessen Sie beim Aktualisieren von AppMeasurement-Versionen nicht, installierte Plug-ins erneut einzuschließen. Der im [!UICONTROL Code-Manager] erstellte Code enthält keinen Plug-in-Code. Erstellen Sie eine Kopie Ihres vorhandenen Codes, falls Sie zu einer früheren Version von AppMeasurement zurückkehren müssen.
+Einige Unternehmen verwenden Plug-ins, um ihre Implementierung von Adobe Analytics zu verbessern. Vergessen Sie beim Aktualisieren von AppMeasurement-Versionen nicht, installierte Plug-ins erneut einzuschließen. Der im [!UICONTROL Code-Manager] erstellte Code enthält keinen Plug-in-Code. Erstellen Sie eine Kopie Ihres vorhandenen Symbols, falls Sie zu einer früheren Version von AppMeasurement zurückkehren müssen.
 
 ## Leerzeichen in Variablenwerten
 
-In HTML gibt es mehrere Zeichen, die zu einem Leerzeichen führen. Dazu gehören Leerzeichen, Tabulatoren und Zeilenumschalter (oder Zeilenvorschub). Siehe folgendes Beispiel:
+In HTML gibt es mehrere Zeichen, die Leerraum erzeugen. Dazu gehören ein Leerzeichen, ein Tabulator und ein Wagenrücklauf (oder Zeilenvorschub). Siehe folgendes Beispiel:
 
 ```html
 <head>
@@ -87,7 +99,7 @@ In HTML gibt es mehrere Zeichen, die zu einem Leerzeichen führen. Dazu gehören
 </body>
 ```
 
-In diesem Fall füllt `document.title` die Variable `s.pageName`, die den Wert „Home Page“ erhalten würde. In einigen Browsern kann das Leerzeichen jedoch anders interpretiert werden. Das Ergebnis kann eines der folgenden Beispiele sein:
+In diesem Fall füllt `document.title` die Variable `s.pageName`, die den Wert „Home Page“ erhalten würde. In einigen Browsern kann Leerraum jedoch unterschiedlich interpretiert werden. Das Ergebnis kann eines der folgenden Beispiele sein:
 
 ```js
 s.pageName = "Home Page";
@@ -97,7 +109,7 @@ s.pageName = "Home Page";
 s.pageName = "        Home Page";
 ```
 
-Diese beiden Variablenwerte werden in Adobe Analytics getrennt betrachtet. Das Leerzeichen wird jedoch automatisch für Anzeigezwecke entfernt. Das Ergebnis ist ein Bericht, der zwei scheinbar identische Zeileneinträge „Home Page“ anzeigt. Achten Sie darauf, dass Variablenwerte vor oder nach dem gewünschten Wert keine Leerzeichen enthalten.
+Diese beiden Variablenwerte werden in Adobe Analytics getrennt betrachtet. Das Leerzeichen wird jedoch automatisch für Anzeigezwecke entfernt. Das Ergebnis ist ein Bericht, der zwei scheinbar identische Zeileneinträge „Startseite“ anzeigt. Achten Sie darauf, dass Variablenwerte vor oder nach dem gewünschten Wert keine Leerzeichen enthalten.
 
 ## Abgeschnittene Bildanforderungen
 

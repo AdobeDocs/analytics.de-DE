@@ -1,33 +1,40 @@
 ---
-description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
+description: Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine Klassifizierung anwenden.
 title: Unterklassifizierungen
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-TQID: https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A
+TQID: 'https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 682
+source-wordcount: '682'
 ht-degree: 40%
-
 ---
-
 # Unterklassifizierungen
 
 {{classification-importer-deprecation}}
 
-Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Classification-Hierarchie können Sie eine Classification auf eine Classification anwenden.
+Adobe Analytics unterstützt sowohl einstufige als auch mehrstufige Klassifizierungsmodelle. Mit einer Klassifizierungshierarchie können Sie eine Klassifizierung auf eine Klassifizierung anwenden.
 
 >[!NOTE]
 >
@@ -50,7 +57,7 @@ Klassifizierungen auf mehreren Ebenen bestehen aus übergeordneten und untergeor
 
 ![](../assets/Multi-Level-Class-popup.png)
 
-**Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Classification kann gleichzeitig über- und untergeordnet sein. Die übergeordneten Klassifizierungen der obersten Ebene entsprechen einstufigen Klassifizierungen.
+**Übergeordnete Classifications:** Als übergeordnete Classification zählt jede Classification, der eine andere Classification untergeordnet ist. Eine Klassifizierung kann gleichzeitig übergeordnet und untergeordnetes Element sein. Die übergeordneten Klassifizierungen der obersten Ebene entsprechen einstufigen Klassifizierungen.
 
 **Untergeordnete Classifications:** Als untergeordnete Classification gilt jede Classification, der eine andere Classification anstelle der Variablen übergeordnet ist. Untergeordnete Klassifizierungen bieten zusätzliche Informationen zu ihrer übergeordneten Klassifizierung. Beispielsweise könnte eine Klassifizierung [!UICONTROL Kampagnen] eine untergeordnete Klassifizierung Kampagnenverantwortlicher enthalten. [!UICONTROL Numerisch] Classifications fungieren auch als Metriken in Classification-Berichten.
 
@@ -79,11 +86,11 @@ Obwohl die Dateivorlage für eine mehrstufige Klassifizierung komplexer ist, bie
 
 >[!NOTE]
 >
->Die Produkt-Classification-Daten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten beschränken sich nicht auf die Kategorisierung oder den Verkauf der Produkte auf der Website. Datenelemente wie Verkaufskategorien, Site-Browse-Knoten oder Verkaufsartikel sind keine Produktklassifizierungsdaten. Stattdessen werden diese Elemente in Berichtskonversionsvariablen erfasst.
+>Die Produktklassifizierungsdaten sind auf Datenattribute beschränkt, die sich direkt auf das Produkt beziehen. Die Daten beschränken sich nicht auf die Kategorisierung oder den Verkauf der Produkte auf der Website. Datenelemente wie Verkaufskategorien, Site-Browse-Knoten oder Verkaufsartikel sind keine Produktklassifizierungsdaten. Stattdessen werden diese Elemente in Berichtskonversionsvariablen erfasst.
 
 Beim Hochladen von Datendateien für diese Produktklassifizierung können Sie die Klassifizierungsdaten als einzelne Datei oder als mehrere Dateien hochladen (siehe unten). Durch die Trennung des Farbcodes in Datei 1 vom Farbnamen in Datei 2 müssen die Farbnamendaten (die nur einige Zeilen umfassen können) nur aktualisiert werden, wenn neue Farbcodes erstellt werden. Dadurch wird das Feld „Farbname (CODE^COLOR)“ aus der häufiger aktualisierten Datei 1 entfernt und die Dateigröße und -komplexität bei der Erstellung der Datendatei reduziert.
 
-### Produkt-Classification – Einzeldatei {#section_E8C5E031869C449F9B636F5EB3BFEC17}
+### Produktklassifizierung – Einzeldatei {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE | CODE^COLOR |
 |---|---|---|---|---|---|---|
@@ -91,7 +98,7 @@ Beim Hochladen von Datendateien für diese Produktklassifizierung können Sie di
 | 410390014 | POLO-SS | Herren Poloshirt, Kurzarm (L,03) | M | L | 03 | Heide |
 | 410390015 | Polo-LS | Poloshirt für Damen, Langarm (S,23) | F | S | 23 | Aqua |
 
-### Produkt-Classification – Mehrere Dateien (Datei 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Produktklassifizierung – Mehrere Dateien (Datei 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | SCHLÜSSEL | PRODUKTNAME | PRODUKTDETAILS | GESCHLECHT | GRÖSSE | CODE |
 |---|---|---|---|---|---|
@@ -99,7 +106,7 @@ Beim Hochladen von Datendateien für diese Produktklassifizierung können Sie di
 | 410390014 | POLO-SS | Herren Poloshirt, Kurzarm (L,03) | M | L | 03 |
 | 410390015 | Polo-LS | Poloshirt für Damen, Langarm (S,23) | F | S | 23 |
 
-### Produkt-Classification – Mehrere Dateien (Datei 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Produktklassifizierung – Mehrere Dateien (Datei 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | SCHLÜSSEL | CODE | CODE^COLOR |
 |---|---|---|
