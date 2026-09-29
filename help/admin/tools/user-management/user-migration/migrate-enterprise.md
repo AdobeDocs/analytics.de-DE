@@ -7,21 +7,24 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 71%
-
 ---
-
 # Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs
 
 So migrieren Sie Analytics-Benutzerkonten als Enterprise oder Federated IDs in die Adobe Admin Console.
@@ -113,46 +116,46 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten zu einer Enterprise ID oder Federate
 
 1. Ergänzen Sie in der Vorlage [!DNL sample.csv] die folgenden Pflichtfelder:
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Feld </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>E-Mail </p> </td> 
-   <td colname="col2"> <p>Kopiert aus <span class="filepath">User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vorname </p> </td> 
-   <td colname="col2"> <p>Kopiert aus <span class="filepath">User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nachname </p> </td> 
-   <td colname="col2"> <p>Kopiert aus <span class="filepath">User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Identitätstyp </p> </td> 
-   <td colname="col2"> <p><span class="term"> Federated ID</span> oder <span class="term"> Enterprise ID</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Domain </p> </td> 
-   <td colname="col2"> <p>Stellen Sie sicher, dass die Domains in <span class="term"> </span> Spalte Domain und <span class="term"> Spalte E</span> mit den Domains übereinstimmen, die in den Voraussetzungen festgelegt wurden</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ländercode </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> Feld </th> 
+      <th colname="col2" class="entry"> Beschreibung </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>E-Mail </p> </td> 
+      <td colname="col2"> <p>Kopiert aus <span class="filepath">User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Vorname </p> </td> 
+      <td colname="col2"> <p>Kopiert aus <span class="filepath">User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Nachname </p> </td> 
+      <td colname="col2"> <p>Kopiert aus <span class="filepath">User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Identitätstyp </p> </td> 
+      <td colname="col2"> <p><span class="term"> Federated ID</span> oder <span class="term"> Enterprise ID</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Domain </p> </td> 
+      <td colname="col2"> <p>Stellen Sie sicher, dass die Domains in <span class="term"> </span> Spalte Domain und <span class="term"> Spalte E</span> mit den Domains übereinstimmen, die in den Voraussetzungen festgelegt wurden</a>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Ländercode </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/de/enterprise/using/users.html).
+   Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/de/enterprise/using/users.html).
 
->[!NOTE]
->
->Andere Spalten wie [!UICONTROL Produktkonfigurationen] und [!UICONTROL Administratorrollen] können leer sein.
+   >[!NOTE]
+   >
+   >Andere Spalten wie [!UICONTROL Produktkonfigurationen] und [!UICONTROL Administratorrollen] können leer sein.
 
 1. Laden Sie in der Adobe Admin Console die Vorlagendatei auf der Registerkarte „Benutzer“ hoch, indem Sie auf **[!UICONTROL Benutzer gemäß CSV zufügen]** klicken (vgl. Schritt 3).
 1. Führen Sie in Analytics das Migrations-Tool aus (wie unter [Migrieren von Analytics-Benutzerkonten](/help/admin/tools/user-management/user-migration/t-migrate-users.md) beschrieben.
