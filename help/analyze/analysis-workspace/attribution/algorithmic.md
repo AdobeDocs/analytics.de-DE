@@ -7,17 +7,23 @@ exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 TQID: 'https://experienceleague.adobe.com/jPLoQcRU8bpCGjKJ37mioUdZOFDUwNehmyBhdx7lj8c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 38%
-
 ---
-
 # Algorithmische Attribution
 
 Das algorithmische [Attributionsmodell](models.md) in Analysis Workspace unterscheidet sich von anderen Modellen insofern, als es mithilfe statistischer Verfahren Gewichtungen über die Dimensionselemente in Ihrem Bericht oder Ihrer Freiform-Tabelle verteilt. Wie alle anderen Attributionsmodelle in Analysis Workspace kann die algorithmische Attribution für jede Dimension oder Metrik verwendet werden. Algorithmische Attribution unterstützt eine unbegrenzte Segmentierung und Aufschlüsselungen und verteilt 100 % der Konversionen auf eine oder mehrere Dimensionen in der Tabelle (auch als „fraktionelle“ Attribution bezeichnet).
@@ -37,7 +43,7 @@ Auf allgemeiner Ebene wird bei der Attributionsberechnung der Konversion für je
 Weitere Einzelheiten finden Sie in den Originalpapieren von John Harsanyi und Lloyd Shapley:
 
 * Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.
-* Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220.
+* Harsanyi, John C. (1963). Ein vereinfachtes Verhandlungsmodell für das kooperative n-Personen-Spiel. *International Economic Review 4(2)*, 194-220.
 
 >[!NOTE]
 >

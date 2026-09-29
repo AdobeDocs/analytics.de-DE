@@ -4,34 +4,44 @@ title: Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+TQID: 'https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '815'
 ht-degree: 90%
-
 ---
-
 # Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
 
 Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** bietet einen Überblick über die Datenschutzkennzeichnungen und Namespaces einer Report Suite. Sie können die Einstellungen von hier aus auch in eine CSV-Datei exportieren.
 
 ## Anzeigen von Datenschutzkennzeichnungen {#view-privacy}
 
-1. Anmelden bei Adobe CX Enterprise.
+1. Melden Sie sich bei Adobe CX Enterprise an.
 2. Gehen Sie zu **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Datenkonfiguration und -erfassung]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
@@ -45,16 +55,16 @@ Das Dialogfeld **[!UICONTROL Datenschutzkennzeichnungen für Data Governance]** 
 | Einstellung | Beschreibung |
 | --- | --- |
 | **[!UICONTROL Name der Komponente]** | In dieser Spalte werden alle Komponenten (Dimensionen, Metriken) aufgelistet, die Teil dieser Report Suite sind. |
-| **[!UICONTROL Identität]** | Die Kennzeichnung für Identitätsdaten („I“) wird verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
+| **[!UICONTROL Identität]** | Identitätsdaten-Labels („I“) werden verwendet, um Daten zu kategorisieren, über die eine bestimmte Person identifiziert oder kontaktiert werden kann. [Weitere Informationen](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
 | **[!UICONTROL Vertraulichkeit]** | Diese Kennzeichnung („S“) wird verwendet, um vertrauliche Daten, wie z. B. geografische Daten, zu kategorisieren. In Zukunft werden zusätzliche Datenkennzeichnungen verfügbar sein, um andere Arten vertraulicher Informationen zu kennzeichnen. [Weitere Informationen](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
-| **[!UICONTROL DSGVO-Zugriff]** | Mit Data-Governance-Labels können Benutzende Daten klassifizieren, die datenschutzbezogene Informationen und vertragliche Bedingungen zur Einhaltung von Verordnungen und Unternehmensrichtlinien enthalten. [Weitere Informationen](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
+| **[!UICONTROL DSGVO-Zugriff]** | Mit Data-Governance-Labels können Benutzende Daten klassifizieren, die datenschutzbezogene Überlegungen und vertragliche Bedingungen widerspiegeln, um Vorschriften und Unternehmensrichtlinien einzuhalten. [Weitere Informationen](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
 | **[!UICONTROL DSGVO-Löschung]** | Eine Löschkennzeichnung ist nur für Felder mit einem Wert erforderlich, der die Zuordnung eines Treffers zur betroffenen Person zulässt (d. h. der die Identifizierung der betroffenen Person ermöglicht). [Weitere Informationen](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
 | **[!UICONTROL Namespace]** | Wenn Sie eine Variable als ID-DEVICE oder ID-PERSON beschriften, werden Sie zum Bereitstellen eines Namespace aufgefordert. Sie können entweder einen zuvor definierten Namespace verwenden oder einen neuen definieren. |
 | **[!UICONTROL Kategorie]** | Bezieht sich auf den Komponententyp, z. B. Standardkomponente, Konversionsvariable usw. |
 
 {style="table-layout:auto"}
 
-## Kopieren von Datenschutzbeschriftungen in eine Report Suite  {#copy-to-rs}
+## Kopieren von Datenschutz-Labels in eine Report Suite  {#copy-to-rs}
 
 Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwenden möchten, führen Sie folgende Schritte aus:
 
@@ -63,7 +73,7 @@ Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwen
 
    ![In die Report Suite kopieren](assets/copy_to_reportsuite.png)
 
-1. Der folgende Bildschirm enthält den Variablennamen, die aktuell angewendeten Kennzeichnungen, die Sie kopieren möchten, die Report Suites und deren IDs sowie Informationen darüber, ob die Einstellungen in den Ziel-Report-Suites passend sind.
+1. Der folgende Bildschirm enthält den Variablennamen, die aktuell angewendeten Labels, die Sie kopieren möchten, die Report Suites und deren IDs sowie Informationen darüber, ob die Einstellungen in den Ziel-Report-Suites übereinstimmen.
 
    ![Kopieren von Kennzeichnungen in die Report Suite](assets/copy_to_rs.png)
 
@@ -80,21 +90,21 @@ Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwen
 1. Aktivieren Sie das Kontrollkästchen neben einer oder mehreren Report Suites mit passenden Einstellungen.
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
-   Nach dem Anwenden einer Kennzeichnung wird eine Statusmeldung angezeigt. Die Statusmeldung enthält die Namen der Zielvariablen oder Klassifizierungen und die zugehörigen Report Suites, für die die Kopie fehlgeschlagen ist.
+   Nach dem Anwenden eines Labels wird eine Statusmeldung angezeigt. Die Statusmeldung enthält die Namen der Zielvariablen oder Klassifizierungen und die zugehörigen Report Suites, für die die Kopie fehlgeschlagen ist.
 
    >[!IMPORTANT]
    >
-   >Sie sollten immer die zielseitigen Report Suites überprüfen, um sicherzustellen, dass die Kennzeichnungen korrekt kopiert wurden. Dies ist insbesondere für Variablen mit ID- oder DEL-Kennzeichnungen wichtig.
+   >Sie sollten immer die Ziel-Report-Suites überprüfen, um sicherzustellen, dass die Labels korrekt kopiert wurden. Dies ist insbesondere für Variablen mit ID- oder DEL-Kennzeichnungen wichtig.
 
 ## Exportieren in eine CSV-Datei {#export-csv}
 
-Sie können eine CSV-Datei herunterladen, die alle aktuellen Kennzeichnungsdefinitionen für alle Variablen der ausgewählten Report Suite(s) enthält. Wir empfehlen, dass Ihre Rechtsabteilung Ihre Etikettierungsoptionen überprüft, und diese Option erleichtert diese Überprüfung. Auf diese Weise müssen die Prüfenden zur Überprüfung nicht in der Data-Governance-Benutzeroberfläche angemeldet sein. Stattdessen können Sie ihnen einfach die CSV-Datei zusenden.
+Sie können eine CSV-Datei herunterladen, die alle aktuellen Kennzeichnungsdefinitionen für alle Variablen der ausgewählten Report Suite(s) enthält. Wir empfehlen, dass Ihre Rechtsabteilung Ihre Etikettierungsoptionen überprüft, und diese Option erleichtert diese Überprüfung. Auf diese Weise müssen die Prüfenden zur Überprüfung nicht in der Data-Governance-Benutzeroberfläche angemeldet sein. Stattdessen können Sie ihnen einfach die .csv-Datei zusenden.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL CSV exportieren]**. Daraufhin wird dieses Dialogfeld angezeigt:
 
    ![](assets/export_csv.png)
 
-1. Wählen Sie eine oder mehrere Report Suites aus, deren Data-Governance-Einstellungen exportiert werden sollen.
+1. Wählen Sie eine oder mehrere Report Suites aus, für die Sie alle Data-Governance-Einstellungen exportieren möchten.
 
 ## Bearbeiten von Datenschutzkennzeichnungen {#edit}
 

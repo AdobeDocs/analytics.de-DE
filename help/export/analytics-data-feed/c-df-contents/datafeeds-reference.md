@@ -5,45 +5,73 @@ subtopic: data feeds
 title: Datenspaltenreferenz
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
+TQID: 'https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+    internal-label: Streaming Media
   - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
+    internal-label: Target integration
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 4163
+source-wordcount: '4163'
 ht-degree: 78%
-
 ---
-
 # Datenspaltenreferenz
 
 Auf dieser Seite erfahren Sie, welche Daten in den einzelnen Spalten enthalten sind. Bei den meisten Implementierungen wird nicht alle Spalten verwendet. Daher können Sie diese Seite konsultieren, wenn Sie entscheiden müssen, welche Spalten in einen Daten-Feed-Export einbezogen werden sollen.
@@ -105,7 +133,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | **`post_`** | **`ef_id`** | Die EF-ID, die in Adobe Advertising-Integrationen verwendet wird. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Benutzerdefinierte Variablen 1–250. Wird in [eVar](/help/components/dimensions/evar.md)-Dimensionen verwendet. Jede Organisation verwendet eVars anders. Die beste Anlaufstelle für weitere Informationen darüber, wie Ihre Organisation die jeweiligen eVars ausfüllt, ist ein für Ihre Organisation spezifisches [Lösungs-Design-Dokument](/help/implement/prepare/solution-design.md). | varchar(255) |
 | **`post_`** | **`event_list`** | Kommagetrennte Liste numerischer IDs, die die durch den Treffer ausgelösten Ereignisse darstellen. Umfasst sowohl Commerce-Ereignisse als [benutzerspezifische Ereignisse 1-1000](/help/components/metrics/custom-events.md). Verwendet die `event.tsv`-Suche. | Text |
-| | **`exclude_hit`** | Markierung, die bestimmt, ob der Treffer aus dem Reporting ausgeschlossen wird. Die `visit_num` Spalte wird für ausgeschlossene Treffer nicht inkrementiert<br>1: Nicht verwendet. Teil eines verschrotteten Features.<br>2: Nicht verwendet. Teil einer verschrotteten Funktion.<br>3: Nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Hit-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Hit nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternative kontospezifische Ausnahme.<br>9: Nicht verwendet. Teil einer ausgemusterten Funktion.<br>10: Ungültiger Währungs-Code<br>11: Bei einem Treffer fehlt ein Zeitstempel in einer Report Suite, die nur einen Zeitstempel enthält, oder ein Treffer enthält einen Zeitstempel in einer Report Suite, die keinen Zeitstempel enthält<br>12: Nicht verwendet. Teil einer verschrotteten Funktion.<br>13: Nicht verwendet. Teil einer ausrangierten Funktion.<br>14: Target-Treffer, der keinem Analytics-Treffer entsprach<br>15: Derzeit nicht verwendet.<br>16: Adobe Advertising-Treffer, der keinem Analytics-Treffer entsprach | tinyint unsigned |
+| | **`exclude_hit`** | Markierung, die bestimmt, ob der Treffer aus dem Reporting ausgeschlossen wird. Die `visit_num` Spalte wird für ausgeschlossene Treffer nicht inkrementiert<br>1: Nicht verwendet. Teil eines verschrotteten Features.<br>2: Nicht verwendet. Teil einer verschrotteten Funktion.<br>3: Nicht mehr verwendet. Ausschluss des Benutzeragenten<br>4: Ausschluss basierend auf IP-Adresse<br>5: Wichtige Treffer-Informationen fehlen, z. B. `page_url`, `pagename`, `page_event` oder `event_list`<br>6: JavaScript hat Treffer nicht korrekt verarbeitet<br>7: Kontospezifischer Ausschluss, z. B. in VISTA-Regeln<br>8: Nicht verwendet. Alternative kontospezifische Ausnahme.<br>9: Nicht verwendet. Teil einer ausgemusterten Funktion.<br>10: Ungültiger Währungs-Code<br>11: Bei einem Treffer fehlt ein Zeitstempel in einer Report Suite, die nur einen Zeitstempel enthält, oder ein Treffer enthält einen Zeitstempel in einer Report Suite, die keinen Zeitstempel enthält<br>12: Nicht verwendet. Teil einer verschrotteten Funktion.<br>13: Nicht verwendet. Teil einer ausrangierten Funktion.<br>14: Target-Treffer, der keinem Analytics-Treffer entsprach<br>15: Derzeit nicht verwendet.<br>16: Adobe Advertising-Treffer, der keinem Analytics-Treffer entsprach | tinyint unsigned |
 | | **`first_hit_pagename`** | Die Dimension [Ursprüngliche Einstiegsseite](/help/components/dimensions/entry-dimensions.md). Der Name der ursprünglichen Entrypage des Besuchers. | varchar(100) |
 | | **`first_hit_page_url`** | Die allererste URL des Besuchers. | varchar(255) |
 | | **`first_hit_referrer`** | Die allererste verweisende URL des Besuchers. | varchar(255) |

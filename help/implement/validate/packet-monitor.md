@@ -1,36 +1,48 @@
 ---
 title: Paket-Analyzer
 description: Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
-keywords: Paket-Sniffer, http-Status, 200, 302, Charles
+keywords: Paket-Sniffer, HTTP-Status, 200, 302, Charles
 feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '679'
 ht-degree: 67%
-
 ---
-
 # Paket-Analyzer
 
-Mit Paket-Analyzern können Sie die Daten einsehen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
+Mit Paketanalysatoren können Sie die Daten anzeigen, die von Ihrer Implementierung an die Datenerfassungs-Server von Adobe gesendet werden.
 
 Ähnlich wie beim Adobe CX Enterprise-Debugger zeigt ein Paketmonitor an, welche Datenparameter in einer Bildanforderung übergeben werden. Paketmonitore bieten jedoch zusätzliche Funktionen:
 
@@ -69,12 +81,12 @@ Wenn AppMeasurement Daten an die Datenerfassungs-Server der Adobe sendet, antwor
   * Integration zwischen Comscore und Adobe: Wenn Ihr Unternehmen eine Comscore-/Analytics-Integration verwendet, ergibt jede Bildanforderung immer eine 302-Antwort.
 * **404 NOT FOUND**: Diese Antwort bedeutet, dass die Bildanforderung nicht gefunden wurde und keine Daten an die Datenerfassungs-Server von Adobe gesendet werden. Diese Antwort ist auch möglich, wenn fest programmierte Bildanforderungen nicht korrekt formatiert sind. Wenden Sie sich an die Person oder das Team, die/das Analytics implementiert hat, um dieses Problem zu beheben.
 
-## NS_BINDING_ABORTED in Antwortcodes
+## NS_BINDING_ABORTED in Antwort-Codes
 
-Der Grund für diese Nachricht liegt darin, dass die zur Linktracking dienende Bildanforderung es dem Browser erlauben soll, zur nächsten Seite zu wechseln, ohne auf eine Antwort von den Datenerfassungs-Servern von Adobe warten zu müssen.
+Diese Meldung erscheint, weil die für das Linktracking vorgesehene Bildanforderung so konzipiert ist, dass der Browser zur nächsten Seite wechseln kann, ohne auf eine Antwort von den Datenerfassungs-Servern von Adobe warten zu müssen.
 
-Die Antwort von Adobe ist einfach nur ein leeres transparentes 1x1-Pixel-Bild, das für den Seiteninhalt irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]** oder **[!UICONTROL NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei den Servern von Adobe angekommen sind. Es ist nicht erforderlich, dass die Seite länger wartet.
+Die Antwort von Adobe auf die Bildanforderung ist einfach nur ein leeres, transparentes 1x1-Pixel-Bild, das für den Inhalt der Seite irrelevant ist. Wenn Ihnen in Ihrem Paketmonitor eine Meldung von Adobe in der Form **[!UICONTROL 200 OK]** oder **[!UICONTROL NS_BINDING_ABORTED]** angezeigt wird, bedeutet dies, dass die Daten bei den Servern von Adobe angekommen sind. Es ist nicht erforderlich, dass die Seite länger wartet.
 
 Paketmonitore, die als Plug-in integriert sind, zeigen nur selten die volle Antwort an. Sie sehen die Anfrage in der Regel als abgebrochen, da keine vollständige Antwort empfangen wurde. Diese Monitore unterscheiden auch selten zwischen der Frage, ob die Anfrage oder die Antwort abgebrochen wurde. Ein eigenständiger Paketmonitor verfügt in der Regel über detailliertere Meldungen und zeigt den Status genauer an. Beispielsweise erhält ein Benutzer möglicherweise eine Nachricht in „Charles *mit der* „Client hat die Verbindung geschlossen, bevor er die gesamte Antwort erhält“. Das bedeutet, dass die Daten unsere Server erreicht haben, nur der Browser ist auf die nächste Seite gegangen, bevor das 1x1 Pixel empfangen wurde.
 
-Wenn ein externer Paketmonitor meldet, dass die Datenerfassungsanforderung abgebrochen wurde (anstatt der Antwort), stellt dies ein Problem dar. Adobe [!DNL Customer Care] kann Ihnen hier bei der Fehlerbehebung helfen.
+Wenn ein externer Paketmonitor meldet, dass die Anfrage zur Datenerfassung abgebrochen wurde und nicht die Antwort, ist dies ein Grund zur Sorge. Adobe [!DNL Customer Care] kann Ihnen hier bei der Fehlerbehebung helfen.

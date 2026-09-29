@@ -8,26 +8,38 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 60%
-
 ---
-
 # Übersicht über die Server-seitige Weiterleitung
 
 Die Server-seitige Weiterleitung wurde für Kunden entwickelt, die Daten aus Analytics in Echtzeit für andere CX Enterprise-Lösungen freigeben möchten. Wenn diese Option aktiviert ist, ermöglicht die Server-seitige Weiterleitung während des Datenerfassungsprozesses Analytics das Pushen von Daten an andere CX Enterprise-Lösungen und diese Lösungen das Pushen von Daten an Analytics.
@@ -35,15 +47,15 @@ Die Server-seitige Weiterleitung wurde für Kunden entwickelt, die Daten aus Ana
 Die Server-seitige Weiterleitung verbessert die Datenerfassung, da sie:
 
 * Reduziert Aufrufe von der Seite. Mit der serverseitigen Weiterleitung müssen Kunden von [!DNL Audience Manager] für die Datenerfassung nicht mehr DIL verwenden, weil die Weiterleitung über Analytics erfolgt. Das Entfernen von DIL bedeutet, einen `"/event"`-Aufruf zu entfernen. Weniger Aufrufe helfen, die Seitenladezeiten zu verbessern, was zu einem besseren Kundenerlebnis auf Ihrer Site führt.
-* Ermöglicht die gemeinsame Nutzung von Daten zwischen CX Enterprise-Lösungen.
-* Konformität mit unseren Best Practices für die Implementierung und Bereitstellung von Audience Manager-Code.
+* Ermöglicht die gemeinsame Nutzung von Daten durch CX Enterprise-Lösungen.
+* Entspricht unseren Best Practices für die Implementierung und Bereitstellung von Audience Manager-Code.
 
 >[!TIP]
 >
 >Audience Manager-Bestandskunden, die Analytics verwenden, sollten auf die serverseitige Weiterleitung migrieren. Neukunden von Adobe Analytics und Audience Manager sollten die serverseitige Weiterleitung (anstelle von DIL) als Standardmethode zur Datenerfassung und -übertragung implementieren.
 
 >[!IMPORTANT]
->Gemäß den Anforderungen des sogenannten EU-Cookie-Gesetzes haben Datenverantwortliche (Analytics-Kundinnen und -Kunden) nun die Möglichkeit, bislang noch nicht bewilligte Daten auf Adobe Analytics zu beschränken und zu verhindern, dass sie Server-seitig an Adobe Audience Manager (AAM) weitergeleitet werden. Eine neue Variable im Implementierungskontext ermöglicht es, die Treffer zu kennzeichnen, bei denen noch keine Zustimmung erfolgt ist. Diese Variable verhindert, sofern festgelegt, dass diese Treffer vor einer Einwilligung an Adobe Audience Manager weitergeleitet werden. Weitere Informationen finden Sie unter [DSGVO_ePrivacy - Einhaltung und Server-seitige Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
+>Aufgrund der EU-Cookie-Richtlinie haben Datenverantwortliche (Analytics-Kundinnen und -Kunden) nun die Möglichkeit, bislang noch nicht bewilligte Daten auf Adobe Analytics zu beschränken und zu verhindern, dass sie Server-seitig an Adobe Audience Manager weitergeleitet werden. Eine neue Variable im Implementierungskontext ermöglicht es, die Treffer zu kennzeichnen, bei denen noch keine Zustimmung erfolgt ist. Diese Variable verhindert, sofern festgelegt, dass diese Treffer an Adobe Audience Manager weitergeleitet werden, bis ein Einverständnis erfolgt ist. Weitere Informationen finden Sie unter [DSGVO_ePrivacy - Einhaltung und Server-seitige Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Implementierung der serverseitigen Weiterleitung befindet, führen Sie die folgenden Validierungsschritte durch:
 

@@ -3,31 +3,45 @@ description: Erfahren Sie, wie Sie veraltete Segmente verwalten.
 title: Häufig gestellte Fragen zu Legacy-Segmenten
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
+TQID: 'https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 23%
-
 ---
-
 # Legacy-Segmente
 
 In diesem Artikel werden häufig gestellte Fragen zu Best Practices für die Verwaltung veralteter Segmente beantwortet. Legacy-Segmente sind Segmente, die vor 2014 erstellt wurden.
@@ -85,12 +99,12 @@ Diese Segmente werden als Segmentvorlagen in den Segment Builder migriert. Vorha
 * Nichtkaufende
 * Kaufende
 * Erstbesuche
-* Besuche von Social Media aus
+* Besuche von Social Sites
 * Besuche von mehr als 10 Minuten*
 * Besuche mit mehr als 5 vorherigen Besuchen*
 * Besuche von Facebook*
 
-Die meisten dieser Segmente (bis auf die mit einem Sternchen „*“ markierten) werden als Segmentvorlagen in Segment Builder migriert. Darüber hinaus wurden einige neue Segmente hinzugefügt.
+Die meisten dieser Segmente (bis auf die mit einem Sternchen „*“ markierten) werden als Segmentvorlagen in Segment Builder migriert. Darüber hinaus wurden mehrere neue Segmentvorlagen hinzugefügt.
 
 Vorhandene Berichte, auf die diese Segmente angewendet wurden, funktionieren weiterhin fehlerfrei.
 
@@ -130,7 +144,7 @@ Nachdem Segmente jetzt von unterschiedlichen Report-Suites genutzt werden könne
 
 Die folgenden Tipps helfen Ihnen bei der Migration allgemeiner Dimensionen:
 
-* Geo-Stadt/Region/Land – Suche nach und Auswahl bestimmter Städte, Regionen oder Länder, anstelle einer teilweisen Übereinstimmung.
+* Geo-Stadt/-Region/-Land – Suchen Sie nach bestimmten Städten, Regionen oder Ländern und wählen Sie diese aus, anstatt eine teilweise Übereinstimmung zu verwenden.
 * Browser - Verwenden Sie die Dimension Browser-Typen , um alle Browser in einen Typ zu bekommen, z. B. Google Chrome
 * Betriebssysteme : Verwenden Sie die Dimensionen „Betriebssystemtypen“, um alle Betriebssysteme in einen Typ zu bekommen, z. B. Microsoft Windows.
 * Siehe „Neue und umbenannte Dimensionen“ (siehe unten).
@@ -151,17 +165,17 @@ Die folgende Tabelle enthält eine Liste der Dimensionen, die in Segment Builder
 | – | „Programm - *&quot; | Die Präfixe „App -&quot; wurden aus einer Reihe von Dimensionstypen entfernt. Da Mobile-App-Daten normalerweise in einer Report Suite erfasst werden, die keine Web-Daten enthält, waren diese Präfixe nicht erforderlich. |
 | Ursprüngliche Entrypage | Ursprüngliche Einstiegsseite | – |
 | Java aktiviert | Java | – |
-| Maximale mobile Browser-URL-Länge | Länge der mobilen Browser-URL | – |
+| Maximale mobile Browser-URL-Länge | URL-Länge für mobile Browser | – |
 | Mobilgerät – Mail-Design | Mobile Design-Mail-Unterstützung | – |
 | Mobilgerät | Mobilgerätename | – |
-| Maximale mobile Lesezeichenlänge | Mobil Max. Lesezeichen URL-Länge | – |
-| Maximale mobile E-Mail-Länge | Mobil Max. Mail URL-Länge | – |
+| Maximale mobile Lesezeichenlänge | Max. Lesezeichen-URL-Länge für Mobile | – |
+| Maximale mobile E-Mail-Länge | Max. Mail-URL-Länge für Mobile | – |
 | Betriebssystem für Mobilgeräte (veraltet) | Mobilbetriebssystem | Verwenden Sie stattdessen die Dimension Betriebssystem und wenden Sie Besuche von Segmenten mobiler Geräte an. |
-| Mobiles PTT | Mobile PTT | – |
+| Mobile Push To Talk | Mobile PTT | – |
 | Umfrageansichten | Gesamtaufrufe der Umfrage | – |
 | Umfrageantworten | Gesamtzahl der Umfrageantworten | – |
 | Besuchstiefe | Path Length | – |
-| Postleitzahl | Postleitzahl | - |
+| Postleitzahl | Postleitzahl | – |
 
 {style="table-layout:auto"}
 
@@ -175,7 +189,7 @@ Die folgenden Dimensionen wurden in Aufzählungslisten geändert:
 | --- | --- | --- |
 | Mobilgerätehersteller | Länge der mobilen E-Mail | Farbtiefe |
 | Mobilgerät - Bildschirmgröße | Mobilgerätenummer | Bildschirmauflösung |
-| Mobilgerät - Bildschirmhöhe | Gebührenpflichtige Suche | Plug-in |
+| Mobilgerät - Bildschirmhöhe | Mobile Push To Talk | Plug-in |
 | Unterstützung mobiler Cookies | Mobile-Mail-Dekoration | Betriebssystem |
 | Bildunterstützung für Mobilgeräte | Mobile Informationsdienste | Empfehlungstyp |
 | Mobilgerät - Farbtiefe | Mobilgerätetyp | Suchmaschine |

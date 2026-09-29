@@ -4,29 +4,41 @@ description: Prüfen Sie Ihre Implementierung alle 6 Monate, um weiterhin die Au
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM
+TQID: 'https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 73%
-
 ---
-
 # Vollständige Prüfung (zweimal jährlich zur Prüfung Ihrer Implementierung)
 
 Warum sollten Sie Ihre Implementierung alle 6 Monate prüfen? Weil Sie sicherstellen müssen, dass Ihre Implementierung an Ihren Geschäftsanforderungen ausgerichtet bleibt! Sie sollten auch alle Probleme mit der Datenqualität ansprechen, solange sie klein sind und bevor sie zu wichtigen Datenproblemen werden, die das Vertrauen der Stakeholder untergraben könnten. Zusätzlich zu diesen vollständigen Prüfungen alle 6 Monate sollten Sie auch [gezielte Prüfungen](/help/implement/review/focused-review.md) nach jeder Website-Veröffentlichung durchführen.

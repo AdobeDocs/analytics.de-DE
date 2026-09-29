@@ -3,24 +3,30 @@ title: Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 description: Erläutert, wie Klassifizierungskonsolidierungen erstellt, validiert, ausgeführt, genehmigt und abgebrochen werden.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-TQID: https://experienceleague.adobe.com/XWCDhuponeZ47al1ARXQTA0yzde0-XUnnAhoEU41p2w
+TQID: 'https://experienceleague.adobe.com/XWCDhuponeZ47al1ARXQTA0yzde0-XUnnAhoEU41p2w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 998
+source-wordcount: '998'
 ht-degree: 10%
-
 ---
-
 # Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
 
 Eine Konsolidierung von Klassifizierungssätzen ermöglicht es Ihnen, Klassifizierungen aus mehreren Klassifizierungssätzen zu nehmen und zu einem zusammenzufassen. Verwenden Sie diese Schnittstelle, um eine Klassifizierungssatz-Konsolidierung von Anfang bis Ende zu erstellen. Diese Benutzeroberfläche ist besonders nützlich für Unternehmen, die von alten Klassifizierungen zu Klassifizierungssätzen wechseln. Organisationen, die Klassifizierungssätze verwenden, müssen diesen Konsolidierungs-Workflow bereits nicht verwenden.
@@ -72,7 +78,7 @@ Nachdem Sie eine Konsolidierung erstellt haben, sind die nächsten Schritte:
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Keine Übereinstimmung"
->abstract="Dies ist der Prozentsatz der nicht übereinstimmenden Schlüssel, wenn der Wert im konsolidierten Klassifizierungssatz nicht dem Quellklassifizierungssatz entspricht."
+>abstract="Prozentsatz der Schlüsselabweichungen, wenn der Wert im konsolidierten Klassifizierungssatz nicht dem Quellklassifizierungssatz entspricht."
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"

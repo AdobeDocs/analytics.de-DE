@@ -6,21 +6,27 @@ feature: Classifications
 TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1937
+source-wordcount: '1937'
 ht-degree: 9%
-
 ---
-
 # Klassifizierungssatz-Schema
 
 Das Schema ist die Liste von Klassifizierungen, die Sie auf die Schlüsseldimensionen anwenden möchten, die Sie für den Klassifizierungssatz definiert haben. Wenn beispielsweise Produkt die Schlüsseldimension ist, verwenden Sie das Schema , um Klassifizierungen wie Produktname, Farbe und Größe hinzuzufügen.
@@ -163,15 +169,15 @@ Im Dialogfeld **[!UICONTROL Vorlage für Klassifizierungssatz _herunterladen_]**
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_locationaccount"
 >title="Standortkonto"
->abstract="Liste der Speicherort-Konten von Kontotypen, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neues Konto]** aus, um ein neues Speicherort-Konto zu erstellen."
->additional-url="https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts" text="Konfigurieren von Cloud-Import- und Exportkonten"
+>abstract="Liste der Standortkonten von Kontotypen, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neues Konto]** aus, um ein neues Speicherort-Konto zu erstellen."
+>additional-url="https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-accounts" text="Konfigurieren von Cloud-Import- und -Exportkonten"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Standort"
 >abstract="Liste der Speicherorte im ausgewählten Speicherort-Konto, die den Import von Klassifizierungsdaten unterstützen. Wählen Sie **[!UICONTROL Neuer Speicherort]** aus, um einen neuen Speicherort zu erstellen."
->additional-url="https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-locations" text="Konfigurieren von Cloud-Import und -Exportspeicherorten"
+>additional-url="https://experienceleague.adobe.com/de/docs/analytics/components/locations/configure-import-locations" text="Konfigurieren von Cloud-Import- und -Exportspeicherorten"
 
 Sie können die Aufnahme von Klassifizierungsdaten automatisieren, indem Sie Cloud-Konten und Cloud-Standorte konfigurieren und verwenden.
 

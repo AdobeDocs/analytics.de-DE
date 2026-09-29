@@ -1,38 +1,53 @@
 ---
-description: Virtual Report Suites und Multisuite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
+description: Virtual Report Suites und Multi-Suite-Tagging bieten unterschiedliche Vorteile. Erfahren Sie, welche die beste Lösung für Ihr Unternehmen ist.
 keywords: Virtual Report Suite
-title: Virtual Report Suites und Multisuite-Tagging
+title: Überlegungen zu Virtual Report Suites und Multi-Suite-Tagging
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+TQID: 'https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1657'
 ht-degree: 72%
-
 ---
-
-# Virtual Report Suites und Multisuite-Tagging
+# Überlegungen zu Virtual Report Suites und Multi-Suite-Tagging
 
 Mit Virtual Report Suites können Sie Daten aus einer Report Suite anzeigen, die Daten aus Ihren digitalen Eigenschaften erfasst, aber auf ein Segment permanent angewendet hat.
 
@@ -48,25 +63,25 @@ Berücksichtigen Sie bei der Entscheidung, ob Sie Multi-Suite-Tagging oder Virtu
 
 ### Veröffentlichen von Segmenten in Adobe CX Enterprise
 
-Die Freigabe von Segmenten für Adobe CX Enterprise wird für Virtual Report Suites nicht unterstützt. Benutzer, die ein Segment für CX Enterprise freigeben möchten, müssen Zugriff auf die Quell-Report Suite haben.
+Die Freigabe von Segmenten für Adobe CX Enterprise wird für Virtual Report Suites nicht unterstützt. Benutzende, die ein Segment für CX Enterprise freigeben möchten, müssen Zugriff auf die Quell-Report Suite haben.
 
-Segmente können noch nicht von einer Virtual Report Suite aus in Adobe CX Enterprise veröffentlicht werden, um sie zu personalisieren und anzusprechen. Alle Benutzer, die Segmente veröffentlichen, benötigen zu diesem Zweck Zugriff auf die Quell-Report Suite. Beispielsweise möchten Sie, dass Benutzende nur Zugriff auf Daten für ihre geografischen Regionen haben, aber Sie möchten, dass sie Segmente von Adobe Analytics für das Targeting in Adobe Target erstellen und für Adobe CX Enterprise freigeben können. In diesem Fall empfiehlt Adobe die Verwendung von Multi-Suite-Tagging. Wenn es Sie nicht stört, dass Benutzer Zugriff auf die globale Report Suite haben, oder keine Segmente veröffentlichen müssen, um sie in anderen Lösungen zu verwenden, können Virtual Report Suites verwendet werden.
+Segmente können noch nicht aus einer Virtual Report Suite zur Personalisierung und Zielgruppenbestimmung in Adobe CX Enterprise veröffentlicht werden. Alle Benutzer, die Segmente veröffentlichen, benötigen zu diesem Zweck Zugriff auf die Quell-Report Suite. Beispielsweise möchten Sie, dass Benutzende nur Zugriff auf Daten für ihre geografischen Regionen haben, aber Sie möchten, dass sie Segmente von Adobe Analytics für das Targeting in Adobe Target erstellen und für Adobe CX Enterprise freigeben können. In diesem Fall empfiehlt Adobe die Verwendung von Multi-Suite-Tagging. Wenn es Sie nicht stört, dass Benutzer Zugriff auf die globale Report Suite haben, oder keine Segmente veröffentlichen müssen, um sie in anderen Lösungen zu verwenden, können Virtual Report Suites verwendet werden.
 
 ### Eindeutige Beschränkungen (Geringer Traffic)
 
-Wenn Sie über eine globale Report Suite verfügen, die eine große Anzahl von Sites zusammenfasst, begegnet Ihnen unter Umständen regelmäßig der Zeileneintrag [geringer Traffic](/help/technotes/low-traffic.md). Wenn Sie Multi-Suite-Tagging verwenden, betrifft dieses Problem nur die globale Report Suite (einzelne Report Suites haben selten geringen Traffic). Wenn Sie Virtual Report Suites verwenden, werden individuelle Einschränkungen freigegeben, sodass einzelne Report Suites auch geringen Traffic anzeigen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie vermeiden möchten, dass Daten mit geringem Traffic zusammengefasst werden.
+Wenn Sie über eine globale Report Suite verfügen, die eine große Anzahl von Sites zusammenfasst, begegnet Ihnen unter Umständen regelmäßig der Zeileneintrag [geringer Traffic](/help/technotes/low-traffic.md). Wenn Sie Multi-Suite-Tagging verwenden, betrifft dieses Problem nur die globale Report Suite (einzelne Report Suites haben selten geringen Traffic). Wenn Sie Virtual Report Suites verwenden, werden eindeutige Grenzwerte gemeinsam genutzt, sodass einzelne Report Suites ebenfalls geringen Traffic anzeigen. Erwägen Sie die Verwendung von Multi-Suite-Tagging, wenn Sie vermeiden möchten, dass Daten mit geringem Traffic zusammengefasst werden.
 
 Beispiel: Eine große Medienorganisation verfügt über 100 Webeigenschaften. Jede Eigenschaft veröffentlicht monatlich einige tausend News-Artikel, zusätzlich zum Hosting aller Artikel aus den Vormonaten. Diese Organisation verwendet eine globale Report Suite, bei der eVar1 „Artikelname“ lautet. Angenommen, in diesem Bericht gibt es etwa 5 Millionen eindeutige Artikelnamen pro Monat aus den verschiedenen Eigenschaften zusammen. Bei Verwendung einer Virtual Report Suite wird nur ein Teil der 5 Millionen Werte in die Virtual Report Suite aufgenommen. Die übrigen sind unter Low Traffic enthalten. Wenn Multi-Suite-Tagging verwendet wird, kann jede einzelne Report Suite einen eigenen Satz eindeutiger Werte sehen.
 
-Die Adobe-Kundenunterstützung kann manchmal die Beschränkungen für eindeutige Werte für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig behoben werden kann. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung und Kundenunterstützung.
+Die Adobe-Kundenunterstützung kann manchmal die Beschränkungen für eindeutige Werte für eine kleine Anzahl von Dimensionen erhöhen, wodurch dieses Problem vollständig behoben werden kann. Weitere Informationen erhalten Sie bei Ihrem Account-Team und bei Adobe Customer Care.
 
-### Freigegebene Metriken über Report Suites hinweg
+### Über Report Suites hinweg freigegebene Variablen
 
-Virtual Report Suites verfügen nicht über eigene Dimensionen und Metriken, sondern übernehmen sie von der Quell-Report Suite. Die globale Report Suite muss alle Dimensionen und Metriken für alle Websites erfassen. Report Suites verfügen derzeit über maximal 250 eVars und 1000 benutzerspezifische Ereignisse.
+Virtual Report Suites verfügen nicht über eigene Dimensionen und Metriken, sondern übernehmen sie von der Quell-Report Suite. Die globale Report Suite muss alle Dimensionen und Metriken für alle Websites erfassen. Report Suites verfügen derzeit über maximal 250 eVars und 1000 benutzerdefinierte Ereignisse.
 
-Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. Einige Dimensionen und Ereignisse können zwischen zwei Sites freigegeben werden. Beispielsweise kann bei einer E-Mail-Registrierung dasselbe Ereignis auf mehreren Websites verwendet werden, wodurch dasselbe benutzerspezifische Ereignis ausgelöst wird. Andere Dimensionen können spezifisch für eine Site sein. Beispielsweise kann nur über eine Ihrer Sites vom Benutzer das Profilbild geändert werden. Dieses benutzerspezifische Ereignis wird nur auf der Website implementiert, die es unterstützt.
+Für verschiedene Sites gelten unterschiedliche Implementierungsanforderungen. Einige Dimensionen und Ereignisse können zwischen zwei Sites freigegeben werden. Beispielsweise kann bei einer E-Mail-Registrierung dasselbe Ereignis auf mehreren Websites verwendet werden, wodurch dasselbe benutzerdefinierte Ereignis ausgelöst wird. Andere Dimensionen können spezifisch für eine Site sein. Beispielsweise kann nur auf einer Ihrer Sites die Benutzerin bzw. der Benutzer das Profilbild ändern. Dieses benutzerdefinierte Ereignis wird nur auf der Website implementiert, die es unterstützt.
 
-Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele eindeutige Dimensionen oder Metriken vorhanden sind, überprüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht entscheidend sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/classifications-overview.md). Sie können zum Beispiel die Classification „Produktname“ auf der Grundlage der „Produkt“-Dimension erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
+Stellen Sie sicher, dass die Anzahl der eindeutigen Dimensionen und Metriken in eine einzige globale Report Suite passt. Wenn Sie feststellen, dass zu viele eindeutige Dimensionen oder Metriken vorhanden sind, prüfen Sie jede Dimension in jeder Implementierung. Es gibt wahrscheinlich Überlagerungen und Dimensionen, die für den Geschäftserfolg nicht kritisch sind. Erwägen Sie auch die Verwendung von [Klassifizierungen](/help/components/classifications/classifications-overview.md). Sie können zum Beispiel die Klassifizierung „Produktname“ auf der Grundlage der Dimension „Produkt“ erstellen, anstatt „Produktname“ in eVar5 zu erfassen. Klassifizierungen in einer Quell-Report Suite stehen automatisch allen abhängigen Virtual Report Suites zur Verfügung.
 
 >[!TIP]
 >
@@ -80,9 +95,9 @@ Sie haben beispielsweise zwei Websites, A und B, die beide Daten an eine globale
 
 ### Währungsumrechnung
 
-Virtual Report Suites können nur die Währung der Report Suite anzeigen, auf der sie basieren. Adobe Analytics ermöglicht zwar die Konvertierung der Währung bei der Erstellung von Berichten. Der Wechselkurs ist jedoch der des aktuellen Tages (auch wenn es sich um historische Daten handelt).
+Virtual Report Suites berichten nicht in einer anderen Währung als der Report Suite, auf der sie basieren. Adobe Analytics ermöglicht zwar das Konvertieren der Währung bei der Erstellung von Berichten, aber der Wechselkurs entspricht immer dem aktuellen Tag (auch für historische Daten).
 
-Wenn Ihre Organisation ihre Analyse in einer einheitlichen Währung durchführt, ist dies kein Problem. Wenn Sie jedoch erhebliche geschäftliche Anforderungen an verschiedenen regionalen Teams haben, die den Umsatz in ihrer eigenen Landeswährung anzeigen müssen, sollten Sie die Verwendung von Multi-Suite-Tagging in Betracht ziehen.
+Wenn Ihre Organisation ihre Analysen in einer einheitlichen Währung durchführt, stellt dies kein Problem dar. Wenn Sie jedoch erhebliche geschäftliche Anforderungen an verschiedenen regionalen Teams haben, die den Umsatz in ihrer eigenen Landeswährung anzeigen müssen, sollten Sie die Verwendung von Multi-Suite-Tagging in Betracht ziehen.
 
 ### Datenfeeds
 
@@ -100,7 +115,7 @@ Beispielsweise ist pro Report Suite nur ein Google DCM zulässig. Viele Unterneh
 
 Mit „Zusammenfassungsdatenquellen“ können Sie aggregierte Metriken auf Report Suite-Ebene in Adobe Analytics importieren. Da Uploads von Zusammenfassungsdatenquellen aggregierte Metriken *ohne Besucher-ID* enthalten, können sie nicht in Containern des Typs [!UICONTROL Besuch] und [!UICONTROL Besucher] segmentiert werden. Da Virtual Report Suite mit Segmentierung arbeitet, sind Daten, die mit Zusammenfassungsdatenquellen importiert wurden, in Virtual Report Suites nicht verfügbar, wenn das Segment mit einem Container des Typs „Besuch“ oder „Besucher“ erstellt wurde.
 
-Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, wenn ein Treffer-Container verwendet wird und dieser Treffer-Container Regeln enthält, die aufgrund ihrer Bedingungen die Informationen zur Datenquelle einschließen.
+Zusammenfassungsdatenquellen werden in der Virtual Report Suite angezeigt, wenn ein Treffer-Container verwendet wird und dieser Treffer-Container Regeln mit Bedingungen enthält, die die Datenquelleninformationen einschließen.
 
 >[!TIP]
 >
@@ -110,12 +125,12 @@ Zusammenfassungsdatenquellen werden in der virtuellen Report Suite angezeigt, we
 
 Wenn Sie sich dafür entscheiden, sekundäre Server-Aufrufe zugunsten von Virtual Report Suites zu entfernen:
 
-1. Erstellen Sie Virtual Report Suites so, dass deren Daten denen in Ihren untergeordneten Report Suites entsprechen. Segmentieren Sie eine benutzerdefinierte Dimension, die Ihre Sites voneinander unterscheidet.
-   * Wenn Sie von einer vorhandenen Multi-Suite-Tagging-Implementierung migrieren, vergleichen Sie die Segmente der Virtual Report Suite mit Ihren vorhandenen untergeordneten Report Suites. Sie sollten sicherstellen, dass die Daten vergleichbar sind, bevor Sie Benutzer in die Virtual Report Suite verschieben.
+1. Erstellen Sie Virtual Report Suites so, dass deren Daten denen in Ihren untergeordneten Report Suites entsprechen. Segmentieren Sie anhand einer benutzerdefinierten Dimension, die Ihre Sites voneinander unterscheidet.
+   * Wenn Sie von einer vorhandenen Multi-Suite-Tagging-Implementierung migrieren, vergleichen Sie die Segmente der Virtual Report Suite mit Ihren vorhandenen untergeordneten Report Suites. Sie sollten sicherstellen, dass die Daten vergleichbar sind, bevor Sie Benutzende in die Virtual Report Suite verschieben.
    * Es empfiehlt sich, die [Segmentstapelung](/help/components/segmentation/segmentation-workflow/seg-build.md) als Best Practice zu verwenden, sodass Sie ein Segment an einem Ort bearbeiten und es auf alle abhängigen Virtual Report Suites anwenden können.
    * Verwenden Sie Treffercontainer, wenn Virtual Report Suites sich gegenseitig ausschließen sollen.
 2. Nachdem Sie bestätigt haben, dass die Virtual Report Suites korrekt eingerichtet sind, entfernen Sie die sekundären Report Suite-IDs aus Ihrer Implementierung. So entfernen Sie sekundäre Report Suites:
    * Klicken Sie in der Adobe Analytics-Erweiterung in der Adobe Experience Platform-Datenerfassung auf das „x“ neben allen Report Suites, die Sie nicht mehr verwenden möchten.
    * Suchen Sie in veralteten JavaScript-Implementierungen die `s.account`-Variable und entfernen Sie alle Report Suite-IDs, die Sie nicht mehr verwenden möchten.
-   * Behalten Sie in jedem Fall nur die IDs der globalen/übergeordneten Report Suites bei, die Daten Ihrer Sites und Apps erfassen.
+   * Behalten Sie in jedem Fall nur die ID der globalen/übergeordneten Report Suite bei, die Daten Ihrer Sites und Apps erfasst.
    * Navigieren Sie zu „Admin“ > „Report Suites“ und blenden Sie alle nicht mehr verwendeten sekundären Report Suites aus.

@@ -1,42 +1,55 @@
 ---
 title: Ausschluss-Links
-description: Erfahren Sie, wie Sie Ausschluss-Links für Besucher Ihrer Website implementieren.
+description: Erfahren Sie, wie Sie Opt-out-Links für Besuchende Ihrer Site erstellen und implementieren.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+TQID: 'https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 69%
-
+source-wordcount: '653'
+ht-degree: 64%
 ---
-
 # Implementieren von Ausschluss-Links
 
 >[!IMPORTANT]
 >
-> Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert wurde** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
+> Dieser Artikel enthält **Adobe Analytics-Kunden, die Adobe Analytics** auf ihrer Website implementieren (beabsichtigen), Anweisungen dazu, wie Website-Benutzern Opt-out-Links bereitgestellt werden. <p><p>
+> Wenn Sie **eine Website besuchen, auf der Adobe Analytics implementiert ist** und abmelden möchten, **<span style="color:red">dieser Artikel ist NICHT für Sie</span>**. Unter [Adobe-Datenschutzoptionen](https://www.adobe.com/de/privacy/opt-out.html) können Sie steuern, wie Adobe Ihre Daten verwendet.
 
 Einige Besucher Ihrer Website ziehen es vor, dass ihre Browsing-Informationen nicht in Ihrem Datensatz enthalten sind. Adobe bietet die Möglichkeit, Besuchenden Ihrer Website die Möglichkeit zu geben, die Analyse ihrer Informationen abzuwählen.
 
-Opt-out-Links sind eine Möglichkeit, es Besuchenden Ihrer Website zu ermöglichen, ihre Daten aus Analytics-Berichten wegzulassen. Diese Links sind auf AppMeasurement-Implementierungen beschränkt. Adobe empfiehlt stattdessen die Verwendung des [Adobe CX Enterprise-Opt-in-Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de). Der Opt-in-Service ist robuster und funktioniert für mehrere Adobe CX Enterprise-Produkte, einschließlich Adobe Analytics und AppMeasurement.
+Opt-out-Links sind eine Möglichkeit, es Besuchenden Ihrer Website zu ermöglichen, ihre Daten aus Analytics-Berichten wegzulassen. Diese Links sind auf AppMeasurement-Implementierungen beschränkt. Adobe empfiehlt stattdessen die Verwendung des [Adobe CX Enterprise-Opt-in-](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) . Der Opt-in-Dienst ist robuster und funktioniert für mehrere Adobe CX Enterprise-Produkte, einschließlich Adobe Analytics und AppMeasurement.
 
 Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-Cookie zu installieren. Wenn Benutzende sich dafür entscheiden, nicht verfolgt zu werden, und ein Opt-out-Cookie gesetzt wird, sendet AppMeasurement weiterhin Daten an Adobe. Diese Daten werden jedoch nicht verarbeitet oder in Berichte aufgenommen.
 
@@ -49,19 +62,19 @@ Wenn ein Besucher eine Opt-out-URL erreicht, wird er aufgefordert, ein Opt-out-C
 Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md)-Variablen in Ihrer Implementierung ab.
 
 * In der Analytics-Erweiterung:
-   1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-   1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-   1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
-   1. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].
+  1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
+  1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
+  1. Klicken Sie auf die Registerkarte [!UICONTROL Erweiterungen] und dann unter „Adobe Analytics“ auf [!UICONTROL Konfigurieren].
+  1. Klicken Sie auf das Akkordeon [!UICONTROL Allgemein] und notieren Sie den Wert [!UICONTROL Tracking-Server].
 
 * In einer JavaScript-Implementierung:
-   1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Website verwendet wird, in einem Code- oder Texteditor.
-   1. Notieren Sie den Wert der `trackingServer`-Variablen.
+  1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Site verwendet wird, in einem Code- oder Texteditor.
+  1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Verwenden von [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
-   1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
-   1. Öffnen Sie den CX Enterprise Debugger und navigieren Sie zur Registerkarte [!UICONTROL Netzwerk].
-   1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
+* Verwenden des [Adobe CX Enterprise-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
+  1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
+  1. Öffnen Sie den CX Enterprise-Debugger und navigieren Sie zur Registerkarte [!UICONTROL Netzwerk].
+  1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
 
 Wenn Sie die `trackingServer`-Domain Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:
 
@@ -109,16 +122,16 @@ Zum Beispiel lädt `https://example.data.adobedc.net/optout.html?popup=1` die Op
 
 >[!NOTE]
 >
->Dieser Abfragezeichenfolgenparameter hat bisher ein Popup-Fenster erzwungen. Die meisten modernen Browser geben dem Endbenutzer jedoch Kontrolle über Popups.
+>Dieser Abfragezeichenfolgenparameter hat bisher ein Popup-Fenster erzwungen. Die meisten modernen Browser geben der Benutzerin bzw. dem Benutzer jedoch die Kontrolle über Popups.
 
 ### Opt-out mit einem Klick
 
-Ermöglicht dem Benutzer, das Tracking sofort abzuwählen. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_out` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
+Ermöglicht der Benutzerin bzw. dem Benutzer, sofort ein Opt-out vom Tracking durchzuführen. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_out` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
 
 Beispielsweise installiert `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` sofort das Opt-out-Cookie auf der Seite des Besuchers.
 
 ### Opt-in mit einem Klick
 
-Ermöglicht dem Benutzer, sich sofort wieder beim Tracking anzumelden, indem er das Opt-out-Cookie löscht. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_in` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
+Ermöglicht der Benutzerin bzw. dem Benutzer, sofort wieder ein Opt-in für das Tracking durchzuführen, indem das Opt-out-Cookie gelöscht wird. Fügen Sie die beiden Abfragezeichenfolgenparameter `opt_in` und `confirm_change` hinzu, wobei jeder den Wert `1` erhält.
 
 Beispielsweise löscht `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` sofort das Opt-out-Cookie für den Besucher.

@@ -4,28 +4,34 @@ title: Globale Report Suites
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-TQID: https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E
+TQID: 'https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '413'
 ht-degree: 94%
-
 ---
-
 # Globale Report Suites
 
-Bei einer globalen Report Suite handelt es sich um eine Report Suite, die Daten aus allen Domains und Programmen sammelt, die Ihr Unternehmen besitzt. Damit alle Bildanfragen an eine einzige Report Suite gesendet werden, ist eine Implementierung erforderlich.
+Eine globale Report Suite sammelt Daten aus allen Domains und Apps, die Ihr Unternehmen besitzt. Damit alle Bildanfragen an eine einzige Report Suite gesendet werden, ist eine Implementierung erforderlich.
 
 Adobe empfiehlt in den meisten Fällen die Implementierung einer globalen Report Suite. Siehe [Überlegungen zur globalen Report Suite](/help/implement/prepare/global-rs.md) zu den Vorteilen der Implementierung einer globalen Report Suite.
 
@@ -35,11 +41,11 @@ Mit den Methoden *Multi-Suite-Tagging* und *Virtual Report Suite* können Sie Te
 
   Sie können beispielsweise alle Daten in einer einzigen globalen Report Suite erfassen und auch sekundäre Report Suites basierend auf Marke, Region oder einem anderen Unterscheidungsmerkmal einrichten. Die verschiedenen Teams in Ihrem Unternehmen können sich dann auf Daten in denjenigen Report Suites konzentrieren, die für sie relevant sind.
 
-  Um Multi-Suite-Tagging zu verwenden, implementieren Sie untergeordnete Report Suites und eine globale Report Suite, die alle Daten der untergeordneten Elemente enthält. Der Trackingcode für Ihre Web-Seiten und Programme enthält die Report Suite-ID (RSID) für die globale Report Suite sowie die RSIDs für die entsprechenden untergeordneten Report Suites.<!-- Wording/be more specific? And include any links? -->
+  Um Multi-Suite-Tagging zu verwenden, implementieren Sie untergeordnete Report Suites und eine globale Report Suite, die alle Daten dieser untergeordneten Report Suites enthält. Der Trackingcode für Ihre Web-Seiten und Programme enthält die Report Suite-ID (RSID) für die globale Report Suite sowie die RSIDs für die entsprechenden untergeordneten Report Suites.<!-- Wording/be more specific? And include any links? -->
 
-  Für jede Report Suite in der Bildanfrage wird ein separater Server-Aufruf durchgeführt. Bei den Aufrufen an die untergeordneten Report Suites handelt es sich um sekundäre Aufrufe.
+  Für jede Report Suite in der Bildanforderung wird ein separater Server-Aufruf durchgeführt. Bei den Aufrufen an die untergeordneten Report Suites handelt es sich um sekundäre Aufrufe.
 
-* **Virtual Report Suite**: Eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) ist eine Abfrage zu bestimmten Segmenten, die in einer globalen Report Suite erfasst und für bestimmte Benutzergruppen verfügbar sind. Virtual Report Suites ermöglichen es Ihnen, Berichtselemente für verschiedene Endbenutzer zu kuratieren, ohne Multi-Suite-Tagging zu verwenden, wodurch sekundäre Server-Aufrufe vermieden werden.
+* **Virtual Report Suite**: Eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) ist eine Abfrage zu bestimmten Segmenten, die in einer globalen Report Suite erfasst und für bestimmte Benutzergruppen verfügbar sind. Virtual Report Suites ermöglichen es Ihnen, Berichtselemente für verschiedene Endbenutzende zu kuratieren, ohne Multi-Suite-Tagging zu verwenden, wodurch sekundäre Server-Aufrufe vermieden werden.
 
   Um Virtual Report Suites zu verwenden, implementieren Sie eine globale Report Suite und analysieren Sie dann die Daten, um Virtual Report Suites mit bestimmten angewendeten Segmenten und mit bestimmten Gruppenberechtigungen zu erstellen. Sie können Virtual Report Suites in Virtual Report Suite Manager ([!UICONTROL Komponenten] > [!UICONTROL Virtual Report Suites]) erstellen. Weitere Informationen finden Sie unter [Workflow für Virtual Report Suites](/help/components/vrs/c-workflow-vrs/vrs-workflow.md).
 

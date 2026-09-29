@@ -7,19 +7,28 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 73%
-
 ---
-
 # Übersicht über die JavaScript-Implementierung mit H-Code
 
 >[!IMPORTANT]
@@ -42,7 +51,7 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
    >
    >H-Code erfordert, dass das `s_code.js`-Skript innerhalb des `<body>`-Tags aufgerufen wird. Dies unterscheidet sich von anderen Implementierungsmethoden, bei denen die meisten Skriptverweise im `<head>`-Tag enthalten sein müssen.
 1. **Seitenspezifische Variablen auf jeder Seite definieren**: Für jede Seite sollten einzelne Variablen definiert sein, z. B. Seitenname oder eVars. Einzelne Variablen werden normalerweise auf jeder Seite mit einem Inline-`<script>`-Tag definiert.
-1. **Verwenden Sie den Debugger, um die Datenerfassung zu überprüfen**: Laden Sie den [CX Enterprise-Debugger herunter und installieren Sie &#x200B;](../../validate/debugger.md), um sicherzustellen, dass Daten an Adobe gesendet und Seitenvariablen korrekt definiert werden.
+1. **Verwenden Sie den Debugger, um die Datenerfassung zu überprüfen**: Laden Sie den [CX Enterprise-Debugger herunter und installieren Sie ihn](../../validate/debugger.md) um sicherzustellen, dass Daten an Adobe gesendet werden und Seitenvariablen korrekt definiert sind.
 
 ## Caching
 

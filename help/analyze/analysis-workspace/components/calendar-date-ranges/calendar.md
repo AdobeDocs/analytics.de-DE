@@ -1,29 +1,37 @@
 ---
-description: Verwenden Sie den Kalender und die Datenbereiche, um Datumsbereiche in Analysis Workspace anzugeben.
+description: Verwenden Sie den Kalender und die Datumsbereiche, um Datumsbereiche in Analysis Workspace anzugeben.
 title: Datumsbereiche – Überblick
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-TQID: https://experienceleague.adobe.com/UsXBUB8vK-aIiQBoMfahyU9vt5rVfZadDojwKstFnj4
+TQID: 'https://experienceleague.adobe.com/UsXBUB8vK-aIiQBoMfahyU9vt5rVfZadDojwKstFnj4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '530'
 ht-degree: 100%
-
 ---
-
 # Übersicht über Datumsbereiche
 
 In einem Workspace-Projekt verwenden Sie normalerweise den [Kalender in einem Panel](/help/analyze/analysis-workspace/c-panels/panels.md#calendar), um den Datumsbereich für die Visualisierungen in diesem Panel anzugeben.
@@ -39,8 +47,8 @@ Sie können auch einen Datumsbereich in einer Freiformtabelle als Metrik oder Di
 
 ![Nutzung von Datumsbereich](assets/date-ranges-usage.png)
 
-- **Metrik**. Sie können beispielsweise eine Dimension für zwei verschiedene Monate einer Metrik vergleichen.
-- **Dimension**. So vergleichen Sie eine Metrik zu verschiedenen Dimensionselementen für die Dimension Datumsbereich.
+- **Metrik**. Sie können beispielsweise eine Dimension für zwei verschiedene Monate für eine bestimmte Metrik vergleichen.
+- **Dimension**. So vergleichen Sie eine Metrik für verschiedene Dimensionselemente innerhalb der Dimension „Datumsbereich“.
 
 >[!NOTE]
 >

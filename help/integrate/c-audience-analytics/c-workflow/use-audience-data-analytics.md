@@ -7,20 +7,27 @@ exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 TQID: 'https://experienceleague.adobe.com/HrTqqIUJD3KivNI331cWjeyWSPA3ZT2k05KZJulAhDs'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '570'
 ht-degree: 54%
-
 ---
-
 # Zielgruppendaten in Analytics verwenden
 
 Sie können die Adobe Audience Manager-Zielgruppendimensionen in Analytics verwenden. Die integrierten Segmente sind neue Analytics-Dimensionen namens Zielgruppen-ID und Zielgruppenname und können wie jede andere Dimension verwendet werden, die von Analytics erfasst wird. In Daten-Feeds werden die Zielgruppen-IDs in der Spalte „mc_audiences“ gespeichert. Diese Dimensionen sind derzeit nicht in Data Workbench oder Livestream verfügbar. Beispiele für die Nutzung der Zielgruppen-Dimensionen:
@@ -30,13 +37,13 @@ Sie können die Adobe Audience Manager-Zielgruppendimensionen in Analytics verwe
 In Analysis Workspace werden die Adobe Audience Manager-Segmente als zwei Dimensionen angezeigt.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]**.
-1. Wählen Sie aus der Liste **[!UICONTROL Dimensionen]** die Dimensionen **[!UICONTROL Zielgruppen-ID]** oder **[!UICONTROL Zielgruppenname]**. Der Name ist eine Anzeige-Classification der ID.
+1. Wählen Sie aus der Liste **[!UICONTROL Dimensionen]** die Dimensionen **[!UICONTROL Zielgruppen-ID]** oder **[!UICONTROL Zielgruppenname]**. Der Name ist eine benutzerfreundliche Klassifizierung der ID.
 
    ![](assets/aw-mcaudiences.png)
 
 ## Segmentvergleich {#compare}
 
-Der [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) findet die statistisch relevantesten Unterschiede zwischen zwei Segmenten. Zielgruppen-Daten können im Segmentvergleich auf zwei Arten verwendet werden: 1) als die 2 Segmente, die verglichen werden, und 2) als Elemente in der Tabelle „Top-Dimensionselemente“.
+Der [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) findet die statistisch relevantesten Unterschiede zwischen zwei Segmenten. Zielgruppen-Daten können im Segmentvergleich auf zwei Arten verwendet werden: 1) als die 2 Segmente, die verglichen werden, und 2) als Elemente in der Tabelle „Top-Dimensionselemente“.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene das Bedienfeld **[!UICONTROL Segmentvergleich]** aus.
 
@@ -51,9 +58,9 @@ Der [Segmentvergleich](/help/analyze/analysis-workspace/c-panels/c-segment-compa
 
    ![](assets/aud-segcompare.png)
 
-## Customer Journey (Fluss) in Analysis Workspace {#flow}
+## Customer Journey (Fluss) in Analysis Workspace {#flow}
 
-Adobe Audience Manager-Segmentdaten werden von Treffer zu Treffer an Analytics übergeben und stellen die Zielgruppenzugehörigkeit eines Besuchers zu diesem Zeitpunkt dar. Das bedeutet, dass ein Besucher einem Segment zugehörig sein kann (z. B. „Bewusstsein“) und sich später für ein qualifizierteres Segment qualifizieren könnte (z. B. „Überlegung“). Sie können [Flow](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) in Analysis Workspace verwenden, um die Journey zu visualisieren, die ein Besucher zwischen Audiences durchführt.
+Adobe Audience Manager-Segmentdaten werden von Treffer zu Treffer an Analytics übergeben und stellen die Zielgruppenzugehörigkeit eines Besuchers zu diesem Zeitpunkt dar. Das bedeutet, dass eine Besucherin bzw. ein Besucher zunächst einem Segment (z. B. „Awareness“) zugeordnet sein kann und später für ein weiter fortgeschrittenes Segment (z. B. „Berücksichtigung“) qualifiziert sein kann. Sie können [Flow](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) in Analysis Workspace verwenden, um die Journey zu visualisieren, die ein Besucher zwischen Audiences durchführt.
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Fluss]** aus.
 

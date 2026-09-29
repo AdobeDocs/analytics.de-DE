@@ -3,53 +3,81 @@ title: In Adobe Analytics verwendete Begriffe
 description: Glossar für Adobe Analytics, das häufig verwendete Begriffe definiert.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+TQID: 'https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+    internal-label: Cohort Analysis
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2638
+source-wordcount: '2638'
 ht-degree: 86%
-
 ---
-
 # In Adobe Analytics verwendete Begriffe
 
 Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die Adobe Analytics verwendet.
 
 * **Activity Map:** ein Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Siehe [Activity Map](/help/analyze/activity-map/overview.md) im Benutzerhandbuch zu Analysen.
 * **Admin Console:** kann sich auf Folgendes beziehen:
-  * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Anwenderberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/tools/c-admin-tools.md) im Administratorhandbuch.
-  * Die Adobe Admin Console, in der der Produktzugriff bereitgestellt und Anwenderberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
+  * Alte Admin Tools, in denen Report Suite-Einstellungen in Adobe Analytics verwaltet werden. In früheren Versionen von Adobe Analytics wurden hier auch Benutzerberechtigungen verwaltet. Siehe [Admin Tools](/help/admin/tools/c-admin-tools.md) im Administratorhandbuch.
+  * Die Adobe Admin Console, in der der Produktzugriff gewährt und Benutzerberechtigungen verwaltet werden. Siehe [Admin Console](/help/admin/admin-console/home.md) im Administratorhandbuch.
 * **Zuordnung:** Wenn eine Konversionsvariable während eines Besuchs auf mehr als einen Wert trifft, bestimmt die Zuordnungseinstellung der Variablen, welcher Wert beibehalten wird. Siehe [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Analysis Workspace:** Browser-Lösung zum Erstellen robuster, benutzerspezifischer Analyseprojekte und demokratisierender Erkenntnisse. Siehe [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) im Handbuch zu den Analytics-Tools.
 * **Anomalie:** Eine Anomalie wird mithilfe statistischer Modellierung entdeckt, um automatisch nach unerwarteten Trends in Daten zu suchen. Das Modell analysiert Metriken und ermittelt Ober- und Untergrenze sowie eine erwartete Bandbreite von Werten. Siehe [Anomalieerkennung](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) im Analytics-Tool-Handbuch.
@@ -59,12 +87,12 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Absprung:** ein Besuch, der aus einem einzelnen Treffer besteht. Siehe [Absprünge](/help/components/metrics/bounces.md) im Benutzerhandbuch zu Komponenten. Siehe auch „Einzelzugriff“.
 * **Berechnete Metrik:** ermöglicht die Kombination vorhandener Metriken, statistischer Funktionen und Formeln zur Verwendung in Berichten. Siehe [Berechnete Metriken](/help/components/calculated-metrics/cm-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Kampagne:** kann sich auf Folgendes beziehen:
-  * Die Kampagnenvariable, die die Dimension „Trackingcode“ ausfüllt. Siehe [Kampagne](../implement/vars/page-vars/campaign.md) im Benutzerhandbuch zu Implementierungen.
+  * Die Kampagnenvariable, die die Dimension „Trackingcode“ befüllt. Siehe [Kampagne](../implement/vars/page-vars/campaign.md) im Benutzerhandbuch zu Implementierungen.
   * Eine Standard-Classification der Dimension „Trackingcode“; automatisch für alle Report Suites erstellt.
   * Adobe Campaign, Teil von Adobe CX Enterprise. Weitere Informationen finden Sie auf [Adobe.com](https://www.adobe.com/de/marketing/campaign.html).
 * **Kanal:** kann sich auf Folgendes beziehen:
   * Die Kanalvariable, die die Dimension „Sitebereiche“ füllt. Siehe [Seitenvariablen](/help/implement/vars/page-vars/page-variables.md) im Benutzerhandbuch zu Implementierungen.
-  * „Marketing-Kanäle“, eine Komponente, die veranschaulicht, wie Anwender zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
+  * Marketing-Kanäle, eine Komponente, die veranschaulicht, wie Benutzende zu Ihrer Site gelangen. Siehe [Marketing-Kanäle](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
 * **Klassifizierung:** eine Funktion in Adobe Analytics, die die Gruppierung von Dimensionselementen ermöglicht. Siehe [Klassifizierungen](/help/components/classifications/classifications-overview.md) im Benutzerhandbuch zu Komponenten.
 * **ClickMap:** wird nicht mehr verwendet. Ein veraltetes Browser-Plugin, das anzeigt, auf welche Bereiche auf Ihrer Site am häufigsten geklickt wurde. Dieses Tool wurde zugunsten von Activity Map eingestellt.
 * **Clickstream-Feed:** Siehe „Daten-Feed“.
@@ -72,15 +100,15 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Erfassungs-Server:** Siehe „Datenerfassungs-Server“.
 * **Komponente:** Komponenten in Analysis Workspace bestehen aus Dimensionen, Metriken, Segmenten, Datumsbereichen, Warnhinweisen und berechneten Metriken, die Sie per Drag-and-Drop in ein Projekt ziehen können. Siehe [Komponentenübersicht](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) im Handbuch für Analytics-Tools.
 * **Kontextdatenvariablen:** temporäre Variablen, die ausschließlich in Verarbeitungsregeln verwendet werden. Die Werte der Kontextdatenvariablen gehen dauerhaft verloren, wenn eine Verarbeitungsregel sie nicht in eine Konversions- oder Traffic-Variable kopiert. Siehe [Kontextdatenvariablen](../implement/vars/page-vars/contextdata.md) im Benutzerhandbuch zu Implementierungen.
-* **Konversionsvariable:** Auch als „eVars“ bezeichnet. Speichert einen benutzerspezifischen Wert und behält den Variablenwert bei, bis er abläuft. Weitere Informationen finden Sie unter der Dimension [eVar](/help/components/dimensions/evar.md) im Komponenten-Benutzerhandbuch.
+* **Konversionsvariable:** Auch als „eVars“ bezeichnet. Speichert einen benutzerdefinierten Wert und behält den Variablenwert bei, bis er abläuft. Weitere Informationen finden Sie unter der Dimension [eVar](/help/components/dimensions/evar.md) im Komponenten-Benutzerhandbuch.
 * **Korrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics wurden durch Korrelationen Traffic-Variablen aufgeschlüsselt. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Handbuch zu den Analytics-Tools.
 * **Benutzerspezifischer Link:** ein Treffertyp, der Daten enthält, die keine Seitenansichten sind. Siehe [s.tl()-Funktion](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen. Siehe auch „Treffer“.
 * **Kundenattribute:** Eine CX Enterprise-Funktion, die das Hochladen von Attributdaten ermöglicht. Siehe [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de) im Benutzerhandbuch zu zentralen Diensten.
-* **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung in Berichten an die Datenerfassungs-Server von Adobe gesendet.
-* **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch den [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
+* **Datenerfassungs-Server:** Adobe-eigene Server, die Daten empfangen und verarbeiten. Bildanforderungen werden zur Verwendung im Reporting an die Datenerfassungs-Server von Adobe gesendet.
+* **Data Connectors:** Eine nicht mehr unterstützte Entwicklungslösung, mit der ein Drittanbieter das Hochladen von Daten in Adobe Analytics automatisieren kann. Kundinnen und Kunden dieser Drittanbieter können einen Daten-Connector verwenden, um ihre Daten in Adobe Analytics zu erweitern. Ersetzt durch den [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Daten-Feed:** ein Rohdatenexport, der jeden Treffer als Zeile und Variablen als separate Spalten auflistet. Am häufigsten werden Adobe Analytics-Daten in Datenbanken von Drittanbietern exportiert. Siehe [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md) im Benutzerhandbuch zu Exporten.
 * **Datenschicht:** Eine [Datenschicht](/help/implement/prepare/data-layer.md) ist ein Framework von JavaScript-Objekten auf Ihrer Site, die die in Ihrer Analytics-Implementierung verwendeten Variablenwerte enthalten. Dies ermöglicht eine bessere Kontrolle und einfachere Wartung beim Zuweisen von Werten zu Analytics-Variablen.
-* **Datenquellen:** Ermöglicht dem Anwender das Hochladen von Daten aus einer Datei in Adobe Analytics. Die Datei wird normalerweise von einer FTP-Site abgerufen. Siehe [Data Sources](/help/import/data-sources/overview.md) im Benutzerhandbuch zu Importen.
+* **Datenquellen:** Ermöglicht dem Anwender das Hochladen von Daten aus einer Datei in Adobe Analytics. Die Datei wird normalerweise von einer FTP-Website abgerufen. Siehe [Data Sources](/help/import/data-sources/overview.md) im Benutzerhandbuch zu Importen.
 * **Data Warehouse:** Eine Funktion in Adobe Analytics, mit der Sie größere Berichte anfordern können. Siehe [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) im Benutzerhandbuch zu Exporten.
 * **Data Workbench:** Ein [eingestelltes](https://experienceleague.adobe.com/de/docs/discontinued/using/data-workbench) Analyse-Tool, das Daten aus Online- und Offline-Kundeninteraktionen kanalübergreifend erfasst, verarbeitet, analysiert und visualisiert.
 * **Dimension:** Dimensionen sind nicht numerische Werte und Daten, z. B. Geschlecht, Monat, Alter, Treue, Bildschirmauflösung usw. Andere Beispiele sind Seitenname, Trackingcode oder verweisende Domain. Eine Metrik bildet normalerweise ihr Gegenstück.
@@ -91,26 +119,26 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **Gültigkeit:** wie lange der Wert im Backend einer Konversionsvariablen erhalten bleibt. Durch diese Persistenz können Ereignisse mit Variablenwerten vor dem Treffer des Ereignisses verknüpft werden. Siehe [Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Administratorhandbuch.
 * **Fluss:** ein Visualisierungstyp in Analysis Workspace, der zeigt, welche Pfade Anwender auf Ihrer Site genutzt haben. Siehe [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) im Handbuch für Analytics-Tools.
 * **Globale Report Suite:** ein informeller Begriff, der für eine Report Suite bestimmt ist, die Treffer von mehreren Sites erfasst.
-* **H-Code:** ein Vorgänger von AppMeasurement. In früheren Versionen von Adobe Analytics wurden Code-Versionen nach „H-Version“ gemessen, z. B. H.27.5, H.26 usw.
-* **Treffer:** eine Bildanforderung, die an Adobe-Datenerfassungs-Server gesendet wird. Seitenansichten und benutzerspezifische Links können beide als Treffer bezeichnet werden.
+* **H-Code:** ein Vorgänger von AppMeasurement. In früheren Versionen von Adobe Analytics wurden Code-Versionen nach „H-Version“ gemessen, z. B. H.27.5, H.26 usw.
+* **Treffer:** eine Bildanforderung, die an Adobe-Datenerfassungs-Server gesendet wird. Seitenaufrufe und benutzerspezifische Links können beide als Treffer bezeichnet werden.
 * **Bildanforderung:** ein transparentes 1x1-Pixelbild, das zur Kommunikation mit Adobe-Datenerfassungs-Servern verwendet wird. Eine Website fordert dieses unsichtbare Bild mit einer langen Abfragezeichenfolge voller Daten an. Adobe gibt das unsichtbare Bild zurück und analysiert die empfangene Abfragezeichenfolge.
 * **Insight:** kann sich auf Folgendes beziehen:
   * Der frühere Name von Data Workbench.
-  * Custom Insight, ein alter Name für benutzerspezifische Traffic-Variablen.
+  * Custom Insight, ein alter Name für benutzerdefinierte Traffic-Variable.
 * **KPI:** Abkürzung für Key Performance Indicator. Metriken, die einem Unternehmen helfen, die Leistung seiner Site zu verstehen. Jede Organisation verfügt über unterschiedliche KPIs, die verschiedene Aspekte ihres Geschäfts messen. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Latenz:** die Verzögerung zwischen der Datenerfassung und der Verfügbarkeit in Berichten. Die typische Latenz in einer Report Suite beträgt 30 bis 90 Minuten. Siehe [Latenz](/help/technotes/latency.md) im Benutzerhandbuch zu technischen Informationen.
-* **Launch:** Wird nicht mehr als Begriff verwendet. Er ist der gekürzte frühere Name von Tags in Adobe Experience Platform, der aktuellen Implementierungslösung von Adobe. Siehe [Tags-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform.
-* **Listen-Prop:** eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerspezifische Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Prop](../implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
+* **Launch:** Wird nicht mehr als Begriff verwendet. Der gekürzte frühere Name von Tags in Adobe Experience Platform, der aktuellen Implementierungslösung von Adobe. Siehe [Tags-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) im Benutzerhandbuch zu Adobe Experience Platform.
+* **Listen-Prop:** eine Einstellung, die eine typische Traffic-Variable konvertiert, um mehrere Werte im selben Treffer zu unterstützen. Jede benutzerdefinierte Traffic-Variable kann eine Listen-Prop werden, wenn die Einstellung aktiviert ist. Siehe [Prop](../implement/vars/page-vars/prop.md) im Benutzerhandbuch zu Implementierungen.
 * **Listenvariable:** eine separate Variable, die von Konversionsvariablen getrennt ist. Listenvariablen unterstützen mehrere Werte im selben Treffer und Variablenwerte werden bei einem Besuch beibehalten, ähnlich wie Konversionsvariablen. Ein Unternehmen kann nur drei Listenvariablen verwenden. Siehe [Liste](/help/implement/vars/page-vars/list.md) im Benutzerhandbuch zu Implementierungen.
 * **Anmeldeunternehmen:** eine Sammlung von Report Suites, die von Ihrer Organisation verwendet werden. Einige Organisationen verfügen über mehrere Anmeldeunternehmen, die jeweils für verschiedene Teile der Organisation relevant sind.
 * **Marketing-Kanal:** eine Funktion in Adobe Analytics, die Treffer nach der Ankunft auf Ihrer Site kategorisiert. Die zur Kategorisierung von Treffern verwendete Logik kann mithilfe von Marketing-Kanal-Verarbeitungsregeln angepasst werden. Siehe [Erste Schritte mit Marketing-Kanälen](/help/components/c-marketing-channels/c-getting-started-mchannel.md) im Benutzerhandbuch zu Komponenten.
 * **Metrik:** ein Komponententyp, der quantitative Daten enthält. Metrikwerte enthalten in der Regel Zahlen wie Seitenansichten, Besuche und Umsatz. Eine Dimension bildet normalerweise ihr Gegenstück.
 * **Mobile App:** Die Mobile App wird auch als **Adobe Analytics [!UICONTROL Dashboards]** bezeichnet und ermöglicht Benutzern den mobilen Zugriff auf intuitive Scorecards. Scorecards sind eine Sammlung von Schlüsselmetriken und anderen Komponenten, die in einem gekachelten Layout dargestellt werden. Sie können auf eine Scorecard tippen, um detailliertere Aufschlüsselungen und Trendberichte zu erhalten. Die mobile App wird sowohl auf iOS- als auch auf Android-Geräten unterstützt.
-* **Mobile Services:** Ein nicht mehr angebotenes Adobe-Produkt, das mobile Marketing-Funktionen für mobile Anwendungen aus Adobe CX Enterprise zusammenführte und Ihnen hilft, die Benutzerinteraktion mit Ihren Anwendungen zu verstehen und zu verbessern.
-* **Multi-Suite-Tagging:** die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung in Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
+* **Mobile Services:** Ein nicht mehr angebotenes Adobe-Produkt, das mobile Marketing-Funktionen für mobile Anwendungen aus ganz Adobe CX Enterprise zusammenführte und Ihnen hilft, die Benutzerinteraktion mit Ihren Anwendungen zu verstehen und zu verbessern.
+* **Multi-Suite-Tagging:** die Vorgehensweise, denselben Treffer an mehrere Report Suites zu senden. Mit der Einführung von Virtual Report Suites ist diese Vorgehensweise weitgehend nicht mehr erforderlich. Die meisten Multi-Suite-Tagging-Bemühungen unterstützen eine globale Report Suite.
 * **Normalisierung:** eine Möglichkeit, eine Visualisierung zu organisieren, bei der alle Metriken in gleiche Proportionen umgewandelt werden, sodass Trends leichter verglichen werden können.
 * **Vorfälle:** ein Metriktyp, der anzeigt, in wie vielen Treffern ein Dimensionselement festgelegt oder beibehalten wurde. Weitere Informationen finden Sie unter der Metrik [Vorfälle](/help/components/metrics/occurrences.md) im Komponenten-Benutzerhandbuch.
-* **Omniture:** wird nicht mehr als Begriff verwendet. Unternehmen, das im Besitz von Adobe Analytics war, bevor es 2009 von Adobe übernommen wurde.
+* **Omniture:** wird nicht mehr als Begriff verwendet. Das Unternehmen, das im Besitz von Adobe Analytics war, bevor es 2009 von Adobe übernommen wurde.
 * **Pfade:** Siehe „Fluss“.
 * **Seitenansicht:** ein Treffertyp, der die Seitenansichten erhöht. Weitere Informationen finden Sie unter der Metrik [Seitenansichten](/help/components/metrics/page-views.md) im Komponenten-Benutzerhandbuch. Siehe auch „Treffer“.
 * **Persistenz:** ein abstraktes Konzept für Konversionsvariablen, das die Verknüpfung zwischen einem Variablenwert und einem Ereignis bei separaten Treffern ermöglicht. Siehe auch „Gültigkeit“.
@@ -129,18 +157,18 @@ Verwenden Sie dieses Glossar, um den Kontext vieler Begriffe zu verstehen, die A
 * **s.t():** der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für die Seitenansicht sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.track()`. Siehe [t](../implement/vars/functions/t-method.md) im Benutzerhandbuch zu Implementierungen.
 * **s<span>.</span>tl():** Der Name der Funktion in einer AppMeasurement-Bibliothek, die eine Bildanforderung für das Linktracking sendet. Einige AppMeasurement-Bibliotheken verwenden stattdessen `s.trackLink()`. Siehe [tl](../implement/vars/functions/tl-method.md) im Benutzerhandbuch zu Implementierungen.
 * **s_code.js:** der Name der JavaScript-Datei, die in alten Versionen von Adobe Analytics verwendet wird. Der aktuelle Name der verwendeten JavaScript-Datei ist „AppMeasurement.js“.
-* **Sekundärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, sind alle Report Suites nach dem ersten aufgelisteten Aufruf sekundäre Server-Aufrufe. Siehe auch „Primäre Server-Aufrufe“.
+* **Sekundärer Server-Aufruf:** Alternativname für Bildanforderungen oder Treffer, der hauptsächlich im Zusammenhang mit Multi-Suite-Tagging und Abrechnung verwendet wird. Wenn derselbe Treffer an mehrere Report Suites gesendet wird, sind alle Server-Aufrufe für die nach der ersten aufgeführten Report Suite sekundäre Server-Aufrufe. Siehe auch „Primäre Server-Aufrufe“.
 * **Segment:** Hiermit können Sie sich auf eine bestimmte Teilmenge Ihrer Daten konzentrieren. Siehe [Segmentierung](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Segment-Container:** der Teil eines Segments, der bestimmt, wie viele Daten eingehen sollen. Container können auf Seitenansicht, Besuch oder Besucher basieren. Siehe [Segmentierung](/help/components/segmentation/seg-overview.md) im Benutzerhandbuch zu Komponenten.
 * **Serialisierung:** Siehe „Ereignis-Serialisierung“.
 * **Server-Aufruf:** Alternativname für eine Bildanforderung oder einen Treffer, der hauptsächlich im Zusammenhang mit der Abrechnung verwendet wird.
 * **Einzelzugriff:** ein Besuch, bei dem eine Dimension nur einen eindeutigen Wert aufwies. Der Besuch kann mehrere Treffer aufweisen, solange nicht mehrere eindeutige Werte vorhanden sind. Weitere Informationen finden Sie unter der Metrik [Einzelzugriff](/help/components/metrics/single-access.md) im Komponenten-Benutzerhandbuch. Siehe auch „Absprung“.
 * **SiteCatalyst:** wird nicht mehr als Begriff verwendet. Ein früherer Produktname für Adobe Analytics.
-* **Lösungs-Design-Dokument:** Auch als Lösungs-Design-Referenz (Solution Design Reference, SDR) bezeichnet. Ein internes Dokument, das von einem Unternehmen verwaltet wird und in dem die Verwendung benutzerspezifischer Variablen sowie die zum Ausfüllen verwendete Logik erläutert werden. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
+* **Lösungs-Design-Dokument:** Auch als Lösungs-Design-Referenz (Solution Design Reference, SDR) bezeichnet. Ein internes Dokument, das von einem Unternehmen verwaltet wird und in dem die Verwendung benutzerdefinierter Variablen sowie die zum Ausfüllen verwendete Logik erläutert werden. Siehe [Lösungsdesigndokument erstellen](/help/implement/prepare/solution-design.md) im Benutzerhandbuch zu Implementierungen.
 * **Subrelation:** wird nicht mehr als Begriff verwendet; durch Dimensionsaufschlüsselungen ersetzt. In früheren Versionen von Adobe Analytics boten Subrelationen die Möglichkeit, Konversionsvariablen aufzuschlüsseln. Siehe [Dimensionen aufschlüsseln](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) im Handbuch zu den Analytics-Tools.
 * **Erfolgsereignis:** eine verfolgte Aktion, die ein Anwender ausgeführt hat. Ihr Unternehmen legt fest, welche Ereignisse verfolgt werden und welche Erfolgsereignisvariablen Sie für das Tracking verwenden. Siehe [Benutzerspezifische Ereignisse](/help/components/metrics/custom-events.md) im Benutzerhandbuch zu Komponenten.
 * **Unterstützter Anwender:** Siehe „Support-Beauftragter“.
-* **Traffic-Variable:** Auch als „Props“ bezeichnet. Speichert einen benutzerspezifischen Wert für einen einzelnen Treffer. In früheren Versionen von Adobe Analytics wurden Props eindeutige Werte zugewiesen. Durch Verbesserungen der Plattform sind benutzerspezifische Traffic-Variablen jedoch heute weitgehend unnötig. Adobe empfiehlt in den meisten Fällen die Verwendung benutzerspezifischer Konversionsvariablen (eVars). Weitere Informationen finden Sie unter der Dimension [Prop](/help/components/dimensions/prop.md) im Komponenten-Benutzerhandbuch.
+* **Traffic-Variable:** Auch als „Props“ bezeichnet. Speichert einen benutzerdefinierten Wert für einen einzelnen Treffer. In früheren Versionen von Adobe Analytics wurden Props eindeutige Werte zugewiesen. Durch Verbesserungen der Plattform sind benutzerdefinierte Traffic-Variablen heute jedoch weitgehend unnötig. Adobe empfiehlt in den meisten Fällen die Verwendung benutzerdefinierter Konversionsvariablen (eVars). Weitere Informationen finden Sie unter der Dimension [Prop](/help/components/dimensions/prop.md) im Komponenten-Benutzerhandbuch.
 * **Trend-Bericht:** ein Berichtsformat, das normalerweise mehrere Datumsbereiche mit einer Metrik anzeigt. Mit diesem Berichtstyp können Sie die Leistung einer Metrik im Laufe der Zeit anzeigen. Siehe auch „Rangbericht“.
 * **Unique Visitor**: stellt die Anzahl eindeutiger Einzelanwender dar, die Ihre Site besucht haben. Ein einzelner Unique Visitor kann mehrere Besuche aufweisen. Weitere Informationen finden Sie unter der Metrik [Unique Visitors](/help/components/metrics/unique-visitors.md) im Komponenten-Benutzerhandbuch.
 * **Virtual Report Suite:** ein virtueller Daten-Container, der auf eine normale Report Suite verweist und die Datenveredelung ermöglicht. Daten werden nicht an eine Virtual Report Suite gesendet. Stattdessen werden sie an eine normale Report Suite gesendet und eine Virtual Report Suite nutzt diese erfassten Daten. Siehe [Virtual Report Suites](/help/components/vrs/vrs-about.md) im Benutzerhandbuch zu Komponenten.

@@ -1,36 +1,50 @@
 ---
 title: Anwendungsfälle für Segmentvergleiche
-description: Erfahren Sie, wie Sie mithilfe des Segmentvergleichsfelds Einblicke in die Marketing-Strategie gewinnen können.
+description: Erfahren Sie anhand von Praxisbeispielen, wie das Panel „Segmentvergleich“ genutzt werden kann, um Erkenntnisse für die Marketing-Strategie zu gewinnen.
 keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-TQID: https://experienceleague.adobe.com/RSrhYA6EYk3UhFqMQ1FJVHzqA7RFIqdvSyvatTF0goE
+TQID: 'https://experienceleague.adobe.com/RSrhYA6EYk3UhFqMQ1FJVHzqA7RFIqdvSyvatTF0goE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: '859'
 ht-degree: 13%
-
 ---
-
-# Anwendungsfälle für Segmentvergleiche
+# Anwendungsfälle für Segmentvergleich
 
 Das Bedienfeld für den Segmentvergleich ist eine in Analysis Workspace häufig verwendete Funktion. Kunden entdecken häufig neue Möglichkeiten, Einblicke zu gewinnen, wenn sie das Bedienfeld verwenden. Im Folgenden finden Sie einige typische Anwendungsfälle
 
@@ -42,7 +56,7 @@ Sie sind für eine mobile Website und eine Desktop-Website zuständig und müsse
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Hit-Container, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
+| Treffer-Container, bei dem Mobilgerätetyp gleich Mobiltelefon oder Tablet ist | Alle anderen |
 
 {style="table-layout:fixed"}
 
@@ -68,7 +82,7 @@ Ein großes Medienunternehmen untersucht in seinem News-Bereich, wie sich die In
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Besucher-Container, bei dem der Website-Bereich „News“ entspricht | Alle anderen |
+| Besucher-Container, bei dem der Site-Abschnitt gleich „News“ ist | Alle anderen |
 
 {style="table-layout:fixed"}
 
@@ -81,7 +95,7 @@ Ein großes B2B-Dienstleistungsunternehmen möchte den Traffic verstehen, den Pa
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Besucher-Container, bei dem der Typ der verweisenden Stelle „Paid Search“ ist | Alle anderen |
+| Besucher-Container, bei dem der Referrer-Typ „Paid Search“ ist | Alle anderen |
 
 {style="table-layout:fixed"}
 
@@ -94,6 +108,6 @@ Ein großes B2B-Dienstleistungsunternehmen möchte den Traffic verstehen, den Pa
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Besucher-Container, in dem Bestellungen vorhanden sind und benutzerdefinierte Dimension „Marke“ gleich „FitBit“ | Alle anderen |
+| Besucher-Container, in dem Bestellungen vorhanden sind und benutzerspezifische Dimension „Marke“ gleich „FitBit“ ist | Alle anderen |
 
 {style="table-layout:fixed"}

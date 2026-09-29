@@ -1,33 +1,44 @@
 ---
 description: Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
 keywords: Virtual Report Suite
-title: Virtual Report Suites erstellen
+title: Erstellen von Virtual Report Suites
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+TQID: 'https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 41%
-
 ---
+# Erstellen von Virtual Report Suites
 
-# Virtual Report Suites erstellen
-
-Bevor Sie anfangen, Virtual Report Suites zu erstellen, sollten Sie folgende Aspekte berücksichtigen.
+Bevor Sie mit dem Erstellen von Virtual Report Suites beginnen, sollten Sie Folgendes beachten.
 
 * Benutzende ohne Administratorrechte können den Virtual Report Suites-Manager nicht sehen.
 * Virtual Report Suites können nicht freigegeben werden. „Freigabe“ erfolgt über Gruppen/Berechtigungen.
@@ -49,7 +60,7 @@ Definieren Sie auf der Registerkarte [!UICONTROL Einstellungen] diese Einstellun
 | Tags | Sie können Tags hinzufügen, um Ihre Report Suites zu organisieren. |
 | Quelle | Die Report Suite, von der diese Virtual Report Suite die folgenden Einstellungen erbt. Die meisten Service-Levels und Funktionen (z. B. eVar-Einstellungen, Verarbeitungsregeln, Klassifizierungen usw.) werden vererbt. Um Änderungen an diesen geerbten Einstellungen in einer Virtual Report Suite vorzunehmen, müssen Sie die übergeordnete Report Suite bearbeiten (Admin > Report Suites). |
 | Zeitzone | Die Auswahl einer Zeitzone ist optional. Wenn Sie eine Zeitzone auswählen, wird diese zusammen mit der Virtual Report Suite gespeichert. Wenn Sie keine Zeitzone auswählen, wird die Zeitzone der übergeordneten Report Suite verwendet.  Beim Bearbeiten einer Virtual Report Suite wird die mit der Virtual Report Suite gespeicherte Zeitzone in der Dropdown-Auswahl angezeigt. Wenn die Virtual Report Suite erstellt wurde, bevor die Zeitzonenunterstützung hinzugefügt wurde, wird die Zeitzone der übergeordneten Report Suite in der Dropdown-Auswahl angezeigt. |
-| Segmente | Sie können nur ein Segment hinzufügen oder Sie können Segmente stapeln.   Hinweis: Beim Stapeln von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine OR-Anweisung geändert werden. Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. |
+| Segmente | Sie können nur ein Segment hinzufügen oder Sie können Segmente stapeln.   Hinweis: Bei der Stapelung von zwei Segmenten werden diese durch eine AND-Anweisung verbunden. Dies kann nicht in eine OR-Anweisung geändert werden. Wenn Sie versuchen, ein Segment zu löschen oder zu ändern, das aktuell in einer Virtual Report Suite verwendet wird, wird eine Warnung angezeigt. |
 
 ## Festlegen der Definition von Besuchen
 
@@ -69,10 +80,10 @@ Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Anpassen einer
 | **Definition für Besuch konfigurieren** |  |
 | Berichtszeitverarbeitung aktivieren | Verwenden Sie die Berichtszeitverarbeitung, um die standardmäßige Länge der maximalen Wartezeit für Besuche zu ändern. Diese Einstellungen sind zerstörungsfrei und gelten nur in Analysis Workspace. [Weitere Informationen](/help/components/vrs/vrs-report-time-processing.md) |
 | Zeitüberschreitung für Besuch | Definiert den Inaktivitätswert, den ein Unique Visitor aufweisen muss, bevor automatisch ein neuer Besuch gestartet wird. Dies wirkt sich auf die Besuchsmetrik, den Besuchssegment-Container und eVars aus, die beim Besuch ablaufen. |
-| Neuen Besuch mit Ereignis starten | Startet eine neue Sitzung, wenn eines der spezifizierten Ereignisse ausgelöst wird, unabhängig davon, ob eine Sitzung abgelaufen ist oder nicht. |
+| Neuen Besuch mit Ereignis starten | Startet eine neue Sitzung, wenn eines der spezifizierten Ereignisse ausgelöst wird, unabhängig davon, ob eine Sitzung die Zeit überschritten hat oder nicht. |
 | **Einstellungen für Mobile App-Besuche** | Ändern Sie, wie Besuche für Mobile-App-Treffer definiert werden, die von Adobe Mobile SDKs erfasst werden. Diese Einstellungen sind zerstörungsfrei und gelten nur in Analysis Workspace. |
-| Verhindern Sie Hintergrund-Hits durch den Beginn eines neuen Besuchs | Verhindert, dass Hintergrund-Hits einen neuen Besuch starten und die Besuchs- und Unique-Visitor-Metriken erhöht werden. |
-| Bei jedem Anwendungsstart einen neuen Besuch starten | Startet eine neue Sitzung, wenn eine App gestartet wird. [Weitere Informationen](/help/components/vrs/vrs-mobile-visit-processing.md) |
+| Verhindern Sie Hintergrundtreffer durch den Beginn eines neuen Besuchs | Verhindert, dass Hintergrundtreffer einen neuen Besuch starten und die Besuchs- und Unique-Visitor-Metriken erhöht werden. |
+| Starten eines neuen Besuchs bei jedem App-Start | Startet eine neue Sitzung, wenn eine App gestartet wird. [Weitere Informationen](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## Einschließen und Umbenennen von Komponenten
 

@@ -4,32 +4,47 @@ title: Verwenden von Komponenten in einem Projekt
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+TQID: 'https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 77%
-
+source-wordcount: '986'
+ht-degree: 74%
 ---
-
 # Verwenden von Komponenten in einem Projekt
 
 Komponenten bilden die eigentlichen Daten eines jeden Projekts in Analysis Workspace. Komponenten bestehen aus Dimensionen, Metriken, Segmenten und Datumsbereichen. Sie können Komponenten zu einem Projekt hinzufügen, indem Sie sie in Visualisierungen oder Panels ziehen.
@@ -65,11 +80,11 @@ Informationen dazu, wie Sie den Segment-Ablagebereich in einem Bedienfeld verwen
 
 ### Hinzufügen von Dimensionen zu einem Projekt
 
-[Dimensionen](/help/components/dimensions/overview.md) sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Im Gegensatz dazu enthalten [Metriken](/help/components/calculated-metrics/cm-overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein Basisbericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegen eine Spalte mit numerischen Werten (Metrik) an.
+[Dimensionen](/help/components/dimensions/overview.md) sind Variablen in Adobe Analytics, die normalerweise Zeichenfolgenwerte enthalten. Im Gegensatz dazu enthalten [Metriken](/help/components/calculated-metrics/cm-overview.md) numerische Werte, die mit einer Dimension verknüpft sind. Ein einfacher Bericht zeigt Zeilen mit Zeichenfolgenwerten (Dimension) gegenüber einer Spalte mit numerischen Werten (Metrik) an.
 
 1. Fügen Sie zunächst eine Dimension zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben.
 
-1. Wählen Sie eine der folgenden Methoden, um Dimensionen hinzuzufügen, und bestimmen Sie den Datentyp, der analysiert werden soll:
+1. Wählen Sie eine der folgenden Methoden, um Dimensionen hinzuzufügen, und bestimmen Sie die Art der Daten, die Sie analysieren möchten:
 
    ![Hinzufügen einer Dimension](assets/add-dimension.gif)
 
@@ -129,7 +144,7 @@ Wenn Sie Komponenten wie [berechnete Metriken](/help/components/calculated-metri
 
 [Datumsbereiche](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) bestimmen den Zeitrahmen der Berichterstellung in Analysis Workspace. Außerdem kann ein Datenbereich auf Bereiche innerhalb eines Projekts und auch auf einige Visualisierungen (wie die Freiformtabelle) angewendet werden.
 
-Jedes Panel enthält standardmäßig einen Datumsbereich. Es gibt mehrere Möglichkeiten, einen Datumsbereich für ein Panel zu aktualisieren. Eine Möglichkeit zum Aktualisieren eines Datumsbereichs für ein Panel in Analysis Workspace besteht darin, eine Datumsbereichskomponente aus dem linken Panel zu ziehen:
+Jedes Panel enthält standardmäßig einen Datumsbereich. Es gibt mehrere Möglichkeiten, einen Datumsbereich für ein Panel zu aktualisieren. Eine Möglichkeit zum Aktualisieren eines Datumsbereichs für ein Panel in Analysis Workspace besteht darin, eine Datumsbereichkomponente aus dem linken Panel zu ziehen:
 
 1. Fügen Sie optional Panels zu Ihrem Projekt in Analysis Workspace hinzu, wie unter [Hinzufügen von Komponenten zu einem Projekt](#add-components-to-a-project) beschrieben.
 

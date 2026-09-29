@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 91%
-
 ---
-
 # Adobe-Plug-in: getTimeBetweenEvents
 
 {{plug-in}}
@@ -87,15 +95,15 @@ Die `getTimeBetweenEvents`-Funktion verwendet die folgenden Argumente:
 * **`cn`** (optional, Zeichenfolge): Der Cookie-Name, in dem die Zeit des ersten Ereignisses gespeichert wird. Die Standardeinstellung ist `"s_tbe"`.
 * **`etd`** (optional, Ganzzahl): Die Ablaufzeit für das Cookie in Tagen. Setzen Sie das Argument auf `0`, damit das Cookie am Ende der Browser-Sitzung abläuft. Wenn kein Wert festgelegt ist, wird standardmäßig 1 Tag verwendet.
 * **`fmt`** (optional, Zeichenfolge): Das Format der Zeit, in der die Anzahl der Sekunden zurückgegeben wird (standardmäßig leer)
-   * `"s"` für Sekunden
-   * `"m"` für Minuten
-   * `"h"` für Stunden
-   * `"d"` für Tage
-   * Wenn das Argument nicht gesetzt ist, basiert das Format des Rückgabewerts auf den folgenden Regeln:
-      * Alles unter einer Minute wird auf den nächstliegenden 5-Sekunden-Benchmark gerundet. Beispiele: 10 Sekunden, 15 Sekunden
-      * Alles zwischen einer Minute und einer Stunde wird auf den nächsten 1/2-Minuten-Benchmark gerundet. Beispiele: 30,5 Minuten, 31 Minuten
-      * Alles zwischen einer Stunde und einem wird auf den nächsten viertelstündigen Benchmark gerundet. Beispiel: 2,25 Stunden, 3,5 Stunden
-      * Alles, was länger als ein Tag ist, wird auf den nächsten Tages-Benchmark gerundet. Beispiel: 1 Tag, 3 Tage, 9 Tage
+  * `"s"` für Sekunden
+  * `"m"` für Minuten
+  * `"h"` für Stunden
+  * `"d"` für Tage
+  * Wenn das Argument nicht gesetzt ist, basiert das Format des Rückgabewerts auf den folgenden Regeln:
+    * Alles unter einer Minute wird auf den nächstliegenden 5-Sekunden-Benchmark gerundet. Beispiele: 10 Sekunden, 15 Sekunden
+    * Alles zwischen einer Minute und einer Stunde wird auf den nächsten 1/2-Minuten-Benchmark gerundet. Beispiele: 30,5 Minuten, 31 Minuten
+    * Alles zwischen einer Stunde und einem wird auf den nächsten viertelstündigen Benchmark gerundet. Beispiel: 2,25 Stunden, 3,5 Stunden
+    * Alles, was länger als ein Tag ist, wird auf den nächsten Tages-Benchmark gerundet. Beispiel: 1 Tag, 3 Tage, 9 Tage
 * **`bml`** (optional, Zahl): Die Länge des Rundungs-Benchmarks entsprechend dem Format des `fmt`-Arguments. Wenn das `fmt`-Argument beispielsweise `"s"` ist und dieses Argument `2` lautet, wird der Rückgabewert auf den nächsten 2-Sekunden-Benchmark gerundet. Wenn das `fmt`-Argument `"m"` ist und dieses Argument `0.5` lautet, wird der Rückgabewert auf den nächsten Halbminuten-Benchmark gerundet.
 * **`rte`** (optional, Zeichenfolge): Durch Komma getrennte Zeichenfolge von Analytics-Ereignissen, die den Timer entfernen oder löschen. Die Standardeinstellung ist leer.
 

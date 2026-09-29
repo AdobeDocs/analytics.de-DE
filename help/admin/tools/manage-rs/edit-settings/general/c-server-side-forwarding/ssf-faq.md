@@ -1,5 +1,5 @@
 ---
-description: Häufig gestellte Fragen zu den Funktionen, der Funktionalität und den Problemen bezüglich der serverseitigen Weiterleitung.
+description: Häufig gestellte Fragen zu Funktionen, Funktionalität und Problemen im Zusammenhang mit Server-seitiger Weiterleitung.
 title: Häufig gestellte Fragen zur serverseitigen Weiterleitung
 feature: Report Suite Settings
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
@@ -7,24 +7,34 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/av541DJd5Ga5QaK2856YBHWW1M-JjkbzRs8JXxYma6c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: '707'
 ht-degree: 42%
-
 ---
-
 # Häufig gestellte Fragen zur serverseitigen Weiterleitung
 
 Häufig gestellte Fragen zu den Funktionen, der Funktionalität und den Problemen bezüglich der serverseitigen Weiterleitung.
@@ -40,13 +50,13 @@ Häufig gestellte Fragen zu den Funktionen, der Funktionalität und den Probleme
 
 | Frage | Antwort |
 |--- |--- |
-| F: Wie verhält es sich, wenn ich auf meiner Site Multi-Suite-Tagging verwende? Werden meine Serveraufrufe an Audience Manager durch die serverseitige Weiterleitung verdoppelt? | Nein, ein von Analytics an Audience Manager weitergeleiteter Hit wird nur einmal an Audience Manager weitergeleitet. Die Anzahl der Report Suites des Hits ist dabei unerheblich. Wenn Sie für die einzelnen Report Suites des Hits über entsprechende Datenquellen in Audience Manager verfügen, wird jede davon entsprechend aus diesem einen Hit ausgefüllt.  Beachten Sie jedoch, dass Sie die Serveraufrufe an Audience Manager verdoppeln, wenn Sie momentan die clientseitige Datenerfassung (DIL) verwenden und Sie die serverseitige Weiterleitung aktivieren, ohne das Zielgruppen-Management-Modul zu installieren. Dabei ist die Anzahl der Report Suites im Analytics-Hit unerheblich. |
-| F.: Was passiert, wenn ich Report Suites mit Multi-Suite-Tags habe, die separaten CX Enterprise-Organisationen zugeordnet sind? | Sie sollten niemals Daten aus einem einzelnen Analytics-Treffer an zwei Report Suites senden, die zu separaten CX Enterprise-Organisationen gehören. In diesem Fall leiten wir den Treffer jedoch nur an die CX Enterprise-Organisation weiter, die der Identity Service-Einrichtung auf der Seite entspricht. |
-| F.: Was passiert, wenn ich Multi-Suite-Tagging verwende und nur eine meiner Report Suites meiner CX Enterprise-Organisation zugeordnet ist und die andere nicht? | Wir leiten den Treffer an den entsprechenden Datenerfassungsserver für die CX Enterprise-Organisation in Ihrer zugeordneten Report Suite weiter. Da die nicht zugeordnete Report Suite jedoch keine zugeordnete Datenquelle in Audience Manager hat, werden keine Daten für die nicht zugeordnete Report Suite in Audience Manager aufgezeichnet. |
+| F: Wie verhält es sich, wenn ich auf meiner Site Multi-Suite-Tagging verwende? Werden meine Serveraufrufe an Audience Manager durch die serverseitige Weiterleitung verdoppelt? | Nein, ein von Analytics an Audience Manager weitergeleiteter Treffer wird nur einmal an Audience Manager weitergeleitet. Die Anzahl der Report Suites des Treffers ist dabei unerheblich. Wenn Sie für die einzelnen Report Suites des Treffers über entsprechende Datenquellen in Audience Manager verfügen, wird jede davon entsprechend aus diesem einen Treffer ausgefüllt.  Beachten Sie jedoch, dass Sie die Server-Aufrufe an Audience Manager verdoppeln, wenn Sie momentan die Client-seitige Datenerfassung (DIL) verwenden und Sie die Server-seitige Weiterleitung aktivieren, ohne das Zielgruppen-Management-Modul zu installieren. Dabei ist die Anzahl der Report Suites im Analytics-Treffer unerheblich. |
+| F.: Was passiert, wenn ich Report Suites mit mehreren Suites mit Tags habe, die separaten CX Enterprise-Organisationen zugeordnet sind? | Sie sollten niemals Daten aus einem einzelnen Analytics-Treffer an zwei Report Suites senden, die zu separaten CX Enterprise-Organisationen gehören. In diesem Fall leiten wir den Treffer jedoch nur an die CX Enterprise-Organisation weiter, die der Identity Service-Einrichtung auf der Seite entspricht. |
+| F.: Was passiert, wenn ich Multi-Suite-Tagging habe und nur eine meiner Report Suites meiner CX Enterprise-Organisation zugeordnet ist, die andere nicht? | Wir leiten den Treffer an den entsprechenden Datenerfassungsserver für die CX Enterprise-Organisation in Ihrer zugeordneten Report Suite weiter. Da die nicht zugeordnete Report Suite jedoch keine zugeordnete Datenquelle in Audience Manager hat, werden keine Daten für die nicht zugeordnete Report Suite in Audience Manager aufgezeichnet. |
 | F.: Was passiert, wenn ich eine Report Suite habe, die mehreren CX Enterprise-Organisationen zugeordnet ist? | Analytics betrachtet diese Report Suite als nicht zugeordnet und lässt keine Server-seitige Weiterleitung für diese Report Suite zu. Wenden Sie sich an die Kundenunterstützung, um dieses Zuordnungsproblem zu beheben. |
-| F: Ist die Report Suite-basierte, serverseitige Weiterleitungsmethode langsamer als die Tracking-Server-basierte, serverseitige Weiterleitung? | Nein, die Antwortzeit ist dieselbe. |
-| F.: Was passiert, wenn wir zwei CX Enterprise-Organisationen (oder Adobe Audience Manager-Instanzen) haben und Daten zwischen beiden CX Enterprise-Organisationen austauschen möchten? Kann ich einen einzelnen Analytics-Treffer Server-seitig an mehrere CX Enterprise-Organisationen weiterleiten? | Nein. Wenn Sie Daten, die unter einer CX Enterprise-Organisation erfasst wurden, für eine andere CX Enterprise-Organisation freigeben müssen, empfehlen wir, alle entsprechenden Zielgruppen mithilfe des Zielgruppen-Marketplaces von einer Audience Manager-Instanz zur anderen zu senden. |
-| F: Führt die serverseitige Weiterleitung zu einer zusätzlichen Rechnungsstellung in Audience Manager oder Analytics? | In Analytics erfolgt keine zusätzliche Rechnungsstellung. In Audience Manager werden weitergeleitete Hits wie andere Hits behandelt und abgerechnet.  Daher ist es wichtig, dass DIL und die serverseitige Weiterleitung nicht gleichzeitig aktiviert sind. Dies könnte zu einer doppelten Rechnungsstellung und einer Duplizierung der Daten führen. |
+| F: Ist die Report-Suite-basierte Server-seitige Weiterleitungsmethode langsamer als die Tracking-Server-basierte Server-seitige Weiterleitung? | Nein, die Antwortzeit ist dieselbe. |
+| F.: Was passiert, wenn wir zwei CX Enterprise-Organisationen (oder Adobe Audience Manager-Instanzen) haben und Daten zwischen beiden CX Enterprise-Organisationen austauschen möchten? Kann ich einen Analytics-Treffer Server-seitig an mehrere CX Enterprise-Organisationen weiterleiten? | Nein. Wenn Sie Daten, die unter einer CX Enterprise-Organisation erfasst wurden, für eine andere CX Enterprise-Organisation freigeben müssen, empfehlen wir, alle entsprechenden Zielgruppen mithilfe des Zielgruppen-Marketplaces von einer Audience Manager-Instanz zur anderen zu senden. |
+| F: Führt die Server-seitige Weiterleitung zu einer zusätzlichen Abrechnung in Audience Manager oder Analytics? | In Analytics erfolgt keine zusätzliche Abrechnung. In Audience Manager werden weitergeleitete Treffer wie andere Treffer behandelt und abgerechnet.  Daher ist es wichtig, dass DIL und die serverseitige Weiterleitung nicht gleichzeitig aktiviert sind. Dies könnte zu einer doppelten Rechnungsstellung und einer Duplizierung der Daten führen. |
 
 >[!MORELIKETHIS]
 >

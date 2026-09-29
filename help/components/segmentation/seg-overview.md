@@ -3,39 +3,56 @@ description: Erfahren Sie, wie Sie mit Segmenten Besucherteilmengen anhand von M
 title: Informationen zu Segmenten
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
+TQID: 'https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+    internal-label: Folders
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: '1052'
 ht-degree: 89%
-
 ---
-
 # Informationen zu Segmenten
 
-Mit Segmenten können Besucherteilmengen anhand von Merkmalen oder Website-Interaktionen identifiziert werden. Segmente sind als Zielgruppenerkenntnisse ausgelegt, die Sie für bestimmte Anforderungen erstellen und dann prüfen, bearbeiten und für andere Team-Mitglieder freigeben oder in anderen Produkten von Adobe und in Analytics verwenden können.
+Mit Segmenten können Sie Besucherteilmengen anhand von Merkmalen oder Website-Interaktionen identifizieren. Segmente sind als Zielgruppenerkenntnisse konzipiert, die Sie für Ihre spezifischen Anforderungen aufbauen und dann prüfen, bearbeiten und mit anderen Team-Mitgliedern teilen oder in anderen Adobe-Produkten und Analytics-Funktionen verwenden können.
 
-Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Treffer]-Ebenenhierachie, wobei ein verschachteltes Container-Modell verwendet wird. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können in Adobe CX Enterprise erstellt, genehmigt, freigegeben, gespeichert und für mehrere Produkte und Funktionen ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
+Segmente basieren auf einer [!UICONTROL Besucher-], [!UICONTROL Besuchs-] und [!UICONTROL Treffer]-Ebenenhierachie, wobei ein verschachteltes Container-Modell verwendet wird. Mit verschachtelten Containern können Sie Besucherattribute definieren sowie Aktionen, die auf Regeln zwischen den Containern und innerhalb der Container basieren. Analytics-Segmente können in der Adobe CX Enterprise erstellt, genehmigt, freigegeben, gespeichert und für mehrere Produkte und Funktionen ausgeführt werden. Segmente können aus einem Bericht generiert, in einem Dashboard-Bericht erstellt oder für den schnellen Zugriff mit einem Lesezeichen versehen werden.
 
 Sie können Segmente im Segment Builder erstellen und speichern oder aus einem Fallout-Bericht (in [!UICONTROL Analysis Workspace]) generieren. Sie können auch vorgefertigte Segmente verwenden und erweitern, die auf bestimmten Regeln zwischen verschachtelten Containern basieren. Diese ermöglichen das Filtern von Ergebnissen und können auf Berichte angewendet werden. Darüber hinaus können Segmente zusammen als [gestapelte Segmente](/help/components/segmentation/segmentation-workflow/seg-workflow.md) verwendet werden.
 
@@ -43,16 +60,16 @@ Segmente identifizieren
 
 - wer Ihre Besuchenden sind (Land, Geschlecht, Café),
 - welche Geräte und Dienste sie verwenden (Browser, Suchmaschine, Mobilgerät),
-- von wo aus sie kamen (Suchmaschine, vorherige Ausstiegsseite, natürliche Suche)
+- von wo aus sie kamen (Suchmaschine, vorherige Exitpage, natürliche Suche),
 - und vieles mehr.
 
 <!--![](assets/seg.png)-->
 
 Segmente können auf folgenden Werten basieren:
 
-- Auf Attributen basierende Besucher: Browsertyp, Gerät, Anzahl Besuche, Land, Geschlecht.
-- Auf Interaktionen basierende Besucher: Kampagnen, Keyword, Suchmaschine.
-- Auf Exits und Entries basierende Besucher: Besucher von Facebook, einer bestimmten Landingpage, Referrerdomäne.
+- Auf Attributen basierende Besuchende: Browser-Typ, Gerät, Anzahl der Besuche, Land, Geschlecht.
+- Auf Interaktionen basierende Besuchende: Kampagnen, Keyword-Suche, Suchmaschine.
+- Auf Ausstiegen und Eintritten basierende Besuchende: Besuchendevon Facebook, einer bestimmten Landingpage, Referrer-Domain.
 - Auf benutzerdefinierten Variablen basierende Benutzer: Formularfeld, definierte Kategorien, Kunden-ID.
 
 Beim Erstellen von Zielgruppensegmenten im Segment Builder definieren Sie Bedingungen unter Verwendung der Operatoren [!UICONTROL UND] und [!UICONTROL ODER] zwischen Containern.
@@ -155,15 +172,15 @@ Die Komponentenleiste links zeigt Segmente an, die von Ihnen und Ihrem Unternehm
 
 ## Sequenzielle Segmente {#sequential}
 
-Mit sequenziellen Segmenten können Sie Besuchende basierend auf ihrer Navigation und ihren Seitenansichten innerhalb Ihrer Site identifizieren. Es wird ein Segment mit definierten Aktionen und Interaktionen bereitgestellt. Mit sequenziellen Segmenten können Sie erkennen, was ein Besucher mag und was er meidet. Beim Erstellen sequenzieller Segmente wird der Operator [!UICONTROL THEN] eingesetzt, um die Navigation des Besuchers zu definieren und zu ordnen.
+Mit sequenziellen Segmenten können Sie Besuchende basierend auf ihrer Navigation und ihren Seitenansichten innerhalb Ihrer Site identifizieren und so ein Segment mit definierten Aktionen und Interaktionen erstellen. Mit sequenziellen Segmenten können Sie erkennen, was ein Besucher mag und was er meidet. Beim Erstellen sequenzieller Segmente wird der Operator [!UICONTROL THEN] eingesetzt, um die Navigation des Besuchers zu definieren und zu ordnen.
 
 | Erster Besuch | Zweiter Besuch | Dritter Besuch |
 |---|---|---|
-| Beim ersten Besuch besuchte die Besucherin oder der Besucher die Haupt-Landingpage A, ignorierte die Kampagnenseite B und sah sich dann die Produktseite C an. | Beim zweiten Besuch besuchte die Besucherin oder der Besucher erneut die Haupt-Landingpage A, ignorierte die Kampagnenseite B, besuchte erneut die Produktseite C und dann eine neue Seite D. | Beim dritten Besuch folgte die Besucherin oder der Besucher demselben Weg wie beim ersten und zweiten Besuch und ignorierte dann die Seite F, um direkt zu einer Targeting-Produktseite G zu wechseln. |
+| Beim ersten Besuch besuchte die Besucherin oder der Besucher die Haupt-Landingpage A, ignorierte die Kampagnenseite B und sah sich dann die Produktseite C an. | Beim zweiten Besuch besuchte die Besucherin oder der Besucher erneut die Haupt-Landingpage A, ignorierte die Kampagnenseite B, besuchte erneut die Produktseite C und dann eine neue Seite D. | Beim dritten Besuch betrat die Besucherin bzw. der Besucher die Site und folgte demselben Pfad wie beim ersten und zweiten Besuch. Anschließend ignorierte sie bzw. er die Seite F, um direkt zu einer gezielten Produktseite G zu wechseln. |
 
 Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
-- Auf Reihenfolge der Seitentreffer basierende Besuchende: Seitenansichten bei einem einzelnen Besuch, Seitenansichten über unterschiedliche Besuche hinweg, Besuche, bei denen Seitenansichten ignoriert wurden.
+- Auf Sequenz der Seitentreffer basierende Besuchende: Seitenansichten bei einem einzelnen Besuch, Seitenansichten über unterschiedliche Besuche hinweg, Besuche, bei denen Seitenansichten ignoriert wurden.
 - Auf der Zeit zwischen und nach Seitenansichten basierende Besuchende: nach einem Zeit-Limit, zwischen Treffern, nach einem Ereignis.
 
 <table style="table-layout:fixed; border: none;">
@@ -290,7 +307,7 @@ Report Builder zeigt Segmente an, die sich in Ihrem Besitz befinden, sowie Segme
 
 +++ **Kann ich im Segment-Manager alle Analytics-Segmente verwalten?**
 
-Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für die verantwortliche Person (die Person, die das Segment erstellt hat), Benutzende, für die diese freigegeben sind, und administrative Benutzende sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaberin oder Inhaber die Person ist, und solche, die für ihn freigegeben wurden.
+Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für die Inhaberin bzw. den Inhaber (die Person, die das Segment erstellt hat), freigegebene Benutzende und Admins sichtbar sind. Die Segmentauswahl zeigt Segmente an, die der Benutzerin bzw. dem Benutzer gehören, sowie solche, die für sie bzw. ihn freigegeben wurden.
 
 Admins können alle Segmente in der Benutzeroberfläche von Analysis Workspace sehen.
 
@@ -300,6 +317,6 @@ Report Builder zeigt nur von Ihnen erstellte Segmente oder Segmente, die für Si
 
 +++ **Warum kann ich ein Segment nicht löschen?**
 
-Wenn das Segment [veröffentlicht in CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md) wurde, können Sie das Segment nicht löschen oder bearbeiten. Sie können das Segment jedoch kopieren und die kopierte Version bearbeiten.
+Wenn das Segment [in CX Enterprise veröffentlicht](/help/components/segmentation/segmentation-workflow/seg-workflow.md) wurde, können Sie das Segment nicht löschen oder bearbeiten. Sie können das Segment jedoch kopieren und die kopierte Version bearbeiten.
 
 +++
