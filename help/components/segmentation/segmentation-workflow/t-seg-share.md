@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 38%
+source-wordcount: '425'
+ht-degree: 37%
 ---
 # Freigeben von Segmenten
 
@@ -57,7 +57,7 @@ Wann sollten Sie Segmente für das gesamte Unternehmen im Vergleich zu einer Gru
 
 
 
-   Neben dem Segment wird das Freigabesymbol angezeigt:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   Das Symbol Freigegeben wird neben dem Segment angezeigt: ![](/help/assets/icons/Share.svg)
 
 1. Sie können nach für Sie freigegebenen Segmenten filtern, indem Sie zu **[!UICONTROL Filter]** > **[!UICONTROL Weitere Filter]** > **[!UICONTROL Für mich freigegeben]** wechseln.
 
@@ -65,7 +65,7 @@ Wann sollten Sie Segmente für das gesamte Unternehmen im Vergleich zu einer Gru
 
 Im Folgenden finden Sie Best Practices für die Freigabe von Segmenten und für die Freigabe von Segmenten.
 
-* Geben Sie als Administrator ein Segment nur dann für alle frei, wenn Sie überzeugt sind, dass es jemand in Ihrer Organisation mit der Verwendung der Segmente vertraut ist. Sie können auch erwägen, diese Segmente zu bevorzugen. Weitere Informationen [&#x200B; Sie unter &#x200B;](t-seg-favorite.md) als Favorit markieren.
+* Geben Sie als Administrator ein Segment nur dann für alle frei, wenn Sie überzeugt sind, dass es jemand in Ihrer Organisation mit der Verwendung der Segmente vertraut ist. Sie können auch erwägen, diese Segmente zu bevorzugen. Weitere Informationen [ Sie unter ](t-seg-favorite.md) als Favorit markieren.
 
 * Geben Sie als Administrator ein Segment für eine bestimmte Gruppe frei, wenn dieses Segment einen Geschäftswert für die Benutzer dieser Gruppe bietet.
 

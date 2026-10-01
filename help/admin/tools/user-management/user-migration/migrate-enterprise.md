@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 71%
@@ -151,11 +151,11 @@ Wenn Sie bestehende Adobe ID-Benutzerkonten zu einer Enterprise ID oder Federate
    </tbody> 
    </table>
 
-   Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/de/enterprise/using/users.html).
+Weitere Informationen zu den Feldern in der [!DNL .csv]-Datei finden Sie unter [CSV-Dateiformat](https://helpx.adobe.com/de/enterprise/using/users.html).
 
-   >[!NOTE]
-   >
-   >Andere Spalten wie [!UICONTROL Produktkonfigurationen] und [!UICONTROL Administratorrollen] können leer sein.
+>[!NOTE]
+>
+>Andere Spalten wie [!UICONTROL Produktkonfigurationen] und [!UICONTROL Administratorrollen] können leer sein.
 
 1. Laden Sie in der Adobe Admin Console die Vorlagendatei auf der Registerkarte „Benutzer“ hoch, indem Sie auf **[!UICONTROL Benutzer gemäß CSV zufügen]** klicken (vgl. Schritt 3).
 1. Führen Sie in Analytics das Migrations-Tool aus (wie unter [Migrieren von Analytics-Benutzerkonten](/help/admin/tools/user-management/user-migration/t-migrate-users.md) beschrieben.

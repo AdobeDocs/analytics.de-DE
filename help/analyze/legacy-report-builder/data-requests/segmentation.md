@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 31%
-
+source-wordcount: '964'
+ht-degree: 30%
 ---
-
 # Segmente verwalten
 
 {{legacy-arb}}
@@ -37,7 +42,7 @@ Report Builder bietet in Schritt 1 des Anforderungs-Assistenten ein Bedienfeld f
 
 >[!NOTE]
 >
->Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics-Segment-Builder gestartet. Ihre Report Builder-Sitzung bleibt aktiv. Andere Browser als Internet Explorer werden für diesen Vorgang nicht unterstützt.
+>Um Segmente hinzuzufügen oder zu bearbeiten, wird über die Report Builder-Schnittstelle für Segmente in einem Microsoft Internet Explorer-Fenster der Analytics Segment Builder gestartet. Ihre Report Builder-Sitzung bleibt aktiv. Andere Browser als Internet Explorer werden für diesen Vorgang nicht unterstützt.
 
 1. Klicken Sie im Segment-Bedienfeld von Schritt 1 des Anfrage-Assistenten auf **[!UICONTROL Hinzufügen]**.
 1. Ein Internet Explorer-Fenster wird geöffnet, in dem die Benutzeroberfläche von Analytics Segment Builder geöffnet wird. Informationen zum Erstellen von Segmenten finden Sie unter [Analytics-Segmentierung](/help/components/segmentation/seg-home.md).
@@ -53,7 +58,7 @@ Report Builder bietet in Schritt 1 des Anforderungs-Assistenten ein Bedienfeld f
 Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimensionen, die Sie in ein Segment umwandeln möchten. Solche Segmente können Sie über die Report Builder-Schnittstelle erstellen. Wählen Sie beispielsweise einige Seiten aus einer Seitenanforderungsausgabe aus und erstellen Sie ein Segment basierend auf diesen Werten.
 
 1. Wählen Sie die Berichtsausgabeelemente aus, die Sie in ein Segment umwandeln möchten.
-1. Klicken Sie mit der rechten Maustaste, um **[!UICONTROL In-Context-Segment erstellen in]** auszuwählen und legen Sie den rechten Container fest (Container für Seitenaufrufe, Container für Besuche, Container für Besucher).
+1. Klicken Sie mit der rechten Maustaste, um **[!UICONTROL In-Context-Segment erstellen in]** auszuwählen und legen Sie den rechten Container fest (Container für Treffer, Container für Besuche, Container für Besucher).
 
    ![Screenshot zur Erstellung eines kontextbezogenen Segments in ausgewählten und verfügbaren Container-Optionen.](assets/seg_in_context.png)
 
@@ -66,7 +71,7 @@ Möglicherweise verfügen Sie über bestimmte Kombinationen an Berichtsdimension
 
 ## Segmente suchen und anwenden
 
-In dieser Segmentliste werden alle Segmente angezeigt, die in Reports &amp; Analytics (jetzt eingestellt), Report Builder oder Data Warehouse erstellt wurden. Um die Liste zu aktualisieren, klicken Sie auf das Aktualisierungssymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+In dieser Segmentliste werden alle Segmente angezeigt, die in Reports &amp; Analytics (jetzt eingestellt), Report Builder oder Data Warehouse erstellt wurden. Um die Liste zu aktualisieren, klicken Sie auf das Aktualisierungssymbol ![](/help/assets/icons/Refresh.svg).
 
 Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dazu gehören sequenzielle Segmente.
 
@@ -82,13 +87,13 @@ Sie können bei allen Anforderungen eines oder mehrere Segmente anwenden. Dazu g
 
 ## Filtern von Segmenten {#filter}
 
-**Filtern** von Segmenten durch Klicken auf das Filtersymbol: ![Filtersymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filtern** von Segmenten durch Klicken auf das Filtersymbol: ![Filtersymbol](/help/assets/icons/Filter.svg)
 
 Zu den verfügbaren Filtern gehören:
 
 | Filtername | Beschreibung |
 |---|---|
-| Tags | Ermöglicht das Filtern nach Segmenten mit bestimmten Tags. Beachten Sie, dass Tagfilter mit dem Operator AND arbeiten. Wenn Sie zwei Tags aktivieren, werden im rechten Bereich Segmente angezeigt, die mit (**) Tags** wurden. |
+| Tags | Ermöglicht das Filtern nach Segmenten mit bestimmten Tags. Beachten Sie, dass Filter für Tags den UND-Operator verwenden. Wenn Sie zwei Tags aktivieren, werden im rechten Bereich Segmente angezeigt, die mit (**) Tags** wurden. |
 | Inhaberinnen oder Inhaber | Filtert Segmente nach Inhaber. Beachten Sie, dass Inhaberfilter mit dem Operator OR arbeiten. Wenn Sie zwei Eigentümer überprüfen, zeigt der rechte Bereich Segmente an, die dem (oder **)** gehören. |
 | Andere Filter > Nur *Report Suite-Name* | Wenn Sie den Filter „Nur *Report Suite-Name* im Segment Builder in Adobe Analytics anwenden und dann den erweiterten Filter in [!DNL Report Builder] anzeigen, zeigt der erweiterte Filter das Segment nur für die ausgewählte Report Suite an. |
 | Weitere Filter > Meine | Zeigt alle Segmente an, deren Inhaber Sie sind. |
@@ -100,7 +105,7 @@ Zu den verfügbaren Filtern gehören:
 
 Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbeitsmappe zwischen Segmenten wechseln, anstatt hierfür zum Anforderungs-Assistenten wechseln zu müssen.
 
-1. Klicken Sie auf das Symbol Kontrolle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) neben der Dropdown-Liste des Segments.
+1. Klicken Sie auf das Symbol Kontrolle ![](/help/assets/icons/Filter.svg) neben der Dropdown-Liste des Segments.
 
 1. Markieren Sie alle Segmente, die in der Segmentsteuerung angezeigt werden sollen, oder aktivieren Sie **[!UICONTROL Alle auswählen]**.
 
@@ -119,7 +124,7 @@ Wenn Sie ein Segmentsteuerelement hinzufügen, können Sie innerhalb einer Arbei
 
 ## Segmentliste aktualisieren {#refresh}
 
-Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Aktualisierungssymbol ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) klicken, um die zwischengespeicherte Segmentliste zu aktualisieren.
+Jedes Mal, wenn Sie ein neues Segment hinzufügen oder ein vorhandenes bearbeiten, sollten Sie auf das Aktualisierungssymbol ![](/help/assets/icons/Refresh.svg) klicken, um die zwischengespeicherte Segmentliste zu aktualisieren.
 
 ## Verwalten von Segmenten in mehreren Anfragen {#manage}
 

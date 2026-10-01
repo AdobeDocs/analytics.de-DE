@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '720'
 ht-degree: 100%
 ---
 # Erstellen und Verwalten von Vorlagen
@@ -114,7 +114,7 @@ Admins können Unternehmensvorlagen umbenennen, taggen und genehmigen.
 
    Eine Liste der Unternehmensvorlagen wird angezeigt. Alle regulären Projekte werden nicht angezeigt, es sei denn, sie sind angeheftet.
 
-   Unternehmensvorlagen sind am Symbol ![Vorlagensymbol](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) erkennbar, das dem Vorlagennamen vorangestellt ist.
+   Unternehmensvorlagen sind am Symbol ![Vorlagensymbol](/help/assets/icons/FileTemplate.svg) erkennbar, das dem Vorlagennamen vorangestellt ist.
 
    ![Anzeigen der Filter „Unternehmensvorlagen“](assets/company-templates-filter.png)
 

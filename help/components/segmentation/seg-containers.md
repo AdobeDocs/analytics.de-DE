@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '3545'
 ht-degree: 85%
@@ -39,7 +39,7 @@ ht-degree: 85%
 
 Ein Segment legt Bedingungen fest, um einen Besucher basierend auf den Attributen des Besuchers oder den Interaktionen mit Ihrer Site zu filtern. Um Bedingungen in einem Segment festzulegen, legen Sie Regeln fest, um Besucher nach Besuchermerkmalen und/oder Navigationseigenschaften zu filtern. Um die Besucherdaten weiter herunterzubrechen, können Sie jeden Besucher auf der Grundlage bestimmter Besuche und/oder Seitenansichten filtern. Segment Builder bietet eine einfache Architektur zum Erstellen dieser Teilmengen und zum Anwenden von Regeln als verschachtelte, hierarchische Container für Besucher, Besuche oder Treffer.
 
-Die im Segmentaufbau verwendete Container[Architektur definiert &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md):
+Die im Segmentaufbau verwendete Container[Architektur definiert ](/help/components/segmentation/segmentation-workflow/seg-build.md):
 
 - ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Besucher]** als äußerster Container, der übergreifende Daten enthält, die für den Besucher über Besuche und Seitenansichten hinweg spezifisch sind.
 - ![Besuch](/help/assets/icons/Visit.svg) Mit einem verschachtelten Container **[!UICONTROL Besuch]** können Sie Regeln festlegen, um die Besucherdaten auf der Grundlage von Besuchen aufzuschlüsseln, und
@@ -50,18 +50,18 @@ Jeder Container ermöglicht es Ihnen, Berichte über den Verlauf einer Besucheri
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -70,7 +70,7 @@ Jeder Container ermöglicht es Ihnen, Berichte über den Verlauf einer Besucheri
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segment-Container](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -160,18 +160,18 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="h../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -185,18 +185,18 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -205,13 +205,13 @@ Die sequenzielle Segmentierung verwendet dieselben grundlegenden Container wie [
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -222,18 +222,18 @@ Die einzige Ausnahme für diese Container-Hierarchie besteht in der Verwendung d
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -242,19 +242,19 @@ Die einzige Ausnahme für diese Container-Hierarchie besteht in der Verwendung d
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> Gruppe</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Group.svg"/> Gruppe</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Treffer</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 </table>
@@ -285,12 +285,12 @@ Der Bericht zeigt basierend auf dem ausgewählten Container unterschiedliche Erg
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Startseite</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterjacke</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Kauf 100 USD</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Startseite</td>!
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterkleidung</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterjacke</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>Kauf 100 USD</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -303,12 +303,12 @@ Der Bericht zeigt basierend auf dem ausgewählten Container unterschiedliche Erg
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterstiefel</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Wintermützen</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>Winterkleidung</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>Winterstiefel</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterkleidung</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>Wintermützen</td>
 
 </table>
 
@@ -327,7 +327,7 @@ Wenn sich diese Bedingung in einem Treffer-Container befindet, listet der Berich
 
 Bei Berichten aus dem Treffer-Container können Sie sehen, wie sich Berichte aus unterschiedlichen Containern auf die gesamten Berichtswerte auswirken. Beachten Sie beim Anzeigen des Segmentberichts, dass die Seitenansichten ungefähr den Besuchen entsprechen (rund 2.000 Besuchende haben während eines Besuchs doppelte Seitenaufrufe gesehen, was zur Gesamtzahl der Seitenansichten addiert wird). Und Unique Visitors entsprechen ungefähr der Anzahl der Besuche (etwa 2.000 eindeutige Besuchende haben die Seite mehr als einmal besucht).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
 | | Seitenansichten:<br/>Ansichten:<br/>Unique Visitors: | **69.252** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **19 %**<br/>**40 %**<br/>**56 %** |
 
@@ -353,7 +353,7 @@ Wenn sich dieselbe Bedingung in einem Besuchs-Container befindet, listet der Ber
 
 In den Segmentwerten aus dem Besuchs-Container sehen Sie, dass die Anzahl der Seitenansichten signifikant gestiegen ist. Dieser Anstieg hat den Grund, dass ein Bericht aus dem Besuchs-Container alle Seiten identifiziert, die die Bedingungen erfüllen, plus alle anderen beim Besuch angesehenen Seiten (mit allen in jedem Besuchs-Container erfassten Seitenansichten).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
 | | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **226.193** von 351.292 <br/>**67.554** von 165.175 <br/>**63.541** von 113.169 | **64 %**<br/>**40 %**<br/>**56 %** |
 
@@ -389,7 +389,7 @@ Wenn sich dieselbe Bedingung in einem Besucher-Container befindet, listet der Be
 
 Beim Anzeigen von Segmenten aus dem Besucher-Container können Sie sehen, dass die Seitenansichten und die Besuche angestiegen sind. Dieser Anstieg hat den Grund, dass auf der Besucherebene, sobald die Besucherin oder der Besucher die Winterjacken-Seite einmal besucht hat (wodurch die Bedingung wahr ist), alle anderen Seitenansichten und alle anderen Besuche für diese Besucherin oder diesen Besucher erfasst werden.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
 | | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **240.094** von 351.292 <br/>**83.823** von 165.175 <br/>**63.541** von 113.169 | **68 %**<br/>**50 %**<br/>**56 %** |
 
@@ -449,12 +449,12 @@ Das Segment `Referring Domain equals aol.com` unten wird auf den **Seitenbericht
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
+<img src="../../assets/icons/User.svg"/><br/>aol.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Startseite</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterjacke</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Kauf 100 USD</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Startseite</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterkleidung</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterjacke</td>
+<td style="background-color: #FFFFFF;"><img src="h../../assets/icons/WebPage.svg"><br/>Kauf 100 USD</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -467,12 +467,12 @@ Das Segment `Referring Domain equals aol.com` unten wird auf den **Seitenbericht
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
+<img src="../../assets/icons/User.svg"/><br/>weather.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterstiefel</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winterkleidung</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Wintermützen</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterkleidung</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterstiefel</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Winterkleidung</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>Wintermützen</td>
 
 </table>
 
@@ -495,7 +495,7 @@ Da allen in demselben Besuch enthaltenen Seitensichten derselbe Wert für die Re
 
 Bei der Anzeige der Daten aus dem Treffer-Container wurden über 92.000 Seitenaufrufe in über 33.000 Besuchen von nur etwas mehr als 32.000 Besuchenden erzeugt. Im Durchschnitt gab es drei Seitenansichten bei jedem Besuch, und fast alle Besuche wurden von Unique Visitors durchgeführt.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
 | | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
@@ -516,7 +516,7 @@ Wenn dieselbe Bedingung für einen Seitenbericht im Besuchs-Container gefiltert 
 
 Da alle Seiten basierend auf dem Besuch denselben Wert für die Referrer-Domain haben, ist der Bericht auf der Besuchs-Container-Ebene (fast) mit dem Bericht aus dem Seitenansichts-Container identisch. Aufgrund von Datenanomalien gibt es einen leichten Versatz (98.234 gegenüber 98.248).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
 | | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **98.234** von 351.165 <br/>**33.203** von 165.173 <br/>**32.269** von 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
@@ -556,7 +556,7 @@ In einem Bericht „Referrer-Domain“ ist `Referring Domain equals 'aol.com'` b
 
 Wenn Sie sich die Daten aus dem Besucher-Container ansehen, stellen Sie fest, dass die Seitenansichten signifikant angestiegen sind (von 98.248 auf 112.925). Dieser Anstieg liegt daran, dass alle Seitenansichten der Besucherin bzw. des Besuchers (einschließlich der Seiten mit anderen Werten für die Referrer-Domain, die auf Besucher-Container-Ebene gespeichert sind) aufgelistet wurden. Und die zusätzlichen Besuche dieser Besucherin bzw. dieses Besuchers, die die Besuche von 33.203 auf 43.448 erhöhten.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrik | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrik | # | % |
 |---|---|--:|--:|
 | | Seitenansichten <br/>Besuche:<br/>Unique Visitors: | **112.925** von 351.165 <br/>**43.448** von 165.173 <br/>**32.269** von 113.110 | **32 %**<br/>**26 %**<br/>**28 %** |
 

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # Freigeben von Projekten {#share-projects}
@@ -73,7 +73,7 @@ Jede [Kuration](curate.md), die Sie vor der Freigabe vorgenommen haben, wird bei
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben von Projekten](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -92,9 +92,9 @@ Sie können eine bestimmte Rolle für Benutzende oder Gruppen freigeben oder ein
 
 Beachten Sie beim Freigeben einer bestimmten Projektrolle für Benutzende und Gruppen in Ihrer Organisation Folgendes:
 
-* Projektrollen (**[!UICONTROL Original bearbeiten]**, **[!UICONTROL Kopie bearbeiten]** und **[!UICONTROL Schreibgeschützt]**) sind an die Benutzenden und die spezifische Projekt-ID gebunden. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe CX Enterprise Admin Console verwaltet &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
+* Projektrollen (**[!UICONTROL Original bearbeiten]**, **[!UICONTROL Kopie bearbeiten]** und **[!UICONTROL Schreibgeschützt]**) sind an die Benutzenden und die spezifische Projekt-ID gebunden. Projektrollen sind unabhängig von Benutzerberechtigungen, die in der [Adobe CX Enterprise Admin Console verwaltet ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
 
-* In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) definiert. Admins können für jede Gruppe freigeben, einschließlich „Alle“. Nichtadministrierende können Freigaben für Gruppen durchführen, denen sie angehören (mit Ausnahme von „Alle“).
+* In Adobe Analytics werden Gruppen durch Produktprofile in der [Adobe CX Enterprise Admin Console definiert](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de). Admins können für jede Gruppe freigeben, einschließlich „Alle“. Nichtadministrierende können Freigaben für Gruppen durchführen, denen sie angehören (mit Ausnahme von „Alle“).
 
 * Benutzende, denen mehrere Rollen zugewiesen sind, erhalten immer die maximale Berechtigung. Dies kann vorkommen, wenn Benutzende sowohl als Einzelpersonen als auch als Gruppenmitglieder hinzugefügt werden. Wenn Benutzenden beispielsweise die Rolle **[!UICONTROL Original bearbeiten]** als Einzelpersonen und die Rolle **[!UICONTROL Schreibgeschützt]** als Gruppenmitgliedern zugewiesen wird, erhalten sie die Projektberechtigung **[!UICONTROL Original bearbeiten]**.
 
@@ -147,7 +147,7 @@ Beachten Sie bei der Freigabe eines Links, wie in diesem Abschnitt beschrieben, 
 
 * Empfänger und Empfängerinnen, die den Link verwenden, müssen sich bei Adobe Analytics anmelden, bevor sie Zugriff auf das Projekt erhalten.
 
-* Wenn Empfängern oder Empfängerinnen keine Rolle zugewiesen wurde und sie einen &quot;[&#x200B; Link](/help/analyze/analysis-workspace/curate-share/shareable-links.md) zum Projekt erhalten, wird ihnen standardmäßig eine Rolle zugewiesen. Admins erhalten **[!UICONTROL Original bearbeiten]** und Nicht-Admins erhalten **[!UICONTROL Kopie bearbeiten]**.
+* Wenn Empfängern oder Empfängerinnen keine Rolle zugewiesen wurde und sie einen &quot;[ Link](/help/analyze/analysis-workspace/curate-share/shareable-links.md) zum Projekt erhalten, wird ihnen standardmäßig eine Rolle zugewiesen. Admins erhalten **[!UICONTROL Original bearbeiten]** und Nicht-Admins erhalten **[!UICONTROL Kopie bearbeiten]**.
 
 So geben Sie den Projekt-Link für Personen in Ihrer Organisation frei:
 
@@ -189,7 +189,7 @@ Sie können jetzt den [schreibgeschützten Zugriff](/help/analyze/analysis-works
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Link für alle freigeben](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -222,13 +222,13 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
      * Wenn diese Option aktiviert und abgeblendet ist, benötigt Ihr Analytics-Administrator für alle, die auf Analysis Workspace-Projekte zugreifen, eine CX Enterprise-Authentifizierung.
 
-1. Klicken Sie neben dem Feld **[!UICONTROL Für alle freigeben (keine Anmeldung erforderlich)]** auf das Symbol **Link kopieren** ![Symbol „Link kopieren“](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg), um den Link in die Zwischenablage Ihres Systems zu kopieren.
+1. Klicken Sie neben dem Feld **[!UICONTROL Für alle freigeben (keine Anmeldung erforderlich)]** auf das Symbol **Link kopieren** ![Symbol „Link kopieren“](/help/assets/icons/Link.svg), um den Link in die Zwischenablage Ihres Systems zu kopieren.
 
 1. Teilen Sie den Link mit den Personen, die Zugriff auf das Projekt haben sollen. Sie können beispielsweise den Link in eine E-Mail einfügen.
 
    Alle Personen, mit denen Sie den Link teilen, können das Analysis Workspace-Projekt ansehen.
 
-1. (Optional) Sie können auf das Symbol **Neuen Link generieren** ![Symbol „Link generieren“](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) klicken, um den Zugriff von Personen zu entfernen, die zuvor einen Link zum Projekt erhalten haben. Es wird ein neuer Link generiert, den Sie für Benutzende freigeben können, die auf das Projekt zugreifen können sollen.
+1. (Optional) Sie können auf das Symbol **Neuen Link generieren** ![Symbol „Link generieren“](/help/assets/icons/Refresh.svg) klicken, um den Zugriff von Personen zu entfernen, die zuvor einen Link zum Projekt erhalten haben. Es wird ein neuer Link generiert, den Sie für Benutzende freigeben können, die auf das Projekt zugreifen können sollen.
 
 1. Wählen Sie **[!UICONTROL Schließen]** aus, um das Dialogfeld „Freigeben“ zu schließen. Ihre Änderungen werden automatisch gespeichert.
 
@@ -244,7 +244,7 @@ Sie können die eingebetteten Komponenten freigeben, die Teil Ihres Projekts sin
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/327497?captions=ger&quality=12&learn=on){target="_blank"} für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Freigeben eingebetteter Komponenten](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
