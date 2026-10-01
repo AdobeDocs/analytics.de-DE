@@ -51,7 +51,7 @@ Merchandising-eVars funktionieren nur mit der [`products`](/help/implement/vars/
 
 >[!TIP]
 >
->Um persistente Werte an eine andere Dimension als Produkte zu binden, sollten Sie [[!UICONTROL Binding-Dimensionen]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) in Customer Journey Analytics verwenden.
+>Um persistente Werte an eine andere Dimension als Produkte zu binden, sollten Sie [[!UICONTROL Binding-Dimensionen]](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) in Customer Journey Analytics verwenden.
 
 ## Warum Merchandising-eVars verwenden
 
