@@ -45,7 +45,7 @@ Die Tabelle besteht aus den folgenden Spalten:
 |---|---|
 | **[!UICONTROL Name]** | *Name des*. Sie können den Namen auswählen, um die Suchmaschineneinstellungen zu bearbeiten. |
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | Wählen Sie diese Option aus, um das Werbekonto umzubenennen oder die Suchmaschineneinstellungen zu bearbeiten. |
-| ![Mehr](/help/assets/icons/More.svg) | Wählen Sie diese Option aus, um ein Kontextmenü zu öffnen[ in dem Sie Report Suites zuordnen](#map-reporting-suites) Werbekonten aktivieren [ anhalten ](#activate-or-pause-advertising-accounts). |
+| ![Mehr](/help/assets/icons/More.svg) | Wählen Sie diese Option aus, um ein Kontextmenü zu öffnen[&#x200B; in dem Sie Report Suites zuordnen](#map-reporting-suites) Werbekonten aktivieren [&#x200B; anhalten &#x200B;](#activate-or-pause-advertising-accounts). |
 | **[!UICONTROL Report Suites]** | Listet die Report Suites auf, denen das Werbekonto zugeordnet ist. |
 | **[!UICONTROL Typ]** | Zeigt die Art des Werbekontos an. Standardmäßig ist der Typ [!UICONTROL Suche] |
 | **[!UICONTROL Konto]** | Kontotyp anzeigen, entweder [!UICONTROL Bing Ads] oder [!UICONTROL Google Adwords]. |
@@ -66,7 +66,7 @@ Wenn Sie ein oder mehrere Werbekonten auswählen, ermöglicht Ihnen eine blaue A
 So erstellen Sie ein neues Werbekonto:
 
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Hinzufügen]** aus.
-1. Das Dialogfeld [!UICONTROL Advertising-] > **[!UICONTROL Neues Konto]** wird angezeigt, in dem Sie ein neues Werbekonto definieren können. Weitere [ finden Sie unter „Einrichten eines Advertising](aa-create-ad-account.md)Kontos“.
+1. Das Dialogfeld [!UICONTROL Advertising-] > **[!UICONTROL Neues Konto]** wird angezeigt, in dem Sie ein neues Werbekonto definieren können. Weitere [&#x200B; finden Sie unter „Einrichten eines Advertising](aa-create-ad-account.md)Kontos“.
 
 
 ## Werbekonto bearbeiten
@@ -74,7 +74,7 @@ So erstellen Sie ein neues Werbekonto:
 So bearbeiten Sie die Suchmaschineneinstellungen für ein Werbekonto:
 
 - Wählen Sie den Namen des Werbekontos.
-- Klicken ![ auf ](/help/assets/icons/Edit.svg)Bearbeiten“ neben dem Namen des Werbekontos.
+- Klicken ![&#x200B; auf &#x200B;](/help/assets/icons/Edit.svg)Bearbeiten“ neben dem Namen des Werbekontos.
 
 ## Report Suites zuordnen
 
@@ -83,7 +83,7 @@ So ordnen Sie ein oder mehrere Werbekonten Report Suites zu:
 1. (Optional) Wählen Sie mehr als ein Werbekonto aus.
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein bestimmtes Werbekonto aus.
 1. Wählen ![Aktualisieren](/help/assets/icons/Refresh.svg) **[!UICONTROL Report Suites zuordnen]** aus dem Kontextmenü aus.
-1. Wählen Sie im Dialogfeld Report Suites zuordnen eine oder mehrere Report Suites aus dem Dropdown-Menü aus. Sie können Report Suites aus der Zuordnung mithilfe von &quot;![&quot; ](/help/assets/icons/CrossSize400.svg).
+1. Wählen Sie im Dialogfeld Report Suites zuordnen eine oder mehrere Report Suites aus dem Dropdown-Menü aus. Sie können Report Suites aus der Zuordnung mithilfe von &quot;![&quot; &#x200B;](/help/assets/icons/CrossSize400.svg).
 1. Klicken Sie **[!UICONTROL Speichern]**, um die Zuordnung zu speichern.
 
 
@@ -93,7 +93,7 @@ So aktivieren Sie ein oder mehrere Werbekonten:
 
 1. (Optional) Wählen Sie mehr als ein Werbekonto aus.
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein bestimmtes Werbekonto aus.
-1. Wählen ![ im ](/help/assets/icons/Play.svg) die Option **[!UICONTROL Play]** Activate) aus.
+1. Wählen ![&#x200B; im &#x200B;](/help/assets/icons/Play.svg) die Option **[!UICONTROL Play]** Activate) aus.
 
 So pausieren Sie ein oder mehrere Werbekonten:
 

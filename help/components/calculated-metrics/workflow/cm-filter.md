@@ -37,7 +37,7 @@ So filtern Sie die Liste der berechneten Metriken:
 
    >[!INFO]
    >
-   >*Elemente* beziehen sich auf die Filterelemente, die in der [Liste berechneter Metriken“ angezeigt ](cm-manager.md#filters-list).
+   >*Elemente* beziehen sich auf die Filterelemente, die in der [Liste berechneter Metriken“ angezeigt &#x200B;](cm-manager.md#filters-list).
    > 
 
 ## Filterabschnitte
