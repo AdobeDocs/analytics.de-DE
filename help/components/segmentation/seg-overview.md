@@ -43,7 +43,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 89%
@@ -78,18 +78,18 @@ Beim Erstellen von Zielgruppensegmenten im Segment Builder definieren Sie Beding
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -98,13 +98,13 @@ Beim Erstellen von Zielgruppensegmenten im Segment Builder definieren Sie Beding
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -112,18 +112,18 @@ Beim Erstellen von Zielgruppensegmenten im Segment Builder definieren Sie Beding
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -132,13 +132,13 @@ Beim Erstellen von Zielgruppensegmenten im Segment Builder definieren Sie Beding
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -187,18 +187,18 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -207,13 +207,13 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 </table>
 
@@ -221,18 +221,18 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Besucher</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Besucher</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -242,7 +242,7 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 
 <tr>
@@ -251,13 +251,13 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Besuche</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Besuche</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 
 <tr>
 <td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>ODER</td></td>
@@ -266,7 +266,7 @@ Sequenzielle Segmente können auf folgenden Trefferwerten basieren:
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Treffer</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Events.svg"/> Treffer</td>
 </tr>
 </tr>
 </table>
@@ -307,7 +307,7 @@ Report Builder zeigt Segmente an, die sich in Ihrem Besitz befinden, sowie Segme
 
 +++ **Kann ich im Segment-Manager alle Analytics-Segmente verwalten?**
 
-Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für die Inhaberin bzw. den Inhaber (die Person, die das Segment erstellt hat), freigegebene Benutzende und Admins sichtbar sind. Die Segmentauswahl zeigt Segmente an, die der Benutzerin bzw. dem Benutzer gehören, sowie solche, die für sie bzw. ihn freigegeben wurden.
+Ja, alle Segmente können im Segment-Manager verwaltet werden. Der Segment-Manager zeigt Segmente an, die für die Inhaberin bzw. den Inhaber (die Person, die das Segment erstellt hat), freigegebene Benutzende und Admins sichtbar sind. Die Segmentauswahl zeigt Segmente an, deren Inhaberin oder Inhaber die Person ist, und solche, die für ihn freigegeben wurden.
 
 Admins können alle Segmente in der Benutzeroberfläche von Analysis Workspace sehen.
 

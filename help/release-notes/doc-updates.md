@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '7553'
+source-wordcount: '7551'
 ht-degree: 91%
 ---
 # Aktualisierungen der technischen Dokumentation für Adobe Analytics
@@ -223,7 +223,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **Mai 2023** | |
 | Dokumentation zu Deep-Linking (Mobile App) | Ermöglicht Benutzenden das Senden von Links zu Scorecards, die sie direkt zum Scorecard-Projekt in der App führen. [Weitere Informationen](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Dokumentation für den aktualisierten Startbildschirm der Analytics-Dashboards-App (Mobile App) | Mit dem neuen aktualisierten Startbildschirm können Sie alle Ihre Scorecards in einer konsolidierten Scorecard-Liste anzeigen. [Weitere Informationen](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| Spektrum-Symbole | Screenshots von Benutzeroberflächen-Symbolen in der Dokumentation wurden, wo angebracht, durch Verweise auf die entsprechenden Symbole im [Spektrum-Design-System von Adobe](https://spectrum.adobe.com/page/icons/) ersetzt. |
+| Spektrum-Symbole | Screenshots von Benutzeroberflächen-Symbolen in der Dokumentation wurden, wo angebracht, durch Verweise auf die tatsächlichen Symbole im Spektrum-Design-System von [Adobe &#x200B;](https://spectrum.adobe.com). |
 | Reporting Activity Manager | Diese Beta-Dokumentation wurde aktualisiert, insbesondere der Abschnitt [Anzeigen der Berichtsaktivität für einzelne Report Suites](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
 | Analysis Workspace – Überblick | Die [Übersicht über Analysis Workspace](/help/analyze/analysis-workspace/home.md) wurde aktualisiert, um allgemeinere Übersichtsinformationen und Links zu relevanten Inhalten einzuschließen. |
 | Erstellen von Projekten | Es wurde ein neuer Artikel erstellt, in dem das [Erstellen von Projekten](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace ausführlich erklärt wird. |

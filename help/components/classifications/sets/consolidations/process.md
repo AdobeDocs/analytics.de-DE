@@ -22,9 +22,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '992'
 ht-degree: 10%
 ---
 # Erstellen und Bearbeiten von Klassifizierungskonsolidierungen
@@ -37,7 +37,7 @@ Eine Konsolidierung von Klassifizierungssätzen ermöglicht es Ihnen, Klassifizi
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Priorität des Klassifizierungsatzes"
->abstract="Der *Klassifizierungssatz* ![Schlüssel](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) ist der Basisklassifizierungssatz, der das Gesamtschema definiert und bei Zusammenführungskonflikten Vorrang hat. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
+>abstract="Der *Klassifizierungssatz* ![Schlüssel](/help/assets/icons/Key.svg) ist der Basisklassifizierungssatz, der das Gesamtschema definiert und bei Zusammenführungskonflikten Vorrang hat. Die anderen Klassifizierungssätze werden in der Reihenfolge von oben nach unten angewendet."
 
 
 So erstellen Sie eine Klassifizierungskonsolidierung in der Adobe Analytics-Hauptbenutzeroberfläche:
