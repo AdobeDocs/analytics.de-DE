@@ -110,7 +110,7 @@ Wenn Sie zwischengespeicherte Ergebnisse anzeigen, können Sie die neuesten Date
 
 ### Wann zwischengespeicherte Ergebnisse für ein Projekt deaktiviert bleiben sollen
 
-Einige Projekte hängen von den Ergebnissen ab, damit sie bei jedem Öffnen die neuesten Daten widerspiegeln. Dies ist häufig bei Projekten der Fall, die stark auf Daten vom selben Tag, verspätet eintreffende Daten oder ([) &#x200B;](/help/components/classifications/classifications-overview.md), die häufig aktualisiert werden.
+Einige Projekte hängen von den Ergebnissen ab, damit sie bei jedem Öffnen die neuesten Daten widerspiegeln. Dies ist häufig bei Projekten der Fall, die stark auf Daten vom selben Tag, verspätet eintreffende Daten oder ([) ](/help/components/classifications/classifications-overview.md), die häufig aktualisiert werden.
 
 Lassen Sie die zwischengespeicherten Ergebnisse in Ihrem Projekt deaktiviert, wenn die meisten Personen, die auf das Projekt zugreifen, Folgendes anzeigen müssen:
 
