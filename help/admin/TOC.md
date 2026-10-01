@@ -3,14 +3,12 @@ product: analytics
 audience: admin
 user-guide-title: Administratorhandbuch für Analytics
 breadcrumb-title: Administratorhandbuch
-user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie z. B. die Verwaltung von Benutzenden und Produkten in der CX Enterprise Admin Console, die Konfiguration von Report Suites und mehr.
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+user-guide-description: Erfahren Sie mehr über Analytics-Verwaltungsaufgaben, wie das Verwalten von Benutzenden und Produkten in CX Enterprise Admin Console, das Konfigurieren von Report Suites und mehr.
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Administratorhandbuch für Adobe Analytics {#admin}
 
@@ -18,12 +16,12 @@ ht-degree: 95%
 + [Analytics – Versionshinweise](https://experienceleague.adobe.com/de/docs/analytics/release-notes/latest)
 + Adobe Admin Console {#admin-console}
   + [Überblick](admin-console/home.md)
-  + [Adobe Analytics-Handbuch für erste Administratoren](admin-console/first-admin-guide.md)
+  + [Adobe Analytics – Erste Schritte für Admins](admin-console/first-admin-guide.md)
   + [Administratorrollen in Adobe Analytics](admin-console/admin-roles-in-analytics.md)
   + Zusammenfassung der Berechtigungen für Analytics-Tools {#permissions}
     + [Produktprofile für Adobe Analytics](admin-console/permissions/product-profile.md)
     + [Produktprofil-Berechtigungen für Report Suite-Werkzeuge](admin-console/permissions/report-suite-tools.md)
-    + [Produktprofilberechtigungen für Analytics-Werkzeuge](admin-console/permissions/analytics-tools.md)
+    + [Produktprofilberechtigungen für Analytics Tools](admin-console/permissions/analytics-tools.md)
 + Admin-Tools für Analytics {#admin-tools}
   + [Übersicht über Admin-Tools](tools/c-admin-tools.md)
   + [Code-Manager](tools/code-manager-admin.md)
@@ -45,8 +43,8 @@ ht-degree: 95%
         + [Interne URL-Filter](tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)
         + [Anpassen von Kalendern](tools/manage-rs/edit-settings/general/custom-calendar.md)
         + Paid-Search-Erkennung {#paid-search-detection}
-          + [Übersicht über die Paid-Search-Erkennung](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
-          + [Konfigurieren der Erkennung von Paid Search](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
+          + [Überblick über Paid-Search-Erkennung](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
+          + [Konfigurieren der Paid-Search-Erkennung](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
         + Verarbeitungsregeln {#processing-rules}
           + [Überblick](tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
           + [Benutzeroberfläche](tools/manage-rs/edit-settings/general/processing-rules/pr-interface.md)
@@ -64,9 +62,9 @@ ht-degree: 95%
         + Serverseitige Weiterleitung {#server-side-forwarding}
           + [Übersicht über die Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
           + [DSGVO/ePrivacy – Einhaltung und Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)
-          + [Anforderungen an die Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-requirements.md)
+          + [Anforderungen für Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-requirements.md)
           + [Daten- und Codereferenz für die Server-seitige Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-reference.md)
-          + [Überprüfen der Server-seitigen Weiterleitungsimplementierung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md)
+          + [So überprüfen Sie Ihre Server-seitige Weiterleitungsimplementierung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md)
           + [Häufig gestellte Fragen zur Server-seitigen Weiterleitung](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)
       + Traffic {#traffic-variables}
         + [Traffic-Variablen](tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
@@ -82,7 +80,6 @@ ht-degree: 95%
         + [Erfolgsereignisse](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [Klassifizierungshierarchien](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [Listenvariablen](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [Merchandising-eVars](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + Marketing-Kanäle {#marketing-channels}
         + [Marketing-Kanal-Manager](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [Marketing-Kanal-Verarbeitungsregeln](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
@@ -111,7 +108,7 @@ ht-degree: 95%
         + [Unterstützte Echtzeit-Metriken und -Dimensionen](tools/manage-rs/edit-settings/realtime/realtime-metrics.md)
     + [Verwalten von Report Suites](tools/manage-rs/report-suites-admin.md)
     + [Globale Report Suites](tools/manage-rs/rollup-report-suite.md)
-    + [Speichern einer Report Suite-Suche](tools/manage-rs/t-report-suite-saved-search.md)
+    + [Speichern einer Report-Suite-Suche](tools/manage-rs/t-report-suite-saved-search.md)
     + [Herunterladen von Report Suite-Einstellungen](tools/manage-rs/t-download-rs-settings.md)
     + Neue Report Suite {#c-new-report-suite}
       + [Erstellen einer Report Suite](tools/manage-rs/new-rs/t-create-a-report-suite.md)
@@ -141,12 +138,12 @@ ht-degree: 95%
   + Datenschutzkennzeichnung {#privacy-labeling}
     + [Überblick](tools/privacy-labeling/labeling-overview.md)
     + [Datenschutzkennzeichnungen für Analytics-Komponenten](tools/privacy-labeling/labels.md)
-    + [Anzeigen/Verwalten von Datenschutzkennzeichnungen von Report Suites](tools/privacy-labeling/view-settings.md)
+    + [Anzeigen/Verwalten von Datenschutz-Labels für Report Suites](tools/privacy-labeling/view-settings.md)
     + [Best Practices für Beschriftungen](tools/privacy-labeling/best-practices.md)
     + [Beschriftungsbeispiel](tools/privacy-labeling/examples.md)
     + [Namespaces](tools/privacy-labeling/namespaces.md)
   + Nutzung der Server-Aufrufe {#server-call-usage}
-    + [Übersicht zur Nutzung von Server-Aufrufen](tools/server-call-usage/overage-overview.md)
+    + [Überblick über die Nutzung von Server-Aufrufen](tools/server-call-usage/overage-overview.md)
     + [Anzeigen der aktuellen Nutzung der Server-Aufrufe](tools/server-call-usage/server-call-usage-dashboard.md)
     + [Anzeigen der Nutzung der Report Suite](tools/server-call-usage/report-suite-usage.md)
     + [Warnhinweise zur Nutzung von Server-Aufrufen](tools/server-call-usage/scu-alerts.md)
@@ -157,6 +154,6 @@ ht-degree: 95%
     + Migrieren von Benutzenden zur Adobe Admin Console {#migrate-users}
       + [Analytics-Benutzermigration zur Admin Console](tools/user-management/user-migration/c-migration-tool.md)
       + [Migrieren von Analytics-Benutzerkonten für Adobe IDs](tools/user-management/user-migration/t-migrate-users.md)
-      + [Migrieren von Analytics-Benutzerkonten für Enterprise und Federated IDs](tools/user-management/user-migration/migrate-enterprise.md)
+      + [Migrieren von Analytics-Benutzerkonten für Enterprise- und föderierte IDs](tools/user-management/user-migration/migrate-enterprise.md)
       + [Deaktivieren von veralteten Anmeldedaten](tools/user-management/user-migration/t-disable-legacy-login.md)
       + [Von der Migration betroffene APIs](tools/user-management/user-migration/developer.md)

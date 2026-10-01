@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
-ht-degree: 92%
+source-wordcount: '7553'
+ht-degree: 91%
 ---
 # Aktualisierungen der technischen Dokumentation für Adobe Analytics
 
@@ -77,6 +77,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | --- | --- |
 | **September 2026** | |
 | Journey-Leinwandvergleich bei Pfeilen und Fallout | Die Einstellung &quot;[!UICONTROL Vergleichen mit]&quot; in [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) wurde aktualisiert, um anzuzeigen, dass die prozentuale Änderung zwischen Datumsbereichen jetzt auf jedem Knoten, Pfeil und Fallout im Journey angezeigt wird. |
+| Merchandising-eVars | Überarbeitete und konsolidierte Dokumentation zu Merchandising-Variablen in relevanten Komponenten:<ul><li>Dimension [eVar (Merchandising](/help/components/dimensions/evar-merchandising.md) im Komponentenhandbuch</li><li>[eVar-Variable (Merchandising](/help/implement/vars/page-vars/evar-merchandising.md) im Implementierungshandbuch</li><li>[Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Admin-Handbuch</li></ul> |
 | Neue Tastenkombinationen zum Ändern der Größe | Mit den neuen Tastaturbefehlen in Analysis Workspace können Sie jetzt [Größe eines Bedienfelds oder einer Visualisierung ändern](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) breiter, schmaler, höher oder kürzer. |
 | [Datenerfassungs-APIs für Adobe Analytics](https://developer.adobe.com/analytics-collection-apis/) | Neues Entwickler-Repository, das Datenerfassungsstrategien für Adobe Analytics ohne Verwendung von AppMeasurement oder Tags aggregiert und modernisiert. |
 | **August 2026** | |
@@ -317,7 +318,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | &#x200B;5. August 2021 | Die Klassifizierungsdokumentation für [Vorlagen](/help/components/classifications/importer/c-download-saint-data.md), [Browser-Import](/help/components/classifications/importer/browser-import.md) und [Browser-Export](/help/components/classifications/importer/browser-export.md) wurde aktualisiert, um Optionen anzuzeigen, die für Report Suites nicht verfügbar sind, welche für die neue Klassifizierungsarchitektur aktiviert sind. |
 | &#x200B;2. August 2021 | Mehrere Seiten wurden wegen des Rebrandings von [Adobe Experience Platform Launch](/help/implement/launch/overview.md) aktualisiert. |
 | **Juli 2021** |  |
-| &#x200B;23. Juli 2021 | Neue ausführliche Erläuterung von [Merchandising-eVars](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md) |
+| &#x200B;23. Juli 2021 | Neue ausführliche Erläuterung von [Merchandising-eVars](/help/components/dimensions/evar-merchandising.md) |
 | &#x200B;15. Juli 2021 | Neue Dokumentation zur neuen [Adobe Analytics-Landingpage](/help/analyze/landing.md) hinzugefügt |
 | **Juni 2021** |  |
 | &#x200B;15. Juni 2021 | [Best Practices für Marketing-Kanäle](/help/components/c-marketing-channels/mchannel-best-practices.md) wurde aktualisiert |
