@@ -36,7 +36,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als [Dimension“ ](overview.md). Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zu Implementierungen.*
+*Auf dieser Hilfeseite wird beschrieben, wie Merchandising-eVars als [Dimension“ &#x200B;](overview.md). Informationen zum Implementieren von Merchandising-eVars finden Sie unter [eVar (Merchandising-Variable)](/help/implement/vars/page-vars/evar-merchandising.md) im Benutzerhandbuch zu Implementierungen.*
 
 >[!ENDSHADEBOX]
 
@@ -183,7 +183,7 @@ Wenn Sie die eVar neben einem Produkt ohne Binding-Ereignis festlegen, wird der 
 Ein Binding-Ereignis ist der Trigger, der Adobe anweist, den Staging-Wert an die Produkte im Treffer zu binden.
 
 * Binding-Ereignisse können standardmäßige oder benutzerdefinierte Erfolgsereignisse, der Trackingcode ([!UICONTROL Campaign-Ereignis]) oder eVars sein. Props haben keine Auswirkungen auf die Bindung.
-* Sie können mehrere Binding-Ereignisse konfigurieren, z[!UICONTROL  B. &quot;]&quot;, [!UICONTROL Warenkorbereignis hinzufügen] und [!UICONTROL Kaufereignis]. Wenn eines dieser Ereignisse einen Treffer mit Produkten aufweist, wird der Staging-Wert an jedes Produkt in diesem Treffer gebunden.
+* Sie können mehrere Binding-Ereignisse konfigurieren, z[!UICONTROL &#x200B; B. &quot;]&quot;, [!UICONTROL Warenkorbereignis hinzufügen] und [!UICONTROL Kaufereignis]. Wenn eines dieser Ereignisse einen Treffer mit Produkten aufweist, wird der Staging-Wert an jedes Produkt in diesem Treffer gebunden.
 * Standardmäßig ([!UICONTROL Alle]) erfolgt die Bindung immer dann, wenn sich ein anderes Ereignis oder eine andere eVar im selben Treffer wie ein Produkt befindet. [!UICONTROL Alle] wird verwendet, wenn kein Binding-Ereignis explizit ausgewählt ist. Wenn Sie [!UICONTROL Alle] die eVar auf einen Treffer festlegen, der Produkte enthält, binden die Trigger immer an diesen Treffer. Ein Wert, der für einen früheren Treffer bereitgestellt wurde, bindet an den nächsten Treffer, der Produkte und alle anderen Ereignisse oder eVar enthält.
 
 +++Beispiel: Bindung mit einem Binding-Ereignis
@@ -256,7 +256,7 @@ Adobe empfiehlt die folgenden Einstellungen für eVars für Produktsuchmethoden:
 | [!UICONTROL Merchandising] | [!UICONTROL Konversionsvariablensyntax] |
 | [!UICONTROL Merchandising-Binding-Ereignis] | [!UICONTROL Produktansichtsereignis], [!UICONTROL Warenkorbereignis hinzufügen] und [!UICONTROL Kaufereignis] |
 
-Eine Beschreibung [ einzelnen Einstellungen finden Sie ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) „Konversionsvariablen“ im Admin-Handbuch.
+Eine Beschreibung [&#x200B; einzelnen Einstellungen finden Sie &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) „Konversionsvariablen“ im Admin-Handbuch.
 
 +++Warum der Ausgangswert (Erste) anstelle des letzten Werts (Letzte)
 
@@ -285,6 +285,6 @@ Die Standardmetrik [Instanzen](../metrics/instances.md) wird nicht für die Verw
 
 Da die meisten Anwendungsfälle für die Konversionsvariablensyntax die eVar- und Produktvariable für verschiedene Treffer erfordern, ist die Standardinstanzmetrik nicht realistisch zu verwenden.
 
-Um Instanzen für jeden Wert zu zählen, der mit Konversionsvariablensyntax gesendet wird, wenden Sie das **Last Touch**[ Attributionsmodell](/help/analyze/analysis-workspace/attribution/overview.md) auf die Instanzmetrik an. Attributionsmodelle verwenden die bei jedem Treffer gesendeten Werte, nicht Staging-Werte oder Produktbindungen. Das Lookback-Fenster spielt keine Rolle, da Last Touch jeden Wert auf den Treffer gutschreibt, an den er gesendet wurde, unabhängig von der Zuordnungseinstellung der eVar.
+Um Instanzen für jeden Wert zu zählen, der mit Konversionsvariablensyntax gesendet wird, wenden Sie das **Last Touch**&#x200B;[&#x200B; Attributionsmodell](/help/analyze/analysis-workspace/attribution/overview.md) auf die Instanzmetrik an. Attributionsmodelle verwenden die bei jedem Treffer gesendeten Werte, nicht Staging-Werte oder Produktbindungen. Das Lookback-Fenster spielt keine Rolle, da Last Touch jeden Wert auf den Treffer gutschreibt, an den er gesendet wurde, unabhängig von der Zuordnungseinstellung der eVar.
 
 ![Attributionsauswahl](assets/attribution-select.png)
