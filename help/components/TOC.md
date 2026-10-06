@@ -5,13 +5,11 @@ user-guide-title: Analytics-Komponentenhandbuch
 breadcrumb-title: -Komponentenleitfaden
 user-guide-description: Partitionieren einer Platform-Instanz in virtuellen Umgebungen für Entwicklung, Tests und zur Anwendungsbereitstellung. Erfahren Sie mehr über geräteübergreifende Analysen.
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 97%
-
 ---
-
 # [!DNL Adobe Analytics]-Komponentenleitfaden {#components}
 
 + [Analytics-Komponentenhandbuch](home.md)
@@ -133,6 +131,7 @@ ht-degree: 97%
   + [Durchschnittliche Besuchszeit pro Site](metrics/average-time-on-site.md)
   + [Bot-Vorfälle](metrics/bot-occurrences.md)
   + [Bot-Seitenansichten](metrics/bot-page-views.md)
+  + [Bot-Produktvorfälle](metrics/bot-product-occurrences.md)
   + [Absprungrate](metrics/bounce-rate.md)
   + [Absprünge](metrics/bounces.md)
   + [Zusatz zum Warenkorb](metrics/cart-additions.md)
