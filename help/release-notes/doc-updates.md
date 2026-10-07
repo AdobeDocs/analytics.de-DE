@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
-ht-degree: 91%
+source-wordcount: '7591'
+ht-degree: 90%
 ---
 # Aktualisierungen der technischen Dokumentation für Adobe Analytics
 
@@ -75,6 +75,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **Oktober 2026** | |
+| Metrik für Bot-Produktereignisse | Es wurde die Metrik [Bot-Produktexemplare](/help/components/metrics/bot-product-occurrences.md) hinzugefügt, die die Anzahl der Teiltreffer der Produktzeichenfolgen anzeigt, die mit Bot-Regeln übereinstimmen. <p>Die Dimension [Bot-Name](/help/components/dimensions/bot-name.md) und die Metrik [Bot-Vorfälle](/help/components/metrics/bot-occurrences.md) wurde ebenfalls aktualisiert, um auf die neue Metrik zu verweisen.</p> |
 | **September 2026** | |
 | Journey-Leinwandvergleich bei Pfeilen und Fallout | Die Einstellung &quot;[!UICONTROL Vergleichen mit]&quot; in [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) wurde aktualisiert, um anzuzeigen, dass die prozentuale Änderung zwischen Datumsbereichen jetzt auf jedem Knoten, Pfeil und Fallout im Journey angezeigt wird. |
 | Merchandising-eVars | Überarbeitete und konsolidierte Dokumentation zu Merchandising-Variablen in relevanten Komponenten:<ul><li>Dimension [eVar (Merchandising](/help/components/dimensions/evar-merchandising.md) im Komponentenhandbuch</li><li>[eVar-Variable (Merchandising](/help/implement/vars/page-vars/evar-merchandising.md) im Implementierungshandbuch</li><li>[Konversionsvariablen](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) im Admin-Handbuch</li></ul> |
