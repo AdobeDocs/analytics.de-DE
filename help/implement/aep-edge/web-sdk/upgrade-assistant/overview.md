@@ -83,4 +83,4 @@ Der Upgrade-Assistent erfordert den folgenden Zugriff. Wenden Sie sich an den Ex
 | Produktzugriff | <ul><li>Datenerfassung (Tags)</li><li>Adobe Analytics</li></ul> |
 | [Tag-Rechte](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Eigenschaften verwalten] |
 
-Wenn Sie bereit sind, [ Sie eine Migration ](manager.md#create).
+Wenn Sie bereit sind, [&#x200B; Sie eine Migration &#x200B;](manager.md#create).

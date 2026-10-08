@@ -51,7 +51,7 @@ ht-degree: 2%
 
 <!-- markdownlint-enable MD034 -->
 
-Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [ Datenelemente ](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
+Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [&#x200B; Datenelemente &#x200B;](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
 
 * Duplizieren Sie Regeln oder Regeln, die Ereignisse und Bedingungen gemeinsam nutzen, die Sie konsolidieren könnten
 * Regelaktionssequenzen, die sich auf die Datengenauigkeit auswirken können
