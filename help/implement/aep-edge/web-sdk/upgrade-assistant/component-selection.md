@@ -51,7 +51,7 @@ ht-degree: 0%
 
 Die Komponentenauswahl ist der erste Schritt einer Migration. Verwenden Sie diese Option, um festzulegen, welche Regeln, Datenelemente und Erweiterungen aus Ihrer Tag-Eigenschaft in die Migration einbezogen werden sollen.
 
-Der Upgrade-Assistent organisiert die Komponenten in Ihrer Tags-Eigenschaft in **[!UICONTROL Regeln]**, **[!UICONTROL Datenelemente]** und **[!UICONTROL Erweiterungen]**. Jede Registerkarte listet alle Komponenten der Eigenschaft dieses Typs auf, basierend auf dem Schnappschuss der Bibliothek, den der Upgrade-Assistent bei der Erstellung [ Migration erstellt ](manager.md#create). Standardmäßig werden nur die Komponenten ausgewählt, die aktiv zu Ihrer Adobe Analytics-Implementierung beitragen. Sie können eine beliebige Komponente auswählen oder löschen.
+Der Upgrade-Assistent organisiert die Komponenten in Ihrer Tags-Eigenschaft in **[!UICONTROL Regeln]**, **[!UICONTROL Datenelemente]** und **[!UICONTROL Erweiterungen]**. Jede Registerkarte listet alle Komponenten der Eigenschaft dieses Typs auf, basierend auf dem Schnappschuss der Bibliothek, den der Upgrade-Assistent bei der Erstellung [&#x200B; Migration erstellt &#x200B;](manager.md#create). Standardmäßig werden nur die Komponenten ausgewählt, die aktiv zu Ihrer Adobe Analytics-Implementierung beitragen. Sie können eine beliebige Komponente auswählen oder löschen.
 
 Die Spalte **[!UICONTROL Veröffentlicht]** zeigt an, ob jede Komponente Teil der von Ihnen ausgewählten Bibliothek ist. Komponenten, die nicht Teil der Bibliothek sind, sind in Ihrer Tags-Eigenschaft vorhanden, jedoch nicht in dieser Bibliothek. Um die Liste hiernach zu filtern, verwenden Sie den **[!UICONTROL Source]** Filter.
 

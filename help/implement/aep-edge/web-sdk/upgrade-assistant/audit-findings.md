@@ -51,14 +51,14 @@ ht-degree: 2%
 
 <!-- markdownlint-enable MD034 -->
 
-Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [ Datenelemente ](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
+Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [&#x200B; Datenelemente &#x200B;](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
 
 * Duplizieren Sie Regeln oder Regeln, die Ereignisse und Bedingungen gemeinsam nutzen, die Sie konsolidieren könnten
 * Regelaktionssequenzen, die sich auf die Datengenauigkeit auswirken können
 * Duplizieren Sie Datenelemente, die Sie konsolidieren könnten
 * Möglicherweise nicht verwendete Datenelemente, die Sie deaktivieren können
 
-Dieser Schritt ist optional. Sie können beliebig viele Ergebnisse beheben oder direkt mit der [Report Suite-Überprüfung) ](rs-verification.md).
+Dieser Schritt ist optional. Sie können beliebig viele Ergebnisse beheben oder direkt mit der [Report Suite-Überprüfung) &#x200B;](rs-verification.md).
 
 ## Überprüfen eines Ergebnisses {#review}
 
