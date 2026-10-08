@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 73%
 ---
 # Übersicht über die JavaScript-Implementierung mit H-Code
@@ -51,7 +51,7 @@ Sie müssen Zugriff auf Ihre Hostingserver haben, um eine Seite mit Code zur Dat
    >
    >H-Code erfordert, dass das `s_code.js`-Skript innerhalb des `<body>`-Tags aufgerufen wird. Dies unterscheidet sich von anderen Implementierungsmethoden, bei denen die meisten Skriptverweise im `<head>`-Tag enthalten sein müssen.
 1. **Seitenspezifische Variablen auf jeder Seite definieren**: Für jede Seite sollten einzelne Variablen definiert sein, z. B. Seitenname oder eVars. Einzelne Variablen werden normalerweise auf jeder Seite mit einem Inline-`<script>`-Tag definiert.
-1. **Verwenden Sie den Debugger, um die Datenerfassung zu überprüfen**: Laden Sie den [CX Enterprise-Debugger herunter und installieren Sie ihn](../../validate/debugger.md) um sicherzustellen, dass Daten an Adobe gesendet werden und Seitenvariablen korrekt definiert sind.
+1. **Verwenden Sie den Debugger, um die Datenerfassung zu überprüfen**: Laden Sie [Adobe Experience Platform Debugger herunter und installieren Sie es](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home) um sicherzustellen, dass Daten an Adobe gesendet werden und Seitenvariablen korrekt definiert sind.
 
 ## Caching
 

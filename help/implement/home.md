@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 83%
+ht-degree: 82%
 ---
 # Implementieren von Adobe Analytics
 
@@ -118,7 +118,7 @@ Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 ## Wichtige Artikel zur Analytics-Implementierung
 
 * [Übernahme einer bestehenden Adobe Analytics-Implementierung](/help/implement/prepare/existing-implementation.md)
-* [Adobe Debugger](validate/debugger.md)
+* [Debugging-Tools](validate/debugging-tools.md)
 * [Erstellen einer Tag-Eigenschaft in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-Aktualisierungen](appmeasurement-updates.md)
 * [Tutorial zum Einrichten von Adobe Analytics mit Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=de)
