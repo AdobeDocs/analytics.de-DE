@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 2%
 ---
 # Prüfungsergebnisse
@@ -51,14 +51,14 @@ ht-degree: 2%
 
 <!-- markdownlint-enable MD034 -->
 
-Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [&#x200B; Datenelemente &#x200B;](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
+Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [ Datenelemente ](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
 
 * Duplizieren Sie Regeln oder Regeln, die Ereignisse und Bedingungen gemeinsam nutzen, die Sie konsolidieren könnten
 * Regelaktionssequenzen, die sich auf die Datengenauigkeit auswirken können
 * Duplizieren Sie Datenelemente, die Sie konsolidieren könnten
 * Möglicherweise nicht verwendete Datenelemente, die Sie deaktivieren können
 
-Dieser Schritt ist optional. Sie können beliebig viele Ergebnisse beheben oder direkt mit der [Report Suite-Überprüfung) &#x200B;](rs-verification.md).
+Dieser Schritt ist optional. Sie können beliebig viele Ergebnisse beheben oder direkt mit der [Mapper-Vorbereitung](mapper-prep.md) fortfahren.
 
 ## Überprüfen eines Ergebnisses {#review}
 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM-Zuordnung
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDK sendet Daten mithilfe von [Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home). Daher benötigt jede Analytics-Variable, die Sie von der [Report Suite-Überprüfung](rs-verification.md) übertragen, ein übereinstimmendes Feld in einem XDM-Schema. In diesem Schritt wählen Sie ein Schema aus und ordnen Ihre Variablen seinen Feldern zu.
+Web SDK sendet Daten mithilfe von [Experience-Datenmodell (XDM)-](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home). Daher benötigt jede Analytics-Variable, die Sie von [Mapper-Vorbereitung](mapper-prep.md) übertragen, ein übereinstimmendes Feld in einem XDM-Schema. In diesem Schritt wählen Sie ein Schema aus und ordnen Ihre Variablen seinen Feldern zu.
 
 ## Auswählen eines Schemas {#schema}
 
@@ -69,12 +69,12 @@ Sie können die Zuordnung auf zwei Arten erstellen:
 
 <!-- markdownlint-enable MD034 -->
 
-Beim Erstellen eines neuen Schemas können Sie auch auswählen, ob der Upgrade-Assistent standardmäßige oder benutzerdefinierte Feldergruppen bevorzugt. Standardfeldgruppen werden von Adobe definiert, benutzerdefinierte Feldgruppen dagegen von Ihrem Unternehmen. Siehe [Feldergruppe](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition#field-group) in der XDM-Dokumentation.
+Beim Erstellen eines neuen Schemas können Sie auch auswählen, ob der Upgrade-Assistent standardmäßige oder benutzerdefinierte Feldergruppen bevorzugt. Standardfeldgruppen werden von Adobe definiert, benutzerdefinierte Feldgruppen dagegen von Ihrem Unternehmen. Siehe [Feldergruppe](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) in der XDM-Dokumentation.
 
 ## Überprüfen der Zuordnung {#review}
 
 Die Zuordnung listet jede Analytics-Variable zusammen mit dem XDM-Feld auf, dem sie zugeordnet ist, mit einer Vorschau des vollständigen Schemas daneben. Wählen Sie einen Teil des Schemas aus, um die Liste nach den Variablen zu filtern, die ihr zugeordnet sind. Sie können sowohl einzelne Zuordnungen als auch das Schema selbst anpassen.
 
-Der Upgrade-Assistent verwendet KI, um Zuordnungen vorzuschlagen, und die Ergebnisse sind möglicherweise nicht genau oder vollständig. Überprüfen Sie jede Zuordnung, bevor Sie fortfahren. Der Upgrade-Assistent erstellt das Schema erst dann in Experience Platform, wenn Sie die [&#x200B; abgeschlossen &#x200B;](final-review.md#finalize).
+Der Upgrade-Assistent verwendet KI, um Zuordnungen vorzuschlagen, und die Ergebnisse sind möglicherweise nicht genau oder vollständig. Überprüfen Sie jede Zuordnung, bevor Sie fortfahren. Der Upgrade-Assistent erstellt das Schema erst dann in Experience Platform, wenn Sie die [ abgeschlossen ](final-review.md#finalize).
 
 Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern und fortfahren]** um Ihre Zuordnung zu speichern und zur [Web SDK-Implementierung](web-sdk-implementation.md) zu wechseln. Um die Zuordnung nach dem Speichern zu ändern, wählen Sie **[!UICONTROL Bearbeiten]**, nehmen Sie Ihre Änderungen vor und klicken Sie dann erneut auf **[!UICONTROL Speichern und]** Weiter“. Änderungen, die auf diese Weise nicht gespeichert werden, werden beim Abschluss der Migration nicht einbezogen.

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # Web SDK-Aktualisierungsassistent
@@ -54,7 +54,7 @@ Der Upgrade-Assistent führt Sie durch die folgenden Schritte, wobei jeder Schri
 
 1. **[Komponentenauswahl](component-selection.md)**: Wählen Sie die Regeln, Datenelemente und Erweiterungen aus, die in die Migration aufgenommen werden sollen.
 1. **[Auditergebnisse](audit-findings.md)** Überprüfen Sie die optionalen Bereinigungsempfehlungen für die ausgewählten Komponenten.
-1. **[Report Suite-Überprüfung](rs-verification.md)**: Überprüfen Sie die Analytics-Variablen in Ihren Report Suites und wählen Sie die weiterzuleitenden Variablen aus.
+1. **[Mapper-Vorbereitung](mapper-prep.md)**: Überprüfen Sie die Analytics-Variablen in Ihren Report Suites und wählen Sie aus, welche weitergeleitet werden sollen.
 1. **[XDM-Zuordnung](xdm-mapping.md)**: Ordnen Sie Ihre Analytics-Variablen Feldern in einem XDM-Schema zu.
 1. **[Web SDK-Implementierung](web-sdk-implementation.md)**: Überprüfen Sie die Web SDK-Aktionen, die der Upgrade-Assistent zu Ihren Regeln hinzufügt.
 1. **[Abschließende Überprüfung](final-review.md)**: Wählen Sie eine Experience Platform-Sandbox aus, überprüfen Sie, was durch die Migration erstellt wird, und schließen Sie die Migration ab.
@@ -79,8 +79,8 @@ Der Upgrade-Assistent erfordert den folgenden Zugriff. Wenden Sie sich an den Ex
 
 | Zugriffstyp | erforderlich |
 | --- | --- |
-| [Berechtigungen für Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Anzeigen von Schemata]</li><li>[!UICONTROL Verwalten von Schemata]</li><li>[!UICONTROL Anzeigen von Datensätzen]</li><li>[!UICONTROL Datensätze verwalten]</li><li>[!UICONTROL Anzeigen von Identity-Namespaces]</li></ul> |
+| [Berechtigungen für Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Anzeigen von Schemata]</li><li>[!UICONTROL Verwalten von Schemata]</li><li>[!UICONTROL Anzeigen von Datensätzen]</li><li>[!UICONTROL Datensätze verwalten]</li><li>[!UICONTROL Anzeigen von Identity-Namespaces]</li></ul> |
 | Produktzugriff | <ul><li>Datenerfassung (Tags)</li><li>Adobe Analytics</li></ul> |
 | [Tag-Rechte](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Eigenschaften verwalten] |
 
-Wenn Sie bereit sind, [&#x200B; Sie eine Migration &#x200B;](manager.md#create).
+Wenn Sie bereit sind, [ Sie eine Migration ](manager.md#create).
