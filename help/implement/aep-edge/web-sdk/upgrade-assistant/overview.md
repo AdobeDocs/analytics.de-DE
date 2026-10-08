@@ -79,7 +79,7 @@ Der Upgrade-Assistent erfordert den folgenden Zugriff. Wenden Sie sich an den Ex
 
 | Zugriffstyp | erforderlich |
 | --- | --- |
-| [Berechtigungen für Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Anzeigen von Schemata]</li><li>[!UICONTROL Verwalten von Schemata]</li><li>[!UICONTROL Anzeigen von Datensätzen]</li><li>[!UICONTROL Datensätze verwalten]</li><li>[!UICONTROL Anzeigen von Identity-Namespaces]</li></ul> |
+| [Berechtigungen für Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Anzeigen von Schemata]</li><li>[!UICONTROL Verwalten von Schemata]</li><li>[!UICONTROL Anzeigen von Datensätzen]</li><li>[!UICONTROL Datensätze verwalten]</li><li>[!UICONTROL Anzeigen von Identity-Namespaces]</li></ul> |
 | Produktzugriff | <ul><li>Datenerfassung (Tags)</li><li>Adobe Analytics</li></ul> |
 | [Tag-Rechte](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Eigenschaften verwalten] |
 
