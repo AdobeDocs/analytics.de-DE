@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # Fehlerbehebung bei Datenspitzen und Dateneinbrüchen
 
@@ -53,11 +53,11 @@ Traffic-Rückgänge werden in zwei Kategorien unterteilt: teilweise Daten und ke
 * **Report Suite-Latenz**: Gelegentlich kann es bei einer Report Suite aufgrund einer Reihe von Faktoren zu einer [Latenz](../latency.md) kommen. Viele Latenzprobleme können innerhalb von Stunden behoben werden. Wenden Sie sich bei Problemen mit einer bestimmten Report Suite an die Adobe-Kundenunterstützung.
 * **Entfernung der Implementierung**: Manchmal wird die Neuimplementierung von Analytics übersehen, wenn eine Organisation Änderungen an der Implementierung vornimmt oder ihre Site neu strukturiert. Arbeiten Sie mit Entwicklern in Ihrem Unternehmen zusammen, um den Code auf Ihrer Site neu zu implementieren.
 * **Problem mit der Analytics-Oberfläche/dem Caching**: In seltenen Fällen enthält der Cache eines Browsers ungültige Daten, die dazu führen, dass alle Berichte Nullen zurückgeben. Löschen Sie die Cookies und den Cache des Browsers, um das Problem zu beheben. Wenn das Löschen Ihrer Cookies/des Cache nicht funktioniert, wenden Sie sich mit dem fehlenden Bericht und dem Datumsbereich an die Kundenunterstützung. Diese kann das Problem duplizieren und zusätzliche Informationen bereitstellen.
-* **Verfügbarkeit von Analytics**: Überprüfen Sie [status.adobe.com](https://status.adobe.com/de/products/1173/de) auf Probleme bei der Datenerfassung oder -verarbeitung.
+* **Verfügbarkeit von Analytics**: Überprüfen Sie [status.adobe.com](https://status.adobe.com/products/1173/de) auf Probleme bei der Datenerfassung oder -verarbeitung.
 
 ### Mögliche Ursachen für teilweise fehlende Daten oder verringerten Traffic
 
-* **Änderungen bei der Implementierung**: Überprüfen Sie mit dem [Debugger](/help/implement/validate/debugger.md), ob die gewünschten Dimensionen funktionieren.
+* **Implementierungsänderungen**: Verwenden Sie ein [Debugging-Tool](/help/implement/validate/debugging-tools.md) um zu überprüfen, ob die gewünschten Dimensionen funktionieren.
 * **Verringerter verweisender Traffic**: Wenn eine beliebte Banneranzeige oder ein Hyperlink auf einer anderen Site entfernt wird, kann dies zu einer dramatischen Verringerung des Traffics führen. Zeigen Sie die Dimension [Referrer-Domänen](/help/components/dimensions/referring-domain.md) von bevor bis nach dem Rückgang in der Trend-Ansicht an, um weiter zu recherchieren.
 * **Probleme mit der Site-Performance**: Eine fehlerhafte Verteilung des Traffics durch den Lastenausgleich oder Server-Probleme beim Hosten Ihrer Site können zu einem Rückgang in der Analytics-Berichterstellung beitragen. Arbeiten Sie mit dem Team in Ihrem Unternehmen zusammen, das die Integrität und Gesundheit Ihrer Site verwaltet, um mögliche Leistungsprobleme zu untersuchen.
 * **Änderungen in der Rangfolge der kostenlosen Suche**: Der Traffic kann potenziell abnehmen, wenn Sie durch eine andere Site bei einigen Keywords in der Rangliste der kostenlosen Suche verdrängt werden. Dieser Rückgang kann besonders deutlich werden, wenn sich Ihre Site nicht mehr auf der ersten Seite der Suchergebnisse befindet. Zeigen Sie die Dimension [Suchmaschinen](/help/components/dimensions/search-engine.md) in der Trend-Ansicht an, um weiter zu recherchieren.

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '318'
+ht-degree: 96%
 ---
 # „AppMeasurement“ mit iFrames verwenden
 
@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Wie bei anderen JavaScript-Codes können iFrames nur dann kommunizieren, wenn Domains und Protokolle übereinstimmen. Diese Beispiele funktionieren nicht, wenn sich der IFrame-Inhalt in einer anderen Domain als die übergeordnete Domain befindet.
 * Wenn sich „AppMeasurement“ in einem IFrame befindet, wird die [`referrer`](../vars/page-vars/referrer.md)-Variable auf die übergeordnete URL festgelegt und nicht auf die tatsächlich verweisende URL. Sie können zur Lösung dieses Problems die `referrer`-Variable manuell festlegen.
-* Der [Adobe CX Enterprise-Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) erkennt keine Bildanforderungen, die innerhalb von iFrames ausgelöst werden.
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home) erkennt keine Bildanforderungen, die innerhalb von iFrames ausgelöst werden.
 * Activity Map zeigt die Heatmap nicht über Links an, auf die innerhalb von iFrames geklickt wurde. Stattdessen wird der gesamte IFrame hervorgehoben.

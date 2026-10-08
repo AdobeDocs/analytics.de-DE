@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 89%
+source-wordcount: '267'
+ht-degree: 90%
 ---
 # s.dynamicAccountList
 
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * Wenn keine der Regeln zutrifft, wird die standardmäßige Report Suite in `s_account` verwendet.
 * Bei Seiten, die auf einer lokalen Festplatte gespeichert oder über ein Web-basiertes Übersetzungsmodul übersetzt werden (wie z. B. die übersetzten Seiten in Google), funktioniert die dynamische Kontoauswahl wahrscheinlich nicht mehr.
 * Die `dynamicAccountSelection`-Regeln gelten nur für den in `dynamicAccountMatch` festgelegten Abschnitt der URL.
-* Verwenden Sie den Adobe CX Enterprise-Debugger, um die Ziel-Report-Suite zu testen.
+* Verwenden Sie Adobe Experience Platform Debugger, um die Ziel-Report-Suite zu testen.

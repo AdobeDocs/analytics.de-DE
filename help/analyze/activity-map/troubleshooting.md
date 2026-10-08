@@ -7,27 +7,36 @@ exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 18%
-
+source-wordcount: '426'
+ht-degree: 16%
 ---
-
 # Fehlerbehebung bei der Activity Map-Datenerfassung
 
 Wenn keine Daten für Activity Map-Dimensionen angezeigt werden, ermitteln Sie auf dieser Seite die Gründe dafür.
@@ -36,7 +45,7 @@ Wenn keine Daten für Activity Map-Dimensionen angezeigt werden, ermitteln Sie a
 
 Stellen Sie zunächst sicher, dass AppMeasurement Activity Map-Daten korrekt erfasst.
 
-1. Herunterladen und Installieren der [Adobe CX Enterprise Debugger Chrome-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home).
+1. [Adobe Experience Platform Debugger herunterladen und ](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home).
 2. Navigieren Sie zu Ihrer Web-Seite und klicken Sie auf einen Link.
 3. Öffnen Sie den Debugger, wenn die nachfolgende Seite geladen wird. Überprüfen Sie, ob Activity Map-Kontextdatenvariablen zwischen `activitymap.` und `.activitymap` eingefügt werden:
 
@@ -78,14 +87,14 @@ Führt die Browserparameter auf, die nicht mit der Verwendung von Activity Map k
 
 **Validierung**
 
-Interaktionsaufrufe über die Registerkarte „Netzwerk“ von Developer Console:
+Interaktionsaufrufe mit der Registerkarte „Netzwerk“ der Developer Console:
 
-1. Laden Sie das Skript „Development Launch“ auf der Site.
-1. Suchen Sie für Klicks auf Elemente auf der Registerkarte „Netzwerk“ nach „/ee“.
+1. Laden Sie das Development-Launch-Skript auf der Site.
+1. Klicken Sie auf Elemente und suchen Sie auf der Registerkarte „Netzwerk“ nach „/ee“.
 
 Adobe Experience Platform Debugger:
 
-1. Laden Sie [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) herunter und installieren Sie diese Erweiterung.
+1. Herunterladen und Installieren von [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Navigieren Sie zu [!UICONTROL Protokolle] > [!UICONTROL Edge] > [!UICONTROL Mit Edge verbinden].
 
 * **Der Interaktionsaufruf wird nicht auf der Registerkarte „Netzwerk“ ausgelöst**: Klicken Sie in einem Sammlungsaufruf auf die Datenerfassung und filtern Sie entweder mit `"/ee"` oder `"collect?"`.

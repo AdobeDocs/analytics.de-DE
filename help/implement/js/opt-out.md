@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 64%
+ht-degree: 65%
 ---
 # Implementieren von Ausschluss-Links
 
@@ -71,9 +71,9 @@ Die Opt-out-Seite für Ihr Unternehmen hängt vom Wert der [`trackingServerSecur
   1. Öffnen Sie auf Ihrem Webserver die Datei AppMeasurement.js, die auf Ihrer Site verwendet wird, in einem Code- oder Texteditor.
   1. Notieren Sie den Wert der `trackingServer`-Variablen.
 
-* Verwenden des [Adobe CX Enterprise-Debuggers](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de):
-  1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Website.
-  1. Öffnen Sie den CX Enterprise-Debugger und navigieren Sie zur Registerkarte [!UICONTROL Netzwerk].
+* Verwendet [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/home):
+  1. Navigieren Sie mit dem Chrome-Browser zu Ihrer Site.
+  1. Öffnen Sie Adobe Experience Platform Debugger und wechseln Sie zur Registerkarte [!UICONTROL Netzwerk].
   1. Notieren Sie den Wert [!UICONTROL Anfrage-URL – Hostname].
 
 Wenn Sie die `trackingServer`-Domain Ihrer Implementierung gefunden haben, hängen Sie den Pfad `/optout.html` an das Ende an. Beispiel:

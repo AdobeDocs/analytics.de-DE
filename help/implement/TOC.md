@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 96%
+source-wordcount: '459'
+ht-degree: 92%
 ---
 
 # Implementierungshandbuch zu Adobe Analytics {#implementation}
@@ -143,8 +143,15 @@ ht-degree: 96%
   + [Edge Network-Ereignistypen](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Übersicht über Web SDK](aep-edge/web-sdk/overview.md)
-    + Migrationsplaner {#planner}
-      + [Planer - Übersicht](aep-edge/web-sdk/planner/overview.md)
+    + Upgrade-Assistent {#upgrade-assistant}
+      + [Upgrade-Assistent - Übersicht](aep-edge/web-sdk/upgrade-assistant/overview.md)
+      + [Verwalten von Migrationen](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [Komponentenauswahl](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [Prüfungsergebnisse](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [Report Suite-Überprüfung](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [XDM-Zuordnung](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Web SDK-Implementierung](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Abschließende Überprüfung](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [Migrieren zum Web SDK mithilfe von Tags](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrieren zum Web SDK mithilfe von JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [Neue Implementierung mithilfe von Tags](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -184,8 +191,7 @@ ht-degree: 96%
   + [AppMeasurement mit iFrames verwenden](use-cases/iframe.md)
   + [Kampagnen-Tracking-Workflow](use-cases/campaign-tracking.md)
 + Validieren der Implementierung {#validate}
-  + [Legacy-Debugger](validate/debugger.md)
-  + [Paketmonitore](validate/packet-monitor.md)
+  + [Debugging-Tools](validate/debugging-tools.md)
   + [Hash-Kollisionen](validate/hash-collisions.md)
 + [Häufig gestellte Fragen](faq.md)
 + Überprüfen der Implementierung {#review}
