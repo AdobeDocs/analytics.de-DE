@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -35,7 +37,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 3%
@@ -113,4 +115,4 @@ Wenn eine Seite die Seite verlässt, kann der Browser Anfragen abbrechen, die no
 
 Eine abgebrochene Anfrage bedeutet nicht unbedingt, dass Daten verloren gegangen sind. Der Browser hat möglicherweise die vollständige Anfrage gesendet und nur auf die Antwort gewartet. Browser-Entwickler-Tools können den Unterschied normalerweise nicht anzeigen, ein HTTP-Debugging-Proxy jedoch schon.
 
-Anfragen, die mit `navigator.sendBeacon()` gesendet werden, werden bei der Navigation nicht abgebrochen. AppMeasurement verwendet `sendBeacon` für Exitlinks und immer dann, wenn [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md) aktiviert ist. Web SDK verwendet sie für Ereignisse, die mit [`documentUnloading`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/sendevent/documentunloading) gesendet werden. Wenn Linktracking-Anfragen häufig abgebrochen werden, verwenden Sie diese Optionen.
+Anfragen, die mit `navigator.sendBeacon()` gesendet werden, werden bei der Navigation nicht abgebrochen. AppMeasurement verwendet `sendBeacon` für Exitlinks und immer dann, wenn [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md) aktiviert ist. Web SDK verwendet sie für Ereignisse, die mit [`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading) gesendet werden. Wenn Linktracking-Anfragen häufig abgebrochen werden, verwenden Sie diese Optionen.
