@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b72328485bde3759519f77c1c3e9509ade6ce2d4
+source-git-commit: cf020d4d2b873668a17c978ed69a311db37e7cd0
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 53%
+source-wordcount: '974'
+ht-degree: 52%
 ---
 # Aktuelle Adobe Analytics-Versionshinweise (Oktober 2026)
 
@@ -54,7 +54,7 @@ Diese Versionshinweise beziehen sich auf den Veröffentlichungszeitraum vom Okto
 
 | Funktion und Beschreibung | [Rollout-Beginn](releases.md) | [Allgemeine Verfügbarkeit](releases.md) |
 | ----------- | ---------- | ---- |
-| **Schreibgeschützte Berechtigung für den Adobe Analytics MCP-Server**<br/> Administratoren können Benutzenden jetzt schreibgeschützten Zugriff auf den Adobe Analytics MCP-Server gewähren. Das neue [!UICONTROL MCP Read Only]-Berechtigungselement bietet Benutzern Zugriff auf alle schreibgeschützten Tools, ohne dass sie Projekte, Segmente oder berechnete Metriken erstellen können.<p>Das vorhandene [!UICONTROL MCP-]-Berechtigungselement wird in &quot;[!UICONTROL -Vollzugriff“ &#x200B;]. Benutzende mit dieser Berechtigung behalten Zugriff auf alle Tools, einschließlich Tools zum Erstellen, Ändern oder Löschen von Komponenten.</p><p>Weitere Informationen finden Sie unter [Adobe Analytics MCP-Server](https://developer.adobe.com/analytics-mcp/docs/aa/).</p> | | &#x200B;6. Oktober 2026 |
+| **Schreibgeschützte Berechtigung für den Adobe Analytics MCP-Server**<br/> Administratoren können Benutzenden jetzt schreibgeschützten Zugriff auf den Adobe Analytics MCP-Server gewähren. Das neue [!UICONTROL MCP-]-Berechtigungselement „Nur-Lese-Zugriff“ bietet Benutzern Zugriff auf alle schreibgeschützten Tools, ohne dass sie Projekte, Segmente oder berechnete Metriken erstellen können.<p>Das vorhandene [!UICONTROL MCP-]-Berechtigungselement wird in &quot;[!UICONTROL -Vollzugriff“ &#x200B;]. Benutzende mit dieser Berechtigung behalten Zugriff auf alle Tools, einschließlich Tools zum Erstellen, Ändern oder Löschen von Komponenten.</p><p>Weitere Informationen finden Sie unter [Einrichten von Berechtigungen](https://developer.adobe.com/analytics-mcp/docs/guides/permissions) in der Dokumentation zum Adobe Analytics MCP-Server.</p> | | &#x200B;6. Oktober 2026 |
 | **Komponentenbeschreibungen automatisch generieren** <br/>Sie können jetzt automatisch Beschreibungen für Dimensionen, Metriken, berechnete Metriken, Segmente und Datumsbereiche generieren. Dies hilft Benutzenden von Workspace zu verstehen, welche Komponenten verwendet werden sollen, insbesondere in Organisationen mit großen Komponentenbibliotheken. <p>Sie können für eine einzelne Komponente eine Beschreibung oder für viele Komponenten gleichzeitig Beschreibungen erstellen.</p> <p>(Link zur Dokumentation folgt.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | &#x200B;28. Oktober 2026 |
 | **Adobe Brand Visibility-Integration**<br/> Verbinden Sie Adobe Brand Visibility mit den Adobe Analytics-Daten Ihres Unternehmens, damit Sie messen können, wie sich die KI-gesteuerte Erkennung in echte Website-Interaktion und Geschäftsergebnisse niederschlägt.<p>(Link zur Dokumentation folgt.)</p> | | Oktober 2026 |
 | **CX Enterprise Coworker: Analysieren von Adobe Analytics-Daten im**-Chat: Der <br/>Adobe CX Enterprise Coworker-Chat kann jetzt erweiterte Datenanalysen durchführen, die zuvor nur in Analysis Workspace möglich waren. Coworker Chat greift auf Daten aus Ihren Adobe Analytics-Report Suites zu, sodass Sie diese Daten untersuchen und Antworten auf Anfragen in natürlicher Sprache erhalten können.<p>(Link zur Dokumentation folgt.)</p> | &#x200B;2. Oktober 2026 | TBD<p>(Ursprünglich für den 25. September 2026 geplant)</p> |
