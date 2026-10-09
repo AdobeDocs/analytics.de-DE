@@ -80,7 +80,7 @@ Zielgruppen können außerdem für [Fallout-Visualisierungen](/help/analyze/anal
 
 1. Wechseln Sie zu **[!UICONTROL Arbeitsbereich]** und wählen Sie in der linken Schiene die Visualisierung **[!UICONTROL Venn]** aus.
 
-1. Suchen Sie [!UICONTROL  Komponentenmenü nach ]Zielgruppenname“.
+1. Suchen Sie [!UICONTROL &#x200B; Komponentenmenü nach &#x200B;]Zielgruppenname“.
 1. Öffnen Sie [!UICONTROL Zielgruppenname], damit die zugehörigen Dimensionselemente angezeigt werden.
 1. Ziehen Sie die Zielgruppen, die Sie vergleichen möchten, in den Venn Builder.
 1. (Optional): Sie können auch andere Dimensionselemente oder Segmente einbringen; bis zu 3 können verglichen werden.

@@ -34,7 +34,7 @@ ht-degree: 25%
 ---
 # Besucher mit Experience Cloud ID
 
-Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt ](overview.md) Anzahl der Unique Visitors an, die von Adobe mit einer ECID identifiziert wurden (mithilfe des [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site eine ECID verwendet. Wenn ein großer Teil der Besucher diese Kennung nicht verwendet, kann dies auf ein Problem innerhalb Ihrer Implementierung hinweisen.
+Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview.md) Anzahl der Unique Visitors an, die von Adobe mit einer ECID identifiziert wurden (mithilfe des [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site eine ECID verwendet. Wenn ein großer Teil der Besucher diese Kennung nicht verwendet, kann dies auf ein Problem innerhalb Ihrer Implementierung hinweisen.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Ziehen Sie &quot;[!UICONTROL Besucher mit Experience Cloud ID]&quot; nebeneinand
 
 ![Vergleich der Unique Visitors](assets/metric-mcvid1.png)
 
-Beachten Sie in diesem Beispiel, dass jede Seite dieselbe Anzahl von &quot;[!UICONTROL Unique Visitors“ ] &quot;[!UICONTROL Visitors with Experience Cloud ID]&quot; aufweist. Die Gesamtzahl der &quot;[!UICONTROL Unique Visitors]&quot; ist jedoch größer als die Gesamtzahl der &quot;[!UICONTROL Visitors mit Experience Cloud ID]&quot;. Sie können eine [berechnete Metrik](../calculated-metrics/cm-overview.md) erstellen, um mithilfe der folgenden Definition herauszufinden, welche Seiten keine ECID verwenden:
+Beachten Sie in diesem Beispiel, dass jede Seite dieselbe Anzahl von &quot;[!UICONTROL Unique Visitors“ &#x200B;] &quot;[!UICONTROL Visitors with Experience Cloud ID]&quot; aufweist. Die Gesamtzahl der &quot;[!UICONTROL Unique Visitors]&quot; ist jedoch größer als die Gesamtzahl der &quot;[!UICONTROL Visitors mit Experience Cloud ID]&quot;. Sie können eine [berechnete Metrik](../calculated-metrics/cm-overview.md) erstellen, um mithilfe der folgenden Definition herauszufinden, welche Seiten keine ECID verwenden:
 
 ![Definition berechneter Metriken](assets/metric-mcvid2.png)
 
