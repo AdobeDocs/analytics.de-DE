@@ -1,5 +1,5 @@
 ---
-title: Report Suite-Überprüfung im Web SDK Upgrade-Assistenten
+title: Mapper-Vorbereitung im Web SDK Upgrade-Assistenten
 description: Überprüfen Sie die Analytics-Variablen in Ihren Report Suites und wählen Sie aus, welche in die XDM-Zuordnung übernommen werden sollen.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# Report Suite-Überprüfung
+# Mapper-Vorbereitung
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="Report Suite-Überprüfung"
+>id="aa_upgradeassistant_mapperprep"
+>title="Mapper-Vorbereitung"
 >abstract="Überprüfen Sie die Analytics-Variablen, die Ihre Tags-Eigenschaft an jede Report Suite sendet. Variablen, die Sie hier auswählen, werden in die XDM-Zuordnung übertragen. Verwenden Sie die Registerkarten, um nach aktuellen Daten zu suchen, doppelte Variablen zu finden und Einstellungen in allen Report Suites zu vergleichen."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Wenn Ihre Tags-Eigenschaft Daten an mehr als eine Report Suite sendet, werden au
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="Report Suite-Daten aktualisieren"
 >abstract="Überprüft die mit dieser Tags-Eigenschaft verknüpften Report Suites erneut, einschließlich ihrer Variableneinstellungen und der letzten Daten, und führt dann die Variablenanalyse erneut aus. Wenn der Upgrade-Assistent noch keine Report Suites gefunden hat, sucht er zuerst in der Tag-Eigenschaft nach ihnen. Ihre Auswahl und Entscheidungen werden beibehalten."
 

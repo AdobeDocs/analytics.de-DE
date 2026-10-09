@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 ---
 # Bot-Produktvorfälle
@@ -33,7 +33,6 @@ Die Metrik „Bot-[&quot; &#x200B;](overview.md) die Anzahl der Untertreffer an,
 Da beide Berichte vom Rest der Report Suite-Daten getrennt sind, funktioniert diese Metrik nur mit den folgenden Dimensionen:
 
 * [Bot-Name](../dimensions/bot-name.md)
-* [Produkt](../dimensions/product.md)
 * Zeitbasierte Dimensionen (z. B. [Tag](../dimensions/day.md), [Woche](../dimensions/week.md) oder [Monat](../dimensions/month.md))
 
 Die Verwendung einer anderen Dimension mit dieser Metrik gibt keine Daten zurück.

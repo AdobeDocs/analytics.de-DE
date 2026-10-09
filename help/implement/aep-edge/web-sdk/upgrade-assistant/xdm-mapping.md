@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM-Zuordnung
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDK sendet Daten mithilfe von [Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home). Daher benötigt jede Analytics-Variable, die Sie von der [Report Suite-Überprüfung](rs-verification.md) übertragen, ein übereinstimmendes Feld in einem XDM-Schema. In diesem Schritt wählen Sie ein Schema aus und ordnen Ihre Variablen seinen Feldern zu.
+Web SDK sendet Daten mithilfe von [Experience-Datenmodell (XDM)-](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home). Daher benötigt jede Analytics-Variable, die Sie von [Mapper-Vorbereitung](mapper-prep.md) übertragen, ein übereinstimmendes Feld in einem XDM-Schema. In diesem Schritt wählen Sie ein Schema aus und ordnen Ihre Variablen seinen Feldern zu.
 
 ## Auswählen eines Schemas {#schema}
 

@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 10%
 ---
 # Bot-Name
@@ -45,7 +45,6 @@ Treffer, die mit [!UICONTROL Bot]Regeln) übereinstimmen, werden automatisch aus
 Da beide Berichte vom Rest Ihrer Report Suite-Daten getrennt sind, werden mit dieser Dimension nur die folgenden Dimensionen und Metriken unterstützt:
 
 * [Seite](page.md)
-* [Produkt](product.md) (nur bei [Bot-Produktvorkommen](../metrics/bot-product-occurrences.md))
 * Zeitbasierte Dimensionen (z. B. [Tag](day.md), [Woche](week.md) oder [Monat](month.md))
 * [Bot-Vorfälle](../metrics/bot-occurrences.md)
 * [Bot-Seitenansichten](../metrics/bot-page-views.md)
