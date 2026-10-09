@@ -51,7 +51,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-Der Upgrade-Assistent identifiziert die Report Suites, an die Ihre Tags-Eigenschaft Daten sendet, und vergleicht dann die Analytics-Variablen in Ihrer Implementierung mit der Konfiguration jeder Report Suite und den jüngsten Daten. Verwenden Sie diesen Schritt, um zu entscheiden, welche Variablen in die XDM[Zuordnung &#x200B;](xdm-mapping.md) werden.
+Der Upgrade-Assistent identifiziert die Report Suites, an die Ihre Tags-Eigenschaft Daten sendet, und vergleicht dann die Analytics-Variablen in Ihrer Implementierung mit der Konfiguration jeder Report Suite und den jüngsten Daten. Verwenden Sie diesen Schritt, um zu entscheiden, welche Variablen in die XDM[Zuordnung ](xdm-mapping.md) werden.
 
 Der Upgrade-Assistent verwendet Ihre Report Suites, um zu verstehen, welche Variablen Ihre Implementierung setzt und wie sie konfiguriert sind. Aktivitätsdaten beziehen sich auf die letzten 90 Tage.
 
@@ -88,4 +88,4 @@ Wenn Ihre Tags-Eigenschaft Daten an mehr als eine Report Suite sendet, werden au
 
 Sie können in diesem Schritt ändern, welche Report Suites der Upgrade-Assistent analysiert. Wenn sich Ihre Report Suite-Konfiguration während einer Migration ändert, wählen Sie **[!UICONTROL Report Suite-Daten aktualisieren]** aus, um die Analyse erneut auszuführen. Der Upgrade-Assistent behält Ihre vorhandenen Auswahlen und Entscheidungen bei.
 
-Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern und fortfahren]** aus, um zur [XDM-Zuordnung“ &#x200B;](xdm-mapping.md).
+Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern und fortfahren]** aus, um zur [XDM-Zuordnung“ ](xdm-mapping.md).
