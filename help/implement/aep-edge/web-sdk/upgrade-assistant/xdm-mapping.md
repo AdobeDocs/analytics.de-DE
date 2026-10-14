@@ -75,6 +75,6 @@ Beim Erstellen eines neuen Schemas können Sie auch auswählen, ob der Upgrade-A
 
 Die Zuordnung listet jede Analytics-Variable zusammen mit dem XDM-Feld auf, dem sie zugeordnet ist, mit einer Vorschau des vollständigen Schemas daneben. Wählen Sie einen Teil des Schemas aus, um die Liste nach den Variablen zu filtern, die ihr zugeordnet sind. Sie können sowohl einzelne Zuordnungen als auch das Schema selbst anpassen.
 
-Der Upgrade-Assistent verwendet KI, um Zuordnungen vorzuschlagen, und die Ergebnisse sind möglicherweise nicht genau oder vollständig. Überprüfen Sie jede Zuordnung, bevor Sie fortfahren. Der Upgrade-Assistent erstellt das Schema erst dann in Experience Platform, wenn Sie die [ abgeschlossen ](final-review.md#finalize).
+Der Upgrade-Assistent verwendet KI, um Zuordnungen vorzuschlagen, und die Ergebnisse sind möglicherweise nicht genau oder vollständig. Überprüfen Sie jede Zuordnung, bevor Sie fortfahren. Der Upgrade-Assistent erstellt das Schema erst dann in Experience Platform, wenn Sie die [&#x200B; abgeschlossen &#x200B;](final-review.md#finalize).
 
 Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern und fortfahren]** um Ihre Zuordnung zu speichern und zur [Web SDK-Implementierung](web-sdk-implementation.md) zu wechseln. Um die Zuordnung nach dem Speichern zu ändern, wählen Sie **[!UICONTROL Bearbeiten]**, nehmen Sie Ihre Änderungen vor und klicken Sie dann erneut auf **[!UICONTROL Speichern und]** Weiter“. Änderungen, die auf diese Weise nicht gespeichert werden, werden beim Abschluss der Migration nicht einbezogen.

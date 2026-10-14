@@ -59,7 +59,7 @@ Wählen Sie zunächst die Experience Platform-Sandbox aus, in der die Migration 
 
 Der Upgrade-Assistent listet dann alles auf, was durch den Abschluss der Migration erstellt oder geändert wird:
 
-* **[!UICONTROL XDM]**: Ein neues Schema, das nach Ihrer XDM-Zuordnung benannt ist, zusammen mit den benutzerdefinierten Feldergruppen, die es benötigt. Standardfeldgruppen sind bereits vorhanden, sodass das Schema sie so verwendet, wie sie sind. Dieser Abschnitt wird nur angezeigt, wenn Sie in der XDM-[ ein neues Schema erstellen ](xdm-mapping.md#schema).
+* **[!UICONTROL XDM]**: Ein neues Schema, das nach Ihrer XDM-Zuordnung benannt ist, zusammen mit den benutzerdefinierten Feldergruppen, die es benötigt. Standardfeldgruppen sind bereits vorhanden, sodass das Schema sie so verwendet, wie sie sind. Dieser Abschnitt wird nur angezeigt, wenn Sie in der XDM-[&#x200B; ein neues Schema erstellen &#x200B;](xdm-mapping.md#schema).
 * **[!UICONTROL Datensätze]**: Zwei Datensätze, einer für Entwicklung und einer für Produktion. Jeder wird nach der Migration benannt, z. B. `My migration - Development`.
 * **[!UICONTROL Datenströme]**: Zwei Datenströme, einer für die Entwicklung und einer für die Produktion, werden auf die gleiche Weise wie die Datensätze benannt.
 * **[!UICONTROL Adobe Tags]**: Eine neue Bibliothek, die nach der Migration benannt wurde, z. B. `Library - "My migration"`. Die -Bibliothek enthält die Regeln und Datenelemente, die durch die Migration geändert werden, sowie die Erweiterungskonfiguration, die für die Web SDK-Aktionen erforderlich ist.
