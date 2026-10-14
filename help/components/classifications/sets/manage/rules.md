@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 13%
@@ -336,10 +336,10 @@ Wenn Sie mehrere Regeln erstellen, die nicht denselben Vorgang **[!UICONTROL Kla
 
 ### Beispiel
 
-Sie möchten mit der Klassifizierung (**[!UICONTROL ) klassifizieren]** wie Benutzer mithilfe der Suchzeichenfolge als Schlüsseldimension nach einem Sportler suchen. Verwenden Sie beispielsweise diesen Regelsatz:
+Sie möchten mithilfe der Suchzeichenfolge als Schlüsseldimension mit der Klassifizierung **[!UICONTROL Typ]** klassifizieren, welche Art von Suche Benutzerinnen und Benutzer durchführen. Verwenden Sie beispielsweise diesen Regelsatz:
 
 ![Regelpriorität](assets/rule-priority.png)
 
-* Wenn ein(e) Benutzende(r) nach `Cowboys Fantasy Tony Romo` sucht, wird `Romo` als &quot;**[!UICONTROL &quot;]**.
-* Wenn ein(e) Benutzende(r) nach `Cowboys Fantasy Tony Romeo` sucht, wird `Fantasy` als &quot;**[!UICONTROL &quot;]**.
+* Wenn ein(e) Benutzende(r) nach `Cowboys with Tony Romo` sucht, wird `Team` als &quot;**[!UICONTROL &quot;]**.
+* Wenn ein(e) Benutzende(r) nach `Cowboys vs. Broncos with Tony Romeo` sucht, wird `Player` als &quot;**[!UICONTROL &quot;]**.
 * Wenn ein(e) Benutzende(r) nach `Cowboys vs. Broncos` sucht, wird `Team` als &quot;**[!UICONTROL &quot;]**.
