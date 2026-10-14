@@ -69,7 +69,7 @@ Sie können die Zuordnung auf zwei Arten erstellen:
 
 <!-- markdownlint-enable MD034 -->
 
-Beim Erstellen eines neuen Schemas können Sie auch auswählen, ob der Upgrade-Assistent standardmäßige oder benutzerdefinierte Feldergruppen bevorzugt. Standardfeldgruppen werden von Adobe definiert, benutzerdefinierte Feldgruppen dagegen von Ihrem Unternehmen. Siehe [Feldergruppe](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) in der XDM-Dokumentation.
+Beim Erstellen eines neuen Schemas können Sie auch auswählen, ob der Upgrade-Assistent standardmäßige oder benutzerdefinierte Feldergruppen bevorzugt. Standardfeldgruppen werden von Adobe definiert, benutzerdefinierte Feldgruppen dagegen von Ihrem Unternehmen. Siehe [Feldergruppe](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition#field-group) in der XDM-Dokumentation.
 
 ## Überprüfen der Zuordnung {#review}
 
