@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 0%
+ht-degree: 23%
 ---
 # Verwalten von Migrationen
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="Migrationen"
->abstract="Bei jeder Migration wird die Adobe Analytics-Implementierung in einer Tags-Eigenschaft auf die Web-SDK aktualisiert. Öffnen Sie eine Migration, um dort fortzufahren, wo Sie aufgehört haben, oder wählen Sie „Neu“, um eine Migration zu starten."
+>abstract="Bei jeder Migration wird die Adobe Analytics-Implementierung in einer Tags-Eigenschaft auf das Web SDK aktualisiert. Öffnen Sie eine Migration, um dort fortzufahren, wo Sie aufgehört haben, oder wählen Sie „Neu“, um eine Migration zu starten."
 
 Die **[!UICONTROL Migrationen]** ist der Ausgangspunkt für den Web SDK Upgrade-Assistenten. Es werden die Migrationen in Ihrer Organisation aufgelistet, einschließlich des Fortschritts, des Status und der Erstellerin bzw. des Erstellers jeder Migration. Verwenden Sie diese Seite, um eine Migration zu erstellen oder eine vorhandene zu öffnen.
 
@@ -56,7 +56,7 @@ Die **[!UICONTROL Migrationen]** ist der Ausgangspunkt für den Web SDK Upgrade-
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"
 >title="Neue Migration"
->abstract="Wählen Sie die Tags-Eigenschaft aus, die Sie migrieren möchten, und eine Bibliothek in dieser Eigenschaft. Der Upgrade-Assistent erstellt bei der Erstellung der Migration einen Schnappschuss der Bibliothek. Änderungen, die nach einem Migrationsschnappschuss an der Bibliothek vorgenommen wurden, sind nicht enthalten. Ihre Tags-Eigenschaft ändert sich erst, wenn Sie die Migration abgeschlossen haben."
+>abstract="Wählen Sie die Tags-Eigenschaft aus, die Sie migrieren möchten, und eine Bibliothek in dieser Eigenschaft. Der Upgrade-Assistent erstellt einen Snapshot der Bibliothek, wenn Sie die Migration erstellen. Änderungen, die nach einem Snapshot der Migration an der Bibliothek vorgenommen wurden, sind nicht enthalten. Ihre Tags-Eigenschaft ändert sich erst, wenn Sie die Migration abgeschlossen haben."
 
 <!-- markdownlint-enable MD034 -->
 

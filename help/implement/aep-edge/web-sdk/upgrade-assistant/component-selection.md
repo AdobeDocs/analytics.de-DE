@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # Komponentenauswahl
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 Die Komponentenauswahl ist der erste Schritt einer Migration. Verwenden Sie diese Option, um festzulegen, welche Regeln, Datenelemente und Erweiterungen aus Ihrer Tag-Eigenschaft in die Migration einbezogen werden sollen.
 
-Der Upgrade-Assistent organisiert die Komponenten in Ihrer Tags-Eigenschaft in **[!UICONTROL Regeln]**, **[!UICONTROL Datenelemente]** und **[!UICONTROL Erweiterungen]**. Jede Registerkarte listet alle Komponenten der Eigenschaft dieses Typs auf, basierend auf dem Schnappschuss der Bibliothek, den der Upgrade-Assistent bei der Erstellung [&#x200B; Migration erstellt &#x200B;](manager.md#create). Standardmäßig werden nur die Komponenten ausgewählt, die aktiv zu Ihrer Adobe Analytics-Implementierung beitragen. Sie können eine beliebige Komponente auswählen oder löschen.
+Der Upgrade-Assistent organisiert die Komponenten in Ihrer Tags-Eigenschaft in **[!UICONTROL Regeln]**, **[!UICONTROL Datenelemente]** und **[!UICONTROL Erweiterungen]**. Jede Registerkarte listet alle Komponenten der Eigenschaft dieses Typs auf, basierend auf dem Schnappschuss der Bibliothek, den der Upgrade-Assistent bei der Erstellung [ Migration erstellt ](manager.md#create). Standardmäßig werden nur die Komponenten ausgewählt, die aktiv zu Ihrer Adobe Analytics-Implementierung beitragen. Sie können eine beliebige Komponente auswählen oder löschen.
 
 Die Spalte **[!UICONTROL Veröffentlicht]** zeigt an, ob jede Komponente Teil der von Ihnen ausgewählten Bibliothek ist. Komponenten, die nicht Teil der Bibliothek sind, sind in Ihrer Tags-Eigenschaft vorhanden, jedoch nicht in dieser Bibliothek. Um die Liste hiernach zu filtern, verwenden Sie den **[!UICONTROL Source]** Filter.
 
@@ -59,12 +59,12 @@ Sie können Komponenten einbeziehen, die nicht mit Adobe Analytics zusammenhäng
 
 Die von Ihnen ausgewählten Komponenten bestimmen, mit welchen späteren Schritten Sie arbeiten. Sie können beispielsweise Datenelemente einbeziehen, die durch nichts referenziert werden, sodass [Auditergebnisse](audit-findings.md) diese zur Bereinigung kennzeichnen können.
 
-## Komponentendetails anzeigen {#details}
+## Anzeigen von Komponentendetails {#details}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
 >title="Verwendung von Tags"
->abstract="Die Regeln, Datenelemente und Erweiterungen, die diese Komponente verwenden. Die Verwendung der Erweiterung deckt nur die Konfigurationseinstellungen von Erweiterungen ab. Die Verwendung innerhalb einer Regel wird unter „Regelverwendung“ angezeigt."
+>abstract="Die Regeln, Datenelemente und Erweiterungen, die diese Komponente verwenden. Die Verwendung der Erweiterung deckt nur die Konfigurationseinstellungen für Erweiterungen ab. Die Verwendung innerhalb einer Regel wird unter „Regelverwendung“ angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"

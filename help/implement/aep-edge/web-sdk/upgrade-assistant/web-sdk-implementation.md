@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
 # Web SDK-Implementierung
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
 >title="Web SDK-Implementierung"
->abstract="Überprüfen Sie die Web SDK-Aktionen, die der Upgrade-Assistent zu Ihren Regeln hinzufügt. Ihre Adobe Analytics-Aktionen bleiben erhalten. Wählen Sie eine Komponente aus, um ihre aktuellen Konfigurationen und die von Web SDK nebeneinander zu vergleichen. Nur die Komponenten, die Sie in die Warteschlange stellen, werden der Migration hinzugefügt."
+>abstract="Überprüfen Sie die Web SDK-Aktionen, die der Upgrade-Assistent zu Ihren Regeln hinzufügt. Ihre Adobe Analytics-Aktionen bleiben erhalten. Wählen Sie eine Komponente aus, um ihre aktuellen und die Web SDK-Konfigurationen nebeneinander zu vergleichen. Nur die Komponenten, die Sie in die Warteschlange stellen, werden der Migration hinzugefügt."
 
 <!-- markdownlint-enable MD034 -->
 

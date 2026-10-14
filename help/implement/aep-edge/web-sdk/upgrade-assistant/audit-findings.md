@@ -38,20 +38,20 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
-# Prüfungsergebnisse
+# Audit-Ergebnisse
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
->title="Prüfungsergebnisse"
+>title="Audit-Ergebnisse"
 >abstract="Die Ergebnisse zeigen Regeln und Datenelemente, die Sie vor der Migration bereinigen sollten, z. B. Datenelemente, die durch nichts referenziert werden. Akzeptieren Sie ein Ergebnis, um seine empfohlene Änderung in die Migration aufzunehmen, oder lehnen Sie es ab, um die Komponente so zu lassen, wie sie ist. Dieser Schritt ist optional."
 
 <!-- markdownlint-enable MD034 -->
 
-Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [&#x200B; Datenelemente &#x200B;](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
+Der Upgrade-Assistent überprüft die unter „Komponentenauswahl“ ausgewählten Regeln [ Datenelemente ](component-selection.md) kennzeichnet diejenigen, die Sie vor der Migration bereinigen möchten:
 
 * Duplizieren Sie Regeln oder Regeln, die Ereignisse und Bedingungen gemeinsam nutzen, die Sie konsolidieren könnten
 * Regelaktionssequenzen, die sich auf die Datengenauigkeit auswirken können
