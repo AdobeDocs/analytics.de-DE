@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 8%
 ---
 # Unterstützung von Komponenten in Data Warehouse
 
@@ -68,7 +68,7 @@ Die folgenden Dimensionen sind in Data Warehouse-Berichten oder -Segmenten nicht
 * [[!UICONTROL Tracking des Abmeldegrundes]](/help/components/dimensions/tracking-opt-out-reason.md)
 * [[!UICONTROL US-Bundesstaaten]](/help/components/dimensions/us-states.md)
 
-Einige Dimensionen sind in einer Data Warehouse-Anfrage verfügbar, können jedoch nicht innerhalb eines Segments verwendet werden. Weitere Informationen finden Sie unter {[&#128279;](segment-compatibility.md)}Segmentkompatibilität mit Data Warehouse .
+Einige Dimensionen sind in einer Data Warehouse-Anfrage verfügbar, können jedoch nicht innerhalb eines Segments verwendet werden. Weitere Informationen finden Sie unter {](segment-compatibility.md)}Segmentkompatibilität mit Data Warehouse .[
 
 ## Dimensionen mit nicht standardmäßiger Datumsformatierung
 
@@ -88,6 +88,15 @@ Datumswerte werden im `1YYMMDDHHMM` Format ausgegeben:
 * **Monat**: Null-basiert. Januar = `00`, Februar = `01`, …, Dezember = `11`.
 
 Wenn beispielsweise im Feld Datumsbereich Woche der Wert `1260901` angezeigt wird, lautet das Jahr 1900 + 126 = **2026** und der Monat ist 09 = **Oktober**.
+
+## Klassifizierungsdimensionen in Data Warehouse {#classifications}
+
+{{release-limited-testing-section}}
+
+Data Warehouse-Berichte erhalten Klassifizierungsdaten direkt aus [Klassifizierungssätzen](/help/components/classifications/sets/overview.md). Daher können sich Klassifizierungsdimensionen in Data Warehouse-Berichten von denselben Dimensionen in Analysis Workspace unterscheiden:
+
+* **Gelöschte Klassifizierungswerte erscheinen leer**: Wenn Sie Klassifizierungsdaten aus einem Klassifizierungssatz löschen, zeigen Data Warehouse-Berichte einen leeren Wert für diese Klassifizierung an. Informationen zum Löschen von Klassifizierungsdaten finden Sie unter [Dateiformate für Klassifizierungssätze](/help/components/classifications/sets/data-files.md).
+* **Es können mehrere Classification-Werte angezeigt werden, wobei Analysis Workspace einen (ungewöhnlichen)** anzeigt: In ungewöhnlichen Fällen präsentiert Analysis Workspace mehrere verschiedene Classification-Werte als einen einzigen Wert. Data Warehouse zeigt jeden dieser Werte an. Daher können die Classification-Werte gelegentlich zwischen Data Warehouse und Analysis Workspace abweichen.
 
 ## In Data Warehouse anders definierte Metriken
 
