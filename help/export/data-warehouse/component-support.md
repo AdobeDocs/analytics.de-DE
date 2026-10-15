@@ -68,7 +68,7 @@ Die folgenden Dimensionen sind in Data Warehouse-Berichten oder -Segmenten nicht
 * [[!UICONTROL Tracking des Abmeldegrundes]](/help/components/dimensions/tracking-opt-out-reason.md)
 * [[!UICONTROL US-Bundesstaaten]](/help/components/dimensions/us-states.md)
 
-Einige Dimensionen sind in einer Data Warehouse-Anfrage verfügbar, können jedoch nicht innerhalb eines Segments verwendet werden. Weitere Informationen finden Sie unter {](segment-compatibility.md)}Segmentkompatibilität mit Data Warehouse .[
+Einige Dimensionen sind in einer Data Warehouse-Anfrage verfügbar, können jedoch nicht innerhalb eines Segments verwendet werden. Weitere Informationen finden Sie unter {[&#128279;](segment-compatibility.md)}Segmentkompatibilität mit Data Warehouse .
 
 ## Dimensionen mit nicht standardmäßiger Datumsformatierung
 
