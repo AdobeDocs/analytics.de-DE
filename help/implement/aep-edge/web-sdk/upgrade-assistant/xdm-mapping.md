@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
 # XDM-Zuordnung
 
@@ -65,7 +65,7 @@ Sie können die Zuordnung auf zwei Arten erstellen:
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping_fieldgroups"
 >title="Voreinstellung für Feldergruppen"
->abstract="Wählen Sie aus, welchen Typ von Feldergruppe der Upgrade-Assistent beim Erstellen Ihres Schemas bevorzugen soll. Standardfeldgruppen werden von Adobe definiert. Benutzerdefinierte Feldergruppen werden von Ihrer Organisation definiert."
+>abstract="Wählen Sie aus, welche Art von Feldergruppe der Upgrade-Assistent beim Erstellen Ihres Schemas bevorzugen soll. Standardfeldergruppen werden von Adobe definiert. Benutzerdefinierte Feldergruppen werden von Ihrer Organisation definiert."
 
 <!-- markdownlint-enable MD034 -->
 

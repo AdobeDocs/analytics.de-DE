@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # Komponentenauswahl
 
@@ -59,12 +59,12 @@ Sie können Komponenten einbeziehen, die nicht mit Adobe Analytics zusammenhäng
 
 Die von Ihnen ausgewählten Komponenten bestimmen, mit welchen späteren Schritten Sie arbeiten. Sie können beispielsweise Datenelemente einbeziehen, die durch nichts referenziert werden, sodass [Auditergebnisse](audit-findings.md) diese zur Bereinigung kennzeichnen können.
 
-## Komponentendetails anzeigen {#details}
+## Anzeigen von Komponentendetails {#details}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
 >title="Verwendung von Tags"
->abstract="Die Regeln, Datenelemente und Erweiterungen, die diese Komponente verwenden. Die Verwendung der Erweiterung deckt nur die Konfigurationseinstellungen von Erweiterungen ab. Die Verwendung innerhalb einer Regel wird unter „Regelverwendung“ angezeigt."
+>abstract="Die Regeln, Datenelemente und Erweiterungen, die diese Komponente verwenden. Die Verwendung der Erweiterung deckt nur die Konfigurationseinstellungen für Erweiterungen ab. Die Verwendung innerhalb einer Regel wird unter „Regelverwendung“ angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"

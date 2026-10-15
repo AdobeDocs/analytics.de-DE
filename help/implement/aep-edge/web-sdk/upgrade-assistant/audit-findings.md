@@ -38,15 +38,15 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
-# Prüfungsergebnisse
+# Audit-Ergebnisse
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
->title="Prüfungsergebnisse"
+>title="Audit-Ergebnisse"
 >abstract="Die Ergebnisse zeigen Regeln und Datenelemente, die Sie vor der Migration bereinigen sollten, z. B. Datenelemente, die durch nichts referenziert werden. Akzeptieren Sie ein Ergebnis, um seine empfohlene Änderung in die Migration aufzunehmen, oder lehnen Sie es ab, um die Komponente so zu lassen, wie sie ist. Dieser Schritt ist optional."
 
 <!-- markdownlint-enable MD034 -->

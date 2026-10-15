@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 0%
+ht-degree: 18%
 ---
 # Mapper-Vorbereitung
 
@@ -75,14 +75,14 @@ Wenn Ihre Tags-Eigenschaft Daten an mehr als eine Report Suite sendet, wählen S
 
 Wenn Ihre Tags-Eigenschaft Daten an mehr als eine Report Suite sendet, werden auf der Registerkarte **[!UICONTROL Report Suites vergleichen]** die Einstellungen jeder Variablen in bis zu drei dieser Report Suites verglichen. Verwenden Sie sie, um Variablen zu finden, die zwischen den Report Suites unterschiedlich konfiguriert sind, bevor Sie sie einem Schema zuordnen.
 
-## Aktualisieren von Report Suite-Daten {#refresh}
+## Update von Report Suite-Daten {#refresh}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
->title="Report Suite-Daten aktualisieren"
->abstract="Überprüft die mit dieser Tags-Eigenschaft verknüpften Report Suites erneut, einschließlich ihrer Variableneinstellungen und der letzten Daten, und führt dann die Variablenanalyse erneut aus. Wenn der Upgrade-Assistent noch keine Report Suites gefunden hat, sucht er zuerst in der Tag-Eigenschaft nach ihnen. Ihre Auswahl und Entscheidungen werden beibehalten."
+>title="Aktualisieren von Report Suite-Daten"
+>abstract="Überprüft die mit dieser Tags-Eigenschaft verknüpften Report Suites erneut, einschließlich ihrer Variableneinstellungen und der letzten Daten, und führt dann die Variablenanalyse erneut aus. Wenn der Upgrade-Assistent noch keine Report Suites gefunden hat, sucht er zuerst in der Tags-Eigenschaft danach. Ihre Auswahl und Ihre Entscheidungen werden beibehalten."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
 # Abschließende Überprüfung
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
 >title="Abschließende Überprüfung"
->abstract="Wählen Sie die zu verwendende Experience Platform-Sandbox aus und überprüfen Sie dann alles, was bei dieser Migration erstellt oder geändert wird. Es ändert sich nichts, bis Sie die Migration abgeschlossen haben. Wenn Sie die Migration abschließen, erstellt der Upgrade-Assistent alles auf einmal, fügt die Tag-Änderungen zu einer neuen Bibliothek hinzu und macht diese Migration schreibgeschützt. Sie veröffentlichen diese Bibliothek dann selbst in der Produktionsumgebung."
+>abstract="Wählen Sie die zu verwendende Experience Platform-Sandbox aus und überprüfen Sie dann alles, was bei dieser Migration erstellt oder geändert wird. Es ändert sich nichts, bis Sie die Migration abgeschlossen haben. Wenn Sie die Migration abschließen, erstellt der Upgrade-Assistent alles auf einmal, fügt die Tag-Änderungen zu einer neuen Bibliothek hinzu und legt diese Migration als schreibgeschützt fest. Sie veröffentlichen diese Bibliothek dann selbst in der Produktionsumgebung."
 
 <!-- markdownlint-enable MD034 -->
 
