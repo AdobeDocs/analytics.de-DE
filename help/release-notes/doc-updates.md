@@ -76,7 +76,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Oktober 2026** | |
-| Datenerfassung über ein CDN | Die [Datenerfassung über ein CDN weiterleiten](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn) wurde zur Benutzeroberfläche und zum Administratorhandbuch von CX Enterprise hinzugefügt. |
+| Datenerfassung über ein CDN | Die [Datenerfassung über ein CDN weiterleiten](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cdn) wurde zur Benutzeroberfläche und zum Administratorhandbuch von CX Enterprise hinzugefügt. |
 | Metrik für Bot-Produktereignisse | Es wurde die Metrik [Bot-Produktexemplare](/help/components/metrics/bot-product-occurrences.md) hinzugefügt, die die Anzahl der Teiltreffer der Produktzeichenfolgen anzeigt, die mit Bot-Regeln übereinstimmen. <p>Die Dimension [Bot-Name](/help/components/dimensions/bot-name.md) und die Metrik [Bot-Vorfälle](/help/components/metrics/bot-occurrences.md) wurde ebenfalls aktualisiert, um auf die neue Metrik zu verweisen.</p> |
 | **September 2026** | |
 | Journey-Leinwandvergleich bei Pfeilen und Fallout | Die Einstellung &quot;[!UICONTROL Vergleichen mit]&quot; in [Konfigurieren einer Journey-Arbeitsflächen-Visualisierung](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) wurde aktualisiert, um anzuzeigen, dass die prozentuale Änderung zwischen Datumsbereichen jetzt auf jedem Knoten, Pfeil und Fallout im Journey angezeigt wird. |
