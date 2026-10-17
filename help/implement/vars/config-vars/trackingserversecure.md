@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden, hängt davon ab, wie Ihr Unternehmen Daten an Adobe sendet:
 
-* **Wenn Ihr Unternehmen eine Erstanbieterdomäne verwendet** z. B. über das [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert), ein [Customer-Managed Certificate](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) oder ein [Content Delivery Network (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), setzen Sie den Wert auf diese Domain. Beispiel: `data.example.com`.
+* **Wenn Ihr Unternehmen eine Erstanbieterdomäne verwendet** z. B. über das [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert), ein [Customer-Managed Certificate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/customer-managed-cert) oder ein [Content Delivery Network (CDN)](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cdn), setzen Sie den Wert auf diese Domain. Beispiel: `data.example.com`.
 * **Wenn Ihr Unternehmen eine Domain eines Drittanbieters verwendet** setzen Sie den Wert auf Ihre Mandanten-ID-Subdomain von `data.adobedc.net`. Beispiel: `example.data.adobedc.net`.
 
-Einzelheiten zu [&#x200B; einzelnen Optionen, einschließlich der Suche nach &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) Mandanten-ID, finden Sie unter „Auswählen einer Datenerfassungs-Domain“ im Handbuch für die Benutzeroberfläche und Administration von CX Enterprise.
+Einzelheiten zu [&#x200B; einzelnen Optionen, einschließlich der Suche nach &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/collection-domain) Mandanten-ID, finden Sie unter „Auswählen einer Datenerfassungs-Domain“ im Handbuch für die Benutzeroberfläche und Administration von CX Enterprise.
 
 Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument](../../prepare/solution-design.md) zu speichern, um die Konsistenz in Ihrem gesamten Unternehmen zu gewährleisten.
 
