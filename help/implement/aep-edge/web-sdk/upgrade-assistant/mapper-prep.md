@@ -38,20 +38,20 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 18%
+ht-degree: 19%
 ---
-# Mapper-Vorbereitung
+# Vorbereiten der Zuordnung
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
->title="Mapper-Vorbereitung"
+>title="Vorbereiten der Zuordnung"
 >abstract="Überprüfen Sie die Analytics-Variablen, die Ihre Tags-Eigenschaft an jede Report Suite sendet. Variablen, die Sie hier auswählen, werden in die XDM-Zuordnung übertragen. Verwenden Sie die Registerkarten, um nach aktuellen Daten zu suchen, doppelte Variablen zu finden und Einstellungen in allen Report Suites zu vergleichen."
 
 <!-- markdownlint-enable MD034 -->
 
-Der Upgrade-Assistent identifiziert die Report Suites, an die Ihre Tags-Eigenschaft Daten sendet, und vergleicht dann die Analytics-Variablen in Ihrer Implementierung mit der Konfiguration jeder Report Suite und den jüngsten Daten. Verwenden Sie diesen Schritt, um zu entscheiden, welche Variablen in die XDM[Zuordnung &#x200B;](xdm-mapping.md) werden.
+Der Upgrade-Assistent identifiziert die Report Suites, an die Ihre Tags-Eigenschaft Daten sendet, und vergleicht dann die Analytics-Variablen in Ihrer Implementierung mit der Konfiguration jeder Report Suite und den jüngsten Daten. Verwenden Sie diesen Schritt, um zu entscheiden, welche Variablen in die XDM[Zuordnung ](xdm-mapping.md) werden.
 
 Der Upgrade-Assistent verwendet Ihre Report Suites, um zu verstehen, welche Variablen Ihre Implementierung setzt und wie sie konfiguriert sind. Aktivitätsdaten beziehen sich auf die letzten 90 Tage.
 
@@ -88,4 +88,4 @@ Wenn Ihre Tags-Eigenschaft Daten an mehr als eine Report Suite sendet, werden au
 
 Sie können in diesem Schritt ändern, welche Report Suites der Upgrade-Assistent analysiert. Wenn sich Ihre Report Suite-Konfiguration während einer Migration ändert, wählen Sie **[!UICONTROL Report Suite-Daten aktualisieren]** aus, um die Analyse erneut auszuführen. Der Upgrade-Assistent behält Ihre vorhandenen Auswahlen und Entscheidungen bei.
 
-Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern und fortfahren]** aus, um zur [XDM-Zuordnung“ &#x200B;](xdm-mapping.md).
+Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern und fortfahren]** aus, um zur [XDM-Zuordnung“ ](xdm-mapping.md).
