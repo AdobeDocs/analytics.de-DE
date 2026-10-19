@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 61%
 ---
 # Barrierefreiheit in Analysis Workspace
 
@@ -79,6 +79,47 @@ Die Navigation in [!UICONTROL Analysis Workspace] funktioniert von oben nach unt
 1. Drücken Sie zum Auswählen die **[!UICONTROL Eingabetaste]**.
 1. Verwenden Sie die Pfeiltasten, um zu dem Bereich zu navigieren, in dem Sie die Komponente ablegen möchten.
 1. Drücken Sie zum Platzieren der Komponente die **[!UICONTROL Eingabetaste]**.
+
+### Tastaturnavigation für Tabellenspalten {#table-columns}
+
+Sie können die Größe von Tabellenspalten über die Tastatur ändern und neu anordnen. Die gleichen Tasten funktionieren unter macOS und Windows.
+
+#### Spaltengröße ändern {#resize-columns}
+
+Sie können die Größe von Spalten in Freiformtabellen und Kohortentabellen mithilfe des Spaltentrennzeichens ändern, das die Grenze zwischen zwei Spaltenüberschriften darstellt.
+
+1. Drücken Sie **[!UICONTROL Tabulatortaste]**, bis ein Spaltentrennzeichen den Fokus hat.
+
+   Anweisungen zum Ändern der Anzeigegröße, während das Trennzeichen den Fokus hat. Die Sprachausgabe gibt diese Anweisungen und die aktuelle Breite der Spalte als Prozentsatz aus.
+
+1. Verwenden Sie die folgenden Schlüssel, um die Größe der Spalte zu ändern. Die Größe einer Spalte kann nicht über ihre minimale oder maximale Breite hinaus geändert werden.
+
+   | Schlüssel | Aktion |
+   | --- | --- |
+   | **[!UICONTROL Nach links]** | Schränken Sie die Spalte links neben dem Trennzeichen um 10 Pixel ein. |
+   | **[!UICONTROL Nach-rechts-Taste]** | Die Spalte links neben dem Trennzeichen um 10 Pixel erweitern. |
+   | **[!UICONTROL Eingeben]** | Spaltenbreite zurücksetzen. |
+
+#### Spalten neu anordnen {#rearrange-columns}
+
+In einer Freiformtabelle, die Sie bearbeiten können, können Sie eine Spalte mithilfe des Menüs **[!UICONTROL Neu anordnen]** in der Spaltenüberschrift nach links oder rechts verschieben.
+
+1. Drücken Sie **[!UICONTROL Tabulatortaste]**, bis die Schaltfläche **[!UICONTROL Neu anordnen]** in der Spaltenüberschrift den Fokus hat.
+1. Drücken Sie **[!UICONTROL Eingabetaste]**, **[!UICONTROL Leertaste]** oder **[!UICONTROL Abwärtspfeil]**, um das Menü zu öffnen.
+1. Wählen Sie **[!UICONTROL Spalte nach links verschieben]** oder **[!UICONTROL Spalte nach rechts verschieben]** aus.
+
+   Um das Menü zu schließen, ohne die Spalte zu verschieben, drücken Sie **[!UICONTROL Esc]**. Der Fokus kehrt zur Schaltfläche **[!UICONTROL Neu anordnen]** zurück.
+
+   Nachdem Sie eine Spalte verschoben haben, gibt die Sprachausgabe den Spaltennamen und die neue Position innerhalb der Gruppe aus.
+
+Beachten Sie beim Neuanordnen von Spalten mit der Tastatur Folgendes:
+
+* Eine Spalte wird nur innerhalb ihrer Gruppe gleichrangiger Spalten verschoben, bei denen es sich um Spalten auf derselben Ebene unter derselben übergeordneten Kopfzeile handelt. Sie können die Tastatur nicht verwenden, um eine Spalte in eine andere Gruppe zu verschieben oder eine Spalte zu kopieren.
+* Wenn Sie eine übergeordnete Kopfzeile verschieben, werden deren verschachtelte Spalten und Filter mit ihr verschoben.
+* **[!UICONTROL Spalte nach links verschieben]** ist für die erste Spalte in einer Gruppe deaktiviert. **[!UICONTROL Spalte nach rechts verschieben]** ist für die letzte Spalte in einer Gruppe deaktiviert.
+* Die **[!UICONTROL Neu anordnen]**-Schaltfläche ist nur für Spalten verfügbar, die Sie durch Ziehen auch neu anordnen können. Sie ist nicht verfügbar für:
+  * Schreibgeschützte Tabellen oder Tabellen mit deaktivierter Interaktion.
+  * Datumsspalten in Kohortentabellen.
 
 ### Tastaturbefehle (Hotkeys)
 
