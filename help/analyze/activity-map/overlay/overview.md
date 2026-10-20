@@ -76,7 +76,7 @@ Die Kopfzeile dieses Bedienfelds enthält die folgenden Einstellungen:
 * **[!UICONTROL Einstellungen anzeigen]**: Öffnet ein Menü für Einstellungen, die Sie ändern können (Zahnradsymbol):
   * **[!UICONTROL Einstellungen]**: Öffnet die Erweiterung &quot;[Einstellungen](settings.md).
   * **[!UICONTROL Hilfe]**: Öffnet die Dokumentation zu Experience League (auf dieser Seite).
-  * **[!UICONTROL Adobe-]**: Öffnet die [Experience League-](https://experienceleaguecommunities.adobe.com/?profile.language=de).
+  * **[!UICONTROL Adobe-]**: Öffnet die [Experience League-](https://experienceleaguecommunities.adobe.com/?profile.language=de&lang=de).
   * **[!UICONTROL Info]**: Zeigt die Erweiterungsversion an.
   * **[!UICONTROL Abmelden]**: Meldet Sie von der Erweiterung ab und muss sich erneut anmelden.
 * **[!UICONTROL Activity Map beenden]**: Schließt alle Überlagerungen für die Erweiterung (Symbol X).
