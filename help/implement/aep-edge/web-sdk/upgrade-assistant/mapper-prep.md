@@ -38,15 +38,15 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 18%
+ht-degree: 19%
 ---
-# Mapper-Vorbereitung
+# Vorbereiten der Zuordnung
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
->title="Mapper-Vorbereitung"
+>title="Vorbereiten der Zuordnung"
 >abstract="Überprüfen Sie die Analytics-Variablen, die Ihre Tags-Eigenschaft an jede Report Suite sendet. Variablen, die Sie hier auswählen, werden in die XDM-Zuordnung übertragen. Verwenden Sie die Registerkarten, um nach aktuellen Daten zu suchen, doppelte Variablen zu finden und Einstellungen in allen Report Suites zu vergleichen."
 
 <!-- markdownlint-enable MD034 -->

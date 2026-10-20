@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '7621'
+source-wordcount: '7653'
 ht-degree: 90%
 ---
 # Aktualisierungen der technischen Dokumentation für Adobe Analytics
@@ -76,6 +76,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | Funktion | Beschreibung |
 | --- | --- |
 | **Oktober 2026** | |
+| Tastaturnavigation für Tabellenspalten | Es wurde beschrieben[&#x200B; wie &#x200B;](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) Tabellenspalten in Analysis Workspace mithilfe der Tastatur [skaliert) und neu &#x200B;](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)angeordnet werden, einschließlich Feedback für Bildschirmlesehilfen. Es wurde auch ein Abschnitt [Tabellenspaltenaktionen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) zu Hotkeys hinzugefügt. |
 | Datenerfassung über ein CDN | Die [Datenerfassung über ein CDN weiterleiten](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cdn) wurde zur Benutzeroberfläche und zum Administratorhandbuch von CX Enterprise hinzugefügt. |
 | Metrik für Bot-Produktereignisse | Es wurde die Metrik [Bot-Produktexemplare](/help/components/metrics/bot-product-occurrences.md) hinzugefügt, die die Anzahl der Teiltreffer der Produktzeichenfolgen anzeigt, die mit Bot-Regeln übereinstimmen. <p>Die Dimension [Bot-Name](/help/components/dimensions/bot-name.md) und die Metrik [Bot-Vorfälle](/help/components/metrics/bot-occurrences.md) wurde ebenfalls aktualisiert, um auf die neue Metrik zu verweisen.</p> |
 | **September 2026** | |
