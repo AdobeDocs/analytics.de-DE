@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1978'
 ht-degree: 75%
 ---
 # XDM-Objektfeldzuordnung zu Adobe Analytics
@@ -84,6 +84,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 | `xdm.environment.browserDetails.acceptLanguage` | Ermöglicht die Definition der Dimension [Sprache](/help/components/dimensions/language.md). |
 | `xdm.environment.browserDetails.cookiesEnabled` | Definiert die Dimension [Cookie-Unterstützung](/help/components/dimensions/cookie-support.md). Gültige Werte sind `Y` (der Browser akzeptiert Cookies) und `N` (der Browser lehnt Cookies ab). |
 | `xdm.environment.browserDetails.javaEnabled` | Definiert die Dimension [Java aktiviert](/help/components/dimensions/java-enabled.md). Gültige Werte sind `Y` (Java ist aktiviert) und `N` (Java ist deaktiviert). |
+| `xdm.environment.browserDetails.javaScriptVersion` | Definiert die Dimension [JavaScript version](/help/components/dimensions/javascript-version.md) . |
 | `xdm.environment.browserDetails.userAgent` | Wird als Fallback-Identifizierungsmethode für [Unique Visitor](/help/components/metrics/unique-visitors.md) verwendet. Wird normalerweise unter Verwendung der HTTP-Anfrage-Kopfzeile `User-Agent` befüllt. Sie können dieses Feld einer eVar zuordnen, wenn Sie es in Berichten verwenden möchten. |
 | `xdm.environment.browserDetails.viewportHeight` | Definiert die Dimension [Browser-Höhe](/help/components/dimensions/browser-height.md). |
 | `xdm.environment.browserDetails.viewportWidth` | Definiert die Dimension [Browser-Breite](/help/components/dimensions/browser-width.md). |
@@ -163,7 +164,7 @@ Vorherige Aktualisierungen dieser Tabelle finden Sie auf der Seite [Commit-Verla
 
 {style="table-layout:auto"}
 
-<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!-- `web.webPageDetails.homePage` was included in the original table, but it no longer exists in Analytics. -->
 
 ## Zuordnung anderer XDM-Felder zu Analytics-Variablen
 
