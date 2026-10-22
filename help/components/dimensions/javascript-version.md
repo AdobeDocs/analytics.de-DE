@@ -13,7 +13,7 @@ Die Dimension &quot;JavaScript[Version](overview.md) zeigt die JavaScript-Versio
 
 >[!IMPORTANT]
 >
->Diese Dimension ist nur in Data Warehouse verfügbar. Wenn Sie die JavaScript-Version in anderen Analytics-Lösungen verwenden möchten, kopieren Sie den Wert bei jedem ](evar.md) in eine [eVar.
+>Diese Dimension ist nur in Data Warehouse verfügbar. Wenn Sie die JavaScript-Version in anderen Analytics-Lösungen verwenden möchten, kopieren Sie den Wert bei jedem [&#128279;](evar.md) in eine eVar.
 
 ## Füllen dieser Dimension mit Daten
 
