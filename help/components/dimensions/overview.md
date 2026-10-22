@@ -26,10 +26,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 37%
+source-wordcount: '418'
+ht-degree: 38%
 ---
 # Dimensionen – Übersicht
 
@@ -58,10 +58,9 @@ Die folgenden Dimensionen wurden eingestellt. Bei den meisten handelte es sich u
 * **Hierarchie**: Eine benutzerdefinierte Dimension (`hier1`-`hier5`), mit der die hierarchische Struktur einer Site für das Reporting erfasst wird. Es ist nicht mehr verfügbar und in Analysis Workspace nicht mehr verfügbar. Verwenden Sie stattdessen [eVars](evar.md) und Klassifizierungen.
 * **Startseite**: Eine Markierung, die angibt, ob die aktuelle Seite die Browser-Startseite des Besuchers war. Es handelt sich um eine veraltete Dimension ohne modernes Äquivalent aufgrund moderner Datenschutzpraktiken für Browser.
 * **JavaScript-Unterstützung**: Gibt an, ob der Browser des Besuchers JavaScript unterstützt. Eine Legacy-Dimension, die für moderne Messungen nicht mehr sinnvoll ist.
-* **JavaScript-Version**: Gibt die JavaScript-Version an, die vom Browser des Besuchers unterstützt wird. Eine alte Dimension, die nicht mehr erfasst wird.
 * **Nächste Seite**: Eine Pfaddimension, die die nächste Seite anzeigt, die eine Besucherin oder ein Besucher angesehen hat. Verwenden Sie die [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace für aktuelle Pfaddimensionen.
 * **Vorherige Seite**: Eine Pfaddimension, die die vorherige Seite anzeigt, die eine Besucherin oder ein Besucher angesehen hat. Verwenden Sie die [Flussvisualisierung](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace für aktuelle Pfaddimensionen.
-* **Zeitzone**: Die Zeitzone des Besuchers, abgeleitet vom Zeitstempelversatz in AppMeasurement-Bildanforderungen. Web SDK erfasst die Zeitzone mithilfe von [`placeContext`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/context).
+* **Zeitzone**: Die Zeitzone des Besuchers, abgeleitet vom Zeitstempelversatz in AppMeasurement-Bildanforderungen. Web SDK erfasst die Zeitzone mithilfe von [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Domain auf oberster Ebene**: Die Domain auf oberster Ebene des Zugriffspunkts des Besuchers. Ein veralteter Reports &amp; Analytics-Bericht; verwenden Sie stattdessen die Dimension [Domain](domain.md) .
 * **Besuchsnummer**: Die Seitennummer innerhalb eines Besuchs. Ein alter Reports &amp; Analytics-Bericht; verwenden Sie stattdessen die Dimension [Treffertiefe](hit-depth.md) .
-* **Besucherstatus**: Gibt den US-Bundesstaat aus der `s.state`-Variablen an. Sie wird zugunsten der Dimension [US-Bundesstaaten“ &#x200B;](us-states.md), die Geosegmentierung verwendet.
+* **Besucherstatus**: Gibt den US-Bundesstaat aus der `s.state`-Variablen an. Sie wird zugunsten der Dimension [US-Bundesstaaten“ ](us-states.md), die Geosegmentierung verwendet.
