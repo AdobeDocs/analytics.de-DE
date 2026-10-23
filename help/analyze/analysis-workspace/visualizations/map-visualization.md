@@ -8,26 +8,35 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 TQID: https://experienceleague.adobe.com/x5ln-HzjHf2kK-mmCJxoLHxbkzox7BpN2i-G5-oAsc8
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '727'
 ht-degree: 60%
-
 ---
-
 # Zuordnung {#map}
 
 <!-- markdownlint-disable MD034 -->
@@ -62,7 +71,7 @@ ht-degree: 60%
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Zuordnungsvisualisierung in {_}![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Map](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/map) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird die Zuordnungsvisualisierung in {_}![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Map](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -70,28 +79,28 @@ _In diesem Artikel wird die Zuordnungsvisualisierung in {_}![AdobeAnalytics](/he
 
 Die ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Zuordnungsvisualisierung]** in Analysis Workspace
 
-* ermöglicht die Erstellung einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken),
-* ist hilfreich bei der Erfassung und dem Vergleich von Metrikdaten über verschiedene geographische Regionen hinweg,
-* kann zwei Datenquellen verwenden: den Breitengrad/Längengrad aus der Verwendung von Mobilgeräten oder die geographische Dimension aus der Internet-Nutzung,
+* ermöglicht das Aufbauen einer visuellen Zuordnung einer beliebigen Metrik (einschließlich berechneter Metriken),
+* ist hilfreich bei der Identifizierung und dem Vergleich von Daten zu Metriken über verschiedene geografische Regionen hinweg,
+* kann zwei Datenquellen verwenden: Breitengrad/Längengrad aus der Mobile-Nutzung oder eine geografische Dimension aus der Web-Nutzung,
 * unterstützt PDF-Exporte und
 * nutzt WebGL für die Grafikdarstellung. Wenn Ihre Grafiktreiber die WebGL-Ausgabe nicht unterstützen, müssen Sie sie unter Umständen aktualisieren.
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zuordnungsvisualisierung in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 ## Verwenden
 
-1. Fügen Sie eine ![Map](/help/assets/icons/Globe.svg) [!UICONTROL Zuordnungsvisualisierung] hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Visualisierung in einem Bedienfeld](freeform-analysis-visualizations.md#add-visualizations-to-a-panel). Sie können eine Zuordnungsvisualisierung nur auf eine Freiformtabelle ziehen.
+1. Fügen Sie eine ![Map](/help/assets/icons/Globe.svg) [!UICONTROL Zuordnungsvisualisierung] hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Visualisierung in einem Bedienfeld](freeform-analysis-visualizations.md#add-visualizations-to-a-panel). Sie können eine Kartenvisualisierung nur über eine Freiformtabelle ziehen.
 
    ![Zuordnungskonfiguration](assets/map-configuration.png){width="50%"}
 
 1. Wählen Sie eine Metrik aus den Dropdown-Listen aus. Oder ziehen Sie eine Metrik aus der Liste der Metriken (gilt auch für berechnete Metriken) per Drag-and-Drop dazu.
-1. Legen Sie die Datenquelle fest, aus der Sie schöpfen möchten. Dieses Dialogfeld wird nur angezeigt, wenn die Standortverfolgung für die Daten Ihrer mobilen App aktiviert ist.
+1. Legen Sie die Datenquelle fest, aus der Sie schöpfen möchten. Dieses Dialogfeld wird nur angezeigt, wenn das Standort-Tracking für die Daten Ihrer mobilen App aktiviert ist.
 
    | Quelle | Beschreibung |
    | --- | --- |
@@ -139,7 +148,7 @@ Um Einstellungen für die Visualisierung zu definieren, wählen Sie ![Setting](/
 | [!UICONTROL Heatmap] | Zeichnet Ereignisse mithilfe einer Heatmap. Eine Heatmap ist eine grafische Darstellung von Daten, bei der die einzelnen in einer Matrix enthaltenen Werte als Farben dargestellt werden. |
 | **[!UICONTROL Stile]** | |
 | [!UICONTROL Farbschema] | Zeigt das Farbschema für die Heatmap und die Blasen an. Sie können zwischen Korallen, Rot, Grün oder Blau wählen. Der Standardwert ist „Koralle“. |
-| [!UICONTROL Zuordnungsstil] | Sie können zwischen „Allgemein“, „Straßen“, „Leuchtend“ „Hell“, „Dunkel“ und „Satellit“ auswählen. |
+| [!UICONTROL Zuordnungsstil] | Sie können zwischen „Standard“, „Straßen“, „Leuchtend“, „Hell“, „Dunkel“ und „Satellit“ auswählen. |
 | **[!UICONTROL Clusterradius]** | Gruppiert Datenpunkte zusammen, die sich innerhalb der festgelegten Pixel-Anzahl befinden. Die Standardeinstellung ist „50“. |
 | **[!UICONTROL Benutzerdefinierter Maximalwert]** | Ermöglicht es Ihnen, die Schwelle für den Maximalwert für die Zuordnung zu verändern. Wird dieser Wert angepasst, ändert sich auch die Skala für die Werte der Blasen/Heatmap (Farbe und Größe) relativ zum festgelegten Maximalwert. |
 
@@ -148,7 +157,7 @@ Um Einstellungen für die Visualisierung zu definieren, wählen Sie ![Setting](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 
