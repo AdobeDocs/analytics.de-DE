@@ -1,29 +1,33 @@
 ---
 description: Erläutert die Strategie zur kontinuierlichen Veröffentlichung von Funktionen für Adobe Analytics.
-title: Veröffentlichung von Adobe Analytics-Funktionen
+title: Funktionsveröffentlichungen in Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 TQID: 'https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '395'
 ht-degree: 100%
-
 ---
-
 # Veröffentlichung von Adobe Analytics-Funktionen
 
-Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Implementierung von Funktionen ermöglicht.
+Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das eine besser skalierbare, schrittweise Bereitstellung von Funktionen ermöglicht.
 
 ## Veröffentlichungsstrategie
 
@@ -35,7 +39,7 @@ Adobe Analytics-Versionen basieren auf einem kontinuierlichen Bereitstellungsmod
 
 * **Allgemeine Verfügbarkeit (GA)**: Die Funktion steht 100 % der berechtigten CX Experience-Organisationen zur Verfügung und die Veröffentlichung der Funktion ist abgeschlossen.
 
-Bei jeder Funktionsveröffentlichung kann die Timeline vom Start des Rollouts bis zur GA variieren. Ziel ist es, die Veröffentlichungszeiträume kurz zu halten, sodass eine Funktion innerhalb von 2 Monaten nach dem Start des Rollouts allgemein verfügbar (GA) ist.
+Bei jeder Funktionsveröffentlichung kann die Timeline vom Start des Rollout bis zur allgemeinen Verfügbarkeit (GA) variieren. Ziel ist es, die Veröffentlichungszeiträume kurz zu halten, sodass eine Funktion innerhalb von 2 Monaten nach dem Start des Rollouts allgemein verfügbar (GA) ist.
 
 ## Funktionsmarkierungen
 
@@ -45,7 +49,7 @@ Sie können sich Ihre aktiven Funktionsmarkierungen jederzeit unter **Hilfe > Ü
 
 ## Vorteile
 
-Die stufenweise Veröffentlichung ermöglicht es Adobe, den Software-Bereitstellungsprozess besser zu skalieren und sicherzustellen, dass die Funktionen vor der allgemeinen Verfügbarkeit vollständig gehärtet sind. Außerdem können Funktionen veröffentlicht werden, sobald sie verfügbar sind, anstatt sich an ein festes monatliches Veröffentlichungsfenster zu halten.
+Stufenweise Veröffentlichungen ermöglichen es Adobe, den Software-Bereitstellungsprozess besser zu skalieren und sicherzustellen, dass Funktionen vor der allgemeinen Verfügbarkeit vollständig robust sind. Außerdem können Funktionen veröffentlicht werden, sobald sie verfügbar sind, anstatt sich an ein festes monatliches Veröffentlichungsfenster zu halten.
 
 ## Häufig gestellte Fragen (FAQ)
 
