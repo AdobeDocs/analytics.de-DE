@@ -6,23 +6,29 @@ exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
 TQID: https://experienceleague.adobe.com/vTGy--9PQ9T5HTYm3ISws71ItH2DBBJFrk-XdaguBjU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: '1691'
 ht-degree: 5%
-
 ---
-
 # Migrieren von Komponenten und Projekten aus Adobe Analytics nach Customer Journey Analytics
 
 Adobe Analytics-Admins können Adobe Analytics-Projekte und die zugehörigen Komponenten zu Customer Journey Analytics migrieren.
@@ -41,22 +47,26 @@ Der Migrationsvorgang umfasst:
 >
 >Die Informationen auf dieser Seite beschreiben, wie Sie Projekte und die zugehörigen Komponenten mit der Benutzeroberfläche migrieren.
 >
->Alternativ können Sie die Migration mithilfe der APIs durchführen. Weitere Informationen finden Sie in den [Adobe Analytics-APIs](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Alle API-Definitionen sind im Dropdown-Menü **[!UICONTROL Definition auswählen]** verfügbar.
+>Alternativ können Sie die Migration mit einer der folgenden Methoden durchführen. Benutzer mit der Berechtigung [!UICONTROL Komponentenmigration] können diese Methoden verwenden, auch wenn sie keine Administratoren sind.<!-- FLAG: Non-admin access with the Component migration permission, for both the APIs and Coworker, is from SME Scott Tomko (October 2026). The intro says only administrators can migrate in the user interface, but analytics-tools.md says the Component migration permission grants access to Admin > All admin > Component migration. Confirm which is correct. -->
+>
+>* Die Adobe Analytics-APIs. Weitere Informationen finden Sie in den [Adobe Analytics-APIs](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Alle API-Definitionen sind im Dropdown-Menü **[!UICONTROL Definition auswählen]** verfügbar.
+>
+>* Adobe CX Enterprise Coworker. Weitere Informationen finden Sie unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics mit ](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja) in der Adobe CX Enterprise Coworker-Dokumentation.
 
 
 ## Vorbereiten der Migration
 
-Bevor Sie Projekte nach Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten in der [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
+Bevor Sie Projekte nach Customer Journey Analytics migrieren:
 
-Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/tools/analytics-inventory.md) indem Sie das Tool verwenden, das Analytics-Admins zur Verfügung steht.
+* Erfahren Sie mehr über das Migrieren von Projekten in [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
+
+* Führen Sie eine [Adobe Analytics](/help/admin/tools/analytics-inventory.md)Bestandsaufnahme mithilfe des Tools durch, das Analytics-Admins zur Verfügung steht.
 
 ## Migrieren von Adobe Analytics-Projekten nach Customer Journey Analytics
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Bevor Sie Projekte wie in diesem Abschnitt beschrieben nach Customer Journey Analytics migrieren, erfahren Sie mehr über das Migrieren von Projekten in der [Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
->
->**Alle Dimensionen oder Metriken, die Sie zuordnen, gelten für dieses Projekt und alle zukünftigen Projekte in Ihrer gesamten IMS-Organisation, unabhängig davon, welcher Benutzer die Migration durchführt. Diese Zuordnungen können beim Migrieren künftiger Projekte aktualisiert werden.**
+>Alle Dimensionen oder Metriken, die Sie zuordnen, gelten für dieses Projekt und alle zukünftigen Projekte in Ihrer gesamten IMS-Organisation, unabhängig davon, welcher Benutzer die Migration durchführt. Diese Zuordnungen können beim Migrieren künftiger Projekte aktualisiert werden.
 
 1. Wählen Sie in Adobe Analytics die Registerkarte [!UICONTROL **Admin**] und dann [!UICONTROL **Alle Admins**] aus.
 
@@ -126,7 +136,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
    Einige Dimensionen und Metriken in Adobe Analytics können nicht automatisch einer Dimension oder Metrik in Customer Journey Analytics zugeordnet werden.
 
-   Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben der Abschnittsüberschrift [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] ein orangefarbener Zähler angezeigt, der die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird neben jeder Dimension ![&#x200B; Metrik, &#x200B;](assets/schema-warning.png) manuell zugeordnet werden muss, ein Warnsymbol (Warnsymbol) angezeigt.
+   Wenn eine Dimension oder Metrik nicht automatisch zugeordnet werden kann, wird neben der Abschnittsüberschrift [!UICONTROL **Dimensionen**] oder [!UICONTROL **Metriken**] ein orangefarbener Zähler angezeigt, der die Anzahl der Dimensionen oder Metriken angibt, die manuell zugeordnet werden müssen. In der Tabelle wird neben jeder Dimension ![ Metrik, ](assets/schema-warning.png) manuell zugeordnet werden muss, ein Warnsymbol (Warnsymbol) angezeigt.
 
    Darüber hinaus lautet die Spalte [!UICONTROL **Status**] &quot;[!UICONTROL **zugeordnet**].
 
@@ -142,7 +152,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
    Wiederholen Sie diesen Vorgang für jede Dimension oder Metrik, die das Warnsymbol enthält.
 
-   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite einer Dimension oder Metrik in der Customer Journey Analytics Report Suite zugeordnet wurden, wird neben dem Namen der Report Suite ![&#x200B; grünes Häkchen (](assets/report-suite-check.png)) im Abschnitt [!UICONTROL **Zuordnungsschema für Report Suites**] angezeigt.
+   Nachdem alle Dimensionen und Metriken in der Adobe Analytics Report Suite einer Dimension oder Metrik in der Customer Journey Analytics Report Suite zugeordnet wurden, wird neben dem Namen der Report Suite ![ grünes Häkchen (](assets/report-suite-check.png)) im Abschnitt [!UICONTROL **Zuordnungsschema für Report Suites**] angezeigt.
 
 1. (Bedingt) Wenn die Projekte, die Sie migrieren, mehr als eine Report Suite enthalten, wählen Sie im Abschnitt [!UICONTROL **Zuordnungsschema für Report Suites**] eine andere Report Suite aus und wiederholen Sie dann Schritt 6 bis Schritt 10. <!-- double-check that the step numbers are still correct -->
 
@@ -154,7 +164,7 @@ Führen Sie außerdem eine [Adobe Analytics-Inventarisierung durch](/help/admin/
 
    Nach Abschluss der Migration [!UICONTROL **auf der Seite**] Migrationsstatus“ eine Zusammenfassung der migrierten Elemente.
 
-   Wenn die Migration fehlschlägt, finden Sie [&#x200B; Abschnitt „Wiederholen einer fehlgeschlagenen Migration](#retry-a-failed-migration) weiter unten weitere Informationen.
+   Wenn die Migration fehlschlägt, finden Sie [ Abschnitt „Wiederholen einer fehlgeschlagenen Migration](#retry-a-failed-migration) weiter unten weitere Informationen.
 
 1. (Optional) Nach der Migration von Projekten können Sie den Besitz der Projekte an einen beliebigen Benutzer in Customer Journey Analytics übertragen. Weitere Informationen finden Sie unter [Assets übertragen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) im Customer Journey Analytics-Handbuch.
 
@@ -198,7 +208,7 @@ Sie können nach den folgenden Kriterien filtern:
 | [!UICONTROL **Tags**] | Wählen Sie beliebige Tags in der Liste der Tags aus. Es werden nur Projekte angezeigt, auf die die ausgewählten Tags angewendet wurden. |
 | [!UICONTROL **Report Suite**] | Wählen Sie eine beliebige Report Suite in der Liste der Report Suites aus. Es werden nur Projekte angezeigt, die die ausgewählten Report Suites verwenden. |
 | [!UICONTROL **Inhaberinnen oder Inhaber**] | Wählen Sie einen beliebigen Eigentümer in der Liste der Eigentümer aus. Es werden nur Projekte angezeigt, die den von Ihnen ausgewählten Benutzern gehören. |
-| [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Meine**]: Zeigt nur Projekte an, bei denen Sie als Besitzer festgelegt sind.</li><li>[!UICONTROL **Für mich freigegeben**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favoriten markiert sind. (Sie können ein Projekt auf der [Projekt-Landingpage“ als Favorit &#x200B;](/help/analyze/landing.md).)</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
+| [!UICONTROL **Sonstige Filter**] | Die folgenden zusätzlichen Filter sind verfügbar: <ul><li>[!UICONTROL **Meine**]: Zeigt nur Projekte an, bei denen Sie als Besitzer festgelegt sind.</li><li>[!UICONTROL **Für mich freigegeben**]: Zeigt nur Projekte an, die für Sie freigegeben wurden.</li><li>[!UICONTROL **Favoriten**]: Zeigt nur Projekte an, die als Favoriten markiert sind. (Sie können ein Projekt auf der [Projekt-Landingpage“ als Favorit ](/help/analyze/landing.md).)</li><li>[!UICONTROL **Monatlich**]</li><li>[!UICONTROL **Jährlich**]</li></ul> |
 
 {style="table-layout:auto"}
 
