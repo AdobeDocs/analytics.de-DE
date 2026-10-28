@@ -29,14 +29,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1056'
 ht-degree: 8%
 ---
 # Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics
 
-Bevor irgendjemand in Ihrem Unternehmen mit der Migration von Projekten beginnt, entweder wie unter [Migrieren von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) oder mit [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja) beschrieben, führen Sie die folgenden Abschnitte aus.
+Bevor irgendjemand in Ihrem Unternehmen mit der Migration von Projekten beginnt, entweder wie unter [Migrieren von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) oder mit [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja) beschrieben, führen Sie die folgenden Abschnitte aus.
 
 ## Voraussetzungen
 
@@ -51,27 +51,27 @@ Bevor Ihre Projekte und die zugehörigen Komponenten für die Migration bereit s
 
    * Um den Adobe Analytics-Quell-Connector zu verwenden, müssen Sie:
 
-     1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
      1. [Aufnehmen und Verwenden der Daten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=de)
 
    * Um das WebSDK zu verwenden, müssen Sie:
 
-     1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=de#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Einrichten von Report Suites für die Aufnahme in Adobe Experience Platform und Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-     1. [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=de)
+     1. [Aufnehmen von Daten über die Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Erstellen Sie [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=de) und [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den aufgenommenen Daten.
+1. Erstellen Sie [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) und [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) mit den aufgenommenen Daten.
 
 1. Stellen Sie sicher, dass Benutzende in Customer Journey Analytics für die Datenansichten bereitgestellt werden, in denen Daten zugeordnet werden.
 
-   Weitere Informationen finden Sie unter [Customer Journey Analytics-Berechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=de#customer-journey-analytics-permissions-in-admin-console) in der [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=de).
+   Weitere Informationen finden Sie unter [Customer Journey Analytics-Berechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in der [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    Die Registerkarte Berechtigungen ist Teil jedes Produktprofils in Admin Console. Benutzende können zu bestimmten Produktprofilen hinzugefügt werden. Anschließend weisen Sie bestimmten Datenansichten Rechte zu und geben an, welche Berechtigungen die Benutzer in einem Produktprofil haben.
 
 1. Legen Sie als Organisation fest, wie Sie Komponenten zuordnen.
 
-   Weitere Informationen finden Sie im folgenden Abschnitt [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen &#x200B;](#decide-as-an-organization-how-you-will-map-components).
+   Weitere Informationen finden Sie im folgenden Abschnitt [Entscheiden Sie als Organisation, wie Sie Komponenten zuordnen ](#decide-as-an-organization-how-you-will-map-components).
 
 ## Was in einer Migration enthalten ist
 
@@ -79,7 +79,7 @@ In den folgenden Tabellen ist aufgeführt, welche Elemente eines Projekts und ei
 
 ### Migrierte Komponentenelemente
 
-Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics&quot; &#x200B;](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+Dimensionen und Metriken werden im Rahmen des Zuordnungsprozesses migriert, der unter [Migrieren von Adobe Analytics-Projekten zu Customer Journey Analytics&quot; ](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
 
 Segmente, Datumsbereiche und berechnete Metriken, die noch nicht in Customer Journey Analytics vorhanden sind, werden dort basierend auf den zugeordneten Dimensionen und Metriken neu erstellt.
 
