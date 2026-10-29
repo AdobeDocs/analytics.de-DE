@@ -65,11 +65,11 @@ Für Ihre **Website** sind die folgenden Implementierungsmethoden verfügbar:
 
 * **Web SDK**: Wenn Sie nicht die Datenerfassung von Adobe Experience Platform verwenden möchten, können Sie die Web SDK-Bibliotheken auch manuell auf Ihre Site laden. Verweisen Sie auf jeder Seite auf die Web SDK-Bibliothek (`alloy.js`) und senden Sie die gewünschten Tracking-Aufrufe an das Adobe Experience Platform **Edge Network** in einem für Ihre Organisation geeigneten Format. Das Edge Network leitet die Daten an Adobe Analytics weiter.
   ![Web-SDK](./assets/websdk-implementation.png)
-  Weitere Informationen finden [ unter „Implementieren von Adobe Analytics mit der Adobe Experience Platform Web](./aep-edge/overview.md)SDK&quot;.
+  Weitere Informationen finden [&#x200B; unter „Implementieren von Adobe Analytics mit der Adobe Experience Platform Web](./aep-edge/overview.md)SDK&quot;.
 
 * **Analytics-Erweiterung**: Fügen Sie die **Adobe Analytics-Erweiterung** in den **Datenerfassungs-Tags** von Adobe Experience Platform hinzu und platzieren Sie dann ein Loader-Tag auf jeder Seite. Das Tag sendet Daten direkt an Adobe Analytics. Nutzen Sie diese Implementierungsmethode, wenn Sie Tags, aber nicht die Edge Network-Infrastruktur verwenden möchten.
   ![Adobe Analytics-Erweiterung](./assets/analytics-extension-implementation.png)
-  Weitere Informationen finden [ unter „Implementieren von Adobe Analytics mit ](launch/overview.md) Analytics-Erweiterung“.
+  Weitere Informationen finden [&#x200B; unter „Implementieren von Adobe Analytics mit &#x200B;](launch/overview.md) Analytics-Erweiterung“.
 
 * **Legacy-JavaScript**: Die frühere manuelle Methode zur Implementierung von Adobe Analytics. Verweisen Sie auf jeder Seite auf die AppMeasurement-Bibliothek (`AppMeasurement.js`) und stellen Sie dann die Variablen und Einstellungen in JavaScript ein.
   ![Implementieren von Adobe Analytics mit Legacy-JavaScript](./assets/appmeasurement-implementation.png)
@@ -90,11 +90,11 @@ Zur Server-seitigen Implementierung von Adobe Analytics stehen Ihnen die folgend
 
 * **Edge Network-API**: Sie implementieren Code auf dem Server, der das Adobe Experience Platform Edge Network-API verwendet, um über einen Datenstrom mit Adobe Analytics zu kommunizieren.
   ![Server-seitige Implementierung](assets/edge-network-server-api.png)
-  Weitere Informationen finden [ unter „Implementieren von Adobe Analytics mit der Adobe Experience Platform](/help/implement/aep-edge/api/overview.md)Edge Network-API“.
+  Weitere Informationen finden [&#x200B; unter „Implementieren von Adobe Analytics mit der Adobe Experience Platform](/help/implement/aep-edge/api/overview.md)Edge Network-API“.
 
 * **(Bulk) Data Insertion-API**: Sie verwenden die (Bulk) Data Insertion-API von Adobe Analytics, um Daten Server-seitig direkt in Adobe Analytics zu erfassen.
   ![Dateneinfüge-APIs](assets/analytics-apis.png)
-  Weitere Informationen finden [ unter ](../import/c-data-insertion-api/c-data-insertion-api.md)Dateneinfüge-API“.
+  Weitere Informationen finden [&#x200B; unter &#x200B;](../import/c-data-insertion-api/c-data-insertion-api.md)Dateneinfüge-API“.
 
 ## Implementierungsmethoden für Mobile Apps
 

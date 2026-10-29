@@ -96,7 +96,7 @@ Starten Sie eine [Edge Trace](https://experienceleague.adobe.com/en/docs/experie
 
 Suchen Sie in der Assurance-Sitzung, die in Edge Trace geöffnet wird, nach Ereignissen `hitdebugger`. Diese Ereignisse verwenden die `com.adobe.analytics.hitdebugger` des Anbieters, und ihre Payloads zeigen Werte nach der Analytics-Verarbeitung an, z. B. die Experience Cloud-ID (`mcvisId`) und die `pageName`.
 
-Eine Anleitung finden Sie unter [ von Adobe Analytics mit Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics).
+Eine Anleitung finden Sie unter [&#x200B; von Adobe Analytics mit Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics).
 
 ## Anforderungen mit Berichten vergleichen {#reports}
 
