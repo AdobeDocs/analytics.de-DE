@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 860
-ht-degree: 95%
-
+source-wordcount: '962'
+ht-degree: 85%
 ---
-
 # Speichern von Projekten
 
 <!-- markdownlint-disable MD034 -->
@@ -45,7 +43,7 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
 
 * **[!UICONTROL Speichern]**
 
-  Speichern Sie die Änderungen an Ihrem Projekt. Wenn das Projekt freigegeben ist, sehen auch die Empfangenden des Projekts die Änderungen.
+  Speichern Sie die Änderungen an Ihrem Projekt. Wenn das Projekt freigegeben ist, sehen auch die Empfänger des Projekts die Änderungen.
 
   Beim erstmaligen Speichern des Projekts wird das Dialogfeld **[!UICONTROL Speichern]** angezeigt.
 
@@ -54,7 +52,7 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
   1. Geben Sie Folgendes an:
 
      * **[!UICONTROL Name]** (erforderlich): Name Ihres Projekts.
-     * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts.
+     * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts. Um Adobe eine Beschreibung für Sie generieren zu lassen, wählen Sie **[!UICONTROL Beschreibung generieren]** aus. Adobe analysiert mehrere Bedienfelder im Projekt und fasst sie in einer Beschreibung zusammen. Die generierten Beschreibungen enthalten den Text **[!UICONTROL von Adobe mithilfe von KI generiert]** und können bearbeitet werden. Für diese Option muss Ihr Unternehmen bestimmten rechtlichen Bedingungen von Generative AI zustimmen.
      * **[!UICONTROL Tags]**: Suchen Sie im Feld [!UICONTROL *Tags suchen*] nach Tags oder fügen Sie neue Tags mit **[!UICONTROL ENTER]** hinzu.
      * **[!UICONTROL Ordner]**: Wählen Sie einen Ordner aus [!UICONTROL *Dropdown-Menü*] Ordner auswählen“ aus. Wenn Sie keinen Ordner angeben, wird das Projekt im aktuellen Ordner gespeichert, aus dem Sie ein neues Projekt erstellt haben.
      * **[!UICONTROL Versionshinweise]**. Fügen Sie Versionshinweise im Textbereich *Hinweise hinzufügen* hinzu.
@@ -91,7 +89,7 @@ Um ein Projekt manuell zu speichern, wählen Sie, während das Projekt geöffnet
   1. Geben Sie Folgendes an:
 
      * **[!UICONTROL Name]** (erforderlich): Name Ihres Projekts.
-     * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts.
+     * **[!UICONTROL Beschreibung]**: Eine Beschreibung Ihres Projekts. Um Adobe eine Beschreibung für Sie generieren zu lassen, wählen Sie **[!UICONTROL Beschreibung generieren]** aus. Adobe analysiert mehrere Bedienfelder im Projekt und fasst sie in einer Beschreibung zusammen. Die generierten Beschreibungen enthalten den Text **[!UICONTROL von Adobe mithilfe von KI generiert]** und können bearbeitet werden. Für diese Option muss Ihr Unternehmen bestimmten rechtlichen Bedingungen von Generative AI zustimmen.
      * **[!UICONTROL Tags]**: Suchen Sie im Feld [!UICONTROL *Tags suchen*] nach Tags oder fügen Sie neue Tags mit **[!UICONTROL ENTER]** hinzu.
      * **[!UICONTROL Ordner]**: Wählen Sie einen Ordner aus [!UICONTROL *Dropdown-Menü*] Ordner auswählen“ aus. Wenn Sie keinen Ordner angeben, wird das Projekt im aktuellen Ordner gespeichert, aus dem Sie ein neues Projekt erstellt haben.
      * **[!UICONTROL Versionshinweise]**. Fügen Sie Versionshinweise im Textbereich *Hinweise hinzufügen* hinzu.
@@ -130,19 +128,19 @@ Gehen Sie folgendermaßen vor, um ein Projekt wiederherzustellen:
    ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
 -->
 
-1. Öffnen Sie das Projekt und speichern Sie es an einem gewünschten Ort.
+1. Öffnen Sie das Projekt und speichern Sie es an dem gewünschten Speicherort.
 
 
 ### Bestehende Projekte
 
-Wenn Sie aus irgendeinem Grund ein Projekt verlassen, das noch nicht automatisch gespeicherte Änderungen enthält, fordert Sie Analysis Workspace entweder auf, Ihre Änderungen zu speichern, oder gibt eine Warnmeldung aus.
+Wenn Sie aus irgendeinem Grund ein Projekt verlassen, das Änderungen enthält, die noch nicht automatisch gespeichert wurden, fordert Sie Analysis Workspace entweder auf, Ihre Änderungen zu speichern, oder gibt eine Warnmeldung aus.
 
 
 Verschiedene gängige Szenarien:
 
 #### Öffnen eines weiteres Projekts
 
-Wenn Sie ein anderes Projekt öffnen, während Sie an einem Projekt arbeiten, das noch nicht automatisch gespeicherte Änderungen enthält, werden Sie von Analysis Workspace aufgefordert, das aktuelle Projekt zu speichern.
+Wenn Sie ein anderes Projekt öffnen, während Sie an einem Projekt arbeiten, das Änderungen enthält, die noch nicht automatisch gespeichert wurden, werden Sie von Analysis Workspace aufgefordert, das aktuelle Projekt zu speichern.
 
 Die folgenden Optionen sind verfügbar:
 
@@ -154,7 +152,7 @@ Die folgenden Optionen sind verfügbar:
 
 #### Verlassen oder Schließen einer Registerkarte
 
-Wenn Sie eine Seite verlassen oder die Browser-Registerkarte schließen, während Sie ein Projekt mit noch nicht automatisch gespeicherten Änderungen betrachten, warnt Sie der Browser, dass Ihre nicht gespeicherten Änderungen verloren gehen. Sie können entscheiden, ob Sie die Registerkarte verlassen oder abbrechen möchten. Wie der Browser warnt, hängt vom verwendeten Browser ab.
+Wenn Sie eine Seite verlassen oder die Browser-Registerkarte schließen, während Sie ein Projekt mit Änderungen betrachten, die noch nicht automatisch gespeichert wurden, warnt Sie der Browser, dass Ihre nicht gespeicherten Änderungen verloren gehen. Sie können entscheiden, ob Sie die Registerkarte verlassen oder abbrechen möchten. Wie der Browser warnt, hängt vom verwendeten Browser ab.
 
 
 ### Browser-Abstürze oder Zeitüberschreitung der Sitzung

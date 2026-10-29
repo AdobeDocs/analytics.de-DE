@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 89%
+source-wordcount: '1420'
+ht-degree: 71%
 ---
 # Bearbeiten von Komponenteneinträgen im Datenwörterbuch
 
@@ -48,7 +48,7 @@ Bearbeiten einer Komponente im Datenwörterbuch:
 
 1. (Optional) Geben Sie im Suchfeld den Namen der Komponente ein, die Sie bearbeiten möchten.
 
-   Der Komponententyp kann sowohl durch Farbe als auch durch ein Symbol identifiziert werden. **Dimensionen** ![Dimensionsymbol](/help/assets/icons/Data.svg) sind orange, **Segmente** ![Segmentsymbol](/help/assets/icons/Segmentation.svg) sind blau, **Datumsbereiche** ![Datumsbereichsymbol](/help/assets/icons/Calendar.svg) sind violett und **Metriken** ![Metriksymbol](/help/assets/icons/Event.svg) sind grün. Das Adobe-Symbol zeigt entweder eine Vorlage für berechnete Metriken oder eine Segmentvorlage an und das Taschenrechnersymbol ![Taschenrechnersymbol](/help/assets/icons/Calculator.svg) zeigt eine berechnete Metrik an, die von einer Analytics-Administratorin bzw. einem -Administrator in Ihrer Organisation erstellt wurde.
+   Der Typ der Komponente kann sowohl anhand der Farbe als auch anhand des Symbols erkannt werden. **Dimensionen** ![Dimensionsymbol](/help/assets/icons/Data.svg) sind orange, **Segmente** ![Segmentsymbol](/help/assets/icons/Segmentation.svg) sind blau, **Datumsbereiche** ![Datumsbereichsymbol](/help/assets/icons/Calendar.svg) sind violett und **Metriken** ![Metriksymbol](/help/assets/icons/Event.svg) sind grün. Das Adobe-Symbol zeigt entweder eine Vorlage für berechnete Metriken oder eine Segmentvorlage an und das Taschenrechnersymbol ![Taschenrechnersymbol](/help/assets/icons/Calculator.svg) zeigt eine berechnete Metrik an, die von einer Analytics-Administratorin bzw. einem -Administrator in Ihrer Organisation erstellt wurde.
 
 1. (Optional) Wählen Sie das Symbol **Filter** ![Datenwörterbuchfilter-Symbol](/help/assets/icons/Filter.svg) und wählen Sie dann eine der folgenden Filteroptionen, um die Liste der Komponenten zu filtern:
 
@@ -73,7 +73,7 @@ Bearbeiten einer Komponente im Datenwörterbuch:
 
    | Option | Funktion |
    |---------|----------|
-   | [!UICONTROL **Empfohlen**] | Sortiert Komponenten nach den am Anfang der Liste empfohlenen Komponenten. Komponenten, die am häufigsten und zuletzt von Ihnen oder anderen in Ihrem Unternehmen verwendet werden, werden weiter oben in der Liste angezeigt. |
+   | [!UICONTROL **Empfohlen**] | Sortiert Komponenten so, dass empfohlene Komponenten am Anfang der Liste stehen. Komponenten, die am häufigsten und zuletzt von Ihnen oder anderen in Ihrem Unternehmen verwendet werden, werden weiter oben in der Liste angezeigt. |
    | [!UICONTROL **Alphabetisch**] | Sortiert Komponenten alphabetisch. |
    | [!UICONTROL **Kategorisch**] | Sortiert Komponenten nach Komponententyp (Dimension, Metrik, Segment, Datumsbereich). |
 
@@ -82,6 +82,7 @@ Bearbeiten einer Komponente im Datenwörterbuch:
 1. Wählen Sie aus der Komponentenliste die Komponente aus, die Sie bearbeiten möchten.
 
 1. Wählen Sie das Symbol **Bearbeiten** ![Datenwörterbuch bearbeiten](/help/assets/icons/Edit.svg) neben dem Komponentennamen.
+   ![Dialogfeld „Komponente bearbeiten“ im Datenwörterbuch](assets/data-dictionary-edit-component.png)
 
 1. Bearbeiten Sie eine der folgenden Informationen zur Komponente:
 
@@ -89,7 +90,7 @@ Bearbeiten einer Komponente im Datenwörterbuch:
    |---------|----------|
    | **[!UICONTROL Genehmigt]** | <p>Zeigt an, dass die Komponente vom Admins geprüft und genehmigt wurde.</p><p>Nachdem eine Komponente genehmigt wurde, können Admins die Genehmigung durch Auswahl der Schaltfläche **Genehmigt** entfernen.</p> |
    | **[!UICONTROL Genehmigung erforderlich]** | <p>Zeigt an, dass die Komponente noch nicht von Admins geprüft und genehmigt wurde.</p><p>Admins wird eine Option zum **[!UICONTROL Genehmigen]** angezeigt. Bei Auswahl dieser Option wird die Komponente gegenüber Benutzenden als „Genehmigt“ gekennzeichnet.</p> |
-   | **[!UICONTROL Beschreibung]** | Beschreibt die beabsichtigte Funktion der Komponente. (Diese Informationen werden vom Analytics-Admins hinzugefügt, wie unter [Komponentenbeschreibungen hinzufügen](/help/analyze/analysis-workspace/components/add-component-descriptions.md) beschrieben.) |
+   | **[!UICONTROL Beschreibung]** | Beschreibt die beabsichtigte Funktion der Komponente. Nur Analytics-Admins können Komponentenbeschreibungen hinzufügen. <p>Sie können eine Beschreibung auf eine der folgenden Arten hinzufügen:</p><ul><li>Beschreibung manuell eingeben</li><li>Wählen Sie **[!UICONTROL Beschreibung generieren]** aus, damit Adobe eine Beschreibung für Sie generiert. <p>Zu den generierten Beschreibungen **[!UICONTROL der Text „Wird von Adobe mithilfe von KI generiert]** und Sie können sie nach der Generierung bearbeiten.</p><p>Informationen zum gleichzeitigen Generieren von Beschreibungen für mehrere Komponenten finden Sie unter [Generieren von Beschreibungen für mehrere Komponenten](#generate-descriptions-for-multiple-components).</p></li></ul> <p>Weitere Informationen finden Sie unter [Beschreibungen automatisch generieren](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Häufig verwendet mit]** | <p>Zeigt Komponenten an, die am häufigsten mit der Komponente verwendet werden, die Sie anzeigen.</p><p>Es werden bis zu 5 Komponenten für die 5 primären Komponententypen angezeigt: Metrik, Berechnete Metrik, Dimension, Segment und Datumsbereich.</p><p>Diese Liste basiert auf Daten aus den letzten 90 Tagen. Es werden nur Komponenten angezeigt, auf die Sie zur Ansicht Zugriff haben.</p><p>Admins können die Komponenten, die Benutzende in diesem Abschnitt sehen, kuratieren, indem sie die gewünschten Komponenten in den Dropdown-Feldern **[!UICONTROL Immer einschließen]** und **[!UICONTROL Immer ausschließen]** auswählen. Bevor Sie die Komponenten kuratieren, die Benutzenden angezeigt werden, wenden Sie zunächst den Filter **Alle anzeigen** an, um sicherzustellen, dass Sie alle Komponenten sehen, die nicht für Sie freigegeben sind.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
    | **[!UICONTROL Ähnlich wie]** | <p>Zeigt Komponenten mit ähnlichen Namen wie die angezeigte Komponente an.</p><p>Es werden bis zu 5 Komponenten für die 5 primären Komponententypen angezeigt: Metrik, Berechnete Metrik, Dimension, Segment und Datumsbereich.</p><p>Es werden nur Komponenten angezeigt, auf die Sie Zugriff haben.</p><p>Hier werden auch alle doppelten Komponenten in Ihrer Report Suite angezeigt. Analytics-Admins sollten alle doppelten Komponenten identifizieren und entfernen, wie unter [Überwachen des Zustands des Datenwörterbuchs](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) beschrieben.</p><p>Adminis können die Komponenten, die Benutzende in diesem Abschnitt sehen, kuratieren, indem sie die gewünschten Komponenten in den Dropdown-Feldern **[!UICONTROL Immer einschließen]** und **[!UICONTROL Immer ausschließen]** auswählen. Bevor Sie die Komponenten kuratieren, die Benutzenden angezeigt werden, wenden Sie zunächst den Filter **Alle anzeigen** an, um sicherzustellen, dass Sie alle Komponenten sehen, die nicht für Sie freigegeben sind.<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**HINWEIS:** Derzeit enthält der Abschnitt **Ähnlich wie** nur von Ihnen erstellte Komponenten und nicht die von Adobe bereitgestellten Komponenten. Von Adobe bereitgestellte Komponenten werden in einer zukünftigen Version hinzugefügt.</p> |
    | **[!UICONTROL Tags]** | Zeigt alle Tags an, die auf die Komponente angewendet werden. Benutzende mit Administratorzugriff können bei der Bearbeitung der Komponente Tags hinzufügen. |
@@ -101,3 +102,29 @@ Bearbeiten einer Komponente im Datenwörterbuch:
    {style="table-layout:auto"}
 
 1. Klicken Sie auf das Symbol **Speichern** ![Datenwörterbuch speichern](/help/assets/icons/SaveFloppy.svg), um Ihre Änderungen zu speichern.
+
+## Beschreibungen für mehrere Komponenten generieren
+
+Analytics-Admins können von Adobe Beschreibungen für mehrere Komponenten gleichzeitig generieren lassen. Weitere Informationen finden Sie unter [Beschreibungen automatisch generieren](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).
+
+>[!IMPORTANT]
+>
+>Das Erzeugen von Beschreibungen für mehrere Komponenten ersetzt alle vorhandenen Beschreibungen für die ausgewählten Komponenten. Um zu vermeiden, dass vorhandene Beschreibungen überschrieben werden, filtern Sie die Liste so, dass nur Komponenten angezeigt werden, die noch keine Beschreibung haben, bevor Sie Komponenten auswählen.
+
+So generieren Sie Beschreibungen für mehrere Komponenten im Datenwörterbuch:
+
+1. Öffnen Sie das Datenwörterbuch, wie beschrieben unter [Zugriff auf das Datenwörterbuch](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary).
+
+1. Stellen Sie sicher, dass im Dropdown-Menü die richtige Report Suite ausgewählt ist.
+
+1. (Empfohlen) Wählen Sie das **Filter**-Symbol ![Datenwörterbuchfiltersymbol](/help/assets/icons/Filter.svg) und wählen Sie dann **[!UICONTROL Fehlende Beschreibung]** aus, um nur Komponenten anzuzeigen, die keine Beschreibung aufweisen.
+
+1. Wählen Sie die Komponenten aus, für die Sie Beschreibungen generieren möchten.
+
+1. Wählen Sie ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Beschreibung generieren]** oberhalb der Komponentenliste aus.
+
+1. Wählen Sie **[!UICONTROL Beschreibungen erstellen]** aus, um zu bestätigen.
+
+   Eine Bestätigungsmeldung zeigt die Anzahl der hinzugefügten Beschreibungen an.
+
+   Wenn Sie eine große Anzahl von Komponenten ausgewählt haben, werden die Beschreibungen im Hintergrund generiert. Wenn die Anfrage abgeschlossen ist, erhalten Sie eine In-App[Benachrichtigung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) die anzeigt, wie viele Beschreibungen generiert wurden und wie viele fehlgeschlagen sind.
