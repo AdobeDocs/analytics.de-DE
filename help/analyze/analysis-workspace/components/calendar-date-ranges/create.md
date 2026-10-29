@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 94%
+source-wordcount: '589'
+ht-degree: 87%
 ---
 # Erstellen von Datumsbereichen
 
@@ -68,6 +68,11 @@ Das Dialogfeld **[!UICONTROL Neuer Datumsbereich]** oder **[!UICONTROL Datumsber
 
 1. Geben Sie einen **[!UICONTROL Titel]** für den Datumsbereich ein: z. B. **[!UICONTROL Quartalsweise]**.
 1. Geben Sie optional eine **[!UICONTROL Beschreibung]** an.
+
+   Um Adobe eine Beschreibung für Sie generieren zu lassen, wählen Sie **[!UICONTROL Beschreibung generieren]** aus. Diese Option ist erst verfügbar, wenn Sie die Datumsbereichsdefinition erstellt haben.
+
+   Zu den generierten Beschreibungen **[!UICONTROL der Text „Wird von Adobe mithilfe von KI generiert]** und Sie können sie nach der Generierung bearbeiten. Weitere Informationen finden Sie unter [Beschreibungen automatisch generieren](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).
+
 1. Organisieren Sie das Segment, indem Sie ein oder mehrere **[!UICONTROL Tags“ erstellen oder]**. Beginnen Sie mit der Eingabe, um nach vorhandenen Tags zu suchen, die Sie auswählen können. Oder drücken Sie die **[!UICONTROL Eingabetaste]**, um ein neues Tag hinzuzufügen. Wählen Sie ![CrossSize75](/help/assets/icons/CrossSize75.svg) aus, um ein Tag zu entfernen. |
 1. Wählen Sie einen **[!UICONTROL Datumsbereich]** aus, indem Sie zuerst das Startdatum und dann das Enddatum auswählen.
 Alternativ können Sie eine **[!UICONTROL Voreinstellung]** aus dem Dropdown-Menü [!UICONTROL *Voreinstellung auswählen*] auswählen.
@@ -83,7 +88,7 @@ Alternativ können Sie eine **[!UICONTROL Voreinstellung]** aus dem Dropdown-Men
 
      1. Wählen Sie **[!UICONTROL Anfang von]**, **[!UICONTROL Ende von]** oder **[!UICONTROL Festgelegter Tag]** aus.
      1. Wenn Sie **[!UICONTROL Anfang von]** oder **[!UICONTROL Ende von]** ausgewählt haben, können Sie einen vollständigen Ausdruck erstellen. Beispiel: **[!UICONTROL Ende von]** **[!UICONTROL Aktuelles Quartal]** **[!UICONTROL minus]** `20` **[!UICONTROL Tage]**. Wählen Sie den entsprechenden Wert für jeden einzelnen Teil des Ausdrucks aus.
-        * Wählen Sie einen Wert für den aktuellen Zeitraum aus, z. B. **[!UICONTROL Aktuelles Quartal]**.
+        * Wählen Sie einen Wert für den aktuellen Zeitraum aus. z. B. **[!UICONTROL Aktuelles Quartal]**.
         * Wählen Sie einen Wert für die zusätzliche Berechnung aus, z. B., **[!UICONTROL minus]**.
         * Wenn Sie eine zusätzliche Berechnung angegeben haben, geben Sie einen Wert an. Zum Beispiel `20`.
         * Wenn Sie eine zusätzliche Berechnung angegeben haben, wählen Sie den Zeitraum aus, der für die Berechnung verwendet werden soll, Zum Beispiel **[!UICONTROL Tage]**.

@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 29%
+source-wordcount: '673'
+ht-degree: 27%
 ---
 # Verwalten von Datumsbereichen
 
@@ -71,6 +71,7 @@ Sie können Aktionen für Datumsbereiche mithilfe der Aktionsleiste ➋. Die Akt
 | ![Bearbeiten](/help/assets/icons/Edit.svg) | **[!UICONTROL Umbenennen]** | Umbenennen eines einzelnen ausgewählten Datumsbereichs. Wenn diese Option aktiviert ist, können Sie den Datumsbereich inline umbenennen. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten Datumsbereiche. |
 | ![Kopieren](/help/assets/icons/Copy.svg) | **[!UICONTROL Kopieren]** | Kopieren Sie die ausgewählten Datumsbereiche. Neue Datumsbereiche werden mit demselben Namen und Suffix (Kopie) erstellt |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL Beschreibungen generieren]** | <p>Generieren von Beschreibungen für die ausgewählten Datumsbereiche, wobei vorhandene Beschreibungen ersetzt werden.</p><p>Um zu vermeiden, dass vorhandene Beschreibungen überschrieben werden[&#x200B; wählen Sie zunächst (](#filter-panel)) die Liste aus, um nur Datumsbereiche ohne Beschreibung anzuzeigen (wählen Sie im Filter unter [!UICONTROL **Andere Filter**] die Option [!UICONTROL **Fehlende Beschreibung**]).</p><p>Sie werden zur Bestätigung aufgefordert. Große Anfragen werden im Hintergrund ausgeführt und Sie erhalten eine Benachrichtigung, wenn sie abgeschlossen sind.</p><p>Weitere Informationen finden [&#x200B; unter &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions) von Beschreibungen generieren .</p> |
 | ![CSV-Datei](/help/assets/icons/FileCSV.svg) | **[!UICONTROL In CSV exportieren]** | Exportiert die ausgewählten Datumsbereiche in eine `Date ranges List.csv`. |
 
 ### Aktive Filterleiste
@@ -114,7 +115,7 @@ Sie verwenden den [Generator für Datumsbereiche](create.md#date-range-builder),
 
 
 
-Verwenden Sie den Datumsbereichs-Manager, um Datumsbereiche freizugeben, umzubenennen oder zu löschen. So greifen Sie auf den Datumsbereichs-Manager zu:
+Verwenden Sie den Datumsbereichs-Manager, um Datumsbereiche freizugeben, umzubenennen oder zu löschen. So greifen Sie auf den Datums-Manager zu:
 
 1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [analytics.adobe.com](https://analytics.adobe.com) an.
 1. Navigieren Sie zu [!UICONTROL Komponenten] > [!UICONTROL Datumsbereiche].

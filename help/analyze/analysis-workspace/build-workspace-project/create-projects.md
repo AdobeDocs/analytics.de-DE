@@ -33,13 +33,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 87%
-
+source-wordcount: '463'
+ht-degree: 76%
 ---
-
 # Erstellen von Projekten {#create-projects}
 
 
@@ -56,7 +54,7 @@ Mit [Projekten](/help/analyze/analysis-workspace/build-workspace-project/freefor
 1. Wählen Sie [!UICONTROL **Erstellen**] aus.
 
 
-Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der Benutzeroberfläche von [Analysis Workspace](/help/analyze/analysis-workspace/home.md) vertraut sein. Wenn dem so ist, können Sie Ihr Projekt erstellen. Gehen Sie dazu wie folgt vor:
+Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der Benutzeroberfläche von [Analysis Workspace](/help/analyze/analysis-workspace/home.md) vertraut sein. Wenn Sie damit vertraut sind, können Sie Ihr Projekt aufbauen. Gehen Sie dazu wie folgt vor:
 
 ![Beispielprojekt](assets/example-project.png)
 
@@ -74,7 +72,7 @@ Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der
   * [Anmerkung](/help/analyze/analysis-workspace/components/annotations/overview.md) **[!DNL Example]** ➒
 
 
-## Projektinfo und Einstellungen {#project-info-settings}
+## Projektinformationen und Einstellungen {#project-info-settings}
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
@@ -90,7 +88,7 @@ Nachdem Sie nun ein leeres Workspace-Projekt erstellt haben, sollten Sie mit der
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="Kommentieren zulassen"
->abstract="Wenn diese Option aktiviert ist, wird in der rechten Leiste des Projekts in Analysis Workspace ein Kommentarbereich verfügbar."
+>abstract="Wenn diese Option aktiviert ist, steht in der rechten Leiste des Projekts in Analysis Workspace ein Kommentarbereich zur Verfügung."
 
 
 Die Projekteinstellungen enthalten auf der Projektebene befindliche Informationen über das derzeit aktive Projekt.
@@ -105,10 +103,10 @@ Zu den Einstellungen gehören:
 | Besitzer | Name des Projektbesitzer. |
 | Zuletzt geändert | Datum der letzten Änderung am Projekt. |
 | Tags | Listet alle Tags auf, die auf ein Projekt angewendet werden, um die Kategorisierung zu erleichtern. |
-| Beschreibung | Eine Beschreibung ist nützlich, um den Zweck eines Projekts zu verdeutlichen. Sie können auf die Beschreibung doppelklicken, um sie zu bearbeiten. |
-| Wiederholungsinstanzen zählen | Diese Einstellung legt fest, ob Wiederholungsinstanzen in Berichten gezählt werden sollen. Hinweis: Diese Einstellung gilt nicht für Fluss- oder Fallout-Visualisierungen. |
+| Beschreibung | Eine Beschreibung ist nützlich, um den Zweck eines Projekts zu verdeutlichen. Sie können auf die Beschreibung doppelklicken, um sie zu bearbeiten. <p>Wenn Adobe eine Beschreibung für Sie generieren soll, wählen Sie **[!UICONTROL Beschreibung generieren]** über dem Beschreibungsfeld aus. Adobe analysiert mehrere Bedienfelder im Projekt und fasst sie in einer Beschreibung zusammen. Die generierten Beschreibungen enthalten den Text **[!UICONTROL von Adobe mithilfe von KI generiert]** und können bearbeitet werden. Für diese Option muss Ihr Unternehmen bestimmten rechtlichen Bedingungen von Generative AI zustimmen.</p> |
+| Wiederholungsinstanzen zählen | Diese Einstellung legt fest, ob Wiederholungsinstanzen in Berichten gezählt werden sollen. Hinweis: Diese Einstellung gilt nicht für Flow- oder Fallout-Visualisierungen. |
 | Anmerkungen anzeigen | Legen Sie fest, ob Anmerkungen für dieses Projekt angezeigt werden sollen. |
-| [Projekt-Farbpalette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Sie können die in Workspace verwendete Farbpalette für Kategorien ändern, indem Sie aus den vordefinierten Paletten wählen, die für die Farbenblindheit optimiert wurden, oder indem Sie eine benutzerdefinierte Palette angeben. Diese Funktion betrifft vieles in Workspace, einschließlich der meisten Visualisierungen. |
+| [Projekt-Farbpalette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Sie können die in Workspace verwendete Farbpalette für Kategorien ändern, indem Sie aus den vordefinierten Paletten wählen, die für Farbenblindheit optimiert wurden, oder indem Sie eine benutzerdefinierte Palette angeben. Diese Funktion betrifft vieles in Workspace, einschließlich der meisten Visualisierungen. |
 | [Dichte anzeigen](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Mit dieser Option können Sie mehr Daten auf dem Bildschirm anzeigen, indem Sie den vertikalen Abstand des linken Bedienfelds, der Freiformtabellen und der Kohortentabellen reduzieren. |
 
 

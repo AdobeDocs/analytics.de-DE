@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '632'
 ht-degree: 16%
 ---
 # Verwalten von Segmenten
@@ -79,6 +79,7 @@ Sie können Aktionen für Segmente mithilfe der Aktionsleiste ➋. Die Aktionsle
 | ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Umbenennen]** | Ein einzelnes ausgewähltes Segment umbenennen. Wenn diese Option aktiviert ist, können Sie das Segment inline umbenennen. |
 | ![Häkchen](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Genehmigen]** | Genehmigen Sie die ausgewählten Segmente. Weitere Informationen finden [&#x200B; unter &#x200B;](seg-approve.md) von Segmenten. |
 | ![Kopieren](/help/assets/icons/Copy.svg) **[!UICONTROL Kopieren]** | Kopiert das ausgewählte Segment. Neue Segmente werden mit demselben Namen und derselben `(Copy)` erstellt. |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Beschreibungen generieren]** | <p>Beschreibungen für die ausgewählten Segmente generieren und vorhandene Beschreibungen ersetzen.</p><p>Um zu vermeiden, dass vorhandene Beschreibungen überschrieben werden[&#x200B; wählen Sie zunächst (](#filter-panel)) die Liste aus, um nur Segmente ohne Beschreibung anzuzeigen (wählen Sie im Filter unter [!UICONTROL **Andere Filter**] die Option [!UICONTROL **Fehlende Beschreibung**]).</p><p>Sie werden zur Bestätigung aufgefordert. Große Anfragen werden im Hintergrund ausgeführt und Sie erhalten eine Benachrichtigung, wenn sie abgeschlossen sind.</p><p>Weitere Informationen finden [&#x200B; unter &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions) von Beschreibungen generieren .</p> |
 | ![CSV-Datei](/help/assets/icons/FileCSV.svg) **[!UICONTROL In CSV exportieren]** | Exportieren Sie die Segmente in eine `Segments List.csv`. |
 
 ### Aktive Filterleiste
