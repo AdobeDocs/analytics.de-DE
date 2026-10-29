@@ -44,7 +44,7 @@ Schritte und Tools, die für alle Adobe-Datenerfassungen gelten, z. B. die Erfas
 | --- | --- | --- |
 | AppMeasurement oder die Analytics-Tag-Erweiterung | Anfragen des Browsers direkt an die Datenerfassungs-Server von Analytics | [AppMeasurement](#appmeasurement) |
 | Web SDK | Edge Trace, nachdem Edge Network Ihr Ereignis in einen Analytics-Treffer konvertiert hat | [Web SDK](#web-sdk) |
-| Mobile SDK | Die Analytics-Ereignisansicht in Assurance. Wenn Sie die Edge Network- oder Edge Bridge-Erweiterung verwenden, aktivieren Sie **[!UICONTROL Analytics Edge View]**. | [Adobe Analytics-Ereignisansicht in Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| Mobile SDK | Die Analytics-Ereignisansicht in Assurance. Wenn Sie die Edge Network- oder Edge Bridge-Erweiterung verwenden, aktivieren Sie **[!UICONTROL Analytics Edge View]**. | [Adobe Analytics-Ereignisansicht in Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/adobe-analytics) |
 | Dateneinfüge-API | Ausgehende Anfragen Ihres Servers und deren Antworten | [Fehlerbehebung bei Dateneinfüge-API-Anfragen](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurement und die Analytics-Erweiterung {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurement sendet Exitlink-Anfragen und alle Anfragen, wenn [`useBeacon`](..
 
 Bei Web SDK sendet der Browser Ereignisse an die Edge Network anstatt direkt an Analytics, sodass keine `/b/ss/`-Anfrage angezeigt wird. [Überprüfen Sie die Edge Network-Anfrage](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) und bestätigen Sie Folgendes:
 
-* Der `configId`-Parameter entspricht einem Datenstrom, für den der [Adobe Analytics-Service](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics) mit den erwarteten Report Suites aktiviert ist.
+* Der `configId`-Parameter entspricht einem Datenstrom, für den der [Adobe Analytics-Service](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure#analytics) mit den erwarteten Report Suites aktiviert ist.
 * Die Payload qualifiziert sich als Seitenansicht oder Link-Ereignis. Analytics ignoriert Payloads, die weder Seitendetails noch einen Web-Interaktionstyp enthalten. Siehe [Edge Network-Ereignistypen in Adobe Analytics](../aep-edge/hit-types.md).
 
 ### Überprüfen, was Analytics erhalten hat {#web-sdk-contents}
