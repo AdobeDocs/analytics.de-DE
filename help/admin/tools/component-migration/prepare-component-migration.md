@@ -6,29 +6,37 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1056'
 ht-degree: 8%
-
 ---
-
 # Vorbereiten der Migration von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics
 
-Bevor eine Person in Ihrem Unternehmen mit der Migration von Projekten beginnt, wie [Migrieren von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) beschrieben, führen Sie die folgenden Abschnitte aus.
+Bevor irgendjemand in Ihrem Unternehmen mit der Migration von Projekten beginnt, entweder wie unter [Migrieren von Komponenten und Projekten von Adobe Analytics nach Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) oder mit [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja) beschrieben, führen Sie die folgenden Abschnitte aus.
 
 ## Voraussetzungen
 
@@ -128,6 +136,12 @@ Entfernen Sie diese Elemente aus dem Adobe Analytics-Projekt, bevor Sie das Proj
 * [Seitenzusammenfassung](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [Beitragsanalyse](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### Nicht unterstützte Report Suites
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+Bedienfelder, die eine [Virtual Report Suite](/help/components/vrs/vrs-about.md) verwenden, können nicht migriert werden. Stellen Sie sicher, dass jedes Bedienfeld im Projekt eine zugrunde liegende Report Suite verwendet.
 
 ## Legen Sie als Organisation fest, wie Sie Komponenten zuordnen
 
