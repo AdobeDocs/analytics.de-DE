@@ -29,18 +29,18 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
 ---
 # Überblick über Client-Hinweise und häufig gestellte Fragen
 
-Client-Hinweise sind spezifische Informationen zum Gerät eines Benutzers. Sie werden von Chromium-Browsern wie Google Chrome und Microsoft Edge bereitgestellt. Bei diesen Browsern wird der Benutzeragent schrittweise durch Client-Hinweise als Quelle von Geräteinformationen ersetzt. Adobe Analytics wird seinen Gerätesuchprozess aktualisieren, sodass zusätzlich zum Benutzeragenten Client-Hinweise zum Ermitteln von Geräteinformationen verwendet werden.
+Client Hints sind spezifische Informationen zum Gerät eines Benutzers oder einer Benutzerin. Sie werden von Chromium-Browsern wie Google Chrome und Microsoft Edge bereitgestellt. Bei diesen Browsern werden Client Hints den Benutzeragenten nach und nach als Quelle von Geräteinformationen ersetzen. Adobe Analytics wird seinen Prozess zur Gerätesuche aktualisieren, sodass zusätzlich zum Benutzeragenten Client Hints zum Ermitteln von Geräteinformationen verwendet werden.
 
-## Client-Hinweise mit geringer und hoher Entropie
+## Client Hints mit geringer und hoher Entropie
 
-Google unterteilt Client-Hinweise von Benutzeragenten in zwei Kategorien: Hinweise mit niedriger oder hoher Entropie.
+Google unterteilt Client Hints des Benutzeragenten in zwei Kategorien: Hinweise mit niedriger und hoher Entropie.
 
 * **Hinweise mit niedriger Entropie** enthalten allgemeine Informationen über Geräte. Diese Hinweise werden automatisch von Chromium-Browsern bereitgestellt.
 
@@ -102,7 +102,7 @@ Hinweise mit hoher Entropie werden über einen JavaScript-Aufruf erfasst und mit
 
 +++**Gibt es Änderungen am Geräte-Reporting in Analytics?**
 
-Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in diesen Feldern erfassten Daten können sich je nach Feld und Konfiguration der Sammlung von Client-Hinweisen ändern.
+Die für das Reporting verfügbaren Gerätefelder ändern sich nicht. Die in diesen Feldern erfassten Daten können sich je nach Feld und je nachdem ändern, wie Sie die Erfassung von Client Hints konfiguriert haben.
 
 +++
 
@@ -126,7 +126,7 @@ Siehe den [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021
 
 +++**Inwiefern hängt Analytics vom Benutzeragenten ab?**
 
-Geräteinformationen in Berichten stammen vom Benutzeragenten. Wir haben unsere Prozesse aktualisiert, um sowohl Benutzeragenten- als auch Client-Hinweise zu verwenden, sofern welche verfügbar sind.
+Geräteinformationen in Berichten stammen vom Benutzeragenten. Wir haben unsere Prozesse aktualisiert, um sowohl User Agent als auch Client Hints zu verwenden, sofern diese verfügbar sind.
 
 Die Fallback-ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=de)) stammt vom Benutzeragenten und von der IP-Adresse. Diese ID wird nur verwendet, wenn ein Cookie nicht gesetzt werden kann. Sie kommt daher nicht häufig zum Einsatz.
 
@@ -134,7 +134,7 @@ Die Fallback-ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/usin
 
 +++**Welche Analytics-Reporting-Felder werden mit Werten befüllt, die in Hinweisen mit hoher Entropie gespeichert sind?**
 
-Dies ändert sich im Laufe der Zeit, da Google weitere Teile des Benutzeragenten „einfriert“. Das erste unmittelbar betroffene Feld ist „Betriebssystem“, das die Betriebssystemversion beinhaltet. Nach dem von Google veröffentlichten Zeitplan für das „Einfrieren“ von Benutzeragenten-Hinweisen wird die Betriebssystemversion ab Ende Oktober 2022 beginnend mit Chromium Version 107 eingefroren. Zu diesem Zeitpunkt ist die Betriebssystemversion im Benutzeragenten in einigen Fällen ungenau.
+Dies ändert sich im Laufe der Zeit, da Google weitere Teile des Benutzeragenten „einfriert“. Das erste unmittelbar betroffene Feld ist „Betriebssystem“, das die Betriebssystemversion beinhaltet. Nach dem von Google veröffentlichten Zeitplan für das „Einfrieren“ von User-Agent-Hints wird die Betriebssystemversion ab Ende Oktober 2022, beginnend mit Chromium Version 107, eingefroren. Zu diesem Zeitpunkt ist die Betriebssystemversion im Benutzeragenten in einigen Fällen ungenau.
 
 Die Zeiten für das Einfrieren anderer Teile des Benutzeragenten können Sie dem [von Google veröffentlichten Zeitplan](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html), entnehmen.
 
@@ -160,7 +160,7 @@ Nein. Client-Hinweise können nur über eine sichere HTTP-Verbindung wie HTTPS e
 
 +++**Wie binde ich bei der Verwendung der API-Übermittlung Client-Hinweisdaten ein?**
 
-Siehe Dokumentation zur Einbindung dieser Daten über die [Bulk-Dateneinfüge-API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
+Siehe Dokumentation zur Einbindung dieser Daten über die [Bulk-Dateneinfüge-API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format).
 
 +++
 

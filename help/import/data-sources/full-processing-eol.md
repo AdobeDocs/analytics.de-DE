@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Am 25. März 2021 verhinderte Adobe die Erstellung neuer Verbindungen mit Full P
 * Bulk Data Insertion verfügt über Datenvalidierungs- und Fehlerbehandlungsfunktionen, wodurch ein Teil der Verwaltungsarbeit beim Senden von Trefferdaten entfällt.
 * Bulk Data Insertion unterstützt mehrere Methoden zur Besucher-ID-Identifizierung.
 * Bulk Data Insertion verfügt über einige zusätzliche erforderliche Felder: eine Besucheridentifizierungsspalte, eine `pageName` (oder ein Link-Äquivalent), `reportSuiteID`, `timestamp` und `userAgent`.
-* Um die Besucherkontinuität und -zuordnung sicherzustellen, erfordert das Einfügen von Massendaten, dass Zeilen innerhalb von Dateien in chronologischer Reihenfolge sortiert werden. Weitere Informationen zur dateiübergreifenden Sortierung von Besucheraktivitäten finden Sie unter [Besuchergruppen](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/).
+* Um die Besucherkontinuität und -zuordnung sicherzustellen, erfordert das Einfügen von Massendaten, dass Zeilen innerhalb von Dateien in chronologischer Reihenfolge sortiert werden. Weitere Informationen zur dateiübergreifenden Sortierung von Besucheraktivitäten finden Sie unter [Besuchergruppen](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups).
 * Bulk Data Insertion erfordert, dass die Dateien im .gzip-Format .csv-komprimiert sind.
 * BDIA verwendet `timestamp` anstelle von `date`.
 

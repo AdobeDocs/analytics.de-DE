@@ -1,6 +1,6 @@
 ---
 title: Implementieren von Adobe Analytics
-description: Implementieren Sie Adobe Analytics für Ihre Website, Eigenschaft oder Anwendung.
+description: Implementieren Sie Adobe Analytics auf Ihrer Website, Ihrer Property oder Ihrer Anwendung.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
@@ -42,16 +42,16 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 82%
 ---
 # Implementieren von Adobe Analytics
 
 ![Banner](../../assets/doc_banner_implement.png)
 
-Adobe Analytics benötigt Code in Ihrer Website, App oder anderen Anwendung, um Daten an die Datenerfassungs-Server zu senden. Abhängig von der Plattform und den Anforderungen Ihres Unternehmens gibt es verschiedene Methoden, um diesen Code zu implementieren.
+Adobe Analytics benötigt Code in Ihrer Website, Mobile App oder anderen Anwendung, um Daten an Server zur Datenerfassung zu senden. Abhängig von der Plattform und den Anforderungen Ihres Unternehmens gibt es verschiedene Methoden, um diesen Code zu implementieren.
 
 ## Website-Implementierungsmethoden
 
@@ -100,7 +100,7 @@ Zur Server-seitigen Implementierung von Adobe Analytics stehen Ihnen die folgend
 
 Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 
-* **Mobile SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics in Ihrer App. Verwenden Sie spezifische Bibliotheken, um Daten aus Ihrer App ganz einfach an Adobe zu senden. Fügen Sie die **Adobe Experience Platform Mobile SDK-Erweiterung** in den **Datenerfassungs-Tags** von Adobe Experience Platform hinzu und implementieren Sie dann die Mobile SDK-Bibliothek in Ihre App. Sie können das SDK verwenden, um Bibliotheken zu importieren, Erweiterungen zu registrieren und die Tag-Konfiguration zu laden. Senden Sie Daten an das Adobe Experience Platform **Edge Network**. Edge leitet diese Daten dann an Adobe Analytics weiter.
+* **Mobile SDK-Erweiterung**: Die standardisierte und empfohlene Methode zur Implementierung von Adobe Analytics in Ihrer App. Verwenden Sie spezifische Bibliotheken, um Daten aus Ihrer Mobile-App ganz einfach an Adobe zu senden. Fügen Sie die **Adobe Experience Platform Mobile SDK-Erweiterung** in den **Datenerfassungs-Tags** von Adobe Experience Platform hinzu und implementieren Sie dann die Mobile SDK-Bibliothek in Ihre App. Sie können das SDK verwenden, um Bibliotheken zu importieren, Erweiterungen zu registrieren und die Tag-Konfiguration zu laden. Senden Sie Daten an das Adobe Experience Platform **Edge Network**. Edge leitet diese Daten dann an Adobe Analytics weiter.
   ![Mobile SDK-Erweiterung](./assets/mobilesdk-extension.png)
 
   Weitere Informationen finden Sie im Artikel [Implementieren von Adobe Analytics mit dem Adobe Experience Platform Mobile SDK](../implement/aep-edge/mobile-sdk/overview.md).
@@ -118,7 +118,7 @@ Für Ihre **Mobile App** sind die folgenden Implementierungsmethoden verfügbar:
 ## Wichtige Artikel zur Analytics-Implementierung
 
 * [Übernahme einer bestehenden Adobe Analytics-Implementierung](/help/implement/prepare/existing-implementation.md)
-* [Debugging-Tools](validate/debugging-tools.md)
+* [Analytics-Datenerfassung debuggen](validate/debugging.md)
 * [Erstellen einer Tag-Eigenschaft in Experience Platform](launch/create-analytics-property.md)
 * [AppMeasurement-Aktualisierungen](appmeasurement-updates.md)
 * [Tutorial zum Einrichten von Adobe Analytics mit Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=de)

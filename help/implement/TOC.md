@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Implementierungsleitfaden für Analytics
 breadcrumb-title: Implementierungshandbuch
 user-guide-description: Erfahren Sie, wie Sie Adobe Analytics implementieren können. Legen Sie fest, welche Daten erfasst werden, um Analytics-Daten optimal zu nutzen.
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Implementierungshandbuch zu Adobe Analytics {#implementation}
@@ -147,8 +147,8 @@ ht-degree: 93%
       + [Upgrade-Assistent - Übersicht](aep-edge/web-sdk/upgrade-assistant/overview.md)
       + [Verwalten von Migrationen](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [Komponentenauswahl](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
-      + [Prüfungsergebnisse](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [Mapper-Vorbereitung](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
+      + [Audit-Ergebnisse](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [Vorbereiten der Zuordnung](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [XDM-Zuordnung](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
       + [Web SDK-Implementierung](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Abschließende Überprüfung](aep-edge/web-sdk/upgrade-assistant/final-review.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [AppMeasurement mit iFrames verwenden](use-cases/iframe.md)
   + [Kampagnen-Tracking-Workflow](use-cases/campaign-tracking.md)
 + Validieren der Implementierung {#validate}
-  + [Debugging-Tools](validate/debugging-tools.md)
+  + [Analytics-Datenerfassung debuggen](validate/debugging.md)
   + [Hash-Kollisionen](validate/hash-collisions.md)
 + [Häufig gestellte Fragen](faq.md)
 + Überprüfen der Implementierung {#review}

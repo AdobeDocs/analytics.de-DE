@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 66%
+source-wordcount: '516'
+ht-degree: 59%
 ---
 # Validieren einer Entwicklungsimplementierung und Veröffentlichen in der Produktionsumgebung
 
@@ -80,14 +80,7 @@ Vergewissern Sie sich, dass Sie Daten zur Live-Version Ihrer Site sehen, und beg
 
 ## Fehlerbehebung
 
-**Im Debugger werden keine Daten angezeigt.**
-
-Öffnen Sie auf Ihrer Site die Entwicklerkonsole des Browsers (normalerweise F12). Sehen Sie sich den Quellcode der Seite an und stellen Sie sicher, dass Folgendes erfüllt ist:
-
-* Es gibt keine JavaScript-Fehler in der Konsole. Wenden Sie sich an die Website-Inhaber Ihres Unternehmens, um sicherzustellen, dass alle JS-Fehler behoben sind.
-* Der Kopfzeilencode ist ordnungsgemäß implementiert: Stellen Sie sicher, dass sich der Kopfzeilencode innerhalb des `<head>`-Tags befindet und dass die Datei vorhanden ist.
-* AppMeasurement-Bibliothek vorhanden: Navigieren Sie direkt zur JS-Quelle, um sicherzustellen, dass die JS-Datei Code enthält. Ist dies nicht der Fall, stellen Sie sicher, dass jede Umgebung erstellt und die Bibliothek in der entsprechenden Umgebung veröffentlicht wurde.
-* Überlagernde Erweiterungen: Einige Erweiterungen, wie z. B. Anzeigenblocker, können das Auslösen von Bildanforderungen verhindern. Deaktivieren Sie alle Erweiterungen, die das Senden von Daten an Adobe verhindern könnten.
+Wenn im Debugger keine Analytics-Daten angezeigt werden oder die Daten nicht das sind, was Sie erwarten, finden Sie weitere Informationen unter [Analytics-Datenerfassung debuggen](../validate/debugging.md#appmeasurement).
 
 ## Nächste Schritte
 
