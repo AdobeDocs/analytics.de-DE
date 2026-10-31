@@ -38,7 +38,7 @@ ht-degree: 2%
 
 In diesem Artikel wird erläutert, was zu überprüfen ist, wenn Sie Daten debuggen, die an Adobe Analytics gesendet werden. Suchen Sie die Implementierungsmethode in der folgenden Tabelle und befolgen Sie den entsprechenden Abschnitt. Wenn Sie unerwartete Berichtsdaten untersuchen, beginnen Sie mit [Anfragen mit Berichten vergleichen](#reports).
 
-Schritte und Tools, die für alle Adobe-Datenerfassungen gelten, z. B. die Erfassung von Netzwerkanfragen, die Aktivierung der Debugging-Protokollierung und die Untersuchung abgebrochener Anfragen, finden Sie unter [Debugging und Fehlerbehebung bei der Datenerfassung](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/overview).
+Schritte und Tools, die für alle Adobe-Datenerfassungen gelten, z. B. die Erfassung von Netzwerkanfragen, die Aktivierung der Debugging-Protokollierung und die Untersuchung abgebrochener Anfragen, finden Sie unter [Debugging und Fehlerbehebung bei der Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/debugging/overview).
 
 | Implementierungsmethode | Anzeigen der von Analytics empfangenen Daten | Leitlinien |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ Schritte und Tools, die für alle Adobe-Datenerfassungen gelten, z. B. die Erfas
 
 ### Anfrage suchen {#appmeasurement-find}
 
-[Erfassen von Netzwerkanfragen](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#web) und Filtern nach `/b/ss/`. Tag-Debugger wie Adobe Experience Platform Debugger identifizieren und decodieren diese Anfragen für Sie.
+[Erfassen von Netzwerkanfragen](https://experienceleague.adobe.com/de/docs/experience-platform/collection/debugging/inspect-requests#web) und Filtern nach `/b/ss/`. Tag-Debugger wie Adobe Experience Platform Debugger identifizieren und decodieren diese Anfragen für Sie.
 
 Wenn keine `/b/ss/`-Anfrage angezeigt wird:
 
 * Überprüfen Sie die Browser-Konsole auf JavaScript-Fehler.
-* Wenn Sie die Analytics-Tag-Erweiterung verwenden, bestätigen Sie, dass sich der Tag-Einbettungs-Code im `<head>` der Seite befindet und dass Ihre Bibliothek in der Umgebung veröffentlicht wird, die Sie testen. [Tag-Debugging-Modus](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/logging) gibt an, ob die Regel, die den Treffer sendet, ausgelöst wurde.
+* Wenn Sie die Analytics-Tag-Erweiterung verwenden, bestätigen Sie, dass sich der Tag-Einbettungs-Code im `<head>` der Seite befindet und dass Ihre Bibliothek in der Umgebung veröffentlicht wird, die Sie testen. [Tag-Debugging-Modus](https://experienceleague.adobe.com/de/docs/experience-platform/collection/debugging/logging) gibt an, ob die Regel, die den Treffer sendet, ausgelöst wurde.
 * Wenn Sie AppMeasurement selbst hosten, öffnen Sie die URL der Bibliothek direkt, um zu bestätigen, dass die Datei geladen wird und Code enthält.
 * Deaktivieren Sie Browser-Erweiterungen wie Anzeigenblocker, die das Senden von Anfragen verhindern können.
 * Der Debugger erkennt keine Anforderungen, die innerhalb eines IFrame gesendet werden. Verwenden Sie stattdessen Browser-Entwickler-Tools . Siehe [Verwenden von AppMeasurement mit iFrames](../use-cases/iframe.md).
@@ -73,20 +73,20 @@ Wenn Werte vorhanden, aber falsch sind, finden Sie unter [Fehlerbehebung bei der
 
 Eine `2xx` Antwort bestätigt nur, dass der Datenerfassungs-Server die Anfrage empfangen hat, nicht, dass der Treffer aufgezeichnet wurde. Mit dem standardmäßigen Antworttyp kann eine Anfrage auch dann einen Erfolg zurückgeben, wenn der Treffer verworfen wird. Es wird eine `302` Antwort auf die erste Anfrage eines neuen Besuchers erwartet. Siehe [HTTP-Antwort-](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes).
 
-AppMeasurement sendet Exitlink-Anfragen und alle Anfragen, wenn [`useBeacon`](../vars/config-vars/usebeacon.md) aktiviert ist, mit `navigator.sendBeacon()`. Entwickler-Tools können diese Anfragen auch dann als abgebrochen kennzeichnen, wenn der Browser sie gesendet hat. Siehe [Abgebrochene Anfragen](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests).
+AppMeasurement sendet Exitlink-Anfragen und alle Anfragen, wenn [`useBeacon`](../vars/config-vars/usebeacon.md) aktiviert ist, mit `navigator.sendBeacon()`. Entwickler-Tools können diese Anfragen auch dann als abgebrochen kennzeichnen, wenn der Browser sie gesendet hat. Siehe [Abgebrochene Anfragen](https://experienceleague.adobe.com/de/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests).
 
 ## Web SDK {#web-sdk}
 
 ### Anfrage suchen {#web-sdk-find}
 
-Bei Web SDK sendet der Browser Ereignisse an die Edge Network anstatt direkt an Analytics, sodass keine `/b/ss/`-Anfrage angezeigt wird. [Überprüfen Sie die Edge Network-Anfrage](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) und bestätigen Sie Folgendes:
+Bei Web SDK sendet der Browser Ereignisse an die Edge Network anstatt direkt an Analytics, sodass keine `/b/ss/`-Anfrage angezeigt wird. [Überprüfen Sie die Edge Network-Anfrage](https://experienceleague.adobe.com/de/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) und bestätigen Sie Folgendes:
 
 * Der `configId`-Parameter entspricht einem Datenstrom, für den der [Adobe Analytics-Service](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure#analytics) mit den erwarteten Report Suites aktiviert ist.
 * Die Payload qualifiziert sich als Seitenansicht oder Link-Ereignis. Analytics ignoriert Payloads, die weder Seitendetails noch einen Web-Interaktionstyp enthalten. Siehe [Edge Network-Ereignistypen in Adobe Analytics](../aep-edge/hit-types.md).
 
 ### Überprüfen, was Analytics erhalten hat {#web-sdk-contents}
 
-Starten Sie eine [Edge Trace](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/edge-trace) und reproduzieren Sie die Aktion. Suchen Sie die Zeile, die mit **[!UICONTROL Automatisches Analytics-Mapping]** beginnt, erweitern Sie dann `mappedQueryParams` und die Report Suite-ID darunter.
+Starten Sie eine [Edge Trace](https://experienceleague.adobe.com/de/docs/experience-platform/debugger/edge-trace) und reproduzieren Sie die Aktion. Suchen Sie die Zeile, die mit **[!UICONTROL Automatisches Analytics-Mapping]** beginnt, erweitern Sie dann `mappedQueryParams` und die Report Suite-ID darunter.
 
 * **Variablen**: Zugeordnete Werte verwenden dieselben Abfrageparameternamen wie AppMeasurement-Anfragen, manchmal in Kurzform, z. B. `gn` für den Seitennamen und `pl` für Produkte. Siehe [XDM-Objektfeldzuordnung](../aep-edge/xdm-var-mapping.md) und [Datenobjektfeldzuordnung](../aep-edge/data-var-mapping.md).
 * **Kontextdaten**: XDM-Felder, die keiner Analytics-Variablen zugeordnet sind, werden als Kontextdaten mit dem Präfix `c.a.x.` angezeigt. Verwenden Sie [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) um sie Variablen zuzuweisen.
