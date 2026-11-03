@@ -24,14 +24,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 76%
+source-wordcount: '871'
+ht-degree: 47%
 ---
 # Referrer-Typ
 
-Der „Referrer-Typ[&#x200B; (Dimension](overview.md) zeigt an, welche allgemeinen Kanäle Besucher durchgeklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
+Der „Referrer-Typ[ (Dimension](overview.md) zeigt an, welche allgemeinen Kanäle Besucher durchgeklickt haben, um zu Ihrer Site zu gelangen. Im Gegensatz zu [Marketing-Kanälen](marketing-channel.md), bei denen Ihre Organisation Regeln für jeden Kanal verwaltet, verwaltet Adobe die Regeln für jedes Dimensionselement.
 
 ## Füllen dieser Dimension mit Daten
 
@@ -50,7 +50,7 @@ Adobe leitet diese Dimension vom [Referrer](referrer.md) jedes Treffers ab und o
 
 Zu den Dimensionselementen gehören die Typen der Referrer des Treffers. Zu den spezifischen Werten gehören die folgenden:
 
-* **Eingegeben/mit Lesezeichen versehen**: Für den Treffer liegen keine Daten zum Referrer vor.
+* **Eingegeben/mit Lesezeichen versehen**: Für den Treffer liegen keine Daten zum Referrer vor. Dieser Wert umfasst Besuche von [konversationalen KI-Tools, die Links ohne Referrer öffnen](#include-ai-traffic-that-has-no-referrer).
 * **Suchmaschinen**: Der Referrer kam von einer anerkannten Suchmaschine, die eine Abfragezeichenfolge mit Suchbegriffen enthält.
 * **Konversationelle KI-Tools**: Der Referrer stammt aus einem anerkannten konversativen KI-Tool.
 * **Soziale Netzwerke**: Die Referrer-Daten gehörten zu einem von Adobe anerkannten sozialen Netzwerk.
@@ -60,6 +60,10 @@ Zu den Dimensionselementen gehören die Typen der Referrer des Treffers. Zu den 
 * **E-Mail**: Der Referrer stammt aus einer URL mit einem `imap://`- oder `mail://`-Protokoll. Dies umfasst keine Online-E-Mail-Dienste, da diese normalerweise ein `https://`-Protokoll verwenden.
 
 ### Konversationelle KI-Tools
+
+>[!IMPORTANT]
+>
+>Dieser Wert umfasst nur Besuche mit einem Referrer aus der folgenden Liste. Einige KI-Tools für Gespräche, wie ChatGPT, senden beim Öffnen von Links keinen Referrer, sodass ihre Besuche nicht eingeschlossen sind. Weitere Informationen finden Sie unter [Einbeziehen von KI-Traffic ohne Referrer](#include-ai-traffic-that-has-no-referrer).
 
 Die folgende Liste verweist auf die von Adobe verwendete Lookup-Tabelle „Conversational AI-Tools“. Adobe stellt diese Liste den Kunden von Adobe Analytics zur Verfügung. Wenn Sie empfehlen möchten, dass Adobe dieser Liste eine Domain hinzufügt, bitten Sie einen Support-Mitarbeiter in Ihrem Unternehmen, sich an die Kundenunterstützung zu wenden.
 
@@ -84,6 +88,18 @@ Die folgende Liste verweist auf die von Adobe verwendete Lookup-Tabelle „Conve
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### KI-Traffic ohne Referrer einbeziehen
+
+Einige KI-Tools für Gespräche, einschließlich ChatGPT, öffnen Links, ohne einen Referrer zu senden. Adobe meldet diese Besuche unter „Eingegeben/Mit Lesezeichen versehen“ anstelle von „Konversations-KI-Tools“. KI-Tools können jederzeit ändern, wie sie Links öffnen. Wenn der Traffic Ihrer „Konversations-KI-Tools“ sinkt, hat ein Tool möglicherweise angehalten, einen Referrer zu senden. Der Rückgang bedeutet nicht, dass Adobe Analytics Daten verloren hat.
+
+Anstelle eines Referrers fügen einige dieser Tools den Links, die sie öffnen, einen UTM-Abfragezeichenfolgenparameter hinzu, z. B. `utm_source=chatgpt.com` oder `utm_source=perplexity`. Verwenden Sie den UTM-Parameter zusammen mit dem Wert „Conversational AI Tools“, um eine vollständige Anzahl des Traffics von Konversations-KI-Tools zu erhalten:
+
+* **Erfassen des UTM-Parameters in einer**: Setzen Sie eine eVar auf den `utm_source` Wert der Landingpage-URL. Verwenden Sie das [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md)-Plug-in, die URL-Parameterfunktionen in der Web-SDK- oder Adobe Analytics-Erweiterung oder eine [Verarbeitungsregel](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md) die den Abfragezeichenfolgenparameter liest.
+* **Erstellen eines Marketing-Kanals für KI** Tools: Erstellen Sie eine [Marketing-Kanal-Verarbeitungsregel](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) die übereinstimmt, wenn eine der Bedingungen erfüllt ist. Fügen Sie **[!UICONTROL Bedingung „Referrer Is Conversational AI]** und eine **[!UICONTROL Query String Parameter]** `utm_source` für jeden Wert hinzu, den KI-Tools verwenden, z. B. `chatgpt.com` oder `perplexity`.
+* **Segment erstellen**: Erstellen Sie ein [Segment](/help/components/segmentation/seg-overview.md), das entweder „Referrer-Typ“ gleich „Konversationelle KI-Tools“ übereinstimmt oder Ihr UTM-eVar einen von KI-Tools verwendeten Wert enthält. Da die Dimension [Seiten](page-url.md)URL) Abfragezeichenfolgen enthält, können Sie auch Seiten-URLs mit `utm_source=chatgpt.com` abgleichen. Diese Option funktioniert ohne Implementierungsänderungen.
+
+Einige KI-Tools senden weder einen Referrer noch einen UTM-Parameter. Sie können Traffic von diesen Tools nicht als KI-Traffic identifizieren.
 
 ### Soziale Netzwerke
 
