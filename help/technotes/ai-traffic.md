@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # Analysieren des Traffics von konversativen KI-Tools
 
 Adobe Analytics bietet Tools zur Analyse des KI-Traffics auf Ihrer Website.
@@ -72,9 +70,11 @@ Sie können die Dimension Referrer-Typ in Analysis Workspace verwenden, um die f
 
 * Agent-Workflows
 
-Die Dimension Referrer-Typ enthält das Dimensionselement [Konversationelle KI-Tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Dieses Dimensionselement enthält eine vordefinierte Liste von KI-Chatbots.
+Die Dimension Referrer-Typ enthält das Dimensionselement [Konversationelle KI-Tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Dieses Dimensionselement enthält nur Besuche, die einen Referrer aus einer vordefinierten Liste von KI-Chatbots haben.
 
-Weitere Informationen finden Sie unter [Referrer-Typ](/help/components/dimensions/referrer-type.md).
+>[!IMPORTANT]
+>
+>Einige KI-Tools für Gespräche wie ChatGPT senden beim Öffnen von Links keinen Referrer, sodass ihre Besuche nicht in diesem Dimensionselement enthalten sind. Weitere Informationen finden Sie unter [Einbeziehen von KI-Traffic ohne Referrer](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer).
 
 ### Analysieren des KI-Traffics mithilfe der Bot-Erkennung
 

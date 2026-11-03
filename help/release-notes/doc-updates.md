@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Aktualisierungen der technischen Dokumentation für Adobe Analytics
 
@@ -75,6 +75,8 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 
 | Funktion | Beschreibung |
 | --- | --- |
+| **November 2026** | |
+| KI-Traffic ohne Referrer einbeziehen | Einige KI-Tools, einschließlich ChatGPT, öffnen Links, ohne einen Referrer zu senden, sodass der Referrer-Typ „Conversational AI Tools“ diese Besuche nicht zählt. In der Dokumentation wird dies nun erläutert und es wird gezeigt, wie Berichte zu diesem Traffic erstellt werden:<ul><li>Es wurde ein Abschnitt zu [Verwenden von UTM-Parametern](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer) hinzugefügt, um KI-Traffic zu erfassen, der keinen Referrer hat.</li><li>Es wurde ein Hinweis zu diesem Verhalten zum Abschnitt [Konversationelle KI-Tools](/help/components/dimensions/referrer-type.md#conversational-ai-tools) der Dimension „Referrer-Typ“ hinzugefügt.</li><li>Es wurde ein Hinweis zu diesem Verhalten hinzugefügt, um [Analysieren des Traffics von konversativen KI-Tools](/help/technotes/ai-traffic.md).</li></ul> |
 | **Oktober 2026** | |
 | Auswahl für Visualisierungen sperren | Umstrukturierung [Datenquellen verwalten](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) um die Konfiguration von Datenquelleneinstellungen von der Sperrung der Auswahl zu trennen. Es wurde auch erläutert[&#x200B; wie &quot;](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)&quot; funktioniert, wenn eine Visualisierung in Zeilen in einer Freiformtabelle gesperrt ist, einschließlich der Vorgehensweise, wenn gesperrte Aufschlüsselungszeilen nicht mehr in der Tabelle sind. |
 | Tastaturnavigation für Tabellenspalten | Es wurde beschrieben[&#x200B; wie &#x200B;](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) Tabellenspalten in Analysis Workspace mithilfe der Tastatur [skaliert) und neu &#x200B;](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)angeordnet werden, einschließlich Feedback für Bildschirmlesehilfen. Es wurde auch ein Abschnitt [Tabellenspaltenaktionen](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) zu Hotkeys hinzugefügt. |
