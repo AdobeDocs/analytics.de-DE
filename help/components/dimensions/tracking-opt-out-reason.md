@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 13%
 ---
 # Nachverfolgen des Abmeldegrunds
 
 >[!BEGINSHADEBOX]
 
-*Diese Seite bezieht sich auf die [Dimension](overview.md) mit der Sie potenzielle Auswirkungen der Aktivierung bestimmter Report Suite-Einstellungen auf Daten sehen können. Sie steht in keiner Verbindung mit dem [Adobe Experience Cloud ID-Opt-in-Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de).*
+*Diese Seite bezieht sich auf die [Dimension](overview.md) mit der Sie potenzielle Auswirkungen der Aktivierung bestimmter Report Suite-Einstellungen auf Daten sehen können. Sie ist nicht mit dem Besucher-ID-Dienst [Opt-in-Dienst](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de) verbunden*
 
 >[!ENDSHADEBOX]
 

@@ -1,6 +1,6 @@
 ---
 title: Personen mit Experience Cloud ID
-description: Die Anzahl der Personen in der geräteübergreifenden Analyse, die über eine Experience Cloud ID verfügen.
+description: Die Anzahl der Personen in der geräteübergreifenden Analyse, die über eine ECID verfügen.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 TQID: https://experienceleague.adobe.com/w85poHKHnDYQ0iTItr2r26q1aRpN50AsdYzg6v82Jpk
@@ -18,16 +18,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 58%
-
+source-wordcount: '146'
+ht-degree: 28%
 ---
-
 # Personen mit Experience Cloud ID
 
-„Personen mit Experience Cloud-ID“ ist eine Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der [Personen“ anzeigt, &#x200B;](people.md) von Adobe mithilfe des [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home).
+„Personen mit Experience Cloud-ID“ ist eine Metrik [Geräteübergreifende Analyse](../cda/overview.md) die die Anzahl der [Personen](people.md) anzeigt, die von Adobe mithilfe des [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/overview) wurden.
 
 ## Berechnung dieser Metrik
 
@@ -35,4 +33,4 @@ Bei jedem [Personen](people.md) (identifiziert oder nicht identifiziert) erhöht
 
 Sie können die berechnete Metrik `[People with ECID] ÷ [People]` erstellen, um mithilfe des ID-Service den Prozentsatz der Besucher Ihrer Site festzustellen.
 
-Weitere Informationen zur Bedeutung der Experience Cloud-ID und zum Debugging Ihres Setups finden Sie unter der entsprechenden Metrik der nicht-geräteübergreifenden Analyse [Besucher mit Experience Cloud ID](visitors-with-ecid.md).
+Weitere Informationen zur Bedeutung von ECID und zum Debugging Ihres Setups finden Sie unter [&#x200B; entsprechenden Metrik der nicht-geräteübergreifenden Analyse &#x200B;](visitors-with-ecid.md)Besucher mit Experience Cloud-ID) .

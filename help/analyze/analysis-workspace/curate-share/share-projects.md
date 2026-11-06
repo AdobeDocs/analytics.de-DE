@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # Freigeben von Projekten {#share-projects}
@@ -214,7 +214,7 @@ So geben Sie ein Analysis Workspace-Projekt für Personen frei, die keinen Zugri
 
    * **[!UICONTROL CX Enterprise-Authentifizierung erfordern]:**
 
-     Wenn diese Option aktiviert ist, können nur diejenigen Benutzer auf das Projekt zugreifen, die sich bei der Adobe CX Enterprise-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Die Benutzenden, für die Sie das Projekt freigeben, benötigen jedoch keinen Zugriff auf Adobe Analytics.
+     Wenn diese Option aktiviert ist, können nur diejenigen Benutzer auf das Projekt zugreifen, die sich bei der Adobe-Organisation anmelden können, in der das freigegebene Projekt erstellt wurde. Die Benutzenden, für die Sie das Projekt freigeben, benötigen jedoch keinen Zugriff auf Adobe Analytics.
 
      Analytics-Admins können diese Voreinstellung für das Unternehmen konfigurieren, wie unter [Voreinstellungen](/help/analyze/analysis-workspace/user-preferences.md) beschrieben. Je nachdem, wie die Admins diese Option konfiguriert haben, können die folgenden Szenarien auftreten:
 

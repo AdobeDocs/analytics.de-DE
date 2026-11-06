@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # Besucheridentifizierung mithilfe der Dateneinfüge-API
@@ -62,7 +62,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 Senden Sie diesen Wert bei jedem Treffer als `mid` Abfrageparameter zusammen mit Ihrer IMS-Organisations-ID als `mcorgid`, damit die ECID korrekt aufgelöst wird. Wenn Ihre Daten an Audience Manager weitergeleitet werden, senden Sie als `aamlh` auch die Region von [`getLocationHint`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getlocationhint). Um Ihre eigenen Kundenkennungen mit dem Besucher zu verknüpfen, verwenden Sie [`setCustomerIDs`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-Für die Server-seitige Erfassung rufen Sie die ECID auf dem Client ab und leiten Sie sie an Ihren Server weiter, um sie bei jedem Treffer zu senden. Um eine ECID vollständig Server-seitig ohne Client zu generieren, verwenden Sie die [direkte Integration](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/direct-integration) des ID-Service.
+Für die Server-seitige Erfassung rufen Sie die ECID auf dem Client ab und leiten Sie sie an Ihren Server weiter, um sie bei jedem Treffer zu senden. Um eine ECID vollständig Server-seitig ohne Client zu generieren, verwenden Sie die „direkte [&quot; des Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/direct-integration).
 
 ## Verwenden der Analytics-Besucher-ID
 

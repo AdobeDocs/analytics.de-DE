@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics und Browser-Cookies
-description: Erfahren Sie, wie sich Tracking-Präventionsmaßnahmen auf von Adobe Analytics gesetzte Third-Party- und First-Party-Cookies auswirken.
+description: Erfahren Sie, wie sich Maßnahmen zur Tracking-Prävention auf von Adobe Analytics gesetzte Drittanbieter-Cookies und Erstanbieter-Cookies auswirken.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Adobe Analytics und Browser-Cookies
@@ -54,21 +54,21 @@ In diesem Dokument wird erläutert, wie sich die Tracking-Präventionsmaßnahmen
 
 ### Einschränkungen bei Third-Party-Cookies
 
-Cookies, die in einem Third-Party-Kontext verwendet werden, werden weithin nicht mehr unterstützt. Firefox und Safari haben 2019 bzw. 2020 standardmäßig begonnen, Third-Party-Cookies zu blockieren. Chrome hat Pläne angekündigt, die Unterstützung von Third-Party-Cookies im Jahr 2023 einzustellen. Third-Party-Cookies sind dann effektiv nicht mehr verwendbar.
+Cookies, die in einem Drittanbieter-Kontext verwendet werden, werden weithin nicht mehr unterstützt. Firefox und Safari haben 2019 bzw. 2020 standardmäßig begonnen, Drittanbieter-Cookies zu blockieren. Chrome hat Pläne angekündigt, die Unterstützung von Third-Party-Cookies im Jahr 2023 einzustellen. Drittanbieter-Cookies sind dann effektiv nicht mehr verwendbar.
 
-Darüber hinaus lässt Chrome derzeit die Funktion von Cookies in einem Third-Party-Kontext nur zu, wenn das SameSite-Attribut auf „None“ gesetzt ist und sie als sicher gekennzeichnet sind, d. h., sie können nur über HTTPS verwendet werden. Weitere Informationen finden Sie im Abschnitt „[Was ist das SameSite-Cookie-Attribut und wie wirkt es sich auf Analytics aus?](#samesite-effect)“.
+Darüber hinaus lässt Chrome derzeit die Funktion von Cookies in einem Drittanbieter-Kontext nur zu, wenn das SameSite-Attribut auf „None“ gesetzt ist und sie als sicher gekennzeichnet sind, d. h., sie können nur über HTTPS verwendet werden. Weitere Informationen finden Sie im Abschnitt „[Was ist das SameSite-Cookie-Attribut und wie wirkt es sich auf Analytics aus?](#samesite-effect)“.
 
-#### Welche Third-Party-Cookies von Adobe sind betroffen?
+#### Welche Drittanbieter-Cookies von Adobe sind betroffen?
 
-Der Besucher-ID-Dienst verwendet das Cookie &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), um eine beständige ID für Besucher über verschiedene Kundendomänen hinweg bereitzustellen. Beim älteren Analytics-ID-Dienst wird das Cookie „s_vi“ als Third-Party-Cookie für Implementierungen festgelegt, die keine benutzerdefinierte CNAME-Erfassungsdomäne verwenden.
+Der Besucher-ID-Dienst verwendet das Cookie &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), um eine beständige ID für Besucher über verschiedene Kundendomänen hinweg bereitzustellen. Beim älteren Analytics-ID-Dienst wird das Cookie „s_vi“ als Drittanbieter-Cookie für Implementierungen festgelegt, die keine benutzerdefinierte CNAME-Erfassungsdomain verwenden.
 
-Bei Browsern, in denen Third-Party-Cookies blockiert werden, ist kein domänenübergreifendes Tracking verfügbar.
+Bei Browsern, in denen Drittanbieter-Cookies blockiert werden, ist kein domänenübergreifendes Tracking verfügbar.
 
 ### Einschränkungen bei First-Party-Cookies {#limitations-first-party-cookies}
 
-First-Party-Cookies sind in allen gängigen Browsern zulässig. Apple beschränkt jedoch über das Intelligent Tracking Program (ITP) die Lebensdauer von First-Party-Cookies, die von Adobe gesetzt werden. Dies betrifft Safari sowie alle Browser unter iOS und iPadOS.
+First-Party-Cookies sind in allen gängigen Browsern zulässig. Apple beschränkt jedoch über Intelligent Tracking Prevention (ITP) die Lebensdauer von First-Party-Cookies, die von Adobe gesetzt werden. Dies betrifft Safari sowie alle Browser unter iOS und iPadOS.
 
-Die First-Party-Cookies von Adobe laufen n ach 7 Tagen ab. Bei Clickthroughs, die Apple als von Trackern gesendet erkennt, sogar schon nach 24 Stunden. Bei einer Lebensdauer von sieben Tagen wird das Ablaufdatum des Cookies um weitere sieben Tage verlängert, wenn ein Besucher Ihrer Site innerhalb von sieben Tagen zurückkehrt Wenn ein Besucher jedoch erst nach acht Tagen zurückkehrt, wird er beim zweiten Besuch als neuer Benutzer behandelt.
+Die First-Party-Cookies von Adobe laufen nach 7 Tagen ab; bei Clickthroughs, die Apple als von Trackern gesendet erkennt, sogar schon nach 24 Stunden. Bei einer Lebensdauer von sieben Tagen wird das Ablaufdatum des Cookies um weitere sieben Tage verlängert, wenn ein Benutzer oder eine Benutzerin Ihre Site besucht und innerhalb von sieben Tagen zurückkehrt. Wenn ein Besucher jedoch erst nach acht Tagen zurückkehrt, wird er beim zweiten Besuch als neuer Benutzer behandelt.
 
 Derzeit gelten ITP-Richtlinien für alle von Adobe gesetzten Erstanbieter-Cookies, unabhängig davon, ob Sie den Besucher-ID-Service oder die ältere Analytics-ID (Cookie „s_vi„) verwenden. Diese Richtlinien galten früher nur für Cookies, die Client-seitig gesetzt wurden, und nicht für Cookies, die Server-seitig über eine CNAME-Implementierung gesetzt wurden. Im November 2020 wurde ITP jedoch aktualisiert und gilt nun auch für CNAME-Implementierungen.
 
@@ -84,11 +84,11 @@ ITP-Richtlinien werden häufig weiterentwickelt. Die neuesten Richtlinien finden
 
 Alle von Adobe gesetzten First-Party-Cookies und die zugehörigen JavaScript-Bibliotheken sind von ITP-Richtlinien betroffen:
 
-* [&#x200B; „AMCV“-](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de), die von der Bibliothek des Adobe Visitor ID Service (ECID) festgelegt werden
-* Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), wenn es für die First-Party-Datenerfassung mit CNAME konfiguriert ist
+* [&#x200B; „AMCV“-Cookies](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de) die von der Adobe Visitor ID Service-Bibliothek festgelegt werden
+* Das veraltete Analytics-Cookie [„s_vi“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), wenn es für die Erfassung von First-Party-Daten mit CNAME konfiguriert ist
 * Das veraltete Analytics-Cookie [„s_fid“](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics), das als Ausweich-Cookie verwendet wird, wenn „s_vi“ nicht gesetzt werden kann
 
-#### Wie wirkt sich ITP auf Safari auf Analytics aus?
+#### Welche Auswirkungen hat ITP in Safari auf Analytics?
 
 Die Auswirkungen der ITP-Einschränkungen können je nach dem Verhalten Ihrer Benutzer erheblich variieren. Dies betrifft nur Besucher, die einen von ITP betroffenen Browser verwenden (z. B. Safari) und nach einer Abwesenheit von sieben Tagen zurückkehren. Wenn Besucher keinen ITP-Browser verwenden oder innerhalb von sieben Tagen zurückkehren, sind sie davon nicht betroffen. Es ist wichtig, Ihre eigenen Daten in Analytics zu überprüfen, um das Ausmaß der Auswirkungen dieser Beschränkung zu verstehen. Tipps zum Messen der Auswirkungen auf Ihre Sites finden Sie unter „[Wie kann ich feststellen, ob Safari-Änderungen mein Unternehmen beeinträchtigen?](#measure-itp-effect)“.
 
@@ -99,23 +99,23 @@ Wenn sich diese Einschränkungen auf Ihre Daten auswirken, sehen Sie Folgendes:
 
 >[!NOTE]
 >
->ITP-Technologien gelten derzeit nicht für eingebettete Browser in Apps.
+>ITP-Technologien gelten derzeit nicht für eingebettete Browser in mobilen Apps.
 
 ## Was ist der Unterschied zwischen Drittanbieter- und Erstanbieter-Cookies?
 
 ### Drittanbieter-Cookies
 
-Third-Party-Cookies werden nicht von den Websites erstellt, die Anwender besuchen.
+Drittanbieter-Cookies werden nicht von den Websites erstellt, die Benutzende besuchen.
 
-Obwohl Browser derzeit alle Third-Party-Cookies gleich behandeln und entsprechend speichern, können sich Third-Party-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Drittanbieter-Cookies einer Kundin oder eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Drittanbieter-Cookie ab, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Drittanbieter-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente IDs bereit und ermöglicht sicheren Content (HTTPS). Weitere Informationen finden Sie unter [Cookies und der Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Obwohl Browser derzeit alle Drittanbieter-Cookies gleich behandeln und entsprechend speichern, können sich Drittanbieter-Cookies unterschiedlich verhalten. Bei der Implementierung von Analytics-Drittanbieter-Cookies einer Kundin oder eines Kunden speichern Browser die Adobe-ID [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=de) als Drittanbieter-Cookie ab, der Client führt jedoch Aufrufe nur zu Adobe und nicht zu unbekannten oder verdächtigen Drittanbieter-Domains durch. Dieses Cookie stellt Domain-übergreifende persistente Kennungen bereit und ermöglicht sichere Inhalte (HTTPS). Weitere Informationen finden Sie unter [Cookies und der Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
 
-In Analytics-Implementierungen werden Third-Party-Cookies für Domain-übergreifendes Tracking und für Werbeanwendungen wie Retargeting-Anzeigen verwendet. Mit Third-Party-Cookies können Sie Besucher identifizieren, die verschiedene Domains besuchen, deren Inhaber Sie sind, oder denen Anzeigen auf Sites präsentiert werden, deren Inhaber Sie nicht sind.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
+In Analytics-Implementierungen werden Drittanbieter-Cookies für domainübergreifendes Tracking und für Werbezwecke wie Retargeting-Anzeigen verwendet. Mit Third-Party-Cookies können Sie Besucher identifizieren, die verschiedene Domains besuchen, deren Inhaber Sie sind, oder denen Anzeigen auf Sites präsentiert werden, deren Inhaber Sie nicht sind.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
 ### Erstanbieter-Cookies
 
 First-Party-Cookies sind Domain-spezifisch und werden von Kunden-Websites erstellt und in Client-Browsern gespeichert, wenn Benutzer die Websites besuchen. Alle Browser akzeptieren im Allgemeinen First-Party-Cookies, obwohl [Safari das Ablaufen einiger First-Party-Cookie-Typen](#limitations-first-party-cookies) begrenzt.
 
-In Analytics-Implementierungen werden First-Party-Cookies verwendet, um Benutzer zu identifizieren, wenn sie sich auf Ihrer Site befinden. Daher werden sämtliche Analysen von Benutzeraktivitäten unterstützt. Sie benötigen keine Third-Party-Cookies, um die Aktivitäten auf der Site zu verstehen.
+In Analytics-Implementierungen werden First-Party-Cookies verwendet, um Benutzer zu identifizieren, wenn sie sich auf Ihrer Site befinden. Daher werden sämtliche Analysen von Benutzeraktivitäten unterstützt. Sie benötigen keine Drittanbieter-Cookies, um die Aktivität auf der Site zu verstehen.
 
 Weitere Informationen finden Sie unter [Informationen zu Erstanbieter-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=de).
 
@@ -123,7 +123,7 @@ Weitere Informationen finden Sie unter [Informationen zu Erstanbieter-Cookies](h
 
 ## Was ist das SameSite-Cookie-Attribut und wie wirkt es sich auf Analytics-Cookies aus? {#samesite-effect}
 
-Seit der Veröffentlichung des Chrome 80-Browsers im Februar 2020 – und der darauf folgenden Versionen der Browser Firefox und Edge – erzwingt das SameSite-Cookie-Attribut die Spezifikation für drei verschiedene Werte, die steuern, ob Cookies in einem Third-Party-Kontext verwendet werden können:
+Seit der Veröffentlichung des Chrome 80-Browsers im Februar 2020 – und der darauf folgenden Versionen der Browser Firefox und Edge – erzwingt das SameSite-Cookie-Attribut die Spezifikation für drei verschiedene Werte, die steuern, ob Cookies in einem Drittanbieter-Kontext verwendet werden können:
 
 * `None`: Diese Einstellung ermöglicht den Site-übergreifenden Zugriff und die Weitergabe von Cookies in einem Drittanbieterkontext. Um dieses Attribut anzugeben, müssen Sie auch `Secure` angeben und alle Browser-Anfragen müssen HTTPS nutzen. Beim Einstellen des Cookies verbinden Sie beispielsweise die Werte des Attributs wie folgt: `Set-Cookie: example_session=test12; SameSite=None; Secure`. Wenn Cookies nicht richtig beschriftet sind, sind sie für die neueren Browser nicht verwendbar und werden abgelehnt.
 
@@ -141,7 +141,7 @@ Bei Kundinnen und Kunden, die ältere Analytics-IDs verwenden (Cookies „`s_vi`
 
 >[!NOTE]
 >
->Wenn Sie mehrere Domains besitzen und denselben CNAME für die Datenerfassung in all Ihren Domains verwenden, wird das Cookie in diesen anderen Domains als Third-Party-Cookie behandelt. Wenn Sie ältere Analytics-IDs verwenden, sollten Sie Ihre Einstellung zu `SameSite=None` aktualisieren, damit diese Cookies für alle Ihre Sites gemeinsam genutzt werden können. Weitere Informationen finden Sie unter „[Ändern des SameSite-Werts bei Verwendung eines CNAME für mehrere Domains](#samesite-one-cname)“ im nächsten Abschnitt.
+>Wenn Sie mehrere Domains besitzen und denselben CNAME für die Datenerfassung in all Ihren Domains verwenden, wird das Cookie in diesen anderen Domains als Drittanbieter-Cookie behandelt. Wenn Sie ältere Analytics-IDs verwenden, sollten Sie Ihre Einstellung zu `SameSite=None` aktualisieren, damit diese Cookies für alle Ihre Sites gemeinsam genutzt werden können. Weitere Informationen finden Sie unter „[Ändern des SameSite-Werts bei Verwendung eines CNAME für mehrere Domains](#samesite-one-cname)“ im nächsten Abschnitt.
 
 Bei Browsern, die laut Google Cookies falsch verarbeiten, wenn `SameSite` auf `None` eingestellt ist, wird `SameSite` nicht festgelegt.
 
@@ -149,7 +149,7 @@ Die folgende Tabelle fasst die SameSite-Attribute für Analytics-Cookies zusamme
 
 ![Cookie-Tabelle](/help/technotes/assets/cookies1.png)
 
-### Wie können die Anforderungen für das SameSite-Attribut auf meiner Site erfüllt werden?
+### Wie können die Anforderungen für das „SameSite“-Attribut auf meiner Site erfüllt werden?
 
 #### Bereitstellen aller Seiten Ihrer Site mit HTTPS
 

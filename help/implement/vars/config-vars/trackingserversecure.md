@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '747'
 ht-degree: 11%
 ---
 # trackingServerSecure
@@ -102,15 +102,15 @@ Einzelheiten zu [&#x200B; einzelnen Optionen, einschließlich der Suche nach &#x
 
 Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument](../../prepare/solution-design.md) zu speichern, um die Konsistenz in Ihrem gesamten Unternehmen zu gewährleisten.
 
-## Auswirkungen der Nichtverwendung des Besucher-ID-Service oder Experience Platform Identity Services
+## Auswirkungen der Nichtverwendung des Besucher-ID-Service oder Web-SDK {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe empfiehlt dringend, in allen Implementierungen ECID als primäre Form der Besucheridentität zu verwenden. Die Erfassung von ECIDs kann je nach Implementierungstyp auf verschiedene Arten implementiert werden:
 
 * Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
 * Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
-* Implementierungen, die eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwenden, schließen automatisch den Experience Platform Identity Service ein. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
+* Implementierungen, die eine beliebige Form der Web-SDK verwenden (`alloy.js` oder die Web-SDK-Tag-Erweiterung), enthalten automatisch die Edge Network-Identität. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
 
 **Wenn Ihre Implementierung keine ECIDs verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
 
-* Wenn Sie den Besucher-ID-Dienst oder Experience Platform Identity Service nicht verwenden, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
+* Wenn Sie weder den Besucher-ID-Dienst noch den Web-SDK verwenden, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
 * Internes Linktracking und Activity Map sind möglicherweise weniger zuverlässig.

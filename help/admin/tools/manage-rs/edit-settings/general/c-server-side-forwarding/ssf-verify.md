@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 33%
+source-wordcount: '247'
+ht-degree: 17%
 ---
 # So überprüfen Sie die Implementierung der Server-seitigen Weiterleitung
 
@@ -50,7 +50,7 @@ So überprüfen Sie den Status der Server-seitigen Weiterleitung:
 
 >[!CAUTION]
 >
->Wenn die Antwort das Schlüssel/Wert-Paar „`"status":"SUCCESS"`“ oder ein 2-x-2-Bild enthält, ist die serverseitige Weiterleitung nicht korrekt konfiguriert. Stellen Sie sicher, dass der Identity Service ordnungsgemäß bereitgestellt ist, dass Sie das AppMeasurement-Modul bereitgestellt haben, dass die jeweilige Report Suite der korrekten Organisations-ID zugewiesen wurde und dass die Server-seitige Weiterleitung in den Analytics Admin Tools aktiviert wurde.
+>Wenn die Antwort das Schlüssel/Wert-Paar „`"status":"SUCCESS"`“ oder ein 2-x-2-Bild enthält, ist die serverseitige Weiterleitung nicht korrekt konfiguriert. Stellen Sie sicher, dass der Besucher-ID-Service ordnungsgemäß bereitgestellt ist, dass Sie das App-Messmodul bereitgestellt haben, dass die entsprechende Report Suite der richtigen Organisations-ID zugeordnet wurde und dass die Server-seitige Weiterleitung in den Analytics Admin Tools aktiviert wurde.
 
 >[!MORELIKETHIS]
 >

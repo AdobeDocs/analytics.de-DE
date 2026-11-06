@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 56%
+source-wordcount: '778'
+ht-degree: 48%
 ---
 # Entfernen von Bots in Adobe Analytics
 
@@ -54,9 +54,9 @@ Weitere Informationen finden Sie unter [Grundlegendes zu und Konfigurieren von B
 
 Da Bots sich schnell wandeln, bietet Adobe außerdem mehrere leistungsstarke Funktionen, die, wenn sie richtig und regelmäßig kombiniert werden, dazu beitragen können, diese Feinde der Datenqualität zu beseitigen. Zu diesen Funktionen gehören: Besucher-ID-Service, Segmentierung, Data Warehouse, Kundenattribute und Virtual Report Suites. Im Folgenden finden Sie eine Übersicht darüber, wie Sie diese Tools nutzen können.
 
-### Schritt 1: Experience Cloud ID Ihrer Besucher in eine neue deklarierte ID übertragen
+### Schritt 1: ECID Ihrer Besucher in eine neue deklarierte ID übertragen {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-Erstellen Sie zunächst eine neue deklarierte ID im [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de). Übertragen Sie die Experience Cloud ID Ihres Besuchers in diese neue deklarierte ID. Mit [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) ist dies schnell und einfach möglich. Verwenden wir den Namen „ECID“ für die deklarierte ID.
+Erstellen Sie zunächst eine neue deklarierte ID im [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de). Übertragen Sie die ECID Ihres Besuchers in diese neue deklarierte ID. Mit (Tags [&#x200B; Adobe Experience Platform) ist dies schnell und einfach &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de). Verwenden wir den Namen „ECID“ für die deklarierte ID.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Nachdem die ECID Ihres Besuchers in eine deklarierte ID übertragen wurde, könn
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### Schritt 3: Alle [!DNL Experience Cloud IDs] aus dem Segment über Data Warehouse exportieren
+### Schritt 3: Alle [!DNL ECIDs] aus dem Segment über Data Warehouse exportieren {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-Nachdem Sie die Bots anhand von Segmenten identifiziert haben, ist der nächste Schritt die Nutzung von Data Warehouse, um alle mit diesem Segment verbundenen Experience Cloud IDs zu extrahieren. Richten Sie Ihre [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)-Anfrage wie in dem Screenshot gezeigt ein:
+Nachdem Sie die Bots mithilfe von Segmenten identifiziert haben, besteht der nächste Schritt darin, Data Warehouse zu verwenden, um alle mit diesem Segment verknüpften ECIDs zu extrahieren. Richten Sie Ihre [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)-Anfrage wie in dem Screenshot gezeigt ein:
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 

@@ -40,20 +40,20 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 92%
 ---
 # Häufig gestellte Fragen zur Implementierung von Analytics
 
 Häufig gestellte Fragen zur Implementierung sowie Links zu weiteren Informationen.
 
-## Was ist der Unterschied zwischen der Experience Cloud-Besucher-ID und der Analytics-Besucher-ID?
+## Was ist der Unterschied zwischen der ECID und der Analytics-Besucher-ID? {#what-is-the-difference-between-the-experience-cloud-visitor-id-and-analytics-visitor-id}
 
-Der Identity Service weist eine eindeutige, beständige Kennung zu, die von anderen Lösungen in CX Enterprise gemeinsam genutzt werden kann. Die Analytics-Besucher-ID wird nur von Analytics verwendet. Adobe empfiehlt, den Experience Cloud-Besucher-ID-Dienst in Ihrer Implementierung zu verwenden.
+Der Identity Service weist eine eindeutige, beständige Kennung zu, die von anderen Lösungen in CX Enterprise gemeinsam genutzt werden kann. Die Analytics-Besucher-ID wird nur von Analytics verwendet. Adobe empfiehlt die Verwendung des Besucher-ID-Service in Ihrer Implementierung.
 
-## Wie wird Heartbeat-Video-Tracking implementiert?
+## Wie implementiere ich Heartbeat-Video-Tracking?
 
 Weitere Informationen finden Sie unter [Messen von Audio und Video in Adobe Analytics](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
 

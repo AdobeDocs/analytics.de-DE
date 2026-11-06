@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 67%
+source-wordcount: '939'
+ht-degree: 64%
 ---
 # Namespaces
 
@@ -73,7 +73,7 @@ Es ist auch möglich, `"namespaceId": 10` anstelle von oder zusätzlich zu `"nam
 }
 ```
 
-Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, einen Unterstrich oder einen Doppelpunkt getrennt werden. Vorangestellte Nullen sollten hinzugefügt werden, wenn beide Zahlen nicht genügend Ziffern haben.
+Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-stelligen Dezimalzahlen angegeben werden. Die Zahlen sollten durch einen Bindestrich, einen Unterstrich oder einen Doppelpunkt getrennt werden. Vorangestellte Nullen sollten hinzugefügt werden, wenn eine der beiden Zahlen nicht genügend Ziffern hat.
 
 ## Identity Service-Cookie
 
@@ -85,13 +85,13 @@ Der Wert sollte in Form von zwei 16-stelligen Hexadezimalzahlen oder zwei 19-ste
 }
 ```
 
-Der Wert muss in Form einer 38-stelligen Dezimalzahl angegeben werden. Wenn Sie diese Zahl aus den beiden Spalten „mcvisid\_high/low“ oder „post\_msvisid\_high/low“ aus einem Daten-Feed- oder Data Warehouse-Bericht beziehen, müssen Sie jede der beiden Zahlen mit Nullen auf 19 Stellen auffüllen und sie dann mit dem hohen Wert voran verknüpfen.
+Der Wert muss in Form einer 38-stelligen Dezimalzahl angegeben werden. Wenn Sie diese Zahl aus den beiden Spalten „mcvisid_high/low“ oder „post_msvisid_high/low“ aus einem Datenfeed- oder Data Warehouse-Bericht beziehen, müssen Sie jede der beiden Zahlen mit Nullen auf 19 Stellen auffüllen und sie dann verknüpfen, wobei der High-Wert zuerst steht.
 
 Es ist auch möglich, `"namespaceId": 4` anstelle von oder zusätzlich zu `"namespace": "ECID"` zu verwenden. Auch andere Adobe-Produkte können diese Form verwenden.
 
 >[!NOTE]
 >
->Die Experience Cloud ID (ECID) wurde früher als Marketing Cloud ID (MCID) bezeichnet. Dementsprechend findet sich dieser Name noch in älteren Dokumentationen.
+>Die ECID wurde früher als Marketing Cloud ID (MCID) bezeichnet und wird in einigen bestehenden Dokumentationen immer noch mit diesem Namen bezeichnet.
 >
 >Diese IDs sind die einzigen von Analytics unterstützten IDs, die für „type“ einen anderen Wert verwenden als „analytics“.
 
@@ -113,7 +113,7 @@ Der JavaScript-Code füllt den JSON-Abschnitt mit anderen Schlüssel-Wert-Paaren
 
 Der Namespace ist auch für die benutzerdefinierte Besucher-ID vordefiniert.
 
-## IDs in benutzerspezifischen Variablen
+## IDs in benutzerdefinierten Variablen
 
 ```json
 {
@@ -128,13 +128,13 @@ Der Namespace ist auch für die benutzerdefinierte Besucher-ID vordefiniert.
 }
 ```
 
-Bei IDs in benutzerspezifischen Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einer ID-DEVICE- oder ID-PERSON-Kennzeichnung versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
+Bei IDs in benutzerdefinierten Traffic- oder Konversionsvariablen (Props oder eVars) müssen Sie die Variable mit einem ID-DEVICE- oder ID-PERSON-Label versehen und diesem ID-Typ daraufhin einen eigenen Namespace-Namen zuweisen. Siehe [Namespace-Bereitstellung beim Beschriften einer Variablen als ID-DEVICE oder ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
 
 Sie können auch Namespaces sehen, die Sie zuvor für andere Variablen oder Report Suites definiert haben, und einen dieser Namespaces wiederverwenden, sodass derselbe Namespace problemlos für alle Ihre Report Suites verwendet werden kann, die diesen ID-Typ speichern. Es ist auch möglich, denselben Namespace mehreren Variablen innerhalb einer Report Suite zuzuweisen. Einige Kunden speichern beispielsweise eine CRM-ID in einer Traffic-Variablen und eine Konversionsvariable (je nach Seite ist sie manchmal in der einen oder der anderen oder in beiden) und können den Namespace „CRM-ID“ beiden Variablen zuweisen.
 
 >[!TIP]
 >
->Vermeiden Sie bei der Namespace-Angabe für die Data Privacy-API die Verwendung des Anzeigenamens einer Variablen (der auf der Benutzeroberfläche für das Reporting angezeigte Name) oder die Nummer der Variablen (z. B. eVar12), es sei denn, es handelt sich um den Namespace, den Sie beim Anwenden der Beschriftung ID-DEVICE oder ID-PERSON angegeben haben. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden. Dies ist beispielsweise der Fall, wenn die ID in manchen Report Suites in unterschiedlichen eVars ist oder die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigename für eine bestimmte Report Suite lokalisiert wurde).
+>Vermeiden Sie bei der Namespace-Angabe für die Data-Privacy-API die Verwendung des Anzeigenamens einer Variablen (der auf der Benutzeroberfläche für das Reporting angezeigte Name) oder die Nummer der Variablen (z. B. eVar12), es sei denn, es handelt sich um den Namespace, den Sie beim Anwenden des ID-DEVICE- oder ID-PERSON-Labels angegeben haben. Durch die Verwendung eines Namespace anstelle eines Anzeigenamens kann mithilfe desselben Benutzeridentitätsblocks die korrekte Variable für mehrere Report Suites angegeben werden. Dies ist beispielsweise der Fall, wenn die ID in manchen Report Suites in unterschiedlichen eVars ist oder die Anzeigenamen nicht übereinstimmen (z. B. wenn der Anzeigenname für eine bestimmte Report Suite lokalisiert wurde).
 
 >[!CAUTION]
 >

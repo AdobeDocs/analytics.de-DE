@@ -1,6 +1,6 @@
 ---
-description: Informieren Sie sich über die Richtlinien und Empfehlungen für die Zustimmung der Benutzer zum Speichern oder Lesen von nicht erforderlichen Cookies auf Geräten oder Browsern.
-title: Was sind die CNIL-Richtlinien für Cookies und die Zustimmung der Benutzer?
+description: Informieren Sie sich über die Richtlinien und Empfehlungen für das Einverständnis der Benutzenden zum Speichern oder Lesen von nicht erforderlichen Cookies auf Geräten oder Browsern.
+title: Was sind die CNIL-Richtlinien für das Einverständnis der Benutzenden und Cookies?
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
@@ -38,40 +38,40 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '772'
+ht-degree: 90%
 ---
 # CNIL-Zustimmungsfreistellung
 
-Am 1. Oktober 2020 veröffentlichte die französische Datenschutzbehörde (im Folgenden „CNIL“) eine überarbeitete Fassung ihrer Cookie-Leitlinien (im Folgenden „Leitlinien“) und ihrer abschließenden Empfehlungen zur Einholung der Zustimmung der Benutzenden zum Speichern oder Lesen nicht unerlässlicher Cookies und ähnlicher Technologien auf Geräten oder Browsern der Benutzenden (im Folgenden „Empfehlungen“).
+Am 1. Oktober 2020 veröffentlichte die französische Datenschutzbehörde (im Folgenden „CNIL“) eine überarbeitete Fassung ihrer Cookie-Leitlinien (im Folgenden „Leitlinien“) und ihre abschließenden Empfehlungen zur Einholung des Einverständnisses der Benutzenden zum Speichern oder Lesen nicht unerlässlicher Cookies und ähnlicher Technologien auf Geräten oder Browsern der Benutzenden (im Folgenden „Empfehlungen“).
 
-Die Leitlinien sehen eine begrenzte Freistellung von der Zustimmungspflicht vor („Zustimmungsfreistellung“). Die Zustimmungsfreistellung gilt für Analytics-Cookies, deren Zweck nur auf die Messung der Zielgruppe der Site oder Mobile App im Auftrag des Web-Herausgebers beschränkt ist. Die Leitlinien sehen vor, dass für die Anwendung der Zustimmungsfreistellung die folgenden Bedingungen erfüllt sein müssen:
+Die Leitlinien sehen eine begrenzte Freistellung von der Einverständnispflicht vor („Einverständnisfreistellung“). Die Einverständnisfreistellung gilt für Analytics-Cookies, deren Zweck nur auf die Messung der Zielgruppe der Site oder Mobile App im Auftrag des Web-Publishers beschränkt ist. Die Leitlinien sehen vor, dass für die Anwendung der Einverständnisfreistellung die folgenden Bedingungen erfüllt sein müssen:
 
-* Maximale Datenaufbewahrung über 25 Monate.  Sie können Ihre aktuellen Einstellungen für die Datenaufbewahrung unter [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Data Governance] überprüfen.  [Datenaufbewahrung](/help/technotes/data-retention.md)
-* Deaktivieren Sie Drittanbieter-Cookies in Experience Cloud Identifier. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=de#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=de#id-service-api) und [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=de#id-service-api)
+* Maximale Datenspeicherung über 25 Monate.  Sie können Ihre aktuellen Einstellungen für die Datenaufbewahrung unter [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Data Governance] überprüfen.  [Datenaufbewahrung](/help/technotes/data-retention.md)
+* Deaktivieren Sie Cookies von Drittanbietern im Besucher-ID-Dienst. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=de#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=de#id-service-api) und [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=de#id-service-api)
 * Cookie-Beschränkung auf 13 Monate.  Mit der Variablen `cookieLifetime` können Sie den Ablauf Ihres Analytics-Cookies überschreiben. CX Enterprise-Cookies, einschließlich Analytics und ECID, verlängern das Cookie-Ablaufdatum mit jedem Besuch.  Um einen statischen, nicht rollierenden Cookie-Ablauf festzulegen, haben Sie folgende Möglichkeiten: (1) Schreiben Sie benutzerdefinierten Code, um ein Datum festzulegen, an dem das Cookie gelöscht werden soll, oder (2) verwenden Sie Ihre CMP, um das Datum des Zurücksetzens des Cookies zu steuern.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) und [CX Enterprise-Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=de#ec-cookies)
 * Eingeschränkter Umfang. Der Umfang des Cookies muss auf eine einzelne Site oder Anwendung beschränkt sein. [Browsercookies](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anonymisierung. Anonymisieren des letzten Oktetts der IP-Adresse. [Allgemeine Kontoeinstellungen](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Besucher-ID aus Berichten ausblenden.  Die Besucher-IDs sind in Adobe Workspace und Adobe Reports &amp; Analytics standardmäßig nicht sichtbar.  Besucher-IDs stehen in Daten-Feeds und Data Warehouse zur Verfügung.  Der Zugriff auf Daten-Feeds und Data Warehouse kann durch [Zugriffsberechtigungen in der Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=de) und die [Daten-Feed-Spaltenreferenz](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) beschränkt werden
 * Geopositionsparameter. Die Geoposition darf nicht präziser sein als Postleitzahlen. [Zip-Option](/help/implement/vars/page-vars/zip.md) und [Allgemeine Kontoeinstellungen](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* Legen Sie die Opt-in-Optionen fest.  Mit dem Opt-in-Service können Sie Besucherprotokolle einrichten, um zu bestimmen, ob Sie ein Cookie auf dem Gerät oder Browser der Benutzenden erstellen können, wenn diese Ihre Website besuchen. [Opt-in-Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de)
+* Legen Sie die Opt-in-Optionen fest.  Mit dem Opt-in-Service können Sie Besucherprotokolle festlegen, um zu bestimmen, ob Sie ein Cookie auf dem Gerät oder im Browser der Benutzenden setzen können, wenn diese Ihre Site besuchen. [Opt-in-Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=de)
 * Datenfreigabe verhindern.  Um die Datenfreigabe für Adobe Audience Manager auszuschließen, verwenden Sie die Kontextvariable `opt.dmp` für [Privacy Reporting](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md), um zu verhindern, dass Treffer freigegeben werden.
 * Zugriffs- und Löschmöglichkeit. Verwenden Sie den Privacy Service für Zugriffs- und Löschanforderungen. [Analytics &amp; Privacy Service](gdpr.md)
 
 ## Zusätzliche Überlegungen zur Datenerfassung
 
-Es gelten zusätzlich folgende Überlegungen:
+Die folgenden zusätzlichen Aspekte gelten:
 
-* Adobe Analytics betreibt Datenverarbeitungszentren in den USA, Großbritannien und Singapur, um der gesamten Kundschaft Flexibilität bei der Erfassung, Verarbeitung und Speicherung ihrer Daten auf regionaler Ebene zu bieten. Bei der Konfiguration der erstmaligen Einrichtung von Adobe Analytics können Kundinnen und Kunden den gewünschten Standort des Rechenzentrums auswählen. Die Daten der Kundinnen und Kunden werden letztendlich in ihrer ausgewählten Region für das Analytics-Hauptprodukt gespeichert.
-* Ziehen Sie in Erwägung, den Opt-in-Status in einer Analytics-Variablen zu erfassen, um Opt-in-Daten und Opt-out-Daten bei der Segmentierung oder bei Virtual Report Suites zu trennen oder zu separaten Endpunkten weiterzuleiten.
+* Adobe Analytics betreibt Datenverarbeitungszentren in den USA, Großbritannien und Singapur, um der gesamten Kundschaft Flexibilität bei der Erfassung, Verarbeitung und Speicherung ihrer Daten auf regionaler Ebene zu bieten. Bei der Konfiguration der erstmaligen Einrichtung von Adobe Analytics können Kunden und Kundinnen den gewünschten Standort des Datenverarbeitungszentrums auswählen. Die Daten der Kundinnen und Kunden werden letztendlich in ihrer ausgewählten Region für das Analytics-Hauptprodukt gespeichert.
+* Erfassen Sie den Opt-in-Status in einer Analytics-Variablen, um Opt-in-Daten und Opt-out-Daten für die Segmentierung, virtuelle Report Suites oder die Weiterleitung an separate Endpunkte zu trennen.
 * Keine Messung außerhalb der Site oder App ohne vorherige Zustimmung, z. B. keine Offsite-Kampagnen, E-Mail-Kampagnen oder iFrames.
 * Die Erfassung personenbezogener Daten in Variablen ist ohne Zustimmung nicht gestattet. [Steuern von CX Enterprise-Aktivitäten auf Grundlage des Benutzereinverständnisses](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de#implementing-opt-in-on-the-page)
 * Daten dürfen nur zur Erstellung anonymer Statistiken verwendet werden, wobei sie nicht mit anderen Daten kombiniert werden dürfen.
 * Die Daten werden nicht für Querverweisaktionen verwendet.
 * GPS-Geopositionsdaten werden nicht erfasst.
-* Wenn die Endbenutzer-Einwilligung erteilt wurde, können die oben genannten Einstellungen geändert und die Einschränkungen gelockert werden.
+* Wenn das Einverständnis der Endbenutzenden erteilt wurde, können die oben genannten Einstellungen geändert und die Einschränkungen gelockert werden.
 
 >[!IMPORTANT]
 >

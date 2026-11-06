@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # Besucher mit Experience Cloud ID
 
-Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview.md) Anzahl der Unique Visitors an, die von Adobe mit einer ECID identifiziert wurden (mithilfe des [Besucher-ID-](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home)). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site eine ECID verwendet. Wenn ein großer Teil der Besucher diese Kennung nicht verwendet, kann dies auf ein Problem innerhalb Ihrer Implementierung hinweisen.
+Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview.md) Anzahl der Unique Visitors an, die von Adobe mit einer ECID identifiziert wurden (mithilfe des [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/overview)). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site eine ECID verwendet. Wenn ein großer Teil der Besucher diese Kennung nicht verwendet, kann dies auf ein Problem innerhalb Ihrer Implementierung hinweisen.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit d
 
 ## Debuggen des ECID-Setups
 
-Die Metrik [!UICONTROL Besucher mit Experience Cloud-ID]&quot; kann bei der Fehlerbehebung bei CX Enterprise-Integrationen oder bei der Identifizierung von Bereichen Ihrer Site nützlich sein, für die der Besucher-ID-Service oder Experience Platform Identity Service nicht bereitgestellt ist.
+Die Metrik [!UICONTROL Besucher mit Experience Cloud-ID] kann bei der Fehlerbehebung bei CX Enterprise-Integrationen oder bei der Identifizierung von Bereichen Ihrer Site nützlich sein, für die der Besucher-ID-Service oder Web-SDK nicht bereitgestellt sind.
 
 Ziehen Sie &quot;[!UICONTROL Besucher mit Experience Cloud ID]&quot; nebeneinander mit „Unique Visitors“, um sie zu vergleichen:
 

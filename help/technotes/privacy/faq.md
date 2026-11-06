@@ -1,5 +1,5 @@
 ---
-description: Häufig gestellte Fragen zur Data Governance in Adobe Analytics
+description: FAQ zur Data Governance in Adobe Analytics
 title: Häufig gestellte Fragen zu Data Governance
 feature: Data Governance
 role: Admin
@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 86%
 ---
 # Häufig gestellte Fragen zum Datenschutz in Adobe Analytics
@@ -47,13 +47,13 @@ ht-degree: 86%
 
 Wenn verschiedene Datenschutzregeln (DSGVO, CCPA) in Kraft treten, unterstützt Adobe Analytics die Verarbeitung von verifizierten Anfragen, die von Datenverantwortlichen an die CX Enterprise-Datenschutz-API gesendet werden, um einen stärker automatisierten Prozess zu ermöglichen. Die Datenschutz-API von Adobe soll bei der Verarbeitung individueller Rechtsanfragen (z. B. Zugriffs- und Löschanfragen) für die Daten unserer Kunden helfen, die in den Adobe CX Enterprise-Lösungen gespeichert sind. Dies ist flexibel und kann entsprechend der Anzahl der Datenzugriffs- und Löschanfragen skaliert werden, die Ihr Unternehmen von Datensubjekten erhält.
 
-Zudem ermöglicht die Datenschutz-API den Kundinnen und Kunden, zu überprüfen, inwiefern die Datenzugriffs- und Löschanfragen erfüllt werden. Weitere Informationen finden Sie in der Dokumentation zur [Privacy Service-API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Zudem ermöglicht die Datenschutz-API den Kunden und Kundinnen, den Status der Erfüllung von Datenzugriffs- und Löschanfragen zu überprüfen. Weitere Informationen finden Sie in der Dokumentation zur [Privacy Service-API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 +++
 
 +++ **Wer ist für das Empfangen, Akzeptieren und Erfüllen von Datenschutz-Anfragen von Endbenutzenden zuständig?**
 
-Der oder die Datenverantwortliche ist allein dafür verantwortlich, Anfragen zu empfangen und zu akzeptieren. Der oder die Datenverantwortliche validiert die Identität des Datensubjekts und erfüllt dann die Anfrage. Zu dieser Verantwortung kann gehören, Adobe mit den IDs der betroffenen Personen zu kontaktieren, die mit in Adobe Analytics gespeicherten Daten verknüpft sein können.
+Der oder die Datenverantwortliche ist allein dafür verantwortlich, Anfragen zu empfangen und zu akzeptieren. Der oder die Datenverantwortliche validiert die Identität der betroffenen Person und erfüllt dann die Anfrage. Zu dieser Verantwortung kann gehören, Adobe mit den IDs der betroffenen Personen zu kontaktieren, die mit in Adobe Analytics gespeicherten Daten verknüpft sein können.
 
 Adobe muss als Auftragsverarbeiter den Datenverantwortlichen oder die Datenverantwortliche angemessen dabei unterstützen, verifizierte Anfragen innerhalb einer akzeptablen Zeitspanne zu verarbeiten.
 
@@ -63,21 +63,21 @@ Adobe muss als Auftragsverarbeiter den Datenverantwortlichen oder die Datenveran
 
 Die Datenverantwortlichen bestimmen, wie die Identität bei Anfragen von betroffenen Personen aufgelöst wird. Ziehen Sie die Bereitstellung des Tags zum Abrufen der Datenschutz-ID von Adobe in Erwägung. Ihre Entwicklungs-Teams sparen Zeit, indem sie unser Tag zum Abrufen der Datenschutz-ID verwenden, um Benutzer-IDs (Cookie-IDs) zu erfassen. Anschließend können sie unsere Datenschutz-API verwenden, um diese Benutzer-IDs zur Verarbeitung von Datenschutzanfragen an die entsprechenden Lösungen in Adobe CX Enterprise zu senden. Die Datenschutz-API kann eine Vielzahl von Benutzer-IDs in mehreren Adobe-Lösungen unterstützen.
 
-Wenn eine betroffene Person eine Anfrage zusammen mit einer Kennzeichnung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennzeichnung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der [Analytics-Dokumentation zu Namespaces](/help/admin/tools/privacy-labeling/namespaces.md).
+Wenn eine betroffene Person eine Anfrage zusammen mit einer Kennung (benutzerdefinierte Variable – Prop oder eVar) sendet, prüft Adobe Analytics den gesamten gespeicherten Verlauf der Daten, die für die jeweilige Kennung erfasst wurden. Weitere Informationen zum Konfigurieren von benutzerdefinierten IDs, die in Props oder eVars von Analytics gespeichert sind, finden Sie in der [Analytics-Dokumentation zu Namespaces](/help/admin/tools/privacy-labeling/namespaces.md).
 
 +++
 
 +++ **Wie kann Adobe Analytics Data Governance bei der Verarbeitung von Datenschutzanfragen helfen?**
 
-Data Governance ist ein neues Tool in Adobe Analytics, das Datenverantwortlichen die Möglichkeit bietet, Datenkontrollen und Klassifizierungen auf ihre Analytics-Daten anzuwenden. Dank dieses neuen Tools können Adobe-Kunden die Verarbeitung ihrer Datenschutzanfragen zum Datenzugriff und zur Datenlöschung anpassen. In der Data Governance-Konsole können Administratoren die gewünschten Einstellungen definieren, die auf verschiedene Datenspalten in Adobe Analytics angewendet werden sollen. Nachdem diese Beschriftungen definiert wurden, berücksichtigt und verarbeitet Adobe die nachfolgenden Zugriffs- oder Löschanfragen gemäß den gewünschten Beschriftungseinstellungen des Kunden. Der oder die Datenverantwortliche ist dafür zuständig, diese Kennzeichnungseinstellungen zu überprüfen und sich mit ihren Rechtsvertretern darüber zu beraten.
+Data Governance ist ein neues Tool in Adobe Analytics, das Datenverantwortlichen die Möglichkeit bietet, Datenkontrollen und Klassifizierungen auf ihre Analytics-Daten anzuwenden. Dank dieses neuen Tools können Adobe-Kunden die Verarbeitung ihrer Datenschutzanfragen zum Datenzugriff und zur Datenlöschung anpassen. In der Data Governance-Konsole können Administratoren die gewünschten Einstellungen definieren, die auf verschiedene Datenspalten in Adobe Analytics angewendet werden sollen. Nachdem diese Labels definiert wurden, berücksichtigt und verarbeitet Adobe alle nachgelagerten Zugriffs- oder Löschanfragen gemäß den gewünschten Label-Einstellungen des Kunden oder der Kundin. Der oder die Datenverantwortliche ist dafür zuständig, diese Label-Einstellungen zu prüfen und sich mit seinen Rechtsvertretern und Rechtsvertreterinnen darüber zu beraten.
 
-Das Data Governance-Tool beinhaltet die folgenden Datenkennzeichnungen:
+Das Data Governance-Tool enthält die folgenden Datenlabels:
 
 * **Kennzeichnungen für Identitätsdaten**: Werden zum Klassifizieren von Daten verwendet, mit deren Hilfe eine Einzelperson direkt oder in Kombination mit anderen Daten identifiziert werden kann. (None, I1, I2)
 
-* **Kennzeichnungen für vertrauliche Daten**: Werden zum Klassifizieren von Daten verwendet, die unter geltendem Recht als vertraulich definiert werden können. (None, S1, S2) Beachten Sie, dass derzeit die Verwendung vertraulicher Daten in Adobe Analytics generell untersagt ist. Eine Ausnahme stellen präzise, nach geltendem Recht ordnungsgemäß erfasste Standortdaten dar, die in einigen Rechtssystemen möglicherweise als vertrauliche Daten erachtet werden.
+* **Kennzeichnungen für vertrauliche Daten**: Werden zum Klassifizieren von Daten verwendet, die unter geltendem Recht als vertraulich definiert werden können. (None, S1, S2) Beachten Sie, dass derzeit die Verwendung vertraulicher Daten in Adobe Analytics generell untersagt ist. Eine Ausnahme stellen präzise Geolokationsdaten dar, die nach geltendem Recht ordnungsgemäß erfasst wurden und in einigen Rechtssystemen möglicherweise als vertrauliche Daten erachtet werden.
 
-* **Kennzeichnungen für Datenschutzdaten**: Werden zum Definieren der Felder verwendet, die möglicherweise personenbezogene, in Datenschutzanfragen verwendete Kennzeichnungen enthalten oder die im Rahmen der Datenschutz-Löschanfrage entfernt werden sollen. In einigen Fällen können sich diese Kennzeichnungen mit den Kennzeichnungen für Identitätsdaten und vertrauliche Daten überschneiden.
+* **Kennzeichnungen für Datenschutzdaten**: Werden zum Definieren der Felder verwendet, die möglicherweise personenbezogene, in Datenschutzanfragen verwendete Kennzeichnungen enthalten oder die im Rahmen der Datenschutz-Löschanfrage entfernt werden sollen. In einigen Fällen können sich diese Labels mit den Labels für Identität und vertrauliche Daten überschneiden.
 
 Weitere Informationen zu den Data-Governance-Labels finden Sie unter [Datenschutzkennzeichnungen für Analytics-Variablen](/help/admin/tools/privacy-labeling/labels.md).
 
@@ -85,15 +85,15 @@ Weitere Informationen zu den Data-Governance-Labels finden Sie unter [Datenschut
 
 +++ **Wie kann ich überprüfen, ob die Privacy Service-Anfragen ordnungsgemäß funktionieren, um Daten aus Adobe Analytics zu löschen?**
 
-In der Regel richten Kundinnen und Kunden von Analytics einige Report Suites zum Testen ein, um die Funktionalität zu überprüfen, bevor sie Ressourcen der Öffentlichkeit zur Verfügung stellen. Bevor echter Traffic an die Produktions-Report-Suites gesendet wird, senden Staging-Websites und -Apps die Daten an die entsprechenden Test-, Entwicklungs- oder QS-Report-Suites, um zu überprüfen, wie sie nach Veröffentlichung des Codes funktionieren werden.
+In der Regel richten Kundinnen und Kunden von Analytics einige Report Suites zum Testen ein, um die Funktionalität zu überprüfen, bevor sie Ressourcen der Öffentlichkeit zur Verfügung stellen. Bevor echter Traffic an die Produktions-Report Suites gesendet wird, senden Staging-Websites und -Apps Daten an die entsprechenden Test-, Entwicklungs- oder QS-Report Suites, um zu prüfen, wie alles nach Veröffentlichung des Codes funktionieren wird.
 
-Mit einer normalen Konfiguration kann die Verarbeitung von DSGVO-Anfragen jedoch nicht erst an diesen Test-Report-Suites getestet werden, bevor sie auf die Produktions-Report-Suites angewendet wird. Dies liegt daran, dass eine Datenschutzanfrage automatisch auf alle Report Suites in der CX Enterprise-Organisation angewendet wird, was häufig alle Report Suites für Ihr Unternehmen ist.
+Mit einer normalen Konfiguration kann die Verarbeitung von DSGVO-Anfragen jedoch nicht erst an diesen Test-Report-Suites getestet werden, bevor sie auf die Produktions-Report-Suites angewendet wird. Dies liegt daran, dass eine Datenschutzanfrage automatisch auf alle Report Suites in der Adobe-Organisation angewendet wird, was häufig alle Report Suites für Ihr Unternehmen ist.
 
 Es gibt jedoch einige Möglichkeiten, wie Sie Ihre Datenschutzverarbeitung vor der Anwendung auf all Ihre Report Suites testen können:
 
-* Eine Option besteht darin, eine separate CX Enterprise-Organisation einzurichten, die nur Test-Report-Suites enthält. Verwenden Sie dann diese CX Enterprise-Organisation für Ihre Datenschutztests und Ihre normale CX Enterprise-Organisation für die tatsächliche Datenschutzverarbeitung.
+* Eine Option besteht darin, eine separate Organisation einzurichten, die nur Test-Report-Suites enthält. Verwenden Sie diese Organisation dann für Ihre Datenschutztests und Ihre normale Organisation für die tatsächliche Datenschutzverarbeitung.
 
-* Eine weitere Option ist es, den IDs in Ihren Test-Report-Suites andere Namespaces zuzuweisen als in den Produktions-Report-Suites. Sie können beispielsweise jedem Namespace in Ihren Test-Report Suites „qs-“ voranstellen. Wenn Sie Datenschutzanfragen senden, die nur Namespaces mit dem Präfix „qs-“ enthalten, werden diese Anfragen nur im Rahmen Ihrer Test-Report Suites ausgeführt. Wenn Sie die Anfragen später ohne das Präfix senden, werden sie auf Ihre Produktions-Report Suites angewendet. **Dies ist der empfohlene Ansatz, es sei denn, Sie verwenden die Namespaces `visitorId`, AAID, ECID oder `customVisitorId`. Diese Namespaces sind hartcodiert, und Sie können keine alternativen Namen für sie in Ihren Test-Report-Suites angeben.**
+* Eine weitere Option ist es, den IDs in Ihren Test-Report-Suites andere Namespaces zuzuweisen als in den Produktions-Report-Suites. Sie können beispielsweise jedem Namespace in Ihren Test-Report Suites „qa-“ voranstellen. Wenn Sie Datenschutzanfragen senden, die nur Namespaces mit dem Präfix „qa-“ enthalten, werden diese Anfragen nur im Rahmen Ihrer Test-Report Suites ausgeführt. Wenn Sie die Anfragen später ohne das Präfix senden, werden sie auf Ihre Produktions-Report Suites angewendet. **Dies ist der empfohlene Ansatz, es sei denn, Sie verwenden die Namespaces `visitorId`, AAID, ECID oder `customVisitorId`. Diese Namespaces sind hartcodiert, und Sie können keine alternativen Namen für sie in Ihren Test-Report-Suites angeben.**
 
 +++
 
@@ -105,7 +105,7 @@ Eine schrittweise Anleitung zur Vorbereitung auf die Datenschutzregeln finden Si
 
 +++ **Was sollten die Datenverantwortlichen bei der Einwilligung bezüglich der Benutzerinteraktion beachten?**
 
-DSGVO und CCPA bieten gute Möglichkeiten, Ihre Strategie und Ihre Vorgehensweisen für die Einverständnisverwaltung zu überdenken. Dazu gehört, zu bestimmen, wann eine Einwilligung erforderlich ist, und über das Wertversprechen für die Benutzenden nachzudenken. Denken Sie über das Wertversprechen bezüglich des Datenschutzes von Kundinnen und Kunden nach. Dies kann auch für Konversionen und die Kundentreue förderlich sein. Der Bereich der Einverständnisverwaltung (z. B. Tools, Standards, Best Practices) entwickelt sich schnell weiter und sollte im Auge behalten werden. Um die Auswirkungen auf die Benutzerinteraktion zu minimieren, sollten die Verantwortlichen sowohl mit Anbietern in diesem Bereich als auch mit ihrem Rechtsbeistand zusammenarbeiten, um sicherzustellen, dass sie die neuen Gesetze und Richtlinien zu Einverständnis und Cookies befolgen. Ein auf Erfahrungen beruhender Datenschutz mithilfe eines markenbezogenen, kontextabhängigen relevanten Erlebnisses, das das Wertversprechen Ihrer Datenerfassung zum Ausdruck bringt, ist eine gute Strategie.
+DSGVO und CCPA bieten gute Möglichkeiten, Ihre Strategie und Ihre Verfahren für die Einverständnisverwaltung zu überdenken. Dazu gehört, zu bestimmen, wann Einverständnis erforderlich ist, und über das Wertversprechen für die Benutzenden nachzudenken. Denken Sie über das Wertversprechen bezüglich des Datenschutzes von Kundinnen und Kunden nach. Dies kann auch für Konversionen und die Kundentreue förderlich sein. Der Bereich der Einverständnisverwaltung (z. B. Tools, Standards, Best Practices) entwickelt sich schnell weiter und sollte im Auge behalten werden. Um die Auswirkungen auf die Benutzerinteraktion zu minimieren, sollten die Verantwortlichen sowohl mit Anbietern in diesem Bereich als auch mit ihrem Rechtsbeistand zusammenarbeiten, um sicherzustellen, dass sie die neuen Gesetze und Richtlinien zu Einverständnis und Cookies befolgen. Ein auf Erfahrungen beruhender Datenschutz mithilfe eines markenbezogenen, kontextabhängigen relevanten Erlebnisses, das das Wertversprechen Ihrer Datenerfassung zum Ausdruck bringt, ist eine gute Strategie.
 
 Als Datenverantwortliche sind Sie dafür zuständig, die ausdrückliche Einwilligung von den betroffenen Personen einzuholen, bevor Sie Daten über sie erfassen (möglicherweise auch Adobe Analytics-Daten). Zudem liegt es in Ihrer Verantwortung, auf Ihrer Website einen [Opt-out-Mechanismus](https://www.adobe.com/de/privacy/opt-out.html#customeruse) zu implementieren. Dadurch können betroffene Personen die zukünftige Datenerfassung durch Adobe CX Enterprise deaktivieren.
 
@@ -115,7 +115,7 @@ Als Datenverantwortliche sind Sie dafür zuständig, die ausdrückliche Einwilli
 
 Personenbezogene Daten sollten im Allgemeinen nicht länger aufbewahrt werden, als notwendig ist, um den Zweck zu erfüllen, für den sie erfasst wurden. Die Allgemeinen Geschäftsbedingungen von Adobe sehen eine standardmäßige Datenaufbewahrung von 25 Monaten vor, es sei denn, eine andere Datenaufbewahrungsdauer wird vertraglich vereinbart. Kundinnen und Kunden müssen ihre Datenspeicherungsrichtlinien festlegen, bevor Adobe Datenschutzanfragen bearbeiten kann.
 
-Die aktuelle Datenhaltungsrichtlinie jeder Report Suite wird in der neuen Data Governance Admin-Benutzeroberfläche angezeigt. Kundinnen und Kunden sollten sich an den Adobe-Support wenden, wenn sie ihre Richtlinien zur Datenspeicherung anpassen möchten. Lesen Sie die Informationen unter [Häufig gestellte Fragen zur Datenaufbewahrung in Adobe Analytics](/help/technotes/data-retention.md).
+Die aktuelle Datenspeicherungsrichtlinie jeder Report Suite wird in der neuen Data Governance Admin-Benutzeroberfläche angezeigt. Kunden und Kundinnen sollten sich an ihre Adobe-Ansprechperson wenden, wenn sie ihre Richtlinien zur Datenspeicherung anpassen möchten. Lesen Sie die Informationen unter [Häufig gestellte Fragen zur Datenaufbewahrung in Adobe Analytics](/help/technotes/data-retention.md).
 
 +++
 
@@ -137,9 +137,9 @@ Beachten Sie auch die Fälle, in denen Mitarbeitende Adobe Analytics-Berichte mi
 
 Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) soll Ihnen dabei helfen, zeitkritische Datenschutzanfragen zu erfüllen. Die Verwendung dieser API für andere Zwecke wird von Adobe nicht unterstützt und kann die Fähigkeit von Adobe beeinträchtigen, anderen Kundinnen und Kunden von Adobe eine rechtzeitige Bearbeitung von benutzerinitiierten Datenschutzanfragen mit hoher Priorität zu bieten.
 
-Wir möchten Sie bitten, die Datenschutz-API nicht für andere Zwecke zu verwenden, wie z. B. das Löschen von Daten, die versehentlich durch große Besuchergruppen übermittelt wurden. Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Alle eVar-Zuordnungen werden wieder gestartet, ebenso wie Informationen wie Besuchsnummern, Referrer, erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen, in denen Sie Datenfelder löschen möchten, unerwünscht und verdeutlicht einen Grund, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
+Wir möchten Sie bitten, die Datenschutz-API nicht für andere Zwecke zu verwenden, wie z. B. das Löschen von Daten, die versehentlich durch große Besuchergruppen übermittelt wurden. Beachten Sie auch, dass bei jedem Besucher oder jeder Besucherin, für den bzw. für die ein Treffer infolge einer Datenschutz-Löschanfrage gelöscht (aktualisiert oder anonymisiert) wird, die Statusinformationen zurückgesetzt werden. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Alle eVar-Zuordnungen werden wieder gestartet, ebenso wie Informationen wie Besuchsnummern, Referrer, erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen, in denen Sie Datenfelder löschen möchten, unerwünscht und verdeutlicht einen Grund, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe-Accountteam, um sich mit unserem Engineering Architect-Beratungs-Team abzustimmen und weitere Überprüfungen durchzuführen sowie die Bemühungen zur Beseitigung von PII- oder Datenproblemen zu verstärken.
+Wenden Sie sich an Ihr Adobe-Accountteam, um sich mit unserem Engineering-Architect-Consulting-Team abzustimmen, damit weitere Prüfungen vorgenommen und der erforderliche Aufwand für das Entfernen etwaiger PII- oder Datenprobleme angegeben werden kann.
 
 +++
 
@@ -149,7 +149,7 @@ Die [Data Privacy Service-API](https://developer.adobe.com/experience-platform-a
 
 Beachten Sie auch, dass jeder Besucher, der einen Treffer aufgrund einer Datenschutz-Löschanforderung gelöscht (aktualisiert oder anonymisiert) hat, seine Statusinformationen zurücksetzen lässt. Wenn der Besucher das nächste Mal auf Ihre Website zurückkehrt, wird er ein neuer Besucher sein. Alle eVar-Zuordnungen werden wieder gestartet, ebenso wie Informationen wie Besuchsnummern, Referrer, erste besuchte Seite usw. Dieser Nebeneffekt ist in Situationen, in denen Sie Datenfelder löschen möchten, unerwünscht und verdeutlicht einen Grund, warum die Datenschutz-API für diese Verwendung ungeeignet ist.
 
-Wenden Sie sich an Ihr Adobe-Accountteam, um sich mit unserem Engineering Architect-Beratungs-Team abzustimmen und weitere Überprüfungen durchzuführen sowie die Bemühungen zur Beseitigung von PII- oder Datenproblemen zu verstärken.
+Wenden Sie sich an Ihr Adobe-Accountteam, um sich mit unserem Engineering-Architektenteam für Beratung abzustimmen, damit dieses eine weitere Prüfung vornimmt und den erforderlichen Aufwand zur Entfernung etwaiger PII- oder Datenprobleme einschätzt.
 
 +++
 

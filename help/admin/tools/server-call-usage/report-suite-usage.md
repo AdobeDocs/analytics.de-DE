@@ -1,5 +1,5 @@
 ---
-description: Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
+description: Die Registerkarte „Report Suite-Nutzung“ bietet Server-Nutzungsdaten für jede Report Suite für den aktuellen Nutzungszeitraum in allen Anmeldeunternehmen, die mit Ihrem Abrechnungsunternehmen verknüpft sind.
 title: Anzeigen der Nutzung der Report Suite
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 49%
-
+source-wordcount: '432'
+ht-degree: 50%
 ---
-
 # Anzeigen der Nutzung der Report Suite
 
 Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-Nutzung jeder Report Suite aller Anmeldeunternehmen innerhalb der aktuellen Nutzungsperiode, die mit Ihrem Abrechnungsunternehmen zusammenhängen.
@@ -37,11 +35,11 @@ Die Registerkarte „Nutzung der Report Suite“ bietet Daten über die Server-N
 
 >[!IMPORTANT]
 >
->Wenn eine Report Suite nicht mit einer CX Enterprise-Organisation verknüpft ist, werden ihre Nutzungsdaten nicht in diesem Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren CX Enterprise-Organisationen verknüpft sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID.
+>Wenn eine Report Suite nicht mit einer Adobe-Organisation verknüpft ist, werden ihre Nutzungsdaten nicht in diesem Dashboard angezeigt. Außerdem kann eine Abrechnungs-ID mit mehreren Organisationen verknüpft sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID.
 
 Das Report Suite-Nutzungs-Dashboard
 
-* Zeigt die Nutzung der Server-Aufrufe durch den aktuellen Nutzungszeitraum (alle Aufrufe, Primär, Sekundär, mobil, Primär, mobil Sekundär) für jede Report Suite in Ihrem CX Enterprise-Unternehmen.
+* Zeigt die Nutzung der Server-Aufrufe durch den aktuellen Nutzungszeitraum (alle Aufrufe, Primär, Sekundär, mobil, Primär, mobil Sekundär) für jede Report Suite in Ihrem Unternehmen.
 * Zeigt den Prozentsatz der Gesamtauslastung pro Server-Aufrufkategorie.
 * Wird täglich aktualisiert.
 * Ist herunterladbar.
@@ -75,13 +73,13 @@ Mit dieser Option können Sie Nutzungsdaten und Daten aus Zeiträumen vor der ak
 |--- |--- |
 | Dateiname | Hartkodierter Name: Gebrauchsbericht `day and time of report creation.csv` |
 | Enthaltene Report Suites | Alle Report Suites, die Sie auf der Seite Nutzung des Berichtsservers ausgewählt haben, sind in dieser Liste enthalten. |
-| Enthaltene Aufruftypen | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Primär mobil, Sekundär mobil. |
-| Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder selbst einen Zeitraum definieren.  Wenn Sie selbst einen Zeitraum definieren möchten, dann geben Sie bitte einen Beginn des Zeitraums und ein Ende des Zeitraums ein. <br>**Hinweis:** Sie können keine Nutzungsdaten herunterladen, die vor Januar 2015 aufgezeichnet wurden</br>. |
+| Enthaltene Aufruftypen | Legen Sie eine beliebige Kombination aus Folgendem fest: Alle Aufrufe (Standard), Primär, Sekundär, Mobile primär, Mobile sekundär. |
+| Zeitraum | Sie können die aktuelle Nutzungsperiode auswählen oder einen benutzerdefinierten Zeitraum festlegen.  Für einen benutzerdefinierten Zeitraum geben Sie den Zeitraumbeginn und das Zeitraumende an. <br>**Hinweis:** Sie können keine Nutzungsdaten herunterladen, die vor Januar 2015 aufgezeichnet wurden</br>. |
 
 {style="table-layout:auto"}
 
 1. Klicken Sie auf **[!UICONTROL Herunterladen]**.
 
-Im Folgenden finden Sie einen Screenshot, wie die heruntergeladene .csv-Datei aussieht. Sie enthält eine Spalte für die Report Suite-ID. Die Report Suite-ID gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach der Erstellung einer Report Suite nicht mehr geändert werden.
+Im Folgenden sehen Sie einen Screenshot, wie die heruntergeladene .csv-Datei aussieht. Sie enthält eine Spalte für die Report Suite-ID. Die Report Suite-ID gibt eine eindeutige ID an, die nur alphanumerische Zeichen enthalten darf. Diese ID kann nach der Erstellung einer Report Suite nicht mehr geändert werden.
 
 ![](/help/admin/tools/server-call-usage/assets/download-usage.png)

@@ -1,6 +1,6 @@
 ---
-description: In einigen Fällen benötigen die Benutzer möglicherweise zusätzliche Hilfe, um auf die Mobile App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
-title: Einrichten von Benutzern für das Programm
+description: Ausführende Benutzende benötigen möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
+title: Einrichten von ausführenden Benutzenden für die App
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
@@ -28,29 +28,27 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '754'
 ht-degree: 96%
-
 ---
-
 # Einrichten von Benutzern für das Programm
 
-In einigen Fällen benötigen die ausführenden Benutzer möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
+In einigen Fällen benötigen ausführende Benutzende möglicherweise zusätzliche Hilfe, um auf die App zuzugreifen und sie zu verwenden. Dieser Abschnitt enthält Informationen, die Sie bei der Bereitstellung dieser Hilfe unterstützen.
 
 ## Sicherstellen, dass Mobile-App-Benutzer Zugriff auf Adobe Analytics haben
 
-1. Einrichten neuer Benutzer in der [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
+1. Richten Sie neue Benutzende in der [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md) ein.
 
 1. Um Scorecards freigeben zu können, müssen Sie Mobile-App-Benutzern Berechtigungen für den Zugriff auf Scorecard-Komponenten wie Analysis Workspace, die Report Suites, auf denen Scorecards basieren, sowie Segmente, Metriken und Dimensionen gewähren.
 
 ## Systemanforderungen von Mobile-App-Benutzern
 
-Damit ausführende Benutzer Zugriff auf Ihre Scorecards in der Mobile App haben, müssen folgende Voraussetzungen gegeben sein:
+Damit ausführende Benutzende Zugriff auf Ihre Scorecards in der App haben, müssen folgende Voraussetzungen gegeben sein:
 
 * Auf ihren Geräten muss mindestens iOS-Version 10 oder Android-Version 4.4 (KitKat) installiert sein.
-* Ihre Adobe Analytics-Anmeldeinformationen müssen gültig sein.
+* Sie verfügen über eine gültige Anmeldung bei Adobe Analytics.
 * Sie haben die mobilen Scorecards für Ihre Benutzer korrekt erstellt und freigegeben.
 * Ihre Benutzer müssen Zugriff auf die Komponenten haben, die die Scorecard enthält. Sie können bei der Freigabe Ihrer Scorecards eine Option auswählen, um **[!UICONTROL eingebettete Komponenten freizugeben]**.
 
@@ -68,7 +66,7 @@ Klicken Sie auf den folgenden Link (auch in Analytics unter **[!UICONTROL Tools]
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-Nach dem Herunterladen und der Installation können sich ausführende Benutzer mit ihren vorhandenen Adobe Analytics-Anmeldeinformationen bei der App anmelden. Adobe und Enterprise/Federated IDs werden unterstützt.
+Nach dem Herunterladen und der Installation können sich ausführende Benutzende mit ihren vorhandenen Adobe Analytics-Anmeldedaten bei der App anmelden. Adobe- und Enterprise/Federated-IDs werden unterstützt.
 
 ![Willkommensbildschirm der App](assets/welcome.png)
 
@@ -76,11 +74,11 @@ Nach dem Herunterladen und der Installation können sich ausführende Benutzer m
 
 1. Fordern Sie die ausführenden Benutzer auf, sich bei der Mobile App anzumelden.
 
-   Der Bildschirm **[!UICONTROL Unternehmen auswählen]** wird angezeigt. Auf diesem Bildschirm werden die Unternehmensanmeldungen angezeigt, die der ausführende Benutzer verwenden kann.
+   Der Bildschirm **[!UICONTROL Unternehmen auswählen]** wird angezeigt. Auf diesem Bildschirm werden die Anmeldeunternehmen angezeigt, zu denen die bzw. der ausführende Benutzer gehört.
 
-1. Fordern Sie sie auf, den Namen des Anmeldeunternehmens oder die CX Enterprise-Organisation anzutippen, der bzw. die für die von Ihnen freigegebene Scorecard gilt.
+1. Fordern Sie sie auf, den Namen des Anmeldeunternehmens oder der Adobe-Organisation anzutippen, der bzw. die für die von Ihnen freigegebene Scorecard gilt.
 
-   Die Scorecard-Liste zeigt alle Scorecards an, die für den ausführenden Benutzer mit dieser Unternehmensanmeldung freigegeben wurden.
+   Die Scorecard-Liste zeigt dann alle Scorecards an, die für die bzw. den ausführende Benutzende unter diesem Anmeldeunternehmen freigegeben wurden.
 
 1. Helfen Sie den Benutzern, diese Liste ggf. nach der **[!UICONTROL zuletzt geänderten Scorecard]** zu sortieren.
 
@@ -127,15 +125,15 @@ Um die Voreinstellungen zu ändern, tippen Sie auf die Option **[!UICONTROL Vore
 
 ## Fehlerbehebung
 
-Wenn sich der ausführende Benutzer anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde, kann das folgende Gründe haben:
+Wenn sich die bzw. der ausführende Benutzende anmeldet und eine Meldung angezeigt wird, dass nichts freigegeben wurde:
 
 ![Nichts freigegeben](assets/nothing.png)
 
-* Der ausführende Benutzer hat möglicherweise die falsche Analytics-Instanz ausgewählt oder
-* eventuell wurde die Scorecard nicht für den ausführenden Benutzer freigegeben.
+* Die bzw. der ausführende Benutzende hat möglicherweise die falsche Analytics-Instanz ausgewählt oder
+* Die Scorecard wurde möglicherweise nicht für die bzw. den ausführende Benutzende freigegeben.
 
-Vergewissern Sie sich, dass sich der ausführende Benutzer bei der richtigen Adobe Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
+Vergewissern Sie sich, dass sich die bzw. der ausführende Benutzende bei der richtigen Adobe Analytics-Instanz anmelden kann und dass die Scorecard freigegeben wurde.
 
 >[!IMPORTANT]
 >
->Seit Oktober 2020 führt Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der Applikation „Adobe Analytics-Dashboards“ zu optimieren. Diese Erweiterungen konzentrieren sich auf das Caching historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren öffentlichen Microsoft Azure-Konto in der Cloud zwischengespeichert. Bitte wenden Sie sich an Ihr Adobe Account Team, wenn Sie diese Funktionen zur Leistungsverbesserung nicht in Anspruch nehmen möchten.
+>Seit Oktober 2020 führt Adobe schrittweise eine Reihe von Verbesserungen durch, um die Leistung der App „Adobe Analytics-Dashboards“ zu optimieren. Diese Erweiterungen konzentrieren sich auf das Caching historischer Analytics-Daten, die zum Ausfüllen von Scorecards mit Datumsangaben (außer dem aktuellen Tag) verwendet werden. Diese Daten werden bis zu 24 Stunden lang in einem sicheren Microsoft Azure-Speicherkonto in der öffentlichen Cloud zwischengespeichert. Bitte wenden Sie sich an Ihr Adobe-Accountteam, wenn Sie diese Funktionen zur Leistungsverbesserung abwählen (Opt-out) möchten.

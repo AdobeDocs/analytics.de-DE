@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 48%
+source-wordcount: '336'
+ht-degree: 38%
 ---
 # Anforderungen an die serverseitige Weiterleitung
 
@@ -48,7 +48,7 @@ Die serverseitige Weiterleitung funktioniert mit [Analytics](https://www.adobe.c
 
 ## Dienstanforderungen
 
-Die serverseitige Weiterleitung erfordert den [Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/home). Der Identity Service bietet eine universelle ID zum Identifizieren von Site-Besuchern über alle CX Enterprise-Lösungen hinweg. Sie müssen den ID-Dienst implementieren, bevor die serverseitige Weiterleitung funktioniert.
+Für die Server-seitige Weiterleitung ist der [Besucher-ID-Dienst](https://experienceleague.adobe.com/de/docs/id-service/using/home) erforderlich. Der Besucher-ID-Dienst bietet eine universelle ID zum Identifizieren von Site-Besuchern über alle CX Enterprise-Lösungen hinweg. Sie müssen den Besucher-ID-Dienst implementieren, bevor die Server-seitige Weiterleitung funktioniert.
 
 ## Codeversionen
 
@@ -63,4 +63,4 @@ Für die Server-seitige Weiterleitung ist Version 1.5 (oder höher) der unten au
 Jedes Tool, das die von einem Browser ausgelösten HTTP-Anfragen überwacht. kann die Versionsnummer für den AppMeasurement und Visitor API-Code anzeigen. `AppMeasurement_Module_AudienceManagement.js` enthält keine Versions-ID und gibt keine Versions-ID zurück. In den folgenden Beispielen wird veranschaulicht, wie die Versions-IDs für `AppMeasurement.js`- und `VisitorAPI.js`-Code aussehen.
 
 * `AppMeasurement.js`: Die Version wird in der Anfrage-URL nach dem Antworttyp angezeigt, z. B. `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Debugging-Tools](/help/implement/validate/debugging.md) die Decodierungsanfragen eine andere Beschriftung verwenden können, der Wert folgt jedoch immer dem Muster `JS-X.X.X`, wobei `X` eine Versionsnummer ist.
-* `VisitorAPI.js`: Suchen Sie nach dem Parameter `d_visid_ver`. Er gibt den Besucher-ID-Dienst wie folgt an: `d_visid_ver: 1.5.5`. Besucher-API-Code, der älter als Version 1.5.2 ist, enthielt keine Versionsnummer. Sie verwenden wahrscheinlich eine ältere Code-Bibliothek (und müssen ein Upgrade durchführen), wenn Ihre Überwachungsergebnisse keine Versionsnummer zurückgeben.
+* `VisitorAPI.js`: Suchen Sie nach dem Parameter `d_visid_ver`. Der Besucher-ID-Dienst wird wie folgt angezeigt: `d_visid_ver: 1.5.5`. Besucher-API-Code, der älter als Version 1.5.2 ist, enthielt keine Versionsnummer. Sie verwenden wahrscheinlich eine ältere Code-Bibliothek (und müssen ein Upgrade durchführen), wenn Ihre Überwachungsergebnisse keine Versionsnummer zurückgeben.

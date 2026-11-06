@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 89%
+source-wordcount: '559'
+ht-degree: 88%
 ---
 # Daten- und Codereferenz für die Server-seitige Weiterleitung
 
@@ -50,7 +50,7 @@ Parameter mit dem Präfix `d_*` kennzeichnen spezielle Schlüsselwert-Paare auf 
 | `d_rs` | (Wird bei veralteter/Tracking-Server-basierter Server-seitiger Weiterleitung eingestellt) <br>Auf die Report Suites eingestellt, die mit dem Treffer an Analytics weitergeleitet werden. |
 | `d_dst_filter` | (Wird bei Report Suite-basierter Server-seitiger Weiterleitung eingestellt) <br>Auf die Report Suite-IDs eingestellt, die mit dem Treffer an Analytics weitergeleitet werden. |
 | `d_dst` | Festlegung von `d_dst=1` <br>, wenn bei der Anfrage an Analytics erwartet wird, dass Inhalte, die das Ziel betreffen, an den Client zurückgesendet werden. |
-| `d_mid` | Die an Analytics übergebene Experience Cloud-ID. |
+| `d_mid` | Die an Analytics übergebene ECID. |
 
 ## HTTP-Header {#section_0549705E76004F9585224AEF872066C0}
 

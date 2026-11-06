@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Überlegungen zur Migration des Besucher-ID-Service für Adobe Analytics
 
 Wenn Ihr Unternehmen plant, mit einer bestehenden Analytics-Implementierung zum Besucher-ID-Service zu wechseln, sind einige wichtige Themen zu beachten. Anhand dieser Überlegungen können Sie die Integrität der Besucheridentifizierung wahren und verstehen, wie der Besucher-ID-Service bei einer vorhandenen Analytics-Implementierung funktioniert.
 
 >[!TIP]
 >
->Diese Seite gilt nur für bestehende AppMeasurement- oder Analytics-Erweiterungsimplementierungen, bei denen der Besucher-ID-Service hinzugefügt oder ein Upgrade auf eine Web SDK-Implementierung durchgeführt wird. Anders ausgedrückt: Ihre Implementierung verwendet eine veraltete Analytics-ID (`aid`) und geht zur Verwendung einer ECID (`mid`) über. Alle Web SDK-Implementierungen verwenden den [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), der standardmäßig eine ECID (`mid`) verwendet.
+>Diese Seite gilt nur für bestehende AppMeasurement- oder Analytics-Erweiterungsimplementierungen, bei denen der Besucher-ID-Service hinzugefügt oder ein Upgrade auf eine Web SDK-Implementierung durchgeführt wird. Anders ausgedrückt: Ihre Implementierung verwendet eine veraltete Analytics-ID (`aid`) und geht zur Verwendung einer ECID (`mid`) über. Alle Web SDK-Implementierungen verwenden [Edge Network Identity](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/overview) , das standardmäßig eine ECID (`mid`) verwendet.
 
 ## Schnittstellen zwischen dem Besucher-ID-Dienst und älteren Analytics-Besucher-Cookies
 

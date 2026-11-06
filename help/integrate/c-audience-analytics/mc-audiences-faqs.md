@@ -1,5 +1,5 @@
 ---
-description: Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audience Analytics haben.
+description: Antworten auf Fragen, die Sie bei der Implementierung von Audience Analytics haben könnten.
 solution: Analytics
 title: Häufig gestellte Fragen zu Audience Analytics
 feature: Audience Analytics
@@ -28,14 +28,14 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 14%
 ---
 # Häufig gestellte Fragen
 
-Antworten auf Fragen, die Sie unter Umständen bei der Implementierung von Audience Analytics haben.
+Antworten auf Fragen, die Sie bei der Implementierung von Audience Analytics haben könnten.
 
 ## FAQs zu rechtlichen Fragen {#legal}
 
@@ -129,9 +129,9 @@ Wahrscheinlich gibt es widersprüchliche Adobe Audience Manager-Datenschutzsteue
 
 +++ Warum wird in meinem Analytics-Bericht „Zielgruppenlimit erreicht“ angezeigt? (Hinweis: Dies wird in Data Warehouse auch als Zielgruppen-ID = -1 und `::max_audiences_exceeded::` dargestellt.)
 
-Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle Segmente, für die sich eine Besucherin oder ein Besucher qualifiziert, pro Treffer an Analytics. Wenn ein Besucher zu mehr als 150 Adobe Audience Manager-Segmenten auf einmal gehört, werden die **150 zuletzt qualifizierten Segmente** an Analytics gesendet, während die restliche Liste abgeschnitten wird. Es wird ein zusätzliches Warnsignal an Analytics gesendet, das anzeigt, dass die Segmentliste gekürzt wurde. Dieses Warnsignal wird in der Dimension „Zielgruppendimension“ als „Zielgruppenlimit erreicht“ und in der Dimension „Zielgruppen-ID“ als „-1“ dargestellt.
+Standardmäßig sendet die Audience Analytics-Integration für Adobe Audience Manager alle Segmente, für die sich eine Besucherin oder ein Besucher qualifiziert, pro Treffer an Analytics. Wenn ein Besucher zu mehr als 150 Adobe Audience Manager-Segmenten auf einmal gehört, werden die **150 zuletzt qualifizierten Segmente** an Analytics gesendet, während die restliche Liste abgeschnitten wird. Es wird eine zusätzliche Markierung an Analytics gesendet, die anzeigt, dass die Segmentliste gekürzt wurde. Diese Markierung wird in der Dimension „Audience Name“ als „Audience limit reached“ und in der Dimension „Audience ID“ als „-1“ dargestellt.
 
-Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn Ihnen in Ihrer Berichterstellung die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen:
+Es ist zwar unwahrscheinlich, dass sich ein Besucher bei einem bestimmten Treffer für mehr als 150 Segmente qualifiziert, aber es kann in seltenen Fällen vorkommen. Wenn in Ihrem Reporting die Meldung „Zielgruppenlimit erreicht“ angezeigt wird, haben Sie zwei Optionen:
 
 * Option 1: Lassen Sie die Integration weiterhin im vorkonfigurierten Zustand funktionieren, indem Sie die 150 zuletzt qualifizierten Segmente für einen bestimmten Besucher senden.
 
@@ -155,7 +155,7 @@ Ja. Im Adobe Audience Manager-Ziel-Setup werden nur Report Suites angezeigt, fü
 
 +++ Warum kann ich bestimmte Report Suites für SSF nicht in Analytics Admin aktivieren?
 
-Es können nur Suites aktiviert werden, die Ihrer CX Enterprise-Organisation zugeordnet sind.
+Es können nur Suites aktiviert werden, die Ihrer Adobe-Organisation zugeordnet sind.
 
 Weitere häufig gestellte Fragen zu diesem Thema finden Sie unter [FAQs zur serverseitigen Weiterleitung](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 

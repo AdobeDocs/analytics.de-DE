@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 67%
+source-wordcount: '1170'
+ht-degree: 65%
 ---
 # Welches Adobe Analytics-Tool sollte ich verwenden?
 
@@ -64,7 +64,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vergleich von 
 >[!ENDSHADEBOX]
 
 
-## Reporting-Benutzeroberflächen von Adobe Analytics {#user-interfaces}
+## Adobe Analytics-Berichtsoberflächen {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** sollte die bevorzugte Benutzeroberfläche für alle Berichts- und Analyseaufgaben sein. Adobe investiert weiterhin in dieses Produkt und gibt monatlich Updates dafür heraus. Wenn Sie eine Aufgabe nicht in Analysis Workspace ausführen können, ziehen Sie die anderen unten aufgeführten Oberflächen in Betracht.**
 
@@ -123,7 +123,7 @@ Das **[Data Insertion API (veraltet)](/help/import/c-data-insertion-api/c-data-i
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** sollte verwendet werden:
 
-* Für den Zugriff auf Variablen, die ansonsten in der Benutzeroberfläche verborgen sind: IP-Adresse, Experience Cloud ID, Analytics-Besucher-ID, Seiten-URL.
+* So greifen Sie auf Variablen zu, die sonst in der Benutzeroberfläche ausgeblendet sind (IP-Adresse, ECID, Analytics-Besucher-ID, Seiten-URL)
 * Für den Zugriff auf granularere Daten als jene in der Benutzeroberfläche (denormalisierte Tabellenansicht).
 * Für den Download von Daten in einem für die Pivot-Tabellen-Eingabe geeigneten Format.
 * Wenn der Kunde Adobe-Daten in ein Drittanbieter-Tool für die Datenvisualisierung eingeben möchte (leicht zusammengefasst und nicht auf Trefferebene).
