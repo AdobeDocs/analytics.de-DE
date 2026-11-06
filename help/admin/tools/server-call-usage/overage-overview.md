@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 42%
 ---
 # Nutzung von Server-Aufrufen
@@ -69,7 +69,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Abrechnungsunternehmen (Abrechnungs-ID) </p> </td> 
-   <td colname="col2"> <p>Die rechtliche Organisation, der die Server-Aufrufe in Rechnung gestellt werden. Zum Beispiel adobe.com. Jede Abrechnungsunternehmen hat eine Abrechnungs-ID, die verwendet wird, um den Abrechnungskunden eindeutig zu identifizieren. Eine Abrechnungs-ID kann mit mehreren CX Enterprise-Organisationen verknüpft sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID. </p> </td> 
+   <td colname="col2"> <p>Die rechtliche Organisation, der die Server-Aufrufe in Rechnung gestellt werden. Zum Beispiel adobe.com. Jedes Abrechnungsunternehmen verfügt über eine Abrechnungs-ID, mit der die Abrechnungs-kundin bzw. der Abrechnungskunde eindeutig identifiziert wird. Eine Abrechnungs-ID kann an mehrere Adobe-Organisationen gebunden sein. Es besteht nicht immer eine 1:1-Beziehung zwischen einer Organisation und einer Abrechnungs-ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anmeldeunternehmen </p> </td> 
@@ -82,7 +82,7 @@ Die folgenden Begriffe sind für das Verständnis der Nutzung von Server-Aufrufe
     </ul> <p>Hinweis: Die Nutzungsdaten von Server-Aufrufen für <u>alle</u> Report Suites innerhalb eines Abrechnungsunternehmens sind für alle Benutzer mit der entsprechenden <a href="/help/admin/admin-console/permissions/analytics-tools.md">Berechtigung</a> einsehbar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise-Organisation </p> </td> 
+   <td colname="col1"> <p>Adobe-Organisation </p> </td> 
    <td colname="col2"> <p>Eine Organisation ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern. Das Unternehmen agiert als Anmeldeunternehmen, das alle CX Enterprise-Produkte und -Lösungen umfasst. </p> <p>Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen. </p> </td> 
   </tr> 
   <tr> 

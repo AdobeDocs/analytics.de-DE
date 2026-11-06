@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Analytics – Produktvergleich und Voraussetzungen
 
 Diese Seite enthält einen Vergleich verschiedener Adobe Analytics-Produkte: Analysis Workspace, Report Builder, Data Warehouse, Daten-Feeds und Analytics-API 2.0.
@@ -61,9 +59,9 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 
 | Produktname und Link zur Hilfe | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics-API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **Zugriffsmethode** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel für Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Informationen](/help/analyze/get-started/sys-reqs.md) | Einrichtung über den Browser. [Weitere Informationen](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit Adobe Developer-Anmeldeinformationen an. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Zugriffsmethode** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel für Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Einrichtung über den Browser. [Weitere Informationen](/help/analyze/get-started/sys-reqs.md) | Einrichtung über den Browser. [Weitere Informationen](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful-API-Tools. Melden Sie sich mit Adobe Developer-Anmeldedaten an. [Weitere Informationen](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Datengranularität** | Aggregiert | Aggregiert | Aggregiert | Treffer | Aggregiert |
-| **Experience Cloud ID (ECID) verfügbar** | Nein | Nein | Ja | Ja | Nein |
+| **ECID verfügbar** | Nein | Nein | Ja | Ja | Nein |
 | **Zeitstempel verfügbar** | Nein | Nein | Nein | Ja | Nein |
 | **Verarbeitungsstufe** | Vollständig verarbeitet | Vollständig verarbeitet, mit separatem [Echtzeitbericht](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | Vollständig verarbeitet | Vollständig verarbeitet | Vollständig verarbeitet |
 | **Admin-Bot-Filterdaten enthalten** <br> [Weitere Infos](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | Nein | Ja - separater Bot-Bericht | Nein | Nein | Nein |
@@ -79,6 +77,6 @@ Informationen dazu, welches Adobe Analytics-Produkt verwendet werden sollte, fin
 | **Kuratierung** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/curate.md) | Ja – Projekt und Virtual Report Suite | Nein | Nein | Nein | Ja – nur Virtual Report Suite |
 | **Projektfreigabe** <br> [Weitere Infos](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Ja, mit Projektrollen | Ja | Nein | Nein | Nein |
 | **Geplanter Versand** | Ja | Ja | Ja | Ja | Nein |
-| **Versandziele** | E-Mail | E-Mail, FTP, SFTP, [Veröffentlichung auf Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC und E-Mail | Amazon S3, Azure RBAC, Azure SAS und Google Cloud Platform | – |
+| **Versandziele** | E-Mail | E-Mail, FTP, SFTP, [Veröffentlichung auf Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC und E-Mail | Amazon S3, Azure RBAC, Azure SAS und Google Cloud-Plattform | – |
 | **Berichtszeitverarbeitung von Virtual Report Suite** <br> [Weitere Informationen](/help/components/vrs/vrs-report-time-processing.md) | Ja | Nein | Nein | Nein | Ja |
 | **Geo- und Technologieberichte** | Ja <p>Verwendet Mid-Werte statt Post-Felder. Die Logik für den Erstbesuch basiert auf `post_cust_hit_time_gmt` statt auf `visit_page_num=1`. Die Ergebnisse können von anderen Tools abweichen, wenn sich die IP-Adresse während des Besuchs ändert, Treffer nicht in der richtigen Reihenfolge eingehen oder Besuche monatlich erfolgen.</p> | Ja <p>Verwendet Mid-Werte statt Post-Felder. Die Logik für den Erstbesuch basiert auf `post_cust_hit_time_gmt` statt auf `visit_page_num=1`. Die Ergebnisse können von anderen Tools abweichen, wenn sich die IP-Adresse während des Besuchs ändert, Treffer nicht in der richtigen Reihenfolge eingehen oder Besuche monatlich erfolgen.</p> | Ja <p>Verwendet POST-Werte und -`visit_page_num=1`, um den ersten Treffer des Besuchs zu bestimmen. Wendet für diese Dimensionen den Wert aus dem ersten Treffer auf alle Treffer im Besuch an.</p> | Ja <p>Verwendet POST-Werte und -`visit_page_num=1`, um den ersten Treffer des Besuchs zu bestimmen. Wendet für diese Dimensionen den Wert aus dem ersten Treffer auf alle Treffer im Besuch an.</p> | Ja <p>Verwendet Mid-Werte statt Post-Felder. Die Logik für den Erstbesuch basiert auf `post_cust_hit_time_gmt` statt auf `visit_page_num=1`. Die Ergebnisse können von anderen Tools abweichen, wenn sich die IP-Adresse während des Besuchs ändert, Treffer nicht in der richtigen Reihenfolge eingehen oder Besuche monatlich erfolgen.</p> |

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '747'
 ht-degree: 11%
 ---
 # trackingServerSecure
@@ -52,7 +52,7 @@ Die Web-SDK verwendet die [!UICONTROL Edge]Domain, um sowohl den Tracking-Server
 1. Wechseln Sie zur Registerkarte [!UICONTROL Erweiterungen] und wählen Sie dann die Schaltfläche **[!UICONTROL Konfigurieren]** unter [!UICONTROL Adobe Experience Platform Web SDK] aus.
 1. Legen Sie das gewünschte Textfeld **[!UICONTROL Edge Domain]** fest.
 
-Weitere Informationen [&#x200B; Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
+Weitere Informationen [ Sie in der Web](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=de)SDK-Dokumentation unter „Konfigurieren der Adobe Experience Platform WebSDKErweiterung“.
 
 >[!TIP]
 >
@@ -60,7 +60,7 @@ Weitere Informationen [&#x200B; Sie in der Web](https://experienceleague.adobe.c
 
 ## Edge-Domain - Manuelle Implementierung der Web-SDK
 
-Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
+Konfigurieren Sie die SDK mithilfe von [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). Das Feld ist eine Zeichenfolge, die die Domain bestimmt, an die Daten gesendet werden sollen.
 
 ```json
 alloy("configure", {
@@ -95,22 +95,22 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Der Wert, den Sie für die `trackingServerSecure` (oder `edgeDomain`) verwenden, hängt davon ab, wie Ihr Unternehmen Daten an Adobe sendet:
 
-* **Wenn Ihr Unternehmen eine Erstanbieterdomäne verwendet** z. B. über das [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert), ein [Customer-Managed Certificate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/customer-managed-cert) oder ein [Content Delivery Network (CDN)](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cdn), setzen Sie den Wert auf diese Domain. Beispiel: `data.example.com`.
+* **Wenn Ihr Unternehmen eine Erstanbieterdomäne verwendet** z. B. über das [Adobe-Managed Certificate Program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), ein [Customer-Managed Certificate](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) oder ein [Content Delivery Network (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), setzen Sie den Wert auf diese Domain. Beispiel: `data.example.com`.
 * **Wenn Ihr Unternehmen eine Domain eines Drittanbieters verwendet** setzen Sie den Wert auf Ihre Mandanten-ID-Subdomain von `data.adobedc.net`. Beispiel: `example.data.adobedc.net`.
 
-Einzelheiten zu [&#x200B; einzelnen Optionen, einschließlich der Suche nach &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/collection-domain) Mandanten-ID, finden Sie unter „Auswählen einer Datenerfassungs-Domain“ im Handbuch für die Benutzeroberfläche und Administration von CX Enterprise.
+Einzelheiten zu [ einzelnen Optionen, einschließlich der Suche nach ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) Mandanten-ID, finden Sie unter „Auswählen einer Datenerfassungs-Domain“ im Handbuch für die Benutzeroberfläche und Administration von CX Enterprise.
 
 Adobe empfiehlt dringend, diese Informationen in einem [Lösungs-Design-Dokument](../../prepare/solution-design.md) zu speichern, um die Konsistenz in Ihrem gesamten Unternehmen zu gewährleisten.
 
-## Auswirkungen der Nichtverwendung des Besucher-ID-Service oder Experience Platform Identity Services
+## Auswirkungen der Nichtverwendung des Besucher-ID-Service oder Web-SDK {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe empfiehlt dringend, in allen Implementierungen ECID als primäre Form der Besucheridentität zu verwenden. Die Erfassung von ECIDs kann je nach Implementierungstyp auf verschiedene Arten implementiert werden:
 
-* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [&#x200B; finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/de/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
-* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
-* Implementierungen, die eine beliebige Form der Web-SDK (`alloy.js` oder die Web-SDK-Tag-Erweiterung) verwenden, schließen automatisch den Experience Platform Identity Service ein. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
+* Manuelle AppMeasurement-Implementierungen verwenden `VisitorAPI.js` und rufen die `getInstance`-Methode auf. Weitere [ finden Sie unter „Implementieren des Besucher-ID](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)Service für Analytics“.
+* Implementierungen, die die Adobe Analytics-Tag-Erweiterung verwenden, verwenden die [[!UICONTROL Experience Cloud ID Service]-Tag-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), die den Besucher-ID-Service implementiert. Nach dem Hinzufügen ist keine zusätzliche Konfiguration erforderlich.
+* Implementierungen, die eine beliebige Form der Web-SDK verwenden (`alloy.js` oder die Web-SDK-Tag-Erweiterung), enthalten automatisch die Edge Network-Identität. Außer dem Festlegen des `edgeDomain` ist keine Konfiguration erforderlich.
 
 **Wenn Ihre Implementierung keine ECIDs verwendet** sollten Sie die folgenden Auswirkungen auf Ihre Implementierung berücksichtigen:
 
-* Wenn Sie den Besucher-ID-Dienst oder Experience Platform Identity Service nicht verwenden, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
+* Wenn Sie weder den Besucher-ID-Dienst noch den Web-SDK verwenden, bestimmt `trackingServerSecure` den Cookie-Speicherort. Wenn Sie diese Variable auf eine Domain eines Drittanbieters setzen, muss AppMeasurement ein Ausweich-Cookie verwenden, da die meisten modernen Browser Cookies von Drittanbietern ablehnen.
 * Internes Linktracking und Activity Map sind möglicherweise weniger zuverlässig.

@@ -24,27 +24,25 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Überlegungen zur Migration des Besucher-ID-Service für Adobe Analytics
 
 Wenn Ihr Unternehmen plant, mit einer bestehenden Analytics-Implementierung zum Besucher-ID-Service zu wechseln, sind einige wichtige Themen zu beachten. Anhand dieser Überlegungen können Sie die Integrität der Besucheridentifizierung wahren und verstehen, wie der Besucher-ID-Service bei einer vorhandenen Analytics-Implementierung funktioniert.
 
 >[!TIP]
 >
->Diese Seite gilt nur für bestehende AppMeasurement- oder Analytics-Erweiterungsimplementierungen, bei denen der Besucher-ID-Service hinzugefügt oder ein Upgrade auf eine Web SDK-Implementierung durchgeführt wird. Anders ausgedrückt: Ihre Implementierung verwendet eine veraltete Analytics-ID (`aid`) und geht zur Verwendung einer ECID (`mid`) über. Alle Web SDK-Implementierungen verwenden den [Experience Platform Identity Service](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home), der standardmäßig eine ECID (`mid`) verwendet.
+>Diese Seite gilt nur für bestehende AppMeasurement- oder Analytics-Erweiterungsimplementierungen, bei denen der Besucher-ID-Service hinzugefügt oder ein Upgrade auf eine Web SDK-Implementierung durchgeführt wird. Anders ausgedrückt: Ihre Implementierung verwendet eine veraltete Analytics-ID (`aid`) und geht zur Verwendung einer ECID (`mid`) über. Alle Web SDK-Implementierungen verwenden [Edge Network Identity](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview) , das standardmäßig eine ECID (`mid`) verwendet.
 
 ## Schnittstellen zwischen dem Besucher-ID-Dienst und älteren Analytics-Besucher-Cookies
 
 Da AppMeasurement über eine eigene veraltete Methode zur Besucheridentifizierung verfügt, verfügen manche Besucher möglicherweise über Analytics-Cookies, wenn ein Unternehmen den Besucher-ID-Dienst bereitstellt. In der folgenden Liste wird beschrieben, wie ein Besucher unter verschiedenen Umständen identifiziert wird.
 
 * **Keine Besucher-Cookies vorhanden**: Der Besucher-ID-Dienst weist eine ECID zu (`mid`).
-* **Ein `s_vi` Cookie ist vorhanden**: Der Besucher-ID-Dienst schreibt zusätzlich zu einer ECID (`mid`) die vorhandene veraltete Analytics-ID (`aid`) in das `AMCV`-Cookie. Da `aid` in der Reihenfolge [&#x200B; Vorgänge höher liegt, &#x200B;](overview.md) die alte Analytics-ID die Besucherkennung, bis das `AMCV`-Cookie abläuft oder gelöscht wird. Wenn eine Übergangsphase aktiviert ist, enthält der Besucher-ID-Dienst in seiner Antwort sowohl die `mid` als auch die `aid`.
+* **Ein `s_vi` Cookie ist vorhanden**: Der Besucher-ID-Dienst schreibt zusätzlich zu einer ECID (`mid`) die vorhandene veraltete Analytics-ID (`aid`) in das `AMCV`-Cookie. Da `aid` in der Reihenfolge [ Vorgänge höher liegt, ](overview.md) die alte Analytics-ID die Besucherkennung, bis das `AMCV`-Cookie abläuft oder gelöscht wird. Wenn eine Übergangsphase aktiviert ist, enthält der Besucher-ID-Dienst in seiner Antwort sowohl die `mid` als auch die `aid`.
 * **Es ist ein Ausweich-Cookie**: Der Besucher-ID-Dienst schreibt das Ausweich-Cookie (`fid`) nicht in das `AMCV`-Cookie. Stattdessen erhalten Besucher eine ECID (`mid`), als ob sie ein neuer Besucher wären.
 
 ## Übergangsphase für den Besucher-ID-Service
@@ -57,8 +55,8 @@ Wenn Sie die Bereitstellung des Besucher-ID-Service für alle Bereiche Ihrer Sit
 
 Einige ältere Implementierungen der Analytics-Besucher-ID verwenden möglicherweise „benutzerfreundliche Drittanbieter-Cookies“, bei denen zwei Domains dasselbe Besucher-Cookie in einer gemeinsamen Domain wie `data.example.com` teilen. Da es sich bei benutzerfreundlichen Third-Party-Cookies weiterhin um Third-Party-Cookies handelt, werden sie von vielen modernen Browsern zurückgewiesen, sodass Analytics zur Besucheridentifizierung eine Fallback-ID (`fid`) verwenden muss. Der Wechsel zum Besucher-ID-Dienst ermöglicht es allen Domains, das `AMCV`-Cookie in einem First-Party-Kontext zu setzen, was ihre Lebensfähigkeit zur Beibehaltung einer Besucher-ID erhöht.
 
-Während der Besucher-ID-Dienst versucht, ein Drittanbieter-Cookie für domänenübergreifendes Tracking (das [`demdex`-Cookie) &#x200B;](https://experienceleague.adobe.com/de/docs/id-service/using/intro/cookies) setzen, wird es von modernen Browsern häufig abgelehnt. Erwägen Sie die Verwendung der [`appendVisitorIDsTo`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/appendvisitorid) Methode zum Übergeben der ECID (`mid`) eines Besuchers zwischen Domains, deren Inhaber Sie sind.
+Während der Besucher-ID-Dienst versucht, ein Drittanbieter-Cookie für domänenübergreifendes Tracking (das [`demdex`-Cookie) ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies) setzen, wird es von modernen Browsern häufig abgelehnt. Erwägen Sie die Verwendung der [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) Methode zum Übergeben der ECID (`mid`) eines Besuchers zwischen Domains, deren Inhaber Sie sind.
 
 ## Server-seitiges Tracking
 
-Sie können [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getmcvid) aufrufen, um die ECID (`mid`) und [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/de/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid), um die Legacy-Analytics-ID (`aid`) zu erhalten. Adobe empfiehlt, nach beiden zu suchen, um die Logik der Besucheridentifizierung beizubehalten.
+Sie können [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) aufrufen, um die ECID (`mid`) und [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid), um die Legacy-Analytics-ID (`aid`) zu erhalten. Adobe empfiehlt, nach beiden zu suchen, um die Logik der Besucheridentifizierung beizubehalten.

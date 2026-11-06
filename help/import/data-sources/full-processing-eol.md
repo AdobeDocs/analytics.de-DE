@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 5%
 ---
 # Ende der Nutzungsdauer für Datenquellen mit vollständiger Verarbeitung
@@ -58,12 +58,12 @@ Die folgenden Variablen wurden zum Einfügen von Bulk-Daten eingeführt, die zuv
 * **`aamlh`**: Adobe Audience Manager-Standorthinweis.
 * **`contextData.key`**: [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Besucher-ID-Service-Variablen. Umfasst `id`, `authState` und `isMCSeed`.
-* **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=de)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
+* **`hints`**: [Client-](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)). Umfasst `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` und `wow64`.
 * **`ipaddress`**: Die Dimension [IP-Adresse](/help/components/dimensions/ip-address.md) .
 * **`language`**: Die Dimension [Sprache](/help/components/dimensions/language.md) .
 * **`list1`** - **`list3`**: [Listenvariablen](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: Die Experience Cloud-ID des Besuchers.
-* **`tnta`**: Target-Daten-Payload, die in Integrationen [Analytics for Target“ &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) wird.
+* **`marketingCloudVisitorID`**: Die ECID des Besuchers.
+* **`tnta`**: Target-Daten-Payload, die in Integrationen [Analytics for Target“ ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) wird.
 * **`trackingServer`**: Die [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md).
 * **`transactionID`**: Die [`transactionID`](/help/implement/vars/page-vars/transactionid.md).
 * **`userAgent`**: Die Benutzeragenten-Zeichenfolge des Geräts.

@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud-Besucher-ID
-description: Die Experience Cloud-ID (ECID) des Besuchers, verfügbar in Data Warehouse.
+description: Die ECID des Besuchers, verfügbar in Data Warehouse.
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 18%
+source-wordcount: '154'
+ht-degree: 19%
 ---
 # Experience Cloud-Besucher-ID
 
@@ -40,12 +40,12 @@ Die Dimension „Experience Cloud-Besucher[ID](overview.md) liefert die ECID fü
 
 ## Füllen dieser Dimension mit Daten
 
-Diese Dimension erfordert eine Implementierung, die den Besucher-ID-Dienst (VisitorAPI) oder den Experience Platform Identity Service verwendet. Dies entspricht der `mcvisid` Spalte in Daten-Feeds. Siehe [Datenspaltenreferenz](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) für weitere Informationen.
+Diese Dimension erfordert eine Implementierung, die den Besucher-ID-Dienst (VisitorAPI) oder die Web-SDK verwendet. Dies entspricht der `mcvisid` Spalte in Daten-Feeds. Siehe [Datenspaltenreferenz](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) für weitere Informationen.
 
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | Keine (vom Besucher-ID-Service von Adobe festgelegt) |
-| **Feld Web SDK/XDM** | Keine (vom Experience Platform Identity Service festgelegt) |
+| **Feld Web SDK/XDM** | Keine (durch Edge Network festgelegt) |
 | **Abfrageparameter** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | k. A. |

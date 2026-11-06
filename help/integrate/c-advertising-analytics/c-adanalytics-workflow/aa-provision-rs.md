@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 18%
 ---
 # Report Suite für Advertising Analytics aktivieren
@@ -36,7 +36,7 @@ Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Rep
 
 1. Navigieren Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Wählen Sie die Report Suite aus, die Ihrer CX Enterprise-Organisation zugeordnet ist.
+1. Wählen Sie die Report Suite aus, die Ihrer Adobe-Organisation zugeordnet ist.
 1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Advertising Analytics-Konfiguration]**.
 
    ![Berichterstellung](assets/aa-reporting.png)
@@ -50,4 +50,4 @@ Um Advertising Analytics-Suchdaten in Analytics anzuzeigen, müssen Sie jede Rep
    | **[!UICONTROL Zuordnung]** | Auswählen zwischen:<br/> **[!UICONTROL Ausgangswert (Erste)]**: Der erste angezeigte Wert erhält eine vollständige Zuordnung, unabhängig davon, welche nachfolgenden Werte für diese Variable sind. <br/>**[!UICONTROL Zuletzt verwendet (Letzte)]**: Der zuletzt angezeigte Wert erhält die volle Zuordnung für das Erfolgsereignis, unabhängig davon, welche Variablen zuvor ausgelöst wurden. |
    | **[!UICONTROL Läuft ab nach]** | Hier können Sie einen Zeitraum oder ein Ereignis angeben, nach dem der eVar-Wert abläuft (d. h. nicht mehr für Erfolgsereignisse angerechnet wird).  Falls nach Ablauf der eVar (d. h. wenn keine eVar aktiv ist) ein Erfolgsereignis eintritt, wird das Ereignis dem Wert „Keine“ gutgeschrieben. |
 
-1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (erstes Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (nachfolgende Male). Ihre Report Suite ist jetzt für den Empfang von Advertising Analytics-Suchdaten bereit. Sie können jetzt &quot;[&#x200B; Advertising-Konten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+1. Klicken Sie auf **[!UICONTROL Advertising Analytics-Reporting aktivieren]** (erstes Mal) oder **[!UICONTROL Advertising Analytics-Reporting aktualisieren]** (nachfolgende Male). Ihre Report Suite ist jetzt für den Empfang von Advertising Analytics-Suchdaten bereit. Sie können jetzt &quot;[ Advertising-Konten erstellen](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

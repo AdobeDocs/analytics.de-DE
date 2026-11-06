@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # Besucheridentifizierung mit AppMeasurement
 
 AppMeasurement ist die alte JavaScript-Bibliothek von Adobe Analytics für die Datenerfassung. Während AppMeasurement allein eine native Möglichkeit bietet, Besuchende zu identifizieren, lehnen viele moderne Browser die Drittanbieter-Cookies ab, die es zu setzen versucht. Adobe empfiehlt dringend, in allen Implementierungen den [Besucher-ID](https://experienceleague.adobe.com/de/docs/id-service/using/home)Service von Adobe zu verwenden, um modernen Datenschutzstandards für Browser zu entsprechen. Alle Versionen von AppMeasurement sind im Lieferumfang von `VisitorAPI.js` enthalten, der JavaScript-Bibliothek, die zur Implementierung des Besucher-ID-Service verwendet wird.
@@ -49,7 +47,7 @@ Stellen Sie sicher, dass Sie mit Folgendem vorbereitet sind:
 * Eine Entwicklungs[Report Suite-ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Die gewünschte Edge-Domain für [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Ihre IMS-Organisations-ID:
-  1. Melden Sie sich mit Ihren Adobe ID-Anmeldeinformationen bei [&#128279;](https://experience.adobe.com)Adobe CX Enterprise an.
+  1. Melden Sie sich mit Ihren Adobe ID](https://experience.adobe.com)Anmeldeinformationen bei [Adobe CX Enterprise an.
   1. Drücken Sie an einer beliebigen Stelle in der CX Enterprise-Benutzeroberfläche `[Cmd]` + `[I]` (iOS) oder `[Ctrl]` + `[I]` (Windows).
   1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
   1. Erweitern Sie die gewünschte IMS-Organisation.
@@ -93,9 +91,9 @@ Sobald Sie über die oben genannten Ressourcen verfügen, enthält die folgende 
 >
 >Adobe rät davon ab, diese Methode zur Besucheridentifizierung zu verwenden.
 
-Wenn Ihr Unternehmen den Besucher-ID-Dienst (`VisitorAPI.js`) nicht verwendet, verwendet AppMeasurement eine eigene Legacy-Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Bibliothek nach einem [`s_vi`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird auf den Domain-Matching-[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (für HTTPS) oder `trackingServer` (für HTTP) gesetzt.
+Wenn Ihr Unternehmen den Besucher-ID-Dienst (`VisitorAPI.js`) nicht verwendet, verwendet AppMeasurement eine eigene Legacy-Form der Besucheridentifizierung. Wenn ein Besucher zum ersten Mal auf Ihre Site gelangt, sucht die Bibliothek nach einem [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie. Dieses Cookie wird auf den Domain-Matching-[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (für HTTPS) oder `trackingServer` (für HTTP) gesetzt.
 
-* Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
+* Wenn Sie am [Programm für verwaltete Zertifikate](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) teilnehmen, ist Ihr Tracking-Server normalerweise eine Erstanbieter-Domain, die `s_vi`-Cookies als Erstanbieter verwendet.
 * Wenn Sie nicht am verwalteten Zertifikatprogramm teilnehmen, ist der Tracking-Server normalerweise eine Subdomain von `adobedc.net`, `omtrdc.net` oder `2o7.net`, wodurch das `s_vi`-Cookie zu einem Drittanbieter-Cookie wird. Aufgrund der modernen Datenschutzstandards von Browsern werden Drittanbieter-Cookies von den meisten Browsern abgelehnt. Nach der Ablehnung versucht AppMeasurement stattdessen, ein First-Party-Ausweich-Cookie (`fid`) festzulegen.
 
 Wenn Sie `trackingServerSecure` richtig eingestellt haben, sind keine weiteren Maßnahmen zur Besucheridentifizierung erforderlich.

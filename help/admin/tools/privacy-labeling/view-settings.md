@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 ---
 # Anzeigen/Verwalten von Datenschutzkennzeichnungen für Data Governance
@@ -79,9 +79,9 @@ Wenn Sie dieselben Datenschutzeinstellungen auf mehr als eine Report Suite anwen
 
    >[!IMPORTANT]
    >
-   >Beachten Sie, dass alle von Ihnen ausgewählten Report Suites Ihrer CX Enterprise-Organisation zugeordnet werden müssen.
+   >Beachten Sie, dass alle von Ihnen ausgewählten Report Suites Ihrer Adobe-Organisation zugeordnet werden müssen.
 
-   Wenn Sie die Kennzeichnungen für eine Variable oder Variablengruppe in eine andere Report Suite kopieren, wird die Kopie an der entsprechenden Stelle in der Ziel-Report Suite abgelegt. Bei Standardkomponenten, Listenvariablen und Erfolgsereignissen werden die Kennzeichnungen in die **gleichnamige Variable** in der Ziel-Report-Suite kopiert.
+   Wenn Sie die Labels für eine Variable oder eine Gruppe von Variablen in eine andere Report Suite kopieren, wird die Kopie an der entsprechenden Stelle in der Ziel-Report-Suite abgelegt. Bei Standardkomponenten, Listenvariablen und Erfolgsereignissen werden die Kennzeichnungen in die **gleichnamige Variable** in der Ziel-Report-Suite kopiert.
 
    Bei Konversionsvariablen (eVars) und Traffic-Dimensionen (Props) wird die Kopie jedoch unter der Variablen mit **derselben Nummer** in der zielseitigen Report Suite erstellt. eVar12 wird beispielsweise zu eVar12 in allen Ziel-Report Suites kopiert. Die Namen dieser Variablen werden bei der Bestimmung des Ziels der Kopie ignoriert. Wenn die entsprechende Variable in der Ziel-Report Suite nicht aktiviert ist, schlägt die Kopie für diese Variable fehl.
 

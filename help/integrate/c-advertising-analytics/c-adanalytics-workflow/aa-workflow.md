@@ -1,5 +1,5 @@
 ---
-description: Übersicht über den Workflow in Advertising Analytics
+description: Überblick über den Workflow für Advertising Analytics
 title: Workflow-Übersicht
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
@@ -31,20 +31,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 42%
+ht-degree: 35%
 ---
 # Workflow-Übersicht
 
 Der Workflow zum Konfigurieren von Advertising Analytics umfasst die folgenden Schritte:
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [Advertising Analytics-Reporting pro Report Suite aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Aktiviert das Reporting in [!UICONTROL Advertising Analytics] für Experience Cloud-fähige Report Suites.
-2. [Advertising Analytics-Konto einrichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Einrichtung über Analytics Admin Tools.
+1. [Advertising Analytics-Reporting pro Report Suite aktivieren](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Aktiviert die Berichterstellung für Advertising Analytics&quot; für CX-Enterprise-fähige Report Suites.
+2. [Advertising Analytics-Konto einrichten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Setup in Analytics Admin Tools.
 3. [Berichte zu den Werbedaten in Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). Die Suchdaten werden um ca. 6:00 Uhr morgens in der Zeitzone Ihres Adobe Analytics-Rechenzentrums von Suchmaschinen abgerufen. Die Adobe Advertising-Daten werden erfasst und in die Report Suite eingefügt. Und dann in die Report Suite-Zeitzone konvertiert, als Teil der Dateneinfügung in Analytics. Die Berichterstellung ist in Analysis Workspace (Vorlage für die Leistung der gebührenpflichtigen Suche), Report Builder und der Analytics Reporting-API verfügbar.
 4. [Werbekonten verwalten](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). Sie können den Kontostatus überprüfen und Konten bearbeiten/anhalten.

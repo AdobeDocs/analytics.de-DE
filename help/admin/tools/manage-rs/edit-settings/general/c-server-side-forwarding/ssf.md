@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 60%
+source-wordcount: '888'
+ht-degree: 53%
 ---
 # Übersicht über die Server-seitige Weiterleitung
 
@@ -59,14 +59,14 @@ Die Server-seitige Weiterleitung verbessert die Datenerfassung, da sie:
 
 Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Implementierung der serverseitigen Weiterleitung befindet, führen Sie die folgenden Validierungsschritte durch:
 
-## ![Grafik step1_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) ECID-Dienstimplementierung überprüfen
+## ![step1_icon.png Bild](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Implementierung des Besucher-ID-Diensts überprüfen
 
-Überprüfen Sie, ob der Experience Cloud ID-(ECID-)Service implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de) prüfen.
+Überprüfen Sie, ob der Besucher-ID-Service implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage“ ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de).
 
-Stellen Sie auf der Registerkarte „Anfrage“ sicher, dass ein ECID-Wert festgelegt wurde. Dies gibt darüber Auskunft, dass der Identity Service korrekt implementiert wurde. Dies ist eine Voraussetzung für die serverseitige Weiterleitung.
+Stellen Sie auf der Registerkarte Anfrage sicher, dass ein ECID-Wert festgelegt wird. Dies zeigt an, dass der Besucher-ID-Dienst korrekt implementiert ist, was eine Voraussetzung für die Server-seitige Weiterleitung ist.
 
 * Wenn ein ECID-Wert angezeigt wird, fahren Sie mit Schritt 2 fort.
-* Wenn kein ECID-Wert angezeigt wird, [implementieren Sie den Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de), bevor Sie den Vorgang bei Schritt 2 fortsetzen.
+* Wenn kein ECID-Wert angezeigt wird, [ Sie den Besucher-ID-](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de) implementieren, bevor Sie mit Schritt 2 fortfahren.
 
 ## ![Grafik step2_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Implementierungsversion der serverseitigen Weiterleitung überprüfen
 

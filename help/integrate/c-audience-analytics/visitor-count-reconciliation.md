@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 50%
+source-wordcount: '306'
+ht-degree: 45%
 ---
 # Unterschiede in der Besucherzahl
 
@@ -46,11 +46,11 @@ Die Besuchermetriken sind:
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Gesamte Segmentpopulation</a> </p> </td> 
-   <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud IDs), die während des Lookback-Zeitraums Teil Ihres Segments waren. </p> </td> 
+   <td colname="col3"> <p>Anzahl der Geräte (ECIDs), die während des Lookback-Zeitraums Mitglied Ihres Segments waren. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=de"  > Adobe Audience Manager: Echtzeit-Segmentpopulation</a> </p> </td> 
-   <td colname="col3"> <p>Anzahl der Geräte (Experience Cloud-IDs), die Mitglied Ihres Segments waren und während des Lookback-Zeitraums Ihre Eigenschaften erreicht haben. </p> </td> 
+   <td colname="col3"> <p>Anzahl der Geräte (ECIDs), die Mitglied Ihres Segments waren und während des Lookback-Zeitraums Ihre Eigenschaften erreicht haben. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Unique Visitors </p> </td> 
@@ -58,7 +58,7 @@ Die Besuchermetriken sind:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Besucher mit Experience Cloud-ID </p> </td> 
-   <td colname="col3"> <p>Zeigt die Anzahl der Unique Visitors mit Experience Cloud ID an, die Ihre Eigenschaften während des Berichtszeitraums erreicht haben. </p> </td> 
+   <td colname="col3"> <p>Zeigt die Anzahl der Unique Visitors mit einer ECID, die Ihre Eigenschaften während des Reporting-Fensters erreicht haben. </p> </td>
   </tr> 
  </tbody> 
 </table>
