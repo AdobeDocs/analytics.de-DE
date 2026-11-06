@@ -61,12 +61,12 @@ Wenn Sie nachvollziehen möchten, wo sich Ihre Organisation bezüglich der Imple
 
 ## ![step1_icon.png Bild](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Implementierung des Besucher-ID-Diensts überprüfen
 
-Überprüfen Sie, ob der Besucher-ID-Service implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage“ ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de).
+Überprüfen Sie, ob der Besucher-ID-Service implementiert wurde, indem Sie die [Analytics-Tracking-Anfrage“ &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=de).
 
 Stellen Sie auf der Registerkarte Anfrage sicher, dass ein ECID-Wert festgelegt wird. Dies zeigt an, dass der Besucher-ID-Dienst korrekt implementiert ist, was eine Voraussetzung für die Server-seitige Weiterleitung ist.
 
 * Wenn ein ECID-Wert angezeigt wird, fahren Sie mit Schritt 2 fort.
-* Wenn kein ECID-Wert angezeigt wird, [ Sie den Besucher-ID-](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de) implementieren, bevor Sie mit Schritt 2 fortfahren.
+* Wenn kein ECID-Wert angezeigt wird, [&#x200B; Sie den Besucher-ID-](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=de) implementieren, bevor Sie mit Schritt 2 fortfahren.
 
 ## ![Grafik step2_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Implementierungsversion der serverseitigen Weiterleitung überprüfen
 

@@ -42,7 +42,7 @@ Wenn Ihr Unternehmen plant, mit einer bestehenden Analytics-Implementierung zum 
 Da AppMeasurement über eine eigene veraltete Methode zur Besucheridentifizierung verfügt, verfügen manche Besucher möglicherweise über Analytics-Cookies, wenn ein Unternehmen den Besucher-ID-Dienst bereitstellt. In der folgenden Liste wird beschrieben, wie ein Besucher unter verschiedenen Umständen identifiziert wird.
 
 * **Keine Besucher-Cookies vorhanden**: Der Besucher-ID-Dienst weist eine ECID zu (`mid`).
-* **Ein `s_vi` Cookie ist vorhanden**: Der Besucher-ID-Dienst schreibt zusätzlich zu einer ECID (`mid`) die vorhandene veraltete Analytics-ID (`aid`) in das `AMCV`-Cookie. Da `aid` in der Reihenfolge [ Vorgänge höher liegt, ](overview.md) die alte Analytics-ID die Besucherkennung, bis das `AMCV`-Cookie abläuft oder gelöscht wird. Wenn eine Übergangsphase aktiviert ist, enthält der Besucher-ID-Dienst in seiner Antwort sowohl die `mid` als auch die `aid`.
+* **Ein `s_vi` Cookie ist vorhanden**: Der Besucher-ID-Dienst schreibt zusätzlich zu einer ECID (`mid`) die vorhandene veraltete Analytics-ID (`aid`) in das `AMCV`-Cookie. Da `aid` in der Reihenfolge [&#x200B; Vorgänge höher liegt, &#x200B;](overview.md) die alte Analytics-ID die Besucherkennung, bis das `AMCV`-Cookie abläuft oder gelöscht wird. Wenn eine Übergangsphase aktiviert ist, enthält der Besucher-ID-Dienst in seiner Antwort sowohl die `mid` als auch die `aid`.
 * **Es ist ein Ausweich-Cookie**: Der Besucher-ID-Dienst schreibt das Ausweich-Cookie (`fid`) nicht in das `AMCV`-Cookie. Stattdessen erhalten Besucher eine ECID (`mid`), als ob sie ein neuer Besucher wären.
 
 ## Übergangsphase für den Besucher-ID-Service
@@ -55,7 +55,7 @@ Wenn Sie die Bereitstellung des Besucher-ID-Service für alle Bereiche Ihrer Sit
 
 Einige ältere Implementierungen der Analytics-Besucher-ID verwenden möglicherweise „benutzerfreundliche Drittanbieter-Cookies“, bei denen zwei Domains dasselbe Besucher-Cookie in einer gemeinsamen Domain wie `data.example.com` teilen. Da es sich bei benutzerfreundlichen Third-Party-Cookies weiterhin um Third-Party-Cookies handelt, werden sie von vielen modernen Browsern zurückgewiesen, sodass Analytics zur Besucheridentifizierung eine Fallback-ID (`fid`) verwenden muss. Der Wechsel zum Besucher-ID-Dienst ermöglicht es allen Domains, das `AMCV`-Cookie in einem First-Party-Kontext zu setzen, was ihre Lebensfähigkeit zur Beibehaltung einer Besucher-ID erhöht.
 
-Während der Besucher-ID-Dienst versucht, ein Drittanbieter-Cookie für domänenübergreifendes Tracking (das [`demdex`-Cookie) ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies) setzen, wird es von modernen Browsern häufig abgelehnt. Erwägen Sie die Verwendung der [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) Methode zum Übergeben der ECID (`mid`) eines Besuchers zwischen Domains, deren Inhaber Sie sind.
+Während der Besucher-ID-Dienst versucht, ein Drittanbieter-Cookie für domänenübergreifendes Tracking (das [`demdex`-Cookie) &#x200B;](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies) setzen, wird es von modernen Browsern häufig abgelehnt. Erwägen Sie die Verwendung der [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) Methode zum Übergeben der ECID (`mid`) eines Besuchers zwischen Domains, deren Inhaber Sie sind.
 
 ## Server-seitiges Tracking
 

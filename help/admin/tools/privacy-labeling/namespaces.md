@@ -45,7 +45,7 @@ Mit der Namespace-Zeichenfolge identifizieren Sie die Felder, die bei der Bereit
 * Ein Feld „Typ“, das für die meisten Adobe Analytics-Anfragen den Wert „analytics“ enthält.
 * Ein „Wert“-Feld, das die ID enthält, nach der Analytics in den zugehörigen Namespace-Variablen jeder Ihrer Report Suites suchen sollte.
 
-Weitere Informationen und eine (Liste der Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)Identity-Namespaces) finden Sie in [ Dokumentation zur Datenschutz-API von [](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix#standard-namespaces). Eine Beispielanfrage finden Sie unter [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/privacy-jobs#access-delete).
+Weitere Informationen und eine (Liste der Standard[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=de)Identity-Namespaces) finden Sie in  Dokumentation zur Datenschutz-API von [&#128279;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/appendix#standard-namespaces). Eine Beispielanfrage finden Sie unter [Erstellen eines Zugriffs-/Löschauftrags](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/privacy-jobs#access-delete).
 
 ## Cookie-ID
 

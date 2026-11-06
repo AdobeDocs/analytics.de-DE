@@ -33,4 +33,4 @@ Bei jedem [Personen](people.md) (identifiziert oder nicht identifiziert) erhöht
 
 Sie können die berechnete Metrik `[People with ECID] ÷ [People]` erstellen, um mithilfe des ID-Service den Prozentsatz der Besucher Ihrer Site festzustellen.
 
-Weitere Informationen zur Bedeutung von ECID und zum Debugging Ihres Setups finden Sie unter [ entsprechenden Metrik der nicht-geräteübergreifenden Analyse ](visitors-with-ecid.md)Besucher mit Experience Cloud-ID) .
+Weitere Informationen zur Bedeutung von ECID und zum Debugging Ihres Setups finden Sie unter [&#x200B; entsprechenden Metrik der nicht-geräteübergreifenden Analyse &#x200B;](visitors-with-ecid.md)Besucher mit Experience Cloud-ID) .

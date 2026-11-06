@@ -56,7 +56,7 @@ Da Bots sich schnell wandeln, bietet Adobe außerdem mehrere leistungsstarke Fun
 
 ### Schritt 1: ECID Ihrer Besucher in eine neue deklarierte ID übertragen {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-Erstellen Sie zunächst eine neue deklarierte ID im [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de). Übertragen Sie die ECID Ihres Besuchers in diese neue deklarierte ID. Mit (Tags [ Adobe Experience Platform) ist dies schnell und einfach ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de). Verwenden wir den Namen „ECID“ für die deklarierte ID.
+Erstellen Sie zunächst eine neue deklarierte ID im [People Core Service](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de). Übertragen Sie die ECID Ihres Besuchers in diese neue deklarierte ID. Mit (Tags [&#x200B; Adobe Experience Platform) ist dies schnell und einfach &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de). Verwenden wir den Namen „ECID“ für die deklarierte ID.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -87,7 +87,7 @@ Sobald der Data Warehouse-Bericht eintrifft, verfügen Sie über eine Liste der 
 * **ECID**: Stellen Sie sicher, dass diese Spaltenüberschrift mit dem Namen übereinstimmt, den Sie für die neue deklarierte ID oben angegeben haben.
 * **Bot Flag**: Fügen Sie „Bot Flag“ als Schema-Dimension für Kundenattribute hinzu.
 
-Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [ beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Verwenden Sie diese CSV-Datei als Kundenattribut-Importdatei und abonnieren Sie dann Ihre Report Suite(s) für das Kundenattribut, wie in diesem [&#x200B; beschrieben](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 
