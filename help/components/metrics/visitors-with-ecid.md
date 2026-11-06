@@ -34,7 +34,7 @@ ht-degree: 23%
 ---
 # Besucher mit Experience Cloud ID
 
-Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview.md) Anzahl der Unique Visitors an, die von Adobe mit einer ECID identifiziert wurden (mithilfe des [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site eine ECID verwendet. Wenn ein großer Teil der Besucher diese Kennung nicht verwendet, kann dies auf ein Problem innerhalb Ihrer Implementierung hinweisen.
+Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview.md) Anzahl der Unique Visitors an, die von Adobe mit einer ECID identifiziert wurden (mithilfe des [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) oder [Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/overview)). Sie können diese Metrik mit der Metrik [Unique Visitors](unique-visitors.md) vergleichen, um sicherzustellen, dass die Mehrheit der Besucher Ihrer Site eine ECID verwendet. Wenn ein großer Teil der Besucher diese Kennung nicht verwendet, kann dies auf ein Problem innerhalb Ihrer Implementierung hinweisen.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Die [Metrik[!UICONTROL Besucher mit Experience Cloud-ID] gibt &#x200B;](overview
 
 ## Berechnung dieser Metrik
 
-Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit der Ausnahme, dass sie nur die mit der `mid`-Abfragezeichenfolge identifizierten Personen enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)-Cookie).
+Diese Metrik basiert auf der Metrik [Unique Visitors](unique-visitors.md), mit der Ausnahme, dass sie nur die mit der `mid`-Abfragezeichenfolge identifizierten Personen enthält (basierend auf dem [`s_ecid`](https://experienceleague.adobe.com/de/docs/core-services/interface/data-collection/cookies/analytics)-Cookie).
 
 ## Debuggen des ECID-Setups
 
