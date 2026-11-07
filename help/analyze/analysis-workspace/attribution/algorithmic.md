@@ -19,26 +19,30 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 38%
+source-wordcount: '317'
+ht-degree: 36%
 ---
 # Algorithmische Attribution
+
+>[!NOTE]
+>
+>Sie müssen über das Paket **Ultimate** verfügen, um die in diesem Abschnitt beschriebenen Funktionen nutzen zu können. Wenden Sie sich an Ihren Administrator, wenn Sie sich nicht sicher sind, welches Adobe Analytics-Paket Sie haben.
 
 Das algorithmische [Attributionsmodell](models.md) in Analysis Workspace unterscheidet sich von anderen Modellen insofern, als es mithilfe statistischer Verfahren Gewichtungen über die Dimensionselemente in Ihrem Bericht oder Ihrer Freiform-Tabelle verteilt. Wie alle anderen Attributionsmodelle in Analysis Workspace kann die algorithmische Attribution für jede Dimension oder Metrik verwendet werden. Algorithmische Attribution unterstützt eine unbegrenzte Segmentierung und Aufschlüsselungen und verteilt 100 % der Konversionen auf eine oder mehrere Dimensionen in der Tabelle (auch als „fraktionelle“ Attribution bezeichnet).
 
 
 >[!BEGINSHADEBOX]
 
-Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmische &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}) für ein Demovideo.
+Siehe ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmische ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"}) für ein Demovideo.
 
 >[!ENDSHADEBOX]
 
 
 Der für die Zuordnung verwendete Algorithmus basiert auf der Harsanyi-Dividende aus der kooperativen Spieltheorie. Die Harsanyi-Dividende ist eine Verallgemeinerung der Shapley-Value-Lösung (benannt nach Lloyd Shapley, einem Wirtschaftsnobelpreisträger), um in einem Spiel mit ungleichen Beiträgen zum Ergebnis Kredite unter den Spielern zu verteilen.
 
-Auf allgemeiner Ebene wird bei der Attributionsberechnung der Konversion für jeden Touchpoint jeder der Marketing-Touchpoints innerhalb eines Lookback-Fensters als eine Koalition von Playern berücksichtigt. Dieser Koalition von Akteuren muss ein Überschuss gerecht verteilt werden. Die Überschussverteilung jeder Koalition wird aus dem Überschuss bestimmt, den jede Subkoalition zuvor rekursiv erzeugt hat.
+Bei der Attributionsberechnung des Konversionsguthabens für jeden Touchpoint wird jeder Marketing-Touchpoint innerhalb eines Lookback-Fensters als eine Koalition von Playern berücksichtigt. Dieser Koalition von Akteuren muss ein Überschuss gerecht verteilt werden. Die Überschussverteilung jeder Koalition wird aus dem Überschuss bestimmt, den jede Subkoalition zuvor rekursiv erzeugt hat.
 
 Weitere Einzelheiten finden Sie in den Originalpapieren von John Harsanyi und Lloyd Shapley:
 
