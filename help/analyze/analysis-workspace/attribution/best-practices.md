@@ -48,7 +48,7 @@ Um Ihr Verständnis zu erweitern, führen Sie Analysen der oberen und unteren fu
 
 ### Analyse des oberen Ende des Trichters
 
-Bei der Analyse des oberen Endes des Trichters werden diejenigen Kanäle untersucht, die zur Steigerung der Marken- oder Produktbekanntheit dienen. So zielen etwa TV-Werbespots in der Regel auf die Markenbekanntheit ab. Verwenden Sie [ Attributionsmodell des Zeitverfalls](/help/analyze/analysis-workspace/attribution/models.md) da Ihre TV-Anzeige im Zeitverlauf aus dem Gedächtnis Ihrer Zielgruppe verschwinden wird.
+Bei der Analyse des oberen Endes des Trichters werden diejenigen Kanäle untersucht, die zur Steigerung der Marken- oder Produktbekanntheit dienen. So zielen etwa TV-Werbespots in der Regel auf die Markenbekanntheit ab. Verwenden Sie [&#x200B; Attributionsmodell des Zeitverfalls](/help/analyze/analysis-workspace/attribution/models.md) da Ihre TV-Anzeige im Zeitverlauf aus dem Gedächtnis Ihrer Zielgruppe verschwinden wird.
 
 ### Analyse des unteren Ende des Trichters
 
@@ -82,4 +82,4 @@ Wenn Sie noch kein Attributionsmodell haben, das alle Ihre Fragen zufriedenstell
 
 * Möglicherweise sollten Sie ergänzend zu Analysis Workspace einen Datenwissenschaftler hinzuziehen.
 * Sie können sich auf Rohdaten verlassen, wie in Daten-Feeds von Adobe.
-* Erwägen Sie beispielsweise die Verwendung von [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)Customer Journey Analytics), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.
+* Erwägen Sie beispielsweise die Verwendung von [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)Customer Journey Analytics), wenn Sie Ihre Impressionsdaten berücksichtigen möchten.
