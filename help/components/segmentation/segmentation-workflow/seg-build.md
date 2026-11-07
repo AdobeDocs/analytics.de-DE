@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2120'
 ht-degree: 71%
 ---
 # Erstellen von Segmenten
@@ -94,6 +94,10 @@ Sie können den Typ und den Umfang Ihrer Definition konfigurieren:
 
 Sie können diese Einstellungen später jederzeit ändern.
 
+>[!NOTE]
+>
+>Die Segment Builder-Benutzeroberfläche unterstützt nicht alle Segmentdefinitionen, die über die (API[&#x200B; erstellt &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment). Diese Seite kann für diese Segmente möglicherweise nicht erfolgreich geladen werden oder Fehler auslösen.
+
 ### Komponenten
 
 Ein wichtiger Teil beim Erstellen Ihrer Segmentdefinition ist die Verwendung von Dimensionen, Metriken, vorhandenen Segmenten und Datumsbereichen. Alle diese Komponenten sind über das Panel „Komponenten“ im Segment Builder verfügbar.
@@ -115,7 +119,6 @@ So fügen Sie eine Komponente hinzu:
 
    Diese Option wird nur angezeigt, wenn [!UICONTROL **Person**] als Umfang (Container) Ihrer Definition im **[!UICONTROL -Menü]** Einschließen oder **[!UICONTROL Ausschließen]** ausgewählt ist.
 
-   **HINWEIS**: Diese Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Diese Anmerkung wird entfernt, wenn die Funktionen allgemein verfügbar sind. Informationen zum Customer Journey Analytics-Veröffentlichungsprozess finden Sie unter [Adobe Analytics-Funktionsversionen](/help/release-notes/releases.md).
 
 1. (Optional) Ändern Sie den Standardoperator. Beispiel: von **[!UICONTROL ist gleich]** zu **[!UICONTROL ist gleich eines von]**. Unter [Operatoren](../seg-reference/seg-operators.md) finden Sie einen detaillierten Überblick über die verfügbaren Operatoren.
 
