@@ -1,5 +1,5 @@
 ---
-title: Verarbeitungsregeln für Marketing-Kanäle
+title: Verarbeitungsregel für Marketing-Kanal
 description: Verwenden Sie Regeln, um zu bestimmen, zu welchem Marketing-Kanal ein Treffer gehört.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # Verarbeitungsregeln für Marketing-Kanäle
 
 _Diese Seite bezieht sich auf Verarbeitungsregeln, die einem Treffer einen Marketing-Kanal zuweisen. Siehe [Verarbeitungsregeln](../general/processing-rules/pr-overview.md) für die Funktion, mit der Sie anpassen können, wie Daten erfasst werden._
@@ -55,7 +53,7 @@ Jede Regel enthält eine Bedingung und eine Zuweisung:
 
 * **[!UICONTROL Wenn Folgendes zutrifft:]** Sie einer einzelnen Regel mehrere Bedingungen hinzufügen, können Sie bestimmen, ob alle Bedingungen erfüllt sein müssen oder eine der Bedingungen erfüllt sein muss, um den Kanal und den zugehörigen Wert festzulegen.
 * **Regelbedingungen**: Geben Sie eine oder mehrere Regelbedingungen an, die erfüllt werden müssen. Normalerweise geben Sie eine Dimension an, mit der ein Treffer übereinstimmen muss, damit er für den Marketing-Kanal qualifiziert werden kann.
-* **[!UICONTROL Gehen Sie dann wie folgt vor]**: Wenn die Regelbedingungen übereinstimmen, setzen Sie [Marketing-Kanal](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifizieren Sie den Kanal als]) und [Marketing-Kanal-Detail](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Legen Sie den Kanalwert &#x200B;]).
+* **[!UICONTROL Gehen Sie dann wie folgt vor]**: Wenn die Regelbedingungen übereinstimmen, setzen Sie [Marketing-Kanal](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifizieren Sie den Kanal als]) und [Marketing-Kanal-Detail](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Legen Sie den Kanalwert ]).
 
 ## Regelbedingungen
 
@@ -102,6 +100,6 @@ Beim Festlegen von Regelbedingungen sind die folgenden Optionen verfügbar.
 
 **Konversionsvariablen** ermöglichen es Ihnen, eine benutzerdefinierte eVar, einen übereinstimmenden Operator und einen zu suchenden Wert anzugeben.
 
-| Bedingung der Konversionsvariablen | Beschreibung |
+| Bedingung der Konversationsvariablen | Beschreibung |
 |---|---|
 | **eVar 1-250** | Die zugehörige Dimension [eVar](/help/components/dimensions/evar.md). |

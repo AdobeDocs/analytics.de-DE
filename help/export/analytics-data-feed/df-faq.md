@@ -1,6 +1,6 @@
 ---
 description: Erhalten Sie Antworten auf häufig gestellte Fragen zu Daten-Feeds in Adobe Analytics.
-keywords: Daten-Feed;Auftrag;vor Spalte;nach Spalte;Groß-/Kleinschreibung
+keywords: Data Feed;Auftrag;Pre-Spalte;Post-Spalte;Groß-/Kleinschreibung
 title: Häufig gestellte Fragen zu Daten-Feeds
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1507'
 ht-degree: 68%
 ---
 # Häufig gestellte Fragen zu Daten-Feeds
@@ -59,7 +59,7 @@ Um das Überschreiben einer Datei zu verhindern, sollten Sie die folgenden Probl
 
 ## Wann werden die Daten verarbeitet? {#processed}
 
-Bevor stündliche oder tägliche Daten verarbeitet werden, warten die Daten-Feeds, bis alle Treffer, die innerhalb des Zeitrahmens (Tag oder Stunde) in die Datenerfassung eingehen, in Data Warehouse geschrieben wurden. Anschließend erfassen die Daten-Feeds die Daten mit Zeitstempeln, die in diesen Zeitrahmen fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Dateien normalerweise innerhalb von 15-30 Minuten nach der vollen Stunde in Data Warehouse geschrieben. Es gibt jedoch keinen festgelegten Zeitraum. Wenn keine Daten mit Zeitstempeln vorhanden waren, die in den Zeitrahmen fallen, versucht der Prozess es im nächsten Zeitrahmen erneut. Der aktuelle Daten-Feed-Prozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
+Bevor stündliche oder tägliche Daten verarbeitet werden, warten die Daten-Feeds, bis alle Treffer, die innerhalb des Zeitraums (Tag oder Stunde) in die Datenerfassung eingetreten sind, in Data Warehouse geschrieben wurden. Anschließend erfassen die Daten-Feeds die Daten mit Zeitstempeln, die in diesen Zeitraum fallen, komprimieren die Daten und senden sie per FTP. Bei stündlichen Feeds werden die Dateien normalerweise innerhalb von 15-30 Minuten nach der vollen Stunde in Data Warehouse geschrieben. Es gibt jedoch keinen festgelegten Zeitraum. Wenn keine Daten mit Zeitstempeln vorhanden waren, die in den Zeitrahmen fallen, versucht der Prozess es im nächsten Zeitrahmen erneut. Der aktuelle Daten-Feed-Prozess nutzt das Feld `date_time`, um zu ermitteln, welche Treffer zur entsprechenden Stunde gehören. Dieses Feld basiert auf der Zeitzone der Report Suite.
 
 ## Was ist der Unterschied zwischen Spalten mit `post_`-Präfix und Spalten ohne `post_`-Präfix? {#post}
 
@@ -67,13 +67,13 @@ Spalten ohne `post_`-Präfix enthalten Daten exakt so, wie sie an die Datenerfas
 
 Wenn für eine Spalte keine `post_`-Version vorliegt (z. B. bei `visit_num`), kann die Spalte als Post-Spalte betrachtet werden.
 
-## Wie gehen Daten-Feeds mit Groß-/Kleinschreibung um? {#case}
+## Wie gehen Data Feeds mit Groß-/Kleinschreibung um? {#case}
 
 In Adobe Analytics wird bei den meisten Variablen beim Reporting nicht zwischen Groß- und Kleinschreibung unterschieden. Beispielsweise werden „schnee“, „Schnee“, „SCHNEE“ und „sChnee“ alle als gleicher Wert betrachtet. Die Groß-/Kleinschreibung wird in Daten-Feeds beibehalten.
 
 Wenn Sie unterschiedliche Schreibweisen desselben Werts zwischen Nicht-Post- und Post-Spalten sehen (z. B. „schnee“ in der Pre-Spalte und „Schnee“ in der Post-Spalte), verwendet Ihre Implementierung auf Ihrer Site sowohl Groß- als auch Kleinbuchstaben. Die Variante in der Post-Spalte wurde entweder zuvor eingereicht und ist in einem virtuellen Cookie gespeichert, oder sie wurde etwa zur selben Zeit für diese Report Suite verarbeitet.
 
-## Enthalten Daten-Feeds Bots, die nach Admin Console-Bot-Regeln gefiltert wurden? {#bots}
+## Enthalten Data Feeds Bots, die nach Admin Console Bot-Regeln gefiltert wurden? {#bots}
 
 Daten-Feeds enthalten keine Bots, die nach [Admin Console-Bot-Regeln](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) gefiltert wurden.
 
@@ -99,7 +99,7 @@ Bei Aufstockungen, die älter als 10 Tage sind, empfiehlt Adobe dringend, die t�
 
 ## Welche Auswirkungen hat die Sommerzeit auf stündliche Daten-Feeds? {#dst}
 
-Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Sommerzeitdefinition. Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der Zeitzone der Report Suite die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (normalerweise um 2:00 Uhr morgens).
+Für einige Zeitzonen ändert sich zweimal jährlich die Uhrzeit aufgrund der Definition der Sommerzeit (DST). Die Daten-Feeds berücksichtigen die Zeitzone, für die die Report Suite konfiguriert ist. Wenn in der für die Report Suite gewählten Zeitzone keine Sommerzeit berücksichtigt wird, erfolgt die Dateibereitstellung ganz normal wie an jedem anderen Tag. Wenn in der Zeitzone der Report Suite die Sommerzeit berücksichtigt wird, ändert sich die Dateibereitstellung für die Stunde, in der die Zeitumstellung erfolgt (normalerweise um 2:00 Uhr morgens).
 
 Bei der Umstellung von Normalzeit auf Sommerzeit erhalten Sie 23 Dateien. Die Stunde, die bei der Zeitumstellung übersprungen wird, entfällt. Wenn die Umstellung beispielsweise um 2 Uhr morgens erfolgt, erhalten Sie eine Datei für 1:00 Uhr und eine Datei für 3:00 Uhr. Es gibt keine Datei für 2:00 Uhr, da 2:00 Uhr Normalzeit 3:00 Uhr Normalzeit entspricht.
 
@@ -121,9 +121,9 @@ Nachdem Sie das Bereitstellungsproblem überprüft/korrigiert haben, führen Sie
 
 **BucketOwnerFullControl** beinhaltet kontenübergreifende Berechtigungen zum Erstellen von Objekten in anderen Buckets.
 
-Bei einer üblichen Verwendung von Amazon S3 erstellt der Kontoinhaber eines Amazon Web Services (AWS)-Kontos zunächst einen Bucket. Dann erstellt er einen Benutzer, der dazu berechtigt ist, Objekte in diesem Bucket zu erstellen. Schließlich stellt der Kontoinhaber die Anmeldeinformationen für diesen Benutzer zur Verfügung. In diesem Fall gehören die Objekte eines Benutzers zum selben Konto und der Kontoinhaber hat implizit die vollständige Kontrolle über das Objekt (Lesen, Löschen usw.). Dieser Prozess entspricht der Funktionsweise der FTP-Bereitstellung.
+Im üblichen Anwendungsfall für Amazon S3 erstellt der Inhaber eines Amazon Web Services (AWS)-Kontos einen Bucket, legt dann einen Benutzer oder eine Benutzerin mit Berechtigung zum Erstellen von Objekten in diesem Bucket an und stellt diesem Benutzer oder dieser Benutzerin anschließend die Anmeldedaten zur Verfügung. In diesem Fall gehören die Objekte eines Benutzers zum selben Konto und der Kontoinhaber hat implizit die vollständige Kontrolle über das Objekt (Lesen, Löschen usw.). Dieser Prozess entspricht der Funktionsweise der FTP-Bereitstellung.
 
-Mit AWS kann ein Benutzer aber auch Objekte in einem Bucket erstellen, die einem anderen Benutzerkonto zugeordnet sind. Beispiel: Zwei AWS-Benutzer, Benutzer A und Benutzer B, verfügen über kein gemeinsames AWS-Konto, möchten aber in anderen Buckets Objekte erstellen. Erstellt Benutzer A einen Bucket namens „Bucket A“, so kann Benutzer A eine Bucket-Richtlinie festlegen, die Benutzer B explizit erlaubt, in Bucket A Objekte zu erstellen, auch wenn der Bucket nicht Benutzer B gehört. Diese Richtlinie kann vorteilhaft sein, da es nicht notwendig ist, dass Benutzer A und Benutzer B Anmeldeinformationen austauschen. Stattdessen stellt Benutzer B Benutzer A die Nummer seines Benutzerkontos zur Verfügung und Benutzer A erstellt eine Bucket-Richtlinie, die im Wesentlichen aussagt, dass „Benutzer B Objekte in Bucket A erstellen darf“.
+Mit AWS kann ein Benutzer oder eine Benutzerin aber auch Objekte in einem Bucket erstellen, die einem anderen Konto zugeordnet sind. Beispiel: Zwei AWS-Benutzende, Benutzer oder Benutzerin A und Benutzer oder Benutzerin B, verfügen über kein gemeinsames Konto, möchten aber in anderen Buckets Objekte erstellen. Erstellt Benutzer oder Benutzerin A einen Bucket namens „bucketA“, kann Benutzer oder Benutzerin A eine Bucket-Richtlinie festlegen, die Benutzer oder Benutzerin B explizit erlaubt, in bucketA Objekte zu erstellen, auch wenn der Bucket nicht Benutzer oder Benutzerin B gehört. Diese Richtlinie kann vorteilhaft sein, da es nicht notwendig ist, dass Benutzer oder Benutzerin A und Benutzer oder Benutzerin B Anmeldedaten austauschen. Stattdessen stellt Benutzer B Benutzer A die Nummer seines Benutzerkontos zur Verfügung und Benutzer A erstellt eine Bucket-Richtlinie, die im Wesentlichen aussagt, dass „Benutzer B Objekte in Bucket A erstellen darf“.
 
 Objekte erben jedoch keine Berechtigungen vom übergeordneten Bucket. Lädt Benutzer B ein Objekt in den Bucket von Benutzer A hoch, „gehört“ das Objekt immer noch Benutzer B und Benutzer A hat standardmäßig keine Berechtigungen bezüglich des Objekts, auch wenn der Bucket Benutzer A gehört. Benutzer B muss Benutzer A explizit Berechtigungen einräumen, da Benutzer B immer noch der Eigentümer des Objekts ist. Um diese Berechtigung zu erteilen, muss Benutzer B das Objekt mit einer BucketOwnerFullControl-ACL hochladen, die angibt, dass dem Bucket-Inhaber (Benutzer A) vollständige Berechtigungen für das Objekt (Lesen, Schreiben, Löschen usw.) gewährt werden, auch wenn das Objekt Benutzer B „gehört“.
 

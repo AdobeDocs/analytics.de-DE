@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 91%
+ht-degree: 89%
 ---
 # Panel „Attribution“ {#attribution-panel}
 
@@ -54,25 +54,25 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Panel „Attribution“"
->abstract="Vergleichen und visualisieren Sie im Handumdrehen eine beliebige Anzahl von Attributionsmodellen unter Verwendung verschiedener Dimensionen und Konversionsmetriken.<br/><br/>**Parameter &#x200B;**<br/>**Kanal**<br/> Die Dimension für die Attribution. Dabei kann es sich um Marketing-Kanäle, Kampagnen oder beliebige andere Dimensionen handeln.<br/>**Modelle**<br/> Das Modell legt fest, wie Touchpoints Credits zugewiesen werden.<br/>**Lookback-Fenster**<br/> Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion gilt."
+>abstract="Vergleichen und visualisieren Sie im Handumdrehen eine beliebige Anzahl von Attributionsmodellen unter Verwendung verschiedener Dimensionen und Konversionsmetriken.<br/><br/>**Parameter **<br/>**Kanal**<br/> Die Dimension für die Attribution. Dabei kann es sich um Marketing-Kanäle, Kampagnen oder beliebige andere Dimensionen handeln.<br/>**Modelle**<br/> Das Modell legt fest, wie Touchpoints Credits zugewiesen werden.<br/>**Lookback-Fenster**<br/> Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion gilt."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ-Bedienfeld"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Attributionsbedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution)_ für die![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel wird das Attributionsbedienfeld in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution)_ für die![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
-Das **[!UICONTROL Attributionsbedienfeld]** bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Das Panel bietet Ihnen einen speziellen Arbeitsbereich zum Verwenden und Vergleichen von Attributionsmodellen.
+Das **[!UICONTROL Attributionsbedienfeld]** bietet eine einfache Möglichkeit, eine Analyse zu erstellen, mit der verschiedene Attributionsmodelle verglichen werden. Das Panel bietet Ihnen einen speziellen Arbeitsbereich zum Verwenden und Vergleichen von Attribution-Modellen.
 
 Adobe Analytics erweitert die Attribution und ermöglicht Ihnen Folgendes:
 
 * Definieren Sie Attribution über Paid Media hinaus: Jede Dimension, jede Metrik, jeder Kanal oder jedes Ereignis kann auf Modelle angewendet werden (z. B. die interne Suche), nicht nur auf Marketing-Kampagnen.
 * Den Vergleich für unbegrenzte Attributionsmodelle verwenden: Vergleichen Sie dynamisch so viele Modelle, wie Sie möchten.
-* Implementierungsänderungen vermeiden: Mit der Berichtszeitverarbeitung und kontextabhängigen Sitzungen kann Customer Journey-Kontext erstellt und zur Laufzeit angewendet werden.
-* Die Sitzung erstellen, die Ihrem Attributionsszenario am ehesten entspricht.
+* Änderungen an der Implementierung vermeiden: Mit der Berichtszeitverarbeitung und kontextabhängigen Sitzungen kann Customer-Journey-Kontext erstellt und zur Laufzeit angewendet werden.
+* Erstellen Sie die Sitzung, die Ihrem Attribution-Szenario am ehesten entspricht.
 * Die Attribution nach Segmenten aufschlüsseln: Vergleichen Sie problemlos die Leistung Ihrer Marketing-Kanäle über ein beliebiges wichtiges Segment hinweg (z. B. Neu- mit Bestandskundschaft, Produkt X im Vergleich zu Produkt Y, Treuestufe oder CLV).
 * Überschneidungen zwischen Kanälen und Multi-Touch-Analysen untersuchen: Verwenden Sie Venn-Diagramme und Histogramme und erstellen Sie Trends anhand von Attributionsergebnissen.
 * Wichtige Marketing-Sequenzen visuell analysieren: Erkunden Sie zur Konversion führende Pfade visuell mithilfe von mehrknotigen Fluss- und Fallout-Visualisierungen.
@@ -92,11 +92,11 @@ So verwenden Sie das Panel **[!UICONTROL Attribution]**:
 
 Sie können das Panel „Attribution“ mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 
-1. Fügen Sie eine **[!UICONTROL Erfolgsmetrik]** und eine Dimension aus dem **[!UICONTROL Kanal]** für die Attribution hinzu. Beispiele sind Marketing-Kanäle oder benutzerdefinierte Dimensionen wie interne Promotions.
+1. Fügen Sie eine **[!UICONTROL Erfolgsmetrik]** und eine Dimension aus dem **[!UICONTROL Kanal]** für die Attribution hinzu. Beispiele sind Marketing-Kanäle oder benutzerdefinierte Dimensionen wie interne Promotionen.
 
    ![Das Fenster des Panels „Attribution“ mit mehreren ausgewählten Dimensionen und Metriken.](assets/attribution-panel.png)
 
-1. Wählen Sie ein oder [&#x200B; (](#attribution-models)) aus **[!UICONTROL Enthaltene Modelle]**, den [Container](#container) aus **[!UICONTROL Container]** und ein [Lookback-Fenster](#lookback-window) aus **[!UICONTROL Lookback-Fenster]**, das Sie für den Vergleich verwenden möchten.
+1. Wählen Sie ein oder [ (](#attribution-models)) aus **[!UICONTROL Enthaltene Modelle]**, den [Container](#container) aus **[!UICONTROL Container]** und ein [Lookback-Fenster](#lookback-window) aus **[!UICONTROL Lookback-Fenster]**, das Sie für den Vergleich verwenden möchten.
 
 1. Wählen Sie **[!UICONTROL Erstellen]** aus, um die Visualisierungen im Panel zu erstellen.
 
@@ -108,11 +108,11 @@ Das Panel **[!UICONTROL Attribution]** gibt einen umfangreichen Satz an Daten un
 
 ### Visualisierungen der Attribution
 
-Die folgenden Visualisierungen sind Teil der Panel-Ausgabe.
+Die folgenden Visualisierungen sind Teil der Bedienfeldausgabe.
 
 * **Summenmetrik**: Die Gesamtzahl der Konversionen, die im Berichtszeitfenster stattgefunden haben und der ausgewählten Dimension zugeordnet wurden.
 * **Balkendiagramm für den Vergleich der Metrik-Attribution**: Vergleicht visuell die zugeordneten Konversionen über die einzelnen Dimensionselemente der von Ihren ausgewählten Dimension hinweg. Jede Balkenfarbe stellt ein bestimmtes Attributionsmodell dar.
-* **Attributionsvergleichstabelle**: Zeigt dieselben Daten wie das Balkendiagramm in Tabellenform an. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Bedienfeld gefiltert. Diese Tabelle verhält sich ähnlich wie jede andere Freiformtabelle in Workspace. So können Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen.
+* **Attributionsvergleichstabelle**: Zeigt dieselben Daten wie das Balkendiagramm in Tabellenform an. Durch die Auswahl verschiedener Spalten oder Zeilen in dieser Tabelle werden das Balkendiagramm sowie mehrere andere Visualisierungen im Panel gefiltert. Diese Tabelle verhält sich ähnlich wie jede andere Freiformtabelle in Workspace. So können Sie Komponenten wie Metriken, Segmente oder Aufschlüsselungen hinzufügen.
 * **Überlagerungsdiagramm**: Eine Venn-Visualisierung, die die drei wichtigsten Dimensionselemente zeigt und wie oft sie gemeinsam an einer Konversion beteiligt sind. Beispielsweise gibt die Größe der Blasenüberlagerung an, wie oft Konversionen auftraten, wenn eine Person beiden Dimensionselementen ausgesetzt war. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
 * **Leistungsdetail**: Eine Visualisierung vom Typ „Streuung“ zum visuellen Vergleich von bis zu drei Attributionsmodellen.
 * **Trendleistung**: Zeigt den Trend der zugeordneten Konvertierungen für das Element der obersten Dimension. Durch die Auswahl anderer Zeilen in der angrenzenden Freiformtabelle wird die Visualisierung entsprechend Ihrer Auswahl aktualisiert.
@@ -144,7 +144,7 @@ Die folgenden Visualisierungen sind Teil der Panel-Ausgabe.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

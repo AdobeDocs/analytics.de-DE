@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 89%
+ht-degree: 87%
 ---
 # Implementieren mit Facebook Instant Articles
 
-Mit Facebook Instant Articles können Vermarkter schnelle, interaktive Artikel auf Facebook erstellen. Mit Instant Articles wird Inhalt bis zu 10-mal schneller geladen als mobile Websites.
+Mit Facebook Instant Articles können Publisher schnelle, interaktive Artikel auf Facebook aufbauen. Instant Articles können Content bis zu 10-mal schneller laden als mobile Websites.
 
 Sie können Adobe Analytics in Facebook Instant Articles einbetten, um das Besucherverhalten zu verfolgen. Da sich der Inhalt des Vermarkters in der Facebook-App und nicht auf den Websites des Vermarkters befindet, unterscheidet sich der Tagging-Ansatz von der Analytics-Standardimplementierung.
 
@@ -45,10 +45,10 @@ Sie können Adobe Analytics in Facebook Instant Articles einbetten, um das Be
 
 Der übergreifende Workflow zur Implementierung von Adobe Analytics lautet wie folgt:
 
-1. Erstellen Sie eine `stats.html`-Seite. Codieren Sie diese Seite, um Abfragezeichenfolgenparameter aus der URL abzurufen und jeden Parameter einer Analytics-Variablen zuzuweisen.
+1. Erstellen Sie eine `stats.html`-Seite. Richten Sie diese Seite so ein, dass sie Abfragezeichenfolgenparameter aus der URL abruft und jeden Parameter einer Analytics-Variablen zuweist.
 1. Hosten Sie die `stats.html`-Seite auf Ihrem Webserver.
 1. Implementieren Sie Analytics für Facebook Instant Article, indem Sie die `stats.html`-Datei in einem iFrame referenzieren.
-1. Schließen Sie die Abfragezeichenfolgenparameter in das iFrame-Attribut `src` ein.
+1. Einschließen von Abfragezeichenfolgenparametern in das iframe-`src`
 
 ### Schritt 1: Erstellen einer `stats.html`-Seite
 
@@ -98,12 +98,12 @@ Betten Sie beim Erstellen von Facebook Instant Article-Inhalten den HTML-Inhal
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
 ```
 
-### Schritt 4: Festlegen des benutzerdefinierten Variablen- und Ereignis-Trackings
+### Schritt 4: Festlegen des benutzerdefinierten Variablen- und Ereignis-Tracking
 
 Benutzerdefinierte Variablen und Ereignisse können über zwei verschiedene Ansätze in Ihrer Analytics-HTML verfolgt werden:
 
 * Fügen Sie Variablenwerte und -ereignisse direkt in die `stats.html`-Seite ein. Die hier definierten Variablen eignen sich am besten für Werte, die normalerweise für alle Facebook Instant Articles gleich sind.
-* Fügen Sie Variablenwerte als Teil einer Abfragezeichenfolge ein, die auf den iFrame verweist. Mit dieser Methode können Sie Variablenwerte aus dem Facebook Instant Article an den iFrame senden, der den Analytics-Code hostet.
+* Fügen Sie Variablenwerte als Teil einer Abfragezeichenfolge ein, die auf den iFrame verweist. Mit dieser Methode können Sie Variablenwerte aus dem Facebook Instant Article an den iFrame senden, der den Analytics-Code hostet.
 
 Das folgende Beispiel zeigt mehrere benutzerdefinierte Variablen, die in einer Abfragezeichenfolge enthalten sind. Das in `stats.html` enthaltene JavaScript prüft dann die Abfragezeichenfolge mit `s.Util.getQueryParam()`.
 
@@ -113,8 +113,8 @@ Das folgende Beispiel zeigt mehrere benutzerdefinierte Variablen, die in einer A
 
 >[!NOTE]
 >
->Die Dimension „Referrer“ wird aufgrund der Art der iFrames nicht automatisch verfolgt. Stellen Sie sicher, dass Sie diese Dimension als Teil Ihrer Abfragezeichenfolge einbeziehen, wenn Sie sie verfolgen möchten.
+>Die Dimension „Referrer“ wird aufgrund der Art der iFrames nicht automatisch nachverfolgt. Stellen Sie sicher, dass Sie diese Dimension als Teil Ihrer Abfragezeichenfolge einbeziehen, wenn Sie sie verfolgen möchten.
 
 ## Facebook Instant Articles und Datenschutz
 
-Wenn die Analytics HTML-Seite auf Ihrem Webserver gehostet wird, unterstützt Adobe Ihre vorhandenen Datenschutzrichtlinien in allen Facebook Instant Articles. Wenn ein Benutzer das Tracking auf Ihrer primären Website deaktiviert, wird das Tracking auf all Ihren Facebook Instant Articles ebenfalls deaktiviert. Die Service-Seite unterstützt auch den Besucher-ID-Dienst, damit Sie Facebook-Instant-Article-Daten in den Rest von CX Enterprise integrieren können.
+Solange die Analytics-HTML-Seite auf Ihrem Webserver gehostet wird, unterstützt Adobe Ihre vorhandene Datenschutzrichtlinie in allen Facebook Instant Articles. Wenn ein Benutzer oder eine Benutzerin ein Opt-out für das Tracking auf Ihrer primären Site durchführt, gilt dieses Opt-out auch für das Tracking auf all Ihren Facebook Instant Articles. Die Service-Seite unterstützt auch den Besucher-ID-Dienst, damit Sie Facebook-Instant-Article-Daten in den Rest von CX Enterprise integrieren können.

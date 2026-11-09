@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Analysis Workspace – Überblick {#analysis-workspace-overview}
 
@@ -54,7 +54,7 @@ Mit Analysis Workspace können Sie schnell Analysen erstellen, um Erkenntnisse z
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace – Übersicht](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace – Übersicht](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Die Hauptfunktionen von Analysis Workspace sind über die Schaltflächenleiste z
 
 ## Menü
 
-Die meisten Funktionen von Analysis Workspace sind per Drag-and-Drop und über Kontextmenüs in Panels, Visualisierungen und Komponenten verfügbar.
+Die meisten Funktionen von Analysis Workspace sind per Drag-and-Drop und über Kontextmenüs in Bedienfeldern, Visualisierungen und Komponenten verfügbar.
 
 Die Funktionen können auch über das Menü „Workspace“ sowie über Tastaturbefehle oder Hotkeys aufgerufen werden. Die Tastaturbefehle unterscheiden sich je nach Betriebssystem, unter dem der Browser ausgeführt wird. Eine entsprechende Übersicht finden Sie in den nachfolgenden Tabellen.
 
@@ -173,7 +173,7 @@ Durch Synchronisieren von Visualisierungen können Sie kontrollieren, welche Dat
 
 So beginnen Sie mit Analysis Workspace:
 
-1. Melden Sie sich mit Ihren Adobe ID[&#128279;](https://experience.adobe.com)Anmeldeinformationen bei Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID](https://experience.adobe.com)Anmeldeinformationen bei [Adobe CX Enterprise an.
 1. Wählen Sie **[!UICONTROL Customer Journey Analytics]** im App-Umschalter ![App](/help/assets/icons/Apps.svg) oben rechts in der Benutzeroberfläche aus.
 1. Standardmäßig wird die Seite **[!UICONTROL Projekte]** von Analysis Workspace angezeigt. Wenn ein bestimmtes Projekt für Sie ausgewählt wurde oder Sie kürzlich daran gearbeitet haben, wird dieses Projekt standardmäßig angezeigt.
 

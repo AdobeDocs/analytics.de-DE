@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 86%
-
+source-wordcount: '216'
+ht-degree: 82%
 ---
-
 # Farbpaletten für die Visualisierung {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
@@ -37,7 +35,7 @@ ht-degree: 86%
 <!-- markdownlint-enable MD034 -->
 
 
-Sie können die in Workspace verwendete Farbpalette für die Visualisierung ändern. Sie können eine vordefinierte Farbpalette auswählen oder eine eigene Palette festlegen, die den Markenfarben Ihres Unternehmens entspricht. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus. Die Zusammenfassungsänderung, die bedingte Formatierung in Freiformtabellen und die Zuordnungsvisualisierung sind davon jedoch **nicht** betroffen.
+Sie können die in Workspace verwendete Farbpalette für die Visualisierung ändern. Sie können eine vordefinierte Farbpalette auswählen oder eine eigene Palette festlegen, die dem Branding Ihrer Firma entspricht. Diese Funktion wirkt sich auf die meisten Visualisierungen in Workspace aus. Die Zusammenfassungsänderung, die bedingte Formatierung in Freiformtabellen und die Zuordnungsvisualisierung sind davon jedoch **nicht** betroffen.
 
 >[!NOTE]
 >
@@ -47,7 +45,7 @@ Sie können die in Workspace verwendete Farbpalette für die Visualisierung änd
 
 Beachten Sie:
 
-* Es stehen sechs voreingestellte Farbpaletten zur Auswahl. Die Standardpalette und die zweite aufgeführte Palette wurden für Kontrast optimiert und sind bei Farbenblindheit besser geeignet.
+* Es stehen sechs voreingestellte Farbpaletten zur Auswahl. Die Standardpalette und die zweite aufgeführte Palette wurden für Kontrast optimiert und sind für Benutzende mit Farbenblindheit besser zugänglich.
 * Die anderen Paletten wurden für die Farbharmonie optimiert.
 
 ## So ändern Sie Ihre Farbpalette:
@@ -85,7 +83,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/328055?captions=ger&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

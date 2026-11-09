@@ -44,22 +44,22 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # Häufig gestellte Fragen
 
 {{available-existing-customers}}
 
-+++ Wie kann ich die geräteübergreifende Analyse verwenden, um zu sehen, wie Benutzer von einem Gerätetyp zum anderen wechseln?
++++ Wie kann ich CDA verwenden, um zu sehen, wie Benutzende von einem Gerätetyp zum anderen wechseln?
 
 Sie können eine [!UICONTROL Fluss]-Visualisierung mit der Dimension „Mobilgerätetyp“ verwenden.
 
 1. Melden Sie sich bei Adobe Analytics an und erstellen Sie ein neues leeres Workspace-Projekt.
 2. Klicken Sie auf der linken Seite auf die Registerkarte „Visualisierungen“ und ziehen Sie eine Flussvisualisierung in die Arbeitsfläche auf der rechten Seite.
-3. Klicken Sie auf die Registerkarte „Komponenten“ auf der linken Seite und ziehen Sie die Dimension „Mobilgerätetyp“ an die mittlere Position mit der Bezeichnung „Dimension oder Element“.
+3. Klicken Sie links auf die Registerkarte Komponenten und ziehen Sie die Dimension „Mobilgerätetyp“ an die mittlere Position mit der Bezeichnung &quot;Dimension oder Element“.
 4. Dieser Flussbericht ist interaktiv. Klicken Sie auf einen der Werte, um den Fluss auf nachfolgende oder vorherige Seiten zu erweitern. Verwenden Sie das Kontextmenü, um Spalten zu erweitern oder zu reduzieren. Im selben Flussbericht können auch verschiedene Dimensionen verwendet werden.
 
 +++
@@ -74,28 +74,28 @@ Anhand des Beispiels mit dem oben beschriebenen Mobilgerätetyp können Sie sehe
 
 Die geräteübergreifende Zuordnung der Cross-Device-Analyse erfolgt in zwei gleichzeitigen Prozessen.
 
-* Das erste Verfahren wird als „Live-Zuordnung“ bezeichnet und läuft ab, wenn die Daten in Adobe Analytics strömen. Während der Live-Zuordnung versucht die Cross-Device-Analyse, die Daten auf Personenebene neu darzustellen. Ist die Person zum Zeitpunkt der Live-Zuordnung jedoch unbekannt, nutzt die Cross-Device-Analyse zur Darstellung der Person die Besucher-ID.
+* Das erste Verfahren wird als „Live Stitching“ bezeichnet und läuft ab, wenn die Daten in Adobe Analytics strömen. Während der Live-Zuordnung versucht die Cross-Device-Analyse, die Daten auf Personenebene neu darzustellen. Ist die Person zum Zeitpunkt der Live-Zuordnung jedoch unbekannt, nutzt die Cross-Device-Analyse zur Darstellung der Person die Besucher-ID.
 
 * Der zweite Prozess ist die sogenannte „Wiederholung“. Während der Wiederholung geht die Cross-Device-Analyse in der Zeit zurück und ordnet soweit möglich historische Daten innerhalb eines bestimmten Rückblickfensters neu zu. Dieses Rückblickfenster dauert je nach Konfiguration der Cross-Device-Analyse entweder 1 Tag oder 7 Tage. Während der Wiederholung versucht die Cross-Device-Analyse, Treffer neu darzustellen, bei denen die Person vorher unbekannt war.
 
 
 +++
 
-+++ Wie behandelt die geräteübergreifende Analyse Treffer mit Zeitstempel?
++++ Wie behandelt die Cross-Device-Analyse Treffer mit Zeitstempel?
 
-Adobe behandelt Treffer mit Zeitstempel so, als wären sie zum Zeitpunkt des Zeitstempels eingegangen, nicht zum Zeitpunkt, zu dem Adobe den Treffer erhalten hat. Treffer mit Zeitstempel, die älter als 1 Monat sind, werden nie zugeordnet, da sie außerhalb des Bereichs liegen, den Adobe zum Stitching verwendet.
+Adobe behandelt Treffer mit Zeitstempel so, als wären sie zum Zeitpunkt des Zeitstempels eingegangen, nicht zum Zeitpunkt, zu dem Adobe den Treffer erhalten hat. Treffer mit Zeitstempel, die älter als 1 Monat sind, werden nie gestitcht, da sie außerhalb des Bereichs liegen, den Adobe zum Stitching verwendet.
 
 +++
 
-+++ Wie unterscheidet sich die geräteübergreifende Analyse von der benutzerspezifischen Besucher-ID?
++++ Wie unterscheidet sich die Cross-Device-Analyse von der benutzerdefinierten Besucher-ID?
 
 Die Verwendung einer benutzerdefinierten Besucher-ID ist eine veraltete Methode, Benutzende geräteübergreifend zu verbinden. Bei einer benutzerspezifischen Besucher-ID verwenden Sie die [`visitorID`](/help/implement/vars/config-vars/visitorid.md)-Variable, um die für die Besucherlogik verwendete ID explizit festzulegen. Die `visitorID`-Variable setzt alle Cookie-basierten IDs außer Kraft, die vorhanden sind.
 
-Benutzerspezifische Besucher-IDs haben mehrere unerwünschte Seiteneffekte, die durch CDA überwunden oder minimiert werden. Beispielsweise verfügt die Methode der benutzerspezifischen Besucher-ID über keine [Wiederholungsfunktionen](replay.md). Wenn sich ein Benutzer während eines Besuchs authentifiziert, wird der erste Teil des Besuchs mit einer anderen Besucher-ID verknüpft als der letzte Teil des Besuchs. Die separaten Besucher-IDs führen zu Besuchs- und Besucherinflation. Die geräteübergreifende Analyse stellt historische Daten erneut dar, sodass nicht authentifizierte Treffer zur richtigen Person gehören.
+Benutzerdefinierte Besucher-IDs haben mehrere unerwünschte Seiteneffekte, die durch CDA überwunden oder minimiert werden. Beispielsweise verfügt die Methode der benutzerspezifischen Besucher-ID über keine [Wiederholungsfunktionen](replay.md). Wenn sich ein Benutzer während eines Besuchs authentifiziert, wird der erste Teil des Besuchs mit einer anderen Besucher-ID verknüpft als der letzte Teil des Besuchs. Die separaten Besucher-IDs führen zu Besuchs- und Besucherinflation. CDA stellt historische Daten erneut dar, sodass nicht authentifizierte Treffer der richtigen Person zugeordnet werden.
 
 +++
 
-+++ Kann ich von der benutzerspezifischen Besucher-ID auf die geräteübergreifende Analyse umsteigen?
++++ Kann ich von der benutzerdefinierten Besucher-ID zu CDA wechseln?
 
 Kunden, die bereits eine benutzerdefinierte Besucher-ID verwenden, können auf CDA aktualisieren, ohne dass sich die Implementierung ändert. Die `visitorID`-Variable wird weiterhin in der Quell-Report Suite verwendet. Die geräteübergreifende Analyse ignoriert jedoch die `visitorID`-Variable in der Virtual Report Suite, wenn sich ein Benutzer authentifiziert.
 
@@ -107,22 +107,22 @@ Kunden, die bereits eine benutzerdefinierte Besucher-ID verwenden, können auf C
 
 In bestimmten Situationen kann ein einzelner Benutzer mit einer großen Anzahl von ECIDs verknüpft sein. Dies kann vorkommen, wenn der Benutzer eine Vielzahl von Browsern oder Apps verwendet, vor allem dann, wenn er häufig Cookies löscht oder den privaten oder Inkognito-Modus des Browsers verwendet.
 
-* **Bei der Verwendung des feldbasierten Stitching** ist die Anzahl der Geräte für die Prop/eVar, die Sie zur Identifizierung der angemeldeten Benutzer verwenden, irrelevant. Ein einzelner Benutzer kann zu einer beliebigen Anzahl von Geräten gehören, ohne dass sich dies auf die Fähigkeit der CDA auswirkt, Geräte zuzuordnen.
+* **Bei der Verwendung des feldbasierten Stitching** ist die Anzahl der Geräte für die Prop/eVar, die Sie zur Identifizierung der angemeldeten Benutzer verwenden, irrelevant. Ein einzelner Benutzer oder eine einzelne Benutzerin kann zu einer beliebigen Anzahl von Geräten gehören, ohne dass sich dies auf die Fähigkeit von CDA auswirkt, Daten geräteübergreifend zu verknüpfen.
 
 +++
 
 +++ Was ist der Unterschied zwischen der Metrik „Personen“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
-Die Metriken [Personen](/help/components/metrics/people.md) und [Unique Visitors](/help/components/metrics/unique-visitors.md) zählen einzelne Besucher (Einzelpersonen). Beachten Sie jedoch, dass zwei verschiedene Geräte derselben Person gehören können. Die geräteübergreifende Analyse ordnet die beiden Geräte derselben Person zu, während die zwei Geräte außerhalb der geräteübergreifenden Analyse als zwei separate „Unique Visitors“ erfasst werden.
+Die Metriken [Personen](/help/components/metrics/people.md) und [Unique Visitors](/help/components/metrics/unique-visitors.md) zählen einzelne Besucher (Einzelpersonen). Beachten Sie jedoch, dass zwei verschiedene Geräte derselben Person gehören können. Cross-Device Analytics (CDA) ordnet die beiden Geräte derselben Person zu, während die zwei Geräte außerhalb von CDA als zwei separate „Unique Visitors“ erfasst werden.
 
 +++
 
-+++ Was ist der Unterschied zwischen der Metrik „Eindeutige Geräte“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
++++ Was ist der Unterschied zwischen der Metrik „Unique Devices“ in CDA und der Metrik „Unique Visitors“ außerhalb von CDA?
 
 Diese beiden Metriken sind in etwa gleich. Unterschiede zwischen diesen beiden Metriken treten auf, wenn:
 
-* Ein gemeinsam genutztes Gerät mehreren Personen zugeordnet wird. In diesem Szenario werden 1 Unique Visitor und mehrere eindeutige Geräte gezählt.
-* Ein Gerät sowohl nicht zugeordneten als auch zugeordneten Traffic vom gleichen Besucher aufweist. Beispiel: Ein Browser generiert identifizierten zugeordneten Traffic sowie anonymen historischen Traffic, der nicht zugeordnet wurde. In diesem Fall werden 1 Unique Visitor und 2 eindeutige Geräte gezählt.
+* Ein gemeinsam genutztes Gerät mehreren Personen zugeordnet wird. In diesem Szenario wird 1 „Unique Visitor“ gezählt, während mehrere „Unique Devices“ gezählt werden.
+* Ein Gerät weist sowohl nicht zugeordneten als auch zugeordneten Traffic vom gleichen Besucher oder von der gleichen Besucherin auf. Beispiel: Ein Browser generiert identifizierten zugeordneten Traffic sowie anonymen historischen Traffic, der nicht zugeordnet wurde. In diesem Fall wird 1 „Unique Visitor“ gezählt, während 2 „Unique Devices“ gezählt werden.
 
 Weitere Beispiele und Details zur Funktionsweise finden Sie unter [Eindeutige Geräte](/help/components/metrics/unique-devices.md).
 
@@ -138,7 +138,7 @@ Ja. Analysis Workspace verwendet die 2.0-API, um Daten von Adobe-Servern anzufor
 
 +++
 
-+++ Geräteübergreifende Analysen können Unique Visitors einander zuordnen. Können durch diese Metrik Besuche einander zugeordnet werden?
++++ Cross-Device Analytics kann „Unique Visitors“ einander zuordnen. Können durch diese Metrik Besuche einander zugeordnet werden?
 
 Ja. Wenn eine Person innerhalb des Besuchs-Timeouts Ihrer Virtual Report Suite (standardmäßig 30 Minuten) Treffer von zwei verschiedenen Geräten sendet, werden sie demselben Besuch zugeordnet.
 
@@ -155,13 +155,13 @@ Beide diese Kennungen werden von Adobe zum Zeitpunkt der Berichterstellung berec
 
 +++ Wie kann ich vom Gerätediagramm zum feldbasierten Stitching wechseln oder umgekehrt?
 
-Der Wechsel vom Gerätediagramm zur feldbasierten Zuordnung oder umgekehrt kann über die Kundenunterstützung angefordert werden. Es kann jedoch einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist, und *historische zugeordnete Daten aus der vorherigen Methode gehen verloren*.
+Der Wechsel vom Gerätediagramm zum feldbasierten Stitching oder umgekehrt kann über die Kundenunterstützung angefordert werden. Es kann jedoch einige Wochen oder länger dauern, bis ein solcher Wechsel abgeschlossen ist, und *historische zugeordnete Daten aus der vorherigen Methode gehen verloren*.
 
 +++
 
 +++ Wie geht Adobe mit individuellen Einschränkungen für eine Prop oder eVar um, die beim feldbasierten Stitching verwendet wird?
 
-Die geräteübergreifende Analyse ruft Identifizierungsvariablen-Dimensionselemente ab, bevor sie für das Reporting optimiert werden. Sie müssen sich bei der geräteübergreifenden Analyse keine Sorgen um individuelle Einschränkungen machen. Wenn Sie jedoch versucht haben, diese Prop/eVar in einem Workspace-Projekt zu verwenden, wird weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) angezeigt.
+CDA ruft die Elemente der Kennungsvariablen-Dimension ab, bevor sie für das Reporting optimiert werden. Sie müssen sich für CDA keine Sorgen um eindeutige Grenzwerte machen. Wenn Sie jedoch versucht haben, diese Prop/eVar in einem Workspace-Projekt zu verwenden, wird weiterhin das Dimensionselement [(Geringer Traffic)](/help/technotes/low-traffic.md) angezeigt.
 
 +++
 
@@ -171,29 +171,29 @@ Ab dem 1. Mai 2022 wird jede neue Implementierung von CDA auf maximal drei Repor
 
 +++
 
-+++ Kann ich dann CDA für alle Unternehmen aktivieren, wenn meine Organisations-ID mehrere Unternehmen in verschiedenen Regionen enthält?
++++ Wenn meine Organisations-ID mehrere Unternehmen in verschiedenen Regionen enthält, kann ich dann CDA für alle Unternehmen aktivieren?
 
-Nein. Für dieselbe Organisations-ID kann nur eine Region CDA aktiviert haben.
+Nein. Für dieselbe Organisations-ID kann nur eine Region CDA aktiviert werden.
 
 +++
 
 +++ Welche Vor- und Nachteile hat eine Wiederholung über sieben Tage gegenüber einer Wiederholung über einen Tag?
 
-Der Vorteil des siebentägigen Wiederholungs-Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse einen längeren Zeitraum nutzen kann, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich später innerhalb dieser sieben Tage angemeldet hat. Die Nachteile des 7-Tage-Lookback-Fensters sind: 1) Wiederholungen werden nur einmal pro Woche ausgeführt, und 2) die letzten sieben Tage können sich ändern.
+Der Vorteil des siebentägigen Wiederholungs-Lookback-Fensters besteht darin, dass CDA einen längeren Zeitraum nutzen kann, um zu versuchen, zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich später innerhalb dieser sieben Tage angemeldet hat. Die Nachteile des 7-Tage-Lookback-Fensters sind: 1) Wiederholungen werden nur einmal pro Woche ausgeführt, und 2) die letzten sieben Tage können sich ändern.
 
-Die Vorteile der Verwendung des eintägigen Wiederholungs-Lookback-Fensters sind: 1) tägliche Wiederholungsläufe und 2) nur gestern kann sich ändern. Der Nachteil des eintägigen Lookback-Fensters besteht darin, dass die geräteübergreifende Analyse nur einen Tag zurückgehen kann, um zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich gestern angemeldet hat.
-
-+++
-
-+++ Was passiert mit den zugeordneten Daten in meinen Virtual Report Suites für geräteübergreifende Analyse, wenn mein Unternehmen beschließt, ein Downgrade von Analytics Ultimate durchzuführen?
-
-Wenn ein Kunde von Ultimate herabstuft, hat er keinen Zugriff mehr auf zugeordnete Daten. Alle zuvor zugeordneten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites für geräteübergreifende Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglich nicht zugeordneten Report Suite.
+Die Vorteile der Verwendung des eintägigen Wiederholungs-Lookback-Fensters sind: 1) tägliche Wiederholungsläufe und 2) nur gestern kann sich ändern. Der Nachteil des eintägigen Lookback-Fensters besteht darin, dass CDA nur einen Tag zurückgehen kann, um zuvor anonyme Ereignisse mit einer Person zu verknüpfen, die sich gestern angemeldet hat.
 
 +++
 
-+++ Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner ursprünglichen Report Suite und der Virtual Report Suite der geräteübergreifenden Analyse?
++++ Was passiert mit den zugeordneten Daten in meinen virtuellen Report Suites in CDA, wenn mein Unternehmen beschließt, ein Downgrade von Analytics Ultimate durchzuführen?
 
-Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitungs-Pipeline mit mehreren abhängigen Komponenten. Es wird eine Datenabweichung von etwa 1 % für die Gesamtzahl der Treffer zwischen der ursprünglichen Report Suite und der Virtual Report Suite für CDA erwartet.
+Wenn ein Kunde oder eine Kundin von Ultimate herabstuft, hat er keinen Zugriff mehr auf zusammengeführte Daten. Alle zuvor zusammengeführten Daten werden entfernt. Das bedeutet, dass die Virtual Report Suites für geräteübergreifende Analyse jetzt keine geräteübergreifende Zuordnung widerspiegeln. Die Daten ähneln der ursprünglichen, nicht zugeordneten Report Suite.
+
++++
+
++++ Warum unterscheidet sich die Gesamtzahl der Treffer zwischen meiner Quell-Report Suite und der virtuellen CDA-Report Suite?
+
+CDA verwendet eine komplexe parallele Verarbeitungspipeline mit mehreren abhängigen Komponenten. Eine Datenabweichung von etwa 1 % bei der Gesamtzahl der Treffer zwischen der ursprünglichen Quell-Report Suite und der virtuellen CDA-Report Suite ist zu erwarten.
 
 +++
 
@@ -201,12 +201,12 @@ Die geräteübergreifende Analyse verwendet eine komplexe parallele Verarbeitung
 
 Die Metrik „Identifizierte Personen“ kann etwas höher sein, wenn für die Prop//eVar der Kennung eine [Hash-Kollision](/help/implement/validate/hash-collisions.md) besteht.
 
-Bei feldbasiertem Stitching wird bei der benutzerdefinierten Identifizierungsvariablen zwischen Groß- und Kleinschreibung unterschieden. Die Zahl der Metrik „Identifizierte Personen“ kann erheblich höher sein, wenn die Kennungswerte nicht mit der Groß-/Kleinschreibung übereinstimmen. Wenn beispielsweise `bob` und `Bob` gesendet und eigentlich dieselbe Person sind, interpretiert die geräteübergreifende Analyse diese beiden Werte als unterschiedlich.
+Bei feldbasiertem Stitching wird bei der benutzerdefinierten Kennungsvariablen zwischen Groß- und Kleinschreibung unterschieden. Die Zahl der Metrik „Identifizierte Personen“ kann erheblich höher sein, wenn die Kennungswerte sich nur in der Groß- und Kleinschreibung unterscheiden. Wenn beispielsweise `bob` und `Bob` gesendet und eigentlich dieselbe Person sind, interpretiert die geräteübergreifende Analyse diese beiden Werte als unterschiedlich.
 
 +++
 
 +++ Warum sehe ich für die Metrik „Nicht identifizierte Personen“ bei der Anzeige der Prop/eVar der Kennung Werte ungleich null?
 
-Diese Situation tritt normalerweise auf, wenn für einen Besucher im Berichtsfenster sowohl authentifizierte als auch nicht authentifizierte Treffer generiert werden. Der Besucher gehört in der Dimension [Identifikationsstatus](/help/components/dimensions/identified-state.md) sowohl zu „Nicht identifiziert“ als auch zu „Identifiziert“, weshalb nicht identifizierte Treffer einer Kennung zugeordnet werden. Dieses Szenario kann sich nach der Ausführung von [Wiederholen](replay.md) ändern, je nach der Wiederholungshäufigkeit und der Erfolgsrate.
+Diese Situation tritt normalerweise auf, wenn für einen Besucher oder eine Besucherin im Reporting-Zeitraum sowohl authentifizierte als auch nicht authentifizierte Treffer generiert werden. Der Besucher gehört in der Dimension [Identifikationsstatus](/help/components/dimensions/identified-state.md) sowohl zu „Nicht identifiziert“ als auch zu „Identifiziert“, weshalb nicht identifizierte Treffer einer Kennung zugeordnet werden. Dieses Szenario kann sich nach der Ausführung von [Wiederholen](replay.md) ändern, je nach der Wiederholungshäufigkeit und der Erfolgsrate.
 
 +++

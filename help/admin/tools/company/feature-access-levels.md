@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie die Zugriffsebene auf Adobe Analytics-Packages und -Funktionen anzeigen können, zu der Ihre Firma berechtigt ist.
+description: Erfahren Sie, wie Sie die Zugriffsebene auf Adobe Analytics-Pakete und -Funktionen anzeigen können, zu der Ihr Unternehmen berechtigt ist.
 title: Funktionszugriffsebenen
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
@@ -22,17 +22,15 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 82
-ht-degree: 100%
-
+source-wordcount: '81'
+ht-degree: 76%
 ---
-
 # Funktionszugriffsebenen
 
 **[!UICONTROL Admin]** > **[!UICONTROL Alle Administratoren]** > **[!UICONTROL Firmeneinstellungen]** > **[!UICONTROL Funktionszugriffsebenen anzeigen]**
 
-In dieser Gruppe von Einstellungen können Sie die Zugriffsebene auf die Packages und Funktionen von Adobe Analytics anzeigen, zu der Ihre Firma berechtigt ist. Einige Funktionen sind nur bei erweiterten Produkt-Packages (SKUs) wie etwa [Adobe Analytics Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html) verfügbar.
+Diese Gruppe von Einstellungen ermöglicht es Ihnen, die Zugriffsebene auf die Pakete und Funktionen von Adobe Analytics anzuzeigen, zu der Ihre Firma berechtigt ist. Einige Funktionen sind nur bei erweiterten Produkt-Packages (SKUs) wie etwa [Adobe Analytics Ultimate](https://www.adobe.com/de/data-analytics-cloud/analytics/ultimate.html) verfügbar.
 
 ![](assets/feature-access-levels.png)

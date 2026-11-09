@@ -24,7 +24,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Ein Treffer wird auf einer Web-Seite generiert, wenn JavaScript auf der Seite au
 
 | KI-Traffic-Typ | Erzeugt Treffer | Zu beachten |
 |---------|----------|---------|
-| **Vorschulung** | Ja | Treffer werden während der Vorschulung generiert, wenn der Inhalt von Ihrer Website in die KI aufgenommen wird. Eine Vorschulung findet jedoch selten statt. Inhalte, die im Vorschulungsmodus einer KI enthalten sind, können in zukünftigen Antworten immer wieder verwendet werden, ohne dass weitere Treffer auf Ihrer Website generiert werden. <p>Mit anderen Worten: Ein einzelner Treffer, der während des Vortrainings einer KI auftritt, kann immer wieder für mehrere On-Demand-Antworten wiederverwendet werden, ohne dass zusätzliche Treffer auf Ihrer Website erzeugt werden.</p><p>Informationen zur Analyse dieses KI-Traffics in Analysis Workspace finden Sie unter [Analysieren von KI-Traffic mithilfe der Bot-Erkennung](#analyze-ai-traffic-using-bot-detection).</p> |
+| **Vorschulung** | Ja | Treffer werden während der Vorschulung generiert, wenn der Inhalt von Ihrer Website in die KI aufgenommen wird. Eine Vorschulung findet jedoch nur selten statt. Inhalte, die im Vorschulungsmodus einer KI enthalten sind, können in zukünftigen Antworten immer wieder verwendet werden, ohne dass weitere Treffer auf Ihrer Website generiert werden. <p>Mit anderen Worten: Ein einzelner Treffer, der während des Vortrainings einer KI auftritt, kann immer wieder für mehrere On-Demand-Antworten wiederverwendet werden, ohne dass zusätzliche Treffer auf Ihrer Website erzeugt werden.</p><p>Informationen zur Analyse dieses KI-Traffics in Analysis Workspace finden Sie unter [Analysieren von KI-Traffic mithilfe der Bot-Erkennung](#analyze-ai-traffic-using-bot-detection).</p> |
 | **On-Demand-Aufforderungen** | Nein | Die KI-Antwort generiert keine Treffer, da die Antwort eine Kombination aus Folgendem verwendet:<ul><li>Vortrainierte Daten <br/>Informationen sind bereits im vortrainierten Wissen der KI enthalten, sodass die KI JavaScript nicht auf Seiten ausführt.</li><li>On-Demand-Websuche <br/>Ruft während der Websuche nur die unformatierte HTML der Webseite ab, sodass die KI JavaScript nicht auf Seiten ausführt.</li></ul> |
 | **Materielle Links zu Source in KI-Antworten** | Ja | Treffer werden generiert, wenn ein Benutzer auf den Link zu Quellmaterial klickt, das in der KI-Antwort enthalten ist. Es wird kein Treffer generiert, wenn in der Antwort ein Link enthalten ist und der Benutzer nicht auf den Link geklickt hat. <p>Einige KI-Chatbot-Antworten enthalten Links zum Quellmaterial, andere nicht. </p><p>Informationen zur Analyse dieses KI-Traffic-Typs in Analysis Workspace finden Sie unter [Analysieren von KI-Traffic nach Referrer-Typ](#analyze-ai-traffic-by-referrer-type).</p> |
 | **Agent-Workflows** | Ja | Treffer werden auf jeder Seite generiert, wenn der KI-Agent im Namen des Benutzers durch den Workflow klickt. <p>Informationen zur Analyse dieses KI-Traffic-Typs in Analysis Workspace finden Sie unter [Analysieren von KI-Traffic nach Referrer-Typ](#analyze-ai-traffic-by-referrer-type).</p> |

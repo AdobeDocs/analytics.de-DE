@@ -24,22 +24,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 76%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # Balken (gestapelt)
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel werden die Visualisierungen mit Balken und gestapelten Balken in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Balken und Balken gestapelt](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bar) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** Version dieses Artikels._
+_In diesem Artikel werden die Visualisierungen mit Balken und gestapelten Balken in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Balken und Balken gestapelt](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/bar) für die ![_ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
-Die Visualisierung „Balken“ bietet die Optionen „Standardmäßig“ und „Gestapelt“.
+Die Visualisierung „Balken“ bietet die Optionen „Standard“ und „Gestapelt“.
 
 ## Balken {#bar}
 
@@ -55,7 +53,7 @@ Die Visualisierung „Balken“ bietet die Optionen „Standardmäßig“ und �
 
 Die ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) Visualisierung **[!UICONTROL Balken]** zeigt vertikale Balken, die verschiedene Werte aus einer oder mehreren Metriken darstellen.
 
-![Vertikale Visualisierung Balken mit mehreren Metriken wie Seitenansichten, Besuche, Eintritte und Ausstiege.](assets/bar.png)
+![Vertikale Balkenvisualisierung mit mehreren Metriken, einschließlich Seitenansichten, Besuchen, Eintritten und Austritten.](assets/bar.png)
 
 In den Visualisierungseinstellungen können Sie über ein Dropdown-Menü für die Granularität eine Trend-Visualisierung (z. B. Linie, Balken) von täglich über wöchentlich zu monatlich usw. ändern.
 

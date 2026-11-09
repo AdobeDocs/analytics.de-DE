@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # Trackingcode
 
@@ -45,7 +45,7 @@ AppMeasurement erfasst diese Daten mit der [`campaign`](/help/implement/vars/pa
 | Eigenschaft | Wert |
 | --- | --- |
 | **AppMeasurement-Variable** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Feld Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Feld Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **Abfrageparameter** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML-Tag** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Byte-Grenze** | 255 Byte |
@@ -88,7 +88,7 @@ Marketing-Kanäle haben ein rollierendes 30-tägiges Zeitfenster für Besucherin
 3. Drei Wochen später kehrt er ohne Trackingcode oder Marketing-Kanal zurück und verlässt die Seite erneut.
 4. Zwei weitere Wochen später (fünf Wochen nach dem ersten Besuch) kehrt er ohne Trackingcode oder Marketing-Kanal zurück und tätigt dann einen Kauf.
 
-Der Nutzer tätigte letztendlich einen Kauf nach mehr als 30 Tagen, war aber nie länger als 30 Tage inaktiv. In diesem Fall würden Sie Umsatz sehen, der dem Marketing-Kanal für Trackingcodes zugeordnet ist, jedoch nicht der Dimension „Trackingcode“ selbst.
+Der Nutzer tätigte letztendlich einen Kauf nach mehr als 30 Tagen, war aber nie länger als 30 Tage inaktiv. In diesem Fall wird der Umsatz angezeigt, der dem Marketing-Kanal für Trackingcodes zugeordnet wird, jedoch nicht der Trackingcode-Dimension selbst.
 
 
 

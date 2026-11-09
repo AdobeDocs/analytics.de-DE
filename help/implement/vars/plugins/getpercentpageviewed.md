@@ -1,6 +1,6 @@
 ---
 title: getPercentPageViewed
-description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher aufgerufen hat.
+description: Rufen Sie den Prozentsatz der Seite ab, die der Besucher oder die Besucherin angesehen hat.
 feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 83%
@@ -41,7 +41,7 @@ ht-degree: 83%
 
 {{plug-in}}
 
-Das `getPercentPageViewed`-Plug-in misst die Bildlaufaktivität eines Besuchers, um festzustellen, wie viel Prozent einer Seite der Benutzer ansieht, bevor er auf eine andere Seite wechselt. Dieses Plug-in ist nicht erforderlich, wenn Ihre Seiten eine geringe Höhe haben oder die Bildlaufaktivität nicht gemessen werden soll.
+Das `getPercentPageViewed`-Plug-in misst die Bildlaufaktivität eines Besuchers, um festzustellen, wie viel Prozent einer Seite der Benutzer ansieht, bevor er auf eine andere Seite wechselt. Dieses Plug-in ist nicht erforderlich, wenn Ihre Seiten eine geringe Höhe haben oder wenn Sie die Bildlaufaktivität nicht messen möchten.
 
 ## Installieren des Plug-ins über die Web SDK- oder Web SDK-Erweiterung
 
@@ -57,7 +57,7 @@ Adobe bietet eine Erweiterung, mit der Sie die am häufigsten verwendeten Plug-i
 1. Installieren und Veröffentlichen der Erweiterung [!UICONTROL Common Analytics Plugins].
 1. Wenn Sie dies noch nicht getan haben, erstellen Sie eine Regel mit der Bezeichnung „Plug-ins initialisieren“ mit der folgenden Konfiguration:
    * Bedingung: Keine
-   * Ereignis: Core – Bibliothek geladen (Seitenanfang)
+   * Ereignis: Core – Bibliothek geladen (Page Top)
 1. Fügen Sie der obenstehenden Regel eine Aktion mit der folgenden Konfiguration hinzu:
    * Erweiterung: Common Analytics Plugins
    * Aktionstyp: getPercentPageViewed initialisieren
@@ -72,7 +72,7 @@ Wenn Sie die Plug-in-Erweiterung Common Analytics Plugins nicht verwenden möcht
 1. Gehen Sie zur Registerkarte [!UICONTROL Erweiterungen] und klicken Sie dann unter der Erweiterung „Adobe Analytics“ auf die Schaltfläche **[!UICONTROL Konfigurieren]**.
 1. Erweitern Sie das Akkordeon [!UICONTROL Tracking mit benutzerdefiniertem Code konfigurieren], wodurch die Schaltfläche [!UICONTROL Editor öffnen] angezeigt wird.
 1. Öffnen Sie den Editor für benutzerdefinierten Code und fügen Sie den unten angegebenen Plug-in-Code in das Bearbeitungsfenster ein.
-1. Speichern und veröffentlichen Sie die Änderungen an der Analytics-Erweiterung.
+1. Speichern und veröffentlichen Sie die Änderungen an der Adobe Analytics-Erweiterung.
 
 ## Installieren des Plug-ins mit AppMeasurement
 
@@ -97,7 +97,7 @@ Der Aufruf dieser Funktion gibt nichts zurück. Stattdessen werden die folgenden
 * `window._ppvPreviousPage`: Der Name der vorherigen angezeigten Seite. Abschließende Bildlaufmessungen für die aktuelle Seite sind erst verfügbar, nachdem eine neue Seite geladen wurde.
 * `window._ppvInitialPercentViewed`: Der Prozentsatz der vorherigen Seite, der beim ersten Laden der vorherigen Seite sichtbar war. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `100`.
 * `window._ppvHighestPercentViewed`: Der höchste Prozentsatz der vorherigen Seite, die der Besucher angezeigt hat (in der Höhe). Der am weitesten entfernte Punkt, zu dem der Besucher auf der vorherigen Seite gescrollt hat. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `100`.
-* `window._ppvFinalPercentViewed`: Der Prozentsatz der vorherigen Seite, der zu dem Zeitpunkt sichtbar war, als der Besucher bzw. die Besucherin auf die aktuelle Seite wechselte. Dieser Wert ist gleich oder größer dem ursprünglichen Prozentsatz und gleich oder kleiner dem höchsten Prozentsatz einer Seitenansicht.
+* `window._ppvFinalPercentViewed`: Der Prozentsatz der vorherigen Seite, der zu dem Zeitpunkt sichtbar war, als der Besucher bzw. die Besucherin auf die aktuelle Seite wechselte. Dieser Wert ist gleich oder größer als der ursprüngliche Prozentsatz und gleich oder kleiner als der höchste Prozentsatz der angesehenen Seite.
 * `window._ppvHighestPixelsSeen`: Die höchste Anzahl der insgesamt angesehenen Pixel (in der Höhe), während der Besucher einen Bildlauf auf der vorherigen Seite ausgeführt hat.
 * `window._ppvFoldsAvailable`: Die Anzahl der insgesamt verfügbaren „Seitenfalten“, die zum Scrollen auf der vorherigen Seite verfügbar sind. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
 * `window._ppvFoldsSeen`: Die höchste Anzahl von „Seitenfalten“, die erreicht wurde, als der Besucher die vorherige Seite nach unten gescrollt hat. Diese Variable enthält die Falte „Seitenanfang“. Wenn die gesamte Seite beim ersten Laden sichtbar ist, ist dieser Wert `1`.
@@ -115,7 +115,7 @@ Mit diesem Plug-in werden drei Erstanbieter-Cookies erstellt, die am Ende einer 
 ```js
 // 1. Runs the getPercentPageViewed function if the page variable is set
 // 2. Sets prop1 to the previous value of the page variable
-// 3. Sets prop2 to the intial percent, the highest percent, and the final percent viewed; the number of folds available on the page, and the number of folds viewed ( of the previous page)
+// 3. Sets prop2 to the initial percent, the highest percent, and the final percent viewed; the number of folds available on the page, and the number of folds viewed ( of the previous page)
 if(s.pageName) getPercentPageViewed();
 if(_ppvPreviousPage)
 {
@@ -159,5 +159,5 @@ if(_ppvPreviousPage)
 
 ### v3.0 (13. April 2018)
 
-* Zwischenversion (neu kompiliert, kleinere Code-Größe)
-* Das Plug-in erstellt jetzt Variablen, die Adobe Analytics-Variablen anstelle von Rückgabewerten zugewiesen werden
+* Zwischenversion (neu kompiliert, kleinere Codegröße)
+* Das Plug-in erstellt jetzt Variablen, die Adobe Analytics-Variablen anstelle von Rückgabewerten zugewiesen werden können.

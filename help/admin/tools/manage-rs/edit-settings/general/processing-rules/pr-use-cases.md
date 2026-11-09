@@ -25,20 +25,18 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # Anwendungsfälle für Verarbeitungsregeln
 
 Die Anwendungsmöglichkeiten für die Verwendung von Verarbeitungsregeln in Ihrem Unternehmen sind vielfältig. In den folgenden Abschnitten werden einige gängige Methoden erläutert, mit denen Sie diese zu Ihrem Vorteil nutzen können.
 
 +++Kopieren einer Kontextdatenvariable in eine eVar
 
-Verarbeitungsregeln werden verwendet, um Werte von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) in [Props](/help/components/dimensions/prop.md) und [eVars](/help/components/dimensions/evar.md) zu verschieben. Ohne Verarbeitungsregeln sind Kontextdatenvariablen bedeutungslos und füllen keine Berichte in Analytics aus.
+Verarbeitungsregeln werden verwendet, um Werte von [Kontextdatenvariablen](/help/implement/vars/page-vars/contextdata.md) in [Props](/help/components/dimensions/prop.md) und [eVars](/help/components/dimensions/evar.md) zu verschieben. Ohne Verarbeitungsregeln sind Kontextdatenvariablen bedeutungslos und füllen keine Berichte in Analytics.
 
 Die [!UICONTROL Kontextvariablen] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, ihn jedoch nicht an die aktuelle Report Suite gesendet haben, können Sie ihn manuell hinzufügen:
 
@@ -53,7 +51,7 @@ Im folgenden Beispiel wird die `search_term` Kontextdatenvariable genommen und i
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der die Verwendung einer Kontextdatenvariablen dargestellt ist](assets/set-context-data.png)
 
-Das obige Beispiel funktioniert hervorragend, wenn nur wenige eVars gefüllt werden müssen. Wenn Ihre Organisation über Hunderte von Kontextdatenvariablen verfügt, die jeweils eine eigene eVar benötigen, können Sie bedingte Anweisungen verwenden. Dutzende bedingte Anweisungen können in eine einzige Verarbeitungsregel passen, sodass Ihre Organisation alle eVars in einer Report Suite füllen kann, ohne das Verarbeitungsregellimit von 150 Regeln zu verletzen.
+Das obige Beispiel funktioniert hervorragend, wenn nur wenige eVars gefüllt werden müssen. Wenn Ihre Organisation über Hunderte von Kontextdatenvariablen verfügt, die jeweils eine eigene eVar benötigen, können Sie bedingte Anweisungen verwenden. Dutzende bedingte Anweisungen können in eine einzige Verarbeitungsregel passen, sodass Ihre Organisation alle eVars in einer Berichtssuite füllen kann, ohne das Verarbeitungsregel-Limit von 150 Regeln zu überschreiten.
 
 Im folgenden Beispiel werden mehrere Variablen mit unterschiedlichen Kontextdatenvariablen gefüllt. Eine Aktion enthält auch eine bedingte Anweisung:
 
@@ -69,7 +67,7 @@ Im folgenden Beispiel werden mehrere Variablen mit unterschiedlichen Kontextdate
 
 +++Festlegen eines Ereignisses mit einer Kontextdatenvariablen
 
-Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) &#x200B;](/help/implement/vars/page-vars/contextdata.md).
+Verarbeitungsregeln können Trigger-Ereignisse basierend auf [Kontextdatenvariablen) ](/help/implement/vars/page-vars/contextdata.md).
 
 Die [!UICONTROL Kontextvariablen] enthält alle Variablen, die in den letzten 30 Tagen an die Report Suite gesendet wurden. Wenn Sie den Namen der Kontextdatenvariablen kennen, ihn jedoch nicht an die aktuelle Report Suite gesendet haben, können Sie ihn manuell hinzufügen:
 
@@ -115,7 +113,7 @@ Ereignisse können basierend auf jeder in den Verarbeitungsregeln verfügbaren B
 | Regelsatz | Wert |
 | --- | --- |
 | Bedingung | Wenn [!UICONTROL Seitenname] gleich „Produktübersicht“ ist |
-| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) &#x200B;] auf [!UICONTROL benutzerdefinierter Wert] `1` |
+| Aktion | [!UICONTROL Ereignis] ([!UICONTROL ) ] auf [!UICONTROL benutzerdefinierter Wert] `1` |
 
 ![Screenshot der Schnittstelle für Verarbeitungsregeln, auf der ein bedingt festgelegtes Ereignis angezeigt wird](assets/set-product-view-event.png)
 
@@ -157,6 +155,6 @@ Sie können ein bestimmtes Ereignis aus einem Treffer mithilfe von Verarbeitungs
 | Bedingung | Keine (immer ausgeführt) |
 | Aktion | [!UICONTROL Ereignis festlegen] Event1 auf [!UICONTROL Benutzerdefinierter Wert] `0` |
 
-![Screenshot der Oberfläche für Verarbeitungsregeln, auf der zu sehen ist, wie ein Ereignis entfernt wird](assets/remove_event.png)
+![Screenshot der Benutzeroberfläche für Verarbeitungsregeln, auf der gezeigt wird, wie ein Ereignis entfernt wird](assets/remove_event.png)
 
 +++
