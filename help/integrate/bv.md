@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -256,4 +256,4 @@ Dieser Abschnitt dient der internen Überprüfung und sollte vor der Veröffentl
 
 ## Ausgehende Integration
 
-Dieses Handbuch behandelt nur die Integration eingehender Markensichtbarkeit, durch die Traffic-Daten von Bots und automatisierten Agenten zu einer Analytics Report Suite hinzugefügt werden. In der veröffentlichten Integrationsdokumentation wird auch eine Richtung für den Ausgang beschrieben, in der Analytics-Leistungsdaten für das Markensichtbarkeit innerhalb des Markensichtbarkeit-Produkts verfügbar gemacht werden. Diese Richtung liegt außerhalb des Rahmens dieses Handbuchs. Weitere Informationen zur ausgehenden Integration finden [&#128279;](https://experienceleague.adobe.com/de/docs/brand-visibility/using/resources/adobe-analytics-integration) in der Markensichtbarkeit-Dokumentation.
+Dieses Handbuch behandelt nur die Integration eingehender Markensichtbarkeit, durch die Traffic-Daten von Bots und automatisierten Agenten zu einer Analytics Report Suite hinzugefügt werden. In der veröffentlichten Integrationsdokumentation wird auch eine Richtung für den Ausgang beschrieben, in der Analytics-Leistungsdaten für das Markensichtbarkeit innerhalb des Markensichtbarkeit-Produkts verfügbar gemacht werden. Diese Richtung liegt außerhalb des Rahmens dieses Handbuchs. Weitere Informationen zur ausgehenden Integration finden [&#128279;](https://experienceleague.adobe.com/de/docs/brand-visibility/using/resources/adobe-analytics-integration) in der Dokumentation zu Markensichtbarkeit.

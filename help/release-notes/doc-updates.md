@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Aktualisierungen der technischen Dokumentation für Adobe Analytics
@@ -206,7 +206,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **September 2023** | |
 | Die Struktur der Artikel für das Panel „Bei Medienwiedergabe verbrachte Zeit“ wurde aktualisiert | Der Ordner „Bei Medienwiedergabe verbrachte Zeit“ wurde entfernt und der Inhalt des Ordners in einem einzigen Artikel zusammengefasst: [Bedienfeld „Bei Medienwiedergabe verbrachte Zeit“](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Diese Änderung entspricht eher der Dokumentation für andere Panels.</p> |
 | Verbesserungen am Get-Started-Inhalt | Es wurden Informationen hinzugefügt, in denen wichtige Aufgaben und Ressourcen für den Einstieg von Admins, Analystinnen und Analysten, Endbenutzerinnen und Endbenutzern sowie Entwicklungspersonen erläutert werden. Die folgenden neuen Artikel sind jetzt verfügbar: <ul><li>[Erste Schritte (nach Rolle)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Grundlagen der Analytics-Oberfläche](/help/analyze/get-started/analytics-interface.md)<li>[Anwendungsbeispiele](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Verbesserungen an der Reporting-Dokumentation für die Streaming-Mediensammlung | Einige Inhalte im Abschnitt „Berichte“ des Handbuchs für die Streaming-Mediensammlung wurden neu organisiert, einschließlich der Konsolidierung der API-Dokumentation in einem eigenen Abschnitt und der Anpassung der Reihenfolge einiger Artikel. |
+| Verbesserungen an der Reporting-Dokumentation für die Streaming-Mediensammlung | Einige Inhalte im Abschnitt Reporting des Handbuchs zur Streaming-Mediensammlung wurden neu organisiert, einschließlich der Konsolidierung der API-Dokumentation in einem eigenen Abschnitt und der Anpassung der Reihenfolge einiger Artikel. |
 | **August 2023** | |
 | Klarstellung für Daten-Feeds | Die [Definition der Start- und Enddaten](/help/export/analytics-data-feed/create-feed.md) wurde aktualisiert, um klarzustellen, dass Sie bei der Verarbeitung von Daten-Feeds für historische Daten das Startdatum auf ein Datum in der Vergangenheit setzen können, wenn Daten erfasst werden. |
 | Datenverarbeitung mit Adobe Experience Platform Edge Network | Es wurden Inhalte dazu hinzugefügt, wie Analytics [Daten aus Edge Network](../implement/aep-edge/overview.md) verarbeitet. |
@@ -240,7 +240,7 @@ Inhaltsaktualisierungen der Adobe Analytics-Dokumentation seit Januar 2019.
 | **April 2023** | |
 | Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs | Es wurden Informationen zum [Übertragen von Benutzer-Assets und Festlegen des Kontoablaufs](/help/admin/tools/user-management/users-assets.md) hinzugefügt. |
 | Zwei neue Endpunkt-Leitfäden für die Adobe Analytics 2.0-API | <ul><li>[Analytics Dimensions-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics-API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde vereinheitlicht und duplizierte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten sind jetzt mit den Schritten zum [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md) zusammengelegt. |
+| Projektsegmente (Ad-hoc- und Schnellsegmente) | Die Dokumentation zu Projektsegmenten wurde vereinheitlicht und doppelte Informationen wurden entfernt. Die Schritte zum Erstellen von Ad-hoc-Segmenten sind jetzt mit den Schritten zum [Erstellen von Schnellsegmenten](/help/analyze/analysis-workspace/components/segments/quick-segments.md) zusammengelegt. |
 | Dynamische Suchen | Es wurden zusätzliche Informationen zu [Dynamischen Suchen](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) hinzugefügt. Zuvor gab es nur Informationen für mobile Attribute, die eine von mehreren dynamischen Zuordnungen darstellen. |
 | **März 2023** | |
 | Web SDK-Unterstützung für Activity Map | [Implementieren von Adobe Analytics](/help/implement/home.md) aktualisiert. |

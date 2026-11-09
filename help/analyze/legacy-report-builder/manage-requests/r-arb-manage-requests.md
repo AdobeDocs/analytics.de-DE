@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 38%
-
 ---
-
 # Anforderungen verwalten – Definitionen
 
 {{legacy-arb}}
@@ -59,7 +57,7 @@ Der [!UICONTROL Anforderungs-Manager] wird angezeigt, wenn Sie in **[!UICONTROL 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Alle Blätter </p> </td> 
-   <td colname="col2"> <p>Die Anforderungen aus allen Arbeitsblättern der aktiven Arbeitsmappe werden angezeigt. Wenn Sie Anforderungen aus bestimmten Arbeitsblättern anzeigen möchten, müssen Sie diese Option deaktivieren. Wenn Sie diese Option deaktivieren, müssen Sie auf die Registerkarte für ein Arbeitsblatt am unteren Rand des Excel-Berichts klicken, um die zugehörigen Anforderungen im <span class="wintitle">Anforderungs-Manager</span> anzuzeigen. Die Beschriftung neben dem Kontrollkästchen gibt an, auf welches Blatt der Arbeitsmappe sich derzeit der Fokus befindet. </p> </td> 
+   <td colname="col2"> <p>Zeigt Anforderungen aus allen Arbeitsblättern der aktiven Arbeitsmappe an. Um Anforderungen aus bestimmten Arbeitsblättern anzuzeigen, deaktivieren Sie diese Option. Wenn Sie diese Option deaktivieren, müssen Sie auf die Registerkarte für ein Arbeitsblatt am unteren Rand des Excel-Berichts klicken, um die zugehörigen Anforderungen im <span class="wintitle">Anforderungs-Manager</span> anzuzeigen. Die Beschriftung neben dem Kontrollkästchen gibt an, auf welches Blatt der Arbeitsmappe sich derzeit der Fokus befindet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Blatt </p> </td> 

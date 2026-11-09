@@ -33,10 +33,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 23%
+source-wordcount: '1130'
+ht-degree: 22%
 ---
 # Projekte und Daten herunterladen
 
@@ -49,7 +49,7 @@ Weitere Methoden zum Exportieren von Adobe Analytics-Daten finden Sie im [Export
 
 ## Herunterladen eines Projekts als PDF- oder CSV-Datei
 
-![Das Dropdown-Menü Projekt mit den hervorgehobenen Optionen CSV herunterladen und „PDF herunterladen.](assets/download-project.png)
+![Das Dropdown-Menü „Projekt“ mit hervorgehobenen Optionen „CSV herunterladen“ und &quot;PDF herunterladen“.](assets/download-project.png)
 
 ### Herunterladen eines Projekts als PDF-Datei
 
@@ -125,7 +125,7 @@ In der Freiformtabelle werden keine Einschränkungen erzwungen. Um eine optimale
 
 >[!TIP]
 >
-> Wenn Ihre Dimension 50.000 Elemente überschreitet, laden Sie die Datei mit unterschiedlichen Sortiermetriken herunter oder wenden Sie ein Segment an. Sortieren Sie z. B. absteigend nach Besuchen in einem Download und dann aufsteigend nach Besuchen in einem zweiten Download. Dieser Tipp hilft Ihnen beim Abrufen von längeren Elementen.
+> Wenn Ihre Dimension 50.000 Elemente überschreitet, laden Sie die Datei mit unterschiedlichen Sortiermetriken herunter oder wenden Sie ein Segment an. Sortieren Sie z. B. bei einem Download absteigend nach Besuchen und bei einem zweiten Download aufsteigend nach Besuchen. Dieser Tipp hilft Ihnen beim Abrufen von Longtail-Elementen.
 
 Während eines Downloads können Sie mehrere Aufgaben im Projekt ausführen und sogar zu einem neuen Workspace-Projekt auf derselben Registerkarte navigieren. Der Download wird angehalten, wenn Sie eine neue Browser-Registerkarte öffnen. Der Download wird abgebrochen, wenn Sie Workspace vollständig verlassen oder die Browser-Registerkarte schließen.
 
@@ -134,7 +134,7 @@ Während eines Downloads können Sie mehrere Aufgaben im Projekt ausführen und 
 
 Die folgenden Funktionen einer Freiformtabelle werden auf die heruntergeladene Datei angewendet:
 
-* Alle Bedienfeldsegmente werden als Filter angewendet.
+* Alle Panel-Segmente werden als Filter angewendet.
 * Aufschlüsselungen **oberhalb** der ausgewählten Dimension in der Tabelle werden als Filter über jeder einzelnen Spalte angezeigt.
 * Aufschlüsselungen **unterhalb** der ausgewählten Dimension in der Tabelle werden entfernt.
 
@@ -155,7 +155,7 @@ Wenn Sie mehrere Downloads gleichzeitig anfordern, erhalten Sie eine Benachricht
 | Frage | Antwort |
 | --- | --- |
 | Warum besteht meine heruntergeladene PDF nur aus einer Seite? | Mit [&#x200B; Funktion &quot;PDF herunterladen](#download-as-csv-or-pdf) werden heruntergeladene PDFs nicht in Seiten unterteilt. |
-| Kann ich mehr als 50.000 Elemente mit der Option **[!UICONTROL Elemente als CSV herunterladen]** exportieren? | Während jeder Download bis zu 50.000 Dimensionselemente enthalten kann, können Sie die Sortierung der Tabelle ändern, um längere Elemente abzurufen, oder einen Filter anwenden, um spezifischere Elemente herunterzuladen. |
+| Kann ich mehr als 50.000 Elemente mit der Option **[!UICONTROL Elemente als CSV herunterladen]** exportieren? | Während jeder Download bis zu 50.000 Dimensionselemente enthalten kann, können Sie die Sortierung der Tabelle ändern, um Longtail-Elemente abzurufen, oder einen Filter anwenden, um spezifischere Elemente herunterzuladen. |
 | Beschreibung der Funktion **[!UICONTROL Visualisierung kopieren]** | Im Gegensatz [!UICONTROL **Daten in Zwischenablage kopieren**] oder [!UICONTROL **Auswahl in Zwischenablage kopieren**] ist die Kontextmenüoption **[!UICONTROL Visualisierung kopieren]** keine Exportoption. Mit dieser Option können Sie [eine Visualisierung kopieren](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) oder [ein Bedienfeld kopieren](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) von einer Stelle in Workspace an eine andere. Beispielsweise von einem Bedienfeld zu einem anderen im selben Projekt oder von einem Projekt zu einem anderen. |
 
 

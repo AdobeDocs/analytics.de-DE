@@ -20,18 +20,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '110'
 ht-degree: 20%
-
 ---
-
 # Anwendungsfälle für Warnhinweise
 
 Sie können Warnhinweise erstellen, wie unter [Erstellen von Warnhinweisen](alert-builder.md) beschrieben.
 
-In den folgenden Abschnitten werden die beispielhaften Anwendungsszenarien beschrieben, die bei der Erstellung von Warnhinweisen zu berücksichtigen sind.
+In den folgenden Abschnitten werden beispielhafte Anwendungsfälle beschrieben, die Sie bei der Erstellung von Warnhinweisen berücksichtigen sollten.
 
 ## Warnhinweise filtern
 

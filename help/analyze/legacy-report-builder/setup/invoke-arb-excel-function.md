@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 23%
-
 ---
-
 # Verwenden von Report Builder-Funktionen mit Microsoft Excel
 
 {{legacy-arb}}
@@ -42,13 +40,13 @@ In der folgenden Tabelle sind die verfügbar gemachten Funktionen aufgeführt.
 
 | Funktionsname | Typ | Beschreibung |
 |:---| --- | ---|
-| AsyncRefreshAll() | string | Aktualisiert alle in einer Arbeitsmappe vorhandenen Report Builder-Anforderungen. |
+| AsyncRefreshAll() | string | Aktualisiert alle in einer Arbeitsmappe vorhandenen Report Builder-Anfrage |
 | AsyncRefreshRange(String rangeAddressInA1Format) | string | Aktualisiert alle Report Builder-Anforderungen in der angegebenen Zellbereichsadresse (ein Zeichenfolgenausdruck, der einen Zellbereich im A1-Format darstellt, z. B. „Sheet1!A2:A10„). |
 | AsyncRefreshRangeAltTextParam() | string | Aktualisiert alle Report Builder-Anforderungen, die im angegebenen, über den Alternativtext des MS-Formularsteuerelements weitergeleiteten Zellenbereich vorhanden sind. |
 | AsyncRefreshActiveWorksheet() | string | Aktualisiert alle im aktiven Arbeitsblatt vorhandenen Report Builder-Anforderungen. |
 | AsyncRefreshWorksheet(Zeichenfolge, Arbeitsblattname) | string | Aktualisiert alle im angegebenen Arbeitsblatt vorhandenen Report Builder-Anforderungen (der Arbeitsblattname, wie er auf der Registerkarte angezeigt wird.) |
 | AsyncRefreshWorksheetAltTextParam(); | string | Aktualisiert alle Report Builder-Anforderungen, die im angegebenen, über den Alternativtext des MS-Formularsteuerelements weitergeleiteten Arbeitsblattnamen vorhanden sind. |
-| String GetLastRunStatus() | string | Gibt eine Zeichenfolge zurück, die den Status des letzten Durchgangs beschreibt. |
+| GetLastRunStatus() | string | Gibt eine Zeichenfolge zurück, die den Status des letzten Durchgangs beschreibt. |
 
 Um auf die Report Builder-Funktionen zuzugreifen, gehen Sie zu **[!UICONTROL Formeln]** > **[!UICONTROL Funktion einfügen]**. Verwenden Sie das Suchfeld, um nach einer Funktion zu suchen, oder wählen Sie eine Kategorie aus, um die Funktionen in dieser Kategorie aufzulisten.
 

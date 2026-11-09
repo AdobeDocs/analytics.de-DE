@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3534'
-ht-degree: 93%
+ht-degree: 92%
 ---
 # Benutzervoreinstellungen
 
@@ -198,7 +198,7 @@ Klicken Sie auf die verlinkten Abschnittstitel, um weitere Informationen und den
 | | Gesamtsummen anzeigen | Dieser Gesamtwert stellt alle erfassten Treffer dar, die manchmal als *Report Suite-Gesamtsumme* bezeichnet werden. Wenn ein Segment entweder auf Bedienfeldebene oder in der Freiformtabelle angewendet wird, passt sich diese Summe an, um alle Treffer wiederzugeben, die den Segmentkriterien entsprechen. Gesamtsumme wird für Tabellen oder Aufschlüsselungen mit [statischen Zeilen](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md) nicht unterstützt. |
 | | Sparkline anzeigen | Liniendiagramme am unteren Rand des Diagramms anzeigen oder ausblenden. Wenn sie ausgeblendet sind, wird die Legende so geändert, dass sie keinen visuellen Bezug mehr zu den Linien hat. |
 | | Nummer | Legt fest, ob in einer Zelle der numerische Wert der Metrik angezeigt oder ausgeblendet wird. Ist die Metrik beispielsweise „Seitenansichten“, ist der numerische Wert die Anzahl der Seitenansichten für dieses Zeilenelement. |
-| | Prozent | Definition, ob in einer Zelle der Prozentwert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der Prozentwert die Anzahl an Seitenansichten für dieses Zeilenelement geteilt durch die Gesamtanzahl der Seitenansichten für diese Spalte.  Hinweis: Um genauer zu sein, werden manchmal Prozentsätze über 100 % angezeigt. Die obere Begrenzung wird auf 1.000 % verschoben, damit Spalten auch verbreitert werden können. |
+| | Prozent | Definition, ob in einer Zelle der Prozentwert der Metrik angezeigt wird oder nicht. Ist die Metrik beispielsweise „Seitenansichten“, ist der Prozentwert die Anzahl an Seitenansichten für dieses Zeilenelement geteilt durch die Gesamtanzahl der Seitenansichten für diese Spalte.  Hinweis: Um genauer zu sein: Prozentsätze über 100% werden manchmal angezeigt. Die obere Begrenzung wird auf 1.000 % verschoben, damit Spalten auch verbreitert werden können. |
 | | Anomalien zeigen | Gibt an, ob die Anomalieerkennung für die Werte in dieser Spalte ausgeführt wird. |
 | | Null nicht als Wert interpretieren | Legt fest, ob in Zellen mit 0-Wert eine 0 oder eine leere Zelle angezeigt wird. Diese Option ist praktisch, wenn Sie die Daten für einzelne Tage eines Monats anzeigen und einige Tage noch in der Zukunft liegen.  Statt für in der Zukunft liegende Daten eine 0 anzuzeigen, kann die entsprechende Zelle auch leer angezeigt werden. In Diagrammen wird diese Einstellung ebenfalls berücksichtigt. Ist diese Einstellung aktiviert, wird in Diagrammen also keine Linie bzw. kein Balken mit 0-Werten angezeigt. |
 | | Hintergrund | Gibt an, ob in einer Zelle alle Zellformatierungen ein-/ausgeblendet werden, einschließlich Balkendiagramm und bedingter Formatierung <ul><li>Balkendiagramm</li> Ein horizontales Balkendiagramm, das den Zellenwert in Relation zum Gesamtwert der Spalte anzeigt. <li>Bedingte Formatierung</li>Weitere Informationen zur bedingten Formatierung finden Sie unter „Bedingte Formatierung“ in den [Spalteneinstellungen](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).</ul> |

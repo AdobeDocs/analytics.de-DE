@@ -19,23 +19,21 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '110'
 ht-degree: 33%
-
 ---
-
 # Arbeitsmappen mit Makros planen
 
 {{legacy-arb}}
 
-Adobe Report Builder unterstützt das .xlsm-Format, mit dem Sie einen Zeitplan für Arbeitsmappen mit Makros festlegen können.
+Adobe Report Builder unterstützt das Format .xlsm, mit dem Sie Arbeitsmappen mit Makros planen können.
 
 Dies ist nützlich, wenn Sie Arbeitsmappen mit Makros sicher planen, verarbeiten und empfangen müssen.
 
 >[!IMPORTANT]
 >
->Auch wenn Sie mit Report Builder Arbeitsmappen mit Makros planen können, werden diese Makros nicht bei jeder geplanten Ausführung angewendet. Sie werden nur ausgeführt, wenn die Arbeitsmappe in der nativen Microsoft Excel-Anwendung geöffnet ist.
+>Obwohl Sie mit Report Builder Arbeitsmappen mit Makros planen können, werden diese Makros nicht bei jeder geplanten Ausführung ausgeführt. Sie werden nur ausgeführt, wenn die Arbeitsmappe in der nativen Microsoft Excel-Anwendung geöffnet ist.
 
 Geplante Arbeitsmappen mit Makros können nur im Format mit aktivierten Makros (.xlsm) bereitgestellt werden, da alle anderen unterstützten Formate (XLS, XLSX, PDF, Word, CSV oder TXT) die Makros aus der Arbeitsmappe entfernen würden.

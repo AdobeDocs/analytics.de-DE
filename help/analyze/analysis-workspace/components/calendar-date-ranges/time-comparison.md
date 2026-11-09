@@ -27,10 +27,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 71%
+ht-degree: 70%
 ---
 # Datumsvergleich
 
@@ -94,7 +94,7 @@ Sie können jeder Spalte in einer Tabelle jetzt einen Zeitraum hinzufügen. Auf 
 
 1. Der Zeitraum wird oben in der ausgewählten Spalte eingefügt:
 
-   ![Freiformtabelle mit Vorfällen für den aktuellen Kalenderzeitraum und den vorherigen Kalendermonat.](assets/add-time-period-column2.png)
+   ![Freiformtabelle mit Vorkommnissen für den aktuellen Kalenderzeitraum und den vorherigen Kalendermonat.](assets/add-time-period-column2.png)
 
 1. Sie können so viele Zeitspalten hinzufügen, wie Sie möchten, sowie verschiedene Datumsbereiche kombinieren:
 

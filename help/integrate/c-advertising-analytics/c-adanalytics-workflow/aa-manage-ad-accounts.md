@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 4%
@@ -59,7 +59,7 @@ Die Tabelle besteht aus den folgenden Spalten:
   - Wählen Sie die Spalten aus, die angezeigt werden sollen.
   - Wählen Sie **[!UICONTROL Anwenden]** aus.
 
-Wenn Sie ein oder mehrere Werbekonten auswählen, ermöglicht Ihnen eine blaue Aktionsleiste, basierend auf dem Status der ausgewählten Konten, ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Umbenennen]**, ![Aktualisieren](/help/assets/icons/Refresh.svg) **[!UICONTROL Zuordnen von Report Suites]**, ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Aktivieren]** oder ![](/help/assets/icons/Pause.svg) Pause **[!UICONTROL Pause]** Werbekonten.
+Wenn Sie ein oder mehrere Werbekonten auswählen, können Sie über eine blaue Aktionsleiste, die auf dem Status der ausgewählten Konten basiert, ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Umbenennen]**, ![Aktualisieren](/help/assets/icons/Refresh.svg) **[!UICONTROL Zuordnen von Report Suites]**, ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Aktivieren]** oder ![](/help/assets/icons/Pause.svg) Pause **[!UICONTROL Pause]** Werbekonten.
 
 ## Werbekonto erstellen
 

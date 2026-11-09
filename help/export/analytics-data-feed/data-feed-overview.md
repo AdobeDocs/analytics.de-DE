@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie, wie Sie mit Daten-Feeds Rohdaten aus Adobe Analytics abrufen können. Erfahren Sie mehr über die Voraussetzungen für die Verwendung von Daten-Feeds und die nächsten Schritte.
 keywords: Clickstream;Daten-Feed;Daten-Feed;Data Feed
-title: Überblick über Analytics-Daten-Feed
+title: Überblick über Adobe Analytics Daten-Feed
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 TQID: 'https://experienceleague.adobe.com/XVFQdMEfIM7lQlnU3b-zRbQ9-RliqtaBjr-7ptxkI1o'
@@ -24,32 +24,32 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
 ---
-# Analytics-Daten-Feed-Dokumentation
+# Überblick über Adobe Analytics Daten-Feed
 
-Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzurufen. Diese Rohdaten können nach Ermessen Ihrer Organisation auf anderen Plattformen außerhalb von Adobe verwendet werden. Die Daten werden in stündlichen Stapeln am Ende jeder Stunde oder in täglichen Stapeln am Ende jedes Tages bereitgestellt.
+Daten-Feeds sind eine leistungsstarke Methode, Rohdaten aus Adobe Analytics abzurufen. Diese Rohdaten können nach Ermessen Ihrer Organisation auf anderen Plattformen außerhalb von Adobe verwendet werden. Die Daten werden in stündlichen Batches am Ende jeder Stunde oder in täglichen Batches am Ende jedes Tages bereitgestellt.
 
 ## Voraussetzungen
 
 Bevor Sie Daten-Feeds verwenden, müssen Sie alle folgenden Anforderungen erfüllen.
 
 * Eine funktionierende Implementierung, die Daten an Adobe-Datenerfassungs-Server sendet. Siehe [Überprüfen und Veröffentlichen einer Implementierung](/help/implement/launch/validate-publish-prod.md) im Implementierungshandbuch.
-* Ihr Konto ist eine Analytics-Produktadministratorin bzw. ein Analytics-Produktadministrator, oder Ihr Konto gehört zu einem Produktprofil mit Zugriff auf Daten-Feeds.
+* Ihr Konto ist ein Adobe Analytics-Produktadministrator oder eine Adobe Analytics-Produktadministratorin, oder Ihr Konto gehört zu einem Produktprofil mit Zugriff auf Daten-Feeds.
 * Ein Bucket, der für Amazon S3, Google Cloud Platform, Azure RBAC oder Azure SAS konfiguriert wurde.
-* (Veraltet: Nur für veraltete FTP- und SFTP-Zieltypen erforderlich) Verwenden Sie eine FTP-Site und Ihre Anmeldeinformationen (FTP-Anmeldeinformationen, die von Ihrem Unternehmen bereitgestellt werden).
+* (Veraltet: Nur für veraltete FTP- und SFTP-Zieltypen erforderlich) Halten Sie eine FTP-Site und Anmeldedaten bereit (FTP-Anmeldedaten, die von Ihrem Unternehmen bereitgestellt werden).
 
 ## Nächste Schritte
 
-Die folgenden Ressourcen helfen Ihnen dabei, den grundlegenden Workflow beim Abrufen von Daten-Feeds zu verstehen. Sobald Sie den grundlegenden Workflow kennen, können Sie mit Teams in Ihrer Organisation zusammenarbeiten, um Rohdaten in einer Datenbank zu speichern oder in sie aufzunehmen.
+Die folgenden Ressourcen helfen Ihnen dabei, den grundlegenden Workflow beim Abrufen von Daten-Feeds zu verstehen. Sobald Sie den grundlegenden Workflow kennen, können Sie mit Teams in Ihrer Organisation zusammenarbeiten, um Rohdaten in einer Datenbank zu speichern oder in eine Datenbank zu importieren.
 
 * [Best Practices für Daten-Feeds](/help/export/analytics-data-feed/data-feeds-best-practices.md): Best Practices zum Erstellen und Verwalten von Daten-Feeds.
 * [Erstellen von Daten-Feeds](create-feed.md): Technische Details zum Erstellen eines Daten-Feed, detaillierte Erläuterungen einzelner Felder
 * [Verwalten von Daten-Feeds](df-manage-feeds.md): Weitere Informationen zum Navigieren in der Daten-Feed-Benutzeroberfläche
-* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Erfahren Sie mehr über den Inhalt der komprimierten Datei <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Daten-Feed-Inhalte](c-df-contents/datafeeds-contents.md): Erfahren Sie mehr über den Inhalt der komprimierten Datei <!-- Is this still the output users can download from the destination? I asked Jun. -->
 * [Definitionen der Datenspalten](c-df-contents/datafeeds-reference.md): Eine vollständige Liste aller verfügbaren Spalten.
 
 >[!BEGINSHADEBOX]
