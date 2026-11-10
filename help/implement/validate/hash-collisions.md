@@ -1,6 +1,6 @@
 ---
 title: Hash-Kollisionen
-description: Beschreibt, was eine Hash-Kollision ist und wie sie sich manifestieren kann.
+description: Beschreibt, was eine Hash-Kollision ist und wie sie sich äußern kann.
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 5%
 ---
 # Hash-Kollisionen
@@ -64,7 +64,7 @@ Hash-Kollisionen können nicht vollständig beseitigt werden, aber ihre Auswirku
 * **Ändern des Datumsbereichs**: Hash-Tabellen ändern sich monatlich. Wenn Sie den Datumsbereich so ändern, dass er sich über einen weiteren Monat erstreckt, kann jeder Wert unterschiedliche Hash-Werte erhalten, die nicht kollidieren. In der Regel ist dies die schnellste Möglichkeit, eine sichtbare Anomalie aus einem bestimmten Bericht zu entfernen.
 * **Reduzieren der Anzahl eindeutiger Werte**: Sie können Ihre Implementierung anpassen oder [Verarbeitungsregeln](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) verwenden, um die Anzahl eindeutiger Werte zu reduzieren, die eine Dimension erfasst. Wenn Ihre Dimension beispielsweise eine URL erfasst, können Sie Abfragezeichenfolgen oder Protokolle entfernen.
 * **Verwenden von [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) oder [Daten-Feeds](/help/export/analytics-data-feed/data-feed-overview.md)**: Diese Tools basieren nicht auf Hash-Tabellen.
-* **Wechseln zu [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de)**: Customer Journey Analytics hat keine Hash-Ebene und [keine Kardinalitätsbeschränkungen für Dimensionen](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Erwägen Sie, zu diesem Produkt zu wechseln, wenn Hash-Kollisionen oder [[!UICONTROL Geringer Traffic]](/help/technotes/low-traffic.md) Ihre Berichte häufig beeinträchtigen.
+* **Wechseln zu [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de)**: Customer Journey Analytics hat keine Hash-Ebene und [keine Kardinalitätsbeschränkungen für Dimensionen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/dimensions/high-cardinality). Erwägen Sie, zu diesem Produkt zu wechseln, wenn Hash-Kollisionen oder [[!UICONTROL Geringer Traffic]](/help/technotes/low-traffic.md) Ihre Berichte häufig beeinträchtigen.
 
 >[!MORELIKETHIS]
 >

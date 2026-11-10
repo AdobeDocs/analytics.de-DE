@@ -25,26 +25,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 95%
-
 ---
-
 # Interdimensionale Flüsse
 
 Mithilfe eines interdimensionalen Flusses können Sie Benutzerpfade über verschiedene Dimensionen hinweg untersuchen.
-
-<!-- 
-
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
--->
 
 In diesem Artikel wird gezeigt, wie dieser Fluss für zwei Anwendungsfälle verwendet werden kann: App-Interaktionen und -Ereignisse sowie Förderung von Web-Besuchen durch Kampagnen.
 
@@ -78,6 +66,6 @@ Ersetzen Sie die letzte Dimension **[!UICONTROL Kampagnenname]** durch die Dimen
 
 ![Fluss – Web-Kampagnenname und Web-Seite als Dimension](assets/flowweb-replace.png)
 
-Sie können den Mauszeiger über einen der Flüsse bewegen, um weitere Details anzuzeigen, z. B. welche Kampagnen zu einem Warenkorb-Checkout geführt haben.
+Sie können den Mauszeiger über einen der Flüsse bewegen, um weitere Details anzuzeigen. z. B. welche Kampagnen zu einem Warenkorb-Checkout geführt haben.
 
 ![Bewegen des Mauszeigers über einen Fluss – Web-Kampagnenname und Web-Seite als Dimension](assets/flowweb-hover.png)

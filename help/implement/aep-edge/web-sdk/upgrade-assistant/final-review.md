@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 13%
 ---
 # Abschließende Überprüfung
@@ -59,7 +59,7 @@ Wählen Sie zunächst die Experience Platform-Sandbox aus, in der die Migration 
 
 Der Upgrade-Assistent listet dann alles auf, was durch den Abschluss der Migration erstellt oder geändert wird:
 
-* **[!UICONTROL XDM]**: Ein neues Schema, das nach Ihrer XDM-Zuordnung benannt ist, zusammen mit den benutzerdefinierten Feldergruppen, die es benötigt. Standardfeldgruppen sind bereits vorhanden, sodass das Schema sie so verwendet, wie sie sind. Dieser Abschnitt wird nur angezeigt, wenn Sie in der XDM-[&#x200B; ein neues Schema erstellen &#x200B;](xdm-mapping.md#schema).
+* **[!UICONTROL XDM]**: Ein neues Schema, das nach Ihrer XDM-Zuordnung benannt ist, zusammen mit den benutzerdefinierten Feldergruppen, die es benötigt. Standardfeldgruppen sind bereits vorhanden, sodass das Schema sie so verwendet, wie sie sind. Dieser Abschnitt wird nur angezeigt, wenn Sie in der XDM-[ ein neues Schema erstellen ](xdm-mapping.md#schema).
 * **[!UICONTROL Datensätze]**: Zwei Datensätze, einer für Entwicklung und einer für Produktion. Jeder wird nach der Migration benannt, z. B. `My migration - Development`.
 * **[!UICONTROL Datenströme]**: Zwei Datenströme, einer für die Entwicklung und einer für die Produktion, werden auf die gleiche Weise wie die Datensätze benannt.
 * **[!UICONTROL Adobe Tags]**: Eine neue Bibliothek, die nach der Migration benannt wurde, z. B. `Library - "My migration"`. Die -Bibliothek enthält die Regeln und Datenelemente, die durch die Migration geändert werden, sowie die Erweiterungskonfiguration, die für die Web SDK-Aktionen erforderlich ist.
@@ -86,4 +86,4 @@ Nachdem Sie die Migration abgeschlossen haben, verschieben Sie die neue Biblioth
 1. Bibliothek zur Genehmigung einreichen und in Ihrer Staging-Umgebung testen.
 1. Genehmigen Sie die Bibliothek und veröffentlichen Sie sie in der Produktionsumgebung.
 
-Siehe [Veröffentlichungsablauf](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow) im Benutzerhandbuch zu Tags.
+Siehe [Veröffentlichungsablauf](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) im Benutzerhandbuch zu Tags.
