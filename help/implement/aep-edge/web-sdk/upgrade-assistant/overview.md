@@ -71,7 +71,7 @@ Bevor Sie eine Migration erstellen, stellen Sie Folgendes sicher:
 
 * Die [Berechtigungen](#permissions) die der Upgrade-Assistent erfordert.
 * Eine Tags-Eigenschaft, die die Adobe Analytics-Erweiterung verwendet.
-* Eine Bibliothek in dieser Eigenschaft, die die Implementierung enthält, die Sie migrieren möchten. Die Bibliothek kann sich in jedem Status befinden, einschließlich „Veröffentlicht“. Siehe [Bibliotheken](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries) im Benutzerhandbuch zu Tags.
+* Eine Bibliothek in dieser Eigenschaft, die die Implementierung enthält, die Sie migrieren möchten. Die Bibliothek kann sich in jedem Status befinden, einschließlich „Veröffentlicht“. Siehe [Bibliotheken](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/libraries) im Benutzerhandbuch zu Tags.
 
 ### Berechtigungen {#permissions}
 
@@ -79,8 +79,8 @@ Der Upgrade-Assistent erfordert den folgenden Zugriff. Wenden Sie sich an den Ex
 
 | Zugriffstyp | erforderlich |
 | --- | --- |
-| [Berechtigungen für Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Anzeigen von Schemata]</li><li>[!UICONTROL Verwalten von Schemata]</li><li>[!UICONTROL Anzeigen von Datensätzen]</li><li>[!UICONTROL Datensätze verwalten]</li><li>[!UICONTROL Anzeigen von Identity-Namespaces]</li></ul> |
+| [Berechtigungen für Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Anzeigen von Schemata]</li><li>[!UICONTROL Verwalten von Schemata]</li><li>[!UICONTROL Anzeigen von Datensätzen]</li><li>[!UICONTROL Datensätze verwalten]</li><li>[!UICONTROL Anzeigen von Identity-Namespaces]</li></ul> |
 | Produktzugriff | <ul><li>Datenerfassung (Tags)</li><li>Adobe Analytics</li></ul> |
-| [Tag-Rechte](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Eigenschaften verwalten] |
+| [Tag-Rechte](https://experienceleague.adobe.com/de/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Eigenschaften verwalten] |
 
 Wenn Sie bereit sind, [&#x200B; Sie eine Migration &#x200B;](manager.md#create).

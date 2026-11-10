@@ -86,4 +86,4 @@ Nachdem Sie die Migration abgeschlossen haben, verschieben Sie die neue Biblioth
 1. Bibliothek zur Genehmigung einreichen und in Ihrer Staging-Umgebung testen.
 1. Genehmigen Sie die Bibliothek und veröffentlichen Sie sie in der Produktionsumgebung.
 
-Siehe [Veröffentlichungsablauf](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) im Benutzerhandbuch zu Tags.
+Siehe [Veröffentlichungsablauf](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/publishing-flow) im Benutzerhandbuch zu Tags.
