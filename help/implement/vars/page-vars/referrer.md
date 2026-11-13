@@ -71,7 +71,7 @@ Die `s.referrer`-Variable ist eine Zeichenfolge, die die URL der vorherigen Seit
 s.referrer = "https://example.com";
 ```
 
-Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [ Aufrufs finden Sie unter „Lesen ](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
+Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [&#x200B; Aufrufs finden Sie unter „Lesen &#x200B;](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
 
 ```js
 s.referrer = adobeDataLayer.getState("page.referrer");

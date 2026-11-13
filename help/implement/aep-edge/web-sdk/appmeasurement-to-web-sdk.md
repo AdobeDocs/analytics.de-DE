@@ -77,7 +77,7 @@ Ihr Datenstrom ist jetzt bereit, Daten zu empfangen und an Adobe Analytics weite
 
 +++**2. Installieren Sie die Web SDK JavaScript-Bibliothek**
 
-Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Methodenaufrufe verwendet werden können. Weitere [ und zu verwendende Codeblöcke finden Sie unter „Installieren des Web](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/install/library)SDKs mit der JavaScript-Bibliothek“.
+Verweisen Sie auf die neueste Version von `alloy.js`, damit die zugehörigen Methodenaufrufe verwendet werden können. Weitere [&#x200B; und zu verwendende Codeblöcke finden Sie unter „Installieren des Web](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/install/library)SDKs mit der JavaScript-Bibliothek“.
 
 +++
 

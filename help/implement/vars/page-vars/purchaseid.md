@@ -77,7 +77,7 @@ Diese Variable kann maximal 20 Byte speichern. Werte, die länger als 20 Byte si
 s.purchaseID = "ABC123";
 ```
 
-Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [ Aufrufs finden Sie unter „Lesen ](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
+Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [&#x200B; Aufrufs finden Sie unter „Lesen &#x200B;](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
 
 ```js
 s.purchaseID = adobeDataLayer.getState("transaction.id");
