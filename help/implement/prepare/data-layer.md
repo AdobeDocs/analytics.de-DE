@@ -1,6 +1,6 @@
 ---
 title: Datenschicht erstellen
-description: Erfahren Sie, was eine Datenschicht in Ihrer Analytics-Implementierung ist und wie sie zur Zuordnung von Variablen in Adobe Analytics verwendet werden kann.
+description: Erfahren Sie, wie eine Datenschicht Ihre Analytics-Implementierung unterstützt, warum Adobe die Adobe-Client-Datenschicht empfiehlt und wie Sie Datenschichtwerte mit jeder Implementierungsmethode lesen können.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
@@ -34,46 +34,105 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 7%
 ---
 # Datenschicht erstellen
 
-Eine Datenschicht ist ein Framework von JavaScript-Objekten auf Ihrer Site, die die in Ihrer Analytics-Implementierung verwendeten Variablenwerte enthalten. Dies ermöglicht eine bessere Kontrolle und einfachere Wartung beim Zuweisen von Werten zu Analytics-Variablen.
+Eine Datenschicht ist eine JavaScript-Struktur auf Ihrer Site, die die von Ihrer Analytics-Implementierung erfassten Daten wie Seitennamen, Produktdetails und Auftrags-IDs verfügbar macht. Ihr Site-Code schreibt in die Datenschicht, und Ihre Implementierung liest daraus, um Analytics-Variablen festzulegen. Da Ihre Implementierung nicht von der HTML der Seite abhängt, können Sie Ihre Site neu gestalten, ohne die Datenerfassung zu unterbrechen.
 
 ## Voraussetzungen
 
-[Erstellen Sie ein Lösungsdesigndokument](solution-design.md): Für Ihr Unternehmen ist es wichtig, die Tracking-Anforderungen abzustimmen. Stellen Sie sicher, dass Sie ein Lösungs-Design-Dokument vorbereitet haben, bevor Sie sich an die Entwicklungs-Teams in Ihrer Organisation wenden.
+[Lösungsentwurfsdokument erstellen](solution-design.md): Es ist wichtig, dass Ihr Unternehmen die Tracking-Anforderungen erfüllt. Stellen Sie sicher, dass Sie ein Solution-Design-Dokument vorbereitet haben, bevor Sie sich an die Entwicklungsteams in Ihrer Organisation wenden. Die Daten, die für Ihr Lösungsdesign erforderlich sind, bestimmen, was Ihre Datenschicht enthält.
 
-## Workflow
+## Datenschichtspezifikation auswählen {#specifications}
+
+Adobe empfiehlt die [Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview) (ACDL) für neue oder umstrukturierte Implementierungen. ACDL ist eine Open-Source-JavaScript-Bibliothek, die Ihrer Site eine Standardmethode zum Übertragen von Daten und Ereignissen in ein globales `adobeDataLayer`-Array bietet. Tags, der Web-SDK und AppMeasurement können alle daraus lesen, und Adobe Experience Manager-Kernkomponenten können es automatisch füllen.
+
+Ihr Unternehmen kann andere Spezifikationen verwenden, z. B. die [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) (CEDDL), die Daten in einem globalen `digitalData` speichert, oder eine benutzerdefinierte Spezifikation. Das Wichtigste ist, dass Ihr Unternehmen eine Spezifikation anwendet, die seinen Anforderungen entspricht.
+
+In der folgenden Tabelle wird ACDL mit objektbasierten Datenschichten wie CEDDL verglichen:
+
+| | Adobe Client-Datenschicht (`adobeDataLayer`) | Objektbasierte Datenschicht, z. B. CEDDL (`digitalData`) |
+| --- | --- | --- |
+| Schreiben von Daten durch Website-Code | Push-Objekte: `adobeDataLayer.push({ page: { name: "Home" } })` | Setzt Eigenschaften: `digitalData.page.pageInfo.pageName = "Home"` |
+| Wie Ihre Implementierung einen Wert liest | `adobeDataLayer.getState("page.name")` oder ein Datenelement **berechneter Status der Datenschicht** aus der Adobe Client-Datenschicht-Tag-Erweiterung | `digitalData.page.pageInfo.pageName` oder ein Datenelement der **JavaScript** Variable aus der Core-Tag-Erweiterung |
+| Wie Ihre Implementierung weiß, dass die Daten bereit sind | Der Site-Code überträgt ein Ereignis, z. B. `{ event: "page view" }`, und Ihre Implementierung überwacht es. Listener werden auch auf Ereignisse ausgeführt, die gepusht wurden, bevor sie hinzugefügt wurden. | Ihre Implementierung muss das -Objekt lesen, nachdem der Site-Code es vollständig ausgefüllt hat, z. B. mithilfe einer Direktaufruf-Regel. |
+
+## Beispiel für eine Datenschicht {#example}
+
+ACDL erfordert keine bestimmte Datenstruktur. Entwerfen Sie die Struktur um Ihr Lösungs-Design-Dokument und dokumentieren Sie es für alle, die in die Datenschicht schreiben oder aus ihr lesen. Die Beispiele in diesem Handbuch verwenden die folgende Struktur.
+
+Beim Laden einer Seite überträgt der Site-Code die Daten der Seite und ein Seitenansichtsereignis:
+
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push({
+  event: "page view",
+  page: {
+    name: "Home",
+    section: "Products",
+    url: "https://example.com/products",
+    referrer: "https://example.com/"
+  }
+});
+```
+
+Wenn ein Besucher einen Kauf abschließt, überträgt der Site-Code die Bestelldetails und ein Kaufereignis:
+
+```js
+window.adobeDataLayer.push({
+  event: "purchase",
+  transaction: { id: "ABC123" },
+  products: [
+    { name: "Example product", category: "Example category", quantity: 1, price: 25 }
+  ]
+});
+```
+
+ACDL führt jeden Push in einem einzigen Objekt, dem so genannten berechneten Status, zusammen, das Ihre Implementierung liest. Ereignisobjekte teilen Ihrer Implementierung mit, wann sie sie lesen soll. Siehe [Daten und der berechnete Status](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/computed-state) und [Ereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/events).
+
+## Workflow {#workflow}
 
 Die Implementierung von Adobe Analytics mit einer Datenschicht folgt normalerweise diesen Schritten:
 
-1. **Arbeiten Sie mit Ihrem Website-Entwicklungs-Team zusammen, um eine Datenschicht zu implementieren**: Ihr Website-Entwicklungs-Team ist in erster Linie dafür verantwortlich, dass das Datenschichtobjekt mit den richtigen Werten gefüllt wird. Gehen Sie diese Seite mit Ihrem Website-Entwicklungs-Team durch, um sicherzustellen, dass die Erwartungen zwischen den Teams abgestimmt sind.
+1. **Arbeiten Sie mit Ihrem Site-Entwicklungs-Team zusammen, um eine Datenschicht zu implementieren**: Ihr Site-Entwicklungs-Team ist in erster Linie dafür verantwortlich, sicherzustellen, dass die Datenschicht korrekte Werte enthält. Gehen Sie diese Seite mit Ihrem Website-Entwicklungsteam durch, um sicherzustellen, dass die Erwartungen zwischen den Teams abgestimmt sind. Siehe [Installieren der Adobe Client-Datenschicht](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install).
+1. **Datenschicht mithilfe einer Browser-Konsole validieren**: Öffnen Sie die Entwicklerkonsole Ihres Browsers, was in den meisten Browsern mit der `F12` möglich ist. Führen Sie `adobeDataLayer.getState()` aus, um den berechneten Status anzuzeigen, oder `adobeDataLayer.getState("page.name")`, um einen einzelnen Wert anzuzeigen. Siehe [Überprüfen der Installation](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify).
+1. **Verbinden der Datenschicht mit Adobe Analytics**: Dieser Schritt variiert je nach Implementierungsmethode Ihres Unternehmens. Siehe [Verbinden der Datenschicht mit Adobe Analytics](#connect).
 
-   >[!NOTE]
-   >
-   >Das Befolgen der von Adobe empfohlenen Datenschichtspezifikationen ist optional. Wenn Sie bereits über eine Datenschicht verfügen oder sich anderweitig gegen die Adobe-Spezifikationen entscheiden, stellen Sie sicher, dass Ihre Organisation sich an den zu befolgenden Spezifikationen orientiert.
+## Verbinden der Datenschicht mit Adobe Analytics {#connect}
 
-1. **Validieren Sie Ihre Datenschicht mithilfe einer Browser-Konsole**: Sobald eine Datenschicht erstellt ist, können Sie mit der Entwicklerkonsole eines beliebigen Browsers überprüfen, ob sie funktioniert. Sie können die Entwicklerkonsole in den meisten Browsern mit der Taste `F12` öffnen. Ein Beispiel für einen Variablenwert wäre `adobeDataLayer.page.title`.
-1. **Verwenden der Adobe Experience Platform-Datenerfassung zum Zuordnen von Datenschichtobjekten zu Datenelementen**: Dieser Schritt variiert je nach Implementierungsmethode Ihrer Organisation:
-   * **Bei Verwendung des Web SDK**: Ordnen Sie die gewünschten Datenschichtobjekte den gewünschten XDM-Feldern in Adobe Experience Platform Edge zu. Siehe [Zuordnen von Analytics-XDM-Variablen](../aep-edge/xdm-var-mapping.md), um die gewünschte Datenschichtzuordnung zu bestimmen.
-   * **Bei Verwendung der Analytics-Erweiterung**: Erstellen Sie Datenelemente unter „Tags“ in der Adobe Experience Platform-Datenerfassung und weisen Sie sie den gewünschten Datenschichtobjekten zu. Weisen Sie dann innerhalb der Analytics-Erweiterung jedes Datenelement der entsprechenden Analytics-Variablen zu.
+Die folgende Tabelle zeigt, wie jede Implementierungsmethode aus der Adobe-Client-Datenschicht liest:
 
-## Spezifikationen
+| Implementierungsmethode | Lesen der Datenschicht | Weitere Informationen |
+| --- | --- | --- |
+| Web SDK Tag-Erweiterung | Trigger-Regeln mit dem **Datenschicht-Push**-Ereignis aus der Adobe Client-Datenschicht-Erweiterung. Ordnen Sie Datenschichtwerte XDM-Feldern oder dem `data`-Objekt mit der Aktion „Variable aktualisieren **von Web SDK zu** senden Sie sie dann mit der Aktion **Ereignis senden** . | [Senden von Adobe Client-Datenschichtdaten mit der Web-](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [XDM-Objektfeldzuordnung](../aep-edge/xdm-var-mapping.md) und [Datenobjektfeldzuordnung](../aep-edge/data-var-mapping.md) |
+| Web SDK JavaScript-Bibliothek | Überwachen Sie mit `addEventListener()` auf Datenschichtereignisse und legen Sie XDM- oder `data`-Felder aus der Datenschicht fest, wenn Sie `sendEvent` aufrufen. | [Senden von Adobe Client-Datenschichtdaten mit der Web-](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [XDM-Objektfeldzuordnung](../aep-edge/xdm-var-mapping.md) und [Datenobjektfeldzuordnung](../aep-edge/data-var-mapping.md) |
+| Analytics-Erweiterung | Trigger-Regeln mit dem **Datenschicht-Push**-Ereignis und Erstellen von **Datenschicht-Status berechnet**-Datenelementen aus der Adobe Client-Datenschichterweiterung. Weisen Sie die Datenelemente den Analytics-Variablen in der Aktion **Variablen festlegen** zu und senden Sie dann die Daten mit der Aktion **Beacon senden**. | [Zuordnen von Datenschichtobjekten zu Datenelementen](../launch/layer-to-elements.md) und [Zuordnen von Datenelementen zu Analytics-Variablen](../launch/elements-to-variable.md) |
+| AppMeasurement | Lesen Sie Werte mit `getState()`, nachdem ACDL geladen wurde, und rufen Sie dann `s.t()` auf. | [Lesen der Datenschicht mit AppMeasurement](#appmeasurement) |
 
-Adobe empfiehlt die Verwendung der [Adobe Client-Datenschicht](https://github.com/adobe/adobe-client-data-layer/wiki) für neue oder umstrukturierte Implementierungen.
+### Lesen der Datenschicht mit AppMeasurement {#appmeasurement}
 
-Ihre Organisation kann andere Datenschichtspezifikationen verwenden, z. B. die [Customer Experience Digital-Datenschicht](https://www.w3.org/2013/12/ceddl-201312.pdf), oder eine völlig andere benutzerdefinierte Spezifikation. Am wichtigsten ist die Zuweisung zu einer konsistenten Datenschicht, die den Anforderungen Ihrer Organisation entspricht.
+ACDL fügt seine `getState()` Methode dem `adobeDataLayer`-Array hinzu, wenn die Bibliothek geladen wird. Um sicherzustellen, dass die Bibliothek geladen wurde und der berechnete Status die neuesten Daten enthält, lesen Sie Werte in einem Ereignis-Listener:
 
-Datenschichten sind erweiterbar. Wenn Sie unternehmensspezifische Anforderungen haben, können Sie Objekte in Ihre Datenschicht aufnehmen, um diese Anforderungen zu erfüllen.
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function(dl) {
+  dl.addEventListener("page view", function(event) {
+    s.pageName = dl.getState("page.name");
+    s.channel = dl.getState("page.section");
+    s.t();
+  });
+});
+```
 
-## Festlegen von Datenschichtwerten
+Der Listener wird einmal für jedes `page view`-Ereignis ausgeführt, einschließlich der Ereignisse, die gepusht wurden, bevor der Listener hinzugefügt wurde. Die Variablenseiten in diesem Handbuch, z. B. [`pageName`](../vars/page-vars/pagename.md), zeigen, wie einzelne Werte mit `getState()` gelesen werden. Verwenden Sie diese Beispiele in einem Listener wie diesem oder im benutzerdefinierten Code-Editor einer Analytics-Erweiterungsregel, die ein „Datenschicht **Push-Ereignis**.
 
-Datenschichten werden normalerweise Server-seitig generiert und verweisen auf dieselben Objekte, die zum Erstellen des Website-Inhalts verwendet wurden. Richten Sie die Datenschicht der Website anhand der im [Lösungsdesigndokument](solution-design.md) Ihres Unternehmens festgelegten Tracking-Anforderungen ein.
+Wenn Ihre Implementierung mehr als einen Treffer pro Seite sendet, z. B. in einem Einzelseitenprogramm, verwenden Sie [`clearVars()`](../vars/functions/clearvars.md), damit die Werte von einem Treffer nicht zum nächsten beibehalten werden.
 
 ## Nächste Schritte
 
-[Ordnen Sie Datenschichtobjekte Datenelementen zu](../launch/layer-to-elements.md): Verwenden Sie die Datenschicht Ihrer Site in Adobe Experience Platform.
+* [Zuordnen von Datenschichtobjekten zu Datenelementen](../launch/layer-to-elements.md): Verwenden Sie die Datenschicht Ihrer Site in Adobe Experience Platform-Tags.
+* [Dokumentation zur Adobe Client-Datenschicht](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview): Erfahren Sie mehr über alle ACDL-Methoden, -Ereignisse und Best Practices.

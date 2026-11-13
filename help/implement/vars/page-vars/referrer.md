@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 85%
+source-wordcount: '318'
+ht-degree: 78%
 ---
 # referrer
 
@@ -71,10 +71,10 @@ Die `s.referrer`-Variable ist eine Zeichenfolge, die die URL der vorherigen Seit
 s.referrer = "https://example.com";
 ```
 
-Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
+Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [&#x200B; Aufrufs finden Sie unter „Lesen &#x200B;](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
 
 ```js
-s.referrer = digitalData.page.pageInfo.referringURL;
+s.referrer = adobeDataLayer.getState("page.referrer");
 ```
 
 >[!CAUTION]

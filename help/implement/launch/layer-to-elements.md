@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # Zuordnen von Datenschichtobjekten zu Datenelementen
 
@@ -45,17 +45,25 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
 
 [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=de) sind Komponenten in der Adobe Experience Platform-Datenerfassung, die Sie im gesamten Tool verwenden können. Mithilfe von Datenelementen können Sie Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
 
+In den folgenden Schritten wird die [Adobe Client-Datenschicht-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/client-data-layer/overview) verwendet, die in Ihrer Tag-Eigenschaft installiert werden muss.
+
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
-1. Klicken Sie auf die gewünschte Tag-Eigenschaft.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Datenelemente]** und dann auf **[!UICONTROL Datenelement hinzufügen]**.
+1. Wählen Sie die gewünschte Tag-Eigenschaft aus.
+1. Wählen Sie die Registerkarte **[!UICONTROL Datenelemente]** und dann **[!UICONTROL Datenelement hinzufügen]** aus.
 
    ![Datenelement erstellen](assets/createelement.png)
 
-1. Geben Sie einen Namen für Ihr Datenelement ein. Dies kann eine einfache Bezeichnung sein, die einer JavaScript-Variablen in Ihrer Datenschicht entspricht, die Sie tracken möchten.
-1. Wählen **[!UICONTROL in der Dropdown]** Liste „Erweiterung“ die Option **[!UICONTROL Core]**.
-1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Datenelementtyp) die Option **[!UICONTROL JavaScript-Variable]**. Rechts wird ein Textfeld angezeigt, in dem Sie die JavaScript-Variable eingeben können, die diesem Datenelement zugeordnet werden soll.
-1. Geben Sie die gewünschte JavaScript-Variable ein, normalerweise innerhalb Ihrer Datenschicht. Wenn beispielsweise die Datenschicht Ihres Unternehmens der empfohlenen Vorgehensweise von Adobe sehr ähnlich ist, könnte als Wert `digitalData.page.pageInfo.pageName` verwendet werden. Sie können die Syntax und Werte Ihrer JavaScript-Variablen in der Browser-Konsole überprüfen.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie einen Namen für Ihr Datenelement ein, z. B. `Page name`.
+1. Wählen **[!UICONTROL in der Dropdown]** Liste „Erweiterung“ die Option **[!UICONTROL Adobe Client-Datenschicht]**.
+1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Datenelementtyp“ **[!UICONTROL Datenschicht - Berechneter Status]** aus.
+1. Wählen **[!UICONTROL unter &quot;]**&quot; die Option **[!UICONTROL Spezifischer Pfad]** aus und geben Sie dann den Pfad zum Wert in Ihrer Datenschicht ein, z. B. `page.name`. Um einen Pfad zu validieren, führen Sie `adobeDataLayer.getState("page.name")` in der Konsole Ihres Browsers aus.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
+
+Verwenden Sie diese Datenelemente in Regeln, die die Ereignis-Trigger **[!UICONTROL Datenschicht-Push]** der Erweiterung enthalten, sodass die Datenschicht geladen wurde und die Daten aus der Push-Benachrichtigung enthält. Siehe [Datenelementtypen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)
+
+### Objektbasierte Datenschichten {#object-based}
+
+Wenn Ihre Datenschicht ein JavaScript-Objekt ist, z. B. ein CEDDL-`digitalData`, verwenden Sie stattdessen den Datenelementtyp **[!UICONTROL JavaScript]** aus der **[!UICONTROL Core]**-Erweiterung. Geben Sie den Pfad zum Wert ein, z. B. `digitalData.page.pageInfo.pageName`. Dieser Datenelementtyp kann die Adobe-Client-Datenschicht nicht lesen, die ihre Daten in einem berechneten Status speichert, anstatt in den Objekteigenschaften.
 
 ## Nächste Schritte
 
