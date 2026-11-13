@@ -45,7 +45,7 @@ Nachdem Ihr Unternehmen eine Datenschicht auf Ihrer Site eingerichtet und implem
 
 [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=de) sind Komponenten in der Adobe Experience Platform-Datenerfassung, die Sie im gesamten Tool verwenden können. Mithilfe von Datenelementen können Sie Variablenwerte in der Adobe Analytics-Erweiterung zuweisen.
 
-In den folgenden Schritten wird die [Adobe Client-Datenschicht-Erweiterung](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview) verwendet, die in Ihrer Tag-Eigenschaft installiert werden muss.
+In den folgenden Schritten wird die [Adobe Client-Datenschicht-Erweiterung](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/client-data-layer/overview) verwendet, die in Ihrer Tag-Eigenschaft installiert werden muss.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 1. Wählen Sie die gewünschte Tag-Eigenschaft aus.
