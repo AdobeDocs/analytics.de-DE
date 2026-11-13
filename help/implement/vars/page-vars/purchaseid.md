@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 78%
+source-wordcount: '388'
+ht-degree: 73%
 ---
 # purchaseID
 
@@ -77,10 +77,10 @@ Diese Variable kann maximal 20 Byte speichern. Werte, die länger als 20 Byte si
 s.purchaseID = "ABC123";
 ```
 
-Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
+Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [ Aufrufs finden Sie unter „Lesen ](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
 
 ```js
-s.purchaseID = digitalData.transaction.transactionID;
+s.purchaseID = adobeDataLayer.getState("transaction.id");
 ```
 
 >[!CAUTION]

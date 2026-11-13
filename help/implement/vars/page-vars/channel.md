@@ -1,6 +1,6 @@
 ---
 title: channel
-description: Füllen Sie die Dimension „Website-Bereiche“.
+description: Füllen Sie die Dimension „Site-Bereiche“ aus.
 feature: Appmeasurement Implementation
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
@@ -28,14 +28,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 83%
+source-wordcount: '217'
+ht-degree: 73%
 ---
 # channel
 
-Die `channel`-Variable speichert normalerweise den Abschnitt der Website, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich, zu bestimmen, welche Gruppen Ihrer Website am beliebtesten sind. Diese Variable füllt die Dimension „Website-Bereiche“.
+Die `channel`-Variable speichert normalerweise den Abschnitt der Website, auf dem sich eine bestimmte Seite befindet. Es ist hilfreich, zu bestimmen, welche Gruppen Ihrer Site am beliebtesten sind. Diese Variable füllt die Dimension „Site-Bereiche“ aus.
 
 ## Kanal, der die Web-SDK verwendet
 
@@ -46,7 +46,7 @@ Der Kanal ist den folgenden Variablen zugeordnet:
 
 ## Kanal, der die Adobe Analytics-Erweiterung verwendet
 
-Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
+Sie können `channel` entweder beim Konfigurieren der Adobe Analytics-Erweiterung (globale Variablen) oder unter Regeln festlegen.
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/data-collection) mit Ihren Adobe ID-Anmeldeinformationen an.
 2. Klicken Sie auf die gewünschte Tag-Eigenschaft.
@@ -55,7 +55,7 @@ Sie können „channel“ entweder beim Konfigurieren der Analytics-Erweiterung 
 5. Wählen Sie im Dropdown-Menü [!UICONTROL Erweiterung] die Option „Adobe Analytics“ aus und legen Sie den [!UICONTROL Aktionstyp] auf [!UICONTROL Variablen festlegen] fest.
 6. Suchen Sie den Abschnitt [!UICONTROL Kanal].
 
-Sie können „channel“ auf einen beliebigen Zeichenfolgenwert oder ein beliebiges Datenelement einstellen.
+Sie können `channel` auf eine beliebige Zeichenfolge oder ein beliebiges Datenelement festlegen.
 
 ## s.channel in AppMeasurement und der benutzerdefinierte Code-Editor der Analytics-Erweiterung
 
@@ -65,8 +65,8 @@ Die `s.channel`-Variable ist eine Zeichenfolge, die normalerweise den Website-Be
 s.channel = "Example site section";
 ```
 
-Bei Verwendung der `digitalData` [Datenschicht](../../prepare/data-layer.md):
+Wenn Sie die [Adobe Client-Datenschicht](../../prepare/data-layer.md) verwenden, lesen Sie den Wert mit `getState()`. Informationen [ Aufrufs finden Sie unter „Lesen ](../../prepare/data-layer.md#appmeasurement) Datenschicht mit AppMeasurement&quot;.
 
 ```js
-s.channel = digitalData.page.category.primaryCategory;
+s.channel = adobeDataLayer.getState("page.section");
 ```
