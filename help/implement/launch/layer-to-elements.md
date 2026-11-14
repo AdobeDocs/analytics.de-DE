@@ -59,7 +59,7 @@ In den folgenden Schritten wird die [Adobe Client-Datenschicht-Erweiterung](http
 1. Wählen **[!UICONTROL unter &quot;]**&quot; die Option **[!UICONTROL Spezifischer Pfad]** aus und geben Sie dann den Pfad zum Wert in Ihrer Datenschicht ein, z. B. `page.name`. Um einen Pfad zu validieren, führen Sie `adobeDataLayer.getState("page.name")` in der Konsole Ihres Browsers aus.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-Verwenden Sie diese Datenelemente in Regeln, die die Ereignis-Trigger **[!UICONTROL Datenschicht-Push]** der Erweiterung enthalten, sodass die Datenschicht geladen wurde und die Daten aus der Push-Benachrichtigung enthält. Siehe [Datenelementtypen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)
+Verwenden Sie diese Datenelemente in Regeln, die die Ereignis-Trigger **[!UICONTROL Datenschicht-Push]** der Erweiterung enthalten, sodass die Datenschicht geladen wurde und die Daten aus der Push-Benachrichtigung enthält. Siehe [Datenelementtypen](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)
 
 ### Objektbasierte Datenschichten {#object-based}
 
