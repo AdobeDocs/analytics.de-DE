@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -74,8 +74,6 @@ Allgemeine Informationen zum Datenwörterbuch finden Sie unter [Datenwörterbuch
 >
 
 ## Beschreibungen automatisch generieren
-
-{{release-limited-testing-section}}
 
 Anstatt jede Beschreibung manuell zu schreiben, kann Adobe Analytics generative KI verwenden, um Beschreibungen für Sie zu schreiben. Sie können für eine einzelne Komponente eine Beschreibung oder für viele Komponenten gleichzeitig Beschreibungen erstellen.
 
