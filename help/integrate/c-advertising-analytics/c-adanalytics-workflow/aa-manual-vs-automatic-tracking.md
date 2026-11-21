@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 25%
-
 ---
-
 # Tracking-Typ
 
 Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmaschinendaten verfolgt. Dieser Tracking-Typ ist ein erforderlicher Schritt, um die Adobe Analytics-Daten ordnungsgemäß um Suchmaschinendaten zu erweitern.
@@ -42,11 +40,11 @@ Der Tracking-Typ bestimmt, wie die Adobe Analytics-Implementierung Ihre Suchmasc
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
-Es werden zwei Tracking-Modi unterstützt[!UICONTROL &#x200B; „Auto] und [!UICONTROL Manuell].
+Es werden zwei Tracking-Modi unterstützt[!UICONTROL  „Auto] und [!UICONTROL Manuell].
 
 ## [!UICONTROL Auto]-Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
@@ -61,7 +59,7 @@ Beachten Sie, dass Sie für die Konfiguration eines Suchmaschinenkontos mit **[!
 
 >[!IMPORTANT]
 >
->Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/de/docs/id-service/using/reference/csp) hinzufügen sollten.
+>Erfahren Sie mehr darüber, ob Sie den Parameter `s_kwcid` zu Ihrer [Richtlinie zur Inhaltssicherheit](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp) hinzufügen sollten.
 
 ## Manuelles Tracking {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -69,7 +67,7 @@ Mit dem manuellen Tracking können Sie festlegen, wie die Suchmaschinendaten im 
 
 ### Manuelles Tracking zu Google-Konto hinzufügen {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
-Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Google-Konto hinzugefügt werden muss. Sie müssen die Zeichenfolge zu allen Tracking-Vorlagen hinzufügen, die innerhalb Ihres Kontos verwendet werden.
+Weiter unten finden Sie die Zeichenfolge, die zu Ihrem Google-Account hinzugefügt werden muss. Sie müssen die Zeichenfolge zu allen Tracking-Vorlagen hinzufügen, die innerhalb Ihres Kontos verwendet werden.
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Google Ads-Kampagnen-Trackingcode](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 Beispiele für Trackingcodes in verschiedenen Tracking-Vorlagenformaten:
 
@@ -118,11 +116,11 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 ### Manuelles Tracking zum Microsoft Advertising-Konto hinzufügen {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-Die Zeichenfolge, die Ihrem Microsoft Advertising-Konto hinzugefügt werden muss, wird unten angezeigt. Sie müssen die Zeichenfolge zu allen finalen URL-Suffixen hinzufügen, die innerhalb Ihres Kontos verwendet werden.
+Die Zeichenfolge, die Ihrem Microsoft Advertising-Konto hinzugefügt werden muss, wird unten angezeigt. Sie müssen die Zeichenfolge zu allen finalen URL-Suffixen hinzufügen, die innerhalb Ihres Accounts verwendet werden.
 
 >[!IMPORTANT]
 >
->Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**&#x200B;müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
+>Der Wert _`<Advertising Analytics ID>`_(unten in **Fettschrift**) ist nur ein allgemeiner Wert, den Sie **durch Ihre Konto-ID-Zeichenfolge ersetzen**müssen. Sie können Ihre spezifische Konto-ID-Zeichenfolge aus dem Kontobildschirm unter dem Abschnitt „Tracking“ abrufen.
 
 **Tracking-String für Kampagnen:**
 
