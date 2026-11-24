@@ -92,7 +92,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Kohortenanalys
 >
 >Die [!UICONTROL Kohortenanalyse] unterstützt keine nicht filterbaren Metriken (einschließlich berechneter Metriken), nicht ganzzahlige Metriken (z. B. Umsatz) oder Vorkommnisse. In der [!UICONTROL Kohortenanalyse] können nur Metriken verwendet werden, die auch in Filtern verwendet werden können. Außerdem können diese Metriken jeweils nur um 1 inkrementiert werden.
 
-Kohortentabellen in Adobe Analytics unterstützen doppelbasierte (oder beliebige numerische) Metriken. Beispielsweise kann „Purchase.Value“ (eine Dublette) als Einschluss-/Rückgabemetrik verwendet werden. Darüber hinaus sind alle Metriken, die über den Analytics-Quell-Connector an Adobe Experience Platform übergeben werden, ebenfalls Dubletten.
+Kohortentabellen in Adobe Analytics unterstützen doppelbasierte (oder beliebige numerische) Metriken. Beispielsweise kann „Purchase.Value“ (ein Double) als Einschluss-/Rückgabe-Metrik verwendet werden. Darüber hinaus sind alle Metriken, die über den Analytics-Quell-Connector an Adobe Experience Platform übergeben werden, ebenfalls Dubletten.
 
 ## Funktionen der Kohortentabelle
 

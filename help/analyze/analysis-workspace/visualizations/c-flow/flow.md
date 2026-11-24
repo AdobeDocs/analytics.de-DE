@@ -34,7 +34,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_button"
 >title="Fluss"
->abstract="Erstellen Sie eine Visualisierung, um den Personenfluss von einem Checkpoint zum nächsten anzuzeigen."
+>abstract="Erstellen Sie eine Visualisierung, um den Fluss von Personen von einem Checkpoint zum nächsten anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
@@ -54,7 +54,7 @@ Die ![GraphPathing](/help/assets/icons/GraphPathing.svg) Visualisierung **[!UICO
 
 Mit der Visualisierung können Sie:
 
-* Die Customer Journey durch Ihre Website oder Ihr Programm visualisieren.
+* Visualisieren Sie die Customer Journey auf Ihrer Website oder in Ihrer Anwendung.
 * Analysieren, wohin Kundinnen und Kunden vor und nach festgelegten Checkpoints navigieren, wie zum Beispiel Einstieg, eine bestimmte Dimension oder Ausstieg.
 * Erstellen Sie Segmente, indem Sie einen bestimmten Punkt in einem ausgewählten Pfad angeben.
 
@@ -71,7 +71,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisi
 
 Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) anzeigen. So können Sie beispielsweise in einem Diagramm Seiten mit Abteilungen kombinieren. In diesem Fall würde der Fluss von der Startseite zur Seite „Männer“ und dann zur Abteilung „Schuhe“ verlaufen.
 
-Jede Spalte kann eine andere Dimension aufweisen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
+Jede Spalte kann eine andere Dimension aufweisen. Ziehen Sie eine Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
 >[!MORELIKETHIS]
 >
