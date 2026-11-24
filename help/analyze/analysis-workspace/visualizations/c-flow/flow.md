@@ -34,19 +34,19 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_button"
 >title="Fluss"
->abstract="Erstellen Sie eine Visualisierung, um den Personenfluss von einem Checkpoint zum nächsten anzuzeigen."
+>abstract="Erstellen Sie eine Visualisierung, um den Fluss von Personen von einem Checkpoint zum nächsten anzuzeigen."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Fluss"
->abstract="Analysieren Sie den Besuchs- oder Besucherfluss von einem Touchpoint zum nächsten.<br/><br/>**Parameter &#x200B;**<br/>**Beginnt mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten vorkommenden Touchpoints nach dem Vorkommen der ausgewählten Komponente anzuzeigen.<br/>**Enthält**: Fügen Sie eine Dimension oder ein Dimensionselement hinzu, um die am häufigsten vorkommenden Touchpoints vor und nach dem Vorkommen der ausgewählten Komponente anzuzeigen.<br/>**Endet mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten auftretenden Touchpoints vor dem Auftreten der ausgewählten Komponente anzuzeigen.<br/>**Pfaddimension**: Fügen Sie eine Dimension hinzu, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von dieser weg führt."
+>abstract="Analysieren Sie den Besuchs- oder Besucherfluss von einem Touchpoint zum nächsten.<br/><br/>**Parameter **<br/>**Beginnt mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten vorkommenden Touchpoints nach dem Vorkommen der ausgewählten Komponente anzuzeigen.<br/>**Enthält**: Fügen Sie eine Dimension oder ein Dimensionselement hinzu, um die am häufigsten vorkommenden Touchpoints vor und nach dem Vorkommen der ausgewählten Komponente anzuzeigen.<br/>**Endet mit**: Fügen Sie eine Dimension, ein Dimensionselement oder eine Metrik hinzu, um die am häufigsten auftretenden Touchpoints vor dem Auftreten der ausgewählten Komponente anzuzeigen.<br/>**Pfaddimension**: Fügen Sie eine Dimension hinzu, die als Pfad verwendet werden soll, der zu der ausgewählten Komponente führt oder von dieser weg führt."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird die Flussvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Flow](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**-Version dieses Artikels._
+_In diesem Artikel wird die Flussvisualisierung in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Flow](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)_ für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**-Version dieses Artikels._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Die ![GraphPathing](/help/assets/icons/GraphPathing.svg) Visualisierung **[!UICO
 
 Mit der Visualisierung können Sie:
 
-* Die Customer Journey durch Ihre Website oder Ihr Programm visualisieren.
+* Visualisieren Sie die Customer Journey auf Ihrer Website oder in Ihrer Anwendung.
 * Analysieren, wohin Kundinnen und Kunden vor und nach festgelegten Checkpoints navigieren, wie zum Beispiel Einstieg, eine bestimmte Dimension oder Ausstieg.
 * Erstellen Sie Segmente, indem Sie einen bestimmten Punkt in einem ausgewählten Pfad angeben.
 
@@ -62,7 +62,7 @@ Mit der Visualisierung können Sie:
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisierung](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -71,7 +71,7 @@ Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flussvisualisi
 
 Sie können den [Fluss zwischen Dimensionen](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) anzeigen. So können Sie beispielsweise in einem Diagramm Seiten mit Abteilungen kombinieren. In diesem Fall würde der Fluss von der Startseite zur Seite „Männer“ und dann zur Abteilung „Schuhe“ verlaufen.
 
-Jede Spalte kann eine andere Dimension aufweisen. Ziehen Sie einen Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
+Jede Spalte kann eine andere Dimension aufweisen. Ziehen Sie eine Dimension per Drag-and-Drop in eine Dropzone, um diese Dimension zum Diagramm hinzuzufügen.
 
 >[!MORELIKETHIS]
 >
@@ -83,7 +83,7 @@ Jede Spalte kann eine andere Dimension aufweisen. Ziehen Sie einen Dimension per
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen bei der Flussvisualisierung](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Zusätzliche Funktionen bei der Flussvisualisierung](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 

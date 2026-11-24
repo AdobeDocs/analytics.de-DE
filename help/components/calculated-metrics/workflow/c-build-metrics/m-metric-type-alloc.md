@@ -27,11 +27,9 @@ topic_v2:
     internal-label: Customer engagement
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '615'
 ht-degree: 100%
-
 ---
-
 # Metriktyp und Attribution {#metric-type-attribution}
 
 Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für eine Metrik in der Definition einer berechneten Metrik konfigurieren.
@@ -46,7 +44,7 @@ Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für
      | Metriktyp | Definition |
      |---|---|
      | **[!UICONTROL Standard]** | Wenn eine Formel aus einer einzelnen Standardmetrik besteht, zeigt sie die gleichen Daten wie das nicht berechnete Metrikgegenstück an. Standardmetriken eignen sich zum Erstellen berechneter Metriken, die speziell für die einzelnen Zeileneinträge gelten. <p>Zum Beispiel teilt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Geteilt durch](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** die Bestellungen für diesen spezifischen Zeileneintrag durch die Anzahl der Besuche für diesen spezifischen Zeileneintrag. |
-     | **[!UICONTROL Gesamtsumme]** | Verwenden Sie die **[!UICONTROL Gesamtsumme]** für den Berichtszeitraum in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Gesamtsummenmetrik besteht, zeigt sie dieselbe Gesamtsummenzahl für jeden Zeileneintrag an. Gesamtsummenmetriken sind hilfreich, wenn Sie berechnete Metriken erstellen möchten, die mit den Gesamtdaten verglichen werden. <p>Zum Beispiel zeigt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Geteilt durch](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Gesamtbesuche]** den Anteil der Bestellungen im Verhältnis zu allen Besuchen und nicht nur die Besuche für den spezifischen Zeileneintrag an. In diesem Beispiel geben Sie die **[!UICONTROL Gesamtsumme]** für die Metrik ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** in Ihrer berechneten Metrik an, die sie automatisch in ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Gesamtbesuche]** umwandelt. |
+     | **[!UICONTROL Gesamtsumme]** | Verwenden Sie die **[!UICONTROL Gesamtsumme]** für den Berichtszeitraum in jedem Zeileneintrag. Wenn eine Formel aus einer einzelnen Gesamtsummen-Metrik besteht, zeigt die berechnete Metrik für jeden Zeileneintrag dieselbe Gesamtsumme an. Gesamtsummenmetriken sind hilfreich, wenn Sie berechnete Metriken erstellen möchten, die mit den Gesamtdaten verglichen werden. <p>Zum Beispiel zeigt ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Bestellungen]** ![Geteilt durch](/help/assets/icons/Divide.svg) ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Gesamtbesuche]** den Anteil der Bestellungen im Verhältnis zu allen Besuchen und nicht nur die Besuche für den spezifischen Zeileneintrag an. In diesem Beispiel geben Sie die **[!UICONTROL Gesamtsumme]** für die Metrik ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Besuche]** in Ihrer berechneten Metrik an, die sie automatisch in ![Ereignis](/help/assets/icons/Event.svg) **[!UICONTROL Gesamtbesuche]** umwandelt. |
 
    * Geben Sie die **[!UICONTROL Attribution]** an.
 
@@ -59,7 +57,7 @@ Sie können den Metriktyp und das [Attributionsmodell](#attribution-models) für
           * Wählen Sie einen **[!UICONTROL Container]** aus den Optionen für [Container](#container) aus.
           * Wählen Sie ein **[!UICONTROL Lookback-Fenster]** aus den Optionen für [Lookback-Fenster](#lookback-window) aus. Wenn Sie **[!UICONTROL Benutzerdefinierte Zeit]** auswählen, können Sie den Zeitraum in **[!UICONTROL Minuten]** bis zu **[!UICONTROL Quartalen]** festlegen.
 
-     1. Wählen Sie **[!UICONTROL Anwenden]**, um das nicht standardmäßige Attributionsmodell anzuwenden. Wählen Sie zum Abbrechen die Option „Abbrechen“ aus.
+     1. Wählen Sie **[!UICONTROL Anwenden]**, um das nicht standardmäßige Attributionsmodell anzuwenden. Wählen Sie „Abbrechen“ aus, um abzubrechen.
 
      Wenn Sie bereits ein nicht standardmäßiges Attributionsmodell definiert haben, wählen Sie **[!UICONTROL Bearbeiten]** aus, um die Auswahl zu ändern.
 
@@ -70,8 +68,8 @@ Unter [Beispiel](#example) finden Sie ein Beispiel für die Verwendung von Attri
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Nicht standardmäßiges Attributionsmodell verwenden"
->abstract="Aktivieren Sie ein nicht standardmäßiges Attributionsmodell für die ausgewählte Metrik."
+>title="Nicht standardmäßiges Attribution-Modell verwenden"
+>abstract="Aktivieren Sie ein nicht standardmäßiges Attribution-Modell für die ausgewählte Metrik."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -81,7 +79,7 @@ Unter [Beispiel](#example) finden Sie ein Beispiel für die Verwendung von Attri
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Letztkontakt"
->abstract="Die Credits gehen zu 100 % an den letzten Dimensionswert, den eine Besucherin bzw. ein Besucher gesehen hat."
+>abstract="Die Credits gehen zu 100 % an den letzten Wert der Dimension, den einen Besucher oder eine Besucherin gesehen hat."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
@@ -91,12 +89,12 @@ Unter [Beispiel](#example) finden Sie ein Beispiel für die Verwendung von Attri
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Linear"
->abstract="Die Credits werden gleichmäßig auf alle Dimensionswerte verteilt."
+>abstract="Die Credits werden gleichmäßig auf alle Werte der Dimension verteilt."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Beitrag"
->abstract="Die Credits gehen zu 100 % an jeden Dimensionswert, der von einer Besucherin oder einem Besucher gesehen wird.<br/>Spaltensummen werden erhöht."
+>abstract="Die Credits gehen zu 100 % an jeden Dimensionswert (Dimension), der von einem Besucher oder einer Besucherin gesehen wird.<br/>Spaltensummen werden erhöht."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
@@ -171,7 +169,7 @@ Unter [Beispiel](#example) finden Sie ein Beispiel für die Verwendung von Attri
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Lookback-Fenster"
->abstract="Diese Einstellung bestimmt das Fenster der Datenattribution, das für jede Konversion angewendet wird."
+>abstract="Diese Einstellung bestimmt das Fenster der Attribution von Daten, das für jede Konversion angewendet wird."
 
 {{attribution-lookback-window}}
 

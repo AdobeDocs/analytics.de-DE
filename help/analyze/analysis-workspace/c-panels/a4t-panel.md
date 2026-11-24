@@ -43,7 +43,7 @@ workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 94%
 ---
-# Analytics for Target-Bedienfeld {#analyze-for-target-panel}
+# Analytics for Target-Panel {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -58,23 +58,23 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Analytics for Target-Bedienfeld"
->abstract="Analysieren Sie Target-Aktivitäten und -Erlebnisse in Analysis Workspace.<br/><br>**Parameter &#x200B;**<br/>**Target-Aktivität**: Die Target-Aktivität, die analysiert wird.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
+>title="Analytics for Target-Panel"
+>abstract="Analysieren Sie Target-Aktivitäten und -Erlebnisse in Analysis Workspace.<br/><br>**Parameter **<br/>**Target-Aktivität**: Die Target-Aktivität, die analysiert wird.<br/>**Kontrollerlebnis**: Das Kontrollerlebnis für die ausgewählte Target-Aktivität.<br/>**Normalisierungsmetrik**: Besuchende, Besuche oder Impressions. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird.<br/>**Erfolgsmetrik**: Bis zu 3 standardmäßige (nicht berechnete) Erfolgsmetriken zur Analyse der Target-Aktivität."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Siehe [Experimentier-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)_ für Informationen zum Vergleich verschiedener Benutzererlebnisse, Marketing- oder Messaging-Variationen in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_In diesem Artikel wird das Bedienfeld „Analytics for Target“ in_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Siehe [Experimentier-Bedienfeld](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)_ für Informationen zum Vergleich verschiedener Benutzererlebnisse, Marketing- oder Messaging-Variationen in ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. Das Bedienfeld ermöglicht Ihnen außerdem, Steigerung und Konfidenz für bis zu drei Erfolgsmetriken zu sehen. Um auf das Bedienfeld „Analytics for Target“ zuzugreifen, navigieren Sie zu einer Report Suite, während Komponenten von Analytics for Target aktiviert sind. Wählen Sie dann das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld „Analytics for Target“ in das Analysis Workspace-Projekt.
+Im Bedienfeld „Analytics for Target“ können Sie Ihre Adobe Target-Aktivitäten und -Erlebnisse in Analysis Workspace analysieren. Das Panel ermöglicht Ihnen außerdem, Steigerung und Konfidenz für bis zu drei Erfolgsmetriken zu sehen. Um auf das Panel „Analytics for Target“ zuzugreifen, navigieren Sie zu einer Report Suite, in der Komponenten von Analytics for Target aktiviert sind. Wählen Sie dann das Bedienfeldsymbol ganz links und ziehen Sie das Bedienfeld „Analytics for Target“ in das Analysis Workspace-Projekt.
 
 
 >[!BEGINSHADEBOX]
 
-Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Analytics for Target“](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
+Unter ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Bedienfeld „Analytics for Target“](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} finden Sie ein Demovideo.
 
 >[!ENDSHADEBOX]
 
@@ -90,22 +90,22 @@ So verwenden Sie das Bedienfeld **[!UICONTROL Analytics for Target]**:
 
 ### Panel-Eingabe {#panel-nput}
 
-Sie können das Bedienfeld „Analytics for Target“ mithilfe der folgenden Eingabeeinstellungen konfigurieren:
+Sie können das „Analytics for Target“-Panel mithilfe der folgenden Eingabeeinstellungen konfigurieren:
 
 ![A4T-Bedienfeld-Eingabe](assets/a4t-panel-input.png)
 
 | Einstellung | Beschreibung |
 |---|---|
-| **[!UICONTROL Target-Aktivität]** | Treffen Sie Ihre Auswahl aus einer Liste mit Zielaktivitäten. Die Liste wird mit den Aktivitäten der letzten sechs Monate gefüllt, die mindestens einen Treffer hatten. Wenn Sie eine Aktivität nicht in der Liste sehen, ist sie möglicherweise älter als 6 Monate. Sie kann immer noch von der linken Leiste hinzugefügt werden, die einen Lookback-Zeitraum von bis zu 18 Monaten hat. |
+| **[!UICONTROL Target-Aktivität]** | Wählen Sie aus einer Liste mit Target-Aktivitäten aus. Die Liste wird mit den Aktivitäten der letzten sechs Monate gefüllt, die mindestens einen Treffer hatten. Wenn Sie eine Aktivität nicht in der Liste sehen, ist sie möglicherweise älter als 6 Monate. Sie kann immer noch von der linken Leiste hinzugefügt werden, die einen Lookback-Zeitraum von bis zu 18 Monaten hat. |
 | **[!UICONTROL Kontrollerlebnis]** | Wählen Sie das Kontrollerlebnis aus. |
 | **[!UICONTROL Normalisierungsmetrik]** | Wählen Sie Besuchende, Besuche oder Impressionen aus. Für die meisten Anwendungsfälle der Analyse wird [!UICONTROL Besucher] empfohlen. Diese Metrik (auch als Zählmethodik bezeichnet) wird zum Nenner der Steigerungsberechnung. Sie wirkt sich auch darauf aus, wie die Daten aggregiert werden, bevor die Konfidenzberechnung angewendet wird. |
-| **[!UICONTROL Erfolgsmetriken]** | Wählen Sie bis zu drei standardmäßige (nicht berechnete) Erfolgsereignisse aus dem Dropdown-Menü aus oder ziehen Sie Metriken per Drag-and-Drop aus „Metriken“ der Leiste „Komponenten“. Jede Metrik verfügt über eine eigene Tabelle und Visualisierung im gerenderten Bedienfeld. |
+| **[!UICONTROL Erfolgsmetriken]** | Wählen Sie bis zu drei Standard-Erfolgsereignisse (nicht berechnet) aus dem Dropdown-Menü aus oder ziehen Sie Metriken per Drag-and-Drop aus „Metriken“ in der Leiste „Komponenten“. Jede Metrik verfügt über eine eigene Tabelle und Visualisierung im gerenderten Panel. |
 
 Wählen Sie **[!UICONTROL Erstellen]** aus, um das Panel zu erstellen.
 
 ### Panel-Ausgabe {#panel-output}
 
-Das Bedienfeld „Analytics for Target“ enthält umfangreiche Daten und Visualisierungen, die Ihnen helfen, die Leistung Ihrer Adobe Target-Aktivität und -Erlebnisse besser zu verstehen. Oben im Bedienfeld wird eine Zusammenfassungszeile angezeigt, die Sie an die ausgewählten Bedienfeldeinstellungen erinnert. Für jede ausgewählte Erfolgsmetrik wird eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) und eine [Linienvisualisierung](/help/analyze/analysis-workspace/visualizations/line.md) mit dem Konversionsraten-Trend anzeigt:
+Das „Analytics for Target“-Panel liefert umfangreiche Daten und Visualisierungen, die Ihnen helfen, die Leistung Ihrer Adobe Target-Aktivität und -Erlebnisse besser zu verstehen. Oben im Panel wird eine Zusammenfassungszeile angezeigt, die Sie an die von Ihnen ausgewählten Panel-Einstellungen erinnert. Für jede ausgewählte Erfolgsmetrik wird eine [Freiformtabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) und eine [Linienvisualisierung](/help/analyze/analysis-workspace/visualizations/line.md) mit dem Konversionsraten-Trend anzeigt:
 
 ![Gerendert](assets/a4t-panel-output.png)
 
@@ -113,16 +113,16 @@ Für jede Freiformtabelle werden die folgenden Metrikspalten angezeigt:
 
 | Metrik | Beschreibung |
 |---|---|
-| **[!UICONTROL Normalisierungsmetriken]** | Die im Eingabebedienfeld ausgewählte Normalisierungsmetrik: Unique Visitors, Besuche oder Aktivitätsimpressionen. |
-| **[!UICONTROL Erfolgsmetrik]** | Die im Eingabebedienfeld ausgewählte Erfolgsmetrik. |
+| **[!UICONTROL Normalisierungsmetriken]** | Die im Eingabepanel ausgewählte Normalisierungsmetrik: Unique Visitors, Visits oder Activity Impressions. |
+| **[!UICONTROL Erfolgsmetrik]** | Die im Eingabepanel ausgewählte Erfolgsmetrik. |
 | **[!UICONTROL Konversionsrate]** | Die Erfolgsmetrik/Normalisierungsmetrik. |
 | **[!UICONTROL Steigerung]** | Vergleicht für jedes Erlebnis die Konversionsrate mit dem Kontrollerlebnis. Hinweis: Steigerung ist eine *gesperrte Metrik* für „Target-Erlebnisse“. Sie kann nicht aufgeschlüsselt oder mit anderen Dimensionen verwendet werden. |
 | **[!UICONTROL Steigerung (Mindestwert)]** | Dieser Wert stellt die schlechteste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
 | **[!UICONTROL Steigerung (mittlerer Wert)]** | Dieser Wert stellt die mittlere Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte. <br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
 | **[!UICONTROL Steigerung (Maximalwert)]** | Dieser Wert stellt die beste Steigerung dar, die ein Variantenerlebnis bei einem Konfidenzintervall von 95 % im Vergleich zum Kontrollerlebnis aufweisen könnte.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
-| **[!UICONTROL Konfidenz]** | Die Student-t-Verteilung berechnet das Konfidenzniveau, das die Wahrscheinlichkeit angibt, mit der ein Test bei seiner Wiederholung dieselben Ergebnisse liefert. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erlebnisse. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
+| **[!UICONTROL Konfidenz]** | Der Student-t-Test berechnet das Konfidenzniveau, das angibt, mit welcher Wahrscheinlichkeit dieselben Ergebnisse erzielt würden, wenn der Test erneut durchgeführt würde. Ein fester bedingter Formatierungsbereich von 75 %/85 %/95 % wurde auf die Metrik angewandt. Diese Formatierung kann bei Bedarf unter „Spalteneinstellungen“ angepasst werden. Hinweis: Konfidenz ist eine „gesperrte Metrik“ für Target-Erfahrungen. Sie kann nicht mit anderen Dimensionen aufgeschlüsselt oder verwendet werden.<br>Weitere Informationen finden Sie in den Excel-Dateien [Statistical calculations](https://experienceleague.adobe.com/de/docs/target/using/reports/statistical-methodology/statistical-calculations) und [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx). |
 
-Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen. Sie können ein Segment auch entweder auf Panel-Ebene oder innerhalb der Freiformtabelle anwenden. Beachten Sie, dass Sie beim Hinzufügen in der Freiformtabelle eine Überlagerung über die gesamte Tabelle durchführen müssen, um die Steigerungs- und Konfidenzberechnungen beizubehalten. Segmente auf Spaltenebene werden derzeit nicht unterstützt.
+Wie bei allen Bedienfeldern in Analysis Workspace können Sie Ihre Analyse fortsetzen, indem Sie zusätzliche Tabellen und [Visualisierungen](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) hinzufügen, die Ihnen bei der Analyse Ihrer Adobe Target-Aktivitäten helfen. Sie können ein Segment auch entweder auf Panel-Ebene oder innerhalb der Freiformtabelle anwenden. Beachten Sie, dass Sie beim Hinzufügen in der Freiformtabelle diese auf die gesamte Tabelle anwenden müssen, um die Lift- und Konfidenzberechnungen beizubehalten. Segmente auf Spaltenebene werden derzeit nicht unterstützt.
 
 Verwenden Sie ![Bearbeiten](/help/assets/icons/Edit.svg), um das Bedienfeld neu zu konfigurieren und neu zu erstellen.
 
@@ -131,11 +131,11 @@ Verwenden Sie ![Bearbeiten](/help/assets/icons/Edit.svg), um das Bedienfeld neu 
 | Frage | Antwort |
 |---|---|
 | Welche Aktivitätstypen werden in Analytics for Target unterstützt? | [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) darüber, welche Aktivitäten unterstützt werden. |
-| Werden berechnete Metriken bei Steigerungs- und Konfidenzberechnungen unterstützt? | Nein. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) darüber, warum berechnete Metriken bei Steigerung und Konfidenz nicht unterstützt werden. Berechnete Metriken können jedoch außerhalb dieser Metriken in Analytics for Target-Berichten verwendet werden. |
-| Warum unterscheiden sich Unique Visitors zwischen Target und Analytics? | [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) über die Unterschiede zwischen Unique Visitors in den Produkten. |
-| Warum werden nicht verwendete Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Treffersegment für eine bestimmte Target-Aktivität anwende? | Die Analytics for Target-Dimension ist eine Listenvariable, d. h., sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Weitere Infos](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
-| Berücksichtigt die Konfidenzmetrik extreme Bestellungen oder wendet sie eine Bonferroni-Korrektur für mehrere Bestellungen an? | Nein. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) darüber, wie Analytics Konfidenz berechnet. |
+| Werden berechnete Metriken bei Steigerungs- und Konfidenzberechnungen unterstützt? | Nein. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) darüber, warum berechnete Metriken bei Steigerung und Konfidenz nicht unterstützt werden. Berechnete Metriken können jedoch außerhalb dieser Metriken in Berichten in Analytics for Target verwendet werden. |
+| Warum unterscheiden sich eindeutige Besuchende zwischen Target und Analytics? | [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) über die Unterschiede zwischen Unique Visitors in den Produkten. |
+| Warum werden nicht zugehörige Erlebnisse zurückgegeben, wenn ich in meiner Analyse ein Treffersegment für eine bestimmte Target-Aktivität anwende? | Die Analytics for Target-Dimension ist eine Listenvariable, d. h., sie kann mehrere Aktivitäten (und Erlebnisse) gleichzeitig enthalten. [Weitere Infos](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
+| Berücksichtigt die Konfidenzmetrik extreme Ausreißer oder wendet sie eine Bonferroni-Korrektur für mehrere Angebote an? | Nein. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) darüber, wie Analytics Konfidenz berechnet. |
 | Können Steigerungs- und Konfidenzmetriken mit anderen Dimensionen oder Aufschlüsselungen verwendet werden? | Steigerung und Konfidenz sind „gesperrte Metriken“ für die Dimension „Target-Erlebnisse“, da sie ein Kontrollerlebnis und ein Variantenerlebnis für die Berechnung erfordern. Sie können daher nicht aufgeschlüsselt oder mit anderen Dimensionen verwendet werden. |
-| Wann werden Steigerung und Konfidenz neu berechnet? | Steigerung und Konfidenz werden bei jeder Erstellung des Bedienfelds, bei einer Änderung des Datumsbereichs des Bedienfelds oder bei Anwendung eines Segments auf das Bedienfeld oder die Tabelle neu berechnet. Wenn Sie einen Segmentfilter auf die Freiformtabelle anwenden, muss das Segment über alle Spalten hinweg angewendet werden. Andernfalls wird die Steigerung oder Konfidenz nicht korrekt aktualisiert. Segmente auf Spaltenebene werden nicht unterstützt. |
+| Wann werden Steigerung und Konfidenz neu berechnet? | Steigerung und Konfidenz werden jedes Mal neu berechnet, wenn das Panel erstellt wird, sich der Datumsbereich des Panels ändert oder ein Segment auf das Panel oder die Tabelle angewendet wird. Wenn Sie einen Segmentfilter auf die Freiformtabelle anwenden, muss das Segment über alle Spalten hinweg angewendet werden. Andernfalls wird die Steigerung oder Konfidenz nicht korrekt aktualisiert. Segmente auf Spaltenebene werden nicht unterstützt. |
 
 Weitere Informationen zu Analytics for Target-Berichten finden Sie unter [Analytics for Target-Berichte](https://experienceleague.adobe.com/de/docs/target/using/integrate/a4t/reporting).

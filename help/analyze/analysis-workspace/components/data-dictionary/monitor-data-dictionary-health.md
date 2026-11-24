@@ -1,5 +1,5 @@
 ---
-description: Administrierende sind für die Überwachung des Zustands des Datenwörterbuchs zuständig. Dazu gehört auch, ob Komponenten Daten erfassen, genehmigt worden sind, Beschreibungen enthalten und frei von Duplikaten sind.
+description: Administrierende sind für das Monitoring der Gesundheit des Datenwörterbuchs zuständig. Dazu gehört auch, ob Komponenten Daten erfassen, genehmigt worden sind, Beschreibungen enthalten und frei von Duplikaten sind.
 title: Überwachen des Zustands des Datenwörterbuchs
 feature: Components
 role: Admin
@@ -33,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="Primäre Komponente freigeben"
->abstract="Wenn diese Option ausgewählt ist, wird die primäre Komponente für alle Benutzenden freigegeben, die Zugriff auf die duplizierten Komponenten haben (sowohl für die Verantwortlichen als auch für alle anderen Benutzenden, für die die Komponenten freigegeben sind). Diese Benutzenden können die primäre Komponente dann für zukünftige Projekte aus der Komponentenliste auswählen. Sie können die Komponente jedoch nicht bearbeiten, selbst wenn sie die Verantwortlichen einer duplizierten Komponente waren, die konsolidiert wurde. <br/>Diese Option ist nur verfügbar, wenn die primäre Komponente ein Segment, eine berechnete Metrik oder ein Datumsbereich ist. Metriken und Dimensionen sind stets für alle Benutzenden verfügbar.
+>abstract="Wenn diese Option ausgewählt ist, wird die primäre Komponente für alle Benutzenden freigegeben, die Zugriff auf die Duplikat-Komponenten haben (sowohl für die Verantwortlichen als auch für alle anderen Benutzenden, für die die Komponenten freigegeben sind). Diese Benutzenden können die primäre Komponente dann für zukünftige Projekte aus der Komponentenliste auswählen. Sie können die Komponente jedoch nicht bearbeiten, selbst wenn sie die Verantwortlichen einer Duplikat-Komponente waren, die konsolidiert wurde. <br/>Diese Option ist nur verfügbar, wenn die primäre Komponente ein Segment, eine berechnete Metrik oder ein Datumsbereich ist. Metriken und Dimensionen sind stets für alle Benutzenden verfügbar.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
@@ -48,9 +48,9 @@ ht-degree: 100%
 
 <!-- markdownlint-enable MD034 -->
 
-Analytics-Administrierende sind für einen guten Zustand des Datenwörterbuchs verantwortlich.
+Adobe Analytics-Administrierende sind für ein gesundes Datenwörterbuch verantwortlich.
 
-## Eigenschaften eines Datenwörterbuchs in gutem Zustand
+## Eigenschaften eines gesunden Datenwörterbuchs
 
 Ein Datenwörterbuch in gutem Zustand ist eines, in dem alle Komponenten:
 
